@@ -2556,7 +2556,7 @@
 	},
 	"6052": {
 		"metadata": "1b2b4c47d3f63618fc6ad7bd2742f5bc3e19b0a5",
-		"chartConfig": "ab454060afd562bcf7c076afee27871c2bdc3fe1",
+		"chartConfig": "42e13d4e5512be60e5963b108a59069f445e16a8",
 		"data": "32b5e1903f15521e68951384cc50c6f8cdf37668",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "765aa902077ea20c6685a69d33c8f57dd25e1f9c"
@@ -2583,8 +2583,8 @@
 		"template": "cbd8013f19a1f4d5c0c79409ed94273446c7d114"
 	},
 	"6056": {
-		"metadata": "70b5463c09f9d0ca32b44fdbe8a8e76ab96c0cbd",
-		"chartConfig": "26936ae0d55c409c3db8e48abb6e1479ab52f8dd",
+		"metadata": "ba3be6895b4ba8ceabbde57691fa4ed0cc57f5ca",
+		"chartConfig": "aa953fca5390233871c4ae31fbc0b9c166d3181f",
 		"data": "b3488016435d3f1c36938f140f1870ff091ba183",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "765aa902077ea20c6685a69d33c8f57dd25e1f9c"

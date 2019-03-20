@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#933F8D",
+      "color": "#008AC3",
       "stack": "m",
       "legendIndex": 3,
       "data": [
@@ -34,7 +34,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B475AB",
+      "color": "#00bAf3",
       "stack": "m",
       "legendIndex": 0,
       "data": [
@@ -67,7 +67,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#B00000",
       "stack": "w",
       "legendIndex": 4,
       "data": [
@@ -100,7 +100,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#d00000",
       "stack": "w",
       "legendIndex": 1,
       "data": [
@@ -133,7 +133,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#8a8a8a",
+      "color": "#474747",
       "stack": "t",
       "legendIndex": 5,
       "data": [
@@ -166,7 +166,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#c8c8c8",
+      "color": "#6F6F6F",
       "stack": "t",
       "legendIndex": 2,
       "data": [
@@ -251,7 +251,7 @@
     "marginTop": 100,
     "type": "column",
     "renderTo": "container-6056",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -282,7 +282,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -321,9 +321,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-7"
   },
   "legend": {
     "symbolRadius": 0,
