@@ -24,8 +24,8 @@
           76
         ],
         [
-          "2016",
-          76.5
+          "2017",
+          76.7
         ]
       ],
       "name": "Männer",
@@ -55,8 +55,8 @@
           68.7
         ],
         [
-          "2016",
-          71.6
+          "2017",
+          73
         ]
       ],
       "name": "Frauen",
@@ -86,8 +86,8 @@
           72.8
         ],
         [
-          "2016",
-          74.4
+          "2017",
+          76
         ]
       ],
       "name": "Schweiz",
@@ -117,8 +117,8 @@
           71.5
         ],
         [
-          "2016",
-          73.5
+          "2017",
+          73.2
         ]
       ],
       "name": "Ausland",
@@ -148,8 +148,8 @@
           72.3
         ],
         [
-          "2016",
-          74
+          "2017",
+          74.8
         ]
       ],
       "name": "Total",
@@ -206,7 +206,7 @@
     },
     "type": "column",
     "renderTo": "container-6052",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -276,9 +276,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-7"
   },
   "legend": {
     "symbolRadius": 0,
