@@ -49,12 +49,13 @@
 	 {"color": "#8A8A8A", index: 0}, /* */
   ],
  tooltip: {
+     shared: true,
   "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     },
   },  
   "chart": {
-  	//height: 600,
+  //	height: 600,
   	type: "column",
     inverted: false,
   }
