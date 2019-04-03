@@ -8,7 +8,8 @@
     },
     "yAxis": {
         "tickInterval": null,
-        "reversedStacks": false
+        "reversedStacks": false,
+        max: 100
     },   
     "series": [
         {
@@ -42,7 +43,7 @@
     "legend": {
         "layout": "horizontal",
         "verticalAlign": "top",
-        "itemMarginBottom": 5,     
+        "itemMarginBottom": 4,     
         "align": "left",
         //"x": 145,
         //"y": 70,
