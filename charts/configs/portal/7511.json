@@ -54,7 +54,7 @@
           810
         ]
       ],
-      "name": "meldepflichtig 2018",
+      "name": "Meldepflichtig 2018",
       "turboThreshold": 0
     },
     {
@@ -111,7 +111,7 @@
           308
         ]
       ],
-      "name": "nicht-meldepflichtig 2018",
+      "name": "Nicht meldepflichtig 2018",
       "turboThreshold": 0
     },
     {
@@ -168,7 +168,7 @@
           null
         ]
       ],
-      "name": "meldepflichtig 2019",
+      "name": "Meldepflichtig 2019",
       "turboThreshold": 0
     },
     {
@@ -225,7 +225,7 @@
           null
         ]
       ],
-      "name": "nicht-meldepflichtig 2019",
+      "name": "Nicht meldepflichtig 2019",
       "turboThreshold": 0
     }
   ],
