@@ -311,7 +311,8 @@
       }
     },
     "reversedStacks": false,
-    "tickAmount": 7
+    "tickAmount": 9,
+    "tickInterval": 200
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
