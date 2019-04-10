@@ -13,7 +13,7 @@
     "tickInterval": 1
   },
   "legend": {
-    itemDistance: 10,
+    itemDistance: 8,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
