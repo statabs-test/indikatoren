@@ -13,12 +13,12 @@
     "tickInterval": 1
   },
   "legend": {
-    itemDistance: 5,
+    itemDistance: 12,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "x": 35,
+    //"x": 35,
     //"y": 50,
     "align": "left"
   },

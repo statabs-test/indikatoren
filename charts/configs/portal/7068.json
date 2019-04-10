@@ -206,9 +206,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5,
-    "itemMarginBottom": 5,
-    "x": 35
+    "itemDistance": 12,
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
