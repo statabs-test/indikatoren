@@ -18,7 +18,7 @@
           0.793
         ],
         [
-          "2013-2017",
+          "52013",
           0.756
         ]
       ],
@@ -45,12 +45,12 @@
           "high": null
         },
         {
-          "name": "2013-2017",
+          "name": "52013",
           "low": 0.744,
           "high": 0.767
         }
       ],
-      "name": "Schweizer 95% Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -71,7 +71,7 @@
           0.676
         ],
         [
-          "2013-2017",
+          "52013",
           0.735
         ]
       ],
@@ -98,12 +98,12 @@
           "high": null
         },
         {
-          "name": "2013-2017",
+          "name": "52013",
           "low": 0.724,
           "high": 0.746
         }
       ],
-      "name": "Schweizerinnen 95% Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -124,7 +124,7 @@
           0.78
         ],
         [
-          "2013-2017",
+          "52013",
           0.768
         ]
       ],
@@ -151,12 +151,12 @@
           "high": null
         },
         {
-          "name": "2013-2017",
+          "name": "52013",
           "low": 0.755,
           "high": 0.782
         }
       ],
-      "name": "Ausländer 95% Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -177,7 +177,7 @@
           0.642
         ],
         [
-          "2013-2017",
+          "52013",
           0.673
         ]
       ],
@@ -204,12 +204,12 @@
           "high": null
         },
         {
-          "name": "2013-2017",
+          "name": "52013",
           "low": 0.658,
           "high": 0.689
         }
       ],
-      "name": "Ausländerinnen 95% Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],

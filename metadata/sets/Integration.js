@@ -1846,7 +1846,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit",
-		"subtitle": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2012 bis 2016",
+		"subtitle": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.03.1.6416",
 		"kuerzelKunde": "C2-2",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
@@ -1862,7 +1862,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vergleichsweise hohe Erwerbstätigenquoten weisen Personen aus Deutschland (87,4%), EU-17 + EFTA (78,7%) und EU-Ost (76,4%) auf. Tiefe Erwerbstätigenquoten sind bei Personen aus afrikanischen Ländern (57,9%), dem Balkan (56,8%), arabischen Ländern (56,3%), Mittel- und Südamerika (54,2%) und der Türkei (50,4%) zu beobachten.",
+		"lesehilfe": "Vergleichsweise hohe Erwerbstätigenquoten weisen Personen aus Deutschland (88,9%), EU-Ost (80,5%) und EU-17 + EFTA (78,4%) auf. Tiefe Erwerbstätigenquoten sind bei Personen aus arabischen Ländern (56,9%), dem Balkan (56,5%), Mittel- und Südamerika (54,4%), afrikanischen Ländern (51,2%) und der Türkei (50,1%) zu beobachten.",
 		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Ab 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1876,14 +1876,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6416,
+		"chart-id": 6416,
+		"filter": "",
 		"id": 6416
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 bis 2016",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017",
 		"kuerzel": "I.03.1.6417",
 		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote",
@@ -1899,7 +1903,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den 15- bis 24-Jährigen und 25- bis 34-Jährigen ist die Erwerbstätigenquote ausländischer Männer etwas höher als bei den Schweizern. Mit zunehmendem Alter liegt die Quote der ausländischen Männer deutlich unter jener der Schweizer. Die Schweizerinnen haben in allen Altersgruppen eine höhere Erwerbstätigenquote als die Ausländerinnen.",
+		"lesehilfe": "Bei den 15- bis 24-Jährigen ist die Erwerbstätigenquote ausländischer Männer etwas höher als bei den Schweizern. Mit zunehmendem Alter liegt die Quote der ausländischen Männer deutlich unter jener der Schweizer. Die Schweizerinnen haben in allen Altersgruppen eine höhere Erwerbstätigenquote als die Ausländerinnen.",
 		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Ab 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1913,9 +1917,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6417,
+		"chart-id": 6417,
+		"filter": "",
 		"id": 6417
 	},
 	{
@@ -1936,8 +1944,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2012 bis 2016 liegen die Quoten der Schweizer (79,5%) und Schweizerinnen (76,2%) näher zusammen als diejenigen der Ausländer (84,9%) und Ausländerinnen (72,3%).",
-		"erlaeuterungen": "Die (Netto-)Erwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose) geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. &nbsp;Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2012 bis 2016 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
+		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2013 bis 2017 liegen die Quoten der Schweizer (79,9%) und Schweizerinnen (76,6%) näher zusammen als diejenigen der Ausländer (85,0%) und Ausländerinnen (73,5%).",
+		"erlaeuterungen": "Die (Netto-)Erwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose) geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. &nbsp;Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1951,9 +1959,13 @@ var indikatorensetData = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6418,
+		"chart-id": 6418,
+		"filter": "",
 		"id": 6418
 	},
 	{

@@ -36,8 +36,8 @@
         }
     },
    tooltip: {
-     shared: true
-        },
+        shared: true
+    },
   "series": [
     {
       "index": 0,
