@@ -24,7 +24,7 @@
         },    	
 		"legend": {
 			"title": {
-				"text": "in 1 000 Fr."
+				"text": "in 1000 Fr."
 			}
 		},
 		"colorAxis": {

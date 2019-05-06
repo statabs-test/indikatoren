@@ -3694,8 +3694,10 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff4f4",
-    "maxColor": "#4f6e75"
+    "max": 80000,
+    "tickInterval": 20000,
+    "minColor": "#E7CEE2",
+    "maxColor": "#2E1435"
   },
   "mapNavigation": {
     "enabled": true,
@@ -3713,7 +3715,7 @@
         "fontWeight": "normal",
         "fontSize": "11px"
       },
-      "text": "in tausend Franken"
+      "text": "in 1000 Fr."
     }
   },
   "tooltip": {
