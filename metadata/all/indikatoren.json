@@ -33272,7 +33272,7 @@
 	},
 	{
 		"title": "Neugeborene in Basler Spitälern nach Alter der Mutter",
-		"subtitle": "",
+		"subtitle": "nach Alter der Mutter, 2017",
 		"kuerzel": "I.14.1.06998",
 		"kuerzelKunde": "",
 		"description": "Neugeborene in Basler Spitälern nach Alter der Mutter",
@@ -33288,8 +33288,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2017 haben die 33-jährigen Mütter die meisten Babies zur Welt gebracht (386), gefolgt von den 34-jährigen Mütter (380). Der Altersdurchschnitt lag bei 32,2 Jahren.",
+		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33301,9 +33301,13 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6998,
+		"chart-id": 6998,
+		"filter": "",
 		"id": 6998
 	},
 	{

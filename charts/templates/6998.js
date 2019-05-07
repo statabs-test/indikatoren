@@ -13,7 +13,7 @@
     tickInterval: 1,
     labels: {
       rotation: 0,
-      step: 1,
+      step: 2,
     } 
   },
   "yAxis": {
@@ -36,10 +36,10 @@
       "fontWeight": "normal"
     }
   },
-   tooltip: {
+    tooltip: {
     "shared": false, 
     headerFormat: '<span style="font-size: 10px">Alter der Mutter: {point.key}</span><br/>',
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "chart": { 
     "type": "column",
