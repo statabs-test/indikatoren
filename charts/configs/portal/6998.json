@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#68AB2B",
       "visible": true,
       "data": [
         [
@@ -254,6 +254,7 @@
       "marker": {
         "enabled": false
       },
+      "minPointLength": 1.6,
       "pointPadding": 0,
       "borderWidth": 0,
       "itemWidth": 10

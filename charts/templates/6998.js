@@ -2,6 +2,7 @@
     return {
    plotOptions: {
         series: {
+           minPointLength: 1.6,
             pointPadding: 0,
             borderWidth: 0,
 			itemWidth: 10, 
@@ -23,7 +24,7 @@
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true} /* hellbraun*/
+  {"color": "#68AB2B", "visible": true}
  ],
   "legend": {
     "enabled": false,
