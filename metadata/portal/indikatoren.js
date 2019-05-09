@@ -4181,15 +4181,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G11: Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel lag 2015 bei 185,15 pro 1000 Kindern im Vorschulalter.",
+		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel ist seit 2013 kontinuierlich gestiegen. 2017 lag sie bei 191,66 pro 1000 Kindern im Vorschulalter.",
 		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0–3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_50_00_00_00_611",
 		"parentId": null,
@@ -4199,11 +4201,14 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
 			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4374,
-		"darstellungsart": "Grafik"
+		"data-id": 4374,
+		"chart-id": 4374,
+		"filter": "",
+		"id": 4374
 	},
 	{
 		"title": "Personen mit und ohne Migrationshintergrund",
