@@ -14112,7 +14112,8 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
