@@ -32,7 +32,7 @@
     	"legendIndex": 3
     }, /* blau */
     {
-    	"color": "FABD24", 
+    	"color": "#FABD24", 
     	"legendIndex": 4
     }, /* gelb */
         {
