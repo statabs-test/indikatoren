@@ -61,7 +61,7 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 4,
+      "legendIndex": 2,
       "data": [
         [
           2005,
@@ -120,7 +120,7 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           2005,
@@ -178,8 +178,8 @@
       "name": "Tagesstrukturen in den Schulen"
     },
     {
-      "color": "#007A2F",
-      "legendIndex": 3,
+      "color": "FABD24",
+      "legendIndex": 4,
       "data": [
         [
           2005,
@@ -235,6 +235,10 @@
         ]
       ],
       "name": "Tagesferien"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 5
     }
   ],
   "chart": {
