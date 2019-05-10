@@ -7499,8 +7499,8 @@
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.5122",
+		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -7509,7 +7509,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:33.3333",
+		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -7532,7 +7532,7 @@
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 5122,
 		"chart-id": 5122,
