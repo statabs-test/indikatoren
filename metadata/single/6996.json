@@ -14,7 +14,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden insgesamt 64&nbsp;134 Patienten in basel-städtischen Spitälern stationär behandelt. Der Anteil basel-städtischer Patienten betrug mit 42% rund 10 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2017 wurden knapp 27&nbsp;100 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt, die wenigsten innerhalb der vergangenen 10 Jahre. Stark zugenommen haben hingegen Patienten aus dem Kanton Basel-Landschaft: Sie machen 2017 knapp 37% aller Behandelten aus.",
+"lesehilfe":"Im Jahr 2017 wurden insgesamt 64&nbsp;135 Patienten in basel-städtischen Spitälern stationär behandelt. Der Anteil basel-städtischer Patienten betrug mit 46% rund 10 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2017 wurden knapp 29&nbsp;700 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt. Stark zugenommen haben hingegen Patienten aus dem Kanton Basel-Landschaft: Sie machen 2017 knapp 32% aller Behandelten aus.",
 "erlaeuterungen":"Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 "template":"template001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Gesundheitsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6996, 
+"chart-id":6996, 
+"filter":""
 }
