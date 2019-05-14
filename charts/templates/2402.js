@@ -30,7 +30,7 @@
      //y: 45,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 1000,
+   "itemWidth": 800,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

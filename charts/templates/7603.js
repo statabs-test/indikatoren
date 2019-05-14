@@ -1,6 +1,7 @@
 (function(){
     return {
   "plotOptions": {
+
     "series": {
       //"pointWidth": 50,
       "dataLabels": {
@@ -24,74 +25,76 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },  
-  "legend": {
+"legend": { 
+ 	x: 0,
+     //y: 45,
+    "enabled": true,
     "layout": "horizontal",
+   "itemWidth": 200,
     "verticalAlign": "top",
-    //"y": 45, 
-    padding: 0,
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+    "fontWeight": "normal"
     }
   },
   "series": [
     {
-      "color": "#933F8D",
+      "color": "#923F8D",
       "legendIndex": 1
     },
     {
-      "color": "#B475AB",
+      "color": "#FABD24",
       "legendIndex": 2
     },
     {
-      "color": "#FABD24",
+      "color": "#D7E8D2",
       "legendIndex": 3
     },
     {
-      "color": "#FFDA80",
+      "color": "#0A3B19",
       "legendIndex": 4
     },
     {
-      "color": "#4BACC6",
+      "color": "#73B97C",
       "legendIndex": 5
     },
     {
-      "color": "#933F8D",
+      "color": "#E7CEE2",
       "legendIndex": 6
     },
     {
-      "color": "#B475AB",
+      "color": "#FFBB58",
       "legendIndex": 7
     },
     {
-      "color": "#FABD24",
+      "color": "#DC440E",
       "legendIndex": 8
     },
     {
-      "color": "#FFDA80",
+      "color": "#083038",
       "legendIndex": 9
     },
     {
-      "color": "#4BACC6",
+      "color": "#689199",
       "legendIndex": 10
     }  ,
         {
-      "color": "#FABD24",
+      "color": "#B00000",
       "legendIndex": 11
     },
     {
-      "color": "#FFDA80",
+      "color": "#9E7C59",
       "legendIndex": 12
     },
     {
-      "color": "#4BACC6",
+      "color": "#C4AB91",
       "legendIndex": 13
     }  
   ],
-  "chart": {    
+  "chart": { 
+    height: 600,
     "marginBottom": 60,
-    "marginTop": 160,
+    "marginTop": 180,
     "type": "column"
   }
 	}
