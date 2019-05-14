@@ -14,8 +14,8 @@
   },  
   plotOptions: {
   	column: {
-  		groupPadding: 0,
-  		"pointWidth": 90,
+  	    // groupPadding: 0,
+  		//"pointWidth": 70,
 
   	}
   },
