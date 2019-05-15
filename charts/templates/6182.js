@@ -71,9 +71,9 @@
   	  color: "#662673", /* dunkelviolett */
 	    showInLegend: false,
 	    linkedTo: '3',
-      marker: {
-        enabled: true,
-      }    
+   //   marker: {
+     //   enabled: true,
+      //}    
     }, 
     { 
       color: "#7F5F1A", /* dunkelbraun */
