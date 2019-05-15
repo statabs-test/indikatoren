@@ -47,25 +47,25 @@
     { 
       color: "#B00000", /* dunkelrot */
       linkedTo: '0',
-        marker: {
-          enabled: true,
-        }    
+       // marker: {
+         // enabled: true,
+        //}    
     }, 
     { 
       color: "#007A2F", /* dunkelgrün */
 	    showInLegend: false,
 	    linkedTo: '1',
-      marker: {
-        enabled: true,
-      }    
+     // marker: {
+       // enabled: true,
+      //}    
     }, 
     { 
       color: "#4f81bd", /* dunkelblau */
 	    showInLegend: false,
 	    linkedTo: '2',
-        marker: {
-        enabled: true,
-      }    
+   //     marker: {
+     //   enabled: true,
+      //}    
     }, 
   	{ 
   	  color: "#662673", /* dunkelviolett */
@@ -78,25 +78,25 @@
     { 
       color: "#7F5F1A", /* dunkelbraun */
       linkedTo: '4',
-      marker: {
-        enabled: true,
-      }    
+   //   marker: {
+     //   enabled: true,
+      //}    
     }, 
   	{ 
   	  color: "#FABD24", /* dunkelgelb */
 	    showInLegend: false,
 	    linkedTo: '5',
-      marker: {
-        enabled: true, 
-      }    
+   //   marker: {
+     //   enabled: true, 
+      //}    
     }, 
   	{ 
   	  color: "#3C3C3C", /* schwarz */
 	    showInLegend: false,
 	    linkedTo: '6',
-      marker: {
-        enabled: true, 
-      }    
+  //    marker: {
+    //    enabled: true, 
+    //  }    
     }, 
   ],
    "legend": {
