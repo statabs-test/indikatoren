@@ -23,7 +23,7 @@
     "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>', "footerFormat": 'Total: <b>{point.total:,.1f}</b>',
     "shared": false
   },  
 "legend": { 
