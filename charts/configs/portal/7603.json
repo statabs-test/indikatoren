@@ -726,7 +726,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 50,
+    "tickAmount": 8,
     "reversedStacks": false
   },
   "navigation": {

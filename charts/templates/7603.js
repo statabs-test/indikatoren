@@ -16,7 +16,7 @@
     "type": "category"    
   },  
   "yAxis":
-  {        tickAmount: 50,
+  {        tickAmount: 8,
         "labels": {
       "format": "{value:,.0f}"
     },    
