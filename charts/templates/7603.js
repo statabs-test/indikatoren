@@ -15,8 +15,9 @@
   "xAxis": {
     "type": "category"    
   },  
-  "yAxis": {
-    "labels": {
+  "yAxis":
+  {        tickAmount: 50,
+        "labels": {
       "format": "{value:,.0f}"
     },    
     "reversedStacks": false

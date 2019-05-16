@@ -18,6 +18,5 @@ var indikatorensetNames = [
 	"Wanderungen (Print)",
 	"Steuern",
 	"Monatsindikatoren",
-	"Soziales",
 	"Test"
 ];

@@ -1046,7 +1046,7 @@ id | visible | visibleInPortal | indikatorenset
 7523 | true | true | Tourismus
 7551 | true | true | 
 7563 | true | false | 
-7603 | true | true | Soziales
+7603 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
