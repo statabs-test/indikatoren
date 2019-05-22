@@ -1,22 +1,22 @@
-WohnviertelId	Wohnviertel	Saldo	Wanderung	Umzug
-1	Altstadt Grossbasel	1.66023166	0.9	0.8
-2	Vorstädte	0.877367896	1.6	-0.7
-3	Am Ring	1.026827012	2.2	-1.1
-4	Breite	-0.235849057	-0.5	0.2
-5	St. Alban	2.410826313	0.9	1.6
-6	Gundeldingen	-0.935225039	0.7	-1.6
-7	Bruderholz	0.55164954	-0.8	1.4
-8	Bachletten	-0.251367736	-0.7	0.5
-9	Gotthelf	0.623369092	0.7	-0.1
-10	Iselin	0.53415633	-0.6	1.1
-11	St. Johann	-0.717344754	-0.2	-0.5
-12	Altstadt Kleinbasel	-0.36525974	0.6	-1.0
-13	Clara	2.252693438	1.5	0.7
-14	Wettstein	-2.441229656	0.8	-3.2
-15	Hirzbrunnen	1.191498497	-0.4	1.6
-16	Rosental	-0.015144631	1.9	-1.9
-17	Matthäus	-1.360972844	0.2	-1.6
-18	Klybeck	0.509993108	0.4	0.1
-19	Kleinhüningen	-1.828410689	-1.1	-0.8
-20	Riehen	2.146606674	0.4	1.8
-30	Bettingen	0.587741394	-0.9	1.5
+﻿WohnviertelId	Wohnviertel	Saldo	Wanderung	Umzug
+1	Altstadt Grossbasel	-0.15391	0.6	-0.8
+2	Vorstädte	0.41891	2.0	-1.6
+3	Am Ring	2.00818	2.4	-0.4
+4	Breite	0.87875	0.2	0.6
+5	St. Alban	3.72811	2.1	1.7
+6	Gundeldingen	-0.85202	0.00001	-0.9
+7	Bruderholz	1.02597	-0.5	1.5
+8	Bachletten	0.14766	-0.4	0.6
+9	Gotthelf	0.28835	0.3	-0.0
+10	Iselin	-0.07653	-0.2	0.1
+11	St. Johann	-0.35860	-0.2	-0.2
+12	Altstadt Kleinbasel	-0.44990	-0.7	0.3
+13	Clara	-0.44096	0.6	-1.1
+14	Wettstein	-0.34173	1.3	-1.6
+15	Hirzbrunnen	0.37325	-0.5	0.9
+16	Rosental	2.00292	2.4	-0.4
+17	Matthäus	-1.59124	0.1	-1.7
+18	Klybeck	-0.02742	0.7	-0.7
+19	Kleinhüningen	0.20994	-0.5	0.7
+20	Riehen	0.64342	-0.4	1.0
+30	Bettingen	2.39077	1.5	0.9

@@ -74,7 +74,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6013",
 		"kuerzelKunde": "1-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -84,15 +84,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2018-06-20T14:35:28.2828",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2017. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 956 Personen), danach folgen Personen aus Italien (526) und den Vereinigten Staaten von Amerika (512). Aus Frankreich und dem Vereinigten Königreich kommen gleichviele Personen (je 431). Die übrigen 3 841 Zuzüger verteilen sich auf 128 verschiedene Länder.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2018. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 011 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (532) und Italien (486). Aus Frankreich kommen 474 Personen, aus dem Vereinigten Königkreich 438. Die übrigen 3 815 Zuzüger verteilen sich auf 125 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "_003",
 		"parentId": null,
 		"children": [
@@ -102,11 +104,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6013,
-		"darstellungsart": "Grafik"
+		"data-id": 6013,
+		"chart-id": 6013,
+		"filter": "",
+		"id": 6013
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
@@ -254,7 +259,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Stand: 2018",
 		"kuerzel": "I.01.5.6021",
 		"kuerzelKunde": "1-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -265,15 +270,17 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2018-06-20T14:37:26.2626",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 kamen 25% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 68% deutlich höher. Ebenfalls überdurchschittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Matthäus, Klybeck und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwandererer aus Italien. In der Grossbasler Altstadt sowie in den Wohnvierteln Bachletten und Wettstein lassen sich Neuzuzüger aus den Vereinigten Staaten im Vergleich zum Gesamtkanton besonders oft nieder, in den Quartieren Bachletten, Altstadt Kleinbasel und Klybeck Personen aus Frankreich. Die Wohnviertel Bruderholz, Gotthelf und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton überdurchschnittlich hohe Anteile von Personen aus dem Vereinigten Königreich.",
+		"lesehilfe": "Im Jahr 2018 kamen 26% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 70% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Altstadt Grossbasel, Bruderholz und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Breite sowie in den Wohnvierteln Gotthelf, Clara und Hirzbrunnen lassen sich Neuzuzüger aus Italien im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt, in den Vorstädten und in den Quartieren Wettstein und Kleinhüningen Personen aus Frankreich. Die Wohnviertel Vorstädte, Wettstein und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus dem Vereinigten Königreich.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "_011",
 		"parentId": null,
 		"children": [
@@ -283,15 +290,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6021,
-		"darstellungsart": "Grafik"
+		"data-id": 6021,
+		"chart-id": 6021,
+		"filter": "",
+		"id": 6021
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Stand: 2018",
 		"kuerzel": "I.01.5.6022",
 		"kuerzelKunde": "1-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -302,15 +312,17 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2018-06-20T14:37:57.5757",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2017 verbuchten die Wohnviertel Vorstädte, Am Ring und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz und Kleinhüningen sowie für die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Gundeldingen, Wettstein, Rosental und Matthäus zustande.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2018 verbuchten die Wohnviertel Am Ring, St. Alban und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz, Altstadt Kleinbasel, Hirzbrunnen und Kleinhüningen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Vorstädte,  Wettstein und Matthäus zustande.",
 		"erlaeuterungen": "",
 		"template": "mapcolumn002",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
 		"orderKey": "_012",
 		"parentId": null,
 		"children": [
@@ -320,11 +332,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6022,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 6022,
+		"chart-id": 6022,
+		"filter": "",
+		"id": 6022
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -364,7 +379,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2008 = 100)",
+		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2009 = 100)",
 		"kuerzel": "I.01.5.6024",
 		"kuerzelKunde": "1-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
@@ -374,15 +389,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2018-06-20T14:38:37.3737",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung aus Italien ist 2017 gegenüber 2008 um 77% auf 177 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 19% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2014 bis 2016 verbucht. Zwischen 2008 und 2017 ist die Zuwanderung aus den Vereinigten Staaten um 11% gestiegen. Aus Deutschland kamen weniger Personen als noch 2008 (-24%), ebenso aus dem Vereinigten Königreich (-5%).",
+		"lesehilfe": "Die Zuwanderung aus Italien ist 2018 gegenüber 2009 um 71% auf 171 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 31% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2014 bis 2016 verbucht. Zwischen 2009 und 2018 ist die Zuwanderung aus den Vereinigten Staaten um 5% gestiegen. Aus Deutschland kamen weniger Personen als noch 2009 (-14%), ebenso aus dem Vereinigten Königreich (-10%).",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "_005",
 		"parentId": null,
 		"children": [
@@ -392,11 +409,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6024,
-		"darstellungsart": "Grafik"
+		"data-id": 6024,
+		"chart-id": 6024,
+		"filter": "",
+		"id": 6024
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
