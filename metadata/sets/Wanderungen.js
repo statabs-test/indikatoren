@@ -156,7 +156,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6017",
 		"kuerzelKunde": "1-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -166,15 +166,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2018-06-20T14:36:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut die Hälfte (50,2%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus der Schweiz (51,8%) und aus den Vereinigten Staaten (50,8%) auf, niedrigere jene aus Deutschland (48,2%), Frankreich (47,3%), dem Vereinigten Königreich (47,3%) und Italien (41,1%).",
+		"lesehilfe": "Knapp die Hälfte (49,6%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus den Vereinigten Staaten (53,9%) und der Schweiz (51,2%) auf, niedrigere jene aus dem Vereinigten Königreich (49,4%), Deutschland (47,5%), Frankreich (46,8%) und Italien (44,9%).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "_007",
 		"parentId": null,
 		"children": [
@@ -184,11 +186,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6017,
-		"darstellungsart": "Grafik"
+		"data-id": 6017,
+		"chart-id": 6017,
+		"filter": "",
+		"id": 6017
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",

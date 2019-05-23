@@ -863,6 +863,7 @@ var templatesById = {
 	"6757": "spider001",
 	"6758": "spider001",
 	"6759": "spider001",
+	"6760": "template001_print",
 	"6771": "mapcolumn002_print",
 	"6774": "mappie002_print",
 	"6778": "mappie002",
