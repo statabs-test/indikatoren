@@ -29,7 +29,7 @@
                 text: null
             },
             labels: {
-                formatter: function () {
+            	formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
                 style: {
@@ -37,12 +37,12 @@
                     textOverflow: 'none'
                 }
             },
-            plotLines: [{
-                value: 0,
-                color: 'white',
-                width: 1,
-                zIndex: 4
-            }],
+             plotLines: [{
+                    value: 0,
+                    color: 'white',
+                    width: 1,
+                    zIndex: 4
+                }],
             //create symmetric xAxis
             events: {
                 afterSetExtremes: function(args){
@@ -77,12 +77,12 @@
         ],                
 		series: [
             {
-              color: "#71A3B5", // rot
+              color: "#73B97C", // rot
               //borderWidth: 0,
               //pointWidth: 15
             }, 
             {
-              color: "#73B97C", //blau
+              color: "#71A3B5", //blau
               //borderWidth: 0,
               //pointWidth: 15
             },
@@ -92,15 +92,15 @@
               //pointWidth: 15
             }
 	    ],
-    "legend": {
-        "enabled": true,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "left",
-       	//"y": 55,    
-        "itemStyle": {
-          "fontWeight": "normal"
-        }
-      },
+        "legend": {
+            "enabled": true,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "align": "left",
+           	//"y": 55,    
+            "itemStyle": {
+              "fontWeight": "normal"
+            }
+          },
 	};
 }());
