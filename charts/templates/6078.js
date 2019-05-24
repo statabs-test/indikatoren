@@ -34,7 +34,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    itemDistance: 5,
+    itemDistance: 3,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

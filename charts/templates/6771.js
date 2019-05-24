@@ -6,50 +6,28 @@
 (function(){
 
     return {
-    		"legend": {
-    		useHTML: true,
+    	"legend": {
 			"title": {
-				"text": null, 
-				style: {'fontWeight':' bold'}
+				"text": "Bevölkerungssaldo"
+			}
 			},
-			"layout": "vertical",
-			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -210,
-			"y":  2,
-			itemMarginBottom: 2, 
-			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
+		"colorAxis": {
+			//"min": undefined,
+			//"minColor": "#eff6e9",
+			//"maxColor": "#4b7b1f",
+			stops: [
+	            [0, 'rgb(0,135,135)'],
+	            [0.25, 'rgb(230,230,230)'],
+	            [0.9, 'rgb(103,39,115)']
+	        ],
+	        min: -1,
+			max: 5,
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value),0); 
 				}
+			}
 		},
-         colorAxis: {
-            dataClassColor: 'category',
-                   dataClasses: [{
-                to: -0.75999,
-                color: 'rgb(0,135,135)',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;-0,760"
-            }, {
-                from: -0.76,
-                to:  -0.15,
-                color: 'rgb(168,196,203)',
-                name: "-0,760 − -0,150"
-            }, {
-                from: -0.14999,
-                to: 0.149999,
-                 color: 'rgb(230,230,230)',
-                 name: "-0,149 − &nbsp;0,149"
-            },{
-                from: 0.150,
-                to: 1.99,
-                 color: 'rgb(231,207,226)',
-                 name: "&nbsp;0,150 − &nbsp;0,199"
-            },{
-                from: 2.0,
-                color: 'rgb(103,39,115)',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;&nbsp;2,000"
-            }], 
-        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -162,7 +140,8 @@
                     	
                     	var colors = {
                     		'1': ['#ffaa00','#38a800'],
-                    		'-1': ['#a87000', '#267300']
+                    		'-1': ['#a87000', '#267300'],
+                    		'0': ['#ffaa00','#38a800']
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
@@ -177,24 +156,28 @@
 					var legendColumnValues = [5, 2.5]; 
 
                 	//Add manually drawn legend	
-                	var legendTop = 230;
-                	var legendLeft = 596;
+                	var legendTop = 220;
+                	var legendLeft = 365;
+	                fn.addLegendTitle(chart, 265, 220, 'Wanderung/Umzug'); 
+	                
+	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                
+	                fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
-	                fn.addLegendColumnChart(chart, legendLeft-125,  legendTop+10,  legendColumnValues, color, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-100, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-90, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+22,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+32,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+37,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+47,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+20,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft-100, legendTop+30,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+35,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft-100, legendTop+45,  'Wanderung negativ');
-					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+50,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft-100, legendTop+60,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+65, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft-100, legendTop+75 , 'Umzug negativ');
-					fn.addLegendText(chart,     330, 170 , 'Bevölkerungssaldo infolge <br> räumlicher Bewegung <br> pro 100 Einwohner <br>(Saldo total)');
-					fn.addLegendText(chart,     470, 170 , 'Saldo pro 100 Einwohner');
-
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+52,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
+					//fn.addLegendTitle(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
+					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
+					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
 					//make sure columns are hidden upon click onto column legend
 					fn.AddColumnLegendClickHandler(chart);

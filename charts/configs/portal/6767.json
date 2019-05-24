@@ -231,6 +231,7 @@
       "reversed": false,
       "type": "category",
       "labels": {
+        "rotation": 0,
         "step": 1,
         "style": {
           "color": "#000000"
@@ -336,6 +337,7 @@
         "text": null
       },
       "labels": {
+        "rotation": 0,
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
@@ -391,7 +393,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemDistance": 5
   },
   "tooltip": {
     "pointFormatter": function () {

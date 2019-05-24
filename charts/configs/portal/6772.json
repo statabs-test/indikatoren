@@ -1,83 +1,93 @@
 {
   "series": [
     {
-      "color": "#FABD24",
-      "visible": true,
+      "color": "#73B97C",
+      "type": "column",
+      "pointWidth": "15",
       "data": [
         [
-          "Schweiz",
-          57.6995
-        ],
-        [
           "Deutschland",
-          85.5986
+          2011
         ],
         [
           "USA",
-          51.1811
+          532
         ],
         [
           "Italien",
-          77.4648
+          486
         ],
         [
           "Frankreich",
-          49.3075
+          474
         ],
         [
           "UK",
-          62.9098
-        ],
-        [
-          "Übriges Ausland",
-          75.4936
-        ],
-        [
-          "Total",
-          66.4341
+          438
         ]
       ],
-      "name": "2009",
+      "name": "Zugezogene",
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
-      "visible": true,
+      "color": "#71A3B5",
+      "type": "column",
+      "pointWidth": "15",
       "data": [
         [
-          "Schweiz",
-          56.2811
-        ],
-        [
           "Deutschland",
-          75.2859
+          -1284
         ],
         [
           "USA",
-          56.5789
+          -369
         ],
         [
           "Italien",
-          87.037
+          -212
         ],
         [
           "Frankreich",
-          47.8903
+          -412
         ],
         [
           "UK",
-          48.4018
-        ],
-        [
-          "Übriges Ausland",
-          72.6868
-        ],
-        [
-          "Total",
-          63.6719
+          -298
         ]
       ],
-      "name": "2018",
+      "name": "Weggezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "scatter",
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Deutschland",
+          727
+        ],
+        [
+          "USA",
+          163
+        ],
+        [
+          "Italien",
+          274
+        ],
+        [
+          "Frankreich",
+          62
+        ],
+        [
+          "UK",
+          140
+        ]
+      ],
+      "name": "Saldo",
       "turboThreshold": 0
     }
   ],
@@ -134,9 +144,7 @@
                     
                 }
     },
-    "type": "column",
-    "inverted": false,
-    "renderTo": "container-6765",
+    "renderTo": "container-6772",
     "spacingBottom": 12
   },
   "plotOptions": {
@@ -150,7 +158,9 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
     }
   },
   "title": {
@@ -160,7 +170,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht"
+    "text": "Zugezogene, Weggezogene und Wanderungssaldo"
   },
   "subtitle": {
     "style": {
@@ -169,7 +179,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -189,9 +199,10 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 25
+    "min": -1500,
+    "tickInterval": 500
   },
   "navigation": {
     "menuItemStyle": {
@@ -217,11 +228,12 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
+    "itemDistance": 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -233,11 +245,7 @@
       "fontSize": "10px"
     }
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
   "exporting": {
-    "filename": 6765
+    "filename": 6772
   }
 }

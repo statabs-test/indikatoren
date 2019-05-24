@@ -28,7 +28,7 @@
             title: {
                 text: null
             },
-            labels: {
+            labels: {rotation: 0,
             	formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
@@ -97,6 +97,7 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
+             "itemDistance": 5,
            	//"y": 55,    
             "itemStyle": {
               "fontWeight": "normal"

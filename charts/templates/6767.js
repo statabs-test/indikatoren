@@ -25,10 +25,10 @@
             max: 18000,
             tickInterval: 6000,
             min:0,
-            title: {
+                    title: {
                 text: null
             },
-            labels: {
+            labels: {rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
@@ -53,8 +53,8 @@
         xAxis: [{
                 reversed: false,
                 type: 'category',
-                labels: {
-    	        	step: 1,
+                labels: {rotation: 0,
+                        	step: 1,
 	                style: {
 	                    color: "#000000"
 	                }
@@ -99,8 +99,13 @@
         "align": "left",
        	//"y": 55,    
         "itemStyle": {
-          "fontWeight": "normal"
-        }
+          "fontWeight": "normal", 
+                },
+       "itemDistance": 5,
+     //   itemWidth: "undefined"
       },
+       "chart": {
+   // 	height: 228,
+    }
 	};
 }());

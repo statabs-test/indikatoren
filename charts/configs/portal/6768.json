@@ -336,6 +336,7 @@
         "text": null
       },
       "labels": {
+        "rotation": 0,
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
@@ -391,7 +392,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemDistance": 5
   },
   "tooltip": {
     "pointFormatter": function () {
