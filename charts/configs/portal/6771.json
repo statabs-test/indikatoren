@@ -3923,18 +3923,20 @@
 
 	                
 					//column values in legend
-					var legendColumnValues = [5, 2.5]; 
+					var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
-                	var legendTop = 300; //220
+                   
+                	
+                	var legendTop = 360; //220
                 	var legendLeft = 600; //365
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 300); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                
-	                fn.addLegendColumnChart(chart, legendLeft+45,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, legendLeft-95,  legendTop+5,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
-	                fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+-80, legendTop+5,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+83, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-70, legendTop+5,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+22,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+32,  'Wanderung positiv');
@@ -3945,7 +3947,7 @@
 					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
-					//fn.addLegendTitle(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
+					fn.addLegendTitle(chart,  'Bevölkerungssaldo',  645, 280  );	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
@@ -3992,7 +3994,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
   },
   "colorAxis": {
-    "min": -1,
+    "min": 0,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -4001,29 +4003,42 @@
         "cursor": "default",
         "fontSize": "10px",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
-				}
+      }
     },
     "marker": {
       "color": "black"
     },
-    "stops": [
-      [
-        0,
-        "rgb(0,135,135)"
-      ],
-      [
-        0.25,
-        "rgb(230,230,230)"
-      ],
-      [
-        0.9,
-        "rgb(103,39,115)"
-      ]
-    ],
-    "max": 5
+    "dataClassColor": "category",
+    "dataClasses": [
+      {
+        "to": -0.759999,
+        "color": "#0F7399",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E-0,760"
+      },
+      {
+        "from": -0.76,
+        "to": -0.145,
+        "color": "#71A3B5",
+        "name": "-0,760 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E-0,150"
+      },
+      {
+        "from": -1.499999,
+        "to": 1.149999999,
+        "color": "#D7E8D2",
+        "name": "-0,149 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E0,149"
+      },
+      {
+        "from": 1.5,
+        "to": 1.99999,
+        "color": "#E7CEE2",
+        "name": "1,50 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E0,199"
+      },
+      {
+        "from": 2,
+        "color": "#662673",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E2,000"
+      }
+    ]
   },
   "mapNavigation": {
     "enabled": true,
@@ -4037,15 +4052,22 @@
     "align": "right",
     "floating": true,
     "itemStyle": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "fontWeight": "normal"
     },
     "title": {
       "style": {
-        "fontWeight": "normal",
+        "fontWeight": " bold",
         "fontSize": "10px"
       },
-      "text": "Bevölkerungssaldo"
-    }
+      "text": null
+    },
+    "useHTML": true,
+    "layout": "vertical",
+    "x": -235,
+    "y": -35,
+    "itemMarginBottom": 2,
+    "symbolRadius": 0
   },
   "xAxis": {
     "events": {

@@ -3421,8 +3421,8 @@
     {
       "visible": false,
       "type": "pie",
-      "color": "red",
-      "borderColor": "red",
+      "color": "#B00000",
+      "borderColor": "#B00000",
       "data": [
         [
           1,
@@ -3879,15 +3879,20 @@
 
                 	//Add manually drawn legend	
                 	
-                	var legendTop = 180;
-                	var legendLeft = 596;;
+                //	var legendTop = 180;
+                //	var legendLeft = 596;;
+                	
+                	var legendTop = 348;
+                	var legendLeft = 685;;
                 	
 					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+20,  10, "#B00000");
 					fn.addLegendText(chart,        legendLeft-120, legendTop+30,  'Schweiz');
 					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+35,  10, "blue");
 					fn.addLegendText(chart,        legendLeft-120, legendTop+45,  'Ausland');
-					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+					fn.addLegendText(chart,     680, 340 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     540, 340 , 'Anteil Zugezogene <br> nach Zuzugsland');
+				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
     },
     "renderTo": "container-6774",
@@ -3947,30 +3952,30 @@
     "dataClasses": [
       {
         "to": 4.999,
-        "color": "rgb(242,242,242)",
+        "color": "#FFDA80",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
         "to": 6.999,
-        "color": "rgb(230,230,230)",
+        "color": "#FABD24",
         "name": "5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E6,9"
       },
       {
         "from": 7,
         "to": 8.999,
-        "color": "rgb(200,200,200)",
+        "color": "#CD9C00",
         "name": "7,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E8,9"
       },
       {
         "from": 9,
         "to": 11,
-        "color": "rgb(153,153,153)",
+        "color": "#7F5F1A",
         "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
       },
       {
         "from": 11.001,
-        "color": "rgb(60,60,60)",
+        "color": "#45381D",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
       }
     ]
