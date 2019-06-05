@@ -3908,7 +3908,7 @@
 
 	                
 					//column values in legend
-					var legendColumnValues = [5, 2.5]; 
+					var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
                 	var legendTop = 220;
@@ -3957,7 +3957,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2018",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {

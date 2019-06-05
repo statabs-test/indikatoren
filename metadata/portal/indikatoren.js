@@ -9384,9 +9384,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2018",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6022",
-		"kuerzelKunde": "1-12",
+		"kuerzelKunde": "2-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9396,8 +9396,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-06-20T14:37:57.5757",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9407,7 +9407,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_012",
+		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"6771"

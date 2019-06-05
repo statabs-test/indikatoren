@@ -153,7 +153,7 @@
 
 	                
 					//column values in legend
-					var legendColumnValues = [5, 2.5]; 
+					var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
                 	var legendTop = 220;
