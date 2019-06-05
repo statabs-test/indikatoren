@@ -15,8 +15,8 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -235,
-			"y":  -35,
+			"x": -275,
+			"y":  -95,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -41,13 +41,13 @@
 		                 name: "7,0 −<span style='color: rgba(0,0,0,0)'>11</span>8,9"
 		            },{
 		                from: 9,
-		                to: 11.00,
+		                to: 10.9999999,
 		                 color: '#7F5F1A', //rgb(153,153,153
-		                 name: "9,0 −<span style='color: rgba(0,0,0,0)'>1</span>11,0"
+		                 name: "9,0 −<span style='color: rgba(0,0,0,0)'>1</span>10,9"
 		            },{
 		                from: 11.001,
 		                color: '#45381D', //rgb(60,60,60)
-		                name: "<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span>11,0"
+		                name: "<span style='color: rgba(0,0,0,0)'>7,0</span> ><span style='color: rgba(0,0,0,0)'>1</span>11,0"
 		            }], 
         },
         "data": {
@@ -155,15 +155,15 @@
                 //	var legendTop = 180;
                 //	var legendLeft = 596;;
                 	
-                	var legendTop = 348;
-                	var legendLeft = 685;;
+                	var legendTop = 280;
+                	var legendLeft = 500;;
                 	
-					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+20,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft-120, legendTop+30,  'Schweiz');
-					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+35,  10, "blue");
-					fn.addLegendText(chart,        legendLeft-120, legendTop+45,  'Ausland');
-					fn.addLegendText(chart,     680, 340 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     540, 340 , 'Anteil Zugezogene <br> nach Zuzugsland');
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
+					fn.addLegendText(chart,        legendLeft+25, legendTop+35,  'Schweiz');
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+40,  10, "blue");
+					fn.addLegendText(chart,        legendLeft+25, legendTop+50,  'Ausland');
+					fn.addLegendText(chart,     legendLeft+140,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     legendLeft+0,  legendTop+0,  'Anteil Zugezogene <br> nach Zuzugsland');
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}

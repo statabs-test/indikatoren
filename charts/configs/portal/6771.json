@@ -4011,32 +4011,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": -0.759999,
+        "to": -1,
         "color": "#0F7399",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E-0,760"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,077\u003C\u002Fspan\u003E \u003C -1,00"
       },
       {
-        "from": -0.76,
-        "to": -0.145,
+        "from": -0.99999,
+        "to": -0.5,
         "color": "#71A3B5",
-        "name": "-0,760 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E-0,150"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E\u003C\u002Fspan\u003E-0,99 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,50"
       },
       {
-        "from": -1.499999,
-        "to": 1.149999999,
+        "from": -0.499999,
+        "to": -0.000001,
         "color": "#D7E8D2",
-        "name": "-0,149 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E0,149"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E\u003C\u002Fspan\u003E-0,49 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,01"
       },
       {
-        "from": 1.5,
-        "to": 1.99999,
+        "from": 0,
+        "to": 0.79999,
         "color": "#E7CEE2",
-        "name": "1,50 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E0,199"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E-\u003C\u002Fspan\u003E0,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,79"
       },
       {
-        "from": 2,
+        "from": 0.8,
         "color": "#662673",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E2,000"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,07-7\u003C\u002Fspan\u003E ≥ 0,80"
       }
     ]
   },
@@ -4057,14 +4057,14 @@
     },
     "title": {
       "style": {
-        "fontWeight": " bold",
+        "fontWeight": " normal",
         "fontSize": "10px"
       },
       "text": null
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -235,
+    "x": -250,
     "y": -35,
     "itemMarginBottom": 2,
     "symbolRadius": 0

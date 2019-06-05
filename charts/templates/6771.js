@@ -10,12 +10,12 @@ return {
     		useHTML: true,
 			"title": {
 				"text": null, 
-				style: {'fontWeight':' bold'}
+				style: {'fontWeight':' normal'}
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -235,
+			"x": -250,
 			"y":  -35,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -26,28 +26,28 @@ return {
 		colorAxis: {
 		            dataClassColor: 'category',
 		                   dataClasses: [{
-		                to: -0.759999,
+		                to: -1.0,
 		                color: '#0F7399', //rgb(242,242,242)',
-		                name:  "<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-0,760"
+		                name:  "<span style='color: rgba(0,0,0,0)'>7,077</span> < -1,00"//"<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-1,00"
 		            }, {
-		                from: -0.760,
-		                to:  -0.145,
+		                from: -0.99999,
+		                to:  -0.5,
 		                color: '#71A3B5',//rgb(230,230,230)',
-		                name: "-0,760 −<span style='color: rgba(0,0,0,0)'>0</span>-0,150"
+		                name:  "<span style='color: rgba(0,0,0,0)' ></span>-0,99 −<span style='color: rgba(0,0,0,0)'>1</span>-0,50" //"-0,99 − -0,50"
 		            }, {
-		                from: -1.499999,
-		                to:1.149999999,
+		                from: -0.499999,
+		                to:-0.000001,
 		                 color: '#D7E8D2',  //rgb(200,200,200)',
-		                 name: "-0,149 −<span style='color: rgba(0,0,0,0)'>0</span>0,149"
+		                 name: "<span style='color: rgba(0,0,0,0)' ></span>-0,49 −<span style='color: rgba(0,0,0,0)'>1</span>-0,01" //"-0,49 − -0,01" 
 		            },{
-		                from: 1.5,
-		                to: 1.99999,
+		                from: 0,
+		                to: 0.79999,
 		                 color: '#E7CEE2', //rgb(153,153,153
-		                 name: "1,50 −<span style='color: rgba(0,0,0,0)'>0</span>0,199"
+		                 name: "<span style='color: rgba(0,0,0,0)' >-</span>0,00 −<span style='color: rgba(0,0,0,0)'>1-</span>0,79"//" 0,00 − -0,79" //
 		            },{
-		                from: 2.0,
+		                from: 0.8,
 		                color: '#662673', //rgb(60,60,60)
-		                name: "<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span>2,000"
+		                name: "<span style='color: rgba(0,0,0,0)'>7,07-7</span> ≥ 0,80" //"<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span> 0,80"
 		            }], 
         },
        
