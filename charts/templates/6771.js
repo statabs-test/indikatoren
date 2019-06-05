@@ -15,8 +15,8 @@ return {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -250,
-			"y":  -35,
+			"x": -255,
+			"y":  -65,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -205,26 +205,26 @@ return {
                 	//Add manually drawn legend	
                    
                 	
-                	var legendTop = 360; //220
-                	var legendLeft = 600; //365
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+                	var legendTop = 280; //220
+                	var legendLeft = 500; //365
+	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderung/Umzug'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+60,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
-	                fn.addLegendColumnChart(chart, legendLeft-95,  legendTop+5,  legendColumnValues, color, 'columnLegendHideOnZoom');
-	                
-	                fn.addLegendText(chart,        legendLeft+-80, legendTop+5,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+15, legendTop+60,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-70, legendTop+5,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+25, legendTop+60,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+22,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+32,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+37,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+47,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+72,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft+15, legendTop+82,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+87,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft+15, legendTop+97,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+52,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+62,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+67, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+77 , 'Umzug negativ');
-					fn.addLegendTitle(chart,  'Bevölkerungssaldo',  645, 280  );	
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+102,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft+15, legendTop+112,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+117, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft+15, legendTop+127 , 'Umzug negativ');
+					fn.addLegendText(chart,  legendLeft+145, legendTop+0, 'Bevölkerungssaldo'  );	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
