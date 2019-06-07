@@ -3883,13 +3883,13 @@
                 //	var legendLeft = 596;;
                 	
                 	var legendTop = 280;
-                	var legendLeft = 500;;
+                	var legendLeft = 520;;
                 	
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
 					fn.addLegendText(chart,        legendLeft+25, legendTop+35,  'Schweiz');
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+40,  10, "blue");
 					fn.addLegendText(chart,        legendLeft+25, legendTop+50,  'Ausland');
-					fn.addLegendText(chart,     legendLeft+140,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     legendLeft+120,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 					fn.addLegendText(chart,     legendLeft+0,  legendTop+0,  'Anteil Zugezogene <br> nach Zuzugsland');
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
@@ -3953,7 +3953,7 @@
       {
         "to": 4.999,
         "color": "#FFDA80",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E----\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
@@ -3974,9 +3974,9 @@
         "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E10,9"
       },
       {
-        "from": 11.001,
+        "from": 11,
         "color": "#45381D",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E \u003E\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,--\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
       }
     ]
   },
@@ -4005,7 +4005,7 @@
     "useHTML": true,
     "layout": "vertical",
     "x": -275,
-    "y": -100,
+    "y": -98,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },

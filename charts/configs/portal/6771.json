@@ -3929,7 +3929,7 @@
                    
                 	
                 	var legendTop = 280; //220
-                	var legendLeft = 500; //365
+                	var legendLeft = 520; //365
 	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderung/Umzug'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+60,  legendColumnValues, color, 'columnLegendHideOnZoom');
@@ -3947,7 +3947,7 @@
 					fn.addLegendText(chart,        legendLeft+15, legendTop+112,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+117, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft+15, legendTop+127 , 'Umzug negativ');
-					fn.addLegendText(chart,  legendLeft+145, legendTop+0, 'Bevölkerungssaldo'  );	
+					fn.addLegendText(chart,  legendLeft+125, legendTop+0, 'Bevölkerungssaldo'  );	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
@@ -4013,7 +4013,7 @@
       {
         "to": -1,
         "color": "#0F7399",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,077\u003C\u002Fspan\u003E \u003C -1,00"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E-------\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-1,00"
       },
       {
         "from": -0.99999,
@@ -4036,7 +4036,7 @@
       {
         "from": 0.8,
         "color": "#662673",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,07-7\u003C\u002Fspan\u003E ≥ 0,80"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E-------\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,80"
       }
     ]
   },
