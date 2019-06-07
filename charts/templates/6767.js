@@ -34,6 +34,7 @@
             	},
                 style: {
                     color: "#000000",
+                    fontSize: "10px", 
                     textOverflow: 'none'
                 }
             },
@@ -56,7 +57,8 @@
                 labels: {rotation: 0,
                         	step: 1,
 	                style: {
-	                    color: "#000000"
+	                    color: "#000000",
+	                    fontSize: "10px" 
 	                }
                 }, 
                 tickLength: 0, 

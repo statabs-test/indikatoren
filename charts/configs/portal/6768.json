@@ -233,6 +233,7 @@
       "labels": {
         "step": 1,
         "style": {
+          "fontSize": "10px",
           "color": "#000000"
         }
       },
@@ -342,6 +343,7 @@
             	},
         "style": {
           "color": "#000000",
+          "fontSize": "10px",
           "textOverflow": "none"
         }
       },

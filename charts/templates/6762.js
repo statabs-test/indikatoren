@@ -34,7 +34,7 @@
 		                    color: 'white',
 		                    textOutline: "0px white", 
                         fontWeight: "normal", 
-                        fontSize: "12px"
+                        fontSize: "9px"
 		                }
 	      }
       }
