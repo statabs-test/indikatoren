@@ -307,7 +307,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "minPointLength": 1.5
     }
   },
   "title": {
