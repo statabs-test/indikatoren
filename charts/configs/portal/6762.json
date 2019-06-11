@@ -78,7 +78,7 @@
           "color": "white",
           "textOutline": "0px white",
           "fontWeight": "normal",
-          "fontSize": "9px"
+          "fontSize": "1px"
         }
       },
       "colors": [
@@ -142,10 +142,7 @@
       "fontWeight": "normal",
       "fontSize": "10px"
     },
-    "symbolRadius": 0,
-    "style": {
-      "fontSize": "12px"
-    }
+    "symbolRadius": 0
   },
   "exporting": {
     "filename": 6762

@@ -15,8 +15,12 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -275,
-			"y":  -103,
+		//	legendTop: 280,
+        //	legendLeft: 520,
+			"x": -115,
+			"y": -30,
+//			"x": -275,
+//			"y":  -103,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -152,11 +156,11 @@
 
                 	//Add manually drawn legend	
                 	
-                //	var legendTop = 180;
-                //	var legendLeft = 596;;
+                //	var legendTop = 280;
+                //	var legendLeft = 520;;
                 	
-                	var legendTop = 280;
-                	var legendLeft = 520;;
+                	var legendTop = 190;
+                	var legendLeft = 350;;
                 	
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
 					fn.addLegendText(chart,        legendLeft+25, legendTop+35,  'Schweiz');

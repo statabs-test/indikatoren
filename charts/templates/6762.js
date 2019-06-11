@@ -1,9 +1,10 @@
 (function(){
     return {
       legend:{
-      	style: {
-		fontSize: "12px"
-		}
+        "itemStyle": {
+            "fontWeight": "normal",
+            "fontSize": "10px"
+        }
       },
       "data":{
       	"switchRowsAndColumns": true
@@ -34,7 +35,7 @@
 		                    color: 'white',
 		                    textOutline: "0px white", 
                         fontWeight: "normal", 
-                        fontSize: "9px"
+                        fontSize: "1px"
 		                }
 	      }
       }
