@@ -18,7 +18,7 @@
 		//	legendTop: 280,
         //	legendLeft: 520,
 			"x": -115,
-			"y": -30,
+			"y": -35,
 //			"x": -275,
 //			"y":  -103,
 			itemMarginBottom: 2, 
