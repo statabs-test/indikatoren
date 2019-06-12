@@ -18,7 +18,7 @@
     	    }
     	}, 
         "chart": {		
-             "borderColor": "#fbfbfb",
+            "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
 			"width": 660,
             "height": 322,

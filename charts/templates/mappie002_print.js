@@ -60,7 +60,7 @@
     		"gridLineColor": "#fbfbfb",	
             "gridLineWidth": 1,
             "labels": {	
-    		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
+    		    "style": {"color": "black", "cursor": "default", "fontSize": "10px", "textOverflow": "none"}
     		},
     		"marker": {
                     "color": "black"
