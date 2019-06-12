@@ -15,8 +15,8 @@ return {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -255,
-			"y":  -66,
+			"x": -108,
+			"y":  6,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -28,7 +28,7 @@ return {
 		                   dataClasses: [{
 		                to: -1.0,
 		                color: '#0F7399', //rgb(242,242,242)',
-		                name:  "<span style='color: rgba(0,0,0,0)'>-------</span> <<span style='color: rgba(0,0,0,0)'>1</span>-1,00"//"<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-1,00"
+		                name:  "<span style='color: rgba(0,0,0,0)'>-0,99 </span> <<span style='color: rgba(0,0,0,0)'>1</span>-1,00"//"<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-1,00"
 		            }, {
 		                from: -0.99999,
 		                to:  -0.5,
@@ -47,7 +47,7 @@ return {
 		            },{
 		                from: 0.8,
 		                color: '#662673', //rgb(60,60,60)
-		                name: "<span style='color: rgba(0,0,0,0)'>-------</span> ≥<span style='color: rgba(0,0,0,0)'>1-</span>0,80" //"<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span> 0,80"
+		                name: "<span style='color: rgba(0,0,0,0)'>-0,99 </span> ≥<span style='color: rgba(0,0,0,0)'>1-</span>0,80" //"<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span> 0,80"
 		            }], 
         },
        
@@ -203,10 +203,11 @@ return {
 					var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
-                   
+                    var legendTop = 190;
+                	var legendLeft = 350;;
                 	
-                	var legendTop = 280; //220
-                	var legendLeft = 520; //365
+                	//var legendTop = 280; //220
+                	//var legendLeft = 520; //365
 	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderung/Umzug'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+60,  legendColumnValues, color, 'columnLegendHideOnZoom');
@@ -216,15 +217,15 @@ return {
 	                fn.addLegendText(chart,        legendLeft+25, legendTop+60,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+72,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+82,  'Wanderung positiv');
+					fn.addLegendText(chart,        legendLeft+15, legendTop+79.5,  'Wanderung positiv');
 					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+87,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+97,  'Wanderung negativ');
+					fn.addLegendText(chart,        legendLeft+15, legendTop+94.5,  'Wanderung negativ');
 					
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+102,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+112,  'Umzug positiv');
+					fn.addLegendText(chart,        legendLeft+15, legendTop+109.5,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+117, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+127 , 'Umzug negativ');
-					fn.addLegendText(chart,  legendLeft+125, legendTop+0, 'Bevölkerungssaldo'  );	
+					fn.addLegendText(chart,        legendLeft+15, legendTop+124.5 , 'Umzug negativ');
+					fn.addLegendText(chart,  legendLeft+115, legendTop+0, 'Bevölkerungssaldo'  );	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					

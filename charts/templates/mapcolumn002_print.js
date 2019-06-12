@@ -20,8 +20,10 @@
         "chart": {		
              "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-			"width": 992,
-            "height": 484,
+			"width": 660,
+            "height": 322,
+   //      	"width": 992,
+   //       "height": 484,
             spacing: [2,2,2,2],
             "style": {
                 "fontFamily": "Arial"
