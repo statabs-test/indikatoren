@@ -3933,11 +3933,11 @@
                 	//var legendLeft = 520; //365
 	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderung/Umzug'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+30,  /*legendColumnValues*0.466*/  [1.44, 0.72], color, 'columnLegendHideOnZoom'); //Hämdsärmlige Lösung MB
+	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+35,  /*legendColumnValues*0.466*/  [1.44, 0.72], color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
 	                
-	                fn.addLegendText(chart,        legendLeft+15, legendTop+30,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+15, legendTop+35,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+25, legendTop+30,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+25, legendTop+35,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+45,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft+15, legendTop+53,  'Wanderung positiv');
@@ -3948,7 +3948,7 @@
 					fn.addLegendText(chart,        legendLeft+15, legendTop+82,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+87, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft+15, legendTop+96 , 'Umzug negativ');
-					fn.addLegendText(chart,  legendLeft+115, legendTop+0, 'Bevölkerungssaldo'  );	
+					fn.addLegendText(chart,  legendLeft+113, legendTop+0, 'Bevölkerungssaldo'  );	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
