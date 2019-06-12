@@ -3923,7 +3923,7 @@
 
 	                
 					//column values in legend
-					var legendColumnValues = [3, 1.5]; 
+				//	var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
                     var legendTop = 190;
@@ -3935,9 +3935,9 @@
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+35,  /*legendColumnValues*0.466*/  [1.44, 0.72], color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
 	                
-	                fn.addLegendText(chart,        legendLeft+15, legendTop+35,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+15, legendTop+35,  Highcharts.numberFormat(3, 0,","," "), color(3, 0), 'columnLegendHideOnZoom');
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+25, legendTop+35,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+25, legendTop+35,  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+45,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft+15, legendTop+53,  'Wanderung positiv');
