@@ -210,7 +210,7 @@ return {
                 	//var legendLeft = 520; //365
 	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderung/Umzug'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+60,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+60,  /*legendColumnValues*/[1.5, 0.75], color, 'columnLegendHideOnZoom');
 	                
 	                fn.addLegendText(chart,        legendLeft+15, legendTop+60,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
