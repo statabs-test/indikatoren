@@ -27,26 +27,26 @@ return {
 		            dataClassColor: 'category',
 		                   dataClasses: [{
 		                to: -1.0,
-		                color: '#0F7399', //rgb(242,242,242)',
+		                color: '#662673', //rgb(242,242,242)',
 		                name:  "<span style='color: rgba(0,0,0,0)'>-0,99 </span> <<span style='color: rgba(0,0,0,0)'>1</span>-1,00"//"<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-1,00"
 		            }, {
 		                from: -0.99999,
 		                to:  -0.5,
-		                color: '#71A3B5',//rgb(230,230,230)',
+		                color: '#B375AB',//rgb(230,230,230)',
 		                name:  "<span style='color: rgba(0,0,0,0)' ></span>-0,99 −<span style='color: rgba(0,0,0,0)'>1</span>-0,50" //"-0,99 − -0,50"
 		            }, {
 		                from: -0.499999,
 		                to:-0.000001,
-		                 color: '#D7E8D2',  //rgb(200,200,200)',
+		                 color: '#E7CEE2',  //rgb(200,200,200)',
 		                 name: "<span style='color: rgba(0,0,0,0)' ></span>-0,49 −<span style='color: rgba(0,0,0,0)'>1</span>-0,01" //"-0,49 − -0,01" 
 		            },{
 		                from: 0,
 		                to: 0.79999,
-		                 color: '#E7CEE2', //rgb(153,153,153
+		                 color: '#D3E2E4', //rgb(153,153,153
 		                 name: "<span style='color: rgba(0,0,0,0)' >-</span>0,00 −<span style='color: rgba(0,0,0,0)'>1-</span>0,79"//" 0,00 − -0,79" //
 		            },{
 		                from: 0.8,
-		                color: '#662673', //rgb(60,60,60)
+		                color: '#71A3B5', //rgb(60,60,60)
 		                name: "<span style='color: rgba(0,0,0,0)'>-0,99 </span> ≥<span style='color: rgba(0,0,0,0)'>1-</span>0,80" //"<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span> 0,80"
 		            }], 
         },
