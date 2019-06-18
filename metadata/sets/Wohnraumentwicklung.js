@@ -598,7 +598,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhalten sank von 41% im Jahr 2011 auf 37% im Jahr 2019. Demgegenüber nahm der Anteil an Paaren mit minderjährigen Kindern in den betrachteten Jahren leicht zu (von 32% auf 35%). Die Anteile der weiteren Familienhaushalts-Arten sind seit 2011 gleich geblieben.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -610,9 +610,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4142,
+		"chart-id": 4142,
+		"filter": "",
 		"id": 4142
 	},
 	{
