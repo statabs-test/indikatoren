@@ -18,7 +18,7 @@
     "csv": "4.0.0",
     "eol": "0.9.1",
     "forever": "0.15.3",
-    "fs-extra": "5.0.0",
+    "fs-extra": "8.1.0",
     "gh-pages-travis": "1.0.4",
     "glob": "7.1.1",
     "hash-files": "1.1.1",
