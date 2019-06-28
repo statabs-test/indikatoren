@@ -19,5 +19,6 @@ var indikatorensetNames = [
 	"Steuern",
 	"Monatsindikatoren",
 	"Testset",
+	"Bevoelkerungsszenarien",
 	"Test"
 ];
