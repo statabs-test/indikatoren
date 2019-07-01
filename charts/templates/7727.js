@@ -9,10 +9,11 @@
 		"format": "{value:,.1f}"
 	}
   },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-  },
+  tooltip: {
+    "pointFormatter": function(){
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),2) + ' </b><br/><b>' 
+    }  
+      },
   "series": [
   	   {"color": "#007A2F",
       "marker": {
