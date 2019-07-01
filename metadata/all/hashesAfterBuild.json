@@ -7176,14 +7176,14 @@
 	},
 	"7741": {
 		"metadata": "7e5777f9d0ce489bd8941b7a64adaebacf84c074",
-		"chartConfig": "76101bcb0f86972c2d063724316e2de3c0cfc4bb",
+		"chartConfig": "44b65b46c420e97d0f01013ba1204301f718b825",
 		"data": "43cc1c8a620168d7048603a2562be84b89e08203",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "90731bd74ced7848947a4e4ffd70c2ba34cc34dd"
 	},
 	"7742": {
 		"metadata": "e380ce9261003a44982d75ba06416b8b2a63aa23",
-		"chartConfig": "2675a5ba067f894cb91642761f0c34fe3572f989",
+		"chartConfig": "0324f1f0f9404c332aae42340a4db08d6a2526d3",
 		"data": "74fe1a4ee3dcd63a682d376ba00483a08d16374f",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "f020952442ddbe62d0ed302624f20e1d35b8c0d0"
