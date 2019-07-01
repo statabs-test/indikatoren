@@ -4,6 +4,7 @@
         showLastLabel: true,
         endOnTick: true,
       //tickAmount: 5,
+      tickInterval: 1000,
         labels: {
             format: "{value:,.0f}",
         }, 
@@ -14,11 +15,11 @@
         startOnTick: true,
         showFirstLabel: true,
         showLastLabel: true,
-        tickInterval: 365 * 24 * 3600 * 1000 * 2,
-        minTickInterval: 365 * 24 * 3600 * 1000 * 2,
+       // tickInterval: 365 * 24 * 3600 * 1000 * 3,
+        //minTickInterval: 365 * 24 * 3600 * 1000 * 3,
         ordinal: false,
         labels: {
-        rotation: -45
+        //rotation: -45
         }
     },
   "tooltip": {

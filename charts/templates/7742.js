@@ -3,7 +3,8 @@
       "yAxis": {
         showLastLabel: true,
         endOnTick: true,
-      tickAmount: 5,
+      //tickAmount: 5,
+      tickInterval: 1000,
         labels: {
             format: "{value:,.0f}",
         }, 
@@ -14,8 +15,8 @@
         startOnTick: true,
         showFirstLabel: true,
         showLastLabel: true,
-        tickInterval: 365 * 24 * 3600 * 1000,
-        minTickInterval: 365 * 24 * 3600 * 1000,
+       // tickInterval: 365 * 24 * 3600 * 1000 * 3,
+       // minTickInterval: 365 * 24 * 3600 * 1000 * 3,
         ordinal: false,
              
     },

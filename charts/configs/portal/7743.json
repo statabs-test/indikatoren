@@ -1011,9 +1011,7 @@
     "endOnTick": true,
     "startOnTick": true,
     "showFirstLabel": true,
-    "showLastLabel": true,
-    "tickInterval": 31536000000,
-    "minTickInterval": 31536000000
+    "showLastLabel": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -1034,7 +1032,7 @@
     },
     "showLastLabel": true,
     "endOnTick": true,
-    "tickAmount": 5,
+    "tickInterval": 500,
     "opposite": false
   },
   "navigation": {
