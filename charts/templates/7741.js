@@ -17,7 +17,6 @@
         tickInterval: 365 * 24 * 3600 * 1000,
         minTickInterval: 365 * 24 * 3600 * 1000,
         ordinal: false,
-        min: Date.UTC(2009, 0, 1),
              
     },
   "tooltip": {

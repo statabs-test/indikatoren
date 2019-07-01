@@ -3,7 +3,7 @@
       "yAxis": {
         showLastLabel: true,
         endOnTick: true,
-      //tickAmount: 6,
+      //tickAmount: 5,
         labels: {
             format: "{value:,.0f}",
         }, 
@@ -14,11 +14,12 @@
         startOnTick: true,
         showFirstLabel: true,
         showLastLabel: true,
-        tickInterval: 365 * 24 * 3600 * 1000,
-        minTickInterval: 365 * 24 * 3600 * 1000,
+        tickInterval: 365 * 24 * 3600 * 1000 * 2,
+        minTickInterval: 365 * 24 * 3600 * 1000 * 2,
         ordinal: false,
-      
-             
+        labels: {
+        rotation: -45
+        }
     },
   "tooltip": {
     shared: false, 

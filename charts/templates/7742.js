@@ -3,7 +3,7 @@
       "yAxis": {
         showLastLabel: true,
         endOnTick: true,
-      tickAmount: 7,
+      tickAmount: 5,
         labels: {
             format: "{value:,.0f}",
         }, 
@@ -17,7 +17,6 @@
         tickInterval: 365 * 24 * 3600 * 1000,
         minTickInterval: 365 * 24 * 3600 * 1000,
         ordinal: false,
-        
              
     },
   "tooltip": {
@@ -72,6 +71,7 @@ data: {
   }
 }, 
 rangeSelector: {
+    //enabled:  false,
   buttonTheme: {
     width: null
   },         

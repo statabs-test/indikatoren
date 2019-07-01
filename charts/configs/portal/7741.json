@@ -1013,8 +1013,7 @@
     "showFirstLabel": true,
     "showLastLabel": true,
     "tickInterval": 31536000000,
-    "minTickInterval": 31536000000,
-    "min": 1230768000000
+    "minTickInterval": 31536000000
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -1035,7 +1034,7 @@
     },
     "showLastLabel": true,
     "endOnTick": true,
-    "tickAmount": 7,
+    "tickAmount": 5,
     "opposite": false
   },
   "navigation": {
@@ -1074,10 +1073,30 @@
   "rangeSelector": {
     "verticalAlign": "bottom",
     "buttonPosition": {},
-    "enabled": false,
     "buttonTheme": {
       "width": null
-    }
+    },
+    "buttons": [
+      {
+        "count": 21,
+        "type": "year",
+        "text": "nur Szenarien"
+      },
+      {
+        "count": 30,
+        "type": "year",
+        "text": "30 Jahre"
+      },
+      {
+        "type": "all",
+        "text": "Alle Jahre"
+      }
+    ],
+    "buttonSpacing": 40,
+    "inputEnabled": false,
+    "selected": 1,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
   },
   "navigator": {
     "margin": 10,
