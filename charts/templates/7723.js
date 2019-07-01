@@ -4,14 +4,14 @@
     //"tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": 0, 
 	"labels": {
 		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>'
   },
   "series": [
   	   {"color": "#007A2F",

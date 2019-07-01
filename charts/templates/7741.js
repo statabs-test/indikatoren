@@ -1,16 +1,26 @@
 (function(){
     return {
-  "xAxis": {
-    //"tickInterval": 1
-  },
-  "yAxis": {
-    "min": undefined, 
-	"labels": {
-		"format": "{value:,.0f}"
-	}
-  },	
+      "yAxis": {
+        showLastLabel: true,
+        endOnTick: true,
+        //tickAmount: 6,
+        labels: {
+            format: "{value:,.0f}",
+        }, 
+        opposite: false,
+    },
+    "xAxis": {
+        endOnTick: true,    
+        startOnTick: true,
+        showFirstLabel: true,
+        showLastLabel: true,
+        tickInterval: 365 * 24 * 3600 * 1000,
+        minTickInterval: 365 * 24 * 3600 * 1000,
+        ordinal: false
+    },
   "tooltip": {
-    "shared": false, 
+    shared: false, 
+    split: false,
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
@@ -51,11 +61,46 @@
   chart: {
     type: 'column'
 },
+data: {
+  //convert year in first column to UTC date to be used by Highstock
+  parsed: function(columns){
+      columns[0].forEach(function(v, i, a){
+          columns[0][i] = Date.UTC(columns[0][i]);
+      });
+  }
+}, 
+rangeSelector: {
+  buttonTheme: {
+    width: null
+  },         
+buttons: 
+[
+    {
+            count: 21,
+            type: 'year',
+            text: 'nur Szenarien'
+        }, 
+    {
+            count: 30,
+            type: 'year',
+            text: '30 Jahre'
+        }, 
+    
+        {
+            type: 'all',
+            text: 'Alle Jahre'
+        }
+      ],
+  buttonSpacing: 40,                
+  inputEnabled: false,
+  selected: 1, 
+  inputDateFormat: '%Y',
+inputEditDateFormat: '%Y'
+}, 
   plotOptions: {
     column: {
-        groupPadding: 0.5,
-        pointPadding: 0.1,
-        pointWidth: 5    
+        groupPadding: 0,
+        pointPadding: 0,   
     }
 }
   
