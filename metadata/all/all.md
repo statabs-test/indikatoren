@@ -1052,6 +1052,8 @@ id | visible | visibleInPortal | indikatorenset
 7563 | true | false | 
 7603 | true | true | 
 7713 | true | false | Testset
+7745 | true | true | 
+7746 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

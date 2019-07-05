@@ -24877,5 +24877,85 @@ var indikatoren = [
 		"chart-id": 7603,
 		"filter": "",
 		"id": 7603
+	},
+	{
+		"title": "Altersquotient Kleinbasel und Basel-Stadt",
+		"subtitle": "",
+		"kuerzel": "I.01.9.07745",
+		"kuerzelKunde": "4-6",
+		"description": "Altersquotient Kleinbasel und Basel-Stadt",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-04T16:46:12.1212",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7745,
+		"chart-id": 7745,
+		"filter": "",
+		"id": 7745
+	},
+	{
+		"title": "Ausländeranteil Kleinbasel und Basel-Stadt",
+		"subtitle": "",
+		"kuerzel": "I.01.9.07746",
+		"kuerzelKunde": "4-6",
+		"description": "Ausländeranteil Kleinbasel und Basel-Stadt",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-04T16:46:12.1212",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7746,
+		"chart-id": 7746,
+		"filter": "",
+		"id": 7746
 	}
 ];
