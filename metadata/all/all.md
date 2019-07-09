@@ -1075,6 +1075,7 @@ id | visible | visibleInPortal | indikatorenset
 7742 | true | true | Bevoelkerungsszenarien
 7743 | true | true | Bevoelkerungsszenarien
 7744 | true | true | Bevoelkerungsszenarien
+7747 | true | false | Bevoelkerungsszenarien
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
