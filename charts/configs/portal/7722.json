@@ -153,7 +153,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Prognostizierte zusätzliche Wohnfläche"
+    "text": "Zusätzliche Wohnfläche nach Prognosezeitraum"
   },
   "subtitle": {
     "style": {
@@ -162,7 +162,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Bevölkerungsszenarien Basel-Stadt, 2019",
+    "text": " in m². Bevölkerungsszenarien Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
