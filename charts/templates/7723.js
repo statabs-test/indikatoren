@@ -11,7 +11,8 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>'
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>',
+  valueDecimals: 1
   },
   "series": [
   	   {"color": "#007A2F",
