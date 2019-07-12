@@ -53,7 +53,7 @@ global Highcharts
         .replace("Wegzugsort: unbekannt", "Unbekannt")
         .replace("Wegzugsort: Ausland", "Ausland")
         .replace("Wegzugsort: übrige Schweiz", "Übrige Schweiz")
-        .replace("Wegzugsort: Schweizer Agglo. BS", "Schweiz. Agglomeration Basel")
+        .replace("Wegzugsort: Nordwestschweiz", "Nordwestschweiz")
         ;
 },
     "itemStyle": {

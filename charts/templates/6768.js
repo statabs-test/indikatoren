@@ -103,7 +103,7 @@
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
-            "align": "left",
+          //  "align": "left",
              "itemDistance": 5,
            	//"y": 55,    
             "itemStyle": {

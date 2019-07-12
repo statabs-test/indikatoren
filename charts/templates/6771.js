@@ -15,7 +15,7 @@ return {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -108,
+			"x": -85,
 			"y":  -25,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -208,7 +208,7 @@ return {
                 	
                 	//var legendTop = 280; //220
                 	//var legendLeft = 520; //365
-	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderung/Umzug'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderungs-/Umzugssaldo'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
 	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+35,  /*legendColumnValues*0.466*/  [1.44, 0.72], color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
 	                
@@ -225,7 +225,7 @@ return {
 					fn.addLegendText(chart,        legendLeft+15, legendTop+82,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+87, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft+15, legendTop+96 , 'Umzug negativ');
-					fn.addLegendText(chart,  legendLeft+113, legendTop+0, 'Bevölkerungssaldo'  );	
+					fn.addLegendText(chart,  legendLeft+133, legendTop+0, 'Bevölkerungssaldo'  );	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					

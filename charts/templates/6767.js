@@ -103,7 +103,7 @@
         "enabled": true,
         "layout": "horizontal",
         "verticalAlign": "top",
-        "align": "left",
+        //"align": "left",
        	//"y": 55,    
         "itemStyle": {
           "fontWeight": "normal", 
