@@ -40403,6 +40403,46 @@ var indikatoren = [
 		"id": 7747
 	},
 	{
+		"title": "Bevölkerung nach Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "I.01.1.07763",
+		"kuerzelKunde": "",
+		"description": "Bevölkerung nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-07-16T09:36:58.5858",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Mai 2019 nahm die Bevölkerung des Kantons Basel-Stadt gegenüber März um 69 Personen (+2 Schweizer und -71 Ausländer) auf 200'192 ab. Dies ist im laufenden Jahr bereits der dritte Monat mit rückläufiger Bevölkerungszahl.",
+		"erlaeuterungen": "Hier kommt noch eine Erläuterung",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7763,
+		"chart-id": 7763,
+		"filter": "",
+		"id": 7763
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
