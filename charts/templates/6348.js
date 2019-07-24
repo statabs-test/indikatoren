@@ -38,9 +38,9 @@
 
   "colors": [
     "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
     "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
     "#A8C3CA",
     "#A8C3CA",
     "#A8C3CA",
