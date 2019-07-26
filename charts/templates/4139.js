@@ -79,35 +79,41 @@
      {
       "color": "#ff8028",
       "marker": {
-        "enabled": false
+        "enabled": true,
+        symbol: "circle"
       },
       "yAxis": 1,
-      "type": "line",
+      "type": "scatter",
       "visible": false,
       tooltip: {
+        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
       }
     },
     {
       "color": "#923f8d",
       "marker": {
-        "enabled": false
+        "enabled": true,
+        symbol: "circle"
       },
       "yAxis": 1,
-      "type": "line",
+      "type": "scatter",
       "visible": false, 
       tooltip: {
+        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
       }
     },
     {
       "color": "#b00000",
       "marker": {
-        "enabled": false
+        "enabled": true,
+        symbol: "circle"
       },
       "yAxis": 1,
-      "type": "line", 
+      "type": "scatter", 
       tooltip: {
+        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
       }
     }

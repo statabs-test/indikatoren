@@ -2109,11 +2109,11 @@
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Grösse der Wohnung, Basel-Stadt",
+		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.4139",
 		"kuerzelKunde": "1.2.F-2",
-		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
+		"description": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
