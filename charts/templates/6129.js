@@ -1,5 +1,22 @@
+(function(H) {
+  H.wrap(H.Legend.prototype, 'colorizeItem', function(proceed, item, visible) {
+      var color = item.color;
+      item.color = item.options.legendColor;
+      proceed.apply(this, Array.prototype.slice.call(arguments, 1));
+      item.color = color;
+  });
+}(Highcharts));
+
 (function(){
   return {
+    "plotOptions": {
+      series: {
+         //pointWidth: 5, 
+       },
+   "column": {
+       "colorByPoint": true
+   }
+ },
     "yAxis": {
     	"min": 0,
       //"max": 200000,
@@ -38,8 +55,7 @@
       }
     },
     "series": [
-      {
-        "color": "#689199", // 
+      { "legendColor": "#A8C3CA",
         "index": 0,
         "type": "column",
         pointPadding: 0,
@@ -50,7 +66,8 @@
   		   },
       },
       {
-        "color": "#B00000", // 
+        "legendColor": "#B00000",
+        "color": "#B00000",
         "index": 1,
         "type": "line",
          "marker": {
@@ -60,7 +77,35 @@
   	  "tooltip": {
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   	   },
-      },
+      }
+      ],
+      "colors": [
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#689199",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",        
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA", 
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
       ],  
      "tooltip": {
     	    //"shared": true
