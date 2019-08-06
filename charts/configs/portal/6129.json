@@ -129,6 +129,8 @@
       },
       "legendIndex": 2,
       "tooltip": {
+        "snap": 0,
+        "headerFormat": "",
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
@@ -362,7 +364,8 @@
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "stickyTracking": false
     },
     "column": {
       "colorByPoint": true

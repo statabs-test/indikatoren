@@ -11,6 +11,7 @@
   return {
     "plotOptions": {
       series: {
+          stickyTracking: false
          //pointWidth: 5, 
        },
    "column": {
@@ -75,6 +76,8 @@
         },
         legendIndex: 2,
   	  "tooltip": {
+        snap: 0,
+        "headerFormat": '',
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   	   },
       }
