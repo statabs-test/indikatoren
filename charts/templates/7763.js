@@ -4,24 +4,14 @@
 	global $
 */
 (function(){
-
     return {
     	"legend": {
-    		y:5,
+			y:5,
 			"title": {
 				"text": ""
 			}
-			},
-		"colorAxis": {
-			min: 0,
-			"minColor": "#D3E2E4",
-			"maxColor": "#083038",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
-				}
-			}
 		},
+
         "data": {
 		    "seriesMapping": [
 		      {
@@ -32,7 +22,69 @@
 		      	y: 3
 		      }
 		    ]
-        },
+		},
+///*
+		"colorAxis": {
+			min: -1.1,
+			max: 1.3,
+			stops:	[
+						[0,'#FFBB58'],
+						[0.25,'#FF8028'],
+						[0.5,'#D3E2E4'],
+						[0.75,'#689199'],
+						[1,'#246370']
+					],
+			startOnTick: false,
+			endOnTick: false,
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value),1); 
+				}
+			}
+		 },
+//*/
+/*
+		"colorAxis": {
+			dataClasses:
+			[
+				{
+					from: -100,
+					to: -1,
+					color: '#DC143C',
+					name: '--'
+				},
+				{
+					from: -1,
+					to: -0.5,
+					color: '#FFA500',
+					name: '-'
+				},
+				{
+					from: -0.5,
+					to: 0,
+					color: '#FFFF00',
+					name: '0'
+				},
+				{
+					from: 0,
+					to: 0.2,
+					color: '#98FB98',
+					name: '+'
+				},
+				{
+					from: 0.2,
+					to: 100,
+					color: '#008000',
+					name: '++'
+				}
+			],
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value),0); 
+				}
+			}
+		},
+*/	
 		"series": [
 			{
 				"name": "Wohnviertel", 
@@ -51,7 +103,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + ' </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + ' </b><br/>';
 					}
 				}
 			}, 
@@ -83,9 +135,9 @@
 	                var color = function(value){
 	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
 	                };					
-					
+
 					//define chart-specific details
-									var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
@@ -142,11 +194,6 @@
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                
 	                
-
-					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
 					fn.addLegendLabelbold(chart, 'Anzahl Einwohner Ende Monat', 265, 220, 'pieLegendStayeOnZoom');
 					fn.addLegendTitle(chart, 'Veränderung zum Vormonat in %', 265, 300);
 					
