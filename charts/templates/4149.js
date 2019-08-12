@@ -36,13 +36,13 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.1f}%",
       "style": {
         "color": "#000000"
       }
     },
     "min": 0,
-    "max": 5,
+    "max": 4,
     "opposite": true
   }
   ],
@@ -59,7 +59,10 @@
 		//"y": 35,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "labelFormatter": function () {
+      return this.name.replace("in Prozent", "in Prozent (rechte Skala)");
+    },
   },
   "series": [
     {
@@ -74,8 +77,7 @@
       "yAxis": 1
     }
   ],  "tooltip": {
-    "shared": true, 
-    valueDecimals: 1
+    "shared": true
   },
   "chart": {
     "zoomType": "xy",

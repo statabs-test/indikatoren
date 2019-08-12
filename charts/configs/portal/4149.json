@@ -211,13 +211,13 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}%",
+        "format": "{value:,.1f}%",
         "style": {
           "color": "#000000"
         }
       },
       "min": 0,
-      "max": 5,
+      "max": 4,
       "opposite": true
     }
   ],
@@ -250,11 +250,13 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "labelFormatter": function () {
+      return this.name.replace("in Prozent", "in Prozent (rechte Skala)");
+    }
   },
   "tooltip": {
-    "shared": true,
-    "valueDecimals": 1
+    "shared": true
   },
   "exporting": {
     "filename": 4149
