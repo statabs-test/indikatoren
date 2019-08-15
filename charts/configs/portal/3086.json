@@ -43,6 +43,10 @@
         [
           "2017",
           21
+        ],
+        [
+          "2018",
+          33
         ]
       ],
       "name": "Anzahl",
@@ -165,10 +169,7 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "pointWidth": 40
+      }
     }
   },
   "customFunctions": {
