@@ -169,7 +169,8 @@
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "borderWidth": 0
     }
   },
   "customFunctions": {
