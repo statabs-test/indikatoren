@@ -2515,8 +2515,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
-		"subtitle": "",
-		"kuerzel": "I.02.1.04149",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.1.4149",
 		"kuerzelKunde": "3.2.A",
 		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"thema": "02 Raum, Umwelt",
@@ -2525,15 +2525,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2019-08-19T16:40:12.1212",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 betrug der Anteil der Freiraumflächen an der Fläche des Kantons 2,44%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 840 000 Quadratmeter im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 885 000 Quadratmeter.",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"lesehilfe": "Im Jahr 2018 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,43%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9&nbsp;Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5&nbsp;Hektar.",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12&nbsp;Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
@@ -2542,11 +2544,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4149,
-		"darstellungsart": "Grafik"
+		"data-id": 4149,
+		"chart-id": 4149,
+		"filter": "",
+		"id": 4149
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",

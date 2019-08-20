@@ -75,7 +75,7 @@
     }
   ],  "tooltip": {
     "shared": true, 
-    valueDecimals: 1
+    valueDecimals: 2
   },
   "chart": {
     "zoomType": "xy",
