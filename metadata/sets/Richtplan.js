@@ -799,9 +799,10 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit rund 58 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 61 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
@@ -813,11 +814,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"SVIT beider Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6217,
-		"darstellungsart": "Grafik"
+		"data-id": 6217,
+		"chart-id": 6217,
+		"filter": "",
+		"id": 6217
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
