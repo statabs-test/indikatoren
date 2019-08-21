@@ -42,7 +42,9 @@
   {"color":"#cd9c00", "index": 3, "marker": {"enabled": false}}, //orange
   ],  
   "tooltip": {
-    //"shared": true
+    "shared": false,
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    valueSuffix: ' m²'
   },
 };
 }());
