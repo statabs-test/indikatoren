@@ -23239,7 +23239,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06391",
 		"kuerzelKunde": "K9-3",
 		"description": "Leerwohnungen nach Wohnviertel",
