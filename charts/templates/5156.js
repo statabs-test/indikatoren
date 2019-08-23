@@ -5,7 +5,7 @@
 (function(){
     return {
         plotOptions: {
-            column: {
+            series: {
             minPointLength: 2
             }
         },
