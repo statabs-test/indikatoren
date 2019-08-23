@@ -6,7 +6,7 @@
     return {
         plotOptions: {
             series: {
-            minPointLength: 2
+            minPointLength: 3
             }
         },
             
