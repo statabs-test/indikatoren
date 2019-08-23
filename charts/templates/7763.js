@@ -29,8 +29,6 @@
 			//max: 1.3,
 			min: -1.5,
 			max: 1.5,
-			//"minColor": "#7F5F1A",
-			//"maxColor": "#246370",
 			stops:	[
 						[0, "#DC440E"],
 						[0.499, "#FFFFCC"],
