@@ -4,6 +4,12 @@
 
 (function(){
     return {
+        plotOptions: {
+            column: {
+            minPointLength: 2
+            }
+        },
+            
         data: {
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
