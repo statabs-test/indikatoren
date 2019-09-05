@@ -1082,6 +1082,13 @@ id | visible | visibleInPortal | indikatorenset
 7745 | true | true | 
 7746 | true | true | 
 7747 | true | false | Bevoelkerungsszenarien
+7773 | true | false | Richtplan
+7774 | true | true | Richtplan
+7775 | true | true | Richtplan
+7777 | true | false | Richtplan
+7778 | true | false | Richtplan
+7779 | true | true | Richtplan
+7782 | true | false | Richtplan
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

@@ -8561,13 +8561,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_002",
+		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6242"
@@ -8588,7 +8588,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
-		"kuerzel": "I.01.1.05202",
+		"kuerzel": "I.01.1.5202",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
@@ -8597,17 +8597,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 266,5 Einwohner pro Hektar wies das Matthäusviertel am Jahresende 2017 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1998 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1998 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "",
 		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_003",
+		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6243"
@@ -8616,11 +8618,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5202,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5202,
+		"chart-id": 5202,
+		"filter": "",
+		"id": 5202
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -8646,7 +8651,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_012",
+		"orderKey": "02_04_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"6244"
@@ -8761,7 +8766,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "02_04_00_00_00_005",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -8801,7 +8806,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "02_04_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6246"
@@ -8843,10 +8848,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_009",
+		"orderKey": "02_04_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6249"
+			"6249",
+			"7597"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -8885,7 +8891,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_010",
+		"orderKey": "02_04_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"6250"
@@ -8927,7 +8933,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_002",
+		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5165",
@@ -8970,7 +8976,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_001",
+		"orderKey": "02_06_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6253"
@@ -9010,9 +9016,10 @@ var indikatoren = [
 		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 300 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
 		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_002",
+		"orderKey": "03_07_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6254"
@@ -9021,11 +9028,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5823,
-		"darstellungsart": "Grafik"
+		"data-id": 5823,
+		"chart-id": 5823,
+		"filter": "",
+		"id": 5823
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -9051,7 +9061,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_003",
+		"orderKey": "03_07_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6255"
@@ -9081,18 +9091,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-03T17:38:43.4343",
+		"aktualisierungsdatum": "2019-06-20T14:54:15.1515",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_001",
+		"orderKey": "03_08_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6256"
@@ -9101,12 +9112,15 @@ var indikatoren = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a>, und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 5891,
-		"darstellungsart": "Grafik"
+		"data-id": 5891,
+		"chart-id": 5891,
+		"filter": "",
+		"id": 5891
 	},
 	{
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
@@ -9120,18 +9134,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
+		"aktualisierungsdatum": "2018-09-13T09:14:15.1515",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2016 von 187&nbsp;463 auf 198&nbsp;206 gestiegen, was einem Anstieg um etwa 5,7% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,0% von 171&nbsp;743 auf 190&nbsp;681.",
-		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist jeweils der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
+		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_011",
+		"orderKey": "02_04_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"6257"
@@ -9141,11 +9156,14 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5901,
-		"darstellungsart": "Grafik"
+		"data-id": 5901,
+		"chart-id": 5901,
+		"filter": "",
+		"id": 5901
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -13548,7 +13566,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_001",
+		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6259"
@@ -13591,7 +13609,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_004",
+		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6260",
@@ -13634,7 +13652,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_004",
+		"orderKey": "03_07_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6245",
@@ -13677,7 +13695,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_002",
+		"orderKey": "03_08_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6263"
@@ -13714,13 +13732,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2017 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2017 gibt es 7 411 Privathaushalte in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2018 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2017 gibt es 7 411 Privathaushalte in Begegnungszonen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_004",
+		"orderKey": "02_05_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6264"
@@ -13802,9 +13820,10 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2016 sind in Basel-Stadt 190 681 Personen beschäftigt. Das sind 72 Personen weniger als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 944 Personen, während im Gesundheits- und Sozialwesen mit 1 078 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
 		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_001",
+		"orderKey": "03_07_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6265",
@@ -13815,11 +13834,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6236,
-		"darstellungsart": "Grafik"
+		"data-id": 6236,
+		"chart-id": 6236,
+		"filter": "",
+		"id": 6236
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -26156,5 +26178,125 @@ var indikatoren = [
 		"chart-id": 7746,
 		"filter": "",
 		"id": 7746
+	},
+	{
+		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.07774",
+		"kuerzelKunde": "ST 1-2",
+		"description": "Bruttogeschossflächen Wohnen und Arbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-09-05T13:38:52.5252",
+		"stufe1": "Sachgebiet Querschnittsthemen",
+		"stufe2": "Strategie 1: Regionale Sichtweise",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7774,
+		"chart-id": 7774,
+		"filter": "",
+		"id": 7774
+	},
+	{
+		"title": "Bauzonen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.07775",
+		"kuerzelKunde": "ST 1-3",
+		"description": "Bauzonen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-09-05T13:38:52.5252",
+		"stufe1": "Sachgebiet Querschnittsthemen",
+		"stufe2": "Strategie 1: Regionale Sichtweise",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potentieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung («Zone 7 Industrie- und Gewerbezone» (Basel) und Arbeitszonen (Riehen)). Kantonsfläche: ohne 105,87 ha Rheinanteil.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Zonenpläne Basel-Stadt, Riehen und Bettingen als Karten auf <a href = 'https://map.geo.bs.ch/s/h97S' target = '_blank'>MapBS</a>",
+			"Informationen zum <a href = 'http://www.zonenplan.bs.ch/' target = '_blank'>Zonenplan Basel-Stadt</a>"
+		],
+		"data-id": 7775,
+		"chart-id": 7775,
+		"filter": "",
+		"id": 7775
+	},
+	{
+		"title": "Motorfahrzeuge",
+		"subtitle": "",
+		"kuerzel": "I.11.1.07779",
+		"kuerzelKunde": "ST 11-4",
+		"description": "Motorfahrzeuge",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Mobilität",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<Bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_11_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
+		],
+		"data-id": 7779,
+		"chart-id": 7779,
+		"filter": "",
+		"id": 7779
 	}
 ];

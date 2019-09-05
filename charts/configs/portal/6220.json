@@ -33,6 +33,10 @@
         [
           2017,
           108.394975
+        ],
+        [
+          2018,
+          112.097943
         ]
       ],
       "name": "Haushalte in Begegnungszonen"
@@ -70,6 +74,10 @@
         [
           2017,
           101.0855252
+        ],
+        [
+          2018,
+          "101,4336261"
         ]
       ],
       "name": "Haushalte in der Stadt Basel"
