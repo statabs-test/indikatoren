@@ -275,7 +275,7 @@ var templatesById = {
 	"5142": "populationPyramid001",
 	"5144": "line001",
 	"5147": "line001",
-	"5148": "template001",
+	"5148": "line001",
 	"5149": "line001",
 	"5155": "template001",
 	"5156": "populationPyramid001",
