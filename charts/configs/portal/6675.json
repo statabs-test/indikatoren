@@ -956,7 +956,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -992,7 +992,7 @@
     "inverted": false,
     "spacingTop": 7,
     "renderTo": "container-6675",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -1024,7 +1024,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Gemeinde und Wohnviertel, 2017",
+    "text": "nach Gemeinde und Wohnviertel, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -1066,9 +1066,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-16"
   },
   "legend": {
     "padding": 1,

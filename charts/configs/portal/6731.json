@@ -128,7 +128,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       5,
       2,
@@ -162,7 +162,7 @@
     "renderTo": "container-6731",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -196,7 +196,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jugendliche zwischen 10 und 17 Jahren, Basel-Stadt, 2017",
+    "text": "zwischen 10 und 17 Jahren, nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -238,9 +238,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)."
+    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "padding": 0,

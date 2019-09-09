@@ -154,7 +154,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -190,7 +190,7 @@
     "inverted": true,
     "marginLeft": 120,
     "renderTo": "container-6691",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -221,7 +221,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2012 bis 2016",
+    "text": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2013 bis 2017",
     "align": "left"
   },
   "yAxis": {
@@ -263,9 +263,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "padding": 0,

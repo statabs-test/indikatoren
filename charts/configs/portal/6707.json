@@ -135,7 +135,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -147,7 +147,7 @@
     },
     "type": "line",
     "renderTo": "container-6707",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -165,7 +165,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
@@ -206,9 +206,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
   },
   "legend": {
     "enabled": true,

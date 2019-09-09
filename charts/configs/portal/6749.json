@@ -333,7 +333,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -350,7 +350,7 @@
     "marginRight": 5,
     "inverted": true,
     "renderTo": "container-6749",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -429,9 +429,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-18"
   },
   "legend": {
     "padding": 1,

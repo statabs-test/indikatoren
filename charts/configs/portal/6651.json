@@ -206,18 +206,12 @@
     }
   ],
   "chart": {
-    "marginRight": 11,
     "type": "bar",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 208,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
@@ -242,8 +236,7 @@
                     }
                 }
     },
-    "renderTo": "container-6651",
-    "spacingBottom": 2
+    "renderTo": "container-6651"
   },
   "plotOptions": {
     "bar": {
@@ -277,7 +270,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": [
@@ -333,18 +326,12 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "10px"
-    },
     "enabled": true,
     "x": 7,
     "layout": "horizontal",
