@@ -116,10 +116,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    },
-    "legend": {
-      "enabled": false
+      },
+      "format": "{value:,.0f}"
     }
   },
   "xAxis": {
