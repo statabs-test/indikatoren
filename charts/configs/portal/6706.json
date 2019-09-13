@@ -70,6 +70,10 @@
         [
           2017,
           7.96
+        ],
+        [
+          2018,
+          7.88
         ]
       ],
       "name": "Schweiz"
@@ -144,6 +148,10 @@
         [
           2017,
           8.21
+        ],
+        [
+          2018,
+          7.89
         ]
       ],
       "name": "Italien"
@@ -218,6 +226,10 @@
         [
           2017,
           2.8
+        ],
+        [
+          2018,
+          2.62
         ]
       ],
       "name": "Portugal"
@@ -292,6 +304,10 @@
         [
           2017,
           6.26
+        ],
+        [
+          2018,
+          5.83
         ]
       ],
       "name": "Spanien"
@@ -366,6 +382,10 @@
         [
           2017,
           11.83
+        ],
+        [
+          2018,
+          11.62
         ]
       ],
       "name": "Türkei"
@@ -440,6 +460,10 @@
         [
           2017,
           10.12
+        ],
+        [
+          2018,
+          9.51
         ]
       ],
       "name": "Ehemaliges Jugoslawien"
@@ -447,22 +471,22 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
           }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -519,7 +543,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
@@ -533,7 +557,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
       "step": 1,
@@ -556,7 +580,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "enabled": true,

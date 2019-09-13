@@ -18,8 +18,8 @@
           0.793
         ],
         [
-          "2012-2016",
-          0.752
+          "2013-2017",
+          0.756
         ]
       ],
       "name": "Schweizer",
@@ -45,12 +45,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.741,
-          "high": 0.763
+          "name": "2013-2017",
+          "low": 0.744,
+          "high": 0.767
         }
       ],
-      "name": "Schweizer 95% Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -71,8 +71,8 @@
           0.676
         ],
         [
-          "2012-2016",
-          0.73
+          "2013-2017",
+          0.735
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,12 +98,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.719,
-          "high": 0.741
+          "name": "2013-2017",
+          "low": 0.724,
+          "high": 0.746
         }
       ],
-      "name": "Schweizerinnen 95% Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -124,7 +124,7 @@
           0.78
         ],
         [
-          "2012-2016",
+          "2013-2017",
           0.768
         ]
       ],
@@ -151,12 +151,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.754,
+          "name": "2013-2017",
+          "low": 0.755,
           "high": 0.782
         }
       ],
-      "name": "Ausländer 95% Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -177,8 +177,8 @@
           0.642
         ],
         [
-          "2012-2016",
-          0.66
+          "2013-2017",
+          0.673
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,12 +204,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.644,
-          "high": 0.675
+          "name": "2013-2017",
+          "low": 0.658,
+          "high": 0.689
         }
       ],
-      "name": "Ausländerinnen 95% Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -226,7 +226,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0
@@ -247,23 +248,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "type": "column",
@@ -346,7 +347,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 1,

@@ -5,27 +5,27 @@
       "data": [
         [
           "0-4",
-          -2.22
+          -2.25
         ],
         [
           "5-9",
-          -1.98
+          -2.02
         ],
         [
           "10-14",
-          -1.92
+          -1.95
         ],
         [
           "15-19",
-          -2.2
+          -2.19
         ],
         [
           "20-24",
-          -2.82
+          -2.79
         ],
         [
           "25-29",
-          -3.58
+          -3.59
         ],
         [
           "30-34",
@@ -33,55 +33,55 @@
         ],
         [
           "35-39",
-          -2.76
+          -2.88
         ],
         [
           "40-44",
-          -2.49
+          -2.53
         ],
         [
           "45-49",
-          -2.8
+          -2.68
         ],
         [
           "50-54",
-          -3.48
+          -3.35
         ],
         [
           "55-59",
-          -3.45
+          -3.49
         ],
         [
           "60-64",
-          -3.06
+          -3.1
         ],
         [
           "65-69",
-          -2.71
+          -2.72
         ],
         [
           "70-74",
-          -2.45
+          -2.47
         ],
         [
           "75-79",
-          -1.91
+          -2
         ],
         [
           "80-84",
-          -1.53
+          -1.48
         ],
         [
           "85-89",
-          -1.13
+          -1.08
         ],
         [
           "90-94",
-          -0.45
+          -0.46
         ],
         [
-          "95 u.m.",
-          -0.11
+          "95 u. m.",
+          -0.12
         ]
       ],
       "name": "Männer",
@@ -92,82 +92,82 @@
       "data": [
         [
           "0-4",
-          2.08
+          2.13
         ],
         [
           "5-9",
-          1.95
+          1.96
         ],
         [
           "10-14",
-          1.79
+          1.83
         ],
         [
           "15-19",
-          2.01
+          2
         ],
         [
           "20-24",
-          3.37
+          3.29
         ],
         [
           "25-29",
-          4.03
+          4.01
         ],
         [
           "30-34",
-          3.35
+          3.4
         ],
         [
           "35-39",
-          2.74
+          2.83
         ],
         [
           "40-44",
-          2.56
+          2.55
         ],
         [
           "45-49",
-          2.93
+          2.83
         ],
         [
           "50-54",
-          3.77
+          3.7
         ],
         [
           "55-59",
-          3.78
+          3.8
         ],
         [
           "60-64",
-          3.41
+          3.47
         ],
         [
           "65-69",
-          3.28
+          3.22
         ],
         [
           "70-74",
-          3.18
+          3.16
         ],
         [
           "75-79",
-          2.91
+          2.97
         ],
         [
           "80-84",
-          2.64
+          2.6
         ],
         [
           "85-89",
-          2.25
+          2.15
         ],
         [
           "90-94",
-          1.22
+          1.24
         ],
         [
-          "95 u.m.",
+          "95 u. m.",
           0.42
         ]
       ],
@@ -184,7 +184,7 @@
         "style": {
           "color": "#000000",
           "textOverflow": "none",
-          "fontSize": "10px"
+          "fontSize": "8px"
         }
       },
       "tickLength": 0,
@@ -206,12 +206,18 @@
     }
   ],
   "chart": {
+    "marginRight": 11,
     "type": "bar",
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 428,
-    "spacingBottom": 40,
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -236,7 +242,8 @@
                     }
                 }
     },
-    "renderTo": "container-6651"
+    "renderTo": "container-6651",
+    "spacingBottom": 12
   },
   "plotOptions": {
     "bar": {
@@ -286,8 +293,8 @@
       "labels": {
         "rotation": 0,
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
-            	},
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
+                },
         "style": {
           "color": "#000000",
           "textOverflow": "none",
@@ -303,8 +310,8 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
     }
@@ -328,10 +335,16 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "10px"
+    },
     "enabled": true,
     "x": 7,
     "layout": "horizontal",
@@ -340,7 +353,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 1, ",", " ") + '%</b><br/>';
             }
   },
   "customFunctions": {

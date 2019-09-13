@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          64070
+          65671
         ],
         [
           "Deutschland",
-          81855
+          86643
         ],
         [
           "Italien",
-          51051
+          53160
         ],
         [
           "Türkei",
-          38886
+          40245
         ],
         [
           "EU-17 + EFTA",
-          75251
+          82397
         ],
         [
           "EU-Ost",
-          45356
+          46655
         ],
         [
           "Balkan",
-          45213
+          46426
         ],
         [
           "Mittel- und Südamerika",
-          44193
+          49174
         ],
         [
           "Arabische Länder",
-          38230
+          42407
         ],
         [
           "Afrikanische Länder",
-          39077
+          43710
         ],
         [
           "Übrige Länder",
-          80841
+          93604
         ]
       ],
-      "name": "Mittelwert 2006",
+      "name": "Mittelwert 2007",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          64794
+          66582
         ],
         [
           "Deutschland",
-          97619
+          96730
         ],
         [
           "Italien",
-          58363
+          60057
         ],
         [
           "Türkei",
-          35921
+          36139
         ],
         [
           "EU-17 + EFTA",
-          103026
+          103409
         ],
         [
           "EU-Ost",
-          76550
+          81250
         ],
         [
           "Balkan",
-          44092
+          44237
         ],
         [
           "Mittel- und Südamerika",
-          52206
+          55767
         ],
         [
           "Arabische Länder",
-          37158
+          40108
         ],
         [
           "Afrikanische Länder",
-          32552
+          32419
         ],
         [
           "Übrige Länder",
-          128979
+          130007
         ]
       ],
-      "name": "Mittelwert 2015",
+      "name": "Mittelwert 2016",
       "turboThreshold": 0
     }
   ],
@@ -148,23 +148,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "marginRight": 18,
@@ -246,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,

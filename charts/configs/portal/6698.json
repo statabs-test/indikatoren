@@ -6,27 +6,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          3842
+          3893
         ],
         [
           "Unteres Fachkader",
-          67
+          69
         ],
         [
           "Unteres Kader",
-          183
+          174
         ],
         [
           "Mittleres Fachkader",
-          101
+          102
         ],
         [
           "Mittleres Kader",
-          196
+          201
         ],
         [
           "Oberes Kader",
-          122
+          118
         ]
       ],
       "name": "Schweiz",
@@ -38,27 +38,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          1444
+          1463
         ],
         [
           "Unteres Fachkader",
-          46
+          42
         ],
         [
           "Unteres Kader",
-          119
+          112
         ],
         [
           "Mittleres Fachkader",
-          45
+          47
         ],
         [
           "Mittleres Kader",
-          110
+          117
         ],
         [
           "Oberes Kader",
-          76
+          72
         ]
       ],
       "name": "Schweizer",
@@ -70,23 +70,23 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          2398
+          2430
         ],
         [
           "Unteres Fachkader",
-          21
+          27
         ],
         [
           "Unteres Kader",
-          64
+          62
         ],
         [
           "Mittleres Fachkader",
-          56
+          55
         ],
         [
           "Mittleres Kader",
-          86
+          84
         ],
         [
           "Oberes Kader",
@@ -102,11 +102,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          683
+          689
         ],
         [
           "Unteres Fachkader",
-          7
+          8
         ],
         [
           "Unteres Kader",
@@ -114,15 +114,15 @@
         ],
         [
           "Mittleres Fachkader",
-          13
+          11
         ],
         [
           "Mittleres Kader",
-          13
+          15
         ],
         [
           "Oberes Kader",
-          5
+          7
         ]
       ],
       "name": "Ausland",
@@ -134,11 +134,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          268
+          266
         ],
         [
           "Unteres Fachkader",
-          2
+          3
         ],
         [
           "Unteres Kader",
@@ -150,11 +150,11 @@
         ],
         [
           "Mittleres Kader",
-          9
+          8
         ],
         [
           "Oberes Kader",
-          2
+          3
         ]
       ],
       "name": "Ausländer",
@@ -166,7 +166,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          415
+          423
         ],
         [
           "Unteres Fachkader",
@@ -178,15 +178,15 @@
         ],
         [
           "Mittleres Fachkader",
-          8
+          6
         ],
         [
           "Mittleres Kader",
-          4
+          7
         ],
         [
           "Oberes Kader",
-          3
+          4
         ]
       ],
       "name": "Ausländerinnen",
@@ -206,7 +206,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "step": 1,
       "x": -5,
@@ -231,23 +232,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "marginRight": 18,
@@ -305,8 +306,7 @@
       "y": 18,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
@@ -331,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,
@@ -353,10 +353,6 @@
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 6698

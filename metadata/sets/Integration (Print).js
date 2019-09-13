@@ -167,7 +167,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:44:13.1313",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -206,7 +206,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:42:42.4242",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:41:52.5252",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -284,7 +284,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:59:53.5353",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -292,7 +292,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Diese Bevölkerungspyramide zeigt die Alterszusammensetzung der Schweizerinnen und Schweizer im Jahr 1999. Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die grösste Fünfjahresklasse bilden bei den Männern die 35- bis 39-Jährigen. Bei den Frauen ist die Klasse der 70- bis 74-Jährigen am stärksten besetzt, gefolgt von derjenigen der 65- bis 69-Jährigen und derjenigen der 35- bis 39-Jährigen.",
 		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_012",
@@ -323,7 +323,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:00:09.099",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -331,7 +331,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Diese Bevölkerungspyramide bildet die Altersstruktur der Ausländerinnen und Ausländer im Jahr 1999 ab. Ihre Basis ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Die grössten Altersgruppen sind diejenigen der 30- bis 34-jährigen Männer und Frauen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
 		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_013",
@@ -362,7 +362,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:00:35.3535",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2018 ist die Basis der Alterspyramide der Schweizerinnen und Schweizer etwas breiter als 1999, der Anteil der Kinder und Jugendlichen hat zugenommen.",
 		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"template": "populationPyramid001",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_014",
@@ -401,7 +401,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:00:50.5050",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -409,7 +409,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 ist bei den ausländischen Männern die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
 		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_015",
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:01:13.1313",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -479,14 +479,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:01:28.2828",
+		"aktualisierungsdatum": "2019-09-13T14:37:08.088",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 weisen Schweizer (45,3) und Italiener (32,2) die weitaus höchsten Altersquotienten auf. Am wenigsten 65-Jährige und Ältere pro 100 Personen zwischen 20 und 64 Jahren gibt es bei den Afrikanern (1,4). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit 1999.",
-		"erlaeuterungen": "Altersquotient: Anzahl über 64-Jähriger pro 100 20- bis 64-Jährige.",
+		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -557,7 +557,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:16:58.5858",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -596,7 +596,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:17:53.5353",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -635,7 +635,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:18:47.4747",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -675,7 +675,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:01:35.3535",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -714,7 +714,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:02:15.1515",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -753,7 +753,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T14:19:07.077",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -792,7 +792,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-09T11:20:01.011",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -831,7 +831,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:37:58.5858",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -870,7 +870,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:00:27.2727",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -909,7 +909,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:02:34.3434",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -948,7 +948,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:02:53.5353",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -987,7 +987,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1028,7 +1028,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1069,7 +1069,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:29:44.4444",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1109,7 +1109,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:29:55.5555",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1149,7 +1149,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:12.1212",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1189,7 +1189,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:19.1919",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1228,7 +1228,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:27.2727",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1267,7 +1267,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:05:44.4444",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1276,7 +1276,7 @@ var indikatorensetData = [
 		"lesehilfe": "Ende 2018 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥47%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1999 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
 		"erlaeuterungen": "",
 		"template": "mappie001_print",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": 6398,
@@ -1306,7 +1306,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-16T09:50:27.2727",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1345,7 +1345,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-16T09:56:46.4646",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1384,7 +1384,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:25:40.4040",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1423,7 +1423,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1462,7 +1462,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1501,7 +1501,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1540,7 +1540,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1579,7 +1579,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:26:26.2626",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1619,7 +1619,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:27:30.3030",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1627,7 +1627,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 1999 war die Arbeitslosenquote der ausländischen Frauen im Durchschnitt höher als diejenige der ausländischen Männer. Insbesondere die Frauen zwischen 20 und 39 Jahren waren stärker von Arbeitslosigkeit betroffen als die Männer in den gleichen Altersgruppen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_002",
@@ -1659,7 +1659,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:27:53.5353",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1667,7 +1667,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärksten von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen  und Schweize deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_003",
@@ -1699,7 +1699,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:29:10.1010",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1707,7 +1707,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von den 20-24-Jährigen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2018 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2013-2017 (aktuellstes 5-Jahres-Pooling) berechnet.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_004",
@@ -1739,7 +1739,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:29:43.4343",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1747,7 +1747,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Bei den Schweizerinnen und Schweizern sind im Jahr 2018 die Männer zwischen 20 und 24 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist jedoch in allen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Schweizerinnen registriert die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2018 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2013-2017 (aktuellstes 5-Jahres-Pooling) berechnet.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_005",
@@ -1779,7 +1779,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:30:16.1616",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1818,7 +1818,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:31:48.4848",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1857,7 +1857,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:32:17.1717",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1896,7 +1896,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:03:38.3838",
+		"aktualisierungsdatum": "2019-09-13T15:06:05.055",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1936,7 +1936,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:04:38.3838",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1975,7 +1975,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:05:09.099",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2014,7 +2014,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:05:37.3737",
+		"aktualisierungsdatum": "2019-09-13T15:08:51.5151",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2054,7 +2054,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:35:55.5555",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2094,7 +2094,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:36:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2133,7 +2133,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:37:23.2323",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2172,7 +2172,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:37:57.5757",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2211,7 +2211,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:38:46.4646",
+		"aktualisierungsdatum": "2019-09-13T14:05:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2250,13 +2250,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-09-13T15:23:36.3636",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2010 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». Von den 2010 insgesamt 123 ausländischen Staatsangehörigen mit Kaderfunktion besitzen 91 die deutsche Staatsbürgerschaft.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) ausgewertet nach Staatsangehörigkeit (Ländergruppen) und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2290,7 +2290,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:39:11.1111",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2329,7 +2329,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-15T10:33:39.3939",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2368,7 +2368,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T12:59:37.3737",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2407,7 +2407,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:30:08.088",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2415,7 +2415,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 23,5% das höchste Sozialhilferisiko aller dargestellten Gruppen. Auch bei den ausländischen Frauen liegt die Sozialhilfequote in dieser Altersgruppe mit 18,0% am höchsten.",
 		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern  Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_022",
@@ -2446,7 +2446,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:30:20.2020",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2454,7 +2454,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Erwachsene Frauen weisen im Kanton Basel-Stadt bei fast allen Altergruppen eine tiefere Sozialhilfequote auf als Männer. Die höchste Sozialhilfequote im Erwachsenenalter lässt sich bei den 40- bis 44-jährigen Frauen und den 45- bis 49-jährigen Männern beobachten.",
 		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
-		"template": "populationPyramid001_print",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_023",
@@ -2485,7 +2485,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:52:01.011",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2525,7 +2525,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:54:01.011",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2565,7 +2565,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:09:29.2929",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2605,7 +2605,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2644,7 +2644,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:05:57.5757",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2683,7 +2683,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:05.055",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2722,7 +2722,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:12.1212",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2761,7 +2761,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:22.2222",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2800,7 +2800,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2839,7 +2839,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2878,7 +2878,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -2917,7 +2917,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-24T14:22:23.2323",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -2958,7 +2958,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:45:40.4040",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -2998,7 +2998,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-04T08:52:22.2222",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3009,7 +3009,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_004",
+		"orderKey": "04_00_00_00_00_005",
 		"parentId": 6477,
 		"children": [],
 		"renderLink": [],
@@ -3038,18 +3038,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer haben mit 69,8 m² die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,3 m² an erster Stelle.",
+		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer verfügen mit 69,8 m² über die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,3 m² an erster Stelle.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_005",
+		"orderKey": "04_00_00_00_00_006",
 		"parentId": 6478,
 		"children": [],
 		"renderLink": [],
@@ -3078,7 +3078,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-24T14:34:04.044",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3089,7 +3089,7 @@ var indikatorensetData = [
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_006",
+		"orderKey": "04_00_00_00_00_007",
 		"parentId": 6479,
 		"children": [],
 		"renderLink": [],
@@ -3117,7 +3117,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3128,7 +3128,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_007",
+		"orderKey": "04_00_00_00_00_008",
 		"parentId": 6480,
 		"children": [],
 		"renderLink": [],
@@ -3156,7 +3156,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3167,7 +3167,7 @@ var indikatorensetData = [
 		"template": "pie001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_008",
+		"orderKey": "04_00_00_00_00_009",
 		"parentId": 6481,
 		"children": [],
 		"renderLink": [],
@@ -3195,7 +3195,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:54:43.4343",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3206,7 +3206,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
-		"orderKey": "04_00_00_00_00_009",
+		"orderKey": "04_00_00_00_00_010",
 		"parentId": 6482,
 		"children": [],
 		"renderLink": [],
@@ -3235,7 +3235,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:19:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3243,10 +3243,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "line001_print",
+		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_010",
+		"orderKey": "04_00_00_00_00_011",
 		"parentId": 6483,
 		"children": [],
 		"renderLink": [],
@@ -3275,7 +3275,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:34:13.1313",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3286,7 +3286,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_011",
+		"orderKey": "04_00_00_00_00_012",
 		"parentId": 6484,
 		"children": [],
 		"renderLink": [],
@@ -3315,7 +3315,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:08:04.044",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3326,7 +3326,7 @@ var indikatorensetData = [
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_012",
+		"orderKey": "04_00_00_00_00_013",
 		"parentId": 6485,
 		"children": [],
 		"renderLink": [],
@@ -3355,7 +3355,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:11:38.3838",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3366,7 +3366,7 @@ var indikatorensetData = [
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_013",
+		"orderKey": "04_00_00_00_00_014",
 		"parentId": 6487,
 		"children": [],
 		"renderLink": [],
@@ -3395,7 +3395,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:34:36.3636",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3406,7 +3406,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_014",
+		"orderKey": "04_00_00_00_00_015",
 		"parentId": 6488,
 		"children": [],
 		"renderLink": [],
@@ -3435,7 +3435,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:34:56.5656",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3446,7 +3446,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_015",
+		"orderKey": "04_00_00_00_00_016",
 		"parentId": 6489,
 		"children": [],
 		"renderLink": [],
@@ -3475,7 +3475,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:35:55.5555",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3486,7 +3486,7 @@ var indikatorensetData = [
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_016",
+		"orderKey": "04_00_00_00_00_017",
 		"parentId": 6490,
 		"children": [],
 		"renderLink": [],
@@ -3515,7 +3515,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:37:31.3131",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3526,7 +3526,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_017",
+		"orderKey": "04_00_00_00_00_018",
 		"parentId": 6491,
 		"children": [],
 		"renderLink": [],
@@ -3554,7 +3554,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3565,7 +3565,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_018",
+		"orderKey": "04_00_00_00_00_019",
 		"parentId": 6492,
 		"children": [],
 		"renderLink": [],
@@ -3593,7 +3593,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T11:23:39.3939",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3604,7 +3604,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
-		"orderKey": "04_00_00_00_00_019",
+		"orderKey": "04_00_00_00_00_020",
 		"parentId": 6493,
 		"children": [],
 		"renderLink": [],
@@ -3632,7 +3632,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:17:32.3232",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3643,7 +3643,7 @@ var indikatorensetData = [
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
-		"orderKey": "04_00_00_00_00_020",
+		"orderKey": "04_00_00_00_00_021",
 		"parentId": 6494,
 		"children": [],
 		"renderLink": [],
@@ -3671,7 +3671,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3682,7 +3682,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_021",
+		"orderKey": "04_00_00_00_00_022",
 		"parentId": 6495,
 		"children": [],
 		"renderLink": [],
@@ -3710,7 +3710,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3721,7 +3721,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_022",
+		"orderKey": "04_00_00_00_00_023",
 		"parentId": 6496,
 		"children": [],
 		"renderLink": [],
@@ -3749,7 +3749,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3760,7 +3760,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_023",
+		"orderKey": "04_00_00_00_00_024",
 		"parentId": 6499,
 		"children": [],
 		"renderLink": [],
@@ -3788,7 +3788,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3799,7 +3799,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_024",
+		"orderKey": "04_00_00_00_00_025",
 		"parentId": 6504,
 		"children": [],
 		"renderLink": [],
@@ -3827,7 +3827,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3838,7 +3838,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_025",
+		"orderKey": "04_00_00_00_00_026",
 		"parentId": 6507,
 		"children": [],
 		"renderLink": [],
@@ -3866,7 +3866,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3877,7 +3877,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_026",
+		"orderKey": "04_00_00_00_00_027",
 		"parentId": 6508,
 		"children": [],
 		"renderLink": [],
@@ -3905,7 +3905,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3916,7 +3916,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_027",
+		"orderKey": "04_00_00_00_00_028",
 		"parentId": 6509,
 		"children": [],
 		"renderLink": [],
@@ -3944,7 +3944,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3955,7 +3955,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_028",
+		"orderKey": "04_00_00_00_00_029",
 		"parentId": 6510,
 		"children": [],
 		"renderLink": [],
@@ -3983,7 +3983,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-10T15:06:20.2020",
+		"aktualisierungsdatum": "2019-09-13T14:05:03.033",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3994,7 +3994,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_029",
+		"orderKey": "04_00_00_00_00_030",
 		"parentId": 6511,
 		"children": [],
 		"renderLink": [],
@@ -4022,7 +4022,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-18T11:51:41.4141",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -4033,7 +4033,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
-		"orderKey": "04_00_00_00_00_030",
+		"orderKey": "04_00_00_00_00_031",
 		"parentId": 6512,
 		"children": [],
 		"renderLink": [],
@@ -4061,7 +4061,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-18T11:52:56.5656",
+		"aktualisierungsdatum": "2019-09-13T14:05:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -4072,7 +4072,7 @@ var indikatorensetData = [
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
-		"orderKey": "04_00_00_00_00_031",
+		"orderKey": "04_00_00_00_00_032",
 		"parentId": 6513,
 		"children": [],
 		"renderLink": [],
@@ -4100,7 +4100,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:12:54.5454",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -4140,7 +4140,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:41:52.5252",
+		"aktualisierungsdatum": "2019-09-13T15:00:43.4343",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -4179,7 +4179,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-18T11:53:41.4141",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -4218,7 +4218,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-18T11:17:49.4949",
+		"aktualisierungsdatum": "2019-09-13T14:05:01.011",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -4257,7 +4257,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:19:40.4040",
+		"aktualisierungsdatum": "2019-09-13T14:05:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",

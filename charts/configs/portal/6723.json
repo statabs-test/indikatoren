@@ -38,6 +38,10 @@
         [
           2017,
           8.8
+        ],
+        [
+          2018,
+          8.9
         ]
       ],
       "name": "Schweiz"
@@ -80,6 +84,10 @@
         [
           2017,
           6.5
+        ],
+        [
+          2018,
+          6.9
         ]
       ],
       "name": "Deutschland"
@@ -122,6 +130,10 @@
         [
           2017,
           10.6
+        ],
+        [
+          2018,
+          13
         ]
       ],
       "name": "Italien"
@@ -164,6 +176,10 @@
         [
           2017,
           27.6
+        ],
+        [
+          2018,
+          30.5
         ]
       ],
       "name": "Türkei"
@@ -206,6 +222,10 @@
         [
           2017,
           9.6
+        ],
+        [
+          2018,
+          8.2
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -247,6 +267,10 @@
         ],
         [
           2017,
+          15.2
+        ],
+        [
+          2018,
           15.2
         ]
       ],
@@ -290,6 +314,10 @@
         [
           2017,
           26.9
+        ],
+        [
+          2018,
+          24.4
         ]
       ],
       "name": "Balkan"
@@ -332,9 +360,13 @@
         [
           2017,
           32.1
+        ],
+        [
+          2018,
+          36
         ]
       ],
-      "name": "Mittel- u. Südamerika"
+      "name": "Mittel- und Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -374,6 +406,10 @@
         [
           2017,
           63.6
+        ],
+        [
+          2018,
+          61.2
         ]
       ],
       "name": "Arabische Länder"
@@ -416,6 +452,10 @@
         [
           2017,
           48.4
+        ],
+        [
+          2018,
+          60.4
         ]
       ],
       "name": "Afrikanische Länder"
@@ -458,6 +498,10 @@
         [
           2017,
           12.7
+        ],
+        [
+          2018,
+          14.5
         ]
       ],
       "name": "Übrige Länder"
@@ -479,23 +523,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "spacingTop": 5,
@@ -553,7 +597,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,
@@ -600,7 +645,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,

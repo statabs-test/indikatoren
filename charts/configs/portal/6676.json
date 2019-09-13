@@ -5,47 +5,47 @@
       "data": [
         [
           "Spanien",
-          3689
+          3844
         ],
         [
           "Portugal",
-          3449
-        ],
-        [
-          "Vereinigtes Königreich",
-          2207
+          3469
         ],
         [
           "Frankreich",
-          2152
+          2210
+        ],
+        [
+          "Vereinigtes Königreich",
+          2198
         ],
         [
           "Österreich",
-          1220
+          1216
         ],
         [
           "Niederlande",
-          758
+          792
         ],
         [
           "Griechenland",
-          436
+          537
         ],
         [
           "Irland",
-          304
-        ],
-        [
-          "Belgien",
-          301
+          345
         ],
         [
           "Schweden",
-          300
+          315
+        ],
+        [
+          "Belgien",
+          298
         ],
         [
           "Übrige",
-          617
+          620
         ]
       ],
       "turboThreshold": 0
@@ -153,7 +153,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,

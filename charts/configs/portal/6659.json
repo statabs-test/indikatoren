@@ -6,27 +6,27 @@
       "data": [
         [
           "Deutschland",
-          5.3
+          5.4
         ],
         [
           "Italien",
-          14.7
+          13
         ],
         [
           "Türkei",
-          16.4
+          16.9
         ],
         [
           "EU-17 + EFTA",
-          5.2
+          5.5
         ],
         [
           "EU-Ost",
-          3.3
+          3.4
         ],
         [
           "Balkan",
-          16
+          16.4
         ],
         [
           "Mittel- und Südamerika",
@@ -34,15 +34,15 @@
         ],
         [
           "Arabische Länder",
-          3.9
+          4.7
         ],
         [
           "Afrikanische Länder",
-          6.1
+          6.7
         ],
         [
           "Übrige Länder",
-          4.2
+          4.3
         ]
       ],
       "name": "Basel-Stadt",
@@ -54,27 +54,27 @@
       "data": [
         [
           "Deutschland",
-          7.3
+          7.4
         ],
         [
           "Italien",
-          23.1
+          20.7
         ],
         [
           "Türkei",
-          20.2
+          20.7
         ],
         [
           "EU-17 + EFTA",
-          6.6
+          6.8
         ],
         [
           "EU-Ost",
-          4.2
+          4.4
         ],
         [
           "Balkan",
-          18.7
+          19
         ],
         [
           "Mittel- und Südamerika",
@@ -82,15 +82,15 @@
         ],
         [
           "Arabische Länder",
-          9.1
+          9
         ],
         [
           "Afrikanische Länder",
-          8.8
+          9
         ],
         [
           "Übrige Länder",
-          5.5
+          5.7
         ]
       ],
       "name": "Schweiz",
@@ -110,7 +110,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "sytep": 1,
       "y": 3,
@@ -137,23 +138,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "type": "column",
@@ -236,7 +237,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 1,

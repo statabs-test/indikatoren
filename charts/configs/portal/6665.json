@@ -34,6 +34,10 @@
         [
           2017,
           51.8
+        ],
+        [
+          2018,
+          49.5
         ]
       ],
       "name": "Schweiz"
@@ -72,6 +76,10 @@
         [
           2017,
           68.7
+        ],
+        [
+          2018,
+          66
         ]
       ],
       "name": "Deutschland"
@@ -110,6 +118,10 @@
         [
           2017,
           23.2
+        ],
+        [
+          2018,
+          22.1
         ]
       ],
       "name": "Italien"
@@ -148,6 +160,10 @@
         [
           2017,
           9.3
+        ],
+        [
+          2018,
+          8.8
         ]
       ],
       "name": "Türkei"
@@ -186,6 +202,10 @@
         [
           2017,
           32
+        ],
+        [
+          2018,
+          27.7
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -224,6 +244,10 @@
         [
           2017,
           42.1
+        ],
+        [
+          2018,
+          37.5
         ]
       ],
       "name": "EU-Ost"
@@ -262,6 +286,10 @@
         [
           2017,
           17.1
+        ],
+        [
+          2018,
+          11.9
         ]
       ],
       "name": "Balkan"
@@ -299,7 +327,11 @@
         ],
         [
           2017,
-          33.7
+          33.3
+        ],
+        [
+          2018,
+          26.6
         ]
       ],
       "name": "Übrige Länder"
@@ -307,22 +339,22 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
           }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -362,8 +394,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -379,7 +410,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
@@ -393,7 +424,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
@@ -414,7 +445,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "enabled": true,
@@ -433,12 +464,6 @@
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

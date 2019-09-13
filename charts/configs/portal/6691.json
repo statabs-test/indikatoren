@@ -11,47 +11,47 @@
       "data": [
         [
           "Schweiz",
-          0.74
+          0.745
         ],
         [
           "Deutschland",
-          0.874
+          0.889
         ],
         [
           "Italien",
-          0.675
+          0.695
         ],
         [
           "Türkei",
-          0.504
+          0.501
         ],
         [
           "EU-17 + EFTA",
-          0.787
+          0.784
         ],
         [
           "EU-Ost",
-          0.764
+          0.805
         ],
         [
           "Balkan",
-          0.568
+          0.565
         ],
         [
           "Mittel- und Südamerika",
-          0.542
+          0.544
         ],
         [
           "Arabische Länder",
-          0.563
+          0.569
         ],
         [
           "Afrikanische Länder",
-          0.579
+          0.512
         ],
         [
           "Übrige Länder",
-          0.683
+          0.682
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -68,61 +68,61 @@
       "data": [
         {
           "name": "Schweiz",
-          "low": 0.733,
-          "high": 0.748
+          "low": 0.737,
+          "high": 0.753
         },
         {
           "name": "Deutschland",
-          "low": 0.859,
-          "high": 0.889
+          "low": 0.875,
+          "high": 0.903
         },
         {
           "name": "Italien",
-          "low": 0.641,
-          "high": 0.708
+          "low": 0.662,
+          "high": 0.727
         },
         {
           "name": "Türkei",
-          "low": 0.467,
-          "high": 0.542
+          "low": 0.463,
+          "high": 0.54
         },
         {
           "name": "EU-17 + EFTA",
-          "low": 0.766,
-          "high": 0.808
+          "low": 0.763,
+          "high": 0.805
         },
         {
           "name": "EU-Ost",
-          "low": 0.718,
-          "high": 0.81
+          "low": 0.764,
+          "high": 0.846
         },
         {
           "name": "Balkan",
-          "low": 0.535,
-          "high": 0.601
+          "low": 0.532,
+          "high": 0.598
         },
         {
           "name": "Mittel- und Südamerika",
-          "low": 0.471,
-          "high": 0.613
+          "low": 0.472,
+          "high": 0.616
         },
         {
           "name": "Arabische Länder",
-          "low": 0.469,
-          "high": 0.658
+          "low": 0.476,
+          "high": 0.661
         },
         {
           "name": "Afrikanische Länder",
-          "low": 0.498,
-          "high": 0.66
+          "low": 0.433,
+          "high": 0.592
         },
         {
           "name": "Übrige Länder",
           "low": 0.649,
-          "high": 0.717
+          "high": 0.716
         }
       ],
-      "name": "95% Vertrauensintervall",
+      "name": "95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -139,7 +139,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "formatter": function(){
         return this.value.replace("und", "u.");
@@ -166,23 +167,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "marginRight": 18,
@@ -265,14 +266,15 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "fontWeight": "normal"
     },
     "enabled": false
   },

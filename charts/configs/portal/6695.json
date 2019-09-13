@@ -64,6 +64,10 @@
         [
           "2017",
           683
+        ],
+        [
+          "2018",
+          689
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -133,6 +137,10 @@
         [
           "2017",
           7
+        ],
+        [
+          "2018",
+          8
         ]
       ],
       "name": "Unteres Fachkader",
@@ -201,6 +209,10 @@
         ],
         [
           "2017",
+          27
+        ],
+        [
+          "2018",
           27
         ]
       ],
@@ -271,6 +283,10 @@
         [
           "2017",
           13
+        ],
+        [
+          "2018",
+          11
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -340,6 +356,10 @@
         [
           "2017",
           13
+        ],
+        [
+          "2018",
+          15
         ]
       ],
       "name": "Mittleres Kader",
@@ -409,6 +429,10 @@
         [
           "2017",
           5
+        ],
+        [
+          "2018",
+          7
         ]
       ],
       "name": "Oberes Kader",
@@ -428,7 +452,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "rotation": -45,
       "step": 1
@@ -453,23 +478,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "renderTo": "container-6695",
@@ -552,7 +577,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,

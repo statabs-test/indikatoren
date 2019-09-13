@@ -51,6 +51,10 @@
         [
           2017,
           1208
+        ],
+        [
+          2018,
+          1188
         ]
       ],
       "name": "Schweiz"
@@ -106,6 +110,10 @@
         [
           2017,
           201
+        ],
+        [
+          2018,
+          214
         ]
       ],
       "name": "Deutschland"
@@ -160,6 +168,10 @@
         ],
         [
           2017,
+          75
+        ],
+        [
+          2018,
           75
         ]
       ],
@@ -216,6 +228,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          47
         ]
       ],
       "name": "Türkei"
@@ -271,6 +287,10 @@
         [
           2017,
           201
+        ],
+        [
+          2018,
+          190
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -326,6 +346,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          68
         ]
       ],
       "name": "EU-Ost"
@@ -380,6 +404,10 @@
         ],
         [
           2017,
+          99
+        ],
+        [
+          2018,
           99
         ]
       ],
@@ -436,6 +464,10 @@
         [
           2017,
           9
+        ],
+        [
+          2018,
+          17
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -491,6 +523,10 @@
         [
           2017,
           32
+        ],
+        [
+          2018,
+          33
         ]
       ],
       "name": "Arabische Länder"
@@ -546,6 +582,10 @@
         [
           2017,
           47
+        ],
+        [
+          2018,
+          45
         ]
       ],
       "name": "Afrikanische Länder"
@@ -601,6 +641,10 @@
         [
           2017,
           103
+        ],
+        [
+          2018,
+          103
         ]
       ],
       "name": "Übrige Länder"
@@ -608,22 +652,22 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
           }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -679,7 +723,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -693,7 +737,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
@@ -704,7 +748,7 @@
       2011,
       2013,
       2015,
-      2017
+      2018
     ]
   },
   "credits": {
@@ -721,7 +765,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "enabled": true,

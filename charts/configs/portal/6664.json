@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          -12.5
+          -12.6
         ],
         [
           "Deutschland",
-          -2.5
+          -1.9
         ],
         [
           "Italien",
-          -14.4
+          -13.7
         ],
         [
           "Türkei",
-          -3.9
-        ],
-        [
-          "EU-17 + EFTA",
-          -4.6
-        ],
-        [
-          "EU-Ost",
-          -2.7
-        ],
-        [
-          "Balkan",
-          -6.9
-        ],
-        [
-          "Mittel- und Südamerika",
           -4.8
         ],
         [
+          "EU-17 + EFTA",
+          -3.7
+        ],
+        [
+          "EU-Ost",
+          -1.7
+        ],
+        [
+          "Balkan",
+          -7.5
+        ],
+        [
+          "Mittel- und Südamerika",
+          -3.1
+        ],
+        [
           "Arabische Länder",
-          6.2
+          0
         ],
         [
           "Afrikanische Länder",
-          3.4
+          1.6
         ],
         [
           "Übrige Länder",
-          0.2
+          0.8
         ]
       ],
       "turboThreshold": 0
@@ -64,7 +64,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "rotation": -45,
       "formatter": function(){
@@ -89,23 +90,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "type": "column",
@@ -191,7 +192,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,

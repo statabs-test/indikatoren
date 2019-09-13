@@ -6,27 +6,27 @@
       "data": [
         [
           "Oberes Kader",
-          96.1
+          94.4
         ],
         [
           "Mittleres Kader",
-          93.8
+          93.1
         ],
         [
           "Mittleres Fachkader",
-          88.6
+          90.3
         ],
         [
           "Unteres Kader",
-          87.1
+          86.6
         ],
         [
           "Unteres Fachkader",
-          90.5
+          89.6
         ],
         [
           "Ohne Kaderfunktion",
-          84.9
+          85
         ]
       ],
       "name": "Schweiz",
@@ -38,23 +38,23 @@
       "data": [
         [
           "Oberes Kader",
-          59.8
+          57.6
         ],
         [
           "Mittleres Kader",
-          52.6
+          54.2
         ],
         [
           "Mittleres Fachkader",
-          39.5
+          41.6
         ],
         [
           "Unteres Kader",
-          56.7
+          55.7
         ],
         [
           "Unteres Fachkader",
-          62.2
+          54.5
         ],
         [
           "Ohne Kaderfunktion",
@@ -70,23 +70,23 @@
       "data": [
         [
           "Oberes Kader",
-          36.2
+          36.8
         ],
         [
           "Mittleres Kader",
-          41.1
+          38.9
         ],
         [
           "Mittleres Fachkader",
-          49.1
+          48.7
         ],
         [
           "Unteres Kader",
-          30.5
+          30.8
         ],
         [
           "Unteres Fachkader",
-          28.4
+          35.1
         ],
         [
           "Ohne Kaderfunktion",
@@ -102,27 +102,27 @@
       "data": [
         [
           "Oberes Kader",
-          3.9
+          5.6
         ],
         [
           "Mittleres Kader",
-          6.2
+          6.9
         ],
         [
           "Mittleres Fachkader",
-          11.4
+          9.7
         ],
         [
           "Unteres Kader",
-          12.9
+          13.4
         ],
         [
           "Unteres Fachkader",
-          9.5
+          10.4
         ],
         [
           "Ohne Kaderfunktion",
-          15.1
+          15
         ]
       ],
       "name": "Ausland",
@@ -134,11 +134,11 @@
       "data": [
         [
           "Oberes Kader",
-          1.6
+          2.4
         ],
         [
           "Mittleres Kader",
-          4.3
+          3.7
         ],
         [
           "Mittleres Fachkader",
@@ -146,15 +146,15 @@
         ],
         [
           "Unteres Kader",
-          6.2
+          6.5
         ],
         [
           "Unteres Fachkader",
-          2.7
+          3.9
         ],
         [
           "Ohne Kaderfunktion",
-          5.9
+          5.8
         ]
       ],
       "name": "Ausländer",
@@ -166,23 +166,23 @@
       "data": [
         [
           "Oberes Kader",
-          2.4
+          3.2
         ],
         [
           "Mittleres Kader",
-          1.9
+          3.2
         ],
         [
           "Mittleres Fachkader",
-          7
+          5.3
         ],
         [
           "Unteres Kader",
-          6.7
+          7
         ],
         [
           "Unteres Fachkader",
-          6.8
+          6.5
         ],
         [
           "Ohne Kaderfunktion",
@@ -206,7 +206,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "step": 1,
       "x": -5,
@@ -231,23 +232,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "marginRight": 18,
@@ -305,10 +306,9 @@
       "y": 18,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     },
     "max": 100
   },
@@ -331,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,
@@ -353,10 +353,6 @@
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 6697

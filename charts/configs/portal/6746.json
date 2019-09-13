@@ -6,39 +6,39 @@
       "data": [
         [
           "Italien",
-          419
+          412
         ],
         [
           "Türkei",
-          107
+          93
         ],
         [
           "EU-17 und EFTA",
-          805
+          890
         ],
         [
           "EU-Ost",
-          478
+          396
         ],
         [
           "Balkan",
-          156
+          152
         ],
         [
           "Mittel- und Südamerika",
-          149
+          168
         ],
         [
           "Arabische Länder",
-          65
+          62
         ],
         [
           "Afrikanische Länder",
-          73
+          80
         ],
         [
           "Übrige Länder",
-          818
+          798
         ]
       ],
       "name": "Ausgestellte Gutscheine",
@@ -58,31 +58,31 @@
         ],
         [
           "EU-17 und EFTA",
-          394
+          431
         ],
         [
           "EU-Ost",
-          190
+          204
         ],
         [
           "Balkan",
-          97
+          121
         ],
         [
           "Mittel- und Südamerika",
-          99
+          102
         ],
         [
           "Arabische Länder",
-          47
+          46
         ],
         [
           "Afrikanische Länder",
-          41
+          53
         ],
         [
           "Übrige Länder",
-          298
+          343
         ]
       ],
       "name": "Eingelöste Gutscheine",
@@ -102,7 +102,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "y": 3,
       "step": 1,
@@ -126,23 +127,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                                }
+                            }
+                        );
+                    }
+
                 }
     },
     "type": "column",
@@ -225,7 +226,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "padding": 0,

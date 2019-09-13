@@ -372,6 +372,7 @@
     },
     "renderTo": "container-6424",
     "marginBottom": 75,
+    "marginRight": 20,
     "type": "column",
     "inverted": true,
     "spacingBottom": 50
@@ -454,8 +455,8 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "right"
   },

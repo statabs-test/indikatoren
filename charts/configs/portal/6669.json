@@ -30,6 +30,10 @@
         [
           2017,
           28
+        ],
+        [
+          2018,
+          26.6
         ]
       ],
       "name": "Schweiz"
@@ -64,6 +68,10 @@
         [
           2017,
           17.6
+        ],
+        [
+          2018,
+          18.5
         ]
       ],
       "name": "Deutschland"
@@ -98,6 +106,10 @@
         [
           2017,
           34
+        ],
+        [
+          2018,
+          30.5
         ]
       ],
       "name": "Italien"
@@ -132,6 +144,10 @@
         [
           2017,
           39.4
+        ],
+        [
+          2018,
+          36
         ]
       ],
       "name": "Türkei"
@@ -166,9 +182,13 @@
         [
           2017,
           25.5
+        ],
+        [
+          2018,
+          25.2
         ]
       ],
-      "name": "EU-17 & EFTA"
+      "name": "EU-17 + EFTA"
     },
     {
       "color": "#71a3b5",
@@ -200,6 +220,10 @@
         [
           2017,
           19.4
+        ],
+        [
+          2018,
+          20.4
         ]
       ],
       "name": "EU-Ost"
@@ -234,6 +258,10 @@
         [
           2017,
           46.8
+        ],
+        [
+          2018,
+          46.9
         ]
       ],
       "name": "Balkan"
@@ -268,9 +296,13 @@
         [
           2017,
           44.2
+        ],
+        [
+          2018,
+          41.4
         ]
       ],
-      "name": "Mittel- & Südamerika"
+      "name": "Mittel- u. Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -302,6 +334,10 @@
         [
           2017,
           21.7
+        ],
+        [
+          2018,
+          35
         ]
       ],
       "name": "Arab. Länder"
@@ -336,6 +372,10 @@
         [
           2017,
           41.3
+        ],
+        [
+          2018,
+          34.9
         ]
       ],
       "name": "Afrikan. Länder"
@@ -370,6 +410,10 @@
         [
           2017,
           29.6
+        ],
+        [
+          2018,
+          30.4
         ]
       ],
       "name": "Übrige Länder"
@@ -377,22 +421,22 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
           }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -449,7 +493,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
@@ -463,7 +507,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
@@ -484,7 +528,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
   },
   "legend": {
     "enabled": true,
