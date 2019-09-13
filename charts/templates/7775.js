@@ -1,16 +1,21 @@
 (function () {
   return {
+    "legend": {
+      "enabled": true,
+      align : "left",
+      verticalAlign: "top"
+    },
     "yAxis": {
       "labels": {
         "format": "{value:,.1f}",
       },
-      min: null
+      "min": null
     },
     "xAxis": {
       "tickInterval": 2,
     },
-    data: {
-      seriesMapping: [
+    "data": {
+      "seriesMapping": [
         { x: 0, y: 8 },
         { x: 0, y: 9 },
       ]
