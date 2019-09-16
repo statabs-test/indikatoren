@@ -24,7 +24,7 @@
           11997397
         ]
       ],
-      "name": "Wohnen Kanton",
+      "name": "Wohnen",
       "turboThreshold": 0
     },
     {
@@ -51,7 +51,7 @@
           8647032
         ]
       ],
-      "name": "Arbeiten Kanton",
+      "name": "Arbeiten",
       "turboThreshold": 0
     }
   ],
