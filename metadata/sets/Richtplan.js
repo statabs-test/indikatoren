@@ -1063,7 +1063,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bauzonen",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"kuerzel": "I.09.1.07775",
 		"kuerzelKunde": "ST 1-3",
 		"description": "Bauzonen",
@@ -1081,7 +1081,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potentieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung («Zone 7 Industrie- und Gewerbezone» (Basel) und Arbeitszonen (Riehen)). Kantonsfläche: ohne 105,87 ha Rheinanteil.",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_013",
