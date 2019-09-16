@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anzahl Einwohner",
+      "name": "Veränderung zum Vormonat in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          -0.38715
+          -0.31092
         ],
         [
           2,
-          0.45991
+          -0.31847
         ],
         [
           3,
-          -0.09957
+          0.1631
         ],
         [
           4,
-          0.11135
+          0.26693
         ],
         [
           5,
-          0.0346
+          0.30264
         ],
         [
           6,
-          -0.13343
+          0.17102
         ],
         [
           7,
-          -0.04259
+          0.0213
         ],
         [
           8,
-          -0.0147
+          0.14702
         ],
         [
           9,
-          -0.02908
+          0.01455
         ],
         [
           10,
-          -0.15359
+          0.11241
         ],
         [
           11,
-          -0.12297
+          0.06959
         ],
         [
           12,
-          -0.16347
+          0.04093
         ],
         [
           13,
-          0.17452
+          0.64709
         ],
         [
           14,
-          0.28715
+          -0.21475
         ],
         [
           15,
-          -0.51759
+          0.13803
         ],
         [
           16,
-          1.28913
+          1.23077
         ],
         [
           17,
-          -0.32208
+          -0.42006
         ],
         [
           18,
-          -0.15175
+          0.12434
         ],
         [
           19,
-          -0.21322
+          -0.17806
         ],
         [
           20,
-          -0.07
+          -0.11675
         ],
         [
           30,
-          -0.66445
+          -0.91973
         ]
       ]
     },
@@ -6660,90 +6660,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          2573
+          2565
         ],
         [
           "Vorstädte",
-          5024
+          5008
         ],
         [
           "Am Ring",
-          11036
+          11054
         ],
         [
           "Breite",
-          8991
+          9015
         ],
         [
           "St. Alban",
-          11565
+          11600
         ],
         [
           "Gundeldingen",
-          18711
+          18743
         ],
         [
           "Bruderholz",
-          9388
+          9390
         ],
         [
           "Bachletten",
-          13604
+          13624
         ],
         [
           "Gotthelf",
-          6875
+          6876
         ],
         [
           "Iselin",
-          16902
+          16921
         ],
         [
           "St. Johann",
-          18681
+          18694
         ],
         [
           "Altstadt Kleinbasel",
-          2443
+          2444
         ],
         [
           "Clara",
-          4018
+          4044
         ],
         [
           "Wettstein",
-          5588
+          5576
         ],
         [
           "Hirzbrunnen",
-          9418
+          9431
         ],
         [
           "Rosental",
-          7150
-        ],
-        [
-          "Matthäus",
-          15474
-        ],
-        [
-          "Klybeck",
           7238
         ],
         [
+          "Matthäus",
+          15409
+        ],
+        [
+          "Klybeck",
+          7247
+        ],
+        [
           "Kleinhüningen",
-          2808
+          2803
         ],
         [
           "Riehen",
-          21414
+          21389
         ],
         [
           "Bettingen",
-          1196
+          1185
         ]
       ],
-      "name": "Veränderung zum Vormonat in %"
+      "name": "Anzahl Einwohner"
     },
     {
       "name": "Rhein",
@@ -7094,7 +7094,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Mai",
+    "text": "Basel-Stadt, Juli",
     "align": "left"
   },
   "credits": {
@@ -7113,7 +7113,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-16"
   },
   "colorAxis": {
-    "min": -1.1,
+    "min": -1.5,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -7130,23 +7130,23 @@
     "marker": {
       "color": "black"
     },
-    "max": 1.3,
+    "max": 1.5,
     "stops": [
       [
         0,
-        "#FFBB58"
+        "#DC440E"
       ],
       [
-        0.25,
-        "#FF8028"
+        0.499,
+        "#FFFFCC"
       ],
       [
         0.5,
-        "#D3E2E4"
+        "#ffffff"
       ],
       [
-        0.75,
-        "#689199"
+        0.501,
+        "#FBFBFB"
       ],
       [
         1,
