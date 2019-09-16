@@ -1026,7 +1026,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"kuerzel": "I.09.1.07774",
 		"kuerzelKunde": "ST 1-2",
 		"description": "Bruttogeschossflächen Wohnen und Arbeiten",
@@ -1042,16 +1042,18 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Sowohl beim Wohnen als als auch beim Arbeiten hat die Bruttogeschossfläche seit 1995 zugenommen, was auf die Bautätigkeit im Kanton zurückzuführen ist.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summer der ober- und unterirdischen Grundflächen von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
