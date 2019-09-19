@@ -64,7 +64,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -97,7 +97,7 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 3,
+    "spacingBottom": 13,
     "renderTo": "container-6295"
   },
   "plotOptions": {
@@ -173,9 +173,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS)."
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
   "legend": {
     "padding": 0,

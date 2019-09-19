@@ -14,8 +14,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2017. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
-"erlaeuterungen":"In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2015 der Saison 2015/2016.",
+"lesehilfe":"<Bitte neue Lesehilfe erfassen>",
+"erlaeuterungen":"In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2016 der Saison 2016/2017.",
 "template":"line001_print",
 "darstellungsart":"Grafik",
 "printformat":"small", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Jeweilige Institutionen","ProCinema"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6318, 
+"chart-id":6318, 
+"filter":""
 }

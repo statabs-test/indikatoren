@@ -302,7 +302,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -315,7 +315,7 @@
     "type": "line",
     "spacingTop": 5,
     "renderTo": "container-6336",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -333,7 +333,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Schultyp",
+    "text": "nach Schultyp, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -388,9 +388,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung."
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
   "legend": {
     "enabled": true,

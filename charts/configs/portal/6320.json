@@ -511,7 +511,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -543,7 +543,7 @@
                 }
     },
     "renderTo": "container-6320",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -581,7 +581,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "pro Kopf in Franken",
+    "text": "pro Kopf in Franken, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -655,9 +655,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung."
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "padding": 0,

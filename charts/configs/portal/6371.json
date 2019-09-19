@@ -36,6 +36,10 @@
         [
           "2016",
           18878
+        ],
+        [
+          "2017",
+          18785
         ]
       ],
       "name": "Pharmaindustrie",
@@ -77,9 +81,13 @@
         [
           "2016",
           8608
+        ],
+        [
+          "2017",
+          8359
         ]
       ],
-      "name": "Übriges verarbeitendes Gewerbe",
+      "name": "Übriges verarbeit. Gewerbe",
       "turboThreshold": 0
     },
     {
@@ -118,6 +126,10 @@
         [
           "2016",
           9466
+        ],
+        [
+          "2017",
+          9286
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -159,6 +171,10 @@
         [
           "2016",
           26353
+        ],
+        [
+          "2017",
+          25988
         ]
       ],
       "name": "Handel und Verkehr",
@@ -200,6 +216,10 @@
         [
           "2016",
           11181
+        ],
+        [
+          "2017",
+          10705
         ]
       ],
       "name": "Finanzen, Versicherung",
@@ -241,6 +261,10 @@
         [
           "2016",
           36959
+        ],
+        [
+          "2017",
+          37896
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -282,6 +306,10 @@
         [
           "2016",
           19184
+        ],
+        [
+          "2017",
+          18976
         ]
       ],
       "name": "Öff. Verwaltung und Bildung",
@@ -323,6 +351,10 @@
         [
           "2016",
           30636
+        ],
+        [
+          "2017",
+          31449
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -364,6 +396,10 @@
         [
           "2016",
           29416
+        ],
+        [
+          "2017",
+          29522
         ]
       ],
       "name": "Übrige Branchen",
