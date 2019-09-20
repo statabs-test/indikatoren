@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#B00000",
       "data": [
         [
           2006,
@@ -59,7 +59,7 @@
       "name": "Direkte Steuern natürliche Personen"
     },
     {
-      "color": "#923F8D",
+      "color": "#4f81bd",
       "data": [
         [
           2006,

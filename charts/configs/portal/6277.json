@@ -256,11 +256,11 @@
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
-      },
-      "step": 2
+      }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2,
+    "showLastLabel": true
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

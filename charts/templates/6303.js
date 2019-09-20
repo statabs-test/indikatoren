@@ -1,9 +1,10 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1,
+    "tickInterval": 2,
+    showLastLabel: true,
     labels: {
-      step: 2,
+      //step: 2,
       rotation: -45,
     },
   },

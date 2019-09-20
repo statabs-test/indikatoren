@@ -126,7 +126,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "rotation": -90,
+      "rotation": 0,
       "padding": 0,
       "step": 1
     },
@@ -227,6 +227,13 @@
       },
       "format": "{value:,.1f}"
     },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B9CFD7",
+        "width": 1
+      }
+    ],
     "tickInterval": 0.5
   },
   "navigation": {

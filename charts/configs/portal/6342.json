@@ -100,8 +100,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {
