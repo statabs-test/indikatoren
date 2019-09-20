@@ -3,11 +3,10 @@
         "subtitle": {
             useHTML: true
         },
-
         "plotOptions": {
             "series": {
-                pointPadding: 0,
-                groupPadding: 0.1,
+                //pointPadding: 0,
+                //groupPadding: 0.1,
                 borderWidth: 0,
                 "dataLabels": {
                     "style": {

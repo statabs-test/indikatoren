@@ -125,6 +125,134 @@
         ]
       ],
       "name": "Bauzonen mit pot. Wohnnutzung,  Veränderungen zum Vorjahr (in m2)"
+    },
+    {
+      "color": "#8b2223",
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2005,
+          100
+        ],
+        [
+          2006,
+          100.001
+        ],
+        [
+          2007,
+          100.001
+        ],
+        [
+          2008,
+          100.111
+        ],
+        [
+          2009,
+          100.111
+        ],
+        [
+          2010,
+          100.059
+        ],
+        [
+          2011,
+          100.059
+        ],
+        [
+          2012,
+          100.04
+        ],
+        [
+          2013,
+          100.084
+        ],
+        [
+          2014,
+          100.189
+        ],
+        [
+          2015,
+          100.185
+        ],
+        [
+          2016,
+          100.193
+        ],
+        [
+          2017,
+          100.323
+        ],
+        [
+          2018,
+          100.327
+        ]
+      ],
+      "name": "Bauzonen (index)"
+    },
+    {
+      "color": "#DC440E",
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2005,
+          100
+        ],
+        [
+          2006,
+          100.001
+        ],
+        [
+          2007,
+          100.001
+        ],
+        [
+          2008,
+          99.996
+        ],
+        [
+          2009,
+          99.996
+        ],
+        [
+          2010,
+          99.885
+        ],
+        [
+          2011,
+          99.885
+        ],
+        [
+          2012,
+          100.321
+        ],
+        [
+          2013,
+          100.371
+        ],
+        [
+          2014,
+          100.787
+        ],
+        [
+          2015,
+          100.784
+        ],
+        [
+          2016,
+          100.793
+        ],
+        [
+          2017,
+          100.716
+        ],
+        [
+          2018,
+          100.722
+        ]
+      ],
+      "name": "Bauzonen mit pot. Wohnnutzung (index)"
     }
   ],
   "chart": {
@@ -141,22 +269,22 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
+    "zoomType": "x",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "renderTo": "container-7775",
     "spacingBottom": 50
@@ -168,7 +296,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0.06,
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -205,27 +335,42 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "tickAmount": 6,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
+      "title": {
+        "enabled": false
       },
-      "format": "{value:,.1f}"
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "#B9CFD7",
+          "width": 2
+        }
+      ]
     },
-    "min": null
-  },
+    {
+      "opposite": true,
+      "tickAmount": 6,
+      "labels": {
+        "format": "{value:,.2f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "enabled": false
+      }
+    }
+  ],
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",

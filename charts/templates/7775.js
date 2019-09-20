@@ -1,38 +1,109 @@
 (function () {
   return {
-    "legend": {
-      "enabled": true,
-      align : "left",
+    chart: {
+      zoomType: "x"
+    },
+    "plotOptions": {
+      "series": {
+        pointPadding: 0.06,
+        groupPadding: 0.1,
+      }
+    },
+    legend: {
+      enabled: true,
+      align: "left",
       verticalAlign: "top"
     },
-    "yAxis": {
-      "labels": {
-        "format": "{value:,.1f}",
-      },
-      "min": null
-    },
-    "xAxis": {
-      "tickInterval": 2,
-    },
-    "data": {
-      "seriesMapping": [
-        { x: 0, y: 8 },
-        { x: 0, y: 9 },
-      ]
-    },
-    "series": [
+    yAxis: [
       {
-        "color": "#8b2223",
-        type: "column"
+        tickAmount: 6,
+        labels: {
+          format: "{value:,.0f}",
+        },
+        plotLines: [{
+          value: 0,
+          color: '#B9CFD7',
+          width: 2
+        }],
+        gridLineColor: '#B9CFD7',
+        gridLineWidth: 0.5,
+        "title": {
+          enabled: false
+        },
+        labels: {
+          style: {
+            color: "#000000"
+          }
+        }
       },
       {
-        "color": "#DC440E",
-        type: "column"
+        opposite: true,
+        tickAmount: 6,
+        //min: 99.75,
+        //max: 101,
+        labels: {
+          format: "{value:,.2f}",
+          style: {
+            color: "black"
+          }
+        },
+        plotLines: [{
+          value: 100,
+          color: '#B9CFD7',
+          width: 2
+        }],
+        gridLineColor: '#B9CFD7',
+        gridLineWidth: 0.5,
+        "title": {
+          enabled: false
+        },
+        labels: {
+          style: {
+            color: "#000000"
+          }
+        }
       }
     ],
-    "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-      "shared": false
+    xAxis: {
+      tickInterval: 1,
+    },
+    data: {
+      seriesMapping: [
+        { x: 0, y: 8 },
+        { x: 0, y: 9 },
+        { x: 0, y: 4 },
+        { x: 0, y: 5 },
+      ]
+    },
+    series: [
+      {
+        color: "#8b2223",
+        type: "column"
+      },
+      {
+        color: "#DC440E",
+        type: "column"
+      },
+      {
+        color: "#7b1213",
+        type: "line",
+        marker: {
+          enabled: false
+        },
+        yAxis: 1
+      },
+      {
+        color: "#aC140E",
+        type: "line",
+        marker: {
+          enabled: false
+        },
+        yAxis: 1
+      }
+    ],
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+      shared: false
     },
   };
 }());
