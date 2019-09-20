@@ -3,6 +3,8 @@
   "xAxis": {
     type: "category",
     step: 2, 
+    showLastLabel: true,
+    EndOnTick: true,
     labels: {
       rotation: -45
     }

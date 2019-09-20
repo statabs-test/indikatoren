@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#73BA7C",
       "data": [
         [
           2009,
@@ -80,7 +80,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
     "spacingTop": 5,
     "marginRight": 5,
     "renderTo": "container-6323",
@@ -138,7 +138,8 @@
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
     "tickInterval": 1

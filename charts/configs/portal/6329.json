@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#d7e9d2",
+      "color": "#D3E2E4",
       "index": 0,
       "legendIndex": 0,
       "data": [
@@ -54,7 +54,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#689199",
       "index": 1,
       "legendIndex": 1,
       "data": [
@@ -107,7 +107,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#44ab2b",
+      "color": "#2F656B",
       "index": 2,
       "legendIndex": 2,
       "data": [
@@ -160,7 +160,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
+      "color": "#083038",
       "index": 3,
       "legendIndex": 3,
       "data": [

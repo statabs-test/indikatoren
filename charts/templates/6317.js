@@ -9,7 +9,10 @@
     }
   },
   "xAxis": {
-	  "tickInterval": 2,
+    //type: "category",
+    //step: 2,
+    "tickInterval": 2,
+    showLastLabel: true
   },
   "series": [
     {color: "#8b2223"},

@@ -196,7 +196,8 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 2,
+    "showLastLabel": true
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

@@ -2216,7 +2216,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1&nbsp;500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
-		"template": "befragungenProzent001_print",
+		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
 		"orderKey": "12_00_00_00_00_001",

@@ -313,7 +313,9 @@
       "rotation": -45
     },
     "tickLength": 0,
-    "step": 2
+    "step": 2,
+    "showLastLabel": true,
+    "EndOnTick": true
   },
   "chart": {
     "events": {

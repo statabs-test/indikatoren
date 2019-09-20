@@ -4,7 +4,6 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
       "data": [
         [
           2005,
@@ -222,11 +221,10 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "step": 2
+      }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "yAxis": [
     {

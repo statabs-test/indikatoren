@@ -16,9 +16,9 @@
   "series": [
     {"color": "#CD9C00",}, /* gelb */
   	{
-  	  "color": "#3C3C3C",
+  	  "color": "#8A8A8A",
       dashStyle: 'LongDash'
-    }, /* schwarz */
+    }, /* grau */
   ],
   "legend": {
   	symbolWidth: 30,

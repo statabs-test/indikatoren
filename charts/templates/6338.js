@@ -1,7 +1,12 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2
+    type: "category",
+    tickInterval: 2,
+    ShowLastLabel: true,
+    labels: {
+      rotation: 0
+    }
   },
   "yAxis": {
     tickAmount: 6,

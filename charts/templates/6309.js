@@ -1,7 +1,10 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1
+    type: "category",
+    step: 2
+    //"tickInterval": 2,
+    //showLastLabel: true
   },
   "yAxis": {
     max: 60,

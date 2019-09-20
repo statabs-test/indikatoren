@@ -3,6 +3,7 @@
   "xAxis": {
     "tickInterval": 2,
     showLastLabel: true,
+    showFirstLabel: false,
     labels: {
       //step: 2,
       rotation: -45,
