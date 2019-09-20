@@ -9,6 +9,9 @@
         groupPadding: 0.1,
       }
     },
+    subtitle: {
+      useHTML: true
+    },
     legend: {
       enabled: true,
       align: "left",
