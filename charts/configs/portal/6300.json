@@ -4,7 +4,7 @@
       "color": "#fabd24",
       "yAxis": 0,
       "index": 2,
-      "legendIndex": 0,
+      "legendIndex": 2,
       "tooltip": {
         "shared": false,
         "pointFormatter": function(){ 
@@ -53,7 +53,7 @@
       "type": "column",
       "yAxis": 1,
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 0,
       "tooltip": {
         "shared": false,
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -100,7 +100,7 @@
       "type": "column",
       "yAxis": 1,
       "index": 0,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "tooltip": {
         "shared": false,
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -298,7 +298,9 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function(){
+    return this.name.replace("Verhältnis der Löhne von Frauen und Männern (rechte Achse)", "Verhältnis Löhne von Frauen und Männen (rechte Achse)");}
   },
   "plotOptions": {
     "series": {

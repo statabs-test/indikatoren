@@ -65,7 +65,7 @@
   "color": "#fabd24", // 
      "yAxis": 0,
      index: 2,
-     legendIndex: 0,
+     legendIndex: 2,
        "tooltip": {
  "shared": false, 
     "pointFormatter": 
@@ -80,7 +80,7 @@
    "type": "column",
    "yAxis": 1,
      index: 1,
-     legendIndex: 1,
+     legendIndex: 0,
        "tooltip": {
  "shared": false, 
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
@@ -91,7 +91,7 @@
     "type": "column",
      "yAxis": 1,
      index: 0,
-     legendIndex: 2,
+     legendIndex: 1,
        "tooltip": {
  "shared": false, 
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
@@ -106,6 +106,8 @@
   "verticalAlign": "top",
   "itemMarginBottom": 5,
   "align": "left",
+  labelFormatter: function(){
+    return this.name.replace("Verhältnis der Löhne von Frauen und Männern (rechte Achse)", "Verhältnis Löhne von Frauen und Männen (rechte Achse)");},
   "itemStyle": {
     "fontWeight": "normal"
   }
