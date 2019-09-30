@@ -107,7 +107,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 200; 
-	                var maxValueInLegend = 4000; 
+	                var maxValueInLegend = 6000; 
 	                
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
