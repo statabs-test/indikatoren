@@ -292,7 +292,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transit durch die Region Basel"
+    "text": "Warentransit durch die Schweiz"
   },
   "subtitle": {
     "style": {
@@ -301,12 +301,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Brutto-Tonnen nach Verkehrsträger",
+    "text": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} t\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -352,7 +352,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-27"
   },
   "legend": {
     "enabled": true,
