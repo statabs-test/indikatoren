@@ -3,7 +3,7 @@
       chart: {
         inverted: true,
         width: 665,
-        "height": 416
+        "height": 380
       },
       "legend": {
         "enabled": true,

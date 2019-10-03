@@ -19,7 +19,7 @@
 "template":"befragungen001_print",
 "darstellungsart":"Grafik",
 "printformat":"large", 
-"visible":true,
+"visible":false,
 "visibleInPortal":false,
 "orderKey":"10_00_00_00_00_004",
 "parentId":6437,
