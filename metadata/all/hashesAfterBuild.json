@@ -4481,7 +4481,7 @@
 	},
 	"6443": {
 		"metadata": "d1070c3887bfea0d51f01c04323561cf82eb07e7",
-		"chartConfig": "a18b56f861388a892928d54f24ea69ed888c5391",
+		"chartConfig": "ecdc80aa7df492ea696637a4456a001417e8ce5d",
 		"data": "69aa8e7cef94159082f8310d9dc361ebd989bc8d",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "b2b6cef7f85968677e82bc0c5e0ade081ca1d28b"
