@@ -1,8 +1,11 @@
 {
   "series": [
     {
-      "color": "#008AC3",
-      "legendIndex": 0,
+      "color": "#2B0099",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 2,
       "data": [
         [
           "1991",
@@ -122,7 +125,12 @@
     },
     {
       "color": "#68AB2B",
-      "legendIndex": 2,
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "dashStyle": "ShortDash",
+      "legendIndex": 3,
       "data": [
         [
           "1991",
@@ -241,9 +249,12 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2B0099",
+      "color": "#008AC3",
+      "marker": {
+        "enabled": false
+      },
       "dashStyle": "ShortDash",
-      "legendIndex": 1,
+      "legendIndex": 4,
       "data": [
         [
           "1991",
@@ -363,8 +374,11 @@
     },
     {
       "color": "#007A2F",
-      "dashStyle": "ShortDash",
-      "legendIndex": 3,
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 1,
       "data": [
         [
           "1991",
