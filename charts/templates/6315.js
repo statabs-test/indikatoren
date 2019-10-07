@@ -17,7 +17,7 @@
     {"color": "#CD9C00",}, /* gelb */
   	{
   	  "color": "#8A8A8A",
-      dashStyle: 'LongDash'
+      dashStyle: 'ShortDash'
     }, /* grau */
   ],
   "legend": {

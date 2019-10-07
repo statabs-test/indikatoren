@@ -79,7 +79,7 @@
   "legend": {
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "top",
+    "verticalAlign": "middle",
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"

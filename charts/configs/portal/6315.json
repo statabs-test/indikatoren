@@ -68,7 +68,7 @@
     },
     {
       "color": "#8A8A8A",
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2004,

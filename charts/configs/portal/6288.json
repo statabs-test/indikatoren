@@ -659,7 +659,7 @@
     },
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "top",
+    "verticalAlign": "middle",
     "align": "right"
   },
   "dataLabels": {

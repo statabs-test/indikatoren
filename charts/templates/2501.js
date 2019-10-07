@@ -37,8 +37,14 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": true /* false */
+    "inverted": true, /* false */
   },
+  plotOptions: {
+    series: {
+        borderWidth: 0,
+        pointPadding: 0.13
+    }
+},
 }
 }());
 
