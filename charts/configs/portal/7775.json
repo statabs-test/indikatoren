@@ -127,8 +127,11 @@
       "name": "Bauzonen mit pot. Wohnnutzung,  Veränderungen zum Vorjahr (in m2)"
     },
     {
-      "color": "#8b2223",
+      "color": "#7b1213",
       "type": "line",
+      "marker": {
+        "enabled": false
+      },
       "yAxis": 1,
       "data": [
         [
@@ -191,8 +194,11 @@
       "name": "Bauzonen (index)"
     },
     {
-      "color": "#DC440E",
+      "color": "#aC140E",
       "type": "line",
+      "marker": {
+        "enabled": false
+      },
       "yAxis": 1,
       "data": [
         [
@@ -318,7 +324,8 @@
       "color": "#000000"
     },
     "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt",
-    "align": "left"
+    "align": "left",
+    "useHTML": true
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -341,13 +348,9 @@
     {
       "tickAmount": 6,
       "labels": {
-        "format": "{value:,.0f}",
         "style": {
-          "color": "black"
+          "color": "#000000"
         }
-      },
-      "title": {
-        "enabled": false
       },
       "plotLines": [
         {
@@ -355,17 +358,30 @@
           "color": "#B9CFD7",
           "width": 2
         }
-      ]
+      ],
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      }
     },
     {
       "opposite": true,
       "tickAmount": 6,
       "labels": {
-        "format": "{value:,.2f}",
         "style": {
-          "color": "black"
+          "color": "#000000"
         }
       },
+      "plotLines": [
+        {
+          "value": 100,
+          "color": "#B9CFD7",
+          "width": 2
+        }
+      ],
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "title": {
         "enabled": false
       }

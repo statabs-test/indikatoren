@@ -353,42 +353,27 @@
     "tickLength": 0,
     "tickInterval": 1
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      }
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "enabled": false
     },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
+      "format": "{value:,.0f}"
+    },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B9CFD7",
+        "width": 2
       }
-    }
-  ],
+    ]
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",

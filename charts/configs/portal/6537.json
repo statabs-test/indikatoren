@@ -146,42 +146,21 @@
     "text": "Basel-Stadt",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "enabled": false
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
       }
     },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    }
-  ],
+    "tickAmount": 4,
+    "reversedStacks": false
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",

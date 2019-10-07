@@ -336,42 +336,22 @@
     "text": "nach Alter der Patienten, 2017",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "enabled": false
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
       }
     },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    }
-  ],
+    "maxPadding": 0,
+    "reversedStacks": false,
+    "tickAmount": 6
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",

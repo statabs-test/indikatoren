@@ -405,42 +405,22 @@
     "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      }
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "enabled": false
     },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    }
-  ],
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 8,
+    "reversedStacks": false
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",

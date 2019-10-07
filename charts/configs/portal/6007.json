@@ -278,7 +278,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 130,
+    "plotLines": [
+      {
+        "value": 100,
+        "color": "#B9CFD7",
+        "width": 2
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

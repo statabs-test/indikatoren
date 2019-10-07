@@ -151,7 +151,14 @@
       },
       "format": "{value:,.f}"
     },
-    "tickInterval": 2
+    "tickInterval": 2,
+    "plotLines": [
+      {
+        "value": 100,
+        "color": "#B9CFD7",
+        "width": 2
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
