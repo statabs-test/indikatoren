@@ -173,22 +173,22 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function(){
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //create symmetric xAxes
                     var fn = this.options.customFunctions;
                     fn.createSymmetricAxis(this.yAxis[0]);
-                    
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){ // && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                          }
-                        }
-                      );
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') { // && this['legend']['options']['x'] == 0){
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
                 }
     },
@@ -283,7 +283,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-16"
   },
   "legend": {
     "symbolRadius": 0,
@@ -305,10 +305,10 @@
             }
   },
   "customFunctions": {
-    "createSymmetricAxis": function(axis){
+    "createSymmetricAxis": function (axis) {
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
                 axis.setExtremes(-absMax, absMax);
-        	}
+            }
   },
   "exporting": {
     "filename": 6704

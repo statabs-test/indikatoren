@@ -322,6 +322,9 @@
       "marker": {
         "enabled": false
       }
+    },
+    "column": {
+      "borderWidth": 0
     }
   },
   "customFunctions": {
