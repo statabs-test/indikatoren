@@ -4,6 +4,7 @@
       "color": "#cd9c00",
       "index": 0,
       "type": "column",
+      "yAxis": 0,
       "data": [
         [
           "1975",
@@ -120,7 +121,6 @@
     {
       "color": "#73b97c",
       "index": 1,
-      "type": "column",
       "yAxis": 1,
       "data": [
         [
@@ -295,6 +295,13 @@
         "style": {
           "fontSize": "10px"
         }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },

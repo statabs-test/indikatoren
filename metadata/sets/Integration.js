@@ -701,7 +701,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, 2017",
+		"subtitle": "in Jahren, 2018",
 		"kuerzel": "I.01.1.6074",
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
@@ -712,14 +712,14 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2018-10-03T09:50:07.077",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italiener (23,1 Jahre) sind am längsten in der Schweiz, gefolgt von Türken (20,2) und Personen aus dem Balkan (18,7). Ein ähnliches Bild zeichnet sich bei der Aufenthaltsdauer im Kanton Basel-Stadt ab. Am wenigsten lang in Basel-Stadt sind Personen aus EU-Oststaaten (3,3) und arabischen Ländern (3,9). Personen aus EU-Oststaaten sind ebenfalls am wenigsten lang in der Schweiz (4,2).",
-		"erlaeuterungen": "Median der Aufenthaltsdauer:  Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
+		"lesehilfe": "Italienische und türkische Staatsbüger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten bleiben Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie \"Übrige Länder\" (4,3) und aus EU-Oststaaten (3,4) .",
+		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -732,9 +732,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6074,
+		"chart-id": 6074,
+		"filter": "",
 		"id": 6074
 	},
 	{
@@ -3456,13 +3460,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2009 bis 2017 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung von 530 auf 494. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg dagegen leicht von 267 auf 277 Personen.",
+		"lesehilfe": "Im Jahr 2018 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2017 von 494 auf 537. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg von 277 auf 289 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -3477,9 +3481,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6485,
+		"chart-id": 6485,
+		"filter": "",
 		"id": 6485
 	},
 	{
