@@ -2,10 +2,11 @@
     return {
   "plotOptions": {
   	   series: {
+         pointPadding: 0
           //pointWidth: 5, 
         },
     "column": {
-        "colorByPoint": true
+     
     }
   },
  "xAxis": {
@@ -21,8 +22,14 @@
   },
   
   series: [{
-    name: 'Kanton'
-  }],
+    
+    "color":'#008AC3'
+  },
+  {
+    
+    "color":'#A0BEC8'
+  }    
+    ],
 
   /*"series": [
            function() {
@@ -35,37 +42,8 @@
             }, 
   {"color": "col", "visible": true}, 
   ],*/
-
-  "colors": [
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",        
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA", 
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-  ],
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
