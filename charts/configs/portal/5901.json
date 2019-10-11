@@ -62,6 +62,10 @@
         [
           2017,
           198988
+        ],
+        [
+          2018,
+          200256
         ]
       ],
       "name": "Bevölkerung"
@@ -130,6 +134,10 @@
         [
           2017,
           106.14788
+        ],
+        [
+          2018,
+          106.82428
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
@@ -195,6 +203,10 @@
         ],
         [
           2017,
+          190966
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -263,6 +275,10 @@
         ],
         [
           2017,
+          111.19289
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -323,9 +339,9 @@
   },
   "yAxis": [
     {
-      "min": 0,
-      "max": 200000,
-      "tickAmount": 6,
+      "max": 210000,
+      "tickAmount": 8,
+      "tickInterval": 30000,
       "alignTicks": true,
       "title": {
         "text": null,
@@ -341,7 +357,7 @@
     },
     {
       "tickInterval": 5,
-      "tickAmount": 6,
+      "tickAmount": 8,
       "alignTicks": true,
       "title": {
         "style": {

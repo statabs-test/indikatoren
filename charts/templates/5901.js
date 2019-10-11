@@ -1,10 +1,10 @@
 (function(){
   return {
     "yAxis": [{
-    	min: 0,
-      max: 200000,
-      //"tickInterval": 50000,
-      tickAmount: 6,
+    	//min: 0,
+      max: 210000,
+      tickAmount: 8,
+      "tickInterval": 30000,
       alignTicks: true,
     	title: {
           text: null,
@@ -23,7 +23,7 @@
     	//"min": 95,
        //max: 115,
       tickInterval: 5,
-      tickAmount: 6,
+      tickAmount: 8,
       alignTicks: true,
       "title": {
           "style": {

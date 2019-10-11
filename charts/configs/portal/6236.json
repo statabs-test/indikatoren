@@ -578,7 +578,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 200000
+    "tickAmount": 8
   },
   "navigation": {
     "menuItemStyle": {
