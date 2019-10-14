@@ -113,6 +113,10 @@
         [
           "2017",
           13
+        ],
+        [
+          "2018",
+          13
         ]
       ],
       "name": "Anzahl Betriebe",
@@ -230,6 +234,10 @@
         [
           "2017",
           428.7
+        ],
+        [
+          "2018",
+          424.5
         ]
       ],
       "name": "Landwirtschaftliche Nutzfläche in Hektar (rechte Achse)",
