@@ -46,8 +46,9 @@
         },
         "tooltip": {
             "pointFormatter": function () {
-                return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0)
+                return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b> m<sup>2</sup>'
             },
+            useHTML: true,
             "shared": false
         },
         "chart": {
