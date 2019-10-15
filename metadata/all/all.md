@@ -1084,6 +1084,7 @@ id | visible | visibleInPortal | indikatorenset
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7778 | true | false | Richtplan
+7901 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

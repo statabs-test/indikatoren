@@ -26279,5 +26279,45 @@
 		"chart-id": 7763,
 		"filter": "",
 		"id": 7763
+	},
+	{
+		"title": "Nettomietpreise nach Wohnviertel",
+		"subtitle": "in Fr. pro m<sup>2</sup>, 2015-2017",
+		"kuerzel": "I.09.3.07901",
+		"kuerzelKunde": "",
+		"description": "Nettomietpreise nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-10-15T09:38:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,5 Franken.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 0 bis 2099 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 3 Jahre interpretiert werden.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7901,
+		"chart-id": 7901,
+		"filter": "",
+		"id": 7901
 	}
 ]
