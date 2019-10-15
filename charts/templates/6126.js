@@ -5,7 +5,7 @@
           //pointWidth: 5, 
         },
     "column": {
-        "colorByPoint": true
+        //"colorByPoint": true
     }
   },
  "xAxis": {
@@ -22,7 +22,8 @@
   },
   
   series: [{
-    name: 'Kanton'
+    name: 'Kanton',
+    color: "#008AC3",
   }],
 
   /*"series": [
@@ -37,34 +38,7 @@
   {"color": "col", "visible": true}, 
   ],*/
 
-    "colors": [
-    "#A8C3CA",
-    "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",        
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA", 
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-  ],
+    
   "legend": {
     "enabled": false,
     "layout": "horizontal",

@@ -42,8 +42,7 @@
     },
     "series": [
       { 
-        linkedTo: 'fake',
-        "colorByPoint": true,
+        color: "#008AC3",
         "index": 0,
         "type": "column",
         pointWidth: 10, 
@@ -69,42 +68,9 @@
           "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
         },
       },
-      {
-        name: 'Ressourcenindex nach Kanton',
-        id: 'fake',
-        color: '#A8C3CA',
-        type: 'column'
-      }
       ],
       
-      "colors": [
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#689199",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",        
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA", 
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA",
-        "#A8C3CA"
-      ],
+      
       
      "tooltip": {
           //"shared": true

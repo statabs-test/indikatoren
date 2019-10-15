@@ -1,8 +1,7 @@
 {
   "series": [
     {
-      "linkedTo": "fake",
-      "colorByPoint": true,
+      "color": "#008AC3",
       "index": 0,
       "type": "column",
       "pointWidth": 10,
@@ -243,12 +242,6 @@
       ],
       "name": "Durchschnitt Schweiz",
       "turboThreshold": 0
-    },
-    {
-      "name": "Ressourcenindex nach Kanton",
-      "id": "fake",
-      "color": "#A8C3CA",
-      "type": "column"
     }
   ],
   "xAxis": {
@@ -411,34 +404,6 @@
           }, true, true);
     }
   },
-  "colors": [
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA"
-  ],
   "exporting": {
     "filename": 6129
   }
