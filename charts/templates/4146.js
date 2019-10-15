@@ -62,7 +62,7 @@
       "pointWidth": "10"
     },
     {
-      "color": "#cd9c00",
+      "color": "#923F8D",
       "index": 1,
       "type": "scatter",
       "yAxis": 1, 
@@ -82,10 +82,10 @@
     "type": "line"
   },
   plotOptions: 
-  {
+  { 
     series: 
     {
-      borderWidth: 1  
+      borderWidth: 0  
     }
   }
 	}

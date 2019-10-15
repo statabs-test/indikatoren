@@ -74,7 +74,7 @@
       "name": "4 Zimmer u.m."
     },
     {
-      "color": "#cd9c00",
+      "color": "#923F8D",
       "index": 1,
       "type": "scatter",
       "yAxis": 1,
@@ -190,7 +190,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
