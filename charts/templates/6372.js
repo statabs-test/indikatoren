@@ -13,6 +13,9 @@
     "type": "category",
     "labels": {
       "rotation": 0,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+},
       padding: 0,
       step: 1,
     } 

@@ -237,7 +237,10 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -90,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+}
     },
     "tickLength": 0
   },

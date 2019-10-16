@@ -26,6 +26,7 @@
   
   series: [{
     name: 'Kanton',
+    //pointWidth: 10,
     color: "#008AC3"
   }],
 

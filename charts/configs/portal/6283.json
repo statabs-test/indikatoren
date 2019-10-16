@@ -2,6 +2,7 @@
   "series": [
     {
       "name": "KWI",
+      "color": "#008AC3",
       "data": [
         [
           "ZG",
@@ -126,6 +127,9 @@
         "fontSize": "10px",
         "color": "#000000"
       },
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+},
       "rotation": 0
     },
     "tickLength": 0
@@ -183,9 +187,7 @@
         }
       }
     },
-    "column": {
-      "colorByPoint": true
-    }
+    "column": {}
   },
   "title": {
     "style": {
@@ -268,34 +270,6 @@
       "fontSize": "10px"
     }
   },
-  "colors": [
-    "#A8C3CA",
-    "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA"
-  ],
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

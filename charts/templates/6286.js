@@ -25,6 +25,9 @@
     "xAxis": {
       type: "category",
       "labels": {
+        "formatter": function() {
+          return this.value.replace("BS", "<b>BS<br/>");
+  },
               "rotation": 0,
         }
     },
@@ -39,14 +42,11 @@
     },
     "series": [
       { 
-        linkedTo: 'fake',
-        "colorByPoint": true,
         "index": 0,
         "type": "column",
-        pointWidth: 14.5, 
-        pointPlacement: 0.15,
-        //borderWidth: 0,
-        legendIndex: 1
+        borderWidth: 0,
+        legendIndex: 1,
+        color: "#008AC3"
       },
       {
         "legendColor": "#B00000",
@@ -58,12 +58,7 @@
         },
         legendIndex: 2,
       },
-      {
-        name: 'Ressourcenindex nach Kanton',
-        id: 'fake',
-        color: '#A8C3CA',
-        type: 'column'
-      }
+
       ],
       
       "colors": [

@@ -12,7 +12,10 @@
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      "rotation": -90,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+}
     } 
   },
   "yAxis": {

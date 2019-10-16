@@ -4,6 +4,7 @@
       "color": "#008AC3",
       "index": 0,
       "type": "column",
+      "pointWidth": 10,
       "borderWidth": 0,
       "legendIndex": 1,
       "tooltip": {
