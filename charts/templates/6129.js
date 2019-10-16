@@ -25,6 +25,9 @@
       "labels": {
             step: 1,
               "rotation": -90,
+              "formatter": function() {
+                return this.value.replace("BS", "<b>BS<br/>");
+        }
         }
     },
     "legend": {
@@ -45,8 +48,7 @@
         color: "#008AC3",
         "index": 0,
         "type": "column",
-        pointWidth: 10, 
-        pointPlacement: 0.15,
+        //pointWidth: 10, 
         borderWidth: 0,
         legendIndex: 1,
         "tooltip": {
