@@ -1,5 +1,10 @@
 (function () {
   return {
+    "chart": {
+      width: 665,
+      spacingTop: 7,
+      /*marginBottom: 63*/
+    },
     "xAxis": {
       //type: 'category',
       //"tickInterval": 4,
@@ -39,10 +44,10 @@
     "legend": {
       "enabled": true,
       itemDistance: 1,
-      "layout": "horizontal",
-      "verticalAlign": "top",
+      "layout": "vertical",
+      "verticalAlign": "middle",
       //"itemMarginBottom": 5,
-      "align": "left",
+      "align": "right",
       labelFormatter: function () {
         return this.name.split("(")[0].replace("und", "u.");
       }
