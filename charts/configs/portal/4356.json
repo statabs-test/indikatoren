@@ -58,7 +58,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -89,7 +89,7 @@
     "marginTop": 75,
     "type": "column",
     "renderTo": "container-4356",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -164,9 +164,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik."
   },
   "legend": {
     "symbolRadius": 0,

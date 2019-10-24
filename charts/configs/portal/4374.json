@@ -38,7 +38,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -69,7 +69,7 @@
     "marginTop": 75,
     "type": "column",
     "renderTo": "container-4374",
-    "spacingBottom": 50
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -77,16 +77,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
-            }
-            return "";
-          }
+        }
       }
     }
   },
@@ -123,8 +114,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     }
   },
   "navigation": {
@@ -144,9 +134,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EErziehungsdepartement, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EErziehungsdepartement, Fachstelle Tagesbetreuung."
   },
   "legend": {
     "symbolRadius": 0,
@@ -154,9 +144,6 @@
       "fontWeight": "normal"
     },
     "enabled": false
-  },
-  "tooltip": {
-    "shared": false
   },
   "exporting": {
     "filename": 4374
