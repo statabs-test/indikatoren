@@ -1,45 +1,41 @@
 (function(){
-    return {
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
-            }
-            return "";
+  return {
+"plotOptions": {
+  "series": {
+    "dataLabels": {
+      "enabled": false,
+        //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+     
           }
-      }
-    }
-  },
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
-    },
-  },
-  "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },
-  "legend": {
-    "enabled": false
-  },
-  "series": [
-    {
-    "color": "#ff8028"
-    }
-  ],
-  "tooltip": {
-    "shared": false
-  },
-  "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
-    "type": "column"
+         
+       
+    
   }
-	}
+},
+"yAxis": {
+  "labels": {
+    "format": "{value:,.0f}",
+  },
+},
+"xAxis": {
+  "type": "category",
+  "tickInterval": 1
+},
+"legend": {
+  "enabled": false
+},
+"series": [
+  {
+  "color": "#ff8028"
+  }
+],
+"tooltip": {
+  "shared": false
+},
+"chart": {
+  "marginBottom": 65,
+  "marginTop": 75,
+  "type": "column"
+}
+}
 }());
