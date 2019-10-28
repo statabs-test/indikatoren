@@ -1085,6 +1085,26 @@ id | visible | visibleInPortal | indikatorenset
 7763 | true | true | Monatsindikatoren
 7774 | true | true | Richtplan
 7778 | true | false | Richtplan
+7952 | true | true | City-Statistics
+7953 | true | true | City-Statistics
+7954 | true | true | City-Statistics
+7955 | true | true | City-Statistics
+7956 | true | true | City-Statistics
+7957 | true | true | City-Statistics
+7958 | true | true | City-Statistics
+7959 | true | true | City-Statistics
+7960 | true | true | City-Statistics
+7961 | true | true | City-Statistics
+7962 | true | true | City-Statistics
+7963 | true | true | City-Statistics
+7964 | true | true | City-Statistics
+7965 | true | true | City-Statistics
+7966 | true | true | City-Statistics
+7967 | true | true | City-Statistics
+7968 | true | true | City-Statistics
+7969 | true | true | City-Statistics
+7970 | true | true | City-Statistics
+7971 | true | true | City-Statistics
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
