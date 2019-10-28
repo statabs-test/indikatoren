@@ -1049,7 +1049,7 @@ var templatesById = {
 	"7980": "template001_print",
 	"7981": "line001_print",
 	"7982": "line001_print",
-	"7983": "",
+	"7983": "bubble001_print",
 	"7984": "template001_print",
 	"7985": "pie001_print",
 	"7986": "template001_print",
