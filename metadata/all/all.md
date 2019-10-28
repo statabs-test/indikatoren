@@ -1085,6 +1085,23 @@ id | visible | visibleInPortal | indikatorenset
 7763 | true | true | Monatsindikatoren
 7774 | true | true | Richtplan
 7778 | true | false | Richtplan
+7972 | true | false | Tourismus (Print)
+7973 | true | false | Tourismus (Print)
+7974 | true | false | Tourismus (Print)
+7975 | true | false | Tourismus (Print)
+7976 | true | false | Tourismus (Print)
+7977 | true | false | Tourismus (Print)
+7978 | true | false | Tourismus (Print)
+7979 | true | false | Tourismus (Print)
+7980 | true | false | Tourismus (Print)
+7981 | true | false | Tourismus (Print)
+7982 | true | false | Tourismus (Print)
+7983 | true | false | Tourismus (Print)
+7984 | true | false | Tourismus (Print)
+7985 | true | false | Tourismus (Print)
+7986 | true | false | Tourismus (Print)
+7987 | true | false | Tourismus (Print)
+7988 | true | false | Tourismus (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

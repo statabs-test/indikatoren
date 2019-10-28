@@ -1,0 +1,392 @@
+{
+  "series": [
+    {
+      "stack": 1,
+      "color": "rgb(220, 68, 14)",
+      "data": [
+        [
+          "Jan",
+          14476.1
+        ],
+        [
+          "Feb",
+          14796.9
+        ],
+        [
+          "Mrz",
+          15792.2
+        ],
+        [
+          "Apr",
+          16341.5
+        ],
+        [
+          "Mai",
+          18836.1
+        ],
+        [
+          "Jun",
+          16661.9
+        ],
+        [
+          "Jul",
+          21394.7
+        ],
+        [
+          "Aug",
+          16867.8
+        ],
+        [
+          "Sep",
+          18586.8
+        ],
+        [
+          "Okt",
+          21220.6
+        ],
+        [
+          "Nov",
+          22874.8
+        ],
+        [
+          "Dez",
+          19880.6
+        ]
+      ],
+      "name": "Inland Ø 2009-2018",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
+      "data": [
+        [
+          "Jan",
+          23813
+        ],
+        [
+          "Feb",
+          26512.7
+        ],
+        [
+          "Mrz",
+          29946.4
+        ],
+        [
+          "Apr",
+          29893
+        ],
+        [
+          "Mai",
+          34787.1
+        ],
+        [
+          "Jun",
+          39139.9
+        ],
+        [
+          "Jul",
+          37962.7
+        ],
+        [
+          "Aug",
+          39007.5
+        ],
+        [
+          "Sep",
+          37286.7
+        ],
+        [
+          "Okt",
+          34815.4
+        ],
+        [
+          "Nov",
+          32110.8
+        ],
+        [
+          "Dez",
+          30744
+        ]
+      ],
+      "name": "Ausland Ø 2009-2018",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          19010
+        ],
+        [
+          "Feb",
+          19455
+        ],
+        [
+          "Mrz",
+          19231
+        ],
+        [
+          "Apr",
+          20336
+        ],
+        [
+          "Mai",
+          23754
+        ],
+        [
+          "Jun",
+          22419
+        ],
+        [
+          "Jul",
+          26090
+        ],
+        [
+          "Aug",
+          21655
+        ],
+        [
+          "Sep",
+          21886
+        ],
+        [
+          "Okt",
+          27272
+        ],
+        [
+          "Nov",
+          24948
+        ],
+        [
+          "Dez",
+          25214
+        ]
+      ],
+      "name": "Inland 2018",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          27515
+        ],
+        [
+          "Feb",
+          29231
+        ],
+        [
+          "Mrz",
+          35111
+        ],
+        [
+          "Apr",
+          36392
+        ],
+        [
+          "Mai",
+          39773
+        ],
+        [
+          "Jun",
+          46578
+        ],
+        [
+          "Jul",
+          47577
+        ],
+        [
+          "Aug",
+          48698
+        ],
+        [
+          "Sep",
+          43069
+        ],
+        [
+          "Okt",
+          41237
+        ],
+        [
+          "Nov",
+          37107
+        ],
+        [
+          "Dez",
+          38648
+        ]
+      ],
+      "name": "Ausland 2018",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "renderTo": "container-7984",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0
+    },
+    "column": {
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ankünfte pro Monat nach Herkunft der Gäste"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      }
+    },
+    "min": 0,
+    "max": 140000,
+    "reversedStacks": false,
+    "tickAmount": 6
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 130
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 7984
+  }
+}

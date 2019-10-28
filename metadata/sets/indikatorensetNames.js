@@ -21,5 +21,6 @@ var indikatorensetNames = [
 	"Monatsindikatoren",
 	"Testset",
 	"Bevoelkerungsszenarien",
+	"Tourismus (Print)",
 	"Test"
 ];

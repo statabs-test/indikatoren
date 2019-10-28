@@ -1,0 +1,453 @@
+{
+  "series": [
+    {
+      "color": "rgb(220, 68, 14)",
+      "data": [
+        [
+          2009,
+          0.688160977
+        ],
+        [
+          2010,
+          0.712715736
+        ],
+        [
+          2011,
+          0.703794982
+        ],
+        [
+          2012,
+          0.698304205
+        ],
+        [
+          2013,
+          0.719753993
+        ],
+        [
+          2014,
+          0.723168077
+        ],
+        [
+          2015,
+          0.710086965
+        ],
+        [
+          2016,
+          0.708969466
+        ],
+        [
+          2017,
+          0.687306341
+        ],
+        [
+          2018,
+          0.704086997
+        ]
+      ],
+      "name": "Effektiv: Mo-Do"
+    },
+    {
+      "color": "rgb(68, 141, 43)",
+      "data": [
+        [
+          2009,
+          0.495799875
+        ],
+        [
+          2010,
+          0.476080367
+        ],
+        [
+          2011,
+          0.480256528
+        ],
+        [
+          2012,
+          0.471786578
+        ],
+        [
+          2013,
+          0.487181156
+        ],
+        [
+          2014,
+          0.496758848
+        ],
+        [
+          2015,
+          0.503085352
+        ],
+        [
+          2016,
+          0.491981573
+        ],
+        [
+          2017,
+          0.511537324
+        ],
+        [
+          2018,
+          0.528479558
+        ]
+      ],
+      "name": "Effektiv: Fr-So"
+    },
+    {
+      "color": "rgb(250, 189, 36)",
+      "data": [
+        [
+          2009,
+          0.606040831
+        ],
+        [
+          2010,
+          0.610991777
+        ],
+        [
+          2011,
+          0.607864899
+        ],
+        [
+          2012,
+          0.601275881
+        ],
+        [
+          2013,
+          0.620405741
+        ],
+        [
+          2014,
+          0.626545043
+        ],
+        [
+          2015,
+          0.621628807
+        ],
+        [
+          2016,
+          0.615605161
+        ],
+        [
+          2017,
+          0.611833344
+        ],
+        [
+          2018,
+          0.629092612
+        ]
+      ],
+      "name": "Effektiv: Mo-So"
+    },
+    {
+      "color": "rgb(220, 68, 14)",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2009,
+          0.688160977
+        ],
+        [
+          2010,
+          0.749111245
+        ],
+        [
+          2011,
+          0.75294624
+        ],
+        [
+          2012,
+          0.749524665
+        ],
+        [
+          2013,
+          0.762417552
+        ],
+        [
+          2014,
+          0.791777105
+        ],
+        [
+          2015,
+          0.811454292
+        ],
+        [
+          2016,
+          0.820510757
+        ],
+        [
+          2017,
+          0.847212231
+        ],
+        [
+          2018,
+          0.878641231
+        ]
+      ],
+      "name": "Auf Basis Zimmerzahl 2009: Mo-Do"
+    },
+    {
+      "color": "rgb(68, 141, 43)",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2009,
+          0.495799875
+        ],
+        [
+          2010,
+          0.500391865
+        ],
+        [
+          2011,
+          0.513796426
+        ],
+        [
+          2012,
+          0.50639202
+        ],
+        [
+          2013,
+          0.516058915
+        ],
+        [
+          2014,
+          0.543887783
+        ],
+        [
+          2015,
+          0.574902495
+        ],
+        [
+          2016,
+          0.569384427
+        ],
+        [
+          2017,
+          0.630549511
+        ],
+        [
+          2018,
+          0.659497948
+        ]
+      ],
+      "name": "Auf Basis Zimmerzahl 2009: Fr-So"
+    },
+    {
+      "color": "rgb(250, 189, 36)",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2009,
+          0.606040831
+        ],
+        [
+          2010,
+          0.642192655
+        ],
+        [
+          2011,
+          0.650316643
+        ],
+        [
+          2012,
+          0.645379335
+        ],
+        [
+          2013,
+          0.657180413
+        ],
+        [
+          2014,
+          0.685987167
+        ],
+        [
+          2015,
+          0.710368432
+        ],
+        [
+          2016,
+          0.712457561
+        ],
+        [
+          2017,
+          0.754179994
+        ],
+        [
+          2018,
+          0.785054559
+        ]
+      ],
+      "name": "Auf Basis Zimmerzahl 2009: Mo-So"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+            this.credits.element.onclick = function() {};
+            
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+            //move legend title
+            var title = this.legend.title;
+            title.translate(-100, 30);
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7975",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nettozimmerauslastung nach Wochentag"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function(){
+    return '<span style="color:'+ this.series.color+'">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat(100 * this.y, 1, ",", " ")  + '%</b><br/>';
+  }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "formatter": function() {
+       return 100 * this.value + "%";
+      }
+    },
+    "tickAmount": 6
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "width": 40
+    },
+    "padding": 0,
+    "useHTML": true,
+    "y": -20,
+    "width": 210,
+    "itemWidth": 70,
+    "title": {
+      "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2009:",
+      "style": {
+        "fontWeight": "normal"
+      }
+    },
+    "labelFormatter": function(){
+      //remove text before year on each item with odd index
+      //return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;
+      return this.name.slice(-5);
+  }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "symbol": "circle",
+        "lineWidth": 2,
+        "lineColor": null
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7975
+  }
+}
