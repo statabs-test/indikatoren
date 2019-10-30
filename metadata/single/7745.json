@@ -20,7 +20,7 @@
 "darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"_000",
 "parentId":null,
 "children":[],

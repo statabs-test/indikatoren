@@ -1079,7 +1079,7 @@ id | visible | visibleInPortal | indikatorenset
 7742 | true | true | Bevoelkerungsszenarien
 7743 | true | true | Bevoelkerungsszenarien
 7744 | true | true | Bevoelkerungsszenarien
-7745 | true | true | 
+7745 | true | false | 
 7746 | true | true | 
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
