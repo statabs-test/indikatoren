@@ -10,6 +10,8 @@
   },
   "yAxis": {
     min: null,
+   //type: "category",
+   //tickInterval:2,
     "labels": {
       "format": "{value}%"
     }    
@@ -35,7 +37,8 @@
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     shared: false
   },  
-  "chart": {      
+  "chart": {
+    marginRight: 20,      
     "type": "column",
     "inverted": true, /* false */
   },
