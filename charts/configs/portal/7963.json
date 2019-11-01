@@ -4,72 +4,92 @@
       "color": "#689199",
       "data": [
         [
+          "Basel: Agglomeration",
+          44294
+        ],
+        [
           "Basel: Kernstadt",
-          16.76
+          16543
         ],
         [
           "Basel: CH Agglomerationsgürtel",
-          14.8
+          27751
         ],
         [
           "Basel: DE Agglomerationsgürtel",
-          15.97
+          17820
         ],
         [
           "Basel: FR Agglomerationsgürtel",
-          18.61
+          9852
         ],
         [
-          "     ",
+          "      ",
           null
+        ],
+        [
+          "Bern: Agglomeration",
+          28522
         ],
         [
           "Bern: Kernstadt",
-          13.63
+          10618
         ],
         [
           "Bern: CH Agglomerationsgürtel",
-          11.56
+          17903
         ],
         [
-          "       ",
+          "         ",
           null
+        ],
+        [
+          "Genève: Agglomeration",
+          65988
         ],
         [
           "Genève: Kernstadt",
-          22.82
+          23933
         ],
         [
           "Genève: CH Agglomerationsgürtel",
-          21.96
+          42055
         ],
         [
           "Genève: FR Agglomerationsgürtel",
-          15.7
+          27879
         ],
         [
-          "          ",
+          "             ",
           null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          49767
         ],
         [
           "Lausanne: Kernstadt",
-          24.42
+          19481
         ],
         [
           "Lausanne: CH Agglomerationsgürtel",
-          20.03
+          30286
         ],
         [
-          "            ",
+          "                ",
           null
         ],
         [
+          "Zürich: Agglomeration",
+          106931
+        ],
+        [
           "Zürich: Kernstadt",
-          13.04
+          32107
         ],
         [
           "Zürich: CH Agglomerationsgürtel",
-          14.01
+          74824
         ]
       ],
       "name": "ISCED Stufen 1 oder 2",
@@ -79,72 +99,92 @@
       "color": "#661200",
       "data": [
         [
+          "Basel: Agglomeration",
+          128847
+        ],
+        [
           "Basel: Kernstadt",
-          32.55
+          32122
         ],
         [
           "Basel: CH Agglomerationsgürtel",
-          43.06
+          96725
         ],
         [
           "Basel: DE Agglomerationsgürtel",
-          53
+          59160
         ],
         [
           "Basel: FR Agglomerationsgürtel",
-          49.19
+          26044
         ],
         [
-          "     ",
+          "      ",
           null
+        ],
+        [
+          "Bern: Agglomeration",
+          104820
         ],
         [
           "Bern: Kernstadt",
-          32.77
+          25529
         ],
         [
           "Bern: CH Agglomerationsgürtel",
-          51.19
+          79291
         ],
         [
-          "       ",
+          "         ",
           null
+        ],
+        [
+          "Genève: Agglomeration",
+          88960
         ],
         [
           "Genève: Kernstadt",
-          24.7
+          25907
         ],
         [
           "Genève: CH Agglomerationsgürtel",
-          29.6
+          63053
         ],
         [
           "Genève: FR Agglomerationsgürtel",
-          41.23
+          73194
         ],
         [
-          "          ",
+          "             ",
           null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          78793
         ],
         [
           "Lausanne: Kernstadt",
-          26.98
+          21529
         ],
         [
           "Lausanne: CH Agglomerationsgürtel",
-          37.88
+          57264
         ],
         [
-          "            ",
+          "                ",
           null
         ],
         [
+          "Zürich: Agglomeration",
+          307067
+        ],
+        [
           "Zürich: Kernstadt",
-          28.09
+          69170
         ],
         [
           "Zürich: CH Agglomerationsgürtel",
-          44.55
+          237896
         ]
       ],
       "name": "ISCED Stufen 3 oder 4",
@@ -154,72 +194,92 @@
       "color": "#8AB77D",
       "data": [
         [
+          "Basel: Agglomeration",
+          126073
+        ],
+        [
           "Basel: Kernstadt",
-          50.69
+          50033
         ],
         [
           "Basel: CH Agglomerationsgürtel",
-          42.13
+          76040
         ],
         [
           "Basel: DE Agglomerationsgürtel",
-          29.36
+          32770
         ],
         [
           "Basel: FR Agglomerationsgürtel",
-          30.75
+          16280
         ],
         [
-          "     ",
+          "      ",
           null
+        ],
+        [
+          "Bern: Agglomeration",
+          99453
         ],
         [
           "Bern: Kernstadt",
-          53.59
+          41745
         ],
         [
           "Bern: CH Agglomerationsgürtel",
-          37.25
+          57708
         ],
         [
-          "       ",
+          "         ",
           null
+        ],
+        [
+          "Genève: Agglomeration",
+          145603
         ],
         [
           "Genève: Kernstadt",
-          52.48
+          55050
         ],
         [
           "Genève: CH Agglomerationsgürtel",
-          48.45
+          90553
         ],
         [
           "Genève: FR Agglomerationsgürtel",
-          41.03
+          72839
         ],
         [
-          "          ",
+          "             ",
           null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          102404
         ],
         [
           "Lausanne: Kernstadt",
-          48.6
+          38778
         ],
         [
           "Lausanne: CH Agglomerationsgürtel",
-          42.09
+          63626
         ],
         [
-          "            ",
+          "                ",
           null
         ],
         [
+          "Zürich: Agglomeration",
+          366230
+        ],
+        [
           "Zürich: Kernstadt",
-          58.88
+          145002
         ],
         [
           "Zürich: CH Agglomerationsgürtel",
-          41.43
+          221229
         ]
       ],
       "name": "ISCED Stufen 5 oder 6",
@@ -313,7 +373,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "stacking": "percent",
+      "groupPadding": 0.1
     }
   },
   "yAxis": {
@@ -340,7 +401,8 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": false,
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "enabled": true,

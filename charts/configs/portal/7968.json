@@ -4,12 +4,16 @@
       "color": "#689199",
       "data": [
         [
+          "Basel: Agglomeration",
+          4039
+        ],
+        [
           "Basel: Kernstadt",
           22
         ],
         [
           "Basel: CH Agglomerationsgürtel",
-          4039
+          4017
         ],
         [
           "Basel: DE Agglomerationsgürtel",
@@ -20,8 +24,12 @@
           636.7
         ],
         [
-          "     ",
+          "      ",
           null
+        ],
+        [
+          "Bern: Agglomeration",
+          7727
         ],
         [
           "Bern: Kernstadt",
@@ -32,8 +40,12 @@
           7425
         ],
         [
-          "       ",
+          "         ",
           null
+        ],
+        [
+          "Genève: Agglomeration",
+          3134
         ],
         [
           "Genève: Kernstadt",
@@ -41,15 +53,19 @@
         ],
         [
           "Genève: CH Agglomerationsgürtel",
-          3134
+          3085
         ],
         [
           "Genève: FR Agglomerationsgürtel",
           1568
         ],
         [
-          "          ",
+          "             ",
           null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          4999
         ],
         [
           "Lausanne: Kernstadt",
@@ -60,8 +76,12 @@
           4886
         ],
         [
-          "            ",
+          "                ",
           null
+        ],
+        [
+          "Zürich: Agglomeration",
+          9443
         ],
         [
           "Zürich: Kernstadt",
@@ -79,12 +99,16 @@
       "color": "#661200",
       "data": [
         [
+          "Basel: Agglomeration",
+          83395
+        ],
+        [
           "Basel: Kernstadt",
           36407
         ],
         [
           "Basel: CH Agglomerationsgürtel",
-          83395
+          46988
         ],
         [
           "Basel: DE Agglomerationsgürtel",
@@ -95,8 +119,12 @@
           7545
         ],
         [
-          "     ",
+          "      ",
           null
+        ],
+        [
+          "Bern: Agglomeration",
+          42431
         ],
         [
           "Bern: Kernstadt",
@@ -107,8 +135,12 @@
           27184
         ],
         [
-          "       ",
+          "         ",
           null
+        ],
+        [
+          "Genève: Agglomeration",
+          52376
         ],
         [
           "Genève: Kernstadt",
@@ -116,15 +148,19 @@
         ],
         [
           "Genève: CH Agglomerationsgürtel",
-          52376
+          42502
         ],
         [
           "Genève: FR Agglomerationsgürtel",
           13405
         ],
         [
-          "          ",
+          "             ",
           null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          36838
         ],
         [
           "Lausanne: Kernstadt",
@@ -135,8 +171,12 @@
           30695
         ],
         [
-          "            ",
+          "                ",
           null
+        ],
+        [
+          "Zürich: Agglomeration",
+          127549
         ],
         [
           "Zürich: Kernstadt",
@@ -154,12 +194,16 @@
       "color": "#8AB77D",
       "data": [
         [
+          "Basel: Agglomeration",
+          278656
+        ],
+        [
           "Basel: Kernstadt",
           148697
         ],
         [
           "Basel: CH Agglomerationsgürtel",
-          278656
+          129959
         ],
         [
           "Basel: DE Agglomerationsgürtel",
@@ -170,8 +214,12 @@
           18475
         ],
         [
-          "     ",
+          "      ",
           null
+        ],
+        [
+          "Bern: Agglomeration",
+          270083
         ],
         [
           "Bern: Kernstadt",
@@ -182,8 +230,12 @@
           97401
         ],
         [
-          "       ",
+          "         ",
           null
+        ],
+        [
+          "Genève: Agglomeration",
+          333943
         ],
         [
           "Genève: Kernstadt",
@@ -191,15 +243,19 @@
         ],
         [
           "Genève: CH Agglomerationsgürtel",
-          333943
+          163766
         ],
         [
           "Genève: FR Agglomerationsgürtel",
           63172
         ],
         [
-          "          ",
+          "             ",
           null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          221020
         ],
         [
           "Lausanne: Kernstadt",
@@ -210,8 +266,12 @@
           108162
         ],
         [
-          "            ",
+          "                ",
           null
+        ],
+        [
+          "Zürich: Agglomeration",
+          815692
         ],
         [
           "Zürich: Kernstadt",
@@ -313,7 +373,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal"
+      "stacking": "percent",
+      "groupPadding": 0.1
     }
   },
   "yAxis": {
@@ -329,7 +390,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
       "style": {
         "color": "#000000",
         "whiteSpace": "nowrap",
@@ -340,7 +401,8 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": false,
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "enabled": true,
