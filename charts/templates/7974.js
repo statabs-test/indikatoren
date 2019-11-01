@@ -137,7 +137,7 @@ plotOptions: {
 },
 legend: {
   useHTML: true,
-  y: -40,
+  y: -50, //40
   layout: "horizontal",
   verticalAlign: "top",
   itemMarginBottom: 0,     
@@ -156,7 +156,7 @@ legend: {
       return this.name.slice(-4);
   }, 
   title: {
-    text: 'Verfügbare Zimmer:<br/>Nettozimmerauslastung (rechte Skala):', 
+    text: ' <br>Verfügbare Zimmer:<br> Nettozimmerauslastung (rechte Skala):</div>', 
     style: {
       fontWeight: 'normal',
       fontSize: '10px'
@@ -176,6 +176,7 @@ chart: {
       width: 661.41732283,
       height: 207.87401575,
       spacingTop: 30,
+      spacingBottom: 6,
       events: {
         load: function(){
           this.credits.element.onclick = function() {};

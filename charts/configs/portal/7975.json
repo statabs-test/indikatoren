@@ -423,7 +423,8 @@
     "title": {
       "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2009:",
       "style": {
-        "fontWeight": "normal"
+        "fontWeight": "normal",
+        "fontSize": "10px"
       }
     },
     "labelFormatter": function(){

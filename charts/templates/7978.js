@@ -34,6 +34,9 @@
         }
       }
     },	
+    chart: {
+      marginRight: 15
+    },
   "tooltip": {
     "shared": false, 
 	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>'

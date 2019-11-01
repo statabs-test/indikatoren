@@ -88,7 +88,7 @@
         },
         xAxis: {
             lineColor: '#B9CFD7',
-            lineWidth: 0.5,
+            //lineWidth: 0.5,
             title: {
                 style: {
                     fontSize: "10px",
@@ -101,7 +101,7 @@
                     fontSize: '10px',
                     color: "#000000",
                     textOverflow: null,
-                    whiteSpace: 'nowrap',
+                    //whiteSpace: 'nowrap',
                 }
             },
             tickLength: 0,

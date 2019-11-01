@@ -30,7 +30,10 @@
      {
        color: 'rgb(105, 146, 155)'
      }
-  	  ],
+      ],
+      chart: {
+        marginRight: 15
+      },
     "legend": {
       "enabled": true,
       //"y": 35,
@@ -46,7 +49,7 @@
       "line": {
         "marker":{
           "enabled": false,
-          "symbol": "circle",
+          "symbol": "circle"
         } 
       }
     }

@@ -52,14 +52,38 @@ global Highcharts
     //"y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 0,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   plotOptions: {
-          "marker":{
+    series: {
+      dataLabels: {
+          enabled: true,
+          formatter: function() {
+          //# Display only Max/Min labels
+           if (this.point.y === this.series.dataMin || this.point.y === this.series.dataMax) {
+           return Highcharts.numberFormat(this.point.y, 2, ",", " ");
+          }
+          /*        
+            var max  = this.series.data[this.series.data.length - 1];
+            var min  = this.series.data[2];
+            if (this.point.x === min.x || this.point.x === max.x) {
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
+            }*/
+            return "";
+          },
+          style: {
+              fontSize: "10px", 
+              color: 'black', 
+              fontWeight: 'normal',
+              textOutline: undefined
+          }
+      }
+  },
+        "marker":{
         "enabled": false,
         "symbol": "circle",
       } 

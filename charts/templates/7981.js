@@ -17,7 +17,7 @@
             stacking: 'normal',
             //lineColor: '#666666',
             lineWidth: 0,
-
+            borderWidth: 0
         }
   },
   "yAxis": {

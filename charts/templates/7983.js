@@ -2,6 +2,29 @@
 	return {
 		chart: {
 			width: 665,
+			events: {
+                load: function () {
+                    var chart = this;
+                    chart.series.forEach(function (series) {
+                        series.points.forEach(function (point) {
+                            var x = 0, y = 0;
+                            switch (point.name) {
+                                //case 'CH': case 'Schweiz':        x = 0; y = 0; break; //ent-kommentieren falls gewünscht
+                                //case 'DE': case 'Deutschland':    x = 0; y = 0; break;
+                                //case 'US': case 'USA':            x = 0; y = 0; break;
+                                //case 'GB': case 'UK':           x = 17; y = 12; break;
+                                //case 'FR': case 'Frankreich': x = 20; y = 0; break;
+                                case 'IT': case 'Italien': x = 20; y = 30; break;
+                                case 'ES': case 'Spanien': x = -20; y = 20; break;
+                                case 'NL': case 'Niederlande': x = -11; y = 22; break;
+                                //case 'CN': case 'VR China':       x = 0; y = 0; break;
+                                case 'IN': case 'Indien': x = 0; y = 3; break;
+                            }
+                            point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
+                        });
+                    });
+                }
+            }
 		},
 		series: [
 			{
@@ -72,13 +95,13 @@
 		},
 		yAxis: {
 			useHTML: true,
-			min: 0,
+			min: -50,
 			tickInterval: 50,
 			labels: {
 				format: '{value}%'
 			},
 			title: {
-				text: 'Veränderung Logiernächte' /*2018 gegenüber Ø 2007<span>-</span>2011*/
+				text: 'Veränderung Logiernächte 2018 gegenüber Ø 2007<span>-</span>2011'
 			}
 		},
 		plotOptions: {
@@ -89,25 +112,32 @@
 					enabled: true
 				},
 				dataLabels: {
+					format: '<span style="font-size: 10px"> {point.name}</span><br/>' + 
+				'{point.z}%',
+				style: {
+					fontSize: "10px", 
+					color: 'black', 
+					fontWeight: 'normal',
+					textOutline: false,
+					},
 					/*formatter: function() {
 					//only return last word
 					return this.name.split(" ").slice(-1);
 					//return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
 					 },*/
-					//	x:-20,
-					y: -5,
+					x: 0,
+					y: -15,
 
 					allowOverlap: true,
 					//padding: 50,
 					//borderRadius:100,
 					//overflow: "none",
 					//crop: false,
-					style: {
+					/*style: {
 						fontSize: '10px',
 						color: 'black',
 						fontWeight: 'normal',
-						textShadow: 'none',
-					}
+					}*/
 				}
 			}
 		}

@@ -172,7 +172,8 @@
     },
     "min": 0,
     "max": 65,
-    "tickAmount": 5,
+    "tickAmount": 6,
+    "tickInterval": 13,
     "reversedStacks": false
   },
   "navigation": {

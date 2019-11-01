@@ -39,7 +39,7 @@
     }
   },
   legend: {
-        reversed: true,
+        reversed: false,
         layout: "horizontal",
         verticalAlign: "top",
         itemMarginBottom: 5,     

@@ -20,10 +20,11 @@ chart: {
               );
             }
             //move legend title
-            var title = this.legend.title;
-            title.translate(-100, 30);
+           /* var title = this.legend.title;
+            title.translate(-128, 25);*/
         }
-    }
+    },
+    marginRight: 15
 },
 xAxis: {
   tickInterval: 1,
@@ -60,46 +61,44 @@ yAxis: {
   {
     color: 'rgb(250, 189, 36)',
   },
-  {
+  /*{
     color: 'rgb(220, 68, 14)',
-    marker:{
-      enabled: true,
-    }
+    dashStyle: "ShortDash",
+    zIndex: -1
   },
   {
     color: 'rgb(68, 141, 43)',
-    marker:{
-      enabled: true,
-    }
+    dashStyle: "ShortDash",
+    zIndex: -1
   },
   {
     color: 'rgb(250, 189, 36)',
-    marker:{
-      enabled: true,
-    }
-  }
+    dashStyle: "ShortDash",
+    zIndex: -1
+  }*/
 ],
 "legend": {
   enabled: true,
   useHTML: true,
-  "y": -20,
+  //"y": -30,
+  //"x": 22,
   "layout": "horizontal",
   "verticalAlign": "top",
-  "itemMarginBottom": 5,
-  "align": "right",
+  "itemMarginBottom": 3,
+  "align": "left",
   "width": 210,
   "itemWidth": 70,    
   itemStyle: {
     "fontWeight": "normal",
     "width": 40
   },
-  "title": {
-    "text": 'Effektiv:<br/>Auf Basis Zimmerzahl 2009:', 
+  /*"title": {
+    "text": ' <br>Effektiv:<br>Auf Basis Zimmerzahl 2009:</div>',
     style: {
       fontWeight: 'normal',
       fontSize: '10px'
     }
-  },
+  },*/
   labelFormatter: function(){
       //remove text before year on each item with odd index
       //return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;

@@ -27,6 +27,17 @@
         80,
         80
       ],
+      "dataLabels": {
+        "enabled": true,
+        "distance": -40,
+        "format": "{point.percentage:.0f}%",
+        "style": {
+          "fontSize": "10px",
+          "fontWeight": "normal",
+          "color": "black",
+          "textOutline": "0px black"
+        }
+      },
       "borderWidth": 2,
       "colors": [
         "#68AB2B",
@@ -58,11 +69,23 @@
       ],
       "showInLegend": true,
       "type": "pie",
+      "size": "100%",
       "innerSize": "70%",
       "center": [
         80,
         80
       ],
+      "dataLabels": {
+        "enabled": true,
+        "distance": -15,
+        "format": "{point.percentage:.0f}%",
+        "style": {
+          "fontSize": "9px",
+          "fontWeight": "normal",
+          "color": "black",
+          "textOutline": "0px black"
+        }
+      },
       "borderWidth": 2,
       "colors": [
         "#68AB2B",
@@ -137,17 +160,6 @@
                         });
                         */
                     }
-        }
-      },
-      "dataLabels": {
-        "enabled": true,
-        "distance": -5,
-        "format": "{point.percentage:.1f}%",
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal",
-          "color": "black",
-          "textOutline": "0px black"
         }
       }
     }

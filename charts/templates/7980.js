@@ -50,11 +50,12 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
-        itemWidth: 180, 
+        itemWidth: 130, 
         itemMarginBottom: 5,
 		    //"y": 35,    
         "itemStyle": {
-          "fontWeight": "normal"
+          "fontWeight": "normal",
+          "fontSize": "9px"
         }
       },
       "chart": {      

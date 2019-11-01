@@ -144,21 +144,36 @@
     }
   },
   legend: {
-    enabled: true,
-    //useHTML: true,
-   y: -25,
+    useHTML: true,
+   y: -50, //-40
     layout: "horizontal",
     verticalAlign: "top",
-    itemMarginTop: 0,
+    //itemMarginTop: 0,
     itemMarginBottom: 0,
-    itemDistance: 5,
-    align: "left",
+    //itemDistance: 5,
+    align: "center",
         itemStyle: {
-        height: 2,
         fontWeight: "normal",
-        fontSize: '9px'
-      //width: 40        
+        fontSize: '10px',
+      width: 40        
     },
+    width: 200,
+    itemWidth: 70,    
+    symbolRadius: 0,
+    labelFormatter: function(){
+        //remove text before year on each item with odd index
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+        return this.name.slice(-4);
+    }, 
+    title: {
+    	text: ' <br>Logiernächte:<br>Marktanteile (rechte Skala):</div>', 
+    	style: {
+        fontWeight: 'normal',
+        fontSize: '10px'
+    	}
+    },
+
+    /*
     //width: 200,
     //itemWidth: 70,    
     symbolRadius: 0,
@@ -167,9 +182,9 @@
     labelFormatter: function(){
         //remove text before year on each item with odd index
        // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
-         if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
+         if(this.index == 0) { return 'Logiernächte: ' + this.name.slice(-4);}
         else if (this.index == 1) {return this.name.slice(-4)}
-        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala): ' + this.name.slice(-4)}
+        else if (this.index == 2) {return 'Marktanteile (rechte Skala): ' + this.name.slice(-4)}
         else if (this.index == 3) {return this.name.slice(-4)}
       //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
         //return this.name.slice(-4);
@@ -194,9 +209,9 @@
         type: 'column',
         width: 661.41732283,
         height: 207.87401575,
-        spacingTop: 35,
+        spacingTop: 30,
         spacingBottom: 6,
-        /*events: {
+        events: {
           load: function(){
             this.credits.element.onclick = function() {};
               
@@ -212,9 +227,9 @@
             }
             //move legend title
             var title = this.legend.title;
-            title.translate(-215, 40);
+            title.translate(-188, 25);
           }
-        }   */           
+        }         
  }
 	};
 }());
