@@ -18,12 +18,17 @@
       labels: {
       format: "{value:,.0f}"
     },
-    reversedStacks: false
+    reversedStacks: false,
+    maxPadding: 0.005,
+    minPadding: 0.005
   },
-  tooltip: {
+  /*tooltip: {
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     shared: false
-  },  
+  },  */
+  tooltip: {
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/> Total: <b>{this.total}</b><br/>'
+ },
   legend: {
     enabled: true,
     layout: "horizontal",

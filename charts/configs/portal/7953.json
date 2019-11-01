@@ -34,7 +34,7 @@
       "data": [
         [
           "Basel",
-          545326
+          374309
         ],
         [
           "Bern",
@@ -42,7 +42,7 @@
         ],
         [
           "Genève",
-          585400
+          386421
         ],
         [
           "Lausanne",
@@ -213,7 +213,9 @@
       "format": "{value:,.0f}"
     },
     "tickAmount": 8,
-    "reversedStacks": false
+    "reversedStacks": false,
+    "maxPadding": 0.005,
+    "minPadding": 0.005
   },
   "navigation": {
     "menuItemStyle": {
@@ -248,8 +250,10 @@
     "itemWidth": 300
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "formatter": function() {
+       return '<b>'+ this.x +'</b><br/>'+
+           'Total: '+ this.total;
+    }
   },
   "exporting": {
     "filename": 7953

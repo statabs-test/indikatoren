@@ -1,6 +1,33 @@
 {
   "series": [
     {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel",
+          79.64
+        ],
+        [
+          "Bern",
+          84.42
+        ],
+        [
+          "Genève",
+          76.08
+        ],
+        [
+          "Lausanne",
+          78.77
+        ],
+        [
+          "Zürich",
+          83.46
+        ]
+      ],
+      "name": "Gesamte Agglomeration",
+      "turboThreshold": 0
+    },
+    {
       "color": "#FFBB58",
       "data": [
         [
@@ -32,7 +59,7 @@
       "data": [
         [
           "Basel",
-          79.64
+          79.79
         ],
         [
           "Bern",
@@ -40,7 +67,7 @@
         ],
         [
           "Genève",
-          76.08
+          75.21
         ],
         [
           "Lausanne",
@@ -208,8 +235,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    }
+      },
+      "format": "{value:,.0f}%"
+    },
+    "maxPadding": 0.005,
+    "minPadding": 0.005
   },
   "navigation": {
     "menuItemStyle": {
@@ -244,7 +274,7 @@
     "itemWidth": 300
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 7965

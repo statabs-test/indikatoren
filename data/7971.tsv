@@ -1,6 +1,6 @@
-﻿"CityDescr"	"Kernstadt"	"CH Agglomerationsgürtel"	"DE Agglomerationsgürtel"	"FR Agglomerationsgürtel"
-Basel	7.706	3.036	4.145	1.605
-Bern	5.664	0.556		
-Genève	10.63	5.522		3.334
-Lausanne	6.689	1.53		
-Zürich	7.932	2.232		
+﻿"CityDescr"	"Gesamte Agglomeration"	"Kernstadt"	"CH Agglomerationsgürtel"	"DE Agglomerationsgürtel"	"FR Agglomerationsgürtel"
+Basel	3.036	7.706	0.9022	4.145	1.605
+Bern	2.191	5.664	0.556		
+Genève	5.522	10.63	2.893		3.334
+Lausanne	3.241	6.689	1.53		
+Zürich	3.927	7.932	2.232		

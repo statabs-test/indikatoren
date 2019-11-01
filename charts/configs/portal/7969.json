@@ -1,27 +1,54 @@
 {
   "series": [
     {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel",
+          0.6713232085
+        ],
+        [
+          "Bern",
+          0.7702100129
+        ],
+        [
+          "Genève",
+          0.6652767339
+        ],
+        [
+          "Lausanne",
+          0.6324820258
+        ],
+        [
+          "Zürich",
+          0.7035343465
+        ]
+      ],
+      "name": "Gesamte Agglomeration",
+      "turboThreshold": 0
+    },
+    {
       "color": "#FFBB58",
       "data": [
         [
           "Basel",
-          108.25005701
+          1.0825005701
         ],
         [
           "Bern",
-          141.40480036
+          1.4140480036
         ],
         [
           "Genève",
-          90.512064087
+          0.9051206409
         ],
         [
           "Lausanne",
-          86.433495392
+          0.8643349539
         ],
         [
           "Zürich",
-          117.28911864
+          1.1728911864
         ]
       ],
       "name": "Kernstadt",
@@ -32,23 +59,23 @@
       "data": [
         [
           "Basel",
-          67.13232085
+          0.4834615251
         ],
         [
           "Bern",
-          46.701265438
+          0.4670126544
         ],
         [
           "Genève",
-          66.527673386
+          0.541774386
         ],
         [
           "Lausanne",
-          51.74594832
+          0.5174594832
         ],
         [
           "Zürich",
-          50.483404073
+          0.5048340407
         ]
       ],
       "name": "CH Agglomerationsgürtel",
@@ -59,7 +86,7 @@
       "data": [
         [
           "Basel",
-          34.785075629
+          0.3478507563
         ],
         [
           "Bern",
@@ -86,7 +113,7 @@
       "data": [
         [
           "Basel",
-          28.126022136
+          0.2812602214
         ],
         [
           "Bern",
@@ -94,7 +121,7 @@
         ],
         [
           "Genève",
-          24.642790695
+          0.2464279069
         ],
         [
           "Lausanne",
@@ -208,8 +235,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    }
+      },
+      "format": "{value:,.1f}"
+    },
+    "maxPadding": 0.005,
+    "minPadding": 0.005
   },
   "navigation": {
     "menuItemStyle": {
@@ -244,7 +274,7 @@
     "itemWidth": 300
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 7969

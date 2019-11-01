@@ -1,27 +1,54 @@
 {
   "series": [
     {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel",
+          0.489
+        ],
+        [
+          "Bern",
+          2.035
+        ],
+        [
+          "Genève",
+          4.473
+        ],
+        [
+          "Lausanne",
+          4.394
+        ],
+        [
+          "Zürich",
+          4.067
+        ]
+      ],
+      "name": "Gesamte Agglomeration",
+      "turboThreshold": 0
+    },
+    {
       "color": "#FFBB58",
       "data": [
         [
           "Basel",
-          77
+          0.45
         ],
         [
           "Bern",
-          413
+          3.104
         ],
         [
           "Genève",
-          1037
+          5.209
         ],
         [
           "Lausanne",
-          736
+          5.345
         ],
         [
           "Zürich",
-          1803
+          4.475
         ]
       ],
       "name": "Kernstadt",
@@ -32,23 +59,23 @@
       "data": [
         [
           "Basel",
-          267
+          0.507
         ],
         [
           "Bern",
-          433
+          1.531
         ],
         [
           "Genève",
-          2618
+          4.093
         ],
         [
           "Lausanne",
-          1090
+          3.923
         ],
         [
           "Zürich",
-          3709
+          3.903
         ]
       ],
       "name": "CH Agglomerationsgürtel",
@@ -59,7 +86,7 @@
       "data": [
         [
           "Basel",
-          -231
+          -1.097
         ],
         [
           "Bern",
@@ -86,7 +113,7 @@
       "data": [
         [
           "Basel",
-          163
+          1.72
         ],
         [
           "Bern",
@@ -94,7 +121,7 @@
         ],
         [
           "Genève",
-          2432
+          7.67
         ],
         [
           "Lausanne",
@@ -209,7 +236,9 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "maxPadding": 0.005,
+    "minPadding": 0.005
   },
   "navigation": {
     "menuItemStyle": {
@@ -244,7 +273,7 @@
     "itemWidth": 300
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 7959
