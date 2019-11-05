@@ -146,7 +146,8 @@
         "align": "right",
         "useHTML": true,
         "itemStyle": {
-        	fontSize: "10px",
+            "color": "#000000",
+            fontSize: "10px",
         	fontFamily: "Arial",
             fontWeight: "normal",
         },
