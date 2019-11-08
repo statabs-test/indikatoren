@@ -89,9 +89,9 @@
 			labels: {
 				format: '{value}%'
 			},
-			title: {
+			/*title: {
 				text: 'Anteile am Übernachtungsvolumen 2018'
-			}
+			}*/
 		},
 		yAxis: {
 			useHTML: true,
@@ -108,23 +108,27 @@
 			series: {
 			},
 			bubble: {
+				sizeBy: 'area',
+                maxSize: '30%',
+                minSize: '8',
 				label: {
 					enabled: true
 				},
 				dataLabels: {
 					format: '<span style="font-size: 10px"> {point.name}</span><br/>' + 
-				'{point.z}%',
+				'{point.z:,.1f}%',
+				formatter: function() {
+					//only return last word
+					return this.key.replace("Nieder", "Nieder-<br>"); //Umbruch, falls gewünscht;
+					//return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
+					/*return Highcharts.numberFormat((this.point.z,.1f)%,*/					
+					 },
 				style: {
 					fontSize: "10px", 
 					color: 'black', 
 					fontWeight: 'normal',
 					textOutline: false,
 					},
-					/*formatter: function() {
-					//only return last word
-					return this.name.split(" ").slice(-1);
-					//return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
-					 },*/
 					x: 0,
 					y: -15,
 

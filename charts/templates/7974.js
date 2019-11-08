@@ -8,7 +8,7 @@
       {
           color: "rgb(255, 218, 128)",
           dataLabels: {
-          enabled: true,
+          enabled: false,
           y: 20,
           style: {
               inside: true,
@@ -22,7 +22,7 @@
       {
           color: "rgb(186, 168, 90)",
            dataLabels: {
-          enabled: true,
+          enabled: false,
           y: 20,
           style: {
               inside: true,

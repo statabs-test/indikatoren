@@ -61,7 +61,7 @@ global Highcharts
   plotOptions: {
     series: {
       dataLabels: {
-          enabled: true,
+          enabled: false,
           formatter: function() {
           //# Display only Max/Min labels
            if (this.point.y === this.series.dataMin || this.point.y === this.series.dataMax) {

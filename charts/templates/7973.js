@@ -12,7 +12,7 @@
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 8
+                radius: 6
             },
             tooltip: {
               headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',

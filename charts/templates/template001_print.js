@@ -122,13 +122,15 @@
         symbolRadius: 0,
         itemMarginBottom: 2,
         itemStyle:{
-            fontSize: "10px"
+            fontSize: "10px",
+            "color": "#000000"
         }
     },
     dataLabels: {
             enabled: false,
             style: {
                 fontSize: '10px',
+                "color": "#000000"
             }
         }
 	};

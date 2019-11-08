@@ -28,7 +28,7 @@
     series: {
         stacking: 'normal', 
         dataLabels: {
-            enabled: true,
+            enabled: false,
             style: {
                 fontSize: "10px", 
                 color: 'black', 
