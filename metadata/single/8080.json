@@ -27,7 +27,7 @@
 "renderLink":[],
 "quellenangabe":["Grundbuch- und Vermessungsamt Basel-Stadt"],
 "datenInChartIntegriert":false,
-"externalLinks":[""],
+"externalLinks":["Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/0JGP' target = '_blank'>kantonalen Geoportal</a>"],
 "data-id":8080, 
 "chart-id":8080, 
 "filter":""

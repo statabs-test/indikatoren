@@ -14,7 +14,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"<bitte Kommentar erfassen>",
+"lesehilfe":"Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 1 490 Personen 51,4% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30&nbsp;µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck waren es 590 Personen (8,1%).",
 "erlaeuterungen":"Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30&nbsp;µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 "template":"mappie001",
 "darstellungsart":"Karte kategoriell",
@@ -27,8 +27,8 @@
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Lufthygieneamt beider Basel"],
 "datenInChartIntegriert":false,
-"externalLinks":[""],
-"data-id":8089, 
-"chart-id":8089, 
+"externalLinks":["Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel","Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"],
+"data-id":7708, 
+"chart-id":7708, 
 "filter":""
 }

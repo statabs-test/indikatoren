@@ -21,5 +21,6 @@ var indikatorensetNames = [
 	"Monatsindikatoren",
 	"Testset",
 	"Bevoelkerungsszenarien",
+	"Stadtteilmonitoring Klybeck-Kleinhüningen",
 	"Test"
 ];

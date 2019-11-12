@@ -16,17 +16,19 @@
       tickInterval: 1,
       labels: {
         step: 1,
-        rotation: -90
+        rotation: -90,
+        formatter: function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }    
       }
     },
     yAxis: {
-      //max: 120000,
       //tickInterval: 60000,
       tickAmount: 7,
       labels: {
         format: "{value:,.0f}",
       },
-      max: 60000
+      max: 300000
     },
     legend: {
       enabled: true,
