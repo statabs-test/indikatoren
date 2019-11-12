@@ -1,4 +1,4 @@
-﻿{"title":"Sauberkeitsindex",
+{"title":"Sauberkeitsindex",
 "subtitle":"Basel-Stadt",
 "kuerzel":"I.02.6.08084",
 "kuerzelKunde":"8.06",
@@ -29,6 +29,6 @@
 "datenInChartIntegriert":false,
 "externalLinks":[""],
 "data-id":8084, 
-"chart-id":8084, 
+"chart-id":7703, 
 "filter":""
 }

@@ -19,6 +19,7 @@ var indikatorensetNames = [
 	"Steuern",
 	"Arbeitsmarkt (Print)",
 	"Monatsindikatoren",
+	"Stadtteilmonitoring Rosental",
 	"Testset",
 	"Bevoelkerungsszenarien",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen",
