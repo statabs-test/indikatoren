@@ -28,13 +28,18 @@
         borderWidth: 0,
       }
     },
-
     yAxis: {
       labels: {
-      },
-    maxPadding: 0.005,
-    minPadding: 0.005
+      }
+    //maxPadding: 0.005,
+    //minPadding: 0.005,
     },
+    xAxis: {
+      labels: {
+        rotation: -45
+      }
+    },
+  
     series: [
       { color: "#E7CEE2" },
       { color: "#2E1435" }

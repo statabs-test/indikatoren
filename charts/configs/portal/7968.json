@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#689199",
+      "color": "#923F8D",
       "data": [
         [
           "Basel: Agglomeration",
@@ -12,15 +12,15 @@
           22
         ],
         [
-          "Basel: CH Agglomerationsgürtel",
+          "Basel: Übrige Agglomerationsgemeinden Schweiz",
           4017
         ],
         [
-          "Basel: DE Agglomerationsgürtel",
+          "Basel: Agglomerationsgemeinden Deutschland",
           496
         ],
         [
-          "Basel: FR Agglomerationsgürtel",
+          "Basel: Agglomerationsgemeinden Frankreich",
           636.7
         ],
         [
@@ -36,7 +36,7 @@
           302
         ],
         [
-          "Bern: CH Agglomerationsgürtel",
+          "Bern: Übrige Agglomerationsgemeinden Schweiz",
           7425
         ],
         [
@@ -52,11 +52,11 @@
           49
         ],
         [
-          "Genève: CH Agglomerationsgürtel",
+          "Genève: Übrige Agglomerationsgemeinden Schweiz",
           3085
         ],
         [
-          "Genève: FR Agglomerationsgürtel",
+          "Genève: Agglomerationsgemeinden Frankreich",
           1568
         ],
         [
@@ -72,7 +72,7 @@
           113
         ],
         [
-          "Lausanne: CH Agglomerationsgürtel",
+          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
           4886
         ],
         [
@@ -88,7 +88,7 @@
           236
         ],
         [
-          "Zürich: CH Agglomerationsgürtel",
+          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
           9207
         ]
       ],
@@ -96,7 +96,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#661200",
+      "color": "#FF8028",
       "data": [
         [
           "Basel: Agglomeration",
@@ -107,15 +107,15 @@
           36407
         ],
         [
-          "Basel: CH Agglomerationsgürtel",
+          "Basel: Übrige Agglomerationsgemeinden Schweiz",
           46988
         ],
         [
-          "Basel: DE Agglomerationsgürtel",
+          "Basel: Agglomerationsgemeinden Deutschland",
           26931
         ],
         [
-          "Basel: FR Agglomerationsgürtel",
+          "Basel: Agglomerationsgemeinden Frankreich",
           7545
         ],
         [
@@ -131,7 +131,7 @@
           15247
         ],
         [
-          "Bern: CH Agglomerationsgürtel",
+          "Bern: Übrige Agglomerationsgemeinden Schweiz",
           27184
         ],
         [
@@ -147,11 +147,11 @@
           9874
         ],
         [
-          "Genève: CH Agglomerationsgürtel",
+          "Genève: Übrige Agglomerationsgemeinden Schweiz",
           42502
         ],
         [
-          "Genève: FR Agglomerationsgürtel",
+          "Genève: Agglomerationsgemeinden Frankreich",
           13405
         ],
         [
@@ -167,7 +167,7 @@
           6143
         ],
         [
-          "Lausanne: CH Agglomerationsgürtel",
+          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
           30695
         ],
         [
@@ -183,7 +183,7 @@
           28748
         ],
         [
-          "Zürich: CH Agglomerationsgürtel",
+          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
           98801
         ]
       ],
@@ -191,7 +191,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#8AB77D",
+      "color": "#73B97C",
       "data": [
         [
           "Basel: Agglomeration",
@@ -202,15 +202,15 @@
           148697
         ],
         [
-          "Basel: CH Agglomerationsgürtel",
+          "Basel: Übrige Agglomerationsgemeinden Schweiz",
           129959
         ],
         [
-          "Basel: DE Agglomerationsgürtel",
+          "Basel: Agglomerationsgemeinden Deutschland",
           46141
         ],
         [
-          "Basel: FR Agglomerationsgürtel",
+          "Basel: Agglomerationsgemeinden Frankreich",
           18475
         ],
         [
@@ -226,7 +226,7 @@
           172682
         ],
         [
-          "Bern: CH Agglomerationsgürtel",
+          "Bern: Übrige Agglomerationsgemeinden Schweiz",
           97401
         ],
         [
@@ -242,11 +242,11 @@
           170177
         ],
         [
-          "Genève: CH Agglomerationsgürtel",
+          "Genève: Übrige Agglomerationsgemeinden Schweiz",
           163766
         ],
         [
-          "Genève: FR Agglomerationsgürtel",
+          "Genève: Agglomerationsgemeinden Frankreich",
           63172
         ],
         [
@@ -262,7 +262,7 @@
           112858
         ],
         [
-          "Lausanne: CH Agglomerationsgürtel",
+          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
           108162
         ],
         [
@@ -278,7 +278,7 @@
           443412
         ],
         [
-          "Zürich: CH Agglomerationsgürtel",
+          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
           372280
         ]
       ],
@@ -340,7 +340,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-7968",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -349,7 +349,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigte"
+    "text": "Beschäftigte nach Wirtschaftssektor"
   },
   "subtitle": {
     "style": {
@@ -357,7 +357,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Total und nach Sektor"
+    "text": "2017"
   },
   "navigation": {
     "menuItemStyle": {
@@ -415,9 +415,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
   },
   "legend": {
     "layout": "horizontal",

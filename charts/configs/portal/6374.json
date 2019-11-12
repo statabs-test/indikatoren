@@ -6927,7 +6927,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value/1000),0); 
 				}
     },
     "marker": {

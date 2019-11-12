@@ -13,10 +13,10 @@
     },   
     series: [
         {
-        color: "#689199"
+        color: "#923F8D"
         },
         {
-        color: "#661200"
+        color: "#FF8028"
         }      
     ],        
     legend: {
@@ -33,7 +33,7 @@
     },      
     chart:
     {
-        height: 450,
+        height: 500,
         inverted: true
     },
     plotOptions: {

@@ -1089,7 +1089,7 @@ id | visible | visibleInPortal | indikatorenset
 7953 | true | true | City-Statistics
 7954 | true | true | City-Statistics
 7955 | true | true | City-Statistics
-7956 | true | true | City-Statistics
+7956 | false |  | City-Statistics
 7957 | true | true | City-Statistics
 7958 | true | true | City-Statistics
 7959 | true | true | City-Statistics
@@ -1105,6 +1105,7 @@ id | visible | visibleInPortal | indikatorenset
 7969 | true | true | City-Statistics
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
+7993 | true | true | City-Statistics
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

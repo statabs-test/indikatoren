@@ -12,19 +12,15 @@
           11.24
         ],
         [
-          "CH Agglomerationsgürtel",
+          "Übrige Agglomerationsgemeinden Schweiz",
           9.051
         ],
         [
-          "DE Agglomerationsgürtel",
+          "Agglomerationsgemeinden Deutschland",
           9.513
         ],
         [
-          "DE Agglomerationsgürtel",
-          9.513
-        ],
-        [
-          "FR Agglomerationsgürtel",
+          "Agglomerationsgemeinden Frankreich",
           9.401
         ]
       ],
@@ -43,19 +39,15 @@
           10.79
         ],
         [
-          "CH Agglomerationsgürtel",
+          "Übrige Agglomerationsgemeinden Schweiz",
           8.544
         ],
         [
-          "DE Agglomerationsgürtel",
+          "Agglomerationsgemeinden Deutschland",
           10.61
         ],
         [
-          "DE Agglomerationsgürtel",
-          10.61
-        ],
-        [
-          "FR Agglomerationsgürtel",
+          "Agglomerationsgemeinden Frankreich",
           7.681
         ]
       ],
@@ -76,7 +68,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -116,7 +109,7 @@
     "animation": false,
     "inverted": false,
     "renderTo": "container-7960",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -136,7 +129,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Rohe Geburten- und Sterberate "
+    "text": "Rohe Geburten- und Sterberate"
   },
   "subtitle": {
     "style": {
@@ -145,7 +138,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Fälle pro 1000 Einwohner",
+    "text": "Fälle pro 1000 Einwohner, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -163,9 +156,7 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -184,9 +175,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
   },
   "legend": {
     "symbolRadius": 0,

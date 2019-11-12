@@ -26384,7 +26384,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26395,11 +26397,11 @@ var indikatoren = [
 		"id": 7952
 	},
 	{
-		"title": "Bevölkerung",
-		"subtitle": "Trinationale Agglomeration Basel",
+		"title": "Gesamtbevölkerung",
+		"subtitle": "2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
-		"description": "Bevölkerung",
+		"description": "Gesamtbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "City-Statistics",
@@ -26422,7 +26424,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26434,7 +26438,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungsdichte nach Gemeinde",
-		"subtitle": "Trinationale Agglomeration Basel",
+		"subtitle": "Trinationale Agglomeration Basel, 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsdichte nach Gemeinde",
@@ -26452,7 +26456,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "mappie002",
+		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -26460,7 +26464,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26472,12 +26478,12 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "",
-		"kuerzel": "",
+		"subtitle": "2017",
+		"kuerzel": "I.01.1.07955",
 		"kuerzelKunde": "",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
@@ -26498,7 +26504,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26509,51 +26517,13 @@ var indikatoren = [
 		"id": 7955
 	},
 	{
-		"title": "Jugendquotient",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "City-Statistics",
-		"raeumlicheGliederung": [
-			"Agglomeration"
-		],
-		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7956,
-		"chart-id": 7956,
-		"filter": "",
-		"id": 7956
-	},
-	{
 		"title": "Altersquotient",
-		"subtitle": "",
-		"kuerzel": "",
+		"subtitle": "2017",
+		"kuerzel": "I.01.1.07957",
 		"kuerzelKunde": "",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
@@ -26574,7 +26544,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26586,7 +26558,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländeranteil in der Bevölkerung",
-		"subtitle": "",
+		"subtitle": "2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Ausländeranteil in der Bevölkerung",
@@ -26612,7 +26584,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26624,7 +26598,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geburten und Sterbefälle",
-		"subtitle": "Saldo (pro 1000 Einwohner)",
+		"subtitle": "Saldo (pro 1000 Einwohner), 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Geburten und Sterbefälle",
@@ -26650,7 +26624,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26662,12 +26638,12 @@ var indikatoren = [
 	},
 	{
 		"title": "Rohe Geburten- und Sterberate",
-		"subtitle": "Fälle pro 1000 Einwohner",
-		"kuerzel": "",
+		"subtitle": "Fälle pro 1000 Einwohner, 2017",
+		"kuerzel": "I.01.3.07960",
 		"kuerzelKunde": "",
 		"description": "Rohe Geburten- und Sterberate",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
@@ -26688,7 +26664,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26699,11 +26677,11 @@ var indikatoren = [
 		"id": 7960
 	},
 	{
-		"title": "Anteil der Privathaushalte mit Kindern",
-		"subtitle": "unter 18",
+		"title": "Anteil der Privathaushalte mit minderjährigen Kindern",
+		"subtitle": "2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
-		"description": "Anteil der Privathaushalte mit Kindern",
+		"description": "Anteil der Privathaushalte mit minderjährigen Kindern",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "City-Statistics",
@@ -26726,7 +26704,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26738,7 +26718,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil der privaten Einelternhaushalte",
-		"subtitle": "mit Kindern unter 18",
+		"subtitle": "mit Kindern unter 18, 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Anteil der privaten Einelternhaushalte",
@@ -26764,7 +26744,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26776,7 +26758,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bildungsniveau der Bevölkerung",
-		"subtitle": "nach höchster abgeschlossener Ausbildung",
+		"subtitle": "nach höchster abgeschlossener Ausbildung, 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Bildungsniveau der Bevölkerung",
@@ -26802,7 +26784,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26840,7 +26824,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26878,7 +26864,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26916,7 +26904,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26954,7 +26944,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -26965,11 +26957,11 @@ var indikatoren = [
 		"id": 7967
 	},
 	{
-		"title": "Beschäftigte",
-		"subtitle": "Total und nach Sektor",
+		"title": "Beschäftigte nach Wirtschaftssektor",
+		"subtitle": "2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
-		"description": "Beschäftigte",
+		"description": "Beschäftigte nach Wirtschaftssektor",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
 		"kennzahlenset": "City-Statistics",
@@ -26992,7 +26984,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -27030,7 +27024,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -27068,7 +27064,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -27106,7 +27104,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -27115,5 +27115,45 @@ var indikatoren = [
 		"chart-id": 7971,
 		"filter": "",
 		"id": 7971
+	},
+	{
+		"title": "Beschäftigte",
+		"subtitle": "2017",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Beschäftigte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kennzahlenset": "City-Statistics",
+		"raeumlicheGliederung": [
+			"Agglomeration"
+		],
+		"aktualisierungsdatum": "2019-10-28T16:23:44.4444",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7993,
+		"chart-id": 7993,
+		"filter": "",
+		"id": 7993
 	}
 ];

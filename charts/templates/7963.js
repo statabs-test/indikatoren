@@ -13,13 +13,13 @@
     },   
     series: [
         {
-        color: "#689199"
+        color: "#923F8D"
         },
         {
-        color: "#661200"
+        color: "#FF8028"
         },
         {
-        color: "#8AB77D"
+        color: "#73B97C"
         },      
     ],        
     legend: {

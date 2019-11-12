@@ -78,7 +78,7 @@
           573.6
         ]
       ],
-      "name": "CH Agglomerationsgürtel",
+      "name": "Übrige Agglomerationsgemeinden Schweiz",
       "turboThreshold": 0
     },
     {
@@ -105,7 +105,7 @@
           null
         ]
       ],
-      "name": "DE Agglomerationsgürtel",
+      "name": "Agglomerationsgemeinden Deutschland",
       "turboThreshold": 0
     },
     {
@@ -132,7 +132,7 @@
           null
         ]
       ],
-      "name": "FR Agglomerationsgürtel",
+      "name": "Agglomerationsgemeinden Frankreich",
       "turboThreshold": 0
     }
   ],
@@ -189,7 +189,7 @@
     "animation": false,
     "inverted": false,
     "renderTo": "container-7970",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -258,9 +258,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
   },
   "legend": {
     "symbolRadius": 0,
