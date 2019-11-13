@@ -130,7 +130,8 @@
             itemMarginBottom: 2,
         	itemStyle: {
                 fontWeight: "normal", 
-                fontSize: '10px'
+                fontSize: '10px',
+                color: "#000000"
             }
         },
         tooltip: {
