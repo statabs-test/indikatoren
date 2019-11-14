@@ -51,7 +51,7 @@
 			{
 				"name": "Wohnviertel", 
 				"animation": true,
-				"mapData": geojson_Trinational_Gemeinden2, // geojson_wohnviertelEPSG2056,
+				"mapData": geojson_Trinational_Gemeinden, // geojson_wohnviertelEPSG2056,
 				"borderColor": "#fbfbfb",		
 				"joinBy": ['TXT', 'TXT'],
 				"keys": ['TXT', 'value'],
