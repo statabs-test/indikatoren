@@ -1,4 +1,4 @@
-{"title":"Steuereinnahmen aus Quellensteuer",
+﻿{"title":"Steuereinnahmen aus Quellensteuer",
 "subtitle":"in Franken, Basel-Stadt",
 "kuerzel":"I.18.2.6128",
 "kuerzelKunde":"1.4",
@@ -26,5 +26,9 @@
 "children":["6285"],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6128, 
+"chart-id":6128, 
+"filter":""
 }

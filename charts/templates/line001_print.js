@@ -58,14 +58,14 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": 10,
+        fontSize: '10px',
       },
       "text": ''
     },
     "labels": {
       y: 3,
       "style": {
-      	"fontSize": 10,
+      	fontSize: '10px',
         "color": "#000000"
       }
     }
@@ -88,7 +88,7 @@
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": '10px',
+      fontSize: '10px',
       "cursor": "default"
     },
     "position": {
