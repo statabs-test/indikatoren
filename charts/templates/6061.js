@@ -27,7 +27,7 @@
            '#007A2F',
 
         ],
-		/*dataLabels: {
+/*		dataLabels: {
 		                enabled: true,
 		                format: '{point.percentage:.1f}',
 		                distance: 10,

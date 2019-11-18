@@ -140,6 +140,8 @@
         customFunctions: {
             createSymmetricAxis: function (axis) {
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                console.log(axis);
+                if (axis.userOptions.max) absMax = axis.userOptions.max; //if max is explicitly defined, use this
                 axis.setExtremes(-absMax, absMax);
             }
         }

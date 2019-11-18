@@ -53,7 +53,7 @@
             //create symmetric xAxis
             events: {
                 afterSetExtremes: function (args) {
-                    this.chart.options.customFunctions.createSymmetricAxis(this);
+                   // this.chart.options.customFunctions.createSymmetricAxis(this);
                 },
             }
         }],
@@ -92,12 +92,7 @@
                 color: "#dc440e", //Frauen
                 //borderWidth: 0,
                 //pointWidth: 15
-            },
-            /*{
-             color: "#000000", //schwarz
-             //borderWidth: 0,
-             //pointWidth: 15
-           }*/
+            }
         ],
         "legend": {
             "enabled": true,

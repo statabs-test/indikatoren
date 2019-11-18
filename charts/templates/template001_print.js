@@ -6,6 +6,7 @@
             "width": 320,
             "height": 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */
+            marginRight: 10,
             "style": {
                 "fontFamily": "Arial"
             },
