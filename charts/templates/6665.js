@@ -1,7 +1,13 @@
 (function () {
   return {
+    chart: {
+      marginRight: 10
+    },
     "xAxis": {
       tickInterval: 1,
+      labels: {
+        rotation: 0
+      }
     },
     "yAxis": {
       tickAmount: 5,

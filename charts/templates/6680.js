@@ -2,7 +2,7 @@
   return {
     chart: {
       inverted: true,
-      marginRight: 10
+      marginRight: 15
     },
     legend: {
       layout: "horizontal",
@@ -14,7 +14,7 @@
     xAxis: {
       labels: {
         formatter: function () {
-          return this.value.replace(" ", "<br/>");
+          return this.value.replace("Eingebürgerte","Eingebürgerte<br/>").replace("innen seit","innen<br>seit ");
         }
       }
     },

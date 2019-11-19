@@ -14,7 +14,7 @@
     xAxis: {
       labels: {
         formatter: function () {
-          return this.value.replace(" ", "<br/>");
+          return this.value.replace("Eingebürgerte","Eingebürgerte<br/>").replace("innen seit","innen<br>seit ");
         }
       }
     },

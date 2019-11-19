@@ -1,6 +1,13 @@
 
 (function () {
   return {
+    "chart": {
+      "type": "column",
+      "inverted": true,
+      marginRight: 15,
+      marginLeft: 117
+      //spacing: [15,3,8,3] /*top, right, bottom and left */	
+    },
     "plotOptions": {
       "column": {
         "colorByPoint": true
@@ -43,11 +50,6 @@
     "legend": {
       "enabled": false
     },
-    "chart": {
-      "type": "column",
-      "inverted": true,
-      //spacing: [15,3,8,3] /*top, right, bottom and left */	
-    }
   }
 }());
 

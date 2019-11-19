@@ -2,7 +2,7 @@
   return {
     chart: {
       inverted: true,
-      marginRight: 10
+      marginRight: 15
     },
     legend: {
       layout: "horizontal",
