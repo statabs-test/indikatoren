@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel",
-          0.6713232085
+          0.5475777246
         ],
         [
           "Bern",
@@ -13,7 +13,7 @@
         ],
         [
           "Genève",
-          0.6652767339
+          0.5181078125
         ],
         [
           "Lausanne",
@@ -218,7 +218,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Beschäftigte pro Einwohner",
+    "text": "Beschäftigte pro Einwohner, 2017",
     "align": "left"
   },
   "yAxis": {

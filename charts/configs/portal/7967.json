@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel",
-          78.85
+          78.71
         ],
         [
           "Bern",
@@ -13,7 +13,7 @@
         ],
         [
           "Genève",
-          72.92
+          74.09
         ],
         [
           "Lausanne",
@@ -218,7 +218,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "2017",
     "align": "left"
   },
   "yAxis": {

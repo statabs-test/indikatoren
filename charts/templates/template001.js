@@ -3,7 +3,7 @@
 var justifyColumns = function (chart) {
   var categoriesNum = (1 + chart.xAxis[0].max - chart.xAxis[0].min),
     categoriesWidth = chart.plotSizeX / categoriesNum,
-    distanceBetweenColumns = 0,
+    //distanceBetweenColumns = 0,
     each = Highcharts.each,
     sum, categories = chart.xAxis[0].names,
     number;

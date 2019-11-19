@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel",
-          30.41
+          31.91
         ],
         [
           "Bern",
@@ -13,7 +13,7 @@
         ],
         [
           "Genève",
-          34.86
+          37.72
         ],
         [
           "Lausanne",
@@ -177,8 +177,8 @@
                   x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
                 }
               }
-            );
-          }
+            )
+          };
           justifyColumns(event.target);
         },
       "redraw": function (event) {

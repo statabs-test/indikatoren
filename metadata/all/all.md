@@ -1106,6 +1106,27 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8095 | true | false | City-Statistics (Print)
+8096 | true | false | City-Statistics (Print)
+8097 | true | false | City-Statistics (Print)
+8098 | true | false | City-Statistics (Print)
+8099 | false |  | City-Statistics (Print)
+8100 | true | false | City-Statistics (Print)
+8101 | true | false | City-Statistics (Print)
+8102 | true | false | City-Statistics (Print)
+8103 | true | false | City-Statistics (Print)
+8104 | true | false | City-Statistics (Print)
+8105 | true | false | City-Statistics (Print)
+8106 | true | false | City-Statistics (Print)
+8107 | true | false | City-Statistics (Print)
+8108 | true | false | City-Statistics (Print)
+8109 | true | false | City-Statistics (Print)
+8110 | true | false | City-Statistics (Print)
+8111 | true | false | City-Statistics (Print)
+8112 | true | false | City-Statistics (Print)
+8113 | true | false | City-Statistics (Print)
+8114 | true | false | City-Statistics (Print)
+8115 | true | false | City-Statistics (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

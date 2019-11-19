@@ -2,17 +2,17 @@ var indikatorensetData = [
 	{
 		"title": "Perimeter der trinationalen Agglomeration Basel",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.02.1.07952",
+		"kuerzelKunde": "1.1",
 		"description": "Perimeter der trinationalen Agglomeration Basel",
-		"thema": "50 Befragungen",
-		"unterthema": "",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Einführung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -22,9 +22,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8095"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -41,17 +43,17 @@ var indikatorensetData = [
 	{
 		"title": "Gesamtbevölkerung",
 		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.01.1.07953",
+		"kuerzelKunde": "2.1",
 		"description": "Gesamtbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -61,9 +63,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8096"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -80,17 +84,17 @@ var indikatorensetData = [
 	{
 		"title": "Bevölkerungsdichte nach Gemeinde",
 		"subtitle": "Trinationale Agglomeration Basel, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.01.1.07954",
+		"kuerzelKunde": "2.2",
 		"description": "Bevölkerungsdichte nach Gemeinde",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -100,9 +104,11 @@ var indikatorensetData = [
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8097"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -120,7 +126,7 @@ var indikatorensetData = [
 		"title": "Jugendquotient",
 		"subtitle": "2017",
 		"kuerzel": "I.01.1.07955",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2.3",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -129,7 +135,7 @@ var indikatorensetData = [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -139,9 +145,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8098"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -159,7 +167,7 @@ var indikatorensetData = [
 		"title": "Altersquotient",
 		"subtitle": "2017",
 		"kuerzel": "I.01.1.07957",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2.4",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -168,7 +176,7 @@ var indikatorensetData = [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -178,9 +186,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8100"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -197,17 +207,17 @@ var indikatorensetData = [
 	{
 		"title": "Ausländeranteil in der Bevölkerung",
 		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.01.1.07958",
+		"kuerzelKunde": "2.5",
 		"description": "Ausländeranteil in der Bevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -217,9 +227,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8101"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -236,17 +248,17 @@ var indikatorensetData = [
 	{
 		"title": "Geburten und Sterbefälle",
 		"subtitle": "Saldo (pro 1000 Einwohner), 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.01.3.07959",
+		"kuerzelKunde": "2.6",
 		"description": "Geburten und Sterbefälle",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -256,9 +268,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8102"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -276,7 +290,7 @@ var indikatorensetData = [
 		"title": "Rohe Geburten- und Sterberate",
 		"subtitle": "Fälle pro 1000 Einwohner, 2017",
 		"kuerzel": "I.01.3.07960",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2.7",
 		"description": "Rohe Geburten- und Sterberate",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
@@ -285,7 +299,7 @@ var indikatorensetData = [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Bevölkerungstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -295,9 +309,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8103"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -314,17 +330,17 @@ var indikatorensetData = [
 	{
 		"title": "Anteil der Privathaushalte mit minderjährigen Kindern",
 		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.01.2.07961",
+		"kuerzelKunde": "3.1",
 		"description": "Anteil der Privathaushalte mit minderjährigen Kindern",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Haushalte",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Familienhaushalte und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -334,9 +350,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8104"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -353,17 +371,17 @@ var indikatorensetData = [
 	{
 		"title": "Anteil der privaten Einelternhaushalte",
 		"subtitle": "mit Kindern unter 18, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.01.2.07962",
+		"kuerzelKunde": "3.2",
 		"description": "Anteil der privaten Einelternhaushalte",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Haushalte",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Familienhaushalte und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -373,9 +391,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8105"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -392,29 +412,31 @@ var indikatorensetData = [
 	{
 		"title": "Bildungsniveau der Bevölkerung",
 		"subtitle": "nach höchster abgeschlossener Ausbildung, 2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.15.6.07963",
+		"kuerzelKunde": "3.3",
 		"description": "Bildungsniveau der Bevölkerung",
 		"thema": "15 Bildung",
-		"unterthema": "",
+		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Familienhaushalte und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Bevölkerung zwischen 25 und 64 Jahren weist in der Agglomeration Basel 2017 den höchsten Anteil an Sekundarstufe II als höchste abgeschlossene Ausbildung (46,4%). Am höchsten ist der Anteil der Sekundarstufe II  in den Agglomerationsgemeinden in Deutschland (53,9%) und in Frankreich (49,4%). Der Anteil der Bevölkerung in der Agglomeration Basel mit Tertiärer Ausbildung ist hingegen tiefer als in den Vergleichsagglomerationen (38,0%). Allerdings ist die Tertiäre Ausbildung in der Kernstadt Basel mit 50,7% fast so hoch wie in den anderen Kernstädten.",
+		"erlaeuterungen": "Bevölkerung (25-64-jährig) ohne nachobligatorische Ausbildung (ISCED 1-2), mit Sekundarstufe II (ISCED 3-4) oder mit Tertiärer Ausbildung (ISCED 5-8) als höchstem Bildungsabschluss. Agglomerationen gemäss Typologie 'Raum mit städtischem Charakter' 2012 des BFS. Basel und Genf sind grenzüberschreitend.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8106"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -430,18 +452,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbspersonen",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "2017",
+		"kuerzel": "I.03.1.07964",
+		"kuerzelKunde": "4.1",
 		"description": "Erwerbspersonen",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -451,9 +473,11 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8107"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -469,18 +493,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettoerwerbsquote der 15-64-Jährigen",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "2017",
+		"kuerzel": "I.03.1.07965",
+		"kuerzelKunde": "4.2",
 		"description": "Nettoerwerbsquote der 15-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -490,9 +514,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8108"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -508,18 +534,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätige im Alter von 20-64 Jahren",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "2017",
+		"kuerzel": "I.03.1.07966",
+		"kuerzelKunde": "4.3",
 		"description": "Erwerbstätige im Alter von 20-64 Jahren",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -529,9 +555,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8109"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -547,18 +575,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote der 20-64-Jährigen",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "2017",
+		"kuerzel": "I.03.1.07967",
+		"kuerzelKunde": "4.4",
 		"description": "Erwerbstätigenquote der 20-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -568,9 +596,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8110"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -587,17 +617,17 @@ var indikatorensetData = [
 	{
 		"title": "Beschäftigte nach Wirtschaftssektor",
 		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.03.1.07968",
+		"kuerzelKunde": "4.6",
 		"description": "Beschäftigte nach Wirtschaftssektor",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -607,9 +637,11 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8111"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -625,18 +657,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "Beschäftigte pro Einwohner",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "Beschäftigte pro Einwohner, 2017",
+		"kuerzel": "I.03.2.07969",
+		"kuerzelKunde": "4.7",
 		"description": "Beschäftigtendichte",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -646,9 +678,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8112"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -664,18 +698,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Personenwagen",
-		"subtitle": "pro 1000 Einwohner",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "pro 1000 Einwohner, 2017",
+		"kuerzel": "I.11.1.07970",
+		"kuerzelKunde": "5.1",
 		"description": "Personenwagen",
 		"thema": "11 Verkehr",
-		"unterthema": "",
+		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Verkehr und Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -685,9 +719,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8113"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -703,18 +739,18 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gästeübernachtungen in Hotelbetrieben",
-		"subtitle": "pro Einwohner",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"subtitle": "pro Einwohner, 2017",
+		"kuerzel": "I.10.1.07971",
+		"kuerzelKunde": "5.2",
 		"description": "Gästeübernachtungen in Hotelbetrieben",
 		"thema": "10 Tourismus",
-		"unterthema": "",
+		"unterthema": "Hotellerie",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
 		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "",
+		"stufe1": "Verkehr und Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -724,9 +760,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8114"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -743,17 +781,17 @@ var indikatorensetData = [
 	{
 		"title": "Beschäftigte",
 		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.03.2.07993",
+		"kuerzelKunde": "4.5",
 		"description": "Beschäftigte",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "City-Statistics",
 		"raeumlicheGliederung": [
-			"Agglomeration"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-28T16:23:44.4444",
-		"stufe1": "",
+		"stufe1": "Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -763,9 +801,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8115"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"

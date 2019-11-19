@@ -22,5 +22,6 @@ var indikatorensetNames = [
 	"Testset",
 	"Bevoelkerungsszenarien",
 	"City-Statistics",
+	"City-Statistics (Print)",
 	"Test"
 ];

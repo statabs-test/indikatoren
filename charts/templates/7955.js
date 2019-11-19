@@ -13,8 +13,8 @@
                   x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
                 }
               }
-            );
-          }
+            )
+          };
           justifyColumns(event.target);
         },
         redraw: function (event) {
@@ -28,12 +28,8 @@
         borderWidth: 0,
       }
     },
-
     yAxis: {
-      labels: {
-      },
-    maxPadding: 0.005,
-    minPadding: 0.005
+      tickAmount: 6,
     },
     series: [
       { color: "#73B97C" },

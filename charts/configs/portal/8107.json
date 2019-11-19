@@ -1,0 +1,338 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          422114
+        ],
+        [
+          "Basel: Kernstadt",
+          86501
+        ],
+        [
+          "Basel: Übrige Agglomerationsgemeinden Schweiz",
+          188270
+        ],
+        [
+          "Basel: Agglomerationsgemeinden Deutschland",
+          104140
+        ],
+        [
+          "Basel: Agglomerationsgemeinden Frankreich",
+          43203
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          227219
+        ],
+        [
+          "Bern: Kernstadt",
+          73557
+        ],
+        [
+          "Bern: Übrige Agglomerationsgemeinden Schweiz",
+          153662
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genève: Agglomeration",
+          406070
+        ],
+        [
+          "Genève: Kernstadt",
+          86106
+        ],
+        [
+          "Genève: Übrige Agglomerationsgemeinden Schweiz",
+          169305
+        ],
+        [
+          "Genève: Agglomerationsgemeinden Frankreich",
+          150659
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          209669
+        ],
+        [
+          "Lausanne: Kernstadt",
+          69060
+        ],
+        [
+          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
+          140610
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          744993
+        ],
+        [
+          "Zürich: Kernstadt",
+          227992
+        ],
+        [
+          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
+          517002
+        ]
+      ],
+      "name": "Erwerbstätigen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          23931
+        ],
+        [
+          "Basel: Kernstadt",
+          5984
+        ],
+        [
+          "Basel: Übrige Agglomerationsgemeinden Schweiz",
+          8559
+        ],
+        [
+          "Basel: Agglomerationsgemeinden Deutschland",
+          3840
+        ],
+        [
+          "Basel: Agglomerationsgemeinden Frankreich",
+          5548
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          9456
+        ],
+        [
+          "Bern: Kernstadt",
+          3862
+        ],
+        [
+          "Bern: Übrige Agglomerationsgemeinden Schweiz",
+          5594
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genève: Agglomeration",
+          47438
+        ],
+        [
+          "Genève: Kernstadt",
+          10875
+        ],
+        [
+          "Genève: Übrige Agglomerationsgemeinden Schweiz",
+          16571
+        ],
+        [
+          "Genève: Agglomerationsgemeinden Frankreich",
+          19992
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          16534
+        ],
+        [
+          "Lausanne: Kernstadt",
+          7046
+        ],
+        [
+          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
+          9487
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          34153
+        ],
+        [
+          "Zürich: Kernstadt",
+          11856
+        ],
+        [
+          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
+          22297
+        ]
+      ],
+      "name": "Erwerbslosen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "reversed": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "8px",
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left than lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "width": 320,
+    "height": 363,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "inverted": true,
+    "renderTo": "container-8107",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "groupPadding": 0.1
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Erwerbspersonen"
+  },
+  "subtitle": {
+    "text": "2017"
+  },
+  "yAxis": {
+    "type": "category",
+    "tickInterval": null,
+    "lineColor": "#B9CFD7",
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 3,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "reversedStacks": false
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            },
+    "x": -1,
+    "itemWidth": 250
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-14"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": 8107
+  }
+}

@@ -14,18 +14,13 @@
     type: "category"    
   },  
   yAxis: {
-    tickAmount: 8,
+    tickAmount: 6,
+    max: 1000000,
       labels: {
       format: "{value:,.0f}"
     },
-    reversedStacks: false,
-    maxPadding: 0.005,
-    minPadding: 0.005
+    reversedStacks: false
   },
-  /*tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    shared: false
-  },  */
   tooltip: {
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:,.1f}%)<br/>',
     footerFormat: '\u25CF Total: <b>{point.total:,.0f}</b><br/>'
@@ -59,8 +54,6 @@
     }
   ],
   chart: {    
-    /*marginBottom: 75,
-    marginTop: 75,*/
     type: "column"
   }
 	}

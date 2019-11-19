@@ -30,11 +30,10 @@
     },
 
     yAxis: {
+      tickAmount: 7,
       labels: {
-        format: "{value:,.1f}"
-      },
-      maxPadding: 0.005,
-      minPadding: 0.005
+        format: "{value:,.0f}"
+      }
     },
     series: [
       { color: "#73B97C" },
@@ -54,7 +53,7 @@
       }
     },
     tooltip: {
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.3f}</b><br/>',
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
     }
   }
 }());

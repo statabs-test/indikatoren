@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel: Agglomeration",
-          274771
+          422114
         ],
         [
           "Basel: Kernstadt",
@@ -45,7 +45,7 @@
         ],
         [
           "Genève: Agglomeration",
-          255411
+          406070
         ],
         [
           "Genève: Kernstadt",
@@ -100,7 +100,7 @@
       "data": [
         [
           "Basel: Agglomeration",
-          14543
+          23931
         ],
         [
           "Basel: Kernstadt",
@@ -140,7 +140,7 @@
         ],
         [
           "Genève: Agglomeration",
-          27446
+          47438
         ],
         [
           "Genève: Kernstadt",
@@ -262,7 +262,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "2017"
   },
   "navigation": {
     "menuItemStyle": {

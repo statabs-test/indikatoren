@@ -28,12 +28,12 @@
         borderWidth: 0,
       }
     },
-
     yAxis: {
+      tickAmount: 6,
+      tickInterval : 2,
+      max: 8,
       labels: {
-      },
-      maxPadding: 0.005,
-      minPadding: 0.005
+      }
     },
     series: [
       { color: "#73B97C" },

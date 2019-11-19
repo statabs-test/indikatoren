@@ -3,11 +3,11 @@
     xAxis: {
         type: "category", 
         labels: {
-            formatter: undefined/*,
-            align: "left"*/
+            formatter: undefined
         }
     },
     yAxis: {
+        tickAmount: 5,
         tickInterval: null,
         reversedStacks: false
     },   
@@ -27,8 +27,6 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        //"x": 145,
-        //"y": 70,
         itemWidth: 250,
         itemStyle: {
             fontWeight: "normal"

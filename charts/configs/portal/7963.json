@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel: Agglomeration",
-          44294
+          71967
         ],
         [
           "Basel: Kernstadt",
@@ -45,7 +45,7 @@
         ],
         [
           "Genève: Agglomeration",
-          65988
+          93867
         ],
         [
           "Genève: Kernstadt",
@@ -100,7 +100,7 @@
       "data": [
         [
           "Basel: Agglomeration",
-          128847
+          214051
         ],
         [
           "Basel: Kernstadt",
@@ -140,7 +140,7 @@
         ],
         [
           "Genève: Agglomeration",
-          88960
+          162153
         ],
         [
           "Genève: Kernstadt",
@@ -195,7 +195,7 @@
       "data": [
         [
           "Basel: Agglomeration",
-          126073
+          175123
         ],
         [
           "Basel: Kernstadt",
@@ -235,7 +235,7 @@
         ],
         [
           "Genève: Agglomeration",
-          145603
+          218442
         ],
         [
           "Genève: Kernstadt",
@@ -397,6 +397,7 @@
         "textOverflow": "none"
       }
     },
+    "tickAmount": 5,
     "reversedStacks": false
   },
   "tooltip": {
