@@ -26383,7 +26383,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8095"
+			"8095",
+			"8116"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26416,7 +26417,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In den fünf grössten Kernstädten der Schweiz war die Bevölkerung ungefähr halb so gross wie in den  nationalen Agglomerationsgemeinden. Auf die gesamte Agglomeration gesehen  (inklusiv grenzüberschreitender Teil) beträgt der Anteil der in der Kernstadt wohnende Bevölkerung in Genève 22% und in Basel 20,1%, deutlich kleiner als in Zürich (29,7%), Bern (32,0%) oder Lausanne (33,2%). Mit 1 354 140 Einwohner war Zürich die bevölkerungsreichste Agglomeration der Schweiz, gefolgt von Genève (902 511) und Basel (851 596). Im Vergleich hatten die Agglomerationen Bern (415 784) und Lausanne (415 596) deutlich kleinere Bevölkerungen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26425,7 +26426,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8096"
+			"8096",
+			"8117"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26467,7 +26469,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8097"
+			"8097",
+			"8118"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26500,7 +26503,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In den fünf grössten Städten der Schweiz war der Anteil Personen im Alter von 19 oder jünger pro 100 Personen im Alter von 20-64 Jahren (Jugendqotient) in den Kernstädte kleiner als in den jeweiligen nationalen oder ausländischen Agglomerationsgemeinden. Genève wies den grössten Unterschied vom Jugendquotient auf, nämlich 27,1 in der Kernstadt gegenüber  39,2 in den übrigen nationalen Agglomerationsgemeinden. Beide französischen Agglomerationsgemeinden zeigten den grössten Jugendqotient in den Agglomerationen zu welchen sie gehören, 43,1 in den Agglomerationsgemeinden in Frankreich bei Genève und 38,0 in den Agglomerationsgemeinden in Frankreich bei Basel. Die steigende Reihenfolge des Jugendquotientes für gesamte die gesamte Agglomerationen folgt: Bern (29,8), Zürich (30,8), Basel (31,9), Lausanne (34,1) und Genève (37,7).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26509,7 +26512,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8098"
+			"8098",
+			"8119"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26542,7 +26546,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In den fünf grössten Städten der Schweiz war der Anteil Personen im Alter von 65 oder älter pro 100 Personen im Alter von 20-64 Jahren (Altersquotient) in den Kernstädte kleiner als in den jeweiligen nationalen oder ausländischen Agglomerationsgemeinden. Bern wies den grössten Unterschied vom Altersquotient auf, nämlich 26,2 in der Kernsstadt gegenüber 35,3 in den übrigen nationalen Agglomerationsgemeinden. In grenzüberschreitende Agglomerationen wiesen französische Agglomerationgemeinden den kleinsten Altersquotient auf: 21,3 in Genève und 28 in Basel. Die steigende Reihenfolge des Altersquotientes für gesamte Agglomerationen folgt: Genève (24,4), Lausanne (25,5), Zürich (26,6), Bern (32,2), und Basel (33,1).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26551,7 +26555,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8100"
+			"8100",
+			"8121"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26584,7 +26589,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Den grössten Ausländeranteil wies die Kernstadt Genève (47,8%) auf. Hingegen wiesen Ausländeranteile unter 15% die nationale Agglomerationsgemeinden in Bern (14,6%), und die Deutsche (14,4%) und Französische Agglomerationsgemeinden in Basel auf. Die steigende Reihenfolge des Ausländeranteil in den gesammten Agglomerationen folgt: Bern (18,1%), Basel (22,4%), Zürich (27,5%), Genève (32,2%) und Lausanne (34,4%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26593,7 +26598,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8101"
+			"8101",
+			"8122"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26626,7 +26632,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Der Saldo von Geburten und Sterbefälle war, abgesehen von Basel, in alle Agglomerationen grösser in der Kernstadt als in den jeweiligen übrigen nationalen Agglomerationsgemeinden. Während Französiche Agglomerationsgemeinden den grössten Saldo gegenüber den jeweiligen grenzüberschreitenden Agglomeration aufweisen (7,67 pro 1000 Einwohner in Genève und 1,72 in Basel), Deutsche Agglomerationsgemeinden wiesen einen negativen Saldo von -1,1 pro 1000 Einwohner aus. Den kleinsten Saldo für die gesamten Agglomerationen zeigte Basel (0,23 pro 1000 Einwohner) und den grössten zeigte Genève (5,60 pro 1000 Einwohner).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26635,7 +26641,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8102"
+			"8102",
+			"8123"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26677,7 +26684,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8103"
+			"8103",
+			"8124"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26719,7 +26727,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8104"
+			"8104",
+			"8125"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26761,7 +26770,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8105"
+			"8105",
+			"8126"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26803,7 +26813,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8106"
+			"8106",
+			"8127"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26845,7 +26856,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8107"
+			"8107",
+			"8128"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26887,7 +26899,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8108"
+			"8108",
+			"8129"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26929,7 +26942,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8109"
+			"8109",
+			"8130"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26971,7 +26985,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8110"
+			"8110",
+			"8131"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27013,7 +27028,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8111"
+			"8111",
+			"8132"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27055,7 +27071,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8112"
+			"8112",
+			"8133"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27097,7 +27114,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8113"
+			"8113",
+			"8134"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27139,7 +27157,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8114"
+			"8114",
+			"8135"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27181,7 +27200,8 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8115"
+			"8115",
+			"8136"
 		],
 		"renderLink": [],
 		"quellenangabe": [

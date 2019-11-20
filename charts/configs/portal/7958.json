@@ -238,8 +238,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 6,
+    "max": 50
   },
   "navigation": {
     "menuItemStyle": {

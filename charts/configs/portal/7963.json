@@ -92,7 +92,7 @@
           74824
         ]
       ],
-      "name": "ISCED Stufen 1 oder 2",
+      "name": "Obligatorisch",
       "turboThreshold": 0
     },
     {
@@ -187,7 +187,7 @@
           237896
         ]
       ],
-      "name": "ISCED Stufen 3 oder 4",
+      "name": "Sekundarstufe II",
       "turboThreshold": 0
     },
     {
@@ -282,7 +282,7 @@
           221229
         ]
       ],
-      "name": "ISCED Stufen 5 oder 6",
+      "name": "Tertiärstufe",
       "turboThreshold": 0
     }
   ],

@@ -237,8 +237,9 @@
         "color": "#000000"
       }
     },
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 6,
+    "tickInterval": 2,
+    "max": 8
   },
   "navigation": {
     "menuItemStyle": {

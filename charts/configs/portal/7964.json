@@ -302,6 +302,7 @@
         "textOverflow": "none"
       }
     },
+    "tickAmount": 5,
     "reversedStacks": false
   },
   "tooltip": {

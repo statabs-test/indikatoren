@@ -212,10 +212,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 8,
-    "reversedStacks": false,
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 6,
+    "max": 1000000,
+    "reversedStacks": false
   },
   "navigation": {
     "menuItemStyle": {
