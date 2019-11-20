@@ -1,7 +1,13 @@
 (function () {
   return {
+    chart: {
+      marginTop: 5
+    },
     "xAxis": {
       "tickInterval": 2,
+      labels: {
+        rotation: -45
+      }
     },
     "yAxis": {
       "min": 0,
@@ -22,12 +28,12 @@
     ],
     "legend": {
       "enabled": true,
-      itemDistance: 5,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "align": "left",
+      //"layout": "vertical",
+      //"verticalAlign": "top",
+      //"align": "left",
+      itemMarginBottom: 4,
       labelFormatter: function () {
-        return this.name.replace("und", "u.");
+        return this.name.replace(" ", "<br>").replace("<br>und", " u.<br>").replace("<br>+", " +").replace("Übrige<br>", "Übrige ");
       },
     }
   }
