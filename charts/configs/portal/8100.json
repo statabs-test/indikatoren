@@ -150,7 +150,8 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -243,9 +244,7 @@
         "color": "#000000"
       }
     },
-    "tickAmount": 6,
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {

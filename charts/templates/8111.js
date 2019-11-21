@@ -10,12 +10,14 @@
         }
     },
     yAxis: {
-        tickInterval: null,
+        type: "linear",
+        tickAmount: 5,
+        tickInterval: 25,
         reversedStacks: false,
-        labels:
-    {
-        format: "{value:,.0f}%"
-    }
+        labels: {
+            rotation: 0,
+            y: 15
+        }
     },   
     series: [
         {
@@ -33,9 +35,6 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        x: -1,
-        //"x": 145,
-        //"y": 70,
         itemWidth: 250,
         itemStyle: {
             fontWeight: "normal"
@@ -43,7 +42,7 @@
     },      
     chart:
     {
-        height: 350,
+        height: 350, // ***
         inverted: true
     },
     plotOptions: {
@@ -51,7 +50,7 @@
           groupPadding: 0.1
         }
       },
-    tooltip: {
+      tooltip: {
         footerFormat: '\u25CF Total: <b>{point.total:,.0f}</b><br/>'
      },
 	}

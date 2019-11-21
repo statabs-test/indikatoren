@@ -12,15 +12,15 @@
           16543
         ],
         [
-          "Basel: Übrige Agglomerationsgemeinden Schweiz",
+          "Basel: Übrige Agglomeration CH",
           27751
         ],
         [
-          "Basel: Agglomerationsgemeinden Deutschland",
+          "Basel: Agglomeration D",
           17820
         ],
         [
-          "Basel: Agglomerationsgemeinden Frankreich",
+          "Basel: Agglomeration F",
           9852
         ],
         [
@@ -36,7 +36,7 @@
           10618
         ],
         [
-          "Bern: Übrige Agglomerationsgemeinden Schweiz",
+          "Bern: Übrige Agglomeration CH",
           17903
         ],
         [
@@ -52,11 +52,11 @@
           23933
         ],
         [
-          "Genève: Übrige Agglomerationsgemeinden Schweiz",
+          "Genève: Übrige Agglomeration CH",
           42055
         ],
         [
-          "Genève: Agglomerationsgemeinden Frankreich",
+          "Genève: Agglomeration F",
           27879
         ],
         [
@@ -72,7 +72,7 @@
           19481
         ],
         [
-          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
+          "Lausanne: Übrige Agglomeration CH",
           30286
         ],
         [
@@ -88,11 +88,11 @@
           32107
         ],
         [
-          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
+          "Zürich: Übrige Agglomeration CH",
           74824
         ]
       ],
-      "name": "Obligatorisch",
+      "name": "Obligatorische Schule",
       "turboThreshold": 0
     },
     {
@@ -107,15 +107,15 @@
           32122
         ],
         [
-          "Basel: Übrige Agglomerationsgemeinden Schweiz",
+          "Basel: Übrige Agglomeration CH",
           96725
         ],
         [
-          "Basel: Agglomerationsgemeinden Deutschland",
+          "Basel: Agglomeration D",
           59160
         ],
         [
-          "Basel: Agglomerationsgemeinden Frankreich",
+          "Basel: Agglomeration F",
           26044
         ],
         [
@@ -131,7 +131,7 @@
           25529
         ],
         [
-          "Bern: Übrige Agglomerationsgemeinden Schweiz",
+          "Bern: Übrige Agglomeration CH",
           79291
         ],
         [
@@ -147,11 +147,11 @@
           25907
         ],
         [
-          "Genève: Übrige Agglomerationsgemeinden Schweiz",
+          "Genève: Übrige Agglomeration CH",
           63053
         ],
         [
-          "Genève: Agglomerationsgemeinden Frankreich",
+          "Genève: Agglomeration F",
           73194
         ],
         [
@@ -167,7 +167,7 @@
           21529
         ],
         [
-          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
+          "Lausanne: Übrige Agglomeration CH",
           57264
         ],
         [
@@ -183,7 +183,7 @@
           69170
         ],
         [
-          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
+          "Zürich: Übrige Agglomeration CH",
           237896
         ]
       ],
@@ -202,15 +202,15 @@
           50033
         ],
         [
-          "Basel: Übrige Agglomerationsgemeinden Schweiz",
+          "Basel: Übrige Agglomeration CH",
           76040
         ],
         [
-          "Basel: Agglomerationsgemeinden Deutschland",
+          "Basel: Agglomeration D",
           32770
         ],
         [
-          "Basel: Agglomerationsgemeinden Frankreich",
+          "Basel: Agglomeration F",
           16280
         ],
         [
@@ -226,7 +226,7 @@
           41745
         ],
         [
-          "Bern: Übrige Agglomerationsgemeinden Schweiz",
+          "Bern: Übrige Agglomeration CH",
           57708
         ],
         [
@@ -242,11 +242,11 @@
           55050
         ],
         [
-          "Genève: Übrige Agglomerationsgemeinden Schweiz",
+          "Genève: Übrige Agglomeration CH",
           90553
         ],
         [
-          "Genève: Agglomerationsgemeinden Frankreich",
+          "Genève: Agglomeration F",
           72839
         ],
         [
@@ -262,7 +262,7 @@
           38778
         ],
         [
-          "Lausanne: Übrige Agglomerationsgemeinden Schweiz",
+          "Lausanne: Übrige Agglomeration CH",
           63626
         ],
         [
@@ -278,7 +278,7 @@
           145002
         ],
         [
-          "Zürich: Übrige Agglomerationsgemeinden Schweiz",
+          "Zürich: Übrige Agglomeration CH",
           221229
         ]
       ],
@@ -369,8 +369,8 @@
     "text": "nach höchster abgeschlossener Ausbildung, 2017"
   },
   "yAxis": {
-    "type": "category",
-    "tickInterval": 10,
+    "type": "linear",
+    "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -378,15 +378,16 @@
       "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 0
     },
-    "tickAmount": 10,
+    "tickAmount": 5,
     "reversedStacks": false
   },
   "legend": {
@@ -408,7 +409,6 @@
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
             },
-    "x": -1,
     "itemWidth": 250
   },
   "tooltip": {

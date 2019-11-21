@@ -27,7 +27,7 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        itemWidth: 250,
+        //itemWidth: 250,
         itemStyle: {
             fontWeight: "normal"
         }

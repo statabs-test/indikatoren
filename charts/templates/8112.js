@@ -28,13 +28,16 @@
         borderWidth: 0,
       }
     },
+    xAxis: {
+      labels: {
+        rotation: 0
+      }
+    },
     yAxis: {
       tickAmount: 6,
       labels: {
         format: "{value:,.1f}"
-      },
-      maxPadding: 0.005,
-      minPadding: 0.005
+      }
     },
     series: [
       { color: "#73B97C" },

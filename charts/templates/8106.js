@@ -6,13 +6,18 @@
             formatter: undefined,
             style: {
                 fontSize: "8px"
-            },
+            }
         }
     },
     yAxis: {
-        tickAmount: 10,
-        //tickInterval: null,
-        reversedStacks: false
+        type: "linear",
+        tickAmount: 5,
+        tickInterval: 25,
+        reversedStacks: false,
+        labels: {
+            rotation: 0,
+            y: 15
+        }
     },   
     series: [
         {
@@ -30,9 +35,6 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        x: -1, // ***
-        //"x": 145,
-        //"y": 70,
         itemWidth: 250,
         itemStyle: {
             fontWeight: "normal"
