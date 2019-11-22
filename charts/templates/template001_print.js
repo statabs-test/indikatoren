@@ -6,7 +6,6 @@
             "width": 320,
             "height": 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */
-            marginRight: 10,
             "style": {
                 "fontFamily": "Arial"
             },
@@ -17,6 +16,16 @@
 
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    if (this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update(
+                            {
+                                marginRight: 100
+                            }
+                        );
+                        console.log(this.marginRight);
+                    }
+                    
 
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
