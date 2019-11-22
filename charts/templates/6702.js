@@ -8,7 +8,7 @@
     "xAxis": {
       //type: 'category',
       //"tickInterval": 4,
-      tickPositions: [2001, 2005, 2009, 2013, 2018]
+      //tickPositions: [2001, 2005, 2009, 2013, 2018]
     },
     "yAxis": {
       "min": 0,

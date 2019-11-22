@@ -24,6 +24,15 @@
                     var fn = this.options.customFunctions;
                     fn.createSymmetricAxis(this.yAxis[0]);
 
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') { // && this['legend']['options']['x'] == 0){
                         this.update(

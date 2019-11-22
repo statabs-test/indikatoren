@@ -1,7 +1,8 @@
 (function () {
   return {
     chart: {
-      marginTop: 5
+      width: 665,
+      spacingTop: 5,
     },
     "xAxis": {
       "tickInterval": 1,

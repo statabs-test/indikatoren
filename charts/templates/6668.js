@@ -1,5 +1,9 @@
 (function () {
   return {
+    chart: {
+      width: 665,
+      spacingTop: 7
+    },
     "xAxis": {
       tickInterval: 1,
       labels: {
@@ -23,9 +27,10 @@
     ],
     "legend": {
       "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "align": "left"
+      "layout": "vertical",
+      "verticalAlign": "middle",
+      "align": "right",
+      itemMarginBottom: 5
     }
   };
 }());

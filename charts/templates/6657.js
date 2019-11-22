@@ -36,7 +36,6 @@
       },
     },
     "legend": {
-      x: 114,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",

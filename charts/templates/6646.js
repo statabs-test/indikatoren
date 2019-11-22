@@ -15,7 +15,7 @@
     ],
     plotOptions: {
       pie: {
-        size: '65%',
+        //size: '65%',
         colors: [
           '#B00000',
           '#FF8028',
@@ -25,6 +25,7 @@
           '#68AB2B',
           '#007A2F',
         ],
+        /*
         dataLabels: {
           enabled: true,
           align: 'center',
@@ -43,6 +44,7 @@
           //crookDistance: '70%'
         },
         connectorAllowed: true
+        */
       }
     }
   };

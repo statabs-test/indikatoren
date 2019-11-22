@@ -1,9 +1,10 @@
 (function () {
   return {
     chart: {
-      marginTop: 5
+      width: 665,
+      spacingTop: 5,
     },
-        "xAxis": {
+    "xAxis": {
       "tickInterval": 1,
       labels: {
         //step: 1,
@@ -40,9 +41,10 @@
       //"layout": "horizontal",
       //"verticalAlign": "top",
       //"align": "left",
-      itemMarginBottom: 4,
+      itemMarginBottom: 5,
       labelFormatter: function () {
-        return this.name.replace(" ","<br>").replace("<br>und", " u.<br>").replace("<br>+", " +").replace("Übrige<br>", "Übrige ");
+        return this.name.replace("und", " u.");
+        //return this.name.replace(" ", "<br>").replace("<br>und", " u.<br>").replace("<br>+", " +").replace("Übrige<br>", "Übrige ");
       },
     },
     "plotOptions": {

@@ -37,7 +37,6 @@
       { "color": "#68AB2B", "visible": true } /* grün */
     ],
     "legend": {
-      x: 114,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",

@@ -1,5 +1,17 @@
 (function () {
   return {
+    chart: {
+      width: 665,
+      spacingTop: 7
+    },
+    "plotOptions": {
+      "line": {
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
+        }
+      }
+    },
     "xAxis": {
       //"tickInterval": 3,
       //tickPositions: [1998, 2001, 2004, 2007, 2010, 2013, 2017]
@@ -30,26 +42,14 @@
     ],
     "legend": {
       "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      padding: 1,
-      itemDistance: 15,
-      "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      },
+      //      "layout": "horizontal",
+      //     "verticalAlign": "top",
+      //"align": "left",
+      itemMarginBottom: 5,
       labelFormatter: function () {
         return this.name.replace("und", "u.");
       },
 
-    },
-    "plotOptions": {
-      "line": {
-        "marker": {
-          "enabled": false,
-          "symbol": "circle",
-        }
-      }
     }
   };
 }());
