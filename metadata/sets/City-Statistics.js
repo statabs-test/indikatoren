@@ -294,48 +294,6 @@ var indikatorensetData = [
 		"id": 7959
 	},
 	{
-		"title": "Rohe Geburten- und Sterberate",
-		"subtitle": "Fälle pro 1000 Einwohner, 2017",
-		"kuerzel": "I.01.3.07960",
-		"kuerzelKunde": "2.7",
-		"description": "Rohe Geburten- und Sterberate",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
-		"kennzahlenset": "City-Statistics",
-		"raeumlicheGliederung": [
-			"Agglomeration"
-		],
-		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "Bevölkerungstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "99_00_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"8103",
-			"8124"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7960,
-		"chart-id": 7960,
-		"filter": "",
-		"id": 7960
-	},
-	{
 		"title": "Anteil der Privathaushalte mit minderjährigen Kindern",
 		"subtitle": "2017",
 		"kuerzel": "I.01.2.07961",
@@ -462,52 +420,10 @@ var indikatorensetData = [
 		"id": 7963
 	},
 	{
-		"title": "Erwerbspersonen",
-		"subtitle": "2017",
-		"kuerzel": "I.03.1.07964",
-		"kuerzelKunde": "4.1",
-		"description": "Erwerbspersonen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "City-Statistics",
-		"raeumlicheGliederung": [
-			"Agglomeration"
-		],
-		"aktualisierungsdatum": "2019-10-24T14:10:51.5151",
-		"stufe1": "Arbeitsmarkt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "99_00_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"8107",
-			"8128"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7964,
-		"chart-id": 7964,
-		"filter": "",
-		"id": 7964
-	},
-	{
 		"title": "Nettoerwerbsquote der 15-64-Jährigen",
 		"subtitle": "2017",
 		"kuerzel": "I.03.1.07965",
-		"kuerzelKunde": "4.2",
+		"kuerzelKunde": "4.1",
 		"description": "Nettoerwerbsquote der 15-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -549,7 +465,7 @@ var indikatorensetData = [
 		"title": "Erwerbstätige im Alter von 20-64 Jahren",
 		"subtitle": "2017",
 		"kuerzel": "I.03.1.07966",
-		"kuerzelKunde": "4.3",
+		"kuerzelKunde": "4.2",
 		"description": "Erwerbstätige im Alter von 20-64 Jahren",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -591,7 +507,7 @@ var indikatorensetData = [
 		"title": "Erwerbstätigenquote der 20-64-Jährigen",
 		"subtitle": "2017",
 		"kuerzel": "I.03.1.07967",
-		"kuerzelKunde": "4.4",
+		"kuerzelKunde": "4.3",
 		"description": "Erwerbstätigenquote der 20-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -630,10 +546,52 @@ var indikatorensetData = [
 		"id": 7967
 	},
 	{
+		"title": "Beschäftigte",
+		"subtitle": "2017",
+		"kuerzel": "I.03.2.07993",
+		"kuerzelKunde": "4.4",
+		"description": "Beschäftigte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "City-Statistics",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-10-28T16:23:44.4444",
+		"stufe1": "Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"8115",
+			"8136"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7993,
+		"chart-id": 7993,
+		"filter": "",
+		"id": 7993
+	},
+	{
 		"title": "Beschäftigte nach Wirtschaftssektor",
 		"subtitle": "2017",
 		"kuerzel": "I.03.1.07968",
-		"kuerzelKunde": "4.6",
+		"kuerzelKunde": "4.5",
 		"description": "Beschäftigte nach Wirtschaftssektor",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -675,7 +633,7 @@ var indikatorensetData = [
 		"title": "Beschäftigtendichte",
 		"subtitle": "Beschäftigte pro Einwohner, 2017",
 		"kuerzel": "I.03.2.07969",
-		"kuerzelKunde": "4.7",
+		"kuerzelKunde": "4.6",
 		"description": "Beschäftigtendichte",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
@@ -796,47 +754,5 @@ var indikatorensetData = [
 		"chart-id": 7971,
 		"filter": "",
 		"id": 7971
-	},
-	{
-		"title": "Beschäftigte",
-		"subtitle": "2017",
-		"kuerzel": "I.03.2.07993",
-		"kuerzelKunde": "4.5",
-		"description": "Beschäftigte",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "City-Statistics",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-10-28T16:23:44.4444",
-		"stufe1": "Arbeitsmarkt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "99_00_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"8115",
-			"8136"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7993,
-		"chart-id": 7993,
-		"filter": "",
-		"id": 7993
 	}
 ];

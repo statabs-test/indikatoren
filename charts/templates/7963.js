@@ -3,7 +3,10 @@
     xAxis: {
         type: "category", 
         labels: {
-            formatter: undefined
+            formatter: undefined,
+            reversed: false,
+            rotation: -90,
+            //align: "left"
         }
     },
     yAxis: {
@@ -34,8 +37,8 @@
     },      
     chart:
     {
-        height: 500,
-        inverted: true
+        //height: 500,
+        //inverted: true
     },
     plotOptions: {
         series: {

@@ -2,8 +2,10 @@
     return {
     xAxis: {
         type: "category", 
+        reversed: false,
         labels: {
             formatter: undefined,
+            rotation: -90,
             style: {
                 fontSize: "8px"
             }
@@ -16,7 +18,7 @@
         reversedStacks: false,
         labels: {
             rotation: 0,
-            y: 15
+            //y: 15
         }
     },   
     series: [
@@ -35,15 +37,16 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        itemWidth: 250,
+        //itemWidth: 250,
         itemStyle: {
             fontWeight: "normal"
         }
     },      
     chart:
     {
-        height: 350, // ***
-        inverted: true
+        width: 320*1.5,
+        height: 208*1.5,
+        //inverted: true
     },
     plotOptions: {
         series: {
