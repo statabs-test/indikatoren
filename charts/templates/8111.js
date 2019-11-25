@@ -5,7 +5,7 @@
         labels: {
             formatter: undefined,
             style: {
-                fontSize: "8px"
+                fontSize: "10px"
             }
         }
     },
@@ -35,7 +35,8 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        itemWidth: 250,
+        //itemWidth: 250,
+        //x: -1,
         itemStyle: {
             fontWeight: "normal"
         }
@@ -43,6 +44,7 @@
     chart:
     {
         height: 350, // ***
+        width: 535,
         inverted: true
     },
     plotOptions: {

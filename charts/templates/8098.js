@@ -36,8 +36,8 @@
     yAxis: {
       tickAmount: 6,
       labels: {
-      },
-    }
+      }
+    },
     series: [
       { color: "#73B97C" },
       { color: "#FFBB58" },

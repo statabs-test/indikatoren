@@ -585,6 +585,45 @@ var indikatorensetData = [
 		"id": 8110
 	},
 	{
+		"title": "Beschäftigte",
+		"subtitle": "2017",
+		"kuerzel": "I.03.2.07993",
+		"kuerzelKunde": "4.5",
+		"description": "Beschäftigte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "City-Statistics (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-14T13:53:23.2323",
+		"stufe1": "Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": 7993,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8115,
+		"chart-id": 8115,
+		"filter": "",
+		"id": 8115
+	},
+	{
 		"title": "Beschäftigte nach Wirtschaftssektor",
 		"subtitle": "2017",
 		"kuerzel": "I.03.1.07968",
@@ -739,44 +778,5 @@ var indikatorensetData = [
 		"chart-id": 8114,
 		"filter": "",
 		"id": 8114
-	},
-	{
-		"title": "Beschäftigte",
-		"subtitle": "2017",
-		"kuerzel": "I.03.2.07993",
-		"kuerzelKunde": "4.5",
-		"description": "Beschäftigte",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "City-Statistics (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-14T13:53:23.2323",
-		"stufe1": "Arbeitsmarkt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "99_00_00_00_00_000",
-		"parentId": 7993,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8115,
-		"chart-id": 8115,
-		"filter": "",
-		"id": 8115
 	}
 ];
