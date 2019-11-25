@@ -18,7 +18,7 @@
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
                     //add rigt-margin if legend is top to allow space for axis-labels
-                    if (this['legend']['options']['layout'] == 'horizontal') {
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
                                 marginRight: 15
