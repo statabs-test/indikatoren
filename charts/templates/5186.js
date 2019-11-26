@@ -36,6 +36,7 @@
     tickInterval: 1,
     labels: { 
       //step: 2,
+      rotation: -45,
   		style: { 
   		  //	textOverflow: 'none' // prevents ellipsis
   	  }, 
