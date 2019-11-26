@@ -53,8 +53,8 @@
 				"animation": true,
 				"mapData": geojson_Trinational_Gemeinden, // geojson_wohnviertelEPSG2056,
 				"borderColor": "#fbfbfb",		
-				"joinBy": ['TXT', 'TXT'],
-				"keys": ['TXT', 'value'],
+				"joinBy": ['CODGEO', 'Codegeo'],
+				"keys": ['Codegeo', 'value'],
 				"states": {
 					"hover": {
 						"enabled": false,

@@ -301,7 +301,7 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "fontSize": "8px",
+        "fontSize": "10px",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
@@ -328,7 +328,7 @@
                 }
     },
     "type": "column",
-    "width": 320,
+    "width": 535,
     "height": 363,
     "spacing": [
       2,
@@ -408,8 +408,7 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            },
-    "itemWidth": 250
+            }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -421,7 +420,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-24"
   },
   "navigation": {
     "buttonOptions": {

@@ -298,13 +298,14 @@
       }
     },
     "labels": {
-      "rotation": 0,
+      "rotation": -90,
       "style": {
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      }
+      },
+      "reversed": false
     }
   },
   "chart": {
@@ -326,7 +327,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -338,7 +339,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "inverted": true,
     "renderTo": "container-7963",
     "spacingBottom": 40
   },

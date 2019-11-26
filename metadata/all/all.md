@@ -1093,11 +1093,11 @@ id | visible | visibleInPortal | indikatorenset
 7957 | true | true | City-Statistics
 7958 | true | true | City-Statistics
 7959 | true | true | City-Statistics
-7960 | true | true | City-Statistics
+7960 | false |  | City-Statistics
 7961 | true | true | City-Statistics
 7962 | true | true | City-Statistics
 7963 | true | true | City-Statistics
-7964 | true | true | City-Statistics
+7964 | false |  | City-Statistics
 7965 | true | true | City-Statistics
 7966 | true | true | City-Statistics
 7967 | true | true | City-Statistics
@@ -1114,11 +1114,11 @@ id | visible | visibleInPortal | indikatorenset
 8100 | true | false | City-Statistics (Print)
 8101 | true | false | City-Statistics (Print)
 8102 | true | false | City-Statistics (Print)
-8103 | true | false | City-Statistics (Print)
+8103 | false |  | City-Statistics (Print)
 8104 | true | false | City-Statistics (Print)
 8105 | true | false | City-Statistics (Print)
 8106 | true | false | City-Statistics (Print)
-8107 | true | false | City-Statistics (Print)
+8107 | false |  | City-Statistics (Print)
 8108 | true | false | City-Statistics (Print)
 8109 | true | false | City-Statistics (Print)
 8110 | true | false | City-Statistics (Print)
