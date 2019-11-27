@@ -12,7 +12,8 @@
 			}
 			},
 		"colorAxis": {
-			//"min": undefined,
+			"min": 0,
+			"max": 180,
 			"minColor": "#eff6e9",
 			"maxColor": "#4b7b1f",
 			"labels": {
@@ -28,7 +29,7 @@
 		      },
 		      {
 		      	//2nd series: use y values from column 3
-		      	y: 3
+		      	y: 6
 		      }
 		    ]
         },
@@ -69,8 +70,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -92,7 +93,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + ' Einwohner pro ha </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' Einwohner</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -102,14 +103,14 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 30; 
+	                var minValueInLegend = 1000; 
+	                var maxValueInLegend = 20000; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
 	                
 	                fn.addLegendCircle(chart, 410, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 430, 245);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 430, 245);
 	                fn.addLegendCircle(chart, 410, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 430, 270);
 
