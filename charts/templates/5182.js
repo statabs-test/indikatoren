@@ -27,22 +27,40 @@
       "itemMarginBottom": 5,
       itemWidth: 200,
       "itemStyle": {
-        "fontWeight": "normal"
+        "fontWeight": ["bold", "normal", "bold"]
       }
     },
     "series": [
-      {"color": "#E64900", legendIndex: 0, "visible": false, marker: {symbol: 'diamond'}},
-      {"color": "#E64900", legendIndex: 1, "visible": false }, // hellrot 
-      {"color": "#008AC3", legendIndex: 2, "visible": false, marker: {symbol: 'diamond'}},
-      {"color": "#008AC3", legendIndex: 4, "visible": false },// hellblau
-      {"color": "#68AB2B", legendIndex: 4, "visible": true, marker: {symbol: 'diamond'}},
-      {"color": "#68AB2B", legendIndex: 5, "visible": true }, //hellgrün 
-      {"color": "#B375AB", legendIndex: 6, "visible": true, marker: {symbol: 'diamond'}},
-      {"color": "#B375AB", legendIndex: 7, "visible": true }, //hellviolett
-      {"color": "#FFDA80", legendIndex: 8, "visible": true, marker: {symbol: 'diamond'}},
-      {"color": "#FFDA80", legendIndex: 9, "visible": true }, // hellgelb 
-      {"color": "#3C3C3C", legendIndex: 10,"visible": true, marker: {symbol: 'diamond'}}, 
-      {"color": "#3C3C3C", legendIndex: 11,"visible": true } // grau
+      {"color": "rgba(255, 255, 255, 0)", legendIndex: 0, "visible": true, marker: {symbol: 'diamond'}, 
+      events: 
+      {
+        legendItemClick: function(e) 
+        {
+          e.preventDefault()
+        }
+      }
+        },
+      {"color": "rgba(255, 255, 255, 0)", legendIndex: 1, "visible": true, 
+      events: 
+      {
+        legendItemClick: function(e) 
+        {
+          e.preventDefault()
+        }
+      }
+        },
+      {"color": "#E64900", legendIndex: 2, "visible": false, marker: {symbol: 'diamond'}},
+      {"color": "#E64900", legendIndex: 3, "visible": false }, // hellrot 
+      {"color": "#008AC3", legendIndex: 4, "visible": false, marker: {symbol: 'diamond'}},
+      {"color": "#008AC3", legendIndex: 5, "visible": false },// hellblau
+      {"color": "#68AB2B", legendIndex: 6, "visible": true, marker: {symbol: 'diamond'}},
+      {"color": "#68AB2B", legendIndex: 7, "visible": true }, //hellgrün 
+      {"color": "#B375AB", legendIndex: 8, "visible": true, marker: {symbol: 'diamond'}},
+      {"color": "#B375AB", legendIndex: 9, "visible": true }, //hellviolett
+      {"color": "#FFDA80", legendIndex: 10, "visible": true, marker: {symbol: 'diamond'}},
+      {"color": "#FFDA80", legendIndex: 11, "visible": true }, // hellgelb 
+      {"color": "#3C3C3C", legendIndex: 12,"visible": true, marker: {symbol: 'diamond'}}, 
+      {"color": "#3C3C3C", legendIndex: 13,"visible": true } // grau
     ],
     "chart": {
       type: 'scatter',
