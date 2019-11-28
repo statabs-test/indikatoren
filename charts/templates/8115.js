@@ -17,13 +17,12 @@
     }    
   },  
   yAxis: {
-    tickAmount: 8,
+    tickAmount: 6,
+    max: 1000000,
       labels: {
       format: "{value:,.0f}"
     },
-    reversedStacks: false,
-    maxPadding: 0.005,
-    minPadding: 0.005
+    reversedStacks: false
   },
   /*tooltip: {
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

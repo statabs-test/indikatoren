@@ -34,7 +34,7 @@
       }
     },
     yAxis: {
-      tickAmount: 6,
+      tickAmount: 5,
       labels: {
       }
     },
