@@ -507,6 +507,45 @@ var indikatorensetData = [
 		"id": 8110
 	},
 	{
+		"title": "Beschäftigte",
+		"subtitle": "2017",
+		"kuerzel": "I.03.2.08115",
+		"kuerzelKunde": "4.4",
+		"description": "Beschäftigte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "City-Statistics (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-10-28T16:23:44.4444",
+		"stufe1": "Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der trinationalen Agglomeration Basel sind im Jahr 2017 insgesamt 466 300 Beschäftigte tätig. Rund 79% davon arbeiten in der Schweiz (185 100 in der Kernstadt, 181 000 in den übrigen Gemeinden), 16% im deutschen Teil der Agglomeration und 6% im französischen Teil. Die Beschäftigtenzahl in der Agglomeration Basel ist knapp tiefer als in Genf (467 600).",
+		"erlaeuterungen": "Beschäftigte sind Arbeitsstellen (selbständig oder angestellt) und werden am Arbeitsort erfasst.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": 7993,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), City Statistics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8115,
+		"chart-id": 8115,
+		"filter": "",
+		"id": 8115
+	},
+	{
 		"title": "Beschäftigte nach Wirtschaftssektor",
 		"subtitle": "2017",
 		"kuerzel": "I.03.1.08111",
@@ -661,44 +700,5 @@ var indikatorensetData = [
 		"chart-id": 8114,
 		"filter": "",
 		"id": 8114
-	},
-	{
-		"title": "Beschäftigte",
-		"subtitle": "2017",
-		"kuerzel": "I.03.2.08115",
-		"kuerzelKunde": "4.4",
-		"description": "Beschäftigte",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "City-Statistics (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-10-28T16:23:44.4444",
-		"stufe1": "Arbeitsmarkt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In der trinationalen Agglomeration Basel sind im Jahr 2017 insgesamt 466 300 Beschäftigte tätig. Rund 79% davon arbeiten in der Schweiz (185 100 in der Kernstadt, 181 000 in den übrigen Gemeinden), 16% im deutschen Teil der Agglomeration und 6% im französischen Teil. Die Beschäftigtenzahl in der Agglomeration Basel ist knapp tiefer als in Genf (467 600).",
-		"erlaeuterungen": "Beschäftigte sind Arbeitsstellen (selbständig oder angestellt) und werden am Arbeitsort erfasst.",
-		"template": "template001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "99_00_00_00_00_000",
-		"parentId": 7993,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8115,
-		"chart-id": 8115,
-		"filter": "",
-		"id": 8115
 	}
 ];

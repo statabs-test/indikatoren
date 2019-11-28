@@ -44,7 +44,7 @@
     chart:
     {
         height: 350, // ***
-        width: 535,
+        width: 650,//535,
         inverted: true
     },
     plotOptions: {
