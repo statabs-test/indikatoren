@@ -26,10 +26,11 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
+        pointWidth: 14
       }
     },
     yAxis: {
-      tickAmount: 6,
+      tickAmount: 6
     },
     series: [
       { color: "#73B97C" },

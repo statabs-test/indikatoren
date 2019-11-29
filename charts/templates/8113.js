@@ -26,15 +26,14 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
+        pointWidth: 10
       }
     },
     yAxis: {
       tickAmount: 6,
       labels: {
         format: "{value:,.0f}"
-      },
-      maxPadding: 0.005,
-      minPadding: 0.005
+      }
     },
     xAxis: {
       labels: {

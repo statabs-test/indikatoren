@@ -26,6 +26,7 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
+        pointWidth: 10
       }
     },
 
@@ -33,9 +34,7 @@
       tickAmount: 5,
       labels: {
         format: "{value:,.0f}%"
-      },
-      maxPadding: 0.005,
-      minPadding: 0.005
+      }
     },
     xAxis: {
       labels: {

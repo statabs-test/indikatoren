@@ -26,6 +26,7 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
+        pointWidth: 14
       }
     },
     yAxis: {

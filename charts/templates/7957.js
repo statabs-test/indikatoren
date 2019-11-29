@@ -26,15 +26,12 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
+        pointWidth: 14
       }
     },
 
     yAxis: {
       tickAmount: 5
-      /*labels: {
-      },
-      maxPadding: 0.005,
-      minPadding: 0.005*/
     },
     series: [
       { color: "#73B97C" },
