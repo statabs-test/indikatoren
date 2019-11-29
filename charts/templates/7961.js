@@ -30,7 +30,7 @@
       }
     },
     yAxis: {
-      tickAmount: 6,
+      tickAmount: 5,
       labels: {
         format: "{value:,.0f}%"
       }
