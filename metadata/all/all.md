@@ -1085,6 +1085,7 @@ id | visible | visibleInPortal | indikatorenset
 7763 | true | true | Monatsindikatoren
 7774 | true | true | Richtplan
 7778 | true | false | Richtplan
+8260 | true | true | CMS Kennzahlen Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

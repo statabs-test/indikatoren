@@ -41082,6 +41082,46 @@ var indikatoren = [
 		"id": 7778
 	},
 	{
+		"title": "Gesundheitliche Verfassung",
+		"subtitle": "«Wie geht es Ihnen zurzeit gesundheitlich?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Gesundheitliche Verfassung",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.4 Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8260,
+		"chart-id": 8260,
+		"filter": "",
+		"id": 8260
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
