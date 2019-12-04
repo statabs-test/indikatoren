@@ -18,7 +18,7 @@
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
             "width": 485,
-            "height": 800,
+            "height": 505,
             "spacingBottom": 45,
             "style": {
                 "fontFamily": "Arial"
