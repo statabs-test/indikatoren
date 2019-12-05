@@ -199,7 +199,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 14
     }
   },
   "title": {
@@ -238,7 +239,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickAmount": 6
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {

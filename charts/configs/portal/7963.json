@@ -298,14 +298,13 @@
       }
     },
     "labels": {
-      "rotation": -90,
+      "rotation": 0,
       "style": {
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      },
-      "reversed": false
+      }
     }
   },
   "chart": {
@@ -327,7 +326,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 513,
     "spacing": [
       10,
       10,
@@ -339,6 +338,7 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "inverted": true,
     "renderTo": "container-7963",
     "spacingBottom": 40
   },
@@ -433,7 +433,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "itemWidth": 250
   },
   "exporting": {
     "filename": 7963

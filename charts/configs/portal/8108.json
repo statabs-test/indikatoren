@@ -204,7 +204,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 10
     }
   },
   "title": {
@@ -214,7 +215,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettoerwerbsquote der 15-64-Jährigen"
+    "text": "Nettoerwerbsquote der 15- bis 64-Jährigen"
   },
   "subtitle": {
     "style": {
@@ -245,9 +246,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickAmount": 5,
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {

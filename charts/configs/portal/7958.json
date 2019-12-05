@@ -199,7 +199,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 14
     }
   },
   "title": {
@@ -209,7 +210,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländeranteil in der Bevölkerung"
+    "text": "Ausländeranteil"
   },
   "subtitle": {
     "style": {

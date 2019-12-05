@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          511.7
+          511.66
         ],
         [
           "Bern",
-          476.8
+          476.83
         ],
         [
           "Genève",
-          530.3
+          530.28
         ],
         [
           "Lausanne",
-          501.7
+          501.66
         ],
         [
           "Zürich",
-          506.6
+          506.61
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,7 +32,7 @@
       "data": [
         [
           "Basel",
-          334.3
+          334.25
         ],
         [
           "Bern",
@@ -40,15 +40,15 @@
         ],
         [
           "Genève",
-          364.7
+          364.66
         ],
         [
           "Lausanne",
-          363.3
+          363.31
         ],
         [
           "Zürich",
-          348.3
+          348.26
         ]
       ],
       "name": "Kernstadt",
@@ -59,11 +59,11 @@
       "data": [
         [
           "Basel",
-          517.9
+          517.92
         ],
         [
           "Bern",
-          520.9
+          520.92
         ],
         [
           "Genève",
@@ -75,7 +75,7 @@
         ],
         [
           "Zürich",
-          573.6
+          573.64
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          580
+          580.04
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          654.4
+          654.45
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genève",
-          624.6
+          624.55
         ],
         [
           "Lausanne",
@@ -204,7 +204,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 10
     }
   },
   "title": {
@@ -245,9 +246,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {

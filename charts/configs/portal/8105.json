@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          3.399
+          3.4
         ],
         [
           "Bern",
-          2.464
+          2.46
         ],
         [
           "Genève",
-          4.952
+          4.95
         ],
         [
           "Lausanne",
-          3.984
+          3.98
         ],
         [
           "Zürich",
-          2.533
+          2.53
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,15 +32,15 @@
       "data": [
         [
           "Basel",
-          3.105
+          3.11
         ],
         [
           "Bern",
-          2.072
+          2.07
         ],
         [
           "Genève",
-          3.822
+          3.82
         ],
         [
           "Lausanne",
@@ -48,7 +48,7 @@
         ],
         [
           "Zürich",
-          2.512
+          2.51
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          2.848
+          2.85
         ],
         [
           "Bern",
-          2.658
+          2.66
         ],
         [
           "Genève",
-          4.148
+          4.15
         ],
         [
           "Lausanne",
-          3.567
+          3.57
         ],
         [
           "Zürich",
-          2.543
+          2.54
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          4.119
+          4.12
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          4.591
+          4.59
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genève",
-          6.481
+          6.48
         ],
         [
           "Lausanne",
@@ -204,7 +204,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 10
     }
   },
   "title": {
@@ -223,7 +224,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "mit Kindern unter 18, 2017",
+    "text": "mit Kindern unter 18 Jahren, 2017",
     "align": "left"
   },
   "yAxis": {

@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel",
-          0.233
+          0.234
         ],
         [
           "Bern",
@@ -13,7 +13,7 @@
         ],
         [
           "Genève",
-          5.596
+          5.595
         ],
         [
           "Lausanne",
@@ -21,7 +21,7 @@
         ],
         [
           "Zürich",
-          4.067
+          4.07
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -36,19 +36,19 @@
         ],
         [
           "Bern",
-          3.104
+          3.103
         ],
         [
           "Genève",
-          5.209
+          5.212
         ],
         [
           "Lausanne",
-          5.345
+          5.341
         ],
         [
           "Zürich",
-          4.475
+          4.477
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0.507
+          0.508
         ],
         [
           "Bern",
-          1.531
+          1.532
         ],
         [
           "Genève",
-          4.093
+          4.091
         ],
         [
           "Lausanne",
-          3.923
+          3.924
         ],
         [
           "Zürich",
-          3.903
+          3.899
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          -1.097
+          -1.092
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genève",
-          7.67
+          7.669
         ],
         [
           "Lausanne",
@@ -203,7 +203,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 10
     }
   },
   "title": {
@@ -243,9 +244,7 @@
         "color": "#000000"
       }
     },
-    "tickAmount": 6,
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {

@@ -9,20 +9,22 @@ global rheinData
             "formatter": function(args){
 				var this_point_index = this.series.data.indexOf(this.point);
 				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Personen</b></b>';
-            }
+					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km<sup>2</sup></b></b>';
+			},
+			useHTML: true
         },    	
 		"legend": {
 			"title": {
-				"text": "in 100 Personen pro Hektar"
-			}
+				"text": "in Einwohner pro km<sup>2</sup>"
+			},
+			useHTML: true
 		},
 		"colorAxis": {
 			"minColor": "#eff4f4",
 			"maxColor": "#4f6e75",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat(this.value / 100, 0); 
+					return Highcharts.numberFormat(this.value, 0); 
 				}
 			}
 		},

@@ -204,7 +204,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "pointWidth": 10
     }
   },
   "title": {
@@ -245,9 +246,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickAmount": 5,
-    "maxPadding": 0.005,
-    "minPadding": 0.005
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {
