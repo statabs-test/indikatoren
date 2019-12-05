@@ -20,8 +20,8 @@ global rheinData
 			useHTML: true
 		},
 		"colorAxis": {
-			"minColor": "#eff4f4",
-			"maxColor": "#4f6e75",
+			"minColor": "#D3E2E4",
+			"maxColor": "#083038",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat(this.value, 0); 

@@ -19,10 +19,9 @@ global rheinData
 				/*"text": "in Einwohner pro km<sup>2</sup>"*/
 			},
 			useHTML: true,
-			//verticalAlign: 'top',
 			align: 'left',
-			//x: -10,
-			y: -350
+			y: -350,
+			symbolRadius: 0,
 		},
 		colorAxis: {
             dataClassColor: 'category',
@@ -35,7 +34,7 @@ global rheinData
                 from: 2,
                 to: 2,
                 color: '#FF8028',
-                name: "Agglomerationsgemeinden Schweiz"
+                name: "Übrige Agglomerationsgemeinden Schweiz"
             }, {
                 from: 3,
                 to: 3,
