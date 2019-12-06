@@ -155,7 +155,7 @@
         itemStyle: {
         fontWeight: "normal",
         fontSize: '10px',
-      width: 40        
+        width: 40      
     },
     width: 200,
     itemWidth: 70,    

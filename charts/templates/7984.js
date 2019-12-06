@@ -51,11 +51,11 @@
         "verticalAlign": "top",
         "align": "left",
         itemWidth: 130, 
+        itemDistance: 5,
         "itemMarginBottom": 5,
 		    //"y": 35,    
         "itemStyle": {
-          "fontWeight": "normal",
-          "fontSize": "9px"
+          "fontWeight": "normal",        
         }
       },
       "chart": {      

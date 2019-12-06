@@ -66,6 +66,7 @@
   },
   chart: {
       type: 'bar',
+      marginRight: 15
  }, 
  tooltip: {
      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
