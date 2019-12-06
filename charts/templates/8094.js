@@ -31,7 +31,7 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      //itemWidth: 300,
+      itemWidth: 200,
       //"x": 40,
       //"y": 55,    
       "itemStyle": {

@@ -1,0 +1,1318 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 6,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2000: Klybeck",
+          991
+        ],
+        [
+          "2000: Kleinhüningen",
+          419
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2001: Klybeck",
+          951
+        ],
+        [
+          "2001: Kleinhüningen",
+          406
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2002: Klybeck",
+          918
+        ],
+        [
+          "2002: Kleinhüningen",
+          385
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2003: Klybeck",
+          863
+        ],
+        [
+          "2003: Kleinhüningen",
+          379
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2004: Klybeck",
+          838
+        ],
+        [
+          "2004: Kleinhüningen",
+          360
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Klybeck",
+          815
+        ],
+        [
+          "2005: Kleinhüningen",
+          337
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2006: Klybeck",
+          804
+        ],
+        [
+          "2006: Kleinhüningen",
+          332
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2007: Klybeck",
+          790
+        ],
+        [
+          "2007: Kleinhüningen",
+          334
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2008: Klybeck",
+          777
+        ],
+        [
+          "2008: Kleinhüningen",
+          304
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          764
+        ],
+        [
+          "2009: Kleinhüningen",
+          289
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          743
+        ],
+        [
+          "2010: Kleinhüningen",
+          272
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          700
+        ],
+        [
+          "2011: Kleinhüningen",
+          257
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          677
+        ],
+        [
+          "2012: Kleinhüningen",
+          264
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          629
+        ],
+        [
+          "2013: Kleinhüningen",
+          268
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          616
+        ],
+        [
+          "2014: Kleinhüningen",
+          243
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          599
+        ],
+        [
+          "2015: Kleinhüningen",
+          245
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          552
+        ],
+        [
+          "2016: Kleinhüningen",
+          243
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          538
+        ],
+        [
+          "2017: Kleinhüningen",
+          224
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          538
+        ],
+        [
+          "2018: Kleinhüningen",
+          227
+        ]
+      ],
+      "name": "Evangelisch-reformiert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 5,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2000: Klybeck",
+          1191
+        ],
+        [
+          "2000: Kleinhüningen",
+          474
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2001: Klybeck",
+          1141
+        ],
+        [
+          "2001: Kleinhüningen",
+          457
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2002: Klybeck",
+          1112
+        ],
+        [
+          "2002: Kleinhüningen",
+          464
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2003: Klybeck",
+          1125
+        ],
+        [
+          "2003: Kleinhüningen",
+          438
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2004: Klybeck",
+          1042
+        ],
+        [
+          "2004: Kleinhüningen",
+          404
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Klybeck",
+          1007
+        ],
+        [
+          "2005: Kleinhüningen",
+          400
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2006: Klybeck",
+          1017
+        ],
+        [
+          "2006: Kleinhüningen",
+          382
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2007: Klybeck",
+          1017
+        ],
+        [
+          "2007: Kleinhüningen",
+          369
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2008: Klybeck",
+          1039
+        ],
+        [
+          "2008: Kleinhüningen",
+          366
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          1007
+        ],
+        [
+          "2009: Kleinhüningen",
+          371
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          931
+        ],
+        [
+          "2010: Kleinhüningen",
+          354
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          915
+        ],
+        [
+          "2011: Kleinhüningen",
+          351
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          894
+        ],
+        [
+          "2012: Kleinhüningen",
+          370
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          888
+        ],
+        [
+          "2013: Kleinhüningen",
+          352
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          862
+        ],
+        [
+          "2014: Kleinhüningen",
+          334
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          828
+        ],
+        [
+          "2015: Kleinhüningen",
+          335
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          781
+        ],
+        [
+          "2016: Kleinhüningen",
+          319
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          767
+        ],
+        [
+          "2017: Kleinhüningen",
+          302
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          755
+        ],
+        [
+          "2018: Kleinhüningen",
+          299
+        ]
+      ],
+      "name": "Römisch-katholisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 4,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2000: Klybeck",
+          9
+        ],
+        [
+          "2000: Kleinhüningen",
+          11
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2001: Klybeck",
+          9
+        ],
+        [
+          "2001: Kleinhüningen",
+          9
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2002: Klybeck",
+          7
+        ],
+        [
+          "2002: Kleinhüningen",
+          8
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2003: Klybeck",
+          6
+        ],
+        [
+          "2003: Kleinhüningen",
+          7
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2004: Klybeck",
+          8
+        ],
+        [
+          "2004: Kleinhüningen",
+          6
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Klybeck",
+          10
+        ],
+        [
+          "2005: Kleinhüningen",
+          5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2006: Klybeck",
+          10
+        ],
+        [
+          "2006: Kleinhüningen",
+          4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2007: Klybeck",
+          10
+        ],
+        [
+          "2007: Kleinhüningen",
+          4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2008: Klybeck",
+          13
+        ],
+        [
+          "2008: Kleinhüningen",
+          4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          18
+        ],
+        [
+          "2009: Kleinhüningen",
+          4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          19
+        ],
+        [
+          "2010: Kleinhüningen",
+          3
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          35
+        ],
+        [
+          "2011: Kleinhüningen",
+          7
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          49
+        ],
+        [
+          "2012: Kleinhüningen",
+          11
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          30
+        ],
+        [
+          "2013: Kleinhüningen",
+          11
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          31
+        ],
+        [
+          "2014: Kleinhüningen",
+          10
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          30
+        ],
+        [
+          "2015: Kleinhüningen",
+          4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          32
+        ],
+        [
+          "2016: Kleinhüningen",
+          4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          30
+        ],
+        [
+          "2017: Kleinhüningen",
+          5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          23
+        ],
+        [
+          "2018: Kleinhüningen",
+          7
+        ]
+      ],
+      "name": "Christkatholisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 3,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2000: Klybeck",
+          4
+        ],
+        [
+          "2000: Kleinhüningen",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2001: Klybeck",
+          3
+        ],
+        [
+          "2001: Kleinhüningen",
+          null
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2002: Klybeck",
+          4
+        ],
+        [
+          "2002: Kleinhüningen",
+          null
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2003: Klybeck",
+          3
+        ],
+        [
+          "2003: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2004: Klybeck",
+          3
+        ],
+        [
+          "2004: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Klybeck",
+          3
+        ],
+        [
+          "2005: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2006: Klybeck",
+          3
+        ],
+        [
+          "2006: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2007: Klybeck",
+          2
+        ],
+        [
+          "2007: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2008: Klybeck",
+          2
+        ],
+        [
+          "2008: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          1
+        ],
+        [
+          "2009: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          1
+        ],
+        [
+          "2010: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          2
+        ],
+        [
+          "2011: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          2
+        ],
+        [
+          "2012: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          2
+        ],
+        [
+          "2013: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          3
+        ],
+        [
+          "2014: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          5
+        ],
+        [
+          "2015: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          3
+        ],
+        [
+          "2016: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          2
+        ],
+        [
+          "2017: Kleinhüningen",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          8
+        ],
+        [
+          "2018: Kleinhüningen",
+          null
+        ]
+      ],
+      "name": "Israelitisch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 2,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2000: Klybeck",
+          4878
+        ],
+        [
+          "2000: Kleinhüningen",
+          1458
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2001: Klybeck",
+          4904
+        ],
+        [
+          "2001: Kleinhüningen",
+          1491
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2002: Klybeck",
+          4974
+        ],
+        [
+          "2002: Kleinhüningen",
+          1609
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2003: Klybeck",
+          5041
+        ],
+        [
+          "2003: Kleinhüningen",
+          1680
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2004: Klybeck",
+          5112
+        ],
+        [
+          "2004: Kleinhüningen",
+          1710
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Klybeck",
+          5182
+        ],
+        [
+          "2005: Kleinhüningen",
+          1818
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2006: Klybeck",
+          5288
+        ],
+        [
+          "2006: Kleinhüningen",
+          1840
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2007: Klybeck",
+          5207
+        ],
+        [
+          "2007: Kleinhüningen",
+          1835
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2008: Klybeck",
+          5295
+        ],
+        [
+          "2008: Kleinhüningen",
+          1879
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          5440
+        ],
+        [
+          "2009: Kleinhüningen",
+          1975
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          5455
+        ],
+        [
+          "2010: Kleinhüningen",
+          1995
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          5602
+        ],
+        [
+          "2011: Kleinhüningen",
+          2084
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          5646
+        ],
+        [
+          "2012: Kleinhüningen",
+          2232
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          5745
+        ],
+        [
+          "2013: Kleinhüningen",
+          2247
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          5836
+        ],
+        [
+          "2014: Kleinhüningen",
+          2289
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          5819
+        ],
+        [
+          "2015: Kleinhüningen",
+          2316
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          5834
+        ],
+        [
+          "2016: Kleinhüningen",
+          2327
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          5918
+        ],
+        [
+          "2017: Kleinhüningen",
+          2313
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          5969
+        ],
+        [
+          "2018: Kleinhüningen",
+          2325
+        ]
+      ],
+      "name": "Andere, ohne oder unbek. Zugeh.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 1,
+      "legendIndex": 6
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-8056",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "borderwidth": 0
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Religionszugehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 10,
+    "min": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "itemWidth": 205,
+    "align": "left"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8056
+  }
+}

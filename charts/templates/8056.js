@@ -39,7 +39,7 @@
     {"color": "#ff8028", index: 4, legendIndex: 3}, 
     {"color": "#73ba7c", index: 3, legendIndex: 4}, 
     {"color": "#E7CEE2", index: 2, legendIndex: 5},
-    {"color": "#999999", index: 1, legendIndex: 6}, 
+    /*{"color": "#999999", index: 1, legendIndex: 6}, */
   
 ],
   "chart": {
