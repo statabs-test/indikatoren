@@ -8544,30 +8544,30 @@
 		"id": 5199
 	},
 	{
-		"title": "Bevölkerungsdichte Basel-Stadt",
-		"subtitle": "Anzahl Einwohner pro Hektar",
+		"title": "Bevölkerungsdichte",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
 		"kuerzel": "I.01.1.5201",
 		"kuerzelKunde": "ST 4-2",
-		"description": "Bevölkerungsdichte Basel-Stadt",
+		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T15:54:04.044",
+		"aktualisierungsdatum": "2019-12-09T16:08:43.4343",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_002",
+		"orderKey": "02_04_00_00_00_042",
 		"parentId": null,
 		"children": [
 			"6242"
@@ -8586,11 +8586,11 @@
 		"id": 5201
 	},
 	{
-		"title": "Bevölkerungsdichte",
-		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
+		"title": "Bevölkerungsdichte nach Wohnviertel",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.5202",
 		"kuerzelKunde": "ST 4-3",
-		"description": "Bevölkerungsdichte",
+		"description": "Bevölkerungsdichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
@@ -8603,13 +8603,13 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Mit 263,8 Einwohner pro Hektar wies das Wohnviertel Matthäus am Jahresende 2018 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten zeigten sich in den Wohnviertel Gundeldingen, Iselin und Clara. Im Vergleich zu 1999 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1999 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_003",
+		"orderKey": "02_04_00_00_00_043",
 		"parentId": null,
 		"children": [
 			"6243"
@@ -8651,7 +8651,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_012",
+		"orderKey": "02_04_00_00_00_412",
 		"parentId": null,
 		"children": [
 			"6244"
@@ -8766,7 +8766,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_005",
+		"orderKey": "02_04_00_00_00_045",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -8784,7 +8784,7 @@
 	},
 	{
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
@@ -8794,7 +8794,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:51:46.4646",
+		"aktualisierungsdatum": "2019-12-09T16:05:09.099",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -8803,15 +8803,17 @@
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 im Wohnviertel Rosental verzeichnet. Die Zunahme gegenüber der Quote vor 20 Jahren war im Wohnviertel Vorstädte am grössten. Die grösste Abnahme wies das Wohnviertel Matthäus auf.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_006",
+		"orderKey": "02_04_00_00_00_046",
 		"parentId": null,
 		"children": [
 			"6246"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6246"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -8848,7 +8850,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_009",
+		"orderKey": "02_04_00_00_00_049",
 		"parentId": null,
 		"children": [
 			"6249",
@@ -8879,7 +8881,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:37.3737",
+		"aktualisierungsdatum": "2019-09-23T12:11:45.4545",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -8888,15 +8890,17 @@
 		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
-		"darstellungsart": "Grafik",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_010",
+		"orderKey": "02_04_00_00_00_410",
 		"parentId": null,
 		"children": [
 			"6250"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6250"
+		],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -8933,7 +8937,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_002",
+		"orderKey": "02_05_00_00_00_052",
 		"parentId": null,
 		"children": [
 			"5165",
@@ -8976,7 +8980,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_06_00_00_00_001",
+		"orderKey": "02_06_00_00_00_061",
 		"parentId": null,
 		"children": [
 			"6253"
@@ -8997,7 +9001,7 @@
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
+		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
 		"kuerzel": "I.03.2.5823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
@@ -9013,13 +9017,13 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 300 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2017 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 200 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
 		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_002",
+		"orderKey": "03_07_00_00_00_072",
 		"parentId": null,
 		"children": [
 			"6254"
@@ -9049,7 +9053,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:07:22.2222",
+		"aktualisierungsdatum": "2019-09-23T12:12:22.2222",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -9058,15 +9062,17 @@
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
-		"darstellungsart": "Grafik",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_003",
+		"orderKey": "03_07_00_00_00_073",
 		"parentId": null,
 		"children": [
 			"6255"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6255"
+		],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -9097,13 +9103,13 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_08_00_00_00_001",
+		"orderKey": "03_08_00_00_00_081",
 		"parentId": null,
 		"children": [
 			"6256"
@@ -13566,7 +13572,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_001",
+		"orderKey": "02_04_00_00_00_041",
 		"parentId": null,
 		"children": [
 			"6259"
@@ -13609,7 +13615,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_004",
+		"orderKey": "02_04_00_00_00_044",
 		"parentId": null,
 		"children": [
 			"6260",
@@ -13652,7 +13658,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_004",
+		"orderKey": "03_07_00_00_00_074",
 		"parentId": null,
 		"children": [
 			"6245",
@@ -13695,7 +13701,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_08_00_00_00_002",
+		"orderKey": "03_08_00_00_00_082",
 		"parentId": null,
 		"children": [
 			"6263"
@@ -13738,7 +13744,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_004",
+		"orderKey": "02_05_00_00_00_054",
 		"parentId": null,
 		"children": [
 			"6264"
@@ -13811,14 +13817,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T14:35:54.5454",
+		"aktualisierungsdatum": "2019-11-13T19:16:59.5959",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen  mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26191,14 +26197,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T13:38:52.5252",
+		"aktualisierungsdatum": "2019-10-14T17:01:22.2222",
 		"stufe1": "Sachgebiet Querschnittsthemen",
 		"stufe2": "Strategie 1: Regionale Sichtweise",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl beim Wohnen als als auch beim Arbeiten hat die Bruttogeschossfläche seit 1995 zugenommen, was auf die Bautätigkeit im Kanton zurückzuführen ist.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summer der ober- und unterirdischen Grundflächen von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"lesehilfe": "Sowohl die für Wohn- als auch die für Arbeitszwecke genutzte Bruttogeschossfläche hat seit 1995 zugenommen. Dies ist auf die Bautätigkeit im Kanton zurückzuführen.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26208,7 +26214,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
+			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -26221,7 +26227,7 @@
 	},
 	{
 		"title": "Bauzonen",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
+		"subtitle": "Indexiert (2005 = 100), Basel-Stadt",
 		"kuerzel": "I.09.1.07775",
 		"kuerzelKunde": "ST 1-3",
 		"description": "Bauzonen",
@@ -26237,8 +26243,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potentieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung («Zone 7 Industrie- und Gewerbezone» (Basel) und Arbeitszonen (Riehen)). Kantonsfläche: ohne 105,87 ha Rheinanteil.",
+		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2018 um 0,3 Prozentpunkte höher als 2005. Die Fläche der Bauzonen mit potentieller Wohnnutzung liegt gar 0,7 Prozentpunkte höher als noch 2005.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potentieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung («Zone 7 Industrie- und Gewerbezone» (Basel) und Arbeitszonen (Riehen)).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26249,7 +26255,7 @@
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
+			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -26285,7 +26291,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_11_00_00_00_000",
+		"orderKey": "05_11_00_00_00_114",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],

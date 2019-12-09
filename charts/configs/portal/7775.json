@@ -1,138 +1,11 @@
 {
   "series": [
     {
-      "color": "#8b2223",
-      "type": "column",
-      "data": [
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          174
-        ],
-        [
-          2007,
-          -44
-        ],
-        [
-          2008,
-          15942
-        ],
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          -7565
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          -2673
-        ],
-        [
-          2013,
-          6296
-        ],
-        [
-          2014,
-          15111
-        ],
-        [
-          2015,
-          -463
-        ],
-        [
-          2016,
-          1153
-        ],
-        [
-          2017,
-          18800
-        ],
-        [
-          2018,
-          494
-        ]
-      ],
-      "name": "Bauzonen, Veränderungen zum Vorjahr (in m2)"
-    },
-    {
-      "color": "#DC440E",
-      "type": "column",
-      "data": [
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          175
-        ],
-        [
-          2007,
-          -72
-        ],
-        [
-          2008,
-          -611
-        ],
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          -14008
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          55128
-        ],
-        [
-          2013,
-          6290
-        ],
-        [
-          2014,
-          52708
-        ],
-        [
-          2015,
-          -463
-        ],
-        [
-          2016,
-          1155
-        ],
-        [
-          2017,
-          -9700
-        ],
-        [
-          2018,
-          760
-        ]
-      ],
-      "name": "Bauzonen mit pot. Wohnnutzung,  Veränderungen zum Vorjahr (in m2)"
-    },
-    {
       "color": "#7b1213",
       "type": "line",
       "marker": {
         "enabled": false
       },
-      "yAxis": 1,
       "data": [
         [
           2005,
@@ -140,58 +13,58 @@
         ],
         [
           2006,
-          100.001
+          100.001205
         ],
         [
           2007,
-          100.001
+          100.0009005
         ],
         [
           2008,
-          100.111
+          100.111227
         ],
         [
           2009,
-          100.111
+          100.111227
         ],
         [
           2010,
-          100.059
+          100.0588718
         ],
         [
           2011,
-          100.059
+          100.0588718
         ],
         [
           2012,
-          100.04
+          100.0403744
         ],
         [
           2013,
-          100.084
+          100.083944
         ],
         [
           2014,
-          100.189
+          100.188515
         ],
         [
           2015,
-          100.185
+          100.1853076
         ],
         [
           2016,
-          100.193
+          100.1932845
         ],
         [
           2017,
-          100.323
+          100.3233859
         ],
         [
           2018,
-          100.327
+          100.3268028
         ]
       ],
-      "name": "Bauzonen (index)"
+      "name": "Bauzonen (Index)"
     },
     {
       "color": "#aC140E",
@@ -199,7 +72,6 @@
       "marker": {
         "enabled": false
       },
-      "yAxis": 1,
       "data": [
         [
           2005,
@@ -207,58 +79,58 @@
         ],
         [
           2006,
-          100.001
+          100.0013834
         ],
         [
           2007,
-          100.001
+          100.0008142
         ],
         [
           2008,
-          99.996
+          99.99598547
         ],
         [
           2009,
-          99.996
+          99.99598547
         ],
         [
           2010,
-          99.885
+          99.88525534
         ],
         [
           2011,
-          99.885
+          99.88525534
         ],
         [
           2012,
-          100.321
+          100.3210433
         ],
         [
           2013,
-          100.371
+          100.370766
         ],
         [
           2014,
-          100.787
+          100.7874242
         ],
         [
           2015,
-          100.784
+          100.7837625
         ],
         [
           2016,
-          100.793
+          100.7928905
         ],
         [
           2017,
-          100.716
+          100.7162124
         ],
         [
           2018,
-          100.722
+          100.7222231
         ]
       ],
-      "name": "Bauzonen mit pot. Wohnnutzung (index)"
+      "name": "Bauzonen mit potentieller Wohnnutzung (Index)"
     }
   ],
   "chart": {
@@ -302,9 +174,7 @@
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 0.06,
-      "groupPadding": 0.1
+      }
     }
   },
   "title": {
@@ -323,7 +193,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt",
+    "text": "Indexiert (2005 = 100), Basel-Stadt",
     "align": "left",
     "useHTML": true
   },
@@ -344,49 +214,27 @@
     "tickLength": 0,
     "tickInterval": 1
   },
-  "yAxis": [
-    {
-      "tickAmount": 6,
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "plotLines": [
-        {
-          "value": 0,
-          "color": "#B9CFD7",
-          "width": 2
-        }
-      ],
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "enabled": false
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "enabled": false
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
       }
     },
-    {
-      "opposite": true,
-      "tickAmount": 6,
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "plotLines": [
-        {
-          "value": 100,
-          "color": "#B9CFD7",
-          "width": 2
-        }
-      ],
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "enabled": false
+    "tickInterval": 0.1,
+    "plotLines": [
+      {
+        "value": 100,
+        "color": "#B9CFD7",
+        "width": 2
       }
-    }
-  ],
+    ]
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -406,7 +254,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-5"
   },
   "legend": {
     "symbolRadius": 0,
@@ -415,7 +263,10 @@
     },
     "enabled": true,
     "align": "left",
-    "verticalAlign": "top"
+    "verticalAlign": "top",
+    "labelFormatter": function () {
+        return this.name.replace(' (Index)', '');
+      }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
