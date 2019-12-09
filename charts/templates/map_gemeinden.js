@@ -17,7 +17,7 @@
             },
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 485,
+            "width": 200,//485,
             "height": 505,
             "spacingBottom": 45,
             "style": {
