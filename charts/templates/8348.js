@@ -4,7 +4,8 @@
     "tickInterval":1
   },
   "yAxis": {
-    "min": 0, 
+    "min": 0,
+    "max": 100, 
 	"labels": {
 		"format": "{value}%"
 	}
@@ -56,6 +57,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemWidth: 170,
   },
   "plotOptions": {
     "line": {
