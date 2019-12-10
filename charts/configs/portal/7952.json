@@ -27513,9 +27513,9 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 350,
     "height": 518,
-    "spacingBottom": 55,
+    "spacingBottom": 35,
     "style": {
       "fontFamily": "Arial"
     },
@@ -27612,6 +27612,7 @@
     "useHTML": true,
     "enabled": true,
     "align": "left",
+    "y": -350,
     "floating": true,
     "itemStyle": {
       "fontWeight": "normal"
@@ -27622,7 +27623,6 @@
         "fontSize": "12px"
       }
     },
-    "y": -350,
     "symbolRadius": 0
   },
   "customFunctions": {
@@ -27638,11 +27638,9 @@
   "tooltip": {
     "formatter": function(args){
 				var this_point_index = this.series.data.indexOf(this.point);
-				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km<sup>2</sup></b></b>';
+				return '<span style="color:' + this.color + ';">\u25CF</span> Gemeinde: <b>' + this.point.properties.LIBGEO + '</b>';
 			},
-    "useHTML": true,
-    "enabled": false
+    "useHTML": true
   },
   "exporting": {
     "filename": 7952

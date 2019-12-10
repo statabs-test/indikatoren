@@ -8,19 +8,15 @@ global rheinData
         "tooltip": {
             "formatter": function(args){
 				var this_point_index = this.series.data.indexOf(this.point);
-				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km<sup>2</sup></b></b>';
+				return '<span style="color:' + this.color + ';">\u25CF</span> Gemeinde: <b>' + this.point.properties.LIBGEO + '</b>';
 			},
-			useHTML: true,
-			enabled: false
+			useHTML: true
         },   	
 		"legend": {
 			"title": {
 				/*"text": "in Einwohner pro km<sup>2</sup>"*/
 			},
 			useHTML: true,
-			align: 'left',
-			y: -350,
 			symbolRadius: 0,
 		},
 		colorAxis: {
@@ -56,7 +52,7 @@ global rheinData
         },
 		"series": [
 			{
-				"name": "Bevölkerungsdichte", 
+				"name": "Perimeter", 
 				"animation": true,
 				"mapData": geojson_gemeinden,
 				"borderColor": "#fbfbfb",		

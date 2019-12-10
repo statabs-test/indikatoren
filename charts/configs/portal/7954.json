@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "BevDichte",
+      "name": "Bevölkerungsdichte",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -27513,9 +27513,9 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 350,
     "height": 518,
-    "spacingBottom": 55,
+    "spacingBottom": 35,
     "style": {
       "fontFamily": "Arial"
     },
@@ -27589,7 +27589,8 @@
   "legend": {
     "useHTML": true,
     "enabled": true,
-    "align": "right",
+    "align": "left",
+    "y": -350,
     "floating": true,
     "itemStyle": {
       "fontWeight": "normal"

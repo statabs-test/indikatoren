@@ -17,7 +17,7 @@ global rheinData
 			"title": {
 				"text": "in Einwohner pro km<sup>2</sup>"
 			},
-			useHTML: true
+			useHTML: true,
 		},
 		"colorAxis": {
 			"minColor": "#D3E2E4",
