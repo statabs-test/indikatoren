@@ -33,7 +33,7 @@ console.log('Loading rhein shape...');
 var geojson_rheinEPSG2056 = JSON.parse(fs.readFileSync('geojson/rhein_EPSG_2056.json'));
 console.log('Loading scalebar shape...');
 var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG_2056.json'));
-console.log('Loading scalebar shape...');
+console.log('Loading scalebar Trinat shape...');
 var geojson_scalebarTrinat = JSON.parse(fs.readFileSync('geojson/scalebar_Trinat.json'));
 console.log('Loading gemeinde shape...');
 var geojson_gemeinden = JSON.parse(fs.readFileSync('geojson/UA_Gemeinden_100.json'));
