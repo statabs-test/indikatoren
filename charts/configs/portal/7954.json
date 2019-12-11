@@ -27513,9 +27513,9 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 350,
-    "height": 518,
-    "spacingBottom": 35,
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
@@ -27590,7 +27590,7 @@
     "useHTML": true,
     "enabled": true,
     "align": "left",
-    "y": -350,
+    "y": -250,
     "floating": true,
     "itemStyle": {
       "fontWeight": "normal"

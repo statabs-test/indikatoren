@@ -17,9 +17,9 @@
             },
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 350,//485,
-            "height": 505,
-            "spacingBottom": 25,
+            "width": 485,
+            "height": 415,
+            "spacingBottom": 40,
             "style": {
                 "fontFamily": "Arial"
             },
@@ -80,7 +80,7 @@
 			useHTML: false,
     		"enabled": true, 
             align: 'left',
-			y: -350,
+			y: -250,
             "floating": true,
            itemStyle: {
 				fontWeight: 'normal'
