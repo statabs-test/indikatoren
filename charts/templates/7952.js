@@ -18,6 +18,7 @@ global rheinData
 			},
 			useHTML: true,
 			symbolRadius: 0,
+			itemWidth: 300
 		},
 		colorAxis: {
             dataClassColor: 'category',
@@ -30,17 +31,17 @@ global rheinData
                 from: 2,
                 to: 2,
                 color: '#FF8028',
-                name: "Übrige Agglomerationsgemeinden Schweiz"
+                name: "Übrige Agglomeration CH"
             }, {
                 from: 3,
                 to: 3,
                  color: '#DC440E',
-                 name: "Agglomerationsgemeinden Deutschland"
+                 name: "Agglomeration D"
             },{
                 from: 4,
                 to: 4,
                  color: '#B00000',
-                 name: "Agglomerationsgemeinden Frankreich"
+                 name: "Agglomeration F"
             }],
 		},
         "data": {

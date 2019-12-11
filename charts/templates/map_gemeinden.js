@@ -19,7 +19,8 @@
             "backgroundColor": "#fbfbfb",
             "width": 485,
             "height": 415,
-            "spacingBottom": 40,
+            "spacingBottom": 55,
+            //marginTop: 50,
             "style": {
                 "fontFamily": "Arial"
             },
@@ -77,7 +78,7 @@
             }
         },
         "legend": {
-			useHTML: false,
+			useHTML: true,
     		"enabled": true, 
             align: 'left',
 			y: -250,

@@ -17,9 +17,9 @@
             },
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 350,//485,
-            "height": 505,
-            "spacingBottom": 25,
+            "width": 650,
+            "height": 484,
+            "spacingBottom": 55,
             "style": {
                 "fontFamily": "Arial"
             },
@@ -77,10 +77,10 @@
             }
         },
         "legend": {
-			useHTML: false,
+			useHTML: true,
     		"enabled": true, 
             align: 'left',
-			y: -350,
+			y: -340,
             "floating": true,
            itemStyle: {
 				fontWeight: 'normal'
