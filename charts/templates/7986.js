@@ -228,6 +228,7 @@
             //move legend title
             var title = this.legend.title;
             title.translate(-188, 25);
+
           }
         }         
  }
