@@ -4092,7 +4092,7 @@ var geojson_gemeinden =
 				"ZE_LK_KT" : "4209"
 			}
 		},
-		{
+		/*{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Polygon",
@@ -4130,7 +4130,7 @@ var geojson_gemeinden =
 				"REGION" : "2",
 				"ZE_LK_KT" : "4209"
 			}
-		},
+		},*/
 		{
 			"type" : "Feature",
 			"geometry" : {
@@ -6258,7 +6258,7 @@ var geojson_gemeinden =
 				"REGION" : "2",
 				"ZE_LK_KT" : "4209"
 			}
-		},
+		},/*
 		{
 			"type" : "Feature",
 			"geometry" : {
@@ -6288,7 +6288,7 @@ var geojson_gemeinden =
 				"REGION" : "2",
 				"ZE_LK_KT" : "4209"
 			}
-		},
+		},*/
 		{
 			"type" : "Feature",
 			"geometry" : {
