@@ -56,7 +56,7 @@
           -52
         ]
       ],
-      "name": "UmzugssaldoKlybeck",
+      "name": "Umzugssaldo Klybeck",
       "turboThreshold": 0
     },
     {
@@ -115,7 +115,7 @@
           21
         ]
       ],
-      "name": "UmzugssaldoKleinhüningen",
+      "name": "Umzugssaldo Kleinhüningen",
       "turboThreshold": 0
     }
   ],
@@ -198,7 +198,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Rosental",
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
     "align": "left"
   },
   "yAxis": {
@@ -249,7 +249,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 200
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

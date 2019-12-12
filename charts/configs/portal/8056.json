@@ -1164,11 +1164,6 @@
       ],
       "name": "Andere, ohne oder unbek. Zugeh.",
       "turboThreshold": 0
-    },
-    {
-      "color": "#999999",
-      "index": 1,
-      "legendIndex": 6
     }
   ],
   "xAxis": {
@@ -1252,7 +1247,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Rosental, nach Bezirk",
+    "text": "Wohnviertel Klybeck und Kleinhüningen, nach Wohnviertel",
     "align": "left"
   },
   "yAxis": {
