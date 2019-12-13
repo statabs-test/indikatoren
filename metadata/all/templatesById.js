@@ -1039,7 +1039,7 @@ var templatesById = {
 	"7774": "line001",
 	"7778": "line001",
 	"8260": "template001",
-	"8285": "mapStadt",
+	"8285": "map002",
 	"9995": "mappie001",
 	"9996": "spider001",
 	"9997": "bubble001",
