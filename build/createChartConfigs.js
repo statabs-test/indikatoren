@@ -29,6 +29,8 @@ var serialize = require('serialize-javascript');
 var glob = require("glob");
 console.log('Loading wohnviertel shapes...');
 var geojson_wohnviertelEPSG2056 = JSON.parse(fs.readFileSync('geojson/wohnviertel_EPSG_2056.json'));
+console.log('Loading wohnviertel Stadt Basel shapes...');
+var geojson_wohnviertelEPSG2056_StadtBasel = JSON.parse(fs.readFileSync('geojson/wohnviertel_EPSG_2056_StadtBasel.json'));
 console.log('Loading rhein shape...');
 var geojson_rheinEPSG2056 = JSON.parse(fs.readFileSync('geojson/rhein_EPSG_2056.json'));
 console.log('Loading scalebar shape...');
@@ -117,7 +119,7 @@ function saveChartConfig(indikator, view, console){
         var csv = (fs.readFileSync('data/' + (indikator["data-id"] || indikator.id) + '.tsv', 'utf8'));
         //remove quotes from data
         var dataWithoutQuotes = csv.replace(/"/g, "");
-        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
+        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
         var options = (result.result || {} );
     
         //disable animations and prevent exceptions
@@ -125,10 +127,10 @@ function saveChartConfig(indikator, view, console){
         //forExport = true  -- crashes highcharts export server for chart 4741
         //options.chart.forExport = true;
         
-        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056,  console: console});
+        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056,  console: console});
         var template = result.result;
     
-        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
+        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
         
         ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
             var stringifiedOptions = serialize(options, {space: 2});
