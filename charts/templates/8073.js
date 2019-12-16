@@ -21,23 +21,29 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f} m<sup>2</sup></b><br/>'
     },
     "series": [
-      {  //Wohnen Messe
+      {  //Wohnen Klybeck
         "color": "#cd9c00",
         legendIndex: 1
       },
-      { // Wohnen Erlenmatt
+      { // Wohnen Kleinhüningen
         "color": "#b375ab",
-        index: 2,
-        legendIndex: 2
-      },
-      { // Arbeiten Messe
-        "color": "#7f5f1a",
-        index: 1,
         legendIndex: 3
       },
-      {  //Arbeiten Erlenmatt
+      { // Wohnen Basel
+        "color": "#8A8A8A",
+        legendIndex: 5
+      },
+      { // Arbeiten Klybeck
+        "color": "#7f5f1a",
+        legendIndex: 2
+      },
+      {  //Arbeiten Kleinhüningen
         "color": "#923f8d",
         legendIndex: 4
+      },
+      {  //Arbeiten Basel
+        "color": "#474747",
+        legendIndex: 6
       },
     ],
     "legend": {
