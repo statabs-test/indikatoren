@@ -80,7 +80,7 @@ global geojson_wohnviertelEPSG2056
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-	                //fn.addLegendRectangle(chart, 260, 220, 160, 120, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 260+70, 220+45, 160-45, 120, '#fbfbfb');
 	            }
 			}
 		}		
