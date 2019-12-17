@@ -60,7 +60,7 @@ global geojson_wohnviertelEPSG2056
 			{
 				"name": "Wohnviertel", 
 				"animation": true,
-				"mapData": geojson_wohnviertelEPSG2056,
+				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
 				"borderColor": "#fbfbfb",		
 				"joinBy": ['TXT', 'Wohnviertel Id'],
 				"keys": ['Wohnviertel Id', 'value'],
