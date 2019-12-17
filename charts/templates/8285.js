@@ -13,8 +13,8 @@ global geojson_wohnviertelEPSG2056
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -60,
-			"y": -20,
+			"x": -30,
+			//"y": -20,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -80,7 +80,7 @@ global geojson_wohnviertelEPSG2056
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-	                fn.addLegendRectangle(chart, 260, 220, 160, 120, '#fbfbfb');
+	                //fn.addLegendRectangle(chart, 260, 220, 160, 120, '#fbfbfb');
 	            }
 			}
 		}		
