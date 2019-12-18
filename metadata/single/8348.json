@@ -1,4 +1,4 @@
-{"title":"Durchimpfungsraten ausgewählter Krankheiten",
+﻿{"title":"Durchimpfungsraten ausgewählter Krankheiten",
 "subtitle":"Nach Schuljahr für die 13- und 14-Jährigen",
 "kuerzel":"I.14.4.08348",
 "kuerzelKunde":"",
@@ -15,7 +15,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Im Schuljahr 2017/2018 waren 96,2% der Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
-"erlaeuterungen":"Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan. Beim HPV handelt es sich um den Anteil der geimpften Mädchen.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren.",
+"erlaeuterungen":"Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
 "template":"line001",
 "darstellungsart":"",
 "printformat":"", 
@@ -27,7 +27,7 @@
 "renderLink":[],
 "quellenangabe":["Gesundheitsdepartement Basel-Stadt"],
 "datenInChartIntegriert":false,
-"externalLinks":[""],
+"externalLinks":["<a href = 'https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/impfungen-prophylaxe/schweizerischer-impfplan.html' target = '_blank'>Bundesamt für Gesundheit: Schweizerischer Impfplan</a>"],
 "data-id":8348, 
 "chart-id":8348, 
 "filter":""
