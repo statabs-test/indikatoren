@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#b375ab",
       "data": [
         [
           1995,
@@ -139,7 +139,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Motorfahrzeuge"
+    "text": "Motorisierungsgrad"
   },
   "subtitle": {
     "style": {
@@ -148,7 +148,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
