@@ -28,6 +28,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "itemWidth": 205,
+    itemDistance: 4,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

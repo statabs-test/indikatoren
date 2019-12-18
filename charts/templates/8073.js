@@ -27,23 +27,15 @@
       },
       { // Wohnen Kleinhüningen
         "color": "#b375ab",
-        legendIndex: 3
-      },
-      { // Wohnen Basel
-        "color": "#8A8A8A",
-        legendIndex: 5
+        legendIndex: 2
       },
       { // Arbeiten Klybeck
         "color": "#7f5f1a",
-        legendIndex: 2
+        legendIndex: 4
       },
       {  //Arbeiten Kleinhüningen
         "color": "#923f8d",
-        legendIndex: 4
-      },
-      {  //Arbeiten Basel
-        "color": "#474747",
-        legendIndex: 6
+        legendIndex: 5
       },
     ],
     "legend": {

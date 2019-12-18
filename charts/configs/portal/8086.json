@@ -43,7 +43,30 @@
           48.391548
         ]
       ],
-      "name": "Stromverbrauch Kleinh�ningen",
+      "name": "Stromverbrauch Kleinhüningen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "2010",
+          1211.012948
+        ],
+        [
+          "2012",
+          1271.574697
+        ],
+        [
+          "2014",
+          1131.005707
+        ],
+        [
+          "2016",
+          1180.640203
+        ]
+      ],
+      "name": "Stromverbrauch Basel",
       "turboThreshold": 0
     }
   ],

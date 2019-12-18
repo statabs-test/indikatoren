@@ -30,7 +30,6 @@
     },
     {
       "color": "#b375ab",
-      "index": 2,
       "legendIndex": 2,
       "data": [
         [
@@ -59,8 +58,7 @@
     },
     {
       "color": "#7f5f1a",
-      "index": 1,
-      "legendIndex": 3,
+      "legendIndex": 4,
       "data": [
         [
           "1995",
@@ -88,7 +86,7 @@
     },
     {
       "color": "#923f8d",
-      "legendIndex": 4,
+      "legendIndex": 5,
       "data": [
         [
           "1995",

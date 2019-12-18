@@ -19,6 +19,9 @@
       {
         "color": "#b375ab"
       },
+      {
+        "color": "#999"
+      },
     ],
     "legend": {
       "enabled": true,
