@@ -1,73 +1,71 @@
 {
   "series": [
     {
-      "color": "#fabd24",
+      "color": "rgb(180,117,171)",
       "yAxis": 0,
-      "index": 2,
-      "legendIndex": 0,
       "tooltip": {
         "shared": false,
         "pointFormatter": function () {
-              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
+              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>'
             }
       },
       "data": [
         [
-          "2019Q3",
-          "33'785"
+          "Basel-Stadt",
+          33785
         ],
         [
-          "",
+          "Basel-Landschaft",
+          22141
+        ],
+        [
+          "Jura",
+          8486
+        ],
+        [
+          "BS\u002FBL\u002FJU (rechte Skala)",
+          null
+        ],
+        [
+          "Schweiz (rechte Skala)",
           null
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "2019Q3",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "rgb(180,117,171)",
       "type": "column",
       "yAxis": 1,
-      "index": 1,
-      "legendIndex": 1,
       "tooltip": {
         "shared": false,
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
+      "pointPlacement": "on",
       "data": [
         [
-          "2019Q3",
-          "22'141"
+          "Basel-Stadt",
+          null
         ],
         [
-          "",
+          "Basel-Landschaft",
           null
-        ]
-      ],
-      "name": "Basel-Landschaft",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#008AC3",
-      "type": "column",
-      "yAxis": 1,
-      "index": 0,
-      "legendIndex": 2,
-      "tooltip": {
-        "shared": false,
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "2019Q3",
-          "8'486"
         ],
         [
-          "",
+          "Jura",
           null
+        ],
+        [
+          "BS\u002FBL\u002FJU (rechte Skala)",
+          64412
+        ],
+        [
+          "Schweiz (rechte Skala)",
+          325291
         ]
       ],
-      "name": "Jura",
+      "name": "2019Q3",
       "turboThreshold": 0
     }
   ],
@@ -81,40 +79,39 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "step": 1,
       "rotation": 0
     },
-    "tickLength": 0,
-    "tickInterval": 1,
-    "endOnTick": false
+    "tickLength": 0
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
+      "load": function (event) {
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            )
+          };
+          justifyColumns(event.target);
+        },
+      "redraw": function (event) {
+          justifyColumns(event.target);
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 80,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-8362"
   },
   "title": {
@@ -137,12 +134,12 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": [
     {
       "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
       "title": {
         "style": {
           "color": "#000000",
@@ -152,17 +149,15 @@
       },
       "labels": {
         "formatter": function () {
-          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+          return Highcharts.numberFormat(this.value, 0);
         },
         "style": {
           "color": "#000000"
         }
       },
       "min": 0,
-      "opposite": true,
-      "tickInterval": 0.25,
-      "tickAmount": 5,
-      "max": 1
+      "opposite": false,
+      "tickAmount": 5
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -176,17 +171,15 @@
       },
       "labels": {
         "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + ' Fr.';
+          return Highcharts.numberFormat(this.value, 0);
         },
         "style": {
           "color": "#000000"
         }
       },
       "min": 0,
-      "tickInterval": 2000,
-      "max": 7500,
       "tickAmount": 5,
-      "opposite": false
+      "opposite": true
     }
   ],
   "credits": {
@@ -206,32 +199,23 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    },
-    "column": {
-      "pointPadding": 0,
-      "groupPadding": 0.1,
-      "borderWidth": 0
+      },
+      "pointPadding": 0.1,
+      "borderWidth": 0,
+      "pointWidth": 40
     }
   },
   "customFunctions": {
