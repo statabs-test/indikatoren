@@ -21,17 +21,16 @@
         return this.name.replace(' (Index)', '');
       }
     },
-    yAxis:
-    {
+    yAxis: {
       // opposite: true,
       //tickAmount: 6,
       //min: 99.5,
       //max: 101,
       tickInterval: .1,
       labels: {
-        format: "{value:,.2f}",
+        format: "{value:,.1f}",
         style: {
-          color: "black"
+          color: "#000000"
         }
       },
       plotLines: [{
@@ -43,11 +42,6 @@
       gridLineWidth: 0.5,
       "title": {
         enabled: false
-      },
-      labels: {
-        style: {
-          color: "#000000"
-        }
       }
     },
     /*
