@@ -58,7 +58,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die meisten Grengänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2019 beträgt rund 33 800. In Basel-Landschaft sind es 22 100, im Jura 8 500 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 325 300.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_00_00_00_00_000",

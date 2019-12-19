@@ -10,7 +10,7 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        "rotation": 0
+        "rotation": -45
       }
     },
     "yAxis": [{
@@ -79,7 +79,6 @@
           "shared": false,
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
         },
-        pointPlacement : "on"
       }
     ],
     "legend": {
@@ -92,8 +91,24 @@
     "chart": {
       "type": "column",
       "inverted": false,
-      "spacingBottom": 70
+      "spacingBottom": 70,
+      events: {
+        load: function (event) {
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            )
+          };
+          justifyColumns(event.target);
+        },
+        redraw: function (event) {
+          justifyColumns(event.target);
+        }
+      }
     }
-    
   }
 }());
