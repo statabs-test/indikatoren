@@ -29,7 +29,8 @@
         "color": "#b375ab"
       },
       {
-        "color": "#8A8A8A"
+        "color": "#999",
+        "visible": false
       }
     ],
     "legend": {
