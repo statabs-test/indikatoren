@@ -1,0 +1,658 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          1388534400000,
+          100
+        ],
+        [
+          1391212800000,
+          101.7
+        ],
+        [
+          1393632000000,
+          103
+        ],
+        [
+          1396310400000,
+          102.5
+        ],
+        [
+          1420070400000,
+          102.8
+        ],
+        [
+          1422748800000,
+          104.1
+        ],
+        [
+          1425168000000,
+          104.8
+        ],
+        [
+          1427846400000,
+          103.8
+        ],
+        [
+          1451606400000,
+          104.8
+        ],
+        [
+          1454284800000,
+          106.1
+        ],
+        [
+          1456790400000,
+          106.7
+        ],
+        [
+          1459468800000,
+          106.1
+        ],
+        [
+          1483228800000,
+          104.9
+        ],
+        [
+          1485907200000,
+          106.1
+        ],
+        [
+          1488326400000,
+          106.8
+        ],
+        [
+          1491004800000,
+          105.9
+        ],
+        [
+          1514764800000,
+          103.4
+        ],
+        [
+          1517443200000,
+          102.6
+        ],
+        [
+          1519862400000,
+          101.5
+        ],
+        [
+          1522540800000,
+          100.7
+        ],
+        [
+          1546300800000,
+          100.1
+        ],
+        [
+          1548979200000,
+          99.9
+        ],
+        [
+          1551398400000,
+          100.3
+        ]
+      ],
+      "name": "Basel-Stadt"
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          1388534400000,
+          100
+        ],
+        [
+          1391212800000,
+          101.5
+        ],
+        [
+          1393632000000,
+          103.1
+        ],
+        [
+          1396310400000,
+          102.9
+        ],
+        [
+          1420070400000,
+          103.4
+        ],
+        [
+          1422748800000,
+          105.2
+        ],
+        [
+          1425168000000,
+          106.4
+        ],
+        [
+          1427846400000,
+          106.4
+        ],
+        [
+          1451606400000,
+          106.1
+        ],
+        [
+          1454284800000,
+          107.2
+        ],
+        [
+          1456790400000,
+          108.2
+        ],
+        [
+          1459468800000,
+          107.5
+        ],
+        [
+          1483228800000,
+          107.5
+        ],
+        [
+          1485907200000,
+          108.7
+        ],
+        [
+          1488326400000,
+          111
+        ],
+        [
+          1491004800000,
+          111
+        ],
+        [
+          1514764800000,
+          110.9
+        ],
+        [
+          1517443200000,
+          111.8
+        ],
+        [
+          1519862400000,
+          112.3
+        ],
+        [
+          1522540800000,
+          112.2
+        ],
+        [
+          1546300800000,
+          112.8
+        ],
+        [
+          1548979200000,
+          113.4
+        ],
+        [
+          1551398400000,
+          115.1
+        ]
+      ],
+      "name": "Basel-Landschaft"
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          1388534400000,
+          100
+        ],
+        [
+          1391212800000,
+          103.8
+        ],
+        [
+          1393632000000,
+          104.9
+        ],
+        [
+          1396310400000,
+          104.2
+        ],
+        [
+          1420070400000,
+          103.1
+        ],
+        [
+          1422748800000,
+          105.3
+        ],
+        [
+          1425168000000,
+          106.1
+        ],
+        [
+          1427846400000,
+          105.5
+        ],
+        [
+          1451606400000,
+          104.4
+        ],
+        [
+          1454284800000,
+          107.4
+        ],
+        [
+          1456790400000,
+          108
+        ],
+        [
+          1459468800000,
+          107.2
+        ],
+        [
+          1483228800000,
+          106.7
+        ],
+        [
+          1485907200000,
+          110.2
+        ],
+        [
+          1488326400000,
+          112.1
+        ],
+        [
+          1491004800000,
+          113.6
+        ],
+        [
+          1514764800000,
+          113.5
+        ],
+        [
+          1517443200000,
+          115.3
+        ],
+        [
+          1519862400000,
+          116.9
+        ],
+        [
+          1522540800000,
+          119.3
+        ],
+        [
+          1546300800000,
+          121
+        ],
+        [
+          1548979200000,
+          122.7
+        ],
+        [
+          1551398400000,
+          122.7
+        ]
+      ],
+      "name": "Jura"
+    },
+    {
+      "color": "#661200",
+      "data": [
+        [
+          1388534400000,
+          100
+        ],
+        [
+          1391212800000,
+          101.9
+        ],
+        [
+          1393632000000,
+          103.2
+        ],
+        [
+          1396310400000,
+          102.8
+        ],
+        [
+          1420070400000,
+          103
+        ],
+        [
+          1422748800000,
+          104.6
+        ],
+        [
+          1425168000000,
+          105.4
+        ],
+        [
+          1427846400000,
+          104.8
+        ],
+        [
+          1451606400000,
+          105.2
+        ],
+        [
+          1454284800000,
+          106.6
+        ],
+        [
+          1456790400000,
+          107.3
+        ],
+        [
+          1459468800000,
+          106.7
+        ],
+        [
+          1483228800000,
+          105.9
+        ],
+        [
+          1485907200000,
+          107.4
+        ],
+        [
+          1488326400000,
+          108.8
+        ],
+        [
+          1491004800000,
+          108.4
+        ],
+        [
+          1514764800000,
+          107
+        ],
+        [
+          1517443200000,
+          107
+        ],
+        [
+          1519862400000,
+          106.8
+        ],
+        [
+          1522540800000,
+          106.5
+        ],
+        [
+          1546300800000,
+          106.6
+        ],
+        [
+          1548979200000,
+          106.9
+        ],
+        [
+          1551398400000,
+          107.7
+        ]
+      ],
+      "name": "BS\u002FBL\u002FJU"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          1388534400000,
+          100
+        ],
+        [
+          1391212800000,
+          102.2
+        ],
+        [
+          1393632000000,
+          103.2
+        ],
+        [
+          1396310400000,
+          103.2
+        ],
+        [
+          1420070400000,
+          103.1
+        ],
+        [
+          1422748800000,
+          105.2
+        ],
+        [
+          1425168000000,
+          105.8
+        ],
+        [
+          1427846400000,
+          105.7
+        ],
+        [
+          1451606400000,
+          106.1
+        ],
+        [
+          1454284800000,
+          107.8
+        ],
+        [
+          1456790400000,
+          108.5
+        ],
+        [
+          1459468800000,
+          109.4
+        ],
+        [
+          1483228800000,
+          108.7
+        ],
+        [
+          1485907200000,
+          111.1
+        ],
+        [
+          1488326400000,
+          111.8
+        ],
+        [
+          1491004800000,
+          111.6
+        ],
+        [
+          1514764800000,
+          110.8
+        ],
+        [
+          1517443200000,
+          111.3
+        ],
+        [
+          1519862400000,
+          110.3
+        ],
+        [
+          1522540800000,
+          110.8
+        ],
+        [
+          1546300800000,
+          111.9
+        ],
+        [
+          1548979200000,
+          114
+        ],
+        [
+          1551398400000,
+          114.9
+        ]
+      ],
+      "name": "Schweiz"
+    }
+  ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8361"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Grenzgänger"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Indexiert, 1. Quartal 2014 = 100",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "x": 30,
+    "itemWidth": 200,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8361
+  }
+}

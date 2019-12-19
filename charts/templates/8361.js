@@ -1,51 +1,53 @@
-import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
-
-(function(){
-    return {
-  "xAxis": {
-    "tickInterval": 1
-  },
-  "yAxis": {
-    "min": undefined, 
-	"labels": {
-		"format": "{value:,.0f}"
-	}
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
-  },
-  "series": [
-    {"color": rgb(105,146,155)}, 
-	  {"color": "#dc440e"}, 
-  	{"color": "#b00000"},
-    {"color": "#661200"},
-    {"color": "#672773"},
-//    {"color": "#008AC3"},/* blau  */
-  ],
-  "legend": {
-    "enabled": true,
-    "x": 30,
-    //"y": 35,
-    "itemWidth": 200,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "line": {
-	  "connectNulls": true,
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
+(function () {
+  return {
+    "xAxis": {
+      "tickInterval": 4,
+       "type": "category",
+       labels:{
+           "formatter": function() {
+            return this.value.split("-").slice(0, -1);
+      },
+       }
+    },
+    "yAxis": {
+      "min": 0,
+      "labels": {
+        "format": "{value:,.0f}"
+      }
+    },
+    "tooltip": {
+      "shared": false,
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+    }, 
+    "series": [
+      { "color": "rgb(71,71,71)" },
+      { "color": "rgb(255,128,40)" },
+      { "color": "rgb(250,189,36)" },
+      { "color": "rgb(180,117,171)" },
+      { "color": "rgb(153,3,0)" }
+    ],
+    "legend": {
+      "enabled": true,
+      "x": 30,
+      //"y": 35,
+      "itemWidth": 145,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "itemMarginBottom": 5,
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
+    },
+    "plotOptions": {
+      "line": {
+        "connectNulls": true,
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
+          "radius": 3
+        }
       }
     }
-  }
-};
+  };
 }());
- 

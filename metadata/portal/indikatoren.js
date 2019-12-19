@@ -28888,7 +28888,7 @@ var indikatoren = [
 		"description": "Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS/BL/JU",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
