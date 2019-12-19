@@ -4,10 +4,16 @@
       "series": {
         "stacking": "percent"
       },
-      borderwidth: 0
+      borderwidth: 0,
+      groupPadding: 0
     },
     "xAxis": {
-      "type": "category"
+      "type": "category",
+      "tickInterval": 1,
+      labels: {
+        step: 1,
+        rotation: -45
+      }
     },
     "yAxis": {
       "tickInterval": 10,

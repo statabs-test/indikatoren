@@ -350,9 +350,12 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "step": 1,
+      "rotation": -45
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -399,7 +402,8 @@
       },
       "stacking": "percent"
     },
-    "borderwidth": 0
+    "borderwidth": 0,
+    "groupPadding": 0
   },
   "title": {
     "style": {
