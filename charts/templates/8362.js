@@ -92,26 +92,8 @@
     "chart": {
       "type": "column",
       "inverted": false,
-      "spacingBottom": 70,
-      template,
-      events: {
-        load: function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            )
-          };
-          justifyColumns(event.target);
-        },
-        redraw: function (event) {
-          justifyColumns(event.target);
-        }
-      }
+      "spacingBottom": 70
     }
-
+    
   }
 }());
