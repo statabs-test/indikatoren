@@ -1,69 +1,95 @@
 {
   "series": [
     {
-      "color": "rgb(180,117,171)",
-      "yAxis": 0,
-      "tooltip": {
-        "shared": false,
-        "pointFormatter": function () {
-              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>'
-            }
-      },
+      "color": "rgb(147,63,141)",
       "data": [
         [
           "Basel-Stadt",
-          33785
+          41
         ],
         [
           "Basel-Landschaft",
-          22141
+          31.4
         ],
         [
           "Jura",
-          8486
+          21.6
         ],
         [
-          "BS\u002FBL\u002FJU (rechte Skala)",
-          null
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          null
+          "Schweiz",
+          31.9
         ]
       ],
-      "name": "2019Q3",
+      "name": "2014",
       "turboThreshold": 0
     },
     {
       "color": "rgb(180,117,171)",
-      "type": "column",
-      "yAxis": 1,
-      "tooltip": {
-        "shared": false,
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           "Basel-Stadt",
-          null
+          41.3
         ],
         [
           "Basel-Landschaft",
-          null
+          31.5
         ],
         [
           "Jura",
-          null
+          23.5
         ],
         [
-          "BS\u002FBL\u002FJU (rechte Skala)",
-          64412
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          325291
+          "Schweiz",
+          32.7
         ]
       ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(250,189,36)",
+      "data": [
+        [
+          "Basel-Stadt",
+          43.9
+        ],
+        [
+          "Basel-Landschaft",
+          33
+        ],
+        [
+          "Jura",
+          24
+        ],
+        [
+          "Schweiz",
+          33.9
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(250,218,128)",
+      "data": [
+        [
+          "Basel-Stadt",
+          43.9
+        ],
+        [
+          "Basel-Landschaft",
+          32.7
+        ],
+        [
+          "Jura",
+          24.5
+        ],
+        [
+          "Schweiz",
+          34.7
+        ]
+      ],
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -80,8 +106,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": -30
+      }
     },
     "tickLength": 0
   },
@@ -118,9 +143,10 @@
         }
     },
     "type": "column",
+    "animation": false,
     "inverted": false,
-    "spacingBottom": 80,
-    "renderTo": "container-8362"
+    "renderTo": "container-8368",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -130,8 +156,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0.1,
-      "pointWidth": 40
+      "pointPadding": 0,
+      "pointWidth": 14
     }
   },
   "title": {
@@ -141,7 +167,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Grenzgänger"
+    "text": "Tertiärquote"
   },
   "subtitle": {
     "style": {
@@ -150,51 +176,28 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "absolut",
+    "text": "",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "opposite": false,
-      "tickAmount": 5
+      "text": null
     },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "formatter": function () {
-          return Highcharts.numberFormat(this.value, 0);
-        },
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "tickAmount": 5,
-      "opposite": true
-    }
-  ],
+      "format": "{value:,.0f}%"
+    },
+    "tickAmount": 6
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -214,20 +217,22 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8362
+    "filename": 8368
   }
 }

@@ -10,7 +10,7 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        "rotation": -45
+        "rotation": -30
       }
     },
     "yAxis": [{
@@ -23,9 +23,9 @@
         "text": null
       },
       "labels": {
-        "formatter": function () {
-          return Highcharts.numberFormat(this.value, 0);
-        },
+        /*"formatter": function () {
+          return this.value.split(' ').slice(0, 2).join(' <br>')
+        },*/
         "style": {
           "color": "#000000"
         }
