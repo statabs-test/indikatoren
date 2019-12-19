@@ -47,7 +47,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A",
+      "color": "#999",
+      "visible": false,
       "data": [
         [
           "2010",
