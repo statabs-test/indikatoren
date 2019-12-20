@@ -1,0 +1,302 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003 (N=1497)",
+          20.975283901135
+        ],
+        [
+          "2005 (N=782)",
+          18.542199488491
+        ],
+        [
+          "2007 (N=762)",
+          19.816272965879
+        ],
+        [
+          "2011 (N=1009)",
+          31.516352824578
+        ],
+        [
+          "2015 (N=1001)",
+          31.268731268731
+        ]
+      ],
+      "name": "Sehr gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003 (N=1497)",
+          61.857047428189
+        ],
+        [
+          "2005 (N=782)",
+          65.601023017902
+        ],
+        [
+          "2007 (N=762)",
+          65.485564304461
+        ],
+        [
+          "2011 (N=1009)",
+          55.698711595639
+        ],
+        [
+          "2015 (N=1001)",
+          58.441558441558
+        ]
+      ],
+      "name": "Eher gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003 (N=1497)",
+          14.161656646626
+        ],
+        [
+          "2005 (N=782)",
+          12.787723785166
+        ],
+        [
+          "2007 (N=762)",
+          12.860892388451
+        ],
+        [
+          "2011 (N=1009)",
+          9.613478691774
+        ],
+        [
+          "2015 (N=1001)",
+          8.691308691308
+        ]
+      ],
+      "name": "Eher nicht so gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2003 (N=1497)",
+          2.070808283233
+        ],
+        [
+          "2005 (N=782)",
+          2.685421994884
+        ],
+        [
+          "2007 (N=762)",
+          1.574803149606
+        ],
+        [
+          "2011 (N=1009)",
+          2.874132804757
+        ],
+        [
+          "2015 (N=1001)",
+          1.098901098901
+        ]
+      ],
+      "name": "Gar nicht gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003 (N=1497)",
+          0.935203740814
+        ],
+        [
+          "2005 (N=782)",
+          0.383631713554
+        ],
+        [
+          "2007 (N=762)",
+          0.262467191601
+        ],
+        [
+          "2011 (N=1009)",
+          0.29732408325
+        ],
+        [
+          "2015 (N=1001)",
+          0.4995004995
+        ]
+      ],
+      "name": "keine Angaben",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none",
+        "fontSize": "10px"
+      },
+      "formatter": function() {
+            	return this.value.replace(" ", "<br/>");
+            }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "renderTo": "container-8400",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beurteilung der eigenen wirtschaftlichen Situation"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-20"
+  },
+  "legend": {
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "useHTML": true,
+    "padding": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "width": 95
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": 8400
+  }
+}

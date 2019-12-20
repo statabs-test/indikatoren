@@ -1,0 +1,451 @@
+{
+  "series": [
+    {
+      "color": "#256370",
+      "data": [
+        [
+          "Arbeitskollegen 2017",
+          0.5
+        ],
+        [
+          "Arbeitskollegen 2013",
+          0.4
+        ],
+        [
+          "Arbeitskollegen 2009",
+          0.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2017",
+          1.5
+        ],
+        [
+          "Nachbarn 2013",
+          1.2
+        ],
+        [
+          "Nachbarn 2009",
+          2.7
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2017",
+          2.6
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          3
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          3.8
+        ]
+      ],
+      "name": "Ja, regelmässig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "Arbeitskollegen 2017",
+          2.5
+        ],
+        [
+          "Arbeitskollegen 2013",
+          2.9
+        ],
+        [
+          "Arbeitskollegen 2009",
+          3.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2017",
+          11.7
+        ],
+        [
+          "Nachbarn 2013",
+          10.9
+        ],
+        [
+          "Nachbarn 2009",
+          12
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2017",
+          18.4
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          16.8
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          18.9
+        ]
+      ],
+      "name": "Ja, hin und wieder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "Arbeitskollegen 2017",
+          8.6
+        ],
+        [
+          "Arbeitskollegen 2013",
+          8.8
+        ],
+        [
+          "Arbeitskollegen 2009",
+          9.7
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2017",
+          17.3
+        ],
+        [
+          "Nachbarn 2013",
+          16.4
+        ],
+        [
+          "Nachbarn 2009",
+          19.4
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2017",
+          21.4
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          19.9
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          23.5
+        ]
+      ],
+      "name": "Ja, selten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Arbeitskollegen 2017",
+          73.2
+        ],
+        [
+          "Arbeitskollegen 2013",
+          70.3
+        ],
+        [
+          "Arbeitskollegen 2009",
+          71.9
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2017",
+          57.9
+        ],
+        [
+          "Nachbarn 2013",
+          57.2
+        ],
+        [
+          "Nachbarn 2009",
+          54.2
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2017",
+          46.5
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          46.6
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          43.3
+        ]
+      ],
+      "name": "Nein, nie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "Arbeitskollegen 2017",
+          2.8
+        ],
+        [
+          "Arbeitskollegen 2013",
+          2.8
+        ],
+        [
+          "Arbeitskollegen 2009",
+          2.6
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2017",
+          1.2
+        ],
+        [
+          "Nachbarn 2013",
+          1.5
+        ],
+        [
+          "Nachbarn 2009",
+          1.3
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2017",
+          1.1
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          1.9
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          1.3
+        ]
+      ],
+      "name": "Nein, nicht möglich",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "Arbeitskollegen 2017",
+          12.4
+        ],
+        [
+          "Arbeitskollegen 2013",
+          14.8
+        ],
+        [
+          "Arbeitskollegen 2009",
+          12.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachbarn 2017",
+          10.4
+        ],
+        [
+          "Nachbarn 2013",
+          12.8
+        ],
+        [
+          "Nachbarn 2009",
+          10.5
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Freunde und Bekannte 2017",
+          10
+        ],
+        [
+          "Freunde und Bekannte 2013",
+          11.8
+        ],
+        [
+          "Freunde und Bekannte 2009",
+          9.3
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "reversed": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left than lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "inverted": true,
+    "renderTo": "container-8380",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Erhaltene Hilfeleistungen"
+  },
+  "subtitle": {
+    "text": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?»"
+  },
+  "yAxis": {
+    "type": "category",
+    "tickInterval": null,
+    "lineColor": "#B9CFD7",
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 3,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "reversedStacks": false
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            },
+    "itemWidth": 150
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F76c-e.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-20"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": 8380
+  }
+}
