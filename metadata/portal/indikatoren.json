@@ -26632,5 +26632,45 @@
 		"chart-id": 8285,
 		"filter": "",
 		"id": 8285
+	},
+	{
+		"title": "Arealentwicklungen",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
+		"thema": "09 Gebäude und Wohnungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mapStadt",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8317,
+		"chart-id": 8317,
+		"filter": "",
+		"id": 8317
 	}
 ]
