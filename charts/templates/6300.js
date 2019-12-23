@@ -103,14 +103,12 @@
     ],
     "legend": {
       "enabled": true,
-      "x": 0,
-      //"y": 30,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
       labelFormatter: function () {
-        return this.name.replace("der Löhne", "Löhne");
+        return this.name.replace("der Löhne von Frauen und Männern", "Löhne Frauen/Männer");
       },
       "itemStyle": {
         "fontWeight": "normal"
