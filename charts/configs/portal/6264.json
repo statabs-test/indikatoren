@@ -90,7 +90,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -102,7 +102,7 @@
     },
     "type": "line",
     "renderTo": "container-6264",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -111,7 +111,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Indexierter Verlauf der Haushalte in Begegnungszonen"
+    "text": "Haushalte in Begegnungszonen"
   },
   "subtitle": {
     "style": {
@@ -120,7 +120,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "indexiert (2011 = 100), Basel",
     "align": "left"
   },
   "tooltip": {
@@ -172,9 +172,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
   },
   "legend": {
     "enabled": true,

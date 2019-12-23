@@ -3752,7 +3752,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Bevölkerungsdichte nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3761,7 +3761,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Einwohner pro Hektar nach Wohnviertel",
+    "text": "Einwohner pro Hektar, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {

@@ -3638,7 +3638,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 992,
-    "height": 484,
+    "height": 497,
     "spacing": [
       2,
       2,
@@ -3734,7 +3734,7 @@
 	            }
     },
     "renderTo": "container-6250",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -3753,7 +3753,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Quadratmetern",
+    "text": "in Quadratmetern, 2015",
     "align": "left"
   },
   "credits": {
@@ -3767,9 +3767,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt."
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-23"
   },
   "colorAxis": {
     "min": 0,

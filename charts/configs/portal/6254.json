@@ -95,7 +95,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte pro Hektar",
+    "text": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -149,7 +149,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-7"
   },
   "legend": {
     "enabled": false,

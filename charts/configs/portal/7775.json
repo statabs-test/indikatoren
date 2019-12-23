@@ -224,7 +224,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.1f}"
     },
     "tickInterval": 0.1,
     "plotLines": [

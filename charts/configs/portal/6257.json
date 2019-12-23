@@ -298,7 +298,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Index der Bevölkerungs- und Beschäftigtenentwicklung"
+    "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
     "style": {
@@ -307,7 +307,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werte 2005 = 100",
+    "text": "indexiert (Basis 2005 = 100), Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -376,7 +376,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-13"
   },
   "legend": {
     "enabled": true,

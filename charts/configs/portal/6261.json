@@ -355,7 +355,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -370,7 +370,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6261",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -379,7 +379,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort"
+    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort"
   },
   "subtitle": {
     "style": {
@@ -387,7 +387,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015"
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» \u003Cbr\u003E Stand: 2015"
   },
   "navigation": {
     "menuItemStyle": {
@@ -443,9 +443,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-19"
   },
   "legend": {
     "padding": 0,
