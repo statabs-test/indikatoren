@@ -1199,6 +1199,7 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8379 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
