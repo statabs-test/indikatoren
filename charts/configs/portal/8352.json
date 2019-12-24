@@ -4,133 +4,155 @@
       "color": "rgb(71,71,71)",
       "data": [
         [
-          2014,
+          "2014",
           100
         ],
         [
-          2015,
-          103.3
+          "2015",
+          102.4
         ],
         [
-          2016,
+          "2016",
           104.7
         ],
         [
-          2017,
-          114.2
+          "2017",
+          107.6
         ],
         [
-          2018,
-          119.2
+          "2018",
+          111.6
         ]
       ],
-      "name": "Basel-Stadt"
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
     },
     {
       "color": "rgb(255,128,40)",
       "data": [
         [
-          2014,
+          "2014",
           100
         ],
         [
-          2015,
-          94.5
+          "2015",
+          101.2
         ],
         [
-          2016,
-          91.2
+          "2016",
+          100.7
         ],
         [
-          2017,
-          91.1
+          "2017",
+          102.4
         ],
         [
-          2018,
-          92.1
+          "2018",
+          105
         ]
       ],
-      "name": "Basel-Landschaft"
+      "name": "Basel-Landschaft",
+      "turboThreshold": 0
     },
     {
       "color": "rgb(250,189,36)",
       "data": [
         [
-          2014,
+          "2014",
           100
         ],
         [
-          2015,
+          "2015",
+          97.6
+        ],
+        [
+          "2016",
+          97
+        ],
+        [
+          "2017",
+          98.9
+        ],
+        [
+          "2018",
           100.9
-        ],
-        [
-          2016,
-          100.7
-        ],
-        [
-          2017,
-          98
-        ],
-        [
-          2018,
-          96.4
         ]
       ],
-      "name": "Jura"
+      "name": "Jura",
+      "turboThreshold": 0
     },
     {
       "color": "rgb(180,117,171)",
       "data": [
         [
-          2014,
+          "2014",
           100
         ],
         [
-          2015,
-          101.4
+          "2015",
+          101.5
         ],
         [
-          2016,
-          101.8
+          "2016",
+          102.6
         ],
         [
-          2017,
-          108.6
+          "2017",
+          105
         ],
         [
-          2018,
-          112.4
+          "2018",
+          108.3
         ]
       ],
-      "name": "BS\u002FBL\u002FJU"
+      "name": "BS\u002FBL\u002FJU",
+      "turboThreshold": 0
     },
     {
       "color": "rgb(153,3,0)",
       "data": [
         [
-          2014,
+          "2014",
           100
         ],
         [
-          2015,
-          99.2
+          "2015",
+          100.1
         ],
         [
-          2016,
-          98.9
+          "2016",
+          100.6
         ],
         [
-          2017,
-          104.1
+          "2017",
+          101.1
         ],
         [
-          2018,
-          108
+          "2018",
+          102.6
         ]
       ],
-      "name": "Schweiz"
+      "name": "Schweiz",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+            return this.value.split("-").slice(0, -1);
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -158,7 +180,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-8372"
+    "renderTo": "container-8352"
   },
   "title": {
     "style": {
@@ -167,7 +189,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Logiernächte"
+    "text": "Bruttoinlandprodukt"
   },
   "subtitle": {
     "style": {
@@ -176,7 +198,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indexiert, 2014 = 100",
+    "text": "real; Veränderung",
     "align": "left"
   },
   "tooltip": {
@@ -197,19 +219,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -225,7 +237,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "enabled": true,
@@ -291,6 +303,6 @@
     }
   },
   "exporting": {
-    "filename": 8372
+    "filename": 8352
   }
 }
