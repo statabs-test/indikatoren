@@ -26,7 +26,7 @@
 		colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-               	from: 0,
+               	from: 0.000,
                 to:0.009,
                 color: '#D3E2E4',
                 name:  "<span style='color: rgba(0,0,0,0)'>00,0% </span> < \u00A0 0,01%"
@@ -55,8 +55,8 @@
 		    "seriesMapping": [
 		      {
 		      	x: 0, y: 2
-		      },
-		      /*{
+		      }/*,
+		      {
 		      	//2nd series: use y values from column 3
 		      	y: 2
 		      }*/
@@ -68,7 +68,7 @@
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
 				"borderColor": "#fbfbfb",		
-				"joinBy": ['TXT', 'Wohnviertel Id'],
+				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
 					"hover": {
@@ -112,7 +112,7 @@
 							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < \u00A0\u00A0 300",
 							from: 0,
 							to: 299, 
-							diameter: 5
+							diameter: 0.0000000000000001//5
 						},
 						{
 							name: ' 300 − \u00A0\u00A0 999',
@@ -153,17 +153,17 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 243-5+120, 212+20, 105+15, 130-10, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355, 212+20, 110, 130-22, '#fbfbfb');
-					fn.addLegendTitle(chart, chart.series[1].name, 245-5+120, 210+20);
-	                //fn.addLegendTitle(chart, chart.series[1].name.split(' ').slice(0, 2).join(' <br>'), 355, 210+20);
+	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
+					fn.addLegendRectangle(chart, 355-5, 212+15, 110+10, 130, '#fbfbfb');
+					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
+	                fn.addLegendTitle(chart, chart.series[1].name, 355, 210+20);
 	                
-	               	//fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                //fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');
-	                //fn.addLegendCircle(chart, 370, 285+15, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                //fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275+15, undefined, false, 'right');
-	                //fn.addLegendCircle(chart, 370, 310+15, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					//fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300+15, undefined, false, 'right');
+	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 370, 285+15, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275+15, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 370, 310+15, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300+15, undefined, false, 'right');*/
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);

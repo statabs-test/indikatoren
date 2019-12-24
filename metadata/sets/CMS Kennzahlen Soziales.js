@@ -97,7 +97,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "mapStadt",
+		"template": "mappieStadt",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "_000",

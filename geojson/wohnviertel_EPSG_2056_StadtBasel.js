@@ -103,10 +103,6 @@ var geojson_wohnviertelEPSG2056_StadtBasel =
 "properties":
 {"CODGEO":"19","LIBGEO":"Kleinhüningen","POINT_X":"2611914.134","POINT_Y":"1270283.44589","TXT":"19","ZTXT":"19","TYPE":"Kleinhüningen","yc_rel":"0.57","xc_rel":"0.545","lon":"7.59699128460389","lat":"47.583139774291"}}
 
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[[[300000,1269333.084]]]},
-"properties":
-{"CODGEO":"20"}}
-
 ]}
 
 
