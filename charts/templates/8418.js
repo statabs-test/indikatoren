@@ -1,18 +1,11 @@
 (function () {
     return {
-        "subtitle": {
-            useHTML: true
+        "chart": {
+            "type": "column",
         },
         "plotOptions": {
             "series": {
-                //pointPadding: 0,
-                //groupPadding: 0.1,
                 borderWidth: 0,
-                "dataLabels": {
-                    "style": {
-                        "fontSize": "10px"
-                    }
-                }
             },
         },
         "xAxis": {
@@ -50,12 +43,6 @@
             },
             useHTML: true,
             "shared": false
-        },
-        "chart": {
-            "renderTo": 'container-I.17.3.0003',
-            "marginBottom": 65,
-            //"marginTop": 75,
-            "type": "column",
         }
     }
 }());

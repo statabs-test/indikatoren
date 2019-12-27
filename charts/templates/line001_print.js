@@ -5,6 +5,23 @@
         load: function () {
           this.credits.element.onclick = function () { };
 
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
           //for top-left legends with no x defined: move legend to x position of first yAxis
           if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
             //square legends must be placed 3 pixels more to the left that lines, don't know why
@@ -58,7 +75,7 @@
       "title": {
         "style": {
           "color": "#000000",
-          "fontSize": '10px',
+          "fontSize": 10,
         },
         "text": ''
       },
@@ -77,7 +94,7 @@
         style: {
           fontSize: '10px',
           color: "#000000",
-          textOverflow: null,
+          textOverflow: 'none',
           whiteSpace: 'nowrap',
         }
       },
@@ -105,7 +122,8 @@
       "symbolRadius": 0,
       itemMarginBottom: 2,
       itemStyle: {
-        fontSize: "10px"
+        fontSize: "10px",
+        "fontWeight": "normal"
       },
       padding: 0,
     },
