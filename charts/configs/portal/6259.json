@@ -821,13 +821,13 @@
       "title": {
         "text": null,
         "color": "#000000",
-        "fontSize": null
+        "fontSize": "10px"
       },
       "labels": {
         "format": "{value:,.0f}",
         "style": {
           "color": "black",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -842,7 +842,7 @@
         "format": "{value:,.0f}",
         "style": {
           "color": "black",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -883,8 +883,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 45
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

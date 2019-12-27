@@ -964,7 +964,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "line001_print",
+		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_011",

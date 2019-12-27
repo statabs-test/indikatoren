@@ -1,0 +1,967 @@
+{
+  "series": [
+    {
+      "color": "#923f8d",
+      "index": 0,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Männlich",
+          33.6
+        ],
+        [
+          "Weiblich",
+          29.5
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          23.8
+        ],
+        [
+          "3000- 7499 Fr.",
+          26.6
+        ],
+        [
+          "\u003E7499 Fr.",
+          41
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Gross- basel Ost",
+          33.9
+        ],
+        [
+          "Gross- basel West",
+          30.7
+        ],
+        [
+          "Klein- basel",
+          28.9
+        ],
+        [
+          "Riehen. Bettingen",
+          30.6
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Single- HH",
+          27.5
+        ],
+        [
+          "Übrige HH o. K.",
+          31.9
+        ],
+        [
+          "HH m. mind. 1 K",
+          38.3
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "18-29 J.",
+          43.2
+        ],
+        [
+          "30-39 J.",
+          39.8
+        ],
+        [
+          "40-49 J.",
+          39.7
+        ],
+        [
+          "50-59 J.",
+          31.6
+        ],
+        [
+          "60-69 J.",
+          30
+        ],
+        [
+          "\u003E69 J.",
+          18.8
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Schweiz",
+          30.5
+        ],
+        [
+          "Ausland",
+          33.6
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          2003,
+          40.6
+        ],
+        [
+          2005,
+          45.4
+        ],
+        [
+          2007,
+          40.8
+        ],
+        [
+          2011,
+          44.9
+        ],
+        [
+          2015,
+          39.2
+        ],
+        [
+          2019,
+          30.9
+        ]
+      ],
+      "name": "Sehr gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "index": 1,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Männlich",
+          53.7
+        ],
+        [
+          "Weiblich",
+          54.6
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          48.4
+        ],
+        [
+          "3000- 7499 Fr.",
+          57.7
+        ],
+        [
+          "\u003E7499 Fr.",
+          52.9
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Gross- basel Ost",
+          52.6
+        ],
+        [
+          "Gross- basel West",
+          53.4
+        ],
+        [
+          "Klein- basel",
+          54.1
+        ],
+        [
+          "Riehen. Bettingen",
+          55
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Single- HH",
+          52.3
+        ],
+        [
+          "Übrige HH o. K.",
+          56.6
+        ],
+        [
+          "HH m. mind. 1 K",
+          53.9
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "18-29 J.",
+          45.2
+        ],
+        [
+          "30-39 J.",
+          49.1
+        ],
+        [
+          "40-49 J.",
+          53.4
+        ],
+        [
+          "50-59 J.",
+          53.3
+        ],
+        [
+          "60-69 J.",
+          55.6
+        ],
+        [
+          "\u003E69 J.",
+          60.6
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Schweiz",
+          54.6
+        ],
+        [
+          "Ausland",
+          51
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          2003,
+          45.7
+        ],
+        [
+          2005,
+          43.3
+        ],
+        [
+          2007,
+          45.7
+        ],
+        [
+          2011,
+          42.9
+        ],
+        [
+          2015,
+          47.2
+        ],
+        [
+          2019,
+          53.6
+        ]
+      ],
+      "name": "Eher gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 2,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Männlich",
+          10
+        ],
+        [
+          "Weiblich",
+          12.3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          21.8
+        ],
+        [
+          "3000- 7499 Fr.",
+          13.1
+        ],
+        [
+          "\u003E7499 Fr.",
+          4.9
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Gross- basel Ost",
+          9.5
+        ],
+        [
+          "Gross- basel West",
+          12
+        ],
+        [
+          "Klein- basel",
+          11.2
+        ],
+        [
+          "Riehen. Bettingen",
+          11.2
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Single- HH",
+          15
+        ],
+        [
+          "Übrige HH o. K.",
+          9.8
+        ],
+        [
+          "HH m. mind. 1 K",
+          5.7
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "18-29 J.",
+          7.7
+        ],
+        [
+          "30-39 J.",
+          8.1
+        ],
+        [
+          "40-49 J.",
+          4.6
+        ],
+        [
+          "50-59 J.",
+          11.5
+        ],
+        [
+          "60-69 J.",
+          11.6
+        ],
+        [
+          "\u003E69 J.",
+          17.5
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Schweiz",
+          11.1
+        ],
+        [
+          "Ausland",
+          11.2
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          2003,
+          11
+        ],
+        [
+          2005,
+          10
+        ],
+        [
+          2007,
+          12.1
+        ],
+        [
+          2011,
+          9.8
+        ],
+        [
+          2015,
+          10.6
+        ],
+        [
+          2019,
+          11.1
+        ]
+      ],
+      "name": "Eher nicht gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 3,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Männlich",
+          1.6
+        ],
+        [
+          "Weiblich",
+          2.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          4.8
+        ],
+        [
+          "3000- 7499 Fr.",
+          1.9
+        ],
+        [
+          "\u003E7499 Fr.",
+          0.6
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Gross- basel Ost",
+          2.1
+        ],
+        [
+          "Gross- basel West",
+          1.3
+        ],
+        [
+          "Klein- basel",
+          2.8
+        ],
+        [
+          "Riehen. Bettingen",
+          1.1
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Single- HH",
+          3.3
+        ],
+        [
+          "Übrige HH o. K.",
+          0.8
+        ],
+        [
+          "HH m. mind. 1 K",
+          0.8
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "18-29 J.",
+          0.6
+        ],
+        [
+          "30-39 J.",
+          1.9
+        ],
+        [
+          "40-49 J.",
+          2
+        ],
+        [
+          "50-59 J.",
+          2.2
+        ],
+        [
+          "60-69 J.",
+          1.7
+        ],
+        [
+          "\u003E69 J.",
+          2
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Schweiz",
+          1.7
+        ],
+        [
+          "Ausland",
+          2.7
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          2003,
+          2.5
+        ],
+        [
+          2005,
+          1.3
+        ],
+        [
+          2007,
+          1.3
+        ],
+        [
+          2011,
+          2.3
+        ],
+        [
+          2015,
+          2.7
+        ],
+        [
+          2019,
+          1.9
+        ]
+      ],
+      "name": "Gar nicht gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Männlich",
+          0.7
+        ],
+        [
+          "Weiblich",
+          0.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          0.4
+        ],
+        [
+          "3000- 7499 Fr.",
+          0.1
+        ],
+        [
+          "\u003E7499 Fr.",
+          0.1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Gross- basel Ost",
+          0.4
+        ],
+        [
+          "Gross- basel West",
+          0.7
+        ],
+        [
+          "Klein- basel",
+          0.4
+        ],
+        [
+          "Riehen. Bettingen",
+          0.7
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Single- HH",
+          1
+        ],
+        [
+          "Übrige HH o. K.",
+          0.1
+        ],
+        [
+          "HH m. mind. 1 K",
+          0.5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "18-29 J.",
+          2.6
+        ],
+        [
+          "30-39 J.",
+          0.3
+        ],
+        [
+          "40-49 J.",
+          0
+        ],
+        [
+          "50-59 J.",
+          0.5
+        ],
+        [
+          "60-69 J.",
+          0.3
+        ],
+        [
+          "\u003E69 J.",
+          0.4
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Schweiz",
+          0.5
+        ],
+        [
+          "Ausland",
+          0.9
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          2003,
+          0.3
+        ],
+        [
+          2005,
+          0.1
+        ],
+        [
+          2007,
+          0.1
+        ],
+        [
+          2011,
+          0.1
+        ],
+        [
+          2015,
+          0.3
+        ],
+        [
+          2019,
+          0.6
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "index": 5,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Männlich",
+          0.6
+        ],
+        [
+          "Weiblich",
+          1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          0.8
+        ],
+        [
+          "3000- 7499 Fr.",
+          0.6
+        ],
+        [
+          "\u003E7499 Fr.",
+          0.4
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Gross- basel Ost",
+          1.6
+        ],
+        [
+          "Gross- basel West",
+          1.9
+        ],
+        [
+          "Klein- basel",
+          2.6
+        ],
+        [
+          "Riehen. Bettingen",
+          1.4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Single- HH",
+          0.9
+        ],
+        [
+          "Übrige HH o. K.",
+          0.7
+        ],
+        [
+          "HH m. mind. 1 K",
+          0.8
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "18-29 J.",
+          0.6
+        ],
+        [
+          "30-39 J.",
+          0.9
+        ],
+        [
+          "40-49 J.",
+          0.3
+        ],
+        [
+          "50-59 J.",
+          0.8
+        ],
+        [
+          "60-69 J.",
+          0.8
+        ],
+        [
+          "\u003E69 J.",
+          0.7
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Schweiz",
+          1.7
+        ],
+        [
+          "Ausland",
+          0.7
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          2003,
+          0
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2019,
+          1.9
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginBottom": 75,
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-8260",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Gesundheitliche Verfassung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie geht es Ihnen zurzeit gesundheitlich?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "enabled": false
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 5
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f}\u003C\u002Fb\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8260
+  }
+}

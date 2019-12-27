@@ -1089,6 +1089,11 @@ id | visible | visibleInPortal | indikatorenset
 7778 | true | false | Richtplan
 7779 | true | true | Richtplan
 7782 | true | false | Richtplan
+8260 | true | true | CMS Kennzahlen Soziales
+8285 | true | true | CMS Kennzahlen Soziales
+8317 | true | true | CMS Kennzahlen Soziales
+8352 | true | true | Wirtschaftsbericht BS_BL_JU
+8353 | true | true | Wirtschaftsbericht BS_BL_JU
 8417 | true | false | Richtplan (Print)
 8418 | true | false | Richtplan (Print)
 8419 | true | false | Richtplan (Print)
