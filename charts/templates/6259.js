@@ -26,7 +26,7 @@
       },
       min: 0,
       max: 120000,
-      tickInterval: 30000,
+      tickInterval: 15000,
     },
     {
       "title": {
@@ -47,8 +47,8 @@
         },
       },
       min: 0,
-      max: 250000,
-      tickInterval: 62500,
+      max: 240000,
+      tickInterval: 30000,
       "opposite": true
     }
     ],

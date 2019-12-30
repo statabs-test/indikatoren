@@ -20,7 +20,7 @@
       plotLines: [{
         value: 0,
         color: '#B9CFD7',
-        width: 2,
+        width: 1,
         zIndex: 0
       }]
     },

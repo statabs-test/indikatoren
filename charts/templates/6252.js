@@ -25,7 +25,7 @@
         //rotation: -90,
         //x: -10
         formatter: function () {
-          return this.value.replace('(', '<br>(');
+          return this.value.replace('(', '<br>(').replace('.',',');
         }
       }
     },

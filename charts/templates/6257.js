@@ -7,7 +7,7 @@
     "yAxis": [{
       "min": 0,
       "max": 200000,
-      "tickInterval": 50000,
+      "tickInterval": 25000,
       title: {
         text: null,
       },
@@ -22,7 +22,7 @@
     {
       min: 95,
       max: 115,
-      tickInterval: 5,
+      tickInterval: 2.5,
       title: {
         text: null
       },

@@ -7,16 +7,16 @@
       "tickInterval": 1
     },
     "yAxis": {
-      "min": 95,
-      max: 125,
+      "min": 90,
+      max: 130,
       tickInterval: 5,
       "labels": {
         "format": "{value:,.0f}"
       },
       plotLines: [{
         color: '#B9CFD7',
-        value: 100, 
-        width: 2 
+        value: 100,
+        width: 2
       }]
     },
     "series": [
@@ -35,9 +35,9 @@
       {
         "color": "#E6E600",
       },/* gelb  */
-      {
+      /*{
         "color": "#008AC3",
-      },/* blau  */
+      },*//* blau  */
     ],
     "legend": {
       "enabled": true,
