@@ -1,125 +1,205 @@
 {
   "series": [
     {
-      "color": "#C8C8C8",
-      "index": 1,
+      "color": "#007A2F",
+      "index": 5,
       "legendIndex": 1,
       "data": [
         [
+          "Einkaufsmögl. in Basel",
+          745
+        ],
+        [
           "ÖV-Angebot",
-          0.9
+          1035
+        ],
+        [
+          "Gesundheitsversorgung",
+          777
+        ],
+        [
+          "Abfallbeseitigung",
+          736
         ],
         [
           "Grünanlagen",
-          0.5
+          747
+        ],
+        [
+          "Kulturangebot",
+          650
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          700
         ],
         [
           "Verkehrssicherheit",
-          1.1
+          367
         ],
         [
           "Gebäude\u002FStrassenbild",
-          2.4
+          346
         ],
         [
           "Quartierleben",
-          9.2
+          394
         ],
         [
-          "Bevölkerung",
-          5.6
+          "Zusammensetz. Bev.",
+          315
         ],
         [
           "Luftqualität",
-          2.5
+          282
         ],
         [
           "Lärmsituation",
-          0.3
+          441
         ],
         [
           "Öffentliche Sicherheit",
-          0.8
+          317
+        ],
+        [
+          "Sauberkeit",
+          428
+        ],
+        [
+          "Senioreneinrichtungen",
+          276
         ],
         [
           "Schule, Bildung",
-          19.6
+          388
         ],
         [
           "Arbeitsplatzangebot",
-          25.4
+          156
+        ],
+        [
+          "Behinderteneinrichtungen",
+          188
+        ],
+        [
+          "Jugendeinrichtungen",
+          149
+        ],
+        [
+          "Kinderbetreuung",
+          179
         ],
         [
           "Wohnungsangebot",
-          14.6
+          152
         ],
         [
           "Parkplätze",
-          27
+          115
         ]
       ],
-      "name": "Weiss nicht\u002Fk.A.",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
-      "index": 2,
+      "color": "#73B97C",
+      "index": 4,
       "legendIndex": 2,
       "data": [
         [
+          "Einkaufsmögl. in Basel",
+          688
+        ],
+        [
           "ÖV-Angebot",
-          0.3
+          397
+        ],
+        [
+          "Gesundheitsversorgung",
+          644
+        ],
+        [
+          "Abfallbeseitigung",
+          645
         ],
         [
           "Grünanlagen",
-          0.9
+          626
+        ],
+        [
+          "Kulturangebot",
+          693
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          631
         ],
         [
           "Verkehrssicherheit",
-          1.5
+          922
         ],
         [
           "Gebäude\u002FStrassenbild",
-          1.5
+          904
         ],
         [
           "Quartierleben",
-          0.7
+          829
         ],
         [
-          "Bevölkerung",
-          1.4
+          "Zusammensetz. Bev.",
+          885
         ],
         [
           "Luftqualität",
-          2.4
+          930
         ],
         [
           "Lärmsituation",
-          4.4
+          750
         ],
         [
           "Öffentliche Sicherheit",
-          3.5
+          831
+        ],
+        [
+          "Sauberkeit",
+          698
+        ],
+        [
+          "Senioreneinrichtungen",
+          802
         ],
         [
           "Schule, Bildung",
-          0.8
+          579
         ],
         [
           "Arbeitsplatzangebot",
-          2
+          643
+        ],
+        [
+          "Behinderteneinrichtungen",
+          658
+        ],
+        [
+          "Jugendeinrichtungen",
+          662
+        ],
+        [
+          "Kinderbetreuung",
+          348
         ],
         [
           "Wohnungsangebot",
-          5.8
+          551
         ],
         [
           "Parkplätze",
-          16.4
+          380
         ]
       ],
-      "name": "Ganz unzufrieden",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
@@ -128,181 +208,301 @@
       "legendIndex": 3,
       "data": [
         [
+          "Einkaufsmögl. in Basel",
+          48
+        ],
+        [
           "ÖV-Angebot",
-          3.5
+          53
+        ],
+        [
+          "Gesundheitsversorgung",
+          44
+        ],
+        [
+          "Abfallbeseitigung",
+          87
         ],
         [
           "Grünanlagen",
-          7.3
+          110
+        ],
+        [
+          "Kulturangebot",
+          69
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          152
         ],
         [
           "Verkehrssicherheit",
-          11.5
+          173
         ],
         [
           "Gebäude\u002FStrassenbild",
-          12.2
+          181
         ],
         [
           "Quartierleben",
-          7.7
+          114
         ],
         [
-          "Bevölkerung",
-          10.7
+          "Zusammensetz. Bev.",
+          156
         ],
         [
           "Luftqualität",
-          14.6
+          220
         ],
         [
           "Lärmsituation",
-          15.7
+          235
         ],
         [
           "Öffentliche Sicherheit",
-          19.1
+          287
+        ],
+        [
+          "Sauberkeit",
+          319
+        ],
+        [
+          "Senioreneinrichtungen",
+          109
         ],
         [
           "Schule, Bildung",
-          7.3
+          98
         ],
         [
           "Arbeitsplatzangebot",
-          14.8
+          205
+        ],
+        [
+          "Behinderteneinrichtungen",
+          189
+        ],
+        [
+          "Jugendeinrichtungen",
+          262
+        ],
+        [
+          "Kinderbetreuung",
+          70
         ],
         [
           "Wohnungsangebot",
-          28.9
+          401
         ],
         [
           "Parkplätze",
-          21.3
+          299
         ]
       ],
       "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
-      "index": 4,
+      "color": "#CD9C00",
+      "index": 2,
       "legendIndex": 4,
       "data": [
         [
-          "ÖV-Angebot",
-          26.4
+          "Einkaufsmögl. in Basel",
+          2
         ],
-        [
-          "Grünanlagen",
-          41.6
-        ],
-        [
-          "Verkehrssicherheit",
-          61.4
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          60.7
-        ],
-        [
-          "Quartierleben",
-          55.9
-        ],
-        [
-          "Bevölkerung",
-          60.7
-        ],
-        [
-          "Luftqualität",
-          61.8
-        ],
-        [
-          "Lärmsituation",
-          50.1
-        ],
-        [
-          "Öffentliche Sicherheit",
-          55.4
-        ],
-        [
-          "Schule, Bildung",
-          43.2
-        ],
-        [
-          "Arbeitsplatzangebot",
-          46.5
-        ],
-        [
-          "Wohnungsangebot",
-          39.8
-        ],
-        [
-          "Parkplätze",
-          27.1
-        ]
-      ],
-      "name": "Eher zufrieden",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "index": 5,
-      "legendIndex": 5,
-      "data": [
         [
           "ÖV-Angebot",
-          68.9
+          4
         ],
         [
-          "Grünanlagen",
-          49.7
+          "Gesundheitsversorgung",
+          6
         ],
         [
-          "Verkehrssicherheit",
-          24.5
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          23.2
-        ],
-        [
-          "Quartierleben",
-          26.6
-        ],
-        [
-          "Bevölkerung",
-          21.6
-        ],
-        [
-          "Luftqualität",
-          18.7
-        ],
-        [
-          "Lärmsituation",
-          29.5
-        ],
-        [
-          "Öffentliche Sicherheit",
-          21.1
-        ],
-        [
-          "Schule, Bildung",
+          "Abfallbeseitigung",
           29
         ],
         [
-          "Arbeitsplatzangebot",
-          11.3
+          "Grünanlagen",
+          14
         ],
         [
-          "Wohnungsangebot",
+          "Kulturangebot",
+          6
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          17
+        ],
+        [
+          "Verkehrssicherheit",
+          23
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          22
+        ],
+        [
+          "Quartierleben",
+          10
+        ],
+        [
+          "Zusammensetz. Bev.",
+          20
+        ],
+        [
+          "Luftqualität",
+          36
+        ],
+        [
+          "Lärmsituation",
+          66
+        ],
+        [
+          "Öffentliche Sicherheit",
+          53
+        ],
+        [
+          "Sauberkeit",
+          53
+        ],
+        [
+          "Senioreneinrichtungen",
+          7
+        ],
+        [
+          "Schule, Bildung",
           11
         ],
         [
+          "Arbeitsplatzangebot",
+          28
+        ],
+        [
+          "Behinderteneinrichtungen",
+          15
+        ],
+        [
+          "Jugendeinrichtungen",
+          16
+        ],
+        [
+          "Kinderbetreuung",
+          7
+        ],
+        [
+          "Wohnungsangebot",
+          80
+        ],
+        [
           "Parkplätze",
-          8.2
+          230
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "Ganz unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Einkaufsmögl. in Basel",
+          15
+        ],
+        [
+          "ÖV-Angebot",
+          13
+        ],
+        [
+          "Gesundheitsversorgung",
+          32
+        ],
+        [
+          "Abfallbeseitigung",
+          5
+        ],
+        [
+          "Grünanlagen",
+          7
+        ],
+        [
+          "Kulturangebot",
+          77
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          3
+        ],
+        [
+          "Verkehrssicherheit",
+          16
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          36
+        ],
+        [
+          "Quartierleben",
+          136
+        ],
+        [
+          "Zusammensetz. Bev.",
+          82
+        ],
+        [
+          "Luftqualität",
+          37
+        ],
+        [
+          "Lärmsituation",
+          5
+        ],
+        [
+          "Öffentliche Sicherheit",
+          12
+        ],
+        [
+          "Sauberkeit",
+          6
+        ],
+        [
+          "Senioreneinrichtungen",
+          291
+        ],
+        [
+          "Schule, Bildung",
+          263
+        ],
+        [
+          "Arbeitsplatzangebot",
+          351
+        ],
+        [
+          "Behinderteneinrichtungen",
+          427
+        ],
+        [
+          "Jugendeinrichtungen",
+          381
+        ],
+        [
+          "Kinderbetreuung",
+          431
+        ],
+        [
+          "Wohnungsangebot",
+          202
+        ],
+        [
+          "Parkplätze",
+          378
+        ]
+      ],
+      "name": "keine Angaben",
       "turboThreshold": 0
     }
   ],
@@ -320,149 +520,132 @@
     "labels": {
       "rotation": 0,
       "style": {
+        "fontSize": "10px",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "fontSize": "10px"
+        "textOverflow": "none"
       },
-      "formatter": function() {
-            	return this.value;
-            },
+      "formatter": function () {
+          return this.value;
+        },
       "step": 1,
       "overflow": "justify"
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-                this.credits.element.onclick = function() {};
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left than lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
                     }
-                  }
-                );
-              }                              
-            }
+                }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "type": "column",
     "width": 665,
-    "height": 221,
+    "height": 413,
     "spacing": [
       2,
       2,
       2,
       2
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "style": {
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "zoomType": "xy",
-    "type": "column",
     "inverted": true,
     "renderTo": "container-6261",
     "spacingBottom": 12
   },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» \u003Cbr\u003E Stand: 2015"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
   "plotOptions": {
     "series": {
+      "stacking": "percent",
       "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "stacking": "percent"
+      }
+    },
+    "column": {
+      "groupPadding": 0
     }
   },
+  "title": {
+    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort"
+  },
+  "subtitle": {
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» \u003Cbr\u003E Stand: 2015"
+  },
   "yAxis": {
+    "type": "category",
     "tickInterval": 10,
+    "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": 10
-      },
-      "text": ""
+      "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "format": "{value}%",
       "style": {
+        "fontSize": "10px",
         "color": "#000000",
-        "fontSize": "10px"
-      }
+        "textOverflow": "none"
+      },
+      "rotation": 0
     }
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 1
+    "shared": false
   },
   "credits": {
     "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
     "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
       "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-19"
   },
-  "legend": {
-    "padding": 0,
-    "itemMarginBottom": 2,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "useHTML": true,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontFamily": "Arial",
-      "fontWeight": "normal"
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
   },
   "exporting": {
     "filename": 6261

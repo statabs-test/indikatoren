@@ -1,125 +1,127 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#83522E",
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-            }
-            return "";
-          }
-      },
       "data": [
         [
-          1998,
-          1.519192074785
-        ],
-        [
-          1999,
-          1.540636450188
-        ],
-        [
           2000,
-          1.306536525381
+          37764
         ],
         [
           2001,
-          1.409290163808
+          22039
         ],
         [
           2002,
-          1.326453295991
+          23722
         ],
         [
           2003,
-          1.360831065281
+          34053
         ],
         [
           2004,
-          1.438711098765
+          52201
         ],
         [
           2005,
-          1.519506399938
+          65745
         ],
         [
           2006,
-          1.405933402148
+          43273
         ],
         [
           2007,
-          1.401539019686
+          52559
         ],
         [
           2008,
-          1.235404752584
+          60842
         ],
         [
           2009,
-          0.924635966335
+          49314
         ],
         [
           2010,
-          0.745160737737
+          81705
         ],
         [
           2011,
-          0.495886611061
+          87909
         ],
         [
           2012,
-          0.472750652395
+          91175
         ],
         [
           2013,
-          0.340820045127
+          71229
         ],
         [
           2014,
-          0.23033892727871
+          75525
         ],
         [
           2015,
-          0.336533979677
+          60952
         ],
         [
           2016,
-          0.416770398237
+          54565
+        ],
+        [
+          2017,
+          59699
+        ],
+        [
+          2018,
+          58024
+        ],
+        [
+          2019,
+          61674
         ]
       ],
-      "name": "Leerwohnungsquote in %"
+      "name": "Büro"
     }
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -127,17 +129,18 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 10,
     "renderTo": "container-6245",
-    "spacingBottom": 28
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -159,8 +162,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -176,11 +178,11 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.1f}"
-    }
+      }
+    },
+    "tickInterval": 20000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -189,7 +191,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
@@ -220,7 +222,8 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "fontWeight": "normal"
     },
     "padding": 0
   },

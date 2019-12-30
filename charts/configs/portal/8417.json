@@ -535,13 +535,16 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": -45
     },
     "tickLength": 0,
-    "min": "1960-12-31",
-    "endOnTick": true,
-    "startOnTick": true
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "tickInterval": 155520000000,
+    "min": -60652800000
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -549,9 +552,9 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      2,
-      2,
-      2,
+      6,
+      0,
+      3,
       2
     ],
     "style": {
@@ -559,29 +562,42 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false) {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
                 }
     },
-    "spacingTop": 15,
-    "spacingRight": 10,
+    "type": "area",
     "renderTo": "container-8417",
-    "spacingBottom": 12
+    "spacingBottom": 13
   },
   "plotOptions": {
     "series": {
@@ -634,6 +650,8 @@
       },
       "format": "{value:,.0f}"
     },
+    "max": 250000,
+    "tickInterval": 50000,
     "showLastLabel": true,
     "endOnTick": true
   },
@@ -663,14 +681,25 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px"
-    }
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": false
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
+  },
+  "navigator": {
+    "enabled": false
+  },
+  "scrollbar": {
+    "enabled": false
+  },
+  "rangeSelector": {
+    "enabled": false
   },
   "exporting": {
     "filename": 8417

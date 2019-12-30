@@ -75,7 +75,8 @@
 			symbolPadding: 10,
 			itemStyle: {
 				fontSize: "15px",
-				"fontWeight": "normal"
+				"fontWeight": "normal",
+				color: '#000000'
 			},
 			"title": {
 				"style": {
@@ -126,7 +127,7 @@
 					formatter: function () {
 						return '1 km';
 					},
-					style: { fontSize: "15px", fontWeight: "normal", color: 'black' },
+					style: { fontSize: "15px", fontWeight: "normal", color: '#000000' },
 					y: -10
 				}
 			}
@@ -364,7 +365,8 @@
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
 						fontSize: '15px',
-						fontWeight: 'bold'
+						fontWeight: 'bold',
+						color: '#000000'
 					})
 					.attr({
 						zIndex: 6,
@@ -386,7 +388,8 @@
 			addLegendLabel: function (chart, text, x, y, cssClass, useHtml) {
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
-						fontSize: '15px'
+						fontSize: '15px',
+						color: '#000000'
 					})
 					.attr({
 						zIndex: 6,
@@ -401,7 +404,8 @@
 						class: cssClass + ' pieLegend'
 					})
 					.css({
-						fontWeight: 'bold'
+						fontWeight: 'bold',
+						color: '#000000'
 					}).
 					add();
 			},

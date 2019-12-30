@@ -146,9 +146,9 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                  	 return this.value;
-            }
+      "formatter": function () {
+                    return this.value;
+                }
     }
   },
   "chart": {
