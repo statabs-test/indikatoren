@@ -108,19 +108,19 @@
 								name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 1,0',
 								from: 0,
 								to: 0.999,
-								diameter: 2
+								diameter: 4
 							},
 							{
 								name: ' 1,0 − 2,9',
 								from: 1.0,
 								to: 2.999,
-								diameter: 8
+								diameter: 16
 							},
 							{
 								name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 3,0',
 								from: 3,
 								to: 1000000,
-								diameter: 16
+								diameter: 32
 							}
 						];
 
@@ -153,16 +153,16 @@
 					fn.addLegendTitle(chart, pieSizeSeries.name + '<br>in Einwohnern pro ha', 765, 270, undefined, true);
 
 					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 320, undefined, true, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 318, undefined, true, 'right');
 					fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, true, 'right');
-					fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 795, 365, undefined, true, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 338, undefined, true, 'right');
+					fn.addLegendCircle(chart, 778, 380, 0.5 * pieSizeCatConfig[2].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 795, 368, undefined, true, 'right');
 
-					fn.addLegendSquare(chart, 878, 341, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 893, 334);
-					fn.addLegendSquare(chart, 878, 360, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 893, 354);
+					fn.addLegendSquare(chart, 773, 410, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Zunahme', 788, 403);
+					fn.addLegendSquare(chart, 773, 430, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Abnahme', 788, 423);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

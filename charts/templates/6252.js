@@ -24,9 +24,9 @@
       labels: {
         //rotation: -90,
         //x: -10
-        /*formatter: function () {
+        formatter: function () {
           return this.value.replace('(', '<br>(');
-        }*/
+        }
       }
     },
     series: [

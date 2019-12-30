@@ -15,13 +15,10 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -287,
+			"x": -292,
 			"y": -60,
 			itemMarginBottom: 2,
-			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
-			}
+			symbolRadius: 0
 		},
 		colorAxis: {
 			dataClassColor: 'category',
@@ -102,7 +99,7 @@
 					var pieSizeSeries = chart.series[1];
 
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					//var maxPieDiameter = 20;
 
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig =
@@ -111,19 +108,19 @@
 								name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 19 999',
 								from: 0,
 								to: 19999,
-								diameter: 2
+								diameter: 4
 							},
 							{
 								name: ' 20 000 − 39 999',
 								from: 20000,
 								to: 39999,
-								diameter: 8
+								diameter: 16
 							},
 							{
 								name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 40 000',
 								from: 40000,
 								to: 1000000000,
-								diameter: 16
+								diameter: 32
 							}
 						];
 
@@ -152,22 +149,21 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					//fn.addLegendTitle(chart, choroplethSeries.name + " in m²", 540, 270, undefined, true);
-					fn.addLegendTitle(chart, "Zunahme von<br>1995 bis 2015 in m²", 540, 270, 'pieLegend');
-					//fn.addLegendTitle(chart, pieSizeSeries.name + " in m²", 765, 270, undefined, true);
-					fn.addLegendTitle(chart, 'Bruttogeschossfläche<br>in 1000 m²', 765, 270, undefined, true);
+					fn.addLegendTitle(chart, "Bruttogeschossfläche<br>" + choroplethSeries.name +" in m²", 540, 270, 'pieLegend');
+					fn.addLegendTitle(chart, pieSizeSeries.name + '<br>in m²', 765, 270, undefined, true);
 
 					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 320, undefined, true, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 318, undefined, true, 'right');
 					fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, true, 'right');
-					fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 795, 365, undefined, true, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 338, undefined, true, 'right');
+					fn.addLegendCircle(chart, 778, 380, 0.5 * pieSizeCatConfig[2].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 795, 368, undefined, true, 'right');
 
-					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
-					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
+
+					fn.addLegendSquare(chart, 773, 410, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Zunahme', 788, 403);
+					fn.addLegendSquare(chart, 773, 430, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Abnahme', 788, 423);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
