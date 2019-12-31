@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#a8c3ca",
+      "color": "#cd9c00",
       "index": 0,
       "type": "column",
       "pointWidth": 20,
@@ -35,17 +35,11 @@
       "name": "Anzahl Genossenschaftswohnungen KlybeckKleinhüningen"
     },
     {
-      "yAxis": 1,
-      "color": "#246370",
-      "index": 1,
-      "type": "line",
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#b375ab",
+      "index": 0,
+      "type": "column",
+      "pointWidth": 20,
+      "borderWidth": 0,
       "data": [
         [
           2013,
@@ -73,6 +67,46 @@
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Klybeckn"
+    },
+    {
+      "yAxis": 1,
+      "color": "#7f5f1a",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          305
+        ],
+        [
+          2014,
+          307
+        ],
+        [
+          2015,
+          304
+        ],
+        [
+          2016,
+          303
+        ],
+        [
+          2017,
+          300
+        ],
+        [
+          2018,
+          303
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Kleinhüningen"
     }
   ],
   "chart": {

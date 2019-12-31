@@ -14,7 +14,7 @@
 "series": [
   {
     "color": "#999",
-    "dashStyle": "ShortDash"
+    //"dashStyle": "ShortDash"
   }, 
   { "color": "#cd9c00"}, 
   {"color": "#b375ab"}
