@@ -799,7 +799,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Der Einfamilienhausanteil liegt unter dem städtischen Durchschnitt. Im Wohnviertel Klybeck ist er besonders gering.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
