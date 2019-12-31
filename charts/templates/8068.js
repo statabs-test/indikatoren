@@ -47,7 +47,14 @@
     },
     "series": [
       {
-        color: "#a8c3ca",
+        color: "#cd9c00",
+        index: 0,
+        type: "column",
+        pointWidth: 20,
+        borderWidth: 0
+      },
+      {
+        color: "#b375ab",
         index: 0,
         type: "column",
         pointWidth: 20,
@@ -55,7 +62,7 @@
       },
       {
         "yAxis": 1,
-        "color": "#246370",
+        "color": "#7f5f1a",
         "index": 1,
         type: 'line',
         "marker": {

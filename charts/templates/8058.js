@@ -4,7 +4,7 @@
       tickInterval: 1
     },
     "yAxis": {
-      tickInterval: 25000,
+      tickInterval: 20000,
       "labels": {
         "format": "{value:,.0f}"
       }

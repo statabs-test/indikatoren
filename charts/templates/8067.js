@@ -9,9 +9,9 @@
       }
     },
     "yAxis": {
-      "tickInterval": 100,
+      "tickInterval": 20,
       "min": -100,
-      "max": 600,
+      "max": 200,
       "labels": {
         "format": "{value:,.0f}",
       },

@@ -1,94 +1,220 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
-      "color": "#83522E",
+      "color": "#cd9c00",
       "data": [
         [
-          2000,
-          1.236820762
-        ],
-        [
-          2001,
-          2.474143176
-        ],
-        [
-          2002,
-          1.21703854
-        ],
-        [
-          2003,
-          2.292839903
-        ],
-        [
-          2004,
-          2.098466505
-        ],
-        [
           2005,
-          1.453371013
+          44672
         ],
         [
           2006,
-          1.956135151
+          44314
         ],
         [
           2007,
-          1.716992303
+          44955
         ],
         [
           2008,
-          1.699604743
+          42861
         ],
         [
           2009,
-          1.225296443
+          42727
         ],
         [
           2010,
-          0.849802372
+          42403
         ],
         [
           2011,
-          0.395178818
+          42347
         ],
         [
           2012,
-          0.388123423
+          41688
         ],
         [
           2013,
-          0.310318076
+          42571
         ],
         [
           2014,
-          0.237388724
+          42361
         ],
         [
           2015,
-          0.177619893
+          42281
         ],
         [
           2016,
-          0.215897939
-        ],
-        [
-          2017,
-          0.411442006
-        ],
-        [
-          2018,
-          0.430359937
-        ],
-        [
-          2019,
-          1.190011705
+          41703
         ]
       ],
-      "name": "Leerwohnungsquote in % Klybeck Kleinhüningen"
+      "name": "Mittelwert Klybeck"
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          2005,
+          41870.5
+        ],
+        [
+          2006,
+          41565
+        ],
+        [
+          2007,
+          41678.5
+        ],
+        [
+          2008,
+          39481.5
+        ],
+        [
+          2009,
+          39440
+        ],
+        [
+          2010,
+          38528
+        ],
+        [
+          2011,
+          38489
+        ],
+        [
+          2012,
+          37928.5
+        ],
+        [
+          2013,
+          38251
+        ],
+        [
+          2014,
+          38332
+        ],
+        [
+          2015,
+          37400
+        ],
+        [
+          2016,
+          36802.5
+        ]
+      ],
+      "name": "Median Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2005,
+          45554
+        ],
+        [
+          2006,
+          45715
+        ],
+        [
+          2007,
+          45914
+        ],
+        [
+          2008,
+          43807
+        ],
+        [
+          2009,
+          43199
+        ],
+        [
+          2010,
+          42674
+        ],
+        [
+          2011,
+          43744
+        ],
+        [
+          2012,
+          44965
+        ],
+        [
+          2013,
+          46638
+        ],
+        [
+          2014,
+          45488
+        ],
+        [
+          2015,
+          45955
+        ],
+        [
+          2016,
+          46046
+        ]
+      ],
+      "name": "Mittelwert Kleinhüningen"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          2005,
+          41856.5
+        ],
+        [
+          2006,
+          41584
+        ],
+        [
+          2007,
+          42523.5
+        ],
+        [
+          2008,
+          40363
+        ],
+        [
+          2009,
+          40213
+        ],
+        [
+          2010,
+          39383
+        ],
+        [
+          2011,
+          40608.5
+        ],
+        [
+          2012,
+          40968
+        ],
+        [
+          2013,
+          41468
+        ],
+        [
+          2014,
+          41881
+        ],
+        [
+          2015,
+          41403
+        ],
+        [
+          2016,
+          41368
+        ]
+      ],
+      "name": "Median Kleinhüningen"
     }
   ],
   "chart": {
@@ -118,7 +244,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-8063"
+    "renderTo": "container-8057"
   },
   "title": {
     "style": {
@@ -127,7 +253,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerwohnungsquote"
+    "text": "Mittelwert und Median des Reineinkommens"
   },
   "subtitle": {
     "style": {
@@ -136,12 +262,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in Fr., Wohnviertel Rosental, nach Bezirk",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -158,8 +284,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
-    }
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -171,7 +298,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -187,22 +314,29 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -242,6 +376,6 @@
     }
   },
   "exporting": {
-    "filename": 8063
+    "filename": 8057
   }
 }

@@ -14,9 +14,22 @@
           "symbol": "circle",
           "enabled": false
         },
-        "color": "#83522E"
-      }
+        "color": "#cd9c00"
+      },
+      {"color": "#b375ab",
+    visible:true,
+  }, 
     ],
+    "legend": {
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "itemMarginBottom": 5,
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
+    },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
     }

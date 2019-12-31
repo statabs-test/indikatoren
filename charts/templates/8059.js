@@ -25,7 +25,7 @@
       tickInterval: 1
     },
     "yAxis": {
-      min: -750000,
+      min: -1250000,
       tickInterval: 250000,
       "labels": {
         "format": "{value:,.0f}"
@@ -105,7 +105,9 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+       "itemWidth": 190,
+        itemDistance: 4
     },
     "plotOptions": {
       series: {
