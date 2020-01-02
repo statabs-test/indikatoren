@@ -30,20 +30,20 @@
     },
     "series": [
       {
-        "color": "#73B97C",
-        "index": 1
+        "color": "#ffbb58",
+        "index": 4
       },
       {
         "color": "#008AC3",
-        "index": 2
-      },
-      {
-        "color": "#ffbb58",
         "index": 3
       },
       {
+        "color": "#73B97C",
+        "index": 2
+      },
+      {
         "color": "#662673",
-        "index": 0
+        "index": 1
       }
     ],
     "chart": {
