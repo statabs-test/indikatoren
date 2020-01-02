@@ -1122,9 +1122,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-01T11:23:28.2828",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-12-30T16:02:40.4040",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1133,9 +1133,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_112",
+		"orderKey": "05_11_00_00_00_002",
 		"parentId": 6156,
-		"children": [],
+		"children": [
+			"8420"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"TomTom International"
@@ -1148,8 +1150,8 @@ var indikatorensetData = [
 			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
 			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
 		],
-		"data-id": 6156,
-		"chart-id": 6156,
+		"data-id": 7777,
+		"chart-id": 7777,
 		"filter": "",
 		"id": 7777
 	},
@@ -1165,9 +1167,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-27T17:09:29.2929",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-12-30T16:03:20.2020",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1176,9 +1178,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_113",
+		"orderKey": "05_11_00_00_00_003",
 		"parentId": 6155,
-		"children": [],
+		"children": [
+			"8421"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
@@ -1187,8 +1191,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6155,
-		"chart-id": 6155,
+		"data-id": 7778,
+		"chart-id": 7778,
 		"filter": "",
 		"id": 7778
 	},
