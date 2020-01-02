@@ -3,7 +3,9 @@
     "plotOptions": {
       "series": {
         "stacking": "normal"
-      }
+      },
+      borderwidth: 0,
+      groupPadding: 0
     },
     "yAxis": {
       "labels": {
@@ -11,8 +13,12 @@
       }
     },
     "xAxis": {
-      tickInterval: 2,
-      "type": "category"
+      tickInterval: 1,
+      "type": "category",
+      labels: {
+        step: 1,
+        rotation: -45
+      }
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.1f}%)<br/>',

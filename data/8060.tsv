@@ -1,8 +1,21 @@
-﻿Publikationsjahr	Klybeck Kleinhüningen 1 Zimmer	Klybeck 1 Zimmer	Kleinhüningen 1 Zimmer	Klybeck Kleinhüningen 2 Zimmer	Klybeck 2 Zimmer	Kleinhüningen 2 Zimmer	KlybeckKleinhüningen 3 Zimmer	Klybeck 3 Zimmer	Kleinhüningen 3 Zimmer	KlybeckKleinhüningen 4 Zimmer	Klybeck 4 Zimmer	Kleinhüningen 4 Zimmer	KlybeckKleinhüningen 5 Zimmer	Klybeck 5 Zimmer	Kleinhüningen 5 Zimmer	KlybeckKleinhüningen 6 Zimmer u.m.	Klybeck 6 Zimmer u.m.	Kleinhüningen 6 Zimmer u.m.
-2013	454	366	88	1668	1328	340	2085	1412	673	694	499	195	128	100	28	45	24	21
-2014	430	340	90	1683	1341	342	2084	1411	673	696	500	196	130	100	30	46	25	21
-2015	434	342	92	1691	1348	343	2076	1404	672	700	504	196	131	100	31	48	27	21
-2016	451	357	94	1692	1347	345	2078	1404	674	699	502	197	131	100	31	50	31	19
-2017	453	359	94	1698	1352	346	2079	1405	674	698	501	197	135	104	31	45	26	19
-2018	459	364	95	1700	1353	347	2079	1406	673	706	509	197	136	106	30	45	26	19
-
+﻿Publikationsjahr	1 Zimmer	2 Zimmer	3 Zimmer	4 Zimmer	5 Zimmer	6 Zimmer u.m.
+2013: Klybeck	366	1328	1412	499	100	24
+2013: Kleinhüningen	88	340	673	195	28	21
+.			
+2014:	340	1341	1411	500	100	25
+2014:	90	342	673	196	30	21
+..			
+2015: Klybeck	342	1348	1404	504	100	27
+2015: Kleinhüningen	92	343	672	196	31	21
+...			
+2016: Klybeck	357	1347	1404	502	100	31
+2016: Kleinhüningen	94	345	674	197	31	19
+....			
+2017: Klybeck	359	1352	1405	501	104	26
+2017: Kleinhüningen	94	346	674	197	31	19
+.....			
+2018: Klybeck	364	1353	1406	509	106	26
+2018: Kleinhüningen	95	347	673	197	30	19
+......			
+2019: Klybeck	411	1365	1414	509	111	35
+2019: Kleinhüningen		96	347	667	203	30	19

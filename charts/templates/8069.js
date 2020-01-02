@@ -5,7 +5,7 @@
   "yAxis": {
 	"labels": {
 		formatter: function(){
-            return Highcharts.numberFormat((this.value*100), 1)+'%';
+            return Highcharts.numberFormat((this.value*100), 0)+'%';
         },
 	}
   },	

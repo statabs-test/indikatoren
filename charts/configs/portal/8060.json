@@ -5,31 +5,87 @@
       "index": 5,
       "data": [
         [
-          "2013",
-          454
+          "2013: Klybeck",
+          366
         ],
         [
-          "2014",
-          430
+          "2013: Kleinhüningen",
+          88
         ],
         [
-          "2015",
-          434
+          " ",
+          null
         ],
         [
-          "2016",
-          451
+          "2014:",
+          340
         ],
         [
-          "2017",
-          453
+          "2014:",
+          90
         ],
         [
-          "2018",
-          459
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          342
+        ],
+        [
+          "2015: Kleinhüningen",
+          92
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          357
+        ],
+        [
+          "2016: Kleinhüningen",
+          94
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          359
+        ],
+        [
+          "2017: Kleinhüningen",
+          94
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          364
+        ],
+        [
+          "2018: Kleinhüningen",
+          95
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          411
+        ],
+        [
+          "2019: Kleinhüningen",
+          null
         ]
       ],
-      "name": "Klybeck Kleinhüningen 1 Zimmer",
+      "name": "1 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -37,31 +93,87 @@
       "index": 4,
       "data": [
         [
-          "2013",
-          366
+          "2013: Klybeck",
+          1328
         ],
         [
-          "2014",
+          "2013: Kleinhüningen",
           340
         ],
         [
-          "2015",
+          " ",
+          null
+        ],
+        [
+          "2014:",
+          1341
+        ],
+        [
+          "2014:",
           342
         ],
         [
-          "2016",
-          357
+          "  ",
+          null
         ],
         [
-          "2017",
-          359
+          "2015: Klybeck",
+          1348
         ],
         [
-          "2018",
-          364
+          "2015: Kleinhüningen",
+          343
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1347
+        ],
+        [
+          "2016: Kleinhüningen",
+          345
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1352
+        ],
+        [
+          "2017: Kleinhüningen",
+          346
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1353
+        ],
+        [
+          "2018: Kleinhüningen",
+          347
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          1365
+        ],
+        [
+          "2019: Kleinhüningen",
+          96
         ]
       ],
-      "name": "Klybeck 1 Zimmer",
+      "name": "2 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -69,31 +181,87 @@
       "index": 3,
       "data": [
         [
-          "2013",
-          88
+          "2013: Klybeck",
+          1412
         ],
         [
-          "2014",
-          90
+          "2013: Kleinhüningen",
+          673
         ],
         [
-          "2015",
-          92
+          " ",
+          null
         ],
         [
-          "2016",
-          94
+          "2014:",
+          1411
         ],
         [
-          "2017",
-          94
+          "2014:",
+          673
         ],
         [
-          "2018",
-          95
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          1404
+        ],
+        [
+          "2015: Kleinhüningen",
+          672
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1404
+        ],
+        [
+          "2016: Kleinhüningen",
+          674
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1405
+        ],
+        [
+          "2017: Kleinhüningen",
+          674
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1406
+        ],
+        [
+          "2018: Kleinhüningen",
+          673
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          1414
+        ],
+        [
+          "2019: Kleinhüningen",
+          347
         ]
       ],
-      "name": "Kleinhüningen 1 Zimmer",
+      "name": "3 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -101,31 +269,87 @@
       "index": 2,
       "data": [
         [
-          "2013",
-          1668
+          "2013: Klybeck",
+          499
         ],
         [
-          "2014",
-          1683
+          "2013: Kleinhüningen",
+          195
         ],
         [
-          "2015",
-          1691
+          " ",
+          null
         ],
         [
-          "2016",
-          1692
+          "2014:",
+          500
         ],
         [
-          "2017",
-          1698
+          "2014:",
+          196
         ],
         [
-          "2018",
-          1700
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          504
+        ],
+        [
+          "2015: Kleinhüningen",
+          196
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          502
+        ],
+        [
+          "2016: Kleinhüningen",
+          197
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          501
+        ],
+        [
+          "2017: Kleinhüningen",
+          197
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          509
+        ],
+        [
+          "2018: Kleinhüningen",
+          197
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          509
+        ],
+        [
+          "2019: Kleinhüningen",
+          667
         ]
       ],
-      "name": "Klybeck Kleinhüningen 2 Zimmer",
+      "name": "4 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -133,31 +357,87 @@
       "index": 1,
       "data": [
         [
-          "2013",
-          1328
+          "2013: Klybeck",
+          100
         ],
         [
-          "2014",
-          1341
+          "2013: Kleinhüningen",
+          28
         ],
         [
-          "2015",
-          1348
+          " ",
+          null
         ],
         [
-          "2016",
-          1347
+          "2014:",
+          100
         ],
         [
-          "2017",
-          1352
+          "2014:",
+          30
         ],
         [
-          "2018",
-          1353
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          100
+        ],
+        [
+          "2015: Kleinhüningen",
+          31
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          100
+        ],
+        [
+          "2016: Kleinhüningen",
+          31
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          104
+        ],
+        [
+          "2017: Kleinhüningen",
+          31
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          106
+        ],
+        [
+          "2018: Kleinhüningen",
+          30
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          111
+        ],
+        [
+          "2019: Kleinhüningen",
+          203
         ]
       ],
-      "name": "Klybeck 2 Zimmer",
+      "name": "5 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -165,31 +445,87 @@
       "index": 0,
       "data": [
         [
-          "2013",
-          340
+          "2013: Klybeck",
+          24
         ],
         [
-          "2014",
-          342
+          "2013: Kleinhüningen",
+          21
         ],
         [
-          "2015",
-          343
+          " ",
+          null
         ],
         [
-          "2016",
-          345
+          "2014:",
+          25
         ],
         [
-          "2017",
-          346
+          "2014:",
+          21
         ],
         [
-          "2018",
-          347
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          27
+        ],
+        [
+          "2015: Kleinhüningen",
+          21
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          31
+        ],
+        [
+          "2016: Kleinhüningen",
+          19
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          26
+        ],
+        [
+          "2017: Kleinhüningen",
+          19
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          26
+        ],
+        [
+          "2018: Kleinhüningen",
+          19
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          35
+        ],
+        [
+          "2019: Kleinhüningen",
+          30
         ]
       ],
-      "name": "Kleinhüningen 2 Zimmer",
+      "name": "6 Zimmer u.m.",
       "turboThreshold": 0
     }
   ],
