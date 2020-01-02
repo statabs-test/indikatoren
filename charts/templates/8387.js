@@ -1,5 +1,9 @@
 (function () {
   return {
+    "chart": {
+      "type": "column",
+      "inverted": true
+    },
     plotOptions: {
       series: {
         pointPadding: 0,
@@ -7,16 +11,21 @@
       }
     },
     "xAxis": {
+      "type": "category",
+      reversed: false,
       "labels": {
         "formatter": function () {
-          return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")
+          return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen<br>oder -probleme")
+        },
+        style: {
+          fontSize: '9px'
         }
-      },
-      "type": "category"
+      }
     },
     "yAxis": {
+      tickInterval: 10,
       "labels": {
-
+        y: 10,
         "format": "{value}%"
       }
     },
@@ -39,20 +48,15 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "align": "left",
-      "x": 143,
-      //"y": 65,    
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
+      "align": "right",
+      reversed: true,
+      //"x": 15,
+      itemDistance: 5
+      //"y": 65
     },
     tooltip: {
       pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
       shared: false
-    },
-    "chart": {
-      "type": "column",
-      "inverted": true
     }
   }
 }());

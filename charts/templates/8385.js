@@ -1,116 +1,119 @@
-(function(){
-    return {
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      /*"pointWidth": 35,*/
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
+(function () {
+  return {
+    "chart": {
+      "type": "column"
+    },
+    "plotOptions": {
+      "series": {
+        "stacking": "normal",
+        /*"pointWidth": 35,*/
+        "dataLabels": {
+          "style": {
+            "fontSize": "10px"
+          }
         }
       }
-    }
-  },
-  "xAxis": {
-    "type": "category"    
-  },  
-  "yAxis": [
-    {
-      gridLineColor: '#B9CFD7', 
-      gridLineWidth: 0.5,
-      "title": {
+    },
+    "xAxis": {
+      "type": "category"
+    },
+    "yAxis": [
+      {
+        gridLineColor: '#B9CFD7',
+        gridLineWidth: 0.5,
+        tickAmount: 5,
+        "title": {
           "style": {
-              "color": "#000000",
-              "fontSize": null
+            "color": "#000000",
+            "fontSize": null
           },
           "text": null
-      },
-      "labels": {
+        },
+        "labels": {
           "style": {
-          "color": "#000000"
+            "color": "#000000",
+            "fontSize": "10px"
           },
           "format": "{value:,.0f}",
+        },
+        "reversedStacks": true
       },
-      "reversedStacks": true
-    },
-    {
-      gridLineColor: '#B9CFD7', 
-      gridLineWidth: 0.5,
-      "min": 0,
-      "title": {
+      {
+        gridLineColor: '#B9CFD7',
+        gridLineWidth: 0.5,
+        tickAmount: 5,
+        "min": 0,
+        "title": {
           "style": {
-              "color": "#000000",
-              "fontSize": null
+            "color": "#000000",
+            "fontSize": null
           },
           "text": null
-      },      
-      "labels": {
-        "format": "{value:,0f}",
-        "style": {
-          "color": "#000000"
-        }              
-      },
-      "opposite": true
-    }
-  ],
-  "tooltip": {    
-    "shared": true, 
-    //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-    //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-  },  
-  "legend": { 
-     //y: 35,
-     itemMarginBottom: 5,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+        },
+        "labels": {
+          "format": "{value:,0f}",
+          "style": {
+            "color": "#000000",
+            "fontSize": "10px"
+          }
+        },
+        "opposite": true
+      }
+    ],
+    "tooltip": {
+      "shared": true,
+      //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+      //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+    },
+    "legend": {
+      //y: 35,
+      itemMarginBottom: 5,
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
 
-    "align": "left",
-    "itemStyle": {
-    "fontWeight": "normal"
-    
-  },
-},
-  "series": [
-    {
-      "color": "#FABD24",
-      "type": "column", 
-      tooltip: {
-        valueDecimals: 0
-      }, 
-      marker: {
-        enabled: false
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+
       },
-      "legendIndex": 1
     },
-    {
-      "color": "#008AC3",
-      "type": "column", 
-      tooltip: {
-        valueDecimals: 0
-      }, 
-      marker: {
-        enabled: false
+    "series": [
+      {
+        "color": "#FABD24",
+        "type": "column",
+        tooltip: {
+          valueDecimals: 0
+        },
+        marker: {
+          enabled: false
+        },
+        "legendIndex": 1
       },
-      "legendIndex": 2
-    },
-    {
-      "color": "#9F7C5A",
-      "type": "line",
-      tooltip: {
-        valueDecimals: 1
-      }, 
-      marker: {
-        enabled: false
+      {
+        "color": "#008AC3",
+        "type": "column",
+        tooltip: {
+          valueDecimals: 0
+        },
+        marker: {
+          enabled: false
+        },
+        "legendIndex": 2
       },
-      "yAxis": 1,
-      "stacking": null, 
-      "legendIndex": 0
-    }    
-  ],
-  "chart": {
-    "marginBottom": 65,
-    "type": "column"
-  }
-	}
+      {
+        "color": "#9F7C5A",
+        "type": "line",
+        tooltip: {
+          valueDecimals: 1
+        },
+        marker: {
+          enabled: false
+        },
+        "yAxis": 1,
+        "stacking": null,
+        "legendIndex": 0
+      }
+    ]
+    }
 }());

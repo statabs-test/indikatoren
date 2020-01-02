@@ -23,7 +23,8 @@
             }        
         ],
         "xAxis": {
-            "type": "category"
+            "type": "category",
+            reversed: false
         },
         "legend": {
             "itemStyle": {

@@ -1,28 +1,25 @@
-(function(){
-    return {
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}%"
+(function () {
+  return {
+    "yAxis": {
+      tickInterval: 10,
+      "labels": {
+        "format": "{value:,.0f}%"
+      },
     },
-  },
-  "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },
-  "legend": {
-    "enabled": false
-  },
-  "series": [
-    {
-    "color": "#0070C0"
+    "xAxis": {
+      "type": "category",
+      "tickInterval": 1
+    },
+    "legend": {
+      "enabled": false
+    },
+    "series": [
+      {
+        "color": "#0070C0"
+      }
+    ],
+    "chart": {
+      "type": "column"
     }
-  ],
-  "tooltip": {
-    "shared": false,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
-  },
-  "chart": {
-    "type": "column"
   }
-	}
 }());
