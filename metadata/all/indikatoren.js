@@ -41402,6 +41402,46 @@ var indikatoren = [
 		"id": 8278
 	},
 	{
+		"title": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25",
+		"subtitle": "Kanton Basel-Stadt",
+		"kuerzel": "I.01.1.08280",
+		"kuerzelKunde": "",
+		"description": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der 5- bis 12-jährigen Kinder hat im Kanton Basel-Stadt zwischen 2009 und 2018 um 16,5% zugenommen. Die Zahl der 13- bis 17-Jährigen und der 18- bis 25-Jährigen ist hingegen um 4,3% bzw. um 7,8% zurückgegangen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8280,
+		"chart-id": 8280,
+		"filter": "",
+		"id": 8280
+	},
+	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"subtitle": "Kinder mit Angeboten in Gehdistanz",
 		"kuerzel": "I.16.3.08285",

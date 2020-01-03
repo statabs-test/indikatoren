@@ -1,289 +1,151 @@
 {
   "series": [
     {
-      "color": "#FABD24",
+      "color": "#246370",
       "marker": {
         "enabled": false
       },
       "data": [
         [
-          2007,
-          9.3
-        ],
-        [
-          2008,
-          10.8
-        ],
-        [
           2009,
-          10.8
+          11461
         ],
         [
           2010,
-          10.6
+          11543
         ],
         [
           2011,
-          11.2
+          11604
         ],
         [
           2012,
-          9.9
+          11737
         ],
         [
           2013,
-          12
+          11836
         ],
         [
           2014,
-          11.7
+          12093
         ],
         [
           2015,
-          10.9
+          12470
         ],
         [
           2016,
-          9.7
+          12776
         ],
         [
           2017,
-          11.4
+          13049
         ],
         [
           2018,
-          10.4
+          13357
         ]
       ],
-      "name": "Schweizer"
+      "name": "5-12"
     },
     {
-      "color": "#FFDA80",
+      "color": "#B00000",
       "marker": {
         "enabled": false
       },
       "data": [
         [
-          2007,
-          7.9
-        ],
-        [
-          2008,
-          10.1
-        ],
-        [
           2009,
-          8
+          7837
         ],
         [
           2010,
-          10.9
+          7655
         ],
         [
           2011,
-          10.4
+          7637
         ],
         [
           2012,
-          9.4
+          7540
         ],
         [
           2013,
-          9.4
+          7604
         ],
         [
           2014,
-          10.8
+          7481
         ],
         [
           2015,
-          10.4
+          7510
         ],
         [
           2016,
-          9
+          7483
         ],
         [
           2017,
-          10.6
+          7475
         ],
         [
           2018,
-          10
+          7501
         ]
       ],
-      "name": "Schweizerinnen"
+      "name": "13-17"
     },
     {
-      "color": "#B375AB",
+      "color": "#CD9C00",
       "marker": {
         "enabled": false
       },
       "data": [
         [
-          2007,
-          10.6
-        ],
-        [
-          2008,
-          11.9
-        ],
-        [
           2009,
-          13.2
+          18909
         ],
         [
           2010,
-          16.1
+          18680
         ],
         [
           2011,
-          12.2
+          18587
         ],
         [
           2012,
-          10.3
+          18607
         ],
         [
           2013,
-          15
+          18632
         ],
         [
           2014,
-          13.2
+          18355
         ],
         [
           2015,
-          13.2
+          18049
         ],
         [
           2016,
-          10.2
+          17838
         ],
         [
           2017,
-          11.4
+          17541
         ],
         [
           2018,
-          13.2
+          17435
         ]
       ],
-      "name": "Ausländer"
-    },
-    {
-      "color": "#E7CEE2",
-      "marker": {
-        "enabled": false
-      },
-      "data": [
-        [
-          2007,
-          8.6
-        ],
-        [
-          2008,
-          9.8
-        ],
-        [
-          2009,
-          9.7
-        ],
-        [
-          2010,
-          7.8
-        ],
-        [
-          2011,
-          10.6
-        ],
-        [
-          2012,
-          11.1
-        ],
-        [
-          2013,
-          11.3
-        ],
-        [
-          2014,
-          12.6
-        ],
-        [
-          2015,
-          12
-        ],
-        [
-          2016,
-          10
-        ],
-        [
-          2017,
-          11.4
-        ],
-        [
-          2018,
-          10.3
-        ]
-      ],
-      "name": "Ausländerinnen"
-    },
-    {
-      "color": "#689199",
-      "marker": {
-        "enabled": false
-      },
-      "data": [
-        [
-          2007,
-          8.9
-        ],
-        [
-          2008,
-          10.6
-        ],
-        [
-          2009,
-          10
-        ],
-        [
-          2010,
-          11.1
-        ],
-        [
-          2011,
-          11
-        ],
-        [
-          2012,
-          9.9
-        ],
-        [
-          2013,
-          11.4
-        ],
-        [
-          2014,
-          11.7
-        ],
-        [
-          2015,
-          11.2
-        ],
-        [
-          2016,
-          9.6
-        ],
-        [
-          2017,
-          11.2
-        ],
-        [
-          2018,
-          10.7
-        ]
-      ],
-      "name": "Total"
+      "name": "18-25"
     }
   ],
   "chart": {
@@ -313,7 +175,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-8278"
+    "renderTo": "container-8280"
   },
   "title": {
     "style": {
@@ -322,7 +184,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Lehrabbruchquote nach Herkunft und Geschlecht"
+    "text": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25 "
   },
   "subtitle": {
     "style": {
@@ -331,7 +193,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Kanton Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -382,7 +244,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "enabled": true,
@@ -446,6 +308,6 @@
     }
   },
   "exporting": {
-    "filename": 8278
+    "filename": 8280
   }
 }

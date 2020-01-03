@@ -1046,6 +1046,7 @@ var templatesById = {
 	"8272": "befragungenProzent001",
 	"8273": "befragungenProzent001",
 	"8278": "line001",
+	"8280": "line001",
 	"8285": "mappieStadt",
 	"8317": "mappieStadt",
 	"8352": "area001",
