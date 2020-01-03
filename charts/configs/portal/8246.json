@@ -6,135 +6,135 @@
       "legendIndex": 0,
       "data": [
         [
-          "Männlich",
-          33.6
+          "Einelternfamilien",
+          21.7
         ],
         [
-          "Weiblich",
-          29.5
+          "Zweielternfamilien",
+          11.6
         ],
         [
           " ",
           null
         ],
         [
-          "\u003C3000 Fr.",
-          23.8
+          "1 Kind",
+          13.3
         ],
         [
-          "3000- 7499 Fr.",
-          26.6
+          "2 Kinder",
+          12.4
         ],
         [
-          "\u003E7499 Fr.",
-          41
+          "3 und mehr Kinder",
+          15
         ],
         [
           "  ",
           null
         ],
         [
-          "Gross- basel Ost",
-          33.9
+          "Jüngstes Kind 0-4 Jahre",
+          15.9
         ],
         [
-          "Gross- basel West",
-          30.7
+          "Jüngstes Kind 5-8 Jahre",
+          12.4
         ],
         [
-          "Klein- basel",
-          28.9
+          "Jüngstes Kind 9-12 Jahre",
+          10.8
         ],
         [
-          "Riehen. Bettingen",
-          30.6
+          "Jüngstes Kind 13-17 Jahre",
+          11.8
         ],
         [
           "   ",
           null
         ],
         [
-          "Single- HH",
-          27.5
+          "Obligatorische Schule",
+          15.2
         ],
         [
-          "Übrige HH o. K.",
-          31.9
+          "Sekundarstufe II",
+          16.5
         ],
         [
-          "HH m. mind. 1 K",
-          38.3
+          "Tertiärstufe",
+          11
         ],
         [
           "    ",
           null
         ],
         [
-          "18-29 J.",
-          43.2
+          "ch\u002Fdt",
+          13.2
         ],
         [
-          "30-39 J.",
-          39.8
+          "ch\u002Fdt und andere Sprache(n)",
+          15.3
         ],
         [
-          "40-49 J.",
-          39.7
-        ],
-        [
-          "50-59 J.",
-          31.6
-        ],
-        [
-          "60-69 J.",
-          30
-        ],
-        [
-          "\u003E69 J.",
-          18.8
+          "nur andere Sprache(n)",
+          9.8
         ],
         [
           "     ",
           null
         ],
         [
-          "Schweiz",
-          30.5
+          "unter 3000 Franken",
+          17.1
         ],
         [
-          "Ausland",
-          33.6
+          "3000-7499 Franken",
+          20
+        ],
+        [
+          "über 7499 Franken",
+          8.7
         ],
         [
           "      ",
           null
         ],
         [
-          "2003",
-          40.6
+          "Grossbasel Ost",
+          13.5
         ],
         [
-          "2005",
-          45.4
+          "Grossbasel West",
+          13.7
         ],
         [
-          "2007",
-          40.8
+          "Kleinbasel",
+          13.8
         ],
         [
-          "2011",
-          44.9
+          "Riehen, Bettingen",
+          11.1
         ],
         [
-          "2015",
-          39.2
+          "       ",
+          null
         ],
         [
-          "2019",
-          30.9
+          "2009",
+          15.7
+        ],
+        [
+          "2013",
+          13.5
+        ],
+        [
+          "2017",
+          13.3
         ]
       ],
-      "name": "Sehr gut",
+      "name": "Stimmt genau",
       "turboThreshold": 0
     },
     {
@@ -143,135 +143,135 @@
       "legendIndex": 1,
       "data": [
         [
-          "Männlich",
-          53.7
+          "Einelternfamilien",
+          21
         ],
         [
-          "Weiblich",
-          54.6
+          "Zweielternfamilien",
+          18.8
         ],
         [
           " ",
           null
         ],
         [
-          "\u003C3000 Fr.",
-          48.4
+          "1 Kind",
+          19.6
         ],
         [
-          "3000- 7499 Fr.",
-          57.7
+          "2 Kinder",
+          17.9
         ],
         [
-          "\u003E7499 Fr.",
-          52.9
+          "3 und mehr Kinder",
+          21.5
         ],
         [
           "  ",
           null
         ],
         [
-          "Gross- basel Ost",
-          52.6
+          "Jüngstes Kind 0-4 Jahre",
+          23.6
         ],
         [
-          "Gross- basel West",
-          53.4
+          "Jüngstes Kind 5-8 Jahre",
+          15.1
         ],
         [
-          "Klein- basel",
-          54.1
+          "Jüngstes Kind 9-12 Jahre",
+          17
         ],
         [
-          "Riehen. Bettingen",
-          55
+          "Jüngstes Kind 13-17 Jahre",
+          18.5
         ],
         [
           "   ",
           null
         ],
         [
-          "Single- HH",
-          52.3
+          "Obligatorische Schule",
+          14.3
         ],
         [
-          "Übrige HH o. K.",
-          56.6
+          "Sekundarstufe II",
+          22.2
         ],
         [
-          "HH m. mind. 1 K",
-          53.9
+          "Tertiärstufe",
+          18.3
         ],
         [
           "    ",
           null
         ],
         [
-          "18-29 J.",
-          45.2
+          "ch\u002Fdt",
+          20.6
         ],
         [
-          "30-39 J.",
-          49.1
+          "ch\u002Fdt und andere Sprache(n)",
+          18
         ],
         [
-          "40-49 J.",
-          53.4
-        ],
-        [
-          "50-59 J.",
-          53.3
-        ],
-        [
-          "60-69 J.",
-          55.6
-        ],
-        [
-          "\u003E69 J.",
-          60.6
+          "nur andere Sprache(n)",
+          15.9
         ],
         [
           "     ",
           null
         ],
         [
-          "Schweiz",
-          54.6
+          "unter 3000 Franken",
+          27
         ],
         [
-          "Ausland",
-          51
+          "3000-7499 Franken",
+          22.8
+        ],
+        [
+          "über 7499 Franken",
+          16.6
         ],
         [
           "      ",
           null
         ],
         [
-          "2003",
-          45.7
+          "Grossbasel Ost",
+          20
         ],
         [
-          "2005",
-          43.3
+          "Grossbasel West",
+          19.5
         ],
         [
-          "2007",
-          45.7
+          "Kleinbasel",
+          18.6
         ],
         [
-          "2011",
-          42.9
+          "Riehen, Bettingen",
+          17.8
         ],
         [
-          "2015",
-          47.2
+          "       ",
+          null
         ],
         [
-          "2019",
-          53.6
+          "2009",
+          19.4
+        ],
+        [
+          "2013",
+          17.5
+        ],
+        [
+          "2017",
+          19.2
         ]
       ],
-      "name": "Eher gut",
+      "name": "Stimmt eher",
       "turboThreshold": 0
     },
     {
@@ -280,135 +280,135 @@
       "legendIndex": 2,
       "data": [
         [
-          "Männlich",
-          10
+          "Einelternfamilien",
+          17.3
         ],
         [
-          "Weiblich",
-          12.3
+          "Zweielternfamilien",
+          19.2
         ],
         [
           " ",
           null
         ],
         [
-          "\u003C3000 Fr.",
-          21.8
+          "1 Kind",
+          16.5
         ],
         [
-          "3000- 7499 Fr.",
-          13.1
+          "2 Kinder",
+          20.5
         ],
         [
-          "\u003E7499 Fr.",
-          4.9
+          "3 und mehr Kinder",
+          17.8
         ],
         [
           "  ",
           null
         ],
         [
-          "Gross- basel Ost",
-          9.5
+          "Jüngstes Kind 0-4 Jahre",
+          16.7
         ],
         [
-          "Gross- basel West",
-          12
+          "Jüngstes Kind 5-8 Jahre",
+          22.3
         ],
         [
-          "Klein- basel",
-          11.2
+          "Jüngstes Kind 9-12 Jahre",
+          19.5
         ],
         [
-          "Riehen. Bettingen",
-          11.2
+          "Jüngstes Kind 13-17 Jahre",
+          17
         ],
         [
           "   ",
           null
         ],
         [
-          "Single- HH",
-          15
+          "Obligatorische Schule",
+          20
         ],
         [
-          "Übrige HH o. K.",
-          9.8
+          "Sekundarstufe II",
+          19.2
         ],
         [
-          "HH m. mind. 1 K",
-          5.7
+          "Tertiärstufe",
+          18
         ],
         [
           "    ",
           null
         ],
         [
-          "18-29 J.",
-          7.7
+          "ch\u002Fdt",
+          17.6
         ],
         [
-          "30-39 J.",
-          8.1
+          "ch\u002Fdt und andere Sprache(n)",
+          20
         ],
         [
-          "40-49 J.",
-          4.6
-        ],
-        [
-          "50-59 J.",
-          11.5
-        ],
-        [
-          "60-69 J.",
-          11.6
-        ],
-        [
-          "\u003E69 J.",
-          17.5
+          "nur andere Sprache(n)",
+          19.9
         ],
         [
           "     ",
           null
         ],
         [
-          "Schweiz",
-          11.1
+          "unter 3000 Franken",
+          18
         ],
         [
-          "Ausland",
-          11.2
+          "3000-7499 Franken",
+          22.4
+        ],
+        [
+          "über 7499 Franken",
+          16.3
         ],
         [
           "      ",
           null
         ],
         [
-          "2003",
-          11
+          "Grossbasel Ost",
+          18.6
         ],
         [
-          "2005",
-          10
+          "Grossbasel West",
+          16.9
         ],
         [
-          "2007",
-          12.1
+          "Kleinbasel",
+          19.9
         ],
         [
-          "2011",
-          9.8
+          "Riehen, Bettingen",
+          21.7
         ],
         [
-          "2015",
-          10.6
+          "       ",
+          null
         ],
         [
-          "2019",
-          11.1
+          "2009",
+          17.3
+        ],
+        [
+          "2013",
+          18
+        ],
+        [
+          "2017",
+          18.6
         ]
       ],
-      "name": "Eher nicht gut",
+      "name": "Stimmt eher nicht",
       "turboThreshold": 0
     },
     {
@@ -417,135 +417,135 @@
       "legendIndex": 3,
       "data": [
         [
-          "Männlich",
-          1.6
+          "Einelternfamilien",
+          27.2
         ],
         [
-          "Weiblich",
-          2.2
+          "Zweielternfamilien",
+          41.2
         ],
         [
           " ",
           null
         ],
         [
-          "\u003C3000 Fr.",
-          4.8
+          "1 Kind",
+          40.7
         ],
         [
-          "3000- 7499 Fr.",
-          1.9
+          "2 Kinder",
+          39.5
         ],
         [
-          "\u003E7499 Fr.",
-          0.6
+          "3 und mehr Kinder",
+          34
         ],
         [
           "  ",
           null
         ],
         [
-          "Gross- basel Ost",
-          2.1
+          "Jüngstes Kind 0-4 Jahre",
+          35.4
         ],
         [
-          "Gross- basel West",
-          1.3
+          "Jüngstes Kind 5-8 Jahre",
+          39.6
         ],
         [
-          "Klein- basel",
-          2.8
+          "Jüngstes Kind 9-12 Jahre",
+          41.2
         ],
         [
-          "Riehen. Bettingen",
-          1.1
+          "Jüngstes Kind 13-17 Jahre",
+          42.4
         ],
         [
           "   ",
           null
         ],
         [
-          "Single- HH",
-          3.3
+          "Obligatorische Schule",
+          18.1
         ],
         [
-          "Übrige HH o. K.",
-          0.8
+          "Sekundarstufe II",
+          30
         ],
         [
-          "HH m. mind. 1 K",
-          0.8
+          "Tertiärstufe",
+          46.2
         ],
         [
           "    ",
           null
         ],
         [
-          "18-29 J.",
-          0.6
+          "ch\u002Fdt",
+          42.8
         ],
         [
-          "30-39 J.",
-          1.9
+          "ch\u002Fdt und andere Sprache(n)",
+          34.5
         ],
         [
-          "40-49 J.",
-          2
-        ],
-        [
-          "50-59 J.",
-          2.2
-        ],
-        [
-          "60-69 J.",
-          1.7
-        ],
-        [
-          "\u003E69 J.",
-          2
+          "nur andere Sprache(n)",
+          33.7
         ],
         [
           "     ",
           null
         ],
         [
-          "Schweiz",
-          1.7
+          "unter 3000 Franken",
+          16.2
         ],
         [
-          "Ausland",
-          2.7
+          "3000-7499 Franken",
+          24.3
+        ],
+        [
+          "über 7499 Franken",
+          53.3
         ],
         [
           "      ",
           null
         ],
         [
-          "2003",
-          2.5
+          "Grossbasel Ost",
+          41.9
         ],
         [
-          "2005",
-          1.3
+          "Grossbasel West",
+          38.6
         ],
         [
-          "2007",
-          1.3
+          "Kleinbasel",
+          34.3
         ],
         [
-          "2011",
-          2.3
+          "Riehen, Bettingen",
+          41.5
         ],
         [
-          "2015",
-          2.7
+          "       ",
+          null
         ],
         [
-          "2019",
-          1.9
+          "2009",
+          33.5
+        ],
+        [
+          "2013",
+          38.3
+        ],
+        [
+          "2017",
+          38.7
         ]
       ],
-      "name": "Gar nicht gut",
+      "name": "Stimmt gar nicht",
       "turboThreshold": 0
     },
     {
@@ -554,132 +554,132 @@
       "legendIndex": 4,
       "data": [
         [
-          "Männlich",
-          0.7
+          "Einelternfamilien",
+          3.3
         ],
         [
-          "Weiblich",
-          0.4
+          "Zweielternfamilien",
+          3.6
         ],
         [
           " ",
           null
         ],
         [
-          "\u003C3000 Fr.",
-          0.4
+          "1 Kind",
+          3.2
         ],
         [
-          "3000- 7499 Fr.",
-          0.1
+          "2 Kinder",
+          3.3
         ],
         [
-          "\u003E7499 Fr.",
-          0.1
+          "3 und mehr Kinder",
+          5.9
         ],
         [
           "  ",
           null
         ],
         [
-          "Gross- basel Ost",
-          0.4
+          "Jüngstes Kind 0-4 Jahre",
+          3.3
         ],
         [
-          "Gross- basel West",
-          0.7
+          "Jüngstes Kind 5-8 Jahre",
+          4.7
         ],
         [
-          "Klein- basel",
-          0.4
+          "Jüngstes Kind 9-12 Jahre",
+          4
         ],
         [
-          "Riehen. Bettingen",
-          0.7
+          "Jüngstes Kind 13-17 Jahre",
+          3.6
         ],
         [
           "   ",
           null
         ],
         [
-          "Single- HH",
-          1
+          "Obligatorische Schule",
+          11.4
         ],
         [
-          "Übrige HH o. K.",
-          0.1
+          "Sekundarstufe II",
+          3.8
         ],
         [
-          "HH m. mind. 1 K",
-          0.5
+          "Tertiärstufe",
+          3
         ],
         [
           "    ",
           null
         ],
         [
-          "18-29 J.",
-          2.6
+          "ch\u002Fdt",
+          2.4
         ],
         [
-          "30-39 J.",
-          0.3
+          "ch\u002Fdt und andere Sprache(n)",
+          3.5
         ],
         [
-          "40-49 J.",
-          0
-        ],
-        [
-          "50-59 J.",
-          0.5
-        ],
-        [
-          "60-69 J.",
-          0.3
-        ],
-        [
-          "\u003E69 J.",
-          0.4
+          "nur andere Sprache(n)",
+          9.8
         ],
         [
           "     ",
           null
         ],
         [
-          "Schweiz",
-          0.5
+          "unter 3000 Franken",
+          8.1
         ],
         [
-          "Ausland",
-          0.9
+          "3000-7499 Franken",
+          3.4
+        ],
+        [
+          "über 7499 Franken",
+          2.2
         ],
         [
           "      ",
           null
         ],
         [
-          "2003",
-          0.3
+          "Grossbasel Ost",
+          1.4
         ],
         [
-          "2005",
-          0.1
+          "Grossbasel West",
+          4.6
         ],
         [
-          "2007",
-          0.1
+          "Kleinbasel",
+          5.3
         ],
         [
-          "2011",
-          0.1
+          "Riehen, Bettingen",
+          3.2
         ],
         [
-          "2015",
-          0.3
+          "       ",
+          null
         ],
         [
-          "2019",
-          0.6
+          "2009",
+          4
+        ],
+        [
+          "2013",
+          4.3
+        ],
+        [
+          "2017",
+          3.8
         ]
       ],
       "name": "Weiss nicht",
@@ -706,10 +706,10 @@
         "whiteSpace": "nowrap"
       },
       "formatter": function() {
-              return this.value.replace(" ", " ");
-          },
+                return this.value.replace(" ", " ");
+            },
       "align": "left",
-      "x": -120
+      "x": -145
     }
   },
   "chart": {
@@ -731,16 +731,16 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 613,
     "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 150,
+    "marginLeft": 155,
     "inverted": true,
-    "renderTo": "container-8260"
+    "renderTo": "container-8246"
   },
   "title": {
     "style": {
@@ -749,7 +749,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Gesundheitliche Verfassung"
+    "text": "Finanzielle Lage"
   },
   "subtitle": {
     "style": {
@@ -757,7 +757,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie geht es Ihnen zurzeit gesundheitlich?»"
+    "text": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -816,7 +816,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "reversed": true,
@@ -836,6 +836,6 @@
         }
   },
   "exporting": {
-    "filename": 8260
+    "filename": 8246
   }
 }

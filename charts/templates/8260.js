@@ -1,57 +1,59 @@
 (function(){
-    return {
-"plotOptions": {
-    "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 30,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
-  "xAxis": {
-    "tickInterval": 1
-  },  
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
-    },
-	"max": undefined
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    //"y": 40,
-    //"itemWidth": 150,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
- "series": [
-  {"color": "#923f8d", "index": 0, "legendIndex":1}, /*grün dunkel2*/
-  {"color": "#b375ab", "index": 1, "legendIndex":2}, /*grün mittel*/
-  {"color": "#007a2f", "index": 2, "legendIndex":3}, 
-  {"color": "#68ab2b", "index": 3, "legendIndex":4}, 
-  {"color": "#923f8d", "index": 4, "legendIndex":5}, /*grün dunkel2*/
-  {"color": "#b375ab", "index": 5, "legendIndex":6},
+  return {
+      "series": [
+          {
+              "color": "#007A2F",
+              "index": 0,
+              "legendIndex": 0 
+          },
+          {
+              "color": "#73BA7C",
+              "index": 1,
+              "legendIndex": 1 
+          },
+          {
+              "color": "#FFBB58",
+              "index": 2,
+              "legendIndex": 2 
+          },
+          {
+              "color": "#FF8028",
+              "index": 3,
+              "legendIndex": 3
+          },
+          {
+              "color": "#C8C8C8",
+              "index": 4,
+              "legendIndex": 4 
+          }        
   ],
-  "chart": {
-    "marginBottom": 75,
-    //"marginTop": 75,
-    "type": "column",
-    "inverted": false
+  xAxis: {
+      "type": "category",
+      "labels": {
+         align: "left",
+          x: -120,
+          style: {
+              whiteSpace: 'nowrap'
+          },
+          "formatter": function() {
+              return this.value.replace(" ", " ");
+          }
+          
+      } 
+},  
+  yAxis:{
+      tickInterval: 20,
+      max: 100,
+      labels:{
+          "type": "category",
+          rotation: 0,
+      }
   },
-  "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.1f}</b>',
-   "shared": false
-  },
+  "chart": {     
+      marginLeft: 150,
+      "inverted": true,
+      "height": 600,
+   }
 }
 }());
+

@@ -5498,7 +5498,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -5622,9 +5622,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "colorAxis": {
     "min": 0,

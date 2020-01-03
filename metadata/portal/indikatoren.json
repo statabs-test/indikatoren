@@ -26594,6 +26594,46 @@
 		"id": 8240
 	},
 	{
+		"title": "Finanzielle Lage",
+		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»",
+		"kuerzel": "I.50.2.08246",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Lage",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»  genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8246,
+		"chart-id": 8246,
+		"filter": "",
+		"id": 8246
+	},
+	{
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08256",
@@ -26653,7 +26693,7 @@
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -27036,33 +27076,34 @@
 	{
 		"title": "Arealentwicklungen",
 		"subtitle": "",
-		"kuerzel": "",
+		"kuerzel": "I.09.1.08317",
 		"kuerzelKunde": "",
-		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"thema": "09 Gebäude und Wohnungen",
-		"unterthema": "",
+		"description": "Arealentwicklungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.2 Stadtentwicklung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die höchste Anteile der geplanten zusätzlichen Bruttogeschossflächen für Wohnungen finden sich in den Wohnvierteln Klybeck (26,0%) und St. Alban (23,8%).",
+		"erlaeuterungen": "Anteile der Wohnviertel an der geplanten Bruttogeschossfläche für Wohnungen in den städtischen Arealentwicklungen im Zeitraum 2019 bis 2030. Die Flächen der geplanten Arealentwicklungen wurden mit den Realisierungswahrscheinlichkeiten, die im mittleren Szenario der Bevölkerungsszenarien 2019 angenommen wurden, gewichtet. Im mittleren Szenario der Bevölkerungsszenarien 2019 führen die Arealentwicklungen zu zwischen 12 000 und 13 000 zusätzlichen Einwohnern in der Stadt Basel.",
 		"template": "mappieStadt",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Bau- und Verkehrsdepartement Basel-Stadt",
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -27072,6 +27113,46 @@
 		"chart-id": 8317,
 		"filter": "",
 		"id": 8317
+	},
+	{
+		"title": "Zufriedenheit mit nachbarschaftlichem Austausch",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit nachbarschaftlichem Austausch",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8323,
+		"chart-id": 8323,
+		"filter": "",
+		"id": 8323
 	},
 	{
 		"title": "Bruttoinlandprodukt",
