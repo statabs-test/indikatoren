@@ -17,11 +17,11 @@
           null
         ],
         [
-          "2014:",
+          "2014: Klybeck",
           340
         ],
         [
-          "2014:",
+          "2014: Kleinhüningen",
           90
         ],
         [
@@ -105,11 +105,11 @@
           null
         ],
         [
-          "2014:",
+          "2014: Klybeck",
           1341
         ],
         [
-          "2014:",
+          "2014: Kleinhüningen",
           342
         ],
         [
@@ -193,11 +193,11 @@
           null
         ],
         [
-          "2014:",
+          "2014: Klybeck",
           1411
         ],
         [
-          "2014:",
+          "2014: Kleinhüningen",
           673
         ],
         [
@@ -281,11 +281,11 @@
           null
         ],
         [
-          "2014:",
+          "2014: Klybeck",
           500
         ],
         [
-          "2014:",
+          "2014: Kleinhüningen",
           196
         ],
         [
@@ -369,11 +369,11 @@
           null
         ],
         [
-          "2014:",
+          "2014: Klybeck",
           100
         ],
         [
-          "2014:",
+          "2014: Kleinhüningen",
           30
         ],
         [
@@ -457,11 +457,11 @@
           null
         ],
         [
-          "2014:",
+          "2014: Klybeck",
           25
         ],
         [
-          "2014:",
+          "2014: Kleinhüningen",
           21
         ],
         [
@@ -542,10 +542,12 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -591,7 +593,9 @@
         }
       },
       "stacking": "normal"
-    }
+    },
+    "borderwidth": 0,
+    "groupPadding": 0
   },
   "title": {
     "style": {

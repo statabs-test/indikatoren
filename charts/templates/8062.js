@@ -20,9 +20,14 @@
       {
         "color": "#999",
         //"dashStyle": "ShortDash"
-      },
-      { "color": "#cd9c00" },
-      { "color": "#b375ab" }
+        "index": 3
+      }, 
+      { "color": "#cd9c00",
+      "index": 1
+      }, 
+      {"color": "#b375ab",
+      "index": 2
+      }
     ],
     "legend": {
       "enabled": true,

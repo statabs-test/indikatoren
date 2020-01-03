@@ -135,6 +135,18 @@
         [
           "2018: Kleinhüningen",
           4885.17
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          23407.07
+        ],
+        [
+          "2019: Kleinhüningen",
+          4885.17
         ]
       ],
       "name": "Parkanlage\u002FSpielplatz",
@@ -275,6 +287,18 @@
         [
           "2018: Kleinhüningen",
           49525.7
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          73958.92
+        ],
+        [
+          "2019: Kleinhüningen",
+          50251.78
         ]
       ],
       "name": "Gartenanlage",
@@ -414,6 +438,18 @@
         ],
         [
           "2018: Kleinhüningen",
+          null
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          null
+        ],
+        [
+          "2019: Kleinhüningen",
           null
         ]
       ],
@@ -555,6 +591,18 @@
         [
           "2018: Kleinhüningen",
           1096.83
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          null
+        ],
+        [
+          "2019: Kleinhüningen",
+          1096.83
         ]
       ],
       "name": "Gewässervorland humusiert",
@@ -695,6 +743,18 @@
         [
           "2018: Kleinhüningen",
           229073.56
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          16207.11
+        ],
+        [
+          "2019: Kleinhüningen",
+          230496.4
         ]
       ],
       "name": "Übrige humusierte",

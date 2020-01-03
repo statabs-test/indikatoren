@@ -130,6 +130,18 @@
         [
           "2018: Kleinhüningen",
           30.4667
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          11.3573
+        ],
+        [
+          "2019: Kleinhüningen",
+          30.2706
         ]
       ],
       "name": "Grünfläche",
@@ -265,6 +277,18 @@
         [
           "2018: Kleinhüningen",
           1.78855
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          1.93146
+        ],
+        [
+          "2019: Kleinhüningen",
+          1.66673
         ]
       ],
       "name": "Gewässer",
@@ -400,6 +424,18 @@
         [
           "2018: Kleinhüningen",
           22.6135
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          25.0182
+        ],
+        [
+          "2019: Kleinhüningen",
+          22.4198
         ]
       ],
       "name": "Gebäude",
@@ -535,6 +571,18 @@
         [
           "2018: Kleinhüningen",
           28.249
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          21.9544
+        ],
+        [
+          "2019: Kleinhüningen",
+          28.1078
         ]
       ],
       "name": "Verkehrsfläche",
@@ -670,6 +718,18 @@
         [
           "2018: Kleinhüningen",
           51.9881
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          31.7604
+        ],
+        [
+          "2019: Kleinhüningen",
+          52.641
         ]
       ],
       "name": "Übrige befestigte Flächen",

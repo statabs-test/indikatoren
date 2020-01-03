@@ -10,8 +10,8 @@
     },
     "yAxis": {
       "tickInterval": 20,
-      "min": -100,
-      "max": 200,
+      "min": -20,
+      "max": 140,
       "labels": {
         "format": "{value:,.0f}",
       },
@@ -65,7 +65,7 @@
         },
 
         //"yAxis": 1,
-        legendIndex: 3,
+        legendIndex: 4,
         tooltip: {
           "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
         }

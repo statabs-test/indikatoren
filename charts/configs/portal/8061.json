@@ -1,131 +1,131 @@
 {
   "series": [
     {
-      "color": "#73B97C",
-      "index": 1,
+      "color": "#ffbb58",
+      "index": 4,
       "data": [
         [
           "2013",
-          4073
+          3820
         ],
         [
           "2014",
-          4076
+          3820
         ],
         [
           "2015",
-          4083
+          3779
         ],
         [
           "2016",
-          4107
+          3758
         ],
         [
           "2017",
-          4155
+          3805
         ],
         [
           "2018",
-          4111
+          3744
         ]
       ],
-      "name": "Klybeck Kleinhüningen Mietwohnungen",
+      "name": "Mietwohnungen",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
-      "index": 2,
-      "data": [
-        [
-          "2013",
-          3093
-        ],
-        [
-          "2014",
-          3089
-        ],
-        [
-          "2015",
-          3093
-        ],
-        [
-          "2016",
-          3112
-        ],
-        [
-          "2017",
-          3159
-        ],
-        [
-          "2018",
-          3144
-        ]
-      ],
-      "name": "Klybeck Mietwohnungen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffbb58",
       "index": 3,
       "data": [
         [
           "2013",
-          980
+          798
         ],
         [
           "2014",
-          987
+          798
         ],
         [
           "2015",
-          990
+          790
         ],
         [
           "2016",
-          995
+          785
         ],
         [
           "2017",
-          996
+          756
         ],
         [
           "2018",
-          967
+          776
         ]
       ],
-      "name": "Kleinhüningen Mietwohnungen",
+      "name": "Genossenschaftswohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 2,
+      "data": [
+        [
+          "2013",
+          120
+        ],
+        [
+          "2014",
+          119
+        ],
+        [
+          "2015",
+          120
+        ],
+        [
+          "2016",
+          119
+        ],
+        [
+          "2017",
+          113
+        ],
+        [
+          "2018",
+          116
+        ]
+      ],
+      "name": "selbstgenutzte Eigentümerwohnunen",
       "turboThreshold": 0
     },
     {
       "color": "#662673",
-      "index": 0,
+      "index": 1,
       "data": [
         [
           "2013",
-          840
+          27
         ],
         [
           "2014",
-          840
+          18
         ],
         [
           "2015",
-          843
+          17
         ],
         [
           "2016",
-          843
+          12
         ],
         [
           "2017",
-          804
+          12
         ],
         [
           "2018",
-          813
+          51
         ]
       ],
-      "name": "KlybeckKleinhüningen Genossenschaftswohnungen",
+      "name": "sonstige Wohnungen",
       "turboThreshold": 0
     }
   ],
