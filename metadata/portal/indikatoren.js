@@ -26834,6 +26834,46 @@ var indikatoren = [
 		"id": 8273
 	},
 	{
+		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.15.3.08278",
+		"kuerzelKunde": "",
+		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Betrachtungszeitraum liegt die Quote bei Lernenden mit ausländischem Pass stets über der Quote der Schweizerinnen und Schweizer. Zudem weisen die männlichen Lernenden stets höhere Quoten auf als ihre Kolleginnen.",
+		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8278,
+		"chart-id": 8278,
+		"filter": "",
+		"id": 8278
+	},
+	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"subtitle": "Kinder mit Angeboten in Gehdistanz",
 		"kuerzel": "I.16.3.08285",
