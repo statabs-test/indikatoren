@@ -26754,6 +26754,86 @@
 		"id": 8271
 	},
 	{
+		"title": "Zufriedenheit mit der aktuellen Wohnung",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der altersangepassten Gestaltung des Wohngebäudes?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit der aktuellen Wohnung",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.5 Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8272,
+		"chart-id": 8272,
+		"filter": "",
+		"id": 8272
+	},
+	{
+		"title": "Zufriedenheit mit der aktuellen Wohnung",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung/des Hauses?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit der aktuellen Wohnung",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.5 Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mehr als 90% der über 55-Jährigen sind zufrieden mit der Ausstattung ihrer Wohnung bzw. ihres Hauses. Die Werte unterscheiden sich nach Staatsagehörigkeit: 15% der ausländischen Befragten sind nicht zufrieden mit dem Komfort der Wohnung, bei den Befragten mit Schweizer Pass liegt dieser Wert bei 4%.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8273,
+		"chart-id": 8273,
+		"filter": "",
+		"id": 8273
+	},
+	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"subtitle": "Kinder mit Angeboten in Gehdistanz",
 		"kuerzel": "I.16.3.08285",

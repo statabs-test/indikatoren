@@ -1090,6 +1090,8 @@ id | visible | visibleInPortal | indikatorenset
 8260 | true | true | CMS Kennzahlen Soziales
 8269 | true | true | CMS Kennzahlen Soziales
 8271 | true | true | CMS Kennzahlen Soziales
+8272 | true | true | CMS Kennzahlen Soziales
+8273 | true | true | CMS Kennzahlen Soziales
 8285 | true | true | CMS Kennzahlen Soziales
 8317 | true | true | CMS Kennzahlen Soziales
 8352 | true | true | Wirtschaftsbericht BS_BL_JU

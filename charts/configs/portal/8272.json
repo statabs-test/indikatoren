@@ -1,0 +1,681 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          22.7
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          20.8
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          23.7
+        ],
+        [
+          "Weiblich",
+          18.8
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          19.9
+        ],
+        [
+          "65-74",
+          20.4
+        ],
+        [
+          "\u003E74",
+          24.4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          22.2
+        ],
+        [
+          "Ausland",
+          14
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          18.6
+        ],
+        [
+          "5000- 7499 Fr.",
+          22.9
+        ],
+        [
+          "\u003E7499 Fr.",
+          21.6
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          24.3
+        ],
+        [
+          "Grossbasel West",
+          16.2
+        ],
+        [
+          "Kleinbasel",
+          23.3
+        ],
+        [
+          "Riehen, Bettingen",
+          24.6
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          24.7
+        ],
+        [
+          "2015",
+          21.5
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          45.7
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          46.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          42.5
+        ],
+        [
+          "Weiblich",
+          50.7
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          44.7
+        ],
+        [
+          "65-74",
+          48.6
+        ],
+        [
+          "\u003E74",
+          45.4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          45.5
+        ],
+        [
+          "Ausland",
+          54.2
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          46.5
+        ],
+        [
+          "5000- 7499 Fr.",
+          45.9
+        ],
+        [
+          "\u003E7499 Fr.",
+          47.7
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          44.8
+        ],
+        [
+          "Grossbasel West",
+          53
+        ],
+        [
+          "Kleinbasel",
+          45.8
+        ],
+        [
+          "Riehen, Bettingen",
+          38.5
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          43.3
+        ],
+        [
+          "2015",
+          46.1
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          16.2
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          21.8
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          19.7
+        ],
+        [
+          "Weiblich",
+          19.9
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          21.8
+        ],
+        [
+          "65-74",
+          19.4
+        ],
+        [
+          "\u003E74",
+          18.1
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          20.1
+        ],
+        [
+          "Ausland",
+          17.8
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          20.1
+        ],
+        [
+          "5000- 7499 Fr.",
+          20.8
+        ],
+        [
+          "\u003E7499 Fr.",
+          20.5
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          16.8
+        ],
+        [
+          "Grossbasel West",
+          20.5
+        ],
+        [
+          "Kleinbasel",
+          16.3
+        ],
+        [
+          "Riehen, Bettingen",
+          26.6
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          19.8
+        ],
+        [
+          "2015",
+          19.8
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          4.5
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          2.8
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          4.2
+        ],
+        [
+          "Weiblich",
+          2.6
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          2.9
+        ],
+        [
+          "65-74",
+          3.4
+        ],
+        [
+          "\u003E74",
+          3.9
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          3.2
+        ],
+        [
+          "Ausland",
+          6.5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          3.8
+        ],
+        [
+          "5000- 7499 Fr.",
+          3.4
+        ],
+        [
+          "\u003E7499 Fr.",
+          3.1
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          3.5
+        ],
+        [
+          "Grossbasel West",
+          2.3
+        ],
+        [
+          "Kleinbasel",
+          4.2
+        ],
+        [
+          "Riehen, Bettingen",
+          4
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          2
+        ],
+        [
+          "2015",
+          3.4
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          10.9
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          8.1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          10
+        ],
+        [
+          "Weiblich",
+          8
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          10.7
+        ],
+        [
+          "65-74",
+          8.2
+        ],
+        [
+          "\u003E74",
+          8.2
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          9.1
+        ],
+        [
+          "Ausland",
+          7.5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          11
+        ],
+        [
+          "5000- 7499 Fr.",
+          7
+        ],
+        [
+          "\u003E7499 Fr.",
+          7.1
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          10.6
+        ],
+        [
+          "Grossbasel West",
+          8
+        ],
+        [
+          "Kleinbasel",
+          10.4
+        ],
+        [
+          "Riehen, Bettingen",
+          6.3
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          10.2
+        ],
+        [
+          "2015",
+          9.1
+        ]
+      ],
+      "name": "Weiss nicht \u002F keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "formatter": function() {
+                return this.value.replace(" ", " ");
+            },
+      "align": "left",
+      "x": -120
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 513,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 150,
+    "inverted": true,
+    "renderTo": "container-8272"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zufriedenheit mit der aktuellen Wohnung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der altersangepassten Gestaltung des Wohngebäudes?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      },
+      "type": "category",
+      "rotation": 0
+    },
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+  },
+  "legend": {
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 115,
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": 8272
+  }
+}
