@@ -6,12 +6,12 @@
   "yAxis": {
     "min": 0, 
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.0f}%"
 	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
   },
   "series": [
     {"color": "#FABD24",
