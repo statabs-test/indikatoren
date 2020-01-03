@@ -68,7 +68,7 @@
           8
         ]
       ],
-      "name": "Neubau KlybeckKleinhüningen"
+      "name": "Neubau"
     },
     {
       "color": "#a8c4cb",
@@ -76,151 +76,6 @@
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 1,
-      "data": [
-        [
-          2004,
-          0
-        ],
-        [
-          2005,
-          109
-        ],
-        [
-          2006,
-          8
-        ],
-        [
-          2007,
-          0
-        ],
-        [
-          2008,
-          0
-        ],
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          8
-        ]
-      ],
-      "name": "Neubau Klybeck"
-    },
-    {
-      "color": "#fabd24",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 2,
-      "data": [
-        [
-          2004,
-          0
-        ],
-        [
-          2005,
-          0
-        ],
-        [
-          2006,
-          0
-        ],
-        [
-          2007,
-          0
-        ],
-        [
-          2008,
-          0
-        ],
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          99
-        ],
-        [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ]
-      ],
-      "name": "Neubau Kleinhüningen"
-    },
-    {
-      "color": "#000000",
-      "index": 1,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2004,
@@ -283,7 +138,152 @@
           -1
         ]
       ],
-      "name": "Abbruch KlybeckKleinhüningen"
+      "name": "Abbruch"
+    },
+    {
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2004,
+          -2
+        ],
+        [
+          2005,
+          -2
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          -6
+        ],
+        [
+          2008,
+          1
+        ],
+        [
+          2009,
+          -2
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          -8
+        ],
+        [
+          2012,
+          5
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          5
+        ],
+        [
+          2017,
+          3
+        ],
+        [
+          2018,
+          2
+        ]
+      ],
+      "name": "Umbausaldo"
+    },
+    {
+      "color": "#000000",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2004,
+          -2
+        ],
+        [
+          2005,
+          107
+        ],
+        [
+          2006,
+          6
+        ],
+        [
+          2007,
+          -6
+        ],
+        [
+          2008,
+          1
+        ],
+        [
+          2009,
+          -2
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          91
+        ],
+        [
+          2012,
+          5
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          5
+        ],
+        [
+          2017,
+          2
+        ],
+        [
+          2018,
+          9
+        ]
+      ],
+      "name": "Nettowohnungsproduktion"
     }
   ],
   "chart": {
@@ -387,8 +387,8 @@
       "format": "{value:,.0f}"
     },
     "tickInterval": 20,
-    "min": -100,
-    "max": 200,
+    "min": -20,
+    "max": 140,
     "plotLines": [
       {
         "value": 0,

@@ -1,5 +1,21 @@
 (function () {
   return {
+    "data": {
+      "seriesMapping": [
+        {
+          x: 0, y: 2
+        },
+        {
+          x: 0, y: 3
+        },
+        {
+          x: 0, y: 5
+        },
+        {
+          x: 0, y: 6
+        }
+      ]
+    },
     "chart": {
       "alignTicks": false
     },

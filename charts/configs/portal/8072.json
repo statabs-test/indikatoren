@@ -2,11 +2,11 @@
   "series": [
     {
       "index": 0,
-      "color": "#71a3b5",
+      "color": "#cd9c00",
       "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
-          }
+        "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
+      }
       },
       "data": [
         [
@@ -29,9 +29,9 @@
       "index": 1,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
-          }
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+      }
       },
       "data": [
         {
@@ -51,6 +51,112 @@
         }
       ],
       "name": "Klybeck 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#b375ab",
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
+      }
+      },
+      "data": [
+        [
+          "1990",
+          0.71622
+        ],
+        [
+          "2000",
+          0.70078
+        ],
+        [
+          "2013-2017",
+          0.65277
+        ]
+      ],
+      "name": "Kleinhüningen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+      }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2000",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2013-2017",
+          "low": 0.59583,
+          "high": 0.70972
+        }
+      ],
+      "name": "Kleinhüningen 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#8A8A8A",
+      "tooltip": {
+        "pointFormatter": function(){
+       return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
+      }
+      },
+      "data": [
+        [
+          "1990",
+          0.7308
+        ],
+        [
+          "2000",
+          0.72945
+        ],
+        [
+          "2013-2017",
+          0.73388
+        ]
+      ],
+      "name": "Stadt Basel",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+      }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2000",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2013-2017",
+          "low": 0.72723,
+          "high": 0.74053
+        }
+      ],
+      "name": "Stadt Basel 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -94,8 +200,8 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "marginBottom": 75,
-    "marginTop": 65,
+    "marginBottom": 80,
+    "inverted": false,
     "renderTo": "container-8072"
   },
   "title": {
@@ -135,9 +241,9 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function () {
-          return Highcharts.numberFormat((100 * this.value), 0) + '%';
-        }
+      "formatter": function(){
+          return Highcharts.numberFormat((100*this.value),0)+'%';                
+      }
     }
   },
   "credits": {
@@ -157,7 +263,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -172,8 +278,8 @@
       "marker": {
         "enabled": false
       },
-      "pointWidth": 50,
-      "borderWidth": 0
+      "pointPadding": 0,
+      "borderWidth": 1
     }
   },
   "customFunctions": {

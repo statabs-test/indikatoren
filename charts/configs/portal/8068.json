@@ -4,42 +4,9 @@
       "color": "#cd9c00",
       "index": 0,
       "type": "column",
-      "pointWidth": 20,
-      "borderWidth": 0,
-      "data": [
-        [
-          2013,
-          798
-        ],
-        [
-          2014,
-          798
-        ],
-        [
-          2015,
-          790
-        ],
-        [
-          2016,
-          785
-        ],
-        [
-          2017,
-          756
-        ],
-        [
-          2018,
-          776
-        ]
-      ],
-      "name": "Anzahl Genossenschaftswohnungen KlybeckKleinhüningen"
-    },
-    {
-      "color": "#b375ab",
-      "index": 0,
-      "type": "column",
-      "pointWidth": 20,
-      "borderWidth": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2013,
@@ -69,16 +36,11 @@
       "name": "Anzahl Genossenschaftswohnungen Klybeckn"
     },
     {
-      "yAxis": 1,
-      "color": "#7f5f1a",
+      "color": "#b375ab",
       "index": 1,
-      "type": "line",
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
+      "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -107,6 +69,84 @@
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Kleinhüningen"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 2,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          14.19113413932
+        ],
+        [
+          2014,
+          14.133563615428
+        ],
+        [
+          2015,
+          14.177362893815
+        ],
+        [
+          2016,
+          14.188990285546
+        ],
+        [
+          2017,
+          13.35676625659
+        ],
+        [
+          2018,
+          13.818288051416
+        ]
+      ],
+      "name": "Anteil am Bestand Klybeck (rechte Skala)"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          23.625096824167
+        ],
+        [
+          2014,
+          23.965651834504
+        ],
+        [
+          2015,
+          23.787167449139
+        ],
+        [
+          2016,
+          23.727486296006
+        ],
+        [
+          2017,
+          23.584905660377
+        ],
+        [
+          2018,
+          23.971518987341
+        ]
+      ],
+      "name": "Anteil am Bestand Kleinhüningen (rechte Skala)"
     }
   ],
   "chart": {
@@ -217,7 +257,7 @@
         }
       },
       "min": 0,
-      "max": 5,
+      "max": 30,
       "gridLineWidth": 0,
       "opposite": true
     }

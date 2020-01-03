@@ -1,5 +1,21 @@
 (function () {
   return {
+    "data": {
+      "seriesMapping": [
+        {
+          x: 0, y: 1
+        },
+        {
+          x: 0, y: 4
+        },
+        {
+          x: 0, y: 7
+        },
+        {
+          x: 0, y: 10
+        }
+      ]
+    },
     plotOptions: {
       series: {
         "stacking": "normal",

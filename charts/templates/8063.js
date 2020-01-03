@@ -14,11 +14,16 @@
           "symbol": "circle",
           "enabled": false
         },
-        "color": "#cd9c00"
-      },
+        "color": "#999",
+        //"dashStyle": "ShortDash"
+        "index": 3
+      },      
+      { "color": "#cd9c00",
+      "index": 1
+      }, 
       {"color": "#b375ab",
-    visible:true,
-  }, 
+      "index": 2
+      }
     ],
     "legend": {
       "enabled": true,
