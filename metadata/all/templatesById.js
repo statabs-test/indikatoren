@@ -1048,6 +1048,7 @@ var templatesById = {
 	"8278": "line001",
 	"8280": "line001",
 	"8285": "mappieStadt",
+	"8287": "line001",
 	"8317": "mappieStadt",
 	"8352": "area001",
 	"8353": "area001",

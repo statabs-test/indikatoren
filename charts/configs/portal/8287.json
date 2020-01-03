@@ -8,144 +8,58 @@
       "data": [
         [
           2009,
-          11461
+          717
         ],
         [
           2010,
-          11543
+          737
         ],
         [
           2011,
-          11604
+          850
         ],
         [
           2012,
-          11737
+          768
         ],
         [
           2013,
-          11836
+          783
         ],
         [
           2014,
-          12093
+          772
         ],
         [
           2015,
-          12470
+          798
         ],
         [
           2016,
-          12776
+          707
         ],
         [
           2017,
-          13049
+          729
         ],
         [
           2018,
-          13357
+          703
         ]
       ],
-      "name": "5-12"
+      "name": "Anzahl Straftaten"
     },
     {
       "color": "#B00000",
       "marker": {
         "enabled": false
-      },
-      "data": [
-        [
-          2009,
-          7837
-        ],
-        [
-          2010,
-          7655
-        ],
-        [
-          2011,
-          7637
-        ],
-        [
-          2012,
-          7540
-        ],
-        [
-          2013,
-          7604
-        ],
-        [
-          2014,
-          7481
-        ],
-        [
-          2015,
-          7510
-        ],
-        [
-          2016,
-          7483
-        ],
-        [
-          2017,
-          7475
-        ],
-        [
-          2018,
-          7501
-        ]
-      ],
-      "name": "13-17"
+      }
     },
     {
       "color": "#CD9C00",
       "marker": {
         "enabled": false
-      },
-      "data": [
-        [
-          2009,
-          18909
-        ],
-        [
-          2010,
-          18680
-        ],
-        [
-          2011,
-          18587
-        ],
-        [
-          2012,
-          18607
-        ],
-        [
-          2013,
-          18632
-        ],
-        [
-          2014,
-          18355
-        ],
-        [
-          2015,
-          18049
-        ],
-        [
-          2016,
-          17838
-        ],
-        [
-          2017,
-          17541
-        ],
-        [
-          2018,
-          17435
-        ]
-      ],
-      "name": "18-25"
+      }
     }
   ],
   "chart": {
@@ -175,7 +89,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-8280"
+    "renderTo": "container-8287"
   },
   "title": {
     "style": {
@@ -184,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25 "
+    "text": "Anzahl Straftaten im Bereich «häusliche Gewalt»"
   },
   "subtitle": {
     "style": {
@@ -193,7 +107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kanton Basel-Stadt",
+    "text": "",
     "align": "left"
   },
   "tooltip": {
@@ -244,7 +158,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "enabled": true,
@@ -307,6 +221,6 @@
     }
   },
   "exporting": {
-    "filename": 8280
+    "filename": 8287
   }
 }

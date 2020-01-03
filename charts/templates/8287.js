@@ -11,20 +11,10 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: {format: value:,.0f}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
   },
   "series": [
     {"color": "#246370",
-      "marker": {
-        "enabled": false
-      }    
-    }, /*  */
-	{"color": "#B00000",
-      "marker": {
-        "enabled": false
-      }    
-    }, /*  */
-  	{"color": "#CD9C00",
       "marker": {
         "enabled": false
       }    
