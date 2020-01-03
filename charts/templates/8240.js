@@ -138,8 +138,8 @@
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 
-					fn.addLegendRectangle(chart, 243, 212, 105, 120, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355, 212, 110, 120, '#fbfbfb');
+					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
+					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
 					fn.addLegendTitle(chart, "In der Schweiz <br/> geborenen <br/> Personen (%)", 245, 210);
 					
