@@ -142,7 +142,7 @@
           3
         ]
       ],
-      "name": "Keine Angaben",
+      "name": "Weiss nicht \u002F Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -287,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
   },
   "legend": {
     "layout": "vertical",

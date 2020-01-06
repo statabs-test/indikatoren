@@ -25,6 +25,10 @@
 "parentId":null,
 "children":["6174","6216","6261"],
 "renderLink":[],
-"quellenangabe":["Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"],
-"externalLinks":[""]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":5178, 
+"chart-id":5178, 
+"filter":""
 }

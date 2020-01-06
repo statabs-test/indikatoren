@@ -7471,7 +7471,7 @@
 		"title": "Bevölkerungspyramide am Jahresende",
 		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.5142",
-		"kuerzelKunde": "BE2",
+		"kuerzelKunde": "BE1",
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -7491,7 +7491,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_102",
+		"orderKey": "_101",
 		"parentId": null,
 		"children": [
 			"6989"
@@ -7513,7 +7513,7 @@
 		"title": "Altersquotient",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.5144",
-		"kuerzelKunde": "BE3",
+		"kuerzelKunde": "",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -7533,7 +7533,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_103",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -7553,7 +7553,7 @@
 		"title": "Jugendquotient",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.5147",
-		"kuerzelKunde": "BE4",
+		"kuerzelKunde": "",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -7568,12 +7568,12 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen in diesem Zeitraum weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2015 steigt der Jugendquotient wieder.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
+		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_104",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -7632,11 +7632,11 @@
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
 		"subtitle": "",
-		"kuerzel": "I.01.1.5149",
+		"kuerzel": "I.01.3.05149",
 		"kuerzelKunde": "BE7",
 		"description": "Geburtenziffer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -7653,7 +7653,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_109",
+		"orderKey": "01_01_00_00_00_108",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -7782,11 +7782,15 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5178,
+		"chart-id": 5178,
+		"filter": "",
 		"id": 5178
 	},
 	{
@@ -7831,8 +7835,8 @@
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe <br> «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»",
-		"kuerzel": "I.50.1.05181",
+		"subtitle": "nach Altersgruppe 2015 sowie im Vergleich 2003 bis 2015 <br> «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»",
+		"kuerzel": "I.50.1.5181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",
 		"thema": "50 Befragungen",
@@ -7841,15 +7845,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-04-19T15:02:04.044",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "39,2% der Befragten geht es gesundheitlich sehr gut, 47,2% gut. Betrachtet nach Alter fühlen sich die über 69-Jährigen gegenüber den Jüngeren zwar erwartungsgemäss häufiger nicht so gut, allerdings verschlechtert sich das Befinden der Befragten im Verlauf des Alters nicht gleichmässig. So geben 56,7% der Altersgruppe zwischen 30 und 39 Jahren an, sich sehr gut zu fühlen, bei den Jüngeren sind es mit 54,6% knapp weniger. Bei der Kategorie «Gut» verläuft die Entwicklung nahezu konträr zum Alter: So liegt der Wert mit 55,1% bei den über 69-Jährigen am höchsten. Sehr gut fühlt sich allerdings nur ein Viertel. Fasst man die Kategorien «Sehr gut» und «Gut» zusammen, schneidet die Altersgruppe zwischen 60 und 69 Jahren besser ab als die beiden jüngeren Gruppen und nahezu identisch wie die Gruppe der 30- bis 39-Jährigen. Die empfundene gesundheitliche Verfassung blieb über die Jahre 2003 bis 2015 weitgehend konstant. Gut 80% der Befragten gaben an, sich gesundheitlich gut oder gar sehr gut zu fühlen.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_304",
 		"parentId": null,
@@ -7858,11 +7864,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5181,
-		"darstellungsart": "Grafik"
+		"data-id": 5181,
+		"chart-id": 5181,
+		"filter": "",
+		"id": 5181
 	},
 	{
 		"title": "Übergewichtige Kinder",
@@ -7876,14 +7885,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-02T09:43:52.5252",
+		"aktualisierungsdatum": "2019-12-16T14:35:33.3333",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Schuljahr 2016/2017 waren 23% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
-		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7922,7 +7931,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf den baselstädtischen Strassen wurden 2017 bei 835 durch die Polizei rapportierten Unfällen 446 Personen verletzt, eine davon tödlich. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der statistischen Erhebung von Verkehrsunfällen.",
+		"lesehilfe": "2018 wurden auf den baselstädtischen Strassen 777 Unfälle durch die Polizei rapportiert, das sind 58 weniger als ein Jahr zuvor. Trotz abnehmender Gesamtzahl der Verkehrsunfälle gab es mehr Unfälle mit Personenschaden (+25). 473 Personen wurden dabei verletzt, 96 davon schwer und zwei tödlich.",
 		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -7985,39 +7994,44 @@
 		"id": 5188
 	},
 	{
-		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
-		"kuerzel": "I.50.1.05192",
+		"kuerzel": "I.50.1.5192",
 		"kuerzelKunde": "GW14",
-		"description": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"description": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 63,3% gaben 2015 an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_314",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F15"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5192,
-		"darstellungsart": "Grafik"
+		"data-id": 5192,
+		"chart-id": 5192,
+		"filter": "",
+		"id": 5192
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
@@ -8085,7 +8099,9 @@
 		"visibleInPortal": true,
 		"orderKey": "03_06_00_00_00_318",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7782"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -8100,11 +8116,11 @@
 		"id": 5196
 	},
 	{
-		"title": "Grünfläche pro Kopf nach Wohnviertel",
-		"subtitle": "Basel-Stadt, in m<sup>2</sup>, 2018",
+		"title": "Grünfläche pro Kopf",
+		"subtitle": "nach Wohnviertel, in m<sup>2</sup>, Basel-Stadt, 2019",
 		"kuerzel": "I.02.1.5198",
 		"kuerzelKunde": "GW20",
-		"description": "Grünfläche pro Kopf nach Wohnviertel",
+		"description": "Grünfläche pro Kopf",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -8117,7 +8133,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (197 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 656 m<sup>2</sup>).",
+		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Bruderholz (197 m<sup>2</sup>), Hirzbrunnen (199 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 702 m<sup>2</sup>).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9326,7 +9342,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2018: 51,1%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2019: 51,1%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9351,7 +9367,7 @@
 	{
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
-		"kuerzel": "I.11.2.06028",
+		"kuerzel": "I.11.2.6028",
 		"kuerzelKunde": "NL7",
 		"description": "Anteile der Verkehrsmittel",
 		"thema": "11 Verkehr",
@@ -9360,7 +9376,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -9369,6 +9385,8 @@
 		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehrs (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
 		"erlaeuterungen": "Die Ergebnisse von 2015 basieren auf der Hochrechnung einer Stichprobenerhebung von 1 241 Zielpersonen (2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_407",
 		"parentId": null,
@@ -9377,33 +9395,38 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6028,
-		"darstellungsart": "Grafik"
+		"data-id": 6028,
+		"chart-id": 6028,
+		"filter": "",
+		"id": 6028
 	},
 	{
 		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.3.06033",
+		"subtitle": "in Anzahl Tage",
+		"kuerzel": "I.02.12.06033",
 		"kuerzelKunde": "NL12",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
+		"unterthema": "Klima",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-07T16:01:34.3434",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-		"template": "stock001",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_412",
 		"parentId": 4300,
@@ -9412,11 +9435,14 @@
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 6033,
-		"darstellungsart": "Grafik"
+		"data-id": 6033,
+		"chart-id": 6033,
+		"filter": "",
+		"id": 6033
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
@@ -9436,7 +9462,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens), er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9544,7 +9570,7 @@
 	{
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
 		"subtitle": "Tätigkeitsbereiche der freiwillig tätigen Personen in %",
-		"kuerzel": "I.50.1.06041",
+		"kuerzel": "I.50.1.6041",
 		"kuerzelKunde": "GZ7.2",
 		"description": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
 		"thema": "50 Befragungen",
@@ -9553,15 +9579,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "43% gaben an, im sozialen Bereich engagiert zu sein, während im Bereich Umwelt nur 7% tätig waren. Bei dieser Frage waren Mehrfachnennungen möglich.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Frage S22 haben 1 506 Personen beantwortet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_03_00_00_00_508",
 		"parentId": null,
@@ -9570,11 +9598,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6041,
-		"darstellungsart": "Grafik"
+		"data-id": 6041,
+		"chart-id": 6041,
+		"filter": "",
+		"id": 6041
 	},
 	{
 		"title": "Entwicklung des Frauenanteils im grossen Rat",
@@ -9602,16 +9633,18 @@
 		"visibleInPortal": true,
 		"orderKey": "05_03_00_00_00_511",
 		"parentId": null,
-		"children": [
-			"4922"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6044,
+		"chart-id": 6044,
+		"filter": "",
 		"id": 6044
 	},
 	{
@@ -9672,7 +9705,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences-Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2017 bei 41,5%. Im Jahr 2000 lag er noch bei 23,6%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,4% im Jahr 2000 auf 8,8% im Jahr 2017).",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9685,9 +9718,13 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6047,
+		"chart-id": 6047,
+		"filter": "",
 		"id": 6047
 	},
 	{
@@ -9724,7 +9761,7 @@
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
 		"data-id": 6051,
 		"chart-id": 6051,
@@ -19900,7 +19937,7 @@
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"subtitle": "",
-		"kuerzel": "I.02.13.06574",
+		"kuerzel": "I.02.13.6574",
 		"kuerzelKunde": "NL11",
 		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"thema": "02 Raum, Umwelt",
@@ -19909,7 +19946,7 @@
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -19918,6 +19955,8 @@
 		"lesehilfe": "Im Jahre 2017 betrug der kumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
 		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_411",
 		"parentId": null,
@@ -19926,11 +19965,14 @@
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6574,
-		"darstellungsart": "Grafik"
+		"data-id": 6574,
+		"chart-id": 6574,
+		"filter": "",
+		"id": 6574
 	},
 	{
 		"title": "Ankünfte pro Monat nach Herkunft der Gäste",
@@ -28879,5 +28921,45 @@
 		"chart-id": 7993,
 		"filter": "",
 		"id": 7993
+	},
+	{
+		"title": "Abhängigkeitsquotient",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.08379",
+		"kuerzelKunde": "BE4",
+		"description": "Abhängigkeitsquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-16T18:20:57.5757",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9, was bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient gibt das Verhältnis der Anzahl unter 20-Jähriger und der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_104",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8379,
+		"chart-id": 8379,
+		"filter": "",
+		"id": 8379
 	}
 ]

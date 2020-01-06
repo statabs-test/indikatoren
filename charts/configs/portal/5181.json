@@ -374,7 +374,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Altersgruppe \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»"
+    "text": "nach Altersgruppe 2015 sowie im Vergleich 2003 bis 2015 \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -434,7 +434,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-19"
   },
   "legend": {
     "layout": "vertical",

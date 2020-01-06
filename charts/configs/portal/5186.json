@@ -94,6 +94,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -197,6 +201,10 @@
         [
           2017,
           835
+        ],
+        [
+          2018,
+          777
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -295,6 +303,10 @@
         [
           2017,
           446
+        ],
+        [
+          2018,
+          473
         ]
       ],
       "name": "Verunfallte Personen"

@@ -1026,6 +1026,7 @@ id | visible | visibleInPortal | indikatorenset
 7454 | true | false | Arbeitsmarkt
 7455 | true | false | Arbeitsmarkt
 7456 | true | false | Arbeitsmarkt
+7457 | false |  | Nachhaltigkeit
 7458 | true | false | Arbeitsmarkt
 7459 | true | false | Arbeitsmarkt
 7460 | true | false | Arbeitsmarkt
@@ -1199,6 +1200,9 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8377 | true | false | Nachhaltigkeit
+8379 | true | true | Nachhaltigkeit
+8448 | true | false | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

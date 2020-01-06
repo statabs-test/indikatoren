@@ -81,6 +81,10 @@
         [
           2017,
           2.9
+        ],
+        [
+          2018,
+          2.5
         ]
       ],
       "name": "Nettoschuldenquote"
@@ -167,6 +171,10 @@
         [
           2017,
           9643
+        ],
+        [
+          2018,
+          8636
         ]
       ],
       "name": "Nettoschulden pro Kopf (rechte Skala)"
