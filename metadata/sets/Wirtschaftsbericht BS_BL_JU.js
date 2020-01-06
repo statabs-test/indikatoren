@@ -156,6 +156,201 @@ var indikatorensetData = [
 		"id": 8362
 	},
 	{
+		"title": "Arbeitspendler",
+		"subtitle": "Basel-Stadt, Pooling 2013-2017",
+		"kuerzel": "",
+		"kuerzelKunde": "2.8",
+		"description": "Arbeitspendler",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 pendelten fast 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Die meisten von ihnen kommen aus Basel-Landschaft (ca. 44 100) oder aus dem Ausland (rund 34 900), vornehmlich aus Frankreich und Deutschland. Andere Schweizer Kantone spielen eine kleinere Rolle. Über 25 000 Personen aus Basel-Stadt arbeiten in anderen Kantonen oder im Ausland, über 15 100 von ihnen in Basel-Landschaft.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in Basel-Stadt pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 3 500 Erwerbstätige mit Arbeitsadresse in Basel-Stadt und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in Basel-Stadt zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 1 427 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 789 Wegpendlern ohne Hauptwohnsitz in Basel-Stadt.<br>Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8363,
+		"chart-id": 8363,
+		"filter": "",
+		"id": 8363
+	},
+	{
+		"title": "Arbeitspendler",
+		"subtitle": "Basel-Landschaft, Pooling 2013-2017",
+		"kuerzel": "",
+		"kuerzelKunde": "2.9",
+		"description": "Arbeitspendler",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2013 bis 2017 etwas mehr Weg- als Zupendler (rund 59 700 gegenüber 54 300). Die meisten Wegpendler arbeiten in Basel-Stadt, fast 44 100. Die meisten Zupendler kommen mit rund 20 300 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit über 15 100 Arbeitskräften.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in Basel-Landschaft pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 3 107 Erwerbstätige mit Arbeitsadresse in Basel-Landschaft und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in Basel-Landschaft zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 1 723 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 259 Wegpendlern ohne Hauptwohnsitz in Basel-Landschaft.<br>Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8364,
+		"chart-id": 8364,
+		"filter": "",
+		"id": 8364
+	},
+	{
+		"title": "Arbeitspendler",
+		"subtitle": "Jura, Pooling 2013-2017",
+		"kuerzel": "",
+		"kuerzelKunde": "2.10",
+		"description": "Arbeitspendler",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2013 bis 2017 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 200 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit fast 2 700 in den Kanton Bern. Die meisten der insgesamt rund 9 500 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit über 7 300 Personen aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz im Kanton Jura pendeln.Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 1 754 Erwerbstätige mit Arbeitsadresse im Kanton Jura und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse im Kanton Jura zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 313 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 60 Wegpendlern ohne Hauptwohnsitz im Kanton Jura.<br>Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8365,
+		"chart-id": 8365,
+		"filter": "",
+		"id": 8365
+	},
+	{
+		"title": "Arbeitspendler",
+		"subtitle": "BS/BL/JU, Pooling 2013-2017",
+		"kuerzel": "",
+		"kuerzelKunde": "2.11",
+		"description": "Arbeitspendler",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Fasst man die drei Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen, so pendeln im Mittel der Jahre 2013 bis 2017 insgesamt rund 29 900 Personen zur Arbeit aus diesem Gebiet weg, über 103 400 kommen von auswärts an ihren Arbeitsplatz. Mit über 9 100 Personen pendelt die grösste Gruppe in den Aargau. Bei den Zupendern kommt die grosse Mehrheit mit mit rund 62 600 Arbeitskräften aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in den Kantonen Basel-Stadt, Basel-Landschaft oder Jura pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 8 362 Erwerbstätige mit Arbeitsadresse in einem der drei Kantone und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in den Kantonen Basel-Stadt, Basel-Landschaft oder Jura zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 3 463 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 245 Wegpendlern ohne Hauptwohnsitz in einem der drei Kantone.<br>Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8366,
+		"chart-id": 8366,
+		"filter": "",
+		"id": 8366
+	},
+	{
+		"title": "Arbeitspendler",
+		"subtitle": "Pooling 2013-2017",
+		"kuerzel": "",
+		"kuerzelKunde": "2.12",
+		"description": "Arbeitspendler",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2013 bis 2017  ist für Basel-Stadt (+74 700) und Jura (+4 300) positiv, für Basel-Landschaft (-5 500) negativ. Werden die drei Kantone zusammen betrachtet, gibt es 73 600 mehr Zu- als Wegpendler.",
+		"erlaeuterungen": "Erläuterungen BS:<br>Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in Basel-Stadt pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 3 500 Erwerbstätige mit Arbeitsadresse in Basel-Stadt und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in Basel-Stadt zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 1 427 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 789 Wegpendlern ohne Hauptwohnsitz in Basel-Stadt.<br><br>Erläuterungen BL:<br>Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in Basel-Landschaft pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 3 107 Erwerbstätige mit Arbeitsadresse in Basel-Landschaft und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in Basel-Landschaft zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 1 723 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 259 Wegpendlern ohne Hauptwohnsitz in Basel-Landschaft.<br><br>Erläuterungen JU:<br>Zupendler:  Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz im Kanton Jura pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 1 754 Erwerbstätige mit Arbeitsadresse im Kanton Jura und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse im Kanton Jura zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 313 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 60 Wegpendlern ohne Hauptwohnsitz im Kanton Jura.<br><br>Erläuterungen BS/BL/JU:<br>Zupendler:  Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in den Kantonen Basel-Stadt, Basel-Landschaft oder Jura pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Ohne hochgerechnet 8 362 Erwerbstätige mit Arbeitsadresse in einem der drei Kantone und ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt.<br>Wegpendler:<br>Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in den Kantonen Basel-Stadt, Basel-Landschaft oder Jura zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Ohne hochgerechnet 3 463 Wegpendler mit unbekanntem Arbeitsort, aber einschliesslich hochgerechnet 245 Wegpendlern ohne Hauptwohnsitz in einem der drei Kantone.<br><br>Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8367,
+		"chart-id": 8367,
+		"filter": "",
+		"id": 8367
+	},
+	{
 		"title": "Tertiärquote",
 		"subtitle": "",
 		"kuerzel": "",

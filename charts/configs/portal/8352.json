@@ -4,155 +4,133 @@
       "color": "rgb(71,71,71)",
       "data": [
         [
-          "2014",
+          2014,
           100
         ],
         [
-          "2015",
+          2015,
           102.4
         ],
         [
-          "2016",
+          2016,
           104.7
         ],
         [
-          "2017",
+          2017,
           107.6
         ],
         [
-          "2018",
+          2018,
           111.6
         ]
       ],
-      "name": "Basel-Stadt",
-      "turboThreshold": 0
+      "name": "Basel-Stadt"
     },
     {
       "color": "rgb(255,128,40)",
       "data": [
         [
-          "2014",
+          2014,
           100
         ],
         [
-          "2015",
+          2015,
           101.2
         ],
         [
-          "2016",
+          2016,
           100.7
         ],
         [
-          "2017",
+          2017,
           102.4
         ],
         [
-          "2018",
+          2018,
           105
         ]
       ],
-      "name": "Basel-Landschaft",
-      "turboThreshold": 0
+      "name": "Basel-Landschaft"
     },
     {
       "color": "rgb(250,189,36)",
       "data": [
         [
-          "2014",
+          2014,
           100
         ],
         [
-          "2015",
+          2015,
           97.6
         ],
         [
-          "2016",
+          2016,
           97
         ],
         [
-          "2017",
+          2017,
           98.9
         ],
         [
-          "2018",
+          2018,
           100.9
         ]
       ],
-      "name": "Jura",
-      "turboThreshold": 0
+      "name": "Jura"
     },
     {
       "color": "rgb(180,117,171)",
       "data": [
         [
-          "2014",
+          2014,
           100
         ],
         [
-          "2015",
+          2015,
           101.5
         ],
         [
-          "2016",
+          2016,
           102.6
         ],
         [
-          "2017",
+          2017,
           105
         ],
         [
-          "2018",
+          2018,
           108.3
         ]
       ],
-      "name": "BS\u002FBL\u002FJU",
-      "turboThreshold": 0
+      "name": "BS\u002FBL\u002FJU"
     },
     {
       "color": "rgb(153,3,0)",
       "data": [
         [
-          "2014",
+          2014,
           100
         ],
         [
-          "2015",
+          2015,
           100.1
         ],
         [
-          "2016",
+          2016,
           100.6
         ],
         [
-          "2017",
+          2017,
           101.1
         ],
         [
-          "2018",
+          2018,
           102.6
         ]
       ],
-      "name": "Schweiz",
-      "turboThreshold": 0
+      "name": "Schweiz"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "formatter": function() {
-            return this.value.split("-").slice(0, -1);
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 4
-  },
   "chart": {
     "events": {
       "load": function() {
@@ -219,9 +197,19 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
