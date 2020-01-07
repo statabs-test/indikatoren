@@ -41141,7 +41141,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»  genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenProzent001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -41200,6 +41200,46 @@ var indikatoren = [
 		"chart-id": 8248,
 		"filter": "",
 		"id": 8248
+	},
+	{
+		"title": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
+		"subtitle": "nach Grossregion, 2013",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2013 lebten in der Nordwestschweiz 4,6% der Bevölkerung in einem Haushalt, in dem mindestens eine Person mindestens eine Betreibung in den letzten 12 Monaten hatte.",
+		"erlaeuterungen": "Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8249,
+		"chart-id": 8249,
+		"filter": "",
+		"id": 8249
 	},
 	{
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",

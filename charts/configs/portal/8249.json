@@ -11,34 +11,34 @@
       "data": [
         [
           "Genferseeregion",
-          26.3
+          7.9
         ],
         [
           "Mittelland",
-          18.9
+          4.9
         ],
         [
           "Nordwestschweiz",
-          15.1
+          4.6
         ],
         [
           "Zürich",
-          12
+          2.9
         ],
         [
           "Ostschweiz",
-          14.2
+          3.4
         ],
         [
           "Zentralschweiz",
-          11.9
+          2.2
         ],
         [
           "Tessin",
-          29.1
+          8.1
         ]
       ],
-      "name": "Zahlungsrückstand",
+      "name": "Anteil in %",
       "turboThreshold": 0
     },
     {
@@ -52,31 +52,31 @@
       "data": [
         [
           "Genferseeregion",
-          21.3
+          5.7
         ],
         [
           "Mittelland",
-          16.4
+          3.5
         ],
         [
           "Nordwestschweiz",
-          12
+          2.6
         ],
         [
           "Zürich",
-          9.1
+          1.5
         ],
         [
           "Ostschweiz",
-          10.5
+          1.8
         ],
         [
           "Zentralschweiz",
-          8.2
+          0.8
         ],
         [
           "Tessin",
-          19.8
+          0
         ]
       ],
       "name": "95% Vertrauensintervall Untergrenze",
@@ -93,154 +93,31 @@
       "data": [
         [
           "Genferseeregion",
-          31.3
-        ],
-        [
-          "Mittelland",
-          21.4
-        ],
-        [
-          "Nordwestschweiz",
-          18.2
-        ],
-        [
-          "Zürich",
-          14.9
-        ],
-        [
-          "Ostschweiz",
-          17.9
-        ],
-        [
-          "Zentralschweiz",
-          15.6
-        ],
-        [
-          "Tessin",
-          38.4
-        ]
-      ],
-      "name": "95% Vertrauensintervall Obergrenze",
-      "turboThreshold": 0
-    },
-    {
-      "type": "scatter",
-      "marker": {
-        "symbol": "circle",
-        "enabled": true,
-        "radius": 3
-      },
-      "color": "#990300",
-      "data": [
-        [
-          "Genferseeregion",
-          12.3
-        ],
-        [
-          "Mittelland",
-          8.1
-        ],
-        [
-          "Nordwestschweiz",
           10
         ],
         [
-          "Zürich",
-          9.9
-        ],
-        [
-          "Ostschweiz",
-          6.4
-        ],
-        [
-          "Zentralschweiz",
-          4.4
-        ],
-        [
-          "Tessin",
-          11.5
-        ]
-      ],
-      "name": "Kontoüberziehung oder Kreditkartenüberziehung",
-      "turboThreshold": 0
-    },
-    {
-      "type": "scatter",
-      "marker": {
-        "symbol": "triangle-down",
-        "enabled": true,
-        "radius": 3
-      },
-      "color": "#990300",
-      "data": [
-        [
-          "Genferseeregion",
-          9.4
-        ],
-        [
           "Mittelland",
-          5.7
+          6.3
         ],
         [
           "Nordwestschweiz",
-          7.2
+          6.5
         ],
         [
           "Zürich",
-          5.8
+          4.3
         ],
         [
           "Ostschweiz",
-          3.8
+          5
         ],
         [
           "Zentralschweiz",
-          2.3
+          3.7
         ],
         [
           "Tessin",
-          5.5
-        ]
-      ],
-      "name": "95% Vertrauensintervall Untergrenze",
-      "turboThreshold": 0
-    },
-    {
-      "type": "scatter",
-      "marker": {
-        "symbol": "triangle",
-        "enabled": true,
-        "radius": 3
-      },
-      "color": "#990300",
-      "data": [
-        [
-          "Genferseeregion",
-          15.2
-        ],
-        [
-          "Mittelland",
-          10.4
-        ],
-        [
-          "Nordwestschweiz",
-          12.8
-        ],
-        [
-          "Zürich",
-          14
-        ],
-        [
-          "Ostschweiz",
-          9.1
-        ],
-        [
-          "Zentralschweiz",
-          6.4
-        ],
-        [
-          "Tessin",
-          17.4
+          16.3
         ]
       ],
       "name": "95% Vertrauensintervall Obergrenze",
@@ -296,7 +173,7 @@
           }
     },
     "inverted": true,
-    "renderTo": "container-8248",
+    "renderTo": "container-8249",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -316,7 +193,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen"
+    "text": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten"
   },
   "subtitle": {
     "style": {
@@ -387,6 +264,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8248
+    "filename": 8249
   }
 }
