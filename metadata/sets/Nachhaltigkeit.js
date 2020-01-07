@@ -442,7 +442,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
+		"aktualisierungsdatum": "2020-01-06T16:07:38.3838",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -465,7 +465,7 @@ var indikatorensetData = [
 			""
 		],
 		"data-id": 5161,
-		"chart-id": 5161,
+		"chart-id": 6131,
 		"filter": "",
 		"id": 5161
 	},
@@ -2923,8 +2923,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2933,7 +2933,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "01_01_00_00_00_113",
 		"parentId": 6215,
 		"children": [],
 		"renderLink": [],
