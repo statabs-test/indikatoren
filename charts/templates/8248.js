@@ -1,108 +1,120 @@
 (function(){
   return {
+//seriesMapping necessary for charts with error bars. 
+"data": {
+  "seriesMapping": [
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    },
+    {
+      "x": 0
+    }
+  ]  
+},
+plotOptions: {
+      series: {
+          pointPadding: 0,
+          borderWidth: 0
+      }
+  },
+tooltip: {
+      shared: true
+  },
+"series": [
+  {
+    "index": 0,
+    color: "#A8C3CA",
+     "tooltip": {
+      "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+    }   
+  },
+  {
+    "index": 1,
+    "type": "errorbar",
+    "tooltip": {
+      "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      },
+    }
+  },
+      {
+    "index": 2,
+    color: "#FABD24",
+     "tooltip": {
+      "pointFormatter": function(){
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+    }   
+    
+  },
+ {
+    "index": 3,
+    "type": "errorbar",
+    "tooltip": {
+      "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      }
+    }
+  }
+  
+],  
 "xAxis": {
-  //"tickInterval": 1,
-  "type": "category"
+  "type": "category"    
 },
 "yAxis": {
-  tickInterval: 10,
-  min: 0, 
-  max: 40,
-  labels: {
-    format: "{value:,.0f}%",
-  }
-},	
-tooltip: {
-  shared: false, 
-  headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-  pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
-},
-series: 
-[
-  {
-    type: "scatter",
-    marker: 
-      {
-        symbol: "circle",
-        radius: 3,
-        "enabled": true
+  "labels": {
+      "formatter": function(){
+          return Highcharts.numberFormat((this.value),0)+'%';                
       },
-      "color": "#246370"
   },
-  {
-    type: "scatter",
-    "marker": 
-      {
-        "symbol": "triangle-down",
-        radius: 3,
-        "enabled": true
-      },
-      "color": "#246370"
-  },
-  {
-    type: "scatter",
-    "marker": 
-      {
-        "symbol": "triangle",
-        "enabled": false,
-        radius: 3,
-        "enabled": true
-      },
-      "color": "#246370"
-  },
-
-
-
-  {
-    type: "scatter",
-    "marker": 
-      {
-        "symbol": "circle",
-        "enabled": false,
-        radius: 3,
-        "enabled": true
-      },
-      "color": "#990300"
-  },
-  {
-    type: "scatter",
-    "marker": 
-      {
-        "symbol": "triangle-down",
-        "enabled": false,
-        radius: 3,
-        "enabled": true
-      },
-      "color": "#990300"
-  },
-  {
-    type: "scatter",
-    "marker": 
-      {
-        "symbol": "triangle",
-        "enabled": false,
-        radius: 3,
-        "enabled": true
-      },
-      "color": "#990300"
-  }
-
-],
-"legend": {
+  tickDistance: 10,
+  max:40 
+},    
+ "legend": {
   "enabled": true,
-  //"x": 30,
-  //"y": 35,
-  //"itemWidth": 150,
+   itemDistance: 5,
   "layout": "horizontal",
   "verticalAlign": "top",
-  "itemMarginBottom": 5,
   "align": "left",
   "itemStyle": {
     "fontWeight": "normal"
   }
 },
-chart: {
-  inverted: true
-}
+"chart": {    
+  "marginBottom": 65,
+  //"marginTop": 75,
+  "type": "column",
+  "inverted": true
+}, 
+subtitle: {
+  useHTML: true
+}, 
+exporting: {
+  allowHTML: true,
+},
 };
 }());
+
+
+
+
+
+
+
+
+
+
