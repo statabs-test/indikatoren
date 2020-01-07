@@ -5,7 +5,6 @@
   "type": "category"
 },
 "yAxis": {
-  //tickAmount: 5,
   tickInterval: 10,
   min: 0, 
   max: 40,
