@@ -1,0 +1,681 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          3
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          1.5
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          2.9
+        ],
+        [
+          "Weiblich",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          2.1
+        ],
+        [
+          "65-74",
+          1.7
+        ],
+        [
+          "\u003E74",
+          2.4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          2.1
+        ],
+        [
+          "Ausland",
+          1.9
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          2.9
+        ],
+        [
+          "5000- 7499 Fr.",
+          1.8
+        ],
+        [
+          "\u003E7499 Fr.",
+          2
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          0.7
+        ],
+        [
+          "Grossbasel West",
+          2.7
+        ],
+        [
+          "Kleinbasel",
+          3.1
+        ],
+        [
+          "Riehen, Bettingen",
+          2
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          1.5
+        ],
+        [
+          "2015",
+          2
+        ]
+      ],
+      "name": "Regelmässig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          12.8
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          8.9
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          11
+        ],
+        [
+          "Weiblich",
+          9.6
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          11.5
+        ],
+        [
+          "65-74",
+          10.3
+        ],
+        [
+          "\u003E74",
+          9.1
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          10.5
+        ],
+        [
+          "Ausland",
+          8.4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          8.9
+        ],
+        [
+          "5000- 7499 Fr.",
+          13.1
+        ],
+        [
+          "\u003E7499 Fr.",
+          11.1
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          8.9
+        ],
+        [
+          "Grossbasel West",
+          9.1
+        ],
+        [
+          "Kleinbasel",
+          13.9
+        ],
+        [
+          "Riehen, Bettingen",
+          10.7
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          6.7
+        ],
+        [
+          "2015",
+          10.3
+        ]
+      ],
+      "name": "Hin und wieder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          12.6
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          11.7
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          12.6
+        ],
+        [
+          "Weiblich",
+          11.5
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          14
+        ],
+        [
+          "65-74",
+          12.2
+        ],
+        [
+          "\u003E74",
+          9.9
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          12.4
+        ],
+        [
+          "Ausland",
+          9.3
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          10.1
+        ],
+        [
+          "5000- 7499 Fr.",
+          11.9
+        ],
+        [
+          "\u003E7499 Fr.",
+          14
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          12.6
+        ],
+        [
+          "Grossbasel West",
+          12.3
+        ],
+        [
+          "Kleinbasel",
+          10.1
+        ],
+        [
+          "Riehen, Bettingen",
+          13.5
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          7.5
+        ],
+        [
+          "2015",
+          12.1
+        ]
+      ],
+      "name": "Selten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          39.9
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          56.2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          44.5
+        ],
+        [
+          "Weiblich",
+          57.9
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          57.9
+        ],
+        [
+          "65-74",
+          56.2
+        ],
+        [
+          "\u003E74",
+          37.1
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          49.8
+        ],
+        [
+          "Ausland",
+          58.9
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          43.4
+        ],
+        [
+          "5000- 7499 Fr.",
+          51.7
+        ],
+        [
+          "\u003E7499 Fr.",
+          58.4
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          49.5
+        ],
+        [
+          "Grossbasel West",
+          55.5
+        ],
+        [
+          "Kleinbasel",
+          46.5
+        ],
+        [
+          "Riehen, Bettingen",
+          48.8
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          53.1
+        ],
+        [
+          "2015",
+          50.5
+        ]
+      ],
+      "name": "Nie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Einpersonenhaushalt",
+          9.1
+        ],
+        [
+          "Mehrpersonenhaushalt",
+          5.4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männlich",
+          7.2
+        ],
+        [
+          "Weiblich",
+          6.2
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "55-64",
+          5
+        ],
+        [
+          "65-74",
+          6.5
+        ],
+        [
+          "\u003E74",
+          8.4
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          6.5
+        ],
+        [
+          "Ausland",
+          9.3
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "\u003C5000 Fr.",
+          9.6
+        ],
+        [
+          "5000- 7499 Fr.",
+          4
+        ],
+        [
+          "\u003E7499 Fr.",
+          4.2
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          8.4
+        ],
+        [
+          "Grossbasel West",
+          5.9
+        ],
+        [
+          "Kleinbasel",
+          6.3
+        ],
+        [
+          "Riehen, Bettingen",
+          5.6
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2011",
+          8.1
+        ],
+        [
+          "2015",
+          6.7
+        ]
+      ],
+      "name": "Nicht möglich\u002Fnicht vorhanden",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "formatter": function() {
+                return this.value.replace(" ", " ");
+            },
+      "align": "left",
+      "x": -120
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 513,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 150,
+    "inverted": true,
+    "renderTo": "container-8329"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Materielle Unterstützung von Freunden"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde\u002FBekannte materiell?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      },
+      "type": "category",
+      "rotation": 0
+    },
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+  },
+  "legend": {
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 115,
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": 8329
+  }
+}

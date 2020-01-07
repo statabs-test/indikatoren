@@ -1,8 +1,8 @@
-﻿Grossregion	Anteil in %	95% Vertrauensintervall Untergrenze	95% Vertrauensintervall Obergrenze
-Genferseeregion	12.3 	9.4 	15.2 
-Mittelland	8.1 	5.7 	10.4 
-Nordwestschweiz	10.0 	7.2 	12.8 
-Zürich	9.9 	5.8 	14.0 
-Ostschweiz	6.4 	3.8 	9.1 
-Zentralschweiz	4.4 	2.3 	6.4 
-Tessin	11.5 	5.5 	17.4 
+﻿Grossregion	Zahlungsrückstand	95% Vertrauensintervall Untergrenze	95% Vertrauensintervall Obergrenze	Kontoüberziehung oder Kreditkartenüberziehung	95% Vertrauensintervall Untergrenze	95% Vertrauensintervall Obergrenze
+Genferseeregion	26.3	21.3	31.3	12.3 	9.4 	15.2 
+Mittelland	18.9	16.4	21.4	8.1 	5.7 	10.4 
+Nordwestschweiz	15.1	12.0	18.2	10.0 	7.2 	12.8 
+Zürich	12.0	9.1	14.9	9.9 	5.8 	14.0 
+Ostschweiz	14.2	10.5	17.9	6.4 	3.8 	9.1 
+Zentralschweiz	11.9	8.2	15.6	4.4 	2.3 	6.4 
+Tessin	29.1	19.8	38.4	11.5 	5.5 	17.4 

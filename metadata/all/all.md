@@ -1087,6 +1087,7 @@ id | visible | visibleInPortal | indikatorenset
 7778 | true | false | Richtplan
 8240 | true | true | CMS Kennzahlen Soziales
 8246 | true | true | CMS Kennzahlen Soziales
+8248 | true | true | CMS Kennzahlen Soziales
 8256 | true | true | CMS Kennzahlen Soziales
 8260 | true | true | CMS Kennzahlen Soziales
 8269 | true | true | CMS Kennzahlen Soziales
@@ -1100,6 +1101,16 @@ id | visible | visibleInPortal | indikatorenset
 8287 | true | true | CMS Kennzahlen Soziales
 8317 | true | true | CMS Kennzahlen Soziales
 8323 | true | true | CMS Kennzahlen Soziales
+8324 | true | true | CMS Kennzahlen Soziales
+8325 | true | true | CMS Kennzahlen Soziales
+8326 | true | true | CMS Kennzahlen Soziales
+8327 | true | true | CMS Kennzahlen Soziales
+8328 | true | true | CMS Kennzahlen Soziales
+8329 | true | true | CMS Kennzahlen Soziales
+8330 | true | true | CMS Kennzahlen Soziales
+8331 | true | true | CMS Kennzahlen Soziales
+8332 | true | true | CMS Kennzahlen Soziales
+8334 | true | true | CMS Kennzahlen Soziales
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
 8353 | true | true | Wirtschaftsbericht BS_BL_JU
 9995 | true | false | 

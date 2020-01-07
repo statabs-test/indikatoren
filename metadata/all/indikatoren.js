@@ -41162,6 +41162,46 @@ var indikatoren = [
 		"id": 8246
 	},
 	{
+		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
+		"subtitle": "nach Grossregion, 2013",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2013 lebten in der Nordwestschweiz 10,0% der Bevölkerung in einem Haushalt mit mindestens einer Kontoüberziehung oder mindestenstens einer Kreditkartenüberziehung. 15,1% lebten in einem Haushalt mit mindestens einer Art von Zahlungsrückstand.",
+		"erlaeuterungen": "Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8248,
+		"chart-id": 8248,
+		"filter": "",
+		"id": 8248
+	},
+	{
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08256",
@@ -41443,7 +41483,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
-		"subtitle": "",
+		"subtitle": "in Prozent",
 		"kuerzel": "I.15.3.08278",
 		"kuerzelKunde": "",
 		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
@@ -41681,6 +41721,406 @@ var indikatoren = [
 		"chart-id": 8323,
 		"filter": "",
 		"id": 8323
+	},
+	{
+		"title": "Zufriedenheit mit den sozialkontakten",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit den sozialkontakten",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8324,
+		"chart-id": 8324,
+		"filter": "",
+		"id": 8324
+	},
+	{
+		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 60% der Befragten sind 2015 mit en Angeboten für ältere Menschen zufrieden, 2011 waren es mit 56% weniger.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8325,
+		"chart-id": 8325,
+		"filter": "",
+		"id": 8325
+	},
+	{
+		"title": "Finanzielle Unterstützung von Freunden",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte finanziell?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Unterstützung von Freunden",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Finanzielle Unterstützung von Freunden erhalten 4% der Befragten. Vor vier Jahren waren fast gleich viele.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8326,
+		"chart-id": 8326,
+		"filter": "",
+		"id": 8326
+	},
+	{
+		"title": "Finanzielle Unterstützung von Nachbarn",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn finanziell?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Unterstützung von Nachbarn",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Finanzielle Unterstützung von Nachbarn erhalten 2% der Befragten, dieser Wert hat sich seit der letzten Befragung kaum verändert.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8327,
+		"chart-id": 8327,
+		"filter": "",
+		"id": 8327
+	},
+	{
+		"title": "Finanzielle Unterstützung von Arbeitskollegen",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen finanziell?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Unterstützung von Arbeitskollegen",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "1% der Befragten erhalten finanzielle Unterstützung von Arbeitskollegen. Vor vier Jahren waren noch weniger.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8328,
+		"chart-id": 8328,
+		"filter": "",
+		"id": 8328
+	},
+	{
+		"title": "Materielle Unterstützung von Freunden",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte materiell?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Materielle Unterstützung von Freunden",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Freunde und Bekannte stellen für fast ein Viertel der Befragten eine Ressource für materielle Hilfeleistungen dar. Davon erfolgt diese Hilfe in 2% der Fälle auf regelmässiger Basis. 10% erhalten hin und wieder Unterstützung durch ihre Freunde und Bekannte und 12% selten.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8329,
+		"chart-id": 8329,
+		"filter": "",
+		"id": 8329
+	},
+	{
+		"title": "Materielle Unterstützung von Nachbarn",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn materiell?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Materielle Unterstützung von Nachbarn",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt 25% der Befragten können auf ihre Nachbarn zählen: 2% erhalten regelmässig, 12% hin und wieder und 11% selten Hilfe von Ihren Nachbarn.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8330,
+		"chart-id": 8330,
+		"filter": "",
+		"id": 8330
+	},
+	{
+		"title": "Materielle Unterstützung von Arbeitskollegen",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen materiell?»",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Materielle Unterstützung von Arbeitskollegen",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Arbeitskolleginnen und -kollegen spielen bei den praktischen Hilfeleistungen eine eher untergeordnete Rolle, lediglich 5% der Befragten erhalten regelmässig bis selten Unterstützung.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8331,
+		"chart-id": 8331,
+		"filter": "",
+		"id": 8331
+	},
+	{
+		"title": "Anteil deutschsprachige Personen",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.01.8.08332",
+		"kuerzelKunde": "",
+		"description": "Anteil deutschsprachige Personen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Sprachen",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Bachletten und die Gemeinden Riehen und Bettingen verzeichneten 2018 einen Anteil deutsprachiger Personen von mindestens 85%. Am anderen Ende der Skale stehen die Wohnviertel Rosental und Klybeck mit einem Anteil von 54%. Seit 2009 sank dieser Anteil mit einem Minus von 7,1 Prozentpunkten im Wohnviertel Vorstädte am stärksten.",
+		"erlaeuterungen": "Als deutschsprachige Personen wurden Personen mit den folgenden Staatsangehörigkeiten angenommen: Schweiz, Deutschland, Österreich, Lichtenstein, Luxemburg.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8332,
+		"chart-id": 8332,
+		"filter": "",
+		"id": 8332
+	},
+	{
+		"title": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015",
+		"subtitle": "",
+		"kuerzel": "I.15.1.08334",
+		"kuerzelKunde": "",
+		"description": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchsten Fremdsprachenanteile wurden im Schuljahr 2018/19 in den Wohnvierteln Kleinhüningen (81,5%), Klybeck (78,6%) und Rosental (72,5%) erreicht, die tiefsten in den Wohnvierteln Bachletten (24,0%), Bruderholz (26,2%) sowie Altstadt Grossbasel und Altstadt Kleinbasel (beide je 27,3%).",
+		"erlaeuterungen": "Anteil nicht deutschsprachiger Kinder im 1. Kindergartenjahr der öffentlichen Kindergärten der Stadt Basel nach Wohnviertel; ohne Kinder in Spezialangeboten.",
+		"template": "mappieStadt",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8334,
+		"chart-id": 8334,
+		"filter": "",
+		"id": 8334
 	},
 	{
 		"title": "Bruttoinlandprodukt",
