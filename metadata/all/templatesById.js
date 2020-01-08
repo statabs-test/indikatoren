@@ -1045,6 +1045,7 @@ var templatesById = {
 	"8249": "template001",
 	"8251": "line001",
 	"8252": "line001",
+	"8255": "template001",
 	"8256": "template001",
 	"8260": "befragungenProzent001",
 	"8269": "befragungenProzent001",

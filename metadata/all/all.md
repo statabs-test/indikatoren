@@ -1092,6 +1092,7 @@ id | visible | visibleInPortal | indikatorenset
 8249 | true | true | CMS Kennzahlen Soziales
 8251 | true | false | CMS Kennzahlen Soziales
 8252 | true | false | CMS Kennzahlen Soziales
+8255 | true | false | CMS Kennzahlen Soziales
 8256 | true | true | CMS Kennzahlen Soziales
 8260 | true | true | CMS Kennzahlen Soziales
 8269 | true | true | CMS Kennzahlen Soziales
