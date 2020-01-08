@@ -1086,9 +1086,11 @@ id | visible | visibleInPortal | indikatorenset
 7774 | true | true | Richtplan
 7778 | true | false | Richtplan
 8240 | true | true | CMS Kennzahlen Soziales
+8243 | true | true | CMS Kennzahlen Soziales
 8246 | true | true | CMS Kennzahlen Soziales
 8248 | true | true | CMS Kennzahlen Soziales
 8249 | true | true | CMS Kennzahlen Soziales
+8251 | true | false | CMS Kennzahlen Soziales
 8256 | true | true | CMS Kennzahlen Soziales
 8260 | true | true | CMS Kennzahlen Soziales
 8269 | true | true | CMS Kennzahlen Soziales
