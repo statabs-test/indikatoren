@@ -1,92 +1,75 @@
 {
   "series": [
     {
-      "index": 0,
-      "color": "#A8C3CA",
-      "tooltip": {
-        "pointFormatter": function(){
-        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
-      }
-      },
+      "color": "#008AC3",
+      "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          7.9
+          "",
+          "Verzicht auf Luxusartikel"
         ],
         [
-          "Mittelland",
-          4.9
+          "2009 (N=3 119)",
+          73.3
         ],
         [
-          "Nordwestschweiz",
-          4.6
+          "2013 (N=2 231)",
+          71.9
         ],
         [
-          "Zürich",
-          2.9
-        ],
-        [
-          "Ostschweiz",
-          3.4
-        ],
-        [
-          "Zentralschweiz",
-          2.2
-        ],
-        [
-          "Tessin",
-          8.1
+          "2017 (N=1 665)",
+          71.6
         ]
       ],
-      "name": "Anteil in %",
+      "name": "1",
       "turboThreshold": 0
     },
     {
-      "index": 1,
-      "type": "errorbar",
-      "tooltip": {
-        "pointFormatter": function(){
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
-      }
-      },
+      "color": "#B00000",
+      "visible": true,
       "data": [
-        {
-          "name": "Genferseeregion",
-          "low": 5.7,
-          "high": 10
-        },
-        {
-          "name": "Mittelland",
-          "low": 3.5,
-          "high": 6.3
-        },
-        {
-          "name": "Nordwestschweiz",
-          "low": 2.6,
-          "high": 6.5
-        },
-        {
-          "name": "Zürich",
-          "low": 1.5,
-          "high": 4.3
-        },
-        {
-          "name": "Ostschweiz",
-          "low": 1.8,
-          "high": 5
-        },
-        {
-          "name": "Zentralschweiz",
-          "low": 0.8,
-          "high": 3.7
-        },
-        {
-          "name": "Tessin",
-          "low": 0,
-          "high": 16.3
-        }
+        [
+          "",
+          "Preisbewusst einkaufen"
+        ],
+        [
+          "2009 (N=3 119)",
+          70.2
+        ],
+        [
+          "2013 (N=2 231)",
+          68.4
+        ],
+        [
+          "2017 (N=1 665)",
+          64.3
+        ]
       ],
-      "name": "95% Vertrauensintervall Untergrenze",
+      "name": "2",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "visible": true,
+      "data": [
+        [
+          "",
+          "Alte Sachen länger nutzen"
+        ],
+        [
+          "2009 (N=3 119)",
+          54.2
+        ],
+        [
+          "2013 (N=2 231)",
+          55.1
+        ],
+        [
+          "2017 (N=1 665)",
+          56.5
+        ]
+      ],
+      "name": "3",
       "turboThreshold": 0
     }
   ],
@@ -138,11 +121,10 @@
             }
           }
     },
-    "marginBottom": 65,
     "type": "column",
-    "inverted": true,
-    "renderTo": "container-8249",
-    "spacingBottom": 40
+    "inverted": false,
+    "spacingBottom": 60,
+    "renderTo": "container-8333"
   },
   "plotOptions": {
     "series": {
@@ -162,7 +144,8 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten"
+    "useHTML": true,
+    "text": "Finanzielle Lage"
   },
   "subtitle": {
     "style": {
@@ -171,7 +154,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Grossregion, 2013",
+    "text": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?»",
     "align": "left",
     "useHTML": true
   },
@@ -190,12 +173,9 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-          return Highcharts.numberFormat((this.value),0)+'%';                
-      }
+      "format": "{value}"
     },
-    "tickDistance": 5,
-    "max": 20
+    "min": 0
   },
   "navigation": {
     "menuItemStyle": {
@@ -216,7 +196,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "symbolRadius": 0,
@@ -224,16 +204,15 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
   },
   "tooltip": {
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "allowHTML": true,
-    "filename": 8249
+    "filename": 8333
   }
 }
