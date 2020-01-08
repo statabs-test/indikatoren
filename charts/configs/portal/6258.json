@@ -209,9 +209,6 @@
         ]
       ],
       "name": "Fussgänger"
-    },
-    {
-      "color": "#008AC3"
     }
   ],
   "chart": {
@@ -292,7 +289,7 @@
     "shared": false
   },
   "yAxis": {
-    "min": 95,
+    "min": 90,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -310,7 +307,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 125,
+    "max": 130,
     "tickInterval": 5,
     "plotLines": [
       {

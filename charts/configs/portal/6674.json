@@ -4080,7 +4080,7 @@
 					.css({
 						fontSize: '15px',
 						fontWeight: 'bold',
-						fontColor: '#000000'
+						color: '#000000'
 					})
 					.attr({
 						zIndex: 6,
@@ -4100,7 +4100,7 @@
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
 						fontSize: '15px',
-						fontColor: '#000000'
+						color: '#000000'
 					})
 					.attr({
 						zIndex: 6,
@@ -4115,7 +4115,7 @@
 					})
 					.css({
 						fontWeight: 'bold',
-						fontColor: '#000000'
+						color: '#000000'
 					}).
 					add();
 			},

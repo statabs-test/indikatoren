@@ -165,23 +165,23 @@
         "textOverflow": "none",
         "fontSize": "10px"
       },
-      "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
-            }
+      "formatter": function () {
+                    return this.value.replace(" ", "<br/>");
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
+      "load": function () {
+                    this.credits.element.onclick = function () {
+                        /*
+                        window.open(
+                        "http://www.statistik.bs.ch",
+                        '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                        );
+                        */
+                    }
                 }
-            }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -294,8 +294,8 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "exporting": {
     "filename": 6251

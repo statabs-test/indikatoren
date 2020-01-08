@@ -1210,18 +1210,20 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "",
 		"stufe1": "Sachgebiet Mobilität",
-		"stufe2": "Strategie 11: Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Nach einem Höchststand von durchschnittlich 332 pro 1000 Einwohnerinnen und Einwohner im Jahr 2004, ist in den letzten Jahren eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt er 318 Personenwagen.",
+		"erlaeuterungen": "Der Motorisierungsgrad ist ein Indikator zur Berechnung der Motorfahrzeugdichte. Er gibt das Verhältnis zwischen Fahrzeugbestand und Bevölkerungsanzahl in einem bestimmten, abgegrenzten Raum an. Im Kanton Basel-Stadt wird zur Berechnung des Motorisierungsgrades die mittlere Wohnbevölkerung des jeweiligen Jahres verwendet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_11_00_00_00_114",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8422"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
