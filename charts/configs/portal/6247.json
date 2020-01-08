@@ -1,28 +1,16 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#83522E",
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "allowOverlap": true,
-        "formatter": function() {
-          var first = this.series.data[0];
-          var last  = this.series.data[this.series.data.length - 1];
-          if (this.point.y === first.y || this.point.y === last.y ) {
-            return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-          }
-          return "";
-        }
-      },
       "data": [
+        [
+          1980,
+          36
+        ],
+        [
+          1990,
+          39.282620924519
+        ],
         [
           1997,
           40.2
@@ -61,34 +49,59 @@
         ],
         [
           2015,
-          41.452242279476
+          41.454831762135
         ],
         [
           2016,
-          41.2698778974
+          41.279119850187
+        ],
+        [
+          2017,
+          41.063543712208
+        ],
+        [
+          2018,
+          41.047173024523
         ]
       ],
-      "name": "Mittlere Wohnfläche pro Person"
+      "name": "Wohnfläche in m² pro Person"
     }
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -96,17 +109,18 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 10,
     "renderTo": "container-6247",
-    "spacingBottom": 28
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -124,12 +138,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in m², Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -145,11 +158,11 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.0f} m²"
-    }
+      }
+    },
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -158,12 +171,37 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 2,
+    "tickPositioner": function () {
+        var positions = [],
+          ext = this.getExtremes(),
+          xMax = Math.round(ext.max),
+          xMin = Math.round(ext.min) + 1;
+        var xMin_even = Math.round(ext.min);
+
+        if (xMax % 2 == 1) {
+          for (var i = xMin; i < xMax; i++) {
+            if (i % 2 == 1) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        } else if (xMax % 2 == 0) {
+          for (var i = xMin_even; i < xMax; i++) {
+            if (i % 2 == 0) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        }
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -179,7 +217,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-30"
   },
   "legend": {
     "enabled": false,
@@ -189,7 +227,8 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "fontWeight": "normal"
     },
     "padding": 0
   },

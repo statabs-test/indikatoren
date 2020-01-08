@@ -21,5 +21,7 @@ var indikatorensetNames = [
 	"Monatsindikatoren",
 	"Testset",
 	"Bevoelkerungsszenarien",
+	"CMS Kennzahlen Soziales",
+	"Wirtschaftsbericht BS_BL_JU",
 	"Test"
 ];

@@ -10,8 +10,16 @@
           12888
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           14427
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -32,6 +40,14 @@
         [
           "2015",
           18692
+        ],
+        [
+          "2016",
+          18878
+        ],
+        [
+          "2017",
+          18785
         ]
       ],
       "name": "Pharmaindustrie",
@@ -47,8 +63,16 @@
           10729
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           11057
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -69,6 +93,14 @@
         [
           "2015",
           8719
+        ],
+        [
+          "2016",
+          8608
+        ],
+        [
+          "2017",
+          8359
         ]
       ],
       "name": "Übriges verarbeit. Gewerbe",
@@ -84,8 +116,16 @@
           9519
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           8786
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -106,6 +146,14 @@
         [
           "2015",
           9526
+        ],
+        [
+          "2016",
+          9466
+        ],
+        [
+          "2017",
+          9286
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -121,8 +169,16 @@
           31923
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           31557
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -143,9 +199,17 @@
         [
           "2015",
           27297
+        ],
+        [
+          "2016",
+          26353
+        ],
+        [
+          "2017",
+          25988
         ]
       ],
-      "name": "Handel & Verkehr",
+      "name": "Handel und Verkehr",
       "turboThreshold": 0
     },
     {
@@ -158,8 +222,16 @@
           11656
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           12244
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -180,6 +252,14 @@
         [
           "2015",
           11514
+        ],
+        [
+          "2016",
+          11181
+        ],
+        [
+          "2017",
+          10705
         ]
       ],
       "name": "Finanzen, Versicherung",
@@ -195,8 +275,16 @@
           29016
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           31953
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -217,6 +305,14 @@
         [
           "2015",
           36690
+        ],
+        [
+          "2016",
+          36959
+        ],
+        [
+          "2017",
+          37896
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -232,8 +328,16 @@
           17700
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           17727
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -254,9 +358,17 @@
         [
           "2015",
           18923
+        ],
+        [
+          "2016",
+          19184
+        ],
+        [
+          "2017",
+          18976
         ]
       ],
-      "name": "Öff. Verwaltung & Bildung",
+      "name": "Öff. Verwaltung und Bildung",
       "turboThreshold": 0
     },
     {
@@ -269,8 +381,16 @@
           23549
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           24400
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -291,6 +411,14 @@
         [
           "2015",
           29558
+        ],
+        [
+          "2016",
+          30636
+        ],
+        [
+          "2017",
+          31449
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -306,8 +434,16 @@
           24763
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2008",
           26186
+        ],
+        [
+          "  ",
+          null
         ],
         [
           "2011",
@@ -328,6 +464,14 @@
         [
           "2015",
           29834
+        ],
+        [
+          "2016",
+          29416
+        ],
+        [
+          "2017",
+          29522
         ]
       ],
       "name": "Übrige Branchen",
@@ -347,7 +491,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "step": 1,
       "rotation": 0
@@ -359,7 +504,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -371,29 +516,44 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false) {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
                 }
     },
     "type": "column",
     "inverted": false,
+    "marginTop": 7,
     "renderTo": "container-6265",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -427,7 +587,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -469,9 +629,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-13"
   },
   "legend": {
     "padding": 0,

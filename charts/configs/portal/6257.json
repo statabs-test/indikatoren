@@ -58,6 +58,14 @@
         [
           2016,
           198206
+        ],
+        [
+          2017,
+          198988
+        ],
+        [
+          2018,
+          200256
         ]
       ],
       "name": "Bevölkerung"
@@ -81,47 +89,55 @@
         ],
         [
           2006,
-          99.949323333137
+          99.949323
         ],
         [
           2007,
-          100.117889930279
+          100.11789
         ],
         [
           2008,
-          100.966057301974
+          100.96606
         ],
         [
           2009,
-          101.377338461456
+          101.37734
         ],
         [
           2010,
-          101.530968777838
+          101.53097
         ],
         [
           2011,
-          102.460752255111
+          102.46075
         ],
         [
           2012,
-          103.198497836906
+          103.1985
         ],
         [
           2013,
-          104.265375034006
+          104.26538
         ],
         [
           2014,
-          104.805214895739
+          104.80521
         ],
         [
           2015,
-          105.196225388476
+          105.19623
         ],
         [
           2016,
-          105.730730864223
+          105.73073
+        ],
+        [
+          2017,
+          106.14788
+        ],
+        [
+          2018,
+          106.82428
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
@@ -175,14 +191,22 @@
         ],
         [
           2014,
-          191441
+          191574
         ],
         [
           2015,
-          null
+          190753
         ],
         [
           2016,
+          190681
+        ],
+        [
+          2017,
+          190966
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -198,7 +222,8 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
-        "enabled": true
+        "enabled": true,
+        "radius": 5
       },
       "data": [
         [
@@ -215,7 +240,7 @@
         ],
         [
           2008,
-          103.839457
+          103.83946
         ],
         [
           2009,
@@ -227,26 +252,34 @@
         ],
         [
           2011,
-          107.022702
+          107.0227
         ],
         [
           2012,
-          108.854509
+          108.85451
         ],
         [
           2013,
-          109.904916
+          109.90492
         ],
         [
           2014,
-          111.469463
+          111.5469
         ],
         [
           2015,
-          null
+          111.06886
         ],
         [
           2016,
+          111.02694
+        ],
+        [
+          2017,
+          111.19289
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -255,22 +288,39 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -298,7 +348,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Index der Bevölkerungs- und Beschäftigtenentwicklung"
+    "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
     "style": {
@@ -307,7 +357,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werte 2005 = 100",
+    "text": "indexiert (Basis 2005 = 100), Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -319,22 +369,20 @@
       "max": 200000,
       "tickInterval": 50000,
       "title": {
-        "text": null,
-        "color": "#000000",
-        "fontSize": null
+        "text": null
       },
       "labels": {
         "format": "{value:,.0f}",
         "style": {
           "color": "black",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       }
     },
     {
-      "min": 90,
-      "max": 120,
-      "tickInterval": 7.5,
+      "min": 95,
+      "max": 115,
+      "tickInterval": 5,
       "title": {
         "text": null
       },
@@ -342,7 +390,7 @@
         "format": "{value:,.1f}",
         "style": {
           "color": "black",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "opposite": true
@@ -355,7 +403,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
@@ -376,7 +424,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-13"
   },
   "legend": {
     "enabled": true,

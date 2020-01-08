@@ -30,6 +30,10 @@
         [
           2016,
           42.167556
+        ],
+        [
+          2017,
+          42.122014
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -80,7 +84,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
+    "text": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {

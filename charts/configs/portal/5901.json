@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FFBB58",
-      "index": 0,
+      "zIndex": 0,
       "type": "column",
       "pointPadding": 0,
       "borderWidth": 0,
@@ -72,7 +72,7 @@
     },
     {
       "color": "#B00000",
-      "index": 1,
+      "zIndex": 1,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -144,7 +144,7 @@
     },
     {
       "color": "#A8C3CA",
-      "index": 0,
+      "zIndex": 0,
       "type": "column",
       "pointPadding": 0,
       "borderWidth": 0,
@@ -214,7 +214,7 @@
     },
     {
       "color": "#246370",
-      "index": 1,
+      "zIndex": 2,
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
@@ -222,7 +222,8 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
-        "enabled": true
+        "enabled": true,
+        "radius": 5
       },
       "data": [
         [

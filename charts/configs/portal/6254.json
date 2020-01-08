@@ -1,42 +1,35 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#8b2223",
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-            }
-            return "";
-          }
-      },
       "data": [
         [
           2011,
-          39.973265
+          39.973266
         ],
         [
           2012,
-          40.21803
+          40.218031
         ],
         [
           2013,
-          40.798944
+          40.798945
         ],
         [
           2014,
-          41.085212
+          41.21395
+        ],
+        [
+          2015,
+          40.972121
+        ],
+        [
+          2016,
+          42.167556
+        ],
+        [
+          2017,
+          42.122014
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -44,22 +37,39 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -67,17 +77,19 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginTop": 7,
+    "marginRight": 10,
     "renderTo": "container-6254",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -95,12 +107,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte pro Hektar",
+    "text": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -116,7 +127,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -129,11 +140,12 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -149,7 +161,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-7"
   },
   "legend": {
     "enabled": false,
@@ -159,7 +171,8 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "fontWeight": "normal"
     },
     "padding": 0
   },

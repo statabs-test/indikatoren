@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿{"title":"Motorisierungsgrad",
+=======
+{"title":"Motorisierungsgrad",
+>>>>>>> f4950b5888dfe6414bfaf349047fa99dad0ab272
 "subtitle":"Personenwagen pro 1000 Einwohner, Basel-Stadt",
 "kuerzel":"I.11.1.07779",
 "kuerzelKunde":"ST 11-4",
@@ -21,7 +25,11 @@
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
+<<<<<<< HEAD
 "orderKey":"05_11_00_00_00_004",
+=======
+"orderKey":"05_11_00_00_00_114",
+>>>>>>> f4950b5888dfe6414bfaf349047fa99dad0ab272
 "parentId":null,
 "children":["8422"],
 "renderLink":[],

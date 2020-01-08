@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "Bevölkerungsdichte 2018",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3236,95 +3236,95 @@
         }
       },
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 3) + '</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          67.4943682015309
+          68.899
         ],
         [
           2,
-          55.6861001144172
+          55.586
         ],
         [
           3,
-          117.447655115966
+          120.413
         ],
         [
           4,
-          130.228057654803
+          131.015
         ],
         [
           5,
-          36.5740469748745
+          38.716
         ],
         [
           6,
-          162.080683916768
+          161.205
         ],
         [
           7,
-          35.5481337064078
+          36.123
         ],
         [
           8,
-          88.5479894607466
+          88.574
         ],
         [
           9,
-          140.320485426793
+          142.352
         ],
         [
           10,
-          152.7468360946
+          155.539
         ],
         [
           11,
-          83.2615056999657
+          82.933
         ],
         [
           12,
-          100.687653298839
+          98.63
         ],
         [
           13,
-          173.831016735163
+          176.38
         ],
         [
           14,
-          74.7172317369915
+          73.553
         ],
         [
           15,
-          29.8003004639172
+          30.275
         ],
         [
           16,
-          103.400914319216
+          107.946
         ],
         [
           17,
-          267.514597481339
+          263.837
         ],
         [
           18,
-          78.2640522184269
+          79.253
         ],
         [
           19,
-          21.4128194586533
+          21.154
         ],
         [
           20,
-          19.3374837572559
+          19.749
         ],
         [
           30,
-          5.34346577291458
+          5.447
         ]
       ]
     },
@@ -3332,91 +3332,91 @@
       "visible": false,
       "data": [
         [
-          "Altstadt GB",
-          10.4979457218406
+          "Altstadt Grossbasel",
+          11.956
         ],
         [
           "Vorstädte",
-          -0.0554421546340294
+          1.5302
         ],
         [
           "Am Ring",
-          1.08322320257878
+          6.0507
         ],
         [
           "Breite",
-          -0.349762016977991
+          3.279
         ],
         [
           "St. Alban",
-          2.38993405342426
+          5.1457
         ],
         [
           "Gundeldingen",
-          -0.987197640507816
+          1.528
         ],
         [
           "Bruderholz",
-          0.841604381841542
+          1.7218
         ],
         [
           "Bachletten",
-          -1.12475106618776
+          -0.2093
         ],
         [
           "Gotthelf",
-          -2.36022463420815
+          4.0021
         ],
         [
           "Iselin",
-          3.09485856611764
+          7.4533
         ],
         [
           "St. Johann",
-          -1.10967994588928
+          2.3969
         ],
         [
-          "Altstadt KB",
-          3.2271683749628
+          "Altstadt Kleinbasel",
+          2.017
         ],
         [
           "Clara",
-          5.09869748315913
+          12.7035
         ],
         [
           "Wettstein",
-          3.46599056570321
+          2.9501
         ],
         [
           "Hirzbrunnen",
-          -0.652184257173481
+          0.297
         ],
         [
           "Rosental",
-          35.6979347054436
+          42.0895
         ],
         [
           "Matthäus",
-          -4.29904186787343
+          2.6197
         ],
         [
           "Klybeck",
-          0.130403863735239
+          2.2821
         ],
         [
           "Kleinhüningen",
-          2.86441795039711
+          3.4047
         ],
         [
           "Riehen",
-          0.147326194046041
+          0.7431
         ],
         [
           "Bettingen",
-          0.148180143282505
+          0.0674
         ]
       ],
-      "name": "Differenz 2016 zu 1997"
+      "name": "Differenz 2018 zu 1999"
     },
     {
       "name": "Rhein",
@@ -3573,7 +3573,7 @@
       "color": "#008AC3",
       "borderColor": "#fbfbfb",
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						return '<br/>';
 					}
       }
@@ -3616,19 +3616,19 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function(){
+        "formatter": function () {
 						return '1 km';
 					},
         "style": {
           "fontSize": "15px",
           "fontWeight": "normal",
-          "color": "black"
+          "color": "#000000"
         },
         "y": -10
       }
@@ -3649,97 +3649,88 @@
       "fontFamily": "Arial"
     },
     "type": "map",
-    "inverted": false,
     "events": {
       "load": function (e) {
-	            	
-	            	this.credits.element.onclick = function() {};
 
-	                var chart = this;
-	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
+					this.credits.element.onclick = function () { };
+
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
 					fn.defineTemplate();
-					
+
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
-					
+
 					//pie diameters in px
 					var maxPieDiameter = 20;
-					
+
 					//configuration of categorical pie sizes
-					var pieSizeCatConfig = 
-					[
-						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 1,0',
-							from: 0,
-							to: 0.999, 
-							diameter: 2
-						},
-						{
-							name: ' 1,0 − 2,9',
-							from: 1.0,
-							to: 2.999,
-							diameter: 8
-						},
-						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 3,0',
-							from: 3,							
-							to: 1000000,
-							diameter: 16
-						}
-					];
-					
+					var pieSizeCatConfig =
+						[
+							{
+								name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 1,0',
+								from: 0,
+								to: 0.999,
+								diameter: 2
+							},
+							{
+								name: ' 1,0 − 2,9',
+								from: 1.0,
+								to: 2.999,
+								diameter: 8
+							},
+							{
+								name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 3,0',
+								from: 3,
+								to: 1000000,
+								diameter: 16
+							}
+						];
+
 					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                };					
-					
+					var color = function (value) {
+						return (value >= 0) ? '#7F5F1A' : '#FABD24';
+					};
+
 					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
 						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
 								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
-	                        tooltip: {
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
-	                            }
-	                        }
-	                    };
+							},
+							tooltip: {
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 3) + '</b><br/>';
+								}
+							}
+						};
 					};
-					
+
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
-	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name + "", 362, 200);
-	                fn.addLegendLabel(chart, 'in Einwohner pro ha', 362, 210)
-	                .css({
-                        fontWeight: 'bold' }).
-                     add();
-	                fn.addLegendTitle(chart, pieSizeSeries.name  + "", 475, 200);
-	                fn.addLegendLabel(chart, 'in Einwohner pro ha', 475, 210)
-	                .css({
-                        fontWeight: 'bold' }).
-                     add();
-	                
-	                fn.addLegendCircle(chart, 483, 246, 0.5*pieSizeCatConfig[0].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 495, 236, undefined, true);
-	                fn.addLegendCircle(chart, 483, 263, 0.5*pieSizeCatConfig[1].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 495, 253, undefined, true);
-	                fn.addLegendCircle(chart, 483, 280, 0.5*pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 495, 270, undefined, true);
-					
-					fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 580, 236);
-					fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 580, 252);
-					
+					//Add manually drawn legend
+					fn.addLegendTitle(chart, choroplethSeries.name +"<br>in Einwohnern pro ha", 540, 270, 'pieLegend');
+					fn.addLegendTitle(chart, pieSizeSeries.name + '<br>in Einwohnern pro ha', 765, 270, undefined, true);
+
+					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 320, undefined, true, 'right');
+					fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, true, 'right');
+					fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 795, 365, undefined, true, 'right');
+
+					fn.addLegendSquare(chart, 878, 341, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Zunahme', 893, 334);
+					fn.addLegendSquare(chart, 878, 360, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Abnahme', 893, 354);
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-	            }
+				}
     },
     "renderTo": "container-6243",
     "spacingBottom": 12
@@ -3752,7 +3743,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Bevölkerungsdichte nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3761,7 +3752,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Einwohner pro Hektar nach Wohnviertel",
+    "text": "Einwohner pro Hektar, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -3809,7 +3800,7 @@
       },
       {
         "from": 80,
-        "to": 90.999,
+        "to": 99.999,
         "color": "#68AB2B",
         "name": "&nbsp;&nbsp;80,0 − &nbsp;&nbsp;99,9"
       },
@@ -3837,6 +3828,7 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "symbolPadding": 10,
     "itemStyle": {
       "fontSize": "15px",
       "fontWeight": "normal"
@@ -3850,7 +3842,8 @@
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -185,
+    "x": -323,
+    "y": -60,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
@@ -3866,8 +3859,8 @@
     "filename": 6243
   },
   "customFunctions": {
-    "pieSizeCategorical": function(value, conf){
-				for (var i=0; i < conf.length; i++ ){
+    "pieSizeCategorical": function (value, conf) {
+				for (var i = 0; i < conf.length; i++) {
 					//console.log('checking value ' + value);
 					if (value >= conf[i].from && value < conf[i].to) {
 						//console.log('found conf object:  + ' + JSON.stringify(conf[i]));
@@ -3875,309 +3868,314 @@
 					}
 				}
 			},
-    "pieSize": function(value, maxAbsValue, maxPieDiameter){
-            	
-            	function circleAreaByDiameter(diameter){
-            		return Math.PI * diameter * diameter / 4;
-            	}
-            	
-            	function circleDiameterByAre(area){	                		
-            		return Math.sqrt(4 * area / Math.PI);
-            	}
-            	
+    "pieSize": function (value, maxAbsValue, maxPieDiameter) {
+
+				function circleAreaByDiameter(diameter) {
+					return Math.PI * diameter * diameter / 4;
+				}
+
+				function circleDiameterByAre(area) {
+					return Math.sqrt(4 * area / Math.PI);
+				}
+
             	/*
                 var yAxis = chart.yAxis[0],
                     zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
                 */
-                
+
 				//Negative values: return absolute value
 				//size by Area: use sqrt of value to define size
 				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
-				
+
 				//transform value to a number between 0 and 1 representing its relation to the min and max values
 				//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
-				
+
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
-				var relativeValue = Math.abs(value) / maxAbsValue ;
+				var relativeValue = Math.abs(value) / maxAbsValue;
 				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
-				
+
 				//var minPieArea = circleAreaByDiameter(minPieDiameter);
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
-				
+
 				var diameter = circleDiameterByAre(area);
 				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
-            },
-    "defineTemplate": function(){
+			},
+    "defineTemplate": function () {
 
-					//define new chart type
-					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
-					//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
-					
-					    
-					// New map-pie series type that also allows lat/lon as center option.
-					// Also adds a sizeFormatter option to the series, to allow dynamic sizing
-					// of the pies.
-					Highcharts.seriesType('mappie', 'pie', {
-					    center: null, // Can't be array by default anymore
-					    clip: true, // For map navigation
-					    states: {
-					        hover: {
-					            halo: {
-					                size: 5
-					            }
-					        }
-					    },
-					    dataLabels: {
-					        enabled: false
-					    }
-					    
-					}, {
-					    getCenter: function () {
-					        var options = this.options,
-					            chart = this.chart,
-					            slicingRoom = 2 * (options.slicedOffset || 0);
-					        if (!options.center) {
-					            options.center = [null, null]; // Do the default here instead
-					        }
-					        // Handle lat/lon support
-					        if (options.center.lat !== undefined) {
-					            var point = chart.fromLatLonToPoint(options.center);
-					            options.center = [
-					                chart.xAxis[0].toPixels(point.x, true),
-					                chart.yAxis[0].toPixels(point.y, true)
-					            ];
-					        }
-					        // Handle dynamic size
-					        if (options.sizeFormatter) {
-					            options.size = options.sizeFormatter.call(this);
-					        }
-					        // Call parent function
-					        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
-					        // Must correct for slicing room to get exact pixel pos
-					        result[0] -= slicingRoom;
-					        result[1] -= slicingRoom;
-					        return result;
-					    },
-					    translate: function (p) {
-					        this.options.center = this.userOptions.center;
-					        this.center = this.getCenter();
-					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
-					    }
-					});
+				//define new chart type
+				// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
+				//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
 
-    		    },
-    "getPointsExtremes": function(points){
-	                var maxNumber = Number.NEGATIVE_INFINITY;
-	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
-	                var minNumber = Number.POSITIVE_INFINITY;
-	                var minAbsNumber = Number.POSITIVE_INFINITY;
-					Highcharts.each(points, function (point) {
-					    maxNumber = Math.max(maxNumber, point.value);
-					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
-					    minNumber = Math.min(minNumber, point.value);
-					    minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
-					});
-					return {
-					    maxNumber: maxNumber,
-					    maxAbsNumber: maxAbsNumber,
-					    minNumber: minNumber,
-					    minAbsNumber: minAbsNumber
-					};
-				},
-    "drawPies": function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
-                    
-                    //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data) {
-	                    
-	                    if (!data.value) {
-	                        return; // Skip points with no data, if any
-	                    }
-	                    
-	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
-	                	
-	                	//define where to place the pies on the map
-	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
-	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
-	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
-	                	
-                        //create the highcharts pie chart config
-	                    var currentPieSeries = function(config){
-	                        //define default properties
-	                        var mapPieConfig = {
-    	                        type: 'mappie',
-    	                        name: 'pie-' + data.series.name,
-    	                        wohnviertel_Name: data["hc-key"],
-    	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
-    	                        zIndex: 6, // Keep pies above connector lines
-    	                        borderWidth: 1,
-    	                        tooltip: {
-	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 15px"> {series.name} </span><br/>',
-		                            pointFormatter: function () {
-		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
-		                            }
-    	                        },
-	                            center: {
-    	                            lat: centerLat + (pieOffset.lat || 0),
-    	                            lon: centerLon + (pieOffset.lon || 0)
-    	                        }, 
-    	                        
-    	                        //defaults that are normally overwritten
-		                        sizeFormatter: function () {
-		                            var fn = this.chart.options.customFunctions;
-									//pie diameters in px
-									var maxPieDiameter = 20;		 
-									//pie Size proportional to absolute value, no categories used
-		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-		                        },
-		                        data: [
-		                        	//Bubbles: Only one element in the array
-		                        	{
-		                        		name: pieSizeSeries.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(data.value),
-		                        		v: data.value,
-		                        		color: color(data.value),
-		                        		borderColor: color(data.value)
-		                        	}
-		                        ],
-		                        dataLabels: {
-							        enabled: false
-							    }    	                        
-	                        };
-	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
-	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
-	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
-	                    };
-	                    
-	                    // Add the pie for this wohnviertel to the chart
-	                    chart.addSeries(currentPieSeries(pieSeriesConfig), false);
-	                    
-	                    /*
-	                    // Draw connector to wohnviertel center if the pie has been offset
-	                    if (pieOffset.drawConnector !== false) {
-	                        var centerPoint = chart.fromLatLonToPoint({
-	                                lat: centerLat,
-	                                lon: centerLon
-	                            }),
-	                            offsetPoint = chart.fromLatLonToPoint({
-	                                lat: centerLat + (pieOffset.lat || 0),
-	                                lon: centerLon + (pieOffset.lon || 0)
-	                            });
-	                        pieSizeSeries.addPoint({
-	                            name: wohnviertel.id,
-	                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
-	                                'L' + centerPoint.x + ' ' + centerPoint.y
-	                        }, false);
-	                    }
-	                    */
-	                    
-	                });
-	                // Only redraw once all pies and connectors have been added
-	                chart.redraw();
-				},
-    "addLegendTitle": function(chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
-         				.css({
-    	                    fontSize: '15px',
-    	                    fontWeight: 'bold'
-    	                })
-    	                .attr({
-    			        	zIndex: 6,
-    			        	//class: 'pieLegend'
-    			        }).add();	                
-                },
-    "addLegendCircle": function(chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill).attr({
-    				    fill: fill,
-    				    stroke: fill,
-    				    'stroke-width': 1, 
-    				    zIndex: 6,
-    				    class: cssClass + ' pieLegend'
-    				}).add();
-                },
-    "addLegendLabel": function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-					.css({
-	                    fontSize: '15px'
-	                })
-    				.attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieLegend'
-    				}).add();
-                },
-    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
-    					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
-    				.css({
-                        fontWeight: 'bold' }).
-                     add();
-                },
-    "addLegendSquare": function(chart, x, y, width, fill, cssClass){
-                	return chart.renderer.rect(x, y, width, width, 0).attr({
-    		            'stroke-width':0,
-    		            fill: fill,
-    		            zIndex: 6,
-    		            class: cssClass + ' pieLegend'
-    	        	}).add();
-                },
-    "AddPieLegendClickHandler": function(chart){
-					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
-					var divIdString = '#' + divId;
-				    $(divIdString + ' .pieLegend').click(function(){
-						//Toggle visible of mappies
-						Highcharts.each(chart.series, function (series) {
-							if (series.userOptions.type == 'mappie'){
-								series.setVisible(!series.visible, false);
+
+				// New map-pie series type that also allows lat/lon as center option.
+				// Also adds a sizeFormatter option to the series, to allow dynamic sizing
+				// of the pies.
+				Highcharts.seriesType('mappie', 'pie', {
+					center: null, // Can't be array by default anymore
+					clip: true, // For map navigation
+					states: {
+						hover: {
+							halo: {
+								size: 5
 							}
-						});
-						chart.redraw();
-						
-						
-						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
-						//toggle active state of legend elements
-						var pieLegendItems = $(divIdString + ' .pieLegend');
-						//backup original color
-						pieLegendItems.each(function(i, v){
-							if (!$(this).attr('fill_active')) {
-								//if no fill color is defined, set to  black
-								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
+						}
+					},
+					dataLabels: {
+						enabled: false
+					}
+
+				}, {
+						getCenter: function () {
+							var options = this.options,
+								chart = this.chart,
+								slicingRoom = 2 * (options.slicedOffset || 0);
+							if (!options.center) {
+								options.center = [null, null]; // Do the default here instead
 							}
-							if (!$(this).attr('stroke_active')) {
-								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+							// Handle lat/lon support
+							if (options.center.lat !== undefined) {
+								var point = chart.fromLatLonToPoint(options.center);
+								options.center = [
+									chart.xAxis[0].toPixels(point.x, true),
+									chart.yAxis[0].toPixels(point.y, true)
+								];
 							}
-						});
-						//toggle color
-						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
-							//if stroke is present, toggle it
-							pieLegendItems.each(function(i, v){
-								//if stroke_active is present, set it to grey
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', '#cccccc');
-								}
-							});
-							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
-						} 
-						else {
-							pieLegendItems.each(function(i, v){
-								//set each to its fill_active color
-								$(this).attr('fill', $(this).attr('fill_active'));	
-								$(this).attr('stroke', $(this).attr('stroke_active'));	
-							});
-							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
+							// Handle dynamic size
+							if (options.sizeFormatter) {
+								options.size = options.sizeFormatter.call(this);
+							}
+							// Call parent function
+							var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
+							// Must correct for slicing room to get exact pixel pos
+							result[0] -= slicingRoom;
+							result[1] -= slicingRoom;
+							return result;
+						},
+						translate: function (p) {
+							this.options.center = this.userOptions.center;
+							this.center = this.getCenter();
+							return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
 						}
 					});
-				}
+
+			},
+    "getPointsExtremes": function (points) {
+				var maxNumber = Number.NEGATIVE_INFINITY;
+				var maxAbsNumber = Number.NEGATIVE_INFINITY;
+				var minNumber = Number.POSITIVE_INFINITY;
+				var minAbsNumber = Number.POSITIVE_INFINITY;
+				Highcharts.each(points, function (point) {
+					maxNumber = Math.max(maxNumber, point.value);
+					maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
+					minNumber = Math.min(minNumber, point.value);
+					minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
+				});
+				return {
+					maxNumber: maxNumber,
+					maxAbsNumber: maxAbsNumber,
+					minNumber: minNumber,
+					minAbsNumber: minAbsNumber
+				};
+			},
+    "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color) {
+
+				//iterate over each wohnviertel and draw the pies / bubbles
+				Highcharts.each(pieSizeSeries.points, function (data) {
+
+					if (!data.value) {
+						return; // Skip points with no data, if any
+					}
+
+					var correspondingMapSeriesItem = choroplethSeries.points[data.index];
+
+					//define where to place the pies on the map
+					var pieOffset = correspondingMapSeriesItem.pieOffset || {},
+						centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
+						centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
+
+					//create the highcharts pie chart config
+					var currentPieSeries = function (config) {
+						//define default properties
+						var mapPieConfig = {
+							type: 'mappie',
+							name: 'pie-' + data.series.name,
+							wohnviertel_Name: data["hc-key"],
+							wohnviertel_Id: correspondingMapSeriesItem.wohnviertel_Id,
+							zIndex: 6, // Keep pies above connector lines
+							borderWidth: 1,
+							tooltip: {
+								headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 15px"> {series.name} </span><br/>',
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 3) + '</b><br/>';
+								}
+							},
+							center: {
+								lat: centerLat + (pieOffset.lat || 0),
+								lon: centerLon + (pieOffset.lon || 0)
+							},
+
+							//defaults that are normally overwritten
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
+								//pie diameters in px
+								var maxPieDiameter = 20;
+								//pie Size proportional to absolute value, no categories used
+								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
+							},
+							data: [
+								//Bubbles: Only one element in the array
+								{
+									name: pieSizeSeries.name,
+									//put absolute value in y, real value in v
+									y: Math.abs(data.value),
+									v: data.value,
+									color: color(data.value),
+									borderColor: color(data.value)
+								}
+							],
+							dataLabels: {
+								enabled: false
+							}
+						};
+						//create the config handed in from the chart
+						var pieTemplate = config(data, correspondingMapSeriesItem, color);
+						//merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
+						return Highcharts.merge(true, mapPieConfig, pieTemplate);
+					};
+
+					// Add the pie for this wohnviertel to the chart
+					chart.addSeries(currentPieSeries(pieSeriesConfig), false);
+
+					/*
+					// Draw connector to wohnviertel center if the pie has been offset
+					if (pieOffset.drawConnector !== false) {
+						var centerPoint = chart.fromLatLonToPoint({
+								lat: centerLat,
+								lon: centerLon
+							}),
+							offsetPoint = chart.fromLatLonToPoint({
+								lat: centerLat + (pieOffset.lat || 0),
+								lon: centerLon + (pieOffset.lon || 0)
+							});
+						pieSizeSeries.addPoint({
+							name: wohnviertel.id,
+							path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
+								'L' + centerPoint.x + ' ' + centerPoint.y
+						}, false);
+					}
+					*/
+
+				});
+				// Only redraw once all pies and connectors have been added
+				chart.redraw();
+			},
+    "addLegendTitle": function (chart, text, x, y, cssClass, useHtml) {
+				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+					.css({
+						fontSize: '15px',
+						fontWeight: 'bold',
+						fontColor: '#000000'
+					})
+					.attr({
+						zIndex: 6,
+						//class: 'pieLegend'
+					}).add();
+			},
+    "addLegendCircle": function (chart, x, y, radius, fill, cssClass) {
+				return chart.renderer.circle(x, y, radius, fill).attr({
+					fill: fill,
+					stroke: fill,
+					'stroke-width': 1,
+					zIndex: 6,
+					class: cssClass + ' pieLegend'
+				}).add();
+			},
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml) {
+				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+					.css({
+						fontSize: '15px',
+						fontColor: '#000000'
+					})
+					.attr({
+						zIndex: 6,
+						class: cssClass + ' pieLegend'
+					}).add();
+			},
+    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml) {
+				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
+					attr({
+						zIndex: 6,
+						class: cssClass + ' pieLegend'
+					})
+					.css({
+						fontWeight: 'bold',
+						fontColor: '#000000'
+					}).
+					add();
+			},
+    "addLegendSquare": function (chart, x, y, width, fill, cssClass) {
+				return chart.renderer.rect(x, y, width, width, 0).attr({
+					'stroke-width': 0,
+					fill: fill,
+					zIndex: 6,
+					class: cssClass + ' pieLegend'
+				}).add();
+			},
+    "AddPieLegendClickHandler": function (chart) {
+				var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
+				var divIdString = '#' + divId;
+				$(divIdString + ' .pieLegend').click(function () {
+					//Toggle visible of mappies
+					Highcharts.each(chart.series, function (series) {
+						if (series.userOptions.type == 'mappie') {
+							series.setVisible(!series.visible, false);
+						}
+					});
+					chart.redraw();
+
+
+					//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
+					$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
+					//toggle active state of legend elements
+					var pieLegendItems = $(divIdString + ' .pieLegend');
+					//backup original color
+					pieLegendItems.each(function (i, v) {
+						if (!$(this).attr('fill_active')) {
+							//if no fill color is defined, set to  black
+							$(this).attr('fill_active', $(this).attr('fill') || 'black');
+						}
+						if (!$(this).attr('stroke_active')) {
+							$(this).attr('stroke_active', $(this).attr('stroke') || null);
+						}
+					});
+					//toggle color
+					if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')) {
+						//set all to grey
+						pieLegendItems.attr('fill', '#cccccc');
+						//if stroke is present, toggle it
+						pieLegendItems.each(function (i, v) {
+							//if stroke_active is present, set it to grey
+							if ($(this).attr('stroke_active')) {
+								$(this).attr('stroke', '#cccccc');
+							}
+						});
+						//same for html text spans
+						$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
+					}
+					else {
+						pieLegendItems.each(function (i, v) {
+							//set each to its fill_active color
+							$(this).attr('fill', $(this).attr('fill_active'));
+							$(this).attr('stroke', $(this).attr('stroke_active'));
+						});
+						//same for html text spans
+						$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
+					}
+				});
+			}
   }
 }

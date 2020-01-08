@@ -16,6 +16,10 @@
           28.9
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2010",
           25.6
         ],
@@ -38,6 +42,14 @@
         [
           "2015",
           23.8
+        ],
+        [
+          "2016",
+          22.5
+        ],
+        [
+          "2017",
+          21.5
         ]
       ],
       "name": "Sekundarstufe I",
@@ -57,6 +69,10 @@
         [
           "2000",
           40.6
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -81,6 +97,14 @@
         [
           "2015",
           38
+        ],
+        [
+          "2016",
+          37.3
+        ],
+        [
+          "2017",
+          38.3
         ]
       ],
       "name": "Sekundarstufe II",
@@ -100,6 +124,10 @@
         [
           "2000",
           19.8
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -124,6 +152,14 @@
         [
           "2015",
           38.2
+        ],
+        [
+          "2016",
+          40.2
+        ],
+        [
+          "2017",
+          40.2
         ]
       ],
       "name": "Tertiärstufe",
@@ -143,6 +179,10 @@
         [
           "2000",
           10.6
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -167,6 +207,14 @@
         [
           "2015",
           null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
         ]
       ],
       "name": "Ohne Angabe",
@@ -186,7 +234,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0
@@ -195,7 +244,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -207,27 +256,41 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false) {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
                 }
     },
     "renderTo": "container-6263",
-    "spacingBottom": 2
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -240,9 +303,7 @@
           "color": "black"
         }
       },
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5
+      "stacking": "normal"
     }
   },
   "title": {
@@ -261,7 +322,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -284,7 +345,7 @@
       "format": "{value:,.0f}%"
     },
     "max": 100,
-    "tickInterval": 50
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {
@@ -303,14 +364,14 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -318,18 +379,13 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 35,
-    "itemWidth": 120
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6263
