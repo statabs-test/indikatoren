@@ -1,72 +1,43 @@
 (function(){
-    return {
-  title: {
-      useHTML: true
-    },
-    subtitle: {
-      useHTML: true
-    },
-	plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0
-        }
-    },
-    "data": {
-      "switchRowsAndColumns": true,
-      "seriesMapping": [
-        {
-          x: 1,
-          y: 2
-        },
-        {
-          y: 3
-        },
-        {
-          y: 4
-        }
-      ]  
-    },
-  "xAxis": {
-    "type": "category"
-  },
-  "yAxis": {
-  	"min": 0,
-    "labels": {
-      "format": "{value}" 
-    }    
-  },
-  "series": [
-  {"color": "#008AC3", "visible": true}, /* blau*/
-  {"color": "#B00000", "visible": true}, /* rot */
-  {"color": "#3C3C3C", "visible": true} /* schwarz */
-  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    //"x": 25,
-	  //"y": 35,  
-	  //"itemWidth": 300,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} m²</b><br/>',
-    shared: false
-  },  
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    spacingBottom: 50,
+  return {
+ plotOptions: {
+      series: {
+          pointPadding: 0,
+          borderWidth: 0,
+      }
+ },
+
+"xAxis": {
+  "type": "category"
+},
+"yAxis": {
+  //"min": 0,
+  //"max": 0.5,
+  "labels": {
+    "format": "{value:,.0f}%"
+  }    
+},
+"series": [
+{"color": "#A8C3CA"},
+{"color": "#FABD24"}, 
+{"color": "#B375AB"}  
+],
+"legend": {
+  "enabled": true,
+  "layout": "horizontal",
+  "verticalAlign": "top",
+  "align": "left",
+  "itemStyle": {
+    "fontWeight": "normal"
   }
+},
+tooltip: {
+  pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+  shared: false
+},  
+"chart": {      
+  "type": "column",
+  "inverted": true
+}
 }
 }());
-
- 
-
-
-
-

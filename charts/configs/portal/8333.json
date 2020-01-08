@@ -1,75 +1,143 @@
 {
   "series": [
     {
-      "color": "#008AC3",
-      "visible": true,
+      "color": "#b00000",
       "data": [
         [
-          "",
+          "1",
           "Verzicht auf Luxusartikel"
         ],
         [
-          "2009 (N=3 119)",
-          73.3
-        ],
-        [
-          "2013 (N=2 231)",
-          71.9
-        ],
-        [
-          "2017 (N=1 665)",
-          71.6
-        ]
-      ],
-      "name": "1",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "visible": true,
-      "data": [
-        [
-          "",
+          "2",
           "Preisbewusst einkaufen"
         ],
         [
-          "2009 (N=3 119)",
-          70.2
-        ],
-        [
-          "2013 (N=2 231)",
-          68.4
-        ],
-        [
-          "2017 (N=1 665)",
-          64.3
-        ]
-      ],
-      "name": "2",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#3C3C3C",
-      "visible": true,
-      "data": [
-        [
-          "",
+          "3",
           "Alte Sachen länger nutzen"
         ],
         [
-          "2009 (N=3 119)",
+          "4",
+          "Reparaturen selber erledigen"
+        ],
+        [
+          "5",
+          "Bei Ferien sparen"
+        ],
+        [
+          "6",
+          "Weniger Freizeitakt. (Eltern)"
+        ],
+        [
+          "7",
+          "Verzicht auf Sparen"
+        ],
+        [
+          "8",
+          "Kleidung ausbessern"
+        ],
+        [
+          "9",
+          "Verzicht auf Auto\u002FÖV-Abo"
+        ],
+        [
+          "10",
+          "Verzicht auf Kinderbetreuung"
+        ]
+      ],
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "1",
+          73.3
+        ],
+        [
+          "2",
+          70.2
+        ],
+        [
+          "3",
           54.2
         ],
         [
-          "2013 (N=2 231)",
+          "4",
+          51
+        ],
+        [
+          "5",
+          52.9
+        ],
+        [
+          "6",
+          45
+        ],
+        [
+          "7",
+          38.2
+        ],
+        [
+          "8",
+          23.1
+        ],
+        [
+          "9",
+          19.7
+        ],
+        [
+          "10",
+          22.3
+        ]
+      ],
+      "name": "2009 (N=3 119)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "1",
+          71.9
+        ],
+        [
+          "2",
+          68.4
+        ],
+        [
+          "3",
           55.1
         ],
         [
-          "2017 (N=1 665)",
-          56.5
+          "4",
+          51.5
+        ],
+        [
+          "5",
+          49
+        ],
+        [
+          "6",
+          42.5
+        ],
+        [
+          "7",
+          37.3
+        ],
+        [
+          "8",
+          23.7
+        ],
+        [
+          "9",
+          21.8
+        ],
+        [
+          "10",
+          22.4
         ]
       ],
-      "name": "3",
+      "name": "2013 (N=2 231)",
       "turboThreshold": 0
     }
   ],
@@ -123,8 +191,8 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 60,
-    "renderTo": "container-8333"
+    "renderTo": "container-8333",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -144,7 +212,6 @@
       "color": "#000000"
     },
     "align": "left",
-    "useHTML": true,
     "text": "Finanzielle Lage"
   },
   "subtitle": {
@@ -155,8 +222,7 @@
       "color": "#000000"
     },
     "text": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?»",
-    "align": "left",
-    "useHTML": true
+    "align": "left"
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -173,9 +239,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
-    },
-    "min": 0
+      "format": "{value:,.0f}"
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -209,7 +274,7 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
