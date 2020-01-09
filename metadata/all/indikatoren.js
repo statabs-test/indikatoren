@@ -45381,6 +45381,46 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttoinlandprodukt",
+		"subtitle": "total in Mio. Franken",
+		"kuerzel": "",
+		"kuerzelKunde": "1.1",
+		"description": "Bruttoinlandprodukt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das grösste Bruttoinlandsprodukt der betrachteten Kantone erwirtschaftet Basel-Stat mit 34,9 Mrd. Franken, gefolgt von Basel-Landschaft mit 20,4 und Jura mit 4,7 Mrd. Franken. Das BIP der Schweiz beträgt rund 690 Mrd. Franken.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br><br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8350,
+		"chart-id": 8350,
+		"filter": "",
+		"id": 8350
+	},
+	{
+		"title": "Bruttoinlandprodukt",
 		"subtitle": "real; Veränderung",
 		"kuerzel": "",
 		"kuerzelKunde": "1.3",
@@ -45898,6 +45938,210 @@ var indikatoren = [
 		"chart-id": 8373,
 		"filter": "",
 		"id": 8373
+	},
+	{
+		"title": "Neugegründete Unternehmen",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.15",
+		"description": "Neugegründete Unternehmen",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Über die Jahre 2014 bis 2017 sind in der Region BS/BL/JU insgesamt rund 10 000 neue Unternehmen gegründet worden - je circa 4 500 in den beiden Basel und rund 1 000 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 91% in Basel-Stadt und 81% im Jura.",
+		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d.h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8437,
+		"chart-id": 8437,
+		"filter": "",
+		"id": 8437
+	},
+	{
+		"title": "Beschäftigte nach Branche",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.16",
+		"description": "Beschäftigte nach Branche",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In Basel-Stadt sind über 80% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (57%). Im Industriesektor ist für Basel insbesondere die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 36% der Beschäftigten (verglichen mit 26% in BL bzw. 19% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8438,
+		"chart-id": 8438,
+		"filter": "",
+		"id": 8438
+	},
+	{
+		"title": "Arbeitsstätten nach Branche",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.17",
+		"description": "Arbeitsstätten nach Branche",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Über 90% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 64%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in der Stadt die Landwirtschaft keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8439,
+		"chart-id": 8439,
+		"filter": "",
+		"id": 8439
+	},
+	{
+		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.18",
+		"description": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 8 Personen beschäftigt. Dies entspricht auch dem gesamtschweizerischen Durchschnittt. Im Jura liegt der Wert etwas tiefer bei 7 Beschäftigten, da dort u.a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11 Beschäftigten deutlich höher aus, was mit den typischerweise grösseren Arbeitsstätten in der Industrie und im speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2'300 Franken).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8440,
+		"chart-id": 8440,
+		"filter": "",
+		"id": 8440
+	},
+	{
+		"title": "Veränderung der Beschäftigtenzahl",
+		"subtitle": "2017 gegenüber 2014",
+		"kuerzel": "",
+		"kuerzelKunde": "1.19",
+		"description": "Veränderung der Beschäftigtenzahl",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zwischen 2014 und 2017 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 0,4% gewachsen und damit weniger stark als in der Gesamtschweiz (+2,7%). Während im Baselbiet und im Jura ein Beschäftigungswachstum von je etwas mehr als einem Prozent verzeichnet wurde, hat sich die Zahl der Beschäftigten in Basel-Stadt über den betrachteten Zeitraum leicht reduziert (-0,3%).",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8441,
+		"chart-id": 8441,
+		"filter": "",
+		"id": 8441
 	},
 	{
 		"title": "Test Daten",
