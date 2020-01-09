@@ -43017,14 +43017,14 @@
 		"externalLinks": [
 			""
 		],
-		"data-id": 8045,
-		"chart-id": 8045,
+		"data-id": 6630,
+		"chart-id": 6756,
 		"filter": "",
 		"id": 8045
 	},
 	{
 		"title": "Wohnbevölkerung",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningenl, nach Wohnviertel",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.01.1.07665",
 		"kuerzelKunde": "2.01",
 		"description": "Wohnbevölkerung",
@@ -43064,7 +43064,7 @@
 	},
 	{
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, nach Wohnviertel, 2018",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, 2018",
 		"kuerzel": "I.01.1.07666",
 		"kuerzelKunde": "2.02",
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
@@ -43426,7 +43426,7 @@
 	},
 	{
 		"title": "Religionszugehörigkeit",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, nach Wohnviertel",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.01.7.07675",
 		"kuerzelKunde": "2.06",
 		"description": "Religionszugehörigkeit",
@@ -43466,7 +43466,7 @@
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Fr., Wohnviertel Rosental, nach Bezirk",
+		"subtitle": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.18.2.07676",
 		"kuerzelKunde": "3.06",
 		"description": "Mittelwert und Median des Reineinkommens",
@@ -43506,7 +43506,7 @@
 	},
 	{
 		"title": "Mittelwert und Median des Reinvermögens",
-		"subtitle": "in Fr., Wohnviertel Rosental, nach Bezirk",
+		"subtitle": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.18.2.07677",
 		"kuerzelKunde": "3.07",
 		"description": "Mittelwert und Median des Reinvermögens",
@@ -43546,7 +43546,7 @@
 	},
 	{
 		"title": "Steuerertrag durch Zu- und Wegzüger",
-		"subtitle": "in Fr., Wohnviertel Rosental, nach Bezirk",
+		"subtitle": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.18.2.07678",
 		"kuerzelKunde": "3.08",
 		"description": "Steuerertrag durch Zu- und Wegzüger",
@@ -44026,7 +44026,7 @@
 	},
 	{
 		"title": "Anzahl Rotlichtsalons",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, nach Wohnviertel",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.03.1.07690",
 		"kuerzelKunde": "3.09",
 		"description": "Anzahl Rotlichtsalons",
@@ -44188,7 +44188,7 @@
 	},
 	{
 		"title": "Sozialhilfebezüger und -quote",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.13.3.07694",
 		"kuerzelKunde": "5.04",
 		"description": "Sozialhilfebezüger und -quote",
@@ -44348,7 +44348,7 @@
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "Wohnviertel Rosental",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.13.2.07698",
 		"kuerzelKunde": "5.05",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -44389,7 +44389,7 @@
 	},
 	{
 		"title": "Bodenbedeckung nach Nutzungsarten",
-		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel Klybeck & Kleinhüningen",
+		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.02.1.07699",
 		"kuerzelKunde": "7.01",
 		"description": "Bodenbedeckung nach Nutzungsarten",
@@ -44429,7 +44429,7 @@
 	},
 	{
 		"title": "Grünflächen nach Kategorie",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck & Kleinhüningen",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.02.1.07700",
 		"kuerzelKunde": "7.02",
 		"description": "Grünflächen nach Kategorie",
@@ -44629,7 +44629,7 @@
 	},
 	{
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.11.1.07706",
 		"kuerzelKunde": "7.08",
 		"description": "Personenwagen pro Haushalt, Motorisierungsgrad",
@@ -44754,7 +44754,7 @@
 	},
 	{
 		"title": "Freiraumfläche",
-		"subtitle": "in m<sup>2</sup> und Anteil an der Gesamtfläche, Wohnviertel Klybeck & Kleinhüningen",
+		"subtitle": "in m<sup>2</sup> und Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.02.1.07709",
 		"kuerzelKunde": "7.03",
 		"description": "Freiraumfläche",
@@ -44793,48 +44793,8 @@
 		"id": 8090
 	},
 	{
-		"title": "Verlorene potentielle Lebensjahre",
-		"subtitle": "Kanton Basel-Stadt",
-		"kuerzel": "I.14.3.07710",
-		"kuerzelKunde": "4.06",
-		"description": "Verlorene potentielle Lebensjahre",
-		"thema": "14 Gesundheit",
-		"unterthema": "Sterblichkeit",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-11-12T10:01:15.1515",
-		"stufe1": "4 Bildung, Soziales und Gesundheit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100&nbsp;000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Obsan. Ein Todesfall im Alter von 65 Jahren entspricht damit 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen daher nicht in die Berechnung ein.<br>Damit die VPL zwischen Männern, Frauen und zwischen den Jahren vergleichbar sind, wurden die VPL nach der Altersstruktur der Basler Bevölkerung im Jahr 2010 standardisiert.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_006",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8091,
-		"chart-id": 8091,
-		"filter": "",
-		"id": 8091
-	},
-	{
 		"title": "Delikte",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, nach Wohnviertel",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.19.1.07711",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
@@ -44874,7 +44834,7 @@
 	},
 	{
 		"title": "Einbruch- und Einschleichdiebstähle",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, nach Wohnviertel",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.19.1.07712",
 		"kuerzelKunde": "6.02",
 		"description": "Einbruch- und Einschleichdiebstähle",

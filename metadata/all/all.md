@@ -1181,7 +1181,7 @@ id | visible | visibleInPortal | indikatorenset
 8088 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8089 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8090 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
-8091 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8091 | false |  | Stadtteilmonitoring Klybeck-Kleinhüningen
 8092 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8093 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8094 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
