@@ -2,8 +2,10 @@
   return {
     "chart": {
       "type": "column",
-      //"inverted": false,
       "spacingBottom": 30
+    },
+    data: {
+      //switchRowsAndColumns: true
     },
     plotOptions: {
       series: {
@@ -13,7 +15,7 @@
     },
     "xAxis": {
       "type": "category",
-      min: 20,
+      //min: 20,
       labels: {
         formatter: function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
@@ -24,18 +26,14 @@
       "tickInterval": 20,
       max: 150,
       //min: -200,
-      "labels": {
-        "format": "{value:,.0f}"
-      }
     },
     "series": [
-      // {"inverted": true},
-
+      //{"inverted": true},
       { "color": "#FFBB58", "visible": true }, /* rot*/
       { "color": "#DC440E", "visible": true }, /* blau*/
       { "color": "#A8C3CA", "visible": true }, /* blau*/
       { "color": "#246370", "visible": true }, /* blau*/
-      { "color": "#083038", "visible": true } /* schwarz */
+      { "color": "#083038", "visible": true }, /* schwarz */
     ],
     "legend": {
       "enabled": true,

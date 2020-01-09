@@ -43746,7 +43746,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Fr. pro m<sup>2</sup>, 2015-2017",
+		"subtitle": "in Fr. pro m<sup>2</sup>, Basel-Stadt, 2015-2017",
 		"kuerzel": "I.09.3.07683",
 		"kuerzelKunde": "4.06",
 		"description": "Nettomietpreise nach Wohnviertel",
@@ -44228,7 +44228,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Klybeck-Kleinhüningen",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.15.1.07695",
 		"kuerzelKunde": "5.02",
 		"description": "Gymnasialquote nach Staatsangehörigkeit",
@@ -44268,7 +44268,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"subtitle": "Wohnviertel Klybeck-Kleinhüningen",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.15.1.07696",
 		"kuerzelKunde": "5.01",
 		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
@@ -44308,7 +44308,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen, 2013-2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2017",
 		"kuerzel": "I.15.6.07697",
 		"kuerzelKunde": "5.03",
 		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
@@ -44885,7 +44885,7 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
-		"stufe1": "",
+		"stufe1": "1 Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -44896,7 +44896,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": 6757,
 		"children": [],
 		"renderLink": [],

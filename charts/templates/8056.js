@@ -5,14 +5,17 @@
     },
     "plotOptions": {
       "series": {
-        "stacking": "percent"
+        "stacking": "percent",
+        pointWidth: 15
       }
     },
     "xAxis": {
       "type": "category",
+      //min: 30,
       tickInterval: 1,
-      min: 14,
       labels: {
+        step: 1,
+        rotation: -45,
         formatter: function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
         }
@@ -22,8 +25,7 @@
       "tickInterval": 10,
       "labels": {
         "format": "{value}%"
-      },
-      "min": 0
+      }
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.1f}%)<br/>'
@@ -36,6 +38,9 @@
       "itemWidth": 205,
       itemDistance: 4,
       "align": "left",
+      labelFormatter: function () {
+        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/unbek.');
+      }
     },
     "series": [
       { "color": "#71a3b5", index: 6, legendIndex: 1 },
