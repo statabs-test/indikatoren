@@ -367,7 +367,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -383,12 +383,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     },
-    "tickInterval": 20,
-    "min": -20,
-    "max": 140,
+    "tickInterval": 10,
     "plotLines": [
       {
         "value": 0,
@@ -428,7 +425,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
     "itemMarginBottom": 5
   },
   "tooltip": {

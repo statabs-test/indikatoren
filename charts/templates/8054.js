@@ -14,6 +14,11 @@
     "xAxis": {
       "type": "category",
       min: 20,
+      labels: {
+        formatter: function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+      }
     },
     "yAxis": {
       "tickInterval": 20,

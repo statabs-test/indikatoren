@@ -20,13 +20,17 @@
         rotation: -45,
         style: {
           fontSize: "11px"
+        },
+        formatter: function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
         }
       }
     },
     "yAxis": {
+      tickInterval: 500,
       "labels": {
         "format": "{value:,.0f}"
-      },    
+      },
     },
     "legend": {
       "enabled": true,
@@ -34,11 +38,7 @@
       "layout": "vertical",
       "verticalAlign": "middle",
       "align": "right",
-      /*
-            "layout": "horizontal",
-            "verticalAlign": "top",
-            "align": "left",
-      */
+      itemMarginBottom: 5
     },
     "series": [
       { "color": "#672773", index: 9, legendIndex: 0 }, /*Deutschland*/

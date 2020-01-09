@@ -22,9 +22,28 @@
                 negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
+        "chart": {
+            marginRight: 15,
+            marginBottom: 70,
+            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
+                load: function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                }
+                            }
+                        );
+                    }
+                },
+            }
+        },
         yAxis: [{
-            max: 2000,
-            //tickInterval: 6000,
+            tickInterval: 100,
             min: 0,
             title: {
                 text: null
@@ -109,12 +128,12 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
-            //"y": 55,
-            //"x": 2000,
-           // "itemWidth": 145,
             "itemStyle": {
                 "fontWeight": "normal"
-            }
+            },
+            labelFormatter: function () {
+                return this.name.replace('Kleinhüningen', 'Kleinh.');
+            }            
         },
         "tooltip": {
             "shared": true,
@@ -129,27 +148,6 @@
                 // s += 'Total: <b>'+ sum + '</b>';
                 return s;
             },
-
-        },
-        "chart": {
-            marginRight: 15,
-            marginBottom: 70,
-            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
-                load: function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
-                                }
-                            }
-                        );
-                    }
-                },
-            }
         }
     };
 }());

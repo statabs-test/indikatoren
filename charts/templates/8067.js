@@ -1,21 +1,21 @@
 (function () {
   return {
-   /* "data": {
-      "seriesMapping": [
-        {
-          x: 0, y: 1
-        },
-        {
-          x: 0, y: 4
-        },
-        {
-          x: 0, y: 7
-        },
-        {
-          x: 0, y: 10
-        }
-      ]
-    },*/
+    /* "data": {
+       "seriesMapping": [
+         {
+           x: 0, y: 1
+         },
+         {
+           x: 0, y: 4
+         },
+         {
+           x: 0, y: 7
+         },
+         {
+           x: 0, y: 10
+         }
+       ]
+     },*/
     plotOptions: {
       series: {
         "stacking": "normal",
@@ -25,12 +25,9 @@
       }
     },
     "yAxis": {
-      "tickInterval": 20,
-      "min": -20,
-      "max": 140,
-      "labels": {
-        "format": "{value:,.0f}",
-      },
+      "tickInterval": 10,
+      //"min": -20,
+      //"max": 140,
       plotLines: [{
         value: 0,
         color: '#B6CFD7',
@@ -38,16 +35,14 @@
         zIndex: 0,
       }]
     },
-    "xAxis": {
-      "tickInterval": 2,
+    xAxis: {
+      tickInterval: 1
     },
     "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      //"y": 40,
-      "x": 40,
       "itemMarginBottom": 5
     },
     "series": [
@@ -79,7 +74,6 @@
         "marker": {
           "enabled": false
         },
-
         //"yAxis": 1,
         legendIndex: 4,
         tooltip: {

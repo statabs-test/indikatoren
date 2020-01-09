@@ -15,7 +15,10 @@
       "tickInterval": 1,
       labels: {
         step: 1,
-        rotation: -90
+        rotation: -90,
+        formatter: function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
       }
     },
     "yAxis": {

@@ -37,7 +37,7 @@
           33.261213720316
         ]
       ],
-      "name": "Stadt Basel"
+      "name": "StadtBasel"
     },
     {
       "color": "#cd9c00",
@@ -197,8 +197,7 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

@@ -2,7 +2,6 @@
   "series": [
     {
       "color": "#DC440E",
-      "index": 5,
       "data": [
         [
           "2013: Klybeck",
@@ -90,7 +89,6 @@
     },
     {
       "color": "#923F8D",
-      "index": 4,
       "data": [
         [
           "2013: Klybeck",
@@ -178,7 +176,6 @@
     },
     {
       "color": "#68AB2B",
-      "index": 3,
       "data": [
         [
           "2013: Klybeck",
@@ -266,7 +263,6 @@
     },
     {
       "color": "#689199",
-      "index": 2,
       "data": [
         [
           "2013: Klybeck",
@@ -354,7 +350,6 @@
     },
     {
       "color": "#CD9C00",
-      "index": 1,
       "data": [
         [
           "2013: Klybeck",
@@ -442,7 +437,6 @@
     },
     {
       "color": "#B00000",
-      "index": 0,
       "data": [
         [
           "2013: Klybeck",
@@ -544,7 +538,11 @@
         "color": "#000000"
       },
       "step": 1,
-      "rotation": -45
+      "rotation": -45,
+      "align": "right",
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -563,7 +561,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "y",
+    "zoomType": "xy",
     "events": {
       "load": function(){
             this.credits.element.onclick = function() {};
@@ -591,11 +589,13 @@
         "style": {
           "fontSize": "10px"
         }
-      },
-      "stacking": "normal"
+      }
     },
-    "borderwidth": 0,
-    "groupPadding": 0
+    "column": {
+      "groupPadding": 0.04,
+      "pointPadding": 0.03,
+      "stacking": "normal"
+    }
   },
   "title": {
     "style": {
@@ -630,9 +630,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 500,
+    "max": 4000,
+    "reversedStacks": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -662,13 +664,13 @@
     },
     "layout": "vertical",
     "verticalAlign": "middle",
+    "align": "right",
     "itemMarginBottom": 5,
-    "align": "right"
+    "reversed": true
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": false
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": 8060

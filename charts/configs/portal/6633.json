@@ -6,109 +6,61 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Breite",
           "y": 12,
-          "Wert": 0.0569521691
+          "Wert": 0.0574082363
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Breite",
-          "y": 9,
-          "Wert": 0.3380422692
+          "y": 10,
+          "Wert": 0.3239704566
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Breite",
-          "y": 13,
-          "Wert": 0.4952169077
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Breite",
-          "y": 17,
-          "Wert": 0.2770660923
-        },
-        {
-          "name": "Gymnasialquote",
-          "Wohnviertel": "Breite",
-          "y": 4,
-          "Wert": 0.2631578947
+          "y": 14,
+          "Wert": 0.4905998209
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Breite",
           "y": 12,
-          "Wert": 0.3336211362
+          "Wert": 0.3458501491
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Breite",
-          "y": 13,
-          "Wert": 0.346051168
+          "y": 12,
+          "Wert": 0.3446732319
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Breite",
-          "y": 8,
-          "Wert": 0.2187877741
+          "y": 9,
+          "Wert": 0.2221442358
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Breite",
           "y": 15,
-          "Wert": 1941.2268657
+          "Wert": 1940.9206587
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Breite",
           "y": 9,
-          "Wert": 0.1343283582
-        },
-        {
-          "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Breite",
-          "y": 15,
-          "Wert": 0.3599290089
+          "Wert": 0.1347305389
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Breite",
           "y": 6,
-          "Wert": 70.169032499
-        },
-        {
-          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Breite",
-          "y": 9,
-          "Wert": 38.580147476
-        },
-        {
-          "name": "Vermögenssteuer",
-          "Wohnviertel": "Breite",
-          "y": 7,
-          "Wert": 563.2334935
-        },
-        {
-          "name": "Einkommenssteuer",
-          "Wohnviertel": "Breite",
-          "y": 9,
-          "Wert": 7393.6547428
+          "Wert": 70.018878611
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Breite",
-          "y": 12,
-          "Wert": 0.7402545444
-        },
-        {
-          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Breite",
-          "y": 1,
-          "Wert": 0.1306987677
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Breite",
-          "y": 13,
-          "Wert": 0.0492950163
+          "y": 9,
+          "Wert": 0.7366764015
         }
       ],
       "name": "Wert",

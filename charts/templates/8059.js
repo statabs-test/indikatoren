@@ -1,5 +1,16 @@
 (function () {
   return {
+    "chart": {
+      "type": "column"
+    },
+    "plotOptions": {
+      series: {
+        marker: {
+          enabled: true
+        },
+        borderWidth: 0
+      }
+    },
     data: {
       parsed: function (columns) {
         //Negate the numbers in the the 2nd column to create the left side of the population pyramid
@@ -18,27 +29,34 @@
         negateNumbersInColumn(4);
       }
     },
-    "chart": {
-      "type": "column"
-    },
     "xAxis": {
       tickInterval: 1
     },
     "yAxis": {
       min: -1250000,
+      max: 1000000,
       tickInterval: 250000,
       "labels": {
         "format": "{value:,.0f}"
       },
       plotLines: [{
         value: 0,
-        color: '#B6CFD7',
+        color: '#B9CFD7',
         width: 2,
         zIndex: 0,
       }]
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f} Fr.</b><br/>',
+    },
+    "legend": {
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "itemMarginBottom": 5,
+      "align": "left",
+      "itemWidth": 190,
+      itemDistance: 4
     },
     "series": [
       {
@@ -99,22 +117,6 @@
           }
         }
       }
-    ],
-    "legend": {
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left",
-       "itemWidth": 190,
-        itemDistance: 4
-    },
-    "plotOptions": {
-      series: {
-        marker: {
-          enabled: true
-        }
-      }
-    }
+    ]
   }
 }());

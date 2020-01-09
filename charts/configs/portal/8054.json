@@ -814,9 +814,13 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "min": 20
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -850,8 +854,7 @@
           }
     },
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 50,
+    "spacingBottom": 40,
     "renderTo": "container-8054"
   },
   "plotOptions": {
@@ -901,7 +904,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 100
+    "tickInterval": 20,
+    "max": 150
   },
   "navigation": {
     "menuItemStyle": {

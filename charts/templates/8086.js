@@ -9,7 +9,8 @@
         groupPadding: 0.2,
         borderWidth: 0
       }
-    },    "xAxis": {
+    },
+    "xAxis": {
       type: "category"
       //"tickInterval": 1
     },

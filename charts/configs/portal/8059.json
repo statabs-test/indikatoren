@@ -434,11 +434,12 @@
       },
       "format": "{value:,.0f}"
     },
+    "max": 1000000,
     "tickInterval": 250000,
     "plotLines": [
       {
         "value": 0,
-        "color": "#B6CFD7",
+        "color": "#B9CFD7",
         "width": 2,
         "zIndex": 0
       }
@@ -489,7 +490,8 @@
     "series": {
       "marker": {
         "enabled": true
-      }
+      },
+      "borderWidth": 0
     }
   },
   "customFunctions": {

@@ -86,7 +86,7 @@
           -4
         ]
       ],
-      "name": "MännerKlybeck",
+      "name": "Männer Klybeck",
       "turboThreshold": 0
     },
     {
@@ -175,7 +175,7 @@
           -1
         ]
       ],
-      "name": "MännerKleinhüningen",
+      "name": "Männer Kleinhüningen",
       "turboThreshold": 0
     },
     {
@@ -264,7 +264,7 @@
           7
         ]
       ],
-      "name": "FrauenKlybeck",
+      "name": "Frauen Klybeck",
       "turboThreshold": 0
     },
     {
@@ -353,7 +353,7 @@
           9
         ]
       ],
-      "name": "FrauenKleinhüningen",
+      "name": "Frauen Kleinhüningen",
       "turboThreshold": 0
     }
   ],
@@ -450,7 +450,7 @@
   },
   "yAxis": [
     {
-      "max": 2000,
+      "tickInterval": 100,
       "min": 0,
       "title": {
         "text": null
@@ -508,7 +508,10 @@
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "labelFormatter": function () {
+                return this.name.replace('Kleinhüningen', 'Kleinh.');
+            }
   },
   "tooltip": {
     "pointFormatter": function () {

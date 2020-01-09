@@ -1,8 +1,8 @@
 (function () {
   return {
-
-    "xAxis": {
-      "type": "category",
+    "chart": {
+      "type": "column",
+      "spacingBottom": 30
     },
     plotOptions: {
       series: {
@@ -10,13 +10,16 @@
         borderWidth: 0,
       }
     },
+    "xAxis": {
+      "type": "category",
+    },
     "yAxis": {
-      //	"max": 3500,
-      "tickInterval": 100,
-      //min: -1500,
-      "labels": {
-        "format": "{value:,.0f}"
-      }
+      "tickInterval": 20,
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 0, 
+        width: 2 
+      }]
     },
     "series": [
       {
@@ -31,20 +34,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 200,
-      //"x": 40,
-      //"y": 55,    
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
+      //itemWidth: 200,
     },
     tooltip: {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>',
-      "shared": false
     },
-    "chart": {
-      "type": "column",
-      "spacingBottom": 40
-    }
   }
 }());

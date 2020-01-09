@@ -153,10 +153,11 @@
         "textOverflow": "none"
       },
       "align": "left",
-      "x": -180,
-      "formatter": function() {
-            return this.value.replace("/", "<br/>")
-            .replace("Unternehmensverwaltung und -führung, Unternehmensberatung", "Unternehmensverwaltung und<br/>-führung, Unternehmensberatung")
+      "x": -110,
+      "formatter": function () {
+          return this.value.replace("/", "<br/>")
+            .replace("und", "und<br>")
+            .replace("vermittlung,", "vermittlung,<br>")
         }
     },
     "tickLength": 0
@@ -189,7 +190,7 @@
     },
     "type": "column",
     "marginRight": 50,
-    "marginLeft": 200,
+    "marginLeft": 130,
     "inverted": true,
     "renderTo": "container-8070"
   },
@@ -231,9 +232,9 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 250
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

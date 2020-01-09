@@ -751,7 +751,10 @@
         "color": "#000000"
       },
       "step": 1,
-      "rotation": -90
+      "rotation": -90,
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
     },
     "tickLength": 0,
     "tickInterval": 1

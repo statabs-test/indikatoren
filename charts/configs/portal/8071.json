@@ -206,9 +206,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 1
   },
   "navigation": {
     "menuItemStyle": {
@@ -238,7 +238,10 @@
     },
     "enabled": true,
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "labelFormatter": function () {
+        return this.name.replace('Wohnviertel', '');
+      }
   },
   "exporting": {
     "filename": 8071

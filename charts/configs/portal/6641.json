@@ -6,109 +6,61 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 13,
-          "Wert": 0.0678936605
+          "Wert": 0.0721153846
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 12,
-          "Wert": 0.3762781186
+          "y": 13,
+          "Wert": 0.3766025641
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 21,
-          "Wert": 0.5713701431
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 21,
-          "Wert": 0.3347845015
-        },
-        {
-          "name": "Gymnasialquote",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 9,
-          "Wert": 0.3333333333
+          "Wert": 0.5612980769
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.2828520919
+          "Wert": 0.2695800227
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 3,
-          "Wert": 0.2862985685
+          "Wert": 0.2752403846
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 0.1579257513
+          "Wert": 0.1469920545
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 1880.7092199
+          "Wert": 1880.4929078
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.0992907801
-        },
-        {
-          "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 2,
-          "Wert": 0.0809475552
+          "Wert": 0.1028368794
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 9,
-          "Wert": 71.346925972
-        },
-        {
-          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 12,
-          "Wert": 42.766153846
-        },
-        {
-          "name": "Vermögenssteuer",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 11,
-          "Wert": 1406.173482
-        },
-        {
-          "name": "Einkommenssteuer",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 12,
-          "Wert": 9082.149938
+          "y": 10,
+          "Wert": 72.333116037
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 6,
-          "Wert": 0.7043903035
-        },
-        {
-          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 16,
-          "Wert": 1.6002980016
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 17,
-          "Wert": 0.0542989532
+          "y": 13,
+          "Wert": 0.7428789485
         }
       ],
       "name": "Wert",

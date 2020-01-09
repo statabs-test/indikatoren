@@ -4,7 +4,7 @@
       tickInterval: 1
     },
     "yAxis": {
-      tickInterval: 20000,
+      tickInterval: 10000,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -23,7 +23,7 @@
         "color": "#b375ab"
       },
       {
-        "color": "#923f8d"
+        "color": "#923f8d",
       },
     ],
     "legend": {

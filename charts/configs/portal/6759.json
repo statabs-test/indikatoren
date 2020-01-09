@@ -5,110 +5,62 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bettingen",
-          "y": 2,
-          "Wert": 0.0148392415
+          "y": 1,
+          "Wert": 0.012605042
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bettingen",
-          "y": 2,
-          "Wert": 0.2464962902
+          "y": 4,
+          "Wert": 0.2478991597
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Bettingen",
-          "y": 4,
-          "Wert": 0.4460016488
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Bettingen",
-          "y": 1,
-          "Wert": 0.1357798165
-        },
-        {
-          "name": "Gymnasialquote",
-          "Wohnviertel": "Bettingen",
-          "y": 16,
-          "Wert": 0.5416666667
+          "y": 6,
+          "Wert": 0.4571428571
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bettingen",
-          "y": 19,
-          "Wert": 0.4244186047
+          "y": 17,
+          "Wert": 0.423580786
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bettingen",
-          "y": 18,
-          "Wert": 0.4089035449
+          "y": 20,
+          "Wert": 0.4260504202
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bettingen",
-          "y": 18,
-          "Wert": 0.3386627907
+          "y": 17,
+          "Wert": 0.308588064
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 1962.1282051
+          "Wert": 1961.9710611
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.7916666667
-        },
-        {
-          "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Bettingen",
-          "y": 21,
-          "Wert": 0.9017231209
+          "Wert": 0.7942122186
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 121.21188119
-        },
-        {
-          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Bettingen",
-          "y": 20,
-          "Wert": 52.784728611
-        },
-        {
-          "name": "Vermögenssteuer",
-          "Wohnviertel": "Bettingen",
-          "y": 20,
-          "Wert": 14657.565978
-        },
-        {
-          "name": "Einkommenssteuer",
-          "Wohnviertel": "Bettingen",
-          "y": 21,
-          "Wert": 22686.809221
+          "Wert": 121.34406439
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bettingen",
-          "y": 13,
-          "Wert": 0.74117237
-        },
-        {
-          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Bettingen",
-          "y": 8,
-          "Wert": 0.2992305528
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Bettingen",
-          "y": 1,
-          "Wert": 0.0193855888
+          "y": 11,
+          "Wert": 0.742600131
         }
       ],
       "name": "Wert",

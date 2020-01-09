@@ -20,6 +20,7 @@
       "alignTicks": false
     },
     "yAxis": [{
+      tickInterval: 100,
       gridLineColor: '#B9CFD7',
       gridLineWidth: 0.5,
       "labels": {
@@ -34,6 +35,7 @@
       }
     },
     {
+      tickInterval: 5,
       gridLineColor: '#B9CFD7',
       //gridLineWidth: 0.5,
       "title": {
@@ -59,7 +61,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemMarginBottom": 5
+      "itemMarginBottom": 5,
+      labelFormatter: function () {
+        return this.name.replace('Genossenschaftswohnungen ', '');
+      }    
     },
     "series": [
       {

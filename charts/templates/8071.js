@@ -1,9 +1,7 @@
 (function () {
   return {
     "yAxis": {
-      "labels": {
-        "format": "{value:,.0f}",
-      },
+      tickInterval: 1
     },
     "xAxis": {
       "type": "category",
@@ -11,7 +9,10 @@
     "legend": {
       "enabled": true,
       "verticalAlign": "top",
-      "align": "left"
+      "align": "left",
+      labelFormatter: function () {
+        return this.name.replace('Wohnviertel', '');
+      }
     },
     "series": [
       {

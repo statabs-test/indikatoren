@@ -755,9 +755,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value}"
-    }
+      }
+    },
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -796,8 +796,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5,
-    "itemDistance": 5
+    "itemMarginBottom": 3
   },
   "plotOptions": {
     "series": {
