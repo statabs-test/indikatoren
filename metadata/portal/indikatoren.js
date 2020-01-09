@@ -29643,5 +29643,129 @@ var indikatoren = [
 		"chart-id": 8441,
 		"filter": "",
 		"id": 8441
+	},
+	{
+		"title": "Monatliche Arbeitslosenquoten",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.20",
+		"description": "Monatliche Arbeitslosenquoten",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die durchschnittlichen Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich seit 2014 ähnlich entwickelt: Nach einem Anstieg bis 2016, hat sich die Arbeitslosigkeit im Jahr 2017 und insbesondere 2018 wieder reduziert. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Zuletzt im Oktober 2019 lagen die Arbeitslosenquoten bei 1,7% (BL), 2,7% (BS) und 3,6% (JU).",
+		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche die Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8442,
+		"chart-id": 8442,
+		"filter": "",
+		"id": 8442
+	},
+	{
+		"title": "Steuerertrag pro Kopf",
+		"subtitle": "in Franken",
+		"kuerzel": "",
+		"kuerzelKunde": "3.1",
+		"description": "Steuerertrag pro Kopf",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "3. Öffentliche Finanzen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Steuerertrag pro Kopf liegt im Baselbiet 2017 mit etwas über 8 000 Franken im gesamtschweizerischen Durchschnitt. Im Jura beträgt der Wert etwas mehr als 6 000 Franken. Den höchsten Steuerertrag pro Person erzielt Basel-Stadt mit rund 14 000 Franken. Verglichen mit 2014 hat sich der Steuerertrag pro Kopf in den beiden Basel erhöht und im Jura leicht reduziert.",
+		"erlaeuterungen": "Steuerertrag der Kantone und ihrer Gemeinden nach national vergleichbaren Kriterien (FS-Modell). Im Steuerertrag enthalten sind die direkten Steuern der natürlichen Personen (Einkommens-, Vermögens- und Quellensteuer) und der juristischen Personen (Gewinn- und Kapitalsteuer).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
+			"Eidgenössische Finanzverwaltung, Finanzstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8443,
+		"chart-id": 8443,
+		"filter": "",
+		"id": 8443
+	},
+	{
+		"title": "Steuerertrag nach natürlichen und juristischen Personen",
+		"subtitle": "in 1000 Franken",
+		"kuerzel": "",
+		"kuerzelKunde": "3.2",
+		"description": "Steuerertrag nach natürlichen und juristischen Personen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "3. Öffentliche Finanzen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im schweizerischen Vergleich haben die Steuererträge der juristischen Personen im Kanton Basel-Stadt eine überdurchschnittliche Bedeutung. Deren Anteil liegt bei 30%, verglichen mit 18% in der Gesamtschweiz. Im Baselbiet tragen umgekehrt die natürlichen Personen einen überdurchschnittlichen Anteil an den Steuererträgen von 88% (Schweiz: 82%). Im Jura entsprechen die Anteile in etwa dem Schweizer Durchschnitt.",
+		"erlaeuterungen": "Steuerertrag der Kantone und ihrer Gemeinden nach national vergleichbaren Kriterien (FS-Modell). Im Steuerertrag enthalten sind die direkten Steuern der natürlichen Personen (Einkommens-, Vermögens- und Quellensteuer) und der juristischen Personen (Gewinn- und Kapitalsteuer).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung, Finanzstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8444,
+		"chart-id": 8444,
+		"filter": "",
+		"id": 8444
 	}
 ];

@@ -1,0 +1,46 @@
+(function(){
+    return {
+ "xAxis": {
+    "tickInterval": 12,
+     "type": "category",
+     labels:{
+     		"formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+		},
+     }
+  },
+  "yAxis": {
+	"labels": {
+		"format": "{value:,.0f}%",
+	}
+  },	
+  "tooltip": {
+    "shared": false, 
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+  },
+ "series": [
+    { "color": "#474747" },
+    { "color": "#FF8028" },
+    { "color": "#FABD24" }, 
+    { "color": "#990300" } 
+	  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker":{
+        "enabled": false,
+        "symbol": "circle",
+      } 
+    }
+  }
+}
+}());
