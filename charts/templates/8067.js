@@ -1,6 +1,6 @@
 (function () {
   return {
-    "data": {
+   /* "data": {
       "seriesMapping": [
         {
           x: 0, y: 1
@@ -15,7 +15,7 @@
           x: 0, y: 10
         }
       ]
-    },
+    },*/
     plotOptions: {
       series: {
         "stacking": "normal",
