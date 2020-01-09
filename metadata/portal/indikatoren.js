@@ -27074,11 +27074,11 @@ var indikatoren = [
 		"id": 8278
 	},
 	{
-		"title": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25",
+		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen",
 		"subtitle": "Kanton Basel-Stadt",
 		"kuerzel": "I.01.1.08280",
 		"kuerzelKunde": "",
-		"description": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25",
+		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "CMS Kennzahlen Soziales",

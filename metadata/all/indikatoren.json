@@ -41722,11 +41722,11 @@
 		"id": 8278
 	},
 	{
-		"title": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25",
+		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen",
 		"subtitle": "Kanton Basel-Stadt",
 		"kuerzel": "I.01.1.08280",
 		"kuerzelKunde": "",
-		"description": "Entwicklung der Bevölkerung nach Altersgruppen 5-12, 13-17, 17-25",
+		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -41760,6 +41760,46 @@
 		"chart-id": 8280,
 		"filter": "",
 		"id": 8280
+	},
+	{
+		"title": "Anteil Grünflächen",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.02.1.08284",
+		"kuerzelKunde": "",
+		"description": "Anteil Grünflächen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-05-14T09:36:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 4832,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant' target = '_blank'>Basler Atlas</a>"
+		],
+		"data-id": 4832,
+		"chart-id": 4832,
+		"filter": "",
+		"id": 8284
 	},
 	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
