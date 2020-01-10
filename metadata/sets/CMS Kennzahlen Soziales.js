@@ -546,6 +546,48 @@ var indikatorensetData = [
 		"id": 8273
 	},
 	{
+		"title": "Leerwohnungen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2019",
+		"kuerzel": "I.09.2.08275",
+		"kuerzelKunde": "",
+		"description": "Leerwohnungen nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.5 Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 in den Wohnvierteln Rosental und Vorstädte verzeichnet.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 6391,
+		"children": [],
+		"renderLink": [
+			"6391"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6391,
+		"chart-id": 6391,
+		"filter": "",
+		"id": 8275
+	},
+	{
 		"title": "Anteil Familienhaushalte",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.08277",
