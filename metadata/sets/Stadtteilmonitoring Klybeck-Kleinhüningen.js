@@ -33,8 +33,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6630,
-		"chart-id": 6756,
+		"data-id": 8045,
+		"chart-id": 8045,
 		"filter": "",
 		"id": 8045
 	},
@@ -1582,7 +1582,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "2017 waren im Wohnviertel Klybeck im Schnitt 0,46 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 219,8 privaten Personenwagen pro 1 000 Einwohnern.",
 		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassene Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1&nbsp;000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Jahresendbestand der Personenwagen und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet. Die höheren Werte im Bezirk Erlenmatt für das Jahr 2014 sind auf methodische Unterschiede in der Erfassung von neu- und umgemeldeten Fahrzeugen und Einwohner um den Jahreswechsel zurückzuführen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1876,8 +1876,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6630,
-		"chart-id": 6757,
+		"data-id": 8375,
+		"chart-id": 8375,
 		"filter": "",
 		"id": 8375
 	}
