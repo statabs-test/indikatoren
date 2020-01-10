@@ -31,13 +31,15 @@
         "type": "category",
         "labels": {
            align: "left",
-            x: -145,
+            x: -160,
+            useHTML: true,
             style: {
                 whiteSpace: 'nowrap'
             },
             "formatter": function() {
                 return this.value.replace(" ", " ");
-            }
+            },
+            
             
         } 
   },  
@@ -50,7 +52,7 @@
         }
     },
     "chart": {     
-        marginLeft: 155,
+        marginLeft: 170,
         "inverted": true,
         "height": 600,
      }

@@ -6,59 +6,59 @@
       "data": [
         [
           "Lebensmittel",
-          69.8
-        ],
-        [
-          "Spielzeug",
-          64.9
-        ],
-        [
-          "Wohnung",
-          64.2
-        ],
-        [
-          "Haushaltswaren",
-          63.3
+          3.5
         ],
         [
           "Kleidung Kinder",
-          61.7
+          5.8
         ],
         [
-          "Krankenkasse",
-          57.5
+          "Haushaltswaren",
+          6.5
+        ],
+        [
+          "Wohnung",
+          6.7
+        ],
+        [
+          "Spielzeug",
+          7.1
         ],
         [
           "Kleidung Erwachsene",
-          52
+          10.4
+        ],
+        [
+          "Krankenkasse",
+          9.8
         ],
         [
           "Freizeit Kinder",
-          46.3
-        ],
-        [
-          "Freizeit Erwachsene",
-          40.2
-        ],
-        [
-          "Kulturveranstaltungen",
-          39.1
-        ],
-        [
-          "Fremdbetreuung",
-          34.3
+          14.2
         ],
         [
           "Ferien",
-          31.8
+          24.6
         ],
         [
           "Nachhilfeunterricht",
-          29.7
+          18.8
+        ],
+        [
+          "Freizeit Erwachsene",
+          21.2
+        ],
+        [
+          "Fremdbetreuung",
+          22
+        ],
+        [
+          "Kulturveranstaltungen",
+          23
         ],
         [
           "Private Vorsorge",
-          28.7
+          36.4
         ],
         [
           "Haushaltshilfe",
@@ -66,7 +66,7 @@
         ],
         [
           "Sparen",
-          18.5
+          43.4
         ]
       ],
       "name": "2009 (N=3 119)",
@@ -78,67 +78,67 @@
       "data": [
         [
           "Lebensmittel",
-          74.5
-        ],
-        [
-          "Spielzeug",
-          70.4
-        ],
-        [
-          "Wohnung",
-          68.1
-        ],
-        [
-          "Haushaltswaren",
-          69.8
+          2.7
         ],
         [
           "Kleidung Kinder",
-          67.2
+          4.3
         ],
         [
-          "Krankenkasse",
-          59.5
+          "Haushaltswaren",
+          4
+        ],
+        [
+          "Wohnung",
+          5.8
+        ],
+        [
+          "Spielzeug",
+          5.2
         ],
         [
           "Kleidung Erwachsene",
-          58.7
+          7.1
+        ],
+        [
+          "Krankenkasse",
+          9
         ],
         [
           "Freizeit Kinder",
-          51.9
-        ],
-        [
-          "Freizeit Erwachsene",
-          45.2
-        ],
-        [
-          "Kulturveranstaltungen",
-          45
-        ],
-        [
-          "Fremdbetreuung",
-          37.4
+          11.3
         ],
         [
           "Ferien",
-          35.9
+          20.1
         ],
         [
           "Nachhilfeunterricht",
-          32.8
+          17.5
+        ],
+        [
+          "Freizeit Erwachsene",
+          17.7
+        ],
+        [
+          "Fremdbetreuung",
+          19
+        ],
+        [
+          "Kulturveranstaltungen",
+          19.5
         ],
         [
           "Private Vorsorge",
-          29.9
+          35.4
         ],
         [
           "Haushaltshilfe",
-          28.6
+          36.9
         ],
         [
           "Sparen",
-          23
+          36.8
         ]
       ],
       "name": "2013 (N=2 231)",
@@ -150,67 +150,67 @@
       "data": [
         [
           "Lebensmittel",
-          77.7
-        ],
-        [
-          "Spielzeug",
-          75.7
-        ],
-        [
-          "Wohnung",
-          71.4
-        ],
-        [
-          "Haushaltswaren",
-          73.3
+          2.3
         ],
         [
           "Kleidung Kinder",
-          72.1
+          3.8
         ],
         [
-          "Krankenkasse",
-          59.6
+          "Haushaltswaren",
+          4.1
+        ],
+        [
+          "Wohnung",
+          4.3
+        ],
+        [
+          "Spielzeug",
+          5.5
         ],
         [
           "Kleidung Erwachsene",
-          65.3
+          7.3
+        ],
+        [
+          "Krankenkasse",
+          8.8
         ],
         [
           "Freizeit Kinder",
-          56.7
-        ],
-        [
-          "Freizeit Erwachsene",
-          50.1
-        ],
-        [
-          "Kulturveranstaltungen",
-          49.2
-        ],
-        [
-          "Fremdbetreuung",
-          42.8
+          10.3
         ],
         [
           "Ferien",
-          40.1
+          14.9
         ],
         [
           "Nachhilfeunterricht",
-          37.3
+          16.9
+        ],
+        [
+          "Freizeit Erwachsene",
+          17.2
+        ],
+        [
+          "Fremdbetreuung",
+          17.3
+        ],
+        [
+          "Kulturveranstaltungen",
+          18.1
         ],
         [
           "Private Vorsorge",
-          34.4
+          30.7
         ],
         [
           "Haushaltshilfe",
-          33.7
+          35.6
         ],
         [
           "Sparen",
-          25.5
+          35.8
         ]
       ],
       "name": "2017 (N=1 665)",
@@ -268,7 +268,7 @@
     },
     "type": "column",
     "inverted": true,
-    "renderTo": "container-8243",
+    "renderTo": "container-8244",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -299,7 +299,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «das Geld reicht»",
+    "text": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «das Geld reicht nicht»",
     "align": "left"
   },
   "yAxis": {
@@ -319,8 +319,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100,
-    "tickInterval": 25
+    "max": 50,
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {
@@ -358,6 +358,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8243
+    "filename": 8244
   }
 }

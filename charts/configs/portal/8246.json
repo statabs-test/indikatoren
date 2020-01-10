@@ -6,131 +6,135 @@
       "legendIndex": 0,
       "data": [
         [
-          "Einelternfamilien",
+          "Familienform",
+          null
+        ],
+        [
+          "&nbsp;&nbsp;&nbsp;&nbsp; Einelternfamilien",
           21.7
         ],
         [
-          "Zweielternfamilien",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Zweielternfamilien",
           11.6
         ],
         [
-          " ",
+          "Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "\\&nbsp;&nbsp;&nbsp;&nbsp; 1 Kind",
           13.3
         ],
         [
-          "2 Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2 Kinder",
           12.4
         ],
         [
-          "3 und mehr Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3 und mehr Kinder",
           15
         ],
         [
-          "  ",
+          "Alter jüngstes Kind",
           null
         ],
         [
-          "Jüngstes Kind 0-4 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 0-4 Jahre",
           15.9
         ],
         [
-          "Jüngstes Kind 5-8 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 5-8 Jahre",
           12.4
         ],
         [
-          "Jüngstes Kind 9-12 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 9-12 Jahre",
           10.8
         ],
         [
-          "Jüngstes Kind 13-17 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 13-17 Jahre",
           11.8
         ],
         [
-          "   ",
+          "Höchster Schulabschluss Eltern",
           null
         ],
         [
-          "Obligatorische Schule",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Obligatorische Schule",
           15.2
         ],
         [
-          "Sekundarstufe II",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Sekundarstufe II",
           16.5
         ],
         [
-          "Tertiärstufe",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Tertiärstufe",
           11
         ],
         [
-          "    ",
+          "Alltagssprache der Familie",
           null
         ],
         [
-          "ch\u002Fdt",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt",
           13.2
         ],
         [
-          "ch\u002Fdt und andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt und andere Sprache(n)",
           15.3
         ],
         [
-          "nur andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; nur andere Sprache(n)",
           9.8
         ],
         [
-          "     ",
+          "Haushaltseinkommen pro Monat",
           null
         ],
         [
-          "unter 3000 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; unter 3000 Franken",
           17.1
         ],
         [
-          "3000-7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3000-7499 Franken",
           20
         ],
         [
-          "über 7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; über 7499 Franken",
           8.7
         ],
         [
-          "      ",
+          "Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel Ost",
           13.5
         ],
         [
-          "Grossbasel West",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel West",
           13.7
         ],
         [
-          "Kleinbasel",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Kleinbasel",
           13.8
         ],
         [
-          "Riehen, Bettingen",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Riehen, Bettingen",
           11.1
         ],
         [
-          "       ",
+          "Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2009",
           15.7
         ],
         [
-          "2013",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2013",
           13.5
         ],
         [
-          "2017",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2017",
           13.3
         ]
       ],
@@ -143,131 +147,135 @@
       "legendIndex": 1,
       "data": [
         [
-          "Einelternfamilien",
+          "Familienform",
+          null
+        ],
+        [
+          "&nbsp;&nbsp;&nbsp;&nbsp; Einelternfamilien",
           21
         ],
         [
-          "Zweielternfamilien",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Zweielternfamilien",
           18.8
         ],
         [
-          " ",
+          "Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "\\&nbsp;&nbsp;&nbsp;&nbsp; 1 Kind",
           19.6
         ],
         [
-          "2 Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2 Kinder",
           17.9
         ],
         [
-          "3 und mehr Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3 und mehr Kinder",
           21.5
         ],
         [
-          "  ",
+          "Alter jüngstes Kind",
           null
         ],
         [
-          "Jüngstes Kind 0-4 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 0-4 Jahre",
           23.6
         ],
         [
-          "Jüngstes Kind 5-8 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 5-8 Jahre",
           15.1
         ],
         [
-          "Jüngstes Kind 9-12 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 9-12 Jahre",
           17
         ],
         [
-          "Jüngstes Kind 13-17 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 13-17 Jahre",
           18.5
         ],
         [
-          "   ",
+          "Höchster Schulabschluss Eltern",
           null
         ],
         [
-          "Obligatorische Schule",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Obligatorische Schule",
           14.3
         ],
         [
-          "Sekundarstufe II",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Sekundarstufe II",
           22.2
         ],
         [
-          "Tertiärstufe",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Tertiärstufe",
           18.3
         ],
         [
-          "    ",
+          "Alltagssprache der Familie",
           null
         ],
         [
-          "ch\u002Fdt",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt",
           20.6
         ],
         [
-          "ch\u002Fdt und andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt und andere Sprache(n)",
           18
         ],
         [
-          "nur andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; nur andere Sprache(n)",
           15.9
         ],
         [
-          "     ",
+          "Haushaltseinkommen pro Monat",
           null
         ],
         [
-          "unter 3000 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; unter 3000 Franken",
           27
         ],
         [
-          "3000-7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3000-7499 Franken",
           22.8
         ],
         [
-          "über 7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; über 7499 Franken",
           16.6
         ],
         [
-          "      ",
+          "Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel Ost",
           20
         ],
         [
-          "Grossbasel West",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel West",
           19.5
         ],
         [
-          "Kleinbasel",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Kleinbasel",
           18.6
         ],
         [
-          "Riehen, Bettingen",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Riehen, Bettingen",
           17.8
         ],
         [
-          "       ",
+          "Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2009",
           19.4
         ],
         [
-          "2013",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2013",
           17.5
         ],
         [
-          "2017",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2017",
           19.2
         ]
       ],
@@ -280,131 +288,135 @@
       "legendIndex": 2,
       "data": [
         [
-          "Einelternfamilien",
-          17.3
-        ],
-        [
-          "Zweielternfamilien",
-          19.2
-        ],
-        [
-          " ",
+          "Familienform",
           null
         ],
         [
-          "1 Kind",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Einelternfamilien",
+          17.3
+        ],
+        [
+          "&nbsp;&nbsp;&nbsp;&nbsp; Zweielternfamilien",
+          19.2
+        ],
+        [
+          "Anzahl Kinder",
+          null
+        ],
+        [
+          "\\&nbsp;&nbsp;&nbsp;&nbsp; 1 Kind",
           16.5
         ],
         [
-          "2 Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2 Kinder",
           20.5
         ],
         [
-          "3 und mehr Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3 und mehr Kinder",
           17.8
         ],
         [
-          "  ",
+          "Alter jüngstes Kind",
           null
         ],
         [
-          "Jüngstes Kind 0-4 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 0-4 Jahre",
           16.7
         ],
         [
-          "Jüngstes Kind 5-8 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 5-8 Jahre",
           22.3
         ],
         [
-          "Jüngstes Kind 9-12 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 9-12 Jahre",
           19.5
         ],
         [
-          "Jüngstes Kind 13-17 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 13-17 Jahre",
           17
         ],
         [
-          "   ",
+          "Höchster Schulabschluss Eltern",
           null
         ],
         [
-          "Obligatorische Schule",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Obligatorische Schule",
           20
         ],
         [
-          "Sekundarstufe II",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Sekundarstufe II",
           19.2
         ],
         [
-          "Tertiärstufe",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Tertiärstufe",
           18
         ],
         [
-          "    ",
+          "Alltagssprache der Familie",
           null
         ],
         [
-          "ch\u002Fdt",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt",
           17.6
         ],
         [
-          "ch\u002Fdt und andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt und andere Sprache(n)",
           20
         ],
         [
-          "nur andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; nur andere Sprache(n)",
           19.9
         ],
         [
-          "     ",
+          "Haushaltseinkommen pro Monat",
           null
         ],
         [
-          "unter 3000 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; unter 3000 Franken",
           18
         ],
         [
-          "3000-7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3000-7499 Franken",
           22.4
         ],
         [
-          "über 7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; über 7499 Franken",
           16.3
         ],
         [
-          "      ",
+          "Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel Ost",
           18.6
         ],
         [
-          "Grossbasel West",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel West",
           16.9
         ],
         [
-          "Kleinbasel",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Kleinbasel",
           19.9
         ],
         [
-          "Riehen, Bettingen",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Riehen, Bettingen",
           21.7
         ],
         [
-          "       ",
+          "Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2009",
           17.3
         ],
         [
-          "2013",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2013",
           18
         ],
         [
-          "2017",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2017",
           18.6
         ]
       ],
@@ -417,131 +429,135 @@
       "legendIndex": 3,
       "data": [
         [
-          "Einelternfamilien",
+          "Familienform",
+          null
+        ],
+        [
+          "&nbsp;&nbsp;&nbsp;&nbsp; Einelternfamilien",
           27.2
         ],
         [
-          "Zweielternfamilien",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Zweielternfamilien",
           41.2
         ],
         [
-          " ",
+          "Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "\\&nbsp;&nbsp;&nbsp;&nbsp; 1 Kind",
           40.7
         ],
         [
-          "2 Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2 Kinder",
           39.5
         ],
         [
-          "3 und mehr Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3 und mehr Kinder",
           34
         ],
         [
-          "  ",
+          "Alter jüngstes Kind",
           null
         ],
         [
-          "Jüngstes Kind 0-4 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 0-4 Jahre",
           35.4
         ],
         [
-          "Jüngstes Kind 5-8 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 5-8 Jahre",
           39.6
         ],
         [
-          "Jüngstes Kind 9-12 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 9-12 Jahre",
           41.2
         ],
         [
-          "Jüngstes Kind 13-17 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 13-17 Jahre",
           42.4
         ],
         [
-          "   ",
+          "Höchster Schulabschluss Eltern",
           null
         ],
         [
-          "Obligatorische Schule",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Obligatorische Schule",
           18.1
         ],
         [
-          "Sekundarstufe II",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Sekundarstufe II",
           30
         ],
         [
-          "Tertiärstufe",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Tertiärstufe",
           46.2
         ],
         [
-          "    ",
+          "Alltagssprache der Familie",
           null
         ],
         [
-          "ch\u002Fdt",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt",
           42.8
         ],
         [
-          "ch\u002Fdt und andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt und andere Sprache(n)",
           34.5
         ],
         [
-          "nur andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; nur andere Sprache(n)",
           33.7
         ],
         [
-          "     ",
+          "Haushaltseinkommen pro Monat",
           null
         ],
         [
-          "unter 3000 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; unter 3000 Franken",
           16.2
         ],
         [
-          "3000-7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3000-7499 Franken",
           24.3
         ],
         [
-          "über 7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; über 7499 Franken",
           53.3
         ],
         [
-          "      ",
+          "Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel Ost",
           41.9
         ],
         [
-          "Grossbasel West",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel West",
           38.6
         ],
         [
-          "Kleinbasel",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Kleinbasel",
           34.3
         ],
         [
-          "Riehen, Bettingen",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Riehen, Bettingen",
           41.5
         ],
         [
-          "       ",
+          "Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2009",
           33.5
         ],
         [
-          "2013",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2013",
           38.3
         ],
         [
-          "2017",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2017",
           38.7
         ]
       ],
@@ -554,131 +570,135 @@
       "legendIndex": 4,
       "data": [
         [
-          "Einelternfamilien",
-          3.3
-        ],
-        [
-          "Zweielternfamilien",
-          3.6
-        ],
-        [
-          " ",
+          "Familienform",
           null
         ],
         [
-          "1 Kind",
-          3.2
-        ],
-        [
-          "2 Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Einelternfamilien",
           3.3
         ],
         [
-          "3 und mehr Kinder",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Zweielternfamilien",
+          3.6
+        ],
+        [
+          "Anzahl Kinder",
+          null
+        ],
+        [
+          "\\&nbsp;&nbsp;&nbsp;&nbsp; 1 Kind",
+          3.2
+        ],
+        [
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2 Kinder",
+          3.3
+        ],
+        [
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3 und mehr Kinder",
           5.9
         ],
         [
-          "  ",
+          "Alter jüngstes Kind",
           null
         ],
         [
-          "Jüngstes Kind 0-4 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 0-4 Jahre",
           3.3
         ],
         [
-          "Jüngstes Kind 5-8 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 5-8 Jahre",
           4.7
         ],
         [
-          "Jüngstes Kind 9-12 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 9-12 Jahre",
           4
         ],
         [
-          "Jüngstes Kind 13-17 Jahre",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 13-17 Jahre",
           3.6
         ],
         [
-          "   ",
+          "Höchster Schulabschluss Eltern",
           null
         ],
         [
-          "Obligatorische Schule",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Obligatorische Schule",
           11.4
         ],
         [
-          "Sekundarstufe II",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Sekundarstufe II",
           3.8
         ],
         [
-          "Tertiärstufe",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Tertiärstufe",
           3
         ],
         [
-          "    ",
+          "Alltagssprache der Familie",
           null
         ],
         [
-          "ch\u002Fdt",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt",
           2.4
         ],
         [
-          "ch\u002Fdt und andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; ch\u002Fdt und andere Sprache(n)",
           3.5
         ],
         [
-          "nur andere Sprache(n)",
+          "&nbsp;&nbsp;&nbsp;&nbsp; nur andere Sprache(n)",
           9.8
         ],
         [
-          "     ",
+          "Haushaltseinkommen pro Monat",
           null
         ],
         [
-          "unter 3000 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; unter 3000 Franken",
           8.1
         ],
         [
-          "3000-7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 3000-7499 Franken",
           3.4
         ],
         [
-          "über 7499 Franken",
+          "&nbsp;&nbsp;&nbsp;&nbsp; über 7499 Franken",
           2.2
         ],
         [
-          "      ",
+          "Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel Ost",
           1.4
         ],
         [
-          "Grossbasel West",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Grossbasel West",
           4.6
         ],
         [
-          "Kleinbasel",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Kleinbasel",
           5.3
         ],
         [
-          "Riehen, Bettingen",
+          "&nbsp;&nbsp;&nbsp;&nbsp; Riehen, Bettingen",
           3.2
         ],
         [
-          "       ",
+          "Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2009",
           4
         ],
         [
-          "2013",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2013",
           4.3
         ],
         [
-          "2017",
+          "&nbsp;&nbsp;&nbsp;&nbsp; 2017",
           3.8
         ]
       ],
@@ -691,69 +711,57 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
+      "rotation": 0,
       "style": {
         "color": "#000000",
+        "width": 1,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "align": "left",
-      "x": -145,
       "formatter": function() {
                 return this.value.replace(" ", " ");
-            }
-    },
-    "tickLength": 0
+            },
+      "align": "left",
+      "x": -160,
+      "useHTML": true
+    }
   },
   "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 613,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
-    "marginLeft": 155,
+    "type": "column",
+    "marginLeft": 170,
     "inverted": true,
-    "renderTo": "container-8246",
-    "spacingBottom": 40
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    }
+    "renderTo": "container-8246"
   },
   "title": {
     "style": {
@@ -767,14 +775,31 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»",
-    "align": "left"
+    "align": "left",
+    "text": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
   },
   "yAxis": {
+    "tickInterval": 20,
+    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -786,20 +811,18 @@
       "text": null
     },
     "labels": {
+      "format": "{value}%",
       "style": {
         "color": "#000000"
       },
       "type": "category",
       "rotation": 0
     },
-    "tickInterval": 20,
     "max": 100
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -817,10 +840,21 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
-    "symbolRadius": 0,
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
-    }
+      "fontWeight": "normal",
+      "width": 115,
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": 8246
