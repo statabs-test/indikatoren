@@ -26674,6 +26674,46 @@ var indikatoren = [
 		"id": 8244
 	},
 	{
+		"title": "Finanzielle Unterstützung",
+		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?»",
+		"kuerzel": "I.50.2.08245",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Unterstützung",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Fast drei Viertel aller befragten Familien geben 2017 an Kinderzulagen zu erhalten. Die weiteren Leistungen werden von deutlich weniger Familien in Anspruch genommen. 25,6% bekommen eine Familien- bzw. Haushaltszulage, 21,4% erhalten Prämienverbilligungen. Etwa 10% der befragten Familien erhalten Tagesbetreuungsbeiträge, Alimente für Kinder und Mietzinsbeiträge.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8245,
+		"chart-id": 8245,
+		"filter": "",
+		"id": 8245
+	},
+	{
 		"title": "Finanzielle Lage",
 		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»",
 		"kuerzel": "I.50.2.08246",
