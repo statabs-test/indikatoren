@@ -3,7 +3,7 @@
   "plotOptions": {
     "series": {    
     	pointPadding: 0, 
-		groupPadding: 0.1, 
+		//groupPadding: 0.1, 
 		borderWidth: 0,
       "dataLabels": {
         "style": {
@@ -17,11 +17,11 @@
   },
   "yAxis": {
     "labels": {
-        "format": "{value:,.0f}"
+        "format": "{value:,.0f}%"
     }              
   },
   "series": [
-    {"color": "#923F8D"},
+    //{"color": "#923F8D"},
     {"color": "#B375AB"},
     {"color": "#FABD24"},
     {"color": "#FFDA80"},
@@ -38,7 +38,7 @@
     }
   },
   "tooltip": {
-        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Fr.</b><br/>', 
+        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>', 
     "shared": false
   },  
   "chart": {      

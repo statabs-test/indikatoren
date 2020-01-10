@@ -1,46 +1,23 @@
 {
   "series": [
     {
-      "color": "#923F8D",
-      "data": [
-        [
-          "BS",
-          13297
-        ],
-        [
-          "BL",
-          7709
-        ],
-        [
-          "JU",
-          6428
-        ],
-        [
-          "CH",
-          7646
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
       "color": "#B375AB",
       "data": [
         [
           "BS",
-          14230
+          85.5
         ],
         [
           "BL",
-          7775
+          90.9
         ],
         [
           "JU",
-          6491
+          93.4
         ],
         [
           "CH",
-          7743
+          91.1
         ]
       ],
       "name": "2015",
@@ -51,19 +28,19 @@
       "data": [
         [
           "BS",
-          14632
+          87.2
         ],
         [
           "BL",
-          8034
+          92.6
         ],
         [
           "JU",
-          6313
+          93.7
         ],
         [
           "CH",
-          7868
+          91.5
         ]
       ],
       "name": "2016",
@@ -74,19 +51,19 @@
       "data": [
         [
           "BS",
-          14104
+          85.4
         ],
         [
           "BL",
-          8464
+          91.9
         ],
         [
           "JU",
-          6353
+          94.9
         ],
         [
           "CH",
-          7915
+          91.2
         ]
       ],
       "name": "2017",
@@ -141,10 +118,10 @@
             }
           }
     },
-    "renderTo": "container-8443",
+    "renderTo": "container-8445",
     "marginBottom": 75,
     "type": "column",
-    "spacingBottom": 50
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -154,8 +131,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "groupPadding": 0.1
+      "pointPadding": 0
     }
   },
   "title": {
@@ -165,7 +141,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Steuerertrag pro Kopf"
+    "text": "Abschlussquote der Sekundarstufe II"
   },
   "subtitle": {
     "style": {
@@ -174,7 +150,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -192,7 +168,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }
   },
   "navigation": {
@@ -212,9 +188,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung, Finanzstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
   },
   "legend": {
     "symbolRadius": 0,
@@ -227,10 +203,10 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8443
+    "filename": 8445
   }
 }
