@@ -6658,90 +6658,90 @@
       "data": [
         [
           1,
-          "Altstadt Grossbasel"
-        ],
-        [
-          2,
-          "Altstadt Kleinbasel"
-        ],
-        [
-          3,
-          "Vorstädte"
-        ],
-        [
-          4,
-          "Clara"
-        ],
-        [
-          5,
-          "Gundeldingen"
-        ],
-        [
-          6,
-          "Wettstein"
-        ],
-        [
-          7,
-          "Matthäus"
-        ],
-        [
-          8,
-          "Breite"
-        ],
-        [
-          9,
-          "Am Ring"
-        ],
-        [
-          10,
-          "St. Johann"
-        ],
-        [
-          11,
-          "Gotthelf"
+          1
         ],
         [
           12,
-          "Iselin"
+          2
+        ],
+        [
+          2,
+          3
         ],
         [
           13,
-          "Rosental"
+          4
+        ],
+        [
+          6,
+          5
         ],
         [
           14,
-          "Klybeck"
-        ],
-        [
-          15,
-          "Bachletten"
-        ],
-        [
-          16,
-          "St. Alban"
+          6
         ],
         [
           17,
-          "Kleinhüningen"
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          16,
+          13
         ],
         [
           18,
-          "Bettingen"
+          14
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          5,
+          16
         ],
         [
           19,
-          "Hirzbrunnen"
+          17
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          15,
+          19
         ],
         [
           20,
-          "Riehen"
+          20
         ],
         [
-          21,
-          "Bruderholz"
+          7,
+          21
         ]
       ],
-      "name": "Wohnviertel"
+      "name": "Rang"
     },
     {
       "name": "Rhein",
@@ -7039,7 +7039,7 @@
 	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355-5, 212+15, 110+15, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-	                fn.addLegendTitle(chart, chart.series[0].name, 355, 0);
+	                fn.addLegendTitle(chart, chart.series[1].name, 360, 210+20);
 	                
 	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');

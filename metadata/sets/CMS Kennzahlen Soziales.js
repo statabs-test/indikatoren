@@ -744,6 +744,46 @@ var indikatorensetData = [
 		"id": 8280
 	},
 	{
+		"title": "Wohnfläche pro Kopf",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.1.08283",
+		"kuerzelKunde": "",
+		"description": "Wohnfläche pro Kopf",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-02-25T13:00:46.4646",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
+		"template": "dotplot",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 4834,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8283,
+		"chart-id": 8283,
+		"filter": "",
+		"id": 8283
+	},
+	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.02.1.08284",
