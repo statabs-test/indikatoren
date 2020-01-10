@@ -557,7 +557,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
+		"aktualisierungsdatum": "2020-01-10T11:12:34.3434",
 		"stufe1": "Kapitel 1",
 		"stufe2": "1.5 Wohnen",
 		"stufe3": "",
@@ -569,10 +569,10 @@ var indikatorensetData = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
-		"parentId": 6391,
+		"parentId": 6379,
 		"children": [],
 		"renderLink": [
-			"6391"
+			"6379"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
@@ -582,7 +582,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6391,
+		"data-id": 8275,
 		"chart-id": 6391,
 		"filter": "",
 		"id": 8275
