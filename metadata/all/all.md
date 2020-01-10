@@ -1202,6 +1202,12 @@ id | visible | visibleInPortal | indikatorenset
 8350 | true | true | Wirtschaftsbericht BS_BL_JU
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
 8353 | true | true | Wirtschaftsbericht BS_BL_JU
+8354 | true | true | Wirtschaftsbericht BS_BL_JU
+8355 | true | true | Wirtschaftsbericht BS_BL_JU
+8356 | true | true | Wirtschaftsbericht BS_BL_JU
+8357 | true | true | Wirtschaftsbericht BS_BL_JU
+8358 | true | true | Wirtschaftsbericht BS_BL_JU
+8359 | true | true | Wirtschaftsbericht BS_BL_JU
 8361 | true | true | Wirtschaftsbericht BS_BL_JU
 8362 | true | true | Wirtschaftsbericht BS_BL_JU
 8363 | true | true | Wirtschaftsbericht BS_BL_JU

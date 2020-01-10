@@ -29001,6 +29001,246 @@ var indikatoren = [
 		"id": 8353
 	},
 	{
+		"title": "Wertschöpfung nach Branche",
+		"subtitle": "Anteile an der regionalen Gesamtwertschöpfung",
+		"kuerzel": "",
+		"kuerzelKunde": "1.7",
+		"description": "Wertschöpfung nach Branche",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8354,
+		"chart-id": 8354,
+		"filter": "",
+		"id": 8354
+	},
+	{
+		"title": "Wertschöpfungswachstum nach Branchen",
+		"subtitle": "Basel-Stadt, Index (2014=100)",
+		"kuerzel": "",
+		"kuerzelKunde": "1.10",
+		"description": "Wertschöpfungswachstum nach Branchen",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8355,
+		"chart-id": 8355,
+		"filter": "",
+		"id": 8355
+	},
+	{
+		"title": "Wertschöpfungswachstum nach Branchen",
+		"subtitle": "Basel-Landschaft, Index (2014=100)",
+		"kuerzel": "",
+		"kuerzelKunde": "1.11",
+		"description": "Wertschöpfungswachstum nach Branchen",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8356,
+		"chart-id": 8356,
+		"filter": "",
+		"id": 8356
+	},
+	{
+		"title": "Wertschöpfungswachstum nach Branchen",
+		"subtitle": "Jura, Index (2014=100)",
+		"kuerzel": "",
+		"kuerzelKunde": "1.12",
+		"description": "Wertschöpfungswachstum nach Branchen",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8357,
+		"chart-id": 8357,
+		"filter": "",
+		"id": 8357
+	},
+	{
+		"title": "Wertschöpfungswachstum nach Branchen",
+		"subtitle": "BS/BL/JU, Index (2014=100)",
+		"kuerzel": "",
+		"kuerzelKunde": "1.13",
+		"description": "Wertschöpfungswachstum nach Branchen",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8358,
+		"chart-id": 8358,
+		"filter": "",
+		"id": 8358
+	},
+	{
+		"title": "Wertschöpfungswachstum nach Branchen",
+		"subtitle": "Schweiz, Index (2014=100)",
+		"kuerzel": "",
+		"kuerzelKunde": "1.14",
+		"description": "Wertschöpfungswachstum nach Branchen",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8359,
+		"chart-id": 8359,
+		"filter": "",
+		"id": 8359
+	},
+	{
 		"title": "Grenzgänger",
 		"subtitle": "Indexiert, 1. Quartal 2014 = 100",
 		"kuerzel": "",

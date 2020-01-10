@@ -9,7 +9,7 @@
         }
   },
   "yAxis": {
-    tickInterval: 20,
+    tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}%",
     }
@@ -51,6 +51,9 @@
   "tooltip": {
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   },
+  "data":{
+    "switchRowsAndColumns": true
+},
   "chart": {
   	type: "column",
     "inverted": false,

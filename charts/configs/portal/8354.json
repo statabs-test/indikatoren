@@ -5,24 +5,24 @@
       "index": 14,
       "data": [
         [
-          "BS",
-          58
+          "Basel-Stadt",
+          0
         ],
         [
-          "BL",
-          3202
+          "Basel-Landschaft",
+          0.0047
         ],
         [
-          "JU",
-          3059
+          "Jura",
+          0.0195
         ],
         [
           "BS\u002FBL\u002FJU",
-          6319
+          0.0028
         ],
         [
-          "CH",
-          162905
+          "Schweiz",
+          0.0067
         ]
       ],
       "name": "Primärer Sektor",
@@ -33,24 +33,24 @@
       "index": 13,
       "data": [
         [
-          "BS",
-          19615
+          "Basel-Stadt",
+          0.4383
         ],
         [
-          "BL",
-          5318
+          "Basel-Landschaft",
+          0.1225
         ],
         [
-          "JU",
-          90
+          "Jura",
+          0
         ],
         [
           "BS\u002FBL\u002FJU",
-          25023
+          0.3135
         ],
         [
-          "CH",
-          74672
+          "Schweiz",
+          0.0651
         ]
       ],
       "name": "Chemie, Pharma",
@@ -61,24 +61,24 @@
       "index": 12,
       "data": [
         [
-          "BS",
-          1470
+          "Basel-Stadt",
+          0.0056
         ],
         [
-          "BL",
-          11644
+          "Basel-Landschaft",
+          0.0884
         ],
         [
-          "JU",
-          10072
+          "Jura",
+          0.3256
         ],
         [
           "BS\u002FBL\u002FJU",
-          23186
+          0.052
         ],
         [
-          "CH",
-          327264
+          "Schweiz",
+          0.0765
         ]
       ],
       "name": "Investitionsgüter",
@@ -89,27 +89,27 @@
       "index": 11,
       "data": [
         [
-          "BS",
-          8080
+          "Basel-Stadt",
+          0.0333
         ],
         [
-          "BL",
-          12237
+          "Basel-Landschaft",
+          0.0625
         ],
         [
-          "JU",
-          2607
+          "Jura",
+          0.0798
         ],
         [
           "BS\u002FBL\u002FJU",
-          22924
+          0.0453
         ],
         [
-          "CH",
-          357096
+          "Schweiz",
+          0.0633
         ]
       ],
-      "name": "Baugewerbe",
+      "name": "Sonst. 2. Sektor",
       "turboThreshold": 0
     },
     {
@@ -117,27 +117,27 @@
       "index": 10,
       "data": [
         [
-          "BS",
-          7280
+          "Basel-Stadt",
+          0.0173
         ],
         [
-          "BL",
-          9982
+          "Basel-Landschaft",
+          0.0661
         ],
         [
-          "JU",
-          2753
+          "Jura",
+          0.055
         ],
         [
           "BS\u002FBL\u002FJU",
-          20015
+          0.0346
         ],
         [
-          "CH",
-          319672
+          "Schweiz",
+          0.0529
         ]
       ],
-      "name": "Sonstige Industrie",
+      "name": "Baugewerbe",
       "turboThreshold": 0
     },
     {
@@ -145,27 +145,27 @@
       "index": 9,
       "data": [
         [
-          "BS",
-          15009
+          "Basel-Stadt",
+          0.0621
         ],
         [
-          "BL",
-          20243
+          "Basel-Landschaft",
+          0.1823
         ],
         [
-          "JU",
-          4242
+          "Jura",
+          0.0991
         ],
         [
           "BS\u002FBL\u002FJU",
-          39494
+          0.1008
         ],
         [
-          "CH",
-          625374
+          "Schweiz",
+          0.1428
         ]
       ],
-      "name": "Handel",
+      "name": "Handel, Reparatur",
       "turboThreshold": 0
     },
     {
@@ -173,24 +173,24 @@
       "index": 8,
       "data": [
         [
-          "BS",
-          10979
+          "Basel-Stadt",
+          0.0333
         ],
         [
-          "BL",
-          8195
+          "Basel-Landschaft",
+          0.0481
         ],
         [
-          "JU",
-          1021
+          "Jura",
+          0.0218
         ],
         [
           "BS\u002FBL\u002FJU",
-          20195
+          0.037
         ],
         [
-          "CH",
-          243762
+          "Schweiz",
+          0.0427
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -201,24 +201,24 @@
       "index": 7,
       "data": [
         [
-          "BS",
-          10432
+          "Basel-Stadt",
+          0.0118
         ],
         [
-          "BL",
-          3996
+          "Basel-Landschaft",
+          0.0075
         ],
         [
-          "JU",
-          1491
+          "Jura",
+          0.0106
         ],
         [
           "BS\u002FBL\u002FJU",
-          15919
+          0.0105
         ],
         [
-          "CH",
-          254394
+          "Schweiz",
+          0.0171
         ]
       ],
       "name": "Gastgewerbe",
@@ -229,27 +229,27 @@
       "index": 6,
       "data": [
         [
-          "BS",
-          10705
+          "Basel-Stadt",
+          0.0881
         ],
         [
-          "BL",
-          3588
+          "Basel-Landschaft",
+          0.0327
         ],
         [
-          "JU",
-          1024
+          "Jura",
+          0.0376
         ],
         [
           "BS\u002FBL\u002FJU",
-          15317
+          0.0679
         ],
         [
-          "CH",
-          244711
+          "Schweiz",
+          0.0945
         ]
       ],
-      "name": "Finanzsektor",
+      "name": "Finanz-, Versicherungs-DL",
       "turboThreshold": 0
     },
     {
@@ -257,24 +257,24 @@
       "index": 5,
       "data": [
         [
-          "BS",
-          21586
+          "Basel-Stadt",
+          0.0793
         ],
         [
-          "BL",
-          12715
+          "Basel-Landschaft",
+          0.0942
         ],
         [
-          "JU",
-          1698
+          "Jura",
+          0.0456
         ],
         [
           "BS\u002FBL\u002FJU",
-          35999
+          0.0815
         ],
         [
-          "CH",
-          437223
+          "Schweiz",
+          0.0751
         ]
       ],
       "name": "Freib., wiss., tech. DL",
@@ -285,27 +285,27 @@
       "index": 4,
       "data": [
         [
-          "BS",
-          18976
+          "Basel-Stadt",
+          0.0639
         ],
         [
-          "BL",
-          15764
+          "Basel-Landschaft",
+          0.0935
         ],
         [
-          "JU",
-          3868
+          "Jura",
+          0.1264
         ],
         [
           "BS\u002FBL\u002FJU",
-          38608
+          0.077
         ],
         [
-          "CH",
-          562359
+          "Schweiz",
+          0.1107
         ]
       ],
-      "name": "Öff. Verwaltung, Bildung",
+      "name": "Öffentl. Verwaltung, Bildung",
       "turboThreshold": 0
     },
     {
@@ -313,27 +313,27 @@
       "index": 3,
       "data": [
         [
-          "BS",
-          31449
+          "Basel-Stadt",
+          0.06
         ],
         [
-          "BL",
-          21865
+          "Basel-Landschaft",
+          0.0824
         ],
         [
-          "JU",
-          5946
+          "Jura",
+          0.0855
         ],
         [
           "BS\u002FBL\u002FJU",
-          59260
+          0.0685
         ],
         [
-          "CH",
-          717502
+          "Schweiz",
+          0.0803
         ]
       ],
-      "name": "Gesundheit, Sozialwesen",
+      "name": "Gesundheits-, Sozialwesen",
       "turboThreshold": 0
     },
     {
@@ -341,27 +341,27 @@
       "index": 2,
       "data": [
         [
-          "BS",
-          35327
+          "Basel-Stadt",
+          0.1071
         ],
         [
-          "BL",
-          20430
+          "Basel-Landschaft",
+          0.1149
         ],
         [
-          "JU",
-          5015
+          "Jura",
+          0.0936
         ],
         [
           "BS\u002FBL\u002FJU",
-          60772
+          0.1086
         ],
         [
-          "CH",
-          853236
+          "Schweiz",
+          0.1724
         ]
       ],
-      "name": "Sonstige Dienstleistungen",
+      "name": "Sonstige DL",
       "turboThreshold": 0
     }
   ],
@@ -417,7 +417,7 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-8438",
+    "renderTo": "container-8354",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -440,7 +440,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigte nach Branche"
+    "text": "Wertschöpfung nach Branche"
   },
   "subtitle": {
     "style": {
@@ -449,7 +449,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Anteile an der regionalen Gesamtwertschöpfung",
     "align": "left"
   },
   "yAxis": {
@@ -469,7 +469,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickInterval": 20
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {
@@ -490,7 +490,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "symbolRadius": 0,
@@ -507,6 +507,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8438
+    "filename": 8354
   }
 }
