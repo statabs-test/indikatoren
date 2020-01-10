@@ -31,7 +31,7 @@
             "color": "#000000"
           }
         },
-        "min": 0
+        "min": 0,
       },
       {
         gridLineColor: '#B9CFD7',
@@ -58,7 +58,6 @@
       "verticalAlign": "top",
       //"align": "left",
       alignColumns: true,
-      "itemMarginBottom": 5,
       //itemWidth: 200
       useHTML: true,
       y: -50,

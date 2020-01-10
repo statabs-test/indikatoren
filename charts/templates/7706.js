@@ -58,7 +58,6 @@
       "verticalAlign": "top",
       //"align": "left",
       alignColumns: true,
-      "itemMarginBottom": 5,
       //itemWidth: 200
       useHTML: true,
       y: -50,
