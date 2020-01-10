@@ -167,7 +167,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 613,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -247,8 +247,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 50,
-    "tickInterval": 10
+    "max": 75,
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {

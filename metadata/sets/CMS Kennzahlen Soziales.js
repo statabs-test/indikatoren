@@ -1019,6 +1019,45 @@ var indikatorensetData = [
 		"id": 8317
 	},
 	{
+		"title": "Altersquotient",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.01.1.08320",
+		"kuerzelKunde": "",
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-10-30T16:19:05.055",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 5114,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8320,
+		"chart-id": 8320,
+		"filter": "",
+		"id": 8320
+	},
+	{
 		"title": "Zufriedenheit mit nachbarschaftlichem Austausch",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"kuerzel": "",
