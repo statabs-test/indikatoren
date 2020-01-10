@@ -62,7 +62,7 @@
       //itemWidth: 200
       useHTML: true,
       y: -50,
-      x: -20,
+      x: -25,
       itemMarginBottom: 5,
       align: "right",
       width: 200,
