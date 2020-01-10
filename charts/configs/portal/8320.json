@@ -7118,10 +7118,10 @@
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0% \u003C\u002Fspan\u003E \u003C 25,0%"
       },
       {
-        "from": 0.2,
+        "from": 0.25,
         "to": 0.299,
         "color": "#A8C3CA",
-        "name": "20,0% − 29,9%"
+        "name": "25,0% − 29,9%"
       },
       {
         "from": 0.3,
