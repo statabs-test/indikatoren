@@ -1,54 +1,89 @@
-/*
-global Highcharts
-*/
-
 (function(){
-    return {
-   "yAxis": {
-      "labels": {
-      "format": "{value:,.f}",
-    }
-  },
-  "xAxis": {
-    tickInterval: 1
-  },
-  "legend": {
-    "enabled": true,
-    //"y": 35,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
-    "itemStyle": {
-     "fontWeight": "normal"
-    }
-  },
-  "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },     
-      "color": "#008AC3"
-    }
-  ],
-  "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} m²</b><br/>',
-    "shared": false
-  },
-  "chart": {
-   //"marginBottom": 75,
-    "marginTop": 60,
-    "type": "column"
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": false,
-        "allowOverlap": true,
-          y: 30,
+  return {
+"plotOptions": {
+  "series": {    
+    pointPadding: 0, 
+  //groupPadding: 0.1, 
+  borderWidth: 0,
+    "dataLabels": {
+      "style": {
+        "fontSize": "10px"
       }
     }
+  },
+  "column": {
+      "colorByPoint": true
   }
+},
+"xAxis": {
+"type": "category"    
+},
+"yAxis": [{
+  "labels": {
+    "format": "{value:,.f}",
+    "style": {
+      "color": "#000000"
+    }
+  },
+  "min": 0,
+  "max": undefined,
+  "title": "", 
+},
+{
+  "title": {
+    "style": {
+      "color": "#000000",
+      "fontSize": null
+    },
+    "text": null
+  },
+  "labels": {
+    "format": "{value:,.f}",
+    "style": {
+      "color": "#000000"
+    }
+  },
+  "min": 0,
+  "max": undefined,
+  "gridLineWidth": 0,
+  "opposite": true
+}
+],
+"series": [{
+  index: 1
+},
+{
+  index: 2,
+  yAxis: 1
+}
+],
+"colors": [
+  "#474747" ,
+  "#FF8028",
+  "#FABD24",
+  "#923F8D",
+  "#990300"
+],
+
+"legend": {
+  "enabled": false,
+  "layout": "horizontal",
+  "verticalAlign": "top",
+  "align": "left",
+  //"y": 35,    
+  "itemStyle": {
+    "fontWeight": "normal"
+  }
+},
+"tooltip": {
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Fr.</b><br/>', 
+  "shared": false
+},  
+"chart": {      
+ // "renderTo": 'container-I.17.3.0003',
+  "marginBottom": 75,
+  "marginTop": 65,
+  "type": "column",
+}
 }
 }());

@@ -1,58 +1,29 @@
 {
   "series": [
     {
-      "index": 1,
+      "name": "BIP pro Kopf",
       "data": [
         [
           "Basel-Stadt",
-          34.8921515
+          180414
         ],
         [
           "Basel-Landschaft",
-          20.43389459
+          72025
         ],
         [
           "Jura",
-          4.698334224
+          64734
         ],
         [
           "BS\u002FBL\u002FJU",
-          60.02438032
+          108969
         ],
         [
-          "Schweiz (rechte Skala)",
-          null
+          "Schweiz",
+          80986
         ]
       ],
-      "name": "BIP nominal",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "yAxis": 1,
-      "data": [
-        [
-          "Basel-Stadt",
-          null
-        ],
-        [
-          "Basel-Landschaft",
-          null
-        ],
-        [
-          "Jura",
-          null
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          null
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          689.5
-        ]
-      ],
-      "name": "BIP nominal CH",
       "turboThreshold": 0
     }
   ],
@@ -107,7 +78,7 @@
     "marginBottom": 75,
     "marginTop": 65,
     "type": "column",
-    "renderTo": "container-8350",
+    "renderTo": "container-8351",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -131,7 +102,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttoinlandprodukt"
+    "text": "Bruttoinlandprodukt pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -140,39 +111,27 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "total in Mio. Franken",
+    "text": "in Franken, 2018",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "min": 0,
-      "title": ""
+      "text": null
     },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "gridLineWidth": 0,
-      "opposite": true
+      "format": "{value:,.0f}"
     }
-  ],
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -212,10 +171,10 @@
     "#990300"
   ],
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8350
+    "filename": 8351
   }
 }

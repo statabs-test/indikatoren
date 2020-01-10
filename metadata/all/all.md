@@ -1200,6 +1200,7 @@ id | visible | visibleInPortal | indikatorenset
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
 8350 | true | true | Wirtschaftsbericht BS_BL_JU
+8351 | true | true | Wirtschaftsbericht BS_BL_JU
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
 8353 | true | true | Wirtschaftsbericht BS_BL_JU
 8354 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1208,6 +1209,7 @@ id | visible | visibleInPortal | indikatorenset
 8357 | true | true | Wirtschaftsbericht BS_BL_JU
 8358 | true | true | Wirtschaftsbericht BS_BL_JU
 8359 | true | true | Wirtschaftsbericht BS_BL_JU
+8360 | true | true | Wirtschaftsbericht BS_BL_JU
 8361 | true | true | Wirtschaftsbericht BS_BL_JU
 8362 | true | true | Wirtschaftsbericht BS_BL_JU
 8363 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1217,6 +1219,8 @@ id | visible | visibleInPortal | indikatorenset
 8367 | true | true | Wirtschaftsbericht BS_BL_JU
 8368 | true | true | Wirtschaftsbericht BS_BL_JU
 8369 | true | true | Wirtschaftsbericht BS_BL_JU
+8370 | true | true | Wirtschaftsbericht BS_BL_JU
+8371 | true | true | Wirtschaftsbericht BS_BL_JU
 8372 | true | true | Wirtschaftsbericht BS_BL_JU
 8373 | true | true | Wirtschaftsbericht BS_BL_JU
 8431 | true | true | Wirtschaftsbericht BS_BL_JU

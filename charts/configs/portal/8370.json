@@ -1,58 +1,118 @@
 {
   "series": [
     {
-      "index": 1,
+      "color": "#923F8D",
       "data": [
         [
           "Basel-Stadt",
-          34.8921515
+          22.4
         ],
         [
           "Basel-Landschaft",
-          20.43389459
+          29.4
         ],
         [
           "Jura",
-          4.698334224
+          32.8
         ],
         [
-          "BS\u002FBL\u002FJU",
-          60.02438032
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          null
+          "Schweiz",
+          28.2
         ]
       ],
-      "name": "BIP nominal",
+      "name": "2014",
       "turboThreshold": 0
     },
     {
-      "index": 2,
-      "yAxis": 1,
+      "color": "#B375AB",
       "data": [
         [
           "Basel-Stadt",
-          null
+          24.2
         ],
         [
           "Basel-Landschaft",
-          null
+          30.6
         ],
         [
           "Jura",
-          null
+          28
         ],
         [
-          "BS\u002FBL\u002FJU",
-          null
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          689.5
+          "Schweiz",
+          28.6
         ]
       ],
-      "name": "BIP nominal CH",
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "Basel-Stadt",
+          22.7
+        ],
+        [
+          "Basel-Landschaft",
+          29.8
+        ],
+        [
+          "Jura",
+          32.6
+        ],
+        [
+          "Schweiz",
+          28.7
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "data": [
+        [
+          "Basel-Stadt",
+          26.4
+        ],
+        [
+          "Basel-Landschaft",
+          31.7
+        ],
+        [
+          "Jura",
+          32.1
+        ],
+        [
+          "Schweiz",
+          29.5
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "Basel-Stadt",
+          26.1
+        ],
+        [
+          "Basel-Landschaft",
+          31.6
+        ],
+        [
+          "Jura",
+          34.1
+        ],
+        [
+          "Schweiz",
+          29.8
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -104,11 +164,10 @@
             }
           }
     },
+    "renderTo": "container-8370",
     "marginBottom": 75,
-    "marginTop": 65,
     "type": "column",
-    "renderTo": "container-8350",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -118,10 +177,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
-    },
-    "column": {
-      "colorByPoint": true
+      "pointPadding": 0,
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -131,7 +188,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttoinlandprodukt"
+    "text": "Exporte\u002FImporte"
   },
   "subtitle": {
     "style": {
@@ -140,39 +197,27 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "total in Mio. Franken",
+    "text": "Anteil am BIP",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "min": 0,
-      "title": ""
+      "text": null
     },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "gridLineWidth": 0,
-      "opposite": true
+      "format": "{value:,.0f}%"
     }
-  ],
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -190,32 +235,25 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
   },
-  "colors": [
-    "#474747",
-    "#FF8028",
-    "#FABD24",
-    "#923F8D",
-    "#990300"
-  ],
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8350
+    "filename": 8370
   }
 }

@@ -39,6 +39,45 @@ var indikatorensetData = [
 		"id": 8350
 	},
 	{
+		"title": "Bruttoinlandprodukt pro Kopf",
+		"subtitle": "in Franken, 2018",
+		"kuerzel": "",
+		"kuerzelKunde": "1.2",
+		"description": "Bruttoinlandprodukt pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit über 180 000 Franken pro Kopf weist der Kanton Basel-Stadt das höchste BIP pro Kopf der Schweiz auf. Basel-Landschaft kommt auf 72 000 Franken, Jura auf rund 65 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei ca. 81 000 Franken.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br><br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8351,
+		"chart-id": 8351,
+		"filter": "",
+		"id": 8351
+	},
+	{
 		"title": "Bruttoinlandprodukt",
 		"subtitle": "real; Veränderung",
 		"kuerzel": "",
@@ -349,6 +388,45 @@ var indikatorensetData = [
 		"chart-id": 8359,
 		"filter": "",
 		"id": 8359
+	},
+	{
+		"title": "Erwerbstätige",
+		"subtitle": "",
+		"kuerzel": "I.03.1.08360",
+		"kuerzelKunde": "2.2",
+		"description": "Erwerbstätige",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2017 rund 143 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr fast 98 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt fast 275 000 Personen erwerbstätig.",
+		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8360,
+		"chart-id": 8360,
+		"filter": "",
+		"id": 8360
 	},
 	{
 		"title": "Grenzgänger",
@@ -700,6 +778,82 @@ var indikatorensetData = [
 		"chart-id": 8369,
 		"filter": "",
 		"id": 8369
+	},
+	{
+		"title": "Exporte/Importe",
+		"subtitle": "Anteil am BIP",
+		"kuerzel": "",
+		"kuerzelKunde": "4.1",
+		"description": "Exporte/Importe",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "4. Weiteres",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8370,
+		"chart-id": 8370,
+		"filter": "",
+		"id": 8370
+	},
+	{
+		"title": "Exporte/Importe",
+		"subtitle": "(absolut, indexiert, Veränderung?)",
+		"kuerzel": "",
+		"kuerzelKunde": "4.2",
+		"description": "Exporte/Importe",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
+		"stufe1": "4. Weiteres",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung EZV"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8371,
+		"chart-id": 8371,
+		"filter": "",
+		"id": 8371
 	},
 	{
 		"title": "Logiernächte",
