@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          0
+          9.4594594595
         ],
         [
           2,
-          0.3283473185
+          8.2816490332
         ],
         [
           3,
-          1.1180351906
+          10.630498534
         ],
         [
           4,
-          2.3868825239
+          15.566625156
         ],
         [
           5,
-          1.4077071969
+          9.4492345592
         ],
         [
           6,
-          2.5063163214
+          15.64426478
         ],
         [
           7,
-          1.4161490683
+          9.9378881988
         ],
         [
           8,
-          1.3838199513
+          11.222627737
         ],
         [
           9,
-          1.5217391304
+          12.690217391
         ],
         [
           10,
-          3.1076957848
+          17.900327721
         ],
         [
           11,
-          3.4913841649
+          18.571911251
         ],
         [
           12,
-          1.1329305136
+          12.990936556
         ],
         [
           13,
-          2.2637795276
+          16.633858268
         ],
         [
           14,
-          1.1454356126
+          12.148559528
         ],
         [
           15,
-          3.02135393
+          15.924579736
         ],
         [
           16,
-          3.301152289
+          17.408906883
         ],
         [
           17,
-          2.9825908858
+          19.418842806
         ],
         [
           18,
-          4.8495471808
+          25.007303535
         ],
         [
           19,
-          5.1424050633
+          23.338607595
         ],
         [
           20,
-          1.5864786396
+          9.9647449191
         ],
         [
           30,
-          1.5021459227
+          10.515021459
         ]
       ]
     },
@@ -6658,87 +6658,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0
+          1.8993220024
         ],
         [
           "Vorstädte",
-          -0.036483035
+          -0.766143743
         ],
         [
           "Am Ring",
-          0.4609809836
+          0.7381824176
         ],
         [
           "Breite",
-          0.4903663416
+          -0.986662826
         ],
         [
           "St. Alban",
-          0.5028101068
+          0.1163743747
         ],
         [
           "Gundeldingen",
-          0.3254758513
+          -0.428230739
         ],
         [
           "Bruderholz",
-          0.7491530209
+          1.6869000565
         ],
         [
           "Bachletten",
-          0.2208558839
+          -0.049177839
         ],
         [
           "Gotthelf",
-          0.4894469123
+          0.752684305
         ],
         [
           "Iselin",
-          0.9012340039
+          1.6333008153
         ],
         [
           "St. Johann",
-          0.7784161779
+          0.5469519458
         ],
         [
           "Altstadt Kleinbasel",
-          -0.177786526
+          -0.347536844
         ],
         [
           "Clara",
-          0.5875343168
+          1.0208314478
         ],
         [
           "Wettstein",
-          0.2809819474
+          1.0143963191
         ],
         [
           "Hirzbrunnen",
-          0.9261158348
+          -0.05161074
         ],
         [
           "Rosental",
-          -0.01507353
+          -1.935743729
         ],
         [
           "Matthäus",
-          0.6126270589
+          0.8832309811
         ],
         [
           "Klybeck",
-          0.9923220801
+          2.0366645021
         ],
         [
           "Kleinhüningen",
-          1.3468977047
+          4.0512334664
         ],
         [
           "Riehen",
-          0.5970049554
+          0.6805343928
         ],
         [
           "Bettingen",
-          1.2784322762
+          -1.11808816
         ]
       ],
       "name": "Differenz 2018 zu 2013"
@@ -7015,8 +7015,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 1.0; 
+	                var minValueInLegend = 0.5; 
+	                var maxValueInLegend = 5.0; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -7035,10 +7035,10 @@
 	                /*fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, 314);*/
 					fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(0.1, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, "0,1"/*Highcharts.numberFormat((minValueInLegend),0,","," ")*/, 382, 314);
+	                fn.addLegendLabel(chart, "0,5"/*Highcharts.numberFormat((minValueInLegend),0,","," ")*/, 382, 314);
 	                fn.addLegendCircle(chart, 367, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 					//fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, 335);
-	                fn.addLegendLabel(chart, "1,0", 382, 335);
+	                fn.addLegendLabel(chart, "5,0", 382, 335);
 					
 
 					//var shiftDown = 12;
@@ -7054,7 +7054,7 @@
 					fn.AddPieLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-8338"
+    "renderTo": "container-8335"
   },
   "title": {
     "style": {
@@ -7064,7 +7064,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit FAMI"
+    "text": "Anteil Haushalte mit Prämienverbilligung"
   },
   "subtitle": {
     "style": {
@@ -7110,32 +7110,32 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 0.99,
+        "to": 9.999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,00\u003C\u002Fspan\u003E \u003C 1,00"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,00\u003C\u002Fspan\u003E \u003C 10,0"
       },
       {
-        "from": 1,
-        "to": 1.49,
+        "from": 10,
+        "to": 11.9,
         "color": "#A8C3CA",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E1,00 − 1,49"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E10,0 − 11,9"
       },
       {
-        "from": 1.5,
-        "to": 2.49,
+        "from": 12,
+        "to": 14.9,
         "color": "#689199",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E1,50 − 2,49"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E12,0 − 14,9"
       },
       {
-        "from": 2.5,
-        "to": 3.19,
+        "from": 15,
+        "to": 17.9,
         "color": "#246370",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E2,50 − 3,19"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E15,0 − 17,9"
       },
       {
-        "from": 3.2,
+        "from": 18,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,00\u003C\u002Fspan\u003E ≥ 3,20"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,00\u003C\u002Fspan\u003E ≥ 18,0"
       }
     ]
   },
@@ -7211,7 +7211,7 @@
 			            }
       }
     },
-    "filename": 8338
+    "filename": 8335
   },
   "customFunctions": {
     "hideOnZoom": function(e, selector){

@@ -1,0 +1,177 @@
+/*  
+	global Highcharts
+	global geojson_wohnviertelEPSG2056 
+	global $
+*/
+(function(){
+
+    return {
+		"legend": {
+    		useHTML: false,
+			"title": {
+				"text": null, 
+				style: {'fontWeight':' bold'}
+			},
+			"layout": "vertical",
+			//"verticalAlign": "middle",
+			"align": "right",
+			"x": -127,
+			"y": -15,
+			itemMarginBottom: 2, 
+			symbolRadius: 0,
+			itemStyle: {
+				fontWeight: 'normal'
+				}
+		},
+         colorAxis: {
+            dataClassColor: 'category',
+        	dataClasses: [{
+               	from: 0,
+                to: 9.999,
+                color: '#D3E2E4',
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> < 10,0"
+            }, {
+                from: 10.0,
+                to: 11.99,
+                color: '#A8C3CA',
+                name: "<span style='color: rgba(0,0,0,0)'></span>10,0 − 11,9"
+            }, {
+                from: 12.0,
+                to: 14.99,
+                 color: '#689199',
+                 name: "<span style='color: rgba(0,0,0,0)'></span>12,0 − 14,9"
+            },{
+                from: 15.0,
+                to: 17.99,
+                 color: '#246370',
+                 name: "<span style='color: rgba(0,0,0,0)'></span>15,0 − 17,9"
+            },{
+                from: 18.0,
+                color: '#083038',
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> ≥ 18,0"
+            }], 
+        },
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 2
+		      },
+		      {
+		      	//2nd series: use y values from column 3
+		      	y: 3
+		      }
+		    ]
+        },
+		"series": [
+			{
+				"name": "Wohnviertel", 
+				"animation": true,
+				"mapData": geojson_wohnviertelEPSG2056,
+				"borderColor": "#fbfbfb",		
+				"joinBy": ['TXT', 'Wohnviertel_Id'],
+				"keys": ['Wohnviertel_Id', 'value'],
+				"states": {
+					"hover": {
+						"enabled": false,
+						"borderColor": '#BADA55',
+						"brightness": 0
+					}
+				}, 
+				tooltip: {
+					pointFormatter: function(){
+						//console.log(this);
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '%</b><br/>';
+					}
+				}
+			}, 
+			{
+				"visible": false
+			}
+		],
+		chart: {
+			events: {
+	            load: function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+					fn.defineTemplate();
+					
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
+					
+					//pie diameters in px
+					var maxPieDiameter = 20;
+
+					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					
+					//define different colors for positive and negative values
+	                var color = function(value){
+	                	return (value >= 0) ? '#007A2F' : '#990300';
+	                };					
+					
+					//define chart-specific details
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+						return {
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                            pointFormatter: function () {
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
+	                            }
+	                        }
+	                    };
+					};
+					 var pieSizeCatConfig;
+					//put the pies / bubbles on the map
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
+	                
+					//pie values in legend
+	                var minValueInLegend = 0.5; 
+	                var maxValueInLegend = 5.0; 
+	                
+                	//Add manually drawn legend	
+					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
+
+					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
+					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
+					
+					fn.addLegendTitle(chart, "2018 (%)", 245+10, 210+20);
+					
+					fn.addLegendTitle(chart, "Differenz 2018 <br/> zu 2013", 355+5, 210+20);
+					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
+					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', 382, 289)
+
+	                /*fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, 314);*/
+					fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(0.1, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, "0,5"/*Highcharts.numberFormat((minValueInLegend),0,","," ")*/, 382, 314);
+	                fn.addLegendCircle(chart, 367, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					//fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, 335);
+	                fn.addLegendLabel(chart, "5,0", 382, 335);
+					
+
+					//var shiftDown = 12;
+
+		        	//fn.addLegendCircle(chart, 373, 266+shiftDown, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
+	                //fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255+shiftDown, undefined, false, 'right');
+	                //fn.addLegendCircle(chart, 373, 285+shiftDown, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
+	                //fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 275+shiftDown, undefined, false, 'right');
+	                //fn.addLegendCircle(chart, 373, 310+shiftDown, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
+					//fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 300+shiftDown, undefined, false, 'right');
+					
+					//make sure pies are hidden upon click onto pie legend
+					fn.AddPieLegendClickHandler(chart);
+	            }
+			}
+		}
+	};
+}());
+

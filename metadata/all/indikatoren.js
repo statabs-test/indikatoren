@@ -42809,6 +42809,46 @@ var indikatoren = [
 		"id": 8334
 	},
 	{
+		"title": "Anteil Haushalte mit Prämienverbilligung",
+		"subtitle": "nach Wohnviertel, 2018",
+		"kuerzel": "I.13.2.08335",
+		"kuerzelKunde": "",
+		"description": "Anteil Haushalte mit Prämienverbilligung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-09-27T11:29:03.033",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt liegt Ende 2018 der Anteil der Haushalte mit reiner PV an allen Haushalten bei 15,0%. Das Wohnviertel Klybeck weist mit 25,0% die höchste, das Wohnviertel Vorstädte mit 8,3% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2013 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum um 1,9 Prozentpunkte gesunken.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6204,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=13_pv.pv_quote_f' target = '_blank'>Basler Atlas</a>"
+		],
+		"data-id": 8335,
+		"chart-id": 8335,
+		"filter": "",
+		"id": 8335
+	},
+	{
 		"title": "Anteil Haushalte mit FAMI",
 		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "I.13.2.08338",
