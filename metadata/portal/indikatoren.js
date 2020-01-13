@@ -27937,7 +27937,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Ende 2018 beziehen 2 263 Haushalte Familienmietzinsbeiträge. Bei 63% der unterstützten Familienhandelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 5% sind Konkubinatspaare mit Kindern.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
