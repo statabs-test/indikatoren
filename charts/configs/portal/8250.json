@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#6F6F6F",
+      "color": "#E7CEE2",
       "index": 1,
       "data": [
         [
@@ -48,7 +48,7 @@
       "name": "EL zur IV"
     },
     {
-      "color": "#007a2f",
+      "color": "#FFDA80",
       "index": 2,
       "data": [
         [
@@ -95,7 +95,7 @@
       "name": "Beihilfen zur IV"
     },
     {
-      "color": "#FABD24",
+      "color": "#923F8D",
       "index": 3,
       "data": [
         [
@@ -142,7 +142,7 @@
       "name": "EL zur AHV"
     },
     {
-      "color": "#b00000",
+      "color": "#CD9C00",
       "index": 4,
       "data": [
         [
