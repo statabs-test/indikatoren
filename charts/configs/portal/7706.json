@@ -7,47 +7,6 @@
       "data": [
         [
           2010,
-          187.2
-        ],
-        [
-          2011,
-          190.2
-        ],
-        [
-          2012,
-          198.8
-        ],
-        [
-          2013,
-          189
-        ],
-        [
-          2014,
-          182
-        ],
-        [
-          2015,
-          191.2
-        ],
-        [
-          2016,
-          180.7
-        ],
-        [
-          2017,
-          188
-        ]
-      ],
-      "name": "Motorisierungsgrad Messe"
-    },
-    {
-      "color": "#7f5f1a",
-      "index": 2,
-      "type": "line",
-      "yAxis": 1,
-      "data": [
-        [
-          2010,
           0.42
         ],
         [
@@ -82,50 +41,50 @@
       "name": "PW pro Haushalt Messe"
     },
     {
-      "color": "#b375ab",
-      "index": 1,
-      "type": "column",
+      "color": "#7f5f1a",
+      "index": 2,
+      "type": "line",
+      "yAxis": 1,
       "data": [
         [
           2010,
-          249
+          187.2
         ],
         [
           2011,
-          220.6
+          190.2
         ],
         [
           2012,
-          233.6
+          198.8
         ],
         [
           2013,
-          235.2
+          189
         ],
         [
           2014,
-          352
+          182
         ],
         [
           2015,
-          247.4
+          191.2
         ],
         [
           2016,
-          217.1
+          180.7
         ],
         [
           2017,
-          223.2
+          188
         ]
       ],
-      "name": "Motorisierungsgrad Erlenmatt"
+      "name": "Motorisierungsgrad Messe"
     },
     {
-      "color": "#923f8d",
-      "index": 3,
-      "type": "line",
-      "yAxis": 1,
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
       "data": [
         [
           2010,
@@ -161,6 +120,47 @@
         ]
       ],
       "name": "PW pro Haushalt Erlenmatt"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2010,
+          249
+        ],
+        [
+          2011,
+          220.6
+        ],
+        [
+          2012,
+          233.6
+        ],
+        [
+          2013,
+          235.2
+        ],
+        [
+          2014,
+          352
+        ],
+        [
+          2015,
+          247.4
+        ],
+        [
+          2016,
+          217.1
+        ],
+        [
+          2017,
+          223.2
+        ]
+      ],
+      "name": "Motorisierungsgrad Erlenmatt"
     }
   ],
   "chart": {
@@ -273,10 +273,10 @@
       "fontWeight": "normal"
     },
     "alignColumns": true,
-    "itemMarginBottom": 5,
     "useHTML": true,
     "y": -50,
     "x": -20,
+    "itemMarginBottom": 5,
     "width": 200,
     "itemWidth": 80,
     "labelFormatter": function () {

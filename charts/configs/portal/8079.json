@@ -1,174 +1,163 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
-      "index": 0,
-      "type": "column",
+      "color": "#67401E",
       "data": [
         [
-          2010,
-          0.52
+          2011,
+          2.5641025641
         ],
         [
           2011,
-          0.5
+          2.3946912868
         ],
         [
           2012,
-          0.5
+          3.3255993813
+        ],
+        [
+          2012,
+          3.2454361055
         ],
         [
           2013,
-          0.49
+          3.7955073586
+        ],
+        [
+          2013,
+          3.8572251007
         ],
         [
           2014,
-          0.47
+          4.0593286495
+        ],
+        [
+          2014,
+          4.1162924583
         ],
         [
           2015,
-          0.48
+          4.5383411581
+        ],
+        [
+          2015,
+          4.4340723454
         ],
         [
           2016,
-          0.46
+          5.2466718872
+        ],
+        [
+          2016,
+          4.8277892258
         ],
         [
           2017,
-          0.46
+          5.0314465409
+        ],
+        [
+          2017,
+          4.6865846514
+        ],
+        [
+          2018,
+          5.1424050633
+        ],
+        [
+          2018,
+          4.8495471808
         ]
       ],
-      "name": "PW pro Haushalt Klybeck"
+      "name": "Familienmietzinsbeiträge"
     },
     {
-      "color": "#7f5f1a",
-      "index": 2,
-      "type": "line",
-      "yAxis": 1,
+      "color": "#C4AB91",
+      "visible": true,
       "data": [
         [
-          2010,
-          234.8
+          2011,
+          20.016542597
         ],
         [
           2011,
-          237
+          22.013848817
         ],
         [
           2012,
-          236.5
-        ],
-        [
-          2013,
-          234.9
-        ],
-        [
-          2014,
-          226.7
-        ],
-        [
-          2015,
-          226.4
-        ],
-        [
-          2016,
-          221.3
-        ],
-        [
-          2017,
-          219.8
-        ]
-      ],
-      "name": "Motorisierungsgrad Klybeck"
-    },
-    {
-      "color": "#b375ab",
-      "index": 1,
-      "type": "column",
-      "data": [
-        [
-          2010,
-          0.6
-        ],
-        [
-          2011,
-          0.59
+          19.180201083
         ],
         [
           2012,
-          0.57
+          22.631121414
         ],
         [
           2013,
-          0.56
-        ],
-        [
-          2014,
-          0.54
-        ],
-        [
-          2015,
-          0.59
-        ],
-        [
-          2016,
-          0.54
-        ],
-        [
-          2017,
-          0.57
-        ]
-      ],
-      "name": "PW pro Haushalt Kleinhüningen"
-    },
-    {
-      "color": "#923f8d",
-      "index": 3,
-      "type": "line",
-      "yAxis": 1,
-      "data": [
-        [
-          2010,
-          254.1
-        ],
-        [
-          2011,
-          267.8
-        ],
-        [
-          2012,
-          255.5
+          19.287374129
         ],
         [
           2013,
-          252.6
+          22.970639033
         ],
         [
           2014,
-          244.5
+          19.906323185
+        ],
+        [
+          2014,
+          23.488773748
         ],
         [
           2015,
-          262.7
+          20.970266041
+        ],
+        [
+          2015,
+          23.016336056
         ],
         [
           2016,
-          240.7
+          22.474549726
+        ],
+        [
+          2016,
+          23.932881955
         ],
         [
           2017,
-          256.3
+          23.270440252
+        ],
+        [
+          2017,
+          23.491505565
+        ],
+        [
+          2018,
+          23.338607595
+        ],
+        [
+          2018,
+          25.007303535
         ]
       ],
-      "name": "Motorisierungsgrad Kleinhüningen"
+      "name": "Prämienverbilligungen"
     }
   ],
   "chart": {
     "events": {
-      "load": function () {
-          //move legend title
-          var title = this.legend.title.translate(-203, 46);
-        }
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -180,7 +169,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-8087"
+    "renderTo": "container-8079"
   },
   "title": {
     "style": {
@@ -189,7 +178,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Personenwagen pro Haushalt, Motorisierungsgrad"
+    "text": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung"
   },
   "subtitle": {
     "style": {
@@ -199,42 +188,30 @@
       "color": "#000000"
     },
     "text": "Wohnviertel Klybeck und Kleinhüningen",
-    "align": "left",
-    "useHTML": true
+    "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "enabled": false
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "useHTML": true,
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0
+      "text": null
     },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "enabled": false
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "opposite": true
+      "format": "{value:,.0f}%"
     }
-  ],
+  },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
@@ -261,43 +238,31 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonspolizei Basel-Stadt, Motorfahrzeugkontrolle.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "alignColumns": true,
-    "useHTML": true,
-    "y": -50,
-    "x": -25,
-    "itemMarginBottom": 5,
-    "width": 200,
-    "itemWidth": 80,
-    "labelFormatter": function () {
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
-        //return this.name.slice(-4); //return last 4 letters
-        return this.name.split(" ").slice(-1); //return only last word of legend-title
-      },
-    "title": {
-      "text": "Personenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",
-      "style": {
-        "fontWeight": "normal",
-        "lineHeight": 1.7
-      }
-    }
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      },
-      "borderWidth": 0
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -336,6 +301,6 @@
     }
   },
   "exporting": {
-    "filename": 8087
+    "filename": 8079
   }
 }

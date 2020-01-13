@@ -4,63 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Rosental",
-          "y": 18,
-          "Wert": 0.1051587302
+          "Wohnviertel": "Klybeck",
+          "y": 21,
+          "Wert": 0.1373920197
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Rosental",
-          "y": 21,
-          "Wert": 0.5573870574
+          "Wohnviertel": "Klybeck",
+          "y": 20,
+          "Wert": 0.5220074044
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Rosental",
-          "y": 3,
-          "Wert": 0.4252136752
+          "Wohnviertel": "Klybeck",
+          "y": 2,
+          "Wert": 0.4179350062
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Klybeck",
+          "y": 8,
+          "Wert": 0.2196580008
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 0.1640625
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Rosental",
-          "y": 1,
-          "Wert": 0.1183767872
+          "Wohnviertel": "Klybeck",
+          "y": 3,
+          "Wert": 0.2086920869
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Rosental",
-          "y": 1,
-          "Wert": 0.208028083
+          "Wohnviertel": "Klybeck",
+          "y": 12,
+          "Wert": 0.3448512272
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Rosental",
-          "y": 13,
-          "Wert": 0.2592514718
+          "Wohnviertel": "Klybeck",
+          "y": 14,
+          "Wert": 0.2863878639
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Rosental",
-          "y": 19,
-          "Wert": 1948.6174497
+          "Wohnviertel": "Klybeck",
+          "y": 12,
+          "Wert": 1937.3478261
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Rosental",
+          "Wohnviertel": "Klybeck",
+          "y": 5,
+          "Wert": 0.0709382151
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.0704697987
+          "Wert": 0.1199746955
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Rosental",
-          "y": 5,
-          "Wert": 69.282678311
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 65.501328374
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 31.766005032
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 182.96207936
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 4335.4490206
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Rosental",
-          "y": 7,
-          "Wert": 0.7069895936
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 0.6147351268
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Klybeck",
+          "y": 10,
+          "Wert": 0.4792851255
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Klybeck",
+          "y": 21,
+          "Wert": 0.0719648949
         }
       ],
       "name": "Wert",
