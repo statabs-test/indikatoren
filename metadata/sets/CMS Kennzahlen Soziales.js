@@ -1799,5 +1799,44 @@ var indikatorensetData = [
 		"chart-id": 8339,
 		"filter": "",
 		"id": 8339
+	},
+	{
+		"title": "Haushalte mit reinen Familienmietzinsbeiträgen nach Haushaltstyp",
+		"subtitle": "",
+		"kuerzel": "I.13.2.08340",
+		"kuerzelKunde": "",
+		"description": "Haushalte mit reinen Familienmietzinsbeiträgen nach Haushaltstyp",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2018 beziehen 2 263 Haushalte Familienmietzinsbeiträge. Bei 63% der unterstützten Familienhandelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 5% sind Konkubinatspaare mit Kindern.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8340,
+		"chart-id": 8340,
+		"filter": "",
+		"id": 8340
 	}
 ];
