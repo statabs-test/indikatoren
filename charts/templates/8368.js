@@ -2,9 +2,9 @@
   return {
     chart: {
       type: "column",
-      animation: false,
+      //animation: false,
       inverted: false,
-      events: {
+      /*events: {
         load: function (event) {
           if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
             this.update(
@@ -20,13 +20,13 @@
         redraw: function (event) {
           justifyColumns(event.target);
         }
-      }
+      }*/
     },
     plotOptions: {
       series: {
         pointPadding: 0,
         borderWidth: 0,
-        pointWidth: 14
+        //pointWidth: 14
       }
     },
     yAxis: {
