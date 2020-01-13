@@ -15,10 +15,19 @@
       "colorByPoint": true
   }
 },
-"xAxis": {
+"xAxis": { 
 "type": "category" ,
-labels: {
-rotation: 0,
+labels: { 
+  style: {
+    whiteSpace: "nowrap"
+  },
+  x: -12,
+  rotation: 0,
+  "formatter": function() {
+  return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte Skala)")
+  .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte Skala)")
+  .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+}
 }   
 },
 "yAxis": [{
@@ -82,11 +91,9 @@ rotation: 0,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Fr.</b><br/>', 
   "shared": false
 },  
-"chart": {      
- // "renderTo": 'container-I.17.3.0003',
-  "marginBottom": 80,
-  "marginTop": 65,
-  "type": "column"
+"chart": { 
+  margin: [60, 60, 80, 60] , 
+  "type": "column",
 }
 }
 }());
