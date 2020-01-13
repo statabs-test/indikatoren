@@ -10795,7 +10795,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Übergewichtige Kinder",
-		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
+		"subtitle": "in der 11. Stufe, nach Heimat und Geschlecht, Basel-Stadt",
 		"kuerzel": "I.14.1.5182",
 		"kuerzelKunde": "GW5",
 		"description": "Übergewichtige Kinder",
@@ -10812,7 +10812,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Schuljahr 2016/2017 waren 23% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
-		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10828,7 +10828,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 5182,
+		"data-id": 8451,
 		"chart-id": 5182,
 		"filter": "",
 		"id": 5182
@@ -45639,6 +45639,46 @@ var indikatoren = [
 		"chart-id": 8451,
 		"filter": "",
 		"id": 8451
+	},
+	{
+		"title": "Zufriedenheit mit dem Kulturangebot",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
+		"kuerzel": "I.50.1.08453",
+		"kuerzelKunde": "GW15",
+		"description": "Zufriedenheit mit dem Kulturangebot",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Kultur",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit dem Kulturangebot in Basel-Stadt sind 89,9% sehr oder eher zufrieden. Die Einschätzung des Kulturangebots unterscheidet sich nach Staatsangehörigkeit. 91,2% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Kulturangebot, bei den Schweizerinnen und Schweizern sind 89,7% sehr oder eher zufrieden.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": 6499,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8453,
+		"chart-id": 8453,
+		"filter": "",
+		"id": 8453
 	},
 	{
 		"title": "Test Daten",
