@@ -40,7 +40,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «das Geld reicht»",
+		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «Das Geld reicht»",
 		"kuerzel": "I.50.2.08243",
 		"kuerzelKunde": "",
 		"description": "Finanzielle Lage",
@@ -134,7 +134,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast drei Viertel aller befragten Familien geben 2017 an Kinderzulagen zu erhalten. Die weiteren Leistungen werden von deutlich weniger Familien in Anspruch genommen. 25,6% bekommen eine Familien- bzw. Haushaltszulage, 21,4% erhalten Prämienverbilligungen. Etwa 10% der befragten Familien erhalten Tagesbetreuungsbeiträge, Alimente für Kinder und Mietzinsbeiträge.",
+		"lesehilfe": "Fast drei Viertel aller befragten Familien geben 2017 an, Kinderzulagen zu erhalten. Die weiteren Leistungen werden von deutlich weniger Familien in Anspruch genommen. 25,6% bekommen eine Familien- bzw. Haushaltszulage, 21,4% erhalten Prämienverbilligungen. Etwa 10% der befragten Familien erhalten Tagesbetreuungsbeiträge, Alimente für Kinder und Mietzinsbeiträge.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
