@@ -41562,6 +41562,46 @@ var indikatoren = [
 		"id": 8260
 	},
 	{
+		"title": "«Durch die IG Wohnen vermittelte Wohnungen nach Wohnviertel»",
+		"subtitle": "nach Wohnviertel, 2018",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "«Durch die IG Wohnen vermittelte Wohnungen nach Wohnviertel»",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.5 Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2018 hat die IG-Wohnen 105 Wohnungen im Kantonsgebiet vermittelt. Mit 16 vermittelten Wohnungen konnten im Gundeli am meisten Wohnungen gefunden werden.",
+		"erlaeuterungen": "Anzahl Wohnungen, welche durch den Verein IG Wohnen in Basel-Stadt vermittelt wurden.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Verein IG Wohnen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8266,
+		"chart-id": 8266,
+		"filter": "",
+		"id": 8266
+	},
+	{
 		"title": "Zufriedenheit mit Mietzinz",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?»",
 		"kuerzel": "",
