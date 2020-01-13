@@ -5,7 +5,15 @@
       "data": [
         [
           2015,
+          null
+        ],
+        [
+          2016,
           56
+        ],
+        [
+          2017,
+          null
         ]
       ],
       "name": "Brutvogel-Index"
@@ -83,7 +91,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stadt Basel",
     "align": "left"
   },
   "xAxis": {
@@ -140,7 +148,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-3"
   },
   "legend": {
     "symbolRadius": 0,

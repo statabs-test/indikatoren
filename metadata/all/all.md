@@ -192,7 +192,7 @@ id | visible | visibleInPortal | indikatorenset
 4348 | false |  | Cercle-Indicateurs
 4350 | false |  | Cercle-Indicateurs
 4352 | false |  | Cercle-Indicateurs
-4355 | false |  | Cercle-Indicateurs
+4355 | true | true | Nachhaltigkeit
 4356 | false |  | Cercle-Indicateurs
 4359 | false |  | Cercle-Indicateurs
 4360 | true | true | 
@@ -1206,6 +1206,8 @@ id | visible | visibleInPortal | indikatorenset
 8451 | true | true | 
 8453 | true | true | Nachhaltigkeit
 8454 | true | false | Nachhaltigkeit
+8455 | true | false | Nachhaltigkeit
+8456 | true | false | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
