@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#cd9c00",
-      "index": 0,
+      "index": 1,
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -85,7 +85,7 @@
     },
     {
       "color": "#b375ab",
-      "index": 1,
+      "index": 0,
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -168,7 +168,7 @@
     },
     {
       "color": "#7f5f1a",
-      "index": 2,
+      "index": 3,
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -251,7 +251,7 @@
     },
     {
       "color": "#923f8d",
-      "index": 3,
+      "index": 2,
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -4,18 +4,28 @@
       "type": "column"
     },
     "plotOptions": {
-      "series": {
+      column: {
+        groupPadding: 0.04,
+        pointPadding: 0.03,
         "stacking": "normal"
       }
     },
     "yAxis": {
       tickInterval: 500,
-      max: 5000,
+      max: 4000,
       reversedStacks: false
     },
     "xAxis": {
       tickInterval: 1,
-      "type": "category"
+      "type": "category",
+      labels: {
+        step: 1,
+        rotation: -45,
+        "align": "right",
+        formatter: function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+      }
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.1f}%)<br/>',
@@ -47,3 +57,4 @@
     ]
   };
 }());
+
