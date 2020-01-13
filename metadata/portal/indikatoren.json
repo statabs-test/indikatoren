@@ -29380,7 +29380,7 @@
 		"stufe5": "",
 		"lesehilfe": "Die meisten Grengänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2019 beträgt rund 33 800. In Basel-Landschaft sind es 22 100, im Jura 8 500 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 325 300.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "template001",
+		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -30449,5 +30449,87 @@
 		"chart-id": 8445,
 		"filter": "",
 		"id": 8445
+	},
+	{
+		"title": "Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "wird noch erstellt…",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8446,
+		"chart-id": 8446,
+		"filter": "",
+		"id": 8446
+	},
+	{
+		"title": "Nettoerwerbstätigenquote der Frauen",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Nettoerwerbstätigenquote der Frauen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "wird noch erstellt…",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8447,
+		"chart-id": 8447,
+		"filter": "",
+		"id": 8447
 	}
 ]

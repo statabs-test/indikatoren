@@ -1238,6 +1238,8 @@ id | visible | visibleInPortal | indikatorenset
 8443 | true | true | Wirtschaftsbericht BS_BL_JU
 8444 | true | true | Wirtschaftsbericht BS_BL_JU
 8445 | true | true | Wirtschaftsbericht BS_BL_JU
+8446 | true | true | Wirtschaftsbericht BS_BL_JU
+8447 | true | true | Wirtschaftsbericht BS_BL_JU
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

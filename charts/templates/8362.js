@@ -1,114 +1,92 @@
-(function () {
+(function(){
   return {
-    plotOptions: {
-      series: {
-        pointPadding: 0.1,
-        borderWidth: 0,
-        "pointWidth": 40,
-      }
-    },
-    "xAxis": {
-      "type": "category",
-      "labels": {
-        "rotation": -30
-      }
-    },
-    "yAxis": [{
-      gridLineColor: '#B9CFD7',
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        /*"formatter": function () {
-          return this.value.split(' ').slice(0, 2).join(' <br>')
-        },*/
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      opposite: false,
-      tickAmount: 5,
-    },
-    {
-      gridLineColor: '#B9CFD7',
-      gridLineWidth: 0.5,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "formatter": function () {
-          return Highcharts.numberFormat(this.value, 0);
-        },
-
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      tickAmount: 5,
-      "opposite": true
-    }
-    ],
-    "series": [
-      {
-        "color": "rgb(180,117,171)",
-        "yAxis": 0,
-        "tooltip": {
-          "shared": false,
-          "pointFormatter":
-            function () {
-              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>'
-            }
-        },
-
-      },
-      {
-        "color": "rgb(180,117,171)",
-        "type": "column",
-        "yAxis": 1,
-        "tooltip": {
-          "shared": false,
-          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
-        },
-      }
-    ],
-    "legend": {
-      "enabled": false
-    },
-    tooltip: {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-      "shared": false
-    },
-    "chart": {
-      "type": "column",
-      "inverted": false,
-      "spacingBottom": 70,
-      events: {
-        load: function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            )
-          };
-          justifyColumns(event.target);
-        },
-        redraw: function (event) {
-          justifyColumns(event.target);
-        }
+"plotOptions": {
+  "series": {    
+    pointPadding: 0, 
+  //groupPadding: 0.1, 
+  borderWidth: 0,
+    "dataLabels": {
+      "style": {
+        "fontSize": "10px"
       }
     }
+  },
+  "column": {
+      "colorByPoint": true
   }
+},
+"xAxis": {
+"type": "category" ,
+labels: {
+rotation: 0,
+}   
+},
+"yAxis": [{
+  "labels": {
+    "format": "{value:,.f}",
+    "style": {
+      "color": "#000000"
+    }
+  },
+  "min": 0,
+  "max": undefined,
+  "title": "", 
+},
+{
+  "title": {
+    "style": {
+      "color": "#000000",
+      "fontSize": null
+    },
+    "text": null
+  },
+  "labels": {
+    "format": "{value:,.f}",
+    "style": {
+      "color": "#000000"
+    }
+  },
+  "min": 0,
+  "max": undefined,
+  "gridLineWidth": 0,
+  "opposite": true
+}
+],
+"series": [{
+  index: 1
+},
+{
+  index: 2,
+  yAxis: 1
+}
+],
+"colors": [
+  "#474747" ,
+  "#FF8028",
+  "#FABD24",
+  "#923F8D",
+  "#990300"
+],
+
+"legend": {
+  "enabled": false,
+  "layout": "horizontal",
+  "verticalAlign": "top",
+  "align": "left",
+  //"y": 35,    
+  "itemStyle": {
+    "fontWeight": "normal"
+  }
+},
+"tooltip": {
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Fr.</b><br/>', 
+  "shared": false
+},  
+"chart": {      
+ // "renderTo": 'container-I.17.3.0003',
+  "marginBottom": 80,
+  "marginTop": 65,
+  "type": "column"
+}
+}
 }());
