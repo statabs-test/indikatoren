@@ -45658,14 +45658,14 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit dem Kulturangebot in Basel-Stadt sind 89,9% sehr oder eher zufrieden. Die Einschätzung des Kulturangebots unterscheidet sich nach Staatsangehörigkeit. 91,2% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Kulturangebot, bei den Schweizerinnen und Schweizern sind 89,7% sehr oder eher zufrieden.",
+		"lesehilfe": "Im Jahr 2015 sind 89,9% der Befragten mit dem Kulturangebot in Basel-Stadt sehr oder eher zufrieden. 5,0% sind eher oder sehr unzufrieden, 5,2% haben «Weiss nicht» oder keine Angabe angegeben.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
-		"parentId": 6499,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
@@ -45679,6 +45679,46 @@ var indikatoren = [
 		"chart-id": 8453,
 		"filter": "",
 		"id": 8453
+	},
+	{
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+		"kuerzel": "I.11.6.08454",
+		"kuerzelKunde": "GW20",
+		"description": "Verkehrsleistungsindex",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-10-24T11:27:36.3636",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Infrastruktur",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und  Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_07_00_00_00_000",
+		"parentId": 6154,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6154,
+		"chart-id": 6154,
+		"filter": "",
+		"id": 8454
 	},
 	{
 		"title": "Test Daten",

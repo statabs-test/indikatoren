@@ -1204,7 +1204,8 @@ id | visible | visibleInPortal | indikatorenset
 8379 | true | true | Nachhaltigkeit
 8448 | true | false | Nachhaltigkeit
 8451 | true | true | 
-8453 | true | false | Nachhaltigkeit
+8453 | true | true | Nachhaltigkeit
+8454 | true | false | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
