@@ -27918,6 +27918,46 @@ var indikatoren = [
 		"id": 8334
 	},
 	{
+		"title": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2018 beziehen 14 699 Haushalte reine Prämienverbilligungen. Mit 56% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 20% die zweitgrösste Gruppe.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8337,
+		"chart-id": 8337,
+		"filter": "",
+		"id": 8337
+	},
+	{
 		"title": "Haushalte mit reinen Familienmietzinsbeiträgen nach Haushaltstyp",
 		"subtitle": "",
 		"kuerzel": "I.13.2.08340",

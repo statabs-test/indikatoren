@@ -12,12 +12,12 @@
             legendIndex: 1 
         },
         {
-            color: "#007A2F",
+            color: "#D7E8D2",
             index: 2,
             legendIndex: 2 
-        }/*,
+        },
         {
-            color: "#D7E8D2",
+            color: "#007A2F",
             index: 3,
             legendIndex: 3
         },
@@ -30,7 +30,7 @@
             color: "#B00000",
             index: 5,
             legendIndex: 5 
-        }*/    
+        }
   ],
   xAxis: {
       type: "category"
@@ -46,7 +46,7 @@ plotOptions: {
     }
 },
 yAxis: {
-    tickInterval:500,
+    tickInterval:2000,
     reversedStacks: false,
     labels: {
         format: "{value:,.0f}"
