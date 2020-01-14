@@ -2,7 +2,7 @@
   return {
     chart: {
       type: "column",
-      animation: false,
+      //animation: false,
       inverted: false,
   /*events: {
         load: function (event) {
@@ -26,7 +26,7 @@
       series: {
         pointPadding: 0,
         borderWidth: 0,
-        pointWidth: 14
+        //pointWidth: 14
       }
     },
     yAxis: {

@@ -165,7 +165,6 @@
           }
     },
     "type": "column",
-    "animation": false,
     "inverted": false,
     "renderTo": "container-8369",
     "spacingBottom": 40
@@ -178,8 +177,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 14
+      "pointPadding": 0
     }
   },
   "title": {
