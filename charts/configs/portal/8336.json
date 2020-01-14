@@ -38,6 +38,7 @@
           8102
         ]
       ],
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
@@ -78,11 +79,11 @@
           5397
         ]
       ],
-      "name": "Schweiz",
+      "name": "Ausland",
       "turboThreshold": 0
     },
     {
-      "color": "#D7E8D2",
+      "color": "#007A2F",
       "index": 2,
       "legendIndex": 2,
       "data": [
@@ -119,59 +120,8 @@
           1200
         ]
       ],
-      "name": "Ausland",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2011",
-          null
-        ],
-        [
-          "2012",
-          null
-        ],
-        [
-          "2013",
-          null
-        ],
-        [
-          "2014",
-          null
-        ],
-        [
-          "2015",
-          null
-        ],
-        [
-          "2016",
-          null
-        ],
-        [
-          "2017",
-          null
-        ],
-        [
-          "2018",
-          null
-        ]
-      ],
       "name": "Gemischt",
       "turboThreshold": 0
-    },
-    {
-      "color": "#E7CEE2",
-      "index": 4,
-      "legendIndex": 4
-    },
-    {
-      "color": "#B00000",
-      "index": 5,
-      "legendIndex": 5
     }
   ],
   "xAxis": {
