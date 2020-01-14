@@ -16,7 +16,20 @@
   }
 },
 "xAxis": {
-"type": "category"    
+"type": "category",
+labels: {
+  style: {
+    textOverflow: 'none',
+    whiteSpace: "nowrap"
+  },
+  x: -12,
+  rotation: 0,
+  "formatter": function() {
+  //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
+  return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstan</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstan</span>(rechte  Skala)")
+  .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+  }
+}   
 },
 "yAxis": [{
   "labels": {
@@ -76,13 +89,12 @@
   }
 },
 "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Fr.</b><br/>', 
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mio. Franken</b><br/>', 
   "shared": false
 },  
 "chart": {      
  // "renderTo": 'container-I.17.3.0003',
-  "marginBottom": 75,
-  "marginTop": 65,
+  //margin: [40,60, 40, 40] ,
   "type": "column",
 }
 }

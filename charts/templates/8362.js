@@ -24,8 +24,8 @@ labels: {
   x: -12,
   rotation: 0,
   "formatter": function() {
-  return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte Skala)")
-  .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte Skala)")
+  return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
+  .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
   .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
 }
 }   

@@ -68,8 +68,17 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "x": -12,
+      "rotation": 0,
+      "formatter": function() {
+  //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
+  return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstan</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstan</span>(rechte  Skala)")
+  .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+  }
     },
     "tickLength": 0
   },
@@ -104,8 +113,6 @@
             }
           }
     },
-    "marginBottom": 75,
-    "marginTop": 65,
     "type": "column",
     "renderTo": "container-8350",
     "spacingBottom": 40
@@ -212,7 +219,7 @@
     "#990300"
   ],
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Mio. Franken\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
