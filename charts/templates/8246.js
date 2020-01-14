@@ -37,12 +37,13 @@
                 whiteSpace: 'nowrap'
             },
             "formatter": function() {
-                return this.value.replace(" ", " ");
-            },
-            
-            
+                return this.value.replace(/^\.\s+/g, "&nbsp; &nbsp; &nbsp;");
+            }, 
         } 
-  },  
+  },
+  tooltip: {
+        //headerFormat: '<span style="font-size: 10px">{point.key.replace(/^\.\s+/g, "")}</span><br/>'
+},  
     yAxis:{
         tickInterval: 20,
         max: 100,
