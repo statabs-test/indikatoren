@@ -7630,11 +7630,11 @@ var indikatoren = [
 		"id": 5147
 	},
 	{
-		"title": "Saldo aus Geburten und Todesfällen",
+		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.3.05148",
 		"kuerzelKunde": "BE6",
-		"description": "Saldo aus Geburten und Todesfällen",
+		"description": "Bilanz der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -7647,7 +7647,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2008 bis 2018 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2018 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-28).",
+		"lesehilfe": "In den Jahren 2008 bis 2018 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2018 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-28). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2008 und 2018 stets positiv aus. 2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9686,46 +9686,6 @@ var indikatoren = [
 		"chart-id": 6044,
 		"filter": "",
 		"id": 6044
-	},
-	{
-		"title": "Anzahl Beschäftigte nach Sektor",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.6046",
-		"kuerzelKunde": "WE2",
-		"description": "Anzahl Beschäftigte nach Sektor",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-09T09:29:28.2828",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt waren im Jahr 2017 rund 151 000 Beschäftigte (in Vollzeitäquivalenten) tätig. Dies entspricht einer Zunahme um 12,4% gegenüber 2005. Im Jahr 2017 entfielen 77% der Vollzeitäquivalente  auf den sekundären Sektor und 23% auf den Dienstleistungssektor.",
-		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden Beschäftigte berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit)  in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "06_01_00_00_00_602",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6046,
-		"chart-id": 6046,
-		"filter": "",
-		"id": 6046
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",

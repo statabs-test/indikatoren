@@ -1,6 +1,16 @@
 (function(){
   return {
-    "yAxis": [
+    "data": {
+      "seriesMapping": [
+        {
+          x: 0, y: 3
+        },
+        {
+          x: 0, y: 4
+        }
+      ]
+    },
+/*    "yAxis": [
       {
         "labels": {
           "format": "{value:,.0f}",
@@ -29,6 +39,7 @@
         }
       }
     ],
+*/
     "xAxis": {
   	  "tickInterval": 2
     },
@@ -50,11 +61,34 @@
           "symbol": "circle"
         },     
         "color": "#68AB2B",
+        "yAxis": 0,
+        "tooltip": {
+          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+        }
+      }
+/*      {
+        "marker": {
+          enabled: false,
+          "symbol": "circle"
+        },     
+        "color": "#008AC3",
+        "yAxis": 0,
+        "tooltip": {
+          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+        },
+      },
+      {
+        "marker": {
+          enabled: false,
+          "symbol": "circle"
+        },     
+        "color": "#68AB2B",
         "yAxis": 1,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
         }
       }
+*/
     ],
     "legend": {
       "enabled": true,
