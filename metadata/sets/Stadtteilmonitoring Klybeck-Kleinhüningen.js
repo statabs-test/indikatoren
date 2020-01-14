@@ -1347,7 +1347,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "17,4% der Haushalte in Klybeck und Kleinhüningen beziehen reine Prämienverbilligungen und 3,3% Familienmietzinsbeiträge.",
+		"lesehilfe": "24,6% der Haushalte in Klybeck und Kleinhüningen beziehen 2018 reine Prämienverbilligungen und 4,9% Familienmietzinsbeiträge (2011: 21,5% resp. 2,4%).",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge. Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
