@@ -20,7 +20,12 @@
             }
         ],
         "xAxis": {
-            "type": "category"
+            "type": "category",
+            labels: {
+                formatter: function () {
+                    return this.value.replace(' ', '<br>'); //formatter wieder entfernen, sobald im TSV absolute statt %-Werte stehen, da dann (N=XY) automatisch kommt /BL, 14.1.2020
+                }
+            }
         },
         "legend": {
             "reversed": false
