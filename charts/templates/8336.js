@@ -30,7 +30,7 @@
             color: "#B00000",
             index: 5,
             legendIndex: 5 
-        }*/ 
+        }*/
   ],
   xAxis: {
       type: "category"
@@ -46,7 +46,7 @@ plotOptions: {
     }
 },
 yAxis: {
-    tickInterval:500,
+    tickInterval:2000,
     reversedStacks: false,
     labels: {
         format: "{value:,.0f}"

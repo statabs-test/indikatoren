@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#FFDA80",
       "index": 0,
       "legendIndex": 0,
       "data": [
@@ -42,7 +42,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
+      "color": "#CD9C00",
       "index": 1,
       "legendIndex": 1,
       "data": [
@@ -83,7 +83,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#007A2F",
       "index": 2,
       "legendIndex": 2,
       "data": [
@@ -182,7 +182,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Haushalte mit reinen Familienmietzinsbeiträgen nach Haushaltstyp"
+    "text": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp"
   },
   "subtitle": {
     "style": {

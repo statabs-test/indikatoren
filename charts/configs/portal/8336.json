@@ -7,38 +7,37 @@
       "data": [
         [
           "2011",
-          3135
+          7878
         ],
         [
           "2012",
-          3142
+          7957
         ],
         [
           "2013",
-          3097
+          8027
         ],
         [
           "2014",
-          2997
+          7976
         ],
         [
           "2015",
-          2845
+          7705
         ],
         [
           "2016",
-          2958
+          7916
         ],
         [
           "2017",
-          2950
+          7966
         ],
         [
           "2018",
-          2913
+          8102
         ]
       ],
-      "name": "Ehepaare mit Kindern",
       "turboThreshold": 0
     },
     {
@@ -48,38 +47,38 @@
       "data": [
         [
           "2011",
-          1548
+          4631
         ],
         [
           "2012",
-          1517
+          4755
         ],
         [
           "2013",
-          1550
+          4804
         ],
         [
           "2014",
-          1442
+          4890
         ],
         [
           "2015",
-          1388
+          4862
         ],
         [
           "2016",
-          1359
+          5217
         ],
         [
           "2017",
-          1331
+          5281
         ],
         [
           "2018",
-          1359
+          5397
         ]
       ],
-      "name": "Ehepaare ohne Kind",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
@@ -89,38 +88,38 @@
       "data": [
         [
           "2011",
-          1759
+          1117
         ],
         [
           "2012",
-          1773
+          1141
         ],
         [
           "2013",
-          1729
+          1131
         ],
         [
           "2014",
-          1782
+          1093
         ],
         [
           "2015",
-          1706
+          1069
         ],
         [
           "2016",
-          1811
+          1104
         ],
         [
           "2017",
-          1839
+          1167
         ],
         [
           "2018",
-          1816
+          1200
         ]
       ],
-      "name": "Einelternfamilien",
+      "name": "Ausland",
       "turboThreshold": 0
     },
     {
@@ -130,121 +129,49 @@
       "data": [
         [
           "2011",
-          6952
+          null
         ],
         [
           "2012",
-          7161
+          null
         ],
         [
           "2013",
-          7323
+          null
         ],
         [
           "2014",
-          7450
+          null
         ],
         [
           "2015",
-          7414
+          null
         ],
         [
           "2016",
-          7793
+          null
         ],
         [
           "2017",
-          7944
+          null
         ],
         [
           "2018",
-          8240
+          null
         ]
       ],
-      "name": "Einzelpersonen",
+      "name": "Gemischt",
       "turboThreshold": 0
     },
     {
       "color": "#E7CEE2",
       "index": 4,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2011",
-          201
-        ],
-        [
-          "2012",
-          217
-        ],
-        [
-          "2013",
-          219
-        ],
-        [
-          "2014",
-          240
-        ],
-        [
-          "2015",
-          236
-        ],
-        [
-          "2016",
-          271
-        ],
-        [
-          "2017",
-          297
-        ],
-        [
-          "2018",
-          298
-        ]
-      ],
-      "name": "Konkubinatspaare mit Kindern",
-      "turboThreshold": 0
+      "legendIndex": 4
     },
     {
       "color": "#B00000",
       "index": 5,
-      "legendIndex": 5,
-      "data": [
-        [
-          "2011",
-          31
-        ],
-        [
-          "2012",
-          43
-        ],
-        [
-          "2013",
-          44
-        ],
-        [
-          "2014",
-          48
-        ],
-        [
-          "2015",
-          47
-        ],
-        [
-          "2016",
-          45
-        ],
-        [
-          "2017",
-          53
-        ],
-        [
-          "2018",
-          73
-        ]
-      ],
-      "name": "Konkubinatspaare ohne Kinder",
-      "turboThreshold": 0
+      "legendIndex": 5
     }
   ],
   "xAxis": {
@@ -296,7 +223,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-8337"
+    "renderTo": "container-8336"
   },
   "title": {
     "style": {
@@ -305,7 +232,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp"
+    "text": "Haushalte mit reiner Prämienverbilligung nach Herkunft"
   },
   "subtitle": {
     "style": {
@@ -390,6 +317,6 @@
         }
   },
   "exporting": {
-    "filename": 8337
+    "filename": 8336
   }
 }
