@@ -17,7 +17,7 @@
 "lesehilfe":"Die grösste Steigerung des realen BIP zwischen 2014 und 2018 weist Basel-Stadt mit 11,6% auf, gefolgt von Basel-Landschaft mit 5,0% und Jura mit 0,9%. In der gesamten Schweiz stieg der Wert um 2,6%.",
 "erlaeuterungen":"Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br><br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 "template":"line001",
-"darstellungsart":"",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
