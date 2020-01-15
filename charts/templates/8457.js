@@ -48,7 +48,7 @@
 				"legendIndex": 0
 			},
 			{
-				"color": "#ff8888",
+				"color": "#ffaaaa",
 				"stack": "w",
 				"legendIndex": 3
 			},
