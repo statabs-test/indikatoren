@@ -5,6 +5,9 @@
         "format": "{value:,.0f}%"
       }
     },
+    "xAxis": {
+      "type": "category",
+    },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
     },

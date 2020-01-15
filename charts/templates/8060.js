@@ -13,7 +13,10 @@
     "yAxis": {
       tickInterval: 500,
       max: 4000,
-      reversedStacks: false
+      reversedStacks: false,
+      "labels": {
+        "format": "{value:,.0f}"
+      },
     },
     "xAxis": {
       tickInterval: 1,

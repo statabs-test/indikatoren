@@ -30,6 +30,7 @@
     "yAxis": {
       tickInterval: 250,
       "labels": {
+        "format": "{value:,.0f}",
         style: {
           textOverflow: 'none' // prevents ellipsis
         }

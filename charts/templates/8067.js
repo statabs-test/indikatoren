@@ -31,7 +31,7 @@
       plotLines: [{
         value: 0,
         color: '#B6CFD7',
-        width: 2,
+        //width: 2,
         zIndex: 0,
       }]
     },

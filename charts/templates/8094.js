@@ -18,7 +18,7 @@
       plotLines: [{
         color: '#B9CFD7',
         value: 0, 
-        width: 2 
+        //width: 2 
       }]
     },
     "series": [
