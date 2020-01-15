@@ -13,6 +13,9 @@
     "shared": false, 
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
   },
+  "chart": {      
+     marginRight: 25
+  },
   "series": [
     {"color": "#246370",
       "marker": {

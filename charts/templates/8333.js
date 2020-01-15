@@ -37,7 +37,8 @@ tooltip: {
 },  
 "chart": {      
   "type": "column",
-  "inverted": true
+  "inverted": true, 
+   marginRight: 25
 }
 }
 }());
