@@ -1,210 +1,273 @@
 {
   "series": [
     {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
       "color": "#008AC3",
-      "yAxis": 0,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "stack": "m",
+      "legendIndex": 3,
       "data": [
         [
-          1995,
-          100
+          "1968",
+          14
         ],
         [
-          1996,
-          97.599590248
+          "1972",
+          21
         ],
         [
-          1997,
-          98.5170004
+          "1976",
+          22
         ],
         [
-          1998,
-          99.697864071
+          "1980",
+          21
         ],
         [
-          1999,
-          95.904837964
+          "1984",
+          32
         ],
         [
-          2000,
-          97.400042403
+          "1988",
+          35
         ],
         [
-          2001,
-          93.474829383
+          "1992",
+          38
         ],
         [
-          2002,
-          94.214926521
+          "1996",
+          40
         ],
         [
-          2003,
-          93.617340177
+          "2000",
+          45
         ],
         [
-          2004,
-          94.018026679
+          "2004",
+          47
         ],
         [
-          2005,
-          98.678727871
+          "2008",
+          37
         ],
         [
-          2006,
-          98.676903831
+          "2012",
+          31
         ],
         [
-          2007,
-          102.49024275
-        ],
-        [
-          2008,
-          101.76607012
-        ],
-        [
-          2009,
-          95.188185961
-        ],
-        [
-          2010,
-          95.49257709
-        ],
-        [
-          2011,
-          94.295848707
-        ],
-        [
-          2012,
-          89.157065998
-        ],
-        [
-          2013,
-          89.822750167
-        ],
-        [
-          2014,
-          84.807489505
-        ],
-        [
-          2015,
-          82.659942484
-        ],
-        [
-          2016,
-          80.740122627
+          "2016",
+          31
         ]
       ],
-      "name": "Ökologischer Fussabdruck Schweiz (indexiert, 1995=100)"
+      "name": "Gewählte Frauen",
+      "turboThreshold": 0
     },
     {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
-      "color": "#68AB2B",
-      "yAxis": 0,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#00bAf3",
+      "stack": "m",
+      "legendIndex": 0,
       "data": [
         [
-          1995,
-          100
+          "1968",
+          116
         ],
         [
-          1996,
-          99.197747355
+          "1972",
+          109
         ],
         [
-          1997,
-          98.687888195
+          "1976",
+          108
         ],
         [
-          1998,
-          102.67940567
+          "1980",
+          109
         ],
         [
-          1999,
-          106.09986999
+          "1984",
+          98
         ],
         [
-          2000,
-          115.72669341
+          "1988",
+          95
         ],
         [
-          2001,
-          124.50871426
+          "1992",
+          92
         ],
         [
-          2002,
-          130.79194883
+          "1996",
+          90
         ],
         [
-          2003,
-          136.30353157
+          "2000",
+          85
         ],
         [
-          2004,
-          143.86542744
+          "2004",
+          83
         ],
         [
-          2005,
-          150.30192754
+          "2008",
+          63
         ],
         [
-          2006,
-          161.2096481
+          "2012",
+          69
         ],
         [
-          2007,
-          172.33750616
-        ],
-        [
-          2008,
-          176.01934145
-        ],
-        [
-          2009,
-          172.51437927
-        ],
-        [
-          2010,
-          173.78759012
-        ],
-        [
-          2011,
-          180.73720591
-        ],
-        [
-          2012,
-          182.88070141
-        ],
-        [
-          2013,
-          180.84698536
-        ],
-        [
-          2014,
-          181.57367575
-        ],
-        [
-          2015,
-          183.74967413
-        ],
-        [
-          2016,
-          188.37568604
+          "2016",
+          69
         ]
       ],
-      "name": "BIP pro Kopf Kanton Basel-Stadt (indexiert, 1995=100)"
+      "name": "Gewählte Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "stack": "w",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1968",
+          165
+        ],
+        [
+          "1972",
+          181
+        ],
+        [
+          "1976",
+          220
+        ],
+        [
+          "1980",
+          254
+        ],
+        [
+          "1984",
+          331
+        ],
+        [
+          "1988",
+          464
+        ],
+        [
+          "1992",
+          415
+        ],
+        [
+          "1996",
+          403
+        ],
+        [
+          "2000",
+          392
+        ],
+        [
+          "2004",
+          354
+        ],
+        [
+          "2008",
+          288
+        ],
+        [
+          "2012",
+          262
+        ],
+        [
+          "2016",
+          268
+        ]
+      ],
+      "name": "Kandidatinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stack": "w",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1968",
+          655
+        ],
+        [
+          "1972",
+          753
+        ],
+        [
+          "1976",
+          700
+        ],
+        [
+          "1980",
+          721
+        ],
+        [
+          "1984",
+          791
+        ],
+        [
+          "1988",
+          873
+        ],
+        [
+          "1992",
+          793
+        ],
+        [
+          "1996",
+          632
+        ],
+        [
+          "2000",
+          681
+        ],
+        [
+          "2004",
+          624
+        ],
+        [
+          "2008",
+          542
+        ],
+        [
+          "2012",
+          507
+        ],
+        [
+          "2016",
+          495
+        ]
+      ],
+      "name": "Kandidaten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#474747",
+      "stack": "t",
+      "legendIndex": 5
+    },
+    {
+      "color": "#6F6F6F",
+      "stack": "t",
+      "legendIndex": 2
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -227,12 +290,14 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "renderTo": "container-6051"
+    "type": "column",
+    "marginBottom": 65,
+    "marginTop": 100,
+    "renderTo": "container-8457"
   },
   "title": {
     "style": {
@@ -241,7 +306,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entkopplung von Wachstum und Umweltverbrauch"
+    "text": "Geschlechterverhältnis im Grossen Rat"
   },
   "subtitle": {
     "style": {
@@ -250,11 +315,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nominales Bruttoinlandprodukt des Kantons Basel-Stadt in Fr. pro Kopf und ökologischer Fussabdruck der Schweiz in globalen Hektaren pro Kopf",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003Cbr\u002F\u003E\u003Cb\u003E{point.y}\u003C\u002Fb\u003E Personen (\u003Cb\u003E{point.percentage:.1f}%\u003C\u002Fb\u003E von Total {point.stackTotal: ,2f} Personen)\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -270,20 +336,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
+      },
+      "format": "{value}%"
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "reversedStacks": false
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -297,9 +353,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EGlobal Footprint Network.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-24"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-17"
   },
   "legend": {
     "enabled": true,
@@ -310,13 +366,19 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "x": 40,
+    "itemWidth": 130
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "stacking": "percent",
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {
@@ -355,6 +417,6 @@
     }
   },
   "exporting": {
-    "filename": 6051
+    "filename": 8457
   }
 }

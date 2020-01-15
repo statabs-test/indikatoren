@@ -5,116 +5,80 @@
       "visible": true,
       "data": [
         [
-          "ZG",
+          "Wirtschaftsstruktur",
+          86
+        ],
+        [
+          "Innovation",
           100
         ],
         [
-          "BS",
-          90.6
+          "Humankapital",
+          100
         ],
         [
-          "ZH",
-          90.1
+          "Arbeitsmarkt",
+          24
         ],
         [
-          "VD",
-          75.2
+          "Erreichbarkeit",
+          100
         ],
         [
-          "AG",
-          74.3
+          "Einzugsgebiet",
+          89
         ],
         [
-          "NW",
-          72.4
+          "Kostenumfeld",
+          50
         ],
         [
-          "SZ",
-          71.3
-        ],
-        [
-          "LU",
-          71.2
-        ],
-        [
-          "BL",
-          71.1
-        ],
-        [
-          "GE",
-          69.8
-        ],
-        [
-          "TG",
-          66.7
-        ],
-        [
-          "SH",
-          66.1
-        ],
-        [
-          "FR",
-          62.9
-        ],
-        [
-          "SG",
-          62.8
-        ],
-        [
-          "OW",
-          58.6
-        ],
-        [
-          "AR",
-          57.3
-        ],
-        [
-          "SO",
-          55.8
-        ],
-        [
-          "NE",
-          55.5
-        ],
-        [
-          "GL",
-          55.5
-        ],
-        [
-          "TI",
-          54.8
-        ],
-        [
-          "BE",
-          54.3
-        ],
-        [
-          "AI",
-          53.8
-        ],
-        [
-          "UR",
-          47.9
-        ],
-        [
-          "GR",
-          42.3
-        ],
-        [
-          "VS",
-          40
-        ],
-        [
-          "JU",
-          36.9
+          "Staatsfinanzen",
+          44
         ]
       ],
-      "name": "KWI",
+      "name": "Basel-Stadt",
       "turboThreshold": 0
     },
     {
       "color": "#83522E",
-      "visible": true
+      "visible": true,
+      "data": [
+        [
+          "Wirtschaftsstruktur",
+          64.5
+        ],
+        [
+          "Innovation",
+          29
+        ],
+        [
+          "Humankapital",
+          32.5
+        ],
+        [
+          "Arbeitsmarkt",
+          68
+        ],
+        [
+          "Erreichbarkeit",
+          58
+        ],
+        [
+          "Einzugsgebiet",
+          32
+        ],
+        [
+          "Kostenumfeld",
+          76.5
+        ],
+        [
+          "Staatsfinanzen",
+          69.5
+        ]
+      ],
+      "name": "Mediankanton",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
