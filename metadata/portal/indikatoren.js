@@ -28116,5 +28116,45 @@ var indikatoren = [
 		"chart-id": 8353,
 		"filter": "",
 		"id": 8353
+	},
+	{
+		"title": "Erwerbstätige Flüchtlinge",
+		"subtitle": "Nach Bewilligungsart, in Basel-Stadt, am Jahresende",
+		"kuerzel": "I.03.5.08452",
+		"kuerzelKunde": "",
+		"description": "Erwerbstätige Flüchtlinge",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-09T16:57:10.1010",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zwischen Ende 2014 und Ende 2018 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge von 190 auf 411 erhöht.",
+		"erlaeuterungen": "Asylsuchende (Ausweis N), vorläufig Aufgenommene (Ausweis F), anerkannte Flüchtlinge (Ausweis B). Hier sind jeweils nur die erwerbstätigen Personen abgebiltet.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8452,
+		"chart-id": 8452,
+		"filter": "",
+		"id": 8452
 	}
 ];
