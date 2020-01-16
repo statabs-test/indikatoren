@@ -29800,7 +29800,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Logiernächte",
-		"subtitle": "(absolute Werte)",
+		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "4.4",
 		"description": "Logiernächte",

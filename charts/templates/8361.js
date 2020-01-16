@@ -10,7 +10,7 @@
        }
     },
     "yAxis": {
-      "min": 0,
+      "min": 90,
       "labels": {
         "format": "{value:,.0f}"
       }

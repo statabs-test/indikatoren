@@ -6,15 +6,15 @@
       "legendIndex": 1,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           -24558
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           -59381
         ],
         [
-          "JU",
+          "Jura",
           -5125
         ],
         [
@@ -31,15 +31,15 @@
       "legendIndex": 3,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           -470
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           -350
         ],
         [
-          "JU",
+          "Jura",
           -27
         ],
         [
@@ -56,15 +56,15 @@
       "legendIndex": 2,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           64812
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           33963
         ],
         [
-          "JU",
+          "Jura",
           2170
         ],
         [
@@ -81,15 +81,15 @@
       "legendIndex": 4,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           34940
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           20291
         ],
         [
-          "JU",
+          "Jura",
           7329
         ],
         [
@@ -111,15 +111,15 @@
       "legendIndex": 4,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           74724
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           -5477
         ],
         [
-          "JU",
+          "Jura",
           4347
         ],
         [
