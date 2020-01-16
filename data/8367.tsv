@@ -1,5 +1,6 @@
-﻿	Wegpendler in die Schweiz	Wegpendler ins Ausland	Zupendler aus der Schweiz	Zupendler aus dem Ausland	Pendlersaldo
-Basel-Stadt	-24558	-470	64812	34940	74724
-Basel-Landschaft	-59381	-350	33963	20291	-5477
-Jura	-5125	-27	2170	7329	4347
-BS/BL/JU	-29004	-847	40886	62560	73595
+﻿	Basel-Stadt	Basel-Landschaft	Jura	BS/BL/JU
+Wegpendler in die Schweiz	-24558	-59381	-5125	-29004
+Wegpendler ins Ausland	-470	-350	-27	-847
+Zupendler aus der Schweiz	64812	33963	2170	40886
+Zupendler aus dem Ausland	34940	20291	7329	62560
+Pendlersaldo	74724	-5477	4347	73595
