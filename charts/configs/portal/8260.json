@@ -860,50 +860,50 @@
     },
     "labels": {
       "rotation": 0,
+      "align": "left",
+      "x": -115,
+      "useHTML": true,
       "style": {
         "color": "#000000",
         "width": 1,
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
       "formatter": function () {
                     var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
                     return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
-                },
-      "align": "left",
-      "x": -115,
-      "useHTML": true
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
-                  }
-                );
-              }              
-            }
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "inverted": true,
     "width": 485,
     "height": 713,
+    "marginLeft": 125,
+    "marginRight": 25,
     "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "marginLeft": 125,
-    "marginRight": 25,
-    "inverted": true,
     "renderTo": "container-8260"
   },
   "title": {
@@ -953,15 +953,14 @@
       },
       "text": null
     },
+    "max": 100,
     "labels": {
       "format": "{value}%",
+      "rotation": 0,
       "style": {
         "color": "#000000"
-      },
-      "type": "category",
-      "rotation": 0
-    },
-    "max": 100
+      }
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -983,9 +982,13 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
-    "reversed": true,
+    "enabled": true,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "reversed": true,
     "itemMarginBottom": 5,
     "align": "left",
     "useHTML": false,
@@ -996,13 +999,8 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
-    "margin": 0,
-    "padding": 5,
-    "itemWidth": 114,
-    "itemDistance": 1
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "exporting": {
     "filename": 8260

@@ -6,84 +6,16 @@
       "legendIndex": 5,
       "data": [
         [
-          "*Familienform",
+          "*Geschlecht",
           null
         ],
         [
-          "Einelternfamilie",
-          21.7
+          "Männlich",
+          10.7
         ],
         [
-          "Zweielternfamilie",
-          11.6
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind",
-          13.3
-        ],
-        [
-          "2 Kinder",
-          12.4
-        ],
-        [
-          "3 Kinder u.m.",
-          15
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre",
-          15.9
-        ],
-        [
-          "5-8 Jahre",
-          12.4
-        ],
-        [
-          "9-12 Jahre",
-          10.8
-        ],
-        [
-          "13-17 Jahre",
-          11.8
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule",
-          15.2
-        ],
-        [
-          "Sekundarstufe II",
-          16.5
-        ],
-        [
-          "Tertiärstufe",
-          11
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt",
-          13.2
-        ],
-        [
-          "ch\u002Fdt und andere",
-          15.3
-        ],
-        [
-          "nur andere",
-          9.8
+          "Weiblich",
+          13.1
         ],
         [
           "*Haushaltseinkommen",
@@ -91,15 +23,15 @@
         ],
         [
           "\u003C3 000 Fr.",
-          17.1
+          15
         ],
         [
           "3 000-7 499 Fr.",
-          20
+          12.1
         ],
         [
           "\u003E7 499 Fr.",
-          8.7
+          10.4
         ],
         [
           "*Wahlkreis",
@@ -107,38 +39,106 @@
         ],
         [
           "Grossbasel Ost",
-          13.5
+          12.7
         ],
         [
           "Grossbasel West",
-          13.7
+          11.5
         ],
         [
           "Kleinbasel",
-          13.8
+          11.1
         ],
         [
           "Riehen, Bettingen",
-          11.1
+          12.5
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          10.7
+        ],
+        [
+          "Übrige HH o. K.",
+          11.7
+        ],
+        [
+          "HH m. mind. 1 K",
+          15.7
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          9.9
+        ],
+        [
+          "30-39 Jahre",
+          9.5
+        ],
+        [
+          "40-49 Jahre",
+          11.2
+        ],
+        [
+          "50-59 Jahre",
+          10.8
+        ],
+        [
+          "60-69 Jahre",
+          13.5
+        ],
+        [
+          "\u003E69 Jahre",
+          14.5
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          11.5
+        ],
+        [
+          "Ausland",
+          14.3
         ],
         [
           "*Befragungsjahr",
           null
         ],
         [
-          "2009",
-          15.7
+          "2003",
+          0
         ],
         [
-          "2013",
-          13.5
+          "2005",
+          4.9
         ],
         [
-          "2017",
-          13.3
+          "2007",
+          4.2
+        ],
+        [
+          "2011",
+          13.6
+        ],
+        [
+          "2015",
+          10.1
+        ],
+        [
+          "2019",
+          12.1
         ]
       ],
-      "name": "Stimmt genau",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
@@ -147,84 +147,16 @@
       "legendIndex": 4,
       "data": [
         [
-          "*Familienform",
+          "*Geschlecht",
           null
         ],
         [
-          "Einelternfamilie",
-          21
+          "Männlich",
+          33.1
         ],
         [
-          "Zweielternfamilie",
-          18.8
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind",
-          19.6
-        ],
-        [
-          "2 Kinder",
-          17.9
-        ],
-        [
-          "3 Kinder u.m.",
-          21.5
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre",
-          23.6
-        ],
-        [
-          "5-8 Jahre",
-          15.1
-        ],
-        [
-          "9-12 Jahre",
-          17
-        ],
-        [
-          "13-17 Jahre",
-          18.5
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule",
-          14.3
-        ],
-        [
-          "Sekundarstufe II",
-          22.2
-        ],
-        [
-          "Tertiärstufe",
-          18.3
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt",
-          20.6
-        ],
-        [
-          "ch\u002Fdt und andere",
-          18
-        ],
-        [
-          "nur andere",
-          15.9
+          "Weiblich",
+          27.3
         ],
         [
           "*Haushaltseinkommen",
@@ -232,15 +164,15 @@
         ],
         [
           "\u003C3 000 Fr.",
-          27
+          27.7
         ],
         [
           "3 000-7 499 Fr.",
-          22.8
+          29.3
         ],
         [
           "\u003E7 499 Fr.",
-          16.6
+          31
         ],
         [
           "*Wahlkreis",
@@ -248,38 +180,106 @@
         ],
         [
           "Grossbasel Ost",
-          20
+          27.6
         ],
         [
           "Grossbasel West",
-          19.5
+          29.8
         ],
         [
           "Kleinbasel",
-          18.6
+          29.2
         ],
         [
           "Riehen, Bettingen",
-          17.8
+          33.9
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          25.8
+        ],
+        [
+          "Übrige HH o. K.",
+          29.4
+        ],
+        [
+          "HH m. mind. 1 K",
+          39
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          26.1
+        ],
+        [
+          "30-39 Jahre",
+          21.6
+        ],
+        [
+          "40-49 Jahre",
+          37.1
+        ],
+        [
+          "50-59 Jahre",
+          32.2
+        ],
+        [
+          "60-69 Jahre",
+          31.8
+        ],
+        [
+          "\u003E69 Jahre",
+          28.8
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          29.8
+        ],
+        [
+          "Ausland",
+          28.8
         ],
         [
           "*Befragungsjahr",
           null
         ],
         [
-          "2009",
-          19.4
+          "2003",
+          0
         ],
         [
-          "2013",
-          17.5
+          "2005",
+          39
         ],
         [
-          "2017",
-          19.2
+          "2007",
+          40
+        ],
+        [
+          "2011",
+          42.4
+        ],
+        [
+          "2015",
+          45
+        ],
+        [
+          "2019",
+          29.5
         ]
       ],
-      "name": "Stimmt eher",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
@@ -288,84 +288,16 @@
       "legendIndex": 3,
       "data": [
         [
-          "*Familienform",
+          "*Geschlecht",
           null
         ],
         [
-          "Einelternfamilie",
-          17.3
+          "Männlich",
+          10.8
         ],
         [
-          "Zweielternfamilie",
-          19.2
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind",
-          16.5
-        ],
-        [
-          "2 Kinder",
-          20.5
-        ],
-        [
-          "3 Kinder u.m.",
-          17.8
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre",
-          16.7
-        ],
-        [
-          "5-8 Jahre",
-          22.3
-        ],
-        [
-          "9-12 Jahre",
-          19.5
-        ],
-        [
-          "13-17 Jahre",
-          17
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule",
-          20
-        ],
-        [
-          "Sekundarstufe II",
-          19.2
-        ],
-        [
-          "Tertiärstufe",
-          18
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt",
-          17.6
-        ],
-        [
-          "ch\u002Fdt und andere",
-          20
-        ],
-        [
-          "nur andere",
-          19.9
+          "Weiblich",
+          8.5
         ],
         [
           "*Haushaltseinkommen",
@@ -373,15 +305,15 @@
         ],
         [
           "\u003C3 000 Fr.",
-          18
+          10.2
         ],
         [
           "3 000-7 499 Fr.",
-          22.4
+          8.7
         ],
         [
           "\u003E7 499 Fr.",
-          16.3
+          10.7
         ],
         [
           "*Wahlkreis",
@@ -389,38 +321,106 @@
         ],
         [
           "Grossbasel Ost",
-          18.6
+          7.6
         ],
         [
           "Grossbasel West",
-          16.9
+          9.3
         ],
         [
           "Kleinbasel",
-          19.9
+          11.1
         ],
         [
           "Riehen, Bettingen",
-          21.7
+          12.1
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          6.9
+        ],
+        [
+          "Übrige HH o. K.",
+          10.5
+        ],
+        [
+          "HH m. mind. 1 K",
+          13.8
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          12
+        ],
+        [
+          "30-39 Jahre",
+          9.2
+        ],
+        [
+          "40-49 Jahre",
+          10.9
+        ],
+        [
+          "50-59 Jahre",
+          11.7
+        ],
+        [
+          "60-69 Jahre",
+          9
+        ],
+        [
+          "\u003E69 Jahre",
+          7
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          10.1
+        ],
+        [
+          "Ausland",
+          8
         ],
         [
           "*Befragungsjahr",
           null
         ],
         [
-          "2009",
-          17.3
+          "2003",
+          0
         ],
         [
-          "2013",
-          18
+          "2005",
+          28.3
         ],
         [
-          "2017",
-          18.6
+          "2007",
+          27.2
+        ],
+        [
+          "2011",
+          20.1
+        ],
+        [
+          "2015",
+          17.8
+        ],
+        [
+          "2019",
+          9.6
         ]
       ],
-      "name": "Stimmt eher nicht",
+      "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
@@ -429,84 +429,16 @@
       "legendIndex": 2,
       "data": [
         [
-          "*Familienform",
+          "*Geschlecht",
           null
         ],
         [
-          "Einelternfamilie",
-          27.2
+          "Männlich",
+          1.7
         ],
         [
-          "Zweielternfamilie",
-          41.2
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind",
-          40.7
-        ],
-        [
-          "2 Kinder",
-          39.5
-        ],
-        [
-          "3 Kinder u.m.",
-          34
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre",
-          35.4
-        ],
-        [
-          "5-8 Jahre",
-          39.6
-        ],
-        [
-          "9-12 Jahre",
-          41.2
-        ],
-        [
-          "13-17 Jahre",
-          42.4
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule",
-          18.1
-        ],
-        [
-          "Sekundarstufe II",
-          30
-        ],
-        [
-          "Tertiärstufe",
-          46.2
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt",
-          42.8
-        ],
-        [
-          "ch\u002Fdt und andere",
-          34.5
-        ],
-        [
-          "nur andere",
-          33.7
+          "Weiblich",
+          1.8
         ],
         [
           "*Haushaltseinkommen",
@@ -514,156 +446,15 @@
         ],
         [
           "\u003C3 000 Fr.",
-          16.2
+          5.8
         ],
         [
           "3 000-7 499 Fr.",
-          24.3
+          1.7
         ],
         [
           "\u003E7 499 Fr.",
-          53.3
-        ],
-        [
-          "*Wahlkreis",
-          null
-        ],
-        [
-          "Grossbasel Ost",
-          41.9
-        ],
-        [
-          "Grossbasel West",
-          38.6
-        ],
-        [
-          "Kleinbasel",
-          34.3
-        ],
-        [
-          "Riehen, Bettingen",
-          41.5
-        ],
-        [
-          "*Befragungsjahr",
-          null
-        ],
-        [
-          "2009",
-          33.5
-        ],
-        [
-          "2013",
-          38.3
-        ],
-        [
-          "2017",
-          38.7
-        ]
-      ],
-      "name": "Stimmt gar nicht",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "index": 4,
-      "legendIndex": 1,
-      "data": [
-        [
-          "*Familienform",
-          null
-        ],
-        [
-          "Einelternfamilie",
-          3.3
-        ],
-        [
-          "Zweielternfamilie",
-          3.6
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind",
-          3.2
-        ],
-        [
-          "2 Kinder",
-          3.3
-        ],
-        [
-          "3 Kinder u.m.",
-          5.9
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre",
-          3.3
-        ],
-        [
-          "5-8 Jahre",
-          4.7
-        ],
-        [
-          "9-12 Jahre",
-          4
-        ],
-        [
-          "13-17 Jahre",
-          3.6
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule",
-          11.4
-        ],
-        [
-          "Sekundarstufe II",
-          3.8
-        ],
-        [
-          "Tertiärstufe",
-          3
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt",
-          2.4
-        ],
-        [
-          "ch\u002Fdt und andere",
-          3.5
-        ],
-        [
-          "nur andere",
-          9.8
-        ],
-        [
-          "*Haushaltseinkommen",
-          null
-        ],
-        [
-          "\u003C3 000 Fr.",
-          8.1
-        ],
-        [
-          "3 000-7 499 Fr.",
-          3.4
-        ],
-        [
-          "\u003E7 499 Fr.",
-          2.2
+          0.9
         ],
         [
           "*Wahlkreis",
@@ -675,31 +466,240 @@
         ],
         [
           "Grossbasel West",
-          4.6
+          1.4
         ],
         [
           "Kleinbasel",
-          5.3
+          3
         ],
         [
           "Riehen, Bettingen",
-          3.2
+          1.6
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          1.9
+        ],
+        [
+          "Übrige HH o. K.",
+          1.5
+        ],
+        [
+          "HH m. mind. 1 K",
+          2.2
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          2.1
+        ],
+        [
+          "30-39 Jahre",
+          2.9
+        ],
+        [
+          "40-49 Jahre",
+          2.4
+        ],
+        [
+          "50-59 Jahre",
+          1.8
+        ],
+        [
+          "60-69 Jahre",
+          1.2
+        ],
+        [
+          "\u003E69 Jahre",
+          0.8
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          1.8
+        ],
+        [
+          "Ausland",
+          1.8
         ],
         [
           "*Befragungsjahr",
           null
         ],
         [
-          "2009",
-          4
+          "2003",
+          0
         ],
         [
-          "2013",
-          4.3
+          "2005",
+          4.5
         ],
         [
-          "2017",
-          3.8
+          "2007",
+          2.6
+        ],
+        [
+          "2011",
+          2.2
+        ],
+        [
+          "2015",
+          1.1
+        ],
+        [
+          "2019",
+          1.8
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 4,
+      "legendIndex": 1,
+      "data": [
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          38.8
+        ],
+        [
+          "Weiblich",
+          44.7
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          35.4
+        ],
+        [
+          "3 000-7 499 Fr.",
+          42.5
+        ],
+        [
+          "\u003E7 499 Fr.",
+          44.4
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          46.2
+        ],
+        [
+          "Grossbasel West",
+          44.7
+        ],
+        [
+          "Kleinbasel",
+          40.1
+        ],
+        [
+          "Riehen, Bettingen",
+          32.7
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          48.7
+        ],
+        [
+          "Übrige HH o. K.",
+          42.9
+        ],
+        [
+          "HH m. mind. 1 K",
+          26
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          47.9
+        ],
+        [
+          "30-39 Jahre",
+          54.9
+        ],
+        [
+          "40-49 Jahre",
+          36.1
+        ],
+        [
+          "50-59 Jahre",
+          38.9
+        ],
+        [
+          "60-69 Jahre",
+          40.2
+        ],
+        [
+          "\u003E69 Jahre",
+          39
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          41.6
+        ],
+        [
+          "Ausland",
+          43.9
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          23.3
+        ],
+        [
+          "2007",
+          26.1
+        ],
+        [
+          "2011",
+          21.2
+        ],
+        [
+          "2015",
+          25.9
+        ],
+        [
+          "2019",
+          42.3
         ]
       ],
       "name": "Weiss nicht",
@@ -711,84 +711,16 @@
       "legendIndex": 0,
       "data": [
         [
-          "*Familienform",
+          "*Geschlecht",
           null
         ],
         [
-          "Einelternfamilie",
-          9.6
+          "Männlich",
+          4.9
         ],
         [
-          "Zweielternfamilie",
-          5.6
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind",
-          6.6
-        ],
-        [
-          "2 Kinder",
-          6.4
-        ],
-        [
-          "3 Kinder u.m.",
-          5.7
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre",
-          5.1
-        ],
-        [
-          "5-8 Jahre",
-          6
-        ],
-        [
-          "9-12 Jahre",
-          7.6
-        ],
-        [
-          "13-17 Jahre",
-          6.7
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule",
-          21
-        ],
-        [
-          "Sekundarstufe II",
-          8.3
-        ],
-        [
-          "Tertiärstufe",
-          3.6
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt",
-          3.4
-        ],
-        [
-          "ch\u002Fdt und andere",
-          8.7
-        ],
-        [
-          "nur andere",
-          11
+          "Weiblich",
+          4.6
         ],
         [
           "*Haushaltseinkommen",
@@ -796,15 +728,15 @@
         ],
         [
           "\u003C3 000 Fr.",
-          13.5
+          5.8
         ],
         [
           "3 000-7 499 Fr.",
-          7.1
+          5.5
         ],
         [
           "\u003E7 499 Fr.",
-          2.9
+          2.6
         ],
         [
           "*Wahlkreis",
@@ -812,35 +744,103 @@
         ],
         [
           "Grossbasel Ost",
-          4.6
+          4.5
         ],
         [
           "Grossbasel West",
-          6.7
+          3.4
         ],
         [
           "Kleinbasel",
-          8
+          5.4
         ],
         [
           "Riehen, Bettingen",
-          4.7
+          7.3
+        ],
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          6.1
+        ],
+        [
+          "Übrige HH o. K.",
+          4
+        ],
+        [
+          "HH m. mind. 1 K",
+          3.3
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          2.1
+        ],
+        [
+          "30-39 Jahre",
+          2
+        ],
+        [
+          "40-49 Jahre",
+          2.4
+        ],
+        [
+          "50-59 Jahre",
+          4.5
+        ],
+        [
+          "60-69 Jahre",
+          4.2
+        ],
+        [
+          "\u003E69 Jahre",
+          10
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          5.2
+        ],
+        [
+          "Ausland",
+          3.3
         ],
         [
           "*Befragungsjahr",
           null
         ],
         [
-          "2009",
-          10.1
+          "2003",
+          0
         ],
         [
-          "2013",
-          8.2
+          "2005",
+          0
         ],
         [
-          "2017",
-          6.3
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0.5
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          4.7
         ]
       ],
       "name": "Keine Angabe",
@@ -904,7 +904,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "renderTo": "container-8246"
+    "renderTo": "container-8279"
   },
   "title": {
     "style": {
@@ -913,7 +913,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Finanzielle Lage"
+    "text": "Zufriedenheit mit Angeboten für Jugendliche"
   },
   "subtitle": {
     "style": {
@@ -921,7 +921,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»"
+    "text": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für Jugendliche?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -979,7 +979,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "enabled": true,
@@ -1003,6 +1003,6 @@
             }
   },
   "exporting": {
-    "filename": 8246
+    "filename": 8279
   }
 }

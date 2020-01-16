@@ -6,7 +6,7 @@
       "legendIndex": 5,
       "data": [
         [
-          "-Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -18,7 +18,7 @@
           55.4
         ],
         [
-          "-Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -30,7 +30,7 @@
           55
         ],
         [
-          "-Alter",
+          "*Alter",
           null
         ],
         [
@@ -46,7 +46,7 @@
           56.6
         ],
         [
-          "-Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -58,7 +58,7 @@
           43
         ],
         [
-          "-Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -74,7 +74,7 @@
           63.5
         ],
         [
-          "-Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -94,7 +94,7 @@
           57.5
         ],
         [
-          "-Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -115,7 +115,7 @@
       "legendIndex": 4,
       "data": [
         [
-          "-Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -127,7 +127,7 @@
           39
         ],
         [
-          "-Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -139,7 +139,7 @@
           39.6
         ],
         [
-          "-Alter",
+          "*Alter",
           null
         ],
         [
@@ -155,7 +155,7 @@
           38
         ],
         [
-          "-Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -167,7 +167,7 @@
           41.1
         ],
         [
-          "-Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -183,7 +183,7 @@
           32.5
         ],
         [
-          "-Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -203,7 +203,7 @@
           35.3
         ],
         [
-          "-Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -224,7 +224,7 @@
       "legendIndex": 3,
       "data": [
         [
-          "-Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -236,7 +236,7 @@
           3.5
         ],
         [
-          "-Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -248,7 +248,7 @@
           4.3
         ],
         [
-          "-Alter",
+          "*Alter",
           null
         ],
         [
@@ -264,7 +264,7 @@
           3.2
         ],
         [
-          "-Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -276,7 +276,7 @@
           14
         ],
         [
-          "-Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -292,7 +292,7 @@
           2
         ],
         [
-          "-Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -312,7 +312,7 @@
           4.8
         ],
         [
-          "-Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -333,7 +333,7 @@
       "legendIndex": 2,
       "data": [
         [
-          "-Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -345,7 +345,7 @@
           0.3
         ],
         [
-          "-Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -357,7 +357,7 @@
           0.2
         ],
         [
-          "-Alter",
+          "*Alter",
           null
         ],
         [
@@ -373,7 +373,7 @@
           0.4
         ],
         [
-          "-Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -385,7 +385,7 @@
           0.9
         ],
         [
-          "-Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -401,7 +401,7 @@
           0.2
         ],
         [
-          "-Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -421,7 +421,7 @@
           0.8
         ],
         [
-          "-Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -437,12 +437,12 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
+      "color": "#8A8A8A",
       "index": 4,
       "legendIndex": 1,
       "data": [
         [
-          "-Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -454,7 +454,7 @@
           1.8
         ],
         [
-          "-Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -466,7 +466,7 @@
           1
         ],
         [
-          "-Alter",
+          "*Alter",
           null
         ],
         [
@@ -482,7 +482,7 @@
           1.7
         ],
         [
-          "-Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -494,7 +494,7 @@
           0.9
         ],
         [
-          "-Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -510,7 +510,7 @@
           1.8
         ],
         [
-          "-Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -530,7 +530,7 @@
           1.6
         ],
         [
-          "-Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -559,67 +559,50 @@
     },
     "labels": {
       "rotation": 0,
+      "align": "left",
+      "x": -115,
+      "useHTML": true,
       "style": {
         "color": "#000000",
         "width": 1,
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
-      "formatter": function() {
-                return this.value.replace("Einpersonen-HH", "&nbsp; &nbsp; &nbsp; Einpersonen-HH")
-                .replace("Mehrpersonen-HH", "&nbsp; &nbsp; &nbsp; Mehrpersonen-HH")
-                .replace("Männlich", "&nbsp; &nbsp; &nbsp; Männlich")
-                .replace("Weiblich", "&nbsp; &nbsp; &nbsp; Weiblich")
-                .replace("55-64 Jahre", "&nbsp; &nbsp; &nbsp; 55-64 Jahre")
-                .replace("65-74 Jahre", "&nbsp; &nbsp; &nbsp; 65-74 Jahre")
-                .replace(">74 Jahre", "&nbsp; &nbsp; &nbsp; >74 Jahre")
-                .replace("Schweiz", "&nbsp; &nbsp; &nbsp; Schweiz")
-                .replace("Ausland", "&nbsp; &nbsp; &nbsp; Ausland")
-                .replace("<5 000 Fr.", "&nbsp; &nbsp; &nbsp; <5 000 Fr.")
-                .replace("5 000-7 499 Fr.", "&nbsp; &nbsp; &nbsp; 5 000-7 499 Fr.")
-                .replace(">7 499 Fr.", "&nbsp; &nbsp; &nbsp; >7 499 Fr.")
-                .replace("Grossbasel Ost", "&nbsp; &nbsp; &nbsp; Grossbasel Ost")
-                .replace("Grossbasel West", "&nbsp; &nbsp; &nbsp; Grossbasel West")
-                .replace("Kleinbasel", "&nbsp; &nbsp; &nbsp; Kleinbasel")
-                .replace("Riehen, Bettingen", "&nbsp; &nbsp; &nbsp; Riehen, Bettingen")
-                .replace("2011", "&nbsp; &nbsp; &nbsp; 2011")
-                .replace("2015", "&nbsp; &nbsp; &nbsp; 2015")
-                
-                ;
-            },
-      "align": "left",
-      "x": -120,
-      "useHTML": true
+      "formatter": function () {
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
-                  }
-                );
-              }              
-            }
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "inverted": true,
     "width": 485,
-    "height": 613,
+    "height": 713,
+    "marginLeft": 125,
+    "marginRight": 25,
     "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "marginLeft": 130,
-    "inverted": true,
     "renderTo": "container-8273"
   },
   "title": {
@@ -669,15 +652,14 @@
       },
       "text": null
     },
+    "max": 100,
     "labels": {
       "format": "{value}%",
+      "rotation": 0,
       "style": {
         "color": "#000000"
-      },
-      "type": "category",
-      "rotation": 0
-    },
-    "max": 100
+      }
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -699,11 +681,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
+    "enabled": true,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -712,8 +698,8 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "exporting": {
     "filename": 8273
