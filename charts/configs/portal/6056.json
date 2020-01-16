@@ -262,7 +262,7 @@
         }
       },
       "stacking": "percent",
-      "pointPadding": 0,
+      "pointPadding": 0.1,
       "groupPadding": 0.1
     }
   },

@@ -13642,14 +13642,14 @@ var indikatoren = [
 		"id": 6043
 	},
 	{
-		"title": "Entwicklung des Frauenanteils im grossen Rat",
+		"title": "Frauenanteil im Grossen Rat",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.17.3.6044",
-		"kuerzelKunde": "GZ10",
-		"description": "Entwicklung des Frauenanteils im grossen Rat",
+		"kuerzelKunde": "",
+		"description": "Frauenanteil im Grossen Rat",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],

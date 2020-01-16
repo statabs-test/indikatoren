@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#008AC3",
+      "color": "#d00000",
       "stack": "m",
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
           "1968",
@@ -123,9 +123,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#ffaaaa",
       "stack": "w",
-      "legendIndex": 4,
+      "legendIndex": 3,
       "data": [
         [
           "1968",
@@ -184,7 +184,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#d00000",
+      "color": "#80eAf3",
       "stack": "w",
       "legendIndex": 1,
       "data": [
@@ -243,16 +243,6 @@
       ],
       "name": "Kandidaten",
       "turboThreshold": 0
-    },
-    {
-      "color": "#474747",
-      "stack": "t",
-      "legendIndex": 5
-    },
-    {
-      "color": "#6F6F6F",
-      "stack": "t",
-      "legendIndex": 2
     }
   ],
   "xAxis": {
@@ -295,8 +285,6 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "marginBottom": 65,
-    "marginTop": 100,
     "renderTo": "container-8457"
   },
   "title": {
@@ -367,8 +355,7 @@
       "fontWeight": "normal"
     },
     "itemMarginBottom": 5,
-    "x": 40,
-    "itemWidth": 130
+    "x": 40
   },
   "plotOptions": {
     "series": {
@@ -376,7 +363,7 @@
         "enabled": false
       },
       "stacking": "percent",
-      "pointPadding": 0,
+      "pointPadding": 0.1,
       "groupPadding": 0.1,
       "borderWidth": 0
     }

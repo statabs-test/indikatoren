@@ -3,13 +3,14 @@
     "data": {
       "seriesMapping": [
         {
-          x: 0, y: 3
+          x: 0, y: 2
         },
         {
-          x: 0, y: 4
+          x: 0, y: 3
         }
       ]
     },
+    
 /*    "yAxis": [
       {
         "labels": {
@@ -99,10 +100,7 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
-    },
+    }
   }
 }());
 
