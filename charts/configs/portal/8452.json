@@ -103,9 +103,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "min": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -138,10 +136,8 @@
             }
           }
     },
-    "renderTo": "container-8452",
-    "marginBottom": 75,
     "type": "column",
-    "inverted": false,
+    "renderTo": "container-8452",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -149,11 +145,10 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": 10
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 10,
+      "pointWidth": 25,
       "stacking": "normal"
     }
   },
@@ -193,7 +188,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "reversedStacks": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -221,13 +216,13 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

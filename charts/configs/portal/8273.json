@@ -6,7 +6,7 @@
       "legendIndex": 5,
       "data": [
         [
-          "Haushaltsform",
+          "-Haushaltsform",
           null
         ],
         [
@@ -18,7 +18,7 @@
           55.4
         ],
         [
-          "Geschlecht",
+          "-Geschlecht",
           null
         ],
         [
@@ -30,7 +30,7 @@
           55
         ],
         [
-          "Alter",
+          "-Alter",
           null
         ],
         [
@@ -46,7 +46,7 @@
           56.6
         ],
         [
-          "Staatsangehörigkeit",
+          "-Staatsangehörigkeit",
           null
         ],
         [
@@ -58,7 +58,7 @@
           43
         ],
         [
-          "Haushaltseinkommen",
+          "-Haushaltseinkommen",
           null
         ],
         [
@@ -74,7 +74,7 @@
           63.5
         ],
         [
-          "Wahlkreis",
+          "-Wahlkreis",
           null
         ],
         [
@@ -94,7 +94,7 @@
           57.5
         ],
         [
-          "Befragungsjahr",
+          "-Befragungsjahr",
           null
         ],
         [
@@ -115,7 +115,7 @@
       "legendIndex": 4,
       "data": [
         [
-          "Haushaltsform",
+          "-Haushaltsform",
           null
         ],
         [
@@ -127,7 +127,7 @@
           39
         ],
         [
-          "Geschlecht",
+          "-Geschlecht",
           null
         ],
         [
@@ -139,7 +139,7 @@
           39.6
         ],
         [
-          "Alter",
+          "-Alter",
           null
         ],
         [
@@ -155,7 +155,7 @@
           38
         ],
         [
-          "Staatsangehörigkeit",
+          "-Staatsangehörigkeit",
           null
         ],
         [
@@ -167,7 +167,7 @@
           41.1
         ],
         [
-          "Haushaltseinkommen",
+          "-Haushaltseinkommen",
           null
         ],
         [
@@ -183,7 +183,7 @@
           32.5
         ],
         [
-          "Wahlkreis",
+          "-Wahlkreis",
           null
         ],
         [
@@ -203,7 +203,7 @@
           35.3
         ],
         [
-          "Befragungsjahr",
+          "-Befragungsjahr",
           null
         ],
         [
@@ -224,7 +224,7 @@
       "legendIndex": 3,
       "data": [
         [
-          "Haushaltsform",
+          "-Haushaltsform",
           null
         ],
         [
@@ -236,7 +236,7 @@
           3.5
         ],
         [
-          "Geschlecht",
+          "-Geschlecht",
           null
         ],
         [
@@ -248,7 +248,7 @@
           4.3
         ],
         [
-          "Alter",
+          "-Alter",
           null
         ],
         [
@@ -264,7 +264,7 @@
           3.2
         ],
         [
-          "Staatsangehörigkeit",
+          "-Staatsangehörigkeit",
           null
         ],
         [
@@ -276,7 +276,7 @@
           14
         ],
         [
-          "Haushaltseinkommen",
+          "-Haushaltseinkommen",
           null
         ],
         [
@@ -292,7 +292,7 @@
           2
         ],
         [
-          "Wahlkreis",
+          "-Wahlkreis",
           null
         ],
         [
@@ -312,7 +312,7 @@
           4.8
         ],
         [
-          "Befragungsjahr",
+          "-Befragungsjahr",
           null
         ],
         [
@@ -333,7 +333,7 @@
       "legendIndex": 2,
       "data": [
         [
-          "Haushaltsform",
+          "-Haushaltsform",
           null
         ],
         [
@@ -345,7 +345,7 @@
           0.3
         ],
         [
-          "Geschlecht",
+          "-Geschlecht",
           null
         ],
         [
@@ -357,7 +357,7 @@
           0.2
         ],
         [
-          "Alter",
+          "-Alter",
           null
         ],
         [
@@ -373,7 +373,7 @@
           0.4
         ],
         [
-          "Staatsangehörigkeit",
+          "-Staatsangehörigkeit",
           null
         ],
         [
@@ -385,7 +385,7 @@
           0.9
         ],
         [
-          "Haushaltseinkommen",
+          "-Haushaltseinkommen",
           null
         ],
         [
@@ -401,7 +401,7 @@
           0.2
         ],
         [
-          "Wahlkreis",
+          "-Wahlkreis",
           null
         ],
         [
@@ -421,7 +421,7 @@
           0.8
         ],
         [
-          "Befragungsjahr",
+          "-Befragungsjahr",
           null
         ],
         [
@@ -442,7 +442,7 @@
       "legendIndex": 1,
       "data": [
         [
-          "Haushaltsform",
+          "-Haushaltsform",
           null
         ],
         [
@@ -454,7 +454,7 @@
           1.8
         ],
         [
-          "Geschlecht",
+          "-Geschlecht",
           null
         ],
         [
@@ -466,7 +466,7 @@
           1
         ],
         [
-          "Alter",
+          "-Alter",
           null
         ],
         [
@@ -482,7 +482,7 @@
           1.7
         ],
         [
-          "Staatsangehörigkeit",
+          "-Staatsangehörigkeit",
           null
         ],
         [
@@ -494,7 +494,7 @@
           0.9
         ],
         [
-          "Haushaltseinkommen",
+          "-Haushaltseinkommen",
           null
         ],
         [
@@ -510,7 +510,7 @@
           1.8
         ],
         [
-          "Wahlkreis",
+          "-Wahlkreis",
           null
         ],
         [
@@ -530,7 +530,7 @@
           1.6
         ],
         [
-          "Befragungsjahr",
+          "-Befragungsjahr",
           null
         ],
         [
