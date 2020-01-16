@@ -196,7 +196,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungswachstum nach Branchen",
-		"subtitle": "Basel-Stadt, real, Index (2014=100)",
+		"subtitle": "Basel-Stadt, real, Index (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.10",
 		"description": "Wertschöpfungswachstum nach Branchen",
@@ -235,7 +235,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungswachstum nach Branchen",
-		"subtitle": "Basel-Landschaft, Index (2014=100)",
+		"subtitle": "Basel-Landschaft, Index (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.11",
 		"description": "Wertschöpfungswachstum nach Branchen",
@@ -274,7 +274,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungswachstum nach Branchen",
-		"subtitle": "Jura, Index (2014=100)",
+		"subtitle": "Jura, Index (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.12",
 		"description": "Wertschöpfungswachstum nach Branchen",
@@ -313,7 +313,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungswachstum nach Branchen",
-		"subtitle": "BS/BL/JU, Index (2014=100)",
+		"subtitle": "BS/BL/JU, Index (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.13",
 		"description": "Wertschöpfungswachstum nach Branchen",
@@ -352,7 +352,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungswachstum nach Branchen",
-		"subtitle": "Schweiz, Index (2014=100)",
+		"subtitle": "Schweiz, Index (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.14",
 		"description": "Wertschöpfungswachstum nach Branchen",
