@@ -5,19 +5,19 @@
       "data": [
         [
           "Basel-Stadt",
-          34.8921515
+          37.07
         ],
         [
           "Basel-Landschaft",
-          20.43389459
+          21.1
         ],
         [
           "Jura",
-          4.698334224
+          4.71
         ],
         [
           "BS\u002FBL\u002FJU",
-          60.02438032
+          60.02
         ],
         [
           "Schweiz (rechte Skala)",
@@ -49,7 +49,7 @@
         ],
         [
           "Schweiz (rechte Skala)",
-          689.5
+          689.55
         ]
       ],
       "name": "BIP nominal",
@@ -147,7 +147,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "total in Mrd. Franken",
+    "text": "total in Mrd. Franken, 2018",
     "align": "left"
   },
   "yAxis": [
