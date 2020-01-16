@@ -49,7 +49,7 @@
         ],
         [
           2018,
-          171.09
+          170.95
         ]
       ],
       "name": "Pharma"
@@ -76,7 +76,7 @@
         ],
         [
           2018,
-          118.44
+          118.45
         ]
       ],
       "name": "Metallindustrie"
@@ -157,7 +157,7 @@
         ],
         [
           2018,
-          108.58
+          117.04
         ]
       ],
       "name": "Baugewerbe"
@@ -211,7 +211,7 @@
         ],
         [
           2018,
-          88.16
+          88.13
         ]
       ],
       "name": "Verkehr, Lagerei"
@@ -292,7 +292,7 @@
         ],
         [
           2018,
-          100.63
+          100.6
         ]
       ],
       "name": "Freib., wiss., tech. DL"
@@ -319,7 +319,7 @@
         ],
         [
           2018,
-          102.64
+          102.57
         ]
       ],
       "name": "Öffentl. Verwaltung, Bildung"
@@ -346,7 +346,7 @@
         ],
         [
           2018,
-          113.49
+          113.51
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
@@ -397,7 +397,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Index (2014=100)",
+    "text": "Basel-Stadt, real, Index (2014=100)",
     "align": "left"
   },
   "tooltip": {

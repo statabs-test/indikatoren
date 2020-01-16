@@ -6,19 +6,19 @@
       "legendIndex": 0,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           1908035
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           2140177
         ],
         [
-          "JU",
+          "Jura",
           388327
         ],
         [
-          "CH",
+          "Schweiz",
           54973134
         ]
       ],
@@ -31,19 +31,19 @@
       "legendIndex": 1,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           820870
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           283224
         ],
         [
-          "JU",
+          "Jura",
           76759
         ],
         [
-          "CH",
+          "Schweiz",
           11923299
         ]
       ],

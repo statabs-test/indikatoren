@@ -7,14 +7,14 @@
       "data": [
         [
           "Wegpendler",
-          9116
+          6400
         ],
         [
           "Zupendler",
-          16309
+          13654
         ]
       ],
-      "name": "Aargau",
+      "name": "Solothurn",
       "turboThreshold": 0
     },
     {
@@ -24,14 +24,14 @@
       "data": [
         [
           "Wegpendler",
-          6400
+          9116
         ],
         [
           "Zupendler",
-          13654
+          16309
         ]
       ],
-      "name": "Solothurn",
+      "name": "Aargau",
       "turboThreshold": 0
     },
     {

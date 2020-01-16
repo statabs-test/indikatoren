@@ -147,7 +147,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "total in Mio. Franken",
+    "text": "total in Mrd. Franken",
     "align": "left"
   },
   "yAxis": [

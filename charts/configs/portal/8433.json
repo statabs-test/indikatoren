@@ -44,7 +44,7 @@
           5.710955711
         ]
       ],
-      "name": "BS",
+      "name": "Basel-Stadt",
       "turboThreshold": 0
     },
     {
@@ -91,7 +91,7 @@
           6.383879611
         ]
       ],
-      "name": "BL",
+      "name": "Basel-Landschaft",
       "turboThreshold": 0
     },
     {
@@ -138,7 +138,7 @@
           6.407060843
         ]
       ],
-      "name": "JU",
+      "name": "Jura",
       "turboThreshold": 0
     }
   ],

@@ -4,19 +4,19 @@
       "color": "#B375AB",
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           85.5
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           90.9
         ],
         [
-          "JU",
+          "Jura",
           93.4
         ],
         [
-          "CH",
+          "Schweiz",
           91.1
         ]
       ],
@@ -27,19 +27,19 @@
       "color": "#FABD24",
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           87.2
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           92.6
         ],
         [
-          "JU",
+          "Jura",
           93.7
         ],
         [
-          "CH",
+          "Schweiz",
           91.5
         ]
       ],
@@ -50,19 +50,19 @@
       "color": "#FFDA80",
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           85.4
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           91.9
         ],
         [
-          "JU",
+          "Jura",
           94.9
         ],
         [
-          "CH",
+          "Schweiz",
           91.2
         ]
       ],

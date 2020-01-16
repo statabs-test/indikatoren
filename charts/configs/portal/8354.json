@@ -14,7 +14,7 @@
         ],
         [
           "Jura",
-          0.0195
+          0.0197
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -34,11 +34,11 @@
       "data": [
         [
           "Basel-Stadt",
-          0.4383
+          0.4372
         ],
         [
           "Basel-Landschaft",
-          0.1225
+          0.122
         ],
         [
           "Jura",
@@ -62,15 +62,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0056
+          0.0055
         ],
         [
           "Basel-Landschaft",
-          0.0884
+          0.0881
         ],
         [
           "Jura",
-          0.3256
+          0.326
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -90,15 +90,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0333
+          0.0332
         ],
         [
           "Basel-Landschaft",
-          0.0625
+          0.0624
         ],
         [
           "Jura",
-          0.0798
+          0.08
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -118,15 +118,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0173
+          0.0186
         ],
         [
           "Basel-Landschaft",
-          0.0661
+          0.0693
         ],
         [
           "Jura",
-          0.055
+          0.0528
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -146,15 +146,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0621
+          0.062
         ],
         [
           "Basel-Landschaft",
-          0.1823
+          0.1815
         ],
         [
           "Jura",
-          0.0991
+          0.0992
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -174,11 +174,11 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0333
+          0.0332
         ],
         [
           "Basel-Landschaft",
-          0.0481
+          0.0479
         ],
         [
           "Jura",
@@ -230,11 +230,11 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0881
+          0.088
         ],
         [
           "Basel-Landschaft",
-          0.0327
+          0.0326
         ],
         [
           "Jura",
@@ -258,11 +258,11 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0793
+          0.0792
         ],
         [
           "Basel-Landschaft",
-          0.0942
+          0.0938
         ],
         [
           "Jura",
@@ -286,11 +286,11 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0639
+          0.0637
         ],
         [
           "Basel-Landschaft",
-          0.0935
+          0.0931
         ],
         [
           "Jura",
@@ -314,15 +314,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.06
+          0.0599
         ],
         [
           "Basel-Landschaft",
-          0.0824
+          0.0821
         ],
         [
           "Jura",
-          0.0855
+          0.0856
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -342,15 +342,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.1071
+          0.1077
         ],
         [
           "Basel-Landschaft",
-          0.1149
+          0.1151
         ],
         [
           "Jura",
-          0.0936
+          0.0945
         ],
         [
           "BS\u002FBL\u002FJU",
@@ -449,7 +449,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteile an der regionalen Gesamtwertschöpfung",
+    "text": "Anteile an der regionalen Gesamtwertschöpfung, 2018",
     "align": "left"
   },
   "yAxis": {

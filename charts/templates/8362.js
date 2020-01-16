@@ -19,6 +19,7 @@
 "type": "category" ,
 labels: { 
   style: {
+    textOverflow: 'none',
     whiteSpace: "nowrap"
   },
   x: -12,

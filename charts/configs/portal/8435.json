@@ -24,7 +24,7 @@
           31.61285581
         ]
       ],
-      "name": "BS"
+      "name": "Basel-Stadt"
     },
     {
       "color": "rgb(255,128,40)",
@@ -50,7 +50,7 @@
           37.26893754
         ]
       ],
-      "name": "BL"
+      "name": "Basel-Landschaft"
     },
     {
       "color": "rgb(250,189,36)",
@@ -76,7 +76,7 @@
           35.91305163
         ]
       ],
-      "name": "JU"
+      "name": "Jura"
     }
   ],
   "chart": {
