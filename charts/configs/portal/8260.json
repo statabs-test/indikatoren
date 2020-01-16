@@ -3,7 +3,7 @@
     {
       "color": "#007A2F",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 5,
       "data": [
         [
           "Geschlecht",
@@ -66,7 +66,7 @@
           31.9
         ],
         [
-          "HH m. mind. 1 K",
+          "HH m. mind. 1 K.",
           38.3
         ],
         [
@@ -144,7 +144,7 @@
     {
       "color": "#73BA7C",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 4,
       "data": [
         [
           "Geschlecht",
@@ -207,7 +207,7 @@
           56.6
         ],
         [
-          "HH m. mind. 1 K",
+          "HH m. mind. 1 K.",
           53.9
         ],
         [
@@ -285,7 +285,7 @@
     {
       "color": "#FFBB58",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           "Geschlecht",
@@ -348,7 +348,7 @@
           9.8
         ],
         [
-          "HH m. mind. 1 K",
+          "HH m. mind. 1 K.",
           5.7
         ],
         [
@@ -426,7 +426,7 @@
     {
       "color": "#FF8028",
       "index": 3,
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
           "Geschlecht",
@@ -489,7 +489,7 @@
           0.8
         ],
         [
-          "HH m. mind. 1 K",
+          "HH m. mind. 1 K.",
           0.8
         ],
         [
@@ -567,7 +567,7 @@
     {
       "color": "#C8C8C8",
       "index": 4,
-      "legendIndex": 4,
+      "legendIndex": 1,
       "data": [
         [
           "Geschlecht",
@@ -630,7 +630,7 @@
           0.1
         ],
         [
-          "HH m. mind. 1 K",
+          "HH m. mind. 1 K.",
           0.5
         ],
         [
@@ -704,6 +704,147 @@
       ],
       "name": "Weiss nicht",
       "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          0.6
+        ],
+        [
+          "Weiblich",
+          1
+        ],
+        [
+          "Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          0.8
+        ],
+        [
+          "3000-7499 Fr.",
+          0.6
+        ],
+        [
+          "\u003E7499 Fr.",
+          0.4
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          1.6
+        ],
+        [
+          "Grossbasel West",
+          1.9
+        ],
+        [
+          "Kleinbasel",
+          2.6
+        ],
+        [
+          "Riehen, Bettingen",
+          1.4
+        ],
+        [
+          "Haushaltsform",
+          null
+        ],
+        [
+          "Single-HH",
+          0.9
+        ],
+        [
+          "Übrige HH o. K.",
+          0.7
+        ],
+        [
+          "HH m. mind. 1 K.",
+          0.8
+        ],
+        [
+          "Alter",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          0.6
+        ],
+        [
+          "30-39 Jahre",
+          0.9
+        ],
+        [
+          "40-49 Jahre",
+          0.3
+        ],
+        [
+          "50-59 Jahre",
+          0.8
+        ],
+        [
+          "60-69 Jahre",
+          0.8
+        ],
+        [
+          "\u003E69 Jahre",
+          0.7
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          1.7
+        ],
+        [
+          "Ausland",
+          0.7
+        ],
+        [
+          "Befragungsjahr",
+          null
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          1.9
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -727,37 +868,35 @@
       },
       "formatter": function() {
                 return this.value.replace("Männlich", "&nbsp; &nbsp; &nbsp; Männlich")
-                .replace("Weiblich", "&nbsp; &nbsp; &nbsp; Weiblich")
-                .replace("<3000 Fr.", "&nbsp; &nbsp; &nbsp; <3000 Fr.")
-                .replace("3000-7499 Fr.", "&nbsp; &nbsp; &nbsp; 3000-7499 Fr.")
-                .replace(">7499 Fr.", "&nbsp; &nbsp; &nbsp; >7499 Fr.")
-                .replace("Grossbasel Ost", "&nbsp; &nbsp; &nbsp; Grossbasel Ost")
-                .replace("Grossbasel West", "&nbsp; &nbsp; &nbsp; Grossbasel West")
-                .replace("Kleinbasel", "&nbsp; &nbsp; &nbsp; Kleinbasel")
-                .replace("Riehen, Bettingen", "&nbsp; &nbsp; &nbsp; Riehen, Bettingen")
-                .replace("Single-HH", "&nbsp; &nbsp; &nbsp; Single-HH")
-                .replace("Übrige HH o. K.", "&nbsp; &nbsp; &nbsp; Übrige HH o. K.")
-                .replace("HH m. mind. 1 K", "&nbsp; &nbsp; &nbsp; HH m. mind. 1 K")
-                .replace("18-29 Jahre", "&nbsp; &nbsp; &nbsp; 18-29 Jahre")
-                .replace("30-39 Jahre", "&nbsp; &nbsp; &nbsp; 30-39 Jahre")
-                .replace("40-49 Jahre", "&nbsp; &nbsp; &nbsp; 40-49 Jahre")
-                .replace("50-59 Jahre", "&nbsp; &nbsp; &nbsp; 50-59 Jahre")
-                .replace("60-69 Jahre", "&nbsp; &nbsp; &nbsp; 60-69 Jahre")
-                .replace(">69 Jahre", "&nbsp; &nbsp; &nbsp; >69 Jahre")
-                .replace("Schweiz", "&nbsp; &nbsp; &nbsp; Schweiz")
-                .replace("Ausland", "&nbsp; &nbsp; &nbsp; Ausland")
-                .replace("2003", "&nbsp; &nbsp; &nbsp; 2003")
-                .replace("2005", "&nbsp; &nbsp; &nbsp; 2005")
-                .replace("2007", "&nbsp; &nbsp; &nbsp; 2007")
-                .replace("2011", "&nbsp; &nbsp; &nbsp; 2011")
-                .replace("2015", "&nbsp; &nbsp; &nbsp; 2015")
-               .replace("2019", "&nbsp; &nbsp; &nbsp; 2019")
-                
-                
+                                .replace("Weiblich", "&nbsp; &nbsp; &nbsp; Weiblich")
+                                .replace("<3000 Fr.", "&nbsp; &nbsp; &nbsp; <3000 Fr.")
+                                .replace("3000-7499 Fr.", "&nbsp; &nbsp; &nbsp; 3000-7499 Fr.")
+                                .replace(">7499 Fr.", "&nbsp; &nbsp; &nbsp; >7499 Fr.")
+                                .replace("Grossbasel Ost", "&nbsp; &nbsp; &nbsp; Grossbasel Ost")
+                                .replace("Grossbasel West", "&nbsp; &nbsp; &nbsp; Grossbasel West")
+                                .replace("Kleinbasel", "&nbsp; &nbsp; &nbsp; Kleinbasel")
+                                .replace("Riehen, Bettingen", "&nbsp; &nbsp; &nbsp; Riehen, Bettingen")
+                                .replace("Single-HH", "&nbsp; &nbsp; &nbsp; Single-HH")
+                                .replace("Übrige HH o. K.", "&nbsp; &nbsp; &nbsp; Übrige HH o. K.")
+                                .replace("HH m. mind. 1 K.", "&nbsp; &nbsp; &nbsp; HH m. mind. 1 K.")
+                                .replace("18-29 Jahre", "&nbsp; &nbsp; &nbsp; 18-29 Jahre")
+                                .replace("30-39 Jahre", "&nbsp; &nbsp; &nbsp; 30-39 Jahre")
+                                .replace("40-49 Jahre", "&nbsp; &nbsp; &nbsp; 40-49 Jahre")
+                                .replace("50-59 Jahre", "&nbsp; &nbsp; &nbsp; 50-59 Jahre")
+                                .replace("60-69 Jahre", "&nbsp; &nbsp; &nbsp; 60-69 Jahre")
+                                .replace(">69 Jahre", "&nbsp; &nbsp; &nbsp; >69 Jahre")
+                                .replace("Schweiz", "&nbsp; &nbsp; &nbsp; Schweiz")
+                                .replace("Ausland", "&nbsp; &nbsp; &nbsp; Ausland")
+                                .replace("2003", "&nbsp; &nbsp; &nbsp; 2003")
+                                .replace("2005", "&nbsp; &nbsp; &nbsp; 2005")
+                                .replace("2007", "&nbsp; &nbsp; &nbsp; 2007")
+                                .replace("2011", "&nbsp; &nbsp; &nbsp; 2011")
+                                .replace("2015", "&nbsp; &nbsp; &nbsp; 2015")
+                                .replace("2019", "&nbsp; &nbsp; &nbsp; 2019")
                 ;
             },
       "align": "left",
-      "x": -160,
+      "x": -120,
       "useHTML": true
     }
   },
@@ -787,7 +926,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 170,
+    "marginLeft": 130,
     "inverted": true,
     "renderTo": "container-8260"
   },
