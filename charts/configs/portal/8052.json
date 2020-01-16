@@ -78,6 +78,10 @@
         [
           2018,
           34.49
+        ],
+        [
+          2019,
+          34.42
         ]
       ],
       "name": "Klybeck"
@@ -161,6 +165,10 @@
         [
           2018,
           35.51
+        ],
+        [
+          2019,
+          37.88
         ]
       ],
       "name": "Kleinhüningen"
@@ -246,7 +254,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

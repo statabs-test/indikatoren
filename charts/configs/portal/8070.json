@@ -232,7 +232,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "format": "{value:,.0f}"
     },
     "tickInterval": 250
   },

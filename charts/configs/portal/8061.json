@@ -408,7 +408,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
     "tickInterval": 500,
     "max": 4000,

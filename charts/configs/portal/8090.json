@@ -57,7 +57,7 @@
           4885
         ]
       ],
-      "name": "Fläche Kleinhüningen"
+      "name": "Freiraumfläche Kleinhüningen"
     },
     {
       "color": "#7f5f1a",
@@ -117,7 +117,7 @@
           0.36
         ]
       ],
-      "name": "Anteil Kleinh. (rechte Skala)"
+      "name": "Anteil Freiraumfläche Kleinhüningen (rechte Skala)"
     },
     {
       "color": "#b375ab",
@@ -176,7 +176,7 @@
           23407
         ]
       ],
-      "name": "Fläche Klybeck"
+      "name": "Freiraumfläche Klybeck"
     },
     {
       "color": "#923f8d",
@@ -236,7 +236,7 @@
           2.54
         ]
       ],
-      "name": "Anteil Klybeck (rechte Skala)"
+      "name": "Anteil Freiraumfläche Klybeck (rechte Skala)"
     }
   ],
   "chart": {
@@ -284,7 +284,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E und Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
     "align": "left",
     "useHTML": true
   },

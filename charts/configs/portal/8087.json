@@ -214,6 +214,7 @@
       },
       "labels": {
         "useHTML": true,
+        "format": "{value:,.1f}",
         "style": {
           "color": "#000000"
         }
