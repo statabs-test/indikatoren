@@ -44,9 +44,9 @@
             "formatter": function() {
                 return this.value.replace("Männlich", "&nbsp; &nbsp; &nbsp; Männlich")
                                 .replace("Weiblich", "&nbsp; &nbsp; &nbsp; Weiblich")
-                                .replace("<3000 Fr.", "&nbsp; &nbsp; &nbsp; <3000 Fr.")
-                                .replace("3000-7499 Fr.", "&nbsp; &nbsp; &nbsp; 3000-7499 Fr.")
-                                .replace(">7499 Fr.", "&nbsp; &nbsp; &nbsp; >7499 Fr.")
+                                .replace("<3 000 Fr.", "&nbsp; &nbsp; &nbsp; <3 000 Fr.")
+                                .replace("3 000-7 499 Fr.", "&nbsp; &nbsp; &nbsp; 3 000-7 499 Fr.")
+                                .replace(">7 499 Fr.", "&nbsp; &nbsp; &nbsp; >7 499 Fr.")
                                 .replace("Grossbasel Ost", "&nbsp; &nbsp; &nbsp; Grossbasel Ost")
                                 .replace("Grossbasel West", "&nbsp; &nbsp; &nbsp; Grossbasel West")
                                 .replace("Kleinbasel", "&nbsp; &nbsp; &nbsp; Kleinbasel")

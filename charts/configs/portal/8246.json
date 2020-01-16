@@ -90,15 +90,15 @@
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr.",
           17.1
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr.",
           20
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           8.7
         ],
         [
@@ -231,15 +231,15 @@
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr.",
           27
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr.",
           22.8
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           16.6
         ],
         [
@@ -372,15 +372,15 @@
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr.",
           18
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr.",
           22.4
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           16.3
         ],
         [
@@ -513,15 +513,15 @@
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr.",
           16.2
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr.",
           24.3
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           53.3
         ],
         [
@@ -654,15 +654,15 @@
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr.",
           8.1
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr.",
           3.4
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           2.2
         ],
         [
@@ -795,15 +795,15 @@
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr.",
           13.5
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr.",
           7.1
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           2.9
         ],
         [
@@ -882,9 +882,9 @@
                 .replace("ch/dt", "&nbsp; &nbsp; &nbsp; ch/dt")
                 //.replace("ch/dt und andere", "&nbsp; &nbsp; &nbsp; ch/dt und andere")
                 .replace("nur andere", "&nbsp; &nbsp; &nbsp; nur andere")
-                .replace("<3000 Fr.", "&nbsp; &nbsp; &nbsp; <3000 Fr.")
-                .replace("3000-7499 Fr.", "&nbsp; &nbsp; &nbsp; 3000-7499 Fr.")
-                .replace(">7499 Fr.", "&nbsp; &nbsp; &nbsp; >7499 Fr.")
+                .replace("<3 000 Fr.", "&nbsp; &nbsp; &nbsp; <3 000 Fr.")
+                .replace("3 000-7 499 Fr.", "&nbsp; &nbsp; &nbsp; 3 000-7 499 Fr.")
+                .replace(">7 499 Fr.", "&nbsp; &nbsp; &nbsp; >7 499 Fr.")
                 .replace("Grossbasel Ost", "&nbsp; &nbsp; &nbsp; Grossbasel Ost")
                 .replace("Grossbasel West", "&nbsp; &nbsp; &nbsp; Grossbasel West")
                 .replace("Kleinbasel", "&nbsp; &nbsp; &nbsp; Kleinbasel")

@@ -62,15 +62,15 @@
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           43.8
         ],
         [
-          "5000-7499 Fr.",
+          "5 000-7 499 Fr.",
           52.9
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           63.5
         ],
         [
@@ -171,15 +171,15 @@
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           45.6
         ],
         [
-          "5000-7499 Fr.",
+          "5 000-7 499 Fr.",
           42.8
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           32.5
         ],
         [
@@ -280,15 +280,15 @@
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           7.6
         ],
         [
-          "5000-7499 Fr.",
+          "5 000-7 499 Fr.",
           3.4
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           2
         ],
         [
@@ -389,15 +389,15 @@
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           1.1
         ],
         [
-          "5000-7499 Fr.",
+          "5 000-7 499 Fr.",
           0
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           0.2
         ],
         [
@@ -498,15 +498,15 @@
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           1.8
         ],
         [
-          "5000-7499 Fr.",
+          "5 000-7 499 Fr.",
           0.9
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           1.8
         ],
         [
@@ -542,7 +542,7 @@
           2
         ]
       ],
-      "name": "Weiss nicht\u002Fkeine Angabe",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -575,9 +575,9 @@
                 .replace(">74 Jahre", "&nbsp; &nbsp; &nbsp; >74 Jahre")
                 .replace("Schweiz", "&nbsp; &nbsp; &nbsp; Schweiz")
                 .replace("Ausland", "&nbsp; &nbsp; &nbsp; Ausland")
-                .replace("<5000 Fr.", "&nbsp; &nbsp; &nbsp; <5000 Fr.")
-                .replace("5000-7499 Fr.", "&nbsp; &nbsp; &nbsp; 5000-7499 Fr.")
-                .replace(">7499 Fr.", "&nbsp; &nbsp; &nbsp; >7499 Fr.")
+                .replace("<5 000 Fr.", "&nbsp; &nbsp; &nbsp; <5 000 Fr.")
+                .replace("5 000-7 499 Fr.", "&nbsp; &nbsp; &nbsp; 5 000-7 499 Fr.")
+                .replace(">7 499 Fr.", "&nbsp; &nbsp; &nbsp; >7 499 Fr.")
                 .replace("Grossbasel Ost", "&nbsp; &nbsp; &nbsp; Grossbasel Ost")
                 .replace("Grossbasel West", "&nbsp; &nbsp; &nbsp; Grossbasel West")
                 .replace("Kleinbasel", "&nbsp; &nbsp; &nbsp; Kleinbasel")
