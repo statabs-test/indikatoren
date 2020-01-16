@@ -38,6 +38,26 @@
       "fontWeight": "normal"
     }
   },
+  "tooltip": {
+    "pointFormatter": function(){
+      var s ='<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y,0),0) + '</b><br/><b>'
+      var sum = 0;
+                $.each(this.points, function(i, point) {
+                    var v =this.y; //make - to + again
+                    //s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
+                    sum += v;
+                });
+                s += 'Pendlersaldo: <b>'+ sum + '</b>';
+      if (this.series.name == "Pendlersaldo") {
+      return "" 
+    }
+      else return s 
+  },
+  /*"tooltip": {
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{Math.abs(point.y)}</b><br/>',
+  //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',*/
+   "shared": true,
+  },
   "series": [
   {"color": "#246370", "index": 1, legendIndex: 1}, /*rot */
   {"color": "#A8C3CA", "index": 2, legendIndex: 3}, /*blau */
@@ -63,11 +83,6 @@
   },
   "data":{
     "switchRowsAndColumns": true
-  },
-  "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-   "shared": true,
   },
 };
 }());
