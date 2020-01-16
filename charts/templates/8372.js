@@ -5,7 +5,7 @@
       //"type": "category",
     },
     "yAxis": {
-      "min": 0,
+      "min": 80,
     },
     "tooltip": {
       "shared": false,
