@@ -156,7 +156,7 @@
                     s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
                     sum += v;
                 });
-                s += 'Total: <b>'+ sum + '</b>';
+                s /*+= 'Total: <b>'+ sum + '</b>'*/;
                 return s;
             },
 

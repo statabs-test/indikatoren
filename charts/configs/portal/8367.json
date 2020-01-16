@@ -102,7 +102,8 @@
     },
     {
       "color": "#000000",
-      "type": "scatter",
+      "type": "line",
+      "lineWidth": 0,
       "marker": {
         "enabled": true,
         "symbol": "diamond",
@@ -180,9 +181,10 @@
             }
           }
     },
+    "renderTo": "container-8367",
     "marginBottom": 75,
     "type": "column",
-    "renderTo": "container-8367",
+    "inverted": false,
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -231,9 +233,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickInterval": 40000,
-    "tickAmount": 6
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -267,12 +267,7 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormatter": function(){
-      if (this.series.name == "Pendlersaldo") {
-      return "" 
-    }
-      else return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y,0),0) + '</b><br/><b>' 
-  },
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": true
   },
   "exporting": {

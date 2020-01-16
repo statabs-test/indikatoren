@@ -89,7 +89,7 @@ labels: {
   }
 },
 "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mio. Franken</b><br/>', 
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mrd. Franken</b><br/>', 
   "shared": false
 },  
 "chart": {      
