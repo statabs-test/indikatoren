@@ -12,7 +12,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
     {"color": "#8B2223", "index": 13}, /*dunkelrot */
@@ -31,8 +31,6 @@
  ],
   "legend": {
     "enabled": true,
-    //"y": 45,
-    //itemWidth: 120,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -42,10 +40,11 @@
     }
   },
   "chart": {
-    height: 500,
+     height: 500,
 },
   "plotOptions": {
     "line": {
+      "connectNulls": true,
       "marker":{
         "enabled": false,
         "symbol": "circle",
