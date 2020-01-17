@@ -1,81 +1,85 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#083038",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 5,
       "data": [
         [
-          "Einpersonenhaushalt",
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH",
           0.2
         ],
         [
-          "Mehrpersonenhaushalt",
-          0
+          "Mehrpersonen-HH",
+          0.2
         ],
         [
-          " ",
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          0.1
+          0.5
         ],
         [
           "Weiblich",
           0
         ],
         [
-          "  ",
+          "*Alter",
           null
         ],
         [
-          "55-64",
-          0.2
+          "55-64 Jahre",
+          0.6
         ],
         [
-          "65-74",
+          "65-74 Jahre",
           0
         ],
         [
-          "\u003E74",
+          "\u003E74 Jahre",
           0
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
           "Schweiz",
-          0
+          0.1
         ],
         [
           "Ausland",
-          0.9
+          1.9
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
-          0.2
-        ],
-        [
-          "5000- 7499 Fr.",
+          "\u003C5 000 Fr.",
           0
         ],
         [
-          "\u003E7499 Fr.",
-          0
+          "5 000-7 499 Fr.",
+          0.3
         ],
         [
-          "     ",
+          "\u003E7 499 Fr.",
+          0.4
+        ],
+        [
+          "*Wahlkreis",
           null
         ],
         [
           "Grossbasel Ost",
-          0
+          0.5
         ],
         [
           "Grossbasel West",
@@ -90,121 +94,125 @@
           0
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
           "2011",
-          0.1
+          0
         ],
         [
           "2015",
-          0.1
+          0.2
         ]
       ],
       "name": "Regelmässig",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
+      "color": "#A8C3CA",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 4,
       "data": [
         [
-          "Einpersonenhaushalt",
-          1
+          "*Haushaltsform",
+          null
         ],
         [
-          "Mehrpersonenhaushalt",
-          0.2
+          "Einpersonen-HH",
+          0.4
         ],
         [
-          " ",
+          "Mehrpersonen-HH",
+          0.8
+        ],
+        [
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          0.8
+          0.6
         ],
         [
           "Weiblich",
-          0.2
+          0.6
         ],
         [
-          "  ",
+          "*Alter",
           null
         ],
         [
-          "55-64",
-          0.8
+          "55-64 Jahre",
+          1.3
         ],
         [
-          "65-74",
-          0.2
-        ],
-        [
-          "\u003E74",
+          "65-74 Jahre",
           0.4
         ],
         [
-          "   ",
+          "\u003E74 Jahre",
+          0.2
+        ],
+        [
+          "*Staatsangehörigkeit",
           null
         ],
         [
           "Schweiz",
-          0.5
+          0.7
         ],
         [
           "Ausland",
-          0.9
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "\u003C5000 Fr.",
-          0.9
-        ],
-        [
-          "5000- 7499 Fr.",
           0
         ],
         [
-          "\u003E7499 Fr.",
-          0.2
+          "*Haushaltseinkommen",
+          null
         ],
         [
-          "     ",
+          "\u003C5 000 Fr.",
+          0.4
+        ],
+        [
+          "5 000-7 499 Fr.",
+          0.6
+        ],
+        [
+          "\u003E7 499 Fr.",
+          0.9
+        ],
+        [
+          "*Wahlkreis",
           null
         ],
         [
           "Grossbasel Ost",
-          0.5
+          0.7
         ],
         [
           "Grossbasel West",
-          0.2
+          0.7
         ],
         [
           "Kleinbasel",
-          1
+          0.3
         ],
         [
           "Riehen, Bettingen",
           0.4
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
           "2011",
-          0.2
+          0.5
         ],
         [
           "2015",
-          0.5
+          0.6
         ]
       ],
       "name": "Hin und wieder",
@@ -213,208 +221,216 @@
     {
       "color": "#FFBB58",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
-          "Einpersonenhaushalt",
-          0.4
+          "*Haushaltsform",
+          null
         ],
         [
-          "Mehrpersonenhaushalt",
-          0.3
+          "Einpersonen-HH",
+          2.4
         ],
         [
-          " ",
+          "Mehrpersonen-HH",
+          2.8
+        ],
+        [
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          0.4
+          3.3
         ],
         [
           "Weiblich",
-          0.3
+          2.1
         ],
         [
-          "  ",
+          "*Alter",
           null
         ],
         [
-          "55-64",
-          0.4
+          "55-64 Jahre",
+          5.5
         ],
         [
-          "65-74",
-          0.2
+          "65-74 Jahre",
+          1.3
         ],
         [
-          "\u003E74",
-          0.4
+          "\u003E74 Jahre",
+          1.3
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
           "Schweiz",
-          0.4
+          2.7
         ],
         [
           "Ausland",
-          0
+          2.8
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
-          0.4
+          "\u003C5 000 Fr.",
+          2.7
         ],
         [
-          "5000- 7499 Fr.",
-          0.3
+          "5 000-7 499 Fr.",
+          2.1
         ],
         [
-          "\u003E7499 Fr.",
-          0.4
+          "\u003E7 499 Fr.",
+          3.1
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
           "Grossbasel Ost",
-          0.5
+          3
         ],
         [
           "Grossbasel West",
-          0.2
+          1.4
         ],
         [
           "Kleinbasel",
-          0
+          3.8
         ],
         [
           "Riehen, Bettingen",
-          0.8
+          3.2
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
           "2011",
-          0.1
+          1.5
         ],
         [
           "2015",
-          0.4
+          2.7
         ]
       ],
       "name": "Selten",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#B00000",
       "index": 3,
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
-          "Einpersonenhaushalt",
-          52.8
+          "*Haushaltsform",
+          null
         ],
         [
-          "Mehrpersonenhaushalt",
-          69.6
+          "Einpersonen-HH",
+          43.1
         ],
         [
-          " ",
+          "Mehrpersonen-HH",
+          56.1
+        ],
+        [
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          58.1
+          58.7
         ],
         [
           "Weiblich",
-          70.7
+          45.9
         ],
         [
-          "  ",
+          "*Alter",
           null
         ],
         [
-          "55-64",
-          76.7
+          "55-64 Jahre",
+          63.3
         ],
         [
-          "65-74",
-          62.5
+          "65-74 Jahre",
+          52.8
         ],
         [
-          "\u003E74",
-          51.4
+          "\u003E74 Jahre",
+          37.8
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
           "Schweiz",
-          63.1
+          51.5
         ],
         [
           "Ausland",
-          68.2
+          51.4
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
-          50.3
+          "\u003C5 000 Fr.",
+          45.2
         ],
         [
-          "5000- 7499 Fr.",
-          66.7
+          "5 000-7 499 Fr.",
+          53.5
         ],
         [
-          "\u003E7499 Fr.",
-          76.8
+          "\u003E7 499 Fr.",
+          59.5
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
           "Grossbasel Ost",
-          61.4
+          50.2
         ],
         [
           "Grossbasel West",
-          63.7
+          53.4
         ],
         [
           "Kleinbasel",
-          62.5
+          50
         ],
         [
           "Riehen, Bettingen",
-          69.8
+          54.4
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
           "2011",
-          60.9
+          48.2
         ],
         [
           "2015",
-          63.6
+          51.5
         ]
       ],
       "name": "Nie",
@@ -423,106 +439,219 @@
     {
       "color": "#C8C8C8",
       "index": 4,
-      "legendIndex": 4,
+      "legendIndex": 1,
       "data": [
         [
-          "Einpersonenhaushalt",
-          23.7
+          "*Haushaltsform",
+          null
         ],
         [
-          "Mehrpersonenhaushalt",
-          14.8
+          "Einpersonen-HH",
+          26.3
         ],
         [
-          " ",
+          "Mehrpersonen-HH",
+          18
+        ],
+        [
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          20.6
+          18.5
         ],
         [
           "Weiblich",
-          14.8
+          23.1
         ],
         [
-          "  ",
+          "*Alter",
           null
         ],
         [
-          "55-64",
-          12.4
+          "55-64 Jahre",
+          14.3
         ],
         [
-          "65-74",
-          22.9
+          "65-74 Jahre",
+          26.3
         ],
         [
-          "\u003E74",
-          18.6
+          "\u003E74 Jahre",
+          22.7
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
           "Schweiz",
-          18.2
+          20.7
         ],
         [
           "Ausland",
-          15.9
+          25.2
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
-          23.5
+          "\u003C5 000 Fr.",
+          23.9
         ],
         [
-          "5000- 7499 Fr.",
+          "5 000-7 499 Fr.",
+          21.1
+        ],
+        [
+          "\u003E7 499 Fr.",
           17.4
         ],
         [
-          "\u003E7499 Fr.",
-          12.5
-        ],
-        [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
           "Grossbasel Ost",
-          20.8
+          23.5
         ],
         [
           "Grossbasel West",
-          19.2
+          22.4
         ],
         [
           "Kleinbasel",
-          17.7
+          20.5
         ],
         [
           "Riehen, Bettingen",
-          11.9
+          15.5
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
           "2011",
-          16.8
+          17.2
         ],
         [
           "2015",
-          17.9
+          21
         ]
       ],
       "name": "Nicht möglich\u002Fnicht vorhanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH",
+          27.7
+        ],
+        [
+          "Mehrpersonen-HH",
+          22
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          18.3
+        ],
+        [
+          "Weiblich",
+          28.2
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre",
+          15.1
+        ],
+        [
+          "65-74 Jahre",
+          19.2
+        ],
+        [
+          "\u003E74 Jahre",
+          38
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          24.4
+        ],
+        [
+          "Ausland",
+          18.7
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr.",
+          27.7
+        ],
+        [
+          "5 000-7 499 Fr.",
+          22.3
+        ],
+        [
+          "\u003E7 499 Fr.",
+          18.7
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          22
+        ],
+        [
+          "Grossbasel West",
+          21.9
+        ],
+        [
+          "Kleinbasel",
+          25.3
+        ],
+        [
+          "Riehen, Bettingen",
+          26.6
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011",
+          32.6
+        ],
+        [
+          "2015",
+          24
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -539,47 +668,50 @@
     },
     "labels": {
       "rotation": 0,
+      "align": "left",
+      "x": -115,
+      "useHTML": true,
       "style": {
         "color": "#000000",
         "width": 1,
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
-      "formatter": function() {
-                return this.value.replace(" ", " ");
-            },
-      "align": "left",
-      "x": -120
+      "formatter": function () {
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
-                  }
-                );
-              }              
-            }
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "inverted": true,
     "width": 485,
-    "height": 513,
+    "height": 713,
+    "marginLeft": 125,
+    "marginRight": 25,
     "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "marginLeft": 150,
-    "inverted": true,
     "renderTo": "container-8328"
   },
   "title": {
@@ -629,15 +761,14 @@
       },
       "text": null
     },
+    "max": 100,
     "labels": {
       "format": "{value}%",
+      "rotation": 0,
       "style": {
         "color": "#000000"
-      },
-      "type": "category",
-      "rotation": 0
-    },
-    "max": 100
+      }
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -659,11 +790,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
+    "enabled": true,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -672,8 +807,8 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "exporting": {
     "filename": 8328

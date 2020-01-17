@@ -1,25 +1,26 @@
 ﻿	Regelmässig	Hin und wieder	Selten	Nie	Nicht möglich/nicht vorhanden	Keine Angabe
-Einpersonenhaushalt	3	12.8	12.6	39.9	9.1	22.5
-Mehrpersonenhaushalt	1.5	8.9	11.7	56.2	5.4	16.2
-.						
-Männlich	2.9	11	12.6	44.5	7.2	21.8
-Weiblich	1	9.6	11.5	57.9	6.2	13.9
-..						
-55-64	2.1	11.5	14	57.9	5	9.4
-65-74	1.7	10.3	12.2	56.2	6.5	13.1
->74	2.4	9.1	9.9	37.1	8.4	33
-...						
-Schweiz	2.1	10.5	12.4	49.8	6.5	18.7
-Ausland	1.9	8.4	9.3	58.9	9.3	12.1
-....						
-<5000 Fr.	2.9	8.9	10.1	43.4	9.6	25.1
-5000- 7499 Fr.	1.8	13.1	11.9	51.7	4	17.4
->7499 Fr.	2	11.1	14	58.4	4.2	10.2
-.....						
-Grossbasel Ost	0.7	8.9	12.6	49.5	8.4	19.8
-Grossbasel West	2.7	9.1	12.3	55.5	5.9	14.4
-Kleinbasel	3.1	13.9	10.1	46.5	6.3	20.1
-Riehen, Bettingen	2	10.7	13.5	48.8	5.6	19.4
-......						
-2011	1.5	6.7	7.5	53.1	8.1	23.1
-2015	2	10.3	12.1	50.5	6.7	18.4
+*Haushaltsform						
+Einpersonen-HH	3.6	17.2	14.6	33.6	10.1	20.9
+Mehrpersonen-HH	3.3	16.7	17.9	37.6	5.8	18.8
+*Geschlecht						
+Männlich	2.9	16.1	18.5	39.7	6.4	16.4
+Weiblich	3.7	17.7	15.4	33.4	8.1	21.8
+*Alter						
+55-64 Jahre	4	21.6	22.6	35.8	5.2	10.7
+65-74 Jahre	4.2	19.6	17.3	37.3	7.2	14.5
+>74 Jahre	1.7	9.3	10.4	35.2	9.5	33.9
+*Staatsangehörigkeit						
+Schweiz	3.4	17.3	16.8	35.4	7.2	20
+Ausland	3.7	13.1	15.9	44.9	9.3	13.1
+*Haushaltseinkommen						
+<5 000 Fr.	3.1	15.4	14.3	36.5	9.8	20.8
+5 000-7 499 Fr.	4	17.7	16.8	38.2	4	19.3
+>7 499 Fr.	4.2	19.4	19.2	37.2	5.6	14.5
+*Wahlkreis						
+Grossbasel Ost	2.7	16.1	17.1	37.9	8.7	17.6
+Grossbasel West	4.1	17.8	16.4	37.9	5.9	17.8
+Kleinbasel	3.8	17	18.1	30.9	8.7	21.5
+Riehen, Bettingen	2.4	18.3	15.9	37.7	4.8	21
+*Befragungsjahr						
+2011	2.1	11.4	11.7	39.2	6.9	28.8
+2015	3.4	16.9	16.7	36.2	7.3	19.6
