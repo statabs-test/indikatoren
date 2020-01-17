@@ -6,44 +6,84 @@
       "legendIndex": 0,
       "data": [
         [
-          "Deutschland",
-          60.2
+          "1999",
+          33801
         ],
         [
-          "Italien",
-          71.9
+          "2000",
+          35400
         ],
         [
-          "Türkei",
-          84.3
+          "2001",
+          36554
         ],
         [
-          "EU-17 + EFTA",
-          58
+          "2002",
+          37118
         ],
         [
-          "EU-Ost",
-          21.2
+          "2003",
+          37121
         ],
         [
-          "Balkan",
-          82.2
+          "2004",
+          37122
         ],
         [
-          "Mittel- und Südamerika",
-          43.6
+          "2005",
+          36874
         ],
         [
-          "Arabische Länder",
-          28.6
+          "2006",
+          36596
         ],
         [
-          "Afrikanische Länder",
-          38.8
+          "2007",
+          35821
         ],
         [
-          "Übrige Länder",
-          36
+          "2008",
+          35595
+        ],
+        [
+          "2009",
+          35876
+        ],
+        [
+          "2010",
+          36421
+        ],
+        [
+          "2011",
+          37378
+        ],
+        [
+          "2012",
+          38470
+        ],
+        [
+          "2013",
+          39659
+        ],
+        [
+          "2014",
+          39952
+        ],
+        [
+          "2015",
+          40481
+        ],
+        [
+          "2016",
+          41416
+        ],
+        [
+          "2017",
+          41830
+        ],
+        [
+          "2018",
+          43039
         ]
       ],
       "name": "C",
@@ -55,44 +95,84 @@
       "legendIndex": 1,
       "data": [
         [
-          "Deutschland",
-          35.2
+          "1999",
+          15370
         ],
         [
-          "Italien",
-          25.5
+          "2000",
+          14027
         ],
         [
-          "Türkei",
-          14.7
+          "2001",
+          13494
         ],
         [
-          "EU-17 + EFTA",
-          37.1
+          "2002",
+          14467
         ],
         [
-          "EU-Ost",
-          68.9
+          "2003",
+          15204
         ],
         [
-          "Balkan",
-          16.1
+          "2004",
+          15811
         ],
         [
-          "Mittel- und Südamerika",
-          51.9
+          "2005",
+          16117
         ],
         [
-          "Arabische Länder",
-          41.7
+          "2006",
+          16520
         ],
         [
-          "Afrikanische Länder",
-          44.2
+          "2007",
+          18142
         ],
         [
-          "Übrige Länder",
-          49.1
+          "2008",
+          19619
+        ],
+        [
+          "2009",
+          20532
+        ],
+        [
+          "2010",
+          21838
+        ],
+        [
+          "2011",
+          22527
+        ],
+        [
+          "2012",
+          22447
+        ],
+        [
+          "2013",
+          22818
+        ],
+        [
+          "2014",
+          23844
+        ],
+        [
+          "2015",
+          24490
+        ],
+        [
+          "2016",
+          25049
+        ],
+        [
+          "2017",
+          25309
+        ],
+        [
+          "2018",
+          25416
         ]
       ],
       "name": "B",
@@ -104,44 +184,84 @@
       "legendIndex": 2,
       "data": [
         [
-          "Deutschland",
-          0
+          "1999",
+          503
         ],
         [
-          "Italien",
-          0
+          "2000",
+          568
         ],
         [
-          "Türkei",
-          0.3
+          "2001",
+          462
         ],
         [
-          "EU-17 + EFTA",
-          0
+          "2002",
+          459
         ],
         [
-          "EU-Ost",
-          0
+          "2003",
+          414
         ],
         [
-          "Balkan",
-          0.8
+          "2004",
+          414
         ],
         [
-          "Mittel- und Südamerika",
-          0.1
+          "2005",
+          433
         ],
         [
-          "Arabische Länder",
-          22
+          "2006",
+          418
         ],
         [
-          "Afrikanische Länder",
-          12.4
+          "2007",
+          348
         ],
         [
-          "Übrige Länder",
-          2.5
+          "2008",
+          302
+        ],
+        [
+          "2009",
+          293
+        ],
+        [
+          "2010",
+          327
+        ],
+        [
+          "2011",
+          348
+        ],
+        [
+          "2012",
+          364
+        ],
+        [
+          "2013",
+          391
+        ],
+        [
+          "2014",
+          568
+        ],
+        [
+          "2015",
+          659
+        ],
+        [
+          "2016",
+          734
+        ],
+        [
+          "2017",
+          818
+        ],
+        [
+          "2018",
+          870
         ]
       ],
       "name": "F",
@@ -153,44 +273,84 @@
       "legendIndex": 3,
       "data": [
         [
-          "Deutschland",
-          2
+          "1999",
+          644
         ],
         [
-          "Italien",
-          1.7
+          "2000",
+          685
         ],
         [
-          "Türkei",
-          0.2
+          "2001",
+          864
         ],
         [
-          "EU-17 + EFTA",
-          2.7
+          "2002",
+          1026
         ],
         [
-          "EU-Ost",
-          8.7
+          "2003",
+          1510
         ],
         [
-          "Balkan",
-          0.5
+          "2004",
+          2078
         ],
         [
-          "Mittel- und Südamerika",
-          2.1
+          "2005",
+          2806
         ],
         [
-          "Arabische Länder",
-          1.3
+          "2006",
+          4022
         ],
         [
-          "Afrikanische Länder",
-          0.5
+          "2007",
+          3599
         ],
         [
-          "Übrige Länder",
-          8.3
+          "2008",
+          3545
+        ],
+        [
+          "2009",
+          3851
+        ],
+        [
+          "2010",
+          2434
+        ],
+        [
+          "2011",
+          2564
+        ],
+        [
+          "2012",
+          2753
+        ],
+        [
+          "2013",
+          3153
+        ],
+        [
+          "2014",
+          2984
+        ],
+        [
+          "2015",
+          2445
+        ],
+        [
+          "2016",
+          2007
+        ],
+        [
+          "2017",
+          2096
+        ],
+        [
+          "2018",
+          2069
         ]
       ],
       "name": "L",
@@ -202,44 +362,84 @@
       "legendIndex": 4,
       "data": [
         [
-          "Deutschland",
-          0
+          "1999",
+          1359
         ],
         [
-          "Italien",
-          0
+          "2000",
+          562
         ],
         [
-          "Türkei",
-          0.4
+          "2001",
+          483
         ],
         [
-          "EU-17 + EFTA",
-          0
+          "2002",
+          508
         ],
         [
-          "EU-Ost",
-          0
+          "2003",
+          490
         ],
         [
-          "Balkan",
-          0.3
+          "2004",
+          386
         ],
         [
-          "Mittel- und Südamerika",
-          0.1
+          "2005",
+          258
         ],
         [
-          "Arabische Länder",
-          6.3
+          "2006",
+          204
         ],
         [
-          "Afrikanische Länder",
-          3.5
+          "2007",
+          175
         ],
         [
-          "Übrige Länder",
-          1.4
+          "2008",
+          262
+        ],
+        [
+          "2009",
+          295
+        ],
+        [
+          "2010",
+          281
+        ],
+        [
+          "2011",
+          388
+        ],
+        [
+          "2012",
+          517
+        ],
+        [
+          "2013",
+          534
+        ],
+        [
+          "2014",
+          356
+        ],
+        [
+          "2015",
+          425
+        ],
+        [
+          "2016",
+          448
+        ],
+        [
+          "2017",
+          399
+        ],
+        [
+          "2018",
+          333
         ]
       ],
       "name": "N",
@@ -251,44 +451,84 @@
       "legendIndex": 5,
       "data": [
         [
-          "Deutschland",
-          2.6
+          "1999",
+          604
         ],
         [
-          "Italien",
-          1
+          "2000",
+          605
         ],
         [
-          "Türkei",
-          0.1
+          "2001",
+          667
         ],
         [
-          "EU-17 + EFTA",
-          2.2
+          "2002",
+          708
         ],
         [
-          "EU-Ost",
-          1.2
+          "2003",
+          614
         ],
         [
-          "Balkan",
-          0.2
+          "2004",
+          608
         ],
         [
-          "Mittel- und Südamerika",
-          2.2
+          "2005",
+          552
         ],
         [
-          "Arabische Länder",
-          0.3
+          "2006",
+          582
         ],
         [
-          "Afrikanische Länder",
-          0.5
+          "2007",
+          588
         ],
         [
-          "Übrige Länder",
-          2.6
+          "2008",
+          723
+        ],
+        [
+          "2009",
+          830
+        ],
+        [
+          "2010",
+          831
+        ],
+        [
+          "2011",
+          890
+        ],
+        [
+          "2012",
+          976
+        ],
+        [
+          "2013",
+          997
+        ],
+        [
+          "2014",
+          1075
+        ],
+        [
+          "2015",
+          1087
+        ],
+        [
+          "2016",
+          1154
+        ],
+        [
+          "2017",
+          1158
+        ],
+        [
+          "2018",
+          1204
         ]
       ],
       "name": "Übrige",
@@ -297,13 +537,17 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       }
     },
     "tickLength": 0,
@@ -311,35 +555,54 @@
     "tickInterval": 1
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "renderTo": "container-8377",
     "marginBottom": 75,
-    "inverted": true
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 10,
+      "stacking": "normal"
+    }
   },
   "title": {
     "style": {
@@ -348,7 +611,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländer nach Art der Bewilligung"
+    "text": "Anzahl Ausländer nach Art der Bewilligung"
   },
   "subtitle": {
     "style": {
@@ -357,17 +620,13 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "und Staatsangehörigkeit, Basel-Stadt, 2018",
+    "text": "Basel-Stadt",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -379,12 +638,17 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value:,.0f}"
     },
-    "max": 100
+    "tickAmount": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -397,69 +661,21 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-14"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 15
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "pointPadding": 100,
-      "borderWidth": 0,
-      "pointWidth": 20,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": 8377

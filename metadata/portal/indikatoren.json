@@ -7994,46 +7994,6 @@
 		"id": 5186
 	},
 	{
-		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.19.1.5188",
-		"kuerzelKunde": "GW11",
-		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
-		"thema": "19 Rechtspflege",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-08-19T16:35:50.5050",
-		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Sicherheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Gewaltstraftaten ist im Jahr 2018 im Vergleich zum Vorjahr von 316 auf 257 pro 100 000 Einwohner zurückgegangen.",
-		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_04_00_00_00_311",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5188,
-		"chart-id": 5188,
-		"filter": "",
-		"id": 5188
-	},
-	{
 		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
 		"kuerzel": "I.50.1.5192",
