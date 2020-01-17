@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Clara",
-          "y": 16,
-          "Wert": 0.0877021068
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.0115429011
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Clara",
-          "y": 17,
-          "Wert": 0.4706026458
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.2808772605
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Clara",
-          "y": 8,
-          "Wert": 0.4728074473
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 18,
+          "Wert": 0.5225086572
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Clara",
-          "y": 13,
-          "Wert": 0.2634854772
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 0.2977608385
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Clara",
-          "y": 8,
-          "Wert": 0.2954545455
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 18,
+          "Wert": 0.6153846154
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Clara",
-          "y": 13,
-          "Wert": 0.338606403
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 8,
+          "Wert": 0.2898389783
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Clara",
-          "y": 7,
-          "Wert": 0.3155435317
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.3150434385
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Clara",
-          "y": 4,
-          "Wert": 0.1988700565
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.1532481954
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Clara",
-          "y": 7,
-          "Wert": 1929.2055336
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 1823.16
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Clara",
-          "y": 1,
-          "Wert": 0.023715415
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 8,
+          "Wert": 0.102
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Clara",
-          "y": 5,
-          "Wert": 0.1596210671
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.067259476
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Clara",
-          "y": 2,
-          "Wert": 66.433217693
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 16,
+          "Wert": 89.764261168
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Clara",
-          "y": 5,
-          "Wert": 36.286571056
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 21,
+          "Wert": 53.158121706
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Clara",
-          "y": 5,
-          "Wert": 534.14120083
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 17,
+          "Wert": 5639.5632458
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Clara",
-          "y": 4,
-          "Wert": 6362.7900621
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 18,
+          "Wert": 16990.146778
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Clara",
-          "y": 3,
-          "Wert": 0.6647432124
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 21,
+          "Wert": 0.8563773753
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Clara",
-          "y": 12,
-          "Wert": 0.6431100458
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 20,
+          "Wert": 4.1077454555
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Clara",
-          "y": 16,
-          "Wert": 0.0539961926
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.0257474605
         }
       ],
       "name": "Wert",
@@ -183,7 +183,7 @@
     "zoomType": "xy",
     "type": "area",
     "polar": true,
-    "renderTo": "container-8307"
+    "renderTo": "container-8295"
   },
   "pane": {},
   "title": {
@@ -194,7 +194,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Clara - Quartierradar"
+    "text": "Altstadt Grossbasel - Quartierradar"
   },
   "subtitle": {
     "style": {
@@ -288,6 +288,6 @@
   },
   "exporting": {
     "allowHTML": false,
-    "filename": 8307
+    "filename": 8295
   }
 }

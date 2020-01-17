@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0357071614
+          "Wohnviertel": "St. Alban",
+          "y": 9,
+          "Wert": 0.0382347841
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.3810093756
+          "Wohnviertel": "St. Alban",
+          "y": 10,
+          "Wert": 0.344980059
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.5487731897
+          "Wohnviertel": "St. Alban",
+          "y": 16,
+          "Wert": 0.5086700191
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.3196893367
+          "Wohnviertel": "St. Alban",
+          "y": 10,
+          "Wert": 0.2372775244
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.2916666667
+          "Wohnviertel": "St. Alban",
+          "y": 13,
+          "Wert": 0.4888888889
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 16,
-          "Wert": 0.3728395062
+          "Wohnviertel": "St. Alban",
+          "y": 20,
+          "Wert": 0.438564752
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2802712946
+          "Wohnviertel": "St. Alban",
+          "y": 10,
+          "Wert": 0.3256459164
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.174382716
+          "Wohnviertel": "St. Alban",
+          "y": 16,
+          "Wert": 0.3003165988
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1899.0847145
+          "Wohnviertel": "St. Alban",
+          "y": 14,
+          "Wert": 1939.0912898
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0773480663
+          "Wohnviertel": "St. Alban",
+          "y": 15,
+          "Wert": 0.3358458961
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Vorstädte",
-          "y": 8,
-          "Wert": 0.1947071744
+          "Wohnviertel": "St. Alban",
+          "y": 14,
+          "Wert": 0.3251612185
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 82.107153371
+          "Wohnviertel": "St. Alban",
+          "y": 18,
+          "Wert": 93.409726538
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 49.837307449
+          "Wohnviertel": "St. Alban",
+          "y": 17,
+          "Wert": 48.422274199
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 6521.1233466
+          "Wohnviertel": "St. Alban",
+          "y": 18,
+          "Wert": 5697.8093081
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 17096.20668
+          "Wohnviertel": "St. Alban",
+          "y": 17,
+          "Wert": 16688.864751
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7730196667
+          "Wohnviertel": "St. Alban",
+          "y": 10,
+          "Wert": 0.7285669841
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 21,
-          "Wert": 4.3439132243
+          "Wohnviertel": "St. Alban",
+          "y": 19,
+          "Wert": 2.2766626224
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.0242808282
+          "Wohnviertel": "St. Alban",
+          "y": 7,
+          "Wert": 0.0295674895
         }
       ],
       "name": "Wert",
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
   },
   "legend": {
     "enabled": false,

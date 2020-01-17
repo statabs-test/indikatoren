@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0357071614
+          "Wohnviertel": "Bruderholz",
+          "y": 3,
+          "Wert": 0.0189163193
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.3810093756
+          "Wohnviertel": "Bruderholz",
+          "y": 3,
+          "Wert": 0.2469808699
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.5487731897
+          "Wohnviertel": "Bruderholz",
+          "y": 11,
+          "Wert": 0.4916105589
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.3196893367
+          "Wohnviertel": "Bruderholz",
+          "y": 2,
+          "Wert": 0.1524556245
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.2916666667
+          "Wohnviertel": "Bruderholz",
+          "y": 20,
+          "Wert": 0.6585365854
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 16,
-          "Wert": 0.3728395062
+          "Wohnviertel": "Bruderholz",
+          "y": 17,
+          "Wert": 0.410793163
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2802712946
+          "Wohnviertel": "Bruderholz",
+          "y": 20,
+          "Wert": 0.4236400556
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.174382716
+          "Wohnviertel": "Bruderholz",
+          "y": 21,
+          "Wert": 0.38621087
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1899.0847145
+          "Wohnviertel": "Bruderholz",
+          "y": 18,
+          "Wert": 1949.2155832
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0773480663
+          "Wohnviertel": "Bruderholz",
+          "y": 20,
+          "Wert": 0.7323135755
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Vorstädte",
-          "y": 8,
-          "Wert": 0.1947071744
+          "Wohnviertel": "Bruderholz",
+          "y": 19,
+          "Wert": 0.7130779141
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 82.107153371
+          "Wohnviertel": "Bruderholz",
+          "y": 20,
+          "Wert": 109.46916648
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 49.837307449
+          "Wohnviertel": "Bruderholz",
+          "y": 18,
+          "Wert": 48.463106267
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 6521.1233466
+          "Wohnviertel": "Bruderholz",
+          "y": 21,
+          "Wert": 18285.117337
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 17096.20668
+          "Wohnviertel": "Bruderholz",
+          "y": 20,
+          "Wert": 22172.442991
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7730196667
+          "Wohnviertel": "Bruderholz",
+          "y": 11,
+          "Wert": 0.7357069134
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 21,
-          "Wert": 4.3439132243
+          "Wohnviertel": "Bruderholz",
+          "y": 2,
+          "Wert": 0.1384419676
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.0242808282
+          "Wohnviertel": "Bruderholz",
+          "y": 5,
+          "Wert": 0.0251482114
         }
       ],
       "name": "Wert",

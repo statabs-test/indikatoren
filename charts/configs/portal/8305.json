@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0357071614
+          "Wohnviertel": "St. Johann",
+          "y": 15,
+          "Wert": 0.0866516806
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.3810093756
+          "Wohnviertel": "St. Johann",
+          "y": 16,
+          "Wert": 0.434435881
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.5487731897
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 0.4767180475
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.3196893367
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 0.2306659205
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.2916666667
+          "Wohnviertel": "St. Johann",
+          "y": 11,
+          "Wert": 0.3632478632
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 16,
-          "Wert": 0.3728395062
+          "Wohnviertel": "St. Johann",
+          "y": 5,
+          "Wert": 0.2311418136
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2802712946
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 0.3235693712
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.174382716
+          "Wohnviertel": "St. Johann",
+          "y": 10,
+          "Wert": 0.2524217882
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1899.0847145
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 1933.2118421
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0773480663
+          "Wohnviertel": "St. Johann",
+          "y": 13,
+          "Wert": 0.2480263158
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Vorstädte",
-          "y": 8,
-          "Wert": 0.1947071744
+          "Wohnviertel": "St. Johann",
+          "y": 12,
+          "Wert": 0.2842565586
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 82.107153371
+          "Wohnviertel": "St. Johann",
+          "y": 10,
+          "Wert": 71.702207331
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 49.837307449
+          "Wohnviertel": "St. Johann",
+          "y": 6,
+          "Wert": 36.361505244
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 6521.1233466
+          "Wohnviertel": "St. Johann",
+          "y": 9,
+          "Wert": 575.16967243
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 17096.20668
+          "Wohnviertel": "St. Johann",
+          "y": 6,
+          "Wert": 6657.9447
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7730196667
+          "Wohnviertel": "St. Johann",
+          "y": 5,
+          "Wert": 0.7033538377
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 21,
-          "Wert": 4.3439132243
+          "Wohnviertel": "St. Johann",
+          "y": 15,
+          "Wert": 1.1019534325
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.0242808282
+          "Wohnviertel": "St. Johann",
+          "y": 15,
+          "Wert": 0.050458782
         }
       ],
       "name": "Wert",

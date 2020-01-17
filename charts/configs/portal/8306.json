@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0357071614
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 13,
+          "Wert": 0.0678936605
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.3810093756
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 12,
+          "Wert": 0.3762781186
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.5487731897
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 21,
+          "Wert": 0.5713701431
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.3196893367
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 21,
+          "Wert": 0.3347845015
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.2916666667
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 9,
+          "Wert": 0.3333333333
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 16,
-          "Wert": 0.3728395062
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 7,
+          "Wert": 0.2828520919
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2802712946
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 3,
+          "Wert": 0.2862985685
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.174382716
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 2,
+          "Wert": 0.1579257513
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1899.0847145
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 2,
+          "Wert": 1880.7092199
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0773480663
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 7,
+          "Wert": 0.0992907801
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Vorstädte",
-          "y": 8,
-          "Wert": 0.1947071744
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 2,
+          "Wert": 0.0809475552
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 82.107153371
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 9,
+          "Wert": 71.346925972
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 49.837307449
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 12,
+          "Wert": 42.766153846
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 6521.1233466
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 11,
+          "Wert": 1406.173482
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 17096.20668
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 12,
+          "Wert": 9082.149938
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7730196667
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 6,
+          "Wert": 0.7043903035
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 21,
-          "Wert": 4.3439132243
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 16,
+          "Wert": 1.6002980016
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.0242808282
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 17,
+          "Wert": 0.0542989532
         }
       ],
       "name": "Wert",

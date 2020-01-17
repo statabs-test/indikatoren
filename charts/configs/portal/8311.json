@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0357071614
+          "Wohnviertel": "Matthäus",
+          "y": 19,
+          "Wert": 0.1157151041
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.3810093756
+          "Wohnviertel": "Matthäus",
+          "y": 19,
+          "Wert": 0.5079880339
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.5487731897
+          "Wohnviertel": "Matthäus",
+          "y": 7,
+          "Wert": 0.4695436319
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.3196893367
+          "Wohnviertel": "Matthäus",
+          "y": 11,
+          "Wert": 0.2474408294
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.2916666667
+          "Wohnviertel": "Matthäus",
+          "y": 5,
+          "Wert": 0.2648648649
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 16,
-          "Wert": 0.3728395062
+          "Wohnviertel": "Matthäus",
+          "y": 2,
+          "Wert": 0.181429716
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2802712946
+          "Wohnviertel": "Matthäus",
+          "y": 5,
+          "Wert": 0.3063362289
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.174382716
+          "Wohnviertel": "Matthäus",
+          "y": 7,
+          "Wert": 0.2172171281
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1899.0847145
+          "Wohnviertel": "Matthäus",
+          "y": 6,
+          "Wert": 1925.2362205
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0773480663
+          "Wohnviertel": "Matthäus",
+          "y": 4,
+          "Wert": 0.0708661417
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Vorstädte",
-          "y": 8,
-          "Wert": 0.1947071744
+          "Wohnviertel": "Matthäus",
+          "y": 6,
+          "Wert": 0.1653432841
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 82.107153371
+          "Wohnviertel": "Matthäus",
+          "y": 3,
+          "Wert": 67.260189147
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 49.837307449
+          "Wohnviertel": "Matthäus",
+          "y": 4,
+          "Wert": 34.932337722
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 6521.1233466
+          "Wohnviertel": "Matthäus",
+          "y": 8,
+          "Wert": 568.75968476
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 17096.20668
+          "Wohnviertel": "Matthäus",
+          "y": 5,
+          "Wert": 6536.4357864
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7730196667
+          "Wohnviertel": "Matthäus",
+          "y": 4,
+          "Wert": 0.6812807264
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Vorstädte",
-          "y": 21,
-          "Wert": 4.3439132243
+          "Wohnviertel": "Matthäus",
+          "y": 5,
+          "Wert": 0.1872287699
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.0242808282
+          "Wohnviertel": "Matthäus",
+          "y": 18,
+          "Wert": 0.0555946177
         }
       ],
       "name": "Wert",

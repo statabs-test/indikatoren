@@ -4,63 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 5,
-          "Wert": 0.0292712067
+          "Wohnviertel": "Klybeck",
+          "y": 21,
+          "Wert": 0.1373920197
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 0.3823178017
+          "Wohnviertel": "Klybeck",
+          "y": 20,
+          "Wert": 0.5220074044
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.5459976105
+          "Wohnviertel": "Klybeck",
+          "y": 2,
+          "Wert": 0.4179350062
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Klybeck",
+          "y": 8,
+          "Wert": 0.2196580008
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 0.1640625
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 15,
-          "Wert": 0.3679706601
+          "Wohnviertel": "Klybeck",
+          "y": 3,
+          "Wert": 0.2086920869
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2751891677
+          "Wohnviertel": "Klybeck",
+          "y": 12,
+          "Wert": 0.3448512272
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.1668704156
+          "Wohnviertel": "Klybeck",
+          "y": 14,
+          "Wert": 0.2863878639
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1898.8284133
+          "Wohnviertel": "Klybeck",
+          "y": 12,
+          "Wert": 1937.3478261
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0774907749
+          "Wohnviertel": "Klybeck",
+          "y": 5,
+          "Wert": 0.0709382151
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Klybeck",
+          "y": 3,
+          "Wert": 0.1199746955
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 81.919421488
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 65.501328374
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 31.766005032
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 182.96207936
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 4335.4490206
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7795234
+          "Wohnviertel": "Klybeck",
+          "y": 1,
+          "Wert": 0.6147351268
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Klybeck",
+          "y": 10,
+          "Wert": 0.4792851255
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Klybeck",
+          "y": 21,
+          "Wert": 0.0719648949
         }
       ],
       "name": "Wert",

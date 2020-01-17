@@ -4,63 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Vorstädte",
-          "y": 5,
-          "Wert": 0.0292712067
+          "Wohnviertel": "Rosental",
+          "y": 18,
+          "Wert": 0.1030701754
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 0.3823178017
+          "Wohnviertel": "Rosental",
+          "y": 21,
+          "Wert": 0.556871345
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.5459976105
+          "Wohnviertel": "Rosental",
+          "y": 3,
+          "Wert": 0.4308479532
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Rosental",
+          "y": 7,
+          "Wert": 0.2162282657
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Rosental",
+          "y": 2,
+          "Wert": 0.2164948454
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 15,
-          "Wert": 0.3679706601
+          "Wohnviertel": "Rosental",
+          "y": 1,
+          "Wert": 0.1240057108
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Vorstädte",
-          "y": 2,
-          "Wert": 0.2751891677
+          "Wohnviertel": "Rosental",
+          "y": 1,
+          "Wert": 0.2043859649
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.1668704156
+          "Wohnviertel": "Rosental",
+          "y": 13,
+          "Wert": 0.2710585356
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 1898.8284133
+          "Wohnviertel": "Rosental",
+          "y": 19,
+          "Wert": 1950.2
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0774907749
+          "Wohnviertel": "Rosental",
+          "y": 3,
+          "Wert": 0.068852459
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Rosental",
+          "y": 4,
+          "Wert": 0.1400398587
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 81.919421488
+          "Wohnviertel": "Rosental",
+          "y": 5,
+          "Wert": 69.496442255
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Rosental",
+          "y": 3,
+          "Wert": 33.602657907
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Rosental",
+          "y": 3,
+          "Wert": 318.34641689
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Rosental",
+          "y": 7,
+          "Wert": 6933.7445733
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7795234
+          "Wohnviertel": "Rosental",
+          "y": 9,
+          "Wert": 0.727021636
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Rosental",
+          "y": 13,
+          "Wert": 0.730837811
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Rosental",
+          "y": 20,
+          "Wert": 0.0654724892
         }
       ],
       "name": "Wert",
