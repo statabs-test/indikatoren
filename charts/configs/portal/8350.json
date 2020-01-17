@@ -74,11 +74,11 @@
       },
       "x": -12,
       "rotation": 0,
-      "formatter": function() {
-  //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
-  return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstan</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstan</span>(rechte  Skala)")
-  .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
-  }
+      "formatter": function () {
+          //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
+          return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstan</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstan</span>(rechte  Skala)")
+            .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+        }
     },
     "tickLength": 0
   },
@@ -125,7 +125,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": -0.5
     },
     "column": {
       "colorByPoint": true
