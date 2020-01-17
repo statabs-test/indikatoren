@@ -29041,5 +29041,45 @@
 		"chart-id": 8457,
 		"filter": "",
 		"id": 8457
+	},
+	{
+		"title": "Mittelwert und Median des Reinvermögens",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.08459",
+		"kuerzelKunde": "WE11",
+		"description": "Mittelwert und Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-06-03T10:10:57.5757",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "06_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6903,
+		"chart-id": 8459,
+		"filter": "",
+		"id": 8459
 	}
 ]
