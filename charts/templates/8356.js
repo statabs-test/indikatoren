@@ -33,10 +33,10 @@
     "enabled": true,
     //"y": 45,
     //itemWidth: 120,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemMarginBottom": 5,
-    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }

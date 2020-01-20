@@ -31,16 +31,16 @@
  ],
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemMarginBottom": 5,
-    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "chart": {
-     height: 500,
+    // height: 500,
 },
   "plotOptions": {
     "line": {
