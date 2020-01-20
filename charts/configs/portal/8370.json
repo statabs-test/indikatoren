@@ -4,24 +4,24 @@
       "color": "#008AC3",
       "data": [
         [
-          "BS",
-          0.634
+          "Basel-Stadt",
+          63.4
         ],
         [
-          "BL",
-          2.262
+          "Basel-Landschaft",
+          226.21
         ],
         [
-          "JU",
-          0.314
+          "Jura",
+          31.43
         ],
         [
           "BS\u002FBL\u002FJU",
-          1.211
+          121.14
         ],
         [
-          "CH",
-          0.338
+          "Schweiz",
+          33.82
         ]
       ],
       "name": "Exporte",
@@ -31,24 +31,24 @@
       "color": "#FABD24",
       "data": [
         [
-          "BS",
-          0.238
+          "Basel-Stadt",
+          23.78
         ],
         [
-          "BL",
-          0.999
+          "Basel-Landschaft",
+          99.95
         ],
         [
-          "JU",
-          0.279
+          "Jura",
+          27.87
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.52
+          52.01
         ],
         [
-          "CH",
-          0.293
+          "Schweiz",
+          29.27
         ]
       ],
       "name": "Importe",
