@@ -394,7 +394,7 @@
       },
       "format": "{value}%"
     },
-    "tickInterval": 10,
+    "tickInterval": 20,
     "min": 0
   },
   "navigation": {

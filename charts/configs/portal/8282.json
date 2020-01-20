@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil Familienhaushalte 2018",
+      "name": "Ausländeranteil der Jugendlichen 2018 (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,93 +6563,93 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          33.6
+          28.9063
         ],
         [
           2,
-          29.8
+          32.6226
         ],
         [
           3,
-          34
+          32.3699
         ],
         [
           4,
-          36.6
+          29.8981
         ],
         [
           5,
-          42.5
+          30.1415
         ],
         [
           6,
-          33.9
+          33.2155
         ],
         [
           7,
-          56.3
+          18.5143
         ],
         [
           8,
-          45.9
+          15.9817
         ],
         [
           9,
-          35.3
+          22.1311
         ],
         [
           10,
-          37.2
+          32.2144
         ],
         [
           11,
-          39.4
+          34.9299
         ],
         [
           12,
-          24.9
+          37.3057
         ],
         [
           13,
-          34.9
+          42
         ],
         [
           14,
-          36.3
+          28.3451
         ],
         [
           15,
-          51.3
+          20.3529
         ],
         [
           16,
-          39.7
+          48.3911
         ],
         [
           17,
-          35.1
+          43.8426
         ],
         [
           18,
-          42.4
+          45.1306
         ],
         [
           19,
-          49.7
+          44.9231
         ],
         [
           20,
-          57
+          22.5013
         ],
         [
           30,
-          60.1
+          30.5556
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          2.34
+          9.2093
         ],
         [
           "Vorstädte",
-          2.32
+          -2.8302
         ],
         [
           "Am Ring",
-          0.97
+          0.218
         ],
         [
           "Breite",
-          -1.57
+          2.6155
         ],
         [
           "St. Alban",
-          -0.11
+          7.3154
         ],
         [
           "Gundeldingen",
-          -0.88
+          -1.7887
         ],
         [
           "Bruderholz",
-          1.3
+          1.9816
         ],
         [
           "Bachletten",
-          0.46
+          -0.3356
         ],
         [
           "Gotthelf",
-          -0.17
+          -0.7674
         ],
         [
           "Iselin",
-          -0.44
+          -0.2346
         ],
         [
           "St. Johann",
-          -0.49
+          -2.9183
         ],
         [
           "Altstadt Kleinbasel",
-          -0.26
+          2.66
         ],
         [
           "Clara",
-          0.4
+          -3.4545
         ],
         [
           "Wettstein",
-          -0.02
+          4.3384
         ],
         [
           "Hirzbrunnen",
-          0.06
+          4.3224
         ],
         [
           "Rosental",
-          -2.32
+          8.521
         ],
         [
           "Matthäus",
-          -2.29
+          -3.362
         ],
         [
           "Klybeck",
-          -1.45
+          -4.34
         ],
         [
           "Kleinhüningen",
-          0.71
+          -12.3372
         ],
         [
           "Riehen",
-          -1.17
+          6.4626
         ],
         [
           "Bettingen",
-          -3.11
+          0.4942
         ]
       ],
-      "name": "Veränderung gegenüber 2011"
+      "name": "Veränderung gegenüber 2009"
     },
     {
       "name": "Rhein",
@@ -7005,7 +7005,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' Prozentpunkte </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -7016,7 +7016,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 3; 
+	                var maxValueInLegend = 8; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -7024,7 +7024,7 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil Familien- <br/> haushalte (%)", 245, 210);
+					fn.addLegendTitle(chart, "Ausländeranteil <br/> in %", 245, 210);
 					
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 355, 210);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
@@ -7050,7 +7050,7 @@
 					fn.AddPieLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-8277"
+    "renderTo": "container-8282"
   },
   "title": {
     "style": {
@@ -7060,7 +7060,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Familienhaushalte"
+    "text": "Ausländeranteil der Jugendlichen"
   },
   "subtitle": {
     "style": {
@@ -7069,7 +7069,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "",
     "align": "left"
   },
   "credits": {
@@ -7106,32 +7106,32 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 34.9,
+        "to": 24.9999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E \u003C 35,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E \u003C 25,0"
+      },
+      {
+        "from": 25,
+        "to": 30.999,
+        "color": "#A8C3CA",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E25,0 − 30,9"
+      },
+      {
+        "from": 31,
+        "to": 34.99999,
+        "color": "#689199",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E31,0 − 34,9"
       },
       {
         "from": 35,
-        "to": 39.9,
-        "color": "#A8C3CA",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E35,0 − 39,9"
-      },
-      {
-        "from": 40,
-        "to": 44.9,
-        "color": "#689199",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E40,0 − 44,9"
-      },
-      {
-        "from": 45,
-        "to": 49.9,
+        "to": 42.999,
         "color": "#246370",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E45,0 − 49,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E45,0 − 42,9"
       },
       {
-        "from": 50,
+        "from": 43,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E ≥ 50,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E ≥ 43,0"
       }
     ]
   },
@@ -7207,7 +7207,7 @@
 			            }
       }
     },
-    "filename": 8277
+    "filename": 8282
   },
   "customFunctions": {
     "hideOnZoom": function(e, selector){

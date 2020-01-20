@@ -27,28 +27,28 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:34.9,
+                to:24.9999,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 35,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 25,0"
             }, {
-                from: 35.0,
-                to: 39.9,
+                from: 25.0,
+                to: 30.999,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>35,0 − 39,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − 30,9"
             }, {
-                from: 40.0,
-                to: 44.9,
+                from: 31.0,
+                to: 34.99999,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>40,0 − 44,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>31,0 − 34,9"
             },{
-                from: 45.0,
-                to: 49.9,
+                from: 35.0,
+                to: 42.999,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − 49,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − 42,9"
             },{
-                from: 50,
+                from: 43,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 50,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 43,0"
             }], 
         },
         "data": {
@@ -80,7 +80,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
 				}
 			}, 
@@ -122,7 +122,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' Prozentpunkte </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -133,7 +133,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 3; 
+	                var maxValueInLegend = 8; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -141,7 +141,7 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil Familien- <br/> haushalte (%)", 245, 210);
+					fn.addLegendTitle(chart, "Ausländeranteil <br/> in %", 245, 210);
 					
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 355, 210);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');

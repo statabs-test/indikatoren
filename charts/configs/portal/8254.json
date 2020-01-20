@@ -490,7 +490,7 @@
       },
       "format": "{value}%"
     },
-    "tickInterval": 10,
+    "tickInterval": 20,
     "min": 0
   },
   "navigation": {
@@ -522,6 +522,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
+    "itemWidth": 150,
     "align": "left"
   },
   "tooltip": {

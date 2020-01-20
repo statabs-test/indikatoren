@@ -1213,6 +1213,45 @@ var indikatorensetData = [
 		"id": 8281
 	},
 	{
+		"title": "Ausländeranteil der Jugendlichen",
+		"subtitle": "",
+		"kuerzel": "I.01.1.08282",
+		"kuerzelKunde": "",
+		"description": "Ausländeranteil der Jugendlichen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchsten Ausländeranteile unter den Jugendlichen waren 2018 mit jeweils über 40% in den Wohnvierteln Clara, Matthäus, Kleinhüningen, Klybeck und Kleinhüningen zu finden. Seit 2009 sank dieser Anteil im Wohnviertel Kleinhüningen um 12,3 Prozenpunkte und stieg in der Alstadt Grossbasel im selben Zeitraum um 9,2 Prozentpunkte.",
+		"erlaeuterungen": "Ausländeranteil der Wohnbevölkerung im Alter von 16 bis 25 Jahren. Bevölkerungsbestand zum Jahresende.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8282,
+		"chart-id": 8282,
+		"filter": "",
+		"id": 8282
+	},
+	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.08283",
