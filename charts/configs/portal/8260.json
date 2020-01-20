@@ -6,7 +6,7 @@
       "legendIndex": 5,
       "data": [
         [
-          "Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -18,7 +18,7 @@
           29.5
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -34,7 +34,7 @@
           41
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -54,7 +54,7 @@
           30.6
         ],
         [
-          "Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -70,35 +70,35 @@
           38.3
         ],
         [
-          "Alter",
+          "*Alter",
           null
         ],
         [
-          "18-29 J.",
+          "18-29 Jahre",
           43.2
         ],
         [
-          "30-39 J.",
+          "30-39 Jahre",
           39.8
         ],
         [
-          "40-49 J.",
+          "40-49 Jahre",
           39.7
         ],
         [
-          "50-59 J.",
+          "50-59 Jahre",
           31.6
         ],
         [
-          "60-69 J.",
+          "60-69 Jahre",
           30
         ],
         [
-          "\u003E69 J.",
+          "\u003E69 Jahre",
           18.8
         ],
         [
-          "Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -110,7 +110,7 @@
           33.6
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -147,7 +147,7 @@
       "legendIndex": 4,
       "data": [
         [
-          "Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -159,7 +159,7 @@
           54.6
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -175,7 +175,7 @@
           52.9
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -195,7 +195,7 @@
           55
         ],
         [
-          "Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -211,35 +211,35 @@
           53.9
         ],
         [
-          "Alter",
+          "*Alter",
           null
         ],
         [
-          "18-29 J.",
+          "18-29 Jahre",
           45.2
         ],
         [
-          "30-39 J.",
+          "30-39 Jahre",
           49.1
         ],
         [
-          "40-49 J.",
+          "40-49 Jahre",
           53.4
         ],
         [
-          "50-59 J.",
+          "50-59 Jahre",
           53.3
         ],
         [
-          "60-69 J.",
+          "60-69 Jahre",
           55.6
         ],
         [
-          "\u003E69 J.",
+          "\u003E69 Jahre",
           60.6
         ],
         [
-          "Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -251,7 +251,7 @@
           51
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -288,7 +288,7 @@
       "legendIndex": 3,
       "data": [
         [
-          "Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -300,7 +300,7 @@
           12.3
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -316,7 +316,7 @@
           4.9
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -336,7 +336,7 @@
           11.2
         ],
         [
-          "Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -352,35 +352,35 @@
           5.7
         ],
         [
-          "Alter",
+          "*Alter",
           null
         ],
         [
-          "18-29 J.",
+          "18-29 Jahre",
           7.7
         ],
         [
-          "30-39 J.",
+          "30-39 Jahre",
           8.1
         ],
         [
-          "40-49 J.",
+          "40-49 Jahre",
           4.6
         ],
         [
-          "50-59 J.",
+          "50-59 Jahre",
           11.5
         ],
         [
-          "60-69 J.",
+          "60-69 Jahre",
           11.6
         ],
         [
-          "\u003E69 J.",
+          "\u003E69 Jahre",
           17.5
         ],
         [
-          "Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -392,7 +392,7 @@
           11.2
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -429,7 +429,7 @@
       "legendIndex": 2,
       "data": [
         [
-          "Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -441,7 +441,7 @@
           2.2
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -457,7 +457,7 @@
           0.6
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -477,7 +477,7 @@
           1.1
         ],
         [
-          "Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -493,35 +493,35 @@
           0.8
         ],
         [
-          "Alter",
+          "*Alter",
           null
         ],
         [
-          "18-29 J.",
+          "18-29 Jahre",
           0.6
         ],
         [
-          "30-39 J.",
+          "30-39 Jahre",
           1.9
         ],
         [
-          "40-49 J.",
+          "40-49 Jahre",
           2
         ],
         [
-          "50-59 J.",
+          "50-59 Jahre",
           2.2
         ],
         [
-          "60-69 J.",
+          "60-69 Jahre",
           1.7
         ],
         [
-          "\u003E69 J.",
+          "\u003E69 Jahre",
           2
         ],
         [
-          "Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -533,7 +533,7 @@
           2.7
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -570,7 +570,7 @@
       "legendIndex": 1,
       "data": [
         [
-          "Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -582,7 +582,7 @@
           0.4
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -598,7 +598,7 @@
           0.1
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -618,7 +618,7 @@
           0.7
         ],
         [
-          "Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -634,35 +634,35 @@
           0.5
         ],
         [
-          "Alter",
+          "*Alter",
           null
         ],
         [
-          "18-29 J.",
+          "18-29 Jahre",
           2.6
         ],
         [
-          "30-39 J.",
+          "30-39 Jahre",
           0.3
         ],
         [
-          "40-49 J.",
+          "40-49 Jahre",
           0
         ],
         [
-          "50-59 J.",
+          "50-59 Jahre",
           0.5
         ],
         [
-          "60-69 J.",
+          "60-69 Jahre",
           0.3
         ],
         [
-          "\u003E69 J.",
+          "\u003E69 Jahre",
           0.4
         ],
         [
-          "Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -674,7 +674,7 @@
           0.9
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -711,7 +711,7 @@
       "legendIndex": 0,
       "data": [
         [
-          "Geschlecht",
+          "*Geschlecht",
           null
         ],
         [
@@ -723,7 +723,7 @@
           1
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
@@ -739,7 +739,7 @@
           0.4
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
@@ -759,7 +759,7 @@
           1.4
         ],
         [
-          "Haushaltsform",
+          "*Haushaltsform",
           null
         ],
         [
@@ -775,35 +775,35 @@
           0.8
         ],
         [
-          "Alter",
+          "*Alter",
           null
         ],
         [
-          "18-29 J.",
+          "18-29 Jahre",
           0.6
         ],
         [
-          "30-39 J.",
+          "30-39 Jahre",
           0.9
         ],
         [
-          "40-49 J.",
+          "40-49 Jahre",
           0.3
         ],
         [
-          "50-59 J.",
+          "50-59 Jahre",
           0.8
         ],
         [
-          "60-69 J.",
+          "60-69 Jahre",
           0.8
         ],
         [
-          "\u003E69 J.",
+          "\u003E69 Jahre",
           0.7
         ],
         [
-          "Staatsangehörigkeit",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -815,7 +815,7 @@
           0.7
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [

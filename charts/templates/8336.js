@@ -2,14 +2,14 @@
     return {
     series: [
         {
-            color: "#FFDA80",
+            color: "#B00000",
             index: 0,
             legendIndex: 0 
         },
         {
-            color: "#CD9C00",
-            index: 1,
-            legendIndex: 1 
+            color: "#474747",
+            index: 2,
+            legendIndex: 2 
         },/*
         {
             color: "#D7E8D2",
@@ -17,9 +17,9 @@
             legendIndex: 2 
         },*/
         {
-            color: "#007A2F",
-            index: 2,
-            legendIndex: 2
+            color: "#C8C8C8",
+            index: 1,
+            legendIndex: 1
         }/*,
         {
             color: "#E7CEE2",
