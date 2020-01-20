@@ -46180,13 +46180,13 @@
 		"id": 8369
 	},
 	{
-		"title": "Exporte/Importe",
+		"title": "Exporte und Importe",
 		"subtitle": "Anteile am nominalen BIP, 2018",
-		"kuerzel": "",
+		"kuerzel": "I.06.4.08370",
 		"kuerzelKunde": "4.1",
-		"description": "Exporte/Importe",
+		"description": "Exporte und Importe",
 		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "",
+		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -46221,13 +46221,13 @@
 		"id": 8370
 	},
 	{
-		"title": "Exporte/Importe",
+		"title": "Entwicklung der Exporte",
 		"subtitle": "Index (2014 = 100)",
-		"kuerzel": "",
+		"kuerzel": "I.06.4.08371",
 		"kuerzelKunde": "4.2",
-		"description": "Exporte/Importe",
+		"description": "Entwicklung der Exporte",
 		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "",
+		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -47033,6 +47033,46 @@
 		"chart-id": 8447,
 		"filter": "",
 		"id": 8447
+	},
+	{
+		"title": "Entwicklung der Importe",
+		"subtitle": "Index (2014 = 100)",
+		"kuerzel": "I.06.4.08462",
+		"kuerzelKunde": "4.2b",
+		"description": "Entwicklung der Importe",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-20T12:23:48.4848",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung EZV"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8462,
+		"chart-id": 8462,
+		"filter": "",
+		"id": 8462
 	},
 	{
 		"title": "Test Daten",

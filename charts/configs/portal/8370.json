@@ -5,23 +5,23 @@
       "data": [
         [
           "BS",
-          22.4
+          0.634
         ],
         [
           "BL",
-          29.4
+          2.262
         ],
         [
           "JU",
-          32.8
+          0.314
         ],
         [
           "BS\u002FBL\u002FJU",
-          34.8
+          1.211
         ],
         [
           "CH",
-          28.2
+          0.338
         ]
       ],
       "name": "Exporte",
@@ -32,23 +32,23 @@
       "data": [
         [
           "BS",
-          24.2
+          0.238
         ],
         [
           "BL",
-          30.6
+          0.999
         ],
         [
           "JU",
-          28
+          0.279
         ],
         [
           "BS\u002FBL\u002FJU",
-          8.1
+          0.52
         ],
         [
           "CH",
-          28.6
+          0.293
         ]
       ],
       "name": "Importe",
@@ -126,7 +126,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Exporte\u002FImporte"
+    "text": "Exporte und Importe"
   },
   "subtitle": {
     "style": {
