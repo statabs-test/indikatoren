@@ -16,7 +16,7 @@
   },
   "series": [
     {"color": "#8B2223", "index": 13}, /*dunkelrot */
-    {"color": "#DC440E", "index": 12}, /*hellrot */
+    {"color": "#DC440E", "index": 12, showInLegend: false}, /*hellrot */
     {"color": "#FF8028", "index": 11}, /*dunkelorange */
     {"color": "#FFBB58", "index": 10}, /*dunkelgelb */
     {"color": "#FFDA80", "index": 9}, /*hellgelb */
@@ -40,7 +40,7 @@
     }
   },
   "chart": {
-    height: 500,
+  //  height: 500,
 },
   "plotOptions": {
     "line": {

@@ -3,6 +3,7 @@
     {
       "color": "#8B2223",
       "index": 13,
+      "showInLegend": false,
       "data": [
         [
           2014,
@@ -111,6 +112,7 @@
     {
       "color": "#FFDA80",
       "index": 9,
+      "showInLegend": false,
       "data": [
         [
           2014,
