@@ -46181,7 +46181,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Exporte/Importe",
-		"subtitle": "Anteil am BIP",
+		"subtitle": "Anteile am nominalen BIP, 2018",
 		"kuerzel": "",
 		"kuerzelKunde": "4.1",
 		"description": "Exporte/Importe",
@@ -46207,7 +46207,10 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"BAK Economics",
+			"Eidgenössische Zollverwaltung EZV"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -46219,7 +46222,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Exporte/Importe",
-		"subtitle": "(absolut, indexiert, Veränderung?)",
+		"subtitle": "Index (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "4.2",
 		"description": "Exporte/Importe",

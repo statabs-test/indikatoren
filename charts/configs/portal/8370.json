@@ -1,118 +1,57 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#008AC3",
       "data": [
         [
-          "Basel-Stadt",
+          "BS",
           22.4
         ],
         [
-          "Basel-Landschaft",
+          "BL",
           29.4
         ],
         [
-          "Jura",
+          "JU",
           32.8
         ],
         [
-          "Schweiz",
+          "BS\u002FBL\u002FJU",
+          34.8
+        ],
+        [
+          "CH",
           28.2
         ]
       ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "data": [
-        [
-          "Basel-Stadt",
-          24.2
-        ],
-        [
-          "Basel-Landschaft",
-          30.6
-        ],
-        [
-          "Jura",
-          28
-        ],
-        [
-          "Schweiz",
-          28.6
-        ]
-      ],
-      "name": "2015",
+      "name": "Exporte",
       "turboThreshold": 0
     },
     {
       "color": "#FABD24",
       "data": [
         [
-          "Basel-Stadt",
-          22.7
+          "BS",
+          24.2
         ],
         [
-          "Basel-Landschaft",
-          29.8
+          "BL",
+          30.6
         ],
         [
-          "Jura",
-          32.6
+          "JU",
+          28
         ],
         [
-          "Schweiz",
-          28.7
+          "BS\u002FBL\u002FJU",
+          8.1
+        ],
+        [
+          "CH",
+          28.6
         ]
       ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFDA80",
-      "data": [
-        [
-          "Basel-Stadt",
-          26.4
-        ],
-        [
-          "Basel-Landschaft",
-          31.7
-        ],
-        [
-          "Jura",
-          32.1
-        ],
-        [
-          "Schweiz",
-          29.5
-        ]
-      ],
-      "name": "2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#008AC3",
-      "data": [
-        [
-          "Basel-Stadt",
-          26.1
-        ],
-        [
-          "Basel-Landschaft",
-          31.6
-        ],
-        [
-          "Jura",
-          34.1
-        ],
-        [
-          "Schweiz",
-          29.8
-        ]
-      ],
-      "name": "2018",
+      "name": "Importe",
       "turboThreshold": 0
     }
   ],
@@ -167,7 +106,7 @@
     "renderTo": "container-8370",
     "marginBottom": 75,
     "type": "column",
-    "spacingBottom": 30
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -177,8 +116,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "groupPadding": 0.1
+      "pointPadding": 0
     }
   },
   "title": {
@@ -197,7 +135,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil am BIP",
+    "text": "Anteile am nominalen BIP, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -235,9 +173,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -35
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "symbolRadius": 0,

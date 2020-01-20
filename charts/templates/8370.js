@@ -3,7 +3,7 @@
   "plotOptions": {
     "series": {    
     	pointPadding: 0, 
-		groupPadding: 0.1, 
+		//groupPadding: 0.1, 
 		borderWidth: 0,
       "dataLabels": {
         "style": {
@@ -21,11 +21,8 @@
     }              
   },
   "series": [
-    {"color": "#923F8D"},
-    {"color": "#B375AB"},
+    {"color": "#008AC3"},  
     {"color": "#FABD24"},
-    {"color": "#FFDA80"},
-    {"color": "#008AC3"}    
   ],
   "legend": {
     "enabled": true,

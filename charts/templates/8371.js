@@ -5,18 +5,19 @@
       //"type": "category",
     },
     "yAxis": {
-      "min": 0,
+      tickInterval: 20,
+      "min": 80,
     },
     "tooltip": {
       "shared": false,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
     }, 
     "series": [
-      { "color": "rgb(71,71,71)" },
-      { "color": "rgb(255,128,40)" },
-      { "color": "rgb(250,189,36)" },
-     // { "color": "rgb(180,117,171)" },
-      { "color": "rgb(153,3,0)" }
+      { "color": "#474747" },
+      { "color": "#FF8028" },
+      { "color": "#FABD24" },
+      { "color": "#923F8D" },
+      { "color": "#990300" },
     ],
     "legend": {
       "enabled": true,
