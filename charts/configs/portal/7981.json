@@ -823,6 +823,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "padding": 0,
@@ -840,7 +841,8 @@
     },
     "column": {
       "stacking": "normal",
-      "lineWidth": 0
+      "lineWidth": 0,
+      "borderWidth": 0
     }
   },
   "exporting": {

@@ -727,6 +727,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 15,
     "renderTo": "container-7978",
     "spacingBottom": 12
   },
@@ -821,6 +822,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "padding": 0

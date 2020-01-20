@@ -363,6 +363,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "enabled": true,
@@ -373,7 +374,8 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

@@ -3,7 +3,7 @@
     {
       "color": "rgb(255, 218, 128)",
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "y": 20,
         "style": {
           "inside": true,
@@ -36,7 +36,7 @@
     {
       "color": "rgb(186, 168, 90)",
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "y": 20,
         "style": {
           "inside": true,
@@ -182,8 +182,8 @@
     },
     "type": "column",
     "spacingTop": 30,
-    "renderTo": "container-7974",
-    "spacingBottom": 12
+    "spacingBottom": 16,
+    "renderTo": "container-7974"
   },
   "plotOptions": {
     "series": {
@@ -309,11 +309,12 @@
     "itemMarginBottom": 0,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
       "width": 40
     },
     "useHTML": true,
-    "y": -40,
+    "y": -50,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "center",
@@ -325,7 +326,7 @@
       return this.name.slice(-4);
   },
     "title": {
-      "text": "Verfügbare Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung (rechte Skala):",
+      "text": " \u003Cbr\u003EVerfügbare Zimmer:\u003Cbr\u003E Nettozimmerauslastung (rechte Skala):\u003C\u002Fdiv\u003E",
       "style": {
         "fontWeight": "normal",
         "fontSize": "10px"
@@ -335,7 +336,8 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

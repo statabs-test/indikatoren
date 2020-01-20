@@ -128,7 +128,7 @@
           "fontWeight": "normal",
           "color": "black"
         },
-        "enabled": true
+        "enabled": false
       },
       "stacking": "normal"
     }
@@ -203,9 +203,10 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
-    "reversed": true,
+    "reversed": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -214,7 +215,8 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "exporting": {

@@ -170,19 +170,21 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden in den 65 Beherbergungsbetrieben insgesamt 8 939 Betten gezählt. Zu Beginn der Erhebung im Jahr 1934 hatte die Basler Hotellerie über 42 Betriebe mit 2 228 Betten verfügt.",
+		"lesehilfe": "2019 gab es in den 63 baselstädtischen Hotels insgesammt 9 175 Betten. Trotz der geringeren Anzahl Betrieben gegenüber dem Vorjahr entspricht dies einer leichten Zunahme von 236 Betten. In der ersten Erhebung 1934 gab es in den 42 Betrieben insgesamt 2 228 Betten.",
 		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Deshalb ist die Bettenzahl ab 2016 mit den früher publizierten Daten der vergangenen Jahre nicht vergleichbar.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_005",
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7976"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"

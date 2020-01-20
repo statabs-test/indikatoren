@@ -116,6 +116,7 @@
                 }
     },
     "type": "bar",
+    "marginRight": 15,
     "renderTo": "container-7977",
     "spacingBottom": 12
   },
@@ -129,7 +130,7 @@
           "fontWeight": "normal",
           "color": "black"
         },
-        "enabled": true,
+        "enabled": false,
         "format": "{point.y:,.0f}"
       },
       "stacking": "normal"
@@ -204,6 +205,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "reversed": false,
@@ -215,7 +217,8 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

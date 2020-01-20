@@ -234,9 +234,10 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 0,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "padding": 0
@@ -245,6 +246,27 @@
     "series": {
       "marker": {
         "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false,
+        "formatter": function() {
+          //# Display only Max/Min labels
+           if (this.point.y === this.series.dataMin || this.point.y === this.series.dataMax) {
+           return Highcharts.numberFormat(this.point.y, 2, ",", " ");
+          }
+          /*        
+            var max  = this.series.data[this.series.data.length - 1];
+            var min  = this.series.data[2];
+            if (this.point.x === min.x || this.point.x === max.x) {
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
+            }*/
+            return "";
+          },
+        "style": {
+          "fontSize": "10px",
+          "color": "black",
+          "fontWeight": "normal"
+        }
       }
     },
     "marker": {

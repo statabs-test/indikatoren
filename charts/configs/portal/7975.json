@@ -137,153 +137,6 @@
         ]
       ],
       "name": "Effektiv: Mo-So"
-    },
-    {
-      "color": "rgb(220, 68, 14)",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2009,
-          0.688160977
-        ],
-        [
-          2010,
-          0.749111245
-        ],
-        [
-          2011,
-          0.75294624
-        ],
-        [
-          2012,
-          0.749524665
-        ],
-        [
-          2013,
-          0.762417552
-        ],
-        [
-          2014,
-          0.791777105
-        ],
-        [
-          2015,
-          0.811454292
-        ],
-        [
-          2016,
-          0.820510757
-        ],
-        [
-          2017,
-          0.847212231
-        ],
-        [
-          2018,
-          0.878641231
-        ]
-      ],
-      "name": "Auf Basis Zimmerzahl 2009: Mo-Do"
-    },
-    {
-      "color": "rgb(68, 141, 43)",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2009,
-          0.495799875
-        ],
-        [
-          2010,
-          0.500391865
-        ],
-        [
-          2011,
-          0.513796426
-        ],
-        [
-          2012,
-          0.50639202
-        ],
-        [
-          2013,
-          0.516058915
-        ],
-        [
-          2014,
-          0.543887783
-        ],
-        [
-          2015,
-          0.574902495
-        ],
-        [
-          2016,
-          0.569384427
-        ],
-        [
-          2017,
-          0.630549511
-        ],
-        [
-          2018,
-          0.659497948
-        ]
-      ],
-      "name": "Auf Basis Zimmerzahl 2009: Fr-So"
-    },
-    {
-      "color": "rgb(250, 189, 36)",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2009,
-          0.606040831
-        ],
-        [
-          2010,
-          0.642192655
-        ],
-        [
-          2011,
-          0.650316643
-        ],
-        [
-          2012,
-          0.645379335
-        ],
-        [
-          2013,
-          0.657180413
-        ],
-        [
-          2014,
-          0.685987167
-        ],
-        [
-          2015,
-          0.710368432
-        ],
-        [
-          2016,
-          0.712457561
-        ],
-        [
-          2017,
-          0.754179994
-        ],
-        [
-          2018,
-          0.785054559
-        ]
-      ],
-      "name": "Auf Basis Zimmerzahl 2009: Mo-So"
     }
   ],
   "chart": {
@@ -302,8 +155,8 @@
               );
             }
             //move legend title
-            var title = this.legend.title;
-            title.translate(-100, 30);
+           /* var title = this.legend.title;
+            title.translate(-128, 25);*/
         }
     },
     "borderColor": "#fbfbfb",
@@ -321,6 +174,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 15,
     "renderTo": "container-7975",
     "spacingBottom": 12
   },
@@ -407,26 +261,19 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 3,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
       "width": 40
     },
     "padding": 0,
     "useHTML": true,
-    "y": -20,
     "width": 210,
     "itemWidth": 70,
-    "title": {
-      "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2009:",
-      "style": {
-        "fontWeight": "normal",
-        "fontSize": "10px"
-      }
-    },
     "labelFormatter": function(){
       //remove text before year on each item with odd index
       //return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;

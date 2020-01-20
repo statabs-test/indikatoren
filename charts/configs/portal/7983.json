@@ -79,17 +79,25 @@
   "chart": {
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
+                    var chart = this;
+                    chart.series.forEach(function (series) {
+                        series.points.forEach(function (point) {
+                            var x = 0, y = 0;
+                            switch (point.name) {
+                                //case 'CH': case 'Schweiz':        x = 0; y = 0; break; //ent-kommentieren falls gewünscht
+                                //case 'DE': case 'Deutschland':    x = 0; y = 0; break;
+                                //case 'US': case 'USA':            x = 0; y = 0; break;
+                                case 'GB': case 'UK': x = 20; y = 40; break;
+                                case 'FR': case 'Frankreich': x = 20; y = 0; break;
+                                case 'IT': case 'Italien': x = 20; y = 40; break;
+                                case 'ES': case 'Spanien': x = -29; y = 25; break;
+                                case 'NL': case 'Niederlande': x = -11; y = 35; break;
+                                //case 'CN': case 'VR China':       x = 0; y = 0; break;
+                                case 'IN': case 'Indien': x = 0; y = 3; break;
                             }
-                        );
-                    }
+                            point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
+                        });
+                    });
                 }
     },
     "borderColor": "#fbfbfb",
@@ -125,19 +133,27 @@
           "fontSize": "10px",
           "color": "black",
           "fontWeight": "normal",
-          "textShadow": "none"
+          "textShadow": "none",
+          "textOutline": false
         },
-        "formatter": function () {
-                        //return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
-                        return this.key;
-                    },
+        "formatter": function() {
+					//only return last word
+					return this.key.replace("Nieder", "Nieder-<br>"); //Umbruch, falls gewünscht;
+					//return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
+					/*return Highcharts.numberFormat((this.point.z,.1f)%,*/					
+					 },
         "inside": false,
-        "y": -5,
+        "y": -15,
         "padding": 0,
         "overflow": false,
         "crop": false,
+        "format": "\u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E{point.z:,.1f}%",
+        "x": 0,
         "allowOverlap": true
-      }
+      },
+      "sizeBy": "area",
+      "maxSize": "30%",
+      "minSize": "8"
     }
   },
   "title": {
@@ -155,7 +171,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "text": "Veränderung Logiernächte"
+      "text": "Veränderung Logiernächte 2018 gegenüber Ø 2007\u003Cspan\u003E-\u003C\u002Fspan\u003E2011"
     },
     "labels": {
       "y": 3,
@@ -165,26 +181,24 @@
       },
       "format": "{value}%"
     },
-    "min": 0,
+    "min": -50,
     "useHTML": true,
     "tickInterval": 50
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
     "title": {
       "style": {
         "fontSize": "10px",
         "color": "#000000"
       },
-      "text": "Anteile am Übernachtungsvolumen 2018"
+      "text": ""
     },
     "labels": {
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
+        "textOverflow": null
       },
       "format": "{value}%"
     },

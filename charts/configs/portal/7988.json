@@ -253,6 +253,7 @@
     },
     "inverted": true,
     "type": "column",
+    "marginRight": 15,
     "renderTo": "container-7988",
     "spacingBottom": 12
   },
@@ -302,7 +303,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "style": {
         "fontSize": "10px",
         "color": "#000000"
@@ -338,9 +339,10 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
-    "itemDistance": 0,
+    "itemDistance": 20,
     "symbolPadding": 2,
     "enabled": true,
     "layout": "horizontal",
@@ -350,7 +352,8 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {
