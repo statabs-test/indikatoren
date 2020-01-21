@@ -3,7 +3,7 @@
    "chart": {
     "type": "column",
     "width":"660",
-    
+    "marginRight": 15    
    },
   plotOptions: {
         /*series: {
@@ -34,7 +34,7 @@
   },
   "xAxis": {
   	"type": "category",
-      tickInterval: 6,
+      tickInterval: 5,
       "labels": {
         rotation: 0  
         //"format": "{value}%"

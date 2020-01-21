@@ -10,8 +10,8 @@
     yAxis: 
       {
         min: 90,
-        max: 150,
-        tickAmount: 7,
+        max: 160,
+        tickAmount: 8,
         labels: {
           style: {
           fontSize: '10px',
