@@ -48,7 +48,7 @@ tooltip: {
  "type": "category"    
 },
 "yAxis": {
-  tickInterval: 5,
+  tickInterval: 10,
   "labels": {
     
       "formatter": function(){

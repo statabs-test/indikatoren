@@ -239,7 +239,7 @@
           return Highcharts.numberFormat((this.value),0)+'%';                
       }
     },
-    "tickInterval": 5
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {
