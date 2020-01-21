@@ -42807,7 +42807,7 @@ var indikatoren = [
 		"id": 8285
 	},
 	{
-		"title": "Zufriedenheit mit familienspezifischen Beratungs-/Bildungsangeboten",
+		"title": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
 		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?»",
 		"kuerzel": "I.50.2.08286",
 		"kuerzelKunde": "",

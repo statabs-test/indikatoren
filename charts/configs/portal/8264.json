@@ -14,20 +14,12 @@
           8.1
         ],
         [
-          " ",
-          null
-        ],
-        [
           "Frauen",
           8.6
         ],
         [
           "Männer",
           7.6
-        ],
-        [
-          "  ",
-          null
         ],
         [
           "15-34 Jahre",
@@ -46,10 +38,6 @@
           4.3
         ],
         [
-          "   ",
-          null
-        ],
-        [
           "Obligat. Schule",
           13.3
         ],
@@ -60,10 +48,6 @@
         [
           "Tertiärstufe",
           5.6
-        ],
-        [
-          "    ",
-          null
         ],
         [
           "o. Migrationsh.",
@@ -92,9 +76,6 @@
           "high": 9.5
         },
         {
-          "name": "."
-        },
-        {
           "name": "Frauen",
           "low": 6.6,
           "high": 10.7
@@ -103,9 +84,6 @@
           "name": "Männer",
           "low": 5.8,
           "high": 9.4
-        },
-        {
-          "name": ".."
         },
         {
           "name": "15-34 Jahre",
@@ -128,9 +106,6 @@
           "high": 6.3
         },
         {
-          "name": "..."
-        },
-        {
           "name": "Obligat. Schule",
           "low": 8.9,
           "high": 17.6
@@ -144,9 +119,6 @@
           "name": "Tertiärstufe",
           "low": 3.6,
           "high": 7.6
-        },
-        {
-          "name": "...."
         },
         {
           "name": "o. Migrationsh.",
