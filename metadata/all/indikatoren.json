@@ -41363,6 +41363,46 @@
 		"id": 8246
 	},
 	{
+		"title": "Finanzielle Lage",
+		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.»",
+		"kuerzel": "I.50.2.08247",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Lage",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "28,3% der befragten Familien stimmen 2017 der Aussage «In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.»  genau oder eher zu. 62,9% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,3% vs. 25,5%). Wenig überraschend stimmen Familien mit einem Haushaltseinkommen unter 3000 Franken pro Monat der Aussage deutlich häufiger zu als Familien mit höherem Haushaltseinkommen (55,8 vs. 46,9% vs. 13%).",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8247,
+		"chart-id": 8247,
+		"filter": "",
+		"id": 8247
+	},
+	{
 		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
 		"subtitle": "nach Grossregion, 2013",
 		"kuerzel": "",
@@ -41763,6 +41803,86 @@
 		"id": 8260
 	},
 	{
+		"title": "Gesundheitliche Probleme",
+		"subtitle": "«Wie häufig gab es in Ihrer Familie in den vergangenen 12 Monaten gesundheitliche Probleme eines Erwachsenen?»",
+		"kuerzel": "I.50.2.08261",
+		"kuerzelKunde": "",
+		"description": "Gesundheitliche Probleme",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.4 Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "22,4% der befragten Familien geben an, dass es in den vergangenen 12 Monaten sehr oder eher oft gesundheitliche Probleme eines Erwachsenen gab. Familien mit geringen Haushaltseinkommen geben deutlich häufiger an, dass gesundheitliche Probleme eher oder sehr oft auftraten.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8261,
+		"chart-id": 8261,
+		"filter": "",
+		"id": 8261
+	},
+	{
+		"title": "Gesundheitliche Unterstützung",
+		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?»",
+		"kuerzel": "I.50.2.08262",
+		"kuerzelKunde": "",
+		"description": "Gesundheitliche Unterstützung",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.4 Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Aufgrund von gesundheitlichen Problemen haben 71,7% der befragten Familien schon einmal Hilfe oder Unterstützung gebraucht. Einelternfamilien haben mit 77,9% deutlich häufiger Unterstützung und Hilfe benötigt als Zweielternfamilien (70,7%)",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8262,
+		"chart-id": 8262,
+		"filter": "",
+		"id": 8262
+	},
+	{
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2012",
 		"kuerzel": "",
@@ -41921,6 +42041,86 @@
 		"chart-id": 8266,
 		"filter": "",
 		"id": 8266
+	},
+	{
+		"title": "Umzugswunsch",
+		"subtitle": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung/Ihrem Haus auszuziehen?»",
+		"kuerzel": "I.50.2.08267",
+		"kuerzelKunde": "",
+		"description": "Umzugswunsch",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.5 Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "57,5% der 2017 befragten Familien hegen keinen Umzugswunsch. Bereits über einen Wohnortswechsel nachgedacht haben 31,1% der Familien. 10,6% der Befragten äussern einen konkreten Umzugswunsch. Der Umzugswunsch vermindert sich mit der steigenden Anzahl Kinder sowie dem steigendem Einkommen. Familien mit jüngstem Kind bis vier Jahre geben deutlich häufiger an konkrete Pläne für einen Umzug zu haben, als Familien mit älterem jüngsten Kindern (19,7% vs. 5,5/5,1/4,9%).",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8267,
+		"chart-id": 8267,
+		"filter": "",
+		"id": 8267
+	},
+	{
+		"title": "Umzugswunsch",
+		"subtitle": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?»",
+		"kuerzel": "I.50.2.08268",
+		"kuerzelKunde": "",
+		"description": "Umzugswunsch",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.5 Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "377 Nennungen und somit mehr als die Hälfte der Familien mit konkreten Umzugsplänen, geben als Grund an, dass ihre Wohnung bzw. ihr Haus zu klein ist. Der Erwerb von Wohneigentum, die zu hohe Miete und die Lärmbelastung des Strassenverkehrs werden von knapp 20% der Familien mit Umzugsplänen als Ursache genannt. 188 Familien geben andere als die aufgelisteten Gründe an.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. <br>Diese Frage wurde nur von Familien beantwortet, welche angegeben hatten, dass sie konkrete Umzugspläne haben oder schon ans Umziehen dachten.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8268,
+		"chart-id": 8268,
+		"filter": "",
+		"id": 8268
 	},
 	{
 		"title": "Zufriedenheit mit Mietzins",
@@ -42607,6 +42807,46 @@
 		"id": 8285
 	},
 	{
+		"title": "Zufriedenheit mit familienspezifischen Beratungs-/Bildungsangeboten",
+		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?»",
+		"kuerzel": "I.50.2.08286",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit familienspezifischen Beratungs-/Bildungsangeboten",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Knapp 70% der befragten Familien sind mit den familienspezifischen Beratungs-/ Bildungsangeboten «eher zufrieden» oder «sehr zufrieden». Gegenüber den Familienbefragungen von 2009 (56,3%) und 2013 (62,8%) ist dieser Anteil deutlich gestiegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8286,
+		"chart-id": 8286,
+		"filter": "",
+		"id": 8286
+	},
+	{
 		"title": "Anzahl Straftaten im Bereich «häusliche Gewalt»",
 		"subtitle": "",
 		"kuerzel": "",
@@ -42645,6 +42885,206 @@
 		"chart-id": 8287,
 		"filter": "",
 		"id": 8287
+	},
+	{
+		"title": "Distanz zum nächsten Spielplatz",
+		"subtitle": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?»",
+		"kuerzel": "I.50.2.08289",
+		"kuerzelKunde": "",
+		"description": "Distanz zum nächsten Spielplatz",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.4 Kindergerechtes Wohnumfeld",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Kinderspielplätze sind für 90,5% der befragten Familien in weniger als 10 Minuten zu erreichen. Bei befragten Familien aus den Gemeinden Riehen und Bettingen ist dieser Anteil von 85,8% verglichen mit den drei anderen Wahlkreisen (89-93%) etwas tiefer.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.<br>2009 nur bedingt vergleichbar, da die Kategorien unter 5 Min. und 5 bis 9 Min. in der Kategorie 5 bis 9 Min. zusammengefasst waren.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8289,
+		"chart-id": 8289,
+		"filter": "",
+		"id": 8289
+	},
+	{
+		"title": "Zufriedenheit mit Grünflächen",
+		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?»",
+		"kuerzel": "I.50.2.08290",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit Grünflächen",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.4 Kindergerechtes Wohnumfeld",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "86,2% der befragten Familien sind mit dem Angebot an Grünflachen «eher zufrieden» oder «sehr zufrieden». Dieser Anteil ist bei den befragten Familien in den Gemeinden Riehen und Bettingen deutlich höher als in den städtischen Wahlkreisen Grossbasel Ost und West und Kleinbasel.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8290,
+		"chart-id": 8290,
+		"filter": "",
+		"id": 8290
+	},
+	{
+		"title": "Zufriedenheit mit Spielplätzen",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Kinderspielplätzen an Ihrem Wohnort?»",
+		"kuerzel": "I.50.2.08291",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit Spielplätzen",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.4 Kindergerechtes Wohnumfeld",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "84,7% der befragten Familien sind mit dem Angebot an Kinderspielplätzen «eher zufrieden» oder «sehr zufrieden». Gegenüber den Familienbefragungen von 2009 (73,6%) und 2013 (82,2%) ist dieser Anteil etwas gestiegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8291,
+		"chart-id": 8291,
+		"filter": "",
+		"id": 8291
+	},
+	{
+		"title": "Zufriedenheit mit Verkehrssicherheit",
+		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssituation bezüglich der Sicherheit der Kinder?»",
+		"kuerzel": "I.50.2.08292",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit Verkehrssicherheit",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.4 Kindergerechtes Wohnumfeld",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mehr als die Hälfte der befragten Familien (57,1%) geben 2017 an mit der Verkehrssicherheit am Wohnort  «eher zufrieden» oder «sehr zufrieden» zu sein. Diese Zufriedenheit mit der Verkehrssicherheit ist bei Familien, welche im Wahlkreis Riehen, Bettingen (66,8%) wohnen, deutlich höher als in Grossbasel Ost (60,4%) und West (58,3%) und nochmals deutlich höher als im Wahlkreis Kleinbasel (48,1%).",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8292,
+		"chart-id": 8292,
+		"filter": "",
+		"id": 8292
+	},
+	{
+		"title": "Zufriedenheit mit Wohnumfeld",
+		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?»",
+		"kuerzel": "I.50.2.08293",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit Wohnumfeld",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.4 Kindergerechtes Wohnumfeld",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "86,3% der befragten Familien sind mit dem Wohnumfeld insgesamt «eher zufrieden» oder «sehr zufrieden». Dieser Anteil nimmt mit zunehmendem Einkommen und höchster Ausbildung der Eltern zu.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. <br>Im Jahr 2013 konnte die Frage aufgrund eines Fehlers im Fragebogen nicht ausgewertet werden.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8293,
+		"chart-id": 8293,
+		"filter": "",
+		"id": 8293
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -43693,6 +44133,46 @@
 		"id": 8321
 	},
 	{
+		"title": "Nachbarschaftliches Verhältnis",
+		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+		"kuerzel": "I.50.2.08322",
+		"kuerzelKunde": "",
+		"description": "Nachbarschaftliches Verhältnis",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "91,4% der befragten Familien stimmen der Aussage, dass sie ein gutes Verhältnis zu den Nachbarinnen und Nachbarn pflegen, genau oder eher zu. Familien mit deutscher Sprache sowie Familien mit einem Einkommen von über 7 499 Franken stimmen dieser Aussage besonders häufig zu.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8322,
+		"chart-id": 8322,
+		"filter": "",
+		"id": 8322
+	},
+	{
 		"title": "Zufriedenheit mit nachbarschaftlichem Austausch",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"kuerzel": "",
@@ -44411,6 +44891,46 @@
 		"chart-id": 8340,
 		"filter": "",
 		"id": 8340
+	},
+	{
+		"title": "Finanzielle Lage",
+		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.»",
+		"kuerzel": "I.50.2.08341",
+		"kuerzelKunde": "",
+		"description": "Finanzielle Lage",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Für 45,9% der befragten Familien hat sich die Lage in den vergangenen fünf Jahren verbessert. Bei tiefen Haushaltseinkommen und tieferer höchster Ausbildung der Eltern nimmt dieser Anteil tendentiell ab.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8341,
+		"chart-id": 8341,
+		"filter": "",
+		"id": 8341
 	},
 	{
 		"title": "Bruttoinlandprodukt",

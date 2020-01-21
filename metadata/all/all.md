@@ -1092,6 +1092,7 @@ id | visible | visibleInPortal | indikatorenset
 8244 | true | true | CMS Kennzahlen Soziales
 8245 | true | true | CMS Kennzahlen Soziales
 8246 | true | true | CMS Kennzahlen Soziales
+8247 | true | true | CMS Kennzahlen Soziales
 8248 | true | true | CMS Kennzahlen Soziales
 8249 | true | true | CMS Kennzahlen Soziales
 8250 | true | true | CMS Kennzahlen Soziales
@@ -1102,10 +1103,14 @@ id | visible | visibleInPortal | indikatorenset
 8255 | true | false | CMS Kennzahlen Soziales
 8256 | true | true | CMS Kennzahlen Soziales
 8260 | true | true | CMS Kennzahlen Soziales
+8261 | true | true | CMS Kennzahlen Soziales
+8262 | true | true | CMS Kennzahlen Soziales
 8263 | true | true | CMS Kennzahlen Soziales
 8264 | true | true | CMS Kennzahlen Soziales
 8265 | true | true | CMS Kennzahlen Soziales
 8266 | true | true | CMS Kennzahlen Soziales
+8267 | true | true | CMS Kennzahlen Soziales
+8268 | true | true | CMS Kennzahlen Soziales
 8269 | true | true | CMS Kennzahlen Soziales
 8270 | true | true | CMS Kennzahlen Soziales
 8271 | true | true | CMS Kennzahlen Soziales
@@ -1123,7 +1128,13 @@ id | visible | visibleInPortal | indikatorenset
 8283 | true | false | CMS Kennzahlen Soziales
 8284 | true | false | CMS Kennzahlen Soziales
 8285 | true | true | CMS Kennzahlen Soziales
+8286 | true | true | CMS Kennzahlen Soziales
 8287 | true | true | CMS Kennzahlen Soziales
+8289 | true | true | CMS Kennzahlen Soziales
+8290 | true | true | CMS Kennzahlen Soziales
+8291 | true | true | CMS Kennzahlen Soziales
+8292 | true | true | CMS Kennzahlen Soziales
+8293 | true | true | CMS Kennzahlen Soziales
 8294 | true | false | CMS Kennzahlen Soziales
 8295 | true | false | CMS Kennzahlen Soziales
 8296 | true | false | CMS Kennzahlen Soziales
@@ -1150,6 +1161,7 @@ id | visible | visibleInPortal | indikatorenset
 8317 | true | true | CMS Kennzahlen Soziales
 8320 | true | false | CMS Kennzahlen Soziales
 8321 | true | true | CMS Kennzahlen Soziales
+8322 | true | true | CMS Kennzahlen Soziales
 8323 | true | true | CMS Kennzahlen Soziales
 8324 | true | true | CMS Kennzahlen Soziales
 8325 | true | true | CMS Kennzahlen Soziales
@@ -1168,6 +1180,7 @@ id | visible | visibleInPortal | indikatorenset
 8338 | true | false | CMS Kennzahlen Soziales
 8339 | true | false | CMS Kennzahlen Soziales
 8340 | true | true | CMS Kennzahlen Soziales
+8341 | true | true | CMS Kennzahlen Soziales
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
 8353 | true | true | Wirtschaftsbericht BS_BL_JU
 8452 | true | true | CMS Kennzahlen Soziales
