@@ -11764,7 +11764,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-09T16:08:43.4343",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -11774,7 +11774,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_042",
+		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6242"
@@ -11806,17 +11806,17 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 263,8 Einwohner pro Hektar wies das Wohnviertel Matthäus am Jahresende 2018 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten zeigten sich in den Wohnviertel Gundeldingen, Iselin und Clara. Im Vergleich zu 1999 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1999 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
+		"lesehilfe": "Mit 263,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2018 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten zeigen sich in den Wohnvierteln Gundeldingen, Iselin und Clara. Im Vergleich zu 1999 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental; dies aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1999 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_043",
+		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6243"
@@ -11848,7 +11848,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-04-12T10:48:08.088",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -11858,7 +11858,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_412",
+		"orderKey": "02_04_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"6244"
@@ -12178,7 +12178,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-08-22T08:52:46.4646",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12188,9 +12188,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_045",
+		"orderKey": "02_04_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6245"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -12218,7 +12220,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-09T16:05:09.099",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12228,14 +12230,12 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_046",
+		"orderKey": "02_04_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6246"
 		],
-		"renderLink": [
-			"6246"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -12261,8 +12261,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
-		"stufe1": "Ziel 1: Gesellschaftspolitik",
-		"stufe2": "1.3 Wohnraumnutzung",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12272,9 +12272,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_03_00_00_00_047",
+		"orderKey": "02_04_00_00_00_007",
 		"parentId": 4140,
-		"children": [],
+		"children": [
+			"6247"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -12284,8 +12286,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 4140,
-		"chart-id": 4140,
+		"data-id": 5815,
+		"chart-id": 5815,
 		"filter": "",
 		"id": 5815
 	},
@@ -12302,18 +12304,18 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-01-28T16:37:40.4040",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
+		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 war die Neubauproduktion sehr hoch. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
+		"lesehilfe": "2019 wurde die höchste Neubauproduktion seit 1981 verzeichnet. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_04_00_00_00_048",
+		"orderKey": "02_02_00_00_00_008",
 		"parentId": 4135,
 		"children": [],
 		"renderLink": [],
@@ -12331,7 +12333,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2009 bis 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2010-2019",
 		"kuerzel": "I.09.1.5817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
@@ -12343,17 +12345,17 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-02-04T09:55:54.5454",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 25% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 28% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_049",
+		"orderKey": "02_04_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6249",
@@ -12386,7 +12388,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-09-23T12:11:45.4545",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12396,14 +12398,12 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_410",
+		"orderKey": "02_04_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"6250"
 		],
-		"renderLink": [
-			"6250"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -12430,17 +12430,17 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2017-01-24T15:09:53.5353",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_05_00_00_00_051",
+		"orderKey": "02_05_00_00_00_001",
 		"parentId": 4150,
 		"children": [],
 		"renderLink": [],
@@ -12470,7 +12470,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2018-10-31T16:23:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12480,7 +12480,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_052",
+		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5165",
@@ -12513,7 +12513,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-05-27T13:40:28.2828",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 6: Erschliessungsqualität",
+		"stufe2": "Strategie 6: Die Siedlungsentwicklung und stadtgerechte Mobilität aufeinander abstimmen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12523,7 +12523,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_06_00_00_00_061",
+		"orderKey": "02_06_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6253"
@@ -12556,7 +12556,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2018-09-07T10:01:16.1616",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12566,7 +12566,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_072",
+		"orderKey": "03_07_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6254"
@@ -12596,9 +12596,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-23T12:12:22.2222",
+		"aktualisierungsdatum": "2019-12-30T14:56:09.099",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12608,14 +12608,12 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_073",
+		"orderKey": "03_07_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6255"
 		],
-		"renderLink": [
-			"6255"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -12642,7 +12640,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-06-20T14:54:15.1515",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
+		"stufe2": "Strategie 8: Bedingugen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12652,7 +12650,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_08_00_00_00_081",
+		"orderKey": "03_08_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6256"
@@ -12673,7 +12671,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "Basel-Stadt, Indexwert (Basis 2005 = 100)",
+		"subtitle": "indexiert (Basis 2005 = 100), Basel-Stadt",
 		"kuerzel": "I.03.2.5901",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
@@ -12685,7 +12683,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2018-09-13T09:14:15.1515",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12695,7 +12693,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_411",
+		"orderKey": "02_04_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"6257"
@@ -12726,9 +12724,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T13:01:04.044",
-		"stufe1": "Thema Querschnittsindikatoren",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-10-24T11:27:36.3636",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -12738,9 +12736,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "17_00_00_00_00_111",
+		"orderKey": "05_11_00_00_00_001",
 		"parentId": 6154,
-		"children": [],
+		"children": [
+			"6258"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -18243,7 +18243,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-02-04T09:56:47.4747",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18253,7 +18253,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_041",
+		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6259"
@@ -18286,7 +18286,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18296,11 +18296,12 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_044",
+		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6260",
-			"7747"
+			"7747",
+			"8448"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18329,7 +18330,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2018-10-19T09:22:11.1111",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18339,7 +18340,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "02_05_00_00_00_053",
+		"orderKey": "02_05_00_00_00_003",
 		"parentId": 5178,
 		"children": [],
 		"renderLink": [],
@@ -18369,7 +18370,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-08-22T09:09:04.044",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18379,10 +18380,9 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_074",
+		"orderKey": "03_07_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6245",
 			"6262"
 		],
 		"renderLink": [],
@@ -18412,7 +18412,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-04-12T10:48:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
+		"stufe2": "Strategie 8: Bedingugen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18422,7 +18422,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_08_00_00_00_082",
+		"orderKey": "03_08_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6263"
@@ -18442,11 +18442,11 @@ var indikatoren = [
 		"id": 6218
 	},
 	{
-		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"subtitle": "Basel, Werte 2011 = 100",
+		"title": "Haushalte in Begegnungszonen",
+		"subtitle": "indexiert (2011 = 100), Basel",
 		"kuerzel": "I.01.2.6220",
 		"kuerzelKunde": "ST 5-4",
-		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
+		"description": "Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan",
@@ -18455,7 +18455,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2018-10-31T16:18:32.3232",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18465,7 +18465,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_054",
+		"orderKey": "02_05_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6264"
@@ -18540,7 +18540,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-11-13T19:16:59.5959",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -18550,9 +18550,10 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_071",
+		"orderKey": "03_07_00_00_00_001",
 		"parentId": null,
 		"children": [
+			"6046",
 			"6265",
 			"6347",
 			"6371"
@@ -40865,9 +40866,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_011",
+		"orderKey": "01_01_00_00_00_001",
 		"parentId": 4132,
-		"children": [],
+		"children": [
+			"8417"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -40905,9 +40908,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_012",
+		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8418"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -40923,7 +40928,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bauzonen",
-		"subtitle": "Indexiert (2005 = 100), Basel-Stadt",
+		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
 		"kuerzel": "I.09.1.07775",
 		"kuerzelKunde": "ST 1-3",
 		"description": "Bauzonen",
@@ -40940,14 +40945,16 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2018 um 0,3 Prozentpunkte höher als 2005. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt gar 0,7 Prozentpunkte höher als noch 2005.",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung («Zone 7 Industrie- und Gewerbezone» (Basel) und Arbeitszonen (Riehen)).",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_013",
+		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8419"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -40977,7 +40984,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-30T16:02:40.4040",
 		"stufe1": "Sachgebiet Mobilität",
-		"stufe2": "Strategie 11: Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41023,7 +41030,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-30T16:03:20.2020",
 		"stufe1": "Sachgebiet Mobilität",
-		"stufe2": "Strategie 11: Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41069,8 +41076,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nach einem Höchststand von durchschnittlich 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004, ist in den letzten Jahren eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 318 Personenwagen pro 1000 Einwohner.",
-		"erlaeuterungen": "Der Motorisierungsgrad ist ein Indikator zur Berechnung der Motorfahrzeugdichte. Er gibt das Verhältnis zwischen Fahrzeugbestand und Bevölkerungsanzahl in einem bestimmten, abgegrenzten Raum an. Für die Berechnung des Motorisierungsgrades verwenden wir im Kanton Basel-Stadt die mittlere kantonale Wohnbevölkerung des jeweiligen Jahres.",
+		"lesehilfe": "Nach einem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004, ist in den letzten Jahren eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 318 Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -41111,15 +41118,17 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 104,0 im November 2018.",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_06_00_00_00_055",
+		"orderKey": "03_06_00_00_00_005",
 		"parentId": 5196,
-		"children": [],
+		"children": [
+			"8423"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -41128,7 +41137,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 5196,
+		"data-id": 7782,
 		"chart-id": 5196,
 		"filter": "",
 		"id": 7782

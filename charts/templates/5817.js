@@ -1,6 +1,5 @@
 (function () {
   return {
-
     "xAxis": {
       "type": "category",
       "labels": {
@@ -9,6 +8,7 @@
     },
     "yAxis": {
       //"max": 100,
+      tickInterval: 150,
       "labels": {
         "format": "{value:,.0f}"
       },

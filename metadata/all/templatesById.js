@@ -320,7 +320,7 @@ var templatesById = {
 	"5816": "template001",
 	"5817": "template001",
 	"5818": "mappie001",
-	"5819": "befragungenProzent001",
+	"5819": "befragungen001",
 	"5821": "befragungen001",
 	"5822": "befragungen001",
 	"5823": "line001",

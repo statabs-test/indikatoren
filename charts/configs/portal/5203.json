@@ -369,6 +369,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "tickInterval": 20000,
     "plotLines": [
       {
         "value": 0,
