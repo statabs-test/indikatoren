@@ -92,10 +92,10 @@
             }
           }
     },
-    "renderTo": "container-8437",
     "marginBottom": 75,
     "type": "column",
     "inverted": false,
+    "renderTo": "container-8437",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -179,8 +179,8 @@
     "align": "left"
   },
   "tooltip": {
-    "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003EAlter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003E{point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

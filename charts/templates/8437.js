@@ -38,15 +38,15 @@
   {"color": "#B00000", index: 0, legendIndex: 1}, /**/
 ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
+    //"renderTo": 'container-I.01.1.0016', 
     "marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
     "inverted": false
   },
   "tooltip": {
-    headerFormat: '<style="font-size: 10px">Alter: {point.key}</span><br/>',
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
+    headerFormat: '<style="font-size: 10px">{point.key}</span><br/>',
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
    "shared": false
   },
 }
