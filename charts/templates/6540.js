@@ -52,44 +52,20 @@ global Highcharts
     {
       color: 'rgb(250, 189, 36)',
     },
-    {
-      color: 'rgb(220, 68, 14)',
-      marker:{
-        enabled: true,
-      }
-    },
-    {
-      color: 'rgb(68, 141, 43)',
-      marker:{
-        enabled: true,
-      }
-    },
-    {
-      color: 'rgb(250, 189, 36)',
-      marker:{
-        enabled: true,
-      }
-    }
   ],
   "legend": {
     enabled: true,
     useHTML: true,
-    "y": -45,
+   //"y": 45,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "width": 210,
     "itemWidth": 70,    
     itemStyle: {
       "fontWeight": "normal",
       "width": 40
-    },
-    "title": {
-      "text": 'Effektiv:<br/>Auf Basis Zimmerzahl 2009:', 
-    	style: {
-    	  fontWeight: 'normal'
-    	}
     },
     labelFormatter: function(){
         //remove text before year on each item with odd index

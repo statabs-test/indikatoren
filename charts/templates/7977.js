@@ -20,8 +20,8 @@
   },
   yAxis: {
       reversedStacks: false, 
-      max: 9000,
-      tickInterval: 1800,
+      max: 9500,
+      tickInterval: 1900,
       labels: { 
       	format: "{value:,.0f}", 
       	style:{ color: "black", },

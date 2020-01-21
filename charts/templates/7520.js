@@ -60,6 +60,7 @@
       },
       {
         tickAmount: 6,
+        max: 0.35,
         tickInterval: 0.07,
         opposite: true,
         min: 0,

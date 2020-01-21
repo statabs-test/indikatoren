@@ -15,7 +15,8 @@ global Highcharts
   },
   yAxis: 
     {
-      min: 0, 
+      min: 1, 
+      tickInterval: 0.5, 
       //max: 3.25,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
