@@ -23,6 +23,12 @@
 
   "xAxis": {
       "type": "category",
+      categories: [
+        '1- und 2-Sterne',
+        '3-Sterne',
+        '4- und 5-Sterne',
+        'Nicht klassiert'
+    ],
       "labels": {
         rotation: 0  
         //"format": "{value}%"
@@ -36,7 +42,7 @@
 	  "labels": {
         //"format": "{value}%"
 	  }
-  },  
+  },
   plotOptions: {
      series: {
         stacking: null,
