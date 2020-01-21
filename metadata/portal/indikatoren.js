@@ -27114,6 +27114,126 @@ var indikatoren = [
 		"id": 8260
 	},
 	{
+		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2012",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
+		"thema": "14 Gesundheit",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.4 Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellt mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"erlaeuterungen": "Der Indikator basisert auf fünf Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung. Der Indikator gibt den Anteil Personen mit mittlerer bis schwerer psychischer Belastung an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8263,
+		"chart-id": 8263,
+		"filter": "",
+		"id": 8263
+	},
+	{
+		"title": "Anteil Personen mit depressiven Symptomen",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
+		"kuerzel": "I.14.4.08264",
+		"kuerzelKunde": "",
+		"description": "Anteil Personen mit depressiven Symptomen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2017 gaben 8.1% der Befragten an unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"erlaeuterungen": "Der Indikator basisert auf neun Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8264,
+		"chart-id": 8264,
+		"filter": "",
+		"id": 8264
+	},
+	{
+		"title": "Anteil Personen mit Einsamkeitsgefühlen",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Anteil Personen mit Einsamkeitsgefühlen",
+		"thema": "14 Gesundheit",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.4 Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Befragter, welche sich manchmal bis sehr häufig einsam fühlt betrug 36,3% im Jahr 2017. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"erlaeuterungen": "Der Indikator basisert auf einem Item aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung. Der Indikator gibt den Anteil Personen an, welche auf die Frage \"Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?\" mit \"manchmal\", \"ziemlich häufig\" oder \"sehr häufig\" antworten.Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8265,
+		"chart-id": 8265,
+		"filter": "",
+		"id": 8265
+	},
+	{
 		"title": "«Durch die IG Wohnen vermittelte Wohnungen nach Wohnviertel»",
 		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "",
@@ -27755,6 +27875,50 @@ var indikatoren = [
 		"chart-id": 8287,
 		"filter": "",
 		"id": 8287
+	},
+	{
+		"title": "Index der Wohnviertel",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.3.08314",
+		"kuerzelKunde": "",
+		"description": "Index der Wohnviertel 2011, 2015, 2018",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Bruderhol weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
+		"erlaeuterungen": "Aus fünf ausgewählten Indikatoren wird ein Index berechnet, welcher Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit erlaubt. Bei den ausgewählten Indikatoren handelt es sich um den Anteil fremdsprachiger Personen, den Median des Reineinkommens, die Arbeitslosenquote, die Sozialhilfequote sowie die Prämienverbilligungsquote. Der Index wird mittels Hauptkomponentenanalyse ermittelt. Dieses Verfahren wird unter anderem zur Bildung von Indizes aus Datensätzen mit mehreren Variablen verwendet. Der resultierende Index kann als gewichtetes Mittel der oben genannten Indikatoren interpretiert werden. Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel, desto höher ist der Indexwert. Die absoluten Werte des Index für die einzelnen Wohnviertel haben keine direkte intuitive Bedeutung. Allerdings kann die Streuung der Werte über die Zeit interpretiert werden: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf verwendeten Variablen.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik",
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)",
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8314,
+		"chart-id": 8314,
+		"filter": "",
+		"id": 8314
 	},
 	{
 		"title": "Zufriedenheit mit Wohnquartier",

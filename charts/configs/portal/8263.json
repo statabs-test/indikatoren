@@ -10,35 +10,71 @@
       },
       "data": [
         [
-          "Genferseeregion",
-          26.3
+          "Total",
+          14.1
         ],
         [
-          "Mittelland",
-          18.9
+          " ",
+          null
         ],
         [
-          "Nordwestschweiz",
-          15.1
+          "Frauen",
+          11.1
         ],
         [
-          "Zürich",
+          "Männer",
+          17
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "15-34 Jahre",
+          10.7
+        ],
+        [
+          "35-49 Jahre",
+          17.8
+        ],
+        [
+          "50-64 Jahre",
+          16.7
+        ],
+        [
+          "\u003E64 Jahre",
+          11.2
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Obligat. Schule",
+          18.5
+        ],
+        [
+          "Sekundarstufe II",
+          16.7
+        ],
+        [
+          "Tertiärtufe",
+          8.2
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "o. Migrationsh.",
           12
         ],
         [
-          "Ostschweiz",
-          14.2
-        ],
-        [
-          "Zentralschweiz",
-          11.9
-        ],
-        [
-          "Schweiz",
-          17.7
+          "m. Migrationsh.",
+          17.8
         ]
       ],
-      "name": "Zahlungsrückstand",
+      "name": "Anteil in %",
       "turboThreshold": 0
     },
     {
@@ -51,128 +87,76 @@
       },
       "data": [
         {
-          "name": "Genferseeregion",
-          "low": 21.3,
-          "high": 31.3
+          "name": "Total",
+          "low": 12.6,
+          "high": 15.7
         },
         {
-          "name": "Mittelland",
-          "low": 16.4,
+          "name": "."
+        },
+        {
+          "name": "Frauen",
+          "low": 9,
+          "high": 13.1
+        },
+        {
+          "name": "Männer",
+          "low": 14.6,
+          "high": 19.3
+        },
+        {
+          "name": ".."
+        },
+        {
+          "name": "15-34 Jahre",
+          "low": 7.9,
+          "high": 13.4
+        },
+        {
+          "name": "35-49 Jahre",
+          "low": 14.2,
           "high": 21.4
         },
         {
-          "name": "Nordwestschweiz",
-          "low": 12,
-          "high": 18.2
+          "name": "50-64 Jahre",
+          "low": 13.5,
+          "high": 19.9
         },
         {
-          "name": "Zürich",
-          "low": 9.1,
-          "high": 14.9
-        },
-        {
-          "name": "Ostschweiz",
-          "low": 10.5,
-          "high": 17.9
-        },
-        {
-          "name": "Zentralschweiz",
-          "low": 8.2,
-          "high": 15.6
-        },
-        {
-          "name": "Schweiz",
-          "low": 16.2,
-          "high": 19.2
-        }
-      ],
-      "name": "95% Vertrauensintervall Untergrenze",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "color": "#FABD24",
-      "tooltip": {
-        "pointFormatter": function(){
-        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
-      }
-      },
-      "data": [
-        [
-          "Genferseeregion",
-          12.3
-        ],
-        [
-          "Mittelland",
-          8.1
-        ],
-        [
-          "Nordwestschweiz",
-          10
-        ],
-        [
-          "Zürich",
-          9.9
-        ],
-        [
-          "Ostschweiz",
-          6.4
-        ],
-        [
-          "Zentralschweiz",
-          4.4
-        ],
-        [
-          "Schweiz",
-          9
-        ]
-      ],
-      "name": "Konto- oder Kreditkartenüberziehung",
-      "turboThreshold": 0
-    },
-    {
-      "index": 3,
-      "type": "errorbar",
-      "tooltip": {
-        "pointFormatter": function(){
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
-      }
-      },
-      "data": [
-        {
-          "name": "Genferseeregion",
-          "low": 9.4,
-          "high": 15.2
-        },
-        {
-          "name": "Mittelland",
-          "low": 5.7,
-          "high": 10.4
-        },
-        {
-          "name": "Nordwestschweiz",
-          "low": 7.2,
-          "high": 12.8
-        },
-        {
-          "name": "Zürich",
-          "low": 5.8,
+          "name": "\u003E64 Jahre",
+          "low": 8.4,
           "high": 14
         },
         {
-          "name": "Ostschweiz",
-          "low": 3.8,
-          "high": 9.1
+          "name": "..."
         },
         {
-          "name": "Zentralschweiz",
-          "low": 2.3,
-          "high": 6.4
+          "name": "Obligat. Schule",
+          "low": 14.4,
+          "high": 22.7
         },
         {
-          "name": "Schweiz",
-          "low": 7.8,
-          "high": 10.2
+          "name": "Sekundarstufe II",
+          "low": 14.4,
+          "high": 19.1
+        },
+        {
+          "name": "Tertiärtufe",
+          "low": 6,
+          "high": 10.5
+        },
+        {
+          "name": "...."
+        },
+        {
+          "name": "o. Migrationsh.",
+          "low": 10.2,
+          "high": 13.8
+        },
+        {
+          "name": "m. Migrationsh.",
+          "low": 14.9,
+          "high": 20.6
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",
@@ -230,7 +214,7 @@
     "marginBottom": 65,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-8248",
+    "renderTo": "container-8263",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -251,7 +235,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen"
+    "text": "Anteil Personen mit mittlerer bis starker psychischer Belastung"
   },
   "subtitle": {
     "style": {
@@ -260,7 +244,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Grossregion, 2013",
+    "text": "in %, Grossregion Nordwestschweiz, 2012",
     "align": "left",
     "useHTML": true
   },
@@ -283,8 +267,7 @@
           return Highcharts.numberFormat((this.value),0)+'%';                
       }
     },
-    "tickDistance": 10,
-    "max": 40
+    "tickInterval": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -305,14 +288,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -323,6 +306,6 @@
   },
   "exporting": {
     "allowHTML": true,
-    "filename": 8248
+    "filename": 8263
   }
 }

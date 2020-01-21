@@ -45,10 +45,10 @@ tooltip: {
   
 ],  
 "xAxis": {
-  "type": "category"    
+ "type": "category"    
 },
 "yAxis": {
-  tickInterval: 2,
+  tickInterval: 5,
   "labels": {
     
       "formatter": function(){
