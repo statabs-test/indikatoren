@@ -40,26 +40,26 @@
       "data": [
         {
           "name": "Basel-Stadt",
-          "low": 96588,
-          "high": 91911
+          "low": 91911,
+          "high": 96588
         },
         {
           "name": "Basel-Landschaft",
-          "low": 143835,
-          "high": 138479
+          "low": 138479,
+          "high": 143835
         },
         {
           "name": "Jura",
-          "low": 35693,
-          "high": 33819
+          "low": 33819,
+          "high": 35693
         },
         {
           "name": "BS\u002FBL\u002FJU",
-          "low": 273838,
-          "high": 266486
+          "low": 266486,
+          "high": 273838
         }
       ],
-      "name": "95% Konfidenzintervall Obergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -102,26 +102,26 @@
       "data": [
         {
           "name": "Basel-Stadt",
-          "low": 97318,
-          "high": 92653
+          "low": 92653,
+          "high": 97318
         },
         {
           "name": "Basel-Landschaft",
-          "low": 145218,
-          "high": 139765
+          "low": 139765,
+          "high": 145218
         },
         {
           "name": "Jura",
-          "low": 36002,
-          "high": 33205
+          "low": 33205,
+          "high": 36002
         },
         {
           "name": "BS\u002FBL\u002FJU",
-          "low": 275932,
-          "high": 268230
+          "low": 268230,
+          "high": 275932
         }
       ],
-      "name": "95% Konfidenzintervall Obergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -164,26 +164,26 @@
       "data": [
         {
           "name": "Basel-Stadt",
-          "low": 98990,
-          "high": 94284
+          "low": 94284,
+          "high": 98990
         },
         {
           "name": "Basel-Landschaft",
-          "low": 145657,
-          "high": 139991
+          "low": 139991,
+          "high": 145657
         },
         {
           "name": "Jura",
-          "low": 35519,
-          "high": 32713
+          "low": 32713,
+          "high": 35519
         },
         {
           "name": "BS\u002FBL\u002FJU",
-          "low": 277518,
-          "high": 269636
+          "low": 269636,
+          "high": 277518
         }
       ],
-      "name": "95% Konfidenzintervall Obergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -226,26 +226,26 @@
       "data": [
         {
           "name": "Basel-Stadt",
-          "low": 100138,
-          "high": 95459
+          "low": 95459,
+          "high": 100138
         },
         {
           "name": "Basel-Landschaft",
-          "low": 146045,
-          "high": 140413
+          "low": 140413,
+          "high": 146045
         },
         {
           "name": "Jura",
-          "low": 35199,
-          "high": 32352
+          "low": 32352,
+          "high": 35199
         },
         {
           "name": "BS\u002FBL\u002FJU",
-          "low": 278731,
-          "high": 270875
+          "low": 270875,
+          "high": 278731
         }
       ],
-      "name": "95% Konfidenzintervall Obergrenze",
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
