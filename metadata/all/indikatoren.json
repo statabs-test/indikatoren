@@ -45461,7 +45461,7 @@
 	},
 	{
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "real; Veränderung",
+		"subtitle": "real; indexiert, 2014 = 100",
 		"kuerzel": "",
 		"kuerzelKunde": "1.3",
 		"description": "Bruttoinlandprodukt",
@@ -45501,7 +45501,7 @@
 	},
 	{
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "real, pro Kopf; Veränderung",
+		"subtitle": "real, pro Kopf; indexiert, 2014 = 100",
 		"kuerzel": "",
 		"kuerzelKunde": "1.4",
 		"description": "Bruttoinlandprodukt",
@@ -45580,13 +45580,13 @@
 		"id": 8354
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branchen",
+		"title": "Wertschöpfungswachstum nach Branche",
 		"subtitle": "Basel-Stadt, real, Index (2014 = 100)",
-		"kuerzel": "",
+		"kuerzel": "I.04.2.08355",
 		"kuerzelKunde": "1.10",
-		"description": "Wertschöpfungswachstum nach Branchen",
+		"description": "Wertschöpfungswachstum nach Branche",
 		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
+		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -45620,13 +45620,13 @@
 		"id": 8355
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branchen",
+		"title": "Wertschöpfungswachstum nach Branche",
 		"subtitle": "Basel-Landschaft, Index (2014 = 100)",
-		"kuerzel": "",
+		"kuerzel": "I.04.2.08356",
 		"kuerzelKunde": "1.11",
-		"description": "Wertschöpfungswachstum nach Branchen",
+		"description": "Wertschöpfungswachstum nach Branche",
 		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
+		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -45660,13 +45660,13 @@
 		"id": 8356
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branchen",
+		"title": "Wertschöpfungswachstum nach Branche",
 		"subtitle": "Jura, Index (2014 = 100)",
-		"kuerzel": "",
+		"kuerzel": "I.04.2.08357",
 		"kuerzelKunde": "1.12",
-		"description": "Wertschöpfungswachstum nach Branchen",
+		"description": "Wertschöpfungswachstum nach Branche",
 		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
+		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -45700,13 +45700,13 @@
 		"id": 8357
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branchen",
+		"title": "Wertschöpfungswachstum nach Branche",
 		"subtitle": "BS/BL/JU, Index (2014 = 100)",
-		"kuerzel": "",
+		"kuerzel": "I.04.2.08358",
 		"kuerzelKunde": "1.13",
-		"description": "Wertschöpfungswachstum nach Branchen",
+		"description": "Wertschöpfungswachstum nach Branche",
 		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
+		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -45740,13 +45740,13 @@
 		"id": 8358
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branchen",
+		"title": "Wertschöpfungswachstum nach Branche",
 		"subtitle": "Schweiz, Index (2014 = 100)",
-		"kuerzel": "",
+		"kuerzel": "I.04.2.08359",
 		"kuerzelKunde": "1.14",
-		"description": "Wertschöpfungswachstum nach Branchen",
+		"description": "Wertschöpfungswachstum nach Branche",
 		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
+		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Schweiz"
@@ -46197,8 +46197,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Exporte aus dem Kanton Basel-Landschaft haben mit 47,7 Mrd. Franken im Jahr 2018 einen mehr als doppelt so hohen Wert wie das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (so hoher Wert wie das BIP). Die Exporte aus dem Kanton Basel-Stadt entsprechen mit 23,5 Mrd. Franken 63% des BIP; diejenige aus dem Jura betragen 1,5 Mrd. Franken, bzw. 31% des BIP. In der Gesamtschweiz werden 2018 Waren im Wert von 233,2 Mrd. exportiert (34% des BIP).",
-		"erlaeuterungen": "Nominale Exporte und Importe von Waren, Total ohne Edelmetalle, Edel-und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP).",
+		"lesehilfe": "Die Exporte aus dem Kanton Basel-Landschaft haben mit 47,7 Mrd. Franken im Jahr 2018 einen mehr als doppelt so hohen Wert wie das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (fast gleicher Wert wie das BIP). Die Exporte aus dem Kanton Basel-Stadt entsprechen mit 23,5 Mrd. Franken 63% des BIP; diejenige aus dem Jura betragen 1,5 Mrd. Franken, bzw. 31% des BIP. In der Gesamtschweiz werden 2018 Waren im Wert von 233,2 Mrd. exportiert (34% des BIP).",
+		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -46239,7 +46239,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Zeit zwischen 2014 und 2018 haben die nominalen Warenexporte aus Basel-Landschaft um fast 90% zugelegt. Das Exportwachstum liegt im Kanton Jura bei 30% und im Kanton Basel-Stadt bei 7%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum um 50%.",
-		"erlaeuterungen": "Entwicklung der nominalen Exporte von Waren. Konjunkturelles Total, ohne Edelmetalle, Edel-und Schmucksteine, Kunstgegenstände und Antiquitäten.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -47053,7 +47053,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Warenimporte aus dem Ausland sind zwischen 2014 und 2018 um 75% in Basel-Stadt und um 46% in Basel-Landschaft gestiegen. Im Jura liegt der Anstieg bei 7%. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 51%.",
-		"erlaeuterungen": "Entwicklung der nominalen Importe von Waren. Konjunkturelles Total, ohne Edelmetalle, Edel-und Schmucksteine, Kunstgegenstände und Antiquitäten.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
