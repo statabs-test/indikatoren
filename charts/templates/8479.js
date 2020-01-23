@@ -2,8 +2,7 @@
   return {
     "plotOptions": {
       "series": {
-        pointPadding: -.5,
-        //groupPadding: 0.1, 
+        pointPadding: -0.5,
         borderWidth: 0,
         "dataLabels": {
           "style": {
@@ -22,16 +21,20 @@
           textOverflow: 'none',
           whiteSpace: "nowrap"
         },
-        x: -12,
+        x: -6,
         rotation: 0,
         "formatter": function () {
-          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
-            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
-            .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstanddllllll</span>(rechte Skala)")
+            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absllll</span>CH ")
+            .replace("Jura", "JU")
+            .replace("Basel-Landschaft", "BL")
+            .replace("Basel-Stadt", "BS");
         }
       }
     },
     "yAxis": [{
+      tickInterval: 10000,
+      tickAmount: 5,
       "labels": {
         "format": "{value:,.f}",
         "style": {
@@ -43,6 +46,8 @@
       "title": "",
     },
     {
+      tickInterval: 100000,
+      tickAmount: 5,
       "title": {
         "style": {
           "color": "#000000",
@@ -95,7 +100,7 @@
       "shared": false
     },
     "chart": {
-      margin: [60, 60, 80, 60],
+     // margin: [60, 60, 80, 60],
       "type": "column",
     }
   }

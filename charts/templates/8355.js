@@ -40,7 +40,6 @@
     }
   },
   "chart": {
-    // height: 500,
 },
   "plotOptions": {
     "line": {

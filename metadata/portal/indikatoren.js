@@ -30307,15 +30307,17 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die durchschnittlichen Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich seit 2014 ähnlich entwickelt: Nach einem Anstieg bis 2016, hat sich die Arbeitslosigkeit im Jahr 2017 und insbesondere 2018 wieder reduziert. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Zuletzt im Oktober 2019 lagen die Arbeitslosenquoten bei 1,7% (BL), 2,7% (BS) und 3,6% (JU).",
+		"lesehilfe": "Die durchschnittlichen Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich seit 2014 ähnlich entwickelt: Nach einem Anstieg bis 2016, hat sich die Arbeitslosigkeit im Jahr 2017 und insbesondere 2018 wieder reduziert. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Zuletzt im Dezember 2019 lagen die Arbeitslosenquoten bei 2,0% (BL), 3,1% (BS) und 4,0% (JU).",
 		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche die Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_020",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8502"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"

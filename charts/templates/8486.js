@@ -2,13 +2,18 @@
   return {
     chart: {
       type: "column",
-      spacingBottom: 40,
+      marginBottom: 35,
       inverted: false,
     },
     plotOptions: {
       series: {
         pointPadding: 0,
         borderWidth: 0,
+      }
+    },
+    xAxis: {
+      labels: {
+        rotation: 0
       }
     },
     yAxis: {
@@ -25,6 +30,7 @@
       { color: "#008AC3" }
     ],
     legend: {
+      itemDistance: 10,
       enabled: true,
       layout: "horizontal",
       verticalAlign: "top",
@@ -36,13 +42,5 @@
     tooltip: {
       pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
     },
-    credits: {
-      position: {
-        y: -15
-      },
-      style: {
-        width: 470
-      }
-    }
   }
 }());

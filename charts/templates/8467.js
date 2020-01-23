@@ -17,7 +17,7 @@
           textOverflow: 'none',
           whiteSpace: "nowrap"
         },
-        x: -12,
+        x: -10,
         rotation: 0,
         "formatter": function () {
           //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
@@ -30,6 +30,7 @@
       "labels": {
         "format": "{value:,.f}",
         "style": {
+          // fontSize: '10px',
           "color": "#000000"
         }
       },
@@ -48,6 +49,7 @@
       "labels": {
         "format": "{value:,.f}",
         "style": {
+          //fontSize: '10px',
           "color": "#000000"
         }
       },
@@ -78,7 +80,6 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      //"y": 35,    
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mrd. Franken</b><br/>',

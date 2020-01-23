@@ -2,15 +2,16 @@
   return {
     "xAxis": {
       "tickInterval": 4,
-       "type": "category",
-       labels:{
-           "formatter": function() {
-            return this.value.split("-").slice(0, -1);
-      },
-       }
+      "type": "category",
+      labels: {
+        "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        },
+      }
     },
     "yAxis": {
       "min": 90,
+      tickInterval: 10,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -18,7 +19,7 @@
     "tooltip": {
       "shared": false,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
-    }, 
+    },
     "series": [
       { "color": "rgb(71,71,71)" },
       { "color": "rgb(255,128,40)" },
@@ -28,7 +29,7 @@
     ],
     "legend": {
       "enabled": true,
-      "x": 30,
+      //"x": 30,
       //"y": 35,
       //"itemWidth": 145,
       "layout": "horizontal",

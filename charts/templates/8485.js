@@ -2,31 +2,20 @@
   return {
     chart: {
       type: "column",
-      //animation: false,
       inverted: false,
-      /*events: {
-        load: function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            )
-          };
-          justifyColumns(event.target);
-        },
-        redraw: function (event) {
-          justifyColumns(event.target);
-        }
-      }*/
+      marginBottom: 35
     },
     plotOptions: {
       series: {
         pointPadding: 0,
         borderWidth: 0,
-        //pointWidth: 14
+      }
+    },
+    xAxis: {
+      type: "category",
+      tickInterval: 1,
+      labels: {
+        rotation: 0
       }
     },
     yAxis: {
@@ -47,7 +36,6 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
-      //itemWidth: 300,
       itemStyle: {
         fontWeight: "normal"
       }
