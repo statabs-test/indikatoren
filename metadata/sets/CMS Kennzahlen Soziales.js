@@ -782,7 +782,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2012",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
@@ -994,7 +994,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "377 Nennungen und somit mehr als die Hälfte der Familien mit konkreten Umzugsplänen, geben als Grund an, dass ihre Wohnung bzw. ihr Haus zu klein ist. Der Erwerb von Wohneigentum, die zu hohe Miete und die Lärmbelastung des Strassenverkehrs werden von knapp 20% der Familien mit Umzugsplänen als Ursache genannt. 188 Familien geben andere als die aufgelisteten Gründe an.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. <br>Diese Frage wurde nur von Familien beantwortet, welche angegeben hatten, dass sie konkrete Umzugspläne haben oder schon ans Umziehen dachten.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. <br>Diese Frage wurde nur von Familien beantwortet, welche angegeben hatten, dass sie konkrete Umzugspläne haben oder schon ans Umziehen dachten (n=694).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
