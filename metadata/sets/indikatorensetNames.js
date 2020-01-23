@@ -24,5 +24,6 @@ var indikatorensetNames = [
 	"Stadtteilmonitoring Rosental (Print)",
 	"City-Statistics",
 	"Wirtschaftsbericht BS_BL_JU",
+	"Wirtschaftsbericht BS_BL_JU (Print)",
 	"Test"
 ];
