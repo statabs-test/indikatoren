@@ -3,7 +3,7 @@
     {
       "color": "#cd9c00",
       "index": 0,
-      "legendIndex": 1,
+      "legendIndex": 0,
       "type": "column",
       "data": [
         [
@@ -44,7 +44,7 @@
     {
       "color": "#7f5f1a",
       "index": 2,
-      "legendIndex": 4,
+      "legendIndex": 3,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -86,7 +86,7 @@
     {
       "color": "#b375ab",
       "index": 1,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "type": "column",
       "data": [
         [
@@ -127,7 +127,7 @@
     {
       "color": "#923f8d",
       "index": 3,
-      "legendIndex": 5,
+      "legendIndex": 4,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -169,7 +169,7 @@
     {
       "color": "#8A8A8A",
       "index": 4,
-      "legendIndex": 0,
+      "legendIndex": 2,
       "type": "column",
       "data": [
         [
@@ -208,9 +208,9 @@
       "name": "PW pro Haushalt Stadt Basel"
     },
     {
-      "color": "#474747",
+      "color": "#777777",
       "index": 5,
-      "legendIndex": 3,
+      "legendIndex": 5,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -254,7 +254,7 @@
     "events": {
       "load": function () {
           //move legend title
-          var title = this.legend.title.translate(-203, 46);
+          var title = this.legend.title.translate(-190, 46);
         }
     },
     "borderColor": "#fbfbfb",
@@ -360,17 +360,18 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "width": 240,
     "alignColumns": true,
     "useHTML": true,
     "y": -50,
-    "x": -25,
+    "x": 0,
     "itemMarginBottom": 5,
-    "width": 205,
-    "itemWidth": 65,
+    "itemWidth": 75,
     "labelFormatter": function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters
-        return this.name.split(" ").slice(-1); //return only last word of legend-title
+         var tmp = this.name.split(" ").slice(-1).toString(); //return only last word of legend-title
+         return tmp.replace('Kleinhüningen', 'Kleinh.');
       },
     "title": {
       "text": "Personenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",

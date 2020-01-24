@@ -5,7 +5,7 @@
       events: {
         load: function () {
           //move legend title
-          var title = this.legend.title.translate(-203, 46);
+          var title = this.legend.title.translate(-190, 46);
         }
       }
     },
@@ -56,20 +56,19 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      //"align": "left",
+      align: "right",
+      width: 240,
       alignColumns: true,
-      //itemWidth: 200
       useHTML: true,
       y: -50,
-      x: -25,
+      x: 0,
       itemMarginBottom: 5,
-      align: "right",
-      width: 205,
-      itemWidth: 65,
+      itemWidth: 75,
       labelFormatter: function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters
-        return this.name.split(" ").slice(-1); //return only last word of legend-title
+         var tmp = this.name.split(" ").slice(-1).toString(); //return only last word of legend-title
+         return tmp.replace('Kleinhüningen', 'Kleinh.');
       },
       title: {
         text: 'Personenwagen pro Haushalt:<br/>Motorisierungsgrad (rechte Skala):',
@@ -78,21 +77,20 @@
           lineHeight: 1.7
         }
       }
-
     },
     "series": [
       {
        //Klybeck
         "color": "#cd9c00",
         "index": 0,
-        legendIndex: 1,
+        legendIndex: 0,
         "type": "column",
        // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
         },
       {
         "color": "#7f5f1a",
         "index": 2,
-        legendIndex: 4,
+        legendIndex: 3,
         "type": "line",
         "yAxis": 1,
        // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
@@ -101,14 +99,14 @@
         //Kleinhüningen
         "color": "#b375ab",
         "index": 1,
-        legendIndex: 2,
+        legendIndex: 1,
         "type": "column",
         //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
       },
       {
         "color": "#923f8d",
         "index": 3,
-        legendIndex: 5,
+        legendIndex: 4,
         "type": "line",
         "yAxis": 1,
         //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
@@ -116,14 +114,14 @@
       {
         "color": "#8A8A8A",
         "index": 4,
-        legendIndex: 0,
+        legendIndex: 2,
         "type": "column",
         //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
       },
       {
-        "color": "#474747",
+        "color": "#777777",
         "index": 5,
-        legendIndex: 3,
+        legendIndex: 5,
         "type": "line",
         "yAxis": 1,
         //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}

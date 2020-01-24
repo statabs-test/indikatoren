@@ -6,7 +6,7 @@
     "plotOptions": {
       "series": {
         "stacking": "percent",
-        pointWidth: 15
+        groupPadding: 0.02
       }
     },
     "xAxis": {
