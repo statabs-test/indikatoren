@@ -5,19 +5,23 @@
       "data": [
         [
           "Basel-Stadt",
-          41
+          40.9861
         ],
         [
           "Basel-Landschaft",
-          31.4
+          31.4476
         ],
         [
           "Jura",
-          21.6
+          21.6157
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          33.6111
         ],
         [
           "Schweiz",
-          31.9
+          31.9412
         ]
       ],
       "name": "2014",
@@ -28,22 +32,26 @@
       "data": [
         [
           "Basel-Stadt",
-          41.3
+          39.5027
         ],
         [
           "Basel-Landschaft",
-          31.5
+          30.3285
         ],
         [
           "Jura",
-          23.5
+          20.2234
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          32.8067
         ],
         [
           "Schweiz",
-          32.7
+          31.7533
         ]
       ],
-      "name": "2015",
+      "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -51,22 +59,26 @@
       "data": [
         [
           "Basel-Stadt",
-          43.9
+          42.4695
         ],
         [
           "Basel-Landschaft",
-          33
+          32.5667
         ],
         [
           "Jura",
-          24
+          23.008
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          34.4155
         ],
         [
           "Schweiz",
-          33.9
+          32.1291
         ]
       ],
-      "name": "2016",
+      "name": "95% Konfidenzintervall Obergrenze",
       "turboThreshold": 0
     },
     {
@@ -74,22 +86,26 @@
       "data": [
         [
           "Basel-Stadt",
-          43.9
+          41.3463
         ],
         [
           "Basel-Landschaft",
-          32.7
+          31.4982
         ],
         [
           "Jura",
-          24.5
+          23.5097
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          34.003
         ],
         [
           "Schweiz",
-          34.7
+          32.7362
         ]
       ],
-      "name": "2017",
+      "name": "2015",
       "turboThreshold": 0
     }
   ],

@@ -5,15 +5,15 @@
       "index": 14,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0047
         ],
         [
-          "JU",
+          "Jura",
           0.0197
         ],
         [
@@ -21,7 +21,7 @@
           0.0028
         ],
         [
-          "CH",
+          "Schweiz",
           0.0067
         ]
       ],
@@ -33,15 +33,15 @@
       "index": 13,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.4372
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.122
         ],
         [
-          "JU",
+          "Jura",
           0
         ],
         [
@@ -49,7 +49,7 @@
           0.3135
         ],
         [
-          "CH",
+          "Schweiz",
           0.0651
         ]
       ],
@@ -61,15 +61,15 @@
       "index": 12,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0055
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0881
         ],
         [
-          "JU",
+          "Jura",
           0.326
         ],
         [
@@ -77,7 +77,7 @@
           0.052
         ],
         [
-          "CH",
+          "Schweiz",
           0.0765
         ]
       ],
@@ -89,15 +89,15 @@
       "index": 11,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0332
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0624
         ],
         [
-          "JU",
+          "Jura",
           0.08
         ],
         [
@@ -105,7 +105,7 @@
           0.0453
         ],
         [
-          "CH",
+          "Schweiz",
           0.0633
         ]
       ],
@@ -117,15 +117,15 @@
       "index": 10,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0186
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0693
         ],
         [
-          "JU",
+          "Jura",
           0.0528
         ],
         [
@@ -133,7 +133,7 @@
           0.0346
         ],
         [
-          "CH",
+          "Schweiz",
           0.0529
         ]
       ],
@@ -145,15 +145,15 @@
       "index": 9,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.062
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.1815
         ],
         [
-          "JU",
+          "Jura",
           0.0992
         ],
         [
@@ -161,7 +161,7 @@
           0.1008
         ],
         [
-          "CH",
+          "Schweiz",
           0.1428
         ]
       ],
@@ -173,15 +173,15 @@
       "index": 8,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0332
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0479
         ],
         [
-          "JU",
+          "Jura",
           0.0218
         ],
         [
@@ -189,7 +189,7 @@
           0.037
         ],
         [
-          "CH",
+          "Schweiz",
           0.0427
         ]
       ],
@@ -201,15 +201,15 @@
       "index": 7,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0118
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0075
         ],
         [
-          "JU",
+          "Jura",
           0.0106
         ],
         [
@@ -217,7 +217,7 @@
           0.0105
         ],
         [
-          "CH",
+          "Schweiz",
           0.0171
         ]
       ],
@@ -229,15 +229,15 @@
       "index": 6,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.088
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0326
         ],
         [
-          "JU",
+          "Jura",
           0.0376
         ],
         [
@@ -245,7 +245,7 @@
           0.0679
         ],
         [
-          "CH",
+          "Schweiz",
           0.0945
         ]
       ],
@@ -257,15 +257,15 @@
       "index": 5,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0792
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0938
         ],
         [
-          "JU",
+          "Jura",
           0.0456
         ],
         [
@@ -273,7 +273,7 @@
           0.0815
         ],
         [
-          "CH",
+          "Schweiz",
           0.0751
         ]
       ],
@@ -285,15 +285,15 @@
       "index": 4,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0637
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0931
         ],
         [
-          "JU",
+          "Jura",
           0.1264
         ],
         [
@@ -301,7 +301,7 @@
           0.077
         ],
         [
-          "CH",
+          "Schweiz",
           0.1107
         ]
       ],
@@ -313,15 +313,15 @@
       "index": 3,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.0599
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.0821
         ],
         [
-          "JU",
+          "Jura",
           0.0856
         ],
         [
@@ -329,7 +329,7 @@
           0.0685
         ],
         [
-          "CH",
+          "Schweiz",
           0.0803
         ]
       ],
@@ -341,15 +341,15 @@
       "index": 2,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           0.1077
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           0.1151
         ],
         [
-          "JU",
+          "Jura",
           0.0945
         ],
         [
@@ -357,7 +357,7 @@
           0.1086
         ],
         [
-          "CH",
+          "Schweiz",
           0.1724
         ]
       ],

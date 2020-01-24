@@ -45723,9 +45723,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8475"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"

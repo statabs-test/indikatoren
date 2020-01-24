@@ -334,9 +334,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8475"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
