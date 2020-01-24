@@ -3,6 +3,7 @@
     {
       "color": "#cd9c00",
       "index": 0,
+      "legendIndex": 1,
       "type": "column",
       "data": [
         [
@@ -43,6 +44,7 @@
     {
       "color": "#7f5f1a",
       "index": 2,
+      "legendIndex": 4,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -84,6 +86,7 @@
     {
       "color": "#b375ab",
       "index": 1,
+      "legendIndex": 2,
       "type": "column",
       "data": [
         [
@@ -124,6 +127,7 @@
     {
       "color": "#923f8d",
       "index": 3,
+      "legendIndex": 5,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -161,6 +165,89 @@
         ]
       ],
       "name": "Motorisierungsgrad Kleinhüningen"
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 4,
+      "legendIndex": 0,
+      "type": "column",
+      "data": [
+        [
+          2010,
+          0.49
+        ],
+        [
+          2011,
+          0.46
+        ],
+        [
+          2012,
+          0.46
+        ],
+        [
+          2013,
+          0.46
+        ],
+        [
+          2014,
+          0.45
+        ],
+        [
+          2015,
+          0.46
+        ],
+        [
+          2016,
+          0.45
+        ],
+        [
+          2017,
+          0.46
+        ]
+      ],
+      "name": "PW pro Haushalt Stadt Basel"
+    },
+    {
+      "color": "#474747",
+      "index": 5,
+      "legendIndex": 3,
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2010,
+          235.3
+        ],
+        [
+          2011,
+          238.3
+        ],
+        [
+          2012,
+          238.5
+        ],
+        [
+          2013,
+          234.4
+        ],
+        [
+          2014,
+          228.9
+        ],
+        [
+          2015,
+          234.4
+        ],
+        [
+          2016,
+          228.1
+        ],
+        [
+          2017,
+          232.2
+        ]
+      ],
+      "name": "Motorisierungsgrad Stadt Basel"
     }
   ],
   "chart": {
@@ -278,8 +365,8 @@
     "y": -50,
     "x": -25,
     "itemMarginBottom": 5,
-    "width": 200,
-    "itemWidth": 80,
+    "width": 205,
+    "itemWidth": 65,
     "labelFormatter": function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters

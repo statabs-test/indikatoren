@@ -78,6 +78,10 @@
         [
           2018,
           52.2007
+        ],
+        [
+          2019,
+          51.8585
         ]
       ],
       "name": "Klybeck"
@@ -160,6 +164,10 @@
         [
           2018,
           47.9706
+        ],
+        [
+          2019,
+          46.9979
         ]
       ],
       "name": "Kleinhüningen"
@@ -242,6 +250,10 @@
         [
           2018,
           37.6829
+        ],
+        [
+          2019,
+          37.8004
         ]
       ],
       "name": "Stadt Basel"
@@ -327,7 +339,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

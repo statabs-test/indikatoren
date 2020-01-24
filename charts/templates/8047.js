@@ -5,6 +5,14 @@
 (function () {
     return {
         data: {
+            "seriesMapping": [
+                {
+                    x: 0, y: 1
+                },
+                {
+                    x: 0, y: 3
+                }
+            ],
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
                 var negateNumbersInColumn = function (columnIndex) {
@@ -19,7 +27,7 @@
                     });
                 };
                 negateNumbersInColumn(1);
-                negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
+                //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
         "chart": {
@@ -34,7 +42,7 @@
                         this.update(
                             {
                                 legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 50 //fixed offset instead of /charts/templates/populationPyramid001.js
                                 }
                             }
                         );
@@ -96,32 +104,32 @@
         series: [
             {
                 //color: "#246370", // blau dunkel
-                color: "#7f5f1a",
+                color: "#008ac3",//"#7f5f1a",
                 stacking: 'normal',
                 //stack: 'male',
                 legendIndex: 0
             },
-            {
+            /*{
                 //color: "#A8C3CA", //blau hell
                 "color": "#cd9c00",
                 stacking: 'normal',
                 //stack: 'male',
                 legendIndex: 2
-            },
+            },*/
             {
                 //color: "#923F8D", // rot dunkel 
-                "color": "#923f8d",
+                "color": "#b00000",//"#923f8d",
                 stacking: 'normal',
                 //stack: 'female',
                 legendIndex: 1
             },
-            {
+            /*{
                 //color: "#E7CEE2", //rot hell
                 "color": "#b375ab",
                 stacking: 'normal',
                 // stack: 'female',
                 legendIndex: 3
-            }
+            }*/
         ],
         "legend": {
             "enabled": true,
@@ -131,9 +139,10 @@
             "itemStyle": {
                 "fontWeight": "normal"
             },
-            labelFormatter: function () {
+            //itemWidth: 160,
+            /*labelFormatter: function () {
                 return this.name.replace('Kleinhüningen', 'Kleinh.');
-            }            
+            }*/
         },
         "tooltip": {
             "shared": true,

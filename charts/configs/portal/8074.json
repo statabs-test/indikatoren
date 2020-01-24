@@ -128,7 +128,7 @@
           0.75394
         ]
       ],
-      "name": "Stadt Basel",
+      "name": "Basel",
       "turboThreshold": 0
     },
     {
@@ -156,7 +156,7 @@
           "high": 0.76297
         }
       ],
-      "name": "Stadt Basel 95% Konfidenzintervall Untergrenze",
+      "name": "Basel 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
