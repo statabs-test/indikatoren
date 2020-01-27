@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#B375AB",
       "data": [
         [
           2014,
@@ -89,7 +89,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnbevölkerung im Alter 15 bis 64 Jahre"
+    "text": "Wohnbevölkerung im Alter 15 bis 64 Jahre, BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
     "style": {
@@ -98,7 +98,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indexiert, 2014 = 100",
+    "text": "indexiert (2014 = 100)",
     "align": "left"
   },
   "tooltip": {

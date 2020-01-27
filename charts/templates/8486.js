@@ -23,11 +23,11 @@
       }
     },
     series: [
-      { color: "rgb(147,63,141)" },
-      { color: "rgb(180,117,171)" },
-      { color: "rgb(250,189,36)" },
-      { color: "rgb(250,218,128)" },
-      { color: "#008AC3" }
+      { color: "#246370" },
+      { color: "#0F7399" },
+      { color: "#689199" },
+      { color: "#A8C3CA" },
+      { color: "#D3E2E4" }
     ],
     legend: {
       itemDistance: 10,

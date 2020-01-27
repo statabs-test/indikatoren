@@ -109,7 +109,7 @@
           0.0633
         ]
       ],
-      "name": "Sonst. 2. Sektor",
+      "name": "Sonstige Industrie",
       "turboThreshold": 0
     },
     {
@@ -305,7 +305,7 @@
           0.1107
         ]
       ],
-      "name": "Öffentl. Verwaltung, Bildung",
+      "name": "Öff. Verwaltung, Bildung",
       "turboThreshold": 0
     },
     {
@@ -440,7 +440,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wertschöpfung nach Branche"
+    "text": "Anteile Wertschöpfung nach Branche"
   },
   "subtitle": {
     "style": {

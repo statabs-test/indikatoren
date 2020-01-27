@@ -298,7 +298,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(180,117,171)",
+      "color": "#B375AB",
       "data": [
         [
           "2014-1",
@@ -558,7 +558,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indexiert, 1. Quartal 2014 = 100",
+    "text": "indexiert (1. Quartal 2014 = 100)",
     "align": "left"
   },
   "tooltip": {

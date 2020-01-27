@@ -28884,7 +28884,7 @@ var indikatoren = [
 		"title": "Bruttoinlandprodukt",
 		"subtitle": "total in Mrd. Franken, 2018",
 		"kuerzel": "",
-		"kuerzelKunde": "1.1",
+		"kuerzelKunde": "1.1-1",
 		"description": "Bruttoinlandprodukt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
@@ -28893,20 +28893,22 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken. Das BIP der Schweiz beträgt rund 690 Mrd. Franken.",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken. Das BIP der Schweiz beträgt rund 690 Mrd. Franken.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8467"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -28924,7 +28926,7 @@ var indikatoren = [
 		"title": "Bruttoinlandprodukt pro Kopf",
 		"subtitle": "in Franken, 2018",
 		"kuerzel": "",
-		"kuerzelKunde": "1.2",
+		"kuerzelKunde": "1.1-2",
 		"description": "Bruttoinlandprodukt pro Kopf",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
@@ -28933,8 +28935,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -28944,9 +28946,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8468"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -28962,9 +28966,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "real; indexiert, 2014 = 100",
+		"subtitle": "real; indexiert (2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "1.3",
+		"kuerzelKunde": "1.1-3",
 		"description": "Bruttoinlandprodukt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
@@ -28973,8 +28977,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -28984,9 +28988,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8469"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29002,9 +29008,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "real, pro Kopf; indexiert, 2014 = 100",
+		"subtitle": "real, pro Kopf; indexiert  (2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "1.4",
+		"kuerzelKunde": "1.1-4",
 		"description": "Bruttoinlandprodukt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
@@ -29013,8 +29019,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29024,9 +29030,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8470"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29041,11 +29049,11 @@ var indikatoren = [
 		"id": 8353
 	},
 	{
-		"title": "Wertschöpfung nach Branche",
+		"title": "Anteile Wertschöpfung nach Branche",
 		"subtitle": "Anteile an der Gesamtwertschöpfung, 2018",
 		"kuerzel": "",
-		"kuerzelKunde": "1.7",
-		"description": "Wertschöpfung nach Branche",
+		"kuerzelKunde": "1.2-1",
+		"description": "Anteile Wertschöpfung nach Branche",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29053,8 +29061,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29064,9 +29072,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8471"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29081,11 +29091,11 @@ var indikatoren = [
 		"id": 8354
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branche",
-		"subtitle": "Basel-Stadt, real, Index (2014 = 100)",
+		"title": "Wertschöpfung nach Branche, Basel-Stadt",
+		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08355",
-		"kuerzelKunde": "1.10",
-		"description": "Wertschöpfungswachstum nach Branche",
+		"kuerzelKunde": "1.2-2",
+		"description": "Wertschöpfung nach Branche, Basel-Stadt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29093,20 +29103,22 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt ist zwischen 2014 und 2018 um 71% gestiegen. Auch die Wertschöpfung in der Metallindustrie ist gewachsen (+18%), wobei diese Branche, ebenso wie der Bereich Elektro/Optik/Maschinen-Industrie (-26%), sehr klein ist. Die Wertschöpfung im Baugewerbe hat um 17% zugenommen, während sie im Bereich Verkehr und Lagerei um 12% zurückgegangen ist.",
-		"erlaeuterungen": "Das reale Wachstum der Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8472"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29121,11 +29133,11 @@ var indikatoren = [
 		"id": 8355
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branche",
-		"subtitle": "Basel-Landschaft, Index (2014 = 100)",
+		"title": "Wertschöpfung nach Branche, Basel-Landschaft",
+		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08356",
-		"kuerzelKunde": "1.11",
-		"description": "Wertschöpfungswachstum nach Branche",
+		"kuerzelKunde": "1.2-3",
+		"description": "Wertschöpfung nach Branche, Basel-Landschaft",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29133,20 +29145,22 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Zwischen 2014 und 2018 hat in Basel-Landschaft die Wertschöpfung der Pharmaindustrie am stärksten zugenommen (+62%). Negativ hat sich vor allem die Wertschöpfung im Fahrzeugbau entwickelt (-13%), aber auch im Bereich Handel, Reparatur (-4,7%).",
-		"erlaeuterungen": "Das reale Wachstum der Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8473"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29161,11 +29175,11 @@ var indikatoren = [
 		"id": 8356
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branche",
-		"subtitle": "Jura, Index (2014 = 100)",
+		"title": "Wertschöpfung nach Branche, Jura",
+		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08357",
-		"kuerzelKunde": "1.12",
-		"description": "Wertschöpfungswachstum nach Branche",
+		"kuerzelKunde": "1.2-4",
+		"description": "Wertschöpfung nach Branche, Jura",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29173,20 +29187,22 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Jura hat das Branchenaggregat der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen das höchste Wachstum der realen Wertschöpfung (+27%) zwischen 2014 und 2018 erreicht. Rückläufig war die Wertschöpfung im Fahrzeugbau (-26%) und im Bereich Elektro/Optik/Maschinenindustrie (-13%).",
-		"erlaeuterungen": "Das reale Wachstum der Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"lesehilfe": "Im Kanton Jura hat das Branchenaggregat Freiberufliche, wissenschaftliche und technische Dienstleistungen das höchste Wachstum der realen Wertschöpfung (+27%) zwischen 2014 und 2018 erreicht. Rückläufig war die Wertschöpfung im Fahrzeugbau (-26%) und im Bereich Elektro/Optik/Maschinenindustrie (-13%).",
+		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8474"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29201,11 +29217,11 @@ var indikatoren = [
 		"id": 8357
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branche",
-		"subtitle": "BS/BL/JU, Index (2014 = 100)",
+		"title": "Wertschöpfung nach Branche, BS/BL/JU",
+		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08358",
-		"kuerzelKunde": "1.13",
-		"description": "Wertschöpfungswachstum nach Branche",
+		"kuerzelKunde": "1.2-5",
+		"description": "Wertschöpfung nach Branche, BS/BL/JU",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29213,18 +29229,18 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Gesamtregion BS/BL/JU hat zwischen 2014 und 2018 die Wertschöpfung in der Pharmaindustrie am stärksten zugenommen (+70%), während diejenige im Fahrzeugbau den deutlichsten Rückgang hinnehmen musste (-31%).",
-		"erlaeuterungen": "Das reale Wachstum der Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_013",
+		"orderKey": "01_02_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"8475"
@@ -29243,11 +29259,11 @@ var indikatoren = [
 		"id": 8358
 	},
 	{
-		"title": "Wertschöpfungswachstum nach Branche",
-		"subtitle": "Schweiz, Index (2014 = 100)",
+		"title": "Wertschöpfung nach Branche, Schweiz",
+		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08359",
-		"kuerzelKunde": "1.14",
-		"description": "Wertschöpfungswachstum nach Branche",
+		"kuerzelKunde": "1.2-6",
+		"description": "Wertschöpfung nach Branche, Schweiz",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29255,20 +29271,22 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Auch in der Gesamtschweiz war das Wachstum in der Pharmabranche am stärksten: die reale Wertschöpfung ist zwischen 2014 und 2018 um 74% gestiegen. Rückläufig war die Wertschöpfung im Bereich Elektro/Optik/Maschinen, im Fahrzeugbau sowie im 1. Sektor.",
-		"erlaeuterungen": "Das reale Wachstum der Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8476"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -29286,7 +29304,7 @@ var indikatoren = [
 		"title": "Erwerbstätige",
 		"subtitle": "",
 		"kuerzel": "I.03.1.08360",
-		"kuerzelKunde": "2.2",
+		"kuerzelKunde": "2.1-3",
 		"description": "Erwerbstätige",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -29296,7 +29314,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29306,9 +29324,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8477"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29324,9 +29344,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Grenzgänger",
-		"subtitle": "Indexiert, 1. Quartal 2014 = 100",
+		"subtitle": "indexiert (1. Quartal 2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "2.4",
+		"kuerzelKunde": "2.1-5",
 		"description": "Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -29336,7 +29356,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29346,9 +29366,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8478"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -29366,7 +29388,7 @@ var indikatoren = [
 		"title": "Grenzgänger",
 		"subtitle": "2019, 3. Quartal",
 		"kuerzel": "",
-		"kuerzelKunde": "2.5",
+		"kuerzelKunde": "2.1-6",
 		"description": "Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -29376,7 +29398,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29386,9 +29408,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8479"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -29403,11 +29427,11 @@ var indikatoren = [
 		"id": 8362
 	},
 	{
-		"title": "Arbeitspendler",
+		"title": "Arbeitspendler Basel-Stadt",
 		"subtitle": "Basel-Stadt, Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.8",
-		"description": "Arbeitspendler",
+		"kuerzelKunde": "2.1-8",
+		"description": "Arbeitspendler Basel-Stadt",
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29416,19 +29440,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 pendelten fast 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Die meisten von ihnen kommen aus Basel-Landschaft (ca. 44 100) oder aus dem Ausland (rund 34 900), vornehmlich aus Frankreich und Deutschland. Andere Schweizer Kantone spielen eine kleinere Rolle. Über 25 000 Personen aus Basel-Stadt arbeiten in anderen Kantonen oder im Ausland, über 15 100 von ihnen in Basel-Landschaft.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in Basel-Stadt pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in Basel-Stadt zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8480"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29443,11 +29469,11 @@ var indikatoren = [
 		"id": 8363
 	},
 	{
-		"title": "Arbeitspendler",
+		"title": "Arbeitspendler Basel-Landschaft",
 		"subtitle": "Basel-Landschaft, Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.9",
-		"description": "Arbeitspendler",
+		"kuerzelKunde": "2.1-9",
+		"description": "Arbeitspendler Basel-Landschaft",
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29456,19 +29482,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Kanton Basel-Landschaft gibt es im Mittel der Jahre 2013 bis 2017 etwas mehr Weg- als Zupendler (rund 59 700 gegenüber 54 300). Die meisten Wegpendler arbeiten in Basel-Stadt, fast 44 100. Die meisten Zupendler kommen mit rund 20 300 Personen aus dem Ausland nach Basel-Landschaft, gefolgt von Basel-Stadt mit über 15 100 Arbeitskräften.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in Basel-Landschaft pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in Basel-Landschaft zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8481"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29483,11 +29511,11 @@ var indikatoren = [
 		"id": 8364
 	},
 	{
-		"title": "Arbeitspendler",
+		"title": "Arbeitspendler Jura",
 		"subtitle": "Jura, Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.10",
-		"description": "Arbeitspendler",
+		"kuerzelKunde": "2.1-10",
+		"description": "Arbeitspendler Jura",
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29496,19 +29524,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2013 bis 2017 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 200 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit fast 2 700 in den Kanton Bern. Die meisten der insgesamt rund 9 500 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit über 7 300 Personen aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz im Kanton Jura pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse im Kanton Jura zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8482"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29523,11 +29553,11 @@ var indikatoren = [
 		"id": 8365
 	},
 	{
-		"title": "Arbeitspendler",
+		"title": "Arbeitspendler BS/BL/JU",
 		"subtitle": "BS/BL/JU, Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.11",
-		"description": "Arbeitspendler",
+		"kuerzelKunde": "2.1-11",
+		"description": "Arbeitspendler BS/BL/JU",
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29536,19 +29566,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Fasst man die drei Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen, so pendeln im Mittel der Jahre 2013 bis 2017 insgesamt rund 29 900 Personen zur Arbeit aus diesem Gebiet weg, über 103 400 kommen von auswärts an ihren Arbeitsplatz. Mit über 9 100 Personen pendelt die grösste Gruppe in den Aargau. Bei den Zupendlern kommt die grosse Mehrheit mit mit rund 62 600 Arbeitskräften aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in den Kantonen Basel-Stadt, Basel-Landschaft oder Jura pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in den Kantonen Basel-Stadt, Basel-Landschaft oder Jura zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8483"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29566,7 +29598,7 @@ var indikatoren = [
 		"title": "Arbeitspendler",
 		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.12",
+		"kuerzelKunde": "2.1-7",
 		"description": "Arbeitspendler",
 		"thema": "11 Verkehr",
 		"unterthema": "",
@@ -29576,19 +29608,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2013 bis 2017  ist für Basel-Stadt (+74 700) und Jura (+4 300) positiv, für Basel-Landschaft (-5 500) negativ. Werden die drei Kantone zusammen betrachtet, gibt es 73 600 mehr Zu- als Wegpendler.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu einem Arbeitsplatz in einem der genannten Kantone pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem der genannten Kantone zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamt für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8484"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29605,18 +29639,18 @@ var indikatoren = [
 	{
 		"title": "Tertiärquote",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "2.14",
+		"kuerzel": "I.15.6.08368",
+		"kuerzelKunde": "2.2-1",
 		"description": "Tertiärquote",
 		"thema": "15 Bildung",
-		"unterthema": "",
+		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.2 Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29626,9 +29660,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_02_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8485"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -29646,7 +29682,7 @@ var indikatoren = [
 		"title": "Neue Absolventen",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "2.15",
+		"kuerzelKunde": "2.2-2",
 		"description": "Neue Absolventen",
 		"thema": "15 Bildung",
 		"unterthema": "",
@@ -29656,7 +29692,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.2 Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29666,9 +29702,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_02_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8486"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
@@ -29684,9 +29722,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Exporte und Importe",
-		"subtitle": "Anteile am nominalen BIP, 2018",
+		"subtitle": "Anteil am nominalen BIP, 2018",
 		"kuerzel": "I.06.4.08370",
-		"kuerzelKunde": "4.1",
+		"kuerzelKunde": "4.1-1",
 		"description": "Exporte und Importe",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
@@ -29696,19 +29734,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "4. Weiteres",
-		"stufe2": "",
+		"stufe2": "4.1 Aussenhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Exporte aus dem Kanton Basel-Landschaft haben mit 47,7 Mrd. Franken im Jahr 2018 einen mehr als doppelt so hohen Wert wie das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (fast gleicher Wert wie das BIP). Die Exporte aus dem Kanton Basel-Stadt entsprechen mit 23,5 Mrd. Franken 63% des BIP; diejenige aus dem Jura betragen 1,5 Mrd. Franken, bzw. 31% des BIP. In der Gesamtschweiz werden 2018 Waren im Wert von 233,2 Mrd. exportiert (34% des BIP).",
-		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP).",
+		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Werten erheblich abweichen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "04_01_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8487"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics",
@@ -29725,9 +29765,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Entwicklung der Exporte",
-		"subtitle": "Index (2014 = 100)",
+		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "I.06.4.08371",
-		"kuerzelKunde": "4.2",
+		"kuerzelKunde": "4.1-2",
 		"description": "Entwicklung der Exporte",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
@@ -29737,19 +29777,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "4. Weiteres",
-		"stufe2": "",
+		"stufe2": "4.1 Aussenhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Zeit zwischen 2014 und 2018 haben die nominalen Warenexporte aus Basel-Landschaft um fast 90% zugelegt. Das Exportwachstum liegt im Kanton Jura bei 30% und im Kanton Basel-Stadt bei 7%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum um 50%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "04_01_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8488"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
@@ -29765,9 +29807,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Logiernächte",
-		"subtitle": "Indexiert, 2014 = 100",
+		"subtitle": "indexiert, 2014 = 100",
 		"kuerzel": "",
-		"kuerzelKunde": "4.3",
+		"kuerzelKunde": "4.2-1",
 		"description": "Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
@@ -29777,7 +29819,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "4. Weiteres",
-		"stufe2": "",
+		"stufe2": "4.2 Tourismus",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29787,9 +29829,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "04_02_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8489"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -29807,7 +29851,7 @@ var indikatoren = [
 		"title": "Logiernächte",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "4.4",
+		"kuerzelKunde": "4.2-2",
 		"description": "Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
@@ -29817,7 +29861,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
 		"stufe1": "4. Weiteres",
-		"stufe2": "",
+		"stufe2": "4.2 Tourismus",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29827,9 +29871,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "04_02_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8490"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -29844,11 +29890,11 @@ var indikatoren = [
 		"id": 8373
 	},
 	{
-		"title": "Wohnbevölkerung im Alter 15 bis 64 Jahre",
-		"subtitle": "Indexiert, 2014 = 100",
+		"title": "Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
+		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1",
-		"description": "Wohnbevölkerung im Alter 15 bis 64 Jahre",
+		"kuerzelKunde": "2.3-1",
+		"description": "Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29857,7 +29903,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29867,9 +29913,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8491"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -29884,11 +29932,11 @@ var indikatoren = [
 		"id": 8431
 	},
 	{
-		"title": "Wohnbevölkerung im Alter 15 bis 64 Jahre",
-		"subtitle": "Indexiert, 2014 = 100",
+		"title": "Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
+		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1a",
-		"description": "Wohnbevölkerung im Alter 15 bis 64 Jahre",
+		"kuerzelKunde": "2.3-2",
+		"description": "Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29898,7 +29946,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29908,9 +29956,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8492"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -29928,7 +29978,7 @@ var indikatoren = [
 		"title": "Altersklassen von 15 bis 64 Jahren",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2018",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1b",
+		"kuerzelKunde": "2.3-3",
 		"description": "Altersklassen von 15 bis 64 Jahren",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
@@ -29938,7 +29988,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29948,9 +29998,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8493"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -29968,7 +30020,7 @@ var indikatoren = [
 		"title": "Altersklassen von 15 bis 64 Jahren",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2018",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1c",
+		"kuerzelKunde": "2.3-4",
 		"description": "Altersklassen von 15 bis 64 Jahren",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
@@ -29979,7 +30031,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -29989,9 +30041,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8494"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -30006,11 +30060,11 @@ var indikatoren = [
 		"id": 8434
 	},
 	{
-		"title": "Altersquotient",
-		"subtitle": "Personen ab 64 Jahre im Verhältnis zu den 20- bis 64-Jährigen",
+		"title": "Altersquotient; BS, BL und JU",
+		"subtitle": "Personen ab 64 Jahre je 100 20- bis 64-Jährige",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1d",
-		"description": "Altersquotient",
+		"kuerzelKunde": "2.3-5",
+		"description": "Altersquotient; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30019,7 +30073,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30029,9 +30083,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8495"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -30046,11 +30102,11 @@ var indikatoren = [
 		"id": 8435
 	},
 	{
-		"title": "Altersquotient",
-		"subtitle": "Personen ab 64 Jahre im Verhältnis zu den 20- bis 64-Jährigen",
+		"title": "Altersquotient; BS/BL/JU und Schweiz",
+		"subtitle": "Personen ab 64 Jahre je 100 20- bis 64-Jährige",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1e",
-		"description": "Altersquotient",
+		"kuerzelKunde": "2.3-6",
+		"description": "Altersquotient; BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30060,7 +30116,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30070,9 +30126,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8496"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -30090,7 +30148,7 @@ var indikatoren = [
 		"title": "Neugegründete Unternehmen",
 		"subtitle": "2014-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "1.15",
+		"kuerzelKunde": "1.3-1",
 		"description": "Neugegründete Unternehmen",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "",
@@ -30099,20 +30157,22 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über die Jahre 2014 bis 2017 sind in der Region BS/BL/JU insgesamt rund 10 000 neue Unternehmen gegründet worden - je ca. 4 500 in den beiden Basel und rund 1 000 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 91% in Basel-Stadt und 81% im Jura.",
-		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d.h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
+		"lesehilfe": "Über die Jahre 2014 bis 2017 sind in der Region BS/BL/JU insgesamt rund 10 000 neue Unternehmen gegründet worden – je ca. 4 500 in den beiden Basel und rund 1 000 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 91% in Basel-Stadt und 81% im Jura.",
+		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8497"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -30130,7 +30190,7 @@ var indikatoren = [
 		"title": "Beschäftigte nach Branche",
 		"subtitle": "2017",
 		"kuerzel": "",
-		"kuerzelKunde": "1.16",
+		"kuerzelKunde": "1.3-3",
 		"description": "Beschäftigte nach Branche",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "",
@@ -30140,8 +30200,8 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30151,12 +30211,14 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8498"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -30171,7 +30233,7 @@ var indikatoren = [
 		"title": "Arbeitsstätten nach Branche",
 		"subtitle": "2017",
 		"kuerzel": "",
-		"kuerzelKunde": "1.17",
+		"kuerzelKunde": "1.3-2",
 		"description": "Arbeitsstätten nach Branche",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "",
@@ -30181,8 +30243,8 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30192,12 +30254,14 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8499"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -30212,7 +30276,7 @@ var indikatoren = [
 		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
 		"subtitle": "2017",
 		"kuerzel": "",
-		"kuerzelKunde": "1.18",
+		"kuerzelKunde": "1.3-4",
 		"description": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "",
@@ -30222,23 +30286,25 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 8 Personen beschäftigt. Dies entspricht auch dem gesamtschweizerischen Durchschnittt. Im Jura liegt der Wert etwas tiefer bei 7 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 8 Personen beschäftigt. Dies entspricht auch dem gesamtschweizerischen Durchschnitt. Im Jura liegt der Wert etwas tiefer bei 7 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8500"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -30253,7 +30319,7 @@ var indikatoren = [
 		"title": "Veränderung der Beschäftigtenzahl",
 		"subtitle": "2017 gegenüber 2014",
 		"kuerzel": "",
-		"kuerzelKunde": "1.19",
+		"kuerzelKunde": "1.3-5",
 		"description": "Veränderung der Beschäftigtenzahl",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -30263,8 +30329,8 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30274,12 +30340,14 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8501"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -30294,7 +30362,7 @@ var indikatoren = [
 		"title": "Monatliche Arbeitslosenquoten",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "1.20",
+		"kuerzelKunde": "2.1-4",
 		"description": "Monatliche Arbeitslosenquoten",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -30304,8 +30372,8 @@ var indikatoren = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
-		"stufe1": "1. Bruttoinlandsprodukt und Unternehmensbewegungen",
-		"stufe2": "",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30315,7 +30383,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_020",
+		"orderKey": "02_01_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"8502"
@@ -30334,11 +30402,11 @@ var indikatoren = [
 		"id": 8442
 	},
 	{
-		"title": "Steuerertrag pro Kopf",
+		"title": "Steuerertrag pro Kopf der Wohnbevölkerung",
 		"subtitle": "in Franken",
 		"kuerzel": "",
-		"kuerzelKunde": "3.1",
-		"description": "Steuerertrag pro Kopf",
+		"kuerzelKunde": "3-1",
+		"description": "Steuerertrag pro Kopf der Wohnbevölkerung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30358,9 +30426,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8503"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
@@ -30376,11 +30446,11 @@ var indikatoren = [
 		"id": 8443
 	},
 	{
-		"title": "Steuerertrag nach natürlichen und juristischen Personen",
-		"subtitle": "in 1000 Franken, 2017",
+		"title": "Anteil Steuerertrag nach natürlichen und juristischen Personen",
+		"subtitle": "2017",
 		"kuerzel": "",
-		"kuerzelKunde": "3.2",
-		"description": "Steuerertrag nach natürlichen und juristischen Personen",
+		"kuerzelKunde": "3-2",
+		"description": "Anteil Steuerertrag nach natürlichen und juristischen Personen",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30400,9 +30470,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8504"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung, Finanzstatistik"
@@ -30420,7 +30492,7 @@ var indikatoren = [
 		"title": "Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "2.16",
+		"kuerzelKunde": "2.3-3",
 		"description": "Abschlussquote der Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "",
@@ -30431,7 +30503,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30441,9 +30513,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_03_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8505"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
@@ -30461,7 +30535,7 @@ var indikatoren = [
 		"title": "Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2.1-1",
 		"description": "Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -30472,19 +30546,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen 71,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 69,1% und 74,4%.",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8506"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -30502,7 +30578,7 @@ var indikatoren = [
 		"title": "Nettoerwerbstätigenquote der Frauen",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2.1-2",
 		"description": "Nettoerwerbstätigenquote der Frauen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -30513,19 +30589,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 73,0%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 70,9% und 75,0%.",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "02_01_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8507"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -30541,9 +30619,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Entwicklung der Importe",
-		"subtitle": "Index (2014 = 100)",
+		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "I.06.4.08462",
-		"kuerzelKunde": "4.2b",
+		"kuerzelKunde": "4.1-3",
 		"description": "Entwicklung der Importe",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
@@ -30553,19 +30631,21 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2020-01-20T12:23:48.4848",
 		"stufe1": "4. Weiteres",
-		"stufe2": "",
+		"stufe2": "4.1 Aussenhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Warenimporte aus dem Ausland sind zwischen 2014 und 2018 um 75% in Basel-Stadt und um 46% in Basel-Landschaft gestiegen. Im Jura liegt der Anstieg bei 7%. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 51%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "04_01_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8508"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"

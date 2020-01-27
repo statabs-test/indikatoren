@@ -322,7 +322,7 @@
           102.38
         ]
       ],
-      "name": "Öffentl. Verwaltung, Bildung"
+      "name": "Öff. Verwaltung, Bildung"
     },
     {
       "color": "#E7CEE2",
@@ -524,7 +524,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "enabled": true,
@@ -532,7 +532,7 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

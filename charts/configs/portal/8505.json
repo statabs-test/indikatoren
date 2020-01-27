@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#B375AB",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#A8C3CA",
       "data": [
         [
           "Basel-Stadt",
@@ -262,7 +262,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
   },
   "legend": {
     "padding": 0,

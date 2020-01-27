@@ -79,7 +79,7 @@
       "name": "Jura"
     },
     {
-      "color": "rgb(180,117,171)",
+      "color": "#B375AB",
       "data": [
         [
           2014,
@@ -299,7 +299,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "enabled": true,

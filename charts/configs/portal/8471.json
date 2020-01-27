@@ -109,7 +109,7 @@
           0.0633
         ]
       ],
-      "name": "Sonst. 2. Sektor",
+      "name": "Sonstige Industrie",
       "turboThreshold": 0
     },
     {
@@ -305,7 +305,7 @@
           0.1107
         ]
       ],
-      "name": "Öffentl. Verwaltung, Bildung",
+      "name": "Öff. Verwaltung, Bildung",
       "turboThreshold": 0
     },
     {
@@ -567,7 +567,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "padding": 0,

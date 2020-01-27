@@ -274,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "padding": 0,
@@ -299,7 +299,7 @@
     "#474747",
     "#FF8028",
     "#FABD24",
-    "#923F8D",
+    "#B375AB",
     "#990300"
   ],
   "tooltip": {

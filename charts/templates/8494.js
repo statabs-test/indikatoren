@@ -12,7 +12,7 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        "rotation": 0
+        "rotation": -45
       }
     },
     "yAxis": {
@@ -25,7 +25,7 @@
       //{ "color": "#474747" },
       //{ "color": "#FF8028" },
       //{ "color": "#FABD24" },
-      { "color": "#923F8D" },
+      { "color": "#B375AB" },
       { "color": "#990300" }
     ],
     "legend": {

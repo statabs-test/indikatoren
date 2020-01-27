@@ -2,7 +2,7 @@
   return {
     "xAxis": {
       "tickInterval": 12,
-      "type": "category",
+     "type": "category",
       labels: {
         "formatter": function () {
           return this.value.split("-").slice(0, -1);

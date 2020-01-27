@@ -14,7 +14,7 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
     }, 
     "series": [
-        { "color": "#923F8D" },
+        { "color": "#B375AB" },
         { "color": "#990300" }
     ],
     "legend": {

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "rgb(147,63,141)",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(180,117,171)",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(250,189,36)",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -70,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(250,218,128)",
+      "color": "#A8C3CA",
       "data": [
         [
           "Basel-Stadt",
@@ -93,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
+      "color": "#D3E2E4",
       "data": [
         [
           "Basel-Stadt",
@@ -309,7 +309,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "padding": 0,

@@ -37,7 +37,7 @@
       "layout": "vertical",
       "verticalAlign": "middle",
       "align": "right",
-      "itemMarginBottom": 5,
+      "itemMarginBottom": 3,
       "itemStyle": {
         "fontWeight": "normal"
       }

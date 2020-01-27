@@ -165,7 +165,7 @@
           625374
         ]
       ],
-      "name": "Handel",
+      "name": "Handel, Reparatur",
       "turboThreshold": 0
     },
     {
@@ -249,7 +249,7 @@
           244711
         ]
       ],
-      "name": "Finanzsektor",
+      "name": "Finanz-, Versicherungs-DL",
       "turboThreshold": 0
     },
     {
@@ -333,7 +333,7 @@
           717502
         ]
       ],
-      "name": "Gesundheit, Sozialwesen",
+      "name": "Gesundheit-, Sozialwesen",
       "turboThreshold": 0
     },
     {
@@ -361,7 +361,7 @@
           853236
         ]
       ],
-      "name": "Sonstige Dienstleistungen",
+      "name": "Sonstige DL",
       "turboThreshold": 0
     }
   ],
@@ -490,7 +490,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
   },
   "legend": {
     "symbolRadius": 0,

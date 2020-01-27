@@ -1,47 +1,162 @@
+/*
+global Highcharts
+*/
+
 (function () {
   return {
-    chart: {
-      type: "column",
-      inverted: false,
-      marginBottom: 35
+    //seriesMapping necessary for charts with error bars. 
+    "data": {
+      "seriesMapping": [
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        }
+      ]
     },
     plotOptions: {
       series: {
         pointPadding: 0,
-        borderWidth: 0,
+        borderWidth: 0
       }
     },
-    xAxis: {
-      type: "category",
-      tickInterval: 1,
+    tooltip: {
+      shared: true
+    },
+
+    "series": [
+      {
+        "index": 0,
+        color: "#246370",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
+      },
+      {
+        "index": 1,
+        "type": "errorbar",
+        lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          },
+        }
+      },
+      {
+        "index": 2,
+        color: "#0F7399",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
+
+      },
+      {
+        "index": 3,
+        "type": "errorbar",
+        lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
+      },
+      {
+        "index": 4,
+        color: "#689199",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
+      },
+      {
+        "index": 5,
+        "type": "errorbar",
+        lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
+      },
+      {
+        "index": 6,
+        color: "#A8C3CA",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
+      },
+      {
+        "index": 7,
+        "type": "errorbar",
+        lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
+      },
+
+    ],
+    "xAxis": {
+      "type": "category",
       labels: {
         rotation: 0
       }
     },
-    yAxis: {
-      tickAmount: 6,
-      labels: {
-        "format": "{value:,.0f}%"
+    "yAxis": {
+      tickAmount: 5,
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        },
       }
     },
-    series: [
-      { color: "rgb(147,63,141)" },
-      { color: "rgb(180,117,171)" },
-      { color: "rgb(250,189,36)" },
-      { color: "rgb(250,218,128)" }
-      //{ color: "#008AC3" }
-    ],
-    legend: {
-      enabled: true,
-      layout: "horizontal",
-      verticalAlign: "top",
-      align: "left",
-      itemStyle: {
-        fontWeight: "normal"
+    "legend": {
+      "enabled": true,
+      itemDistance: 5,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
       }
     },
-    tooltip: {
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
-    }
-  }
+    "chart": {
+      "marginBottom": 35,
+      "type": "column",
+      "inverted": false
+    },
+    subtitle: {
+      useHTML: true
+    },
+    exporting: {
+      allowHTML: true,
+    },
+  };
 }());

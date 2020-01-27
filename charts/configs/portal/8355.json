@@ -7,33 +7,6 @@
       "data": [
         [
           2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ]
-      ],
-      "name": "Primärer Sektor"
-    },
-    {
-      "color": "#DC440E",
-      "index": 12,
-      "data": [
-        [
-          2014,
           100
         ],
         [
@@ -56,8 +29,8 @@
       "name": "Pharma"
     },
     {
-      "color": "#FF8028",
-      "index": 11,
+      "color": "#DC440E",
+      "index": 12,
       "data": [
         [
           2014,
@@ -83,8 +56,8 @@
       "name": "Metallindustrie"
     },
     {
-      "color": "#FFBB58",
-      "index": 10,
+      "color": "#FF8028",
+      "index": 11,
       "data": [
         [
           2014,
@@ -110,36 +83,8 @@
       "name": "Elektro\u002FOptik\u002FMaschinen"
     },
     {
-      "color": "#FFDA80",
-      "index": 9,
-      "showInLegend": false,
-      "data": [
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ]
-      ],
-      "name": "Fahrzeugbau"
-    },
-    {
-      "color": "#007A2F",
-      "index": 8,
+      "color": "#FFBB58",
+      "index": 10,
       "data": [
         [
           2014,
@@ -165,8 +110,9 @@
       "name": "Baugewerbe"
     },
     {
-      "color": "#D7E8D2",
-      "index": 7,
+      "color": "#FFDA80",
+      "index": 9,
+      "showInLegend": false,
       "data": [
         [
           2014,
@@ -192,8 +138,8 @@
       "name": "Handel, Reparatur"
     },
     {
-      "color": "#73BA7C",
-      "index": 6,
+      "color": "#007A2F",
+      "index": 8,
       "data": [
         [
           2014,
@@ -219,8 +165,8 @@
       "name": "Verkehr, Lagerei"
     },
     {
-      "color": "#2B0099",
-      "index": 5,
+      "color": "#D7E8D2",
+      "index": 7,
       "data": [
         [
           2014,
@@ -246,8 +192,8 @@
       "name": "Gastgewerbe"
     },
     {
-      "color": "#008AC3",
-      "index": 4,
+      "color": "#73BA7C",
+      "index": 6,
       "data": [
         [
           2014,
@@ -273,8 +219,8 @@
       "name": "Finanz-, Versicherungs-DL"
     },
     {
-      "color": "#B9CFD7",
-      "index": 3,
+      "color": "#2B0099",
+      "index": 5,
       "data": [
         [
           2014,
@@ -300,8 +246,8 @@
       "name": "Freib., wiss., tech. DL"
     },
     {
-      "color": "#672773",
-      "index": 2,
+      "color": "#008AC3",
+      "index": 4,
       "data": [
         [
           2014,
@@ -324,11 +270,11 @@
           102.57
         ]
       ],
-      "name": "Öffentl. Verwaltung, Bildung"
+      "name": "Öff. Verwaltung, Bildung"
     },
     {
-      "color": "#E7CEE2",
-      "index": 1,
+      "color": "#B9CFD7",
+      "index": 3,
       "data": [
         [
           2014,
@@ -352,6 +298,14 @@
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
+    },
+    {
+      "color": "#672773",
+      "index": 2
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 1
     }
   ],
   "chart": {
@@ -390,7 +344,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wertschöpfungswachstum nach Branche"
+    "text": "Wertschöpfung nach Branche, Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -399,7 +353,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, real, Index (2014 = 100)",
+    "text": "real, indexiert (2014 = 100)",
     "align": "left"
   },
   "tooltip": {

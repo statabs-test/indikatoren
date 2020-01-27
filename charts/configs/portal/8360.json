@@ -2,11 +2,11 @@
   "series": [
     {
       "index": 0,
-      "color": "#923F8D",
+      "color": "rgb(147,63,141)",
       "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>';
-        }
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -34,8 +34,8 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),0) + '</b> - <b>'+ Highcharts.numberFormat((this.high),0) + '</b>)<br/>';
-        }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -64,11 +64,11 @@
     },
     {
       "index": 2,
-      "color": "#B375AB",
+      "color": "rgb(180,117,171)",
       "tooltip": {
         "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>';
-        }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -96,8 +96,8 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),0) + '</b> - <b>'+ Highcharts.numberFormat((this.high),0) + '</b>)<br/>';
-        }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -126,11 +126,11 @@
     },
     {
       "index": 4,
-      "color": "#FABD24",
+      "color": "rgb(250,189,36)",
       "tooltip": {
         "pointFormatter": function(){
-         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>';
-        }
+           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -158,8 +158,8 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),0) + '</b> - <b>'+ Highcharts.numberFormat((this.high),0) + '</b>)<br/>';
-        }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -188,11 +188,11 @@
     },
     {
       "index": 6,
-      "color": "#FFDA80",
+      "color": "rgb(250,218,128)",
       "tooltip": {
         "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>';
-        }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -220,8 +220,8 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),0) + '</b> - <b>'+ Highcharts.numberFormat((this.high),0) + '</b>)<br/>';
-        }
+           return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
