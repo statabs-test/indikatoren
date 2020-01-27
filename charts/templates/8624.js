@@ -2,7 +2,7 @@
   return {
     "chart": {
       "type": "column",
-      "spacingBottom": 30
+      //"spacingBottom": 30
     },
     data: {
       //switchRowsAndColumns: true
@@ -26,6 +26,11 @@
       "tickInterval": 20,
       max: 150,
       //min: -200,
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 0, 
+        width: 1 
+      }]
     },
     "series": [
       //{"inverted": true},

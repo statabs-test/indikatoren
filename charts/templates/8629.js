@@ -1,16 +1,5 @@
 (function () {
   return {
-    "chart": {
-      "type": "column"
-    },
-    "plotOptions": {
-      series: {
-        marker: {
-          enabled: true
-        },
-        borderWidth: 0
-      }
-    },
     data: {
       parsed: function (columns) {
         //Negate the numbers in the the 2nd column to create the left side of the population pyramid
@@ -29,6 +18,12 @@
         negateNumbersInColumn(4);
       }
     },
+    chart: {
+      width: 665,
+      type: "column",
+      marginRight: 100,
+      spacingTop: 5
+    },
     "xAxis": {
       tickInterval: 1
     },
@@ -41,22 +36,13 @@
       },
       plotLines: [{
         value: 0,
-        color: '#B9CFD7',
-        width: 2,
+        color: '#B6CFD7',
+        width: 1,
         zIndex: 0,
       }]
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f} Fr.</b><br/>',
-    },
-    "legend": {
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left",
-      "itemWidth": 190,
-      itemDistance: 4
     },
     "series": [
       {
@@ -86,22 +72,17 @@
       {
         "color": "#fabd24",
         type: "line",
-        lineWidth: 0,
+        lineWidth: 2,
         legendIndex: 5,
         marker: {
           radius: 4
         },
-        zIndex: 2,
-        states: {
-          hover: {
-            lineWidth: 2
-          }
-        }
+        zIndex: 2
       },
       {
         "color": "#d7bed2",
         type: "line",
-        lineWidth: 0,
+        lineWidth: 2,
         legendIndex: 6,
         marker: {
           symbol: 'diamond',
@@ -110,13 +91,27 @@
         zIndex: 1,
         tooltip: {
           shared: true
-        },
-        states: {
-          hover: {
-            lineWidth: 2
-          }
         }
       }
-    ]
+    ],
+    "legend": {
+      "enabled": true,
+      "layout": "vertical",
+      "verticalAlign": "middle",
+      "itemMarginBottom": 4,
+      "align": "right",
+      labelFormatter: function () {
+        var l = this.name.replace(' ', '<br>');
+        return l;
+      }
+    },
+    "plotOptions": {
+      series: {
+        marker: {
+          enabled: true
+        },
+        borderWidth: 0
+      }
+    }
   }
 }());

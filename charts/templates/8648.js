@@ -1,12 +1,9 @@
-/*  
-global Highcharts
-*/
-
 (function () {
   return {
     "chart": {
       //"marginBottom": 65,
       //"marginTop": 75,
+      marginRight: 10,
       "type": "column",
       "inverted": true
     },
@@ -27,7 +24,8 @@ global Highcharts
     plotOptions: {
       series: {
         // pointPadding: 0,
-        stickyTracking: false
+        stickyTracking: false,
+        borderWidth:0
       }
     },
     tooltip: {
@@ -86,23 +84,27 @@ global Highcharts
     "xAxis": {
       "type": "category",
       "labels": {
+        padding: 1,
+        step: 1,
+        y: 3,
+        x: -10,
         "style": {
           "color": "#000000",
-          "fontSize": "10px"
+          "fontSize": "9px"
         }
       }
     },
     "yAxis": {
+      tickInterval: 0.1,
       "labels": {
+        y: 12,
         "formatter": function () {
           return Highcharts.numberFormat((100 * this.value), 0) + '%';
         }
-      },
-      max: 0.7,
-      overflow: "ellipsis"
+      }
     },
     "legend": {
       "enabled": false
-    }
+    },
   };
 }());

@@ -30,29 +30,12 @@
                 //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
-        "chart": {
-            marginRight: 15,
-            marginBottom: 70,
-            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
-                load: function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 50 //fixed offset instead of /charts/templates/populationPyramid001.js
-                                }
-                            }
-                        );
-                    }
-                },
-            }
-        },
         yAxis: [{
+            max: 400,
             tickInterval: 100,
             min: 0,
+            gridLineColor: '#B9CFD7',
+            gridLineWidth: 0.5,
             title: {
                 text: null
             },
@@ -62,7 +45,8 @@
                     return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
                 },
                 "style": {
-                    "color": "#000000"
+                    "color": "#000000",
+                    fontSize: '10px'
                 }
             },
             plotLines: [{
@@ -81,16 +65,18 @@
         xAxis: [{
             reversed: false,
             type: 'category',
+            lineWidth: 0,
             labels: {
                 step: 1,
                 style: {
-                    color: "#000000"
+                    color: "#000000",
+                    fontSize: '8px'
                 }
             },
             tickLength: 0,
             title: {
                 style: {
-                    color: "#000000"
+                    color: "#000000",
                 }
             }
         },
@@ -136,27 +122,32 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
+            //"y": 55,
+            //"x": 2000,
+            //"itemWidth": 90,
             "itemStyle": {
                 "fontWeight": "normal"
-            },
-            //itemWidth: 160,
-            /*labelFormatter: function () {
-                return this.name.replace('Kleinhüningen', 'Kleinh.');
-            }*/
+            }
         },
-        "tooltip": {
-            "shared": true,
-            formatter: function () { //sum values correctly
-                var s = '<span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
-                var sum = 0;
-                $.each(this.points, function (i, point) {
-                    var v = Math.sqrt(this.y * this.y); //make - to + again
-                    s += '<span style="color:' + point.series.color + '">\u25CF</span> ' + point.series.name + ': <b>' + v + '</b><br/>';
-                    sum += v;
-                });
-                // s += 'Total: <b>'+ sum + '</b>';
-                return s;
-            },
+        "chart": {
+            //marginRight: 15,
+            //marginBottom: 70,
+            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
+                load: function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 20 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                }
+                            }
+                        );
+                    }
+                },
+            }
         }
     };
 }());

@@ -11,6 +11,7 @@
       //"tickInterval": 1
     },
     "yAxis": {
+      tickInterval: 100000,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -32,7 +33,8 @@
        { // Wohnen Basel
         "color": "#8A8A8A",
         "visible": false,
-        legendIndex: 5
+        legendIndex: 5,
+        showInLegend: false
       },
       { // Arbeiten Klybeck
         "color": "#7f5f1a",
@@ -45,7 +47,8 @@
      {  //Arbeiten Basel
         "color": "#474747",
         "visible": false,
-        legendIndex: 6
+        legendIndex: 6,
+        showInLegend: false
       },
     ],
     "legend": {
@@ -53,7 +56,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      labelFormatter: function () {
+        return this.name.replace('Kleinhüningen', 'Kleinh.');
+      }    
     },
     "plotOptions": {
       "series": {

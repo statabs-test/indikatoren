@@ -1,21 +1,25 @@
 (function () {
   return {
-    "plotOptions": {
-      "line": {
-        "marker": {
-          "enabled": false,
-          "symbol": "circle",
-        }
-      }
+    "chart": {
+      width: 665,
+      spacingTop: 7
     },
     "xAxis": {
-      "tickInterval": 2,
+      "tickInterval": 1,
+      "labels": {
+        rotation: 0
+      }
     },
     "yAxis": {
       "min": 0,
       tickInterval: 10,
+      //  max: 40, 
+      "labels": {
+        "format": "{value}"
+      }
     },
     "tooltip": {
+      "shared": false,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
     },
     "series": [
@@ -30,11 +34,22 @@
     ],
     "legend": {
       "enabled": true,
-      "layout": "horizontal",
-      "align": "left",
-      "verticalAlign": "top",
-      "itemMarginBottom": 3,
-//      itemDistance: 5,
+      "layout": "vertical",
+      "align": "right",
+      "verticalAlign": "middle",
+      "itemMarginBottom": 5,
+      itemDistance: 10
     },
+    "plotOptions": {
+      series: {
+        lineWidth: 1.5
+      },
+      "line": {
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
+        }
+      }
+    }
   }
 }());

@@ -3,6 +3,8 @@
     "chart": {
       //"marginBottom": 75,
       //"marginTop": 75,
+      spacingTop: 5,
+      width: 665,
       "type": "column"
     },
     "plotOptions": {
@@ -36,7 +38,7 @@
       "enabled": true,
       reversed: true,
       "layout": "vertical",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "align": "right",
       itemMarginBottom: 5
     },

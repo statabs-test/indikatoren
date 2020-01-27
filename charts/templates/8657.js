@@ -7,16 +7,15 @@
 
 	return {
 		"legend": {
-			useHTML: false,
+			useHTML: true,
 			"title": {
 				"text": null,
-				style: { 'fontWeight': ' bold' }
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -136,
-			"y": -25,
+			"x": -333,
+			"y": -60,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},
@@ -26,17 +25,17 @@
 				from: 0,
 				to: 2.99,
 				color: '#D7E8D2',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> <<span style='color: rgba(0,0,0,0)'>0</span> 3,0"
+				name: "<span style='color: rgba(0,0,0,0)'>12,0 </span><<span style='color: rgba(0,0,0,0)'> 0</span>3,0"
 			}, {
 				from: 3.0,
 				to: 6.99,
 				color: '#73B97C',
-				name: "<span style='color: rgba(0,0,0,0)'>.</span> 3,0 −<span style='color: rgba(0,0,0,0)'>0</span> 6,9"
+				name: "<span style='color: rgba(0,0,0,0)'>1</span>3,0 −<span style='color: rgba(0,0,0,0)'> 0</span>6,9"
 			}, {
 				from: 7.0,
 				to: 11.99,
 				color: '#68AB2B',
-				name: "<span style='color: rgba(0,0,0,0)'>.</span> 7,0 −<span style='color: rgba(0,0,0,0)'></span> 11,9"
+				name: "<span style='color: rgba(0,0,0,0)'>1</span>7,0 −<span style='color: rgba(0,0,0,0)'> </span>11,9"
 			}, {
 				from: 12.0,
 				to: 15.99,
@@ -45,7 +44,7 @@
 			}, {
 				from: 16.0,
 				color: '#0A3B19',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> ≥ 16,0"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span>≥ 16,0"
 			}],
 		},
 		"data": {
@@ -96,34 +95,34 @@
 					//define new Highcharts template "mappie"
 					fn.defineTemplate();
 
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					//var maxPieDiameter = 40; //20
 
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig =
-						[
-							{
-								name: " < \u00A0\u00A0 300",
-								from: 0,
-								to: 299,
-								diameter: 5
-							},
-							{
-								name: "300 \u00A0−  1 299",
-								from: 300,
-								to: 1299,
-								diameter: 10
-							},
-							{
-								name: "≥  1 300",
-								from: 1300,
-								to: 1000000000,
-								diameter: 20
-							}
-						];
+					[
+						{
+							name: " < \u00A0\u00A0 300",
+							from: 0,
+							to: 299,
+							diameter: 7.5
+						},
+						{
+							name: "300 \u00A0−  1 299",
+							from: 300,
+							to: 1299,
+							diameter: 15
+						},
+						{
+							name: "≥  1 300",
+							from: 1300,
+							to: 1000000000,
+							diameter: 30
+						}
+					];
 
 					//define different colors for positive and negative values
 					var color = function (value) {
@@ -148,19 +147,19 @@
 
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-
+console.log(pieSizeCatConfig);
 					//Add manually drawn legend
-					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
-					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
-					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
-					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 365, 220, undefined, true);
+					//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
+					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 540, 270, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 765, 270, undefined, true);
 
-					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#67401E');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#67401E');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#67401E');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
+					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#67401E');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 828, 320, undefined, false, 'right');
+					fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, '#67401E');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, false, 'right');
+					fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, '#67401E');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 829, 365, undefined, false, 'right');
 
 
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
@@ -175,4 +174,3 @@
 		}
 	};
 }());
-

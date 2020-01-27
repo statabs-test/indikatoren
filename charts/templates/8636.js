@@ -11,7 +11,12 @@
       "tickInterval": 2,
       "labels": {
         "format": "{value:,.0f}"
-      }
+      },
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 0, 
+        width: 1 
+      }]
     },
     "xAxis": {
       "tickInterval": 1
@@ -22,13 +27,20 @@
     },
     "legend": {
       "layout": "vertical",
-      "verticalAlign": "middle",
-      "itemMarginBottom": 7,
+      "verticalAlign": "top",
+      "itemMarginBottom": 5,
       "align": "right",
       "itemStyle": {
         "fontWeight": "normal",
         "width": 111,
         textOverflow: null
+      },
+      labelFormatter: function () {
+       return this.name.replace(' Wohnungen', '<br>Wohnungen')
+       .replace(' Ausbauten', '<br>Ausbauten')
+       .replace('Zusammenlegungen/', '<br>Zusammen-<br>legungen/<br>')
+       .replace('Zweckentfremdung', 'Zweckentfrem-<br>dung')
+       .replace('Sonstige ', 'Sonstige<br>');
       }
     },
     "series": [
@@ -61,7 +73,8 @@
     ],
     "chart": {
       "zoomType": "xy",
-      "type": "column"
+      "type": "column",
+      spacingTop: 5
     }
   }
 }());

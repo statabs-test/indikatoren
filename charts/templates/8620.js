@@ -4,6 +4,7 @@
       tickInterval: 1
     },
     "yAxis": {
+      tickInterval: 10,
       "labels": {
         "format": "{value:,.0f}%"
       }
@@ -28,7 +29,8 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      itemDistance: 10
     },
     "plotOptions": {
       "line": {

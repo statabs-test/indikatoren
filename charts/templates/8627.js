@@ -31,7 +31,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      labelFormatter: function () {
+        return this.name.replace('Kleinhüningen', 'Kleinh.');
+      }
     },
     "plotOptions": {
       "line": {

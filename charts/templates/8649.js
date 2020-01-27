@@ -4,6 +4,7 @@
       tickInterval: 1
     },
     "yAxis": {
+      tickInterval: 5,
       "labels": {
         "format": "{value:,.0f}%"
       }
@@ -32,6 +33,9 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
+      labelFormatter: function () {
+        return this.name.replace('Kleinhüningen','Kleinh.');
+      }
     },
     "plotOptions": {
       "line": {

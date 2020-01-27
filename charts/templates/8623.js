@@ -1,14 +1,17 @@
 (function () {
   return {
     "chart": {
-      "type": "column"
+      "type": "column",
+      width: 665,
+      spacing: [5, 2, 5, 2]
     },
     "plotOptions": {
       "series": {
-        "stacking": "percent"
+        "stacking": "percent",
+        borderWidth: 0,
+        groupPadding: 0.02
       },
-      //borderwidth: 0,
-      //groupPadding: 0
+      borderwidth: 0
     },
     "xAxis": {
       "type": "category",
@@ -16,9 +19,13 @@
       labels: {
         step: 1,
         rotation: -45,
+        style: {
+          fontSize: '10px'
+        },
         formatter: function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
         }
+
       }
     },
     "yAxis": {
@@ -28,28 +35,27 @@
       },
       "min": 0
     },
-    "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
-      "shared": false
-    },
     "legend": {
       "enabled": true,
       "layout": "horizontal",
-      "align": "left",
       "verticalAlign": "top",
-      "itemMarginBottom": 5
+      "itemMarginBottom": 3,
+      "align": "left",
+      alignColumns: false
     },
     "series": [
       {
         "color": "#2f656b",
+        "index": 0
       },
       {
         "color": "#73b97c",
+        "index": 1
       },
       {
         "color": "#d7e8d2",
+        "index": 2
       }
     ]
   }
-}());
-
+}()); 

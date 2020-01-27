@@ -1,7 +1,8 @@
 (function () {
   return {
     "chart": {
-      "type": "column"
+      "type": "column",
+      spacingTop: 5
     },
     "plotOptions": {
       column: {
@@ -35,11 +36,19 @@
       "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
     },
     "legend": {
-      "layout": "vertical",
-      "verticalAlign": "middle",
-      "align": "right",
+      /*
+            "layout": "vertical",
+            "verticalAlign": "middle",
+            "align": "right",
+      */
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
       "itemMarginBottom": 5,
-      reversed: true
+      reversed: true,
+      labelFormatter: function () {
+        return this.name.replace('Zimmer', 'Zim.');
+      }
     },
     "series": [
       {

@@ -15,6 +15,7 @@
       //"tickInterval": 1
     },
     "yAxis": {
+      "tickInterval": 30,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -31,17 +32,21 @@
       },
       {
         "color": "#999",
-        "visible": false
+        "visible": false,
+        showInLegend: false
       }
     ],
     "legend": {
-      width: 460,
+      //width: 460,
       //itemWidth: 230,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      labelFormatter: function () {
+        return this.name.replace('Stromverbrauch ', '');
+      },
     }
   }
 }());

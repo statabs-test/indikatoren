@@ -1,7 +1,3 @@
-/*  
-global Highcharts
-*/
-
 (function () {
   return {
     subtitle: {
@@ -84,17 +80,23 @@ global Highcharts
     "xAxis": {
       "type": "category",
       "labels": {
+        padding: 1,
+        step: 1,
+        y: 3,
+        x: -10,
         "style": {
           "color": "#000000",
-          "fontSize": "10px"
+          "fontSize": "9px"
         }
       }
     },
     "yAxis": {
+      tickAmount: 6,
       "labels": {
+        y: 12,
         "formatter": function () {
           return Highcharts.numberFormat((this.value), 0);
-        },
+        }
       }
     },
     "legend": {
@@ -103,6 +105,7 @@ global Highcharts
     "chart": {
       //"marginBottom": 65,
       //"marginTop": 75,
+      marginRight: 7,
       "type": "column",
       "inverted": true
     }

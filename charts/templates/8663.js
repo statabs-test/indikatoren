@@ -2,12 +2,12 @@
   return {
     "chart": {
       "type": "column",
-      "spacingBottom": 30
+      "spacingTop": 5
     },
     plotOptions: {
       series: {
-        pointPadding: 0,
-        borderWidth: 0,
+        pointPadding: 0.1,
+        groupPadding: 0.2
       }
     },
     "xAxis": {
@@ -15,10 +15,11 @@
     },
     "yAxis": {
       "tickInterval": 20,
+      min:-120,
       plotLines: [{
         color: '#B9CFD7',
         value: 0, 
-        //width: 2 
+        width: 1 
       }]
     },
     "series": [
@@ -35,6 +36,9 @@
       "verticalAlign": "top",
       "align": "left",
       //itemWidth: 200,
+      labelFormatter: function () {
+        return this.name.replace('Umzugssaldo ', '');//.replace('Klein', 'Klein-<br>');
+      }
     },
     tooltip: {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>',

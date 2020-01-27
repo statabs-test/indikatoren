@@ -1,7 +1,9 @@
 (function () {
   return {
     "chart": {
-      "type": "column"
+      "type": "column",
+      width: 665,
+      spacingTop: 5
     },
     "plotOptions": {
       "series": {
@@ -22,7 +24,7 @@
       }
     },
     "yAxis": {
-      "tickInterval": 10,
+      "tickInterval": 20,
       "labels": {
         "format": "{value}%"
       }
@@ -32,14 +34,15 @@
     },
     "legend": {
       "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
+      reversed: true,
+      "layout": "vertical",
+      "verticalAlign": "middle",
+      "align": "right",
       //"itemMarginBottom": 5,
-      "itemWidth": 205,
+      //"itemWidth": 205,
       itemDistance: 4,
-      "align": "left",
       labelFormatter: function () {
-        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/unbek.');
+        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/<br>unbek.').replace('-', '-<br>');
       }
     },
     "series": [

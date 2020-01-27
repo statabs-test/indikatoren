@@ -7,7 +7,7 @@
 
 	return {
 		"legend": {
-			useHTML: false,
+			useHTML: true,
 			"title": {
 				"text": null,
 				style: { 'fontWeight': ' bold' }
@@ -15,8 +15,8 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -136,
-			"y": -25,
+			"x": -333,
+			"y": -60,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},
@@ -26,17 +26,17 @@
 				from: 0,
 				to: 4.99,
 				color: '#FFDA80',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> <<span style='color: rgba(0,0,0,0)'>0</span> 5,0"
+				name: "<span style='color: rgba(0,0,0,0)'>10,0 </span><<span style='color: rgba(0,0,0,0)'> 1</span>5,0"
 			}, {
 				from: 5.0,
 				to: 9.99,
 				color: '#FABD24',
-				name: "<span style='color: rgba(0,0,0,0)'>.</span> 5,0 −<span style='color: rgba(0,0,0,0)'>0</span> 9,9"
+				name: "<span style='color: rgba(0,0,0,0)'>1</span>5,0 −<span style='color: rgba(0,0,0,0)'> 1</span>9,9"
 			}, {
 				from: 10.0,
 				to: 19.99,
 				color: '#CD9C00',
-				name: "10,0 −<span style='color: rgba(0,0,0,0)'></span> 19,9"
+				name: "10,0 −<span style='color: rgba(0,0,0,0)'> </span>19,9"
 			}, {
 				from: 20.0,
 				to: 49.99,
@@ -45,7 +45,7 @@
 			}, {
 				from: 50.0,
 				color: '#45381D',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> ≥ 50,0"
+				name: "<span style='color: rgba(0,0,0,0)'>10,0 </span>≥ 50,0"
 			}],
 		},
 		"data": {
@@ -96,8 +96,8 @@
 					//define new Highcharts template "mappie"
 					fn.defineTemplate();
 
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -109,19 +109,19 @@
 								name: " < \u00A0\u00A0 600",
 								from: 0,
 								to: 599,
-								diameter: 5
+								diameter: 7.5
 							},
 							{
 								name: "600 \u00A0−  1 499",
 								from: 600,
 								to: 1499,
-								diameter: 10
+								diameter: 15
 							},
 							{
 								name: "≥  1 500",
 								from: 1500,
 								to: 1000000000,
-								diameter: 20
+								diameter: 30
 							}
 						];
 
@@ -150,18 +150,17 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
-					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
-					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
-					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m<sup>3</sup>", 365, 220, undefined, true);
+					//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
+					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m<sup>3</sup> in %", 545, 270, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m<sup>3</sup>", 765, 270, undefined, true);
 
-					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#007A2F');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#007A2F');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#007A2F');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
-
+					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#67401E');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 828, 320, undefined, false, 'right');
+					fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, '#67401E');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, false, 'right');
+					fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, '#67401E');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 829, 365, undefined, false, 'right');
 
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
@@ -175,4 +174,3 @@
 		}
 	};
 }());
-

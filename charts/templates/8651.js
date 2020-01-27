@@ -1,7 +1,9 @@
 (function () {
   return {
-    chart: {
-      type: "column"
+    "chart": {
+      "type": "column",
+      spacing: [5,2,5,2],
+      width: 665
     },
     plotOptions: {
       series: {
@@ -17,12 +19,13 @@
       labels: {
         step: 1,
         rotation: -90,
-        formatter: function () {
+        "formatter": function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }    
+        }
       }
     },
     yAxis: {
+      //max: 120000,
       //tickInterval: 60000,
       tickAmount: 7,
       labels: {
@@ -30,12 +33,20 @@
       },
       max: 300000
     },
-    legend: {
-      enabled: true,
-      layout: "horizontal",
-      verticalAlign: "top",
-      align: "left",
-      itemMarginBottom: 2
+    "legend": {
+      "enabled": true,
+      "layout": "vertical",
+      "verticalAlign": "middle",
+      y: -30,
+      "align": "right",
+      "itemMarginBottom": 5,
+      "itemStyle": {
+        "width": 70,
+        textOverflow: null
+      },
+      labelFormatter: function () {
+        return this.name.replace("/", "/<br/>")
+      }
     },
     subtitle: {
       useHTML: true
@@ -67,12 +78,6 @@
         },
       },
       // {"color": "#ff8028", index: 4, legendIndex: 5},
-    ],
-    tooltip: {
-      useHTML: true,
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} m<sup>2</sup></b><br/>',
-      footerFormat: 'Total: <b>{point.total:,.0f}</b>',
-      shared: true
-    }
+    ]
   }
 }());

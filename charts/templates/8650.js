@@ -1,7 +1,9 @@
 (function () {
   return {
     "chart": {
-      "type": "column"
+      "type": "column",
+      spacing: [5,2,5,2],
+      width: 665
     },
     plotOptions: {
       "series": {
@@ -16,20 +18,32 @@
       labels: {
         step: 1,
         rotation: -90,
-        formatter: function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
+        "formatter": function () {
+          return this.value.replace("Kleinhüningen", "Kleinh.");
+        },
       }
     },
     "yAxis": {
       "min": 0,
+      "tickInterval": 25,
       "labels": {
         "format": "{value}%"
       }
     },
-    "tooltip": {
-      "shared": false,
-      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f} ha</b> ({point.percentage:.1f}%)<br/>',
+    "legend": {
+      "enabled": true,
+      "layout": "vertical",
+      "verticalAlign": "middle",
+      y: -28,
+      "align": "right",
+      "itemMarginBottom": 5,
+      "itemStyle": {
+        "width": 70,
+        textOverflow: null
+      },
+      labelFormatter: function () {
+        return this.name.replace("Verkehrs", "Verkehrs-<br/>")
+      }
     },
     "series": [
       {
@@ -53,13 +67,10 @@
         //	"legendIndex": 1
       }, /* grün */
     ],
-    "legend": {
-      "enabled": true,
-      //"itemWidth": 100,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 2,
-      "align": "left"
-    }
+    "tooltip": {
+      "shared": false,
+      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f} ha</b> ({point.percentage:.1f}%)<br/>',
+    },
+
   }
 }());
