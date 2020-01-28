@@ -45,7 +45,7 @@
       "verticalAlign": "top",
       "align": "left",
       "itemMarginBottom": 5,
-      reversed: true,
+      reversed: false,
       labelFormatter: function () {
         return this.name.replace('Zimmer', 'Zim.');
       }

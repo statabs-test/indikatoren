@@ -40,9 +40,9 @@
       {
         "color": "#C9D6DB", index: 2, legendIndex: 3
       },
-      {
+     /* {
         "color": "#6F6F6F", index: 1, legendIndex: 4
-      },
+      },*/
     ],
     "chart": {
       "type": "column",

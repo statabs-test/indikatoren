@@ -66,7 +66,7 @@
       "itemMarginBottom": 5,
       alignColumns: false,
       useHTML: true,
-      y: -35,
+      y: -25,
       x: -21,
       itemMarginBottom: 2,
       align: "right",

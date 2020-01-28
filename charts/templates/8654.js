@@ -2,7 +2,8 @@
   return {
     "chart": {
       "type": "column",
-      spacingTop: 5
+      spacingTop: 5,
+      spacingBottom: 5
       //spacing: [5, 2, -30, 2],
       //width: 665
     },
@@ -21,7 +22,7 @@
         step: 1,
         rotation: -90,
         //align: "left",
-        //y: 45,
+        y: 10,
         formatter: function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
         }
@@ -71,11 +72,11 @@
           valueDecimals: 0
         },
       },
-      {
+      /*{
         "color": "#6F6F6F", index: 1, legendIndex: 4, tooltip: {
           valueDecimals: 0
         },
-      },
+      },*/
       // {"color": "#ff8028", index: 4, legendIndex: 5},
     ]
   }
