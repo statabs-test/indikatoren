@@ -105,7 +105,7 @@
     }
   },
   legend: {
-    useHTML: true,
+    useHTML: false,
     y: -40,
     layout: "horizontal",
     verticalAlign: "top",

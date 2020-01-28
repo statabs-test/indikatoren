@@ -9,16 +9,17 @@
                         series.points.forEach(function (point) {
                             var x = 0, y = 0;
                             switch (point.name) {
-                                case 'CH': case 'Schweiz':        x = 0; y = -2; break; //ent-kommentieren falls gewünscht
-                                case 'DE': case 'Deutschland':    x = 0; y = -2; break;
+                                case 'Schweiz': case 'Schweiz':        x = 0; y = -3; break; //ent-kommentieren falls gewünscht
+                                case 'DE': case 'Deutschland':    x = 0; y = -3; break;
                                 case 'US': case 'USA': x = 0; y = -3; break;
-                                case 'GB': case 'UK': x = 0; y = -2; break;
-								                //case 'FR': case 'Frankreich': x = 20; y = 0; break;
-                                case 'IT': case 'Italien': x = 10; y = 10; break;
-                                case 'ES': case 'Spanien': x = 0; y = -3; break;
-                                case 'NL': case 'Niederlande': x = -15; y = 10; break;
-                                case 'CN': case 'VR China':    x = 0; y = -2; break;
-                                case 'IN': case 'Indien': x = 0; y = -3; break;
+                                case 'GB': case 'UK': x = 15; y = 25; break;
+								                case 'FR': case 'Frankreich': x = 15; y = -3; break;
+                                case 'IT': case 'Italien': x = 15; y = 20; break;
+                                case 'ES': case 'Spanien': x = -10; y = -5; break;
+                                case 'NL': case 'Niederlande': x = -20; y = 23; break;
+                                case 'IN': case 'Indien': x = 0; y = -5; break;
+                                case 'CN': case 'VR China':    x = 0; y = -10; break;
+                                
                             }
                             point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
                         });
@@ -52,17 +53,18 @@
           	//column value
           	else {
               switch (val){
-              	/*case 'Schweiz': val = 'rgb(176, 0, 0)'; break;
-              	case 'Deutschland': val = 'rgb(255, 128, 40)'; break;
-              	case 'Vereinigte Staaten': val = 'rgb(115, 186, 124)'; break;
-              	case 'Vereinigtes Königreich': val = 'rgb(180, 117, 171)'; break;
-              	case 'Frankreich': val = 'rgb(8, 161, 217)'; break;
-              	case 'Italien': val = 'rgb(131, 82, 46)'; break;
-              	case 'Spanien': val = 'rgb(255, 232, 70)'; break;
-              	case 'Niederlande': val = 'rgb(60, 60, 60)'; break;
-              	case 'China, Hongkong, Taiwan': val = 'rgb(103, 39, 115)'; break;*/
+              	case 'CH': case 'Schweiz': val = 'rgb(176, 0, 0)'; break;
+              	case 'DE': case 'Deutschland': val = 'rgb(255, 128, 40)'; break;
+              	case 'US': case 'USA': val = 'rgb(115, 186, 124)'; break;
+              	case 'GB': case 'UK': val = 'rgb(180, 117, 171)'; break;
+              	case 'FR': case 'Frankreich': val = 'rgb(8, 161, 217)'; break;
+              	case 'IT': case 'Italien': val = 'rgb(131, 82, 46)'; break;
+              	case 'ES': case 'Spanien': val = 'rgb(255, 232, 70)'; break;
+              	case 'NL': case 'Niederlande': val = 'rgb(60, 60, 60)'; break;
+                case 'IN': case 'Indien': val = 'rgb(0, 122, 47)'; break;
+                case 'CN':case 'VR China': val = 'rgb(103, 39, 115)'; break;
               	
-              	case 'CH': val = 'rgb(176, 0, 0)'; break;
+              	/*case 'CH': val = 'rgb(176, 0, 0)'; break;
               	case 'DE': val = 'rgb(255, 128, 40)'; break;
               	case 'US': val = 'rgb(115, 186, 124)'; break;
               	case 'GB': val = 'rgb(180, 117, 171)'; break;
@@ -71,7 +73,7 @@
               	case 'ES': val = 'rgb(255, 232, 70)'; break;
               	case 'NL': val = 'rgb(60, 60, 60)'; break;
               	case 'CN': val = 'rgb(103, 39, 115)'; break;
-              	case 'IN': val = 'rgb(0, 122, 47)'; break;
+              	case 'IN': val = 'rgb(0, 122, 47)'; break;*/
               	
               	
               	//default: val = 'black';

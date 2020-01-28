@@ -46,7 +46,8 @@
         align: "left",
         itemDistance: 20,
       	style: {
-		fontSize: "10px"
+    fontSize: "10px",
+    color: "black"
 		}
       },
       "series": [{

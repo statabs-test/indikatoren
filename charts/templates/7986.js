@@ -74,7 +74,7 @@
         max: 600000,
         tickInterval: 100000,
         gridLineColor: '#B6CFD7', 
-        gridLineWidth: 0.36,
+        gridLineWidth: 0.35,
         lineColor: '#B6CFD7', 
         title: {
             style: {
@@ -101,7 +101,7 @@
         opposite: true,
         min: 0,
         gridLineColor: '#B6CFD7', 
-        gridLineWidth: 0.36,
+        gridLineWidth: 0.35,
         lineColor: '#B6CFD7', 
         title: {
             style: {
@@ -145,7 +145,7 @@
   },
   legend: {
     useHTML: true,
-   y: -50, //-40
+   y: -40, //-40
     layout: "horizontal",
     verticalAlign: "top",
     //itemMarginTop: 0,
@@ -227,7 +227,7 @@
             }
             //move legend title
             var title = this.legend.title;
-            title.translate(-188, 25);
+            title.translate(-188, 15);
 
           }
         }         

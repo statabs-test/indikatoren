@@ -137,7 +137,7 @@ plotOptions: {
 },
 legend: {
   useHTML: true,
-  y: -50, //40
+  y: -40, //40
   layout: "horizontal",
   verticalAlign: "top",
   itemMarginBottom: 0,     

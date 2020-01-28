@@ -14,7 +14,8 @@
   },
   yAxis: 
     {
-      min: 1, 
+      min: 0,
+      tickInterval: 0.5, 
       //max: 3.25,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
