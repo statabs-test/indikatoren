@@ -9,16 +9,16 @@
                         series.points.forEach(function (point) {
                             var x = 0, y = 0;
                             switch (point.name) {
-                                //case 'CH': case 'Schweiz':        x = 0; y = 0; break; //ent-kommentieren falls gewünscht
-                                //case 'DE': case 'Deutschland':    x = 0; y = 0; break;
-                                //case 'US': case 'USA':            x = 0; y = 0; break;
-                                //case 'GB': case 'UK': x = 20; y = 40; break;
-								//case 'FR': case 'Frankreich': x = 20; y = 0; break;
+                                case 'CH': case 'Schweiz':        x = 0; y = -2; break; //ent-kommentieren falls gewünscht
+                                case 'DE': case 'Deutschland':    x = 0; y = -2; break;
+                                case 'US': case 'USA': x = 0; y = -3; break;
+                                case 'GB': case 'UK': x = 0; y = -2; break;
+								                //case 'FR': case 'Frankreich': x = 20; y = 0; break;
                                 case 'IT': case 'Italien': x = 10; y = 10; break;
-                                //case 'ES': case 'Spanien': x = -29; y = 25; break;
+                                case 'ES': case 'Spanien': x = 0; y = -3; break;
                                 case 'NL': case 'Niederlande': x = -15; y = 10; break;
-                                //case 'CN': case 'VR China':       x = 0; y = 0; break;
-                                case 'IN': case 'Indien': x = 0; y = 3; break;
+                                case 'CN': case 'VR China':    x = 0; y = -2; break;
+                                case 'IN': case 'Indien': x = 0; y = -3; break;
                             }
                             point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
                         });
@@ -33,7 +33,7 @@
       tooltip: {
       	useHTML: false,
         pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-            'Anteile am Übernachtungsvolumen 2019:<b> {point.x}%</b><br/>' +
+            'Anteile am Übernachtungsvolumen 2019:<b> {point.x:,.1f}%</b><br/>' +
             'Veränderung 2018 gegenüber dem Mittelwert 2008-2012:<b> {point.y}%</b><br/>' +
             'Wachstumsbeitrag:<b> {point.z}%</b>'
       },

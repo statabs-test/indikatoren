@@ -23,8 +23,11 @@
       max: 9500,
       tickInterval: 1900,
       labels: { 
+          y: 13,
       	format: "{value:,.0f}", 
-      	style:{ color: "black", },
+          style:
+          { color: "black", 
+        },
       },
   },
   plotOptions: {
