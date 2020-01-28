@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#cd9c00",
-      "index": 1,
+      "index": 0,
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -85,7 +85,7 @@
     },
     {
       "color": "#b375ab",
-      "index": 0,
+      "index": 1,
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -168,7 +168,7 @@
     },
     {
       "color": "#7f5f1a",
-      "index": 3,
+      "index": 2,
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -251,7 +251,7 @@
     },
     {
       "color": "#923f8d",
-      "index": 2,
+      "index": 3,
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -336,81 +336,8 @@
   "chart": {
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () { };
-
-          //add rigt-margin if legend is top to allow space for axis-labels
-          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
-            this.update({
-              chart: {
-                marginRight: 15
-              }
-            });
-          }
-
-          if (this['legend']['options']['enabled'] == false) {
-            this.update({
-              chart: {
-                marginTop: 7
-              }
-            });
-          }
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-            //square legends must be placed 3 pixels more to the left that lines, don't know why
-            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                }
-              }
-            );
-          }
-
-          if (this.yAxis[1]) {
-            this.update({
-                yAxis: [{
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                },
-                {
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                }]
-            });
-        }
-
+          //move legend title
+          var title = this.legend.title.translate(-105, 25);
         }
     },
     "borderColor": "#fbfbfb",
@@ -428,6 +355,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 29,
+    "marginTop": 40,
     "renderTo": "container-8645",
     "spacingBottom": 12
   },
@@ -457,16 +386,19 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
       "title": {
         "enabled": false
       },
       "labels": {
+        "x": -8,
+        "y": 3,
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
-      },
-      "min": 0
+      }
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -475,9 +407,12 @@
         "enabled": false
       },
       "labels": {
+        "x": 8,
+        "y": 3,
         "format": "{value:,.0f}%",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -518,14 +453,30 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "alignColumns": false,
+    "useHTML": true,
+    "y": -25,
+    "x": -21,
+    "width": 160,
+    "labelFormatter": function () {
+        var tmp = this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title
+        return tmp.replace('Kleinhüningen','Kleinh.');
+      },
+    "title": {
+      "text": " \u003Cbr\u003EBezüger:\u003Cbr\u002F\u003EQuote (rechte Skala):",
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "10px"
+      }
+    }
   },
   "plotOptions": {
     "series": {

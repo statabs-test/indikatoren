@@ -242,81 +242,8 @@
   "chart": {
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () { };
-
-          //add rigt-margin if legend is top to allow space for axis-labels
-          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
-            this.update({
-              chart: {
-                marginRight: 15
-              }
-            });
-          }
-
-          if (this['legend']['options']['enabled'] == false) {
-            this.update({
-              chart: {
-                marginTop: 7
-              }
-            });
-          }
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-            //square legends must be placed 3 pixels more to the left that lines, don't know why
-            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                }
-              }
-            );
-          }
-
-          if (this.yAxis[1]) {
-            this.update({
-                yAxis: [{
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                },
-                {
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                }]
-            });
-        }
-
+          //move legend title
+          var title = this.legend.title.translate(-103, 25);
         }
     },
     "borderColor": "#fbfbfb",
@@ -334,6 +261,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 30,
+    "marginTop": 40,
     "renderTo": "container-8659",
     "spacingBottom": 12
   },
@@ -354,8 +283,7 @@
       "color": "#000000"
     },
     "text": "Wohnviertel Klybeck und Kleinhüningen",
-    "align": "left",
-    "useHTML": true
+    "align": "left"
   },
   "tooltip": {
     "shared": false
@@ -364,14 +292,18 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 5,
       "title": {
         "enabled": false
       },
       "labels": {
         "useHTML": true,
         "format": "{value:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+        "y": 3,
+        "x": -5,
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0
@@ -379,13 +311,17 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 5,
       "title": {
         "enabled": false
       },
       "labels": {
         "format": "{value:,.0f}%",
+        "y": 3,
+        "x": 5,
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -404,7 +340,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -426,15 +362,30 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "padding": 0,
-    "alignColumns": true
+    "alignColumns": false,
+    "useHTML": true,
+    "y": -30,
+    "x": -4,
+    "width": 160,
+    "labelFormatter": function () {
+        //var tmp = this.name.split(" ").slice(1, 2).toString(); //return only last word of legend-title
+        return this.name.replace('Kleinhüningen', 'Kleinh.').replace(' (rechte Skala)', '').replace('Freiraumfläche','').replace('Anteil ', '');
+      },
+    "title": {
+      "text": " \u003Cbr\u003EFläche:\u003Cbr\u002F\u003EAnteil (rechte Skala):",
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "10px"
+      }
+    }
   },
   "plotOptions": {
     "series": {

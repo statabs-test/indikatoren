@@ -49,6 +49,7 @@
     {
       "color": "#999",
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           "2010",
@@ -225,7 +226,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 30
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -255,7 +257,9 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "width": 460
+    "labelFormatter": function () {
+        return this.name.replace('Stromverbrauch ', '');
+      }
   },
   "plotOptions": {
     "series": {

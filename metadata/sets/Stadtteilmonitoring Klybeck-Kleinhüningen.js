@@ -63,7 +63,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8616"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -102,7 +104,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8617"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -136,13 +140,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck ist der Jugendquotient zwischen 2000 und 2019 von 34,0 auf 28,1 gesunken. Im Wohnviertel Kleinhüningen hat der Jugendquotient zwischen 2000 und 2018 leicht zugenommen (von 31,8 auf 32,2). Im Jahr 2019 ist er jedoch auf 31,7 gesunken. In der Stadt Basel lag der Jugendquotient im Jahr 2000 bei 27,0, im Jahr 2019 bei 25,3.",
-		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8618"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -176,13 +182,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck lag der Altersquotient Ende 2019 bei 21,4. Im Vergleich zum Jahr 2000 ist er gesunken. Im Wohnviertel Kleinhüningen betrug der Altersquotient Ende 2019 29,9. Auch dieser Wert liegt unter demjenigen des Jahres 2000. In der Stadt Basel ist der Altersquotient seit dem Jahr 2000 von 32,8 auf 28,6 (2019) gesunken.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "02_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8619"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -219,9 +227,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_005",
+		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8620"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -258,9 +268,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_007",
+		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8621"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -297,9 +309,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_008",
+		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8622"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -338,7 +352,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8623"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -375,9 +391,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_009",
+		"orderKey": "02_00_00_00_00_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8624"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -414,9 +432,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_011",
+		"orderKey": "02_00_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8625"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -453,9 +473,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_006",
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8626"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -494,7 +516,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8627"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -533,7 +557,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8628"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -572,7 +598,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8629"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -611,7 +639,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8630"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -650,7 +680,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8631"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -689,7 +721,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8632"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -728,7 +762,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8633"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -767,7 +803,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8634"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -806,7 +844,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8635"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -845,7 +885,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8636"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -884,7 +926,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8637"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -923,7 +967,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8638"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -962,7 +1008,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8639"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1001,7 +1049,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8640"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1040,7 +1090,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8641"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1079,7 +1131,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8642"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1119,7 +1173,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8643"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -1158,7 +1214,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8644"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1198,7 +1256,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8645"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -1237,7 +1297,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8646"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -1269,14 +1331,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist in den Wohnvierteln Kleinhüningen (23,3%) und Klybeck (17,2%) tief (Werte 2018). Im Vergleich zur Situation 2014 stagniert dieser Wert im Klybeck. In Kleinhüningen ist der Anteil deutschsprachiger Kindergarten- und Schulkinder in dieser Fünfjahresperiode leicht gestiegen.",
+		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2019 in den Wohnvierteln Kleinhüningen (23,0%) und Klybeck (18,2%) weiterhin tief. Im Vergleich zur Situation 2014 stagnieren diese Werte in beiden Wohnvierteln. Für die Stadt Basel beträgt der Vergleichswert 46,6% und ist damit rund doppelt so hoch wie in Kleinhüningen und zweieinhalb Mal höher als im Wohnviertel Klybeck.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8647"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -1315,7 +1379,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8648"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1354,7 +1420,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8649"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1394,7 +1462,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8650"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1433,7 +1503,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8651"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1472,7 +1544,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8652"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"MCR-Lab, Universität Basel"
@@ -1485,45 +1559,6 @@ var indikatorensetData = [
 		"chart-id": 7701,
 		"filter": "",
 		"id": 8082
-	},
-	{
-		"title": "Sauberkeitsindex",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.6.08084",
-		"kuerzelKunde": "7.05",
-		"description": "Sauberkeitsindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-23T11:38:18.1818",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Wert des Sauberkeitsindex für die Stadt Basel beläuft sich 2018 auf 3,73.",
-		"erlaeuterungen": "Der Sauberkeitsindex ist ein Mass für die Sauberkeit der Stadt Basel. Er bewegt sich auf einer Skala zwischen 0 und 5, wobei 5 für sehr sauber steht. Von April bis Oktober wird durch das Tiefbauemt Basel-Stadt mehrmals in verschiedenen Begehungen visuell die Verschmutzung im öffentlichen Raum erhoben (2018 an insgesamt 89 Objekten und nach 18 verschiedenen Arten der Verschmutzung).",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_005",
-		"parentId": 7703,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Tiefbauamt Basel-Stadt, Stadtreinigung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8084,
-		"chart-id": 7703,
-		"filter": "",
-		"id": 8084
 	},
 	{
 		"title": "Heizsysteme nach Energieträger",
@@ -1550,7 +1585,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8654"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1589,7 +1626,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8655"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1628,7 +1667,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8656"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1668,7 +1709,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8657"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1709,7 +1752,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8658"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1750,7 +1795,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8659"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1789,7 +1836,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8661"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -1828,7 +1877,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8662"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -1865,9 +1916,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_010",
+		"orderKey": "02_00_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8663"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1945,7 +1998,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8665"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

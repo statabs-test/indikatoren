@@ -215,11 +215,15 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "padding": 1,
+      "step": 1,
+      "y": 3,
+      "x": -10
     },
     "tickLength": 0
   },
@@ -318,6 +322,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
+    "marginRight": 10,
     "inverted": true,
     "renderTo": "container-8648",
     "spacingBottom": 12
@@ -357,7 +362,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 12,
       "style": {
         "fontSize": "10px",
         "color": "#000000"
@@ -366,8 +371,7 @@
           return Highcharts.numberFormat((100 * this.value), 0) + '%';
         }
     },
-    "max": 0.7,
-    "overflow": "ellipsis"
+    "tickInterval": 0.1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -403,7 +407,8 @@
       "marker": {
         "enabled": false
       },
-      "stickyTracking": false
+      "stickyTracking": false,
+      "borderWidth": 0
     }
   },
   "exporting": {

@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#2f656b",
+      "index": 0,
       "data": [
         [
           "2010: Klybeck",
@@ -113,6 +114,7 @@
     },
     {
       "color": "#73b97c",
+      "index": 1,
       "data": [
         [
           "2010: Klybeck",
@@ -224,6 +226,7 @@
     },
     {
       "color": "#d7e8d2",
+      "index": 2,
       "data": [
         [
           "2010: Klybeck",
@@ -362,12 +365,12 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
+      5,
       2,
-      2,
-      2,
+      5,
       2
     ],
     "style": {
@@ -455,7 +458,7 @@
     },
     "type": "column",
     "renderTo": "container-8623",
-    "spacingBottom": 12
+    "spacingBottom": 15
   },
   "plotOptions": {
     "series": {
@@ -468,8 +471,10 @@
           "color": "black"
         }
       },
-      "stacking": "percent"
-    }
+      "stacking": "percent",
+      "groupPadding": 0.02
+    },
+    "borderwidth": 0
   },
   "title": {
     "style": {
@@ -531,30 +536,27 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 3,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "horizontal",
+    "verticalAlign": "top",
     "align": "left",
-    "verticalAlign": "top"
+    "alignColumns": false
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 8623

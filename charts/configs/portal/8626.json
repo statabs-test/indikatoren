@@ -654,7 +654,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -746,6 +746,7 @@
                 }
     },
     "type": "column",
+    "spacingTop": 5,
     "renderTo": "container-8626",
     "spacingBottom": 12
   },
@@ -802,7 +803,7 @@
       },
       "format": "{value}%"
     },
-    "tickInterval": 10
+    "tickInterval": 20
   },
   "navigation": {
     "menuItemStyle": {
@@ -834,13 +835,13 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemWidth": 205,
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemDistance": 4,
-    "align": "left",
     "labelFormatter": function () {
-        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/unbek.');
+        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/<br>unbek.').replace('-', '-<br>');
       }
   },
   "dataLabels": {

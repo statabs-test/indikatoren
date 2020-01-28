@@ -50,6 +50,10 @@
         [
           "2018",
           2
+        ],
+        [
+          "2019",
+          1
         ]
       ],
       "name": "Wohnviertel Klybeck",
@@ -105,6 +109,10 @@
         [
           "2018",
           3
+        ],
+        [
+          "2019",
+          null
         ]
       ],
       "name": "Wohnviertel Kleinhüningen",

@@ -755,7 +755,7 @@
       "step": 1,
       "rotation": -90,
       "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
+          return this.value.replace("Kleinhüningen", "Kleinh.");
         }
     },
     "tickLength": 0,
@@ -764,12 +764,12 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
+      5,
       2,
-      2,
-      2,
+      5,
       2
     ],
     "style": {
@@ -857,7 +857,7 @@
     },
     "type": "column",
     "renderTo": "container-8650",
-    "spacingBottom": 12
+    "spacingBottom": 15
   },
   "plotOptions": {
     "series": {
@@ -912,7 +912,8 @@
       },
       "format": "{value}%"
     },
-    "min": 0
+    "min": 0,
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {
@@ -938,15 +939,21 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 70,
+      "textOverflow": null
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "y": -28,
+    "align": "right",
+    "labelFormatter": function () {
+        return this.name.replace("Verkehrs", "Verkehrs-<br/>")
+      }
   },
   "dataLabels": {
     "enabled": false,

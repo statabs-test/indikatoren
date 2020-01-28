@@ -789,12 +789,12 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
+      5,
       2,
-      2,
-      2,
+      5,
       2
     ],
     "style": {
@@ -882,7 +882,7 @@
     },
     "type": "column",
     "renderTo": "container-8651",
-    "spacingBottom": 12
+    "spacingBottom": 15
   },
   "plotOptions": {
     "series": {
@@ -966,27 +966,27 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 70,
+      "textOverflow": null
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "y": -30,
+    "align": "right",
+    "labelFormatter": function () {
+        return this.name.replace("/", "/<br/>")
+      }
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "useHTML": true,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
   },
   "exporting": {
     "filename": 8651

@@ -404,6 +404,7 @@
                 }
     },
     "type": "column",
+    "spacingTop": 5,
     "renderTo": "container-8636",
     "spacingBottom": 12
   },
@@ -478,7 +479,14 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 2
+    "tickInterval": 2,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 1
+      }
+    ]
   },
   "navigation": {
     "menuItemStyle": {
@@ -504,7 +512,7 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 7,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal",
@@ -512,8 +520,15 @@
       "textOverflow": null
     },
     "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "verticalAlign": "top",
+    "align": "right",
+    "labelFormatter": function () {
+       return this.name.replace(' Wohnungen', '<br>Wohnungen')
+       .replace(' Ausbauten', '<br>Ausbauten')
+       .replace('Zusammenlegungen/', '<br>Zusammen-<br>legungen/<br>')
+       .replace('Zweckentfremdung', 'Zweckentfrem-<br>dung')
+       .replace('Sonstige ', 'Sonstige<br>');
+      }
   },
   "dataLabels": {
     "enabled": false,

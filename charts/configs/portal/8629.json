@@ -231,17 +231,12 @@
     {
       "color": "#fabd24",
       "type": "line",
-      "lineWidth": 0,
+      "lineWidth": 2,
       "legendIndex": 5,
       "marker": {
         "radius": 4
       },
       "zIndex": 2,
-      "states": {
-        "hover": {
-          "lineWidth": 2
-        }
-      },
       "data": [
         [
           2005,
@@ -297,7 +292,7 @@
     {
       "color": "#d7bed2",
       "type": "line",
-      "lineWidth": 0,
+      "lineWidth": 2,
       "legendIndex": 6,
       "marker": {
         "symbol": "diamond",
@@ -306,11 +301,6 @@
       "zIndex": 1,
       "tooltip": {
         "shared": true
-      },
-      "states": {
-        "hover": {
-          "lineWidth": 2
-        }
       },
       "data": [
         [
@@ -448,7 +438,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -460,6 +450,8 @@
       "fontFamily": "Arial"
     },
     "type": "column",
+    "marginRight": 100,
+    "spacingTop": 5,
     "renderTo": "container-8629",
     "spacingBottom": 12
   },
@@ -510,8 +502,8 @@
     "plotLines": [
       {
         "value": 0,
-        "color": "#B9CFD7",
-        "width": 2,
+        "color": "#B6CFD7",
+        "width": 1,
         "zIndex": 0
       }
     ]
@@ -548,18 +540,20 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 4,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemWidth": 190,
-    "itemDistance": 4
+    "labelFormatter": function () {
+        var l = this.name.replace(' ', '<br>');
+        return l;
+      }
   },
   "plotOptions": {
     "series": {

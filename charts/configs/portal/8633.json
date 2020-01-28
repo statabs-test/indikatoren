@@ -405,7 +405,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "tickInterval": 1
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -419,7 +420,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

@@ -60,6 +60,7 @@
       "color": "#8A8A8A",
       "visible": false,
       "legendIndex": 5,
+      "showInLegend": false,
       "data": [
         [
           "1995",
@@ -145,6 +146,7 @@
       "color": "#474747",
       "visible": false,
       "legendIndex": 6,
+      "showInLegend": false,
       "data": [
         [
           "1995",
@@ -327,7 +329,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 100000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -356,7 +359,10 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function () {
+        return this.name.replace('Kleinhüningen', 'Kleinh.');
+      }
   },
   "plotOptions": {
     "series": {

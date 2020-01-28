@@ -378,8 +378,8 @@
                 }
     },
     "type": "column",
-    "spacingBottom": 40,
-    "renderTo": "container-8624"
+    "renderTo": "container-8624",
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -433,7 +433,14 @@
       }
     },
     "tickInterval": 20,
-    "max": 150
+    "max": 150,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 1
+      }
+    ]
   },
   "navigation": {
     "menuItemStyle": {

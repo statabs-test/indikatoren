@@ -4,6 +4,9 @@
       "color": "#9E7C59",
       "index": 5,
       "legendIndex": 0,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
         [
           "2013: Klybeck",
@@ -72,6 +75,18 @@
         [
           "2018: Kleinhüningen",
           59
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          126
+        ],
+        [
+          "2019: Kleinhüningen",
+          60
         ]
       ],
       "name": "Erdgas",
@@ -81,6 +96,9 @@
       "color": "#C4AB91",
       "index": 4,
       "legendIndex": 1,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
         [
           "2013: Klybeck",
@@ -149,6 +167,18 @@
         [
           "2018: Kleinhüningen",
           40
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          38
+        ],
+        [
+          "2019: Kleinhüningen",
+          36
         ]
       ],
       "name": "Heizöl",
@@ -158,6 +188,9 @@
       "color": "#FFDA80",
       "index": 3,
       "legendIndex": 2,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
         [
           "2013: Klybeck",
@@ -226,6 +259,18 @@
         [
           "2018: Kleinhüningen",
           138
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          373
+        ],
+        [
+          "2019: Kleinhüningen",
+          144
         ]
       ],
       "name": "Fernwärme",
@@ -235,14 +280,17 @@
       "color": "#C9D6DB",
       "index": 2,
       "legendIndex": 3,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
         [
           "2013: Klybeck",
-          199
+          201
         ],
         [
           "2013: Kleinhüningen",
-          90
+          96
         ],
         [
           " ",
@@ -250,100 +298,23 @@
         ],
         [
           "2014: Klybeck",
-          194
+          196
         ],
         [
           "2014: Kleinhüningen",
-          137
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2015: Klybeck",
-          188
-        ],
-        [
-          "2015: Kleinhüningen",
-          136
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2016: Klybeck",
-          195
-        ],
-        [
-          "2016: Kleinhüningen",
           142
         ],
         [
-          "    ",
-          null
-        ],
-        [
-          "2017: Klybeck",
-          193
-        ],
-        [
-          "2017: Kleinhüningen",
-          135
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2018: Klybeck",
-          190
-        ],
-        [
-          "2018: Kleinhüningen",
-          124
-        ]
-      ],
-      "name": "Anderer Energieträger",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "index": 1,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2013: Klybeck",
-          2
-        ],
-        [
-          "2013: Kleinhüningen",
-          6
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2014: Klybeck",
-          2
-        ],
-        [
-          "2014: Kleinhüningen",
-          5
-        ],
-        [
           "  ",
           null
         ],
         [
           "2015: Klybeck",
-          2
+          190
         ],
         [
           "2015: Kleinhüningen",
-          5
+          141
         ],
         [
           "   ",
@@ -351,11 +322,11 @@
         ],
         [
           "2016: Klybeck",
-          2
+          197
         ],
         [
           "2016: Kleinhüningen",
-          6
+          148
         ],
         [
           "    ",
@@ -363,11 +334,11 @@
         ],
         [
           "2017: Klybeck",
-          2
+          195
         ],
         [
           "2017: Kleinhüningen",
-          6
+          141
         ],
         [
           "     ",
@@ -375,14 +346,26 @@
         ],
         [
           "2018: Klybeck",
-          2
+          192
         ],
         [
           "2018: Kleinhüningen",
-          6
+          130
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          167
+        ],
+        [
+          "2019: Kleinhüningen",
+          161
         ]
       ],
-      "name": "Kein Energieträger",
+      "name": "Anderer\u002FKein Energieträger",
       "turboThreshold": 0
     }
   ],
@@ -402,12 +385,14 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "step": 1,
+      "rotation": -90,
+      "y": 10,
       "formatter": function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
         }
     },
     "tickLength": 0,
-    "min": 0,
     "tickInterval": 1
   },
   "chart": {
@@ -505,8 +490,9 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-8654",
-    "spacingBottom": 12
+    "spacingTop": 5,
+    "spacingBottom": 15,
+    "renderTo": "container-8654"
   },
   "plotOptions": {
     "series": {
@@ -519,8 +505,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 20,
+      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -561,7 +546,7 @@
         "color": "#000000"
       }
     },
-    "tickInterval": 100
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -582,32 +567,30 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 70,
+      "textOverflow": null
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemDistance": 5
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "reversed": true,
+    "y": -30
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
   },
   "exporting": {
     "filename": 8654

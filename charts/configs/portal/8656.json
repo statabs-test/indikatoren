@@ -3,7 +3,6 @@
     {
       "color": "#cd9c00",
       "index": 0,
-      "legendIndex": 0,
       "type": "column",
       "data": [
         [
@@ -44,7 +43,6 @@
     {
       "color": "#7f5f1a",
       "index": 2,
-      "legendIndex": 3,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -86,7 +84,6 @@
     {
       "color": "#b375ab",
       "index": 1,
-      "legendIndex": 1,
       "type": "column",
       "data": [
         [
@@ -127,7 +124,6 @@
     {
       "color": "#923f8d",
       "index": 3,
-      "legendIndex": 4,
       "type": "line",
       "yAxis": 1,
       "data": [
@@ -165,96 +161,13 @@
         ]
       ],
       "name": "Motorisierungsgrad Kleinhüningen"
-    },
-    {
-      "color": "#8A8A8A",
-      "index": 4,
-      "legendIndex": 2,
-      "type": "column",
-      "data": [
-        [
-          2010,
-          0.49
-        ],
-        [
-          2011,
-          0.46
-        ],
-        [
-          2012,
-          0.46
-        ],
-        [
-          2013,
-          0.46
-        ],
-        [
-          2014,
-          0.45
-        ],
-        [
-          2015,
-          0.46
-        ],
-        [
-          2016,
-          0.45
-        ],
-        [
-          2017,
-          0.46
-        ]
-      ],
-      "name": "PW pro Haushalt Stadt Basel"
-    },
-    {
-      "color": "#777777",
-      "index": 5,
-      "legendIndex": 5,
-      "type": "line",
-      "yAxis": 1,
-      "data": [
-        [
-          2010,
-          235.3
-        ],
-        [
-          2011,
-          238.3
-        ],
-        [
-          2012,
-          238.5
-        ],
-        [
-          2013,
-          234.4
-        ],
-        [
-          2014,
-          228.9
-        ],
-        [
-          2015,
-          234.4
-        ],
-        [
-          2016,
-          228.1
-        ],
-        [
-          2017,
-          232.2
-        ]
-      ],
-      "name": "Motorisierungsgrad Stadt Basel"
     }
   ],
   "chart": {
     "events": {
       "load": function () {
           //move legend title
-          var title = this.legend.title.translate(-190, 46);
+          var title = this.legend.title.translate(-165, 25);
         }
     },
     "borderColor": "#fbfbfb",
@@ -272,6 +185,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 27,
+    "marginTop": 40,
     "renderTo": "container-8656",
     "spacingBottom": 22
   },
@@ -292,8 +207,7 @@
       "color": "#000000"
     },
     "text": "Wohnviertel Klybeck und Kleinhüningen",
-    "align": "left",
-    "useHTML": true
+    "align": "left"
   },
   "tooltip": {
     "shared": false
@@ -302,14 +216,17 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 5,
       "title": {
         "enabled": false
       },
       "labels": {
-        "useHTML": true,
-        "format": "{value:,.1f}",
+        "format": "{value:,.2f}",
+        "x": -5,
+        "y": 3,
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0
@@ -317,12 +234,16 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 5,
       "title": {
         "enabled": false
       },
       "labels": {
+        "y": 3,
+        "x": 5,
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -365,29 +286,25 @@
     "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "padding": 0,
-    "width": 240,
-    "alignColumns": true,
+    "alignColumns": false,
     "useHTML": true,
-    "y": -50,
-    "x": 0,
-    "itemWidth": 75,
+    "y": -30,
+    "x": 20,
+    "width": 160,
     "labelFormatter": function () {
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
-        //return this.name.slice(-4); //return last 4 letters
-         var tmp = this.name.split(" ").slice(-1).toString(); //return only last word of legend-title
-         return tmp.replace('Kleinhüningen', 'Kleinh.');
+        return this.name.split(" ").slice(-1).toString().replace('Kleinhüningen','Kleinh.'); //return only last word of legend-title
       },
     "title": {
-      "text": "Personenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",
+      "text": " \u003Cbr\u003EPersonenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",
       "style": {
         "fontWeight": "normal",
-        "lineHeight": 1.7
+        "fontSize": "10px"
       }
     }
   },

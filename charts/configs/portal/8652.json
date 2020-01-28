@@ -6874,15 +6874,6 @@
     },
     "type": "map",
     "inverted": false,
-    "events": {
-      "load": function (e) {
-					 this.credits.element.onclick = function() {};
-					 var chart = this;
-					 var fn = this.options.customFunctions;
-					 //define new Highcharts template "mappie"
-					 fn.addLegendRectangle(chart, 315, 250, 105, 120, '#fbfbfb');
-				 }
-    },
     "renderTo": "container-8652",
     "spacingBottom": 12
   },
@@ -6987,14 +6978,15 @@
     },
     "title": {
       "style": {
-        "fontWeight": " bold",
+        "fontWeight": "bold",
         "fontSize": "15px"
       },
       "text": "Mittlere Anzahl\u003Cbr\u003ETropennächte"
     },
     "useHTML": false,
     "layout": "vertical",
-    "x": -60,
+    "x": -337,
+    "y": -65,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },

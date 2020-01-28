@@ -644,6 +644,7 @@
                 }
     },
     "type": "column",
+    "spacingTop": 5,
     "renderTo": "container-8630",
     "spacingBottom": 12
   },
@@ -736,10 +737,13 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "reversed": true
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "reversed": false,
+    "labelFormatter": function () {
+        return this.name.replace('Zimmer', 'Zim.');
+      }
   },
   "dataLabels": {
     "enabled": false,

@@ -679,7 +679,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -770,6 +770,7 @@
                     }
                 }
     },
+    "spacingTop": 5,
     "type": "column",
     "renderTo": "container-8621",
     "spacingBottom": 12
@@ -848,7 +849,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "padding": 0,
@@ -861,7 +862,7 @@
     "enabled": true,
     "reversed": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right"
   },
   "dataLabels": {

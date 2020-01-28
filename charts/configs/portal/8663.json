@@ -233,8 +233,9 @@
                 }
     },
     "type": "column",
-    "spacingBottom": 40,
-    "renderTo": "container-8663"
+    "spacingTop": 5,
+    "renderTo": "container-8663",
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -247,7 +248,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0.1,
+      "groupPadding": 0.2
     }
   },
   "title": {
@@ -288,10 +290,12 @@
       }
     },
     "tickInterval": 20,
+    "min": -120,
     "plotLines": [
       {
         "color": "#B9CFD7",
-        "value": 0
+        "value": 0,
+        "width": 1
       }
     ]
   },
@@ -327,7 +331,10 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "labelFormatter": function () {
+        return this.name.replace('Umzugssaldo ', '');//.replace('Klein', 'Klein-<br>');
+      }
   },
   "dataLabels": {
     "enabled": false,

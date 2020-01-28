@@ -422,6 +422,7 @@
                 }
     },
     "type": "column",
+    "spacingTop": 5,
     "renderTo": "container-8631",
     "spacingBottom": 12
   },
@@ -438,8 +439,8 @@
       }
     },
     "column": {
-      "groupPadding": 0.04,
-      "pointPadding": 0.03,
+      "groupPadding": 0.02,
+      "pointPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -482,7 +483,6 @@
       "format": "{value:,.0f}"
     },
     "tickInterval": 500,
-    "max": 4000,
     "reversedStacks": false
   },
   "navigation": {
@@ -516,10 +516,14 @@
     },
     "layout": "vertical",
     "align": "right",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "reversed": true,
     "labelFormatter": function () {
-        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
+        return this.name.replace(' ', '<br>')
+        .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
+          .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
+          .replace('Eigentümer', 'Eigentümer-<br>')
+          .replace('Mietwohnungen', 'Mietwohn-<br>ungen');
       }
   },
   "dataLabels": {

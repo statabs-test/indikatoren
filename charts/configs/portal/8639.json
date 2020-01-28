@@ -189,9 +189,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function(){
-    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': ' + Highcharts.numberFormat((this.y*100),1) + '%'
-}
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': ' + Highcharts.numberFormat((this.y * 100), 1) + '%'
+      }
   },
   "yAxis": {
     "min": 0,
@@ -210,10 +210,11 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "formatter": function(){
-            return Highcharts.numberFormat((this.value*100), 0)+'%';
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
         }
-    }
+    },
+    "tickInterval": 0.01
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

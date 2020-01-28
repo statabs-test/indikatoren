@@ -772,7 +772,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -784,6 +784,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 7,
     "renderTo": "container-8625",
     "spacingBottom": 12
   },
@@ -826,7 +827,8 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      }
+      },
+      "format": "{value}"
     },
     "tickInterval": 10
   },
@@ -839,10 +841,11 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -862,22 +865,24 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 3,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "itemDistance": 10
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "lineWidth": 1.5
     },
     "line": {
       "marker": {
