@@ -145,7 +145,8 @@
     style: {
      left: '200px',
       top: '150px',
-      fontSize: '10px'
+      fontSize: '10px',
+      color: '#000000'
     }
   }]
 }

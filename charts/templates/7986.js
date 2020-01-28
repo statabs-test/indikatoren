@@ -145,11 +145,12 @@
   },
   legend: {
     useHTML: true,
-   y: -40, //-40
+   y: -50, //-40
     layout: "horizontal",
     verticalAlign: "top",
     //itemMarginTop: 0,
     itemMarginBottom: 0,
+    margin: 20,
     //itemDistance: 5,
     align: "center",
         itemStyle: {
@@ -207,7 +208,7 @@
   },
   chart: {
         type: 'column',
-        width: 661.41732283,
+        width: 665, //661.41732283,
         height: 207.87401575,
         spacingTop: 30,
         spacingBottom: 6,
@@ -227,7 +228,7 @@
             }
             //move legend title
             var title = this.legend.title;
-            title.translate(-188, 15);
+            title.translate(-188, 25);
 
           }
         }         

@@ -137,10 +137,11 @@ plotOptions: {
 },
 legend: {
   useHTML: true,
-  y: -40, //40
+  y: -50, //40
   layout: "horizontal",
   verticalAlign: "top",
-  itemMarginBottom: 0,     
+  itemMarginBottom: 0,
+  margin: 20,     
   align: "center",
   itemStyle: {
       fontWeight: "normal",
@@ -173,8 +174,8 @@ data: {
 },
 chart: {
       type: 'column',
-      width: 661.41732283,
-      height: 207.87401575,
+      width: 665, //661.41732283,
+      //height: 207.87401575,
       spacingTop: 30,
       spacingBottom: 6,
       events: {
