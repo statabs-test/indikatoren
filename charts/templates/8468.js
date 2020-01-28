@@ -18,10 +18,13 @@
     "xAxis": {
       "type": "category",
       labels: {
+        rotation: 0,
+        "formatter": function () {
+          return this.value.replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+        },
         style: {
-          rotation: 0,
           textOverflow: 'none',
-          whiteSpace: "nowrap"
+           whiteSpace: "nowrap"
         }
       }
     },

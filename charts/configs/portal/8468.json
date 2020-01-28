@@ -42,9 +42,12 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none",
-        "rotation": 0,
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0,
+      "formatter": function () {
+          return this.value.replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+        }
     },
     "tickLength": 0
   },

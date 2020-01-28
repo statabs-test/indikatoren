@@ -1584,7 +1584,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2020-01-03T16:42:54.5454",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.3 Bevölkerung",
+		"stufe2": "2.2 Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1593,7 +1593,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_003",
+		"orderKey": "02_02_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"8505"
