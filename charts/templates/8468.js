@@ -18,12 +18,15 @@
     "xAxis": {
       "type": "category",
       labels: {
-        rotation: 0
+        style: {
+          rotation: 0,
+          textOverflow: 'none',
+          whiteSpace: "nowrap"
+        }
       }
     },
     "yAxis": {
-      tickAmount: 6,
-      tickInterval: 50000,
+      tickAmount: 5,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -36,7 +39,7 @@
       "#474747",
       "#FF8028",
       "#FABD24",
-      "B375AB",
+      "#B375AB",
       "#990300"
     ],
 

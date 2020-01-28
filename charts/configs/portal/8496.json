@@ -178,7 +178,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Altersquotient"
+    "text": "Altersquotient; BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
     "style": {
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " Personen ab 64 Jahre im Verhältnis zu den 20- bis 64-Jährigen",
+    "text": " Personen ab 64 Jahre je 100 20- bis 64-Jährige",
     "align": "left"
   },
   "xAxis": {

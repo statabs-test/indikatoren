@@ -2,45 +2,45 @@
 global Highcharts
 */
 
-(function(){
-    return {
-  //seriesMapping necessary for charts with error bars. 
-  "data": {
-    "seriesMapping": [
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      },
-      {
-        "x": 0
-      }
-    ]  
-  },
-	plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0
+(function () {
+  return {
+    //seriesMapping necessary for charts with error bars. 
+    "data": {
+      "seriesMapping": [
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
         }
+      ]
     },
- tooltip: {
-        shared: true
+    plotOptions: {
+      series: {
+        pointPadding: 0,
+        borderWidth: 0
+      }
+    },
+    tooltip: {
+      shared: true
     },
 
     "series": [
@@ -119,37 +119,37 @@ global Highcharts
       },
 
     ],
-  "xAxis": {
-    "type": "category"    
-  },
-  "yAxis": {
-    "labels": {
-        "formatter": function(){
-            return Highcharts.numberFormat((this.value),0)+'%';                
+    "xAxis": {
+      "type": "category"
+    },
+    "yAxis": {
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
         },
-    } 
-  },    
-   "legend": {
-    "enabled": true,
-     itemDistance: 5,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "chart": {    
-    "marginBottom": 80,
-    //"marginTop": 75,
-    "type": "column",
-    "inverted": false
-  }, 
-  subtitle: {
-    useHTML: true
-  }, 
-  exporting: {
-    allowHTML: true,
-  },
-	};
+      }
+    },
+    "legend": {
+      "enabled": true,
+      itemDistance: 5,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
+    },
+    "chart": {
+      "marginBottom": 80,
+      //"marginTop": 75,
+      "type": "column",
+      "inverted": false
+    },
+    subtitle: {
+      useHTML: true
+    },
+    exporting: {
+      allowHTML: true,
+    },
+  };
 }());

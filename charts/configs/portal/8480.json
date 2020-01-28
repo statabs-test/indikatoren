@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#689199",
+      "color": "#FF8028",
       "legendIndex": 6,
       "index": 6,
       "data": [
@@ -69,7 +69,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#DC440E",
       "legendIndex": 2,
       "index": 2,
       "data": [
@@ -86,7 +86,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#FABD24",
       "legendIndex": 1,
       "index": 1,
       "data": [
@@ -246,7 +246,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitspendler"
+    "text": "Arbeitspendler Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -255,7 +255,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Pooling 2013-2017",
+    "text": "Pooling 2013-2017",
     "align": "left"
   },
   "yAxis": {

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#474747",
       "legendIndex": 7,
       "index": 7,
       "data": [
@@ -18,7 +18,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#FF8028",
       "legendIndex": 6,
       "index": 6,
       "data": [
@@ -69,7 +69,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#689199",
       "legendIndex": 3,
       "index": 3,
       "data": [
@@ -86,7 +86,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#DC440E",
       "legendIndex": 2,
       "index": 2,
       "data": [
@@ -103,7 +103,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#FABD24",
       "legendIndex": 1,
       "index": 1,
       "data": [
@@ -134,9 +134,9 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function() {
-                   return this.value;
-          }
+      "formatter": function () {
+          return this.value;
+        }
     },
     "tickLength": 0
   },
@@ -203,7 +203,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jura, Pooling 2013-2017",
+    "text": "Pooling 2013-2017",
     "align": "left"
   },
   "yAxis": {
@@ -222,9 +222,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+'%'; 
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        }
     }
   },
   "navigation": {

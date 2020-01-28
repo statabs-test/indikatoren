@@ -18,8 +18,8 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
     },
     "series": [
-      { "color": "#8B2223", "index": 13 }, /*dunkelrot */
-      { "color": "#DC440E", "index": 12, showInLegend: false }, /*hellrot */
+      { "color": "#8B2223", "index": 12}, /*dunkelrot */
+      //{ "color": "#DC440E", "index": 12, showInLegend: false }, /*hellrot */
       { "color": "#FF8028", "index": 11 }, /*dunkelorange */
       { "color": "#FFBB58", "index": 10 }, /*dunkelgelb */
       { "color": "#FFDA80", "index": 9 }, /*hellgelb */
@@ -35,9 +35,9 @@
     "legend": {
       "enabled": true,
       "layout": "vertical",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "align": "right",
-      "itemMarginBottom": 3,
+      "itemMarginBottom": 5,
       "itemStyle": {
         "fontWeight": "normal"
       }

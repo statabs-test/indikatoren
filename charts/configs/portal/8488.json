@@ -245,7 +245,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Index (2014 = 100)",
+    "text": "indexiert (2014 = 100)",
     "align": "left"
   },
   "tooltip": {
@@ -299,7 +299,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "enabled": true,

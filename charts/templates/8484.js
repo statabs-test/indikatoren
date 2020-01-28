@@ -31,12 +31,23 @@
 
     },
     "legend": {
+      "labelFormatter":
+        function () {
+          return this.name.replace('Wegpendler in die Schweiz', 'Wegpendler Schweiz')
+            .replace('Zupendler aus der Schweiz', 'Zupendler Schweiz')
+            .replace('Wegpendler ins Ausland', 'Wegpendler Ausland')
+            .replace('Zupendler aus dem Ausland', 'Zupendler Ausland');
+        },
       "enabled": true,
-      "layout": "vertical",
-      "verticalAlign": "middle",
-      "align": "right",
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      symbolPadding: 3,
+      itemDistance: 2,
+      itemWidth: 130,
       "itemStyle": {
-        "fontWeight": "normal"
+        "fontWeight": "normal",
+        textOverflow: 'none'
       }
     },
     "tooltip": {
@@ -66,8 +77,9 @@
       },
     ],
     "chart": {
-      width: 665,
-      "marginTop": 8,
+      //width: 665,
+      //"marginTop": 8,
+      marginBottom: 35,
       "type": "column",
     },
     "data": {

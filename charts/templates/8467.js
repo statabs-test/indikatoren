@@ -27,6 +27,7 @@
       }
     },
     "yAxis": [{
+      tickAmount: 5,
       "labels": {
         "format": "{value:,.f}",
         "style": {
@@ -39,6 +40,7 @@
       "title": "",
     },
     {
+      tickAmount: 5,
       "title": {
         "style": {
           "color": "#000000",

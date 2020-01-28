@@ -28,15 +28,16 @@
     ],
     "legend": {
       itemWidth: 97,
-      itemDistance: 0,
-      symbolPadding: 3,
+      itemDistance: 3,
+      symbolPadding: 0,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
       "itemStyle": {
         "fontWeight": "normal",
-        textOverflow: 'none'
+        textOverflow: 'none',
+        
       }
     },
     tooltip: {

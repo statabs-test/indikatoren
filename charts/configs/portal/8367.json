@@ -152,7 +152,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
+    "width": 485,
     "height": 428,
     "spacing": [
       10,
@@ -272,12 +272,12 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormatter": function(){
-      if (this.series.name == "Pendlersaldo") {
-      return '<b>' +  Highcharts.numberFormat(this.y,0) + '</b><br/><b>'
-    }
-    else return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y,0),0) + '</b><br/><b>'
-  },
+    "pointFormatter": function () {
+        if (this.series.name == "Pendlersaldo") {
+          return '<b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>'
+        }
+        else return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y, 0), 0) + '</b><br/><b>'
+      },
     "shared": true
   },
   "exporting": {

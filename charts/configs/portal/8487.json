@@ -169,9 +169,8 @@
                     }
                 }
     },
-    "renderTo": "container-8487",
-    "marginBottom": 75,
     "type": "column",
+    "renderTo": "container-8487",
     "spacingBottom": 22
   },
   "plotOptions": {
@@ -205,7 +204,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteile am nominalen BIP, 2018",
+    "text": "Anteil am nominalen BIP, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -248,7 +247,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
   },
   "legend": {
     "padding": 0,

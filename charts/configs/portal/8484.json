@@ -155,7 +155,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
+    "width": 320,
     "height": 221,
     "spacing": [
       2,
@@ -246,7 +246,7 @@
                     }
                 }
     },
-    "marginTop": 8,
+    "marginBottom": 35,
     "type": "column",
     "renderTo": "container-8484",
     "spacingBottom": 12
@@ -340,12 +340,22 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none"
     },
+    "labelFormatter": function () {
+          return this.name.replace('Wegpendler in die Schweiz', 'Wegpendler Schweiz')
+            .replace('Zupendler aus der Schweiz', 'Zupendler Schweiz')
+            .replace('Wegpendler ins Ausland', 'Wegpendler Ausland')
+            .replace('Zupendler aus dem Ausland', 'Zupendler Ausland');
+        },
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolPadding": 3,
+    "itemDistance": 2,
+    "itemWidth": 130
   },
   "dataLabels": {
     "enabled": false,

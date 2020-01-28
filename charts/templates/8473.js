@@ -37,9 +37,9 @@
       //"y": 45,
       //itemWidth: 120,
       "layout": "vertical",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "align": "right",
-      "itemMarginBottom": 2,
+      "itemMarginBottom": 4,
       "itemStyle": {
         "fontWeight": "normal"
       }

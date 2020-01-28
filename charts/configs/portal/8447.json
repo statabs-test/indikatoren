@@ -385,8 +385,8 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-            return Highcharts.numberFormat((this.value),0)+'%';                
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
         }
     }
   },

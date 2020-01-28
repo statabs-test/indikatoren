@@ -29428,7 +29428,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitspendler Basel-Stadt",
-		"subtitle": "Basel-Stadt, Pooling 2013-2017",
+		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
 		"kuerzelKunde": "2.1-8",
 		"description": "Arbeitspendler Basel-Stadt",
@@ -29470,7 +29470,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitspendler Basel-Landschaft",
-		"subtitle": "Basel-Landschaft, Pooling 2013-2017",
+		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
 		"kuerzelKunde": "2.1-9",
 		"description": "Arbeitspendler Basel-Landschaft",
@@ -29512,7 +29512,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitspendler Jura",
-		"subtitle": "Jura, Pooling 2013-2017",
+		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
 		"kuerzelKunde": "2.1-10",
 		"description": "Arbeitspendler Jura",
@@ -29554,7 +29554,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitspendler BS/BL/JU",
-		"subtitle": "BS/BL/JU, Pooling 2013-2017",
+		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
 		"kuerzelKunde": "2.1-11",
 		"description": "Arbeitspendler BS/BL/JU",
@@ -29752,7 +29752,7 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics",
-			"Eidgenössische Zollverwaltung EZV"
+			"Eidgenössische Zollverwaltung (EZV)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -29794,7 +29794,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung EZV"
+			"Eidgenössische Zollverwaltung (EZV)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -30492,7 +30492,7 @@ var indikatoren = [
 		"title": "Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "2.3-3",
+		"kuerzelKunde": "2.2-3",
 		"description": "Abschlussquote der Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "",
@@ -30513,7 +30513,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_019",
+		"orderKey": "02_03_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"8505"
@@ -30648,7 +30648,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung EZV"
+			"Eidgenössische Zollverwaltung (EZV)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

@@ -44,9 +44,6 @@
       "shared": false
     },
     "chart": {
-      "renderTo": 'container-I.17.3.0003',
-      "marginBottom": 75,
-      //"marginTop": 85,
       "type": "column",
     }
   }

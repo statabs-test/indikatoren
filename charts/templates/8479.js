@@ -24,15 +24,16 @@
         x: -6,
         rotation: 0,
         "formatter": function () {
-          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstanddllllll</span>(rechte Skala)")
-            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absllll</span>CH ")
-            .replace("Jura", "JU")
-            .replace("Basel-Landschaft", "BL")
-            .replace("Basel-Stadt", "BS");
+          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstaaandllllllllll</span>(rechte Skala)")
+            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absllll</span>Schweiz ")
+           // .replace("Jura", "JU")
+            .replace("Basel-Landschaft", "Basel-<br/>Landschaft")
+            //.replace("Basel-Stadt", "BS");
         }
       }
     },
     "yAxis": [{
+      offset:-6,
       tickInterval: 10000,
       tickAmount: 5,
       "labels": {
@@ -46,6 +47,7 @@
       "title": "",
     },
     {
+      offset:-6,
       tickInterval: 100000,
       tickAmount: 5,
       "title": {
@@ -100,7 +102,8 @@
       "shared": false
     },
     "chart": {
-     // margin: [60, 60, 80, 60],
+     margin: [45,45,35,45],
+     spacing: [0,0,0,0],
       "type": "column",
     }
   }

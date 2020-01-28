@@ -41,9 +41,10 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": "none"
-      },
-      "rotation": 0
+        "textOverflow": "none",
+        "rotation": 0,
+        "whiteSpace": "nowrap"
+      }
     },
     "tickLength": 0
   },
@@ -201,8 +202,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
-    "tickInterval": 50000
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -248,7 +248,7 @@
     "#474747",
     "#FF8028",
     "#FABD24",
-    "B375AB",
+    "#B375AB",
     "#990300"
   ],
   "tooltip": {

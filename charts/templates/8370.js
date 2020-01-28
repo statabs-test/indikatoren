@@ -35,11 +35,10 @@
     }
   },
   "tooltip": {
-        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>', 
+        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>', 
     "shared": false
   },  
   "chart": {      
-    "renderTo": 'container-I.17.3.0003',
     "marginBottom": 75,
     //"marginTop": 85,
     "type": "column",

@@ -458,7 +458,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wertschöpfungswachstum nach Branche"
+    "text": "Wertschöpfung nach Branche, Schweiz"
   },
   "subtitle": {
     "style": {
@@ -467,7 +467,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz, Index (2014 = 100)",
+    "text": "real, indexiert (2014 = 100)",
     "align": "left"
   },
   "tooltip": {
@@ -529,10 +529,10 @@
   "legend": {
     "enabled": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 4,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

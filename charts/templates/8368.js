@@ -46,79 +46,79 @@ tooltip: {
   "series": [
     {
       "index": 0,
-      color: "rgb(147,63,141)",
-       "tooltip": {
-        "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      color: "#246370",
+      "tooltip": {
+        "pointFormatter": function () {
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
         }
-      }   
+      }
     },
     {
       "index": 1,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+        "pointFormatter": function () {
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
         },
       }
     },
-        {
+    {
       "index": 2,
-      color: "rgb(180,117,171)",
-       "tooltip": {
-        "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      color: "#0F7399",
+      "tooltip": {
+        "pointFormatter": function () {
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
         }
-      }   
-      
+      }
+
     },
-   {
+    {
       "index": 3,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+        "pointFormatter": function () {
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
         }
       }
     },
-         {
+    {
       "index": 4,
-      color: "rgb(250,189,36)",
-       "tooltip": {
-        "pointFormatter": function(){
-         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      color: "#689199",
+      "tooltip": {
+        "pointFormatter": function () {
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
         }
-      }   
+      }
     },
     {
       "index": 5,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+        "pointFormatter": function () {
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
         }
       }
     },
-         {
+    {
       "index": 6,
-      color: "rgb(250,218,128)",
-       "tooltip": {
-        "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      color: "#A8C3CA",
+      "tooltip": {
+        "pointFormatter": function () {
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
         }
-      }   
+      }
     },
-        {
+    {
       "index": 7,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+        "pointFormatter": function () {
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
         }
       }
     },
-    
-  ],  
+
+  ],
 "xAxis": {
   "type": "category"    
 },

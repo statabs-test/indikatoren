@@ -28,8 +28,8 @@
       { "color": "#923F8D", legendIndex: 5, index: 5 },
       { "color": "#68AB2B", legendIndex: 4, index: 4 },
       { "color": "#008AC3", legendIndex: 3, index: 3 },
-      { "color": "#FABD24", legendIndex: 2, index: 2 },
-      { "color": "#FF8028", legendIndex: 1, index: 1 },
+      { "color": "#DC440E", legendIndex: 2, index: 2 },
+      { "color": "#FABD24", legendIndex: 1, index: 1 },
     ],
     "legend": {
       "enabled": true,
