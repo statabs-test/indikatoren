@@ -4,7 +4,7 @@
       "tickInterval": 12,
      "type": "category",
       labels: {
-        x: 18,
+        x: 20,
         "formatter": function () {
           return this.value.split("-").slice(0, -1);
         },
