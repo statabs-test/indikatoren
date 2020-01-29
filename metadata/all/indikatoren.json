@@ -43880,6 +43880,46 @@
 		"id": 7563
 	},
 	{
+		"title": "Umbausaldo",
+		"subtitle": "nach Art des Umbaus, Basel-Stadt",
+		"kuerzel": "I.09.1.07596",
+		"kuerzelKunde": "02",
+		"description": "Umbausaldo",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnbaustatistik",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T16:21:21.2121",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 und 2019 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt vor allem der Dachstockausbau zum positiven Umbausaldo bei.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 4136,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7596,
+		"chart-id": 7596,
+		"filter": "",
+		"id": 7596
+	},
+	{
 		"title": "Ausgaben für bedarfsabhängige Sozialleistungen",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"kuerzel": "I.13.2.07603",
