@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -70,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#A8C3CA",
       "data": [
         [
           "Basel-Stadt",

@@ -76,10 +76,10 @@
             }
           }
     },
-    "renderTo": "container-8441",
     "type": "column",
     "marginTop": 70,
-    "marginBottom": 70,
+    "marginBottom": 75,
+    "renderTo": "container-8441",
     "spacingBottom": 40
   },
   "plotOptions": {

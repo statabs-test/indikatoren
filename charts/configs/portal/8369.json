@@ -165,7 +165,7 @@
           }
     },
     "type": "column",
-    "spacingBottom": 50,
+    "spacingBottom": 55,
     "inverted": false,
     "renderTo": "container-8369"
   },

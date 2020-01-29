@@ -2,7 +2,7 @@
   return {
     chart: {
       type: "column",
-      spacingBottom: 40,
+      spacingBottom: 45,
       inverted: false,
     },
     plotOptions: {

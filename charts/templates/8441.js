@@ -42,10 +42,9 @@
     shared: false
   },  
   "chart": {      
-    "renderTo": 'container-I.05.1.0001',
     "type": "column",
     marginTop: 70,
-    "marginBottom": 70,
+    "marginBottom": 75,
     
   }
 	}
