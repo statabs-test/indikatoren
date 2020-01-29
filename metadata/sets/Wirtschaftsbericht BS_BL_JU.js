@@ -82,11 +82,11 @@ var indikatorensetData = [
 		"id": 8351
 	},
 	{
-		"title": "Bruttoinlandprodukt",
+		"title": "Entwicklung Bruttoinlandprodukt",
 		"subtitle": "real; indexiert (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.1-3",
-		"description": "Bruttoinlandprodukt",
+		"description": "Entwicklung Bruttoinlandprodukt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -123,11 +123,11 @@ var indikatorensetData = [
 		"id": 8352
 	},
 	{
-		"title": "Bruttoinlandprodukt",
-		"subtitle": "real, pro Kopf; indexiert  (2014 = 100)",
+		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
+		"subtitle": "real; indexiert  (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.1-4",
-		"description": "Bruttoinlandprodukt",
+		"description": "Entwicklung Bruttoinlandprodukt pro Kopf",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -181,7 +181,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt erwirtschaften 2018 die Branchen Chemie und Pharma 43,7% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 18,2% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (32,6% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie 8,8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,4%). An zweiter Stelle folgt der Handel (10,1%).",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2018 die Branchen Chemie und Pharma 43,7% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 18,2% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (32,6% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie 8,8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,3%). An zweiter Stelle folgt der Handel (10,1%).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -205,11 +205,11 @@ var indikatorensetData = [
 		"id": 8354
 	},
 	{
-		"title": "Wertschöpfung nach Branche, Basel-Stadt",
+		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08355",
 		"kuerzelKunde": "1.2-2",
-		"description": "Wertschöpfung nach Branche, Basel-Stadt",
+		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -246,11 +246,11 @@ var indikatorensetData = [
 		"id": 8355
 	},
 	{
-		"title": "Wertschöpfung nach Branche, Basel-Landschaft",
+		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08356",
 		"kuerzelKunde": "1.2-3",
-		"description": "Wertschöpfung nach Branche, Basel-Landschaft",
+		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -287,11 +287,11 @@ var indikatorensetData = [
 		"id": 8356
 	},
 	{
-		"title": "Wertschöpfung nach Branche, Jura",
+		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08357",
 		"kuerzelKunde": "1.2-4",
-		"description": "Wertschöpfung nach Branche, Jura",
+		"description": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -328,11 +328,11 @@ var indikatorensetData = [
 		"id": 8357
 	},
 	{
-		"title": "Wertschöpfung nach Branche, BS/BL/JU",
+		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08358",
 		"kuerzelKunde": "1.2-5",
-		"description": "Wertschöpfung nach Branche, BS/BL/JU",
+		"description": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -369,11 +369,11 @@ var indikatorensetData = [
 		"id": 8358
 	},
 	{
-		"title": "Wertschöpfung nach Branche, Schweiz",
+		"title": "Entwicklung Wertschöpfung nach Branche, Schweiz",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"kuerzel": "I.04.2.08359",
 		"kuerzelKunde": "1.2-6",
-		"description": "Wertschöpfung nach Branche, Schweiz",
+		"description": "Entwicklung Wertschöpfung nach Branche, Schweiz",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -451,11 +451,11 @@ var indikatorensetData = [
 		"id": 8360
 	},
 	{
-		"title": "Grenzgänger",
+		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-5",
-		"description": "Grenzgänger",
+		"kuerzelKunde": "2.1-6",
+		"description": "Entwicklung Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -473,7 +473,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_005",
+		"orderKey": "02_01_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"8478"
@@ -495,7 +495,7 @@ var indikatorensetData = [
 		"title": "Grenzgänger",
 		"subtitle": "2019, 3. Quartal",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-6",
+		"kuerzelKunde": "2.1-5",
 		"description": "Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -514,7 +514,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_006",
+		"orderKey": "02_01_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"8479"
@@ -862,11 +862,11 @@ var indikatorensetData = [
 		"id": 8370
 	},
 	{
-		"title": "Entwicklung der Exporte",
+		"title": "Entwicklung Exporte",
 		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "I.06.4.08371",
 		"kuerzelKunde": "4.1-2",
-		"description": "Entwicklung der Exporte",
+		"description": "Entwicklung Exporte",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -903,11 +903,11 @@ var indikatorensetData = [
 		"id": 8371
 	},
 	{
-		"title": "Logiernächte",
+		"title": "Entwicklung Logiernächte",
 		"subtitle": "indexiert, 2014 = 100",
 		"kuerzel": "",
-		"kuerzelKunde": "4.2-1",
-		"description": "Logiernächte",
+		"kuerzelKunde": "4.2-2",
+		"description": "Entwicklung Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -925,7 +925,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_02_00_00_00_001",
+		"orderKey": "04_02_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"8489"
@@ -947,7 +947,7 @@ var indikatorensetData = [
 		"title": "Logiernächte",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "4.2-2",
+		"kuerzelKunde": "4.2-1",
 		"description": "Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
@@ -966,7 +966,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_02_00_00_00_002",
+		"orderKey": "04_02_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"8490"
@@ -985,11 +985,11 @@ var indikatorensetData = [
 		"id": 8373
 	},
 	{
-		"title": "Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
+		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
 		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "2.3-1",
-		"description": "Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
+		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1026,11 +1026,11 @@ var indikatorensetData = [
 		"id": 8431
 	},
 	{
-		"title": "Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
+		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
 		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "",
 		"kuerzelKunde": "2.3-2",
-		"description": "Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
+		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1068,11 +1068,11 @@ var indikatorensetData = [
 		"id": 8432
 	},
 	{
-		"title": "Altersklassen von 15 bis 64 Jahren",
+		"title": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2018",
 		"kuerzel": "",
 		"kuerzelKunde": "2.3-3",
-		"description": "Altersklassen von 15 bis 64 Jahren",
+		"description": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1109,11 +1109,11 @@ var indikatorensetData = [
 		"id": 8433
 	},
 	{
-		"title": "Altersklassen von 15 bis 64 Jahren",
+		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2018",
 		"kuerzel": "",
 		"kuerzelKunde": "2.3-4",
-		"description": "Altersklassen von 15 bis 64 Jahren",
+		"description": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1151,11 +1151,11 @@ var indikatorensetData = [
 		"id": 8434
 	},
 	{
-		"title": "Altersquotient; BS, BL und JU",
+		"title": "Entwicklung Altersquotient; BS, BL und JU",
 		"subtitle": "Personen ab 64 Jahre je 100 20- bis 64-Jährige",
 		"kuerzel": "",
 		"kuerzelKunde": "2.3-5",
-		"description": "Altersquotient; BS, BL und JU",
+		"description": "Entwicklung Altersquotient; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1192,11 +1192,11 @@ var indikatorensetData = [
 		"id": 8435
 	},
 	{
-		"title": "Altersquotient; BS/BL/JU und Schweiz",
+		"title": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"subtitle": "Personen ab 64 Jahre je 100 20- bis 64-Jährige",
 		"kuerzel": "",
 		"kuerzelKunde": "2.3-6",
-		"description": "Altersquotient; BS/BL/JU und Schweiz",
+		"description": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1443,11 +1443,11 @@ var indikatorensetData = [
 		"id": 8441
 	},
 	{
-		"title": "Monatliche Arbeitslosenquoten",
+		"title": "Entwicklung Monatliche Arbeitslosenquoten",
 		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "2.1-4",
-		"description": "Monatliche Arbeitslosenquoten",
+		"description": "Entwicklung Monatliche Arbeitslosenquoten",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -1696,11 +1696,11 @@ var indikatorensetData = [
 		"id": 8447
 	},
 	{
-		"title": "Entwicklung der Importe",
+		"title": "Entwicklung Importe",
 		"subtitle": "indexiert (2014 = 100)",
 		"kuerzel": "I.06.4.08462",
 		"kuerzelKunde": "4.1-3",
-		"description": "Entwicklung der Importe",
+		"description": "Entwicklung Importe",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
