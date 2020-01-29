@@ -46,7 +46,7 @@
         .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
           .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
           .replace('Eigentümer', 'Eigentümer-<br>')
-          .replace('Mietwohnungen', 'Mietwohn-<br>ungen');
+          .replace('Mietwohnungen', 'Miet-<br>wohnungen');
       }
     },
     "series": [
