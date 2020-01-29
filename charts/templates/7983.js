@@ -10,12 +10,12 @@
                             var x = 0, y = 0;
                             switch (point.name) {
                                 //case 'CH': case 'Schweiz':        x = 0; y = 0; break; //ent-kommentieren falls gewünscht
-                                case 'DE': case 'Deutschland':    x = 10; y = 0; break;
+                                case 'DE': case 'Deutschland':    x = 10; y = -3; break;
                                 //case 'US': case 'USA':            x = 0; y = 0; break;
                                 case 'GB': case 'UK': x = 20; y = 40; break;
-                                case 'FR': case 'Frankreich': x = 12; y = 0; break;
+                                case 'FR': case 'Frankreich': x = 12; y = -3; break;
                                 case 'IT': case 'Italien': x = 12; y = 40; break;
-                                case 'ES': case 'Spanien': x = -20; y = 15; break;
+                                case 'ES': case 'Spanien': x = -20; y = 12; break;
                                 case 'NL': case 'Niederlande': x = -11; y = 35; break;
                                 //case 'CN': case 'VR China':       x = 0; y = 0; break;
                                 case 'IN': case 'Indien': x = 0; y = 3; break;
