@@ -688,7 +688,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8531"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -1234,7 +1236,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8545"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -1432,7 +1436,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8550"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2803,7 +2809,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8586"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2842,7 +2850,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8587"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2960,7 +2970,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8592"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
