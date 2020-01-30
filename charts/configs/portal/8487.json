@@ -169,6 +169,7 @@
                     }
                 }
     },
+    "marginBottom": 35,
     "type": "column",
     "renderTo": "container-8487",
     "spacingBottom": 22

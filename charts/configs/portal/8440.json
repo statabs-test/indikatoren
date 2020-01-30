@@ -215,7 +215,10 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "formatter": function() {
+          return this.point.key.replace("Dienstleistungen","Dienst-<br/>leistungen");
+        }
     }
   },
   "navigation": {
@@ -244,7 +247,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 120,
     "itemDistance": 5,
     "enabled": true,
     "layout": "horizontal",
