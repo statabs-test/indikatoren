@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#6F6F6F",
+      "color": "#FF8028",
       "marker": {
         "enabled": false
       },
@@ -50,7 +50,7 @@
       "name": "0-7 J."
     },
     {
-      "color": "#007A2F",
+      "color": "#B375AB",
       "visible": true,
       "marker": {
         "enabled": false
@@ -100,7 +100,7 @@
       "name": "8-12 J."
     },
     {
-      "color": "#4f81bd",
+      "color": "#68AB2B",
       "visible": true,
       "marker": {
         "enabled": false
@@ -150,7 +150,7 @@
       "name": "13-15 J."
     },
     {
-      "color": "#662673",
+      "color": "#FABD24",
       "visible": true,
       "marker": {
         "enabled": false
@@ -200,7 +200,7 @@
       "name": "16-17 J."
     },
     {
-      "color": "#662673",
+      "color": "#0F7399",
       "visible": true,
       "marker": {
         "enabled": false
