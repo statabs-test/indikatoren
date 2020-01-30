@@ -27,6 +27,10 @@
         [
           "2016",
           3280.2
+        ],
+        [
+          "2017",
+          3327.3
         ]
       ],
       "name": "Pflegeheime",
@@ -59,6 +63,10 @@
         [
           "2016",
           137.8
+        ],
+        [
+          "2017",
+          140.6
         ]
       ],
       "name": "Institutionen für Suchtkranke, psychosoziale Fälle",
@@ -91,6 +99,10 @@
         [
           "2016",
           238.9
+        ],
+        [
+          "2017",
+          246.1
         ]
       ],
       "name": "Altersheime",
@@ -123,6 +135,10 @@
         [
           "2016",
           643.1
+        ],
+        [
+          "2017",
+          685.7
         ]
       ],
       "name": "Institutionen für Behinderte",
@@ -155,6 +171,10 @@
         [
           "2016",
           317.7
+        ],
+        [
+          "2017",
+          324.2
         ]
       ],
       "name": "Wohnheime für Kinder und Jugendliche",
@@ -187,6 +207,10 @@
         [
           "2016",
           713.6
+        ],
+        [
+          "2017",
+          734.8
         ]
       ],
       "name": "Soziale Betreuung älterer Menschen und Behinderter",
@@ -219,6 +243,10 @@
         [
           "2016",
           1133.6
+        ],
+        [
+          "2017",
+          1132.3
         ]
       ],
       "name": "Tagesbetreuung von Kindern",
@@ -251,6 +279,10 @@
         [
           "2016",
           1462.5
+        ],
+        [
+          "2017",
+          1565
         ]
       ],
       "name": "Sonstiges",

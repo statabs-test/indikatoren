@@ -5,77 +5,6 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.065
-        ],
-        [
-          "Chemie, Pharma",
-          0.026
-        ],
-        [
-          "Baugewerbe",
-          0.127
-        ],
-        [
-          "Handel, Reparatur",
-          0.04
-        ],
-        [
-          "Verkehr, Lagerei",
-          0.046
-        ],
-        [
-          "Gastgewerbe",
-          0.079
-        ],
-        [
-          "Information, Kommunikation",
-          0.036
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.032
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.036
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.074
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.022
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.026
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.022
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.027
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.039
-        ],
-        [
-          "Total",
-          0.039
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
           0.054
         ],
         [
@@ -143,7 +72,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -211,6 +140,77 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.05
+        ],
+        [
+          "Chemie, Pharma",
+          0.019
+        ],
+        [
+          "Baugewerbe",
+          0.111
+        ],
+        [
+          "Handel, Reparatur",
+          0.033
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.039
+        ],
+        [
+          "Gastgewerbe",
+          0.069
+        ],
+        [
+          "Information, Kommunikation",
+          0.04
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.028
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.028
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.053
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.027
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.018
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.016
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.026
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.03
+        ],
+        [
+          "Total",
+          0.031
+        ]
+      ],
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
