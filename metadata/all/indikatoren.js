@@ -41540,7 +41540,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,5% im Jahresdurchschnitt 2017 auf 3,9% im Jahr 2018. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,3% 2018). Die Arbeitslosenquote der Personen zwischen 50 und 59 Jahren sowie ab 60 ging ebenfalls zurück und lag wie in der Vergangenheit deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% im Jahresdurchschnitt 2018 auf 3,2% im Jahr 2019. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,0% 2019). Die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahre veränderten sich kaum und lagen wie in der Vergangenheit deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -41548,7 +41548,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8522"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -41574,13 +41576,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2020-01-14T15:41:01.011",
 		"stufe1": "Kapitel 1",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2018 beträgt die Arbeitslosenquote der ausländischen Männer 5,6% (im Sommer lag sie bei 4,1%). Gegenüber Dezember 2017 hat sie sich kaum verändert.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2019 beträgt die Arbeitslosenquote der ausländischen Männer 5,3% (im Sommer lag sie bei 4,0%). Gegenüber Dezember 2018 sind die Arbeitslosenquoten sowohl bei den Männern als auch bei den Frauen rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -45104,7 +45106,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8613"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
