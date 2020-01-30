@@ -2960,6 +2960,45 @@ var indikatorensetData = [
 		"id": 8317
 	},
 	{
+		"title": "Median des Reinvermögens",
+		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
+		"kuerzel": "I.18.2.08318",
+		"kuerzelKunde": "",
+		"description": "Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-06-04T11:06:30.3030",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.2 Stadtentwicklung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 6905,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6905,
+		"chart-id": 6905,
+		"filter": "",
+		"id": 8318
+	},
+	{
 		"title": "Altersquotient",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08320",

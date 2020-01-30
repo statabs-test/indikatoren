@@ -1113,6 +1113,7 @@ var templatesById = {
 	"8315": "befragungenGrundauswertung001",
 	"8316": "befragungenGrundauswertung001",
 	"8317": "map001",
+	"8318": "line001",
 	"8320": "mappie001",
 	"8321": "befragungenGrundauswertung001",
 	"8322": "befragungenGrundauswertung001",
