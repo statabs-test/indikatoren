@@ -44,6 +44,7 @@
       "shared": false
     },
     "chart": {
+      marginBottom: 35,
       "type": "column",
     }
   }
