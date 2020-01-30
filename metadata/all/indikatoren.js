@@ -41782,7 +41782,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2010 wurden im Kanton Basel-Stadt 11 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44, dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück, 2019 waren es noch 11. Nach Alter betrachtet, bildeten in den Jahren 2010 bis 2017 sowie 2019 jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. 2018 waren die 8- bis 12-Jährigen am zahlreichsten (4 Personen).",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -41944,7 +41944,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellt mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
 		"erlaeuterungen": "Der Indikator basisert auf fünf Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittlerer bis schwerer psychischer Belastung an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -41952,7 +41952,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8534"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -41984,7 +41986,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 8.1% der Befragten an unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"lesehilfe": "Im Jahr 2017 gaben 8.1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
 		"erlaeuterungen": "Der Indikator basisert auf neun Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -41992,7 +41994,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8535"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -42024,7 +42028,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
 		"erlaeuterungen": "Der Indikator basisert auf einem Item aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen an, welche auf die Frage \"Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?\" mit \"manchmal\", \"ziemlich häufig\" oder \"sehr häufig\" antworten.Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -42032,7 +42036,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8536"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -42453,7 +42459,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08276",
 		"kuerzelKunde": "",
 		"description": "Jugendquotient",
@@ -42463,14 +42469,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-30T16:19:46.4646",
+		"aktualisierungsdatum": "2020-01-28T16:08:37.3737",
 		"stufe1": "Kapitel 2",
 		"stufe2": "2.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -42509,15 +42515,17 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018mit  60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den tiefsten Anteil an Familienhaushalten findet man im Wohnviertel Altstadt Kleinbasel (25%).",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018 mit 60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Der geringste Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teil) mit volljährigen Kindern.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8548"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -43940,7 +43948,7 @@ var indikatoren = [
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.3.08314",
 		"kuerzelKunde": "",
-		"description": "Index der Wohnviertel 2011, 2015, 2018",
+		"description": "Index der Wohnviertel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -43953,7 +43961,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bruderhol weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
+		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
 		"erlaeuterungen": "Aus fünf ausgewählten Indikatoren wird ein Index berechnet, welcher Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit erlaubt. Bei den ausgewählten Indikatoren handelt es sich um den Anteil fremdsprachiger Personen, den Median des Reineinkommens, die Arbeitslosenquote, die Sozialhilfequote sowie die Prämienverbilligungsquote. Der Index wird mittels Hauptkomponentenanalyse ermittelt. Dieses Verfahren wird unter anderem zur Bildung von Indizes aus Datensätzen mit mehreren Variablen verwendet. Der resultierende Index kann als gewichtetes Mittel der oben genannten Indikatoren interpretiert werden. Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel, desto höher ist der Indexwert. Die absoluten Werte des Index für die einzelnen Wohnviertel haben keine direkte intuitive Bedeutung. Allerdings kann die Streuung der Werte über die Zeit interpretiert werden: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf verwendeten Variablen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -43961,7 +43969,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8585"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -44106,7 +44116,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08320",
 		"kuerzelKunde": "",
 		"description": "Altersquotient",
@@ -44123,15 +44133,17 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": 5114,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"5114"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
