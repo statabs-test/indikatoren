@@ -17,9 +17,6 @@
     "yAxis": {
       "labels": {
         "format": "{value:,.0f}",
-        "formatter": function() {
-          return this.point.key.replace("Dienstleistungen","Dienst-<br/>leistungen");
-        }
       }
     },
     "series": [

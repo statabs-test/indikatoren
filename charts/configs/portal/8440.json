@@ -215,10 +215,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "formatter": function() {
-          return this.point.key.replace("Dienstleistungen","Dienst-<br/>leistungen");
-        }
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {
