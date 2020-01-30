@@ -23,5 +23,6 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien",
 	"CMS Kennzahlen Soziales",
 	"Wirtschaftsbericht BS_BL_JU",
+	"CMS Kennzahlen Soziales (Print)",
 	"Test"
 ];

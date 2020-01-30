@@ -1,0 +1,585 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie",
+          77.9
+        ],
+        [
+          "Zweielternfamilie",
+          70.7
+        ],
+        [
+          "Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind",
+          72.6
+        ],
+        [
+          "2 Kinder",
+          70.5
+        ],
+        [
+          "3 Kinder u.m.",
+          72.5
+        ],
+        [
+          "Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre",
+          69.3
+        ],
+        [
+          "5-8 Jahre",
+          74.7
+        ],
+        [
+          "9-12 Jahre",
+          69.7
+        ],
+        [
+          "13-17 Jahre",
+          74
+        ],
+        [
+          "Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule",
+          66.7
+        ],
+        [
+          "Sekundarstufe II",
+          75.4
+        ],
+        [
+          "Tertiärstufe",
+          70
+        ],
+        [
+          "Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt",
+          71.3
+        ],
+        [
+          "ch\u002Fdt und andere",
+          73.6
+        ],
+        [
+          "nur andere",
+          68.3
+        ],
+        [
+          "Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          77.5
+        ],
+        [
+          "3000-7499 Fr.",
+          73.6
+        ],
+        [
+          "\u003E7499 Fr.",
+          69.8
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          71.6
+        ],
+        [
+          "Grossbasel West",
+          71.8
+        ],
+        [
+          "Kleinbasel",
+          72.1
+        ],
+        [
+          "Riehen, Bettingen",
+          71.9
+        ],
+        [
+          "Befragungsjahr",
+          null
+        ],
+        [
+          "2009",
+          71.7
+        ],
+        [
+          "2013",
+          72.7
+        ],
+        [
+          "2017",
+          71.7
+        ]
+      ],
+      "name": "Ja",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58 ",
+      "index": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie",
+          17.6
+        ],
+        [
+          "Zweielternfamilie",
+          25.7
+        ],
+        [
+          "Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind",
+          23.3
+        ],
+        [
+          "2 Kinder",
+          25.6
+        ],
+        [
+          "3 Kinder u.m.",
+          23.5
+        ],
+        [
+          "Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre",
+          26.1
+        ],
+        [
+          "5-8 Jahre",
+          22.8
+        ],
+        [
+          "9-12 Jahre",
+          27.1
+        ],
+        [
+          "13-17 Jahre",
+          22.1
+        ],
+        [
+          "Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule",
+          18.1
+        ],
+        [
+          "Sekundarstufe II",
+          20.3
+        ],
+        [
+          "Tertiärstufe",
+          27.6
+        ],
+        [
+          "Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt",
+          26.3
+        ],
+        [
+          "ch\u002Fdt und andere",
+          22.3
+        ],
+        [
+          "nur andere",
+          22
+        ],
+        [
+          "Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          11.7
+        ],
+        [
+          "3000-7499 Fr.",
+          21
+        ],
+        [
+          "\u003E7499 Fr.",
+          28.7
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          24.8
+        ],
+        [
+          "Grossbasel West",
+          24.6
+        ],
+        [
+          "Kleinbasel",
+          22.9
+        ],
+        [
+          "Riehen, Bettingen",
+          25.3
+        ],
+        [
+          "Befragungsjahr",
+          null
+        ],
+        [
+          "2009",
+          21.2
+        ],
+        [
+          "2013",
+          22.3
+        ],
+        [
+          "2017",
+          24.4
+        ]
+      ],
+      "name": "Nein",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie",
+          4.4
+        ],
+        [
+          "Zweielternfamilie",
+          3.6
+        ],
+        [
+          "Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind",
+          4.1
+        ],
+        [
+          "2 Kinder",
+          3.9
+        ],
+        [
+          "3 Kinder u.m.",
+          4
+        ],
+        [
+          "Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre",
+          4.6
+        ],
+        [
+          "5-8 Jahre",
+          2.5
+        ],
+        [
+          "9-12 Jahre",
+          3.2
+        ],
+        [
+          "13-17 Jahre",
+          3.9
+        ],
+        [
+          "Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule",
+          15.2
+        ],
+        [
+          "Sekundarstufe II",
+          4.3
+        ],
+        [
+          "Tertiärstufe",
+          2.4
+        ],
+        [
+          "Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt",
+          2.4
+        ],
+        [
+          "ch\u002Fdt und andere",
+          4.1
+        ],
+        [
+          "nur andere",
+          9.8
+        ],
+        [
+          "Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3000 Fr.",
+          10.8
+        ],
+        [
+          "3000-7499 Fr.",
+          5.3
+        ],
+        [
+          "\u003E7499 Fr.",
+          1.5
+        ],
+        [
+          "Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          3.6
+        ],
+        [
+          "Grossbasel West",
+          3.6
+        ],
+        [
+          "Kleinbasel",
+          5.1
+        ],
+        [
+          "Riehen, Bettingen",
+          2.8
+        ],
+        [
+          "Befragungsjahr",
+          null
+        ],
+        [
+          "2009",
+          7.1
+        ],
+        [
+          "2013",
+          5
+        ],
+        [
+          "2017",
+          4
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "inverted": true,
+    "width": 485,
+    "height": 713,
+    "marginLeft": 170,
+    "marginRight": 25,
+    "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "renderTo": "container-8262"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Gesundheitliche Unterstützung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "max": 100,
+    "labels": {
+      "format": "{value}%",
+      "rotation": 0,
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
+  },
+  "legend": {
+    "enabled": true,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "reversed": true,
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 115,
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
+  },
+  "exporting": {
+    "filename": 8262
+  }
+}

@@ -34,8 +34,8 @@
           11.9
         ],
         [
-          "Tessin",
-          29.1
+          "Schweiz",
+          17.7
         ]
       ],
       "name": "Zahlungsrückstand",
@@ -81,9 +81,9 @@
           "high": 15.6
         },
         {
-          "name": "Tessin",
-          "low": 19.8,
-          "high": 38.4
+          "name": "Schweiz",
+          "low": 16.2,
+          "high": 19.2
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",
@@ -123,8 +123,8 @@
           4.4
         ],
         [
-          "Tessin",
-          11.5
+          "Schweiz",
+          9
         ]
       ],
       "name": "Konto- oder Kreditkartenüberziehung",
@@ -170,9 +170,9 @@
           "high": 6.4
         },
         {
-          "name": "Tessin",
-          "low": 5.5,
-          "high": 17.4
+          "name": "Schweiz",
+          "low": 7.8,
+          "high": 10.2
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",

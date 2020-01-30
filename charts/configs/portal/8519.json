@@ -1,0 +1,406 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#A8C3CA",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Genferseeregion",
+          26.3
+        ],
+        [
+          "Mittelland",
+          18.9
+        ],
+        [
+          "Nordwestschweiz",
+          15.1
+        ],
+        [
+          "Zürich",
+          12
+        ],
+        [
+          "Ostschweiz",
+          14.2
+        ],
+        [
+          "Zentralschweiz",
+          11.9
+        ],
+        [
+          "Schweiz",
+          17.7
+        ]
+      ],
+      "name": "Zahlungsrückstand",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Genferseeregion",
+          "low": 21.3,
+          "high": 31.3
+        },
+        {
+          "name": "Mittelland",
+          "low": 16.4,
+          "high": 21.4
+        },
+        {
+          "name": "Nordwestschweiz",
+          "low": 12,
+          "high": 18.2
+        },
+        {
+          "name": "Zürich",
+          "low": 9.1,
+          "high": 14.9
+        },
+        {
+          "name": "Ostschweiz",
+          "low": 10.5,
+          "high": 17.9
+        },
+        {
+          "name": "Zentralschweiz",
+          "low": 8.2,
+          "high": 15.6
+        },
+        {
+          "name": "Schweiz",
+          "low": 16.2,
+          "high": 19.2
+        }
+      ],
+      "name": "95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#FABD24",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Genferseeregion",
+          12.3
+        ],
+        [
+          "Mittelland",
+          8.1
+        ],
+        [
+          "Nordwestschweiz",
+          10
+        ],
+        [
+          "Zürich",
+          9.9
+        ],
+        [
+          "Ostschweiz",
+          6.4
+        ],
+        [
+          "Zentralschweiz",
+          4.4
+        ],
+        [
+          "Schweiz",
+          9
+        ]
+      ],
+      "name": "Konto- oder Kreditkartenüberziehung",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Genferseeregion",
+          "low": 9.4,
+          "high": 15.2
+        },
+        {
+          "name": "Mittelland",
+          "low": 5.7,
+          "high": 10.4
+        },
+        {
+          "name": "Nordwestschweiz",
+          "low": 7.2,
+          "high": 12.8
+        },
+        {
+          "name": "Zürich",
+          "low": 5.8,
+          "high": 14
+        },
+        {
+          "name": "Ostschweiz",
+          "low": 3.8,
+          "high": 9.1
+        },
+        {
+          "name": "Zentralschweiz",
+          "low": 2.3,
+          "high": 6.4
+        },
+        {
+          "name": "Schweiz",
+          "low": 7.8,
+          "high": 10.2
+        }
+      ],
+      "name": "95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false) {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-8519",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Grossregion, 2013",
+    "align": "left",
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 10,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        }
+    },
+    "tickDistance": 10,
+    "max": 40
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemDistance": 5,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": 8519
+  }
+}

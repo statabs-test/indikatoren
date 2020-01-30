@@ -3,50 +3,50 @@
     {
       "color": "#007A2F",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 5,
       "data": [
         [
-          "",
-          "Sehr zufrieden"
+          "*Haushaltsform",
+          null
         ],
         [
-          "Einpersonenhaushalt",
+          "Einpersonen-HH",
           26.3
         ],
         [
-          "Mehrpersonenhaushalt",
+          "Mehrpersonen-HH",
           31.3
         ],
         [
-          " ",
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          33.9
-        ],
-        [
-          "Weiblich",
           24.2
         ],
         [
-          "  ",
+          "Weiblich",
+          33.9
+        ],
+        [
+          "*Alter",
           null
         ],
         [
-          "55-64",
+          "55-64 Jahre",
           36.5
         ],
         [
-          "65-74",
+          "65-74 Jahre",
           27.2
         ],
         [
-          "\u003E74",
+          "\u003E74 Jahre",
           25.3
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -58,23 +58,23 @@
           27.1
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           28.4
         ],
         [
-          "5000- 7499 Fr.",
+          "5 000-7 499 Fr.",
           28.7
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           34.3
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
@@ -94,7 +94,7 @@
           30.6
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -106,56 +106,56 @@
           29.5
         ]
       ],
-      "name": "undefined",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
       "color": "#73BA7C",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 4,
       "data": [
         [
-          "",
-          "Eher zufrieden"
+          "*Haushaltsform",
+          null
         ],
         [
-          "Einpersonenhaushalt",
+          "Einpersonen-HH",
           49.8
         ],
         [
-          "Mehrpersonenhaushalt",
+          "Mehrpersonen-HH",
           50.8
         ],
         [
-          " ",
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          46
-        ],
-        [
-          "Weiblich",
           55.8
         ],
         [
-          "  ",
+          "Weiblich",
+          46
+        ],
+        [
+          "*Alter",
           null
         ],
         [
-          "55-64",
+          "55-64 Jahre",
           48
         ],
         [
-          "65-74",
+          "65-74 Jahre",
           55.2
         ],
         [
-          "\u003E74",
+          "\u003E74 Jahre",
           48.2
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -167,23 +167,23 @@
           51.4
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           49.2
         ],
         [
-          "5000- 7499 Fr.",
+          "5 000-7 499 Fr.",
           53.2
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           49
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
@@ -203,7 +203,7 @@
           51.6
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -215,56 +215,56 @@
           50.5
         ]
       ],
-      "name": "undefined",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
       "color": "#FFBB58",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
-          "",
-          "Eher unzufrieden"
+          "*Haushaltsform",
+          null
         ],
         [
-          "Einpersonenhaushalt",
+          "Einpersonen-HH",
           9.9
         ],
         [
-          "Mehrpersonenhaushalt",
+          "Mehrpersonen-HH",
           10
         ],
         [
-          " ",
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          8.1
-        ],
-        [
-          "Weiblich",
           12.4
         ],
         [
-          "  ",
+          "Weiblich",
+          8.1
+        ],
+        [
+          "*Alter",
           null
         ],
         [
-          "55-64",
+          "55-64 Jahre",
           9.2
         ],
         [
-          "65-74",
+          "65-74 Jahre",
           8.2
         ],
         [
-          "\u003E74",
+          "\u003E74 Jahre",
           12.3
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -276,23 +276,23 @@
           13.1
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           8.9
         ],
         [
-          "5000- 7499 Fr.",
+          "5 000-7 499 Fr.",
           10.7
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           10
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
@@ -312,7 +312,7 @@
           9.1
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -324,56 +324,56 @@
           10
         ]
       ],
-      "name": "undefined",
+      "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
       "color": "#FF8028",
       "index": 3,
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
-          "",
-          "Sehr unzufrieden"
+          "*Haushaltsform",
+          null
         ],
         [
-          "Einpersonenhaushalt",
+          "Einpersonen-HH",
           2.6
         ],
         [
-          "Mehrpersonenhaushalt",
+          "Mehrpersonen-HH",
           1.1
         ],
         [
-          " ",
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          2
-        ],
-        [
-          "Weiblich",
           1.1
         ],
         [
-          "  ",
+          "Weiblich",
+          2
+        ],
+        [
+          "*Alter",
           null
         ],
         [
-          "55-64",
+          "55-64 Jahre",
           0.4
         ],
         [
-          "65-74",
+          "65-74 Jahre",
           2.3
         ],
         [
-          "\u003E74",
+          "\u003E74 Jahre",
           2.2
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
@@ -385,23 +385,23 @@
           1.9
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
+          "\u003C5 000 Fr.",
           1.8
         ],
         [
-          "5000- 7499 Fr.",
+          "5 000-7 499 Fr.",
           1.5
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr.",
           1.6
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
@@ -421,7 +421,7 @@
           1.6
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -433,116 +433,225 @@
           1.6
         ]
       ],
-      "name": "undefined",
+      "name": "Sehr unzufrieden",
       "turboThreshold": 0
     },
     {
       "color": "#C8C8C8",
       "index": 4,
-      "legendIndex": 4,
+      "legendIndex": 1,
       "data": [
         [
-          "",
-          "Weiss nicht \u002F keine Angabe"
+          "*Haushaltsform",
+          null
         ],
         [
-          "Einpersonenhaushalt",
-          11.5
+          "Einpersonen-HH",
+          6.3
         ],
         [
-          "Mehrpersonenhaushalt",
-          6.8
+          "Mehrpersonen-HH",
+          3.7
         ],
         [
-          " ",
+          "*Geschlecht",
           null
         ],
         [
           "Männlich",
-          10
+          3.5
         ],
         [
           "Weiblich",
-          6.4
+          5.4
         ],
         [
-          "  ",
+          "*Alter",
           null
         ],
         [
-          "55-64",
-          5.9
+          "55-64 Jahre",
+          3.8
         ],
         [
-          "65-74",
-          7.2
+          "65-74 Jahre",
+          3.4
         ],
         [
-          "\u003E74",
-          12.1
+          "\u003E74 Jahre",
+          6.5
         ],
         [
-          "   ",
+          "*Staatsangehörigkeit",
           null
         ],
         [
           "Schweiz",
-          8.6
+          4.7
         ],
         [
           "Ausland",
-          6.5
+          3.7
         ],
         [
-          "    ",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5000 Fr.",
-          11.6
+          "\u003C5 000 Fr.",
+          6.3
         ],
         [
-          "5000- 7499 Fr.",
-          5.8
+          "5 000-7 499 Fr.",
+          3.4
         ],
         [
-          "\u003E7499 Fr.",
-          5.1
+          "\u003E7 499 Fr.",
+          2.4
         ],
         [
-          "     ",
+          "*Wahlkreis",
           null
         ],
         [
           "Grossbasel Ost",
-          10.9
+          6.2
         ],
         [
           "Grossbasel West",
-          7.1
+          4.8
         ],
         [
           "Kleinbasel",
-          6.9
+          2.1
         ],
         [
           "Riehen, Bettingen",
-          7.1
+          3.6
         ],
         [
-          "      ",
+          "*Befragungsjahr",
           null
         ],
         [
           "2011",
-          11.4
+          5.5
         ],
         [
           "2015",
-          8.5
+          4.6
         ]
       ],
-      "name": "undefined",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH",
+          5.1
+        ],
+        [
+          "Mehrpersonen-HH",
+          3.1
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          2.9
+        ],
+        [
+          "Weiblich",
+          4.5
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre",
+          2.1
+        ],
+        [
+          "65-74 Jahre",
+          3.8
+        ],
+        [
+          "\u003E74 Jahre",
+          5.6
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          4
+        ],
+        [
+          "Ausland",
+          2.8
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr.",
+          5.4
+        ],
+        [
+          "5 000-7 499 Fr.",
+          2.4
+        ],
+        [
+          "\u003E7 499 Fr.",
+          2.7
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost",
+          4.7
+        ],
+        [
+          "Grossbasel West",
+          2.3
+        ],
+        [
+          "Kleinbasel",
+          4.9
+        ],
+        [
+          "Riehen, Bettingen",
+          3.6
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011",
+          5.9
+        ],
+        [
+          "2015",
+          3.9
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -559,47 +668,50 @@
     },
     "labels": {
       "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
       "style": {
         "color": "#000000",
         "width": 1,
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
-      "formatter": function() {
-                return this.value.replace(" ", " ");
-            },
-      "align": "left",
-      "x": -120
+      "formatter": function () {
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
-                  }
-                );
-              }              
-            }
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "inverted": true,
     "width": 485,
-    "height": 513,
+    "height": 713,
+    "marginLeft": 170,
+    "marginRight": 25,
     "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "marginLeft": 150,
-    "inverted": true,
     "renderTo": "container-8324"
   },
   "title": {
@@ -649,15 +761,14 @@
       },
       "text": null
     },
+    "max": 100,
     "labels": {
       "format": "{value}%",
+      "rotation": 0,
       "style": {
         "color": "#000000"
-      },
-      "type": "category",
-      "rotation": 0
-    },
-    "max": 100
+      }
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -679,11 +790,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
+    "enabled": true,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -692,8 +807,8 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "exporting": {
     "filename": 8324

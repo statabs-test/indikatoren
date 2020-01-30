@@ -313,6 +313,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 25,
     "renderTo": "container-8278"
   },
   "title": {
