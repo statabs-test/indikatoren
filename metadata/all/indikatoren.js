@@ -49733,46 +49733,6 @@ var indikatoren = [
 		"id": 8687
 	},
 	{
-		"title": "Beschäftigung in der Branche Private Haushaltsdienstleistungen",
-		"subtitle": "",
-		"kuerzel": "I.03.2.08688",
-		"kuerzelKunde": "4.6-01",
-		"description": "Beschäftigung in der Branche Private Haushaltsdienstleistungen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_06_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8688,
-		"chart-id": 8688,
-		"filter": "",
-		"id": 8688
-	},
-	{
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "",
 		"kuerzel": "I.03.4.08689",
