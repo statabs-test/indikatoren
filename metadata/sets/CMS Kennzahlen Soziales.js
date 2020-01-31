@@ -447,14 +447,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,5% im Jahresdurchschnitt 2017 auf 3,9% im Jahr 2018. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,3% 2018). Die Arbeitslosenquote der Personen zwischen 50 und 59 Jahren sowie ab 60 ging ebenfalls zurück und lag wie in der Vergangenheit deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% im Jahresdurchschnitt 2018 auf 3,2% im Jahr 2019. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,0% 2019). Die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahre veränderten sich kaum und lagen wie in der Vergangenheit deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8522"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -480,13 +482,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2020-01-14T15:41:01.011",
 		"stufe1": "Kapitel 1",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2018 beträgt die Arbeitslosenquote der ausländischen Männer 5,6% (im Sommer lag sie bei 4,1%). Gegenüber Dezember 2017 hat sie sich kaum verändert.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2019 beträgt die Arbeitslosenquote der ausländischen Männer 5,3% (im Sommer lag sie bei 4,0%). Gegenüber Dezember 2018 sind die Arbeitslosenquoten sowohl bei den Männern als auch bei den Frauen rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -597,15 +599,15 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:16:58.5858",
+		"aktualisierungsdatum": "2020-01-21T13:06:39.3939",
 		"stufe1": "Kapitel 1",
 		"stufe2": "1.3 Asylsuchende/Migrant/innen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2018:&nbsp;43&nbsp;039) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2018:&nbsp;25&nbsp;416). Von 1999 (644) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2018:&nbsp;2&nbsp;069).",
+		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendentiell wieder ab und liegt seit 2015 bei etwa 2&nbsp;000 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
-		"template": "template001",
+		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
@@ -665,7 +667,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Minderjährige unbegleitete Flüchtlinge",
-		"subtitle": "Basel-Stadt, 2010",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08258",
 		"kuerzelKunde": "",
 		"description": "Minderjährige unbegleitete Flüchtlinge",
@@ -841,14 +843,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellt mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
 		"erlaeuterungen": "Der Indikator basisert auf fünf Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittlerer bis schwerer psychischer Belastung an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8534"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -880,14 +884,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 8.1% der Befragten an unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"lesehilfe": "Im Jahr 2017 gaben 8.1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
 		"erlaeuterungen": "Der Indikator basisert auf neun Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8535"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -919,14 +925,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
 		"erlaeuterungen": "Der Indikator basisert auf einem Item aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen an, welche auf die Frage \"Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?\" mit \"manchmal\", \"ziemlich häufig\" oder \"sehr häufig\" antworten.Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8536"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
@@ -1337,7 +1345,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08276",
 		"kuerzelKunde": "",
 		"description": "Jugendquotient",
@@ -1347,14 +1355,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-30T16:19:46.4646",
+		"aktualisierungsdatum": "2020-01-28T16:08:37.3737",
 		"stufe1": "Kapitel 2",
 		"stufe2": "2.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -1392,14 +1400,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018mit  60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den tiefsten Anteil an Familienhaushalten findet man im Wohnviertel Altstadt Kleinbasel (25%).",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018 mit 60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Der geringste Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teil) mit volljährigen Kindern.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8548"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2787,7 +2797,7 @@ var indikatorensetData = [
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.3.08314",
 		"kuerzelKunde": "",
-		"description": "Index der Wohnviertel 2011, 2015, 2018",
+		"description": "Index der Wohnviertel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -2800,14 +2810,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bruderhol weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
+		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
 		"erlaeuterungen": "Aus fünf ausgewählten Indikatoren wird ein Index berechnet, welcher Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit erlaubt. Bei den ausgewählten Indikatoren handelt es sich um den Anteil fremdsprachiger Personen, den Median des Reineinkommens, die Arbeitslosenquote, die Sozialhilfequote sowie die Prämienverbilligungsquote. Der Index wird mittels Hauptkomponentenanalyse ermittelt. Dieses Verfahren wird unter anderem zur Bildung von Indizes aus Datensätzen mit mehreren Variablen verwendet. Der resultierende Index kann als gewichtetes Mittel der oben genannten Indikatoren interpretiert werden. Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel, desto höher ist der Indexwert. Die absoluten Werte des Index für die einzelnen Wohnviertel haben keine direkte intuitive Bedeutung. Allerdings kann die Streuung der Werte über die Zeit interpretiert werden: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf verwendeten Variablen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8585"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -2948,8 +2960,47 @@ var indikatorensetData = [
 		"id": 8317
 	},
 	{
+		"title": "Median des Reinvermögens",
+		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
+		"kuerzel": "I.18.2.08318",
+		"kuerzelKunde": "",
+		"description": "Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-06-04T11:06:30.3030",
+		"stufe1": "Kapitel 3",
+		"stufe2": "3.2 Stadtentwicklung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 6905,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6905,
+		"chart-id": 6905,
+		"filter": "",
+		"id": 8318
+	},
+	{
 		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08320",
 		"kuerzelKunde": "",
 		"description": "Altersquotient",
@@ -2966,14 +3017,16 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": 5114,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"5114"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -3832,7 +3885,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8613"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#6F6F6F",
+      "color": "#FF8028",
       "marker": {
         "enabled": false
       },
@@ -50,7 +50,7 @@
       "name": "0-7 J."
     },
     {
-      "color": "#007A2F",
+      "color": "#B375AB",
       "visible": true,
       "marker": {
         "enabled": false
@@ -100,7 +100,7 @@
       "name": "8-12 J."
     },
     {
-      "color": "#4f81bd",
+      "color": "#68AB2B",
       "visible": true,
       "marker": {
         "enabled": false
@@ -150,7 +150,7 @@
       "name": "13-15 J."
     },
     {
-      "color": "#662673",
+      "color": "#FABD24",
       "visible": true,
       "marker": {
         "enabled": false
@@ -200,7 +200,7 @@
       "name": "16-17 J."
     },
     {
-      "color": "#662673",
+      "color": "#0F7399",
       "visible": true,
       "marker": {
         "enabled": false
@@ -295,12 +295,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2010",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
