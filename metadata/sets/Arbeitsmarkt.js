@@ -3180,7 +3180,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe2": "Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3189,7 +3189,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_06_00_00_00_000",
+		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"7494"
@@ -3221,7 +3221,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe2": "Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3230,7 +3230,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_06_00_00_00_000",
+		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"7495"
@@ -3262,7 +3262,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe2": "Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3271,7 +3271,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_06_00_00_00_000",
+		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"7496"
@@ -3304,7 +3304,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe2": "Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3313,7 +3313,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_06_00_00_00_000",
+		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"7497"
