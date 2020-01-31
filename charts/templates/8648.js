@@ -3,7 +3,7 @@
     "chart": {
       //"marginBottom": 65,
       //"marginTop": 75,
-      marginRight: 10,
+      marginRight: 15,
       "type": "column",
       "inverted": true
     },
@@ -96,6 +96,7 @@
     },
     "yAxis": {
       tickInterval: 0.1,
+      max: 0.7,
       "labels": {
         y: 12,
         "formatter": function () {

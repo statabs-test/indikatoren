@@ -50,7 +50,7 @@
                 }
             },
             plotLines: [{
-                value: 0,
+                value: -0.5,
                 color: 'white',
                 width: 1,
                 zIndex: 4

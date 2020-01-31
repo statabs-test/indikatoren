@@ -67,7 +67,7 @@
       alignColumns: false,
       useHTML: true,
       y: -25,
-      x: -21,
+      x: -17,
       itemMarginBottom: 2,
       align: "right",
       width: 160,

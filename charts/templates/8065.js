@@ -1,12 +1,21 @@
 (function () {
   return {
+    "plotOptions": {
+      "line": {
+        "connectNulls": true,
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
+        }
+      }
+    },
+    xAxis: {
+      tickInterval: 1
+    },
     "yAxis": {
       "labels": {
         "format": "{value:,.0f}%"
       }
-    },
-    "xAxis": {
-      "type": "category",
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
@@ -29,17 +38,8 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
-    },
-    "plotOptions": {
-      "line": {
-        "connectNulls": true,
-        "marker": {
-          "enabled": false,
-          "symbol": "circle",
-        }
-      }
+      "itemMarginBottom": 5,
     }
   }
 }());

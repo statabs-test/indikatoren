@@ -7,6 +7,7 @@ global Highcharts
     "chart": {
       //"marginBottom": 65,
       //"marginTop": 75,
+      marginRight: 20,
       "type": "column",
       "inverted": true
     },
@@ -28,6 +29,9 @@ global Highcharts
       series: {
         // pointPadding: 0,
         stickyTracking: false
+      },
+      column: {
+        borderWidth: 0
       }
     },
     tooltip: {

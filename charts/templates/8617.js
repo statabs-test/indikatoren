@@ -32,8 +32,8 @@
         },
         yAxis: [{
             max: 400,
-            tickInterval: 100,
-            min: 0,
+            //tickInterval: 100,
+            //min: 0,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             title: {
@@ -50,7 +50,7 @@
                 }
             },
             plotLines: [{
-                value: 0,
+                value: -0.5,
                 color: 'white',
                 width: 1,
                 zIndex: 4
@@ -125,13 +125,8 @@
             //"y": 55,
             //"x": 2000,
             //"itemWidth": 90,
-            "itemStyle": {
-                "fontWeight": "normal"
-            }
         },
         "chart": {
-            //marginRight: 15,
-            //marginBottom: 70,
             events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
                 load: function () {
                     this.credits.element.onclick = function () { };
