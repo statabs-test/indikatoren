@@ -266,6 +266,7 @@
       "marker": {
         "enabled": false
       },
+      "borderWidth": 0,
       "pointWidth": 25,
       "dataLabels": {
         "style": {
