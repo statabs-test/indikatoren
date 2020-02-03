@@ -272,7 +272,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -45
     },
     "tickLength": 0
   },

@@ -1316,6 +1316,11 @@ id | visible | visibleInPortal | indikatorenset
 8694 | true | true | Arbeitsmarkt
 8695 | true | true | Arbeitsmarkt
 8696 | true | true | Arbeitsmarkt
+8698 | true | false | Arbeitsmarkt (Print)
+8699 | true | false | Arbeitsmarkt (Print)
+8700 | true | false | Arbeitsmarkt (Print)
+8701 | true | false | Arbeitsmarkt (Print)
+8704 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

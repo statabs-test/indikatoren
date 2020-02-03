@@ -50025,6 +50025,206 @@
 		"id": 8696
 	},
 	{
+		"title": "Beschäftigung in der Branche Immobilienwesen",
+		"subtitle": "",
+		"kuerzel": "I.03.2.08698",
+		"kuerzelKunde": "4.5-01",
+		"description": "Beschäftigung in der Branche Immobilienwesen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Immobilienwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 1500 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind 2017 im Immobilienwesen (NOGA 68) tätig. Rund zwei Drittel davon arbeiten im Bereich Verwaltung von Grundstücken, Gebäuden und Wohnungen für Dritte.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_05_00_00_00_501",
+		"parentId": 8683,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8698,
+		"chart-id": 8698,
+		"filter": "",
+		"id": 8698
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Immobilienwesen",
+		"subtitle": "",
+		"kuerzel": "I.03.4.08699",
+		"kuerzelKunde": "4.5-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Immobilienwesen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Immobilienwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 20 Personen sind in Basel-Stadt Ende 2019 im Immobilienwesen arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2019 bei 1,6%.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_05_00_00_00_502",
+		"parentId": 8684,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8699,
+		"chart-id": 8699,
+		"filter": "",
+		"id": 8699
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
+		"subtitle": "",
+		"kuerzel": "I.03.5.08700",
+		"kuerzelKunde": "4.5-03",
+		"description": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Immobilienwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 3. Quartal 2019 sind in Basel-Stadt 58 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2019 17 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 10 Erwerbstätige zugewandert.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_05_00_00_00_503",
+		"parentId": 8685,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8700,
+		"chart-id": 8700,
+		"filter": "",
+		"id": 8700
+	},
+	{
+		"title": "Medianlohn in der Branche Immobilienwesen",
+		"subtitle": "",
+		"kuerzel": "I.03.3.08701",
+		"kuerzelKunde": "4.5-04",
+		"description": "Medianlohn in der Branche Immobilienwesen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Immobilienwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Immobilienwesen bei rund 6900 Franken brutto und damit leicht höher als im Jahr 2014 mit rund 6600 Franken brutto.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_05_00_00_00_504",
+		"parentId": 8687,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8701,
+		"chart-id": 8701,
+		"filter": "",
+		"id": 8701
+	},
+	{
+		"title": "Beschäftigung in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.2.08704",
+		"kuerzelKunde": "4.7-01",
+		"description": "Beschäftigung in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:00:53.5353",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Beschäftigung in der Branche Lagerei und Zustelldienste ist seit einigen Jahren rückläufig. Im Jahr 2017 lag sie bei run 3700 Vollzeitäquivalenten (2011: 5100). Der Rückgang ist vor allem auf den Bereich Erbringung von sonstigen Dienstleistungen für den Verkehr a. n. g. zurückzuführen, welche mit rund 1600 VZÄ immer noch den grössten Anteil ausmacht.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_07_00_00_00_701",
+		"parentId": 8693,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8704,
+		"chart-id": 8704,
+		"filter": "",
+		"id": 8704
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
