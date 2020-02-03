@@ -15,13 +15,11 @@
     },
     "series": [
       {
-        "color": "#008ac3"
+        "color": "#cd9c00"
       },
       {
-        "color": "#b00000"
-      },
-      {
-        "color": "#000"
+        "color": "#b375ab",
+        visible: true,
       },
     ],
     "legend": {
