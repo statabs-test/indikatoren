@@ -15,6 +15,12 @@
 	    	columns.push(columns[2]);
 	    	columns.splice(0,5);
     	}
+	},
+	yAxis: {
+		labels: {
+			y: 15
+		},
+		tickInterval: 0.2
 	}
 	}
 }());

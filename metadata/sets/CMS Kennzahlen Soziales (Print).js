@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
-		"template": "pie001_print",
+		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",

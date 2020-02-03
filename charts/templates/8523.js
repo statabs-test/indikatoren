@@ -17,6 +17,7 @@
 		"formatter": function(){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       },
+      x: -5
 	}
   },	
   tooltip: {
@@ -35,7 +36,7 @@
   "legend": {
     "enabled": true,
     //"y": 45,
-    itemWidth: 150,
+    //itemWidth: 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

@@ -4,11 +4,14 @@
   "tickInterval": 1,
 },
 "yAxis": {
+  max: 0.08,
+  tickInterval: 0.02,
 	"labels": {
 		"format": "{value:,.0f}",
 		"formatter": function(){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       },
+      x: -5,
 	}
   
 },	
@@ -31,7 +34,7 @@ tooltip: {
   "enabled": true,
   //"x": 45,
   //"y": 35,
-  "itemWidth": 140,
+  //"itemWidth": 140,
   "layout": "horizontal",
   "verticalAlign": "top",
   "itemMarginBottom": 5,

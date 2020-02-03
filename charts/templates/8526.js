@@ -22,7 +22,14 @@
     tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}",
+      style: {
+        color: "black"
+      },
+      x: -5
     },
+    title: {
+      text: null
+    }
   },
   "legend": {
     "enabled": true,
@@ -45,7 +52,7 @@
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
     "marginBottom": 75,
-    //"marginTop": 75,
+    "marginTop": 35,
     "type": "column",
     "inverted": false
   },

@@ -5,8 +5,10 @@
   },
   "yAxis": {
     "min": 0, 
+    tickInterval: 200,
 	"labels": {
-		"format": "{value:,.0f}"
+    "format": "{value:,.0f}",
+    x: -5
 	}
   },	
   "tooltip": {

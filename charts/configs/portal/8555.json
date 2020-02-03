@@ -275,7 +275,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "formatter": function(){
                     return Highcharts.numberFormat((this.value*100),0)+'%';                
                 },
@@ -283,7 +283,8 @@
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+    "tickInterval": 0.2
   },
   "credits": {
     "enabled": true,

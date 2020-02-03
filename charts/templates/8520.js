@@ -54,6 +54,7 @@ tooltip: {
       "formatter": function(){
           return Highcharts.numberFormat((this.value),0)+'%';                
       },
+      y: 10
   },
 
 },    

@@ -2111,7 +2111,8 @@
       "format": "{value:,.0f}",
       "formatter": function(){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }
+      },
+      "x": -5
     },
     "tickInterval": 0.02,
     "max": 0.08
@@ -2143,8 +2144,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 150
+    "padding": 0
   },
   "plotOptions": {
     "series": {

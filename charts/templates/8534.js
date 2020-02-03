@@ -54,6 +54,7 @@ tooltip: {
       "formatter": function(){
           return Highcharts.numberFormat((this.value),0)+'%';                
       },
+      y: 10
   },
 
 },    
@@ -71,7 +72,8 @@ tooltip: {
   "marginBottom": 65,
   //"marginTop": 75,
   "type": "column",
-  "inverted": true
+  "inverted": true,
+  height: 250
 }, 
 subtitle: {
   useHTML: true
