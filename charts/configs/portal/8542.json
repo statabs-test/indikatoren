@@ -10,11 +10,11 @@
           null
         ],
         [
-          "Einpersonen-HH",
+          "Einpersonen-HH (n=506)",
           33.6
         ],
         [
-          "Mehrpersonen-HH",
+          "Mehrpersonen-HH (n=921)",
           31.3
         ],
         [
@@ -22,11 +22,11 @@
           null
         ],
         [
-          "Männlich",
+          "Männlich (n=627)",
           30
         ],
         [
-          "Weiblich",
+          "Weiblich (n=793)",
           33.8
         ],
         [
@@ -34,15 +34,15 @@
           null
         ],
         [
-          "55-64 Jahre",
+          "55-64 Jahre (n=477)",
           31.4
         ],
         [
-          "65-74 Jahre",
+          "65-74 Jahre (n=475)",
           28.6
         ],
         [
-          "\u003E74 Jahre",
+          "\u003E74 Jahre (n=463)",
           36.5
         ],
         [
@@ -50,11 +50,11 @@
           null
         ],
         [
-          "Schweiz",
+          "Schweiz (n=1 309)",
           32.2
         ],
         [
-          "Ausland",
+          "Ausland (n=107)",
           30.8
         ],
         [
@@ -62,15 +62,15 @@
           null
         ],
         [
-          "\u003C5 000 Fr.",
+          "\u003C5 000 Fr. (n=447)",
           28.9
         ],
         [
-          "5 000-7 499 Fr.",
+          "5 000-7 499 Fr. (n=327)",
           33.9
         ],
         [
-          "\u003E7 499 Fr.",
+          "\u003E7 499 Fr. (n=449)",
           33.2
         ],
         [
@@ -78,19 +78,19 @@
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=404)",
           36.9
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=438)",
           27.9
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=288)",
           31.9
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=252)",
           32.5
         ],
         [
@@ -98,11 +98,11 @@
           null
         ],
         [
-          "2011",
+          "2011 (N=1 689)",
           34.3
         ],
         [
-          "2015",
+          "2015 (N=1 427)",
           32.1
         ]
       ],
@@ -119,11 +119,11 @@
           null
         ],
         [
-          "Einpersonen-HH",
+          "Einpersonen-HH (n=506)",
           45.7
         ],
         [
-          "Mehrpersonen-HH",
+          "Mehrpersonen-HH (n=921)",
           49.1
         ],
         [
@@ -131,11 +131,11 @@
           null
         ],
         [
-          "Männlich",
+          "Männlich (n=627)",
           50.7
         ],
         [
-          "Weiblich",
+          "Weiblich (n=793)",
           45.4
         ],
         [
@@ -143,15 +143,15 @@
           null
         ],
         [
-          "55-64 Jahre",
+          "55-64 Jahre (n=477)",
           46.5
         ],
         [
-          "65-74 Jahre",
+          "65-74 Jahre (n=475)",
           53.9
         ],
         [
-          "\u003E74 Jahre",
+          "\u003E74 Jahre (n=463)",
           43
         ],
         [
@@ -159,11 +159,11 @@
           null
         ],
         [
-          "Schweiz",
+          "Schweiz (n=1 309)",
           47.8
         ],
         [
-          "Ausland",
+          "Ausland (n=107)",
           48.6
         ],
         [
@@ -171,15 +171,15 @@
           null
         ],
         [
-          "\u003C5 000 Fr.",
+          "\u003C5 000 Fr. (n=447)",
           47
         ],
         [
-          "5 000-7 499 Fr.",
+          "5 000-7 499 Fr. (n=327)",
           47.7
         ],
         [
-          "\u003E7 499 Fr.",
+          "\u003E7 499 Fr. (n=449)",
           49.4
         ],
         [
@@ -187,19 +187,19 @@
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=404)",
           45.5
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=438)",
           52.3
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=288)",
           45.1
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=252)",
           49.2
         ],
         [
@@ -207,11 +207,11 @@
           null
         ],
         [
-          "2011",
+          "2011 (N=1 689)",
           45.8
         ],
         [
-          "2015",
+          "2015 (N=1 427)",
           47.9
         ]
       ],
@@ -228,11 +228,11 @@
           null
         ],
         [
-          "Einpersonen-HH",
+          "Einpersonen-HH (n=506)",
           10.1
         ],
         [
-          "Mehrpersonen-HH",
+          "Mehrpersonen-HH (n=921)",
           11.7
         ],
         [
@@ -240,11 +240,11 @@
           null
         ],
         [
-          "Männlich",
+          "Männlich (n=627)",
           11.6
         ],
         [
-          "Weiblich",
+          "Weiblich (n=793)",
           10.8
         ],
         [
@@ -252,15 +252,15 @@
           null
         ],
         [
-          "55-64 Jahre",
+          "55-64 Jahre (n=477)",
           11.7
         ],
         [
-          "65-74 Jahre",
+          "65-74 Jahre (n=475)",
           9.9
         ],
         [
-          "\u003E74 Jahre",
+          "\u003E74 Jahre (n=463)",
           11.9
         ],
         [
@@ -268,11 +268,11 @@
           null
         ],
         [
-          "Schweiz",
+          "Schweiz (n=1 309)",
           11.2
         ],
         [
-          "Ausland",
+          "Ausland (n=107)",
           11.2
         ],
         [
@@ -280,15 +280,15 @@
           null
         ],
         [
-          "\u003C5 000 Fr.",
+          "\u003C5 000 Fr. (n=447)",
           11.6
         ],
         [
-          "5 000-7 499 Fr.",
+          "5 000-7 499 Fr. (n=327)",
           11.9
         ],
         [
-          "\u003E7 499 Fr.",
+          "\u003E7 499 Fr. (n=449)",
           11.8
         ],
         [
@@ -296,19 +296,19 @@
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=404)",
           9.4
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=438)",
           11.4
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=288)",
           10.8
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=252)",
           12.3
         ],
         [
@@ -316,11 +316,11 @@
           null
         ],
         [
-          "2011",
+          "2011 (N=1 689)",
           10.2
         ],
         [
-          "2015",
+          "2015 (N=1 427)",
           11.1
         ]
       ],
@@ -337,11 +337,11 @@
           null
         ],
         [
-          "Einpersonen-HH",
+          "Einpersonen-HH (n=506)",
           2.2
         ],
         [
-          "Mehrpersonen-HH",
+          "Mehrpersonen-HH (n=921)",
           1.5
         ],
         [
@@ -349,11 +349,11 @@
           null
         ],
         [
-          "Männlich",
+          "Männlich (n=627)",
           1.1
         ],
         [
-          "Weiblich",
+          "Weiblich (n=793)",
           2.3
         ],
         [
@@ -361,15 +361,15 @@
           null
         ],
         [
-          "55-64 Jahre",
+          "55-64 Jahre (n=477)",
           1.7
         ],
         [
-          "65-74 Jahre",
+          "65-74 Jahre (n=475)",
           1.7
         ],
         [
-          "\u003E74 Jahre",
+          "\u003E74 Jahre (n=463)",
           1.9
         ],
         [
@@ -377,11 +377,11 @@
           null
         ],
         [
-          "Schweiz",
+          "Schweiz (n=1 309)",
           1.6
         ],
         [
-          "Ausland",
+          "Ausland (n=107)",
           3.7
         ],
         [
@@ -389,15 +389,15 @@
           null
         ],
         [
-          "\u003C5 000 Fr.",
+          "\u003C5 000 Fr. (n=447)",
           2.9
         ],
         [
-          "5 000-7 499 Fr.",
+          "5 000-7 499 Fr. (n=327)",
           1.8
         ],
         [
-          "\u003E7 499 Fr.",
+          "\u003E7 499 Fr. (n=449)",
           0.7
         ],
         [
@@ -405,19 +405,19 @@
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=404)",
           1.5
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=438)",
           1.1
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=288)",
           3.1
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=252)",
           1.2
         ],
         [
@@ -425,11 +425,11 @@
           null
         ],
         [
-          "2011",
+          "2011 (N=1 689)",
           0.9
         ],
         [
-          "2015",
+          "2015 (N=1 427)",
           1.8
         ]
       ],
@@ -446,11 +446,11 @@
           null
         ],
         [
-          "Einpersonen-HH",
+          "Einpersonen-HH (n=506)",
           4.3
         ],
         [
-          "Mehrpersonen-HH",
+          "Mehrpersonen-HH (n=921)",
           3
         ],
         [
@@ -458,11 +458,11 @@
           null
         ],
         [
-          "Männlich",
+          "Männlich (n=627)",
           4.3
         ],
         [
-          "Weiblich",
+          "Weiblich (n=793)",
           2.9
         ],
         [
@@ -470,15 +470,15 @@
           null
         ],
         [
-          "55-64 Jahre",
+          "55-64 Jahre (n=477)",
           5.5
         ],
         [
-          "65-74 Jahre",
+          "65-74 Jahre (n=475)",
           2.5
         ],
         [
-          "\u003E74 Jahre",
+          "\u003E74 Jahre (n=463)",
           2.4
         ],
         [
@@ -486,11 +486,11 @@
           null
         ],
         [
-          "Schweiz",
+          "Schweiz (n=1 309)",
           3.4
         ],
         [
-          "Ausland",
+          "Ausland (n=107)",
           3.7
         ],
         [
@@ -498,15 +498,15 @@
           null
         ],
         [
-          "\u003C5 000 Fr.",
+          "\u003C5 000 Fr. (n=447)",
           4.3
         ],
         [
-          "5 000-7 499 Fr.",
+          "5 000-7 499 Fr. (n=327)",
           2.1
         ],
         [
-          "\u003E7 499 Fr.",
+          "\u003E7 499 Fr. (n=449)",
           2.7
         ],
         [
@@ -514,19 +514,19 @@
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=404)",
           3
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=438)",
           4.3
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=288)",
           4.5
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=252)",
           1.6
         ],
         [
@@ -534,11 +534,11 @@
           null
         ],
         [
-          "2011",
+          "2011 (N=1 689)",
           3.6
         ],
         [
-          "2015",
+          "2015 (N=1 427)",
           3.5
         ]
       ],
@@ -555,11 +555,11 @@
           null
         ],
         [
-          "Einpersonen-HH",
+          "Einpersonen-HH (n=506)",
           4.2
         ],
         [
-          "Mehrpersonen-HH",
+          "Mehrpersonen-HH (n=921)",
           3.4
         ],
         [
@@ -567,11 +567,11 @@
           null
         ],
         [
-          "Männlich",
+          "Männlich (n=627)",
           2.2
         ],
         [
-          "Weiblich",
+          "Weiblich (n=793)",
           4.8
         ],
         [
@@ -579,15 +579,15 @@
           null
         ],
         [
-          "55-64 Jahre",
+          "55-64 Jahre (n=477)",
           3.1
         ],
         [
-          "65-74 Jahre",
+          "65-74 Jahre (n=475)",
           3.4
         ],
         [
-          "\u003E74 Jahre",
+          "\u003E74 Jahre (n=463)",
           4.3
         ],
         [
@@ -595,11 +595,11 @@
           null
         ],
         [
-          "Schweiz",
+          "Schweiz (n=1 309)",
           3.7
         ],
         [
-          "Ausland",
+          "Ausland (n=107)",
           1.9
         ],
         [
@@ -607,15 +607,15 @@
           null
         ],
         [
-          "\u003C5 000 Fr.",
+          "\u003C5 000 Fr. (n=447)",
           5.4
         ],
         [
-          "5 000-7 499 Fr.",
+          "5 000-7 499 Fr. (n=327)",
           2.4
         ],
         [
-          "\u003E7 499 Fr.",
+          "\u003E7 499 Fr. (n=449)",
           2.2
         ],
         [
@@ -623,19 +623,19 @@
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=404)",
           3.7
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=438)",
           3
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=288)",
           4.5
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=252)",
           3.2
         ],
         [
@@ -643,11 +643,11 @@
           null
         ],
         [
-          "2011",
+          "2011 (N=1 689)",
           5.3
         ],
         [
-          "2015",
+          "2015 (N=1 427)",
           3.6
         ]
       ],

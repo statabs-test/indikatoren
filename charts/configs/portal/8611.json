@@ -258,9 +258,9 @@
   },
   "legend": {
     "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "padding": 0,
     "itemMarginBottom": 2,
@@ -268,12 +268,13 @@
       "fontSize": "10px",
       "fontFamily": "Arial",
       "fontWeight": "normal",
-      "width": 95
+      "width": 150
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "x": 41
   },
   "exporting": {
     "filename": 8611

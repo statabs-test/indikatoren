@@ -1,99 +1,103 @@
 {
   "series": [
     {
+      "color": "#923f8d",
+      "index": 3,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2010: Vorläufig Aufgenommene",
+          98
+        ],
+        [
+          "2019: Vorläufig Aufgenommene",
+          286
+        ],
+        [
+          "2010: Asylsuchende",
+          55
+        ],
+        [
+          "2019: Asylsuchende",
+          63
+        ]
+      ],
+      "name": "0-17 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2010: Vorläufig Aufgenommene",
+          57
+        ],
+        [
+          "2019: Vorläufig Aufgenommene",
+          195
+        ],
+        [
+          "2010: Asylsuchende",
+          88
+        ],
+        [
+          "2019: Asylsuchende",
+          55
+        ]
+      ],
+      "name": "18-25 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2010: Vorläufig Aufgenommene",
+          169
+        ],
+        [
+          "2019: Vorläufig Aufgenommene",
+          372
+        ],
+        [
+          "2010: Asylsuchende",
+          136
+        ],
+        [
+          "2019: Asylsuchende",
+          152
+        ]
+      ],
+      "name": "26-64 J.",
+      "turboThreshold": 0
+    },
+    {
       "color": "#246370",
-      "visible": true,
+      "index": 0,
+      "legendIndex": 3,
       "data": [
         [
-          "2009: Vorläufig Aufgenommene",
-          93
+          "2010: Vorläufig Aufgenommene",
+          3
         ],
         [
-          "2009: Asylsuchende",
-          44
+          "2019: Vorläufig Aufgenommene",
+          22
         ],
         [
-          "2018: Vorläufig Aufgenommene",
-          303
-        ],
-        [
-          "2018: Asylsuchende",
-          83
-        ]
-      ],
-      "name": "0-17",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
-      "visible": true,
-      "data": [
-        [
-          "2009: Vorläufig Aufgenommene",
-          38
-        ],
-        [
-          "2009: Asylsuchende",
-          102
-        ],
-        [
-          "2018: Vorläufig Aufgenommene",
-          179
-        ],
-        [
-          "2018: Asylsuchende",
-          83
-        ]
-      ],
-      "name": "18-25",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "visible": true,
-      "data": [
-        [
-          "2009: Vorläufig Aufgenommene",
-          155
-        ],
-        [
-          "2009: Asylsuchende",
-          147
-        ],
-        [
-          "2018: Vorläufig Aufgenommene",
-          369
-        ],
-        [
-          "2018: Asylsuchende",
-          162
-        ]
-      ],
-      "name": "26-64",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "visible": true,
-      "data": [
-        [
-          "2009: Vorläufig Aufgenommene",
-          7
-        ],
-        [
-          "2009: Asylsuchende",
+          "2010: Asylsuchende",
           2
         ],
         [
-          "2018: Vorläufig Aufgenommene",
-          19
-        ],
-        [
-          "2018: Asylsuchende",
-          5
+          "2019: Asylsuchende",
+          2
         ]
       ],
-      "name": "65 u. m.",
+      "name": "65 J. u. m.",
       "turboThreshold": 0
     }
   ],
@@ -113,7 +117,13 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": 0
+      "useHTML": true,
+      "rotation": -45,
+      "formatter": function () {
+      return this.value.replace("Vorläufig", "Vorläuf.")
+      .replace("Kleidung Erwachsene", "Erwachsenenkleider")
+      .replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
+  }
     },
     "tickLength": 0
   },
@@ -211,8 +221,9 @@
                     }
                 }
     },
+    "marginBottom": 75,
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     "renderTo": "container-8527",
     "spacingBottom": 12
   },
@@ -227,8 +238,9 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "itemWidth": 10
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
     }
   },
   "title": {
@@ -269,8 +281,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 400,
-    "tickInterval": 100
+    "tickInterval": 250
   },
   "navigation": {
     "menuItemStyle": {
@@ -296,15 +307,17 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 300
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 120
   },
   "dataLabels": {
     "enabled": false,
@@ -314,6 +327,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {

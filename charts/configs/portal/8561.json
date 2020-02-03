@@ -6,135 +6,135 @@
       "legendIndex": 5,
       "data": [
         [
-          "Familienform",
+          "*Familienform",
           null
         ],
         [
-          "Einelternfamilie",
+          "Einelternfamilie (n=272)",
           55.5
         ],
         [
-          "Zweielternfamilie",
+          "Zweielternfamilie (n=1 372)",
           55.1
         ],
         [
-          "Anzahl Kinder",
+          "*Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "1 Kind (n=562)",
           50
         ],
         [
-          "2 Kinder",
+          "2 Kinder (n=750)",
           57.2
         ],
         [
-          "3 Kinder u.m.",
+          "3 Kinder u.m. (n=353)",
           58.4
         ],
         [
-          "Alter jüngstes Kind",
+          "*Alter jüngstes Kind",
           null
         ],
         [
-          "0-4 Jahre",
+          "0-4 Jahre (n=610)",
           51.3
         ],
         [
-          "5-8 Jahre",
+          "5-8 Jahre (n=364)",
           55.8
         ],
         [
-          "9-12 Jahre",
+          "9-12 Jahre (n=277)",
           61.4
         ],
         [
-          "13-17 Jahre",
+          "13-17 Jahre (n=389)",
           56.6
         ],
         [
-          "Bildungsniveau Eltern",
+          "*Bildungsniveau Eltern",
           null
         ],
         [
-          "Obligat. Schule",
+          "Obligat. Schule (n=105)",
           40
         ],
         [
-          "Sekundarstufe II",
+          "Sekundarstufe II (n=553)",
           52.3
         ],
         [
-          "Tertiärstufe",
+          "Tertiärstufe (n=983)",
           58.3
         ],
         [
-          "Haushaltssprache",
+          "*Haushaltssprache",
           null
         ],
         [
-          "ch\u002Fdt",
+          "ch\u002Fdt (n=870)",
           58.4
         ],
         [
-          "ch\u002Fdt und andere",
+          "ch\u002Fdt und andere (n=516)",
           50.8
         ],
         [
-          "nur andere",
+          "nur andere (n=246)",
           51.2
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr. (n=111)",
           48.6
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr. (n=580)",
           49.1
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr. (n=855)",
           60.1
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=415)",
           51.6
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=585)",
           59.5
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=376)",
           40.4
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=253)",
           73.9
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "2009 (N=3 119)",
           47.1
         ],
         [
-          "2013",
+          "2013 (N=2 231)",
           50.9
         ],
         [
-          "2017",
+          "2017 (N=1 665)",
           55
         ]
       ],
@@ -147,135 +147,135 @@
       "legendIndex": 4,
       "data": [
         [
-          "Familienform",
+          "*Familienform",
           null
         ],
         [
-          "Einelternfamilie",
+          "Einelternfamilie (n=272)",
           30.9
         ],
         [
-          "Zweielternfamilie",
+          "Zweielternfamilie (n=1 372)",
           31.3
         ],
         [
-          "Anzahl Kinder",
+          "*Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "1 Kind (n=562)",
           36.5
         ],
         [
-          "2 Kinder",
+          "2 Kinder (n=750)",
           28.9
         ],
         [
-          "3 Kinder u.m.",
+          "3 Kinder u.m. (n=353)",
           27.5
         ],
         [
-          "Alter jüngstes Kind",
+          "*Alter jüngstes Kind",
           null
         ],
         [
-          "0-4 Jahre",
+          "0-4 Jahre (n=610)",
           33.4
         ],
         [
-          "5-8 Jahre",
+          "5-8 Jahre (n=364)",
           30.5
         ],
         [
-          "9-12 Jahre",
+          "9-12 Jahre (n=277)",
           27.4
         ],
         [
-          "13-17 Jahre",
+          "13-17 Jahre (n=389)",
           30.8
         ],
         [
-          "Bildungsniveau Eltern",
+          "*Bildungsniveau Eltern",
           null
         ],
         [
-          "Obligat. Schule",
+          "Obligat. Schule (n=105)",
           41
         ],
         [
-          "Sekundarstufe II",
+          "Sekundarstufe II (n=553)",
           32.7
         ],
         [
-          "Tertiärstufe",
+          "Tertiärstufe (n=983)",
           29.5
         ],
         [
-          "Haushaltssprache",
+          "*Haushaltssprache",
           null
         ],
         [
-          "ch\u002Fdt",
+          "ch\u002Fdt (n=870)",
           30.6
         ],
         [
-          "ch\u002Fdt und andere",
+          "ch\u002Fdt und andere (n=516)",
           33.1
         ],
         [
-          "nur andere",
+          "nur andere (n=246)",
           30.1
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr. (n=111)",
           33.3
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr. (n=580)",
           34.1
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr. (n=855)",
           28.8
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=415)",
           32.3
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=585)",
           31.1
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=376)",
           36.2
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=253)",
           20.6
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "2009 (N=3 119)",
           34.1
         ],
         [
-          "2013",
+          "2013 (N=2 231)",
           32.8
         ],
         [
-          "2017",
+          "2017 (N=1 665)",
           31.2
         ]
       ],
@@ -288,135 +288,135 @@
       "legendIndex": 3,
       "data": [
         [
-          "Familienform",
+          "*Familienform",
           null
         ],
         [
-          "Einelternfamilie",
+          "Einelternfamilie (n=272)",
           9.9
         ],
         [
-          "Zweielternfamilie",
+          "Zweielternfamilie (n=1 372)",
           9
         ],
         [
-          "Anzahl Kinder",
+          "*Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "1 Kind (n=562)",
           9.3
         ],
         [
-          "2 Kinder",
+          "2 Kinder (n=750)",
           9.1
         ],
         [
-          "3 Kinder u.m.",
+          "3 Kinder u.m. (n=353)",
           9.1
         ],
         [
-          "Alter jüngstes Kind",
+          "*Alter jüngstes Kind",
           null
         ],
         [
-          "0-4 Jahre",
+          "0-4 Jahre (n=610)",
           10.5
         ],
         [
-          "5-8 Jahre",
+          "5-8 Jahre (n=364)",
           9.1
         ],
         [
-          "9-12 Jahre",
+          "9-12 Jahre (n=277)",
           7.2
         ],
         [
-          "13-17 Jahre",
+          "13-17 Jahre (n=389)",
           8.5
         ],
         [
-          "Bildungsniveau Eltern",
+          "*Bildungsniveau Eltern",
           null
         ],
         [
-          "Obligat. Schule",
+          "Obligat. Schule (n=105)",
           6.7
         ],
         [
-          "Sekundarstufe II",
+          "Sekundarstufe II (n=553)",
           8.7
         ],
         [
-          "Tertiärstufe",
+          "Tertiärstufe (n=983)",
           9.5
         ],
         [
-          "Haushaltssprache",
+          "*Haushaltssprache",
           null
         ],
         [
-          "ch\u002Fdt",
+          "ch\u002Fdt (n=870)",
           8.6
         ],
         [
-          "ch\u002Fdt und andere",
+          "ch\u002Fdt und andere (n=516)",
           10.5
         ],
         [
-          "nur andere",
+          "nur andere (n=246)",
           8.1
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr. (n=111)",
           9
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr. (n=580)",
           10
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr. (n=855)",
           9
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=415)",
           10.6
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=585)",
           5.6
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=376)",
           15.4
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=253)",
           4.7
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "2009 (N=3 119)",
           11
         ],
         [
-          "2013",
+          "2013 (N=2 231)",
           10
         ],
         [
-          "2017",
+          "2017 (N=1 665)",
           9.1
         ]
       ],
@@ -429,135 +429,135 @@
       "legendIndex": 2,
       "data": [
         [
-          "Familienform",
+          "*Familienform",
           null
         ],
         [
-          "Einelternfamilie",
+          "Einelternfamilie (n=272)",
           1.1
         ],
         [
-          "Zweielternfamilie",
+          "Zweielternfamilie (n=1 372)",
           2.6
         ],
         [
-          "Anzahl Kinder",
+          "*Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "1 Kind (n=562)",
           2.7
         ],
         [
-          "2 Kinder",
+          "2 Kinder (n=750)",
           2.3
         ],
         [
-          "3 Kinder u.m.",
+          "3 Kinder u.m. (n=353)",
           2.3
         ],
         [
-          "Alter jüngstes Kind",
+          "*Alter jüngstes Kind",
           null
         ],
         [
-          "0-4 Jahre",
+          "0-4 Jahre (n=610)",
           2.5
         ],
         [
-          "5-8 Jahre",
+          "5-8 Jahre (n=364)",
           2.7
         ],
         [
-          "9-12 Jahre",
+          "9-12 Jahre (n=277)",
           1.8
         ],
         [
-          "13-17 Jahre",
+          "13-17 Jahre (n=389)",
           2.3
         ],
         [
-          "Bildungsniveau Eltern",
+          "*Bildungsniveau Eltern",
           null
         ],
         [
-          "Obligat. Schule",
+          "Obligat. Schule (n=105)",
           2.9
         ],
         [
-          "Sekundarstufe II",
+          "Sekundarstufe II (n=553)",
           2.2
         ],
         [
-          "Tertiärstufe",
+          "Tertiärstufe (n=983)",
           2.4
         ],
         [
-          "Haushaltssprache",
+          "*Haushaltssprache",
           null
         ],
         [
-          "ch\u002Fdt",
+          "ch\u002Fdt (n=870)",
           1.8
         ],
         [
-          "ch\u002Fdt und andere",
+          "ch\u002Fdt und andere (n=516)",
           2.9
         ],
         [
-          "nur andere",
+          "nur andere (n=246)",
           3.7
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr. (n=111)",
           2.7
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr. (n=580)",
           3.1
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr. (n=855)",
           1.9
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=415)",
           2.7
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=585)",
           1.5
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=376)",
           4.8
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=253)",
           0.8
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "2009 (N=3 119)",
           3.8
         ],
         [
-          "2013",
+          "2013 (N=2 231)",
           2.8
         ],
         [
-          "2017",
+          "2017 (N=1 665)",
           2.4
         ]
       ],
@@ -570,135 +570,135 @@
       "legendIndex": 1,
       "data": [
         [
-          "Familienform",
+          "*Familienform",
           null
         ],
         [
-          "Einelternfamilie",
+          "Einelternfamilie (n=272)",
           0
         ],
         [
-          "Zweielternfamilie",
+          "Zweielternfamilie (n=1 372)",
           0.4
         ],
         [
-          "Anzahl Kinder",
+          "*Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "1 Kind (n=562)",
           0.4
         ],
         [
-          "2 Kinder",
+          "2 Kinder (n=750)",
           0.5
         ],
         [
-          "3 Kinder u.m.",
+          "3 Kinder u.m. (n=353)",
           0.3
         ],
         [
-          "Alter jüngstes Kind",
+          "*Alter jüngstes Kind",
           null
         ],
         [
-          "0-4 Jahre",
+          "0-4 Jahre (n=610)",
           0.7
         ],
         [
-          "5-8 Jahre",
+          "5-8 Jahre (n=364)",
           0.3
         ],
         [
-          "9-12 Jahre",
+          "9-12 Jahre (n=277)",
           0.7
         ],
         [
-          "13-17 Jahre",
+          "13-17 Jahre (n=389)",
           0
         ],
         [
-          "Bildungsniveau Eltern",
+          "*Bildungsniveau Eltern",
           null
         ],
         [
-          "Obligat. Schule",
+          "Obligat. Schule (n=105)",
           1.9
         ],
         [
-          "Sekundarstufe II",
+          "Sekundarstufe II (n=553)",
           0.9
         ],
         [
-          "Tertiärstufe",
+          "Tertiärstufe (n=983)",
           0
         ],
         [
-          "Haushaltssprache",
+          "*Haushaltssprache",
           null
         ],
         [
-          "ch\u002Fdt",
+          "ch\u002Fdt (n=870)",
           0
         ],
         [
-          "ch\u002Fdt und andere",
+          "ch\u002Fdt und andere (n=516)",
           0.4
         ],
         [
-          "nur andere",
+          "nur andere (n=246)",
           2
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr. (n=111)",
           0.9
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr. (n=580)",
           1
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr. (n=855)",
           0
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=415)",
           0.7
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=585)",
           0.3
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=376)",
           0.5
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=253)",
           0
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "2009 (N=3 119)",
           1
         ],
         [
-          "2013",
+          "2013 (N=2 231)",
           0.7
         ],
         [
-          "2017",
+          "2017 (N=1 665)",
           0.4
         ]
       ],
@@ -711,135 +711,135 @@
       "legendIndex": 0,
       "data": [
         [
-          "Familienform",
+          "*Familienform",
           null
         ],
         [
-          "Einelternfamilie",
+          "Einelternfamilie (n=272)",
           2.6
         ],
         [
-          "Zweielternfamilie",
+          "Zweielternfamilie (n=1 372)",
           1.7
         ],
         [
-          "Anzahl Kinder",
+          "*Anzahl Kinder",
           null
         ],
         [
-          "1 Kind",
+          "1 Kind (n=562)",
           1.2
         ],
         [
-          "2 Kinder",
+          "2 Kinder (n=750)",
           2
         ],
         [
-          "3 Kinder u.m.",
+          "3 Kinder u.m. (n=353)",
           2.5
         ],
         [
-          "Alter jüngstes Kind",
+          "*Alter jüngstes Kind",
           null
         ],
         [
-          "0-4 Jahre",
+          "0-4 Jahre (n=610)",
           1.6
         ],
         [
-          "5-8 Jahre",
+          "5-8 Jahre (n=364)",
           1.6
         ],
         [
-          "9-12 Jahre",
+          "9-12 Jahre (n=277)",
           1.4
         ],
         [
-          "13-17 Jahre",
+          "13-17 Jahre (n=389)",
           1.8
         ],
         [
-          "Bildungsniveau Eltern",
+          "*Bildungsniveau Eltern",
           null
         ],
         [
-          "Obligat. Schule",
+          "Obligat. Schule (n=105)",
           7.6
         ],
         [
-          "Sekundarstufe II",
+          "Sekundarstufe II (n=553)",
           3.3
         ],
         [
-          "Tertiärstufe",
+          "Tertiärstufe (n=983)",
           0.3
         ],
         [
-          "Haushaltssprache",
+          "*Haushaltssprache",
           null
         ],
         [
-          "ch\u002Fdt",
+          "ch\u002Fdt (n=870)",
           0.6
         ],
         [
-          "ch\u002Fdt und andere",
+          "ch\u002Fdt und andere (n=516)",
           2.3
         ],
         [
-          "nur andere",
+          "nur andere (n=246)",
           4.9
         ],
         [
-          "Haushaltseinkommen",
+          "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C3000 Fr.",
+          "\u003C3 000 Fr. (n=111)",
           5.4
         ],
         [
-          "3000-7499 Fr.",
+          "3 000-7 499 Fr. (n=580)",
           2.6
         ],
         [
-          "\u003E7499 Fr.",
+          "\u003E7 499 Fr. (n=855)",
           0.2
         ],
         [
-          "Wahlkreis",
+          "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost",
+          "Grossbasel Ost (n=415)",
           2.2
         ],
         [
-          "Grossbasel West",
+          "Grossbasel West (n=585)",
           1.9
         ],
         [
-          "Kleinbasel",
+          "Kleinbasel (n=376)",
           2.7
         ],
         [
-          "Riehen, Bettingen",
+          "Riehen, Bettingen (n=253)",
           0
         ],
         [
-          "Befragungsjahr",
+          "*Befragungsjahr",
           null
         ],
         [
-          "2009",
+          "2009 (N=3 119)",
           2.9
         ],
         [
-          "2013",
+          "2013 (N=2 231)",
           2.8
         ],
         [
-          "2017",
+          "2017 (N=1 665)",
           1.9
         ]
       ],

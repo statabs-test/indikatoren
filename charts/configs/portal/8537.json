@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Vermittelte Wohnungen",
+      "name": "Anz_vermittelt",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3417,7 +3417,7 @@
           0
         ]
       ],
-      "name": "Vermittelte Wohnungen"
+      "name": "Anz_vermittelt"
     },
     {
       "name": "Rhein",

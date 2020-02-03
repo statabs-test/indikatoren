@@ -45888,6 +45888,46 @@ var indikatoren = [
 		"id": 8527
 	},
 	{
+		"title": "Minderjährige unbegleitete Flüchtlinge",
+		"subtitle": "Basel-Stadt, 2019",
+		"kuerzel": "I.01.1.08529",
+		"kuerzelKunde": "",
+		"description": "Minderjährige unbegleitete Flüchtlinge",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.3 Asylsuchende/Migrant/innen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2010 wurden im Kanton Basel-Stadt 11 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44, dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück, 2019 waren es noch 11. Nach Alter betrachtet, bildeten in den Jahren 2010 bis 2017 sowie 2019 jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. 2018 waren die 8- bis 12-Jährigen am zahlreichsten (4 Personen).",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 8258,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8529,
+		"chart-id": 8529,
+		"filter": "",
+		"id": 8529
+	},
+	{
 		"title": "Gesundheitliche Verfassung",
 		"subtitle": "«Wie geht es Ihnen zurzeit gesundheitlich?»",
 		"kuerzel": "",
@@ -46970,6 +47010,46 @@ var indikatoren = [
 		"chart-id": 8558,
 		"filter": "",
 		"id": 8558
+	},
+	{
+		"title": "Polizeieinsätze zu Häuslicher Gewalt und involvierten Kindern",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Polizeieinsätze zu Häuslicher Gewalt und involvierten Kindern",
+		"thema": "19 Rechtspflege",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.3 Schutz vor Gewalt und Prävention",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2018 waren 212 Kinder bei Einsätzen der Polizei im Bereich häuslicher Gewalt involviert.",
+		"erlaeuterungen": "Es werden Anzahl minderjährige Personen gezählt, welche in irgendeiner Weise bei Polizeieinsätzen des Kantons Basel-Stadt involviert waren.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 8288,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8559,
+		"chart-id": 8559,
+		"filter": "",
+		"id": 8559
 	},
 	{
 		"title": "Distanz zum nächsten Spielplatz",
