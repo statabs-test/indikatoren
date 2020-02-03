@@ -19,9 +19,9 @@
   },
   yAxis: {
       min: 0,
-      max: 65,
+      max: 70,
       tickAmount: 6,
-      tickInterval: 13,
+      tickInterval: 14,
       reversedStacks: false
   },
   plotOptions: {
