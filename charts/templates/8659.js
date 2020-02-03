@@ -1,5 +1,9 @@
 (function () {
   return {
+    exporting: {
+      enabled: true
+    },
+
     "chart": {
       "type": "line",
       marginRight: 30,
@@ -64,12 +68,11 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
+      itemMarginBottom: 2,
       alignColumns: false,
       useHTML: true,
       y: -30,
       x: -4,
-      itemMarginBottom: 2,
       align: "right",
       width: 160,
       //itemWidth: 80,

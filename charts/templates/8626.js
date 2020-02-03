@@ -42,7 +42,7 @@
       //"itemWidth": 205,
       itemDistance: 4,
       labelFormatter: function () {
-        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/<br>unbek.').replace('-', '-<br>');
+        return this.name.replace('Andere, ohne oder unbek. Zugeh.', 'Andere/ohne/<br>unbekannt').replace('-', '-<br>');
       }
     },
     "series": [

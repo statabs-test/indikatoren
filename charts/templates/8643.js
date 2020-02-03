@@ -24,32 +24,38 @@
     "series": [
       {  //Wohnen Klybeck
         "color": "#cd9c00",
+        index: 1,
         legendIndex: 1
       },
       { // Wohnen Kleinhüningen
         "color": "#b375ab",
+        index: 3,
         legendIndex: 3
       },
-       { // Wohnen Basel
+      { // Wohnen Basel
         "color": "#8A8A8A",
         "visible": false,
+        index: 5,
         legendIndex: 5,
         showInLegend: false
       },
       { // Arbeiten Klybeck
         "color": "#7f5f1a",
+        index: 2,
         legendIndex: 2
       },
       {  //Arbeiten Kleinhüningen
         "color": "#923f8d",
+        index: 4,
         legendIndex: 4
       },
-     {  //Arbeiten Basel
+      {  //Arbeiten Basel
         "color": "#474747",
         "visible": false,
+        index: 6,
         legendIndex: 6,
         showInLegend: false
-      },
+      }
     ],
     "legend": {
       "enabled": true,
@@ -59,7 +65,7 @@
       "align": "left",
       labelFormatter: function () {
         return this.name.replace('Kleinhüningen', 'Kleinh.');
-      }    
+      }
     },
     "plotOptions": {
       "series": {

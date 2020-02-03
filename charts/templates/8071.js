@@ -1,12 +1,15 @@
 (function () {
   return {
-    "yAxis": {
+    chart: {
+      "type": "column"
+    },
+    yAxis: {
       tickInterval: 1
     },
-    "xAxis": {
-      "type": "category",
+    xAxis: {
+      tickInterval: 1
     },
-    "legend": {
+    legend: {
       "enabled": true,
       "verticalAlign": "top",
       "align": "left",
@@ -14,16 +17,13 @@
         return this.name.replace('Wohnviertel', '');
       }
     },
-    "series": [
+    series: [
       {
         "color": "#cd9c00"
       },
       {
         "color": "#b375ab"
       }
-    ],
-    "chart": {
-      "type": "column"
-    }
+    ]
   };
 }());

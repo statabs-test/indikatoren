@@ -47,7 +47,7 @@
       "itemMarginBottom": 5,
       reversed: false,
       labelFormatter: function () {
-        return this.name.replace('Zimmer', 'Zim.');
+        return this.name.replace('Zimmer u.m.', 'Zim. u.m.');
       }
     },
     "series": [
