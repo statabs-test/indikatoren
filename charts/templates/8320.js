@@ -27,22 +27,22 @@
             dataClassColor: 'category',
                    dataClasses: [{
                	from: 0.000,
-                to:0.249,
+                to:0.2499999,
                 color: '#D3E2E4',
                 name:  "<span style='color: rgba(0,0,0,0)'>00,0% </span> < 25,0%"
             }, {
                 from: 0.250,
-                to: 0.299,
+                to: 0.299999,
                 color: '#A8C3CA',
                 name: "25,0% − 29,9%"
             }, {
                 from: 0.300,
-                to: 0.349,
+                to: 0.349999,
                  color: '#689199',
                  name: "30,0% − 34,9%"
             },{
                 from: 0.350,
-                to: 0.399,
+                to: 0.399999,
                  color: '#246370',
                  name: "35,0% − 39,9%"
             },{
