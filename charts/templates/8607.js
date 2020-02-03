@@ -4,12 +4,12 @@
         {
             color: "#B00000",
             index: 0,
-            legendIndex: 0 
+            legendIndex: 2 
         },
         {
             color: "#474747",
             index: 2,
-            legendIndex: 2 
+            legendIndex: 0 
         },/*
         {
             color: "#D7E8D2",
@@ -32,6 +32,15 @@
             legendIndex: 5 
         }*/
   ],
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    x: 48,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
   xAxis: {
       type: "category"
   },

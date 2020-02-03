@@ -32,6 +32,16 @@
             legendIndex: 5 
         }
   ],
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    x: 48,
+    "align": "left",
+       "itemStyle": {
+      "fontWeight": "normal",
+      width: 150
+    }
+  },
   xAxis: {
       type: "category"
   },

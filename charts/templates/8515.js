@@ -8,11 +8,17 @@
 
       }
  },
-"xAxis": {
+ "xAxis": {
   "type": "category",
   "labels": {
-    "rotation": 0
-  } 
+    useHTML:true,
+    "rotation": -45
+    ,
+    "formatter": function () {
+      return this.value.replace("Kleidung Kinder", "Kinderkleider")
+      .replace("Kleidung Erwachsene", "Erwachsenenkleider")
+      .replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
+  } }
 },
 "yAxis": {
   max: 50,
@@ -44,8 +50,8 @@
 },
 "chart": {      
   "type": "column",
-  "inverted": true,
-  height: 600
+ // "inverted": true,
+  width: 485
 }
 }
 }());

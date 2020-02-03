@@ -3,7 +3,7 @@
     {
       "color": "#B00000",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 2,
       "data": [
         [
           "2011",
@@ -44,7 +44,7 @@
     {
       "color": "#474747",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 0,
       "data": [
         [
           "2011",
@@ -258,9 +258,9 @@
   },
   "legend": {
     "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "padding": 0,
     "itemMarginBottom": 2,

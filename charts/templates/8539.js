@@ -13,9 +13,18 @@
   "type": "category",
   "labels": {
     "rotation": 0,
+    align: "right",
+    useHTML: true,
+                "style": {
+                    "color": "#000000",
+                    "width": 120,
+                    whiteSpace: 'nowrap'}
+    //x: 5,
   } 
 },
+
 "yAxis": {
+  tickInterval: 100,
 //"max": 1000,
   "labels": {
     "format": "{value:,.0f}",
@@ -48,6 +57,7 @@
   "type": "column",
   "inverted": true,
   //"spacingTop": 100
+  
 }
 }
 }());

@@ -233,15 +233,21 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": 0
+      "useHTML": true,
+      "rotation": -45,
+      "formatter": function () {
+      return this.value.replace("Kleidung Kinder", "Kinderkleider")
+      .replace("Kleidung Erwachsene", "Erwachsenenkleider")
+      .replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
+  }
     },
     "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 613,
+    "width": 485,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -332,7 +338,6 @@
                 }
     },
     "type": "column",
-    "inverted": true,
     "renderTo": "container-8514",
     "spacingBottom": 12
   },

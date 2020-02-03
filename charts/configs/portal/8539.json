@@ -90,9 +90,13 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "width": 120,
+        "whiteSpace": "nowrap"
       },
-      "rotation": 0
+      "rotation": 0,
+      "align": "right",
+      "useHTML": true
     },
     "tickLength": 0
   },
@@ -249,7 +253,8 @@
         "textOverflow": "none"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -270,7 +275,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "padding": 0,

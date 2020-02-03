@@ -161,14 +161,20 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": 0
+      "rotation": -45,
+      "formatter": function () {
+     // var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+      return this.value.replace("Fam.-/Haushaltszulage", "Familienzulagen")
+      .replace("Andere Beiträge, nämlich….", "And. Beiträge")
+      .replace("Alimente für Kinder", "Kinderalimente");
+  }
     },
     "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 485,
     "height": 221,
     "spacing": [
       2,
@@ -260,7 +266,7 @@
                 }
     },
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     "renderTo": "container-8516",
     "spacingBottom": 12
   },

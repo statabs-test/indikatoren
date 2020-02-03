@@ -11,8 +11,13 @@
 "xAxis": {
   "type": "category",
   "labels": {
-    "rotation": 0
-  } 
+    "rotation": -45,
+    "formatter": function () {
+     // var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+      return this.value.replace("Fam.-/Haushaltszulage", "Familienzulagen")
+      .replace("Andere Beiträge, nämlich….", "And. Beiträge")
+      .replace("Alimente für Kinder", "Kinderalimente");
+  } }
 },
 "yAxis": {
   max: 75,
@@ -44,8 +49,8 @@
 },
 "chart": {      
   "type": "column",
-  "inverted": true,
-  //height: 600
+  "inverted": false,
+  width: 485
 }
 }
 }());
