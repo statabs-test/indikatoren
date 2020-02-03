@@ -143,7 +143,7 @@
             "useHTML": false,
             "itemStyle": {
                 "fontWeight": "normal",
-                "width": 115,
+                "width": 150,
                 textOverflow: null
             },
             "symbolRadius": 0,
