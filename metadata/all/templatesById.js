@@ -1084,6 +1084,7 @@ var templatesById = {
 	"8285": "mappieStadt",
 	"8286": "befragungenGrundauswertung001",
 	"8287": "line001",
+	"8288": "line001",
 	"8289": "befragungenGrundauswertung001",
 	"8290": "befragungenGrundauswertung001",
 	"8291": "befragungenGrundauswertung001",
