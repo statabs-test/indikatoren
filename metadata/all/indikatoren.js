@@ -41198,7 +41198,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Rund 60 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2019 arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2019 bei 3,9%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
