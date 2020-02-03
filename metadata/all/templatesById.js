@@ -1005,6 +1005,7 @@ var templatesById = {
 	"7520": "template001",
 	"7522": "pie001",
 	"7523": "template001",
+	"7548": "line001_print",
 	"7551": "line001",
 	"7563": "line001",
 	"7603": "template001",

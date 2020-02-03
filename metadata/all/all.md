@@ -1052,6 +1052,7 @@ id | visible | visibleInPortal | indikatorenset
 7520 | true | true | Tourismus
 7522 | true | true | Tourismus
 7523 | true | true | Tourismus
+7548 | true | false | Testset
 7551 | true | true | 
 7563 | true | false | 
 7603 | true | true | 
