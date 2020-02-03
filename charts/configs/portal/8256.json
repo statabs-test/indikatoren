@@ -1,99 +1,103 @@
 {
   "series": [
     {
+      "color": "#923f8d",
+      "index": 3,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2010: Vorläufig Aufgenommene",
+          98
+        ],
+        [
+          "2019: Vorläufig Aufgenommene",
+          286
+        ],
+        [
+          "2010: Asylsuchende",
+          55
+        ],
+        [
+          "2019: Asylsuchende",
+          63
+        ]
+      ],
+      "name": "0-17 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2010: Vorläufig Aufgenommene",
+          57
+        ],
+        [
+          "2019: Vorläufig Aufgenommene",
+          195
+        ],
+        [
+          "2010: Asylsuchende",
+          88
+        ],
+        [
+          "2019: Asylsuchende",
+          55
+        ]
+      ],
+      "name": "18-25 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2010: Vorläufig Aufgenommene",
+          169
+        ],
+        [
+          "2019: Vorläufig Aufgenommene",
+          372
+        ],
+        [
+          "2010: Asylsuchende",
+          136
+        ],
+        [
+          "2019: Asylsuchende",
+          152
+        ]
+      ],
+      "name": "26-64 J.",
+      "turboThreshold": 0
+    },
+    {
       "color": "#246370",
-      "visible": true,
+      "index": 0,
+      "legendIndex": 3,
       "data": [
         [
-          "2009: Vorläufig Aufgenommene",
-          93
+          "2010: Vorläufig Aufgenommene",
+          3
         ],
         [
-          "2009: Asylsuchende",
-          44
+          "2019: Vorläufig Aufgenommene",
+          22
         ],
         [
-          "2018: Vorläufig Aufgenommene",
-          303
-        ],
-        [
-          "2018: Asylsuchende",
-          83
-        ]
-      ],
-      "name": "0-17",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
-      "visible": true,
-      "data": [
-        [
-          "2009: Vorläufig Aufgenommene",
-          38
-        ],
-        [
-          "2009: Asylsuchende",
-          102
-        ],
-        [
-          "2018: Vorläufig Aufgenommene",
-          179
-        ],
-        [
-          "2018: Asylsuchende",
-          83
-        ]
-      ],
-      "name": "18-25",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "visible": true,
-      "data": [
-        [
-          "2009: Vorläufig Aufgenommene",
-          155
-        ],
-        [
-          "2009: Asylsuchende",
-          147
-        ],
-        [
-          "2018: Vorläufig Aufgenommene",
-          369
-        ],
-        [
-          "2018: Asylsuchende",
-          162
-        ]
-      ],
-      "name": "26-64",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "visible": true,
-      "data": [
-        [
-          "2009: Vorläufig Aufgenommene",
-          7
-        ],
-        [
-          "2009: Asylsuchende",
+          "2010: Asylsuchende",
           2
         ],
         [
-          "2018: Vorläufig Aufgenommene",
-          19
-        ],
-        [
-          "2018: Asylsuchende",
-          5
+          "2019: Asylsuchende",
+          2
         ]
       ],
-      "name": "65 u. m.",
+      "name": "65 J. u. m.",
       "turboThreshold": 0
     }
   ],
@@ -110,10 +114,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": 0
+      }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -146,8 +150,9 @@
             }
           }
     },
+    "marginBottom": 75,
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     "renderTo": "container-8256",
     "spacingBottom": 40
   },
@@ -159,8 +164,9 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "itemWidth": 10
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
     }
   },
   "title": {
@@ -198,9 +204,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": 400,
-    "tickInterval": 100
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -231,10 +235,12 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemMarginBottom": 5
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {

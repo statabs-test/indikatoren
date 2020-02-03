@@ -1,51 +1,55 @@
 (function(){
-    return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
-        }
-   },
-  "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": 0 
-    } 
-  },
-  "yAxis": {
-  	max: 400,
-  	tickInterval: 100,
-    "labels": {
-      "format": "{value:,.0f}"
-    }    
-  },
-  "series": [
-  {"color": "#246370", "visible": true},
-  {"color": "#FABD24", "visible": true},
-  {"color": "#B00000", "visible": true},
-  {"color": "#B375AB", "visible": true}
-  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    //"x": 25,
-	  //"y": 45,    
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    "shared": false
-  },
-  "chart": {      
-    "type": "column",
-    "inverted": true,
-    //"spacingTop": 100
+  return {
+"plotOptions": {
+  "series": {
+    pointPadding: 100,
+    borderWidth: 0,
+    "pointWidth": 30,
+    "dataLabels": {
+      "style": {
+        "fontSize": "10px"
+      }
+    },
+    "stacking": "normal"
   }
+},
+"xAxis": {
+  "tickInterval": 1
+},  
+"yAxis": {
+  "labels": {
+    "format": "{value:,.0f}",
+  },
+"max": undefined
+},
+"legend": {
+  "enabled": true,
+  "layout": "horizontal",
+  "verticalAlign": "top",
+  "align": "left",
+  //"y": 40,
+  //"itemWidth": 150,
+  "itemMarginBottom": 5,
+  "itemStyle": {
+    "fontWeight": "normal"
+  }
+},
+"series": [
+{"color": "#923f8d", "index": 3, "legendIndex":0}, /*grün dunkel2*/
+{"color": "#b375ab", "index": 2, "legendIndex":2}, /*grün mittel*/
+{"color": "#A8C3CA", "index": 1, "legendIndex":1}, 
+{"color": "#246370", "index": 0, "legendIndex":3}, 
+],
+"chart": {
+  "marginBottom": 75,
+  //"marginTop": 75,
+  "type": "column",
+  "inverted": false
+},
+"tooltip": {
+"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+ "shared": false
+},
 }
 }());

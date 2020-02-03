@@ -1834,7 +1834,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 waren 212 Kinder an Einsätzen der Polizei im Bereich häuslicher Gewalt involviert.",
+		"lesehilfe": "Im Jahr 2018 waren 212 Kinder bei Einsätzen der Polizei im Bereich häuslicher Gewalt involviert.",
 		"erlaeuterungen": "Es werden Anzahl minderjährige Personen gezählt, welche in irgendeiner Weise bei Polizeieinsätzen des Kantons Basel-Stadt involviert waren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
