@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#FABD24",
       "data": [
         [
           2008,
@@ -48,7 +48,108 @@
           -28
         ]
       ],
-      "name": "Saldo Geburten\u002FTodesfälle"
+      "name": "Saldo Geburten-Todesfälle"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2008,
+          2034
+        ],
+        [
+          2009,
+          1666
+        ],
+        [
+          2010,
+          263
+        ],
+        [
+          2011,
+          1668
+        ],
+        [
+          2012,
+          1738
+        ],
+        [
+          2013,
+          1899
+        ],
+        [
+          2014,
+          793
+        ],
+        [
+          2015,
+          712
+        ],
+        [
+          2016,
+          902
+        ],
+        [
+          2017,
+          578
+        ],
+        [
+          2018,
+          688
+        ]
+      ],
+      "name": "Saldo Zuzüge-Wegzüge"
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "data": [
+        [
+          2008,
+          1556
+        ],
+        [
+          2009,
+          1259
+        ],
+        [
+          2010,
+          -16
+        ],
+        [
+          2011,
+          1505
+        ],
+        [
+          2012,
+          1509
+        ],
+        [
+          2013,
+          1779
+        ],
+        [
+          2014,
+          616
+        ],
+        [
+          2015,
+          586
+        ],
+        [
+          2016,
+          1054
+        ],
+        [
+          2017,
+          516
+        ],
+        [
+          2018,
+          660
+        ]
+      ],
+      "name": "Saldo Total"
     }
   ],
   "chart": {
@@ -73,11 +174,12 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "column",
+    "inverted": false,
     "renderTo": "container-5148"
   },
   "title": {
@@ -104,6 +206,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": -500,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -116,9 +219,16 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 250,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 1
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -149,10 +259,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -162,7 +272,9 @@
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

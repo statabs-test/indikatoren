@@ -59,16 +59,17 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 lebten im Kanton Basel-Stadt 127 325 Schweizerinnen und Schweizer und 72 931 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1999 um 20 650 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 10 641.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_002",
+		"orderKey": "01_00_00_00_00_102",
 		"parentId": null,
 		"children": [
 			"6592",
-			"6643"
+			"6643",
+			"7784"
 		],
 		"renderLink": [],
 		"quellenangabe": [
