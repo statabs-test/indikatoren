@@ -17,7 +17,7 @@
     useHTML: true,
                 "style": {
                     "color": "#000000",
-                    "width": 120,
+                    "width": 150,
                     whiteSpace: 'nowrap'}
     //x: 5,
   } 
@@ -28,6 +28,7 @@
 //"max": 1000,
   "labels": {
     "format": "{value:,.0f}",
+    y: 10,
       style: { 
     textOverflow: 'none' // prevents ellipsis
  } 
@@ -53,9 +54,11 @@
   "shared": false
 },
 "chart": {      
-  marginRight: 18,
+  marginRight: 30,
   "type": "column",
   "inverted": true,
+  "height": 350,
+  marginBottom: 50
   //"spacingTop": 100
   
 }

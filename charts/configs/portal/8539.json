@@ -91,7 +91,7 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none",
-        "width": 120,
+        "width": 150,
         "whiteSpace": "nowrap"
       },
       "rotation": 0,
@@ -104,7 +104,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 221,
+    "height": 363,
     "spacing": [
       2,
       2,
@@ -194,9 +194,10 @@
                     }
                 }
     },
-    "marginRight": 18,
+    "marginRight": 30,
     "type": "column",
     "inverted": true,
+    "marginBottom": 50,
     "renderTo": "container-8539",
     "spacingBottom": 12
   },
@@ -246,7 +247,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "style": {
         "fontSize": "10px",
         "color": "#000000",
