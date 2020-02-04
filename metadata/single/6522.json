@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"02_05_00_00_00_501",
 "parentId":null,
-"children":["7055"],
+"children":["7055","8760"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
 "datenInChartIntegriert":false,

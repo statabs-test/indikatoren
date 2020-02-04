@@ -25,6 +25,7 @@
             },
             "min": 0,
             //tickAmount: 9,
+            tickAmount: 6
         },
         {
             gridLineColor: '#B9CFD7',
@@ -45,7 +46,8 @@
             "min": 0,
             "max": undefined,
             //tickAmount: 9,
-            tickInterval: 3,
+           // tickInterval: 3,
+           tickAmount: 6,
             "opposite": true
         }
         ],
@@ -56,6 +58,7 @@
             "type": "category",
             labels: {
                 x: 17,
+                rotation: 0,
                 "formatter": function () {
                     return this.value.split("-").slice(0, -1);
                 },

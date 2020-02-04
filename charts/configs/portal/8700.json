@@ -530,6 +530,7 @@
         "whiteSpace": "nowrap"
       },
       "x": 17,
+      "rotation": 0,
       "formatter": function () {
                     return this.value.split("-").slice(0, -1);
                 }
@@ -614,7 +615,8 @@
           "color": "#000000"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 6
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -633,7 +635,7 @@
         }
       },
       "min": 0,
-      "tickInterval": 3,
+      "tickAmount": 6,
       "opposite": true
     }
   ],

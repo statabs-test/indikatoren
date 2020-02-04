@@ -3795,6 +3795,84 @@ var indikatorensetData = [
 		"id": 8701
 	},
 	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Private Haushaltsdienstleistungen",
+		"subtitle": "",
+		"kuerzel": "I.03.4.08702",
+		"kuerzelKunde": "4.6-01",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Private Haushaltsdienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den letzten zehn Jahren waren in der Branche Private Haushaltsdienstleistungen nie mehr als 20 Personen arbeitslos.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_06_00_00_00_601",
+		"parentId": 8689,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8702,
+		"chart-id": 8702,
+		"filter": "",
+		"id": 8702
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
+		"subtitle": "",
+		"kuerzel": "I.03.5.08703",
+		"kuerzelKunde": "4.6-02",
+		"description": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 3. Quartal 2019 sind in Basel-Stad 351 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 & 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2019 15 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 VZÄ pro Quartal.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_06_00_00_00_602",
+		"parentId": 8690,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8703,
+		"chart-id": 8703,
+		"filter": "",
+		"id": 8703
+	},
+	{
 		"title": "Beschäftigung in der Branche Lagerei und Zustelldienste",
 		"subtitle": "",
 		"kuerzel": "I.03.2.08704",
@@ -3832,5 +3910,122 @@ var indikatorensetData = [
 		"chart-id": 8704,
 		"filter": "",
 		"id": 8704
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.4.08705",
+		"kuerzelKunde": "4.7-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:00:53.5353",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Bereich Lagerei sind Ende 2019 rund 60 Personen arbeitslos, bei den Zustelldiensten sind es etwa 20. Die mittlere jährliche Arbeitslosenquote des Bereichs Lagerei liegt bei 5,5%, bei den Zustelldiensten liegt die Quote bei 3,3%.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_702",
+		"parentId": 8694,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8705,
+		"chart-id": 8705,
+		"filter": "",
+		"id": 8705
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.5.08706",
+		"kuerzelKunde": "4.7-03",
+		"description": "Ausländische Erwerbstätige in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:01:27.2727",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 3. Quartal 2019 sind im Bereich Lagerei 346 und im Bereich Zustelldienste 23 Grenzgänger beschäftigt. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2019 3 Stellen. Die Zuwanderung von Kurz- und Daueraufenthaltern pro Quartal beläuft sich in den letzten zehn Jahren auf maximal 41 Personen.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_703",
+		"parentId": 8695,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8706,
+		"chart-id": 8706,
+		"filter": "",
+		"id": 8706
+	},
+	{
+		"title": "Medianlohn in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.3.08707",
+		"kuerzelKunde": "4.7-04",
+		"description": "Medianlohn in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:03:33.3333",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Lagerei liegt im Jahr 2016 bei rund 6 000 Franken brutto, im Bereich Zustelldienste bei etwa 5800 Franken brutto.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_704",
+		"parentId": 8696,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8707,
+		"chart-id": 8707,
+		"filter": "",
+		"id": 8707
 	}
 ];

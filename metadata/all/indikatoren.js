@@ -26,7 +26,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_404",
 		"parentId": null,
 		"children": [
-			"7003"
+			"7003",
+			"8708"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -68,7 +69,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_402",
 		"parentId": null,
 		"children": [
-			"7004"
+			"7004",
+			"8709"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -110,7 +112,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_403",
 		"parentId": null,
 		"children": [
-			"7005"
+			"7005",
+			"8710"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -152,7 +155,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_405",
 		"parentId": null,
 		"children": [
-			"7006"
+			"7006",
+			"8711"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -194,7 +198,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_406",
 		"parentId": null,
 		"children": [
-			"7007"
+			"7007",
+			"8712"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -236,7 +241,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_401",
 		"parentId": null,
 		"children": [
-			"7008"
+			"7008",
+			"8713"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -278,7 +284,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"7009"
+			"7009",
+			"8714"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -321,7 +328,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_102",
 		"parentId": null,
 		"children": [
-			"7010"
+			"7010",
+			"8715"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -364,7 +372,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"7011"
+			"7011",
+			"8716"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -406,7 +415,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_104",
 		"parentId": null,
 		"children": [
-			"7012"
+			"7012",
+			"8717"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -448,7 +458,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_105",
 		"parentId": null,
 		"children": [
-			"7013"
+			"7013",
+			"8718"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -490,7 +501,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"7014"
+			"7014",
+			"8719"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -534,7 +546,8 @@ var indikatoren = [
 		"children": [
 			"7015",
 			"8252",
-			"8523"
+			"8523",
+			"8720"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -576,7 +589,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_304",
 		"parentId": null,
 		"children": [
-			"7016"
+			"7016",
+			"8721"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -618,7 +632,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_305",
 		"parentId": null,
 		"children": [
-			"7017"
+			"7017",
+			"8722"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -660,7 +675,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_306",
 		"parentId": null,
 		"children": [
-			"7018"
+			"7018",
+			"8723"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -703,7 +719,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"7019"
+			"7019",
+			"8724"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -745,7 +762,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_409",
 		"parentId": null,
 		"children": [
-			"7020"
+			"7020",
+			"8725"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -787,7 +805,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_410",
 		"parentId": null,
 		"children": [
-			"7021"
+			"7021",
+			"8726"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -829,7 +848,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_411",
 		"parentId": null,
 		"children": [
-			"7022"
+			"7022",
+			"8727"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -871,7 +891,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_412",
 		"parentId": null,
 		"children": [
-			"7023"
+			"7023",
+			"8728"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -913,7 +934,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_413",
 		"parentId": null,
 		"children": [
-			"7024"
+			"7024",
+			"8729"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -955,7 +977,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_414",
 		"parentId": null,
 		"children": [
-			"7025"
+			"7025",
+			"8730"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1040,7 +1063,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_205",
 		"parentId": null,
 		"children": [
-			"7026"
+			"7026",
+			"8731"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1082,7 +1106,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_206",
 		"parentId": null,
 		"children": [
-			"7027"
+			"7027",
+			"8732"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1124,7 +1149,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"7028"
+			"7028",
+			"8733"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1327,7 +1353,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_417",
 		"parentId": null,
 		"children": [
-			"7029"
+			"7029",
+			"8734"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1369,7 +1396,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_418",
 		"parentId": null,
 		"children": [
-			"7030"
+			"7030",
+			"8735"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1411,7 +1439,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_419",
 		"parentId": null,
 		"children": [
-			"7031"
+			"7031",
+			"8736"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1453,7 +1482,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_420",
 		"parentId": null,
 		"children": [
-			"7032"
+			"7032",
+			"8737"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1495,7 +1525,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_421",
 		"parentId": null,
 		"children": [
-			"7033"
+			"7033",
+			"8738"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1537,7 +1568,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_422",
 		"parentId": null,
 		"children": [
-			"7034"
+			"7034",
+			"8739"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24824,7 +24856,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_106",
 		"parentId": null,
 		"children": [
-			"7035"
+			"7035",
+			"8740"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24866,7 +24899,8 @@ var indikatoren = [
 		"orderKey": "02_01_00_00_00_107",
 		"parentId": null,
 		"children": [
-			"7036"
+			"7036",
+			"8741"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24908,7 +24942,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_407",
 		"parentId": null,
 		"children": [
-			"7037"
+			"7037",
+			"8742"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24950,7 +24985,8 @@ var indikatoren = [
 		"orderKey": "02_04_01_00_00_408",
 		"parentId": null,
 		"children": [
-			"7038"
+			"7038",
+			"8743"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24992,7 +25028,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_423",
 		"parentId": null,
 		"children": [
-			"7039"
+			"7039",
+			"8744"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25034,7 +25071,8 @@ var indikatoren = [
 		"orderKey": "02_04_03_00_00_424",
 		"parentId": null,
 		"children": [
-			"7040"
+			"7040",
+			"8745"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25076,7 +25114,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"7041"
+			"7041",
+			"8746"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25118,7 +25157,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"7042"
+			"7042",
+			"8747"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25160,7 +25200,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_207",
 		"parentId": null,
 		"children": [
-			"7043"
+			"7043",
+			"8748"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25202,7 +25243,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_208",
 		"parentId": null,
 		"children": [
-			"7044"
+			"7044",
+			"8749"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25244,7 +25286,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"7045"
+			"7045",
+			"8750"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25286,7 +25329,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"7046"
+			"7046",
+			"8751"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25328,7 +25372,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"7047"
+			"7047",
+			"8752"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25371,7 +25416,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"7048"
+			"7048",
+			"8753"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25413,7 +25459,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"7049"
+			"7049",
+			"8754"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25455,7 +25502,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_401",
 		"parentId": null,
 		"children": [
-			"7050"
+			"7050",
+			"8755"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26845,7 +26893,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_307",
 		"parentId": null,
 		"children": [
-			"7051"
+			"7051",
+			"8756"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26887,7 +26936,8 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_308",
 		"parentId": null,
 		"children": [
-			"7052"
+			"7052",
+			"8757"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27374,7 +27424,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_415",
 		"parentId": null,
 		"children": [
-			"7053"
+			"7053",
+			"8758"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27416,7 +27467,8 @@ var indikatoren = [
 		"orderKey": "02_04_02_00_00_416",
 		"parentId": null,
 		"children": [
-			"7054"
+			"7054",
+			"8759"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27458,7 +27510,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_501",
 		"parentId": null,
 		"children": [
-			"7055"
+			"7055",
+			"8760"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27500,7 +27553,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_502",
 		"parentId": null,
 		"children": [
-			"7056"
+			"7056",
+			"8761"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27542,7 +27596,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_503",
 		"parentId": null,
 		"children": [
-			"7057"
+			"7057",
+			"8762"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27584,7 +27639,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_504",
 		"parentId": null,
 		"children": [
-			"7058"
+			"7058",
+			"8763"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27626,7 +27682,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_505",
 		"parentId": null,
 		"children": [
-			"7059"
+			"7059",
+			"8764"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27668,7 +27725,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_506",
 		"parentId": null,
 		"children": [
-			"7060"
+			"7060",
+			"8765"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27710,7 +27768,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_507",
 		"parentId": null,
 		"children": [
-			"7061"
+			"7061",
+			"8766"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27752,7 +27811,8 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_508",
 		"parentId": null,
 		"children": [
-			"7062"
+			"7062",
+			"8767"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27794,7 +27854,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"7064"
+			"7064",
+			"8769"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40658,7 +40719,8 @@ var indikatoren = [
 		"orderKey": "03_01_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"7474"
+			"7474",
+			"8770"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40700,7 +40762,8 @@ var indikatoren = [
 		"orderKey": "03_01_00_00_00_102",
 		"parentId": null,
 		"children": [
-			"7475"
+			"7475",
+			"8771"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40742,7 +40805,8 @@ var indikatoren = [
 		"orderKey": "03_01_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"7476"
+			"7476",
+			"8772"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40785,7 +40849,8 @@ var indikatoren = [
 		"orderKey": "03_01_00_00_00_104",
 		"parentId": null,
 		"children": [
-			"7477"
+			"7477",
+			"8773"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40827,7 +40892,8 @@ var indikatoren = [
 		"orderKey": "03_02_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"7478"
+			"7478",
+			"8774"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40869,7 +40935,8 @@ var indikatoren = [
 		"orderKey": "03_02_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"7479"
+			"7479",
+			"8775"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40911,7 +40978,8 @@ var indikatoren = [
 		"orderKey": "03_02_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"7480"
+			"7480",
+			"8776"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40954,7 +41022,8 @@ var indikatoren = [
 		"orderKey": "03_02_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"7481"
+			"7481",
+			"8777"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -40996,7 +41065,8 @@ var indikatoren = [
 		"orderKey": "03_03_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"7482"
+			"7482",
+			"8778"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41038,7 +41108,8 @@ var indikatoren = [
 		"orderKey": "03_03_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"7483"
+			"7483",
+			"8779"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41080,7 +41151,8 @@ var indikatoren = [
 		"orderKey": "03_03_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"7484"
+			"7484",
+			"8780"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41123,7 +41195,8 @@ var indikatoren = [
 		"orderKey": "03_03_00_00_00_304",
 		"parentId": null,
 		"children": [
-			"7485"
+			"7485",
+			"8781"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41165,7 +41238,8 @@ var indikatoren = [
 		"orderKey": "03_04_00_00_00_401",
 		"parentId": null,
 		"children": [
-			"7486"
+			"7486",
+			"8782"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41207,7 +41281,8 @@ var indikatoren = [
 		"orderKey": "03_04_00_00_00_402",
 		"parentId": null,
 		"children": [
-			"7487"
+			"7487",
+			"8783"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41249,7 +41324,8 @@ var indikatoren = [
 		"orderKey": "03_04_00_00_00_403",
 		"parentId": null,
 		"children": [
-			"7488"
+			"7488",
+			"8784"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41292,7 +41368,8 @@ var indikatoren = [
 		"orderKey": "03_04_00_00_00_404",
 		"parentId": null,
 		"children": [
-			"7489"
+			"7489",
+			"8785"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41321,7 +41398,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe2": "Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41331,10 +41408,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_901",
+		"orderKey": "03_08_00_00_00_801",
 		"parentId": null,
 		"children": [
-			"7494"
+			"7494",
+			"8790"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41363,7 +41441,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe2": "Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41373,10 +41451,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_902",
+		"orderKey": "03_08_00_00_00_802",
 		"parentId": null,
 		"children": [
-			"7495"
+			"7495",
+			"8791"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41405,7 +41484,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe2": "Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41415,10 +41494,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_903",
+		"orderKey": "03_08_00_00_00_803",
 		"parentId": null,
 		"children": [
-			"7496"
+			"7496",
+			"8792"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41448,7 +41528,7 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
 		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe2": "Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41458,10 +41538,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_904",
+		"orderKey": "03_08_00_00_00_804",
 		"parentId": null,
 		"children": [
-			"7497"
+			"7497",
+			"8793"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -41475,175 +41556,6 @@ var indikatoren = [
 		"chart-id": 7464,
 		"filter": "",
 		"id": 7464
-	},
-	{
-		"title": "Beschäftigung in der Branche Heime und Sozialwesen",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07469",
-		"kuerzelKunde": "4.9-01",
-		"description": "Beschäftigung in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_801",
-		"parentId": null,
-		"children": [
-			"7502"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7469,
-		"chart-id": 7469,
-		"filter": "",
-		"id": 7469
-	},
-	{
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07470",
-		"kuerzelKunde": "4.9-02",
-		"description": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_802",
-		"parentId": null,
-		"children": [
-			"7503"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7470,
-		"chart-id": 7470,
-		"filter": "",
-		"id": 7470
-	},
-	{
-		"title": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.5.07471",
-		"kuerzelKunde": "4.9-03",
-		"description": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_803",
-		"parentId": null,
-		"children": [
-			"7504"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7471,
-		"chart-id": 7471,
-		"filter": "",
-		"id": 7471
-	},
-	{
-		"title": "Medianlohn in der Branche Heime und Sozialwesen",
-		"subtitle": "Nordwestschweiz",
-		"kuerzel": "I.03.3.07473",
-		"kuerzelKunde": "4.9-04",
-		"description": "Medianlohn in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_804",
-		"parentId": null,
-		"children": [
-			"7505"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7473,
-		"chart-id": 7473,
-		"filter": "",
-		"id": 7473
 	},
 	{
 		"title": "Beschäftigung im Baunebengewerbe",
@@ -49591,7 +49503,8 @@ var indikatoren = [
 		"orderKey": "03_05_00_00_00_501",
 		"parentId": null,
 		"children": [
-			"8698"
+			"8698",
+			"8802"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49633,7 +49546,8 @@ var indikatoren = [
 		"orderKey": "03_05_00_00_00_502",
 		"parentId": null,
 		"children": [
-			"8699"
+			"8699",
+			"8803"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49675,7 +49589,8 @@ var indikatoren = [
 		"orderKey": "03_05_00_00_00_503",
 		"parentId": null,
 		"children": [
-			"8700"
+			"8700",
+			"8804"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49717,7 +49632,8 @@ var indikatoren = [
 		"orderKey": "03_05_00_00_00_504",
 		"parentId": null,
 		"children": [
-			"8701"
+			"8701",
+			"8805"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49759,7 +49675,8 @@ var indikatoren = [
 		"orderKey": "03_06_00_00_00_601",
 		"parentId": null,
 		"children": [
-			"8702"
+			"8702",
+			"8806"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49801,7 +49718,8 @@ var indikatoren = [
 		"orderKey": "03_06_00_00_00_602",
 		"parentId": null,
 		"children": [
-			"8703"
+			"8703",
+			"8807"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49883,7 +49801,8 @@ var indikatoren = [
 		"orderKey": "03_07_00_00_00_701",
 		"parentId": null,
 		"children": [
-			"8704"
+			"8704",
+			"8808"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49925,7 +49844,8 @@ var indikatoren = [
 		"orderKey": "03_07_00_00_00_702",
 		"parentId": null,
 		"children": [
-			"8705"
+			"8705",
+			"8809"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -49967,7 +49887,8 @@ var indikatoren = [
 		"orderKey": "03_07_00_00_00_703",
 		"parentId": null,
 		"children": [
-			"8706"
+			"8706",
+			"8810"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -50009,7 +49930,8 @@ var indikatoren = [
 		"orderKey": "03_07_00_00_00_704",
 		"parentId": null,
 		"children": [
-			"8707"
+			"8707",
+			"8811"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -50185,6 +50107,86 @@ var indikatoren = [
 		"id": 8701
 	},
 	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Private Haushaltsdienstleistungen",
+		"subtitle": "",
+		"kuerzel": "I.03.4.08702",
+		"kuerzelKunde": "4.6-01",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Private Haushaltsdienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den letzten zehn Jahren waren in der Branche Private Haushaltsdienstleistungen nie mehr als 20 Personen arbeitslos.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_06_00_00_00_601",
+		"parentId": 8689,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8702,
+		"chart-id": 8702,
+		"filter": "",
+		"id": 8702
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
+		"subtitle": "",
+		"kuerzel": "I.03.5.08703",
+		"kuerzelKunde": "4.6-02",
+		"description": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 3. Quartal 2019 sind in Basel-Stad 351 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 & 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2019 15 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 VZÄ pro Quartal.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_06_00_00_00_602",
+		"parentId": 8690,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8703,
+		"chart-id": 8703,
+		"filter": "",
+		"id": 8703
+	},
+	{
 		"title": "Beschäftigung in der Branche Lagerei und Zustelldienste",
 		"subtitle": "",
 		"kuerzel": "I.03.2.08704",
@@ -50223,6 +50225,126 @@ var indikatoren = [
 		"chart-id": 8704,
 		"filter": "",
 		"id": 8704
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.4.08705",
+		"kuerzelKunde": "4.7-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:00:53.5353",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Bereich Lagerei sind Ende 2019 rund 60 Personen arbeitslos, bei den Zustelldiensten sind es etwa 20. Die mittlere jährliche Arbeitslosenquote des Bereichs Lagerei liegt bei 5,5%, bei den Zustelldiensten liegt die Quote bei 3,3%.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_07_00_00_00_702",
+		"parentId": 8694,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8705,
+		"chart-id": 8705,
+		"filter": "",
+		"id": 8705
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.5.08706",
+		"kuerzelKunde": "4.7-03",
+		"description": "Ausländische Erwerbstätige in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:01:27.2727",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 3. Quartal 2019 sind im Bereich Lagerei 346 und im Bereich Zustelldienste 23 Grenzgänger beschäftigt. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2019 3 Stellen. Die Zuwanderung von Kurz- und Daueraufenthaltern pro Quartal beläuft sich in den letzten zehn Jahren auf maximal 41 Personen.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_07_00_00_00_703",
+		"parentId": 8695,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8706,
+		"chart-id": 8706,
+		"filter": "",
+		"id": 8706
+	},
+	{
+		"title": "Medianlohn in der Branche Lagerei und Zustelldienste",
+		"subtitle": "",
+		"kuerzel": "I.03.3.08707",
+		"kuerzelKunde": "4.7-04",
+		"description": "Medianlohn in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T11:03:33.3333",
+		"stufe1": "Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Lagerei liegt im Jahr 2016 bei rund 6 000 Franken brutto, im Bereich Zustelldienste bei etwa 5800 Franken brutto.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_07_00_00_00_704",
+		"parentId": 8696,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8707,
+		"chart-id": 8707,
+		"filter": "",
+		"id": 8707
 	},
 	{
 		"title": "Test Daten",

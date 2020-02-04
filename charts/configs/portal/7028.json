@@ -42,9 +42,13 @@
         [
           "2016",
           151362
+        ],
+        [
+          "2017",
+          151198
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "BS",
       "turboThreshold": 0
     },
     {
@@ -89,9 +93,13 @@
         [
           "2016",
           117336
+        ],
+        [
+          "2017",
+          118121
         ]
       ],
-      "name": "Basel-Landschaft",
+      "name": "BL",
       "turboThreshold": 0
     },
     {
@@ -136,9 +144,13 @@
         [
           "2016",
           265251
+        ],
+        [
+          "2017",
+          267499
         ]
       ],
-      "name": "Aargau",
+      "name": "AG",
       "turboThreshold": 0
     },
     {
@@ -183,9 +195,13 @@
         [
           "2016",
           787274
+        ],
+        [
+          "2017",
+          796714
         ]
       ],
-      "name": "Zürich",
+      "name": "ZH",
       "turboThreshold": 0
     }
   ],
