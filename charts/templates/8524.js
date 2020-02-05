@@ -11,7 +11,8 @@
   "yAxis": {
     "tickInterval":20,
       "labels": {
-        "format": "{value}%"
+        "format": "{value}%",
+        x: -5,
       },
       "min": 0
   },
