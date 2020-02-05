@@ -462,7 +462,8 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value}%",
+      "x": -5
     },
     "tickInterval": 20,
     "min": 0

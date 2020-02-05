@@ -274,7 +274,8 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "x": -5
     },
     "reversedStacks": false
   },

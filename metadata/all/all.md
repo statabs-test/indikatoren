@@ -1222,6 +1222,7 @@ id | visible | visibleInPortal | indikatorenset
 8544 | true | false | CMS Kennzahlen Soziales (Print)
 8545 | true | false | CMS Kennzahlen Soziales (Print)
 8546 | true | false | CMS Kennzahlen Soziales (Print)
+8547 | true | false | CMS Kennzahlen Soziales (Print)
 8548 | true | false | CMS Kennzahlen Soziales (Print)
 8549 | true | false | CMS Kennzahlen Soziales (Print)
 8550 | true | false | CMS Kennzahlen Soziales (Print)

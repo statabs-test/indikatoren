@@ -27,34 +27,34 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:0.649,
+                to:0.199,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,00</span> < 0,65"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,00</span> < 0,19"
             }, {
-                from: 0.65,
-                to: 0.749,
+                from: 0.200,
+                to: 0.229,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>0,65 − 0,74"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>0,20 − 0,22"
             }, {
-                from: 0.75,
-                to: 0.999,
+                from: 0.23,
+                to: 0.259,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>0,75 − 0,99"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>0,23 − 0,25"
             },{
-                from: 1,
-                to: 1.399,
+                from: 0.26,
+                to: 0.319,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>1,00 − 1,39"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>0,26 − 0,31"
             },{
-                from: 1.4,
+                from: 0.32,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,00</span> ≥ 1,40"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,00</span> ≥ 0,32"
             }], 
         },
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 0, y: 2
+		      	x: 0, y: 1
 		      },
 		      {
 		      	//2nd series: use y values from column 3
@@ -144,7 +144,7 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil <br/>Leerwohnungen (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "Jugendquotient", 245 + shiftHoriz, 220 + shiftVert + 30);
 					/*
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');

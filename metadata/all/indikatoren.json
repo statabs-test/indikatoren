@@ -46571,6 +46571,46 @@
 		"id": 8546
 	},
 	{
+		"title": "Jugendquotient",
+		"subtitle": "Basel-Stadt, 2019",
+		"kuerzel": "I.01.1.08547",
+		"kuerzelKunde": "",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2020-01-28T16:08:37.3737",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.1 Allgemein",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"template": "mappie001_print",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "99_99_00_00_00_000",
+		"parentId": 5116,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8547,
+		"chart-id": 8547,
+		"filter": "",
+		"id": 8547
+	},
+	{
 		"title": "Anteil Familienhaushalte",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.08277",
