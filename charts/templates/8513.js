@@ -17,7 +17,7 @@
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
-      x: -3
+      x: -5
     },
     "reversedStacks": false
   },
