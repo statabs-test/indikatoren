@@ -258,6 +258,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "tickInterval": 100,
     "reversedStacks": false
   },
   "navigation": {

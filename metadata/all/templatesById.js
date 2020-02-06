@@ -1142,7 +1142,7 @@ var templatesById = {
 	"8452": "template001",
 	"8511": "mappie001_print",
 	"8512": "mappie001_print",
-	"8513": "mappie001_print",
+	"8513": "template001_print",
 	"8514": "template001_print",
 	"8515": "template001_print",
 	"8516": "template001_print",

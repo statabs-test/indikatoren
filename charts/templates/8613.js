@@ -15,6 +15,7 @@
     "type": "category"    
   },  
   "yAxis": {
+    tickInterval: 100,
     "labels": {
       "format": "{value:,.0f}"
     },
