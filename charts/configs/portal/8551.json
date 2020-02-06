@@ -253,7 +253,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen"
+    "text": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe"
   },
   "subtitle": {
     "style": {
@@ -262,7 +262,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kanton Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "enabled": true,
