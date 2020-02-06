@@ -15,8 +15,8 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -135,
-			"y": -35,
+			"x": -345,
+			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -99,8 +99,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -152,18 +152,21 @@
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
+					var shiftHoriz = 280;
+					var shiftVert = 70;
+
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 355, 210);
+	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
+	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
+	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245 + shiftHoriz, 220 + shiftVert);
+	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 385 + shiftHoriz, 220 + shiftVert);
 	                
-	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 450, 275, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 450, 300, undefined, false, 'right');
+					fn.addLegendCircle(chart, 392 + shiftHoriz, 315 + shiftVert, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450 + shiftHoriz, 300 + shiftVert, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 392 + shiftHoriz, 337 + shiftVert, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 422 + shiftHoriz, 325 + shiftVert, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 392 + shiftHoriz, 358 + shiftVert, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 450 + shiftHoriz, 350 + shiftVert, undefined, false, 'right');
 				
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
