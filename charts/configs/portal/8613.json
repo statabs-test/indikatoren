@@ -289,9 +289,9 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

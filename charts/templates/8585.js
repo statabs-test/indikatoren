@@ -70,7 +70,9 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    "spacingBottom": 40,
+    "width": 992,
+    "height": 484,
   }
 }
 }());

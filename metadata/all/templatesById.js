@@ -1240,7 +1240,7 @@ var templatesById = {
 	"8611": "befragungenProzent001_print",
 	"8612": "befragungenGrundauswertung001_print",
 	"8613": "template001_print",
-	"8812": "mappie001",
+	"8812": "mappie001_print",
 	"9995": "mappie001",
 	"9996": "spider001",
 	"9997": "bubble001",

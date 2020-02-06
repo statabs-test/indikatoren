@@ -4,6 +4,7 @@
     "tickInterval": 1
   },
   "yAxis": {
+    "tickInterval": 5,
     "min": 0, 
 	"labels": {
 		"format": "{value:,.0f}%"
@@ -47,7 +48,7 @@
   "legend": {
     "enabled": true,
     //"y": 50,
-    "itemWidth": 200,
+    //"itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

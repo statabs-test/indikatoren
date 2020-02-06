@@ -3938,7 +3938,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teil) mit volljährigen Kindern.",
-		"template": "mappie001",
+		"template": "mappie001_print",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_326",
