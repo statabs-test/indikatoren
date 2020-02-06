@@ -4,89 +4,43 @@
       "color": "#A8C3CA",
       "data": [
         [
-          "1",
-          "Verzicht auf Luxusartikel"
-        ],
-        [
-          "2",
-          "Preisbewusst einkaufen"
-        ],
-        [
-          "3",
-          "Alte Sachen länger nutzen"
-        ],
-        [
-          "4",
-          "Reparaturen selber erledigen"
-        ],
-        [
-          "5",
-          "Bei Ferien sparen"
-        ],
-        [
-          "6",
-          "Weniger Freizeitakt. (Eltern)"
-        ],
-        [
-          "7",
-          "Verzicht auf Sparen"
-        ],
-        [
-          "8",
-          "Kleidung ausbessern"
-        ],
-        [
-          "9",
-          "Verzicht auf Auto\u002FÖV-Abo"
-        ],
-        [
-          "10",
-          "Verzicht auf Kinderbetreuung"
-        ]
-      ],
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
-      "data": [
-        [
-          "1",
+          "Verzicht auf Luxusartikel",
           73.3
         ],
         [
-          "2",
+          "Preisbewusst einkaufen",
           70.2
         ],
         [
-          "3",
+          "Alte Sachen länger nutzen",
           54.2
         ],
         [
-          "4",
+          "Reparaturen selber erledigen",
           51
         ],
         [
-          "5",
+          "Bei Ferien sparen",
           52.9
         ],
         [
-          "6",
+          "Weniger Freizeitakt. (Eltern)",
           45
         ],
         [
-          "7",
+          "Verzicht auf Sparen",
           38.2
         ],
         [
-          "8",
+          "Kleidung ausbessern",
           23.1
         ],
         [
-          "9",
+          "Verzicht auf Auto\u002FÖV-Abo",
           19.7
         ],
         [
-          "10",
+          "Verzicht auf Kinderbetreuung",
           22.3
         ]
       ],
@@ -94,50 +48,97 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#FABD24",
       "data": [
         [
-          "1",
+          "Verzicht auf Luxusartikel",
           71.9
         ],
         [
-          "2",
+          "Preisbewusst einkaufen",
           68.4
         ],
         [
-          "3",
+          "Alte Sachen länger nutzen",
           55.1
         ],
         [
-          "4",
+          "Reparaturen selber erledigen",
           51.5
         ],
         [
-          "5",
+          "Bei Ferien sparen",
           49
         ],
         [
-          "6",
+          "Weniger Freizeitakt. (Eltern)",
           42.5
         ],
         [
-          "7",
+          "Verzicht auf Sparen",
           37.3
         ],
         [
-          "8",
+          "Kleidung ausbessern",
           23.7
         ],
         [
-          "9",
+          "Verzicht auf Auto\u002FÖV-Abo",
           21.8
         ],
         [
-          "10",
+          "Verzicht auf Kinderbetreuung",
           22.4
         ]
       ],
       "name": "2013 (N=2 231)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "Verzicht auf Luxusartikel",
+          71.6
+        ],
+        [
+          "Preisbewusst einkaufen",
+          64.3
+        ],
+        [
+          "Alte Sachen länger nutzen",
+          56.5
+        ],
+        [
+          "Reparaturen selber erledigen",
+          50.7
+        ],
+        [
+          "Bei Ferien sparen",
+          45.7
+        ],
+        [
+          "Weniger Freizeitakt. (Eltern)",
+          40.8
+        ],
+        [
+          "Verzicht auf Sparen",
+          36.3
+        ],
+        [
+          "Kleidung ausbessern",
+          24
+        ],
+        [
+          "Verzicht auf Auto\u002FÖV-Abo",
+          21.7
+        ],
+        [
+          "Verzicht auf Kinderbetreuung",
+          21
+        ]
+      ],
+      "name": "2017 (N=1 665)",
       "turboThreshold": 0
     }
   ],
