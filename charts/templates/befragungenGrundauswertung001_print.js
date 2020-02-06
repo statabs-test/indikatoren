@@ -1,8 +1,8 @@
 (function () {
     return {
-        "chart": {
-            "events": {
-                "load": function () {
+        chart: {
+            events: {
+                load: function () {
                     this.credits.element.onclick = function () { };
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
@@ -16,141 +16,98 @@
                     }
                 }
             },
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
-            "inverted": false,
+            borderColor: "#fbfbfb",
+            backgroundColor: "#fbfbfb",
             width: 665,
-            height: 208, //Maps: 325
+            height: 270,//208, //Maps: 325
             //marginLeft: 125,
             //marginRight: 25,
-            "spacingBottom": 5,
-            "zoomType": "xy",
-            "type": "column",
-            "style": {
-                "fontFamily": "Arial"
+            spacingBottom: 5,
+            type: "column",
+            style: {
+                fontFamily: "Arial"
             }
         },
-        "title": {
-            "style": {
-                "fontSize": "14px",
-                "fontWeight": "bold",
-                "color": "#000000"
-            },
-            "align": "left"
-        },
-        "subtitle": {
-            "style": {
-                "fontSize": "12px",
-                "color": "#000000"
-            },
-            "align": "left"
-        },
-        "navigation": {
-            "menuItemStyle": {
-                "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-                "padding": '2px 10px'
+        plotOptions: {
+            series: {
+                stacking: "percent",
+                borderWidth: 0
             }
         },
-        "plotOptions": {
-            "series": {
-                borderWidth: 0,
-                "dataLabels": {
-                    "style": {
-                        "fontSize": "10px"
-                    }
-                },
-                "stacking": "percent"
-            }
+        title: {
+            text: null
         },
-        "yAxis": {
-            "tickInterval": 20,
-            "reversedStacks": false,
+        subtitle: {
+            text: null
+        },
+        yAxis: {
+            tickInterval: 20,
+            max: 100,
+            reversedStacks: false,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             lineColor: '#B9CFD7',
-            "title": {
-                "style": {
-                    "color": "#000000",
-                    "fontSize": null
-                },
-                "text": null
-            },
-            max: 100,
-            "labels": {
-                "format": "{value}%",
-                //"type": "category",
+            labels: {
+                format: "{value}%",
                 rotation: 0,
-                "style": {
-                    "color": "#000000"
+                style: {
+                    fontSize: "10px",
+                    color: "#000000"
                 }
+            },
+            title: {
+                text: null
             }
         },
-        "xAxis": {
+        xAxis: {
             type: "category",
             lineColor: '#B9CFD7',
             lineWidth: 0.5,
             "uniqueNames": true,
-            "tickLength": 0,
-            "title": {
-                "style": {
-                    "color": "#000000"
-                }
+            tickLength: 0,
+            title: {
+                text: null
             },
-            "labels": {
-                "rotation": -45,
+            labels: {
+                rotation: -45,
                 align: "right",
+                reserveSpace: true,
                 //x: -115,
                 useHTML: true,
-                "style": {
-                    "color": "#000000",
-                    "fontSize": "10px",
-                    "width": 1,
+                style: {
+                    fontSize: "10px",
+                    color: "#000000",
                     whiteSpace: 'nowrap',
-                    "textOverflow": "none"
+                    textOverflow: "none"
                 },
-                "formatter": function () {
-                    return this.value.replace("*", "");
+                formatter: function () {
+                    return this.value.replace("*", "<b>"); //used for indentation in web-charts
                 }
             }
         },
-        "tooltip": {
-            "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
-            "shared": false
-        },
-        "credits": {
-            "enabled": true,
-            "style": {
-                "color": "#000000",
-                "fontSize": "10px",
-                "cursor": "default"
-            },
-            "position": {
-                "align": "left",
-                "verticalAlign": "bottom",
-                "x": 10
+        legend: {
+            enabled: true,
+            useHTML: false,
+            reversed: true,
+            layout: "horizontal",
+            verticalAlign: "top",
+            align: "left",
+            symbolRadius: 0,
+            margin: 5,
+            //padding: 5,
+            itemDistance: 10,
+            itemMarginBottom: 5,
+            itemStyle: {
+                fontWeight: "normal",
+                fontSize: "10px",
+                color: '#000000',
+                width: 115,
+                textOverflow: "none"
             }
         },
-        "legend": {
-            "enabled": true,
-            margin: 0,
-            padding: 5,
-            "itemDistance": 10,
-            "layout": "horizontal",
-            "verticalAlign": "top",
-            "reversed": true,
-            "itemMarginBottom": 5,
-            "align": "left",
-            "useHTML": false,
-            "itemStyle": {
-                "fontWeight": "normal",
-                "width": 115,
-                textOverflow: null,
-                "fontSize": "10px"
-            },
-            "symbolRadius": 0,
-            "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            }
+        credits: {
+            enabled: true,
+            position: {}
         }
     };
 }());
