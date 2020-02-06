@@ -41105,7 +41105,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_101",
 		"parentId": null,
 		"children": [
 			"8511"
@@ -41135,7 +41135,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "Kapitel 1",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -41147,7 +41147,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_103",
 		"parentId": 6392,
 		"children": [],
 		"renderLink": [],
@@ -41184,11 +41184,11 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Bei 71% der Ende 2018 registrierten Sozialhilfefälle handelt es sich um eine unterstützte Einzelperson. 17% sind Einelternfamilien und 9% Ehe- resp. Konkubinatspaare mit Kindern. Paare ohne Kinder machen 4% der Fälle aus.",
 		"erlaeuterungen": "Mit Ausnahme des Dossiertyps für Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) sind alle Dossiers berücksichtigt.Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt.",
-		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_104",
 		"parentId": null,
 		"children": [
 			"8513"
@@ -41230,7 +41230,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_108",
 		"parentId": null,
 		"children": [
 			"8514"
@@ -41272,7 +41272,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_109",
 		"parentId": null,
 		"children": [
 			"8515"
@@ -41314,7 +41314,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_110",
 		"parentId": null,
 		"children": [
 			"8516"
@@ -41356,7 +41356,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_111",
 		"parentId": null,
 		"children": [
 			"8517"
@@ -41398,7 +41398,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_112",
 		"parentId": null,
 		"children": [
 			"8518"
@@ -41440,7 +41440,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_106",
 		"parentId": null,
 		"children": [
 			"8519"
@@ -41482,7 +41482,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_107",
 		"parentId": null,
 		"children": [
 			"8520"
@@ -41513,8 +41513,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -41524,7 +41524,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_105",
 		"parentId": null,
 		"children": [
 			"8521"
@@ -41566,7 +41566,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_119",
 		"parentId": null,
 		"children": [
 			"8522"
@@ -41608,7 +41608,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_120",
 		"parentId": 2424,
 		"children": [],
 		"renderLink": [],
@@ -41648,7 +41648,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_121",
 		"parentId": null,
 		"children": [
 			"8524"
@@ -41690,7 +41690,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_122",
 		"parentId": null,
 		"children": [
 			"8525"
@@ -41732,7 +41732,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_125",
 		"parentId": 6071,
 		"children": [],
 		"renderLink": [],
@@ -41772,7 +41772,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_126",
 		"parentId": null,
 		"children": [
 			"8527"
@@ -41814,7 +41814,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_127",
 		"parentId": null,
 		"children": [
 			"8529"
@@ -41856,7 +41856,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_129",
 		"parentId": null,
 		"children": [
 			"8531"
@@ -41898,7 +41898,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_130",
 		"parentId": null,
 		"children": [
 			"8532"
@@ -41940,7 +41940,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_131",
 		"parentId": null,
 		"children": [
 			"8533"
@@ -41982,7 +41982,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_133",
 		"parentId": null,
 		"children": [
 			"8534"
@@ -42013,8 +42013,8 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.4 Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -42024,7 +42024,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_134",
 		"parentId": null,
 		"children": [
 			"8535"
@@ -42066,7 +42066,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_132",
 		"parentId": null,
 		"children": [
 			"8536"
@@ -42108,7 +42108,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_137",
 		"parentId": null,
 		"children": [
 			"8537"
@@ -42150,7 +42150,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_143",
 		"parentId": null,
 		"children": [
 			"8538"
@@ -42192,7 +42192,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_144",
 		"parentId": null,
 		"children": [
 			"8539"
@@ -42234,7 +42234,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_139",
 		"parentId": null,
 		"children": [
 			"8540"
@@ -42276,7 +42276,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_138",
 		"parentId": null,
 		"children": [
 			"8541"
@@ -42318,7 +42318,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_140",
 		"parentId": null,
 		"children": [
 			"8542"
@@ -42360,7 +42360,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_141",
 		"parentId": null,
 		"children": [
 			"8543"
@@ -42402,7 +42402,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_142",
 		"parentId": null,
 		"children": [
 			"8544"
@@ -42444,7 +42444,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_136",
 		"parentId": null,
 		"children": [
 			"8545"
@@ -42486,7 +42486,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_135",
 		"parentId": 6379,
 		"children": [],
 		"renderLink": [
@@ -42529,7 +42529,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_201",
 		"parentId": 5116,
 		"children": [],
 		"renderLink": [],
@@ -42569,7 +42569,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"8548"
@@ -42611,7 +42611,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_207",
 		"parentId": null,
 		"children": [
 			"8549"
@@ -42653,7 +42653,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_211",
 		"parentId": null,
 		"children": [
 			"8550"
@@ -42695,7 +42695,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_203",
 		"parentId": null,
 		"children": [
 			"8551"
@@ -42726,8 +42726,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -42737,7 +42737,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_204",
 		"parentId": null,
 		"children": [
 			"8552"
@@ -42779,7 +42779,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_205",
 		"parentId": null,
 		"children": [
 			"8553"
@@ -42821,7 +42821,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_208",
 		"parentId": 4834,
 		"children": [],
 		"renderLink": [],
@@ -42840,7 +42840,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.02.1.08284",
 		"kuerzelKunde": "2-09",
 		"description": "Anteil Grünflächen",
@@ -42856,13 +42856,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_209",
 		"parentId": 4832,
 		"children": [],
 		"renderLink": [],
@@ -42891,8 +42891,8 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -42902,7 +42902,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_212",
 		"parentId": null,
 		"children": [
 			"8556"
@@ -42944,7 +42944,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_210",
 		"parentId": null,
 		"children": [
 			"8557"
@@ -42986,7 +42986,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_213",
 		"parentId": null,
 		"children": [
 			"8558"
@@ -43028,7 +43028,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_214",
 		"parentId": null,
 		"children": [
 			"8559"
@@ -43070,7 +43070,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_216",
 		"parentId": null,
 		"children": [
 			"8560"
@@ -43112,7 +43112,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_218",
 		"parentId": null,
 		"children": [
 			"8561"
@@ -43154,7 +43154,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_217",
 		"parentId": null,
 		"children": [
 			"8562"
@@ -43196,7 +43196,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_219",
 		"parentId": null,
 		"children": [
 			"8563"
@@ -43238,7 +43238,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_215",
 		"parentId": null,
 		"children": [
 			"8564"
@@ -43280,7 +43280,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_321",
 		"parentId": 6382,
 		"children": [],
 		"renderLink": [
@@ -43323,7 +43323,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_302",
 		"parentId": 6630,
 		"children": [],
 		"renderLink": [],
@@ -43363,7 +43363,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_303",
 		"parentId": 6631,
 		"children": [],
 		"renderLink": [],
@@ -43403,7 +43403,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_304",
 		"parentId": 6632,
 		"children": [],
 		"renderLink": [],
@@ -43443,7 +43443,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_305",
 		"parentId": 6633,
 		"children": [],
 		"renderLink": [],
@@ -43483,7 +43483,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_306",
 		"parentId": 6634,
 		"children": [],
 		"renderLink": [],
@@ -43523,7 +43523,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_307",
 		"parentId": 6635,
 		"children": [],
 		"renderLink": [],
@@ -43563,7 +43563,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_308",
 		"parentId": 6636,
 		"children": [],
 		"renderLink": [],
@@ -43603,7 +43603,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_309",
 		"parentId": 6637,
 		"children": [],
 		"renderLink": [],
@@ -43643,7 +43643,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_310",
 		"parentId": 6638,
 		"children": [],
 		"renderLink": [],
@@ -43683,7 +43683,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_311",
 		"parentId": 6639,
 		"children": [],
 		"renderLink": [],
@@ -43723,7 +43723,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_312",
 		"parentId": 6640,
 		"children": [],
 		"renderLink": [],
@@ -43763,7 +43763,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_313",
 		"parentId": 6641,
 		"children": [],
 		"renderLink": [],
@@ -43803,7 +43803,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_314",
 		"parentId": 6751,
 		"children": [],
 		"renderLink": [],
@@ -43843,7 +43843,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_315",
 		"parentId": 6752,
 		"children": [],
 		"renderLink": [],
@@ -43883,7 +43883,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_316",
 		"parentId": 6753,
 		"children": [],
 		"renderLink": [],
@@ -43923,7 +43923,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_317",
 		"parentId": 6754,
 		"children": [],
 		"renderLink": [],
@@ -43963,7 +43963,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_318",
 		"parentId": 6755,
 		"children": [],
 		"renderLink": [],
@@ -44003,7 +44003,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_319",
 		"parentId": 6756,
 		"children": [],
 		"renderLink": [],
@@ -44043,7 +44043,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_320",
 		"parentId": 6757,
 		"children": [],
 		"renderLink": [],
@@ -44083,7 +44083,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_301",
 		"parentId": null,
 		"children": [
 			"8585"
@@ -44129,7 +44129,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_324",
 		"parentId": null,
 		"children": [
 			"8586"
@@ -44171,7 +44171,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_325",
 		"parentId": null,
 		"children": [
 			"8587"
@@ -44213,7 +44213,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_322",
 		"parentId": null,
 		"children": [
 			"8588"
@@ -44256,7 +44256,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_323",
 		"parentId": 6905,
 		"children": [],
 		"renderLink": [],
@@ -44296,7 +44296,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_327",
 		"parentId": 5114,
 		"children": [],
 		"renderLink": [
@@ -44338,7 +44338,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_331",
 		"parentId": null,
 		"children": [
 			"8592"
@@ -44380,7 +44380,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_328",
 		"parentId": null,
 		"children": [
 			"8593"
@@ -44422,7 +44422,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_329",
 		"parentId": null,
 		"children": [
 			"8594"
@@ -44464,7 +44464,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_330",
 		"parentId": null,
 		"children": [
 			"8595"
@@ -44506,7 +44506,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_332",
 		"parentId": null,
 		"children": [
 			"8596"
@@ -44548,7 +44548,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_333",
 		"parentId": null,
 		"children": [
 			"8597"
@@ -44590,7 +44590,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_334",
 		"parentId": null,
 		"children": [
 			"8598"
@@ -44632,7 +44632,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_335",
 		"parentId": null,
 		"children": [
 			"8599"
@@ -44674,7 +44674,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_336",
 		"parentId": null,
 		"children": [
 			"8600"
@@ -44716,7 +44716,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_337",
 		"parentId": null,
 		"children": [
 			"8601"
@@ -44758,7 +44758,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_338",
 		"parentId": null,
 		"children": [
 			"8602"
@@ -44800,7 +44800,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_102",
 		"parentId": null,
 		"children": [
 			"8603"
@@ -44842,7 +44842,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_124",
 		"parentId": null,
 		"children": [
 			"8604"
@@ -44884,7 +44884,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_206",
 		"parentId": null,
 		"children": [
 			"8605"
@@ -44926,7 +44926,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_113",
 		"parentId": 6204,
 		"children": [],
 		"renderLink": [
@@ -44968,7 +44968,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_114",
 		"parentId": null,
 		"children": [
 			"8607"
@@ -45010,7 +45010,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_115",
 		"parentId": null,
 		"children": [
 			"8608"
@@ -45052,7 +45052,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_116",
 		"parentId": 6203,
 		"children": [],
 		"renderLink": [
@@ -45094,7 +45094,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_117",
 		"parentId": 6474,
 		"children": [],
 		"renderLink": [],
@@ -45134,7 +45134,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_118",
 		"parentId": null,
 		"children": [
 			"8611"
@@ -45176,7 +45176,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_000",
+		"orderKey": "99_99_00_00_00_123",
 		"parentId": null,
 		"children": [
 			"8612"
@@ -45287,8 +45287,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-09T16:57:10.1010",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.3 Asylsuchende/Migrant/innen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -45298,7 +45298,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_128",
 		"parentId": null,
 		"children": [
 			"8613"
