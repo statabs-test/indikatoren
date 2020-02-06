@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Rang",
+      "name": "Jugendquotient",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3244,87 +3244,87 @@
       "data": [
         [
           1,
-          1
+          0.1490084986
         ],
         [
           12,
-          2
+          0.1544424568
         ],
         [
           2,
-          3
+          0.1661576054
         ],
         [
           13,
-          4
+          0.2010562052
         ],
         [
           6,
-          5
+          0.2040816327
         ],
         [
           14,
-          6
+          0.2107133096
         ],
         [
           17,
-          7
+          0.2115173675
         ],
         [
           4,
-          8
+          0.217735006
         ],
         [
           3,
-          9
+          0.2265439844
         ],
         [
           9,
-          10
+          0.2541905855
         ],
         [
           11,
-          11
+          0.2542359271
         ],
         [
           10,
-          12
+          0.2609666756
         ],
         [
           16,
-          13
+          0.2619919443
         ],
         [
           18,
-          14
+          0.280817675
         ],
         [
           8,
-          15
+          0.2951296341
         ],
         [
           5,
-          16
+          0.3023012552
         ],
         [
           19,
-          17
+          0.3171577123
         ],
         [
           30,
-          18
+          0.3478915663
         ],
         [
           15,
-          19
+          0.3600152468
         ],
         [
           20,
-          20
+          0.3766110198
         ],
         [
           7,
-          21
+          0.4004638578
         ]
       ]
     },
@@ -3332,87 +3332,87 @@
       "visible": false,
       "data": [
         [
-          0.1490084986,
+          1,
           "Altstadt Grossbasel"
         ],
         [
-          0.1544424568,
+          2,
           "Altstadt Kleinbasel"
         ],
         [
-          0.1661576054,
+          3,
           "Vorstädte"
         ],
         [
-          0.2010562052,
+          4,
           "Clara"
         ],
         [
-          0.2040816327,
+          5,
           "Gundeldingen"
         ],
         [
-          0.2107133096,
+          6,
           "Wettstein"
         ],
         [
-          0.2115173675,
+          7,
           "Matthäus"
         ],
         [
-          0.217735006,
+          8,
           "Breite"
         ],
         [
-          0.2265439844,
+          9,
           "Am Ring"
         ],
         [
-          0.2541905855,
+          10,
           "Gotthelf"
         ],
         [
-          0.2542359271,
+          11,
           "St. Johann"
         ],
         [
-          0.2609666756,
+          12,
           "Iselin"
         ],
         [
-          0.2619919443,
+          13,
           "Rosental"
         ],
         [
-          0.280817675,
+          14,
           "Klybeck"
         ],
         [
-          0.2951296341,
+          15,
           "Bachletten"
         ],
         [
-          0.3023012552,
+          16,
           "St. Alban"
         ],
         [
-          0.3171577123,
+          17,
           "Kleinhüningen"
         ],
         [
-          0.3478915663,
+          18,
           "Bettingen"
         ],
         [
-          0.3600152468,
+          19,
           "Hirzbrunnen"
         ],
         [
-          0.3766110198,
+          20,
           "Riehen"
         ],
         [
-          0.4004638578,
+          21,
           "Bruderholz"
         ]
       ],
@@ -3704,7 +3704,7 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil <br/>Leerwohnungen (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "Jugendquotient", 245 + shiftHoriz, 220 + shiftVert + 30);
 					/*
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');

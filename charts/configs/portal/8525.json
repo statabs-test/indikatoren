@@ -406,7 +406,8 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -561,6 +562,7 @@
       "format": "{value}%"
     },
     "tickInterval": 20,
+    "max": 100,
     "min": 0
   },
   "navigation": {
@@ -594,7 +596,6 @@
     },
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemWidth": 150,
     "align": "left"
   },
   "dataLabels": {

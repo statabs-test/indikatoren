@@ -20,7 +20,8 @@
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
-				fontWeight: 'normal'
+				fontWeight: 'normal',
+				fontSize: "13px"
 				}
 		},
 		colorAxis: {
