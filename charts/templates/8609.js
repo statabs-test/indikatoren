@@ -6,21 +6,51 @@
 (function(){
 
     return {
-    	"legend": {
+		"legend": {
+    		useHTML: false,
 			"title": {
-				"text": ""
-			}
+				"text": null, 
+				style: {'fontWeight':' bold'}
 			},
-		"colorAxis": {
-			//"min": undefined,
-			"minColor": "#f4ebf3",
-			"maxColor": "#5b2659",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value), 0) + '%'; 
+			"layout": "vertical",
+			//"verticalAlign": "middle",
+			"align": "right",
+			"x": -345,
+			"y": -15,
+			itemMarginBottom: 2, 
+			symbolRadius: 0,
+			itemStyle: {
+				fontWeight: 'normal'
 				}
-			}
 		},
+         colorAxis: {
+            dataClassColor: 'category',
+        	dataClasses: [{
+               	from: 0,
+                to: 1.149,
+                color: '#D3E2E4',
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 1,15"
+            }, {
+                from: 1.15,
+                to: 1.499,
+                color: '#A8C3CA',
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>1,15 − 1,49"
+            }, {
+                from: 1.5,
+                to: 2.399,
+                 color: '#689199',
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>1,50 − 2,39"
+            },{
+                from: 2.4,
+                to: 3.099,
+                 color: '#246370',
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>2,40 − 3,09"
+            },{
+                from: 3.1,
+                color: '#083038',
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 3,10"
+            }], 
+        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -50,7 +80,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '%</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
 				}
 			}, 
@@ -69,8 +99,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -79,7 +109,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? 'grey' : 'salmon';
+	                	return (value >= 0) ? '#007A2F' : '#990300';
 	                };					
 					
 					//define chart-specific details
@@ -87,13 +117,12 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' Prozentpunkte</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -104,20 +133,38 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 2; 
-	                
-                	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
-	                
-	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
-	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+	                var maxValueInLegend = 2.0; 
+					
+					var shiftHoriz = 280;
+					var shiftVert = 70;
 
-					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
-					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
-					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
+                	//Add manually drawn legend	
+					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
+
+					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
+					
+					fn.addLegendTitle(chart, "Anteil Haushalte <br/> mit FAMI (%)", 245 + shiftHoriz, 220 + shiftVert);
+					
+					fn.addLegendTitle(chart, "Differenz <br/> 2018 zu 2013", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
+					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', 405 + shiftHoriz, 318 + shiftVert)
+
+	                fn.addLegendCircle(chart, 392 + shiftHoriz, 360 + shiftVert, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 408 + shiftHoriz, 347 + shiftVert);
+	                fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 408 + shiftHoriz, 375 + shiftVert);
+
+					var shiftDown = 12;
+
+		        	fn.addLegendCircle(chart, 373, 266+shiftDown, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255+shiftDown, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 373, 285+shiftDown, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 275+shiftDown, undefined, false, 'right');
+	                fn.addLegendCircle(chart, 373, 310+shiftDown, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 300+shiftDown, undefined, false, 'right');
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -126,3 +173,4 @@
 		}
 	};
 }());
+
