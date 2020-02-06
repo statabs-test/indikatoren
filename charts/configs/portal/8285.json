@@ -2498,6 +2498,728 @@
               "lon": "7.59699128460389",
               "lat": "47.583139774291"
             }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    2614062.773,
+                    1268725.722
+                  ],
+                  [
+                    2614080.131,
+                    1268737.953
+                  ],
+                  [
+                    2614022.769,
+                    1268819.364
+                  ],
+                  [
+                    2613946.451,
+                    1268710.925
+                  ],
+                  [
+                    2613908.45,
+                    1268707.419
+                  ],
+                  [
+                    2613851.056,
+                    1268785.542
+                  ],
+                  [
+                    2613796.512,
+                    1268905.723
+                  ],
+                  [
+                    2613754.772,
+                    1269047.078
+                  ],
+                  [
+                    2613707.867,
+                    1269205.957
+                  ],
+                  [
+                    2613902.075,
+                    1269423.374
+                  ],
+                  [
+                    2614174.966,
+                    1269644.764
+                  ],
+                  [
+                    2613988.571,
+                    1269874.492
+                  ],
+                  [
+                    2614249.53,
+                    1270091.836
+                  ],
+                  [
+                    2614705.821,
+                    1270592.533
+                  ],
+                  [
+                    2614880.713,
+                    1270872.488
+                  ],
+                  [
+                    2615120.345,
+                    1271094.684
+                  ],
+                  [
+                    2615391.598,
+                    1271203.948
+                  ],
+                  [
+                    2615287.127,
+                    1271377.846
+                  ],
+                  [
+                    2615281.224,
+                    1271520.648
+                  ],
+                  [
+                    2615477.96,
+                    1271693.341
+                  ],
+                  [
+                    2615572.716,
+                    1271828.719
+                  ],
+                  [
+                    2615978.255,
+                    1271692.06
+                  ],
+                  [
+                    2616279.795,
+                    1271657.182
+                  ],
+                  [
+                    2616778.64,
+                    1271470.3
+                  ],
+                  [
+                    2616999.352,
+                    1271355.651
+                  ],
+                  [
+                    2617203.417,
+                    1271276.211
+                  ],
+                  [
+                    2617793.208,
+                    1271282.001
+                  ],
+                  [
+                    2617817.485,
+                    1271400.215
+                  ],
+                  [
+                    2617913.654,
+                    1271541.576
+                  ],
+                  [
+                    2618009.691,
+                    1271657.754
+                  ],
+                  [
+                    2618133.704,
+                    1271769.696
+                  ],
+                  [
+                    2618204.187,
+                    1271862.585
+                  ],
+                  [
+                    2618271.308,
+                    1271878.468
+                  ],
+                  [
+                    2618380.551,
+                    1272007.767
+                  ],
+                  [
+                    2618516.608,
+                    1272038.635
+                  ],
+                  [
+                    2618754.69,
+                    1272021.565
+                  ],
+                  [
+                    2618854.616,
+                    1272048.011
+                  ],
+                  [
+                    2619029.102,
+                    1272131.268
+                  ],
+                  [
+                    2619155.598,
+                    1272279.217
+                  ],
+                  [
+                    2619190.769,
+                    1272263.463
+                  ],
+                  [
+                    2619134.364,
+                    1272120.552
+                  ],
+                  [
+                    2619054.786,
+                    1272030.066
+                  ],
+                  [
+                    2618918.235,
+                    1271906.759
+                  ],
+                  [
+                    2618509.609,
+                    1271801.689
+                  ],
+                  [
+                    2618429.267,
+                    1271733.114
+                  ],
+                  [
+                    2618304.547,
+                    1271536.959
+                  ],
+                  [
+                    2618124.844,
+                    1271312.443
+                  ],
+                  [
+                    2617959.593,
+                    1271213.55
+                  ],
+                  [
+                    2617536.82,
+                    1270757.293
+                  ],
+                  [
+                    2617562.104,
+                    1270531.564
+                  ],
+                  [
+                    2617778.111,
+                    1270420.408
+                  ],
+                  [
+                    2618223.721,
+                    1270249.416
+                  ],
+                  [
+                    2618262.253,
+                    1270061.678
+                  ],
+                  [
+                    2618221.186,
+                    1270076.234
+                  ],
+                  [
+                    2618060.302,
+                    1269966.286
+                  ],
+                  [
+                    2618047.895,
+                    1269878.968
+                  ],
+                  [
+                    2617989.992,
+                    1269741.339
+                  ],
+                  [
+                    2617969.453,
+                    1269617.268
+                  ],
+                  [
+                    2617959.723,
+                    1269500.954
+                  ],
+                  [
+                    2617983.163,
+                    1269344.708
+                  ],
+                  [
+                    2617962.28,
+                    1269321.202
+                  ],
+                  [
+                    2617951.33714196,
+                    1269322.19790592
+                  ],
+                  [
+                    2617934.261,
+                    1269323.752
+                  ],
+                  [
+                    2617844.508,
+                    1269260.044
+                  ],
+                  [
+                    2617775.412,
+                    1269280.601
+                  ],
+                  [
+                    2617615.954,
+                    1269289.04
+                  ],
+                  [
+                    2617536.845,
+                    1269249.306
+                  ],
+                  [
+                    2617422.917,
+                    1269235.283
+                  ],
+                  [
+                    2617169.318,
+                    1269332.992
+                  ],
+                  [
+                    2617170.472,
+                    1269362.758
+                  ],
+                  [
+                    2617132.673,
+                    1269395.725
+                  ],
+                  [
+                    2617050.742,
+                    1269399.597
+                  ],
+                  [
+                    2617027.053,
+                    1269454.774
+                  ],
+                  [
+                    2616875.297,
+                    1269405.896
+                  ],
+                  [
+                    2616803.012,
+                    1269289.198
+                  ],
+                  [
+                    2616773.068,
+                    1269267.295
+                  ],
+                  [
+                    2616839.455,
+                    1269146.763
+                  ],
+                  [
+                    2616766.912,
+                    1269102.806
+                  ],
+                  [
+                    2616798.804,
+                    1269054.273
+                  ],
+                  [
+                    2616705.327,
+                    1268965.908
+                  ],
+                  [
+                    2616674.747,
+                    1268989.363
+                  ],
+                  [
+                    2616556.618,
+                    1268750.844
+                  ],
+                  [
+                    2616548.629,
+                    1268705.966
+                  ],
+                  [
+                    2616463.385,
+                    1268576.132
+                  ],
+                  [
+                    2616395.184,
+                    1268361.13
+                  ],
+                  [
+                    2616186.582,
+                    1268053.9
+                  ],
+                  [
+                    2616086.679,
+                    1267955.628
+                  ],
+                  [
+                    2616107.801,
+                    1267918.636
+                  ],
+                  [
+                    2615779.732,
+                    1267712.499
+                  ],
+                  [
+                    2615461.257,
+                    1267862.131
+                  ],
+                  [
+                    2615251.237,
+                    1267859.353
+                  ],
+                  [
+                    2615030.27,
+                    1268076.939
+                  ],
+                  [
+                    2614863.635,
+                    1268153.354
+                  ],
+                  [
+                    2614749.221,
+                    1267941.531
+                  ],
+                  [
+                    2614621.942,
+                    1267973.864
+                  ],
+                  [
+                    2614714.306,
+                    1268333.903
+                  ],
+                  [
+                    2614502.946,
+                    1268600.457
+                  ],
+                  [
+                    2614270.342,
+                    1268431.135
+                  ],
+                  [
+                    2614077.749,
+                    1268704.468
+                  ],
+                  [
+                    2614062.773,
+                    1268725.722
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "CODGEO": "20",
+              "LIBGEO": "Riehen",
+              "POINT_X": "2616005.52443",
+              "POINT_Y": "1269943.518",
+              "TXT": "20",
+              "ZTXT": "20",
+              "TYPE": "Riehen",
+              "yc_rel": "0.489",
+              "xc_rel": "0.419",
+              "lon": "7.65136421375039",
+              "lat": "47.5799959594054"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    2617962.28,
+                    1269321.202
+                  ],
+                  [
+                    2617983.163,
+                    1269344.708
+                  ],
+                  [
+                    2617959.723,
+                    1269500.954
+                  ],
+                  [
+                    2617969.453,
+                    1269617.268
+                  ],
+                  [
+                    2617989.992,
+                    1269741.339
+                  ],
+                  [
+                    2618047.895,
+                    1269878.968
+                  ],
+                  [
+                    2618060.302,
+                    1269966.286
+                  ],
+                  [
+                    2618221.186,
+                    1270076.234
+                  ],
+                  [
+                    2618262.253,
+                    1270061.678
+                  ],
+                  [
+                    2618304.346,
+                    1269668.333
+                  ],
+                  [
+                    2618451.59,
+                    1269579.948
+                  ],
+                  [
+                    2618438.801,
+                    1269273.911
+                  ],
+                  [
+                    2618486.636,
+                    1269261.832
+                  ],
+                  [
+                    2618577.046,
+                    1269183.357
+                  ],
+                  [
+                    2618833.839,
+                    1269110.523
+                  ],
+                  [
+                    2618889.898,
+                    1268996.509
+                  ],
+                  [
+                    2618832.883,
+                    1268872.755
+                  ],
+                  [
+                    2618698.809,
+                    1268660.819
+                  ],
+                  [
+                    2618610.94,
+                    1268352.119
+                  ],
+                  [
+                    2618447.026,
+                    1268656.393
+                  ],
+                  [
+                    2618421.948,
+                    1268664.082
+                  ],
+                  [
+                    2618443.305,
+                    1268899.165
+                  ],
+                  [
+                    2618426.933,
+                    1268979.017
+                  ],
+                  [
+                    2618240.758,
+                    1268887.147
+                  ],
+                  [
+                    2618096.536,
+                    1268783.014
+                  ],
+                  [
+                    2618047.021,
+                    1268722.982
+                  ],
+                  [
+                    2617990.283,
+                    1268594.339
+                  ],
+                  [
+                    2617800.116,
+                    1268328.75
+                  ],
+                  [
+                    2617960.974,
+                    1268274.813
+                  ],
+                  [
+                    2617964.119,
+                    1268142.701
+                  ],
+                  [
+                    2617836.173,
+                    1268112.964
+                  ],
+                  [
+                    2617748.756,
+                    1268109.932
+                  ],
+                  [
+                    2617597.795,
+                    1268139.42
+                  ],
+                  [
+                    2617590.551,
+                    1268330.069
+                  ],
+                  [
+                    2617465.471,
+                    1268371.349
+                  ],
+                  [
+                    2617078.154,
+                    1268286.34
+                  ],
+                  [
+                    2616978.478,
+                    1268323.729
+                  ],
+                  [
+                    2616566.733,
+                    1268220.106
+                  ],
+                  [
+                    2616416.983,
+                    1268069.782
+                  ],
+                  [
+                    2616372.045,
+                    1267975.057
+                  ],
+                  [
+                    2616250.135,
+                    1267984.555
+                  ],
+                  [
+                    2616107.801,
+                    1267918.636
+                  ],
+                  [
+                    2616086.679,
+                    1267955.628
+                  ],
+                  [
+                    2616186.582,
+                    1268053.9
+                  ],
+                  [
+                    2616395.184,
+                    1268361.13
+                  ],
+                  [
+                    2616463.385,
+                    1268576.132
+                  ],
+                  [
+                    2616548.629,
+                    1268705.966
+                  ],
+                  [
+                    2616556.618,
+                    1268750.844
+                  ],
+                  [
+                    2616674.747,
+                    1268989.363
+                  ],
+                  [
+                    2616705.327,
+                    1268965.908
+                  ],
+                  [
+                    2616798.804,
+                    1269054.273
+                  ],
+                  [
+                    2616766.912,
+                    1269102.806
+                  ],
+                  [
+                    2616839.455,
+                    1269146.763
+                  ],
+                  [
+                    2616773.068,
+                    1269267.295
+                  ],
+                  [
+                    2616803.012,
+                    1269289.198
+                  ],
+                  [
+                    2616875.297,
+                    1269405.896
+                  ],
+                  [
+                    2617027.053,
+                    1269454.774
+                  ],
+                  [
+                    2617050.742,
+                    1269399.597
+                  ],
+                  [
+                    2617132.673,
+                    1269395.725
+                  ],
+                  [
+                    2617170.472,
+                    1269362.758
+                  ],
+                  [
+                    2617169.318,
+                    1269332.992
+                  ],
+                  [
+                    2617422.917,
+                    1269235.283
+                  ],
+                  [
+                    2617536.845,
+                    1269249.306
+                  ],
+                  [
+                    2617615.954,
+                    1269289.04
+                  ],
+                  [
+                    2617775.412,
+                    1269280.601
+                  ],
+                  [
+                    2617844.508,
+                    1269260.044
+                  ],
+                  [
+                    2617934.261,
+                    1269323.752
+                  ],
+                  [
+                    2617951.33714196,
+                    1269322.19790592
+                  ],
+                  [
+                    2617962.28,
+                    1269321.202
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "CODGEO": "30",
+              "LIBGEO": "Bettingen",
+              "POINT_X": "2617423.03802",
+              "POINT_Y": "1268798.543",
+              "TXT": "30",
+              "ZTXT": "30",
+              "TYPE": "Bettingen",
+              "yc_rel": "0.408",
+              "xc_rel": "0.477",
+              "lon": "7.67016073757756",
+              "lat": "47.5696625209819"
+            }
           }
         ]
       },
@@ -2591,6 +3313,14 @@
         ],
         [
           19,
+          -999
+        ],
+        [
+          20,
+          -999
+        ],
+        [
+          30,
           -999
         ]
       ]
@@ -5428,12 +6158,7 @@
         }
       ],
       "color": "#008AC3",
-      "borderColor": "#fbfbfb",
-      "tooltip": {
-        "pointFormatter": function(){
-						return '<br/>';
-					}
-      }
+      "borderColor": "#fbfbfb"
     },
     {
       "name": "Massstab",
@@ -5484,26 +6209,14 @@
 					},
         "style": {
           "fontSize": "12px",
-          "fontFamily": "Arial",
           "fontWeight": "normal",
-          "fontStyle": "normal",
-          "color": "#000000"
+          "color": "black"
         },
         "y": -10
       }
     }
   ],
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "type": "map",
-    "inverted": false,
     "events": {
       "load": function (e) {
 	            	
@@ -5589,6 +6302,16 @@
 					fn.AddPieLegendClickHandler(chart, '#cccccc');
 	            }
     },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "map",
+    "inverted": false,
     "renderTo": "container-8285"
   },
   "title": {
@@ -5608,7 +6331,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kinder mit Angeboten in Gehdistanz",
+    "text": "Kinder mit Angeboten in Gehdistanz, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -5676,23 +6399,18 @@
   },
   "mapNavigation": {
     "enabled": true,
-    "enableButtons": true,
-    "enableDoubleClickZoom": false,
     "buttonOptions": {
       "align": "left",
       "verticalAlign": "bottom"
     }
   },
   "legend": {
+    "useHTML": false,
     "enabled": true,
     "align": "right",
     "floating": true,
     "itemStyle": {
-      "fontSize": "12px",
-      "fontFamily": "Arial",
-      "fontWeight": "normal",
-      "fontStyle": "normal",
-      "color": "#000000"
+      "fontWeight": "normal"
     },
     "title": {
       "style": {
@@ -5701,460 +6419,36 @@
       },
       "text": null
     },
-    "useHTML": false,
     "layout": "vertical",
     "x": -120,
     "y": -20,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
-  "xAxis": {
-    "events": {
-      "afterSetExtremes": function(e){
-					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
-					var divIdString = '#' + divId;
-					divIdString = '';
-					//only care about zoom events, not pan
-					if (e.trigger != 'pan'){
-						//determine current zoom level
-						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
-					}
-				}
-    }
-  },
-  "exporting": {
-    "menuItemDefinitions": {
-      "downloadPNG": {
-        "onclick": function () {
-			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
-			            }
-      },
-      "downloadJPEG": {
-        "onclick": function () {
-			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
-			            }
-      },
-      "downloadPDF": {
-        "onclick": function () {
-			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
-			            }
-      },
-      "downloadSVG": {
-        "onclick": function () {
-			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
-			            }
-      }
-    },
-    "filename": 8285
+  "tooltip": {
+    "formatter": function(args){
+        		if (! this.point["Wohnviertel Id"]) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                }
+            }
   },
   "customFunctions": {
-    "hideOnZoom": function(e, selector){
-				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
-				var divIdString = '#' + divId;
-				divIdString = '';
-				//only care about zoom events, not pan
-				if (e.trigger != 'pan'){
-					//determine current zoom level
-					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
-				}
-			},
-    "recalculateOnZoom": function(e, zoomableLabels){
-				if (e.target.chart){
-					var fn = e.target.chart.userOptions.customFunctions;
-					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
-					
-					//wait for zoom animation to be finished before attempting calculation of zoom
-					if (Array.isArray(zoomableLabels)){
-						setTimeout(function(context){
-							zoomableLabels.forEach(function(v, i, a){
-							//catch exception that occurs only in Highcharts Export Server for 6379. todo: fix in 6379
-							try {
-								var yAxis = e.target.chart.yAxis[0];
-								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								if (!v.initialText) {v.initialText = v.text; }
-								var legendValue = (zoom == 1 ? v.initialText : v.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
-								v.label.destroy(); 
-								v.text = legendValue;
-								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.align);
-								//handle right-align
-								if (v.align == 'right'){
-									v.label.attr({x: v.x - v.label.width});
-								}
-							}
-							catch(e){console.log(e)}
-							});
-						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
-					}
-				}
-			},
-    "pieSizeCategorical": function(value, conf){
-				for (var i=0; i < conf.length; i++ ){
-					if (value >= conf[i].from && value < conf[i].to) {
-						return conf[i];
-					}
-				}
-			},
-    "pieValue": function(size, maxAbsValue, maxPieDiameter){
-				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
-				return value;
-			},
-    "pieSize": function(value, maxAbsValue, maxPieDiameter){
-            	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
-            	return diameter;
-            	/*
-            	function circleAreaByDiameter(diameter){
-            		return Math.PI * diameter * diameter / 4;
-            	}
-            	
-            	function circleDiameterByAre(area){	                		
-            		return Math.sqrt(4 * area / Math.PI);
-            	}
-            	
-				//Negative values: return absolute value
-				//size by Area: use sqrt of value to define size
-				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
-				
-				//transform value to a number between 0 and 1 representing its relation to the min and max values
-				//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
-				
-				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
-				var relativeValue = Math.abs(value) / maxAbsValue ;
-				
-				//infer the pie size 
-				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
-				var area = relativeValue * maxPieArea;
-				
-				//var minPieArea = circleAreaByDiameter(minPieDiameter);
-				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
-				
-				var diameter = circleDiameterByAre(area);
-				return diameter;
-				*/
-            },
-    "defineTemplate": function(){
-
-					//define new chart type
-					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
-					//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
-					
-					    
-					// New map-pie series type that also allows lat/lon as center option.
-					// Also adds a sizeFormatter option to the series, to allow dynamic sizing
-					// of the pies.
-					Highcharts.seriesType('mappie', 'pie', {
-					    center: null, // Can't be array by default anymore
-					    clip: true, // For map navigation
-					    states: {
-					        hover: {
-					            halo: {
-					                size: 5
-					            }
-					        }
-					    },
-					    dataLabels: {
-					        enabled: false
-					    }
-					    
-					}, {
-					    getCenter: function () {
-					        var options = this.options,
-					            chart = this.chart,
-					            slicingRoom = 2 * (options.slicedOffset || 0);
-					        if (!options.center) {
-					            options.center = [null, null]; // Do the default here instead
-					        }
-					        // Handle lat/lon support
-					        if (options.center.lat !== undefined) {
-					            var point = chart.fromLatLonToPoint(options.center);
-					            options.center = [
-					                chart.xAxis[0].toPixels(point.x, true),
-					                chart.yAxis[0].toPixels(point.y, true)
-					            ];
-					        }
-					        // Handle dynamic size
-					        if (options.sizeFormatter) {
-					            options.size = options.sizeFormatter.call(this);
-					        }
-					        // Call parent function
-					        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
-					        // Must correct for slicing room to get exact pixel pos
-					        result[0] -= slicingRoom;
-					        result[1] -= slicingRoom;
-					        return result;
-					    },
-					    translate: function (p) {
-					        this.options.center = this.userOptions.center;
-					        this.center = this.getCenter();
-					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
-					    }
-					});
-
-    		    },
-    "getPointsExtremes": function(points){
-	                var maxNumber = Number.NEGATIVE_INFINITY;
-	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
-	                var minNumber = Number.POSITIVE_INFINITY;
-	                var minAbsNumber = Number.POSITIVE_INFINITY;
-					Highcharts.each(points, function (point) {
-					    maxNumber = Math.max(maxNumber, point.value);
-					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
-					    minNumber = Math.min(minNumber, point.value);
-					    minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
-					});
-					return {
-					    maxNumber: maxNumber,
-					    maxAbsNumber: maxAbsNumber,
-					    minNumber: minNumber,
-					    minAbsNumber: minAbsNumber
-					};
-				},
-    "drawPies": function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
-            		var fn = chart.userOptions.customFunctions;
-        			fn["pieSizeSeries"] = pieSizeSeries ;
-        			fn["maxPieDiameter"] = fn["maxPieDiameter"]  ? fn["maxPieDiameter"] : 20;
-        			
-                    //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data) {
-	                    
-	                    if (!data.value) {
-	                        return; // Skip points with no data, if any
-	                    }
-	                    
-	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
-	                	
-	                	//define where to place the pies on the map
-	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
-	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
-	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
-	                	
-                        //create the highcharts pie chart config
-	                    var currentPieSeries = function(config){
-	                        //define default properties
-	                        var mapPieConfig = {
-    	                        type: 'mappie',
-    	                        name: data.series.name,
-    	                        wohnviertel_Name: data["hc-key"],
-    	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
-    	                        zIndex: 6, // Keep pies above connector lines
-    	                        borderWidth: 1,
-    	                        tooltip: {
-	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
-		                            pointFormatter: function () {
-		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
-		                            }
-    	                        },
-	                            center: {
-    	                            lat: centerLat + (pieOffset.lat || 0),
-    	                            lon: centerLon + (pieOffset.lon || 0)
-    	                        }, 
-    	                        
-    	                        //defaults that are normally overwritten
-		                        sizeFormatter: function () {
-		                            var fn = this.chart.userOptions.customFunctions;
-									//pie diameters in px
-									var maxPieDiameter = fn.maxPieDiameter || 20;		 
-									//pie Size proportional to absolute value, no categories used
-		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-		                        },
-		                        data: [
-		                        	//Bubbles: Only one element in the array
-		                        	{
-		                        		name: pieSizeSeries.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(data.value),
-		                        		v: data.value,
-		                        		color: color(data.value),
-		                        		borderColor: color(data.value)
-		                        	}
-		                        ],
-		                        dataLabels: {
-							        enabled: false
-							    }    	                        
-	                        };
-	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
-	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
-	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
-	                    };
-	                    
-	                    // Add the pie for this wohnviertel to the chart
-	                    chart.addSeries(currentPieSeries(pieSeriesConfig), false);
-	                    
-	                    /*
-	                    // Draw connector to wohnviertel center if the pie has been offset
-	                    if (pieOffset.drawConnector !== false) {
-	                        var centerPoint = chart.fromLatLonToPoint({
-	                                lat: centerLat,
-	                                lon: centerLon
-	                            }),
-	                            offsetPoint = chart.fromLatLonToPoint({
-	                                lat: centerLat + (pieOffset.lat || 0),
-	                                lon: centerLon + (pieOffset.lon || 0)
-	                            });
-	                        pieSizeSeries.addPoint({
-	                            name: wohnviertel.id,
-	                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
-	                                'L' + centerPoint.x + ' ' + centerPoint.y
-	                        }, false);
-	                    }
-	                    */
-	                    
-	                });
-	                // Only redraw once all pies and connectors have been added
-	                chart.redraw();
-				},
-    "addLegendTitle": function (chart, text, x, y, cssClass, useHtml){
-            		return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-    	                .attr({
-    			        	zIndex: 6,
-    			        	class: cssClass + ' pieLegendTitle'
-    			        })
-         				.css({
-    	                    fontSize: '12px',
-    	                    fontWeight: 'bold'
-    	                })
-    			        .add();	                
-                },
-    "addSubtitle": function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieSubtitle'
-    				}).add();
-                },
-    "addLegendCircle": function(chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill)
-                	.attr({
-    				    fill: fill,
-    				    stroke: fill,
-    				    'stroke-width': 1, 
-    				    zIndex: 6,
-    				    class: cssClass + ' pieLegend'
-    				}).add();
-                },
-    "addLegendLabel": function(chart, text, x, y, cssClass, useHtml, align){
-                	var label = 
-    				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-                	.css({
-					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
-                	})    				
-    				.attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieLegend', 
-    				}).add();
-    				//handle right-align
-					if (align == 'right'){
-						label.attr({x: x - label.width});
-					}
-    				return label;
-                },
-    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml, initialValue){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-    				.attr({
-    					zIndex: 6,
-    					class: cssClass +' pieLegend',
-    					initialValue: initialValue,
-    					initialText: text
-    					})
-    				.css({
-                        fontWeight: 'bold' }).
-                     add();
-                },
-    "addLegendSquare": function(chart, x, y, width, fill, cssClass){
-                	return chart.renderer.rect(x, y, width, width, 0).attr({
-    		            'stroke-width':0,
-    		            fill: fill,
-    		            zIndex: 6,
-    		            class: cssClass + ' pieLegend'
-    	        	}).add();
-                },
     "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){
-                	return chart.renderer.rect(x, y, width, height).attr({
-    		            'stroke-width':0,
-    		            fill: fill,
-    		            zIndex: 6,
-    		            class: cssClass
-    	        	}).add();
-                },
-    "AddPieLegendClickHandler": function(chart, colorPassive){
-					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
-					var divIdString = '#' + divId;
-				    $(divIdString + ' .pieLegend').click(function(){
-						//Toggle visible of mappies
-						Highcharts.each(chart.series, function (series) {
-							if (series.userOptions.type == 'mappie'){
-								series.setVisible(!series.visible, false);
-							}
-						});
-						chart.redraw();
-						
-						
-						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
-						//toggle active state of legend elements
-						var pieLegendItems = $(divIdString + ' .pieLegend');
-						//backup original color
-						pieLegendItems.each(function(i, v){
-							if (!$(this).attr('fill_active')) {
-								//if no fill color is defined, set to  black
-								$(this).attr('fill_active', $(this).attr('fill') || 'black');
-								$(this).attr('fill', $(this).attr('fill') || 'black');	
-							}
-							if (!$(this).attr('stroke_active')) {
-								$(this).attr('stroke_active', $(this).attr('stroke') || null);
-								$(this).attr('stroke', $(this).attr('stroke') || null);	
-							}
-						});
-						//toggle color
-						
-						var whiteTransp = 'rgba(255,255,255, 0)';
-						var grey = '#cccccc';
-						//if no passiveColor is given, default to white transparent
-						var passiveColor = colorPassive || whiteTransp;
-						
-						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey or the predefined color
-							
-							//if fill is present, toggle it
-							pieLegendItems.each(function(i, v){
-								//if fill_active is present, set it to transparent white
-								if ($(this).attr('fill_active')) {
-									$(this).attr('fill', $(this).attr('fill_passive') || passiveColor);
-								}
-								//if stroke_active is present, set it to transparent white
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', $(this).attr('fill_passive') || passiveColor);
-								}
-							});
-							
-							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', passiveColor);
-						} 
-						else {
-							pieLegendItems.each(function(i, v){
-								//set each to its fill_active color
-								$(this).attr('fill', $(this).attr('fill_active'));	
-								$(this).attr('stroke', $(this).attr('stroke_active'));	
-							});
-							//same for html text spans
-							//$(divIdString + ' .pieLegendHtmlText').css('color', $(this).attr('color_active') || 'black');
-							$(divIdString + ' .pieLegendHtmlText').each(function(i,v){
-								$(this).css('color', $(this).attr('color_active') || 'black');
-							});
-						}
-					});
-				},
-    "exportCurrentSVG": function(chart, type){
-					var origFn = Highcharts.Chart.prototype.getSVG;
-					Highcharts.Chart.prototype.getSVG = function() {
-						console.log("Using current SVG to export.");
-						var svg = chart.getChartHTML();
-						svg = chart.sanitizeSVG(svg);
-						return svg;
-					};		            	
-	                chart.exportChart({type: type || 'image/png'});
-	                Highcharts.Chart.prototype.getSVG = origFn;					
-				}
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
+            }
+  },
+  "exporting": {
+    "filename": 8285
   }
 }

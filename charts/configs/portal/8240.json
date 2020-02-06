@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "In der Schweiz geborenen Personen (%)",
+      "name": "Anteil in der Schweiz geborener Personen (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",

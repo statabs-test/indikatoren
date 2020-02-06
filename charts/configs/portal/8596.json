@@ -662,23 +662,21 @@
     "lineWidth": 0.5,
     "tickLength": 0,
     "title": {
-      "style": {
-        "color": "#000000"
-      }
+      "text": null
     },
     "labels": {
       "rotation": -45,
       "align": "right",
+      "reserveSpace": true,
       "useHTML": true,
       "style": {
-        "color": "#000000",
         "fontSize": "10px",
-        "width": 1,
+        "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
-                    return this.value.replace("*", "");
+                    return this.value.replace("*", "<b>"); //used for indentation in web-charts
                 }
     }
   },
@@ -700,113 +698,71 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "inverted": false,
     "width": 665,
-    "height": 221,
+    "height": 283,
     "spacingBottom": 15,
-    "zoomType": "xy",
     "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
     "renderTo": "container-8596"
   },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0
+    }
+  },
   "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
     "text": "Zufriedenheit mit Angeboten für ältere Menschen"
   },
   "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "color": "#000000"
-    },
-    "align": "left",
     "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?»"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent"
-    }
   },
   "yAxis": {
     "tickInterval": 20,
+    "max": 100,
     "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "max": 100,
     "labels": {
       "format": "{value}%",
       "rotation": 0,
       "style": {
+        "fontSize": "10px",
         "color": "#000000"
       }
+    },
+    "title": {
+      "text": null
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "enabled": true,
-    "margin": 0,
-    "padding": 5,
-    "itemDistance": 10,
+    "useHTML": false,
+    "reversed": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "reversed": true,
-    "itemMarginBottom": 5,
     "align": "left",
-    "useHTML": false,
+    "symbolRadius": 0,
+    "margin": 5,
+    "itemDistance": 10,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal",
+      "fontSize": "10px",
+      "color": "#000000",
       "width": 115,
-      "textOverflow": null,
-      "fontSize": "10px"
+      "textOverflow": "none"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
     },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            }
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "exporting": {
     "filename": 8596

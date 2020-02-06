@@ -3,7 +3,7 @@ var indikatorensetData = [
 		"title": "Wohnbevölkerung nach Geburtsland",
 		"subtitle": "2018",
 		"kuerzel": "I.01.1.08240",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-01",
 		"description": "Wohnbevölkerung nach Geburtsland",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -24,7 +24,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8511"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42,7 +44,7 @@ var indikatorensetData = [
 		"title": "Sozialhilfe nach Wohnviertel",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.08241",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-03",
 		"description": "Sozialhilfe nach Wohnviertel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
@@ -82,7 +84,7 @@ var indikatorensetData = [
 		"title": "Sozialhilfefälle nach Fallstruktur",
 		"subtitle": "Kanton Basel-Stadt",
 		"kuerzel": "I.13.3.08242",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-04",
 		"description": "Sozialhilfefälle nach Fallstruktur",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
@@ -98,12 +100,14 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Bei 71% der Ende 2018 registrierten Sozialhilfefälle handelt es sich um eine unterstützte Einzelperson. 17% sind Einelternfamilien und 9% Ehe- resp. Konkubinatspaare mit Kindern. Paare ohne Kinder machen 4% der Fälle aus.",
 		"erlaeuterungen": "Mit Ausnahme des Dossiertyps für Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) sind alle Dossiers berücksichtigt.Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt.",
-		"template": "template001",
-		"darstellungsart": "Grafik",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8513"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -121,7 +125,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Lage",
 		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «Das Geld reicht»",
 		"kuerzel": "I.50.2.08243",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-08",
 		"description": "Finanzielle Lage",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -142,7 +146,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8514"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -160,7 +166,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Lage",
 		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «das Geld reicht nicht»",
 		"kuerzel": "I.50.2.08244",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-09",
 		"description": "Finanzielle Lage",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -181,7 +187,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8515"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -199,7 +207,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Unterstützung",
 		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?»",
 		"kuerzel": "I.50.2.08245",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-10",
 		"description": "Finanzielle Unterstützung",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -220,7 +228,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8516"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -238,7 +248,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Lage",
 		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.»",
 		"kuerzel": "I.50.2.08246",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-11",
 		"description": "Finanzielle Lage",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -259,7 +269,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8517"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -277,7 +289,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Lage",
 		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.»",
 		"kuerzel": "I.50.2.08247",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-12",
 		"description": "Finanzielle Lage",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -298,7 +310,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8518"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -316,7 +330,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
 		"subtitle": "nach Grossregion, 2013",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-06",
 		"description": "Anteil Personen in Haushalten mit Kontoüberziehungen oder Zahlungsrückständen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
@@ -337,7 +351,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8519"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
@@ -355,7 +371,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
 		"subtitle": "nach Grossregion, 2013",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-07",
 		"description": "Anteil Personen in einem Haushalt mit Betreibungen in den letzten zwölf Monaten",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
@@ -376,7 +392,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8520"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
@@ -394,7 +412,7 @@ var indikatorensetData = [
 		"title": "Bezüger mit Ergänzungsleistungen und Beihilfen",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-05",
 		"description": "Bezüger mit Ergänzungsleistungen und Beihilfen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
@@ -415,7 +433,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8521"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -433,7 +453,7 @@ var indikatorensetData = [
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.08251",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-19",
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -474,7 +494,7 @@ var indikatorensetData = [
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.08252",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-20",
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -488,7 +508,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2019 beträgt die Arbeitslosenquote der ausländischen Männer 5,3% (im Sommer lag sie bei 4,0%). Gegenüber Dezember 2018 sind die Arbeitslosenquoten sowohl bei den Männern als auch bei den Frauen rückläufig.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -513,7 +533,7 @@ var indikatorensetData = [
 		"title": "In der Notschlafstelle Übernachtende nach Alter",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-21",
 		"description": "In der Notschlafstelle Übernachtende nach Alter",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
@@ -527,14 +547,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 16% aller Übernachtenden aus (2017: 11%). Die Gruppe der 41- bis 50-Jährigen weiterhin ist mit 24% aller Nutzer weiterhin die grösste der Notschlafstellen. 11% sind älter als 60 Jahre.",
+		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 16% aller Übernachtenden aus (2017: 11%). Die Gruppe der 41- bis 50-Jährigen weiterhin ist mit 24% aller Nutzer weiterhin die grösste der Notschlafstellen. 8% sind älter als 60 Jahre.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8524"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -552,7 +574,7 @@ var indikatorensetData = [
 		"title": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-22",
 		"description": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
@@ -573,7 +595,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8525"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -591,7 +615,7 @@ var indikatorensetData = [
 		"title": "Anzahl Ausländer nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.08255",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-25",
 		"description": "Anzahl Ausländer nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -630,7 +654,7 @@ var indikatorensetData = [
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08256",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-26",
 		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -644,14 +668,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2018 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 45% aus. Der Anteil Kinder und Jugendlicher an allen Asylsuchenden stieg von 2009 bis 2018 von 15% auf 25%.",
+		"lesehilfe": "Gut ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2019 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 45% aus. 2010 waren etwas mehr als die Hälfte der Asylsuchende bis 25 Jahre alt, 2019 liegt dieser Anteil noch bei 43%.",
 		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8527"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -669,7 +695,7 @@ var indikatorensetData = [
 		"title": "Minderjährige unbegleitete Flüchtlinge",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08258",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-27",
 		"description": "Minderjährige unbegleitete Flüchtlinge",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -710,7 +736,7 @@ var indikatorensetData = [
 		"title": "Gesundheitliche Verfassung",
 		"subtitle": "«Wie geht es Ihnen zurzeit gesundheitlich?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-29",
 		"description": "Gesundheitliche Verfassung",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -751,7 +777,7 @@ var indikatorensetData = [
 		"title": "Gesundheitliche Probleme",
 		"subtitle": "«Wie häufig gab es in Ihrer Familie in den vergangenen 12 Monaten gesundheitliche Probleme eines Erwachsenen?»",
 		"kuerzel": "I.50.2.08261",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-30",
 		"description": "Gesundheitliche Probleme",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -772,7 +798,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8532"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -790,7 +818,7 @@ var indikatorensetData = [
 		"title": "Gesundheitliche Unterstützung",
 		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?»",
 		"kuerzel": "I.50.2.08262",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-31",
 		"description": "Gesundheitliche Unterstützung",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -811,7 +839,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8533"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -829,7 +859,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-33",
 		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"thema": "14 Gesundheit",
 		"unterthema": "",
@@ -844,7 +874,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
-		"erlaeuterungen": "Der Indikator basisert auf fünf Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittlerer bis schwerer psychischer Belastung an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
+		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Anteil bezieht sich auf die Befragten innerhalb der statistischen Grossregion Nordwestschweiz, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt. Für den Kanton Basel-Stadt alleine ist aufgrund der geringen Anzahl an Befragten eine repräsentative Auswertung nicht möglich.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -870,7 +900,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen mit depressiven Symptomen",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
 		"kuerzel": "I.14.4.08264",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-34",
 		"description": "Anteil Personen mit depressiven Symptomen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
@@ -884,8 +914,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gaben 8.1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
-		"erlaeuterungen": "Der Indikator basisert auf neun Items aus dem Bereich \"Psychische Gesundheit\" der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Der Anteil ist auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz bezogen, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und dem Aargau zusammensetzt. Der Grund ist, dass die Anzahl Befragter in Basel-Stadt in 2017 zu gering ist für eine repräsentative Auswertung.",
+		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen als Befragte mit einem tertiären Bildungsabschluss.",
+		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Der Anteil bezieht sich auf die Befragten innerhalb der statisitschen Grossregion Nordwestschweiz, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.  Für den Kanton Basel-Stadt alleine ist aufgrund der geringen Anzahl an Befragten eine repräsentative Auswertung nicht möglich.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -911,7 +941,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen mit Einsamkeitsgefühlen",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-32",
 		"description": "Anteil Personen mit Einsamkeitsgefühlen",
 		"thema": "14 Gesundheit",
 		"unterthema": "",
@@ -951,11 +981,11 @@ var indikatorensetData = [
 	{
 		"title": "«Durch die IG Wohnen vermittelte Wohnungen nach Wohnviertel»",
 		"subtitle": "nach Wohnviertel, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzel": "I.13.3.08266",
+		"kuerzelKunde": "1-37",
 		"description": "«Durch die IG Wohnen vermittelte Wohnungen nach Wohnviertel»",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "",
+		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -973,7 +1003,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8537"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Verein IG Wohnen"
@@ -991,7 +1023,7 @@ var indikatorensetData = [
 		"title": "Umzugswunsch",
 		"subtitle": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung/Ihrem Haus auszuziehen?»",
 		"kuerzel": "I.50.2.08267",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-43",
 		"description": "Umzugswunsch",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -1012,7 +1044,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8538"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -1030,7 +1064,7 @@ var indikatorensetData = [
 		"title": "Umzugswunsch",
 		"subtitle": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?»",
 		"kuerzel": "I.50.2.08268",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-44",
 		"description": "Umzugswunsch",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -1045,13 +1079,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "377 Nennungen und somit mehr als die Hälfte der Familien mit konkreten Umzugsplänen, geben als Grund an, dass ihre Wohnung bzw. ihr Haus zu klein ist. Der Erwerb von Wohneigentum, die zu hohe Miete und die Lärmbelastung des Strassenverkehrs werden von knapp 20% der Familien mit Umzugsplänen als Ursache genannt. 188 Familien geben andere als die aufgelisteten Gründe an.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. <br>Diese Frage wurde nur von Familien beantwortet, welche angegeben hatten, dass sie konkrete Umzugspläne haben oder schon ans Umziehen dachten (n=694).",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. <br>Es handelt sich hierbei um eine offene Frage. Sie wurde nur von Familien beantwortet, welche angegeben hatten, dass sie konkrete Umzugspläne haben oder schon ans Umziehen dachten (n=694).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8539"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -1069,7 +1105,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Mietzins",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-39",
 		"description": "Zufriedenheit mit Mietzins",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1084,13 +1120,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "84% sind 2015 zufrieden mit dem Mietzins am aktuellen Wohnort, fast 50% waren sogar sehr zufrieden damit.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8540"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -1108,7 +1146,7 @@ var indikatorensetData = [
 		"title": "Höhe Mietzins",
 		"subtitle": "«Wie hoch ist ihr aktueller Mietzins?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-38",
 		"description": "Höhe Mietzins",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1123,7 +1161,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "56,4% der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Miete bewohnen, bezahlen pro Monat weniger als 1 500 Franken. Rund ein Drittel bezahlt mehr als 1 500 Franken pro Monat. Im Vergleich zu 2011 hat sich die Höhe des monatlichen Mietzinses kaum verändert.",
-		"erlaeuterungen": "Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Miete",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Miete",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1149,7 +1187,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit der aktuellen Wohnung",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Hindernisfreiheit/Barrierefreiheit im Wohngebäude?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-40",
 		"description": "Zufriedenheit mit der aktuellen Wohnung",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1164,13 +1202,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "80% der Befragten 2015 sind sehr oder eher zufrieden mit der Hindernisfreiheit im Wohngebäude.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8542"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -1188,7 +1228,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit der aktuellen Wohnung",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der altersangepassten Gestaltung des Wohngebäudes?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-41",
 		"description": "Zufriedenheit mit der aktuellen Wohnung",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1203,13 +1243,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8543"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -1225,9 +1267,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit der aktuellen Wohnung",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung/des Hauses?», 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung/des Hauses?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-42",
 		"description": "Zufriedenheit mit der aktuellen Wohnung",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1242,13 +1284,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mehr als 90% der über 55-Jährigen sind zufrieden mit der Ausstattung ihrer Wohnung bzw. ihres Hauses. Die Werte unterscheiden sich nach Staatsagehörigkeit: 15% der ausländischen Befragten sind nicht zufrieden mit dem Komfort der Wohnung, bei den Befragten mit Schweizer Pass liegt dieser Wert bei 4%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8544"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -1266,7 +1310,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-36",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1307,7 +1351,7 @@ var indikatorensetData = [
 		"title": "Leerwohnungen nach Wohnviertel",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.08275",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-35",
 		"description": "Leerwohnungen nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
@@ -1315,7 +1359,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-10T11:12:34.3434",
+		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
 		"stufe1": "Kapitel 1",
 		"stufe2": "1.5 Wohnen",
 		"stufe3": "",
@@ -1349,7 +1393,7 @@ var indikatorensetData = [
 		"title": "Jugendquotient",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08276",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-01",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1388,7 +1432,7 @@ var indikatorensetData = [
 		"title": "Anteil Familienhaushalte",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.08277",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-02",
 		"description": "Anteil Familienhaushalte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
@@ -1429,7 +1473,7 @@ var indikatorensetData = [
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
 		"kuerzel": "I.15.3.08278",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-07",
 		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
@@ -1450,7 +1494,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8549"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
@@ -1468,7 +1514,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Angeboten für Jugendliche",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für Jugendliche?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-11",
 		"description": "Zufriedenheit mit Angeboten für Jugendliche",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1506,11 +1552,11 @@ var indikatorensetData = [
 		"id": 8279
 	},
 	{
-		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen",
-		"subtitle": "Kanton Basel-Stadt",
+		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.08280",
-		"kuerzelKunde": "",
-		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen",
+		"kuerzelKunde": "2-03",
+		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -1523,14 +1569,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der 5- bis 12-jährigen Kinder hat im Kanton Basel-Stadt zwischen 2009 und 2018 um 16,5% zugenommen. Die Zahl der 13- bis 17-Jährigen und der 18- bis 25-Jährigen ist hingegen um 4,3% bzw. um 7,8% zurückgegangen.",
+		"lesehilfe": "Die Zahl der 5- bis 12-jährigen Kinder hat im Kanton Basel-Stadt zwischen 2010 und 2019 um 17,7% zugenommen. Die Zahl der 13- bis 17-Jährigen und der 18- bis 25-Jährigen ist hingegen um 1,3% bzw. um 8,9% zurückgegangen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8551"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1548,7 +1596,7 @@ var indikatorensetData = [
 		"title": "Sozialhilfequote der Minderjährigen",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.08281",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-04",
 		"description": "Sozialhilfequote der Minderjährigen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
@@ -1569,7 +1617,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8552"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -1587,7 +1637,7 @@ var indikatorensetData = [
 		"title": "Ausländeranteil der Jugendlichen",
 		"subtitle": "",
 		"kuerzel": "I.01.1.08282",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-05",
 		"description": "Ausländeranteil der Jugendlichen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1608,7 +1658,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8553"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1626,7 +1678,7 @@ var indikatorensetData = [
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.08283",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-08",
 		"description": "Wohnfläche pro Kopf",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -1640,7 +1692,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
@@ -1666,7 +1718,7 @@ var indikatorensetData = [
 		"title": "Anteil Grünflächen",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.02.1.08284",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-09",
 		"description": "Anteil Grünflächen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -1680,7 +1732,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
@@ -1703,9 +1755,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"subtitle": "Kinder mit Angeboten in Gehdistanz",
+		"subtitle": "Kinder mit Angeboten in Gehdistanz, Basel-Stadt, 2018",
 		"kuerzel": "I.16.3.08285",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-12",
 		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Sport- und Freiwilligenarbeit",
@@ -1719,14 +1771,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Matthäus können 2019 alle Kinder (100%) ein altersspezifisches Angebot der OKJA innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz (12,8%) und Bachletten (16,9%) einen kleinen Teil der Kinder gegeben.",
-		"erlaeuterungen": "Summe der Kinder (5 bis 12 Jahre) und Jugendliche (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2018), für welche die Angebote der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA, Stand Mai 2019) in Gehdistanz erreichbar sind. Basierend auf Angeboten, welche mindestens zwei Tage und sechs Stunden pro Woche geöffnet haben. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600m; Jugendliche: 850m).",
-		"template": "mappieStadt",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Matthäus können 2019 alle Kinder (100%) ein altersspezifisches Angebot der OKJA innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz (12,8%) und Bachletten (16,9%) ist dies nur für einen kleinen Teil der Kinder gegeben.",
+		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2018), für welche die Angebote der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA; Stand Mai 2019) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche geöffnet haben. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600m; Jugendliche: 850m).",
+		"template": "map002",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8556"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1744,8 +1798,8 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
 		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?»",
 		"kuerzel": "I.50.2.08286",
-		"kuerzelKunde": "",
-		"description": "Zufriedenheit mit familienspezifischen Beratungs-/Bildungsangeboten",
+		"kuerzelKunde": "2-10",
+		"description": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -1765,7 +1819,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8557"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -1783,7 +1839,7 @@ var indikatorensetData = [
 		"title": "Anzahl Straftaten im Bereich «häusliche Gewalt»",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-13",
 		"description": "Anzahl Straftaten im Bereich «häusliche Gewalt»",
 		"thema": "19 Rechtspflege",
 		"unterthema": "",
@@ -1804,7 +1860,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8558"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -1822,7 +1880,7 @@ var indikatorensetData = [
 		"title": "Polizeieinsätze zu Häuslicher Gewalt und involvierten Kindern",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-14",
 		"description": "Polizeieinsätze zu Häuslicher Gewalt und involvierten Kindern",
 		"thema": "19 Rechtspflege",
 		"unterthema": "",
@@ -1863,7 +1921,7 @@ var indikatorensetData = [
 		"title": "Distanz zum nächsten Spielplatz",
 		"subtitle": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?»",
 		"kuerzel": "I.50.2.08289",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-16",
 		"description": "Distanz zum nächsten Spielplatz",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -1884,7 +1942,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8560"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -1902,7 +1962,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Grünflächen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?»",
 		"kuerzel": "I.50.2.08290",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-18",
 		"description": "Zufriedenheit mit Grünflächen",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -1923,7 +1983,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8561"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -1941,7 +2003,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Spielplätzen",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Kinderspielplätzen an Ihrem Wohnort?»",
 		"kuerzel": "I.50.2.08291",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-17",
 		"description": "Zufriedenheit mit Spielplätzen",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -1962,7 +2024,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8562"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -1980,7 +2044,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Verkehrssicherheit",
 		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssituation bezüglich der Sicherheit der Kinder?»",
 		"kuerzel": "I.50.2.08292",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-19",
 		"description": "Zufriedenheit mit Verkehrssicherheit",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -2001,7 +2065,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8563"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -2019,7 +2085,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?»",
 		"kuerzel": "I.50.2.08293",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-15",
 		"description": "Zufriedenheit mit Wohnumfeld",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -2040,7 +2106,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8564"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -2058,7 +2126,7 @@ var indikatorensetData = [
 		"title": "Reineinkommen nach Wohnviertel",
 		"subtitle": "Basel-Stadt, 2016",
 		"kuerzel": "I.18.2.08294",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-21",
 		"description": "Reineinkommen nach Wohnviertel",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -2072,15 +2140,17 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2016 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 67 700 Franken. Mit 36 800 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": 6382,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6382"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -2098,7 +2168,7 @@ var indikatorensetData = [
 		"title": "Altstadt Grossbasel - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08295",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-02",
 		"description": "Altstadt Grossbasel - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2137,7 +2207,7 @@ var indikatorensetData = [
 		"title": "Vorstädte - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08296",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-03",
 		"description": "Vorstädte - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2176,7 +2246,7 @@ var indikatorensetData = [
 		"title": "Am Ring - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08297",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-04",
 		"description": "Am Ring - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2215,7 +2285,7 @@ var indikatorensetData = [
 		"title": "Breite - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08298",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-05",
 		"description": "Breite - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2254,7 +2324,7 @@ var indikatorensetData = [
 		"title": "St. Alban - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08299",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-06",
 		"description": "St. Alban - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2293,7 +2363,7 @@ var indikatorensetData = [
 		"title": "Gundeldingen - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08300",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-07",
 		"description": "Gundeldingen - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2332,7 +2402,7 @@ var indikatorensetData = [
 		"title": "Bruderholz - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08301",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-08",
 		"description": "Bruderholz - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2371,7 +2441,7 @@ var indikatorensetData = [
 		"title": "Bachletten - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08302",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-09",
 		"description": "Bachletten - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2410,7 +2480,7 @@ var indikatorensetData = [
 		"title": "Gotthelf - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08303",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-10",
 		"description": "Gotthelf - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2449,7 +2519,7 @@ var indikatorensetData = [
 		"title": "Iselin - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08304",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-11",
 		"description": "Iselin - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2488,7 +2558,7 @@ var indikatorensetData = [
 		"title": "St. Johann - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08305",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-12",
 		"description": "St. Johann - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2527,7 +2597,7 @@ var indikatorensetData = [
 		"title": "Altstadt Kleinbasel - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08306",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-13",
 		"description": "Altstadt Kleinbasel - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2566,7 +2636,7 @@ var indikatorensetData = [
 		"title": "Clara - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08307",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-14",
 		"description": "Clara - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2605,7 +2675,7 @@ var indikatorensetData = [
 		"title": "Wettstein - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08308",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-15",
 		"description": "Wettstein - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2644,7 +2714,7 @@ var indikatorensetData = [
 		"title": "Hirzbrunnen - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08309",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-16",
 		"description": "Hirzbrunnen - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2683,7 +2753,7 @@ var indikatorensetData = [
 		"title": "Rosental - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08310",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-17",
 		"description": "Rosental - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2722,7 +2792,7 @@ var indikatorensetData = [
 		"title": "Matthäus - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08311",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-18",
 		"description": "Matthäus - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2761,7 +2831,7 @@ var indikatorensetData = [
 		"title": "Klybeck - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08312",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-19",
 		"description": "Klybeck - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2800,7 +2870,7 @@ var indikatorensetData = [
 		"title": "Kleinhüningen - Quartierradar",
 		"subtitle": "Ausgabe 2019",
 		"kuerzel": "I.02.1.08313",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-20",
 		"description": "Kleinhüningen - Quartierradar",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -2839,7 +2909,7 @@ var indikatorensetData = [
 		"title": "Index der Wohnviertel",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.3.08314",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-01",
 		"description": "Index der Wohnviertel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
@@ -2854,7 +2924,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
-		"erlaeuterungen": "Aus fünf ausgewählten Indikatoren wird ein Index berechnet, welcher Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit erlaubt. Bei den ausgewählten Indikatoren handelt es sich um den Anteil fremdsprachiger Personen, den Median des Reineinkommens, die Arbeitslosenquote, die Sozialhilfequote sowie die Prämienverbilligungsquote. Der Index wird mittels Hauptkomponentenanalyse ermittelt. Dieses Verfahren wird unter anderem zur Bildung von Indizes aus Datensätzen mit mehreren Variablen verwendet. Der resultierende Index kann als gewichtetes Mittel der oben genannten Indikatoren interpretiert werden. Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel, desto höher ist der Indexwert. Die absoluten Werte des Index für die einzelnen Wohnviertel haben keine direkte intuitive Bedeutung. Allerdings kann die Streuung der Werte über die Zeit interpretiert werden: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf verwendeten Variablen.",
+		"erlaeuterungen": "Aus fünf ausgewählten Indikatoren wird ein Index berechnet, welcher Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit erlaubt. Bei den ausgewählten Indikatoren handelt es sich um den Anteil fremdsprachiger Personen, den Median des Reineinkommens, die Arbeitslosenquote, die Sozialhilfequote sowie die Prämienverbilligungsquote. Der Index wird mittels Hauptkomponentenanalyse ermittelt. Dieses Verfahren wird unter anderem zur Bildung von Indizes aus Datensätzen mit mehreren Variablen verwendet. Der resultierende Index kann als gewichtetes Mittel der oben genannten Indikatoren interpretiert werden. Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index für die einzelnen Wohnviertel haben keine direkte intuitive Bedeutung. Allerdings kann die Streuung der Werte über die Zeit interpretiert werden: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf verwendeten Variablen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2884,7 +2954,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Wohnquartier",
 		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-24",
 		"description": "Zufriedenheit mit Wohnquartier",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -2925,7 +2995,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Parks und Grünanlagen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-25",
 		"description": "Zufriedenheit mit Parks und Grünanlagen",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -2966,7 +3036,7 @@ var indikatorensetData = [
 		"title": "Arealentwicklungen",
 		"subtitle": "",
 		"kuerzel": "I.09.1.08317",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-22",
 		"description": "Arealentwicklungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -2987,7 +3057,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8588"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt",
@@ -3006,7 +3078,7 @@ var indikatorensetData = [
 		"title": "Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
 		"kuerzel": "I.18.2.08318",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-23",
 		"description": "Median des Reinvermögens",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -3045,7 +3117,7 @@ var indikatorensetData = [
 		"title": "Altersquotient",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08320",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-27",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -3060,7 +3132,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus dem Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -3086,7 +3158,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für ältere Menschen?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-31",
 		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3127,7 +3199,7 @@ var indikatorensetData = [
 		"title": "Nachbarschaftliches Verhältnis",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
 		"kuerzel": "I.50.2.08322",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-28",
 		"description": "Nachbarschaftliches Verhältnis",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -3148,7 +3220,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8593"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -3166,7 +3240,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit nachbarschaftlichem Austausch",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-29",
 		"description": "Zufriedenheit mit nachbarschaftlichem Austausch",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3181,13 +3255,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8594"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3205,7 +3281,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit den sozialkontakten",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-30",
 		"description": "Zufriedenheit mit den sozialkontakten",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3220,13 +3296,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, der keine Antwort geben konnte oder wollte, von 2011 auf 2015 um fast 3 Prozentpunkte.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8595"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3244,7 +3322,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-32",
 		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3259,13 +3337,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Rund 60% der Befragten sind 2015 mit en Angeboten für ältere Menschen zufrieden, 2011 waren es mit 56% weniger.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8596"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3283,7 +3363,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Unterstützung von Freunden",
 		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte finanziell?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-33",
 		"description": "Finanzielle Unterstützung von Freunden",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3298,13 +3378,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "21% der Befragten unterschützen ihre Freunde und Bekannte, 2% regelmässig, 8% hin und wieder und 11% selten. Vor vier Jahren waren es weniger.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8597"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3322,7 +3404,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Unterstützung von Nachbarn",
 		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn finanziell?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-34",
 		"description": "Finanzielle Unterstützung von Nachbarn",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3337,13 +3419,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Nachbarn erhalten von 7% der Befragten finanzielle Unterstützung. Dieser Wert liegt um 2 Prozentpunkte höher als bei der letzten Befragung.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8598"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3361,7 +3445,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Unterstützung von Arbeitskollegen",
 		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen finanziell?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-35",
 		"description": "Finanzielle Unterstützung von Arbeitskollegen",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3376,13 +3460,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "3,5% der Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. Vor vier Jahren waren noch weniger.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8599"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3400,7 +3486,7 @@ var indikatorensetData = [
 		"title": "Materielle Unterstützung von Freunden",
 		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte materiell?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-36",
 		"description": "Materielle Unterstützung von Freunden",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3415,13 +3501,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "37,0% der Befragten unterstützen Freunde und Bekannte materiell. Diese Hilfe erfolgt in 3,4% der Fälle auf regelmässiger Basis. 16,9% unterstützen hin und wieder ihre Freunde oder Bekannte und 16,7% selten.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8600"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3439,7 +3527,7 @@ var indikatorensetData = [
 		"title": "Materielle Unterstützung von Nachbarn",
 		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn materiell?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-37",
 		"description": "Materielle Unterstützung von Nachbarn",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3453,14 +3541,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt 38% der Befragten untersützen ihre Nachbarn: 4% bieten regelmässig, 18% hin und wieder und 17% selten ihren Nachbarn praktische Hilfeleistungen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Insgesamt 38% der Befragten unterstützen ihre Nachbarn: 4% bieten regelmässig, 18% hin und wieder und 17% selten ihren Nachbarn praktische Hilfeleistungen.",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8601"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3478,7 +3568,7 @@ var indikatorensetData = [
 		"title": "Materielle Unterstützung von Arbeitskollegen",
 		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen materiell?»",
 		"kuerzel": "",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3-38",
 		"description": "Materielle Unterstützung von Arbeitskollegen",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -3493,13 +3583,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Arbeitskolleginnen und -kollegen spielen bei den praktischen Hilfeleistungen eine eher untergeordnete Rolle, 9% der Befragten unterstützen sie selten bis regelmässig.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8602"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -3517,7 +3609,7 @@ var indikatorensetData = [
 		"title": "Anteil deutschsprachige Personen",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.8.08332",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-02",
 		"description": "Anteil deutschsprachige Personen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
@@ -3526,8 +3618,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3536,9 +3628,11 @@ var indikatorensetData = [
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8603"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3556,7 +3650,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Lage",
 		"subtitle": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?»",
 		"kuerzel": "I.50.2.08333",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-24",
 		"description": "Finanzielle Lage",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -3565,8 +3659,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3575,9 +3669,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8604"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -3595,7 +3691,7 @@ var indikatorensetData = [
 		"title": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015",
 		"subtitle": "",
 		"kuerzel": "I.15.1.08334",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "2-06",
 		"description": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
@@ -3604,8 +3700,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 2",
+		"stufe2": "2.2 Günstige Aufwachsbedingungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3614,9 +3710,11 @@ var indikatorensetData = [
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8605"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -3634,7 +3732,7 @@ var indikatorensetData = [
 		"title": "Anteil Haushalte mit Prämienverbilligung",
 		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "I.13.2.08335",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-13",
 		"description": "Anteil Haushalte mit Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -3643,20 +3741,22 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-09-27T11:29:03.033",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt liegt Ende 2018 der Anteil der Haushalte mit reiner PV an allen Haushalten bei 15,0%. Das Wohnviertel Klybeck weist mit 25,0% die höchste, das Wohnviertel Vorstädte mit 8,3% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2013 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum um 1,9 Prozentpunkte gesunken.",
 		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": 6204,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6204"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -3670,11 +3770,11 @@ var indikatorensetData = [
 		"id": 8335
 	},
 	{
-		"title": "Haushalte mit reiner Prämienverbilligung nach Herkunft",
+		"title": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.13.2.08336",
-		"kuerzelKunde": "",
-		"description": "Haushalte mit reiner Prämienverbilligung nach Herkunft",
+		"kuerzelKunde": "1-14",
+		"description": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -3682,8 +3782,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3692,9 +3792,11 @@ var indikatorensetData = [
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8607"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3712,7 +3814,7 @@ var indikatorensetData = [
 		"title": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
 		"subtitle": "",
 		"kuerzel": "I.13.2.08337",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-15",
 		"description": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -3721,8 +3823,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3731,9 +3833,11 @@ var indikatorensetData = [
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8608"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3751,7 +3855,7 @@ var indikatorensetData = [
 		"title": "Anteil Haushalte mit FAMI",
 		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "I.13.2.08338",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-16",
 		"description": "Anteil Haushalte mit FAMI",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -3760,20 +3864,22 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-09-27T11:26:45.4545",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Ende 2018 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2013 lag die FAMI-Quote noch bei 1,7%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel wohnt keine beziehende Familie. Gegenüber 2013 ist einzig in den Wohnvierteln Altstadt Kleinbasel, Vorstädte sowie Rosental ein Rückgang zu beobachten.",
 		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": 6203,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6203"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -3790,7 +3896,7 @@ var indikatorensetData = [
 		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08339",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-17",
 		"description": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -3799,8 +3905,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3809,7 +3915,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": 6474,
 		"children": [],
 		"renderLink": [],
@@ -3829,7 +3935,7 @@ var indikatorensetData = [
 		"title": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"subtitle": "",
 		"kuerzel": "I.13.2.08340",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-18",
 		"description": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -3838,8 +3944,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3848,9 +3954,11 @@ var indikatorensetData = [
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8611"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3868,7 +3976,7 @@ var indikatorensetData = [
 		"title": "Finanzielle Lage",
 		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.»",
 		"kuerzel": "I.50.2.08341",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-23",
 		"description": "Finanzielle Lage",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -3877,8 +3985,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Kapitel 1",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3887,9 +3995,11 @@ var indikatorensetData = [
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8612"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -3907,7 +4017,7 @@ var indikatorensetData = [
 		"title": "Erwerbstätige Flüchtlinge",
 		"subtitle": "Nach Bewilligungsart, in Basel-Stadt, am Jahresende",
 		"kuerzel": "I.03.5.08452",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-28",
 		"description": "Erwerbstätige Flüchtlinge",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",

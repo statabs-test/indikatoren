@@ -7,10 +7,6 @@
       },
       "data": [
         [
-          2009,
-          11461
-        ],
-        [
           2010,
           11543
         ],
@@ -45,9 +41,13 @@
         [
           2018,
           13357
+        ],
+        [
+          2019,
+          13585
         ]
       ],
-      "name": "5-12"
+      "name": "5-12 J."
     },
     {
       "color": "#B00000",
@@ -55,10 +55,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2009,
-          7837
-        ],
         [
           2010,
           7655
@@ -94,9 +90,13 @@
         [
           2018,
           7501
+        ],
+        [
+          2019,
+          7558
         ]
       ],
-      "name": "13-17"
+      "name": "13-17 J."
     },
     {
       "color": "#CD9C00",
@@ -104,10 +104,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2009,
-          18909
-        ],
         [
           2010,
           18680
@@ -143,9 +139,13 @@
         [
           2018,
           17435
+        ],
+        [
+          2019,
+          17016
         ]
       ],
-      "name": "18-25"
+      "name": "18-25 J."
     }
   ],
   "chart": {
@@ -184,7 +184,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppen"
+    "text": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe"
   },
   "subtitle": {
     "style": {
@@ -193,7 +193,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kanton Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {

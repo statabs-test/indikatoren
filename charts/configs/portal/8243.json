@@ -13,10 +13,6 @@
           64.9
         ],
         [
-          "Wohnung",
-          64.2
-        ],
-        [
           "Haushaltswaren",
           63.3
         ],
@@ -25,12 +21,16 @@
           61.7
         ],
         [
-          "Krankenkasse",
-          57.5
+          "Wohnung",
+          64.2
         ],
         [
           "Kleidung Erwachsene",
           52
+        ],
+        [
+          "Krankenkasse",
+          57.5
         ],
         [
           "Freizeit Kinder",
@@ -85,10 +85,6 @@
           70.4
         ],
         [
-          "Wohnung",
-          68.1
-        ],
-        [
           "Haushaltswaren",
           69.8
         ],
@@ -97,12 +93,16 @@
           67.2
         ],
         [
-          "Krankenkasse",
-          59.5
+          "Wohnung",
+          68.1
         ],
         [
           "Kleidung Erwachsene",
           58.7
+        ],
+        [
+          "Krankenkasse",
+          59.5
         ],
         [
           "Freizeit Kinder",
@@ -157,10 +157,6 @@
           75.7
         ],
         [
-          "Wohnung",
-          71.4
-        ],
-        [
           "Haushaltswaren",
           73.3
         ],
@@ -169,12 +165,16 @@
           72.1
         ],
         [
-          "Krankenkasse",
-          59.6
+          "Wohnung",
+          71.4
         ],
         [
           "Kleidung Erwachsene",
           65.3
+        ],
+        [
+          "Krankenkasse",
+          59.6
         ],
         [
           "Freizeit Kinder",
@@ -299,7 +299,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «das Geld reicht»",
+    "text": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» - Dargestellte Kategorie: «Das Geld reicht»",
     "align": "left"
   },
   "yAxis": {

@@ -673,11 +673,11 @@
       "useHTML": true,
       "style": {
         "color": "#000000",
-        "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
+                    //indentation of labels, except category-titles
                     var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
                     return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
                 }
@@ -714,23 +714,6 @@
     },
     "renderTo": "container-8273"
   },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Zufriedenheit mit der aktuellen Wohnung"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung\u002Fdes Hauses?», 2015"
-  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -739,29 +722,43 @@
   },
   "plotOptions": {
     "series": {
+      "stacking": "percent",
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "color": "#000000"
         }
-      },
-      "stacking": "percent"
+      }
     }
   },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Zufriedenheit mit der aktuellen Wohnung"
+  },
+  "subtitle": {
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung\u002Fdes Hauses?»"
+  },
   "yAxis": {
+    "max": 100,
     "tickInterval": 20,
     "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
       "text": null
     },
-    "max": 100,
     "labels": {
       "format": "{value}%",
       "rotation": 0,
@@ -773,6 +770,28 @@
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
+  },
+  "legend": {
+    "enabled": true,
+    "reversed": true,
+    "useHTML": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "color": "#000000",
+      "width": 115,
+      "textOverflow": "none"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "credits": {
     "enabled": true,
@@ -788,27 +807,6 @@
       "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
-  },
-  "legend": {
-    "enabled": true,
-    "margin": 0,
-    "padding": 5,
-    "itemDistance": 10,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "reversed": true,
-    "itemMarginBottom": 5,
-    "align": "left",
-    "useHTML": false,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "width": 115,
-      "textOverflow": null
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            }
   },
   "exporting": {
     "filename": 8273
