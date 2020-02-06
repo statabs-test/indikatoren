@@ -6,10 +6,12 @@
     }
   },
   "xAxis": {
-    "type": "category"
+    "type": "category",
+    "labels": {rotation:-45}
   },
   "yAxis": {
     "tickInterval":20,
+    max:100,
       "labels": {
         "format": "{value}%"
       },
@@ -23,7 +25,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    itemWidth: 150,
+   // itemWidth: 80,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
