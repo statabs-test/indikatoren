@@ -27,26 +27,26 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:49900,
+                to:40999,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 50,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 41,0"
             }, {
-                from: 50.0,
-                to: 54.9,
+                from: 41000,
+                to: 46999,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>50,0 − 54,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>41,0 − 46,9"
             }, {
-                from: 55.0,
-                to: 59.9,
+                from: 47000,
+                to: 52999,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>55,0 − 59,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>47,0 − 52,9"
             },{
-                from: 60.0,
-                to: 64.9,
+                from: 53000,
+                to: 58999,
                  color: '#246370',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>60,0 − 64,9"
             },{
-                from: 65,
+                from: 59000,
                 color: '#083038',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 65,0"
             }], 
@@ -58,7 +58,7 @@
 		      },
 		      {
 		      	//2nd series: use y values from column 3
-		      	y: 3
+		      	y: 2
 		      }
 		    ]
         },
@@ -129,7 +129,7 @@
 					};
 					 var pieSizeCatConfig;
 					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
+					//fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
 	                var minValueInLegend = 1; 
@@ -144,7 +144,7 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "In der Schweiz <br/> geborenen <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "Median pro Veranlagung <br/> in 1 000 Fr.", 245 + shiftHoriz, 220 + shiftVert);
 					/*
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
