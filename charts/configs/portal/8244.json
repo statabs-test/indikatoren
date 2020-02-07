@@ -5,68 +5,68 @@
       "visible": true,
       "data": [
         [
-          "Lebensmittel",
-          3.5
-        ],
-        [
-          "Kleidung Kinder",
-          5.8
-        ],
-        [
-          "Haushaltswaren",
-          6.5
-        ],
-        [
-          "Wohnung",
-          6.7
-        ],
-        [
-          "Spielzeug",
-          7.1
-        ],
-        [
-          "Kleidung Erwachsene",
-          10.4
-        ],
-        [
-          "Krankenkasse",
-          9.8
-        ],
-        [
-          "Freizeit Kinder",
-          14.2
-        ],
-        [
-          "Ferien",
-          24.6
-        ],
-        [
-          "Nachhilfeunterricht",
-          18.8
-        ],
-        [
-          "Freizeit Erwachsene",
-          21.2
-        ],
-        [
-          "Fremdbetreuung",
-          22
-        ],
-        [
-          "Kulturveranstaltungen",
-          23
-        ],
-        [
-          "Private Vorsorge",
-          36.4
+          "Sparen",
+          43.4
         ],
         [
           "Haushaltshilfe",
           null
         ],
         [
-          "Sparen",
-          43.4
+          "Private Vorsorge",
+          36.4
+        ],
+        [
+          "Kulturveranstaltungen",
+          23
+        ],
+        [
+          "Fremdbetreuung",
+          22
+        ],
+        [
+          "Freizeit Erwachsene",
+          21.2
+        ],
+        [
+          "Nachhilfeunterricht",
+          18.8
+        ],
+        [
+          "Ferien",
+          24.6
+        ],
+        [
+          "Freizeit Kinder",
+          14.2
+        ],
+        [
+          "Krankenkasse",
+          9.8
+        ],
+        [
+          "Kleidung Erwachsene",
+          10.4
+        ],
+        [
+          "Spielzeug",
+          7.1
+        ],
+        [
+          "Wohnung",
+          6.7
+        ],
+        [
+          "Haushaltswaren",
+          6.5
+        ],
+        [
+          "Kleidung Kinder",
+          5.8
+        ],
+        [
+          "Lebensmittel",
+          3.5
         ]
       ],
       "name": "2009 (N=3 119)",
@@ -77,68 +77,68 @@
       "visible": true,
       "data": [
         [
-          "Lebensmittel",
-          2.7
-        ],
-        [
-          "Kleidung Kinder",
-          4.3
-        ],
-        [
-          "Haushaltswaren",
-          4
-        ],
-        [
-          "Wohnung",
-          5.8
-        ],
-        [
-          "Spielzeug",
-          5.2
-        ],
-        [
-          "Kleidung Erwachsene",
-          7.1
-        ],
-        [
-          "Krankenkasse",
-          9
-        ],
-        [
-          "Freizeit Kinder",
-          11.3
-        ],
-        [
-          "Ferien",
-          20.1
-        ],
-        [
-          "Nachhilfeunterricht",
-          17.5
-        ],
-        [
-          "Freizeit Erwachsene",
-          17.7
-        ],
-        [
-          "Fremdbetreuung",
-          19
-        ],
-        [
-          "Kulturveranstaltungen",
-          19.5
-        ],
-        [
-          "Private Vorsorge",
-          35.4
+          "Sparen",
+          36.8
         ],
         [
           "Haushaltshilfe",
           36.9
         ],
         [
-          "Sparen",
-          36.8
+          "Private Vorsorge",
+          35.4
+        ],
+        [
+          "Kulturveranstaltungen",
+          19.5
+        ],
+        [
+          "Fremdbetreuung",
+          19
+        ],
+        [
+          "Freizeit Erwachsene",
+          17.7
+        ],
+        [
+          "Nachhilfeunterricht",
+          17.5
+        ],
+        [
+          "Ferien",
+          20.1
+        ],
+        [
+          "Freizeit Kinder",
+          11.3
+        ],
+        [
+          "Krankenkasse",
+          9
+        ],
+        [
+          "Kleidung Erwachsene",
+          7.1
+        ],
+        [
+          "Spielzeug",
+          5.2
+        ],
+        [
+          "Wohnung",
+          5.8
+        ],
+        [
+          "Haushaltswaren",
+          4
+        ],
+        [
+          "Kleidung Kinder",
+          4.3
+        ],
+        [
+          "Lebensmittel",
+          2.7
         ]
       ],
       "name": "2013 (N=2 231)",
@@ -149,68 +149,68 @@
       "visible": true,
       "data": [
         [
-          "Lebensmittel",
-          2.3
-        ],
-        [
-          "Kleidung Kinder",
-          3.8
-        ],
-        [
-          "Haushaltswaren",
-          4.1
-        ],
-        [
-          "Wohnung",
-          4.3
-        ],
-        [
-          "Spielzeug",
-          5.5
-        ],
-        [
-          "Kleidung Erwachsene",
-          7.3
-        ],
-        [
-          "Krankenkasse",
-          8.8
-        ],
-        [
-          "Freizeit Kinder",
-          10.3
-        ],
-        [
-          "Ferien",
-          14.9
-        ],
-        [
-          "Nachhilfeunterricht",
-          16.9
-        ],
-        [
-          "Freizeit Erwachsene",
-          17.2
-        ],
-        [
-          "Fremdbetreuung",
-          17.3
-        ],
-        [
-          "Kulturveranstaltungen",
-          18.1
-        ],
-        [
-          "Private Vorsorge",
-          30.7
+          "Sparen",
+          35.8
         ],
         [
           "Haushaltshilfe",
           35.6
         ],
         [
-          "Sparen",
-          35.8
+          "Private Vorsorge",
+          30.7
+        ],
+        [
+          "Kulturveranstaltungen",
+          18.1
+        ],
+        [
+          "Fremdbetreuung",
+          17.3
+        ],
+        [
+          "Freizeit Erwachsene",
+          17.2
+        ],
+        [
+          "Nachhilfeunterricht",
+          16.9
+        ],
+        [
+          "Ferien",
+          14.9
+        ],
+        [
+          "Freizeit Kinder",
+          10.3
+        ],
+        [
+          "Krankenkasse",
+          8.8
+        ],
+        [
+          "Kleidung Erwachsene",
+          7.3
+        ],
+        [
+          "Spielzeug",
+          5.5
+        ],
+        [
+          "Wohnung",
+          4.3
+        ],
+        [
+          "Haushaltswaren",
+          4.1
+        ],
+        [
+          "Kleidung Kinder",
+          3.8
+        ],
+        [
+          "Lebensmittel",
+          2.3
         ]
       ],
       "name": "2017 (N=1 665)",

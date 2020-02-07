@@ -3,71 +3,71 @@
 	global geojson_wohnviertelEPSG2056 
 	global $
 */
-(function(){
+(function () {
 
-    return {
+	return {
 		"legend": {
-    		useHTML: false,
+			useHTML: false,
 			"title": {
-				"text": null, 
-				style: {'fontWeight':' bold'}
+				"text": null,
+				style: { 'fontWeight': ' bold' }
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -345,
 			"y": -15,
-			itemMarginBottom: 2, 
+			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
-				}
+			}
 		},
-         colorAxis: {
-            dataClassColor: 'category',
-        	dataClasses: [{
-               	from: 0,
-                to:0.649,
-                color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,00</span> < 0,65"
-            }, {
-                from: 0.65,
-                to: 0.749,
-                color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>0,65 − 0,74"
-            }, {
-                from: 0.75,
-                to: 0.999,
-                 color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>0,75 − 0,99"
-            },{
-                from: 1,
-                to: 1.399,
-                 color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>1,00 − 1,39"
-            },{
-                from: 1.4,
-                color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,00</span> ≥ 1,40"
-            }], 
-        },
-        "data": {
-		    "seriesMapping": [
-		      {
-		      	x: 0, y: 2
-		      },
-		      {
-		      	//2nd series: use y values from column 3
-		      	y: 3
-		      }
-		    ]
-        },
+		colorAxis: {
+			dataClassColor: 'category',
+			dataClasses: [{
+				from: 0,
+				to: 0.649,
+				color: '#D3E2E4',
+				name: "<span style='color: rgba(0,0,0,0)'>00,00</span> < 0,65"
+			}, {
+				from: 0.65,
+				to: 0.749,
+				color: '#A8C3CA',
+				name: "<span style='color: rgba(0,0,0,0)'>0</span>0,65 − 0,74"
+			}, {
+				from: 0.75,
+				to: 0.999,
+				color: '#689199',
+				name: "<span style='color: rgba(0,0,0,0)'>0</span>0,75 − 0,99"
+			}, {
+				from: 1,
+				to: 1.399,
+				color: '#246370',
+				name: "<span style='color: rgba(0,0,0,0)'>0</span>1,00 − 1,39"
+			}, {
+				from: 1.4,
+				color: '#083038',
+				name: "<span style='color: rgba(0,0,0,0)'>00,00</span> ≥ 1,40"
+			}],
+		},
+		"data": {
+			"seriesMapping": [
+				{
+					x: 0, y: 2
+				},
+				{
+					//2nd series: use y values from column 3
+					y: 3
+				}
+			]
+		},
 		"series": [
 			{
-				"name": "Wohnviertel", 
+				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#fbfbfb",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -76,74 +76,74 @@
 						"borderColor": '#BADA55',
 						"brightness": 0
 					}
-				}, 
+				},
 				tooltip: {
-					pointFormatter: function(){
+					pointFormatter: function () {
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
 					}
 				}
-			}, 
+			},
 			{
 				"visible": false
 			}
 		],
 		chart: {
 			events: {
-	            load: function (e) {
-	            	
-	            	this.credits.element.onclick = function() {};
+				load: function (e) {
 
-	                var chart = this;
-	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
+					this.credits.element.onclick = function () { };
+
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
 					fn.defineTemplate();
-					
+
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
-					
+
 					//pie diameters in px
 					var maxPieDiameter = 20;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					
+
 					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#007A2F' : '#990300';
-	                };					
-					
-					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
-						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
-	                        tooltip: {
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' m² </b><br/>';
-	                            }
-	                        }
-	                    };
+					var color = function (value) {
+						return (value >= 0) ? '#007A2F' : '#990300';
 					};
-					 var pieSizeCatConfig;
+
+					//define chart-specific details
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
+						return {
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
+								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+							},
+							tooltip: {
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + ' m² </b><br/>';
+								}
+							}
+						};
+					};
+					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					//fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-	                
+
 					//pie values in legend
-	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 5; 
-					
+					var minValueInLegend = 1;
+					var maxValueInLegend = 5;
+
 					var shiftHoriz = 280;
 					var shiftVert = 70;
 
-                	//Add manually drawn legend	
+					//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
-					
+
 					fn.addLegendTitle(chart, "Anteil <br/>Leerwohnungen (%)", 245 + shiftHoriz, 220 + shiftVert);
 					/*
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
@@ -156,7 +156,7 @@
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 405 + shiftHoriz, 347 + shiftVert);
 	                fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 405 + shiftHoriz, 375 + shiftVert);
-					*/
+					
 					var shiftDown = 12;
 
 		        	fn.addLegendCircle(chart, 373, 266+shiftDown, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
@@ -168,7 +168,8 @@
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-	            }
+					*/
+				}
 			}
 		}
 	};

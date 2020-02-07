@@ -3716,7 +3716,7 @@
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 405 + shiftHoriz, 347 + shiftVert);
 	                fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 405 + shiftHoriz, 375 + shiftVert);
-					*/
+					
 					var shiftDown = 12;
 
 		        	fn.addLegendCircle(chart, 373, 266+shiftDown, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
@@ -3728,6 +3728,7 @@
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					*/
 	            }
     },
     "renderTo": "container-8591",

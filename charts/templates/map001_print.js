@@ -73,8 +73,8 @@
             "floating": true,
             "title": {
                 "style": {
-                    "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontWeight": "bold", 
+                    "fontSize": "14px"
                 }
             }
     	},
