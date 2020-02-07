@@ -3052,7 +3052,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die höchsten Anteile der geplanten zusätzlichen Bruttogeschossflächen für Wohnungen finden sich in den Wohnvierteln Klybeck (26,0%) und St. Alban (23,8%).",
 		"erlaeuterungen": "Anteile der Wohnviertel an der geplanten Bruttogeschossfläche für Wohnungen in den städtischen Arealentwicklungen im Zeitraum 2019 bis 2030. Die Flächen der geplanten Arealentwicklungen wurden mit den Realisierungswahrscheinlichkeiten, die im mittleren Szenario der Bevölkerungsszenarien 2019 angenommen wurden, gewichtet. Im mittleren Szenario der Bevölkerungsszenarien 2019 führen die Arealentwicklungen zu zwischen 12 000 und 13 000 zusätzlichen Einwohnern in der Stadt Basel.",
-		"template": "map001",
+		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "99_99_00_00_00_000",

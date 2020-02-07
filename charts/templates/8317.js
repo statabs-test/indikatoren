@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -120+120,//-140,
+			"x": -100,
 			"y": -20,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -152,12 +152,12 @@
 					
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-
+					
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355-5, 212+15, 110+10, 130, '#fbfbfb');
+					fn.addLegendRectangle(chart, 355-115, 212+10, 130, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-	                fn.addLegendTitle(chart, chart.series[1].name, 355, 210+20);
+	                fn.addLegendTitle(chart, chart.series[1].name, 245, 220);
 	                
 	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');
