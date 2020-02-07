@@ -9,9 +9,11 @@
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
             spacing: [2,2,2,2], /*top, right, bottom and left */
-            "width": 641,
-    		"height": 415,
-            "spacingBottom": 45,
+            //"width": 641,
+            //"height": 415,
+            "width": 320,
+            "height": 208,
+            //"spacingBottom": 45,
             "style": {
                 "fontFamily": "Arial"
             },
