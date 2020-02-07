@@ -50,7 +50,7 @@ tooltip: {
 "chart": {      
   "type": "column",
  // "inverted": true,
-  width: 485
+  width: 665
 }
 }
 }());

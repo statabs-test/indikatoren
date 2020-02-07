@@ -93,8 +93,8 @@
   		   },
     "chart": {
       "alignTicks": false,
-			"width": 992,
-			"height": 484,
+			"width": 665,
+		//	"height": 270,
     }
   };
 }());

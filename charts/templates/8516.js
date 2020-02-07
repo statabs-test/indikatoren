@@ -50,8 +50,8 @@
 "chart": {      
   "type": "column",
   "inverted": false,
-  "width": 992,
-  "height": 484,
+  "width": 665,
+ // "height": 484,
 }
 }
 }());
