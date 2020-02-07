@@ -56,7 +56,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Von Februar bis November 2019 bewegte sich die Zahl der offenen Stellen zwischen 1000 und 1200. Ende Dezember 2019 lag sie bei über 1 300. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
+		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Von Februar bis Dezember 2019 bewegte sich die Zahl der offenen Stellen zwischen 1000 und 1400. Ende Januar 2020 lag sie bei über 1 600. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
