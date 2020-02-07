@@ -106,7 +106,7 @@
 					var maxPieDiameter = 20;
 					
 					//configuration of categorical pie sizes
-					var pieSizeCatConfig = 
+					/*var pieSizeCatConfig = 
 					[
 						{
 							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < \u00A0\u00A0 300",
@@ -126,7 +126,7 @@
 							to: 2000,
 							diameter: 20
 						}
-					];
+					];*/
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
@@ -134,7 +134,7 @@
 	                };					
 					
 					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					/*var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
@@ -147,27 +147,24 @@
 	                            }
 	                        }
 	                    };
-					};
+					};*/
 					
 					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-
-					var shiftHoriz = 280;
-					var shiftVert = 70;
+					//fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212+20, 110, 130-22, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-	                fn.addLegendTitle(chart, chart.series[0].name.split(' ').slice(0, 2).join(' <br>'), 245 + shiftHoriz, 220 + shiftVert);
+	                //fn.addLegendTitle(chart, chart.series[0].name.split(' ').slice(0, 2).join(' <br>'), 245, 220);
 	                
-	               	fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');
 	                fn.addLegendCircle(chart, 370, 285+15, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275+15, undefined, false, 'right');
 	                fn.addLegendCircle(chart, 370, 310+15, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300+15, undefined, false, 'right');
-					
+					*/
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
 					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');

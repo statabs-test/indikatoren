@@ -216,16 +216,16 @@
       2,
       2
     ],
-    "width": 641,
-    "height": 428,
-    "spacingBottom": 65,
+    "width": 320,
+    "height": 221,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "scatter",
     "inverted": true,
-    "renderTo": "container-8554"
+    "renderTo": "container-8554",
+    "spacingBottom": 22
   },
   "title": {
     "style": {
