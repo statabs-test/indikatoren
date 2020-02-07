@@ -1081,7 +1081,7 @@ var templatesById = {
 	"8282": "mappie001",
 	"8283": "dotplot",
 	"8284": "dotplot",
-	"8285": "map002",
+	"8285": "mappie001",
 	"8286": "befragungenGrundauswertung001",
 	"8287": "line001",
 	"8288": "line001",

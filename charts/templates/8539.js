@@ -57,7 +57,7 @@
   marginRight: 30,
   "type": "column",
   "inverted": true,
-  "height": 350,
+ // "height": 350,
   marginBottom: 50
   //"spacingTop": 100
   

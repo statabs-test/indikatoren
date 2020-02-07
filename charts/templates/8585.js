@@ -71,8 +71,8 @@
     "type": "column",
     "inverted": false,
     "spacingBottom": 40,
-    "width": 992,
-    "height": 484,
+    width: 665,
+    height: 270
   }
 }
 }());

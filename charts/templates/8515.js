@@ -51,8 +51,8 @@
 "chart": {      
   "type": "column",
  // "inverted": true,
- "width": 992,
- "height": 484,
+ "width": 665,
+
 }
 }
 }());

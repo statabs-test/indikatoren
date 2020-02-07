@@ -276,8 +276,8 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 992,
-    "height": 497,
+    "width": 665,
+    "height": 283,
     "spacing": [
       2,
       2,
@@ -306,7 +306,7 @@
                         });
                     }
 
-                    if (this['legend']['options']['enabled'] == false) {
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
                                 marginTop: 7
