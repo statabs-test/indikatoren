@@ -500,8 +500,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
-    "height": 221,
+    "width": 992,
+    "height": 497,
     "spacing": [
       2,
       2,
@@ -558,7 +558,9 @@
         "color": "black"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 25000,
+    "max": 100000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -574,7 +576,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-4"
   },
   "legend": {
     "enabled": true,

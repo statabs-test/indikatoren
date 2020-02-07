@@ -22,7 +22,7 @@
 },
 "yAxis": {
   max: 100,
-  tickInterval: 25,
+  tickInterval: 20,
   "labels": {
     "format": "{value:,.0f}%"
   }    
@@ -51,7 +51,8 @@
 "chart": {      
   "type": "column",
  // "inverted": true,
-  width: 485
+ "width": 992,
+ "height": 484,
 }
 }
 }());

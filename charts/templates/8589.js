@@ -1,8 +1,9 @@
 (function(){
   return {
     "yAxis": {
+      "tickInterval": 25000,
     	"min": 0,
-      //"max": 200000,
+      "max": 100000,
     	title: {
           text: null,
           "color": "#000000",
@@ -91,7 +92,9 @@
     	    //"shared": true
   		   },
     "chart": {
-      "alignTicks": false
+      "alignTicks": false,
+			"width": 992,
+			"height": 484,
     }
   };
 }());

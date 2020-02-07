@@ -15,6 +15,7 @@
     "type": "category"    
   },  
   "yAxis": {
+    tickInterval: 100,
     "labels": {
       "format": "{value:,.0f}"
     },
@@ -25,10 +26,10 @@
     "shared": false
   },  
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }

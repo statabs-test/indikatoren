@@ -276,8 +276,8 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 221,
+    "width": 992,
+    "height": 497,
     "spacing": [
       2,
       2,
@@ -446,7 +446,7 @@
       "x": 10,
       "y": -65
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-25"
   },
   "legend": {
     "padding": 0,

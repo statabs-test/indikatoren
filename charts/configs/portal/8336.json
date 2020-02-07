@@ -7,46 +7,6 @@
       "data": [
         [
           "2011",
-          null
-        ],
-        [
-          "2012",
-          null
-        ],
-        [
-          "2013",
-          null
-        ],
-        [
-          "2014",
-          null
-        ],
-        [
-          "2015",
-          null
-        ],
-        [
-          "2016",
-          null
-        ],
-        [
-          "2017",
-          null
-        ],
-        [
-          "2018",
-          null
-        ]
-      ],
-      "turboThreshold": 0
-    },
-    {
-      "color": "#474747",
-      "index": 2,
-      "legendIndex": 2,
-      "data": [
-        [
-          "2011",
           7878
         ],
         [
@@ -82,9 +42,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#474747",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2011",
@@ -120,6 +80,47 @@
         ]
       ],
       "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2011",
+          1117
+        ],
+        [
+          "2012",
+          1141
+        ],
+        [
+          "2013",
+          1131
+        ],
+        [
+          "2014",
+          1093
+        ],
+        [
+          "2015",
+          1069
+        ],
+        [
+          "2016",
+          1104
+        ],
+        [
+          "2017",
+          1167
+        ],
+        [
+          "2018",
+          1200
+        ]
+      ],
+      "name": "Gemischt",
       "turboThreshold": 0
     }
   ],
