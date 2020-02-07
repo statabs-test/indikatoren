@@ -1,28 +1,45 @@
-(function(){
-    return {
-	"series": [{
-		"color": "#68AB2B"
-	},
-	{
-		"visible": false
-	}],
-	"data": {
-	    "parsed": function (columns) {
-	    	
-	    	//copy columns to the end, then remove the first 5
-	    	columns.push(columns[3]);
-	    	columns.push(columns[1]);
-	    	columns.push(columns[2]);
-	    	columns.splice(0,5);
-    	}
-	},
-	yAxis: {
-		labels: {
-			y: 15
+(function () {
+	return {
+		"chart": {
+			type: "column",
+			marginRight: 15,
 		},
-		tickInterval: 0.2
-	}
+		"series": [
+			{
+				"color": "#68AB2B"
+			},
+			{
+				"visible": false
+			}
+		],
+		"data": {
+			"parsed": function (columns) {
+				//copy columns to the end, then remove the first 5
+				columns.push(columns[3]);
+				columns.push(columns[1]);
+				columns.push(columns[2]);
+				columns.splice(0, 5);
+			}
+		},
+		"xAxis": {
+			"type": "category",
+			"labels": {
+				padding: 1,
+				step: 1,
+				y: 3,
+				x: -10,
+				"style": {
+					"color": "#000000",
+					"fontSize": "9px"
+				}
+			}
+		},
+		"yAxis": {
+			//max: 50,
+			tickInterval: 0.2,
+			"labels": {
+			  "format": "{value:,.0f}%"
+			}    
+		  }
 	}
 }());
-
-//Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
