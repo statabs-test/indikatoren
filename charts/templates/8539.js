@@ -4,23 +4,23 @@
       series: {
           pointPadding: 0,
           borderWidth: 0,
-    "pointWidth": 10,
+    "pointWidth": 5,
 
 
       }
  },
 "xAxis": {
-  "type": "category",
-  "labels": {
-    "rotation": 0,
-    align: "right",
-    useHTML: true,
-                "style": {
-                    "color": "#000000",
-                    "width": 150,
-                    whiteSpace: 'nowrap'}
-    //x: 5,
-  } 
+			"type": "category",
+			"labels": {
+				padding: 1,
+				step: 1,
+				y: 3,
+				x: -15,
+				"style": {
+					"color": "#000000",
+					"fontSize": "8px"
+				}
+			}
 },
 
 "yAxis": {
@@ -35,7 +35,9 @@
   }    
 },
 "series": [
-{"color": "#007A2F"}, /* grün*/
+{"color": "#007A2F"}, /* grün*/{
+  "visible": false
+}
 ],
 "legend": {
   "enabled": false,
