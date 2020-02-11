@@ -26140,7 +26140,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Schuljahr 2017/2018 waren 96,2% der Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
-		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan. Beim HPV handelt es sich um den Anteil der geimpften Mädchen.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren.",
+		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26154,11 +26154,51 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/impfungen-prophylaxe/schweizerischer-impfplan.html' target = '_blank'>Bundesamt für Gesundheit: Schweizerischer Impfplan</a>"
 		],
 		"data-id": 8348,
 		"chart-id": 8348,
 		"filter": "",
 		"id": 8348
+	},
+	{
+		"title": "Kaiserschnitte in baselstädtischen Spitälern",
+		"subtitle": "2012 bis 2018",
+		"kuerzel": "I.14.1.08692",
+		"kuerzelKunde": "",
+		"description": "Kaiserschnitte in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2018 wurden rund 1619 Entbindungen mit einem Kaierschnitt durchgeführt. Dies entspricht einem Anteil von 35,4% an den insgesamt 4577 Entbindungen.",
+		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthale in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8692,
+		"chart-id": 8692,
+		"filter": "",
+		"id": 8692
 	}
 ];
