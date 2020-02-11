@@ -38329,6 +38329,46 @@ var indikatoren = [
 		"id": 7006
 	},
 	{
+		"title": "Grenzgänger im Dienstleistungssektor (I)",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07007",
+		"kuerzelKunde": "3.4-06",
+		"description": "Grenzgänger im Dienstleistungssektor (I)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-03T11:42:55.5555",
+		"stufe1": "Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Grenzgänger",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der Branche Information und Kommunikation arbeiteten im 4. Quartal 2018 mit 1 405 Personen 1,2% mehr Grenzgänger als ein Jahr zuvor. In den drei anderen Branchen ging die Zahl zurück: im Gastgewerbe  um 11,5% (aktuell 887 Personen), in der Branche Handel und Reparatur um 10,7% (2 851 Personen), im Bereich Verkehr und Lagerei um 5,8% (1 048 Personen).",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_04_01_00_00_406",
+		"parentId": 2163,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7007,
+		"chart-id": 7007,
+		"filter": "",
+		"id": 7007
+	},
+	{
 		"title": "Grenzgänger nach Kanton",
 		"subtitle": "",
 		"kuerzel": "I.03.5.07008",
@@ -38427,7 +38467,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2018 gegenüber dem Vorjahr um 4,0% gewachsen, Zürich verzeichnet den gleichen Wert. Der Schweizer Durchschnitt beträgt 1,6%.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -38451,7 +38491,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
-		"subtitle": "2017",
+		"subtitle": "2018",
 		"kuerzel": "I.04.2.07011",
 		"kuerzelKunde": "3.1-03",
 		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
@@ -38468,7 +38508,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2018 beträgt er 43,7%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,2%, vor den Finanz- und Versicherungsdienstleistungen mit 8,8%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,2% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 19,4% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 18,2%. Im Schweizer Durchschnitt ist die Branche  Beratung, Planung, Forschung und Immobilien mit 14,9% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -38492,7 +38532,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
 		"kuerzel": "I.04.2.07012",
 		"kuerzelKunde": "3.1-04",
 		"description": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
@@ -38502,13 +38542,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-03T11:42:57.5757",
+		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Seit dem Jahr 2009 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2018 beträgt der Zuwachs gegenüber dem Vorjahr 6,4%. Auch bei der Industrie hat sich der Wert seit 2009 mehr als verdoppelt (gegenüber Vorjahr +6,0%). Das Baugewerbe legte um 30,1% zu (gegenüber Vorjahr +15,7%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -38532,7 +38572,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
 		"kuerzel": "I.04.2.07013",
 		"kuerzelKunde": "3.1-05",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
@@ -38548,7 +38588,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Während die Branche Handel und Reparatur (+20,3%) sowie das Gastgewerbe (+2,1%) zwischen 2008 und 2017 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-22,4%) sowie Information und Kommunikation (-21,6%) zurück. Gegenüber dem Vorjahr waren die Veränderungen relativ gering.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
