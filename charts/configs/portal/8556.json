@@ -6301,16 +6301,16 @@
 
 					//Add manually drawn legend
 					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
-//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
-					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>'), 45, 30);
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), 355, 230);
+					//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>'), 545, 280);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), 700, 280);
 
-					fn.addLegendCircle(chart, 370, 266 + 15, 0.5 * pieSizeCatConfig[0].diameter, '#7F5F1A');
-					fn.addLegendCircle(chart, 370, 285 + 15, 0.5 * pieSizeCatConfig[1].diameter, '#7F5F1A');
-					fn.addLegendCircle(chart, 370, 310 + 15, 0.5 * pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255 + 15, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275 + 15, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300 + 15, undefined, false, 'right');
+					fn.addLegendCircle(chart, 715, 280 + 65 + 0, 0.5 * pieSizeCatConfig[0].diameter, '#7F5F1A');
+					fn.addLegendCircle(chart, 715, 280 + 65 + 19, 0.5 * pieSizeCatConfig[1].diameter, '#7F5F1A');
+					fn.addLegendCircle(chart, 715, 280 + 65 + 44, 0.5 * pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 700+30+29, 280 + 55 + 0, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 700+30, 280 + 55 + 19, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 700+30+30, 280 + 55 + 44, undefined, false, 'right');
 
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
@@ -6341,7 +6341,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kinder mit Angeboten in Gehdistanz, Basel-Stadt, 2018",
+    "text": "Kinder mit Angeboten in Gehdistanz, Stadt Basel, 2018",
     "align": "left"
   },
   "credits": {

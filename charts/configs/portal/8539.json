@@ -74,6 +74,9 @@
       ],
       "name": "Anzahl Nennungen",
       "turboThreshold": 0
+    },
+    {
+      "visible": false
     }
   ],
   "xAxis": {
@@ -88,15 +91,14 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
+        "fontSize": "8px",
         "color": "#000000",
-        "textOverflow": "none",
-        "width": 150,
-        "whiteSpace": "nowrap"
+        "textOverflow": "none"
       },
-      "rotation": 0,
-      "align": "right",
-      "useHTML": true
+      "padding": 1,
+      "step": 1,
+      "y": 3,
+      "x": -15
     },
     "tickLength": 0
   },
@@ -197,7 +199,6 @@
     "marginRight": 30,
     "type": "column",
     "inverted": true,
-    "marginBottom": 50,
     "renderTo": "container-8539",
     "spacingBottom": 12
   },
@@ -213,7 +214,7 @@
         }
       },
       "pointPadding": 0,
-      "pointWidth": 10
+      "pointWidth": 5
     }
   },
   "title": {

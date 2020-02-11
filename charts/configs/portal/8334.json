@@ -6255,7 +6255,7 @@ console.log(this);
       "color": "#000000"
     },
     "align": "left",
-    "text": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015"
+    "text": "Fremdsprachenquote bei Kindergarteneintritt"
   },
   "subtitle": {
     "style": {
@@ -6264,7 +6264,7 @@ console.log(this);
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stadt Basel, 2015",
     "align": "left"
   },
   "credits": {

@@ -51,7 +51,7 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
+  //  "marginBottom": 75,
     "marginTop": 35,
     "type": "column",
     "inverted": false

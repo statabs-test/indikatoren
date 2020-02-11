@@ -158,7 +158,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 263,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -248,7 +248,6 @@
                     }
                 }
     },
-    "marginBottom": 65,
     "type": "column",
     "inverted": true,
     "renderTo": "container-8534",

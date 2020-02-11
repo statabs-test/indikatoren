@@ -267,9 +267,9 @@
         "textOverflow": "none"
       },
       "rotation": -90,
-      "formatter": function() {
-        return this.value.replace("BS", "<b>BS<br/>");
-}
+      "formatter": function () {
+          return this.value.replace("BS", "<b>BS<br/>");
+        }
     },
     "tickLength": 0
   },
@@ -277,7 +277,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 283,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -368,8 +368,7 @@
                 }
     },
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 90,
+    "spacingBottom": 54,
     "renderTo": "container-8585"
   },
   "plotOptions": {
@@ -384,8 +383,7 @@
         }
       },
       "pointPadding": 0
-    },
-    "column": {}
+    }
   },
   "title": {
     "style": {
@@ -422,8 +420,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     },
     "tickInterval": 2
   },
@@ -456,21 +453,16 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "y": -45
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 8585

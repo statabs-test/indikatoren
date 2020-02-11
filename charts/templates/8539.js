@@ -60,7 +60,7 @@
   "type": "column",
   "inverted": true,
  // "height": 350,
-  marginBottom: 50
+ // marginBottom: 50
   //"spacingTop": 100
   
 }

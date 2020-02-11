@@ -26577,7 +26577,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_101",
+		"orderKey": "01_01_00_00_00_101",
 		"parentId": null,
 		"children": [
 			"8511"
@@ -26619,7 +26619,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_104",
+		"orderKey": "01_01_00_00_00_104",
 		"parentId": null,
 		"children": [
 			"8513"
@@ -26661,7 +26661,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_108",
+		"orderKey": "01_01_00_00_00_108",
 		"parentId": null,
 		"children": [
 			"8514"
@@ -26703,7 +26703,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_109",
+		"orderKey": "01_01_00_00_00_109",
 		"parentId": null,
 		"children": [
 			"8515"
@@ -26745,7 +26745,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_110",
+		"orderKey": "01_01_00_00_00_110",
 		"parentId": null,
 		"children": [
 			"8516"
@@ -26787,7 +26787,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_111",
+		"orderKey": "01_01_00_00_00_111",
 		"parentId": null,
 		"children": [
 			"8517"
@@ -26829,7 +26829,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_112",
+		"orderKey": "01_01_00_00_00_112",
 		"parentId": null,
 		"children": [
 			"8518"
@@ -26871,7 +26871,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_106",
+		"orderKey": "01_01_00_00_00_106",
 		"parentId": null,
 		"children": [
 			"8519"
@@ -26913,7 +26913,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_107",
+		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
 		"children": [
 			"8520"
@@ -26955,7 +26955,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_105",
+		"orderKey": "01_01_00_00_00_105",
 		"parentId": null,
 		"children": [
 			"8521"
@@ -26997,7 +26997,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_119",
+		"orderKey": "01_02_00_00_00_119",
 		"parentId": null,
 		"children": [
 			"8522"
@@ -27033,13 +27033,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 16% aller Übernachtenden aus (2017: 11%). Die Gruppe der 41- bis 50-Jährigen weiterhin ist mit 24% aller Nutzer weiterhin die grösste der Notschlafstellen. 8% sind älter als 60 Jahre.",
+		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2018 insgesamt 16% aller Übernachtenden aus (2017: 11%). Die Gruppe der 41- bis 50-Jährigen weiterhin ist mit 24% aller Nutzer weiterhin die grösste. 8% sind älter als 60 Jahre.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_121",
+		"orderKey": "01_02_00_00_00_121",
 		"parentId": null,
 		"children": [
 			"8524"
@@ -27081,7 +27081,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_122",
+		"orderKey": "01_02_00_00_00_122",
 		"parentId": null,
 		"children": [
 			"8525"
@@ -27123,7 +27123,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_126",
+		"orderKey": "01_03_00_00_00_126",
 		"parentId": null,
 		"children": [
 			"8527"
@@ -27143,7 +27143,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Minderjährige unbegleitete Flüchtlinge",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.08258",
 		"kuerzelKunde": "1-27",
 		"description": "Minderjährige unbegleitete Flüchtlinge",
@@ -27165,7 +27165,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_127",
+		"orderKey": "01_03_00_00_00_127",
 		"parentId": null,
 		"children": [
 			"8529"
@@ -27207,7 +27207,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_129",
+		"orderKey": "01_04_00_00_00_129",
 		"parentId": null,
 		"children": [
 			"8531"
@@ -27249,7 +27249,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_130",
+		"orderKey": "01_04_00_00_00_130",
 		"parentId": null,
 		"children": [
 			"8532"
@@ -27291,7 +27291,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_131",
+		"orderKey": "01_04_00_00_00_131",
 		"parentId": null,
 		"children": [
 			"8533"
@@ -27333,7 +27333,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_133",
+		"orderKey": "01_04_00_00_00_133",
 		"parentId": null,
 		"children": [
 			"8534"
@@ -27375,7 +27375,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_134",
+		"orderKey": "01_04_00_00_00_134",
 		"parentId": null,
 		"children": [
 			"8535"
@@ -27417,7 +27417,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_132",
+		"orderKey": "01_04_00_00_00_132",
 		"parentId": null,
 		"children": [
 			"8536"
@@ -27459,7 +27459,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_137",
+		"orderKey": "01_05_00_00_00_137",
 		"parentId": null,
 		"children": [
 			"8537"
@@ -27501,7 +27501,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_143",
+		"orderKey": "01_05_00_00_00_143",
 		"parentId": null,
 		"children": [
 			"8538"
@@ -27543,7 +27543,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_144",
+		"orderKey": "01_05_00_00_00_144",
 		"parentId": null,
 		"children": [
 			"8539"
@@ -27585,7 +27585,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_139",
+		"orderKey": "01_05_00_00_00_139",
 		"parentId": null,
 		"children": [
 			"8540"
@@ -27621,13 +27621,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "56,4% der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Miete bewohnen, bezahlen pro Monat weniger als 1 500 Franken. Rund ein Drittel bezahlt mehr als 1 500 Franken pro Monat. Im Vergleich zu 2011 hat sich die Höhe des monatlichen Mietzinses kaum verändert.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Miete",
+		"lesehilfe": "56,4% der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Mieter bewohnen, bezahlen pro Monat weniger als 1 500 Franken. Rund ein Drittel bezahlt mehr als 1 500 Franken pro Monat. Im Vergleich zu 2011 hat sich die Höhe des monatlichen Mietzinses kaum verändert.",
+		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Mieter",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_138",
+		"orderKey": "01_05_00_00_00_138",
 		"parentId": null,
 		"children": [
 			"8541"
@@ -27669,7 +27669,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_140",
+		"orderKey": "01_05_00_00_00_140",
 		"parentId": null,
 		"children": [
 			"8542"
@@ -27711,7 +27711,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_141",
+		"orderKey": "01_05_00_00_00_141",
 		"parentId": null,
 		"children": [
 			"8543"
@@ -27753,7 +27753,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_142",
+		"orderKey": "01_05_00_00_00_142",
 		"parentId": null,
 		"children": [
 			"8544"
@@ -27795,7 +27795,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_136",
+		"orderKey": "01_05_00_00_00_136",
 		"parentId": null,
 		"children": [
 			"8545"
@@ -27837,7 +27837,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_135",
+		"orderKey": "01_05_00_00_00_135",
 		"parentId": 6379,
 		"children": [],
 		"renderLink": [
@@ -27858,7 +27858,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.2.08277",
 		"kuerzelKunde": "2-02",
 		"description": "Anteil Familienhaushalte",
@@ -27880,7 +27880,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_202",
+		"orderKey": "02_01_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"8548"
@@ -27922,7 +27922,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_207",
+		"orderKey": "02_02_00_00_00_207",
 		"parentId": null,
 		"children": [
 			"8549"
@@ -27964,7 +27964,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_211",
+		"orderKey": "02_02_00_00_00_211",
 		"parentId": null,
 		"children": [
 			"8550"
@@ -28006,7 +28006,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_203",
+		"orderKey": "02_02_00_00_00_203",
 		"parentId": null,
 		"children": [
 			"8551"
@@ -28048,7 +28048,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_204",
+		"orderKey": "02_02_00_00_00_204",
 		"parentId": null,
 		"children": [
 			"8552"
@@ -28068,7 +28068,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländeranteil der Jugendlichen",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.08282",
 		"kuerzelKunde": "2-05",
 		"description": "Ausländeranteil der Jugendlichen",
@@ -28090,7 +28090,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_205",
+		"orderKey": "02_02_00_00_00_205",
 		"parentId": null,
 		"children": [
 			"8553"
@@ -28110,7 +28110,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"subtitle": "Kinder mit Angeboten in Gehdistanz, Basel-Stadt, 2018",
+		"subtitle": "Kinder mit Angeboten in Gehdistanz, Stadt Basel, 2018",
 		"kuerzel": "I.16.3.08285",
 		"kuerzelKunde": "2-12",
 		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
@@ -28132,7 +28132,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_212",
+		"orderKey": "02_02_00_00_00_212",
 		"parentId": null,
 		"children": [
 			"8556"
@@ -28174,7 +28174,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_210",
+		"orderKey": "02_02_00_00_00_210",
 		"parentId": null,
 		"children": [
 			"8557"
@@ -28194,7 +28194,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Straftaten im Bereich «häusliche Gewalt»",
-		"subtitle": "",
+		"subtitle": "Basel­Stadt",
 		"kuerzel": "",
 		"kuerzelKunde": "2-13",
 		"description": "Anzahl Straftaten im Bereich «häusliche Gewalt»",
@@ -28216,7 +28216,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_213",
+		"orderKey": "02_03_00_00_00_213",
 		"parentId": null,
 		"children": [
 			"8558"
@@ -28258,7 +28258,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_214",
+		"orderKey": "02_03_00_00_00_214",
 		"parentId": null,
 		"children": [
 			"8559"
@@ -28300,7 +28300,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_216",
+		"orderKey": "02_04_00_00_00_216",
 		"parentId": null,
 		"children": [
 			"8560"
@@ -28342,7 +28342,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_218",
+		"orderKey": "02_04_00_00_00_218",
 		"parentId": null,
 		"children": [
 			"8561"
@@ -28384,7 +28384,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_217",
+		"orderKey": "02_04_00_00_00_217",
 		"parentId": null,
 		"children": [
 			"8562"
@@ -28426,7 +28426,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_219",
+		"orderKey": "02_04_00_00_00_219",
 		"parentId": null,
 		"children": [
 			"8563"
@@ -28468,7 +28468,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_215",
+		"orderKey": "02_04_00_00_00_215",
 		"parentId": null,
 		"children": [
 			"8564"
@@ -28510,7 +28510,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_321",
+		"orderKey": "03_01_00_00_00_321",
 		"parentId": 6382,
 		"children": [],
 		"renderLink": [
@@ -28553,7 +28553,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_301",
+		"orderKey": "03_01_00_00_00_301",
 		"parentId": null,
 		"children": [
 			"8585"
@@ -28599,7 +28599,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_324",
+		"orderKey": "03_02_00_00_00_324",
 		"parentId": null,
 		"children": [
 			"8586"
@@ -28641,7 +28641,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_325",
+		"orderKey": "03_02_00_00_00_325",
 		"parentId": null,
 		"children": [
 			"8587"
@@ -28661,7 +28661,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arealentwicklungen",
-		"subtitle": "",
+		"subtitle": "Stadt Basel, 2019 bis 2030",
 		"kuerzel": "I.09.1.08317",
 		"kuerzelKunde": "3-22",
 		"description": "Arealentwicklungen",
@@ -28683,7 +28683,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_322",
+		"orderKey": "03_02_00_00_00_322",
 		"parentId": null,
 		"children": [
 			"8588"
@@ -28714,7 +28714,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-30T16:19:05.055",
+		"aktualisierungsdatum": "2020-02-10T17:15:48.4848",
 		"stufe1": "Kapitel 3",
 		"stufe2": "3.3 Generationenarbeit",
 		"stufe3": "",
@@ -28726,7 +28726,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_327",
+		"orderKey": "03_03_00_00_00_327",
 		"parentId": 5114,
 		"children": [],
 		"renderLink": [
@@ -28768,7 +28768,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_331",
+		"orderKey": "03_03_00_00_00_331",
 		"parentId": null,
 		"children": [
 			"8592"
@@ -28810,7 +28810,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_328",
+		"orderKey": "03_03_00_00_00_328",
 		"parentId": null,
 		"children": [
 			"8593"
@@ -28852,7 +28852,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_329",
+		"orderKey": "03_03_00_00_00_329",
 		"parentId": null,
 		"children": [
 			"8594"
@@ -28894,7 +28894,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_330",
+		"orderKey": "03_03_00_00_00_330",
 		"parentId": null,
 		"children": [
 			"8595"
@@ -28936,7 +28936,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_332",
+		"orderKey": "03_03_00_00_00_332",
 		"parentId": null,
 		"children": [
 			"8596"
@@ -28972,13 +28972,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "21% der Befragten unterschützen ihre Freunde und Bekannte, 2% regelmässig, 8% hin und wieder und 11% selten. Vor vier Jahren waren es weniger.",
+		"lesehilfe": "2015 unterstützen 21% der Befragten ihre Freunde und Bekannte, 2% regelmässig, 8% hin und wieder und 11% selten. Vier Jahre zuvor waren es weniger.",
 		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2011 und 2015 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_333",
+		"orderKey": "03_03_00_00_00_333",
 		"parentId": null,
 		"children": [
 			"8597"
@@ -29020,7 +29020,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_334",
+		"orderKey": "03_03_00_00_00_334",
 		"parentId": null,
 		"children": [
 			"8598"
@@ -29062,7 +29062,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_335",
+		"orderKey": "03_03_00_00_00_335",
 		"parentId": null,
 		"children": [
 			"8599"
@@ -29104,7 +29104,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_336",
+		"orderKey": "03_03_00_00_00_336",
 		"parentId": null,
 		"children": [
 			"8600"
@@ -29146,7 +29146,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_337",
+		"orderKey": "03_03_00_00_00_337",
 		"parentId": null,
 		"children": [
 			"8601"
@@ -29188,7 +29188,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_338",
+		"orderKey": "03_03_00_00_00_338",
 		"parentId": null,
 		"children": [
 			"8602"
@@ -29230,7 +29230,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_102",
+		"orderKey": "01_01_00_00_00_102",
 		"parentId": null,
 		"children": [
 			"8603"
@@ -29272,7 +29272,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_124",
+		"orderKey": "01_02_00_00_00_124",
 		"parentId": null,
 		"children": [
 			"8604"
@@ -29291,11 +29291,11 @@ var indikatoren = [
 		"id": 8333
 	},
 	{
-		"title": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015",
-		"subtitle": "",
+		"title": "Fremdsprachenquote bei Kindergarteneintritt",
+		"subtitle": "Stadt Basel, 2015",
 		"kuerzel": "I.15.1.08334",
 		"kuerzelKunde": "2-06",
-		"description": "Fremdsprachenquote bei Kindergarteneintritt nach Wohnviertel 2015",
+		"description": "Fremdsprachenquote bei Kindergarteneintritt",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -29314,7 +29314,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_206",
+		"orderKey": "02_02_00_00_00_206",
 		"parentId": null,
 		"children": [
 			"8605"
@@ -29356,7 +29356,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_113",
+		"orderKey": "01_02_00_00_00_113",
 		"parentId": 6204,
 		"children": [],
 		"renderLink": [
@@ -29376,7 +29376,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08336",
 		"kuerzelKunde": "1-14",
 		"description": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
@@ -29398,7 +29398,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_114",
+		"orderKey": "01_02_00_00_00_114",
 		"parentId": null,
 		"children": [
 			"8607"
@@ -29418,7 +29418,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08337",
 		"kuerzelKunde": "1-15",
 		"description": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
@@ -29440,7 +29440,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_115",
+		"orderKey": "01_02_00_00_00_115",
 		"parentId": null,
 		"children": [
 			"8608"
@@ -29482,7 +29482,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_116",
+		"orderKey": "01_02_00_00_00_116",
 		"parentId": 6203,
 		"children": [],
 		"renderLink": [
@@ -29502,7 +29502,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08340",
 		"kuerzelKunde": "1-18",
 		"description": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
@@ -29524,7 +29524,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_118",
+		"orderKey": "01_02_00_00_00_118",
 		"parentId": null,
 		"children": [
 			"8611"
@@ -29566,7 +29566,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_123",
+		"orderKey": "01_02_00_00_00_123",
 		"parentId": null,
 		"children": [
 			"8612"
@@ -29688,7 +29688,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_99_00_00_00_128",
+		"orderKey": "01_03_00_00_00_128",
 		"parentId": null,
 		"children": [
 			"8613"
