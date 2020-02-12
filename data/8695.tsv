@@ -1,4 +1,4 @@
-﻿""	"Zuwanderung Erwerbstätige (rechte Skala) => evtl. umbenennen -> 314"	"Bestand Grenzgänger Lagerei"	"Bestand Grenzgänger Zustelldienste"	"Best. Meldepflichtige in VZÄ (umbenennen, da inkl. 61&62!)"
+﻿""	"Zuwanderung Erwerbstätige (rechte Skala)"	"Bestand Grenzgänger Lagerei sowie sonst. DL für den Verkehr"	"Bestand Grenzgänger Post-, Kurier- und Expressdienste"	"Best. Meldepflichtige in VZÄ"
 "2010-01"	22	615	62	1
 "2010-02"	23	604	57	0
 "2010-03"	15	619	61	3
@@ -36,7 +36,7 @@
 "2018-03"	21	334	34	0
 "2018-04"	21	354	25	0
 "2019-01"	35	341	25	3
-"2019-02"	""	331	27	2
-"2019-03"	""	346	23	1
-"2019-04"	""	""	""	3
+"2019-02"	15	331	27	2
+"2019-03"	20	346	23	1
+"2019-04"	15	""	""	3
 
