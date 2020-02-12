@@ -65,7 +65,10 @@
       showLastLabel: true,
       //tickInterval: 365 * 24 * 3600 * 1000,
       //minTickInterval: 365 * 24 * 3600 * 1000,
-      ordinal: false
+      ordinal: false,
+      crosshair: {
+        width: 0
+      }
     },
     data: {
       parsed: function (columns) {
