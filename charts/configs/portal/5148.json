@@ -2,7 +2,156 @@
   "series": [
     {
       "color": "#FABD24",
+      "showInNavigator": true,
       "data": [
+        [
+          1971,
+          -129
+        ],
+        [
+          1972,
+          3
+        ],
+        [
+          1973,
+          -416
+        ],
+        [
+          1974,
+          -373
+        ],
+        [
+          1975,
+          -511
+        ],
+        [
+          1976,
+          -800
+        ],
+        [
+          1977,
+          -772
+        ],
+        [
+          1978,
+          -858
+        ],
+        [
+          1979,
+          -824
+        ],
+        [
+          1980,
+          -805
+        ],
+        [
+          1981,
+          -954
+        ],
+        [
+          1982,
+          -700
+        ],
+        [
+          1983,
+          -998
+        ],
+        [
+          1984,
+          -815
+        ],
+        [
+          1985,
+          -820
+        ],
+        [
+          1986,
+          -904
+        ],
+        [
+          1987,
+          -765
+        ],
+        [
+          1988,
+          -842
+        ],
+        [
+          1989,
+          -891
+        ],
+        [
+          1990,
+          -974
+        ],
+        [
+          1991,
+          -671
+        ],
+        [
+          1992,
+          -703
+        ],
+        [
+          1993,
+          -568
+        ],
+        [
+          1994,
+          -561
+        ],
+        [
+          1995,
+          -757
+        ],
+        [
+          1996,
+          -451
+        ],
+        [
+          1997,
+          -726
+        ],
+        [
+          1998,
+          -722
+        ],
+        [
+          1999,
+          -712
+        ],
+        [
+          2000,
+          -716
+        ],
+        [
+          2001,
+          -755
+        ],
+        [
+          2002,
+          -830
+        ],
+        [
+          2003,
+          -774
+        ],
+        [
+          2004,
+          -520
+        ],
+        [
+          2005,
+          -513
+        ],
+        [
+          2006,
+          -520
+        ],
+        [
+          2007,
+          -351
+        ],
         [
           2008,
           -478
@@ -48,11 +197,160 @@
           -28
         ]
       ],
-      "name": "Saldo Geburten-Todesfälle"
+      "name": "SaldoGeburten-Todesfälle"
     },
     {
       "color": "#923F8D",
+      "showInNavigator": true,
       "data": [
+        [
+          1971,
+          -3711
+        ],
+        [
+          1972,
+          -2416
+        ],
+        [
+          1973,
+          -2207
+        ],
+        [
+          1974,
+          -3133
+        ],
+        [
+          1975,
+          -2992
+        ],
+        [
+          1976,
+          -3530
+        ],
+        [
+          1977,
+          -2786
+        ],
+        [
+          1978,
+          -1556
+        ],
+        [
+          1979,
+          -1129
+        ],
+        [
+          1980,
+          -741
+        ],
+        [
+          1981,
+          -573
+        ],
+        [
+          1982,
+          -487
+        ],
+        [
+          1983,
+          283
+        ],
+        [
+          1984,
+          -1
+        ],
+        [
+          1985,
+          435
+        ],
+        [
+          1986,
+          -1451
+        ],
+        [
+          1987,
+          -579
+        ],
+        [
+          1988,
+          -957
+        ],
+        [
+          1989,
+          345
+        ],
+        [
+          1990,
+          1534
+        ],
+        [
+          1991,
+          2346
+        ],
+        [
+          1992,
+          1065
+        ],
+        [
+          1993,
+          1298
+        ],
+        [
+          1994,
+          104
+        ],
+        [
+          1995,
+          -170
+        ],
+        [
+          1996,
+          -862
+        ],
+        [
+          1997,
+          -1510
+        ],
+        [
+          1998,
+          -1410
+        ],
+        [
+          1999,
+          -1268
+        ],
+        [
+          2000,
+          -844
+        ],
+        [
+          2001,
+          -367
+        ],
+        [
+          2002,
+          1386
+        ],
+        [
+          2003,
+          972
+        ],
+        [
+          2004,
+          784
+        ],
+        [
+          2005,
+          -44
+        ],
+        [
+          2006,
+          392
+        ],
+        [
+          2007,
+          559
+        ],
         [
           2008,
           2034
@@ -98,12 +396,360 @@
           688
         ]
       ],
-      "name": "Saldo Zuzüge-Wegzüge"
+      "name": "SaldoZuzüge-Wegzüge"
+    },
+    {
+      "color": "#bbbbbb",
+      "showInNavigator": true,
+      "data": [
+        [
+          1971,
+          null
+        ],
+        [
+          1972,
+          null
+        ],
+        [
+          1973,
+          null
+        ],
+        [
+          1974,
+          null
+        ],
+        [
+          1975,
+          null
+        ],
+        [
+          1976,
+          null
+        ],
+        [
+          1977,
+          null
+        ],
+        [
+          1978,
+          null
+        ],
+        [
+          1979,
+          null
+        ],
+        [
+          1980,
+          null
+        ],
+        [
+          1981,
+          null
+        ],
+        [
+          1982,
+          null
+        ],
+        [
+          1983,
+          null
+        ],
+        [
+          1984,
+          null
+        ],
+        [
+          1985,
+          null
+        ],
+        [
+          1986,
+          null
+        ],
+        [
+          1987,
+          null
+        ],
+        [
+          1988,
+          null
+        ],
+        [
+          1989,
+          null
+        ],
+        [
+          1990,
+          null
+        ],
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          -354
+        ],
+        [
+          2013,
+          221
+        ],
+        [
+          2014,
+          396
+        ],
+        [
+          2015,
+          147
+        ],
+        [
+          2016,
+          -52
+        ],
+        [
+          2017,
+          266
+        ],
+        [
+          2018,
+          608
+        ]
+      ],
+      "name": "Bereinigungen"
     },
     {
       "color": "#000000",
       "type": "line",
+      "showInNavigator": true,
       "data": [
+        [
+          1971,
+          -3840
+        ],
+        [
+          1972,
+          -2413
+        ],
+        [
+          1973,
+          -2623
+        ],
+        [
+          1974,
+          -3506
+        ],
+        [
+          1975,
+          -3503
+        ],
+        [
+          1976,
+          -4330
+        ],
+        [
+          1977,
+          -3558
+        ],
+        [
+          1978,
+          -2414
+        ],
+        [
+          1979,
+          -1953
+        ],
+        [
+          1980,
+          -1546
+        ],
+        [
+          1981,
+          -1527
+        ],
+        [
+          1982,
+          -1187
+        ],
+        [
+          1983,
+          -715
+        ],
+        [
+          1984,
+          -816
+        ],
+        [
+          1985,
+          -385
+        ],
+        [
+          1986,
+          -2355
+        ],
+        [
+          1987,
+          -1344
+        ],
+        [
+          1988,
+          -1799
+        ],
+        [
+          1989,
+          -546
+        ],
+        [
+          1990,
+          560
+        ],
+        [
+          1991,
+          1675
+        ],
+        [
+          1992,
+          362
+        ],
+        [
+          1993,
+          730
+        ],
+        [
+          1994,
+          -457
+        ],
+        [
+          1995,
+          -927
+        ],
+        [
+          1996,
+          -1313
+        ],
+        [
+          1997,
+          -2236
+        ],
+        [
+          1998,
+          -2132
+        ],
+        [
+          1999,
+          -1980
+        ],
+        [
+          2000,
+          -1560
+        ],
+        [
+          2001,
+          -1122
+        ],
+        [
+          2002,
+          556
+        ],
+        [
+          2003,
+          198
+        ],
+        [
+          2004,
+          264
+        ],
+        [
+          2005,
+          -557
+        ],
+        [
+          2006,
+          -128
+        ],
+        [
+          2007,
+          208
+        ],
         [
           2008,
           1556
@@ -122,65 +768,75 @@
         ],
         [
           2012,
-          1509
+          1155
         ],
         [
           2013,
-          1779
+          2000
         ],
         [
           2014,
-          616
+          1012
         ],
         [
           2015,
-          586
+          733
         ],
         [
           2016,
-          1054
+          1002
         ],
         [
           2017,
-          516
+          782
         ],
         [
           2018,
-          660
+          1268
         ]
       ],
-      "name": "Saldo Total"
+      "name": "Gesamtveränderung"
     }
   ],
+  "isStock": true,
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 428,
     "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
     "type": "column",
     "inverted": false,
     "renderTo": "container-5148"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
   },
   "title": {
     "style": {
@@ -201,14 +857,28 @@
     "text": "Basel-Stadt",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1,
+    "min": 2000
   },
   "yAxis": {
-    "min": -500,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -219,9 +889,15 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 250,
+    "showLastLabel": true,
+    "endOnTick": true,
+    "maxPadding": 0,
+    "opposite": false,
+    "reversedStacks": false,
+    "min": null,
     "plotLines": [
       {
         "color": "#B9CFD7",
@@ -230,20 +906,13 @@
       }
     ]
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -259,60 +928,75 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
+  "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
+    "buttons": [
+      {
+        "count": 10,
+        "type": "year",
+        "text": "10 J"
       },
-      "pointPadding": 0,
-      "borderWidth": 0
-    }
+      {
+        "count": 20,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 30,
+        "type": "year",
+        "text": "30 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
+      }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 1,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": [
+      {
+        "type": "column"
+      },
+      {
+        "type": "column"
+      },
+      {
+        "type": "column"
+      },
+      {
+        "type": "line"
+      }
+    ],
+    "outlineColor": "#B9CFD7",
+    "enabled": true
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b. %Y"
+    },
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": 5148
   }
 }
