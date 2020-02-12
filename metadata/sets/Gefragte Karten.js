@@ -88,7 +88,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06375",
 		"kuerzelKunde": "C1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
@@ -99,17 +99,17 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-09-30T09:38:38.3838",
-		"stufe1": "kontinuierlich klassifiziert",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (11,8%), Vorstädte (11,3%) und Altstadt Kleinbasel (11,0%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (21,5%), Kleinhüningen (19,9%) sowie in der Gemeinde Riehen (20,3%).",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (11,6%), Vorstädte (10,8%) und Altstadt Kleinbasel (10,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,0%), Hirzbrunnen (20,3%) sowie in der Gemeinde Riehen (20,3%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_001",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [
 			"6387"
@@ -118,8 +118,7 @@ var indikatorensetData = [
 			"6387"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -132,7 +131,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06376",
 		"kuerzelKunde": "C1-2",
 		"description": "Über 64-Jährige nach Wohnviertel",
@@ -148,7 +147,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,9%), Matthäus (13,0%) und Klybeck (14,0%). Die höchsten Anteile 65-Jähriger und Älterer weisen die Wohnviertel Vorstädte (24,1%), St. Alban (25,2%) sowie die Gemeinden Riehen (25,8%) und Bettingen (24,1%) auf.",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,6%), Matthäus (13,5%) und Klybeck (14,3%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (25,2%) sowie die Gemeinden Riehen (25,8%) und Bettingen (24,2%) auf.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -162,8 +161,7 @@ var indikatorensetData = [
 			"6388"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -529,25 +527,25 @@ var indikatorensetData = [
 		"id": 6384
 	},
 	{
-		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sesshaftigkeit",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06385",
 		"kuerzelKunde": "K1-4",
-		"description": "Sesshaftigkeit nach Wohnviertel",
+		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-04-02T11:57:58.5858",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz und Bachletten (je 42%) sowie in der Gemeinden Riehen (43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (29%), Vorstädte (28%) und Rosental (20%).",
-		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,5%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -563,7 +561,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevsess.anteil_sess10' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 6385,
 		"chart-id": 6385,
@@ -656,7 +654,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06388",
 		"kuerzelKunde": "K1-2",
 		"description": "Über 64-Jährige nach Wohnviertel",
@@ -666,13 +664,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2019-10-03T09:28:14.1414",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Die höchsten Anteile 65-Jähriger und Älterer weisen die Wohnviertel St. Alban (25%), Vorstädte (24%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf.",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,6%), Matthäus (13,5%) und Klybeck (14,3%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (25,2%) sowie die Gemeinden Riehen (25,8%) und Bettingen (24,2%) auf.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -684,8 +682,7 @@ var indikatorensetData = [
 			"6376"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
