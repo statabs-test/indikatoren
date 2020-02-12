@@ -5,6 +5,15 @@
                 load: function () {
                     this.credits.element.onclick = function () { };
 
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 6
+                            }
+                        });
+                    }
+
                     //square legends must be placed 3 pixels more to the left than lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
@@ -104,7 +113,7 @@
                     var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 
                     //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
-                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>'; 
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
 
                     //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
 
