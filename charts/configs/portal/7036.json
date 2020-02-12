@@ -4,44 +4,44 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2008",
+          "2009",
           100
         ],
         [
-          "2009",
+          "2010",
           102.3
         ],
         [
-          "2010",
-          104.6
-        ],
-        [
           "2011",
-          106.6
+          104.2
         ],
         [
           "2012",
-          110.8
+          108.4
         ],
         [
           "2013",
-          110.6
+          108.2
         ],
         [
           "2014",
-          114.4
+          111.9
         ],
         [
           "2015",
-          115.2
+          112.7
         ],
         [
           "2016",
-          116.5
+          113.8
         ],
         [
           "2017",
-          116.9
+          114.9
+        ],
+        [
+          "2018",
+          114.8
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)",
@@ -51,44 +51,44 @@
       "color": "#008AC3",
       "data": [
         [
-          "2008",
+          "2009",
           100
         ],
         [
-          "2009",
-          96.1
-        ],
-        [
           "2010",
-          87.9
+          91.4
         ],
         [
           "2011",
-          89.8
+          93.4
         ],
         [
           "2012",
-          84.7
+          88.1
         ],
         [
           "2013",
-          86
+          89.4
         ],
         [
           "2014",
-          87.5
+          90.9
         ],
         [
           "2015",
-          84.2
+          87.4
         ],
         [
           "2016",
-          81.9
+          85
         ],
         [
           "2017",
-          83.1
+          81
+        ],
+        [
+          "2018",
+          81.3
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -98,44 +98,44 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2008",
+          "2009",
           100
         ],
         [
-          "2009",
-          103.8
-        ],
-        [
           "2010",
-          104.5
+          100.6
         ],
         [
           "2011",
-          107.1
+          103.1
         ],
         [
           "2012",
-          107.4
+          103.4
         ],
         [
           "2013",
-          113
+          108.8
         ],
         [
           "2014",
-          115
+          110.6
         ],
         [
           "2015",
-          116.7
+          112.2
         ],
         [
           "2016",
-          122.2
+          117.5
         ],
         [
           "2017",
-          126.1
+          122.6
+        ],
+        [
+          "2018",
+          125.6
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -145,44 +145,44 @@
       "color": "#2B0099",
       "data": [
         [
-          "2008",
+          "2009",
           100
         ],
         [
-          "2009",
-          101.1
-        ],
-        [
           "2010",
-          94.5
+          92.8
         ],
         [
           "2011",
-          87.4
+          85.1
         ],
         [
           "2012",
-          81.2
+          78.4
         ],
         [
           "2013",
-          71.1
+          68.6
         ],
         [
           "2014",
-          69
+          65.1
         ],
         [
           "2015",
-          63.2
+          62
         ],
         [
           "2016",
-          64.5
+          63.6
         ],
         [
           "2017",
-          66.1
+          71.7
+        ],
+        [
+          "2018",
+          71.8
         ]
       ],
       "name": "Kultur, Unterhaltung",
@@ -198,7 +198,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
       "rotation": 0
@@ -208,22 +208,83 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -280,7 +341,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"

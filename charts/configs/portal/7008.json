@@ -5,22 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2009-1",
-          29366
-        ],
-        [
-          "2009-2",
-          29850
-        ],
-        [
-          "2009-3",
-          29933
-        ],
-        [
-          "2009-4",
-          30144
-        ],
-        [
           "2010-1",
           30866
         ],
@@ -134,35 +118,47 @@
         ],
         [
           "2017-1",
-          35855
+          35324
         ],
         [
           "2017-2",
-          35814
+          35738
         ],
         [
           "2017-3",
-          35882
+          35968
         ],
         [
           "2017-4",
-          35877
+          35656
         ],
         [
           "2018-1",
-          35061
+          34836
         ],
         [
           "2018-2",
-          34764
+          34538
         ],
         [
           "2018-3",
-          34421
+          34196
         ],
         [
           "2018-4",
-          34122
+          33897
+        ],
+        [
+          "2019-1",
+          33715
+        ],
+        [
+          "2019-2",
+          33643
+        ],
+        [
+          "2019-3",
+          33784
         ]
       ],
       "name": "BS",
@@ -172,22 +168,6 @@
       "color": "#FF8028",
       "index": 1,
       "data": [
-        [
-          "2009-1",
-          17631
-        ],
-        [
-          "2009-2",
-          17970
-        ],
-        [
-          "2009-3",
-          18108
-        ],
-        [
-          "2009-4",
-          17909
-        ],
         [
           "2010-1",
           18262
@@ -302,35 +282,47 @@
         ],
         [
           "2017-1",
-          20852
+          20679
         ],
         [
           "2017-2",
-          20922
+          20923
         ],
         [
           "2017-3",
-          21225
+          21362
         ],
         [
           "2017-4",
-          21269
+          21348
         ],
         [
           "2018-1",
-          21264
+          21335
         ],
         [
           "2018-2",
-          21449
+          21519
         ],
         [
           "2018-3",
-          21538
+          21609
         ],
         [
           "2018-4",
-          21520
+          21589
+        ],
+        [
+          "2019-1",
+          21698
+        ],
+        [
+          "2019-2",
+          21820
+        ],
+        [
+          "2019-3",
+          22141
         ]
       ],
       "name": "BL",
@@ -340,22 +332,6 @@
       "color": "#A8C3CA",
       "index": 1,
       "data": [
-        [
-          "2009-1",
-          9455
-        ],
-        [
-          "2009-2",
-          9746
-        ],
-        [
-          "2009-3",
-          9815
-        ],
-        [
-          "2009-4",
-          10019
-        ],
         [
           "2010-1",
           10383
@@ -470,35 +446,47 @@
         ],
         [
           "2017-1",
-          14010
+          13880
         ],
         [
           "2017-2",
-          14093
+          14026
         ],
         [
           "2017-3",
-          14091
+          14139
         ],
         [
           "2017-4",
-          14127
+          14148
         ],
         [
           "2018-1",
-          13864
+          13879
         ],
         [
           "2018-2",
-          13636
+          13650
         ],
         [
           "2018-3",
-          13537
+          13551
         ],
         [
           "2018-4",
-          13587
+          13601
+        ],
+        [
+          "2019-1",
+          13599
+        ],
+        [
+          "2019-2",
+          13677
+        ],
+        [
+          "2019-3",
+          13789
         ]
       ],
       "name": "AG",
@@ -508,22 +496,6 @@
       "color": "#008AC3",
       "index": 2,
       "data": [
-        [
-          "2009-1",
-          5553
-        ],
-        [
-          "2009-2",
-          5708
-        ],
-        [
-          "2009-3",
-          5740
-        ],
-        [
-          "2009-4",
-          5822
-        ],
         [
           "2010-1",
           5980
@@ -638,35 +610,47 @@
         ],
         [
           "2017-1",
-          9913
+          9875
         ],
         [
           "2017-2",
-          10025
+          10041
         ],
         [
           "2017-3",
-          10152
+          10165
         ],
         [
           "2017-4",
-          10171
+          10128
         ],
         [
           "2018-1",
-          10217
+          10170
         ],
         [
           "2018-2",
-          10250
+          10204
         ],
         [
           "2018-3",
-          10256
+          10209
         ],
         [
           "2018-4",
-          10248
+          10200
+        ],
+        [
+          "2019-1",
+          10199
+        ],
+        [
+          "2019-2",
+          10305
+        ],
+        [
+          "2019-3",
+          10342
         ]
       ],
       "name": "ZH",
@@ -682,7 +666,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": null,
+        "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
       "x": 11,
@@ -696,22 +680,83 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
+      "load": function () {
+          this.credits.element.onclick = function () { };
 
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }              
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false) {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -770,7 +815,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}",

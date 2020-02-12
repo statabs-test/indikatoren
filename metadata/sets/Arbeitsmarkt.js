@@ -12,12 +12,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil an erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2019 wurden für diese Branche 2 675 Bewilligungen erteilt. Der Anteil beträgt 55,4%. Es folgt der Bereich Gesundheits- und Sozialwesen mit einem Anteil von 7,9% (380). Insgesamt wurden 2019 rund 4 800 neue Bewilligungen erteilt, 0,4% weniger als im Vorjahr.",
 		"erlaeuterungen": "Vom Staatssekretariat für Migration neuerteilte bzw. erneuerte Grenzgängerbewilligungen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25,8 +25,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_404",
 		"parentId": null,
 		"children": [
-			"7003",
-			"8708"
+			"7003"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -54,12 +53,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen Gruppen sind 2018 mehr Grenzgängerinnen und Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2009 bei Frauen aus Deutschland (+31,9%). Von den 34 400 Grenzgängern in Basel-Stadt sind 40,6% Frauen. Insgesamt kommen rund 51% der Grenzgänger in Basel-Stadt aus Frankreich, knapp 48% aus Deutschland.",
+		"lesehilfe": "In allen Gruppen sind 2019 mehr Grenzgängerinnen und Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2010 bei Frauen aus Deutschland (+19,5%). Von den rund 33 800 Grenzgängern in Basel-Stadt sind 40,3% Frauen. Insgesamt kommen fast 52% der Grenzgänger in Basel-Stadt aus Frankreich, ca. 47% aus Deutschland.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -67,8 +66,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_402",
 		"parentId": null,
 		"children": [
-			"7004",
-			"8709"
+			"7004"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -96,12 +94,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In fast allen Altersgruppen gibt es mehr Grenzgänger als vor zehn Jahren. In den letzten Quartalen ist insgesamt ein leichter Rückgang zu verzeichnen. Dieser fällt Ende 2018 gegenüber dem 4. Quartal 2017 mit 8,4% in der Gruppe der Personen über 54 am stärksten aus.",
+		"lesehilfe": "In den meisten Altersgruppen gibt es mehr Grenzgänger als zehn Jahre zuvor. In den letzten Quartalen ist überwiegend ein leichter Rückgang zu verzeichnen. Dieser fällt zum 3. Quartal 2019 gegenüber dem 3. Quartal 2018 mit 7,1% in der Gruppe der Personen im Alter von 25 bis 29 Jahre am stärksten aus.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -109,8 +107,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_403",
 		"parentId": null,
 		"children": [
-			"7005",
-			"8710"
+			"7005"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -138,12 +135,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nach einer relativ konstanten Entwicklung in den letzten zehn Jahren ging die Zahl der Grenzgänger in den abgebildeten Branchen zuletzt leicht zurück. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2018 6 280 Grenzgänger gezählt, 8,6% weniger als ein Jahr zuvor.",
+		"lesehilfe": "Nach einer relativ konstanten Entwicklung in den letzten zehn Jahren ging die Zahl der Grenzgänger in den abgebildeten Branchen zuletzt leicht zurück. In der Branche Chemie und Pharma wurden zum Ende des 3. Quartals 2019 6 239 Grenzgänger gezählt, 2,6% weniger als ein Jahr zuvor.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -151,8 +148,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_405",
 		"parentId": null,
 		"children": [
-			"7006",
-			"8711"
+			"7006"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -180,12 +176,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche Information und Kommunikation arbeiteten im 4. Quartal 2018 mit 1 405 Personen 1,2% mehr Grenzgänger als ein Jahr zuvor. In den drei anderen Branchen ging die Zahl zurück: im Gastgewerbe  um 11,5% (aktuell 887 Personen), in der Branche Handel und Reparatur um 10,7% (2 851 Personen), im Bereich Verkehr und Lagerei um 5,8% (1 048 Personen).",
+		"lesehilfe": "In der Branche Information und Kommunikation arbeiteten im 3. Quartal 2019 mit 1 437 Personen 4,5% mehr Grenzgänger als ein Jahr zuvor. In den drei anderen Branchen ging die Zahl zurück: im Gastgewerbe  um 4,8% (aktuell 848 Personen), in der Branche Handel und Reparatur um 8,0% (2 718 Personen), im Bereich Verkehr und Lagerei um 1,2% (1 026 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -193,8 +189,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_406",
 		"parentId": null,
 		"children": [
-			"7007",
-			"8712"
+			"7007"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -222,12 +217,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2009 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 16,2%, von rund 29 000 auf über 34 000. In den letzten Quartalen ist ein leichter Rückgang zu beobachten: In Basel-Stadt beläuft sich dieser aktuell gegenüber dem 4. Quartal 2017 auf 4,9%. In der gesamten Schweiz arbeiten Ende 2018 rund 314 000 Grenzgänger.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2009 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 9,5%, von rund 31 000 auf rund 33 800. In den letzten Quartalen ist teilweise ein leichter Rückgang zu beobachten: In Basel-Stadt beläuft sich dieser aktuell gegenüber dem 3. Quartal 2018 auf 1,2%. In der gesamten Schweiz arbeiten im 3. Quartal 2019 rund 325 000 Grenzgänger.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -235,8 +230,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_401",
 		"parentId": null,
 		"children": [
-			"7008",
-			"8713"
+			"7008"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -264,12 +258,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2018 beträgt es ca. 191 000 Franken. Dies sind 17,8% mehr als 2009 und 2,4% mehr als 2017. Der Schweizer Durchschnitt beträgt 2018 ca. 81 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -277,8 +271,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"7009",
-			"8714"
+			"7009"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -307,12 +300,12 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2018 gegenüber dem Vorjahr um 4,0% gewachsen, Zürich verzeichnet den gleichen Wert. Der Schweizer Durchschnitt beträgt 1,6%.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -320,8 +313,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_102",
 		"parentId": null,
 		"children": [
-			"7010",
-			"8715"
+			"7010"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -338,7 +330,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
-		"subtitle": "2017",
+		"subtitle": "2018",
 		"kuerzel": "I.04.2.2402",
 		"kuerzelKunde": "3.1-03",
 		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
@@ -350,12 +342,12 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2018 beträgt er 43,7%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,2%, vor den Finanz- und Versicherungsdienstleistungen mit 8,8%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,2% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 19,4% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 18,2%. Im Schweizer Durchschnitt ist die Branche  Beratung, Planung, Forschung und Immobilien mit 14,9% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -363,8 +355,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"7011",
-			"8716"
+			"7011"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -381,7 +372,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
 		"kuerzel": "I.04.2.2404",
 		"kuerzelKunde": "3.1-04",
 		"description": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
@@ -392,12 +383,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Seit dem Jahr 2009 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2018 beträgt der Zuwachs gegenüber dem Vorjahr 6,4%. Auch bei der Industrie hat sich der Wert seit 2009 mehr als verdoppelt (gegenüber Vorjahr +6,0%). Das Baugewerbe legte um 30,1% zu (gegenüber Vorjahr +15,7%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -405,8 +396,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_104",
 		"parentId": null,
 		"children": [
-			"7012",
-			"8717"
+			"7012"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -423,7 +413,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
 		"kuerzel": "I.04.2.2405",
 		"kuerzelKunde": "3.1-05",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
@@ -434,12 +424,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Während die Branche Handel und Reparatur (+13,4%) sowie das Gastgewerbe (+12,9%) zwischen 2009 und 2018 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-16,5%) sowie Information und Kommunikation (-12,8%) zurück. Gegenüber dem Vorjahr ging der Wert in der Branche Handel und Reperatur um 0,8% zurück, in den drei übrigen Branchen nahm er zu, am stärksten mit 4,7% im Gastgewerbe.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -447,8 +437,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_105",
 		"parentId": null,
 		"children": [
-			"7013",
-			"8718"
+			"7013"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -476,21 +465,20 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% im Jahresdurchschnitt 2018 auf 3,2% im Jahr 2019. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,0% 2019). Die Arbeitslosenquote der Personen ab 50 blieb unverändert bei 2,5% und lag wie in der Vergangenheit unterhalb des Quotendurchschnitts aller Arbeitslosen.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"7014",
-			"8719"
+			"7014"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -518,12 +506,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-14T15:41:01.011",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2019 beträgt die Arbeitslosenquote der ausländischen Männer 5,3% (im Sommer lag sie bei 4,0%). Gegenüber Dezember 2018 sind die Arbeitslosenquoten sowohl bei den Männern als auch bei den Frauen rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -533,8 +521,7 @@ var indikatorensetData = [
 		"children": [
 			"7015",
 			"8252",
-			"8523",
-			"8720"
+			"8523"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -562,8 +549,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -575,8 +562,7 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_304",
 		"parentId": null,
 		"children": [
-			"7016",
-			"8721"
+			"7016"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -604,8 +590,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -617,8 +603,7 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_305",
 		"parentId": null,
 		"children": [
-			"7017",
-			"8722"
+			"7017"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -646,8 +631,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -659,8 +644,7 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_306",
 		"parentId": null,
 		"children": [
-			"7018",
-			"8723"
+			"7018"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -689,21 +673,20 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
+		"lesehilfe": "Die Arbeitslosenquote ist im Jahr 2019 weiter gesunken. Ende Dezember 2019 lag sie in Basel-Stadt bei 3,1%, gegenüber 3,3% Ende 2018. Im Jahresdurchschnitt ging sie von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 zurück. Auch in den Vergleichskantonen wurde ein Rückgang der Arbeitslosigkeit registriert. Landesweit sank die Arbeitslosenquote im Jahresmittel von 2,5% 2018 auf 2,3% 2019.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"7019",
-			"8724"
+			"7019"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -731,9 +714,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -744,8 +727,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_409",
 		"parentId": null,
 		"children": [
-			"7020",
-			"8725"
+			"7020"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -773,9 +755,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -786,8 +768,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_410",
 		"parentId": null,
 		"children": [
-			"7021",
-			"8726"
+			"7021"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -815,9 +796,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -828,8 +809,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_411",
 		"parentId": null,
 		"children": [
-			"7022",
-			"8727"
+			"7022"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -857,9 +837,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -870,8 +850,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_412",
 		"parentId": null,
 		"children": [
-			"7023",
-			"8728"
+			"7023"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -899,9 +878,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -912,8 +891,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_413",
 		"parentId": null,
 		"children": [
-			"7024",
-			"8729"
+			"7024"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -941,9 +919,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -954,8 +932,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_414",
 		"parentId": null,
 		"children": [
-			"7025",
-			"8730"
+			"7025"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -983,8 +960,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:52:51.5151",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -996,8 +973,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_205",
 		"parentId": null,
 		"children": [
-			"7026",
-			"8731"
+			"7026"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1025,8 +1001,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:53:11.1111",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1038,8 +1014,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_206",
 		"parentId": null,
 		"children": [
-			"7027",
-			"8732"
+			"7027"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1067,8 +1042,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:53:49.4949",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1080,8 +1055,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"7028",
-			"8733"
+			"7028"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1109,12 +1083,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte im Meldewesen für das Jahr 2019 liegen in den Kantonen Basel-Stadt, Basel-Landschaft,  Aargau und Zürich unter den Vorjahreswerten. In Basel-Stadt leisteten die Meldepflichtigen 2019 insgesamt 425 013 Arbeitstage. Gegenüber dem Vorjahr entspricht dies einer Abnahme um 31 177 bzw. 6,8%. Gesamtschweizerisch liegen die aktuellen Werte über den Vorjahreswerten.",
+		"lesehilfe": "Die Werte im Meldewesen für das Jahr 2019 liegen in den Kantonen Basel-Stadt, Basel-Landschaft,  Aargau und Zürich unter den Vorjahreswerten. In Basel-Stadt leisteten die Meldepflichtigen 2019 insgesamt 425 013 Arbeitstage. Gegenüber dem Vorjahr entspricht dies einer Abnahme um 31 177 Tage  bzw. 6,8%. Gesamtschweizerisch liegen die aktuellen Werte über den Vorjahreswerten.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1122,8 +1096,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_417",
 		"parentId": null,
 		"children": [
-			"7029",
-			"8734"
+			"7029"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1151,9 +1124,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte in den Kantonen Basel-Landschaft und Zürich über den Vorjahreswerten. In den Kantonen Basel-Stadt und Argau liegen sie unter den Vorjahreswerten. In Basel-Stadt wurden 16 729 meldepflichtige Personen registriert, das sind 7,0% bzw. 1 263 Meldepflichtige weniger als 2018.",
@@ -1164,8 +1137,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_418",
 		"parentId": null,
 		"children": [
-			"7030",
-			"8735"
+			"7030"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1193,9 +1165,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden ist 2019 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 2 728 bzw. 0,9% auf 296 185 Arbeitstage gesunken. Auch bei den Selbständigerwerbenden und Entsandten wurden 2019 weniger Arbeitstage verzeichnet als im Vorjahr.",
@@ -1206,8 +1178,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_419",
 		"parentId": null,
 		"children": [
-			"7031",
-			"8736"
+			"7031"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1235,9 +1206,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2019 bei 41,0%. Der Anteil weiblicher Entsandter liegt 2019 bei 8,9%, jener der Selbstständigerwerbenden bei 7,3%. Insgesamt hat der Frauenanteil der Meldepflichtigen gegenüber dem Vorjahr um 1,6 Prozentpunkte abgenommen.",
@@ -1248,8 +1219,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_420",
 		"parentId": null,
 		"children": [
-			"7032",
-			"8737"
+			"7032"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1277,9 +1247,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2019 leisteten 7 232 Meldepflichtige im Bereich Industrie und Baugewerbe 142 944 Arbeitstage, was im Vergleich zu den Arbeitstagen im Jahr 2018 einer Abnahme um 19 238 bzw. 11,9% entspricht. Bis 2018 wurden jeweils im 1. Quartal am meisten Arbeitstage verzeichnet, 2019 wurden zum ersten Mal im 3. Quartal am meisten Arbeitstage gezählt. Der Bedarf meldepflichtiger Arbeitskräfte  in Industrie und Baugewerbe war im 3. Quartal 2019 mit insgesamt 41 520 Arbeitstagen höher als im Vorjahresquartal.",
@@ -1290,8 +1260,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_421",
 		"parentId": null,
 		"children": [
-			"7033",
-			"8738"
+			"7033"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1319,12 +1288,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Branchen Handel, Verkehr, Gastgewerbe und IT-Dienstleistungen leisteten 2 574 Meldepflichtige 64 718 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Zunahme um 17,9%. Im Verkehr wurden 2019 insgesamt 336 Meldepflichtige registriert, die 11 152 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Zunahme um 7 476 Arbeitstage bzw.203,4%.",
+		"lesehilfe": "In den Branchen Handel, Verkehr, Gastgewerbe und IT-Dienstleistungen leisteten 2 574 Meldepflichtige 64 718 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Zunahme um 17,9%. In der Branche Verkehr, Lagerei, Kommunikation wurden 2019 insgesamt 336 Meldepflichtige registriert, die 11 152 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Zunahme um 7 476 Arbeitstage bzw. 203,4%.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1332,8 +1301,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_422",
 		"parentId": null,
 		"children": [
-			"7034",
-			"8739"
+			"7034"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1350,7 +1318,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
 		"kuerzel": "I.04.2.6448",
 		"kuerzelKunde": "3.1-06",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
@@ -1361,12 +1329,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2009 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 36,2% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber dem Vorjahr +5,9%). Der in ihr enthaltene Bereich Personalvermittlung und -überlassung zeigt ein Wertschöpfungswachstum von 31,0% (gegenüber Vorjahr +7,4%). Die Branche Beratung, Planung und Forschung verzeichnete ein Plus von 25,5% (gegenüber dem Vorjahr +5,0%). Die Finanz- und Versicherungsdienstleistungen weisen einen Wert von +19,9% auf (gegenüber Vorjahr +0,1%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1374,8 +1342,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_106",
 		"parentId": null,
 		"children": [
-			"7035",
-			"8740"
+			"7035"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1392,7 +1359,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
 		"kuerzel": "I.04.2.6449",
 		"kuerzelKunde": "3.1-07",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
@@ -1403,12 +1370,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+25,6%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,8%) verzeichneten seit 2009 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,4% sowie -0,1%). Einen Rückgang seit 2009 gibt es hingegen in den Branchen Erziehung und Unterricht (-18,7%) sowie Kultur und Unterhaltung (-28,3%) zu beobachten (gegenüber Vorjahr +0,4% sowie +0,1%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1416,8 +1383,7 @@ var indikatorensetData = [
 		"orderKey": "02_01_00_00_00_107",
 		"parentId": null,
 		"children": [
-			"7036",
-			"8741"
+			"7036"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1445,12 +1411,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2018 liegt sie bei 6 444 Personen (+1,3% gegenüber dem 4. Quartal 2017). Verglichen mit dem Jahr 2009 verzeichnet nur die Branche  Finanz- und Versicherungsdienstleistungen einen Rückgang der Grenzgängerzahl (-21,3% auf 826 Personen).",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 3. Quartal 2019 liegt sie bei 6 545 Personen (+3,2% gegenüber dem 3. Quartal 2018). Verglichen mit dem Jahr 2010 verzeichnet nur die Branche  Finanz- und Versicherungsdienstleistungen einen Rückgang der Grenzgängerzahl (-25,3% auf 817 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1458,8 +1424,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_407",
 		"parentId": null,
 		"children": [
-			"7037",
-			"8742"
+			"7037"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1487,12 +1452,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen (3 480), 33,9% mehr als 2009. Im Vergleich zum Vorjahr ging die Anzahl um 2,4% zurück. Einen stärkeren Rückgang verzeichnet die Branche Erziehung und Unterricht (aktuell 588 Grenzgänger); gegenüber 2009 um 21,0%, gegenüber 2017 um 10,6%.",
+		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen (3 393), 26,1% mehr als 2010. Im Vergleich zum Vorjahr ging die Anzahl um 3,2% zurück. Einen stärkeren Rückgang verzeichnet die Branche Erziehung und Unterricht (aktuell 546 Grenzgänger); gegenüber 2010 um 33,0%, gegenüber 2018 um 8,1%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1500,8 +1465,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_01_00_00_408",
 		"parentId": null,
 		"children": [
-			"7038",
-			"8743"
+			"7038"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1529,9 +1493,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "1 424 Meldepflichtige leisteten 2019 im Bereich Personalvermittlung bzw. -überlassung 88 810 Arbeitstage, was im Vergleich zu den Arbeitstagen im Vorjahr einer Abnahme um 5 399 bzw. 5,7% entspricht. Die Entwicklung in der Vermittlung von Arbeitskräften zeigt ein saisonal geprägtes Muster mit Höhepunkt jeweils im 3. Quartal: Im 3. Quartal wurden im Schnitt der letzten fünf Jahre rund 32 000 Arbeitstage verzeichnet.",
@@ -1542,8 +1506,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_423",
 		"parentId": null,
 		"children": [
-			"7039",
-			"8744"
+			"7039"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1571,12 +1534,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2019 insgesamt 2 554 Meldepflichtige registriert, die 51 893 Arbeitstage leisteten. Im Vergleich zu den Arbeitstagen 2018 bedeutet dies eine Abnahme um 10 817 bzw. 17,2%. Im Bereich Gesundheits- und Sozialwesen wurden 20 459 Arbeitstage verzeichnet, fast gleich viele wie im Vorjahr.",
+		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2019 insgesamt 2 554 Meldepflichtige registriert die 51 893 Arbeitstage leisteten. Im Vergleich zu den Arbeitstagen 2018 bedeutet dies eine Abnahme um 10 817 bzw. 17,2%. Im Bereich Gesundheits- und Sozialwesen wurden 20 459 Arbeitstage verzeichnet, fast gleich viele wie im Vorjahr.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1584,8 +1547,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_03_00_00_424",
 		"parentId": null,
 		"children": [
-			"7040",
-			"8745"
+			"7040"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1613,8 +1575,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:54:48.4848",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1626,8 +1588,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"7041",
-			"8746"
+			"7041"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1655,8 +1616,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:55:17.1717",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1668,8 +1629,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"7042",
-			"8747"
+			"7042"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1697,8 +1657,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-31T08:38:43.4343",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1710,8 +1670,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_207",
 		"parentId": null,
 		"children": [
-			"7043",
-			"8748"
+			"7043"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1739,8 +1698,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:56:06.066",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1752,8 +1711,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_208",
 		"parentId": null,
 		"children": [
-			"7044",
-			"8749"
+			"7044"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1781,7 +1739,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1794,8 +1752,7 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"7045",
-			"8750"
+			"7045"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1823,12 +1780,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2019 mit 11,1% im Baugewerbe am höchsten. Die Arbeitslosenquote im Gastgewerbe ist mit 6,9% auch hoch, aber gegenüber 2018 rückläufig. In der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe enthalten ist, liegt die Arbeitslosenquote 2019 bei 5,3%, in der Industrie (exkl. Chemie und Pharma) liegt sie bei 5,0%. In der Branche Information und Kommunikation ist die Quote 2019 auf 4,0% gestiegen. Die mittlere Arbeitslosigkeit in Basel-Stadt beträgt im Jahresdurchschnitt 2019 3,1%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1836,8 +1793,7 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"7046",
-			"8751"
+			"7046"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1865,12 +1821,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2018 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2016) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (30%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (29%), der Information und Kommunikation (29%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma; 24%), im Baugewerbe (20%) sowie im Handel (19%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt Ende 2018 bei 18%.",
+		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2019 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2017) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (29%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (29%), der Information und Kommunikation (30%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma; 24%), im Baugewerbe (20%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt Ende 2019 bei 18%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1878,8 +1834,7 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"7047",
-			"8752"
+			"7047"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1908,12 +1863,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die Zuwanderung in die Branche Chemie und Pharma 2019 entspricht wie in den Vorjahren etwas über 7% der Beschäftigung in dieser Branche in Basel-Stadt (Quote von 7,3%). Am höchsten ist die Quote in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen: sie liegt 2019 bei 8,9%. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und den Sozialversicherungen. Im Total entspricht die Zuwanderung 4,0% der Beschäftigten in Basel-Stadt (Beschäftigungsstand: 2017).",
 		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1921,8 +1876,7 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"7048",
-			"8753"
+			"7048"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1950,12 +1904,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den im Kanton Basel-Stadt tätigen Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2019 vor allem in der Personalvermittlung und -überlassung mit 5,9% im Vergleich zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2017). Die Meldepflichtigen sind auch in der Baubranche mit 5,2% im Jahr 2019 bedeutend. Es folgen Kultur, Unterhaltung und persönliche Dienstleistungen mit 2,9% sowie die IT-Dienstleistungen mit 2,3%. In den restlichen Branchen spielen die Meldepflichtigen eher eine untergeordnete Rolle.",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den im Kanton Basel-Stadt Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2019 vor allem in der Personalvermittlung und -überlassung mit 5,9% im Vergleich zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2017). Die Meldepflichtigen sind auch in der Baubranche mit 5,2% im Jahr 2019 bedeutend. Es folgen Kultur, Unterhaltung und persönliche Dienstleistungen mit 2,9% sowie die IT-Dienstleistungen mit 2,3%. In den restlichen Branchen spielen die Meldepflichtigen eher eine untergeordnete Rolle.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Beschäftigte (Vollzeitäquivalente): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1963,8 +1917,7 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"7049",
-			"8754"
+			"7049"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1992,12 +1945,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die höchsten Medianlöhne auf dem Arbeitsmarkt der Nordwestschweiz werden mit einem Bruttolohn von rund 10 850 Franken im Jahr 2016 in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 510 Franken brutto bezahlt. Er beträgt damit etwa zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 700 Franken. Über diesem Wert liegt der Medianlohn bei den Finanz- und Versicherungsdienstleistungen (8 580 Franken), im Bereich Information und Kommunikation (8 340), Beratung, Planung, Forschung (7 920) und in der Branche Öffentliche Verwaltung und Sozialversicherungen (7 740). Die Ergebnisse für die Branche Erziehung und Unterricht sind statistisch unsicher.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2005,8 +1958,7 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_401",
 		"parentId": null,
 		"children": [
-			"7050",
-			"8755"
+			"7050"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2034,8 +1986,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2047,8 +1999,7 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_307",
 		"parentId": null,
 		"children": [
-			"7051",
-			"8756"
+			"7051"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2076,8 +2027,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2089,8 +2040,7 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_308",
 		"parentId": null,
 		"children": [
-			"7052",
-			"8757"
+			"7052"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2118,9 +2068,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -2131,8 +2081,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_415",
 		"parentId": null,
 		"children": [
-			"7053",
-			"8758"
+			"7053"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2160,9 +2109,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
@@ -2173,8 +2122,7 @@ var indikatorensetData = [
 		"orderKey": "02_04_02_00_00_416",
 		"parentId": null,
 		"children": [
-			"7054",
-			"8759"
+			"7054"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2202,8 +2150,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2215,8 +2163,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_501",
 		"parentId": null,
 		"children": [
-			"7055",
-			"8760"
+			"7055"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2244,8 +2191,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2257,8 +2204,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_502",
 		"parentId": null,
 		"children": [
-			"7056",
-			"8761"
+			"7056"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2286,8 +2232,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2299,8 +2245,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_503",
 		"parentId": null,
 		"children": [
-			"7057",
-			"8762"
+			"7057"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2328,8 +2273,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2341,8 +2286,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_504",
 		"parentId": null,
 		"children": [
-			"7058",
-			"8763"
+			"7058"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2370,8 +2314,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2383,8 +2327,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_505",
 		"parentId": null,
 		"children": [
-			"7059",
-			"8764"
+			"7059"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2412,8 +2355,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2425,8 +2368,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_506",
 		"parentId": null,
 		"children": [
-			"7060",
-			"8765"
+			"7060"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2454,8 +2396,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2467,8 +2409,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_507",
 		"parentId": null,
 		"children": [
-			"7061",
-			"8766"
+			"7061"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2496,8 +2437,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2509,8 +2450,7 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_508",
 		"parentId": null,
 		"children": [
-			"7062",
-			"8767"
+			"7062"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2538,8 +2478,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-10-30T12:57:03.033",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2551,8 +2491,7 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"7064",
-			"8769"
+			"7064"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2580,8 +2519,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2593,8 +2532,7 @@ var indikatorensetData = [
 		"orderKey": "03_01_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"7474",
-			"8770"
+			"7474"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2622,8 +2560,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2635,8 +2573,7 @@ var indikatorensetData = [
 		"orderKey": "03_01_00_00_00_102",
 		"parentId": null,
 		"children": [
-			"7475",
-			"8771"
+			"7475"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2664,8 +2601,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2677,8 +2614,7 @@ var indikatorensetData = [
 		"orderKey": "03_01_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"7476",
-			"8772"
+			"7476"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2707,8 +2643,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2720,8 +2656,7 @@ var indikatorensetData = [
 		"orderKey": "03_01_00_00_00_104",
 		"parentId": null,
 		"children": [
-			"7477",
-			"8773"
+			"7477"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2749,8 +2684,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2762,8 +2697,7 @@ var indikatorensetData = [
 		"orderKey": "03_02_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"7478",
-			"8774"
+			"7478"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2791,8 +2725,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2804,8 +2738,7 @@ var indikatorensetData = [
 		"orderKey": "03_02_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"7479",
-			"8775"
+			"7479"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2833,8 +2766,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2846,8 +2779,7 @@ var indikatorensetData = [
 		"orderKey": "03_02_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"7480",
-			"8776"
+			"7480"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2876,8 +2808,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2889,8 +2821,7 @@ var indikatorensetData = [
 		"orderKey": "03_02_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"7481",
-			"8777"
+			"7481"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2918,8 +2849,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2931,8 +2862,7 @@ var indikatorensetData = [
 		"orderKey": "03_03_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"7482",
-			"8778"
+			"7482"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2960,8 +2890,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2973,8 +2903,7 @@ var indikatorensetData = [
 		"orderKey": "03_03_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"7483",
-			"8779"
+			"7483"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3002,8 +2931,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3015,8 +2944,7 @@ var indikatorensetData = [
 		"orderKey": "03_03_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"7484",
-			"8780"
+			"7484"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3045,8 +2973,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3058,8 +2986,7 @@ var indikatorensetData = [
 		"orderKey": "03_03_00_00_00_304",
 		"parentId": null,
 		"children": [
-			"7485",
-			"8781"
+			"7485"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3087,8 +3014,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3100,8 +3027,7 @@ var indikatorensetData = [
 		"orderKey": "03_04_00_00_00_401",
 		"parentId": null,
 		"children": [
-			"7486",
-			"8782"
+			"7486"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3129,8 +3055,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3142,8 +3068,7 @@ var indikatorensetData = [
 		"orderKey": "03_04_00_00_00_402",
 		"parentId": null,
 		"children": [
-			"7487",
-			"8783"
+			"7487"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3171,8 +3096,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3184,8 +3109,7 @@ var indikatorensetData = [
 		"orderKey": "03_04_00_00_00_403",
 		"parentId": null,
 		"children": [
-			"7488",
-			"8784"
+			"7488"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3214,8 +3138,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3227,8 +3151,7 @@ var indikatorensetData = [
 		"orderKey": "03_04_00_00_00_404",
 		"parentId": null,
 		"children": [
-			"7489",
-			"8785"
+			"7489"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3256,8 +3179,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3269,8 +3192,7 @@ var indikatorensetData = [
 		"orderKey": "03_08_00_00_00_801",
 		"parentId": null,
 		"children": [
-			"7494",
-			"8790"
+			"7494"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3298,8 +3220,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3311,8 +3233,7 @@ var indikatorensetData = [
 		"orderKey": "03_08_00_00_00_802",
 		"parentId": null,
 		"children": [
-			"7495",
-			"8791"
+			"7495"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3340,8 +3261,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3353,8 +3274,7 @@ var indikatorensetData = [
 		"orderKey": "03_08_00_00_00_803",
 		"parentId": null,
 		"children": [
-			"7496",
-			"8792"
+			"7496"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3383,8 +3303,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3396,8 +3316,7 @@ var indikatorensetData = [
 		"orderKey": "03_08_00_00_00_804",
 		"parentId": null,
 		"children": [
-			"7497",
-			"8793"
+			"7497"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3425,8 +3344,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Immobilienwesen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3438,8 +3357,7 @@ var indikatorensetData = [
 		"orderKey": "03_05_00_00_00_501",
 		"parentId": null,
 		"children": [
-			"8698",
-			"8802"
+			"8698"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3467,8 +3385,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Immobilienwesen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3480,8 +3398,7 @@ var indikatorensetData = [
 		"orderKey": "03_05_00_00_00_502",
 		"parentId": null,
 		"children": [
-			"8699",
-			"8803"
+			"8699"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3509,8 +3426,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Immobilienwesen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3522,8 +3439,7 @@ var indikatorensetData = [
 		"orderKey": "03_05_00_00_00_503",
 		"parentId": null,
 		"children": [
-			"8700",
-			"8804"
+			"8700"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3551,8 +3467,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T10:52:11.1111",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Immobilienwesen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3564,8 +3480,7 @@ var indikatorensetData = [
 		"orderKey": "03_05_00_00_00_504",
 		"parentId": null,
 		"children": [
-			"8701",
-			"8805"
+			"8701"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3593,8 +3508,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.6 Private Haushaltsdienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3606,8 +3521,7 @@ var indikatorensetData = [
 		"orderKey": "03_06_00_00_00_601",
 		"parentId": null,
 		"children": [
-			"8702",
-			"8806"
+			"8702"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3635,8 +3549,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Private Haushaltsdienstleistungen",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.6 Private Haushaltsdienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3648,8 +3562,7 @@ var indikatorensetData = [
 		"orderKey": "03_06_00_00_00_602",
 		"parentId": null,
 		"children": [
-			"8703",
-			"8807"
+			"8703"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3716,8 +3629,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T11:00:53.5353",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Lagerei und Zustelldienste",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3729,8 +3642,7 @@ var indikatorensetData = [
 		"orderKey": "03_07_00_00_00_701",
 		"parentId": null,
 		"children": [
-			"8704",
-			"8808"
+			"8704"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3758,8 +3670,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T11:00:53.5353",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Lagerei und Zustelldienste",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3771,8 +3683,7 @@ var indikatorensetData = [
 		"orderKey": "03_07_00_00_00_702",
 		"parentId": null,
 		"children": [
-			"8705",
-			"8809"
+			"8705"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3800,8 +3711,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T11:01:27.2727",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Lagerei und Zustelldienste",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3813,8 +3724,7 @@ var indikatorensetData = [
 		"orderKey": "03_07_00_00_00_703",
 		"parentId": null,
 		"children": [
-			"8706",
-			"8810"
+			"8706"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3842,8 +3752,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-29T11:03:33.3333",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Lagerei und Zustelldienste",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3855,8 +3765,7 @@ var indikatorensetData = [
 		"orderKey": "03_07_00_00_00_704",
 		"parentId": null,
 		"children": [
-			"8707",
-			"8811"
+			"8707"
 		],
 		"renderLink": [],
 		"quellenangabe": [
