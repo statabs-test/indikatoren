@@ -45841,11 +45841,11 @@ var indikatoren = [
 		"id": 8457
 	},
 	{
-		"title": "Haushaltsarbeit",
-		"subtitle": "",
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Basel-Stadt",
 		"kuerzel": "I.16.3.08458",
 		"kuerzelKunde": "WE9",
-		"description": "Haushaltsarbeit",
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Sport- und Freiwilligenarbeit",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -45858,8 +45858,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2016 wendete eine Person im Kanton Basel-Stadt durchschnittlich 21,1 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 25,7 Stunden mehr Zeit in die Haus- und Familienarbeit als die Männer mit 16,1 Stunden.",
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 600 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -45868,7 +45868,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""

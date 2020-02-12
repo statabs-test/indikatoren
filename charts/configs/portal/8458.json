@@ -4,32 +4,24 @@
       "color": "#008AC3",
       "data": [
         [
-          2011,
-          0.8904825
+          2004,
+          17.5
         ],
         [
-          2012,
-          0.8840209
+          2007,
+          17
+        ],
+        [
+          2010,
+          16.7
         ],
         [
           2013,
-          0.8818779
-        ],
-        [
-          2014,
-          0.8787231
-        ],
-        [
-          2015,
-          0.8729933
+          18.5
         ],
         [
           2016,
-          0.8738822
-        ],
-        [
-          2017,
-          0.8692753
+          16.1
         ]
       ],
       "name": "Männer"
@@ -38,32 +30,24 @@
       "color": "#DC440E",
       "data": [
         [
-          2011,
-          0.7046279
+          2004,
+          26.5
         ],
         [
-          2012,
-          0.6932103
+          2007,
+          28.4
+        ],
+        [
+          2010,
+          26.7
         ],
         [
           2013,
-          0.704487
-        ],
-        [
-          2014,
-          0.7001559
-        ],
-        [
-          2015,
-          0.7050946
+          26.9
         ],
         [
           2016,
-          0.7052739
-        ],
-        [
-          2017,
-          0.7063241
+          25.7
         ]
       ],
       "name": "Frauen"
@@ -72,32 +56,24 @@
       "color": "#474747",
       "data": [
         [
-          2011,
-          0.8037344
+          2004,
+          22.3
         ],
         [
-          2012,
-          0.7950478
+          2007,
+          23.1
+        ],
+        [
+          2010,
+          22.2
         ],
         [
           2013,
-          0.7988232
-        ],
-        [
-          2014,
-          0.7950704
-        ],
-        [
-          2015,
-          0.7938071
+          22.7
         ],
         [
           2016,
-          0.7937954
-        ],
-        [
-          2017,
-          0.7917547
+          21.1
         ]
       ],
       "name": "Total"
@@ -129,8 +105,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "renderTo": "container-6455"
+    "type": "column",
+    "renderTo": "container-8458"
   },
   "title": {
     "style": {
@@ -139,7 +115,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht"
+    "text": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit"
   },
   "subtitle": {
     "style": {
@@ -148,14 +124,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "in Stunden pro Woche, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
-      }
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + ' Stunden</b><br/><b>' 
+    }
   },
   "yAxis": {
     "min": 0,
@@ -173,9 +149,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function () {
-          return Highcharts.numberFormat((this.value * 100), 0) + '%';
-        }
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value),0); 
+      }
     }
   },
   "xAxis": {
@@ -188,7 +164,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 3
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -204,7 +180,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
   },
   "legend": {
     "enabled": true,
@@ -222,13 +198,8 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "customFunctions": {
@@ -267,6 +238,6 @@
     }
   },
   "exporting": {
-    "filename": 6455
+    "filename": 8458
   }
 }
