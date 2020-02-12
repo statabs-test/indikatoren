@@ -1,4 +1,4 @@
-{"title":"Anzahl Besuche in Theater, Kinos und Museen",
+﻿{"title":"Anzahl Besuche in Theater, Kinos und Museen",
 "subtitle":"Basel-Stadt",
 "kuerzel":"I.16.1.05194",
 "kuerzelKunde":"GW16",
@@ -19,7 +19,7 @@
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
-"visible":true,
+"visible":false,
 "visibleInPortal":true,
 "orderKey":"03_05_00_00_00_316",
 "parentId":6169,
@@ -29,6 +29,6 @@
 "datenInChartIntegriert":false,
 "externalLinks":[""],
 "data-id":5194, 
-"chart-id":5194, 
+"chart-id":6169, 
 "filter":""
 }
