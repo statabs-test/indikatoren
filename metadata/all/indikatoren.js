@@ -22125,44 +22125,43 @@ var indikatoren = [
 		"id": 6372
 	},
 	{
-		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sesshaftigkeit",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06373",
 		"kuerzelKunde": "C1-4",
-		"description": "Sesshaftigkeit nach Wohnviertel",
+		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-30T09:22:18.1818",
+		"aktualisierungsdatum": "2020-02-10T11:58:33.3333",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,4%) und Bachletten (41,7%) sowie in der Gemeinde Riehen (42,5%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28,0%), Altstadt Kleinbasel (28,6%) und Rosental (20,4%).",
-		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
-		"parentId": null,
+		"parentId": 4828,
 		"children": [
 			"6385"
 		],
 		"renderLink": [
-			"6385"
+			"4828"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevsess.anteil_sess10' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 6373,
 		"chart-id": 6373,
@@ -30786,47 +30785,6 @@ var indikatoren = [
 		"chart-id": 6683,
 		"filter": "",
 		"id": 6683
-	},
-	{
-		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1999",
-		"kuerzel": "I.03.4.06684",
-		"kuerzelKunde": "C1-5",
-		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-12-16T14:34:30.3030",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärker von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
-		"template": "populationPyramid001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_00_00_00_00_105",
-		"parentId": 6408,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6684,
-		"chart-id": 6684,
-		"filter": "",
-		"id": 6684
 	},
 	{
 		"title": "Arbeitslosenquote der Ausländer",

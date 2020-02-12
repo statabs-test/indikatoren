@@ -1648,46 +1648,6 @@ var indikatorensetData = [
 		"id": 6683
 	},
 	{
-		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1999",
-		"kuerzel": "I.03.4.06684",
-		"kuerzelKunde": "C1-5",
-		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-12-16T14:34:30.3030",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärker von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
-		"template": "populationPyramid001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_105",
-		"parentId": 6408,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6684,
-		"chart-id": 6684,
-		"filter": "",
-		"id": 6684
-	},
-	{
 		"title": "Arbeitslosenquote der Ausländer",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.03.4.06685",

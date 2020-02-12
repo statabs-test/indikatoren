@@ -833,7 +833,6 @@ id | visible | visibleInPortal | indikatorenset
 6681 | true | false | Integration (Print)
 6682 | true | false | Integration (Print)
 6683 | true | false | Integration (Print)
-6684 | true | false | Integration (Print)
 6685 | true | false | Integration (Print)
 6686 | true | false | Integration (Print)
 6687 | true | false | Integration (Print)

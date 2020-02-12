@@ -3955,9 +3955,9 @@
 		"template": "ee534d716ca9765241bbfe2da587bebaf48e364a"
 	},
 	"6373": {
-		"metadata": "b4517e78efd2e8425fac910b7322bf3becbfb4a7",
-		"chartConfig": "94d35ba300a17bdfc5d5f9aacd738b4698b168b3",
-		"data": "4ddcae18a3314d3818147029d6b019b9dc3bea4e",
+		"metadata": "82d821be6eb5e64dd0632349e6171b24cdd60b48",
+		"chartConfig": "c76fa186a3edf9fa0f6ab29ae1bec31c925c9e9e",
+		"data": "aa400f201c82c7c971b0ef72338d4b4c5a2a0007",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "d74f1bffcd06095c037360d69bef5ed3f8f1fca6"
 	},
@@ -5407,13 +5407,6 @@
 		"metadata": "e7af31e7229c031b2913bad6631a0c5b0279a228",
 		"chartConfig": "728018606265a0617177d60187387f7def0c6ac0",
 		"data": "2f917434bd8aab97e8deb016819fd12155f6dbbb",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "f92c4d79f8dc7056ba5cc3af3566b252f5b30703"
-	},
-	"6684": {
-		"metadata": "85c5d5e5ffda6962518a612514c729b7bfc6f700",
-		"chartConfig": "10849fb4b6c666bc4bcefbc6f302f8a26b89d8b1",
-		"data": "0fa0654bff9ae701e9919619d0dcc99cb85350c0",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "f92c4d79f8dc7056ba5cc3af3566b252f5b30703"
 	},
