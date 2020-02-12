@@ -486,6 +486,10 @@
         [
           "2019-12",
           10
+        ],
+        [
+          "2020-01",
+          8
         ]
       ],
       "name": "Monatliche Anzahl Arbeitslose",
@@ -618,7 +622,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitslose und Arbeitslosenquote in der Branche Private Haushaltsdienstleistungen"
+    "text": "Arbeitslose in der Branche Private Haushaltsdienstleistungen"
   },
   "subtitle": {
     "style": {

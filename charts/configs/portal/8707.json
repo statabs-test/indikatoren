@@ -21,7 +21,7 @@
           5957
         ]
       ],
-      "name": "Monatlicher Bruttolohn Lagerei",
+      "name": "Monatlicher Bruttolohn Lagerei sowie sonst. DL für den Verkehr",
       "turboThreshold": 0
     },
     {
@@ -45,7 +45,7 @@
           5765
         ]
       ],
-      "name": "Monatlicher Bruttolohn Zustelldienste",
+      "name": "Monatlicher Bruttolohn Post-, Kurier- und Expressdienste",
       "turboThreshold": 0
     }
   ],

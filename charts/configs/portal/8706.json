@@ -156,18 +156,18 @@
         ],
         [
           "2019-02",
-          null
+          15
         ],
         [
           "2019-03",
-          null
+          20
         ],
         [
           "2019-04",
-          null
+          15
         ]
       ],
-      "name": "Zuwanderung Erwerbstätige (rechte Skala) =\u003E evtl. umbenennen -\u003E 314",
+      "name": "Zuwanderung Erwerbstätige (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -340,7 +340,7 @@
           null
         ]
       ],
-      "name": "Bestand Grenzgänger Lagerei",
+      "name": "Bestand Grenzgänger Lagerei sowie sonst. DL für den Verkehr",
       "turboThreshold": 0
     },
     {
@@ -514,7 +514,7 @@
           null
         ]
       ],
-      "name": "Bestand Grenzgänger Zustelldienste",
+      "name": "Bestand Grenzgänger Post-, Kurier- und Expressdienste",
       "turboThreshold": 0
     },
     {
@@ -687,7 +687,7 @@
           3
         ]
       ],
-      "name": "Best. Meldepflichtige in VZÄ (umbenennen, da inkl. 61&62!)",
+      "name": "Best. Meldepflichtige in VZÄ",
       "turboThreshold": 0
     }
   ],
