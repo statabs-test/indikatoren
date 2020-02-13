@@ -8667,14 +8667,14 @@
 	},
 	"8706": {
 		"metadata": "d72c54b188b2b61f842a0cb87b91dabf04afc096",
-		"chartConfig": "879127f7ac11eb5a9c50918d86cb119348c23507",
+		"chartConfig": "16668c620885c45b3466ecd8c0ab2ddbd2b84225",
 		"data": "218d60815cc6e983f911e4136ca1d18415d92bfb",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "6ace551cd3e8508a8a6c065fe30a563cfd0aa840"
 	},
 	"8707": {
 		"metadata": "4ccd99c38907e4facf4f16b2a4f0a2ea54212432",
-		"chartConfig": "05fd86e61ae98ca54ed4586173056247dfe2466c",
+		"chartConfig": "01597d93372bd2b783fc7e2c921763037b6430a9",
 		"data": "a1fe36bfe355f3cf27d304b82b0bd1ab4ab8f84f",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "6ace551cd3e8508a8a6c065fe30a563cfd0aa840"

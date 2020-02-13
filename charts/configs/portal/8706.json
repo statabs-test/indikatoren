@@ -913,6 +913,7 @@
       "marker": {
         "enabled": false
       },
+      "borderWidth": 0,
       "dataLabels": {
         "enabled": false
       }

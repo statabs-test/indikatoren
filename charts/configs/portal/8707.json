@@ -237,6 +237,7 @@
       "fontWeight": "normal"
     },
     "padding": 0,
+    "x": 35,
     "symbolPadding": 1
   },
   "plotOptions": {
