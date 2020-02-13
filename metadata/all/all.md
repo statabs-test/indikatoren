@@ -332,9 +332,9 @@ id | visible | visibleInPortal | indikatorenset
 5188 | true | false | Nachhaltigkeit
 5189 | true | false | Nachhaltigkeit
 5191 | true | false | Nachhaltigkeit
-5192 | true | true | Nachhaltigkeit
-5193 | true | true | Nachhaltigkeit
-5194 | true | false | Nachhaltigkeit
+5192 | false |  | Nachhaltigkeit
+5193 | false |  | Nachhaltigkeit
+5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
 5196 | true | true | Nachhaltigkeit
 5197 | true | false | Nachhaltigkeit
@@ -403,7 +403,7 @@ id | visible | visibleInPortal | indikatorenset
 6045 | true | false | Nachhaltigkeit
 6046 | true | false | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
-6048 | true | false | Nachhaltigkeit
+6048 | false |  | Nachhaltigkeit
 6049 | true | false | Nachhaltigkeit
 6050 | true | false | Nachhaltigkeit
 6051 | true | true | Nachhaltigkeit
