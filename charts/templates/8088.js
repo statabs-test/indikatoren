@@ -127,7 +127,7 @@
 
 					//define different colors for positive and negative values
 					var color = function (value) {
-						return (value >= 0) ? '#67401E' : '#67401E';
+						return (value >= 0) ? '#671e20' : '#671e20';
 					};
 
 					//define chart-specific details
