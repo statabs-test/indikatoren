@@ -490,7 +490,7 @@
           0.055965
         ]
       ],
-      "name": "Mittlere jährliche Arbeitslosenquote Lagerei sowie sonst. DL für den Verkehr",
+      "name": "Mittlere jährliche ALQ Lagerei u. sonst. DL für den Verkehr",
       "turboThreshold": 0
     },
     {
@@ -984,7 +984,7 @@
           0.031943
         ]
       ],
-      "name": "Mittlere jährliche Arbeitslosenquote Post-, Kurier- und Expressdienste",
+      "name": "Mittlere jährliche ALQ Post-, Kurier- und Expressdienste",
       "turboThreshold": 0
     },
     {
@@ -1476,7 +1476,7 @@
           55
         ]
       ],
-      "name": "Monatliche Anzahl Arbeitslose Lagerei sowie sonst. DL für den Verkehr (rechte Skala)",
+      "name": "Monatliche Anzahl AL Lagerei u. sonst. DL für den Verkehr (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -1969,7 +1969,7 @@
           25
         ]
       ],
-      "name": "Monatliche Anzahl Arbeitslose Post-, Kurier- und Expressdienste (rechte Skala)",
+      "name": "Monatliche Anzahl AL Post-, Kurier- und Expressdienste (rechte Skala)",
       "turboThreshold": 0
     }
   ],

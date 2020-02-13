@@ -83,6 +83,7 @@
   ],
 
   "legend": {
+    symbolPadding: 3,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -93,7 +94,8 @@
     },
       labelFormatter: function(){
 	        return this.name
-	            .replace("Arbeitslose ", "AL ")
+              .replace("sonst. DL für den Verkehr", "sonst. DL")
+              .replace("Monatliche Anzahl AL Post-, Kurier- und Expressdienste (rechte Skala)", "Monatl. Anz. AL Post-, Kurier-, Expr.dienste (rechte Skala)")
             ;
     }
   },

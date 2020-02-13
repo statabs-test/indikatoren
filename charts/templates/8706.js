@@ -2,6 +2,7 @@
     return {
   "plotOptions": {
     "series": {
+      borderWidth: 0,
       "dataLabels": {
         "enabled": false
       }
