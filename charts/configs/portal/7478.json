@@ -568,7 +568,7 @@
       "textOverflow": "undefined"
     },
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     "symbolPadding": 0,
     "margin": 1,

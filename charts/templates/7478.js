@@ -32,7 +32,7 @@
   },  
   "legend": {
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "itemMarginBottom": 2,
     "align": "right",
     symbolPadding: 0,

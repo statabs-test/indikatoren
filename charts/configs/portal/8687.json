@@ -76,7 +76,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Branche Immobilienwesen"
+    "text": "Monatlicher Bruttomedianlohn in der Branche Immobilienwesen"
   },
   "subtitle": {
     "style": {
@@ -127,7 +127,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-29"
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

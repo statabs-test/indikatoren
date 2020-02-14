@@ -98,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Branche Personalvermittlung und \u003Cbr\u002F\u003E-überlassung"
+    "text": "Monatlicher Bruttomedianlohn in der Branche Personalvermittlung und \u003Cbr\u002F\u003E-überlassung"
   },
   "subtitle": {
     "style": {
@@ -156,7 +156,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

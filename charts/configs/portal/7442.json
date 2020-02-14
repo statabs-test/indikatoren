@@ -98,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn im Baunebengewerbe"
+    "text": "Monatlicher Bruttomedianlohn im Baunebengewerbe"
   },
   "subtitle": {
     "style": {
@@ -156,7 +156,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

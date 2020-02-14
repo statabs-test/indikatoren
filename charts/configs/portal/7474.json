@@ -559,13 +559,13 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 3,
     "itemStyle": {
       "fontSize": "9px",
       "fontWeight": "normal"
     },
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     "symbolPadding": 0,
     "margin": 1,

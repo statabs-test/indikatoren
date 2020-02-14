@@ -22,7 +22,7 @@
         }],
 
         "legend": {
-            "enabled": true,
+            "enabled": false,
             "layout": "horizontal",
             "verticalAlign": "top",
             "itemMarginBottom": 5,
