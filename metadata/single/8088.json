@@ -1,4 +1,4 @@
-{"title":"Feinstaubbelastung",
+﻿{"title":"Feinstaubbelastung",
 "subtitle":"nach Wohnviertel, 2015",
 "kuerzel":"I.02.15.07707",
 "kuerzelKunde":"7.09",
@@ -27,7 +27,7 @@
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Lufthygieneamt beider Basel"],
 "datenInChartIntegriert":false,
-"externalLinks":["Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel","Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"],
+"externalLinks":["Karte der <a href = 'https://map.geo.bs.ch/s/nojy' target = '_blank'>Feinstaub-Imissionen (PM10) 2015</a> im kantonalen Geoportal","Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel","Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"],
 "data-id":7707, 
 "chart-id":7707, 
 "filter":""
