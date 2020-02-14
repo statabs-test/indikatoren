@@ -26,7 +26,7 @@
   "legend": {
     x: 35,
     symbolPadding: 1,
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
