@@ -46,6 +46,10 @@
         [
           2018,
           0
+        ],
+        [
+          2019,
+          80
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -95,6 +99,10 @@
         ],
         [
           2018,
+          0
+        ],
+        [
+          2019,
           0
         ]
       ],
@@ -146,6 +154,10 @@
         [
           2018,
           0
+        ],
+        [
+          2019,
+          0
         ]
       ],
       "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
@@ -196,6 +208,10 @@
         [
           2018,
           3
+        ],
+        [
+          2019,
+          0
         ]
       ],
       "name": "Sonstige Umnutzungen"
@@ -246,6 +262,10 @@
         [
           2018,
           -1
+        ],
+        [
+          2019,
+          0
         ]
       ],
       "name": "Zweckentfremdungen von Wohnungen"
@@ -304,6 +324,10 @@
         [
           2018,
           2
+        ],
+        [
+          2019,
+          80
         ]
       ],
       "name": "Umbausaldo"

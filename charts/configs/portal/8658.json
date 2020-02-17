@@ -4040,8 +4040,19 @@
 									borderColor: color(data.value)
 								}
 							],
+							connectorAllowed: false,
 							dataLabels: {
-								enabled: false
+								enabled: true,
+								borderWidth: 0,
+								style: {
+									textOutline: '0px'
+								},
+
+								formatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO;
+								},
+								
+
 							}
 						};
 						//create the config handed in from the chart

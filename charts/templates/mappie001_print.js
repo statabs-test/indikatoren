@@ -322,8 +322,19 @@
 									borderColor: color(data.value)
 								}
 							],
-							dataLabels: {
-								enabled: false
+							dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 17.02.2020)
+								enabled: Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled, //gets setting from chart-js
+								distance: 0,
+								padding: 2,
+								x: -15,
+								borderWidth: 0,
+								style: {
+									textOutline: '0px'
+								},
+								formatter: function () {
+									return correspondingMapSeriesItem.Wohnviertel_Id;
+									//return correspondingMapSeriesItem.properties.LIBGEO;
+								}
 							}
 						};
 						//create the config handed in from the chart

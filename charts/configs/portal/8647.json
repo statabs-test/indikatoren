@@ -32,7 +32,6 @@
     },
     {
       "color": "#b375ab",
-      "visible": true,
       "data": [
         [
           2014,
@@ -60,6 +59,9 @@
         ]
       ],
       "name": "Kleinhüningen"
+    },
+    {
+      "color": "#999999"
     }
   ],
   "chart": {

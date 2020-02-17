@@ -19,7 +19,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
 		"erlaeuterungen": "",
-		"template": "map001_print",
+		"template": "mappie001_print",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "_000",
