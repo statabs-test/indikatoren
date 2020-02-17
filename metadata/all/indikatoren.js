@@ -41352,11 +41352,11 @@ var indikatoren = [
 		"id": 7461
 	},
 	{
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07462",
 		"kuerzelKunde": "4.8-02",
-		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
@@ -41394,11 +41394,11 @@ var indikatoren = [
 		"id": 7462
 	},
 	{
-		"title": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
+		"title": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07463",
 		"kuerzelKunde": "4.8-03",
-		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
+		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
