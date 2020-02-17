@@ -457,11 +457,11 @@
       "fontWeight": "normal",
       "textOverflow": "undefined"
     },
+    "y": -15,
     "layout": "vertical",
-    "verticalAlign": "top",
+    "verticalAlign": "middle",
     "align": "right",
     "symbolPadding": 0,
-    "margin": 1,
     "width": 105
   },
   "dataLabels": {

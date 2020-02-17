@@ -41310,11 +41310,11 @@ var indikatoren = [
 		"id": 7455
 	},
 	{
-		"title": "Beschäftigung in der Branche Personalvermittlung und <br/>-überlassung",
+		"title": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07461",
 		"kuerzelKunde": "4.8-01",
-		"description": "Beschäftigung in der Branche Personalvermittlung und <br/>-überlassung",
+		"description": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
@@ -41437,11 +41437,11 @@ var indikatoren = [
 		"id": 7463
 	},
 	{
-		"title": "Monatlicher Bruttomedianlohn in der Branche Personalvermittlung und <br/>-überlassung",
+		"title": "Monatlicher Bruttomedianlohn in der Branche Personalvermittlung und ‑überlassung",
 		"subtitle": "Nordwestschweiz",
 		"kuerzel": "I.03.3.07464",
 		"kuerzelKunde": "4.8-04",
-		"description": "Monatlicher Bruttomedianlohn in der Branche Personalvermittlung und <br/>-überlassung",
+		"description": "Monatlicher Bruttomedianlohn in der Branche Personalvermittlung und ‑überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",

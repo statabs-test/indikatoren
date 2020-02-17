@@ -26,7 +26,7 @@
             "reversedStacks": false
         },
         "legend": {
-            enabled: false,
+            enabled: true,
             "layout": "vertical",
             "verticalAlign": "middle",
             "itemMarginBottom": 5,
