@@ -496,8 +496,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 7,
-    "tickInterval": 250
+    "tickAmount": 7
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

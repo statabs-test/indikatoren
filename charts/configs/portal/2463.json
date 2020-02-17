@@ -1053,7 +1053,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 613,
+    "height": 428,
     "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
@@ -1106,7 +1106,9 @@
       "formatter": function(){
         return Highcharts.numberFormat((this.value),0)+''; 
       }
-    }
+    },
+    "tickInterval": 500,
+    "max": 2500
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

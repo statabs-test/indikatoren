@@ -171,7 +171,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Branche Lagerei und Zustelldienste"
+    "text": "Monatlicher Bruttomedianlohn in der Branche Lagerei und Zustelldienste"
   },
   "subtitle": {
     "style": {
@@ -180,7 +180,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Nordwestschweiz",
     "align": "left"
   },
   "tooltip": {
@@ -226,7 +226,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-29"
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
