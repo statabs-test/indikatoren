@@ -111,6 +111,12 @@
         "index": 3,
         "yAxis": 1,
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
+      },
+      {
+        "color": "#999999",
+        "index": 4,
+        "yAxis": 1,
+        tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       }
     ],
   }
@@ -193,6 +199,12 @@
       {
         "color": "#923f8d", //rgb(146,63,141)
         "index": 2,
+        "yAxis": 1,
+        tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
+      },
+      {
+        "color": "#999999",
+        "index": 4,
         "yAxis": 1,
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       }
