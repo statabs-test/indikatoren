@@ -342,6 +342,10 @@
         [
           2018,
           1.688490323
+        ],
+        [
+          2019,
+          1.671734473
         ]
       ],
       "name": "Inland"
@@ -688,6 +692,10 @@
         [
           2018,
           1.97159699
+        ],
+        [
+          2019,
+          2.005017261
         ]
       ],
       "name": "Ausland"
@@ -773,8 +781,8 @@
       },
       "format": "{value:,.1f}"
     },
-    "max": 3.5,
-    "tickAmount": 8
+    "tickInterval": 0.5,
+    "max": 3.5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -789,7 +797,7 @@
       "step": 1,
       "formatter": function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 12 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
           return this.value;
         }
       }

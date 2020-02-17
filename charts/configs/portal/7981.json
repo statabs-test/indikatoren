@@ -344,6 +344,10 @@
         [
           "2018",
           458003
+        ],
+        [
+          "2019",
+          476777
         ]
       ],
       "name": "Logiernächte Inland",
@@ -693,6 +697,10 @@
         [
           "2018",
           928496
+        ],
+        [
+          "2019",
+          946709
         ]
       ],
       "name": "Logiernächte Ausland",
@@ -714,7 +722,7 @@
       "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 6
+    "tickInterval": 5
   },
   "chart": {
     "events": {
@@ -750,6 +758,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
+    "marginRight": 15,
     "renderTo": "container-7981",
     "spacingBottom": 12
   },
@@ -760,7 +769,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Logiernächte nach Herkunft der Gäste"
+    "text": "Logiernächte nach Herkunft der Gäste"
   },
   "subtitle": {
     "style": {

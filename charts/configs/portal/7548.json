@@ -7,7 +7,7 @@
         "y": 20,
         "style": {
           "inside": true,
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "black",
           "fontWeight": "normal"
         }
@@ -67,7 +67,7 @@
         "enabled": false,
         "y": 20,
         "style": {
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "black",
           "fontWeight": "normal"
         }
@@ -127,7 +127,7 @@
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 4.8
+        "radius": 6
       },
       "pointPlacement": -0.15,
       "data": [
@@ -185,7 +185,7 @@
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 4.8
+        "radius": 6
       },
       "pointPlacement": 0.15,
       "data": [
@@ -240,34 +240,58 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
+    "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
     "labels": {
       "style": {
-        "fontSize": "9px",
-        "color": "#000000"
+        "fontSize": "16px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       },
-      "formatter": function() {
-            return this.value.replace("Vereinigte Staaten", "Vereinigte<br/>Staaten")
-                            .replace("Vereinigtes Königreich", "Vereinigtes<br/>Königreich")
-                            .replace("China, Hongkong","China,<br/>Hongkong")
-                            .replace("Übrige Länder","Übrige<br/>Länder")
-        },
+      "formatter": function(){
+          return this.value.replace("Schweiz", "Schweiz")
+                            .replace("Deutschland", "Deutsch-<br/>land")
+                            .replace("Vereinigte Staaten", "USA")
+                            .replace("Vereinigtes Königreich", "UK")
+                            .replace("Frankreich", "Frank-<br/>reich")
+                            //.replace("Italien", "Italien")
+                            //.replace("Spanien", "Spanien")
+                            .replace("Niederlande", "Nieder-<br/>lande")
+                            //.replace("Indien", "Indien")
+                            .replace("VR China", "VR<br/>China")
+                            .replace("Übrige Länder", "Übrige<br/>Länder");
+                            
+      },
       "rotation": 0
     },
     "tickLength": 0
   },
   "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
-    "height": 220,
+    "zoomType": "xy",
+    "width": 831.49606299,
+    "height": 428,
     "spacing": [
       2,
       2,
@@ -277,55 +301,10 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-            //move legend title
-            var title = this.legend.title;
-            title.translate(-188, 25);
-
-          }
-    },
     "type": "column",
-    "spacingTop": 30,
-    "spacingBottom": 16,
-    "renderTo": "container-7986"
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
-        }
-      },
-      "stacking": null,
-      "pointPadding": 0
-    },
-    "scatter": {
-      "yAxis": 1,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-          }
-      }
-    }
+    "spacingTop": 60,
+    "spacingBottom": 12,
+    "renderTo": "container-7548"
   },
   "title": {
     "style": {
@@ -346,13 +325,17 @@
     "text": "Basel-Stadt",
     "align": "left"
   },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
   "yAxis": [
     {
-      "tickAmount": 7,
-      "max": 600000,
+      "tickAmount": 6,
+      "max": 500000,
       "tickInterval": 100000,
       "gridLineColor": "#B6CFD7",
-      "gridLineWidth": 0.35,
+      "gridLineWidth": 0.8,
       "lineColor": "#B6CFD7",
       "title": {
         "style": {
@@ -362,24 +345,23 @@
         "text": null
       },
       "labels": {
-        "y": 2.5,
-        "x": -8,
+        "y": 5,
+        "x": -12,
         "format": "{value:,.0f}",
         "style": {
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "#000000"
         }
       }
     },
     {
-      "tickAmount": 7,
-      "allowDecimals": false,
-      "max": 0.36,
-      "tickInterval": 0.06,
+      "tickAmount": 6,
+      "max": 0.35,
+      "tickInterval": 0.07,
       "opposite": true,
       "min": 0,
       "gridLineColor": "#B6CFD7",
-      "gridLineWidth": 0.35,
+      "gridLineWidth": 0.8,
       "lineColor": "#B6CFD7",
       "title": {
         "style": {
@@ -389,30 +371,24 @@
         "text": null
       },
       "labels": {
-        "y": 2.5,
-        "x": 8,
+        "y": 5,
+        "x": 12,
         "style": {
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "#000000"
         },
         "formatter": function() {
-               
               return Highcharts.numberFormat((this.value*100), 0)+'%';
             }
       }
     }
   ],
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "10",
+      "fontSize": "10px",
       "cursor": "default"
     },
     "position": {
@@ -424,48 +400,56 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-1"
   },
   "legend": {
-    "padding": 0,
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemMarginBottom": 0,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "16px",
       "color": "#000000",
-      "fontWeight": "normal",
-      "width": 40
+      "height": 2,
+      "fontWeight": "normal"
     },
-    "useHTML": true,
-    "y": -50,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "margin": 20,
-    "align": "center",
-    "width": 200,
-    "itemWidth": 70,
+    "padding": 0,
+    "itemMarginTop": 0,
+    "itemDistance": 5,
+    "symbolHeight": 8,
+    "symbolPadding": 0,
     "labelFormatter": function(){
         //remove text before year on each item with odd index
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-        return this.name.slice(-4);
+       // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
+         if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
+        else if (this.index == 1) {return this.name.slice(-4)}
+        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala): ' + this.name.slice(-4)}
+        else if (this.index == 3) {return this.name.slice(-4)}
+      //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
+        //return this.name.slice(-4);
+        
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0
     },
-    "title": {
-      "text": " \u003Cbr\u003ELogiernächte:\u003Cbr\u003EMarktanteile (rechte Skala):\u003C\u002Fdiv\u003E",
-      "style": {
-        "fontWeight": "normal",
-        "fontSize": "10px"
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function(){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
       }
     }
   },
-  "dataLabels": {
-    "enabled": false,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000"
-    }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
   "exporting": {
-    "filename": 7986
+    "enabled": false,
+    "filename": 7548
   }
 }
