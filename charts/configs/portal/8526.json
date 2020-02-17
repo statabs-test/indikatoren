@@ -577,7 +577,7 @@
       }
     },
     "tickLength": 0,
-    "min": 0,
+    "min": 11,
     "tickInterval": 1
   },
   "chart": {
@@ -692,7 +692,7 @@
         }
       },
       "pointPadding": 100,
-      "pointWidth": 10,
+      "pointWidth": 15,
       "stacking": "normal"
     }
   },
@@ -764,7 +764,8 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "color": "#000000"
     },
     "enabled": true,
     "layout": "horizontal",

@@ -165,7 +165,7 @@
       "formatter": function () {
      // var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
       return this.value.replace("Fam.-/Haushaltszulage", "Familienzulagen")
-      .replace("Andere Beiträge, nämlich….", "And. Beiträge")
+      .replace("Andere Beiträge, nämlich...", "And. Beiträge")
       .replace("Alimente für Kinder", "Kinderalimente");
   }
     },
@@ -353,7 +353,8 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "color": "#000000"
     },
     "enabled": true,
     "layout": "horizontal",

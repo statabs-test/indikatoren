@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 10,
+      "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -14,7 +14,7 @@
     }
   },
   "xAxis": {
-  	min: 0,
+  	min: 11,
     "type": "category",
     "tickInterval": 1
   },  

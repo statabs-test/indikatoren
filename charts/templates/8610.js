@@ -25,6 +25,8 @@
     "enabled": true,
   //  "itemWidth": 150,
     "layout": "horizontal",
+    alignColumns: false,
+            itemDistance: 10,
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",

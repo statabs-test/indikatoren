@@ -11,7 +11,7 @@
   "type": "category",
   "labels": {
     useHTML:true,
-    "rotation": -90
+    "rotation": 0
     ,
     "formatter": function () {
       return this.value.replace("Verzicht auf Kinderbetreuung", "Verzicht auf Kinderbetr.")
@@ -21,7 +21,7 @@
 },
 "yAxis": {
   tickInterval: 20,
-  //"min": 0,
+    //"min": 0,
   //"max": 0.5,
   "labels": {
     "format": "{value:,.0f}%"
@@ -49,6 +49,7 @@ tooltip: {
 },  
 "chart": {      
   "type": "column",
+  marginBottom:65,
  // "inverted": true,
   width: 665
 }

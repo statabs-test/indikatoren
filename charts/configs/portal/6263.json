@@ -373,7 +373,8 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "color": "#000000"
     },
     "enabled": true,
     "layout": "horizontal",

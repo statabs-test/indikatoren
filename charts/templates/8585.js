@@ -17,7 +17,9 @@
       "labels": {
         "rotation": -90,
         "formatter": function () {
-          return this.value.replace("BS", "<b>BS<br/>");
+          return this.value.replace("BS", "<b>BS<br/>")
+          .replace("Kleinbasel", "KB")
+          .replace("Grossbasel", "GB");
         }
       }
     },

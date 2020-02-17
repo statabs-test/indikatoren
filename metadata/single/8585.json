@@ -14,7 +14,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf. Den tiefsten Indexwert im Jahr 2018 hat mit -4,7 das Wohnviertel Klybeck.",
+"lesehilfe":"Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf, das Wohnviertel Klybeck mit -4,7 den tiefsten.",
 "erlaeuterungen":"Aus fünf ausgewählten Indikatoren wird ein Index berechnet, welcher Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit erlaubt. Bei den ausgewählten Indikatoren handelt es sich um den Anteil fremdsprachiger Personen, den Median des Reineinkommens, die Arbeitslosenquote, die Sozialhilfequote sowie die Prämienverbilligungsquote. Der Index wird mittels Hauptkomponentenanalyse ermittelt. Dieses Verfahren wird unter anderem zur Bildung von Indizes aus Datensätzen mit mehreren Variablen verwendet. Der resultierende Index kann als gewichtetes Mittel der oben genannten Indikatoren interpretiert werden. Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index für die einzelnen Wohnviertel haben keine direkte intuitive Bedeutung. Allerdings kann die Streuung der Werte über die Zeit interpretiert werden: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf verwendeten Variablen.",
 "template":"template001_print",
 "darstellungsart":"",

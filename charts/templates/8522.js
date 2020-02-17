@@ -4,15 +4,15 @@
   "tickInterval": 1,
 },
 "yAxis": {
-  max: 0.08,
-  tickInterval: 0.02,
+  max: 0.069,
+  tickInterval: 0.01,
 	"labels": {
 		"format": "{value:,.0f}",
 		"formatter": function(){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       },
       x: -5,
-	}
+   	}
   
 },	
 tooltip: {
@@ -30,18 +30,18 @@ tooltip: {
  {"color": "#B375AB", index:6}, /**/
  {"color": "#3C3C3C", index:7}, /**/
 ],
- "legend": {
-  "enabled": true,
-  //"x": 45,
-  //"y": 35,
-  //"itemWidth": 140,
-  "layout": "horizontal",
-  "verticalAlign": "top",
+"legend": {
+  enabled: true,
+  "layout": "vertical",
+  "verticalAlign": "middle",
   "itemMarginBottom": 5,
-  "align": "left",
+  "align": "right",
   "itemStyle": {
     "fontWeight": "normal"
   }
+},
+chart: {
+  marginTop:10
 },
 "plotOptions": {
   "line": {

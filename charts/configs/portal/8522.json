@@ -425,6 +425,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginTop": 10,
     "renderTo": "container-8522",
     "spacingBottom": 12
   },
@@ -476,8 +477,8 @@
       },
       "x": -5
     },
-    "max": 0.08,
-    "tickInterval": 0.02
+    "max": 0.069,
+    "tickInterval": 0.01
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -511,9 +512,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

@@ -268,7 +268,9 @@
       },
       "rotation": -90,
       "formatter": function () {
-          return this.value.replace("BS", "<b>BS<br/>");
+          return this.value.replace("BS", "<b>BS<br/>")
+          .replace("Kleinbasel", "KB")
+          .replace("Grossbasel", "GB");
         }
     },
     "tickLength": 0
@@ -451,7 +453,8 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "color": "#000000"
     },
     "layout": "vertical",
     "verticalAlign": "middle",

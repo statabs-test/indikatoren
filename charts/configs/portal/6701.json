@@ -1095,6 +1095,7 @@
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal",
+      "color": "#000000",
       "textOverflow": null,
       "whitespace": "nowrap"
     },

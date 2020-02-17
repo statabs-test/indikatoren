@@ -939,7 +939,7 @@
     "align": "left",
     "symbolRadius": 0,
     "margin": 5,
-    "itemDistance": 10,
+    "itemDistance": 6,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal",
@@ -947,7 +947,8 @@
       "color": "#000000",
       "width": 115,
       "textOverflow": "none"
-    }
+    },
+    "alignColumns": false
   },
   "credits": {
     "enabled": true,

@@ -580,6 +580,7 @@
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal",
+      "color": "#000000",
       "lineHeight": 10
     },
     "enabled": true,

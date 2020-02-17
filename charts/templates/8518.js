@@ -10,6 +10,11 @@
         ],
         "xAxis": {
             type: "category",
-        }
+        },
+        legend: {
+            alignColumns: false,
+            itemDistance: 6
+
+        },
     }
 }());

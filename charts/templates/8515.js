@@ -17,11 +17,11 @@
     "formatter": function () {
       return this.value.replace("Kleidung Kinder", "Kinderkleider")
       .replace("Kleidung Erwachsene", "Erwachsenenkleider")
-      .replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
+     // .replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
   } }
 },
 "yAxis": {
-  max: 50,
+  max: 100,
   tickInterval: 10,
   "labels": {
     "format": "{value:,.0f}%"
