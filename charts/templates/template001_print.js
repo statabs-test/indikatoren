@@ -183,7 +183,8 @@
             itemMarginBottom: 2,
             itemStyle: {
                 fontSize: "10px",
-                "fontWeight": "normal"
+                "fontWeight": "normal",
+                "color": "#000000"
             }
         },
         dataLabels: {

@@ -48,7 +48,8 @@
         },
         plotOptions: {
             bar: {
-                grouping: false
+                grouping: false,
+                minPointLength: 2
             },
             series: {
                 stacking: null,
@@ -149,7 +150,7 @@
         customFunctions: {
             createSymmetricAxis: function (axis) {
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
-                console.log(axis);
+                //console.log(axis);
                 if (axis.userOptions.max) absMax = axis.userOptions.max; //if max is explicitly defined, use this
                 axis.setExtremes(-absMax, absMax);
             }
