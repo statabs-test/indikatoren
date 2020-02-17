@@ -24,5 +24,6 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
+	"Stadtteilmonitoring Rosental (Print)",
 	"Test"
 ];

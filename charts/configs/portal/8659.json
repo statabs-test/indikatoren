@@ -396,7 +396,7 @@
     }
   },
   "exporting": {
-    "enabled": false,
+    "enabled": true,
     "filename": 8659
   }
 }

@@ -742,7 +742,7 @@
     "align": "left",
     "reversed": false,
     "labelFormatter": function () {
-        return this.name.replace('Zimmer', 'Zim.');
+        return this.name.replace('Zimmer u.m.', 'Zim. u.m.');
       }
   },
   "dataLabels": {

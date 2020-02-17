@@ -464,7 +464,7 @@
     "alignColumns": false,
     "useHTML": true,
     "y": -25,
-    "x": -21,
+    "x": -17,
     "width": 160,
     "labelFormatter": function () {
         var tmp = this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title

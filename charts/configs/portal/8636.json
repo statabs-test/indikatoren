@@ -526,7 +526,7 @@
        return this.name.replace(' Wohnungen', '<br>Wohnungen')
        .replace(' Ausbauten', '<br>Ausbauten')
        .replace('Zusammenlegungen/', '<br>Zusammen-<br>legungen/<br>')
-       .replace('Zweckentfremdung', 'Zweckentfrem-<br>dung')
+       .replace('Zweckentfremdung', 'Zweckent-<br>fremdung')
        .replace('Sonstige ', 'Sonstige<br>');
       }
   },

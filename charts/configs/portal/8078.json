@@ -249,6 +249,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
+    "marginRight": 20,
     "inverted": true,
     "renderTo": "container-8078"
   },
@@ -329,6 +330,9 @@
         "enabled": false
       },
       "stickyTracking": false
+    },
+    "column": {
+      "borderWidth": 0
     }
   },
   "customFunctions": {
