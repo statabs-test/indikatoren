@@ -1239,6 +1239,7 @@ id | visible | visibleInPortal | indikatorenset
 8664 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8665 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8842 | true | false | Stadtteilmonitoring Rosental (Print)
+8843 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

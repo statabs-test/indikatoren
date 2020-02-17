@@ -3672,13 +3672,13 @@
 								name: " < \u00A0\u00A0 300",
 								from: 0,
 								to: 299,
-								diameter: 0.1
+								diameter: 0.000001
 							},
 						];
 
 					//define different colors for positive and negative values
 					var color = function (value) {
-						return (value >= 0) ? '#662673' : '#67401E';
+						return (value >= 0) ? '#aaa' : '#aaa';
 					};
 
 					//define chart-specific details
@@ -3699,16 +3699,28 @@
 
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-					console.log(pieSizeCatConfig);
-					/*					//Add manually drawn legend
+//console.log(pieSizeSeries.data);
+	/*	
+pieSizeSeries.data.forEach (function(item){
+	fn.addLegendLabel(chart, item.options["hc-key"].value, 540, 270, undefined, false, 'right');
+	}
+);*/
+//console.log(choroplethSeries);
+for (let i=0; i<pieSizeSeries.data.length; i++) {
+//	console.log(pieSizeSeries.data[i].options["hc-key"]);
+	fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id +': '+ pieSizeSeries.data[i].options["hc-key"], 800, 30+i*20, undefined, false, 'right');
+
+  }
+
+										//Add manually drawn legend
 										//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
 										//fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
-										fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 540, 270, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
-										fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 765, 270, undefined, true);
+//										fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 540, 270, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+//										fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 765, 270, undefined, true);
 					
-										fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#662673');
+										/*fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#662673');
 										fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, '#662673');
-										fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, '#662673');
+										fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, '#662673');					
 										fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 828, 320, undefined, false, 'right');
 										fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, false, 'right');
 										fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 829, 365, undefined, false, 'right');
@@ -3999,19 +4011,19 @@
 									borderColor: color(data.value)
 								}
 							],
-							connectorAllowed: false,
-							dataLabels: {
-								enabled: true,
+							dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 17.02.2020)
+								enabled: Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled, //gets setting from chart-js
+								distance: 0,
+								padding: 2,
+								x: -15,
 								borderWidth: 0,
 								style: {
 									textOutline: '0px'
 								},
-
 								formatter: function () {
-									return correspondingMapSeriesItem.properties.LIBGEO;
-								},
-								
-
+									return correspondingMapSeriesItem.Wohnviertel_Id;
+									//return correspondingMapSeriesItem.properties.LIBGEO;
+								}
 							}
 						};
 						//create the config handed in from the chart
@@ -4149,14 +4161,9 @@
 			}
   },
   "plotOptions": {
-    "map": {
+    "pie": {
       "dataLabels": {
-        "enabled": false,
-        "inside": true,
-        "borderWidth": 0,
-        "style": {
-          "textOutline": "0px"
-        }
+        "enabled": true
       }
     }
   }
