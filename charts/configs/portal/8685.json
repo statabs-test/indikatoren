@@ -623,7 +623,7 @@
         }
       },
       "min": 0,
-      "tickInterval": 3,
+      "tickInterval": 5,
       "opposite": true
     }
   ],

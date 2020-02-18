@@ -853,7 +853,8 @@
         }
       },
       "min": 0,
-      "tickAmount": 7
+      "max": 800,
+      "tickAmount": 9
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -874,8 +875,8 @@
         }
       },
       "min": 0,
-      "tickAmount": 7,
-      "tickInterval": 10,
+      "max": 80,
+      "tickAmount": 9,
       "opposite": true
     }
   ],

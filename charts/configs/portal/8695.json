@@ -779,7 +779,8 @@
         }
       },
       "min": 0,
-      "tickAmount": 7
+      "tickAmount": 9,
+      "tickInterval": 100
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -798,7 +799,7 @@
         }
       },
       "min": 0,
-      "tickAmount": 7,
+      "tickAmount": 9,
       "tickInterval": 10,
       "opposite": true
     }
@@ -837,6 +838,7 @@
       "marker": {
         "enabled": false
       },
+      "borderWidth": 0,
       "dataLabels": {
         "enabled": false
       }

@@ -701,6 +701,7 @@
       },
       "min": 0,
       "tickAmount": 6,
+      "tickInterval": 10,
       "opposite": true
     }
   ],

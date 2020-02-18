@@ -2,6 +2,7 @@
     return {
         "plotOptions": {
             "series": {
+                borderWidth: 0,
                 "dataLabels": {
                     "enabled": false
                 }
@@ -46,7 +47,7 @@
             "min": 0,
             "max": undefined,
             //tickAmount: 9,
-           // tickInterval: 3,
+           tickInterval: 5,
            tickAmount: 6,
             "opposite": true
         }

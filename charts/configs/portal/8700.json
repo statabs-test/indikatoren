@@ -696,6 +696,7 @@
         }
       },
       "min": 0,
+      "tickInterval": 5,
       "tickAmount": 6,
       "opposite": true
     }
@@ -734,6 +735,7 @@
       "marker": {
         "enabled": false
       },
+      "borderWidth": 0,
       "dataLabels": {
         "enabled": false
       }

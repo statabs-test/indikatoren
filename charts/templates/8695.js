@@ -2,6 +2,7 @@
     return {
   "plotOptions": {
     "series": {
+      borderWidth: 0,
       "dataLabels": {
         "enabled": false
       }
@@ -24,7 +25,8 @@
       }
     },
     "min": 0,
-    tickAmount: 7,
+    tickAmount: 9,
+    tickInterval: 100
   },
   {
     gridLineColor: '#B9CFD7', 
@@ -43,8 +45,8 @@
       }
     },
     "min": 0,
-    "max": undefined,
-    tickAmount: 7,
+    //"max": undefined,
+    tickAmount: 9,
     tickInterval: 10,
     "opposite": true
   }

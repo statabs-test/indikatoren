@@ -604,7 +604,8 @@
           "color": "#000000"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 6
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -623,6 +624,8 @@
         }
       },
       "min": 0,
+      "tickAmount": 6,
+      "tickInterval": 10,
       "opposite": true
     }
   ],
