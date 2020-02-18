@@ -7,7 +7,7 @@
     "xAxis": {
       "tickInterval": 1,
       "labels": {
-        rotation: 0
+        //rotation: 0
       }
     },
     "yAxis": {
@@ -30,13 +30,16 @@
       { "color": "#b475ab" }, /*EU-17 & EFTA*/
       { "color": "#71a3b5" }, /*EU-Ost */
       { "color": "#b9cfd7" }, /*Balkan*/
+      { "color": "#ff8028" }, /*Mittel- & Südamerika */
+      { "color": "#73ba7c" }, /*Arabische Länder */
+      { "color": "#9f7c5a" }, /*Afrikanische Länder*/
       { "color": "#999999" }, /*Übrige Länder*/
     ],
     "legend": {
       "enabled": true,
       "layout": "vertical",
       "align": "right",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "itemMarginBottom": 5,
       itemDistance: 10
     },

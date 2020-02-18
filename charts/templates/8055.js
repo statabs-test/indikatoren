@@ -26,15 +26,18 @@
       { "color": "#b475ab" }, /*EU-17 & EFTA*/
       { "color": "#71a3b5" }, /*EU-Ost */
       { "color": "#b9cfd7" }, /*Balkan*/
+      { "color": "#ff8028" }, /*Mittel- & Südamerika */
+      { "color": "#73ba7c" }, /*Arabische Länder */
+      { "color": "#9f7c5a" }, /*Afrikanische Länder*/
       { "color": "#999999" }, /*Übrige Länder*/
     ],
     "legend": {
       "enabled": true,
-      "layout": "horizontal",
-      "align": "left",
-      "verticalAlign": "top",
+      "layout": "vertical",
+      "align": "right",
+      "verticalAlign": "middle",
       "itemMarginBottom": 3,
-//      itemDistance: 5,
+      //      itemDistance: 5,
     },
   }
 }());

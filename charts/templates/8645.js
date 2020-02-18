@@ -3,7 +3,7 @@
     chart: {
       type: "line",
       marginRight: 29,
-      marginTop: 40,
+      marginTop: 50,
       events: {
         load: function () {
           //move legend title
@@ -24,6 +24,7 @@
         gridLineColor: '#B9CFD7',
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7',
+        tickAmount: 4,
         title: {
           enabled: false
         },
@@ -40,6 +41,7 @@
       {
         gridLineColor: '#B9CFD7',
         gridLineWidth: 0.5,
+        tickAmount: 4,
         title: {
           enabled: false
         },
@@ -63,7 +65,6 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       alignColumns: false,
       useHTML: true,
       y: -25,
