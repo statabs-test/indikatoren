@@ -3674,7 +3674,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "colorAxis": {
     "min": 0,
@@ -3694,8 +3694,8 @@
     "marker": {
       "color": "black"
     },
-    "max": 80000,
-    "tickInterval": 20000,
+    "max": 20000,
+    "tickInterval": 5000,
     "minColor": "#E7CEE2",
     "maxColor": "#2E1435"
   },

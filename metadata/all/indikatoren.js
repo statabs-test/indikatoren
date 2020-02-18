@@ -9851,7 +9851,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:53:41.4141",
+		"aktualisierungsdatum": "2019-05-10T14:39:56.5656",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
