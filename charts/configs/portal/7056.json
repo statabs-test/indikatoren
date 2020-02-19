@@ -224,6 +224,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {

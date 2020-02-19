@@ -984,6 +984,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 6,
       "tickInterval": 0.02,
       "title": ""
@@ -1007,6 +1008,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 6,
       "tickInterval": 20,
       "opposite": true

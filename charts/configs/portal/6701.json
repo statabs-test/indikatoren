@@ -993,6 +993,7 @@
     },
     "type": "column",
     "spacingTop": 5,
+    "marginRight": undefined,
     "renderTo": "container-6701",
     "spacingBottom": 12
   },

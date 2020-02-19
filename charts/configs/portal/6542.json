@@ -122,7 +122,8 @@
         "style": {
           "fontSize": "11px",
           "color": "black",
-          "fontWeight": "normal"
+          "fontWeight": "normal",
+          "textOutline": undefined
         },
         "enabled": false,
         "format": "{point.y:,.0f}"
