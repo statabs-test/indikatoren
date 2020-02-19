@@ -14,13 +14,9 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
     },
     "series": [
-      {
-        "color": "#cd9c00"
-      },
-      {
-        "color": "#b375ab",
-        visible: true,
-      },
+      { "color": "#cd9c00" },
+      { "color": "#b375ab" },
+      { "color": "#999" },
     ],
     "legend": {
       "enabled": true,

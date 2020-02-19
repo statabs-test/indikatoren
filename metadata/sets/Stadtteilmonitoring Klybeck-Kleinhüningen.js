@@ -2082,7 +2082,9 @@ var indikatorensetData = [
 		"parentId": 8842,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""

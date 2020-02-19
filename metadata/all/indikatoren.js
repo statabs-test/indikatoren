@@ -47091,7 +47091,9 @@ var indikatoren = [
 			"8848"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -47205,7 +47207,9 @@ var indikatoren = [
 		"parentId": 8842,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -47240,10 +47244,12 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "01_00_00_00_00_000",
-		"parentId": 8842,
+		"parentId": 8845,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""

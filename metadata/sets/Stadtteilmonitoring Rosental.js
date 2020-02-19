@@ -1987,7 +1987,9 @@ var indikatorensetData = [
 			"8848"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""

@@ -1983,10 +1983,12 @@ var indikatorensetData = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
-		"parentId": 8842,
+		"parentId": 8845,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
