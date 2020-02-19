@@ -281,6 +281,7 @@
   "yAxis": [
     {
       "max": 400,
+      "tickInterval": 100,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "title": {

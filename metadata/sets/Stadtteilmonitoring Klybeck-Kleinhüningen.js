@@ -427,8 +427,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 wiesen Personen aus der Ländergruppe EU-Ost den höchsten Segregationsindex auf (29,7). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Gebiet der Wohnviertel Klybeck und Kleinhüningen konzentriert waren. Danach folgten Personen aus der Türkei (24,3) und den übrigen Ländern (23,1). Die niedrigsten Indices ergaben sich 2019 für Italiener (18,1), Schweizer (15,9) und Deutsche (15,7). Im Vergleich zu 2000 haben die Segregationsindices aller Ländergruppen abgenommen.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet der Wohnviertel Klybeck und Kleinhüningen von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen Block umziehen müsste, um gleich über das Gebiet der Wohnviertel Klybeck und Kleinhüningen verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"lesehilfe": "2019 wiesen Personen aus der Gruppe der arabischen Länder den höchsten Segregationsindex auf (39,7). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Gebiet der Wohnviertel Klybeck und Kleinhüningen konzentriert waren. Danach folgten Personen aus der Gruppe der afrikanischen Länder (38,2) und derjenigen der EU-Ost Staaten (29,0). Die niedrigsten Indices ergaben sich 2019 für Italiener (18,1), Schweizer (15,9) und Deutsche (15,7). Im Vergleich zu 2000 haben die Segregationsindices aller Ländergruppen abgenommen.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet der Wohnviertel Klybeck und Kleinhüningen von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen Block umziehen müsste, um gleich über das Gebiet der Wohnviertel Klybeck und Kleinhüningen verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -960,7 +960,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen signifikant höher als im Wohnviertel Klybeck.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1273,11 +1273,11 @@ var indikatorensetData = [
 		"id": 8075
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"title": "Gymnasialquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.15.1.07695",
 		"kuerzelKunde": "5.02",
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"description": "Gymnasialquote",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
@@ -1559,45 +1559,6 @@ var indikatorensetData = [
 		"chart-id": 7701,
 		"filter": "",
 		"id": 8082
-	},
-	{
-		"title": "Sauberkeitsindex",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.6.08084",
-		"kuerzelKunde": "7.05",
-		"description": "Sauberkeitsindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-09-23T11:38:18.1818",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Wert des Sauberkeitsindex für die Stadt Basel beläuft sich 2018 auf 3,73.",
-		"erlaeuterungen": "Der Sauberkeitsindex ist ein Mass für die Sauberkeit der Stadt Basel. Er bewegt sich auf einer Skala zwischen 0 und 5, wobei 5 für sehr sauber steht. Von April bis Oktober wird durch das Tiefbauemt Basel-Stadt mehrmals in verschiedenen Begehungen visuell die Verschmutzung im öffentlichen Raum erhoben (2018 an insgesamt 89 Objekten und nach 18 verschiedenen Arten der Verschmutzung).",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_005",
-		"parentId": 7703,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Tiefbauamt Basel-Stadt, Stadtreinigung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8084,
-		"chart-id": 7703,
-		"filter": "",
-		"id": 8084
 	},
 	{
 		"title": "Heizsysteme nach Energieträger",
@@ -2054,44 +2015,5 @@ var indikatorensetData = [
 		"chart-id": 8614,
 		"filter": "",
 		"id": 8614
-	},
-	{
-		"title": "Übersichtskarte Wohnviertel",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "1.01",
-		"description": "Übersichtskarte Wohnviertel",
-		"thema": "50 Befragungen",
-		"unterthema": "",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-02-17T09:53:08.088",
-		"stufe1": "1 Übersicht",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
-		"erlaeuterungen": "",
-		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_000",
-		"parentId": 8842,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8845,
-		"chart-id": 8845,
-		"filter": "",
-		"id": 8845
 	}
 ];

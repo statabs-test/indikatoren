@@ -7385,7 +7385,8 @@
 					var currentPieSeries = function (config) {
 
 						//console.log(correspondingMapSeriesItem);
-						var labeltxt = correspondingMapSeriesItem["Wohnviertel Id"].toString();
+						var labeltxt = correspondingMapSeriesItem.Wohnviertel_Id.toString();
+						//var labeltxt = correspondingMapSeriesItem["Wohnviertel Id"].toString();
 						/*var labeltxt = correspondingMapSeriesItem.properties.LIBGEO
 							.replace('Grossbasel', 'GB')
 							.replace('Kleinbasel', 'KB');
@@ -7430,7 +7431,7 @@
 								}
 							],
 							dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 17.02.2020)
-								enabled: Highcharts.charts[1].userOptions.plotOptions.pie.dataLabels.enabled, //gets setting from chart-js
+								enabled: (Highcharts.charts[1] !== undefined ? Highcharts.charts[1].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
 								useHTML: true,
 								zIndex: 0,
 								distance: 0,
