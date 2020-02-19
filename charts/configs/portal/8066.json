@@ -386,7 +386,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Umbausaldo, nach Art des Umbaus"
+    "text": "Umgebaute Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -395,7 +395,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
     "align": "left"
   },
   "xAxis": {

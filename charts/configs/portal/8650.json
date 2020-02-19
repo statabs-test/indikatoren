@@ -881,7 +881,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bodenbedeckung nach Nutzungsarten"
+    "text": "Bodenbedeckung nach Nutzungsart"
   },
   "subtitle": {
     "style": {
@@ -934,7 +934,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "padding": 0,

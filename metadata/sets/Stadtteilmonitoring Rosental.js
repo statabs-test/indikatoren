@@ -1961,7 +1961,7 @@ var indikatorensetData = [
 		"title": "Übersichtskarte Wohnviertel",
 		"subtitle": "",
 		"kuerzel": "",
-		"kuerzelKunde": "0.01",
+		"kuerzelKunde": "1.01",
 		"description": "Übersichtskarte Wohnviertel",
 		"thema": "50 Befragungen",
 		"unterthema": "",
@@ -1983,8 +1983,8 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"8844",
-			"8845"
+			"8845",
+			"8848"
 		],
 		"renderLink": [],
 		"quellenangabe": [],

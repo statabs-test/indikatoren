@@ -412,7 +412,6 @@
       "format": "{value:,.0f}"
     },
     "tickInterval": 500,
-    "max": 4000,
     "reversedStacks": false
   },
   "navigation": {

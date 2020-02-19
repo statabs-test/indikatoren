@@ -6894,7 +6894,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -6910,7 +6910,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: MCR-Lab, Universität Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: MCR-Lab, Universität Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "colorAxis": {
     "min": 0,

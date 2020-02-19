@@ -3754,7 +3754,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, 2015",
+    "text": "nach Wohnviertel, Basel-Stadt, 2015",
     "align": "left"
   },
   "credits": {
@@ -3770,7 +3770,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003ELufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003ELufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "colorAxis": {
     "min": 0,

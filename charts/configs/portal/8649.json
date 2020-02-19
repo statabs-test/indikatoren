@@ -258,7 +258,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung"
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung"
   },
   "subtitle": {
     "style": {
@@ -323,7 +323,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "enabled": true,

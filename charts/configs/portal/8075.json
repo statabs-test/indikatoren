@@ -525,10 +525,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 2,
     "useHTML": true,
     "y": -55,
     "x": -17,
+    "itemMarginBottom": 2,
     "width": 260,
     "labelFormatter": function () {
         return this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title

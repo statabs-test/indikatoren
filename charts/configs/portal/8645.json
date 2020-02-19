@@ -439,7 +439,7 @@
     },
     "type": "line",
     "marginRight": 29,
-    "marginTop": 40,
+    "marginTop": 50,
     "renderTo": "container-8645",
     "spacingBottom": 12
   },
@@ -470,6 +470,7 @@
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
+      "tickAmount": 4,
       "title": {
         "enabled": false
       },
@@ -486,6 +487,7 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 4,
       "title": {
         "enabled": false
       },
@@ -530,7 +532,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "enabled": true,
