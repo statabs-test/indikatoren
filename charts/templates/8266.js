@@ -30,7 +30,7 @@
         	dataClasses: [{
                	from: 0,
                 to:49.9,
-                color: '#ECE1D0',
+                color: '#A8C3CA',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 50,0"
 			}/*, {
                 from: 50.0,
@@ -136,7 +136,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 15; 
+	                var maxValueInLegend = 16; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);

@@ -99,7 +99,7 @@
 			align: "right",
 			//x: -118,
 			//y: -20,
-			x: -305,
+			x: -323,
 			y: -50,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
@@ -113,26 +113,26 @@
 				from: 0.0,
 				to: 39.9,
 				color: '#D3E2E4',
-				name: "<span style='color: rgba(0,0,0,0)'>00,0% </span> < 40,0%"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 40,0"
 			}, {
 				from: 40.0,
 				to: 69.9,
 				color: '#A8C3CA',
-				name: "40,0% − 69,9%"
+				name: "40,0 − 69,9"
 			}, {
 				from: 70.0,
 				to: 79.9,
 				color: '#689199',
-				name: "70,0% − 79,9%"
+				name: "70,0 − 79,9"
 			}, {
 				from: 80.0,
 				to: 89.9,
 				color: '#246370',
-				name: "80,0% − 89,9%"
+				name: "80,0 − 89,9"
 			}, {
 				from: 90,
 				color: '#083038',
-				name: "<span style='color: rgba(0,0,0,0)'>00,0% </span> ≥ 90,0%"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> ≥ 90,0"
 			}],
 		},
 		chart: {
@@ -202,7 +202,7 @@
 					//Add manually drawn legend
 					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
-					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>'), 545, 280);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>') + ' (%)', 555, 280,);
 					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), 700, 280);
 
 					fn.addLegendCircle(chart, 715, 280 + 65 + 0, 0.5 * pieSizeCatConfig[0].diameter, '#7F5F1A');

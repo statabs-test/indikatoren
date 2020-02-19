@@ -132,8 +132,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//pie values in legend
-					var minValueInLegend = 1;
-					var maxValueInLegend = 5;
+					var minValueInLegend = -1;
+					var maxValueInLegend = -6;
 
 					var shiftHoriz = 280;
 					var shiftVert = 70;
@@ -144,18 +144,18 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, "In der Schweiz <br/> geborenen <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "In der Schweiz <br/> geborene <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
 
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
-					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
-					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 405 + shiftHoriz, 318 + shiftVert)
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 385 + shiftHoriz, 220 + shiftVert);
+					//fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
+					//fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
+					//fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
+					//fn.addLegendLabel(chart, 'Abnahme', 405 + shiftHoriz, 318 + shiftVert)
 
-					fn.addLegendCircle(chart, 392 + shiftHoriz, 360 + shiftVert, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 405 + shiftHoriz, 347 + shiftVert);
-					fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), 405 + shiftHoriz, 375 + shiftVert);
+					fn.addLegendCircle(chart, 392 + shiftHoriz, /*360*/307 + shiftVert, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 405 + shiftHoriz, /*347*/294 + shiftVert);
+					fn.addLegendCircle(chart, 392 + shiftHoriz, /*385*/330 + shiftVert, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), 405 + shiftHoriz, /*375*/320 + shiftVert);
 
 /*					var shiftDown = 12;
 

@@ -143,7 +143,7 @@
 					
 					fn.addLegendTitle(chart, "Anteil Familien- <br/> haushalte (%)", 245, 220);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2011", 355, 220);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2011 (pp)", 355, 220);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					fn.addLegendSquare(chart, 363, 295, 10, '#990300');

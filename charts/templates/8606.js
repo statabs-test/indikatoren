@@ -146,16 +146,16 @@
 
 					fn.addLegendTitle(chart, "Anteil Haushalte <br/> mit Prämien- <br/> verbilligung (%)", 245 + shiftHoriz, 220 + shiftVert);
 
-					fn.addLegendTitle(chart, "Differenz <br/> 2018 zu 2013", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "Differenz <br/> 2018 zu 2013 (pp)", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
 					fn.addLegendLabel(chart, 'Abnahme', 405 + shiftHoriz, 318 + shiftVert)
 
 					fn.addLegendCircle(chart, 392 + shiftHoriz, 360 + shiftVert, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 1, ",", " ") + ' Prozentpunkte', 408 + shiftHoriz, 347 + shiftVert);
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 1, ",", " "), 408 + shiftHoriz, 347 + shiftVert);
 					fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 1, ",", " ") + ' Prozentpunkte', 408 + shiftHoriz, 375 + shiftVert);
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 1, ",", " "), 408 + shiftHoriz, 375 + shiftVert);
 
 					/*var shiftDown = 12;
 

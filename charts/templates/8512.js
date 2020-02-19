@@ -158,7 +158,7 @@
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245 + shiftHoriz, 220 + shiftVert);
+	        		fn.addLegendTitle(chart, "Sozialhilfe- <br/>  quote (%)", 245 + shiftHoriz, 220 + shiftVert);
 	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 385 + shiftHoriz, 220 + shiftVert);
 	                
 	              	fn.addLegendCircle(chart, 392 + shiftHoriz, 315 + shiftVert, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');

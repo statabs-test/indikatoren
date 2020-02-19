@@ -30,26 +30,26 @@
                	from: 0.000,
                 to:0.249,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,0% </span> < 25,0%"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 25,0"
             }, {
                 from: 0.250,
                 to: 0.399,
                 color: '#A8C3CA',
-                name: "25,0% − 39,9%"
+                name: "25,0 − 39,9"
             }, {
                 from: 0.400,
                 to: 0.599,
                  color: '#689199',
-                 name: "40,0% − 59,9%"
+                 name: "40,0 − 59,9"
             },{
                 from: 0.600,
                 to: 0.699,
                  color: '#246370',
-                 name: "60,0% − 69,9%"
+                 name: "60,0 − 69,9"
             },{
                 from: 0.700,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,0% </span> ≥ 70,0%"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,0 </span> ≥ 70,0"
             }], 
 		},
         "data": {
@@ -160,7 +160,7 @@
 	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355-5, 212+15, 110+15, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-	                fn.addLegendTitle(chart, chart.series[0].name, 250 + shiftHoriz, 220 + shiftVert);
+	                fn.addLegendTitle(chart, chart.series[0].name + ' (%)', 250 + shiftHoriz, 220 + shiftVert);
 	                
 	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');

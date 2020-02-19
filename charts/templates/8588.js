@@ -9,7 +9,7 @@
 		"legend": {
 			useHTML: false,
 			"title": {
-				"text": "Anteil der Wohnviertel am Total der<br>geplanten BGF für Wohnungen",
+				"text": "Anteil der Wohnviertel am Total der<br>geplanten BGF für Wohnungen (%)",
 				formatter: function(){
 					return this.series[1].name;
 				}
@@ -32,26 +32,26 @@
 				from: 0.000,
 				to: 0.009,
 				color: '#D3E2E4',
-				name: "<span style='color: rgba(0,0,0,0)'>00,0% </span> < \u00A0 0,01%"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < \u00A0 0,01"
 			}, {
 				from: 0.01,
 				to: 0.49,
 				color: '#A8C3CA',
-				name: "0,01% − \u00A0 0,49%"
+				name: "0,01 − \u00A0 0,49"
 			}, {
 				from: 0.50,
 				to: 4.99,
 				color: '#689199',
-				name: "0,50% − \u00A0 4,99%"
+				name: "0,50 − \u00A0 4,99"
 			}, {
 				from: 5,
 				to: 10.49,
 				color: '#246370',
-				name: "5,00% − \u00A0 9,99%"
+				name: "5,00 − \u00A0 9,99"
 			}, {
 				from: 10,
 				color: '#083038',
-				name: "<span style='color: rgba(0,0,0,0)'>00,0% </span> ≥ 10,00%"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> ≥ 10,00"
 			}],
 		},
 		"data": {

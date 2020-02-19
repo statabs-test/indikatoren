@@ -133,7 +133,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 5; 
+	                var maxValueInLegend = 7; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -143,7 +143,7 @@
 					
 					fn.addLegendTitle(chart, "Anteil <br/> deutschsprachige <br/> Personen (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 355, 210);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 355, 210);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
