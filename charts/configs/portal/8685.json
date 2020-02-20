@@ -557,7 +557,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -580,7 +580,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -639,9 +639,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-29"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-29"
   },
   "legend": {
     "enabled": true,

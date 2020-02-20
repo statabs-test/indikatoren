@@ -98,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Monatlicher Bruttomedianlohn in der Branche IT-Dienstleistungen"
+    "text": "Medianlohn in der Branche IT-Dienstleistungen"
   },
   "subtitle": {
     "style": {
@@ -107,7 +107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {

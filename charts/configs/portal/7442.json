@@ -98,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Monatlicher Bruttomedianlohn im Baunebengewerbe"
+    "text": "Medianlohn im Baunebengewerbe"
   },
   "subtitle": {
     "style": {
@@ -107,7 +107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
