@@ -2,282 +2,164 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 0,
       "data": [
         [
-          "2003 (Ø 7.4)",
-          120
+          "2003",
+          125
         ],
         [
-          "2005 (Ø 7.3)",
-          102
+          "2007",
+          81
         ],
         [
-          "2007 (Ø 7.4)",
-          105
+          "2011",
+          243
         ],
         [
-          "2011 (Ø 7.7)",
-          203
+          "2015",
+          179
         ],
         [
-          "2015 (Ø 7.8)",
-          173
+          "2019",
+          297
         ]
       ],
-      "name": "Note 10",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#44ab2b",
-      "index": 1,
+      "color": "#68ab2b",
       "data": [
         [
-          "2003 (Ø 7.4)",
-          104
+          "2003",
+          326
         ],
         [
-          "2005 (Ø 7.3)",
-          150
+          "2007",
+          362
         ],
         [
-          "2007 (Ø 7.4)",
-          160
+          "2011",
+          549
         ],
         [
-          "2011 (Ø 7.7)",
-          168
+          "2015",
+          348
         ],
         [
-          "2015 (Ø 7.8)",
-          223
+          "2019",
+          365
         ]
       ],
-      "name": "Note 9",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73ba7c",
-      "index": 2,
-      "data": [
-        [
-          "2003 (Ø 7.4)",
-          576
-        ],
-        [
-          "2005 (Ø 7.3)",
-          546
-        ],
-        [
-          "2007 (Ø 7.4)",
-          571
-        ],
-        [
-          "2011 (Ø 7.7)",
-          582
-        ],
-        [
-          "2015 (Ø 7.8)",
-          590
-        ]
-      ],
-      "name": "Note 8",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#d7e9d2",
-      "index": 3,
-      "data": [
-        [
-          "2003 (Ø 7.4)",
-          351
-        ],
-        [
-          "2005 (Ø 7.3)",
-          363
-        ],
-        [
-          "2007 (Ø 7.4)",
-          372
-        ],
-        [
-          "2011 (Ø 7.7)",
-          327
-        ],
-        [
-          "2015 (Ø 7.8)",
-          281
-        ]
-      ],
-      "name": "Note 7",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b9cfd7",
-      "index": 4,
-      "data": [
-        [
-          "2003 (Ø 7.4)",
-          144
-        ],
-        [
-          "2005 (Ø 7.3)",
-          143
-        ],
-        [
-          "2007 (Ø 7.4)",
-          130
-        ],
-        [
-          "2011 (Ø 7.7)",
-          93
-        ],
-        [
-          "2015 (Ø 7.8)",
-          93
-        ]
-      ],
-      "name": "Note 6",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#71a3b5",
-      "index": 5,
-      "data": [
-        [
-          "2003 (Ø 7.4)",
-          137
-        ],
-        [
-          "2005 (Ø 7.3)",
-          140
-        ],
-        [
-          "2007 (Ø 7.4)",
-          114
-        ],
-        [
-          "2011 (Ø 7.7)",
-          96
-        ],
-        [
-          "2015 (Ø 7.8)",
-          93
-        ]
-      ],
-      "name": "Note 5",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
       "color": "#ffbb58",
-      "index": 6,
       "data": [
         [
-          "2003 (Ø 7.4)",
-          23
+          "2003",
+          202
         ],
         [
-          "2005 (Ø 7.3)",
-          30
+          "2007",
+          197
         ],
         [
-          "2007 (Ø 7.4)",
-          26
+          "2011",
+          170
         ],
         [
-          "2011 (Ø 7.7)",
-          20
+          "2015",
+          70
         ],
         [
-          "2015 (Ø 7.8)",
-          16
+          "2019",
+          135
         ]
       ],
-      "name": "Note 4",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ff8028",
-      "index": 7,
-      "data": [
-        [
-          "2003 (Ø 7.4)",
-          14
-        ],
-        [
-          "2005 (Ø 7.3)",
-          17
-        ],
-        [
-          "2007 (Ø 7.4)",
-          13
-        ],
-        [
-          "2011 (Ø 7.7)",
-          13
-        ],
-        [
-          "2015 (Ø 7.8)",
-          14
-        ]
-      ],
-      "name": "Note 3",
+      "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
       "color": "#dc440e",
-      "index": 8,
       "data": [
         [
-          "2003 (Ø 7.4)",
-          3
+          "2003",
+          33
         ],
         [
-          "2005 (Ø 7.3)",
-          4
+          "2007",
+          35
         ],
         [
-          "2007 (Ø 7.4)",
-          4
+          "2011",
+          21
         ],
         [
-          "2011 (Ø 7.7)",
-          4
-        ],
-        [
-          "2015 (Ø 7.8)",
-          2
-        ]
-      ],
-      "name": "Note 2",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b00000",
-      "index": 9,
-      "data": [
-        [
-          "2003 (Ø 7.4)",
-          5
-        ],
-        [
-          "2005 (Ø 7.3)",
-          5
-        ],
-        [
-          "2007 (Ø 7.4)",
-          5
-        ],
-        [
-          "2011 (Ø 7.7)",
+          "2015",
           7
         ],
         [
-          "2015 (Ø 7.8)",
-          4
+          "2019",
+          37
         ]
       ],
-      "name": "Note 1",
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          668
+        ],
+        [
+          "2007",
+          717
+        ],
+        [
+          "2011",
+          427
+        ],
+        [
+          "2015",
+          431
+        ],
+        [
+          "2019",
+          761
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          14
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          80
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -347,7 +229,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-5165",
+    "renderTo": "container-8461",
     "spacingBottom": 40
   },
   "title": {
@@ -357,7 +239,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bewertung der Lebensqualität"
+    "text": "Zufriedenheit mit dem Angebot der Kinderbetreuung"
   },
   "subtitle": {
     "style": {
@@ -365,7 +247,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»"
+    "text": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -404,12 +286,11 @@
         "textOverflow": "none"
       }
     },
-    "reversedStacks": true
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 0
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -424,7 +305,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
   },
   "legend": {
     "layout": "vertical",
@@ -437,12 +318,12 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
         },
-    "reversed": false
+    "reversed": true
   },
   "exporting": {
-    "filename": 5165
+    "filename": 8461
   }
 }

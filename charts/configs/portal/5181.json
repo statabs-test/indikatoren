@@ -7,27 +7,27 @@
       "data": [
         [
           "18-29",
-          53
+          67
         ],
         [
           "30-39",
-          68
+          128
         ],
         [
           "40-49",
-          82
+          121
         ],
         [
           "50-59",
-          118
+          115
         ],
         [
           "60-69",
-          143
+          109
         ],
         [
           "70 u.m.",
-          127
+          101
         ],
         [
           " ",
@@ -52,6 +52,10 @@
         [
           "2015",
           591
+        ],
+        [
+          "2019",
+          651
         ]
       ],
       "name": "Sehr gut",
@@ -64,27 +68,27 @@
       "data": [
         [
           "18-29",
-          40
-        ],
-        [
-          "30-39",
-          42
-        ],
-        [
-          "40-49",
           70
         ],
         [
+          "30-39",
+          158
+        ],
+        [
+          "40-49",
+          163
+        ],
+        [
           "50-59",
-          115
+          194
         ],
         [
           "60-69",
-          164
+          202
         ],
         [
           "70 u.m.",
-          280
+          326
         ],
         [
           " ",
@@ -109,6 +113,10 @@
         [
           "2015",
           711
+        ],
+        [
+          "2019",
+          1130
         ]
       ],
       "name": "Gut",
@@ -121,27 +129,27 @@
       "data": [
         [
           "18-29",
-          4
+          12
         ],
         [
           "30-39",
-          9
+          26
         ],
         [
           "40-49",
-          15
+          14
         ],
         [
           "50-59",
-          33
+          42
         ],
         [
           "60-69",
-          20
+          42
         ],
         [
           "70 u.m.",
-          79
+          94
         ],
         [
           " ",
@@ -166,6 +174,10 @@
         [
           "2015",
           160
+        ],
+        [
+          "2019",
+          235
         ]
       ],
       "name": "Eher nicht so gut",
@@ -178,27 +190,27 @@
       "data": [
         [
           "18-29",
-          0
-        ],
-        [
-          "30-39",
           1
         ],
         [
+          "30-39",
+          6
+        ],
+        [
           "40-49",
-          7
+          6
         ],
         [
           "50-59",
-          7
+          8
         ],
         [
           "60-69",
-          5
+          6
         ],
         [
           "70 u.m.",
-          20
+          11
         ],
         [
           " ",
@@ -223,6 +235,10 @@
         [
           "2015",
           40
+        ],
+        [
+          "2019",
+          39
         ]
       ],
       "name": "Gar nicht gut",
@@ -235,11 +251,11 @@
       "data": [
         [
           "18-29",
-          0
+          4
         ],
         [
           "30-39",
-          0
+          1
         ],
         [
           "40-49",
@@ -247,11 +263,11 @@
         ],
         [
           "50-59",
-          0
+          2
         ],
         [
           "60-69",
-          2
+          1
         ],
         [
           "70 u.m.",
@@ -280,9 +296,13 @@
         [
           "2015",
           4
+        ],
+        [
+          "2019",
+          12
         ]
       ],
-      "name": "Weiss nicht\u002FKeine Angabe",
+      "name": "Weiss nicht",
       "turboThreshold": 0
     }
   ],
@@ -374,7 +394,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Altersgruppe 2015 sowie im Vergleich 2003 bis 2015 \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»"
+    "text": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -434,7 +454,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-19"
   },
   "legend": {
     "layout": "vertical",

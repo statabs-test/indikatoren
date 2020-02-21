@@ -6,92 +6,272 @@
       "legendIndex": 1,
       "data": [
         [
-          "Einkaufsmögl. im Kanton",
-          1056
+          "2015: ÖV-Angebot",
+          1035
         ],
         [
-          "Einkaufsmögl. am Wohnort",
-          1047
-        ],
-        [
-          "ÖV-Angebot",
+          "2019: ÖV-Angebot",
           1441
         ],
         [
-          "Kinderbetreuung",
-          297
+          " ",
+          null
         ],
         [
-          "Schulen, Bildung",
-          492
+          "2015: Einkaufsmögl. in Basel",
+          745
         ],
         [
-          "Quartierleben",
-          492
+          "2019: Einkaufsmögl. im Kanton",
+          1056
         ],
         [
-          "Parks, Grünanlagen",
-          987
+          "  ",
+          null
         ],
         [
-          "Gesundheitsversorgung",
-          1000
+          "2015: Abfallbeseitigung",
+          736
         ],
         [
-          "Wohnungsangebot",
-          347
-        ],
-        [
-          "Abfallbeseitigung",
+          "2019: Abfallbeseitigung",
           1141
         ],
         [
-          "Sauberkeit",
-          806
+          "   ",
+          null
         ],
         [
-          "Kulturangebot",
+          "2015: Einkaufsmögl. im Quartier",
+          700
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          1047
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          747
+        ],
+        [
+          "2019: Parks, Grünanlagen",
+          987
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          777
+        ],
+        [
+          "2019: Gesundheitsversorgung",
+          1000
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2015: Öffentliche Sicherheit",
+          317
+        ],
+        [
+          "2019: Öffentliche Sicherheit",
+          695
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          650
+        ],
+        [
+          "2019: Kulturangebot",
           796
         ],
         [
-          "Gebäude\u002FStrassenbild",
-          482
+          "        ",
+          null
         ],
         [
-          "Luftqualität",
-          515
+          "2015: Verkehrssicherheit",
+          367
         ],
         [
-          "Lärmsituation",
-          568
-        ],
-        [
-          "Arbeitsplätzangebot",
-          252
-        ],
-        [
-          "Senioreneinrichtungen",
-          362
-        ],
-        [
-          "Behinderteneinrichtungen",
-          269
-        ],
-        [
-          "Jugendeinrichtungen",
-          224
-        ],
-        [
-          "Zusammensetz. Bev.",
-          435
-        ],
-        [
-          "Verkehrssicherheit",
+          "2019: Verkehrssicherheit",
           585
         ],
         [
-          "Öffentliche Sicherheit",
-          695
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          428
+        ],
+        [
+          "2019: Sauberkeit",
+          806
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          346
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          482
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          282
+        ],
+        [
+          "2019: Luftqualität",
+          515
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          315
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          435
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          394
+        ],
+        [
+          "2019: Quartierleben",
+          492
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          441
+        ],
+        [
+          "2019: Lärmsituation",
+          568
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          276
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          362
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          388
+        ],
+        [
+          "2019: Schulen, Bildung",
+          492
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          152
+        ],
+        [
+          "2019: Wohnungsangebot",
+          347
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          156
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          252
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          188
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          269
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          149
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          224
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          179
+        ],
+        [
+          "2019: Kinderbetreuung",
+          297
+        ],
+        [
+          "                      ",
+          null
+        ],
+        [
+          "2015: Parkplätze",
+          115
         ]
       ],
       "name": "Sehr zufrieden",
@@ -103,92 +283,272 @@
       "legendIndex": 2,
       "data": [
         [
-          "Einkaufsmögl. im Kanton",
-          764
+          "2015: ÖV-Angebot",
+          397
         ],
         [
-          "Einkaufsmögl. am Wohnort",
-          739
-        ],
-        [
-          "ÖV-Angebot",
+          "2019: ÖV-Angebot",
           443
         ],
         [
-          "Kinderbetreuung",
-          365
+          " ",
+          null
         ],
         [
-          "Schulen, Bildung",
-          554
+          "2015: Einkaufsmögl. in Basel",
+          688
         ],
         [
-          "Quartierleben",
-          913
+          "2019: Einkaufsmögl. im Kanton",
+          764
         ],
         [
-          "Parks, Grünanlagen",
+          "  ",
+          null
+        ],
+        [
+          "2015: Abfallbeseitigung",
+          645
+        ],
+        [
+          "2019: Abfallbeseitigung",
+          676
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. im Quartier",
+          631
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          739
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          626
+        ],
+        [
+          "2019: Parks, Grünanlagen",
           775
         ],
         [
-          "Gesundheitsversorgung",
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          644
+        ],
+        [
+          "2019: Gesundheitsversorgung",
           748
         ],
         [
-          "Wohnungsangebot",
-          676
+          "      ",
+          null
         ],
         [
-          "Abfallbeseitigung",
-          676
+          "2015: Öffentliche Sicherheit",
+          831
         ],
         [
-          "Sauberkeit",
-          798
+          "2019: Öffentliche Sicherheit",
+          976
         ],
         [
-          "Kulturangebot",
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          693
+        ],
+        [
+          "2019: Kulturangebot",
           820
         ],
         [
-          "Gebäude\u002FStrassenbild",
-          1080
+          "        ",
+          null
         ],
         [
-          "Luftqualität",
-          942
+          "2015: Verkehrssicherheit",
+          922
         ],
         [
-          "Lärmsituation",
-          835
-        ],
-        [
-          "Arbeitsplätzangebot",
-          651
-        ],
-        [
-          "Senioreneinrichtungen",
-          700
-        ],
-        [
-          "Behinderteneinrichtungen",
-          536
-        ],
-        [
-          "Jugendeinrichtungen",
-          548
-        ],
-        [
-          "Zusammensetz. Bev.",
-          1005
-        ],
-        [
-          "Verkehrssicherheit",
+          "2019: Verkehrssicherheit",
           1021
         ],
         [
-          "Öffentliche Sicherheit",
-          976
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          698
+        ],
+        [
+          "2019: Sauberkeit",
+          798
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          904
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          1080
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          930
+        ],
+        [
+          "2019: Luftqualität",
+          942
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          885
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          1005
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          829
+        ],
+        [
+          "2019: Quartierleben",
+          913
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          750
+        ],
+        [
+          "2019: Lärmsituation",
+          835
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          802
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          700
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          579
+        ],
+        [
+          "2019: Schulen, Bildung",
+          554
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          551
+        ],
+        [
+          "2019: Wohnungsangebot",
+          676
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          643
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          651
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          658
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          536
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          662
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          548
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          348
+        ],
+        [
+          "2019: Kinderbetreuung",
+          365
+        ],
+        [
+          "                      ",
+          null
+        ],
+        [
+          "2015: Parkplätze",
+          380
         ]
       ],
       "name": "Eher zufrieden",
@@ -200,92 +560,272 @@
       "legendIndex": 3,
       "data": [
         [
-          "Einkaufsmögl. im Kanton",
-          98
+          "2015: ÖV-Angebot",
+          53
         ],
         [
-          "Einkaufsmögl. am Wohnort",
-          170
-        ],
-        [
-          "ÖV-Angebot",
+          "2019: ÖV-Angebot",
           63
         ],
         [
-          "Kinderbetreuung",
-          135
+          " ",
+          null
         ],
         [
-          "Schulen, Bildung",
-          99
+          "2015: Einkaufsmögl. in Basel",
+          48
         ],
         [
-          "Quartierleben",
-          197
+          "2019: Einkaufsmögl. im Kanton",
+          98
         ],
         [
-          "Parks, Grünanlagen",
-          171
+          "  ",
+          null
         ],
         [
-          "Gesundheitsversorgung",
-          109
+          "2015: Abfallbeseitigung",
+          87
         ],
         [
-          "Wohnungsangebot",
-          417
-        ],
-        [
-          "Abfallbeseitigung",
+          "2019: Abfallbeseitigung",
           118
         ],
         [
-          "Sauberkeit",
-          281
+          "   ",
+          null
         ],
         [
-          "Kulturangebot",
+          "2015: Einkaufsmögl. im Quartier",
+          152
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          170
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          110
+        ],
+        [
+          "2019: Parks, Grünanlagen",
+          171
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          44
+        ],
+        [
+          "2019: Gesundheitsversorgung",
+          109
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2015: Öffentliche Sicherheit",
+          287
+        ],
+        [
+          "2019: Öffentliche Sicherheit",
+          216
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          69
+        ],
+        [
+          "2019: Kulturangebot",
           136
         ],
         [
-          "Gebäude\u002FStrassenbild",
-          273
+          "        ",
+          null
         ],
         [
-          "Luftqualität",
-          366
+          "2015: Verkehrssicherheit",
+          173
         ],
         [
-          "Lärmsituation",
-          383
-        ],
-        [
-          "Arbeitsplätzangebot",
-          221
-        ],
-        [
-          "Senioreneinrichtungen",
-          122
-        ],
-        [
-          "Behinderteneinrichtungen",
-          139
-        ],
-        [
-          "Jugendeinrichtungen",
-          178
-        ],
-        [
-          "Zusammensetz. Bev.",
-          191
-        ],
-        [
-          "Verkehrssicherheit",
+          "2019: Verkehrssicherheit",
           293
         ],
         [
-          "Öffentliche Sicherheit",
-          216
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          319
+        ],
+        [
+          "2019: Sauberkeit",
+          281
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          181
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          273
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          220
+        ],
+        [
+          "2019: Luftqualität",
+          366
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          156
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          191
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          114
+        ],
+        [
+          "2019: Quartierleben",
+          197
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          235
+        ],
+        [
+          "2019: Lärmsituation",
+          383
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          109
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          122
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          98
+        ],
+        [
+          "2019: Schulen, Bildung",
+          99
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          401
+        ],
+        [
+          "2019: Wohnungsangebot",
+          417
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          205
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          221
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          189
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          139
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          262
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          178
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          70
+        ],
+        [
+          "2019: Kinderbetreuung",
+          135
+        ],
+        [
+          "                      ",
+          null
+        ],
+        [
+          "2015: Parkplätze",
+          299
         ]
       ],
       "name": "Eher unzufrieden",
@@ -297,92 +837,272 @@
       "legendIndex": 4,
       "data": [
         [
-          "Einkaufsmögl. im Kanton",
-          12
+          "2015: ÖV-Angebot",
+          4
         ],
         [
-          "Einkaufsmögl. am Wohnort",
-          33
-        ],
-        [
-          "ÖV-Angebot",
+          "2019: ÖV-Angebot",
           11
         ],
         [
-          "Kinderbetreuung",
-          37
+          " ",
+          null
         ],
         [
-          "Schulen, Bildung",
-          28
+          "2015: Einkaufsmögl. in Basel",
+          2
         ],
         [
-          "Quartierleben",
-          24
+          "2019: Einkaufsmögl. im Kanton",
+          12
         ],
         [
-          "Parks, Grünanlagen",
-          26
+          "  ",
+          null
         ],
         [
-          "Gesundheitsversorgung",
-          19
-        ],
-        [
-          "Wohnungsangebot",
-          123
-        ],
-        [
-          "Abfallbeseitigung",
-          36
-        ],
-        [
-          "Sauberkeit",
-          80
-        ],
-        [
-          "Kulturangebot",
-          16
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          43
-        ],
-        [
-          "Luftqualität",
-          81
-        ],
-        [
-          "Lärmsituation",
-          146
-        ],
-        [
-          "Arbeitsplätzangebot",
-          65
-        ],
-        [
-          "Senioreneinrichtungen",
-          20
-        ],
-        [
-          "Behinderteneinrichtungen",
+          "2015: Abfallbeseitigung",
           29
         ],
         [
-          "Jugendeinrichtungen",
+          "2019: Abfallbeseitigung",
+          36
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. im Quartier",
+          17
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
           33
         ],
         [
-          "Zusammensetz. Bev.",
-          50
+          "    ",
+          null
         ],
         [
-          "Verkehrssicherheit",
+          "2015: Grünanlagen",
+          14
+        ],
+        [
+          "2019: Parks, Grünanlagen",
+          26
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          6
+        ],
+        [
+          "2019: Gesundheitsversorgung",
+          19
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2015: Öffentliche Sicherheit",
+          53
+        ],
+        [
+          "2019: Öffentliche Sicherheit",
+          66
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          6
+        ],
+        [
+          "2019: Kulturangebot",
+          16
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2015: Verkehrssicherheit",
+          23
+        ],
+        [
+          "2019: Verkehrssicherheit",
           48
         ],
         [
-          "Öffentliche Sicherheit",
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          53
+        ],
+        [
+          "2019: Sauberkeit",
+          80
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          22
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          43
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          36
+        ],
+        [
+          "2019: Luftqualität",
+          81
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          20
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          50
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          10
+        ],
+        [
+          "2019: Quartierleben",
+          24
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
           66
+        ],
+        [
+          "2019: Lärmsituation",
+          146
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          7
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          20
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          11
+        ],
+        [
+          "2019: Schulen, Bildung",
+          28
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          80
+        ],
+        [
+          "2019: Wohnungsangebot",
+          123
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          28
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          65
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          15
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          29
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          16
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          33
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          7
+        ],
+        [
+          "2019: Kinderbetreuung",
+          37
+        ],
+        [
+          "                      ",
+          null
+        ],
+        [
+          "2015: Parkplätze",
+          230
         ]
       ],
       "name": "Ganz unzufrieden",
@@ -394,92 +1114,272 @@
       "legendIndex": 5,
       "data": [
         [
-          "Einkaufsmögl. im Kanton",
-          31
+          "2015: ÖV-Angebot",
+          null
         ],
         [
-          "Einkaufsmögl. am Wohnort",
-          8
-        ],
-        [
-          "ÖV-Angebot",
+          "2019: ÖV-Angebot",
           11
         ],
         [
-          "Kinderbetreuung",
-          761
+          " ",
+          null
         ],
         [
-          "Schulen, Bildung",
-          529
+          "2015: Einkaufsmögl. in Basel",
+          null
         ],
         [
-          "Quartierleben",
-          253
+          "2019: Einkaufsmögl. im Kanton",
+          31
         ],
         [
-          "Parks, Grünanlagen",
+          "  ",
+          null
+        ],
+        [
+          "2015: Abfallbeseitigung",
+          null
+        ],
+        [
+          "2019: Abfallbeseitigung",
+          5
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. im Quartier",
+          null
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          8
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          null
+        ],
+        [
+          "2019: Parks, Grünanlagen",
           9
         ],
         [
-          "Gesundheitsversorgung",
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          null
+        ],
+        [
+          "2019: Gesundheitsversorgung",
           85
         ],
         [
-          "Wohnungsangebot",
-          290
+          "      ",
+          null
         ],
         [
-          "Abfallbeseitigung",
-          5
+          "2015: Öffentliche Sicherheit",
+          null
         ],
         [
-          "Sauberkeit",
-          5
+          "2019: Öffentliche Sicherheit",
+          26
         ],
         [
-          "Kulturangebot",
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          null
+        ],
+        [
+          "2019: Kulturangebot",
           148
         ],
         [
-          "Gebäude\u002FStrassenbild",
-          74
+          "        ",
+          null
         ],
         [
-          "Luftqualität",
-          67
+          "2015: Verkehrssicherheit",
+          null
         ],
         [
-          "Lärmsituation",
-          14
-        ],
-        [
-          "Arbeitsplätzangebot",
-          568
-        ],
-        [
-          "Senioreneinrichtungen",
-          690
-        ],
-        [
-          "Behinderteneinrichtungen",
-          863
-        ],
-        [
-          "Jugendeinrichtungen",
-          784
-        ],
-        [
-          "Zusammensetz. Bev.",
-          209
-        ],
-        [
-          "Verkehrssicherheit",
+          "2019: Verkehrssicherheit",
           15
         ],
         [
-          "Öffentliche Sicherheit",
-          26
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          null
+        ],
+        [
+          "2019: Sauberkeit",
+          5
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          null
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          74
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          null
+        ],
+        [
+          "2019: Luftqualität",
+          67
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          null
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          209
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          null
+        ],
+        [
+          "2019: Quartierleben",
+          253
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          null
+        ],
+        [
+          "2019: Lärmsituation",
+          14
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          null
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          690
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          null
+        ],
+        [
+          "2019: Schulen, Bildung",
+          529
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          null
+        ],
+        [
+          "2019: Wohnungsangebot",
+          290
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          null
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          568
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          null
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          863
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          null
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          784
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          null
+        ],
+        [
+          "2019: Kinderbetreuung",
+          761
+        ],
+        [
+          "                      ",
+          null
+        ],
+        [
+          "2015: Parkplätze",
+          null
         ]
       ],
       "name": "Weiss nicht",
@@ -491,92 +1391,272 @@
       "legendIndex": 6,
       "data": [
         [
-          "Einkaufsmögl. im Kanton",
-          70
+          "2015: ÖV-Angebot",
+          13
         ],
         [
-          "Einkaufsmögl. am Wohnort",
-          67
-        ],
-        [
-          "ÖV-Angebot",
+          "2019: ÖV-Angebot",
           75
         ],
         [
-          "Kinderbetreuung",
-          80
+          " ",
+          null
         ],
         [
-          "Schulen, Bildung",
-          85
+          "2015: Einkaufsmögl. in Basel",
+          15
         ],
         [
-          "Quartierleben",
-          96
+          "2019: Einkaufsmögl. im Kanton",
+          70
         ],
         [
-          "Parks, Grünanlagen",
+          "  ",
+          null
+        ],
+        [
+          "2015: Abfallbeseitigung",
+          5
+        ],
+        [
+          "2019: Abfallbeseitigung",
+          87
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. im Quartier",
+          3
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          67
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          7
+        ],
+        [
+          "2019: Parks, Grünanlagen",
           84
         ],
         [
-          "Gesundheitsversorgung",
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          32
+        ],
+        [
+          "2019: Gesundheitsversorgung",
           79
         ],
         [
-          "Wohnungsangebot",
-          87
+          "      ",
+          null
         ],
         [
-          "Abfallbeseitigung",
-          87
+          "2015: Öffentliche Sicherheit",
+          12
         ],
         [
-          "Sauberkeit",
-          92
+          "2019: Öffentliche Sicherheit",
+          78
         ],
         [
-          "Kulturangebot",
-          92
+          "       ",
+          null
         ],
         [
-          "Gebäude\u002FStrassenbild",
-          90
-        ],
-        [
-          "Luftqualität",
-          82
-        ],
-        [
-          "Lärmsituation",
-          91
-        ],
-        [
-          "Arbeitsplätzangebot",
-          101
-        ],
-        [
-          "Senioreneinrichtungen",
+          "2015: Kulturangebot",
           77
         ],
         [
-          "Behinderteneinrichtungen",
-          86
+          "2019: Kulturangebot",
+          92
         ],
         [
-          "Jugendeinrichtungen",
-          88
+          "        ",
+          null
         ],
         [
-          "Zusammensetz. Bev.",
-          81
+          "2015: Verkehrssicherheit",
+          16
         ],
         [
-          "Verkehrssicherheit",
+          "2019: Verkehrssicherheit",
           85
         ],
         [
-          "Öffentliche Sicherheit",
-          78
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          6
+        ],
+        [
+          "2019: Sauberkeit",
+          92
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          36
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          90
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          37
+        ],
+        [
+          "2019: Luftqualität",
+          82
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          82
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          81
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          136
+        ],
+        [
+          "2019: Quartierleben",
+          96
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          5
+        ],
+        [
+          "2019: Lärmsituation",
+          91
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          291
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          77
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          263
+        ],
+        [
+          "2019: Schulen, Bildung",
+          85
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          202
+        ],
+        [
+          "2019: Wohnungsangebot",
+          87
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          351
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          101
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          427
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          86
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          381
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          88
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          431
+        ],
+        [
+          "2019: Kinderbetreuung",
+          80
+        ],
+        [
+          "                      ",
+          null
+        ],
+        [
+          "2015: Parkplätze",
+          378
         ]
       ],
       "name": "Keine Angaben",
@@ -602,23 +1682,33 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' :  'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    var txt = this.value
+                        .replace("mögl.", "m.")
+                        .replace("im ", "")
+                        .replace("am ", "")
+                        .replace("in ", "")
+                        .replace("versorgung", "vers.");
+
+                    //check for value that contains only spaces
+                    return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
+                },
       "align": "left",
       "x": -190
-    }
+    },
+    "min": 0,
+    "max": 31
   },
   "chart": {
     "events": {
@@ -688,10 +1778,9 @@
         }
       },
       "stacking": "percent",
-      "pointPadding": 0.1,
-      "groupPadding": 0,
-      "shadow": false,
-      "pointWidth": 10
+      "pointPadding": 0.05,
+      "groupPadding": 0.01,
+      "shadow": false
     }
   },
   "yAxis": {
