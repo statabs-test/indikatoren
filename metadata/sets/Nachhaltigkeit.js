@@ -1777,7 +1777,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
-		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
 		"kuerzel": "I.50.1.06040",
 		"kuerzelKunde": "GZ8.1",
 		"description": "Freiwillige Tätigkeit",
@@ -1793,8 +1793,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben.",
-		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
+		"lesehilfe": "35,2% der Befragten gaben 2019 an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben. Damals lag dieser Anteil bei 41,0%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1803,14 +1803,14 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"data-id": 6040,
-		"chart-id": 6040,
+		"data-id": 4864,
+		"chart-id": 4864,
 		"filter": "",
 		"id": 6040
 	},
@@ -3141,5 +3141,44 @@ var indikatorensetData = [
 		"chart-id": 8461,
 		"filter": "",
 		"id": 8461
+	},
+	{
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
+		"kuerzel": "I.50.1.08852",
+		"kuerzelKunde": "",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-02-21T13:38:20.2020",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2019 hatten die befragten Personen die Gelegenheit, 22 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit dem öffentlichen Verkehr gefolgt von der generellen Vielfalt der Einkaufsmöglichkeiten in Base und der Abfallbeseitigung.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8852,
+		"chart-id": 8852,
+		"filter": "",
+		"id": 8852
 	}
 ];

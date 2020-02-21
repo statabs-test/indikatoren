@@ -6,7 +6,7 @@
             groupPadding: 0,
             borderWidth: 0,
             shadow: false,
-            pointWidth: 10,
+            pointWidth: 20,
         }
 	},
     "yAxis":{
