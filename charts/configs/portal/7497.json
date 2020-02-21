@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Branche Personalvermittlung und \u003Cbr\u002F\u003E-überlassung"
+    "text": "Monatlicher Bruttomedianlohn in der Branche Personalvermittlung und ‑überlassung"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {

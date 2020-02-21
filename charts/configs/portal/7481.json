@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn im Detailhandel"
+    "text": "Monatlicher Bruttomedianlohn im Detailhandel"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
