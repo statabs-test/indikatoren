@@ -46,7 +46,13 @@
         "fontWeight": ["bold", "normal", "bold"]
       },
       labelFormatter: function () {
-        return this.name.replace(' Mädchen', '').replace(' Knaben', '').replace('Knaben', '<b>Knaben</b>').replace('Mädchen', '<b>Mädchen</b>');
+        return this.name
+        .replace(' Mädchen', '')
+        .replace(' Knaben', '')
+        .replace('11. Stufe ', '')
+        .replace('CH', 'Schweiz')
+        .replace('Knaben', '<b>Knaben</b>')
+        .replace('Mädchen', '<b>Mädchen</b>');
       }
     },
     "data": {
