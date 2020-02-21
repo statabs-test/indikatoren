@@ -10,4 +10,19 @@ Gesundheitsversorgung	1000	748	109	19	85	79
 Wohnungsangebot	347	676	417	123	290	87
 Abfallbeseitigung	1141	676	118	36	5	87
 Sauberkeit	806	798	281	80	5	92
+<<<<<<< HEAD
+=======
+Kulturangebot	796	820	136	16	148	92
+Gebäude/Strassenbild	482	1080	273	43	74	90
+Luftqualität	515	942	366	81	67	82
+Lärmsituation	568	835	383	146	14	91
+Arbeitsplätzangebot	252	651	221	65	568	101
+Senioreneinrichtungen	362	700	122	20	690	77
+Behinderteneinrichtungen	269	536	139	29	863	86
+Jugendeinrichtungen	224	548	178	33	784	88
+Zusammensetz. Bev.	435	1005	191	50	209	81
+Verkehrssicherheit	585	1021	293	48	15	85
+Öffentliche Sicherheit	695	976	216	66	26	78
+
+>>>>>>> 28ff172d321e12a52681db847d6253c959fc1955
 

@@ -6,7 +6,7 @@
             groupPadding: 0,
             borderWidth: 0,
             shadow: false,
-            pointWidth: 10,
+            pointWidth: 20,
         }
 	},
     "yAxis":{
@@ -38,7 +38,8 @@
         {"color": "#73B97C", index: 4, legendIndex: 2}, /*hellgrün*/
         {"color": "#FABD24", index: 3, legendIndex: 3}, /*hellrot*/
         {"color": "#CD9C00", index: 2, legendIndex: 4}, /*dunkelrot*/
-        {"color": "#C8C8C8", index: 1, legendIndex: 5} /*grau*/
+        {"color": "#C8C8C8", index: 1, legendIndex: 5},
+        {"color": "#6F6F6F", index: 0, legendIndex: 6},
     ],
     "legend": {
         "layout": "horizontal",

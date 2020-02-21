@@ -1,65 +1,30 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#083008",
       "data": [
         [
           "2003",
-          827
-        ],
-        [
-          "2005",
-          845
+          19
         ],
         [
           "2007",
-          756
+          5
         ],
         [
           "2011",
-          730
+          13
         ],
         [
           "2015",
-          635
+          19
         ],
         [
           "2019",
-          1255
+          25
         ]
       ],
-      "name": "Sehr sicher",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#A8C3CA",
-      "data": [
-        [
-          "2003",
-          577
-        ],
-        [
-          "2005",
-          584
-        ],
-        [
-          "2007",
-          668
-        ],
-        [
-          "2011",
-          677
-        ],
-        [
-          "2015",
-          738
-        ],
-        [
-          "2019",
-          745
-        ]
-      ],
-      "name": "Eher sicher",
+      "name": "Erhöhern",
       "turboThreshold": 0
     },
     {
@@ -67,92 +32,53 @@
       "data": [
         [
           "2003",
-          79
-        ],
-        [
-          "2005",
-          70
+          873
         ],
         [
           "2007",
-          75
+          1052
         ],
         [
           "2011",
-          94
+          764
         ],
         [
           "2015",
-          115
+          558
         ],
         [
           "2019",
-          65
+          1047
         ]
       ],
-      "name": "Eher unsicher",
+      "name": "Senken",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#689199",
       "data": [
         [
           "2003",
-          9
-        ],
-        [
-          "2005",
-          10
+          605
         ],
         [
           "2007",
-          7
+          452
         ],
         [
           "2011",
-          14
+          692
         ],
         [
           "2015",
-          15
+          850
         ],
         [
           "2019",
-          16
+          779
         ]
       ],
-      "name": "Ganz unsicher",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D3E2E4",
-      "data": [
-        [
-          "2003",
-          0
-        ],
-        [
-          "2005",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
-        [
-          "2011",
-          0
-        ],
-        [
-          "2015",
-          0
-        ],
-        [
-          "2019",
-          1
-        ]
-      ],
-      "name": "Trifft auf mich nicht zu",
+      "name": "Beibehalten",
       "turboThreshold": 0
     },
     {
@@ -160,27 +86,23 @@
       "data": [
         [
           "2003",
-          5
-        ],
-        [
-          "2005",
-          1
+          0
         ],
         [
           "2007",
-          3
+          0
         ],
         [
           "2011",
-          1
+          45
         ],
         [
           "2015",
-          3
+          77
         ],
         [
           "2019",
-          3
+          172
         ]
       ],
       "name": "Weiss nicht",
@@ -194,24 +116,20 @@
           0
         ],
         [
-          "2005",
-          0
-        ],
-        [
           "2007",
           0
         ],
         [
           "2011",
-          0
+          2
         ],
         [
           "2015",
-          0
+          2
         ],
         [
           "2019",
-          23
+          85
         ]
       ],
       "name": "Keine Angabe",
@@ -284,7 +202,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-6035",
+    "renderTo": "container-8449",
     "spacingBottom": 40
   },
   "title": {
@@ -294,7 +212,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsgefühl im Alltag"
+    "text": "Zufriedenheit mit Höhe der Steuern"
   },
   "subtitle": {
     "style": {
@@ -302,7 +220,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»"
+    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -360,7 +278,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-6"
   },
   "legend": {
     "layout": "vertical",
@@ -379,6 +297,6 @@
     "reversed": true
   },
   "exporting": {
-    "filename": 6035
+    "filename": 8449
   }
 }

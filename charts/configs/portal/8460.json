@@ -1,65 +1,57 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#007A2F",
       "data": [
         [
           "2003",
-          827
-        ],
-        [
-          "2005",
-          845
+          314
         ],
         [
           "2007",
-          756
+          151
         ],
         [
           "2011",
-          730
+          318
         ],
         [
           "2015",
-          635
+          313
         ],
         [
           "2019",
-          1255
+          376
         ]
       ],
-      "name": "Sehr sicher",
+      "name": "Sehr gut",
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#73B97C",
       "data": [
         [
           "2003",
-          577
-        ],
-        [
-          "2005",
-          584
+          926
         ],
         [
           "2007",
-          668
+          499
         ],
         [
           "2011",
-          677
+          562
         ],
         [
           "2015",
-          738
+          585
         ],
         [
           "2019",
-          745
+          1243
         ]
       ],
-      "name": "Eher sicher",
+      "name": "Eher gut",
       "turboThreshold": 0
     },
     {
@@ -67,30 +59,26 @@
       "data": [
         [
           "2003",
-          79
-        ],
-        [
-          "2005",
-          70
+          212
         ],
         [
           "2007",
-          75
+          98
         ],
         [
           "2011",
-          94
+          97
         ],
         [
           "2015",
-          115
+          87
         ],
         [
           "2019",
-          65
+          293
         ]
       ],
-      "name": "Eher unsicher",
+      "name": "Eher nicht gut",
       "turboThreshold": 0
     },
     {
@@ -98,61 +86,26 @@
       "data": [
         [
           "2003",
-          9
-        ],
-        [
-          "2005",
-          10
+          31
         ],
         [
           "2007",
-          7
+          12
         ],
         [
           "2011",
-          14
+          29
         ],
         [
           "2015",
-          15
+          11
         ],
         [
           "2019",
-          16
+          66
         ]
       ],
-      "name": "Ganz unsicher",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D3E2E4",
-      "data": [
-        [
-          "2003",
-          0
-        ],
-        [
-          "2005",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
-        [
-          "2011",
-          0
-        ],
-        [
-          "2015",
-          0
-        ],
-        [
-          "2019",
-          1
-        ]
-      ],
-      "name": "Trifft auf mich nicht zu",
+      "name": "Gar nicht gut",
       "turboThreshold": 0
     },
     {
@@ -160,27 +113,23 @@
       "data": [
         [
           "2003",
-          5
-        ],
-        [
-          "2005",
-          1
+          14
         ],
         [
           "2007",
-          3
+          2
         ],
         [
           "2011",
-          1
+          2
         ],
         [
           "2015",
-          3
+          5
         ],
         [
           "2019",
-          3
+          45
         ]
       ],
       "name": "Weiss nicht",
@@ -194,16 +143,12 @@
           0
         ],
         [
-          "2005",
-          0
-        ],
-        [
           "2007",
           0
         ],
         [
           "2011",
-          0
+          1
         ],
         [
           "2015",
@@ -211,7 +156,7 @@
         ],
         [
           "2019",
-          23
+          85
         ]
       ],
       "name": "Keine Angabe",
@@ -284,7 +229,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-6035",
+    "renderTo": "container-8460",
     "spacingBottom": 40
   },
   "title": {
@@ -294,7 +239,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsgefühl im Alltag"
+    "text": "Selbsteinschätzung der wirtschaftlichen Stellung"
   },
   "subtitle": {
     "style": {
@@ -302,7 +247,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»"
+    "text": "«Wie geht es Ihnen im Moment wirtschaftlich?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -360,7 +305,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
   },
   "legend": {
     "layout": "vertical",
@@ -379,6 +324,6 @@
     "reversed": true
   },
   "exporting": {
-    "filename": 6035
+    "filename": 8460
   }
 }
