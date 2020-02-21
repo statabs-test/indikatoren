@@ -7932,6 +7932,46 @@ var indikatoren = [
 		"id": 5186
 	},
 	{
+		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
+		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
+		"kuerzel": "I.50.1.5192",
+		"kuerzelKunde": "",
+		"description": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "22,0% der Befragten gaben 2019 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 17,4% haben mehrere Kurse besucht. 57,7% gaben an, keinen Kurs besucht zu haben.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_05_00_00_00_314",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 5192,
+		"chart-id": 5192,
+		"filter": "",
+		"id": 5192
+	},
+	{
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2015 = 100)",
 		"kuerzel": "I.09.3.5196",
