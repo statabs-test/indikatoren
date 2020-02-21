@@ -7842,25 +7842,26 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-31T16:19:37.3737",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
-		"stufe2": "1.2 Vertrauen in Mitmenschen",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56% und die Sicherheit insgesamte bei 95% lag.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_000",
+		"orderKey": "01_02_00_00_00_021",
 		"parentId": null,
 		"children": [
-			"6035"
+			"6035",
+			"8391"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -7909,7 +7910,7 @@ var indikatoren = [
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
-		"kuerzel": "I.50.1.04854",
+		"kuerzel": "I.50.1.4854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
 		"thema": "50 Befragungen",
@@ -7919,27 +7920,35 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T17:21:03.033",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
-		"stufe2": "1.2 Vertrauen in Mitmenschen",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 wurde die Sicherheit nachts draussen im Vergleich zu den Vorjahren kritischer bewertet: 62,4% fühlten sich nachts im Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlten, ging im selben Zeitraum von 28,8% auf 24,5% zurück und seit 2003 um insgesamt mehr als 9 Prozentpunkte.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich des Nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_000",
+		"orderKey": "01_02_00_00_00_023",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8393",
+			"8456"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4854,
-		"darstellungsart": "Grafik"
+		"data-id": 4854,
+		"chart-id": 4854,
+		"filter": "",
+		"id": 4854
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
@@ -8270,8 +8279,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
-		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
-		"kuerzel": "I.50.1.04864",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
+		"kuerzel": "I.50.1.4864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
 		"thema": "50 Befragungen",
@@ -8280,28 +8289,36 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der Freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben.",
-		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
-		"template": "befragungenProzent001",
+		"lesehilfe": "35,2% der Befragten gaben 2019 an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben. Damals lag dieser Anteil bei 41,0%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_000",
+		"orderKey": "03_01_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6040",
+			"8403"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4864,
-		"darstellungsart": "Grafik"
+		"data-id": 4864,
+		"chart-id": 4864,
+		"filter": "",
+		"id": 4864
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -10632,7 +10649,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.5178",
 		"kuerzelKunde": "GW2",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -10648,8 +10665,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
-		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
+		"lesehilfe": "2019 hatten die befragten Personen die Gelegenheit, 22 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit dem öffentlichen Verkehr gefolgt von der generellen Vielfalt der Einkaufsmöglichkeiten in Base und der Abfallbeseitigung.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10663,7 +10680,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -13137,8 +13154,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56% und die Sicherheit insgesamte bei 95% lag.",
-		"erlaeuterungen": "",
+		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13148,14 +13165,14 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"data-id": 6035,
-		"chart-id": 6035,
+		"data-id": 4852,
+		"chart-id": 4852,
 		"filter": "",
 		"id": 6035
 	},
@@ -45404,7 +45421,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit Höhe der Steuern",
-		"subtitle": "",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?»",
 		"kuerzel": "I.50.1.08449",
 		"kuerzelKunde": "SH4",
 		"description": "Zufriedenheit mit Höhe der Steuern",
@@ -45420,9 +45437,9 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"lesehilfe": "2019 sprechen sich 49,7% für eine Senkung der Steuern aus. Deutlich mehr als 2015 (37,1%). 37,0% sind für das Beibehalten des aktuellen Steuerniveaus und 1,2% für eine Erhöhung.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -45430,7 +45447,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -45618,9 +45637,9 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 wurde die Sicherheit nachts draussen im Vergleich zu den Vorjahren kritischer bewertet: 62,4% fühlten sich nachts im Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlten, ging im selben Zeitraum von 28,8% auf 24,5% zurück und seit 2003 um insgesamt mehr als 9 Prozentpunkte.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich des Nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -45762,7 +45781,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Selbsteinschätzung der wirtschaftlichen Stellung",
-		"subtitle": "",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?»",
 		"kuerzel": "I.50.1.08460",
 		"kuerzelKunde": "WE12",
 		"description": "Selbsteinschätzung der wirtschaftlichen Stellung",
@@ -45778,9 +45797,9 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"lesehilfe": "17,8% der 2019 Befragten schätzen ihre wirtschaftliche Situation als sehr gut ein. 2015 lag dieser Anteil bei 31,3%. Der Anteil Personen, die ihre Sitaution als eher oder gar nicht gut einschätzen liegt bei 17,0% (2015: 9,8%).",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel­Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Bis 2015 wurde diese Frage einem Drittel der Befragten nicht gestellt.",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -45788,7 +45807,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
