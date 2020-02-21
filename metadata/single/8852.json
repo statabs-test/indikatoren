@@ -1,4 +1,4 @@
-{"title":"Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+﻿{"title":"Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 "subtitle":"«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
 "kuerzel":"I.50.1.08852",
 "kuerzelKunde":"",
@@ -29,6 +29,6 @@
 "datenInChartIntegriert":false,
 "externalLinks":[""],
 "data-id":8852, 
-"chart-id":5178, 
+"chart-id":8852, 
 "filter":""
 }
