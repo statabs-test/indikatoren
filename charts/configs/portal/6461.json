@@ -147,19 +147,19 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.244
+          0.248
         ],
         [
           "Chemie, Pharma",
-          0.318
+          0.316
         ],
         [
           "Baugewerbe",
-          0.203
+          0.205
         ],
         [
           "Handel, Reparatur",
-          0.181
+          0.18
         ],
         [
           "Verkehr, Lagerei",
@@ -171,7 +171,7 @@
         ],
         [
           "Information, Kommunikation",
-          0.302
+          0.305
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -183,15 +183,15 @@
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.285
+          0.304
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.288
+          0.286
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          0.093
+          0.092
         ],
         [
           "Erziehung, Unterricht",
@@ -207,7 +207,7 @@
         ],
         [
           "Total",
-          0.177
+          0.178
         ]
       ],
       "name": "2019",
