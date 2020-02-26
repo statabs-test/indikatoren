@@ -2364,7 +2364,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt von den 151 198 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 36% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 23% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen.",
-		"template": "befragungen001_print",
+		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_202",
