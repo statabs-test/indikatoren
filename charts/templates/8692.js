@@ -87,10 +87,10 @@
     },
 },
  "series": [
-  {"color": "#007A2F", "index": 0, "legendIndex":3}, /**/
-  {"color": "#083038", "index": 1, "legendIndex":2}, /**/
-  {"color": "#923F8D", "index": 2, "legendIndex":1}, /**/
-  {"color": "#FABD24", "index": 3, "legendIndex":0}, /**/
+  {"color": "#083038", "index": 3, "legendIndex":0}, /**/
+  {"color": "#007A2F", "index": 2, "legendIndex":1}, /**/
+  {"color": "#923F8D", "index": 1, "legendIndex":2}, /**/
+  {"color": "#FABD24", "index": 0, "legendIndex":3}, /**/
   //{"color": "#999999", "index": 4, "legendIndex":1}, /**/
   //{"color": "#008AC3", "index": 5, "legendIndex":0}, /**/
         {
