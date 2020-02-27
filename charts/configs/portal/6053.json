@@ -110,6 +110,10 @@
         [
           2018,
           0.032516
+        ],
+        [
+          2019,
+          0.029783
         ]
       ],
       "name": "Total"
@@ -225,6 +229,10 @@
         [
           2018,
           0.038518
+        ],
+        [
+          2019,
+          0.032398
         ]
       ],
       "name": "15-24 Jahre"
@@ -340,6 +348,10 @@
         [
           2018,
           0.025099
+        ],
+        [
+          2019,
+          0.025129
         ]
       ],
       "name": "50 Jahre und mehr"
@@ -431,7 +443,33 @@
       "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositioner": function() {
+          var positions = [],
+          ext = this.getExtremes(),
+          xMax = Math.round(ext.max),
+          xMin = Math.round(ext.min)+1;
+          var xMin_even=Math.round(ext.min);
+          
+      
+          if(xMax % 2 == 1) {
+      
+          for (var i = xMin; i < xMax; i++) {
+            if (i % 2 == 1) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        } else if (xMax % 2 == 0){
+          for (var i = xMin_even; i < xMax; i++) {
+            if (i % 2 == 0) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        }    
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
