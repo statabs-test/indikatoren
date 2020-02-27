@@ -88,9 +88,9 @@
 },
  "series": [
   {"color": "#083038", "index": 3, "legendIndex":0}, /**/
-  {"color": "#007A2F", "index": 2, "legendIndex":1}, /**/
-  {"color": "#923F8D", "index": 1, "legendIndex":2}, /**/
-  {"color": "#FABD24", "index": 0, "legendIndex":3}, /**/
+  {"color": "#A8C3CA", "index": 2, "legendIndex":1}, /**/
+  {"color": "#689199", "index": 1, "legendIndex":2}, /**/
+  {"color": "#ffda80", "index": 0, "legendIndex":3}, /**/
   //{"color": "#999999", "index": 4, "legendIndex":1}, /**/
   //{"color": "#008AC3", "index": 5, "legendIndex":0}, /**/
         {
