@@ -337,7 +337,7 @@
         ],
         [
           "2019-04",
-          null
+          58
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -623,6 +623,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickInterval": 5,
       "opposite": true
     }
