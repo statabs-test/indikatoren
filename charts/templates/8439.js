@@ -48,7 +48,7 @@
 	 {"color": "#E7CEE2", "index": 2},  /*hellpink */
   ],
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>',
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}% von {point.total:,.0f})<br/>',
 },
   "chart": {
   	type: "column",
