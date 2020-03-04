@@ -249,7 +249,10 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2,
+      "groupPadding": 0.05,
+      "pointPadding": 0
     },
     "arearange": {
       "lineWidth": 0,

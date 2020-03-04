@@ -257,7 +257,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -281,7 +282,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Carbotech AG",
+    "text": "Quelle: Bundesamt für Umwelt (BAFU)",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",

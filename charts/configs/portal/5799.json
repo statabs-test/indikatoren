@@ -181,10 +181,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 21,
+    "ceiling": 22,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -264,7 +265,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -376,7 +378,8 @@
         22,
         27.2,
         27.1,
-        27.4
+        27.4,
+        40.4
       ],
       "visible": true
     }

@@ -170,10 +170,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 9,
+    "ceiling": 10,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -253,7 +254,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -353,6 +355,7 @@
         14.33,
         6.83,
         0,
+        0,
         0
       ],
       "visible": true
@@ -377,6 +380,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "visible": true
@@ -392,6 +396,7 @@
       "id": "BS0704_3",
       "valueSuffix": "Tausend CHF",
       "data": [
+        0,
         0,
         0,
         0,
@@ -425,6 +430,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "visible": true
@@ -449,7 +455,8 @@
         57.74,
         57.74,
         78.13,
-        48
+        48,
+        15.52
       ],
       "visible": true
     },
@@ -473,7 +480,8 @@
         648.67,
         648.67,
         796.25,
-        3431
+        3431,
+        2952.68
       ],
       "visible": true
     },
@@ -497,7 +505,8 @@
         0,
         0,
         0,
-        0
+        0,
+        527.41
       ],
       "visible": true
     }
