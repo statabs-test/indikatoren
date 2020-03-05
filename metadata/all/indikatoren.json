@@ -6532,6 +6532,47 @@
 		"id": 4360
 	},
 	{
+		"title": "Familienergänzendes Kinderbetreuungsangebot",
+		"subtitle": "Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren in der Stadt Basel",
+		"kuerzel": "I.13.?.04374",
+		"kuerzelKunde": "G11",
+		"description": "Familienergänzendes Kinderbetreuungsangebot",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2019-12-03T10:55:01.011",
+		"stufe1": "Gesellschaft",
+		"stufe2": "G11: Chancengleichheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel ist seit 2013 kontinuierlich gestiegen. 2017 lag sie bei 191,7 pro 1000 Kindern im Vorschulalter.",
+		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0–3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht-institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_50_00_00_00_611",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
+			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
+		],
+		"data-id": 4374,
+		"chart-id": 4374,
+		"filter": "",
+		"id": 4374
+	},
+	{
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
 		"kuerzel": "I.01.1.4462",
@@ -10206,18 +10247,18 @@
 		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
-		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
 		"kuerzelKunde": "SH5",
-		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:06:40.4040",
+		"aktualisierungsdatum": "2020-03-05T14:16:13.1313",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -10733,7 +10774,7 @@
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 <br> «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»",
+		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 <br> «Wie fühlen Sie sich zurzeit gesundheitlich?»",
 		"kuerzel": "I.50.1.5181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",

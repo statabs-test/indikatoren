@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | false |  | Cercle-Indicateurs
+4374 | true | true | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt

@@ -3,7 +3,7 @@
     {
       "color": "#923F8D",
       "index": 5,
-      "legendIndex": 0,
+      "legendIndex": 1,
       "data": [
         [
           "18-29",
@@ -64,7 +64,7 @@
     {
       "color": "#B375AB",
       "index": 4,
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
           "18-29",
@@ -125,7 +125,7 @@
     {
       "color": "#FABD24",
       "index": 3,
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           "18-29",
@@ -186,7 +186,7 @@
     {
       "color": "#008AC3",
       "index": 2,
-      "legendIndex": 3,
+      "legendIndex": 4,
       "data": [
         [
           "18-29",
@@ -247,7 +247,7 @@
     {
       "color": "#C8C8C8",
       "index": 1,
-      "legendIndex": 4,
+      "legendIndex": 5,
       "data": [
         [
           "18-29",
@@ -308,7 +308,7 @@
     {
       "color": "#6F6F6F",
       "index": 0,
-      "legendIndex": 5,
+      "legendIndex": 6,
       "data": [
         [
           "18-29",
@@ -455,7 +455,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»"
+    "text": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 \u003Cbr\u003E «Wie fühlen Sie sich zurzeit gesundheitlich?»"
   },
   "navigation": {
     "menuItemStyle": {

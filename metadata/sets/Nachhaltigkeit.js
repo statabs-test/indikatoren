@@ -78,18 +78,18 @@ var indikatorensetData = [
 		"id": 4355
 	},
 	{
-		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
 		"kuerzelKunde": "SH5",
-		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:06:40.4040",
+		"aktualisierungsdatum": "2020-03-05T14:16:13.1313",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -592,7 +592,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 <br> «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»",
+		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 <br> «Wie fühlen Sie sich zurzeit gesundheitlich?»",
 		"kuerzel": "I.50.1.5181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",
