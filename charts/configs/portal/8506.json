@@ -3,6 +3,7 @@
     {
       "index": 0,
       "color": "#246370",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -75,6 +76,7 @@
     {
       "index": 2,
       "color": "#0F7399",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -147,6 +149,7 @@
     {
       "index": 4,
       "color": "#689199",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -219,6 +222,7 @@
     {
       "index": 6,
       "color": "#A8C3CA",
+      "borderColor": null,
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -411,7 +415,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1,
       "dataLabels": {
         "style": {
           "fontSize": "10px",
@@ -420,7 +424,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0.1
     }
   },
   "title": {
