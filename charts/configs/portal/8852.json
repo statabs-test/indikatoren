@@ -1635,32 +1635,76 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-                    //add sum of observations of visible series to the axis label
-                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-                        return val.visible;
-                    });
-                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                        return accumulator + series.yData[indexOfCurrentValue];
-                    }, 0);
-                    //use N if all series are visible, otherwise use n
-                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+					//add sum of observations of visible series to the axis label
+					var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+						return val.visible;
+					});
+					var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+					var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+						return accumulator + series.yData[indexOfCurrentValue];
+					}, 0);
+					//use N if all series are visible, otherwise use n
+					var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 
-                    var txt = this.value
-                        .replace("mögl.", "m.")
-                        .replace("im ", "")
-                        .replace("am ", "")
-                        .replace("in ", "")
-                        .replace("versorgung", "vers.");
 
-                    //check for value that contains only spaces
-                    return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
-                },
+//console.log(this.chart.series);
+					var txt = this.value;
+					console.log(this);
+					if (typeof this.value.replace === 'function') {
+						txt = txt.replace("mögl.", "m.")
+							.replace("im ", "")
+							.replace("am ", "")
+							.replace("in ", "")
+							.replace("versorgung", "vers.")
+							.replace("einrichtungen", "einricht.");
+
+						txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
+
+						return txt;
+					}// else return this.value;
+					//check for value that contains only spaces
+					//return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
+
+
+					/*
+										var txt = this.value;
+										if (typeof this.value.replace === 'function')  {
+											console.log(this);
+											txt = txt
+											.replace("mögl.", "m.")
+											.replace("im ", "")
+											.replace("am ", "")
+											.replace("in ", "")
+											.replace("versorgung", "vers.");
+					
+										//check for value that contains only spaces
+										//if (txt.replace(/\s/g, "") == "")  txt = txt; else txt = txt + ' (' + nString + sum + ')';
+										return txt;
+										} //else console.log(this);
+										//console.log(typeof txt, txt);
+					*/					/*
+										//var txt = this.value.toString();
+					
+										//# workaround for hc-bug: hard-coded replace 
+										//if (this.value.toString() == '2015: Parkplätze' && this.isFirst == true) { this.value = '2015: Luftqualität'; }
+										this.value.replace("mögl.", "m.")
+											.replace("im ", "")
+											.replace("am ", "")
+											.replace("in ", "")
+											.replace("versorgung", "vers.")
+											.replace("einrichtungen", "einricht.");
+					
+										//check for value that contains only spaces
+										//console.log(txt.replace(/\s/g, ""))
+										//txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
+										return this.value;
+										*/
+				},
       "align": "left",
+      "tickInterval": 1,
+      "step": 1,
       "x": -190
-    },
-    "min": 0,
-    "max": 31
+    }
   },
   "chart": {
     "events": {
@@ -1694,8 +1738,9 @@
     "zoomType": "xy",
     "type": "column",
     "marginLeft": 200,
+    "marginTop": 130,
     "inverted": true,
-    "renderTo": "container-5178",
+    "renderTo": "container-8852",
     "spacingBottom": 40
   },
   "title": {
@@ -1773,7 +1818,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-21"
   },
   "legend": {
     "layout": "horizontal",
@@ -1793,6 +1838,6 @@
     "itemDistance": 5
   },
   "exporting": {
-    "filename": 5178
+    "filename": 8852
   }
 }

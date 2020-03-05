@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6966,7 +6968,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -7039,7 +7041,7 @@
 	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
 	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 355, 210);
+	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  bezüger", 355, 210);
 	                
 	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');
@@ -7068,7 +7070,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sozialhilfe nach Wohnviertel"
+    "text": "Sozialhilfequote und Sozialhilfebezüger"
   },
   "subtitle": {
     "style": {
@@ -7077,7 +7079,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -7091,9 +7093,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-20"
   },
   "colorAxis": {
     "min": 0,

@@ -824,18 +824,18 @@ var indikatorensetData = [
 		"id": 6391
 	},
 	{
-		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sozialhilfequote und Sozialhilfebezüger",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.06392",
 		"kuerzelKunde": "K13-1",
-		"description": "Sozialhilfe nach Wohnviertel",
+		"description": "Sozialhilfequote und Sozialhilfebezüger",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2020-02-20T10:14:57.5757",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -848,13 +848,15 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_010",
 		"parentId": 6380,
-		"children": [],
+		"children": [
+			"8241",
+			"8512"
+		],
 		"renderLink": [
 			"6380"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

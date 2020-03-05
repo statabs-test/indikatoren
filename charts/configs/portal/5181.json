@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#923F8D",
-      "index": 9,
+      "index": 5,
       "legendIndex": 0,
       "data": [
         [
@@ -63,7 +63,7 @@
     },
     {
       "color": "#B375AB",
-      "index": 8,
+      "index": 4,
       "legendIndex": 1,
       "data": [
         [
@@ -124,7 +124,7 @@
     },
     {
       "color": "#FABD24",
-      "index": 7,
+      "index": 3,
       "legendIndex": 2,
       "data": [
         [
@@ -185,7 +185,7 @@
     },
     {
       "color": "#008AC3",
-      "index": 6,
+      "index": 2,
       "legendIndex": 3,
       "data": [
         [
@@ -245,8 +245,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 5,
+      "color": "#C8C8C8",
+      "index": 1,
       "legendIndex": 4,
       "data": [
         [
@@ -303,6 +303,67 @@
         ]
       ],
       "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "18-29",
+          1
+        ],
+        [
+          "30-39",
+          3
+        ],
+        [
+          "40-49",
+          1
+        ],
+        [
+          "50-59",
+          3
+        ],
+        [
+          "60-69",
+          3
+        ],
+        [
+          "70 u.m.",
+          4
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          41
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],

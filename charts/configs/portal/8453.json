@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 0,
+      "color": "#007A2F",
+      "index": 5,
+      "legendIndex": 1,
       "data": [
         [
           "2019",
@@ -34,9 +34,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 1,
+      "color": "#73B97C",
+      "index": 4,
+      "legendIndex": 2,
       "data": [
         [
           "2019",
@@ -67,9 +67,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2019",
@@ -100,9 +100,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 3,
+      "color": "#CD9C00",
+      "index": 2,
+      "legendIndex": 4,
       "data": [
         [
           "2019",
@@ -133,13 +133,13 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 4,
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
           "2019",
-          240
+          148
         ],
         [
           "2015",
@@ -147,7 +147,7 @@
         ],
         [
           "2011",
-          45
+          43
         ],
         [
           "2007",
@@ -162,7 +162,40 @@
           80
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2019",
+          92
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2011",
+          2
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2003",
+          0
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -317,7 +350,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "horizontal",
