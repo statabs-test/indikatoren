@@ -49,7 +49,8 @@ yAxis: {
     tickInterval:500,
     reversedStacks: false,
     labels: {
-        format: "{value:,.0f}"
+        format: "{value:,.0f}",
+        y:4
     }
 },
 	}
