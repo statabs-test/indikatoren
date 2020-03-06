@@ -3557,6 +3557,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3601,6 +3602,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3697,7 +3699,7 @@
 
 					//pie values in legend
 					var minValueInLegend = 1;
-					var maxValueInLegend = 15;
+					var maxValueInLegend = 16;
 					
 					//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -3748,7 +3750,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Durch die IG Wohnen vermittelte Wohnungen nach Wohnviertel»"
+    "text": "Durch die IG Wohnen vermittelte Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -3757,7 +3759,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -3795,7 +3797,7 @@
       {
         "from": 0,
         "to": 49.9,
-        "color": "#ECE1D0",
+        "color": "#A8C3CA",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E \u003C 50,0"
       }
     ]

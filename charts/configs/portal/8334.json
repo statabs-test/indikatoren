@@ -6064,6 +6064,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6108,6 +6109,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6225,9 +6227,9 @@ console.log(this);
 
 					//Add manually drawn legend
 					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355 - 55, 212 + 10, 130, 130, '#fbfbfb');
+					fn.addLegendRectangle(chart, 355 - 55, 212 + 10, 150, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-					fn.addLegendTitle(chart, chart.series[1].name, 245 +58, 220);
+					fn.addLegendTitle(chart, chart.series[1].name + ' (%)', 245 +58, 220);
 
 					/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 			  fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');
@@ -6264,7 +6266,7 @@ console.log(this);
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel, 2015",
+    "text": "nach Wohnviertel, Stadt Basel, 2018",
     "align": "left"
   },
   "credits": {
@@ -6303,30 +6305,30 @@ console.log(this);
         "from": 0,
         "to": 0.249,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0% \u003C\u002Fspan\u003E \u003C 25,0%"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C 25,0"
       },
       {
         "from": 0.25,
         "to": 0.399,
         "color": "#A8C3CA",
-        "name": "25,0% − 39,9%"
+        "name": "25,0 − 39,9"
       },
       {
         "from": 0.4,
         "to": 0.599,
         "color": "#689199",
-        "name": "40,0% − 59,9%"
+        "name": "40,0 − 59,9"
       },
       {
         "from": 0.6,
         "to": 0.699,
         "color": "#246370",
-        "name": "60,0% − 69,9%"
+        "name": "60,0 − 69,9"
       },
       {
         "from": 0.7,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0% \u003C\u002Fspan\u003E ≥ 70,0%"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E ≥ 70,0"
       }
     ]
   },

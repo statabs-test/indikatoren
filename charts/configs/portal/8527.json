@@ -258,7 +258,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -280,7 +280,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 250
+    "tickInterval": 250,
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {

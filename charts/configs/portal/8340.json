@@ -226,7 +226,8 @@
       "format": "{value:,.0f}",
       "style": {
         "color": "#000000"
-      }
+      },
+      "y": 4
     }
   },
   "tooltip": {

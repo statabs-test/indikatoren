@@ -14,11 +14,11 @@
           14.1
         ],
         [
-          "Frauen",
+          "Männer",
           11.1
         ],
         [
-          "Männer",
+          "Frauen",
           17
         ],
         [
@@ -76,12 +76,12 @@
           "high": 15.7
         },
         {
-          "name": "Frauen",
+          "name": "Männer",
           "low": 9,
           "high": 13.1
         },
         {
-          "name": "Männer",
+          "name": "Frauen",
           "low": 14.6,
           "high": 19.3
         },

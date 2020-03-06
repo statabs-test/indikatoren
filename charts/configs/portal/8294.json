@@ -6794,6 +6794,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6838,6 +6839,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6980,7 +6982,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Reineinkommen nach Wohnviertel"
+    "text": "Reineinkommen"
   },
   "subtitle": {
     "style": {
@@ -6989,7 +6991,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2016",
     "align": "left"
   },
   "credits": {

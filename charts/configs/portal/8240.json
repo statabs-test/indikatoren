@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -7005,7 +7007,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' m² </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -7015,8 +7017,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 5; 
+	                var minValueInLegend = -1; 
+	                var maxValueInLegend = -6; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -7024,18 +7026,18 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "In der Schweiz <br/> geborenen <br/> Personen (%)", 245, 210);
+					fn.addLegendTitle(chart, "In der Schweiz <br/> geborene <br/> Personen (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 355, 210);
-					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
-					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 382, 289)
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 355, 210);
+					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
+					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
+					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
+					//fn.addLegendLabel(chart, 'Abnahme', 382, 289)
 
-	                fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, 314);
-	                fn.addLegendCircle(chart, 367, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, 335);
+	                fn.addLegendCircle(chart, 367, /*325*/277, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, /*314*/266);
+	                fn.addLegendCircle(chart, 367, /*345*/297, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, /*335*/287);
 
 					/*var shiftDown = 12;
 
@@ -7069,7 +7071,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {

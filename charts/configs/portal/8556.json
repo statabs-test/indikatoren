@@ -6143,6 +6143,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6187,6 +6188,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6302,7 +6304,7 @@
 					//Add manually drawn legend
 					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
-					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>'), 545, 280);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>') + ' (%)', 555, 280,);
 					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), 700, 280);
 
 					fn.addLegendCircle(chart, 715, 280 + 65 + 0, 0.5 * pieSizeCatConfig[0].diameter, '#7F5F1A');
@@ -6380,30 +6382,30 @@
         "from": 0,
         "to": 39.9,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0% \u003C\u002Fspan\u003E \u003C 40,0%"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C 40,0"
       },
       {
         "from": 40,
         "to": 69.9,
         "color": "#A8C3CA",
-        "name": "40,0% − 69,9%"
+        "name": "40,0 − 69,9"
       },
       {
         "from": 70,
         "to": 79.9,
         "color": "#689199",
-        "name": "70,0% − 79,9%"
+        "name": "70,0 − 79,9"
       },
       {
         "from": 80,
         "to": 89.9,
         "color": "#246370",
-        "name": "80,0% − 89,9%"
+        "name": "80,0 − 89,9"
       },
       {
         "from": 90,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0% \u003C\u002Fspan\u003E ≥ 90,0%"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E ≥ 90,0"
       }
     ]
   },
@@ -6432,7 +6434,7 @@
     },
     "useHTML": false,
     "layout": "vertical",
-    "x": -305,
+    "x": -323,
     "y": -50,
     "itemMarginBottom": 2,
     "symbolRadius": 0

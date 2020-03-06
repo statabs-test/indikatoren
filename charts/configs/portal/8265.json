@@ -14,11 +14,11 @@
           36.3
         ],
         [
-          "Frauen",
+          "Männer",
           29.3
         ],
         [
-          "Männer",
+          "Frauen",
           42.8
         ],
         [
@@ -76,12 +76,12 @@
           "high": 38.5
         },
         {
-          "name": "Frauen",
+          "name": "Männer",
           "low": 26.2,
           "high": 32.4
         },
         {
-          "name": "Männer",
+          "name": "Frauen",
           "low": 39.8,
           "high": 45.8
         },
