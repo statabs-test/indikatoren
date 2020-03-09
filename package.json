@@ -25,7 +25,7 @@
     "hash-files": "1.1.1",
     "highcharts-export-server": "^2.0.24",
     "http-live-server": "1.2.0",
-    "jsdom": "9.12.0",
+    "jsdom": "16.2.1",
     "jsondiffpatch": "0.2.5",
     "rimraf": "2.6.2",
     "serialize-javascript": "^2.1.2",
