@@ -3,13 +3,12 @@
         "chart": {
             marginLeft: 200,
             inverted: true,
-            //"width": 600,
             height: 700,
         },
         plotOptions: {
             series: {
                 pointPadding: 0.05,
-                groupPadding: 0.01,
+                groupPadding: 0.02,
                 borderWidth: 0,
                 shadow: false,
                 //pointWidth: 20,

@@ -2,15 +2,13 @@
 	return {
 		"chart": {
 			marginLeft: 200,
-			marginTop: 130,
 			inverted: true,
-			//"width": 600,
 			height: 700
 		},
 		plotOptions: {
 			series: {
 				pointPadding: 0.05,
-				groupPadding: 0.01,
+				groupPadding: 0.02,
 				borderWidth: 0,
 				shadow: false,
 				//pointWidth: 20,
@@ -41,7 +39,7 @@
 					var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 
 
-//console.log(this.chart.series);
+					//console.log(this.chart.series);
 					var txt = this.value;
 					console.log(this);
 					if (typeof this.value.replace === 'function') {

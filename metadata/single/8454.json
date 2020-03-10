@@ -1,4 +1,4 @@
-{"title":"Verkehrsleistungsindex",
+﻿{"title":"Verkehrsleistungsindex",
 "subtitle":"Indexwert (Basis 2010 = 100), Basel-Stadt",
 "kuerzel":"I.11.6.08454",
 "kuerzelKunde":"GW20",
@@ -28,7 +28,7 @@
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "datenInChartIntegriert":false,
 "externalLinks":[""],
-"data-id":6154, 
+"data-id":8454, 
 "chart-id":6154, 
 "filter":""
 }
