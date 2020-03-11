@@ -53,7 +53,7 @@
       "name": "Frauen"
     },
     {
-      "color": "#474747",
+      "color": "#3c3c3c",
       "data": [
         [
           2004,
@@ -129,9 +129,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + ' Stunden</b><br/><b>' 
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b><br/><b>'
+      }
   },
   "yAxis": {
     "min": 0,
@@ -149,9 +149,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value),0); 
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
     }
   },
   "xAxis": {

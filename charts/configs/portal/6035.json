@@ -373,9 +373,9 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
-        },
+    "labelFormatter": function () {
+                return this.name.replace("mich", " mich<br/>");
+            },
     "reversed": true
   },
   "exporting": {

@@ -234,7 +234,8 @@
 				},
       "align": "left",
       "x": -80
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "events": {
