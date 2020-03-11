@@ -6,27 +6,27 @@
       "data": [
         [
           "Soziales",
-          43.3656958
+          51
         ],
         [
           "Nachbarschaftshilfe",
-          23.1391586
+          28.7
         ],
         [
           "Sport und Freizeit",
-          20.2265372
+          23.6
         ],
         [
           "Kultur",
-          17.7993528
+          21.9
         ],
         [
           "Umwelt",
-          6.7961165
+          10.7
         ],
         [
           "Anderer Bereich",
-          14.0776699
+          11.7
         ]
       ],
       "name": "Anteil Ja",
@@ -96,7 +96,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Tätigkeitsbereiche der freiwillig tätigen Personen in %",
+    "text": "Tätigkeitsbereiche der freiwillig tätigen Personen in %, Stand: 2019",
     "align": "left"
   },
   "tooltip": {
@@ -135,7 +135,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-10"
   },
   "legend": {
     "enabled": false,
