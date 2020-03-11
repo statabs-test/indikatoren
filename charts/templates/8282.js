@@ -143,7 +143,7 @@
 					
 					fn.addLegendTitle(chart, "Ausländer- <br/> anteil (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 355, 210);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 355, 210);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
