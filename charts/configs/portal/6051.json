@@ -108,7 +108,7 @@
           180.19
         ]
       ],
-      "name": "reales BIP pro Kopf Basel-Stadt (2000=100)"
+      "name": "reales BIP pro Kopf Basel-Stadt (indexiert, 2000=100)"
     },
     {
       "marker": {
@@ -257,7 +257,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entkopplung von Wachstum und Umweltverbrauch"
+    "text": "Entwicklung von Wachstum und Umweltverbrauch"
   },
   "subtitle": {
     "style": {
@@ -306,14 +306,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2,
-    "plotLines": [
-      {
-        "color": "#B9CFD7",
-        "value": 2000,
-        "width": 1
-      }
-    ]
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

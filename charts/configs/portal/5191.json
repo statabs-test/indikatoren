@@ -148,8 +148,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#d7e9d2",
-      "index": 3,
+      "color": "#71a3b5",
+      "index": 5,
       "legendIndex": 3,
       "data": [
         [
@@ -197,8 +197,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b9cfd7",
-      "index": 4,
+      "color": "#ffbb58",
+      "index": 6,
       "legendIndex": 4,
       "data": [
         [
@@ -246,8 +246,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
-      "index": 5,
+      "color": "#FF8028",
+      "index": 8,
       "legendIndex": 5,
       "data": [
         [
@@ -295,8 +295,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
-      "index": 6,
+      "color": "#DC440E",
+      "index": 9,
       "legendIndex": 6,
       "data": [
         [
@@ -342,21 +342,6 @@
       ],
       "name": "Universität",
       "turboThreshold": 0
-    },
-    {
-      "color": "#ff8028",
-      "index": 7,
-      "legendIndex": 7
-    },
-    {
-      "color": "#dc440e",
-      "index": 8,
-      "legendIndex": 8
-    },
-    {
-      "color": "#b00000",
-      "index": 9,
-      "legendIndex": 9
     }
   ],
   "xAxis": {
@@ -379,19 +364,8 @@
         "textOverflow": "none"
       },
       "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            }
+            return this.value;
+          }
     }
   },
   "chart": {
@@ -516,7 +490,9 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/', '/<br/>');
+            return this.name.replace('/', '/<br/>')
+            .replace('obligatorische', 'oblig.')
+            .replace('Berufsvorbereitende', 'Berufsvorb.');
         }
   },
   "exporting": {
