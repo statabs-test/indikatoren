@@ -146,7 +146,7 @@
 					
 					fn.addLegendTitle(chart, "Anteil <br/> deutschsprachige <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
