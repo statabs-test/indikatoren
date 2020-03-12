@@ -1777,5 +1777,44 @@ var indikatorensetData = [
 		"chart-id": 8863,
 		"filter": "",
 		"id": 8863
+	},
+	{
+		"title": "Anzahl Betten",
+		"subtitle": "",
+		"kuerzel": "I.04.2.08873",
+		"kuerzelKunde": "5.1-3",
+		"description": "Anzahl Betten",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-12T15:55:45.4545",
+		"stufe1": "5. Tourismus",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 12 900 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 9 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um fast 33% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-5,5% auf 2 300 und -12,3% auf 1 500).",
+		"erlaeuterungen": "Anzahl Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich vierzehn Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.      Quelle muss noch genauer überprüft werden!",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8873,
+		"chart-id": 8873,
+		"filter": "",
+		"id": 8873
 	}
 ];

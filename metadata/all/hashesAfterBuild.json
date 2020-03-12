@@ -8595,6 +8595,13 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "6ace551cd3e8508a8a6c065fe30a563cfd0aa840"
 	},
+	"8873": {
+		"metadata": "024b2c2950c726eeca3a197d000da057ae10cc44",
+		"chartConfig": "3d86865b41df56cda0ea6d933f5eead41a78f928",
+		"data": "921ff1e8e024e8ecfabf92e1d934340f83b8a1b4",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "8f3bd8dc24ac178a736427a057339e4498fc8274"
+	},
 	"9995": {
 		"metadata": "8760cadbac17c2074ca67b08a40f6a60912bc2f9",
 		"chartConfig": "9629fe7ad328774e9dc3819035a1133c609ac105",
