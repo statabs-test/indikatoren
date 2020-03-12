@@ -400,7 +400,7 @@ id | visible | visibleInPortal | indikatorenset
 6042 | true | false | Nachhaltigkeit
 6043 | true | false | Nachhaltigkeit
 6044 | true | true | Nachhaltigkeit
-6045 | true | false | Nachhaltigkeit
+6045 | true | true | Nachhaltigkeit
 6046 | true | false | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
 6048 | false |  | Nachhaltigkeit
@@ -776,7 +776,7 @@ id | visible | visibleInPortal | indikatorenset
 6576 | true | true | Tourismus
 6592 | true | false | Nachhaltigkeit
 6597 | true | false | Nachhaltigkeit
-6599 | true | false | Nachhaltigkeit
+6599 | true | true | Nachhaltigkeit
 6601 | true | false | 
 6623 | true | true | 
 6630 | true | true | Wohnviertel
@@ -1215,7 +1215,6 @@ id | visible | visibleInPortal | indikatorenset
 8460 | true | true | Nachhaltigkeit
 8461 | true | true | Nachhaltigkeit
 8852 | true | true | Nachhaltigkeit
-8853 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

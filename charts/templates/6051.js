@@ -49,11 +49,11 @@
     */
     "xAxis": {
       "tickInterval": 2,
-      plotLines: [{
+      /*plotLines: [{
         color: '#B9CFD7',
         value: 2000,
         width: 1
-      }]
+      }]*/
     },
     "series": [
       {

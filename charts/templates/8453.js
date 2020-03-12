@@ -4,7 +4,11 @@
 			marginLeft: 100,
 			//marginBottom: 100,
 			"inverted": true,
-			"height": 500,
+		},
+		plotOptions: {
+			column: {
+				groupPadding: 0,
+			}
 		},
 		"xAxis": {
 			"type": "category",
@@ -31,16 +35,6 @@
 		yAxis: {
 			tickInterval: 20,
 			max: 100,
-			labels: {
-				"type": "category",
-				rotation: 0,
-			}
-		},
-		plotOptions: {
-			column: {
-				groupPadding: 0,
-
-			}
 		},
 		"series": [
 			{ "color": "#007A2F", index: 5, legendIndex: 1 }, /*dunkelgrün*/
@@ -51,20 +45,9 @@
 			{ "color": "#6F6F6F", index: 0, legendIndex: 6 },
 		],
 		"legend": {
-			//y: 45,
-			"enabled": true,
 			"layout": "horizontal",
-			"itemWidth": 140,
 			"verticalAlign": "top",
 			"align": "left",
-			"labelFormatter": function () {
-				return this.name;
-			},
-			itemStyle: {
-				fontWeight: "normal",
-				textOverflow: null,
-				whiteSpace: 'nowrap'
-			}
 		},
 	}
 }());

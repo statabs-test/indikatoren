@@ -1152,7 +1152,6 @@ var templatesById = {
 	"8460": "befragungen001",
 	"8461": "befragungen001",
 	"8852": "befragungen001",
-	"8853": "line001",
 	"9995": "mappie001",
 	"9996": "spider001",
 	"9997": "bubble001",

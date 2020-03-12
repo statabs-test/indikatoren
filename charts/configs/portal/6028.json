@@ -225,9 +225,9 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                  	 return this.value.replace("  ", "<br/>");
-            },
+      "formatter": function () {
+          return this.value.replace("  ", "<br/>");
+        },
       "useHTML": true,
       "align": "left",
       "x": -140
