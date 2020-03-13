@@ -11,10 +11,11 @@
       ]
     },
     yAxis: {
+      min: null,
       plotLines: [{
         color: '#B9CFD7',
         value: 100,
-        width: 1
+        width: 2
       }]
     },
     /*    "yAxis": [
