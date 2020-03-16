@@ -2,16 +2,17 @@
   return {
     plotOptions: {
       series: {
-        "stacking": "normal",
+        stacking: "normal",
         pointPadding: 0,
         groupPadding: 0.5, // exaclty overlaps columns
         borderWidth: 0
       }
     },
-    "yAxis": {
-      //"min": -200,
-      "labels": {
-        "format": "{value:,.0f}",
+    yAxis: {
+      "min": -250,
+      tickInterval: 250,
+      labels: {
+        format: "{value:,.0f}",
       },
       plotLines: [{
         value: 0,
@@ -19,10 +20,10 @@
         width: 2
       }],
     },
-    "xAxis": {
-      "tickInterval": 1,
+    xAxis: {
+      tickInterval: 1,
     },
-    "legend": {
+    legend: {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
