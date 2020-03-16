@@ -19,7 +19,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value), 1) + '%';
+					return Highcharts.numberFormat((this.value), 1);
 				}
 			}
 		},
@@ -126,7 +126,7 @@
 					fn.addLegendLabel(chart, 'Zunahme', 425, 245);
 					fn.addLegendLabel(chart, 'Abnahme', 425, 270);
 
-					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300)
+					fn.addLegendTitle(chart, choroplethSeries.name + ' (%)', 265, 300)
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
