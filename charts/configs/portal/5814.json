@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -7037,7 +7039,7 @@
 					fn.addLegendLabel(chart, 'Zunahme', 425, 245);
 					fn.addLegendLabel(chart, 'Abnahme', 425, 270);
 
-					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300)
+					fn.addLegendTitle(chart, choroplethSeries.name + ' (%)', 265, 300)
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -7078,7 +7080,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "colorAxis": {
     "min": 0,
@@ -7092,7 +7094,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value), 1) + '%';
+					return Highcharts.numberFormat((this.value), 1);
 				}
     },
     "marker": {

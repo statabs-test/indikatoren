@@ -382,6 +382,8 @@
       },
       "format": "{value:,.0f}"
     },
+    "min": -250,
+    "tickInterval": 250,
     "plotLines": [
       {
         "value": 0,
@@ -409,7 +411,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "legend": {
     "symbolRadius": 0,

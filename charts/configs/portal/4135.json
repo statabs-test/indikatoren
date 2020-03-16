@@ -382,6 +382,8 @@
       },
       "format": "{value:,.0f}"
     },
+    "min": -250,
+    "tickInterval": 250,
     "plotLines": [
       {
         "value": 0,
