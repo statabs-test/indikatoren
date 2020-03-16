@@ -17,7 +17,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken. Das BIP der Schweiz beträgt rund 690 Mrd. Franken.",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -454,7 +454,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-6",
+		"kuerzelKunde": "2.1-7",
 		"description": "Entwicklung Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "",
@@ -468,12 +468,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg 22,7%, der Bestand im dritten Quartal 2019 liegt bei 8 500 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+15,1% auf rund 22 100) und Basel-Stadt (+0,3% auf 33 800). In der gesamten Schweiz arbeiten im 3. Quartal 2019 325 300 Grenzgänger, 14,9% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg 25,0%, der Bestand im vierten Quartal 2019 liegt bei 8 600 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+16,0% auf rund 22 300) und Basel-Stadt (+0,8% auf 33 900). In der gesamten Schweiz arbeiten im 4. Quartal 2019 rund 328 900 Grenzgänger, 16,2% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_006",
+		"orderKey": "02_01_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"8478"
@@ -493,7 +493,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Grenzgänger",
-		"subtitle": "2019, 3. Quartal",
+		"subtitle": "2019, 4. Quartal",
 		"kuerzel": "",
 		"kuerzelKunde": "2.1-5",
 		"description": "Grenzgänger",
@@ -509,7 +509,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meisten Grengänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2019 beträgt rund 33 800. In Basel-Landschaft sind es 22 100, im Jura 8 500 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 325 300.",
+		"lesehilfe": "Die meisten Grengänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2019 beträgt rund 33 900. In Basel-Landschaft sind es 22 300, im Jura 8 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 328 900.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -536,7 +536,7 @@ var indikatorensetData = [
 		"title": "Arbeitspendler Basel-Stadt",
 		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-8",
+		"kuerzelKunde": "2.1-9",
 		"description": "Arbeitspendler Basel-Stadt",
 		"thema": "11 Verkehr",
 		"unterthema": "",
@@ -555,7 +555,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_008",
+		"orderKey": "02_01_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"8480"
@@ -577,7 +577,7 @@ var indikatorensetData = [
 		"title": "Arbeitspendler Basel-Landschaft",
 		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-9",
+		"kuerzelKunde": "2.1-10",
 		"description": "Arbeitspendler Basel-Landschaft",
 		"thema": "11 Verkehr",
 		"unterthema": "",
@@ -596,7 +596,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_009",
+		"orderKey": "02_01_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"8481"
@@ -618,7 +618,7 @@ var indikatorensetData = [
 		"title": "Arbeitspendler Jura",
 		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-10",
+		"kuerzelKunde": "2.1-11",
 		"description": "Arbeitspendler Jura",
 		"thema": "11 Verkehr",
 		"unterthema": "",
@@ -637,7 +637,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_010",
+		"orderKey": "02_01_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"8482"
@@ -659,7 +659,7 @@ var indikatorensetData = [
 		"title": "Arbeitspendler BS/BL/JU",
 		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-11",
+		"kuerzelKunde": "2.1-12",
 		"description": "Arbeitspendler BS/BL/JU",
 		"thema": "11 Verkehr",
 		"unterthema": "",
@@ -678,7 +678,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_011",
+		"orderKey": "02_01_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"8483"
@@ -700,7 +700,7 @@ var indikatorensetData = [
 		"title": "Arbeitspendler",
 		"subtitle": "Pooling 2013-2017",
 		"kuerzel": "",
-		"kuerzelKunde": "2.1-7",
+		"kuerzelKunde": "2.1-8",
 		"description": "Arbeitspendler",
 		"thema": "11 Verkehr",
 		"unterthema": "",
@@ -719,7 +719,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_007",
+		"orderKey": "02_01_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"8484"
@@ -832,8 +832,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "4. Weiteres",
-		"stufe2": "4.1 Aussenhandel",
+		"stufe1": "",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -842,7 +842,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_001",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [
 			"8487"
@@ -874,8 +874,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "4. Weiteres",
-		"stufe2": "4.1 Aussenhandel",
+		"stufe1": "",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -884,7 +884,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_002",
+		"orderKey": "_002",
 		"parentId": null,
 		"children": [
 			"8488"
@@ -915,17 +915,17 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "4. Weiteres",
-		"stufe2": "4.2 Tourismus",
+		"stufe1": "5. Tourismus",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Stark zugenommen haben zwischen 2014 und 2018 die Logiernächtezahlen in Basel-Stadt, insgesamt um 19,2%. Rückgänge wurden im Kanton Basel-Landschaft (-7,9%) und im Jura (-3,6%) verzeichnet. Der Wert der gesamten Schweiz stieg um 8,0%.",
-		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich vierzehn Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
+		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_02_00_00_00_002",
+		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"8489"
@@ -956,17 +956,17 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "4. Weiteres",
-		"stufe2": "4.2 Tourismus",
+		"stufe1": "5. Tourismus",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 1,8 Mio. Logiernächte verzeichnet. Der grösste Teil fiel mit fast 1,4 Mio. auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden rund 285 000, im Jura knapp 102 000 Logiernächte gebucht. Während in Basel-Stadt die Übernachtungszahl seit 2014 stark zunahm, ging sie in den beiden anderen Kantonen etwas zurück.",
-		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich vierzehn Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
+		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_02_00_00_00_001",
+		"orderKey": "05_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"8490"
@@ -1708,17 +1708,17 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-20T12:23:48.4848",
-		"stufe1": "4. Weiteres",
-		"stufe2": "4.1 Aussenhandel",
+		"stufe1": "",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Warenimporte aus dem Ausland sind zwischen 2014 und 2018 um 75% in Basel-Stadt und um 46% in Basel-Landschaft gestiegen. Im Jura liegt der Anstieg bei 7%. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 51%.",
+		"lesehilfe": "Die Warenimporte aus dem Ausland sind in Basel-Stadt zwischen 2014 und 2018 um 75% gestiegen. Zum starken Importzuwachs im Jahr 2016 (+79%) hat in erster Linie der Kauf von Flugzeugen geführt. Im Kanton Basel-Landschaft liegt der Anstieg zwischen 2014 und 2018 bei 46%, im Jura bei 7%. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 51%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_003",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [
 			"8508"
@@ -1738,7 +1738,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "",
+		"subtitle": "2019, 4. Quartal",
 		"kuerzel": "I.03.5.08863",
 		"kuerzelKunde": "2.1-6",
 		"description": "Anteil Grenzgänger an der Beschäftigung",
@@ -1779,6 +1779,84 @@ var indikatorensetData = [
 		"id": 8863
 	},
 	{
+		"title": "Entwicklung der Handelsbilanz",
+		"subtitle": "in Mio. Franken",
+		"kuerzel": "I.06.4.08868",
+		"kuerzelKunde": "4.1-4",
+		"description": "Entwicklung der Handelsbilanz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-12T10:50:16.1616",
+		"stufe1": "4. Aussenhandel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Handelsbilanz entspricht die Differenz zwischen den nominalen Exporten und den nominalen Importen.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "04_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"8874"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8868,
+		"chart-id": 8868,
+		"filter": "",
+		"id": 8868
+	},
+	{
+		"title": "Entwicklung der Handelsbilanz-Löschen",
+		"subtitle": "",
+		"kuerzel": "I.06.4.08869",
+		"kuerzelKunde": "",
+		"description": "Entwicklung der Handelsbilanz-Löschen",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "2020-03-12T10:50:16.1616",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"8875"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8869,
+		"chart-id": 8869,
+		"filter": "",
+		"id": 8869
+	},
+	{
 		"title": "Anzahl Betten",
 		"subtitle": "",
 		"kuerzel": "I.04.2.08873",
@@ -1797,13 +1875,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 12 900 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 9 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um fast 33% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-5,5% auf 2 300 und -12,3% auf 1 500).",
-		"erlaeuterungen": "Anzahl Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich vierzehn Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.      Quelle muss noch genauer überprüft werden!",
+		"erlaeuterungen": "Anzahl Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8876"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"

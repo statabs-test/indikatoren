@@ -1,7 +1,7 @@
-﻿""	"Primärer Sektor"	"Pharma"	"Metallindustrie"	"Elektro/Optik/Maschinen"	"Fahrzeugbau"	"Baugewerbe"	"Handel, Reparatur"	"Verkehr, Lagerei"	"Gastgewerbe"	"Finanz-, Versicherungs-DL"	"Freib., wiss., tech. DL"	"Öff. Verwaltung, Bildung"	"Gesundheits-, Sozialwesen"
+﻿""	"Fahrzeugbau"	"Finanz-, Versicherungs-DL"	"Handel, Reparatur"	"Gastgewerbe"	"Verkehr, Lagerei"	"Primärer Sektor"	"Öff. Verwaltung, Bildung"	"Elektro/Optik/Maschinen"	"Metallindustrie"	"Baugewerbe"	"Gesundheits-, Sozialwesen"	"Freib., wiss., tech. DL"	"Pharma"
 "2014"	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00
-"2015"	92.45	116.59	95.45	98.23	84.44	96.58	102.04	98.07	93.29	89.98	103.28	102.18	103.72
-"2016"	88.83	138.95	98.15	98.15	87.55	99.58	98.25	96.04	93.37	92.78	111.38	102.21	107.10
-"2017"	89.14	149.42	104.46	101.97	85.02	102.08	95.42	96.01	92.79	94.57	109.38	102.37	111.60
-"2018"	101.90	161.86	110.79	107.39	87.05	112.12	95.33	99.20	95.64	94.98	114.75	102.39	114.68
+"2015"	84.44	89.98	102.04	93.29	98.07	92.45	102.18	98.23	95.45	96.58	103.72	103.28	116.59
+"2016"	87.55	92.78	98.25	93.37	96.04	88.83	102.21	98.15	98.15	99.58	107.10	111.38	138.95
+"2017"	85.02	94.57	95.42	92.79	96.01	89.14	102.37	101.97	104.46	102.08	111.60	109.38	149.42
+"2018"	87.05	94.98	95.33	95.64	99.20	101.90	102.39	107.39	110.79	112.12	114.68	114.75	161.86
 
