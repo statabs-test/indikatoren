@@ -172,6 +172,10 @@
         [
           2018,
           109177
+        ],
+        [
+          2019,
+          109944
         ]
       ],
       "name": "Belegte Wohnungen"
@@ -348,6 +352,10 @@
         [
           2018,
           782
+        ],
+        [
+          2019,
+          1124
         ]
       ],
       "name": "Leerstehende Wohnungen"
@@ -526,6 +534,10 @@
         [
           2018,
           200256
+        ],
+        [
+          2019,
+          200407
         ]
       ],
       "name": "Wohnbevölkerung (rechte Skala)"

@@ -1101,6 +1101,7 @@ id | visible | visibleInPortal | indikatorenset
 8421 | true | false | Richtplan (Print)
 8422 | true | false | Richtplan (Print)
 8423 | true | false | Richtplan (Print)
+8877 | true | true | Richtplan
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
