@@ -7,19 +7,19 @@
       "data": [
         [
           "Basel-Stadt",
-          1908035
+          1908.035
         ],
         [
           "Basel-Landschaft",
-          2140177
+          2140.177
         ],
         [
           "Jura",
-          388327
+          388.327
         ],
         [
           "Schweiz",
-          54973134
+          54973.134
         ]
       ],
       "name": "Natürliche Personen",
@@ -32,19 +32,19 @@
       "data": [
         [
           "Basel-Stadt",
-          820870
+          820.87
         ],
         [
           "Basel-Landschaft",
-          283224
+          283.224
         ],
         [
           "Jura",
-          76759
+          76.759
         ],
         [
           "Schweiz",
-          11923299
+          11923.299
         ]
       ],
       "name": "Juristische Personen",

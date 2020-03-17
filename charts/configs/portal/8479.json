@@ -5,15 +5,15 @@
       "data": [
         [
           "Basel-Stadt",
-          33785
+          33932
         ],
         [
           "Basel-Landschaft",
-          22141
+          22318
         ],
         [
           "Jura",
-          8486
+          8641
         ],
         [
           "BS\u002FBL\u002FJU (rechte Skala)",
@@ -24,7 +24,7 @@
           null
         ]
       ],
-      "name": "2019Q3",
+      "name": "2019Q4",
       "turboThreshold": 0
     },
     {
@@ -45,14 +45,14 @@
         ],
         [
           "BS\u002FBL\u002FJU (rechte Skala)",
-          64412
+          64892
         ],
         [
           "Schweiz (rechte Skala)",
-          325291
+          328850
         ]
       ],
-      "name": "2019Q3",
+      "name": "2019Q4",
       "turboThreshold": 0
     }
   ],
@@ -222,7 +222,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2019, 3. Quartal",
+    "text": "2019, 4. Quartal",
     "align": "left"
   },
   "yAxis": [
@@ -237,6 +237,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -259,6 +260,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }

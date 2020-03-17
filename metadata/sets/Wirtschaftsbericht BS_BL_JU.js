@@ -832,7 +832,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "",
+		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -842,7 +842,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_001",
+		"orderKey": "04_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"8487"
@@ -874,7 +874,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-12-10T09:44:43.4343",
-		"stufe1": "",
+		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -884,7 +884,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_002",
+		"orderKey": "04_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"8488"
@@ -1708,7 +1708,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-01-20T12:23:48.4848",
-		"stufe1": "",
+		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1718,7 +1718,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_003",
+		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"8508"

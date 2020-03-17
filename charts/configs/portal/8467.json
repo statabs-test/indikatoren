@@ -17,11 +17,7 @@
         ],
         [
           "BS\u002FBL\u002FJU",
-          60.02
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          null
+          62.88
         ]
       ],
       "name": "BIP nominal",
@@ -45,11 +41,7 @@
         ],
         [
           "BS\u002FBL\u002FJU",
-          null
-        ],
-        [
-          "Schweiz (rechte Skala)",
-          689.55
+          undefined
         ]
       ],
       "name": "BIP nominal",
@@ -227,6 +219,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -245,6 +238,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }
