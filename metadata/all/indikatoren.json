@@ -49060,6 +49060,46 @@
 		"id": 8873
 	},
 	{
+		"title": "Entwicklung der Handelsbilanz",
+		"subtitle": "in Mio. Franken",
+		"kuerzel": "I.06.4.08874",
+		"kuerzelKunde": "4.1-4",
+		"description": "Entwicklung der Handelsbilanz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-12T10:50:16.1616",
+		"stufe1": "4. Aussenhandel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Handelsbilanz entspricht die Differenz zwischen den nominalen Exporten und den nominalen Importen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "04_00_00_00_00_000",
+		"parentId": 8868,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8874,
+		"chart-id": 8874,
+		"filter": "",
+		"id": 8874
+	},
+	{
 		"title": "Anzahl Betten",
 		"subtitle": "",
 		"kuerzel": "I.04.2.08873",

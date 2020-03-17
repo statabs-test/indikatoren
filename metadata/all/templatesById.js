@@ -1230,6 +1230,7 @@ var templatesById = {
 	"8868": "line001",
 	"8869": "line001",
 	"8873": "line001",
+	"8874": "line001_print",
 	"8876": "line001_print",
 	"9995": "mappie001",
 	"9996": "spider001",
