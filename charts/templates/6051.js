@@ -3,10 +3,10 @@
     "data": {
       "seriesMapping": [
         {
-          x: 0, y: 2
+          x: 0, y: 1
         },
         {
-          x: 0, y: 3
+          x: 0, y: 2
         }
       ]
     },
@@ -49,7 +49,7 @@
         ],
     */
     "xAxis": {
-      "tickInterval": 2,
+      "tickInterval": 1,
       /*plotLines: [{
         color: '#B9CFD7',
         value: 2000,
