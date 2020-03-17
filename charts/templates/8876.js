@@ -29,6 +29,11 @@
           //pointWidth: 14
         }
       },
+      xAxis: {
+        labels:{
+          rotation:0
+        }
+      },
       yAxis: {
         tickAmount: 5,
         labels: {
@@ -47,6 +52,7 @@
         layout: "horizontal",
         verticalAlign: "top",
         align: "left",
+        itemDistance: 2,
         //itemWidth: 300,
         itemStyle: {
           fontWeight: "normal"

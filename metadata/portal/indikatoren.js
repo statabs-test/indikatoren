@@ -30672,8 +30672,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-03-11T09:35:21.2121",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30683,7 +30683,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_006",
+		"orderKey": "02_01_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"8864"
@@ -30720,13 +30720,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Die Handelsbilanz entspricht die Differenz zwischen den nominalen Exporten und den nominalen Importen.",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Landschaft steigt 2018 auf 26,6 Milliarden Franken, während sie in Basel-Stadt 14,7 Milliarden beträgt und im Jura bei null liegt. In der Schweiz insgesamt war die Handelsbilanz 2017 und 2018 rückläufig und liegt 2018 bei 31,4 Milliarden Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "04_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"8874"
@@ -30802,11 +30802,11 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 12 900 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 9 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um fast 33% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-5,5% auf 2 300 und -12,3% auf 1 500).",
 		"erlaeuterungen": "Anzahl Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_000",
+		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"8876"

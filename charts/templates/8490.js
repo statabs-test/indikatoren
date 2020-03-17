@@ -34,7 +34,7 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
-      itemDistance: 7,
+      itemDistance: 2,
       itemStyle: {
         fontWeight: "normal"
       }

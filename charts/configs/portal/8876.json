@@ -127,7 +127,8 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -301,7 +302,8 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "itemDistance": 2
   },
   "plotOptions": {
     "series": {

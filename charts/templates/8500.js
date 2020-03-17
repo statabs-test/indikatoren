@@ -28,7 +28,7 @@
     ],
     "legend": {
       itemWidth: 97,
-      itemDistance: 3,
+      itemDistance: 1,
       symbolPadding: 0,
       "enabled": true,
       "layout": "horizontal",
