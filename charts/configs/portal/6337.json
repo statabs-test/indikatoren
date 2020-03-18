@@ -103,7 +103,7 @@
             });
           }
 
-          if (this['legend']['options']['enabled'] == false) {
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
             this.update({
               chart: {
                 marginTop: 7
@@ -230,7 +230,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": undefined
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

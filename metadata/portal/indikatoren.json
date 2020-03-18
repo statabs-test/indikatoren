@@ -7769,11 +7769,11 @@
 		"id": 5157
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.5178",
 		"kuerzelKunde": "GW2.1",
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -9628,7 +9628,7 @@
 	},
 	{
 		"title": "Entwicklung von Wachstum und Umweltverbrauch",
-		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz in globalen Hektaren pro Kopf",
+		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
 		"kuerzel": "I.04.2.6051",
 		"kuerzelKunde": "WE6",
 		"description": "Entwicklung von Wachstum und Umweltverbrauch",
@@ -9644,8 +9644,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz lag 2016 um 17,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt um 64,1% höher als im Jahr 2000.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> zum «Anzug Mirjam Ballmer und Konsorten betreffend ökologischer Fussabdruck in Basel-Stadt messen» kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
+		"lesehilfe": "Verglichen mit 1995 lag der ökologische Fussabdruck der Schweiz 2016 um 19,3% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2018 um 112,0% höher.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> zum «Anzug Mirjam Ballmer und Konsorten betreffend ökologischer Fussabdruck in Basel-Stadt messen» kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -29228,18 +29228,18 @@
 		"id": 8461
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.08852",
 		"kuerzelKunde": "GW2.2",
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-21T13:38:20.2020",
+		"aktualisierungsdatum": "2020-03-17T15:16:15.1515",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -29253,7 +29253,9 @@
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_303",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8877"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

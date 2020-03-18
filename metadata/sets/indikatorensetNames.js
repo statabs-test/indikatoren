@@ -23,5 +23,6 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien",
 	"Stadtteilmonitoring Rosental (Print)",
 	"City-Statistics",
+	"Nachhaltigkeit (Print)",
 	"Test"
 ];
