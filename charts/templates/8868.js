@@ -9,7 +9,7 @@
         series: {
           pointPadding: 0,
           borderWidth: 0,
-        minPointLength: 2
+          minPointLength: 2
         }
       },
       "data":{

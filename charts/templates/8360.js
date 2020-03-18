@@ -30,6 +30,12 @@ global Highcharts
         },
         {
           "x": 0
+        },        
+        {
+          "x": 0
+        },
+        {
+          "x": 0
         }
       ]
     },
@@ -49,7 +55,7 @@ global Highcharts
         color: "#246370",
         "tooltip": {
           "pointFormatter": function () {
-            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
         }
       },
@@ -58,7 +64,7 @@ global Highcharts
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           },
         }
       },
@@ -67,7 +73,7 @@ global Highcharts
         color: "#0F7399",
         "tooltip": {
           "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
         }
 
@@ -77,7 +83,7 @@ global Highcharts
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
         }
       },
@@ -86,7 +92,7 @@ global Highcharts
         color: "#689199",
         "tooltip": {
           "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
         }
       },
@@ -95,7 +101,7 @@ global Highcharts
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
         }
       },
@@ -104,7 +110,7 @@ global Highcharts
         color: "#A8C3CA",
         "tooltip": {
           "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
         }
       },
@@ -113,17 +119,33 @@ global Highcharts
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
         }
+        },
+        {
+          "index": 8,
+          color: "#D3E2E4",
+          "tooltip": {
+            "pointFormatter": function () {
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+            }
+          }
+        },
+        {
+          "index": 9,
+          "type": "errorbar",
+          "tooltip": {
+            "pointFormatter": function () {
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
+            }
+          }
       },
-
     ],
     "xAxis": {
       "type": "category"
     },
     "yAxis": {
-      tickAmount: 7,
       "labels": {
         "formatter": function () {
           return Highcharts.numberFormat((this.value), 0);
@@ -141,7 +163,7 @@ global Highcharts
       }
     },
     "chart": {
-      "marginBottom": 65,
+      "marginBottom": 80,
       //"marginTop": 75,
       "type": "column",
       "inverted": false

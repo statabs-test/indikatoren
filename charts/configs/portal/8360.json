@@ -5,7 +5,7 @@
       "color": "#246370",
       "tooltip": {
         "pointFormatter": function () {
-            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
       },
       "data": [
@@ -34,7 +34,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
       },
       "data": [
@@ -67,7 +67,7 @@
       "color": "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
       },
       "data": [
@@ -96,7 +96,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
       },
       "data": [
@@ -129,7 +129,7 @@
       "color": "#689199",
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
       },
       "data": [
@@ -158,7 +158,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
       },
       "data": [
@@ -191,7 +191,7 @@
       "color": "#A8C3CA",
       "tooltip": {
         "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
       },
       "data": [
@@ -220,7 +220,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
           }
       },
       "data": [
@@ -243,6 +243,68 @@
           "name": "BS\u002FBL\u002FJU",
           "low": 270875,
           "high": 278731
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#D3E2E4",
+      "tooltip": {
+        "pointFormatter": function () {
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+            }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          94437
+        ],
+        [
+          "Basel-Landschaft",
+          142808
+        ],
+        [
+          "Jura",
+          35181
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          272426
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
+            }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 92012,
+          "high": 96863
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 139973,
+          "high": 145643
+        },
+        {
+          "name": "Jura",
+          "low": 33826,
+          "high": 36536
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 268456,
+          "high": 276396
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -297,7 +359,7 @@
             }
           }
     },
-    "marginBottom": 65,
+    "marginBottom": 80,
     "type": "column",
     "inverted": false,
     "renderTo": "container-8360",
@@ -352,8 +414,7 @@
       "formatter": function () {
           return Highcharts.numberFormat((this.value), 0);
         }
-    },
-    "tickAmount": 7
+    }
   },
   "navigation": {
     "menuItemStyle": {

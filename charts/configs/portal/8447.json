@@ -283,6 +283,77 @@
       ],
       "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#D3E2E4",
+      "tooltip": {
+        "pointFormatter": function () {
+              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          69.8454
+        ],
+        [
+          "Basel-Landschaft",
+          71.9717
+        ],
+        [
+          "Jura",
+          72.2519
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          71.246
+        ],
+        [
+          "Schweiz",
+          71.2619
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+            }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 67.6837,
+          "high": 72.0071
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 70.2579,
+          "high": 73.6855
+        },
+        {
+          "name": "Jura",
+          "low": 68.9018,
+          "high": 75.602
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 69.9973,
+          "high": 72.4946
+        },
+        {
+          "name": "Schweiz",
+          "low": 70.9762,
+          "high": 71.5475
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {

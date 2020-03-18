@@ -30,6 +30,12 @@ global Highcharts
         },
         {
           "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
         }
       ]
     },
@@ -125,7 +131,26 @@ global Highcharts
           }
         }
       },
-
+      {
+        "index": 8,
+        color: "#D3E2E4",
+        borderColor: null,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
+      },
+      {
+        "index": 9,
+        "type": "errorbar",
+        lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
+      },
     ],
     "xAxis": {
       "type": "category",

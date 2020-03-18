@@ -223,6 +223,62 @@
       ],
       "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "crisp": false,
+      "color": "#D3E2E4",
+      "borderColor": null,
+      "data": [
+        [
+          "Basel-Stadt",
+          94437
+        ],
+        [
+          "Basel-Landschaft",
+          142808
+        ],
+        [
+          "Jura",
+          35181
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          272426
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "crisp": false,
+      "type": "errorbar",
+      "lineWidth": 0.5,
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 92012,
+          "high": 96863
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 139973,
+          "high": 145643
+        },
+        {
+          "name": "Jura",
+          "low": 33826,
+          "high": 36536
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 268456,
+          "high": 276396
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {

@@ -30,6 +30,12 @@ global Highcharts
         },
         {
           "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
         }
       ]
     },
@@ -90,6 +96,18 @@ global Highcharts
       },
       {
         "index": 7,
+        crisp: false,
+        "type": "errorbar",
+        lineWidth: 0.5,
+      },
+      {
+        "index": 8,
+        crisp: false,
+        color: "#D3E2E4",
+        borderColor: null,
+      },
+      {
+        "index": 9,
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
