@@ -779,11 +779,11 @@ var indikatorensetData = [
 		"id": 8368
 	},
 	{
-		"title": "Neue Absolventen",
+		"title": "Abschlussquote der Hochschulen",
 		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "2.2-2",
-		"description": "Neue Absolventen",
+		"description": "Abschlussquote der Hochschulen",
 		"thema": "15 Bildung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",

@@ -235,7 +235,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Altersklassen von 15 bis 64 Jahren"
+    "text": "Altersklassen von 15 bis 64 Jahren; BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
     "style": {
@@ -266,7 +266,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickInterval": 1
+    "tickInterval": 1,
+    "tickAmount": 11
   },
   "navigation": {
     "menuItemStyle": {
