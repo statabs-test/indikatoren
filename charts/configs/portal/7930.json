@@ -10,7 +10,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2005",
@@ -39,7 +39,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2005",
@@ -68,7 +68,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2005",
@@ -96,7 +96,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2005",
@@ -144,7 +144,7 @@
             });
           }
 
-          if (this['legend']['options']['enabled'] == false) {
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
             this.update({
               chart: {
                 marginTop: 7

@@ -253,14 +253,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:27:09.099",
+		"aktualisierungsdatum": "2020-03-04T17:14:05.055",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Städte Basel, Zürich und Genf blieb in den letzten zehn Jahren eher unverändert, während sich diejenige der Stadt Bern seit 2012 verschlechtert hat. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -813,7 +813,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017",
 		"kuerzel": "I.50.1.6136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -829,9 +829,9 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied ist zwischen den Geschlechtern zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"lesehilfe": "In der Altersgruppe der der 30- bis 39-Jährigen haben 49,0% einen universitären Abschluss, in der Gesamtbevölkerung ab 15 Jahren liegt der Anteil bei 28,4%.",
+		"erlaeuterungen": "Keine oder obligatorische Schule: keine abgeschlossene Ausbildung, obligatorische Schule. Berufsvorbereitende Schule: 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule (mind. 1 Jahr), Sozialjahr, Brückenangebote. DMS, FMS o.ä.: Diplommittelschule, Verkehrsschule, Fachmittelschule. Berufslehre: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte. Matura: Gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Höhere Fachschule: Höhere Fach- und Berufsausbildung mit eidg. Fachausweis, eidg. Diplom oder Meisterprüfung, höhere Fachschule für Technik oder für Wirtschaft. Universität: Bachelor, Master, Lizentiat, Diplom, Staatsexamen, Nachdiplom, Doktorat, Habilitation.<br>Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_004",
@@ -842,7 +842,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1114,7 +1114,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit 50,0% der Befragten stimmen 2019 dieser Aussage deutlich mehr Befragte sehr zu als 2015 (23,6%). Insgesamt 8,9% der Befragten stimmen der Aussage eher oder überhaupt nicht zu.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

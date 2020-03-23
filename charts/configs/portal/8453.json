@@ -234,7 +234,8 @@
 				},
       "align": "left",
       "x": -80
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "events": {
@@ -255,7 +256,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -327,9 +328,7 @@
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      },
-      "type": "category",
-      "rotation": 0
+      }
     },
     "max": 100
   },
@@ -360,15 +359,12 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null,
-      "whiteSpace": "nowrap"
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-				return this.name;
-			},
-    "enabled": true,
-    "itemWidth": 140
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": 8453
