@@ -1286,10 +1286,15 @@ id | visible | visibleInPortal | indikatorenset
 8863 | true | true | Wirtschaftsbericht BS_BL_JU
 8864 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8868 | true | true | Wirtschaftsbericht BS_BL_JU
+8869 | true | true | Wirtschaftsbericht BS_BL_JU
 8873 | true | true | Wirtschaftsbericht BS_BL_JU
 8874 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8875 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8876 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8969 | true | true | Wirtschaftsbericht BS_BL_JU
+8970 | true | true | Wirtschaftsbericht BS_BL_JU
+8972 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8973 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
