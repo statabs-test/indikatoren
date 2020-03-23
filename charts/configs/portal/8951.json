@@ -902,7 +902,8 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0,
     "min": 0,
@@ -991,7 +992,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -1003,6 +1004,8 @@
       "fontFamily": "Arial"
     },
     "type": "column",
+    "inverted": false,
+    "spacingTop": 7,
     "renderTo": "container-8951",
     "spacingBottom": 12
   },
@@ -1048,7 +1051,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 75000
+    "tickAmount": 5,
+    "max": undefined
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -1068,25 +1072,31 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "reversed": true,
+    "labelFormatter": function(){
+    return this.name.replace("und", "u.");
+  }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
       },
-      "pointPadding": 100,
-      "borderWidth": 0,
-      "pointWidth": 10,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
       "stacking": "normal"
     }
   },
