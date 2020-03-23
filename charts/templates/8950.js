@@ -2,8 +2,9 @@
     return {
    "yAxis": {
     "labels": {
-      "format": "{value:,.0f}%",
-    }
+      "format": "{value:,.0f}%"      
+    },
+    tickInterval: 10
   },
   "xAxis": {
 	"tickInterval": 1,
