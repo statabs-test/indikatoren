@@ -7,7 +7,10 @@
       "tickInterval": 3
     },
     "yAxis": {
-      "tickInterval": 20000
+      "labels": {
+        "format": "{value:,.1f}",
+      }
+      //  "tickInterval": 20000
     },
     "series": [
       {
