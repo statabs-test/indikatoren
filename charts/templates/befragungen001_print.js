@@ -5,6 +5,15 @@
                 load: function () {
                     this.credits.element.onclick = function () { };
 
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 6
+                            }
+                        });
+                    }
+
                     //square legends must be placed 3 pixels more to the left than lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
@@ -71,7 +80,7 @@
         },
         xAxis: {
             type: "category",
-            //reversed: true,
+            reversed: true,
             uniqueNames: true,
             lineColor: '#B9CFD7',
             lineWidth: 0.5,
@@ -104,15 +113,14 @@
                     var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 
                     //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
-                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>'; 
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
 
                     //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
 
                     this.value = this.value.replace("und weitere", "u.a.");
 
-                    //check for value that contains only spaces, else add br/sum
-                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value.replace(" ",doBr) + doBr + '(' + nString + sum + ')';
-                    //return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
                 }
             }
         },

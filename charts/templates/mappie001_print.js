@@ -75,8 +75,7 @@
 			symbolPadding: 10,
 			itemStyle: {
 				fontSize: "15px",
-				"fontWeight": "normal",
-				color: '#000000'
+				"fontWeight": "normal"
 			},
 			"title": {
 				"style": {
@@ -127,7 +126,7 @@
 					formatter: function () {
 						return '1 km';
 					},
-					style: { fontSize: "15px", fontWeight: "normal", color: '#000000' },
+					style: { fontSize: "15px", fontWeight: "normal", color: 'black' },
 					y: -10
 				}
 			}
@@ -323,8 +322,19 @@
 									borderColor: color(data.value)
 								}
 							],
-							dataLabels: {
-								enabled: false
+							dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 17.02.2020)
+								enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
+								distance: 0,
+								padding: 2,
+								x: -15,
+								borderWidth: 0,
+								style: {
+									textOutline: '0px'
+								},
+								formatter: function () {
+									return correspondingMapSeriesItem.Wohnviertel_Id;
+									//return correspondingMapSeriesItem.properties.LIBGEO;
+								}
 							}
 						};
 						//create the config handed in from the chart
@@ -365,8 +375,7 @@
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
 						fontSize: '15px',
-						fontWeight: 'bold',
-						color: '#000000'
+						fontWeight: 'bold'
 					})
 					.attr({
 						zIndex: 6,
@@ -388,8 +397,7 @@
 			addLegendLabel: function (chart, text, x, y, cssClass, useHtml) {
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
-						fontSize: '15px',
-						color: '#000000'
+						fontSize: '15px'
 					})
 					.attr({
 						zIndex: 6,
@@ -404,8 +412,7 @@
 						class: cssClass + ' pieLegend'
 					})
 					.css({
-						fontWeight: 'bold',
-						color: '#000000'
+						fontWeight: 'bold'
 					}).
 					add();
 			},

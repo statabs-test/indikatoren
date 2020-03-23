@@ -7,7 +7,9 @@
             "height": 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Arial",
+                fontSize: '10px',
+                color: '#000000'
             },
             "zoomType": "xy",
             "events": {
@@ -26,7 +28,7 @@
                         });
                     }
 
-                    if (this['legend']['options']['enabled'] == false) {
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
                                 marginTop: 7
@@ -40,6 +42,49 @@
                             legend: {
                                 x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                             }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
                         });
                     }
                 }
