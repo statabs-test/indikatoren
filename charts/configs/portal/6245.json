@@ -224,9 +224,9 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      }
-    },
-    "tickInterval": 20000
+      },
+      "format": "{value:,.1f}"
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

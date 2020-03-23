@@ -149,7 +149,6 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
@@ -223,10 +222,10 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -235,8 +234,9 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
+    "inverted": true,
     "renderTo": "container-6251",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -268,7 +268,7 @@
       "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 8,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
@@ -280,9 +280,9 @@
   "legend": {
     "enabled": true,
     "useHTML": true,
-    "layout": "vertical",
-    "align": "right",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,
     "itemMarginBottom": 4,
@@ -295,12 +295,12 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            }
+            },
+    "reversed": true
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 1
+    "shared": false
   },
   "credits": {
     "enabled": true,

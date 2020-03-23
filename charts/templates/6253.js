@@ -1,16 +1,16 @@
 (function () {
     return {
-        "chart": {
-			"inverted": false,
-			marginTop: 10
+        chart: {
+            inverted: false,
+            marginTop: 10
         },
-        "yAxis": {
+        yAxis: {
             tickInterval: 25,
         },
-        "xAxis": {
-            "type": "category",
-            "labels": {
-                "formatter": function () {
+        xAxis: {
+            type: "category",
+            labels: {
+                formatter: function () {
                     return this.value;
                 }
             }
@@ -24,16 +24,10 @@
             { "color": "#FF8028", "index": 9, legendIndex: 5 }, /*dunkelgelb */
         ],
         "legend": {
-            "enabled": true,
             "layout": "vertical",
             reversed: true,
-            //"itemWidth": 110,
-            //itemDistance: 5, 
             "verticalAlign": "middle",
             "align": "right",
-            "itemStyle": {
-                "fontWeight": "normal"
-            }
         },
         "data": {
             "switchRowsAndColumns": true

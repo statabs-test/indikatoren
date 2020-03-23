@@ -826,7 +826,6 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
@@ -845,75 +844,11 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					//add sum of observations of visible series to the axis label
-					var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-						return val.visible;
-					});
-					var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-					var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-						return accumulator + series.yData[indexOfCurrentValue];
-					}, 0);
-					//use N if all series are visible, otherwise use n
-					var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-
-
-					//console.log(this.chart.series);
-					var txt = this.value;
-					console.log(this);
-					if (typeof this.value.replace === 'function') {
-						txt = txt.replace("mögl.", "m.")
-							.replace("im ", "")
-							.replace("am ", "")
-							.replace("in ", "")
-							.replace("versorgung", "vers.")
-							.replace("einrichtungen", "einricht.");
-
-						txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
-
-						return txt;
-					}// else return this.value;
-					//check for value that contains only spaces
-					//return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
-
-
-					/*
-										var txt = this.value;
-										if (typeof this.value.replace === 'function')  {
-											console.log(this);
-											txt = txt
-											.replace("mögl.", "m.")
-											.replace("im ", "")
-											.replace("am ", "")
-											.replace("in ", "")
-											.replace("versorgung", "vers.");
-					
-										//check for value that contains only spaces
-										//if (txt.replace(/\s/g, "") == "")  txt = txt; else txt = txt + ' (' + nString + sum + ')';
-										return txt;
-										} //else console.log(this);
-										//console.log(typeof txt, txt);
-					*/					/*
-										//var txt = this.value.toString();
-					
-										//# workaround for hc-bug: hard-coded replace 
-										//if (this.value.toString() == '2015: Parkplätze' && this.isFirst == true) { this.value = '2015: Luftqualität'; }
-										this.value.replace("mögl.", "m.")
-											.replace("im ", "")
-											.replace("am ", "")
-											.replace("in ", "")
-											.replace("versorgung", "vers.")
-											.replace("einrichtungen", "einricht.");
-					
-										//check for value that contains only spaces
-										//console.log(txt.replace(/\s/g, ""))
-										//txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
-										return this.value;
-										*/
-				},
-      "align": "left",
-      "tickInterval": 1,
+			//console.log(this);
+			return (this.value.slice(0, 4) == '2019') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
+		  },
       "step": 1,
-      "x": -190
+      "overflow": "justify"
     }
   },
   "chart": {
@@ -944,8 +879,8 @@
                 }
     },
     "type": "column",
-    "width": 320,
-    "height": 713,
+    "width": 665,
+    "height": 413,
     "spacing": [
       2,
       2,
@@ -959,8 +894,8 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "marginLeft": 200,
     "inverted": true,
+    "marginRight": 12,
     "renderTo": "container-8971",
     "spacingBottom": 12
   },
@@ -973,8 +908,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0.05,
-      "groupPadding": 0.02,
+      "pointPadding": 0.27,
+      "groupPadding": -0.5,
       "shadow": false
     },
     "column": {
@@ -989,7 +924,7 @@
   },
   "yAxis": {
     "type": "category",
-    "tickInterval": 25,
+    "tickInterval": 10,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -997,23 +932,24 @@
       "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 0
     }
   },
   "legend": {
     "enabled": true,
     "useHTML": true,
     "layout": "horizontal",
-    "align": "left",
+    "align": "right",
     "verticalAlign": "top",
     "symbolRadius": 0,
-    "padding": 0,
+    "padding": 12,
     "itemMarginBottom": 4,
     "itemStyle": {
       "fontFamily": "Arial",
@@ -1025,6 +961,8 @@
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
             },
+    "alignColumns": false,
+    "margin": 0,
     "itemDistance": 5
   },
   "tooltip": {

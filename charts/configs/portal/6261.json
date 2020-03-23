@@ -1344,12 +1344,280 @@
       ],
       "name": "Weiss nicht",
       "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2015: ÖV-Angebot",
+          0
+        ],
+        [
+          "2019: ÖV-Angebot",
+          75
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. in Basel",
+          0
+        ],
+        [
+          "2019: Einkaufsmögl. im Kanton",
+          70
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Abfallbeseitigung",
+          0
+        ],
+        [
+          "2019: Abfallbeseitigung",
+          87
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. im Quartier",
+          0
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          67
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          0
+        ],
+        [
+          "2019: Parks, Grünanlagen",
+          84
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          0
+        ],
+        [
+          "2019: Gesundheitsversorgung",
+          79
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2015: Öffentliche Sicherheit",
+          0
+        ],
+        [
+          "2019: Öffentliche Sicherheit",
+          78
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          0
+        ],
+        [
+          "2019: Kulturangebot",
+          92
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2015: Verkehrssicherheit",
+          0
+        ],
+        [
+          "2019: Verkehrssicherheit",
+          85
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          0
+        ],
+        [
+          "2019: Sauberkeit",
+          92
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          0
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          90
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          0
+        ],
+        [
+          "2019: Luftqualität",
+          82
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          0
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          81
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          1
+        ],
+        [
+          "2019: Quartierleben",
+          96
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          0
+        ],
+        [
+          "2019: Lärmsituation",
+          91
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          0
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          77
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          0
+        ],
+        [
+          "2019: Schulen, Bildung",
+          85
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          0
+        ],
+        [
+          "2019: Wohnungsangebot",
+          87
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          0
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          101
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          0
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          86
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          0
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          88
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          0
+        ],
+        [
+          "2019: Kinderbetreuung",
+          80
+        ]
+      ],
+      "name": "Keine Angaben",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
@@ -1368,11 +1636,14 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-          return this.value;
+          //console.log(this);
+          return (this.value.slice(0, 4) == '2019') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         },
       "step": 1,
       "overflow": "justify"
-    }
+    },
+    "min": 0,
+    "max": 31
   },
   "chart": {
     "events": {
@@ -1418,6 +1689,7 @@
       "fontSize": "10px"
     },
     "inverted": true,
+    "marginRight": 12,
     "renderTo": "container-6261",
     "spacingBottom": 12
   },
@@ -1429,7 +1701,10 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0.27,
+      "groupPadding": -0.5,
+      "shadow": false
     },
     "column": {
       "groupPadding": 0
@@ -1451,7 +1726,7 @@
       "text": null
     },
     "labels": {
-      "y": 10,
+      "y": 15,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
@@ -1464,11 +1739,11 @@
   "legend": {
     "enabled": true,
     "useHTML": true,
-    "layout": "vertical",
+    "layout": "horizontal",
     "align": "right",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "symbolRadius": 0,
-    "padding": 0,
+    "padding": 12,
     "itemMarginBottom": 4,
     "itemStyle": {
       "fontFamily": "Arial",
@@ -1479,7 +1754,10 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            }
+            },
+    "alignColumns": false,
+    "margin": 0,
+    "itemDistance": 5
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
