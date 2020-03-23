@@ -3556,6 +3556,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3600,6 +3601,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3628,7 +3630,7 @@
         "style": {
           "fontSize": "15px",
           "fontWeight": "normal",
-          "color": "#000000"
+          "color": "black"
         },
         "y": -10
       }
@@ -3768,7 +3770,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-23"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
   },
   "colorAxis": {
     "min": 0,
@@ -3831,8 +3833,7 @@
     "symbolPadding": 10,
     "itemStyle": {
       "fontSize": "15px",
-      "fontWeight": "normal",
-      "color": "#000000"
+      "fontWeight": "normal"
     },
     "title": {
       "style": {
@@ -4038,8 +4039,19 @@
 									borderColor: color(data.value)
 								}
 							],
-							dataLabels: {
-								enabled: false
+							dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 17.02.2020)
+								enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
+								distance: 0,
+								padding: 2,
+								x: -15,
+								borderWidth: 0,
+								style: {
+									textOutline: '0px'
+								},
+								formatter: function () {
+									return correspondingMapSeriesItem.Wohnviertel_Id;
+									//return correspondingMapSeriesItem.properties.LIBGEO;
+								}
 							}
 						};
 						//create the config handed in from the chart
@@ -4078,8 +4090,7 @@
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
 						fontSize: '15px',
-						fontWeight: 'bold',
-						color: '#000000'
+						fontWeight: 'bold'
 					})
 					.attr({
 						zIndex: 6,
@@ -4098,8 +4109,7 @@
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml) {
 				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
-						fontSize: '15px',
-						color: '#000000'
+						fontSize: '15px'
 					})
 					.attr({
 						zIndex: 6,
@@ -4113,8 +4123,7 @@
 						class: cssClass + ' pieLegend'
 					})
 					.css({
-						fontWeight: 'bold',
-						color: '#000000'
+						fontWeight: 'bold'
 					}).
 					add();
 			},

@@ -9,7 +9,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2005",
@@ -36,7 +36,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2005",
@@ -85,7 +85,7 @@
             });
           }
 
-          if (this['legend']['options']['enabled'] == false) {
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
             this.update({
               chart: {
                 marginTop: 7
@@ -105,6 +105,50 @@
               }
             );
           }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
         }
     },
     "borderColor": "#fbfbfb",
@@ -187,7 +231,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-23"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-14"
   },
   "legend": {
     "enabled": true,

@@ -6,138 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          1035
-        ],
-        [
-          "2019: ÖV-Angebot",
-          1441
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. in Basel",
-          745
-        ],
-        [
-          "2019: Einkaufsmögl. im Kanton",
-          1056
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2015: Abfallbeseitigung",
-          736
-        ],
-        [
-          "2019: Abfallbeseitigung",
-          1141
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. im Quartier",
-          700
-        ],
-        [
-          "2019: Einkaufsmögl. am Wohnort",
-          1047
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015: Grünanlagen",
-          747
-        ],
-        [
-          "2019: Parks, Grünanlagen",
-          987
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Gesundheitsversorgung",
-          777
-        ],
-        [
-          "2019: Gesundheitsversorgung",
-          1000
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2015: Öffentliche Sicherheit",
-          317
-        ],
-        [
-          "2019: Öffentliche Sicherheit",
-          695
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2015: Kulturangebot",
-          650
-        ],
-        [
-          "2019: Kulturangebot",
-          796
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2015: Verkehrssicherheit",
-          367
-        ],
-        [
-          "2019: Verkehrssicherheit",
-          585
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2015: Sauberkeit",
-          428
-        ],
-        [
-          "2019: Sauberkeit",
-          806
-        ],
-        [
-          "          ",
-          null
-        ],
-        [
-          "2015: Gebäude\u002FStrassenbild",
-          346
-        ],
-        [
-          "2019: Gebäude\u002FStrassenbild",
-          482
-        ],
-        [
-          "           ",
-          null
-        ],
-        [
           "2015: Luftqualität",
           282
         ],
@@ -274,138 +142,6 @@
       "index": 4,
       "legendIndex": 2,
       "data": [
-        [
-          "2015: ÖV-Angebot",
-          397
-        ],
-        [
-          "2019: ÖV-Angebot",
-          443
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. in Basel",
-          688
-        ],
-        [
-          "2019: Einkaufsmögl. im Kanton",
-          764
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2015: Abfallbeseitigung",
-          645
-        ],
-        [
-          "2019: Abfallbeseitigung",
-          676
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. im Quartier",
-          631
-        ],
-        [
-          "2019: Einkaufsmögl. am Wohnort",
-          739
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015: Grünanlagen",
-          626
-        ],
-        [
-          "2019: Parks, Grünanlagen",
-          775
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Gesundheitsversorgung",
-          644
-        ],
-        [
-          "2019: Gesundheitsversorgung",
-          748
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2015: Öffentliche Sicherheit",
-          831
-        ],
-        [
-          "2019: Öffentliche Sicherheit",
-          976
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2015: Kulturangebot",
-          693
-        ],
-        [
-          "2019: Kulturangebot",
-          820
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2015: Verkehrssicherheit",
-          922
-        ],
-        [
-          "2019: Verkehrssicherheit",
-          1021
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2015: Sauberkeit",
-          698
-        ],
-        [
-          "2019: Sauberkeit",
-          798
-        ],
-        [
-          "          ",
-          null
-        ],
-        [
-          "2015: Gebäude\u002FStrassenbild",
-          904
-        ],
-        [
-          "2019: Gebäude\u002FStrassenbild",
-          1080
-        ],
-        [
-          "           ",
-          null
-        ],
         [
           "2015: Luftqualität",
           930
@@ -544,138 +280,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          53
-        ],
-        [
-          "2019: ÖV-Angebot",
-          63
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. in Basel",
-          48
-        ],
-        [
-          "2019: Einkaufsmögl. im Kanton",
-          98
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2015: Abfallbeseitigung",
-          87
-        ],
-        [
-          "2019: Abfallbeseitigung",
-          118
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. im Quartier",
-          152
-        ],
-        [
-          "2019: Einkaufsmögl. am Wohnort",
-          170
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015: Grünanlagen",
-          110
-        ],
-        [
-          "2019: Parks, Grünanlagen",
-          171
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Gesundheitsversorgung",
-          44
-        ],
-        [
-          "2019: Gesundheitsversorgung",
-          109
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2015: Öffentliche Sicherheit",
-          287
-        ],
-        [
-          "2019: Öffentliche Sicherheit",
-          216
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2015: Kulturangebot",
-          69
-        ],
-        [
-          "2019: Kulturangebot",
-          136
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2015: Verkehrssicherheit",
-          173
-        ],
-        [
-          "2019: Verkehrssicherheit",
-          293
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2015: Sauberkeit",
-          319
-        ],
-        [
-          "2019: Sauberkeit",
-          281
-        ],
-        [
-          "          ",
-          null
-        ],
-        [
-          "2015: Gebäude\u002FStrassenbild",
-          181
-        ],
-        [
-          "2019: Gebäude\u002FStrassenbild",
-          273
-        ],
-        [
-          "           ",
-          null
-        ],
-        [
           "2015: Luftqualität",
           220
         ],
@@ -812,138 +416,6 @@
       "index": 2,
       "legendIndex": 4,
       "data": [
-        [
-          "2015: ÖV-Angebot",
-          4
-        ],
-        [
-          "2019: ÖV-Angebot",
-          11
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. in Basel",
-          2
-        ],
-        [
-          "2019: Einkaufsmögl. im Kanton",
-          12
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2015: Abfallbeseitigung",
-          29
-        ],
-        [
-          "2019: Abfallbeseitigung",
-          36
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. im Quartier",
-          17
-        ],
-        [
-          "2019: Einkaufsmögl. am Wohnort",
-          33
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015: Grünanlagen",
-          14
-        ],
-        [
-          "2019: Parks, Grünanlagen",
-          26
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Gesundheitsversorgung",
-          6
-        ],
-        [
-          "2019: Gesundheitsversorgung",
-          19
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2015: Öffentliche Sicherheit",
-          53
-        ],
-        [
-          "2019: Öffentliche Sicherheit",
-          66
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2015: Kulturangebot",
-          6
-        ],
-        [
-          "2019: Kulturangebot",
-          16
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2015: Verkehrssicherheit",
-          23
-        ],
-        [
-          "2019: Verkehrssicherheit",
-          48
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2015: Sauberkeit",
-          53
-        ],
-        [
-          "2019: Sauberkeit",
-          80
-        ],
-        [
-          "          ",
-          null
-        ],
-        [
-          "2015: Gebäude\u002FStrassenbild",
-          22
-        ],
-        [
-          "2019: Gebäude\u002FStrassenbild",
-          43
-        ],
-        [
-          "           ",
-          null
-        ],
         [
           "2015: Luftqualität",
           36
@@ -1082,138 +554,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "2015: ÖV-Angebot",
-          13
-        ],
-        [
-          "2019: ÖV-Angebot",
-          11
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. in Basel",
-          15
-        ],
-        [
-          "2019: Einkaufsmögl. im Kanton",
-          31
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2015: Abfallbeseitigung",
-          5
-        ],
-        [
-          "2019: Abfallbeseitigung",
-          5
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015: Einkaufsmögl. im Quartier",
-          3
-        ],
-        [
-          "2019: Einkaufsmögl. am Wohnort",
-          8
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015: Grünanlagen",
-          7
-        ],
-        [
-          "2019: Parks, Grünanlagen",
-          9
-        ],
-        [
-          "     ",
-          null
-        ],
-        [
-          "2015: Gesundheitsversorgung",
-          32
-        ],
-        [
-          "2019: Gesundheitsversorgung",
-          85
-        ],
-        [
-          "      ",
-          null
-        ],
-        [
-          "2015: Öffentliche Sicherheit",
-          12
-        ],
-        [
-          "2019: Öffentliche Sicherheit",
-          26
-        ],
-        [
-          "       ",
-          null
-        ],
-        [
-          "2015: Kulturangebot",
-          77
-        ],
-        [
-          "2019: Kulturangebot",
-          148
-        ],
-        [
-          "        ",
-          null
-        ],
-        [
-          "2015: Verkehrssicherheit",
-          16
-        ],
-        [
-          "2019: Verkehrssicherheit",
-          15
-        ],
-        [
-          "         ",
-          null
-        ],
-        [
-          "2015: Sauberkeit",
-          6
-        ],
-        [
-          "2019: Sauberkeit",
-          5
-        ],
-        [
-          "          ",
-          null
-        ],
-        [
-          "2015: Gebäude\u002FStrassenbild",
-          36
-        ],
-        [
-          "2019: Gebäude\u002FStrassenbild",
-          74
-        ],
-        [
-          "           ",
-          null
-        ],
-        [
           "2015: Luftqualität",
           37
         ],
@@ -1344,6 +684,143 @@
       ],
       "name": "Weiss nicht",
       "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2015: Luftqualität",
+          0
+        ],
+        [
+          "2019: Luftqualität",
+          82
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          0
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          81
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          1
+        ],
+        [
+          "2019: Quartierleben",
+          96
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          0
+        ],
+        [
+          "2019: Lärmsituation",
+          91
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          0
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          77
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          0
+        ],
+        [
+          "2019: Schulen, Bildung",
+          85
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          0
+        ],
+        [
+          "2019: Wohnungsangebot",
+          87
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          0
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          101
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          0
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          86
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          0
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          88
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          0
+        ],
+        [
+          "2019: Kinderbetreuung",
+          80
+        ]
+      ],
+      "name": "Keine Angaben",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -1368,10 +845,75 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-          return this.value;
-        },
+					//add sum of observations of visible series to the axis label
+					var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+						return val.visible;
+					});
+					var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+					var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+						return accumulator + series.yData[indexOfCurrentValue];
+					}, 0);
+					//use N if all series are visible, otherwise use n
+					var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+
+					//console.log(this.chart.series);
+					var txt = this.value;
+					console.log(this);
+					if (typeof this.value.replace === 'function') {
+						txt = txt.replace("mögl.", "m.")
+							.replace("im ", "")
+							.replace("am ", "")
+							.replace("in ", "")
+							.replace("versorgung", "vers.")
+							.replace("einrichtungen", "einricht.");
+
+						txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
+
+						return txt;
+					}// else return this.value;
+					//check for value that contains only spaces
+					//return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
+
+
+					/*
+										var txt = this.value;
+										if (typeof this.value.replace === 'function')  {
+											console.log(this);
+											txt = txt
+											.replace("mögl.", "m.")
+											.replace("im ", "")
+											.replace("am ", "")
+											.replace("in ", "")
+											.replace("versorgung", "vers.");
+					
+										//check for value that contains only spaces
+										//if (txt.replace(/\s/g, "") == "")  txt = txt; else txt = txt + ' (' + nString + sum + ')';
+										return txt;
+										} //else console.log(this);
+										//console.log(typeof txt, txt);
+					*/					/*
+										//var txt = this.value.toString();
+					
+										//# workaround for hc-bug: hard-coded replace 
+										//if (this.value.toString() == '2015: Parkplätze' && this.isFirst == true) { this.value = '2015: Luftqualität'; }
+										this.value.replace("mögl.", "m.")
+											.replace("im ", "")
+											.replace("am ", "")
+											.replace("in ", "")
+											.replace("versorgung", "vers.")
+											.replace("einrichtungen", "einricht.");
+					
+										//check for value that contains only spaces
+										//console.log(txt.replace(/\s/g, ""))
+										//txt = ((txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')');
+										return this.value;
+										*/
+				},
+      "align": "left",
+      "tickInterval": 1,
       "step": 1,
-      "overflow": "justify"
+      "x": -190
     }
   },
   "chart": {
@@ -1402,8 +944,8 @@
                 }
     },
     "type": "column",
-    "width": 665,
-    "height": 413,
+    "width": 320,
+    "height": 713,
     "spacing": [
       2,
       2,
@@ -1417,8 +959,9 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
+    "marginLeft": 200,
     "inverted": true,
-    "renderTo": "container-6261",
+    "renderTo": "container-8971",
     "spacingBottom": 12
   },
   "plotOptions": {
@@ -1429,21 +972,24 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0.05,
+      "groupPadding": 0.02,
+      "shadow": false
     },
     "column": {
       "groupPadding": 0
     }
   },
   "title": {
-    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1"
+    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2"
   },
   "subtitle": {
     "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» \u003Cbr\u003E Stand: 2019"
   },
   "yAxis": {
     "type": "category",
-    "tickInterval": 10,
+    "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -1451,22 +997,21 @@
       "text": null
     },
     "labels": {
-      "y": 10,
+      "y": 3,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": 0
+      }
     }
   },
   "legend": {
     "enabled": true,
     "useHTML": true,
-    "layout": "vertical",
-    "align": "right",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,
     "itemMarginBottom": 4,
@@ -1479,7 +1024,8 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            }
+            },
+    "itemDistance": 5
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -1490,7 +1036,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-20"
   },
   "navigation": {
     "buttonOptions": {
@@ -1498,6 +1044,6 @@
     }
   },
   "exporting": {
-    "filename": 6261
+    "filename": 8971
   }
 }

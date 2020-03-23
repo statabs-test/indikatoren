@@ -5,86 +5,86 @@
       "data": [
         [
           2000,
-          37764
+          1.306536525381
         ],
         [
           2001,
-          22039
+          1.409290163808
         ],
         [
           2002,
-          23722
+          1.326453295991
         ],
         [
           2003,
-          34053
+          1.360831065281
         ],
         [
           2004,
-          52201
+          1.438711098765
         ],
         [
           2005,
-          65745
+          1.519506399938
         ],
         [
           2006,
-          43273
+          1.405933402148
         ],
         [
           2007,
-          52559
+          1.401539019686
         ],
         [
           2008,
-          60842
+          1.235404752584
         ],
         [
           2009,
-          49314
+          0.924635966335
         ],
         [
           2010,
-          81705
+          0.745160737737
         ],
         [
           2011,
-          87909
+          0.495886611061
         ],
         [
           2012,
-          91175
+          0.472750652395
         ],
         [
           2013,
-          71229
+          0.340820045127
         ],
         [
           2014,
-          75525
+          0.23033892727871
         ],
         [
           2015,
-          60952
+          0.336533979677
         ],
         [
           2016,
-          54565
+          0.416770398237
         ],
         [
           2017,
-          59699
+          0.500366568914
         ],
         [
           2018,
-          58024
+          0.71
         ],
         [
           2019,
-          61674
+          1.01
         ]
       ],
-      "name": "Büro"
+      "name": "Leerwohnungsquote in %"
     }
   ],
   "chart": {
@@ -101,7 +101,7 @@
             });
           }
 
-          if (this['legend']['options']['enabled'] == false) {
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
             this.update({
               chart: {
                 marginTop: 7
@@ -121,6 +121,50 @@
               }
             );
           }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
         }
     },
     "borderColor": "#fbfbfb",
@@ -140,7 +184,7 @@
     "type": "line",
     "marginRight": 10,
     "renderTo": "container-6245",
-    "spacingBottom": 22
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -149,7 +193,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerstehende Geschäftsflächen"
+    "text": "Leerwohnungsquote"
   },
   "subtitle": {
     "style": {
@@ -210,9 +254,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: SVIT beider Basel;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
   },
   "legend": {
     "enabled": false,

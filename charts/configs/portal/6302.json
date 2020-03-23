@@ -168,7 +168,7 @@
             });
           }
 
-          if (this['legend']['options']['enabled'] == false) {
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
             this.update({
               chart: {
                 marginTop: 7
@@ -188,6 +188,50 @@
               }
             );
           }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
         }
     },
     "borderColor": "#fbfbfb",
@@ -241,6 +285,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 5,
       "title": ""
     },
@@ -260,6 +305,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 5,
       "gridLineWidth": 0,
       "opposite": true

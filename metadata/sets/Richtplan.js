@@ -785,11 +785,11 @@ var indikatorensetData = [
 		"id": 6215
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3a",
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -1286,11 +1286,11 @@ var indikatorensetData = [
 		"id": 7782
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2019",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.08877",
 		"kuerzelKunde": "ST 5-3b",
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
@@ -1298,8 +1298,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-02-21T13:38:20.2020",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1308,7 +1308,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "02_05_00_00_00_004",
 		"parentId": 8852,
 		"children": [
 			"8878"

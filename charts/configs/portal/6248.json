@@ -61,6 +61,10 @@
         [
           2018,
           807
+        ],
+        [
+          2019,
+          865
         ]
       ],
       "name": "Neubau"
@@ -126,6 +130,10 @@
         [
           2018,
           -114
+        ],
+        [
+          2019,
+          -186
         ]
       ],
       "name": "Abbruch"
@@ -191,6 +199,10 @@
         [
           2018,
           67
+        ],
+        [
+          2019,
+          158
         ]
       ],
       "name": "Umbausaldo"
@@ -262,6 +274,10 @@
         [
           2018,
           760
+        ],
+        [
+          2019,
+          837
         ]
       ],
       "name": "Nettowohnungsproduktion"
@@ -279,7 +295,9 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
     },
     "zoomType": "xy",
     "events": {
@@ -298,7 +316,7 @@
                         });
                     }
 
-                    if (this['legend']['options']['enabled'] == false) {
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
                                 marginTop: 7
@@ -312,6 +330,49 @@
                             legend: {
                                 x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                             }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
                         });
                     }
                 }
@@ -424,7 +485,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "legend": {
     "padding": 0,

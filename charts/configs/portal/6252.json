@@ -24,6 +24,10 @@
         [
           "2015 (Ø 7.8)",
           173
+        ],
+        [
+          "2019 (Ø 8.0)",
+          315
         ]
       ],
       "name": "Note 10",
@@ -53,6 +57,10 @@
         [
           "2015 (Ø 7.8)",
           223
+        ],
+        [
+          "2019 (Ø 8.0)",
+          437
         ]
       ],
       "name": "Note 9",
@@ -82,6 +90,10 @@
         [
           "2015 (Ø 7.8)",
           590
+        ],
+        [
+          "2019 (Ø 8.0)",
+          723
         ]
       ],
       "name": "Note 8",
@@ -111,6 +123,10 @@
         [
           "2015 (Ø 7.8)",
           281
+        ],
+        [
+          "2019 (Ø 8.0)",
+          320
         ]
       ],
       "name": "Note 7",
@@ -140,6 +156,10 @@
         [
           "2015 (Ø 7.8)",
           93
+        ],
+        [
+          "2019 (Ø 8.0)",
+          97
         ]
       ],
       "name": "Note 6",
@@ -169,6 +189,10 @@
         [
           "2015 (Ø 7.8)",
           93
+        ],
+        [
+          "2019 (Ø 8.0)",
+          85
         ]
       ],
       "name": "Note 5",
@@ -198,6 +222,10 @@
         [
           "2015 (Ø 7.8)",
           16
+        ],
+        [
+          "2019 (Ø 8.0)",
+          29
         ]
       ],
       "name": "Note 4",
@@ -227,6 +255,10 @@
         [
           "2015 (Ø 7.8)",
           14
+        ],
+        [
+          "2019 (Ø 8.0)",
+          24
         ]
       ],
       "name": "Note 3",
@@ -256,6 +288,10 @@
         [
           "2015 (Ø 7.8)",
           2
+        ],
+        [
+          "2019 (Ø 8.0)",
+          11
         ]
       ],
       "name": "Note 2",
@@ -285,6 +321,10 @@
         [
           "2015 (Ø 7.8)",
           4
+        ],
+        [
+          "2019 (Ø 8.0)",
+          7
         ]
       ],
       "name": "Note 1",
@@ -294,6 +334,7 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
@@ -320,6 +361,15 @@
     "events": {
       "load": function () {
                     this.credits.element.onclick = function () { };
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 6
+                            }
+                        });
+                    }
 
                     //square legends must be placed 3 pixels more to the left than lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
@@ -425,7 +475,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-19"
   },
   "navigation": {
     "buttonOptions": {
