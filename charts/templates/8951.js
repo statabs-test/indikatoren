@@ -4,14 +4,17 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 10,
+      "pointWidth": 5/*10*/,
       "stacking": "normal"
     }
   },
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels: {
+      rotation: -90
+    }
   },  
   "yAxis": {
   	 max: 75000,
@@ -21,9 +24,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
+    "layout": "vertical"/*"horizontal"*/,
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right"/*"left"*/,
     "itemStyle": {
       "fontWeight": "normal"
     }
