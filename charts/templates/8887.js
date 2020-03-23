@@ -13,9 +13,9 @@ global Highcharts
         },
   },
   "yAxis": {
-  	//"min": -16000,
-  	//"max": 16000,
-  	//"tickInterval": 4000,
+  	"min": -15000,
+  	"max": 15000,
+  	"tickInterval": 5000,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -133,6 +133,8 @@ global Highcharts
     "shared": false
   },
   "chart": {
+    width: 662, 
+    height: 208,
     events: {
       render: function(args){
         //Add functionality to define plotLines' zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
