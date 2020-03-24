@@ -29,9 +29,11 @@
                 text: null
             },
             labels: {
+                y: 12,
+                rotation: 0,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
-            	},
+                },
                 style: {
                     color: "#000000", 
                     textOverflow: 'none',
@@ -99,6 +101,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
+        itemDistance: 10,
        	//"y": 40,    
         "itemStyle": {
           "fontWeight": "normal"
