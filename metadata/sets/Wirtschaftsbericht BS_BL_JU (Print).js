@@ -1863,7 +1863,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Basel-Stadt zählt rund 191 000 Beschäftigte und damit etwa gleiche viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. In der betrachteten Zeitperiode hat die Beschäftigungszahl einzig im Baselbiet jedes Jahr zugenommen, während in Basel-Stadt und im Jura insbesondere 2015 auch Beschäftigungsrückgänge festgestellt wurden. Zuletzt im Jahr 2017 hat die Beschäftigung überall in der Region BS/BL/JU wieder zugenommen - insgesamt um 0,6%.",
-		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
