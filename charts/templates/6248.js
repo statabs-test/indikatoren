@@ -13,7 +13,7 @@
       }
     },
     "yAxis": {
-      max: 900,
+      max: 1050,
       tickInterval: 150,
       min: -300,
       "labels": {
@@ -28,7 +28,11 @@
       }]
     },
     "xAxis": {
-      "tickInterval": 1
+      "tickInterval": 1,
+      labels:{
+        rotation: -45,
+        step: 2
+      }
     },
     "legend": {
       "enabled": true,
@@ -68,16 +72,9 @@
         "marker": {
           "enabled": false
         },
-
         //"yAxis": 1,
         legendIndex: 3,
-        tooltip: {
-          "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-        }
       },
-    ],
-    "tooltip": {
-      "shared": true
-    },
+    ]
   };
 }());

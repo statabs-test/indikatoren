@@ -16,8 +16,8 @@
       align: "left",
       verticalAlign: "top",
       reversed: true,
-     itemDistance: 15
-     
+      itemDistance: 15
+
       /*      labelFormatter: function () {
               return this.name.replace(' ', '<br>').replace('/', '/<br>');
             },*/

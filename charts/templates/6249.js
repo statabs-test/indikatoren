@@ -12,7 +12,7 @@
       }
     },
     "yAxis": {
-      "max": 1200,
+//      "max": 1200,
       tickInterval: 200,
       "labels": {
         "format": "{value:,.0f}"
@@ -20,7 +20,7 @@
       plotLines: [{
         value: 0,
         color: '#B9CFD7',
-        width: 1,
+        width: 2,
         zIndex: 0
       }]
     },
