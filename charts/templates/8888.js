@@ -35,6 +35,7 @@
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
                 },
                 style: {
+                    fontSize: "10px",
                     color: "#000000", 
                     textOverflow: 'none',
                 }
