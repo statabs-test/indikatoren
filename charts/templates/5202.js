@@ -6,26 +6,10 @@
 				"text": ""
 			}
 		},
-		"colorAxis": {
-			"min": 0,
-			"max": 300,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value), 0);
-				}
-			}
-		},
 		"data": {
 			"seriesMapping": [
-				{
-					x: 0, y: 2
-				},
-				{
-					//2nd series: use y values from column 3
-					y: 3
-				}
+				{x: 0, y: 2},
+				{y: 3} //2nd series: use y values from column 3
 			]
 		},
 		"series": [
@@ -54,6 +38,17 @@
 				"visible": false
 			}
 		],
+		"colorAxis": {
+			"min": 0,
+			"max": 300,
+			"minColor": "#eff6e9",
+			"maxColor": "#4b7b1f",
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value), 0);
+				}
+			}
+		},
 		chart: {
 			events: {
 				load: function (e) {

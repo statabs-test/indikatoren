@@ -1,10 +1,4 @@
-/*  
-	global Highcharts
-	global geojson_wohnviertelEPSG2056 
-	global $
-*/
 (function () {
-
 	return {
 		"legend": {
 			useHTML: true,
@@ -28,14 +22,14 @@
 				name: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;35,0"
 			}, {
 				from: 35.0,
-				to: 79.999,
+				to: 74.999,
 				color: '#73B97C',
-				name: "&nbsp;&nbsp;35,0 − &nbsp;&nbsp;79,9"
+				name: "&nbsp;&nbsp;35,0 − &nbsp;&nbsp;74,9"
 			}, {
-				from: 80.0,
+				from: 75.0,
 				to: 99.999,
 				color: '#68AB2B',
-				name: "&nbsp;&nbsp;80,0 − &nbsp;&nbsp;99,9"
+				name: "&nbsp;&nbsp;75,0 − &nbsp;&nbsp;99,9"
 			}, {
 				from: 100,
 				to: 149.999,
@@ -49,13 +43,8 @@
 		},
 		"data": {
 			"seriesMapping": [
-				{
-					x: 0, y: 2
-				},
-				{
-					//2nd series: use y values from column 3
-					y: 3
-				}
+				{x: 0, y: 2},
+				{y: 3} //2nd series: use y values from column 3
 			]
 		},
 		"series": [
@@ -149,7 +138,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					fn.addLegendTitle(chart, choroplethSeries.name +"<br>in Einwohnern pro ha", 540, 270, 'pieLegend');
+					fn.addLegendTitle(chart, choroplethSeries.name + "<br>in Einwohnern pro ha", 540, 270, 'pieLegend');
 					fn.addLegendTitle(chart, pieSizeSeries.name + '<br>in Einwohnern pro ha', 765, 270, undefined, true);
 
 					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, 'grey');
