@@ -58,6 +58,7 @@
                 labels: {
     	        	step: 1,
 	                style: {
+                        fontSize: "9px",
 	                    color: "#000000",
 	                    textOverflow: 'none',
 	                }
