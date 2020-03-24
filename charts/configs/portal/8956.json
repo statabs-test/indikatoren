@@ -202,7 +202,6 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "reversed": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
@@ -236,7 +235,8 @@
 				},
       "align": "left",
       "x": -80
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "events": {

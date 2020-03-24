@@ -80,7 +80,7 @@
         },
         xAxis: {
             type: "category",
-            reversed: true,
+            //reversed: true,
             uniqueNames: true,
             lineColor: '#B9CFD7',
             lineWidth: 0.5,

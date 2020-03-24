@@ -281,6 +281,7 @@
       "labels": {
         "step": 1,
         "style": {
+          "fontSize": "9px",
           "color": "#000000",
           "textOverflow": "none"
         }
@@ -394,10 +395,13 @@
         "text": null
       },
       "labels": {
+        "y": 12,
+        "rotation": 0,
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
-            	},
+                },
         "style": {
+          "fontSize": "10px",
           "color": "#000000",
           "textOverflow": "none"
         }
@@ -449,7 +453,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemDistance": 10
   },
   "tooltip": {
     "pointFormatter": function () {

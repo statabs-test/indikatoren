@@ -10829,7 +10829,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:45:25.2525",
+		"aktualisierungsdatum": "2020-03-24T10:24:26.2626",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -10843,7 +10843,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_306",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8899"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
@@ -45521,7 +45523,7 @@ var indikatoren = [
 		"title": "Übergewichtige Kinder",
 		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
 		"kuerzel": "I.14.1.08451",
-		"kuerzelKunde": "GW5",
+		"kuerzelKunde": "",
 		"description": "Übergewichtige Kinder",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",

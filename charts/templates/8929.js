@@ -16,8 +16,12 @@
   },
   "xAxis": {
     "labels": {
-     align: "left",
-     x: -60,
+     align: "right",
+     /*x: -50,*/
+     y: 10,
+     style: {
+       fontSize: "10px"
+     }
   	   },
     "type": "category",
     "tickInterval": 1
@@ -27,6 +31,7 @@
      tickInterval: 20,
     "labels": {
       "format": "{value:,.0f}%",
+      y: 10,
     },
   },
   "legend": {
@@ -52,7 +57,7 @@
   ],
   "chart": {
     "type": "column",
-    "inverted": true,
+    /*"inverted": true,*/
      marginLeft: 70, 
 
   },

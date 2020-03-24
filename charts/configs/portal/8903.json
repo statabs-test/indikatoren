@@ -461,10 +461,10 @@
         "whiteSpace": "nowrap"
       },
       "step": 1,
-      "rotation": -45
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

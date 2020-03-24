@@ -336,7 +336,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "2003",
@@ -370,7 +370,6 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,

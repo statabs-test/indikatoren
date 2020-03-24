@@ -448,7 +448,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 662,
     "height": 221,
     "spacing": [
       2,
@@ -638,6 +638,9 @@
       },
       "format": "{value:,.0f}"
     },
+    "min": -15000,
+    "max": 15000,
+    "tickInterval": 5000,
     "plotLines": [
       {
         "value": 0,
