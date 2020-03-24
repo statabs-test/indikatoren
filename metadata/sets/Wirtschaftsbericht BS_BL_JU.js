@@ -944,11 +944,11 @@ var indikatorensetData = [
 		"id": 8372
 	},
 	{
-		"title": "Entwicklung Logiernächte",
+		"title": "Entwicklung Anzahl Logiernächte",
 		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "5-1",
-		"description": "Entwicklung Logiernächte",
+		"description": "Entwicklung Anzahl Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
