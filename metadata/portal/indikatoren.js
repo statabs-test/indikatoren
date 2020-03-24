@@ -29301,11 +29301,11 @@ var indikatoren = [
 		"id": 8359
 	},
 	{
-		"title": "Erwerbstätige",
+		"title": "Entwicklung Erwerbstätige",
 		"subtitle": "",
 		"kuerzel": "I.03.1.08360",
 		"kuerzelKunde": "2.1-3",
-		"description": "Erwerbstätige",
+		"description": "Entwicklung Erwerbstätige",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29637,11 +29637,11 @@ var indikatoren = [
 		"id": 8367
 	},
 	{
-		"title": "Tertiärquote",
+		"title": "Entwicklung Tertiärquote",
 		"subtitle": "",
 		"kuerzel": "I.15.6.08368",
 		"kuerzelKunde": "2.2-1",
-		"description": "Tertiärquote",
+		"description": "Entwicklung Tertiärquote",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29679,11 +29679,11 @@ var indikatoren = [
 		"id": 8368
 	},
 	{
-		"title": "Abschlussquote der Hochschulen",
+		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "2.2-2",
-		"description": "Abschlussquote der Hochschulen",
+		"description": "Entwicklung Abschlussquote der Hochschulen",
 		"thema": "15 Bildung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -29848,11 +29848,11 @@ var indikatoren = [
 		"id": 8372
 	},
 	{
-		"title": "Logiernächte",
+		"title": "Entwicklung Logiernächte",
 		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "5-1",
-		"description": "Logiernächte",
+		"description": "Entwicklung Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30402,11 +30402,11 @@ var indikatoren = [
 		"id": 8442
 	},
 	{
-		"title": "Steuerertrag pro Kopf der Wohnbevölkerung",
+		"title": "Entwicklung Steuerertrag pro Kopf der Wohnbevölkerung",
 		"subtitle": "in Franken",
 		"kuerzel": "",
 		"kuerzelKunde": "3-1",
-		"description": "Steuerertrag pro Kopf der Wohnbevölkerung",
+		"description": "Entwicklung Steuerertrag pro Kopf der Wohnbevölkerung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30489,11 +30489,11 @@ var indikatoren = [
 		"id": 8444
 	},
 	{
-		"title": "Abschlussquote der Sekundarstufe II",
+		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
 		"kuerzel": "",
 		"kuerzelKunde": "2.2-3",
-		"description": "Abschlussquote der Sekundarstufe II",
+		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30532,11 +30532,11 @@ var indikatoren = [
 		"id": 8445
 	},
 	{
-		"title": "Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
+		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
 		"kuerzel": "I.03.1.08446",
 		"kuerzelKunde": "2.1-1",
-		"description": "Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
+		"description": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30575,11 +30575,11 @@ var indikatoren = [
 		"id": 8446
 	},
 	{
-		"title": "Nettoerwerbstätigenquote der Frauen",
+		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
 		"subtitle": "",
 		"kuerzel": "I.03.1.08447",
 		"kuerzelKunde": "2.1-2",
-		"description": "Nettoerwerbstätigenquote der Frauen",
+		"description": "Entwicklung Nettoerwerbstätigenquote der Frauen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30703,11 +30703,11 @@ var indikatoren = [
 		"id": 8863
 	},
 	{
-		"title": "Entwicklung der Handelsbilanz",
+		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
 		"kuerzel": "I.06.4.08868",
 		"kuerzelKunde": "4-4",
-		"description": "Entwicklung der Handelsbilanz",
+		"description": "Entwicklung Handelsbilanz",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30783,11 +30783,11 @@ var indikatoren = [
 		"id": 8869
 	},
 	{
-		"title": "Anzahl Betten",
+		"title": "Entwicklung Bettenangebot",
 		"subtitle": "",
 		"kuerzel": "I.10.1.08873",
 		"kuerzelKunde": "5-3",
-		"description": "Anzahl Betten",
+		"description": "Entwicklung Bettenangebot",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
@@ -30801,7 +30801,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 12 900 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 9 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um fast 33% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-5,5% auf 2 300 und -12,3% auf 1 500).",
-		"erlaeuterungen": "Anzahl Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
+		"erlaeuterungen": "Anzahl angebotene Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -30825,11 +30825,11 @@ var indikatoren = [
 		"id": 8873
 	},
 	{
-		"title": "Neugründungsrate",
+		"title": "Entwicklung Neugründungsrate",
 		"subtitle": "Anteil am Unternehmensbestand",
 		"kuerzel": "I.06.2.08969",
 		"kuerzelKunde": "1.3-2",
-		"description": "Neugründungsrate",
+		"description": "Entwicklung Neugründungsrate",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Neugründungen",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
