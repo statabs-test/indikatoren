@@ -5,7 +5,7 @@
     "series": {
       //pointPadding: 0,
       borderWidth: 0,
-      pointWidth: 20,
+      pointWidth: 30,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -16,7 +16,7 @@
   },
   "xAxis": {
     "labels": {
-     align: "right",
+     /*align: "right",*/
      /*x: -50,*/
      y: 10,
      style: {
@@ -36,9 +36,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
+    "layout": "vertical",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right",
 	  //"y": 40,
 	  //"itemWidth": 200,
 	  itemDistance: 0,
@@ -58,7 +58,8 @@
   "chart": {
     "type": "column",
     /*"inverted": true,*/
-     marginLeft: 70, 
+     marginLeft: 70,
+     width: 665,
 
   },
   "tooltip": {
