@@ -1,10 +1,4 @@
-/*  
-	global Highcharts
-	global geojson_wohnviertelEPSG2056 
-	global $
-*/
 (function () {
-
 	return {
 		"legend": {
 			"y": -7, 
