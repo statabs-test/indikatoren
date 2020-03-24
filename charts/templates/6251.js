@@ -6,8 +6,8 @@
     "xAxis": {
       "type": "category",
     },
-    yAxis:{
-      labels:{
+    yAxis: {
+      labels: {
         y: 8
       }
     },
@@ -16,17 +16,19 @@
       align: "left",
       verticalAlign: "top",
       reversed: true,
-
-/*      labelFormatter: function () {
-        return this.name.replace(' ', '<br>').replace('/', '/<br>');
-      },*/
+     itemDistance: 15
+     
+      /*      labelFormatter: function () {
+              return this.name.replace(' ', '<br>').replace('/', '/<br>');
+            },*/
     },
-    "series": [
-      { "color": "#C8C8C8", index: 1, legendIndex: 1 }, /*grau*/
-      { "color": "#CD9C00", index: 2, legendIndex: 2 }, /*dunkelrot*/
-      { "color": "#FABD24", index: 3, legendIndex: 3 }, /*hellrot*/
-      { "color": "#73B97C", index: 4, legendIndex: 4 }, /*hellgrün*/
-      { "color": "#007A2F", index: 5, legendIndex: 5 } /*dunkelgrün*/
+    series: [
+      { "color": "#007a2f", index: 6 }, // dunkelgrün
+      { "color": "#68ab2b", index: 5 }, // grün
+      { "color": "#ffbb58", index: 4 }, // orange
+      { "color": "#dc440e", index: 3 }, // rot
+      { "color": "#C8C8C8", index: 2 }, // grau
+      { "color": "#6F6F6F", index: 1 }, // grau
     ]
   };
 }());
