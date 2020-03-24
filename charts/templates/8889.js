@@ -29,6 +29,7 @@
                 text: null
             },
             "labels": {
+                y: 12,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
             	},
@@ -55,6 +56,7 @@
                 labels: {
     	        	step: 1,
 	                style: {
+                        fontSize: "9px",
 	                    color: "#000000"
 	                }
                 }, 
@@ -96,6 +98,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
+        itemDistance: 10,
        	//"y": 40,    
         "itemStyle": {
           "fontWeight": "normal"
