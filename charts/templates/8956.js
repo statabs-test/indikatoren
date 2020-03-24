@@ -35,6 +35,9 @@
 		yAxis: {
 			tickInterval: 20,
 			max: 100,
+			labels: {
+				y: 5
+			}
 		},
 		"series": [
 			{ "color": "#007A2F", index: 5, legendIndex: 1 }, /*dunkelgrün*/
