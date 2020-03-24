@@ -6,7 +6,7 @@
     },
     "yAxis": [{
       "min": 0,
-      "max": 200000,
+      //"max": 200000,
       "tickInterval": 25000,
       title: {
         text: null,
@@ -21,7 +21,7 @@
     },
     {
       min: 95,
-      max: 115,
+      max: 117.5,
       tickInterval: 2.5,
       title: {
         text: null
@@ -62,10 +62,11 @@
         "color": "#B00000", // Bevölkerung indexiert
         "index": 1,
         "type": "line",
-        //connectNulls: true,
+        connectNulls: true,
         "yAxis": 1,
         "marker": {
-          "enabled": true
+          "enabled": true,
+          radius: 3
         },
         legendIndex: 2,
         "tooltip": {
@@ -89,7 +90,7 @@
         "color": "#246370", // Beschäftigte indexiert
         "index": 1,
         "type": "line",
-        //connectNulls: true,
+        connectNulls: true,
         "yAxis": 1,
         "legendIndex": 3,
         "tooltip": {
@@ -97,7 +98,7 @@
         },
         "marker": {
           "enabled": true,
-          radius: 5
+          radius: 4
         },
       }
     ],

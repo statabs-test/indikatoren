@@ -2,7 +2,7 @@
   return {
     "yAxis": {
       max: 60,
-      tickInterval: 20,
+      tickInterval: 10,
       "labels": {
         "format": "{value:,.0f}",
       }
@@ -34,11 +34,11 @@
         }
       }
     },
-      "series": [
-        {
-          "color": "#8b2223",
-        }
-      ],
-    }
-  }());
+    "series": [
+      {
+        "color": "#8b2223",
+      }
+    ],
+  }
+}());
 

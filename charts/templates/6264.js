@@ -5,6 +5,7 @@
     },
     "yAxis": {
       "min": undefined,
+      tickInterval: 2,
       "labels": {
         "format": "{value:,.0f}"
       },
@@ -15,28 +16,15 @@
       }]
     },
     "series": [
-      {
-        "color": "#b00000 ",
-      }, /* rot */
-      {
-        "color": "#672773",
-      },/* blau  */
+      { "color": "#b00000" }, /* rot */
+      { "color": "#672773" },/* blau  */
     ],
     "legend": {
       enabled: true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
+      "itemMarginBottom": 5,
     },
-    "plotOptions": {
-      "line": {
-        "connectNulls": true,
-        "marker": {
-          "enabled": false,
-          "symbol": "circle",
-        }
-      }
-    }
   }
 }());

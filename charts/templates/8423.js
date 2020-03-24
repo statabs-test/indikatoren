@@ -1,12 +1,11 @@
 (function () {
   return {
-    "plotOptions": {
-      "series": {
-      }
+    chart: {
+      marginRight: 10
     },
     "yAxis": {
-      min: 70,
-      tickInterval: 10,
+      min: null,
+      tickInterval: 5,
       "labels": {
         "format": "{value:,.0f}",
       },

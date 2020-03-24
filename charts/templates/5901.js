@@ -75,9 +75,11 @@
         //"index": 1,
         zIndex: 1,
         "type": "line",
+        connectNulls: true,
         "yAxis": 1,
         "marker": {
-          "enabled": true
+          "enabled": true,
+          radius: 3
         },
         legendIndex: 2,
         "tooltip": {
@@ -103,6 +105,7 @@
         //"index": 1,
         zIndex: 2,
         "type": "line",
+        connectNulls: true,
         "yAxis": 1,
         "legendIndex": 3,
         "tooltip": {
@@ -110,7 +113,7 @@
         },
         "marker": {
           "enabled": true,
-          radius: 5
+          radius: 4
         },
       }
     ],
