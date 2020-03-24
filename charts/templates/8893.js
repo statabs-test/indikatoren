@@ -1,10 +1,18 @@
 (function(){
     return {
+      chart: {
+        inverted: true
+      },
       xAxis: {
-        "type": "category"
+        "type": "category",
       },
       yAxis: {
         reversedStacks: true,
+        tickInterval: 25,
+        labels: {
+          y: 10,
+          rotation: 0
+        }
       },
       legend: {
         reversed: false
