@@ -9,12 +9,20 @@
   "xAxis": {
     "type": "category",
     "labels": {
-     // "rotation": -90 
+      padding: 1,
+      step: 1,
+      y: 3,
+      x: -10,
+      "style": {
+        "color": "#000000",
+        "fontSize": "9px"
+      }
     } 
   },
   "yAxis": {
 	//"max": 100,
 	labels:{
+    y: 10,
 		style: { 
 			textOverflow: 'none' // prevents ellipsis
 		}
@@ -45,7 +53,7 @@
   	marginRight: 18,
     "type": "scatter",
     "inverted": true,
-    "spacingBottom": 35
+    /*"spacingBottom": 35*/
   }
 };
 }());
