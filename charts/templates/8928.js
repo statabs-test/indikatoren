@@ -6,7 +6,7 @@
       endOnTick: false,
       "labels": {
         step: 1,
-        "rotation": 0,
+        "rotation": -45,
       }
     },
     "yAxis": [{
@@ -99,14 +99,15 @@
     ],
     "legend": {
       "enabled": true,
-      //"x": 45,
+      "x": 1,
       //"y": 30,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
       "itemStyle": {
-        "fontWeight": "normal"
+        "fontWeight": "normal",
+        width: 300
       }      
     },
     "plotOptions": {
