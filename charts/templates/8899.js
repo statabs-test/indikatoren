@@ -39,7 +39,7 @@
       //"y": 50,
       //"x": 40,
       "itemMarginBottom": 2,
-      itemWidth: 200,
+      itemWidth: 100,
       y: -10,
       margin: 3,
       "itemStyle": {
