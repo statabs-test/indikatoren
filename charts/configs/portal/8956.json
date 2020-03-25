@@ -316,7 +316,7 @@
       "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 5,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",

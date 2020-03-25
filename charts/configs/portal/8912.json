@@ -105,10 +105,14 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "padding": 1,
+      "step": 1,
+      "y": 3,
+      "x": -10
     },
     "tickLength": 0
   },
@@ -209,8 +213,8 @@
     "marginRight": 18,
     "type": "scatter",
     "inverted": true,
-    "spacingBottom": 55,
-    "renderTo": "container-8912"
+    "renderTo": "container-8912",
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -258,7 +262,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "style": {
         "fontSize": "10px",
         "color": "#000000",

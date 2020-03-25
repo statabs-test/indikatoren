@@ -344,8 +344,7 @@
       "formatter": function () {
           return this.value.replace('(', '<br>(').replace('.', ',');
         }
-    },
-    "reversed": true
+    }
   },
   "chart": {
     "events": {
