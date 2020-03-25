@@ -40,7 +40,7 @@
       //"x": 40,
       "itemMarginBottom": 2,
       itemWidth: 100,
-      y: -10,
+      //y: -10,
       margin: 3,
       "itemStyle": {
         "fontWeight": ["bold", "normal", "bold"]
