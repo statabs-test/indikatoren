@@ -11,6 +11,7 @@
     },
     yAxis: {
         reversedStacks: false,
+        tickInterval: 25
     },
     legend: {
         reversed: true,
