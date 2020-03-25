@@ -27,22 +27,22 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:59.9,
+                to:59.99999,
                 color: '#D3E2E4',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 60,0"
             }, {
                 from: 60.0,
-                to: 69.9,
+                to: 69.99999,
                 color: '#A8C3CA',
                 name: "<span style='color: rgba(0,0,0,0)'>0</span>60,0 − 69,9"
             }, {
                 from: 70.0,
-                to: 74.9,
+                to: 74.99999,
                  color: '#689199',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>70,0 − 74,9"
             },{
                 from: 75.0,
-                to: 84.9,
+                to: 84.99999,
                  color: '#246370',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>75,0 − 84,9"
             },{
