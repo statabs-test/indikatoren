@@ -10,16 +10,30 @@
       { "color": "#6F6F6F"}, // grau
     ],
     xAxis: {
-        type: "category"
+        type: "category",
+        reversed: false
     },
     yAxis: {
         reversedStacks: false,
+        tickInterval: 25,
+        labels: {
+            y: 10
+        }
     },
     legend: {
-        reversed: true,
+        reversed: false,
         labelFormatter: function(){
             return this.name.replace("/", " /<br/>");
-        }
+        },
+        //x: 0,
+        layout: "horizontal",
+        align: "left",
+        verticalAlign: "top",
+        itemWidth: 115,
+        itemDistance: 2,
+    },
+    chart: {
+        inverted: true
     }
 	};
 }());
