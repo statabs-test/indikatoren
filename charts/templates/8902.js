@@ -7,6 +7,7 @@
  	"xAxis": {
         "type": "category",
         "labels": {
+          rotation: -45,
             "formatter": function() {
                   	 return this.value;
             }
@@ -27,7 +28,7 @@
      //y: 25,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 200,
+    //"itemWidth": 200,
     "verticalAlign": "top",
     "align": "left",
 
@@ -36,7 +37,7 @@
     }
   },
 "chart": {  
-	spacingBottom: 45,
+	//spacingBottom: 45,
      "inverted": false,
   },
       tooltip: {
