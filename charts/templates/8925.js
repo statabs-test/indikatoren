@@ -1,14 +1,16 @@
 (function(){
     return {
  "xAxis": {
-    "type": "category"
+    "type": "category",
+    reversed: false
   },
   yAxis: {
     tickInterval: 20,
     max: 100,
     labels: {
+      y: 10,
       "type": "category",
-      rotation: 0,
+      rotation: 0
     }
   },
   "series": [
@@ -28,5 +30,8 @@
       return this.name.replace("/", " /<br/>");
     }
   },
+  chart: {
+    inverted: true
+  }
 	};
 }());
