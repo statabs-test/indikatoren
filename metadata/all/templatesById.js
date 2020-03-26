@@ -136,7 +136,7 @@ var templatesById = {
 	"4294": "dotplot",
 	"4298": "dotplot",
 	"4299": "dotplot",
-	"4300": "dotplot",
+	"4300": "stock001",
 	"4301": "dotplot",
 	"4302": "dotplot",
 	"4303": "dotplot",

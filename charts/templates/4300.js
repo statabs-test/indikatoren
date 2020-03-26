@@ -4,8 +4,8 @@
             "type": "column"
         },
         "yAxis": {
-            showLastLabel: true,
-            endOnTick: true,
+            //showLastLabel: true,
+            //endOnTick: true,
             tickAmount: 6,
             labels: {
                 format: "{value:,.0f}",

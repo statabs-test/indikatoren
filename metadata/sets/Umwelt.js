@@ -2362,8 +2362,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Hitzetage",
-		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.12.04300",
+		"subtitle": "in Anzahl Tage",
+		"kuerzel": "I.02.12.4300",
 		"kuerzelKunde": "0801",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
@@ -2372,27 +2372,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-07T16:01:34.3434",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-		"template": "dotplot",
+		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "08_00_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6033"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 4300,
-		"darstellungsart": "Grafik"
+		"data-id": 4300,
+		"chart-id": 4300,
+		"filter": "",
+		"id": 4300
 	},
 	{
 		"title": "Jahresmitteltemperatur",
