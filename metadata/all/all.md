@@ -1431,6 +1431,7 @@ id | visible | visibleInPortal | indikatorenset
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8852 | true | true | Nachhaltigkeit
 8877 | true | false | Richtplan
+8976 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

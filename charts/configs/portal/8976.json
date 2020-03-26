@@ -1,0 +1,1285 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "01. Jan",
+          212036
+        ],
+        [
+          "02. Jan",
+          329886
+        ],
+        [
+          "03. Jan",
+          338118
+        ],
+        [
+          "04. Jan",
+          367420
+        ],
+        [
+          "05. Jan",
+          392612
+        ],
+        [
+          "06. Jan",
+          328602
+        ],
+        [
+          "07. Jan",
+          238793
+        ],
+        [
+          "08. Jan",
+          390553
+        ],
+        [
+          "09. Jan",
+          394758
+        ],
+        [
+          "10. Jan",
+          406680
+        ],
+        [
+          "11. Jan",
+          409811
+        ],
+        [
+          "12. Jan",
+          433057
+        ],
+        [
+          "13. Jan",
+          345006
+        ],
+        [
+          "14. Jan",
+          255009
+        ],
+        [
+          "15. Jan",
+          399456
+        ],
+        [
+          "16. Jan",
+          410316
+        ],
+        [
+          "17. Jan",
+          412397
+        ],
+        [
+          "18. Jan",
+          429471
+        ],
+        [
+          "19. Jan",
+          452592
+        ],
+        [
+          "20. Jan",
+          351842
+        ],
+        [
+          "21. Jan",
+          250372
+        ],
+        [
+          "22. Jan",
+          397850
+        ],
+        [
+          "23. Jan",
+          404135
+        ],
+        [
+          "24. Jan",
+          410406
+        ],
+        [
+          "25. Jan",
+          419577
+        ],
+        [
+          "26. Jan",
+          445115
+        ],
+        [
+          "27. Jan",
+          356689
+        ],
+        [
+          "28. Jan",
+          260630
+        ],
+        [
+          "29. Jan",
+          401279
+        ],
+        [
+          "30. Jan",
+          408935
+        ],
+        [
+          "31. Jan",
+          415559
+        ],
+        [
+          "01. Feb",
+          418824
+        ],
+        [
+          "02. Feb",
+          439598
+        ],
+        [
+          "03. Feb",
+          353185
+        ],
+        [
+          "04. Feb",
+          264380
+        ],
+        [
+          "05. Feb",
+          396190
+        ],
+        [
+          "06. Feb",
+          402754
+        ],
+        [
+          "07. Feb",
+          405874
+        ],
+        [
+          "08. Feb",
+          411980
+        ],
+        [
+          "09. Feb",
+          435946
+        ],
+        [
+          "10. Feb",
+          339071
+        ],
+        [
+          "11. Feb",
+          234610
+        ],
+        [
+          "12. Feb",
+          377114
+        ],
+        [
+          "13. Feb",
+          393671
+        ],
+        [
+          "14. Feb",
+          397791
+        ],
+        [
+          "15. Feb",
+          394619
+        ],
+        [
+          "16. Feb",
+          419892
+        ],
+        [
+          "17. Feb",
+          328509
+        ],
+        [
+          "18. Feb",
+          237333
+        ],
+        [
+          "19. Feb",
+          322042
+        ],
+        [
+          "20. Feb",
+          367503
+        ],
+        [
+          "21. Feb",
+          366952
+        ],
+        [
+          "22. Feb",
+          394327
+        ],
+        [
+          "23. Feb",
+          411277
+        ],
+        [
+          "24. Feb",
+          329428
+        ],
+        [
+          "25. Feb",
+          251001
+        ],
+        [
+          "26. Feb",
+          389351
+        ],
+        [
+          "27. Feb",
+          400258
+        ],
+        [
+          "28. Feb",
+          413214
+        ],
+        [
+          "29. Feb",
+          null
+        ],
+        [
+          "01. Mrz",
+          385190
+        ],
+        [
+          "02. Mrz",
+          410709
+        ],
+        [
+          "03. Mrz",
+          345706
+        ],
+        [
+          "04. Mrz",
+          263939
+        ],
+        [
+          "05. Mrz",
+          390980
+        ],
+        [
+          "06. Mrz",
+          398415
+        ],
+        [
+          "07. Mrz",
+          402364
+        ],
+        [
+          "08. Mrz",
+          408066
+        ],
+        [
+          "09. Mrz",
+          427343
+        ],
+        [
+          "10. Mrz",
+          349531
+        ],
+        [
+          "11. Mrz",
+          262860
+        ],
+        [
+          "12. Mrz",
+          399804
+        ],
+        [
+          "13. Mrz",
+          403347
+        ],
+        [
+          "14. Mrz",
+          386573
+        ],
+        [
+          "15. Mrz",
+          419080
+        ],
+        [
+          "16. Mrz",
+          430824
+        ],
+        [
+          "17. Mrz",
+          349734
+        ],
+        [
+          "18. Mrz",
+          246020
+        ],
+        [
+          "19. Mrz",
+          394123
+        ],
+        [
+          "20. Mrz",
+          410809
+        ],
+        [
+          "21. Mrz",
+          422290
+        ],
+        [
+          "22. Mrz",
+          435187
+        ],
+        [
+          "23. Mrz",
+          458416
+        ],
+        [
+          "24. Mrz",
+          383132
+        ],
+        [
+          "25. Mrz",
+          288483
+        ],
+        [
+          "26. Mrz",
+          417751
+        ],
+        [
+          "27. Mrz",
+          422435
+        ],
+        [
+          "28. Mrz",
+          427990
+        ],
+        [
+          "29. Mrz",
+          427112
+        ],
+        [
+          "30. Mrz",
+          249419
+        ],
+        [
+          "31. Mrz",
+          325243
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "01. Jan",
+          205590
+        ],
+        [
+          "02. Jan",
+          325374
+        ],
+        [
+          "03. Jan",
+          344579
+        ],
+        [
+          "04. Jan",
+          365408
+        ],
+        [
+          "05. Jan",
+          306984
+        ],
+        [
+          "06. Jan",
+          232240
+        ],
+        [
+          "07. Jan",
+          369927
+        ],
+        [
+          "08. Jan",
+          384391
+        ],
+        [
+          "09. Jan",
+          383857
+        ],
+        [
+          "10. Jan",
+          394436
+        ],
+        [
+          "11. Jan",
+          414744
+        ],
+        [
+          "12. Jan",
+          324487
+        ],
+        [
+          "13. Jan",
+          237166
+        ],
+        [
+          "14. Jan",
+          385501
+        ],
+        [
+          "15. Jan",
+          397895
+        ],
+        [
+          "16. Jan",
+          402153
+        ],
+        [
+          "17. Jan",
+          408813
+        ],
+        [
+          "18. Jan",
+          426455
+        ],
+        [
+          "19. Jan",
+          341258
+        ],
+        [
+          "20. Jan",
+          245663
+        ],
+        [
+          "21. Jan",
+          386382
+        ],
+        [
+          "22. Jan",
+          393468
+        ],
+        [
+          "23. Jan",
+          394341
+        ],
+        [
+          "24. Jan",
+          408055
+        ],
+        [
+          "25. Jan",
+          434060
+        ],
+        [
+          "26. Jan",
+          336828
+        ],
+        [
+          "27. Jan",
+          255990
+        ],
+        [
+          "28. Jan",
+          395968
+        ],
+        [
+          "29. Jan",
+          404146
+        ],
+        [
+          "30. Jan",
+          410177
+        ],
+        [
+          "31. Jan",
+          413128
+        ],
+        [
+          "01. Feb",
+          433912
+        ],
+        [
+          "02. Feb",
+          352331
+        ],
+        [
+          "03. Feb",
+          251289
+        ],
+        [
+          "04. Feb",
+          395522
+        ],
+        [
+          "05. Feb",
+          403764
+        ],
+        [
+          "06. Feb",
+          410802
+        ],
+        [
+          "07. Feb",
+          412004
+        ],
+        [
+          "08. Feb",
+          433572
+        ],
+        [
+          "09. Feb",
+          354533
+        ],
+        [
+          "10. Feb",
+          254147
+        ],
+        [
+          "11. Feb",
+          395523
+        ],
+        [
+          "12. Feb",
+          400570
+        ],
+        [
+          "13. Feb",
+          407690
+        ],
+        [
+          "14. Feb",
+          416486
+        ],
+        [
+          "15. Feb",
+          431563
+        ],
+        [
+          "16. Feb",
+          359833
+        ],
+        [
+          "17. Feb",
+          282407
+        ],
+        [
+          "18. Feb",
+          395322
+        ],
+        [
+          "19. Feb",
+          403368
+        ],
+        [
+          "20. Feb",
+          407773
+        ],
+        [
+          "21. Feb",
+          415725
+        ],
+        [
+          "22. Feb",
+          436103
+        ],
+        [
+          "23. Feb",
+          360567
+        ],
+        [
+          "24. Feb",
+          279076
+        ],
+        [
+          "25. Feb",
+          401469
+        ],
+        [
+          "26. Feb",
+          413021
+        ],
+        [
+          "27. Feb",
+          416858
+        ],
+        [
+          "28. Feb",
+          426895
+        ],
+        [
+          "29. Feb",
+          undefined
+        ],
+        [
+          "01. Mrz",
+          446399
+        ],
+        [
+          "02. Mrz",
+          341696
+        ],
+        [
+          "03. Mrz",
+          254552
+        ],
+        [
+          "04. Mrz",
+          373370
+        ],
+        [
+          "05. Mrz",
+          386640
+        ],
+        [
+          "06. Mrz",
+          391339
+        ],
+        [
+          "07. Mrz",
+          405917
+        ],
+        [
+          "08. Mrz",
+          422140
+        ],
+        [
+          "09. Mrz",
+          331527
+        ],
+        [
+          "10. Mrz",
+          247780
+        ],
+        [
+          "11. Mrz",
+          319892
+        ],
+        [
+          "12. Mrz",
+          367098
+        ],
+        [
+          "13. Mrz",
+          360490
+        ],
+        [
+          "14. Mrz",
+          395114
+        ],
+        [
+          "15. Mrz",
+          419991
+        ],
+        [
+          "16. Mrz",
+          332481
+        ],
+        [
+          "17. Mrz",
+          255458
+        ],
+        [
+          "18. Mrz",
+          399748
+        ],
+        [
+          "19. Mrz",
+          411626
+        ],
+        [
+          "20. Mrz",
+          416604
+        ],
+        [
+          "21. Mrz",
+          416536
+        ],
+        [
+          "22. Mrz",
+          453350
+        ],
+        [
+          "23. Mrz",
+          369580
+        ],
+        [
+          "24. Mrz",
+          297101
+        ],
+        [
+          "25. Mrz",
+          411700
+        ],
+        [
+          "26. Mrz",
+          410111
+        ],
+        [
+          "27. Mrz",
+          411784
+        ],
+        [
+          "28. Mrz",
+          419475
+        ],
+        [
+          "29. Mrz",
+          442029
+        ],
+        [
+          "30. Mrz",
+          359940
+        ],
+        [
+          "31. Mrz",
+          285193
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "01. Jan",
+          177042
+        ],
+        [
+          "02. Jan",
+          271971
+        ],
+        [
+          "03. Jan",
+          301555
+        ],
+        [
+          "04. Jan",
+          268398
+        ],
+        [
+          "05. Jan",
+          207492
+        ],
+        [
+          "06. Jan",
+          302170
+        ],
+        [
+          "07. Jan",
+          317299
+        ],
+        [
+          "08. Jan",
+          323568
+        ],
+        [
+          "09. Jan",
+          349790
+        ],
+        [
+          "10. Jan",
+          371307
+        ],
+        [
+          "11. Jan",
+          305779
+        ],
+        [
+          "12. Jan",
+          229619
+        ],
+        [
+          "13. Jan",
+          348526
+        ],
+        [
+          "14. Jan",
+          353646
+        ],
+        [
+          "15. Jan",
+          390319
+        ],
+        [
+          "16. Jan",
+          402577
+        ],
+        [
+          "17. Jan",
+          422630
+        ],
+        [
+          "18. Jan",
+          341197
+        ],
+        [
+          "19. Jan",
+          246337
+        ],
+        [
+          "20. Jan",
+          378274
+        ],
+        [
+          "21. Jan",
+          383056
+        ],
+        [
+          "22. Jan",
+          386231
+        ],
+        [
+          "23. Jan",
+          395319
+        ],
+        [
+          "24. Jan",
+          421955
+        ],
+        [
+          "25. Jan",
+          338081
+        ],
+        [
+          "26. Jan",
+          254597
+        ],
+        [
+          "27. Jan",
+          383382
+        ],
+        [
+          "28. Jan",
+          389319
+        ],
+        [
+          "29. Jan",
+          393227
+        ],
+        [
+          "30. Jan",
+          401781
+        ],
+        [
+          "31. Jan",
+          416420
+        ],
+        [
+          "01. Feb",
+          345776
+        ],
+        [
+          "02. Feb",
+          249593
+        ],
+        [
+          "03. Feb",
+          387056
+        ],
+        [
+          "04. Feb",
+          388576
+        ],
+        [
+          "05. Feb",
+          391197
+        ],
+        [
+          "06. Feb",
+          381306
+        ],
+        [
+          "07. Feb",
+          393566
+        ],
+        [
+          "08. Feb",
+          334354
+        ],
+        [
+          "09. Feb",
+          254108
+        ],
+        [
+          "10. Feb",
+          369686
+        ],
+        [
+          "11. Feb",
+          394627
+        ],
+        [
+          "12. Feb",
+          401697
+        ],
+        [
+          "13. Feb",
+          412840
+        ],
+        [
+          "14. Feb",
+          433127
+        ],
+        [
+          "15. Feb",
+          350849
+        ],
+        [
+          "16. Feb",
+          267428
+        ],
+        [
+          "17. Feb",
+          362162
+        ],
+        [
+          "18. Feb",
+          384265
+        ],
+        [
+          "19. Feb",
+          361112
+        ],
+        [
+          "20. Feb",
+          366365
+        ],
+        [
+          "21. Feb",
+          394150
+        ],
+        [
+          "22. Feb",
+          327950
+        ],
+        [
+          "23. Feb",
+          210167
+        ],
+        [
+          "24. Feb",
+          341447
+        ],
+        [
+          "25. Feb",
+          364865
+        ],
+        [
+          "26. Feb",
+          361934
+        ],
+        [
+          "27. Feb",
+          369322
+        ],
+        [
+          "28. Feb",
+          372026
+        ],
+        [
+          "29. Feb",
+          undefined
+        ],
+        [
+          "01. Mrz",
+          221684
+        ],
+        [
+          "02. Mrz",
+          284338
+        ],
+        [
+          "03. Mrz",
+          337691
+        ],
+        [
+          "04. Mrz",
+          335499
+        ],
+        [
+          "05. Mrz",
+          348722
+        ],
+        [
+          "06. Mrz",
+          362774
+        ],
+        [
+          "07. Mrz",
+          288841
+        ],
+        [
+          "08. Mrz",
+          221251
+        ],
+        [
+          "09. Mrz",
+          347714
+        ],
+        [
+          "10. Mrz",
+          354993
+        ],
+        [
+          "11. Mrz",
+          356613
+        ],
+        [
+          "12. Mrz",
+          358902
+        ],
+        [
+          "13. Mrz",
+          373210
+        ],
+        [
+          "14. Mrz",
+          264578
+        ],
+        [
+          "15. Mrz",
+          189846
+        ],
+        [
+          "16. Mrz",
+          303540
+        ],
+        [
+          "17. Mrz",
+          242100
+        ],
+        [
+          "18. Mrz",
+          226026
+        ],
+        [
+          "19. Mrz",
+          226962
+        ],
+        [
+          "20. Mrz",
+          224206
+        ],
+        [
+          "21. Mrz",
+          116672
+        ],
+        [
+          "22. Mrz",
+          88519
+        ],
+        [
+          "23. Mrz",
+          null
+        ],
+        [
+          "24. Mrz",
+          null
+        ],
+        [
+          "25. Mrz",
+          null
+        ],
+        [
+          "26. Mrz",
+          null
+        ],
+        [
+          "27. Mrz",
+          null
+        ],
+        [
+          "28. Mrz",
+          null
+        ],
+        [
+          "29. Mrz",
+          null
+        ],
+        [
+          "30. Mrz",
+          null
+        ],
+        [
+          "31. Mrz",
+          null
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+        return this.value.replace("25. Feb", "<b>25. Feb")
+        .replace("16. Mrz", "<b>16. Mrz")}
+    },
+    "tickLength": 0,
+    "tickInterval": 5
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8976"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Motorisierter Individualverkehr Basel-Stadt"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2018 bis 2020, 1. Quartal",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 100000
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-26"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8976
+  }
+}
