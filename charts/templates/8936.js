@@ -15,7 +15,9 @@
       "inverted": true, /* false */
       "marginLeft": 210,
       "marginBottom": 55,
-      "marginRight": 15
+      "marginRight": 15,
+      width: 665,
+      height: 400
     },
     "xAxis": {
       "type": "category"
@@ -24,7 +26,8 @@
       min: null,
       //max: 40,
       "labels": {
-        "format": "{value}%"
+        "format": "{value}%",
+        y:10
       }    
     },
     "series": [
