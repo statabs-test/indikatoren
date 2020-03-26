@@ -27,10 +27,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "x": 40,
+      //"x": 40,
       //"y": 30,
       "align": "left",
-      itemWidth: 130,
+      //itemWidth: 130,
       "itemStyle": {
         "fontWeight": "normal"
       }
@@ -68,8 +68,8 @@
       }
     ],
     "chart": {
-      "marginBottom": 65,
-      "marginTop": 100,
+      //"marginBottom": 65,
+      //"marginTop": 100,
       "type": "column"
     }
   }
