@@ -13,6 +13,7 @@
       "labels": {
       "format": "{value:,.0f}",
       },
+      tickInterval: 1000
   },	
   "tooltip": {
     "shared": false,
