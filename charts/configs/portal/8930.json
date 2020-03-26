@@ -174,7 +174,7 @@
   },
   "yAxis": {
     "type": "category",
-    "tickInterval": 10,
+    "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,

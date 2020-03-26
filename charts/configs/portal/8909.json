@@ -4,7 +4,7 @@
       "color": "#B00000",
       "index": 1,
       "legendIndex": 2,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -65,7 +65,7 @@
       "color": "#ffbb58",
       "index": 2,
       "legendIndex": 4,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -126,7 +126,7 @@
       "color": "#007a2f",
       "index": 3,
       "legendIndex": 6,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -187,7 +187,7 @@
       "color": "#923f8d",
       "index": 4,
       "legendIndex": 8,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -248,7 +248,7 @@
       "color": "#2B0099",
       "index": 5,
       "legendIndex": 10,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -440,7 +440,7 @@
       "marker": {
         "enabled": false
       },
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -506,7 +506,7 @@
       "marker": {
         "enabled": false
       },
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -572,7 +572,7 @@
       "marker": {
         "enabled": false
       },
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -638,7 +638,7 @@
       "marker": {
         "enabled": false
       },
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -704,7 +704,7 @@
       "marker": {
         "enabled": false
       },
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2007,
@@ -765,7 +765,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -990,11 +990,11 @@
       "whitespace": "nowrap"
     },
     "enabled": true,
-    "layout": "horizontal",
+    "layout": "vertical",
     "itemDistance": -10,
     "symbolPadding": 3,
-    "verticalAlign": "top",
-    "align": "left"
+    "verticalAlign": "middle",
+    "align": "right"
   },
   "dataLabels": {
     "enabled": false,

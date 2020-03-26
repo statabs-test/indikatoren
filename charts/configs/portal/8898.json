@@ -336,7 +336,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2003",
@@ -402,7 +402,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -110
+      "x": -80
     }
   },
   "chart": {
@@ -448,7 +448,7 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "marginLeft": 125,
+    "marginLeft": 95,
     "inverted": true,
     "renderTo": "container-8898",
     "spacingBottom": 12

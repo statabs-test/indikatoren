@@ -156,7 +156,7 @@
         "whiteSpace": "nowrap"
       },
       "step": 1,
-      "rotation": 0
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1,
@@ -357,9 +357,11 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 300
     },
-    "padding": 0
+    "padding": 0,
+    "x": 1
   },
   "plotOptions": {
     "series": {

@@ -395,7 +395,7 @@
     },
     "padding": 0,
     "x": 30,
-    "itemWidth": 200
+    "itemDistance": 15
   },
   "plotOptions": {
     "series": {

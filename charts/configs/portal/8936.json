@@ -267,8 +267,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
-    "height": 221,
+    "width": 665,
+    "height": 413,
     "spacing": [
       2,
       2,
@@ -321,7 +321,7 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "style": {
         "fontSize": "10px",
         "color": "#000000"

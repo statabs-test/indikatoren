@@ -272,7 +272,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": undefined
+    "max": undefined,
+    "tickInterval": 2000,
+    "tickAmount": 4
   },
   "navigation": {
     "menuItemStyle": {

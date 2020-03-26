@@ -550,7 +550,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -764,10 +764,9 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "itemWidth": 200,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right"
   },
   "dataLabels": {
     "enabled": false,

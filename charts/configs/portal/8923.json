@@ -270,6 +270,7 @@
     },
     "useHTML": true,
     "enabled": true,
+    "x": 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

@@ -225,7 +225,7 @@
       }
     },
     "labels": {
-      "rotation": 0,
+      "rotation": -45,
       "style": {
         "fontSize": "10px",
         "color": "#000000",
@@ -281,9 +281,9 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "spacingBottom": 75,
     "inverted": false,
-    "renderTo": "container-8902"
+    "renderTo": "container-8902",
+    "spacingBottom": 32
   },
   "plotOptions": {
     "series": {
@@ -342,8 +342,7 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            },
-    "itemWidth": 200
+            }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
