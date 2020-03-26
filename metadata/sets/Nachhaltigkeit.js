@@ -2491,7 +2491,7 @@ var indikatorensetData = [
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06592",
-		"kuerzelKunde": "BE5.1",
+		"kuerzelKunde": "BE5",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -2499,7 +2499,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:02:44.4444",
+		"aktualisierungsdatum": "2020-03-17T15:15:03.033",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",

@@ -32,7 +32,7 @@
       "align": "left",
       //"y": 40,
       //"itemWidth": 200,
-      itemDistance: 9,
+      itemDistance: 5,
       itemMarginBottom: 3,
       //padding: 0,
     },
