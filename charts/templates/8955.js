@@ -21,7 +21,6 @@
         }
     },
     chart: {
-        //width: 665,
         inverted: true
     }
     

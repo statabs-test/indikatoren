@@ -9,7 +9,8 @@
       { "color": "#6F6F6F"}, // grau
     ],
     xAxis: {
-        type: "category"
+        type: "category",
+        reversed: false
     }, 
     yAxis: {
         reversedStacks: false,
@@ -19,6 +20,9 @@
         labelFormatter: function(){
             return this.name.replace("/", " /<br/>");
         }
+    },
+    chart: {
+        inverted: true
     }
 	};
 }());
