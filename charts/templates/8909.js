@@ -63,12 +63,12 @@
   },
   "legend": { 
     "enabled": true,
-    "layout": "horizontal",
+    "layout": "vertical",
     itemDistance: -10, 
     padding: 0,
     symbolPadding: 3,
-    "verticalAlign": "top",
-    "align": "left",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal",
       textOverflow: null,
@@ -80,31 +80,31 @@
       "color": "#B00000",
       "index": 1,
       legendIndex: 2, // 1 zimmer
-      "visible": false
+      "visible": true
     },
     {
       "color": "#ffbb58",
       "index": 2, // 2 Zimmer
       legendIndex: 4, 
-      "visible": false
+      "visible": true
     },
     {
       "color": "#007a2f",
       "index": 3, //3 Zimmer
        legendIndex: 6, 
-      "visible": false
+      "visible": true
     },
     {
       "color": "#923f8d",
       "index": 4,//4 Zimmer
        legendIndex: 8, 
-      "visible": false
+      "visible": true
     },
     {
       "color": "#2B0099",
       "index": 5,//5 Zimmer
        legendIndex: 10, 
-      "visible": false
+      "visible": true
     },
      {
       "color": "#8A8A8A",
@@ -131,7 +131,7 @@
       "marker": {
 				"enabled": false
 			},
-      "visible": false
+      "visible": true
     },
     {
       "color": "#ffbb58",
@@ -142,7 +142,7 @@
       "marker": {
 				"enabled": false
 			},
-      "visible": false
+      "visible": true
     },
     {
       "color": "#007a2f",
@@ -153,7 +153,7 @@
       "marker": {
 				"enabled": false
 			},
-      "visible": false
+      "visible": true
     },
     {
       "color": "#923f8d",
@@ -164,7 +164,7 @@
       "marker": {
 				"enabled": false
 			},
-      "visible": false
+      "visible": true
     },
     {
       "color": "#2B0099",
@@ -175,12 +175,13 @@
       "marker": {
 				"enabled": false
 			},
-      "visible": false
+      "visible": true
     }
   ],
   "chart": {
     "type": "column",
-    "spacingBottom": 28    
+    "spacingBottom": 28,
+    width: 665
   }
 	}
 }());
