@@ -4990,13 +4990,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "8f3bd8dc24ac178a736427a057339e4498fc8274"
 	},
-	"6597": {
-		"metadata": "a656d4df7dff6d3422ff257ac3577a4b038b2f2f",
-		"chartConfig": "f29af340d59149c3eb6e5efeeaa502fd69bd6951",
-		"data": "cf4cd2b41e551b80fc6067d27049a4de0a0874f4",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "8f3bd8dc24ac178a736427a057339e4498fc8274"
-	},
 	"6599": {
 		"metadata": "bbb7e579112fcbb1c974e927cb29994fadccdcaf",
 		"chartConfig": "ec9ae3c9c5664e6ad731c50724fbcc2946a5ca60",
