@@ -107,11 +107,11 @@
       "enabled": true,
       //"x": 45,
       //"y": 35,
-      "itemWidth": 200,
-      "layout": "horizontal",
-      "verticalAlign": "top",
+      //"itemWidth": 200,
+      "layout": "vertical",
+      "verticalAlign": "middle",
       "itemMarginBottom": 5,
-      "align": "left",
+      "align": "right",
       "itemStyle": {
         "fontWeight": "normal"
       }
@@ -124,6 +124,9 @@
           "symbol": "circle",
         }
       }
+    },
+    chart: {
+      width: 665
     }
   }
 }());
