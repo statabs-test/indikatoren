@@ -6,11 +6,11 @@
       "data": [
         [
           "Ausland",
-          33.78
+          33.79
         ],
         [
           "Schweiz",
-          42.96
+          42.88
         ]
       ],
       "name": "Männlich",
@@ -22,11 +22,11 @@
       "data": [
         [
           "Ausland",
-          34.33
+          34.52
         ],
         [
           "Schweiz",
-          46.87
+          46.74
         ]
       ],
       "name": "Weiblich",
@@ -38,11 +38,11 @@
       "data": [
         [
           "Ausland",
-          34.05
+          34.14
         ],
         [
           "Schweiz",
-          45.05
+          44.94
         ]
       ],
       "name": "Total",

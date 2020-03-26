@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#0a3b19",
+      "visible": true,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -48,7 +49,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9A86A6",
+      "color": "#007a2f",
       "visible": false,
       "data": [
         [
@@ -96,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#68ab2b",
       "visible": false,
       "data": [
         [
@@ -144,7 +145,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#73b97c",
       "visible": false,
       "data": [
         [
@@ -192,7 +193,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9E7C59",
+      "color": "#45381d",
       "visible": false,
       "data": [
         [
@@ -240,7 +241,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9E7C59",
+      "color": "#7f5f1a",
       "visible": false,
       "data": [
         [
@@ -288,7 +289,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#cd9c00",
       "visible": false,
       "data": [
         [
@@ -336,7 +337,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#fabd24",
       "visible": false,
       "data": [
         [
@@ -384,7 +385,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#ffda80",
       "visible": false,
       "data": [
         [
@@ -432,7 +433,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#8B2223",
+      "color": "#e7cee2",
+      "visible": false,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -476,6 +478,54 @@
         ]
       ],
       "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "visible": true,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          184.4
+        ],
+        [
+          "10 bis 19 Jahre",
+          63.8
+        ],
+        [
+          "20 bis 29 Jahre",
+          89
+        ],
+        [
+          "30 bis 39 Jahre",
+          118.5
+        ],
+        [
+          "40 bis 49 Jahre",
+          123.2
+        ],
+        [
+          "50 bis 59 Jahre",
+          166.6
+        ],
+        [
+          "60 bis 69 Jahre",
+          266.5
+        ],
+        [
+          "70 bis 79 Jahre",
+          481.4
+        ],
+        [
+          "80 bis 89 Jahre",
+          792.5
+        ],
+        [
+          "90 Jahre u.m.",
+          924.7
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -561,7 +611,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 200
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

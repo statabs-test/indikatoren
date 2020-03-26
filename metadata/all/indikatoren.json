@@ -6492,6 +6492,47 @@
 		"id": 4360
 	},
 	{
+		"title": "Familienergänzendes Kinderbetreuungsangebot",
+		"subtitle": "Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren in der Stadt Basel",
+		"kuerzel": "I.13.?.04374",
+		"kuerzelKunde": "G11",
+		"description": "Familienergänzendes Kinderbetreuungsangebot",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2020-03-05T14:58:51.5151",
+		"stufe1": "Gesellschaft",
+		"stufe2": "G11: Chancengleichheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel ist seit 2013 kontinuierlich gestiegen. 2017 lag sie bei 191,7 pro 1000 Kindern im Vorschulalter.",
+		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0–3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht-institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_50_00_00_00_611",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
+			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
+		],
+		"data-id": 4374,
+		"chart-id": 4374,
+		"filter": "",
+		"id": 4374
+	},
+	{
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
 		"kuerzel": "I.01.1.4462",
@@ -8979,13 +9020,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-04T09:54:31.3131",
+		"aktualisierungsdatum": "2020-02-10T11:37:56.5656",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Grundpfandbelastung im Kanton Basel-Stadt nimmt weiterhin zu.",
+		"lesehilfe": "Die Grundpfandbelastung ist im Kanton Basel-Stadt seit 1990 Jahr für Jahr gestiegen.",
 		"erlaeuterungen": "Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9130,7 +9171,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2017 um 25% auf 68 411 zu. Mit einer Zunahme von 42% verzeichnete der Hauptbereich Rehabilitation die grösste relative Veränderung im Beobachtungszeitraum.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9144,9 +9185,13 @@
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4947,
+		"chart-id": 4947,
+		"filter": "",
 		"id": 4947
 	},
 	{
@@ -9167,7 +9212,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2017 um 35% auf 89 900 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+30%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2017 rund 767 800 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9181,9 +9226,13 @@
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4948,
+		"chart-id": 4948,
+		"filter": "",
 		"id": 4948
 	},
 	{
@@ -11091,39 +11140,44 @@
 		"id": 5191
 	},
 	{
-		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
-		"kuerzel": "I.50.1.05192",
-		"kuerzelKunde": "GW14",
-		"description": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"kuerzel": "I.50.1.5192",
+		"kuerzelKunde": "",
+		"description": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-02-25T13:20:48.4848",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 63,3% gaben 2015 an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "22,0% der Befragten gaben 2019 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 17,4% haben mehrere Kurse besucht. 57,7% gaben an, keinen Kurs besucht zu haben.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_314",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5192,
-		"darstellungsart": "Grafik"
+		"data-id": 5192,
+		"chart-id": 5192,
+		"filter": "",
+		"id": 5192
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
@@ -13516,24 +13570,24 @@
 		"id": 6043
 	},
 	{
-		"title": "Entwicklung des Frauenanteils im grossen Rat",
+		"title": "Frauenanteil im Grossen Rat",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.17.3.6044",
-		"kuerzelKunde": "GZ10",
-		"description": "Entwicklung des Frauenanteils im grossen Rat",
+		"kuerzelKunde": "",
+		"description": "Frauenanteil im Grossen Rat",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-17T13:46:15.1515",
+		"aktualisierungsdatum": "2020-01-16T11:03:08.088",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13541,16 +13595,18 @@
 		"visibleInPortal": true,
 		"orderKey": "05_03_00_00_00_511",
 		"parentId": null,
-		"children": [
-			"4922"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6044,
+		"chart-id": 6044,
+		"filter": "",
 		"id": 6044
 	},
 	{
@@ -26843,7 +26899,7 @@
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6502",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
@@ -26854,13 +26910,13 @@
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-19T10:28:53.5353",
+		"aktualisierungsdatum": "2020-01-23T17:17:37.3737",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am Jahresende 2018 weisen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kindern und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Rosental, Gundeldingen, Altstadt Kleinbasel und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+		"lesehilfe": "Am Jahresende 2019 wiesen die Wohnviertel Bruderholz und Hirzbrunnen sowie die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren lebten in den Wohnvierteln Gundeldingen, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen waren in den Vorstädten, im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -28684,13 +28740,13 @@
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-03-19T10:23:59.5959",
+		"aktualisierungsdatum": "2020-02-25T13:27:38.3838",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2018 bei 177 595.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2019 bei 177 784.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
@@ -36840,6 +36896,42 @@
 		"id": 6976
 	},
 	{
+		"title": "Einbruchdiebstähle",
+		"subtitle": "",
+		"kuerzel": "I.19.3.06979",
+		"kuerzelKunde": "",
+		"description": "Einbruchdiebstähle",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Strafvollzug",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6979,
+		"chart-id": 6979,
+		"filter": "",
+		"id": 6979
+	},
+	{
 		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
 		"subtitle": "in Franken, Basel-Stadt, 2016",
 		"kuerzel": "I.18.2.06980",
@@ -37120,11 +37212,11 @@
 		"id": 6990
 	},
 	{
-		"title": "Mittlere Aufenthaltsdauer in Basler Spitälern nach Alter",
-		"subtitle": "im Hauptbereich Akutsomatik, in Tagen",
+		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
+		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2018",
 		"kuerzel": "I.14.1.06991",
 		"kuerzelKunde": "",
-		"description": "Mittlere Aufenthaltsdauer in Basler Spitälern nach Alter",
+		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -37137,7 +37229,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,1 Tagen im Jahr 2012 kontinuierlich auf 6,5 Tage im Jahr 2017 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den 6 beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
+		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,1 Tagen im Jahr 2012 auf 6,6 Tage im Jahr 2018 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den 7 beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -37292,7 +37384,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-12-27T09:07:04.044",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -37332,13 +37424,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-12-27T09:07:11.1111",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden insgesamt 65&nbsp;104 Patienten in baselstädtischen Spitälern stationär behandelt. Der Anteil baselstädtischer Patienten betrug mit 46% rund 10 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2018 wurden knapp 29&nbsp;850 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt. Stark zugenommen hat hingegen der Anteil an Patienten aus dem Kanton Basel-Landschaft: Sie machen 2018 über 32% aller Behandelten aus.",
+		"lesehilfe": "Im Jahr 2018 wurden insgesamt 65&nbsp;104 Patienten in baselstädtischen Spitälern stationär behandelt. Der Anteil baselstädtischer Patienten betrug mit 46% rund 10 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2018 wurden knapp 29&nbsp;850 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt. Stark zugenommen hat hingegen der Anteil an Patienten aus dem Kanton Basel-Landschaft: Sie machten 2018 über 32% aller Behandelten aus.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -37482,11 +37574,11 @@
 		"id": 6999
 	},
 	{
-		"title": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
-		"subtitle": "nach Alter der Patienten, 2017",
+		"title": "Aufenthaltsorte nach dem Spitalaustritt",
+		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2018",
 		"kuerzel": "I.14.1.07000",
 		"kuerzelKunde": "",
-		"description": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
+		"description": "Aufenthaltsorte nach dem Spitalaustritt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -37499,7 +37591,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp 80% aller Patienten, die sich im Jahr 2017 einer stationären Behandlung in einem basel-städtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 50% am tiefsten. Gut 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
+		"lesehilfe": "Knapp 80% aller Patienten, die sich im Jahr 2018 einer stationären Behandlung in einem basel-städtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 51% am tiefsten. Gut 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
 		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem basel-städtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -37735,14 +37827,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-22T14:05:29.2929",
+		"aktualisierungsdatum": "2020-02-25T13:28:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 werden 9,6% aller Schülerinnen und Schüler in der obligatorischen Schulzeit mit Wohnort Basel-Stadt an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, während er bei den Ausländern 14,0% beträgt.",
-		"erlaeuterungen": "Die Privatschulquote definiert sich als Anteil Schülerinnen und Schüler an einer Privatschule in der obligatorischen Schulzeit an allen Schülerinnen und Schülern in der obligatorischen Schulzeit.<br>Berücksichtigt werden sämtliche Schülerinnen und Schüler mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
+		"lesehilfe": "2017 werden 9,7% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 14,2%.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -41587,6 +41679,48 @@
 		"chart-id": 7709,
 		"filter": "",
 		"id": 7709
+	},
+	{
+		"title": "Verlorene potentielle Lebensjahre",
+		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.14.3.07710",
+		"kuerzelKunde": "",
+		"description": "Verlorene potentielle Lebensjahre",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2020-01-09T17:58:13.1313",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit 1995 sinken die Verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt. Die Entwicklung verläuft allerdings bei den Männern deutlich schneller als bei den Frauen. 2017 waren es bei den Männern 3&nbsp;967 VPL und bei den Frauen 2&nbsp;463.",
+		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100&nbsp;000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit beispielsweise 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein.<br>Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der Basler Bevölkerung im Jahr 2010 standardisiert.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"7948"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7710,
+		"chart-id": 7710,
+		"filter": "",
+		"id": 7710
 	},
 	{
 		"title": "Delikte",
@@ -45620,6 +45754,246 @@
 		"chart-id": 7993,
 		"filter": "",
 		"id": 7993
+	},
+	{
+		"title": "Durchimpfungsraten ausgewählter Krankheiten",
+		"subtitle": "nach Schuljahr für die 13- und 14-Jährigen, Basel-Stadt",
+		"kuerzel": "I.14.4.08348",
+		"kuerzelKunde": "",
+		"description": "Durchimpfungsraten ausgewählter Krankheiten",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-27T09:06:55.5555",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Schuljahr 2017/2018 waren 96,2% der Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
+		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"<a href = 'https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/impfungen-prophylaxe/schweizerischer-impfplan.html' target = '_blank'>Bundesamt für Gesundheit: Schweizerischer Impfplan</a>"
+		],
+		"data-id": 8348,
+		"chart-id": 8348,
+		"filter": "",
+		"id": 8348
+	},
+	{
+		"title": "Todesursachen nach Geschlecht",
+		"subtitle": "und nach Alter im Jahr 2017",
+		"kuerzel": "I.14.3.08424",
+		"kuerzelKunde": "",
+		"description": "Todesursachen nach Geschlecht",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-31T09:25:04.044",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Als Todesursache gilt das für den Tod massgebende Grundleiden nach der internationalen Klassifikation der Krankheiten und verwandter Gesundheitsprobleme (ICD10, gültig seit 1995).",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8424,
+		"chart-id": 8424,
+		"filter": "",
+		"id": 8424
+	},
+	{
+		"title": "Todesursachen nach Geschlecht",
+		"subtitle": "Zusammengefasste Todesursachen von 1995 bis 2017",
+		"kuerzel": "I.14.3.08425",
+		"kuerzelKunde": "",
+		"description": "Todesursachen nach Geschlecht",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-31T09:25:04.044",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Als Todesursache gilt das für den Tod massgebende Grundleiden nach der internationalen Klassifikation der Krankheiten und verwandter Gesundheitsprobleme (ICD10, gültig seit 1995).",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8425,
+		"chart-id": 8425,
+		"filter": "",
+		"id": 8425
+	},
+	{
+		"title": "Übergewichtige Kinder",
+		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
+		"kuerzel": "I.14.1.08451",
+		"kuerzelKunde": "",
+		"description": "Übergewichtige Kinder",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-24T11:37:32.3232",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Schuljahr 2016/2017 waren 23% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8451,
+		"chart-id": 8451,
+		"filter": "",
+		"id": 8451
+	},
+	{
+		"title": "Kaiserschnitte in baselstädtischen Spitälern",
+		"subtitle": "2012 bis 2018",
+		"kuerzel": "I.14.1.08692",
+		"kuerzelKunde": "",
+		"description": "Kaiserschnitte in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2018 wurden von den 4 577 Entbindungen insgesamt 1 619 mittels Kaiserschnitt durchgeführt. Dies entspricht einem Anteil von 35,4%. Von den 1619 Kaiserschnitten im Jahr 2018 wurden 841 geplant und 778 ungeplant durchgeführt.",
+		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthale in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert. Ab dem Jahr 2014 werden primäre (im Voraus geplante) und sekundäre (ungeplante) Kaiserschnitte separat erfasst und in der obigen Grafik ausgewiesen. Als natürliche Entbindungen werden jene Entbindungen defniert, die nicht mittels Kaiserschnitt durchgeführt wurden.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8692,
+		"chart-id": 8692,
+		"filter": "",
+		"id": 8692
+	},
+	{
+		"title": "Motorisierter Individualverkehr Basel-Stadt",
+		"subtitle": "2018 bis 2020, 1. Quartal",
+		"kuerzel": "I.11.1.08976",
+		"kuerzelKunde": "",
+		"description": "Motorisierter Individualverkehr Basel-Stadt",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-26T10:58:05.055",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "25. Februar: In der Schweiz wird erstmals ein Fall des neuartigen Coronavirus bestätigt. 13. März: Der Bundesrat schliesst alle Schulen. Veranstaltungen ab 100 Personen werden verboten. In Restaurants dürfen sich nur noch 50 Personen aufhalten. 16. März: Der Bundesrat erklärt die «ausserordentliche Lage».",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8976,
+		"chart-id": 8976,
+		"filter": "",
+		"id": 8976
 	},
 	{
 		"title": "Test Daten",

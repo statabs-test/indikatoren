@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | false |  | Cercle-Indicateurs
+4374 | true | true | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
@@ -332,7 +332,7 @@ id | visible | visibleInPortal | indikatorenset
 5188 | true | true | Nachhaltigkeit
 5189 | true | false | Nachhaltigkeit
 5191 | true | false | Nachhaltigkeit
-5192 | true | true | Nachhaltigkeit
+5192 | true | true | 
 5193 | true | true | Nachhaltigkeit
 5194 | true | false | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
@@ -399,7 +399,7 @@ id | visible | visibleInPortal | indikatorenset
 6041 | true | true | Nachhaltigkeit
 6042 | true | false | Nachhaltigkeit
 6043 | true | false | Nachhaltigkeit
-6044 | true | true | Nachhaltigkeit
+6044 | true | true | 
 6045 | true | false | Nachhaltigkeit
 6046 | true | true | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
@@ -992,6 +992,7 @@ id | visible | visibleInPortal | indikatorenset
 6974 | true | true | Wohnviertel
 6975 | true | true | Wohnviertel
 6976 | true | true | Wohnviertel
+6979 | true | true | 
 6980 | true | true | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern
@@ -1106,6 +1107,7 @@ id | visible | visibleInPortal | indikatorenset
 7707 | true | true | Stadtteilmonitoring Rosental
 7708 | true | true | Stadtteilmonitoring Rosental
 7709 | true | true | Stadtteilmonitoring Rosental
+7710 | true | true | 
 7711 | true | true | Stadtteilmonitoring Rosental
 7712 | true | true | Stadtteilmonitoring Rosental
 7713 | true | false | Testset
@@ -1205,6 +1207,12 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8348 | true | true | 
+8424 | true | true | 
+8425 | true | true | 
+8451 | true | true | 
+8692 | true | true | 
+8976 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

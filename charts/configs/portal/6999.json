@@ -225,8 +225,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     },
     "tickAmount": 5,
     "reversedStacks": false
@@ -264,12 +263,8 @@
         "enabled": false
       },
       "pointWidth": 15,
-      "dataLabels": {
-        "style": {
-          "fontSize": 10
-        }
-      },
-      "stacking": "normal"
+      "stacking": "normal",
+      "borderWidth": 0
     }
   },
   "customFunctions": {

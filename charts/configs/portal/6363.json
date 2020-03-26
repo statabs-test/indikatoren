@@ -5,11 +5,11 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          66.8
+          66.49
         ],
         [
           "Familienhaushalte",
-          32.5
+          32.48
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
@@ -49,7 +49,7 @@
         ],
         [
           "Nichtfamilienhaushalte",
-          36.32
+          36.03
         ]
       ],
       "name": "Mittlere Wohnfläche",
@@ -60,19 +60,19 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          null
+          undefined
         ],
         [
           "Familienhaushalte",
-          null
+          undefined
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          46.05
+          46.19
         ],
         [
           "Paare mit minderjährigen Kindern",
-          25.12
+          25.37
         ],
         [
           "Verheiratete Paare mit Kindern",
@@ -84,7 +84,7 @@
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
-          29.95
+          29.29
         ],
         [
           "Ohne weitere Personen",
@@ -100,11 +100,11 @@
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
-          33.06
+          32.81
         ],
         [
           "Nichtfamilienhaushalte",
-          null
+          undefined
         ]
       ],
       "name": "Mittlere Wohnfläche",
@@ -115,51 +115,51 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          null
+          undefined
         ],
         [
           "Familienhaushalte",
-          null
+          undefined
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          null
+          undefined
         ],
         [
           "Paare mit minderjährigen Kindern",
-          null
+          undefined
         ],
         [
           "Verheiratete Paare mit Kindern",
-          24.89
+          25.16
         ],
         [
           "Unverheiratete Paare mit Kindern",
-          26.96
+          26.94
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
-          null
+          undefined
         ],
         [
           "Ohne weitere Personen",
-          32.65
+          32.6
         ],
         [
           "Mit Grosseltern(-teil)",
-          23
+          23.6
         ],
         [
           "Mit weiteren Personen",
-          25.49
+          24.71
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
-          null
+          undefined
         ],
         [
           "Nichtfamilienhaushalte",
-          null
+          undefined
         ]
       ],
       "name": "Mittlere Wohnfläche",
