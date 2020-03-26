@@ -14,7 +14,7 @@ global geojson_wohnviertelEPSG2056
 			 "layout": "vertical",
 			 //"verticalAlign": "middle",
 			 "align": "right",
-			 "x": -60,
+			 "x": -250,
 			 //"y": -20,
 			 itemMarginBottom: 2, 
 			 symbolRadius: 0,
