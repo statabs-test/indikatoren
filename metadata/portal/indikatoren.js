@@ -9332,7 +9332,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
