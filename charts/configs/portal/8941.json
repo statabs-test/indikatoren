@@ -63,6 +63,8 @@
       "turboThreshold": 0
     },
     {
+      "visible": false,
+      "showInLegend": false,
       "color": "#B00000",
       "data": [
         [
@@ -94,6 +96,8 @@
       "turboThreshold": 0
     },
     {
+      "visible": false,
+      "showInLegend": false,
       "color": "#246370",
       "data": [
         [
@@ -296,7 +300,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettoerwerbstätigenquote nach Geschlecht und Heimat"
+    "text": "Nettoerwerbstätigenquote nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -327,7 +331,8 @@
       },
       "format": "{value}%"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 25
   },
   "navigation": {
     "menuItemStyle": {
@@ -348,7 +353,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-26"
   },
   "legend": {
     "padding": 0,

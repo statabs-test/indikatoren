@@ -1,11 +1,9 @@
 {
   "series": [
     {
+      "visible": false,
       "color": "#008AC3",
       "legendIndex": 0,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2009,
@@ -51,11 +49,9 @@
       "name": "Schweiz"
     },
     {
+      "visible": false,
       "color": "#68AB2B",
       "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2009,
@@ -103,9 +99,6 @@
     {
       "color": "#3C3C3C",
       "legendIndex": 2,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2009,
@@ -246,6 +239,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginTop": 50,
     "renderTo": "container-8886",
     "spacingBottom": 12
   },
@@ -256,7 +250,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Geburtenziffer nach Staatsangehörigkeit"
+    "text": "Geburtenziffer"
   },
   "subtitle": {
     "style": {
@@ -269,8 +263,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -288,9 +281,9 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 2
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -303,7 +296,8 @@
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -319,33 +313,25 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-26"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 100
+    "padding": 0
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

@@ -6,7 +6,6 @@
                 pointPadding: 0,
                 groupPadding: 0.1,
                 borderWidth: 0
-
             }
         },
         "chart": {
@@ -32,15 +31,9 @@
             enabled: true,
             "layout": "horizontal",
             "verticalAlign": "top",
+            "align": "left",
             "itemMarginBottom": 5,
             padding: 0,
-            "align": "left",
-            //"x": 30,
-            //"y": 35,
-            //"itemWidth": 80,
-            "itemStyle": {
-                "fontWeight": "normal"
-            }
         },
         tooltip: {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
