@@ -1791,7 +1791,7 @@
       },
       "x": 12.5,
       "rotation": 0,
-      "formatter": function () {
+      "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		}
     },
@@ -1800,7 +1800,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
 
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -1864,7 +1864,7 @@
       "lineColor": "#B9CFD7",
       "labels": {
         "format": "{value:,.0f}",
-        "formatter": function (){
+        "formatter": function(){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       },
         "style": {
@@ -1873,7 +1873,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 0.01,
       "title": ""
@@ -1897,7 +1896,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 100,
       "opposite": true
@@ -1931,7 +1929,7 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
 	        return this.name
 	            .replace("Arbeitslose ", "AL ")
             ;

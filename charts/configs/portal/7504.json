@@ -644,7 +644,7 @@
       },
       "x": 11,
       "rotation": 0,
-      "formatter": function () {
+      "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
      		}
     },
@@ -667,7 +667,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
+      "load": function() {
                     this.credits.element.onclick = function() {};
                     
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
@@ -763,7 +763,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 10,
       "opposite": true
@@ -802,7 +801,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "labelFormatter": function (){
+    "labelFormatter": function(){
 	        return this.name
 	       
 	            .replace("Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen", "Bestand Meldepflichtige in VZÄ Gesundheits-,<br/>Veterinärwesen, Heime, Kinderkrippen")

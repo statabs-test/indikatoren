@@ -292,7 +292,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
+      "load": function() {
                     this.credits.element.onclick = function() {};
                     
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
@@ -409,7 +409,7 @@
     "symbolPadding": 0,
     "margin": 1,
     "width": 120,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
        return this.name.replace("Institutionen für Suchtkranke, psychosoziale Fälle", "Institutionen für Sucht-<br/>kranke, psychosoziale Fälle");
      }
   },

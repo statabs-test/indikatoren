@@ -332,7 +332,7 @@
       },
       "x": 11,
       "rotation": 0,
-      "formatter": function () {
+      "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
      		}
     },
@@ -355,7 +355,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
+      "load": function() {
                     this.credits.element.onclick = function() {};
                     
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
@@ -451,7 +451,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "tickAmount": 6,
       "tickInterval": 20,
       "opposite": true
