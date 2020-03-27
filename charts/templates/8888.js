@@ -22,8 +22,8 @@
             }     
         },
         yAxis:[{
-            //max: 18000,
-            //tickInterval: 6000,
+            max: 22000,
+            tickInterval: 11000,
             min:0,
             title: {
                 text: null

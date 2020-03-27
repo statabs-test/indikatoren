@@ -32,6 +32,7 @@
                 text: null
             },
             "labels": {
+                y: 12,
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
@@ -113,8 +114,8 @@
             "verticalAlign": "top",
             "align": "left",
            	//"y": 55,
-           	//"x": 105,
-           	"itemWidth": 140,
+           	"x": 1,
+            itemDistance: 10,
             "itemStyle": {
                 "fontWeight": "normal"
             }
@@ -136,7 +137,7 @@
         },
         "chart":{
          	marginRight: 15,
-         	marginBottom: 70,
+         	//marginBottom: 70,
             events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
                 load: function(){
                     this.credits.element.onclick = function() {};

@@ -1,7 +1,8 @@
 (function(){
     return {
       chart: {
-        inverted: true
+        inverted: true,
+        width: 665
       },
     "legend": {
         "layout": "vertical",

@@ -31,6 +31,7 @@ global Highcharts
     "type": "column"
   },
   "plotOptions": {
+    borderWidth: "0px",
     "series": {
       "dataLabels": {
         "enabled": false,
