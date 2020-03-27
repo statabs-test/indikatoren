@@ -12,8 +12,8 @@
       }
     ],
     "chart": {
-      "marginBottom": 65,
-      "marginTop": 75,
+      //"marginBottom": 65,
+      //"marginTop": 75,
       "type": "column"
     }
   }

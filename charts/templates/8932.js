@@ -1,8 +1,8 @@
 (function () {
   return {
     "chart": {
-      "marginBottom": 75,
-      "marginTop": 75,
+      //"marginBottom": 75,
+      //"marginTop": 75,
       "type": "column"
     },
     "yAxis": {

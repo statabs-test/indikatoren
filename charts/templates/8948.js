@@ -69,7 +69,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    //"spacingBottom": 40
   }
 }
 }());

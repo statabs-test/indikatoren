@@ -38,7 +38,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40,
+    //"spacingBottom": 40,
      marginLeft: 120, 
 
   },

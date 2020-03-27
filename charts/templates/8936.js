@@ -14,7 +14,7 @@
       "type": "column",
       "inverted": true, /* false */
       "marginLeft": 210,
-      "marginBottom": 55,
+      //"marginBottom": 55,
       "marginRight": 15,
       width: 665,
       height: 400

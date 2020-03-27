@@ -180,7 +180,7 @@
   ],
   "chart": {
     "type": "column",
-    "spacingBottom": 28,
+    //"spacingBottom": 28,
     width: 665
   }
 	}
