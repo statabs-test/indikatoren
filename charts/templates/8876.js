@@ -2,6 +2,7 @@
     return {
       chart: {
         type: "column",
+        marginBottom: 35,
         //animation: false,
         inverted: false,
     /*events: {
