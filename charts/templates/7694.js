@@ -49,7 +49,9 @@
       }
     ],
     "xAxis": {
-      "tickInterval": 2
+      "tickInterval": 2,
+      endOnTick: true,
+      //showLastLabel: true,
     },
     "legend": {
       "enabled": true,
