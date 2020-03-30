@@ -48,7 +48,7 @@
   {"color": "#ff8028", index: 3, legendIndex: 3}, 
   {"color": "#73ba7c", index: 2, legendIndex: 4}, 
  // {"color": "#E7CEE2", index: 2, legendIndex: 5},
-  {"color": "#999999", index: 1, legendIndex: 5}, 
+  {"color": "#E7CEE2", index: 1, legendIndex: 5}, 
 
  /* {"color": "#71a3b5", index: 6, legendIndex: 0}, 
   {"color": "#672773", index: 5, legendIndex: 1}, 
