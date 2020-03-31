@@ -26555,7 +26555,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnbevölkerung nach Geburtsland",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08240",
 		"kuerzelKunde": "1-01",
 		"description": "Wohnbevölkerung nach Geburtsland",
@@ -26566,12 +26566,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "Kapitel 1",
+		"stufe1": "1. Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grössten Anteile in der Schweiz geborenen Personen waren 2018 mit jeweils mindestens 65% in den Wohnvierteln Bachletten, Hirzbrunnen, Bruderholz und Riehen zu finden. Im Wohnviertel St. Alban sank dieser Anteil in den letzten zehn Jahren mit einem Minus von 6,5 Prozenpunkten am stärksten.",
+		"lesehilfe": "Die grössten Anteile in der Schweiz geborenen Personen waren 2019 mit jeweils mindestens 65% in den Wohnvierteln Bachletten, Hirzbrunnen, Bruderholz und Riehen zu finden. Im Wohnviertel Vorstädte sank dieser Anteil in den letzten zehn Jahren mit einem Minus von 6,8 Prozenpunkten am stärksten.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"template": "mappie001",
 		"darstellungsart": "Grafik",
@@ -28067,7 +28067,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländeranteil der Jugendlichen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08282",
 		"kuerzelKunde": "2-05",
 		"description": "Ausländeranteil der Jugendlichen",
@@ -28078,12 +28078,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "Kapitel 2",
+		"stufe1": "2. Kinder- und jugendfreundliche Lebensräume",
 		"stufe2": "2.2 Günstige Aufwachsbedingungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Ausländeranteile unter den Jugendlichen waren 2018 mit jeweils über 40% in den Wohnvierteln Clara, Matthäus, Kleinhüningen, Klybeck und Kleinhüningen zu finden. Seit 2009 sank dieser Anteil im Wohnviertel Kleinhüningen um 12,3 Prozenpunkte und stieg in der Alstadt Grossbasel im selben Zeitraum um 9,2 Prozentpunkte.",
+		"lesehilfe": "Die höchsten Ausländeranteile unter den Jugendlichen waren 2019 mit jeweils über 40% in den Wohnvierteln Clara, Matthäus, Kleinhüningen, Klybeck und Rosental zu finden. Seit 2010 sank dieser Anteil im Wohnviertel Kleinhüningen um 8,9 Prozenpunkte und stieg im Wohnviertel Rosental im selben Zeitraum um 8,1 Prozentpunkte.",
 		"erlaeuterungen": "Ausländeranteil der Wohnbevölkerung im Alter von 16 bis 25 Jahren. Bevölkerungsbestand zum Jahresende.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -28109,7 +28109,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"subtitle": "Kinder mit Angeboten in Gehdistanz, Stadt Basel, 2018",
+		"subtitle": "Kinder mit Angeboten in Gehdistanz, Stadt Basel, nach Wohnviertel, 2019",
 		"kuerzel": "I.16.3.08285",
 		"kuerzelKunde": "2-12",
 		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
@@ -28120,7 +28120,7 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "Kapitel 2",
+		"stufe1": "2. Kinder- und jugendfreundliche Lebensräume",
 		"stufe2": "2.2 Günstige Aufwachsbedingungen",
 		"stufe3": "",
 		"stufe4": "",
@@ -28487,7 +28487,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.08294",
 		"kuerzelKunde": "3-21",
 		"description": "Reineinkommen",
@@ -28498,13 +28498,13 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-09-09T09:37:20.2020",
-		"stufe1": "Kapitel 3",
+		"stufe1": "3. Sozialer Zusammenhalt",
 		"stufe2": "3.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2016 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 67 700 Franken. Mit 36 800 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2017 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 67 300 Franken. Mit ca. 36 200 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2017; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -28744,48 +28744,6 @@ var indikatoren = [
 		"id": 8320
 	},
 	{
-		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für ältere Menschen?»",
-		"kuerzel": "",
-		"kuerzelKunde": "3-31",
-		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
-		"thema": "50 Befragungen",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "3. Sozialer Zusammenhalt",
-		"stufe2": "3.3 Generationenarbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 sind 53,9% der Befragten sehr oder eher zufrieden mit Einrichtungen und Angeboten für ältere Menschen und 7,2 sehr oder eher unzufrieden. 38,9% antworten mit «Weiss nicht». Dieser Anteil ist aufgrund des Methodenwechsels deutlich höher als in den Vorjahren.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_331",
-		"parentId": null,
-		"children": [
-			"8592"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8321,
-		"chart-id": 8321,
-		"filter": "",
-		"id": 8321
-	},
-	{
 		"title": "Nachbarschaftliches Verhältnis",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
 		"kuerzel": "I.50.2.08322",
@@ -28870,11 +28828,11 @@ var indikatoren = [
 		"id": 8323
 	},
 	{
-		"title": "Zufriedenheit mit den sozialkontakten",
+		"title": "Zufriedenheit mit den Sozialkontakten",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
 		"kuerzel": "",
 		"kuerzelKunde": "3-30",
-		"description": "Zufriedenheit mit den sozialkontakten",
+		"description": "Zufriedenheit mit den Sozialkontakten",
 		"thema": "50 Befragungen",
 		"unterthema": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -29055,7 +29013,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "3,5% der Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. Vor vier Jahren waren noch weniger.",
+		"lesehilfe": "3,5% der Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. 2011 lag dieser Anteil bei 2%.",
 		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
@@ -29207,7 +29165,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil deutschsprachige Personen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.8.08332",
 		"kuerzelKunde": "1-02",
 		"description": "Anteil deutschsprachige Personen",
@@ -29218,13 +29176,13 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "Kapitel 1",
+		"stufe1": "1. Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bachletten und die Gemeinden Riehen und Bettingen verzeichneten 2018 einen Anteil deutsprachiger Personen von mindestens 85%. Am anderen Ende der Skala stehen die Wohnviertel Rosental und Klybeck mit einem Anteil von 54%. Seit 2009 sank dieser Anteil mit einem Minus von 7,1 Prozentpunkten im Wohnviertel Vorstädte am stärksten.",
-		"erlaeuterungen": "Als deutschsprachige Personen wurden Personen mit den folgenden Staatsangehörigkeiten angenommen: Schweiz, Deutschland, Österreich, Lichtenstein, Luxemburg.",
+		"lesehilfe": "Das Wohnviertel Bachletten und die Gemeinden Riehen und Bettingen verzeichneten 2019 einen Anteil deutsprachiger Personen von mindestens 84%. Am anderen Ende der Skala stehen die Wohnviertel Rosental und Klybeck mit einem Anteil von 54%. Seit 2010 sank dieser Anteil mit einem Minus von 7,7 Prozentpunkten im Wohnviertel Vorstädte am stärksten.",
+		"erlaeuterungen": "Als deutschsprachige Personen wurden Personen mit den folgenden Staatsangehörigkeiten angenommen: Schweiz, Deutschland, Österreich, Liechtenstein, Luxemburg.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -29458,11 +29416,11 @@ var indikatoren = [
 		"id": 8337
 	},
 	{
-		"title": "Anteil Haushalte mit FAMI",
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "I.13.2.08338",
 		"kuerzelKunde": "1-16",
-		"description": "Anteil Haushalte mit FAMI",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -29470,7 +29428,7 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-09-27T11:26:45.4545",
-		"stufe1": "Kapitel 1",
+		"stufe1": "1. Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",

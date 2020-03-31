@@ -6563,93 +6563,93 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          64.6402
+          64.6944
         ],
         [
           2,
-          54.4983
+          53.955
         ],
         [
           3,
-          55.8928
+          55.174
         ],
         [
           4,
-          58.02
+          57.2887
         ],
         [
           5,
-          57.751
+          57.3649
         ],
         [
           6,
-          55.2319
+          55.1114
         ],
         [
           7,
-          67.2758
+          67.1312
         ],
         [
           8,
-          69.6346
+          68.9829
         ],
         [
           9,
-          64.4319
+          64.2405
         ],
         [
           10,
-          56.5491
+          56.5542
         ],
         [
           11,
-          52.6119
+          52.3241
         ],
         [
           12,
-          56.1963
+          55.3342
         ],
         [
           13,
-          48.0157
+          47.858
         ],
         [
           14,
-          61.8525
+          61.086
         ],
         [
           15,
-          67.8149
+          67.7928
         ],
         [
           16,
-          42.2515
+          42.5617
         ],
         [
           17,
-          46.8143
+          46.7559
         ],
         [
           18,
-          47.6621
+          47.4644
         ],
         [
           19,
-          49.3002
+          49.3209
         ],
         [
           20,
-          65.5772
+          65.1728
         ],
         [
           30,
-          63.6439
+          63.2203
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          -3.2205
+          -2.74986
         ],
         [
           "Vorstädte",
-          -5.97218
+          -6.86411
         ],
         [
           "Am Ring",
-          -4.65222
+          -5.65673
         ],
         [
           "Breite",
-          -5.27502
+          -5.49546
         ],
         [
           "St. Alban",
-          -6.53335
+          -6.525
         ],
         [
           "Gundeldingen",
-          -0.75261
+          -1.12978
         ],
         [
           "Bruderholz",
-          -4.84085
+          -4.49686
         ],
         [
           "Bachletten",
-          -4.12383
+          -4.16662
         ],
         [
           "Gotthelf",
-          -2.76179
+          -2.638
         ],
         [
           "Iselin",
-          -4.2931
+          -3.84019
         ],
         [
           "St. Johann",
-          -1.90581
+          -2.36574
         ],
         [
           "Altstadt Kleinbasel",
-          -5.9694
+          -5.94619
         ],
         [
           "Clara",
-          -2.33485
+          -2.6213
         ],
         [
           "Wettstein",
-          -4.64922
+          -5.86554
         ],
         [
           "Hirzbrunnen",
-          -6.22382
+          -6.0948
         ],
         [
           "Rosental",
-          -3.30519
+          -2.33233
         ],
         [
           "Matthäus",
-          -0.34577
+          -0.47855
         ],
         [
           "Klybeck",
-          -3.05027
+          -4.08846
         ],
         [
           "Kleinhüningen",
-          -1.24924
+          -1.89857
         ],
         [
           "Riehen",
-          -5.95443
+          -5.38853
         ],
         [
           "Bettingen",
-          -0.51025
+          -0.70425
         ]
       ],
-      "name": "Veränderung gegenüber 2009"
+      "name": "Veränderung gegenüber 2010"
     },
     {
       "name": "Rhein",
@@ -7007,7 +7007,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' Prozentpunkte </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -7028,7 +7028,7 @@
 					
 					fn.addLegendTitle(chart, "In der Schweiz <br/> geborene <br/> Personen (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 355, 210);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 355, 210);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
@@ -7071,7 +7071,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {

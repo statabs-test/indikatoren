@@ -1139,25 +1139,6 @@ id | visible | visibleInPortal | indikatorenset
 8292 | true | true | CMS Kennzahlen Soziales
 8293 | true | true | CMS Kennzahlen Soziales
 8294 | true | true | CMS Kennzahlen Soziales
-8295 | true | false | CMS Kennzahlen Soziales
-8296 | true | false | CMS Kennzahlen Soziales
-8297 | true | false | CMS Kennzahlen Soziales
-8298 | true | false | CMS Kennzahlen Soziales
-8299 | true | false | CMS Kennzahlen Soziales
-8300 | true | false | CMS Kennzahlen Soziales
-8301 | true | false | CMS Kennzahlen Soziales
-8302 | true | false | CMS Kennzahlen Soziales
-8303 | true | false | CMS Kennzahlen Soziales
-8304 | true | false | CMS Kennzahlen Soziales
-8305 | true | false | CMS Kennzahlen Soziales
-8306 | true | false | CMS Kennzahlen Soziales
-8307 | true | false | CMS Kennzahlen Soziales
-8308 | true | false | CMS Kennzahlen Soziales
-8309 | true | false | CMS Kennzahlen Soziales
-8310 | true | false | CMS Kennzahlen Soziales
-8311 | true | false | CMS Kennzahlen Soziales
-8312 | true | false | CMS Kennzahlen Soziales
-8313 | true | false | CMS Kennzahlen Soziales
 8314 | true | true | CMS Kennzahlen Soziales
 8315 | true | true | CMS Kennzahlen Soziales
 8316 | true | true | CMS Kennzahlen Soziales
@@ -1165,7 +1146,6 @@ id | visible | visibleInPortal | indikatorenset
 8318 | true | false | CMS Kennzahlen Soziales
 8319 | false |  | CMS Kennzahlen Soziales
 8320 | true | true | CMS Kennzahlen Soziales
-8321 | true | true | CMS Kennzahlen Soziales
 8322 | true | true | CMS Kennzahlen Soziales
 8323 | true | true | CMS Kennzahlen Soziales
 8324 | true | true | CMS Kennzahlen Soziales
@@ -1243,25 +1223,6 @@ id | visible | visibleInPortal | indikatorenset
 8563 | true | false | CMS Kennzahlen Soziales (Print)
 8564 | true | false | CMS Kennzahlen Soziales (Print)
 8565 | true | false | CMS Kennzahlen Soziales (Print)
-8566 | true | false | CMS Kennzahlen Soziales (Print)
-8567 | true | false | CMS Kennzahlen Soziales (Print)
-8568 | true | false | CMS Kennzahlen Soziales (Print)
-8569 | true | false | CMS Kennzahlen Soziales (Print)
-8570 | true | false | CMS Kennzahlen Soziales (Print)
-8571 | true | false | CMS Kennzahlen Soziales (Print)
-8572 | true | false | CMS Kennzahlen Soziales (Print)
-8573 | true | false | CMS Kennzahlen Soziales (Print)
-8574 | true | false | CMS Kennzahlen Soziales (Print)
-8575 | true | false | CMS Kennzahlen Soziales (Print)
-8576 | true | false | CMS Kennzahlen Soziales (Print)
-8577 | true | false | CMS Kennzahlen Soziales (Print)
-8578 | true | false | CMS Kennzahlen Soziales (Print)
-8579 | true | false | CMS Kennzahlen Soziales (Print)
-8580 | true | false | CMS Kennzahlen Soziales (Print)
-8581 | true | false | CMS Kennzahlen Soziales (Print)
-8582 | true | false | CMS Kennzahlen Soziales (Print)
-8583 | true | false | CMS Kennzahlen Soziales (Print)
-8584 | true | false | CMS Kennzahlen Soziales (Print)
 8585 | true | false | CMS Kennzahlen Soziales (Print)
 8586 | true | false | CMS Kennzahlen Soziales (Print)
 8587 | true | false | CMS Kennzahlen Soziales (Print)
@@ -1269,7 +1230,6 @@ id | visible | visibleInPortal | indikatorenset
 8589 | true | false | CMS Kennzahlen Soziales (Print)
 8590 | false |  | CMS Kennzahlen Soziales (Print)
 8591 | true | false | CMS Kennzahlen Soziales (Print)
-8592 | true | false | CMS Kennzahlen Soziales (Print)
 8593 | true | false | CMS Kennzahlen Soziales (Print)
 8594 | true | false | CMS Kennzahlen Soziales (Print)
 8595 | true | false | CMS Kennzahlen Soziales (Print)

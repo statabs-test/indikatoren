@@ -6563,93 +6563,93 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          51263.5
+          53595.5
         ],
         [
           2,
-          58785.5
+          59216
         ],
         [
           3,
-          54113.5
+          54487
         ],
         [
           4,
-          47243
+          47393
         ],
         [
           5,
-          61595
+          62163
         ],
         [
           6,
-          47689.5
+          47463
         ],
         [
           7,
-          65673.5
+          65811.5
         ],
         [
           8,
-          58412
+          59357.5
         ],
         [
           9,
-          50693
+          50910
         ],
         [
           10,
-          44369
+          44173
         ],
         [
           11,
-          41579.5
+          42027
         ],
         [
           12,
-          42007
+          41961.5
         ],
         [
           13,
-          40142
+          40137
         ],
         [
           14,
-          55101
+          55521
         ],
         [
           15,
-          52620
+          52717
         ],
         [
           16,
-          44851
+          44634
         ],
         [
           17,
-          38102
+          38565
         ],
         [
           18,
-          36802.5
+          36178
         ],
         [
           19,
-          41368
+          40315
         ],
         [
           20,
-          63592
+          63726
         ],
         [
           30,
-          67711
+          67289
         ]
       ]
     },
@@ -6991,7 +6991,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2017",
     "align": "left"
   },
   "credits": {

@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Ausländeranteil der Jugendlichen 2018 (%)",
+      "name": "Ausländeranteil der Jugendlichen 2019 (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          28.9063
+          28.3401
         ],
         [
           2,
-          32.6226
+          34.7222
         ],
         [
           3,
-          32.3699
+          32.0534
         ],
         [
           4,
-          29.8981
+          30.6098
         ],
         [
           5,
-          30.1415
+          29.6216
         ],
         [
           6,
-          33.2155
+          33.543
         ],
         [
           7,
-          18.5143
+          17.695
         ],
         [
           8,
-          15.9817
+          15.8893
         ],
         [
           9,
-          22.1311
+          21.7755
         ],
         [
           10,
-          32.2144
+          29.6373
         ],
         [
           11,
-          34.9299
+          35.357
         ],
         [
           12,
-          37.3057
+          37.1429
         ],
         [
           13,
-          42
+          41.555
         ],
         [
           14,
-          28.3451
+          27.6292
         ],
         [
           15,
-          20.3529
+          19.1716
         ],
         [
           16,
-          48.3911
+          49.9456
         ],
         [
           17,
-          43.8426
+          42.9547
         ],
         [
           18,
-          45.1306
+          42.924
         ],
         [
           19,
-          44.9231
+          39.8734
         ],
         [
           20,
-          22.5013
+          22.3934
         ],
         [
           30,
-          30.5556
+          29.0076
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          9.2093
+          5.09684
         ],
         [
           "Vorstädte",
-          -2.8302
+          -0.28784
         ],
         [
           "Am Ring",
-          0.218
+          3.33459
         ],
         [
           "Breite",
-          2.6155
+          3.70344
         ],
         [
           "St. Alban",
-          7.3154
+          7.56436
         ],
         [
           "Gundeldingen",
-          -1.7887
+          -0.0275
         ],
         [
           "Bruderholz",
-          1.9816
+          1.19782
         ],
         [
           "Bachletten",
-          -0.3356
+          0.03473
         ],
         [
           "Gotthelf",
-          -0.7674
+          -1.15345
         ],
         [
           "Iselin",
-          -0.2346
+          -1.08528
         ],
         [
           "St. Johann",
-          -2.9183
+          -1.32194
         ],
         [
           "Altstadt Kleinbasel",
-          2.66
+          3.25164
         ],
         [
           "Clara",
-          -3.4545
+          -2.26788
         ],
         [
           "Wettstein",
-          4.3384
+          5.23866
         ],
         [
           "Hirzbrunnen",
-          4.3224
+          1.60403
         ],
         [
           "Rosental",
-          8.521
+          8.14665
         ],
         [
           "Matthäus",
-          -3.362
+          -4.10966
         ],
         [
           "Klybeck",
-          -4.34
+          -4.42867
         ],
         [
           "Kleinhüningen",
-          -12.3372
+          -8.92176
         ],
         [
           "Riehen",
-          6.4626
+          5.71891
         ],
         [
           "Bettingen",
-          0.4942
+          0.1841
         ]
       ],
-      "name": "Veränderung gegenüber 2009"
+      "name": "Veränderung gegenüber 2010"
     },
     {
       "name": "Rhein",
@@ -7028,7 +7028,7 @@
 					
 					fn.addLegendTitle(chart, "Ausländer- <br/> anteil (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 355, 210);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 355, 210);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
@@ -7071,7 +7071,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
