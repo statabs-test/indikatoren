@@ -227,11 +227,12 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-          return this.value.replace("  ", "<br/>");
+          //console.log(this);
+          return (this.value.slice(0, 4) == '2015') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         },
       "useHTML": true,
-      "align": "left",
-      "x": -140
+      "align": "right",
+      "x": -200
     }
   },
   "chart": {
@@ -262,7 +263,7 @@
                 }
     },
     "type": "column",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
       2,
@@ -277,7 +278,7 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "marginLeft": 150,
+    "marginLeft": 220,
     "inverted": true,
     "renderTo": "container-8920",
     "spacingBottom": 12
@@ -324,12 +325,12 @@
   "legend": {
     "enabled": true,
     "useHTML": true,
-    "layout": "vertical",
+    "layout": "horizontal",
     "align": "right",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,
-    "itemMarginBottom": 4,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontFamily": "Arial",
       "fontSize": "10px",

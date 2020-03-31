@@ -555,8 +555,8 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 50,
-    "renderTo": "container-8948"
+    "renderTo": "container-8948",
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -601,7 +601,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "title": ""
     },
     {
@@ -619,7 +618,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }

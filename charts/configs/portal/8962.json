@@ -226,8 +226,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": undefined
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

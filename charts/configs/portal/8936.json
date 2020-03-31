@@ -281,7 +281,6 @@
     "type": "column",
     "inverted": true,
     "marginLeft": 210,
-    "marginBottom": 55,
     "marginRight": 15,
     "renderTo": "container-8936",
     "spacingBottom": 12
