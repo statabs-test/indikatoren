@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Ant_deutsch_2018",
+      "name": "Ant_deutsch_2019",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3244,87 +3244,87 @@
       "data": [
         [
           1,
-          80.6464
+          80.3683
         ],
         [
           2,
-          71.5939
+          70.6914
         ],
         [
           3,
-          72.7942
+          72.005
         ],
         [
           4,
-          73.9711
+          73.2638
         ],
         [
           5,
-          73.4611
+          72.7562
         ],
         [
           6,
-          69.3168
+          69.273
         ],
         [
           7,
-          83.7875
+          83.5549
         ],
         [
           8,
-          85.7217
+          85.3555
         ],
         [
           9,
-          80.7526
+          80.6099
         ],
         [
           10,
-          69.1234
+          69.2244
         ],
         [
           11,
-          65.1145
+          65.501
         ],
         [
           12,
-          72.5562
+          71.6065
         ],
         [
           13,
-          60.8035
+          61.1261
         ],
         [
           14,
-          78.8489
+          78.4434
         ],
         [
           15,
-          82.1478
+          81.7782
         ],
         [
           16,
-          54.0936
+          54.0175
         ],
         [
           17,
-          58.6786
+          59.2298
         ],
         [
           18,
-          54.2438
+          54.553
         ],
         [
           19,
-          59.2022
+          59.9714
         ],
         [
           20,
-          85.4532
+          84.8669
         ],
         [
           30,
-          90.7667
+          90.4237
         ]
       ]
     },
@@ -3333,90 +3333,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          -4.41919
+          -3.71681
         ],
         [
           "Vorstädte",
-          -7.11257
+          -7.7429
         ],
         [
           "Am Ring",
-          -6.26376
+          -6.90694
         ],
         [
           "Breite",
-          -4.85412
+          -5.16294
         ],
         [
           "St. Alban",
-          -6.54465
+          -6.4365
         ],
         [
           "Gundeldingen",
-          -0.13482
+          -0.51137
         ],
         [
           "Bruderholz",
-          -3.91312
+          -3.87331
         ],
         [
           "Bachletten",
-          -2.63465
+          -2.87353
         ],
         [
           "Gotthelf",
-          -2.86147
+          -2.75545
         ],
         [
           "Iselin",
-          -4.51095
+          -4.02756
         ],
         [
           "St. Johann",
-          -0.60197
+          -0.38094
         ],
         [
           "Altstadt Kleinbasel",
-          -5.97137
+          -7.02487
         ],
         [
           "Clara",
-          -2.16593
+          -1.8154
         ],
         [
           "Wettstein",
-          -4.01712
+          -4.61434
         ],
         [
           "Hirzbrunnen",
-          -4.58332
+          -5.22566
         ],
         [
           "Rosental",
-          -0.30864
+          -0.43602
         ],
         [
           "Matthäus",
-          0.34053
+          0.47698
         ],
         [
           "Klybeck",
-          -2.71333
+          -2.64382
         ],
         [
           "Kleinhüningen",
-          -2.22254
+          -3.06213
         ],
         [
           "Riehen",
-          -4.84219
+          -4.65906
         ],
         [
           "Bettingen",
-          -2.2877
+          -3.14954
         ]
       ],
-      "name": "Veränderung_gg_2009"
+      "name": "Veränderung_gg_2010"
     },
     {
       "name": "Rhein",
@@ -3708,7 +3708,7 @@
 					
 					fn.addLegendTitle(chart, "Anteil <br/> deutschsprachige <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009 (pp)", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
@@ -3752,7 +3752,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {

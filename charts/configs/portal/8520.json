@@ -11,31 +11,35 @@
       "data": [
         [
           "Genferseeregion",
-          7.9
+          9.6
         ],
         [
           "Mittelland",
-          4.9
+          6.9
         ],
         [
           "Nordwestschweiz",
-          4.6
+          5.4
         ],
         [
           "Zürich",
-          2.9
+          4.7
         ],
         [
           "Ostschweiz",
-          3.4
+          2.6
         ],
         [
           "Zentralschweiz",
-          2.2
+          2.1
+        ],
+        [
+          "Tessin",
+          4.8
         ],
         [
           "Schweiz",
-          4.7
+          5.7
         ]
       ],
       "name": "Anteil in %",
@@ -52,38 +56,43 @@
       "data": [
         {
           "name": "Genferseeregion",
-          "low": 5.7,
-          "high": 10
+          "low": 7.7,
+          "high": 11.6
         },
         {
           "name": "Mittelland",
-          "low": 3.5,
-          "high": 6.3
+          "low": 5.3,
+          "high": 8.5
         },
         {
           "name": "Nordwestschweiz",
-          "low": 2.6,
-          "high": 6.5
+          "low": 3.5,
+          "high": 7.3
         },
         {
           "name": "Zürich",
-          "low": 1.5,
-          "high": 4.3
+          "low": 3.3,
+          "high": 6.1
         },
         {
           "name": "Ostschweiz",
-          "low": 1.8,
-          "high": 5
-        },
-        {
-          "name": "Zentralschweiz",
-          "low": 0.8,
+          "low": 1.4,
           "high": 3.7
         },
         {
+          "name": "Zentralschweiz",
+          "low": 1,
+          "high": 3.2
+        },
+        {
+          "name": "Tessin",
+          "low": 1.9,
+          "high": 7.8
+        },
+        {
           "name": "Schweiz",
-          "low": 3.9,
-          "high": 5.5
+          "low": 5.1,
+          "high": 6.3
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",
@@ -238,7 +247,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Grossregion, 2013",
+    "text": "nach Grossregion, 2017",
     "align": "left",
     "useHTML": true
   },

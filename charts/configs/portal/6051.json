@@ -265,6 +265,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": {
         "enabled": false
       }

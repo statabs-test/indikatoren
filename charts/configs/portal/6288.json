@@ -665,6 +665,7 @@
       },
       "y": 3,
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -684,6 +685,7 @@
       },
       "y": 3,
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }

@@ -750,6 +750,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 10,
       "opposite": true

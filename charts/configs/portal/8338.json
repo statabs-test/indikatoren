@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -7064,7 +7066,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit FAMI"
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "style": {

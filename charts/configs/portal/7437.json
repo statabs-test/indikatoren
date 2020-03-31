@@ -971,6 +971,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 0.02,
       "title": ""
@@ -990,6 +991,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 100,
       "gridLineWidth": 0,

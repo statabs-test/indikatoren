@@ -11,31 +11,35 @@
       "data": [
         [
           "Genferseeregion",
-          26.3
+          25.9
         ],
         [
           "Mittelland",
-          18.9
+          21
         ],
         [
           "Nordwestschweiz",
-          15.1
+          20.3
         ],
         [
           "Zürich",
-          12
+          15.3
         ],
         [
           "Ostschweiz",
-          14.2
+          12.9
         ],
         [
           "Zentralschweiz",
-          11.9
+          12
+        ],
+        [
+          "Tessin",
+          21.6
         ],
         [
           "Schweiz",
-          17.7
+          18.9
         ]
       ],
       "name": "Zahlungsrückstand",
@@ -52,38 +56,43 @@
       "data": [
         {
           "name": "Genferseeregion",
-          "low": 21.3,
-          "high": 31.3
+          "low": 23.3,
+          "high": 28.6
         },
         {
           "name": "Mittelland",
-          "low": 16.4,
-          "high": 21.4
+          "low": 18.8,
+          "high": 23.2
         },
         {
           "name": "Nordwestschweiz",
-          "low": 12,
-          "high": 18.2
+          "low": 17,
+          "high": 23.7
         },
         {
           "name": "Zürich",
-          "low": 9.1,
-          "high": 14.9
+          "low": 12.9,
+          "high": 17.7
         },
         {
           "name": "Ostschweiz",
-          "low": 10.5,
-          "high": 17.9
+          "low": 10.4,
+          "high": 15.3
         },
         {
           "name": "Zentralschweiz",
-          "low": 8.2,
-          "high": 15.6
+          "low": 9.4,
+          "high": 14.5
+        },
+        {
+          "name": "Tessin",
+          "low": 14.8,
+          "high": 28.4
         },
         {
           "name": "Schweiz",
-          "low": 16.2,
-          "high": 19.2
+          "low": 17.9,
+          "high": 19.9
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",
@@ -100,31 +109,35 @@
       "data": [
         [
           "Genferseeregion",
-          12.3
+          11.7
         ],
         [
           "Mittelland",
-          8.1
+          8.6
         ],
         [
           "Nordwestschweiz",
-          10
+          10.1
         ],
         [
           "Zürich",
-          9.9
+          6.9
         ],
         [
           "Ostschweiz",
-          6.4
+          7.1
         ],
         [
           "Zentralschweiz",
-          4.4
+          4.8
+        ],
+        [
+          "Tessin",
+          14.6
         ],
         [
           "Schweiz",
-          9
+          8.8
         ]
       ],
       "name": "Konto- oder Kreditkartenüberziehung",
@@ -141,38 +154,43 @@
       "data": [
         {
           "name": "Genferseeregion",
-          "low": 9.4,
-          "high": 15.2
+          "low": 9.7,
+          "high": 13.8
         },
         {
           "name": "Mittelland",
-          "low": 5.7,
-          "high": 10.4
+          "low": 7,
+          "high": 10.3
         },
         {
           "name": "Nordwestschweiz",
-          "low": 7.2,
-          "high": 12.8
+          "low": 7.3,
+          "high": 13
         },
         {
           "name": "Zürich",
-          "low": 5.8,
-          "high": 14
+          "low": 5.4,
+          "high": 8.3
         },
         {
           "name": "Ostschweiz",
-          "low": 3.8,
-          "high": 9.1
+          "low": 5,
+          "high": 9.2
         },
         {
           "name": "Zentralschweiz",
-          "low": 2.3,
-          "high": 6.4
+          "low": 2.9,
+          "high": 6.6
+        },
+        {
+          "name": "Tessin",
+          "low": 9.1,
+          "high": 20
         },
         {
           "name": "Schweiz",
-          "low": 7.8,
-          "high": 10.2
+          "low": 8,
+          "high": 9.6
         }
       ],
       "name": "95% Vertrauensintervall Untergrenze",
