@@ -3,57 +3,50 @@
     title: {
       useHTML: true
     },
-    "plotOptions": {
-      "series": {
-        "borderWidth": 0,
-        "pointWidth": 30,
-        "dataLabels": {
-          "style": {
-            "fontSize": "10px"
-          }
-        },
-        "stacking": "false"
-      }
-    },
     "xAxis": {
       "type": "category",
-  	//"tickInterval": 1	
+    //"tickInterval": 1 
     },  
-    "yAxis": [{
-    	title: {
+    yAxis: [{
+      title: {
           text: null
       },
-      tickAmount: 5,
-      "labels": {
-        "format": "{value:,.0f}",
-         "style": {
-         "color": "black"
-          }
+      labels: {
+        format: "{value:,.0f}",
+        y: 3,
+         style: {
+         color: "black",
+         fontSize: '10px',
+        },
       },
-      "min": 0,  },
+      min: 0,  
+      tickAmount: 5
+    },
     {
       title: {
           text: null
       },
-      tickAmount: 5,
-      "labels": {
-        "format": "{value:,.1f}",
-         "style": {
-         "color": "black"
-          },
+      labels: {
+        format: "{value:,.1f}",
+        y: 3,
+        style: {
+         color: "black",
+         fontSize: '10px',
+        },
       },
-      "min": 0,
-      "opposite": true
+      min: 0,
+      tickAmount: 5,
+      opposite: true
     }
     ],
     "series": [
       {
-  	  "index": 1,
-  	  "color": "#71A3B5",
+      "index": 1,
+      "color": "#71A3B5",
         //"legendIndex": 2,
         "type": "column",
         "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
          }
       }, // Blau
       {
@@ -65,7 +58,7 @@
           "enabled": false
       },
       "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
        }
       }
     ],
@@ -77,10 +70,8 @@
     "legend": {
       useHTML: true,
       "enabled": true,
-      "x": 1,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
       "itemStyle": {
        "fontWeight": "normal"
@@ -90,6 +81,10 @@
       //"marginBottom": 75,
       //"marginTop": 75,
       "type": "column"
-    }
+    }, 
+    exporting: {
+      allowHTML: true,
+    },
   };
 }());
+
