@@ -1542,7 +1542,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Hitzetage",
-		"subtitle": "in Anzahl Tage",
+		"subtitle": "Anzahl Tage",
 		"kuerzel": "I.02.12.06033",
 		"kuerzelKunde": "NL12",
 		"description": "Hitzetage",
@@ -1558,14 +1558,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2018 wurden 31 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_02_00_00_00_412",
-		"parentId": 4300,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"8924"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"

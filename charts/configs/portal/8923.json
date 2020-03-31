@@ -187,9 +187,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointWidth": 30,
-      "stacking": "false"
+      }
     }
   },
   "title": {
@@ -217,27 +215,31 @@
       "title": {
         "text": null
       },
-      "tickAmount": 5,
       "labels": {
         "format": "{value:,.0f}",
+        "y": 3,
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": "10px"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 5
     },
     {
       "title": {
         "text": null
       },
-      "tickAmount": 5,
       "labels": {
         "format": "{value:,.1f}",
+        "y": 3,
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": "10px"
         }
       },
       "min": 0,
+      "tickAmount": 5,
       "opposite": true
     }
   ],
@@ -265,14 +267,13 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "useHTML": true,
     "enabled": true,
-    "x": 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
@@ -288,6 +289,7 @@
     "useHTML": true
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 8923
   }
 }
