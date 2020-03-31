@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8B2223",
+      "color": "#DC440E",
       "index": 13,
       "data": [
         [
@@ -28,7 +28,7 @@
       "name": "Fahrzeugbau"
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "index": 12,
       "data": [
         [
@@ -55,7 +55,7 @@
       "name": "Verkehr, Lagerei"
     },
     {
-      "color": "#FF8028",
+      "color": "#FFBB58",
       "index": 11,
       "data": [
         [
@@ -82,7 +82,7 @@
       "name": "Elektro\u002FOptik\u002FMaschinen"
     },
     {
-      "color": "#FFBB58",
+      "color": "#FFDA80",
       "index": 10,
       "data": [
         [
@@ -109,7 +109,7 @@
       "name": "Primärer Sektor"
     },
     {
-      "color": "#FFDA80",
+      "color": "#007A2F",
       "index": 9,
       "data": [
         [
@@ -136,7 +136,7 @@
       "name": "Handel, Reparatur"
     },
     {
-      "color": "#007A2F",
+      "color": "#D7E8D2",
       "index": 8,
       "data": [
         [
@@ -163,7 +163,7 @@
       "name": "Gastgewerbe"
     },
     {
-      "color": "#D7E8D2",
+      "color": "#73BA7C",
       "index": 7,
       "data": [
         [
@@ -190,7 +190,7 @@
       "name": "Finanz-, Versicherungs-DL"
     },
     {
-      "color": "#73BA7C",
+      "color": "#2B0099",
       "index": 6,
       "data": [
         [
@@ -217,7 +217,7 @@
       "name": "Öff. Verwaltung, Bildung"
     },
     {
-      "color": "#2B0099",
+      "color": "#008AC3",
       "index": 5,
       "data": [
         [
@@ -244,7 +244,7 @@
       "name": "Freib., wiss., tech. DL"
     },
     {
-      "color": "#008AC3",
+      "color": "#246370",
       "index": 4,
       "data": [
         [
@@ -307,6 +307,33 @@
         ],
         [
           2015,
+          100.87
+        ],
+        [
+          2016,
+          107.23
+        ],
+        [
+          2017,
+          108.79
+        ],
+        [
+          2018,
+          110.98
+        ]
+      ],
+      "name": "Chemische Industrie"
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
           102.39
         ],
         [
@@ -323,33 +350,6 @@
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
-    },
-    {
-      "color": "#E7CEE2",
-      "index": 1,
-      "data": [
-        [
-          2014,
-          100
-        ],
-        [
-          2015,
-          119.36
-        ],
-        [
-          2016,
-          144.8
-        ],
-        [
-          2017,
-          159.43
-        ],
-        [
-          2018,
-          170.14
-        ]
-      ],
-      "name": "Pharma"
     }
   ],
   "chart": {

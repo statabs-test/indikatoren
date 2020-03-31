@@ -15,7 +15,7 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
-    //{"color": "#8B2223", "index": 13, showInLegend: false}, /*dunkelrot */
+    {"color": "#8B2223", "index": 12}, /*dunkelrot */
     {"color": "#DC440E", "index": 11}, /*hellrot */
     {"color": "#FF8028", "index": 10}, /*dunkelorange */
     {"color": "#FFBB58", "index": 9}, /*dunkelgelb */

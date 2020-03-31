@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#DC440E",
-      "index": 11,
+      "color": "#8B2223",
+      "index": 12,
       "data": [
         [
           2014,
@@ -28,8 +28,8 @@
       "name": "Elektro\u002FOptik\u002FMaschinen"
     },
     {
-      "color": "#FF8028",
-      "index": 10,
+      "color": "#DC440E",
+      "index": 11,
       "data": [
         [
           2014,
@@ -53,6 +53,33 @@
         ]
       ],
       "name": "Verkehr, Lagerei"
+    },
+    {
+      "color": "#FF8028",
+      "index": 10,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          98.83
+        ],
+        [
+          2016,
+          96.05
+        ],
+        [
+          2017,
+          100.4
+        ],
+        [
+          2018,
+          99.7
+        ]
+      ],
+      "name": "Chemische Industrie"
     },
     {
       "color": "#FFBB58",
