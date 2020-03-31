@@ -1832,7 +1832,6 @@
                     }
                 }
     },
-    "marginBottom": 70,
     "renderTo": "container-8882",
     "spacingBottom": 12
   },
@@ -1880,6 +1879,7 @@
         "text": null
       },
       "labels": {
+        "y": 12,
         "step": 1,
         "formatter": function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
@@ -1936,7 +1936,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemWidth": 140
+    "x": 1,
+    "itemDistance": 10
   },
   "tooltip": {
     "pointFormatter": function () {

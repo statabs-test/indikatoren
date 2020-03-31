@@ -274,7 +274,8 @@
             return "";
           }
       }
-    }
+    },
+    "borderWidth": "0px"
   },
   "exporting": {
     "enabled": false,

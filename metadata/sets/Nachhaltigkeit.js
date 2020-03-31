@@ -1570,7 +1570,7 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
-		"datenInChartIntegriert": true,
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],

@@ -675,7 +675,6 @@
                 }
     },
     "renderTo": "container-8952",
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
     "spacingBottom": 12

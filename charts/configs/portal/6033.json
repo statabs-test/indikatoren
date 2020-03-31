@@ -265,6 +265,7 @@
                 }
     },
     "type": "column",
+    "marginLeft": 1050,
     "renderTo": "container-6033"
   },
   "plotOptions": {

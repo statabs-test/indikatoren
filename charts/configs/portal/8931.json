@@ -147,9 +147,9 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 50,
     "marginLeft": 120,
-    "renderTo": "container-8931"
+    "renderTo": "container-8931",
+    "spacingBottom": 12
   },
   "title": {
     "style": {
