@@ -1,7 +1,8 @@
 (function () {
   return {
     "chart": {
-      marginLeft: 150,
+      width: 665,
+      marginLeft: 220,
       "inverted": true,
     },
     plotOptions: {
@@ -16,10 +17,14 @@
       "type": "category",
       "labels": {
         useHTML: true,
-        align: "left",
-        x: -140,
-        "formatter": function () {
+        align: "right",
+        x: -200,
+        /*"formatter": function () {
           return this.value.replace("  ", "<br/>");
+        }*/
+        formatter: function () {
+          //console.log(this);
+          return (this.value.slice(0, 4) == '2015') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         }
       }
     },
@@ -33,9 +38,15 @@
     tooltip: {
       valueDecimals: 1,
     },
+    legend: {
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "top",
+      itemMarginBottom: 1,
+      align: "right"
+    },
     exporting: {
       allowHTML: false,
     }
   };
 }());
-
