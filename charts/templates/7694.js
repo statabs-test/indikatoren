@@ -11,9 +11,6 @@
     },
     plotOptions: {
       series: {
-        dataLabels: {
-          enabled: false
-        },
         borderWidth: 0,
       }
     },
@@ -49,22 +46,24 @@
       }
     ],
     "xAxis": {
-      "tickInterval": 2,
-      endOnTick: true,
+      "tickInterval": 1,
+      labels:{
+        step: 2
+      }
+//      endOnTick: true,
       //showLastLabel: true,
     },
     "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "align": "left",
-      //"itemMarginBottom": 5,
+      align: "right",
       useHTML: true,
       y: -55,
-      x: -17,
-      itemMarginBottom: 2,
-      align: "right",
+      x: -25,
       width: 260,
+      itemMarginBottom: 2,
+      //padding: 2,
       //itemWidth: 80,
       labelFormatter: function () {
         return this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title
