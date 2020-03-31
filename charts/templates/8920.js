@@ -12,6 +12,9 @@
     },
     "yAxis": {
       tickInterval: 25,
+      labels:{
+        y: 15
+      }
     },
     "xAxis": {
       "type": "category",
@@ -24,10 +27,11 @@
         }*/
         formatter: function () {
           //console.log(this);
+          return this.value;
           return (this.value.slice(0, 4) == '2015') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         }
-      }
-    },
+        }
+      },
     "series": [
       { "color": "#007a2f", "index": 9, "legendIndex": 0 }, /*grün dunkel2*/
       { "color": "#44ab2b", "index": 8, "legendIndex": 1 }, /*grün mittel*/
@@ -42,8 +46,8 @@
       enabled: true,
       layout: "horizontal",
       verticalAlign: "top",
+      align: "left",
       itemMarginBottom: 1,
-      align: "right"
     },
     exporting: {
       allowHTML: false,
