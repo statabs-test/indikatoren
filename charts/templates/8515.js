@@ -17,6 +17,7 @@
     "formatter": function () {
       return this.value.replace("Kleidung Kinder", "Kinderkleider")
       .replace("Kleidung Erwachsene", "Erwachsenenkleider")
+      .replace("Private Vorsorge", "Private Vorsorge")
      // .replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
   } }
 },
