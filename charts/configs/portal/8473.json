@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#8B2223",
-      "index": 13,
+      "index": 14,
       "data": [
         [
           2014,
@@ -29,7 +29,7 @@
     },
     {
       "color": "#DC440E",
-      "index": 12,
+      "index": 13,
       "data": [
         [
           2014,
@@ -56,7 +56,7 @@
     },
     {
       "color": "#FF8028",
-      "index": 11,
+      "index": 12,
       "data": [
         [
           2014,
@@ -83,7 +83,7 @@
     },
     {
       "color": "#FFBB58",
-      "index": 10,
+      "index": 11,
       "data": [
         [
           2014,
@@ -110,7 +110,7 @@
     },
     {
       "color": "#FFDA80",
-      "index": 9,
+      "index": 10,
       "data": [
         [
           2014,
@@ -137,7 +137,7 @@
     },
     {
       "color": "#007A2F",
-      "index": 8,
+      "index": 9,
       "data": [
         [
           2014,
@@ -164,7 +164,7 @@
     },
     {
       "color": "#D7E8D2",
-      "index": 7,
+      "index": 8,
       "data": [
         [
           2014,
@@ -191,7 +191,7 @@
     },
     {
       "color": "#73BA7C",
-      "index": 6,
+      "index": 7,
       "data": [
         [
           2014,
@@ -218,7 +218,7 @@
     },
     {
       "color": "#2B0099",
-      "index": 5,
+      "index": 6,
       "data": [
         [
           2014,
@@ -245,7 +245,7 @@
     },
     {
       "color": "#008AC3",
-      "index": 4,
+      "index": 5,
       "data": [
         [
           2014,
@@ -271,8 +271,8 @@
       "name": "Baugewerbe"
     },
     {
-      "color": "#B9CFD7",
-      "index": 3,
+      "color": "#246370",
+      "index": 4,
       "data": [
         [
           2014,
@@ -298,8 +298,8 @@
       "name": "Gesundheits-, Sozialwesen"
     },
     {
-      "color": "#672773",
-      "index": 2,
+      "color": "#B9CFD7",
+      "index": 3,
       "data": [
         [
           2014,
@@ -323,6 +323,33 @@
         ]
       ],
       "name": "Freib., wiss., tech. DL"
+    },
+    {
+      "color": "#672773",
+      "index": 2,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.99
+        ],
+        [
+          2016,
+          118.87
+        ],
+        [
+          2017,
+          117.45
+        ],
+        [
+          2018,
+          122.82
+        ]
+      ],
+      "name": "Chemische Industrie"
     },
     {
       "color": "#E7CEE2",
@@ -532,7 +559,7 @@
     "verticalAlign": "top",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
