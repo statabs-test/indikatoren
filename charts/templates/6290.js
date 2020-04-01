@@ -30,11 +30,11 @@
   },
   legend: {
       reversed: true, 
-      alignColumns: false,
-      itemWidth: 77,
       layout: 'horizontal',
       align: 'left',
       verticalAlign: 'top',
+      alignColumns: false,
+      itemWidth: 77,
       labelFormatter: function () {
         return this.name;
       },
