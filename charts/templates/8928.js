@@ -64,7 +64,7 @@
         "color": "#fabd24", // 
         "yAxis": 0,
         index: 2,
-        legendIndex: 0,
+        legendIndex: 2,
         "tooltip": {
           "shared": false,
           "pointFormatter":
@@ -99,7 +99,7 @@
     ],
     "legend": {
       "enabled": true,
-      "x": 1,
+      //"x": 1,
       //"y": 30,
       "layout": "horizontal",
       "verticalAlign": "top",
@@ -108,7 +108,10 @@
       "itemStyle": {
         "fontWeight": "normal",
         width: 300
-      }      
+      },
+      labelFormatter: function () {
+        return this.name.replace("Verhältnis der Löhne von Frauen und Männern", "Verhältnis Frauen / Männer");
+      }
     },
     "plotOptions": {
       "line": {
@@ -122,7 +125,7 @@
         groupPadding: 0.1,
         borderWidth: 0,
 
-      }
+      },
     },
 
   }

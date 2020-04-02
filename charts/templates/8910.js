@@ -4,7 +4,13 @@
    	min: 50,
     "labels": {
       "format": "{value:,.0f}",
-    }
+    },
+    plotLines: [{
+      color: '#B9CFD7',
+      value: 100, 
+      width: 1 
+    }]
+
   },
   "xAxis": {
 	"tickInterval": 3,

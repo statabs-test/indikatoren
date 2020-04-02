@@ -5,7 +5,8 @@
     "type": "category",
   },
   "yAxis": {
-	//"max": 100,
+    tickAmount: 5,
+    max: 40,
     "labels": {
       "format": "{value:,.0f}%"
     }    

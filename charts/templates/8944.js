@@ -45,15 +45,18 @@
     "enabled": true,
     //"x": 45,
     //"y": 35,
-    "layout": "horizontal",
+    "layout": "vertical",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     itemDistance: 0,
     padding: 0,
     symbolPadding: 2, 
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    labelFormatter: function () {
+      return this.name.replace(" ", "<br>");
     }
   },
   "plotOptions": {

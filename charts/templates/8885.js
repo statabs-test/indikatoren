@@ -37,24 +37,18 @@
       { "color": "#000000", type: 'line' } /* grau */
     ],
     "legend": {
+      x: 1,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-/*      labelFormatter: function () {
-        return this.name.replace(' ', '<br>');
-      }
-      */
-      /*
-           "legend": {
-            "enabled": true,
-            "layout": "vertical",
-            "verticalAlign": "middle",
-            "align": "right",
-            labelFormatter: function () {
-              return this.name.replace('-', '-<br>').replace(' ', '<br>').replace('Gesamt', 'Gesamt-<br>');
-           }    
-      */
+      alignColumns: false,
+      itemStyle: {
+        textOverflow: undefined,
+        whiteSpace: 'nowrap',
+      },
+      itemWidth: 155
+
     }
   }
 }());

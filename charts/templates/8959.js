@@ -11,7 +11,10 @@
     ],
     xAxis: {
         type: "category",
-        reversed: false
+        reversed: false,
+        labels: {
+            x: -5
+        }
     },
     yAxis: {
         reversedStacks: false,
@@ -21,16 +24,20 @@
         }
     },
     legend: {
-        reversed: false,
-        labelFormatter: function(){
-            return this.name.replace("/", " /<br/>");
-        },
-        //x: 0,
+        //x: 1,
         layout: "horizontal",
         align: "left",
         verticalAlign: "top",
-        itemWidth: 115,
-        itemDistance: 2,
+        reversed: false,
+        alignColumns: false,
+      itemWidth: 120,
+      labelFormatter: function () {
+        return this.name;
+      },
+      itemStyle: {
+        textOverflow: undefined,
+        whiteSpace: 'nowrap',
+      }
     },
     chart: {
         inverted: true

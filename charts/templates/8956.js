@@ -33,10 +33,10 @@
 			}
 		},
 		yAxis: {
-			tickInterval: 20,
+			tickInterval: 25,
 			max: 100,
 			labels: {
-				y: 5
+				y: 10
 			}
 		},
 		"series": [
@@ -47,10 +47,20 @@
 			{ "color": "#C8C8C8", index: 1, legendIndex: 5 },
 			{ "color": "#6F6F6F", index: 0, legendIndex: 6 },
 		],
-		"legend": {
-			"layout": "horizontal",
-			"verticalAlign": "top",
-			"align": "left",
+		legend: {
+			layout: "horizontal",
+			align: "left",
+			verticalAlign: "top",
+			reversed: true,
+			alignColumns: false,
+		  itemWidth: 110,
+		  labelFormatter: function () {
+			return this.name;
+		  },
+		  itemStyle: {
+			textOverflow: undefined,
+			whiteSpace: 'nowrap',
+		  }
 		},
 	}
 }());

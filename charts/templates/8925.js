@@ -5,7 +5,7 @@
     reversed: false
   },
   yAxis: {
-    tickInterval: 20,
+    tickInterval: 25,
     max: 100,
     labels: {
       y: 10,
@@ -21,13 +21,20 @@
     { "color": "#C8C8C8", index: 1, legendIndex: 5 },
 		{ "color": "#6F6F6F", index: 0, legendIndex: 6 },
   ],
-    legend: {
-      "layout": "horizontal",
-			"itemWidth": 200,
-			"verticalAlign": "top",
-			"align": "left",
-    labelFormatter: function(){
-      return this.name.replace("/", " /<br/>");
+  legend: {
+    x: 1,
+    layout: "horizontal",
+    align: "left",
+    verticalAlign: "top",
+    reversed: false,
+    alignColumns: false,
+    itemWidth: 155,
+    labelFormatter: function () {
+    return this.name;
+    },
+    itemStyle: {
+    textOverflow: undefined,
+    whiteSpace: 'nowrap',
     }
   },
   chart: {

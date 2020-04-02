@@ -14,12 +14,25 @@
     }, 
     yAxis: {
         reversedStacks: false,
+        tickInterval: 25,
+        labels: {
+            y: 10
+        }
     },
     legend: {
+        layout: "horizontal",
+        align: "left",
+        verticalAlign: "top",
         reversed: true,
-        labelFormatter: function(){
-            return this.name.replace("/", " /<br/>");
-        }
+        alignColumns: false,
+      itemWidth: 100,
+      labelFormatter: function () {
+        return this.name;
+      },
+      itemStyle: {
+        textOverflow: undefined,
+        whiteSpace: 'nowrap',
+      }
     },
     chart: {
         inverted: true

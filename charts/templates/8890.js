@@ -8,6 +8,7 @@
       }
     },
     "min": 0,
+    tickAmount: 6,
     "max": undefined,
     "title": "", 
   },
@@ -26,6 +27,7 @@
       }
     },
     "min": 0,
+    tickAmount: 6,
     "max": undefined,
     "gridLineWidth": 0,
     "opposite": true

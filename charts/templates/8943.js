@@ -5,6 +5,7 @@
     },
     "yAxis": {
       "min": undefined,
+      tickAmount: 5,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -47,10 +48,11 @@
       "enabled": true,
       //"x": 30,
       //"y": 45,
-      "itemWidth": 200,
+      //"itemWidth": 200,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
+      alignColumns: false,
       "align": "left",
       "itemStyle": {
         "fontWeight": "normal"

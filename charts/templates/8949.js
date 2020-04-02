@@ -21,7 +21,8 @@
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
-    }
+    },
+    tickInterval: 50000
   },
   "xAxis": {
   	"type": "category",

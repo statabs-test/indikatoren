@@ -17,7 +17,7 @@
       //"marginBottom": 55,
       "marginRight": 15,
       width: 665,
-      height: 400
+      //height: 400
     },
     "xAxis": {
       "type": "category"

@@ -48,6 +48,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    alignColumns: false,
     "itemStyle": {
       "fontWeight": "normal"
     }

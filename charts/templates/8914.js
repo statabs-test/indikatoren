@@ -1,8 +1,9 @@
 (function () {
   return {
     "yAxis": {
+      tickAmount: 5,
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.1f}",
       }
     },
     "xAxis": {

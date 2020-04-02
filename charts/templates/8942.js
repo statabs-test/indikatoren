@@ -7,10 +7,11 @@
     },
   },
   "yAxis": {
+    tickAmount: 6,
 	"labels": {
-		"format": "{value:,.0f}",
+		//"format": "{value:,.3f}",
 		"formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+        return Highcharts.numberFormat((this.value*100),1)+'%'; 
       }, 
 	}
   },	

@@ -64,10 +64,10 @@
   "legend": { 
     "enabled": true,
     "layout": "vertical",
-    itemDistance: -10, 
-    padding: 0,
-    symbolPadding: 3,
-    "verticalAlign": "middle",
+    //padding: 0,
+    //symbolPadding: 3,
+    itemMarginBottom: 6,
+    "verticalAlign": "top",
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal",

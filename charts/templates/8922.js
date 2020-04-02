@@ -1,12 +1,13 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 1
+    "tickInterval": 2
   },
   "yAxis": {
 	"labels": {
 		"format": "{value:,.3f}"
-	}
+  },
+  tickAmount: 6
   },	
   "tooltip": {
     "shared": false, 

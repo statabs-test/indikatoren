@@ -11,7 +11,8 @@
       "yAxis": {
         "labels": {
           "format": "{value:,.0f}"
-        }
+        },
+        tickAmount: 6
       },	
   "tooltip": {
     "shared": false, 

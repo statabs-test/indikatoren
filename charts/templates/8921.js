@@ -11,6 +11,9 @@
         "format": "{value:,.0f}"
       }
     },
+    "xAxis": {
+      tickInterval: 2
+    },
     "tooltip": {
       useHTML: true,
       "shared": false,
@@ -51,12 +54,14 @@
       }, /* dunkelgrün */
     ],
     "legend": {
+      x: 1,
       useHTML: true,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
+      alignColumns: false,
       "itemStyle": {
         "fontWeight": "normal"
       }

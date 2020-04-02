@@ -114,8 +114,9 @@
             "verticalAlign": "top",
             "align": "left",
            	//"y": 55,
-           	"x": 1,
-            itemDistance: 10,
+           	"x": 35,
+            //itemDistance: 10,
+            itemWidth: 120,
             "itemStyle": {
                 "fontWeight": "normal"
             }
@@ -146,9 +147,9 @@
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
                       this.update(
                         {
-                          legend: {
+                          /*legend: {
                             x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
-                          }
+                          }*/
                         }
                       );
                     }

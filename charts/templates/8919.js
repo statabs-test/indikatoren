@@ -7,7 +7,8 @@ global Highcharts
    "yAxis": {
       "labels": {
       "format": "{value:,.f}",
-    }
+    },
+    tickInterval: 10
   },
   "xAxis": {
     tickInterval: 1
