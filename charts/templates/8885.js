@@ -31,24 +31,24 @@
       }]
     },
     "series": [
-      { "color": "#FABD24" }, /* gelb*/
-      { "color": "#923F8D" }, /* violett*/
-      { "color": "#bbbbbb" }, /* violett*/
-      { "color": "#000000", type: 'line' } /* grau */
+      { "color": "#FABD24", legendIndex: 1 }, /* gelb*/
+      { "color": "#923F8D", legendIndex: 3 }, /* violett*/
+      { "color": "#bbbbbb", legendIndex: 2 }, /* violett*/
+      { "color": "#000000", legendIndex: 0, type: 'line' } /* grau */
     ],
     "legend": {
-      x: 1,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      alignColumns: false,
+      itemWidth: 105,
       itemStyle: {
         textOverflow: undefined,
         whiteSpace: 'nowrap',
       },
-      itemWidth: 155
-
+      labelFormatter: function () {
+        return this.name.replace('veränderung', 'bilanz');
+      }
     }
   }
 }());

@@ -36,7 +36,9 @@
       "layout": "vertical",
       "verticalAlign": "middle",
       "align": "right",
+      reversed: true,
       y: -15,
+      itemMarginBottom: 5,
       labelFormatter: function () {
         return this.name.replace('/', '/<br>').replace('weiter', 'weiter-<br>').replace(' Grund', '<br>Grund');
      }    

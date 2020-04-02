@@ -51,16 +51,16 @@
 			layout: "horizontal",
 			align: "left",
 			verticalAlign: "top",
-			reversed: true,
+			reversed: false,
 			alignColumns: false,
-		  itemWidth: 110,
-		  labelFormatter: function () {
-			return this.name;
-		  },
-		  itemStyle: {
-			textOverflow: undefined,
-			whiteSpace: 'nowrap',
-		  }
+			itemWidth: 110,
+			labelFormatter: function () {
+				return this.name;
+			},
+			itemStyle: {
+				textOverflow: undefined,
+				whiteSpace: 'nowrap',
+			}
 		},
 	}
 }());

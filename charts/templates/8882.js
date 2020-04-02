@@ -114,12 +114,9 @@
             "verticalAlign": "top",
             "align": "left",
            	//"y": 55,
-           	"x": 35,
+           	"x": 75,
             //itemDistance: 10,
-            itemWidth: 120,
-            "itemStyle": {
-                "fontWeight": "normal"
-            }
+            //itemWidth: 120,
         },
         "tooltip": {
             "shared": true,

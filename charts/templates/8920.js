@@ -2,7 +2,7 @@
   return {
     "chart": {
       width: 665,
-      marginLeft: 220,
+      marginLeft: 190,
       "inverted": true,
     },
     plotOptions: {
@@ -12,7 +12,7 @@
     },
     "yAxis": {
       tickInterval: 25,
-      labels:{
+      labels: {
         y: 15
       }
     },
@@ -20,8 +20,8 @@
       "type": "category",
       "labels": {
         useHTML: true,
-        align: "right",
-        x: -200,
+        align: "left",
+        x: -180,
         /*"formatter": function () {
           return this.value.replace("  ", "<br/>");
         }*/
@@ -30,8 +30,8 @@
           return this.value;
           return (this.value.slice(0, 4) == '2015') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         }
-        }
-      },
+      }
+    },
     "series": [
       { "color": "#007a2f", "index": 9, "legendIndex": 0 }, /*grün dunkel2*/
       { "color": "#44ab2b", "index": 8, "legendIndex": 1 }, /*grün mittel*/
