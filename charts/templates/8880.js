@@ -8,13 +8,14 @@
     },
     "series": [
       {
-        "color": "#B00000"
+        "color": "#B00000",
+        pointWidth: 50
       }
     ],
     "chart": {
       //"marginBottom": 65,
       //"marginTop": 75,
       "type": "column"
-    }
+    },
   }
 }());

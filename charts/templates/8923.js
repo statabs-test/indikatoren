@@ -1,37 +1,39 @@
-(function(){
+(function () {
   return {
     title: {
       useHTML: true
     },
     "xAxis": {
       "type": "category",
-    //"tickInterval": 1 
-    },  
+      //"tickInterval": 1 
+    },
     yAxis: [{
       title: {
-          text: null
+        text: null
       },
       labels: {
         format: "{value:,.0f}",
         y: 3,
-         style: {
-         color: "black",
-         fontSize: '10px',
+        x: -10,
+        style: {
+          color: "black",
+          fontSize: '10px',
         },
       },
-      min: 0,  
+      min: 0,
       tickAmount: 5
     },
     {
       title: {
-          text: null
+        text: null
       },
       labels: {
         format: "{value:,.1f}",
         y: 3,
+        x: 10,
         style: {
-         color: "black",
-         fontSize: '10px',
+          color: "black",
+          fontSize: '10px',
         },
       },
       min: 0,
@@ -41,13 +43,13 @@
     ],
     "series": [
       {
-      "index": 1,
-      "color": "#71A3B5",
+        "index": 1,
+        "color": "#71A3B5",
         //"legendIndex": 2,
         "type": "column",
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-         }
+        }
       }, // Blau
       {
         "color": "#000000",
@@ -56,32 +58,30 @@
         "yAxis": 1,
         "marker": {
           "enabled": false
-      },
-      "tooltip": {
+        },
+        "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-       }
+        }
       }
     ],
-     "tooltip": {
+    "tooltip": {
       //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-      "shared": false, 
+      "shared": false,
       useHTML: true
-    }, 
+    },
     "legend": {
       useHTML: true,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemStyle": {
-       "fontWeight": "normal"
-      }
+      margin: 15
     },
-    "chart": {    
+    "chart": {
       //"marginBottom": 75,
       //"marginTop": 75,
       "type": "column"
-    }, 
+    },
     exporting: {
       allowHTML: true,
     },

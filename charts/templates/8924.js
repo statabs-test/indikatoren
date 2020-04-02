@@ -4,6 +4,11 @@
             type: "column",
             marginRight: 10
         },
+        plotOptions:{
+            series: {
+                borderWidth: 0
+            }
+        },
         yAxis: {
             tickAmount: 6,
         },
