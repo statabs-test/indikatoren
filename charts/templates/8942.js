@@ -1,66 +1,42 @@
-(function(){
-    return {
-  "xAxis": {
-    tickInterval: 1,
-    labels: {
-      rotation: -45
+(function () {
+  return {
+    "xAxis": {
+      tickInterval: 1,
+      labels: {
+        rotation: -45
+      },
     },
-  },
-  "yAxis": {
-    tickAmount: 6,
-	"labels": {
-		//"format": "{value:,.3f}",
-		"formatter": function(){
-        return Highcharts.numberFormat((this.value*100),1)+'%'; 
-      }, 
-	}
-  },	
-  "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    },
-  },
-  "series": [
-    {"color": "#3C3C3C",
-    legendIndex: 1,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* grün */
-    	{"color": "#68AB2B",
-	visible:true,
-	legendIndex: 0,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* blau */
-    	{"color": "#008AC3",
-	legendIndex: 2,
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* scharz */
-  ],
- "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "line": {
-	  "connectNulls": true,
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
+    "yAxis": {
+      tickAmount: 6,
+      "labels": {
+        //"format": "{value:,.3f}",
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 1) + '%';
+        },
       }
-    }
+    },
+    "series": [
+      {
+        "color": "#3C3C3C",
+        legendIndex: 2,
+      }, 
+      {
+        "color": "#68AB2B",
+        legendIndex: 0,
+      }, 
+      {
+        "color": "#008AC3",
+        legendIndex: 1,
+      }, 
+    ],
+    "legend": {
+      "enabled": true,
+      alignColumns: false,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      "itemMarginBottom": 5,
+      itemDistance: 15
+    },
   }
-}
 }());
- 

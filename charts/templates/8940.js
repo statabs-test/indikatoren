@@ -11,7 +11,8 @@
       ]
     },
     yAxis: {
-      min: null,
+      min: 75,
+      tickInterval: 25,
       plotLines: [{
         color: '#B9CFD7',
         value: 100,
@@ -58,10 +59,6 @@
     },
     "series": [
       {
-        "marker": {
-          enabled: false,
-          "symbol": "circle"
-        },
         "color": "#008AC3",
         "yAxis": 0,
         "tooltip": {
@@ -69,10 +66,6 @@
         },
       },
       {
-        "marker": {
-          enabled: false,
-          "symbol": "circle"
-        },
         "color": "#68AB2B",
         "yAxis": 0,
         "tooltip": {
@@ -105,13 +98,13 @@
     ],
     "legend": {
       "enabled": true,
-      "x": 1,
-      //"y": 55,
-      //"itemWidth": 500,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
+      "itemMarginBottom": 5,
+      //"x": 1,
+      //"y": 55,
+      //"itemWidth": 500,
     }
   }
 }());
