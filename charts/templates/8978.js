@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -127,
+			"x": -345,
 			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -27,28 +27,28 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:24.9999,
+                to:39.99,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 25,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>00000,0</span> < <span style='color: rgba(0,0,0,0)'>0</span>40,0"
             }, {
-                from: 25.0,
-                to: 30.999,
+                from: 40,
+                to: 79.99,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − 30,9"
+                name: "<span style='color: rgba(0,0,0,0)'>000</span>40,0 − <span style='color: rgba(0,0,0,0)'>0</span>79,9"
             }, {
-                from: 31.0,
-                to: 34.99999,
+                from: 80,
+                to: 119.99,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>31,0 − 34,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>000</span>80,0 − 119,9"
             },{
-                from: 35.0,
-                to: 42.999,
+                from: 120,
+                to: 159.99,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − 42,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>00</span>120,0 − 159,9"
             },{
-                from: 43,
+                from: 160,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 43,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>00000,0</span> ≥ 160,0"
             }], 
         },
         "data": {
@@ -99,11 +99,11 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					var maxPieDiameter = 30;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -132,27 +132,30 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 8; 
+	                var minValueInLegend = 5; 
+					var maxValueInLegend = 50; 
+					
+					var shiftHoriz = 280;
+					var shiftVert = 70;
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 
-					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil (%)", 245, 210);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 222 + shiftHoriz, 220 + shiftVert + 20);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 355, 210);
-					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
-					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 382, 289)
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), 385 + shiftHoriz, 220 + shiftVert + 20);
+					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
+					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', 405 + shiftHoriz, 318 + shiftVert)
 
-	                fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, 314);
-	                fn.addLegendCircle(chart, 367, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, 335);
+	                fn.addLegendCircle(chart, 392 + shiftHoriz, 360 + shiftVert, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 405 + 10 + shiftHoriz, 347 + shiftVert);
+	                fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 405 + 10 + shiftHoriz, 375 + shiftVert);
 
 					/*var shiftDown = 12;
 
