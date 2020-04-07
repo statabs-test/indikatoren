@@ -103,7 +103,7 @@
 					fn.defineTemplate();
 
 					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -152,7 +152,7 @@
 					var shiftHoriz = 280;
 					var shiftVert = 70;
 					
-					fn.addLegendTitle(chart, "Anzahl <br/> vermittelte <br/> Wohnungen", 255 + shiftHoriz, 250 + shiftVert);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 255 + shiftHoriz, 250 + shiftVert);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
@@ -176,7 +176,7 @@
 					*/
 
 					//make sure pies are hidden upon click onto pie legend
-					//fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart);
 				}
 			}
 		}

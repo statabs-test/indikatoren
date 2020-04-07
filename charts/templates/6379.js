@@ -50,7 +50,7 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '  </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '  </b><br/>';
 					}
 				}
 			}, 
@@ -144,8 +144,8 @@
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
 					fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
-					fn.addLegendLabelbold(chart, 'Anzahl leerstehende Wohnungen', 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265, 300);
+					fn.addLegendLabelbold(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart); 
