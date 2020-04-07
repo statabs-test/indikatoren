@@ -1,0 +1,509 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "00:00",
+          228
+        ],
+        [
+          "01:00",
+          127
+        ],
+        [
+          "02:00",
+          96
+        ],
+        [
+          "03:00",
+          135
+        ],
+        [
+          "04:00",
+          284
+        ],
+        [
+          "05:00",
+          732
+        ],
+        [
+          "06:00",
+          1903
+        ],
+        [
+          "07:00",
+          2376
+        ],
+        [
+          "08:00",
+          2307
+        ],
+        [
+          "09:00",
+          2112
+        ],
+        [
+          "10:00",
+          1957
+        ],
+        [
+          "11:00",
+          2087
+        ],
+        [
+          "12:00",
+          1987
+        ],
+        [
+          "13:00",
+          2204
+        ],
+        [
+          "14:00",
+          2198
+        ],
+        [
+          "15:00",
+          2356
+        ],
+        [
+          "16:00",
+          2135
+        ],
+        [
+          "17:00",
+          2253
+        ],
+        [
+          "18:00",
+          2187
+        ],
+        [
+          "19:00",
+          1720
+        ],
+        [
+          "20:00",
+          1306
+        ],
+        [
+          "21:00",
+          1125
+        ],
+        [
+          "22:00",
+          895
+        ],
+        [
+          "23:00",
+          591
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "00:00",
+          111
+        ],
+        [
+          "01:00",
+          81
+        ],
+        [
+          "02:00",
+          60
+        ],
+        [
+          "03:00",
+          92
+        ],
+        [
+          "04:00",
+          203
+        ],
+        [
+          "05:00",
+          607
+        ],
+        [
+          "06:00",
+          1795
+        ],
+        [
+          "07:00",
+          2203
+        ],
+        [
+          "08:00",
+          1621
+        ],
+        [
+          "09:00",
+          1456
+        ],
+        [
+          "10:00",
+          1440
+        ],
+        [
+          "11:00",
+          1480
+        ],
+        [
+          "12:00",
+          1473
+        ],
+        [
+          "13:00",
+          1658
+        ],
+        [
+          "14:00",
+          1619
+        ],
+        [
+          "15:00",
+          1732
+        ],
+        [
+          "16:00",
+          2083
+        ],
+        [
+          "17:00",
+          2024
+        ],
+        [
+          "18:00",
+          1478
+        ],
+        [
+          "19:00",
+          965
+        ],
+        [
+          "20:00",
+          632
+        ],
+        [
+          "21:00",
+          429
+        ],
+        [
+          "22:00",
+          334
+        ],
+        [
+          "23:00",
+          202
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "00:00",
+          0.510544815
+        ],
+        [
+          "01:00",
+          0.364566929
+        ],
+        [
+          "02:00",
+          0.376041667
+        ],
+        [
+          "03:00",
+          0.318282754
+        ],
+        [
+          "04:00",
+          0.286217836
+        ],
+        [
+          "05:00",
+          0.170718383
+        ],
+        [
+          "06:00",
+          0.057009248
+        ],
+        [
+          "07:00",
+          0.072742581
+        ],
+        [
+          "08:00",
+          0.297116844
+        ],
+        [
+          "09:00",
+          0.310460766
+        ],
+        [
+          "10:00",
+          0.264397772
+        ],
+        [
+          "11:00",
+          0.290794077
+        ],
+        [
+          "12:00",
+          0.258830633
+        ],
+        [
+          "13:00",
+          0.247526999
+        ],
+        [
+          "14:00",
+          0.263351833
+        ],
+        [
+          "15:00",
+          0.264844446
+        ],
+        [
+          "16:00",
+          0.024361677
+        ],
+        [
+          "17:00",
+          0.101775411
+        ],
+        [
+          "18:00",
+          0.324033844
+        ],
+        [
+          "19:00",
+          0.43877195
+        ],
+        [
+          "20:00",
+          0.515926493
+        ],
+        [
+          "21:00",
+          0.618319253
+        ],
+        [
+          "22:00",
+          0.626914049
+        ],
+        [
+          "23:00",
+          0.659167794
+        ]
+      ],
+      "name": "Rückgang",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000"
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+        return this.value.replace("25. Feb", "<b>25. Feb")
+        .replace("16. Mrz", "<b>16. Mrz")}
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8984"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Durchschnittlicher Tagesverkehr MIV an Werktagen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "tickInterval": 500,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "tickInterval": 0.25,
+      "min": -1,
+      "opposite": true,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function() {
+           return  Highcharts.Number.Fomat(this.value*100) + "%";
+        }
+      }
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8984
+  }
+}
