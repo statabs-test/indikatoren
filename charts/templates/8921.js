@@ -50,5 +50,8 @@
 			}
       //      alignColumns: false,
     },
+    exporting: {
+      allowHTML: true,
+    },
   };
 }());
