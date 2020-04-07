@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Ant_deutsch_2019",
+      "name": "Anteil deutschsprachiger Personen 2019 (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3416,7 +3416,7 @@
           -3.14954
         ]
       ],
-      "name": "Veränderung_gg_2010"
+      "name": "Veränderung gegenüber 2010 (pp)"
     },
     {
       "name": "Rhein",
@@ -3556,7 +3556,6 @@
             -1267399.905,
             "Z"
           ],
-          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3601,7 +3600,6 @@
             2610400,
             -1264600
           ],
-          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,

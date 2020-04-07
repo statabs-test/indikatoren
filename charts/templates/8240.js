@@ -99,7 +99,7 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
+					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
@@ -141,9 +141,9 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "In der Schweiz <br/> geborene <br/> Personen (%)", 245, 210);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 355, 210);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), 355, 210);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');

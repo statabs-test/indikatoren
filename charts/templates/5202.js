@@ -101,7 +101,7 @@
                 	fn.addLegendRectangle(chart, 260, 220, 215, 77, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 260, 300, 215, 60, '#fbfbfb');
 
-					fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend');
+					fn.addLegendTitle(chart, pieSizeSeries.name + " (pp)", 265, 220, 'pieLegend');
 
 					fn.addLegendCircle(chart, 285, 255, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 					fn.addLegendCircle(chart, 285, 280, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');

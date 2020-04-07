@@ -41,42 +41,6 @@ var indikatorensetData = [
 		"id": 5201
 	},
 	{
-		"title": "Bevölkerungsdichte",
-		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
-		"kuerzel": "I.01.1.05202",
-		"kuerzelKunde": "ST 4-3",
-		"description": "Bevölkerungsdichte",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit 266,5 Einwohner pro Hektar wies das Matthäusviertel am Jahresende 2017 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1998 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1998 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
-		"erlaeuterungen": "",
-		"template": "mappie001",
-		"orderKey": "01_01_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6243"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5202,
-		"darstellungsart": "Karte kontinuierlich"
-	},
-	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.11.5.5203",

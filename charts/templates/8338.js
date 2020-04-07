@@ -141,9 +141,9 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "FAMI-Quote <br/> in %", 245+10, 210+20);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245+10, 210+20);
 					
-					fn.addLegendTitle(chart, "Differenz 2018 <br/> zu 2013", 355+5, 210+20);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), 355+5, 210+20);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					fn.addLegendSquare(chart, 363, 295, 10, '#990300');

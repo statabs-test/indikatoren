@@ -141,9 +141,9 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil Familien- <br/> haushalte (%)", 245, 220);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("lien", "lien-<br/>"), 245, 220);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2011 (pp)", 355, 220);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace("z ", "z<br/> "), 355, 220);
 					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					fn.addLegendSquare(chart, 363, 295, 10, '#990300');

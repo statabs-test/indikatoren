@@ -280,8 +280,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 250,
-    "max": undefined
+    "tickInterval": 250
   },
   "navigation": {
     "menuItemStyle": {

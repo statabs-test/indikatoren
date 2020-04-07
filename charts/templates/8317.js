@@ -100,8 +100,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -157,7 +157,7 @@
 	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355-115, 212+10, 130, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-	                fn.addLegendTitle(chart, chart.series[1].name + ' (%)', 268, 220);
+	                fn.addLegendTitle(chart, choroplethSeries.name + ' (%)', 268, 220);
 	                
 	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');

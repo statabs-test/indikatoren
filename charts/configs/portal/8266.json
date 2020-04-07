@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Vermittelte Wohnungen",
+      "name": "Anzahl vermittelte Wohnungen",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6742,7 +6742,7 @@
           0
         ]
       ],
-      "name": "Vermittelte Wohnungen"
+      "name": "Anzahl vermittelte Wohnungen"
     },
     {
       "name": "Rhein",
@@ -6882,7 +6882,6 @@
             -1267399.905,
             "Z"
           ],
-          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6927,7 +6926,6 @@
             2610400,
             -1264600
           ],
-          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -7029,7 +7027,7 @@
 					
 					//fn.addLegendTitle(chart, "In der Schweiz <br/> geborenen <br/> Personen (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, "Anzahl <br/> vermittelte <br/> Wohnungen", 255, 210+50);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 255, 210+50);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');

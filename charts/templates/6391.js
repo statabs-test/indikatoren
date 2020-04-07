@@ -153,8 +153,8 @@
 	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
 
-	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
-	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 355, 210);
+	        		fn.addLegendTitle(chart,  choroplethSeries.name.replace("ngs", "ngs-<br/>"), 250, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), 355, 210);
 	                
 	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#FABD24');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');

@@ -138,21 +138,21 @@
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 
-					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
+					fn.addLegendRectangle(chart, 243, 212, 105+10, 145, '#fbfbfb');
+					fn.addLegendRectangle(chart, 355, 212, 110+10, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil <br/> deutschsprachiger <br/> Personen (%)", 245, 210);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>").replace(" ", "<br/>")/*"Anteil <br/> deutschsprachiger <br/> Personen (%)"*/, 245, 210);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 355, 210);
-					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
-					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 382, 289)
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>")/*"Veränderung <br/> gegenüber <br/> 2010 (pp)"*/, 355+10, 210);
+					fn.addLegendSquare(chart, 363+10, 275, 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', 382+10, 269);
+					fn.addLegendSquare(chart, 363+10, 295, 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', 382+10, 289)
 
-	                fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, 314);
-	                fn.addLegendCircle(chart, 367, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, 335);
+	                fn.addLegendCircle(chart, 367+10, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382+10, 314);
+	                fn.addLegendCircle(chart, 367+10, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382+10, 335);
 /*
 					var shiftDown = 12;
 

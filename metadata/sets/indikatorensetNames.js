@@ -8,6 +8,7 @@ var indikatorensetNames = [
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
 	"Richtplan",
+	"CMS Kennzahlen Soziales (Print)",
 	"Wanderungen",
 	"Integration",
 	"Richtplan (Print)",
@@ -23,6 +24,5 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien",
 	"CMS Kennzahlen Soziales",
 	"Wirtschaftsbericht BS_BL_JU",
-	"CMS Kennzahlen Soziales (Print)",
 	"Test"
 ];
