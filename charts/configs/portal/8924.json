@@ -234,6 +234,10 @@
         [
           2018,
           31
+        ],
+        [
+          2019,
+          25
         ]
       ],
       "name": "Kantone Basel-Stadt und Basel-Landschaft"
@@ -434,7 +438,8 @@
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "borderWidth": 0
     }
   },
   "exporting": {

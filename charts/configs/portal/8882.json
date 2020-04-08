@@ -1824,9 +1824,9 @@
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
                       this.update(
                         {
-                          legend: {
+                          /*legend: {
                             x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
-                          }
+                          }*/
                         }
                       );
                     }
@@ -1936,8 +1936,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 1,
-    "itemDistance": 10
+    "x": 75
   },
   "tooltip": {
     "pointFormatter": function () {

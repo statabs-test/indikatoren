@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#B00000",
+      "pointWidth": 50,
       "data": [
         [
           2015,

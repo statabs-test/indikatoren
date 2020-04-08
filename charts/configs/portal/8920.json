@@ -228,11 +228,12 @@
       },
       "formatter": function () {
           //console.log(this);
+          return this.value;
           return (this.value.slice(0, 4) == '2015') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
         },
       "useHTML": true,
-      "align": "right",
-      "x": -200
+      "align": "left",
+      "x": -180
     }
   },
   "chart": {
@@ -278,7 +279,7 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "marginLeft": 220,
+    "marginLeft": 190,
     "inverted": true,
     "renderTo": "container-8920",
     "spacingBottom": 12
@@ -313,7 +314,7 @@
       "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 15,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
@@ -326,7 +327,7 @@
     "enabled": true,
     "useHTML": true,
     "layout": "horizontal",
-    "align": "right",
+    "align": "left",
     "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,

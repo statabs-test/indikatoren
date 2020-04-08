@@ -2,9 +2,13 @@
   return {
     chart: {
       marginTop: 50,
+        marginRight: 10
     },
     "xAxis": {
-      "tickInterval": 1
+      "tickInterval": 1,
+      labels:{
+        rotation: 0
+      }
     },
     "yAxis": {
       "tickInterval": 2,

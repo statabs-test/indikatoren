@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#B00000",
-      "legendIndex": 1,
+      "legendIndex": 0,
       "data": [
         [
           2005,
@@ -65,7 +65,7 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           2005,
@@ -128,7 +128,7 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 3,
+      "legendIndex": 1,
       "data": [
         [
           2005,
@@ -191,7 +191,7 @@
     },
     {
       "color": "#FABD24",
-      "legendIndex": 4,
+      "legendIndex": 2,
       "data": [
         [
           2005,
@@ -254,23 +254,23 @@
     },
     {
       "color": "#007A2F",
-      "legendIndex": 5,
+      "legendIndex": 4,
       "data": [
         [
           2005,
-          null
+          undefined
         ],
         [
           2006,
-          null
+          undefined
         ],
         [
           2007,
-          null
+          undefined
         ],
         [
           2008,
-          null
+          undefined
         ],
         [
           2009,
@@ -453,7 +453,8 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "x": -10
     },
     "tickInterval": 1000
   },
@@ -489,9 +490,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -499,19 +500,15 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemDistance": 0,
-    "symbolPadding": 2
+    "y": -10,
+    "labelFormatter": function () {
+        return this.name.replace(" ", "<br>"); //.replace("module","<br>-module");
+      }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

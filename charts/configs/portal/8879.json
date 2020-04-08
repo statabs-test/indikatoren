@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "#8b2223",
       "data": [
         [
@@ -181,8 +177,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -200,9 +195,9 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 10000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

@@ -444,7 +444,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "alignColumns": false
   },
   "dataLabels": {
     "enabled": false,

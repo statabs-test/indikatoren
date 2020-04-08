@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#2B0099",
-      "marker": {
-        "enabled": false
-      },
       "legendIndex": 2,
       "data": [
         [
@@ -125,9 +122,6 @@
     {
       "color": "#68AB2B",
       "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "dashStyle": "ShortDash",
       "legendIndex": 3,
       "data": [
@@ -248,9 +242,6 @@
     },
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": false
-      },
       "dashStyle": "ShortDash",
       "legendIndex": 4,
       "data": [
@@ -372,9 +363,6 @@
     {
       "color": "#007A2F",
       "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "legendIndex": 1,
       "data": [
         [
@@ -598,7 +586,6 @@
       "color": "#000000"
     },
     "align": "left",
-    "useHTML": true,
     "text": "Luftqualität: Langzeitbelastung der Luft"
   },
   "subtitle": {
@@ -609,8 +596,7 @@
       "color": "#000000"
     },
     "text": "Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
-    "align": "left",
-    "useHTML": true
+    "align": "left"
   },
   "tooltip": {
     "shared": false,
@@ -635,7 +621,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -648,7 +635,8 @@
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -675,22 +663,18 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": undefined,
+      "whiteSpace": "nowrap"
     },
     "padding": 0,
-    "useHTML": true
+    "useHTML": true,
+    "itemWidth": 135
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

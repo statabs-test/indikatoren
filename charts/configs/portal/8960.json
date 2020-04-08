@@ -400,6 +400,7 @@
       },
       "format": "{value}%"
     },
+    "tickInterval": 20,
     "reversedStacks": false
   },
   "credits": {

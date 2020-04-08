@@ -340,7 +340,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 50000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

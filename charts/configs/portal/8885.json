@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#FABD24",
+      "legendIndex": 1,
       "data": [
         [
           1971,
@@ -200,6 +201,7 @@
     },
     {
       "color": "#923F8D",
+      "legendIndex": 3,
       "data": [
         [
           1971,
@@ -398,6 +400,7 @@
     },
     {
       "color": "#bbbbbb",
+      "legendIndex": 2,
       "data": [
         [
           1971,
@@ -596,6 +599,7 @@
     },
     {
       "color": "#000000",
+      "legendIndex": 0,
       "type": "line",
       "data": [
         [
@@ -983,9 +987,15 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": undefined,
+      "whiteSpace": "nowrap"
     },
-    "padding": 0
+    "padding": 0,
+    "itemWidth": 105,
+    "labelFormatter": function () {
+        return this.name.replace('veränderung', 'bilanz');
+      }
   },
   "plotOptions": {
     "series": {

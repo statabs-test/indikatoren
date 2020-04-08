@@ -434,7 +434,8 @@
           "color": "#000000"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 5
     },
     {
       "title": {
@@ -447,6 +448,7 @@
         }
       },
       "min": 0,
+      "tickAmount": 5,
       "opposite": true
     }
   ],

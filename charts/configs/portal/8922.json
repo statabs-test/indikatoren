@@ -281,7 +281,8 @@
         "color": "#000000"
       },
       "format": "{value:,.3f}"
-    }
+    },
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -294,7 +295,8 @@
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

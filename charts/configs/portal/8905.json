@@ -215,7 +215,6 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "inverted": false,
     "renderTo": "container-8905",
     "spacingBottom": 12
   },
@@ -239,8 +238,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -258,8 +256,7 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     }
   },
   "xAxis": {
@@ -272,8 +269,7 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "rotation": -45,
-      "step": 2
+      "rotation": -45
     },
     "tickLength": 0,
     "type": "linear",
@@ -297,9 +293,9 @@
   },
   "legend": {
     "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {

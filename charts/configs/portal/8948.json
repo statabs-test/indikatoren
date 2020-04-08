@@ -457,7 +457,15 @@
       "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 5,
+    "tickPositioner": function () {
+        var interval = 5,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -601,6 +609,8 @@
         }
       },
       "min": 0,
+      "max": 600,
+      "tickAmount": 7,
       "title": ""
     },
     {
@@ -618,6 +628,8 @@
         }
       },
       "min": 0,
+      "max": undefined,
+      "tickAmount": 7,
       "gridLineWidth": 0,
       "opposite": true
     }

@@ -9,8 +9,8 @@
       },
       "events": {
         "legendItemClick": function (e) {
-                  e.preventDefault()
-                }
+            e.preventDefault()
+          }
       },
       "data": [
         [
@@ -111,8 +111,8 @@
       "visible": true,
       "events": {
         "legendItemClick": function (e) {
-                  e.preventDefault()
-                }
+            e.preventDefault()
+          }
       },
       "data": [
         [
@@ -834,15 +834,14 @@
     "verticalAlign": "top",
     "align": "left",
     "itemWidth": 100,
-    "margin": 3,
     "labelFormatter": function () {
         return this.name
-        .replace(' Mädchen', '')
-        .replace(' Knaben', '')
-        .replace('11. Stufe ', '')
-        .replace('CH', 'Schweiz')
-        .replace('Knaben', '<b>Knaben</b>')
-        .replace('Mädchen', '<b>Mädchen</b>');
+          .replace(' Mädchen', '')
+          .replace(' Knaben', '')
+          .replace('11. Stufe ', '')
+          .replace('CH', 'Schweiz')
+          .replace('Knaben', '<b>Knaben</b>')
+          .replace('Mädchen', '<b>Mädchen</b>');
       }
   },
   "dataLabels": {

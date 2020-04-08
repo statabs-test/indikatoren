@@ -218,6 +218,7 @@
       "labels": {
         "format": "{value:,.0f}",
         "y": 3,
+        "x": -10,
         "style": {
           "color": "black",
           "fontSize": "10px"
@@ -233,6 +234,7 @@
       "labels": {
         "format": "{value:,.1f}",
         "y": 3,
+        "x": 10,
         "style": {
           "color": "black",
           "fontSize": "10px"
@@ -276,7 +278,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "margin": 15
   },
   "dataLabels": {
     "enabled": false,

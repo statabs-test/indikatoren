@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
       "color": "#008AC3",
       "yAxis": 0,
       "tooltip": {
@@ -111,10 +107,6 @@
       "name": "Reales BIP pro Kopf Basel-Stadt (indexiert, 1995=100)"
     },
     {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
       "color": "#68AB2B",
       "yAxis": 0,
       "tooltip": {
@@ -342,7 +334,7 @@
     "shared": false
   },
   "yAxis": {
-    "min": null,
+    "min": 75,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -359,6 +351,7 @@
         "color": "#000000"
       }
     },
+    "tickInterval": 25,
     "plotLines": [
       {
         "color": "#B9CFD7",
@@ -408,8 +401,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "x": 1
+    "padding": 0
   },
   "plotOptions": {
     "series": {

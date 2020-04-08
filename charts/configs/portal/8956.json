@@ -236,7 +236,7 @@
       "align": "left",
       "x": -80
     },
-    "reversed": false
+    "reversed": true
   },
   "chart": {
     "events": {
@@ -308,7 +308,7 @@
   },
   "yAxis": {
     "type": "category",
-    "tickInterval": 20,
+    "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -316,7 +316,7 @@
       "text": null
     },
     "labels": {
-      "y": 5,
+      "y": 10,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
@@ -339,12 +339,16 @@
       "fontFamily": "Arial",
       "fontSize": "10px",
       "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
+      "textOverflow": undefined,
+      "whitespace": "nowrap",
+      "whiteSpace": "nowrap"
     },
     "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            }
+				return this.name;
+			},
+    "reversed": false,
+    "alignColumns": false,
+    "itemWidth": 110
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

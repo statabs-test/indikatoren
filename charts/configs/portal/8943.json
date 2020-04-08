@@ -1,11 +1,8 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
+      "color": "#b00000",
       "legendIndex": 0,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           1991,
@@ -116,10 +113,7 @@
     },
     {
       "color": "#672773",
-      "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
+      "legendIndex": 2,
       "data": [
         [
           1991,
@@ -230,10 +224,7 @@
     },
     {
       "color": "#007a2f",
-      "legendIndex": 2,
-      "marker": {
-        "enabled": false
-      },
+      "legendIndex": 1,
       "data": [
         [
           1991,
@@ -345,9 +336,6 @@
     {
       "color": "#008AC3",
       "legendIndex": 3,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           1991,
@@ -575,10 +563,10 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -595,7 +583,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -636,22 +625,18 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": undefined,
+      "whiteSpace": "nowrap"
     },
     "padding": 0,
-    "itemWidth": 200
+    "alignColumns": false,
+    "itemWidth": 90
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

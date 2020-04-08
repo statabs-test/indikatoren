@@ -152,7 +152,7 @@
       "color": "#A8C3CA",
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 4,
+      "legendIndex": 3,
       "data": [
         [
           2009,
@@ -201,7 +201,7 @@
       "color": "#007A2F",
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 0,
+      "legendIndex": 7,
       "data": [
         [
           2009,
@@ -250,7 +250,7 @@
       "color": "#68AB2B",
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 1,
+      "legendIndex": 6,
       "data": [
         [
           2009,
@@ -299,7 +299,7 @@
       "color": "#73B97C",
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 2,
+      "legendIndex": 5,
       "data": [
         [
           2009,
@@ -399,7 +399,7 @@
       "marker": {
         "enabled": false
       },
-      "legendIndex": 4,
+      "legendIndex": 8,
       "data": [
         [
           2009,
@@ -538,29 +538,29 @@
                         });
                     }
                 },
-      "render": function(args){
-        //Add functionality to define plotLines' zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
-        Highcharts.wrap(Highcharts.PlotLineOrBand.prototype, 'render', function (proceed) {
-        	var chart = this.axis.chart;
-            
+      "render": function (args) {
+          //Add functionality to define plotLines' zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
+          Highcharts.wrap(Highcharts.PlotLineOrBand.prototype, 'render', function (proceed) {
+            var chart = this.axis.chart;
+
             proceed.call(this);
-        
-        	if (!chart.seriesGroup) {
-        		chart.seriesGroup = chart.renderer.g('series-group')
-        			.attr({ zIndex: 3 })
-        			.add();
-        	}
-        
+
+            if (!chart.seriesGroup) {
+              chart.seriesGroup = chart.renderer.g('series-group')
+                .attr({ zIndex: 3 })
+                .add();
+            }
+
             if (this.svgElem.parentGroup !== chart.seriesGroup) {
-            	this.svgElem
-                	.attr({ zIndex: this.options.zIndex })
-                	.add(chart.seriesGroup);
+              this.svgElem
+                .attr({ zIndex: this.options.zIndex })
+                .add(chart.seriesGroup);
             }
             return this;
-        });
-        
+          });
 
-      }
+
+        }
     },
     "renderTo": "container-8887",
     "spacingBottom": 12
@@ -635,18 +635,16 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     },
     "min": -15000,
     "max": 15000,
     "tickInterval": 5000,
     "plotLines": [
       {
+        "color": "#B9CFD7",
         "value": 0,
-        "color": "white",
-        "width": 2,
-        "zIndex": 4
+        "width": 1
       }
     ]
   },
@@ -682,20 +680,17 @@
       "whiteSpace": "nowrap"
     },
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 200
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "y": 3,
+    "itemWidth": 170
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 8887

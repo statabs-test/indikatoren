@@ -268,7 +268,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 665,
-    "height": 413,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -280,8 +280,8 @@
     },
     "type": "column",
     "inverted": true,
-    "marginLeft": 210,
-    "marginRight": 15,
+    "marginLeft": 190,
+    "marginRight": 10,
     "renderTo": "container-8936",
     "spacingBottom": 12
   },
@@ -309,7 +309,7 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": null,
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -320,13 +320,15 @@
       "text": ""
     },
     "labels": {
-      "y": 10,
+      "y": 13,
       "style": {
         "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "max": 45,
+    "tickInterval": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -353,9 +355,7 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whitspace": "nowrap"
+      "fontWeight": "normal"
     },
     "padding": 0,
     "itemDistance": 5,

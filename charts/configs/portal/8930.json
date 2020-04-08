@@ -163,7 +163,8 @@
       }
     },
     "column": {
-      "groupPadding": 0
+      "groupPadding": 0,
+      "pointWidth": 40
     }
   },
   "title": {
@@ -208,9 +209,9 @@
       "textOverflow": null,
       "whitespace": "nowrap"
     },
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
-        },
+    "labelFormatter": function () {
+                return this.name.replace("/", " /<br/>");
+            },
     "reversed": true
   },
   "tooltip": {

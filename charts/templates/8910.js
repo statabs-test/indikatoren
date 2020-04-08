@@ -1,5 +1,8 @@
 (function () {
   return {
+    chart:{
+      marginRight: 10
+    },
     "yAxis": {
       min: 75,
       tickInterval: 5,

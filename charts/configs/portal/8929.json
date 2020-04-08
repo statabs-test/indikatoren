@@ -495,7 +495,7 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -504,6 +504,7 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
+    "reversed": true,
     "y": -15,
     "labelFormatter": function () {
         return this.name.replace('/', '/<br>').replace('weiter', 'weiter-<br>').replace(' Grund', '<br>Grund');

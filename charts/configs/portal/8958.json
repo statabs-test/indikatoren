@@ -6785,6 +6785,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6824,6 +6825,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6986,6 +6988,7 @@
     "useHTML": false,
     "layout": "vertical",
     "x": -250,
+    "y": -40,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },

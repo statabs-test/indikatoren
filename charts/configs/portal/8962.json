@@ -211,14 +211,19 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "title": "",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
     "labels": {
       "y": 3,
       "style": {
@@ -226,7 +231,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": undefined,
+    "tickInterval": 100000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -269,18 +276,15 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function () {
+				return this.name.replace(' Reinvermögen', '');
+			 }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },
