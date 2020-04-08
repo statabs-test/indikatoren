@@ -17,7 +17,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "Nachbarn 2017",
@@ -33,7 +33,7 @@
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
           "Freunde und Bekannte 2017",
@@ -68,7 +68,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "Nachbarn 2017",
@@ -84,7 +84,7 @@
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
           "Freunde und Bekannte 2017",
@@ -119,7 +119,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "Nachbarn 2017",
@@ -135,7 +135,7 @@
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
           "Freunde und Bekannte 2017",
@@ -170,7 +170,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "Nachbarn 2017",
@@ -186,7 +186,7 @@
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
           "Freunde und Bekannte 2017",
@@ -221,7 +221,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "Nachbarn 2017",
@@ -237,7 +237,7 @@
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
           "Freunde und Bekannte 2017",
@@ -272,7 +272,7 @@
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
           "Nachbarn 2017",
@@ -288,7 +288,7 @@
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
           "Freunde und Bekannte 2017",
@@ -325,8 +325,7 @@
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      },
-      "formatter": undefined
+      }
     }
   },
   "chart": {

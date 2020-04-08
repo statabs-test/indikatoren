@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil deutschsprachiger Personen 2019 (%)",
+      "name": "Anteil deutschsprachiger Personen (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3416,7 +3416,7 @@
           -3.14954
         ]
       ],
-      "name": "Veränderung gegenüber 2010 (pp)"
+      "name": "Differenz 2019 zu 2010 (pp)"
     },
     {
       "name": "Rhein",
@@ -3704,9 +3704,9 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil <br/> deutschsprachige <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 245 + shiftHoriz, 220 + shiftVert);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
@@ -3787,25 +3787,25 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 59.9,
+        "to": 59.999,
         "color": "#D3E2E4",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E \u003C 60,0"
       },
       {
         "from": 60,
-        "to": 69.9,
+        "to": 69.999,
         "color": "#A8C3CA",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E60,0 − 69,9"
       },
       {
         "from": 70,
-        "to": 74.9,
+        "to": 74.999,
         "color": "#689199",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E70,0 − 74,9"
       },
       {
         "from": 75,
-        "to": 84.9,
+        "to": 84.999,
         "color": "#246370",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E75,0 − 84,9"
       },

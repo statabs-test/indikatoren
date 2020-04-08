@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anz_vermittelt",
+      "name": "Anzahl vermittelte Wohnungen",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3245,27 +3245,27 @@
       "data": [
         [
           1,
-          null
+          0
         ],
         [
           2,
-          4
-        ],
-        [
-          3,
-          4
-        ],
-        [
-          4,
           2
         ],
         [
+          3,
+          1
+        ],
+        [
+          4,
+          7
+        ],
+        [
           5,
-          3
+          1
         ],
         [
           6,
-          11
+          16
         ],
         [
           7,
@@ -3273,60 +3273,151 @@
         ],
         [
           8,
-          4
+          2
         ],
         [
           9,
-          4
+          3
         ],
         [
           10,
-          7
-        ],
-        [
-          11,
           15
         ],
         [
+          11,
+          14
+        ],
+        [
           12,
-          null
+          3
         ],
         [
           13,
-          1
+          3
         ],
         [
           14,
-          2
+          0
         ],
         [
           15,
-          2
+          1
         ],
         [
           16,
-          4
+          10
         ],
         [
           17,
-          9
+          14
         ],
         [
           18,
-          6
+          8
         ],
         [
           19,
-          null
+          1
         ],
         [
           20,
           3
+        ],
+        [
+          30,
+          0
         ]
       ]
     },
     {
-      "visible": false
+      "visible": false,
+      "data": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "name": "Anzahl vermittelte Wohnungen"
     },
     {
       "name": "Rhein",
@@ -3570,7 +3661,7 @@
 					fn.defineTemplate();
 
 					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
 
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -3619,7 +3710,7 @@
 					var shiftHoriz = 280;
 					var shiftVert = 70;
 					
-					fn.addLegendTitle(chart, "Anzahl <br/> vermittelte <br/> Wohnungen", 255 + shiftHoriz, 250 + shiftVert);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 255 + shiftHoriz, 250 + shiftVert);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
@@ -3643,7 +3734,7 @@
 					*/
 
 					//make sure pies are hidden upon click onto pie legend
-					//fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart);
 				}
     },
     "renderTo": "container-8537",

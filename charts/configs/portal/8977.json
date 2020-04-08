@@ -6986,7 +6986,7 @@
 					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					var maxPieDiameter = 30;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -7015,8 +7015,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 3; 
+	                var minValueInLegend = 5; 
+	                var maxValueInLegend = 50; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
@@ -7024,18 +7024,18 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("lien", "lien-<br/>"), 245, 220);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245, 220);
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace("z ", "z<br/> "), 355, 220);
-					fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 382, 269);
-					fn.addLegendSquare(chart, 363, 295, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 382, 289)
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>") + " (pp)", 355+15, 220);
+					fn.addLegendSquare(chart, 363+10, 275, 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', 382+10, 269);
+					fn.addLegendSquare(chart, 363+10, 295, 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', 382+10, 289)
 
-	                fn.addLegendCircle(chart, 367, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382, 314);
-	                fn.addLegendCircle(chart, 367, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382, 335);
+	                fn.addLegendCircle(chart, 367+10, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 382+10, 314);
+	                fn.addLegendCircle(chart, 367+10, 350, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 382+10, 340);
 
 					/*var shiftDown = 12;
 
@@ -7106,32 +7106,32 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 34.9,
-        "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E \u003C 35,0"
-      },
-      {
-        "from": 35,
         "to": 39.9,
-        "color": "#A8C3CA",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E35,0 − 39,9"
+        "color": "#D3E2E4",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0000,0\u003C\u002Fspan\u003E \u003C \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E40,0"
       },
       {
         "from": 40,
-        "to": 44.9,
+        "to": 79.9,
+        "color": "#A8C3CA",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00\u003C\u002Fspan\u003E40,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E79,9"
+      },
+      {
+        "from": 80,
+        "to": 119.9,
         "color": "#689199",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E40,0 − 44,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00\u003C\u002Fspan\u003E80,0 − 119,9"
       },
       {
-        "from": 45,
-        "to": 49.9,
+        "from": 120,
+        "to": 159.9,
         "color": "#246370",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E45,0 − 49,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E120,0 − 159,9"
       },
       {
-        "from": 50,
+        "from": 160,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E ≥ 50,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0000,0\u003C\u002Fspan\u003E ≥ 160,0"
       }
     ]
   },
@@ -7164,7 +7164,7 @@
     },
     "useHTML": false,
     "layout": "vertical",
-    "x": -127,
+    "x": -117,
     "y": -15,
     "itemMarginBottom": 2,
     "symbolRadius": 0

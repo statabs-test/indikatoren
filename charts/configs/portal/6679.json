@@ -65,7 +65,6 @@
     },
     "labels": {
       "rotation": 0,
-      "style": undefined,
       "formatter": function() {
       	return this.value;
       }

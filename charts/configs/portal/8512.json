@@ -3416,7 +3416,7 @@
           18
         ]
       ],
-      "name": "Anzahl Sozialhilfebezüger"
+      "name": "Anzahl Sozialhilfebeziehende"
     },
     {
       "name": "Rhein",
@@ -3718,8 +3718,8 @@
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, "Sozialhilfe- <br/>  quote (%)", 245 + shiftHoriz, 220 + shiftVert);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 385 + shiftHoriz, 220 + shiftVert);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245 + shiftHoriz, 220 + shiftVert);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), 385 + shiftHoriz, 220 + shiftVert);
 	                
 	              	fn.addLegendCircle(chart, 392 + shiftHoriz, 315 + shiftVert, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450 + shiftHoriz, 300 + shiftVert, undefined, false, 'right');

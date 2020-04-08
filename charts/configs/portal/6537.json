@@ -120,8 +120,7 @@
         "style": {
           "fontSize": "11px",
           "color": "black",
-          "fontWeight": "normal",
-          "textOutline": undefined
+          "fontWeight": "normal"
         },
         "enabled": false
       },

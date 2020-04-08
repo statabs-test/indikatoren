@@ -7116,19 +7116,19 @@
         "from": 0,
         "to": 4.999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E14,0 \u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E...\u003C\u002Fspan\u003E5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
         "to": 8.999,
         "color": "#A8C3CA",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E..\u003C\u002Fspan\u003E5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E 8,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E 8,9"
       },
       {
         "from": 9,
         "to": 13.999,
         "color": "#689199",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E..\u003C\u002Fspan\u003E9,0 − 13,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E9,0 − 13,9"
       },
       {
         "from": 14,
@@ -7139,7 +7139,7 @@
       {
         "from": 20,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E........\u003C\u002Fspan\u003E ≥ 20,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0\u003C\u002Fspan\u003E ≥ 20,0"
       }
     ]
   },

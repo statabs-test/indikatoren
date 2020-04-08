@@ -254,7 +254,6 @@
       "fontFamily": "Arial",
       "fontSize": "10px",
       "fontWeight": "normal",
-      "textOverflow": undefined,
       "whitespace": "nowrap",
       "whiteSpace": "nowrap"
     },

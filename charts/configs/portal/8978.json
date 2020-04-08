@@ -3706,7 +3706,7 @@
 					
 					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 222 + shiftHoriz, 220 + shiftVert + 20);
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), 385 + shiftHoriz, 220 + shiftVert + 20);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>") + " (pp)", 385 + shiftHoriz, 220 + shiftVert + 20);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');

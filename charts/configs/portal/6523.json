@@ -205,7 +205,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "title": ""
     },
     {
@@ -223,7 +222,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }

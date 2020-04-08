@@ -1106,8 +1106,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "min": undefined
+    }
   },
   "navigation": {
     "menuItemStyle": {

@@ -543,8 +543,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 7,
-    "max": undefined
+    "tickAmount": 7
   },
   "navigation": {
     "menuItemStyle": {
