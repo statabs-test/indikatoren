@@ -7,11 +7,11 @@
       "borderColor": null,
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           94249
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           141157
         ],
         [
@@ -33,12 +33,12 @@
       "lineWidth": 0.5,
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 91911,
           "high": 96588
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 138479,
           "high": 143835
         },
@@ -63,11 +63,11 @@
       "borderColor": null,
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           94986
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           142491
         ],
         [
@@ -89,12 +89,12 @@
       "lineWidth": 0.5,
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 92653,
           "high": 97318
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 139765,
           "high": 145218
         },
@@ -119,11 +119,11 @@
       "borderColor": null,
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           96637
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           142824
         ],
         [
@@ -145,12 +145,12 @@
       "lineWidth": 0.5,
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 94284,
           "high": 98990
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 139991,
           "high": 145657
         },
@@ -175,11 +175,11 @@
       "borderColor": null,
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           97799
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           143229
         ],
         [
@@ -201,12 +201,12 @@
       "lineWidth": 0.5,
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 95459,
           "high": 100138
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 140413,
           "high": 146045
         },
@@ -231,11 +231,11 @@
       "borderColor": null,
       "data": [
         [
-          "Basel-Stadt",
+          "Bâle-Ville",
           94437
         ],
         [
-          "Basel-Landschaft",
+          "Bâle-Campagne",
           142808
         ],
         [
@@ -257,12 +257,12 @@
       "lineWidth": 0.5,
       "data": [
         {
-          "name": "Basel-Stadt",
+          "name": "Bâle-Ville",
           "low": 92012,
           "high": 96863
         },
         {
-          "name": "Basel-Landschaft",
+          "name": "Bâle-Campagne",
           "low": 139973,
           "high": 145643
         },

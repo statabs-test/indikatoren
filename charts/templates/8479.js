@@ -29,6 +29,9 @@
            // .replace("Jura", "JU")
             .replace("Basel-Landschaft", "Basel-<br/>Landschaft")
             //.replace("Basel-Stadt", "BS");
+            .replace("BS/BL/JU (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Abstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstaaandllllllllll</span>(échelle droite)")
+            .replace("Suisse (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Absllll</span>Suisse ")
+           // .replace("Jura", "JU")
         }
       }
     },
