@@ -144,9 +144,9 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, "Anteil Haushalte <br/> mit Prämien- <br/> verbilligung (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("lte ", "lte<br/>").replace("mien", "mien-<br/>"), 245 + shiftHoriz, 220 + shiftVert);
 
-					fn.addLegendTitle(chart, "Differenz <br/> 2018 zu 2013 (pp)", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>")/*"Differenz <br/> 2018 zu 2013 (pp)"*/, 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
@@ -165,10 +165,11 @@
 					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 275 + shiftDown, undefined, false, 'right');
 					fn.addLegendCircle(chart, 373, 310 + shiftDown, 0.5 * pieSizeCatConfig[2].diameter, '#007A2F');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 300 + shiftDown, undefined, false, 'right');
+					
 
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
-					*/
+					fn.AddPieLegendClickHandler(chart);*/
+					
 				}
 			}
 		}

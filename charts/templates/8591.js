@@ -144,7 +144,7 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Altersquotient", 245 + shiftHoriz, 220 + shiftVert + 30);
+					fn.addLegendTitle(chart, choroplethSeries.name, 245 + shiftHoriz, 220 + shiftVert + 30);
 					/*
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');

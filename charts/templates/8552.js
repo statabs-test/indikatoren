@@ -29,17 +29,17 @@
                 from: 0,
                 to:4.999,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>14,0 </span> <<span style='color: rgba(0,0,0,0)'>...</span>5,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,0 </span> <<span style='color: rgba(0,0,0,0)'>0</span>5,0"
             }, {
                 from: 5,
                 to: 8.999,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>..</span>5,0 −<span style='color: rgba(0,0,0,0)'>1</span> 8,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>5,0 −<span style='color: rgba(0,0,0,0)'>0</span> 8,9"
             }, {
                 from: 9,
                 to: 13.999,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>..</span>9,0 − 13,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>9,0 − 13,9"
             },{
                 from: 14,
                 to: 19.999,
@@ -48,7 +48,7 @@
             },{
                 from: 20.0,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>........</span> ≥ 20,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,0</span> ≥ 20,0"
             }], 
         },
         "data": {
@@ -158,8 +158,8 @@
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, "Sozialhilfe- <br/>  quote (%)", 245 + shiftHoriz, 220 + shiftVert);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 385 + shiftHoriz, 220 + shiftVert);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245 + shiftHoriz, 220 + shiftVert);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), 385 + shiftHoriz, 220 + shiftVert);
 	                
 					fn.addLegendCircle(chart, 392 + shiftHoriz, 315 + shiftVert, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450 + shiftHoriz, 300 + shiftVert, undefined, false, 'right');

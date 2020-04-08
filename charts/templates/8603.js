@@ -27,22 +27,22 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:59.9,
+                to:59.999,
                 color: '#D3E2E4',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 60,0"
             }, {
                 from: 60.0,
-                to: 69.9,
+                to: 69.999,
                 color: '#A8C3CA',
                 name: "<span style='color: rgba(0,0,0,0)'>0</span>60,0 − 69,9"
             }, {
                 from: 70.0,
-                to: 74.9,
+                to: 74.999,
                  color: '#689199',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>70,0 − 74,9"
             },{
                 from: 75.0,
-                to: 84.9,
+                to: 84.999,
                  color: '#246370',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>75,0 − 84,9"
             },{
@@ -144,9 +144,9 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, "Anteil <br/> deutschsprachige <br/> Personen (%)", 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 245 + shiftHoriz, 220 + shiftVert);
 					
-					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2010 (pp)", 385 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
