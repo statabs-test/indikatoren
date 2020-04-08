@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#474747",
-      "legendIndex": 6,
-      "index": 6,
+      "legendIndex": 7,
+      "index": 7,
       "data": [
         [
           "Wegpendler",
@@ -18,9 +18,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
-      "legendIndex": 5,
-      "index": 5,
+      "color": "#FF8028",
+      "legendIndex": 6,
+      "index": 6,
       "data": [
         [
           "Wegpendler",
@@ -36,8 +36,8 @@
     },
     {
       "color": "#923F8D",
-      "legendIndex": 4,
-      "index": 4,
+      "legendIndex": 5,
+      "index": 5,
       "data": [
         [
           "Wegpendler",
@@ -53,8 +53,8 @@
     },
     {
       "color": "#68AB2B",
-      "legendIndex": 3,
-      "index": 3,
+      "legendIndex": 4,
+      "index": 4,
       "data": [
         [
           "Wegpendler",
@@ -69,9 +69,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
-      "legendIndex": 2,
-      "index": 2,
+      "color": "#689199",
+      "legendIndex": 3,
+      "index": 3,
       "data": [
         [
           "Wegpendler",
@@ -86,9 +86,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
-      "legendIndex": 1,
-      "index": 1,
+      "color": "#DC440E",
+      "legendIndex": 2,
+      "index": 2,
       "data": [
         [
           "Wegpendler",
@@ -100,6 +100,23 @@
         ]
       ],
       "name": "Andere",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 1,
+      "index": 1,
+      "data": [
+        [
+          "Wegpendler",
+          27
+        ],
+        [
+          "Zupendler",
+          7329
+        ]
+      ],
+      "name": "Ausland",
       "turboThreshold": 0
     }
   ],
