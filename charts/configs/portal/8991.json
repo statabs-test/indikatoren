@@ -1,209 +1,75 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#008AC3",
+      "visible": true,
       "data": [
         [
-          "00:00",
-          231
+          "916 Stückisteg",
+          92.9
         ],
         [
-          "01:00",
-          133
+          "914 Hiltalingerstrasse",
+          76.7
         ],
         [
-          "02:00",
-          97
+          "911 Birskopfsteg",
+          56.3
         ],
         [
-          "03:00",
-          136
+          "403 Heuwaage-Viadukt",
+          54
         ],
         [
-          "04:00",
-          287
+          "354 Wettsteinbrücke",
+          50.9
         ],
         [
-          "05:00",
-          739
+          "905 Leimenstrasse 4",
+          49.6
         ],
         [
-          "06:00",
-          1904
-        ],
-        [
-          "07:00",
-          2382
-        ],
-        [
-          "08:00",
-          2290
-        ],
-        [
-          "09:00",
-          2118
-        ],
-        [
-          "10:00",
-          1964
-        ],
-        [
-          "11:00",
-          2055
-        ],
-        [
-          "12:00",
-          1949
-        ],
-        [
-          "13:00",
-          2175
-        ],
-        [
-          "14:00",
-          2127
-        ],
-        [
-          "15:00",
-          2337
-        ],
-        [
-          "16:00",
-          2068
-        ],
-        [
-          "17:00",
-          2241
-        ],
-        [
-          "18:00",
-          2187
-        ],
-        [
-          "19:00",
-          1720
-        ],
-        [
-          "20:00",
-          1306
-        ],
-        [
-          "21:00",
-          1129
-        ],
-        [
-          "22:00",
-          901
-        ],
-        [
-          "23:00",
-          594
+          "902 Viaduktstrasse",
+          49.4
         ]
       ],
-      "name": "2019",
+      "name": "Werktage",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#A0BEC8",
+      "visible": true,
       "data": [
         [
-          "00:00",
-          105
+          "916 Stückisteg",
+          94.4
         ],
         [
-          "01:00",
-          78
+          "914 Hiltalingerstrasse",
+          89.6
         ],
         [
-          "02:00",
-          59
+          "911 Birskopfsteg",
+          79.7
         ],
         [
-          "03:00",
-          91
+          "403 Heuwaage-Viadukt",
+          46.9
         ],
         [
-          "04:00",
-          196
+          "354 Wettsteinbrücke",
+          60.1
         ],
         [
-          "05:00",
-          592
+          "905 Leimenstrasse 4",
+          63.1
         ],
         [
-          "06:00",
-          1750
-        ],
-        [
-          "07:00",
-          2163
-        ],
-        [
-          "08:00",
-          1557
-        ],
-        [
-          "09:00",
-          1386
-        ],
-        [
-          "10:00",
-          1378
-        ],
-        [
-          "11:00",
-          1407
-        ],
-        [
-          "12:00",
-          1416
-        ],
-        [
-          "13:00",
-          1584
-        ],
-        [
-          "14:00",
-          1555
-        ],
-        [
-          "15:00",
-          1675
-        ],
-        [
-          "16:00",
-          2091
-        ],
-        [
-          "17:00",
-          2002
-        ],
-        [
-          "18:00",
-          1407
-        ],
-        [
-          "19:00",
-          899
-        ],
-        [
-          "20:00",
-          600
-        ],
-        [
-          "21:00",
-          407
-        ],
-        [
-          "22:00",
-          320
-        ],
-        [
-          "23:00",
-          193
+          "902 Viaduktstrasse",
+          54.9
         ]
       ],
-      "name": "2020",
+      "name": "Wochenende",
       "turboThreshold": 0
     }
   ],
@@ -216,7 +82,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -246,9 +113,9 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "alignTicks": false,
-    "renderTo": "container-8984"
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-8991"
   },
   "title": {
     "style": {
@@ -257,7 +124,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73"
+    "text": "Rückgang beim durchschnittlichen Tagesverkehr Velo nach Zählstelle"
   },
   "subtitle": {
     "style": {
@@ -266,52 +133,31 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werktage, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+    "text": "Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "title": {
-        "text": null,
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
         "color": "#000000",
         "fontSize": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      }
+      "text": null
     },
-    {
-      "min": -0.75,
-      "max": 0.75,
-      "tickInterval": 0.25,
-      "tickAmount": 7,
-      "title": {
-        "text": null,
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        }
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      },
-        "style": {
-          "color": "black"
-        }
-      },
-      "opposite": true,
-      "visible": false
+      "format": "{value:,.0f}%"
     }
-  ],
+  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -326,7 +172,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-9"
   },
   "legend": {
     "enabled": true,
@@ -336,22 +182,16 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "itemWidth": 10
     }
   },
   "customFunctions": {
@@ -390,6 +230,6 @@
     }
   },
   "exporting": {
-    "filename": 8984
+    "filename": 8991
   }
 }

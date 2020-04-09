@@ -366,6 +366,30 @@
         [
           "31. Mrz",
           25637
+        ],
+        [
+          "01. Apr",
+          33365
+        ],
+        [
+          "02. Apr",
+          34913
+        ],
+        [
+          "03. Apr",
+          36620
+        ],
+        [
+          "04. Apr",
+          36225
+        ],
+        [
+          "05. Apr",
+          37973
+        ],
+        [
+          "06. Apr",
+          33255
         ]
       ],
       "name": "2019",
@@ -737,6 +761,30 @@
         [
           "31. Mrz",
           24510
+        ],
+        [
+          "01. Apr",
+          24595
+        ],
+        [
+          "02. Apr",
+          24573
+        ],
+        [
+          "03. Apr",
+          25598
+        ],
+        [
+          "04. Apr",
+          15171
+        ],
+        [
+          "05. Apr",
+          11598
+        ],
+        [
+          "06. Apr",
+          24548
         ]
       ],
       "name": "2020",
@@ -1099,14 +1147,38 @@
         ],
         [
           "29. Mrz",
-          null
+          32477
         ],
         [
           "30. Mrz",
-          null
+          33222
         ],
         [
           "31. Mrz",
+          33904
+        ],
+        [
+          "01. Apr",
+          34018
+        ],
+        [
+          "02. Apr",
+          33960
+        ],
+        [
+          "03. Apr",
+          33998
+        ],
+        [
+          "04. Apr",
+          null
+        ],
+        [
+          "05. Apr",
+          null
+        ],
+        [
+          "06. Apr",
           null
         ]
       ],
@@ -1470,14 +1542,38 @@
         ],
         [
           "29. Mrz",
-          undefined
+          20868
         ],
         [
           "30. Mrz",
-          undefined
+          20970
         ],
         [
           "31. Mrz",
+          21118
+        ],
+        [
+          "01. Apr",
+          21126
+        ],
+        [
+          "02. Apr",
+          21417
+        ],
+        [
+          "03. Apr",
+          21513
+        ],
+        [
+          "04. Apr",
+          undefined
+        ],
+        [
+          "05. Apr",
+          undefined
+        ],
+        [
+          "06. Apr",
           undefined
         ]
       ],
@@ -1494,10 +1590,7 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "formatter": function() {
-        return this.value.replace("25. Feb", "<b>25. Feb")
-        .replace("16. Mrz", "<b>16. Mrz")}
+      }
     },
     "tickLength": 0,
     "tickInterval": 5
@@ -1538,7 +1631,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Motorisierter Individualverkehr Basel-Stadt"
+    "text": "Motorisierter Individualverkehr"
   },
   "subtitle": {
     "style": {

@@ -3,65 +3,62 @@
   "xAxis": {
       type: "category",
     //"tickInterval": 5,
-    labels:{
-    "formatter": function() {
-        return this.value.replace("25. Feb", "<b>25. Feb")
-        .replace("16. Mrz", "<b>16. Mrz")}}
   },
   "yAxis": [{
-    "min": 0, 
-    tickInterval: 500,
-    gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
-    lineColor: '#B9CFD7', 
-    title: {
-        style: {
-            color: "#000000",
-            fontSize: null
-        },
-        text: null
+  	"min": 0,
+    //"max": 2000000,
+     //"tickInterval": 400000,
+  	title: {
+        text: null,
+        "color": "#000000",
+        "fontSize": null
     },
-    labels: {
-        format: "{value:,.0f}",
-        style: {
-        color: "#000000"
-        }
-    }
+    "labels": {
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
+    },
   },
   {
-      tickInterval:0.25,
-      min:-1,
-    opposite: true,
-    gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
-    lineColor: '#B9CFD7', 
-    title: {
-        style: {
-            color: "#000000",
-            fontSize: null
-        },
-        text: null
+  	"min": -0.75,
+    max: 0.75,
+    "tickInterval": 0.25,
+    tickAmount: 7,
+    "title": {
+    	text: null,
+        "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+	},
+    "labels": {
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      },
+       style:{
+       		color: "black",
+       },
     },
-    labels: {
-        style: {
-            color: "#000000"
-        }, 
-        formatter: function() {
-           return  Highcharts.Number.Fomat(this.value*100) + "%";
-        }
-    }
-  }],	
+    "opposite": true,
+    visible: false
+  }
+  ],
   "tooltip": {
     "shared": false, 
 	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
   },
   "series": [
     //{"color": "#68AB2B"}, 
-    {"color": "#68AB2B"}, 
-    {"color": "#007A2F"},
-	  {"color": "#DC440E"}, 
-  	
-    {"color": "#B00000"}
+    {"color": "#007A2F"}, 
+    {"color": "#DC440E"},
+   /* {"color": "#C8C8C8", dashStyle: 'ShortDash', "yAxis":1,
+    "tooltip": {
+      "pointFormatter": function(){
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+      },}, 
+    }  	*/
+    //{"color": "#B00000"}
   ],
   "legend": {
     "enabled": true,
@@ -82,8 +79,8 @@
         "radius": 3
       }
     }
-  }, chart:{
-     // width: 600
+  },   "chart": {
+    "alignTicks": false
   }
 };
 }());

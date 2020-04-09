@@ -5,99 +5,99 @@
       "data": [
         [
           "00:00",
-          231
+          148
         ],
         [
           "01:00",
-          133
+          95
         ],
         [
           "02:00",
-          97
+          48
         ],
         [
           "03:00",
-          136
+          54
         ],
         [
           "04:00",
-          287
+          32
         ],
         [
           "05:00",
-          739
+          36
         ],
         [
           "06:00",
-          1904
+          50
         ],
         [
           "07:00",
-          2382
+          92
         ],
         [
           "08:00",
-          2290
+          153
         ],
         [
           "09:00",
-          2118
+          240
         ],
         [
           "10:00",
-          1964
+          268
         ],
         [
           "11:00",
-          2055
+          301
         ],
         [
           "12:00",
-          1949
+          328
         ],
         [
           "13:00",
-          2175
+          378
         ],
         [
           "14:00",
-          2127
+          406
         ],
         [
           "15:00",
-          2337
+          444
         ],
         [
           "16:00",
-          2068
+          440
         ],
         [
           "17:00",
-          2241
+          460
         ],
         [
           "18:00",
-          2187
+          425
         ],
         [
           "19:00",
-          1720
+          293
         ],
         [
           "20:00",
-          1306
+          230
         ],
         [
           "21:00",
-          1129
+          190
         ],
         [
           "22:00",
-          901
+          153
         ],
         [
           "23:00",
-          594
+          133
         ]
       ],
       "name": "2019",
@@ -108,99 +108,99 @@
       "data": [
         [
           "00:00",
-          105
+          24
         ],
         [
           "01:00",
-          78
+          11
         ],
         [
           "02:00",
-          59
+          5
         ],
         [
           "03:00",
-          91
+          8
         ],
         [
           "04:00",
-          196
+          8
         ],
         [
           "05:00",
-          592
+          8
         ],
         [
           "06:00",
-          1750
+          33
         ],
         [
           "07:00",
-          2163
+          29
         ],
         [
           "08:00",
-          1557
+          54
         ],
         [
           "09:00",
-          1386
+          83
         ],
         [
           "10:00",
-          1378
+          115
         ],
         [
           "11:00",
-          1407
+          140
         ],
         [
           "12:00",
-          1416
+          158
         ],
         [
           "13:00",
-          1584
+          202
         ],
         [
           "14:00",
-          1555
+          224
         ],
         [
           "15:00",
-          1675
+          221
         ],
         [
           "16:00",
-          2091
+          225
         ],
         [
           "17:00",
-          2002
+          194
         ],
         [
           "18:00",
-          1407
+          153
         ],
         [
           "19:00",
-          899
+          99
         ],
         [
           "20:00",
-          600
+          62
         ],
         [
           "21:00",
-          407
+          47
         ],
         [
           "22:00",
-          320
+          32
         ],
         [
           "23:00",
-          193
+          23
         ]
       ],
       "name": "2020",
@@ -248,7 +248,7 @@
     },
     "type": "line",
     "alignTicks": false,
-    "renderTo": "container-8984"
+    "renderTo": "container-8988"
   },
   "title": {
     "style": {
@@ -257,7 +257,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73"
+    "text": "Durchschnittlicher Tagesverkehr Velo Wettsteinbrücke"
   },
   "subtitle": {
     "style": {
@@ -266,7 +266,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werktage, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+    "text": "Wochenende, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
     "align": "left"
   },
   "tooltip": {
@@ -302,8 +302,8 @@
       },
       "labels": {
         "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      },
+      return Highcharts.numberFormat((this.value*100),0)+'%'; 
+    },
         "style": {
           "color": "black"
         }
@@ -326,7 +326,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-8"
   },
   "legend": {
     "enabled": true,
@@ -390,6 +390,6 @@
     }
   },
   "exporting": {
-    "filename": 8984
+    "filename": 8988
   }
 }

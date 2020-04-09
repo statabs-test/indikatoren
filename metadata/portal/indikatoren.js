@@ -31867,11 +31867,11 @@ var indikatoren = [
 		"id": 8852
 	},
 	{
-		"title": "Motorisierter Individualverkehr Basel-Stadt",
+		"title": "Motorisierter Individualverkehr",
 		"subtitle": "Zählstelle Nauenstrasse 73",
 		"kuerzel": "I.11.1.08976",
 		"kuerzelKunde": "",
-		"description": "Motorisierter Individualverkehr Basel-Stadt",
+		"description": "Motorisierter Individualverkehr",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -32010,7 +32010,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
@@ -32021,16 +32023,18 @@ var indikatoren = [
 		"id": 8983
 	},
 	{
-		"title": "Durchschnittlicher Tagesverkehr MIV an Werktagen",
-		"subtitle": "",
-		"kuerzel": "I.11.1.08984",
+		"title": "Rückgang beim durchschnittlichen Tagesverkehr MIV nach Zählstelle",
+		"subtitle": "Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"kuerzel": "I.11.1.08990",
 		"kuerzelKunde": "",
-		"description": "Durchschnittlicher Tagesverkehr MIV an Werktagen",
+		"description": "Rückgang beim durchschnittlichen Tagesverkehr MIV nach Zählstelle",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "2020-04-07T17:08:36.3636",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-09T12:26:25.2525",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -32046,14 +32050,56 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"data-id": 8984,
-		"chart-id": 8984,
+		"data-id": 8990,
+		"chart-id": 8990,
 		"filter": "",
-		"id": 8984
+		"id": 8990
+	},
+	{
+		"title": "Rückgang beim durchschnittlichen Tagesverkehr Velo nach Zählstelle",
+		"subtitle": "Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"kuerzel": "I.11.1.08991",
+		"kuerzelKunde": "",
+		"description": "Rückgang beim durchschnittlichen Tagesverkehr Velo nach Zählstelle",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-09T12:26:25.2525",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8991,
+		"chart-id": 8991,
+		"filter": "",
+		"id": 8991
 	}
 ];

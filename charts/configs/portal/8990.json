@@ -1,209 +1,83 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#008AC3",
+      "visible": true,
       "data": [
         [
-          "00:00",
-          231
+          "670-673 Zoll CH-D (Durchschnitt)",
+          85.4
         ],
         [
-          "01:00",
-          133
+          "659 Schlachthofstrasse",
+          78.5
         ],
         [
-          "02:00",
-          97
+          "656 Elsässerstrasse 146",
+          70.3
         ],
         [
-          "03:00",
-          136
+          "409 Grenzacherstrasse 511",
+          60.2
         ],
         [
-          "04:00",
-          287
+          "235 A3-A35, Grenze CH-F",
+          55.4
         ],
         [
-          "05:00",
-          739
+          "413 Gundelingerstrasse 107",
+          52.2
         ],
         [
-          "06:00",
-          1904
+          "653 Flughafenstrasse 30",
+          50.5
         ],
         [
-          "07:00",
-          2382
-        ],
-        [
-          "08:00",
-          2290
-        ],
-        [
-          "09:00",
-          2118
-        ],
-        [
-          "10:00",
-          1964
-        ],
-        [
-          "11:00",
-          2055
-        ],
-        [
-          "12:00",
-          1949
-        ],
-        [
-          "13:00",
-          2175
-        ],
-        [
-          "14:00",
-          2127
-        ],
-        [
-          "15:00",
-          2337
-        ],
-        [
-          "16:00",
-          2068
-        ],
-        [
-          "17:00",
-          2241
-        ],
-        [
-          "18:00",
-          2187
-        ],
-        [
-          "19:00",
-          1720
-        ],
-        [
-          "20:00",
-          1306
-        ],
-        [
-          "21:00",
-          1129
-        ],
-        [
-          "22:00",
-          901
-        ],
-        [
-          "23:00",
-          594
+          "402 Hochbergerstrasse 55",
+          48.9
         ]
       ],
-      "name": "2019",
+      "name": "Werktage",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#A0BEC8",
+      "visible": true,
       "data": [
         [
-          "00:00",
-          105
+          "670-673 Zoll CH-D (Durchschnitt)",
+          94.3
         ],
         [
-          "01:00",
-          78
+          "659 Schlachthofstrasse",
+          86.4
         ],
         [
-          "02:00",
-          59
+          "656 Elsässerstrasse 146",
+          83.5
         ],
         [
-          "03:00",
-          91
+          "409 Grenzacherstrasse 511",
+          78.6
         ],
         [
-          "04:00",
-          196
+          "235 A3-A35, Grenze CH-F",
+          87.7
         ],
         [
-          "05:00",
-          592
+          "413 Gundelingerstrasse 107",
+          60.1
         ],
         [
-          "06:00",
-          1750
+          "653 Flughafenstrasse 30",
+          67.3
         ],
         [
-          "07:00",
-          2163
-        ],
-        [
-          "08:00",
-          1557
-        ],
-        [
-          "09:00",
-          1386
-        ],
-        [
-          "10:00",
-          1378
-        ],
-        [
-          "11:00",
-          1407
-        ],
-        [
-          "12:00",
-          1416
-        ],
-        [
-          "13:00",
-          1584
-        ],
-        [
-          "14:00",
-          1555
-        ],
-        [
-          "15:00",
-          1675
-        ],
-        [
-          "16:00",
-          2091
-        ],
-        [
-          "17:00",
-          2002
-        ],
-        [
-          "18:00",
-          1407
-        ],
-        [
-          "19:00",
-          899
-        ],
-        [
-          "20:00",
-          600
-        ],
-        [
-          "21:00",
-          407
-        ],
-        [
-          "22:00",
-          320
-        ],
-        [
-          "23:00",
-          193
+          "402 Hochbergerstrasse 55",
+          68.4
         ]
       ],
-      "name": "2020",
+      "name": "Wochenende",
       "turboThreshold": 0
     }
   ],
@@ -216,7 +90,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -246,9 +121,9 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "alignTicks": false,
-    "renderTo": "container-8984"
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-8990"
   },
   "title": {
     "style": {
@@ -257,7 +132,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73"
+    "text": "Rückgang beim durchschnittlichen Tagesverkehr MIV nach Zählstelle"
   },
   "subtitle": {
     "style": {
@@ -266,52 +141,31 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werktage, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+    "text": "Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "title": {
-        "text": null,
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
         "color": "#000000",
         "fontSize": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      }
+      "text": null
     },
-    {
-      "min": -0.75,
-      "max": 0.75,
-      "tickInterval": 0.25,
-      "tickAmount": 7,
-      "title": {
-        "text": null,
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        }
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      },
-        "style": {
-          "color": "black"
-        }
-      },
-      "opposite": true,
-      "visible": false
+      "format": "{value:,.0f}%"
     }
-  ],
+  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -326,7 +180,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-9"
   },
   "legend": {
     "enabled": true,
@@ -336,22 +190,16 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "itemWidth": 10
     }
   },
   "customFunctions": {
@@ -390,6 +238,6 @@
     }
   },
   "exporting": {
-    "filename": 8984
+    "filename": 8990
   }
 }

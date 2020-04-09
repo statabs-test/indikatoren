@@ -357,15 +357,39 @@
         ],
         [
           "29. Mrz",
-          6182
+          10273
         ],
         [
           "30. Mrz",
-          5090
+          6182
         ],
         [
           "31. Mrz",
+          5090
+        ],
+        [
+          "01. Apr",
           10496
+        ],
+        [
+          "02. Apr",
+          11128
+        ],
+        [
+          "03. Apr",
+          7451
+        ],
+        [
+          "04. Apr",
+          5809
+        ],
+        [
+          "05. Apr",
+          8962
+        ],
+        [
+          "06. Apr",
+          5489
         ]
       ],
       "name": "2019",
@@ -728,15 +752,39 @@
         ],
         [
           "29. Mrz",
-          3719
+          1325
         ],
         [
           "30. Mrz",
-          4521
+          3719
         ],
         [
           "31. Mrz",
+          4521
+        ],
+        [
+          "01. Apr",
           4831
+        ],
+        [
+          "02. Apr",
+          5011
+        ],
+        [
+          "03. Apr",
+          4920
+        ],
+        [
+          "04. Apr",
+          3330
+        ],
+        [
+          "05. Apr",
+          3365
+        ],
+        [
+          "06. Apr",
+          5063
         ]
       ],
       "name": "2020",
@@ -1099,14 +1147,38 @@
         ],
         [
           "29. Mrz",
-          null
+          8868
         ],
         [
           "30. Mrz",
-          null
+          9009
         ],
         [
           "31. Mrz",
+          8714
+        ],
+        [
+          "01. Apr",
+          8061
+        ],
+        [
+          "02. Apr",
+          7874
+        ],
+        [
+          "03. Apr",
+          7775
+        ],
+        [
+          "04. Apr",
+          null
+        ],
+        [
+          "05. Apr",
+          null
+        ],
+        [
+          "06. Apr",
           null
         ]
       ],
@@ -1470,14 +1542,38 @@
         ],
         [
           "29. Mrz",
-          undefined
+          3805
         ],
         [
           "30. Mrz",
-          undefined
+          3899
         ],
         [
           "31. Mrz",
+          3946
+        ],
+        [
+          "01. Apr",
+          3951
+        ],
+        [
+          "02. Apr",
+          4242
+        ],
+        [
+          "03. Apr",
+          4434
+        ],
+        [
+          "04. Apr",
+          undefined
+        ],
+        [
+          "05. Apr",
+          undefined
+        ],
+        [
+          "06. Apr",
           undefined
         ]
       ],
@@ -1494,10 +1590,7 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "formatter": function() {
-        return this.value.replace("25. Feb", "<b>25. Feb")
-        .replace("16. Mrz", "<b>16. Mrz")}
+      }
     },
     "tickLength": 0,
     "tickInterval": 5
@@ -1524,7 +1617,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -1585,9 +1678,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "legend": {
     "enabled": true,

@@ -2,11 +2,11 @@
     return {
   "xAxis": {
       type: "category",
-    "tickInterval": 5,
+    "tickInterval": 5,/*
     labels:{
     "formatter": function() {
         return this.value.replace("25. Feb", "<b>25. Feb")
-        .replace("16. Mrz", "<b>16. Mrz")}}
+        .replace("16. Mrz", "<b>16. Mrz")}}*/
   },
   "yAxis": {
     "min": 0, 
