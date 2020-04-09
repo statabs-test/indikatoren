@@ -144,7 +144,7 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("lte ", "lte<br/>").replace("mien", "mien-<br/>"), 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("lte ", "lte<br/>"), 245 + shiftHoriz, 220 + shiftVert);
 
 					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>")/*"Differenz <br/> 2018 zu 2013 (pp)"*/, 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
