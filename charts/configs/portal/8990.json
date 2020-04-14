@@ -5,32 +5,32 @@
       "visible": true,
       "data": [
         [
-          "670-673 Zoll CH-D (Durchschnitt)",
-          85.4
+          "672 Zoll CH-D, Weilstrasse",
+          96.21
         ],
         [
-          "659 Schlachthofstrasse",
-          78.5
+          "671 Zoll CH-D, Freiburgerstrasse",
+          78.76
         ],
         [
           "656 Elsässerstrasse 146",
-          70.3
-        ],
-        [
-          "409 Grenzacherstrasse 511",
-          60.2
+          70.25
         ],
         [
           "235 A3-A35, Grenze CH-F",
-          55.4
+          55.36
         ],
         [
-          "413 Gundelingerstrasse 107",
-          52.2
+          "413 Gundeldingerstrasse 107",
+          52.24
         ],
         [
           "653 Flughafenstrasse 30",
-          50.5
+          50.51
+        ],
+        [
+          "402 Hochbergerstrasse 55",
+          48.85
         ]
       ],
       "name": "Werktage",
@@ -41,32 +41,32 @@
       "visible": true,
       "data": [
         [
-          "670-673 Zoll CH-D (Durchschnitt)",
-          94.3
+          "672 Zoll CH-D, Weilstrasse",
+          97.02
         ],
         [
-          "659 Schlachthofstrasse",
-          86.4
+          "671 Zoll CH-D, Freiburgerstrasse",
+          91.69
         ],
         [
           "656 Elsässerstrasse 146",
           83.5
         ],
         [
-          "409 Grenzacherstrasse 511",
-          78.6
-        ],
-        [
           "235 A3-A35, Grenze CH-F",
-          87.7
+          87.66
         ],
         [
-          "413 Gundelingerstrasse 107",
-          60.1
+          "413 Gundeldingerstrasse 107",
+          60.11
         ],
         [
           "653 Flughafenstrasse 30",
-          67.3
+          67.28
+        ],
+        [
+          "402 Hochbergerstrasse 55",
+          68.38
         ]
       ],
       "name": "Wochenende",

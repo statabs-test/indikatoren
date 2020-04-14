@@ -5,32 +5,32 @@
       "visible": true,
       "data": [
         [
-          "916 Stückisteg",
-          92.9
-        ],
-        [
           "914 Hiltalingerstrasse",
-          76.7
-        ],
-        [
-          "911 Birskopfsteg",
-          56.3
+          76.67
         ],
         [
           "403 Heuwaage-Viadukt",
-          54
+          53.98
         ],
         [
           "354 Wettsteinbrücke",
-          50.9
+          50.92
         ],
         [
           "905 Leimenstrasse 4",
-          49.6
+          49.56
         ],
         [
           "902 Viaduktstrasse",
-          49.4
+          49.43
+        ],
+        [
+          "913 Burgfelderstrasse",
+          46.75
+        ],
+        [
+          "916 Stückisteg",
+          42.05
         ]
       ],
       "name": "Werktage",
@@ -41,16 +41,8 @@
       "visible": true,
       "data": [
         [
-          "916 Stückisteg",
-          94.4
-        ],
-        [
           "914 Hiltalingerstrasse",
-          89.6
-        ],
-        [
-          "911 Birskopfsteg",
-          79.7
+          89.59
         ],
         [
           "403 Heuwaage-Viadukt",
@@ -58,15 +50,23 @@
         ],
         [
           "354 Wettsteinbrücke",
-          60.1
+          60.11
         ],
         [
           "905 Leimenstrasse 4",
-          63.1
+          63.09
         ],
         [
           "902 Viaduktstrasse",
-          54.9
+          54.86
+        ],
+        [
+          "913 Burgfelderstrasse",
+          71.45
+        ],
+        [
+          "916 Stückisteg",
+          59.49
         ]
       ],
       "name": "Wochenende",
