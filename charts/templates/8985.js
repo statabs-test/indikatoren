@@ -50,8 +50,8 @@
 },
 "series": [
   //{"color": "#68AB2B"}, 
-  {"color": "#007A2F"}, 
-  {"color": "#DC440E"},
+  {"color": "#662673"},
+  {"color": "#008AC3"},
  /* {"color": "#C8C8C8", dashStyle: 'ShortDash', "yAxis":1,
   "tooltip": {
     "pointFormatter": function(){

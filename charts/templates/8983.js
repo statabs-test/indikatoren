@@ -19,10 +19,10 @@
 	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
   },
   "series": [
-    {"color": "#68AB2B"}, 
-	  {"color": "#DC440E"}, 
-  	{"color": "#007A2F"},
-    {"color": "#B00000"},
+    {"color": "#B375AB", "visible": false}, 
+	  {"color": "#71A3B5", "visible": false}, 
+  	{"color": "#662673"},
+    {"color": "#008AC3"},
   ],
   "legend": {
     "enabled": true,
