@@ -32023,11 +32023,11 @@
 		"id": 8983
 	},
 	{
-		"title": "Rückgang beim durchschnittlichen Tagesverkehr MIV nach Zählstelle",
-		"subtitle": "Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"title": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
+		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
 		"kuerzel": "I.11.1.08990",
 		"kuerzelKunde": "",
-		"description": "Rückgang beim durchschnittlichen Tagesverkehr MIV nach Zählstelle",
+		"description": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",
@@ -32063,11 +32063,11 @@
 		"id": 8990
 	},
 	{
-		"title": "Rückgang beim durchschnittlichen Tagesverkehr Velo nach Zählstelle",
-		"subtitle": "Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"title": "Rückgang beim durchschnittlichen Tagesverkehr Velo",
+		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
 		"kuerzel": "I.11.1.08991",
 		"kuerzelKunde": "",
-		"description": "Rückgang beim durchschnittlichen Tagesverkehr Velo nach Zählstelle",
+		"description": "Rückgang beim durchschnittlichen Tagesverkehr Velo",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
 		"kennzahlenset": "",

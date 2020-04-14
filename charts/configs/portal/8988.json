@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#662673",
       "data": [
         [
           "00:00",
@@ -104,7 +104,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#008AC3",
       "data": [
         [
           "00:00",

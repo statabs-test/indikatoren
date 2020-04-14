@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#68AB2B",
+      "color": "#B375AB",
+      "visible": false,
       "data": [
         [
           "01. Jan",
@@ -396,7 +397,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#71A3B5",
+      "visible": false,
       "data": [
         [
           "01. Jan",
@@ -791,7 +793,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#662673",
       "data": [
         [
           "01. Jan",
@@ -1186,7 +1188,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#008AC3",
       "data": [
         [
           "01. Jan",
