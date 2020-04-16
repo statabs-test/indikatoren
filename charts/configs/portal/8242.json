@@ -16,6 +16,10 @@
         [
           "2018",
           483
+        ],
+        [
+          "2019",
+          452
         ]
       ],
       "name": "Ehepaare mit Kindern",
@@ -37,6 +41,10 @@
         [
           "2018",
           202
+        ],
+        [
+          "2019",
+          201
         ]
       ],
       "name": "Ehepaare ohne Kinder",
@@ -58,9 +66,13 @@
         [
           "2018",
           951
+        ],
+        [
+          "2019",
+          890
         ]
       ],
-      "name": "Einelternfamilie",
+      "name": "Einelternfamilien",
       "turboThreshold": 0
     },
     {
@@ -79,9 +91,13 @@
         [
           "2018",
           3974
+        ],
+        [
+          "2019",
+          3860
         ]
       ],
-      "name": "Einzelperson",
+      "name": "Einzelpersonen",
       "turboThreshold": 0
     },
     {
@@ -99,6 +115,10 @@
         ],
         [
           "2018",
+          1
+        ],
+        [
+          "2019",
           1
         ]
       ],

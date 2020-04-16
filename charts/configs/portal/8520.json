@@ -268,6 +268,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
+      "rotation": 0,
       "formatter": function(){
           return Highcharts.numberFormat((this.value),0)+'%';                
       }

@@ -6741,7 +6741,7 @@
           18
         ]
       ],
-      "name": "Anzahl Sozialhilfebezihende"
+      "name": "Anzahl Sozialhilfebezihender"
     },
     {
       "name": "Rhein",
@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -7068,7 +7070,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sozialhilfequote und Sozialhilfebezüger"
+    "text": "Sozialhilfequote und Sozialhilfebeziehende"
   },
   "subtitle": {
     "style": {

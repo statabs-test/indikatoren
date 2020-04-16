@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil 5-17-jährige",
+      "name": "Anteil 5-17-Jährige",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6003,7 +6003,7 @@
           296
         ]
       ],
-      "name": "Anzahl 5-17-jährige"
+      "name": "Anzahl 5-17-Jährige"
     },
     {
       "name": "Rhein",
@@ -6143,6 +6143,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6187,6 +6188,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6338,7 +6340,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kinder mit Angeboten in Gehdistanz, Stadt Basel, nach Wohnviertel, 2019",
+    "text": "Kinder mit Angeboten in Gehdistanz nach Wohnviertel, Stadt Basel, 2019",
     "align": "left"
   },
   "credits": {

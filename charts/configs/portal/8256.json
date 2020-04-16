@@ -97,7 +97,7 @@
           2
         ]
       ],
-      "name": "65 J. u. m.",
+      "name": "65 J. u.m.",
       "turboThreshold": 0
     }
   ],
@@ -204,7 +204,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {

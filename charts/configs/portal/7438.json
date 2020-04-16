@@ -592,6 +592,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 9,
       "tickInterval": 10,
       "opposite": true

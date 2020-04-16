@@ -229,7 +229,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {

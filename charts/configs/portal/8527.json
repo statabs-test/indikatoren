@@ -97,7 +97,7 @@
           2
         ]
       ],
-      "name": "65 J. u. m.",
+      "name": "65 J. u.m.",
       "turboThreshold": 0
     }
   ],
@@ -280,7 +280,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 250
+    "tickInterval": 250,
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {

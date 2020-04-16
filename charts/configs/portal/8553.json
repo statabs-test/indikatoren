@@ -3556,6 +3556,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3600,6 +3601,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3807,7 +3809,7 @@
         "from": 35,
         "to": 42.999,
         "color": "#246370",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E45,0 − 42,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E35,0 − 42,9"
       },
       {
         "from": 43,

@@ -6741,7 +6741,7 @@
           -0.70425
         ]
       ],
-      "name": "Differenz 2019 zu 2010 (pp)"
+      "name": "Differenz 2019 zu 2010"
     },
     {
       "name": "Rhein",
@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -7060,7 +7062,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnbevölkerung nach Geburtsland"
+    "text": "In der Schweiz geborene Personen"
   },
   "subtitle": {
     "style": {

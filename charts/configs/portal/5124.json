@@ -3552,6 +3552,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3591,6 +3592,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3679,6 +3681,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
   },
   "colorAxis": {
+    "min": undefined,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {

@@ -6741,7 +6741,7 @@
           -3.11
         ]
       ],
-      "name": "Differenz 2018 zu 2011 (pp)"
+      "name": "Different 2018 zu 2011 (pp)"
     },
     {
       "name": "Rhein",
@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,

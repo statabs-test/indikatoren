@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2018",
+      "name": "Anteil Haushalte mit PV (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3416,7 +3416,7 @@
           -1.11808816
         ]
       ],
-      "name": "Differenz 2018 zu 2013"
+      "name": "Differenz 2018 zu 2013 (pp)"
     },
     {
       "name": "Rhein",
@@ -3706,7 +3706,7 @@
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("lte ", "lte<br/>").replace("mien", "mien-<br/>"), 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("lte ", "lte<br/>"), 245 + shiftHoriz, 220 + shiftVert);
 
 					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>")/*"Differenz <br/> 2018 zu 2013 (pp)"*/, 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
@@ -3754,7 +3754,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {

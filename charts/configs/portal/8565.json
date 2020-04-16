@@ -3556,6 +3556,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3600,6 +3601,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3767,7 +3769,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-16"
   },
   "colorAxis": {
     "min": 0,
@@ -3808,12 +3810,12 @@
         "from": 53000,
         "to": 58999,
         "color": "#246370",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E60,0 − 64,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E53,0 − 58,9"
       },
       {
         "from": 59000,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E ≥ 65,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E ≥ 59,0"
       }
     ]
   },

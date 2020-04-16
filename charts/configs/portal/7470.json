@@ -1860,6 +1860,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 0.01,
       "title": ""
@@ -1879,6 +1880,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 7,
       "tickInterval": 100,
       "gridLineWidth": 0,
