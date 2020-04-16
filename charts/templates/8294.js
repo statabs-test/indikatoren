@@ -23,33 +23,33 @@
 				fontWeight: 'normal'
 				}
 		},
-         colorAxis: {
-            dataClassColor: 'category',
-        	dataClasses: [{
-               	from: 0,
-                to:39999,
-                color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'> 040 000</span> < 40 000"
-            }, {
-                from: 40000,
-                to: 44999,
-                color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>40 000 − 44 999"
-            }, {
-                from: 45000,
-                to: 49999,
-                 color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45 000 − 49 999"
-            },{
-                from: 50000,
-                to: 54999,
-                 color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>50 000 − 54 999"
-            },{
-                from: 55000,
-                color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'> 040 000</span> ≥ 55 000"
-            }], 
+		colorAxis: {
+			dataClassColor: 'category',
+			dataClasses: [{
+				from: 0,
+				to: 40999,
+				color: '#D3E2E4',
+				name: "<span style='color: rgba(0,0,0,0)'>000,0</span> < 41,0"
+			}, {
+				from: 41000,
+				to: 46999,
+				color: '#A8C3CA',
+				name: "<span style='color: rgba(0,0,0,0)'>0</span>41,0 − 46,9"
+			}, {
+				from: 47000,
+				to: 52999,
+				color: '#689199',
+				name: "<span style='color: rgba(0,0,0,0)'>0</span>47,0 − 52,9"
+			}, {
+				from: 53000,
+				to: 58999,
+				color: '#246370',
+				name: "<span style='color: rgba(0,0,0,0)'>0</span>53,0 − 58,9"
+			}, {
+				from: 59000,
+				color: '#083038',
+				name: "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 59,0"
+			}],
         },
         "data": {
 		    "seriesMapping": [
