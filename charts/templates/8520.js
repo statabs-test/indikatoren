@@ -50,6 +50,7 @@ tooltip: {
 "yAxis": {
   tickInterval: 2,
   "labels": {
+    rotation: 0,
     
       "formatter": function(){
           return Highcharts.numberFormat((this.value),0)+'%';                
