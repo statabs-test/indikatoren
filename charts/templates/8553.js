@@ -44,7 +44,7 @@
                 from: 35.0,
                 to: 42.999,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − 42,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>35,0 − 42,9"
             },{
                 from: 43,
                 color: '#083038',
