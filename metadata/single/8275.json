@@ -1,4 +1,4 @@
-{"title":"Leerwohnungen",
+﻿{"title":"Leerwohnungen",
 "subtitle":"nach Wohnviertel, Basel-Stadt, 2019",
 "kuerzel":"I.09.2.08275",
 "kuerzelKunde":"1-35",
@@ -9,8 +9,8 @@
 "kennzahlenset":"CMS Kennzahlen Soziales",
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2020-02-20T10:32:40.4040",
-"stufe1":"1. Prävention und Bekämpfung von Armut",
-"stufe2":"1.5 Wohnen",
+"stufe1":"Prävention und Bekämpfung von Armut",
+"stufe2":"1.4 Wohnen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
@@ -29,6 +29,6 @@
 "datenInChartIntegriert":false,
 "externalLinks":[""],
 "data-id":8275, 
-"chart-id":6391, 
+"chart-id":8275, 
 "filter":""
 }
