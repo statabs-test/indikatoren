@@ -6936,32 +6936,32 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 41999,
+        "to": 40999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00 000\u003C\u002Fspan\u003E \u003C 42 000"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E \u003C 41,0"
       },
       {
-        "from": 42000,
-        "to": 44999,
+        "from": 41000,
+        "to": 46999,
         "color": "#A8C3CA",
-        "name": "42 000 − 44 999"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E41,0 − 46,9"
       },
       {
-        "from": 45000,
-        "to": 51999,
+        "from": 47000,
+        "to": 52999,
         "color": "#689199",
-        "name": "45 000 − 51 999"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E47,0 − 52,9"
       },
       {
-        "from": 52000,
-        "to": 59999,
+        "from": 53000,
+        "to": 58999,
         "color": "#246370",
-        "name": "52 000 − 59 999"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E53,0 − 58,9"
       },
       {
-        "from": 60000,
+        "from": 59000,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00 000\u003C\u002Fspan\u003E ≥ 60 000"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E000,0\u003C\u002Fspan\u003E ≥ 59,0"
       }
     ]
   },
