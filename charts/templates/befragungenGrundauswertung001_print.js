@@ -94,16 +94,16 @@
             align: "left",
             alignColumns: false,
             symbolRadius: 0,
-            margin: 5,
-            padding: 0,
-            itemDistance: 4,
+            //margin: 0,
+            padding: 1,
+            itemDistance: 40,
             itemMarginBottom: 7,
             itemMarginTop: 0,
             itemStyle: {
                 fontWeight: "normal",
                 fontSize: "10px",
                 color: '#000000',
-                width: 115,
+                //width: 115,
                 textOverflow: "none"
             }
         },
