@@ -15,8 +15,8 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -127,
+			"align": "left",
+			"x": 518,
 			"y": -15,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
@@ -152,16 +152,16 @@
 					var shiftHoriz = 280;
 					var shiftVert = 70;
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 255 + shiftHoriz, 250 + shiftVert);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace("lte ", "lte<br/>"), 525, 325);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
 					//fn.addLegendLabel(chart, 'Abnahme', 382, 289)
 
-					fn.addLegendCircle(chart, 267 + shiftHoriz, 325 + shiftVert, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 320 + shiftHoriz, 314 + shiftVert);
-					fn.addLegendCircle(chart, 267 + shiftHoriz, 345 + shiftVert, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), 320 + shiftHoriz, 335 + shiftVert);
+					fn.addLegendCircle(chart, 535, 377, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 550, 365);
+					fn.addLegendCircle(chart, 535, 402, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), 550, 390);
 					
 					
 					//var shiftDown = 12;

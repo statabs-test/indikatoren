@@ -3,6 +3,39 @@
 	global geojson_wohnviertelEPSG2056 
 	global $
 */
+
+var legendPosition = {
+	blockCloropleth: {
+		x: 518, // Customizable
+		y: -15,  // Customizable
+		title: {
+			y: [320, 302, 285],
+			x: 525, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [750,745], // Customizable
+		y: [377, 402, 427, 452], // Customizable
+		y3C: [382, 412, 442],
+		numbers: {
+			x: 0,
+			y: [365, 390, 420, 445], // Customizable
+			y3C: [370, 400, 430]
+		},
+		title: {
+			x: 0
+		}
+	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 2; i++) {
+	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+};
+
 (function () {
 
 	return {
@@ -14,9 +47,9 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -345,
-			"y": -15,
+			"align": "left",
+			"x": legendPosition.blockCloropleth.x,
+			"y": legendPosition.blockCloropleth.y,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
@@ -135,29 +168,26 @@
 					var minValueInLegend = 1;
 					var maxValueInLegend = 3;
 
-					var shiftHoriz = 280;
-					var shiftVert = 70;
-
 					//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("lien", "lien-<br/>"), 245 + shiftHoriz, 220 + shiftVert);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("lien", "lien-<br/>"), legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[1]);
 
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), 385 + shiftHoriz, 220 + shiftVert);
-					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
-					fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 405 + shiftHoriz, 318 + shiftVert)
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockCloropleth.title.y[1]);
 
-					fn.addLegendCircle(chart, 392 + shiftHoriz, 360 + shiftVert, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 405 + shiftHoriz, 347 + shiftVert);
-					fn.addLegendCircle(chart, 392 + shiftHoriz, 385 + shiftVert, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), 405 + shiftHoriz, 375 + shiftVert);
+					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[0], 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[0]);
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[1], 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[1]);
+					
+					fn.addLegendSquare(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y[2], 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[2]);
+					fn.addLegendSquare(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y[3], 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[3])
 
-					var shiftDown = 12;
 					/*
 										fn.addLegendCircle(chart, 373, 266+shiftDown, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
 										fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255+shiftDown, undefined, false, 'right');

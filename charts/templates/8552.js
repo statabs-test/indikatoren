@@ -3,6 +3,39 @@
 	global geojson_wohnviertelEPSG2056 
 	global $
 */
+
+var legendPosition = {
+	blockCloropleth: {
+		x: 518, // Customizable
+		y: -15,  // Customizable
+		title: {
+			y: [320, 302, 285],
+			x: 525, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [750,745], // Customizable
+		y: [377, 402, 427, 452], // Customizable
+		y3C: [382, 412, 442],
+		numbers: {
+			x: 0,
+			y: [365, 390, 420, 445], // Customizable
+			y3C: [370, 400, 430]
+		},
+		title: {
+			x: 0
+		}
+	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 2; i++) {
+	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+};
+
 (function(){
 
     return {
@@ -14,9 +47,9 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -345,
-			"y": -15,
+			"align": "left",
+			"x": legendPosition.blockCloropleth.x,
+			"y": legendPosition.blockCloropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -152,21 +185,18 @@
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
-					var shiftHoriz = 280;
-					var shiftVert = 70;
-
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245 + shiftHoriz, 220 + shiftVert);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), 385 + shiftHoriz, 220 + shiftVert);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[1]);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockCloropleth.title.y[1]);
 	                
-					fn.addLegendCircle(chart, 392 + shiftHoriz, 315 + shiftVert, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450 + shiftHoriz, 300 + shiftVert, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 392 + shiftHoriz, 337 + shiftVert, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 422 + shiftHoriz, 325 + shiftVert, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 392 + shiftHoriz, 358 + shiftVert, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 450 + shiftHoriz, 350 + shiftVert, undefined, false, 'right');
+					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[1], undefined, false, 'right');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[2], undefined, false, 'right');
 				
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');

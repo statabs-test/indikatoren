@@ -1,3 +1,41 @@
+/*  
+	global Highcharts
+	global geojson_wohnviertelEPSG2056 
+	global $
+*/
+
+var legendPosition = {
+	blockCloropleth: {
+		x: 518, // Customizable
+		y: -15,  // Customizable
+		title: {
+			y: [320, 302, 285],
+			x: 525, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [750,745], // Customizable
+		y: [377, 402, 427, 452], // Customizable
+		y3C: [382, 412, 442],
+		numbers: {
+			x: 0,
+			y: [365, 390, 420, 445], // Customizable
+			y3C: [370, 400, 430]
+		},
+		title: {
+			x: 0
+		}
+	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 2; i++) {
+	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+};
+
 (function () {
 	return {
 		"data": {
@@ -96,11 +134,9 @@
 				style: { 'fontWeight': ' bold' }
 			},
 			layout: "vertical",
-			align: "right",
-			//x: -118,
-			//y: -20,
-			x: -323,
-			y: -50,
+			"align": "left",
+			"x": legendPosition.blockCloropleth.x,
+			"y": legendPosition.blockCloropleth.y,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
@@ -156,19 +192,19 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < \u00A0\u00A0 300",
+								name: "<span style='color: rgba(0,0,0,0)'>000</span> < <span style='color: rgba(0,0,0,0)'>0</span> 300",
 								from: 0,
 								to: 299,
 								diameter: 5
 							},
 							{
-								name: ' 300 − \u00A0\u00A0 999',
+								name: "300 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
 								from: 300,
 								to: 999,
 								diameter: 10
 							},
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  1 000",
+								name: "<span style='color: rgba(0,0,0,0)'>000</span> ≥  1 000",
 								from: 1000,
 								to: 2000,
 								diameter: 20
@@ -202,15 +238,15 @@
 					//Add manually drawn legend
 					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
-					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>') + ' (%)', 555, 280,);
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), 700, 280);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>') + ' (%)', legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), legendPosition.blockSymbol.title.x, legendPosition.blockCloropleth.title.y[1]);
 
-					fn.addLegendCircle(chart, 715, 280 + 65 + 0, 0.5 * pieSizeCatConfig[0].diameter, '#7F5F1A');
-					fn.addLegendCircle(chart, 715, 280 + 65 + 19, 0.5 * pieSizeCatConfig[1].diameter, '#7F5F1A');
-					fn.addLegendCircle(chart, 715, 280 + 65 + 44, 0.5 * pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 700+30+29, 280 + 55 + 0, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 700+30, 280 + 55 + 19, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 700+30+30, 280 + 55 + 44, undefined, false, 'right');
+					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[1], undefined, false, 'right');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[2], undefined, false, 'right');
 
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
