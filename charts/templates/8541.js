@@ -12,10 +12,8 @@
         "xAxis": {
             type: "category",
         },
-        "legend": {
-            
-             "itemStyle": {
-                "width": 150,},
-            }
+        legend: {
+            itemMarginBottom: 12,
+        },
     }
 }());
