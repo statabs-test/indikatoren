@@ -1,0 +1,890 @@
+{
+  "series": [
+    {
+      "color": "#8b2223",
+      "data": [
+        [
+          null,
+          219
+        ],
+        [
+          null,
+          228
+        ],
+        [
+          null,
+          237
+        ],
+        [
+          null,
+          59
+        ],
+        [
+          null,
+          40
+        ],
+        [
+          null,
+          31
+        ],
+        [
+          null,
+          32
+        ],
+        [
+          null,
+          25
+        ],
+        [
+          null,
+          28
+        ],
+        [
+          null,
+          21
+        ],
+        [
+          null,
+          22
+        ],
+        [
+          null,
+          11
+        ],
+        [
+          null,
+          25
+        ],
+        [
+          null,
+          19
+        ],
+        [
+          null,
+          27
+        ],
+        [
+          null,
+          6
+        ],
+        [
+          null,
+          12
+        ],
+        [
+          null,
+          8
+        ],
+        [
+          null,
+          8
+        ],
+        [
+          null,
+          2
+        ],
+        [
+          null,
+          6
+        ],
+        [
+          null,
+          5
+        ],
+        [
+          null,
+          5
+        ],
+        [
+          null,
+          12
+        ],
+        [
+          null,
+          13
+        ],
+        [
+          null,
+          15
+        ],
+        [
+          null,
+          47
+        ],
+        [
+          null,
+          37
+        ],
+        [
+          null,
+          23
+        ],
+        [
+          null,
+          24
+        ],
+        [
+          null,
+          13
+        ],
+        [
+          null,
+          9
+        ],
+        [
+          null,
+          7
+        ],
+        [
+          null,
+          7
+        ],
+        [
+          null,
+          18
+        ],
+        [
+          null,
+          62
+        ],
+        [
+          null,
+          312
+        ],
+        [
+          null,
+          445
+        ],
+        [
+          null,
+          1033
+        ],
+        [
+          null,
+          1055
+        ],
+        [
+          null,
+          1189
+        ],
+        [
+          null,
+          1018
+        ],
+        [
+          null,
+          1087
+        ],
+        [
+          null,
+          1075
+        ],
+        [
+          null,
+          1201
+        ],
+        [
+          null,
+          1677
+        ],
+        [
+          null,
+          1549
+        ],
+        [
+          null,
+          1374
+        ],
+        [
+          null,
+          1297
+        ],
+        [
+          null,
+          1353
+        ],
+        [
+          null,
+          1376
+        ],
+        [
+          null,
+          1472
+        ],
+        [
+          null,
+          761
+        ],
+        [
+          null,
+          1023
+        ],
+        [
+          null,
+          881
+        ],
+        [
+          null,
+          840
+        ],
+        [
+          null,
+          717
+        ],
+        [
+          null,
+          688
+        ],
+        [
+          null,
+          704
+        ],
+        [
+          null,
+          260
+        ],
+        [
+          null,
+          249
+        ],
+        [
+          null,
+          290
+        ],
+        [
+          null,
+          265
+        ],
+        [
+          null,
+          217
+        ],
+        [
+          null,
+          158
+        ],
+        [
+          null,
+          149
+        ],
+        [
+          null,
+          112
+        ],
+        [
+          null,
+          109
+        ],
+        [
+          null,
+          271
+        ],
+        [
+          null,
+          297
+        ],
+        [
+          null,
+          328
+        ],
+        [
+          null,
+          302
+        ],
+        [
+          null,
+          116
+        ],
+        [
+          null,
+          136
+        ],
+        [
+          null,
+          193
+        ],
+        [
+          null,
+          181
+        ],
+        [
+          null,
+          314
+        ],
+        [
+          null,
+          385
+        ],
+        [
+          null,
+          327
+        ],
+        [
+          null,
+          64
+        ],
+        [
+          null,
+          31
+        ],
+        [
+          null,
+          55
+        ],
+        [
+          null,
+          116
+        ],
+        [
+          null,
+          191
+        ],
+        [
+          null,
+          227
+        ],
+        [
+          null,
+          205
+        ],
+        [
+          null,
+          203
+        ],
+        [
+          null,
+          153
+        ],
+        [
+          null,
+          144
+        ],
+        [
+          null,
+          140
+        ],
+        [
+          null,
+          121
+        ],
+        [
+          null,
+          103
+        ],
+        [
+          null,
+          13
+        ],
+        [
+          null,
+          84
+        ],
+        [
+          null,
+          96
+        ],
+        [
+          null,
+          101
+        ],
+        [
+          null,
+          112
+        ],
+        [
+          null,
+          120
+        ],
+        [
+          null,
+          113
+        ],
+        [
+          null,
+          54
+        ],
+        [
+          null,
+          34
+        ],
+        [
+          null,
+          43
+        ],
+        [
+          null,
+          29
+        ],
+        [
+          null,
+          32
+        ],
+        [
+          null,
+          26
+        ],
+        [
+          null,
+          30
+        ],
+        [
+          null,
+          26
+        ],
+        [
+          null,
+          27
+        ],
+        [
+          null,
+          26
+        ],
+        [
+          null,
+          24
+        ],
+        [
+          null,
+          19
+        ],
+        [
+          null,
+          16
+        ],
+        [
+          null,
+          16
+        ],
+        [
+          null,
+          16
+        ],
+        [
+          null,
+          34
+        ],
+        [
+          null,
+          65
+        ],
+        [
+          null,
+          65
+        ],
+        [
+          null,
+          37
+        ],
+        [
+          null,
+          18
+        ],
+        [
+          null,
+          15
+        ],
+        [
+          null,
+          24
+        ],
+        [
+          null,
+          22
+        ],
+        [
+          null,
+          24
+        ],
+        [
+          null,
+          32
+        ],
+        [
+          null,
+          42
+        ],
+        [
+          null,
+          42
+        ],
+        [
+          null,
+          73
+        ],
+        [
+          null,
+          61
+        ],
+        [
+          null,
+          57
+        ],
+        [
+          null,
+          26
+        ],
+        [
+          null,
+          16
+        ],
+        [
+          null,
+          21
+        ],
+        [
+          null,
+          60
+        ],
+        [
+          null,
+          73
+        ],
+        [
+          null,
+          69
+        ],
+        [
+          null,
+          47
+        ],
+        [
+          null,
+          41
+        ],
+        [
+          null,
+          45
+        ],
+        [
+          null,
+          48
+        ],
+        [
+          null,
+          38
+        ],
+        [
+          null,
+          32
+        ],
+        [
+          null,
+          6
+        ],
+        [
+          null,
+          2
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          5
+        ],
+        [
+          null,
+          35
+        ],
+        [
+          null,
+          31
+        ],
+        [
+          null,
+          31
+        ],
+        [
+          null,
+          18
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          22
+        ],
+        [
+          null,
+          22
+        ],
+        [
+          null,
+          24
+        ],
+        [
+          null,
+          66
+        ],
+        [
+          null,
+          66
+        ],
+        [
+          null,
+          127
+        ],
+        [
+          null,
+          117
+        ],
+        [
+          null,
+          62
+        ],
+        [
+          null,
+          13
+        ],
+        [
+          null,
+          32
+        ],
+        [
+          null,
+          32
+        ],
+        [
+          null,
+          22
+        ],
+        [
+          null,
+          15
+        ],
+        [
+          null,
+          10
+        ],
+        [
+          null,
+          16
+        ],
+        [
+          null,
+          18
+        ],
+        [
+          null,
+          18
+        ],
+        [
+          null,
+          9
+        ],
+        [
+          null,
+          12
+        ],
+        [
+          null,
+          31
+        ],
+        [
+          null,
+          75138
+        ],
+        [
+          null,
+          82384
+        ]
+      ],
+      "name": "Kurzarbeit, beantragt"
+    }
+  ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "tickInterval": 31536000000,
+    "minTickInterval": 31536000000,
+    "ordinal": false
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-8992"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Von Kurzarbeit betroffene Arbeitnehmer"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "showLastLabel": true,
+    "endOnTick": true,
+    "tickAmount": 6,
+    "opposite": false
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-23"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "rangeSelector": {
+    "buttons": [
+      {
+        "count": 10,
+        "type": "year",
+        "text": "10 J"
+      },
+      {
+        "count": 20,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 50,
+        "type": "year",
+        "text": "50 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
+      }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 1,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
+  },
+  "exporting": {
+    "filename": 8992
+  }
+}

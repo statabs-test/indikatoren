@@ -54,6 +54,7 @@
                       text: 'Alle J'
     	            }
                 ],
+                enabled: true,
             buttonSpacing: 15,                
             inputEnabled: false,
             selected: 2, 
