@@ -613,6 +613,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 5,
       "title": ""
     },

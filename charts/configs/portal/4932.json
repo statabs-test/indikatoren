@@ -269,6 +269,7 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
+      "width": undefined,
       "textOverflow": null
     },
     "symbolRadius": 0,

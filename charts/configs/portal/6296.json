@@ -177,7 +177,8 @@
       },
       "format": "{value}%"
     },
-    "tickAmount": 5
+    "tickAmount": 5,
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {

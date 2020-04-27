@@ -228,6 +228,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": "",
       "tickAmount": 5
     },
@@ -247,6 +248,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "tickAmount": 5,
       "opposite": true
