@@ -3,6 +3,39 @@
 	global geojson_wohnviertelEPSG2056 
 	global $
 */
+
+var legendPosition = {
+	blockCloropleth: {
+		x: 230, // Customizable
+		y: -15,  // Customizable
+		title: {
+			y: [232, 217, 202],
+			x: 245, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [378,373], // Customizable
+		y: [277, 297, 317, 337], // Customizable
+		y3C: [382, 412, 442],
+		numbers: {
+			x: 0,
+			y: [267, 287, 310, 330], // Customizable
+			y3C: [370, 400, 430]
+		},
+		title: {
+			x: 0
+		}
+	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 3; i++) {
+	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+};
+
 (function(){
 
     return {
@@ -14,9 +47,9 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -120+120,//-140,
-			"y": -10,
+			"align": "left",
+			"x": legendPosition.blockCloropleth.x,
+			"y": legendPosition.blockCloropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -156,7 +189,7 @@
 	                //fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355-10, 212+15, 110+20, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-	                fn.addLegendTitle(chart, choroplethSeries.name.replace("ung ", "ung<br/>"), 355-10, 210+20);
+	                fn.addLegendTitle(chart, choroplethSeries.name.replace("ung ", "ung<br/>"), legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[2]);
 	                
 	               	/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');

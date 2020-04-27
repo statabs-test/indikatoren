@@ -32,7 +32,7 @@ legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
 
 legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
 var i;
-for (i = 0; i < 2; i++) {
+for (i = 0; i < 3; i++) {
 	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
 };
 

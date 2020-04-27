@@ -15,8 +15,8 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -127,
+			"align": "left",
+			"x": 230,
 			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -146,16 +146,16 @@
 					
 					//fn.addLegendTitle(chart, "In der Schweiz <br/> geborenen <br/> Personen (%)", 245, 210);
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>").replace(" ", "<br/>"), 255, 210+50);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace("lte ", "lte<br/>"), 260, 260);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
 					//fn.addLegendLabel(chart, 'Abnahme', 382, 289)
 
-					fn.addLegendCircle(chart, 267, 325, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 282, 314);
-	                fn.addLegendCircle(chart, 267, 345, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 282, 335);
+					fn.addLegendCircle(chart, 270, 310, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 285, 300);
+	                fn.addLegendCircle(chart, 270, 335, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#B00000');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 285, 325);
 
 					//var shiftDown = 12;
 
