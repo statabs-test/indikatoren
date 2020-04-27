@@ -1337,7 +1337,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2018 und Veränderung seit 1999",
+		"subtitle": "Basel-Stadt, Stand 2019 und Veränderung seit 2000",
 		"kuerzel": "I.01.1.6398",
 		"kuerzelKunde": "A1-3",
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -1347,26 +1347,23 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T11:26:18.1818",
+		"aktualisierungsdatum": "2019-11-18T14:58:19.1919",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥47%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1999 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
+		"lesehilfe": "Ende 2019 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2000 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "01_00_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"6674",
-			"7815"
+			"6674"
 		],
-		"renderLink": [
-			"7815"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -3814,7 +3811,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2008",
+		"subtitle": "Basel-Stadt, 2009",
 		"kuerzel": "I.01.7.6493",
 		"kuerzelKunde": "D7-1",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -3830,16 +3827,15 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (25,8%) und Deutsche (17,7%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (29,7%) sowie bei den Mittel- und Südamerikanern (28,0%). 93,2% der Türken, 87,0% der Personen aus arabischen Ländern und 76,1% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen Italiener, Personen aus der Ländergruppe «EU-17&nbsp;+&nbsp;EFTA» sowie Mittel- und Südamerikaner auf.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2009 Schweizer (25,1%) und Deutsche (15,9%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (27,5%) sowie bei den Mittel- und Südamerikanern (26,2%). 99,8% der Türken, 98,7% der Personen aus arabischen Ländern und 93,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zueghörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_020",
+		"orderKey": "04_00_00_00_00_701",
 		"parentId": null,
 		"children": [
-			"6733",
-			"7874"
+			"6733"
 		],
 		"renderLink": [],
 		"quellenangabe": [

@@ -457,7 +457,7 @@ var indikatorensetData = [
 	{
 		"title": "Bedrohungen und Angriffe",
 		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-		"kuerzel": "I.50.1.04853",
+		"kuerzel": "I.50.1.4853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
 		"thema": "50 Befragungen",
@@ -467,26 +467,33 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T17:16:52.5252",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
-		"stufe2": "1.2 Vertrauen in Mitmenschen",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"orderKey": "01_02_00_00_00_000",
+		"lesehilfe": "2019 geben 5,4% der Befragten an, im Verlaufe des vergangenen Jahrs angegriffen worden zu sein. 2015 waren es deren 6,2%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_02_00_00_00_022",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8392"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4853,
-		"darstellungsart": "Grafik"
+		"data-id": 4853,
+		"chart-id": 4853,
+		"filter": "",
+		"id": 4853
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -533,7 +540,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung des Ausländeranteils",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
-		"kuerzel": "I.50.1.04855",
+		"kuerzel": "I.50.1.4855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
 		"thema": "50 Befragungen",
@@ -542,27 +549,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 waren 53,1% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2015 auf 46,7% reduziert.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"orderKey": "01_03_00_00_00_000",
+		"lesehilfe": "2015 waren 46,7% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2019 auf 37,6% reduziert.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_03_00_00_00_032",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8394"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4855,
-		"darstellungsart": "Grafik"
+		"data-id": 4855,
+		"chart-id": 4855,
+		"filter": "",
+		"id": 4855
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
