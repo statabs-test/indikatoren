@@ -1,3 +1,4 @@
+
 (function(H) {
   H.wrap(H.RangeSelector.prototype, 'clickButton', function(proceed, i, redraw) {
     var rangeSelector = this,
@@ -232,7 +233,7 @@
     inputDateFormat: '%Y',
     inputEditDateFormat: '%Y'
   }, 
-
-  
 }
 }());
+
+
