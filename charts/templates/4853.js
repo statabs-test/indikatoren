@@ -1,10 +1,10 @@
 (function(){
     return {
     series: [
-      { "color": "#71A3B5",index: 0, legendIndex: 3 }, // dunkelgrün
-      { "color": "#FABD24",index: 1, legendIndex: 2 }, // grün
-      { "color": "#C8C8C8",index: 2, legendIndex: 1 }, // grau
-      { "color": "#6F6F6F",index: 3, legendIndex: 0 }, // grau
+      { "color": "#71A3B5"}, // dunkelgrün
+      { "color": "#FABD24"}, // grün
+      { "color": "#C8C8C8"}, // grau
+      { "color": "#6F6F6F"}, // grau
     ],
     xAxis: {
         type: "category"
@@ -13,7 +13,7 @@
         reversedStacks: false,
     },
     legend: {
-        reversed: true,
+        reversed: false,
         "layout": "horizontal",
         "verticalAlign": "top",
         "itemMarginBottom": 4,

@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#71A3B5",
+      "index": 0,
+      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -33,6 +35,8 @@
     },
     {
       "color": "#FABD24",
+      "index": 1,
+      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -64,6 +68,8 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 2,
+      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -95,6 +101,8 @@
     },
     {
       "color": "#6F6F6F",
+      "index": 3,
+      "legendIndex": 0,
       "data": [
         [
           "2003",
@@ -270,10 +278,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-2-17"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",

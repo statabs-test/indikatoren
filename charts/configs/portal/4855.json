@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#256370",
+      "color": "#007A2F",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 5,
       "data": [
         [
           "2005",
@@ -30,9 +30,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
+      "color": "#68AB2B",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 4,
       "data": [
         [
           "2005",
@@ -59,9 +59,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#FABD24",
+      "index": 2,
+      "legendIndex": 3,
       "data": [
         [
           "2005",
@@ -88,9 +88,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 5,
-      "legendIndex": 5,
+      "color": "#B00000",
+      "index": 3,
+      "legendIndex": 2,
       "data": [
         [
           "2005",
@@ -118,8 +118,8 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 4,
+      "legendIndex": 1,
       "data": [
         [
           "2005",
@@ -143,6 +143,35 @@
         ]
       ],
       "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2019",
+          75
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -268,7 +297,8 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -290,19 +320,20 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung."
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": true
   },
   "exporting": {
     "filename": 4855

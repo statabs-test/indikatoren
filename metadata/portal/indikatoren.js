@@ -4019,8 +4019,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
-		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.04720",
+		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.4720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
 		"thema": "50 Befragungen",
@@ -4030,27 +4030,34 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-08T11:43:28.2828",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
+		"lesehilfe": "74,4% der befragten Personen leben 2019 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_000",
+		"orderKey": "02_01_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8383"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4720,
-		"darstellungsart": "Grafik"
+		"data-id": 4720,
+		"chart-id": 4720,
+		"filter": "",
+		"id": 4720
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
