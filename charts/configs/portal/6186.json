@@ -22,6 +22,10 @@
         [
           "2015",
           469
+        ],
+        [
+          "2019",
+          437
         ]
       ],
       "name": "Sehr positiv",
@@ -49,6 +53,10 @@
         [
           "2015",
           642
+        ],
+        [
+          "2019",
+          942
         ]
       ],
       "name": "Eher positiv",
@@ -76,6 +84,10 @@
         [
           "2015",
           133
+        ],
+        [
+          "2019",
+          193
         ]
       ],
       "name": "Eher negativ",
@@ -103,6 +115,10 @@
         [
           "2015",
           47
+        ],
+        [
+          "2019",
+          66
         ]
       ],
       "name": "Sehr negativ",
@@ -125,18 +141,50 @@
         ],
         [
           "2011",
-          174
+          165
         ],
         [
           "2015",
-          215
+          214
+        ],
+        [
+          "2019",
+          364
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F"
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          9
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          106
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -223,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Denken Sie an Ihren letzten Kontakt mit der kantonalen Verwaltung.Wie ist dieser Kontakt verlaufen?», Basel-Stadt, 2019"
+    "text": "«Denken Sie an Ihren letzten Kontakt mit der kantonalen Verwaltung. Wie ist dieser Kontakt verlaufen?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {

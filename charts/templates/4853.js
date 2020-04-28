@@ -1,9 +1,9 @@
 (function(){
     return {
     series: [
-      { "color": "#71A3B5"}, // dunkelgrün
-      { "color": "#FABD24"}, // grün
-      { "color": "#C8C8C8"}, // grau
+      { "color": "#71A3B5"}, // blau
+      { "color": "#FABD24"}, // gelb
+      { "color": "#C8C8C8"}, // hellgrau
       { "color": "#6F6F6F"}, // grau
     ],
     xAxis: {
