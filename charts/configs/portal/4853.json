@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#71A3B5",
-      "index": 0,
-      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -35,8 +33,6 @@
     },
     {
       "color": "#FABD24",
-      "index": 1,
-      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -68,8 +64,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -101,8 +95,6 @@
     },
     {
       "color": "#6F6F6F",
-      "index": 3,
-      "legendIndex": 0,
       "data": [
         [
           "2003",
@@ -291,7 +283,7 @@
     "labelFormatter": function(){
             return this.name.replace("/", " /<br/>");
         },
-    "reversed": true
+    "reversed": false
   },
   "exporting": {
     "filename": 4853

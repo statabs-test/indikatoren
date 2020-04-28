@@ -4,7 +4,7 @@
       { "color": "#007A2F"}, // dunkelgrün
       { "color": "#68AB2B"}, // grün
       { "color": "#FABD24"}, // orange
-      { "color": "#B00000"}, // rot
+      { "color": "#DC440E"}, // rot
       { "color": "#C8C8C8"}, // hellgrau
       { "color": "#6F6F6F"}, // grau
     ],

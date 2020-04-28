@@ -345,7 +345,7 @@
     "labelFormatter": function(){
             return this.name.replace("/", " /<br/>");
         },
-    "reversed": true
+    "reversed": false
   },
   "exporting": {
     "filename": 4720
