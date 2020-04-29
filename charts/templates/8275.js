@@ -5,7 +5,7 @@
 */
 
 var legendPosition = {
-	blockCloropleth: {
+	blockChoropleth: {
 		x: 230, // Customizable
 		y: -15,  // Customizable
 		title: {
@@ -33,7 +33,7 @@ legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 90;
 legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
 var i;
 for (i = 0; i < 3; i++) {
-	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
 };
 
 (function(){
@@ -48,8 +48,8 @@ for (i = 0; i < 3; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockCloropleth.x,
-			"y": legendPosition.blockCloropleth.y,
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 		},
@@ -186,8 +186,8 @@ for (i = 0; i < 3; i++) {
 	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
 
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace("ngs", "ngs-<br/>"), legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[1]);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockCloropleth.title.y[1]);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace("ngs", "ngs-<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 	                
 	               	fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#FABD24');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');

@@ -5,11 +5,11 @@
 */
 
 var legendPosition = {
-	blockCloropleth: {
+	blockChoropleth: {
 		x: 230, // Customizable
 		y: -15,  // Customizable
 		title: {
-			y: [232, 217, 202],
+			y: [247, 232, 217],
 			x: 245, // Customizable
 		}
 	},
@@ -18,22 +18,14 @@ var legendPosition = {
 		y: [277, 297, 317, 337], // Customizable
 		y3C: [382, 412, 442],
 		numbers: {
-			x: 0,
+			x: 393,
 			y: [267, 287, 310, 330], // Customizable
 			y3C: [370, 400, 430]
 		},
 		title: {
-			x: 0
+			x: 368
 		}
 	}
-};
-
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
-
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
-var i;
-for (i = 0; i < 3; i++) {
-	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
 };
 
 (function(){
@@ -48,8 +40,8 @@ for (i = 0; i < 3; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockCloropleth.x,
-			"y": legendPosition.blockCloropleth.y,
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -174,9 +166,9 @@ for (i = 0; i < 3; i++) {
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[2]);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[2]);
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockCloropleth.title.y[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
