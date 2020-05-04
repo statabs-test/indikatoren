@@ -63,8 +63,8 @@ console.log(newMin, newMax);
           //if (H.isNumber(ctx.newMax)) {
           //  newMax = ctx.newMax;
           //}
-
-          newMin = dataMin;
+          var rangeSelector = this,
+          newMin = rangeSelector.buttonOptions[i].dateMin;
           newMax = newMin + range;
           
         }
@@ -72,8 +72,8 @@ console.log(newMin, newMax);
       } else if (range) {
         //newMin = Math.max(newMax - range, dataMin);
         //newMax = Math.min(newMin + range, dataMax);
-
-        newMin = dataMin;
+        var rangeSelector = this,
+        newMin = rangeSelector.buttonOptions[i].dateMin;
         newMax = newMin + range;
 
       } else if (type === 'ytd') {
@@ -265,8 +265,38 @@ console.log(newMin, newMax);
           });
       }
     }, */
+/*
+    rangeSelector: {
+      enabled: true,
+      buttonTheme: {
+        width: null
+      },
+      buttons:
+        [
+          {
+            count: 4,
+            dateMin: 1262300400000,
+            type: 'year',
+            text: 'ohne 2020',
+          },
+          {
 
+            type: 'all',
+            text: 'Alle Jahre'
+          }
+
+
+        ],
+      buttonSpacing: 40,
+      enabled: true,
+      inputEnabled: false,
+      selected: 1,
+      inputDateFormat: '%Y',
+      inputEditDateFormat: '%Y'
+
+    },
   }
+*/
 }());
 
 
