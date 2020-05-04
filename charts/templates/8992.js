@@ -1,6 +1,8 @@
 (function (H) {
   H.wrap(H.RangeSelector.prototype, 'clickButton', function (proceed, i, redraw) {
-    if (typeof this.chart.options.myVari !='undefined' && this.chart.options.myVari.anchor == 'left') {
+
+    if (typeof this.chart.options.myVari != 'undefined' && this.chart.options.myVari.anchor == 'left') {
+
       var rangeSelector = this,
         chart = rangeSelector.chart,
         rangeOptions = rangeSelector.buttonOptions[i],
@@ -19,7 +21,15 @@
         ctx,
         ytdExtremes,
         dataGrouping = rangeOptions.dataGrouping;
-        console.log(this.chart.options.rangeSelector.buttons);
+
+console.log(newMin, newMax, dataMin, dataMax);
+
+        newMin = rangeSelector.buttonOptions[i].dateMin;
+        newMax = rangeSelector.buttonOptions[i].dateMax;
+
+console.log(newMin, newMax);
+
+
       if (dataMin === null || dataMax === null) { // chart has no data, base series is removeddebugger;
         return;
       }
@@ -34,7 +44,7 @@
           chart: this.chart
         }, dataGrouping, false);
       }
-
+/*
       // Apply range
       if (type === 'month' || type === 'year') {
         if (!baseAxis) {
@@ -56,6 +66,7 @@
 
           newMin = dataMin;
           newMax = newMin + range;
+          
         }
         // Fixed times like minutes, hours, days
       } else if (range) {
@@ -100,7 +111,9 @@
         newMin = dataMin;
         newMax = dataMax;
       }
+*/
       rangeSelector.setSelected(i);
+
 
       // Update the chart
       if (!baseAxis) {
@@ -115,7 +128,7 @@
           baseXAxisOptions.range = rangeSetting;
           baseXAxisOptions.min = minSetting;
         });
-      } 
+      }
       else {
         // Existing axis object. Set extremes after render time.
         baseAxis.setExtremes(
@@ -139,10 +152,51 @@
 
 (function () {
   return {
-  myVari: {
+    myVari: {
       anchor: 'left',
     },
 
+    rangeSelector: {
+      enabled: true,
+      buttonTheme: {
+        width: null
+      },
+      buttons:
+        [
+          {
+           //count: 14,
+            type: 'year',
+            text: 'vor 2020',
+            //dateMin:Date.UTC(2010,0),
+            dateMax:Date.UTC(2019,12)
+          },
+          {
+            type: 'year',
+            text: 'auswahl',
+            dateMin:Date.UTC(2015,0),
+            dateMax:Date.UTC(2021,12)
+          },
+          {
+            type: 'year',
+            text: '2020',
+            dateMin:Date.UTC(2020,0),
+            //dateMax:Date.UTC(2020,12)
+          },
+          {
+            type: 'all',
+            text: 'Alle Jahre',
+          }
+
+
+        ],
+      buttonSpacing: 40,
+      enabled: true,
+      inputEnabled: false,
+      selected: 3,
+      inputDateFormat: '%Y',
+      inputEditDateFormat: '%Y'
+
+    },
     "yAxis": {
       showLastLabel: true,
       endOnTick: true,
@@ -201,9 +255,6 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
     },
 
     /*data: {
@@ -215,34 +266,6 @@
       }
     }, */
 
-    rangeSelector: {
-      enabled: true,
-      buttonTheme: {
-        width: null
-      },
-      buttons:
-        [
-          {
-            count: 14,
-            type: 'year',
-            text: 'ohne 2020',
-          },
-          {
-
-            type: 'all',
-            text: 'Alle Jahre'
-          }
-
-
-        ],
-      buttonSpacing: 40,
-      enabled: true,
-      inputEnabled: false,
-      selected: 1,
-      inputDateFormat: '%Y',
-      inputEditDateFormat: '%Y'
-
-    },
   }
 }());
 
