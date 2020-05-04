@@ -2224,11 +2224,22 @@
   "rangeSelector": {
     "verticalAlign": "bottom",
     "buttonPosition": {},
+    "enabled": true,
     "buttonTheme": {
       "width": null
     },
+    "buttons": [
+      {
+        "count": 14,
+        "type": "year",
+        "text": "ohne 2020"
+      },
+      {
+        "type": "all",
+        "text": "Alle Jahre"
+      }
+    ],
     "buttonSpacing": 40,
-    "enabled": false,
     "inputEnabled": false,
     "selected": 1,
     "inputDateFormat": "%Y",
@@ -2256,5 +2267,8 @@
       "dateFormat": "%d.%m.%Y"
     },
     "filename": 8992
+  },
+  "myVari": {
+    "anchor": "left"
   }
 }
