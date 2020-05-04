@@ -49,7 +49,7 @@
     "chart": {
       "type": "column",
       "inverted": true,
-      marginRight: 20
+      marginRight: 25
       //"spacingTop": 100
     }
   }
