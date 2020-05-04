@@ -16131,7 +16131,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2018 rund 3 700 Personen im obersten Management.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
