@@ -53,16 +53,16 @@
           //if (H.isNumber(ctx.newMax)) {
           //  newMax = ctx.newMax;
           //}
-
-          newMin = dataMin;
+          var rangeSelector = this,
+          newMin = rangeSelector.buttonOptions[i].dateMin;
           newMax = newMin + range;
         }
         // Fixed times like minutes, hours, days
       } else if (range) {
         //newMin = Math.max(newMax - range, dataMin);
         //newMax = Math.min(newMin + range, dataMax);
-
-        newMin = dataMin;
+        var rangeSelector = this,
+        newMin = rangeSelector.buttonOptions[i].dateMin;
         newMax = newMin + range;
 
       } else if (type === 'ytd') {
@@ -223,7 +223,8 @@
       buttons:
         [
           {
-            count: 14,
+            count: 4,
+            dateMin: 1262300400000,
             type: 'year',
             text: 'ohne 2020',
           },
