@@ -1,9 +1,9 @@
 (function (H) {
   H.wrap(H.RangeSelector.prototype, 'clickButton', function (proceed, i, redraw) {
 
-    if (typeof this.chart.options.myVari != 'undefined' && this.chart.options.myVari.anchor == 'left') {
-
-      var rangeSelector = this,
+   // if (typeof this.chart.options.myVari != 'undefined' && this.chart.options.myVari.anchor == 'left') {
+   if (typeof this.chart.rangeSelector.buttonOptions[i].dateMin != 'undefined' || typeof this.chart.rangeSelector.buttonOptions[i].dateMax != 'undefined') {   
+   var rangeSelector = this,
         chart = rangeSelector.chart,
         rangeOptions = rangeSelector.buttonOptions[i],
         baseAxis = chart.xAxis[0],
@@ -152,9 +152,9 @@ console.log(newMin, newMax);
 
 (function () {
   return {
-    myVari: {
+    /*myVari: {
       anchor: 'left',
-    },
+    },*/
 
     rangeSelector: {
       enabled: true,
@@ -168,19 +168,13 @@ console.log(newMin, newMax);
             type: 'year',
             text: 'vor 2020',
             //dateMin:Date.UTC(2010,0),
-            dateMax:Date.UTC(2019,12)
+            dateMax: Date.UTC(2019,12)
           },
           {
             type: 'year',
-            text: 'auswahl',
-            dateMin:Date.UTC(2015,0),
-            dateMax:Date.UTC(2021,12)
-          },
-          {
-            type: 'year',
-            text: '2020',
-            dateMin:Date.UTC(2020,0),
-            //dateMax:Date.UTC(2020,12)
+            text: 'ab 2020',
+            dateMin: Date.UTC(2020,1),
+           // dateMax:Date.UTC(2019,9)
           },
           {
             type: 'all',
@@ -193,8 +187,8 @@ console.log(newMin, newMax);
       enabled: true,
       inputEnabled: false,
       selected: 3,
-      inputDateFormat: '%Y',
-      inputEditDateFormat: '%Y'
+      //inputDateFormat: '%Y',
+      //inputEditDateFormat: '%Y'
 
     },
     "yAxis": {
@@ -297,6 +291,6 @@ console.log(newMin, newMax);
     },
   }
 */
-}());
+}}());
 
 
