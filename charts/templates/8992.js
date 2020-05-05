@@ -22,12 +22,12 @@
         ytdExtremes,
         dataGrouping = rangeOptions.dataGrouping;
 
-console.log(newMin, newMax, dataMin, dataMax);
+      console.log(newMin, newMax, dataMin, dataMax);
 
-        newMin = rangeSelector.buttonOptions[i].dateMin;
-        newMax = rangeSelector.buttonOptions[i].dateMax;
+      newMin = rangeSelector.buttonOptions[i].dateMin;
+      newMax = rangeSelector.buttonOptions[i].dateMax;
 
-console.log(newMin, newMax);
+      console.log(newMin, newMax);
 
 
       if (dataMin === null || dataMax === null) { // chart has no data, base series is removeddebugger;
@@ -44,74 +44,74 @@ console.log(newMin, newMax);
           chart: this.chart
         }, dataGrouping, false);
       }
-/*
-      // Apply range
-      if (type === 'month' || type === 'year') {
-        if (!baseAxis) {
-          // This is set to the user options and picked up later when the axis is instantiated
-          // so that we know the min and max.
-          range = rangeOptions;
-        } else {
-          ctx = {
-            range: rangeOptions,
-            max: newMax,
-            dataMin: dataMin,
-            dataMax: dataMax
-          };
-
-          //newMin = baseAxis.minFromRange.call(ctx);
-          //if (H.isNumber(ctx.newMax)) {
-          //  newMax = ctx.newMax;
-          //}
-          var rangeSelector = this,
-          newMin = rangeSelector.buttonOptions[i].dateMin;
-          newMax = newMin + range;
-          
-        }
-        // Fixed times like minutes, hours, days
-      } else if (range) {
-        //newMin = Math.max(newMax - range, dataMin);
-        //newMax = Math.min(newMin + range, dataMax);
-        var rangeSelector = this,
-        newMin = rangeSelector.buttonOptions[i].dateMin;
-        newMax = newMin + range;
-
-      } else if (type === 'ytd') {
-
-        // On user clicks on the buttons, or a delayed action running from the beforeRender
-        // event (below), the baseAxis is defined.
-        if (baseAxis) {
-          // When "ytd" is the pre-selected button for the initial view, its calculation
-          // is delayed and rerun in the beforeRender event (below). When the series
-          // are initialized, but before the chart is rendered, we have access to the xData
-          // array (#942).
-          if (dataMax === undefined) {
-            dataMin = Number.MAX_VALUE;
-            dataMax = Number.MIN_VALUE;
-            each(chart.series, function (series) {
-              var xData = series.xData; // reassign it to the last item
-              dataMin = Math.min(xData[0], dataMin);
-              dataMax = Math.max(xData[xData.length - 1], dataMax);
-            });
-            redraw = false;
-          }
-          ytdExtremes = rangeSelector.getYTDExtremes(dataMax, dataMin, H.useUTC);
-          newMin = rangeMin = ytdExtremes.min;
-          newMax = ytdExtremes.max;
-
-          // "ytd" is pre-selected. We don't yet have access to processed point and extremes data
-          // (things like pointStart and pointInterval are missing), so we delay the process (#942)
-        } else {
-          addEvent(chart, 'beforeRender', function () {
-            rangeSelector.clickButton(i);
-          });
-          return;
-        }
-      } else if (type === 'all' && baseAxis) {
-        newMin = dataMin;
-        newMax = dataMax;
-      }
-*/
+      /*
+            // Apply range
+            if (type === 'month' || type === 'year') {
+              if (!baseAxis) {
+                // This is set to the user options and picked up later when the axis is instantiated
+                // so that we know the min and max.
+                range = rangeOptions;
+              } else {
+                ctx = {
+                  range: rangeOptions,
+                  max: newMax,
+                  dataMin: dataMin,
+                  dataMax: dataMax
+                };
+      
+                //newMin = baseAxis.minFromRange.call(ctx);
+                //if (H.isNumber(ctx.newMax)) {
+                //  newMax = ctx.newMax;
+                //}
+                var rangeSelector = this,
+                newMin = rangeSelector.buttonOptions[i].dateMin;
+                newMax = newMin + range;
+                
+              }
+              // Fixed times like minutes, hours, days
+            } else if (range) {
+              //newMin = Math.max(newMax - range, dataMin);
+              //newMax = Math.min(newMin + range, dataMax);
+              var rangeSelector = this,
+              newMin = rangeSelector.buttonOptions[i].dateMin;
+              newMax = newMin + range;
+      
+            } else if (type === 'ytd') {
+      
+              // On user clicks on the buttons, or a delayed action running from the beforeRender
+              // event (below), the baseAxis is defined.
+              if (baseAxis) {
+                // When "ytd" is the pre-selected button for the initial view, its calculation
+                // is delayed and rerun in the beforeRender event (below). When the series
+                // are initialized, but before the chart is rendered, we have access to the xData
+                // array (#942).
+                if (dataMax === undefined) {
+                  dataMin = Number.MAX_VALUE;
+                  dataMax = Number.MIN_VALUE;
+                  each(chart.series, function (series) {
+                    var xData = series.xData; // reassign it to the last item
+                    dataMin = Math.min(xData[0], dataMin);
+                    dataMax = Math.max(xData[xData.length - 1], dataMax);
+                  });
+                  redraw = false;
+                }
+                ytdExtremes = rangeSelector.getYTDExtremes(dataMax, dataMin, H.useUTC);
+                newMin = rangeMin = ytdExtremes.min;
+                newMax = ytdExtremes.max;
+      
+                // "ytd" is pre-selected. We don't yet have access to processed point and extremes data
+                // (things like pointStart and pointInterval are missing), so we delay the process (#942)
+              } else {
+                addEvent(chart, 'beforeRender', function () {
+                  rangeSelector.clickButton(i);
+                });
+                return;
+              }
+            } else if (type === 'all' && baseAxis) {
+              newMin = dataMin;
+              newMax = dataMax;
+            }
+      */
       rangeSelector.setSelected(i);
 
 
@@ -164,22 +164,22 @@ console.log(newMin, newMax);
       buttons:
         [
           {
-           //count: 14,
+            //count: 14,
             type: 'year',
             text: 'vor 2020',
             //dateMin:Date.UTC(2010,0),
-            dateMax:Date.UTC(2019,12)
+            dateMax: Date.UTC(2019, 12)
           },
           {
             type: 'year',
             text: 'auswahl',
-            dateMin:Date.UTC(2015,0),
-            dateMax:Date.UTC(2021,12)
+            dateMin: Date.UTC(2015, 0),
+            dateMax: Date.UTC(2021, 12)
           },
           {
             type: 'year',
             text: '2020',
-            dateMin:Date.UTC(2020,0),
+            dateMin: Date.UTC(2020, 0),
             //dateMax:Date.UTC(2020,12)
           },
           {
@@ -265,38 +265,37 @@ console.log(newMin, newMax);
           });
       }
     }, */
-/*
-    rangeSelector: {
-      enabled: true,
-      buttonTheme: {
-        width: null
-      },
-      buttons:
-        [
-          {
-            count: 4,
-            dateMin: 1262300400000,
-            type: 'year',
-            text: 'ohne 2020',
+    /*
+        rangeSelector: {
+          enabled: true,
+          buttonTheme: {
+            width: null
           },
-          {
+          buttons:
+            [
+              {
+                count: 4,
+                dateMin: 1262300400000,
+                type: 'year',
+                text: 'ohne 2020',
+              },
+              {
+    
+                type: 'all',
+                text: 'Alle Jahre'
+              }
+    
+    
+            ],
+          buttonSpacing: 40,
+          enabled: true,
+          inputEnabled: false,
+          selected: 1,
+          inputDateFormat: '%Y',
+          inputEditDateFormat: '%Y'
+    
+        },
+    */
+      }
 
-            type: 'all',
-            text: 'Alle Jahre'
-          }
-
-
-        ],
-      buttonSpacing: 40,
-      enabled: true,
-      inputEnabled: false,
-      selected: 1,
-      inputDateFormat: '%Y',
-      inputEditDateFormat: '%Y'
-
-    },
-  }
-*/
-}());
-
-
+  }());
