@@ -6,6 +6,96 @@
 (function () {
 
 	return {
+		"data": {
+			"seriesMapping": [
+				{
+					x: 0, y: 1
+				},
+				{
+					//2nd series: use y values from column 3
+					y: 2
+				}
+			]
+		},
+		/* 
+		
+		series with fixed data that should be added to the series object before merging with csv data 
+		
+		workaround to define color = background-color for series with no data (Riehen & Bettingen)
+		BL/7.2.2020
+
+		*/
+		beforeSeries: [
+			{
+				//Outline Wohnviertel if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
+				name: "WohnviertelOutline",
+				enableMouseTracking: false,
+				color: '#fbfbfb', //#ededed
+				borderWidth: 1,
+				borderColor: '#fbfbfb',
+				"animation": true,
+				"mapData": geojson_wohnviertelEPSG2056,
+				"joinBy": ['TXT', 'Wohnviertel Id'],
+				"keys": ['Wohnviertel Id', 'value'],
+				"states": {
+					"hover": {
+						"enabled": false,
+						"borderColor": "#BADA55",
+						"brightness": 0
+					}
+				},
+				"data": [
+					[1, -999],
+					[2, -999],
+					[3, -999],
+					[4, -999],
+					[5, -999],
+					[6, -999],
+					[7, -999],
+					[8, -999],
+					[9, -999],
+					[10, -999],
+					[11, -999],
+					[12, -999],
+					[13, -999],
+					[14, -999],
+					[15, -999],
+					[16, -999],
+					[17, -999],
+					[18, -999],
+					[19, -999],
+					[20, -999],
+					[30, -999]
+				],
+			}
+		],
+		"series": [
+			{
+				"name": "Wohnviertel",
+				"animation": true,
+				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
+				"borderColor": "#fbfbfb",
+				"joinBy": ['TXT', 'Wohnviertel_Id'],
+				"keys": ['Wohnviertel_Id', 'value'],
+				"states": {
+					"hover": {
+						"enabled": false,
+						"borderColor": '#BADA55',
+						"brightness": 0
+					}
+				},
+				tooltip: {
+					pointFormatter: function () {
+						//console.log(this);
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '%</b><br/>';
+					}
+				}
+			},
+			{
+				"visible": true
+			}
+		],
+
 		"legend": {
 			useHTML: false,
 			"title": {
@@ -14,14 +104,14 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -50,
-			"y": -20,
+			"align": "left",
+			"x": 280,
+			"y": -15,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal',
-				fontSize: "13px"
+				//fontSize: "13px"
 			}
 		},
 		colorAxis: {
@@ -52,92 +142,12 @@
 				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> ≥ 70,0"
 			}],
 		},
-		"data": {
-			"seriesMapping": [
-				{
-					x: 0, y: 1
-				}/*,
-		      {
-		      	//2nd series: use y values from column 3
-		      	y: 2
-		      }*/
-			]
-		},
-		"series": [
-			{
-				"name": "Wohnviertel",
-				"animation": true,
-				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
-				"borderColor": "#fbfbfb",
-				"joinBy": ['TXT', 'Wohnviertel_Id'],
-				"keys": ['Wohnviertel_Id', 'value'],
-				"states": {
-					"hover": {
-						"enabled": false,
-						"borderColor": '#BADA55',
-						"brightness": 0
-					}
-				},
-				tooltip: {
-					pointFormatter: function () {
-						//console.log(this);
-						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value * 100), 1) + '%</b><br/>';
-					}
-				}
-			},
-			{
-				"visible": false
-			}
-		],
-/*    	beforeSeries: [
-            {      
-                //Outline Wohnviertel if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
-				name: "WohnviertelOutline",
-              	enableMouseTracking: false,
-                color: '#fbfbfb',
-                borderWidth: 1,
-                borderColor: '#fbfbfb',
-				"animation": true,
-				"mapData": geojson_wohnviertelEPSG2056,
-				"joinBy": ['TXT', 'Wohnviertel Id'],
-				"keys": ['Wohnviertel Id', 'value'],
-                "states": {
-                  "hover": {
-                    "enabled": false,
-                    "borderColor": "#BADA55",
-                    "brightness": 0
-                  }
-                },
-                "data": [
-                  [1,-999],
-                  [2,-999],
-                  [3,-999],
-                  [4,-999],
-                  [5,-999],
-                  [6,-999],
-                  [7,-999],
-                  [8,-999],
-                  [9,-999],
-                  [10,-999],
-                  [11,-999],
-                  [12,-999],
-                  [13,-999],
-                  [14,-999],
-                  [15,-999],
-                  [16,-999],
-                  [17,-999],
-                  [18,-999],
-                  [19,-999],
-                  [20,-999],
-                  [30,-999]
-                ],    	            
-			}
-	    ],   */ 	
+		
 		chart: {
 			events: {
 				load: function (e) {
 console.log(this);
-					this.mapZoom(0.85,0,0); //10000000, -10000000); 
+					this.mapZoom(0.86,0,0); //10000000, -10000000); 
 					//this.series[22].color = "#fbfbfb";
 					//this.options.colors[3] = "#fbfbfb";
 					//this.series[1].color = "#ffffff";
@@ -206,7 +216,7 @@ console.log(this);
 					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355 - 55, 212 + 10, 150, 130, '#fbfbfb');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
-					fn.addLegendTitle(chart, choroplethSeries.name + ' (%)', 245 +58, 220);
+					fn.addLegendTitle(chart, choroplethSeries.name + ' (%)', 298, 240);
 
 					/*fn.addLegendCircle(chart, 370, 266+15, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 			  fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255+15, undefined, false, 'right');

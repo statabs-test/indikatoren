@@ -5,7 +5,7 @@
 */
 
 var legendPosition = {
-	blockCloropleth: {
+	blockChoropleth: {
 		x: 518, // Customizable
 		y: -15,  // Customizable
 		title: {
@@ -33,7 +33,7 @@ legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
 legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
 var i;
 for (i = 0; i < 2; i++) {
-	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
 };
 
 (function () {
@@ -48,8 +48,8 @@ for (i = 0; i < 2; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockCloropleth.x,
-			"y": legendPosition.blockCloropleth.y,
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
@@ -174,7 +174,7 @@ for (i = 0; i < 2; i++) {
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, "Jugendquotient", legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[0]);
+					fn.addLegendTitle(chart, "Jugendquotient", legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[0]);
 					/*
 					fn.addLegendTitle(chart, "Veränderung <br/> gegenüber <br/> 2009", 385 + shiftHoriz, 220 + shiftVert);
 					fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');

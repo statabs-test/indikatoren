@@ -3,6 +3,31 @@
 	global geojson_wohnviertelEPSG2056 
 	global $
 */
+
+var legendPosition = {
+	blockChoropleth: {
+		x: 230, // Customizable
+		y: -15,  // Customizable
+		title: {
+			y: [247, 232, 217],
+			x: 245, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [378,373], // Customizable
+		y: [277, 297, 317, 337], // Customizable
+		y3C: [382, 412, 442],
+		numbers: {
+			x: 393,
+			y: [267, 287, 310, 330], // Customizable
+			y3C: [370, 400, 430]
+		},
+		title: {
+			x: 368
+		}
+	}
+};
+
 (function(){
 
     return {
@@ -14,9 +39,9 @@
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -150,
-			"y": -20,
+			"align": "left",
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -109,7 +134,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 300",
+							name: "<span style='color: rgba(0,0,0,0)'>000</span> < 300",
 							from: 0,
 							to: 300, 
 							diameter: 5
@@ -121,7 +146,7 @@
 							diameter: 10
 						},
 						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  500",
+							name: "<span style='color: rgba(0,0,0,0)'>000</span> ≥  500",
 							from: 500,							
 							to: 1000000000,
 							diameter: 20
@@ -155,15 +180,15 @@
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245, 210);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), 355, 210);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 	                
-	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 450, 275, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 450, 300, undefined, false, 'right');
+					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[1], undefined, false, 'right');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[2], undefined, false, 'right');
 				
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');

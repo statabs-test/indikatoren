@@ -5,7 +5,7 @@
 */
 
 var legendPosition = {
-	blockCloropleth: {
+	blockChoropleth: {
 		x: 518, // Customizable
 		y: -15,  // Customizable
 		title: {
@@ -32,8 +32,8 @@ legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
 
 legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
 var i;
-for (i = 0; i < 2; i++) {
-	legendPosition.blockCloropleth.title.y[i] -= legendPosition.blockCloropleth.y;
+for (i = 0; i < 3; i++) {
+	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
 };
 
 (function () {
@@ -48,8 +48,8 @@ for (i = 0; i < 2; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockCloropleth.x,
-			"y": legendPosition.blockCloropleth.y,
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
@@ -174,13 +174,13 @@ for (i = 0; i < 2; i++) {
 					//fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					//fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>"), legendPosition.blockCloropleth.title.x, legendPosition.blockCloropleth.title.y[1]);
-					/*Adjust  legendPosition.blockCloropleth.title.y[x] according to number of lines:
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+					/*Adjust  legendPosition.blockChoropleth.title.y[x] according to number of lines:
 																								1 line  -> 0
 																								2 lines -> 1
 																								3 lines -> 2*/
 
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>") + " (pp)", legendPosition.blockSymbol.title.x, legendPosition.blockCloropleth.title.y[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>") + " (pp)", legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 					//fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					//fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
