@@ -1,9 +1,9 @@
 (function (H) {
   H.wrap(H.RangeSelector.prototype, 'clickButton', function (proceed, i, redraw) {
-
-    if (typeof this.chart.options.myVari != 'undefined' && this.chart.options.myVari.anchor == 'left') {
-
-      var rangeSelector = this,
+   
+  if (this.buttonOptions[i].dateMin !== undefined || this.buttonOptions[i].dateMax !== undefined) {
+   
+    var rangeSelector = this,
         chart = rangeSelector.chart,
         rangeOptions = rangeSelector.buttonOptions[i],
         baseAxis = chart.xAxis[0],
@@ -22,7 +22,7 @@
         ytdExtremes,
         dataGrouping = rangeOptions.dataGrouping;
 
-      console.log(newMin, newMax, dataMin, dataMax);
+      //console.log(newMin, newMax, dataMin, dataMax);
 
       newMin = rangeSelector.buttonOptions[i].dateMin;
       newMax = rangeSelector.buttonOptions[i].dateMax;
@@ -152,10 +152,6 @@
 
 (function () {
   return {
-    myVari: {
-      anchor: 'left',
-    },
-
     rangeSelector: {
       enabled: true,
       buttonTheme: {
@@ -168,33 +164,34 @@
             type: 'year',
             text: 'vor 2020',
             //dateMin:Date.UTC(2010,0),
-            dateMax: Date.UTC(2019, 12)
+            dateMax: Date.UTC(2019,12)
           },
           {
             type: 'year',
-            text: 'auswahl',
-            dateMin: Date.UTC(2015, 0),
-            dateMax: Date.UTC(2021, 12)
+            text: 'ab 2020',
+            dateMin: Date.UTC(2020,0),
+           // dateMax:Date.UTC(2019,9)
           },
           {
-            type: 'year',
-            text: '2020',
-            dateMin: Date.UTC(2020, 0),
-            //dateMax:Date.UTC(2020,12)
+            type: 'ytd',
+            text: 'YTD'
           },
+          {
+            type: 'month',
+            count: 6,
+            text: '6m'
+        },
           {
             type: 'all',
             text: 'Alle Jahre',
-          }
-
+          },
 
         ],
       buttonSpacing: 40,
-      enabled: true,
-      inputEnabled: false,
+      inputEnabled: true,
       selected: 3,
-      inputDateFormat: '%Y',
-      inputEditDateFormat: '%Y'
+      //inputDateFormat: '%Y',
+      //inputEditDateFormat: '%Y'
 
     },
     "yAxis": {
@@ -228,21 +225,12 @@
     "series": [
       {
         "color": "#68AB2B",
-        "marker": {
-          "enabled": false
-        }
       },
       {
         "color": "#008AC3",
-        "marker": {
-          "enabled": false
-        }
       }, /* violett */
       {
         "color": "#FABD24",
-        "marker": {
-          "enabled": false
-        }
       }, /* rot */
 
     ],
@@ -252,9 +240,9 @@
       //"y": 25,
       //"itemWidth": 150,
       "layout": "horizontal",
+      "itemMarginBottom": 5,
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left",
     },
 
     /*data: {
@@ -265,37 +253,4 @@
           });
       }
     }, */
-    /*
-        rangeSelector: {
-          enabled: true,
-          buttonTheme: {
-            width: null
-          },
-          buttons:
-            [
-              {
-                count: 4,
-                dateMin: 1262300400000,
-                type: 'year',
-                text: 'ohne 2020',
-              },
-              {
-    
-                type: 'all',
-                text: 'Alle Jahre'
-              }
-    
-    
-            ],
-          buttonSpacing: 40,
-          enabled: true,
-          inputEnabled: false,
-          selected: 1,
-          inputDateFormat: '%Y',
-          inputEditDateFormat: '%Y'
-    
-        },
-    */
-      }
-
-  }());
+}}());
