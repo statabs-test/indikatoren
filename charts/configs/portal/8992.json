@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#68AB2B",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           1136077200000,
@@ -699,9 +696,6 @@
     },
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           1136077200000,
@@ -1396,9 +1390,6 @@
     },
     {
       "color": "#FABD24",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           1136077200000,
@@ -2108,6 +2099,7 @@
       }
     },
     "tickLength": 0,
+    "minRange": 3600000,
     "endOnTick": true,
     "startOnTick": true,
     "showFirstLabel": true,
@@ -2217,9 +2209,8 @@
     },
     "enabled": true,
     "layout": "horizontal",
-    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left"
+    "verticalAlign": "top"
   },
   "rangeSelector": {
     "verticalAlign": "bottom",
@@ -2230,9 +2221,14 @@
     },
     "buttons": [
       {
-        "count": 14,
         "type": "year",
-        "text": "ohne 2020"
+        "text": "vor 2020",
+        "dateMax": 1577836800000
+      },
+      {
+        "type": "year",
+        "text": "ab 2020",
+        "dateMin": 1577836800000
       },
       {
         "type": "all",
@@ -2241,9 +2237,7 @@
     ],
     "buttonSpacing": 40,
     "inputEnabled": false,
-    "selected": 1,
-    "inputDateFormat": "%Y",
-    "inputEditDateFormat": "%Y"
+    "selected": 3
   },
   "navigator": {
     "margin": 10,
@@ -2267,8 +2261,5 @@
       "dateFormat": "%d.%m.%Y"
     },
     "filename": 8992
-  },
-  "myVari": {
-    "anchor": "left"
   }
 }

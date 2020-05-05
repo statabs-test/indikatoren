@@ -1,9 +1,10 @@
 (function (H) {
   H.wrap(H.RangeSelector.prototype, 'clickButton', function (proceed, i, redraw) {
-   
-  if (this.buttonOptions[i].dateMin !== undefined || this.buttonOptions[i].dateMax !== undefined) {
-   
-    var rangeSelector = this,
+
+    //if (typeof this.buttonOptions[i].dateMin != 'undefined' || typeof this.buttonOptions[i].dateMax != 'undefined') {
+    if (this.buttonOptions[i].dateMin !== undefined || this.buttonOptions[i].dateMax !== undefined) {
+
+      var rangeSelector = this,
         chart = rangeSelector.chart,
         rangeOptions = rangeSelector.buttonOptions[i],
         baseAxis = chart.xAxis[0],
@@ -164,23 +165,23 @@
             type: 'year',
             text: 'vor 2020',
             //dateMin:Date.UTC(2010,0),
-            dateMax: Date.UTC(2019,12)
+            dateMax: Date.UTC(2019, 12)
           },
           {
             type: 'year',
             text: 'ab 2020',
-            dateMin: Date.UTC(2020,0),
-           // dateMax:Date.UTC(2019,9)
+            dateMin: Date.UTC(2020, 0),
+            // dateMax:Date.UTC(2019,9)
           },
-          {
-            type: 'ytd',
-            text: 'YTD'
-          },
-          {
-            type: 'month',
-            count: 6,
-            text: '6m'
-        },
+          /* {
+             type: 'ytd',
+             text: 'YTD'
+           },
+           {
+             type: 'month',
+             count: 6,
+             text: '6m'
+         },*/
           {
             type: 'all',
             text: 'Alle Jahre',
@@ -188,9 +189,9 @@
 
         ],
       buttonSpacing: 40,
-      inputEnabled: true,
+      inputEnabled: false,
       selected: 3,
-      //inputDateFormat: '%Y',
+      //inputDateFormat: '%Y-%m',
       //inputEditDateFormat: '%Y'
 
     },
@@ -204,6 +205,7 @@
       opposite: false,
     },
     "xAxis": {
+      minRange: 3600 * 1000,
       endOnTick: true,
       startOnTick: true,
       showFirstLabel: true,
@@ -253,4 +255,5 @@
           });
       }
     }, */
-}}());
+  }
+}());
