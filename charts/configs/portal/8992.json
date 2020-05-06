@@ -2209,8 +2209,8 @@
     },
     "enabled": true,
     "layout": "horizontal",
-    "itemMarginBottom": 5,
-    "verticalAlign": "top"
+    "verticalAlign": "top",
+    "itemMarginBottom": 5
   },
   "rangeSelector": {
     "verticalAlign": "bottom",
