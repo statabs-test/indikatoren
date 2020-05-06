@@ -116,7 +116,8 @@
 
         ],
         "xAxis": {
-            "type": "category"
+            "type": "category",
+            min: 30,
             /*type: 'datetime',
             startOnTick: true,
             endOnTick: true,
