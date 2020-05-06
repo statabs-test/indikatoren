@@ -55437,6 +55437,46 @@ var indikatoren = [
 		"id": 8992
 	},
 	{
+		"title": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
+		"subtitle": "",
+		"kuerzel": "I.14.3.08995",
+		"kuerzelKunde": "",
+		"description": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-30T08:59:03.033",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Grafik zeigt die Entwicklung der gemeldeten Todesfälle nach Kalenderwoche. So sind für die Kalenderwoche x des Jahres y insgesamt z Todesfälle gemeldet worden. Aufgrund von Meldeverzörgerungen sind die Sterbefälle der letzten x Kalenderwochen hochgerechnet. Die gestrichelte Linie gibt die erwarteten Todesfälle je Kalenderwoche. Die schattierte Fläche gibt das Vertrauensintervall der erwartetenen Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
+		"erlaeuterungen": "Die gemeldeten Todesfälle stammen aus der Bevölkerungstatistik des Kantons Basel-Stadt. Die Schätzung der erwarteten Todesfälle pro Kalenderwoche werden mittels einer vom BFS entwickelten Methodik geschätzt. Die Schätzung erfolgt in drei Schritten. In einem ersten Schritt werden die erwarteten Fälle nach Jahr und Altersklassen um mögliche zeitliche und demographische Trends zu kontrollieren.Anschliessend wird der Median der Todesfälle nach Kalenderwoche geschätzt um die saisonale Schwankung der Todesfälle abzubilden. Am Ende werden die vorhergesagten Wochenwerte aus Schritt zwei um einen jahresabhängigen Korrekturfaktor addiert um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres zu erhalten. Das Konfidenzintervall",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8995,
+		"chart-id": 8995,
+		"filter": "",
+		"id": 8995
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
