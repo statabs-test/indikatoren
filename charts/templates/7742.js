@@ -70,23 +70,24 @@ data: {
           columns[0][i] = Date.UTC(columns[0][i]);
       });
   }
-}, 
+},
 rangeSelector: {
-    //enabled:  false,
+    enabled:  true,
   buttonTheme: {
     width: null
   },         
 buttons: 
 [
     {
-            count: 21,
+            //count: 21,
             type: 'year',
-            text: 'nur Szenarien'
+            text: 'nur Szenarien',
+            dateMax: Date.UTC(2019, 12)
         }, 
     {
             count: 30,
             type: 'year',
-            text: '30 Jahre'
+            text: '30 Jahre',
         }, 
     
         {
@@ -98,7 +99,7 @@ buttons:
   inputEnabled: false,
   selected: 1, 
   inputDateFormat: '%Y',
-inputEditDateFormat: '%Y'
+  inputEditDateFormat: '%Y'
 }, 
   plotOptions: {
     column: {
