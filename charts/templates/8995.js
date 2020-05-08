@@ -23,6 +23,9 @@
         },
 
         tooltip: {
+          // shared: true,
+
+            xDateFormat: 'Woche vom %A, %d.%m.%Y',
             formatter: function (e) {
                 //use shared tooltip for group of series only (instead of for all)
                 //source: https://jsfiddle.net/BlackLabel/gq1d1aba/
@@ -61,10 +64,14 @@
                     //console.log(this);
                     if (linePoint.y === null) linePoint.y = '';
                     arearangePoint.series.name = arearangePoint.series.name.replace('Untere Grenze', '');
-                    return "<span style='font-size: 10px'>" + this.key + "</span></span><br><span style='color:" + linePoint.series.color + "'>●</span> " + linePoint.series.name + ": <b>" + linePoint.y + "</b><br>" +
+
+                    return "<span style='font-size: 10px'>" + Highcharts.dateFormat('Woche vom %A, %d.%m.%Y', this.x) + 
+                        "</span></span><br><span style='color:" + linePoint.series.color + "'>●</span> " + 
+                        linePoint.series.name + ": <b>" + linePoint.y + "</b><br>" +
                         arearangePoint.series.name + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b>";
                 }
             }
+            
         },
 
         "series": [
@@ -116,8 +123,8 @@
 
         ],
         "xAxis": {
-            "type": "category",
-            min: 30,
+            "type": "datetime",
+            //min: 30,
             /*type: 'datetime',
             startOnTick: true,
             endOnTick: true,
@@ -134,7 +141,7 @@
                 },
         */
         navigator: {
-            enabled: true
+            enabled: false
         },
         legend: {
             enabled: true,
