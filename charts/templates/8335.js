@@ -75,13 +75,13 @@ for (i = 0; i < 3; i++) {
                  name: "<span style='color: rgba(0,0,0,0)'></span>12,0 − 14,9"
             },{
                 from: 15.0,
-                to: 17.99,
+                to: 19.99,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'></span>15,0 − 17,9"
+                 name: "<span style='color: rgba(0,0,0,0)'></span>15,0 − 19,9"
             },{
-                from: 18.0,
+                from: 20.0,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> ≥ 18,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> ≥ 20,0"
             }], 
         },
         "data": {

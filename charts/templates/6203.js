@@ -79,7 +79,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? 'grey' : 'salmon';
+	                	return (value >= 0) ? '#007A2F' : '#990300';
 	                };					
 					
 					//define chart-specific details
@@ -114,9 +114,9 @@
 	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 290, 'pieLegendHideOnZoom');
 
-					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
+					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
+					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
 					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
