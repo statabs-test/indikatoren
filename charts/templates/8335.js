@@ -113,7 +113,7 @@ for (i = 0; i < 3; i++) {
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '%</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
 				}
 			}, 
@@ -155,7 +155,7 @@ for (i = 0; i < 3; i++) {
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -174,19 +174,20 @@ for (i = 0; i < 3; i++) {
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, "Anteil Haushalte <br/>mit PV (%)", legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
 					
 					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 
-					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[0], 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[0], 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F'/*'grey'*/);
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[0]);
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[1], 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[1], 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F'/*'grey'*/);
 					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[1]);
-					
+					/*
 					fn.addLegendSquare(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y[2], 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[2]);
 					fn.addLegendSquare(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y[3], 10, '#990300');
 					fn.addLegendLabel(chart, 'Abnahme', legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[3])
+					*/
 					
 
 					//var shiftDown = 12;

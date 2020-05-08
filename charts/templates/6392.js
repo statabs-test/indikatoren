@@ -32,12 +32,12 @@
                 name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> < 2,6"
             }, {
                 from: 2.6,
-                to: 3.9,
+                to: 3.999,
                 color: '#A8C3CA',
                 name: "2,6 − 3,9"
             }, {
                 from: 4.0,
-                to: 5.9,
+                to: 5.999,
                  color: '#689199',
                  name: "4,0 − 5,9"
             },{
