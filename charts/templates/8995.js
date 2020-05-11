@@ -136,7 +136,6 @@
 
         ],
         "xAxis": {
-            "type": "datetime",
             min: Date.parse('2019-01-01'),
             type: 'datetime',
             //startOnTick: true,
