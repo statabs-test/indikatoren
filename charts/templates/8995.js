@@ -48,7 +48,9 @@
                     correspondingSeries = series.linkedSeries[0] || series.linkedParent,
                     linePoint,
                     arearangePoint,
-                    correspondingPoint;
+                    correspondingPoint,
+                    firstLine = '';
+
                 if (correspondingSeries === undefined) return e.defaultFormatter.call(this, e);
                 else {
                     // unselect previously selected point
@@ -74,13 +76,12 @@
                         linePoint = point;
                     }
                     //console.log(this);
-                    if (linePoint.y === null) linePoint.y = '';
-                    arearangePoint.series.name = arearangePoint.series.name.replace('Untere Grenze', '');
+                    if (linePoint.y !== null) firstLine = "<span style='color:" + linePoint.series.color + "'>●</span> " +
+                        linePoint.series.name + ": <b>" + linePoint.y + "</b><br>";
 
-                    return "<span style='font-size: 10px'>" + Highcharts.dateFormat('Woche vom %A, %d.%m.%Y', this.x) +
-                        "</span></span><br><span style='color:" + linePoint.series.color + "'>●</span> " +
-                        linePoint.series.name + ": <b>" + linePoint.y + "</b><br>" +
-                        arearangePoint.series.name + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> Todesfälle";
+                    return "<span style='font-size: 10px'>" + Highcharts.dateFormat('Woche vom %A, %d.%m.%Y', this.x) + "</span><br>" +
+                        firstLine +
+                        arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> Todesfälle";
                 }
             }
 
