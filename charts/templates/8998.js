@@ -98,9 +98,9 @@ while (i < 52) {
         "xAxis": {
             type: "datetime",
             dateTimeLabelFormats: {
-                day: '%d.%m.%Y',
-                week: '%d.%m.%Y',
-                month: '%d.%m.%Y'
+                day: '%d.%m.%y',
+                week: '%d.%m.%y',
+                month: '%d.%m.%y'
             },
             plotBands: plotBands,
         },
@@ -143,6 +143,7 @@ while (i < 52) {
         }],
         legend: {
             enabled: true,
+            useHTML: true,
             layout: "horizontal",
             verticalAlign: "top",
             align: "left",
@@ -151,11 +152,18 @@ while (i < 52) {
             itemStyle: {
                 textOverflow: undefined,
                 whiteSpace: 'nowrap',
-            }
+            },
+            labelFormatter: function () {
+                return this.name.replace('NOx', 'NO<sub>x</sub>');
+             }            
         },
         tooltip: {
             useHTML: true,
-            valueSuffix: ' µg/m<sup>3</sup>'
+            valueSuffix: ' µg/m<sup>3</sup>',
+            formatter: function (tooltip) {
+                this.series.name = this.series.name.replace('NOx','NO<sub>x</sub>');
+                return tooltip.defaultFormatter.call(this, tooltip);
+            }
         },
         navigator: {
             //  enabled: true

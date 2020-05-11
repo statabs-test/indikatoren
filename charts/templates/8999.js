@@ -109,9 +109,9 @@ while (i < 52) {
         "xAxis": {
             type: "datetime",
             dateTimeLabelFormats: {
-                day: '%d.%m.%Y',
-                week: '%d.%m.%Y',
-                month: '%d.%m.%Y'
+                day: '%d.%m.%y',
+                week: '%d.%m.%y',
+                month: '%d.%m.%y'
             },
             plotBands: plotBands,
         },
