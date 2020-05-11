@@ -1,5 +1,15 @@
 (function () {
     return {
+        chart: {
+            events: {
+                load: function () {
+                    //move legend title
+                    var title = this.legend.title;
+                    title.translate(-155, 37);
+                }
+            }
+        },
+
         plotOptions: {
             arearange: {
                 lineWidth: 0.5,
@@ -23,7 +33,7 @@
         },
 
         tooltip: {
-          // shared: true,
+            // shared: true,
 
             xDateFormat: 'Woche vom %A, %d.%m.%Y',
             formatter: function (e) {
@@ -48,7 +58,9 @@
 
                     // find corresponding point
                     if (correspondingSeries) {
-                        correspondingPoint = correspondingSeries.points[point.index];
+                        //console.log(correspondingSeries,  correspondingSeries.points, point.index);
+                        //console.log(point.index, this.series.cropStart);
+                        correspondingPoint = correspondingSeries.points[point.index - this.series.cropStart];
                         correspondingPoint.setState('hover');
                         chart.extraHoveredPoint = correspondingPoint;
                     }
@@ -65,13 +77,13 @@
                     if (linePoint.y === null) linePoint.y = '';
                     arearangePoint.series.name = arearangePoint.series.name.replace('Untere Grenze', '');
 
-                    return "<span style='font-size: 10px'>" + Highcharts.dateFormat('Woche vom %A, %d.%m.%Y', this.x) + 
-                        "</span></span><br><span style='color:" + linePoint.series.color + "'>●</span> " + 
+                    return "<span style='font-size: 10px'>" + Highcharts.dateFormat('Woche vom %A, %d.%m.%Y', this.x) +
+                        "</span></span><br><span style='color:" + linePoint.series.color + "'>●</span> " +
                         linePoint.series.name + ": <b>" + linePoint.y + "</b><br>" +
-                        arearangePoint.series.name + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b>";
+                        arearangePoint.series.name + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> Todesfälle";
                 }
             }
-            
+
         },
 
         "series": [
@@ -124,15 +136,16 @@
         ],
         "xAxis": {
             "type": "datetime",
-            //min: 30,
-            /*type: 'datetime',
-            startOnTick: true,
-            endOnTick: true,
-            //min: 1546819200000,
+            min: Date.parse('2019-01-01'),
+            type: 'datetime',
+            //startOnTick: true,
+            //endOnTick: true,
             dateTimeLabelFormats: {
-              week: '%e.%b'
+                day: '%d.%m.%y',
+                week: '%d.%m.%y',
+                month: '%d.%m.%y',
+                year: '%Y'
             },
-            */
         },
         /*
                 yAxis: {
@@ -141,19 +154,36 @@
                 },
         */
         navigator: {
-            enabled: false
+            enabled: true
         },
         legend: {
             enabled: true,
             layout: "horizontal",
             verticalAlign: "top",
-            align: "left",
-            alignColumns: false,
-            itemWidth: 160,
+            align: "right",
+            x: -38,
+            y: -35,
+            alignColumns: true,
+            width: 240,
+            itemWidth: 110,
             itemStyle: {
                 textOverflow: undefined,
                 whiteSpace: 'nowrap',
-            }
+            },
+            labelFormatter: function () {
+                return this.name
+                    .replace('65+ Jahre', '')
+                    .replace('0 - 64 Jahre', '')
+                    .replace('Gemeldete Todesfälle', 'gemeldete')
+                    .replace('Hochgerechnete Todesfälle', 'hochgerechnete');
+            },
+            title: {
+                text: 'Todesfälle 65+ Jahre:<br/>Todesfälle 0 bis 64 Jahre:',
+                style: {
+                    fontWeight: 'normal'
+                }
+            },
+
         }
     }
 }());
