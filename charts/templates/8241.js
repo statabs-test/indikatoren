@@ -9,23 +9,31 @@ var legendPosition = {
 		x: 230, // Customizable
 		y: -15,  // Customizable
 		title: {
-			y: [247, 232, 217],
+			y: [232, 217, 202],
 			x: 245, // Customizable
 		}
 	},
 	blockSymbol: {
 		x: [378,373], // Customizable
 		y: [277, 297, 317, 337], // Customizable
-		y3C: [382, 412, 442],
+		y3C: [276, 303, 330],
 		numbers: {
-			x: 393,
+			x: 0,
 			y: [267, 287, 310, 330], // Customizable
-			y3C: [370, 400, 430]
+			y3C: [267, 292, 317]
 		},
 		title: {
-			x: 368
+			x: 0
 		}
 	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 90;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 3; i++) {
+	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
 };
 
 (function(){
@@ -57,12 +65,12 @@ var legendPosition = {
                 name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> < 2,6"
             }, {
                 from: 2.6,
-                to: 3.9,
+                to: 3.999,
                 color: '#A8C3CA',
                 name: "2,6 − 3,9"
             }, {
                 from: 4.0,
-                to: 5.9,
+                to: 5.999,
                  color: '#689199',
                  name: "4,0 − 5,9"
             },{
