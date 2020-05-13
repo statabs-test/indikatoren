@@ -53,5 +53,13 @@
     "footerFormat": 'Total: <b>{point.total:,.1f}%</b>',
    "shared": false
   },
+  credits: {
+    position: {
+      y: -15
+    },
+    style: {
+      width: 470
+    }
+  }
 }
 }());
