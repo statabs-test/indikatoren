@@ -3,7 +3,7 @@
 "plotOptions": {
     "series": {
        borderWidth: 0,
-       pointPadding: 0.25,
+       pointPadding: 0.1,
      // "pointWidth": 30,
       "stacking": "normal"
     }
@@ -28,12 +28,17 @@
 	"max": undefined
   },
   "legend": {
+      y: 30,
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    layout: 'vertical',
+    align: 'right',
+    verticalAlign: 'middle',
+    itemWidth: 200,
+    margin: 5,
+    "itemMarginBottom": 20,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: null,
     }
   },
   "series": [
@@ -48,7 +53,8 @@
     //"marginTop": 75,
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    "spacingBottom": 40,
+    spacingRight: 0
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
