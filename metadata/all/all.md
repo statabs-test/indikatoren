@@ -1455,8 +1455,8 @@ id | visible | visibleInPortal | indikatorenset
 8998 | true | false | 
 8999 | true | false | 
 9011 | true | false | 
-9012 | true | true | 
-9013 | true | true | 
+9012 | true | false | 
+9013 | true | false | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
