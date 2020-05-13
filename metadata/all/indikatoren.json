@@ -55520,11 +55520,11 @@
 		"id": 8999
 	},
 	{
-		"title": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte und Betriebe",
+		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
 		"subtitle": "Stand: 4. April 2020, in % der Gesamtwirtschaft Basel-Stadt",
 		"kuerzel": "I.03.2.09011",
 		"kuerzelKunde": "",
-		"description": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte und Betriebe",
+		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "",
@@ -55548,7 +55548,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung 2 vom 13. März 2020 (Stand 4. April 2020)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung 2 vom 13. März 2020 (Stand 4. April 2020)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -55560,11 +55560,11 @@
 		"id": 9011
 	},
 	{
-		"title": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte und Betriebe",
+		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
 		"subtitle": "Stand: 11. Mai 2020, in % der Gesamtwirtschaft Basel-Stadt",
 		"kuerzel": "I.03.2.09012",
 		"kuerzelKunde": "",
-		"description": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte und Betriebe",
+		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "",
@@ -55588,7 +55588,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -55600,11 +55600,11 @@
 		"id": 9012
 	},
 	{
-		"title": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte nach Kanton",
+		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte nach Kanton",
 		"subtitle": "in % der Gesamtwirtschaft",
 		"kuerzel": "I.03.2.09013",
 		"kuerzelKunde": "",
-		"description": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte nach Kanton",
+		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte nach Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "",
@@ -55628,7 +55628,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

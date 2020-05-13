@@ -27,7 +27,7 @@
           1.731703036
         ]
       ],
-      "name": "Erholung (inkl. Betrieb von Skipisten und Campingplätzen) und \u003Cbr\u003EFreizeitaktivitäten (inkl. Diskotheken, Nachtclubs, Casinos)",
+      "name": "Erholung (inkl. Skipisten und Campingplätze) und Freizeitaktivitäten (inkl. Diskotheken, Nachtclubs, Casinos)",
       "turboThreshold": 0
     }
   ],
@@ -89,6 +89,7 @@
     "type": "column",
     "inverted": false,
     "spacingBottom": 50,
+    "spacingRight": 0,
     "renderTo": "container-9012"
   },
   "plotOptions": {
@@ -99,7 +100,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0.25,
+      "pointPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -110,7 +111,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Von Artikel 6 der Covid-19 Verordnung betroffene Beschäftigte und Betriebe"
+    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe"
   },
   "subtitle": {
     "style": {
@@ -162,17 +163,22 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
+    "y": 30,
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
+    "itemWidth": 170,
+    "margin": 5,
+    "itemMarginBottom": 20
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
