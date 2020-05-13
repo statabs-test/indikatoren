@@ -1,0 +1,57 @@
+(function(){
+    return {
+"plotOptions": {
+    "series": {
+       borderWidth: 0,
+       pointPadding: 0.25,
+     // "pointWidth": 30,
+      "stacking": "normal"
+    }
+  },
+  "xAxis": {
+    "type": "category",
+    "tickInterval": 1,
+    "labels": {
+    formatter: function(){
+        return this.value
+          .replace("Beschäftigte", "Beschäftigte<br>(N=5 155)")
+          .replace("Betriebe", "Betriebe<br>(N=985)")
+          ;
+      },
+    }
+  },  
+  "yAxis": {
+      tickAmount: 8,
+      "labels": {
+"format": "{value:,.0f}%",
+    },
+	"max": undefined
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "series": [
+  {"color": "#A0BEC8"}, 
+  {"color": "#68AB2B"},
+
+  ],
+  "chart": {
+    //"renderTo": 'container-I.01.1.0016', 
+    //"marginBottom": 75,
+    //"marginTop": 75,
+    "type": "column",
+    "inverted": false
+  },
+  "tooltip": {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+    "footerFormat": 'Total: <b>{point.total:,.1f}%</b>',
+   "shared": false
+  },
+}
+}());
