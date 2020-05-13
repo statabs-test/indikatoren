@@ -47,7 +47,7 @@
     //"marginTop": 75,
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    "spacingBottom": 75
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
