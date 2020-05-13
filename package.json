@@ -5,7 +5,7 @@
   "dependencies": {
     "@statabs/statabs-filter": "2.1.1",
     "bootstrap": "4.3.1",
-    "bootstrap-multiselect": "0.9.13-1",
+    "bootstrap-multiselect": "0.9.15",
     "highcharts": "6.1.1",
     "jquery": "^3.4.1",
     "proj4": "2.4.3",
