@@ -55588,7 +55588,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)."
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -55628,7 +55628,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)."
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, Covid-19 Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
