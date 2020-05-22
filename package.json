@@ -18,7 +18,7 @@
     "crlf": "1.1.1",
     "csv": "^5.3.1",
     "eol": "0.9.1",
-    "forever": "^2.0.0",
+    "forever": "^3.0.0",
     "fs-extra": "5.0.0",
     "gh-pages-travis": "1.0.4",
     "glob": "7.1.1",
