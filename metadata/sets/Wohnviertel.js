@@ -521,7 +521,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.4834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
