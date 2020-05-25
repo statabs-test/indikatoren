@@ -1,5 +1,18 @@
 (function () {
   return {
+    "xAxis": {
+     /* minRange: 3600 * 1000,
+      endOnTick: true,
+      startOnTick: true,
+      showFirstLabel: true,
+      showLastLabel: true,*/
+      ordinal: false,
+
+      labels: {
+        //  rotation: -45
+      }
+
+    },
     rangeSelector: {
       enabled: true,
       buttonTheme: {
@@ -8,16 +21,23 @@
       buttons:
         [
           {
-            //count: 14,
+            count: 13,
             type: 'year',
             text: 'vor 2020',
-            //dateMin:Date.UTC(2010,0),
-            dateMax: Date.UTC(2019, 12)
+            events: {
+              click: function (e) {
+                const xAxis = chart.xAxis[0];
+                xAxis.setExtremes(Date.UTC(2007, 0), Date.UTC(2019, 12));
+                return false;
+              
+              }
+            }
           },
           {
+            count: 1,
             type: 'year',
             text: 'ab 2020',
-            dateMin: Date.UTC(2020, 0),
+            //dateMin: Date.UTC(2020, 0),
             // dateMax:Date.UTC(2019,9)
           },
           /* {
@@ -36,8 +56,8 @@
 
         ],
       buttonSpacing: 40,
-      inputEnabled: false,
-      selected: 3,
+      inputEnabled: true,
+      selected: 2,
       //inputDateFormat: '%Y-%m',
       //inputEditDateFormat: '%Y'
 
@@ -50,20 +70,7 @@
         format: "{value:,.0f}",
       },
       opposite: false,
-    },
-    "xAxis": {
-      minRange: 3600 * 1000,
-      endOnTick: true,
-      startOnTick: true,
-      showFirstLabel: true,
-      showLastLabel: true,
-      ordinal: false,
-
-      labels: {
-        //  rotation: -45
-      }
-
-    },
+    },    
     "tooltip": {
       shared: true,
       split: false,
