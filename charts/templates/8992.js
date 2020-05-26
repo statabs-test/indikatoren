@@ -1,76 +1,52 @@
 (function () {
   return {
-    "xAxis": {
-     /* minRange: 3600 * 1000,
-      endOnTick: true,
-      startOnTick: true,
-      showFirstLabel: true,
-      showLastLabel: true,*/
-      ordinal: false,
-
-      labels: {
-        //  rotation: -45
-      }
-
-    },
     rangeSelector: {
-      enabled: true,
       buttonTheme: {
         width: null
       },
       buttons:
-        [
-          {
-            count: 13,
-            type: 'year',
-            text: 'vor 2020',
-            events: {
-              click: function (e) {
-                const xAxis = chart.xAxis[0];
-                xAxis.setExtremes(Date.UTC(2007, 0), Date.UTC(2019, 12));
-                return false;
-              
-              }
-            }
-          },
-          {
-            count: 1,
-            type: 'year',
-            text: 'ab 2020',
-            //dateMin: Date.UTC(2020, 0),
-            // dateMax:Date.UTC(2019,9)
-          },
-          /* {
-             type: 'ytd',
-             text: 'YTD'
-           },
-           {
-             type: 'month',
-             count: 6,
-             text: '6m'
-         },*/
-          {
-            type: 'all',
-            text: 'Alle Jahre',
-          },
+        [{
+          type: '',
+          count: 14,
+          text: 'vor 2020'
+        },
+        {
+          count: 1,
+          type: 'year',
+          text: 'ab 2020',
+        },
+        {
+          type: 'all',
+          text: 'Alle Jahre',
+        },
 
         ],
       buttonSpacing: 40,
-      inputEnabled: true,
+      inputEnabled: false,
       selected: 2,
-      //inputDateFormat: '%Y-%m',
-      //inputEditDateFormat: '%Y'
-
+    },
+    "xAxis": {
+      events: {
+        SetExtremes: function (e) {
+          if (e.trigger == "rangeSelectorButton" &&
+            e.rangeSelectorButton.text == "vor 2020") {
+            // it is your button that caused this,
+            // so setExtrememes to your custom
+            // have to do in timeout to let
+            // highcharts finish processing events...
+            setTimeout(function () {
+              Highcharts.charts[0].xAxis[0].setExtremes(Date.UTC(2006, 1, 1), Date.UTC(2019, 12, 31))
+            }, 1);
+          }
+        },
+      },
     },
     "yAxis": {
-      showLastLabel: true,
-      endOnTick: true,
-
       labels: {
         format: "{value:,.0f}",
       },
       opposite: false,
-    },    
+    },
     "tooltip": {
       shared: true,
       split: false,
@@ -79,16 +55,9 @@
     },
 
     "series": [
-      {
-        "color": "#68AB2B",
-      },
-      {
-        "color": "#008AC3",
-      }, /* violett */
-      {
-        "color": "#FABD24",
-      }, /* rot */
-
+      { "color": "#68AB2B" },
+      { "color": "#008AC3" },
+      { "color": "#FABD24" },
     ],
     "legend": {
       "enabled": true,
@@ -96,14 +65,5 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
     },
-
-    /*data: {
-      //convert year in first column to UTC date to be used by Highstock
-      parsed: function(columns){
-          columns[0].forEach(function(v, i, a){
-              columns[0][i] = Date.UTC(columns[0][i]);
-          });
-      }
-    }, */
   }
 }());
