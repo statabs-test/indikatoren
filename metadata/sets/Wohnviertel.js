@@ -1319,7 +1319,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
 		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
@@ -1335,7 +1335,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
+		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
