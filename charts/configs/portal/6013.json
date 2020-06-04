@@ -5,27 +5,27 @@
       "data": [
         [
           "Deutschland",
-          2011
+          2125
         ],
         [
           "USA",
-          532
-        ],
-        [
-          "Italien",
-          486
+          496
         ],
         [
           "Frankreich",
-          474
+          489
         ],
         [
           "UK",
-          438
+          455
+        ],
+        [
+          "Italien",
+          428
         ],
         [
           "Übriges Ausland",
-          3815
+          3980
         ]
       ],
       "turboThreshold": 0
@@ -101,7 +101,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "tooltip": {
