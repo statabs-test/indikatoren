@@ -1136,12 +1136,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote und weisen 2019 erstmals eine höhere Quote auf als jene vom Balkan.",
 		"erlaeuterungen": "Lernendenquote: Lernende mit Wohnort Basel-Stadt und Lehrbetrieb im Kanton Basel-Stadt im Verhältnis zu den 16- bis 20-Jährigen der Wohnbevölkerung des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_005",
+		"orderKey": "02_00_00_00_00_301",
 		"parentId": null,
 		"children": [
 			"6669"

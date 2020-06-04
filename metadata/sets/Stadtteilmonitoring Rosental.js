@@ -633,7 +633,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Durch die Überbauungen auf dem Entwicklungsareal Erlenmatt konnte das Wohnviertel Rosental 2015 und 2018 einen grossen Zuwachs an Wohnungen verzeichnen.",
+		"lesehilfe": "Durch die Überbauungen auf dem Entwicklungsareal Erlenmatt konnte das Wohnviertel Rosental 2015 und 2019 einen grossen Zuwachs an Wohnungen verzeichnen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
