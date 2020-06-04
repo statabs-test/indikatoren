@@ -21340,7 +21340,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittelwert des Reineinkommens",
-		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2017",
 		"kuerzel": "I.18.2.06901",
 		"kuerzelKunde": "2-4",
 		"description": "Mittelwert des Reineinkommens",
@@ -21350,13 +21350,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:10:14.1414",
+		"aktualisierungsdatum": "2020-06-02T17:58:19.1919",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausser in den Wohnvierteln Klybeck und Gotthelf ist überall ein Anstieg des Mittelwertes pro Veranlagung im Vergleich zum Steuerjahr 2007 zu verzeichnen. Am stärksten fällt er in Bettingen und in den Wohnvierteln Vorstädte und Rosental aus. In Klybeck ist der Mittelwert 2016 um 7,2% kleiner als 2007. Der Mittelwert aller Veranlagungen im Kanton stieg um 6,9%.",
+		"lesehilfe": "In den meisten Wohnvierteln ist ein Anstieg des Mittelwertes pro Veranlagung im Vergleich zum Steuerjahr 2008 zu verzeichnen. Am relativ stärksten fällt er in den Wohnvierteln Rosental und Wettstein mit jeweils über 20% aus. Im Wohnviertel Bruderholz ist der Mittelwert 2017 um 17,7% kleiner als 2008. Der Mittelwert aller Veranlagungen im Kanton stieg um 6,9%.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -21390,7 +21390,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
+		"aktualisierungsdatum": "2020-06-04T09:35:17.1717",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21460,7 +21460,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittelwert des Reinvermögens",
-		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2017",
 		"kuerzel": "I.18.2.06904",
 		"kuerzelKunde": "2-7",
 		"description": "Mittelwert des Reinvermögens",
@@ -21470,13 +21470,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:11:12.1212",
+		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens pro Veranlagung weist im Jahr 2016 mit ca. 2,5 Mio. Franken das Wohnviertel Bruderholz auf, gefolgt von Bettingen mit rund 2,2 Mio. Franken. Auch 2007 lag der höchste Wert im Wohnviertel Bruderholz.",
+		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens pro Veranlagung weist im Jahr 2017 mit ca. 2,4 Mio. Franken die Gemeinde Bettingen auf, gefolgt vom Wohnviertel Vorstädte mit rund 1,5 Mio. Franken. 2008 lag der höchste Wert im Wohnviertel Bruderholz.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -21663,7 +21663,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
-		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2017",
 		"kuerzel": "I.18.2.06909",
 		"kuerzelKunde": "2-12",
 		"description": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
@@ -21673,13 +21673,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-04T10:42:31.3131",
+		"aktualisierungsdatum": "2020-06-04T09:59:10.1010",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Ertrag aus Einkommens- und Vermögenssteuer 2016 verzeichnet das Wohnviertel Bruderholz mit rund 207 Mio. Franken (+33,4% gegenüber 2007), gefolgt von Riehen mit ca. 205 Mio. Franken (+8,5%). Den kleinsten Ertrag steuert Kleinhüningen mit 8,2 Mio. Franken bei (+0,6%). Im Jahr 2016 beträgt der Wert für den gesamten Kanton rund 1,5 Milliarden Franken, +13,9% mehr als im Steuerjahr 2007.",
+		"lesehilfe": "Den höchsten Ertrag aus Einkommens- und Vermögenssteuer 2017 verzeichnet die Gemeinde Riehen mit rund 203 Mio. Franken (+16,2% gegenüber 2008), gefolgt vom Wohnviertel St. Alban mit ca. 142 Mio. Franken (+12,0%). Den kleinsten Ertrag steuert Kleinhüningen mit 8,1 Mio. Franken bei (+13,4%). Im Jahr 2017 beträgt der Wert für den gesamten Kanton rund 1,4 Mrd. Franken, 9,7% mehr als im Steuerjahr 2008.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
