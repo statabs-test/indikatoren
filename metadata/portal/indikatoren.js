@@ -21260,7 +21260,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
-		"subtitle": "indexiert (2007 = 100), Basel-Stadt",
+		"subtitle": "indexiert (2008 = 100), Basel-Stadt",
 		"kuerzel": "I.18.2.06899",
 		"kuerzelKunde": "2-2",
 		"description": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
@@ -21270,13 +21270,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:09:23.2323",
+		"aktualisierungsdatum": "2020-06-02T17:58:19.1919",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die indexierten Linien für die Wohnbevölkerung in Basel-Stadt und die Anzahl der Veranlagungen laufen relativ gleichmässig. Die grössten Schwankungen zeigt das Reinvermögen, dass seit 2007 nominal um 31,4% gewachsen ist. Das Reineinkommen stieg um 12,3%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2016 um 13,9% über dem Wert von 2007. Der grössere Anstieg des Reinvermögens zwischen 2011 und 2014 sowie 2016 lag unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften.",
+		"lesehilfe": "Die indexierten Linien für die Wohnbevölkerung in Basel-Stadt und die Anzahl der Veranlagungen verlaufen relativ gleichmässig. Die grössten Schwankungen seit 2008 zeigt das Reinvermögen, das seitdem nominal 30,3% gewachsen ist. Das Reineinkommen stieg um 11,6%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2017 um 9,7% über dem Wert von 2008. Der grössere Anstieg des Reinvermögens zwischen 2011 und 2014 sowie im Jahr 2016 lag unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -21783,7 +21783,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2008 und 2017",
+		"subtitle": "in Franken, Basel-Stadt, 2009 und 2018",
 		"kuerzel": "I.18.2.06912",
 		"kuerzelKunde": "4-2",
 		"description": "Quellensteuerertrag nach Status",
@@ -21793,13 +21793,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-04T10:39:17.1717",
+		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
 		"stufe1": "Quellensteuer",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen, 2017 sind dies rund 300 Mio. Franken (+68,7% gegenüber 2008). Der Ertrag der Grenzgänger aus Deutschland u .a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2017 insgesamt 89,2 Mio. Franken (+33,6% gegenüber 2008). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt – der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt (73,1 Mio. Franken, +9,6% gegenüber 2008). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. Insgesamt beträgt der Quellensteuerertrag 2017 439 Mio. Franken.",
+		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen, 2019 sind dies rund 303 Mio. Franken (+50,4% gegenüber 2009). Der Ertrag der Grenzgänger aus Deutschland u. a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2019 insgesamt 88,2 Mio. Franken (+30,3% gegenüber 2009). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt – der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt (73,4 Mio. Franken, -3,2% gegenüber 2009). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. 2019 betragen sie insgesamt 30,1 Mio. Franken. In den meisten Kategorien hat auch die Anzahl der Veranlagungen seit 2009 stark zugenommen, beim Erwerb von rund 19 700 auf fast 32 000 (+62,1%), bei den Grenzgängern aus Deutschland u. a. von 21 000 auf 25 400 (+20,8%). Insgesamt beträgt der Quellensteuerertrag 2018 rund 442 Mio. Franken, 49,9% mehr als 2008 und 0,8% mehr als im Jahr 2017.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
