@@ -19,20 +19,20 @@ var legendPosition = {
 		y3C: [382, 412, 442],
 		y4S: [365, 390, 420, 445],
 		numbers: {
-			x: 0,
+			x: 765,
 			y: [365, 390, 420, 445], // Customizable
 			y3C: [370, 400, 430],
 			y4S: [378, 403, 433, 458]
 		},
 		title: {
-			x: 0
+			x: 740
 		}
 	}
 };
 
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+//legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
 
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+//legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
 var i;
 for (i = 0; i < 3; i++) {
 	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
