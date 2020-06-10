@@ -255,7 +255,7 @@ return {
 					fn.addLegendTitle(chart,  'Bevölkerungssaldo', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);	
 					fn.addLegendTitle(chart, choroplethSeries.name.replace("er ", "er<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-	                fn.addLegendColumnChart(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+15,  legendColumnValues /** 0.466  /* [1.44, 0.72]*/, color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
+	                fn.addLegendColumnChart(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+15,  legendColumnValues.map(function(x) { return x * 0.8; }), color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
 	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 10, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(3.0, 1,","," "), color(3, 0), 'columnLegendHideOnZoom');
 	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 35, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
 
