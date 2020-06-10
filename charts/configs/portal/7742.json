@@ -994,6 +994,7 @@
     "align": "left"
   },
   "xAxis": {
+    "minRange": 3600000,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "ordinal": false,
@@ -1071,14 +1072,15 @@
   "rangeSelector": {
     "verticalAlign": "bottom",
     "buttonPosition": {},
+    "enabled": true,
     "buttonTheme": {
       "width": null
     },
     "buttons": [
       {
-        "count": 21,
         "type": "year",
-        "text": "nur Szenarien"
+        "text": "nur Szenarien",
+        "dateMax": 1577836800000
       },
       {
         "count": 30,

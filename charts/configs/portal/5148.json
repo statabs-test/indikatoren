@@ -805,6 +805,7 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": false,
+    "minRange": 3600000,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "ordinal": false,

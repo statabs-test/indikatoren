@@ -2,6 +2,9 @@
   "series": [
     {
       "color": "#68AB2B",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           1136077200000,
@@ -696,6 +699,9 @@
     },
     {
       "color": "#008AC3",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           1136077200000,
@@ -1390,6 +1396,9 @@
     },
     {
       "color": "#FABD24",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           1136077200000,
@@ -2085,6 +2094,7 @@
   ],
   "xAxis": {
     "type": "datetime",
+    "minRange": 3600000,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "ordinal": false,
@@ -2099,11 +2109,20 @@
       }
     },
     "tickLength": 0,
-    "minRange": 3600000,
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true
+    "events": {
+      "afterSetExtremes": function (e) {
+          if (e.trigger == "rangeSelectorButton" &&
+            e.rangeSelectorButton.text == "vor 2020") {
+            // it is your button that caused this,
+            // so setExtrememes to your custom
+            // have to do in timeout to let
+            // highcharts finish processing events...
+            setTimeout(function () {
+              Highcharts.charts[0].xAxis[0].setExtremes(Date.UTC(2006, 0), Date.UTC(2019, 12))
+            }, 1);
+          }
+        }
+    }
   },
   "isStock": true,
   "chart": {
@@ -2210,25 +2229,20 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "align": "left"
   },
   "rangeSelector": {
     "verticalAlign": "bottom",
     "buttonPosition": {},
-    "enabled": true,
     "buttonTheme": {
       "width": null
     },
     "buttons": [
       {
-        "type": "year",
-        "text": "vor 2020",
-        "dateMax": 1577836800000
-      },
-      {
-        "type": "year",
-        "text": "ab 2020",
-        "dateMin": 1577836800000
+        "type": "",
+        "count": 2,
+        "text": "vor 2020"
       },
       {
         "type": "all",
@@ -2236,8 +2250,9 @@
       }
     ],
     "buttonSpacing": 40,
+    "enabled": true,
     "inputEnabled": false,
-    "selected": 3
+    "selected": 1
   },
   "navigator": {
     "margin": 10,

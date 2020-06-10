@@ -994,6 +994,7 @@
     "align": "left"
   },
   "xAxis": {
+    "minRange": 3600000,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "ordinal": false,
