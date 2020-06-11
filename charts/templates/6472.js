@@ -66,7 +66,7 @@
 	 marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,
-      "height": 500,
+      "height": 550,
   },
 }
 }());
