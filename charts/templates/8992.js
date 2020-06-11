@@ -64,7 +64,7 @@
         {
           type: 'millisecond',
           count: Date.now() - (Date.now() % (30 * 24 * 3600 * 1000))
-            - 2 * 30 * 24 * 3600 * 1000 - Date.UTC(2020, 0),
+            - 30 * 24 * 3600 * 1000 - Date.UTC(2020, 0),
           text: 'ab 2020',
         },
         {
@@ -100,7 +100,7 @@
             e.rangeSelectorButton.text == "ab 2020") {
             setTimeout(function () {
               Highcharts.charts[0].xAxis[0].setExtremes(Date.UTC(2020, 0),
-                Date.now() - (Date.now() % (30 * 24 * 3600 * 1000)) - 2 * 30 * 24 * 3600 * 1000)
+                Date.now() - (Date.now() % (30 * 24 * 3600 * 1000)) - 30 * 24 * 3600 * 1000)
             }, 1);
           }
         },
