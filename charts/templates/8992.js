@@ -30,13 +30,13 @@
         "marker": {
           "enabled": false
         }
-      }, 
+      },
       {
         "color": "#FABD24",
         "marker": {
           "enabled": false
         }
-      }, 
+      },
 
     ],
     "legend": {
@@ -52,24 +52,25 @@
 
 
     rangeSelector: {
+      allButtonsEnabled: true,
       buttonTheme: {
         width: null
       },
       buttons:
         [{
-            type: '',
-            count: 2,
-            text: 'vor 2020'
-          },
-          {
-            type: '',
-            count: 2,
-            text: 'ab 2020'
-          },
-          {
-            type: 'all',
-            text: 'Alle Jahre'
-          }
+          type: 'millisecond',
+          count: Date.UTC(2019, 12)-Date.UTC(2006, 0),
+          text: 'vor 2020',
+        },
+        {
+          type: 'millisecond',
+          count: Date.now()-(Date.now() % (30 * 24 * 3600 * 1000))- 2 * 30 * 24 * 3600 * 1000 - Date.UTC(2020, 0),
+          text: 'ab 2020',
+        },
+        {
+          type: 'all',
+          text: 'Alle Jahre'
+        }
         ],
       buttonSpacing: 40,
       enabled: true,
@@ -79,6 +80,14 @@
 
     },
     "xAxis": {
+      tickPixelInterval: 50,
+      type: 'datetime',
+      DateTimeLabelFormats: {
+        month: '%b \'%y',
+        year: '%Y'
+   
+    },
+      ordinal: false,
       events: {
         afterSetExtremes: function (e) {
           if (e.trigger == "rangeSelectorButton" &&
@@ -90,7 +99,8 @@
           else if (e.trigger == "rangeSelectorButton" &&
             e.rangeSelectorButton.text == "ab 2020") {
             setTimeout(function () {
-              Highcharts.charts[0].xAxis[0].setExtremes(Date.UTC(2020, 0), undefined)
+              Highcharts.charts[0].xAxis[0].setExtremes(Date.UTC(2020, 0),  
+              Date.now()-(Date.now() % (30 * 24 * 3600 * 1000))- 2 * 30 * 24 * 3600 * 1000)
             }, 1);
           }
         },
