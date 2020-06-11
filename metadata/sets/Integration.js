@@ -2953,7 +2953,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6472",
 		"kuerzelKunde": "C7-1",
 		"description": "Zufriedenheit mit dem Arbeitsplatzangebot",
@@ -2963,29 +2963,33 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Zufriedenheit mit dem Angebot an Arbeitsplätzen im Kanton Basel-Stadt ist eine Veränderung über die Jahre auszumachen: 2015 sind 11,3% der befragten Personen sehr zufrieden mit dem Angebot an Arbeitsplätzen. In der letzten Befragung betrug dieser Anteil 17,6%. Jedoch sind weniger Befragte eher oder ganz unzufrieden als 2011. Die Einschätzung des Angebots an Arbeitsplätzen unterscheidet sich nach Staatsangehörigkeit signifikant. 65,0% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Angebot an Arbeitsplätzen, bei den Schweizerinnen und Schweizern sind 56,8% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "Bei der Zufriedenheit mit dem Angebot an Arbeitsplätzen im Kanton Basel-Stadt ist eine Veränderung über die Jahre auszumachen: 2015 sind 11,3% der befragten Personen sehr zufrieden mit dem Angebot an Arbeitsplätzen. In der Befragung 2011 betrug dieser Anteil 17,6%. Jedoch sind weniger Befragte eher oder ganz unzufrieden als 2011. Die Einschätzung des Angebots an Arbeitsplätzen unterscheidet sich nach Staatsangehörigkeit signifikant. 65,0% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Angebot an Arbeitsplätzen, bei den Schweizerinnen und Schweizern sind 56,8% sehr oder eher zufrieden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_032",
+		"orderKey": "03_00_00_00_00_701",
 		"parentId": null,
 		"children": [
 			"6713"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_17"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6472,
+		"chart-id": 6472,
+		"filter": "",
 		"id": 6472
 	},
 	{
@@ -3038,20 +3042,22 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2018 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
+		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2019 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,6% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_001",
+		"orderKey": "_101",
 		"parentId": null,
 		"children": [
-			"6715"
+			"6715",
+			"8339",
+			"8610"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3984,7 +3990,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6504",
 		"kuerzelKunde": "D8-4",
 		"description": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
@@ -3994,29 +4000,33 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Die Einschätzung des Wohnungsangebots unterscheidet sich nach Staatsangehörigkeit signifikant. 61,3% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Wohnungsangebot, bei den Schweizerinnen und Schweizern sind 49,3% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "Mehr als die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Befragte mit ausländischer Staatsbürgerschaft weisen gegenüber den Befragten mit Schweizer Pass in sämtlichen Befragungsjahren einen höhren Anteil Zufriedener auf.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_025",
+		"orderKey": "04_00_00_00_00_804",
 		"parentId": null,
 		"children": [
 			"6738"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6504,
+		"chart-id": 6504,
+		"filter": "",
 		"id": 6504
 	},
 	{

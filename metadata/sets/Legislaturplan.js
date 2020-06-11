@@ -84,8 +84,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.02953",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.2953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -94,15 +94,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
+		"aktualisierungsdatum": "2019-08-14T18:15:07.077",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Alter. Während bei den 18- bis 29-Jährigen die Zufriedenheit bei 88,0% liegt, sind die Befragten, die älter als 69 Jahre sind, mit 97,4% zufriedener.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "91,4% der im Jahr 2019 Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot nimmt mit steigendem Alter zu. Frauen zeigen sich zufriedener mit dem Kulturangebot als Männer.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -110,17 +112,20 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2953,
-		"darstellungsart": "Grafik"
+		"data-id": 2953,
+		"chart-id": 2953,
+		"filter": "",
+		"id": 2953
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.2956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -136,8 +141,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Befragte mit Schweizer Pass bewerten die Gesundheitsversorgung mit 93,9% höher als ausländische Befragte (90,7%). Bei den Altersgruppen abe 60 Jahren liegt die Zufriedenheit bei über 95%. Zwischen den Geschlechtern ist 2019 kein signifikanter Unterschied feststellbar.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -148,7 +153,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

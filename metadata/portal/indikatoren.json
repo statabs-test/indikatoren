@@ -1183,8 +1183,8 @@
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.02953",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.2953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -1193,15 +1193,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
+		"aktualisierungsdatum": "2019-08-14T18:15:07.077",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Alter. Während bei den 18- bis 29-Jährigen die Zufriedenheit bei 88,0% liegt, sind die Befragten, die älter als 69 Jahre sind, mit 97,4% zufriedener.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "91,4% der im Jahr 2019 Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot nimmt mit steigendem Alter zu. Frauen zeigen sich zufriedener mit dem Kulturangebot als Männer.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
@@ -1210,17 +1212,20 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2953,
-		"darstellungsart": "Grafik"
+		"data-id": 2953,
+		"chart-id": 2953,
+		"filter": "",
+		"id": 2953
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.2956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -1236,8 +1241,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Befragte mit Schweizer Pass bewerten die Gesundheitsversorgung mit 93,9% höher als ausländische Befragte (90,7%). Bei den Altersgruppen abe 60 Jahren liegt die Zufriedenheit bei über 95%. Zwischen den Geschlechtern ist 2019 kein signifikanter Unterschied feststellbar.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1249,7 +1254,7 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1641,8 +1646,8 @@
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.04127",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.4127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"thema": "50 Befragungen",
@@ -1657,22 +1662,27 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
+		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot «Sehr zufrieden» und 34,8% «Eehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der wieder angestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4127,
-		"darstellungsart": "Grafik"
+		"data-id": 4127,
+		"chart-id": 4127,
+		"filter": "",
+		"id": 4127
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -2333,7 +2343,7 @@
 	},
 	{
 		"title": "Zufriedenheit von Familien mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.4144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit von Familien mit dem Wohnungsangebot",
@@ -2349,8 +2359,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Etwas mehr als die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit 2019 wieder gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2360,7 +2370,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2616,8 +2626,8 @@
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
-		"kuerzel": "I.50.1.04151",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?», Basel-Stadt, 2015",
+		"kuerzel": "I.50.1.4151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"thema": "50 Befragungen",
@@ -2632,22 +2642,27 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
-		"erlaeuterungen": "",
+		"lesehilfe": "23,6% der im Jahr 2019 Befragten zeigen sich mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild sehr zufrieden und 52,9% eher zufrieden. Insgesamt 15,5% sind damit eher nicht oder sehr unzufrieden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_13"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4151,
-		"darstellungsart": "Grafik"
+		"data-id": 4151,
+		"chart-id": 4151,
+		"filter": "",
+		"id": 4151
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -2771,8 +2786,8 @@
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
-		"kuerzel": "I.50.1.04155",
+		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.4155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"thema": "50 Befragungen",
@@ -2787,22 +2802,27 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4155,
-		"darstellungsart": "Grafik"
+		"data-id": 4155,
+		"chart-id": 4155,
+		"filter": "",
+		"id": 4155
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -17421,7 +17441,7 @@
 	},
 	{
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6472",
 		"kuerzelKunde": "C7-1",
 		"description": "Zufriedenheit mit dem Arbeitsplatzangebot",
@@ -17431,30 +17451,34 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Zufriedenheit mit dem Angebot an Arbeitsplätzen im Kanton Basel-Stadt ist eine Veränderung über die Jahre auszumachen: 2015 sind 11,3% der befragten Personen sehr zufrieden mit dem Angebot an Arbeitsplätzen. In der letzten Befragung betrug dieser Anteil 17,6%. Jedoch sind weniger Befragte eher oder ganz unzufrieden als 2011. Die Einschätzung des Angebots an Arbeitsplätzen unterscheidet sich nach Staatsangehörigkeit signifikant. 65,0% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Angebot an Arbeitsplätzen, bei den Schweizerinnen und Schweizern sind 56,8% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "Bei der Zufriedenheit mit dem Angebot an Arbeitsplätzen im Kanton Basel-Stadt ist eine Veränderung über die Jahre auszumachen: 2015 sind 11,3% der befragten Personen sehr zufrieden mit dem Angebot an Arbeitsplätzen. In der Befragung 2011 betrug dieser Anteil 17,6%. Jedoch sind weniger Befragte eher oder ganz unzufrieden als 2011. Die Einschätzung des Angebots an Arbeitsplätzen unterscheidet sich nach Staatsangehörigkeit signifikant. 65,0% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Angebot an Arbeitsplätzen, bei den Schweizerinnen und Schweizern sind 56,8% sehr oder eher zufrieden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_032",
+		"orderKey": "03_00_00_00_00_701",
 		"parentId": null,
 		"children": [
 			"6713"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_17"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6472,
+		"chart-id": 6472,
+		"filter": "",
 		"id": 6472
 	},
 	{
@@ -17508,21 +17532,23 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2018 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
+		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2019 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,6% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_001",
+		"orderKey": "_101",
 		"parentId": null,
 		"children": [
-			"6715"
+			"6715",
+			"8339",
+			"8610"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18388,7 +18414,7 @@
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6504",
 		"kuerzelKunde": "D8-4",
 		"description": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
@@ -18398,30 +18424,34 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Die Einschätzung des Wohnungsangebots unterscheidet sich nach Staatsangehörigkeit signifikant. 61,3% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Wohnungsangebot, bei den Schweizerinnen und Schweizern sind 49,3% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "Mehr als die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Befragte mit ausländischer Staatsbürgerschaft weisen gegenüber den Befragten mit Schweizer Pass in sämtlichen Befragungsjahren einen höhren Anteil Zufriedener auf.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_025",
+		"orderKey": "04_00_00_00_00_804",
 		"parentId": null,
 		"children": [
 			"6738"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6504,
+		"chart-id": 6504,
+		"filter": "",
 		"id": 6504
 	},
 	{
