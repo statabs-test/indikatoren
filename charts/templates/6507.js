@@ -1,11 +1,7 @@
-/* 
-global Highcharts
-*/
 (function(){
     return {
  	"xAxis": {
         "type": "category",
-        uniqueNames: false,
         "labels": {
            align: "left",
             x: -140,
@@ -19,7 +15,7 @@ global Highcharts
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' :  'n='; 
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             }
@@ -29,6 +25,7 @@ global Highcharts
   	tickInterval: 20,
   	max: 100,
   	labels:{
+  		"type": "category",
   		rotation: 0,
   	}
   },
@@ -48,12 +45,13 @@ global Highcharts
   "legend": { 
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 140,
     "verticalAlign": "top",
     "align": "left",
-     "labelFormatter": function () {
-            return this.name;
-        },
+    itemWidth: 81,
+    padding: 1,
+    labelFormatter: function () {
+        return this.name;
+    },
     itemStyle: {
         fontWeight: "normal", 
         textOverflow: null, 
@@ -63,9 +61,8 @@ global Highcharts
 
 "chart": {     
 	 marginLeft: 150, 
-	 //marginBottom: 100,
      "inverted": true,
       "height": 500,
   },
-}
+};
 }());
