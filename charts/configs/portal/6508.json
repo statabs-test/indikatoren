@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
+      "index": 5,
       "legendIndex": 0,
       "data": [
         [
@@ -98,12 +98,12 @@
           99
         ]
       ],
-      "name": "Sehr gern",
+      "name": "Sehr gerne",
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
+      "color": "#73B97C",
+      "index": 4,
       "legendIndex": 1,
       "data": [
         [
@@ -199,12 +199,12 @@
           65
         ]
       ],
-      "name": "Eher gern",
+      "name": "Eher gerne",
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
-      "index": 2,
+      "color": "#FFDA80",
+      "index": 3,
       "legendIndex": 2,
       "data": [
         [
@@ -300,12 +300,12 @@
           17
         ]
       ],
-      "name": "Eher ungern",
+      "name": "Eher ungerne",
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 1,
+      "color": "#B00000",
+      "index": 2,
       "legendIndex": 3,
       "data": [
         [
@@ -401,12 +401,12 @@
           2
         ]
       ],
-      "name": "Ganz ungern",
+      "name": "Ganz ungerne",
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
+      "color": "#C8C8C8",
+      "index": 1,
       "legendIndex": 4,
       "data": [
         [
@@ -504,6 +504,107 @@
       ],
       "name": "Weiss nicht",
       "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2019: Total",
+          37
+        ],
+        [
+          "2019: Schweiz",
+          25
+        ],
+        [
+          "2019: Ausland",
+          10
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Total",
+          0
+        ],
+        [
+          "2015: Schweiz",
+          0
+        ],
+        [
+          "2015: Ausland",
+          0
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: Total",
+          0
+        ],
+        [
+          "2011: Schweiz",
+          0
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2007: Total",
+          0
+        ],
+        [
+          "2007: Schweiz",
+          0
+        ],
+        [
+          "2007: Ausland",
+          0
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Total",
+          0
+        ],
+        [
+          "2005: Schweiz",
+          0
+        ],
+        [
+          "2005: Ausland",
+          0
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
+          0
+        ],
+        [
+          "2003: Schweiz",
+          0
+        ],
+        [
+          "2003: Ausland",
+          0
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -562,7 +663,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 563,
     "spacing": [
       10,
       10,
@@ -675,7 +776,7 @@
             return this.name;
         },
     "enabled": true,
-    "itemWidth": 140
+    "itemWidth": 150
   },
   "exporting": {
     "filename": 6508
