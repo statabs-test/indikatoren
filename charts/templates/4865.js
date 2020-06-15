@@ -7,18 +7,26 @@
         },
         {
             "color": "#FFBB58", 
-            "index": 2
+            "index": 1
         },
         {
             "color": "#8A8A8A", 
-            "index": 1
+            "index": 2
         }        
   ],
   "xAxis": {
       "type": "category"
   },
-  "legend": {
-      "reversed": true
+  legend: {
+    reversed: false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
+    labelFormatter: function(){
+        return this.name.replace("/", " /<br/>");
+
+      }
   }
 	}
 }());

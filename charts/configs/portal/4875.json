@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2011 (N=1689)",
@@ -12,15 +10,17 @@
         [
           "2015 (N=1427)",
           29.5
+        ],
+        [
+          "2019 (N=1410)",
+          27.2
         ]
       ],
       "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#73B97C",
       "data": [
         [
           "2011 (N=1689)",
@@ -29,6 +29,10 @@
         [
           "2015 (N=1427)",
           50.5
+        ],
+        [
+          "2019 (N=1410)",
+          50.8
         ]
       ],
       "name": "Eher zufrieden",
@@ -36,8 +40,6 @@
     },
     {
       "color": "#FFBB58",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2011 (N=1689)",
@@ -46,15 +48,17 @@
         [
           "2015 (N=1427)",
           10
+        ],
+        [
+          "2019 (N=1410)",
+          9.3
         ]
       ],
       "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 5,
-      "legendIndex": 5,
+      "color": "#B00000",
       "data": [
         [
           "2011 (N=1689)",
@@ -63,6 +67,10 @@
         [
           "2015 (N=1427)",
           1.6
+        ],
+        [
+          "2019 (N=1410)",
+          1.3
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -70,8 +78,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2011 (N=1689)",
@@ -80,15 +86,17 @@
         [
           "2015 (N=1427)",
           4.6
+        ],
+        [
+          "2019 (N=1410)",
+          5.5
         ]
       ],
       "name": "Weiss nicht",
       "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#6F6F6F",
       "data": [
         [
           "2011 (N=1689)",
@@ -97,6 +105,10 @@
         [
           "2015 (N=1427)",
           3.9
+        ],
+        [
+          "2019 (N=1410)",
+          5.9
         ]
       ],
       "name": "Keine Angabe",
@@ -145,8 +157,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 40,
+    "height": 415,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -169,7 +181,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld\u002FQuartier?»"
+    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld\u002FQuartier?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -223,16 +235,16 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "reversed": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -240,8 +252,8 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
         }
   },
   "exporting": {

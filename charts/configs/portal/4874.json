@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2011 (N=1689)",
@@ -12,6 +10,10 @@
         [
           "2015 (N=1427)",
           31.4
+        ],
+        [
+          "2019 (N=1410)",
+          31.6
         ]
       ],
       "name": "Sehr stark",
@@ -19,8 +21,6 @@
     },
     {
       "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
       "data": [
         [
           "2011 (N=1689)",
@@ -29,6 +29,10 @@
         [
           "2015 (N=1427)",
           45.3
+        ],
+        [
+          "2019 (N=1410)",
+          45.7
         ]
       ],
       "name": "Eher stark",
@@ -36,8 +40,6 @@
     },
     {
       "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
       "data": [
         [
           "2011 (N=1689)",
@@ -46,6 +48,10 @@
         [
           "2015 (N=1427)",
           16.6
+        ],
+        [
+          "2019 (N=1410)",
+          14.7
         ]
       ],
       "name": "Eher nicht",
@@ -53,8 +59,6 @@
     },
     {
       "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2011 (N=1689)",
@@ -63,6 +67,10 @@
         [
           "2015 (N=1427)",
           2.8
+        ],
+        [
+          "2019 (N=1410)",
+          3.5
         ]
       ],
       "name": "Überhaupt nicht",
@@ -70,8 +78,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2011 (N=1689)",
@@ -80,6 +86,10 @@
         [
           "2015 (N=1427)",
           3.9
+        ],
+        [
+          "2019 (N=1410)",
+          4.5
         ]
       ],
       "name": "Keine Angabe",
@@ -128,8 +138,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 40,
+    "height": 415,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -152,7 +162,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»"
+    "text": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -206,16 +216,16 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "reversed": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -223,9 +233,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+    
+          }
   },
   "exporting": {
     "filename": 4874

@@ -11,6 +11,10 @@
         [
           "2015 (N=1427)",
           27.5
+        ],
+        [
+          "2019 (N=1410)",
+          29.5
         ]
       ],
       "name": "Ja",
@@ -18,7 +22,7 @@
     },
     {
       "color": "#FFBB58",
-      "index": 2,
+      "index": 1,
       "data": [
         [
           "2011 (N=1689)",
@@ -27,6 +31,10 @@
         [
           "2015 (N=1427)",
           64.3
+        ],
+        [
+          "2019 (N=1410)",
+          62.2
         ]
       ],
       "name": "Nein",
@@ -34,7 +42,7 @@
     },
     {
       "color": "#8A8A8A",
-      "index": 1,
+      "index": 2,
       "data": [
         [
           "2011 (N=1689)",
@@ -43,6 +51,10 @@
         [
           "2015 (N=1427)",
           8.1
+        ],
+        [
+          "2019 (N=1410)",
+          8.3
         ]
       ],
       "name": "Keine Angabe",
@@ -91,8 +103,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 40,
+    "height": 415,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -115,7 +127,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»"
+    "text": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -169,16 +181,16 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "reversed": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -186,9 +198,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+        return this.name.replace("/", " /<br/>");
+
+      }
   },
   "exporting": {
     "filename": 4865

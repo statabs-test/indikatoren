@@ -4,35 +4,47 @@
       "color": "#256370",
       "data": [
         [
-          "Arbeitskollegen 2015",
+          "Arbeitskollegen 2019 (N=1 410)",
           0.1
         ],
         [
-          "Arbeitskollegen 2011",
+          "Arbeitskollegen 2015 (N=1 427)",
+          0.1
+        ],
+        [
+          "Arbeitskollegen 2011 (N=1 689)",
           null
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
-          "Nachbarn 2015",
+          "Nachbarn 2019 (N=1 410)",
+          1.8
+        ],
+        [
+          "Nachbarn 2015 (N=1 427)",
           1.6
         ],
         [
-          "Nachbarn 2011",
+          "Nachbarn 2011 (N=1 689)",
           0.9
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
-          "Freunde und Bekannte 2015",
+          "Freunde und Bekannte 2019 (N=1 410)",
+          1.7
+        ],
+        [
+          "Freunde und Bekannte 2015 (N=1 427)",
           2
         ],
         [
-          "Freunde und Bekannte 2011",
+          "Freunde und Bekannte 2011 (N=1 689)",
           1.5
         ]
       ],
@@ -43,35 +55,47 @@
       "color": "#71A3B5",
       "data": [
         [
-          "Arbeitskollegen 2015",
+          "Arbeitskollegen 2019 (N=1 410)",
+          1.1
+        ],
+        [
+          "Arbeitskollegen 2015 (N=1 427)",
           1.7
         ],
         [
-          "Arbeitskollegen 2011",
+          "Arbeitskollegen 2011 (N=1 689)",
           0.5
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
-          "Nachbarn 2015",
+          "Nachbarn 2019 (N=1 410)",
+          11.8
+        ],
+        [
+          "Nachbarn 2015 (N=1 427)",
           12.4
         ],
         [
-          "Nachbarn 2011",
+          "Nachbarn 2011 (N=1 689)",
           6.7
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
-          "Freunde und Bekannte 2015",
+          "Freunde und Bekannte 2019 (N=1 410)",
+          10.6
+        ],
+        [
+          "Freunde und Bekannte 2015 (N=1 427)",
           10.3
         ],
         [
-          "Freunde und Bekannte 2011",
+          "Freunde und Bekannte 2011 (N=1 689)",
           6.7
         ]
       ],
@@ -82,35 +106,47 @@
       "color": "#FFBB58",
       "data": [
         [
-          "Arbeitskollegen 2015",
+          "Arbeitskollegen 2019 (N=1 410)",
+          2.9
+        ],
+        [
+          "Arbeitskollegen 2015 (N=1 427)",
           3.4
         ],
         [
-          "Arbeitskollegen 2011",
+          "Arbeitskollegen 2011 (N=1 689)",
           2.4
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
-          "Nachbarn 2015",
+          "Nachbarn 2019 (N=1 410)",
+          13.1
+        ],
+        [
+          "Nachbarn 2015 (N=1 427)",
           11.4
         ],
         [
-          "Nachbarn 2011",
+          "Nachbarn 2011 (N=1 689)",
           8.6
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
-          "Freunde und Bekannte 2015",
+          "Freunde und Bekannte 2019 (N=1 410)",
+          12
+        ],
+        [
+          "Freunde und Bekannte 2015 (N=1 427)",
           12.1
         ],
         [
-          "Freunde und Bekannte 2011",
+          "Freunde und Bekannte 2011 (N=1 689)",
           7.5
         ]
       ],
@@ -121,35 +157,47 @@
       "color": "#FF8028",
       "data": [
         [
-          "Arbeitskollegen 2015",
+          "Arbeitskollegen 2019 (N=1 410)",
+          51.4
+        ],
+        [
+          "Arbeitskollegen 2015 (N=1 427)",
           50.4
         ],
         [
-          "Arbeitskollegen 2011",
+          "Arbeitskollegen 2011 (N=1 689)",
           51.2
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
-          "Nachbarn 2015",
+          "Nachbarn 2019 (N=1 410)",
+          49.7
+        ],
+        [
+          "Nachbarn 2015 (N=1 427)",
           50
         ],
         [
-          "Nachbarn 2011",
+          "Nachbarn 2011 (N=1 689)",
           54.2
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
-          "Freunde und Bekannte 2015",
+          "Freunde und Bekannte 2019 (N=1 410)",
+          52.1
+        ],
+        [
+          "Freunde und Bekannte 2015 (N=1 427)",
           50.5
         ],
         [
-          "Freunde und Bekannte 2011",
+          "Freunde und Bekannte 2011 (N=1 689)",
           53.1
         ]
       ],
@@ -160,35 +208,47 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "Arbeitskollegen 2015",
+          "Arbeitskollegen 2019 (N=1 410)",
+          22.1
+        ],
+        [
+          "Arbeitskollegen 2015 (N=1 427)",
           20.8
         ],
         [
-          "Arbeitskollegen 2011",
+          "Arbeitskollegen 2011 (N=1 689)",
           18.1
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
-          "Nachbarn 2015",
+          "Nachbarn 2019 (N=1 410)",
+          6.5
+        ],
+        [
+          "Nachbarn 2015 (N=1 427)",
           6
         ],
         [
-          "Nachbarn 2011",
+          "Nachbarn 2011 (N=1 689)",
           0.1
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
-          "Freunde und Bekannte 2015",
+          "Freunde und Bekannte 2019 (N=1 410)",
+          6.4
+        ],
+        [
+          "Freunde und Bekannte 2015 (N=1 427)",
           6.7
         ],
         [
-          "Freunde und Bekannte 2011",
+          "Freunde und Bekannte 2011 (N=1 689)",
           8.1
         ]
       ],
@@ -199,35 +259,47 @@
       "color": "#8A8A8A",
       "data": [
         [
-          "Arbeitskollegen 2015",
+          "Arbeitskollegen 2019 (N=1 410)",
+          22.3
+        ],
+        [
+          "Arbeitskollegen 2015 (N=1 427)",
           23.6
         ],
         [
-          "Arbeitskollegen 2011",
+          "Arbeitskollegen 2011 (N=1 689)",
           27.8
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
-          "Nachbarn 2015",
+          "Nachbarn 2019 (N=1 410)",
+          17.1
+        ],
+        [
+          "Nachbarn 2015 (N=1 427)",
           18.5
         ],
         [
-          "Nachbarn 2011",
+          "Nachbarn 2011 (N=1 689)",
           29.5
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
-          "Freunde und Bekannte 2015",
+          "Freunde und Bekannte 2019 (N=1 410)",
+          17.2
+        ],
+        [
+          "Freunde und Bekannte 2015 (N=1 427)",
           18.4
         ],
         [
-          "Freunde und Bekannte 2011",
+          "Freunde und Bekannte 2011 (N=1 689)",
           23.1
         ]
       ],
@@ -253,7 +325,8 @@
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      }
+      },
+      "formatter": undefined
     }
   },
   "chart": {
@@ -275,7 +348,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -289,7 +362,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-4718",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "title": {
     "style": {
@@ -306,7 +379,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?»"
+    "text": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -362,9 +435,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
   },
   "legend": {
     "layout": "horizontal",
@@ -374,13 +447,14 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemWidth": 150
+    "itemWidth": 126
   },
   "exporting": {
     "filename": 4718
