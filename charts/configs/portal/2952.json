@@ -394,7 +394,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.», Basel-Stadt, 2019",
+    "text": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.», Anteil sehr oder eher Zufriedene, Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -414,7 +414,8 @@
       },
       "format": "{value}%"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 20
   },
   "navigation": {
     "menuItemStyle": {

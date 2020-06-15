@@ -271,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind sie mit dem Wohnungsangebot?», Basel-Stadt, 2019"
+    "text": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -332,10 +332,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -343,9 +343,10 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function(){
-          return this.name.replace("/", " /<br/>");
+        return this.name.replace("/", " /<br/>");
+
       },
-    "reversed": true
+    "reversed": false
   },
   "exporting": {
     "filename": 4144
