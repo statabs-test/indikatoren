@@ -236,7 +236,7 @@ return {
 						return colors[''+Math.sign(value)][index];
                     };
                     var chartHeight = 72;
-                    var columnWidth = 10;
+                    var columnWidth = 5;
 					
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
