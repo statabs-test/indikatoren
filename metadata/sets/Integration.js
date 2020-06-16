@@ -11,18 +11,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:35:05.055",
+		"aktualisierungsdatum": "2020-03-17T15:14:50.5050",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1999 bis 2018 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,4% auf 36,4%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
+		"lesehilfe": "Von 2000 bis 2019 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,6% auf 36,6%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007, 2010 und 2019 zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_001",
+		"orderKey": "01_00_00_00_00_101",
 		"parentId": null,
 		"children": [
 			"6597",
@@ -53,18 +53,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:02:44.4444",
+		"aktualisierungsdatum": "2020-03-17T15:15:03.033",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 lebten im Kanton Basel-Stadt 127 325 Schweizerinnen und Schweizer und 72 931 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1999 um 20 650 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 10 641.",
+		"lesehilfe": "Ende 2019 lebten im Kanton Basel-Stadt 127 092 Schweizerinnen und Schweizer und 73 315 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2000 um 21 468 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 9 212.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_002",
+		"orderKey": "01_00_00_00_00_102",
 		"parentId": null,
 		"children": [
 			"6592",
@@ -126,29 +126,29 @@ var indikatorensetData = [
 		"id": 6059
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6060",
-		"kuerzelKunde": "A1-5",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"kuerzelKunde": "A1-6",
+		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:43:11.1111",
+		"aktualisierungsdatum": "2020-04-01T16:56:21.2121",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
+		"lesehilfe": "Ende 2019 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "01_00_00_00_00_106",
 		"parentId": null,
 		"children": [
 			"6645"
@@ -168,9 +168,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6061",
-		"kuerzelKunde": "A1-8",
+		"kuerzelKunde": "A1-9",
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -178,22 +178,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-18T15:24:02.022",
+		"aktualisierungsdatum": "2020-04-01T16:56:53.5353",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 8 316 Personen, die Ende 2018 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
+		"lesehilfe": "Von 8 476 Personen, die Ende 2019 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_009",
+		"orderKey": "01_00_00_00_00_109",
 		"parentId": null,
 		"children": [
-			"6646",
-			"7787"
+			"6646"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -210,9 +209,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6062",
-		"kuerzelKunde": "A1-9",
+		"kuerzelKunde": "A1-10",
 		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -220,18 +219,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:42:42.4242",
+		"aktualisierungsdatum": "2020-05-28T18:46:59.5959",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2018 sowohl bei den Frauen als auch bei den Männern die Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, gefolgt von den Personen der EU-17 + EFTA Staaten. Bei den Männern fallen beide Anteile etwas grösser aus als bei den Frauen. Anders zeigt sich die Situation bei den Personen aus Osteuropa sowie Mittel- und Südamerika: Hier sind die Anteile bei den Frauen grösser als bei den Männern.",
+		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2019 bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton und bei den Männern Personen der EU-17 + EFTA Staaten.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_009",
+		"orderKey": "01_00_00_00_00_110",
 		"parentId": null,
 		"children": [
 			"6647"
@@ -261,18 +260,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:41:52.5252",
+		"aktualisierungsdatum": "2020-05-28T17:34:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 1999 und 2018 um 4,2 Jahre auf 37,1 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 0,8 Jahre auf 45,9 Jahre gesunken. Bei der Schweizer Bevölkerung liegt das durchschnittliche Alter der Frauen über demjenigen der Männer. Bei der ausländischen Bevölkerung verhält es sich umgekehrt, wobei hier die Unterschiede zwischen den Geschlechtern deutlich geringer sind als bei den Schweizerinnen und Schweizern.",
+		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 2000 und 2019 um 4,0 Jahre auf 37,3 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 0,9 Jahre auf 45,9 Jahre gesunken. Bei der Schweizer Bevölkerung liegt das durchschnittliche Alter der Frauen über demjenigen der Männer. Bei der ausländischen Bevölkerung verhält es sich umgekehrt, wobei hier die Unterschiede zwischen den Geschlechtern deutlich geringer sind als bei den Schweizerinnen und Schweizern.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_011",
+		"orderKey": "01_00_00_00_00_201",
 		"parentId": null,
 		"children": [
 			"6648"
@@ -292,9 +291,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 1999",
+		"subtitle": "Basel-Stadt, 2000",
 		"kuerzel": "I.01.1.6064",
-		"kuerzelKunde": "A2-2",
+		"kuerzelKunde": "A2-4",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -302,22 +301,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:30:16.1616",
+		"aktualisierungsdatum": "2020-04-15T14:07:50.5050",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 1999 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
+		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 2000 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_012",
+		"orderKey": "01_00_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"6649",
-			"7790"
+			"6649"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -334,9 +332,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 1999",
+		"subtitle": "Basel-Stadt, 2000",
 		"kuerzel": "I.01.1.6065",
-		"kuerzelKunde": "A2-4",
+		"kuerzelKunde": "A2-6",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -344,22 +342,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:31:17.1717",
+		"aktualisierungsdatum": "2020-04-15T14:08:02.022",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grössten Altersgruppen sind 1999 diejenigen der 30- bis 34-jährigen Männer und Frauen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"lesehilfe": "Die grössten Altersgruppen sind 2000 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen der 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_014",
+		"orderKey": "01_00_00_00_00_206",
 		"parentId": null,
 		"children": [
-			"6650",
-			"7791"
+			"6650"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -376,9 +373,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6066",
-		"kuerzelKunde": "A2-3",
+		"kuerzelKunde": "A2-5",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -386,22 +383,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:32:59.5959",
+		"aktualisierungsdatum": "2020-04-15T14:08:12.1212",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 1999 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und 55- bis 59-Jährigen.",
+		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 2000 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_013",
+		"orderKey": "01_00_00_00_00_205",
 		"parentId": null,
 		"children": [
-			"6651",
-			"7792"
+			"6651"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -418,9 +414,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6067",
-		"kuerzelKunde": "A2-5",
+		"kuerzelKunde": "A2-7",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -428,22 +424,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:35:11.1111",
+		"aktualisierungsdatum": "2020-04-15T14:08:20.2020",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei den ausländischen Männern ist die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
+		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei Männern und Frauen bilden die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_015",
+		"orderKey": "01_00_00_00_00_207",
 		"parentId": null,
 		"children": [
-			"6652",
-			"7793"
+			"6652"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -462,7 +457,7 @@ var indikatorensetData = [
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6068",
-		"kuerzelKunde": "A2-6",
+		"kuerzelKunde": "A2-2",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -470,18 +465,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:01:13.1313",
+		"aktualisierungsdatum": "2020-04-15T14:09:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 liegt der Jugendquotient der Schweizer bei 28,4. Deutlich höhere Jugendquotienten ergeben sich 2018 für Personen aus arabischen (43,0) und afrikanischen Ländern (42,5) sowie für Personen aus dem Balkan (31,3). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland  sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 1999 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
-		"erlaeuterungen": "Jugendquotient: Anzahl maximal 19-Jähriger pro 100 20- bis 64-Jährige.",
+		"lesehilfe": "2019 liegt der Jugendquotient der Schweizer bei 28,3. Deutlich höhere Jugendquotienten ergeben sich 2019 für Personen aus arabischen (42,5) und afrikanischen Ländern (42,4) sowie für Personen aus dem Balkan (31,1). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 2000 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_016",
+		"orderKey": "01_00_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"6653"
@@ -503,7 +498,7 @@ var indikatorensetData = [
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6069",
-		"kuerzelKunde": "A2-7",
+		"kuerzelKunde": "A2-3",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -511,22 +506,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-13T14:37:08.088",
+		"aktualisierungsdatum": "2020-04-15T14:09:22.2222",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 weisen Schweizer (45,3) und Italiener (32,2) die weitaus höchsten Altersquotienten auf. Am wenigsten 65-Jährige und Ältere pro 100 Personen zwischen 20 und 64 Jahren gibt es bei den Afrikanern (1,4). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit 1999.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"lesehilfe": "2019 weisen Schweizer (45,2) und Italiener (32,3) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanern (1,8). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit dem Jahr 2000.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_017",
+		"orderKey": "01_00_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"6654",
-			"7795"
+			"6654"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -553,18 +547,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:02:00.000",
+		"aktualisierungsdatum": "2020-05-28T17:36:37.3737",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "1999 war der Anteil der Ausländer an der Gesamtbevölkerung bei den Kindern und Jugendlichen am höchsten. Mehr als 40% der bis 5-Jährigen waren ausländische Staatsangehörige. In den höheren Altersgruppen sank der Ausländeranteil tendenziell. 2008 wurden die höchsten Ausländeranteile später, nämlich bei den 29- bis 35-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2018 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 31- bis 44-Jährigen (>50% Ausländer am Total der Altersgruppe).",
+		"lesehilfe": "2000 war der Anteil der Ausländer am Total der Altersgruppe bei unter 7-jährigen Kindern und jungen Erwachsenen zwischen 25 und 29 Jahren am höchsten. In diesen Altersgrupppen waren jeweils mehr als 40% der Personen ausländische Staatsangehörige. 2009 wurden die höchsten Ausländeranteile später, nämlich bei den 28- bis 37-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2019 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 32- bis 45-Jährigen (>50% Ausländer am Total der Altersgruppe).",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_018",
+		"orderKey": "01_00_00_00_00_208",
 		"parentId": null,
 		"children": [
 			"6655"
@@ -583,32 +577,36 @@ var indikatorensetData = [
 		"id": 6070
 	},
 	{
-		"title": "Anzahl Ausländer nach Art der Bewilligung",
+		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6071",
 		"kuerzelKunde": "A3-1",
-		"description": "Anzahl Ausländer nach Art der Bewilligung",
+		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:16:58.5858",
+		"aktualisierungsdatum": "2020-04-09T10:47:20.2020",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2018:&nbsp;43&nbsp;039) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2018:&nbsp;25&nbsp;416). Von 1999 (644) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2018:&nbsp;2&nbsp;069).",
+		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2&nbsp;000 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_019",
+		"orderKey": "01_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"6656"
+			"6656",
+			"8255",
+			"8377",
+			"8526",
+			"8952"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -625,7 +623,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6072",
 		"kuerzelKunde": "A3-2",
 		"description": "Ausländer nach Art der Bewilligung",
@@ -635,22 +633,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T15:16:10.1010",
+		"aktualisierungsdatum": "2020-02-10T10:06:40.4040",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (71,9%), der Türkei (84,3%) und dem Balkan (82,2%) am höchsten. Bei Personen aus den EU-Oststaaten ist er mit 21,2% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewillungen mit 68,9% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (22,0%) und afrikanischen (12,4%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
-		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
+		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (72,2%), der Türkei (83,0%) und dem Balkan (81,1%) am höchsten. Bei Personen aus den EU-Oststaaten ist er mit 21,3% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewillungen mit 70,0% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (21,5%) und afrikanischen (12,1%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_020",
+		"orderKey": "01_00_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"6657",
-			"7798"
+			"6657"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -677,18 +674,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:18:47.4747",
+		"aktualisierungsdatum": "2020-02-10T11:31:57.5757",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2018 die Türken mit 84,3%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (82,2%) und Italien (71,9%). Im Vergleich zu 1999 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-17 + EFTA und EU-Ost sind diese stark zurückgegangen.",
-		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2019 die Türken mit 83,0%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (81,1%) und Italien (72,2%). Im Vergleich zum Jahr 2000 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-17 + EFTA und EU-Ost sind diese stark zurückgegangen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_021",
+		"orderKey": "01_00_00_00_00_303",
 		"parentId": null,
 		"children": [
 			"6658"
@@ -708,7 +705,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, 2018",
+		"subtitle": "in Jahren, 2019",
 		"kuerzel": "I.01.1.6074",
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
@@ -719,22 +716,21 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-11-19T09:10:15.1515",
+		"aktualisierungsdatum": "2020-04-01T16:57:23.2323",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italienische und türkische Staatsbürger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten da sind Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie «Übrige Länder» (4,3) und aus EU-Oststaaten (3,4) .",
+		"lesehilfe": "Italienische und türkische Staatsbürger sind 2019 am längsten in der Schweiz (25,1 bzw. 22,7 Jahre), gefolgt von Personen aus dem Balkan (20,6). Am längsten im Kanton Basel-Stadt sind Türken (17,6 Jahre) vor Personen aus dem Balkan (16,5) und Italienern (11,6). Personen aus EU-Oststaaten sind sowohl am wenigsten lang in der Schweiz (6,5) als auch in Basel-Stadt (3,4).",
 		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_023",
+		"orderKey": "01_00_00_00_00_305",
 		"parentId": null,
 		"children": [
-			"6659",
-			"7800"
+			"6659"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -914,7 +910,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018 gegenüber 1999",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019 gegenüber 2000",
 		"kuerzel": "I.01.1.6079",
 		"kuerzelKunde": "A5-2",
 		"description": "Veränderung des Segregationsindex",
@@ -924,22 +920,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T09:54:29.2929",
+		"aktualisierungsdatum": "2020-05-28T17:38:11.1111",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 1999 und 2018 sind die Segregationsindices der meisten Gruppen gesunken, d. h. sie sind 2018 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Italienern (-13,7 Punkte) und den Schweizern (-12,6 Punkte). Stärker segregiert als vor 20 Jahren waren Personen aus afrikanischen Ländern (+1,6 Punkte). Der Segregationsindex der Personen aus arabischen Ländern hat sich nicht verändert.",
+		"lesehilfe": "Zwischen 2000 und 2019 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2019 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Italienern (-12,5 Punkte) und den Schweizern (-12,3 Punkte). Nicht verändert hat sich der Segregationsindex der Personen aus den übrigen Ländern.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_028",
+		"orderKey": "01_00_00_00_00_502",
 		"parentId": null,
 		"children": [
-			"6664",
-			"7805"
+			"6664"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1219,18 +1214,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:12.1212",
+		"aktualisierungsdatum": "2020-04-27T14:41:50.5050",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 (gepoolte Daten) verfügen 18,6% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 31,9% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
+		"lesehilfe": "Im Mittel der Jahre 2014 bis 2018 (gepoolte Daten) verfügen 18,2% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 30,8% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_007",
+		"orderKey": "02_00_00_00_00_401",
 		"parentId": null,
 		"children": [
 			"6671"
@@ -1251,7 +1246,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2013 bis 2017",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2014 bis 2018",
 		"kuerzel": "I.15.7.6090",
 		"kuerzelKunde": "B4-2",
 		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -1261,18 +1256,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:19.1919",
+		"aktualisierungsdatum": "2020-04-27T14:41:50.5050",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Personen aus Deutschland (71%), EU-Ost (60%), EU-17 + EFTA (50%) sowie Mittel- und Südamerika (41%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (35%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-Ost (58%), EU-17 + EFTA (52%) sowie Mittel- und Südamerika (42%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (36%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (14%) und dem Balkan (13%) auf.",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_008",
+		"orderKey": "02_00_00_00_00_402",
 		"parentId": null,
 		"children": [
 			"6672"
@@ -1292,7 +1287,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2014 bis 2018",
 		"kuerzel": "I.15.7.6091",
 		"kuerzelKunde": "B4-3",
 		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -1302,22 +1297,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T12:04:10.1010",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (45%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den Ausländischen Staatsangehörigen am höchsten (32%).",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität.",
+		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (45%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den ausländischen Staatsangehörigen am höchsten (31%).",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_009",
+		"orderKey": "02_00_00_00_00_403",
 		"parentId": null,
 		"children": [
-			"6673",
-			"7814"
+			"6673"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1378,9 +1372,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2018",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2019",
 		"kuerzel": "I.01.1.6399",
-		"kuerzelKunde": "A1-10",
+		"kuerzelKunde": "A1-5",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1388,18 +1382,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-16T09:50:27.2727",
+		"aktualisierungsdatum": "2020-04-01T16:58:21.2121",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2018 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2019 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Ausnahmen stellen die Wohnviertel Kleinhüningen und Rosental dar, wo Personen aus dem Balkan bzw. aus der Ländergruppe \"Übrige\" die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_010",
+		"orderKey": "01_00_00_00_00_105",
 		"parentId": null,
 		"children": [
 			"6675"
@@ -1419,9 +1413,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6400",
-		"kuerzelKunde": "A1-6",
+		"kuerzelKunde": "A1-7",
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1429,22 +1423,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-18T15:23:22.2222",
+		"aktualisierungsdatum": "2020-04-01T16:58:42.4242",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 zählten 15 844 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Ende 2019 zählten 15 983 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "01_00_00_00_00_107",
 		"parentId": null,
 		"children": [
-			"6676",
-			"7817"
+			"6676"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1461,9 +1454,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6401",
-		"kuerzelKunde": "A1-7",
+		"kuerzelKunde": "A1-8",
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1471,22 +1464,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-18T15:23:44.4444",
+		"aktualisierungsdatum": "2020-04-01T16:59:04.044",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 3 153 Personen, die Ende 2018 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Von 4 462 Personen, die Ende 2019 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_008",
+		"orderKey": "01_00_00_00_00_108",
 		"parentId": null,
 		"children": [
-			"6677",
-			"7818"
+			"6677"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1503,7 +1495,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6402",
 		"kuerzelKunde": "A6-1",
 		"description": "Anteil Personen mit Hauptsprache Deutsch",
@@ -1513,18 +1505,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (45,7%), der Türkei (38,9%) und Italien (37,3%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (29,5%) und der Kategorie «Übrige Länder» (22,5%) zu beobachten sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (45,0%), der Türkei (40,8%) und arabischen Ländern (35,7%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (27,0%) und der Kategorie «Übrige Länder» (21,8%) zu beobachten sind.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_029",
+		"orderKey": "01_00_00_00_00_601",
 		"parentId": null,
 		"children": [
 			"6678"
@@ -1544,7 +1536,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6403",
 		"kuerzelKunde": "A6-2",
 		"description": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
@@ -1554,18 +1546,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (68,5%) am grössten, während er bei den 40- bis 64-Jährigen (47,3%) und den über 65-Jährigen (37,2%) geringer ist.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (66,8%) am grössten, während er bei den 40- bis 64-Jährigen (47,0%) und den über 65-Jährigen (36,7%) geringer ist.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_030",
+		"orderKey": "01_00_00_00_00_602",
 		"parentId": null,
 		"children": [
 			"6679"
@@ -1585,7 +1577,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6404",
 		"kuerzelKunde": "A6-3",
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -1595,18 +1587,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2013 bis 2017 zu 79,7% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,3% waren.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2014 bis 2018 zu 79,7% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 49,2% waren.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_031",
+		"orderKey": "01_00_00_00_00_603",
 		"parentId": null,
 		"children": [
 			"6680"
@@ -1626,7 +1618,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6405",
 		"kuerzelKunde": "A6-4",
 		"description": "Bei der Arbeit gesprochene Sprachen",
@@ -1636,22 +1628,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T11:20:10.1010",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Arbeit sprechen 97,9% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 80,8% sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Bei der Arbeit sprechen 97,4% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 79,0% sind.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_032",
+		"orderKey": "01_00_00_00_00_604",
 		"parentId": null,
 		"children": [
-			"6681",
-			"7822"
+			"6681"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2015,22 +2006,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:25:09.099",
+		"aktualisierungsdatum": "2020-05-28T17:39:13.1313",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Bei den Schweizerinnen und Ausländerinnen ist der Unterschied etwas grösser. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
+		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_009",
+		"orderKey": "03_00_00_00_00_201",
 		"parentId": null,
 		"children": [
-			"6690",
-			"7831"
+			"6690"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2048,9 +2038,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote der 15-64-Jährigen",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.03.1.6416",
-		"kuerzelKunde": "C2-2",
+		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote der 15-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -2058,22 +2048,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:18:07.077",
+		"aktualisierungsdatum": "2020-05-28T17:40:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vergleichsweise hohe Erwerbstätigenquoten weisen Personen aus Deutschland (88,9%), EU-Ost (80,5%) und EU-17 + EFTA (78,4%) auf. Tiefe Erwerbstätigenquoten sind bei Personen aus arabischen Ländern (56,9%), dem Balkan (56,5%), Mittel- und Südamerika (54,4%), afrikanischen Ländern (51,2%) und der Türkei (50,1%) zu beobachten.",
+		"lesehilfe": "Vergleichsweise hohe Erwerbstätigenquoten weisen Personen aus Deutschland (88,4%), EU-Ost (81,9%) und EU-17 + EFTA (78,3%) auf. Tiefe Erwerbstätigenquoten sind bei Personen aus Mittel- und Südamerika (61,1%), dem Balkan (56,5%), arabischen Ländern (52,4%), afrikanischen Ländern (51,5%) und der Türkei (50,5%) zu beobachten.",
 		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_010",
+		"orderKey": "03_00_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"6691",
-			"7832"
+			"6691"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2090,9 +2079,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2014 bis 2018",
 		"kuerzel": "I.03.1.6417",
-		"kuerzelKunde": "C2-3",
+		"kuerzelKunde": "C2-4",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -2100,7 +2089,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:05:09.099",
+		"aktualisierungsdatum": "2020-05-28T18:47:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2111,7 +2100,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_011",
+		"orderKey": "03_00_00_00_00_204",
 		"parentId": null,
 		"children": [
 			"6692"
@@ -2130,33 +2119,32 @@ var indikatorensetData = [
 		"id": 6417
 	},
 	{
-		"title": "Erwerbsquote der 15-64-Jährigen",
+		"title": "Erwerbsquote der 15- bis 64-Jährigen",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
 		"kuerzel": "I.03.1.6418",
-		"kuerzelKunde": "C2-4",
-		"description": "Erwerbsquote der 15-64-Jährigen",
+		"kuerzelKunde": "C2-2",
+		"description": "Erwerbsquote der 15- bis 64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:25:57.5757",
+		"aktualisierungsdatum": "2020-05-06T08:39:45.4545",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2013 bis 2017 liegen die Quoten der Schweizer (79,9%) und Schweizerinnen (76,6%) näher zusammen als diejenigen der Ausländer (85,0%) und Ausländerinnen (73,5%).",
-		"erlaeuterungen": "Die (Netto-)Erwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. &nbsp;Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
+		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2014 bis 2018 liegen die Quoten der Schweizer (79,4%) und Schweizerinnen (76,6%) näher zusammen als diejenigen der Ausländer (85,0%) und Ausländerinnen (73,7%).",
+		"erlaeuterungen": "Die (Netto-)Erwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_012",
+		"orderKey": "03_00_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"6693",
-			"7834"
+			"6693"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2184,22 +2172,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:32:37.3737",
+		"aktualisierungsdatum": "2020-05-29T10:17:33.3333",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote ist zwischen 2009 und 2018 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
-		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"lesehilfe": "Im Jahr 2019 sind 5,9% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist zwischen 2010 und 2019 mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
+		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_013",
+		"orderKey": "03_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"6694",
-			"7835"
+			"6694"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2216,33 +2203,32 @@ var indikatorensetData = [
 		"id": 6419
 	},
 	{
-		"title": "Angestellte Ausländer in der Verwaltung Basel-Stadt",
+		"title": "Ausländische Angestellte in der Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
 		"kuerzel": "I.18.3.6420",
 		"kuerzelKunde": "C3-2",
-		"description": "Angestellte Ausländer in der Verwaltung Basel-Stadt",
+		"description": "Ausländische Angestellte in der Verwaltung Basel-Stadt",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:30:46.4646",
+		"aktualisierungsdatum": "2020-05-28T17:54:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Die Zahl ausländischer Staatsangestellter mit Kaderfunktion ist im Beobachtungszeitraum bis 2012 gestiegen und stagniert seither.",
+		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Die Zahl ausländischer Staatsangestellter mit Kaderfunktion ist im Beobachtungszeitraum langsam, aber stetig gestiegen.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_014",
+		"orderKey": "03_00_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"6695",
-			"7836"
+			"6695"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2258,33 +2244,32 @@ var indikatorensetData = [
 		"id": 6420
 	},
 	{
-		"title": "Angestellte Schweizer in der Verwaltung Basel-Stadt",
+		"title": "Schweizer Angestellte in der Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
 		"kuerzel": "I.18.3.6421",
 		"kuerzelKunde": "C3-3",
-		"description": "Angestellte Schweizer in der Verwaltung Basel-Stadt",
+		"description": "Schweizer Angestellte in der Verwaltung Basel-Stadt",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:33:26.2626",
+		"aktualisierungsdatum": "2020-05-28T18:47:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2005 ist die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt recht stabil. Zwischen gut 85% und knapp 90% der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Dieser Anteil war bis 2011 ziemlich stabil und ist seither tendenziell rückläufig. Die absolute Zahl der Schweizer Staatsangestellten mit Kaderfunktion hat in den letzten Jahren zugenommen.",
+		"lesehilfe": "Seit 2005 ist die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt recht stabil. Zwischen gut 85% und knapp 90% der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Nach Jahren der Zunahme stagniert die absolute Zahl der Schweizer Staatsangestellten mit Kaderfunktion seit 2015.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_015",
+		"orderKey": "03_00_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"6696",
-			"7837"
+			"6696"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2301,7 +2286,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2019",
 		"kuerzel": "I.18.3.6422",
 		"kuerzelKunde": "C3-4",
 		"description": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
@@ -2311,22 +2296,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:34:41.4141",
+		"aktualisierungsdatum": "2020-05-28T18:35:06.066",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 86,6% sind es 2018 beim «Unteren Kader» und 94,4% beim «Oberen Kader». Auffällig ist der mit 48,7% hohe Anteil der Schweizerinnen beim «Mittleren Fachkader». Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 13,4% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,0% bei den Beschäftigten «Ohne Kaderfunktion» am stärksten vertreten.",
+		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 85,9% sind es 2019 beim «Unteren Kader» und 94,3% beim «Oberen Kader». Auffällig ist der mit 48,3% hohe Anteil der Schweizerinnen beim «Mittleren Fachkader». Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 14,1% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,1% bei den Beschäftigten «Ohne Kaderfunktion» am stärksten vertreten.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_016",
+		"orderKey": "03_00_00_00_00_304",
 		"parentId": null,
 		"children": [
-			"6697",
-			"7838"
+			"6697"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2343,7 +2327,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2019",
 		"kuerzel": "I.18.3.6423",
 		"kuerzelKunde": "C3-5",
 		"description": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
@@ -2353,22 +2337,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:41:40.4040",
+		"aktualisierungsdatum": "2020-05-28T18:37:46.4646",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede 2. Stelle in der Kantonsverwaltung – wird nur der Wohnkanton Basel-Stadt berücksichtigt – mit einer Schweizerin besetzt. 2018 sind dies bei einem Personalbestand von 5&nbsp;314 Personen 2&nbsp;704 Schweizerinnen. Insbesondere beim «Unteren Fachkader» und «Oberen Kader» ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
+		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede 2. Stelle in der Kantonsverwaltung – wird nur der Wohnkanton Basel-Stadt berücksichtigt – mit einer Schweizerin besetzt. 2019 sind dies bei einem Personalbestand von 5&nbsp;404 Personen 2&nbsp;760 Schweizerinnen. Insbesondere beim «Unteren Fachkader» und «Oberen Kader» ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_017",
+		"orderKey": "03_00_00_00_00_305",
 		"parentId": null,
 		"children": [
-			"6698",
-			"7839"
+			"6698"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2395,22 +2378,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:43:07.077",
+		"aktualisierungsdatum": "2020-05-28T18:40:36.3636",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2010 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». Von den 2010 insgesamt 123 ausländischen Staatsangehörigen mit Kaderfunktion besitzen 91 die deutsche Staatsbürgerschaft.",
+		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2010 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». 2010 besitzen 91 der insgesamt 123 ausländischen Staatsangehörigen mit Kaderfunktion die deutsche Staatsbürgerschaft.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_018",
+		"orderKey": "03_00_00_00_00_306",
 		"parentId": null,
 		"children": [
-			"6699",
-			"7840"
+			"6699"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2428,7 +2410,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Angestellte in der Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2018",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2019",
 		"kuerzel": "I.18.3.6425",
 		"kuerzelKunde": "C3-7",
 		"description": "Angestellte in der Verwaltung Basel-Stadt",
@@ -2438,22 +2420,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:43:57.5757",
+		"aktualisierungsdatum": "2020-05-28T18:47:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2018 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2019 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 170 Personen (ein Plus von knapp 7% gegenüber 2018) die mit Abstand grösste Gruppe.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_019",
+		"orderKey": "03_00_00_00_00_307",
 		"parentId": null,
 		"children": [
-			"6700",
-			"7841"
+			"6700"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3342,7 +3323,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.1.6481",
 		"kuerzelKunde": "D3-3",
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
@@ -3352,22 +3333,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:31:17.1717",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 sind in Basel-Stadt rund 48% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 32% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
-		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
+		"lesehilfe": "Im Mittel der Jahre 2014 bis 2018 sind in Basel-Stadt rund 48% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 32% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
+		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_009",
+		"orderKey": "04_00_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"6722",
-			"7863"
+			"6722"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3771,16 +3751,16 @@ var indikatorensetData = [
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.03.2.6492",
+		"kuerzel": "I.03.6.06492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-03-23T12:37:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -3791,7 +3771,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_019",
+		"orderKey": "04_00_00_00_00_601",
 		"parentId": null,
 		"children": [
 			"6732"
@@ -3800,14 +3780,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6492,
+		"chart-id": 6492,
+		"filter": "",
 		"id": 6492
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2008",
+		"subtitle": "Basel-Stadt, 2009",
 		"kuerzel": "I.01.7.6493",
 		"kuerzelKunde": "D7-1",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -3817,22 +3801,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:58:29.2929",
+		"aktualisierungsdatum": "2020-05-28T18:47:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (25,8%) und Deutsche (17,7%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (29,7%) sowie bei den Mittel- und Südamerikanern (28,0%). 93,2% der Türken, 87,0% der Personen aus arabischen Ländern und 76,1% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen Italiener, Personen aus der Ländergruppe «EU-17&nbsp;+&nbsp;EFTA» sowie Mittel- und Südamerikaner auf.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2009 Schweizer (25,1%) und Deutsche (15,9%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (27,5%) sowie bei den Mittel- und Südamerikanern (26,2%). 99,8% der Türken, 98,7% der Personen aus arabischen Ländern und 93,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_020",
+		"orderKey": "04_00_00_00_00_701",
 		"parentId": null,
 		"children": [
-			"6733",
-			"7874"
+			"6733"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3849,7 +3832,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.7.6494",
 		"kuerzelKunde": "D7-2",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -3859,22 +3842,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T19:00:06.066",
+		"aktualisierungsdatum": "2020-05-28T18:47:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen «EU-17&nbsp;+&nbsp;EFTA», EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken sowie bei Personen aus dem Balkan und arabischen Ländern bei über 75%. Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (19,1%) und Deutsche (11,6%) auf, während die höchsten Anteile an Katholiken bei Italienern (18,1%) und Personen aus Mittel- und Südamerika (16,1%) zu finden sind.  99,8% der Türken, 99,1% der Personen aus arabischen Ländern und 94,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_021",
+		"orderKey": "04_00_00_00_00_702",
 		"parentId": null,
 		"children": [
-			"6734",
-			"7875"
+			"6734"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -4473,7 +4455,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Ausländer nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6570",
 		"kuerzelKunde": "A3-4",
 		"description": "Anteil Ausländer nach Alter und Art der Bewilligung",
@@ -4483,18 +4465,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:19:40.4040",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"aktualisierungsdatum": "2020-02-10T11:37:22.2222",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Differenziert nach Altersgruppe zeigt sich, dass der Anteil von Personen ohne Niederlassungsbewilligung bei den 25- bis 39-Jährigen mit 62,2% am höchsten ist. Bei den über 65-Jährigen liegt der Anteil der Niederlassungsbewilligungen hingegen bei 95,6%. Im Vergleich zu den anderen Altersgruppen ist der Anteil der Kurzaufenthaltsbewilligungen bei den 15- bis 24-Jährigen (6,3%) hoch.",
-		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
+		"lesehilfe": "Differenziert nach Altersgruppe zeigt sich, dass der Anteil von Personen ohne Niederlassungsbewilligung bei den 25- bis 39-Jährigen mit 62,6% am höchsten ist. Bei den über 65-Jährigen liegt der Anteil der Niederlassungsbewilligungen hingegen bei 95,4%. Im Vergleich zu den anderen Altersgruppen ist der Anteil der Kurzaufenthaltsbewilligungen bei den 15- bis 24-Jährigen (7,2%) hoch.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_022",
+		"orderKey": "_304",
 		"parentId": null,
 		"children": [
 			"6750"

@@ -23,6 +23,9 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien",
 	"Stadtteilmonitoring Rosental (Print)",
 	"City-Statistics",
-	"Gesellschaftlicher-Zusammenhalt (Print)",
+	"Stadtteilmonitoring Klybeck-Kleinhüningen",
+	"CMS Kennzahlen Soziales",
+	"CMS Kennzahlen Soziales (Print)",
+	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 	"Test"
 ];

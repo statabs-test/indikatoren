@@ -59,9 +59,17 @@
         [
           "2018",
           886
+        ],
+        [
+          "2019",
+          936
+        ],
+        [
+          "2020",
+          955
         ]
       ],
-      "name": "Genossenschaften",
+      "name": "Genossenschaftswohnungen",
       "turboThreshold": 0
     },
     {
@@ -123,9 +131,17 @@
         [
           "2018",
           1288
+        ],
+        [
+          "2019",
+          1303
+        ],
+        [
+          "2020",
+          1316
         ]
       ],
-      "name": "Ohne Genossenschaften",
+      "name": "Ohne Genossenschaftswohnungen",
       "turboThreshold": 0
     },
     {
@@ -184,14 +200,22 @@
         ],
         [
           "2017",
-          859
+          857
         ],
         [
           "2018",
           875
+        ],
+        [
+          "2019",
+          885
+        ],
+        [
+          "2020",
+          898
         ]
       ],
-      "name": "Genossenschaften gewichtet",
+      "name": "Genossenschaftswohnungen gewichtet",
       "turboThreshold": 0
     },
     {
@@ -254,10 +278,18 @@
         ],
         [
           "2018",
-          1224
+          1223
+        ],
+        [
+          "2019",
+          1236
+        ],
+        [
+          "2020",
+          1249
         ]
       ],
-      "name": "Ohne Genossenschaften gew.",
+      "name": "Ohne Genossenschaftswohnungen gewichtet",
       "turboThreshold": 0
     }
   ],
@@ -357,7 +389,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
   },
   "legend": {
     "enabled": true,
@@ -368,10 +400,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 7,
-    "itemDistance": 6,
-    "itemWidth": 205,
-    "padding": 1
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {

@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-09T08:41:25.2525",
+		"aktualisierungsdatum": "2020-06-09T08:03:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft in den Monaten Januar bis Mai ähnlich wie die Quote der Gesamtbevölkerung. In den Sommermonaten nimmt die Jugendarbeitslosenquote in der Regel zu und im Herbst sinkt sie wieder, während die Quote der Gesamtbevölkerung und die Quote der Personen ab 50 Jahren weniger Schwankungen zeigen.",
+		"lesehilfe": "Die Jugendarbeitslosenquote ist Ende Mai 2020 auf 4,3% gestiegen und liegt damit über der Quote der Gesamtbevölkerung (4,1%).  Die Arbeitslosenquote der Personen ab 50 Jahren liegt seit April 2020 unverändert bei 3,1%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -50,14 +50,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-09T08:43:35.3535",
+		"aktualisierungsdatum": "2020-06-09T08:04:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Seit Februar 2019 bewegt sich die Zahl der offenen Stellen zwischen 1000 und 1200. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
-		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
+		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie noch knapp über 1 000. Ende Mai sind 613 Stellen offen. Gerade 3 davon sind meldepflichtig.",
+		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen des Coronavirus und seiner Folgen hat der Bundesrat die Stellenmeldepflicht vom 26. März 2020 bis 8. Juni 2020 aufgehoben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -90,14 +90,14 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-12-03T08:42:04.044",
+		"aktualisierungsdatum": "2020-06-04T08:36:04.044",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index liegt seit dem jüngsten Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Oktober 2019 und Oktober 2018.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Seit November 2019 ist eine Angleichung der beiden Jahresteuerungsraten zu beobachten.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Mai 2020 und Mai 2019.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -130,13 +130,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-03T08:34:38.3838",
+		"aktualisierungsdatum": "2020-06-04T07:53:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im ersten Jahr nach dem jüngsten Basiswechsel von Dezember 2015 sind die Durchschnittspreise in Basel-Stadt mehrheitlich gesunken. Seit Dezember 2016 hingegen liegt die Jahresteuerung des Basler Index der Konsumentenpreise meist im positiven Bereich.",
+		"lesehilfe": "Nach Jahren mit mehrheitlich steigenden Durchschnittspreisen hinterlässt namentlich der Preiszerfall an den globalen Erdölmärkten seit Februar 2020 auch beim Basler Index seine Spuren.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -170,7 +170,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-20T09:23:47.4747",
+		"aktualisierungsdatum": "2020-05-27T07:21:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -209,13 +209,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T08:34:13.1313",
+		"aktualisierungsdatum": "2020-05-15T07:51:10.1010",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der Übernachtungsgäste in baselstädtischen Hotels kommt aus dem Ausland. Die Monate Januar und Februar zählen zu den besucherschwächsten Monaten.",
+		"lesehilfe": "Im April 2020 wurden in den Basler Hotelbetrieben 12 860 Übernachtungen gebucht, 94 034 Übernachtungen bzw. 88,0% weniger als im April 2019. Der Rückgang ist sowohl den Gästen aus der Schweiz als auch aus dem Ausland zuzuschreiben. Die inländischen Gäste buchten 8 317 Logiernächte (-76,9%), die Gäste aus dem Ausland 4 543 Übernachtungen (-93,7%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, November",
+		"subtitle": "Basel-Stadt, April",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,13 +248,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T08:32:49.4949",
+		"aktualisierungsdatum": "2020-05-15T07:59:17.1717",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 50%.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 25% und gegenüber dem Vorjahresmonat um rund 40 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -277,7 +277,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, November",
+		"subtitle": "Basel-Stadt, April 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -288,13 +288,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-12-20T09:22:09.099",
+		"aktualisierungsdatum": "2020-05-27T07:14:23.2323",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In mehr als der Hälfte der Wohnviertel (13) wurden im November 2019 Bevölkerungsrückgänge verzeichnet. Die Einwohnerzahl stieg in sieben Wohnvierteln an - am stärksten im Wohnviertel Rosental. Im Wohnviertel Matthäus blieb sie gleich.",
+		"lesehilfe": "Im April 2020 sank die Einwohnerzahl gegenüber dem Vormonat in zehn  Wohnvierteln sowie in Riehen. In neun Wohnvierteln sowie in Bettingen stieg sie. Im Wohnviertel Altstadt Grossbasel bleib die Einwohnerzahl unverändert.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -314,5 +314,122 @@ var indikatorensetData = [
 		"chart-id": 7763,
 		"filter": "",
 		"id": 7763
+	},
+	{
+		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.08980",
+		"kuerzelKunde": "",
+		"description": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-09T11:12:02.022",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende Mai 2020 sind 4 114  Personen bei den RAV in Basel-Stadt als arbeitslos registriert, 822 Personen mehr als Ende Februar 2020. Die Arbeitslosigkeit ist damit so hoch wie zuletzt im Januar 2017. Die Zahl der Langzeitarbeitslosen ist zwischen Februar und Mai 2020 um 164 auf 627 Personen gestiegen. Damit sind Ende Mai 15,2% der Arbeitslosen langzeitarbeitslos.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslosen sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8980,
+		"chart-id": 8980,
+		"filter": "",
+		"id": 8980
+	},
+	{
+		"title": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.08981",
+		"kuerzelKunde": "",
+		"description": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-09T08:05:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der jüngsten Vergangenheit ist die Arbeitslosenzahl in Basel-Stadt von April 2017 bis Februar 2020 stets gesunken, nachdem sie zwischen Januar 2015 und März 2017 gestiegen war. Mit der COVID-19-Pandemie hat sich der Trend klar verändert: Ende März 2020 waren 336 Personen mehr arbeitslos als ein Jahr zuvor, Ende April 2020 waren es 818 mehr als ein Jahr zuvor. Diese Entwicklung ist im Mai 2020 noch stärker, mit einem Anstieg der Anzahl registrierter Arbeitsloser um 1 101 Personen gegenüber Mai 2019 (+37%).",
+		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8981,
+		"chart-id": 8981,
+		"filter": "",
+		"id": 8981
+	},
+	{
+		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.08992",
+		"kuerzelKunde": "",
+		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-09T09:14:49.4949",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit der Verschärfung der Massnahmen zur Bekämpfung des Coronavirus (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für rund 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 28 Anmeldungen gewesen waren. Für April sowie für Mai 2020 ist Kurzarbeit für fast 95 000 Angestellte beantragt worden (Datenstand 04.06.2020). Die für März bis Mai genehmigte Kurzarbeit erreicht fast 100% der beantragten Kurzarbeit. Wie viel der genehmigten Kurzarbeit auch in Anspruch genommen wird, d.h. auch abgerechnet wird, ist erst mit drei Monaten Verzögerung bekannt.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. In normalen Zeiten wird Kurzarbeit für weniger als 100 Angestellte pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Angestellte pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
+		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie-Krise wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d.h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die abgerechnete Kurzarbeit ist mit drei Monaten Verzögerung verfügbar.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8992,
+		"chart-id": 8992,
+		"filter": "",
+		"id": 8992
 	}
 ];

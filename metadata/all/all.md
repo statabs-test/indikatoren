@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | false |  | Cercle-Indicateurs
+4374 | true | true | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
@@ -310,8 +310,8 @@ id | visible | visibleInPortal | indikatorenset
 5131 | true | true | 
 5138 | true | false | Nachhaltigkeit
 5142 | true | true | Nachhaltigkeit
-5144 | true | true | Nachhaltigkeit
-5147 | true | true | Nachhaltigkeit
+5144 | false |  | Nachhaltigkeit
+5147 | false |  | Nachhaltigkeit
 5148 | true | true | Nachhaltigkeit
 5149 | true | true | Nachhaltigkeit
 5155 | true | false | Nachhaltigkeit
@@ -329,12 +329,12 @@ id | visible | visibleInPortal | indikatorenset
 5184 | true | false | Nachhaltigkeit
 5185 | true | false | Nachhaltigkeit
 5186 | true | true | Nachhaltigkeit
-5188 | true | true | Nachhaltigkeit
+5188 | true | false | Nachhaltigkeit
 5189 | true | false | Nachhaltigkeit
 5191 | true | false | Nachhaltigkeit
-5192 | true | true | Nachhaltigkeit
+5192 | true | true | 
 5193 | true | true | Nachhaltigkeit
-5194 | true | false | Nachhaltigkeit
+5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
 5196 | true | true | Nachhaltigkeit
 5197 | true | false | Nachhaltigkeit
@@ -399,9 +399,9 @@ id | visible | visibleInPortal | indikatorenset
 6041 | true | true | Nachhaltigkeit
 6042 | true | false | Nachhaltigkeit
 6043 | true | false | Nachhaltigkeit
-6044 | true | true | Nachhaltigkeit
-6045 | true | false | Nachhaltigkeit
-6046 | true | true | Nachhaltigkeit
+6044 | true | true | 
+6045 | true | true | Nachhaltigkeit
+6046 | true | false | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
 6048 | true | false | Nachhaltigkeit
 6049 | true | false | Nachhaltigkeit
@@ -684,7 +684,7 @@ id | visible | visibleInPortal | indikatorenset
 6435 | true | false | Nachhaltigkeit
 6437 | false |  | Legislaturplan
 6438 | true | true | Legislaturplan
-6442 | true | false | Legislaturplan (Print)
+6442 | false |  | Legislaturplan (Print)
 6443 | true | false | Legislaturplan (Print)
 6448 | true | true | Arbeitsmarkt
 6449 | true | true | Arbeitsmarkt
@@ -775,8 +775,8 @@ id | visible | visibleInPortal | indikatorenset
 6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus
 6592 | true | false | Nachhaltigkeit
-6597 | true | false | Nachhaltigkeit
-6599 | true | false | Nachhaltigkeit
+6597 | false |  | Nachhaltigkeit
+6599 | true | true | Nachhaltigkeit
 6601 | true | false | 
 6623 | true | true | 
 6630 | true | true | Wohnviertel
@@ -909,7 +909,17 @@ id | visible | visibleInPortal | indikatorenset
 6757 | true | true | Wohnviertel
 6758 | true | true | Wohnviertel
 6759 | true | true | Wohnviertel
+6760 | true | false | Wanderungen (Print)
+6761 | true | false | Wanderungen (Print)
+6762 | true | false | Wanderungen (Print)
+6765 | true | false | Wanderungen (Print)
+6766 | true | false | Wanderungen (Print)
+6767 | true | false | Wanderungen (Print)
+6768 | true | false | Wanderungen (Print)
+6770 | true | false | Wanderungen (Print)
 6771 | true | false | Wanderungen (Print)
+6772 | true | false | Wanderungen (Print)
+6773 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
 6778 | true | true | Gefragte Karten
 6893 | true | true | Wohnviertel
@@ -1002,11 +1012,70 @@ id | visible | visibleInPortal | indikatorenset
 6991 | true | true | 
 6992 | true | true | 
 6993 | true | true | 
+6995 | true | true | 
+6996 | true | true | 
 7000 | true | true | 
+7003 | true | false | Arbeitsmarkt (Print)
+7004 | true | false | Arbeitsmarkt (Print)
+7005 | true | false | Arbeitsmarkt (Print)
 7006 | true | false | Arbeitsmarkt (Print)
+7007 | true | false | Arbeitsmarkt (Print)
+7008 | true | false | Arbeitsmarkt (Print)
+7009 | true | false | Arbeitsmarkt (Print)
+7010 | true | false | Arbeitsmarkt (Print)
+7011 | true | false | Arbeitsmarkt (Print)
+7012 | true | false | Arbeitsmarkt (Print)
+7013 | true | false | Arbeitsmarkt (Print)
 7014 | true | false | Arbeitsmarkt (Print)
 7015 | true | false | Arbeitsmarkt (Print)
+7016 | true | false | Arbeitsmarkt (Print)
+7017 | true | false | Arbeitsmarkt (Print)
+7018 | true | false | Arbeitsmarkt (Print)
 7019 | true | false | Arbeitsmarkt (Print)
+7020 | true | false | Arbeitsmarkt (Print)
+7021 | true | false | Arbeitsmarkt (Print)
+7022 | true | false | Arbeitsmarkt (Print)
+7023 | true | false | Arbeitsmarkt (Print)
+7024 | true | false | Arbeitsmarkt (Print)
+7025 | true | false | Arbeitsmarkt (Print)
+7026 | true | false | Arbeitsmarkt (Print)
+7027 | true | false | Arbeitsmarkt (Print)
+7028 | true | false | Arbeitsmarkt (Print)
+7029 | true | false | Arbeitsmarkt (Print)
+7030 | true | false | Arbeitsmarkt (Print)
+7031 | true | false | Arbeitsmarkt (Print)
+7032 | true | false | Arbeitsmarkt (Print)
+7033 | true | false | Arbeitsmarkt (Print)
+7034 | true | false | Arbeitsmarkt (Print)
+7035 | true | false | Arbeitsmarkt (Print)
+7036 | true | false | Arbeitsmarkt (Print)
+7037 | true | false | Arbeitsmarkt (Print)
+7038 | true | false | Arbeitsmarkt (Print)
+7039 | true | false | Arbeitsmarkt (Print)
+7040 | true | false | Arbeitsmarkt (Print)
+7041 | true | false | Arbeitsmarkt (Print)
+7042 | true | false | Arbeitsmarkt (Print)
+7043 | true | false | Arbeitsmarkt (Print)
+7044 | true | false | Arbeitsmarkt (Print)
+7045 | true | false | Arbeitsmarkt (Print)
+7046 | true | false | Arbeitsmarkt (Print)
+7047 | true | false | Arbeitsmarkt (Print)
+7048 | true | false | Arbeitsmarkt (Print)
+7049 | true | false | Arbeitsmarkt (Print)
+7050 | true | false | Arbeitsmarkt (Print)
+7051 | true | false | Arbeitsmarkt (Print)
+7052 | true | false | Arbeitsmarkt (Print)
+7053 | true | false | Arbeitsmarkt (Print)
+7054 | true | false | Arbeitsmarkt (Print)
+7055 | true | false | Arbeitsmarkt (Print)
+7056 | true | false | Arbeitsmarkt (Print)
+7057 | true | false | Arbeitsmarkt (Print)
+7058 | true | false | Arbeitsmarkt (Print)
+7059 | true | false | Arbeitsmarkt (Print)
+7060 | true | false | Arbeitsmarkt (Print)
+7061 | true | false | Arbeitsmarkt (Print)
+7062 | true | false | Arbeitsmarkt (Print)
+7064 | true | false | Arbeitsmarkt (Print)
 7068 | true | true | 
 7432 | true | true | 
 7435 | true | false | Arbeitsmarkt
@@ -1025,22 +1094,54 @@ id | visible | visibleInPortal | indikatorenset
 7453 | true | false | Arbeitsmarkt
 7454 | true | false | Arbeitsmarkt
 7455 | true | false | Arbeitsmarkt
-7456 | true | false | Arbeitsmarkt
-7458 | true | false | Arbeitsmarkt
-7459 | true | false | Arbeitsmarkt
-7460 | true | false | Arbeitsmarkt
+7456 | false |  | Arbeitsmarkt
+7458 | false |  | Arbeitsmarkt
+7459 | false |  | Arbeitsmarkt
+7460 | false |  | Arbeitsmarkt
 7461 | true | false | Arbeitsmarkt
 7462 | true | false | Arbeitsmarkt
 7463 | true | false | Arbeitsmarkt
 7464 | true | false | Arbeitsmarkt
-7465 | true | false | Arbeitsmarkt
-7466 | true | false | Arbeitsmarkt
-7467 | true | false | Arbeitsmarkt
-7468 | true | false | Arbeitsmarkt
-7469 | true | false | Arbeitsmarkt
-7470 | true | false | Arbeitsmarkt
-7471 | true | false | Arbeitsmarkt
-7473 | true | false | Arbeitsmarkt
+7465 | false |  | Arbeitsmarkt
+7466 | false |  | Arbeitsmarkt
+7467 | false |  | Arbeitsmarkt
+7468 | false |  | Arbeitsmarkt
+7469 | false |  | Arbeitsmarkt
+7470 | false |  | Arbeitsmarkt
+7471 | false |  | Arbeitsmarkt
+7473 | false |  | Arbeitsmarkt
+7474 | true | false | Arbeitsmarkt (Print)
+7475 | true | false | Arbeitsmarkt (Print)
+7476 | true | false | Arbeitsmarkt (Print)
+7477 | true | false | Arbeitsmarkt (Print)
+7478 | true | false | Arbeitsmarkt (Print)
+7479 | true | false | Arbeitsmarkt (Print)
+7480 | true | false | Arbeitsmarkt (Print)
+7481 | true | false | Arbeitsmarkt (Print)
+7482 | true | false | Arbeitsmarkt (Print)
+7483 | true | false | Arbeitsmarkt (Print)
+7484 | true | false | Arbeitsmarkt (Print)
+7485 | true | false | Arbeitsmarkt (Print)
+7486 | true | false | Arbeitsmarkt (Print)
+7487 | true | false | Arbeitsmarkt (Print)
+7488 | true | false | Arbeitsmarkt (Print)
+7489 | true | false | Arbeitsmarkt (Print)
+7490 | false |  | Arbeitsmarkt (Print)
+7491 | false |  | Arbeitsmarkt (Print)
+7492 | false |  | Arbeitsmarkt (Print)
+7493 | false |  | Arbeitsmarkt (Print)
+7494 | true | false | Arbeitsmarkt (Print)
+7495 | true | false | Arbeitsmarkt (Print)
+7496 | true | false | Arbeitsmarkt (Print)
+7497 | true | false | Arbeitsmarkt (Print)
+7498 | false |  | Arbeitsmarkt (Print)
+7499 | false |  | Arbeitsmarkt (Print)
+7500 | false |  | Arbeitsmarkt (Print)
+7501 | false |  | Arbeitsmarkt (Print)
+7502 | false |  | Arbeitsmarkt (Print)
+7503 | false |  | Arbeitsmarkt (Print)
+7504 | false |  | Arbeitsmarkt (Print)
+7505 | false |  | Arbeitsmarkt (Print)
 7510 | true | true | Monatsindikatoren
 7511 | true | true | Monatsindikatoren
 7512 | true | true | Monatsindikatoren
@@ -1100,6 +1201,7 @@ id | visible | visibleInPortal | indikatorenset
 7707 | true | true | Stadtteilmonitoring Rosental
 7708 | true | true | Stadtteilmonitoring Rosental
 7709 | true | true | Stadtteilmonitoring Rosental
+7710 | true | true | 
 7711 | true | true | Stadtteilmonitoring Rosental
 7712 | true | true | Stadtteilmonitoring Rosental
 7713 | true | false | Testset
@@ -1131,8 +1233,13 @@ id | visible | visibleInPortal | indikatorenset
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
+7773 | true | false | Richtplan
 7774 | true | true | Richtplan
+7775 | true | true | Richtplan
+7777 | true | false | Richtplan
 7778 | true | false | Richtplan
+7779 | true | true | Richtplan
+7782 | true | false | Richtplan
 7902 | true | false | Stadtteilmonitoring Rosental (Print)
 7903 | true | false | Stadtteilmonitoring Rosental (Print)
 7904 | true | false | Stadtteilmonitoring Rosental (Print)
@@ -1199,43 +1306,321 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
-8380 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8381 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8382 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8383 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8384 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8385 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8386 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8387 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8388 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8389 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8390 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8391 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8392 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8393 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8394 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8395 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8396 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8397 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8398 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8399 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8400 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8401 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8402 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8403 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8404 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8405 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8406 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8407 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8408 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8409 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8410 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8411 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8412 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8413 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8414 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8415 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-8416 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8045 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
+8046 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8047 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8048 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8049 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8050 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8051 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8052 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8053 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8054 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8055 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8056 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8057 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8058 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8059 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8060 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8061 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8062 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8063 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8064 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8065 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8066 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8067 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8068 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8069 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8070 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8071 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8072 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8073 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8074 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8075 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8076 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8077 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8078 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8079 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8080 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8081 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8082 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8085 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8086 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8087 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8088 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8089 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8090 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8092 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8093 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8094 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8240 | true | true | CMS Kennzahlen Soziales
+8241 | true | false | CMS Kennzahlen Soziales
+8242 | true | true | CMS Kennzahlen Soziales
+8243 | true | true | CMS Kennzahlen Soziales
+8244 | true | true | CMS Kennzahlen Soziales
+8245 | true | true | CMS Kennzahlen Soziales
+8246 | true | true | CMS Kennzahlen Soziales
+8247 | true | true | CMS Kennzahlen Soziales
+8248 | true | true | CMS Kennzahlen Soziales
+8249 | true | true | CMS Kennzahlen Soziales
+8250 | true | true | CMS Kennzahlen Soziales
+8251 | true | true | CMS Kennzahlen Soziales
+8252 | true | false | CMS Kennzahlen Soziales
+8253 | true | true | CMS Kennzahlen Soziales
+8254 | true | true | CMS Kennzahlen Soziales
+8255 | true | false | CMS Kennzahlen Soziales
+8256 | true | true | CMS Kennzahlen Soziales
+8258 | true | true | CMS Kennzahlen Soziales
+8260 | true | true | CMS Kennzahlen Soziales
+8261 | true | true | CMS Kennzahlen Soziales
+8262 | true | true | CMS Kennzahlen Soziales
+8263 | true | true | CMS Kennzahlen Soziales
+8264 | true | true | CMS Kennzahlen Soziales
+8265 | true | true | CMS Kennzahlen Soziales
+8266 | true | true | CMS Kennzahlen Soziales
+8267 | true | true | CMS Kennzahlen Soziales
+8268 | true | true | CMS Kennzahlen Soziales
+8269 | true | true | CMS Kennzahlen Soziales
+8270 | true | true | CMS Kennzahlen Soziales
+8271 | true | true | CMS Kennzahlen Soziales
+8272 | true | true | CMS Kennzahlen Soziales
+8273 | true | true | CMS Kennzahlen Soziales
+8274 | true | true | CMS Kennzahlen Soziales
+8275 | true | true | CMS Kennzahlen Soziales
+8276 | true | false | CMS Kennzahlen Soziales
+8277 | true | true | CMS Kennzahlen Soziales
+8278 | true | true | CMS Kennzahlen Soziales
+8279 | true | true | CMS Kennzahlen Soziales
+8280 | true | true | CMS Kennzahlen Soziales
+8281 | true | true | CMS Kennzahlen Soziales
+8282 | true | true | CMS Kennzahlen Soziales
+8283 | true | false | CMS Kennzahlen Soziales
+8284 | true | false | CMS Kennzahlen Soziales
+8285 | true | true | CMS Kennzahlen Soziales
+8286 | true | true | CMS Kennzahlen Soziales
+8287 | true | true | CMS Kennzahlen Soziales
+8288 | true | true | CMS Kennzahlen Soziales
+8289 | true | true | CMS Kennzahlen Soziales
+8290 | true | true | CMS Kennzahlen Soziales
+8291 | true | true | CMS Kennzahlen Soziales
+8292 | true | true | CMS Kennzahlen Soziales
+8293 | true | true | CMS Kennzahlen Soziales
+8294 | true | true | CMS Kennzahlen Soziales
+8314 | true | true | CMS Kennzahlen Soziales
+8315 | true | true | CMS Kennzahlen Soziales
+8316 | true | true | CMS Kennzahlen Soziales
+8317 | true | true | CMS Kennzahlen Soziales
+8318 | true | false | CMS Kennzahlen Soziales
+8320 | true | true | CMS Kennzahlen Soziales
+8322 | true | true | CMS Kennzahlen Soziales
+8323 | true | true | CMS Kennzahlen Soziales
+8324 | true | true | CMS Kennzahlen Soziales
+8325 | true | true | CMS Kennzahlen Soziales
+8326 | true | true | CMS Kennzahlen Soziales
+8327 | true | true | CMS Kennzahlen Soziales
+8328 | true | true | CMS Kennzahlen Soziales
+8329 | true | true | CMS Kennzahlen Soziales
+8330 | true | true | CMS Kennzahlen Soziales
+8331 | true | true | CMS Kennzahlen Soziales
+8332 | true | true | CMS Kennzahlen Soziales
+8333 | true | true | CMS Kennzahlen Soziales
+8334 | true | true | CMS Kennzahlen Soziales
+8335 | true | true | CMS Kennzahlen Soziales
+8336 | true | true | CMS Kennzahlen Soziales
+8337 | true | true | CMS Kennzahlen Soziales
+8338 | true | true | CMS Kennzahlen Soziales
+8339 | true | false | CMS Kennzahlen Soziales
+8340 | true | true | CMS Kennzahlen Soziales
+8341 | true | true | CMS Kennzahlen Soziales
+8348 | true | true | 
+8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
+8377 | true | false | Nachhaltigkeit
+8379 | true | true | Nachhaltigkeit
+8448 | true | false | Nachhaltigkeit
+8449 | true | true | Nachhaltigkeit
+8451 | true | true | 
+8452 | true | true | CMS Kennzahlen Soziales
+8453 | true | true | Nachhaltigkeit
+8454 | true | false | Nachhaltigkeit
+8455 | true | false | Nachhaltigkeit
+8456 | true | false | Nachhaltigkeit
+8457 | true | true | Nachhaltigkeit
+8458 | true | true | Nachhaltigkeit
+8460 | true | true | Nachhaltigkeit
+8461 | true | true | Nachhaltigkeit
+8511 | true | false | CMS Kennzahlen Soziales (Print)
+8512 | true | false | CMS Kennzahlen Soziales (Print)
+8513 | true | false | CMS Kennzahlen Soziales (Print)
+8514 | true | false | CMS Kennzahlen Soziales (Print)
+8515 | true | false | CMS Kennzahlen Soziales (Print)
+8516 | true | false | CMS Kennzahlen Soziales (Print)
+8517 | true | false | CMS Kennzahlen Soziales (Print)
+8518 | true | false | CMS Kennzahlen Soziales (Print)
+8519 | true | false | CMS Kennzahlen Soziales (Print)
+8520 | true | false | CMS Kennzahlen Soziales (Print)
+8521 | true | false | CMS Kennzahlen Soziales (Print)
+8522 | true | false | CMS Kennzahlen Soziales (Print)
+8523 | true | false | CMS Kennzahlen Soziales (Print)
+8524 | true | false | CMS Kennzahlen Soziales (Print)
+8525 | true | false | CMS Kennzahlen Soziales (Print)
+8526 | true | false | CMS Kennzahlen Soziales (Print)
+8527 | true | false | CMS Kennzahlen Soziales (Print)
+8529 | true | false | CMS Kennzahlen Soziales (Print)
+8531 | true | false | CMS Kennzahlen Soziales (Print)
+8532 | true | false | CMS Kennzahlen Soziales (Print)
+8533 | true | false | CMS Kennzahlen Soziales (Print)
+8534 | true | false | CMS Kennzahlen Soziales (Print)
+8535 | true | false | CMS Kennzahlen Soziales (Print)
+8536 | true | false | CMS Kennzahlen Soziales (Print)
+8537 | true | false | CMS Kennzahlen Soziales (Print)
+8538 | true | false | CMS Kennzahlen Soziales (Print)
+8539 | true | false | CMS Kennzahlen Soziales (Print)
+8540 | true | false | CMS Kennzahlen Soziales (Print)
+8541 | true | false | CMS Kennzahlen Soziales (Print)
+8542 | true | false | CMS Kennzahlen Soziales (Print)
+8543 | true | false | CMS Kennzahlen Soziales (Print)
+8544 | true | false | CMS Kennzahlen Soziales (Print)
+8545 | true | false | CMS Kennzahlen Soziales (Print)
+8546 | true | false | CMS Kennzahlen Soziales (Print)
+8547 | true | false | CMS Kennzahlen Soziales (Print)
+8548 | true | false | CMS Kennzahlen Soziales (Print)
+8549 | true | false | CMS Kennzahlen Soziales (Print)
+8550 | true | false | CMS Kennzahlen Soziales (Print)
+8551 | true | false | CMS Kennzahlen Soziales (Print)
+8552 | true | false | CMS Kennzahlen Soziales (Print)
+8553 | true | false | CMS Kennzahlen Soziales (Print)
+8554 | true | false | CMS Kennzahlen Soziales (Print)
+8555 | true | false | CMS Kennzahlen Soziales (Print)
+8556 | true | false | CMS Kennzahlen Soziales (Print)
+8557 | true | false | CMS Kennzahlen Soziales (Print)
+8558 | true | false | CMS Kennzahlen Soziales (Print)
+8559 | true | false | CMS Kennzahlen Soziales (Print)
+8560 | true | false | CMS Kennzahlen Soziales (Print)
+8561 | true | false | CMS Kennzahlen Soziales (Print)
+8562 | true | false | CMS Kennzahlen Soziales (Print)
+8563 | true | false | CMS Kennzahlen Soziales (Print)
+8564 | true | false | CMS Kennzahlen Soziales (Print)
+8565 | true | false | CMS Kennzahlen Soziales (Print)
+8585 | true | false | CMS Kennzahlen Soziales (Print)
+8586 | true | false | CMS Kennzahlen Soziales (Print)
+8587 | true | false | CMS Kennzahlen Soziales (Print)
+8588 | true | false | CMS Kennzahlen Soziales (Print)
+8589 | true | false | CMS Kennzahlen Soziales (Print)
+8591 | true | false | CMS Kennzahlen Soziales (Print)
+8593 | true | false | CMS Kennzahlen Soziales (Print)
+8594 | true | false | CMS Kennzahlen Soziales (Print)
+8595 | true | false | CMS Kennzahlen Soziales (Print)
+8596 | true | false | CMS Kennzahlen Soziales (Print)
+8597 | true | false | CMS Kennzahlen Soziales (Print)
+8598 | true | false | CMS Kennzahlen Soziales (Print)
+8599 | true | false | CMS Kennzahlen Soziales (Print)
+8600 | true | false | CMS Kennzahlen Soziales (Print)
+8601 | true | false | CMS Kennzahlen Soziales (Print)
+8602 | true | false | CMS Kennzahlen Soziales (Print)
+8603 | true | false | CMS Kennzahlen Soziales (Print)
+8604 | true | false | CMS Kennzahlen Soziales (Print)
+8605 | true | false | CMS Kennzahlen Soziales (Print)
+8606 | true | false | CMS Kennzahlen Soziales (Print)
+8607 | true | false | CMS Kennzahlen Soziales (Print)
+8608 | true | false | CMS Kennzahlen Soziales (Print)
+8609 | true | false | CMS Kennzahlen Soziales (Print)
+8610 | true | false | CMS Kennzahlen Soziales (Print)
+8611 | true | false | CMS Kennzahlen Soziales (Print)
+8612 | true | false | CMS Kennzahlen Soziales (Print)
+8613 | true | false | CMS Kennzahlen Soziales (Print)
+8614 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8615 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8616 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8617 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8618 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8619 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8620 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8621 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8622 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8623 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8624 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8625 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8626 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8627 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8628 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8629 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8630 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8631 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8632 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8633 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8634 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8635 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8636 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8637 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8638 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8639 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8640 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8641 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8642 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8643 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8644 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8645 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8646 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8647 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8648 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8649 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8650 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8651 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8652 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8654 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8655 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8656 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8657 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8658 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8659 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8661 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8662 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8663 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8664 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8665 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8683 | true | true | Arbeitsmarkt
+8684 | true | true | Arbeitsmarkt
+8685 | true | true | Arbeitsmarkt
+8687 | true | true | Arbeitsmarkt
+8689 | true | true | Arbeitsmarkt
+8690 | true | true | Arbeitsmarkt
+8693 | true | true | Arbeitsmarkt
+8694 | true | true | Arbeitsmarkt
+8695 | true | true | Arbeitsmarkt
+8696 | true | true | Arbeitsmarkt
+8698 | true | false | Arbeitsmarkt (Print)
+8699 | true | false | Arbeitsmarkt (Print)
+8700 | true | false | Arbeitsmarkt (Print)
+8701 | true | false | Arbeitsmarkt (Print)
+8702 | true | false | Arbeitsmarkt (Print)
+8703 | true | false | Arbeitsmarkt (Print)
+8704 | true | false | Arbeitsmarkt (Print)
+8705 | true | false | Arbeitsmarkt (Print)
+8706 | true | false | Arbeitsmarkt (Print)
+8707 | true | false | Arbeitsmarkt (Print)
+8812 | true | false | CMS Kennzahlen Soziales (Print)
+8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8852 | true | true | Nachhaltigkeit
+8877 | true | false | Richtplan
+8976 | true | false | 
+8977 | true | false | CMS Kennzahlen Soziales
+8978 | true | false | CMS Kennzahlen Soziales (Print)
+8980 | true | true | Monatsindikatoren
+8981 | true | true | Monatsindikatoren
+8983 | true | false | 
+8984 | true | false | 
+8985 | true | false | 
+8986 | true | false | 
+8988 | true | false | 
+8990 | true | true | 
+8991 | true | true | 
+8992 | true | true | Monatsindikatoren
+8995 | true | true | 
+8998 | true | false | 
+8999 | true | false | 
+9011 | true | false | 
+9012 | true | false | 
+9013 | true | false | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

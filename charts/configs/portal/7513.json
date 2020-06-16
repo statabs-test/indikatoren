@@ -214,10 +214,65 @@
         ],
         [
           "Dez",
-          null
+          102.4
         ]
       ],
       "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "data": [
+        [
+          "Jan",
+          102.2
+        ],
+        [
+          "Feb",
+          102.3
+        ],
+        [
+          "Mrz",
+          102.4
+        ],
+        [
+          "Apr",
+          102
+        ],
+        [
+          "Mai",
+          102.2
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -288,6 +343,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -318,7 +374,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
   },
   "legend": {
     "enabled": true,
