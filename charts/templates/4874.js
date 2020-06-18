@@ -5,7 +5,7 @@
             {"color": "#73BA7C"},
             {"color": "#FFBB58"},
             {"color": "#FF8028"},
-            { "color": "#C8C8C8"}        
+            { "color": "#6F6F6F"}        
     ],
     legend: {
         reversed: false,
