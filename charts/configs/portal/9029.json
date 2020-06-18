@@ -5,37 +5,37 @@
       "data": [
         [
           "2011",
-          469
+          98
         ],
         [
           "2015",
-          448
+          88
         ],
         [
           "2019",
-          446
+          69
         ]
       ],
-      "name": "Sehr stark",
+      "name": "Stimmt genau",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
+      "color": "#68AB2B",
       "data": [
         [
           "2011",
-          709
+          811
         ],
         [
           "2015",
-          646
+          701
         ],
         [
           "2019",
-          644
+          651
         ]
       ],
-      "name": "Eher stark",
+      "name": "Stimmt eher",
       "turboThreshold": 0
     },
     {
@@ -43,37 +43,56 @@
       "data": [
         [
           "2011",
-          304
+          498
         ],
         [
           "2015",
-          237
+          376
         ],
         [
           "2019",
-          207
+          387
         ]
       ],
-      "name": "Eher nicht",
+      "name": "Stimmt eher nicht",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#B00000",
       "data": [
         [
           "2011",
-          59
+          66
         ],
         [
           "2015",
-          40
+          49
         ],
         [
           "2019",
-          49
+          58
         ]
       ],
-      "name": "Überhaupt nicht",
+      "name": "Stimmt gar nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2011",
+          106
+        ],
+        [
+          "2015",
+          165
+        ],
+        [
+          "2019",
+          177
+        ]
+      ],
+      "name": "Weiss nicht",
       "turboThreshold": 0
     },
     {
@@ -81,15 +100,15 @@
       "data": [
         [
           "2011",
-          148
+          110
         ],
         [
           "2015",
-          56
+          48
         ],
         [
           "2019",
-          64
+          68
         ]
       ],
       "name": "Keine Angabe",
@@ -150,7 +169,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -162,8 +181,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4874",
-    "spacingBottom": 30
+    "renderTo": "container-9029",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -172,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Politikinteresse der über 54-Jährigen"
+    "text": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert."
   },
   "subtitle": {
     "style": {
@@ -180,7 +199,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt, 2019"
+    "text": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -236,9 +255,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-17"
   },
   "legend": {
     "layout": "horizontal",
@@ -253,11 +272,10 @@
     "symbolRadius": 0,
     "labelFormatter": function(){
             return this.name.replace("/", " /<br/>");
-    
-          },
+        },
     "reversed": false
   },
   "exporting": {
-    "filename": 4874
+    "filename": 9029
   }
 }
