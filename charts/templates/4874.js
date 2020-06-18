@@ -18,7 +18,10 @@
     
           }
       
-    },       
+    },  
+    yAxis: {
+        reversedStacks: false,
+    },     
     "xAxis": {
         "type": "category"
     }

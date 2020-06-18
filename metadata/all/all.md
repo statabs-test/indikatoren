@@ -1621,6 +1621,7 @@ id | visible | visibleInPortal | indikatorenset
 9011 | true | false | 
 9012 | true | false | 
 9013 | true | false | 
+9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

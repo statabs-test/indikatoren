@@ -4,48 +4,48 @@
       "color": "#256370",
       "data": [
         [
-          "Arbeitskollegen 2019 (N=1 410)",
-          0.1
-        ],
-        [
-          "Arbeitskollegen 2015 (N=1 427)",
-          0.1
-        ],
-        [
-          "Arbeitskollegen 2011 (N=1 689)",
-          null
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "Nachbarn 2019 (N=1 410)",
-          1.8
-        ],
-        [
-          "Nachbarn 2015 (N=1 427)",
-          1.6
-        ],
-        [
-          "Nachbarn 2011 (N=1 689)",
-          0.9
-        ],
-        [
-          "  ",
-          undefined
-        ],
-        [
-          "Freunde und Bekannte 2019 (N=1 410)",
-          1.7
-        ],
-        [
-          "Freunde und Bekannte 2015 (N=1 427)",
+          "2019: Arbeitskollegen",
           2
         ],
         [
-          "Freunde und Bekannte 2011 (N=1 689)",
-          1.5
+          "2019: Nachbarn",
+          26
+        ],
+        [
+          "2019: Freunde und Bekannte",
+          24
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Arbeitskollegen",
+          2
+        ],
+        [
+          "2015: Nachbarn",
+          23
+        ],
+        [
+          "2015: Freunde und Bekannte",
+          29
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: Arbeitskollegen",
+          0
+        ],
+        [
+          "2011: Nachbarn",
+          16
+        ],
+        [
+          "2011: Freund und Bekannte",
+          25
         ]
       ],
       "name": "Regelmässig",
@@ -55,48 +55,48 @@
       "color": "#71A3B5",
       "data": [
         [
-          "Arbeitskollegen 2019 (N=1 410)",
-          1.1
+          "2019: Arbeitskollegen",
+          15
         ],
         [
-          "Arbeitskollegen 2015 (N=1 427)",
-          1.7
+          "2019: Nachbarn",
+          166
         ],
         [
-          "Arbeitskollegen 2011 (N=1 689)",
-          0.5
+          "2019: Freunde und Bekannte",
+          150
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
-          "Nachbarn 2019 (N=1 410)",
-          11.8
+          "2015: Arbeitskollegen",
+          24
         ],
         [
-          "Nachbarn 2015 (N=1 427)",
-          12.4
+          "2015: Nachbarn",
+          177
         ],
         [
-          "Nachbarn 2011 (N=1 689)",
-          6.7
+          "2015: Freunde und Bekannte",
+          147
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "Freunde und Bekannte 2019 (N=1 410)",
-          10.6
+          "2011: Arbeitskollegen",
+          8
         ],
         [
-          "Freunde und Bekannte 2015 (N=1 427)",
-          10.3
+          "2011: Nachbarn",
+          113
         ],
         [
-          "Freunde und Bekannte 2011 (N=1 689)",
-          6.7
+          "2011: Freund und Bekannte",
+          113
         ]
       ],
       "name": "Hin und wieder",
@@ -106,48 +106,48 @@
       "color": "#FFBB58",
       "data": [
         [
-          "Arbeitskollegen 2019 (N=1 410)",
-          2.9
+          "2019: Arbeitskollegen",
+          41
         ],
         [
-          "Arbeitskollegen 2015 (N=1 427)",
-          3.4
+          "2019: Nachbarn",
+          185
         ],
         [
-          "Arbeitskollegen 2011 (N=1 689)",
-          2.4
+          "2019: Freunde und Bekannte",
+          169
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
-          "Nachbarn 2019 (N=1 410)",
-          13.1
+          "2015: Arbeitskollegen",
+          48
         ],
         [
-          "Nachbarn 2015 (N=1 427)",
-          11.4
+          "2015: Nachbarn",
+          163
         ],
         [
-          "Nachbarn 2011 (N=1 689)",
-          8.6
+          "2015: Freunde und Bekannte",
+          172
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "Freunde und Bekannte 2019 (N=1 410)",
-          12
+          "2011: Arbeitskollegen",
+          40
         ],
         [
-          "Freunde und Bekannte 2015 (N=1 427)",
-          12.1
+          "2011: Nachbarn",
+          146
         ],
         [
-          "Freunde und Bekannte 2011 (N=1 689)",
-          7.5
+          "2011: Freund und Bekannte",
+          127
         ]
       ],
       "name": "Selten",
@@ -157,48 +157,48 @@
       "color": "#FF8028",
       "data": [
         [
-          "Arbeitskollegen 2019 (N=1 410)",
-          51.4
+          "2019: Arbeitskollegen",
+          725
         ],
         [
-          "Arbeitskollegen 2015 (N=1 427)",
-          50.4
+          "2019: Nachbarn",
+          700
         ],
         [
-          "Arbeitskollegen 2011 (N=1 689)",
-          51.2
+          "2019: Freunde und Bekannte",
+          734
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
-          "Nachbarn 2019 (N=1 410)",
-          49.7
+          "2015: Arbeitskollegen",
+          719
         ],
         [
-          "Nachbarn 2015 (N=1 427)",
-          50
+          "2015: Nachbarn",
+          714
         ],
         [
-          "Nachbarn 2011 (N=1 689)",
-          54.2
+          "2015: Freunde und Bekannte",
+          720
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "Freunde und Bekannte 2019 (N=1 410)",
-          52.1
+          "2011: Arbeitskollegen",
+          865
         ],
         [
-          "Freunde und Bekannte 2015 (N=1 427)",
-          50.5
+          "2011: Nachbarn",
+          915
         ],
         [
-          "Freunde und Bekannte 2011 (N=1 689)",
-          53.1
+          "2011: Freund und Bekannte",
+          897
         ]
       ],
       "name": "Nie",
@@ -208,48 +208,48 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "Arbeitskollegen 2019 (N=1 410)",
-          22.1
+          "2019: Arbeitskollegen",
+          312
         ],
         [
-          "Arbeitskollegen 2015 (N=1 427)",
-          20.8
+          "2019: Nachbarn",
+          92
         ],
         [
-          "Arbeitskollegen 2011 (N=1 689)",
-          18.1
+          "2019: Freunde und Bekannte",
+          90
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
-          "Nachbarn 2019 (N=1 410)",
-          6.5
+          "2015: Arbeitskollegen",
+          297
         ],
         [
-          "Nachbarn 2015 (N=1 427)",
-          6
+          "2015: Nachbarn",
+          86
         ],
         [
-          "Nachbarn 2011 (N=1 689)",
-          0.1
+          "2015: Freunde und Bekannte",
+          96
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "Freunde und Bekannte 2019 (N=1 410)",
-          6.4
+          "2011: Arbeitskollegen",
+          306
         ],
         [
-          "Freunde und Bekannte 2015 (N=1 427)",
-          6.7
+          "2011: Nachbarn",
+          1
         ],
         [
-          "Freunde und Bekannte 2011 (N=1 689)",
-          8.1
+          "2011: Freund und Bekannte",
+          136
         ]
       ],
       "name": "Nicht möglich",
@@ -259,48 +259,48 @@
       "color": "#8A8A8A",
       "data": [
         [
-          "Arbeitskollegen 2019 (N=1 410)",
-          22.3
+          "2019: Arbeitskollegen",
+          315
         ],
         [
-          "Arbeitskollegen 2015 (N=1 427)",
-          23.6
+          "2019: Nachbarn",
+          241
         ],
         [
-          "Arbeitskollegen 2011 (N=1 689)",
-          27.8
+          "2019: Freunde und Bekannte",
+          243
         ],
         [
           " ",
-          undefined
+          null
         ],
         [
-          "Nachbarn 2019 (N=1 410)",
-          17.1
+          "2015: Arbeitskollegen",
+          337
         ],
         [
-          "Nachbarn 2015 (N=1 427)",
-          18.5
+          "2015: Nachbarn",
+          264
         ],
         [
-          "Nachbarn 2011 (N=1 689)",
-          29.5
+          "2015: Freunde und Bekannte",
+          263
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "Freunde und Bekannte 2019 (N=1 410)",
-          17.2
+          "2011: Arbeitskollegen",
+          470
         ],
         [
-          "Freunde und Bekannte 2015 (N=1 427)",
-          18.4
+          "2011: Nachbarn",
+          498
         ],
         [
-          "Freunde und Bekannte 2011 (N=1 689)",
-          23.1
+          "2011: Freund und Bekannte",
+          391
         ]
       ],
       "name": "Keine Angabe",
