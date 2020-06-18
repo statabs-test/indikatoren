@@ -1,49 +1,178 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
+      "color": "#007a2f",
       "data": [
         [
+          "2003",
+          277
+        ],
+        [
+          "2005",
+          304
+        ],
+        [
+          "2007",
+          227
+        ],
+        [
           "2011",
-          367
+          464
         ],
         [
           "2015",
-          918
+          317
         ],
         [
           "2019",
-          877
+          695
         ]
       ],
-      "name": "Ja",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#68ab2b",
       "data": [
         [
+          "2003",
+          891
+        ],
+        [
+          "2005",
+          923
+        ],
+        [
+          "2007",
+          892
+        ],
+        [
           "2011",
-          1017
+          724
         ],
         [
           "2015",
-          509
+          831
         ],
         [
           "2019",
-          416
+          976
         ]
       ],
-      "name": "Nein",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A",
+      "color": "#ffbb58",
       "data": [
         [
+          "2003",
+          278
+        ],
+        [
+          "2005",
+          234
+        ],
+        [
+          "2007",
+          329
+        ],
+        [
           "2011",
-          305
+          265
+        ],
+        [
+          "2015",
+          287
+        ],
+        [
+          "2019",
+          216
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "2003",
+          26
+        ],
+        [
+          "2005",
+          34
+        ],
+        [
+          "2007",
+          39
+        ],
+        [
+          "2011",
+          52
+        ],
+        [
+          "2015",
+          53
+        ],
+        [
+          "2019",
+          66
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          20
+        ],
+        [
+          "2005",
+          15
+        ],
+        [
+          "2007",
+          18
+        ],
+        [
+          "2011",
+          9
+        ],
+        [
+          "2015",
+          12
+        ],
+        [
+          "2019",
+          26
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          1
         ],
         [
           "2015",
@@ -51,7 +180,7 @@
         ],
         [
           "2019",
-          117
+          78
         ]
       ],
       "name": "Keine Angabe",
@@ -112,7 +241,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -124,8 +253,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4865",
-    "spacingBottom": 30
+    "renderTo": "container-9032",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -134,7 +263,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit im Alter"
+    "text": "Zufriedenheit mit der Sicherheit im öffentlichen Raum"
   },
   "subtitle": {
     "style": {
@@ -142,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt, 2019"
+    "text": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -198,9 +327,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-18"
   },
   "legend": {
     "layout": "horizontal",
@@ -220,6 +349,6 @@
     "reversed": false
   },
   "exporting": {
-    "filename": 4865
+    "filename": 9032
   }
 }
