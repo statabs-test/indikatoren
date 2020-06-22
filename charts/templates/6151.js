@@ -9,6 +9,7 @@
                 align: "left",
                 x: -125,
                 "formatter": function () {
+
                     //add sum of observations of visible series to the axis label
                     var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
                         return val.visible;
@@ -24,15 +25,27 @@
                 }
             }
         },
-        "tooltip": {
-            "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
-            "shared": true,
-            "footerFormat": '<br/>Notenschnitt: <b>{point.y:,.1f}</b><br/>',
+        tooltip: {
+            //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+            //"footerFormat": '<br/>Notenschnitt: <b>{point[2].y:,.1f}</b><br/>',
+            shared: true,
+            useHTML: true,
+            followPointer: true,
+            formatter: function () {
+                var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+                $.each(this.points, function (i, point) {
+                    s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+                        + '<td style="text-align:right">&nbsp;<b>' + point.y + '</b></td>'
+                        + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+                    sum += point.y * (i + 1);
+                });
+                s += '</table><br/>Mittelwert: <b>' + Highcharts.numberFormat(sum / this.points[0].total, 1) + '</b>'
+                return s;
+            },
         },
         plotOptions: {
             column: {
-                groupPadding: 0,
-
+                groupPadding: 0
             }
         },
         "series": [
@@ -45,7 +58,7 @@
             { "color": "#ffbb58", "index": 3, "legendIndex": 6 }, /*orange hell */
             { "color": "#ff8028", "index": 2, "legendIndex": 7 }, /*orange dunkel */
             { "color": "#dc440e", "index": 1, "legendIndex": 8 }, /*rot hell */
-            { "color": "#b00000", "index": 0, "legendIndex": 9 } /*rot dunkel */
+            { "color": "#b00000", "index": 0, "legendIndex": 9 }, /*rot dunkel */
         ],
         "chart": {
             marginLeft: 140,
