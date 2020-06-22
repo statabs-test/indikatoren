@@ -514,7 +514,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Darf ich Sie fragen, wie es Ihnen wirtschaftlich gesehen im Moment geht?»"
+    "text": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -577,7 +577,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "legend": {
     "layout": "horizontal",

@@ -225,7 +225,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»"
+    "text": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -282,7 +282,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19.\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-24"
   },
   "legend": {
     "layout": "vertical",

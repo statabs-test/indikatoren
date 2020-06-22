@@ -40,8 +40,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.04718",
+		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
+		"kuerzel": "I.50.4.4718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
 		"thema": "50 Befragungen",
@@ -50,27 +50,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
-		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
+		"lesehilfe": "Von den Befragten erhielten 2019 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn. Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 4,1% der Befragten materielle Hilfeleistungen (2015: 5,2%). Jeweils rund 20% der Befragten machten 2019 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere 22% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungen001",
-		"orderKey": "01_01_00_00_00_000",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8381"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4718,
-		"darstellungsart": "Grafik"
+		"data-id": 4718,
+		"chart-id": 4718,
+		"filter": "",
+		"id": 4718
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -388,8 +395,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.04851",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?», Basel-Stadt",
+		"kuerzel": "I.50.4.4851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"thema": "50 Befragungen",
@@ -398,27 +405,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um 2,5 Prozentpunkte.",
-		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"template": "befragungenProzent001",
-		"orderKey": "01_01_00_00_00_000",
+		"lesehilfe": "2019 waren 87,9% der Befragten zufrieden mit dem Austausch mit den Nachbarn, wobei der Anteil sehr zufriedener Personen bei 43,8% lag. Im Vergleich zu 2015 liegt der Anteil zufriedener Personen gleich hoch.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_01_00_00_00_016",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8390"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4851,
-		"darstellungsart": "Grafik"
+		"data-id": 4851,
+		"chart-id": 4851,
+		"filter": "",
+		"id": 4851
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -910,8 +924,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
-		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.04865",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
+		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"thema": "50 Befragungen",
@@ -920,27 +934,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
-		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
-		"template": "befragungenProzent001",
-		"orderKey": "03_01_00_00_00_000",
+		"lesehilfe": "2019 gaben 29,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2015 waren es 27,5%, 2011 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 um rund 10 Prozentpunkte auf 8,3% im Jahr 2019 ab.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8404"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4865,
-		"darstellungsart": "Grafik"
+		"data-id": 4865,
+		"chart-id": 4865,
+		"filter": "",
+		"id": 4865
 	},
 	{
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
@@ -1225,8 +1246,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.04874",
+		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
+		"kuerzel": "I.50.4.4874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
 		"thema": "50 Befragungen",
@@ -1235,32 +1256,39 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"orderKey": "03_03_00_00_00_000",
+		"lesehilfe": "2019 gaben 77,3% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Das sind fast gleich viele wie 2015.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_035",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8412"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4874,
-		"darstellungsart": "Grafik"
+		"data-id": 4874,
+		"chart-id": 4874,
+		"filter": "",
+		"id": 4874
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.04875",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?», Basel-Stadt",
+		"kuerzel": "I.50.4.4875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"thema": "50 Befragungen",
@@ -1269,27 +1297,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"orderKey": "01_01_00_00_00_000",
+		"lesehilfe": "2019 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2015 betrug die Zufriedenheit auch 80,0%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2015 um 3,6 Prozentpunkte höher lag.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_01_00_00_00_017",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8413"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4875,
-		"darstellungsart": "Grafik"
+		"data-id": 4875,
+		"chart-id": 4875,
+		"filter": "",
+		"id": 4875
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -1361,8 +1396,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
-		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
-		"kuerzel": "I.50.1.04933",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
+		"kuerzel": "I.50.1.4933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
 		"thema": "50 Befragungen",
@@ -1371,26 +1406,156 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Befragten im Alter von 18 bis 29 Jahren interessierten sich 2015 61,9% eher oder sehr stark für die Politik im Kanton Basel-Stadt. Gegenüber 2007 entspricht dies einer Zunahme um 17,1 Prozentpunkte. Auch die Ergebnisse der Jugendbefragungen von 2009 und 2013 (nicht abgebildet) zeigen auf, dass sich jüngere Befragte weniger für Politik interessieren als ältere: 2013 gaben 14,1% der 11-14-Jährigen (N=482), 18,8% der 15-17-Jährigen (N=448) und 27,1% der über 18-Jährigen (N=92) an, sich eher oder sehr für Politik zu interessieren.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"orderKey": "03_03_00_00_00_000",
+		"lesehilfe": "Von den im Jahr 2019 Befragten im Alter von 18 bis 29 Jahren interessierten sich 34,2% eher oder sehr stark für die Politik im Kanton Basel-Stadt (2015: 61,9%). 60,6% interessieren sich eher oder gar nicht für Politik. Zum Vergleich: Der Anteil an allen Befragten, der sich eher oder sehr stark für die Politik im Kanton Basel-Stadt interessiert liegt bei 52,2%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_034",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8416"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4933,
-		"darstellungsart": "Grafik"
+		"data-id": 4933,
+		"chart-id": 4933,
+		"filter": "",
+		"id": 4933
+	},
+	{
+		"title": "Ältere Menschen sind eine Last für die Gesellschaft",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ältere Menschen sind eine Last für die Gesellschaft.», Basel-Stadt",
+		"kuerzel": "I.50.4.09027",
+		"kuerzelKunde": "1.3.04",
+		"description": "Ältere Menschen sind eine Last für die Gesellschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-17T14:34:50.5050",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "17,4% der 2019 Befragten sind der Meinung, dass ältere Menschen eine Last für die Gesellschaft darstellen. Der Anteil Personen, der mit «Stimmt gar nicht» geantwortet hat, liegt bei 43,3%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9033"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9027,
+		"chart-id": 9027,
+		"filter": "",
+		"id": 9027
+	},
+	{
+		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
+		"kuerzel": "I.50.4.09029",
+		"kuerzelKunde": "1.3.05",
+		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-17T14:49:20.2020",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "51,1% der 2019 befragten Personen stimmen der Aussage zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,6% stimmen dieser Aussage nicht zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9034"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9029,
+		"chart-id": 9029,
+		"filter": "",
+		"id": 9029
+	},
+	{
+		"title": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
+		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt",
+		"kuerzel": "I.50.1.09032",
+		"kuerzelKunde": "1.2.04",
+		"description": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-18T15:32:19.1919",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "33,8% der im Jahr 2019 Befragten sind mit der Sicherheit im öffentlichen Raum sehr zufrieden (2015: 21,1%) und 47,4% eher zufrieden. 10,5% sind eher unzufrieden und 3,2% sehr unzufrieden mit der  Sicherheit im öffentlichen Raum.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"9036"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9032,
+		"chart-id": 9032,
+		"filter": "",
+		"id": 9032
 	}
 ];

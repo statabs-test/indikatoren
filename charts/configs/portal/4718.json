@@ -13,7 +13,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "Nachbarn 2015",
@@ -25,7 +25,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "Freunde und Bekannte 2015",
@@ -52,7 +52,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "Nachbarn 2015",
@@ -64,7 +64,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "Freunde und Bekannte 2015",
@@ -91,7 +91,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "Nachbarn 2015",
@@ -103,7 +103,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "Freunde und Bekannte 2015",
@@ -130,7 +130,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "Nachbarn 2015",
@@ -142,7 +142,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "Freunde und Bekannte 2015",
@@ -169,7 +169,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "Nachbarn 2015",
@@ -181,7 +181,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "Freunde und Bekannte 2015",
@@ -208,7 +208,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "Nachbarn 2015",
@@ -220,7 +220,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "Freunde und Bekannte 2015",
@@ -253,7 +253,8 @@
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      }
+      },
+      "formatter": undefined
     }
   },
   "chart": {
@@ -275,7 +276,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -289,7 +290,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-4718",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "title": {
     "style": {
@@ -306,7 +307,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?»"
+    "text": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -362,9 +363,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
   },
   "legend": {
     "layout": "horizontal",

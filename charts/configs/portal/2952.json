@@ -342,7 +342,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
+    "text": "«Wie stehen Sie zu folgender Aussage: Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.», Anteil sehr oder eher Zustimmende, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -383,7 +383,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
   },
   "legend": {
     "symbolRadius": 0,

@@ -342,7 +342,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
+    "text": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -383,7 +383,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12.\u003Cbr\u002F\u003EZuletzt geändert: 2016-12-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-14"
   },
   "legend": {
     "symbolRadius": 0,
