@@ -40,7 +40,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt, 2019",
+		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
 		"kuerzel": "I.50.4.4718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
@@ -389,7 +389,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?», Basel-Stadt",
 		"kuerzel": "I.50.4.4851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -917,7 +917,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
-		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt, 2019",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
 		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -1233,7 +1233,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt, 2019",
+		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
 		"kuerzel": "I.50.4.4874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
@@ -1274,7 +1274,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?», Basel-Stadt",
 		"kuerzel": "I.50.4.4875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -1417,7 +1417,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ältere Menschen sind eine Last für die Gesellschaft",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ältere Menschen sind eine Last für die Gesellschaft.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ältere Menschen sind eine Last für die Gesellschaft.», Basel-Stadt",
 		"kuerzel": "I.50.4.09027",
 		"kuerzelKunde": "1.3.04",
 		"description": "Ältere Menschen sind eine Last für die Gesellschaft",
@@ -1440,7 +1440,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9033"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -1456,7 +1458,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
 		"kuerzel": "I.50.4.09029",
 		"kuerzelKunde": "1.3.05",
 		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.",
@@ -1479,7 +1481,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9034"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -1495,9 +1499,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
-		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt",
 		"kuerzel": "I.50.1.09032",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1.2.04",
 		"description": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -1506,8 +1510,8 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-06-18T15:32:19.1919",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1516,9 +1520,11 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "01_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9036"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
