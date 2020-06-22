@@ -61,6 +61,10 @@
         [
           2018,
           50986
+        ],
+        [
+          2019,
+          53088
         ]
       ],
       "name": "PV-Beziehende (inkl. SH\u002FEL)"
@@ -132,6 +136,10 @@
         [
           2018,
           25.4604106743368
+        ],
+        [
+          2019,
+          26.49009266
         ]
       ],
       "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
@@ -228,6 +236,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -245,6 +254,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }

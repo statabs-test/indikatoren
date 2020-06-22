@@ -2,15 +2,18 @@
   "series": [
     {
       "color": "#71A3B5",
-      "index": 0,
       "data": [
         [
-          "2011 (N=1689)",
-          21.7
+          "2011",
+          367
         ],
         [
-          "2015 (N=1427)",
-          27.5
+          "2015",
+          393
+        ],
+        [
+          "2019",
+          416
         ]
       ],
       "name": "Ja",
@@ -18,15 +21,18 @@
     },
     {
       "color": "#FFBB58",
-      "index": 2,
       "data": [
         [
-          "2011 (N=1689)",
-          60.2
+          "2011",
+          1017
         ],
         [
-          "2015 (N=1427)",
-          64.3
+          "2015",
+          918
+        ],
+        [
+          "2019",
+          877
         ]
       ],
       "name": "Nein",
@@ -34,15 +40,18 @@
     },
     {
       "color": "#8A8A8A",
-      "index": 1,
       "data": [
         [
-          "2011 (N=1689)",
-          18.1
+          "2011",
+          305
         ],
         [
-          "2015 (N=1427)",
-          8.1
+          "2015",
+          116
+        ],
+        [
+          "2019",
+          117
         ]
       ],
       "name": "Keine Angabe",
@@ -171,7 +180,8 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -193,20 +203,21 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "reversed": true
+    "labelFormatter": function(){
+        return this.name.replace("/", " /<br/>");
+
+      },
+    "reversed": false
   },
   "exporting": {
     "filename": 4865
