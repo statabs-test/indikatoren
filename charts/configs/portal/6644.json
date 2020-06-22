@@ -1004,7 +1004,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "tickAmount": 5,
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {
