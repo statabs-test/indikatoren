@@ -1087,6 +1087,8 @@ id | visible | visibleInPortal | indikatorenset
 7778 | true | false | Richtplan
 8348 | true | true | 
 8692 | true | true | 
+9022 | true | true | 
+9023 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

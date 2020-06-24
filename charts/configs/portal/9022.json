@@ -1,0 +1,1089 @@
+{
+  "series": [
+    {
+      "color": "#FFBB58",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1,
+          -10
+        ],
+        [
+          2,
+          -8
+        ],
+        [
+          3,
+          -5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          24
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          9,
+          46
+        ],
+        [
+          10,
+          50
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          12,
+          66
+        ],
+        [
+          13,
+          75
+        ],
+        [
+          14,
+          79
+        ],
+        [
+          15,
+          70
+        ],
+        [
+          16,
+          71
+        ],
+        [
+          17,
+          76
+        ],
+        [
+          18,
+          80
+        ],
+        [
+          19,
+          77
+        ],
+        [
+          20,
+          78
+        ],
+        [
+          21,
+          81
+        ],
+        [
+          22,
+          82
+        ],
+        [
+          23,
+          84
+        ],
+        [
+          24,
+          88
+        ],
+        [
+          25,
+          91
+        ],
+        [
+          26,
+          96
+        ],
+        [
+          27,
+          115
+        ],
+        [
+          28,
+          133
+        ],
+        [
+          29,
+          144
+        ],
+        [
+          30,
+          151
+        ],
+        [
+          31,
+          146
+        ],
+        [
+          32,
+          146
+        ],
+        [
+          33,
+          143
+        ],
+        [
+          34,
+          150
+        ],
+        [
+          35,
+          149
+        ],
+        [
+          36,
+          151
+        ],
+        [
+          37,
+          156
+        ],
+        [
+          38,
+          154
+        ],
+        [
+          39,
+          148
+        ],
+        [
+          40,
+          149
+        ],
+        [
+          41,
+          142
+        ],
+        [
+          42,
+          140
+        ],
+        [
+          43,
+          134
+        ],
+        [
+          44,
+          133
+        ],
+        [
+          45,
+          119
+        ],
+        [
+          46,
+          107
+        ],
+        [
+          47,
+          107
+        ],
+        [
+          48,
+          101
+        ],
+        [
+          49,
+          98
+        ],
+        [
+          50,
+          95
+        ],
+        [
+          51,
+          86
+        ],
+        [
+          52,
+          86
+        ],
+        [
+          53,
+          89
+        ]
+      ],
+      "name": "2015 Kumuliert"
+    },
+    {
+      "color": "#B00000",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": true
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1,
+          -10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          15,
+          -8
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          -3
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          24,
+          4
+        ],
+        [
+          25,
+          4
+        ],
+        [
+          26,
+          5
+        ],
+        [
+          27,
+          19
+        ],
+        [
+          28,
+          18
+        ],
+        [
+          29,
+          11
+        ],
+        [
+          30,
+          7
+        ],
+        [
+          31,
+          -5
+        ],
+        [
+          32,
+          -1
+        ],
+        [
+          33,
+          -3
+        ],
+        [
+          34,
+          7
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          36,
+          2
+        ],
+        [
+          37,
+          5
+        ],
+        [
+          38,
+          -2
+        ],
+        [
+          39,
+          -6
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          41,
+          -6
+        ],
+        [
+          42,
+          -3
+        ],
+        [
+          43,
+          -6
+        ],
+        [
+          44,
+          -1
+        ],
+        [
+          45,
+          -14
+        ],
+        [
+          46,
+          -12
+        ],
+        [
+          47,
+          0
+        ],
+        [
+          48,
+          -6
+        ],
+        [
+          49,
+          -3
+        ],
+        [
+          50,
+          -3
+        ],
+        [
+          51,
+          -9
+        ],
+        [
+          52,
+          0
+        ],
+        [
+          53,
+          3
+        ]
+      ],
+      "name": "2015 Wöchentlich"
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1,
+          -17
+        ],
+        [
+          2,
+          -26
+        ],
+        [
+          3,
+          -29
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          5,
+          -48
+        ],
+        [
+          6,
+          -59
+        ],
+        [
+          7,
+          -54
+        ],
+        [
+          8,
+          -63
+        ],
+        [
+          9,
+          -58
+        ],
+        [
+          10,
+          -63
+        ],
+        [
+          11,
+          -73
+        ],
+        [
+          12,
+          -80
+        ],
+        [
+          13,
+          -79
+        ],
+        [
+          14,
+          -78
+        ],
+        [
+          15,
+          -78
+        ],
+        [
+          16,
+          -81
+        ],
+        [
+          17,
+          -88
+        ],
+        [
+          18,
+          -99
+        ],
+        [
+          19,
+          -99
+        ],
+        [
+          20,
+          -96
+        ],
+        [
+          21,
+          -90
+        ],
+        [
+          22,
+          -85
+        ],
+        [
+          23,
+          -89
+        ],
+        [
+          24,
+          -90
+        ],
+        [
+          25,
+          -89
+        ],
+        [
+          26,
+          -89
+        ],
+        [
+          27,
+          -95
+        ],
+        [
+          28,
+          -96
+        ],
+        [
+          29,
+          -103
+        ],
+        [
+          30,
+          -97
+        ],
+        [
+          31,
+          -98
+        ],
+        [
+          32,
+          -101
+        ],
+        [
+          33,
+          -86
+        ],
+        [
+          34,
+          -83
+        ],
+        [
+          35,
+          -83
+        ],
+        [
+          36,
+          -95
+        ],
+        [
+          37,
+          -96
+        ],
+        [
+          38,
+          -98
+        ],
+        [
+          39,
+          -101
+        ],
+        [
+          40,
+          -103
+        ],
+        [
+          41,
+          -107
+        ],
+        [
+          42,
+          -116
+        ],
+        [
+          43,
+          -123
+        ],
+        [
+          44,
+          -124
+        ],
+        [
+          45,
+          -128
+        ],
+        [
+          46,
+          -131
+        ],
+        [
+          47,
+          -131
+        ],
+        [
+          48,
+          -132
+        ],
+        [
+          49,
+          -132
+        ],
+        [
+          50,
+          -127
+        ],
+        [
+          51,
+          -119
+        ],
+        [
+          52,
+          -109
+        ],
+        [
+          53,
+          null
+        ]
+      ],
+      "name": "2016 Kumuliert"
+    },
+    {
+      "color": "#246370",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1,
+          -17
+        ],
+        [
+          2,
+          -9
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          4,
+          -7
+        ],
+        [
+          5,
+          -12
+        ],
+        [
+          6,
+          -11
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          -9
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          10,
+          -6
+        ],
+        [
+          11,
+          -9
+        ],
+        [
+          12,
+          -8
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          16,
+          -4
+        ],
+        [
+          17,
+          -7
+        ],
+        [
+          18,
+          -10
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          5
+        ],
+        [
+          22,
+          6
+        ],
+        [
+          23,
+          -4
+        ],
+        [
+          24,
+          -1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          27,
+          -5
+        ],
+        [
+          28,
+          -1
+        ],
+        [
+          29,
+          -7
+        ],
+        [
+          30,
+          6
+        ],
+        [
+          31,
+          -1
+        ],
+        [
+          32,
+          -3
+        ],
+        [
+          33,
+          16
+        ],
+        [
+          34,
+          2
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          36,
+          -12
+        ],
+        [
+          37,
+          -2
+        ],
+        [
+          38,
+          -2
+        ],
+        [
+          39,
+          -3
+        ],
+        [
+          40,
+          -1
+        ],
+        [
+          41,
+          -4
+        ],
+        [
+          42,
+          -9
+        ],
+        [
+          43,
+          -7
+        ],
+        [
+          44,
+          -1
+        ],
+        [
+          45,
+          -4
+        ],
+        [
+          46,
+          -3
+        ],
+        [
+          47,
+          0
+        ],
+        [
+          48,
+          -1
+        ],
+        [
+          49,
+          0
+        ],
+        [
+          50,
+          5
+        ],
+        [
+          51,
+          8
+        ],
+        [
+          52,
+          10
+        ],
+        [
+          53,
+          null
+        ]
+      ],
+      "name": "2016 Wöchentlich"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-9022"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Kummulierte Todesfälle und wöchentliche Veränderung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "65+ Jahre",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "max": 200000,
+      "tickAmount": 6,
+      "alignTicks": true,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "tickInterval": 5,
+      "tickAmount": 6,
+      "alignTicks": true,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 140,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 9022
+  }
+}
