@@ -1,8 +1,8 @@
 (function(){
   return {
     "yAxis": [{
-    	//min: -100,
-     // max: 200,
+    	min: -20,
+        max: 30,
      tickInterval: 5,
       tickAmount: 6,
       alignTicks: true,
@@ -20,8 +20,8 @@
 
     },
     {
-    	//"min": 95,
-       //max: 115,
+       min: -160,
+       max: 240,
       tickInterval: 5,
       tickAmount: 6,
       alignTicks: true,
@@ -63,20 +63,20 @@
             "index": 0,
             "type": "line",
             "yAxis": 1,
-            visible: true,
+            visible: false,
                "marker": {
               "enabled": false
             },
             legendIndex: 1,
             "tooltip": {
-                "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+                "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
              },
           },
           {
             "color": "#FFBB58", // 2015 wöchentlich
             "index": 1,
             "type": "column",
-            visible: true,
+            visible: false,
             pointPadding: 0,
             borderWidth: 0,
             legendIndex: 0,
@@ -92,7 +92,7 @@
         visible: false,
         "legendIndex": 4,
         "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   	   },
         "marker": {
           "enabled": false
@@ -122,7 +122,7 @@
         },
         legendIndex: 6,
   	  "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   	   },
       },
       {
@@ -145,7 +145,7 @@
         visible: false,
         "legendIndex": 8,
         "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   	   },
         "marker": {
           "enabled": false
@@ -176,7 +176,7 @@
         },
         legendIndex: 10,
   	  "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   	   },
       },
       {
@@ -196,10 +196,10 @@
         "index": 1,
         "type": "line",
         "yAxis": 1,
-        visible: false,
+        visible: true,
         "legendIndex": 12,
         "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
   	   },
         "marker": {
           "enabled": false
@@ -209,7 +209,7 @@
         "color":  "#FF8028", // 2020 wöchentlich
         "index": 0,
         "type": "column",
-        visible: false,
+        visible: true,
         pointPadding: 0,
         borderWidth: 0,
         //"pointWidth": "8",
