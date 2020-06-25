@@ -1,258 +1,217 @@
+/**
+ * Experimental Highcharts plugin to implement chart.alignThreshold option. This primary axis
+ * will be computed first, then all following axes will be aligned to the threshold.
+ * Author: Torstein Hønsi
+ * Last revision: 2016-11-02
+ * http://jsfiddle.net/gh/get/jquery/1.7.2/highslide-software/highcharts.com/tree/master/samples/highcharts/studies/alignthresholds/
+ */
+
+(function (H) {
+  var Axis = H.Axis,
+    inArray = H.inArray,
+    wrap = H.wrap;
+
+  wrap(Axis.prototype, 'adjustTickAmount', function (proceed) {
+    var chart = this.chart,
+      primaryAxis = chart[this.coll][0],
+      primaryThreshold,
+      primaryIndex,
+      index,
+      newTickPos,
+      threshold;
+
+    // Find the index and return boolean result
+    function isAligned(axis) {
+      index = inArray(threshold, axis.tickPositions); // used in while-loop
+      return axis.tickPositions.length === axis.tickAmount && index === primaryIndex;
+    }
+
+    if (chart.options.chart.alignThresholds && this !== primaryAxis) {
+      primaryThreshold = (primaryAxis.series[0] && primaryAxis.series[0].options.threshold) || 0;
+      threshold = (this.series[0] && this.series[0].options.threshold) || 0;
+
+      primaryIndex = primaryAxis.tickPositions && inArray(primaryThreshold, primaryAxis.tickPositions);
+
+      if (this.tickPositions && this.tickPositions.length &&
+        primaryIndex > 0 &&
+        primaryIndex < primaryAxis.tickPositions.length - 1 &&
+        this.tickAmount) {
+
+        // Add tick positions to the top or bottom in order to align the threshold
+        // to the primary axis threshold
+        while (!isAligned(this)) {
+
+          if (index < primaryIndex) {
+            newTickPos = this.tickPositions[0] - this.tickInterval;
+            this.tickPositions.unshift(newTickPos);
+            this.min = newTickPos;
+          } else {
+            newTickPos = this.tickPositions[this.tickPositions.length - 1] + this.tickInterval;
+            this.tickPositions.push(newTickPos);
+            this.max = newTickPos;
+          }
+          proceed.call(this);
+        }
+      }
+    } else {
+      proceed.call(this);
+    }
+  });
+}(Highcharts));
+
 (function () {
-    return {
-        "yAxis": [{
-            min: -20,
-            max: 30,
-            tickInterval: 5,
-            tickAmount: 6,
-            alignTicks: true,
-            title: {
-                text: null,
-                "color": "#000000",
-                "fontSize": null
-            },
-            "labels": {
-                "format": "{value:,.0f}",
-                style: {
-                    color: "black",
-                },
-            },
-
-        },
-        {
-            min: -160,
-            max: 240,
-            tickInterval: 5,
-            tickAmount: 6,
-            alignTicks: true,
-            "title": {
-                "style": {
-                    "color": "#000000",
-                    "fontSize": null
-                },
-                "text": null
-            },
-            "labels": {
-                "format": "{value:,.0f}",
-                style: {
-                    color: "black",
-                },
-            },
-            "opposite": true
+  return {
+    chart: {
+      alignThresholds: true, //function above necessary
+      alignTicks: true,
+      events: {
+        load: function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(" ").slice(-1).toString()
+                + ':<br>'
+                + this.series[11].name.split(" ").slice(-1).toString()
+                + ' (rechte Skala):'
+            })
+            .translate(-140, 8);
         }
-        ],
-        "xAxis": {
-            min: 1,
-            "tickInterval": 1,
-            labels: {step:3}
+      }
+    },
+    plotOptions: {
+      line: {
+        index: 1,
+        visible: false,
+        yAxis: 1,
+      },
+      column: {
+        pointPadding: 0,
+        borderWidth: 0,
+        index: 0,
+        visible: false,
+        yAxis: 0,
+      }
+    },
+    xAxis: {
+      min: 1,
+      tickInterval: 1,
+      labels: {
+        step: 2
+      }
+    },
+    yAxis: [{
+      title: {
+        text: null,
+      },
+      labels: {
+        format: "{value:,.0f}",
+        style: {
+          color: "black",
         },
-        "legend": {
-            enabled: true,
-            y: -40,
-            layout: "horizontal",
-            verticalAlign: "top",
-            itemMarginBottom: 5,
-            align: "right",
-            //itemWidth: 200,
-            itemStyle: {
-                fontWeight: "normal",
-                width: 40,
-
-            },
-            width: 300,
-            itemWidth: 50,
-            symbolRadius: 0,
-            labelFormatter: function () {
-                //remove text before year on each item with odd index
-                return this.name.split(" ").slice(0, 1).toString();
-
-            },
-            title: {
-                text: 'Wöchentlich:<br/>Kumuliert (rechte Skala):',
-                style: {
-                    fontWeight: 'normal', 
-                    lineHeight: 18
-                }
-            },
+      },
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 0,
+        width: 2
+      }]
+    },
+    {
+      opposite: true,
+      title: {
+        text: null
+      },
+      labels: {
+        format: "{value:,.0f}",
+        style: {
+          color: "black",
         },
-
-        "series": [
-            {
-                "color": "#FFBB58", // 2015 kummuliert
-                "index": 0,
-                "type": "line",
-                "yAxis": 1,
-                visible: false,
-                "marker": {
-                    "enabled": false
-                },
-                legendIndex: 6,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-                },
-            },
-            {
-                "color": "#FFBB58", // 2015 wöchentlich
-                "index": 1,
-                "type": "column",
-                visible: false,
-                pointPadding: 0,
-                borderWidth: 0,
-                legendIndex: 0,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-                },
-            },
-            {
-                "color": "#A8C3CA", // 2016 kumuliert
-                "index": 1,
-                "type": "line",
-                "yAxis": 1,
-                visible: false,
-                "legendIndex": 7,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-                },
-                "marker": {
-                    "enabled": false
-                },
-            },
-            {
-                "color": "#A8C3CA", // 2016 wöchentlich
-                "index": 0,
-                "type": "column",
-                visible: false,
-                pointPadding: 0,
-                borderWidth: 0,
-                //"pointWidth": "8",
-                legendIndex: 1,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-                },
-            },
-            {
-                "color": "#B00000", // 2017 kumuliert
-                "index": 1,
-                "type": "line",
-                "yAxis": 1,
-                visible: false,
-                "marker": {
-                    "enabled": false
-                },
-                legendIndex: 8,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-                },
-            },
-            {
-                "color": "#B00000", // 2017 wöchentlich
-                "index": 0,
-                "type": "column",
-                visible: false,
-                pointPadding: 0,
-                borderWidth: 0,
-                legendIndex: 2,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-                },
-            },
-            {
-                "color": "#246370", // 2018 kumuliert
-                "index": 1,
-                "type": "line",
-                "yAxis": 1,
-                visible: false,
-                "legendIndex": 9,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-                },
-                "marker": {
-                    "enabled": false
-                },
-            },
-            {
-                "color": "#246370", // 2018 wöchentlich
-                "index": 0,
-                "type": "column",
-                visible: false,
-                pointPadding: 0,
-                borderWidth: 0,
-                //"pointWidth": "8",
-                legendIndex: 3,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-                },
-
-            },
-            {
-                "color": "#923f8d", // 2019 kumuliert
-                "index": 1,
-                "type": "line",
-                "yAxis": 1,
-                visible: true,
-                "marker": {
-                    "enabled": false
-                },
-                legendIndex: 10,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-                },
-            },
-            {
-                "color": "#923f8d", // 2019 wöchentlich
-                "index": 0,
-                "type": "column",
-                visible: true,
-                pointPadding: 0,
-                borderWidth: 0,
-                legendIndex: 4,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-                },
-            },
-            {
-                "color": "#FF8028", // 2020 kumuliert
-                "index": 1,
-                "type": "line",
-                "yAxis": 1,
-                visible: true,
-                "legendIndex": 11,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-                },
-                "marker": {
-                    "enabled": false
-                },
-            },
-            {
-                "color": "#FF8028", // 2020 wöchentlich
-                "index": 0,
-                "type": "column",
-                visible: true,
-                pointPadding: 0,
-                borderWidth: 0,
-                //"pointWidth": "8",
-                legendIndex: 5,
-                "tooltip": {
-                    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-                },
-
-            },
-        ],
-        "tooltip": {
-            //"shared": true
-        },
-        "chart": {
-            "alignTicks": false,
-            "events": {
-                load: function () {
-
-                    //move legend title
-                    var title = this.legend.title;
-                    title.translate(-150, 40);
-                }
-            }
-
+      },
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 0,
+        width: 2
+      }]
+    }],
+    legend: {
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "top",
+      align: "right",
+      y: -15,
+      width: 325,
+      itemWidth: 54,
+      itemMarginBottom: 5,
+      symbolPadding: 2,
+      itemStyle: {
+        textOverflow: undefined,
+        whiteSpace: 'nowrap',
+      },
+      labelFormatter: function () {
+        //remove text after year 
+        return this.name.split(" ").slice(0, 1).toString();
+      },
+      title: {
+        text: ' ', //wird via chart.events.load bearbeitet
+        style: {
+          fontWeight: 'normal',
+          lineHeight: 18
         }
-    };
+      },
+    },
+    series: [
+      {
+        color: "#FFBB58", // 2015 kummuliert
+        type: "line",
+      },
+      {
+        color: "#FFBB58", // 2015 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#A8C3CA", // 2016 kumuliert
+        type: "line",
+      },
+      {
+        color: "#A8C3CA", // 2016 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#B00000", // 2017 kumuliert
+        type: "line",
+      },
+      {
+        color: "#B00000", // 2017 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#246370", // 2018 kumuliert
+        type: "line",
+      },
+      {
+        color: "#246370", // 2018 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#923f8d", // 2019 kumuliert
+        type: "line",
+        visible: true,
+      },
+      {
+        color: "#923f8d", // 2019 wöchentlich
+        type: "column",
+        visible: true,
+      },
+      {
+        color: "#FF8028", // 2020 kumuliert
+        type: "line",
+        visible: true,
+      },
+      {
+        color: "#FF8028", // 2020 wöchentlich
+        type: "column",
+        visible: true,
+      },
+    ],
+  };
 }());
