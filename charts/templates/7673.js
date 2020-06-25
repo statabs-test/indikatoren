@@ -25,7 +25,8 @@
       { "color": "#DC440E", "visible": true }, /* blau*/
       { "color": "#A8C3CA", "visible": true }, /* blau*/
       { "color": "#246370", "visible": true }, /* blau*/
-      { "color": "#083038", "visible": true } /* schwarz */
+      { "color": "#083038", "visible": true }, /* schwarz */
+      { "color": "#C4AB91", "visible": true } /* schwarz */
     ],
     "legend": {
       "enabled": true,
