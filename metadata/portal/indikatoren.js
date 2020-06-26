@@ -26242,11 +26242,11 @@ var indikatoren = [
 		"id": 9022
 	},
 	{
-		"title": "Kummulierte Todesfälle und wöchentliche Veränderung",
+		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "0 - 64 Jahre",
 		"kuerzel": "I.14.3.09023",
 		"kuerzelKunde": "",
-		"description": "Kummulierte Todesfälle und wöchentliche Veränderung",
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "",
