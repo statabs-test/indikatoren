@@ -1,15 +1,29 @@
 (function(){
     return {
-    "xAxis": {
-        "type": "category", 
-        "labels": {
-            formatter: undefined
-        }
-    },
-    "yAxis": {
-        "tickInterval": null,
-        "reversedStacks": false
-    },   
+        "xAxis": {
+            "type": "category", 
+            "labels": {
+                x:-5,
+                formatter: undefined,
+                style: {
+                    fontSize: "10px",
+                    color: "#000000",
+                    width: 1,
+                    whiteSpace: 'nowrap',
+                    textOverflow: "none"
+                },
+            }
+        },
+        "yAxis": {
+            "tickInterval": 20,
+            "reversedStacks": false,
+           // ItemMarginTop:5,
+            labels: {
+                y:10,
+                
+                rotation: 0
+                },
+        },   
     "series": [
         {
         "color": "#256370"
@@ -30,23 +44,23 @@
         "color": "#8A8A8A"
         }        
     ],        
-    "legend": {
+    legend: {
+        margin: 9,
         "layout": "horizontal",
         "verticalAlign": "top",
-        "itemMarginBottom": 5,     
-        "align": "left",
-        //"x": 145,
-        //"y": 70,
-        "itemWidth": 126,
-        "itemStyle": {
-            "fontWeight": "normal",
-            textOverflow: "none",
-    whiteSpace: "nowrap"
+        "itemMarginBottom": 0,
+        itemWidth: 150,
+        width: 300,
+        itemStyle: {
+          textOverflow: "none",
+          whiteSpace: "nowrap",
+
         }
-    },      
+      },  
     "chart":
     {
-        "inverted": true
+        "inverted": true, 
+        marginRight: 8
     }
 	}
 }());

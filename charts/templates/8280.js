@@ -1,7 +1,11 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 1,
+    "labels": {
+      align: screenLeft
+    }
+    
   },
   "yAxis": {
     "min": 0, 

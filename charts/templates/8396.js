@@ -19,8 +19,14 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "itemMarginBottom": 4,
-        itemDistance: 0,
         "align": "left",
+        x: -5,
+        itemWidth: 130,
+            width: 300,
+            itemStyle: {
+                textOverflow: "none",
+                whiteSpace: "nowrap"
+                },
         labelFormatter: function(){
             return this.name.replace("/", " /<br/>");
         }

@@ -19,13 +19,19 @@
     { "color": "#C8C8C8", index: 1, legendIndex: 5 },
 		{ "color": "#6F6F6F", index: 0, legendIndex: 6 },
   ],
-    legend: {
-      "layout": "horizontal",
-			"itemWidth": 200,
-			"verticalAlign": "top",
-			"align": "left",
-    labelFormatter: function(){
-      return this.name.replace("/", " /<br/>");
+ 
+  legend: {
+    //margin: 9,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    itemWidth: 130,
+    width: 300,
+    itemStyle: {
+      textOverflow: "none",
+      whiteSpace: "nowrap",
+
     }
   },
 	};

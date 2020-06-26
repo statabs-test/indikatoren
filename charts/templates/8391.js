@@ -14,6 +14,8 @@
         },
         yAxis: {
             reversedStacks: false,
+            tickInterval: 20,
+            max: 100,
         },
         legend: {
             reversed: false,
@@ -21,6 +23,12 @@
             "verticalAlign": "top",
             "itemMarginBottom": 4,
             "align": "left",
+            itemWidth: 130,
+            width: 260,
+             itemStyle: {
+                textOverflow: "none",
+                whiteSpace: "nowrap"
+                },
             labelFormatter: function(){
                 return this.name.replace("/", " /<br/>");
         

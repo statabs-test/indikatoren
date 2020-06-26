@@ -25,6 +25,11 @@
         "xAxis": {
             "type": "category"
         },
+        yAxis: {
+            reversedStacks: false,
+            tickInterval: 20,
+            max: 100,
+        },
         "legend": {
             "itemStyle": {
                 "width": 150

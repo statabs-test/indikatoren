@@ -20,6 +20,12 @@
         "verticalAlign": "top",
         "itemMarginBottom": 4,
         "align": "left",
+        itemWidth: 130,
+            width: 280,
+            itemStyle: {
+                textOverflow: "none",
+                whiteSpace: "nowrap"
+                },
         labelFormatter: function(){
             return this.name.replace("/", " /<br/>");
         }

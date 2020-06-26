@@ -13,6 +13,8 @@
     },
     yAxis: {
         reversedStacks: false,
+        tickInterval: 20,
+        max: 100,
     },
     legend: {
         reversed: false,
