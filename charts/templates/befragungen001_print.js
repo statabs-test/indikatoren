@@ -94,6 +94,7 @@
                 rotation: 0,
                 style: {
                     fontSize: "10px",
+                    fontFamily: "Arial",
                     color: "#000000",
                     width: 1,
                     whiteSpace: 'nowrap',
@@ -138,7 +139,9 @@
                 fontSize: "10px",
                 fontWeight: "normal",
                 textOverflow: null,
-                whitespace: "nowrap"
+                whitespace: "nowrap",
+                color: "#000000",
+
             },
             labelFormatter: function () {
                 return this.name.replace('/ ', '/<br/>');

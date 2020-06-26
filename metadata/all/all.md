@@ -1436,6 +1436,43 @@ id | visible | visibleInPortal | indikatorenset
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | false | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
+8380 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8381 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8382 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8383 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8384 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8385 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8386 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8387 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8388 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8389 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8390 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8391 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8392 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8393 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8394 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8395 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8396 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8397 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8398 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8399 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8400 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8401 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8402 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8403 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8404 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8405 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8406 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8407 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8408 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8409 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8410 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8411 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8412 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8413 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8414 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8415 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+8416 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 8448 | true | false | Nachhaltigkeit
 8449 | true | true | Nachhaltigkeit
 8451 | true | true | 
@@ -1702,6 +1739,10 @@ id | visible | visibleInPortal | indikatorenset
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9033 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9034 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9035 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9036 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
