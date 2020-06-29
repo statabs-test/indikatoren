@@ -13,19 +13,21 @@
   },
   "xAxis": {
     "type": "category",  
-    tickPositioner: function () {
+    /*tickPositioner: function () {
       var interval = 2,
         ext = this.getExtremes(),
         i = ext.dataMax,
         pos = [i];
       while (i >= ext.dataMin) pos.unshift(i = i - interval);
       return pos;
-    } 
+    } */
   },  
   "yAxis": [
     {
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
+      tickAmount: 5,
+       "tickInterval": 200,
       "title": {
           "style": {
               "color": "#000000",
@@ -46,6 +48,8 @@
     {
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
+      tickAmount: 5,
+      "tickInterval": 8,
       "min": 0,
       "title": {
           "style": {
@@ -78,12 +82,12 @@
 
     "align": "left",
     "itemStyle": {
-    "fontWeight": "normal",
+    "fontWeight": "normal"},
     labelFormatter: function(){
+      console.log(this);
       return this.name
-        .replace("Einbürgerungsziffer", "xEinbürgerungsziffer(Skala rechts)")
-        ;
-},  
+        .replace("Einbürgerungsziffer", "Einbürgerungsziffer (rechte Skala)")
+        
   },
 },
   "series": [
@@ -120,7 +124,7 @@
       },
       "yAxis": 1,
       "stacking": null, 
-      "legendIndex": 0
+      "legendIndex": 3
     }    
   ],
   "chart": {

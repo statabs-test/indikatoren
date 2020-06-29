@@ -82,7 +82,7 @@
             type: "category",
             //reversed: true,
             uniqueNames: true,
-            lineColor: '#B9CFD7',
+            lineColor: '#f8f8ff', //Originalfarbe: B9CFD7
             lineWidth: 0.5,
             tickLength: 0,
             title: {

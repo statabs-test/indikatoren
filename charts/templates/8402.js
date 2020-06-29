@@ -2,8 +2,10 @@
     return {
   
       "yAxis": {
-        "tickInterval": 4,
+        tickAmount: 6,
+       "tickInterval": 5,
         "labels": {
+          //step: 0.05,
           "format": "{value:,.0f}%",
         },
       },

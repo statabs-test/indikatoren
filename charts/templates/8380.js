@@ -4,7 +4,6 @@
         reversed: false,
         "type": "category", 
         "labels": {
-            
             align: 'left',
             reserveSpace: true,
             x: -4,

@@ -24,9 +24,8 @@
     "xAxis": {
         "type": "category",
         "labels": {
-        formatter: undefined,
-            function(){
-                return this.name.replace(" ", " <br/>")}
+        formatter: function(){
+                return this.value.replace(" ", " <br/>")}
     },
     
 }
