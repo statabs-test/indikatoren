@@ -10,7 +10,11 @@
         },
       },
   "xAxis": {
-    "tickInterval": 1
+    "type": "category",
+    "labels": {
+      rotation: -45,
+      step: 1,
+    },
   },
   "legend": {
     "enabled": false
@@ -23,8 +27,8 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
   },
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
+   // "marginBottom": 65,
+    //"marginTop": 75,
     "type": "column"
   }
 	}

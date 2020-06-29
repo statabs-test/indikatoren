@@ -1,5 +1,8 @@
 (function(){
     return {
+    title: {
+    useHTML: true
+},
     "series": [
         {"color": "#71A3B5"},
         {"color": "#FFBB58"},
