@@ -9,17 +9,30 @@
   "xAxis": {    "labels": {
          "formatter": function() {
             return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}},
-    "type": "category"    
+            "type": "category", 
+            "labels": {
+                x:-5,
+                formatter: undefined,
+                style: {
+                    fontSize: "10px",
+                    color: "#000000",
+                    width: 1,
+                    whiteSpace: 'nowrap',
+                    textOverflow: "none"}}
+       
   },
-  "yAxis": {"labels": {
-
-      "format": "{value}%"
-    }    
+  "yAxis":
+  {"tickInterval": 20, 
+    "labels": {
+    "format": "{value}%",
+      y:10,   
+    }  
+      
   },
   "series": [
    {
       "color": "#FABD24",
-      "index": 2
+      "index": 0
 
     },
        {
@@ -28,15 +41,16 @@
     },
     {
       "color": "#73B97C",
-      "index": 0
+      "index": 2
     }
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 143,
+    //"align": "left",
+    itemDistance: 10,
+    //"x": 143,
 		//"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"

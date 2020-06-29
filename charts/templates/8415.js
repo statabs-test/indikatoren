@@ -10,6 +10,11 @@
     "xAxis": {
         "type": "category"
     },
+    yAxis: {
+        reversedStacks: false,
+        tickInterval: 20,
+        max: 80,
+    },
     "legend": {
         "reversed": false,
         "layout": "horizontal",
@@ -18,11 +23,13 @@
         "align": "left",
         //"x": 30,
         //"y": 35,
-        "itemWidth": 200,
-        "itemStyle": {
-            "fontWeight": "normal",
-            "width": undefined
-        }
+        itemWidth: 150,
+            width: 340,
+            itemStyle: {
+                textOverflow: "none",
+                whiteSpace: "nowrap"
+                },
+        
     },    
     "tooltip": {
         "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b>',

@@ -12,7 +12,15 @@
     }
   },
   "xAxis": {
-    "type": "category"    
+    "type": "category",  
+    tickPositioner: function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    } 
   },  
   "yAxis": [
     {
@@ -26,14 +34,14 @@
           "text": null
       },
       "labels": {
-       // step: 4,
+       //step: 4,
           "style": {
           "color": "#000000"
           },
           "format": "{value:,.0f}",
       },
       "reversedStacks": true,
-      //tickInterval: 5,
+      //tickInterval: 4,
     },
     {
       gridLineColor: '#B9CFD7', 
@@ -48,13 +56,13 @@
       },      
       "labels": {
         "format": "{value:,0f}",
-       // step: 4,
+      // step: 4,
         "style": {
           "color": "#000000"
         }              
       },
       "opposite": true,
-     //tickInterval: 5,
+     tickInterval: 4,
     }
   ],
   "tooltip": {    
@@ -62,8 +70,7 @@
     //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
     //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
   },  
-  "legend": { 
-     //y: 35,
+  "legend": {
      itemMarginBottom: 5,
     "enabled": true,
     "layout": "horizontal",
@@ -73,10 +80,10 @@
     "itemStyle": {
     "fontWeight": "normal",
     labelFormatter: function(){
-      return this.name.replace("Einbürgerungsziffer", " Einbürgerungsziffer(Skala rechts)");
-    }
-    
-    
+      return this.name
+        .replace("Einbürgerungsziffer", "xEinbürgerungsziffer(Skala rechts)")
+        ;
+},  
   },
 },
   "series": [

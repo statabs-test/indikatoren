@@ -1,26 +1,20 @@
 (function(){
     return {
   
-  "yAxis": {
-    "min": 0,
-    "tickInterval": 5,
-    "labels": {
-      "format": "{value:,.0f}%",
-    },
-  },
+      "yAxis": {
+        "tickInterval": 4,
+        "labels": {
+          "format": "{value:,.0f}%",
+        },
+      },
   "xAxis": {
     "tickInterval": 1
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "enabled": false
   },
   "series": [
-    {
-    "color": "#FF8028"
-    }
+    {"color": "#FF8028"}
   ],
   "tooltip": {
     "shared": false,

@@ -1,6 +1,7 @@
 (function(){
     return {
   "yAxis": {
+    "tickInterval": 2,
     "labels": {
       "format": "{value:,.0f}",
     },
