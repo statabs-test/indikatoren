@@ -382,6 +382,7 @@
       "rotation": 0,
       "style": {
         "fontSize": "8px",
+        "fontFamily": "Arial",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
@@ -518,6 +519,7 @@
       "fontWeight": "normal",
       "textOverflow": undefined,
       "whitespace": "nowrap",
+      "color": "#000000",
       "whiteSpace": "nowrap"
     },
     "labelFormatter": function () {

@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#256370",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2009",
@@ -23,8 +21,6 @@
     },
     {
       "color": "#71A3B5",
-      "index": 1,
-      "legendIndex": 1,
       "data": [
         [
           "2009",
@@ -44,8 +40,6 @@
     },
     {
       "color": "#FFBB58",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2009",
@@ -65,8 +59,6 @@
     },
     {
       "color": "#FF8028",
-      "index": 5,
-      "legendIndex": 5,
       "data": [
         [
           "2009",
@@ -86,8 +78,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2009",
@@ -107,8 +97,6 @@
     },
     {
       "color": "#8A8A8A",
-      "index": 3,
-      "legendIndex": 3,
       "data": [
         [
           "2009",
@@ -142,25 +130,35 @@
       "rotation": 0,
       "style": {
         "fontSize": "10px",
+        "fontFamily": "Arial",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            }
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                }
     }
   },
   "chart": {
@@ -206,7 +204,6 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "inverted": false,
     "renderTo": "container-8388",
     "spacingBottom": 12
   },
@@ -218,8 +215,7 @@
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointWidth": 70
+      }
     },
     "column": {
       "groupPadding": 0
@@ -247,10 +243,9 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "type": "category",
-      "rotation": 0
+      }
     },
+    "reversedStacks": false,
     "max": 100
   },
   "legend": {
@@ -261,17 +256,20 @@
     "verticalAlign": "middle",
     "symbolRadius": 0,
     "padding": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 4,
     "itemStyle": {
       "fontFamily": "Arial",
       "fontSize": "10px",
       "fontWeight": "normal",
       "textOverflow": null,
-      "whitespace": "nowrap"
+      "whitespace": "nowrap",
+      "color": "#000000",
+      "width": 150
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            }
+            },
+    "reversed": true
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

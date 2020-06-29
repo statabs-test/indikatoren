@@ -26,12 +26,14 @@
           "text": null
       },
       "labels": {
+       // step: 4,
           "style": {
           "color": "#000000"
           },
           "format": "{value:,.0f}",
       },
-      "reversedStacks": true
+      "reversedStacks": true,
+      //tickInterval: 5,
     },
     {
       gridLineColor: '#B9CFD7', 
@@ -46,11 +48,13 @@
       },      
       "labels": {
         "format": "{value:,0f}",
+       // step: 4,
         "style": {
           "color": "#000000"
         }              
       },
-      "opposite": true
+      "opposite": true,
+     //tickInterval: 5,
     }
   ],
   "tooltip": {    
@@ -67,7 +71,11 @@
 
     "align": "left",
     "itemStyle": {
-    "fontWeight": "normal"
+    "fontWeight": "normal",
+    labelFormatter: function(){
+      return this.name.replace("Einbürgerungsziffer", " Einbürgerungsziffer(Skala rechts)");
+    }
+    
     
   },
 },

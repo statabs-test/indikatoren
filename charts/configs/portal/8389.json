@@ -116,6 +116,7 @@
       "rotation": 0,
       "style": {
         "fontSize": "10px",
+        "fontFamily": "Arial",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
@@ -214,7 +215,7 @@
   },
   "yAxis": {
     "type": "category",
-    "tickInterval": 10,
+    "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -229,7 +230,9 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false,
+    "max": 100
   },
   "legend": {
     "enabled": true,
@@ -246,6 +249,7 @@
       "fontWeight": "normal",
       "textOverflow": null,
       "whitespace": "nowrap",
+      "color": "#000000",
       "width": 150
     },
     "labelFormatter": function () {

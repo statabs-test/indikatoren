@@ -8,21 +8,21 @@
       { "color": "#C8C8C8"}, // hellgrau
       { "color": "#6F6F6F"}, // grau
     ],
-    xAxis: {
-        type: "category"
-    },
-    yAxis: {
-        reversedStacks: false,
-    },
     legend: {
-        reversed: false,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "itemMarginBottom": 4,
-        "align": "left",
+        reversed: true,
         labelFormatter: function(){
             return this.name.replace("/", " /<br/>");
-        }
+    
+          }
+      
+    },  
+    yAxis: {
+        reversedStacks: false,
+        tickInterval: 20,
+        max: 100,
+    },     
+    "xAxis": {
+        "type": "category",
     }
-    };
+	}
 }());

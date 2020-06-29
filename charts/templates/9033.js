@@ -13,13 +13,11 @@
     },
     yAxis: {
         reversedStacks: false,
+        tickInterval: 20,
+        max: 100,
     },
     legend: {
-        reversed: false,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "itemMarginBottom": 4,
-        "align": "left",
+        reversed: true,
         labelFormatter: function(){
             return this.name.replace("/", " /<br/>");
         }

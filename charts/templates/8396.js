@@ -19,9 +19,9 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "itemMarginBottom": 4,
-        "align": "left",
-        x: -5,
-        itemWidth: 130,
+        //"align": "left",
+        x: -17,
+        itemWidth: 140,
             width: 300,
             itemStyle: {
                 textOverflow: "none",

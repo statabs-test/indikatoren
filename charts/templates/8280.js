@@ -2,6 +2,7 @@
     return {
   "xAxis": {
     "tickInterval": 1,
+    Reverse: false,
     "labels": {
       align: screenLeft
     }

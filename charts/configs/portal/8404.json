@@ -73,6 +73,7 @@
       "rotation": 0,
       "style": {
         "fontSize": "10px",
+        "fontFamily": "Arial",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
@@ -171,7 +172,7 @@
   },
   "yAxis": {
     "type": "category",
-    "tickInterval": 10,
+    "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -187,14 +188,15 @@
         "textOverflow": "none"
       }
     },
-    "reversedStacks": false
+    "reversedStacks": false,
+    "max": 100
   },
   "legend": {
     "enabled": true,
     "useHTML": true,
-    "layout": "horizontal",
-    "align": "left",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
     "symbolRadius": 0,
     "padding": 0,
     "itemMarginBottom": 4,
@@ -203,13 +205,13 @@
       "fontSize": "10px",
       "fontWeight": "normal",
       "textOverflow": null,
-      "whitespace": "nowrap"
+      "whitespace": "nowrap",
+      "color": "#000000"
     },
     "labelFormatter": function(){
         return this.name.replace("/", " /<br/>");
-
-      },
-    "reversed": false
+    },
+    "reversed": true
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

@@ -214,6 +214,7 @@
       "rotation": 0,
       "style": {
         "fontSize": "10px",
+        "fontFamily": "Arial",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
@@ -345,13 +346,16 @@
       "fontFamily": "Arial",
       "fontSize": "10px",
       "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
+      "textOverflow": "none",
+      "whitespace": "nowrap",
+      "color": "#000000",
+      "whiteSpace": "nowrap"
     },
-    "labelFormatter": function(){
-      return this.name.replace("/", " /<br/>");
-    },
-    "itemWidth": 200
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            },
+    "itemWidth": 130,
+    "width": 300
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
