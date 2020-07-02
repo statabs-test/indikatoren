@@ -16,7 +16,7 @@
   "yAxis": {
     offset: -5,
     tickAmount:6,
-    max: 500000,
+    //max: 500000,
   	//"min": 0,
   	//"max": 0.5,
     "labels": {

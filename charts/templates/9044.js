@@ -87,7 +87,7 @@
     }
   },
   chart:{
-    type: 'line'
+   type: 'line'
   }
 }
 }());
