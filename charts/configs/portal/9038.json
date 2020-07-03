@@ -254,8 +254,7 @@
       "format": "{value:,.0f}"
     },
     "offset": -5,
-    "tickAmount": 6,
-    "max": 500000
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {

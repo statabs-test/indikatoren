@@ -10,7 +10,7 @@
 	"labels": {
         //"format": "{value:,.1f}%",
         "formatter": function(){
-            return Highcharts.numberFormat((this.value*100),0)+'%'; 
+            return Highcharts.numberFormat((this.value*100),0); 
           },
 	}
   },	

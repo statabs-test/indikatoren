@@ -1107,7 +1107,7 @@
         "color": "#000000"
       },
       "formatter": function(){
-          return Highcharts.numberFormat((this.value*100),0)+'%'; 
+          return Highcharts.numberFormat((this.value*100),0); 
         }
     },
     "min": 0,
