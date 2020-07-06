@@ -12,7 +12,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      //rotation: -45,
+      rotation: -45,
       step: 1,
     },
   },
