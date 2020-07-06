@@ -1,14 +1,15 @@
 (function(){
     return {
-    title: {
-    useHTML: true
-},
+
     "series": [
         {"color": "#71A3B5"},
         {"color": "#FFBB58"},
         {"color": "#8A8A8A"},
        // reversedStacks: true,       
   ],
+  title: {
+    useHTML: true
+},
   "xAxis": {
       "type": "category"
   },
