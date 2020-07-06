@@ -4,7 +4,7 @@
       "color": "#923F8D",
       "data": [
         [
-          "2020-2020",
+          "2020",
           66488
         ],
         [
@@ -31,7 +31,7 @@
       "color": "#DC440E",
       "data": [
         [
-          "2020-2020",
+          "2020",
           48909
         ],
         [
@@ -58,7 +58,7 @@
       "color": "#FFDA80",
       "data": [
         [
-          "2020-2020",
+          "2020",
           22921
         ],
         [
@@ -96,11 +96,14 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "overflow": "allow",
+        "whiteSpace": "nowrap"
       },
       "rotation": 0
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "width": 267
   },
   "chart": {
     "borderColor": "#fbfbfb",

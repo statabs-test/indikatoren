@@ -8,9 +8,17 @@
    },
 
   "xAxis": {
-    //"type": "category",
+    "type": "category",
+    width: 267,
     labels:{
+     // x: -5,
       rotation: 0,
+      style:{
+        //textOverflow: 'ellipsis',
+        overflow: "allow",
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      }
     }
   },
   "yAxis": {
@@ -47,7 +55,8 @@
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} m²</b><br/>' ,
   },  
   "chart": {
-     // marginLeft: 50,
+    spacingLeft: 0,
+    marginRight: 0,
     "type": "column",
     "inverted": false,
   }
