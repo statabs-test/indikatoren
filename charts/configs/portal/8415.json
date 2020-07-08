@@ -261,7 +261,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 20,
     "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -280,7 +280,8 @@
         "color": "#000000",
         "fontSize": "10px"
       }
-    }
+    },
+    "max": 80
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E",
@@ -313,13 +314,16 @@
       "fontSize": "10px",
       "fontFamily": "Arial",
       "fontWeight": "normal",
-      "width": undefined
+      "width": 95,
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemWidth": 200
+    "itemWidth": 150,
+    "width": 340
   },
   "exporting": {
     "filename": 8415

@@ -760,7 +760,6 @@
     "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

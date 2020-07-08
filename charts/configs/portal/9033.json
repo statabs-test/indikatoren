@@ -228,7 +228,6 @@
     "text": "«Wie stehen Sie zu folgender Aussage: Ältere Menschen sind eine Last für die Gesellschaft.», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

@@ -165,13 +165,13 @@
     }
   },
   "title": {
-    "text": "Ehrenamtliche Tätigkeit\u002FFreiwilligenarbeit im Alter"
+    "text": "Ehrenamtliche Tätigkeit\u002FFreiwilligenarbeit im Alter",
+    "useHTML": true
   },
   "subtitle": {
     "text": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

@@ -259,7 +259,6 @@
     "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 10,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

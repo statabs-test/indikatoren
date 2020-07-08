@@ -195,7 +195,9 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 309,
+      "step": 1
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -247,6 +249,7 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "enabled": false

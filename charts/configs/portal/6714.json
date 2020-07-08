@@ -543,7 +543,6 @@
     "text": "«Darf ich Sie fragen, wie es Ihnen wirtschaftlich gesehen im Moment geht?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

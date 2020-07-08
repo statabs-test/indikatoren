@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FABD24",
-      "index": 2,
+      "index": 0,
       "data": [
         [
           "Berufliche Probleme",
@@ -74,7 +74,7 @@
     },
     {
       "color": "#73B97C",
-      "index": 0,
+      "index": 2,
       "data": [
         [
           "Berufliche Probleme",
@@ -123,10 +123,12 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "width": 1,
+        "whiteSpace": "nowrap"
       },
-      "formatter": function() {
-            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}
+      "x": -5,
+      "formatter": undefined
     },
     "tickLength": 0
   },
@@ -274,13 +276,14 @@
       "text": ""
     },
     "labels": {
-      "y": 3,
+      "y": 10,
       "style": {
         "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "tickInterval": 20
   },
   "navigation": {
     "menuItemStyle": {
@@ -309,13 +312,13 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 143
+    "itemDistance": 10
   },
   "dataLabels": {
     "enabled": false,

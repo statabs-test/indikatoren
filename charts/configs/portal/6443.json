@@ -1277,7 +1277,6 @@
     "text": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», 2012-2018"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": null,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

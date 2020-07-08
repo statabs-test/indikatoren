@@ -402,7 +402,6 @@
     "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 10,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

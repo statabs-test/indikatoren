@@ -175,7 +175,6 @@
     "text": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

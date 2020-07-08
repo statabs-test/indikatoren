@@ -438,7 +438,6 @@
     "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": null,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

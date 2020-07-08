@@ -6,7 +6,7 @@
         "labels": {
             align: 'left',
             reserveSpace: true,
-            x: -4,
+            x: -12,
             formatter: undefined,
             style: {
                 fontSize: "10px",
@@ -41,7 +41,7 @@
         "verticalAlign": "top",
         "itemMarginBottom": 0,
         x: -18,
-        itemWidth: 131,
+        itemWidth: 130,
         width: 300,
         itemStyle: {
           textOverflow: "none",

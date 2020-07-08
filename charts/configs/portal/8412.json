@@ -209,7 +209,6 @@
     "text": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

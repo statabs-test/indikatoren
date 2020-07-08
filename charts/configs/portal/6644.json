@@ -1094,6 +1094,7 @@
     "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "layout": "vertical",

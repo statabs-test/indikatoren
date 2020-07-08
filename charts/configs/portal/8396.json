@@ -300,7 +300,6 @@
     "text": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 10,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

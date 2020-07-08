@@ -511,7 +511,6 @@
     "text": "«Alle Kinder erhalten die gleichen Bildungschancen.»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 50,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

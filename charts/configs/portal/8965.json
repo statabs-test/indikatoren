@@ -924,7 +924,6 @@
     "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2019"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 10,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

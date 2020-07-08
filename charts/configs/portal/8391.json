@@ -331,7 +331,6 @@
     "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

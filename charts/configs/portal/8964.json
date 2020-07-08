@@ -279,7 +279,6 @@
     "text": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt, 2019"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

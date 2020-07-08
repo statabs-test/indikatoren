@@ -543,7 +543,6 @@
     "text": "«Wie gerne leben Sie in Ihrem Wohnquartier?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

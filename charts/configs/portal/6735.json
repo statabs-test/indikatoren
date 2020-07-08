@@ -543,7 +543,6 @@
     "text": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 25,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

@@ -179,7 +179,6 @@
     "text": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

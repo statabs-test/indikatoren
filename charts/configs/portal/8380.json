@@ -329,8 +329,11 @@
         "textOverflow": "none"
       },
       "formatter": undefined,
-      "x": -5
-    }
+      "align": "left",
+      "reserveSpace": true,
+      "x": -12
+    },
+    "reversed": false
   },
   "chart": {
     "events": {
@@ -401,7 +404,6 @@
     "text": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden\u002FBekannten oder Nachbarn?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
@@ -443,7 +445,8 @@
                 return this.name.replace('/ ', '/<br/>');
             },
     "margin": 9,
-    "itemWidth": 150,
+    "x": -18,
+    "itemWidth": 130,
     "width": 300
   },
   "tooltip": {

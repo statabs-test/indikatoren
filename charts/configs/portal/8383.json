@@ -300,7 +300,6 @@
     "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

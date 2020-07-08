@@ -511,7 +511,6 @@
     "text": "«Das baselstädtische Schulsystem fördert alle Kinder und Jugendlichen so individuell wie möglich, ohne dabei die Gemeinschaftsbildung zu vernachlässigen.»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 50,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

@@ -307,7 +307,6 @@
     "text": "Basel-Stadt (bis 2015 Stadt Basel)"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

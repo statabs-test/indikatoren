@@ -153,8 +153,6 @@
                     }
                 }
     },
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-8410",
     "spacingBottom": 12
@@ -239,6 +237,7 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "enabled": false

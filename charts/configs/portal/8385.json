@@ -1,61 +1,6 @@
 {
   "series": [
     {
-      "color": "#FABD24",
-      "type": "column",
-      "tooltip": {
-        "valueDecimals": 0
-      },
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 1,
-      "data": [
-        [
-          "2009",
-          160
-        ],
-        [
-          "2010",
-          156
-        ],
-        [
-          "2011",
-          278
-        ],
-        [
-          "2012",
-          214
-        ],
-        [
-          "2013",
-          175
-        ],
-        [
-          "2014",
-          232
-        ],
-        [
-          "2015",
-          209
-        ],
-        [
-          "2016",
-          214
-        ],
-        [
-          "2017",
-          230
-        ],
-        [
-          "2018",
-          142
-        ]
-      ],
-      "name": "Erleichtert Eingebürgerte",
-      "turboThreshold": 0
-    },
-    {
       "color": "#008AC3",
       "type": "column",
       "tooltip": {
@@ -67,47 +12,47 @@
       "legendIndex": 2,
       "data": [
         [
-          "2009",
-          1019
-        ],
-        [
           "2010",
-          711
+          929
         ],
         [
           "2011",
-          557
+          897
         ],
         [
           "2012",
-          654
+          900
         ],
         [
           "2013",
-          871
+          1109
         ],
         [
           "2014",
-          749
+          1026
         ],
         [
           "2015",
-          961
+          1209
         ],
         [
           "2016",
-          538
+          796
         ],
         [
           "2017",
-          1052
+          1316
         ],
         [
           "2018",
-          949
+          1137
+        ],
+        [
+          "2019",
+          1386
         ]
       ],
-      "name": "Ordentlich Eingebürgerte",
+      "name": "Eingebürgerte",
       "turboThreshold": 0
     },
     {
@@ -121,50 +66,50 @@
       },
       "yAxis": 1,
       "stacking": null,
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
-          "2009",
-          19.115715744929
-        ],
-        [
           "2010",
-          13.954162106483
+          15
         ],
         [
           "2011",
-          13.027537249395
+          14
         ],
         [
           "2012",
-          13.246448029057
+          13.7
         ],
         [
           "2013",
-          15.484367598295
+          16.4
         ],
         [
           "2014",
-          14.263074484945
+          14.9
         ],
         [
           "2015",
-          16.813485277423
+          17.4
         ],
         [
           "2016",
-          10.62026889617
+          11.2
         ],
         [
           "2017",
-          17.902527579947
+          18.4
         ],
         [
           "2018",
-          14.959345134442
+          15.6
+        ],
+        [
+          "2019",
+          18.9
         ]
       ],
-      "name": "Einbürgerungsziffer",
+      "name": "Einbürgerungsziffer (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -281,7 +226,6 @@
                     }
                 }
     },
-    "marginBottom": 65,
     "type": "column",
     "renderTo": "container-8385",
     "spacingBottom": 12
@@ -323,6 +267,8 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 5,
+      "tickInterval": 400,
       "title": {
         "style": {
           "color": "#000000",
@@ -341,6 +287,8 @@
     {
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
+      "tickAmount": 5,
+      "tickInterval": 5,
       "min": 0,
       "title": {
         "style": {
@@ -385,15 +333,19 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal",
-      "labelFormatter": function(){
-      return this.name.replace("Einbürgerungsziffer", " Einbürgerungsziffer(Skala rechts)");
-    }
+      "color": "#000000",
+      "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "labelFormatter": function(){
+      console.log(this);
+      return this.name
+        .replace("Einbürgerungsziffer", "Einbürgerungsziffer (rechte Skala)")
+        
+  }
   },
   "dataLabels": {
     "enabled": false,

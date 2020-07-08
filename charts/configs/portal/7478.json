@@ -564,6 +564,7 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "9px",
+      "color": "#000000",
       "fontWeight": "normal",
       "textOverflow": "undefined"
     },

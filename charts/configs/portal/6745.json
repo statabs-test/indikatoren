@@ -445,7 +445,6 @@
     "text": "«Kennen oder nutzen Sie die Elternbildungsangebote bzw. würden Sie diese nutzen?»"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 50,
     "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",

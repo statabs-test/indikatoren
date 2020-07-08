@@ -4,49 +4,71 @@
       "color": "#FF8028",
       "data": [
         [
-          2008,
+          "2008",
           17.617796556611
         ],
         [
-          2009,
+          "2009",
           17.876542321666
         ],
         [
-          2010,
+          "2010",
           18.729227414937
         ],
         [
-          2011,
+          "2011",
           18.771346157249
         ],
         [
-          2012,
+          "2012",
           18.904111990603
         ],
         [
-          2013,
+          "2013",
           19.26493429434
         ],
         [
-          2014,
+          "2014",
           19.34302144317
         ],
         [
-          2015,
+          "2015",
           19.928930490552
         ],
         [
-          2016,
+          "2016",
           20.11370116
         ],
         [
-          2017,
+          "2017",
           19.9369085173502
         ]
       ],
-      "name": "Anteil Veranlagungen mit Zuwendungen"
+      "name": "Anteil Veranlagungen mit Zuwendungen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 309,
+      "step": 1
+    },
+    "tickLength": 0
+  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -141,8 +163,6 @@
                     }
                 }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-8402",
     "spacingBottom": 12
@@ -179,25 +199,6 @@
     "text": "Basel-Stadt",
     "align": "left"
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -217,7 +218,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "min": 0,
+    "tickAmount": 6,
     "tickInterval": 5
   },
   "navigation": {
@@ -247,12 +248,10 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "enabled": false
   },
   "dataLabels": {
     "enabled": false,
