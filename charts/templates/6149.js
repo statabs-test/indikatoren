@@ -65,7 +65,7 @@
       "color": "#8A8A8A",
       "yAxis": 1,
 	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
 	 },
     }
   ],
