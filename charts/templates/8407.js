@@ -7,7 +7,11 @@
     },
   },
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 1,
+    "labels": {
+      rotation: 309,
+      step: 1,
+    },
   },
   "legend": {
     "enabled": false
