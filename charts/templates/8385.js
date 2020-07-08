@@ -27,7 +27,7 @@
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       tickAmount: 5,
-       "tickInterval": 200,
+       "tickInterval": 400,
       "title": {
           "style": {
               "color": "#000000",
@@ -49,8 +49,9 @@
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       tickAmount: 5,
-      "tickInterval": 8,
+      "tickInterval": 5,
       "min": 0,
+      //"max":20,
       "title": {
           "style": {
               "color": "#000000",
@@ -60,13 +61,11 @@
       },      
       "labels": {
         "format": "{value:,0f}",
-      // step: 4,
         "style": {
           "color": "#000000"
         }              
       },
       "opposite": true,
-     tickInterval: 4,
     }
   ],
   "tooltip": {    
@@ -91,7 +90,7 @@
   },
 },
   "series": [
-    {
+    /*{
       "color": "#FABD24",
       "type": "column", 
       tooltip: {
@@ -101,7 +100,7 @@
         enabled: false
       },
       "legendIndex": 1
-    },
+    },*/
     {
       "color": "#008AC3",
       "type": "column", 

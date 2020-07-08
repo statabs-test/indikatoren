@@ -60,7 +60,7 @@
             text: undefined
         },
         yAxis: {
-            type: "category",
+           // type: "category",
             tickInterval: 10,
             lineColor: '#B9CFD7',
             gridLineColor: '#B9CFD7',
@@ -82,7 +82,7 @@
             type: "category",
             //reversed: true,
             uniqueNames: true,
-            lineColor: '#f8f8ff', //Originalfarbe: B9CFD7
+            lineColor: '#B9CFD7',
             lineWidth: 0.5,
             tickLength: 0,
             title: {
