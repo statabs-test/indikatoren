@@ -60,7 +60,7 @@
             text: undefined
         },
         yAxis: {
-            type: "category",
+            //type: "category",
             tickInterval: 10,
             lineColor: '#B9CFD7',
             gridLineColor: '#B9CFD7',

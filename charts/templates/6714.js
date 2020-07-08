@@ -2,19 +2,19 @@
   return {
     chart: {
       width: 665,
-      marginBottom: 75,
-      spacingTop: 5
+      //marginBottom: 75,
+      //spacingTop: 5
     },
     xAxis: {
       labels: {
-        rotation: -90,
-        x: -6,
-        y: 10
+        //rotation: 0,
+        //x: -6,
+        //y: 10
       }
     },
     yAxis: {
-      tickInterval: 25,
-      max: 100
+      //tickInterval: 25,
+      //max: 100
     },
     legend: {
       reversed: true,
