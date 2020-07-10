@@ -278,13 +278,32 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+        var w = null;
+        if ((this.point.name == 'Altersquotient') || (this.point.name == 'Jugendquotient')) {
+          w = Highcharts.numberFormat((this.point.Wert * 100), 1) + ' </b>Rang';
+        }
+        else if (this.point.name == 'Baujahr&nbsp;Wohngebäude') {
+          w = Highcharts.numberFormat((this.point.Wert), 0, '.', '') + ' </b>Rang';
+        }
+        else if ((this.point.name == 'Fläche&nbsp;pro&nbsp;Wohnung') || (this.point.name == 'Wohnfläche&nbsp;pro&nbsp;Kopf')) {
+          w = Highcharts.numberFormat((this.point.Wert), 1) + ' m² </b>Rang';
+        }
+        else if ((this.point.name == 'Vermögenssteuer') || (this.point.name == 'Einkommenssteuer')) {
+          w = Highcharts.numberFormat((this.point.Wert), 0) + ' Fr. </b>Rang';
+        }
+        else if (this.point.name == 'Arbeitsplätze&nbsp;pro&nbsp;Kopf') {
+          w = Highcharts.numberFormat((this.point.Wert), 2) + '  </b>Rang';
+        }
+        else {
+          w = Highcharts.numberFormat((this.point.Wert * 100), 1) + '% </b>Rang';
+        }
+        return "" +
+          '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+          '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>' +
+          '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Wert' + ' <b>' + w + ' <b>' + this.point.y + '</b><br/>' +
+          '</div>';
+      }
   },
   "exporting": {
     "allowHTML": false,
