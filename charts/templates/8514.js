@@ -17,9 +17,9 @@
     "formatter": function () {
       return this.value.replace("Kleidung Kinder", "Kinderkleider")
       .replace("Kleidung Erwachsene", "Erwachsenenkleider")
-      .replace("Private Vorsorge", "Private Vorsorge")
-      .replace("Freizeit Kinder", "Freizeit Kinder")
-      .replace("Freizeit Erwachsene", "Freizeit Erwachsene")
+      .replace("Private Vorsorge", "Private<span style='color: rgba(0,0,0,0)'>.</span>Vorsorge")
+      .replace("Freizeit Kinder", "Freizeit<span style='color: rgba(0,0,0,0)'>.</span>Kinder")
+      .replace("Freizeit Erwachsene", "Freizeit<span style='color: rgba(0,0,0,0)'>.</span>Erwachsene")
 
       //.replace("Freizeit Kinder", "Freizeit&nbsp;Kinder");
   } }
