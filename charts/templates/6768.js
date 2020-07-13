@@ -84,26 +84,26 @@
         ],                
 		series: [
             {
-              color: "#73B97C", // rot
-              //borderWidth: 0,
-              //pointWidth: 15
-            }, 
-            {
-              color: "#71A3B5", //blau
-              //borderWidth: 0,
-              //pointWidth: 15
+                color: "#71A3B5", // rot 73B97C
+                //borderWidth: 0,
+                //pointWidth: 15
             },
-             {
-              color: "#000000", //schwarz
-              //borderWidth: 0,
-              //pointWidth: 15
+            {
+                color: "#73B97C", //blau 71A3B5
+                //borderWidth: 0,
+                //pointWidth: 15
+            },
+            {
+                color: "#000000", //schwarz
+                //borderWidth: 0,
+                //pointWidth: 15
             }
-	    ],
+        ],
         "legend": {
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
-          //  "align": "left",
+            "align": "left",
              "itemDistance": 5,
            	//"y": 55,    
             "itemStyle": {

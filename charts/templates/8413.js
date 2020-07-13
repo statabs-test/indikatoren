@@ -23,11 +23,6 @@
     },     
     "xAxis": {
         "type": "category",
-        "labels": {
-        formatter: function(){
-                return this.value.replace(" ", " <br/>")}
-    },
-    
-}
+  }
 	}
 }());
