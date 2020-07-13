@@ -33,7 +33,7 @@
         },
         plotOptions: {
             series: {
-                borderWidth: 0.00001,
+                borderWidth: 0.0000001,
                 dataLabels: {
                     style: {
                         fontSize: "10px"
