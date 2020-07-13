@@ -2013,7 +2013,7 @@
       "format": "{value:,.0f}"
     },
     "min": undefined,
-    "tickAmount": 5
+    "tickInterval": 5
   },
   "navigation": {
     "menuItemStyle": {

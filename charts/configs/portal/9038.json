@@ -199,6 +199,8 @@
                     }
                 }
     },
+    "spacingLeft": 0,
+    "marginRight": 0,
     "type": "column",
     "inverted": false,
     "renderTo": "container-9038",
