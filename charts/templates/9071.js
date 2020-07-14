@@ -40,13 +40,13 @@
          dataLabels: {
           enabled: true,
                 format: '{point.name}',
-                distance: 15,
+                distance: 0,
                 connectorWidth: 0,
                 style: {
                     color: 'black',
                     textOutline: "0px black", 
                     fontWeight: "normal", 
-                    fontSize: "12px"
+                    fontSize: "10px"
                 }
       }
          
@@ -54,6 +54,7 @@
           showInLegend: false,
           type: 'pie',
           innerSize: '40%',
+
         borderWidth: 2,
            colors: [
             '#D7E8D2', 
@@ -63,12 +64,12 @@
           dataLabels: {
             enabled: true,
                   format: '{point.percentage:.0f}%',
-                  distance: -35,
+                  distance: -20,
                   style: {
                       color: 'black',
                       textOutline: "0px black", 
                       fontWeight: "normal", 
-                      fontSize: "12px"
+                      fontSize: "10px"
                   }
         }
       }],

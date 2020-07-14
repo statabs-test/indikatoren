@@ -1795,6 +1795,7 @@ id | visible | visibleInPortal | indikatorenset
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9071 | true | false | Leerstand (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

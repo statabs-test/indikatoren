@@ -19,10 +19,6 @@
       "type": "pie",
       "size": "100%",
       "innerSize": "100%",
-      "center": [
-        180,
-        120
-      ],
       "borderWidth": 2,
       "colors": [
         "#D7E8D2",
@@ -62,6 +58,10 @@
       "showInLegend": false,
       "type": "pie",
       "innerSize": "40%",
+      "center": [
+        180,
+        120
+      ],
       "borderWidth": 2,
       "colors": [
         "#D7E8D2",
@@ -101,14 +101,20 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-7578"
+    "renderTo": "container-9071",
+    "spacingBottom": 2
   },
   "plotOptions": {
     "pie": {
@@ -134,7 +140,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -143,7 +149,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -172,13 +178,17 @@
     "text": "Quelle: Leerstandserhebung."
   },
   "legend": {
+    "padding": 0,
+    "margin": 0,
+    "itemMarginBottom": 2,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "fontSize": "10px",
+      "color": "#000000"
     },
     "symbolRadius": 0,
     "itemDistance": 2,
@@ -187,6 +197,6 @@
     }
   },
   "exporting": {
-    "filename": 7578
+    "filename": 9071
   }
 }
