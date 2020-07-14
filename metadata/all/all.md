@@ -1155,6 +1155,7 @@ id | visible | visibleInPortal | indikatorenset
 7523 | true | true | Tourismus
 7551 | true | true | 
 7563 | true | false | 
+7578 | true | true | Leerstand
 7603 | true | true | 
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental
