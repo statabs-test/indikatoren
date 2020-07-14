@@ -1,6 +1,27 @@
 {
   "series": [
     {
+      "showInLegend": false,
+      "type": "pie",
+      "innerSize": "100%",
+      "borderWidth": 2,
+      "colors": [
+        "#D7E8D2",
+        "#F2F2F2",
+        "#C9D6DB"
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.name}",
+        "distance": 0,
+        "connectorWidth": 0,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "10px"
+        }
+      },
       "data": [
         [
           "neu erstellt",
@@ -15,10 +36,13 @@
           77.2
         ]
       ],
+      "name": "Anteil in Prozent",
+      "turboThreshold": 0
+    },
+    {
       "showInLegend": false,
       "type": "pie",
-      "size": "100%",
-      "innerSize": "100%",
+      "innerSize": "40%",
       "borderWidth": 2,
       "colors": [
         "#D7E8D2",
@@ -27,20 +51,15 @@
       ],
       "dataLabels": {
         "enabled": true,
-        "format": "{point.name}",
-        "distance": 15,
-        "connectorWidth": 0,
+        "format": "{point.percentage:.0f}%",
+        "distance": -20,
         "style": {
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "12px"
+          "fontSize": "10px"
         }
       },
-      "name": "Anteil in Prozent",
-      "turboThreshold": 0
-    },
-    {
       "data": [
         [
           "neu erstellt",
@@ -55,30 +74,6 @@
           868
         ]
       ],
-      "showInLegend": false,
-      "type": "pie",
-      "innerSize": "40%",
-      "center": [
-        180,
-        120
-      ],
-      "borderWidth": 2,
-      "colors": [
-        "#D7E8D2",
-        "#F2F2F2",
-        "#C9D6DB"
-      ],
-      "dataLabels": {
-        "enabled": true,
-        "format": "{point.percentage:.0f}%",
-        "distance": -35,
-        "style": {
-          "color": "black",
-          "textOutline": "0px black",
-          "fontWeight": "normal",
-          "fontSize": "12px"
-        }
-      },
       "name": "Anzahl",
       "turboThreshold": 0
     }

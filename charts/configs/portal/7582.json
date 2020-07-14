@@ -25,15 +25,15 @@
       "data": [
         [
           "neu erstellt",
-          9.9
+          8
         ],
         [
           "renoviert",
-          12.9
+          11.7
         ],
         [
           "unverändert",
-          77.2
+          80.4
         ]
       ],
       "name": "Anteil in Prozent",
@@ -63,15 +63,15 @@
       "data": [
         [
           "neu erstellt",
-          111
+          119
         ],
         [
           "renoviert",
-          145
+          174
         ],
         [
           "unverändert",
-          868
+          1199
         ]
       ],
       "name": "Anzahl",
@@ -103,7 +103,7 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-7578"
+    "renderTo": "container-7582"
   },
   "plotOptions": {
     "pie": {
@@ -143,7 +143,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Landschaft, 2019",
     "align": "left"
   },
   "tooltip": {
@@ -182,6 +182,6 @@
     }
   },
   "exporting": {
-    "filename": 7578
+    "filename": 7582
   }
 }

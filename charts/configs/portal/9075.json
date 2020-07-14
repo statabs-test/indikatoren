@@ -13,27 +13,27 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.name}",
-        "distance": 15,
+        "distance": 0,
         "connectorWidth": 0,
         "style": {
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "12px"
+          "fontSize": "10px"
         }
       },
       "data": [
         [
           "neu erstellt",
-          9.9
+          8
         ],
         [
           "renoviert",
-          12.9
+          11.7
         ],
         [
           "unverändert",
-          77.2
+          80.4
         ]
       ],
       "name": "Anteil in Prozent",
@@ -52,26 +52,26 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.0f}%",
-        "distance": -35,
+        "distance": -20,
         "style": {
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "12px"
+          "fontSize": "10px"
         }
       },
       "data": [
         [
           "neu erstellt",
-          111
+          119
         ],
         [
           "renoviert",
-          145
+          174
         ],
         [
           "unverändert",
-          868
+          1199
         ]
       ],
       "name": "Anzahl",
@@ -96,14 +96,20 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-7578"
+    "renderTo": "container-9075",
+    "spacingBottom": 2
   },
   "plotOptions": {
     "pie": {
@@ -129,7 +135,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -138,12 +144,12 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Landschaft, 2019",
     "align": "left"
   },
   "tooltip": {
@@ -167,13 +173,17 @@
     "text": "Quelle: Leerstandserhebung."
   },
   "legend": {
+    "padding": 0,
+    "margin": 0,
+    "itemMarginBottom": 2,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "fontSize": "10px",
+      "color": "#000000"
     },
     "symbolRadius": 0,
     "itemDistance": 2,
@@ -182,6 +192,6 @@
     }
   },
   "exporting": {
-    "filename": 7578
+    "filename": 9075
   }
 }

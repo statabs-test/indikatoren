@@ -37,5 +37,44 @@ var indikatorensetData = [
 		"chart-id": 9071,
 		"filter": "",
 		"id": 9071
+	},
+	{
+		"title": "Leerwohnungen nach Bautätigkeit",
+		"subtitle": "Basel-Landschaft, 2019",
+		"kuerzel": "I.09.2.09075",
+		"kuerzelKunde": "LEB-4-2",
+		"description": "Leerwohnungen nach Bautätigkeit",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Vier Fünftel der Leerwohnungen blieben in den zwei letzten Jahren unverändert.",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_00_00_00_00_002",
+		"parentId": 7582,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7582,
+		"chart-id": 9075,
+		"filter": "",
+		"id": 9075
 	}
 ];

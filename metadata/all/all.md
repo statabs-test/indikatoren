@@ -1156,6 +1156,7 @@ id | visible | visibleInPortal | indikatorenset
 7551 | true | true | 
 7563 | true | false | 
 7578 | true | true | Leerstand
+7582 | true | true | Leerstand
 7603 | true | true | 
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental
@@ -1796,6 +1797,7 @@ id | visible | visibleInPortal | indikatorenset
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
 9071 | true | false | Leerstand (Print)
+9075 | true | false | Leerstand (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
