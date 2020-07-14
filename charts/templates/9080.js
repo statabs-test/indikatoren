@@ -1,7 +1,7 @@
 (function () {
   return {
     "xAxis": {
-     "tickInterval": 2,
+     "tickInterval": 1,
       //"type": "category",
     },
     "yAxis": {
@@ -23,7 +23,7 @@
     ],
     "legend": {
       "enabled": true,
-      "x": 30,
+      //"x": 30,
       //"y": 35,
       //"itemWidth": 145,
       "layout": "horizontal",
@@ -43,6 +43,9 @@
           "radius": 3
         }
       }
+    },
+    chart: {
+      width: 665
     }
   };
 }());
