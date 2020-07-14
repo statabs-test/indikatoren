@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Hirzbrunnen",
           "y": 11,
-          "Wert": 0.0496960648
+          "Wert": 0.0476190476
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 4,
-          "Wert": 0.2492268316
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 14,
-          "Wert": 0.4995201024
+          "y": 3,
+          "Wert": 0.2522522523
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Hirzbrunnen",
           "y": 4,
-          "Wert": 0.1870076616
+          "Wert": 0.1854786195
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 12,
-          "Wert": 0.3656716418
+          "y": 9,
+          "Wert": 0.32
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 18,
-          "Wert": 0.4215000945
+          "Wert": 0.4170001906
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Hirzbrunnen",
           "y": 17,
-          "Wert": 0.4000213288
+          "Wert": 0.4001501502
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.3500850179
+          "Wert": 0.3600152468
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Hirzbrunnen",
           "y": 16,
-          "Wert": 1942.1621622
+          "Wert": 1942.2852645
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.69327467
+          "Wert": 0.6945843829
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Hirzbrunnen",
           "y": 18,
-          "Wert": 0.5926365548
+          "Wert": 0.5975573457
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Hirzbrunnen",
           "y": 12,
-          "Wert": 81.079755892
+          "Wert": 81.300210526
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 10,
-          "Wert": 38.913104491
+          "y": 9,
+          "Wert": 38.979250407
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 771.02751952
+          "Wert": 718.25484407
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 7795.1969134
+          "Wert": 7831.7899982
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 8,
-          "Wert": 0.7095861405
+          "y": 6,
+          "Wert": 0.7065011149
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
           "y": 9,
-          "Wert": 0.3260985038
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 11,
-          "Wert": 0.0404742079
+          "Wert": 0.3135640475
         }
       ],
       "name": "Wert",

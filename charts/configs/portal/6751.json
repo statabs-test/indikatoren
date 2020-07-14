@@ -6,49 +6,43 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Clara",
           "y": 16,
-          "Wert": 0.0877021068
+          "Wert": 0.0876376989
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Clara",
           "y": 17,
-          "Wert": 0.4706026458
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Clara",
-          "y": 8,
-          "Wert": 0.4728074473
+          "Wert": 0.4695226438
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Clara",
-          "y": 13,
-          "Wert": 0.2634854772
+          "y": 14,
+          "Wert": 0.2765625
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Clara",
-          "y": 8,
-          "Wert": 0.2954545455
+          "y": 6,
+          "Wert": 0.2708333333
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Clara",
           "y": 13,
-          "Wert": 0.338606403
+          "Wert": 0.3398717465
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Clara",
-          "y": 7,
-          "Wert": 0.3155435317
+          "y": 8,
+          "Wert": 0.3211750306
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Clara",
           "y": 4,
-          "Wert": 0.1988700565
+          "Wert": 0.2010562052
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
@@ -66,49 +60,43 @@
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 0.1596210671
+          "Wert": 0.159184092
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Clara",
           "y": 2,
-          "Wert": 66.433217693
+          "Wert": 66.592351152
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 36.286571056
+          "Wert": 36.659340659
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 534.14120083
+          "Wert": 534.92269737
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Clara",
-          "y": 4,
-          "Wert": 6362.7900621
+          "y": 3,
+          "Wert": 6316.6652961
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Clara",
           "y": 3,
-          "Wert": 0.6647432124
+          "Wert": 0.6679853567
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 12,
-          "Wert": 0.6431100458
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Clara",
-          "y": 16,
-          "Wert": 0.0539961926
+          "Wert": 0.6108446086
         }
       ],
       "name": "Wert",

@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Gotthelf",
           "y": 10,
-          "Wert": 0.0442618224
+          "Wert": 0.044447641
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Gotthelf",
           "y": 7,
-          "Wert": 0.283160323
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Gotthelf",
-          "y": 15,
-          "Wert": 0.5082179931
+          "Wert": 0.2859608746
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Gotthelf",
           "y": 18,
-          "Wert": 0.2808791209
+          "Wert": 0.2886567603
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Gotthelf",
-          "y": 14,
-          "Wert": 0.5161290323
+          "y": 15,
+          "Wert": 0.4909090909
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Gotthelf",
           "y": 14,
-          "Wert": 0.3460736623
+          "Wert": 0.3421354765
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Gotthelf",
           "y": 15,
-          "Wert": 0.35683391
+          "Wert": 0.3652186421
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Gotthelf",
-          "y": 11,
-          "Wert": 0.2605976372
+          "y": 10,
+          "Wert": 0.2541905855
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Gotthelf",
           "y": 5,
-          "Wert": 1924.7160368
+          "Wert": 1925.0652396
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Gotthelf",
           "y": 16,
-          "Wert": 0.3697650664
+          "Wert": 0.3669724771
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Gotthelf",
           "y": 13,
-          "Wert": 0.322336817
+          "Wert": 0.3197877716
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 74.558432132
+          "Wert": 74.480085857
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 40.865903756
+          "Wert": 41.473210332
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Gotthelf",
           "y": 16,
-          "Wert": 3957.3872421
+          "Wert": 4563.7886488
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 8627.8316339
+          "Wert": 9091.0904773
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Gotthelf",
-          "y": 15,
-          "Wert": 0.7497290566
+          "y": 10,
+          "Wert": 0.7341245851
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gotthelf",
           "y": 7,
-          "Wert": 0.2985506691
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Gotthelf",
-          "y": 9,
-          "Wert": 0.0344512819
+          "Wert": 0.2847147596
         }
       ],
       "name": "Wert",
