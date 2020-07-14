@@ -76,5 +76,44 @@ var indikatorensetData = [
 		"chart-id": 9075,
 		"filter": "",
 		"id": 9075
+	},
+	{
+		"title": "Geschäftsleerstandsfläche",
+		"subtitle": "Basel-Stadt und Basel-Landschaft",
+		"kuerzel": "I.09.2.09080",
+		"kuerzelKunde": "LEB-6-1",
+		"description": "Geschäftsleerstandsfläche",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Angebot an Geschäftsflächen in den beiden Basel zusammen ist um 8,5% auf 314 000 m² zurückgegangen. Praktisch unverändert entfallen gut 30% des gesamten Angebots auf den Stadt- und knapp 70% auf den Landkanton.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_001",
+		"parentId": 7587,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7587,
+		"chart-id": 9080,
+		"filter": "",
+		"id": 9080
 	}
 ];
