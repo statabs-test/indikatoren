@@ -25628,6 +25628,48 @@ var indikatoren = [
 		"id": 7587
 	},
 	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.07588",
+		"kuerzelKunde": "LEB-6-2",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "63% oder 62 000 m² des 2019 insgesamt um 8% tieferen Angebots von insgesamt 99 000 m² im Stadtkanton entfallen auf Büroflächen. Auf Lagerflächen entfallen 12%, auf Laden- und auf Gewerbeflächen 11% bzw. 10%. Mit 4% bleibt das Angebot an Produktionsflächen niedrig.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"9081"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7588,
+		"chart-id": 7588,
+		"filter": "",
+		"id": 7588
+	},
+	{
 		"title": "Ausgaben für bedarfsabhängige Sozialleistungen",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"kuerzel": "I.13.2.07603",

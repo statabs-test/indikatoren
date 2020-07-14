@@ -225,7 +225,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -280,7 +280,8 @@
         "fontSize": "10px",
         "color": "#000000"
       }
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -293,7 +294,8 @@
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -322,8 +324,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "x": 30
+    "padding": 0
   },
   "plotOptions": {
     "series": {

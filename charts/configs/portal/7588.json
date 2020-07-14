@@ -1,147 +1,118 @@
 {
   "series": [
     {
-      "index": 2,
-      "color": "#990300",
-      "data": [
-        [
-          2010,
-          180925
-        ],
-        [
-          2011,
-          155445
-        ],
-        [
-          2012,
-          207860
-        ],
-        [
-          2013,
-          188029
-        ],
-        [
-          2014,
-          177274
-        ],
-        [
-          2015,
-          194209
-        ],
-        [
-          2016,
-          201651
-        ],
-        [
-          2017,
-          248886
-        ],
-        [
-          2018,
-          235564
-        ],
-        [
-          2019,
-          215421
-        ]
-      ],
-      "name": "Basel-Landschaft"
-    },
-    {
+      "color": "rgb(176, 0, 0)",
       "index": 1,
-      "color": "#3C3C3C",
+      "legendIndex": 0,
       "data": [
         [
-          2010,
-          141139
+          "2010",
+          13516
         ],
         [
-          2011,
-          168683
+          "2011",
+          16373
         ],
         [
-          2012,
-          148520
+          "2012",
+          14333
         ],
         [
-          2013,
-          117721
+          "2013",
+          9503
         ],
         [
-          2014,
-          115413
+          "2014",
+          17186
         ],
         [
-          2015,
-          104146
+          "2015",
+          17576
         ],
         [
-          2016,
-          86243
+          "2016",
+          10559
         ],
         [
-          2017,
-          109740
+          "2017",
+          11956
         ],
         [
-          2018,
-          107347
+          "2018",
+          12060
         ],
         [
-          2019,
-          98643
+          "2019",
+          10624
         ]
       ],
-      "name": "Basel-Stadt"
+      "name": "Laden",
+      "turboThreshold": 0
     },
     {
-      "index": 3,
-      "color": "#FABD24",
+      "color": "rgb(168, 196, 203)",
+      "index": 0,
+      "legendIndex": 1,
       "data": [
         [
-          2010,
-          322064
+          "2010",
+          81705
         ],
         [
-          2011,
-          324128
+          "2011",
+          87909
         ],
         [
-          2012,
-          356380
+          "2012",
+          91175
         ],
         [
-          2013,
-          305750
+          "2013",
+          71229
         ],
         [
-          2014,
-          292687
+          "2014",
+          75525
         ],
         [
-          2015,
-          298355
+          "2015",
+          60952
         ],
         [
-          2016,
-          287894
+          "2016",
+          54565
         ],
         [
-          2017,
-          358626
+          "2017",
+          59699
         ],
         [
-          2018,
-          342911
+          "2018",
+          58024
         ],
         [
-          2019,
-          314064
+          "2019",
+          61674
         ]
       ],
-      "name": "Beide Basel"
+      "name": "Büro",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 17
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -168,8 +139,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "renderTo": "container-7587"
+    "type": "area",
+    "renderTo": "container-7588"
   },
   "title": {
     "style": {
@@ -178,7 +149,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Geschäftsleerstandsfläche"
+    "text": "Geschäftsleerstandsfläche nach Nutzung"
   },
   "subtitle": {
     "style": {
@@ -187,12 +158,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt und Basel-Landschaft",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -208,19 +179,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -247,6 +208,11 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 100,
+    "labelFormatter": function(){
+    //only return last word
+    return this.name.split(" ").slice(-1);
+  },
     "itemMarginBottom": 5
   },
   "plotOptions": {
@@ -255,13 +221,9 @@
         "enabled": false
       }
     },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
-      }
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
     }
   },
   "customFunctions": {
@@ -300,6 +262,6 @@
     }
   },
   "exporting": {
-    "filename": 7587
+    "filename": 7588
   }
 }
