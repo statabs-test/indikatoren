@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Saldo",
+      "name": "Wanderungs-\u002FUmzugssaldo",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3827,7 +3827,7 @@
 						return '1 km';
 					},
         "style": {
-          "fontSize": "10px",
+          "fontSize": "15px",
           "fontWeight": "normal",
           "color": "black"
         },
@@ -3925,7 +3925,7 @@
 
 	                
 					//column values in legend
-				//	var legendColumnValues = [3, 1.5]; 
+					var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
                     var legendTop = 190;
@@ -3933,24 +3933,26 @@
                 	
                 	//var legendTop = 280; //220
                 	//var legendLeft = 520; //365
-	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderungs-/Umzugssaldo'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+					//fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderungs-/Umzugssaldo'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+					fn.addLegendTitle(chart,  'Bevölkerungssaldo', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);	
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("er ", "er<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+35,  /*legendColumnValues*0.466*/  [1.44, 0.72], color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
-	                
-	                fn.addLegendText(chart,        legendLeft+15, legendTop+35,  Highcharts.numberFormat(3, 0,","," "), color(3, 0), 'columnLegendHideOnZoom');
-	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+25, legendTop+35,  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+15,  legendColumnValues.map(function(x) { return x * 0.8; }), color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
+	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 10, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(3.0, 1,","," "), color(3, 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 35, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+45,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+53,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+59,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+68,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+21+5,  15, color(1, 0));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0]+21+5,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1]+14+5,  15, color(-1, 0));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1]+14+5,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+73,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+82,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+87, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+96 , 'Umzug negativ');
-					fn.addLegendText(chart,  legendLeft+133, legendTop+0, 'Bevölkerungssaldo'  );	
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[2]+7,  15, color(1, 1));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[2]+7,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[3],  15, color(-1, 1));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[3], 'Umzug negativ');
+					
+					//fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
@@ -4016,30 +4018,30 @@
       {
         "to": -1,
         "color": "#662673",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E-0,99 \u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-1,00"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0 -0,99\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-1,00"
       },
       {
         "from": -0.99999,
         "to": -0.5,
         "color": "#B375AB",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E\u003C\u002Fspan\u003E-0,99 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,50"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0 \u003C\u002Fspan\u003E-0,99 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,50"
       },
       {
         "from": -0.499999,
         "to": -0.000001,
         "color": "#E7CEE2",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E\u003C\u002Fspan\u003E-0,49 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,01"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E0 \u003C\u002Fspan\u003E-0,49 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,01"
       },
       {
         "from": 0,
         "to": 0.79999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E-\u003C\u002Fspan\u003E0,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,79"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E-0 \u003C\u002Fspan\u003E0,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,79"
       },
       {
         "from": 0.8,
         "color": "#71A3B5",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E-0,99 \u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,80"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0 -0,99\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,80"
       }
     ]
   },
@@ -4052,23 +4054,23 @@
   },
   "legend": {
     "enabled": true,
-    "align": "right",
+    "align": "left",
     "floating": true,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "15px",
       "fontWeight": "normal"
     },
     "title": {
       "style": {
-        "fontWeight": " normal",
-        "fontSize": "10px"
+        "fontWeight": "normal",
+        "fontSize": "15px"
       },
       "text": null
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -85,
-    "y": -25,
+    "x": 518,
+    "y": -15,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
@@ -4223,7 +4225,7 @@
     "addLegendTitle": function(chart, title, x, y){
         		return chart.renderer.label(title, x, y)
      				.css({
-	                    fontSize: '10px',
+	                    fontSize: '15px',
 	                    fontWeight: 'bold'
 	                })
 	                .attr({
@@ -4243,7 +4245,7 @@
     "addLegendText": function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
-	                    fontSize: '10px',
+						fontSize: '15px'
 	                })
 					.attr({
 						zIndex: 6,

@@ -396,6 +396,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "x": -12,
     "itemDistance": 5
   },
   "tooltip": {

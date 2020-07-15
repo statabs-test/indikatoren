@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#71A3B5",
       "data": [
         [
           "0-4",
@@ -76,7 +76,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
+      "color": "#73B97C",
       "data": [
         [
           "0-4",
@@ -395,6 +395,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "x": -12,
     "itemDistance": 5
   },
   "tooltip": {

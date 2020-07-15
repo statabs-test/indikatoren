@@ -3887,12 +3887,12 @@
                 	var legendTop = 190;
                 	var legendLeft = 350;;
                 	
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft+20, legendTop+33,  'Schweiz');
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+39,  10, "blue");
-					fn.addLegendText(chart,        legendLeft+20, legendTop+47,  'Ausland');
-					fn.addLegendText(chart,     legendLeft+110,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     legendLeft+0,  legendTop+0,  'Anteil Zugezogene <br> nach Zuzugsland');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#B00000");
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0],  'Schweiz');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "blue");
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1],  'Ausland');
+					fn.addLegendTitle(chart, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, 'Anteil Zugezogene <br> nach Zuzugsland', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
@@ -3953,32 +3953,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 4.999,
+        "to": 3.999,
         "color": "#FFDA80",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E----\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E11----\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E4,00"
       },
       {
-        "from": 5,
-        "to": 6.999,
+        "from": 4,
+        "to": 5.999,
         "color": "#FABD24",
-        "name": "5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E6,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E4,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,90"
       },
       {
-        "from": 7,
-        "to": 8.999,
+        "from": 6,
+        "to": 7.499,
         "color": "#CD9C00",
-        "name": "7,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E8,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E6,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E7,49"
       },
       {
-        "from": 9,
-        "to": 10.9999999,
+        "from": 7.5,
+        "to": 9.9999999,
         "color": "#7F5F1A",
-        "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E10,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E7,50 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E9,99"
       },
       {
-        "from": 11,
+        "from": 10,
         "color": "#45381D",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,--\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E117,--\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E10,00"
       }
     ]
   },
@@ -3992,22 +3992,22 @@
   "legend": {
     "enabled": true,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "15px",
       "fontWeight": "normal"
     },
-    "align": "right",
+    "align": "left",
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": " bold",
-        "fontSize": "10px"
+        "fontWeight": "normal",
+        "fontSize": "15px"
       },
       "text": null
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -125,
-    "y": -31,
+    "x": 518,
+    "y": -15,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
@@ -4265,7 +4265,7 @@
     "addLegendTitle": function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '10px',
+    	                    fontSize: '15px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -4285,7 +4285,7 @@
     "addLegendText": function(chart, x, y, text, color, cssClass, useHtml){
 							return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 								.css({
-				                    fontSize: '10px',
+				                    fontSize: '15px',
 				                })
 								.attr({
 									zIndex: 6,
