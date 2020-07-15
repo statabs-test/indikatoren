@@ -7,43 +7,43 @@
       "data": [
         [
           "2010",
-          13516
+          10689
         ],
         [
           "2011",
-          16373
+          12845
         ],
         [
           "2012",
-          14333
+          14456
         ],
         [
           "2013",
-          9503
+          15849
         ],
         [
           "2014",
-          17186
+          13958
         ],
         [
           "2015",
-          17576
+          12762
         ],
         [
           "2016",
-          10559
+          17263
         ],
         [
           "2017",
-          11956
+          13425
         ],
         [
           "2018",
-          12060
+          11921
         ],
         [
           "2019",
-          10624
+          11803
         ]
       ],
       "name": "Laden",
@@ -56,43 +56,43 @@
       "data": [
         [
           "2010",
-          81705
+          43751
         ],
         [
           "2011",
-          87909
+          65692
         ],
         [
           "2012",
-          91175
+          71002
         ],
         [
           "2013",
-          71229
+          65094
         ],
         [
           "2014",
-          75525
+          64818
         ],
         [
           "2015",
-          60952
+          63378
         ],
         [
           "2016",
-          54565
+          79203
         ],
         [
           "2017",
-          59699
+          85147
         ],
         [
           "2018",
-          58024
+          87762
         ],
         [
           "2019",
-          61674
+          82832
         ]
       ],
       "name": "Büro",
@@ -105,43 +105,43 @@
       "data": [
         [
           "2010",
-          5562
+          56650
         ],
         [
           "2011",
-          18925
+          53442
         ],
         [
           "2012",
-          18102
+          53826
         ],
         [
           "2013",
-          19987
+          32806
         ],
         [
           "2014",
-          6126
+          41253
         ],
         [
           "2015",
-          6866
+          39147
         ],
         [
           "2016",
-          7793
+          33899
         ],
         [
           "2017",
-          17388
+          59979
         ],
         [
           "2018",
-          16987
+          47719
         ],
         [
           "2019",
-          10161
+          64730
         ]
       ],
       "name": "Gewerbe",
@@ -154,43 +154,43 @@
       "data": [
         [
           "2010",
-          75
+          3832
         ],
         [
           "2011",
-          2000
+          4316
         ],
         [
           "2012",
-          1057
+          10258
         ],
         [
           "2013",
-          1642
+          11653
         ],
         [
           "2014",
-          682
+          7303
         ],
         [
           "2015",
-          821
+          20338
         ],
         [
           "2016",
-          2035
+          5836
         ],
         [
           "2017",
-          380
+          36968
         ],
         [
           "2018",
-          1098
+          27094
         ],
         [
           "2019",
-          3897
+          4330
         ]
       ],
       "name": "Produktion",
@@ -203,43 +203,43 @@
       "data": [
         [
           "2010",
-          40281
+          66003
         ],
         [
           "2011",
-          43476
+          19150
         ],
         [
           "2012",
-          23853
+          58318
         ],
         [
           "2013",
-          15360
+          62627
         ],
         [
           "2014",
-          15894
+          49942
         ],
         [
           "2015",
-          17931
+          58584
         ],
         [
           "2016",
-          11291
+          65450
         ],
         [
           "2017",
-          20317
+          53367
         ],
         [
           "2018",
-          19178
+          61068
         ],
         [
           "2019",
-          12287
+          51726
         ]
       ],
       "name": "Lager",
@@ -253,44 +253,115 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
+        "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
       }
     },
     "tickLength": 0
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
           }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "area",
-    "renderTo": "container-7588"
+    "renderTo": "container-9082",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -299,12 +370,12 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "Basel-Landschaft",
     "align": "left"
   },
   "tooltip": {
@@ -318,16 +389,19 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -351,9 +425,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemMarginBottom": 2,
     "itemStyle": {
+      "fontSize": "10px",
       "fontWeight": "normal"
-    }
+    },
+    "padding": 0
   },
   "plotOptions": {
     "series": {
@@ -366,42 +443,8 @@
       "lineWidth": 0
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
-  },
   "exporting": {
-    "filename": 7588
+    "enabled": false,
+    "filename": 9082
   }
 }

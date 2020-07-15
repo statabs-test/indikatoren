@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#689199",
-      "index": 1,
+      "color": "#D3E2E4",
+      "index": 5,
       "legendIndex": 1,
       "data": [
         [
@@ -50,8 +50,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
-      "index": 2,
+      "color": "#B00000",
+      "index": 4,
       "legendIndex": 2,
       "data": [
         [
@@ -99,7 +99,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "index": 3,
       "legendIndex": 3,
       "data": [
@@ -148,8 +148,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
-      "index": 4,
+      "color": "#DC440E",
+      "index": 2,
       "legendIndex": 4,
       "data": [
         [
@@ -197,8 +197,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
-      "index": 5,
+      "color": "#083038",
+      "index": 1,
       "legendIndex": 5,
       "data": [
         [
@@ -355,7 +355,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "area",
     "renderTo": "container-9081",
     "spacingBottom": 2
   },
@@ -400,7 +400,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

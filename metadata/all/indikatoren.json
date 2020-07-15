@@ -43687,6 +43687,48 @@
 		"id": 7588
 	},
 	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Landschaft",
+		"kuerzel": "I.09.2.07589",
+		"kuerzelKunde": "LEB-6-3",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ein geringeres Angebot an Produktions-, Lager- und Bürofläche hat zum Rückgang des Leerstands im Landkanton um knapp 9% auf insgesamt 215 000 m² beigetragen. Dem stand eine Zunahme im Gewerbebereich um 35% auf 65 000 m² entgegen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"9082"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7589,
+		"chart-id": 7589,
+		"filter": "",
+		"id": 7589
+	},
+	{
 		"title": "Ausgaben für bedarfsabhängige Sozialleistungen",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"kuerzel": "I.13.2.07603",
@@ -70027,6 +70069,46 @@
 		"chart-id": 9081,
 		"filter": "",
 		"id": 9081
+	},
+	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Landschaft",
+		"kuerzel": "I.09.2.09082",
+		"kuerzelKunde": "LEB-6-3",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ein geringeres Angebot an Produktions-, Lager- und Bürofläche hat zum Rückgang des Leerstands im Landkanton um knapp 9% auf insgesamt 215 000 m² beigetragen. Dem stand eine Zunahme im Gewerbebereich um 35% auf 65 000 m² entgegen.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "05_00_00_00_00_003",
+		"parentId": 7589,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7589,
+		"chart-id": 9082,
+		"filter": "",
+		"id": 9082
 	},
 	{
 		"title": "Test Daten",
