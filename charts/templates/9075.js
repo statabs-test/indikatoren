@@ -66,7 +66,7 @@
                   format: '{point.percentage:.0f}%',
                   distance: -20,
                   style: {
-                      color: 'black',
+                      color: 'contrast',
                       textOutline: "0px black", 
                       fontWeight: "normal", 
                       fontSize: "10px"
