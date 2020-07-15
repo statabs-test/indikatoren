@@ -26,11 +26,12 @@
             "type": "category"
         },
         yAxis: {
-            reversedStacks: false,
+            reversedStacks: true,
             tickInterval: 20,
             max: 100,
         },
         "legend": {
+           // reversed: true,
             "itemStyle": {
                 "width": 150
             }
