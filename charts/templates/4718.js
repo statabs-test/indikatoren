@@ -1,6 +1,7 @@
 (function(){
     return {
     "xAxis": {
+        reversed: false,
         "type": "category", 
         "labels": {
             formatter: undefined
