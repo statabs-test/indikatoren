@@ -230,7 +230,7 @@
         "textOverflow": "none"
       }
     },
-    "reversedStacks": false,
+    "reversedStacks": true,
     "max": 100
   },
   "legend": {

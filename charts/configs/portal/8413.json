@@ -4,16 +4,16 @@
       "color": "#007A2F",
       "data": [
         [
-          "2011 (N=1689)",
-          27.2
+          "2011",
+          459
         ],
         [
-          "2015 (N=1427)",
-          29.5
+          "2015",
+          421
         ],
         [
-          "2019 (N=1410)",
-          33.1
+          "2019",
+          467
         ]
       ],
       "name": "Sehr zufrieden",
@@ -23,16 +23,16 @@
       "color": "#73B97C",
       "data": [
         [
-          "2011 (N=1689)",
-          50.8
+          "2011",
+          858
         ],
         [
-          "2015 (N=1427)",
-          50.5
+          "2015",
+          720
         ],
         [
-          "2019 (N=1410)",
-          46.9
+          "2019",
+          661
         ]
       ],
       "name": "Eher zufrieden",
@@ -42,16 +42,16 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2011 (N=1689)",
-          9.3
+          "2011",
+          157
         ],
         [
-          "2015 (N=1427)",
-          10
+          "2015",
+          142
         ],
         [
-          "2019 (N=1410)",
-          9.4
+          "2019",
+          132
         ]
       ],
       "name": "Eher unzufrieden",
@@ -61,16 +61,16 @@
       "color": "#B00000",
       "data": [
         [
-          "2011 (N=1689)",
-          1.3
+          "2011",
+          22
         ],
         [
-          "2015 (N=1427)",
-          1.6
+          "2015",
+          23
         ],
         [
-          "2019 (N=1410)",
-          1.8
+          "2019",
+          25
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -80,16 +80,16 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2011 (N=1689)",
-          5.5
+          "2011",
+          93
         ],
         [
-          "2015 (N=1427)",
-          4.6
+          "2015",
+          66
         ],
         [
-          "2019 (N=1410)",
-          3.9
+          "2019",
+          55
         ]
       ],
       "name": "Weiss nicht",
@@ -99,16 +99,16 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2011 (N=1689)",
-          5.9
+          "2011",
+          100
         ],
         [
-          "2015 (N=1427)",
-          3.9
+          "2015",
+          55
         ],
         [
-          "2019 (N=1410)",
-          5
+          "2019",
+          70
         ]
       ],
       "name": "Keine Angabe",
@@ -136,8 +136,29 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function(){
-                return this.value.replace(" ", " <br/>")}
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                }
     }
   },
   "chart": {

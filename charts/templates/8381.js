@@ -41,7 +41,7 @@
         "verticalAlign": "top",
         "itemMarginBottom": 0,
         x: -18,
-        itemWidth: 134,
+        itemWidth: 142,
         width: 300,
         itemStyle: {
           textOverflow: "none",
