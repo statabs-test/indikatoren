@@ -31,18 +31,12 @@
           showInLegend: false,
           type: 'pie',
           innerSize: '100%',
-        borderWidth: 2,
-          colors: [
-            '#D7E8D2', 
-            '#F2F2F2',
-            '#C9D6DB',
-         ],
-         dataLabels: {
-          enabled: true,
-                format: '{point.name}',
-                distance: 15,
-                connectorWidth: 0,
-                style: {
+          dataLabels: {
+            enabled: true,
+            format: '{point.name}',
+            distance: 15,
+            connectorWidth: 0,
+            style: {
                     color: 'black',
                     textOutline: "0px black", 
                     fontWeight: "normal", 
@@ -56,16 +50,16 @@
           innerSize: '40%',
         borderWidth: 2,
            colors: [
-            '#D7E8D2', 
-            '#F2F2F2',
-            '#C9D6DB',
+            '#FFDA80', 
+            '#CD9C00',
+            '#45381D',
           ],
           dataLabels: {
             enabled: true,
                   format: '{point.percentage:.0f}%',
                   distance: -35,
                   style: {
-                      color: 'black',
+                      color: 'contrast',
                       textOutline: "0px black", 
                       fontWeight: "normal", 
                       fontSize: "12px"

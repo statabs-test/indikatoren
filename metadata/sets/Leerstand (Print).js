@@ -193,5 +193,83 @@ var indikatorensetData = [
 		"chart-id": 9082,
 		"filter": "",
 		"id": 9082
+	},
+	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Stadt, Anteile 2019",
+		"kuerzel": "I.09.2.09083",
+		"kuerzelKunde": "LEB-6-4",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_004",
+		"parentId": 7590,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7590,
+		"chart-id": 9083,
+		"filter": "",
+		"id": 9083
+	},
+	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Landschaft, Anteile 2019",
+		"kuerzel": "I.09.2.09084",
+		"kuerzelKunde": "LEB-6-5",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-07-13T14:55:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": 9064,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9064,
+		"chart-id": 9084,
+		"filter": "",
+		"id": 9084
 	}
 ];

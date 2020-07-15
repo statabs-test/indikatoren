@@ -31,13 +31,7 @@
           showInLegend: false,
           type: 'pie',
           innerSize: '100%',
-        borderWidth: 2,
-          colors: [
-            '#D7E8D2', 
-            '#F2F2F2',
-            '#C9D6DB',
-         ],
-         dataLabels: {
+        dataLabels: {
           enabled: true,
                 format: '{point.name}',
                 distance: 15,
@@ -56,9 +50,9 @@
           innerSize: '40%',
         borderWidth: 2,
            colors: [
-            '#D7E8D2', 
-            '#F2F2F2',
-            '#C9D6DB',
+            '#FFDA80', 
+            '#CD9C00',
+            '#45381D',
           ],
           dataLabels: {
             enabled: true,

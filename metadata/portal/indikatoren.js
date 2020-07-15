@@ -25712,6 +25712,48 @@ var indikatoren = [
 		"id": 7589
 	},
 	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Stadt, Anteile 2019",
+		"kuerzel": "I.09.2.07590",
+		"kuerzelKunde": "LEB-6-4",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"9083"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7590,
+		"chart-id": 7590,
+		"filter": "",
+		"id": 7590
+	},
+	{
 		"title": "Ausgaben für bedarfsabhängige Sozialleistungen",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"kuerzel": "I.13.2.07603",
@@ -37855,5 +37897,47 @@ var indikatoren = [
 		"chart-id": 9032,
 		"filter": "",
 		"id": 9032
+	},
+	{
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Landschaft, Anteile 2019",
+		"kuerzel": "I.09.2.09064",
+		"kuerzelKunde": "LEB-6-5",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-07-13T14:55:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9084"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9064,
+		"chart-id": 9064,
+		"filter": "",
+		"id": 9064
 	}
 ];

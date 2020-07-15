@@ -4,74 +4,94 @@
       "showInLegend": false,
       "type": "pie",
       "innerSize": "100%",
-      "borderWidth": 0,
+      "borderWidth": 2,
       "colors": [
-        "#D7E8D2",
-        "#F2F2F2",
-        "#C9D6DB"
+        "#D3E2E4",
+        "#B00000",
+        "#689199",
+        "#DC440E",
+        "#083038"
       ],
       "dataLabels": {
         "enabled": true,
         "format": "{point.name}",
-        "distance": 0,
+        "distance": 15,
         "connectorWidth": 0,
         "style": {
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "10px"
+          "fontSize": "12px"
         }
       },
       "data": [
         [
-          "neu erstellt",
-          8
+          "Laden",
+          5.5
         ],
         [
-          "renoviert",
-          11.7
+          "Büro",
+          38.5
         ],
         [
-          "unverändert",
-          80.4
+          "Gewerbe",
+          30
+        ],
+        [
+          "Produktion",
+          2
+        ],
+        [
+          "Lager",
+          24
         ]
       ],
-      "name": "Anteil in Prozent",
+      "name": "Anteil",
       "turboThreshold": 0
     },
     {
       "showInLegend": false,
       "type": "pie",
       "innerSize": "40%",
-      "borderWidth": 0,
+      "borderWidth": 2,
       "colors": [
-        "#FFDA80",
-        "#CD9C00",
-        "#45381D"
+        "#D3E2E4",
+        "#B00000",
+        "#689199",
+        "#DC440E",
+        "#083038"
       ],
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.0f}%",
-        "distance": -20,
+        "distance": -35,
         "style": {
-          "color": "black",
+          "color": "contrast",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "10px"
+          "fontSize": "12px"
         }
       },
       "data": [
         [
-          "neu erstellt",
-          119
+          2019,
+          11803
         ],
         [
-          "renoviert",
-          174
+          2019,
+          82832
         ],
         [
-          "unverändert",
-          1199
+          2019,
+          64730
+        ],
+        [
+          2019,
+          4330
+        ],
+        [
+          2019,
+          51726
         ]
       ],
       "name": "Anzahl",
@@ -96,20 +116,14 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
-    "height": 208,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-9075",
-    "spacingBottom": 2
+    "renderTo": "container-9064"
   },
   "plotOptions": {
     "pie": {
@@ -135,21 +149,21 @@
   },
   "title": {
     "style": {
-      "fontSize": "10px",
+      "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerwohnungen nach Bautätigkeit"
+    "text": "Geschäftsleerstandsfläche nach Nutzung"
   },
   "subtitle": {
     "style": {
-      "fontSize": "10px",
+      "fontSize": "12px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2019",
+    "text": "Basel-Landschaft, Anteile 2019",
     "align": "left"
   },
   "tooltip": {
@@ -168,22 +182,18 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-13"
   },
   "legend": {
-    "padding": 0,
-    "margin": 0,
-    "itemMarginBottom": 2,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "itemMarginBottom": 5,
     "align": "left",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "10px",
-      "color": "#000000"
+      "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "itemDistance": 2,
@@ -192,6 +202,6 @@
     }
   },
   "exporting": {
-    "filename": 9075
+    "filename": 9064
   }
 }

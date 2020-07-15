@@ -4,16 +4,18 @@
       "showInLegend": false,
       "type": "pie",
       "innerSize": "100%",
-      "borderWidth": 0,
+      "borderWidth": 2,
       "colors": [
-        "#D7E8D2",
-        "#F2F2F2",
-        "#C9D6DB"
+        "#D3E2E4",
+        "#B00000",
+        "#689199",
+        "#DC440E",
+        "#083038"
       ],
       "dataLabels": {
         "enabled": true,
         "format": "{point.name}",
-        "distance": 0,
+        "distance": 15,
         "connectorWidth": 0,
         "style": {
           "color": "black",
@@ -24,19 +26,27 @@
       },
       "data": [
         [
-          "neu erstellt",
-          8
+          "Laden",
+          10.8
         ],
         [
-          "renoviert",
-          11.7
+          "Büro",
+          62.5
         ],
         [
-          "unverändert",
-          80.4
+          "Gewerbe",
+          10.3
+        ],
+        [
+          "Produktion",
+          4
+        ],
+        [
+          "Lager",
+          12.5
         ]
       ],
-      "name": "Anteil in Prozent",
+      "name": "Anteil",
       "turboThreshold": 0
     },
     {
@@ -45,16 +55,18 @@
       "innerSize": "40%",
       "borderWidth": 0,
       "colors": [
-        "#FFDA80",
-        "#CD9C00",
-        "#45381D"
+        "#D3E2E4",
+        "#B00000",
+        "#689199",
+        "#DC440E",
+        "#083038"
       ],
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.0f}%",
         "distance": -20,
         "style": {
-          "color": "black",
+          "color": "contrast",
           "textOutline": "0px black",
           "fontWeight": "normal",
           "fontSize": "10px"
@@ -62,16 +74,24 @@
       },
       "data": [
         [
-          "neu erstellt",
-          119
+          2019,
+          10624
         ],
         [
-          "renoviert",
-          174
+          2019,
+          61674
         ],
         [
-          "unverändert",
-          1199
+          2019,
+          10161
+        ],
+        [
+          2019,
+          3897
+        ],
+        [
+          2019,
+          12287
         ]
       ],
       "name": "Anzahl",
@@ -108,7 +128,7 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-9075",
+    "renderTo": "container-9083",
     "spacingBottom": 2
   },
   "plotOptions": {
@@ -140,7 +160,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerwohnungen nach Bautätigkeit"
+    "text": "Geschäftsleerstandsfläche nach Nutzung"
   },
   "subtitle": {
     "style": {
@@ -149,7 +169,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2019",
+    "text": "Basel-Stadt, Anteile 2019",
     "align": "left"
   },
   "tooltip": {
@@ -192,6 +212,6 @@
     }
   },
   "exporting": {
-    "filename": 9075
+    "filename": 9083
   }
 }
