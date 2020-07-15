@@ -1,7 +1,8 @@
 (function(){
   return {
  chart: {
-  type: "area"
+  type: "area",
+  width: 665
  },
   plotOptions: {
        area: {
@@ -11,6 +12,7 @@
       }
   },
   yAxis: {
+    tickAmount: 5,
     labels: {
       format: "{value:,.0f}",
     }
@@ -40,7 +42,7 @@
      {
       color: '#083038', index: 1,legendIndex:5,
     }
-  ],  
+  ],    
   tooltip: {
      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>'
   }
