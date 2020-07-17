@@ -2653,7 +2653,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -2749,9 +2749,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-29"
   },
   "legend": {
     "enabled": true,
