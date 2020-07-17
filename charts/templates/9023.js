@@ -73,7 +73,7 @@
                 this.series[0].name.split(" ").slice(-1).toString()
                 + ':<br>'
                 + this.series[11].name.split(" ").slice(-1).toString()
-                + ' (rechte Skala):'
+                + ' ( rechte Skala):'
             })
             .translate(-140, 8);
         }
