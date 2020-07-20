@@ -25,7 +25,7 @@
         }
       },
     },
-    tooltip: {
+   /* tooltip: {
       padding: 0,
       useHTML: true,
       //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
@@ -56,7 +56,7 @@
           '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Wert <b>' + w + ' </b>Rang <b>' + this.point.y + '</b><br/>' +
           '</div>';
       }
-    },
+    },*/
 
   };
 }());
