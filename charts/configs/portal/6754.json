@@ -191,7 +191,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "plotOptions": {
@@ -257,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-27"
   },
   "legend": {
     "enabled": false,
