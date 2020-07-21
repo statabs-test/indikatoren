@@ -13,7 +13,8 @@
                     var centerX = 242.5;
                     var centerY = 212.5;
                     var radius = 136;
-                    this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
+                    this.renderer.arc(centerX, 
+                        centerY, radius, 0, top, endPurple).attr({
                         fill: '#923F8D',
                         stroke: '#923F8D',
                         'stroke-width': 0,
