@@ -9130,7 +9130,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2017 um 25% auf 68 411 zu. Mit einer Zunahme von 42% verzeichnete der Hauptbereich Rehabilitation die grösste relative Veränderung im Beobachtungszeitraum.",
+		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2019 um 27% auf 69 899 zu. Mit einer Zunahme von 93% verzeichnete der Hauptbereich Rehabilitation die grösste relative Veränderung im Beobachtungszeitraum",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9144,9 +9144,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4947,
+		"chart-id": 4947,
+		"filter": "",
 		"id": 4947
 	},
 	{
