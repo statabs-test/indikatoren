@@ -6684,7 +6684,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2017 um 25% auf 68 411 zu. Mit einer Zunahme von 42% verzeichnete der Hauptbereich Rehabilitation die grösste relative Veränderung im Beobachtungszeitraum.",
+		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2019 um 27% auf 69 899 zu. Mit einer Zunahme von 93% verzeichnete der Hauptbereich Rehabilitation die grösste relative Veränderung im Beobachtungszeitraum",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -6698,9 +6698,13 @@
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4947,
+		"chart-id": 4947,
+		"filter": "",
 		"id": 4947
 	},
 	{
@@ -6721,7 +6725,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2017 um 35% auf 89 900 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+30%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2017 rund 767 800 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
+		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2019 um 36% auf 49 294 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+59%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2019 rund 779 708 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -6735,9 +6739,13 @@
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4948,
+		"chart-id": 4948,
+		"filter": "",
 		"id": 4948
 	},
 	{
@@ -37033,6 +37041,46 @@
 		"id": 8690
 	},
 	{
+		"title": "Kaiserschnitte in baselstädtischen Spitälern",
+		"subtitle": "2012 bis 2018",
+		"kuerzel": "I.14.1.08692",
+		"kuerzelKunde": "",
+		"description": "Kaiserschnitte in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2018 wurden von den 4 577 Entbindungen insgesamt 1 619 mittels Kaiserschnitt durchgeführt. Dies entspricht einem Anteil von 35,4%. Von den 1 619 Kaiserschnitten im Jahr 2018 wurden 841 geplant und 778 ungeplant durchgeführt.",
+		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthale in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert. Ab dem Jahr 2014 werden primäre (im Voraus geplante) und sekundäre (ungeplante) Kaiserschnitte separat erfasst und in der obigen Grafik ausgewiesen. Als natürliche Entbindungen werden jene Entbindungen definiert, die nicht mittels Kaiserschnitt durchgeführt wurden.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8692,
+		"chart-id": 8692,
+		"filter": "",
+		"id": 8692
+	},
+	{
 		"title": "Beschäftigung in der Branche Lagerei und Zustelldienste",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.08693",
@@ -37696,6 +37744,86 @@
 		"chart-id": 8995,
 		"filter": "",
 		"id": 8995
+	},
+	{
+		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"subtitle": "65+ Jahre",
+		"kuerzel": "I.14.3.09022",
+		"kuerzelKunde": "",
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-05-28T15:02:53.5353",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der der Kalenderwoche 14 des Jahres 2020 insgesamt 27 Personen ab 65 Jahren mehr verstorben, als man statistsich erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliessliche Kalenderwoche 52 insgesamt 40 Personen ab 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9022,
+		"chart-id": 9022,
+		"filter": "",
+		"id": 9022
+	},
+	{
+		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"subtitle": "0 - 64 Jahre",
+		"kuerzel": "I.14.3.09023",
+		"kuerzelKunde": "",
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-05-29T11:35:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der der Kalenderwoche 17 des Jahres 2020 insgesamt 5 Personen unter 65 Jahren mehr verstorben, als man statistsich erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliessliche Kalenderwoche 52 insgesamt 8 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9023,
+		"chart-id": 9023,
+		"filter": "",
+		"id": 9023
 	},
 	{
 		"title": "Ältere Menschen sind eine Last für die Gesellschaft",
