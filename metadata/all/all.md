@@ -1002,6 +1002,7 @@ id | visible | visibleInPortal | indikatorenset
 6974 | true | true | Wohnviertel
 6975 | true | true | Wohnviertel
 6976 | true | true | Wohnviertel
+6979 | true | true | 
 6980 | true | true | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern

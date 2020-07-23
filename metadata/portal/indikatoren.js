@@ -24471,6 +24471,46 @@ var indikatoren = [
 		"id": 6976
 	},
 	{
+		"title": "Einbruchdiebstähle",
+		"subtitle": "",
+		"kuerzel": "I.19.3.06979",
+		"kuerzelKunde": "",
+		"description": "Einbruchdiebstähle",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Strafvollzug",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2019 wurden auf 1000 Einwohner im Kanton Basel-Stadt 4.8 Einbruchdiebstähle polizeilich registriert.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6979,
+		"chart-id": 6979,
+		"filter": "",
+		"id": 6979
+	},
+	{
 		"title": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
 		"subtitle": "in Franken, Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.06980",
@@ -37042,7 +37082,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Kaiserschnitte in baselstädtischen Spitälern",
-		"subtitle": "2012 bis 2018",
+		"subtitle": "2012 bis 2019",
 		"kuerzel": "I.14.1.08692",
 		"kuerzelKunde": "",
 		"description": "Kaiserschnitte in baselstädtischen Spitälern",
@@ -37058,8 +37098,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden von den 4 577 Entbindungen insgesamt 1 619 mittels Kaiserschnitt durchgeführt. Dies entspricht einem Anteil von 35,4%. Von den 1 619 Kaiserschnitten im Jahr 2018 wurden 841 geplant und 778 ungeplant durchgeführt.",
-		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthale in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert. Ab dem Jahr 2014 werden primäre (im Voraus geplante) und sekundäre (ungeplante) Kaiserschnitte separat erfasst und in der obigen Grafik ausgewiesen. Als natürliche Entbindungen werden jene Entbindungen definiert, die nicht mittels Kaiserschnitt durchgeführt wurden.",
+		"lesehilfe": "Im Jahr 2019 wurden von den 4 571 Entbindungen insgesamt 1 650 mittels Kaiserschnitt durchgeführt. Dies entspricht einem Anteil von 36,1%. Von den 1 650 Kaiserschnitten im Jahr 2019 wurden 818 als primäre (geplante) Kaiserschnitte und 832 als sekundäre (ungeplante) Kaiserschnitte durchgeführt.",
+		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthalte in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert. Ab dem Jahr 2014 werden primäre (im Voraus geplante) und sekundäre (ungeplante) Kaiserschnitte separat erfasst und in der obigen Grafik ausgewiesen. Als natürliche Entbindungen werden jene Entbindungen definiert, die nicht mittels Kaiserschnitt durchgeführt wurden. Die Kaiserschnittrate berechnet sich aus dem Quotienten der Kaiserschnitte (primäre und sekundäre) und der Gesamtzahl aller Entbindungen (Kaiserschnitte sowie natürliche Entbindungen) pro Jahr.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

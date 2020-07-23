@@ -32,9 +32,13 @@
         [
           "2018",
           0
+        ],
+        [
+          "2019",
+          0
         ]
       ],
-      "name": "Anzahl Kaiserschnitte (n.n.bez.)",
+      "name": "Kaiserschnitte (n. n. bez.)",
       "turboThreshold": 0
     },
     {
@@ -69,9 +73,13 @@
         [
           "2018",
           841
+        ],
+        [
+          "2019",
+          818
         ]
       ],
-      "name": "Anzahl primärer Kaiserschnitte",
+      "name": "Primäre Kaiserschnitte",
       "turboThreshold": 0
     },
     {
@@ -106,9 +114,13 @@
         [
           "2018",
           778
+        ],
+        [
+          "2019",
+          832
         ]
       ],
-      "name": "Anzahl sekundärer Kaiserschnitte",
+      "name": "Sekundäre Kaiserschnitte",
       "turboThreshold": 0
     },
     {
@@ -143,9 +155,13 @@
         [
           "2018",
           2958
+        ],
+        [
+          "2019",
+          2921
         ]
       ],
-      "name": "Anzahl natürlicher Entbindungen",
+      "name": "Natürliche Entbindungen",
       "turboThreshold": 0
     },
     {
@@ -187,6 +203,10 @@
         [
           "2018",
           35.4
+        ],
+        [
+          "2019",
+          36.1
         ]
       ],
       "name": "Kaiserschnittrate",
@@ -254,7 +274,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2012 bis 2018",
+    "text": "2012 bis 2019",
     "align": "left"
   },
   "tooltip": {
