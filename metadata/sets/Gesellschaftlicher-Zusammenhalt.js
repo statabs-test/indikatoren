@@ -1619,6 +1619,47 @@ var indikatorensetData = [
 		"id": 9029
 	},
 	{
+		"title": "Ordnungsbussen",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09030",
+		"kuerzelKunde": "3.2.05",
+		"description": "Ordnungsbussen",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-18T10:36:10.1010",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den Jahren 2000 bis 2019 schwankte die Zahl der Ordnungsbussen zwischen 190355 (2000) und 535349 (2006).",
+		"erlaeuterungen": "Im Ordnungsbussen-Verfahren geahndete Übertretungen des Strassenverkehrsgesetzes. Infolge der Installation mehrerer neuer Radarstationen werden seit 2004 höhere Werte verzeichnet.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9035"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9030,
+		"chart-id": 9030,
+		"filter": "",
+		"id": 9030
+	},
+	{
 		"title": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
 		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt",
 		"kuerzel": "I.50.1.09032",

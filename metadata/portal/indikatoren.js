@@ -32380,7 +32380,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Höhe Mietzins",
-		"subtitle": "«Wie hoch ist ihr aktueller Mietzins?» Stand: 2015",
+		"subtitle": "«Wie hoch ist ihr aktueller Mietzins?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-38",
 		"description": "Höhe Mietzins",
@@ -32396,8 +32396,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "56,4% der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Mieter bewohnen, bezahlen 2015 pro Monat weniger als 1 500 Franken. Rund ein Drittel bezahlt mehr als 1 500 Franken pro Monat. Im Vergleich zu 2011 hat sich die Höhe des monatlichen Mietzinses kaum verändert.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Mieter.",
+		"lesehilfe": "51,0% der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Mieter bewohnen, bezahlen 2019 pro Monat weniger als 1 500 Franken. Ein Drittel der Befragten bezahlt mehr als 1 500 Franken pro Monat.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Mieter.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -35563,6 +35563,48 @@ var indikatoren = [
 		"chart-id": 9029,
 		"filter": "",
 		"id": 9029
+	},
+	{
+		"title": "Ordnungsbussen",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09030",
+		"kuerzelKunde": "3.2.05",
+		"description": "Ordnungsbussen",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-18T10:36:10.1010",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den Jahren 2000 bis 2019 schwankte die Zahl der Ordnungsbussen zwischen 190355 (2000) und 535349 (2006).",
+		"erlaeuterungen": "Im Ordnungsbussen-Verfahren geahndete Übertretungen des Strassenverkehrsgesetzes. Infolge der Installation mehrerer neuer Radarstationen werden seit 2004 höhere Werte verzeichnet.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9035"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9030,
+		"chart-id": 9030,
+		"filter": "",
+		"id": 9030
 	},
 	{
 		"title": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
