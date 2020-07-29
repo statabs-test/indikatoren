@@ -72,10 +72,10 @@
               text:
                 this.series[0].name.split(" ").slice(-1).toString()
                 + ':<br>'
-                + this.series[11].name.split(" ").slice(-1).toString()
+                + this.series[13].name.split(" ").slice(-1).toString()
                 + ' (rechte Skala):'
             })
-            .translate(-140, 8);
+            .translate(-145, 8);
         }
       }
     },
@@ -155,11 +155,59 @@
         text: ' ', //wird via chart.events.load bearbeitet
         style: {
           fontWeight: 'normal',
-          lineHeight: 18
+          lineHeight: 40
         }
       },
     },
     series: [
+      {
+        color: "#7f5f1a", // 2009 kumuliert
+        type: "line",
+      },
+      {
+        color: "#7f5f1a", // 2009 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#b375ab", // 2010 kummuliert
+        type: "line",
+      },
+      {
+        color: "#b375ab", // 2010 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#8A8A8A", // 2011 kumuliert
+        type: "line",
+      },
+      {
+        color: "#8A8A8A", // 2011 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#008AC3", // 2012 kumuliert
+        type: "line",
+      },
+      {
+        color: "#008AC3", // 2012 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#DC4403", // 2013 kumuliert
+        type: "line",
+      },
+      {
+        color: "#DC4403", // 2013 wöchentlich
+        type: "column",
+      },
+      {
+        color: "#007a2f", // 2014 kumuliert
+        type: "line",
+      },
+      {
+        color: "#007a2f", // 2014 wöchentlich
+        type: "column",
+      },
       {
         color: "#FFBB58", // 2015 kummuliert
         type: "line",
