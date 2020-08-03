@@ -23,6 +23,8 @@
     layout: "horizontal",
     verticalAlign: "top",
     align: "left",
+    alignColumns: false,
+    itemDistance: 10
   },
   series: [
     {

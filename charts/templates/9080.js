@@ -11,13 +11,13 @@
     },
     "tooltip": {
       "shared": false,
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
     }, 
     "series": [
       { index: 2, 
-        "color": "#990300" },
+        "color": "#DC440E" },
       { index: 1,
-        "color": "#3C3C3C" },
+        "color": "#6F6F6F" },
       { index: 3,
         "color": "#FABD24" }
     ],
