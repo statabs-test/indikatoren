@@ -5,11 +5,11 @@
       "data": [
         [
           "1- und 2-Sterne",
-          709
+          708
         ],
         [
           "3-Sterne",
-          1678
+          1714
         ],
         [
           "4- und 5-Sterne",
@@ -28,19 +28,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          511
+          433
         ],
         [
           "3-Sterne",
-          945
+          1216
         ],
         [
           "4- und 5-Sterne",
-          1239
+          1588
         ],
         [
           "Nicht klassiert",
-          349
+          344
         ]
       ],
       "name": "Verfügbare Zimmer 2020",
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.6337413
+          0.700564972
         ],
         [
           "3-Sterne",
-          0.736373599
+          0.769929227
         ],
         [
           "4- und 5-Sterne",
-          0.811702926
+          0.795639535
         ],
         [
           "Nicht klassiert",
-          0.702422803
+          0.693137255
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2019",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.128124211
+          0.243341032
         ],
         [
           "3-Sterne",
-          0.237911488
+          0.260862418
         ],
         [
           "4- und 5-Sterne",
-          0.083932105
+          0.162641882
         ],
         [
           "Nicht klassiert",
-          0.105972491
+          0.191472868
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2020",
@@ -112,6 +112,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -121,12 +122,9 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -135,10 +133,14 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
       "load": function(){
             this.credits.element.onclick = function() {};
@@ -184,23 +186,22 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
+    "text": "Basel-Stadt, Juni",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt, Mai",
-    "align": "left"
+    }
   },
   "yAxis": [
     {
@@ -244,27 +245,6 @@
       }
     }
   ],
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-17"
-  },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -291,6 +271,27 @@
         "fontWeight": "normal"
       }
     }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-16"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

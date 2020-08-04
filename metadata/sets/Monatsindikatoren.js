@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-08T08:01:22.2222",
+		"aktualisierungsdatum": "2020-07-14T18:19:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -90,14 +90,14 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-02T08:32:08.088",
+		"aktualisierungsdatum": "2020-08-03T08:34:10.1010",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Seit November 2019 ist eine Angleichung der beiden Jahresteuerungsraten zu beobachten.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Juni 2020 und Juni 2019.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Juli 2020 und Juli 2019.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -130,7 +130,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-02T08:20:03.033",
+		"aktualisierungsdatum": "2020-08-03T08:05:16.1616",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -170,7 +170,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-23T06:55:53.5353",
+		"aktualisierungsdatum": "2020-07-23T08:21:28.2828",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -209,13 +209,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-17T08:44:13.1313",
+		"aktualisierungsdatum": "2020-07-16T08:34:22.2222",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mai 2020 wurden in den Basler Hotelbetrieben 16 363 Übernachtungen gebucht, 130 073 Übernachtungen bzw. 88,8% weniger als im Mai 2019. Die inländischen Gäste buchten 11 786 Logiernächte (-74,3%), die Gäste aus dem Ausland 4 577 Übernachtungen (-95,4%).",
+		"lesehilfe": "30 190 Übernachtungen wurden im Juni 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 78,2% bzw. 108 358 Logiernächte. Die inländischen Gäste buchten 18 860 Logiernächte (-50,7%), die Gäste aus dem Ausland 11 330 Übernachtungen (-88,7%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
+		"subtitle": "Basel-Stadt, Juni",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,13 +248,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-17T08:45:19.1919",
+		"aktualisierungsdatum": "2020-07-16T08:48:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 25% und gegenüber dem Vorjahresmonat um rund 60 Prozentpunkte tiefer.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 30% und gegenüber dem Vorjahresmonat um rund 55 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -277,7 +277,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai 2020",
+		"subtitle": "Basel-Stadt, Juni 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -288,13 +288,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-06-23T06:59:13.1313",
+		"aktualisierungsdatum": "2020-07-23T08:23:37.3737",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mai 2020 sank die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in Bettingen. In acht Wohnvierteln sowie in Riehen stieg sie.",
+		"lesehilfe": "Im Juni 2020 sank die Einwohnerzahl gegenüber dem Vormonat in dreizehn Wohnvierteln sowie in Bettingen. In sechs Wohnvierteln sowie in Riehen stieg sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",

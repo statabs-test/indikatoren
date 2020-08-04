@@ -122,7 +122,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht»",
+		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht», Basel-Stadt",
 		"kuerzel": "I.50.2.08243",
 		"kuerzelKunde": "1-08",
 		"description": "Finanzielle Lage",
@@ -132,7 +132,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T09:47:56.5656",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -163,7 +163,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht»",
+		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht», Basel-Stadt",
 		"kuerzel": "I.50.2.08244",
 		"kuerzelKunde": "1-09",
 		"description": "Finanzielle Lage",
@@ -173,7 +173,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T10:06:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -204,7 +204,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung",
-		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?»",
+		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?», Basel-Stadt",
 		"kuerzel": "I.50.2.08245",
 		"kuerzelKunde": "1-10",
 		"description": "Finanzielle Unterstützung",
@@ -214,7 +214,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T12:08:10.1010",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -245,7 +245,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» Stand: 2017",
+		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08246",
 		"kuerzelKunde": "1-11",
 		"description": "Finanzielle Lage",
@@ -255,7 +255,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T11:46:08.088",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -286,7 +286,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.» Stand: 2017",
+		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08247",
 		"kuerzelKunde": "1-12",
 		"description": "Finanzielle Lage",
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T12:02:48.4848",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -743,7 +743,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:20:50.5050",
+		"aktualisierungsdatum": "2020-07-21T17:08:46.4646",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -774,7 +774,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gesundheitliche Probleme",
-		"subtitle": "«Wie häufig gab es in Ihrer Familie in den vergangenen 12 Monaten gesundheitliche Probleme eines Erwachsenen?» Stand: 2017",
+		"subtitle": "«Wie häufig gab es in Ihrer Familie in den vergangenen 12 Monaten gesundheitliche Probleme eines Erwachsenen?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08261",
 		"kuerzelKunde": "1-30",
 		"description": "Gesundheitliche Probleme",
@@ -784,7 +784,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T12:03:31.3131",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -815,7 +815,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gesundheitliche Unterstützung",
-		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?» Stand: 2017",
+		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08262",
 		"kuerzelKunde": "1-31",
 		"description": "Gesundheitliche Unterstützung",
@@ -825,7 +825,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T09:54:40.4040",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -1020,7 +1020,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Umzugswunsch",
-		"subtitle": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung/Ihrem Haus auszuziehen?» Stand: 2017",
+		"subtitle": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung/Ihrem Haus auszuziehen?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08267",
 		"kuerzelKunde": "1-43",
 		"description": "Umzugswunsch",
@@ -1030,7 +1030,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-27T12:07:15.1515",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1061,7 +1061,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Umzugswunsch",
-		"subtitle": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?»",
+		"subtitle": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08268",
 		"kuerzelKunde": "1-44",
 		"description": "Umzugswunsch",
@@ -1071,7 +1071,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-27T10:04:06.066",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1102,7 +1102,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Mietzins",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-39",
 		"description": "Zufriedenheit mit Mietzins",
@@ -1112,14 +1112,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-22T08:04:14.1414",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "84% sind 2015 zufrieden mit dem Mietzins am aktuellen Wohnort, fast 50% sogar sehr zufrieden.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "82,3% der im Jahr 2019 Befragten sind zufrieden mit dem Mietzins am aktuellen Wohnort, 45,4% sogar sehr zufrieden.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1143,7 +1143,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Höhe Mietzins",
-		"subtitle": "«Wie hoch ist ihr aktueller Mietzins?» Stand: 2015",
+		"subtitle": "«Wie hoch ist ihr aktueller Mietzins?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-38",
 		"description": "Höhe Mietzins",
@@ -1153,14 +1153,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-22T08:04:15.1515",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "56,4% der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Mieter bewohnen, bezahlen 2015 pro Monat weniger als 1 500 Franken. Rund ein Drittel bezahlt mehr als 1 500 Franken pro Monat. Im Vergleich zu 2011 hat sich die Höhe des monatlichen Mietzinses kaum verändert.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Mieter.",
+		"lesehilfe": "Die Hälfte der Befragten, die ihre Wohnung als Genossenschafterin oder Genossenschafter bzw. Mieterin oder Mieter bewohnen, bezahlen 2019 pro Monat weniger als 1 500 Franken. Ein Drittel der Befragten bezahlt mehr als 1 500 Franken pro Monat.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Filterfrage: Nur Genossenschafterinnen/Genossenschafter oder Mieterinnen/Mieter.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1184,7 +1184,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit der aktuellen Wohnung",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Hindernisfreiheit/Barrierefreiheit im Wohngebäude?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Hindernisfreiheit/Barrierefreiheit im Wohngebäude?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-40",
 		"description": "Zufriedenheit mit der aktuellen Wohnung",
@@ -1194,14 +1194,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-22T08:04:17.1717",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "80% der im Jahr 2015 Befragten sind sehr oder eher zufrieden mit der Hindernisfreiheit im Wohngebäude.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Rund 80% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Hindernisfreiheit im Wohngebäude.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1225,7 +1225,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit der aktuellen Wohnung",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der altersangepassten Gestaltung des Wohngebäudes?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der altersangepassten Gestaltung des Wohngebäudes?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-41",
 		"description": "Zufriedenheit mit der aktuellen Wohnung",
@@ -1235,14 +1235,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-22T08:04:18.1818",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Sowohl 2019 als auch in den Jahren 2015 und 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1266,7 +1266,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit der aktuellen Wohnung",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung/des Hauses?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit der Ausstattung und dem Komfort der Wohnung/des Hauses?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-42",
 		"description": "Zufriedenheit mit der aktuellen Wohnung",
@@ -1276,14 +1276,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-22T08:04:19.1919",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mehr als 90% der im Jahr 2015 Befragten sind zufrieden mit der Ausstattung ihrer Wohnung bzw. ihres Hauses. Die Werte unterscheiden sich nach Staatsangehörigkeit: 15% der ausländischen Befragten sind nicht zufrieden mit dem Komfort der Wohnung, bei den Befragten mit Schweizer Pass liegt dieser Wert bei 4%.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "94% der im Jahr 2019 Befragten sind zufrieden mit der Ausstattung ihrer Wohnung bzw. ihres Hauses.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1317,7 +1317,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:23:57.5757",
+		"aktualisierungsdatum": "2020-07-21T17:12:10.1010",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1520,7 +1520,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:24:34.3434",
+		"aktualisierungsdatum": "2020-07-21T17:12:23.2323",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1794,7 +1794,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
-		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08286",
 		"kuerzelKunde": "2-10",
 		"description": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
@@ -1804,7 +1804,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-27T12:06:30.3030",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1917,7 +1917,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Distanz zum nächsten Spielplatz",
-		"subtitle": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?» Stand: 2017",
+		"subtitle": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08289",
 		"kuerzelKunde": "2-16",
 		"description": "Distanz zum nächsten Spielplatz",
@@ -1927,7 +1927,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-27T12:02:04.044",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1958,7 +1958,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Grünflächen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08290",
 		"kuerzelKunde": "2-18",
 		"description": "Zufriedenheit mit Grünflächen",
@@ -1968,7 +1968,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-27T10:08:28.2828",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1999,7 +1999,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Spielplätzen",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Kinderspielplätzen an Ihrem Wohnort?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Kinderspielplätzen an Ihrem Wohnort?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08291",
 		"kuerzelKunde": "2-17",
 		"description": "Zufriedenheit mit Spielplätzen",
@@ -2009,7 +2009,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-27T09:53:26.2626",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2040,7 +2040,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Verkehrssicherheit",
-		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssituation bezüglich der Sicherheit der Kinder?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssituation bezüglich der Sicherheit der Kinder?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08292",
 		"kuerzelKunde": "2-19",
 		"description": "Zufriedenheit mit Verkehrssicherheit",
@@ -2050,7 +2050,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-27T10:07:25.2525",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2081,7 +2081,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08293",
 		"kuerzelKunde": "2-15",
 		"description": "Zufriedenheit mit Wohnumfeld",
@@ -2091,7 +2091,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-27T12:05:48.4848",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2217,7 +2217,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:26:01.011",
+		"aktualisierungsdatum": "2020-07-21T17:13:56.5656",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",
@@ -2258,7 +2258,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:26:43.4343",
+		"aktualisierungsdatum": "2020-07-21T17:14:09.099",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",
@@ -2411,7 +2411,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nachbarschaftliches Verhältnis",
-		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.» Stand: 2017",
+		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08322",
 		"kuerzelKunde": "3-09",
 		"description": "Nachbarschaftliches Verhältnis",
@@ -2421,7 +2421,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-27T12:00:47.4747",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
@@ -2452,7 +2452,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit nachbarschaftlichem Austausch",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-10",
 		"description": "Zufriedenheit mit nachbarschaftlichem Austausch",
@@ -2462,14 +2462,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T14:08:39.3939",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "88% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit dem Austausch mit den Nachbarn. Im Vergleich zu 2011 liegt der Anteil sehr zufriedener Personen um 4 Prozentpunkte höher.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2493,7 +2493,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit den Sozialkontakten",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-11",
 		"description": "Zufriedenheit mit den Sozialkontakten",
@@ -2503,14 +2503,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-22T08:04:20.2020",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, der keine Antwort geben konnte oder wollte, von 2011 auf 2015 um fast 3 Prozentpunkte.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "2019 geben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2015 betrug die Zufriedenheit ebenfalls 80%, der Anteil sehr zufriedener Personen liegt im Vergleich zu 2015 um rund 4 Prozentpunkte höher.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2534,7 +2534,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-19",
 		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
@@ -2544,14 +2544,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T14:08:41.4141",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.4 Altersarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 60% der Befragten sind 2015 mit en Angeboten für ältere Menschen zufrieden, 2011 waren es mit 56% weniger.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "58% der Befragten sind 2019 mit den Angeboten und Einrichtungen für ältere Menschen sehr oder eher zufrieden, 2011 waren es mit 56% etwas weniger.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2575,7 +2575,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung von Freunden",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte finanziell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte finanziell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-12",
 		"description": "Finanzielle Unterstützung von Freunden",
@@ -2585,14 +2585,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-22T08:04:22.2222",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 unterstützen 21% der Befragten ihre Freunde und Bekannte, 2% regelmässig, 8% hin und wieder und 11% selten. Vier Jahre zuvor waren es weniger.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "2019 unterstützen 23% der Befragten ihre Freunde und Bekannte, 2% regelmässig, 7% hin und wieder und 13% selten. Vier Jahre zuvor waren es weniger.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2616,7 +2616,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung von Nachbarn",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn finanziell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn finanziell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-13",
 		"description": "Finanzielle Unterstützung von Nachbarn",
@@ -2626,14 +2626,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T13:59:58.5858",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nachbarn erhalten von 7% der Befragten finanzielle Unterstützung. Dieser Wert liegt um 2 Prozentpunkte höher als bei der letzten Befragung.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Nachbarn erhalten 2019 von gut 7% der Befragten finanzielle Unterstützung. Dieser Wert ist gleich hoch wie bei der letzten Befragung.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2657,7 +2657,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung von Arbeitskollegen",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen finanziell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen finanziell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-14",
 		"description": "Finanzielle Unterstützung von Arbeitskollegen",
@@ -2667,14 +2667,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T14:08:42.4242",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "3,5% der Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. 2011 lag dieser Anteil bei 2%.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Rund 4% der im Jahr 2019 Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. 2011 lag dieser Anteil bei 2%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2698,7 +2698,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Materielle Unterstützung von Freunden",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte materiell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Freunde/Bekannte materiell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-15",
 		"description": "Materielle Unterstützung von Freunden",
@@ -2708,14 +2708,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-22T08:04:23.2323",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "37,0% der Befragten unterstützen Freunde und Bekannte materiell. Diese Hilfe erfolgt in 3,4% der Fälle auf regelmässiger Basis. 16,9% unterstützen hin und wieder ihre Freunde oder Bekannte und 16,7% selten.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "40% der Befragten unterstützen Freunde und Bekannte materiell. Diese Hilfe erfolgt in 3% der Fälle auf regelmässiger Basis. 18% unterstützen hin und wieder ihre Freunde oder Bekannte und 19% selten.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2739,7 +2739,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Materielle Unterstützung von Nachbarn",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn materiell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn materiell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-16",
 		"description": "Materielle Unterstützung von Nachbarn",
@@ -2749,14 +2749,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-22T08:04:24.2424",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt 38% der Befragten unterstützen ihre Nachbarn: 4% bieten regelmässig, 18% hin und wieder und 17% selten ihren Nachbarn praktische Hilfeleistungen.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Insgesamt 38% der Befragten unterstützen ihre Nachbarn: 3% bieten regelmässig, 18% hin und wieder und 17% selten ihren Nachbarn praktische Hilfeleistungen.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2780,7 +2780,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Materielle Unterstützung von Arbeitskollegen",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen materiell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen materiell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-17",
 		"description": "Materielle Unterstützung von Arbeitskollegen",
@@ -2790,14 +2790,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-22T08:04:26.2626",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Arbeitskolleginnen und -kollegen spielen bei den praktischen Hilfeleistungen eine eher untergeordnete Rolle, 9% der Befragten unterstützen sie selten bis regelmässig.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Arbeitskolleginnen und -kollegen spielen bei den praktischen Hilfeleistungen eine eher untergeordnete Rolle, 10% der Befragten unterstützen sie selten bis regelmässig.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2862,7 +2862,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?»",
+		"subtitle": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?», Basel-Stadt",
 		"kuerzel": "I.50.2.08333",
 		"kuerzelKunde": "1-24",
 		"description": "Finanzielle Lage",
@@ -2872,14 +2872,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-07-27T11:59:37.3737",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das grösste Sparpotential sehen die Familien darin, auf Luxusartikel zu verzichten und insgesamt preisbewusst einzukaufen. Alte Sachen länger zu nutzen und Reparaturen selber zu erledigen, gehört bei über 50% der befragten Familien zur Praxis. Gaben 2009 57,4% an, bei den Ferien zu sparen, sind es 2017 noch 45,7%.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.<br>Es sind nur die zehn am häufigsten genannten Möglichkeiten dargestellt",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.<br>Es sind nur die zehn am häufigsten genannten Möglichkeiten dargestellt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3188,7 +3188,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.» Stand: 2017",
+		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08341",
 		"kuerzelKunde": "1-23",
 		"description": "Finanzielle Lage",
@@ -3198,7 +3198,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-07-27T10:11:17.1717",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
