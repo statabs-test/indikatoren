@@ -43,7 +43,9 @@
             text: null
         },
         labels: {
-        	format: "{value:,.3f}%",
+        	formatter: function(){
+            return Highcharts.numberFormat(this.value*100, 1) + "%";
+          },
             style: {
                 color: "#000000"
             }, 
@@ -94,8 +96,11 @@
       }, 
       legendIndex: 3,
       tooltip: {
-      	pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-    }
+        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+        pointFormatter: function(){ 
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+        }
+      }
     },
   ],  
   tooltip: {
