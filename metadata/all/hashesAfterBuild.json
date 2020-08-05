@@ -7517,6 +7517,20 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
+	"7574": {
+		"metadata": "65d764a8fad242c932d639f143f7c4b87eb2fd0b",
+		"chartConfig": "3eabb2960b8ba98265a9b46e95bf98590ac8e9c3",
+		"data": "3f9f5177e2c55b12a993cf3a62e59938eb2f861a",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
+	},
+	"7576": {
+		"metadata": "ebfc471d30806ec274163dd0c7a1a4afaf072738",
+		"chartConfig": "3c686378aee2ed238f58a7b47b8dde6e74af45d8",
+		"data": "fb963c9d042fdb3250e5327041946d265af260a9",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
+	},
 	"7578": {
 		"metadata": "9c9f996aa98336fb506fd6ad5ed9c474a4ee8f9e",
 		"chartConfig": "a9182985dbf6cdb3934dab464b1422db6faf216f",

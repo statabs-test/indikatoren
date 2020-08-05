@@ -25723,6 +25723,92 @@
 		"id": 7573
 	},
 	{
+		"title": "Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt und Basel-Landschaft",
+		"kuerzel": "I.09.2.07574",
+		"kuerzelKunde": "LEB-2-2",
+		"description": "Leerwohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Stadtkanton sind knapp zwei Drittel der Leerwohnungen Zwei- und Dreizimmerwohnungen. Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"9067"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7574,
+		"chart-id": 7574,
+		"filter": "",
+		"id": 7574
+	},
+	{
+		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2019",
+		"kuerzel": "I.09.2.07576",
+		"kuerzelKunde": "LEB-2-4",
+		"description": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Bezirk",
+			"Gemeinde",
+			"Wahlkreis"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit 1,0% und 1,1% liegen die Leerwohnungsquoten des Stadt- und Landkantons nahe beieinander. Auch innerhalb der Kantone sind die Unterschiede relativ gering. Einzig im Bezirk Sissach liegt die Leerwohnungsquote deutlich unter dem gesamtkantonalen Wert.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"9069"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7576,
+		"chart-id": 7576,
+		"filter": "",
+		"id": 7576
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.07578",
