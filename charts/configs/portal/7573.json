@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#6F6F6F",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
@@ -102,7 +102,7 @@
     },
     {
       "yAxis": 1,
-      "color": "#ffbb58",
+      "color": "#FABD24",
       "index": 1,
       "type": "line",
       "marker": {
@@ -275,7 +275,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.3f}",
+        "format": "{value:,.3f}%",
         "style": {
           "color": "#000000"
         }
@@ -293,7 +293,8 @@
     "align": "left",
     "itemMarginBottom": 5,
     "itemDistance": 2,
-    "padding": 1
+    "padding": 1,
+    "alignColumns": false
   },
   "navigation": {
     "menuItemStyle": {
