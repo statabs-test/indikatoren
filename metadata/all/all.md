@@ -1159,6 +1159,7 @@ id | visible | visibleInPortal | indikatorenset
 7523 | true | true | Tourismus
 7551 | true | true | 
 7563 | true | false | 
+7573 | true | true | Leerstand
 7578 | true | true | Leerstand
 7582 | true | true | Leerstand
 7587 | true | true | Leerstand
