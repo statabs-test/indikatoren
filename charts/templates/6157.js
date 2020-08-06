@@ -22,7 +22,7 @@
         "marker": {
           "enabled": false
         },
-        legendIndex: 2
+        legendIndex: 3
       }, /* duneklblau */
       {
         "color": "#68AB2B",
@@ -31,7 +31,7 @@
           "enabled": false
         },
         dashStyle: 'ShortDash',
-        legendIndex: 3
+        legendIndex: 2
       }, /* dunkelgrün */
       {
         "color": "#008AC3",
@@ -49,6 +49,25 @@
         },
         legendIndex: 1
       }, /* dunkelgrün */
+
+
+      {
+        "color": "#FF8028",
+        type: "scatter",
+        "marker": {
+          "enabled": true
+        },
+        legendIndex: 5
+      }, /* orange */
+      {
+        "color": "#FFBB58",
+        visible: true,
+        "marker": {
+          "enabled": false
+        },
+        dashStyle: 'ShortDash',
+        legendIndex: 6
+      }, /* orange */
     ],
     "legend": {
       useHTML: true,
