@@ -1,4 +1,140 @@
 {
+  "series": [
+    {
+      "colorByPoint": true,
+      "colors": [
+        "#6F6F6F",
+        "#6F6F6F",
+        "#6F6F6F",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E"
+      ],
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          "Grossbasel",
+          599
+        ],
+        [
+          "Kleinbasel",
+          415
+        ],
+        [
+          "Riehen\u002FBettingen",
+          110
+        ],
+        [
+          "Arlesheim",
+          839
+        ],
+        [
+          "Laufen",
+          114
+        ],
+        [
+          "Liestal",
+          327
+        ],
+        [
+          "Sissach",
+          138
+        ],
+        [
+          "Waldenburg",
+          74
+        ]
+      ],
+      "name": "Anzal Leerwohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "yAxis": 1,
+      "colorByPoint": true,
+      "colors": [
+        "#6F6F6F",
+        "#6F6F6F",
+        "#6F6F6F",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E"
+      ],
+      "index": 1,
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "triangle"
+      },
+      "legendIndex": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function(){ 
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+        }
+      },
+      "data": [
+        [
+          "Grossbasel",
+          0.01
+        ],
+        [
+          "Kleinbasel",
+          0.01
+        ],
+        [
+          "Riehen\u002FBettingen",
+          0.01
+        ],
+        [
+          "Arlesheim",
+          0.011
+        ],
+        [
+          "Laufen",
+          0.012
+        ],
+        [
+          "Liestal",
+          0.011
+        ],
+        [
+          "Sissach",
+          0.008
+        ],
+        [
+          "Waldenburg",
+          0.01
+        ]
+      ],
+      "name": "Leerstandsquote (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "width": 485,
     "height": 415,
@@ -65,25 +201,9 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": [
     {
+      "max": 1000,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -104,7 +224,7 @@
     {
       "opposite": true,
       "min": 0,
-      "max": 0.012,
+      "max": 0.015,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -116,7 +236,9 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.3f}%",
+        "formatter": function(){
+            return Highcharts.numberFormat(this.value*100, 1) + "%";
+          },
         "style": {
           "color": "#000000"
         }
@@ -127,6 +249,9 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemHiddenStyle": {
+      "color": "#6F6F6F"
     },
     "enabled": true,
     "layout": "horizontal",
@@ -158,28 +283,6 @@
     },
     "text": "Quelle: Leerstandserhebung."
   },
-  "series": [
-    {
-      "color": "#6F6F6F",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 0
-    },
-    {
-      "yAxis": 1,
-      "color": "#FABD24",
-      "index": 1,
-      "type": "symbol",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
-    }
-  ],
   "tooltip": {
     "shared": true
   },

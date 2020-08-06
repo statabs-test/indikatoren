@@ -1,0 +1,217 @@
+{
+  "series": [
+    {
+      "showInLegend": false,
+      "type": "pie",
+      "innerSize": "100%",
+      "borderWidth": 2,
+      "colors": [
+        "#FFDA80",
+        "#FFBB58",
+        "#FF8028",
+        "#DC440E",
+        "#B00000",
+        "#661200"
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.name}",
+        "distance": 15,
+        "connectorWidth": 0,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "data": [
+        [
+          "1 Zimmer",
+          186
+        ],
+        [
+          "2 Zimmer",
+          327
+        ],
+        [
+          "3 Zimmer",
+          403
+        ],
+        [
+          "4 Zimmer",
+          155
+        ],
+        [
+          "5 Zimmer",
+          41
+        ],
+        [
+          "6 Zimmer",
+          12
+        ]
+      ],
+      "name": "Leerwohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "showInLegend": false,
+      "type": "pie",
+      "innerSize": "40%",
+      "borderWidth": 2,
+      "colors": [
+        "#FFDA80",
+        "#FFBB58",
+        "#FF8028",
+        "#DC440E",
+        "#B00000",
+        "#661200"
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.0f}%",
+        "distance": -35,
+        "style": {
+          "color": "contrast",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "data": [
+        [
+          "BS",
+          0.165
+        ],
+        [
+          "BS",
+          0.291
+        ],
+        [
+          "BS",
+          0.359
+        ],
+        [
+          "BS",
+          0.138
+        ],
+        [
+          "BS",
+          0.036
+        ],
+        [
+          "BS",
+          0.011
+        ]
+      ],
+      "name": "Anteil_Leerwohnungen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-7577"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": false
+      }
+    },
+    "series": {
+      "allowPointSelect": false,
+      "point": {
+        "events": {
+          "legendItemClick": function (event) {
+                      event.preventDefault();
+
+                  }
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Leerwohnungen nach Zimmerzahl"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, 2019",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Leerstandserhebung."
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "itemDistance": 2,
+    "style": {
+      "fontSize": "12px"
+    }
+  },
+  "exporting": {
+    "filename": 7577
+  }
+}

@@ -25809,6 +25809,48 @@
 		"id": 7576
 	},
 	{
+		"title": "Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt, 2019",
+		"kuerzel": "I.09.2.07577",
+		"kuerzelKunde": "LEB-3-1",
+		"description": "Leerwohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der kantonalen Leerstandsquote von 1,0% entsprechen die Dreizimmerwohnungen, die ein Drittel des Leerstands ausmachen.",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_001",
+		"parentId": null,
+		"children": [
+			"9070"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7577,
+		"chart-id": 7577,
+		"filter": "",
+		"id": 7577
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.07578",
