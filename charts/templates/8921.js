@@ -17,24 +17,55 @@
     "series": [
       {
         "color": "#2B0099",
-        legendIndex: 2
+        "marker": {
+          "enabled": false
+        },
+        legendIndex: 3
       }, /* duneklblau */
       {
         "color": "#68AB2B",
         visible: true,
+        "marker": {
+          "enabled": false
+        },
         dashStyle: 'ShortDash',
-        legendIndex: 3
+        legendIndex: 2
       }, /* dunkelgrün */
       {
         "color": "#008AC3",
+        "marker": {
+          "enabled": false
+        },
         dashStyle: 'ShortDash',
         legendIndex: 4
       }, /* duneklblau */
       {
         "color": "#007A2F",
         visible: true,
+        "marker": {
+          "enabled": false
+        },
         legendIndex: 1
       }, /* dunkelgrün */
+
+
+      {
+        "color": "#FF8028",
+        "marker": {
+          "enabled": true,
+          symbol: "circle"
+        },
+        legendIndex: 5
+      }, /* orange */
+      {
+        "color": "#FFBB58",
+        visible: true,
+        "marker": {
+          "enabled": false
+        },
+        dashStyle: 'ShortDash',
+        legendIndex: 6
+      }, /* orange */
     ],
     "legend": {
       useHTML: true,
@@ -43,7 +74,7 @@
       "verticalAlign": "top",
       "align": "left",
       "itemMarginBottom": 5,
-      itemWidth: 135,
+      itemWidth: 130,
       itemStyle: {
 				textOverflow: undefined,
 				whiteSpace: 'nowrap',

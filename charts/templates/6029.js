@@ -52,8 +52,7 @@
 
 
       {
-        "color": "FF8028",
-        type: "scatter",
+        "color": "#FF8028",
         "marker": {
           "enabled": true
         },
