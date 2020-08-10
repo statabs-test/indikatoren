@@ -23,7 +23,7 @@
     seriesMapping: 
     [
       {
-        x: 2, y: 3
+        x: 6, y: 3
       },
       {
         //2nd series: use y values from column 3
@@ -52,12 +52,17 @@
       borderWidth: 0,
       colors: 
       [
-        '#FFDA80',
-        '#FFBB58',
-        '#FF8028',
-        '#DC440E',
+        '#661200',
         '#B00000',
-        '#661200'
+        '#DC440E',
+        '#A8C3CA',
+        '#689199',
+        '#246370',
+
+
+        '#FF8028',
+        '#FFBB58',
+        '#FFDA80'
       ],
       dataLabels: {
         enabled: true,
@@ -78,17 +83,22 @@
       innerSize: '40%',
       borderWidth: 0,
       colors: [
-        '#FFDA80',
-        '#FFBB58',
-        '#FF8028',
-        '#DC440E',
+        '#661200',
         '#B00000',
-        '#661200'
+        '#DC440E',
+        '#A8C3CA',
+        '#689199',
+        '#246370',
+
+
+        '#FF8028',
+        '#FFBB58',
+        '#FFDA80'
       ],
       dataLabels: {
         enabled: true,
         format: '{point.percentage:.0f}%',
-        distance: -35,
+        distance: -15,
         style: {
           color: 'contrast',
           textOutline: "0px black", 
