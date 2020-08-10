@@ -51,6 +51,7 @@
 
       {
         "color": "#FF8028",
+        type: "scatter",
         "marker": {
           "enabled": true,
           symbol: "circle"
