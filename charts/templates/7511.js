@@ -21,6 +21,14 @@
           reversedStacks: false, 
           //tickAmount: 9,
           //tickInterval:200,
+          "labels": {
+            "formatter": function () {
+              return Highcharts.numberFormat((this.value), 0);
+            },
+            "style": {
+              "color": "#000000"
+            }
+          }
       },
       "series": [
         {
