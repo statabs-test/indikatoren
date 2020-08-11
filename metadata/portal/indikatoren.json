@@ -25893,6 +25893,48 @@
 		"id": 7578
 	},
 	{
+		"title": "Nettoproduktion an Wohnungen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.07579",
+		"kuerzelKunde": "LEB-3-3",
+		"description": "Nettoproduktion an Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Bauvollendung grösserer Projekte folgend resultiert derzeit eine jährliche Nettoproduktion von gegen 500 Wohnungen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"9072"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7579,
+		"chart-id": 7579,
+		"filter": "",
+		"id": 7579
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Landschaft, 2019",
 		"kuerzel": "I.09.2.07582",
@@ -38330,11 +38372,11 @@
 		"id": 9064
 	},
 	{
-		"title": "Kopie von Leerwohnungen nach Zimmerzahl",
+		"title": "Leerwohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Landschaft",
 		"kuerzel": "I.09.2.09137",
 		"kuerzelKunde": "LEB-2-2b",
-		"description": "Kopie von Leerwohnungen nach Zimmerzahl",
+		"description": "Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Leerstand",
@@ -38347,7 +38389,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
+		"lesehilfe": "Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
