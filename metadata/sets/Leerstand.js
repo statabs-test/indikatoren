@@ -248,6 +248,47 @@ var indikatorensetData = [
 		"id": 7579
 	},
 	{
+		"title": "Wohnungen und Wohnbevölkerung",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.07580",
+		"kuerzelKunde": "LEB-3-4",
+		"description": "Wohnungen und Wohnbevölkerung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Leerwohnungsquoten von mehr als 1% ergaben sich mit rückläufiger Bevölkerungszahl Mitte der 1970er- und 1980er-Jahre (1,1% bis 1,3%) sowie von 1997 bis 2008 (1,2% bis 1,5%).",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_00_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"9073"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7580,
+		"chart-id": 7580,
+		"filter": "",
+		"id": 7580
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Landschaft, 2019",
 		"kuerzel": "I.09.2.07582",
