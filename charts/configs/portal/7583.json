@@ -1,0 +1,369 @@
+{
+  "series": [
+    {
+      "color": "#7F5F1A",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "10",
+      "legendIndex": 0,
+      "data": [
+        [
+          "2010",
+          1142
+        ],
+        [
+          "2011",
+          1499
+        ],
+        [
+          "2012",
+          897
+        ],
+        [
+          "2013",
+          1072
+        ],
+        [
+          "2014",
+          1237
+        ],
+        [
+          "2015",
+          1686
+        ],
+        [
+          "2016",
+          1512
+        ],
+        [
+          "2017",
+          1483
+        ],
+        [
+          "2018",
+          1342
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
+        ]
+      ],
+      "name": "Neubau",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 1,
+      "type": "column",
+      "pointWidth": "10",
+      "legendIndex": 1,
+      "data": [
+        [
+          "2010",
+          6
+        ],
+        [
+          "2011",
+          124
+        ],
+        [
+          "2012",
+          86
+        ],
+        [
+          "2013",
+          224
+        ],
+        [
+          "2014",
+          125
+        ],
+        [
+          "2015",
+          181
+        ],
+        [
+          "2016",
+          132
+        ],
+        [
+          "2017",
+          104
+        ],
+        [
+          "2018",
+          97
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
+        ]
+      ],
+      "name": "Umbausaldo",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#990300",
+      "index": 2,
+      "type": "column",
+      "pointWidth": "10",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2010",
+          -130
+        ],
+        [
+          "2011",
+          -114
+        ],
+        [
+          "2012",
+          -156
+        ],
+        [
+          "2013",
+          -164
+        ],
+        [
+          "2014",
+          -115
+        ],
+        [
+          "2015",
+          -288
+        ],
+        [
+          "2016",
+          -96
+        ],
+        [
+          "2017",
+          -190
+        ],
+        [
+          "2018",
+          -293
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
+        ]
+      ],
+      "name": "Abbruch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 3,
+      "data": [
+        [
+          "2010",
+          1018
+        ],
+        [
+          "2011",
+          1509
+        ],
+        [
+          "2012",
+          827
+        ],
+        [
+          "2013",
+          1132
+        ],
+        [
+          "2014",
+          1247
+        ],
+        [
+          "2015",
+          1579
+        ],
+        [
+          "2016",
+          1548
+        ],
+        [
+          "2017",
+          1397
+        ],
+        [
+          "2018",
+          1146
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
+        ]
+      ],
+      "name": "Nettoproduktion",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 415,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-7583",
+    "spacingBottom": 30
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Nettoproduktion an Wohnungen"
+  },
+  "subtitle": {
+    "text": "Basel-Landschaft",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Leerstandserhebung."
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 7583
+  }
+}

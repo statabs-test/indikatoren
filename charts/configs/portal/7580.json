@@ -1,9 +1,13 @@
 {
   "series": [
     {
-      "color": "#7F5F1A",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#923F8D",
+      "index": 1,
+      "legendIndex": 2,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           1960,
@@ -251,9 +255,11 @@
     {
       "color": "#CD9C00",
       "index": 2,
-      "type": "line",
-      "pointWidth": "10",
       "legendIndex": 2,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           1960,
@@ -496,12 +502,13 @@
           200192
         ]
       ],
-      "name": "Wohnbevölkerung (rechte Skala)"
+      "name": "Wohnbevölkerung"
     },
     {
-      "color": "#990300",
-      "index": 1,
-      "legendIndex": 1,
+      "yAxis": 1,
+      "color": "#E7CEE2",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
           1960,
@@ -744,7 +751,7 @@
           1124
         ]
       ],
-      "name": "Leerstehende Wohnungen"
+      "name": "Leerstehende Wohnungen (rechte Skala)"
     }
   ],
   "chart": {
@@ -780,7 +787,7 @@
                     }
                 }
     },
-    "type": "area",
+    "type": "column",
     "renderTo": "container-7580",
     "spacingBottom": 30
   },
@@ -792,10 +799,6 @@
           "fontSize": "10px"
         }
       }
-    },
-    "area": {
-      "stacking": "normal",
-      "lineWidth": 0
     }
   },
   "title": {
@@ -834,24 +837,43 @@
     "type": "linear",
     "tickInterval": 1
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "max": 240000,
+      "labels": {
+        "format": "{value:,.0f}"
       },
-      "text": null
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      }
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
+    {
+      "opposite": true,
+      "min": 0,
+      "max": 2400,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "format": "{value:,.0f}"
+      "labels": {
+        "formatter": function(){
+          return Highcharts.numberFormat(this.value, 0);
+        },
+        "style": {
+          "color": "#000000"
+        }
+      }
     }
-  },
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -884,7 +906,9 @@
     },
     "text": "Quelle: Leerstandserhebung."
   },
-  "tooltip": {},
+  "tooltip": {
+    "shared": true
+  },
   "exporting": {
     "filename": 7580
   }

@@ -61,7 +61,10 @@
       ],
       dataLabels: {
         enabled: true,
-        format: '{point.name}',
+        formatter: function(){
+          return this.point.name.replace(".", ",");
+  
+        },
         distance: 15,
         connectorWidth: 2,
         style: {

@@ -43994,6 +43994,48 @@ var indikatoren = [
 		"id": 7580
 	},
 	{
+		"title": "Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Landschaft, 2020",
+		"kuerzel": "I.09.2.07581",
+		"kuerzelKunde": "LEB-4-1",
+		"description": "Leerwohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Drei- und Vierzimmerwohnungen weisen mit Quoten von 1,6% bzw. 1,2% den höchsten Leerstand auf",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_001",
+		"parentId": null,
+		"children": [
+			"9074"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7581,
+		"chart-id": 7581,
+		"filter": "",
+		"id": 7581
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Landschaft, 2019",
 		"kuerzel": "I.09.2.07582",
@@ -44034,6 +44076,90 @@ var indikatoren = [
 		"chart-id": 7582,
 		"filter": "",
 		"id": 7582
+	},
+	{
+		"title": "Nettoproduktion an Wohnungen",
+		"subtitle": "Basel-Landschaft",
+		"kuerzel": "I.09.2.07583",
+		"kuerzelKunde": "LEB-4-3",
+		"description": "Nettoproduktion an Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Neubau- und damit die Nettoproduktion von Wohnungen bleibt nach dem markanten Rückgang 2012 und anschliessendem Anstieg seit 2015 auf hohem Niveau stabil und vermag den etwas geringeren Zuwachs der Wohnbevölkerung gut aufzufangen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"9076"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7583,
+		"chart-id": 7583,
+		"filter": "",
+		"id": 7583
+	},
+	{
+		"title": "Wohnungen und Wohnbevölkerung",
+		"subtitle": "Basel-Landschaft",
+		"kuerzel": "I.09.2.07584",
+		"kuerzelKunde": "LEB-4-4",
+		"description": "Wohnungen und Wohnbevölkerung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zum ersten Mal im neuen Jahrtausend kletterte die Leerwohnungsquote über die Marke von 1%. Letztmals resultierten solche Werte Mitte der 1970er-Jahre, als bei weiterhin hoher Wohnungsproduktion das Bevölkerungswachstum etwas nachliess.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"9077"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7584,
+		"chart-id": 7584,
+		"filter": "",
+		"id": 7584
 	},
 	{
 		"title": "Geschäftsleerstandsfläche",
