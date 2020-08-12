@@ -1,25 +1,11 @@
 (function(){
     return {
    "chart": {
-    "type": "area",
+    "type": "column",
    },
-  plotOptions: {
-        /*series: {
-        	"stacking": "normal",
-			pointPadding: 0,
-            borderWidth: 0,
-            pointWidth: 10, 
-
-        }*/
-         area: {
-            stacking: 'normal',
-            //lineColor: '#666666',
-            lineWidth: 0,
-
-        }
-  },
   "yAxis": [
     {
+      max: 240000,
     "labels": {
       "format": "{value:,.0f}",
       },
@@ -34,7 +20,7 @@
     {
       opposite: true,
       min: 0,
-      max: 240000,
+      max: 2400,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       //lineColor: '#B9CFD7', 
@@ -72,23 +58,28 @@
   },
   "series": [
     {
-      color: '#E7CEE2',
+      color: '#923F8D',
       index: 1,
-      legendIndex: 1
-    },
-    {
-      yAxis: 1,
-      color: '#CD9C00',
-      index: 2,
+      legendIndex: 1,
       type: "line",
-      pointWidth: "10",
       legendIndex: 2,
       marker: {
         enabled: false
       },
     },
     {
-      color: '#923F8D',
+      color: '#CD9C00',
+      index: 2,
+      legendIndex: 2,
+      type: "line",
+      legendIndex: 2,
+      marker: {
+        enabled: false
+      },
+    },
+    {
+      yAxis: 1,
+      color: '#E7CEE2',
       index: 0,
       legendIndex: 0
     }
