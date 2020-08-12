@@ -1,0 +1,743 @@
+{
+  "series": [
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "CH",
+          1.298713236
+        ],
+        [
+          undefined,
+          undefined
+        ],
+        [
+          "BS",
+          0.418572778
+        ],
+        [
+          "BL",
+          0.472126252
+        ],
+        [
+          "ZH",
+          0.852139986
+        ],
+        [
+          "BE",
+          1.688756499
+        ],
+        [
+          "LU",
+          1.049828712
+        ],
+        [
+          "UR",
+          1.393213362
+        ],
+        [
+          "SZ",
+          0.928780229
+        ],
+        [
+          "OW",
+          0.614675375
+        ],
+        [
+          "NW",
+          1.39399077
+        ],
+        [
+          "GL",
+          1.691831908
+        ],
+        [
+          "ZG",
+          0.344609326
+        ],
+        [
+          "FR",
+          1.235753438
+        ],
+        [
+          "SO",
+          2.624192672
+        ],
+        [
+          "SH",
+          1.681084128
+        ],
+        [
+          "AR",
+          1.9904374
+        ],
+        [
+          "AI",
+          3.629810787
+        ],
+        [
+          "SG",
+          1.772927098
+        ],
+        [
+          "GR",
+          1.53163205
+        ],
+        [
+          "AG",
+          2.180256727
+        ],
+        [
+          "TG",
+          1.796768954
+        ],
+        [
+          "TI",
+          1.207087917
+        ],
+        [
+          "VD",
+          0.808697243
+        ],
+        [
+          "VS",
+          1.811539358
+        ],
+        [
+          "NE",
+          1.15197212
+        ],
+        [
+          "GE",
+          0.454987481
+        ],
+        [
+          "JU",
+          2.092916902
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "CH",
+          1.45
+        ],
+        [
+          undefined,
+          undefined
+        ],
+        [
+          "BS",
+          0.5
+        ],
+        [
+          "BL",
+          0.58
+        ],
+        [
+          "ZH",
+          0.9
+        ],
+        [
+          "BE",
+          1.84
+        ],
+        [
+          "LU",
+          1.13
+        ],
+        [
+          "UR",
+          1.92
+        ],
+        [
+          "SZ",
+          1.45
+        ],
+        [
+          "OW",
+          0.61
+        ],
+        [
+          "NW",
+          1.55
+        ],
+        [
+          "GL",
+          1.68
+        ],
+        [
+          "ZG",
+          0.43
+        ],
+        [
+          "FR",
+          1.34
+        ],
+        [
+          "SO",
+          2.79
+        ],
+        [
+          "SH",
+          2.04
+        ],
+        [
+          "AR",
+          2.02
+        ],
+        [
+          "AI",
+          2.36
+        ],
+        [
+          "SG",
+          1.84
+        ],
+        [
+          "GR",
+          1.71
+        ],
+        [
+          "AG",
+          2.34
+        ],
+        [
+          "TG",
+          2
+        ],
+        [
+          "TI",
+          1.59
+        ],
+        [
+          "VD",
+          0.91
+        ],
+        [
+          "VS",
+          2.25
+        ],
+        [
+          "NE",
+          1.53
+        ],
+        [
+          "GE",
+          0.51
+        ],
+        [
+          "JU",
+          2.28
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "CH",
+          1.62
+        ],
+        [
+          undefined,
+          undefined
+        ],
+        [
+          "BS",
+          0.71
+        ],
+        [
+          "BL",
+          0.76
+        ],
+        [
+          "ZH",
+          0.99
+        ],
+        [
+          "BE",
+          1.83
+        ],
+        [
+          "LU",
+          1.44
+        ],
+        [
+          "UR",
+          1.41
+        ],
+        [
+          "SZ",
+          1.44
+        ],
+        [
+          "OW",
+          0.7
+        ],
+        [
+          "NW",
+          1.9
+        ],
+        [
+          "GL",
+          1.6
+        ],
+        [
+          "ZG",
+          0.44
+        ],
+        [
+          "FR",
+          1.51
+        ],
+        [
+          "SO",
+          2.98
+        ],
+        [
+          "SH",
+          2.47
+        ],
+        [
+          "AR",
+          2.18
+        ],
+        [
+          "AI",
+          1.89
+        ],
+        [
+          "SG",
+          2.2
+        ],
+        [
+          "GR",
+          1.59
+        ],
+        [
+          "AG",
+          2.65
+        ],
+        [
+          "TG",
+          2.42
+        ],
+        [
+          "TI",
+          2.02
+        ],
+        [
+          "VD",
+          1.08
+        ],
+        [
+          "VS",
+          2.37
+        ],
+        [
+          "NE",
+          2.04
+        ],
+        [
+          "GE",
+          0.53
+        ],
+        [
+          "JU",
+          2.56
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "CH",
+          1.66
+        ],
+        [
+          undefined,
+          undefined
+        ],
+        [
+          "BS",
+          1.02
+        ],
+        [
+          "BL",
+          1.06
+        ],
+        [
+          "ZH",
+          0.89
+        ],
+        [
+          "BE",
+          1.87
+        ],
+        [
+          "LU",
+          1.51
+        ],
+        [
+          "UR",
+          1.88
+        ],
+        [
+          "SZ",
+          1.44
+        ],
+        [
+          "OW",
+          0.87
+        ],
+        [
+          "NW",
+          1.5
+        ],
+        [
+          "GL",
+          1.71
+        ],
+        [
+          "ZG",
+          0.42
+        ],
+        [
+          "FR",
+          1.83
+        ],
+        [
+          "SO",
+          3.4
+        ],
+        [
+          "SH",
+          2.56
+        ],
+        [
+          "AR",
+          2.3
+        ],
+        [
+          "AI",
+          2.02
+        ],
+        [
+          "SG",
+          2.18
+        ],
+        [
+          "GR",
+          1.68
+        ],
+        [
+          "AG",
+          2.59
+        ],
+        [
+          "TG",
+          2.65
+        ],
+        [
+          "TI",
+          2.29
+        ],
+        [
+          "VD",
+          1.1
+        ],
+        [
+          "VS",
+          2.09
+        ],
+        [
+          "NE",
+          2.39
+        ],
+        [
+          "GE",
+          0.54
+        ],
+        [
+          "JU",
+          2.59
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "CH",
+          "."
+        ],
+        [
+          undefined,
+          undefined
+        ],
+        [
+          "BS",
+          "."
+        ],
+        [
+          "BL",
+          "."
+        ],
+        [
+          "ZH",
+          "."
+        ],
+        [
+          "BE",
+          "."
+        ],
+        [
+          "LU",
+          "."
+        ],
+        [
+          "UR",
+          "."
+        ],
+        [
+          "SZ",
+          "."
+        ],
+        [
+          "OW",
+          "."
+        ],
+        [
+          "NW",
+          "."
+        ],
+        [
+          "GL",
+          "."
+        ],
+        [
+          "ZG",
+          "."
+        ],
+        [
+          "FR",
+          "."
+        ],
+        [
+          "SO",
+          "."
+        ],
+        [
+          "SH",
+          "."
+        ],
+        [
+          "AR",
+          "."
+        ],
+        [
+          "AI",
+          "."
+        ],
+        [
+          "SG",
+          "."
+        ],
+        [
+          "GR",
+          "."
+        ],
+        [
+          "AG",
+          "."
+        ],
+        [
+          "TG",
+          "."
+        ],
+        [
+          "TI",
+          "."
+        ],
+        [
+          "VD",
+          "."
+        ],
+        [
+          "VS",
+          "."
+        ],
+        [
+          "NE",
+          "."
+        ],
+        [
+          "GE",
+          "."
+        ],
+        [
+          "JU",
+          "."
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 415,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function (event) {
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+          justifyColumns(event.target);
+        },
+      "redraw": function (event) {
+          justifyColumns(event.target);
+        }
+    },
+    "type": "column",
+    "animation": false,
+    "inverted": false,
+    "renderTo": "container-7585",
+    "spacingBottom": 30
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "pointWidth": 14
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Leerstandsquote nach Kanton"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickAmount": 5
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 300
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Leerstandserhebung."
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 7585
+  }
+}

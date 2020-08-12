@@ -512,23 +512,23 @@
       "data": [
         [
           1960,
-          "."
+          null
         ],
         [
           1961,
-          "."
+          null
         ],
         [
           1962,
-          "."
+          null
         ],
         [
           1963,
-          "."
+          null
         ],
         [
           1964,
-          "."
+          null
         ],
         [
           1965,
@@ -604,7 +604,7 @@
         ],
         [
           1983,
-          "."
+          null
         ],
         [
           1984,
@@ -854,7 +854,7 @@
     {
       "opposite": true,
       "min": 0,
-      "max": 3000,
+      "max": 2000,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "title": {

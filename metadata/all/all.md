@@ -1170,6 +1170,7 @@ id | visible | visibleInPortal | indikatorenset
 7582 | true | true | Leerstand
 7583 | true | true | Leerstand
 7584 | true | true | Leerstand
+7585 | true | true | Leerstand
 7587 | true | true | Leerstand
 7588 | true | true | Leerstand
 7589 | true | true | Leerstand

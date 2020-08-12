@@ -44162,6 +44162,48 @@
 		"id": 7584
 	},
 	{
+		"title": "Leerstandsquote nach Kanton",
+		"subtitle": "",
+		"kuerzel": "I.09.2.07585",
+		"kuerzelKunde": "LEB-5-1",
+		"description": "Leerstandsquote nach Kanton",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im nationalen Kontext",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die derzeit verfügbaren Kantonswerte deuten insgesamt auf einen weiteren Anstieg des Leerwohnungsbestandes hin.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_001",
+		"parentId": null,
+		"children": [
+			"9078"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7585,
+		"chart-id": 7585,
+		"filter": "",
+		"id": 7585
+	},
+	{
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
 		"kuerzel": "I.09.2.07587",
