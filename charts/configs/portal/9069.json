@@ -1,365 +1,142 @@
 {
   "series": [
     {
-      "color": "#7F5F1A",
+      "colorByPoint": true,
+      "colors": [
+        "#6F6F6F",
+        "#6F6F6F",
+        "#6F6F6F",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E"
+      ],
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 7,
+      "legendIndex": 0,
       "data": [
         [
-          2011,
-          14
+          "Grossbasel",
+          592
         ],
         [
-          2012,
-          11
+          "Kleinbasel",
+          333
         ],
         [
-          2013,
-          7
+          "Riehen\u002FBettingen",
+          108
         ],
         [
-          2014,
-          10
+          "Arlesheim",
+          916
         ],
         [
-          2015,
-          20
+          "Laufen",
+          135
         ],
         [
-          2016,
-          14
+          "Liestal",
+          385
         ],
         [
-          2017,
-          12
+          "Sissach",
+          120
         ],
         [
-          2018,
-          22
-        ],
-        [
-          2019,
-          12
-        ],
-        [
-          2020,
-          23
-        ]
-      ],
-      "name": "6 u.m. Zi"
-    },
-    {
-      "color": "#CD9C00",
-      "index": 1,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 6,
-      "data": [
-        [
-          2011,
-          36
-        ],
-        [
-          2012,
-          23
-        ],
-        [
-          2013,
-          14
-        ],
-        [
-          2014,
-          18
-        ],
-        [
-          2015,
-          19
-        ],
-        [
-          2016,
-          30
-        ],
-        [
-          2017,
-          16
-        ],
-        [
-          2018,
-          26
-        ],
-        [
-          2019,
-          41
-        ],
-        [
-          2020,
-          28
-        ]
-      ],
-      "name": "5 Zi"
-    },
-    {
-      "color": "#FABD24",
-      "index": 1,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 5,
-      "data": [
-        [
-          2011,
-          92
-        ],
-        [
-          2012,
-          86
-        ],
-        [
-          2013,
-          55
-        ],
-        [
-          2014,
-          48
-        ],
-        [
-          2015,
-          79
-        ],
-        [
-          2016,
-          77
-        ],
-        [
-          2017,
-          84
-        ],
-        [
-          2018,
-          99
-        ],
-        [
-          2019,
-          155
-        ],
-        [
-          2020,
-          129
-        ]
-      ],
-      "name": "4 Zi"
-    },
-    {
-      "color": "#FFDA80",
-      "index": 1,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 4,
-      "data": [
-        [
-          2011,
-          171
-        ],
-        [
-          2012,
-          159
-        ],
-        [
-          2013,
-          136
-        ],
-        [
-          2014,
-          93
-        ],
-        [
-          2015,
-          107
-        ],
-        [
-          2016,
-          163
-        ],
-        [
-          2017,
-          202
-        ],
-        [
-          2018,
-          267
-        ],
-        [
-          2019,
-          403
-        ],
-        [
-          2020,
-          394
-        ]
-      ],
-      "name": "3 Zi"
-    },
-    {
-      "color": "#246370",
-      "index": 1,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 3,
-      "data": [
-        [
-          2011,
-          115
-        ],
-        [
-          2012,
-          102
-        ],
-        [
-          2013,
-          91
-        ],
-        [
-          2014,
-          51
-        ],
-        [
-          2015,
-          84
-        ],
-        [
-          2016,
-          107
-        ],
-        [
-          2017,
-          164
-        ],
-        [
-          2018,
-          251
-        ],
-        [
-          2019,
-          327
-        ],
-        [
-          2020,
-          313
-        ]
-      ],
-      "name": "2 Zi"
-    },
-    {
-      "color": "#A8C3CA",
-      "index": 1,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 2,
-      "data": [
-        [
-          2011,
-          94
-        ],
-        [
-          2012,
-          119
-        ],
-        [
-          2013,
-          58
-        ],
-        [
-          2014,
-          25
-        ],
-        [
-          2015,
-          52
-        ],
-        [
-          2016,
+          "Waldenburg",
           61
-        ],
-        [
-          2017,
-          68
-        ],
-        [
-          2018,
-          117
-        ],
-        [
-          2019,
-          186
-        ],
-        [
-          2020,
-          189
         ]
       ],
-      "name": "1 Zi"
+      "name": "Anzahl Leerwohnungen",
+      "turboThreshold": 0
     },
     {
       "yAxis": 1,
-      "color": "#B375AB",
+      "colorByPoint": true,
+      "colors": [
+        "#6F6F6F",
+        "#6F6F6F",
+        "#6F6F6F",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E",
+        "#DC440E"
+      ],
       "index": 1,
-      "type": "line",
+      "type": "scatter",
       "marker": {
-        "enabled": false
+        "enabled": true,
+        "symbol": "triangle"
       },
-      "legendIndex": 8,
+      "legendIndex": 1,
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-          }
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+        }
       },
       "data": [
         [
-          2011,
-          0.005
+          "Grossbasel",
+          0.01
         ],
         [
-          2012,
-          0.005
+          "Kleinbasel",
+          0.008
         ],
         [
-          2013,
-          0.003
+          "Riehen\u002FBettingen",
+          0.01
         ],
         [
-          2014,
-          0.002
+          "Arlesheim",
+          0.012
         ],
         [
-          2015,
-          0.003
+          "Laufen",
+          0.014
         ],
         [
-          2016,
-          0.004
+          "Liestal",
+          0.013
         ],
         [
-          2017,
-          0.005
-        ],
-        [
-          2018,
+          "Sissach",
           0.007
         ],
         [
-          2019,
-          0.01
-        ],
-        [
-          2020,
-          0.01
+          "Waldenburg",
+          0.008
         ]
       ],
-      "name": "Leerstandsquote (rechte Skala)"
+      "name": "Leerstandsquote (rechte Skala)",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -454,7 +231,7 @@
                     }
                 }
     },
-    "renderTo": "container-9067",
+    "renderTo": "container-9069",
     "spacingBottom": 2
   },
   "plotOptions": {
@@ -468,7 +245,6 @@
           "fontWeight": "normal"
         }
       },
-      "stacking": "normal",
       "pointPadding": 0,
       "groupPadding": 0.5
     }
@@ -480,7 +256,7 @@
       "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Leerwohnungen nach Zimmerzahl"
+    "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
   },
   "subtitle": {
     "style": {
@@ -489,34 +265,15 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "Basel-Stadt",
+    "text": "Basel-Stadt und Basel-Landschaft, 2020",
     "align": "left"
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
   },
   "yAxis": [
     {
+      "max": 1000,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
-      "tickAmount": 5,
       "title": {
         "style": {
           "color": "#000000",
@@ -533,9 +290,8 @@
     },
     {
       "opposite": true,
-      "tickAmount": 5,
       "min": 0,
-      "max": 0.012,
+      "max": 0.015,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -564,6 +320,9 @@
       "fontSize": "10px",
       "color": "#000000",
       "fontWeight": "normal"
+    },
+    "itemHiddenStyle": {
+      "color": "#6F6F6F"
     },
     "enabled": true,
     "layout": "horizontal",
@@ -604,6 +363,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 9067
+    "filename": 9069
   }
 }

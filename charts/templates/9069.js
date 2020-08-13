@@ -11,7 +11,8 @@
   
   yAxis: [
       {
-        max: 1200,
+        tickAmount: 5,
+        max: 1600,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -31,6 +32,7 @@
       },
       {
         opposite: true,
+        tickAmount: 5,
         min: 0,
         max: 0.015,
         gridLineColor: '#B9CFD7', 
@@ -56,6 +58,10 @@
   
   xAxis: {
    tickInterval: 1,
+   labels: {
+    //rotation: -45,
+    staggerLines:2
+  }
    
   },
   legend: {
@@ -118,5 +124,8 @@
   tooltip: {
     shared: true
   },
+  chart: {
+    width: 665
+  }
 };
 }());

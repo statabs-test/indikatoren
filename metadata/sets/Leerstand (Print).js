@@ -78,6 +78,47 @@ var indikatorensetData = [
 		"id": 9067
 	},
 	{
+		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2020",
+		"kuerzel": "I.09.2.09069",
+		"kuerzelKunde": "LEB-2-4",
+		"description": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Bezirk",
+			"Gemeinde",
+			"Wahlkreis"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit 1,0% und 1,1% liegen die Leerwohnungsquoten des Stadt- und Landkantons nahe beieinander. Auch innerhalb der Kantone sind die Unterschiede relativ gering. Einzig im Bezirk Sissach liegt die Leerwohnungsquote deutlich unter dem gesamtkantonalen Wert.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_004",
+		"parentId": 7576,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7576,
+		"chart-id": 9069,
+		"filter": "",
+		"id": 9069
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.09071",

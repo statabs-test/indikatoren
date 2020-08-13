@@ -1819,6 +1819,7 @@ id | visible | visibleInPortal | indikatorenset
 9064 | true | true | Leerstand
 9066 | true | false | Leerstand (Print)
 9067 | true | false | Leerstand (Print)
+9069 | true | false | Leerstand (Print)
 9071 | true | false | Leerstand (Print)
 9075 | true | false | Leerstand (Print)
 9080 | true | false | Leerstand (Print)
