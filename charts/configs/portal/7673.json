@@ -139,6 +139,34 @@
       ],
       "name": "2018",
       "turboThreshold": 0
+    },
+    {
+      "color": "#C4AB91",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -63
+        ],
+        [
+          "Übrige Schweiz",
+          16
+        ],
+        [
+          "Ausland",
+          421
+        ],
+        [
+          "Unbekannt",
+          -46
+        ],
+        [
+          "Total",
+          328
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
