@@ -906,6 +906,7 @@
   },
   "yAxis": [
     {
+      "min": 0,
       "max": 240000,
       "labels": {
         "format": "{value:,.0f}"

@@ -71041,6 +71041,167 @@ var indikatoren = [
 		"id": 9075
 	},
 	{
+		"title": "Nettoproduktion an Wohnungen",
+		"subtitle": "Basel-Landschaft",
+		"kuerzel": "I.09.2.09076",
+		"kuerzelKunde": "LEB-4-3",
+		"description": "Nettoproduktion an Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Neubau- und damit die Nettoproduktion von Wohnungen bleibt nach dem markanten Rückgang 2012 und anschliessendem Anstieg seit 2015 auf hohem Niveau stabil und vermag den etwas geringeren Zuwachs der Wohnbevölkerung gut aufzufangen.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_00_00_00_00_003",
+		"parentId": 7583,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7583,
+		"chart-id": 9076,
+		"filter": "",
+		"id": 9076
+	},
+	{
+		"title": "Wohnungen und Wohnbevölkerung",
+		"subtitle": "Basel-Landschaft",
+		"kuerzel": "I.09.2.09077",
+		"kuerzelKunde": "LEB-4-4",
+		"description": "Wohnungen und Wohnbevölkerung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zum ersten Mal im neuen Jahrtausend kletterte die Leerwohnungsquote über die Marke von 1%. Letztmals resultierten solche Werte Mitte der 1970er-Jahre, als bei weiterhin hoher Wohnungsproduktion das Bevölkerungswachstum etwas nachliess.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_00_00_00_00_004",
+		"parentId": 7584,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7584,
+		"chart-id": 9077,
+		"filter": "",
+		"id": 9077
+	},
+	{
+		"title": "Leerstandsquote nach Kanton",
+		"subtitle": "",
+		"kuerzel": "I.09.2.09078",
+		"kuerzelKunde": "LEB-5-1",
+		"description": "Leerstandsquote nach Kanton",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im nationalen Kontext",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die derzeit verfügbaren Kantonswerte deuten insgesamt auf einen weiteren Anstieg des Leerwohnungsbestandes hin.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "04_00_00_00_00_001",
+		"parentId": 7585,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7585,
+		"chart-id": 9078,
+		"filter": "",
+		"id": 9078
+	},
+	{
+		"title": "Leerwohnungsquote in Grossstädten",
+		"subtitle": "",
+		"kuerzel": "I.09.2.09079",
+		"kuerzelKunde": "LEB-5-2",
+		"description": "Leerwohnungsquote in Grossstädten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Gemeinde",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im nationalen Kontext",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit dem vor gut zehn Jahren einsetzenden Anstieg der Wohnbevölkerung ging auch die Basler Leerwohnungsquote bis 2017 auf die Werte im Bereich der anderen grösseren Schweizer Städte zurück. Seit 2018 hat die Stadt Basel die anderen Grossstädte bezüglich der Leerwohnungsziffer überholt.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "04_00_00_00_00_002",
+		"parentId": 7586,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7586,
+		"chart-id": 9079,
+		"filter": "",
+		"id": 9079
+	},
+	{
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
 		"kuerzel": "I.09.2.09080",

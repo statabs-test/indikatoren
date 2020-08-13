@@ -1,6 +1,7 @@
 (function () {
   return {
     chart: {
+      width: 665,
       type: "column",
       animation: false,
       inverted: false,

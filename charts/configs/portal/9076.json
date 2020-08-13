@@ -225,7 +225,6 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -233,54 +232,121 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "rotation": 0
-    }
+    },
+    "tickLength": 0
   },
   "chart": {
-    "width": 485,
-    "height": 415,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
     },
     "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
     "events": {
       "load": function () {
                     this.credits.element.onclick = function () { };
 
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add right-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                             }
-                        );
+                        });
+                    }
+
+                    // format second y-Axis (if exists)
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
                     }
                 }
     },
     "type": "column",
-    "renderTo": "container-7583",
-    "spacingBottom": 30
+    "renderTo": "container-9076",
+    "spacingBottom": 2
   },
   "plotOptions": {
     "series": {
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontWeight": "normal"
         }
       },
       "stacking": null,
@@ -289,36 +355,39 @@
     }
   },
   "title": {
-    "align": "left",
     "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "bold"
     },
+    "align": "left",
     "text": "Nettoproduktion an Wohnungen"
   },
   "subtitle": {
-    "text": "Basel-Landschaft",
-    "align": "left",
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "color": "#000000"
-    }
+      "fontFamily": "Arial"
+    },
+    "text": "Basel-Landschaft",
+    "align": "left"
   },
   "yAxis": {
-    "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": null
+        "fontSize": "10px",
+        "color": "#000000"
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
+        "fontSize": "10px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -328,14 +397,17 @@
     "tickAmount": 6
   },
   "legend": {
+    "padding": 0,
     "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left"
   },
   "navigation": {
@@ -347,8 +419,8 @@
   "credits": {
     "enabled": true,
     "style": {
-      "color": "#000000",
       "fontSize": "10px",
+      "color": "#000000",
       "cursor": "default"
     },
     "position": {
@@ -359,11 +431,18 @@
     },
     "text": "Quelle: Leerstandserhebung."
   },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000"
+    }
+  },
   "tooltip": {
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7583
+    "filename": 9076
   }
 }

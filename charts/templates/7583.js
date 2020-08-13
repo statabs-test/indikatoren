@@ -7,6 +7,9 @@
   }
 },
 "yAxis": {
+  min: -500,
+  max: 2000,
+  tickAmount: 6,
 "labels": {
   "format": "{value:,.0f}"
 }
@@ -20,21 +23,18 @@
   color: '#7F5F1A',
   index: 0,
   type: "column",
-  pointWidth: "10",
   legendIndex: 0
 },
 {
   color: '#CD9C00',
   index: 1,
   type: "column",
-  pointWidth: "10",
   legendIndex: 1
 },
 {
   color: '#990300',
   index: 2,
   type: "column",
-  pointWidth: "10",
   legendIndex: 2
 },
 {
