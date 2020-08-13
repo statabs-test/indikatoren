@@ -7,6 +7,9 @@
     }
   },
   "yAxis": {
+    min: -250,
+    max: 1000,
+    tickAmount: 6,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -64,7 +67,8 @@
             }
         },
         "chart": {      
-            "type": "column"
+            "type": "column",
+            width: 665
         },
     }
 }());

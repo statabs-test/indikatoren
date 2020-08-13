@@ -203,7 +203,7 @@
   },
   "yAxis": [
     {
-      "max": 1000,
+      "max": 1200,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",

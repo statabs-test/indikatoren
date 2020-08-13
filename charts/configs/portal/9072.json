@@ -1,119 +1,225 @@
 {
   "series": [
     {
-      "colorByPoint": true,
-      "colors": [
-        "#6F6F6F",
-        "#6F6F6F",
-        "#6F6F6F",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E"
-      ],
+      "color": "#7F5F1A",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
+      "pointWidth": "10",
       "legendIndex": 0,
       "data": [
         [
-          "Grossbasel",
-          592
+          "2010",
+          372
         ],
         [
-          "Kleinbasel",
-          333
+          "2011",
+          351
         ],
         [
-          "Riehen\u002FBettingen",
-          108
+          "2012",
+          268
         ],
         [
-          "Arlesheim",
-          916
+          "2013",
+          177
         ],
         [
-          "Laufen",
-          135
+          "2014",
+          369
         ],
         [
-          "Liestal",
-          385
+          "2015",
+          788
         ],
         [
-          "Sissach",
-          120
+          "2016",
+          412
         ],
         [
-          "Waldenburg",
-          61
+          "2017",
+          369
+        ],
+        [
+          "2018",
+          807
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
         ]
       ],
-      "name": "Anzahl Leerwohnungen",
+      "name": "Neubau",
       "turboThreshold": 0
     },
     {
-      "yAxis": 1,
-      "colorByPoint": true,
-      "colors": [
-        "#6F6F6F",
-        "#6F6F6F",
-        "#6F6F6F",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E"
-      ],
+      "color": "#CD9C00",
       "index": 1,
-      "type": "scatter",
-      "marker": {
-        "enabled": true,
-        "symbol": "triangle"
-      },
+      "type": "column",
+      "pointWidth": "10",
       "legendIndex": 1,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-        }
-      },
       "data": [
         [
-          "Grossbasel",
-          0.01
+          "2010",
+          -18
         ],
         [
-          "Kleinbasel",
-          0.008
+          "2011",
+          18
         ],
         [
-          "Riehen\u002FBettingen",
-          0.01
+          "2012",
+          28
         ],
         [
-          "Arlesheim",
-          0.012
+          "2013",
+          35
         ],
         [
-          "Laufen",
-          0.014
+          "2014",
+          180
         ],
         [
-          "Liestal",
-          0.013
+          "2015",
+          25
         ],
         [
-          "Sissach",
-          0.007
+          "2016",
+          106
         ],
         [
-          "Waldenburg",
-          0.008
+          "2017",
+          54
+        ],
+        [
+          "2018",
+          67
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
         ]
       ],
-      "name": "Leerstandsquote (rechte Skala)",
+      "name": "Umbausaldo",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#990300",
+      "index": 2,
+      "type": "column",
+      "pointWidth": "10",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2010",
+          -146
+        ],
+        [
+          "2011",
+          -58
+        ],
+        [
+          "2012",
+          -26
+        ],
+        [
+          "2013",
+          -41
+        ],
+        [
+          "2014",
+          -53
+        ],
+        [
+          "2015",
+          -178
+        ],
+        [
+          "2016",
+          -75
+        ],
+        [
+          "2017",
+          -59
+        ],
+        [
+          "2018",
+          -114
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
+        ]
+      ],
+      "name": "Abbruch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 3,
+      "data": [
+        [
+          "2010",
+          208
+        ],
+        [
+          "2011",
+          311
+        ],
+        [
+          "2012",
+          270
+        ],
+        [
+          "2013",
+          171
+        ],
+        [
+          "2014",
+          496
+        ],
+        [
+          "2015",
+          635
+        ],
+        [
+          "2016",
+          443
+        ],
+        [
+          "2017",
+          364
+        ],
+        [
+          "2018",
+          760
+        ],
+        [
+          "2019",
+          "."
+        ],
+        [
+          "2020",
+          "."
+        ]
+      ],
+      "name": "Nettoproduktion",
       "turboThreshold": 0
     }
   ],
@@ -133,15 +239,14 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "staggerLines": 2
+      "rotation": 0
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
+    "width": 320,
     "height": 208,
     "spacing": [
       2,
@@ -232,7 +337,8 @@
                     }
                 }
     },
-    "renderTo": "container-9069",
+    "type": "column",
+    "renderTo": "container-9072",
     "spacingBottom": 2
   },
   "plotOptions": {
@@ -246,8 +352,9 @@
           "fontWeight": "normal"
         }
       },
+      "stacking": null,
       "pointPadding": 0,
-      "groupPadding": 0.5
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -257,7 +364,7 @@
       "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
+    "text": "Nettoproduktion an Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -266,57 +373,31 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "Basel-Stadt und Basel-Landschaft, 2020",
+    "text": "Basel-Stadt",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "tickAmount": 5,
-      "max": 1600,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      }
+      "text": ""
     },
-    {
-      "opposite": true,
-      "tickAmount": 5,
-      "min": 0,
-      "max": 0.015,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
       },
-      "labels": {
-        "formatter": function(){
-            return Highcharts.numberFormat(this.value*100, 1) + "%";
-          },
-        "style": {
-          "color": "#000000"
-        }
-      }
+      "format": "{value:,.0f}"
     }
-  ],
+  },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -324,15 +405,10 @@
       "color": "#000000",
       "fontWeight": "normal"
     },
-    "itemHiddenStyle": {
-      "color": "#6F6F6F"
-    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemDistance": 2,
-    "alignColumns": false
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -363,9 +439,10 @@
     }
   },
   "tooltip": {
-    "shared": true
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 9069
+    "filename": 9072
   }
 }

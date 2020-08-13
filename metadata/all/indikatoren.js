@@ -70801,6 +70801,46 @@ var indikatoren = [
 		"id": 9069
 	},
 	{
+		"title": "Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt, 2020",
+		"kuerzel": "I.09.2.09070",
+		"kuerzelKunde": "LEB-3-1",
+		"description": "Leerwohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der kantonalen Leerstandsquote von 1,0% entsprechen die Dreizimmerwohnungen, die ein Drittel des Leerstands ausmachen.",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_001",
+		"parentId": 7577,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7577,
+		"chart-id": 9070,
+		"filter": "",
+		"id": 9070
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.09071",
@@ -70839,6 +70879,46 @@ var indikatoren = [
 		"chart-id": 9071,
 		"filter": "",
 		"id": 9071
+	},
+	{
+		"title": "Nettoproduktion an Wohnungen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.09072",
+		"kuerzelKunde": "LEB-3-3",
+		"description": "Nettoproduktion an Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Bauvollendung grösserer Projekte folgend resultiert derzeit eine jährliche Nettoproduktion von gegen 500 Wohnungen.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_003",
+		"parentId": 7579,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7579,
+		"chart-id": 9072,
+		"filter": "",
+		"id": 9072
 	},
 	{
 		"title": "Leerwohnungen nach Bautätigkeit",
