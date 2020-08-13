@@ -92,7 +92,8 @@
   }],
       
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
+    useHTML: true,
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} m<sup>2</sup></b> ({point.percentage:.1f}%)<br/><br/>',
     "shared": false
   }   
 };
