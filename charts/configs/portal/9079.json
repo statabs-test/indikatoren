@@ -744,7 +744,8 @@
       "formatter": function(){
           return Highcharts.numberFormat(this.value, 1);
         }
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

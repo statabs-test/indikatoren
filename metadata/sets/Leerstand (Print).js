@@ -703,5 +703,42 @@ var indikatorensetData = [
 		"chart-id": 9084,
 		"filter": "",
 		"id": 9084
+	},
+	{
+		"title": "Leerwohnungen nach Zimmerzahl",
+		"subtitle": "",
+		"kuerzel": "I.09.2.09144",
+		"kuerzelKunde": "LEB-2-3",
+		"description": "Leerwohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-13T16:12:53.5353",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": 9137,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9137,
+		"chart-id": 9144,
+		"filter": "",
+		"id": 9144
 	}
 ];

@@ -14,6 +14,7 @@
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
+        tickAmount: 5,
         title: {
             style: {
                 color: "#000000",
@@ -30,6 +31,7 @@
       },
       {
         opposite: true,
+        tickAmount: 5,
         min: 0,
         max: 0.012,
         gridLineColor: '#B9CFD7', 
@@ -43,7 +45,7 @@
             text: null
         },
         labels: {
-        	formatter: function(){
+          formatter: function(){
             return Highcharts.numberFormat(this.value*100, 1) + "%";
           },
             style: {
@@ -71,40 +73,92 @@
       fontWeight: "normal"
     }
   },
+  data: {
+    seriesMapping: [
+      {
+        x: 1, y: 7
+      },
+      {
+        x: 1, y: 6
+      },
+      {
+        x: 1, y: 5
+      },
+      {
+        x: 1, y: 4
+      },
+      {
+        x: 1, y: 3
+      },
+      {
+        x: 1, y: 2
+      },
+      {
+        x: 1, y: 8
+      }		      
+    ]
+},
   series: [
     {
-      color: "#6F6F6F",
+      color: '#7F5F1A',
       index: 0,
       type: "column",
       pointWidth: "15",
-      legendIndex: 0
+      legendIndex: 7
     },
     {
-      color: "#DC440E",
-      index: 0,
+      color: '#CD9C00',
+      index: 1,
       type: "column",
       pointWidth: "15",
-      legendIndex: 1
+      legendIndex: 6
     },
-	{   
-	    yAxis: 1,
-      color: "#FABD24",
+    {
+      color: '#FABD24',
       index: 1,
-      type: "line",
-      marker: {
-        enabled: false
-      }, 
-      legendIndex: 3,
-      tooltip: {
-        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-        pointFormatter: function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-        }
-      }
+      type: "column",
+      pointWidth: "15",
+      legendIndex: 5
     },
+    {
+      color: '#FFDA80',
+      index: 1,
+      type: "column",
+      pointWidth: "15",
+      legendIndex: 4
+    },
+    {
+      color: '#246370',
+      index: 1,
+      type: "column",
+      pointWidth: "15",
+      legendIndex: 3
+    },
+    {
+      color: '#A8C3CA',
+      index: 1,
+      type: "column",
+      pointWidth: "15",
+      legendIndex: 2
+    },
+    {   
+        yAxis: 1,
+        color: "#B375AB",
+        index: 1,
+        type: "line",
+        marker: {
+          enabled: false
+        }, 
+        legendIndex: 8,
+        tooltip: {
+          headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+          pointFormatter: function(){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
+        }
+      },
   ],  
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total Beider Basel: <b>{point.total:,.0f}</b>',
     shared: true
   },
 };
