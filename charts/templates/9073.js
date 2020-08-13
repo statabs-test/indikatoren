@@ -2,6 +2,7 @@
     return {
    "chart": {
     "type": "column",
+    width: 665,
    },
   "yAxis": [
     {

@@ -1734,6 +1734,8 @@ var templatesById = {
 	"9070": "pie001_print",
 	"9071": "pie001_print",
 	"9072": "template001_print",
+	"9073": "template001_print",
+	"9074": "pie001_print",
 	"9075": "pie001_print",
 	"9080": "line001_print",
 	"9081": "line001_print",
