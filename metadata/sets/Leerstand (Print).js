@@ -39,6 +39,45 @@ var indikatorensetData = [
 		"id": 9066
 	},
 	{
+		"title": "Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.09067",
+		"kuerzelKunde": "LEB-2-2",
+		"description": "Leerwohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Stadtkanton sind knapp zwei Drittel der Leerwohnungen Zwei- und Dreizimmerwohnungen. Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_002",
+		"parentId": 7574,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7574,
+		"chart-id": 9067,
+		"filter": "",
+		"id": 9067
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.09071",
