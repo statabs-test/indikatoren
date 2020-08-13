@@ -15,11 +15,11 @@
               }
             );
           }
-          justifyColumns(event.target);
-        },
+          //justifyColumns(event.target);
+        }/*,
         redraw: function (event) {
           justifyColumns(event.target);
-        }
+        }*/
       }
     },
     plotOptions: {

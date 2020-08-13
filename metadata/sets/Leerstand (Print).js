@@ -1,5 +1,44 @@
 var indikatorensetData = [
 	{
+		"title": "Leerwohnungsbestand und -quote",
+		"subtitle": "Basel-Stadt und Basel-Landschaft",
+		"kuerzel": "I.09.2.09066",
+		"kuerzelKunde": "LEB-2-1",
+		"description": "Leerwohnungsbestand und -quote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Leerstandsquote beider Basel zusammen steigt nach dem Tiefstand von 0,3% im Jahr 2014 wieder an und liegt nach 0,7% im letzten<br>Jahr aktuell bei gut 1,0%.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_001",
+		"parentId": 7573,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7573,
+		"chart-id": 9066,
+		"filter": "",
+		"id": 9066
+	},
+	{
 		"title": "Leerwohnungen nach Bautätigkeit",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.09071",

@@ -44204,6 +44204,49 @@ var indikatoren = [
 		"id": 7585
 	},
 	{
+		"title": "Leerwohnungsquote in Grossstädten",
+		"subtitle": "",
+		"kuerzel": "I.09.2.07586",
+		"kuerzelKunde": "LEB-5-2",
+		"description": "Leerwohnungsquote in Grossstädten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Gemeinde",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im nationalen Kontext",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit dem vor gut zehn Jahren einsetzenden Anstieg der Wohnbevölkerung ging auch die Basler Leerwohnungsquote bis 2017 auf die Werte im Bereich der anderen grösseren Schweizer Städte zurück. Seit 2018 hat die Stadt Basel die anderen Grossstädte bezüglich der Leerwohnungsziffer überholt.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"9079"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7586,
+		"chart-id": 7586,
+		"filter": "",
+		"id": 7586
+	},
+	{
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
 		"kuerzel": "I.09.2.07587",
@@ -70634,6 +70677,46 @@ var indikatoren = [
 		"chart-id": 9064,
 		"filter": "",
 		"id": 9064
+	},
+	{
+		"title": "Leerwohnungsbestand und -quote",
+		"subtitle": "Basel-Stadt und Basel-Landschaft",
+		"kuerzel": "I.09.2.09066",
+		"kuerzelKunde": "LEB-2-1",
+		"description": "Leerwohnungsbestand und -quote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Leerstandsquote beider Basel zusammen steigt nach dem Tiefstand von 0,3% im Jahr 2014 wieder an und liegt nach 0,7% im letzten<br>Jahr aktuell bei gut 1,0%.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_001",
+		"parentId": 7573,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7573,
+		"chart-id": 9066,
+		"filter": "",
+		"id": 9066
 	},
 	{
 		"title": "Leerwohnungen nach Bautätigkeit",

@@ -26187,6 +26187,49 @@ var indikatoren = [
 		"id": 7585
 	},
 	{
+		"title": "Leerwohnungsquote in Grossstädten",
+		"subtitle": "",
+		"kuerzel": "I.09.2.07586",
+		"kuerzelKunde": "LEB-5-2",
+		"description": "Leerwohnungsquote in Grossstädten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Gemeinde",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand im nationalen Kontext",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit dem vor gut zehn Jahren einsetzenden Anstieg der Wohnbevölkerung ging auch die Basler Leerwohnungsquote bis 2017 auf die Werte im Bereich der anderen grösseren Schweizer Städte zurück. Seit 2018 hat die Stadt Basel die anderen Grossstädte bezüglich der Leerwohnungsziffer überholt.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"9079"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7586,
+		"chart-id": 7586,
+		"filter": "",
+		"id": 7586
+	},
+	{
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
 		"kuerzel": "I.09.2.07587",

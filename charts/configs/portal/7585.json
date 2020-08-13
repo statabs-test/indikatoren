@@ -1,15 +1,15 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#E7CEE2",
       "data": [
         [
           "CH",
           1.298713236
         ],
         [
-          undefined,
-          undefined
+          " ",
+          null
         ],
         [
           "BS",
@@ -120,15 +120,15 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#B375AB",
       "data": [
         [
           "CH",
           1.45
         ],
         [
-          undefined,
-          undefined
+          " ",
+          null
         ],
         [
           "BS",
@@ -239,15 +239,15 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#923F8D",
       "data": [
         [
           "CH",
           1.62
         ],
         [
-          undefined,
-          undefined
+          " ",
+          null
         ],
         [
           "BS",
@@ -358,15 +358,15 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#662673",
       "data": [
         [
           "CH",
           1.66
         ],
         [
-          undefined,
-          undefined
+          " ",
+          null
         ],
         [
           "BS",
@@ -477,119 +477,119 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#2E1435",
       "data": [
         [
           "CH",
-          "."
+          null
         ],
         [
-          undefined,
-          undefined
+          " ",
+          null
         ],
         [
           "BS",
-          "."
+          null
         ],
         [
           "BL",
-          "."
+          null
         ],
         [
           "ZH",
-          "."
+          null
         ],
         [
           "BE",
-          "."
+          null
         ],
         [
           "LU",
-          "."
+          null
         ],
         [
           "UR",
-          "."
+          null
         ],
         [
           "SZ",
-          "."
+          null
         ],
         [
           "OW",
-          "."
+          null
         ],
         [
           "NW",
-          "."
+          null
         ],
         [
           "GL",
-          "."
+          null
         ],
         [
           "ZG",
-          "."
+          null
         ],
         [
           "FR",
-          "."
+          null
         ],
         [
           "SO",
-          "."
+          null
         ],
         [
           "SH",
-          "."
+          null
         ],
         [
           "AR",
-          "."
+          null
         ],
         [
           "AI",
-          "."
+          null
         ],
         [
           "SG",
-          "."
+          null
         ],
         [
           "GR",
-          "."
+          null
         ],
         [
           "AG",
-          "."
+          null
         ],
         [
           "TG",
-          "."
+          null
         ],
         [
           "TI",
-          "."
+          null
         ],
         [
           "VD",
-          "."
+          null
         ],
         [
           "VS",
-          "."
+          null
         ],
         [
           "NE",
-          "."
+          null
         ],
         [
           "GE",
-          "."
+          null
         ],
         [
           "JU",
-          "."
+          null
         ]
       ],
       "name": "2020",
@@ -610,7 +610,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "staggerLines": 2
     }
   },
   "chart": {
@@ -641,10 +642,7 @@
               }
             );
           }
-          justifyColumns(event.target);
-        },
-      "redraw": function (event) {
-          justifyColumns(event.target);
+          //justifyColumns(event.target);
         }
     },
     "type": "column",
@@ -662,7 +660,8 @@
         }
       },
       "pointPadding": 0,
-      "pointWidth": 14
+      "groupPaddin": 1,
+      "pointWidth": 3
     }
   },
   "title": {
@@ -710,8 +709,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -735,7 +733,8 @@
     "text": "Quelle: Leerstandserhebung."
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": 7585

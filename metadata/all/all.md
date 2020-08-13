@@ -1171,6 +1171,7 @@ id | visible | visibleInPortal | indikatorenset
 7583 | true | true | Leerstand
 7584 | true | true | Leerstand
 7585 | true | true | Leerstand
+7586 | true | true | Leerstand
 7587 | true | true | Leerstand
 7588 | true | true | Leerstand
 7589 | true | true | Leerstand
@@ -1816,6 +1817,7 @@ id | visible | visibleInPortal | indikatorenset
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
 9064 | true | true | Leerstand
+9066 | true | false | Leerstand (Print)
 9071 | true | false | Leerstand (Print)
 9075 | true | false | Leerstand (Print)
 9080 | true | false | Leerstand (Print)
