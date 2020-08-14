@@ -4,7 +4,9 @@
   return {
     
     plotOptions: {
-  
+      pie: {
+        size: 250,
+      },  
       series: {
           allowPointSelect: false,
           point: {
@@ -59,7 +61,7 @@
                   format: '{point.percentage:.0f}%',
                   distance: -35,
                   style: {
-                      color: 'black',
+                      color: 'contrast',
                       textOutline: "0px black", 
                       fontWeight: "normal", 
                       fontSize: "12px"

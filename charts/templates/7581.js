@@ -27,7 +27,7 @@
       },
       {
         //2nd series: use y values from column 3
-        y: 4
+        y: 3
       },
       {
         y: 5
@@ -100,11 +100,10 @@
           fontSize: "12px"
         }
     }
-  }],
-      
-  "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
-    "shared": false
-  }   
+  }], 
+  tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
+    shared: false
+  }  
 };
 }());

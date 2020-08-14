@@ -133,7 +133,8 @@
       "showInLegend": true,
       "dataLabels": {
         "enabled": false
-      }
+      },
+      "size": 250
     },
     "series": {
       "allowPointSelect": false,

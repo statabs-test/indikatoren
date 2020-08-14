@@ -1,17 +1,7 @@
 {
   "series": [
     {
-      "colorByPoint": true,
-      "colors": [
-        "#6F6F6F",
-        "#6F6F6F",
-        "#6F6F6F",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E"
-      ],
+      "color": "#6F6F6F",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
@@ -28,6 +18,104 @@
         [
           "Riehen\u002FBettingen",
           108
+        ],
+        [
+          "Arlesheim",
+          null
+        ],
+        [
+          "Laufen",
+          null
+        ],
+        [
+          "Liestal",
+          null
+        ],
+        [
+          "Sissach",
+          null
+        ],
+        [
+          "Waldenburg",
+          null
+        ]
+      ],
+      "name": "Anzahl Leerwohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "yAxis": 1,
+      "color": "#6F6F6F",
+      "index": 1,
+      "type": "scatter",
+      "lineWidth": 0,
+      "marker": {
+        "enabled": true,
+        "symbol": "triangle"
+      },
+      "legendIndex": 1,
+      "tooltip": {
+        "shared": true,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function(){ 
+          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+      }
+      },
+      "data": [
+        [
+          "Grossbasel",
+          0.01
+        ],
+        [
+          "Kleinbasel",
+          0.008
+        ],
+        [
+          "Riehen\u002FBettingen",
+          0.01
+        ],
+        [
+          "Arlesheim",
+          null
+        ],
+        [
+          "Laufen",
+          null
+        ],
+        [
+          "Liestal",
+          null
+        ],
+        [
+          "Sissach",
+          null
+        ],
+        [
+          "Waldenburg",
+          null
+        ]
+      ],
+      "name": "Leerstandsquote (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 2,
+      "type": "column",
+      "pointWidth": "15",
+      "showInLegend": false,
+      "data": [
+        [
+          "Grossbasel",
+          null
+        ],
+        [
+          "Kleinbasel",
+          null
+        ],
+        [
+          "Riehen\u002FBettingen",
+          null
         ],
         [
           "Arlesheim",
@@ -55,42 +143,34 @@
     },
     {
       "yAxis": 1,
-      "colorByPoint": true,
-      "colors": [
-        "#6F6F6F",
-        "#6F6F6F",
-        "#6F6F6F",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E",
-        "#DC440E"
-      ],
-      "index": 1,
+      "color": "#DC440E",
+      "index": 3,
       "type": "scatter",
+      "lineWidth": 0,
       "marker": {
         "enabled": true,
         "symbol": "triangle"
       },
-      "legendIndex": 1,
+      "showInLegend": false,
       "tooltip": {
+        "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-        }
+        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+    }
       },
       "data": [
         [
           "Grossbasel",
-          0.01
+          null
         ],
         [
           "Kleinbasel",
-          0.008
+          null
         ],
         [
           "Riehen\u002FBettingen",
-          0.01
+          null
         ],
         [
           "Arlesheim",
@@ -271,8 +351,8 @@
   },
   "yAxis": [
     {
-      "tickAmount": 5,
-      "max": 1600,
+      "max": 1200,
+      "tickAmount": 4,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -292,9 +372,9 @@
     },
     {
       "opposite": true,
-      "tickAmount": 5,
       "min": 0,
       "max": 0.015,
+      "tickAmount": 4,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -307,8 +387,8 @@
       },
       "labels": {
         "formatter": function(){
-            return Highcharts.numberFormat(this.value*100, 1) + "%";
-          },
+          return Highcharts.numberFormat(this.value*100, 1) + "%";
+        },
         "style": {
           "color": "#000000"
         }
@@ -323,9 +403,6 @@
       "fontSize": "10px",
       "color": "#000000",
       "fontWeight": "normal"
-    },
-    "itemHiddenStyle": {
-      "color": "#6F6F6F"
     },
     "enabled": true,
     "layout": "horizontal",

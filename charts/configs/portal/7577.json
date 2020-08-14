@@ -84,30 +84,30 @@
       "data": [
         [
           "BS",
-          0.176
+          189
         ],
         [
           "BS",
-          0.291
+          313
         ],
         [
           "BS",
-          0.366
+          394
         ],
         [
           "BS",
-          0.12
+          129
         ],
         [
           "BS",
-          0.026
+          28
         ],
         [
           "BS",
-          0.021
+          23
         ]
       ],
-      "name": "Anteil_Leerwohnungen",
+      "name": "Leerwohnungen",
       "turboThreshold": 0
     }
   ],

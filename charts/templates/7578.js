@@ -4,7 +4,9 @@
   return {
     
     plotOptions: {
-  
+      pie: {
+        size: 250,
+      },
       series: {
           allowPointSelect: false,
           point: {
