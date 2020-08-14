@@ -56,12 +56,11 @@
   
   xAxis: {
    tickInterval: 1,
-   
+   /*labels: {
+    staggerLines:2
+  }*/
   },
   legend: {
-    itemHiddenStyle: {
-      color: "#6F6F6F",
-      },
     enabled: true,
     layout: "horizontal",
     verticalAlign: "top",
@@ -82,14 +81,18 @@
       },
       {
         x: 1, y: 3
-      }		      
+      },
+      {
+        x: 1, y: 4
+      },
+      {
+        x: 1, y: 5
+      }	      
     ]
 },
   series: [
     {
-      colorByPoint: true,
-      colors: ["#6F6F6F", "#6F6F6F", "#6F6F6F", "#DC440E", "#DC440E", "#DC440E", "#DC440E", "#DC440E"],
-      //color: "#6F6F6F",
+      color: "#6F6F6F",
       index: 0,
       type: "column",
       pointWidth: "15",
@@ -97,23 +100,49 @@
     },
 	{   
       yAxis: 1,
-      colorByPoint: true,
-      colors: ["#6F6F6F", "#6F6F6F", "#6F6F6F", "#DC440E", "#DC440E", "#DC440E", "#DC440E", "#DC440E"],
-      //color: "#FABD24",
+      color: "#6F6F6F",
       index: 1,
       type: "scatter",
+      lineWidth: 0,
       marker: {
         enabled: true,
         symbol: "triangle"
       }, 
       legendIndex: 1,
       tooltip: {
+        shared: true,
         headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormatter: function(){ 
             return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
         }
-      }
+      },
   },
+  {
+    color: "#DC440E",
+    index: 2,
+    type: "column",
+    pointWidth: "15",
+    showInLegend: false
+  },
+{   
+    yAxis: 1,
+    color: "#DC440E",
+    index: 3,
+    type: "scatter",
+    lineWidth: 0,
+    marker: {
+      enabled: true,
+      symbol: "triangle"
+    }, 
+    showInLegend: false,
+    tooltip: {
+      shared: true,
+      headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+      pointFormatter: function(){ 
+          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+      }
+    }
+},
   ],  
   tooltip: {
     shared: true

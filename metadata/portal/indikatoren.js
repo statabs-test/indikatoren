@@ -25726,7 +25726,7 @@ var indikatoren = [
 		"title": "Leerwohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.07574",
-		"kuerzelKunde": "LEB-2-2a",
+		"kuerzelKunde": "LEB-2-2",
 		"description": "Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
@@ -25740,7 +25740,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Stadtkanton sind knapp zwei Drittel der Leerwohnungen Zwei- und Dreizimmerwohnungen.",
+		"lesehilfe": "Im Stadtkanton sind knapp zwei Drittel der Leerwohnungen Zwei- und Dreizimmerwohnungen. Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -25765,10 +25765,52 @@ var indikatoren = [
 		"id": 7574
 	},
 	{
-		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2019",
-		"kuerzel": "I.09.2.07576",
+		"title": "Leerwohnungsbestand nach Gemeinde",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2020",
+		"kuerzel": "I.09.2.07575",
 		"kuerzelKunde": "LEB-2-4",
+		"description": "Leerwohnungsbestand nach Gemeinde",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Leerstand",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Fertigstellung auch kleinerer Objekte auf den Stichtag 1. Juni hin kann die Leerwohnungsquote v. a. in kleineren Gemeinden mit insgesamt geringem Wohnungsbestand stark beeinflussen. Die Gemeinde Titterten mit einem Wohnungsbestand von insgesamt 207 Wohnungen erreicht mit sechs Leerwohnungen eine Leerwohnungsquote von 2,9%.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"9068"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7575,
+		"chart-id": 7575,
+		"filter": "",
+		"id": 7575
+	},
+	{
+		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2020",
+		"kuerzel": "I.09.2.07576",
+		"kuerzelKunde": "LEB-2-5",
 		"description": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
@@ -25790,7 +25832,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_004",
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"9069"
@@ -25810,7 +25852,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
 		"kuerzel": "I.09.2.07577",
 		"kuerzelKunde": "LEB-3-1",
 		"description": "Leerwohnungen nach Zimmerzahl",
@@ -25852,7 +25894,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
 		"kuerzel": "I.09.2.07578",
 		"kuerzelKunde": "LEB-3-2",
 		"description": "Leerwohnungen nach Bautätigkeit",
@@ -26020,7 +26062,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Landschaft, 2019",
+		"subtitle": "Basel-Landschaft, 2020",
 		"kuerzel": "I.09.2.07582",
 		"kuerzelKunde": "LEB-4-2",
 		"description": "Leerwohnungen nach Bautätigkeit",
@@ -26357,7 +26399,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Stadt, Anteile 2019",
+		"subtitle": "Basel-Stadt, Anteile 2020",
 		"kuerzel": "I.09.2.07590",
 		"kuerzelKunde": "LEB-6-4",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
@@ -38584,7 +38626,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Landschaft, Anteile 2019",
+		"subtitle": "Basel-Landschaft, Anteile 2020",
 		"kuerzel": "I.09.2.09064",
 		"kuerzelKunde": "LEB-6-5",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
@@ -38595,7 +38637,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-07-13T14:55:27.2727",
-		"stufe1": "",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -38606,7 +38648,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "05_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"9084"
@@ -38628,7 +38670,7 @@ var indikatoren = [
 		"title": "Leerwohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Landschaft",
 		"kuerzel": "I.09.2.09137",
-		"kuerzelKunde": "LEB-2-2b",
+		"kuerzelKunde": "LEB-2-3",
 		"description": "Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
@@ -38648,9 +38690,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9144"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Leerstandserhebung"

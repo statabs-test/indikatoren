@@ -1,10 +1,9 @@
-﻿"Jahr"	"Kantonsgebiet"	"Anzahl Leerwohnungen"	"Leerstandsquote (rechte Skala)"
-2020	"Grossbasel"	592	0.010
-2020	"Kleinbasel"	333	0.008
-2020	"Riehen/Bettingen"	108	0.010
-2020	"Arlesheim"	916	0.012
-2020	"Laufen"	135	0.014
-2020	"Liestal"	385	0.013
-2020	"Sissach"	120	0.007
-2020	"Waldenburg"	61	0.008
-
+﻿Jahr	Kantonsgebiet	Anzahl Leerwohnungen	Leerstandsquote (rechte Skala)	Anzahl Leerwohnungen	Leerstandsquote (rechte Skala)
+2020	Grossbasel	592	0.01		
+2020	Kleinbasel	333	0.008		
+2020	Riehen/Bettingen	108	0.01		
+2020	Arlesheim			916	0.012
+2020	Laufen			135	0.014
+2020	Liestal			385	0.013
+2020	Sissach			120	0.007
+2020	Waldenburg			61	0.008
