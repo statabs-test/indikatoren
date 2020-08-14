@@ -1,8 +1,6 @@
 /*global $*/
 (function(){
-    
   return {
-    
     plotOptions: {
       pie: {
         size: 180,

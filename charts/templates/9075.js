@@ -2,9 +2,10 @@
 (function(){
     
   return {
-    
     plotOptions: {
-  
+      pie: {
+        size: 180,
+      },  
       series: {
           allowPointSelect: false,
           point: {
@@ -40,7 +41,7 @@
          dataLabels: {
           enabled: true,
                 format: '{point.name}',
-                distance: 0,
+                distance: 10,
                 connectorWidth: 0,
                 style: {
                     color: 'black',
