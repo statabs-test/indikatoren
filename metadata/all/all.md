@@ -1799,6 +1799,15 @@ id | visible | visibleInPortal | indikatorenset
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9114 | true | true | Sicherheit im oeffentlichen Raum
+9115 | true | true | Sicherheit im oeffentlichen Raum
+9116 | true | false | Sicherheit im oeffentlichen Raum
+9117 | true | true | Sicherheit im oeffentlichen Raum
+9118 | true | true | Sicherheit im oeffentlichen Raum
+9119 | true | true | Sicherheit im oeffentlichen Raum
+9122 | true | false | Sicherheit im oeffentlichen Raum
+9124 | true | true | Sicherheit im oeffentlichen Raum
+9129 | true | true | Sicherheit im oeffentlichen Raum
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
