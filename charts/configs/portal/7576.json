@@ -9,15 +9,15 @@
       "data": [
         [
           "Grossbasel",
-          592
+          612
         ],
         [
           "Kleinbasel",
-          333
+          349
         ],
         [
           "Riehen\u002FBettingen",
-          108
+          112
         ],
         [
           "Arlesheim",
@@ -40,7 +40,7 @@
           null
         ]
       ],
-      "name": "Anzahl Leerwohnungen",
+      "name": "Anzahl Leerwohnungen BS",
       "turboThreshold": 0
     },
     {
@@ -64,15 +64,15 @@
       "data": [
         [
           "Grossbasel",
-          0.01
+          0.0101
         ],
         [
           "Kleinbasel",
-          0.008
+          0.0087
         ],
         [
           "Riehen\u002FBettingen",
-          0.01
+          0.0102
         ],
         [
           "Arlesheim",
@@ -95,7 +95,7 @@
           null
         ]
       ],
-      "name": "Leerstandsquote (rechte Skala)",
+      "name": "Leerstandsquote BS (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -138,7 +138,7 @@
           61
         ]
       ],
-      "name": "Anzahl Leerwohnungen",
+      "name": "Anzahl Leerwohnungen BL",
       "turboThreshold": 0
     },
     {
@@ -174,15 +174,15 @@
         ],
         [
           "Arlesheim",
-          0.012
+          0.0117
         ],
         [
           "Laufen",
-          0.014
+          0.0136
         ],
         [
           "Liestal",
-          0.013
+          0.0129
         ],
         [
           "Sissach",
@@ -193,7 +193,7 @@
           0.008
         ]
       ],
-      "name": "Leerstandsquote (rechte Skala)",
+      "name": "Leerstandsquote BL (rechte Skala)",
       "turboThreshold": 0
     }
   ],
