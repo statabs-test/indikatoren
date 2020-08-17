@@ -1,0 +1,504 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Generell nachts",
+          666
+        ],
+        [
+          "Quartier",
+          597
+        ],
+        [
+          "Parks",
+          571
+        ],
+        [
+          "Rhein",
+          491
+        ],
+        [
+          "Bahnhof SBB",
+          461
+        ],
+        [
+          "Claraplatz",
+          370
+        ],
+        [
+          "Steinenvorstadt",
+          345
+        ],
+        [
+          "Heuwaage",
+          299
+        ],
+        [
+          "Barfüsserplatz",
+          256
+        ],
+        [
+          "Strassenverkehr",
+          240
+        ],
+        [
+          "Innerstadt",
+          236
+        ],
+        [
+          "Generell tagsüber",
+          208
+        ],
+        [
+          "Grossveranstaltungen",
+          202
+        ],
+        [
+          "Messeplatz",
+          183
+        ]
+      ],
+      "name": "Zu wenig Präsenz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Generell nachts",
+          526
+        ],
+        [
+          "Quartier",
+          858
+        ],
+        [
+          "Parks",
+          394
+        ],
+        [
+          "Rhein",
+          560
+        ],
+        [
+          "Bahnhof SBB",
+          753
+        ],
+        [
+          "Claraplatz",
+          632
+        ],
+        [
+          "Steinenvorstadt",
+          548
+        ],
+        [
+          "Heuwaage",
+          550
+        ],
+        [
+          "Barfüsserplatz",
+          830
+        ],
+        [
+          "Strassenverkehr",
+          963
+        ],
+        [
+          "Innerstadt",
+          997
+        ],
+        [
+          "Generell tagsüber",
+          1141
+        ],
+        [
+          "Grossveranstaltungen",
+          882
+        ],
+        [
+          "Messeplatz",
+          672
+        ]
+      ],
+      "name": "Genug Präsenz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Generell nachts",
+          23
+        ],
+        [
+          "Quartier",
+          50
+        ],
+        [
+          "Parks",
+          41
+        ],
+        [
+          "Rhein",
+          72
+        ],
+        [
+          "Bahnhof SBB",
+          59
+        ],
+        [
+          "Claraplatz",
+          55
+        ],
+        [
+          "Steinenvorstadt",
+          39
+        ],
+        [
+          "Heuwaage",
+          37
+        ],
+        [
+          "Barfüsserplatz",
+          57
+        ],
+        [
+          "Strassenverkehr",
+          174
+        ],
+        [
+          "Innerstadt",
+          72
+        ],
+        [
+          "Generell tagsüber",
+          59
+        ],
+        [
+          "Grossveranstaltungen",
+          109
+        ],
+        [
+          "Messeplatz",
+          50
+        ]
+      ],
+      "name": "Zu viel Präsenz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Generell nachts",
+          390
+        ],
+        [
+          "Quartier",
+          109
+        ],
+        [
+          "Parks",
+          537
+        ],
+        [
+          "Rhein",
+          427
+        ],
+        [
+          "Bahnhof SBB",
+          286
+        ],
+        [
+          "Claraplatz",
+          503
+        ],
+        [
+          "Steinenvorstadt",
+          628
+        ],
+        [
+          "Heuwaage",
+          667
+        ],
+        [
+          "Barfüsserplatz",
+          411
+        ],
+        [
+          "Strassenverkehr",
+          196
+        ],
+        [
+          "Innerstadt",
+          257
+        ],
+        [
+          "Generell tagsüber",
+          181
+        ],
+        [
+          "Grossveranstaltungen",
+          363
+        ],
+        [
+          "Messeplatz",
+          642
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Generell nachts",
+          61
+        ],
+        [
+          "Quartier",
+          52
+        ],
+        [
+          "Parks",
+          123
+        ],
+        [
+          "Rhein",
+          116
+        ],
+        [
+          "Bahnhof SBB",
+          107
+        ],
+        [
+          "Claraplatz",
+          106
+        ],
+        [
+          "Steinenvorstadt",
+          106
+        ],
+        [
+          "Heuwaage",
+          113
+        ],
+        [
+          "Barfüsserplatz",
+          112
+        ],
+        [
+          "Strassenverkehr",
+          94
+        ],
+        [
+          "Innerstadt",
+          104
+        ],
+        [
+          "Generell tagsüber",
+          77
+        ],
+        [
+          "Grossveranstaltungen",
+          110
+        ],
+        [
+          "Messeplatz",
+          119
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            },
+      "align": "left",
+      "x": -140
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 563,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 150,
+    "inverted": true,
+    "renderTo": "container-9123",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zufriedenheit mit Präsenz Kantonspolizei"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverkauf beurteilen», Basel-Stadt, 2018"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "type": "category",
+      "rotation": 0
+    },
+    "max": 100
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name;
+        },
+    "enabled": true,
+    "itemWidth": 140,
+    "reversed": true
+  },
+  "exporting": {
+    "filename": 9123
+  }
+}

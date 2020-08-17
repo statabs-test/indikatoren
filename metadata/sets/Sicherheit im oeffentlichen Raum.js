@@ -274,6 +274,45 @@ var indikatorensetData = [
 		"id": 9122
 	},
 	{
+		"title": "Zufriedenheit mit Präsenz Kantonspolizei",
+		"subtitle": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverkauf beurteilen», Basel-Stadt, 2018",
+		"kuerzel": "I.50.1.09123",
+		"kuerzelKunde": "3-12",
+		"description": "Zufriedenheit mit Präsenz Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_033",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9123,
+		"chart-id": 9123,
+		"filter": "",
+		"id": 9123
+	},
+	{
 		"title": "Zufriedenheit mit Sauberkeit Strassen/Plätze",
 		"subtitle": "«Wie zufrieden sind Sie mit der Sauberkeit auf den Strassen und den Plätzen im Kanton?», Basel-Stadt",
 		"kuerzel": "I.50.1.09124",
