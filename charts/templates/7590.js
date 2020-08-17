@@ -79,7 +79,7 @@
         '#689199',
         '#DC440E',
         '#083038'
-      ],
+      ]/*,
       dataLabels: {
         enabled: true,
         format: '{point.percentage:.0f}%',
@@ -90,7 +90,7 @@
           fontWeight: "normal", 
           fontSize: "12px"
         }
-    }
+      }*/
   }],
       
   "tooltip": {

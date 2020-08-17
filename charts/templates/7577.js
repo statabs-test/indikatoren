@@ -87,7 +87,7 @@
         '#A8C3CA',
         '#689199',
         '#246370'
-      ],
+      ]/*,
       dataLabels: {
         enabled: true,
         format: '{point.percentage:.0f}%',
@@ -98,7 +98,7 @@
           fontWeight: "normal", 
           fontSize: "12px"
         }
-    }
+      }*/
   }],
   tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',

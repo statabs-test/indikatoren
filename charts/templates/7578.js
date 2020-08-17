@@ -55,7 +55,7 @@
             '#FFDA80', 
             '#CD9C00',
             '#45381D',
-          ],
+           ]/*,
           dataLabels: {
             enabled: true,
                   format: '{point.percentage:.0f}%',
@@ -66,7 +66,7 @@
                       fontWeight: "normal", 
                       fontSize: "12px"
                   }
-        }
+          }*/
       }],
       
     "tooltip": {
