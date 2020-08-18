@@ -144,7 +144,6 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung",
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
@@ -275,7 +274,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Präsenz Kantonspolizei",
-		"subtitle": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverkauf beurteilen», Basel-Stadt, 2018",
+		"subtitle": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverlauf beurteilen», Basel-Stadt, 2018",
 		"kuerzel": "I.50.1.09123",
 		"kuerzelKunde": "3-12",
 		"description": "Zufriedenheit mit Präsenz Kantonspolizei",
@@ -340,7 +339,6 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung",
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
@@ -380,7 +378,6 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung",
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,

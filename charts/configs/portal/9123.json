@@ -1,9 +1,7 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#FFBB58",
       "data": [
         [
           "Generell nachts",
@@ -66,9 +64,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#71A3B5",
       "data": [
         [
           "Generell nachts",
@@ -131,9 +127,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#256370",
       "data": [
         [
           "Generell nachts",
@@ -197,8 +191,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 1,
-      "legendIndex": 1,
       "data": [
         [
           "Generell nachts",
@@ -261,9 +253,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#8A8A8A",
       "data": [
         [
           "Generell nachts",
@@ -345,22 +335,7 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
-      "align": "left",
-      "x": -140
+      "formatter": undefined
     }
   },
   "chart": {
@@ -382,7 +357,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 563,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -394,7 +369,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 150,
     "inverted": true,
     "renderTo": "container-9123",
     "spacingBottom": 40
@@ -414,7 +388,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverkauf beurteilen», Basel-Stadt, 2018"
+    "text": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverlauf beurteilen», Basel-Stadt, 2018"
   },
   "navigation": {
     "menuItemStyle": {
@@ -431,13 +405,10 @@
         }
       },
       "stacking": "percent"
-    },
-    "column": {
-      "groupPadding": 0
     }
   },
   "yAxis": {
-    "tickInterval": 20,
+    "tickInterval": null,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -454,11 +425,9 @@
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      },
-      "type": "category",
-      "rotation": 0
+      }
     },
-    "max": 100
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -487,16 +456,13 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null,
-      "whiteSpace": "nowrap"
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
+            return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true,
-    "itemWidth": 140,
-    "reversed": true
+    "itemWidth": 150
   },
   "exporting": {
     "filename": 9123
