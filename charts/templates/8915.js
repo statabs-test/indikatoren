@@ -3,7 +3,7 @@
 "plotOptions": {
     "series": {
       pointPadding: 100,
-      "pointWidth": 40,
+      "pointWidth": 30,
       borderWidth: 0,
       "dataLabels": {
         "style": {

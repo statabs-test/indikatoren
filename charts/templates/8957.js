@@ -5,8 +5,9 @@
     },
     "yAxis": {
       "min": undefined,
-      tickInterval: 5,
-      max: 130,
+      tickInterval: 10,
+      max: 150,
+      min: 90,
       "labels": {
         "format": "{value:,.0f}"
       },
