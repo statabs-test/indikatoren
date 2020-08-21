@@ -221,11 +221,11 @@
       "showInLegend": false,
       "data": [
         [
-          2019.25,
+          2019.4,
           -500
         ],
         [
-          2019.25,
+          2019.4,
           2000
         ],
         [
@@ -348,8 +348,7 @@
       "format": "{value:,.0f}"
     },
     "min": -500,
-    "max": 2000,
-    "tickAmount": 6
+    "max": 2000
   },
   "legend": {
     "symbolRadius": 0,

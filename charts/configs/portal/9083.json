@@ -15,7 +15,7 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.name}",
-        "distance": 15,
+        "distance": 5,
         "connectorWidth": 0,
         "style": {
           "color": "black",
@@ -170,7 +170,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Anteile 2019",
+    "text": "Basel-Stadt, Anteile 2020",
     "align": "left"
   },
   "tooltip": {

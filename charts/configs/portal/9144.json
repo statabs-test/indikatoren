@@ -455,7 +455,7 @@
                 }
     },
     "renderTo": "container-9144",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -489,7 +489,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "",
+    "text": "Basel-Landschaft",
     "align": "left"
   },
   "xAxis": {
@@ -589,9 +589,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-13"
+    "text": "Quelle: Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-11"
   },
   "dataLabels": {
     "enabled": false,

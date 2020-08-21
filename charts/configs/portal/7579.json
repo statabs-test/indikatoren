@@ -216,21 +216,16 @@
       "name": "Nettoproduktion"
     },
     {
-      "color": "#7F5F1A",
-      "type": "column",
-      "showInLegend": false
-    },
-    {
       "type": "polygon",
       "enableMouseTracking": false,
       "showInLegend": false,
       "data": [
         [
-          2019.25,
+          2019.4,
           -250
         ],
         [
-          2019.25,
+          2019.4,
           1000
         ],
         [
@@ -353,7 +348,8 @@
       "format": "{value:,.0f}"
     },
     "min": -250,
-    "max": 1000
+    "max": 1000,
+    "tickInterval": 250
   },
   "legend": {
     "symbolRadius": 0,

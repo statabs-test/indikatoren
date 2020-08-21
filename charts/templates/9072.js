@@ -1,19 +1,23 @@
 (function(){
     return {
- "xAxis": {
-    "type": "category",
-    labels:{
-      rotation: 0
-    }
-  },
-  "yAxis": {
-    min: -250,
-    max: 1000,
-    tickAmount: 6,
-	"labels": {
-		"format": "{value:,.0f}"
-	}
-  },	
+      "xAxis": {
+        //"type": "category",
+        labels:{
+          rotation: 0
+        },
+        endOnTick: true,
+        startOnTick: true,
+        min: 2010,
+        max: 2020
+      },
+      "yAxis": {
+        min: -250,
+        max: 1000,
+        tickInterval: 250,  
+      "labels": {
+        "format": "{value:,.0f}",   
+        }
+      },	
   "tooltip": {
     "shared": false, 
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
@@ -45,6 +49,19 @@
       enabled: false
     },
     legendIndex: 3
+  },
+  {
+    type: 'polygon',
+    enableMouseTracking: false,
+    showInLegend: false,
+    data: [
+      [2019.4, -250],
+      [2019.4, 1000],
+      [2021, 1000],
+      [2021, -250]
+    ],
+    zIndex: -99,
+    color: '#E7CEE2'
   }
 	  ],
   "legend": {
