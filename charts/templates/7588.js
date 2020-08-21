@@ -1,7 +1,7 @@
 (function(){
   return {
  chart: {
-  type: "area"
+  type: "area",
  },
   plotOptions: {
        area: {
@@ -16,7 +16,12 @@
     }
   },
   xAxis: {
-    type: "category",
+    //type: "category",
+    min: 2011,
+    max: 2020,
+    tickInterval: 1,
+    endOnTick: true,
+    startOnTick: true,
   },
   legend: {
     enabled: true,

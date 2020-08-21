@@ -11,7 +11,7 @@
   
   yAxis: [
       {
-        max: 1200,
+        max: 1500,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 

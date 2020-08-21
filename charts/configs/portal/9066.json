@@ -367,7 +367,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 2,
     "alignColumns": false
   },
   "navigation": {

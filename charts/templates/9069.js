@@ -11,7 +11,7 @@ plotOptions: {
 
 yAxis: [
     {
-      max: 1200,
+      max: 1500,
       tickAmount: 4,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,

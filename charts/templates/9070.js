@@ -65,7 +65,7 @@
   
         },
         distance: 15,
-        connectorWidth: 2,
+        connectorWidth: 1,
         style: {
           color: 'black',
           textOutline: "0px black", 

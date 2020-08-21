@@ -63,7 +63,7 @@
     verticalAlign: "top",
     align: "left",
   	itemMarginBottom: 5,
-  	itemDistance: 2,
+  	//itemDistance: 2,
     padding: 1, 
     alignColumns: false,
   	//symbolPadding: 5,
