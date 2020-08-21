@@ -55,9 +55,11 @@
         '#083038'
       ],
       dataLabels: {
+        overflow: "justify",
+        crop: false,
         enabled: true,
         format: '{point.name}',
-        distance: 15,
+        distance: 0,
         connectorWidth: 0,
         style: {
           color: 'black',

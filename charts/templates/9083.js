@@ -57,7 +57,7 @@
       dataLabels: {
         enabled: true,
         format: '{point.name}',
-        distance: 15,
+        distance: 5,
         connectorWidth: 0,
         style: {
           color: 'black',
