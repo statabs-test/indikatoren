@@ -1,0 +1,891 @@
+{
+  "series": [
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "data": [
+        [
+          "2010-1",
+          30866
+        ],
+        [
+          "2010-2",
+          31556
+        ],
+        [
+          "2010-3",
+          31607
+        ],
+        [
+          "2010-4",
+          31090
+        ],
+        [
+          "2011-1",
+          30953
+        ],
+        [
+          "2011-2",
+          31352
+        ],
+        [
+          "2011-3",
+          31869
+        ],
+        [
+          "2011-4",
+          31928
+        ],
+        [
+          "2012-1",
+          31997
+        ],
+        [
+          "2012-2",
+          32575
+        ],
+        [
+          "2012-3",
+          32951
+        ],
+        [
+          "2012-4",
+          32800
+        ],
+        [
+          "2013-1",
+          32863
+        ],
+        [
+          "2013-2",
+          33403
+        ],
+        [
+          "2013-3",
+          33774
+        ],
+        [
+          "2013-4",
+          33603
+        ],
+        [
+          "2014-1",
+          33678
+        ],
+        [
+          "2014-2",
+          34252
+        ],
+        [
+          "2014-3",
+          34682
+        ],
+        [
+          "2014-4",
+          34535
+        ],
+        [
+          "2015-1",
+          34615
+        ],
+        [
+          "2015-2",
+          35071
+        ],
+        [
+          "2015-3",
+          35278
+        ],
+        [
+          "2015-4",
+          34948
+        ],
+        [
+          "2016-1",
+          35284
+        ],
+        [
+          "2016-2",
+          35743
+        ],
+        [
+          "2016-3",
+          35933
+        ],
+        [
+          "2016-4",
+          35739
+        ],
+        [
+          "2017-1",
+          35324
+        ],
+        [
+          "2017-2",
+          35738
+        ],
+        [
+          "2017-3",
+          35968
+        ],
+        [
+          "2017-4",
+          35656
+        ],
+        [
+          "2018-1",
+          34836
+        ],
+        [
+          "2018-2",
+          34538
+        ],
+        [
+          "2018-3",
+          34196
+        ],
+        [
+          "2018-4",
+          33897
+        ],
+        [
+          "2019-1",
+          33715
+        ],
+        [
+          "2019-2",
+          33643
+        ],
+        [
+          "2019-3",
+          33784
+        ],
+        [
+          "2019-4",
+          33932
+        ]
+      ],
+      "name": "BS",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 1,
+      "data": [
+        [
+          "2010-1",
+          18262
+        ],
+        [
+          "2010-2",
+          18570
+        ],
+        [
+          "2010-3",
+          18564
+        ],
+        [
+          "2010-4",
+          18321
+        ],
+        [
+          "2011-1",
+          18459
+        ],
+        [
+          "2011-2",
+          18681
+        ],
+        [
+          "2011-3",
+          18895
+        ],
+        [
+          "2011-4",
+          18694
+        ],
+        [
+          "2012-1",
+          18733
+        ],
+        [
+          "2012-2",
+          18967
+        ],
+        [
+          "2012-3",
+          19025
+        ],
+        [
+          "2012-4",
+          18864
+        ],
+        [
+          "2013-1",
+          18673
+        ],
+        [
+          "2013-2",
+          18909
+        ],
+        [
+          "2013-3",
+          19039
+        ],
+        [
+          "2013-4",
+          19163
+        ],
+        [
+          "2014-1",
+          19240
+        ],
+        [
+          "2014-2",
+          19531
+        ],
+        [
+          "2014-3",
+          19841
+        ],
+        [
+          "2014-4",
+          19792
+        ],
+        [
+          "2015-1",
+          19892
+        ],
+        [
+          "2015-2",
+          20238
+        ],
+        [
+          "2015-3",
+          20464
+        ],
+        [
+          "2015-4",
+          20462
+        ],
+        [
+          "2016-1",
+          20420
+        ],
+        [
+          "2016-2",
+          20623
+        ],
+        [
+          "2016-3",
+          20810
+        ],
+        [
+          "2016-4",
+          20691
+        ],
+        [
+          "2017-1",
+          20679
+        ],
+        [
+          "2017-2",
+          20923
+        ],
+        [
+          "2017-3",
+          21362
+        ],
+        [
+          "2017-4",
+          21348
+        ],
+        [
+          "2018-1",
+          21335
+        ],
+        [
+          "2018-2",
+          21519
+        ],
+        [
+          "2018-3",
+          21609
+        ],
+        [
+          "2018-4",
+          21589
+        ],
+        [
+          "2019-1",
+          21698
+        ],
+        [
+          "2019-2",
+          21820
+        ],
+        [
+          "2019-3",
+          22141
+        ],
+        [
+          "2019-4",
+          22319
+        ]
+      ],
+      "name": "BL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 1,
+      "data": [
+        [
+          "2010-1",
+          10383
+        ],
+        [
+          "2010-2",
+          10754
+        ],
+        [
+          "2010-3",
+          10902
+        ],
+        [
+          "2010-4",
+          10700
+        ],
+        [
+          "2011-1",
+          10827
+        ],
+        [
+          "2011-2",
+          11030
+        ],
+        [
+          "2011-3",
+          11300
+        ],
+        [
+          "2011-4",
+          11337
+        ],
+        [
+          "2012-1",
+          11572
+        ],
+        [
+          "2012-2",
+          11856
+        ],
+        [
+          "2012-3",
+          12088
+        ],
+        [
+          "2012-4",
+          12079
+        ],
+        [
+          "2013-1",
+          12166
+        ],
+        [
+          "2013-2",
+          12423
+        ],
+        [
+          "2013-3",
+          12621
+        ],
+        [
+          "2013-4",
+          12718
+        ],
+        [
+          "2014-1",
+          12814
+        ],
+        [
+          "2014-2",
+          13037
+        ],
+        [
+          "2014-3",
+          13270
+        ],
+        [
+          "2014-4",
+          13241
+        ],
+        [
+          "2015-1",
+          13233
+        ],
+        [
+          "2015-2",
+          13327
+        ],
+        [
+          "2015-3",
+          13589
+        ],
+        [
+          "2015-4",
+          13536
+        ],
+        [
+          "2016-1",
+          13690
+        ],
+        [
+          "2016-2",
+          13932
+        ],
+        [
+          "2016-3",
+          14020
+        ],
+        [
+          "2016-4",
+          13970
+        ],
+        [
+          "2017-1",
+          13880
+        ],
+        [
+          "2017-2",
+          14026
+        ],
+        [
+          "2017-3",
+          14139
+        ],
+        [
+          "2017-4",
+          14148
+        ],
+        [
+          "2018-1",
+          13879
+        ],
+        [
+          "2018-2",
+          13650
+        ],
+        [
+          "2018-3",
+          13551
+        ],
+        [
+          "2018-4",
+          13601
+        ],
+        [
+          "2019-1",
+          13599
+        ],
+        [
+          "2019-2",
+          13677
+        ],
+        [
+          "2019-3",
+          13789
+        ],
+        [
+          "2019-4",
+          13916
+        ]
+      ],
+      "name": "AG",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 2,
+      "data": [
+        [
+          "2010-1",
+          5980
+        ],
+        [
+          "2010-2",
+          6220
+        ],
+        [
+          "2010-3",
+          6337
+        ],
+        [
+          "2010-4",
+          6371
+        ],
+        [
+          "2011-1",
+          6511
+        ],
+        [
+          "2011-2",
+          6739
+        ],
+        [
+          "2011-3",
+          6922
+        ],
+        [
+          "2011-4",
+          7046
+        ],
+        [
+          "2012-1",
+          7253
+        ],
+        [
+          "2012-2",
+          7461
+        ],
+        [
+          "2012-3",
+          7683
+        ],
+        [
+          "2012-4",
+          7725
+        ],
+        [
+          "2013-1",
+          7936
+        ],
+        [
+          "2013-2",
+          8173
+        ],
+        [
+          "2013-3",
+          8380
+        ],
+        [
+          "2013-4",
+          8409
+        ],
+        [
+          "2014-1",
+          8554
+        ],
+        [
+          "2014-2",
+          8716
+        ],
+        [
+          "2014-3",
+          8850
+        ],
+        [
+          "2014-4",
+          8900
+        ],
+        [
+          "2015-1",
+          9025
+        ],
+        [
+          "2015-2",
+          9192
+        ],
+        [
+          "2015-3",
+          9351
+        ],
+        [
+          "2015-4",
+          9365
+        ],
+        [
+          "2016-1",
+          9564
+        ],
+        [
+          "2016-2",
+          9637
+        ],
+        [
+          "2016-3",
+          9794
+        ],
+        [
+          "2016-4",
+          9836
+        ],
+        [
+          "2017-1",
+          9875
+        ],
+        [
+          "2017-2",
+          10041
+        ],
+        [
+          "2017-3",
+          10165
+        ],
+        [
+          "2017-4",
+          10128
+        ],
+        [
+          "2018-1",
+          10170
+        ],
+        [
+          "2018-2",
+          10204
+        ],
+        [
+          "2018-3",
+          10209
+        ],
+        [
+          "2018-4",
+          10200
+        ],
+        [
+          "2019-1",
+          10199
+        ],
+        [
+          "2019-2",
+          10305
+        ],
+        [
+          "2019-3",
+          10342
+        ],
+        [
+          "2019-4",
+          10405
+        ]
+      ],
+      "name": "ZH",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "x": 11,
+      "rotation": 0,
+      "formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7008",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Grenzgänger nach Kanton"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>';
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value),0)+''; 
+      }
+    },
+    "tickAmount": 9,
+    "tickInterval": 5000
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7008
+  }
+}

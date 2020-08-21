@@ -1,113 +1,225 @@
 {
   "series": [
     {
-      "name": "Standortqualität",
+      "color": "#008AC3",
       "data": [
         [
+          "BS",
+          2.07
+        ],
+        [
           "ZG",
-          2.19
+          2.05
         ],
         [
           "ZH",
-          1.4
+          1.35
+        ],
+        [
+          "AG",
+          0.84
+        ],
+        [
+          "NW",
+          0.61
+        ],
+        [
+          "SZ",
+          0.59
+        ],
+        [
+          "LU",
+          0.54
+        ],
+        [
+          "VD",
+          0.24
+        ],
+        [
+          "AR",
+          0.19
+        ],
+        [
+          "TG",
+          0.13
+        ],
+        [
+          "BL",
+          0.09
+        ],
+        [
+          "OW",
+          0.04
+        ],
+        [
+          "SH",
+          0.03
+        ],
+        [
+          "GE",
+          0.02
+        ],
+        [
+          "SG",
+          -0.29
+        ],
+        [
+          "AI",
+          -0.3
+        ],
+        [
+          "SO",
+          -0.31
+        ],
+        [
+          "BE",
+          -0.72
+        ],
+        [
+          "NE",
+          -0.74
+        ],
+        [
+          "UR",
+          -0.83
+        ],
+        [
+          "GL",
+          -0.95
+        ],
+        [
+          "TI",
+          -1
+        ],
+        [
+          "FR",
+          -1.06
+        ],
+        [
+          "GR",
+          -1.17
+        ],
+        [
+          "VS",
+          -1.67
+        ],
+        [
+          "JU",
+          -1.92
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A0BEC8",
+      "data": [
+        [
+          "BS",
+          0.88
+        ],
+        [
+          "ZG",
+          2.21
+        ],
+        [
+          "ZH",
+          1.42
         ],
         [
           "AG",
           0.97
         ],
         [
-          "BS",
-          0.86
-        ],
-        [
           "NW",
-          0.71
+          0.75
         ],
         [
           "SZ",
-          0.67
+          0.71
         ],
         [
           "LU",
-          0.64
+          0.7
+        ],
+        [
+          "VD",
+          -0.48
         ],
         [
           "AR",
           0.32
         ],
         [
-          "OW",
+          "TG",
           0.27
         ],
         [
-          "TG",
-          0.24
+          "BL",
+          0.18
         ],
         [
-          "BL",
-          0.16
+          "OW",
+          0.22
         ],
         [
           "SH",
-          0.1
+          0.16
         ],
         [
           "GE",
           0.06
         ],
         [
-          "AI",
-          -0.11
+          "SG",
+          -0.17
         ],
         [
-          "SG",
-          -0.2
+          "AI",
+          -0.07
         ],
         [
           "SO",
-          -0.23
-        ],
-        [
-          "VD",
-          -0.36
+          -0.21
         ],
         [
           "BE",
-          -0.64
-        ],
-        [
-          "NE",
           -0.66
         ],
         [
+          "NE",
+          -0.57
+        ],
+        [
           "UR",
-          -0.75
+          -0.72
         ],
         [
           "GL",
-          -0.82
+          -0.84
+        ],
+        [
+          "TI",
+          -0.85
         ],
         [
           "FR",
           -0.98
         ],
         [
-          "TI",
-          -1.04
-        ],
-        [
           "GR",
-          -1.09
+          -1.06
         ],
         [
           "VS",
-          -1.58
+          -1.57
         ],
         [
           "JU",
           -1.84
         ]
       ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -127,7 +239,10 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": -90,
+      "rotation": 0,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+},
       "padding": 0,
       "step": 1
     },
@@ -137,7 +252,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -157,7 +272,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -165,7 +280,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -183,22 +297,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -208,16 +323,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -229,7 +344,7 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 5,
+    "spacingBottom": 15,
     "spacingTop": 5,
     "renderTo": "container-6372"
   },
@@ -239,21 +354,20 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
-      }
+      },
+      "pointPadding": 0
     },
-    "column": {
-      "colorByPoint": true
-    }
+    "column": {}
   },
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Standortqualitätsindikator (SQI)"
@@ -261,11 +375,11 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
+    "text": "Basel-Stadt im kantonalen Vergleich",
     "align": "left"
   },
   "yAxis": {
@@ -274,8 +388,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -287,7 +401,28 @@
       },
       "format": "{value:,.1f}"
     },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B9CFD7",
+        "width": 1
+      }
+    ],
     "tickInterval": 0.5
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -298,66 +433,25 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Credit Suisse Group AG."
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "x": 35
+    "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
-  "colors": [
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#B00000",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B"
-  ],
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

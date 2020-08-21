@@ -7,35 +7,35 @@
       "data": [
         [
           "Bau- und Ausbaugewerbe",
-          19.4
+          20.3
         ],
         [
           "Gastgewerbe, pers. DL",
-          30.3
-        ],
-        [
-          "Technische Berufe, Informatik",
-          40.1
-        ],
-        [
-          "Industrie und Gewerbe",
-          44.8
+          29.2
         ],
         [
           "Land- und Forstwirtschaft",
-          47.8
+          38.1
+        ],
+        [
+          "Technische Berufe, Informatik",
+          41.8
+        ],
+        [
+          "Industrie und Gewerbe",
+          46.7
         ],
         [
           "Handels- und Verkehrsberufe",
-          50.2
+          50.3
         ],
         [
           "Gesundheit, Lehre, Kultur",
-          58.6
+          59.5
         ],
         [
           "Banken, Versicherungen o.ä.",
-          63.6
+          59.7
         ]
       ],
       "name": "Schweiz",
@@ -48,35 +48,35 @@
       "data": [
         [
           "Bau- und Ausbaugewerbe",
-          80.6
+          79.7
         ],
         [
           "Gastgewerbe, pers. DL",
-          69.7
-        ],
-        [
-          "Technische Berufe, Informatik",
-          59.9
-        ],
-        [
-          "Industrie und Gewerbe",
-          55.2
+          70.8
         ],
         [
           "Land- und Forstwirtschaft",
-          52.2
+          61.9
+        ],
+        [
+          "Technische Berufe, Informatik",
+          58.2
+        ],
+        [
+          "Industrie und Gewerbe",
+          53.3
         ],
         [
           "Handels- und Verkehrsberufe",
-          49.8
+          49.7
         ],
         [
           "Gesundheit, Lehre, Kultur",
-          41.4
+          40.5
         ],
         [
           "Banken, Versicherungen o.ä.",
-          36.4
+          40.3
         ]
       ],
       "name": "Ausland",
@@ -95,12 +95,15 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000",
         "textOverflow": "none"
       },
       "y": 3,
-      "padding": 0
+      "padding": 0,
+      "formatter": function () {
+          return this.value.replace(' und ', ' u. ').replace("Technische", "Techn.");
+        }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -109,7 +112,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -129,7 +132,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -137,7 +140,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -155,22 +157,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -180,16 +183,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -199,12 +202,12 @@
                     }
                 }
     },
-    "marginRight": 6,
+    "marginRight": 15,
     "type": "column",
     "inverted": true,
-    "marginLeft": 150,
+    "marginLeft": 135,
     "renderTo": "container-6687",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -212,9 +215,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "stacking": "normal"
@@ -223,8 +226,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Anteil Arbeitslose in ausgewählten Berufsgruppen"
@@ -232,11 +235,11 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -245,8 +248,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -263,6 +266,20 @@
     "max": 100,
     "tickInterval": 20
   },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -272,35 +289,23 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
-  },
-  "legend": {
-    "padding": 1,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

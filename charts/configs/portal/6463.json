@@ -5,78 +5,11 @@
       "data": [
         [
           "Industrie (inkl. Chemie, Pharma)",
-          0.01
-        ],
-        [
-          "Baugewerbe",
-          0.071
-        ],
-        [
-          "Handel, Reparatur",
-          0.006
-        ],
-        [
-          "Verkehr, Lagerei, Kommunikation",
-          0.001
-        ],
-        [
-          "Gastgewerbe",
-          0.015
-        ],
-        [
-          "IT-Dienstleistungen",
-          0.027
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.001
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.006
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.017
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.05
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.003
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.002
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.004
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.032
-        ],
-        [
-          "Total",
-          0.013
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "data": [
-        [
-          "Industrie (inkl. Chemie, Pharma)",
           0.009
         ],
         [
           "Baugewerbe",
-          0.067
+          0.069
         ],
         [
           "Handel, Reparatur",
@@ -92,11 +25,11 @@
         ],
         [
           "IT-Dienstleistungen",
-          0.025
+          0.024
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0
+          0.001
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
@@ -108,7 +41,7 @@
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.06
+          0.059
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -120,11 +53,11 @@
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.004
+          0.003
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.036
+          0.035
         ],
         [
           "Total",
@@ -135,7 +68,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#B375AB",
       "data": [
         [
           "Industrie (inkl. Chemie, Pharma)",
@@ -143,7 +76,7 @@
         ],
         [
           "Baugewerbe",
-          0.059
+          0.061
         ],
         [
           "Handel, Reparatur",
@@ -159,7 +92,7 @@
         ],
         [
           "IT-Dienstleistungen",
-          0.019
+          0.018
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -175,7 +108,7 @@
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.063
+          0.061
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -200,6 +133,73 @@
       ],
       "name": "2018",
       "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "Industrie (inkl. Chemie, Pharma)",
+          0.008
+        ],
+        [
+          "Baugewerbe",
+          0.052
+        ],
+        [
+          "Handel, Reparatur",
+          0.006
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.004
+        ],
+        [
+          "Gastgewerbe",
+          0.014
+        ],
+        [
+          "IT-Dienstleistungen",
+          0.023
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.001
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.004
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.01
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.058
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.003
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.002
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.004
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.029
+        ],
+        [
+          "Total",
+          0.012
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -207,6 +207,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -222,12 +223,9 @@
       "formatter": function() {
             return this.value.replace("/", "<br/>")
         }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 663,
     "spacing": [
@@ -236,25 +234,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "marginLeft": 200,
     "marginBottom": 70,
@@ -275,27 +277,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -314,6 +315,16 @@
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       }
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -334,17 +345,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "tooltip": {
     "pointFormatter": function(){

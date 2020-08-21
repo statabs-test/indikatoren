@@ -6,83 +6,27 @@
       "data": [
         [
           "2013",
-          1
+          31
         ],
         [
           "2014",
-          4
+          46
         ],
         [
           "2015",
-          1
+          32
+        ],
+        [
+          "2016",
+          32
         ]
       ],
-      "name": "Chemie\u002FPharma",
+      "name": "Industrie",
       "turboThreshold": 0
     },
     {
       "color": "#DC440E",
       "index": 13,
-      "data": [
-        [
-          "2013",
-          302
-        ],
-        [
-          "2014",
-          399
-        ],
-        [
-          "2015",
-          326
-        ]
-      ],
-      "name": "Unternehmensdienstleistungen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "index": 12,
-      "data": [
-        [
-          "2013",
-          55
-        ],
-        [
-          "2014",
-          80
-        ],
-        [
-          "2015",
-          56
-        ]
-      ],
-      "name": "Detailhandel\u002FReparatur",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "index": 11,
-      "data": [
-        [
-          "2013",
-          121
-        ],
-        [
-          "2014",
-          140
-        ],
-        [
-          "2015",
-          122
-        ]
-      ],
-      "name": "Gesundheits-\u002FSozialwesen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFDA80",
-      "index": 10,
       "data": [
         [
           "2013",
@@ -95,14 +39,66 @@
         [
           "2015",
           72
+        ],
+        [
+          "2016",
+          60
         ]
       ],
       "name": "Baugewerbe",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
-      "index": 9,
+      "color": "#FF8028",
+      "index": 12,
+      "data": [
+        [
+          "2013",
+          89
+        ],
+        [
+          "2014",
+          125
+        ],
+        [
+          "2015",
+          103
+        ],
+        [
+          "2016",
+          74
+        ]
+      ],
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 11,
+      "data": [
+        [
+          "2013",
+          34
+        ],
+        [
+          "2014",
+          29
+        ],
+        [
+          "2015",
+          39
+        ],
+        [
+          "2016",
+          33
+        ]
+      ],
+      "name": "Verkehr, Lagerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 10,
       "data": [
         [
           "2013",
@@ -115,54 +111,42 @@
         [
           "2015",
           33
+        ],
+        [
+          "2016",
+          38
         ]
       ],
-      "name": "Gastgewerbe",
+      "name": "Gastgewerbe, Beherbergung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "data": [
+        [
+          "2013",
+          54
+        ],
+        [
+          "2014",
+          77
+        ],
+        [
+          "2015",
+          67
+        ],
+        [
+          "2016",
+          70
+        ]
+      ],
+      "name": "Information, Kommunikation",
       "turboThreshold": 0
     },
     {
       "color": "#D7E8D2",
       "index": 8,
-      "data": [
-        [
-          "2013",
-          33
-        ],
-        [
-          "2014",
-          25
-        ],
-        [
-          "2015",
-          37
-        ]
-      ],
-      "name": "Verkehr und Lagerei",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73BA7C",
-      "index": 7,
-      "data": [
-        [
-          "2013",
-          34
-        ],
-        [
-          "2014",
-          45
-        ],
-        [
-          "2015",
-          47
-        ]
-      ],
-      "name": "Grosshandel",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#2B0099",
-      "index": 6,
       "data": [
         [
           "2013",
@@ -175,9 +159,61 @@
         [
           "2015",
           28
+        ],
+        [
+          "2016",
+          19
         ]
       ],
-      "name": "Finanzdienstleistungen",
+      "name": "Finanz- und Versicherungsdienstl.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 7,
+      "data": [
+        [
+          "2013",
+          76
+        ],
+        [
+          "2014",
+          93
+        ],
+        [
+          "2015",
+          94
+        ],
+        [
+          "2016",
+          76
+        ]
+      ],
+      "name": "Immobilien, wirtschaftliche Dienstl.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 6,
+      "data": [
+        [
+          "2013",
+          246
+        ],
+        [
+          "2014",
+          339
+        ],
+        [
+          "2015",
+          275
+        ],
+        [
+          "2016",
+          257
+        ]
+      ],
+      "name": "Freiberufl., wiss., techn. Dienstl.",
       "turboThreshold": 0
     },
     {
@@ -186,18 +222,22 @@
       "data": [
         [
           "2013",
-          36
+          46
         ],
         [
           "2014",
-          48
+          86
         ],
         [
           "2015",
-          51
+          48
+        ],
+        [
+          "2016",
+          48
         ]
       ],
-      "name": "Informatikdienste",
+      "name": "Unterrichtswesen",
       "turboThreshold": 0
     },
     {
@@ -206,18 +246,22 @@
       "data": [
         [
           "2013",
-          20
+          121
         ],
         [
           "2014",
-          33
+          140
         ],
         [
           "2015",
-          43
+          122
+        ],
+        [
+          "2016",
+          118
         ]
       ],
-      "name": "Immobilienwesen",
+      "name": "Gesundheits- und Sozialwesen",
       "turboThreshold": 0
     },
     {
@@ -226,18 +270,22 @@
       "data": [
         [
           "2013",
-          129
+          125
         ],
         [
           "2014",
-          175
+          173
         ],
         [
           "2015",
-          145
+          143
+        ],
+        [
+          "2016",
+          112
         ]
       ],
-      "name": "Unterhaltung\u002FKultur\u002FSport",
+      "name": "Kunst, Unterhaltung, Erholung",
       "turboThreshold": 0
     },
     {
@@ -246,18 +294,22 @@
       "data": [
         [
           "2013",
-          179
+          88
         ],
         [
           "2014",
-          244
+          85
         ],
         [
           "2015",
-          185
+          90
+        ],
+        [
+          "2016",
+          87
         ]
       ],
-      "name": "Anderes",
+      "name": "Sonstige Dienstl.",
       "turboThreshold": 0
     }
   ],
@@ -277,7 +329,8 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "step": 1
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -306,7 +359,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -314,7 +367,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -332,22 +384,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -357,16 +410,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -388,9 +441,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "stacking": "normal",
@@ -400,8 +453,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Anzahl Neugründungen in Basel-Stadt"
@@ -409,9 +462,9 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
     "text": "in ausgewählten Branchen",
     "align": "left"
@@ -422,8 +475,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -437,6 +490,20 @@
     },
     "tickAmount": 7
   },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -446,8 +513,8 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -456,25 +523,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

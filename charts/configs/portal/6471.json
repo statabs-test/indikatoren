@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          483184
+          443236
         ],
         [
           "Deutschland",
-          220917
+          200100
         ],
         [
           "Italien",
-          55987
+          60062
         ],
         [
           "Türkei",
-          5979
+          7416
         ],
         [
           "EU-17 + EFTA",
-          147178
+          151896
         ],
         [
           "EU-Ost",
-          31324
+          38559
         ],
         [
           "Balkan",
-          8394
+          8695
         ],
         [
           "Mittel- und Südamerika",
-          28830
+          21822
         ],
         [
           "Arabische Länder",
-          9766
+          9419
         ],
         [
           "Afrikanische Länder",
-          18457
+          15320
         ],
         [
           "Übrige Länder",
-          154902
+          141550
         ]
       ],
-      "name": "Mittelwert 2007",
+      "name": "Mittelwert 2008",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          606883
+          550139
         ],
         [
           "Deutschland",
-          251815
+          251358
         ],
         [
           "Italien",
-          121018
+          140386
         ],
         [
           "Türkei",
-          13454
+          14831
         ],
         [
           "EU-17 + EFTA",
-          281881
+          296200
         ],
         [
           "EU-Ost",
-          91698
+          115821
         ],
         [
           "Balkan",
-          15281
+          17344
         ],
         [
           "Mittel- und Südamerika",
-          49643
+          53290
         ],
         [
           "Arabische Länder",
-          21115
+          25204
         ],
         [
           "Afrikanische Länder",
-          13673
+          11990
         ],
         [
           "Übrige Länder",
-          269630
+          282335
         ]
       ],
-      "name": "Mittelwert 2016",
+      "name": "Mittelwert 2017",
       "turboThreshold": 0
     }
   ],
@@ -110,6 +110,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -120,12 +121,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -134,25 +132,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": true,
@@ -172,27 +174,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Mittelwert des Reinvermögens pro Veranlagung"
   },
   "subtitle": {
+    "text": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -208,6 +209,16 @@
       "format": "{value:,.0f}"
     },
     "tickInterval": 200000
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -228,17 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-10"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

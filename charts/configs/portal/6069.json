@@ -6,35 +6,35 @@
       "data": [
         [
           "Schweiz",
-          45.8
+          46.1
         ],
         [
           "Deutschland",
-          15
+          15.2
         ],
         [
           "Italien",
-          12.1
+          13.8
         ],
         [
           "Türkei",
-          1.4
+          1.5
         ],
         [
           "EU-17 + EFTA",
-          6.8
+          7
         ],
         [
           "EU-Ost",
-          5.2
+          4.5
         ],
         [
           "Balkan",
-          2.2
+          2.4
         ],
         [
           "Mittel- und Südamerika",
-          0.9
+          1
         ],
         [
           "Arabische Länder",
@@ -46,10 +46,10 @@
         ],
         [
           "Übrige Länder",
-          3.5
+          3.6
         ]
       ],
-      "name": "1999",
+      "name": "2000",
       "turboThreshold": 0
     },
     {
@@ -58,23 +58,23 @@
       "data": [
         [
           "Schweiz",
-          45.3
+          45.2
         ],
         [
           "Deutschland",
-          8.2
+          8.1
         ],
         [
           "Italien",
-          32.2
+          32.3
         ],
         [
           "Türkei",
-          13.2
+          14.8
         ],
         [
           "EU-17 + EFTA",
-          8.8
+          8.6
         ],
         [
           "EU-Ost",
@@ -82,26 +82,26 @@
         ],
         [
           "Balkan",
-          13
+          14.9
         ],
         [
           "Mittel- und Südamerika",
-          2.6
+          2.5
         ],
         [
           "Arabische Länder",
-          3.2
+          3.6
         ],
         [
           "Afrikanische Länder",
-          1.4
+          1.8
         ],
         [
           "Übrige Länder",
-          3.4
+          3.5
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -110,6 +110,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -120,12 +121,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -134,25 +132,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": true,
@@ -172,27 +174,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Altersquotient nach Staatsangehörigkeit"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -207,6 +208,16 @@
       },
       "format": "{value:,.0f}"
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -227,17 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-15"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

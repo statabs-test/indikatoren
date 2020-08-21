@@ -4,44 +4,44 @@
       "color": "#C8C8C8",
       "data": [
         [
-          2008,
+          2009,
           100
         ],
         [
-          2009,
+          2010,
           102.3
         ],
         [
-          2010,
-          104.6
-        ],
-        [
           2011,
-          106.6
+          104.2
         ],
         [
           2012,
-          110.8
+          108.4
         ],
         [
           2013,
-          110.6
+          108.2
         ],
         [
           2014,
-          114.4
+          111.9
         ],
         [
           2015,
-          115.2
+          112.7
         ],
         [
           2016,
-          116.5
+          113.8
         ],
         [
           2017,
-          116.9
+          114.9
+        ],
+        [
+          2018,
+          114.8
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)"
@@ -50,44 +50,44 @@
       "color": "#008AC3",
       "data": [
         [
-          2008,
+          2009,
           100
         ],
         [
-          2009,
-          96.1
-        ],
-        [
           2010,
-          87.9
+          91.4
         ],
         [
           2011,
-          89.8
+          93.4
         ],
         [
           2012,
-          84.7
+          88.1
         ],
         [
           2013,
-          86
+          89.4
         ],
         [
           2014,
-          87.5
+          90.9
         ],
         [
           2015,
-          84.2
+          87.4
         ],
         [
           2016,
-          81.9
+          85
         ],
         [
           2017,
-          83.1
+          81
+        ],
+        [
+          2018,
+          81.3
         ]
       ],
       "name": "Erziehung, Unterricht"
@@ -96,44 +96,44 @@
       "color": "#6F6F6F",
       "data": [
         [
-          2008,
+          2009,
           100
         ],
         [
-          2009,
-          103.8
-        ],
-        [
           2010,
-          104.5
+          100.6
         ],
         [
           2011,
-          107.1
+          103.1
         ],
         [
           2012,
-          107.4
+          103.4
         ],
         [
           2013,
-          113
+          108.8
         ],
         [
           2014,
-          115
+          110.6
         ],
         [
           2015,
-          116.7
+          112.2
         ],
         [
           2016,
-          122.2
+          117.5
         ],
         [
           2017,
-          126.1
+          122.6
+        ],
+        [
+          2018,
+          125.6
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
@@ -142,158 +142,79 @@
       "color": "#2B0099",
       "data": [
         [
-          2008,
+          2009,
           100
         ],
         [
-          2009,
-          101.1
-        ],
-        [
           2010,
-          94.5
+          92.8
         ],
         [
           2011,
-          87.4
+          85.1
         ],
         [
           2012,
-          81.2
+          78.4
         ],
         [
           2013,
-          71.1
+          68.6
         ],
         [
           2014,
-          69
+          65.1
         ],
         [
           2015,
-          63.2
+          62
         ],
         [
           2016,
-          64.5
+          63.6
         ],
         [
           2017,
-          66.1
+          71.7
+        ],
+        [
+          2018,
+          71.8
         ]
       ],
       "name": "Kultur, Unterhaltung"
     }
   ],
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-6449"
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "symbolPadding": 3,
-    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
@@ -308,40 +229,125 @@
       }
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolPadding": 3,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6449

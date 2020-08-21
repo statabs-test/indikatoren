@@ -220,7 +220,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -233,7 +233,7 @@
     "zoomType": "xy",
     "type": "column",
     "renderTo": "container-5192",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -250,7 +250,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»"
+    "text": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?», Basel-Stadt, 2015"
   },
   "navigation": {
     "menuItemStyle": {
@@ -305,25 +305,26 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/', '/<br/>');
-        },
-    "reversed": false
+    "labelFormatter": function(){
+        return this.name.replace("/", " /<br/>");
+
+      },
+    "reversed": true
   },
   "exporting": {
     "filename": 5192

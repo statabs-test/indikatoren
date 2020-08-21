@@ -92,16 +92,18 @@
             layout: "horizontal",
             verticalAlign: "top",
             align: "left",
+            //alignColumns: false,
             symbolRadius: 0,
-            margin: 5,
-            //padding: 5,
-            itemDistance: 10,
+            //margin: 0,
+            padding: 0,
+            itemDistance: 2,
             itemMarginBottom: 5,
+            itemMarginTop: -7,
             itemStyle: {
                 fontWeight: "normal",
                 fontSize: "10px",
                 color: '#000000',
-                width: 115,
+                //width: 115,
                 textOverflow: "none"
             }
         },

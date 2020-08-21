@@ -5,22 +5,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          378
+          414
         ],
         [
           "3-Sterne",
-          1262
+          1400
         ],
         [
           "4- und 5-Sterne",
-          1628
+          1654
         ],
         [
           "Nicht klassiert",
-          268
+          279
         ]
       ],
-      "name": "Verfügbare Zimmer 2009",
+      "name": "Verfügbare Zimmer 2010",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          727
+          709
         ],
         [
           "3-Sterne",
-          1646
+          1690
         ],
         [
           "4- und 5-Sterne",
-          1692
+          1726
         ],
         [
           "Nicht klassiert",
-          346
+          342
         ]
       ],
-      "name": "Verfügbare Zimmer 2018",
+      "name": "Verfügbare Zimmer 2019",
       "turboThreshold": 0
     },
     {
@@ -57,22 +57,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.516005456
+          0.597178579
         ],
         [
           "3-Sterne",
-          0.642513546
+          0.653571322
         ],
         [
           "4- und 5-Sterne",
-          0.631309527
+          0.616250087
         ],
         [
           "Nicht klassiert",
-          0.40791436
+          0.38492143
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2009",
+      "name": "Nettozimmerauslastung (rechte Skala) 2010",
       "turboThreshold": 0
     },
     {
@@ -86,22 +86,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.531156006
+          0.569354542
         ],
         [
           "3-Sterne",
-          0.657905249
+          0.652387304
         ],
         [
           "4- und 5-Sterne",
-          0.64980253
+          0.681675957
         ],
         [
           "Nicht klassiert",
-          0.64980253
+          0.59698089
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2018",
+      "name": "Nettozimmerauslastung (rechte Skala) 2019",
       "turboThreshold": 0
     }
   ],
@@ -110,6 +110,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -119,12 +120,9 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -133,10 +131,14 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
       "load": function(){
             this.credits.element.onclick = function() {};
@@ -182,23 +184,22 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Anzahl Zimmer und Auslastung nach Hotelkategorie"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": [
     {
@@ -244,27 +245,6 @@
       }
     }
   ],
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
-  },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -290,6 +270,27 @@
         "fontWeight": "normal"
       }
     }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

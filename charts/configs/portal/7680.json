@@ -1,72 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
-      "index": 1,
-      "data": [
-        [
-          "2013",
-          131
-        ],
-        [
-          "2014",
-          129
-        ],
-        [
-          "2015",
-          160
-        ],
-        [
-          "2016",
-          180
-        ],
-        [
-          "2017",
-          170
-        ],
-        [
-          "2018",
-          165
-        ]
-      ],
-      "name": "Eigentümerwohnungen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#008AC3",
-      "index": 2,
-      "data": [
-        [
-          "2013",
-          61
-        ],
-        [
-          "2014",
-          60
-        ],
-        [
-          "2015",
-          59
-        ],
-        [
-          "2016",
-          61
-        ],
-        [
-          "2017",
-          83
-        ],
-        [
-          "2018",
-          110
-        ]
-      ],
-      "name": "Genossenschaftswohnungen",
-      "turboThreshold": 0
-    },
-    {
       "color": "#ffbb58",
-      "index": 3,
       "data": [
         [
           "2013",
@@ -97,8 +32,69 @@
       "turboThreshold": 0
     },
     {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2013",
+          61
+        ],
+        [
+          "2014",
+          60
+        ],
+        [
+          "2015",
+          59
+        ],
+        [
+          "2016",
+          61
+        ],
+        [
+          "2017",
+          83
+        ],
+        [
+          "2018",
+          110
+        ]
+      ],
+      "name": "Genossenschaftswohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "2013",
+          131
+        ],
+        [
+          "2014",
+          129
+        ],
+        [
+          "2015",
+          160
+        ],
+        [
+          "2016",
+          180
+        ],
+        [
+          "2017",
+          170
+        ],
+        [
+          "2018",
+          165
+        ]
+      ],
+      "name": "selbstbewohnte Eigentümerwohnungen",
+      "turboThreshold": 0
+    },
+    {
       "color": "#662673",
-      "index": 0,
       "data": [
         [
           "2013",
@@ -134,6 +130,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -144,12 +141,9 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -158,25 +152,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "y",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "renderTo": "container-7680",
@@ -184,7 +182,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -194,27 +192,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Wohnungen nach Belegungsart"
   },
   "subtitle": {
+    "text": "Wohnviertel Rosental",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Wohnviertel Rosental",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -226,9 +223,24 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "tickInterval": 500,
+    "reversedStacks": false
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "reversed": true,
+    "labelFormatter": function () {
+        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('selbstbewohnte', 'selbstbewohnte<br>');
+      }
   },
   "navigation": {
     "menuItemStyle": {
@@ -249,22 +261,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-9"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": false
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": 7680

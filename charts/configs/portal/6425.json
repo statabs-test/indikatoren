@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          181
+          183
         ],
         [
           "Mittleres Kader",
-          410
+          411
         ],
         [
           "Mittleres Fachkader",
-          234
+          258
         ],
         [
           "Unteres Kader",
-          595
+          605
         ],
         [
           "Unteres Fachkader",
-          132
+          133
         ]
       ],
       "name": "Schweiz",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Oberes Kader",
-          11
+          12
         ],
         [
           "Mittleres Kader",
-          40
+          41
         ],
         [
           "Mittleres Fachkader",
-          21
+          27
         ],
         [
           "Unteres Kader",
-          78
+          79
         ],
         [
           "Unteres Fachkader",
-          13
+          15
         ]
       ],
       "name": "Deutschland",
@@ -77,7 +77,7 @@
         ],
         [
           "Unteres Kader",
-          5
+          8
         ],
         [
           "Unteres Fachkader",
@@ -127,7 +127,7 @@
         ],
         [
           "Mittleres Kader",
-          8
+          6
         ],
         [
           "Mittleres Fachkader",
@@ -135,7 +135,7 @@
         ],
         [
           "Unteres Kader",
-          9
+          8
         ],
         [
           "Unteres Fachkader",
@@ -156,7 +156,7 @@
         ],
         [
           "Mittleres Kader",
-          0
+          1
         ],
         [
           "Mittleres Fachkader",
@@ -164,7 +164,7 @@
         ],
         [
           "Unteres Kader",
-          0
+          1
         ],
         [
           "Unteres Fachkader",
@@ -222,7 +222,7 @@
         ],
         [
           "Unteres Kader",
-          1
+          0
         ],
         [
           "Unteres Fachkader",
@@ -325,6 +325,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -335,13 +336,10 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "min": 0,
     "tickInterval": 1
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -350,25 +348,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "renderTo": "container-6425",
     "marginBottom": 75,
@@ -390,27 +392,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Angestellte in der Verwaltung Basel-Stadt"
   },
   "subtitle": {
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2019",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "nach Staatsangehörigkeit und Kaderstufe, 2018",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -424,7 +425,20 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": undefined
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "itemDistance": 1,
+    "verticalAlign": "top",
+    "itemMarginBottom": 1,
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -445,18 +459,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

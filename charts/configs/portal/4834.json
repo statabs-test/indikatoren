@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          31.766005032
+          32.20917147278098
         ],
         [
           "Kleinhüningen",
-          32.244484629
+          32.6070110701107
         ],
         [
           "Rosental",
-          33.602657907
+          34.51346572361262
         ],
         [
           "Matthäus",
-          34.932337722
+          35.749175361831036
         ],
         [
           "Clara",
-          36.286571056
-        ],
-        [
-          "St. Johann",
-          36.361505244
+          36.610416666666666
         ],
         [
           "Iselin",
-          36.415617577
+          36.682021600334146
         ],
         [
-          "Gundeldingen",
-          38.334746684
+          "St. Johann",
+          36.73291010089559
         ],
         [
           "Breite",
-          38.580147476
+          38.852427404718696
         ],
         [
           "Hirzbrunnen",
-          38.913104491
+          38.98393748643369
+        ],
+        [
+          "Gundeldingen",
+          39.012817031445174
         ],
         [
           "Gotthelf",
-          40.865903756
+          41.42121524201854
         ],
         [
           "Altstadt Kleinbasel",
-          42.766153846
-        ],
-        [
-          "Wettstein",
-          45.328020756
+          43.25678682688029
         ],
         [
           "Am Ring",
-          45.35195972
+          45.404458288718
+        ],
+        [
+          "Wettstein",
+          45.97710776102736
         ],
         [
           "Bachletten",
-          46.271230827
+          46.15430135365042
         ],
         [
           "Riehen",
-          47.529964691
+          47.48610913909792
         ],
         [
           "St. Alban",
-          48.422274199
+          48.31641285956007
         ],
         [
           "Bruderholz",
-          48.463106267
+          48.37687898777982
         ],
         [
           "Vorstädte",
-          49.837307449
-        ],
-        [
-          "Bettingen",
-          52.784728611
+          50.3673640167364
         ],
         [
           "Altstadt Grossbasel",
-          53.158121706
+          52.64847899565427
+        ],
+        [
+          "Bettingen",
+          52.93681318681318
         ]
       ],
       "name": "Wohnfläche pro Kopf",
@@ -115,23 +115,23 @@
           5
         ],
         [
-          "St. Johann",
+          "Iselin",
           6
         ],
         [
-          "Iselin",
+          "St. Johann",
           7
         ],
         [
-          "Gundeldingen",
+          "Breite",
           8
         ],
         [
-          "Breite",
+          "Hirzbrunnen",
           9
         ],
         [
-          "Hirzbrunnen",
+          "Gundeldingen",
           10
         ],
         [
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Wettstein",
+          "Am Ring",
           13
         ],
         [
-          "Am Ring",
+          "Wettstein",
           14
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Bettingen",
+          "Altstadt Grossbasel",
           20
         ],
         [
-          "Altstadt Grossbasel",
+          "Bettingen",
           21
         ]
       ],
@@ -248,8 +248,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2018",
-    "align": "left"
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2019",
+    "align": "left",
+    "useHTML": true
   },
   "plotOptions": {
     "series": {
@@ -302,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-24"
   },
   "legend": {
     "enabled": false,

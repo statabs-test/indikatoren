@@ -274,7 +274,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»"
+    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -332,13 +332,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d.\u003Cbr\u002F\u003EZuletzt geändert: 2017-2-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -347,8 +347,9 @@
     "symbolRadius": 0,
     "labelFormatter": function(){
             return this.name.replace("/", " /<br/>");
-        },
-    "reversed": true
+    
+          },
+    "reversed": false
   },
   "exporting": {
     "filename": 4854

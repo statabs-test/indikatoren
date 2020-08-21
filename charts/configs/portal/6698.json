@@ -6,27 +6,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          3842
+          3893
         ],
         [
           "Unteres Fachkader",
-          67
+          69
         ],
         [
           "Unteres Kader",
-          183
+          174
         ],
         [
           "Mittleres Fachkader",
-          101
+          102
         ],
         [
           "Mittleres Kader",
-          196
+          201
         ],
         [
           "Oberes Kader",
-          122
+          118
         ]
       ],
       "name": "Schweiz",
@@ -38,27 +38,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          1444
+          1463
         ],
         [
           "Unteres Fachkader",
-          46
+          42
         ],
         [
           "Unteres Kader",
-          119
+          112
         ],
         [
           "Mittleres Fachkader",
-          45
+          47
         ],
         [
           "Mittleres Kader",
-          110
+          117
         ],
         [
           "Oberes Kader",
-          76
+          72
         ]
       ],
       "name": "Schweizer",
@@ -70,23 +70,23 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          2398
+          2430
         ],
         [
           "Unteres Fachkader",
-          21
+          27
         ],
         [
           "Unteres Kader",
-          64
+          62
         ],
         [
           "Mittleres Fachkader",
-          56
+          55
         ],
         [
           "Mittleres Kader",
-          86
+          84
         ],
         [
           "Oberes Kader",
@@ -102,11 +102,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          683
+          689
         ],
         [
           "Unteres Fachkader",
-          7
+          8
         ],
         [
           "Unteres Kader",
@@ -114,15 +114,15 @@
         ],
         [
           "Mittleres Fachkader",
-          13
+          11
         ],
         [
           "Mittleres Kader",
-          13
+          15
         ],
         [
           "Oberes Kader",
-          5
+          7
         ]
       ],
       "name": "Ausland",
@@ -134,11 +134,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          268
+          266
         ],
         [
           "Unteres Fachkader",
-          2
+          3
         ],
         [
           "Unteres Kader",
@@ -150,11 +150,11 @@
         ],
         [
           "Mittleres Kader",
-          9
+          8
         ],
         [
           "Oberes Kader",
-          2
+          3
         ]
       ],
       "name": "Ausländer",
@@ -166,7 +166,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          415
+          423
         ],
         [
           "Unteres Fachkader",
@@ -178,15 +178,15 @@
         ],
         [
           "Mittleres Fachkader",
-          8
+          6
         ],
         [
           "Mittleres Kader",
-          4
+          7
         ],
         [
           "Oberes Kader",
-          3
+          4
         ]
       ],
       "name": "Ausländerinnen",
@@ -220,7 +220,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -240,7 +240,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -248,7 +248,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -266,22 +265,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -291,16 +291,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -322,9 +322,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0,
@@ -334,8 +334,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt"
@@ -343,11 +343,11 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2017",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -356,8 +356,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -365,12 +365,27 @@
       "y": 18,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
     "max": 4000
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "x": -1,
+    "enabled": true,
+    "itemDistance": 5,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -381,8 +396,8 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -391,32 +406,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst."
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "x": -1,
-    "enabled": true,
-    "itemDistance": 5,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 6698

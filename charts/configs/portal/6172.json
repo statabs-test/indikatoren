@@ -20,7 +20,7 @@
         ],
         [
           2011,
-          1909.375911
+          1907.112111
         ],
         [
           2012,
@@ -69,7 +69,7 @@
         ],
         [
           2011,
-          1896.090739
+          1893.842691
         ],
         [
           2012,
@@ -118,7 +118,7 @@
         ],
         [
           2011,
-          6336.174386
+          6328.662073
         ],
         [
           2012,
@@ -167,7 +167,7 @@
         ],
         [
           2011,
-          1259.604887
+          1258.11147
         ],
         [
           2012,
@@ -216,7 +216,7 @@
         ],
         [
           2011,
-          3380.791902
+          3376.783559
         ],
         [
           2012,
@@ -265,7 +265,7 @@
         ],
         [
           2011,
-          4334.5996
+          4329.4604
         ],
         [
           2012,
@@ -314,7 +314,7 @@
         ],
         [
           2011,
-          657.831731
+          657.05179
         ],
         [
           2012,
@@ -363,7 +363,7 @@
         ],
         [
           2011,
-          501.561306
+          500.966643
         ],
         [
           2012,
@@ -412,7 +412,7 @@
         ],
         [
           2011,
-          180.070585
+          179.85709
         ],
         [
           2012,
@@ -461,7 +461,7 @@
         ],
         [
           2011,
-          1415.237508
+          1413.55957
         ],
         [
           2012,
@@ -517,7 +517,7 @@
         ],
         [
           2011,
-          21871.33856
+          21845.407403
         ],
         [
           2012,
@@ -548,8 +548,6 @@
     }
   ],
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -558,32 +556,36 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "renderTo": "container-6172",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -599,27 +601,27 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Entwicklung der Staatsausgaben für Gesundheit"
   },
   "subtitle": {
+    "text": "pro Kopf in Franken, Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "pro Kopf in Franken, Basel-Stadt",
-    "align": "left"
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "uniqueNames": true,
     "title": {
       "style": {
@@ -631,7 +633,6 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "yAxis": [
@@ -643,6 +644,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -660,10 +662,23 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }
   ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemWidth": 200,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -684,18 +699,6 @@
       "y": -25
     },
     "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-13"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "itemWidth": 200,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left"
   },
   "tooltip": {
     "shared": false,

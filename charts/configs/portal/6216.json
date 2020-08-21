@@ -1344,6 +1344,275 @@
       ],
       "name": "Weiss nicht",
       "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2015: ÖV-Angebot",
+          0
+        ],
+        [
+          "2019: ÖV-Angebot",
+          75
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. in Basel",
+          0
+        ],
+        [
+          "2019: Einkaufsmögl. im Kanton",
+          70
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Abfallbeseitigung",
+          0
+        ],
+        [
+          "2019: Abfallbeseitigung",
+          87
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: Einkaufsmögl. im Quartier",
+          0
+        ],
+        [
+          "2019: Einkaufsmögl. am Wohnort",
+          67
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015: Grünanlagen",
+          0
+        ],
+        [
+          "2019: Parks, Grünanlagen",
+          84
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Gesundheitsversorgung",
+          0
+        ],
+        [
+          "2019: Gesundheitsversorgung",
+          79
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2015: Öffentliche Sicherheit",
+          0
+        ],
+        [
+          "2019: Öffentliche Sicherheit",
+          78
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Kulturangebot",
+          0
+        ],
+        [
+          "2019: Kulturangebot",
+          92
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2015: Verkehrssicherheit",
+          0
+        ],
+        [
+          "2019: Verkehrssicherheit",
+          85
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2015: Sauberkeit",
+          0
+        ],
+        [
+          "2019: Sauberkeit",
+          92
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2015: Gebäude\u002FStrassenbild",
+          0
+        ],
+        [
+          "2019: Gebäude\u002FStrassenbild",
+          90
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2015: Luftqualität",
+          0
+        ],
+        [
+          "2019: Luftqualität",
+          82
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2015: Zusammensetz. Bev.",
+          0
+        ],
+        [
+          "2019: Zusammensetz. Bev.",
+          81
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "2015: Quartierleben",
+          1
+        ],
+        [
+          "2019: Quartierleben",
+          96
+        ],
+        [
+          "              ",
+          null
+        ],
+        [
+          "2015: Lärmsituation",
+          0
+        ],
+        [
+          "2019: Lärmsituation",
+          91
+        ],
+        [
+          "               ",
+          null
+        ],
+        [
+          "2015: Senioreneinrichtungen",
+          0
+        ],
+        [
+          "2019: Senioreneinrichtungen",
+          77
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "2015: Schule, Bildung",
+          0
+        ],
+        [
+          "2019: Schulen, Bildung",
+          85
+        ],
+        [
+          "                 ",
+          null
+        ],
+        [
+          "2015: Wohnungsangebot",
+          0
+        ],
+        [
+          "2019: Wohnungsangebot",
+          87
+        ],
+        [
+          "                  ",
+          null
+        ],
+        [
+          "2015: Arbeitsplatzangebot",
+          0
+        ],
+        [
+          "2019: Arbeitsplätzangebot",
+          101
+        ],
+        [
+          "                   ",
+          null
+        ],
+        [
+          "2015: Behinderteneinrichtungen",
+          0
+        ],
+        [
+          "2019: Behinderteneinrichtungen",
+          86
+        ],
+        [
+          "                    ",
+          null
+        ],
+        [
+          "2015: Jugendeinrichtungen",
+          0
+        ],
+        [
+          "2019: Jugendeinrichtungen",
+          88
+        ],
+        [
+          "                     ",
+          null
+        ],
+        [
+          "2015: Kinderbetreuung",
+          0
+        ],
+        [
+          "2019: Kinderbetreuung",
+          80
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -1365,23 +1634,33 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' :  'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    var txt = this.value
+                        .replace("mögl.", "m.")
+                        .replace("im ", "")
+                        .replace("am ", "")
+                        .replace("in ", "")
+                        .replace("versorgung", "vers.");
+
+                    //check for value that contains only spaces
+                    return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';
+                },
       "align": "left",
       "x": -190
-    }
+    },
+    "min": 0,
+    "max": 31
   },
   "chart": {
     "events": {
@@ -1426,7 +1705,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort"
+    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1"
   },
   "subtitle": {
     "style": {
@@ -1434,7 +1713,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» \u003Cbr\u003E Stand: 2019"
+    "text": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -1451,10 +1730,9 @@
         }
       },
       "stacking": "percent",
-      "pointPadding": 0.1,
-      "groupPadding": 0,
-      "shadow": false,
-      "pointWidth": 10
+      "pointPadding": 0.05,
+      "groupPadding": 0.02,
+      "shadow": false
     }
   },
   "yAxis": {
@@ -1495,7 +1773,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-12"
   },
   "legend": {
     "layout": "horizontal",

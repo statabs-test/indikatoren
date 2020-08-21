@@ -7,43 +7,43 @@
       "data": [
         [
           "USA",
-          300451
+          291417
         ],
         [
           "Australien",
-          201677
-        ],
-        [
-          "Kanada",
-          187043
-        ],
-        [
-          "Grossbritannien",
-          166714
+          208745
         ],
         [
           "Belgien",
-          159428
+          172540
+        ],
+        [
+          "Grossbritannien",
+          167629
         ],
         [
           "Irland",
-          157356
+          165113
+        ],
+        [
+          "Kanada",
+          155465
         ],
         [
           "Dänemark",
-          142692
+          146914
         ],
         [
           "Niederlande",
-          128648
+          140198
         ],
         [
           "Indien",
-          124884
+          138063
         ],
         [
-          "Frankreich",
-          124606
+          "Schweden",
+          134400
         ]
       ],
       "name": "Mittelwert",
@@ -56,43 +56,43 @@
       "data": [
         [
           "USA",
-          162883
+          168806
         ],
         [
           "Australien",
-          175566
-        ],
-        [
-          "Kanada",
-          150097
-        ],
-        [
-          "Grossbritannien",
-          129164
+          190359
         ],
         [
           "Belgien",
-          98109
+          100286
+        ],
+        [
+          "Grossbritannien",
+          131021
         ],
         [
           "Irland",
-          140621
+          143280
+        ],
+        [
+          "Kanada",
+          135658
         ],
         [
           "Dänemark",
-          86020
+          99308
         ],
         [
           "Niederlande",
-          89882
+          94277
         ],
         [
           "Indien",
-          119008
+          120407
         ],
         [
-          "Frankreich",
-          74468
+          "Schweden",
+          100250
         ]
       ],
       "name": "Median",
@@ -109,43 +109,43 @@
       "data": [
         [
           "USA",
-          529
+          547
         ],
         [
           "Australien",
-          64
-        ],
-        [
-          "Kanada",
-          122
-        ],
-        [
-          "Grossbritannien",
-          1005
+          62
         ],
         [
           "Belgien",
-          126
+          114
+        ],
+        [
+          "Grossbritannien",
+          1062
         ],
         [
           "Irland",
-          110
+          118
+        ],
+        [
+          "Kanada",
+          117
         ],
         [
           "Dänemark",
-          89
+          96
         ],
         [
           "Niederlande",
-          349
+          354
         ],
         [
           "Indien",
-          271
+          329
         ],
         [
-          "Frankreich",
-          845
+          "Schweden",
+          138
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -176,7 +176,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -196,7 +196,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -204,7 +204,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -222,22 +221,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -247,16 +247,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -269,7 +269,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6711",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -277,9 +277,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0,
@@ -289,8 +289,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Mittelwert und Median des Reineinkommens pro Veranlagung"
@@ -298,18 +298,19 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2015",
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2016",
     "align": "left"
   },
   "yAxis": [
     {
       "tickAmount": 5,
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.0f} Fr.",
+        "x": -5,
         "style": {
           "color": "#000000",
           "fontSize": "10px"
@@ -327,6 +328,7 @@
       },
       "labels": {
         "format": "{value:,.0f}",
+        "x": 5,
         "style": {
           "color": "#000000",
           "fontSize": "10px"
@@ -338,6 +340,21 @@
       "opposite": true
     }
   ],
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "alignColumns": false,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -347,36 +364,23 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik."
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "alignColumns": false,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

@@ -6,54 +6,54 @@
       "data": [
         [
           "Jan",
-          25685.8
+          26491.8
         ],
         [
           "Feb",
-          26210
+          26785.1
         ],
         [
           "Mrz",
-          33022.9
+          34140.9
         ],
         [
           "Apr",
-          27485.7
+          28961
         ],
         [
           "Mai",
-          29564
+          31841.7
         ],
         [
           "Jun",
-          27978.8
+          29373.9
         ],
         [
           "Jul",
-          32777.4
+          34563.3
         ],
         [
           "Aug",
-          28121.6
+          28874.7
         ],
         [
           "Sep",
-          29809.4
+          30673.5
         ],
         [
           "Okt",
-          33455.7
+          35568.9
         ],
         [
           "Nov",
-          37521.3
+          38766.7
         ],
         [
           "Dez",
-          29438.4
+          31304.2
         ]
       ],
-      "name": "Inland Ø 2009-2018",
+      "name": "Inland Ø 2010-2019",
       "turboThreshold": 0
     },
     {
@@ -62,54 +62,54 @@
       "data": [
         [
           "Jan",
-          48051
+          48989.4
         ],
         [
           "Feb",
-          54961
+          55660.1
         ],
         [
           "Mrz",
-          72984
+          73821.3
         ],
         [
           "Apr",
-          61605
+          63467.9
         ],
         [
           "Mai",
-          67883
+          72525.4
         ],
         [
           "Jun",
-          84640
+          87483.6
         ],
         [
           "Jul",
-          73800
+          77110.2
         ],
         [
           "Aug",
-          72704.1
+          75094.2
         ],
         [
           "Sep",
-          74275.6
+          75452.8
         ],
         [
           "Okt",
-          71565
+          73302.4
         ],
         [
           "Nov",
-          64183
+          64680.3
         ],
         [
           "Dez",
-          58821
+          60926.3
         ]
       ],
-      "name": "Ausland Ø 2009-2018",
+      "name": "Ausland Ø 2010-2019",
       "turboThreshold": 0
     },
     {
@@ -118,54 +118,54 @@
       "data": [
         [
           "Jan",
-          36106
+          24826
         ],
         [
           "Feb",
-          35027
+          25112
         ],
         [
           "Mrz",
-          37092
+          41822
         ],
         [
           "Apr",
-          35624
+          35971
         ],
         [
           "Mai",
-          37483
+          45878
         ],
         [
           "Jun",
-          38654
+          38259
         ],
         [
           "Jul",
-          42566
+          46335
         ],
         [
           "Aug",
-          37780
+          38959
         ],
         [
           "Sep",
-          35730
+          40240
         ],
         [
           "Okt",
-          42687
+          48344
         ],
         [
           "Nov",
-          39717
+          50055
         ],
         [
           "Dez",
-          39537
+          40976
         ]
       ],
-      "name": "Inland 2018",
+      "name": "Inland 2019",
       "turboThreshold": 0
     },
     {
@@ -174,54 +174,54 @@
       "data": [
         [
           "Jan",
-          55153
+          52888
         ],
         [
           "Feb",
-          57885
+          56030
         ],
         [
           "Mrz",
-          77249
+          78426
         ],
         [
           "Apr",
-          72075
+          70923
         ],
         [
           "Mai",
-          74776
+          100558
         ],
         [
           "Jun",
-          96582
+          100289
         ],
         [
           "Jul",
-          86556
+          98271
         ],
         [
           "Aug",
-          93558
+          88103
         ],
         [
           "Sep",
-          84523
+          80432
         ],
         [
           "Okt",
-          83306
+          81743
         ],
         [
           "Nov",
-          72583
+          68286
         ],
         [
           "Dez",
-          74250
+          70760
         ]
       ],
-      "name": "Ausland 2018",
+      "name": "Ausland 2019",
       "turboThreshold": 0
     }
   ],
@@ -230,6 +230,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -239,12 +240,9 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -253,25 +251,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "renderTo": "container-6545",
@@ -292,27 +294,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Logiernächte pro Monat nach Herkunft der Gäste"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -328,6 +329,18 @@
     },
     "reversedStacks": false,
     "tickAmount": 7
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 180,
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -348,19 +361,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-5"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 180,
-    "itemMarginBottom": 5
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

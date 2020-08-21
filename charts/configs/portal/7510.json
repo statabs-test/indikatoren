@@ -4,38 +4,6 @@
       "color": "#083038",
       "data": [
         [
-          1541034000000,
-          0.031058
-        ],
-        [
-          1543626000000,
-          0.033234
-        ],
-        [
-          1546304400000,
-          0.034453
-        ],
-        [
-          1548982800000,
-          0.032712
-        ],
-        [
-          1551402000000,
-          0.032054
-        ],
-        [
-          1554084000000,
-          0.030526
-        ],
-        [
-          1556676000000,
-          0.029142
-        ],
-        [
-          1559354400000,
-          0.028069
-        ],
-        [
           1561946400000,
           0.02775
         ],
@@ -54,6 +22,38 @@
         [
           1572570000000,
           0.029239
+        ],
+        [
+          1575162000000,
+          0.031464
+        ],
+        [
+          1577840400000,
+          0.032354
+        ],
+        [
+          1580518800000,
+          0.031841
+        ],
+        [
+          1583024400000,
+          0.035304
+        ],
+        [
+          1585706400000,
+          0.038438
+        ],
+        [
+          1588298400000,
+          0.039792
+        ],
+        [
+          1590976800000,
+          0.040256
+        ],
+        [
+          1593568800000,
+          0.041117
         ]
       ],
       "name": "Total"
@@ -61,38 +61,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          1541034000000,
-          0.035438
-        ],
-        [
-          1543626000000,
-          0.035904
-        ],
-        [
-          1546304400000,
-          0.034972
-        ],
-        [
-          1548982800000,
-          0.033223
-        ],
-        [
-          1551402000000,
-          0.03334
-        ],
-        [
-          1554084000000,
-          0.030076
-        ],
-        [
-          1556676000000,
-          0.029143
-        ],
-        [
-          1559354400000,
-          0.030076
-        ],
         [
           1561946400000,
           0.03264
@@ -112,6 +80,38 @@
         [
           1572570000000,
           0.033107
+        ],
+        [
+          1575162000000,
+          0.035788
+        ],
+        [
+          1577840400000,
+          0.034506
+        ],
+        [
+          1580518800000,
+          0.032058
+        ],
+        [
+          1583024400000,
+          0.034972
+        ],
+        [
+          1585706400000,
+          0.038003
+        ],
+        [
+          1588298400000,
+          0.042899
+        ],
+        [
+          1590976800000,
+          0.044881
+        ],
+        [
+          1593568800000,
+          0.050243
         ]
       ],
       "name": "15-24 Jahre"
@@ -119,38 +119,6 @@
     {
       "color": "#71A3B5",
       "data": [
-        [
-          1541034000000,
-          0.024719
-        ],
-        [
-          1543626000000,
-          0.026274
-        ],
-        [
-          1546304400000,
-          0.027958
-        ],
-        [
-          1548982800000,
-          0.027116
-        ],
-        [
-          1551402000000,
-          0.026177
-        ],
-        [
-          1554084000000,
-          0.025496
-        ],
-        [
-          1556676000000,
-          0.024589
-        ],
-        [
-          1559354400000,
-          0.023844
-        ],
         [
           1561946400000,
           0.02352
@@ -170,6 +138,38 @@
         [
           1572570000000,
           0.025399
+        ],
+        [
+          1575162000000,
+          0.027051
+        ],
+        [
+          1577840400000,
+          0.027732
+        ],
+        [
+          1580518800000,
+          0.027796
+        ],
+        [
+          1583024400000,
+          0.029416
+        ],
+        [
+          1585706400000,
+          0.030745
+        ],
+        [
+          1588298400000,
+          0.031295
+        ],
+        [
+          1590976800000,
+          0.030907
+        ],
+        [
+          1593568800000,
+          0.031911
         ]
       ],
       "name": "50 Jahre u.m."
@@ -179,6 +179,13 @@
     "type": "datetime",
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
@@ -192,110 +199,38 @@
               }
             }
     },
-    "tickLength": 0,
     "tickInterval": 2592000000
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-7510"
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Arbeitslosenquote nach Alter"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormatter": function(){
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
-        },
-    "xDateFormat": "%Y-%m"
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}",
-      "formatter": function(){
-                return Highcharts.numberFormat((this.value*100),0)+'%'; 
-              }
-    }
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-9"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
   },
   "plotOptions": {
     "series": {
@@ -314,40 +249,110 @@
       }
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitslosenquote nach Alter"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
     }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function(){
+                return Highcharts.numberFormat((this.value*100),0)+'%'; 
+              }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-10"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
+        },
+    "xDateFormat": "%Y-%m"
   },
   "exporting": {
     "filename": 7510

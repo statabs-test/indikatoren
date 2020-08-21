@@ -46,6 +46,10 @@
         [
           2018,
           0
+        ],
+        [
+          2019,
+          0
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -96,6 +100,10 @@
         [
           2018,
           0
+        ],
+        [
+          2019,
+          1
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
@@ -146,6 +154,10 @@
         [
           2018,
           7
+        ],
+        [
+          2019,
+          0
         ]
       ],
       "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
@@ -195,6 +207,10 @@
         ],
         [
           2018,
+          0
+        ],
+        [
+          2019,
           0
         ]
       ],
@@ -246,6 +262,10 @@
         [
           2018,
           -2
+        ],
+        [
+          2019,
+          0
         ]
       ],
       "name": "Zweckentfremdungen von Wohnungen"
@@ -304,14 +324,16 @@
         [
           2018,
           5
+        ],
+        [
+          2019,
+          1
         ]
       ],
       "name": "Umbausaldo"
     }
   ],
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -320,25 +342,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "renderTo": "container-7685",
@@ -346,7 +372,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -356,27 +382,27 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "Umbausaldo, nach Art des Umbaus"
+    "text": "Umgebaute Wohnungen"
   },
   "subtitle": {
+    "text": "nach Art des Umbaus, Wohnviertel Rosental",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Wohnviertel Rosental",
-    "align": "left"
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "uniqueNames": true,
     "title": {
       "style": {
@@ -388,12 +414,11 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -417,6 +442,18 @@
       }
     ]
   },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 111,
+      "textOverflow": null
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 7,
+    "align": "right"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -436,19 +473,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "width": 111,
-      "textOverflow": null
-    },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 7,
-    "align": "right"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}% der Zu- resp. Abgänge)\u003Cbr\u002F\u003E",

@@ -5,19 +5,19 @@
       "data": [
         [
           "18-24 Jahre",
-          29.5
+          37.5
         ],
         [
           "25-34 Jahre",
-          16.6
+          17.3
         ],
         [
           "35-44 Jahre",
-          21.1
+          19
         ],
         [
           "45-59 Jahre",
-          14.7
+          15.7
         ],
         [
           "60 Jahre u.m.",
@@ -32,11 +32,11 @@
       "data": [
         [
           "18-24 Jahre",
-          5.5
+          6.2
         ],
         [
           "25-34 Jahre",
-          7.9
+          6.5
         ],
         [
           "35-44 Jahre",
@@ -44,11 +44,11 @@
         ],
         [
           "45-59 Jahre",
-          5.8
+          5.2
         ],
         [
           "60 Jahre u.m.",
-          1.7
+          1.3
         ]
       ],
       "name": "Schweizerinnen",
@@ -59,23 +59,23 @@
       "data": [
         [
           "18-24 Jahre",
-          62.1
+          67.7
         ],
         [
           "25-34 Jahre",
-          26.7
+          28
         ],
         [
           "35-44 Jahre",
-          23.4
+          24.2
         ],
         [
           "45-59 Jahre",
-          14.3
+          16.6
         ],
         [
           "60 Jahre u.m.",
-          9.4
+          7.8
         ]
       ],
       "name": "Ausländer",
@@ -86,23 +86,23 @@
       "data": [
         [
           "18-24 Jahre",
-          13.9
+          10.8
         ],
         [
           "25-34 Jahre",
-          7.6
+          9.3
         ],
         [
           "35-44 Jahre",
-          8.8
+          8.3
         ],
         [
           "45-59 Jahre",
-          7.4
+          7
         ],
         [
           "60 Jahre u.m.",
-          3.6
+          3.8
         ]
       ],
       "name": "Ausländerinnen",
@@ -133,7 +133,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -153,7 +153,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -161,7 +161,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -179,22 +178,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -204,16 +204,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -226,7 +226,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6725",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -234,9 +234,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0
@@ -245,20 +245,20 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene"
+    "text": "Beschuldigte Erwachsene"
   },
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2017",
+    "text": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -267,8 +267,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -283,33 +283,13 @@
     "max": 75,
     "tickInterval": 25
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)."
-  },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "itemWidth": 100,
@@ -319,10 +299,32 @@
     "align": "left",
     "itemDistance": 5
   },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+  },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

@@ -5,10 +5,6 @@
       "index": 15,
       "data": [
         [
-          "2009",
-          319
-        ],
-        [
           "2010",
           455
         ],
@@ -43,6 +39,10 @@
         [
           "2018",
           210
+        ],
+        [
+          "2019",
+          227
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -52,10 +52,6 @@
       "color": "#923F8D",
       "index": 14,
       "data": [
-        [
-          "2009",
-          674
-        ],
         [
           "2010",
           679
@@ -91,6 +87,10 @@
         [
           "2018",
           382
+        ],
+        [
+          "2019",
+          347
         ]
       ],
       "name": "Chemie, Pharma",
@@ -100,10 +100,6 @@
       "color": "#662673",
       "index": 13,
       "data": [
-        [
-          "2009",
-          292
-        ],
         [
           "2010",
           307
@@ -139,6 +135,10 @@
         [
           "2018",
           98
+        ],
+        [
+          "2019",
+          88
         ]
       ],
       "name": "Baugewerbe",
@@ -148,10 +148,6 @@
       "color": "#73B97C",
       "index": 12,
       "data": [
-        [
-          "2009",
-          560
-        ],
         [
           "2010",
           547
@@ -187,6 +183,10 @@
         [
           "2018",
           302
+        ],
+        [
+          "2019",
+          344
         ]
       ],
       "name": "Handel, Reparatur",
@@ -196,10 +196,6 @@
       "color": "#B6CFD7",
       "index": 11,
       "data": [
-        [
-          "2009",
-          256
-        ],
         [
           "2010",
           224
@@ -235,6 +231,10 @@
         [
           "2018",
           114
+        ],
+        [
+          "2019",
+          137
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -244,10 +244,6 @@
       "color": "#007A2F",
       "index": 10,
       "data": [
-        [
-          "2009",
-          342
-        ],
         [
           "2010",
           302
@@ -283,6 +279,10 @@
         [
           "2018",
           174
+        ],
+        [
+          "2019",
+          173
         ]
       ],
       "name": "Gastgewerbe",
@@ -292,10 +292,6 @@
       "color": "#FFDA80",
       "index": 9,
       "data": [
-        [
-          "2009",
-          72
-        ],
         [
           "2010",
           74
@@ -331,6 +327,10 @@
         [
           "2018",
           64
+        ],
+        [
+          "2019",
+          59
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -340,10 +340,6 @@
       "color": "#FFBB58",
       "index": 8,
       "data": [
-        [
-          "2009",
-          1705
-        ],
         [
           "2010",
           2174
@@ -379,6 +375,10 @@
         [
           "2018",
           2729
+        ],
+        [
+          "2019",
+          2675
         ]
       ],
       "name": "Berat., Plan., Forsch., Immob., IT",
@@ -388,10 +388,6 @@
       "color": "#689199",
       "index": 6,
       "data": [
-        [
-          "2009",
-          19
-        ],
         [
           "2010",
           21
@@ -427,6 +423,10 @@
         [
           "2018",
           56
+        ],
+        [
+          "2019",
+          67
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialvers.",
@@ -436,10 +436,6 @@
       "color": "#008AC3",
       "index": 3,
       "data": [
-        [
-          "2009",
-          244
-        ],
         [
           "2010",
           213
@@ -475,6 +471,10 @@
         [
           "2018",
           87
+        ],
+        [
+          "2019",
+          86
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -484,10 +484,6 @@
       "color": "#C8C8C8",
       "index": 2,
       "data": [
-        [
-          "2009",
-          429
-        ],
         [
           "2010",
           401
@@ -523,6 +519,10 @@
         [
           "2018",
           414
+        ],
+        [
+          "2019",
+          380
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -532,10 +532,6 @@
       "color": "#2B0099",
       "index": 1,
       "data": [
-        [
-          "2009",
-          269
-        ],
         [
           "2010",
           211
@@ -571,6 +567,10 @@
         [
           "2018",
           144
+        ],
+        [
+          "2019",
+          172
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -580,10 +580,6 @@
       "color": "#8A8A8A",
       "index": 0,
       "data": [
-        [
-          "2009",
-          69
-        ],
         [
           "2010",
           46
@@ -619,6 +615,10 @@
         [
           "2018",
           73
+        ],
+        [
+          "2019",
+          72
         ]
       ],
       "name": "Übrige",
@@ -627,9 +627,15 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
@@ -637,68 +643,73 @@
       },
       "step": 1
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "inverted": false,
     "renderTo": "container-2151"
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": "normal",
+      "groupPadding": 0,
+      "borderWidth": 0
+    }
+  },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Neue Grenzgängerbewilligungen nach Branche"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": true,
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     }
   },
   "yAxis": {
     "min": 0,
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -717,22 +728,6 @@
     },
     "tickAmount": 8
   },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -747,50 +742,61 @@
     "width": 485,
     "itemWidth": 220
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "stacking": "normal",
-      "groupPadding": 0,
-      "borderWidth": 0
-    }
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/>' 
+    },
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 2151

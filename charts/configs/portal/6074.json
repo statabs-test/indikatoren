@@ -6,19 +6,19 @@
       "data": [
         [
           "Deutschland",
-          5.4
+          5.5
         ],
         [
           "Italien",
-          13
+          11.6
         ],
         [
           "Türkei",
-          16.9
+          17.6
         ],
         [
           "EU-17 + EFTA",
-          5.5
+          5.7
         ],
         [
           "EU-Ost",
@@ -26,23 +26,23 @@
         ],
         [
           "Balkan",
-          16.4
+          16.5
         ],
         [
           "Mittel- und Südamerika",
-          6
+          5.7
         ],
         [
           "Arabische Länder",
-          4.7
+          5
         ],
         [
           "Afrikanische Länder",
-          6.7
+          7.3
         ],
         [
           "Übrige Länder",
-          4.3
+          4.2
         ]
       ],
       "name": "Basel-Stadt",
@@ -54,43 +54,43 @@
       "data": [
         [
           "Deutschland",
-          7.4
+          9.4
         ],
         [
           "Italien",
-          20.7
+          25.1
         ],
         [
           "Türkei",
-          20.7
+          22.7
         ],
         [
           "EU-17 + EFTA",
-          6.8
+          9
         ],
         [
           "EU-Ost",
-          4.4
+          6.5
         ],
         [
           "Balkan",
-          19
+          20.6
         ],
         [
           "Mittel- und Südamerika",
-          7.8
+          10
         ],
         [
           "Arabische Länder",
-          9
+          11.1
         ],
         [
           "Afrikanische Länder",
-          9
+          10.4
         ],
         [
           "Übrige Länder",
-          5.7
+          8.6
         ]
       ],
       "name": "Schweiz",
@@ -102,6 +102,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -112,12 +113,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -126,25 +124,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": true,
@@ -164,27 +166,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Median der Aufenthaltsdauer der Ausländer"
   },
   "subtitle": {
+    "text": "in Jahren, 2019",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "in Jahren, 2018",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -199,6 +200,16 @@
       },
       "format": "{value:,.0f}"
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -219,17 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-19"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

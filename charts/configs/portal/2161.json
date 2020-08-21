@@ -4,22 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2009-1",
-          2698
-        ],
-        [
-          "2009-2",
-          2665
-        ],
-        [
-          "2009-3",
-          2594
-        ],
-        [
-          "2009-4",
-          2593
-        ],
-        [
           "2010-1",
           2553
         ],
@@ -133,35 +117,51 @@
         ],
         [
           "2017-1",
-          2584
+          2558
         ],
         [
           "2017-2",
-          2532
+          2515
         ],
         [
           "2017-3",
-          2522
+          2491
         ],
         [
           "2017-4",
-          2507
+          2473
         ],
         [
           "2018-1",
-          2308
+          2299
         ],
         [
           "2018-2",
-          2270
+          2262
         ],
         [
           "2018-3",
-          2207
+          2199
         ],
         [
           "2018-4",
-          2183
+          2175
+        ],
+        [
+          "2019-1",
+          2189
+        ],
+        [
+          "2019-2",
+          2147
+        ],
+        [
+          "2019-3",
+          2135
+        ],
+        [
+          "2019-4",
+          2174
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -170,22 +170,6 @@
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2009-1",
-          6624
-        ],
-        [
-          "2009-2",
-          6697
-        ],
-        [
-          "2009-3",
-          6761
-        ],
-        [
-          "2009-4",
-          6802
-        ],
         [
           "2010-1",
           6995
@@ -300,35 +284,51 @@
         ],
         [
           "2017-1",
-          7171
+          7107
         ],
         [
           "2017-2",
-          7155
+          7113
         ],
         [
           "2017-3",
-          6953
+          6937
         ],
         [
           "2017-4",
-          6868
+          6840
         ],
         [
           "2018-1",
-          6670
+          6674
         ],
         [
           "2018-2",
-          6595
+          6600
         ],
         [
           "2018-3",
-          6397
+          6403
         ],
         [
           "2018-4",
-          6280
+          6286
+        ],
+        [
+          "2019-1",
+          6257
+        ],
+        [
+          "2019-2",
+          6228
+        ],
+        [
+          "2019-3",
+          6239
+        ],
+        [
+          "2019-4",
+          6207
         ]
       ],
       "name": "Chemie, Pharma",
@@ -337,22 +337,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2009-1",
-          2225
-        ],
-        [
-          "2009-2",
-          2182
-        ],
-        [
-          "2009-3",
-          2144
-        ],
-        [
-          "2009-4",
-          2141
-        ],
         [
           "2010-1",
           2182
@@ -467,35 +451,51 @@
         ],
         [
           "2017-1",
-          1888
+          2013
         ],
         [
           "2017-2",
-          1849
+          2002
         ],
         [
           "2017-3",
-          1826
+          1978
         ],
         [
           "2017-4",
-          1812
+          1958
         ],
         [
           "2018-1",
-          1758
+          1752
         ],
         [
           "2018-2",
-          1723
+          1718
         ],
         [
           "2018-3",
-          1692
+          1686
         ],
         [
           "2018-4",
-          1679
+          1673
+        ],
+        [
+          "2019-1",
+          1667
+        ],
+        [
+          "2019-2",
+          1649
+        ],
+        [
+          "2019-3",
+          1637
+        ],
+        [
+          "2019-4",
+          1659
         ]
       ],
       "name": "Baugewerbe",
@@ -504,118 +504,56 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
         "textOverflow": "none"
       },
-      "formatter": function() {
-   			 return this.value.split("-").slice(0, -1);
-		}
+      "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        }
     },
-    "tickLength": 0,
     "tickInterval": 4
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-2161"
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Grenzgänger in Industrie und Baugewerbe"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "itemWidth": 300,
-    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
@@ -630,40 +568,108 @@
       }
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Grenzgänger in Industrie und Baugewerbe"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
     }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 2000
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemWidth": 300,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 2161

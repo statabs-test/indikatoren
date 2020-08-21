@@ -6,27 +6,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          3893
+          3973
         ],
         [
           "Unteres Fachkader",
-          69
+          70
         ],
         [
           "Unteres Kader",
-          174
+          164
         ],
         [
           "Mittleres Fachkader",
-          102
+          104
         ],
         [
           "Mittleres Kader",
-          201
+          207
         ],
         [
           "Oberes Kader",
-          118
+          115
         ]
       ],
       "name": "Schweiz",
@@ -38,7 +38,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          1463
+          1485
         ],
         [
           "Unteres Fachkader",
@@ -46,19 +46,19 @@
         ],
         [
           "Unteres Kader",
-          112
+          107
         ],
         [
           "Mittleres Fachkader",
-          47
+          48
         ],
         [
           "Mittleres Kader",
-          117
+          121
         ],
         [
           "Oberes Kader",
-          72
+          70
         ]
       ],
       "name": "Schweizer",
@@ -70,27 +70,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          2430
+          2488
         ],
         [
           "Unteres Fachkader",
-          27
+          28
         ],
         [
           "Unteres Kader",
-          62
+          57
         ],
         [
           "Mittleres Fachkader",
-          55
+          56
         ],
         [
           "Mittleres Kader",
-          84
+          86
         ],
         [
           "Oberes Kader",
-          46
+          45
         ]
       ],
       "name": "Schweizerinnen",
@@ -102,11 +102,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          689
+          705
         ],
         [
           "Unteres Fachkader",
-          8
+          7
         ],
         [
           "Unteres Kader",
@@ -114,11 +114,11 @@
         ],
         [
           "Mittleres Fachkader",
-          11
+          12
         ],
         [
           "Mittleres Kader",
-          15
+          13
         ],
         [
           "Oberes Kader",
@@ -134,23 +134,23 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          266
+          276
         ],
         [
           "Unteres Fachkader",
-          3
+          2
         ],
         [
           "Unteres Kader",
-          13
+          15
         ],
         [
           "Mittleres Fachkader",
-          5
+          6
         ],
         [
           "Mittleres Kader",
-          8
+          9
         ],
         [
           "Oberes Kader",
@@ -166,7 +166,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          423
+          429
         ],
         [
           "Unteres Fachkader",
@@ -174,7 +174,7 @@
         ],
         [
           "Unteres Kader",
-          14
+          12
         ],
         [
           "Mittleres Fachkader",
@@ -182,7 +182,7 @@
         ],
         [
           "Mittleres Kader",
-          7
+          4
         ],
         [
           "Oberes Kader",
@@ -198,6 +198,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -208,12 +209,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -222,25 +220,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": true,
@@ -260,27 +262,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2019",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2018",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -295,6 +296,17 @@
       },
       "format": "{value:,.0f}"
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemDistance": 2,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -315,18 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "itemDistance": 2,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

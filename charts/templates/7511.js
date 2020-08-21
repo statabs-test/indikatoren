@@ -19,28 +19,28 @@
       },
       "yAxis": {
           reversedStacks: false, 
-          tickAmount: 9,
-          tickInterval:200,
+          //tickAmount: 9,
+          //tickInterval:200,
       },
       "series": [
         {
             stack: 1,
-            legendIndex: 1,
+            legendIndex: 0,
             color: 'rgb(115, 186, 124)'
         },
         {
             stack: 1,
-            legendIndex: 3,
+            legendIndex: 2,
             color: 'rgb(250, 189, 36)'
         },
         {
             stack: 2,
-            legendIndex: 0,
+            legendIndex: 1,
             color: 'rgb(0, 122, 47)'
         },
         {
             stack: 2,
-            legendIndex: 2,
+            legendIndex: 3,
             color: 'rgb(205, 156, 0)'
         }
       ],

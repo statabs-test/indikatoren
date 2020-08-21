@@ -7,43 +7,43 @@
       "data": [
         [
           "VR China",
-          3192
+          3410
         ],
         [
           "Indien",
-          2605
+          3352
         ],
         [
           "Niederlande",
-          5657
+          6128
         ],
         [
           "Spanien",
-          7617
+          7229
         ],
         [
           "Italien",
-          11485
+          9412
         ],
         [
           "Frankreich",
-          10103
+          9023
         ],
         [
           "UK",
-          11636
+          10258
         ],
         [
           "USA",
-          7436
+          9898
         ],
         [
           "Deutschland",
-          29441
+          30176
         ],
         [
           "Schweiz",
-          72788
+          73283
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -56,43 +56,43 @@
       "data": [
         [
           "VR China",
-          6142
+          12067
         ],
         [
           "Indien",
-          14403
+          9156
         ],
         [
           "Niederlande",
-          12404
+          14047
         ],
         [
           "Spanien",
-          13335
+          12725
         ],
         [
           "Italien",
-          18800
+          18201
         ],
         [
           "Frankreich",
-          21812
+          20282
         ],
         [
           "UK",
-          33304
+          30202
         ],
         [
           "USA",
-          31981
+          29254
         ],
         [
           "Deutschland",
-          79927
+          80324
         ],
         [
           "Schweiz",
-          196015
+          205128
         ]
       ],
       "name": "3-Sterne",
@@ -105,43 +105,43 @@
       "data": [
         [
           "VR China",
-          10373
+          21292
         ],
         [
           "Indien",
-          6571
+          8637
         ],
         [
           "Niederlande",
-          10023
+          10575
         ],
         [
           "Spanien",
-          11327
+          12318
         ],
         [
           "Italien",
-          13626
+          13883
         ],
         [
           "Frankreich",
-          23471
+          23430
         ],
         [
           "UK",
-          45027
+          45107
         ],
         [
           "USA",
-          98867
+          98739
         ],
         [
           "Deutschland",
-          60929
+          67849
         ],
         [
           "Schweiz",
-          132832
+          140333
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -154,43 +154,43 @@
       "data": [
         [
           "VR China",
-          1316
+          1151
         ],
         [
           "Indien",
-          913
+          768
         ],
         [
           "Niederlande",
-          2221
+          1942
         ],
         [
           "Spanien",
-          2498
+          1768
         ],
         [
           "Italien",
-          3578
+          2539
         ],
         [
           "Frankreich",
-          4828
+          4452
         ],
         [
           "UK",
-          5310
+          3687
         ],
         [
           "USA",
-          4472
+          4557
         ],
         [
           "Deutschland",
-          26248
+          27084
         ],
         [
           "Schweiz",
-          56368
+          58033
         ]
       ],
       "name": "Nicht klassiert",
@@ -202,6 +202,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -212,12 +213,9 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "reversed": false
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -226,28 +224,33 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "inverted": true,
     "type": "column",
+    "marginRight": 20,
     "renderTo": "container-7523",
     "spacingBottom": 40
   },
@@ -264,27 +267,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Logiernächte der Hauptmärkte nach Hotelkategorie"
   },
   "subtitle": {
+    "text": "Basel-Stadt, 2019",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt, 2018",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -300,6 +302,18 @@
       "format": "{value}%"
     },
     "tickInterval": 20
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 0,
+    "symbolPadding": 2,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -320,19 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-5"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "itemDistance": 0,
-    "symbolPadding": 2,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "tooltip": {
     "shared": false,

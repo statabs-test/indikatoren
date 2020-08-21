@@ -18,8 +18,8 @@
           0.793
         ],
         [
-          "2012-2016",
-          0.752
+          "2013-2017",
+          0.756
         ]
       ],
       "name": "Schweizer",
@@ -45,12 +45,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.741,
-          "high": 0.763
+          "name": "2013-2017",
+          "low": 0.744,
+          "high": 0.767
         }
       ],
-      "name": "Schweizer 95% Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -71,8 +71,8 @@
           0.676
         ],
         [
-          "2012-2016",
-          0.73
+          "2013-2017",
+          0.735
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,12 +98,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.719,
-          "high": 0.741
+          "name": "2013-2017",
+          "low": 0.724,
+          "high": 0.746
         }
       ],
-      "name": "Schweizerinnen 95% Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -124,7 +124,7 @@
           0.78
         ],
         [
-          "2012-2016",
+          "2013-2017",
           0.768
         ]
       ],
@@ -151,12 +151,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.754,
+          "name": "2013-2017",
+          "low": 0.755,
           "high": 0.782
         }
       ],
-      "name": "Ausländer 95% Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -177,8 +177,8 @@
           0.642
         ],
         [
-          "2012-2016",
-          0.66
+          "2013-2017",
+          0.673
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,12 +204,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.644,
-          "high": 0.675
+          "name": "2013-2017",
+          "low": 0.658,
+          "high": 0.689
         }
       ],
-      "name": "Ausländerinnen 95% Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -236,7 +236,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -256,7 +256,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -264,7 +264,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -282,22 +281,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -307,16 +307,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -329,7 +329,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6690",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -337,9 +337,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0
@@ -348,20 +348,20 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Erwerbstätigenquote"
+    "text": "Erwerbstätigenquote der 15-64-Jährigen"
   },
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "der 15-64-Jährigen nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
+    "text": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -370,8 +370,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -387,6 +387,20 @@
     },
     "tickAmount": 5
   },
+  "legend": {
+    "padding": 1,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -396,35 +410,23 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ)."
-  },
-  "legend": {
-    "padding": 1,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "exporting": {

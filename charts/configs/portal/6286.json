@@ -1,118 +1,122 @@
 {
   "series": [
     {
-      "color": "#689199",
-      "visible": true,
+      "index": 0,
+      "type": "column",
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "color": "#008AC3",
       "data": [
         [
           "ZG",
-          247.7
+          249.7
         ],
         [
           "SZ",
-          172.4
+          181.3
         ],
         [
           "NW",
-          159.5
+          158
         ],
         [
           "BS",
-          149.5
+          146
         ],
         [
           "GE",
-          145.3
+          143.7
         ],
         [
           "ZH",
-          120.5
+          121.7
         ],
         [
           "OW",
-          119.3
+          115.4
         ],
         [
           "VD",
-          99.6
-        ],
-        [
-          "TI",
-          97.1
+          99.9
         ],
         [
           "BL",
-          96.8
+          96.9
         ],
         [
-          "SH",
-          91.7
-        ],
-        [
-          "NE",
-          90.5
-        ],
-        [
-          "LU",
-          89
+          "TI",
+          96.5
         ],
         [
           "IR",
-          88.8
+          91.1
+        ],
+        [
+          "SH",
+          91.1
+        ],
+        [
+          "LU",
+          89.1
         ],
         [
           "AR",
-          85.3
-        ],
-        [
-          "AG",
-          83.8
+          85
         ],
         [
           "GR",
-          83.3
+          82.9
         ],
         [
-          "FR",
-          79.9
+          "NE",
+          82.9
+        ],
+        [
+          "AG",
+          82.2
         ],
         [
           "SG",
-          78.8
+          79.5
+        ],
+        [
+          "FR",
+          79.2
         ],
         [
           "TG",
-          78.4
+          77.7
         ],
         [
           "BE",
-          76.6
+          77.6
         ],
         [
           "SO",
-          73
-        ],
-        [
-          "GL",
-          71.2
+          72.4
         ],
         [
           "UR",
-          70.1
+          71.3
+        ],
+        [
+          "GL",
+          70.3
         ],
         [
           "VS",
-          66.1
+          65.4
         ],
         [
           "JU",
-          65.2
+          64.9
         ]
       ],
       "name": "Ressourcenindex nach Kanton",
       "turboThreshold": 0
     },
     {
+      "legendColor": "#B00000",
       "color": "#B00000",
       "index": 1,
       "type": "line",
@@ -120,9 +124,6 @@
         "enabled": false
       },
       "legendIndex": 2,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           "ZG",
@@ -157,23 +158,11 @@
           100
         ],
         [
-          "TI",
-          100
-        ],
-        [
           "BL",
           100
         ],
         [
-          "SH",
-          100
-        ],
-        [
-          "NE",
-          100
-        ],
-        [
-          "LU",
+          "TI",
           100
         ],
         [
@@ -181,11 +170,15 @@
           100
         ],
         [
-          "AR",
+          "SH",
           100
         ],
         [
-          "AG",
+          "LU",
+          100
+        ],
+        [
+          "AR",
           100
         ],
         [
@@ -193,11 +186,19 @@
           100
         ],
         [
-          "FR",
+          "NE",
+          100
+        ],
+        [
+          "AG",
           100
         ],
         [
           "SG",
+          100
+        ],
+        [
+          "FR",
           100
         ],
         [
@@ -213,11 +214,11 @@
           100
         ],
         [
-          "GL",
+          "UR",
           100
         ],
         [
-          "UR",
+          "GL",
           100
         ],
         [
@@ -249,6 +250,9 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "formatter": function() {
+          return this.value.replace("BS", "<b>BS<br/>");
+  },
       "rotation": 0
     },
     "tickLength": 0
@@ -257,7 +261,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -277,7 +281,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -285,7 +289,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -303,22 +306,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -328,16 +332,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -351,7 +355,7 @@
     "inverted": false,
     "spacingTop": 5,
     "renderTo": "container-6286",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -359,9 +363,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0
@@ -370,8 +374,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "NFA-Ressourcenindex"
@@ -379,11 +383,11 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2020",
     "align": "left"
   },
   "yAxis": {
@@ -392,19 +396,36 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
-      "text": ""
+      "text": null,
+      "color": "#000000",
+      "fontSize": null
     },
     "labels": {
       "y": 3,
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "black"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "min": 0
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -415,42 +436,53 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung."
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
-  "tooltip": {
-    "headerFormat": " ",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
+  "colors": [
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#689199",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA"
+  ],
   "exporting": {
     "filename": 6286
   }

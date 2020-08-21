@@ -54,7 +54,16 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        }
+        },
+        "enabled": true,
+        "formatter": function() {
+            var last  = this.series.data[this.series.data.length - 1];
+            var first  = this.series.data[0];
+            if (this.point.x === first.x || this.point.x === last.x) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
       }
     }
   },
@@ -74,7 +83,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel",
+    "text": "",
     "align": "left"
   },
   "xAxis": {
@@ -108,7 +117,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {
@@ -130,7 +140,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
   },
   "legend": {
     "symbolRadius": 0,
@@ -138,6 +148,9 @@
       "fontWeight": "normal"
     },
     "enabled": false
+  },
+  "tooltip": {
+    "shared": false
   },
   "exporting": {
     "filename": 4355

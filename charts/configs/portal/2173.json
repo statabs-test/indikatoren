@@ -5,22 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2009-1",
-          29366
-        ],
-        [
-          "2009-2",
-          29850
-        ],
-        [
-          "2009-3",
-          29933
-        ],
-        [
-          "2009-4",
-          30144
-        ],
-        [
           "2010-1",
           30866
         ],
@@ -134,35 +118,51 @@
         ],
         [
           "2017-1",
-          35855
+          35324
         ],
         [
           "2017-2",
-          35814
+          35738
         ],
         [
           "2017-3",
-          35882
+          35968
         ],
         [
           "2017-4",
-          35877
+          35656
         ],
         [
           "2018-1",
-          35061
+          34836
         ],
         [
           "2018-2",
-          34764
+          34538
         ],
         [
           "2018-3",
-          34421
+          34196
         ],
         [
           "2018-4",
-          34122
+          33897
+        ],
+        [
+          "2019-1",
+          33715
+        ],
+        [
+          "2019-2",
+          33643
+        ],
+        [
+          "2019-3",
+          33784
+        ],
+        [
+          "2019-4",
+          33932
         ]
       ],
       "name": "BS",
@@ -172,22 +172,6 @@
       "color": "#FF8028",
       "index": 1,
       "data": [
-        [
-          "2009-1",
-          17631
-        ],
-        [
-          "2009-2",
-          17970
-        ],
-        [
-          "2009-3",
-          18108
-        ],
-        [
-          "2009-4",
-          17909
-        ],
         [
           "2010-1",
           18262
@@ -302,35 +286,51 @@
         ],
         [
           "2017-1",
-          20852
+          20679
         ],
         [
           "2017-2",
-          20922
+          20923
         ],
         [
           "2017-3",
-          21225
+          21362
         ],
         [
           "2017-4",
-          21269
+          21348
         ],
         [
           "2018-1",
-          21264
+          21335
         ],
         [
           "2018-2",
-          21449
+          21519
         ],
         [
           "2018-3",
-          21538
+          21609
         ],
         [
           "2018-4",
-          21520
+          21589
+        ],
+        [
+          "2019-1",
+          21698
+        ],
+        [
+          "2019-2",
+          21820
+        ],
+        [
+          "2019-3",
+          22141
+        ],
+        [
+          "2019-4",
+          22319
         ]
       ],
       "name": "BL",
@@ -340,22 +340,6 @@
       "color": "#A8C3CA",
       "index": 1,
       "data": [
-        [
-          "2009-1",
-          9455
-        ],
-        [
-          "2009-2",
-          9746
-        ],
-        [
-          "2009-3",
-          9815
-        ],
-        [
-          "2009-4",
-          10019
-        ],
         [
           "2010-1",
           10383
@@ -470,35 +454,51 @@
         ],
         [
           "2017-1",
-          14010
+          13880
         ],
         [
           "2017-2",
-          14093
+          14026
         ],
         [
           "2017-3",
-          14091
+          14139
         ],
         [
           "2017-4",
-          14127
+          14148
         ],
         [
           "2018-1",
-          13864
+          13879
         ],
         [
           "2018-2",
-          13636
+          13650
         ],
         [
           "2018-3",
-          13537
+          13551
         ],
         [
           "2018-4",
-          13587
+          13601
+        ],
+        [
+          "2019-1",
+          13599
+        ],
+        [
+          "2019-2",
+          13677
+        ],
+        [
+          "2019-3",
+          13789
+        ],
+        [
+          "2019-4",
+          13916
         ]
       ],
       "name": "AG",
@@ -508,22 +508,6 @@
       "color": "#008AC3",
       "index": 2,
       "data": [
-        [
-          "2009-1",
-          5553
-        ],
-        [
-          "2009-2",
-          5708
-        ],
-        [
-          "2009-3",
-          5740
-        ],
-        [
-          "2009-4",
-          5822
-        ],
         [
           "2010-1",
           5980
@@ -638,35 +622,51 @@
         ],
         [
           "2017-1",
-          9913
+          9875
         ],
         [
           "2017-2",
-          10025
+          10041
         ],
         [
           "2017-3",
-          10152
+          10165
         ],
         [
           "2017-4",
-          10171
+          10128
         ],
         [
           "2018-1",
-          10217
+          10170
         ],
         [
           "2018-2",
-          10250
+          10204
         ],
         [
           "2018-3",
-          10256
+          10209
         ],
         [
           "2018-4",
-          10248
+          10200
+        ],
+        [
+          "2019-1",
+          10199
+        ],
+        [
+          "2019-2",
+          10305
+        ],
+        [
+          "2019-3",
+          10342
+        ],
+        [
+          "2019-4",
+          10405
         ]
       ],
       "name": "ZH",
@@ -675,9 +675,15 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
@@ -688,67 +694,75 @@
    			 return this.value.split("-").slice(0, -1);
 		}
     },
-    "tickLength": 0,
     "tickInterval": 4
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-2173"
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Grenzgänger nach Kanton"
   },
   "subtitle": {
+    "text": "",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     }
   },
   "yAxis": {
     "min": 0,
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -766,8 +780,18 @@
       }
     }
   },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -780,65 +804,45 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     }
   },
   "exporting": {

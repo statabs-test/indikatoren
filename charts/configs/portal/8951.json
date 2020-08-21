@@ -1016,7 +1016,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Ausländer nach Staatsangehörigkeit"
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -1051,7 +1051,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "tickAmount": 5,
+    "max": undefined
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -1067,7 +1068,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
   },
   "legend": {
     "enabled": true,

@@ -1,0 +1,327 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Klybeck",
+          32.264901599886734
+        ],
+        [
+          "Kleinhüningen",
+          32.69
+        ],
+        [
+          "Rosental",
+          34.59343365253078
+        ],
+        [
+          "Matthäus",
+          35.82688404816669
+        ],
+        [
+          "Clara",
+          36.65934065934066
+        ],
+        [
+          "Iselin",
+          36.72023453392366
+        ],
+        [
+          "St. Johann",
+          36.762402682275386
+        ],
+        [
+          "Breite",
+          38.856169826313995
+        ],
+        [
+          "Hirzbrunnen",
+          38.97925040738729
+        ],
+        [
+          "Gundeldingen",
+          39.043906956474366
+        ],
+        [
+          "Gotthelf",
+          41.47321033210332
+        ],
+        [
+          "Altstadt Kleinbasel",
+          43.391752577319586
+        ],
+        [
+          "Am Ring",
+          45.56212032137958
+        ],
+        [
+          "Wettstein",
+          46.11344065892924
+        ],
+        [
+          "Bachletten",
+          46.23795381988269
+        ],
+        [
+          "Riehen",
+          47.50106599706258
+        ],
+        [
+          "Bruderholz",
+          48.39978354978355
+        ],
+        [
+          "St. Alban",
+          48.50627015406664
+        ],
+        [
+          "Vorstädte",
+          50.563448566610454
+        ],
+        [
+          "Altstadt Grossbasel",
+          52.887750122010736
+        ],
+        [
+          "Bettingen",
+          53.011926605504584
+        ]
+      ],
+      "name": "Wohnfläche pro Kopf",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Klybeck",
+          1
+        ],
+        [
+          "Kleinhüningen",
+          2
+        ],
+        [
+          "Rosental",
+          3
+        ],
+        [
+          "Matthäus",
+          4
+        ],
+        [
+          "Clara",
+          5
+        ],
+        [
+          "Iselin",
+          6
+        ],
+        [
+          "St. Johann",
+          7
+        ],
+        [
+          "Breite",
+          8
+        ],
+        [
+          "Hirzbrunnen",
+          9
+        ],
+        [
+          "Gundeldingen",
+          10
+        ],
+        [
+          "Gotthelf",
+          11
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Am Ring",
+          13
+        ],
+        [
+          "Wettstein",
+          14
+        ],
+        [
+          "Bachletten",
+          15
+        ],
+        [
+          "Riehen",
+          16
+        ],
+        [
+          "Bruderholz",
+          17
+        ],
+        [
+          "St. Alban",
+          18
+        ],
+        [
+          "Vorstädte",
+          19
+        ],
+        [
+          "Altstadt Grossbasel",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "renderTo": "container-8283"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnfläche pro Kopf"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2019",
+    "align": "left",
+    "useHTML": true
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function(){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
+      }
+    }
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function(){
+                return Highcharts.numberFormat((this.value), 0, ".", "");                
+            },
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "min": 0
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "formatter": function(args){
+            var this_point_index = this.series.data.indexOf(this.point);
+            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+            var other_series = args.chart.series[other_series_index];
+            var other_point = other_series.data[this_point_index];
+            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y, 1, "," ,"") + ' m²</b><br/>' + 
+                'Rang <b>' + other_point.y + '</b>';
+        },
+    "shared": true
+  },
+  "exporting": {
+    "filename": 8283
+  }
+}

@@ -6,46 +6,46 @@
       "data": [
         [
           "Deutschland",
-          63.8
+          63.7
         ],
         [
           "Italien",
-          94.7
+          94.6
         ],
         [
           "Türkei",
-          46.9
+          50.1
         ],
         [
           "EU-17 + EFTA",
-          78.9
+          79
         ],
         [
           "EU-Ost",
-          42.4
+          41.4
         ],
         [
           "Balkan",
-          52.6
+          54.8
         ],
         [
           "Mittel- und Südamerika",
-          37.4
+          38.2
         ],
         [
           "Arabische Länder",
-          38.5
+          38
         ],
         [
           "Afrikanische Länder",
-          33.8
+          36.8
         ],
         [
           "Übrige Länder",
-          26.7
+          26.6
         ]
       ],
-      "name": "1998",
+      "name": "1999",
       "turboThreshold": 0
     },
     {
@@ -54,46 +54,46 @@
       "data": [
         [
           "Deutschland",
-          59.1
+          60.2
         ],
         [
           "Italien",
-          72.4
+          71.9
         ],
         [
           "Türkei",
-          84.1
+          84.3
         ],
         [
           "EU-17 + EFTA",
-          55.7
+          58
         ],
         [
           "EU-Ost",
-          19.6
+          21.2
         ],
         [
           "Balkan",
-          82.1
+          82.2
         ],
         [
           "Mittel- und Südamerika",
-          44.9
+          43.6
         ],
         [
           "Arabische Länder",
-          29.8
+          28.6
         ],
         [
           "Afrikanische Länder",
-          39
+          38.8
         ],
         [
           "Übrige Länder",
-          34.8
+          36
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -116,9 +116,9 @@
       "y": 3,
       "step": 1,
       "rotation": 0,
-      "formatter": function(){
-		    return this.value.replace("und", "u.");
-		  }
+      "formatter": function () {
+          return this.value.replace("und", "u.");
+        }
     },
     "tickLength": 0
   },
@@ -126,7 +126,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -146,7 +146,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -154,7 +154,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -172,22 +171,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -197,16 +197,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -218,9 +218,10 @@
     },
     "type": "column",
     "inverted": true,
-    "marginLeft": 120,
+    "marginLeft": 110,
+    "marginRight": 15,
     "renderTo": "container-6658",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -228,9 +229,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0,
@@ -240,8 +241,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Anteil Ausländer mit Niederlassungsbewilligung"
@@ -249,9 +250,9 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
     "text": "nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
@@ -262,8 +263,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -273,8 +274,23 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "x": 114,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -285,36 +301,23 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "x": 114,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

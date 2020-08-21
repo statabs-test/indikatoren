@@ -17,8 +17,8 @@
     "tickInterval": 1
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.2f}%)<br/>',
-    shared: false
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    shared: true
   },
   "legend": {
     "layout": "vertical",

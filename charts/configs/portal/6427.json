@@ -74,6 +74,10 @@
         [
           2018,
           null
+        ],
+        [
+          2019,
+          null
         ]
       ],
       "name": "Schweiz (Stadt)"
@@ -153,6 +157,10 @@
         [
           2018,
           4.73
+        ],
+        [
+          2019,
+          4.56
         ]
       ],
       "name": "Schweiz (Kanton)"
@@ -230,6 +238,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -310,6 +322,10 @@
         [
           2018,
           2.74
+        ],
+        [
+          2019,
+          2.67
         ]
       ],
       "name": "Deutschland (Kanton)"
@@ -387,6 +403,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -467,6 +487,10 @@
         [
           2018,
           5.66
+        ],
+        [
+          2019,
+          5.64
         ]
       ],
       "name": "Italien (Kanton)"
@@ -544,6 +568,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -624,6 +652,10 @@
         [
           2018,
           20.04
+        ],
+        [
+          2019,
+          18.77
         ]
       ],
       "name": "Türkei (Kanton)"
@@ -701,6 +733,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -781,6 +817,10 @@
         [
           2018,
           4.34
+        ],
+        [
+          2019,
+          4.15
         ]
       ],
       "name": "EU-17 + EFTA (Kanton)"
@@ -858,6 +898,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -938,6 +982,10 @@
         [
           2018,
           8.76
+        ],
+        [
+          2019,
+          7.87
         ]
       ],
       "name": "EU-Ost (Kanton)"
@@ -1015,6 +1063,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -1095,6 +1147,10 @@
         [
           2018,
           11.92
+        ],
+        [
+          2019,
+          10.89
         ]
       ],
       "name": "Balkan (Kanton)"
@@ -1172,6 +1228,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -1252,6 +1312,10 @@
         [
           2018,
           16.7
+        ],
+        [
+          2019,
+          15.46
         ]
       ],
       "name": "Mittel- und Südamerika (Kanton)"
@@ -1329,6 +1393,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -1409,6 +1477,10 @@
         [
           2018,
           61.05
+        ],
+        [
+          2019,
+          58.89
         ]
       ],
       "name": "Arabische Länder (Kanton)"
@@ -1486,6 +1558,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -1566,6 +1642,10 @@
         [
           2018,
           53.38
+        ],
+        [
+          2019,
+          50.93
         ]
       ],
       "name": "Afrikanische Länder (Kanton)"
@@ -1643,6 +1723,10 @@
         ],
         [
           2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -1723,67 +1807,101 @@
         [
           2018,
           10.68
+        ],
+        [
+          2019,
+          10.67
         ]
       ],
       "name": "Übrige Länder (Kanton)"
     }
   ],
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 513,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-6427"
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 2
+      }
+    }
+  },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Sozialhilfequote nach Staatsangehörigkeit"
   },
   "subtitle": {
+    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
-    "align": "left"
+    }
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -1798,34 +1916,6 @@
       "format": "{value}%"
     },
     "tickInterval": 10
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-28"
   },
   "legend": {
     "enabled": true,
@@ -1843,54 +1933,58 @@
     "itemDistance": 5,
     "itemMarginBottom": 5
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      }
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
     },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 2
-      }
-    }
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6427

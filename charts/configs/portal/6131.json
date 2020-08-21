@@ -2,9 +2,9 @@
   "series": [
     {
       "color": "#256370",
+      "index": 10,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 9,
       "data": [
         [
           2008,
@@ -20,7 +20,7 @@
         ],
         [
           2011,
-          1909.375911
+          1907.112111
         ],
         [
           2012,
@@ -51,9 +51,9 @@
     },
     {
       "color": "#a8c4cb",
+      "index": 9,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 7,
       "data": [
         [
           2008,
@@ -69,7 +69,7 @@
         ],
         [
           2011,
-          1896.090739
+          1893.842691
         ],
         [
           2012,
@@ -100,9 +100,9 @@
     },
     {
       "color": "#ffbb58",
+      "index": 8,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 1,
       "data": [
         [
           2008,
@@ -118,7 +118,7 @@
         ],
         [
           2011,
-          6336.174386
+          6328.662073
         ],
         [
           2012,
@@ -149,9 +149,9 @@
     },
     {
       "color": "#b475ab",
+      "index": 7,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 4,
       "data": [
         [
           2008,
@@ -167,7 +167,7 @@
         ],
         [
           2011,
-          1259.604887
+          1258.11147
         ],
         [
           2012,
@@ -198,9 +198,9 @@
     },
     {
       "color": "#44ab2b",
+      "index": 6,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 5,
       "data": [
         [
           2008,
@@ -216,7 +216,7 @@
         ],
         [
           2011,
-          3380.791902
+          3376.783559
         ],
         [
           2012,
@@ -247,9 +247,9 @@
     },
     {
       "color": "#007a2f",
+      "index": 5,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 3,
       "data": [
         [
           2008,
@@ -265,7 +265,7 @@
         ],
         [
           2011,
-          4334.5996
+          4329.4604
         ],
         [
           2012,
@@ -296,9 +296,9 @@
     },
     {
       "color": "#672773",
+      "index": 4,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 6,
       "data": [
         [
           2008,
@@ -314,7 +314,7 @@
         ],
         [
           2011,
-          657.831731
+          657.05179
         ],
         [
           2012,
@@ -345,9 +345,9 @@
     },
     {
       "color": "#b00000",
+      "index": 3,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 8,
       "data": [
         [
           2008,
@@ -363,7 +363,7 @@
         ],
         [
           2011,
-          501.561306
+          500.966643
         ],
         [
           2012,
@@ -394,9 +394,9 @@
     },
     {
       "color": "#ff8028",
+      "index": 2,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 10,
       "data": [
         [
           2008,
@@ -412,7 +412,7 @@
         ],
         [
           2011,
-          180.070585
+          179.85709
         ],
         [
           2012,
@@ -443,9 +443,9 @@
     },
     {
       "color": "#cd9c00",
+      "index": 1,
       "yAxis": 0,
       "visible": true,
-      "legendIndex": 2,
       "data": [
         [
           2008,
@@ -461,7 +461,7 @@
         ],
         [
           2011,
-          1415.237508
+          1413.55957
         ],
         [
           2012,
@@ -492,7 +492,7 @@
     },
     {
       "color": "#E6E6E6",
-      "index": -1,
+      "index": 0,
       "legendIndex": 12,
       "type": "column",
       "borderWidth": 0,
@@ -517,7 +517,7 @@
         ],
         [
           2011,
-          21871.33856
+          21845.407403
         ],
         [
           2012,
@@ -548,8 +548,6 @@
     }
   ],
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -558,32 +556,36 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "renderTo": "container-6131",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -599,27 +601,27 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Entwicklung der Staatsausgaben nach Funktion"
   },
   "subtitle": {
+    "text": "pro Kopf in Franken, Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "pro Kopf in Franken, Basel-Stadt",
-    "align": "left"
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "uniqueNames": true,
     "title": {
       "style": {
@@ -631,7 +633,6 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "yAxis": [
@@ -643,6 +644,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -660,10 +662,23 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }
   ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemWidth": 200,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -683,19 +698,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-13"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "itemWidth": 200,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-8"
   },
   "tooltip": {
     "shared": false,

@@ -4,54 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2009-01",
-          292
-        ],
-        [
-          "2009-02",
-          301
-        ],
-        [
-          "2009-03",
-          317
-        ],
-        [
-          "2009-04",
-          338
-        ],
-        [
-          "2009-05",
-          351
-        ],
-        [
-          "2009-06",
-          353
-        ],
-        [
-          "2009-07",
-          348
-        ],
-        [
-          "2009-08",
-          308
-        ],
-        [
-          "2009-09",
-          328
-        ],
-        [
-          "2009-10",
-          341
-        ],
-        [
-          "2009-11",
-          336
-        ],
-        [
-          "2009-12",
-          337
-        ],
-        [
           "2010-01",
           328
         ],
@@ -482,6 +434,54 @@
         [
           "2018-12",
           230
+        ],
+        [
+          "2019-01",
+          244
+        ],
+        [
+          "2019-02",
+          244
+        ],
+        [
+          "2019-03",
+          255
+        ],
+        [
+          "2019-04",
+          250
+        ],
+        [
+          "2019-05",
+          237
+        ],
+        [
+          "2019-06",
+          234
+        ],
+        [
+          "2019-07",
+          222
+        ],
+        [
+          "2019-08",
+          216
+        ],
+        [
+          "2019-09",
+          207
+        ],
+        [
+          "2019-10",
+          218
+        ],
+        [
+          "2019-11",
+          236
+        ],
+        [
+          "2019-12",
+          258
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -490,54 +490,6 @@
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2009-01",
-          44
-        ],
-        [
-          "2009-02",
-          41
-        ],
-        [
-          "2009-03",
-          41
-        ],
-        [
-          "2009-04",
-          39
-        ],
-        [
-          "2009-05",
-          37
-        ],
-        [
-          "2009-06",
-          49
-        ],
-        [
-          "2009-07",
-          50
-        ],
-        [
-          "2009-08",
-          59
-        ],
-        [
-          "2009-09",
-          55
-        ],
-        [
-          "2009-10",
-          51
-        ],
-        [
-          "2009-11",
-          55
-        ],
-        [
-          "2009-12",
-          71
-        ],
         [
           "2010-01",
           76
@@ -969,6 +921,54 @@
         [
           "2018-12",
           107
+        ],
+        [
+          "2019-01",
+          114
+        ],
+        [
+          "2019-02",
+          112
+        ],
+        [
+          "2019-03",
+          104
+        ],
+        [
+          "2019-04",
+          106
+        ],
+        [
+          "2019-05",
+          104
+        ],
+        [
+          "2019-06",
+          95
+        ],
+        [
+          "2019-07",
+          106
+        ],
+        [
+          "2019-08",
+          102
+        ],
+        [
+          "2019-09",
+          99
+        ],
+        [
+          "2019-10",
+          91
+        ],
+        [
+          "2019-11",
+          94
+        ],
+        [
+          "2019-12",
+          100
         ]
       ],
       "name": "Chemie, Pharma",
@@ -977,54 +977,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2009-01",
-          486
-        ],
-        [
-          "2009-02",
-          479
-        ],
-        [
-          "2009-03",
-          465
-        ],
-        [
-          "2009-04",
-          396
-        ],
-        [
-          "2009-05",
-          370
-        ],
-        [
-          "2009-06",
-          332
-        ],
-        [
-          "2009-07",
-          275
-        ],
-        [
-          "2009-08",
-          265
-        ],
-        [
-          "2009-09",
-          275
-        ],
-        [
-          "2009-10",
-          287
-        ],
-        [
-          "2009-11",
-          294
-        ],
-        [
-          "2009-12",
-          314
-        ],
         [
           "2010-01",
           320
@@ -1456,6 +1408,54 @@
         [
           "2018-12",
           574
+        ],
+        [
+          "2019-01",
+          610
+        ],
+        [
+          "2019-02",
+          543
+        ],
+        [
+          "2019-03",
+          486
+        ],
+        [
+          "2019-04",
+          424
+        ],
+        [
+          "2019-05",
+          369
+        ],
+        [
+          "2019-06",
+          308
+        ],
+        [
+          "2019-07",
+          262
+        ],
+        [
+          "2019-08",
+          256
+        ],
+        [
+          "2019-09",
+          244
+        ],
+        [
+          "2019-10",
+          271
+        ],
+        [
+          "2019-11",
+          405
+        ],
+        [
+          "2019-12",
+          530
         ]
       ],
       "name": "Baugewerbe",
@@ -1464,9 +1464,15 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
@@ -1476,106 +1482,38 @@
    			 return this.value.split("-").slice(0, -1);
 		}
     },
-    "tickLength": 0,
     "tickInterval": 12
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-2428"
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Arbeitslose in Industrie und Baugewerbe"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "itemWidth": 300,
-    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
@@ -1590,40 +1528,107 @@
       }
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitslose in Industrie und Baugewerbe"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
     }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemWidth": 300,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 2428

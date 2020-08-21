@@ -16,7 +16,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -28,7 +28,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -40,7 +40,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -52,7 +52,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -64,7 +64,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -76,7 +76,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -88,7 +88,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -100,7 +100,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -112,7 +112,7 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
@@ -124,7 +124,7 @@
         ],
         [
           "          ",
-          null
+          undefined
         ],
         [
           "2018 BS",
@@ -133,6 +133,18 @@
         [
           "2018 Nicht-BS",
           39083
+        ],
+        [
+          "           ",
+          undefined
+        ],
+        [
+          "2019 BS",
+          29990
+        ],
+        [
+          "2019 Nicht-BS",
+          39909
         ]
       ],
       "name": "Akutsomatik",
@@ -154,7 +166,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -166,7 +178,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -178,7 +190,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -190,7 +202,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -202,7 +214,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -214,7 +226,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -226,7 +238,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -238,7 +250,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -250,7 +262,7 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
@@ -262,7 +274,7 @@
         ],
         [
           "          ",
-          null
+          undefined
         ],
         [
           "2018 BS",
@@ -271,6 +283,18 @@
         [
           "2018 Nicht-BS",
           1073
+        ],
+        [
+          "           ",
+          undefined
+        ],
+        [
+          "2019 BS",
+          2589
+        ],
+        [
+          "2019 Nicht-BS",
+          846
         ]
       ],
       "name": "Geriatrie",
@@ -292,7 +316,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -304,7 +328,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -316,7 +340,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -328,7 +352,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -340,7 +364,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -352,7 +376,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -364,7 +388,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -376,7 +400,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -388,7 +412,7 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
@@ -400,7 +424,7 @@
         ],
         [
           "          ",
-          null
+          undefined
         ],
         [
           "2018 BS",
@@ -409,6 +433,18 @@
         [
           "2018 Nicht-BS",
           1013
+        ],
+        [
+          "           ",
+          undefined
+        ],
+        [
+          "2019 BS",
+          2761
+        ],
+        [
+          "2019 Nicht-BS",
+          1023
         ]
       ],
       "name": "Psychiatrie",
@@ -430,7 +466,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -442,7 +478,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -454,7 +490,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -466,7 +502,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -478,7 +514,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -490,7 +526,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -502,7 +538,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -514,7 +550,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -526,7 +562,7 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
@@ -538,7 +574,7 @@
         ],
         [
           "          ",
-          null
+          undefined
         ],
         [
           "2018 BS",
@@ -547,6 +583,18 @@
         [
           "2018 Nicht-BS",
           1597
+        ],
+        [
+          "           ",
+          undefined
+        ],
+        [
+          "2019 BS",
+          2964
+        ],
+        [
+          "2019 Nicht-BS",
+          1902
         ]
       ],
       "name": "Rehabilitation",
@@ -558,6 +606,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -573,12 +622,9 @@
       "overflow": "justify",
       "x": -80
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -587,25 +633,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "marginLeft": 95,
     "inverted": true,
@@ -614,7 +664,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -625,27 +675,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Stationäre Fälle in Basler Spitälern"
   },
   "subtitle": {
+    "text": "Nach Hauptbereich und Wohnort",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Nach Hauptbereich und Wohnort",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -660,6 +709,17 @@
       },
       "format": "{value:,.0f}"
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
   },
   "navigation": {
     "menuItemStyle": {
@@ -680,18 +740,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-8"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FFBB58",
-      "index": 0,
+      "zIndex": 0,
       "type": "column",
       "pointPadding": 0,
       "borderWidth": 0,
@@ -62,13 +62,17 @@
         [
           2017,
           198988
+        ],
+        [
+          2018,
+          200256
         ]
       ],
       "name": "Bevölkerung"
     },
     {
       "color": "#B00000",
-      "index": 1,
+      "zIndex": 1,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -130,13 +134,17 @@
         [
           2017,
           106.14788
+        ],
+        [
+          2018,
+          106.82428
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
     },
     {
       "color": "#A8C3CA",
-      "index": 0,
+      "zIndex": 0,
       "type": "column",
       "pointPadding": 0,
       "borderWidth": 0,
@@ -195,6 +203,10 @@
         ],
         [
           2017,
+          190966
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -202,7 +214,7 @@
     },
     {
       "color": "#246370",
-      "index": 1,
+      "zIndex": 2,
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
@@ -210,7 +222,8 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
-        "enabled": true
+        "enabled": true,
+        "radius": 5
       },
       "data": [
         [
@@ -263,6 +276,10 @@
         ],
         [
           2017,
+          111.19289
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -270,62 +287,85 @@
     }
   ],
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "alignTicks": false,
     "renderTo": "container-5901"
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
+    "text": "indexiert (Basis 2005 = 100), Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt, Indexwert (Basis 2005 = 100)",
-    "align": "left"
+    }
   },
-  "tooltip": {
-    "shared": false
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": [
     {
-      "min": 0,
-      "max": 200000,
-      "tickAmount": 6,
+      "max": 210000,
+      "tickAmount": 8,
+      "tickInterval": 30000,
       "alignTicks": true,
       "title": {
         "text": null,
@@ -341,7 +381,7 @@
     },
     {
       "tickInterval": 5,
-      "tickAmount": 6,
+      "tickAmount": 8,
       "alignTicks": true,
       "title": {
         "style": {
@@ -359,34 +399,6 @@
       "opposite": true
     }
   ],
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -35
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
-  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -401,48 +413,56 @@
     "itemWidth": 140,
     "itemMarginBottom": 5
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      }
-    }
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-24"
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
+  "tooltip": {},
   "exporting": {
     "filename": 5901
   }

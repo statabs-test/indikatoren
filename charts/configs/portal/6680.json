@@ -7,15 +7,15 @@
       "data": [
         [
           "Schweizer\u002F-innen seit Geburt",
-          76644.742012
+          76377.119487
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          21665.269205
+          21497.031535
         ],
         [
           "Ausländer\u002F-innen",
-          27836.576948
+          28115.897611
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Schweizer\u002F-innen seit Geburt",
-          1438.662204
+          1393.965923
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          5418.678448
+          5467.94508
         ],
         [
           "Ausländer\u002F-innen",
-          27026.602774
+          27828.660051
         ]
       ],
       "name": "Kein Deutsch",
@@ -56,41 +56,22 @@
     },
     "labels": {
       "rotation": 0,
-      "formatter": function() {
-      	return this.value.replace(" ", "<br/>");
-      }
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "width": 1
+      },
+      "formatter": function () {
+          return this.value.replace("Eingebürgerte","Eingebürgerte<br/>").replace("innen seit","innen<br>seit ");
+        }
     }
   },
   "chart": {
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //add rigt-margin if legend is top to allow space for axis-labels
-                    if (this['legend']['options']['layout'] == 'vertical') {
-                        this.update({
-                            chart: {
-                                marginTop: 6
-                            }
-                        });
-                    }
-
-                    //square legends must be placed 3 pixels more to the left than lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update({
-                            legend: {
-                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                            }
-                        });
-                    }
-                }
-    },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -101,13 +82,59 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "style": {
-      "fontFamily": "Arial",
+      "color": "#000000",
       "fontSize": "10px"
     },
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
+					//add top-margin if legend is right to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'vertical') {
+						this.update({
+							chart: {
+								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
+							}
+						});
+					}
+
+					//square legends must be placed 3 pixels more to the left than lines, don't know why
+					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update({
+							legend: {
+								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+							}
+						});
+					}
+				}
+    },
     "inverted": true,
-    "spacingRight": 3,
+    "marginRight": 15,
     "renderTo": "container-6680",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -127,14 +154,13 @@
     "text": "Gesprochene Hauptsprachen nach Migrationsstatus"
   },
   "subtitle": {
-    "text": "Basel-Stadt, gepoolte Daten 2012 bis 2016"
+    "text": "Basel-Stadt, gepoolte Daten 2013 bis 2017"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 20,
-    "lineColor": "#B9CFD7",
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
     "title": {
       "text": null
     },
@@ -146,7 +172,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "overflow": "justify"
+      "rotation": 0
     }
   },
   "legend": {
@@ -156,18 +182,20 @@
     "align": "left",
     "verticalAlign": "top",
     "symbolRadius": 0,
-    "padding": 1,
+    "padding": 0,
     "itemMarginBottom": 4,
     "itemStyle": {
-      "fontFamily": "Arial",
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
       "textOverflow": null,
       "whitespace": "nowrap"
     },
     "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            }
+				return this.name.replace('/ ', '/<br/>');
+			},
+    "itemDistance": 10,
+    "symbolPadding": 1
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -176,9 +204,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "navigation": {
     "buttonOptions": {

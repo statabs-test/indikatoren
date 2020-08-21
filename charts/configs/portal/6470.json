@@ -7,43 +7,43 @@
       "data": [
         [
           "USA",
-          291417
+          256846
         ],
         [
           "Australien",
-          208745
-        ],
-        [
-          "Belgien",
-          172540
-        ],
-        [
-          "Grossbritannien",
-          167629
-        ],
-        [
-          "Irland",
-          165113
+          221013
         ],
         [
           "Kanada",
-          155465
+          193220
+        ],
+        [
+          "Irland",
+          177085
         ],
         [
           "Dänemark",
-          146914
+          171929
         ],
         [
-          "Niederlande",
-          140198
+          "Belgien",
+          171234
+        ],
+        [
+          "Grossbritannien",
+          165668
         ],
         [
           "Indien",
-          138063
+          144901
+        ],
+        [
+          "Niederlande",
+          139889
         ],
         [
           "Schweden",
-          134400
+          133463
         ]
       ],
       "name": "Mittelwert",
@@ -56,43 +56,43 @@
       "data": [
         [
           "USA",
-          168806
+          165355
         ],
         [
           "Australien",
-          190359
-        ],
-        [
-          "Belgien",
-          100286
-        ],
-        [
-          "Grossbritannien",
-          131021
-        ],
-        [
-          "Irland",
-          143280
+          195612
         ],
         [
           "Kanada",
-          135658
+          151195
+        ],
+        [
+          "Irland",
+          149700
         ],
         [
           "Dänemark",
-          99308
+          108666
         ],
         [
-          "Niederlande",
-          94277
+          "Belgien",
+          101388
+        ],
+        [
+          "Grossbritannien",
+          128399
         ],
         [
           "Indien",
-          120407
+          126507
+        ],
+        [
+          "Niederlande",
+          94535
         ],
         [
           "Schweden",
-          100250
+          108533
         ]
       ],
       "name": "Median",
@@ -109,43 +109,43 @@
       "data": [
         [
           "USA",
-          547
+          548
         ],
         [
           "Australien",
-          62
-        ],
-        [
-          "Belgien",
-          114
-        ],
-        [
-          "Grossbritannien",
-          1062
-        ],
-        [
-          "Irland",
-          118
+          64
         ],
         [
           "Kanada",
-          117
+          122
+        ],
+        [
+          "Irland",
+          129
         ],
         [
           "Dänemark",
-          96
+          101
         ],
         [
-          "Niederlande",
-          354
+          "Belgien",
+          112
+        ],
+        [
+          "Grossbritannien",
+          1042
         ],
         [
           "Indien",
-          329
+          339
+        ],
+        [
+          "Niederlande",
+          368
         ],
         [
           "Schweden",
-          138
+          136
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -157,6 +157,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -167,12 +168,9 @@
         "color": "#000000"
       },
       "rotation": -45
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -181,25 +179,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": false,
@@ -219,23 +221,22 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Mittelwert und Median des Reineinkommens pro Veranlagung"
   },
   "subtitle": {
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2017",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2016",
-    "align": "left"
+    }
   },
   "yAxis": [
     {
@@ -269,6 +270,18 @@
       "opposite": true
     }
   ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "padding": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 10
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -288,19 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "padding": 0,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemDistance": 10
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-10"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

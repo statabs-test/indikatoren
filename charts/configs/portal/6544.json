@@ -4,52 +4,52 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          "Jan 18",
-          1.899316149
+          "Jan 19",
+          1.59776033
         ],
         [
-          "Feb 18",
-          1.800411205
+          "Feb 19",
+          1.609227812
         ],
         [
-          "Mrz 18",
-          1.928760855
+          "Mrz 19",
+          1.872654816
         ],
         [
-          "Apr 18",
-          1.75177026
+          "Apr 19",
+          1.553890017
         ],
         [
-          "Mai 18",
-          1.577965816
+          "Mai 19",
+          1.653797628
         ],
         [
-          "Jun 18",
-          1.724162541
+          "Jun 19",
+          1.739519869
         ],
         [
-          "Jul 18",
-          1.631506324
+          "Jul 19",
+          1.761854063
         ],
         [
-          "Aug 18",
-          1.744631725
+          "Aug 19",
+          1.698299913
         ],
         [
-          "Sep 18",
-          1.634043721
+          "Sep 19",
+          1.603187251
         ],
         [
-          "Okt 18",
-          1.56523174
+          "Okt 19",
+          1.657319164
         ],
         [
-          "Nov 18",
-          1.591991342
+          "Nov 19",
+          1.73410705
         ],
         [
-          "Dez 18",
-          1.568057428
+          "Dez 19",
+          1.548309087
         ]
       ],
       "name": "Inland",
@@ -59,52 +59,52 @@
       "color": "rgb(105, 146, 155)",
       "data": [
         [
-          "Jan 18",
-          2.004470289
+          "Jan 19",
+          1.97041839
         ],
         [
-          "Feb 18",
-          1.980260682
+          "Feb 19",
+          1.949751192
         ],
         [
-          "Mrz 18",
-          2.200136709
+          "Mrz 19",
+          2.110608752
         ],
         [
-          "Apr 18",
-          1.980517696
+          "Apr 19",
+          1.897910032
         ],
         [
-          "Mai 18",
-          1.880069394
+          "Mai 19",
+          2.100867022
         ],
         [
-          "Jun 18",
-          2.073554038
+          "Jun 19",
+          2.171462596
         ],
         [
-          "Jul 18",
-          1.819282426
+          "Jul 19",
+          2.024953637
         ],
         [
-          "Aug 18",
-          1.921187728
+          "Aug 19",
+          1.912870728
         ],
         [
-          "Sep 18",
-          1.962502032
+          "Sep 19",
+          1.9059264
         ],
         [
-          "Okt 18",
-          2.020176055
+          "Okt 19",
+          2.064947204
         ],
         [
-          "Nov 18",
-          1.956046029
+          "Nov 19",
+          2.019997042
         ],
         [
-          "Dez 18",
-          1.92118609
+          "Dez 19",
+          1.870225981
         ]
       ],
       "name": "Ausland",
@@ -113,9 +113,15 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
@@ -125,105 +131,38 @@
       "formatter": function(){
         return this.value.slice(0, 3);
       }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-6544"
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Mittlere Aufenthaltsdauer pro Monat"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "in Tagen, Basel-Stadt, 2018",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.1f}"
-    }
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
@@ -236,40 +175,107 @@
       "symbol": "circle"
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Mittlere Aufenthaltsdauer pro Monat"
+  },
+  "subtitle": {
+    "text": "in Tagen, Basel-Stadt, 2019",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
     }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.5
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6544

@@ -6,46 +6,46 @@
       "data": [
         [
           "Deutschland",
-          63.7
+          62.9
         ],
         [
           "Italien",
-          94.6
+          94.4
         ],
         [
           "Türkei",
-          50.1
+          62
         ],
         [
           "EU-17 + EFTA",
-          79
+          77.8
         ],
         [
           "EU-Ost",
-          41.4
+          39.9
         ],
         [
           "Balkan",
-          54.8
+          63.7
         ],
         [
           "Mittel- und Südamerika",
-          38.2
+          37.5
         ],
         [
           "Arabische Länder",
-          38
+          40.8
         ],
         [
           "Afrikanische Länder",
-          36.8
+          38.7
         ],
         [
           "Übrige Länder",
-          26.6
+          33.2
         ]
       ],
-      "name": "1999",
+      "name": "2000",
       "turboThreshold": 0
     },
     {
@@ -54,46 +54,46 @@
       "data": [
         [
           "Deutschland",
-          60.2
+          62
         ],
         [
           "Italien",
-          71.9
+          72.2
         ],
         [
           "Türkei",
-          84.3
+          83
         ],
         [
           "EU-17 + EFTA",
-          58
+          58.2
         ],
         [
           "EU-Ost",
-          21.2
+          21.3
         ],
         [
           "Balkan",
-          82.2
+          81.1
         ],
         [
           "Mittel- und Südamerika",
-          43.6
+          41.1
         ],
         [
           "Arabische Länder",
-          28.6
+          27.7
         ],
         [
           "Afrikanische Länder",
-          38.8
+          38.6
         ],
         [
           "Übrige Länder",
-          36
+          35.8
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -102,6 +102,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -112,12 +113,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -126,25 +124,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": true,
@@ -164,27 +166,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Anteil Ausländer mit Niederlassungsbewilligung"
   },
   "subtitle": {
+    "text": "nach Staatsangehörigkeit, Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -199,6 +200,16 @@
       },
       "format": "{value:,.0f}%"
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -219,17 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-30"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

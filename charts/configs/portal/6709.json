@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          64070
+          65671
         ],
         [
           "Deutschland",
-          81855
+          86643
         ],
         [
           "Italien",
-          51051
+          53160
         ],
         [
           "Türkei",
-          38886
+          40245
         ],
         [
           "EU-17 + EFTA",
-          75251
+          82397
         ],
         [
           "EU-Ost",
-          45356
+          46655
         ],
         [
           "Balkan",
-          45213
+          46426
         ],
         [
           "Mittel- und Südamerika",
-          44193
+          49174
         ],
         [
           "Arabische Länder",
-          38230
+          42407
         ],
         [
           "Afrikanische Länder",
-          39077
+          43710
         ],
         [
           "Übrige Länder",
-          80841
+          93604
         ]
       ],
-      "name": "Mittelwert 2006",
+      "name": "Mittelwert 2007",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          64794
+          66582
         ],
         [
           "Deutschland",
-          97619
+          96730
         ],
         [
           "Italien",
-          58363
+          60057
         ],
         [
           "Türkei",
-          35921
+          36139
         ],
         [
           "EU-17 + EFTA",
-          103026
+          103409
         ],
         [
           "EU-Ost",
-          76550
+          81250
         ],
         [
           "Balkan",
-          44092
+          44237
         ],
         [
           "Mittel- und Südamerika",
-          52206
+          55767
         ],
         [
           "Arabische Länder",
-          37158
+          40108
         ],
         [
           "Afrikanische Länder",
-          32552
+          32419
         ],
         [
           "Übrige Länder",
-          128979
+          130007
         ]
       ],
-      "name": "Mittelwert 2015",
+      "name": "Mittelwert 2016",
       "turboThreshold": 0
     }
   ],
@@ -136,7 +136,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -156,7 +156,7 @@
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -164,7 +164,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -182,22 +181,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -207,16 +207,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -230,7 +230,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6709",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -238,9 +238,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "pointPadding": 0,
@@ -250,8 +250,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Mittelwert des Reineinkommens pro Veranlagung"
@@ -259,11 +259,11 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt",
+    "text": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -272,8 +272,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -286,33 +286,13 @@
       "format": "{value:,.0f}"
     }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -15
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik."
-  },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "enabled": true,
@@ -322,10 +302,32 @@
     "itemDistance": 10,
     "symbolPadding": 3
   },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+  },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {

@@ -460,11 +460,18 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "step": 1,
       "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 1,
+    "tickPositioner": function () {
+        var interval = 3,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -480,7 +487,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-18"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
   },
   "legend": {
     "enabled": true,
