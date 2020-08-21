@@ -37925,7 +37925,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen. Der Anteil Befragter, die sich sehr sicher fühlen steigt mit der Höhe des Haushaltseinkommens und liegt bei den Jüngeren höher. Zwischen den Geschlechtern gibt es nur einen geringfügigen Unterschied.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
+		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -38066,6 +38066,46 @@ var indikatoren = [
 		"id": 9119
 	},
 	{
+		"title": "Sicherheitsgefühl Ältere",
+		"subtitle": "«Wie sicher fühlen Sie sich in folgenden Situationen?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.09120",
+		"kuerzelKunde": "3-9",
+		"description": "Sicherheitsgefühl Ältere",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am sichersten fühlen sich die 2019 Befragten tagsüber zu Hause: 77,4% geben an sich sehr sicher zu fühlen, 19,4% fühlen sich eher sicher. Das Sicherheitsempfinden ist generell am Tag positiver als in der Nacht.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_030",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9120,
+		"chart-id": 9120,
+		"filter": "",
+		"id": 9120
+	},
+	{
 		"title": "Zufriedenheit mit Präsenz Kantonspolizei",
 		"subtitle": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverlauf beurteilen», Basel-Stadt, 2018",
 		"kuerzel": "I.50.1.09123",
@@ -38144,6 +38184,46 @@ var indikatoren = [
 		"chart-id": 9124,
 		"filter": "",
 		"id": 9124
+	},
+	{
+		"title": "Zufriedenheit mit Sicherheit im Wohnumfeld",
+		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im Wohnumfeld am aktuellen Wohnort?», Basel-Stadt",
+		"kuerzel": "I.50.1.09125",
+		"kuerzelKunde": "3-14",
+		"description": "Zufriedenheit mit Sicherheit im Wohnumfeld",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "33,6% der im Jahr 2019 Befragten zeigen sich sehr und 49,2% eher zufrieden mit der Sicherheit im Wohnumfeld. 2019 liegt der Anteil sehr Zufriedener höher als 2015.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_035",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9125,
+		"chart-id": 9125,
+		"filter": "",
+		"id": 9125
 	},
 	{
 		"title": "Zufriedenheit mit Verkehrssicherheit",

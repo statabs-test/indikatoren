@@ -1,0 +1,595 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          1092
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          938
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          887
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          459
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          846
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          830
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          345
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          265
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          262
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          343
+        ]
+      ],
+      "name": "Sehr sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          274
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          398
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          419
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          298
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          458
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          471
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          611
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          550
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          362
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          620
+        ]
+      ],
+      "name": "Eher sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 2,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          16
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          33
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          56
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          46
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          43
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          66
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          281
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          363
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          137
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          260
+        ]
+      ],
+      "name": "Eher unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          1
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          8
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          7
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          17
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          7
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          12
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          77
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          121
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          35
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          74
+        ]
+      ],
+      "name": "Ganz unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          3
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          2
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          2
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          12
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          6
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          1
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          6
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          5
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          10
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          7
+        ]
+      ],
+      "name": "Trifft auf mich nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          10
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          11
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          14
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          477
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          27
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          9
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          57
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          69
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          522
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          76
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 6,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Tagsüber",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          14
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          20
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          25
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          101
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          23
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Nachts",
+          undefined
+        ],
+        [
+          "Alleine zu Hause",
+          21
+        ],
+        [
+          "Alleine unterwegs im Quartier",
+          33
+        ],
+        [
+          "Alleine zu Fuss unterwegs",
+          37
+        ],
+        [
+          "Alleine mit dem Velo unterwegs",
+          82
+        ],
+        [
+          "Alleine mit dem Bus\u002FTran unterwegs",
+          30
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+            }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "renderTo": "container-9120",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Sicherheitsgefühl Ältere"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie sicher fühlen Sie sich in folgenden Situationen?», Basel-Stadt, 2019"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "itemWidth": 150,
+    "width": 350
+  },
+  "exporting": {
+    "filename": 9120
+  }
+}
