@@ -27,7 +27,7 @@
       },
       {
         //2nd series: use y values from column 3
-        y: 3
+        y: 4
       },
       {
         y: 5
@@ -102,8 +102,10 @@
     }*/
   }], 
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
-    shared: false
-  }  
+    headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+    pointFormatter: function(){ 
+        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '%</b><br/>';
+    }
+  } 
 };
 }());

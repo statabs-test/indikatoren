@@ -28,6 +28,16 @@
   fontSize: "12px"
   }
     },
+    data: {
+      seriesMapping: [
+        {
+          x: 0, y: 2
+        },
+        {
+          x: 0, y: 1
+        } 
+      ]
+  },
     "series": [{
           showInLegend: false,
           type: 'pie',

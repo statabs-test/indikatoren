@@ -29,6 +29,16 @@
   fontSize: "12px"
   }
     },
+    data: {
+      seriesMapping: [
+        {
+          x: 0, y: 2
+        },
+        {
+          x: 0, y: 1
+        } 
+      ]
+  },
     "series": [{
           showInLegend: false,
           type: 'pie',
@@ -44,9 +54,10 @@
                     fontWeight: "normal", 
                     fontSize: "12px"
                 }
-      }
-         
-    }, {
+      },
+       
+    }, 
+    {
           showInLegend: false,
           type: 'pie',
           innerSize: '40%',
@@ -55,7 +66,9 @@
             '#FFDA80', 
             '#CD9C00',
             '#45381D',
-           ]/*,
+           ],
+
+           /*,
           dataLabels: {
             enabled: true,
                   format: '{point.percentage:.0f}%',
@@ -70,8 +83,8 @@
       }],
       
     "tooltip": {
-      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
-      "shared": false
-    }   
+      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}% </b>',
+      "shared": true
+    }  
   };
 }());
