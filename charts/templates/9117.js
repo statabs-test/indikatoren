@@ -36,8 +36,8 @@
       {"color": "#FF8028", "index": 4, "legendIndex":2}, /*gelb*/
       {"color": "#DC440E", "index": 3, "legendIndex":3}, /*orange*/
       {"color": "#B00000", "index": 2, "legendIndex":4}, /*rot*/
-      { "color": "#C8C8C8", "index": 1, "legendIndex": 5 }, /*grau hell*/
-      { "color": "#6F6F6F", "index": 0, "legendIndex": 6 }, /*grau*/
+      {"color": "#C8C8C8", "index": 1, "legendIndex": 5 }, /*grau hell*/
+      {"color": "#6F6F6F", "index": 0, "legendIndex": 6 }, /*grau*/
       ],
 
     "chart": {      
