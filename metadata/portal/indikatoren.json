@@ -37864,5 +37864,45 @@
 		"chart-id": 9032,
 		"filter": "",
 		"id": 9032
+	},
+	{
+		"title": "Ordnungsbussen nach PLZ-Kreis",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09128",
+		"kuerzelKunde": "4-3",
+		"description": "Ordnungsbussen nach PLZ-Kreis",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
+		"template": "map003",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_039",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9128,
+		"chart-id": 9128,
+		"filter": "",
+		"id": 9128
 	}
 ]

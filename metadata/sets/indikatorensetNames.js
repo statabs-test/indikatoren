@@ -30,5 +30,6 @@ var indikatorensetNames = [
 	"CMS Kennzahlen Soziales (Print)",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 	"Nachhaltigkeit (Print)",
+	"Sicherheit im oeffentlichen Raum",
 	"Test"
 ];
