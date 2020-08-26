@@ -62,7 +62,6 @@
       index: 1,
       legendIndex: 1,
       type: "line",
-      legendIndex: 2,
       marker: {
         enabled: false
       },
@@ -72,7 +71,6 @@
       index: 2,
       legendIndex: 2,
       type: "line",
-      legendIndex: 2,
       marker: {
         enabled: false
       },
@@ -81,7 +79,7 @@
       yAxis: 1,
       color: '#E7CEE2',
       index: 0,
-      legendIndex: 0
+      legendIndex: 3
     }
   
   ],  

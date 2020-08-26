@@ -61,7 +61,7 @@
       dataLabels: {
         enabled: true,
         formatter: function(){
-          return this.point.name.replace(".", ",").replace(" (", "<br/>(").replace("Zimmer", "Zi.");
+          return this.point.name.replace(".", ",").replace(" (", "<br/>(").replace("Zimmer", "Zi");
   
         },
         distance: 15,
