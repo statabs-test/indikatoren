@@ -43752,7 +43752,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-08-26T18:20:57.5757",
-		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -43763,7 +43763,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_002",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"9067"
