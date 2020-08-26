@@ -46,7 +46,7 @@
       showInLegend: false,
       type: 'pie',
       innerSize: '100%',
-      borderWidth: 2,
+      borderWidth: 0,
       colors: 
       [
         '#D3E2E4', 
@@ -72,7 +72,7 @@
       showInLegend: false,
       type: 'pie',
       innerSize: '40%',
-      borderWidth: 2,
+      borderWidth: 0,
       colors: [
         '#D3E2E4', 
         '#B00000',
@@ -95,7 +95,8 @@
       
   "tooltip": {
     useHTML: true,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} m<sup>2</sup></b> ({point.percentage:.1f}%)<br/><br/>',
+    headerFormat: '',//'<span style="font-size: 10px"> {point.key}</span><br/>',
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} m<sup>2</sup></b> ({point.percentage:.1f}%)<br/>',
     "shared": false
   }   
 };
