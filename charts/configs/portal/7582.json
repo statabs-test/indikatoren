@@ -1,9 +1,14 @@
 {
   "series": [
     {
-      "showInLegend": false,
       "type": "pie",
-      "innerSize": "100%",
+      "innerSize": "40%",
+      "borderWidth": 0,
+      "colors": [
+        "#FFDA80",
+        "#CD9C00",
+        "#45381D"
+      ],
       "dataLabels": {
         "enabled": true,
         "format": "{point.name}",
@@ -31,33 +36,6 @@
         ]
       ],
       "name": "Anzahl",
-      "turboThreshold": 0
-    },
-    {
-      "showInLegend": false,
-      "type": "pie",
-      "innerSize": "40%",
-      "borderWidth": 2,
-      "colors": [
-        "#FFDA80",
-        "#CD9C00",
-        "#45381D"
-      ],
-      "data": [
-        [
-          "neu erstellt",
-          8
-        ],
-        [
-          "renoviert",
-          15
-        ],
-        [
-          "unverändert",
-          77
-        ]
-      ],
-      "name": "Anteil in Prozent",
       "turboThreshold": 0
     }
   ],
@@ -104,9 +82,8 @@
       "point": {
         "events": {
           "legendItemClick": function (event) {
-                      event.preventDefault();
-
-                  }
+							event.preventDefault();
+						}
         }
       }
     }
@@ -131,8 +108,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}% \u003C\u002Fb\u003E"
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -151,19 +128,16 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "itemDistance": 2,
-    "style": {
-      "fontSize": "12px"
-    }
+    "enabled": false
   },
   "exporting": {
     "filename": 7582

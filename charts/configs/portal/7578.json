@@ -1,9 +1,14 @@
 {
   "series": [
     {
-      "showInLegend": false,
       "type": "pie",
-      "innerSize": "100%",
+      "innerSize": "40%",
+      "borderWidth": 0,
+      "colors": [
+        "#FFDA80",
+        "#CD9C00",
+        "#45381D"
+      ],
       "dataLabels": {
         "enabled": true,
         "format": "{point.name}",
@@ -16,33 +21,6 @@
           "fontSize": "12px"
         }
       },
-      "data": [
-        [
-          "neu erstellt",
-          4.8
-        ],
-        [
-          "renoviert",
-          23.2
-        ],
-        [
-          "unverändert",
-          71.9
-        ]
-      ],
-      "name": "Anteil in Prozent",
-      "turboThreshold": 0
-    },
-    {
-      "showInLegend": false,
-      "type": "pie",
-      "innerSize": "40%",
-      "borderWidth": 2,
-      "colors": [
-        "#FFDA80",
-        "#CD9C00",
-        "#45381D"
-      ],
       "data": [
         [
           "neu erstellt",
@@ -104,9 +82,8 @@
       "point": {
         "events": {
           "legendItemClick": function (event) {
-                      event.preventDefault();
-
-                  }
+							event.preventDefault();
+						}
         }
       }
     }
@@ -151,19 +128,16 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "itemDistance": 2,
-    "style": {
-      "fontSize": "12px"
-    }
+    "enabled": false
   },
   "exporting": {
     "filename": 7578

@@ -1,9 +1,8 @@
 {
   "series": [
     {
-      "showInLegend": false,
       "type": "pie",
-      "innerSize": "100%",
+      "innerSize": "40%",
       "borderWidth": 0,
       "colors": [
         "#D3E2E4",
@@ -27,63 +26,26 @@
       "data": [
         [
           "Laden",
-          9.943
-        ],
-        [
-          "Büro",
-          32.608
-        ],
-        [
-          "Gewerbe",
-          31.7704
-        ],
-        [
-          "Produktion",
-          7.1292
-        ],
-        [
-          "Lager",
-          18.5493
-        ]
-      ],
-      "name": "Anteil",
-      "turboThreshold": 0
-    },
-    {
-      "showInLegend": false,
-      "type": "pie",
-      "innerSize": "40%",
-      "borderWidth": 0,
-      "colors": [
-        "#D3E2E4",
-        "#B00000",
-        "#689199",
-        "#DC440E",
-        "#083038"
-      ],
-      "data": [
-        [
-          2020,
           20559
         ],
         [
-          2020,
+          "Büro",
           67423
         ],
         [
-          2020,
+          "Gewerbe",
           65691
         ],
         [
-          2020,
+          "Produktion",
           14741
         ],
         [
-          2020,
+          "Lager",
           38354
         ]
       ],
-      "name": "Anzahl",
+      "name": "Fläche in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     }
   ],
@@ -130,9 +92,8 @@
       "point": {
         "events": {
           "legendItemClick": function (event) {
-                      event.preventDefault();
-
-                  }
+							event.preventDefault();
+						}
         }
       }
     }
@@ -158,9 +119,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
     "useHTML": true,
-    "headerFormat": ""
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -179,19 +140,16 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "itemDistance": 2,
-    "style": {
-      "fontSize": "12px"
-    }
+    "enabled": false
   },
   "exporting": {
     "filename": 9064

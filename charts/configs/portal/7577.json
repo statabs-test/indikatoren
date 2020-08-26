@@ -1,9 +1,8 @@
 {
   "series": [
     {
-      "showInLegend": false,
       "type": "pie",
-      "innerSize": "100%",
+      "innerSize": "40%",
       "borderWidth": 0,
       "colors": [
         "#661200",
@@ -15,10 +14,10 @@
       ],
       "dataLabels": {
         "enabled": true,
-        "formatter": function(){
-          return this.point.name.replace(".", ",");
-  
-        },
+        "formatter": function () {
+					return this.point.name.replace(".", ",");
+
+				},
         "distance": 15,
         "connectorWidth": 1,
         "style": {
@@ -51,48 +50,6 @@
         ],
         [
           "6 Zimmer (0.4%)",
-          23
-        ]
-      ],
-      "name": "Leerwohnungen",
-      "turboThreshold": 0
-    },
-    {
-      "showInLegend": false,
-      "type": "pie",
-      "innerSize": "40%",
-      "borderWidth": 0,
-      "colors": [
-        "#661200",
-        "#B00000",
-        "#DC440E",
-        "#A8C3CA",
-        "#689199",
-        "#246370"
-      ],
-      "data": [
-        [
-          "BS",
-          188
-        ],
-        [
-          "BS",
-          313
-        ],
-        [
-          "BS",
-          392
-        ],
-        [
-          "BS",
-          129
-        ],
-        [
-          "BS",
-          28
-        ],
-        [
-          "BS",
           23
         ]
       ],
@@ -143,9 +100,9 @@
       "point": {
         "events": {
           "legendItemClick": function (event) {
-                      event.preventDefault();
+							event.preventDefault();
 
-                  }
+						}
         }
       }
     }
@@ -190,19 +147,16 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "itemDistance": 2,
-    "style": {
-      "fontSize": "12px"
-    }
+    "enabled": false
   },
   "exporting": {
     "filename": 7577
