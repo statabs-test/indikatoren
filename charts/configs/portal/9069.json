@@ -40,7 +40,7 @@
           null
         ]
       ],
-      "name": "Anzahl Leerwohnungen BS",
+      "name": "Anzahl Leerwohnungen",
       "turboThreshold": 0
     },
     {
@@ -95,7 +95,7 @@
           null
         ]
       ],
-      "name": "Leerstandsquote BS (rechte Skala)",
+      "name": "Leerstandsquote (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -138,7 +138,7 @@
           61
         ]
       ],
-      "name": "Anzahl Leerwohnungen BL",
+      "name": "Anzahl Leerwohnungen",
       "turboThreshold": 0
     },
     {
@@ -193,7 +193,7 @@
           0.008
         ]
       ],
-      "name": "Leerstandsquote BL (rechte Skala)",
+      "name": "Leerstandsquote (rechte Skala)",
       "turboThreshold": 0
     }
   ],

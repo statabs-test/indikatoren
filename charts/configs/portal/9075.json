@@ -25,18 +25,18 @@
       "data": [
         [
           "neu erstellt",
-          8.3
+          134
         ],
         [
           "renoviert",
-          15.3
+          248
         ],
         [
           "unverändert",
-          76.4
+          1235
         ]
       ],
-      "name": "Anteil in Prozent",
+      "name": "Anzahl",
       "turboThreshold": 0
     },
     {
@@ -63,18 +63,18 @@
       "data": [
         [
           "neu erstellt",
-          134
+          8
         ],
         [
           "renoviert",
-          248
+          15
         ],
         [
           "unverändert",
-          1235
+          77
         ]
       ],
-      "name": "Anzahl",
+      "name": "Anteil in Prozent",
       "turboThreshold": 0
     }
   ],

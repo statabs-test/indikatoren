@@ -43709,7 +43709,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:20:56.5656",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -43728,7 +43728,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -43751,26 +43751,26 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"aktualisierungsdatum": "2020-08-26T18:20:57.5757",
+		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Stadtkanton sind rund zwei Drittel der Leerwohnungen Zwei- und Dreizimmerwohnungen. Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus. Die Leerwohnungsquote bleibt 2020 auf 1,0%.",
+		"lesehilfe": "Im Stadtkanton sind rund zwei Drittel der Leerwohnungen Zwei- und Dreizimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_002",
+		"orderKey": "02_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"9067"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -43812,7 +43812,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -43837,7 +43837,7 @@ var indikatoren = [
 			"Gemeinde",
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:00.000",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -43856,7 +43856,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -43879,7 +43879,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:01.011",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -43898,7 +43898,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -43921,7 +43921,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:02.022",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -43940,7 +43940,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -43963,7 +43963,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:04.044",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -43982,7 +43982,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44005,7 +44005,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:05.055",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -44024,7 +44024,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44047,13 +44047,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:06.066",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Dreizimmerwohnungen weisen mit einer Quote von 1,8% den höchsten Leerstand auf, Wohnungen mit und mehr Zimmern mit 0,4% den niedrigsten.",
+		"lesehilfe": "Dreizimmerwohnungen weisen mit einer Quote von 1,8% den höchsten Leerstand auf. Sie machen rund 44% des Gesamtbestandes der leeren Wohnungen aus.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -44066,7 +44066,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44089,7 +44089,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:07.077",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -44108,7 +44108,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44131,7 +44131,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:09.099",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -44150,7 +44150,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44173,7 +44173,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:10.1010",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -44192,7 +44192,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44215,7 +44215,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:11.1111",
 		"stufe1": "Wohnungsleerstand im nationalen Kontext",
 		"stufe2": "",
 		"stufe3": "",
@@ -44234,7 +44234,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44258,7 +44258,7 @@ var indikatoren = [
 			"Gemeinde",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:12.1212",
 		"stufe1": "Wohnungsleerstand im nationalen Kontext",
 		"stufe2": "",
 		"stufe3": "",
@@ -44277,7 +44277,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44300,7 +44300,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:13.1313",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -44319,7 +44319,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44342,13 +44342,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:15.1515",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat um 22% von 98 600  m² auf 120 500 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 61700  m² auf 76 500  m² zurückzuführen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat um 22% von 98 600  m² auf 120 500 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 61 700  m² auf 76 500  m² zurückzuführen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -44361,7 +44361,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44384,13 +44384,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:16.1616",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Landkanton nahm die Bürofläche um 15 400 m² auf 67 400 m² ab. Dennoch blieb der Bürobereich mit einem Anteil von knapp einem Drittel der grösste Bereich. Dannach folgt der Gewerbebereich mit 65 700 m². Trotz Zunahme verfügen die Laden- und Produktionsflächen über kleine Anteile von 10% und 7%.",
+		"lesehilfe": "Im Landkanton nahm die Bürofläche um 15 400 m² auf 67 400 m² ab. Dennoch blieben die Büroflächen mit einem Anteil von knapp einem Drittel der grösste Bereich. Danach folgt der Gewerbebereich mit 65 700 m². Trotz Zunahme verfügen die Laden- und Produktionsflächen über kleine Anteile von 10% und 7%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -44403,7 +44403,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -44426,13 +44426,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-08-26T18:21:17.1717",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bürobereich hat einen Anteil von fast zwei Drittel am Geschäftsleerstand. Kleinere Anteile zwischen 15% und 8% weisen die Gewerbe-, Lager- und Ladenflächen auf.",
+		"lesehilfe": "Fast zwei Drittel des Geschäftsleerstandes entfallen auf den Bürobereich. Kleinere Anteile zwischen 15% und 8% weisen die Gewerbe-, Lager- und Ladenflächen auf.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -44445,7 +44445,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -70690,13 +70690,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-13T14:55:27.2727",
+		"aktualisierungsdatum": "2020-08-26T18:21:18.1818",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Büro und Gewerbebereich haben einen Anteil von jeweils über 30% der leerstehenden Geschäftsflächen. Danach folgt die Lagerfläche mit 20%",
+		"lesehilfe": "Sowhol der Büro- als auch der Gewerbebereich haben einen Anteil von jeweils über 30% der leerstehenden Geschäftsflächen. Danach folgen die Lagerflächen mit 20%.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -70709,7 +70709,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -71495,13 +71495,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-11T09:20:26.2626",
+		"aktualisierungsdatum": "2020-08-26T18:20:59.5959",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus. Die Leerwohnungsquote bleibt 2020 auf 1,1%",
+		"lesehilfe": "Im Landkanton machen Drei- und Vierzimmerwohnungen gut drei Viertel des Leerwohnungsbestandes aus. Die Leerwohnungsquote bleibt 2020 bei 1,1%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -71514,7 +71514,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

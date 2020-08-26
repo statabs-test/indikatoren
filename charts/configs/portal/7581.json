@@ -73,30 +73,30 @@
       "data": [
         [
           "BL",
-          30
+          0.02
         ],
         [
           "BL",
-          172
+          0.1
         ],
         [
           "BL",
-          712
+          0.44
         ],
         [
           "BL",
-          537
+          0.33
         ],
         [
           "BL",
-          107
+          0.07
         ],
         [
           "BL",
-          59
+          0.04
         ]
       ],
-      "name": "Leerwohnungen",
+      "name": "Anteil Leerwohnungen",
       "turboThreshold": 0
     }
   ],
@@ -119,8 +119,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -171,7 +171,11 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "headerFormat": "",
+    "pointFormatter": function(){ 
+        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '%</b><br/>';
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -185,9 +189,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
     "layout": "horizontal",

@@ -25,15 +25,15 @@
       "data": [
         [
           "neu erstellt",
-          5
+          4.8
         ],
         [
           "renoviert",
-          23.1
+          23.2
         ],
         [
           "unverändert",
-          71.8
+          71.9
         ]
       ],
       "name": "Anteil in Prozent",
@@ -63,7 +63,7 @@
       "data": [
         [
           "neu erstellt",
-          54
+          52
         ],
         [
           "renoviert",
@@ -71,7 +71,7 @@
         ],
         [
           "unverändert",
-          773
+          772
         ]
       ],
       "name": "Anzahl",

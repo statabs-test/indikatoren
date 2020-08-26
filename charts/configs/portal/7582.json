@@ -19,18 +19,18 @@
       "data": [
         [
           "neu erstellt",
-          8.3
+          134
         ],
         [
           "renoviert",
-          15.3
+          248
         ],
         [
           "unverändert",
-          76.4
+          1235
         ]
       ],
-      "name": "Anteil in Prozent",
+      "name": "Anzahl",
       "turboThreshold": 0
     },
     {
@@ -46,18 +46,18 @@
       "data": [
         [
           "neu erstellt",
-          134
+          8
         ],
         [
           "renoviert",
-          248
+          15
         ],
         [
           "unverändert",
-          1235
+          77
         ]
       ],
-      "name": "Anzahl",
+      "name": "Anteil in Prozent",
       "turboThreshold": 0
     }
   ],
@@ -80,8 +80,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -131,8 +131,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}% \u003C\u002Fb\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -146,9 +146,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
     "layout": "horizontal",

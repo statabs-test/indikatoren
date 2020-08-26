@@ -3,7 +3,7 @@
     {
       "color": "#923F8D",
       "index": 1,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "type": "line",
       "marker": {
         "enabled": false
@@ -507,7 +507,7 @@
         ],
         [
           2020,
-          "."
+          null
         ]
       ],
       "name": "Wohnbevölkerung"
@@ -516,7 +516,7 @@
       "yAxis": 1,
       "color": "#E7CEE2",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
           1960,
@@ -612,7 +612,7 @@
         ],
         [
           1983,
-          "."
+          null
         ],
         [
           1984,
@@ -768,7 +768,7 @@
   ],
   "chart": {
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -801,7 +801,7 @@
     },
     "type": "column",
     "renderTo": "container-7584",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -914,9 +914,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "tooltip": {
     "shared": true

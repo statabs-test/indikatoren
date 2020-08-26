@@ -19,15 +19,15 @@
       "data": [
         [
           "neu erstellt",
-          5
+          4.8
         ],
         [
           "renoviert",
-          23.1
+          23.2
         ],
         [
           "unverändert",
-          71.8
+          71.9
         ]
       ],
       "name": "Anteil in Prozent",
@@ -46,7 +46,7 @@
       "data": [
         [
           "neu erstellt",
-          54
+          52
         ],
         [
           "renoviert",
@@ -54,7 +54,7 @@
         ],
         [
           "unverändert",
-          773
+          772
         ]
       ],
       "name": "Anzahl",
@@ -80,8 +80,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -146,9 +146,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
     "layout": "horizontal",

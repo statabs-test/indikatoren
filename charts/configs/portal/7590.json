@@ -27,23 +27,23 @@
       "data": [
         [
           "Laden",
-          7.6
+          7.6487
         ],
         [
           "Büro",
-          63.4
+          63.4462
         ],
         [
           "Gewerbe",
-          15.4
+          15.3738
         ],
         [
           "Produktion",
-          1.5
+          1.4858
         ],
         [
           "Lager",
-          12
+          12.0455
         ]
       ],
       "name": "Anteil",
@@ -53,7 +53,7 @@
       "showInLegend": false,
       "type": "pie",
       "innerSize": "40%",
-      "borderWidth": 2,
+      "borderWidth": 0,
       "colors": [
         "#D3E2E4",
         "#B00000",
@@ -106,8 +106,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -158,8 +158,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E",
-    "useHTML": true
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "useHTML": true,
+    "headerFormat": ""
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -173,9 +174,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "legend": {
     "layout": "horizontal",

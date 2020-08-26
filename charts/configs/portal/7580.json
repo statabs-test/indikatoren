@@ -3,7 +3,7 @@
     {
       "color": "#923F8D",
       "index": 1,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "type": "line",
       "marker": {
         "enabled": false
@@ -179,39 +179,39 @@
         ],
         [
           2002,
-          102798
+          102793
         ],
         [
           2003,
-          102805
+          102802
         ],
         [
           2004,
-          102869
+          102854
         ],
         [
           2005,
-          102780
+          102790
         ],
         [
           2006,
-          103188
+          103157
         ],
         [
           2007,
-          103274
+          103374
         ],
         [
           2008,
-          103432
+          103459
         ],
         [
           2009,
-          103928
+          103829
         ],
         [
           2010,
-          104424
+          104295
         ],
         [
           2011,
@@ -239,7 +239,7 @@
         ],
         [
           2017,
-          108608
+          108574
         ],
         [
           2018,
@@ -247,7 +247,7 @@
         ],
         [
           2019,
-          109944
+          110014
         ],
         [
           2020,
@@ -516,7 +516,7 @@
       "yAxis": 1,
       "color": "#E7CEE2",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
           1960,
@@ -768,7 +768,7 @@
   ],
   "chart": {
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -801,7 +801,7 @@
     },
     "type": "column",
     "renderTo": "container-7580",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -915,9 +915,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "tooltip": {
     "shared": true

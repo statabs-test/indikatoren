@@ -16,7 +16,7 @@
       "dataLabels": {
         "enabled": true,
         "formatter": function(){
-          return this.point.name.replace(".", ",").replace(" (", "<br/>(").replace("Zimmer", "Zi.");
+          return this.point.name.replace(".", ",").replace(" (", "<br/>(").replace("Zimmer", "Zi");
   
         },
         "distance": 15,
@@ -84,11 +84,11 @@
       "data": [
         [
           "BL",
-          0.019
+          0.02
         ],
         [
           "BL",
-          0.106
+          0.1
         ],
         [
           "BL",
@@ -96,18 +96,18 @@
         ],
         [
           "BL",
-          0.332
+          0.33
         ],
         [
           "BL",
-          0.066
+          0.07
         ],
         [
           "BL",
-          0.036
+          0.04
         ]
       ],
-      "name": "Anteil_Leerwohnungen",
+      "name": "Anteil Leerwohnungen",
       "turboThreshold": 0
     }
   ],

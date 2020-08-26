@@ -40,7 +40,7 @@
           null
         ]
       ],
-      "name": "Anzahl Leerwohnungen BS",
+      "name": "Anzahl Leerwohnungen",
       "turboThreshold": 0
     },
     {
@@ -95,7 +95,7 @@
           null
         ]
       ],
-      "name": "Leerstandsquote BS (rechte Skala)",
+      "name": "Leerstandsquote (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -138,7 +138,7 @@
           61
         ]
       ],
-      "name": "Anzahl Leerwohnungen BL",
+      "name": "Anzahl Leerwohnungen",
       "turboThreshold": 0
     },
     {
@@ -193,7 +193,7 @@
           0.008
         ]
       ],
-      "name": "Leerstandsquote BL (rechte Skala)",
+      "name": "Leerstandsquote (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -217,7 +217,7 @@
   },
   "chart": {
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -249,7 +249,7 @@
                 }
     },
     "renderTo": "container-7576",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -356,9 +356,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "tooltip": {
     "shared": true

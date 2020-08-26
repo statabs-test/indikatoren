@@ -89,7 +89,7 @@
         ],
         [
           2020,
-          215244
+          206768
         ]
       ],
       "name": "Basel-Landschaft"
@@ -136,7 +136,7 @@
         ],
         [
           2020,
-          335787
+          327311
         ]
       ],
       "name": "Beide Basel"
@@ -145,8 +145,8 @@
   "chart": {
     "type": "line",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -263,9 +263,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Leerstandserhebung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-26"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
