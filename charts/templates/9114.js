@@ -1,79 +1,50 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
-     // "pointWidth": 15,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
   "xAxis": {
-    "type": "category"    
-  },  
+    "tickInterval": 1,
+  },
   "yAxis": {
-    tickAmount: 8,
-  	//tickInterval: 4000,
-      "labels": {
-      "format": "{value:,.0f}"
-    }
-  },
+    "min": 0, 
+    //tickInterval: 10,
+    //max: 40, 
+	  "labels": {
+		  "format": "{value}"
+	  }
+  },	
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },  
-  "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "shared": false, 
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
+  },
+ "series": [
+  {"color": "#b00000"}, /*Schweiz*/
+  {"color": "#672773"}, /*Deutschland*/
+  {"color": "#007a2f"}, /*Italien*/
+  {"color": "#fabd24"}, /*Türkei*/
+  {"color": "#b475ab"}, /*EU-17 & EFTA*/
+  {"color": "#b9cfd7"}, /*Balkan*/
+  {"color": "#999999"}, /*Übrige Länder*/
+  {"color": "#083038"}, /*Übrige Länder*/
+  ],
+   "legend": {
+    "enabled": true,
+    //"x": 45,
+    //"y": 35,
+    "itemWidth": 180,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 125,
-      textOverflow: null
+      "fontWeight": "normal"
     }
   },
-  "series": [
-    {
-      "color": "#68AB2B",
-      "legendIndex": 0     
-    },
-    {
-      "color": "#ECE1D0",
-      "legendIndex": 1
-    },
-	  {
-      "color": "#9E7C59",
-      "legendIndex": 2     
-    },
-    {
-      "color": "#B6CFD7",
-      "legendIndex": 3
-    },
-    {
-      "color": "#008AC3",
-      "legendIndex": 4  
-    },
-    {
-      "color": "#923F8D",
-      "legendIndex": 5  
-    },
-    {
-      "color": "#FFBB58",
-      "legendIndex": 6  
-    },
-    {
-      "color": "#DC440E",
-      "legendIndex": 7  
-    }        
-  ],
-  "chart": {    
-    "marginBottom": 75,
-    "marginTop": 75,
-    "type": "column"
+  "plotOptions": {
+    "line": {
+      "marker":{
+        "enabled": false,
+        "symbol": "circle",
+      } 
+    }
   }
-	}
+}
 }());

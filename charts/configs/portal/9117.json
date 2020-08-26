@@ -6,56 +6,84 @@
       "legendIndex": 0,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          269
         ],
         [
-          "Alleine zu Hause",
-          1092
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          938
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          887
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          459
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          846
+          "Weiblich",
+          224
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
+          "18-29 Jahre",
+          57
+        ],
+        [
+          "30-39 Jahre",
+          119
+        ],
+        [
+          "40-49 Jahre",
+          101
+        ],
+        [
+          "50-59 Jahre",
+          99
+        ],
+        [
+          "60-69 Jahre",
+          62
+        ],
+        [
+          "\u003E69 Jahre",
+          51
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          46
+        ],
+        [
+          "3 000-7 499 Fr.",
+          170
+        ],
+        [
+          "\u003E7 499 Fr.",
+          232
+        ],
+        [
+          "   ",
           undefined
         ],
         [
-          "Alleine zu Hause",
-          830
+          "2003",
+          504
         ],
         [
-          "Alleine unterwegs im Quartier",
-          345
+          "2005",
+          517
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          265
+          "2007",
+          449
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          262
+          "2011",
+          436
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          343
+          "2015",
+          369
+        ],
+        [
+          "2019",
+          498
         ]
       ],
       "name": "Sehr sicher",
@@ -67,59 +95,87 @@
       "legendIndex": 1,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          387
         ],
         [
-          "Alleine zu Hause",
-          274
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          398
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          419
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          298
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          458
+          "Weiblich",
+          518
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
+          "18-29 Jahre",
+          67
+        ],
+        [
+          "30-39 Jahre",
+          139
+        ],
+        [
+          "40-49 Jahre",
+          145
+        ],
+        [
+          "50-59 Jahre",
+          171
+        ],
+        [
+          "60-69 Jahre",
+          171
+        ],
+        [
+          "\u003E69 Jahre",
+          208
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          110
+        ],
+        [
+          "3 000-7 499 Fr.",
+          377
+        ],
+        [
+          "\u003E7 499 Fr.",
+          311
+        ],
+        [
+          "   ",
           undefined
         ],
         [
-          "Alleine zu Hause",
-          471
+          "2003",
+          542
         ],
         [
-          "Alleine unterwegs im Quartier",
-          611
+          "2005",
+          536
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          550
+          "2007",
+          565
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          362
+          "2011",
+          527
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          620
+          "2015",
+          571
+        ],
+        [
+          "2019",
+          926
         ]
       ],
-      "name": "Eher sicher",
+      "name": "Eher sicher",
       "turboThreshold": 0
     },
     {
@@ -128,59 +184,87 @@
       "legendIndex": 2,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          161
         ],
         [
-          "Alleine zu Hause",
-          16
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          33
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          56
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          46
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          43
+          "Weiblich",
+          271
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
+          "18-29 Jahre",
+          20
+        ],
+        [
+          "30-39 Jahre",
+          48
+        ],
+        [
+          "40-49 Jahre",
+          40
+        ],
+        [
+          "50-59 Jahre",
+          69
+        ],
+        [
+          "60-69 Jahre",
+          86
+        ],
+        [
+          "\u003E69 Jahre",
+          163
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          56
+        ],
+        [
+          "3 000-7 499 Fr.",
+          197
+        ],
+        [
+          "\u003E7 499 Fr.",
+          106
+        ],
+        [
+          "   ",
           undefined
         ],
         [
-          "Alleine zu Hause",
-          66
+          "2003",
+          248
         ],
         [
-          "Alleine unterwegs im Quartier",
-          281
+          "2005",
+          255
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          363
+          "2007",
+          285
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          137
+          "2011",
+          353
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          260
+          "2015",
+          335
+        ],
+        [
+          "2019",
+          442
         ]
       ],
-      "name": "Eher unsicher",
+      "name": "Eher unsicher",
       "turboThreshold": 0
     },
     {
@@ -189,56 +273,84 @@
       "legendIndex": 3,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          64
         ],
         [
-          "Alleine zu Hause",
-          1
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          8
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          7
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          17
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          7
+          "Weiblich",
+          95
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
+          "18-29 Jahre",
+          7
+        ],
+        [
+          "30-39 Jahre",
+          13
+        ],
+        [
+          "40-49 Jahre",
+          15
+        ],
+        [
+          "50-59 Jahre",
+          17
+        ],
+        [
+          "60-69 Jahre",
+          34
+        ],
+        [
+          "\u003E69 Jahre",
+          69
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          25
+        ],
+        [
+          "3 000-7 499 Fr.",
+          75
+        ],
+        [
+          "\u003E7 499 Fr.",
+          29
+        ],
+        [
+          "   ",
           undefined
         ],
         [
-          "Alleine zu Hause",
-          12
+          "2003",
+          87
         ],
         [
-          "Alleine unterwegs im Quartier",
-          77
+          "2005",
+          91
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          121
+          "2007",
+          91
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          35
+          "2011",
+          107
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          74
+          "2015",
+          111
+        ],
+        [
+          "2019",
+          164
         ]
       ],
       "name": "Ganz unsicher",
@@ -250,59 +362,87 @@
       "legendIndex": 4,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          10
         ],
         [
-          "Alleine zu Hause",
-          3
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          2
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          2
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          12
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          6
+          "Weiblich",
+          22
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
+          "18-29 Jahre",
+          0
+        ],
+        [
+          "30-39 Jahre",
+          0
+        ],
+        [
+          "40-49 Jahre",
+          2
+        ],
+        [
+          "50-59 Jahre",
+          3
+        ],
+        [
+          "60-69 Jahre",
+          3
+        ],
+        [
+          "\u003E69 Jahre",
+          24
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          7
+        ],
+        [
+          "3 000-7 499 Fr.",
+          16
+        ],
+        [
+          "\u003E7 499 Fr.",
+          2
+        ],
+        [
+          "   ",
           undefined
         ],
         [
-          "Alleine zu Hause",
-          1
+          "2003",
+          116
         ],
         [
-          "Alleine unterwegs im Quartier",
-          6
+          "2005",
+          110
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          5
+          "2007",
+          118
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          10
+          "2011",
+          92
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          7
+          "2015",
+          119
+        ],
+        [
+          "2019",
+          32
         ]
       ],
-      "name": "Trifft auf mich nicht zu",
+      "name": "Geht nachts nie raus",
       "turboThreshold": 0
     },
     {
@@ -311,56 +451,84 @@
       "legendIndex": 5,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          3
         ],
         [
-          "Alleine zu Hause",
-          10
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          11
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          14
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          477
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          27
+          "Weiblich",
+          4
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
+          "18-29 Jahre",
+          2
+        ],
+        [
+          "30-39 Jahre",
+          2
+        ],
+        [
+          "40-49 Jahre",
+          0
+        ],
+        [
+          "50-59 Jahre",
+          1
+        ],
+        [
+          "60-69 Jahre",
+          0
+        ],
+        [
+          "\u003E69 Jahre",
+          2
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "\u003C3 000 Fr.",
+          0
+        ],
+        [
+          "3 000-7 499 Fr.",
+          3
+        ],
+        [
+          "\u003E7 499 Fr.",
+          2
+        ],
+        [
+          "   ",
           undefined
         ],
         [
-          "Alleine zu Hause",
-          9
+          "2003",
+          0
         ],
         [
-          "Alleine unterwegs im Quartier",
-          57
+          "2005",
+          1
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          69
+          "2007",
+          1
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          522
+          "2011",
+          1
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          76
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          7
         ]
       ],
       "name": "Weiss nicht",
@@ -372,56 +540,84 @@
       "legendIndex": 6,
       "data": [
         [
-          "Tagsüber",
-          undefined
+          "Männlich",
+          9
         ],
         [
-          "Alleine zu Hause",
-          14
-        ],
-        [
-          "Alleine unterwegs im Quartier",
-          20
-        ],
-        [
-          "Alleine zu Fuss unterwegs",
-          25
-        ],
-        [
-          "Alleine mit dem Velo unterwegs",
-          101
-        ],
-        [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          23
+          "Weiblich",
+          27
         ],
         [
           " ",
           null
         ],
         [
-          "Nachts",
-          undefined
+          "18-29 Jahre",
+          2
         ],
         [
-          "Alleine zu Hause",
+          "30-39 Jahre",
+          1
+        ],
+        [
+          "40-49 Jahre",
+          2
+        ],
+        [
+          "50-59 Jahre",
+          4
+        ],
+        [
+          "60-69 Jahre",
+          7
+        ],
+        [
+          "\u003E69 Jahre",
           21
         ],
         [
-          "Alleine unterwegs im Quartier",
-          33
+          "  ",
+          null
         ],
         [
-          "Alleine zu Fuss unterwegs",
-          37
+          "\u003C3 000 Fr.",
+          8
         ],
         [
-          "Alleine mit dem Velo unterwegs",
-          82
+          "3 000-7 499 Fr.",
+          15
         ],
         [
-          "Alleine mit dem Bus\u002FTran unterwegs",
-          30
+          "\u003E7 499 Fr.",
+          6
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          39
         ]
       ],
       "name": "Keine Angabe",
@@ -498,7 +694,7 @@
     "type": "column",
     "marginLeft": 135,
     "inverted": true,
-    "renderTo": "container-9120",
+    "renderTo": "container-9117",
     "spacingBottom": 40
   },
   "title": {
@@ -508,7 +704,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsgefühl Ältere"
+    "text": "Sicherheitsgefühl nachts im Quartier"
   },
   "subtitle": {
     "style": {
@@ -516,7 +712,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie sicher fühlen Sie sich in folgenden Situationen?», Basel-Stadt, 2019"
+    "text": "«Wie stehen Sie zu folgender Aussage: Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», nach Geschlecht, Alter, Haushaltseinkommen und Befragungsjahr, Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -576,7 +772,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
   },
   "legend": {
     "layout": "horizontal",
@@ -594,6 +790,6 @@
         }
   },
   "exporting": {
-    "filename": 9120
+    "filename": 9117
   }
 }
