@@ -42,4 +42,4 @@ npm run build
 Manually create svg thumbnails: 
 - For the portal view: In Chrome, open thumbnails.html.
 - For the indikatorenset view: In Chrome, open thumbnails.html?indikatorensetView=true.
-This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
+This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.  
