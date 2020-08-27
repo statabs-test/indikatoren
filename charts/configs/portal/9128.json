@@ -35974,7 +35974,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value*100),0)+'%'; 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
@@ -36014,7 +36014,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        "PLZ " + this.point.properties.PLZ +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
                 }
             }
   },

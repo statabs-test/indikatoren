@@ -63,7 +63,13 @@
     		"gridLineColor": "#fbfbfb",	
             "gridLineWidth": 1,
             "labels": {	
-    		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
+                "style": 
+                {
+                    color: "black", 
+                    cursor: "default", 
+                    fontSize: "11px", 
+                    textOverflow: "none"
+                }
     		},
     		"marker": {
                     "color": "black"
@@ -165,7 +171,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        "PLZ " + this.point.properties.PLZ +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
                 }
             }
         },
