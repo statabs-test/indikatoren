@@ -18849,8 +18849,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1580375190838,
-    "max": 1601543190838,
+    "min": 1580378766772,
+    "max": 1601546766772,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
