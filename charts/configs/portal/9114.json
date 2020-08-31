@@ -265,6 +265,44 @@
         ]
       ],
       "name": "Vandalismus"
+    },
+    {
+      "color": "#083038",
+      "data": [
+        [
+          2012,
+          577
+        ],
+        [
+          2013,
+          483
+        ],
+        [
+          2014,
+          459
+        ],
+        [
+          2015,
+          493
+        ],
+        [
+          2016,
+          583
+        ],
+        [
+          2017,
+          451
+        ],
+        [
+          2018,
+          475
+        ],
+        [
+          2019,
+          514
+        ]
+      ],
+      "name": "Übrige"
     }
   ],
   "chart": {
@@ -364,8 +402,7 @@
         "color": "#000000"
       },
       "format": "{value}"
-    },
-    "max": 40
+    }
   },
   "legend": {
     "enabled": true,
@@ -376,7 +413,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 140,
+    "itemWidth": 180,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -430,7 +467,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 9114

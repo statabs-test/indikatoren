@@ -38067,7 +38067,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sicherheitsgefühl Ältere",
-		"subtitle": "«Wie sicher fühlen Sie sich in folgenden Situationen?», Basel-Stadt, 2019",
+		"subtitle": "«Wie sicher fühlen Sie sich alleine in folgenden Situationen?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.09120",
 		"kuerzelKunde": "3-9",
 		"description": "Sicherheitsgefühl Ältere",
@@ -38106,6 +38106,46 @@ var indikatoren = [
 		"id": 9120
 	},
 	{
+		"title": "Sicherheitsgefühl Ältere",
+		"subtitle": "«Gibt es im Kanton Basel-Stadt Orte, die Sie bewusst meiden?», Basel-Stadt",
+		"kuerzel": "I.50.1.09121",
+		"kuerzelKunde": "3-10",
+		"description": "Sicherheitsgefühl Ältere",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "39% der 1 410 im Jahr 2019 befragten Personen im Alter ab 54 Jahren meiden bewusst gewisse Orte. Dieser Anteil hat seit 2011 kontiniuerlich abgenommen.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Offene Frage: Falls es Orte im Kanton Basel-Stadt gibt, die bewusst gemieden werden, welche Orte sind das.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_031",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9121,
+		"chart-id": 9121,
+		"filter": "",
+		"id": 9121
+	},
+	{
 		"title": "Zufriedenheit mit Präsenz Kantonspolizei",
 		"subtitle": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverlauf beurteilen», Basel-Stadt, 2018",
 		"kuerzel": "I.50.1.09123",
@@ -38123,8 +38163,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Präsenz der Kantonspolizei wird besonders tagsüber (1 141 Nennungen), in der Innerstadt (997), im Strassenverkehr (963) und bei Grossveranstaltungen (882) als ausreichend wahrgenommen. 666 Personen geben an, dass die Kantonspolizei nachts zu wenig Präsenz zeigt. 597 bzw. 571 Befragte geben an, dass dies im  Quartier bzw. in den Parks der Fall ist.",
+		"erlaeuterungen": "Kundenbefragung Kantonspolizei Basel-Stadt 2018. Mit diesem Instrument der Qualitätssicherung erfragt die Kantonspolizei Basel-Stadt im 3-Jahres-Rhythmus, wie zufrieden die baselstädtische Bevölkerung mit den Dienstleistungen ist und wo Verbesserungsbedarf besteht.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

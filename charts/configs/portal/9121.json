@@ -4,105 +4,54 @@
       "color": "#71A3B5",
       "data": [
         [
-          "Männlich",
-          974
+          "2011",
+          871
         ],
         [
-          "Weiblich",
-          571
+          "2015",
+          618
         ],
         [
-          "2009",
-          449
-        ],
-        [
-          "2013",
-          503
-        ],
-        [
-          "2017",
-          609
+          "2019",
+          550
         ]
       ],
-      "name": "Trifft zu",
+      "name": "Ja",
       "turboThreshold": 0
     },
     {
       "color": "#FABD24",
       "data": [
         [
-          "Männlich",
-          284
+          "2011",
+          236
         ],
         [
-          "Weiblich",
-          603
+          "2015",
+          1
         ],
         [
-          "2009",
-          265
-        ],
-        [
-          "2013",
-          330
-        ],
-        [
-          "2017",
-          301
+          "2019",
+          105
         ]
       ],
-      "name": "Trifft nicht zu",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "data": [
-        [
-          "Männlich",
-          176
-        ],
-        [
-          "Weiblich",
-          325
-        ],
-        [
-          "2009",
-          144
-        ],
-        [
-          "2013",
-          177
-        ],
-        [
-          "2017",
-          187
-        ]
-      ],
-      "name": "Weiss nicht",
+      "name": "Nein",
       "turboThreshold": 0
     },
     {
       "color": "#6F6F6F",
       "data": [
         [
-          "Männlich",
-          39
+          "2011",
+          582
         ],
         [
-          "Weiblich",
-          59
+          "2015",
+          808
         ],
         [
-          "2009",
-          23
-        ],
-        [
-          "2013",
-          28
-        ],
-        [
-          "2017",
-          49
+          "2019",
+          755
         ]
       ],
       "name": "Keine Angabe",
@@ -175,7 +124,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-9118",
+    "renderTo": "container-9121",
     "spacingBottom": 40
   },
   "title": {
@@ -185,7 +134,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsgefühl Jugendliche "
+    "text": "Sicherheitsgefühl Ältere"
   },
   "subtitle": {
     "style": {
@@ -193,7 +142,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie stehst du zu folgender Aussage: Wenn ich abends unterwegs bin, fühle ich mich sicher.», nach Geschlecht und Befragungsjahr, Basel-Stadt, 2017"
+    "text": "«Gibt es im Kanton Basel-Stadt Orte, die Sie bewusst meiden?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -251,7 +200,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
   },
   "legend": {
     "layout": "horizontal",
@@ -270,6 +219,6 @@
     "reversed": false
   },
   "exporting": {
-    "filename": 9118
+    "filename": 9121
   }
 }
