@@ -17846,7 +17846,7 @@
       ]
     },
     {
-      "name": "Anzahl OB",
+      "name": "Anzahl Ordnungsbussen",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -35971,17 +35971,18 @@
         "color": "black",
         "cursor": "default",
         "fontSize": "11px",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
       },
-      "formatter": function () {
+      "formatte": function () {
 					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#f4ebf3",
-    "maxColor": "#5b2659"
+    "minColor": "#D3E2E4",
+    "maxColor": "#083038"
   },
   "mapNavigation": {
     "enabled": true,

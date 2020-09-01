@@ -17779,4 +17779,4 @@ var geojson_PLZ_EPSG_2056 =
 
 
 ;
-var PLZ_DataEPSG_2056 = Highcharts.geojson(geojson_PLZ_EPSG_2056, 'map');
+var PLZDataEPSG2056 = Highcharts.geojson(geojson_PLZ_EPSG_2056, 'map');
