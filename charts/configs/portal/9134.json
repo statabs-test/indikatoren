@@ -6569,83 +6569,83 @@
       "data": [
         [
           1,
-          15.6
+          5.6
         ],
         [
           2,
-          8.3
+          3
         ],
         [
           3,
-          1.4
+          0.6
         ],
         [
           4,
-          1.1
+          0.6
         ],
         [
           5,
-          1.9
+          0.4
         ],
         [
           6,
-          1.7
+          0.6
         ],
         [
           7,
-          0.5
+          0.3
         ],
         [
           8,
-          0.7
+          0.3
         ],
         [
           9,
-          0.9
+          0.5
         ],
         [
           10,
-          1
+          0.6
         ],
         [
           11,
-          1.7
+          0.8
         ],
         [
           12,
-          14.4
+          5.1
         ],
         [
           13,
-          4.7
+          2.6
         ],
         [
           14,
-          1.4
+          0.7
         ],
         [
           15,
-          1.6
+          0.7
         ],
         [
           16,
-          2
+          1.1
         ],
         [
           17,
-          2.9
+          1.4
         ],
         [
           18,
-          2.8
+          1.1
         ],
         [
           19,
-          4.8
+          2
         ],
         [
           20,
-          0.7
+          0.3
         ],
         [
           30,
@@ -6660,83 +6660,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          398
+          142
         ],
         [
           "Vorstädte",
-          419
+          153
         ],
         [
           "Am Ring",
-          156
+          62
         ],
         [
           "Breite",
-          95
+          51
         ],
         [
           "St. Alban",
-          227
+          51
         ],
         [
           "Gundeldingen",
-          314
+          116
         ],
         [
           "Bruderholz",
-          46
+          29
         ],
         [
           "Bachletten",
-          102
+          47
         ],
         [
           "Gotthelf",
-          60
+          33
         ],
         [
           "Iselin",
-          162
+          104
         ],
         [
           "St. Johann",
-          310
-        ],
-        [
-          "Altstadt Kleinbasel",
-          348
-        ],
-        [
-          "Clara",
-          190
-        ],
-        [
-          "Wettstein",
-          78
-        ],
-        [
-          "Hirzbrunnen",
           145
         ],
         [
+          "Altstadt Kleinbasel",
+          123
+        ],
+        [
+          "Clara",
+          108
+        ],
+        [
+          "Wettstein",
+          39
+        ],
+        [
+          "Hirzbrunnen",
+          62
+        ],
+        [
           "Rosental",
-          154
+          81
         ],
         [
           "Matthäus",
-          444
+          221
         ],
         [
           "Klybeck",
-          201
+          82
         ],
         [
           "Kleinhüningen",
-          134
+          55
         ],
         [
           "Riehen",
-          147
+          58
         ],
         [
           "Bettingen",
@@ -7020,7 +7020,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 5; 
-	                var maxValueInLegend = 500; 
+	                var maxValueInLegend = 300; 
 	                
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
@@ -7082,7 +7082,7 @@
 					
 	            }
     },
-    "renderTo": "container-9113"
+    "renderTo": "container-9134"
   },
   "title": {
     "style": {
@@ -7092,7 +7092,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Requisitionen nach Gemeinde und Wohnviertel"
+    "text": "Requisitionen wegen Lärm nach Gemeinde und Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -7117,7 +7117,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-10"
   },
   "colorAxis": {
     "min": 0,
@@ -7207,7 +7207,7 @@
 			            }
       }
     },
-    "filename": 9113
+    "filename": 9134
   },
   "customFunctions": {
     "hideOnZoom": function(e, selector){

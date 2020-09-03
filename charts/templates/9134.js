@@ -105,8 +105,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 5; 
-	                var maxValueInLegend = 500; 
+	                var minValueInLegend = 3; 
+	                var maxValueInLegend = 300; 
 	                
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
