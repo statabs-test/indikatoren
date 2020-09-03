@@ -5,15 +5,15 @@
       "data": [
         [
           "Generell nachts",
-          666
-        ],
-        [
-          "Quartier",
-          597
+          641
         ],
         [
           "Parks",
           571
+        ],
+        [
+          "Quartier",
+          556
         ],
         [
           "Rhein",
@@ -21,43 +21,43 @@
         ],
         [
           "Bahnhof SBB",
-          461
+          455
         ],
         [
           "Claraplatz",
-          370
+          367
         ],
         [
           "Steinenvorstadt",
-          345
+          332
         ],
         [
           "Heuwaage",
-          299
+          292
         ],
         [
           "Barfüsserplatz",
-          256
-        ],
-        [
-          "Strassenverkehr",
-          240
+          238
         ],
         [
           "Innerstadt",
-          236
+          222
         ],
         [
-          "Generell tagsüber",
-          208
+          "Strassenverkehr",
+          222
         ],
         [
           "Grossveranstaltungen",
-          202
+          190
         ],
         [
           "Messeplatz",
-          183
+          187
+        ],
+        [
+          "Generell tagsüber",
+          185
         ]
       ],
       "name": "Zu wenig Präsenz",
@@ -68,59 +68,59 @@
       "data": [
         [
           "Generell nachts",
-          526
-        ],
-        [
-          "Quartier",
-          858
+          593
         ],
         [
           "Parks",
-          394
+          451
+        ],
+        [
+          "Quartier",
+          908
         ],
         [
           "Rhein",
-          560
+          618
         ],
         [
           "Bahnhof SBB",
-          753
+          801
         ],
         [
           "Claraplatz",
-          632
+          676
         ],
         [
           "Steinenvorstadt",
-          548
+          623
         ],
         [
           "Heuwaage",
-          550
+          620
         ],
         [
           "Barfüsserplatz",
-          830
-        ],
-        [
-          "Strassenverkehr",
-          963
+          901
         ],
         [
           "Innerstadt",
-          997
+          1055
         ],
         [
-          "Generell tagsüber",
-          1141
+          "Strassenverkehr",
+          983
         ],
         [
           "Grossveranstaltungen",
-          882
+          926
         ],
         [
           "Messeplatz",
-          672
+          720
+        ],
+        [
+          "Generell tagsüber",
+          1181
         ]
       ],
       "name": "Genug Präsenz",
@@ -131,59 +131,59 @@
       "data": [
         [
           "Generell nachts",
-          23
-        ],
-        [
-          "Quartier",
-          50
+          30
         ],
         [
           "Parks",
-          41
+          52
         ],
         [
-          "Rhein",
-          72
-        ],
-        [
-          "Bahnhof SBB",
-          59
-        ],
-        [
-          "Claraplatz",
-          55
-        ],
-        [
-          "Steinenvorstadt",
-          39
-        ],
-        [
-          "Heuwaage",
-          37
-        ],
-        [
-          "Barfüsserplatz",
+          "Quartier",
           57
         ],
         [
-          "Strassenverkehr",
-          174
+          "Rhein",
+          93
         ],
         [
-          "Innerstadt",
+          "Bahnhof SBB",
+          70
+        ],
+        [
+          "Claraplatz",
+          63
+        ],
+        [
+          "Steinenvorstadt",
+          50
+        ],
+        [
+          "Heuwaage",
+          42
+        ],
+        [
+          "Barfüsserplatz",
           72
         ],
         [
-          "Generell tagsüber",
-          59
+          "Innerstadt",
+          87
+        ],
+        [
+          "Strassenverkehr",
+          198
         ],
         [
           "Grossveranstaltungen",
-          109
+          120
         ],
         [
           "Messeplatz",
-          50
+          53
+        ],
+        [
+          "Generell tagsüber",
+          75
         ]
       ],
       "name": "Zu viel Präsenz",
@@ -194,59 +194,59 @@
       "data": [
         [
           "Generell nachts",
-          390
-        ],
-        [
-          "Quartier",
-          109
+          353
         ],
         [
           "Parks",
-          537
+          493
+        ],
+        [
+          "Quartier",
+          100
         ],
         [
           "Rhein",
-          427
+          375
         ],
         [
           "Bahnhof SBB",
-          286
-        ],
-        [
-          "Claraplatz",
-          503
-        ],
-        [
-          "Steinenvorstadt",
-          628
-        ],
-        [
-          "Heuwaage",
-          667
-        ],
-        [
-          "Barfüsserplatz",
-          411
-        ],
-        [
-          "Strassenverkehr",
-          196
-        ],
-        [
-          "Innerstadt",
           257
         ],
         [
-          "Generell tagsüber",
-          181
+          "Claraplatz",
+          475
+        ],
+        [
+          "Steinenvorstadt",
+          581
+        ],
+        [
+          "Heuwaage",
+          628
+        ],
+        [
+          "Barfüsserplatz",
+          370
+        ],
+        [
+          "Innerstadt",
+          222
+        ],
+        [
+          "Strassenverkehr",
+          193
         ],
         [
           "Grossveranstaltungen",
-          363
+          337
         ],
         [
           "Messeplatz",
-          642
+          616
+        ],
+        [
+          "Generell tagsüber",
+          162
         ]
       ],
       "name": "Weiss nicht",
@@ -257,59 +257,59 @@
       "data": [
         [
           "Generell nachts",
-          61
-        ],
-        [
-          "Quartier",
-          52
+          48
         ],
         [
           "Parks",
-          123
+          97
+        ],
+        [
+          "Quartier",
+          43
         ],
         [
           "Rhein",
-          116
+          87
         ],
         [
           "Bahnhof SBB",
-          107
+          83
         ],
         [
           "Claraplatz",
-          106
+          85
         ],
         [
           "Steinenvorstadt",
-          106
+          82
         ],
         [
           "Heuwaage",
-          113
+          87
         ],
         [
           "Barfüsserplatz",
-          112
-        ],
-        [
-          "Strassenverkehr",
-          94
+          87
         ],
         [
           "Innerstadt",
-          104
+          80
         ],
         [
-          "Generell tagsüber",
-          77
+          "Strassenverkehr",
+          72
         ],
         [
           "Grossveranstaltungen",
-          110
+          93
         ],
         [
           "Messeplatz",
-          119
+          92
+        ],
+        [
+          "Generell tagsüber",
+          63
         ]
       ],
       "name": "Keine Angabe",
