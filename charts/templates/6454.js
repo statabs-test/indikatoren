@@ -20,7 +20,8 @@
       },
       "yAxis": {
           reversedStacks: false, 
-          tickAmount: 7
+          tickAmount: 6,
+          max: 200000
       },
       "series": [
         {
