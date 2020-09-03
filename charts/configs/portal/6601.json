@@ -6785,7 +6785,6 @@
             -1267399.905,
             "Z"
           ],
-          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6825,7 +6824,6 @@
             2610400,
             -1264600
           ],
-          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6842,13 +6840,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function (){
+        "formatter": function(){
 						return '1 km';
 					},
         "style": {
@@ -6862,7 +6860,7 @@
   ],
   "chart": {
     "events": {
-      "load": function () {                
+      "load": function() {                
                     this.credits.element.onclick = function() {};
                 }
     },
@@ -6971,7 +6969,7 @@
     }
   },
   "tooltip": {
-    "formatter": function (args){
+    "formatter": function(args){
         		if (! this.point["Wohnviertel Id"]) {
         		    //Rhein
         			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
@@ -6985,7 +6983,7 @@
             }
   },
   "customFunctions": {
-    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+    "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){
             	return chart.renderer.rect(x, y, width, height).attr({
     	            'stroke-width':0,
     	            fill: fill,
