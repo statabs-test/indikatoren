@@ -21,7 +21,7 @@
 		      {
 		      	x: 0, y: 2
 		      }	      
-		    ]
+			]
 		},
 		legend: {
 			align: 'right'
@@ -60,6 +60,6 @@
                         "PLZ " + this.point.properties.PLZ +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
                 }
             }
-        },
+		}
 	};
 }());
