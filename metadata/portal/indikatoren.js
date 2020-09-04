@@ -38384,5 +38384,85 @@ var indikatoren = [
 		"chart-id": 9134,
 		"filter": "",
 		"id": 9134
+	},
+	{
+		"title": "Ordnungsbussen nach Gesetz",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09141",
+		"kuerzelKunde": "4-4",
+		"description": "Ordnungsbussen nach Gesetz",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-13T14:25:15.1515",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den Jahren 2017 bis 2019 wurde jeweils die überwiegende Mehrheit der Ordnungsbussen wegen Übertretungen des Strassenverkehrsgesetzes (SGV) bezahlt. 2019 waren es 99,0%. 0,6% der 2019 bezahlten Bussen betrafen das Umweltschutzgesetz (USG), je 0,2% das Übertretungsstrafgesetz (ÜStG) und das Nationalstrassenabgabegesetz (NSAG).",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9141,
+		"chart-id": 9141,
+		"filter": "",
+		"id": 9141
+	},
+	{
+		"title": "Ordnungsbussen gemäss Strassenverkehrsgesetz (SVG) nach Übertretung",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09149",
+		"kuerzelKunde": "4-5",
+		"description": "Ordnungsbussen gemäss Strassenverkehrsgesetz (SVG) nach Übertretung",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-28T14:04:45.4545",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2019 wurden im Kanton Basel-Stadt insgesamt 231'205 Ordnungsbussen wegen Übertretungen des Strassenverkehrsgesetzes (SVG) bezahlt. 49, 6% dieser Bussen bezahlten Motorfahrzeugführer, welche die Regeln des ruhenden Verkehrs verletzt hatten; 48,7% Motorfahrzeugführer, welche die Regeln des Fahrverkehrs verletzt hatten.",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9149,
+		"chart-id": 9149,
+		"filter": "",
+		"id": 9149
 	}
 ];

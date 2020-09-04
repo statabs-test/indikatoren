@@ -1,0 +1,326 @@
+{
+  "series": [
+    {
+      "color": "#4BACC6",
+      "legendIndex": 0,
+      "data": [
+        [
+          "2017",
+          320
+        ],
+        [
+          "2018",
+          219
+        ],
+        [
+          "2019",
+          163
+        ]
+      ],
+      "name": "Fahrzeugführer: Admin. Best.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#933F8D",
+      "legendIndex": 1,
+      "data": [
+        [
+          "2017",
+          123211
+        ],
+        [
+          "2018",
+          110110
+        ],
+        [
+          "2019",
+          114599
+        ]
+      ],
+      "name": "Motorfahrzeugführer: Ruhender Verkehr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B475AB",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2017",
+          93063
+        ],
+        [
+          "2018",
+          95185
+        ],
+        [
+          "2019",
+          112536
+        ]
+      ],
+      "name": "Motorfahrzeugführer: Fahrverkehr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2017",
+          104
+        ],
+        [
+          "2018",
+          114
+        ],
+        [
+          "2019",
+          98
+        ]
+      ],
+      "name": "Motorfahrzeugführer: Ausrüstung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "legendIndex": 4,
+      "data": [
+        [
+          "2017",
+          2123
+        ],
+        [
+          "2018",
+          242
+        ],
+        [
+          "2019",
+          249
+        ]
+      ],
+      "name": "Fahrzeughalter",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 5,
+      "data": [
+        [
+          "2017",
+          2779
+        ],
+        [
+          "2018",
+          2446
+        ],
+        [
+          "2019",
+          3366
+        ]
+      ],
+      "name": "Radfahrer\u002FMotorfahrradfahrer: Verkehrsregeln",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "legendIndex": 6,
+      "data": [
+        [
+          "2017",
+          88
+        ],
+        [
+          "2018",
+          97
+        ],
+        [
+          "2019",
+          54
+        ]
+      ],
+      "name": "Radfahrer\u002FMotorfahrradfahrer: Ausrüstung, admin. Best.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 7,
+      "data": [
+        [
+          "2017",
+          288
+        ],
+        [
+          "2018",
+          214
+        ],
+        [
+          "2019",
+          108
+        ]
+      ],
+      "name": "Mitfahrer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 8,
+      "data": [
+        [
+          "2017",
+          43
+        ],
+        [
+          "2018",
+          35
+        ],
+        [
+          "2019",
+          32
+        ]
+      ],
+      "name": "Fussgänger",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 613,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9149",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Ordnungsbussen gemäss Strassenverkehrsgesetz (SVG) nach Übertretung"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "reversedStacks": false
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "horizontal",
+    "itemWidth": 1000,
+    "verticalAlign": "top",
+    "padding": 0,
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-28"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 9149
+  }
+}
