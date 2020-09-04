@@ -19,7 +19,7 @@
         data: {
 		    seriesMapping: [
 		      {
-		      	x: 0, y: 1
+		      	x: 0, y: 2
 		      }	      
 		    ]
 		},
@@ -47,6 +47,19 @@
 				showInLegend: false,
     			colorAxis: false
 			}	
-		]
+		],
+		"tooltip": {
+            formatter: function(args){
+        		if (! this.point["PLZ"]) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        "PLZ " + this.point.properties.PLZ +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
+                }
+            }
+        },
 	};
 }());

@@ -17846,7 +17846,7 @@
       ]
     },
     {
-      "name": "Anzahl Ordnungsbussen",
+      "name": "Anzahl Ordnungsbussen pro Hektar",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -35643,6 +35643,61 @@
       "data": [
         [
           4001,
+          80.6
+        ],
+        [
+          4051,
+          202.3
+        ],
+        [
+          4052,
+          89.85
+        ],
+        [
+          4053,
+          101.54
+        ],
+        [
+          4054,
+          52.9
+        ],
+        [
+          4055,
+          64.76
+        ],
+        [
+          4056,
+          78.93
+        ],
+        [
+          4057,
+          114.93
+        ],
+        [
+          4058,
+          119.25
+        ],
+        [
+          4059,
+          11.56
+        ],
+        [
+          4125,
+          17.35
+        ],
+        [
+          4126,
+          0.26
+        ]
+      ]
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
+      "data": [
+        [
+          4001,
           528
         ],
         [
@@ -35689,12 +35744,8 @@
           4126,
           59
         ]
-      ]
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "colorAxis": false
+      ],
+      "name": "Anzahl Ordnungsbussen"
     },
     {
       "name": "Rhein",
@@ -35975,7 +36026,7 @@
         "whiteSpace": "nowrap"
       },
       "formatte": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
     },
     "marker": {
