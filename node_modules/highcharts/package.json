@@ -1,26 +1,26 @@
 {
-  "_from": "highcharts@6.1.1",
-  "_id": "highcharts@6.1.1",
+  "_from": "highcharts@8.2.0",
+  "_id": "highcharts@8.2.0",
   "_inBundle": false,
-  "_integrity": "sha512-etFYUPb+CwG9mrTb08IS4k3XGXs94xSA9vNF1yTJLxL/rw6t9U0InrcMRKG7IVNc5MolMXOPAPCdkuzKXV3Gng==",
+  "_integrity": "sha512-s3R7UEaMWUDJNxFfdjuiOtI8rnSvhEZUNN4TA7LiDRc9Tw7DUKvTv5WXSTYzxojokLbybwwlf9t3jg/meAUTnQ==",
   "_location": "/highcharts",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "highcharts@6.1.1",
+    "raw": "highcharts@8.2.0",
     "name": "highcharts",
     "escapedName": "highcharts",
-    "rawSpec": "6.1.1",
+    "rawSpec": "8.2.0",
     "saveSpec": null,
-    "fetchSpec": "6.1.1"
+    "fetchSpec": "8.2.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.1.1.tgz",
-  "_shasum": "49dc34f5e963744ecd7eb87603b6cdaf8304c13a",
-  "_spec": "highcharts@6.1.1",
+  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-8.2.0.tgz",
+  "_shasum": "3d4893015caf1a7c9ed85284d983911e844649f3",
+  "_spec": "highcharts@8.2.0",
   "_where": "/home/travis/build/statabs-test/indikatoren",
   "author": {
     "name": "Highsoft AS",
@@ -50,5 +50,6 @@
     "type": "git",
     "url": "git+https://github.com/highcharts/highcharts-dist.git"
   },
-  "version": "6.1.1"
+  "types": "highcharts.d.ts",
+  "version": "8.2.0"
 }
