@@ -19,7 +19,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
-		"template": "mapPLZ",
+		"template": "mappiePLZ",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "_039",
