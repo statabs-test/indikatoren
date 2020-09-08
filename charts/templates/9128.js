@@ -29,7 +29,7 @@
 		      },
 		      {
 		      	//2nd series: use y values from column 3
-		      	y: 1
+		      	x: 0, y: 1
 		      }
 		    ]
         },

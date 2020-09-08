@@ -450,8 +450,8 @@
 	                	
 	                	//define where to place the pies on the map
 	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
-	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.POINT_Y),
-	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.POINT_X);
+	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
+	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
 	                	
                         //create the highcharts pie chart config
 	                    var currentPieSeries = function(config){

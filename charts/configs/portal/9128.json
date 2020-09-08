@@ -17609,7 +17609,7 @@
       ]
     },
     {
-      "name": "Anzahl Ordnungsbussen pro Hektar",
+      "name": "Ordnungsbussen pro ha",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -35228,51 +35228,51 @@
       "colorAxis": false,
       "data": [
         [
-          6.55,
+          4001,
           528
         ],
         [
-          139.84,
+          4051,
           28289
         ],
         [
-          357.78,
+          4052,
           32145
         ],
         [
-          186.66,
+          4053,
           18954
         ],
         [
-          193.41,
+          4054,
           10231
         ],
         [
-          170.38,
+          4055,
           11033
         ],
         [
-          236.56,
+          4056,
           18672
         ],
         [
-          331.84,
+          4057,
           38139
         ],
         [
-          454.06,
+          4058,
           54148
         ],
         [
-          206.4,
+          4059,
           2387
         ],
         [
-          1082.7,
+          4125,
           18787
         ],
         [
-          222.7,
+          4126,
           59
         ]
       ],
@@ -35920,8 +35920,8 @@
 	                	
 	                	//define where to place the pies on the map
 	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
-	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.POINT_Y),
-	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.POINT_X);
+	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
+	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
 	                	
                         //create the highcharts pie chart config
 	                    var currentPieSeries = function(config){
