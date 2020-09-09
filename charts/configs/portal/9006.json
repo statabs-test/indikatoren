@@ -273,10 +273,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Elektrizitätverbrauch nach Produktionsart"
+    "text": "Elektrizitätsverbrauch nach Produktionsart"
   },
   "subtitle": {
-    "text": "Gigawattstunden",
+    "text": "in GWh, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

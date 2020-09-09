@@ -97,10 +97,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Elektrizitätverbrauch pro Einwohner"
+    "text": "Elektrizitätsverbrauch pro Einwohner"
   },
   "subtitle": {
-    "text": "in Megawattstunden",
+    "text": "in MWh, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
