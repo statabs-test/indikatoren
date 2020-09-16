@@ -447,19 +447,19 @@
 	                    }
 	                    
 	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
-	                	
+                	
 	                	//define where to place the pies on the map
 	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
 	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
 	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
-	                	
+console.log(centerLat, centerLon);
                         //create the highcharts pie chart config
 	                    var currentPieSeries = function(config){
 	                        //define default properties
 	                        var mapPieConfig = {
     	                        type: 'mappie',
     	                        name: data.series.name,
-    	                        PLZ: data["hc-key"],
+    	                        PLZ: correspondingMapSeriesItem.PLZ,//data["hc-key"],
     	                        wohnviertel_Id : correspondingMapSeriesItem.PLZ,
     	                        zIndex: 6, // Keep pies above connector lines
     	                        borderWidth: 1,
@@ -496,7 +496,8 @@
 		                        dataLabels: {
 							        enabled: false
 							    }    	                        
-	                        };
+							};
+//console.log(mapPieConfig);
 	                        //create the config handed in from the chart
 	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)

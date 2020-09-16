@@ -29,7 +29,7 @@
 		      },
 		      {
 		      	//2nd series: use y values from column 3
-		      	x: 0, y: 1
+		      	y: 0
 		      }
 		    ]
         },
@@ -73,7 +73,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					
+
 					//pie diameters in px
 					var maxPieDiameter = 25;
 
@@ -84,6 +84,7 @@
 	                };					
 					
 					//define chart-specific details
+
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
@@ -94,12 +95,13 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.PLZ +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.PLZ +': <b>' + Highcharts.numberFormat((data.value),0) + '  </b><br/>';
 	                            }
 	                        }
 	                    };
 					};
 					 var pieSizeCatConfig;
+//console.log(correspondingMapSeriesItem);
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
@@ -109,7 +111,7 @@
 	                
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
+                	fn.addLegendRectangle(chart, 250, 300, 230, 75, '#fbfbfb');
 	                //fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom');
 
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
@@ -128,7 +130,7 @@
 	                	initialValue: minValueInLegend,
 	                	align: 'right',
 	                	legendLabelZoomFormatter: function(value){
-	                		return Highcharts.numberFormat((value), 1, ",", " ");
+	                		return Highcharts.numberFormat((value), 0, ",", " ");
 	                	},					
 	                }); 
 	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
@@ -146,7 +148,7 @@
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
 					fn.addLegendLabelbold(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300);
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 310);
 
 					
 					//make sure pies are hidden upon click onto pie legend
