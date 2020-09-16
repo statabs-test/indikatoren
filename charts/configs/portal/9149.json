@@ -17,7 +17,7 @@
           163
         ]
       ],
-      "name": "Fahrzeugführer: Admin. Best.",
+      "name": "Fahrzeugführer: Administrative Bestimmungen",
       "turboThreshold": 0
     },
     {
@@ -137,7 +137,7 @@
           54
         ]
       ],
-      "name": "Radfahrer\u002FMotorfahrradfahrer: Ausrüstung, admin. Best.",
+      "name": "Radfahrer\u002FMotorfahrradfahrer: Ausrüstung, admininistrative Bestimmungen",
       "turboThreshold": 0
     },
     {
@@ -253,7 +253,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Ordnungsbussen gemäss Strassenverkehrsgesetz (SVG) nach Übertretung"
+    "text": "Ordnungsbussen nach dem Strassenverkehrsgesetz (SVG) nach Übertretung"
   },
   "subtitle": {
     "text": "",

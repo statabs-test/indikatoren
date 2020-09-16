@@ -1799,6 +1799,29 @@ id | visible | visibleInPortal | indikatorenset
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9090 | true | true | Sicherheit im oeffentlichen Raum
+9091 | true | true | Sicherheit im oeffentlichen Raum
+9092 | true | true | Sicherheit im oeffentlichen Raum
+9093 | true | true | Sicherheit im oeffentlichen Raum
+9094 | true | true | Sicherheit im oeffentlichen Raum
+9095 | true | true | Sicherheit im oeffentlichen Raum
+9096 | true | true | Sicherheit im oeffentlichen Raum
+9097 | true | true | Sicherheit im oeffentlichen Raum
+9098 | true | true | Sicherheit im oeffentlichen Raum
+9099 | true | true | Sicherheit im oeffentlichen Raum
+9100 | true | true | Sicherheit im oeffentlichen Raum
+9101 | true | true | Sicherheit im oeffentlichen Raum
+9102 | true | true | Sicherheit im oeffentlichen Raum
+9103 | true | true | Sicherheit im oeffentlichen Raum
+9104 | true | true | Sicherheit im oeffentlichen Raum
+9105 | true | true | Sicherheit im oeffentlichen Raum
+9106 | true | true | Sicherheit im oeffentlichen Raum
+9107 | true | true | Sicherheit im oeffentlichen Raum
+9108 | true | true | Sicherheit im oeffentlichen Raum
+9109 | true | true | Sicherheit im oeffentlichen Raum
+9110 | true | true | Sicherheit im oeffentlichen Raum
+9111 | true | true | Sicherheit im oeffentlichen Raum
+9112 | true | true | Sicherheit im oeffentlichen Raum
 9113 | true | true | Sicherheit im oeffentlichen Raum
 9114 | true | true | Sicherheit im oeffentlichen Raum
 9115 | true | true | Sicherheit im oeffentlichen Raum
