@@ -24,7 +24,7 @@
   },
   tooltip: {
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} GWh</b> ({point.percentage:,.1f}%)<br/>',
-    footerFormat: '\u25CF Total: <b>{point.total:,.0f} GWh</b><br/>'
+    footerFormat: 'Total: <b>{point.total:,.0f} GWh</b><br/>'
  },
   legend: {
     enabled: true,

@@ -22,7 +22,7 @@
   },
   tooltip: {
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:,.1f}%)<br/>',
-    footerFormat: '\u25CF Total: <b>{point.total:,.0f}</b><br/>'
+    footerFormat: 'Total: <b>{point.total:,.0f}</b><br/>'
  },
   legend: {
     enabled: true,
