@@ -465,7 +465,8 @@
 							tooltip: {
 								headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.properties.PLZ + ': <b>' + Highcharts.numberFormat((this.value), 3) + '</b><br/>';
+									console.log(this);
+									return correspondingMapSeriesItem.properties.PLZ + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
 								}
 							},
 							center: {

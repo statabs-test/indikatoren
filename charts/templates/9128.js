@@ -29,7 +29,7 @@
 		      },
 		      {
 		      	//2nd series: use y values from column 3
-		      	y: 0
+		      //	y: 1
 		      }
 		    ]
         },
@@ -73,7 +73,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-
+console.log("piesizeseries: ", pieSizeSeries)
 					//pie diameters in px
 					var maxPieDiameter = 25;
 
@@ -93,11 +93,11 @@
 								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
-	                        tooltip: {
+	                        /*tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.PLZ +': <b>' + Highcharts.numberFormat((data.value),0) + '  </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.PLZ +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
 	                            }
-	                        }
+	                        }*/
 	                    };
 					};
 					 var pieSizeCatConfig;
