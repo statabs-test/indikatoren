@@ -29,7 +29,7 @@
 		      },
 		      {
 		      //2nd series: use y values from column 3
-		      //	y: 1
+		      	x:1, y: 1
 		      }
 		    ]
         },
@@ -43,9 +43,9 @@
 				keys: ['PLZ', 'value'],
 				"states": {
 					"hover": {
-						"enabled": false,
-						"borderColor": '#BADA55',
-						"brightness": 0
+						"enabled": true,
+						"borderColor": '#aaa',
+						"brightness": 0,
 					}
 				}, 
 				tooltip: {
@@ -73,7 +73,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-console.log("piesizeseries: ", pieSizeSeries)
+
 					//pie diameters in px
 					var maxPieDiameter = 25;
 
@@ -101,7 +101,7 @@ console.log("piesizeseries: ", pieSizeSeries)
 	                    };
 					};
 					 var pieSizeCatConfig;
-//console.log(correspondingMapSeriesItem);
+
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                

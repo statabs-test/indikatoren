@@ -1,23 +1,23 @@
 {
-  "type" : "FeatureCollection",
-  "crs" : {
-    "type" : "name",
-    "properties" : {
-      "name" : "EPSG:2056"
+  "name": "wohnviertel_centroide_diagramme_latlon",
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties":
+      { "name": "EPSG:2056" }
+  },
+  "hc-transform": {
+    "default": {
+      "crs": "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs"
     }
   },
-"hc-transform": {
-    "default": {
-        "crs": "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs"
-    }
-},
-  "features" : [
+  "features": [
     {
-      "type" : "Feature",
-      "id" : 1,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2609480.3469999991,
@@ -1098,24 +1098,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 1,
-        "PLZ" : 4054,
-        "Area_ha" : 193.41001804019166,
-        "Shape_Length" : 7872.4569527338463,
-        "Shape_Area" : 1934100.1804019166,
-        "POINT_X" : 2609861.4838424819,
-        "POINT_Y" : 1266567.7821508104,
-        "lat" : 47.551149379523814,
-        "lon" : 7.5706063756785875
+      "properties": {
+        "OBJECTID": 1,
+        "PLZ": 4054,
+        "Area_ha": 193.41001804019166,
+        "Shape_Length": 7872.4569527338463,
+        "Shape_Area": 1934100.1804019166,
+        "POINT_X": 2609861.4838424819,
+        "POINT_Y": 1266567.7821508104,
+        "lat": 47.551149379523814,
+        "lon": 7.5706063756785875
       }
     },
     {
-      "type" : "Feature",
-      "id" : 2,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2611419.7872000001,
@@ -1360,24 +1360,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 2,
-        "PLZ" : 4001,
-        "Area_ha" : 6.5506925001411025,
-        "Shape_Length" : 1358.4347327222715,
-        "Shape_Area" : 65506.925001411022,
-        "POINT_X" : 2611293.7610867806,
-        "POINT_Y" : 1267356.7452008652,
-        "lat" : 47.558222867045316,
-        "lon" : 7.5896560699801761
+      "properties": {
+        "OBJECTID": 2,
+        "PLZ": 4001,
+        "Area_ha": 6.5506925001411025,
+        "Shape_Length": 1358.4347327222715,
+        "Shape_Area": 65506.925001411022,
+        "POINT_X": 2611293.7610867806,
+        "POINT_Y": 1267356.7452008652,
+        "lat": 47.557222867045316,
+        "lon": 7.5886560699801761
       }
     },
     {
-      "type" : "Feature",
-      "id" : 3,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2610309.5170000009,
@@ -2480,24 +2480,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 3,
-        "PLZ" : 4051,
-        "Area_ha" : 139.83717265512425,
-        "Shape_Length" : 8535.1511495366085,
-        "Shape_Area" : 1398371.7265512424,
-        "POINT_X" : 2611106.3948341124,
-        "POINT_Y" : 1267019.1565890596,
-        "lat" : 47.55518963135799,
-        "lon" : 7.5871577641157231
+      "properties": {
+        "OBJECTID": 3,
+        "PLZ": 4051,
+        "Area_ha": 139.83717265512425,
+        "Shape_Length": 8535.1511495366085,
+        "Shape_Area": 1398371.7265512424,
+        "POINT_X": 2611106.3948341124,
+        "POINT_Y": 1267019.1565890596,
+        "lat": 47.554518963135799,
+        "lon": 7.58291577641157231
       }
     },
     {
-      "type" : "Feature",
-      "id" : 4,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2611972.8341000006,
@@ -3754,24 +3754,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 4,
-        "PLZ" : 4057,
-        "Area_ha" : 331.83832631250777,
-        "Shape_Length" : 10105.21582278098,
-        "Shape_Area" : 3318383.2631250778,
-        "POINT_X" : 2611803.2762852767,
-        "POINT_Y" : 1269569.7582790237,
-        "lat" : 47.578119983142621,
-        "lon" : 7.5964857367371277
+      "properties": {
+        "OBJECTID": 4,
+        "PLZ": 4057,
+        "Area_ha": 331.83832631250777,
+        "Shape_Length": 10105.21582278098,
+        "Shape_Area": 3318383.2631250778,
+        "POINT_X": 2611803.2762852767,
+        "POINT_Y": 1269569.7582790237,
+        "lat": 47.580119983142621,
+        "lon": 7.5944857367371277
       }
     },
     {
-      "type" : "Feature",
-      "id" : 5,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2609527.129999999,
@@ -4456,24 +4456,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 5,
-        "PLZ" : 4056,
-        "Area_ha" : 236.55967548145242,
-        "Shape_Length" : 7601.8403389683799,
-        "Shape_Area" : 2365596.7548145242,
-        "POINT_X" : 2610227.0156803383,
-        "POINT_Y" : 1268770.2411165973,
-        "lat" : 47.570954622168088,
-        "lon" : 7.5755132063175967
+      "properties": {
+        "OBJECTID": 5,
+        "PLZ": 4056,
+        "Area_ha": 236.55967548145242,
+        "Shape_Length": 7601.8403389683799,
+        "Shape_Area": 2365596.7548145242,
+        "POINT_X": 2610227.0156803383,
+        "POINT_Y": 1268770.2411165973,
+        "lat": 47.570954622168088,
+        "lon": 7.5755132063175967
       }
     },
     {
-      "type" : "Feature",
-      "id" : 6,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2609003.4459999986,
@@ -4926,24 +4926,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 6,
-        "PLZ" : 4055,
-        "Area_ha" : 170.38027723107828,
-        "Shape_Length" : 8075.6842737629659,
-        "Shape_Area" : 1703802.7723107827,
-        "POINT_X" : 2609641.3137569274,
-        "POINT_Y" : 1268004.4790092357,
-        "lat" : 47.564075609819675,
-        "lon" : 7.5677117281985575
+      "properties": {
+        "OBJECTID": 6,
+        "PLZ": 4055,
+        "Area_ha": 170.38027723107828,
+        "Shape_Length": 8075.6842737629659,
+        "Shape_Area": 1703802.7723107827,
+        "POINT_X": 2609641.3137569274,
+        "POINT_Y": 1268004.4790092357,
+        "lat": 47.5614075609819675,
+        "lon": 7.5677117281985575
       }
     },
     {
-      "type" : "Feature",
-      "id" : 7,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2612439.9459999986,
@@ -7188,24 +7188,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 7,
-        "PLZ" : 4059,
-        "Area_ha" : 206.4018212808611,
-        "Shape_Length" : 8248.7861652772026,
-        "Shape_Area" : 2064018.2128086111,
-        "POINT_X" : 2611693.7201625765,
-        "POINT_Y" : 1264476.5769994622,
-        "lat" : 47.53230953045,
-        "lon" : 7.5948948134282315
+      "properties": {
+        "OBJECTID": 7,
+        "PLZ": 4059,
+        "Area_ha": 206.4018212808611,
+        "Shape_Length": 8248.7861652772026,
+        "Shape_Area": 2064018.2128086111,
+        "POINT_X": 2611693.7201625765,
+        "POINT_Y": 1264476.5769994622,
+        "lat": 47.53130953045,
+        "lon": 7.5948948134282315
       }
     },
     {
-      "type" : "Feature",
-      "id" : 8,
-      "geometry" : {
-        "type" : "MultiPolygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
           [
             [
               [
@@ -10304,24 +10304,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 8,
-        "PLZ" : 4052,
-        "Area_ha" : 357.77763790449387,
-        "Shape_Length" : 11100.040030434708,
-        "Shape_Area" : 3577776.3790449388,
-        "POINT_X" : 2612778.0659182775,
-        "POINT_Y" : 1266275.0718316503,
-        "lat" : 47.548466776813839,
-        "lon" : 7.6093488767804915
+      "properties": {
+        "OBJECTID": 8,
+        "PLZ": 4052,
+        "Area_ha": 357.77763790449387,
+        "Shape_Length": 11100.040030434708,
+        "Shape_Area": 3577776.3790449388,
+        "POINT_X": 2612778.0659182775,
+        "POINT_Y": 1266275.0718316503,
+        "lat": 47.548466776813839,
+        "lon": 7.6093488767804915
       }
     },
     {
-      "type" : "Feature",
-      "id" : 10,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2613851.0560000017,
@@ -11426,24 +11426,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 10,
-        "PLZ" : 4058,
-        "Area_ha" : 454.06205331490395,
-        "Shape_Length" : 11192.450554837003,
-        "Shape_Area" : 4540620.5331490394,
-        "POINT_X" : 2613001.8176792953,
-        "POINT_Y" : 1268437.3150730191,
-        "lat" : 47.567910725087884,
-        "lon" : 7.6123849607093703
+      "properties": {
+        "OBJECTID": 10,
+        "PLZ": 4058,
+        "Area_ha": 454.06205331490395,
+        "Shape_Length": 11192.450554837003,
+        "Shape_Area": 4540620.5331490394,
+        "POINT_X": 2613001.8176792953,
+        "POINT_Y": 1268437.3150730191,
+        "lat": 47.567910725087884,
+        "lon": 7.6123849607093703
       }
     },
     {
-      "type" : "Feature",
-      "id" : 11,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2613041.2729999982,
@@ -13800,24 +13800,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 11,
-        "PLZ" : 4053,
-        "Area_ha" : 186.66021910110118,
-        "Shape_Length" : 10875.238885435261,
-        "Shape_Area" : 1866602.1910110118,
-        "POINT_X" : 2611897.7735210368,
-        "POINT_Y" : 1265547.1767654479,
-        "lat" : 47.541935435285808,
-        "lon" : 7.5976327889696273
+      "properties": {
+        "OBJECTID": 11,
+        "PLZ": 4053,
+        "Area_ha": 186.66021910110118,
+        "Shape_Length": 10875.238885435261,
+        "Shape_Area": 1866602.1910110118,
+        "POINT_X": 2611897.7735210368,
+        "POINT_Y": 1265547.1767654479,
+        "lat": 47.540935435285808,
+        "lon": 7.5966327889696273
       }
     },
     {
-      "type" : "Feature",
-      "id" : 12,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2613796.5119999982,
@@ -16050,24 +16050,24 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 12,
-        "PLZ" : 4125,
-        "Area_ha" : 1082.7049171507385,
-        "Shape_Length" : 19357.6627316007,
-        "Shape_Area" : 10827049.171507386,
-        "POINT_X" : 2615997.8481017705,
-        "POINT_Y" : 1269888.5656835088,
-        "lat" : 47.580898537661859,
-        "lon" : 7.6522574861872839
+      "properties": {
+        "OBJECTID": 12,
+        "PLZ": 4125,
+        "Area_ha": 1082.7049171507385,
+        "Shape_Length": 19357.6627316007,
+        "Shape_Area": 10827049.171507386,
+        "POINT_X": 2615997.8481017705,
+        "POINT_Y": 1269888.5656835088,
+        "lat": 47.580898537661859,
+        "lon": 7.6522574861872839
       }
     },
     {
-      "type" : "Feature",
-      "id" : 13,
-      "geometry" : {
-        "type" : "Polygon",
-        "coordinates" : [
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
           [
             [
               2616798.8040000014,
@@ -17528,17 +17528,17 @@
           ]
         ]
       },
-      "properties" : {
-        "OBJECTID" : 13,
-        "PLZ" : 4126,
-        "Area_ha" : 222.70356825115957,
-        "Shape_Length" : 10305.976985763484,
-        "Shape_Area" : 2227035.6825115955,
-        "POINT_X" : 2617576.6217534328,
-        "POINT_Y" : 1268878.2475523141,
-        "lat" : 47.57177001429428,
-        "lon" : 7.6732038411758232
+      "properties": {
+        "OBJECTID": 13,
+        "PLZ": 4126,
+        "Area_ha": 222.70356825115957,
+        "Shape_Length": 10305.976985763484,
+        "Shape_Area": 2227035.6825115955,
+        "POINT_X": 2617576.6217534328,
+        "POINT_Y": 1268878.2475523141,
+        "lat": 47.56977001429428,
+        "lon": 7.6702038411758232
       }
     }
   ]
-}
+};
