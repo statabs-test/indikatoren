@@ -83,7 +83,6 @@
               }
             }
             */
-
 		},
 		"legend": {
 			"enabled": true,
