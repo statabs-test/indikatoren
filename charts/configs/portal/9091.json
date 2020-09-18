@@ -52,7 +52,7 @@
           36
         ]
       ],
-      "name": "Keine Zuweisung_Schwere Gewalt (angewandt)"
+      "name": "Nicht öffentlich_Schwere Gewalt (angewandt)"
     },
     {
       "color": "#68AB2B",
@@ -106,7 +106,7 @@
           607
         ]
       ],
-      "name": "Keine Zuweisung_Minderschwere Gewalt (angewandt ev. angedroht)"
+      "name": "Nicht öffentlich_Minderschwere Gewalt (angewandt ev. angedroht)"
     },
     {
       "color": "#3C3C3C",
@@ -160,7 +160,7 @@
           380
         ]
       ],
-      "name": "Keine Zuweisung_Minderschwere Gewalt (angedroht)"
+      "name": "Nicht öffentlich_Minderschwere Gewalt (angedroht)"
     }
   ],
   "chart": {
@@ -215,7 +215,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angezeigte Gewaltstraftaten nach Schweregrad"
+    "text": "Angezeigte angedrohte minderschwere Gewaltstraftaten"
   },
   "subtitle": {
     "text": "",

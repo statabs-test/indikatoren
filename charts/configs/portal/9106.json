@@ -1,0 +1,317 @@
+{
+  "series": [
+    {
+      "color": "#999999",
+      "legendIndex": 2,
+      "data": [
+        [
+          2009,
+          24
+        ],
+        [
+          2010,
+          21
+        ],
+        [
+          2011,
+          29
+        ],
+        [
+          2012,
+          25
+        ],
+        [
+          2013,
+          24
+        ],
+        [
+          2014,
+          21
+        ],
+        [
+          2015,
+          28
+        ],
+        [
+          2016,
+          13
+        ],
+        [
+          2017,
+          27
+        ],
+        [
+          2018,
+          33
+        ],
+        [
+          2019,
+          19
+        ]
+      ],
+      "name": "Nicht öffentlich"
+    },
+    {
+      "color": "#007a2f",
+      "legendIndex": 1,
+      "data": [
+        [
+          2009,
+          31
+        ],
+        [
+          2010,
+          25
+        ],
+        [
+          2011,
+          27
+        ],
+        [
+          2012,
+          26
+        ],
+        [
+          2013,
+          28
+        ],
+        [
+          2014,
+          15
+        ],
+        [
+          2015,
+          25
+        ],
+        [
+          2016,
+          20
+        ],
+        [
+          2017,
+          23
+        ],
+        [
+          2018,
+          32
+        ],
+        [
+          2019,
+          28
+        ]
+      ],
+      "name": "Öffentlich zugängliche Orte"
+    },
+    {
+      "color": "#672773",
+      "legendIndex": 0,
+      "data": [
+        [
+          2009,
+          21
+        ],
+        [
+          2010,
+          33
+        ],
+        [
+          2011,
+          26
+        ],
+        [
+          2012,
+          19
+        ],
+        [
+          2013,
+          17
+        ],
+        [
+          2014,
+          24
+        ],
+        [
+          2015,
+          29
+        ],
+        [
+          2016,
+          27
+        ],
+        [
+          2017,
+          25
+        ],
+        [
+          2018,
+          21
+        ],
+        [
+          2019,
+          21
+        ]
+      ],
+      "name": "Öffentlicher Raum"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9106"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {}
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Angezeigte Straftaten betreffend sexuelle Belästigung"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "alignColumns": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 9106
+  }
+}
