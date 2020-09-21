@@ -1404,6 +1404,45 @@ var indikatorensetData = [
 		"id": 9125
 	},
 	{
+		"title": "Illegal deponierte Abfälle",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09126",
+		"kuerzelKunde": "",
+		"description": "Requisitionen wegen Lärm nach Gemeinde und Wohnviertel",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-10T09:08:14.1414",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"orderKey": "_036",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			""
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9126,
+		"chart-id": 9126,
+		"filter": "",
+		"id": 9126
+	},
+	{
 		"title": "Zufriedenheit mit Verkehrssicherheit",
 		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?», Basel-Stadt",
 		"kuerzel": "I.50.1.09129",
