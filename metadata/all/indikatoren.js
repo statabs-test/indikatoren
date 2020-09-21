@@ -71360,6 +71360,46 @@ var indikatoren = [
 		"id": 9125
 	},
 	{
+		"title": "Illegal deponierte Abfälle",
+		"subtitle": "Anzahl und Anzahl pro Hektar",
+		"kuerzel": "I.02.1.09126",
+		"kuerzelKunde": "4-1",
+		"description": "Illegal deponierte Abfälle",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Matthäus 1 061 illegale deponierte Abfälle gemeldent was eine Dichte von 17,8 Vorfälle pro Hektar entspricht. Weder in Riehen noch in Bettingen wurde Abfall illegal deponiert.",
+		"erlaeuterungen": "Die Daten betrachten noch kein ganzes Kallenderjahr, deswegen wird Periode zwischen Juni 2019 und Juli 2020 dargestellt.",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_037",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Tiefbauamt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9126,
+		"chart-id": 9126,
+		"filter": "",
+		"id": 9126
+	},
+	{
 		"title": "Zufriedenheit mit Verkehrssicherheit",
 		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?», Basel-Stadt",
 		"kuerzel": "I.50.1.09129",
