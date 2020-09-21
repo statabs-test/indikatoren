@@ -2,7 +2,7 @@
   "name": "highcharts",
   "description": "JavaScript charting framework",
   "homepage": "http://www.highcharts.com",
-  "version": "6.1.1",
+  "version": "8.2.0",
   "author": "Highsoft AS <support@highcharts.com> (http://www.highcharts.com/about)",
   "main": "highcharts.js",
   "repository": {
@@ -19,9 +19,10 @@
     "webpack"
   ],
   "bugs": "https://github.com/highcharts/highcharts/issues",
-  "license": "https://www.highcharts.com/license"
+  "license": "https://www.highcharts.com/license",
+  "types": "highcharts.d.ts"
 
-,"_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.1.1.tgz"
-,"_integrity": "sha512-etFYUPb+CwG9mrTb08IS4k3XGXs94xSA9vNF1yTJLxL/rw6t9U0InrcMRKG7IVNc5MolMXOPAPCdkuzKXV3Gng=="
-,"_from": "highcharts@6.1.1"
+,"_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-8.2.0.tgz"
+,"_integrity": "sha512-s3R7UEaMWUDJNxFfdjuiOtI8rnSvhEZUNN4TA7LiDRc9Tw7DUKvTv5WXSTYzxojokLbybwwlf9t3jg/meAUTnQ=="
+,"_from": "highcharts@8.2.0"
 }
