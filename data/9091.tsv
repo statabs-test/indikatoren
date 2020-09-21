@@ -1,12 +1,12 @@
-﻿"Jahr"	"Nicht öffentlich_Schwere Gewalt (angewandt)"	"Nicht öffentlich_Minderschwere Gewalt (angewandt ev. angedroht)"	"Nicht öffentlich_Minderschwere Gewalt (angedroht)"	"Öffentlich zugängliche Orte_Schwere Gewalt (angewandt)"	"Öffentlich zugängliche Orte_Minderschwere Gewalt (angewandt ev. angedroht)"	"Öffentlich zugängliche Orte_Minderschwere Gewalt (angedroht)"	"Öffentlicher Raum_Schwere Gewalt (angewandt)"	"Öffentlicher Raum_Minderschwere Gewalt (angewandt ev. angedroht)"	"Öffentlicher Raum_Minderschwere Gewalt (angedroht)"
-2009	46	683	374	7	345	82	18	693	115
-2010	23	660	369	12	313	90	13	767	119
-2011	41	750	383	8	338	94	25	788	118
-2012	41	774	357	8	344	88	28	789	107
-2013	50	684	415	7	392	86	24	739	98
-2014	34	630	378	5	402	93	17	693	142
-2015	34	639	409	9	376	91	14	734	154
-2016	34	777	390	10	365	85	40	705	108
-2017	32	674	368	10	491	102	15	714	127
-2018	35	662	392	11	394	78	17	710	127
-2019	36	607	380	12	390	109	27	691	127
+﻿"Jahr"	"Öffentlicher Raum"	"Öffentlich zugängliche Orte"	"Nicht-öffentliche Orte"	"Ort unbekannt/nicht zuweisb"
+2009	115	82	279	95
+2010	119	90	245	124
+2011	118	94	225	158
+2012	107	88	214	143
+2013	98	86	260	155
+2014	142	93	213	165
+2015	154	91	227	182
+2016	108	85	240	150
+2017	127	102	238	130
+2018	127	78	200	192
+2019	127	109	230	150
