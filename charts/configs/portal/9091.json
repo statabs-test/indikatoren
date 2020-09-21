@@ -1,11 +1,8 @@
 {
   "series": [
     {
-      "color": "#008AC3",
-      "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#672773",
+      "legendIndex": 0,
       "data": [
         [
           2009,
@@ -55,11 +52,8 @@
       "name": "Öffentlicher Raum"
     },
     {
-      "color": "#68AB2B",
-      "legendIndex": 2,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#007a2f",
+      "legendIndex": 1,
       "data": [
         [
           2009,
@@ -109,11 +103,8 @@
       "name": "Öffentlich zugängliche Orte"
     },
     {
-      "color": "#3C3C3C",
-      "legendIndex": 3,
-      "marker": {
-        "enabled": false
-      },
+      "color": "#999999",
+      "legendIndex": 2,
       "data": [
         [
           2009,
@@ -161,6 +152,57 @@
         ]
       ],
       "name": "Nicht-öffentliche Orte"
+    },
+    {
+      "color": "#DC440E",
+      "legendIndex": 3,
+      "data": [
+        [
+          2009,
+          95
+        ],
+        [
+          2010,
+          124
+        ],
+        [
+          2011,
+          158
+        ],
+        [
+          2012,
+          143
+        ],
+        [
+          2013,
+          155
+        ],
+        [
+          2014,
+          165
+        ],
+        [
+          2015,
+          182
+        ],
+        [
+          2016,
+          150
+        ],
+        [
+          2017,
+          130
+        ],
+        [
+          2018,
+          192
+        ],
+        [
+          2019,
+          150
+        ]
+      ],
+      "name": "Ort unbekannt\u002Fnicht zuweisb"
     }
   ],
   "chart": {
@@ -200,13 +242,7 @@
         "enabled": false
       }
     },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+    "line": {}
   },
   "title": {
     "align": "left",
@@ -241,7 +277,8 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -271,7 +308,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 100
+    "itemWidth": 210,
+    "alignColumns": false
   },
   "credits": {
     "enabled": true,
@@ -323,7 +361,6 @@
 			}
   },
   "tooltip": {
-    "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
