@@ -494,7 +494,8 @@
 							],
 							dataLabels: {
 								enabled: false
-							}
+							},
+							colorAxis: false
 						};
 
 						//create the config handed in from the chart
