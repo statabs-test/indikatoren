@@ -6,47 +6,47 @@
       "data": [
         [
           2009,
-          115
+          18
         ],
         [
           2010,
-          119
+          13
         ],
         [
           2011,
-          118
+          25
         ],
         [
           2012,
-          107
+          28
         ],
         [
           2013,
-          98
+          24
         ],
         [
           2014,
-          142
+          17
         ],
         [
           2015,
-          154
+          14
         ],
         [
           2016,
-          108
+          40
         ],
         [
           2017,
-          127
+          15
         ],
         [
           2018,
-          127
+          17
         ],
         [
           2019,
-          127
+          27
         ]
       ],
       "name": "Öffentlicher Raum"
@@ -57,47 +57,47 @@
       "data": [
         [
           2009,
-          82
+          7
         ],
         [
           2010,
-          90
+          12
         ],
         [
           2011,
-          94
+          8
         ],
         [
           2012,
-          88
+          8
         ],
         [
           2013,
-          86
+          7
         ],
         [
           2014,
-          93
+          5
         ],
         [
           2015,
-          91
+          9
         ],
         [
           2016,
-          85
+          10
         ],
         [
           2017,
-          102
+          10
         ],
         [
           2018,
-          78
+          11
         ],
         [
           2019,
-          109
+          12
         ]
       ],
       "name": "Öffentlich zugängliche Orte"
@@ -108,47 +108,47 @@
       "data": [
         [
           2009,
-          279
+          37
         ],
         [
           2010,
-          245
+          23
         ],
         [
           2011,
-          225
+          36
         ],
         [
           2012,
-          214
+          39
         ],
         [
           2013,
-          260
+          44
         ],
         [
           2014,
-          213
+          33
         ],
         [
           2015,
-          227
+          29
         ],
         [
           2016,
-          240
+          30
         ],
         [
           2017,
-          238
+          32
         ],
         [
           2018,
-          200
+          32
         ],
         [
           2019,
-          230
+          35
         ]
       ],
       "name": "Nicht-öffentliche Orte"
@@ -159,47 +159,47 @@
       "data": [
         [
           2009,
-          95
+          9
         ],
         [
           2010,
-          124
+          null
         ],
         [
           2011,
-          158
+          5
         ],
         [
           2012,
-          143
+          2
         ],
         [
           2013,
-          155
+          6
         ],
         [
           2014,
-          165
+          1
         ],
         [
           2015,
-          182
+          5
         ],
         [
           2016,
-          150
+          4
         ],
         [
           2017,
-          130
+          null
         ],
         [
           2018,
-          192
+          3
         ],
         [
           2019,
-          150
+          1
         ]
       ],
       "name": "Ort unbekannt\u002Fnicht zuweisb"
@@ -234,7 +234,7 @@
 					}
 				}
     },
-    "renderTo": "container-9091"
+    "renderTo": "container-9151"
   },
   "plotOptions": {
     "series": {
@@ -251,7 +251,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angezeigte angedrohte minderschwere Gewaltstraftaten"
+    "text": "Angezeigte angewandte schwere Gewaltstraftaten"
   },
   "subtitle": {
     "text": "",
@@ -308,7 +308,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 210,
+    "itemWidth": 200,
     "alignColumns": false
   },
   "credits": {
@@ -324,7 +324,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -364,6 +364,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 9091
+    "filename": 9151
   }
 }

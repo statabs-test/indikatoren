@@ -37923,8 +37923,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Unter Gewaltstraftaten werden sämtliche Straftatbestände zusammengefasst, welche die vorsätzliche<br>Anwendung oder Androhung von Gewalt gegen Personen beinhalten. Gewaltanwendung gegen Sachen (Sachbeschädigung) wird<br>ausgeschlossen.",
+		"lesehilfe": "Im Jahr 2019 wurden 127 Anzeigen wegen angedrohter minderschwerer Gewalt im öffentlichen Raum polizeilich registriert und 109 an einem öffentlichen Ort.",
+		"erlaeuterungen": "Unter Gewaltstraftaten werden sämtliche Straftatbestände zusammengefasst, welche die vorsätzliche<br>Anwendung oder Androhung von Gewalt gegen Personen beinhalten. Gewaltanwendung gegen Sachen (Sachbeschädigung) wird<br>ausgeschlossen. Unter angedrohte minderschwere Gewaltstraftaten fallen folgende Straftaten: Erpressung (Art. 156 Ziff. 1, 2, 4), Drohung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -39243,8 +39243,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Matthäus 1 061 illegale deponierte Abfälle gemeldent was eine Dichte von 17,8 Vorfälle pro Hektar entspricht. Weder in Riehen noch in Bettingen wurde Abfall illegal deponiert.",
-		"erlaeuterungen": "Die Daten betrachten noch kein ganzes Kallenderjahr, deswegen wird Periode zwischen Juni 2019 und Juli 2020 dargestellt.",
+		"lesehilfe": "Im Wohnviertel Matthäus wurden 1 061 Vorfällen vom illegale deponierten Abfäll gemeldet, was eine Dichte von 17,8 Vorfällen pro Hektar entspricht. Weder in Riehen noch in Bettingen wurde Abfall illegal deponiert.",
+		"erlaeuterungen": "Die Daten betrachten noch kein ganzes Kalenderjahr, deswegen wird Periode zwischen Juni 2019 und Juli 2020 dargestellt.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -39424,5 +39424,85 @@
 		"chart-id": 9149,
 		"filter": "",
 		"id": 9149
+	},
+	{
+		"title": "Angezeigte angewandte und eventuell angedrohte minderschwere Gewaltstraftaten",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09150",
+		"kuerzelKunde": "2-2_tmp_b",
+		"description": "Angezeigte angewandte und eventuell angedrohte minderschwere Gewaltstraftaten",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-16T16:56:15.1515",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2019 gab es 691 Anzeigen wegen angewandter und ev. angedrohter minderschwerer Gewalt im öffentlichen Raum und 390 an einem öffentlichen Ort.",
+		"erlaeuterungen": "Polizeilich registrierte Gewaltstraftaten, basierend auf den Daten der polizeilichen Kriminalstatistik (PKS). Unter Gewaltstraftaten werden sämtliche Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung oder Androhung von Gewalt gegen Personen beinhalten. Gewaltanwendung gegen Sachen (Sachbeschädigung) wird ausgeschlossen. <br>Als minderschwere Gewalt (angewandt evtl. angedroht) gelten folgende Straftaten: einfache Körperverletzung, Tätlichkeiten, Beteiligung Raufhandel, Beteiligung Angriff, Raub (Art. 140 Ziff. 1-3), räuberische Erpressung (Art. 156 Ziff. 3), Nötigung, Zwangsheirat, Freiheitsberaubung und Entführung, Freiheitsberaubung und Entführung: erschwerende Umstände, sexuelle Nötigung, Gewalt und Drohung gegen Behörden und Beamte.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9150,
+		"chart-id": 9150,
+		"filter": "",
+		"id": 9150
+	},
+	{
+		"title": "Angezeigte angewandte schwere Gewaltstraftaten",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09151",
+		"kuerzelKunde": "2-2_tmp_c",
+		"description": "Angezeigte angewandte schwere Gewaltstraftaten",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-16T16:56:15.1515",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2019 wurden 27 Anzeigen wegen schwerer Gewalt im öffentlichen Raum und 12 an einem öffentlicehn Ort polizeilich registriert",
+		"erlaeuterungen": "Polizeilich registrierte Gewaltstraftaten, basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).<br>Unter Gewaltstraftaten werden sämtliche Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung oder Androhung von Gewalt gegen Personen beinhalten. Gewaltanwendung gegen Sachen (Sachbeschädigung) wird ausgeschlossen.<br>Als schwere Gewaltstraftat gelten folgende Straftaten: vorsätzliche Tötung, Mord, Totschlag, Kindestötung, schwere Körperverletzung, Verstümmelung weiblicher Genitalien, Raub mit qualifizierter Einwirkung auf das Opfer (Art. 140 Ziff. 4), Geiselnahme, Vergewaltigung.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9151,
+		"chart-id": 9151,
+		"filter": "",
+		"id": 9151
 	}
 ]

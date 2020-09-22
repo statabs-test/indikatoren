@@ -33,7 +33,7 @@
             "enabled": true,
             //"x": 45,
             //"y": 35,
-            "itemWidth": 210,
+            "itemWidth": 200,
             //"itemMarginBottom": 5,
             "layout": "horizontal",
             "verticalAlign": "top",
