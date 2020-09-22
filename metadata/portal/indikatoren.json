@@ -25700,7 +25700,7 @@
 		"stufe5": "",
 		"lesehilfe": "Die Verfügbarkeit auf den Stichtag 1. Juni hin kann die Leerwohnungsquote v. a. in kleineren Gemeinden mit insgesamt geringem Wohnungsbestand stark beeinflussen. Die Gemeinde Rümlingen mit einem Wohnungsbestand von insgesamt 184 Wohnungen erreicht mit drei Leerwohnungen eine Leerwohnungsquote von 1,6%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "mapGemeindenBSBL",
+		"template": "mappieGemeindenBSBL",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
