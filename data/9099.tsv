@@ -1,12 +1,12 @@
-﻿"Jahr"	"Nicht öffentlich"	"Öffentlich zugängliche Orte"	"Öffentlicher Raum"
-2009	4	8	17
-2010			81
-2011	23	9	56
-2012	16	13	41
-2013	8	15	29
-2014	1	10	20
-2015		28	35
-2016		11	45
-2017	12	60	14
-2018	6	9	27
-2019	3	7	58
+﻿"Jahr"	"Öffentlicher Raum"	"Öffentlich zugängliche Orte"	"Ort unbekannt/nicht zuweisbar"	"Nicht-öffentliche Orte"
+2009	17	8	4	0
+2010	81	0	0	0
+2011	56	9	0	23
+2012	41	13	9	7
+2013	29	15	1	7
+2014	20	10	1	0
+2015	35	28	0	0
+2016	45	11	0	0
+2017	14	60	0	12
+2018	27	9	6	0
+2019	58	7	0	3
