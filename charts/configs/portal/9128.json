@@ -35741,7 +35741,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-
+console.log(chart.series);
 					//pie diameters in px
 					var maxPieDiameter = 25;
 
@@ -36187,7 +36187,8 @@
 							],
 							dataLabels: {
 								enabled: false
-							}
+							},
+							colorAxis: false
 						};
 
 						//create the config handed in from the chart

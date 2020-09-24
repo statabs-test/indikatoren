@@ -7,12 +7,12 @@
     global geojson_wohnviertelEPSG2056
 */
 
-(function(){
+(function () {
     return {
-        "chart": {		
-            events:{
-                load: function() {                
-                    this.credits.element.onclick = function() {};
+        "chart": {
+            events: {
+                load: function () {
+                    this.credits.element.onclick = function () { };
                 }
             },
             "borderColor": "#fbfbfb",
@@ -24,7 +24,7 @@
                 "fontFamily": "Arial"
             },
             "type": "map",
-    		"inverted": false
+            "inverted": false
         },
         "title": {
             "style": {
@@ -32,7 +32,7 @@
                 "fontWeight": "bold",
                 "fontFamily": "Arial",
                 "color": "#000000"
-            },        
+            },
             "align": "left"
         },
         "subtitle": {
@@ -59,22 +59,22 @@
             }
         },
         "colorAxis": {
-    		"min": 0,
-    		"gridLineColor": "#fbfbfb",	
+            "min": 0,
+            "gridLineColor": "#fbfbfb",
             "gridLineWidth": 1,
-            "labels": {	
-                "style": 
+            "labels": {
+                "style":
                 {
-                    color: "black", 
-                    cursor: "default", 
-                    fontSize: "11px", 
+                    color: "black",
+                    cursor: "default",
+                    fontSize: "11px",
                     textOverflow: "none"
                 }
-    		},
-    		"marker": {
-                    "color": "black"
+            },
+            "marker": {
+                "color": "black"
             }
-    	},    
+        },
         "mapNavigation": {
             "enabled": true,
             "buttonOptions": {
@@ -83,39 +83,39 @@
             }
         },
         "legend": {
-			useHTML: false,
-    		"enabled": true, 
+            useHTML: false,
+            "enabled": true,
             "align": "right",
             "floating": true,
-           itemStyle: {
-				fontWeight: 'normal'
-			},
+            itemStyle: {
+                fontWeight: 'normal'
+            },
             "title": {
                 "style": {
-                    "fontWeight": "normal", 
+                    "fontWeight": "normal",
                     "fontSize": "12px"
                 }
             }
-    	},
-    	/* series with fixed data that should be added to the series object before merging with csv data */
-    	beforeSeries: [
-            {      
+        },
+        /* series with fixed data that should be added to the series object before merging with csv data */
+        beforeSeries: [
+            {
                 //Outline PLZ if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
-				name: "GemeindenOutline",
-              	enableMouseTracking: false,
+                name: "GemeindenOutline",
+                enableMouseTracking: false,
                 color: '#ededed',
                 borderWidth: 1,
                 borderColor: '#fbfbfb',
-				"animation": true,
-				"mapData": geojson_GemeindenBSBL_EPSG_2056,
-				"joinBy": ['GD_NR', 'g1g13.GMDNR'],
-				"keys": ['GD_NAME', 'value'],
+                "animation": true,
+                "mapData": geojson_GemeindenBSBL_EPSG_2056,
+                "joinBy": ['GMDNR', 'GD_NR'],
+                "keys": ['GD_NR', 'value'],
                 "states": {
-                  "hover": {
-                    "enabled": false,
-                    "borderColor": "#BADA55",
-                    "brightness": 0
-                  }
+                    "hover": {
+                        "enabled": false,
+                        "borderColor": "#BADA55",
+                        "brightness": 0
+                    }
                 },
                 "data": [
                     [2701, -999],
@@ -207,10 +207,10 @@
                     [2893, -999],
                     [2894, -999],
                     [2895, -999]
-                ]    	            
-			}
-	    ],
-		/* series with fixed data that should be added to the series object after merging with csv data */
+                ]
+            }
+        ],
+        /* series with fixed data that should be added to the series object after merging with csv data */
 		/*"afterSeries": [
 			{
 				"name": "Rhein",
@@ -241,30 +241,30 @@
     		}
 		],*/
         "tooltip": {
-            formatter: function(args){
-        		if (! this.point["GD_NR"]) {
-        		    //Rhein
-        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
-        		}
+            formatter: function (args) {
+                if (!this.point["GD_NR"]) {
+                    //Rhein
+                    return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+                }
                 else {
                     //Gemeinde
-                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.properties.GD_NAME +': <b>' + Highcharts.numberFormat((this.point.value),2) + '</b><br/>';
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
+                        this.point.properties.GD_NAME + ': <b>' + Highcharts.numberFormat((this.point.value), 2) + '</b><br/>';
                 }
             }
         },
-        
+
         customFunctions: {
-            addLegendRectangle: function(chart, x, y, width, height, fill, cssClass){
-            	return chart.renderer.rect(x, y, width, height).attr({
-    	            'stroke-width':0,
-    	            fill: fill,
-    	            zIndex: 6,
-    	            class: cssClass
-            	}).add();
+            addLegendRectangle: function (chart, x, y, width, height, fill, cssClass) {
+                return chart.renderer.rect(x, y, width, height).attr({
+                    'stroke-width': 0,
+                    fill: fill,
+                    zIndex: 6,
+                    class: cssClass
+                }).add();
             },
         }
 
     };
-    }()
+}()
 );

@@ -119,14 +119,14 @@
 		beforeSeries: [
 			{
 				//Outline PLZ if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
-				name: "PLZOutline",
+				name: "GemeindenOutline",
 				enableMouseTracking: false,
 				color: '#ededed',
 				borderWidth: 1,
 				borderColor: '#fbfbfb',
 				"animation": true,
 				"mapData": geojson_GemeindenBSBL_EPSG_2056,
-				"joinBy": ['GD_NR', 'g1g13.GMDNR'],
+				"joinBy": ['GD_NR', 'GMDNR'],
 				"keys": ['GD_NAME', 'value'],
 				"states": {
 					"hover": {
@@ -572,7 +572,8 @@
 							],
 							dataLabels: {
 								enabled: false
-							}
+							},
+							colorAxis: false
 						};
 
 						//create the config handed in from the chart

@@ -30,7 +30,7 @@
 		      },
 		      {
 		      //2nd series: use y values from column 3
-		      	x: 1, y: 4
+				  x: 1, y: 4
 		      }
 		    ]
         },
@@ -40,8 +40,8 @@
 				animation: true,
 				mapData: geojson_GemeindenBSBL_EPSG_2056,
 				borderColor: "#fbfbfb",		
-				joinBy: ['GD_NR', 'g1g13.GMDNR'],
-				keys: ['GD_NAME', 'value'],
+				joinBy: ['GMDNR', 'GD_NR'],
+				keys: ['GD_NR', 'value'],
 				"states": {
 					"hover": {
 						"enabled": true,
@@ -70,13 +70,13 @@
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-					fn.defineTemplate();
+//					fn.defineTemplate();
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-
+console.log(chart.series[1].data[0])
 					//pie diameters in px
-					var maxPieDiameter = 25;
+/*					var maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					//define different colors for positive and negative values
@@ -99,8 +99,9 @@
 	                            	return correspondingMapSeriesItem.properties.PLZ +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
 	                            }
 	                        }*/
-	                    };
+/*	                    };
 					};
+
 					 var pieSizeCatConfig;
 
 					//put the pies / bubbles on the map
@@ -154,7 +155,7 @@
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-					
+				
 					chart.update(
 					{
 						xAxis: {
@@ -167,7 +168,7 @@
 				    		}
 						}
 					});
-					
+*/
 	            }
 			}
 		}
