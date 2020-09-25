@@ -14,7 +14,7 @@
         ],
         [
           2011,
-          118
+          117
         ],
         [
           2012,
@@ -116,7 +116,7 @@
         ],
         [
           2011,
-          225
+          226
         ],
         [
           2012,
@@ -202,7 +202,7 @@
           150
         ]
       ],
-      "name": "Ort unbekannt\u002Fnicht zuweisb"
+      "name": "Ort unbekannt\u002Fnicht zuweisbar"
     }
   ],
   "chart": {
@@ -308,7 +308,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 210,
+    "itemWidth": 212,
     "alignColumns": false
   },
   "credits": {

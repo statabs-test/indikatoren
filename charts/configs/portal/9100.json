@@ -1,55 +1,55 @@
 {
   "series": [
     {
-      "color": "#999999",
-      "legendIndex": 2,
+      "color": "#672773",
+      "legendIndex": 0,
       "data": [
         [
           2009,
-          367
+          113
         ],
         [
           2010,
-          350
+          117
         ],
         [
           2011,
-          364
+          112
         ],
         [
           2012,
-          343
+          100
         ],
         [
           2013,
-          391
+          95
         ],
         [
           2014,
-          356
+          141
         ],
         [
           2015,
-          392
+          146
         ],
         [
           2016,
-          360
+          106
         ],
         [
           2017,
-          353
+          124
         ],
         [
           2018,
-          339
+          125
         ],
         [
           2019,
-          333
+          124
         ]
       ],
-      "name": "Nicht öffentlich"
+      "name": "Öffentlicher Raum"
     },
     {
       "color": "#007a2f",
@@ -103,55 +103,106 @@
       "name": "Öffentlich zugängliche Orte"
     },
     {
-      "color": "#672773",
-      "legendIndex": 0,
+      "color": "#999999",
+      "legendIndex": 2,
       "data": [
         [
           2009,
-          113
+          276
         ],
         [
           2010,
-          117
+          239
         ],
         [
           2011,
-          113
+          220
         ],
         [
           2012,
-          100
+          213
         ],
         [
           2013,
-          95
+          254
         ],
         [
           2014,
-          141
+          212
         ],
         [
           2015,
-          146
+          222
         ],
         [
           2016,
-          106
+          235
         ],
         [
           2017,
-          124
+          235
         ],
         [
           2018,
-          125
+          196
         ],
         [
           2019,
-          124
+          222
         ]
       ],
-      "name": "Öffentlicher Raum"
+      "name": "Nicht-öffentliche Orte"
+    },
+    {
+      "color": "#DC440E",
+      "legendIndex": 3,
+      "data": [
+        [
+          2009,
+          91
+        ],
+        [
+          2010,
+          111
+        ],
+        [
+          2011,
+          145
+        ],
+        [
+          2012,
+          130
+        ],
+        [
+          2013,
+          137
+        ],
+        [
+          2014,
+          144
+        ],
+        [
+          2015,
+          170
+        ],
+        [
+          2016,
+          125
+        ],
+        [
+          2017,
+          118
+        ],
+        [
+          2018,
+          143
+        ],
+        [
+          2019,
+          111
+        ]
+      ],
+      "name": "Ort unbekannt\u002Fnicht zuweisbar"
     }
   ],
   "chart": {
@@ -257,6 +308,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 212,
     "alignColumns": false
   },
   "credits": {
@@ -272,7 +324,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-25"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
