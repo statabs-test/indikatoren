@@ -59,7 +59,15 @@
       }
     },
     xAxis: {
-      endOnTick: true,
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      },
+      /*endOnTick: true,
       startOnTick: true,
       showFirstLabel: true,
       showLastLabel: true,
@@ -68,7 +76,7 @@
       ordinal: false,
       crosshair: {
         width: 0
-      }
+      }*/
     },
     data: {
       parsed: function (columns) {
