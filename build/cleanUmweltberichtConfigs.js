@@ -27,7 +27,13 @@ files.forEach(function(filepath){
             var configFileContents = fs.readFileSync(configPathBase + indikator.id + '.json', 'utf8');
             var config = deserialize(configFileContents);
             //if property datenInChartIntegriert is defined and st to false
-            /*if (indikator.datenInChartIntegriert != undefined && !indikator.datenInChartIntegriert){
+
+/* 28.9.2020/BL: auskommentiert weil mutter-indikatoren aus portal tw. (z.B. Energie) nicht 
+die gleiche TSV-Struktur aufweisen wie die UB-Indikatoren. Die TSVs müssen identisch sein, damit die übernahme der
+Daten funktioniert...
+
+
+            if (indikator.datenInChartIntegriert != undefined && !indikator.datenInChartIntegriert){
                 //clone object, see https://stackoverflow.com/a/44299805
                 let configForJs = clone(config);
                 //remove series.data series.name from each series in the config so that tsv is used instead
@@ -69,8 +75,9 @@ files.forEach(function(filepath){
                 });
 
             }
+
+            if (indikator.datenInChartIntegriert || indikator.datenInChartIntegriert === undefined)
 */
-            //if (indikator.datenInChartIntegriert || indikator.datenInChartIntegriert === undefined)
             {
                 //ensure crlf for tsv files
                 console.log('Saving: ' + dataPathBase + indikator.id + '.tsv')

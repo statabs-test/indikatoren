@@ -81,6 +81,11 @@ while (ubFileList.length > 0) {
 
                     var tsvPath = '-------------';
                     //get tsv from umweltbericht if necessary
+/*
+                    28.9.2020/BL: if wurde auskommentiert weil mutter-indikatoren aus portal tw. (z.B. Energie) nicht 
+                    die gleiche TSV-Struktur aufweisen wie die UB-Indikatoren. Die TSVs müssen identisch sein, damit die übernahme der
+                    Daten funktioniert...
+*/
                     //if (currentConfig.datenInChartIntegriert || currentConfig.datenInChartIntegriert === undefined){
                         var tsvContent = casper.fetchText('#data-tsv');                        
                         tsvPath = 'data/' + id + '.tsv';
