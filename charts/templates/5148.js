@@ -59,24 +59,17 @@
       }
     },
     xAxis: {
-      tickPositioner: function () {
-        var interval = 2,
-          ext = this.getExtremes(),
-          i = ext.dataMax,
-          pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
-      },
-      /*endOnTick: true,
+    
+      endOnTick: true,
       startOnTick: true,
       showFirstLabel: true,
       showLastLabel: true,
-      //tickInterval: 365 * 24 * 3600 * 1000,
-      //minTickInterval: 365 * 24 * 3600 * 1000,
+      tickInterval: 365 * 24 * 3600 * 1000,
+     // minTickInterval: 365 * 24 * 3600 * 1000,
       ordinal: false,
       crosshair: {
         width: 0
-      }*/
+      }
     },
     data: {
       parsed: function (columns) {
