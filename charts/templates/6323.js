@@ -1,6 +1,7 @@
 (function(){
     return {
    "yAxis": {
+     tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}",
     }
@@ -10,6 +11,9 @@
   labels:{
     rotation:0
   }
+  },
+  "legend": {
+    enabled: false
   },
   "series": [
     {

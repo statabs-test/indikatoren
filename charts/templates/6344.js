@@ -8,6 +8,7 @@
     },
  	"xAxis": {
         "type": "category",
+        rotation: -45,
         "labels": {
            align: "left",
             x: -125,
@@ -30,7 +31,15 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             }
         } 
-  },  
+  },
+  data: {
+    //only keep first and last year
+    parsed: function(columns){
+          columns.forEach(function(column, i, arr){
+              column.splice(column.length-3,3);
+          });
+    }
+},  
   plotOptions: {
   	column: {
   		groupPadding: 0,

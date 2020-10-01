@@ -31,6 +31,14 @@
 					}
         } 
       },  
+      data: {
+        //only keep first and last year
+        parsed: function(columns){
+              columns.forEach(function(column, i, arr){
+                  column.splice(column.length-6,6);
+              });
+        }
+    },
       plotOptions: {
       	column: {
       		groupPadding: 0,

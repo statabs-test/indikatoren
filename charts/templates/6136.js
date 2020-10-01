@@ -10,6 +10,8 @@
         "align": "right",
         "useHTML": false,
         "itemStyle": {
+          textOverflow: "none",
+          whiteSpace: "nowrap",
             "fontWeight": "normal"
         },
         "symbolRadius": 0,
