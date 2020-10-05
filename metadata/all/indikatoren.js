@@ -71459,7 +71459,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2018 wurden auf den baselstädtischen Strassen 777 Unfälle durch die Polizei rapportiert, das sind 58 weniger als ein Jahr zuvor. Trotz abnehmender Gesamtzahl der Verkehrsunfälle gab es mehr Unfälle mit Personenschaden (+25). 473 Personen wurden dabei verletzt, 96 davon schwer und 2 tödlich.",
 		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"template": "",
+		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
