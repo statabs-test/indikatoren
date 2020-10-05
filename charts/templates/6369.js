@@ -27,7 +27,10 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
+    itemWidth: 160,
     "itemStyle": {
+      textOverflow: "none",
+      whiteSpace: "nowrap",
       "fontWeight": "normal"
     }
   },
