@@ -1,24 +1,20 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "index": 6,
+      "color": "#FFBB58",
+      "index": 4,
       "legendIndex": 0,
       "data": [
         [
-          "Generell nachts",
-          undefined
-        ],
-        [
-          "2018",
+          "Nachts 2018",
           641
         ],
         [
-          "2015",
+          "Nachts 2015",
           571
         ],
         [
-          "2012",
+          "Nachts 2012",
           556
         ],
         [
@@ -26,44 +22,36 @@
           undefined
         ],
         [
-          "Generell tags�ber",
-          undefined
-        ],
-        [
-          "2018",
+          "Tagsüber 2018",
           185
         ],
         [
-          "2015",
+          "Tagsüber 2015",
           491
         ],
         [
-          "2012",
+          "Tagsüber 2012",
           455
         ]
       ],
-      "name": "Zu wenig Pr�senz",
+      "name": "Zu wenig Präsenz",
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
-      "index": 5,
+      "color": "#71A3B5",
+      "index": 3,
       "legendIndex": 1,
       "data": [
         [
-          "Generell nachts",
-          undefined
-        ],
-        [
-          "2018",
+          "Nachts 2018",
           593
         ],
         [
-          "2015",
+          "Nachts 2015",
           451
         ],
         [
-          "2012",
+          "Nachts 2012",
           908
         ],
         [
@@ -71,44 +59,36 @@
           undefined
         ],
         [
-          "Generell tags�ber",
-          undefined
-        ],
-        [
-          "2018",
+          "Tagsüber 2018",
           1181
         ],
         [
-          "2015",
+          "Tagsüber 2015",
           618
         ],
         [
-          "2012",
+          "Tagsüber 2012",
           801
         ]
       ],
-      "name": "Genug Pr�senz",
+      "name": "Genug Präsenz",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 4,
+      "color": "#256370",
+      "index": 2,
       "legendIndex": 2,
       "data": [
         [
-          "Generell nachts",
-          undefined
-        ],
-        [
-          "2018",
+          "Nachts 2018",
           30
         ],
         [
-          "2015",
+          "Nachts 2015",
           52
         ],
         [
-          "2012",
+          "Nachts 2012",
           57
         ],
         [
@@ -116,44 +96,36 @@
           undefined
         ],
         [
-          "Generell tags�ber",
-          undefined
-        ],
-        [
-          "2018",
+          "Tagsüber 2018",
           75
         ],
         [
-          "2015",
+          "Tagsüber 2015",
           93
         ],
         [
-          "2012",
+          "Tagsüber 2012",
           70
         ]
       ],
-      "name": "Zu viel Pr�senz",
+      "name": "Zu viel Präsenz",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
-      "index": 3,
+      "color": "#C8C8C8",
+      "index": 1,
       "legendIndex": 3,
       "data": [
         [
-          "Generell nachts",
-          undefined
-        ],
-        [
-          "2018",
+          "Nachts 2018",
           353
         ],
         [
-          "2015",
+          "Nachts 2015",
           493
         ],
         [
-          "2012",
+          "Nachts 2012",
           100
         ],
         [
@@ -161,19 +133,15 @@
           undefined
         ],
         [
-          "Generell tags�ber",
-          undefined
-        ],
-        [
-          "2018",
+          "Tagsüber 2018",
           162
         ],
         [
-          "2015",
+          "Tagsüber 2015",
           375
         ],
         [
-          "2012",
+          "Tagsüber 2012",
           257
         ]
       ],
@@ -181,24 +149,20 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
-      "index": 2,
+      "color": "#6F6F6F",
+      "index": 0,
       "legendIndex": 4,
       "data": [
         [
-          "Generell nachts",
-          undefined
-        ],
-        [
-          "2018",
+          "Nachts 2018",
           48
         ],
         [
-          "2015",
+          "Nachts 2015",
           97
         ],
         [
-          "2012",
+          "Nachts 2012",
           43
         ],
         [
@@ -206,34 +170,20 @@
           undefined
         ],
         [
-          "Generell tags�ber",
-          undefined
-        ],
-        [
-          "2018",
+          "Tagsüber 2018",
           63
         ],
         [
-          "2015",
+          "Tagsüber 2015",
           87
         ],
         [
-          "2012",
+          "Tagsüber 2012",
           83
         ]
       ],
       "name": "Keine Angabe",
       "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "index": 1,
-      "legendIndex": 5
-    },
-    {
-      "color": "#6F6F6F",
-      "index": 0,
-      "legendIndex": 6
     }
   ],
   "xAxis": {
@@ -256,21 +206,21 @@
         "textOverflow": "none"
       },
       "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
+            //add sum of observations of visible series to the axis label
+            var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                return val.visible;
+            });
+            var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+            var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                return accumulator + series.yData[indexOfCurrentValue];
+            }, 0);
+            //use N if all series are visible, otherwise use n
+            var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+            //check for value that contains only spaces
+            return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+        },
       "align": "left",
-      "x": -125
+      "x": -130
     }
   },
   "chart": {
@@ -304,7 +254,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 135,
+    "marginLeft": 145,
     "inverted": true,
     "renderTo": "container-9152",
     "spacingBottom": 50
@@ -316,7 +266,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit Präsenz Kantonspolizei"
+    "text": "Zufriedenheit mit Präsenz Kantonspolizei im 3-Jahresvergleich"
   },
   "subtitle": {
     "style": {
@@ -324,7 +274,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei an folgenden Orten bzw. im Tagesverlauf beurteilen», Basel-Stadt, 2018"
+    "text": "«Bitte geben Sie an, wie Sie die Präsenz der Polizei generell im Tagesverlauf beurteilen», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -399,8 +349,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/', '/<br/>');
-        },
-    "itemWidth": 165
+        }
   },
   "exporting": {
     "filename": 9152

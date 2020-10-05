@@ -1837,6 +1837,7 @@ id | visible | visibleInPortal | indikatorenset
 9125 | true | true | Sicherheit im oeffentlichen Raum
 9126 | true | true | Sicherheit im oeffentlichen Raum
 9129 | true | true | Sicherheit im oeffentlichen Raum
+9130 | true | false | Sicherheit im oeffentlichen Raum
 9134 | true | true | Sicherheit im oeffentlichen Raum
 9141 | true | true | Sicherheit im oeffentlichen Raum
 9149 | true | true | Sicherheit im oeffentlichen Raum
