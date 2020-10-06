@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T08:57:43.4343",
+		"aktualisierungsdatum": "2020-10-06T10:00:55.5555",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -19,17 +19,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil erneuerbarer Energien (ohne Mobilität) am Bruttoverbrauch ist von 40,9% im Jahr 2010 auf 48,6% im Jahr 2018 gestiegen.",
 		"erlaeuterungen": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch (Summe der Verbräuche erneuerbarer Energien ohne Mobilität dividiert durch den gesamten Energieverbrauch). Als erneuerbare Energien werden Energieträger bezeichnet, welche kontinuierlich oder in Zyklen auf natürliche Weise anfallen. Zu den erneuerbaren Energien gehören einerseits die klassischen Energieträger Wasserkraft und Holz, andererseits die neuen erneuerbaren Energieträger Wind, Sonne, Biotreibstoffe, Biogas und Umweltwärme.<br>Folgende Energieträger werden als erneuerbar berücksichtigt:<br>Sonnenenergie, Windenergie, Wasserkraft, Deponie-/Klär-/Biogas, Holzenergie, Klärschlamm und Umweltenergie. Im Kanton Basel-Stadt werden zudem 50% der Energieproduktion aus der Kehrichtverbrennung als erneuerbar berücksichtigt.",
-		"template": "empty",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9001,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -50,7 +50,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:48.4848",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -90,7 +90,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-12T15:05:13.1313",
+		"aktualisierungsdatum": "2020-10-06T10:00:48.4848",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -98,7 +98,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Die hier berücksichtigten Energieträger werden entweder direkt bei den Anlagebetreibern erhoben (Windenergie, Deponie-/Klär-/Biogas etc.) oder geschätzt (z.B. Umweltwärme).  Die Zahlen basieren auf der kantonalen Energiestatistik.<br><br>Anmerkung Kanton Basel-Stadt: Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.<br><br>Der Indikator zeigt die jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen.",
-		"template": "empty",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
@@ -108,7 +108,7 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Statistisches Amt Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -130,7 +130,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-13T08:53:35.3535",
+		"aktualisierungsdatum": "2020-10-06T10:00:56.5656",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -138,17 +138,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Eigenproduktion von Elektrizität hat von 2010 bis 2018 von 374 auf 431 GWh zugenommen, dies trotz des Rückganges von 12% zwischen 2016 und 2018.",
 		"erlaeuterungen": "Es handelt sich hierbei um die jährlich Menge an Elektrizität, welche innerhalb des Kantonsgebietes produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z. B. Elektrizitätsproduktion mittels Wärmekraftkopplungsanlagen) erhoben.",
-		"template": "empty",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9003,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -170,7 +170,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:17:31.3131",
+		"aktualisierungsdatum": "2020-10-06T10:00:56.5656",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -178,17 +178,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Energieimportabhängigkeit hat seit 1995 kontinuiertlich von 86,5%  auf 75,0% abgenommen.",
 		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9004,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -210,7 +210,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:48.4848",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -251,7 +251,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:48.4848",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -291,7 +291,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:48.4848",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -330,7 +330,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:25:35.3535",
+		"aktualisierungsdatum": "2020-10-06T10:00:55.5555",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -338,17 +338,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Der Indikator stellt die Entwicklung des Energieverbrauchs in den Kontext der wirtschaftlichen Produktion sowie der Bevölkerungsentwicklung. Dadurch kann die Energieabhängigkeit von Wirtschaft und Gesellschaft beurteilt werden.<br><br>Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt sowie die Bevölkerung. Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9009,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target='_blank'>Energieeffizienz Schweiz (BFS)</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -369,7 +369,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:14:46.4646",
+		"aktualisierungsdatum": "2020-10-06T10:00:56.5656",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -377,17 +377,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 6 490 GWh im Jahr 1995 um gut 28,4% zurück auf 4 645 GWh im Jahr 2018. Neben dem Rückgang beim Heizöl von über 83% ist auch der Erdgasverbrauch in diesem Zeitraum um über 31% zurückgegangen.",
 		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. <br><br>Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen infolge der Umwandlung in Elektrizität und Fernwärme. Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9000,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -409,7 +409,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
+		"aktualisierungsdatum": "2020-10-06T10:00:53.5353",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -417,17 +417,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "16_00_00_00_00_000",
-		"parentId": 6164,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target='_blank'>Gewässerschutzverordnung, Anhang 3.1</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -448,7 +448,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:49.4949",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -488,7 +488,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:49.4949",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -527,7 +527,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:49.4949",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -566,7 +566,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:49.4949",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -606,7 +606,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-24T17:55:38.3838",
+		"aktualisierungsdatum": "2020-10-06T10:00:54.5454",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -614,17 +614,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2018 14,9&nbsp;°C.",
 		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt.<br>Erhöhte Temperaturen des Grundwassers können zu einem vermehrten Auftreten von Mikroorganismen im Wasser führen, was in Gebieten mit Trinkwassernutzung unerwünscht ist. Die Jahresmittelwerte der Grundwassertemperaturen in Basel-Stadt liegen an den gemessenen Messstellen im Bereich von 12-19 °C. Die Grundwassertemperaturen sind gegenüber natürlichen Verhältnissen anthropogen stark erhöht. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
-		"template": "empty",
+		"template": "map_gemeinden",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "16_00_00_00_00_000",
-		"parentId": 6166,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'' target = '_blank'>Umweltbericht beider Basel</a>."
 		],
@@ -645,7 +645,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:32.3232",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -684,7 +684,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:33.3333",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -723,7 +723,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:33.3333",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -763,7 +763,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:33.3333",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -803,7 +803,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:33.3333",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -842,7 +842,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:34.3434",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -881,7 +881,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:34.3434",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -921,7 +921,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:34.3434",
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -961,7 +961,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:34.3434",
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -1001,7 +1001,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:35.3535",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1041,7 +1041,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:35.3535",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1081,7 +1081,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:35.3535",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1121,7 +1121,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:36.3636",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1161,7 +1161,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:36.3636",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1201,7 +1201,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:36.3636",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -1241,7 +1241,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:36.3636",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1281,7 +1281,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:37.3737",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1321,7 +1321,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:37.3737",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1361,7 +1361,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:37.3737",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1401,7 +1401,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:37.3737",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -1441,7 +1441,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:37.3737",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1481,7 +1481,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:38.3838",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1521,7 +1521,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:38.3838",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1561,7 +1561,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:38.3838",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -1601,7 +1601,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:38.3838",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1642,7 +1642,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:38.3838",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1683,7 +1683,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:39.3939",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1724,7 +1724,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:09:37.3737",
+		"aktualisierungsdatum": "2020-10-06T10:00:54.5454",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1732,17 +1732,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.&nbsp;B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "10_00_00_00_00_000",
-		"parentId": 6159,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target='_blank'>Strassenlärmkataster BS</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -1763,7 +1763,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:39.3939",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -1802,7 +1802,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:39.3939",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1844,7 +1844,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:39.3939",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1886,7 +1886,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:39.3939",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1928,7 +1928,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:40.4040",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -1972,7 +1972,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:40.4040",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2012,7 +2012,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:40.4040",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2053,7 +2053,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:40.4040",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2094,7 +2094,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:41.4141",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2135,7 +2135,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:41.4141",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2177,7 +2177,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:41.4141",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -2218,7 +2218,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:41.4141",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2257,7 +2257,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:41.4141",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2297,7 +2297,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:42.4242",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2337,7 +2337,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:42.4242",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2376,7 +2376,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:42.4242",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2416,7 +2416,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:42.4242",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2456,7 +2456,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:43.4343",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -2495,7 +2495,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:43.4343",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2535,7 +2535,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:43.4343",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2575,7 +2575,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:43.4343",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -2615,7 +2615,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:44.4444",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2655,7 +2655,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:19:51.5151",
+		"aktualisierungsdatum": "2020-10-06T10:00:53.5353",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2663,17 +2663,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910&nbsp;740 Tonnen auf 694&nbsp;507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "08_00_00_00_00_000",
-		"parentId": 6165,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='http://www.bafu.admin.ch/klima/index.html?lang=de' target='_blank'>Bundesamt für Umwelt</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -2694,7 +2694,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-07T16:01:34.3434",
+		"aktualisierungsdatum": "2020-10-06T10:00:54.5454",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2733,7 +2733,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:44.4444",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2773,7 +2773,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:45.4545",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -2813,7 +2813,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:45.4545",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -2853,7 +2853,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:45.4545",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2893,7 +2893,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:45.4545",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2933,7 +2933,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:46.4646",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -2972,7 +2972,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:46.4646",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -3012,7 +3012,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:46.4646",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -3051,7 +3051,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:46.4646",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -3091,7 +3091,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:47.4747",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -3132,7 +3132,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:47.4747",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3173,7 +3173,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:47.4747",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3212,7 +3212,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:47.4747",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3253,7 +3253,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:55.5555",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3261,7 +3261,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 wies der Kanton Basel-Stadt eine mittlere Wohnbevölkerung von 199'870 Personen auf. Dies entspricht einer Zunahme um 0,7% gegenüber 2017.",
 		"erlaeuterungen": "Für detaillierte Angaben zur Methodik der kantonalen Bevölkerungsstatistik siehe weiterführende Informationen.<br><br>Die mittlere Wohnbevölkerung entspricht der im Durchschnitt eines Kalenderjahres im Kanton wohnhaften Bevölkerung.",
-		"template": "empty",
+		"template": "map_gemeinden",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "17_00_00_00_00_000",
@@ -3271,7 +3271,7 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>",
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
@@ -3294,7 +3294,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-29T10:26:15.1515",
+		"aktualisierungsdatum": "2020-10-06T10:00:54.5454",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3302,17 +3302,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "17_00_00_00_00_000",
-		"parentId": 6154,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			""
 		],
@@ -3333,7 +3333,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:50.5050",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3373,7 +3373,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:30:57.5757",
+		"aktualisierungsdatum": "2020-10-06T10:00:55.5555",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3381,17 +3381,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sinkt er bis 2018 kontinuierlich auf 6,7 MWh pro Einwohner.",
 		"erlaeuterungen": "Jährlicher Elektrizitätsverbrauch pro Einwohner. Skalierung des Elektrizitätsverbrauch über die mittlere Wohnbevölkerung.",
-		"template": "empty",
+		"template": "map_gemeinden",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9005,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -3413,7 +3413,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:18:59.5959",
+		"aktualisierungsdatum": "2020-10-06T10:00:55.5555",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3421,17 +3421,17 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der totale Elektrizitätsverbrauch hat zwischen 1995 und 2010 von 1 470 auf 1 628 Gigawattstunden zugenommen und sank danach bis 2018 kontinuierlich auf 1 344 Gigawattstunden.",
 		"erlaeuterungen": "Jährlicher Elektrizitätsverbrauch nach Produktionsart.",
-		"template": "empty",
-		"darstellungsart": "Grafik",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_000",
-		"parentId": 9006,
+		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -3453,7 +3453,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:54.5454",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3494,7 +3494,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:53.5353",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3534,7 +3534,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:50.5050",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -3574,7 +3574,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:50.5050",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3613,7 +3613,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:50.5050",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3653,7 +3653,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:51.5151",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3693,7 +3693,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:51.5151",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3733,7 +3733,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:51.5151",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3773,7 +3773,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:51.5151",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3812,7 +3812,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:51.5151",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3852,7 +3852,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:52.5252",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3892,7 +3892,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:52.5252",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -3932,7 +3932,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:52.5252",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -3972,7 +3972,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:52.5252",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4012,7 +4012,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:53.5353",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -4052,7 +4052,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-10-06T10:00:53.5353",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
