@@ -54,6 +54,10 @@
         [
           2018,
           1888.9
+        ],
+        [
+          2019,
+          1890.6
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
@@ -112,6 +116,10 @@
         [
           2018,
           748.1
+        ],
+        [
+          2019,
+          1079.7
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -318,6 +326,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6289
+    "filename": "6289"
   }
 }

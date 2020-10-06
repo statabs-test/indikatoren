@@ -6,112 +6,112 @@
       "legendIndex": 0,
       "data": [
         [
-          "Freundlich 2018",
-          327.515465231039
+          "Freundlich 2012",
+          254.468725
         ],
         [
           "Freundlich 2015",
           281.69063
         ],
         [
-          "Freundlich 2012",
-          254.468725
+          "Freundlich 2018",
+          327.5154652
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          213.107854953768
-        ],
-        [
-          "Handelt angemessen 2015",
-          162.279817
+          null
         ],
         [
           "Handelt angemessen 2012",
           160.328536
         ],
         [
+          "Handelt angemessen 2015",
+          162.279817
+        ],
+        [
+          "Handelt angemessen 2018",
+          213.107855
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          412.541584795842
-        ],
-        [
-          "Hilfsbereit 2015",
-          304.62644
+          null
         ],
         [
           "Hilfsbereit 2012",
           304.645574
         ],
         [
+          "Hilfsbereit 2015",
+          304.62644
+        ],
+        [
+          "Hilfsbereit 2018",
+          412.5415848
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          281.985991291754
-        ],
-        [
-          "Sympathisch 2015",
-          215.763558
+          null
         ],
         [
           "Sympathisch 2012",
           219.730689
         ],
         [
+          "Sympathisch 2015",
+          215.763558
+        ],
+        [
+          "Sympathisch 2018",
+          281.9859913
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          313.734481794685
-        ],
-        [
-          "Respektvoll 2015",
-          255.254413
+          null
         ],
         [
           "Respektvoll 2012",
           236.302643
         ],
         [
+          "Respektvoll 2015",
+          255.254413
+        ],
+        [
+          "Respektvoll 2018",
+          313.7344818
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          301.692639522881
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          204.821932
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           212.258841
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          204.821932
         ],
         [
-          "Gerecht 2018",
-          257.638806955243
+          "Nimmt Anliegen ernst 2018",
+          301.6926395
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          155.241507
         ],
         [
           "Gerecht 2015",
           191.952141
         ],
         [
-          "Gerecht 2012",
-          155.241507
+          "Gerecht 2018",
+          257.638807
         ]
       ],
       "name": "Note 10",
@@ -123,112 +123,112 @@
       "legendIndex": 1,
       "data": [
         [
-          "Freundlich 2018",
-          260.781608388656
+          "Freundlich 2012",
+          150.053121
         ],
         [
           "Freundlich 2015",
           158.456875
         ],
         [
-          "Freundlich 2012",
-          150.053121
+          "Freundlich 2018",
+          260.7816084
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          221.450484565179
-        ],
-        [
-          "Handelt angemessen 2015",
-          131.613845
+          null
         ],
         [
           "Handelt angemessen 2012",
           107.616692
         ],
         [
+          "Handelt angemessen 2015",
+          131.613845
+        ],
+        [
+          "Handelt angemessen 2018",
+          221.4504846
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          346.633992368027
-        ],
-        [
-          "Hilfsbereit 2015",
-          178.239548
+          null
         ],
         [
           "Hilfsbereit 2012",
           162.548226
         ],
         [
+          "Hilfsbereit 2015",
+          178.239548
+        ],
+        [
+          "Hilfsbereit 2018",
+          346.6339924
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          264.830637721251
-        ],
-        [
-          "Sympathisch 2015",
-          142.167814
+          null
         ],
         [
           "Sympathisch 2012",
           125.485273
         ],
         [
+          "Sympathisch 2015",
+          142.167814
+        ],
+        [
+          "Sympathisch 2018",
+          264.8306377
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          278.081501788159
-        ],
-        [
-          "Respektvoll 2015",
-          149.804786
+          null
         ],
         [
           "Respektvoll 2012",
           142.04514
         ],
         [
+          "Respektvoll 2015",
+          149.804786
+        ],
+        [
+          "Respektvoll 2018",
+          278.0815018
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          240.605368492297
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          153.65951
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           119.669306
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          153.65951
         ],
         [
-          "Gerecht 2018",
-          248.014262450211
+          "Nimmt Anliegen ernst 2018",
+          240.6053685
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          120.232897
         ],
         [
           "Gerecht 2015",
           140.741776
         ],
         [
-          "Gerecht 2012",
-          120.232897
+          "Gerecht 2018",
+          248.0142625
         ]
       ],
       "name": "Note 9",
@@ -240,112 +240,112 @@
       "legendIndex": 2,
       "data": [
         [
-          "Freundlich 2018",
-          414.101158325114
+          "Freundlich 2012",
+          262.595496
         ],
         [
           "Freundlich 2015",
           259.791358
         ],
         [
-          "Freundlich 2012",
-          262.595496
+          "Freundlich 2018",
+          414.1011583
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          285.896560133101
-        ],
-        [
-          "Handelt angemessen 2015",
-          285.114133
+          null
         ],
         [
           "Handelt angemessen 2012",
           288.109581
         ],
         [
+          "Handelt angemessen 2015",
+          285.114133
+        ],
+        [
+          "Handelt angemessen 2018",
+          285.8965601
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          306.038281202671
-        ],
-        [
-          "Hilfsbereit 2015",
-          264.026658
+          null
         ],
         [
           "Hilfsbereit 2012",
           273.74186
         ],
         [
+          "Hilfsbereit 2015",
+          264.026658
+        ],
+        [
+          "Hilfsbereit 2018",
+          306.0382812
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          333.888899659769
-        ],
-        [
-          "Sympathisch 2015",
-          264.642164
+          null
         ],
         [
           "Sympathisch 2012",
           269.736072
         ],
         [
+          "Sympathisch 2015",
+          264.642164
+        ],
+        [
+          "Sympathisch 2018",
+          333.8888997
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          320.532908488824
-        ],
-        [
-          "Respektvoll 2015",
-          236.537685
+          null
         ],
         [
           "Respektvoll 2012",
           236.645819
         ],
         [
+          "Respektvoll 2015",
+          236.537685
+        ],
+        [
+          "Respektvoll 2018",
+          320.5329085
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          248.154285514912
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          274.888139
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           285.806384
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          274.888139
         ],
         [
-          "Gerecht 2018",
-          274.043633113364
+          "Nimmt Anliegen ernst 2018",
+          248.1542855
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          220.400368
         ],
         [
           "Gerecht 2015",
           254.601993
         ],
         [
-          "Gerecht 2012",
-          220.400368
+          "Gerecht 2018",
+          274.0436331
         ]
       ],
       "name": "Note 8",
@@ -357,112 +357,112 @@
       "legendIndex": 3,
       "data": [
         [
-          "Freundlich 2018",
-          210.515494730784
+          "Freundlich 2012",
+          150.329873
         ],
         [
           "Freundlich 2015",
           144.592053
         ],
         [
-          "Freundlich 2012",
-          150.329873
+          "Freundlich 2018",
+          210.5154947
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          157.351633021759
-        ],
-        [
-          "Handelt angemessen 2015",
-          188.849523
+          null
         ],
         [
           "Handelt angemessen 2012",
           186.186994
         ],
         [
+          "Handelt angemessen 2015",
+          188.849523
+        ],
+        [
+          "Handelt angemessen 2018",
+          157.351633
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          145.553056867919
-        ],
-        [
-          "Hilfsbereit 2015",
-          128.537308
+          null
         ],
         [
           "Hilfsbereit 2012",
           144.800596
         ],
         [
+          "Hilfsbereit 2015",
+          128.537308
+        ],
+        [
+          "Hilfsbereit 2018",
+          145.5530569
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          187.738126067183
-        ],
-        [
-          "Sympathisch 2015",
-          150.35856
+          null
         ],
         [
           "Sympathisch 2012",
           173.829018
         ],
         [
+          "Sympathisch 2015",
+          150.35856
+        ],
+        [
+          "Sympathisch 2018",
+          187.7381261
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          159.222063147954
-        ],
-        [
-          "Respektvoll 2015",
-          151.283327
+          null
         ],
         [
           "Respektvoll 2012",
           158.135847
         ],
         [
+          "Respektvoll 2015",
+          151.283327
+        ],
+        [
+          "Respektvoll 2018",
+          159.2220631
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          173.419859948867
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          171.0847
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           179.965184
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          171.0847
         ],
         [
-          "Gerecht 2018",
-          165.169462012274
+          "Nimmt Anliegen ernst 2018",
+          173.4198599
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          183.216454
         ],
         [
           "Gerecht 2015",
           158.63759
         ],
         [
-          "Gerecht 2012",
-          183.216454
+          "Gerecht 2018",
+          165.169462
         ]
       ],
       "name": "Note 7",
@@ -474,112 +474,112 @@
       "legendIndex": 4,
       "data": [
         [
-          "Freundlich 2018",
-          86.3620138532699
+          "Freundlich 2012",
+          64.067194
         ],
         [
           "Freundlich 2015",
           79.748866
         ],
         [
-          "Freundlich 2012",
-          64.067194
+          "Freundlich 2018",
+          86.36201385
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          87.0528217188081
-        ],
-        [
-          "Handelt angemessen 2015",
-          79.673856
+          null
         ],
         [
           "Handelt angemessen 2012",
           88.292192
         ],
         [
+          "Handelt angemessen 2015",
+          79.673856
+        ],
+        [
+          "Handelt angemessen 2018",
+          87.05282172
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          78.7663901633198
-        ],
-        [
-          "Hilfsbereit 2015",
-          66.788563
+          null
         ],
         [
           "Hilfsbereit 2012",
           52.798326
         ],
         [
+          "Hilfsbereit 2015",
+          66.788563
+        ],
+        [
+          "Hilfsbereit 2018",
+          78.76639016
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          119.967894973261
-        ],
-        [
-          "Sympathisch 2015",
-          95.773348
+          null
         ],
         [
           "Sympathisch 2012",
           80.195168
         ],
         [
+          "Sympathisch 2015",
+          95.773348
+        ],
+        [
+          "Sympathisch 2018",
+          119.967895
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          91.0443428426701
-        ],
-        [
-          "Respektvoll 2015",
-          74.740429
+          null
         ],
         [
           "Respektvoll 2012",
           80.017494
         ],
         [
+          "Respektvoll 2015",
+          74.740429
+        ],
+        [
+          "Respektvoll 2018",
+          91.04434284
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          104.537078849055
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          81.11608
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           67.36704
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          81.11608
         ],
         [
-          "Gerecht 2018",
-          99.4475023016213
+          "Nimmt Anliegen ernst 2018",
+          104.5370788
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          94.637457
         ],
         [
           "Gerecht 2015",
           83.966825
         ],
         [
-          "Gerecht 2012",
-          94.637457
+          "Gerecht 2018",
+          99.4475023
         ]
       ],
       "name": "Note 6",
@@ -591,112 +591,112 @@
       "legendIndex": 5,
       "data": [
         [
-          "Freundlich 2018",
-          121.49127083664
+          "Freundlich 2012",
+          73.510639
         ],
         [
           "Freundlich 2015",
           55.231578
         ],
         [
-          "Freundlich 2012",
-          73.510639
+          "Freundlich 2018",
+          121.4912708
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          94.9393753014335
-        ],
-        [
-          "Handelt angemessen 2015",
-          67.914958
+          null
         ],
         [
           "Handelt angemessen 2012",
           97.860757
         ],
         [
+          "Handelt angemessen 2015",
+          67.914958
+        ],
+        [
+          "Handelt angemessen 2018",
+          94.9393753
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          73.2054438861716
-        ],
-        [
-          "Hilfsbereit 2015",
-          37.506961
+          null
         ],
         [
           "Hilfsbereit 2012",
           46.638937
         ],
         [
+          "Hilfsbereit 2015",
+          37.506961
+        ],
+        [
+          "Hilfsbereit 2018",
+          73.20544389
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          109.047032179052
-        ],
-        [
-          "Sympathisch 2015",
-          89.432547
+          null
         ],
         [
           "Sympathisch 2012",
           90.395979
         ],
         [
+          "Sympathisch 2015",
+          89.432547
+        ],
+        [
+          "Sympathisch 2018",
+          109.0470322
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          92.5106992316075
-        ],
-        [
-          "Respektvoll 2015",
-          71.070232
+          null
         ],
         [
           "Respektvoll 2012",
           84.422335
         ],
         [
+          "Respektvoll 2015",
+          71.070232
+        ],
+        [
+          "Respektvoll 2018",
+          92.51069923
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          88.7069194427085
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          64.697032
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           77.845544
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          64.697032
         ],
         [
-          "Gerecht 2018",
-          76.7489251808991
+          "Nimmt Anliegen ernst 2018",
+          88.70691944
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          87.572909
         ],
         [
           "Gerecht 2015",
           64.945826
         ],
         [
-          "Gerecht 2012",
-          87.572909
+          "Gerecht 2018",
+          76.74892518
         ]
       ],
       "name": "Note 5",
@@ -708,112 +708,112 @@
       "legendIndex": 6,
       "data": [
         [
-          "Freundlich 2018",
-          52.0232470370571
+          "Freundlich 2012",
+          32.560896
         ],
         [
           "Freundlich 2015",
           17.718667
         ],
         [
-          "Freundlich 2012",
-          32.560896
+          "Freundlich 2018",
+          52.02324704
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          51.3803786520079
-        ],
-        [
-          "Handelt angemessen 2015",
-          24.151296
+          null
         ],
         [
           "Handelt angemessen 2012",
           24.996098
         ],
         [
+          "Handelt angemessen 2015",
+          24.151296
+        ],
+        [
+          "Handelt angemessen 2018",
+          51.38037865
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          42.8250083165438
-        ],
-        [
-          "Hilfsbereit 2015",
-          20.455324
+          null
         ],
         [
           "Hilfsbereit 2012",
           16.806961
         ],
         [
+          "Hilfsbereit 2015",
+          20.455324
+        ],
+        [
+          "Hilfsbereit 2018",
+          42.82500832
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          53.6841226899388
-        ],
-        [
-          "Sympathisch 2015",
-          16.955062
+          null
         ],
         [
           "Sympathisch 2012",
           26.763815
         ],
         [
+          "Sympathisch 2015",
+          16.955062
+        ],
+        [
+          "Sympathisch 2018",
+          53.68412269
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          55.1918432243513
-        ],
-        [
-          "Respektvoll 2015",
-          35.199593
+          null
         ],
         [
           "Respektvoll 2012",
           29.939892
         ],
         [
+          "Respektvoll 2015",
+          35.199593
+        ],
+        [
+          "Respektvoll 2018",
+          55.19184322
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          47.7398923951633
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          15.505548
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           28.418292
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          15.505548
         ],
         [
-          "Gerecht 2018",
-          53.725993767491
+          "Nimmt Anliegen ernst 2018",
+          47.7398924
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          31.154947
         ],
         [
           "Gerecht 2015",
           27.371608
         ],
         [
-          "Gerecht 2012",
-          31.154947
+          "Gerecht 2018",
+          53.72599377
         ]
       ],
       "name": "Note 4",
@@ -825,112 +825,112 @@
       "legendIndex": 7,
       "data": [
         [
-          "Freundlich 2018",
-          39.2292345964312
+          "Freundlich 2012",
+          16.550627
         ],
         [
           "Freundlich 2015",
           9.389094
         ],
         [
-          "Freundlich 2012",
-          16.550627
+          "Freundlich 2018",
+          39.2292346
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          47.7383002848836
-        ],
-        [
-          "Handelt angemessen 2015",
-          19.209106
+          null
         ],
         [
           "Handelt angemessen 2012",
           14.393982
         ],
         [
+          "Handelt angemessen 2015",
+          19.209106
+        ],
+        [
+          "Handelt angemessen 2018",
+          47.73830028
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          30.7884190196677
-        ],
-        [
-          "Hilfsbereit 2015",
-          8.3181
+          null
         ],
         [
           "Hilfsbereit 2012",
           7.16869
         ],
         [
+          "Hilfsbereit 2015",
+          8.3181
+        ],
+        [
+          "Hilfsbereit 2018",
+          30.78841902
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          64.1743007620571
-        ],
-        [
-          "Sympathisch 2015",
-          14.91553
+          null
         ],
         [
           "Sympathisch 2012",
           10.182804
         ],
         [
+          "Sympathisch 2015",
+          14.91553
+        ],
+        [
+          "Sympathisch 2018",
+          64.17430076
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          37.1947514571044
-        ],
-        [
-          "Respektvoll 2015",
-          17.097156
+          null
         ],
         [
           "Respektvoll 2012",
           20.9959
         ],
         [
+          "Respektvoll 2015",
+          17.097156
+        ],
+        [
+          "Respektvoll 2018",
+          37.19475146
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          40.4406619915014
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          8.075233
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           13.720581
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          8.075233
         ],
         [
-          "Gerecht 2018",
-          47.1079087045064
+          "Nimmt Anliegen ernst 2018",
+          40.44066199
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          23.956001
         ],
         [
           "Gerecht 2015",
           6.405742
         ],
         [
-          "Gerecht 2012",
-          23.956001
+          "Gerecht 2018",
+          47.1079087
         ]
       ],
       "name": "Note 3",
@@ -942,112 +942,112 @@
       "legendIndex": 8,
       "data": [
         [
-          "Freundlich 2018",
-          24.5759435219286
+          "Freundlich 2012",
+          5.413565
         ],
         [
           "Freundlich 2015",
           9.504496
         ],
         [
-          "Freundlich 2012",
-          5.413565
+          "Freundlich 2018",
+          24.57594352
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          29.6047819885455
-        ],
-        [
-          "Handelt angemessen 2015",
-          4.669704
+          null
         ],
         [
           "Handelt angemessen 2012",
           8.542338
         ],
         [
+          "Handelt angemessen 2015",
+          4.669704
+        ],
+        [
+          "Handelt angemessen 2018",
+          29.60478199
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          29.4180780680473
-        ],
-        [
-          "Hilfsbereit 2015",
-          1.686448
+          null
         ],
         [
           "Hilfsbereit 2012",
           2.175772
         ],
         [
+          "Hilfsbereit 2015",
+          1.686448
+        ],
+        [
+          "Hilfsbereit 2018",
+          29.41807807
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          36.756615673693
-        ],
-        [
-          "Sympathisch 2015",
-          13.236556
+          null
         ],
         [
           "Sympathisch 2012",
           6.036662
         ],
         [
+          "Sympathisch 2015",
+          13.236556
+        ],
+        [
+          "Sympathisch 2018",
+          36.75661567
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          46.9959111773316
-        ],
-        [
-          "Respektvoll 2015",
-          9.97731
+          null
         ],
         [
           "Respektvoll 2012",
           13.658629
         ],
         [
+          "Respektvoll 2015",
+          9.97731
+        ],
+        [
+          "Respektvoll 2018",
+          46.99591118
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          26.271110732422
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          8.670537
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           10.140415
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          8.670537
         ],
         [
-          "Gerecht 2018",
-          34.8540651453962
+          "Nimmt Anliegen ernst 2018",
+          26.27111073
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          9.498291
         ],
         [
           "Gerecht 2015",
           5.586726
         ],
         [
-          "Gerecht 2012",
-          9.498291
+          "Gerecht 2018",
+          34.85406515
         ]
       ],
       "name": "Note 2",
@@ -1059,112 +1059,112 @@
       "legendIndex": 9,
       "data": [
         [
-          "Freundlich 2018",
-          20.4152187595889
+          "Freundlich 2012",
+          8.942592
         ],
         [
           "Freundlich 2015",
           1.381127
         ],
         [
-          "Freundlich 2012",
-          8.942592
+          "Freundlich 2018",
+          20.41521876
         ],
         [
           " ",
-          undefined
-        ],
-        [
-          "Handelt angemessen 2018",
-          34.6966194383219
-        ],
-        [
-          "Handelt angemessen 2015",
-          6.817263
+          null
         ],
         [
           "Handelt angemessen 2012",
           10.005794
         ],
         [
+          "Handelt angemessen 2015",
+          6.817263
+        ],
+        [
+          "Handelt angemessen 2018",
+          34.69661944
+        ],
+        [
           "  ",
-          undefined
-        ],
-        [
-          "Hilfsbereit 2018",
-          20.5501203213848
-        ],
-        [
-          "Hilfsbereit 2015",
-          1.748483
+          null
         ],
         [
           "Hilfsbereit 2012",
           4.298542
         ],
         [
+          "Hilfsbereit 2015",
+          1.748483
+        ],
+        [
+          "Hilfsbereit 2018",
+          20.55012032
+        ],
+        [
           "   ",
-          undefined
-        ],
-        [
-          "Sympathisch 2018",
-          46.2877281780587
-        ],
-        [
-          "Sympathisch 2015",
-          1.89988
+          null
         ],
         [
           "Sympathisch 2012",
           13.449097
         ],
         [
+          "Sympathisch 2015",
+          1.89988
+        ],
+        [
+          "Sympathisch 2018",
+          46.28772818
+        ],
+        [
           "    ",
-          undefined
-        ],
-        [
-          "Respektvoll 2018",
-          34.7050949723824
-        ],
-        [
-          "Respektvoll 2015",
-          6.196018
+          null
         ],
         [
           "Respektvoll 2012",
           11.918286
         ],
         [
+          "Respektvoll 2015",
+          6.196018
+        ],
+        [
+          "Respektvoll 2018",
+          34.70509497
+        ],
+        [
           "     ",
-          undefined
-        ],
-        [
-          "Nimmt Anliegen ernst 2018",
-          32.5783933890398
-        ],
-        [
-          "Nimmt Anliegen ernst 2015",
-          5.622935
+          null
         ],
         [
           "Nimmt Anliegen ernst 2012",
           9.299692
         ],
         [
-          "      ",
-          undefined
+          "Nimmt Anliegen ernst 2015",
+          5.622935
         ],
         [
-          "Gerecht 2018",
-          30.4482768499082
+          "Nimmt Anliegen ernst 2018",
+          32.57839339
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Gerecht 2012",
+          9.821033
         ],
         [
           "Gerecht 2015",
           6.097583
         ],
         [
-          "Gerecht 2012",
-          9.821033
+          "Gerecht 2018",
+          30.44827685
         ]
       ],
       "name": "Note 1",
@@ -1352,6 +1352,6 @@
     }
   },
   "exporting": {
-    "filename": 6443
+    "filename": "6443"
   }
 }

@@ -68,8 +68,7 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      },
-      "rotation": 0
+      }
     },
     "tickLength": 0
   },
@@ -257,6 +256,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6368
+    "filename": "6368"
   }
 }

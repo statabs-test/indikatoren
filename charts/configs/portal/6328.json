@@ -825,7 +825,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "tickAmount": 4
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -891,6 +892,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6328
+    "filename": "6328"
   }
 }

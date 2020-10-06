@@ -45,9 +45,6 @@
       ],
       "name": "Über Grenzwert in der Nacht",
       "turboThreshold": 0
-    },
-    {
-      "color": "#b375ab"
     }
   ],
   "xAxis": {
@@ -270,6 +267,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 6311
+    "filename": "6311"
   }
 }

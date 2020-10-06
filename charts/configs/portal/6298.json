@@ -232,8 +232,7 @@
       "format": "{value:,.0f}",
       "padding": 1
     },
-    "tickAmount": 7,
-    "max": 60000
+    "tickAmount": 8
   },
   "legend": {
     "padding": 0,
@@ -282,6 +281,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6298
+    "filename": "6298"
   }
 }

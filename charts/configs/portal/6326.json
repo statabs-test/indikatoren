@@ -307,7 +307,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 6
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -350,6 +351,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6326
+    "filename": "6326"
   }
 }

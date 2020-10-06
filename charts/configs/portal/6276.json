@@ -157,7 +157,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#661200",
+      "color": "#953735",
       "visible": true,
       "data": [
         [
@@ -209,7 +209,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#953735",
+      "color": "#661200",
       "visible": true,
       "data": [
         [
@@ -258,6 +258,58 @@
         ]
       ],
       "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3A2012",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz",
+          93.9
+        ],
+        [
+          "Ausland",
+          90.7
+        ],
+        [
+          "18-29 J.",
+          88.9
+        ],
+        [
+          "30-39 J.",
+          88.7
+        ],
+        [
+          "40-49 J.",
+          95.1
+        ],
+        [
+          "50-59 J.",
+          90.7
+        ],
+        [
+          "60-69 J.",
+          97.3
+        ],
+        [
+          "\u003E69 J.",
+          95.5
+        ],
+        [
+          "Männer",
+          92.9
+        ],
+        [
+          "Frauen",
+          93.8
+        ],
+        [
+          "Total",
+          93.2
+        ]
+      ],
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -483,6 +535,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6276
+    "filename": "6276"
   }
 }

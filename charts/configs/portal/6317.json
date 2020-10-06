@@ -102,6 +102,10 @@
         [
           2018,
           14.93
+        ],
+        [
+          2019,
+          15.06
         ]
       ],
       "name": "Mittlere Grundwassertemperatur"
@@ -328,6 +332,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6317
+    "filename": "6317"
   }
 }

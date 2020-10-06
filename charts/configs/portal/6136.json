@@ -486,7 +486,8 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
@@ -496,6 +497,6 @@
         }
   },
   "exporting": {
-    "filename": 6136
+    "filename": "6136"
   }
 }

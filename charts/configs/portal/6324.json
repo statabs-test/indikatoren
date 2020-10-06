@@ -96,7 +96,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true,
+        "enabled": false,
         "radius": 2
       },
       "color": "#8b2223",
@@ -347,7 +347,7 @@
       "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -387,6 +387,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6324
+    "filename": "6324"
   }
 }

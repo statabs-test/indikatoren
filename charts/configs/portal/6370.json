@@ -272,8 +272,7 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      },
-      "rotation": 0
+      }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -470,6 +469,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6370
+    "filename": "6370"
   }
 }

@@ -615,6 +615,14 @@
       "rotation": -45
     },
     "tickLength": 0,
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      },
     "tickInterval": 2,
     "showLastLabel": true
   },
@@ -656,6 +664,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6303
+    "filename": "6303"
   }
 }

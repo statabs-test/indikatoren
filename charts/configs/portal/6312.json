@@ -295,12 +295,16 @@
     "itemStyle": {
       "fontSize": "10px",
       "color": "#000000",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 180,
+    "width": 360
   },
   "navigation": {
     "menuItemStyle": {
@@ -336,6 +340,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 6312
+    "filename": "6312"
   }
 }

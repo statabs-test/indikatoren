@@ -29,13 +29,13 @@
 				    //check for value that contains only spaces
 						return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
 					}
-        } 
+        },
       },  
       data: {
         //only keep first and last year
         parsed: function(columns){
               columns.forEach(function(column, i, arr){
-                  column.splice(column.length-6,6);
+                  column.splice(1,7);
               });
         }
     },

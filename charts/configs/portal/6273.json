@@ -393,8 +393,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 75
+    "padding": 0
   },
   "plotOptions": {
     "series": {
@@ -407,6 +406,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6273
+    "filename": "6273"
   }
 }
