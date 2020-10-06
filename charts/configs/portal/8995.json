@@ -18849,8 +18849,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1583843587366,
-    "max": 1605011587366,
+    "min": 1583847254455,
+    "max": 1605015254455,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -19082,6 +19082,6 @@
     "enabled": true
   },
   "exporting": {
-    "filename": 8995
+    "filename": "8995"
   }
 }

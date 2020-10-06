@@ -4070,7 +4070,7 @@ console.log(pieSizeCatConfig);
         }
       }
     },
-    "filename": 8657
+    "filename": "8657"
   },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf) {
