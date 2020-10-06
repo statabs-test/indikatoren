@@ -71362,11 +71362,11 @@ var indikatoren = [
 	{
 		"title": "Illegal deponierte Abfälle",
 		"subtitle": "Absolut und pro Hektar, Basel-Stadt, August 2019 bis Juli 2020",
-		"kuerzel": "I.02.1.09126",
+		"kuerzel": "I.02.6.09126",
 		"kuerzelKunde": "4-1",
 		"description": "Illegal deponierte Abfälle",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Bevölkerungsbefragung",
+		"unterthema": "Entsorgung",
 		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -71383,7 +71383,7 @@ var indikatoren = [
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_037",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -71571,7 +71571,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:56:15.1515",
+		"aktualisierungsdatum": "2020-09-25T08:57:34.3434",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -71611,13 +71611,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-16T16:56:15.1515",
+		"aktualisierungsdatum": "2020-09-25T08:57:35.3535",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden 27 Anzeigen wegen schwerer Gewalt im öffentlichen Raum und 12 an einem öffentlicehn Ort polizeilich registriert",
+		"lesehilfe": "Im Jahr 2019 wurden 27 Anzeigen wegen schwerer Gewalt im öffentlichen Raum und 12 an einem öffentlichen Ort polizeilich registriert.",
 		"erlaeuterungen": "Polizeilich registrierte Gewaltstraftaten, basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).<br>Unter Gewaltstraftaten werden sämtliche Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung oder Androhung von Gewalt gegen Personen beinhalten. Gewaltanwendung gegen Sachen (Sachbeschädigung) wird ausgeschlossen.<br>Als schwere Gewaltstraftat gelten folgende Straftaten: vorsätzliche Tötung, Mord, Totschlag, Kindestötung, schwere Körperverletzung, Verstümmelung weiblicher Genitalien, Raub mit qualifizierter Einwirkung auf das Opfer (Art. 140 Ziff. 4), Geiselnahme, Vergewaltigung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
