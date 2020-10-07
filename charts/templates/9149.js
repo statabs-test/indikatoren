@@ -78,7 +78,10 @@
 			height: 600,
 			//"marginBottom": 60,
 			//"marginTop": 160,
-			"type": "column"
-		}
+			"type": "column",
+		},
+		data: {
+			switchRowsAndColumns: true
+		  },
 	}
 }());

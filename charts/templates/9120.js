@@ -7,15 +7,15 @@
         "type": "category",
         "labels": {
 		  align: "left",
-          x: -145,
+          x: -185,
             "formatter": undefined
         } 
       },  
       plotOptions: {
-      	column: {
-      		groupPadding: 0,
+      	//column: {
+      	//	groupPadding: 0,
     
-      	}
+      	//}
       },
       "series": [
         {"color": "#246370", "index": 6, "legendIndex": 0}, /*blau dunkel*/
@@ -28,7 +28,7 @@
         ],
 
     "chart": {      
-    	 marginLeft: 145,
+    	 marginLeft: 185,
          "inverted": true,
         "height": 550,       
 
@@ -36,6 +36,8 @@
     "legend": {
         "layout": "horizontal",
         "verticalAlign": "top",
+        width: 320,
+        itemWidth: 160,
         "itemMarginBottom": 5,     
         "align": "left",
         "useHTML": false,

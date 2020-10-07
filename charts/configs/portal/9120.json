@@ -6,27 +6,23 @@
       "legendIndex": 0,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           1092
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           938
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           887
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           459
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           846
         ],
         [
@@ -34,27 +30,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           830
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           345
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           265
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           262
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           343
         ]
       ],
@@ -67,27 +59,23 @@
       "legendIndex": 1,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           274
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           398
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           419
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           298
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           458
         ],
         [
@@ -95,27 +83,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           471
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           611
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           550
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           362
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           620
         ]
       ],
@@ -128,27 +112,23 @@
       "legendIndex": 2,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           16
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           33
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           56
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           46
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           43
         ],
         [
@@ -156,27 +136,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           66
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           281
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           363
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           137
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           260
         ]
       ],
@@ -189,27 +165,23 @@
       "legendIndex": 3,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           1
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           8
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           7
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           17
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           7
         ],
         [
@@ -217,27 +189,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           12
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           77
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           121
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           35
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           74
         ]
       ],
@@ -250,27 +218,23 @@
       "legendIndex": 4,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           3
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           2
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           2
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           12
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           6
         ],
         [
@@ -278,27 +242,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           1
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           6
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           5
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           10
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           7
         ]
       ],
@@ -311,27 +271,23 @@
       "legendIndex": 5,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           10
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           11
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           14
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           477
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           27
         ],
         [
@@ -339,27 +295,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           9
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           57
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           69
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           522
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           76
         ]
       ],
@@ -372,27 +324,23 @@
       "legendIndex": 6,
       "data": [
         [
-          "Tagsüber",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Tagsüber: Alleine zu Hause",
           14
         ],
         [
-          "Alleine im Quartier",
+          "Tagsüber: Alleine im Quartier",
           20
         ],
         [
-          "Alleine zu Fuss",
+          "Tagsüber: Alleine zu Fuss",
           25
         ],
         [
-          "Alleine mit dem Velo",
+          "Tagsüber: Alleine mit dem Velo",
           101
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Tagsüber: Alleine mit dem Bus\u002FTram",
           23
         ],
         [
@@ -400,27 +348,23 @@
           null
         ],
         [
-          "Nachts",
-          undefined
-        ],
-        [
-          "Alleine zu Hause",
+          "Nachts: Alleine zu Hause",
           21
         ],
         [
-          "Alleine im Quartier",
+          "Nachts: Alleine im Quartier",
           33
         ],
         [
-          "Alleine zu Fuss",
+          "Nachts: Alleine zu Fuss",
           37
         ],
         [
-          "Alleine mit dem Velo",
+          "Nachts: Alleine mit dem Velo",
           82
         ],
         [
-          "Alleine mit dem Bus\u002FTram",
+          "Nachts: Alleine mit dem Bus\u002FTram",
           30
         ]
       ],
@@ -449,7 +393,7 @@
       },
       "formatter": undefined,
       "align": "left",
-      "x": -145
+      "x": -185
     }
   },
   "chart": {
@@ -483,7 +427,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 145,
+    "marginLeft": 185,
     "inverted": true,
     "renderTo": "container-9120",
     "spacingBottom": 40
@@ -520,9 +464,6 @@
         }
       },
       "stacking": "percent"
-    },
-    "column": {
-      "groupPadding": 0
     }
   },
   "yAxis": {
@@ -578,7 +519,9 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/', '/<br/>');
-        }
+        },
+    "width": 320,
+    "itemWidth": 160
   },
   "exporting": {
     "filename": 9120
