@@ -8,7 +8,6 @@
     },
  	"xAxis": {
         "type": "category",
-        reversed: false, 
         rotation: -45,
         "labels": {
            align: "left",

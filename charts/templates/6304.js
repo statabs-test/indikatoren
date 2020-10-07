@@ -8,7 +8,6 @@
         },
         "xAxis": {
             "type": "category",
-            reversed: false,
             // categories: ['2019: männlich', '2019: weiblich', '2015: männlich',	'2015: weiblich',	'2011: männlich',	'2011: weiblich',	'2007: männlich',	'2007: weiblich',	'2005: männlich', '2005: weiblich'],
             "labels": {
                 align: "left",
