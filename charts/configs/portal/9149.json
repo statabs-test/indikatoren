@@ -5,19 +5,43 @@
       "legendIndex": 0,
       "data": [
         [
-          "2017",
+          "Fahrzeugführer: Administrative Bestimmungen",
           320
         ],
         [
-          "2018",
-          219
+          "Motorfahrzeugführer: Ruhender Verkehr",
+          123211
         ],
         [
-          "2019",
-          163
+          "Motorfahrzeugführer: Fahrverkehr",
+          93063
+        ],
+        [
+          "Motorfahrzeugführer: Ausrüstung",
+          104
+        ],
+        [
+          "Fahrzeughalter",
+          213
+        ],
+        [
+          "Rad-\u002FMotorfahrradfahrer: Verkehrsregeln",
+          2779
+        ],
+        [
+          "Rad-\u002FMotorfahrradfahrer: Ausrüstung, administrative Bestimmungen",
+          88
+        ],
+        [
+          "Mitfahrer",
+          288
+        ],
+        [
+          "Fussgänger",
+          43
         ]
       ],
-      "name": "Fahrzeugführer: Administrative Bestimmungen",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -25,19 +49,43 @@
       "legendIndex": 1,
       "data": [
         [
-          "2017",
-          123211
+          "Fahrzeugführer: Administrative Bestimmungen",
+          219
         ],
         [
-          "2018",
+          "Motorfahrzeugführer: Ruhender Verkehr",
           110110
         ],
         [
-          "2019",
-          114599
+          "Motorfahrzeugführer: Fahrverkehr",
+          95185
+        ],
+        [
+          "Motorfahrzeugführer: Ausrüstung",
+          114
+        ],
+        [
+          "Fahrzeughalter",
+          242
+        ],
+        [
+          "Rad-\u002FMotorfahrradfahrer: Verkehrsregeln",
+          2446
+        ],
+        [
+          "Rad-\u002FMotorfahrradfahrer: Ausrüstung, administrative Bestimmungen",
+          97
+        ],
+        [
+          "Mitfahrer",
+          214
+        ],
+        [
+          "Fussgänger",
+          35
         ]
       ],
-      "name": "Motorfahrzeugführer: Ruhender Verkehr",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
@@ -45,140 +93,68 @@
       "legendIndex": 2,
       "data": [
         [
-          "2017",
-          93063
+          "Fahrzeugführer: Administrative Bestimmungen",
+          163
         ],
         [
-          "2018",
-          95185
+          "Motorfahrzeugführer: Ruhender Verkehr",
+          114599
         ],
         [
-          "2019",
+          "Motorfahrzeugführer: Fahrverkehr",
           112536
+        ],
+        [
+          "Motorfahrzeugführer: Ausrüstung",
+          98
+        ],
+        [
+          "Fahrzeughalter",
+          249
+        ],
+        [
+          "Rad-\u002FMotorfahrradfahrer: Verkehrsregeln",
+          3366
+        ],
+        [
+          "Rad-\u002FMotorfahrradfahrer: Ausrüstung, administrative Bestimmungen",
+          54
+        ],
+        [
+          "Mitfahrer",
+          108
+        ],
+        [
+          "Fussgänger",
+          32
         ]
       ],
-      "name": "Motorfahrzeugführer: Fahrverkehr",
+      "name": "2019",
       "turboThreshold": 0
     },
     {
       "color": "#E7CEE2",
-      "legendIndex": 3,
-      "data": [
-        [
-          "2017",
-          104
-        ],
-        [
-          "2018",
-          114
-        ],
-        [
-          "2019",
-          98
-        ]
-      ],
-      "name": "Motorfahrzeugführer: Ausrüstung",
-      "turboThreshold": 0
+      "legendIndex": 3
     },
     {
       "color": "#2B0099",
-      "legendIndex": 4,
-      "data": [
-        [
-          "2017",
-          2123
-        ],
-        [
-          "2018",
-          242
-        ],
-        [
-          "2019",
-          249
-        ]
-      ],
-      "name": "Fahrzeughalter",
-      "turboThreshold": 0
+      "legendIndex": 4
     },
     {
       "color": "#FABD24",
-      "legendIndex": 5,
-      "data": [
-        [
-          "2017",
-          2779
-        ],
-        [
-          "2018",
-          2446
-        ],
-        [
-          "2019",
-          3366
-        ]
-      ],
-      "name": "Radfahrer\u002FMotorfahrradfahrer: Verkehrsregeln",
-      "turboThreshold": 0
+      "legendIndex": 5
     },
     {
       "color": "#FFDA80",
-      "legendIndex": 6,
-      "data": [
-        [
-          "2017",
-          88
-        ],
-        [
-          "2018",
-          97
-        ],
-        [
-          "2019",
-          54
-        ]
-      ],
-      "name": "Radfahrer\u002FMotorfahrradfahrer: Ausrüstung, admininistrative Bestimmungen",
-      "turboThreshold": 0
+      "legendIndex": 6
     },
     {
       "color": "#FF8028",
-      "legendIndex": 7,
-      "data": [
-        [
-          "2017",
-          288
-        ],
-        [
-          "2018",
-          214
-        ],
-        [
-          "2019",
-          108
-        ]
-      ],
-      "name": "Mitfahrer",
-      "turboThreshold": 0
+      "legendIndex": 7
     },
     {
       "color": "#007A2F",
-      "legendIndex": 8,
-      "data": [
-        [
-          "2017",
-          43
-        ],
-        [
-          "2018",
-          35
-        ],
-        [
-          "2019",
-          32
-        ]
-      ],
-      "name": "Fussgänger",
-      "turboThreshold": 0
+      "legendIndex": 8
     }
   ],
   "xAxis": {

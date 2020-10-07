@@ -70617,7 +70617,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden insgesamt 6'906 Diebstähle polizeilich gemeldet. Davon wurden 1'351 im öffentlichen Raum begangen und mit 3'375 fast die Hälfte an einem öffentlich zugänglichen Ort.",
+		"lesehilfe": "Im Jahr 2019 wurden insgesamt 6 906 Diebstähle polizeilich gemeldet. Davon wurden 1 351 im öffentlichen Raum begangen und mit 3 375 fast die Hälfte an einem öffentlich zugänglichen Ort.",
 		"erlaeuterungen": "Polizeilich registrierte Diebstähle, ohne Fahrzeuge (Art. 139), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -71400,6 +71400,46 @@
 		"id": 9126
 	},
 	{
+		"title": "Ordnungsbussen nach PLZ-Kreis",
+		"subtitle": "",
+		"kuerzel": "I.19.1.09128",
+		"kuerzelKunde": "4-3",
+		"description": "Ordnungsbussen nach PLZ-Kreis",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
+		"template": "",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_039",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9128,
+		"chart-id": 9128,
+		"filter": "",
+		"id": 9128
+	},
+	{
 		"title": "Zufriedenheit mit Verkehrssicherheit",
 		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?», Basel-Stadt",
 		"kuerzel": "I.50.1.09129",
@@ -71480,6 +71520,82 @@
 		"id": 9130
 	},
 	{
+		"title": "Ertrinkungsunfälle",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "6-1",
+		"description": "Ertrinkungsunfälle",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_032",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9131,
+		"chart-id": 9131,
+		"filter": "",
+		"id": 9131
+	},
+	{
+		"title": "Wasserrettungseinsätze",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "6-2",
+		"description": "Wasserrettungseinsätze",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_043",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9132,
+		"chart-id": 9132,
+		"filter": "",
+		"id": 9132
+	},
+	{
 		"title": "Requisitionen wegen Lärm nach Gemeinde und Wohnviertel",
 		"subtitle": "Absolut und pro 100 Einwohner, Basel-Stadt, 2019",
 		"kuerzel": "I.19.1.09134",
@@ -71518,6 +71634,42 @@
 		"chart-id": 9134,
 		"filter": "",
 		"id": 9134
+	},
+	{
+		"title": "Zufriedenheit mit Präsenz Kantonspolizei",
+		"subtitle": "",
+		"kuerzel": "I.50.1.09135",
+		"kuerzelKunde": "3-12",
+		"description": "Zufriedenheit mit Präsenz Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "2020-08-10T15:04:07.077",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9135,
+		"chart-id": 9135,
+		"filter": "",
+		"id": 9135
 	},
 	{
 		"title": "Ordnungsbussen nach Gesetz",
@@ -71657,11 +71809,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"lesehilfe": "Im Jahr 2019 wurden 27 Anzeigen wegen schwerer Gewalt im öffentlichen Raum und 12 an einem öffentlichen Ort polizeilich registriert.",
-=======
 		"lesehilfe": "Im Jahr 2019 wurden 27 Anzeigen wegen schwerer Gewalt im öffentlichen Raum und 12 an einem öffentlich zugänglichen Ort polizeilich registriert.",
->>>>>>> cb0c312f39d581e52b467cf15d297fdcd87030e4
 		"erlaeuterungen": "Polizeilich registrierte Gewaltstraftaten, basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).<br>Unter Gewaltstraftaten werden sämtliche Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung oder Androhung von Gewalt gegen Personen beinhalten. Gewaltanwendung gegen Sachen (Sachbeschädigung) wird ausgeschlossen.<br>Als schwere Gewaltstraftat gelten folgende Straftaten: vorsätzliche Tötung, Mord, Totschlag, Kindestötung, schwere Körperverletzung, Verstümmelung weiblicher Genitalien, Raub mit qualifizierter Einwirkung auf das Opfer (Art. 140 Ziff. 4), Geiselnahme, Vergewaltigung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
