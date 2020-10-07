@@ -1,208 +1,311 @@
 {
   "series": [
     {
-      "color": "#672773",
-      "legendIndex": 0,
+      "color": "#B00000",
       "data": [
         [
+          1995,
+          3965
+        ],
+        [
+          1996,
+          3933
+        ],
+        [
+          1997,
+          3905
+        ],
+        [
+          1998,
+          2906
+        ],
+        [
+          1999,
+          2919
+        ],
+        [
+          2000,
+          2340
+        ],
+        [
+          2001,
+          2221
+        ],
+        [
+          2002,
+          2026
+        ],
+        [
+          2003,
+          2010
+        ],
+        [
+          2004,
+          1812
+        ],
+        [
+          2005,
+          1864
+        ],
+        [
+          2006,
+          1836
+        ],
+        [
+          2007,
+          1746
+        ],
+        [
+          2008,
+          1464
+        ],
+        [
           2009,
-          5
+          1350
         ],
         [
           2010,
-          6
+          1153
         ],
         [
           2011,
-          7
+          948
         ],
         [
           2012,
-          7
+          898
         ],
         [
           2013,
-          5
+          1029
         ],
         [
           2014,
-          7
+          1106
         ],
         [
           2015,
-          4
+          1126
         ],
         [
           2016,
-          2
+          1140
         ],
         [
           2017,
-          4
+          null
         ],
         [
           2018,
-          3
-        ],
-        [
-          2019,
-          8
+          null
         ]
       ],
-      "name": "Öffentlicher Raum"
+      "name": "Anzahl Unfälle"
     },
     {
-      "color": "#007a2f",
-      "legendIndex": 1,
+      "color": "#B00000",
+      "linkedTo": ":previous",
       "data": [
         [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
           2009,
-          1
+          null
         ],
         [
           2010,
-          4
+          null
         ],
         [
           2011,
-          3
+          null
         ],
         [
           2012,
-          2
+          null
         ],
         [
           2013,
-          1
+          null
         ],
         [
           2014,
-          0
+          null
         ],
         [
           2015,
-          2
+          null
         ],
         [
           2016,
-          3
+          null
         ],
         [
           2017,
-          5
+          835
         ],
         [
           2018,
-          4
-        ],
-        [
-          2019,
-          1
+          777
         ]
       ],
-      "name": "Öffentlich zugängliche Orte"
+      "name": "Anzahl Unfälle"
     },
     {
-      "color": "#999999",
-      "legendIndex": 2,
+      "color": "#4f81bd",
       "data": [
         [
+          1995,
+          980
+        ],
+        [
+          1996,
+          852
+        ],
+        [
+          1997,
+          935
+        ],
+        [
+          1998,
+          862
+        ],
+        [
+          1999,
+          859
+        ],
+        [
+          2000,
+          760
+        ],
+        [
+          2001,
+          708
+        ],
+        [
+          2002,
+          659
+        ],
+        [
+          2003,
+          666
+        ],
+        [
+          2004,
+          603
+        ],
+        [
+          2005,
+          694
+        ],
+        [
+          2006,
+          659
+        ],
+        [
+          2007,
+          603
+        ],
+        [
+          2008,
+          589
+        ],
+        [
           2009,
-          9
+          567
         ],
         [
           2010,
-          5
+          462
         ],
         [
           2011,
-          9
+          391
         ],
         [
           2012,
-          15
+          307
         ],
         [
           2013,
-          10
+          399
         ],
         [
           2014,
-          5
+          437
         ],
         [
           2015,
-          7
+          473
         ],
         [
           2016,
-          2
+          490
         ],
         [
           2017,
-          10
+          446
         ],
         [
           2018,
-          3
-        ],
-        [
-          2019,
-          0
+          473
         ]
       ],
-      "name": "Nicht-öffentliche Orte"
-    },
-    {
-      "color": "#DC440E",
-      "legendIndex": 3,
-      "data": [
-        [
-          2009,
-          2
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          1
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ]
-      ],
-      "name": "Ort unbekannt\u002Fnicht zuweisbar"
+      "name": "Verunfallte Personen"
     }
   ],
   "chart": {
@@ -234,7 +337,7 @@
 					}
 				}
     },
-    "renderTo": "container-9092"
+    "renderTo": "container-9130"
   },
   "plotOptions": {
     "series": {
@@ -242,7 +345,13 @@
         "enabled": false
       }
     },
-    "line": {}
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
   },
   "title": {
     "align": "left",
@@ -251,10 +360,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angezeigte versuchte und vollendete Tötungsdelikte"
+    "text": "Strassenverkehrsunfälle und verunfallte Personen"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -276,7 +385,9 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "step": 1,
+      "rotation": -45
     },
     "tickInterval": 1
   },
@@ -297,7 +408,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 500
   },
   "legend": {
     "enabled": true,
@@ -307,9 +419,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemWidth": 212,
-    "alignColumns": false
+    }
   },
   "credits": {
     "enabled": true,
@@ -324,7 +434,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-5"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -361,9 +471,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 9092
+    "filename": 9130
   }
 }
