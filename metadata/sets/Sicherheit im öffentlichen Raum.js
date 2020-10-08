@@ -7,7 +7,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Gewaltstraftaten",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -22,7 +22,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -46,7 +46,7 @@ var indikatorensetData = [
 		"description": "Angezeigte angedrohte minderschwere Gewaltstraftaten",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -61,7 +61,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_001",
+		"orderKey": "_002",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -85,7 +85,7 @@ var indikatorensetData = [
 		"description": "Angezeigte versuchte und vollendete Tötungsdelikte",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -100,7 +100,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_004",
+		"orderKey": "_005",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -124,7 +124,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend schwerer Körperverletzung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -139,7 +139,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_005",
+		"orderKey": "_006",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -163,7 +163,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Raub",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -178,7 +178,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_006",
+		"orderKey": "_007",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -202,7 +202,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Vergewaltigung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -217,7 +217,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_007",
+		"orderKey": "_008",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -241,7 +241,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -256,7 +256,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_008",
+		"orderKey": "_009",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -280,7 +280,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Tätlichkeit",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -290,12 +290,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt wurden im Jahr 2019 insgesamt 708 Tätlichkeiten angezeigt. Davon 227 im öffentlichen Raum und 147 an einem öffentlich zugänglichen Ort.",
+		"lesehilfe": "Im Kanton Basel-Stadt wurden im Jahr 2019 insgesamt 714 Tätlichkeiten angezeigt. Davon 227 im öffentlichen Raum und 147 an einem öffentlich zugänglichen Ort.",
 		"erlaeuterungen": "Polizeilich registrierte Tätlichkeiten (Art. 126), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS). Die Tätlichkeit ist die leichteste Form des Eingriffs in die körperliche Integrität und hat keine Schädigung des Körpers oder der Gesundheit zur Folge (kein Krankheitswert).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_009",
+		"orderKey": "_010",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -319,7 +319,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Beteiligung Angriff",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -334,7 +334,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_010",
+		"orderKey": "_011",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -358,7 +358,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Beteiligung Raufhandel",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -373,7 +373,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_011",
+		"orderKey": "_012",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -397,7 +397,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Drohung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -412,7 +412,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_012",
+		"orderKey": "_013",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -436,7 +436,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Nötigung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -451,7 +451,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_013",
+		"orderKey": "_014",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Freiheitsberaubung/Entführung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -490,7 +490,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_014",
+		"orderKey": "_015",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -514,7 +514,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Erpressung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -524,12 +524,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von insgesamt 54 polizeilich registrierten Erpressungen im Jahr 2019 wurden lediglich 3 im öffentlichen Raum begangen und weitere 4 an einem öffentlich zugänglichen Ort.",
-		"erlaeuterungen": "Polizeilich registrierte Erpressungen (Art. Art. 156 Ziff. 1, 2, 4), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS)",
+		"lesehilfe": "Von insgesamt 54 polizeilich registrierten Erpressungen im Jahr 2019 wurden 3 im öffentlichen Raum begangen und weitere 4 an einem öffentlich zugänglichen Ort.",
+		"erlaeuterungen": "Polizeilich registrierte Erpressungen (Art. Art. 156 Ziff. 1, 2, 4), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_015",
+		"orderKey": "_016",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -553,7 +553,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend sexuelle Nötigung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -564,11 +564,11 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2019 gab es insgesamt 19 Anzeigen wegen sexueller Nötigung. Davon wurden 3 im öffentlichen Raum  und 6 an einem öffentlich zugänglichen Ort polizeilich registriert.",
-		"erlaeuterungen": "Polizeilich registrierte sexuelle Nötigungen (Art. 189), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS)",
+		"erlaeuterungen": "Polizeilich registrierte sexuelle Nötigungen (Art. 189), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_016",
+		"orderKey": "_017",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -592,7 +592,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Gewalt und Drohung gegen Beamte",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -602,12 +602,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 gab es insgesamt 273 Anzeigen wegen Gewalt oder Drohungen gegen Beamte. Die Mehrheit davon (132) wurde im öffentlichen Raum begangen.",
+		"lesehilfe": "Im Jahr 2019 gab es insgesamt 273 Anzeigen wegen Gewalt oder Drohungen gegen Beamte. Die meisten Delikte davon (132) wurden im öffentlichen Raum begangen.",
 		"erlaeuterungen": "Polizeilich registrierte Gewalt und Drohungen gegen Beamte (Art. 285), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_017",
+		"orderKey": "_018",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -631,7 +631,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend sexuelle Belästigung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -646,7 +646,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_018",
+		"orderKey": "_019",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -670,7 +670,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -685,7 +685,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_019",
+		"orderKey": "_020",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -709,7 +709,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Entreiss- und Taschendiebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -724,7 +724,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_020",
+		"orderKey": "_021",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -748,7 +748,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Fahrzeugdiebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -763,7 +763,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_021",
+		"orderKey": "_022",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -787,7 +787,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Velodiebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -797,12 +797,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 gab es 1 537 Anzeigen wegen Velodiebstahls im öffentlichen Raum und 365 wegen Velodiebstahs an öffentlich zugänglichen Orten.",
+		"lesehilfe": "Im Jahr 2019 gab es 1 537 Anzeigen wegen Velodiebstahls im öffentlichen Raum und 365 wegen Velodiebstahls an öffentlich zugänglichen Orten.",
 		"erlaeuterungen": "Polizeilich registrierte Velodiebstähle, basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_022",
+		"orderKey": "_023",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -826,7 +826,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Diebstahl aus Fahrzeug und Fahrzeugeinbruchdiebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -841,7 +841,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_023",
+		"orderKey": "_024",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -865,7 +865,7 @@ var indikatorensetData = [
 		"description": "Angezeigte Straftaten betreffend Sachbeschädigung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -876,11 +876,11 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt gab im Jahr 2019 im Kanton Basel-Stadt 2 730 Anzeigen wegen Sachbeschädigung. Davon wurden 513 im öffentliche Raum und 601 an einem öffentlich zugänglichen Ort begangen.",
-		"erlaeuterungen": "Polizeilich registrierte Sachbeschädigungen (Art. 144), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).<br>Die Sachbeschädigung kann in verschiedenen Kontexten vorkommen. Besonders häufig ist die Kombination mit Diebstahl, wenn z.B. bei einem Einbruchdiebstahl durch das gewaltsame Vorgehen ein Sachschaden entsteht. Daneben kann Sachbeschädigung aber auch bei gewalttätigen Auseinandersetzungen etc. vorkommen. Unter Vandalismus werden die Formen der mutwilligen Sachbeschädigungen verstanden, bei denen es um reine Zerstörungslust ohne weiteren Zweck geht, dies unabhängig von der entstandenen Schadenssumme",
+		"erlaeuterungen": "Polizeilich registrierte Sachbeschädigungen (Art. 144), basierend auf den Daten der polizeilichen Kriminalstatistik (PKS).<br>Die Sachbeschädigung kann in verschiedenen Kontexten vorkommen. Besonders häufig ist die Kombination mit Diebstahl, wenn z. B. bei einem Einbruchdiebstahl durch das gewaltsame Vorgehen ein Sachschaden entsteht. Daneben kann Sachbeschädigung aber auch bei gewalttätigen Auseinandersetzungen etc. vorkommen. Unter Vandalismus werden die Formen der mutwilligen Sachbeschädigungen verstanden, bei denen es um reine Zerstörungslust ohne weiteren Zweck geht, dies unabhängig von der entstandenen Schadenssumme.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_024",
+		"orderKey": "_025",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -904,7 +904,7 @@ var indikatorensetData = [
 		"description": "Requisitionen nach Gemeinde und Wohnviertel",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -919,7 +919,7 @@ var indikatorensetData = [
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "_023",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -936,14 +936,14 @@ var indikatorensetData = [
 		"id": 9113
 	},
 	{
-		"title": "Requisitionen nach ausgewählten Kategorien",
+		"title": "Requisitionen nach Kategorie",
 		"subtitle": "",
 		"kuerzel": "I.19.1.09114",
 		"kuerzelKunde": "3-2",
-		"description": "Requisitionen nach ausgewählten Kategorien",
+		"description": "Requisitionen nach Kategorie",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -958,7 +958,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_024",
+		"orderKey": "_002",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -982,7 +982,7 @@ var indikatorensetData = [
 		"description": "Sicherheitsgefühl im Alltag",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -992,12 +992,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen. Der Anteil Befragter, die sich sehr sicher fühlen steigt mit der Höhe des Haushaltseinkommens und liegt bei den Jüngeren höher. Zwischen den Geschlechtern gibt es nur einen geringfügigen Unterschied.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben 2019 an, sich eher oder ganz unsicher zu fühlen. Der Anteil Befragter, die sich sehr sicher fühlen steigt mit der Höhe des Haushaltseinkommens und liegt bei den Jüngeren höher. Zwischen den Geschlechtern gibt es nur einen geringfügigen Unterschied.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_025",
+		"orderKey": "_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1021,7 +1021,7 @@ var indikatorensetData = [
 		"description": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1036,7 +1036,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_026",
+		"orderKey": "_005",
 		"parentId": 9032,
 		"children": [],
 		"renderLink": [],
@@ -1060,7 +1060,7 @@ var indikatorensetData = [
 		"description": "Sicherheitsgefühl nachts im Quartier",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1075,7 +1075,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_027",
+		"orderKey": "_006",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1099,7 +1099,7 @@ var indikatorensetData = [
 		"description": "Sicherheitsgefühl Jugendliche",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1110,11 +1110,11 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "53,1% der 1 146 im Jahr 2017 befragten Jugendlichen erachten die Aussage «Wenn ich abends unterwegs bin, fühle ich mich sicher.» als zutreffend (2013: 48,5%). Insgesamt 26,3% erachten sie als nicht zutreffend.",
-		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
+		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 bis 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_028",
+		"orderKey": "_007",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1138,7 +1138,7 @@ var indikatorensetData = [
 		"description": "Sicherheitsgefühl Jugendliche",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1153,7 +1153,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_029",
+		"orderKey": "_008",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1177,7 +1177,7 @@ var indikatorensetData = [
 		"description": "Sicherheitsgefühl Ältere",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1192,7 +1192,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_030",
+		"orderKey": "_009",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1216,7 +1216,7 @@ var indikatorensetData = [
 		"description": "Sicherheitsgefühl Ältere",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_031",
+		"orderKey": "_010",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1255,22 +1255,22 @@ var indikatorensetData = [
 		"description": "Bedrohungen und Angriffe",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:35.3535",
+		"aktualisierungsdatum": "2020-09-25T16:19:16.1616",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 geben 5,4% der Befragten an, im Verlaufe des vergangenen Jahres bedroht oder angegriffen worden zu sein. 2015 waren es deren 6,2%.",
+		"lesehilfe": "2019 geben 113 der Befragten (5,4%) an, im Verlaufe des vergangenen Jahres bedroht oder angegriffen worden zu sein. 2015 waren es deren 94 (6,2%).",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_032",
+		"orderKey": "_011",
 		"parentId": 4853,
 		"children": [],
 		"renderLink": [],
@@ -1294,7 +1294,7 @@ var indikatorensetData = [
 		"description": "Zufriedenheit mit Präsenz Kantonspolizei",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1304,12 +1304,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Präsenz der Kantonspolizei wird besonders tagsüber (71%), in der Innerstadt (63%) und  im Strassenverkehr (59%) als ausreichend wahrgenommen. 39% der Befragten geben an, dass die Kantonspolizei nachts zu wenig Präsenz zeigt. Letzteres ist gemäss 34% bzw. 33% der Befragten in den Parks bzw. im Quartier der Fall.",
+		"lesehilfe": "Die Präsenz der Kantonspolizei wird besonders tagsüber (71%), in der Innerstadt (63%) und  im Strassenverkehr (59%) als ausreichend wahrgenommen. Über ein Drittel der Befragten geben jeweils an, dass die Kantonspolizei nachts, in den Parks bzw. im Quartier zu wenig Präsenz zeigt.",
 		"erlaeuterungen": "Kundenbefragung Kantonspolizei Basel-Stadt 2018. Mit diesem Instrument der Qualitätssicherung erfragt die Kantonspolizei Basel-Stadt im 3-Jahres-Rhythmus, wie zufrieden die baselstädtische Bevölkerung mit den Dienstleistungen ist und wo Verbesserungsbedarf besteht.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_033",
+		"orderKey": "_012",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1329,11 +1329,11 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Sauberkeit Strassen/Plätze",
 		"subtitle": "«Wie zufrieden sind Sie mit der Sauberkeit auf den Strassen und den Plätzen im Kanton?», Basel-Stadt",
 		"kuerzel": "I.50.1.09124",
-		"kuerzelKunde": "3-13",
+		"kuerzelKunde": "3-14",
 		"description": "Zufriedenheit mit Sauberkeit Strassen/Plätze",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1348,7 +1348,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_034",
+		"orderKey": "_014",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1368,11 +1368,11 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit Sicherheit im Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im Wohnumfeld am aktuellen Wohnort?», Basel-Stadt",
 		"kuerzel": "I.50.1.09125",
-		"kuerzelKunde": "3-14",
+		"kuerzelKunde": "3-16",
 		"description": "Zufriedenheit mit Sicherheit im Wohnumfeld",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1387,7 +1387,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_035",
+		"orderKey": "_016",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1411,7 +1411,7 @@ var indikatorensetData = [
 		"description": "Illegal deponierte Abfälle",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1444,13 +1444,13 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ordnungsbussen nach PLZ-Kreis",
-		"subtitle": "",
+		"subtitle": "Absolut und pro ha, Basel-Stadt, 2019",
 		"kuerzel": "I.19.1.09128",
 		"kuerzelKunde": "4-3",
 		"description": "Ordnungsbussen nach PLZ-Kreis",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1460,12 +1460,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
-		"template": "",
-		"darstellungsart": "Grafik",
+		"lesehilfe": "Im Jahr 2019 wurden im Postleitzahlkreis 4051 pro Hektare die meisten Ordnungsbussen  bezahlt (202,3). Ebenfalls vergleichsweise viele bezahlte Ordnungsbussen wurden in den Postleitzahlkreisen 4058 (119,3) und 4057 (114,9) registriert.Am wenigsten bezahlte Ordnungsbussen pro Hektare gab es ind en Postleitzahlkreisen 4059 (11,6) und 4126 (0,3).",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt. Ordnungbussen, die keinem PLZ-Kreis zugeordnet werden können, werden für diesen Indikator nicht berücksichtigt.",
+		"template": "map_gemeinden",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "_039",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1489,7 +1489,7 @@ var indikatorensetData = [
 		"description": "Zufriedenheit mit Verkehrssicherheit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1504,7 +1504,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_040",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1528,7 +1528,7 @@ var indikatorensetData = [
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
 		"thema": "11 Verkehr",
 		"unterthema": "Strassenverkehrsunfälle",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1567,7 +1567,7 @@ var indikatorensetData = [
 		"description": "Ertrinkungsunfälle",
 		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1582,7 +1582,7 @@ var indikatorensetData = [
 		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_032",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1604,7 +1604,7 @@ var indikatorensetData = [
 		"description": "Wasserrettungseinsätze",
 		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1619,7 +1619,7 @@ var indikatorensetData = [
 		"template": "",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_043",
+		"orderKey": "_002",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1641,7 +1641,7 @@ var indikatorensetData = [
 		"description": "Requisitionen wegen Lärm nach Gemeinde und Wohnviertel",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1656,12 +1656,12 @@ var indikatorensetData = [
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "_036",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+			"Kantonspolizei Basel-Stadt"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1680,7 +1680,7 @@ var indikatorensetData = [
 		"description": "Ordnungsbussen nach Gesetz",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1695,7 +1695,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1719,7 +1719,7 @@ var indikatorensetData = [
 		"description": "Ordnungsbussen nach dem Strassenverkehrsgesetz (SVG) nach Übertretung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1734,7 +1734,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "_005",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1758,7 +1758,7 @@ var indikatorensetData = [
 		"description": "Angezeigte angewandte und eventuell angedrohte minderschwere Gewaltstraftaten",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1773,7 +1773,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_002",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1797,7 +1797,7 @@ var indikatorensetData = [
 		"description": "Angezeigte angewandte schwere Gewaltstraftaten",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1812,7 +1812,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_003",
+		"orderKey": "_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1836,7 +1836,7 @@ var indikatorensetData = [
 		"description": "Zufriedenheit mit Präsenz Kantonspolizei im 3-Jahresvergleich",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Sicherheit im oeffentlichen Raum",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1867,5 +1867,79 @@ var indikatorensetData = [
 		"chart-id": 9152,
 		"filter": "",
 		"id": 9152
+	},
+	{
+		"title": "Zufriedenheit mit Sauberkeit Strassen/Plätze",
+		"subtitle": "«Wie zufrieden sind Sie mit der Sauberkeit auf den Strassen und den Plätzen im Kanton?», Städtevergleich,",
+		"kuerzel": "I.50.1.09154",
+		"kuerzelKunde": "3-15",
+		"description": "Zufriedenheit mit Sauberkeit Strassen/Plätze",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-25T12:52:44.4444",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_015",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9154,
+		"chart-id": 9154,
+		"filter": "",
+		"id": 9154
+	},
+	{
+		"title": "Zufriedenheit mit Verkehrssicherheit",
+		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?», Städtevergleich",
+		"kuerzel": "I.50.1.09155",
+		"kuerzelKunde": "5-2",
+		"description": "Zufriedenheit mit Verkehrssicherheit",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Sicherheit im öffentlichen Raum",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-25T12:52:44.4444",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9155,
+		"chart-id": 9155,
+		"filter": "",
+		"id": 9155
 	}
 ];
