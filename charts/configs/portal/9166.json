@@ -5,22 +5,22 @@
       "data": [
         [
           "Basel",
-          24.3
+          2.7
         ],
         [
           "Bern",
-          35.3
+          null
         ],
         [
           "Luzern",
-          31.9
+          null
         ],
         [
           "Zürich",
-          44.2
+          5
         ]
       ],
-      "name": "Sehr sicher",
+      "name": "Sehr gut",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "Basel",
-          43.1
+          48.5
         ],
         [
           "Bern",
-          47.3
+          null
         ],
         [
           "Luzern",
-          49.9
+          null
         ],
         [
           "Zürich",
-          43.4
+          49.8
         ]
       ],
-      "name": "Eher sicher",
+      "name": "Eher gut",
       "turboThreshold": 0
     },
     {
@@ -51,22 +51,22 @@
       "data": [
         [
           "Basel",
-          20.7
+          19.2
         ],
         [
           "Bern",
-          8.4
+          null
         ],
         [
           "Luzern",
-          15.3
+          null
         ],
         [
           "Zürich",
-          6.8
+          13.8
         ]
       ],
-      "name": "Eher unsicher",
+      "name": "Eher nicht gut",
       "turboThreshold": 0
     },
     {
@@ -74,11 +74,11 @@
       "data": [
         [
           "Basel",
-          8
+          6
         ],
         [
           "Bern",
-          2.5
+          null
         ],
         [
           "Luzern",
@@ -86,10 +86,10 @@
         ],
         [
           "Zürich",
-          1.4
+          3.7
         ]
       ],
-      "name": "Sehr unsicher",
+      "name": "Überhaupt nicht gut",
       "turboThreshold": 0
     },
     {
@@ -97,11 +97,11 @@
       "data": [
         [
           "Basel",
-          null
+          21.4
         ],
         [
           "Bern",
-          3.5
+          null
         ],
         [
           "Luzern",
@@ -109,10 +109,10 @@
         ],
         [
           "Zürich",
-          2
+          27.2
         ]
       ],
-      "name": "Nachts nicht unterwegs (aus Sicherheitsgründen)",
+      "name": "Weiss nicht",
       "turboThreshold": 0
     }
   ],
@@ -165,7 +165,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-9165"
+    "renderTo": "container-9166"
   },
   "title": {
     "style": {
@@ -174,7 +174,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsgefühl nachts im Quartier"
+    "text": "Vertretung durch Behörden"
   },
   "subtitle": {
     "style": {
@@ -182,7 +182,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier, wie sicher fühlen Sie sich dann?» 2019"
+    "text": "«Wie gut fühlen Sie sich von den Behörden vertreten?» 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -258,6 +258,6 @@
         }
   },
   "exporting": {
-    "filename": "9165"
+    "filename": "9166"
   }
 }

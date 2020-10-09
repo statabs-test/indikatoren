@@ -72229,7 +72229,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Kindebetreuungsangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit den Kindebetreuungsangeboten?» 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den Kindebetreuungsangeboten?» Anteil Zufriedene, 2019",
 		"kuerzel": "I.50.1.09158",
 		"kuerzelKunde": "",
 		"description": "Zufriedenheit mit dem Kindebetreuungsangebot",
@@ -72309,7 +72309,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot",
-		"subtitle": "Wie zufrieden sind Sie mit dem Kulturangebot? Anteil Zufriedener, 2019",
+		"subtitle": "Wie zufrieden sind Sie mit dem Kulturangebot? Anteil Zufriedene, 2019",
 		"kuerzel": "I.50.1.09160",
 		"kuerzelKunde": "",
 		"description": "Zufriedenheit mit dem Kulturangebot",
@@ -72567,7 +72567,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -72586,6 +72586,46 @@ var indikatoren = [
 		"chart-id": 9166,
 		"filter": "",
 		"id": 9166
+	},
+	{
+		"title": "Beurteilung der finanziellen Situation",
+		"subtitle": "«Was glauben Sie, wie wird die wirtschaftliche Lage von ... in ein bis zwei Jahren sein?» 2019",
+		"kuerzel": "I.50.1.09167",
+		"kuerzelKunde": "",
+		"description": "Beurteilung der finanziellen Situation",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Städtevergleich",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-10-09T12:05:18.1818",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9167,
+		"chart-id": 9167,
+		"filter": "",
+		"id": 9167
 	},
 	{
 		"title": "Test Daten",

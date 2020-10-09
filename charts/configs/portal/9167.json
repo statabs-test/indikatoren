@@ -5,22 +5,22 @@
       "data": [
         [
           "Basel",
-          24.3
+          11.9
         ],
         [
           "Bern",
-          35.3
+          null
         ],
         [
           "Luzern",
-          31.9
+          null
         ],
         [
           "Zürich",
-          44.2
+          14.7
         ]
       ],
-      "name": "Sehr sicher",
+      "name": "Besser als heute",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "Basel",
-          43.1
+          59.6
         ],
         [
           "Bern",
-          47.3
+          null
         ],
         [
           "Luzern",
-          49.9
+          null
         ],
         [
           "Zürich",
-          43.4
+          59.8
         ]
       ],
-      "name": "Eher sicher",
+      "name": "Bleibt gleich",
       "turboThreshold": 0
     },
     {
@@ -51,22 +51,22 @@
       "data": [
         [
           "Basel",
-          20.7
+          12.8
         ],
         [
           "Bern",
-          8.4
+          null
         ],
         [
           "Luzern",
-          15.3
+          null
         ],
         [
           "Zürich",
-          6.8
+          16.2
         ]
       ],
-      "name": "Eher unsicher",
+      "name": "Schlechter als heute",
       "turboThreshold": 0
     },
     {
@@ -74,11 +74,11 @@
       "data": [
         [
           "Basel",
-          8
+          12
         ],
         [
           "Bern",
-          2.5
+          null
         ],
         [
           "Luzern",
@@ -86,10 +86,10 @@
         ],
         [
           "Zürich",
-          1.4
+          8.9
         ]
       ],
-      "name": "Sehr unsicher",
+      "name": "Weiss nicht",
       "turboThreshold": 0
     },
     {
@@ -97,11 +97,11 @@
       "data": [
         [
           "Basel",
-          null
+          3.7
         ],
         [
           "Bern",
-          3.5
+          null
         ],
         [
           "Luzern",
@@ -109,10 +109,10 @@
         ],
         [
           "Zürich",
-          2
+          0.5
         ]
       ],
-      "name": "Nachts nicht unterwegs (aus Sicherheitsgründen)",
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -165,7 +165,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-9165"
+    "renderTo": "container-9167"
   },
   "title": {
     "style": {
@@ -174,7 +174,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsgefühl nachts im Quartier"
+    "text": "Beurteilung der finanziellen Situation"
   },
   "subtitle": {
     "style": {
@@ -182,7 +182,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier, wie sicher fühlen Sie sich dann?» 2019"
+    "text": "«Was glauben Sie, wie wird die wirtschaftliche Lage von ... in ein bis zwei Jahren sein?» 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-9"
   },
   "legend": {
     "reversed": false,
@@ -258,6 +258,6 @@
         }
   },
   "exporting": {
-    "filename": "9165"
+    "filename": "9167"
   }
 }

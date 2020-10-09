@@ -1850,6 +1850,7 @@ id | visible | visibleInPortal | indikatorenset
 9164 | true | true | Städtevergleich
 9165 | true | true | Städtevergleich
 9166 | true | true | Städtevergleich
+9167 | true | true | Städtevergleich
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

@@ -16,15 +16,11 @@
         reversed: false,
         "layout": "horizontal",
         "verticalAlign": "top",
-        itemWidth: 150,
-        width: 420,
-        itemStyle: {
-          textOverflow: "none",
-          whiteSpace: "nowrap"
-        },
         "itemMarginBottom": 4,
         "align": "left",
-        
+        labelFormatter: function(){
+            return this.name.replace("/", " /<br/>");
+        }
     }
 	};
 }());
