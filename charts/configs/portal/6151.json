@@ -807,7 +807,8 @@
                 },
       "align": "left",
       "x": -125
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "events": {
@@ -951,6 +952,6 @@
         }
   },
   "exporting": {
-    "filename": 6151
+    "filename": "6151"
   }
 }
