@@ -6,6 +6,7 @@
       { "color": "#73B97C"}, // grün
       { "color": "#FFDA80"}, // gelb
       { "color": "#B00000"}, // rot
+      { "color": "#C8C8C8"}, // grau
       { "color": "#6F6F6F"}, // grau
     ],
       yAxis: {
