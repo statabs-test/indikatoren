@@ -28,7 +28,7 @@
     series: [
       {
 
-        "color": '#2B0099'
+        "color": '#A0BEC8'
       },
       {
 
@@ -36,8 +36,8 @@
       },
       {
 
-        "color": '#A0BEC8'
-      }
+        "color": '#2B0099'
+      },
     ],
 
     /*"series": [
