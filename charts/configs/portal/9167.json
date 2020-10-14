@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#246370",
       "data": [
         [
           "Basel",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#A8C3CA",
       "data": [
         [
           "Basel",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#FFBB58",
       "data": [
         [
           "Basel",
@@ -70,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#C8C8C8",
       "data": [
         [
           "Basel",
@@ -182,7 +182,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Was glauben Sie, wie wird die wirtschaftliche Lage von ... in ein bis zwei Jahren sein?» 2019"
+    "text": "«Wie denken Sie, wird Ihre wirtschaftliche Situation in einem Jahr sein?», 2019"
   },
   "navigation": {
     "menuItemStyle": {

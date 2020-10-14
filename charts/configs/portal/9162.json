@@ -98,7 +98,7 @@
     "text": "Zufriedenheit mit dem öffentlichen Verkehr"
   },
   "subtitle": {
-    "text": "«Wie zufrieden sind Sie mit den öffentlichen Verkehrsmitteln?» Anteil Zufiriedener, 2019",
+    "text": "«Wie zufrieden sind Sie mit den öffentlichen Verkehrsmitteln?», Anteil Zufiriedene, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -123,7 +123,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickInterval": 20
+    "tickInterval": 20,
+    "max": 100
   },
   "legend": {
     "symbolRadius": 0,

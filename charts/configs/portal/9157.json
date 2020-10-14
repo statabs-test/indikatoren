@@ -12,7 +12,7 @@
           72.24
         ],
         [
-          "Luzern",
+          "Luzern*",
           64.1813
         ],
         [
@@ -35,7 +35,7 @@
           24.7
         ],
         [
-          "Luzern",
+          "Luzern*",
           30.7713
         ],
         [
@@ -58,7 +58,7 @@
           2.68
         ],
         [
-          "Luzern",
+          "Luzern*",
           5.0473
         ],
         [
@@ -81,7 +81,7 @@
           0.17
         ],
         [
-          "Luzern",
+          "Luzern*",
           null
         ],
         [
@@ -89,7 +89,7 @@
           0.345
         ]
       ],
-      "name": "Weiss nicht",
+      "name": "Sehr ungern",
       "turboThreshold": 0
     },
     {
@@ -104,7 +104,7 @@
           0.21
         ],
         [
-          "Luzern",
+          "Luzern*",
           null
         ],
         [
@@ -112,7 +112,7 @@
           0.267
         ]
       ],
-      "name": "Keine Angabe",
+      "name": "Weiss nicht\u002FKeine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -250,12 +250,15 @@
     "itemStyle": {
       "fontWeight": "normal",
       "width": 115,
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
-        }
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "itemWidth": 150,
+    "width": 420
   },
   "exporting": {
     "filename": "9157"

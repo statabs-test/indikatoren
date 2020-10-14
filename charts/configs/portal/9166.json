@@ -93,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
+      "color": "#C8C8C8",
       "data": [
         [
           "Basel",
@@ -113,6 +113,29 @@
         ]
       ],
       "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "Basel",
+          2.4
+        ],
+        [
+          "Bern",
+          null
+        ],
+        [
+          "Luzern",
+          null
+        ],
+        [
+          "Zürich",
+          0.6
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
