@@ -6,9 +6,9 @@
  	"xAxis": {
         "type": "category",
         "labels": {
-		  align: "left",
-          x: -130,
-          "formatter": function() {
+		  /*align: "left",
+          x: -130,*/
+          "formatter": undefined/*function() {
             //add sum of observations of visible series to the axis label
             var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
                 return val.visible;
@@ -21,7 +21,7 @@
             var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
             //check for value that contains only spaces
             return (this.value.replace(/\s/g," ") == " ") ? this.value : this.value + ' (' + nString + sum + ')';
-        }
+        }*/
         } 
       },  
       plotOptions: {
@@ -39,7 +39,7 @@
         ],
 
     "chart": {      
-    	 marginLeft: 145,
+    	 /*marginLeft: 145,*/
          "inverted": true,
         "height": 550,       
 
