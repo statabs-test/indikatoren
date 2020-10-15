@@ -115,6 +115,10 @@
         [
           2018,
           12
+        ],
+        [
+          2019,
+          16
         ]
       ],
       "name": "Anzahl Störfälle und Ereignisse"
@@ -316,6 +320,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8905
+    "filename": "8905"
   }
 }

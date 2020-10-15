@@ -139,6 +139,14 @@
         [
           "2017",
           398
+        ],
+        [
+          "2018",
+          undefined
+        ],
+        [
+          "2019",
+          426
         ]
       ],
       "name": "Fällungen",
@@ -283,6 +291,14 @@
         [
           "2017",
           392
+        ],
+        [
+          "2018",
+          undefined
+        ],
+        [
+          "2019",
+          442
         ]
       ],
       "name": "Pflanzungen",
@@ -432,9 +448,17 @@
         [
           "2017",
           2294
+        ],
+        [
+          "2018",
+          undefined
+        ],
+        [
+          "2019",
+          undefined
         ]
       ],
-      "name": "Kumulierter Saldo",
+      "name": "Kumulierter Saldo (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -597,7 +621,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "",
+    "text": "Stadt Basel",
     "align": "left"
   },
   "yAxis": [
@@ -667,7 +691,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
   },
   "dataLabels": {
     "enabled": false,
@@ -681,6 +705,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8948
+    "filename": "8948"
   }
 }

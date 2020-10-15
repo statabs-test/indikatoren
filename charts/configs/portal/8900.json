@@ -34,6 +34,10 @@
         [
           2018,
           2.3
+        ],
+        [
+          2019,
+          2.3
         ]
       ],
       "name": "Familienmietzinsbeiträge"
@@ -73,6 +77,10 @@
         [
           2018,
           15
+        ],
+        [
+          2019,
+          16.4
         ]
       ],
       "name": "Prämienverbilligung"
@@ -278,6 +286,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8900
+    "filename": "8900"
   }
 }

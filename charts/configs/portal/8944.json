@@ -59,6 +59,10 @@
         [
           2018,
           4087
+        ],
+        [
+          2019,
+          4269
         ]
       ],
       "name": "Tagesbetreuung"
@@ -122,6 +126,10 @@
         [
           2018,
           416
+        ],
+        [
+          2019,
+          512
         ]
       ],
       "name": "Frühhorte Tagesstrukturen"
@@ -185,6 +193,10 @@
         [
           2018,
           2911
+        ],
+        [
+          2019,
+          3183
         ]
       ],
       "name": "Mittagsmodule Tagesstrukturen"
@@ -248,6 +260,10 @@
         [
           2018,
           2551
+        ],
+        [
+          2019,
+          2815
         ]
       ],
       "name": "Nachmittagsmodule Tagesstrukturen"
@@ -311,6 +327,10 @@
         [
           2018,
           211
+        ],
+        [
+          2019,
+          222
         ]
       ],
       "name": "Tagesferien"
@@ -514,6 +534,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8944
+    "filename": "8944"
   }
 }

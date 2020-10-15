@@ -54,6 +54,10 @@
         [
           2018,
           50986
+        ],
+        [
+          2019,
+          53088
         ]
       ],
       "name": "Anzahl Beziehende von Prämienverbilligung"
@@ -251,6 +255,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8879
+    "filename": "8879"
   }
 }
