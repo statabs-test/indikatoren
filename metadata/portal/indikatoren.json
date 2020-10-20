@@ -39277,13 +39277,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-05T15:22:22.2222",
+		"aktualisierungsdatum": "2020-08-05T15:22:22.222",
 		"stufe1": "Ordnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden im Postleitzahlkreis 4051 pro Hektare die meisten Ordnungsbussen  bezahlt (202,3). Ebenfalls vergleichsweise viele bezahlte Ordnungsbussen wurden in den Postleitzahlkreisen 4058 (119,3) und 4057 (114,9) registriert.Am wenigsten bezahlte Ordnungsbussen pro Hektare gab es ind en Postleitzahlkreisen 4059 (11,6) und 4126 (0,3).",
+		"lesehilfe": "Im Jahr 2019 wurden im Postleitzahlkreis 4051 pro Hektare die meisten Ordnungsbussen bezahlt (202,3). Ebenfalls vergleichsweise viele bezahlte Ordnungsbussen wurden in den Postleitzahlkreisen 4058 (119,3) und 4057 (114,9) registriert. Am wenigsten bezahlte Ordnungsbussen pro Hektare gab es in den Postleitzahlkreisen 4059 (11,6) und 4126 (0,3).",
 		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt. Ordnungbussen, die keinem PLZ-Kreis zugeordnet werden können, werden für diesen Indikator nicht berücksichtigt.",
 		"template": "mappiePLZ",
 		"darstellungsart": "Karte kontinuierlich",
