@@ -542,7 +542,10 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": undefined
+      "formatter": undefined,
+      "align": "left",
+      "reserveSpace": true,
+      "x": -4
     }
   },
   "chart": {
@@ -564,7 +567,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 513,
     "spacing": [
       10,
       10,
