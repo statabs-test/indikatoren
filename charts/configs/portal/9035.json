@@ -225,6 +225,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
+      "tickInterval": 200000,
       "format": "{value:,.0f}"
     }
   },

@@ -1620,7 +1620,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ordnungsbussen",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.19.1.09030",
 		"kuerzelKunde": "3.2.05",
 		"description": "Ordnungsbussen",
@@ -1631,17 +1631,17 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-06-18T10:36:10.1010",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2000 bis 2019 schwankte die Zahl der Ordnungsbussen zwischen 190355 (2000) und 535349 (2006).",
-		"erlaeuterungen": "Im Ordnungsbussen-Verfahren geahndete Übertretungen des Strassenverkehrsgesetzes. Infolge der Installation mehrerer neuer Radarstationen werden seit 2004 höhere Werte verzeichnet.",
+		"lesehilfe": "Im Jahr 2019 wurden im Kanton Basel-Stadt insgesamt 233 598 Ordnungsbussen bezahlt. Dies sind 11/% mehr als ein Jahr zuvor.",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "03_02_00_00_00_025",
 		"parentId": null,
 		"children": [
 			"9035"
