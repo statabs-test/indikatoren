@@ -755,11 +755,11 @@ var indikatorensetData = [
 	{
 		"title": "Anteil der in der Schweiz geborenen Ausländer",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.01.3.6075",
+		"kuerzel": "I.01.1.06075",
 		"kuerzelKunde": "A4-1",
 		"description": "Anteil der in der Schweiz geborenen Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -770,12 +770,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 wiesen Italien (27,3%), die Türkei (26,5%) und der Balkan (25,9%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 1999 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2018 Personen aus den EU-Ost-Ländern (7,8%) sowie aus Mittel- und Südamerika (6,3%) auf.",
+		"lesehilfe": "Ende 2019 wiesen Italien (26,6%), der Balkan (25,5) und die Türkei (25,2%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 2000 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2019 Personen aus den EU-Ost-Ländern (8,4%) sowie aus Mittel- und Südamerika (6,5%) auf.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_024",
+		"orderKey": "01_00_00_00_00_401",
 		"parentId": null,
 		"children": [
 			"6660"
@@ -1191,7 +1191,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_006",
+		"orderKey": "02_00_00_00_00_302",
 		"parentId": null,
 		"children": [
 			"6670"
@@ -2190,16 +2190,15 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote ist zwischen 2009 und 2018 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
+		"lesehilfe": "Die Quote ist zwischen 2010 und 2019 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
 		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_013",
+		"orderKey": "03_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"6694",
-			"7835"
+			"6694"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2406,11 +2405,10 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_018",
+		"orderKey": "03_00_00_00_00_306",
 		"parentId": null,
 		"children": [
-			"6699",
-			"7840"
+			"6699"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2428,7 +2426,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Angestellte in der Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2018",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2019",
 		"kuerzel": "I.18.3.6425",
 		"kuerzelKunde": "C3-7",
 		"description": "Angestellte in der Verwaltung Basel-Stadt",
@@ -2444,16 +2442,15 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2018 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2019 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 170 Personen (ein Plus von knapp 7% gegenüber 2018) die mit Abstand grösste Gruppe.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_019",
+		"orderKey": "03_00_00_00_00_307",
 		"parentId": null,
 		"children": [
-			"6700",
-			"7841"
+			"6700"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3827,7 +3824,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2009 Schweizer (25,1%) und Deutsche (15,9%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (27,5%) sowie bei den Mittel- und Südamerikanern (26,2%). 99,8% der Türken, 98,7% der Personen aus arabischen Ländern und 93,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zueghörigkeit oder diese ist nicht bekannt.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2009 Schweizer (25,1%) und Deutsche (15,9%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (27,5%) sowie bei den Mittel- und Südamerikanern (26,2%). 99,8% der Türken, 98,7% der Personen aus arabischen Ländern und 93,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -3852,7 +3849,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.7.6494",
 		"kuerzelKunde": "D7-2",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -3868,16 +3865,15 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen «EU-17&nbsp;+&nbsp;EFTA», EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken sowie bei Personen aus dem Balkan und arabischen Ländern bei über 75%. Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (19,1%) und Deutsche (11,6%) auf, während die höchsten Anteile an Katholiken bei Italienern (18,1%) und Personen aus Mittel- und Südamerika (16,1%) zu finden sind.  99,8% der Türken, 99,1% der Personen aus arabischen Ländern und 94,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_021",
+		"orderKey": "04_00_00_00_00_702",
 		"parentId": null,
 		"children": [
-			"6734",
-			"7875"
+			"6734"
 		],
 		"renderLink": [],
 		"quellenangabe": [

@@ -4019,7 +4019,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
-		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt, 2019",
+		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt",
 		"kuerzel": "I.50.1.4720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
@@ -4029,13 +4029,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T11:43:28.2828",
+		"aktualisierungsdatum": "2020-06-22T13:11:34.3434",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "74,4% der befragten Personen leben 2019 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
+		"lesehilfe": "74,4% der befragten Personen leben 2019 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 95,7% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die Zufriedenheit insgesamt (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -4061,7 +4061,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
-		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?», Basel-Stadt, 2019",
+		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?», Basel-Stadt",
 		"kuerzel": "I.50.1.4721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
@@ -4071,13 +4071,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:35.3535",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "93,7% der im Jahr 2019 befragten Personen mit Wohnort in der Stadt Basel leben sehr oder eher gerne in ihrem Wohnquartier. Am tiefsten lag dieser Anteil 2005 mit 91,0%.",
+		"lesehilfe": "93,8% der im Jahr 2019 befragten Personen mit Wohnort in der Stadt Basel leben sehr oder eher gerne in ihrem Wohnquartier. Am tiefsten lag dieser Anteil 2005 mit 91,0%.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: nur Personen, die in der Stadt Basel wohnen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -4190,7 +4190,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
@@ -4206,8 +4206,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -5184,7 +5184,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
-		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
+		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?», Basel-Stadt",
 		"kuerzel": "I.50.1.4853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
@@ -5194,13 +5194,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-17T17:16:52.5252",
+		"aktualisierungsdatum": "2020-06-22T13:11:35.3535",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 geben 5,4% der Befragten an, im Verlaufe des vergangenen Jahrs angegriffen worden zu sein. 2015 waren es deren 6,2%.",
+		"lesehilfe": "2019 geben 5,4% der Befragten an, im Verlaufe des vergangenen Jahres bedroht oder angegriffen worden zu sein. 2015 waren es deren 6,2%.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -5269,7 +5269,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
-		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.», Basel-Stadt",
 		"kuerzel": "I.50.1.4855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
@@ -5279,7 +5279,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:36.3636",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -5311,7 +5311,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
-		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt",
 		"kuerzel": "I.50.1.4856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
@@ -5321,13 +5321,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:36.3636",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ausage, dass wir ohne die Menschen aus dem Ausland würden nicht so gut leben würden, stimmen 28,4% der im Jahr 2019 Befragten sehr und 38,5% eherzu. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
+		"lesehilfe": "Der Aussage, dass wir ohne die Menschen aus dem Ausland nicht so gut leben würden, stimmen 28,4% der im Jahr 2019 Befragten sehr und 38,5% eher zu. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -5353,7 +5353,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
-		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt",
 		"kuerzel": "I.50.1.4857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
@@ -5363,13 +5363,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:37.3737",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "8,5% der im Jahr 2019 Befragten sind sehr und 30,5% eher mit der Aussage einverstanden, dass die Schulen des Kantons Basel-Stadt die Jugendlichen gut fürs Leben vorbereiten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
+		"lesehilfe": "8,5% der im Jahr 2019 Befragten sind sehr und 30,5% eher mit der Aussage einverstanden, dass die Schulen des Kantons Basel-Stadt die Jugendlichen gut fürs Leben vorbereiten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -5395,7 +5395,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
-		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.», Basel-Stadt",
 		"kuerzel": "I.50.1.4858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
@@ -5411,7 +5411,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit der Ausage, dass die kantonalen Behörden die Chancengleichheit für Frauen und Männer zielstrebig vorantreiben würden, sind 9,7% der im Jahr 2019 Befragten sehr und 30,7% eher einverstanden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
+		"lesehilfe": "Mit der Aussage, dass die kantonalen Behörden die Chancengleichheit für Frauen und Männer zielstrebig vorantreiben würden, sind 9,7% der im Jahr 2019 Befragten sehr und 30,7% eher einverstanden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -5437,7 +5437,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Denken Sie an Ihren letzten Kontakt mit der kantonalen Verwaltung. Wie ist dieser Kontakt verlaufen?», Basel-Stadt, 2019",
+		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
 		"kuerzel": "I.50.1.4859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
@@ -5447,7 +5447,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:07:34.3434",
+		"aktualisierungsdatum": "2020-06-22T13:11:37.3737",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -5481,7 +5481,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt, 2019",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt",
 		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
@@ -5491,7 +5491,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-05T11:57:19.1919",
+		"aktualisierungsdatum": "2020-06-22T13:11:38.3838",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -5525,7 +5525,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt, 2019",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
 		"kuerzel": "I.50.1.4861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -5535,7 +5535,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:38.3838",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -5567,7 +5567,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
-		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
 		"kuerzel": "I.50.1.4862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
@@ -5583,7 +5583,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "10,1% der im Jahr 2019 Befragten sind sehr und 23,5% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
+		"lesehilfe": "10,1% der im Jahr 2019 Befragten sind sehr und 23,5% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -5975,7 +5975,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
-		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
 		"kuerzel": "I.50.1.4872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
@@ -5985,13 +5985,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "15,0% der im Jahr 2019 Befragten interessieren sich sehr und 37,2% eher für die Politik im Kanton Basel-Stadt. 39,2% interessieren sich dafür eher nicht und 12,0% überhaupt nicht.",
+		"lesehilfe": "15,0% der im Jahr 2019 Befragten interessieren sich sehr und 37,2% eher für die Politik im Kanton Basel-Stadt. 32,9% interessieren sich dafür eher nicht und 12,0% überhaupt nicht.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -6447,7 +6447,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
-		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt, 2019",
+		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt",
 		"kuerzel": "I.50.1.4931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
@@ -6457,13 +6457,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "66,9% der im Jahr 2019 erwarbstätigen Befragten machen sich manchmal Gedanken über ihre Arbeitsstelle. 30,1% machen sich darüber keine Gedanken.",
+		"lesehilfe": "66,9% der im Jahr 2019 erwerbstätigen Befragten machen sich manchmal Gedanken über ihre Arbeitsstelle. 30,1% machen sich darüber keine Gedanken.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: Nur erwerbstätige Personen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -6489,8 +6489,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
-		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.04932",
+		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt",
+		"kuerzel": "I.50.1.4932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
 		"thema": "50 Befragungen",
@@ -6499,32 +6499,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wenn sich die 2015 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (63,0%). Die Beschäftigung mit dem Betriebsklima erfuhr von 2011 auf 2015 einen Anstieg von 26,1% auf 47,2%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Wenn sich die im Jahr 2019 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (58,3%). An zweiter Stelle steht das Thema Lohn (50,0%).",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: Nur erwerbstätige Personen, die sich Gedanken über ihre Arbeitsstelle machen.",
 		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8415"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4932,
-		"darstellungsart": "Grafik"
+		"data-id": 4932,
+		"chart-id": 4932,
+		"filter": "",
+		"id": 4932
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
-		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt, 2019 – nur Befragte im Alter zwischen 18 und 29 Jahren",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
 		"kuerzel": "I.50.1.4933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
@@ -6534,13 +6541,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den im Jahr 2019 Befragten im Alter von 18 bis 29 Jahren interessierten sich 34,2% eher oder sehr stark für die Politik im Kanton Basel-Stadt (2015: 61,9%). 60,6% sich eher oder gar nicht für Politik. Zum Vergleich: Der Anteil an allen Befragten, der sich eher oder sehr stark für die Politik im Kanton Basel-Stadt interessiert liegt bei 52,2%.",
+		"lesehilfe": "Von den im Jahr 2019 Befragten im Alter von 18 bis 29 Jahren interessierten sich 34,2% eher oder sehr stark für die Politik im Kanton Basel-Stadt (2015: 61,9%). 60,6% interessieren sich eher oder gar nicht für Politik. Zum Vergleich: Der Anteil an allen Befragten, der sich eher oder sehr stark für die Politik im Kanton Basel-Stadt interessiert liegt bei 52,2%.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -10570,11 +10577,11 @@ var indikatoren = [
 	{
 		"title": "Anteil der in der Schweiz geborenen Ausländer",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.01.3.6075",
+		"kuerzel": "I.01.1.06075",
 		"kuerzelKunde": "A4-1",
 		"description": "Anteil der in der Schweiz geborenen Ausländer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10585,13 +10592,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 wiesen Italien (27,3%), die Türkei (26,5%) und der Balkan (25,9%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 1999 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2018 Personen aus den EU-Ost-Ländern (7,8%) sowie aus Mittel- und Südamerika (6,3%) auf.",
+		"lesehilfe": "Ende 2019 wiesen Italien (26,6%), der Balkan (25,5) und die Türkei (25,2%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 2000 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2019 Personen aus den EU-Ost-Ländern (8,4%) sowie aus Mittel- und Südamerika (6,5%) auf.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_024",
+		"orderKey": "01_00_00_00_00_401",
 		"parentId": null,
 		"children": [
 			"6660"
@@ -10977,7 +10984,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_006",
+		"orderKey": "02_00_00_00_00_302",
 		"parentId": null,
 		"children": [
 			"6670"
@@ -15899,17 +15906,16 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote ist zwischen 2009 und 2018 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
+		"lesehilfe": "Die Quote ist zwischen 2010 und 2019 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
 		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_013",
+		"orderKey": "03_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"6694",
-			"7835"
+			"6694"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -16099,7 +16105,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Angestellte in der Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2018",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2019",
 		"kuerzel": "I.18.3.6425",
 		"kuerzelKunde": "C3-7",
 		"description": "Angestellte in der Verwaltung Basel-Stadt",
@@ -16115,17 +16121,16 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2018 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2019 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 170 Personen (ein Plus von knapp 7% gegenüber 2018) die mit Abstand grösste Gruppe.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_019",
+		"orderKey": "03_00_00_00_00_307",
 		"parentId": null,
 		"children": [
-			"6700",
-			"7841"
+			"6700"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18183,7 +18188,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.7.6494",
 		"kuerzelKunde": "D7-2",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -18199,17 +18204,16 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen «EU-17&nbsp;+&nbsp;EFTA», EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken sowie bei Personen aus dem Balkan und arabischen Ländern bei über 75%. Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (19,1%) und Deutsche (11,6%) auf, während die höchsten Anteile an Katholiken bei Italienern (18,1%) und Personen aus Mittel- und Südamerika (16,1%) zu finden sind.  99,8% der Türken, 99,1% der Personen aus arabischen Ländern und 94,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_021",
+		"orderKey": "04_00_00_00_00_702",
 		"parentId": null,
 		"children": [
-			"6734",
-			"7875"
+			"6734"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26418,13 +26422,13 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2013 bis 2017 bei 72,8%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2014 bis 2018 bei 71,0%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 73,3%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26503,13 +26507,13 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2013 bis 2017 bei 75,1%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2014 bis 2018 bei 71,8%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,6%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26661,7 +26665,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2018",
 		"kuerzel": "I.15.6.07697",
 		"kuerzelKunde": "5.03",
 		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
@@ -26677,8 +26681,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2013 bis 2017 im Mittel 33,7 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2014 bis 2018 im Mittel 33,7 Prozent.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

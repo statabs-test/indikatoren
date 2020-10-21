@@ -217,7 +217,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -230,7 +230,7 @@
     "zoomType": "xy",
     "type": "column",
     "renderTo": "container-4856",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -247,7 +247,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt, 2019"
+    "text": "«Wie stehen Sie zu folgender Aussage: Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -303,9 +303,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "layout": "horizontal",
