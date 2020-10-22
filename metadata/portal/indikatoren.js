@@ -39681,7 +39681,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "84% der Befragten aus Luzern zeigen sich mit der Sauberkeit auf Strassen und Plätzen zufrieden. Bei den Befragten aus Basel liegt dieser Anteil bei 80%.",
-		"erlaeuterungen": "Alle 4 Jahre findet in Basel, Bern, Luzern und Zürich (hier alle 2 Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten aus den einzelnen Städten vornehmen. <br>Anzahl Befragungsteilnehmer: Basel (1 781), Bern (2 878), Luzern (1 091) und Zürich (5 117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befrage die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben unberücksichtigt.<br>In Bern und Zürich wurde diese Frage nicht gestellt.",
+		"erlaeuterungen": "Alle 4 Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle 2 Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1 781), Bern (2 878), Luzern (1 091) und Zürich (5 117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Bern und Zürich wurde diese Frage nicht gestellt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -39691,7 +39691,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -39721,7 +39721,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit zwischen Basel und Bern unterscheidet sich nicht: In Basel liegt der Anteil Zufriedener bei 82%, in Bern bei 83%.",
-		"erlaeuterungen": "Alle 4 Jahre findet in Basel, Bern, Luzern und Zürich (hier alle 2 Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten aus den einzelnen Städten vornehmen. <br>Anzahl Befragungsteilnehmer: Basel (1 781), Bern (2 878), Luzern (1 091) und Zürich (5 117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befrage die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben unberücksichtigt.<br>In Luzern und Zürich wurde diese Frage nicht gestellt.",
+		"erlaeuterungen": "Alle 4 Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle 2 Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1 781), Bern (2 878), Luzern (1 091) und Zürich (5 117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Luzern und Zürich wurde diese Frage nicht gestellt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -39731,7 +39731,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
