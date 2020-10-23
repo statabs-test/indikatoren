@@ -1,26 +1,87 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#661200",
+      "visible": true,
       "data": [
         [
-          "Basel",
+          "Kinderbetreuungsangebot",
+          78.6
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          88.8
+        ],
+        [
+          "Kulturangebot",
+          91.4
+        ],
+        [
+          "Wohnungsangebot",
+          64.8
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
           96
-        ],
-        [
-          "Bern",
-          97.7
-        ],
-        [
-          "Luzern",
-          84.7
-        ],
-        [
-          "Zürich",
-          91.6
         ]
       ],
-      "name": "Anteil Zufriedene",
+      "name": "Basel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          85.9
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          94.8
+        ],
+        [
+          "Kulturangebot",
+          90.4
+        ],
+        [
+          "Wohnungsangebot",
+          54.9
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          97.7
+        ]
+      ],
+      "name": "Bern",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          57.3
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          null
+        ],
+        [
+          "Kulturangebot",
+          89.1
+        ],
+        [
+          "Wohnungsangebot",
+          null
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          84.7
+        ]
+      ],
+      "name": "Luzern",
       "turboThreshold": 0
     }
   ],
@@ -75,17 +136,23 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9162",
+    "inverted": true,
+    "marginLeft": 210,
+    "marginBottom": 55,
+    "marginRight": 15,
+    "renderTo": "container-9174",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -95,10 +162,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zufriedenheit mit dem öffentlichen Verkehr"
+    "text": "Zufriedenheit mit…"
   },
   "subtitle": {
-    "text": "«Wie zufrieden sind Sie mit den öffentlichen Verkehrsmitteln?», Anteil Zufriedene, 2019",
+    "text": "2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -121,17 +188,24 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value}%"
     },
-    "tickInterval": 20,
-    "max": 100
+    "min": null
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitspace": "nowrap"
     },
-    "enabled": false
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 5,
+    "symbolPadding": 1,
+    "padding": 0
   },
   "navigation": {
     "menuItemStyle": {
@@ -152,12 +226,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
+    "text": "Quelle: Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-23"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9162"
+    "filename": "9174"
   }
 }

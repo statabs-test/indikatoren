@@ -1854,6 +1854,7 @@ id | visible | visibleInPortal | indikatorenset
 9170 | true | true | Gesellschaftlicher-Zusammenhalt
 9171 | true | true | Gesellschaftlicher-Zusammenhalt
 9172 | true | true | Gesellschaftlicher-Zusammenhalt
+9174 | true | true | Städtevergleich
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

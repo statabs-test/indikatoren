@@ -5,19 +5,19 @@
       "data": [
         [
           "Basel",
-          74.56
+          74.6
         ],
         [
           "Bern",
-          72.24
+          72.2
         ],
         [
-          "Luzern*",
-          64.1813
+          "Luzern",
+          64.2
         ],
         [
           "Zürich",
-          75.66
+          75.7
         ]
       ],
       "name": "Sehr gerne",
@@ -35,12 +35,12 @@
           24.7
         ],
         [
-          "Luzern*",
-          30.7713
+          "Luzern",
+          30.8
         ],
         [
           "Zürich",
-          21.856
+          21.9
         ]
       ],
       "name": "Eher gerne",
@@ -51,19 +51,19 @@
       "data": [
         [
           "Basel",
-          1.85
+          1.9
         ],
         [
           "Bern",
-          2.68
+          2.7
         ],
         [
-          "Luzern*",
-          5.0473
+          "Luzern",
+          5
         ],
         [
           "Zürich",
-          1.871
+          1.9
         ]
       ],
       "name": "Eher ungern",
@@ -74,19 +74,19 @@
       "data": [
         [
           "Basel",
-          0.56
+          0.6
         ],
         [
           "Bern",
-          0.17
+          0.2
         ],
         [
-          "Luzern*",
+          "Luzern",
           null
         ],
         [
           "Zürich",
-          0.345
+          0.3
         ]
       ],
       "name": "Sehr ungern",
@@ -97,22 +97,22 @@
       "data": [
         [
           "Basel",
-          0.61
+          0.6
         ],
         [
           "Bern",
-          0.21
+          0.2
         ],
         [
-          "Luzern*",
+          "Luzern",
           null
         ],
         [
           "Zürich",
-          0.267
+          0.3
         ]
       ],
-      "name": "Weiss nicht\u002FKeine Angabe",
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
