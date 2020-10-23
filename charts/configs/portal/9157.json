@@ -12,7 +12,7 @@
           72.2
         ],
         [
-          "Luzern",
+          "Luzern*",
           64.2
         ],
         [
@@ -35,7 +35,7 @@
           24.7
         ],
         [
-          "Luzern",
+          "Luzern*",
           30.8
         ],
         [
@@ -58,7 +58,7 @@
           2.7
         ],
         [
-          "Luzern",
+          "Luzern*",
           5
         ],
         [
@@ -66,7 +66,7 @@
           1.9
         ]
       ],
-      "name": "Eher ungern",
+      "name": "Eher ungerne",
       "turboThreshold": 0
     },
     {
@@ -81,7 +81,7 @@
           0.2
         ],
         [
-          "Luzern",
+          "Luzern*",
           null
         ],
         [
@@ -89,7 +89,7 @@
           0.3
         ]
       ],
-      "name": "Sehr ungern",
+      "name": "Sehr ungerne",
       "turboThreshold": 0
     },
     {
@@ -104,7 +104,7 @@
           0.2
         ],
         [
-          "Luzern",
+          "Luzern*",
           null
         ],
         [

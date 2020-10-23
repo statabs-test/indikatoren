@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#661200",
+      "color": "#3C3C3C",
       "visible": true,
       "data": [
         [
@@ -57,7 +57,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
+      "color": "#A0BEC8",
       "visible": true,
       "data": [
         [
@@ -82,6 +82,34 @@
         ]
       ],
       "name": "Luzern",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          67.9
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          82.2
+        ],
+        [
+          "Kulturangebot",
+          90.7
+        ],
+        [
+          "Wohnungsangebot",
+          30.1
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          91.6
+        ]
+      ],
+      "name": "Zürich",
       "turboThreshold": 0
     }
   ],
@@ -165,7 +193,7 @@
     "text": "Zufriedenheit mit…"
   },
   "subtitle": {
-    "text": "2019",
+    "text": "«Wie zufrieden sind Sie mit folgennden Aspekten an Ihrem Wohnort?», Anteil Zufriedene, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -190,7 +218,8 @@
       },
       "format": "{value}%"
     },
-    "min": null
+    "min": null,
+    "max": 100
   },
   "legend": {
     "symbolRadius": 0,
