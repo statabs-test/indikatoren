@@ -434,7 +434,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit…",
-		"subtitle": "«Wie zufrieden sind Sie mit folgennden Aspekten an Ihrem Wohnort?», Anteil Zufriedene, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit folgenden Aspekten an Ihrem Wohnort?», Anteil Zufriedene, 2019",
 		"kuerzel": "I.50.1.09174",
 		"kuerzelKunde": "1-2",
 		"description": "Zufriedenheit mit…",
