@@ -13,7 +13,7 @@
         ],
         [
           "Luzern*",
-          64.2
+          73.5
         ],
         [
           "Zürich",
@@ -36,7 +36,7 @@
         ],
         [
           "Luzern*",
-          30.8
+          23.1
         ],
         [
           "Zürich",
@@ -59,7 +59,7 @@
         ],
         [
           "Luzern*",
-          5
+          3.4
         ],
         [
           "Zürich",
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
+    "text": "Quelle: Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
   },
   "legend": {
     "reversed": false,

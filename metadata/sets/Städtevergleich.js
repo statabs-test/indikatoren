@@ -27,7 +27,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -57,7 +57,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil mit dem Kinderbetreuungsangebot Zufriedener liegt in Bern mit 86% am höchsten. Bei den Befragten aus Basel liegt dieser Anteil bei 79%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117). <br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -66,7 +66,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -96,7 +96,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit einem Anteil von 95% liegt der Anteil mit dem Angebot an Grünanlagen Zufriedener in Bern am höchsten. Bei den Befragten aus Basel liegt dieser Anteil bei 89%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Luzern wurde diese Frage nicht gestellt.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117). <br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.<br>In Luzern wurde diese Frage nicht gestellt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -105,7 +105,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -135,7 +135,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil mit dem Kulturangebot Zufriedener liegt in allen verglichenen Städten bei rund 90%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -174,7 +174,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit einem Anteil von 65% Zufriedener ist die Zufriedenheit mit dem Wohnungsangebot in Basel am höchsten. In Bern ligt dieser Anteil bei 55%, in Zürich bei 30%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Luzern wurde diese Frage nicht gestellt.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.<br>In Luzern wurde diese Frage nicht gestellt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -183,7 +183,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -213,7 +213,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Mehrheit der Befragten zeigt sich zufrieden mit dem öffentlichen Verkehr. In Bern liegt der Anteil Zufriedener bei 98%, in Basel sind es 96%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117). <br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Luzern wurde diese Frage nicht gestellt.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117). <br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -222,7 +222,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -251,8 +251,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "84% der Befragten aus Luzern zeigen sich mit der Sauberkeit auf Strassen und Plätzen zufrieden. Bei den Befragten aus Basel liegt dieser Anteil bei 80%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Bern und Zürich wurde diese Frage nicht gestellt.",
+		"lesehilfe": "88% der Befragten aus Luzern zeigen sich mit der Sauberkeit auf Strassen und Plätzen zufrieden. Bei den Befragten aus Basel liegt dieser Anteil bei 80%.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.<br>In Bern und Zürich wurde diese Frage nicht gestellt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -263,7 +263,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -292,8 +292,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit unterscheidet sich zwischen Basel und Bern nicht: In Basel liegt der Anteil Zufriedener bei 82%, in Bern bei 83%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.<br>In Luzern und Zürich wurde diese Frage nicht gestellt.",
+		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit unterscheidet sich zwischen Basel und Bern nicht gross: In Basel liegt der Anteil Zufriedener bei 82%, in Bern bei 83%.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.<br>In Luzern und Zürich wurde diese Frage nicht gestellt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -304,7 +304,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -334,7 +334,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Befragter, der sich nachts im Quartier sehr oder eher sicher fühlt, fällt in Basel mit 67% tiefer aus als in den anderen Städten. In Zürich geben demgegenüber 88% an, sich sicher zu fühlen.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>*Der Altersdurchschnitt der Befragten fällt durch die fehlende Gewichtung höher aus als in den anderen Städten.<br>**In Luzern gibt es zu wenige Fälle, um eine Zahl bei den sehr Unsicheren auszuweisen. Befragte, die nachts nicht raus gehen und die sehr Unsicheren sind in der Kategorie «Weiss nicht/Keine Angabe» subsummiert.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>*Der Altersdurchschnitt der Befragten fällt in Basel durch die fehlende Gewichtung höher aus als in den anderen Städten.<br>**In Luzern gibt es zu wenige Fälle, um eine Zahl bei den sehr Unsicheren auszuweisen. Befragte, die nachts nicht raus gehen und die sehr Unsicheren sind in der Kategorie «Weiss nicht/Keine Angabe» subsummiert.",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -343,7 +343,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -382,7 +382,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -421,7 +421,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -450,8 +450,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Besonders zufrieden mit dem Kinderbetreuungsangebot zeigen sich die Befragten aus Bern mit 86%. Bei den Befragten aus Basel liegt der Anteil Zufriedener bei 79%, in Zürich bei 68% und in Luzern bei 57%.<br>Mit dem Angebot an Grünanlagen und Pärken ist die Mehrheit der Befragten zufrieden. In Bern liegt der Anteil Zufriedener mit 95% am höchsten. In Basel und Zürich liegt dieser Wert bei 89% bzw. 82%.<br>Das Kulturangebot wird in allen Städten ähnlich positiv bewertet. Der Anteil Zufriedener bewegt sich hier bei jeweils rund 90%.<br>Bei der Zufriedenheit mit dem Wohnungsangebot zeigen sich deutliche Unterschiede zwischen den Städten: Der Anteil Zufriedener liegt in Basel bei 65%, in Bern bei 55% und in Zürich bei 30%.<br>Mit dem öffentlichen Verkehr herrscht eine hohe Zufriedenheit. In Bern liegt der Anteil Zufriedener bei 98% und in Basel bei 96%. Auch in Zürich und Luzern fällt dieser Wert mit 92% bzw. 85% immer noch relativ hoch aus.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Bei der Berechnung des Anteils Zufriedener bleiben Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Bezüglich des öffentlichen Verkehrs herrscht eine hohe Zufriedenheit. In Bern liegt der Anteil Zufriedener bei 98% und in Basel bei 96%. Auch in Zürich und Luzern fällt dieser Wert mit 92% bzw. 87% immer noch relativ hoch aus.<br>Bei der Zufriedenheit mit dem Kinderbetreuungsangebot zeigen sich zwischen den Städten grössere Unterschiede: In Bern sind 86% damit zufrieden. Bei den Befragten aus Basel liegt der Anteil Zufriedener bei 79%, in Zürich bei 68% und in Luzern bei 63%.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -460,7 +460,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
+			"Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
