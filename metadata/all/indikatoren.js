@@ -72195,7 +72195,7 @@ var indikatoren = [
 		"description": "Beurteilung des Wohnorts",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72235,7 +72235,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit dem Kinderbetreuungsangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72275,7 +72275,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit dem Angebot an Grünanlagen",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72315,7 +72315,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit dem Kulturangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72355,7 +72355,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72395,7 +72395,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit dem öffentlichen Verkehr",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72435,7 +72435,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit der Sauberkeit auf Strassen und Plätzen",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72477,7 +72477,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit der Verkehrssicherheit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72519,7 +72519,7 @@ var indikatoren = [
 		"description": "Sicherheitsgefühl nachts im Quartier",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72559,7 +72559,7 @@ var indikatoren = [
 		"description": "Vertretung durch Behörden",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72599,7 +72599,7 @@ var indikatoren = [
 		"description": "Beurteilung der finanziellen Situation",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72759,7 +72759,7 @@ var indikatoren = [
 		"description": "Zufriedenheit mit…",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Städtevergleich",
+		"kennzahlenset": "Staedtevergleich",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],

@@ -32,6 +32,6 @@ var indikatorensetNames = [
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 	"Nachhaltigkeit (Print)",
 	"Energiestatistik",
-	"Städtevergleich",
+	"Staedtevergleich",
 	"Test"
 ];
