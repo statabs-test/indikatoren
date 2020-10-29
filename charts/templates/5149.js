@@ -15,5 +15,8 @@
     "legend": {
       "enabled": false,
     },
+    tooltip:{
+      valueDecimals: 1
+    }
   };
 }());
