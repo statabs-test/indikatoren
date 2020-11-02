@@ -1761,7 +1761,6 @@ var templatesById = {
 	"9166": "befragungenProzent001",
 	"9167": "befragungenProzent001",
 	"9170": "befragungen001",
-	"9171": "befragungen001",
 	"9172": "befragungen001",
 	"9174": "template001",
 	"9995": "mappie001",

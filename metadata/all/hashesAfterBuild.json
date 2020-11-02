@@ -12333,13 +12333,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "04ae6241fccf70a34beaf4dc5f485e966ed7190c"
 	},
-	"9171": {
-		"metadata": "274bbb2cb72d868f33d5b035f30d02fa8c517cbc",
-		"chartConfig": "b6e46c0a790c4cab72f6fefb82e245acb9c1d306",
-		"data": "5b1d18337c80d74da526f32260d9cede148c5309",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "04ae6241fccf70a34beaf4dc5f485e966ed7190c"
-	},
 	"9172": {
 		"metadata": "166c0452f7321a099432f45d94c44607a0c14502",
 		"chartConfig": "761c2782e93e9f43f0944ae35cc523685f1531bb",

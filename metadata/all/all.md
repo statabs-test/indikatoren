@@ -1852,7 +1852,7 @@ id | visible | visibleInPortal | indikatorenset
 9166 | true | true | Staedtevergleich
 9167 | true | true | Staedtevergleich
 9170 | true | true | Gesellschaftlicher-Zusammenhalt
-9171 | true | true | Gesellschaftlicher-Zusammenhalt
+9171 | false |  | Gesellschaftlicher-Zusammenhalt
 9172 | true | true | Gesellschaftlicher-Zusammenhalt
 9174 | true | true | Staedtevergleich
 9995 | true | false | 

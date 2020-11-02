@@ -72672,46 +72672,6 @@ var indikatoren = [
 		"id": 9170
 	},
 	{
-		"title": "Beurteilung der Bildungschancen durch Haushalte mit Kindern",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
-		"kuerzel": "I.50.1.09171",
-		"kuerzelKunde": "2.3.03b",
-		"description": "Beurteilung der Bildungschancen durch Haushalte mit Kindern",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-10-14T08:52:41.4141",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "11,3%  der im Jahr 2019 Befragten aus Haushalten mit Kindern sind sehr und 30,0% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Beim vorliegenden Indikator sind nur Haushalte mit Kindern berücksichtigt",
-		"template": "befragungen001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9171,
-		"chart-id": 9171,
-		"filter": "",
-		"id": 9171
-	},
-	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation nach Einkommen",
 		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
 		"kuerzel": "I.50.1.09172",
