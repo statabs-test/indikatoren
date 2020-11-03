@@ -1,45 +1,60 @@
 (function(){
     return {
-    "xAxis": {
+    "xAxis": {     
+        reversed: false,
         "type": "category", 
         "labels": {
-            formatter: undefined,
             align: 'left',
-        reserveSpace: true,
-        x: -4,
+            reserveSpace: true,
+            x: -12,
+            formatter: undefined,
+            style: {
+                fontSize: "10px",
+                color: "#000000",
+                width: 1,
+                whiteSpace: 'nowrap',
+                textOverflow: "none"
+            },
         }
     },
     "yAxis": {
-        "tickInterval": null,
-        "reversedStacks": false
+        "tickInterval": 20,
+        "reversedStacks": false,
+       
+       // ItemMarginTop:5,
+        labels: {
+            y:10,
+            rotation: 0
+            },
     },   
-    series: [
+    "series": [
         { "color": "#007A2F"}, // dunkelgrün
         { "color": "#73B97C"}, // grün
         { "color": "#FABD24"}, // gelb
         { "color": "#B00000"}, // rot
         { "color": "#C8C8C8"}, // hellgrau
-        { "color": "#6F6F6F"}, // grau
-      ],
-    "legend": {
+        { "color": "#6F6F6F"}, // grau      
+    ], 
+    legend: {
+        margin: 9,
         "layout": "horizontal",
         "verticalAlign": "top",
-        "itemMarginBottom": 5,     
-        "align": "left",
-        //"x": 145,
-        //"y": 70,
-        itemWidth: 100,
-        width: 220,
+        "itemMarginBottom": 0,
+        x: -18,
+        itemWidth: 142,
+        width: 300,
         itemStyle: {
           textOverflow: "none",
-          whiteSpace: "nowrap"
+          whiteSpace: "nowrap",
+
         }
-    },      
+      },  
     "chart":
     {
         "inverted": true, 
-        height:500,
-    }
-    }
+        marginRight: 8,
+        height: 330
+        }
+	}
 }());
- 
+
