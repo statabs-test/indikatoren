@@ -1744,6 +1744,8 @@ id | visible | visibleInPortal | indikatorenset
 9034 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9035 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9036 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9176 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

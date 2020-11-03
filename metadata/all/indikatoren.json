@@ -67533,6 +67533,86 @@
 		"id": 9036
 	},
 	{
+		"title": "Beurteilung der Schulen in Basel-Stadt durch Haushalte mit Kindern",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt",
+		"kuerzel": "I.50.1.09176",
+		"kuerzelKunde": "2.2.03",
+		"description": "Beurteilung der Schulen in Basel-Stadt durch Haushalte mit Kindern",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-10-14T08:52:41.4141",
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.2 Vertrauen in Institutionen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "13,3% der im Jahr 2019 Befragten aus Haushalten mit Kindern sind sehr und 40,2% eher mit der Aussage einverstanden, dass die Schulen des Kantons Basel-Stadt die Jugendlichen gut fürs Leben vorbereiten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Beim vorliegenden Indikator sind nur Haushalte mit Kindern berücksichtigt.",
+		"template": "befragungen001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_02_00_00_00_000",
+		"parentId": 9170,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9176,
+		"chart-id": 9176,
+		"filter": "",
+		"id": 9176
+	},
+	{
+		"title": "Beurteilung der eigenen wirtschaftlichen Situation nach Einkommen",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
+		"kuerzel": "I.50.1.09178",
+		"kuerzelKunde": "2.3.03",
+		"description": "Beurteilung der eigenen wirtschaftlichen Situation nach Einkommen",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-10-14T11:04:44.4444",
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.3 Gerechtigkeitsempfinden",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Während 33,1% der im Jahr 2019 Befragten mit einem Haushaltseinkommen von über 7 499 Fr. angeben, dass es ihnen wirtschaftlich sehr gut geht, sind es bei jenen mit einem Einkommen von unter 3 000 Fr. 2,8%. 15,5% dieser Haushalte geht es gar nicht gut. Bei den Haushalten mit mittlerem Einkommen liegt dieser Anteil bei 2,1%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_03_00_00_00_000",
+		"parentId": 9172,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9178,
+		"chart-id": 9178,
+		"filter": "",
+		"id": 9178
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
