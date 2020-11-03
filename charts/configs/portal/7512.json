@@ -133,6 +133,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "rotation": -45,
       "formatter": function() {
               if (this.isFirst || this.isLast) {
                 return Highcharts.dateFormat('%b %y', this.value);
@@ -140,7 +141,8 @@
                 return Highcharts.dateFormat('%b', this.value);
               }
             }
-    }
+    },
+    "tickInterval": 2592000000
   },
   "chart": {
     "type": "column",
