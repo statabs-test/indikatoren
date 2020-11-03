@@ -326,13 +326,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-30T13:00:01.011",
+		"aktualisierungsdatum": "2020-10-23T16:28:26.2626",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Genf und Zürich relativ konstant.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -599,13 +599,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T14:54:34.3434",
+		"aktualisierungsdatum": "2020-10-12T10:32:47.4747",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2018 betrug deren Ertrag 748&nbsp;Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2018 fast 1,9&nbsp;Mrd. Franken.",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2019 betrug deren Ertrag fast 1,1&nbsp;Mrd. Franken. Die hohe Steigerung gegenüber dem Vorjahr ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2019 fast 1,9&nbsp;Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -794,7 +794,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1174,7 +1174,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.06304",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1184,7 +1184,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:21:03.033",
+		"aktualisierungsdatum": "2020-10-07T13:55:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1501,13 +1501,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-22T15:48:42.4242",
+		"aktualisierungsdatum": "2020-09-25T13:21:49.4949",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
 		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übrig gebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -1696,13 +1696,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
+		"aktualisierungsdatum": "2019-09-24T17:55:38.3838",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2018 14,9&nbsp;°C.",
+		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2019 15,1&nbsp;°C.",
 		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt.<br>Erhöhte Temperaturen des Grundwassers können zu einem vermehrten Auftreten von Mikroorganismen im Wasser führen, was in Gebieten mit Trinkwassernutzung unerwünscht ist. Die Jahresmittelwerte der Grundwassertemperaturen in Basel-Stadt liegen an den gemessenen Messstellen im Bereich von 12-19 °C. Die Grundwassertemperaturen sind gegenüber natürlichen Verhältnissen anthropogen stark erhöht. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -1775,7 +1775,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1814,7 +1814,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T10:24:16.1616",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2292,7 +2292,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel-Stadt sind in den letzten Jahren konstant, nachdem die Steuerbelastung zuvor leicht zurückgegangen ist. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
+		"lesehilfe": "Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel-Stadt 2019 deutlich niedriger als in den Vorjahren. Er beträgt 24 497 Franken und ist der tiefste Wert der abgebildeten Kantone. Der höchste  Wert wird mit 72 225 Franken in Genf verzeichnet.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 400&nbsp;000&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2331,8 +2331,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren konstant, nachdem ein Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2018 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 1&nbsp;Mio.&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"lesehilfe": "Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel-Stadt 2019 deutlich niedriger als in den Vorjahren. Er beträgt 58 407 Franken und ist der tiefste Wert der abgebildeten Kantone. Der höchste  Wert wird mit 178 555 Franken in Genf verzeichnet.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen) mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 1&nbsp;Mio.&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2443,7 +2443,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:47:06.066",
+		"aktualisierungsdatum": "2020-10-22T17:54:34.3434",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2550,7 +2550,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.06340",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
@@ -2560,7 +2560,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:00:38.3838",
+		"aktualisierungsdatum": "2020-10-07T13:56:33.3333",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2589,7 +2589,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.06341",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2599,7 +2599,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:07:53.5353",
+		"aktualisierungsdatum": "2020-10-07T13:57:02.022",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2628,7 +2628,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
 		"kuerzel": "I.18.2.06342",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2644,8 +2644,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9&nbsp;780&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2019 im ausgewählten Modellfall 10&nbsp;622&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder (reformiert) mit zwei Einkommen (50/50); das Bruttoarbeitseinkommen beträgt 100&nbsp;000&nbsp;Franken im Jahr 2019. Die Berechnung durch die Eidgenössische Steuerverwaltung erfolgt seit 2019 nach einer neuen methodischen Grundlage. Die Ergebnisse sind mit den Vorjahren nur bedingt vergleichbar.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2667,7 +2667,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
 		"kuerzel": "I.18.2.06343",
 		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2683,8 +2683,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 15&nbsp;547&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Liestal am höchsten, in Zürich am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2019 im ausgewählten Modellfall 17&nbsp;449&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Genf am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Ledige ohne Kinder (reformiert) mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2019. Die Berechnung durch die Eidgenössische Steuerverwaltung erfolgt seit 2019 nach einer neuen methodischen Grundlage. Die Ergebnisse sind mit den Vorjahren nur bedingt vergleichbar.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2706,7 +2706,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.06344",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
@@ -2716,7 +2716,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:08:17.1717",
+		"aktualisierungsdatum": "2020-10-07T13:57:32.3232",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2912,7 +2912,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:16:13.1313",
+		"aktualisierungsdatum": "2020-10-21T09:38:14.1414",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2951,7 +2951,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
+		"aktualisierungsdatum": "2020-10-07T13:53:59.5959",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
