@@ -13,7 +13,7 @@
 
         "xAxis": {
           type: 'datetime',
-          tickInterval: 1000 * 60 * 60 * 24 * 30,
+          //tickInterval: 1000 * 60 * 60 * 24 * 30,
           labels: { 
             formatter: function() {
               if (this.isFirst || this.isLast) {
