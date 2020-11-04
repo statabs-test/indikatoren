@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweiz",
-          25.8
+          25.1
         ],
         [
           "Deutschland",
-          17.7
+          15.9
         ],
         [
           "Italien",
@@ -23,11 +23,11 @@
         ],
         [
           "EU-17 + EFTA",
-          2.2
+          1.9
         ],
         [
           "EU-Ost",
-          2.7
+          2.6
         ],
         [
           "Balkan",
@@ -35,19 +35,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          2.4
+          2.6
         ],
         [
           "Arabische Länder",
-          0.7
+          0.6
         ],
         [
           "Afrikanische Länder",
-          6.1
+          5
         ],
         [
           "Übrige Länder",
-          1.4
+          1.2
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -60,15 +60,15 @@
       "data": [
         [
           "Schweiz",
-          18.5
+          17.9
         ],
         [
           "Deutschland",
-          20.1
+          19.6
         ],
         [
           "Italien",
-          25.2
+          24.9
         ],
         [
           "Türkei",
@@ -76,11 +76,11 @@
         ],
         [
           "EU-17 + EFTA",
-          17.3
+          16.1
         ],
         [
           "EU-Ost",
-          29.7
+          27.5
         ],
         [
           "Balkan",
@@ -88,19 +88,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          28
+          26.2
         ],
         [
           "Arabische Länder",
-          0.2
+          0.6
         ],
         [
           "Afrikanische Länder",
-          15.9
+          15.6
         ],
         [
           "Übrige Länder",
-          6
+          5.8
         ]
       ],
       "name": "Römisch-katholisch",
@@ -133,7 +133,7 @@
         ],
         [
           "EU-Ost",
-          0.3
+          0.7
         ],
         [
           "Balkan",
@@ -149,11 +149,11 @@
         ],
         [
           "Afrikanische Länder",
-          1.7
+          1.4
         ],
         [
           "Übrige Länder",
-          0.3
+          0.2
         ]
       ],
       "name": "Christkatholisch",
@@ -170,7 +170,7 @@
         ],
         [
           "Deutschland",
-          0.4
+          0.3
         ],
         [
           "Italien",
@@ -194,7 +194,7 @@
         ],
         [
           "Mittel- und Südamerika",
-          0.3
+          0.2
         ],
         [
           "Arabische Länder",
@@ -206,7 +206,7 @@
         ],
         [
           "Übrige Länder",
-          1.3
+          1.2
         ]
       ],
       "name": "Israelitisch",
@@ -219,157 +219,61 @@
       "data": [
         [
           "Schweiz",
-          9
+          56
         ],
         [
           "Deutschland",
-          7.3
+          64.1
         ],
         [
           "Italien",
-          2.9
+          74.4
         ],
         [
           "Türkei",
-          93.2
+          99.8
         ],
         [
           "EU-17 + EFTA",
-          8.1
+          81.4
         ],
         [
           "EU-Ost",
-          12.5
+          69.1
         ],
         [
           "Balkan",
-          76.1
+          93.3
         ],
         [
           "Mittel- und Südamerika",
-          3.9
+          70.9
         ],
         [
           "Arabische Länder",
-          87
+          98.7
         ],
         [
           "Afrikanische Länder",
-          39.9
+          78
         ],
         [
           "Übrige Länder",
-          51.8
+          91.6
         ]
       ],
-      "name": "Andere",
+      "name": "Andere\u002Fohne\u002Funbekannt",
       "turboThreshold": 0
     },
     {
       "color": "#fabd24",
       "index": 1,
-      "legendIndex": 5,
-      "data": [
-        [
-          "Schweiz",
-          41.7
-        ],
-        [
-          "Deutschland",
-          52.6
-        ],
-        [
-          "Italien",
-          67.6
-        ],
-        [
-          "Türkei",
-          5
-        ],
-        [
-          "EU-17 + EFTA",
-          67.2
-        ],
-        [
-          "EU-Ost",
-          52.3
-        ],
-        [
-          "Balkan",
-          11.4
-        ],
-        [
-          "Mittel- und Südamerika",
-          63.1
-        ],
-        [
-          "Arabische Länder",
-          8.2
-        ],
-        [
-          "Afrikanische Länder",
-          31.1
-        ],
-        [
-          "Übrige Länder",
-          36.5
-        ]
-      ],
-      "name": "Keine Zugehörigkeit",
-      "turboThreshold": 0
+      "legendIndex": 5
     },
     {
       "color": "#999999",
       "index": 0,
-      "legendIndex": 6,
-      "data": [
-        [
-          "Schweiz",
-          4.1
-        ],
-        [
-          "Deutschland",
-          1.9
-        ],
-        [
-          "Italien",
-          3.8
-        ],
-        [
-          "Türkei",
-          1.6
-        ],
-        [
-          "EU-17 + EFTA",
-          4.7
-        ],
-        [
-          "EU-Ost",
-          2.3
-        ],
-        [
-          "Balkan",
-          5.8
-        ],
-        [
-          "Mittel- und Südamerika",
-          2.2
-        ],
-        [
-          "Arabische Länder",
-          3.7
-        ],
-        [
-          "Afrikanische Länder",
-          5.3
-        ],
-        [
-          "Übrige Länder",
-          2.9
-        ]
-      ],
-      "name": "Unbekannt",
-      "turboThreshold": 0
+      "legendIndex": 6
     }
   ],
   "xAxis": {
@@ -527,7 +431,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "Basel-Stadt, 2008",
+    "text": "Basel-Stadt, 2009",
     "align": "left"
   },
   "yAxis": {
@@ -590,7 +494,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "dataLabels": {
     "enabled": false,
@@ -604,6 +508,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6733
+    "filename": "6733"
   }
 }

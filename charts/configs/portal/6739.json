@@ -6,79 +6,95 @@
       "legendIndex": 0,
       "data": [
         [
-          "2015 Total",
-          1080
+          "2019: Total",
+          1569
         ],
         [
-          "2015 Schweiz",
-          968
+          "2019: Schweiz",
+          1233
         ],
         [
-          "2015 Ausland",
-          112
+          "2019: Ausland",
+          320
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          1145
+          "2015: Total",
+          1080
         ],
         [
-          "2011 Schweiz",
-          982
+          "2015: Schweiz",
+          968
         ],
         [
-          "2011 Ausland",
-          163
+          "2015: Ausland",
+          112
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          959
+          "2011: Total",
+          1145
         ],
         [
-          "2007 Schweiz",
-          850
+          "2011: Schweiz",
+          982
         ],
         [
-          "2007 Ausland",
-          109
+          "2011: Ausland",
+          163
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          942
+          "2007: Total",
+          959
         ],
         [
-          "2005 Schweiz",
-          807
+          "2007: Schweiz",
+          850
         ],
         [
-          "2005 Ausland",
-          135
+          "2007: Ausland",
+          109
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          942
+        ],
+        [
+          "2005: Schweiz",
+          807
+        ],
+        [
+          "2005: Ausland",
+          135
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           967
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           849
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           118
         ]
       ],
@@ -91,79 +107,95 @@
       "legendIndex": 1,
       "data": [
         [
-          "2015 Total",
-          379
+          "2019: Total",
+          448
         ],
         [
-          "2015 Schweiz",
-          325
+          "2019: Schweiz",
+          331
         ],
         [
-          "2015 Ausland",
-          54
+          "2019: Ausland",
+          111
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          341
+          "2015: Total",
+          379
         ],
         [
-          "2011 Schweiz",
-          291
+          "2015: Schweiz",
+          325
         ],
         [
-          "2011 Ausland",
-          50
+          "2015: Ausland",
+          54
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          485
+          "2011: Total",
+          341
         ],
         [
-          "2007 Schweiz",
-          424
+          "2011: Schweiz",
+          291
         ],
         [
-          "2007 Ausland",
-          61
+          "2011: Ausland",
+          50
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          508
+          "2007: Total",
+          485
         ],
         [
-          "2005 Schweiz",
-          440
+          "2007: Schweiz",
+          424
         ],
         [
-          "2005 Ausland",
-          68
+          "2007: Ausland",
+          61
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          508
+        ],
+        [
+          "2005: Schweiz",
+          440
+        ],
+        [
+          "2005: Ausland",
+          68
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           467
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           392
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           75
         ]
       ],
@@ -176,83 +208,99 @@
       "legendIndex": 2,
       "data": [
         [
-          "2015 Total",
-          30
+          "2019: Total",
+          38
         ],
         [
-          "2015 Schweiz",
-          25
+          "2019: Schweiz",
+          34
         ],
         [
-          "2015 Ausland",
-          5
+          "2019: Ausland",
+          4
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          19
+          "2015: Total",
+          30
         ],
         [
-          "2011 Schweiz",
-          18
+          "2015: Schweiz",
+          25
         ],
         [
-          "2011 Ausland",
-          1
+          "2015: Ausland",
+          5
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          53
+          "2011: Total",
+          19
         ],
         [
-          "2007 Schweiz",
-          45
+          "2011: Schweiz",
+          18
         ],
         [
-          "2007 Ausland",
-          8
+          "2011: Ausland",
+          1
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          48
+          "2007: Total",
+          53
         ],
         [
-          "2005 Schweiz",
-          41
+          "2007: Schweiz",
+          45
         ],
         [
-          "2005 Ausland",
-          7
+          "2007: Ausland",
+          8
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          48
+        ],
+        [
+          "2005: Schweiz",
+          41
+        ],
+        [
+          "2005: Ausland",
+          7
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           51
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           40
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           11
         ]
       ],
-      "name": "Eher ungern",
+      "name": "Eher ungerne",
       "turboThreshold": 0
     },
     {
@@ -261,15 +309,15 @@
       "legendIndex": 3,
       "data": [
         [
-          "2015 Total",
-          11
+          "2019: Total",
+          12
         ],
         [
-          "2015 Schweiz",
+          "2019: Schweiz",
           10
         ],
         [
-          "2015 Ausland",
+          "2019: Ausland",
           1
         ],
         [
@@ -277,31 +325,31 @@
           null
         ],
         [
-          "2011 Total",
-          9
+          "2015: Total",
+          11
         ],
         [
-          "2011 Schweiz",
-          9
+          "2015: Schweiz",
+          10
         ],
         [
-          "2011 Ausland",
-          0
+          "2015: Ausland",
+          1
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          7
+          "2011: Total",
+          9
         ],
         [
-          "2007 Schweiz",
-          7
+          "2011: Schweiz",
+          9
         ],
         [
-          "2007 Ausland",
+          "2011: Ausland",
           0
         ],
         [
@@ -309,15 +357,15 @@
           null
         ],
         [
-          "2005 Total",
-          11
+          "2007: Total",
+          7
         ],
         [
-          "2005 Schweiz",
-          11
+          "2007: Schweiz",
+          7
         ],
         [
-          "2005 Ausland",
+          "2007: Ausland",
           0
         ],
         [
@@ -325,19 +373,35 @@
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          11
+        ],
+        [
+          "2005: Schweiz",
+          11
+        ],
+        [
+          "2005: Ausland",
+          0
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           9
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           7
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           2
         ]
       ],
-      "name": "Ganz ungern",
+      "name": "Ganz ungerne",
       "turboThreshold": 0
     },
     {
@@ -346,15 +410,15 @@
       "legendIndex": 4,
       "data": [
         [
-          "2015 Total",
+          "2019: Total",
+          7
+        ],
+        [
+          "2019: Schweiz",
           6
         ],
         [
-          "2015 Schweiz",
-          5
-        ],
-        [
-          "2015 Ausland",
+          "2019: Ausland",
           1
         ],
         [
@@ -362,31 +426,31 @@
           null
         ],
         [
-          "2011 Total",
-          2
+          "2015: Total",
+          6
         ],
         [
-          "2011 Schweiz",
-          2
+          "2015: Schweiz",
+          5
         ],
         [
-          "2011 Ausland",
-          0
+          "2015: Ausland",
+          1
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          5
+          "2011: Total",
+          2
         ],
         [
-          "2007 Schweiz",
-          5
+          "2011: Schweiz",
+          2
         ],
         [
-          "2007 Ausland",
+          "2011: Ausland",
           0
         ],
         [
@@ -394,15 +458,15 @@
           null
         ],
         [
-          "2005 Total",
-          1
+          "2007: Total",
+          5
         ],
         [
-          "2005 Schweiz",
-          1
+          "2007: Schweiz",
+          5
         ],
         [
-          "2005 Ausland",
+          "2007: Ausland",
           0
         ],
         [
@@ -410,19 +474,35 @@
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          1
+        ],
+        [
+          "2005: Schweiz",
+          1
+        ],
+        [
+          "2005: Ausland",
+          0
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           3
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           3
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           0
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
       "turboThreshold": 0
     }
   ],
@@ -559,7 +639,7 @@
     "text": "Beurteilung des Wohnorts nach Heimat"
   },
   "subtitle": {
-    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»"
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt, 2019"
   },
   "yAxis": {
     "tickInterval": 25,
@@ -611,7 +691,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
   },
   "navigation": {
     "buttonOptions": {
@@ -619,6 +699,6 @@
     }
   },
   "exporting": {
-    "filename": 6739
+    "filename": "6739"
   }
 }
