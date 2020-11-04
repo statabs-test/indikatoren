@@ -1656,7 +1656,7 @@ var templatesById = {
 	"9035": "line001_print",
 	"9036": "befragungen001_print",
 	"9176": "befragungen001_print",
-	"9178": "befragungen001_print",
+	"9178": "befragungenGrundauswertung001_print",
 	"9995": "mappie001",
 	"9996": "spider001",
 	"9997": "bubble001",

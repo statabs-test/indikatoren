@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 5,
       "data": [
         [
           "2019: \u003C3 000 Fr.",
@@ -88,7 +90,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#73BA7C",
+      "index": 1,
+      "legendIndex": 4,
       "data": [
         [
           "2019: \u003C3 000 Fr.",
@@ -175,7 +179,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#FFBB58",
+      "index": 2,
+      "legendIndex": 3,
       "data": [
         [
           "2019: \u003C3 000 Fr.",
@@ -262,7 +268,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#FF8028",
+      "index": 3,
+      "legendIndex": 2,
       "data": [
         [
           "2019: \u003C3 000 Fr.",
@@ -350,6 +358,8 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 4,
+      "legendIndex": 1,
       "data": [
         [
           "2019: \u003C3 000 Fr.",
@@ -437,6 +447,8 @@
     },
     {
       "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
       "data": [
         [
           "2019: \u003C3 000 Fr.",
@@ -530,85 +542,55 @@
     "lineWidth": 0.5,
     "tickLength": 0,
     "title": {
-      "style": {
-        "color": "#000000"
-      }
+      "text": null
     },
     "labels": {
-      "rotation": 0,
+      "rotation": -45,
+      "align": "right",
+      "reserveSpace": true,
+      "useHTML": true,
       "style": {
         "fontSize": "10px",
-        "fontFamily": "Arial",
         "color": "#000000",
-        "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": undefined,
-      "align": "left",
-      "reserveSpace": true,
-      "x": -4
+      "formatter": function () {
+                    return this.value.replace("*", "<b>"); //used for indentation in web-charts
+                }
     }
   },
   "chart": {
     "events": {
       "load": function () {
                     this.credits.element.onclick = function () { };
-
-                    //add top-margin if legend is right to allow space for axis-labels
-                    if (this['legend']['options']['layout'] == 'vertical') {
-                        this.update({
-                            chart: {
-                                marginTop: 6
-                            }
-                        });
-                    }
-
-                    //square legends must be placed 3 pixels more to the left than lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update({
-                            legend: {
-                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
                             }
-                        });
+                        );
                     }
                 }
     },
-    "type": "column",
-    "width": 320,
-    "height": 513,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "width": 665,
+    "height": 283,
+    "spacingBottom": 15,
+    "type": "column",
     "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px"
+      "fontFamily": "Arial"
     },
-    "inverted": true,
-    "renderTo": "container-9178",
-    "spacingBottom": 12
+    "renderTo": "container-9178"
   },
   "plotOptions": {
     "series": {
       "stacking": "percent",
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    },
-    "column": {
-      "groupPadding": 0
+      "borderWidth": 0
     }
   },
   "title": {
@@ -618,49 +600,42 @@
     "text": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt"
   },
   "yAxis": {
-    "tickInterval": null,
-    "lineColor": "#B9CFD7",
+    "tickInterval": 20,
+    "max": 100,
+    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "title": {
-      "text": null
-    },
+    "lineColor": "#B9CFD7",
     "labels": {
-      "y": 3,
       "format": "{value}%",
+      "rotation": 0,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       }
     },
-    "reversedStacks": false
+    "title": {
+      "text": null
+    }
   },
   "legend": {
     "enabled": true,
-    "useHTML": true,
+    "useHTML": false,
+    "reversed": true,
     "layout": "horizontal",
-    "align": "left",
     "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "padding": 0,
+    "itemDistance": 2,
     "itemMarginBottom": 5,
+    "itemMarginTop": -7,
     "itemStyle": {
-      "fontFamily": "Arial",
-      "fontSize": "10px",
       "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap",
-      "color": "#000000"
-    },
-    "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            },
-    "itemWidth": 150
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+      "fontSize": "10px",
+      "color": "#000000",
+      "textOverflow": "none"
+    }
   },
   "credits": {
     "enabled": true,
@@ -668,11 +643,6 @@
       "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-14"
-  },
-  "navigation": {
-    "buttonOptions": {
-      "enabled": false
-    }
   },
   "exporting": {
     "filename": 9178
