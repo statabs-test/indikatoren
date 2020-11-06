@@ -262,7 +262,7 @@
     },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -277,7 +277,7 @@
       "fontSize": "10px"
     },
     "renderTo": "container-8384",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -348,9 +348,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "navigation": {
     "buttonOptions": {
@@ -358,6 +358,6 @@
     }
   },
   "exporting": {
-    "filename": 8384
+    "filename": "8384"
   }
 }
