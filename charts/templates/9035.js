@@ -7,7 +7,7 @@
       "format": "{value:,.0f}",
     }
   },
-  xAxis: {
+  /*xAxis: {
 	tickPositioner: function () {
 		var interval = 2,
 			ext = this.getExtremes(),
@@ -16,7 +16,7 @@
 		while (i >= ext.dataMin) pos.unshift(i = i - interval);
 		return pos;
 	}
-},
+},*/
   "series": [
     {
       "marker": {
