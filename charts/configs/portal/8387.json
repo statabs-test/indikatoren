@@ -261,7 +261,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?»",
+    "text": "«Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?», Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -304,7 +304,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74a-g.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "legend": {
     "padding": 0,
@@ -331,6 +331,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8387
+    "filename": "8387"
   }
 }

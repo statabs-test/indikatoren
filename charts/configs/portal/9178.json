@@ -558,7 +558,8 @@
       "formatter": function () {
                     return this.value.replace("*", "<b>"); //used for indentation in web-charts
                 }
-    }
+    },
+    "reversed": true
   },
   "chart": {
     "events": {
@@ -579,7 +580,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 283,
+    "height": 213,
     "spacingBottom": 15,
     "type": "column",
     "style": {
@@ -645,6 +646,6 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-14"
   },
   "exporting": {
-    "filename": 9178
+    "filename": "9178"
   }
 }

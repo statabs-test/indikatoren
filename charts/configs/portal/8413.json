@@ -190,7 +190,7 @@
     },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -205,7 +205,7 @@
       "fontSize": "10px"
     },
     "renderTo": "container-8413",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -277,9 +277,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "navigation": {
     "buttonOptions": {
@@ -287,6 +287,6 @@
     }
   },
   "exporting": {
-    "filename": 8413
+    "filename": "8413"
   }
 }

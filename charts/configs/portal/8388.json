@@ -225,7 +225,7 @@
     "text": "Beurteilung des Verhältnisses zur Nachbarschaft"
   },
   "subtitle": {
-    "text": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»"
+    "text": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -279,7 +279,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-14"
   },
   "navigation": {
     "buttonOptions": {
@@ -287,6 +287,6 @@
     }
   },
   "exporting": {
-    "filename": 8388
+    "filename": "8388"
   }
 }

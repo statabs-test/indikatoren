@@ -221,7 +221,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-7"
   },
   "navigation": {
     "buttonOptions": {
@@ -229,6 +229,6 @@
     }
   },
   "exporting": {
-    "filename": 8409
+    "filename": "8409"
   }
 }
