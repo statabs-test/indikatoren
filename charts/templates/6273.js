@@ -9,7 +9,8 @@
     }*/ 
   },
   "yAxis": {
-    min: null,
+    min: -1,
+    tickInterval: 1,
     "labels": {
       y: 12,
       "format": "{value}%"
