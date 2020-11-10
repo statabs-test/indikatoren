@@ -1,5 +1,12 @@
 (function () {
     return {
+        "chart": {
+            marginLeft: 140,
+            "inverted": true,
+            width: 665,
+            height: 240,//208, //Maps: 325
+            spacing: [1, 1, 1, 1]
+        },
         "yAxis": {
             tickInterval: 25,
             labels: {
@@ -9,6 +16,7 @@
         "xAxis": {
             "type": "category",
             // categories: ['2019: männlich', '2019: weiblich', '2015: männlich',	'2015: weiblich',	'2011: männlich',	'2011: weiblich',	'2007: männlich',	'2007: weiblich',	'2005: männlich', '2005: weiblich'],
+            reversed: false,
             "labels": {
                 align: "left",
                 x: -125,
@@ -29,7 +37,7 @@
                 }
             }
         },
-        data: {
+/*        data: {
             //only keep first and last year
             parsed: function (columns) {
                 columns.forEach(function (column, i, arr) {
@@ -37,6 +45,7 @@
                 });
             }
         },
+*/
         plotOptions: {
             column: {
                 groupPadding: 0,
@@ -55,11 +64,5 @@
             { "color": "#dc440e", "index": 1, "legendIndex": 8 }, /*rot hell */
             { "color": "#b00000", "index": 0, "legendIndex": 9 } /*rot dunkel */
         ],
-        "chart": {
-            marginLeft: 140,
-            "inverted": true,
-            width: 665,
-            spacing: [1, 1, 1, 1]
-        },
     };
 }());
