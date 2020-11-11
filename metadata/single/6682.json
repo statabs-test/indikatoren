@@ -18,7 +18,7 @@
 "erlaeuterungen":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
 "template":"line001_print",
 "darstellungsart":"",
-"printformat":"large", 
+"printformat":"", 
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"03_00_00_00_00_101",

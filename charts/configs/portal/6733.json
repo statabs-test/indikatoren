@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#71a3b5",
-      "index": 6,
-      "legendIndex": 0,
+      "index": 5,
+      "legendIndex": 1,
       "data": [
         [
           "Schweiz",
@@ -55,8 +55,8 @@
     },
     {
       "color": "#672773",
-      "index": 5,
-      "legendIndex": 1,
+      "index": 4,
+      "legendIndex": 2,
       "data": [
         [
           "Schweiz",
@@ -108,8 +108,8 @@
     },
     {
       "color": "#ff8028",
-      "index": 4,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "Schweiz",
@@ -161,8 +161,8 @@
     },
     {
       "color": "#73ba7c",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 2,
+      "legendIndex": 4,
       "data": [
         [
           "Schweiz",
@@ -214,8 +214,8 @@
     },
     {
       "color": "#E7CEE2",
-      "index": 2,
-      "legendIndex": 4,
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
           "Schweiz",
@@ -264,16 +264,6 @@
       ],
       "name": "Andere\u002Fohne\u002Funbekannt",
       "turboThreshold": 0
-    },
-    {
-      "color": "#fabd24",
-      "index": 1,
-      "legendIndex": 5
-    },
-    {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 6
     }
   ],
   "xAxis": {

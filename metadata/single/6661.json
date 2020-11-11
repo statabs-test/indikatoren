@@ -18,7 +18,7 @@
 "erlaeuterungen":"Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 "template":"line001_print",
 "darstellungsart":"",
-"printformat":"", 
+"printformat":"small", 
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"01_00_00_00_00_402",
