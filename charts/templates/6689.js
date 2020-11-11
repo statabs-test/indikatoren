@@ -5,9 +5,9 @@
         tickPositioner: function () {
           var interval = 24,
             ext = this.getExtremes(),
-            i = ext.dataMax,
-            pos = [i-6];
-          while (i-6 >= ext.dataMin) pos.unshift(i = i - interval -6);
+            i = ext.dataMax-6,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
           return pos;
         }, 
         labels: { 
