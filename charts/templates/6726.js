@@ -27,7 +27,10 @@
   },
   "xAxis": {
   	type: "linear",
-  	tickInterval: 1,
+    tickInterval: 1,
+    labels: {
+      rotation: 0
+    }
   },
   "legend": {
     "enabled": true,

@@ -6,13 +6,17 @@
       "format": "{value:,.0f}%",
     }
   },
-  "xAxis": {
-    //type: 'category',
-	  tickInterval: 1,
-	  //tickPositions: [1998, 2003, 2008, 2012, 2017],
-	  labels:{
-	  	rotation: -45,
-	  	step: 1,
+  xAxis: {
+    tickPositioner: function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }, 
+    labels:{
+	  	rotation: 0
 	  }
   },
   "series": [
