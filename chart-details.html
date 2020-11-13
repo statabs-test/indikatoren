@@ -32,11 +32,18 @@
     <style type="text/css">
       html, body {
         background-color: #fcfcfc;
-        overflow-x:hidden
+        /*overflow-x: hidden1;
+        width: 100vw;*/
       }      
+      #body-wrapper{
+        /*width: 100vw;*/
+        /*overflow-x: hidden;*/
+        /*width: 50vw !important;*/
+        /*position:relative;*/
+      }
       
       .lesehilfe {
-        width: 468px;
+        max-width: 468px;
       }
       
       .bs-logo-link {
@@ -137,7 +144,7 @@
     })(window,document,'script','dataLayer','GTM-KGK459');</script>
     <!-- End Google Tag Manager -->
     
-    <div style='overflow-x:hidden'>
+    <div id='body-wrapper'>
 
 
     <div id='header' class='hidden'>
@@ -181,7 +188,7 @@
 
     <script type="text/javascript">
             
-            
+      console.log(window.innerWidth);
       
       /*  
       global $
