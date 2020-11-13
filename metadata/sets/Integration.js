@@ -2988,7 +2988,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:18:27.2727",
+		"aktualisierungsdatum": "2020-11-13T11:33:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -4443,7 +4443,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T09:57:20.2020",
+		"aktualisierungsdatum": "2020-11-11T16:26:55.5555",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",

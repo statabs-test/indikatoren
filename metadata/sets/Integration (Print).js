@@ -2790,7 +2790,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?», Basel-Stadt",
 		"kuerzel": "I.50.1.06713",
 		"kuerzelKunde": "C7-1",
 		"description": "Zufriedenheit mit dem Arbeitsplatzangebot",
@@ -2800,7 +2800,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2020-11-11T17:11:34.3434",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -4218,7 +4218,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T09:57:20.2020",
+		"aktualisierungsdatum": "2020-11-11T16:26:55.5555",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",

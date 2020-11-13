@@ -596,7 +596,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginTop": 5,
     "renderTo": "container-6720",
     "spacingBottom": 12
   },
@@ -640,7 +639,7 @@
         "color": "#000000"
       }
     },
-    "max": 80,
+    "max": 60,
     "tickInterval": 20
   },
   "xAxis": {
@@ -653,10 +652,10 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "rotation": -45
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -676,18 +675,22 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 4,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "padding": 0,
-    "labelFormatter": function () {
-        return this.name.replace(" ", "<br>").replace("<br>und", " u.<br>").replace("<br>+", " +").replace("Übrige<br>", "Übrige ");
+    "padding": 1,
+    "itemWidth": 130,
+    "width": 299,
+    "labelFormatter": function(){
+        return this.name.replace("&", "u.");
       }
   },
   "plotOptions": {

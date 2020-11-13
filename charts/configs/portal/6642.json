@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "#cd9c00",
       "data": [
         [
@@ -186,7 +182,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "spacingTop": 7,
     "renderTo": "container-6642",
     "spacingBottom": 12
   },
@@ -210,8 +205,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -244,11 +238,17 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "rotation": -45,
-      "step": 1
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositioner": function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

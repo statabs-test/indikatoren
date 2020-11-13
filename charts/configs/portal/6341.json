@@ -711,25 +711,28 @@
         "textOverflow": "none",
         "width": 1
       },
-      "formatter": function() {
-              //add sum of observations of visible series to the axis label
-              var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                  return val.visible;
-              });
-              var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-              var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                  return accumulator + series.yData[indexOfCurrentValue];
-              }, 0);
-              //use N if all series are visible, otherwise use n
-              var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
-              //check for value that contains only spaces
-          	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-          },
-      "align": "left",
-      "x": -150,
-      "y": 3,
-      "padding": 0,
-      "step": 1
+      "formatter": function () {
+          //add sum of observations of visible series to the axis label
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.visible;
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n=';
+
+          //delete everything before ":", including ":"
+          this.value = this.value.replace(/[^:]*:/, "");
+
+          //check for value that contains only spaces
+          if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+          //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+          return "<b>" + this.value + "</b>";
+        },
+      "align": "right",
+      "y": 3
     },
     "tickInterval": 1
   },
@@ -738,10 +741,10 @@
     "width": 665,
     "height": 221,
     "spacing": [
-      1,
-      1,
-      1,
-      1
+      2,
+      2,
+      2,
+      2
     ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -796,10 +799,9 @@
 					}
 				}
     },
-    "marginLeft": 165,
     "inverted": true,
     "renderTo": "container-6341",
-    "spacingBottom": 11
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -830,7 +832,7 @@
       "text": null
     },
     "labels": {
-      "y": 10,
+      "y": 12,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
@@ -876,6 +878,6 @@
     }
   },
   "exporting": {
-    "filename": 6341
+    "filename": "6341"
   }
 }

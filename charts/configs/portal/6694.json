@@ -660,7 +660,7 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "rotation": -45
+      "rotation": 0
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -690,9 +690,13 @@
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "padding": 0,
+    "padding": 1,
+    "itemWidth": 120,
+    "width": 250,
     "labelFormatter": function(){
       return this.name.replace("&", "u.");
     }

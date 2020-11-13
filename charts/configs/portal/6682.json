@@ -659,7 +659,8 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
     "tickInterval": 1

@@ -623,31 +623,34 @@
       }
     },
     "labels": {
-      "rotation": 0,
+      "rotation": -45,
       "style": {
-        "fontSize": "9.999px",
+        "fontSize": "10px",
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none",
         "width": 1
       },
-      "formatter": function() {
-				    //add sum of observations of visible series to the axis label
-				    var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-				        return val.visible;
-				    });
-				    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-				    var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-				        return accumulator + series.yData[indexOfCurrentValue];
-				    }, 0);
-				    //use N if all series are visible, otherwise use n
-				    var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n='; 
-				    //check for value that contains only spaces
-						return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-					},
-      "align": "left",
-      "x": -110,
-      "y": 3
+      "formatter": function () {
+          //add sum of observations of visible series to the axis label
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.visible;
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n=';
+
+          //delete everything before ":", including ":"
+          this.value = this.value.replace(/[^:]*:/, "");
+
+          //check for value that contains only spaces
+          if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+          //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+          return "<b>" + this.value + "</b>";
+        }
     }
   },
   "chart": {
@@ -713,8 +716,6 @@
 					}
 				}
     },
-    "marginLeft": 125,
-    "inverted": true,
     "renderTo": "container-6340",
     "spacingBottom": 12
   },
@@ -761,7 +762,7 @@
     "useHTML": true,
     "layout": "vertical",
     "align": "right",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,
     "itemMarginBottom": 4,
@@ -774,7 +775,8 @@
     },
     "labelFormatter": function () {
 				return this.name.replace('/ ', '/<br/>');
-			}
+			},
+    "reversed": true
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -793,6 +795,6 @@
     }
   },
   "exporting": {
-    "filename": 6340
+    "filename": "6340"
   }
 }
