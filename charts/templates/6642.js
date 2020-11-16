@@ -1,5 +1,6 @@
 (function () {
   return {
+    chart: {marginRight: 15},
     xAxis: {
       tickPositioner: function () {
         var interval = 2,
