@@ -694,7 +694,8 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true
+    "enabled": true,
+    "reversed": true
   },
   "exporting": {
     "filename": "6510"

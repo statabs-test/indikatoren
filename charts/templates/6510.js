@@ -40,6 +40,7 @@
         },
         "legend": {
           "enabled": true,
+          reversed: true,
           "layout": "horizontal",
           "verticalAlign": "top",
           "itemMarginBottom": 5,
