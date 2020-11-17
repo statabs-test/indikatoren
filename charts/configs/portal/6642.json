@@ -224,7 +224,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value:,.0f}"
     },
     "tickAmount": 5
   },
@@ -242,13 +242,13 @@
     },
     "tickLength": 0,
     "tickPositioner": function () {
-      var interval = 2,
-        ext = this.getExtremes(),
-        i = ext.dataMax,
-        pos = [i];
-      while (i >= ext.dataMin) pos.unshift(i = i - interval);
-      return pos;
-    }
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -283,6 +283,13 @@
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
