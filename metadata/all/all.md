@@ -1836,6 +1836,7 @@ id | visible | visibleInPortal | indikatorenset
 9124 | true | true | Sicherheit im öffentlichen Raum
 9125 | true | true | Sicherheit im öffentlichen Raum
 9126 | true | true | Sicherheit im öffentlichen Raum
+9127 | true | true | Sicherheit im öffentlichen Raum
 9128 | true | true | Sicherheit im öffentlichen Raum
 9129 | true | true | Sicherheit im öffentlichen Raum
 9130 | true | false | Sicherheit im öffentlichen Raum
@@ -1849,6 +1850,7 @@ id | visible | visibleInPortal | indikatorenset
 9152 | true | true | Sicherheit im öffentlichen Raum
 9154 | true | true | Sicherheit im öffentlichen Raum
 9155 | true | true | Sicherheit im öffentlichen Raum
+9181 | true | true | Sicherheit im öffentlichen Raum
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
