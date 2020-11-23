@@ -285,7 +285,7 @@
       "format": "{value:,.0f}"
     },
     "tickInterval": 10,
-    "max": 70
+    "max": 60
   },
   "legend": {
     "padding": 1,

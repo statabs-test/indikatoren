@@ -55,7 +55,7 @@
     "align": "right",
     reversed: true,
     labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
+      return this.name.replace(" ", "<br/>").replace("-", "-<br/>").replace("unbek", "<br/>unbek").replace("istka", "ist-<br/>ka");
     },
     "itemStyle": {
       "fontWeight": "normal",

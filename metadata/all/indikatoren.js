@@ -30883,7 +30883,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:36:37.3737",
+		"aktualisierungsdatum": "2020-11-19T11:09:32.3232",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",

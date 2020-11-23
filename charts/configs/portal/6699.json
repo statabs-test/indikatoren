@@ -500,8 +500,8 @@
       "format": "{value:,.0f}",
       "rotation": 0
     },
-    "max": 700,
-    "tickInterval": 100
+    "max": 800,
+    "tickInterval": 200
   },
   "legend": {
     "padding": 0,

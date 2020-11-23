@@ -182,6 +182,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 15,
     "renderTo": "container-6642",
     "spacingBottom": 12
   },
