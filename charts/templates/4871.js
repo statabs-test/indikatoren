@@ -1,13 +1,12 @@
 (function () {
   return {
     "chart": {
-      "type": "column"
+      "type": "column",
+      spacingBottom: 40
     },
     plotOptions: {
-      column:{
+      column: {
         grouping: false,
-//        groupPadding: 0
-
       }
     },
     "yAxis": {
@@ -25,7 +24,7 @@
         }
       }
     },
-    legend:{
+    legend: {
       verticalAlign: 'top',
       align: 'left'
     },
@@ -36,7 +35,6 @@
       {
         "color": "#FABD24"
       }
-
     ],
     "tooltip": {
       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
