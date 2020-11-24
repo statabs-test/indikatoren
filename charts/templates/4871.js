@@ -1,9 +1,14 @@
 (function () {
   return {
     "chart": {
-      "marginBottom": 75,
-      "marginTop": 75,
       "type": "column"
+    },
+    plotOptions: {
+      column:{
+        grouping: false,
+//        groupPadding: 0
+
+      }
     },
     "yAxis": {
       tickInterval: 10,
@@ -20,13 +25,18 @@
         }
       }
     },
-    "legend": {
-      "enabled": false
+    legend:{
+      verticalAlign: 'top',
+      align: 'left'
     },
     "series": [
       {
         "color": "#0070C0"
+      },
+      {
+        "color": "#FABD24"
       }
+
     ],
     "tooltip": {
       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
