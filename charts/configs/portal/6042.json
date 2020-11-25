@@ -34,6 +34,9 @@
       ],
       "name": "Wahlbeteiligung",
       "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24"
     }
   ],
   "xAxis": {
@@ -90,11 +93,9 @@
                     }
                 }
     },
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
-    "renderTo": "container-6042",
-    "spacingBottom": 40
+    "spacingBottom": 50,
+    "renderTo": "container-6042"
   },
   "plotOptions": {
     "series": {
@@ -104,6 +105,9 @@
           "fontSize": "10px"
         }
       }
+    },
+    "column": {
+      "grouping": false
     }
   },
   "title": {
@@ -148,7 +152,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
