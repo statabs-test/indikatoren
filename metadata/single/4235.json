@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Berechnet werden die Flächenanteile der rechtskräftigen und der provisorischen Grundwasserschutzzonen für Trinkwasserfassungen, die in den jeweiligen Zonenplänen Siedlung oder Landschaft liegen.<br><br>Grundwasserschutzzonen dienen dem Schutz des Trinkwassers. In diesen Zonen sollten keine Anlagen erstellt oder Tätigkeiten ausgeführt werden, die zu einer Gefährdung des Trinkwassers führen können. Als Mass für die gesamtheitliche Beurteilung der Wirkung von Grundwasserschutzzonen wird hier angegeben, wie gross die Anteile der Schutzzonen im Zonenplan Siedlung (ZPS) resp. im Zonenplan Landschaft (ZPL) sind. Bei Grundwasserschutzzonen im Zonenplan Siedlung ist mit Nutzungskonflikten und Gefährdungen des Trinkwassers zu rechnen. Für Grundwasserschutzzonen im Zonenplan Landschaft sind diese Nutzungskonflikte wesentlich geringer.",
-"template":"map_gemeinden",
+"template":"",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,

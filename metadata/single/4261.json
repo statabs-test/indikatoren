@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Daten basieren auf einer jährlichen Auswertung der kantonalen Kataster der belasteten Standorte.<br><br>Anzahl Baugesuche pro Jahr, welche altlastenrechtlich beurteilt werden.",
-"template":"map_gemeinden",
+"template":"",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

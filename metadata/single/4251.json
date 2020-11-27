@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Daten basieren auf dem Erosionsmonitoring des Kantons Basel-Landschaft. Dabei werden alle zehn Jahre ca. 9% aller Landwirtschaftsbetriebe im Kanton befragt (strukturiertes Experteninterview), welche Ackerbau betreiben und eine Bewirtschaftungsfläche von mehr als zehn Hektar besitzen. <br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen (Erosionsmonitoring im Kanton Basel-Landschaft 1982-2012).<br><br>Der Indikator zeigt Veränderungen der Verbreitung von Bodenbearbeitungssystemen unterschiedlicher Intensität auf. Solche Veränderungen geschehen über längere Zeiträume, da sie entsprechendes Wissen und Geräte voraussetzen. Der Indikator wird regionalisiert in Ober- (OBB) und Unterbaselbiet (UBB). Im Laufental und im Kanton Basel-Stadt ist die Anzahl der erfassten Betriebe für eine Regionalisierung zu gering. Die Bodenbearbeitungssysteme werden dabei in fünf Kategorien eingeteilt, die der Intensität der Eingriffe in den Boden von gering (z.B. Direktsaat) bis hoch (z.B. Pflug mit zapfwellengetriebenem Folgegerät) entsprechen. ",
-"template":"map_gemeinden",
+"template":"",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,

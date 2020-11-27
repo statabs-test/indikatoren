@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Bei den Längenangaben handelt es sich um Horizontallängen, Durchhänge und Höhe sind darin entsprechend nicht berücksichtigt. Auf einer Trasse können verschiedene Spannungen parallel geführt werden. Für die hier geführten Angaben ist jeweils die höchste Spannungsebene einer Trasse massgebend.<br><br>Die Werte vor dem Jahr 2015 beruhen teilweise auf Schätzungen.<br><br>Länge der Trassen der Höchst-, Hoch- und Mittelspannungsleitungen (Netzebenen 1,3 und 5).",
-"template":"map_gemeinden",
+"template":"",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,

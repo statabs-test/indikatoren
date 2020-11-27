@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Aufzeichnung des Zeitpunktes (Anzahl Tage seit Jahresbeginn) des Aufblühens eines am Waldrand stehenden wilden Kirschbaums in Liestal (Burghalden). Als Beginn der Kirschblüte gilt, wenn sich 25% der Blüten geöffnet haben.<br><br>Der Indikator zeigt die Entwicklung des jährlichen Beginns der Kirschblüte in Liestal und lässt somit Aussagen über die Auswirkungen der veränderten klimatischen Bedingungen zu. Die lange phänologische Zeitreihe (seit 1894) wird, zusammen mit einer in Genf seit 1808 beobachteten Rosskastanie, vom Bundesamt für Meteorologie (MeteoSchweiz) als Ergänzung zum phänologischen Beobachtungsnetz für Klimabeobachtungen verwendet.",
-"template":"map_gemeinden",
+"template":"",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,

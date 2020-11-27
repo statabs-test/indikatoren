@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Als Wohnersatzprojekt gelten Projekte, bei welchen ältere Wohnbauten abgebrochen und durch neue Wohngebäude ersetzt werden. Zur Ermittlung der Wohnersatzprojekte wird um abgerissene Wohngebäude ein Puffer von 20 Metern gelegt. Für die neuen Wohngebäude, die in den Folgejahren (bis zu fünf Jahre) innerhalb dieses Puffers gebaut werden, wird das Verhältnis der alten zur neuen Wohnungsanzahl berechnet. Als Datengrundlage dient die Gebäudedatenbank des Kantons Basel-Landschaft.<br><br>Verhältnis zwischen abgebrochenen und neu erstellten Wohnungen durch Siedlungserneuerung (Wohnersatzprojekte). Der Indikator zeigt somit den Grad der Verdichtung, welcher durch die Siedlungserneuerung erreicht wird.",
-"template":"map_gemeinden",
+"template":"",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,
