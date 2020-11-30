@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Rohdaten für die Berechnung des Indikators stammen aus den schweizweiten Erhebungen der Gefässpflanzen zum Indikator Artenvielfalt in Landschaften (Z7) des Biodiversitätsmonitorings Schweiz (BDM). Das Vorkommen von Gefässpflanzen wird auf Stichprobenflächen (Rasterzellen) von einem Quadratkilometer nach standardisierten Methoden erhoben. Das Stichprobenetz bildet ein regelmässiges Raster, das über der Schweiz liegt, ausgehend von einem zufällig gewählten Punkt. Der Kanton Basel-Landschaft verfügt über insgesamt elf solcher Stichprobenflächen.<br><br><br><br>Mittlere Artenzahl der Gefässpflanzen pro Quadratkilometer, standardisiert für eine Höhe von 500 m ü. M.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,

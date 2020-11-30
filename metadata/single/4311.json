@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Aufsummierung der Gebäudeflächen von bewilligten Neubauten, welche ausserhalb der Bauzone liegen. Der Indikator wird im Rahmen der Analyse «Bauen ausserhalb Bauzone» erhoben (siehe weiterführende Informationen). <br><br>Neu überbaute Fläche innerhalb der Landwirtschaftszone.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,
