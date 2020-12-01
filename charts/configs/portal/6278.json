@@ -598,7 +598,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-4"
   },
   "legend": {
     "enabled": true,
@@ -629,6 +629,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6278
+    "filename": "6278"
   }
 }

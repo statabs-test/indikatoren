@@ -549,15 +549,18 @@
     "itemStyle": {
       "fontSize": "10px",
       "color": "#000000",
-      "fontWeight": "normal",
-      "textOverflow": "none",
-      "whiteSpace": "nowrap"
+      "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "itemWidth": 160
+    "itemWidth": 165,
+    "labelFormatter": function(){
+      return this.name.replace("Dienstl.", "DL")
+      .replace("dienstl.", "-DL");
+
+    }
   },
   "navigation": {
     "menuItemStyle": {

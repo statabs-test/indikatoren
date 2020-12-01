@@ -89,6 +89,10 @@
         [
           2018,
           null
+        ],
+        [
+          2019,
+          null
         ]
       ],
       "name": "Unfälle"
@@ -184,6 +188,10 @@
         [
           2018,
           777
+        ],
+        [
+          2019,
+          747
         ]
       ],
       "name": "Unfälle"
@@ -363,7 +371,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-2"
   },
   "legend": {
     "enabled": false,
