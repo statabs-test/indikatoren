@@ -18,7 +18,7 @@
       tickAmount: 5,
      // max: 40,
       "labels": {
-        "format": "{value:,.0f}"
+        "format": "{value:,.0f}%"
       }
     },
     "series": [
