@@ -452,7 +452,7 @@
       "format": "{value:,.0f}",
       "x": -10
     },
-    "tickAmount": 4
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

@@ -28,10 +28,9 @@
   ],
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    //"x": 155,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
 	  //"y": 60,   
 	 // "itemWidth": 75,
     "itemStyle": {

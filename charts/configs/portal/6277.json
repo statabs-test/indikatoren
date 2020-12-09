@@ -281,7 +281,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.1f}%"
+      "format": "{value:,.0f}%"
     }
   },
   "xAxis": {
@@ -317,9 +317,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {

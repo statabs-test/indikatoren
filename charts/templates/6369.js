@@ -25,9 +25,9 @@
   },
  "legend": {
     enabled:true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     itemWidth: 165,
     labelFormatter: function(){
       return this.name.replace("Dienstl.", "DL")
