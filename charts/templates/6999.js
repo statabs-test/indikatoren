@@ -18,6 +18,10 @@
     },
     "yAxis": {
       tickAmount: 5,
+      labels: { 
+      	format: "{value:,.0f}", 
+      	style:{ color: "black", },
+      },
       "reversedStacks": false
     },
     "tooltip": {
