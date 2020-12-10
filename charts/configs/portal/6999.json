@@ -224,8 +224,9 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "black"
+      },
+      "format": "{value:,.0f}"
     },
     "tickAmount": 5,
     "reversedStacks": false
