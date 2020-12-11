@@ -1,173 +1,224 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "legendIndex": 1,
+      "index": 0,
+      "color": "#008AC3",
       "data": [
         [
-          "0 bis 9 J.",
-          7626
+          2004,
+          63.3
         ],
         [
-          "10 bis 19 J.",
-          2083
+          2005,
+          62.8
         ],
         [
-          "20 bis 29 J.",
-          3709
+          2006,
+          64.5
         ],
         [
-          "30 bis 39 J.",
-          6085
+          2007,
+          60.2
         ],
         [
-          "40 bis 49 J.",
-          4507
+          2008,
+          59.4
         ],
         [
-          "50 bis 59 J.",
-          6333
+          2009,
+          63
         ],
         [
-          "60 bis 69 J.",
-          6604
+          2010,
+          63.5
         ],
         [
-          "70 bis 79 J.",
-          7506
+          2011,
+          64.4
         ],
         [
-          "80 bis 89 J.",
-          6494
+          2012,
+          66.2
         ],
         [
-          "90 Jahre u.m.",
-          1830
+          2013,
+          64.6
+        ],
+        [
+          2014,
+          68.7
+        ],
+        [
+          2015,
+          69.3
+        ],
+        [
+          2016,
+          69.9
+        ],
+        [
+          2017,
+          70.8
+        ],
+        [
+          2018,
+          72.7
+        ],
+        [
+          2019,
+          72.7
         ]
       ],
-      "name": "Allgemein",
-      "turboThreshold": 0
+      "name": "5-Jährige"
     },
     {
-      "color": "#D3E2E4",
-      "legendIndex": 2,
+      "index": 1,
+      "color": "#990300",
       "data": [
         [
-          "0 bis 9 J.",
-          496
+          2004,
+          54.8
         ],
         [
-          "10 bis 19 J.",
-          202
+          2005,
+          55.8
         ],
         [
-          "20 bis 29 J.",
-          213
+          2006,
+          55
         ],
         [
-          "30 bis 39 J.",
-          525
+          2007,
+          54
         ],
         [
-          "40 bis 49 J.",
-          433
+          2008,
+          53
         ],
         [
-          "50 bis 59 J.",
-          963
+          2009,
+          53.1
         ],
         [
-          "60 bis 69 J.",
-          1446
+          2010,
+          54.9
         ],
         [
-          "70 bis 79 J.",
-          2354
+          2011,
+          59
         ],
         [
-          "80 bis 89 J.",
-          2088
+          2012,
+          57.8
         ],
         [
-          "90 Jahre u.m.",
-          573
+          2013,
+          56
+        ],
+        [
+          2014,
+          60.9
+        ],
+        [
+          2015,
+          60.8
+        ],
+        [
+          2016,
+          61.8
+        ],
+        [
+          2017,
+          62.9
+        ],
+        [
+          2018,
+          65.6
+        ],
+        [
+          2019,
+          65.2
         ]
       ],
-      "name": "Halbprivat",
-      "turboThreshold": 0
+      "name": "6-Jährige"
     },
     {
-      "color": "#68AB2B",
-      "legendIndex": 3,
+      "index": 1,
+      "color": "orange",
       "data": [
         [
-          "0 bis 9 J.",
-          460
+          2004,
+          31.6
         ],
         [
-          "10 bis 19 J.",
-          192
+          2005,
+          33.5
         ],
         [
-          "20 bis 29 J.",
-          193
+          2006,
+          30.1
         ],
         [
-          "30 bis 39 J.",
-          429
+          2007,
+          38
         ],
         [
-          "40 bis 49 J.",
-          390
+          2008,
+          30.3
         ],
         [
-          "50 bis 59 J.",
-          759
+          2009,
+          31.8
         ],
         [
-          "60 bis 69 J.",
-          1022
+          2010,
+          29.5
         ],
         [
-          "70 bis 79 J.",
-          1635
+          2011,
+          25.8
         ],
         [
-          "80 bis 89 J.",
-          1386
+          2012,
+          30.8
         ],
         [
-          "90 Jahre u.m.",
-          366
+          2013,
+          36.7
+        ],
+        [
+          2014,
+          40.4
+        ],
+        [
+          2015,
+          42.6
+        ],
+        [
+          2016,
+          43.5
+        ],
+        [
+          2017,
+          41.8
+        ],
+        [
+          2018,
+          48
+        ],
+        [
+          2019,
+          52.5
         ]
       ],
-      "name": "Privat",
-      "turboThreshold": 0
+      "name": "16-Jährige"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -192,17 +243,17 @@
 					}
 				}
     },
-    "inverted": true,
-    "renderTo": "container-6999"
+    "renderTo": "container-9186"
   },
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "symbol": "circle"
       },
-      "pointWidth": 15,
-      "stacking": "normal",
-      "borderWidth": 0
+      "dataLabels": {
+        "enabled": false
+      }
     }
   },
   "title": {
@@ -212,16 +263,34 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Patienten nach Liege- und Altersklasse"
+    "text": "Entwicklung der Kariesfreiheit in Basel-Stadt"
   },
   "subtitle": {
-    "text": "in baselstädtischen Spitälern, 2019",
+    "text": "Anteil der jeweiligen Altersgruppe",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -237,12 +306,13 @@
     },
     "labels": {
       "style": {
-        "color": "black"
+        "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value),0)+'';
+      }
     },
-    "tickAmount": 5,
-    "reversedStacks": false
+    "tickAmount": 7
   },
   "legend": {
     "enabled": true,
@@ -253,6 +323,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemDistance": 8,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -266,9 +337,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-1"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -305,10 +376,12 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
+    },
     "shared": false
   },
   "exporting": {
-    "filename": "6999"
+    "filename": "9186"
   }
 }
