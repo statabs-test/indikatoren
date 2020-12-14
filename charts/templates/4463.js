@@ -94,14 +94,15 @@
     "type": "category"    
   },
   "yAxis": {
+    max: 1,
     "labels": {
-        "formatter": function(){
+            "formatter": function(){
             return Highcharts.numberFormat((100*this.value),0)+'%';                
         },
     } 
   },    
    "legend": {
-   	itemDistance: 5,
+     itemDistance: 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
