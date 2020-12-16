@@ -4,7 +4,7 @@
     tickAmount: 7,
     "labels": {
      	"formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+'';
+        return Highcharts.numberFormat((this.value),0)+'%';
       } 
     },
     
@@ -39,7 +39,7 @@
   ],
   "tooltip": {
    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '% </b><br/><b>'
     },
     "shared": false
   },  
