@@ -60,8 +60,8 @@
       },
       {
         tickAmount: 6,
-        max: 0.35,
-        tickInterval: 0.07,
+        max: 0.6,
+        /*tickInterval: 0.10,*/
         opposite: true,
         min: 0,
         gridLineColor: '#B9CFD7', 
