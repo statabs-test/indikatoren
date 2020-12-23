@@ -85,7 +85,7 @@
       }
     },
     xAxis: {
-      //tickInterval: 5,
+      tickInterval: 5,
       max: 55,
       min: -5,
       labels: {
