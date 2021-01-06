@@ -1,6 +1,7 @@
 (function () {
   return {
     chart: {
+      marginRight: 16,
       //width: 665,
       events: {
         load: function () {
