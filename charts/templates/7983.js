@@ -33,8 +33,8 @@
 		tooltip: {
 			useHTML: false,
 			pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-				'Anteile am Übernachtungsvolumen 2019:<b> {point.x}%</b><br/>' +
-				'Veränderung 2019 gegenüber dem Mittelwert 2008-2012:<b> {point.y}%</b><br/>' +
+				'Anteile am Übernachtungsvolumen 2020:<b> {point.x}%</b><br/>' +
+				'Veränderung 2020 gegenüber dem Mittelwert 2009-2013:<b> {point.y}%</b><br/>' +
 				'Wachstumsbeitrag:<b> {point.z}%</b>'
 		},
 		data: {
@@ -83,25 +83,25 @@
 			}
 		},
 		xAxis: {
-			//tickInterval: 5,
-			max: 40,
-			min: 0,
+			tickInterval: 5,
+			max: 60,
+			min: -5,
 			labels: {
 				format: '{value}%'
 			},
 			/*title: {
-				text: 'Anteile am Übernachtungsvolumen 2019'
+				text: 'Anteile am Übernachtungsvolumen 2020'
 			}*/
 		},
 		yAxis: {
 			useHTML: true,
-			min: -50,
+			min: -150,
 			tickInterval: 50,
 			labels: {
 				format: '{value}%'
 			},
 			title: {
-				text: 'Veränderung Logiernächte 2019 gegenüber Ø 2008<span>-</span>2012'
+				text: 'Veränderung Logiernächte 2020 gegenüber Ø 2009<span>-</span>2013'
 			}
 		},
 		plotOptions: {
