@@ -1,195 +1,195 @@
 {
   "series": [
     {
-      "color": "#FABD24",
+      "color": "#246370",
       "visible": true,
       "data": [
         [
           "Basel",
-          31.9
+          9.55784729883875
         ],
         [
           "Bern",
-          30.2
+          10.6015172331402
         ],
         [
           "Genève",
-          37.8
+          11.3428951066541
         ],
         [
           "Lausanne",
-          34.1
+          11.6337933771749
         ],
         [
           "Zürich",
-          30.9
+          11.2662805569738
         ],
         [
           "Frankfurt a. M.",
-          31.4
+          10
         ],
         [
           "Freiburg i. Br.",
-          31.2
+          10
         ],
         [
           "Karlsruhe",
-          28.7
+          9
         ],
         [
           "München",
-          30
+          11
         ],
         [
           "Stuttgart",
-          31
+          10
         ],
         [
           "Lille",
-          46.6
+          13
         ],
         [
           "Lyon",
-          45
+          14
         ],
         [
           "Metz",
-          39.4
+          11
         ],
         [
           "Paris",
-          43.4
+          14
         ],
         [
           "Strasbourg",
-          40.1
+          12
         ],
         [
           "Milano",
-          31.1
+          7
         ],
         [
           "Bologna",
-          28.9
+          8
         ],
         [
           "Lisboa",
-          36.7
+          10
         ],
         [
           "Porto",
-          31.5
+          8
         ],
         [
           "Barcelona",
-          32.7
+          8
         ],
         [
           "Madrid",
-          32.9
+          9
         ],
         [
           "London",
-          40.1
+          13
         ]
       ],
-      "name": "Jugendquotient",
+      "name": "Geburtsrate",
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#990300",
       "visible": true,
       "data": [
         [
           "Basel",
-          33.4
+          9.35565757241431
         ],
         [
           "Bern",
-          32.7
+          8.69004241084762
         ],
         [
           "Genève",
-          24.4
+          5.93172609511103
         ],
         [
           "Lausanne",
-          25.3
+          7.16565618634984
         ],
         [
           "Zürich",
-          26.8
+          7.33652242701278
         ],
         [
           "Frankfurt a. M.",
-          31.5
+          10
         ],
         [
           "Freiburg i. Br.",
-          31.7
+          9
         ],
         [
           "Karlsruhe",
-          31.9
+          10
         ],
         [
           "München",
-          29.7
+          8
         ],
         [
           "Stuttgart",
-          32.3
+          9
         ],
         [
           "Lille",
-          26
+          8
         ],
         [
           "Lyon",
-          28.4
+          7
         ],
         [
           "Metz",
-          30.3
+          9
         ],
         [
           "Paris",
-          24.8
+          6
         ],
         [
           "Strasbourg",
-          29.2
+          8
         ],
         [
           "Milano",
-          37.5
+          9
         ],
         [
           "Bologna",
-          41.6
+          11
         ],
         [
           "Lisboa",
-          37.4
+          10
         ],
         [
           "Porto",
-          32.8
+          10
         ],
         [
           "Barcelona",
-          30.7
+          9
         ],
         [
           "Madrid",
-          27.8
+          7
         ],
         [
           "London",
-          22.3
+          7
         ]
       ],
-      "name": "Altersquotient",
+      "name": "Sterberate",
       "turboThreshold": 0
     }
   ],
@@ -246,7 +246,7 @@
     "type": "column",
     "inverted": false,
     "spacingBottom": 60,
-    "renderTo": "container-9193"
+    "renderTo": "container-9194"
   },
   "plotOptions": {
     "series": {
@@ -266,10 +266,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Jugend- und Altersquotient"
+    "text": "Geburten- und Sterberate"
   },
   "subtitle": {
-    "text": "2018",
+    "text": "Fälle pro 1000 Einwohner, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -332,6 +332,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "9193"
+    "filename": "9194"
   }
 }

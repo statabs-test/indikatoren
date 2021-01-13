@@ -1,195 +1,171 @@
 {
   "series": [
     {
-      "color": "#FABD24",
-      "visible": true,
+      "color": "#2F656B",
+      "legendIndex": 0,
       "data": [
         [
           "Basel",
-          31.9
+          70801.059005855
         ],
         [
           "Bern",
-          30.2
+          26476.5997806426
         ],
         [
           "Genève",
-          37.8
+          93981.6008102707
         ],
         [
           "Lausanne",
-          34.1
+          47672.2863551886
         ],
         [
           "Zürich",
-          30.9
-        ],
-        [
-          "Frankfurt a. M.",
-          31.4
-        ],
-        [
-          "Freiburg i. Br.",
-          31.2
-        ],
-        [
-          "Karlsruhe",
-          28.7
-        ],
-        [
-          "München",
-          30
-        ],
-        [
-          "Stuttgart",
-          31
+          106426.859223452
         ],
         [
           "Lille",
-          46.6
+          153922
         ],
         [
           "Lyon",
-          45
+          174336
         ],
         [
           "Metz",
-          39.4
+          32965
         ],
         [
           "Paris",
-          43.4
+          1285780
         ],
         [
           "Strasbourg",
-          40.1
-        ],
-        [
-          "Milano",
-          31.1
-        ],
-        [
-          "Bologna",
-          28.9
-        ],
-        [
-          "Lisboa",
-          36.7
-        ],
-        [
-          "Porto",
-          31.5
+          68152
         ],
         [
           "Barcelona",
-          32.7
+          906784
         ],
         [
           "Madrid",
-          32.9
-        ],
-        [
-          "London",
-          40.1
+          1179851
         ]
       ],
-      "name": "Jugendquotient",
+      "name": "ISCED Level 0, 1 oder 2",
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
-      "visible": true,
+      "color": "#BAA85A",
+      "legendIndex": 1,
       "data": [
         [
           "Basel",
-          33.4
+          215377.600679529
         ],
         [
           "Bern",
-          32.7
+          99973.4947405782
         ],
         [
           "Genève",
-          24.4
+          163159.330507888
         ],
         [
           "Lausanne",
-          25.3
+          79416.5412469875
         ],
         [
           "Zürich",
-          26.8
-        ],
-        [
-          "Frankfurt a. M.",
-          31.5
-        ],
-        [
-          "Freiburg i. Br.",
-          31.7
-        ],
-        [
-          "Karlsruhe",
-          31.9
-        ],
-        [
-          "München",
-          29.7
-        ],
-        [
-          "Stuttgart",
-          32.3
+          299497.654116731
         ],
         [
           "Lille",
-          26
+          290750
         ],
         [
           "Lyon",
-          28.4
+          383419
         ],
         [
           "Metz",
-          30.3
+          84764
         ],
         [
           "Paris",
-          24.8
+          2222279
         ],
         [
           "Strasbourg",
-          29.2
-        ],
-        [
-          "Milano",
-          37.5
-        ],
-        [
-          "Bologna",
-          41.6
-        ],
-        [
-          "Lisboa",
-          37.4
-        ],
-        [
-          "Porto",
-          32.8
+          175486
         ],
         [
           "Barcelona",
-          30.7
+          680173
         ],
         [
           "Madrid",
-          27.8
-        ],
-        [
-          "London",
-          22.3
+          912121
         ]
       ],
-      "name": "Altersquotient",
+      "name": "ISCED Level 3 oder 4",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8B2223",
+      "legendIndex": 2,
+      "data": [
+        [
+          "Basel",
+          177726.258127889
+        ],
+        [
+          "Bern",
+          104520.935574617
+        ],
+        [
+          "Genève",
+          227015.600014051
+        ],
+        [
+          "Lausanne",
+          106716.732243217
+        ],
+        [
+          "Zürich",
+          380640.283604948
+        ],
+        [
+          "Lille",
+          300146
+        ],
+        [
+          "Lyon",
+          467311
+        ],
+        [
+          "Metz",
+          71481
+        ],
+        [
+          "Paris",
+          3118664
+        ],
+        [
+          "Strasbourg",
+          166951
+        ],
+        [
+          "Barcelona",
+          1215376
+        ],
+        [
+          "Madrid",
+          1794173
+        ]
+      ],
+      "name": "ISCED Level 5 oder 6",
       "turboThreshold": 0
     }
   ],
@@ -244,19 +220,18 @@
                 }
     },
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 60,
-    "renderTo": "container-9193"
+    "renderTo": "container-9195",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "stacking": "percent"
     }
   },
   "title": {
@@ -266,10 +241,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Jugend- und Altersquotient"
+    "text": "Bildungsniveau der Bevölkerung"
   },
   "subtitle": {
-    "text": "2018",
+    "text": "nach höchster abgeschlossener Ausbildung, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -292,9 +267,10 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.f}"
+      "format": "{value:,.0f}%"
     },
-    "tickAmount": 6
+    "tickAmount": 6,
+    "reversedStacks": false
   },
   "legend": {
     "symbolRadius": 0,
@@ -304,7 +280,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -328,10 +305,10 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003Eeurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-22"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9193"
+    "filename": "9195"
   }
 }
