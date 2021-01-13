@@ -1,99 +1,95 @@
 {
   "series": [
     {
-      "color": "#FABD24",
+      "color": "#B375AB",
       "visible": true,
       "data": [
         [
           "Basel",
-          0.548
+          8.015363266924373
         ],
         [
           "Bern",
-          0.767
+          6.225989925110988
         ],
         [
           "Genève",
-          0.517
+          10.76297445000698
         ],
         [
           "Lausanne",
-          0.636
+          6.88989597206724
         ],
         [
           "Zürich",
-          0.705
+          8.424625098658248
         ],
         [
           "Frankfurt a. M.",
-          0.556
+          13.589463071612768
         ],
         [
           "Freiburg i. Br.",
-          0.504
+          7.438890243690014
         ],
         [
           "Karlsruhe",
-          0.54
+          3.654269217328858
         ],
         [
           "München",
-          0.595
+          11.761007775203824
         ],
         [
           "Stuttgart",
-          0.539
+          6.182258831784785
         ],
         [
           "Lille",
-          0.403
+          2.8547555020446955
         ],
         [
           "Lyon",
-          0.457
+          4.744023693478164
         ],
         [
           "Metz",
-          0.429
+          4.318726992757981
         ],
         [
           "Paris",
-          0.461
+          6.396254920459616
         ],
         [
           "Strasbourg",
-          0.438
+          7.893461956508344
         ],
         [
           "Milano",
-          0.396
+          8.826680964440996
         ],
         [
           "Bologna",
-          0.412
+          7.859883214604083
         ],
         [
           "Lisboa",
-          0.437
+          26.051734085771646
         ],
         [
           "Porto",
-          0.423
+          19.069072217795114
         ],
         [
           "Barcelona",
-          0.461
+          12.889304918773371
         ],
         [
           "Madrid",
-          0.509
-        ],
-        [
-          "London",
-          0.561
+          6.649683836673456
         ]
       ],
-      "name": "Beschäftigte Dichte",
+      "name": "Hotelübernachtungen pro Einwohner",
       "turboThreshold": 0
     }
   ],
@@ -150,7 +146,7 @@
     "type": "column",
     "inverted": false,
     "spacingBottom": 60,
-    "renderTo": "container-9200"
+    "renderTo": "container-9201"
   },
   "plotOptions": {
     "series": {
@@ -170,10 +166,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Beschäftigtendichte"
+    "text": "Hotelübernachtungen pro Einwohner"
   },
   "subtitle": {
-    "text": "Beschäftigte pro Einwohner, 2018",
+    "text": "Kernstädte, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -196,7 +192,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.1f}"
+      "format": "{value:,.f}"
     },
     "tickAmount": 6
   },
@@ -205,7 +201,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
@@ -232,10 +228,10 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003Eeurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-22"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "9200"
+    "filename": "9201"
   }
 }
