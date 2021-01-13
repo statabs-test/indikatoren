@@ -1970,6 +1970,7 @@ id | visible | visibleInPortal | indikatorenset
 9177 | false |  | Gesellschaftlicher-Zusammenhalt (Print)
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9179 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9192 | true | true | City-Statistics
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
