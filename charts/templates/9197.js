@@ -30,7 +30,7 @@
     layout: "horizontal",
     verticalAlign: "top",
     align: "left",
-    itemWidth: 300,
+    //itemWidth: 300,
     itemStyle: {
       fontWeight: "normal"
     }
