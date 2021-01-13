@@ -1,163 +1,99 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#FABD24",
       "visible": true,
       "data": [
         [
           "Basel",
-          81.4
+          0.548
         ],
         [
           "Bern",
-          85.9
+          0.767
         ],
         [
           "Genève",
-          74.8
+          0.517
         ],
         [
           "Lausanne",
-          80
+          0.636
         ],
         [
           "Zürich",
-          85.8
+          0.705
         ],
         [
           "Frankfurt a. M.",
-          83.5
+          0.556
         ],
         [
           "Freiburg i. Br.",
-          81.8
+          0.504
         ],
         [
           "Karlsruhe",
-          83.7
+          0.54
         ],
         [
           "München",
-          86.7
+          0.595
         ],
         [
           "Stuttgart",
-          87
+          0.539
         ],
         [
           "Lille",
-          69.9
+          0.403
         ],
         [
           "Lyon",
-          75.2
+          0.457
         ],
         [
           "Metz",
-          71.5
+          0.429
         ],
         [
           "Paris",
-          76
+          0.461
         ],
         [
           "Strasbourg",
-          73.2
+          0.438
+        ],
+        [
+          "Milano",
+          0.396
+        ],
+        [
+          "Bologna",
+          0.412
+        ],
+        [
+          "Lisboa",
+          0.437
+        ],
+        [
+          "Porto",
+          0.423
         ],
         [
           "Barcelona",
-          73.3
+          0.461
         ],
         [
           "Madrid",
-          75.3
+          0.509
         ],
         [
           "London",
-          84.7
+          0.561
         ]
       ],
-      "name": "Männer",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#990300",
-      "visible": true,
-      "data": [
-        [
-          "Basel",
-          74.4
-        ],
-        [
-          "Bern",
-          80
-        ],
-        [
-          "Genève",
-          66.4
-        ],
-        [
-          "Lausanne",
-          73
-        ],
-        [
-          "Zürich",
-          77.4
-        ],
-        [
-          "Frankfurt a. M.",
-          73.3
-        ],
-        [
-          "Freiburg i. Br.",
-          76.8
-        ],
-        [
-          "Karlsruhe",
-          76.8
-        ],
-        [
-          "München",
-          77.9
-        ],
-        [
-          "Stuttgart",
-          77.3
-        ],
-        [
-          "Lille",
-          63.5
-        ],
-        [
-          "Lyon",
-          68.1
-        ],
-        [
-          "Metz",
-          66.2
-        ],
-        [
-          "Paris",
-          69.6
-        ],
-        [
-          "Strasbourg",
-          67.3
-        ],
-        [
-          "Barcelona",
-          66.3
-        ],
-        [
-          "Madrid",
-          65.1
-        ],
-        [
-          "London",
-          72.3
-        ]
-      ],
-      "name": "Frauen",
+      "name": "Beschäftigte Dichte",
       "turboThreshold": 0
     }
   ],
@@ -214,7 +150,7 @@
     "type": "column",
     "inverted": false,
     "spacingBottom": 60,
-    "renderTo": "container-9199"
+    "renderTo": "container-9200"
   },
   "plotOptions": {
     "series": {
@@ -234,10 +170,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Erwerbstätigenquote nach Geschlecht"
+    "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "der 20- bis 64-Jährigen, 2018",
+    "text": "Beschäftigte pro Einwohner, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -260,7 +196,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.f}%"
+      "format": "{value:,.f}"
     },
     "tickAmount": 6
   },
@@ -296,10 +232,10 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003Eeurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-22"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9199"
+    "filename": "9200"
   }
 }
