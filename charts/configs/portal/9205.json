@@ -1,212 +1,195 @@
 {
   "series": [
     {
-      "color": "#FFBB58",
-      "zIndex": 0,
-      "type": "column",
-      "pointWidth": 10,
-      "borderWidth": 0,
-      "legendIndex": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#246370",
+      "visible": true,
       "data": [
         [
           "Basel",
-          855632
+          9.55784729883875
         ],
         [
           "Bern",
-          418525
+          10.6015172331402
         ],
         [
           "Genève",
-          914405
+          11.3428951066541
         ],
         [
           "Lausanne",
-          420757
+          11.6337933771749
         ],
         [
           "Zürich",
-          1369041
+          11.2662805569738
         ],
         [
           "Frankfurt a. M.",
-          2693115
+          10
         ],
         [
           "Freiburg i. Br.",
-          656753
+          10
         ],
         [
           "Karlsruhe",
-          754592
+          9
         ],
         [
           "München",
-          2883373
+          11
         ],
         [
           "Stuttgart",
-          2778591
+          10
         ],
         [
           "Lille",
-          1512928
+          13
         ],
         [
           "Lyon",
-          2098635
+          14
         ],
         [
           "Metz",
-          367181
+          11
         ],
         [
           "Paris",
-          12882283
+          14
         ],
         [
           "Strasbourg",
-          816941
+          12
         ],
         [
           "Milano",
-          5145657
+          7
         ],
         [
           "Bologna",
-          780997
+          8
         ],
         [
           "Lisboa",
-          2976356
+          10
         ],
         [
           "Porto",
-          1272189
+          8
         ],
         [
           "Barcelona",
-          4991133
+          8
         ],
         [
           "Madrid",
-          6791667
+          9
         ],
         [
           "London",
-          12434823
+          13
         ]
       ],
-      "name": "Bevölkerung",
+      "name": "Geburtsrate",
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
-      "zIndex": 1,
-      "type": "scatter",
-      "yAxis": 1,
-      "marker": {
-        "enabled": true
-      },
-      "legendIndex": 2,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#990300",
+      "visible": true,
       "data": [
         [
           "Basel",
-          51.03969930998373
+          9.35565757241431
         ],
         [
           "Bern",
-          51.332895287019895
+          8.69004241084762
         ],
         [
           "Genève",
-          51.2292693062702
+          5.93172609511103
         ],
         [
           "Lausanne",
-          50.887566932932785
+          7.16565618634984
         ],
         [
           "Zürich",
-          50.15043377079284
+          7.33652242701278
         ],
         [
           "Frankfurt a. M.",
-          50.703998900901
+          10
         ],
         [
           "Freiburg i. Br.",
-          51.22382387290199
+          9
         ],
         [
           "Karlsruhe",
-          49.60826512870531
+          10
         ],
         [
           "München",
-          50.77636504191445
+          8
         ],
         [
           "Stuttgart",
-          50.221389186101874
+          9
         ],
         [
           "Lille",
-          51.82262473825588
+          8
         ],
         [
           "Lyon",
-          51.74754066333593
+          7
         ],
         [
           "Metz",
-          51.1573311255212
+          9
         ],
         [
           "Paris",
-          51.699361052695394
+          6
         ],
         [
           "Strasbourg",
-          51.69173783663692
+          8
         ],
         [
           "Milano",
-          51.308491801921505
+          9
         ],
         [
           "Bologna",
-          52.00404098863376
+          11
         ],
         [
           "Lisboa",
-          53.02702364905274
+          10
         ],
         [
           "Porto",
-          53.05964758381027
+          10
         ],
         [
           "Barcelona",
-          51.40375942696779
+          9
         ],
         [
           "Madrid",
-          52.03940358088817
+          7
         ],
         [
           "London",
-          50.387705558816556
+          7
         ]
       ],
-      "name": "Anteil Frauen",
+      "name": "Sterberate",
       "turboThreshold": 0
     }
   ],
@@ -227,8 +210,7 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -324,9 +306,10 @@
                     }
                 }
     },
-    "alignTicks": false,
-    "renderTo": "container-9203",
-    "spacingBottom": 22
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 60,
+    "renderTo": "container-9205"
   },
   "plotOptions": {
     "series": {
@@ -338,7 +321,8 @@
           "fontFamily": "Arial",
           "fontWeight": "normal"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -348,7 +332,7 @@
       "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Gesamtbevölkerung und Frauenanteil"
+    "text": "Geburten- und Sterberate"
   },
   "subtitle": {
     "style": {
@@ -357,63 +341,43 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "2018",
+    "text": "Fälle pro 1000 Einwohner, 2018",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "max": 15000000,
-      "tickAmount": 6,
-      "alignTicks": true,
-      "title": {
-        "text": null,
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      }
+      "text": ""
     },
-    {
-      "min": 0,
-      "max": 100,
-      "tickAmount": 6,
-      "alignTicks": true,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.0f}%",
-        "style": {
-          "color": "black"
-        }
-      },
-      "opposite": true
-    }
-  ],
+      "format": "{value:,.f}"
+    },
+    "tickAmount": 6
+  },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "color": "#000000",
-      "fontWeight": "normal",
-      "textOverflow": "nowrap",
-      "whiteSpace": "nowrap"
+      "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 140
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -444,9 +408,10 @@
     }
   },
   "tooltip": {
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9203"
+    "filename": "9205"
   }
 }
