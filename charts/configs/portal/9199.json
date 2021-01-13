@@ -1,171 +1,163 @@
 {
   "series": [
     {
-      "color": "#2F656B",
-      "legendIndex": 0,
+      "color": "#246370",
+      "visible": true,
       "data": [
         [
           "Basel",
-          70801.059005855
+          81.4
         ],
         [
           "Bern",
-          26476.5997806426
+          85.9
         ],
         [
           "Genève",
-          93981.6008102707
+          74.8
         ],
         [
           "Lausanne",
-          47672.2863551886
+          80
         ],
         [
           "Zürich",
-          106426.859223452
+          85.8
+        ],
+        [
+          "Frankfurt a. M.",
+          83.5
+        ],
+        [
+          "Freiburg i. Br.",
+          81.8
+        ],
+        [
+          "Karlsruhe",
+          83.7
+        ],
+        [
+          "München",
+          86.7
+        ],
+        [
+          "Stuttgart",
+          87
         ],
         [
           "Lille",
-          153922
+          69.9
         ],
         [
           "Lyon",
-          174336
+          75.2
         ],
         [
           "Metz",
-          32965
+          71.5
         ],
         [
           "Paris",
-          1285780
+          76
         ],
         [
           "Strasbourg",
-          68152
+          73.2
         ],
         [
           "Barcelona",
-          906784
+          73.3
         ],
         [
           "Madrid",
-          1179851
+          75.3
+        ],
+        [
+          "London",
+          84.7
         ]
       ],
-      "name": "ISCED Level 0, 1 oder 2",
+      "name": "Männer",
       "turboThreshold": 0
     },
     {
-      "color": "#BAA85A",
-      "legendIndex": 1,
+      "color": "#990300",
+      "visible": true,
       "data": [
         [
           "Basel",
-          215377.600679529
+          74.4
         ],
         [
           "Bern",
-          99973.4947405782
+          80
         ],
         [
           "Genève",
-          163159.330507888
+          66.4
         ],
         [
           "Lausanne",
-          79416.5412469875
+          73
         ],
         [
           "Zürich",
-          299497.654116731
+          77.4
+        ],
+        [
+          "Frankfurt a. M.",
+          73.3
+        ],
+        [
+          "Freiburg i. Br.",
+          76.8
+        ],
+        [
+          "Karlsruhe",
+          76.8
+        ],
+        [
+          "München",
+          77.9
+        ],
+        [
+          "Stuttgart",
+          77.3
         ],
         [
           "Lille",
-          290750
+          63.5
         ],
         [
           "Lyon",
-          383419
+          68.1
         ],
         [
           "Metz",
-          84764
+          66.2
         ],
         [
           "Paris",
-          2222279
+          69.6
         ],
         [
           "Strasbourg",
-          175486
+          67.3
         ],
         [
           "Barcelona",
-          680173
+          66.3
         ],
         [
           "Madrid",
-          912121
+          65.1
+        ],
+        [
+          "London",
+          72.3
         ]
       ],
-      "name": "ISCED Level 3 oder 4",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#8B2223",
-      "legendIndex": 2,
-      "data": [
-        [
-          "Basel",
-          177726.258127889
-        ],
-        [
-          "Bern",
-          104520.935574617
-        ],
-        [
-          "Genève",
-          227015.600014051
-        ],
-        [
-          "Lausanne",
-          106716.732243217
-        ],
-        [
-          "Zürich",
-          380640.283604948
-        ],
-        [
-          "Lille",
-          300146
-        ],
-        [
-          "Lyon",
-          467311
-        ],
-        [
-          "Metz",
-          71481
-        ],
-        [
-          "Paris",
-          3118664
-        ],
-        [
-          "Strasbourg",
-          166951
-        ],
-        [
-          "Barcelona",
-          1215376
-        ],
-        [
-          "Madrid",
-          1794173
-        ]
-      ],
-      "name": "ISCED Level 5 oder 6",
+      "name": "Frauen",
       "turboThreshold": 0
     }
   ],
@@ -220,18 +212,19 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9195",
-    "spacingBottom": 50
+    "inverted": false,
+    "spacingBottom": 60,
+    "renderTo": "container-9199"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "pointPadding": 0
     }
   },
   "title": {
@@ -241,10 +234,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bildungsniveau der Bevölkerung"
+    "text": "Erwerbstätigenquote nach Geschlecht"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2018",
+    "text": "der 20- bis 64-Jährigen, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -267,10 +260,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value:,.f}"
     },
-    "tickAmount": 6,
-    "reversedStacks": false
+    "tickAmount": 6
   },
   "legend": {
     "symbolRadius": 0,
@@ -280,8 +272,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -305,11 +296,10 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003Eeurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-22"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9195"
+    "filename": "9199"
   }
 }

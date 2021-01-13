@@ -6,54 +6,82 @@
       "data": [
         [
           "Basel",
-          70801.059005855
+          5024.99308641829
         ],
         [
           "Bern",
-          26476.5997806426
+          7709
         ],
         [
           "Genève",
-          93981.6008102707
+          4871.12105044219
         ],
         [
           "Lausanne",
-          47672.2863551886
+          5065
         ],
         [
           "Zürich",
-          106426.859223452
+          9374
+        ],
+        [
+          "Frankfurt a. M.",
+          6874
+        ],
+        [
+          "Freiburg i. Br.",
+          7220
+        ],
+        [
+          "Karlsruhe",
+          2557
+        ],
+        [
+          "München",
+          11693
+        ],
+        [
+          "Stuttgart",
+          11504
         ],
         [
           "Lille",
-          153922
+          4628
         ],
         [
           "Lyon",
-          174336
+          5906
         ],
         [
           "Metz",
-          32965
+          1581
         ],
         [
           "Paris",
-          1285780
+          16148
         ],
         [
           "Strasbourg",
-          68152
+          3827
+        ],
+        [
+          "Lisboa",
+          19912
+        ],
+        [
+          "Porto",
+          5350
         ],
         [
           "Barcelona",
-          906784
+          5678
         ],
         [
           "Madrid",
-          1179851
+          15634
         ]
       ],
-      "name": "ISCED Level 0, 1 oder 2",
+      "name": "1. Sektor",
       "turboThreshold": 0
     },
     {
@@ -62,54 +90,82 @@
       "data": [
         [
           "Basel",
-          215377.600679529
+          118438.130243052
         ],
         [
           "Bern",
-          99973.4947405782
+          42388
         ],
         [
           "Genève",
-          163159.330507888
+          66034.9989923602
         ],
         [
           "Lausanne",
-          79416.5412469875
+          37543
         ],
         [
           "Zürich",
-          299497.654116731
+          126818
+        ],
+        [
+          "Frankfurt a. M.",
+          247151
+        ],
+        [
+          "Freiburg i. Br.",
+          74686
+        ],
+        [
+          "Karlsruhe",
+          87209
+        ],
+        [
+          "München",
+          280285
+        ],
+        [
+          "Stuttgart",
+          429620
         ],
         [
           "Lille",
-          290750
+          92098
         ],
         [
           "Lyon",
-          383419
+          181341
         ],
         [
           "Metz",
-          84764
+          29308
         ],
         [
           "Paris",
-          2222279
+          764102
         ],
         [
           "Strasbourg",
-          175486
+          68948
+        ],
+        [
+          "Lisboa",
+          188140
+        ],
+        [
+          "Porto",
+          124505
         ],
         [
           "Barcelona",
-          680173
+          406867
         ],
         [
           "Madrid",
-          912121
+          491194
         ]
       ],
-      "name": "ISCED Level 3 oder 4",
+      "name": "2. Sektor",
       "turboThreshold": 0
     },
     {
@@ -118,54 +174,82 @@
       "data": [
         [
           "Basel",
-          177726.258127889
+          345526.726392403
         ],
         [
           "Bern",
-          104520.935574617
+          270867
         ],
         [
           "Genève",
-          227015.600014051
+          401743.342619684
         ],
         [
           "Lausanne",
-          106716.732243217
+          225000
         ],
         [
           "Zürich",
-          380640.283604948
+          828349
+        ],
+        [
+          "Frankfurt a. M.",
+          1243636
+        ],
+        [
+          "Freiburg i. Br.",
+          249416
+        ],
+        [
+          "Karlsruhe",
+          317827
+        ],
+        [
+          "München",
+          1424350
+        ],
+        [
+          "Stuttgart",
+          1056977
         ],
         [
           "Lille",
-          300146
+          513647
         ],
         [
           "Lyon",
-          467311
+          771851
         ],
         [
           "Metz",
-          71481
+          126686
         ],
         [
           "Paris",
-          3118664
+          5153892
         ],
         [
           "Strasbourg",
-          166951
+          284778
+        ],
+        [
+          "Lisboa",
+          1033877
+        ],
+        [
+          "Porto",
+          388722
         ],
         [
           "Barcelona",
-          1215376
+          1886724
         ],
         [
           "Madrid",
-          1794173
+          2950059
         ]
       ],
-      "name": "ISCED Level 5 oder 6",
+      "name": "3. Sektor",
       "turboThreshold": 0
     }
   ],
@@ -220,7 +304,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9195",
+    "renderTo": "container-9197",
     "spacingBottom": 50
   },
   "plotOptions": {
@@ -241,10 +325,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bildungsniveau der Bevölkerung"
+    "text": "Beschäftigte nach Wirtschaftssektor"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2018",
+    "text": "Anteile an der Gesamtbeschäftigung, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -280,8 +364,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -310,6 +393,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "9195"
+    "filename": "9197"
   }
 }
