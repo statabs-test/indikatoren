@@ -1,95 +1,115 @@
 {
   "series": [
     {
-      "color": "#B375AB",
-      "visible": true,
+      "color": "#FFBB58",
+      "legendIndex": 0,
       "data": [
         [
           "Basel",
-          8.02
+          185605
         ],
         [
           "Bern",
-          6.23
+          189079
         ],
         [
           "Genève",
-          10.76
+          182521
         ],
         [
           "Lausanne",
-          6.89
+          122100
         ],
         [
           "Zürich",
-          8.42
-        ],
-        [
-          "Frankfurt a. M.",
-          13.59
-        ],
-        [
-          "Freiburg i. Br.",
-          7.44
-        ],
-        [
-          "Karlsruhe",
-          3.65
-        ],
-        [
-          "München",
-          11.76
-        ],
-        [
-          "Stuttgart",
-          6.18
-        ],
-        [
-          "Lille",
-          2.85
-        ],
-        [
-          "Lyon",
-          4.74
-        ],
-        [
-          "Metz",
-          4.32
-        ],
-        [
-          "Paris",
-          6.4
-        ],
-        [
-          "Strasbourg",
-          7.89
-        ],
-        [
-          "Milano",
-          8.83
-        ],
-        [
-          "Bologna",
-          7.86
-        ],
-        [
-          "Lisboa",
-          26.05
-        ],
-        [
-          "Porto",
-          19.07
-        ],
-        [
-          "Barcelona",
-          12.89
-        ],
-        [
-          "Madrid",
-          6.65
+          480106
         ]
       ],
-      "name": "Hotelübernachtungen pro Einwohner",
+      "name": "Kernstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 1,
+      "data": [
+        [
+          "Basel",
+          182013
+        ],
+        [
+          "Bern",
+          131885
+        ],
+        [
+          "Genève",
+          212886
+        ],
+        [
+          "Lausanne",
+          145508
+        ],
+        [
+          "Zürich",
+          484435
+        ]
+      ],
+      "name": "Übrige Agglomerationsgemeinden Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "legendIndex": 2,
+      "data": [
+        [
+          "Basel",
+          74603
+        ],
+        [
+          "Bern",
+          null
+        ],
+        [
+          "Genève",
+          null
+        ],
+        [
+          "Lausanne",
+          null
+        ],
+        [
+          "Zürich",
+          null
+        ]
+      ],
+      "name": "Agglomerationsgemeinden Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "legendIndex": 3,
+      "data": [
+        [
+          "Basel",
+          26769
+        ],
+        [
+          "Bern",
+          null
+        ],
+        [
+          "Genève",
+          77242
+        ],
+        [
+          "Lausanne",
+          null
+        ],
+        [
+          "Zürich",
+          null
+        ]
+      ],
+      "name": "Agglomerationsgemeinden Frankreich",
       "turboThreshold": 0
     }
   ],
@@ -108,14 +128,15 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
+    "width": 320,
     "height": 221,
     "spacing": [
       2,
@@ -207,9 +228,8 @@
                 }
     },
     "type": "column",
-    "inverted": false,
-    "renderTo": "container-9210",
-    "spacingBottom": 22
+    "renderTo": "container-8115",
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -222,7 +242,7 @@
           "fontWeight": "normal"
         }
       },
-      "pointPadding": 0
+      "stacking": "normal"
     }
   },
   "title": {
@@ -232,7 +252,7 @@
       "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Hotelübernachtungen pro Einwohner"
+    "text": "Beschäftigte"
   },
   "subtitle": {
     "style": {
@@ -241,7 +261,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "Kernstädte, 2018",
+    "text": "2018",
     "align": "left"
   },
   "yAxis": {
@@ -261,9 +281,11 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.f}"
+      "format": "{value:,.0f}"
     },
-    "tickAmount": 6
+    "tickAmount": 6,
+    "max": 1000000,
+    "reversedStacks": false
   },
   "legend": {
     "padding": 0,
@@ -274,10 +296,11 @@
       "color": "#000000",
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -296,9 +319,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003Eeurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-22"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
   },
   "dataLabels": {
     "enabled": false,
@@ -308,10 +331,10 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9210"
+    "filename": "8115"
   }
 }

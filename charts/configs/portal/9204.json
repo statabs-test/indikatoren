@@ -308,8 +308,8 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 60,
-    "renderTo": "container-9204"
+    "renderTo": "container-9204",
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
