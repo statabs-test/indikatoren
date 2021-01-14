@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"99_00_00_00_00_000",
 "parentId":null,
-"children":[],
+"children":["9203"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), City Statistics","eurostat"],
 "datenInChartIntegriert":false,

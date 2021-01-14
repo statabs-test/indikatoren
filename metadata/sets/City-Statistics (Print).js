@@ -602,7 +602,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 sind in der Agglomeration Basel 512 Personenwagen pro 1000 Einwohner registriert. Nur in der Agglomeration Genf ist der Wert höher. Allerdings sind deutliche Unterscheide zwischen den Agglomerationsteilen zu beobachten: Die Stadt Basel (334) weist den tiefsten Wert aller Kernstädte aus, und auch in den übrigen Schweizer Agglomerationsgemeinden ist der Motorisierungsgrad vergleichbar niedrig (518). Deutlich höher ist er in den deutschen (580) und in den französischen (654) Gemeinden der Agglomeration Basel.",
+		"lesehilfe": "2018 sind in der Agglomeration Basel 513 Personenwagen pro 1000 Einwohner registriert. Nur in der Agglomeration Genf ist der Wert höher. Es sind deutliche Unterscheide zwischen den Agglomerationsteilen zu beobachten: Die Stadt Basel (333) weist den tiefsten Wert aller Kernstädte aus, und auch in den übrigen Schweizer Agglomerationsgemeinden ist der Motorisierungsgrad vergleichbar niedrig (518). Deutlich höher ist er in den deutschen (585) und in den französischen (654) Gemeinden der Agglomeration Basel.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Diagramm",
@@ -704,7 +704,7 @@ var indikatorensetData = [
 	{
 		"title": "Gesamtbevölkerung und Frauenanteil",
 		"subtitle": "2018",
-		"kuerzel": "I.01.1.09192",
+		"kuerzel": "I.01.1.09203",
 		"kuerzelKunde": "6.1",
 		"description": "Gesamtbevölkerung und Frauenanteil",
 		"thema": "01 Bevölkerung",
@@ -713,7 +713,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2021-01-13T16:18:56.5656",
+		"aktualisierungsdatum": "2020-12-22T11:07:51.5151",
 		"stufe1": "6. Internationaler Vergleich",
 		"stufe2": "",
 		"stufe3": "",
@@ -784,7 +784,7 @@ var indikatorensetData = [
 	{
 		"title": "Geburten- und Sterberate",
 		"subtitle": "Fälle pro 1000 Einwohner, 2018",
-		"kuerzel": "I.01.3.09194",
+		"kuerzel": "I.01.3.09205",
 		"kuerzelKunde": "6.3",
 		"description": "Geburten- und Sterberate",
 		"thema": "01 Bevölkerung",
@@ -793,7 +793,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2021-01-13T16:18:56.5656",
+		"aktualisierungsdatum": "2020-12-22T11:48:58.5858",
 		"stufe1": "6. Internationaler Vergleich",
 		"stufe2": "",
 		"stufe3": "",
@@ -824,7 +824,7 @@ var indikatorensetData = [
 	{
 		"title": "Bildungsniveau der Bevölkerung",
 		"subtitle": "nach höchster abgeschlossener Ausbildung, 2018",
-		"kuerzel": "I.15.6.09195",
+		"kuerzel": "I.15.6.09206",
 		"kuerzelKunde": "6.4",
 		"description": "Bildungsniveau der Bevölkerung",
 		"thema": "15 Bildung",
@@ -833,7 +833,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2021-01-13T16:18:56.5656",
+		"aktualisierungsdatum": "2020-12-22T11:48:58.5858",
 		"stufe1": "6. Internationaler Vergleich",
 		"stufe2": "",
 		"stufe3": "",
@@ -984,7 +984,7 @@ var indikatorensetData = [
 	{
 		"title": "Hotelübernachtungen pro Einwohner",
 		"subtitle": "Kernstädte, 2018",
-		"kuerzel": "I.10.1.09201",
+		"kuerzel": "I.10.1.09210",
 		"kuerzelKunde": "6.8",
 		"description": "Hotelübernachtungen pro Einwohner",
 		"thema": "10 Tourismus",
@@ -993,7 +993,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2021-01-13T16:18:56.5656",
+		"aktualisierungsdatum": "2020-12-22T12:29:09.099",
 		"stufe1": "6. Internationaler Vergleich",
 		"stufe2": "",
 		"stufe3": "",

@@ -39,8 +39,8 @@
   },
   "chart": {      
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
+    "inverted": false
+    //"spacingBottom": 40
   }
 }
 }());
