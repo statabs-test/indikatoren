@@ -27518,7 +27518,7 @@
             }
   },
   "tooltip": {
-    "formatter": function(args){
+    "formatter": function (args) {
 				var this_point_index = this.series.data.indexOf(this.point);
 				return '<span style="color:' + this.color + ';">\u25CF</span> Gemeinde: <b>' + this.point.properties.LIBGEO + '</b>';
 			},

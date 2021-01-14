@@ -25,6 +25,26 @@
           106426.859223452
         ],
         [
+          "Frankfurt a. M.",
+          211400
+        ],
+        [
+          "Freiburg i. Br.",
+          41400
+        ],
+        [
+          "Karlsruhe",
+          63300
+        ],
+        [
+          "München",
+          176700
+        ],
+        [
+          "Stuttgart",
+          227100
+        ],
+        [
           "Lille",
           153922
         ],
@@ -45,12 +65,24 @@
           68152
         ],
         [
+          "Milano",
+          971625
+        ],
+        [
+          "Bologna",
+          123857
+        ],
+        [
           "Barcelona",
           906784
         ],
         [
           "Madrid",
           1179851
+        ],
+        [
+          "London",
+          1714197
         ]
       ],
       "name": "ISCED Level 0, 1 oder 2",
@@ -81,6 +113,26 @@
           299497.654116731
         ],
         [
+          "Frankfurt a. M.",
+          773600
+        ],
+        [
+          "Freiburg i. Br.",
+          189500
+        ],
+        [
+          "Karlsruhe",
+          217300
+        ],
+        [
+          "München",
+          754000
+        ],
+        [
+          "Stuttgart",
+          743500
+        ],
+        [
           "Lille",
           290750
         ],
@@ -101,12 +153,24 @@
           175486
         ],
         [
+          "Milano",
+          1226927
+        ],
+        [
+          "Bologna",
+          175744
+        ],
+        [
           "Barcelona",
           680173
         ],
         [
           "Madrid",
           912121
+        ],
+        [
+          "London",
+          1604794
         ]
       ],
       "name": "ISCED Level 3 oder 4",
@@ -137,6 +201,26 @@
           380640.283604948
         ],
         [
+          "Frankfurt a. M.",
+          476000
+        ],
+        [
+          "Freiburg i. Br.",
+          119000
+        ],
+        [
+          "Karlsruhe",
+          130100
+        ],
+        [
+          "München",
+          638200
+        ],
+        [
+          "Stuttgart",
+          491100
+        ],
+        [
           "Lille",
           300146
         ],
@@ -157,12 +241,24 @@
           166951
         ],
         [
+          "Milano",
+          540532
+        ],
+        [
+          "Bologna",
+          104584
+        ],
+        [
           "Barcelona",
           1215376
         ],
         [
           "Madrid",
           1794173
+        ],
+        [
+          "London",
+          2794470
         ]
       ],
       "name": "ISCED Level 5 oder 6",

@@ -1995,7 +1995,7 @@ id | visible | visibleInPortal | indikatorenset
 9197 | true | true | City-Statistics
 9199 | true | true | City-Statistics
 9200 | true | true | City-Statistics
-9201 | true | true | City-Statistics
+9201 | false |  | City-Statistics
 9203 | true | false | City-Statistics (Print)
 9204 | true | false | City-Statistics (Print)
 9205 | true | false | City-Statistics (Print)
@@ -2003,7 +2003,7 @@ id | visible | visibleInPortal | indikatorenset
 9207 | true | false | City-Statistics (Print)
 9208 | true | false | City-Statistics (Print)
 9209 | true | false | City-Statistics (Print)
-9210 | true | false | City-Statistics (Print)
+9210 | false |  | City-Statistics (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

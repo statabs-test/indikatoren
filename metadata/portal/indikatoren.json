@@ -33300,7 +33300,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Kernstädte weisen die höchste Übernachtungskonzentration in Hotelbetrieben auf. Am meisten Hotelübernachtungen pro Einwohner werden in der Stadt Genf (10,6) registriert, gefolgt von den Städten Zürich (7,9) und Basel (7,7). In der Agglomeration Basel (3,2) zeigen die Hotelübernachtungen pro Einwohner auch eine relativ hohe touristische Attraktivität der deutschen Gemeinden (4,2).",
+		"lesehilfe": "Die Kernstädte weisen die höchste Übernachtungskonzentration in Hotelbetrieben auf. Am meisten Hotelübernachtungen pro Einwohner werden 2018 in der Stadt Genf (10,8) registriert, gefolgt von den Städten Zürich (8,4) und Basel (8,0). In der Agglomeration Basel (3,2) zeigen die Hotelübernachtungen pro Einwohner auch eine relativ hohe touristische Attraktivität der deutschen Gemeinden (4,1).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -42422,7 +42422,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_019",
 		"parentId": null,
 		"children": [
 			"9203"
@@ -42465,7 +42465,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_020",
 		"parentId": null,
 		"children": [
 			"9204"
@@ -42502,13 +42502,13 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die französischen Agglomerationen und London verzeichnen die höchsten Geburtenraten und tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss (Saldo positiv). Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In Milano und Bologna sowie in Porto gibt es hingegen deutlich mehr Sterbefälle als Geburten (Saldo negativ). In Basel sowie in Frankfurt und Lissabon liegt der Saldo bei ungefähr null.",
+		"lesehilfe": "Die französischen Agglomerationen und London verzeichnen die höchsten Geburtenraten und dabei tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss (Saldo positiv). Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In Milano und Bologna sowie in Porto gibt es hingegen deutlich mehr Sterbefälle als Geburten (Saldo negativ). In Basel sowie in Frankfurt und Lissabon liegt der Saldo bei ungefähr null.",
 		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Geografie: Agglomerationen. Datenstand deutscher und französischer Agglomerationen: 2017.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_021",
 		"parentId": null,
 		"children": [
 			"9205"
@@ -42551,7 +42551,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_022",
 		"parentId": null,
 		"children": [
 			"9206"
@@ -42589,12 +42589,12 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Ein Viertel der Beschäftigten in der Agglomeration Basel sind im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. So hoch oder höher ist dieser Anteil in Milano (25%), Bologna (27%) und in Stuttgart (28%). In der Agglomeration London arbeiten im Gegenteil 95% der Beschäftigten im tertiären Sektor (Dienstleitungen). Auch in Paris, Zürich, Madrid und Genf sind es mindestens 85% der Beschäftigten.",
-		"erlaeuterungen": "Datenstand französischer, portugiesischer und italienischer Agglomerationen: 2017. Für London, Milano und Bologna keine Daten zum 1. Sektor vorhanden.",
+		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Datenstand französischer, portugiesischer und italienischer Agglomerationen: 2017. Für London, Milano und Bologna keine Daten zum 1. Sektor vorhanden.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_023",
 		"parentId": null,
 		"children": [
 			"9207"
@@ -42632,12 +42632,12 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der trinationalen Agglomeration Basel sind drei von vier Frauen zwischen 20 und 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 81%. Ähnlich sind die Erwerbstätigenquote in Lausanne und in den deutschen Agglomerationen. In der grenzüberschreitenden Agglomeration Genf, in den französischen und spanischen Agglomerationen ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern tiefer als in Basel. In London ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
-		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung zwischen 20 und 64 Jahren. Daten für Italien und Portugal nicht vorhanden. Datenstand französischer Agglomerationen: 2017.",
+		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung zwischen 20 und 64 Jahren. Hier sind die Agglomerationen dargestellt. Daten für Italien und Portugal nicht vorhanden. Datenstand französischer Agglomerationen: 2017.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_024",
 		"parentId": null,
 		"children": [
 			"9208"
@@ -42675,12 +42675,12 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern, Zürich und Lausanne am höchsten. D.h. hier sind am meisten Beschäftigten pro Einwohner tätig. Es folgen München und London. Am wenigstens Beschäftigte pro Einwohner gibt es in Lille und Milano.",
-		"erlaeuterungen": "Datenstand französischer und italienischer Agglomerationen: 2017.",
+		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Datenstand französischer und italienischer Agglomerationen: 2017.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
+		"orderKey": "99_00_00_00_00_025",
 		"parentId": null,
 		"children": [
 			"9209"
@@ -42698,48 +42698,5 @@
 		"chart-id": 9200,
 		"filter": "",
 		"id": 9200
-	},
-	{
-		"title": "Hotelübernachtungen pro Einwohner",
-		"subtitle": "Kernstädte, 2018",
-		"kuerzel": "I.10.1.09201",
-		"kuerzelKunde": "6.8",
-		"description": "Hotelübernachtungen pro Einwohner",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "City-Statistics",
-		"raeumlicheGliederung": [
-			"Agglomeration"
-		],
-		"aktualisierungsdatum": "2020-12-22T12:29:09.099",
-		"stufe1": "6. Internationaler Vergleich",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Es gibt hier ein Paar Probleme: Paris zu tief (Bevölkerung zu hoch?); Lisboa zu hoch (Bevölkerung?)",
-		"erlaeuterungen": "Hier sind die Kernstädte dargestellt. Anzahl Hotelübernachtungen im Jahr pro Einwohnerzahl am Jahresbeginn. Keine Daten für London vorhanden. Datenstand französischer Städte: 2017.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"9210"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), City Statistics",
-			"eurostat"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9201,
-		"chart-id": 9201,
-		"filter": "",
-		"id": 9201
 	}
 ]
