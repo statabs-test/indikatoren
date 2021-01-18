@@ -62,6 +62,9 @@ global rheinData
 				showInLegend: false,
     			colorAxis: false
 			}
-		]
+		],
+		chart: {
+			width: 665
+		}
 	};
 }());
