@@ -117,7 +117,7 @@
         fontWeight: "normal",
         width: 40        
     },
-    width: 200,
+    width: 190,
     itemWidth: 70,    
     symbolRadius: 0,
     labelFormatter: function(){
