@@ -16,18 +16,20 @@
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 5
+                radius: 4.5
             },
-            pointPlacement : -0.15
+            pointPlacement : -0.15,
+            pointRange: 1
         },
         {
             color: "rgb(220, 68, 14)",
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 5
+                radius: 4.5
             },
-            pointPlacement : 0.15
+            pointPlacement : 0.15,
+            pointRange: 1
         }        
   ],
   xAxis: {
