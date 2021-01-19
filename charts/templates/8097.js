@@ -9,13 +9,13 @@ global rheinData
             "formatter": function(args){
 				var this_point_index = this.series.data.indexOf(this.point);
 				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km<sup>2</sup></b></b>';
+					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km²</b></b>';
 			},
 			useHTML: true
         },    	
 		"legend": {
 			"title": {
-				"text": "Einwohner pro km<sup>2</sup>"
+				"text": "Einwohner pro km²"
 			},
 			useHTML: true,
 			//y: -300,
