@@ -11,7 +11,12 @@
     }
   },
   xAxis: {
-    type: "category"    
+    type: "category",
+    labels: {
+      style: {
+          fontSize: "8pt"
+      }
+    }
   },  
   yAxis: {
     tickAmount: 6,
