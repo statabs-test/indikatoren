@@ -1,301 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "Basel",
-          0.202
-        ],
-        [
-          "Bern",
-          1.911
-        ],
-        [
-          "Genève",
-          5.411
-        ],
-        [
-          "Lausanne",
-          4.468
-        ],
-        [
-          "Zürich",
-          3.93
-        ]
-      ],
-      "name": "Gesamte Agglomeration",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "data": [
-        [
-          "Basel",
-          0.653
-        ],
-        [
-          "Bern",
-          2.93
-        ],
-        [
-          "Genève",
-          4.981
-        ],
-        [
-          "Lausanne",
-          5.327
-        ],
-        [
-          "Zürich",
-          4.54
-        ]
-      ],
-      "name": "Kernstadt",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Basel",
-          0.399
-        ],
-        [
-          "Bern",
-          1.433
-        ],
-        [
-          "Genève",
-          3.675
-        ],
-        [
-          "Lausanne",
-          4.045
-        ],
-        [
-          "Zürich",
-          3.67
-        ]
-      ],
-      "name": "Übrige Agglomerationsgemeinden Schweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "data": [
-        [
-          "Basel",
-          -1.089
-        ],
-        [
-          "Bern",
-          null
-        ],
-        [
-          "Genève",
-          null
-        ],
-        [
-          "Lausanne",
-          null
-        ],
-        [
-          "Zürich",
-          null
-        ]
-      ],
-      "name": "Agglomerationsgemeinden Deutschland",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "Basel",
-          1.484
-        ],
-        [
-          "Bern",
-          null
-        ],
-        [
-          "Genève",
-          7.787
-        ],
-        [
-          "Lausanne",
-          null
-        ],
-        [
-          "Zürich",
-          null
-        ]
-      ],
-      "name": "Agglomerationsgemeinden Frankreich",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0
-  },
-  "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 221,
-    "spacing": [
-      2,
-      2,
-      2,
-      2
-    ],
-    "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px",
-      "color": "#000000"
-    },
-    "zoomType": "xy",
-    "events": {
-      "load": function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            );
-          }
-          justifyColumns(event.target);
-        },
-      "redraw": function (event) {
-          justifyColumns(event.target);
-        }
-    },
-    "type": "column",
-    "animation": false,
-    "inverted": false,
-    "renderTo": "container-8102",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "color": "#000000",
-          "fontFamily": "Arial",
-          "fontWeight": "normal"
-        }
-      },
-      "pointPadding": 0,
-      "pointWidth": 10
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "bold"
-    },
-    "align": "left",
-    "text": "Geburten und Sterbefälle"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal",
-      "fontFamily": "Arial"
-    },
-    "text": "Saldo (pro 1000 Einwohner), 2018",
-    "align": "left"
-  },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "text": ""
-    },
-    "labels": {
-      "y": 3,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      }
-    },
-    "tickAmount": 6
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
-  },
-  "dataLabels": {
-    "enabled": false,
-    "style": {
-      "fontSize": "10px",
-      "color": "#000000"
-    }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "exporting": {
-    "filename": "8102"
-  }
+﻿{"title":"Geburten und Sterbefälle",
+"subtitle":"Saldo (pro 1000 Einwohner), 2018",
+"kuerzel":"I.01.3.08102",
+"kuerzelKunde":"2.6",
+"description":"Geburten und Sterbefälle",
+"id":8102,
+"thema":"01 Bevölkerung",
+"unterthema":"Geburten und Todesfälle",
+"kennzahlenset":"City-Statistics (Print)",
+"raeumlicheGliederung":["Agglomeration"],
+"aktualisierungsdatum":"2019-12-12T08:40:11.1111",
+"stufe1":"2. Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Der Saldo der Geburten und Sterbefälle pro 1000 Einwohner liegt 2018 in Basel bei 0,2, während dieser in Genf, Lausanne und auch in Zürich deutlich im Plus steht. Für den tiefen Wert in der Agglomeration Basel sind alle Agglomerationsteile verantwortlich, und insbesondere die Gemeinden in Deutschland (-1,1). Der Saldo in allen Kernstädten ist grösser als in den jeweiligen übrigen Schweizer Gemeinden. Mit Abstand am grössten ist er aber im französischen Teil der Agglomeration Genf (7,8).",
+"erlaeuterungen":"Rohe Geburtenziffer pro 1000 Einwohner minus rohe Sterbeziffer pro 1000 Einwohner.",
+"template":"template001_print",
+"darstellungsart":"Diagramm",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":false,
+"orderKey":"99_00_00_00_00_007",
+"parentId":7959,
+"children":[],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), City Statistics"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":8102, 
+"chart-id":8102, 
+"filter":""
 }

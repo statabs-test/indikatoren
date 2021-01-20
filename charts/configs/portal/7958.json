@@ -1,284 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "Basel",
-          22.43
-        ],
-        [
-          "Bern",
-          18.12
-        ],
-        [
-          "Genève",
-          32.17
-        ],
-        [
-          "Lausanne",
-          34.37
-        ],
-        [
-          "Zürich",
-          27.54
-        ]
-      ],
-      "name": "Gesamte Agglomeration",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "data": [
-        [
-          "Basel",
-          37.09
-        ],
-        [
-          "Bern",
-          25.71
-        ],
-        [
-          "Genève",
-          47.81
-        ],
-        [
-          "Lausanne",
-          43.06
-        ],
-        [
-          "Zürich",
-          32.32
-        ]
-      ],
-      "name": "Kernstadt",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Basel",
-          22.47
-        ],
-        [
-          "Bern",
-          14.55
-        ],
-        [
-          "Genève",
-          35
-        ],
-        [
-          "Lausanne",
-          30.05
-        ],
-        [
-          "Zürich",
-          25.52
-        ]
-      ],
-      "name": "Übrige Agglomerationsgemeinden Schweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "data": [
-        [
-          "Basel",
-          14.39
-        ],
-        [
-          "Bern",
-          null
-        ],
-        [
-          "Genève",
-          null
-        ],
-        [
-          "Lausanne",
-          null
-        ],
-        [
-          "Zürich",
-          null
-        ]
-      ],
-      "name": "Agglomerationsgemeinden Deutschland",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "Basel",
-          13.79
-        ],
-        [
-          "Bern",
-          null
-        ],
-        [
-          "Genève",
-          18.9
-        ],
-        [
-          "Lausanne",
-          null
-        ],
-        [
-          "Zürich",
-          null
-        ]
-      ],
-      "name": "Agglomerationsgemeinden Frankreich",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
-  "chart": {
-    "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
-    "events": {
-      "load": function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            );
-          }
-          justifyColumns(event.target);
-        },
-      "redraw": function (event) {
-          justifyColumns(event.target);
-        }
-    },
-    "type": "column",
-    "animation": false,
-    "inverted": false,
-    "renderTo": "container-7958",
-    "spacingBottom": 40
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointPadding": 0,
-      "pointWidth": 14
-    }
-  },
-  "title": {
-    "align": "left",
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "text": "Ausländeranteil"
-  },
-  "subtitle": {
-    "text": "2018",
-    "align": "left",
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "color": "#000000"
-    }
-  },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    },
-    "tickAmount": 6,
-    "max": 50
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "exporting": {
-    "filename": "7958"
-  }
+﻿{"title":"Ausländeranteil",
+"subtitle":"2018",
+"kuerzel":"I.01.1.07958",
+"kuerzelKunde":"2.5",
+"description":"Ausländeranteil",
+"id":7958,
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur ",
+"kennzahlenset":"City-Statistics",
+"raeumlicheGliederung":["Agglomeration"],
+"aktualisierungsdatum":"2019-12-12T08:40:11.1111",
+"stufe1":"2. Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Den grössten Ausländeranteil weist die Kernstadt Genf (47,9%) auf. Ausländeranteile von maximal 15% werden hingegen in den Agglomerationsgemeinden (ohne Kernstadt) in Bern (14,8%) sowie in den deutschen (15,0%) und französischen (14,4%) Gemeinden der Agglomeration Basel registriert. Als gesamte Agglomeration betrachtet haben nur Lausanne und Genf einen Ausländeranteil über 30%.",
+"erlaeuterungen":"Anteil der ständigen ausländischen Wohnbevölkerung an der gesamten ständigen Wohnbevölkerung, in %.",
+"template":"template001",
+"darstellungsart":"Diagramm",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"99_00_00_00_00_006",
+"parentId":null,
+"children":["8101"],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), City Statistics"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7958, 
+"chart-id":7958, 
+"filter":""
 }

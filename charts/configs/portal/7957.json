@@ -1,282 +1,34 @@
-{
-  "series": [
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "Basel",
-          33.05
-        ],
-        [
-          "Bern",
-          32.18
-        ],
-        [
-          "Genève",
-          24.38
-        ],
-        [
-          "Lausanne",
-          25.45
-        ],
-        [
-          "Zürich",
-          26.6
-        ]
-      ],
-      "name": "Gesamte Agglomeration",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "data": [
-        [
-          "Basel",
-          30.06
-        ],
-        [
-          "Bern",
-          26.22
-        ],
-        [
-          "Genève",
-          24.33
-        ],
-        [
-          "Lausanne",
-          22.83
-        ],
-        [
-          "Zürich",
-          22.83
-        ]
-      ],
-      "name": "Kernstadt",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Basel",
-          35.75
-        ],
-        [
-          "Bern",
-          35.31
-        ],
-        [
-          "Genève",
-          26.96
-        ],
-        [
-          "Lausanne",
-          26.84
-        ],
-        [
-          "Zürich",
-          28.34
-        ]
-      ],
-      "name": "Übrige Agglomerationsgemeinden Schweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "data": [
-        [
-          "Basel",
-          33.17
-        ],
-        [
-          "Bern",
-          null
-        ],
-        [
-          "Genève",
-          null
-        ],
-        [
-          "Lausanne",
-          null
-        ],
-        [
-          "Zürich",
-          null
-        ]
-      ],
-      "name": "Agglomerationsgemeinden Deutschland",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "Basel",
-          27.99
-        ],
-        [
-          "Bern",
-          null
-        ],
-        [
-          "Genève",
-          21.3
-        ],
-        [
-          "Lausanne",
-          null
-        ],
-        [
-          "Zürich",
-          null
-        ]
-      ],
-      "name": "Agglomerationsgemeinden Frankreich",
-      "turboThreshold": 0
-    }
-  ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
-  "chart": {
-    "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
-    "events": {
-      "load": function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            );
-          }
-          justifyColumns(event.target);
-        },
-      "redraw": function (event) {
-          justifyColumns(event.target);
-        }
-    },
-    "type": "column",
-    "animation": false,
-    "inverted": false,
-    "renderTo": "container-7957",
-    "spacingBottom": 40
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointPadding": 0,
-      "pointWidth": 14
-    }
-  },
-  "title": {
-    "align": "left",
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "text": "Altersquotient"
-  },
-  "subtitle": {
-    "text": "2018",
-    "align": "left",
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "color": "#000000"
-    }
-  },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickAmount": 5
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-28"
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "exporting": {
-    "filename": "7957"
-  }
+﻿{"title":"Altersquotient",
+"subtitle":"2018",
+"kuerzel":"I.01.1.07957",
+"kuerzelKunde":"2.4",
+"description":"Altersquotient",
+"id":7957,
+"thema":"01 Bevölkerung",
+"unterthema":"Bestand und Struktur ",
+"kennzahlenset":"City-Statistics",
+"raeumlicheGliederung":["Agglomeration"],
+"aktualisierungsdatum":"2020-01-28T16:10:50.5050",
+"stufe1":"2. Bevölkerungsstruktur",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 33,4 im Jahr 2018 deutlich höher als in den Agglomerationen Genf, Lausanne und Zürich. Dies ist auf die relativ ältere Bevölkerung in der Kernstadt Basel (Altersquotient von 29,9) sowie im Schweizer und im Deutscher Gürtel der Agglomeration (36,3 bzw. 33,4) zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (32,7).",
+"erlaeuterungen":"Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+"template":"template001",
+"darstellungsart":"Diagramm",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"99_00_00_00_00_005",
+"parentId":null,
+"children":["8100"],
+"renderLink":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), City Statistics"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7957, 
+"chart-id":7957, 
+"filter":""
 }
