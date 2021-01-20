@@ -86,49 +86,6 @@ var indikatorensetData = [
 		"id": 4823
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
-		"subtitle": "Basel-Stadt,  2018",
-		"kuerzel": "I.01.7.4824",
-		"kuerzelKunde": "GS-3.A",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-06-03T10:22:31.3131",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Gesellschaft und Soziales",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 40% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
-		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-		"template": "dotplot",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_01_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"5111"
-		],
-		"renderLink": [
-			"5111"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4824,
-		"chart-id": 4824,
-		"filter": "",
-		"id": 4824
-	},
-	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.4825",
@@ -865,47 +822,6 @@ var indikatorensetData = [
 		"id": 5110
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
-		"subtitle": "Basel-Stadt,  2018",
-		"kuerzel": "I.01.7.05111",
-		"kuerzelKunde": "GS-3.B",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-09-24T10:47:35.3535",
-		"stufe1": "Teil 3: Karten",
-		"stufe2": "Gesellschaft und Soziales",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 40% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
-		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-		"template": "map001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_003",
-		"parentId": 4824,
-		"children": [],
-		"renderLink": [
-			"4824"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5111,
-		"chart-id": 5111,
-		"filter": "",
-		"id": 5111
-	},
-	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.05112",
@@ -1282,7 +1198,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
@@ -1292,14 +1208,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-16T10:49:46.4646",
+		"aktualisierungsdatum": "2021-01-13T13:32:56.5656",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
 		"template": "map001",
 		"darstellungsart": "Karte",
 		"printformat": "",
