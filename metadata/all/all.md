@@ -1970,6 +1970,14 @@ id | visible | visibleInPortal | indikatorenset
 9177 | false |  | Gesellschaftlicher-Zusammenhalt (Print)
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9179 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9219 | true | true | Arbeitsmarkt
+9220 | true | true | Arbeitsmarkt
+9221 | true | true | Arbeitsmarkt
+9222 | true | true | Arbeitsmarkt
+9223 | true | true | Arbeitsmarkt
+9224 | true | true | Arbeitsmarkt
+9225 | true | true | Arbeitsmarkt
+9226 | true | true | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
