@@ -121,8 +121,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {
