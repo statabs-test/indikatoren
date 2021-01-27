@@ -31,6 +31,10 @@
         [
           "2017",
           1028.1
+        ],
+        [
+          "2018",
+          1029.2
         ]
       ],
       "name": "Personenbef. Schiene",
@@ -67,6 +71,10 @@
         [
           "2017",
           65.3
+        ],
+        [
+          "2018",
+          65.2
         ]
       ],
       "name": "Güterbeförderung Schiene",
@@ -103,6 +111,10 @@
         [
           "2017",
           982.6
+        ],
+        [
+          "2018",
+          975
         ]
       ],
       "name": "Nahverkehr (ohne Taxis)",
@@ -139,6 +151,10 @@
         [
           "2017",
           417.1
+        ],
+        [
+          "2018",
+          374.8
         ]
       ],
       "name": "Taxis",
@@ -175,6 +191,10 @@
         [
           "2017",
           92.5
+        ],
+        [
+          "2018",
+          56.9
         ]
       ],
       "name": "Sonstige Personenbef.",
@@ -211,6 +231,10 @@
         [
           "2017",
           819
+        ],
+        [
+          "2018",
+          759.1
         ]
       ],
       "name": "Güterbeförderung Strasse",
@@ -247,6 +271,10 @@
         [
           "2017",
           118.2
+        ],
+        [
+          "2018",
+          123.2
         ]
       ],
       "name": "Umzugstransporte",
@@ -361,12 +389,14 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 150,
     "labelFormatter": function() {
             return this.name.replace("Personenbef.", "Personenbeförderung");
           }
@@ -399,6 +429,6 @@
     "valueDecimals": 0
   },
   "exporting": {
-    "filename": 7447
+    "filename": "7447"
   }
 }

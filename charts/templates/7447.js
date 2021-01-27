@@ -35,7 +35,9 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    itemWidth: 150,
     "itemStyle": {
+      textOverflow: null,
       "fontWeight": "normal"
     },
    "labelFormatter": function() {
