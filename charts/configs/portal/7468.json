@@ -5,15 +5,15 @@
       "visible": true,
       "data": [
         [
-          "2018",
-          4440
-        ],
-        [
-          "2014",
+          "2010",
           null
         ],
         [
-          "2010",
+          "2012",
+          null
+        ],
+        [
+          "2014",
           null
         ],
         [
@@ -21,8 +21,8 @@
           4667
         ],
         [
-          "2012",
-          null
+          "2018",
+          4440
         ]
       ],
       "name": "Monatlicher Bruttolohn Nordwestschweiz",
@@ -33,24 +33,24 @@
       "visible": true,
       "data": [
         [
-          "2018",
-          5051
+          "2010",
+          5200
+        ],
+        [
+          "2012",
+          5333
         ],
         [
           "2014",
           5189
         ],
         [
-          "2010",
-          5200
-        ],
-        [
           "2016",
           5275
         ],
         [
-          "2012",
-          5333
+          "2018",
+          5051
         ]
       ],
       "name": "Monatlicher Bruttolohn Schweiz",
@@ -192,7 +192,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
