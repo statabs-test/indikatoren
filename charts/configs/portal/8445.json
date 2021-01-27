@@ -68,6 +68,29 @@
       ],
       "name": "2017",
       "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "Basel-Stadt",
+          85.3
+        ],
+        [
+          "Basel-Landschaft",
+          90
+        ],
+        [
+          "Jura",
+          91.9
+        ],
+        [
+          "Schweiz",
+          90.4
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -208,6 +231,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8445
+    "filename": "8445"
   }
 }
