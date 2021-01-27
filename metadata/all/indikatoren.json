@@ -42912,13 +42912,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-18T12:15:30.3030",
+		"aktualisierungsdatum": "2021-01-27T13:42:20.2020",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Lagerei und Zustelldienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Ende 2020 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 6,0%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -42960,7 +42960,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2020 liegt sie bei 2 629 Personen. Die Meldepflichtigen machen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ?? Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -43010,7 +43010,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_05_00_00_00_000",
-		"parentId": null,
+		"parentId": 2085,
 		"children": [
 			"7501"
 		],
