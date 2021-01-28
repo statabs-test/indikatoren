@@ -36,7 +36,7 @@
   "verticalAlign": "middle",
   "itemMarginBottom": 5,
   "align": "right",
-  itemWidth: 150,
+  itemWidth: 180,
   "itemStyle": {
     textOverflow: null,
     "fontWeight": "normal"
@@ -44,13 +44,21 @@
 },
 "series": [
   {
+    "color": "#661200",
+    "legendIndex": 3     
+  },
+  {
     "color": "#B00000",
-    "legendIndex": 1     
+    "legendIndex": 2     
   },
   {
     "color": "#FF8028",
+    "legendIndex": 1     
+  },
+  {
+    "color": "#FABD24",
     "legendIndex": 0     
-  },    
+  },
 ],
 "chart": {    
   "type": "column"
