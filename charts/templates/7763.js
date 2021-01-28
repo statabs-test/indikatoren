@@ -30,12 +30,12 @@
 			min: -1.5,
 			max: 1.5,
 			stops:	[
-						[0, "#661200"],
-						[0.4999999998, "#FF8028"],
+						[0, "#45381D"],
+						[0.4999999998, "#FFDA80"],
 						[0.4999999999, "#C8C8C8"],
 						[0.5000000001, "#C8C8C8"],
-						[0.5000000002, "#73B97C"],
-						[1, "#0A3B19"]
+						[0.5000000002, "#E7CEE2"],
+						[1, "#2E1435"]
 						//[0,'#FF8028'],
 						//[0.25,'#FFBB58'],
 						//[0.5,'#D3E2E4'],
@@ -141,7 +141,7 @@
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
+	                	return (value >= 0) ? '#689199' : '#FABD24';
 	                };					
 
 					//define chart-specific details
@@ -174,9 +174,9 @@
                 	fn.addLegendRectangle(chart, 250, 300, 230, 75, '#fbfbfb');
 	                //fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 220, 'pieLegend pieLegendHideOnZoom');
 
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#689199', 'pieLegendStayeOnZoom');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#689199', 'pieLegendStayeOnZoom');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
 	                
 					var zoomableLabels = [];
