@@ -1083,10 +1083,10 @@ id | visible | visibleInPortal | indikatorenset
 7064 | true | false | Arbeitsmarkt (Print)
 7068 | true | true | 
 7432 | true | true | 
-7435 | true | false | Arbeitsmarkt
-7437 | true | false | Arbeitsmarkt
-7438 | true | false | Arbeitsmarkt
-7442 | true | false | Arbeitsmarkt
+7435 | false |  | Arbeitsmarkt
+7437 | false |  | Arbeitsmarkt
+7438 | false |  | Arbeitsmarkt
+7442 | false |  | Arbeitsmarkt
 7443 | true | false | Arbeitsmarkt
 7444 | true | false | Arbeitsmarkt
 7445 | true | false | Arbeitsmarkt
@@ -1103,10 +1103,10 @@ id | visible | visibleInPortal | indikatorenset
 7458 | false |  | Arbeitsmarkt
 7459 | false |  | Arbeitsmarkt
 7460 | false |  | Arbeitsmarkt
-7461 | true | false | Arbeitsmarkt
-7462 | true | false | Arbeitsmarkt
-7463 | true | false | Arbeitsmarkt
-7464 | true | false | Arbeitsmarkt
+7461 | false |  | Arbeitsmarkt
+7462 | false |  | Arbeitsmarkt
+7463 | false |  | Arbeitsmarkt
+7464 | false |  | Arbeitsmarkt
 7465 | true | false | Arbeitsmarkt
 7466 | true | false | Arbeitsmarkt
 7467 | true | false | Arbeitsmarkt
@@ -1752,10 +1752,10 @@ id | visible | visibleInPortal | indikatorenset
 8689 | true | false | Arbeitsmarkt
 8690 | true | false | Arbeitsmarkt
 8692 | true | true | 
-8693 | true | false | Arbeitsmarkt
-8694 | true | false | Arbeitsmarkt
-8695 | true | false | Arbeitsmarkt
-8696 | true | false | Arbeitsmarkt
+8693 | false |  | Arbeitsmarkt
+8694 | false |  | Arbeitsmarkt
+8695 | false |  | Arbeitsmarkt
+8696 | false |  | Arbeitsmarkt
 8698 | true | false | Arbeitsmarkt (Print)
 8699 | true | false | Arbeitsmarkt (Print)
 8700 | true | false | Arbeitsmarkt (Print)
