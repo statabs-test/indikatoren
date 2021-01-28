@@ -6,38 +6,38 @@
       "data": [
         [
           "2011",
-          303.9
+          null
         ],
         [
           "2012",
-          295.8
+          null
         ],
         [
           "2013",
-          312
+          null
         ],
         [
           "2014",
-          307.2
+          null
         ],
         [
           "2015",
-          292.8
+          null
         ],
         [
           "2016",
-          284.7
+          null
         ],
         [
           "2017",
-          341.4
+          null
         ],
         [
           "2018",
-          330.7
+          null
         ]
       ],
-      "name": "Herstellung sonst. Konstruktions- und Fertigbauteilen und Ausbauelementen",
+      "name": "Bauschreinerei, Fenster und Türen",
       "turboThreshold": 0
     },
     {
@@ -46,38 +46,38 @@
       "data": [
         [
           "2011",
-          3.1
+          null
         ],
         [
           "2012",
-          2.8
+          null
         ],
         [
           "2013",
-          2.3
+          null
         ],
         [
           "2014",
-          3.5
+          null
         ],
         [
           "2015",
-          2.3
+          null
         ],
         [
           "2016",
-          1.9
+          null
         ],
         [
           "2017",
-          3.2
+          null
         ],
         [
           "2018",
-          2.9
+          null
         ]
       ],
-      "name": "Herstellung Holzwaren a. n. g, Kork-, Flecht- und Korbwaren (ohne Möbel)",
+      "name": "Schreinerarbeiten im Innenausbau",
       "turboThreshold": 0
     }
   ],
@@ -104,7 +104,7 @@
     "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -207,9 +207,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

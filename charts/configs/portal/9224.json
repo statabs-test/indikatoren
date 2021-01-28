@@ -1013,7 +1013,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -1126,9 +1126,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-21"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

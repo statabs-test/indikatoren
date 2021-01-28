@@ -19,6 +19,10 @@
         [
           "2016",
           4808
+        ],
+        [
+          "2018",
+          4792
         ]
       ],
       "name": "Monatlicher Bruttolohn",
@@ -167,6 +171,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7446
+    "filename": "7446"
   }
 }
