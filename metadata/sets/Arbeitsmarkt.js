@@ -1768,14 +1768,19 @@ var indikatorensetData = [
 		"id": 6459
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7046"
+		],
+		"template": "template001",
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.6460",
 		"kuerzelKunde": "2-02",
 		"description": "Arbeitslosenquote nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1787,14 +1792,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2019 mit 10,7% im Baugewerbe am höchsten. Die Arbeitslosenquote im Gastgewerbe liegt bei 5,9% und ist gegenüber 2018 rückläufig. In der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe enthalten ist, sowie in der Industrie (exkl. Chemie und Pharma) liegt die Arbeitslosenquote 2019 bei 5,2%. Die mittlere Arbeitslosenquote in Basel-Stadt beträgt im Jahresdurchschnitt 2019 3,0%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (seco), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Erwerbspersonen nach Branche nicht vorhanden sind.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_201",
-		"parentId": null,
-		"children": [
-			"7046"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -3416,14 +3416,19 @@ var indikatorensetData = [
 		"id": 8690
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9232"
+		],
+		"template": "template001",
 		"title": "Beschäftigung in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.09219",
 		"kuerzelKunde": "4.1-01",
 		"description": "Beschäftigung in der Branche Nahrungsmittelindustrie",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3435,14 +3440,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 2 000 Vollzeitäquivalenten (VZÄ) im Jahr 2018 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 300 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 4,3% zurückgegangen.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"9232"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3581,14 +3581,19 @@ var indikatorensetData = [
 		"id": 9222
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9236"
+		],
+		"template": "template001",
 		"title": "Beschäftigung im Schreinereigewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.09223",
 		"kuerzelKunde": "4.2-01",
 		"description": "Beschäftigung im Schreinereigewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3600,14 +3605,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Schreinereigewerbe (NOGA 16) sind in Basel-Stadt im Jahr 2018 in Vollzeitäquivalente (VZÄ) umgerechnet rund 330 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Schreinerarbeiten im Innenausbau (280 VZÄ) sowie Bauschreinerei, Fenster und Türen (50 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 3,2% zurückgegangen.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_201",
-		"parentId": null,
-		"children": [
-			"9236"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"

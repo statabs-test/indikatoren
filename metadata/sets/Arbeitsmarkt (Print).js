@@ -3169,6 +3169,163 @@ var indikatorensetData = [
 		"id": 7497
 	},
 	{
+		"parentId": 7465,
+		"children": [],
+		"template": "template001_print",
+		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"kuerzel": "I.03.2.07498",
+		"kuerzelKunde": "4.7-01",
+		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-18T12:15:30.3030",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2018 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von rund 220 VZÄ verzeichnen (+38%).",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_701",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7498,
+		"chart-id": 7498,
+		"filter": "",
+		"id": 7498
+	},
+	{
+		"parentId": 7466,
+		"children": [],
+		"template": "line001_print",
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"kuerzel": "I.03.4.07499",
+		"kuerzelKunde": "4.7-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-01-27T13:42:20.2020",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2020 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 6,0%.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_702",
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7499,
+		"chart-id": 7499,
+		"filter": "",
+		"id": 7499
+	},
+	{
+		"parentId": 7467,
+		"children": [],
+		"template": "template001_print",
+		"title": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"kuerzel": "I.03.5.07500",
+		"kuerzelKunde": "4.7-03",
+		"description": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-18T12:15:30.3030",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2020 liegt sie bei 2 629 Personen. Die Meldepflichtigen machen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ?? Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_703",
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7500,
+		"chart-id": 7500,
+		"filter": "",
+		"id": 7500
+	},
+	{
+		"parentId": 7468,
+		"children": [],
+		"template": "template001_print",
+		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"kuerzel": "I.03.3.07501",
+		"kuerzelKunde": "4.7-04",
+		"description": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2021-01-27T16:38:08.088",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2018 bei rund 4 400 Franken brutto und damit tiefer als 2016. Der Wert für die gesamte Schweiz beträgt in der gleichen Branche rund 5 100 Franken brutto.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_704",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7501,
+		"chart-id": 7501,
+		"filter": "",
+		"id": 7501
+	},
+	{
 		"parentId": 8683,
 		"children": [],
 		"template": "line001_print",
@@ -3564,7 +3721,7 @@ var indikatorensetData = [
 	{
 		"parentId": 9219,
 		"children": [],
-		"template": "line001_print",
+		"template": "template001_print",
 		"title": "Beschäftigung in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
@@ -3721,7 +3878,7 @@ var indikatorensetData = [
 	{
 		"parentId": 9223,
 		"children": [],
-		"template": "line001_print",
+		"template": "template001_print",
 		"title": "Beschäftigung im Schreinereigewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
@@ -3843,10 +4000,10 @@ var indikatorensetData = [
 		"title": "Medianlohn im Schreinereigewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
-		"kuerzel": "",
+		"kuerzel": "I.03.3.09239",
 		"kuerzelKunde": "4.2-04",
 		"description": "Medianlohn im Schreinereigewerbe",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"raeumlicheGliederung": [
 			"Grossregion"

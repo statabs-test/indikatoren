@@ -70,8 +70,15 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
+            itemWidth: 280,
+            labelFormatter: function(){
+                return this.name
+                .replace("u.", "und")
+                  .replace("Tabakerz.", "Tabakerzeugnisse");
+              },
             //"y": 35,
             "itemStyle": {
+                textOverflow: "none",
                 "fontWeight": "normal"
             }
         },

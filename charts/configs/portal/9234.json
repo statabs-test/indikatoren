@@ -716,9 +716,16 @@
     "itemStyle": {
       "fontSize": "10px",
       "color": "#000000",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none"
     },
-    "padding": 0
+    "padding": 0,
+    "itemWidth": 280,
+    "labelFormatter": function(){
+                return this.name
+                .replace("u.", "und")
+                  .replace("Tabakerz.", "Tabakerzeugnisse");
+              }
   },
   "plotOptions": {
     "series": {
