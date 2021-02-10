@@ -1978,6 +1978,14 @@ id | visible | visibleInPortal | indikatorenset
 9224 | true | false | Arbeitsmarkt
 9225 | true | true | Arbeitsmarkt
 9226 | true | true | Arbeitsmarkt
+9232 | true | false | Arbeitsmarkt (Print)
+9233 | true | false | Arbeitsmarkt (Print)
+9234 | true | false | Arbeitsmarkt (Print)
+9235 | true | false | Arbeitsmarkt (Print)
+9236 | true | false | Arbeitsmarkt (Print)
+9237 | true | false | Arbeitsmarkt (Print)
+9238 | true | false | Arbeitsmarkt (Print)
+9239 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

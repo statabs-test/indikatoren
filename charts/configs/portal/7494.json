@@ -31,6 +31,10 @@
         [
           "2017",
           819.5
+        ],
+        [
+          "2018",
+          827.8
         ]
       ],
       "name": "Vermittlung von Arbeitskräften",
@@ -67,6 +71,10 @@
         [
           "2017",
           5599.4
+        ],
+        [
+          "2018",
+          5295.2
         ]
       ],
       "name": "Befristete Überlassung von Arbeitskräften",
@@ -103,6 +111,10 @@
         [
           "2017",
           0.6
+        ],
+        [
+          "2018",
+          0.3
         ]
       ],
       "name": "Sonstige Überlassung von Arbeitskräften",
@@ -333,6 +345,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7494
+    "filename": "7494"
   }
 }

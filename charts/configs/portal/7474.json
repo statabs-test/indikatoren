@@ -31,6 +31,10 @@
         [
           "2017",
           18.1
+        ],
+        [
+          "2018",
+          17
         ]
       ],
       "name": "Abbruch, Vorbereitung",
@@ -67,6 +71,10 @@
         [
           "2017",
           2347.9
+        ],
+        [
+          "2018",
+          2319.1
         ]
       ],
       "name": "Elektroinstallation",
@@ -103,6 +111,10 @@
         [
           "2017",
           1191.9
+        ],
+        [
+          "2018",
+          1152.2
         ]
       ],
       "name": "Sanitär, Heizung, Lüftung",
@@ -139,6 +151,10 @@
         [
           "2017",
           218.5
+        ],
+        [
+          "2018",
+          208
         ]
       ],
       "name": "Sonstige Bauinstallation",
@@ -175,6 +191,10 @@
         [
           "2017",
           276.9
+        ],
+        [
+          "2018",
+          291.3
         ]
       ],
       "name": "Stuck, Gipserei, Verputzerei",
@@ -211,6 +231,10 @@
         [
           "2017",
           103.9
+        ],
+        [
+          "2018",
+          104.8
         ]
       ],
       "name": "Bautischlerei, -schlosserei",
@@ -247,6 +271,10 @@
         [
           "2017",
           336.3
+        ],
+        [
+          "2018",
+          351.2
         ]
       ],
       "name": "Boden, Fliesen, Tapeziererei",
@@ -283,6 +311,10 @@
         [
           "2017",
           879.2
+        ],
+        [
+          "2018",
+          857.1
         ]
       ],
       "name": "Malerei und Glaserei",
@@ -319,6 +351,10 @@
         [
           "2017",
           9.7
+        ],
+        [
+          "2018",
+          9.8
         ]
       ],
       "name": "Sonstiger Ausbau",
@@ -355,6 +391,10 @@
         [
           "2017",
           573.5
+        ],
+        [
+          "2018",
+          422.7
         ]
       ],
       "name": "Spezialisierte Bautätigkeit",
@@ -590,6 +630,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7474
+    "filename": "7474"
   }
 }
