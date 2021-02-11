@@ -78,14 +78,17 @@ var indikatorensetData = [
 		"id": 7511
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.05.1.07512",
 		"kuerzelKunde": "",
 		"description": "Jahresteuerung Basler Index und Landesindex",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
@@ -96,14 +99,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Seit April fällt die negative Teuerung beim Bund jeweils etwas stärker aus als in Basel-Stadt.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Dezember 2020 und Dezember 2019.",
-		"template": "line001",
+		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Diese Entwicklung setzt sich fort; seit April 2020 allerdings im negativen Bereich, sprich der Basler Index verläuft etwas weniger stark rückläufig als der Landesindex.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2021 und Januar 2020.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "_0-1",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -119,14 +119,17 @@ var indikatorensetData = [
 		"id": 7512
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Basler Index",
-		"subtitle": "Basis Dezember 2015 = 100",
+		"subtitle": "Basis Dezember 2020 = 100",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.05.1.07513",
 		"kuerzelKunde": "",
 		"description": "Basler Index",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -136,14 +139,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nach Jahren mit mehrheitlich steigenden Durchschnittspreisen hat namentlich der Preiszerfall an den globalen Erdölmärkten zwischen Februar und Mai 2020 auch beim Basler Index seine Spuren hinterlassen.",
+		"lesehilfe": "Die mittlere Jahresteuerung des Basler Index beläuft sich für das ganze Jahr 2020 auf -0,6%. Das durchschnittliche Preisniveau in der Region Basel ist damit leicht gesunken.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "_0-2",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
