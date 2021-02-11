@@ -6555,10 +6555,16 @@
       ],
       "states": {
         "hover": {
-          "enabled": true,
-          "borderColor": "#888",
-          "brightness": 0.15
+          "enabled": false,
+          "borderColor": "#BADA55",
+          "brightness": 0
         }
+      },
+      "tooltip": {
+        "pointFormatter": function () {
+						//console.log(this);
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
+					}
       },
       "data": [
         [
@@ -7085,7 +7091,7 @@
       "color": "#008AC3",
       "borderColor": "#fbfbfb",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       }
@@ -7145,13 +7151,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function (){
+        "formatter": function(){
 						return '1 km';
 					},
         "style": {
@@ -7199,7 +7205,7 @@
 								name: " < \u00A0\u00A0 300",
 								from: 0,
 								to: 299,
-								diameter: .000001
+								diameter: 0.000001
 							},
 						];
 
@@ -7218,8 +7224,7 @@
 							},
 							tooltip: {
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.properties.LIBGEO;
-									//return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
 								}
 							}
 						};
@@ -7228,20 +7233,11 @@
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
-					// Legende Wohnviertel
-					var yoff = 0, xoff = 0;
+					//console.log(choroplethSeries);
 					for (let i = 0; i < pieSizeSeries.data.length; i++) {
-						//console.log(pieSizeSeries.data[i].properties.LIBGEO);
-						if (choroplethSeries.data[i]["Wohnviertel Id"] < 10) xoff = 8; else xoff = 0;
-						if (i > 10) { xoff = 120; yoff = -11 * 15; }
-						fn.addLegendLabel(chart, choroplethSeries.data[i]["Wohnviertel Id"].toString()
-							+ ': ' + pieSizeSeries.data[i].properties.LIBGEO
-								.replace('Grossbasel', 'GB')
-								.replace('Kleinbasel', 'KB')
-							, 250 + xoff, 230 + i * 15 + yoff, undefined, false, 'left');
+						if (choroplethSeries.data[i].Wohnviertel_Id < 10) var xoff=8; else var xoff = 0;
+						fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id.toString() + ': ' + pieSizeSeries.data[i].options["hc-key"], 800+xoff, 30 + i * 20, undefined, false, 'right');
 					}
-
-					//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
 
 					/*
 						//Add manually drawn legend
@@ -7357,7 +7353,7 @@
   },
   "xAxis": {
     "events": {
-      "afterSetExtremes": function (e){
+      "afterSetExtremes": function(e){
 					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 					divIdString = '';
@@ -7396,7 +7392,7 @@
     "filename": "8842"
   },
   "customFunctions": {
-    "hideOnZoom": function (e, selector){
+    "hideOnZoom": function(e, selector){
 				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 				var divIdString = '#' + divId;
 				divIdString = '';
@@ -7407,7 +7403,7 @@
 					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 				}
 			},
-    "recalculateOnZoom": function (e, zoomableLabels){
+    "recalculateOnZoom": function(e, zoomableLabels){
 				if (e.target.chart){
 					var fn = e.target.chart.userOptions.customFunctions;
 					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
@@ -7436,18 +7432,18 @@
 					}
 				}
 			},
-    "pieSizeCategorical": function (value, conf){
+    "pieSizeCategorical": function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
 					if (value >= conf[i].from && value < conf[i].to) {
 						return conf[i];
 					}
 				}
 			},
-    "pieValue": function (size, maxAbsValue, maxPieDiameter){
+    "pieValue": function(size, maxAbsValue, maxPieDiameter){
 				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
 				return value;
 			},
-    "pieSize": function (value, maxAbsValue, maxPieDiameter){
+    "pieSize": function(value, maxAbsValue, maxPieDiameter){
             	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
             	return diameter;
             	/*
@@ -7480,7 +7476,7 @@
 				return diameter;
 				*/
             },
-    "defineTemplate": function (){
+    "defineTemplate": function(){
 
 					//define new chart type
 					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
@@ -7539,7 +7535,7 @@
 					});
 
     		    },
-    "getPointsExtremes": function (points){
+    "getPointsExtremes": function(points){
 	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
 	                var minNumber = Number.POSITIVE_INFINITY;
@@ -7557,7 +7553,7 @@
 					    minAbsNumber: minAbsNumber
 					};
 				},
-    "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+    "drawPies": function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
             		var fn = chart.userOptions.customFunctions;
         			fn["pieSizeSeries"] = pieSizeSeries ;
         			fn["maxPieDiameter"] = fn["maxPieDiameter"]  ? fn["maxPieDiameter"] : 20;
@@ -7616,19 +7612,8 @@
 		                        		borderColor: color(data.value)
 		                        	}
 		                        ],
-		                        dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 10.02.2021)
-									enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
-									distance: 0,
-									padding: 2,
-									x: -10,
-									borderWidth: 0,
-									style: {
-										textOutline: '0px'
-									},
-									formatter: function () {
-										return correspondingMapSeriesItem['Wohnviertel Id'];
-										//return correspondingMapSeriesItem.properties.LIBGEO;
-									}
+		                        dataLabels: {
+							        enabled: false
 								},
 								colorAxis: false
 	                        };
@@ -7676,13 +7661,13 @@
     	                })
     			        .add();	                
                 },
-    "addSubtitle": function (chart, text, x, y, cssClass, useHtml){
+    "addSubtitle": function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
     					class: cssClass + ' pieSubtitle'
     				}).add();
                 },
-    "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
+    "addLegendCircle": function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill)
                 	.attr({
     				    fill: fill,
@@ -7692,7 +7677,7 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, align){
+    "addLegendLabel": function(chart, text, x, y, cssClass, useHtml, align){
                 	var label = 
     				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
@@ -7708,7 +7693,7 @@
 					}
     				return label;
                 },
-    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml, initialValue){
+    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
     				.attr({
     					zIndex: 6,
@@ -7720,7 +7705,7 @@
                         fontWeight: 'bold' }).
                      add();
                 },
-    "addLegendSquare": function (chart, x, y, width, fill, cssClass){
+    "addLegendSquare": function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
@@ -7728,7 +7713,7 @@
     		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
-    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+    "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, height).attr({
     		            'stroke-width':0,
     		            fill: fill,
@@ -7736,7 +7721,7 @@
     		            class: cssClass
     	        	}).add();
                 },
-    "AddPieLegendClickHandler": function (chart, colorPassive){
+    "AddPieLegendClickHandler": function(chart, colorPassive){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
@@ -7804,7 +7789,7 @@
 						}
 					});
 				},
-    "exportCurrentSVG": function (chart, type){
+    "exportCurrentSVG": function(chart, type){
 					var origFn = Highcharts.Chart.prototype.getSVG;
 					Highcharts.Chart.prototype.getSVG = function() {
 						console.log("Using current SVG to export.");
@@ -7822,24 +7807,5 @@
         "enabled": true
       }
     }
-  },
-  "tooltip": {
-    "useHTML": true,
-    "zIndex": 100,
-    "backgroundColor": "rgba(0,0,0,0)",
-    "shadow": false,
-    "borderWidth": 0,
-    "distance": 10,
-    "formatter": function () {
-				//console.log(this);
-				var txt = '';
-				//wenn nicht Spalte mit Name "Hintergrund" (z.B. Rhein)
-				if (typeof this.point.series.userOptions !== 'undefined' && this.point.series.userOptions.name != 'Hintergrund') txt = this.point.series.userOptions.name;
-				//wenn tooltip für Fläche dann LIBGEO
-				else if (typeof this.point.properties !== 'undefined') txt = this.point.properties.LIBGEO;
-				//wenn tooltip für Pie/Label dann aus Highcharts-Objekt via _i
-				else if (typeof Highcharts.charts[1].series[0].data[this.point.series['_i'] - 5].properties !== 'undefined') txt = Highcharts.charts[1].series[0].data[this.point.series['_i'] - 5].properties.LIBGEO;
-				return '<p style="margin:0;padding:2px 7px;border:1px solid black;background-color:rgba(247,247,247,0.85);">' + txt + '</p>';
-			}
   }
 }
