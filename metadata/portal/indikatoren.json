@@ -42377,14 +42377,19 @@
 		"id": 9222
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9238"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.09225",
 		"kuerzelKunde": "4.2-03",
 		"description": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -42394,17 +42399,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 3. Quartal 2020 sind in Basel-Stadt 137 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ??? Stellen aus.",
+		"lesehilfe": "Im 3. Quartal 2020 sind in Basel-Stadt 137 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_203",
-		"parentId": null,
-		"children": [
-			"9238"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",

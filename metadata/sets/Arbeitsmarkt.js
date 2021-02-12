@@ -3085,14 +3085,19 @@ var indikatorensetData = [
 		"id": 7466
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7500"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.07467",
 		"kuerzelKunde": "4.7-03",
 		"description": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3102,16 +3107,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2020 liegt sie bei 2 629 Personen. Die Meldepflichtigen machen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ?? Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2020 liegt sie bei 2 629 Personen. Die Meldepflichtigen machen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 6 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_703",
-		"parentId": null,
-		"children": [
-			"7500"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -3498,14 +3498,19 @@ var indikatorensetData = [
 		"id": 9220
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9234"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.09221",
 		"kuerzelKunde": "4.1-03",
 		"description": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3515,16 +3520,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) ist in den letzten Jahren leicht gestiegen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt in der Nahrungsmittelindustrie ?? Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ??? Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) liegt im 3. Quartal 2020 bei 1118 und damit  leicht höher als 2011. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt in der Nahrungsmittelindustrie 3 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_103",
-		"parentId": null,
-		"children": [
-			"9234"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -3663,14 +3663,19 @@ var indikatorensetData = [
 		"id": 9224
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9238"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.09225",
 		"kuerzelKunde": "4.2-03",
 		"description": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3680,16 +3685,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 3. Quartal 2020 sind in Basel-Stadt 137 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ??? Stellen aus.",
+		"lesehilfe": "Im 3. Quartal 2020 sind in Basel-Stadt 137 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_203",
-		"parentId": null,
-		"children": [
-			"9238"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",

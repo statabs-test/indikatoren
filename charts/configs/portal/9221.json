@@ -160,7 +160,11 @@
         ],
         [
           "2020-03",
-          null
+          4
+        ],
+        [
+          "2020-04",
+          3
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -330,6 +334,10 @@
         [
           "2020-03",
           1118
+        ],
+        [
+          "2020-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger Nahrungs- u. Genussmittel, Getränke und Tabakerz.",
@@ -499,6 +507,10 @@
         [
           "2020-03",
           105
+        ],
+        [
+          "2020-04",
+          60
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
@@ -518,8 +530,7 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "x": 17,
       "formatter": function() {
@@ -529,10 +540,14 @@
     "tickInterval": 4
   },
   "chart": {
-    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -543,28 +558,30 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+                    this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
-    "renderTo": "container-9221"
+    "renderTo": "container-9221",
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
-      "marker": {
-        "enabled": false
-      },
+      "borderWidth": 1e-7,
       "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        },
         "enabled": false
       }
     }
@@ -631,13 +648,19 @@
     }
   ],
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
     }
   },
   "credits": {
@@ -654,40 +677,6 @@
       "y": -35
     },
     "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-21"
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString) {
-
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
-
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
-
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
   },
   "tooltip": {
     "shared": true,
