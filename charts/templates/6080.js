@@ -25,7 +25,12 @@
    "legend": {
     "enabled": true,
     //"y": 15,
-    "itemWidth": 140,
+    itemWidth: 167,
+  width: 600,
+  itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  },
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
