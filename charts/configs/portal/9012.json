@@ -1,33 +1,87 @@
 {
   "series": [
     {
-      "color": "#A0BEC8",
+      "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
-          "Beschäftigte",
-          1.147848308
+          "4. April 2020",
+          2.553523873
         ],
         [
-          "Betriebe",
-          4.030889838
+          "11. Mai 2020",
+          0
+        ],
+        [
+          "18. Januar 2021",
+          2.384721844
         ]
       ],
-      "name": "Künstlerische und unterhaltende Tätigkeiten (inkl. Kinos)",
+      "name": "Einkaufsläden und Märkte",
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#923F8D",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
-          "Beschäftigte",
-          1.551585099
+          "4. April 2020",
+          4.018746461
         ],
         [
-          "Betriebe",
-          1.731703036
+          "11. Mai 2020",
+          0.084401015
+        ],
+        [
+          "18. Januar 2021",
+          4.018746461
         ]
       ],
-      "name": "Erholung (inkl. Skipisten und Campingplätze) und Freizeitaktivitäten (inkl. Diskotheken, Nachtclubs, Casinos)",
+      "name": "Restaurations-, Bar- und Clubbetriebe sowie Diskotheken und Tanzlokale",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "4. April 2020",
+          3.566860282
+        ],
+        [
+          "11. Mai 2020",
+          2.551951184
+        ],
+        [
+          "18. Januar 2021",
+          3.566860282
+        ]
+      ],
+      "name": "Betriebe in den Bereichen Kultur, Unterhaltung, Freizeit und Sport",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "4. April 2020",
+          0.847155529
+        ],
+        [
+          "11. Mai 2020",
+          0
+        ],
+        [
+          "18. Januar 2021",
+          0
+        ]
+      ],
+      "name": "Betriebe mit personenbezogenen Dienstleistungen mit Körperkontakt",
       "turboThreshold": 0
     }
   ],
@@ -47,11 +101,12 @@
         "color": "#000000"
       },
       "formatter": function(){
-        return this.value
-          .replace("Beschäftigte", "Beschäftigte<br>(N=5 155)")
-          .replace("Betriebe", "Betriebe<br>(N=985)")
-          ;
-      }
+          return this.value
+            .replace("4. April 2020", "4. April<br>2020")
+            .replace("11. Mai 2020", "11. Mai<br>2020")
+            .replace("18. Januar 2021", "18. Januar<br>2021")
+            ;
+        }
     },
     "tickInterval": 1
   },
@@ -113,10 +168,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe"
+    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte"
   },
   "subtitle": {
-    "text": "Stand: 11. Mai 2020, in % der Gesamtwirtschaft Basel-Stadt",
+    "text": "in % der Gesamtwirtschaft Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -141,7 +196,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickAmount": 8,
+    "tickAmount": 6,
     "max": undefined
   },
   "legend": {
@@ -155,7 +210,7 @@
     "layout": "vertical",
     "align": "right",
     "verticalAlign": "middle",
-    "itemWidth": 170,
+    "itemWidth": 200,
     "margin": 5,
     "itemMarginBottom": 20
   },
@@ -179,7 +234,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -187,6 +242,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 9012
+    "filename": "9012"
   }
 }
