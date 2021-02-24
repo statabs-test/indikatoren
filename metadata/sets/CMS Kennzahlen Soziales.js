@@ -667,7 +667,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2019 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 45% aus. 2010 waren etwas mehr als die Hälfte der Asylsuchenden bis 25 Jahre alt, 2019 liegt dieser Anteil noch bei 43%.",
+		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2020 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 46% aus. 2011 waren etwas mehr als die Hälfte der Asylsuchenden bis 25 Jahre alt, 2020 liegt dieser Anteil noch bei 43%.",
 		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
