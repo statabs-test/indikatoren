@@ -74025,7 +74025,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -74065,7 +74065,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -74105,7 +74105,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
