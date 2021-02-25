@@ -160,7 +160,11 @@
         ],
         [
           "2020-03",
-          null
+          4
+        ],
+        [
+          "2020-04",
+          3
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -330,6 +334,10 @@
         [
           "2020-03",
           137
+        ],
+        [
+          "2020-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger Holzwaren, Papier und Druckerzeugnissen",
@@ -499,6 +507,10 @@
         [
           "2020-03",
           105
+        ],
+        [
+          "2020-04",
+          60
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
@@ -706,7 +718,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-28"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-21"
   },
   "legend": {
     "enabled": true,

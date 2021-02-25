@@ -180,6 +180,10 @@
         [
           "2020-03",
           2629
+        ],
+        [
+          "2020-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger Sonstige wirtsch. DL",
@@ -365,6 +369,10 @@
         [
           "2020-03",
           7
+        ],
+        [
+          "2020-04",
+          6
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",

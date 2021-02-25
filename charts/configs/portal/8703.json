@@ -160,7 +160,11 @@
         ],
         [
           "2020-03",
-          null
+          4
+        ],
+        [
+          "2020-04",
+          11
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -330,6 +334,10 @@
         [
           "2020-03",
           367
+        ],
+        [
+          "2020-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -499,6 +507,10 @@
         [
           "2020-03",
           15
+        ],
+        [
+          "2020-04",
+          11
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",

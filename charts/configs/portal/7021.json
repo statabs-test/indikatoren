@@ -150,19 +150,19 @@
         ],
         [
           "2020-01",
-          1137
+          892
         ],
         [
           "2020-02",
-          510
+          318
         ],
         [
           "2020-03",
-          824
+          519
         ],
         [
           "2020-04",
-          904
+          598
         ]
       ],
       "name": "Frauen",
@@ -318,19 +318,19 @@
         ],
         [
           "2020-01",
-          1825
+          1528
         ],
         [
           "2020-02",
-          810
+          533
         ],
         [
           "2020-03",
-          1425
+          938
         ],
         [
           "2020-04",
-          1257
+          877
         ]
       ],
       "name": "Männer",
@@ -519,7 +519,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "enabled": true,
