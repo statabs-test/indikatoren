@@ -12,7 +12,7 @@
      labels:{
       style: {
         textOverflow: "none",
-        whiteSpace: "nowrap",
+        //whiteSpace: "nowrap",
     },
       // x: 20,
      		"formatter": function() {
@@ -33,7 +33,8 @@
     "shared": false
   },
   "chart": {
-    "type": "column"
+    "type": "column", 
+    marginRight: 20
   }
 	};
 }());

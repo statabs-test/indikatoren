@@ -410,8 +410,7 @@
     "labels": {
       "style": {
         "color": "#000000",
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
+        "textOverflow": "none"
       },
       "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
@@ -453,6 +452,7 @@
                 }
     },
     "type": "column",
+    "marginRight": 20,
     "renderTo": "container-8981",
     "spacingBottom": 40
   },
