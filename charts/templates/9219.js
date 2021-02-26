@@ -52,28 +52,28 @@
       "legendIndex": 5     
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "legendIndex": 4     
     },
     {
-      "color": "#FF8028",
+      "color": "#FFBB58",
       "legendIndex": 3     
     },
     {
-      "color": "#2E1435",
+      "color": "#662673",
       "legendIndex": 2     
     },
     {
-      "color": "#662673",
+      "color": "#B375AB",
       "legendIndex": 1
     },
     {
-      "color": "#923F8D",
+      "color": "#E7CEE2",
       "legendIndex": 0  
     },     
   ],
   "chart": {    
-    "type": "column"
+    "type": "column",
   }
 	}
 }());
