@@ -375,11 +375,12 @@
     "itemStyle": {
       "fontSize": "10px",
       "color": "#000000",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "padding": 0,
-    "x": -1,
-    "width": 340
+    "x": -1
   },
   "plotOptions": {
     "series": {

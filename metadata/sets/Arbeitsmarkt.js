@@ -1,13 +1,18 @@
 var indikatorensetData = [
 	{
+		"parentId": null,
+		"children": [
+			"7003"
+		],
+		"template": "line001",
 		"title": "Neue Grenzgängerbewilligungen nach Branche",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2151",
 		"kuerzelKunde": "3.4-04",
 		"description": "Neue Grenzgängerbewilligungen nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -17,16 +22,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil an erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2019 wurden für diese Branche 2 675 Bewilligungen erteilt. Der Anteil beträgt 55,4%. Es folgt der Bereich Gesundheits- und Sozialwesen mit einem Anteil von 7,9% (380). Insgesamt wurden 2019 rund 4 800 neue Bewilligungen erteilt, 0,4% weniger als im Vorjahr.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil an erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2020 wurden für diese Branche 2 453 Bewilligungen erteilt. Der Anteil beträgt fast 53%. Es folgt der Bereich Chemische und Pharmazeutische Industrie mit einem Anteil von 8,8% (409). Insgesamt wurden 2020 rund 4 600 neue Bewilligungen erteilt, 4,0% weniger als im Vorjahr.",
 		"erlaeuterungen": "Vom Staatssekretariat für Migration neuerteilte bzw. erneuerte Grenzgängerbewilligungen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_404",
-		"parentId": null,
-		"children": [
-			"7003"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -41,14 +41,19 @@ var indikatorensetData = [
 		"id": 2151
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7004"
+		],
+		"template": "template001",
 		"title": "Grenzgänger nach Wohnort und Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2152",
 		"kuerzelKunde": "3.4-02",
 		"description": "Grenzgänger nach Wohnort und Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -58,16 +63,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen Gruppen waren im 4. Quartal 2019 mehr Grenzgängerinnen und Grenzgänger tätig als zehn Jahre zuvor. Besonders gross fiel der relative Zuwachs seit 2010 bei Frauen aus Deutschland (+19,2%) aus. Von den rund 33 900 Grenzgängern in Basel-Stadt waren zuletzt ca. 40% Frauen. Insgesamt kamen fast 52% der Grenzgänger in Basel-Stadt aus Frankreich, ca. 47% aus Deutschland.",
+		"lesehilfe": "In allen Gruppen waren im 4. Quartal 2020 mehr Grenzgängerinnen und Grenzgänger tätig als zu Beginn des Jahres 2010. Besonders gross fiel der relative Zuwachs bei Frauen aus Deutschland (+20,4%) aus. Von den rund 34 400 Grenzgängern in Basel-Stadt waren ca. 40% Frauen. Insgesamt kamen rund 52% der Grenzgänger in Basel-Stadt aus Frankreich, ca. 47% aus Deutschland.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_402",
-		"parentId": null,
-		"children": [
-			"7004"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -82,14 +82,19 @@ var indikatorensetData = [
 		"id": 2152
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7005"
+		],
+		"template": "template001",
 		"title": "Grenzgänger nach Alter",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2153",
 		"kuerzelKunde": "3.4-03",
 		"description": "Grenzgänger nach Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -99,16 +104,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Altersgruppen gab es im 4. Quartal 2019 mehr Grenzgänger als zehn Jahre zuvor. In einigen Gruppen gingen die Zahlen in den letzten Quartalen etwas zurück. Vergleichen mit dem 4. Quartal 2018 fiel der Rückgang mit 6,1% in der Gruppe der Personen im Alter von 25 bis 29 Jahren am stärksten aus.",
+		"lesehilfe": "In den meisten Altersgruppen gab es im 4. Quartal 2020 mehr Grenzgänger als zu Beginn des Jahres 2010. Verglichen mit dem 4. Quartal 2019 war die Entwicklung unterschiedlich. Der stärkste Rückgang wurde mit 5,2% in der Gruppe der Personen im Alter von 25 bis 29 Jahren verzeichnet.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_403",
-		"parentId": null,
-		"children": [
-			"7005"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -123,14 +123,19 @@ var indikatorensetData = [
 		"id": 2153
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7006"
+		],
+		"template": "line001",
 		"title": "Grenzgänger in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2161",
 		"kuerzelKunde": "3.4-05",
 		"description": "Grenzgänger in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -140,16 +145,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nach einer zunächst relativ konstanten Entwicklung seit 2010 ging die Zahl der Grenzgänger in den abgebildeten Branchen zuletzt zurück. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2019 insgesamt 6 207 Grenzgänger gezählt, 1,3% weniger als ein Jahr zuvor.",
+		"lesehilfe": "Seit 2010 entwickelte sich die Zahl der Grenzgänger in den abgebildeten Branchen zunächst konstant, dann rückläufig und zuletzt wiederumg relativ gleichbleibend. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2020 insgesamt fast 6 400 Grenzgänger gezählt, 0,1% weniger als ein Jahr zuvor. In der Baubranche ging die Anzahl im Vorjahresvergleich um 9,9% zurück.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_405",
-		"parentId": null,
-		"children": [
-			"7006"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -164,14 +164,19 @@ var indikatorensetData = [
 		"id": 2161
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7007"
+		],
+		"template": "line001",
 		"title": "Grenzgänger im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2163",
 		"kuerzelKunde": "3.4-06",
 		"description": "Grenzgänger im Dienstleistungssektor (I)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -181,16 +186,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche Information und Kommunikation arbeiteten im 4. Quartal 2019 mit 1 452 Personen 5,1% mehr Grenzgänger als ein Jahr zuvor. In den drei anderen Branchen ging die Zahl zurück: im Gastgewerbe  um 2,4% (aktuell rund 846 Personen), in der Branche Handel und Reparatur um 4,7% (2 696 Personen), im Bereich Verkehr und Lagerei um 2,1% (1 021 Personen).",
+		"lesehilfe": "Im Vergleich zum Jahr 2010 ist die Zahl der Grenzgänger nur in der Branche Information und Kommunikation gestiegen, um fast 104%. Im Vergleich zum 4. Quartal 2019 ging der Wert allerdings um 1,2% zurück. Die Branche Verkehr und Lagerei verzeichnete im 4. Quartal 2020 hingegen 4,4% mehr Grenzgänger als ein Jahr zuvor.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_406",
-		"parentId": null,
-		"children": [
-			"7007"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -205,14 +205,19 @@ var indikatorensetData = [
 		"id": 2163
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7008"
+		],
+		"template": "line001",
 		"title": "Grenzgänger nach Kanton",
 		"subtitle": "",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2173",
 		"kuerzelKunde": "3.4-01",
 		"description": "Grenzgänger nach Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -222,16 +227,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2010 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt betrug der Zuwachs 9,9%, von rund 31 000 auf rund 33 900. Nach einigen Quartalen mit einem Rückgang stieg die Zahl der Grenzgänger zuletzt wieder, gegenüber dem 4. Quartal 2018 um 0,1%. In der gesamten Schweiz arbeiteten im 4. Quartal 2019 rund 329 000 Grenzgänger.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2010 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt betrug der Zuwachs 12,7%, von rund 31 000 auf rund 34 400. Gegenüber dem 4. Quartal 2019 stieg der Wert um 0,1%. In der gesamten Schweiz arbeiteten im 4. Quartal 2020 rund 344 000 Grenzgänger, 1,4% mehr als ein Jahr zuvor.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_401",
-		"parentId": null,
-		"children": [
-			"7008"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -246,14 +246,19 @@ var indikatorensetData = [
 		"id": 2173
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7009"
+		],
+		"template": "line001",
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"subtitle": "in Franken",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.2400",
 		"kuerzelKunde": "3.1-01",
 		"description": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -263,16 +268,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2018 beträgt es rund 191 000 Franken. Dies sind 17,8% mehr als 2009 und 2,4% mehr als 2017. Der Schweizer Durchschnitt beträgt 2018 rund 81 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2019 beträgt es rund 204  000 Franken. Dies sind 21,1% mehr als 2010 und 2,8% mehr als 2018. Der Schweizer Durchschnitt beträgt 2019 rund 85 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"7009"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -287,14 +287,19 @@ var indikatorensetData = [
 		"id": 2400
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7010"
+		],
+		"template": "template001",
 		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"subtitle": "nach Kanton",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.2401",
 		"kuerzelKunde": "3.1-02",
 		"description": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
@@ -305,16 +310,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das baselstädtische reale BIP ist 2018 gegenüber dem Vorjahr um 4,0% gewachsen, Zürich verzeichnet die gleiche Zuwachsrate. In der gesamten Schweiz ist das BIP gegenüber 2017 um 2,8% gestiegen. Der hohe Zuwachs in Basel-Stadt 2017 gegenüber 2016 ist in erster Linie auf das Wachstum der Pharmaindustrie zurückzuführen.",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2019 gegenüber dem Vorjahr um 6,0% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2018 um 1,1% gestiegen. Der hohe Zuwachs in Basel-Stadt der vergangenen Jahre ist nicht zuletzt auf das Wachstum der Pharmaindustrie zurückzuführen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"7010"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -329,14 +329,19 @@ var indikatorensetData = [
 		"id": 2401
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7011"
+		],
+		"template": "template001",
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
 		"subtitle": "2018",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.2402",
 		"kuerzelKunde": "3.1-03",
 		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
@@ -347,16 +352,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2018 beträgt er 43,7%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,2%, vor den Finanz- und Versicherungsdienstleistungen mit 8,8%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,2% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 19,4% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 18,2%. Im Schweizer Durchschnitt ist die Branche Beratung, Planung, Forschung und Immobilien mit 14,9% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2019 beträgt er 44,6%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,0%, vor den Finanz- und Versicherungsdienstleistungen mit 9,3%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 21,6% am grössten, im Aargau ebenfalls mit 19,6% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 20,9%. Die Branche Handel und Reparatur ist auch im Schweizer Durchschnitt mit 16,8% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_103",
-		"parentId": null,
-		"children": [
-			"7011"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -371,14 +371,19 @@ var indikatorensetData = [
 		"id": 2402
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7012"
+		],
+		"template": "line001",
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.2404",
 		"kuerzelKunde": "3.1-04",
 		"description": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -388,16 +393,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit dem Jahr 2009 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2018 betrug der Zuwachs gegenüber dem Vorjahr 6,4%. Auch bei der Industrie hat sich der Wert seit 2009 mehr als verdoppelt (gegenüber Vorjahr +6,0%). Das Baugewerbe legte um 30,1% zu (gegenüber Vorjahr +15,7%).",
+		"lesehilfe": "Seit dem Jahr 2010 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2019 betrug der Zuwachs gegenüber dem Vorjahr 11,6%. Auch bei der Industrie insgesamt hat sich der Wert seit 2010 mehr als verdoppelt (gegenüber Vorjahr +10,5%). Das Baugewerbe legte seit 2010 um 4,6% zu, gegenüber 2018 wurde ein leichter Rückgang von 0,4% verzeichnet.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"7012"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -412,14 +412,19 @@ var indikatorensetData = [
 		"id": 2404
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7013"
+		],
+		"template": "line001",
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.2405",
 		"kuerzelKunde": "3.1-05",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -429,16 +434,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während die Branche Handel und Reparatur (+13,4%) sowie das Gastgewerbe (+12,9%) zwischen 2009 und 2018 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-16,5%) sowie Information und Kommunikation (-12,8%) zurück. Gegenüber dem Vorjahr ging der Wert in der Branche Handel und Reperatur um 0,8% zurück, in den drei übrigen Branchen nahm er zu, am stärksten mit 4,7% im Gastgewerbe.",
+		"lesehilfe": "Die Branche Handel und Reparatur (+6,3%) sowie das Gastgewerbe (+12,2%) verzeichneten zwischen 2010 und 2019 ein Wachstum der realen Wertschöpfung. In den Branchen Verkehr und Lagerei (-9,3%) sowie Information und Kommunikation (-4,8%) bildete sich der Wert zurück. Gegenüber dem Vorjahr ging er in der Branche Handel und Reperatur um 1,6% zurück, die drei übrigen verzeichneten ein Wachstum.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_105",
-		"parentId": null,
-		"children": [
-			"7013"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -453,14 +453,19 @@ var indikatorensetData = [
 		"id": 2405
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7014"
+		],
+		"template": "line001",
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.2423",
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -470,16 +475,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendarbeitslosenquote reduzierte sich von 3,9% im Jahresdurchschnitt 2018 auf 3,2% im Jahr 2019. Sie lag damit weiterhin über der durchschnittlichen Quote aller Altersgruppen (2019: 3,0%). Die Arbeitslosenquote der Personen ab 50 Jahre lag wie in der Vergangenheit unterhalb des Quotendurchschnitts aller Arbeitslosen.",
+		"lesehilfe": "Die Jugendarbeitslosenquote nahm von 3,6% im Dezember 2019 auf 5,0% im Juli 2020 deutlich zu, ging bis Jahresende 2020 auf 4,1% zurück. Im Jahresdurchschnitt 2020 lag sie bei 4,1% und damit weiterhin über der durchschnittlichen Quote aller Altersgruppen im Jahr 2020 (3,8%). Die Arbeitslosenquote der Personen ab 50 Jahre stieg von 2,7% Ende 2019 auf 3,6% Ende Dezember 2020.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_302",
-		"parentId": null,
-		"children": [
-			"7014"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -494,14 +494,21 @@ var indikatorensetData = [
 		"id": 2423
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7015",
+			"8252",
+			"8523"
+		],
+		"template": "line001",
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.2424",
 		"kuerzelKunde": "3.3-03",
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -511,18 +518,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2019 beträgt die Arbeitslosenquote der ausländischen Männer 5,3% (im September lag sie bei 3,9%). Gegenüber Dezember 2018 sind die Arbeitslosenquoten sowohl bei den Männern als auch bei den Frauen rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. 2020 war aber eine Ausnahme: die Arbeitslosenquote der ausländischen Männer ging im Sommer nur leicht zurück. Ende Dezember 2020 beträgt die Arbeitslosenquote dieser Gruppe 7,1%. Bei den ausländischen Frauen nahm die Quote Ende 2020 auf 4,8% zu.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_303",
-		"parentId": null,
-		"children": [
-			"7015",
-			"8252",
-			"8523"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -537,14 +537,19 @@ var indikatorensetData = [
 		"id": 2424
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7016"
+		],
+		"template": "line001",
 		"title": "Arbeitslose nach Ländergruppe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.2426",
 		"kuerzelKunde": "3.3-04",
 		"description": "Arbeitslose nach Ländergruppe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -554,16 +559,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt waren 2019 im Durchschnitt 3 079 Arbeitslose bei den RAV angemeldet (8,4% weniger als 2018). Davon waren 44% Schweizer. 29% der Arbeitslosen waren Angehörige der EU15/EFTA-Länder. 22% der Arbeitslosen kamen 2019 aus Drittstaaten und 5% stammten aus jenen Ländern, die seit 2004 der EU beigetreten sind. Alle Ländergruppen zeigen rückläufige Arbeitslosenzahlen gegenüber 2018.",
+		"lesehilfe": "In Basel-Stadt waren Ende 2020 4 408 Arbeitslose bei den RAV angemeldet, was einem Anstieg um 35,5% gegenüber Ende 2019 entspricht. Zugenommen haben die Arbeitslosenzahlen aller Ländergruppen. Im Jahresdurchschnitt 2020 waren 3 963 Personen arbeitslos. Davon waren 44% Schweizer, 30% Angehörige der EU15/EFTA-Länder (inkl. UK). 21% der Arbeitslosen kamen aus Drittstaaten und 5% aus Ländern, die seit 2004 der EU beigetreten sind.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_304",
-		"parentId": null,
-		"children": [
-			"7016"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -578,14 +578,19 @@ var indikatorensetData = [
 		"id": 2426
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7017"
+		],
+		"template": "line001",
 		"title": "Arbeitslose in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.2428",
 		"kuerzelKunde": "3.3-05",
 		"description": "Arbeitslose in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -595,16 +600,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Baugewerbe weist die stärksten saisonalen Schwankungen auf. Im Dezember 2019 sind hier 530 Personen arbeitslos (44 weniger als im Dezember 2018), im September waren es 244. Die Anzahl der Arbeitslosen in der Industrie (ohne Chemie, Pharma) ist von 230 Ende 2018 auf 258 Ende 2019 gestiegen, während sie sich in der Chemisch-Pharmazeutischen Industrie kaum verändert hat und bei rund 100 Personen liegt.",
+		"lesehilfe": "Das Baugewerbe weist die stärksten saisonalen Schwankungen auf, wobei der Rückgang im Sommer 2020 weniger ausgeprägt als in den Vorjahren war. Im Dezember 2020 sind hier 662 Personen arbeitslos (132 mehr als im Dezember 2019), im September waren es 376. Die Anzahl der Arbeitslosen in der Industrie (ohne Chemie, Pharma) ist von 258 Ende 2019 auf 319 Ende 2020 gestiegen, in der Chemisch-Pharmazeutischen Industrie von 100 auf 118 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_305",
-		"parentId": null,
-		"children": [
-			"7017"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -619,14 +619,19 @@ var indikatorensetData = [
 		"id": 2428
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7018"
+		],
+		"template": "line001",
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.2429",
 		"kuerzelKunde": "3.3-06",
 		"description": "Arbeitslose im Dienstleistungssektor (I)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -636,16 +641,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der Arbeitslosen im Bereich Handel, Reparatur ist von 351 Ende 2018 auf 270 im Dezember 2019 gesunken (-23%). Diejenige aus dem Gastgewerbe (Dezember 2019: 244) ist gegenüber Ende 2018 um 11% zurückgegangen. Ebenfalls gesunken ist die Arbeitslosenzahl im Bereich Verkehr und Lagerei (-17% auf 154 Personen).",
+		"lesehilfe": "Im Jahr 2020 ist die Anzahl der Arbeitslosen im Gastgewerbe am stärksten angestiegen: von 244 Ende Dezember 2019 auf 458 Ende Dezember 2020 (+88%). Auch im Bereich Handel, Reparatur hat sie deutlich zugenommen (+57% auf 424 Personen). Eher im Durchschnitt aller Branchen lag der Anstieg der Arbeitslosenzahl im Bereich Verkehr und Lagerei (+36%).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_306",
-		"parentId": null,
-		"children": [
-			"7018"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -660,14 +660,19 @@ var indikatorensetData = [
 		"id": 2429
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7019"
+		],
+		"template": "line001",
 		"title": "Arbeitslosenquote nach Kanton",
 		"subtitle": "",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.2459",
 		"kuerzelKunde": "3.3-01",
 		"description": "Arbeitslosenquote nach Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
@@ -678,16 +683,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote ist im Jahr 2019 weiter gesunken. Ende Dezember 2019 lag sie in Basel-Stadt bei 3,1%, Ende 2018 bei 3,3%. Im Jahresdurchschnitt ging sie von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 zurück. Auch in den Vergleichskantonen wurde ein Rückgang der Arbeitslosenquote registriert. Landesweit sank sie im Jahresmittel von 2,5% im Jahr 2018 auf 2,3% im Jahr 2019.",
+		"lesehilfe": "Nach zwei rückläufigen Jahren ist die Arbeitslosenquote im Jahr des Ausbruchs der COVID-19-Pandemie (2020) deutlich gestiegen. Ende Dezember 2020 lag sie in Basel-Stadt bei 4,3%, Ende 2019 bei 3,1%. Im Jahresdurchschnitt nahm sie von 3,0% im Jahr 2019 auf 3,8% im Jahr 2020 zu. Auch in den Vergleichskantonen wurde ein Anstieg der Arbeitslosenquote registriert. Landesweit erhöte sie sich im Jahresmittel 2020 auf 3,1%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"7019"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -702,14 +702,19 @@ var indikatorensetData = [
 		"id": 2459
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7020"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"subtitle": "Kurz- und Daueraufenthalter",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2461",
 		"kuerzelKunde": "3.4-09",
 		"description": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -719,16 +724,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 sind insgesamt 7 717 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 1,3% gegenüber 2018 entspricht. Die Zuwanderung von Erwerbstätigen nahm im Kanton Zürich um 3,5% zu, während die Kantone Basel-Landschaft und Aargau einen Rückgang verzeichneten (-0,6% bzw. -1,2%).",
+		"lesehilfe": "Im Jahr 2020 wurde in allen betrachteten Kantonen ein Rückgang der Zuwanderung von ausländischen Arbeitskräften registriert. In den Kanton Basel-Stadt sind  insgesamt 6 203 ausländische Erwerbstätige zugewandert, das sind 19,6% weniger als im Jahr 2019. Der Rückgang der Zuwanderung 2020 war im Kanton Zürich am stärksten (-22,1%). Insbesondere im 2. Quartal war die Zuwanderung in die Schweiz aufgrund der Covid-19-Pandemie stark eingeschränkt.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_409",
-		"parentId": null,
-		"children": [
-			"7020"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -743,14 +743,19 @@ var indikatorensetData = [
 		"id": 2461
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7021"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2462",
 		"kuerzelKunde": "3.4-10",
 		"description": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -760,16 +765,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von erwerbstätigen Männern war im 1. Quartal 2019 mit 1 590 Personen am höchsten. Im gleichen Quartal sind 809 Frauen zugewandert. Im gesamten Jahr 2019 sind 4 819 Männer und 2 898 Frauen zugewandert. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen liegt 2019 bei 38%.",
+		"lesehilfe": "Sowohl bei den Männern als auch bei den Frauen waren 2020 eine hohe Zuwanderung von Erwerbstätigen im 1. Quartal und ein markanter Rückgang im 2. Quartal zu beobachten. Im gesamten Jahr 2020 sind 3 876 Männer und 2 327 Frauen in den Kanton Basel-Stadt zugewandert. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen liegt 2020 wie im Vorjahr bei 38%.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_410",
-		"parentId": null,
-		"children": [
-			"7021"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -784,14 +784,19 @@ var indikatorensetData = [
 		"id": 2462
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7022"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2463",
 		"kuerzelKunde": "3.4-11",
 		"description": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -801,16 +806,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den im Jahr 2019 nach Basel-Stadt zugewanderten Erwerbstätigen weisen 43% eine B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) und 7% eine Kurzaufenthaltsbewilligung ab 12 Monaten auf. Der Rest hat eine Aufenthaltsbewilligung für weniger als 12 Monate. Im 1. Quartal 2019 wurden überdurchschnittlich viele Bewilligungen für Kurzaufenthalter bis 4 Monate erlassen (837).",
+		"lesehilfe": "Aufgrund der Covid-19-Pandemie, und der Massnahmen dagegen, ist 2020 die Zuwanderung von Kurzaufenhaltern bis 4 Monate (-34%) und von Dienstleistungserbringern bis 4 Monate (-35%) am stärksten zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten), die fast die Häfte des Totals ausmachen,verringerte sich 2020 um 11% gegenüber dem Vorjahr.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_411",
-		"parentId": null,
-		"children": [
-			"7022"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -825,14 +825,19 @@ var indikatorensetData = [
 		"id": 2463
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7023"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2464",
 		"kuerzelKunde": "3.4-12",
 		"description": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -842,16 +847,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 60% der Zuwanderung kommt aus den EU15/EFTA-Staaten (4 585 Personen im Jahr 2019). Die Zuwanderung aus den Ländern, die seit 2004 der EU beigetreten sind, macht ca. 16% der Gesamtzuwanderung aus. Fast ein Viertel der zugewanderten Erwerbstätigen kommt aus Drittstaaten. Die Zuwanderung aus Drittstaaten ist seit drei Jahren jeweils im 1. Quartal sehr hoch (2019: 825 Personen).",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen aus Drittstaaten ist seit vier Jahren jeweils im 1. Quartal sehr hoch; im 1. Quartal 2020 hat sie mit 970 Personen einen neuen Rekord erreicht. Im Rest des Jahres lag die Einwanderung tiefer als im Vorjahr. Im Gesamtjahr 2020 ging die Einwanderung aus den Drittstaaten so wie auch aus den EU15/EFTA-Ländern um 18% zurück (Enwanderung aus EU-Ländern, die seit 2004 der EU beigetreten sind: -29%).",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_412",
-		"parentId": null,
-		"children": [
-			"7023"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -866,14 +866,19 @@ var indikatorensetData = [
 		"id": 2464
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7024"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2465",
 		"kuerzelKunde": "3.4-13",
 		"description": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -883,16 +888,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt liegt im Jahr 2019 bei 1 429 Personen (7% mehr als 2018). Im Mittel der letzten zehn Jahre sind rund 350 Personen pro Quartal in diese Branche zugewandert. In der übrigen Industrie liegt die Zuwanderung im Jahr 2019 bei 389 Personen (+35%), im Baugewerbe bei 90 Personen (-25%).",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück, nahm aber im 3. und 4. Quartal wieder zu. Sie liegt im Gesamtjahr 2020 bei 1 121 Personen (22% weniger als 2019). In der übrigen Industrie liegt die Zuwanderung im Jahr 2020 bei 260 Personen (-33%). Im Baugewerbe hat sie 2020 um 10% auf 99 Personen zugenommen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_413",
-		"parentId": null,
-		"children": [
-			"7024"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -907,14 +907,19 @@ var indikatorensetData = [
 		"id": 2465
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7025"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.2466",
 		"kuerzelKunde": "3.4-14",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -924,16 +929,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt ist 2019 um 14% auf 446 Personen gestiegen. Im Bereich Verkehr, Lagerei und Kommunikation zeigt die Zuwanderung 2019 einen Anstieg auf 248 Personen (+6%). Im Gastgewerbe hat sich hingegen 2019 der Rückgang der Zuwanderung fortgesetzt.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt ist 2020 um 31% auf 309 Personen gesunken. Im Bereich Verkehr, Lagerei und Kommunikation zeigt die Zuwanderung 2020 einen Rückgang auf 190 Personen (-23%). Im Gastgewerbe hat sich der Rückgang der Zuwanderung fortgesetzt (-25%).",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_414",
-		"parentId": null,
-		"children": [
-			"7025"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -948,14 +948,19 @@ var indikatorensetData = [
 		"id": 2466
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7026"
+		],
+		"template": "line001",
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.2528",
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -967,14 +972,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2018 in Vollzeitäquivalente (VZÄ) umgerechnet 18 235 Beschäftigte tätig, was einem Rückgang um 3,4% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 0,4% und im Baugewerbe um 2,7% reduziert.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_205",
-		"parentId": null,
-		"children": [
-			"7026"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -989,14 +989,19 @@ var indikatorensetData = [
 		"id": 2528
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7027"
+		],
+		"template": "line001",
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.2529",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzel": "I.03.2.02529",
 		"kuerzelKunde": "3.2-06",
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1008,14 +1013,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2017 und 2018 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Das Gastgewerbe (+1,9%) und die Branchen Verkehr und Lagerei (+0,8%) sowie Information und Kommunikation (+0,4%) verzeichnen einen Anstieg.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_206",
-		"parentId": null,
-		"children": [
-			"7027"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1030,14 +1030,19 @@ var indikatorensetData = [
 		"id": 2529
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7028"
+		],
+		"template": "line001",
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "in Vollzeitäquivalenten",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.2547",
 		"kuerzelKunde": "3.2-01",
 		"description": "Beschäftigung nach Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1049,14 +1054,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Kanton Basel-Stadt sind 2018 190 756 Beschäftigte tätig, was 150 931 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert (-0,2%). Der Kanton Basel-Landschaft verzeichnet einen Anstieg der VZÄ um 1,0%, die Kantone Zürich und Aargau um 1,7% bzw. 0,4%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_201",
-		"parentId": null,
-		"children": [
-			"7028"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1071,14 +1071,19 @@ var indikatorensetData = [
 		"id": 2547
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7029"
+		],
+		"template": "line001",
 		"title": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
 		"subtitle": "",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.3027",
 		"kuerzelKunde": "3.4-17",
 		"description": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1088,16 +1093,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte im Meldewesen für das Jahr 2019 liegen in den Kantonen Basel-Stadt, Basel-Landschaft, Aargau und Zürich unter den Vorjahreswerten. In Basel-Stadt leisteten die Meldepflichtigen 2019 insgesamt 425 013 Arbeitstage. Gegenüber dem Vorjahr entspricht dies einer Abnahme um 31 177 Tage bzw. 6,8%. Gesamtschweizerisch liegen die aktuellen Werte über den Vorjahreswerten.",
+		"lesehilfe": "Die Werte im Meldewesen für das Jahr 2020 liegen in den Kantonen Basel-Stadt, Basel-Landschaft, Aargau und Zürich unter den Vorjahreswerten. In Basel-Stadt leisteten die Meldepflichtigen 2020 insgesamt 310 673 Arbeitstage. Gegenüber dem Vorjahr entspricht dies einer Abnahme um 27%. Der Rückgang ist in den anderen betrachteten Kantonen weniger ausgeprägt.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_417",
-		"parentId": null,
-		"children": [
-			"7029"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1112,14 +1112,19 @@ var indikatorensetData = [
 		"id": 3027
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7030"
+		],
+		"template": "line001",
 		"title": "Meldepflichtige nach Einsatzkanton",
 		"subtitle": "Anzahl Personen",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.3028",
 		"kuerzelKunde": "3.4-18",
 		"description": "Meldepflichtige nach Einsatzkanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1129,16 +1134,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte in den Kantonen Basel-Landschaft und Zürich über den Vorjahreswerten. In den Kantonen Basel-Stadt und Aargau liegen sie unter den Vorjahreswerten. In Basel-Stadt wurden 16 729 meldepflichtige Personen registriert, das sind 7,0% bzw. 1 263 Meldepflichtige weniger als 2018.",
+		"lesehilfe": "Auch bei der Anzahl meldepflichtiger Personen liegen die Werte 2020 in allen abgebildeten Kantonen unter den Vorjahreswerten. Im Kanton Basel-Stadt wurden 11 517 meldepflichtige Personen registriert, das sind 31% weniger als 2019. Der zweitstärkste Rückgang ist in Zürich zu beobachten (-20%).",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_418",
-		"parentId": null,
-		"children": [
-			"7030"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1153,14 +1153,19 @@ var indikatorensetData = [
 		"id": 3028
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7031"
+		],
+		"template": "line001",
 		"title": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.3029",
 		"kuerzelKunde": "3.4-19",
 		"description": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1170,16 +1175,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden ist 2019 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 2 728 bzw. 0,9% auf 296 185 Arbeitstage gesunken. Auch bei den Selbständigerwerbenden und Entsandten wurden 2019 weniger Arbeitstage verzeichnet als im Vorjahr.",
+		"lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Der Ausfall der Messen aufgrund der Covid-19-Pandemie hat die Nachfrage nach Meldepflichtigen reduziert. Bei den Arbeitnehmenden ist 2020 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 20% auf 237 780 Arbeitstage gesunken. Der Rückgang gegenüber dem Vorjahr war bei den Selbständigerwerbenden (-58%) und Entsandten (-37%) noch stärker.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_419",
-		"parentId": null,
-		"children": [
-			"7031"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1194,14 +1194,19 @@ var indikatorensetData = [
 		"id": 3029
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7032"
+		],
+		"template": "line001",
 		"title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.3030",
 		"kuerzelKunde": "3.4-20",
 		"description": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1211,16 +1216,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2019 bei 41,0%. Der Anteil weiblicher Entsandter liegt 2019 bei 8,9%, jener der Selbstständigerwerbenden bei 7,3%. Insgesamt hat der Frauenanteil der Meldepflichtigen gegenüber dem Vorjahr um 1,6 Prozentpunkte abgenommen.",
+		"lesehilfe": "Rund 30% der Meldepflichtigen im Jahr 2020 sind weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2020 bei 37%. Der Anteil weiblicher Entsandter liegt bei 7%, jener der Selbstständigerwerbenden bei 11%. Der Frauenanteil hat sich beim Total der Meldepflichtigen gegenüber dem Vorjahr kaum verändert, ist jedoch bei den Arbeitnehmenden gesunken.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_420",
-		"parentId": null,
-		"children": [
-			"7032"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1235,14 +1235,19 @@ var indikatorensetData = [
 		"id": 3030
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7033"
+		],
+		"template": "line001",
 		"title": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.3031",
 		"kuerzelKunde": "3.4-21",
 		"description": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1252,16 +1257,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 leisteten 7 232 Meldepflichtige im Bereich Industrie und Baugewerbe 142 944 Arbeitstage, was im Vergleich zu den Arbeitstagen im Jahr 2018 einer Abnahme um 19 238 bzw. 11,9% entspricht. Bis 2018 wurden jeweils im 1. Quartal am meisten Arbeitstage verzeichnet, 2019 wurden zum ersten Mal im 3. Quartal am meisten Arbeitstage gezählt. Der Bedarf meldepflichtiger Arbeitskräfte in Industrie und Baugewerbe war im 3. Quartal 2019 mit insgesamt 41 520 Arbeitstagen höher als im Vorjahresquartal.",
+		"lesehilfe": "2020 wurden 30 241 Arbeitstage in der Industrie und 49 353 Arbeitstage im Baugewerbe von Meldepflichtigen geleistet, was einer Abnahme um 38% bzw. 48%  im Vergleich zum Vorjahr entspricht. 2014 bis 2018 wurde im Baugewerbe jeweils im 1. Quartal eine sehr hohe Anzahl an Arbeitstagen verzeichnet, was auf die Messensaison zurückzuführen ist. Im 1. Quartal 2019 wurden deutlich weniger Arbeitstage als im Vorjahresquartal gezählt. Mit dem Ausfall der Messen 2020 war die Anzahl geleisteter Tage nochmals deutlich tiefer.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_421",
-		"parentId": null,
-		"children": [
-			"7033"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1317,14 +1317,19 @@ var indikatorensetData = [
 		"id": 3032
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7035"
+		],
+		"template": "line001",
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.6448",
 		"kuerzelKunde": "3.1-06",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1334,16 +1339,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2009 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 36,2% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber dem Vorjahr +5,9%). Der in ihr enthaltene Bereich Personalvermittlung und -überlassung erzielte ein Wertschöpfungswachstum von 31,0% (gegenüber Vorjahr +7,4%). Die Branche Beratung, Planung und Forschung verzeichnete ein Plus von 25,5% (gegenüber dem Vorjahr +5,0%). Der Wert bei den Finanz- und Versicherungsdienstleistungen betrug  +19,9% (gegenüber Vorjahr +0,1%).",
+		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2010 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 32,5% in der Branche Branche Beratung, Planung und Forschung (gegenüber dem Vorjahr +4,7%). Die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen verzeichnete ein Wertschöpfungswachstum von 26,3% (gg. Vorjahr +4,7%), der normalerweise in ihr enthaltene Bereich Personalvermittlung und -überlassung, der hier separat gezeigt wird, von 16,8% (gg. Vorjahr +5,2%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_106",
-		"parentId": null,
-		"children": [
-			"7035"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -1358,14 +1358,19 @@ var indikatorensetData = [
 		"id": 6448
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7036"
+		],
+		"template": "line001",
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.04.2.6449",
 		"kuerzelKunde": "3.1-07",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1375,16 +1380,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+25,6%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,8%) verzeichneten seit 2009 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,4% sowie -0,1%). Einen Rückgang seit 2009 gibt es hingegen in den Branchen Erziehung und Unterricht (-18,7%) sowie Kultur und Unterhaltung (-28,3%) zu beobachten (gegenüber Vorjahr +0,4% sowie +0,1%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
+		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+30,5%) sowie Öffentliche Verwaltung und Sozialversicherungen (+15,2%) verzeichneten seit 2010 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,4% sowie +0,6%). Einen Rückgang seit 2010 gibt es hingegen in den Branchen Erziehung und Unterricht (-13,7%) sowie Kultur und Unterhaltung (-30,5%) zu beobachten (gegenüber Vorjahr -0,4% sowie +16,3%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"7036"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -1399,14 +1399,19 @@ var indikatorensetData = [
 		"id": 6449
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7037"
+		],
+		"template": "line001",
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6450",
 		"kuerzelKunde": "3.4-07",
 		"description": "Grenzgänger im Dienstleistungssektor (II)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1416,16 +1421,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2019 arbeiteten dort 6 550 Personen (+3,1% gegenüber dem 4. Quartal 2018). Verglichen mit dem Jahr 2010 verzeichnete nur die Branche  Finanz- und Versicherungsdienstleistungen einen Rückgang der Grenzgängerzahl (-25,2% auf 818 Personen).",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete einen grossen Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2020 arbeiteten dort rund 6 900 Personen (+4,5% gegenüber dem 4. Quartal 2019). Verglichen mit dem Jahr 2010 verzeichnete nur die Branche  Finanz- und Versicherungsdienstleistungen einen Rückgang der Grenzgängerzahl (-24,9% auf rund 800 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_407",
-		"parentId": null,
-		"children": [
-			"7037"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1440,14 +1440,19 @@ var indikatorensetData = [
 		"id": 6450
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7038"
+		],
+		"template": "line001",
 		"title": "Grenzgänger im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6451",
 		"kuerzelKunde": "3.4-08",
 		"description": "Grenzgänger im Dienstleistungssektor (III)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1457,16 +1462,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen (3 407), zuletzt 26,7% mehr als im Jahr 2010. Im Vergleich zum Vorjahr ging die Anzahl um 1,6% zurück. Einen stärkeren Rückgang verzeichnete die Branche Erziehung und Unterricht (aktuell 542 Grenzgänger); gegenüber 2010 um 33,5%, gegenüber 2018 um 7,8%.",
+		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen, aktuell rund 3 400 Personen), 27,2% mehr als im Jahr 2010. Einen stärkeren Rückgang verzeichnete die Branche Erziehung und Unterricht (aktuell ca. 580 Grenzgänger); gegenüber 2010 um 29,2%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_01_00_00_408",
-		"parentId": null,
-		"children": [
-			"7038"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -1481,14 +1481,19 @@ var indikatorensetData = [
 		"id": 6451
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7039"
+		],
+		"template": "line001",
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6452",
 		"kuerzelKunde": "3.4-23",
 		"description": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1498,16 +1503,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "1 424 Meldepflichtige leisteten 2019 im Bereich Personalvermittlung bzw. -überlassung 88 810 Arbeitstage, was im Vergleich zu den Arbeitstagen im Vorjahr einer Abnahme um 5 399 bzw. 5,7% entspricht. Die Entwicklung in der Vermittlung von Arbeitskräften zeigt ein saisonal geprägtes Muster mit Höhepunkt jeweils im 3. Quartal: Im 3. Quartal wurden im Schnitt der letzten fünf Jahre rund 32 000 Arbeitstage verzeichnet.",
+		"lesehilfe": "Der Bereich Personalvermittlung bzw. -überlassung war 2020 eine der wenigen Branchen, die eine Zunahme der meldepflichtigen Arbeitskräften verzeichneten: in diesem Bereich wurden 90 106 Arbeitstage geleistet, was im Vergleich zu den Arbeitstagen im Jahr 2019 einer Zunahme um 1% entspricht. Bei der Vermittlung von Arbeitskräften zeigt sich auch 2020 ein saisonal geprägtes Muster mit Höhepunkt im 3. Quartal.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_423",
-		"parentId": null,
-		"children": [
-			"7039"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1522,14 +1522,19 @@ var indikatorensetData = [
 		"id": 6452
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7040"
+		],
+		"template": "line001",
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6453",
 		"kuerzelKunde": "3.4-24",
 		"description": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1539,16 +1544,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2019 insgesamt 2 554 Meldepflichtige registriert, die 51 893 Arbeitstage leisteten. Im Vergleich zu den Arbeitstagen 2018 bedeutet dies eine Abnahme um 10 817 bzw. 17,2%. Im Bereich Gesundheits- und Sozialwesen wurden 20 459 Arbeitstage verzeichnet, fast gleich viele wie im Vorjahr.",
+		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2020 insgesamt 33 443 Arbeitstage von Meldepflichtigen geleistet, was im Vergleich zu den Arbeitstagen 2019 einem Rückgang um 36% entspricht. Im Bereich Gesundheits- und Sozialwesen wurde hingegen im Jahr 2020 eine Zunahme der geleisteten Arbeitstage um 31% auf 26 707 Arbeitstage registriert.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_03_00_00_424",
-		"parentId": null,
-		"children": [
-			"7040"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1563,14 +1563,19 @@ var indikatorensetData = [
 		"id": 6453
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7041"
+		],
+		"template": "template001",
 		"title": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.6454",
 		"kuerzelKunde": "3.2-03",
 		"description": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1582,14 +1587,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 beträgt die Beschäftigung bei den Frauen 64 204 Vollzeitäquivalente (VZÄ) bzw. 90 963 Beschäftigte, was einem Zuwachs um 136 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 404 VZÄ auf 86 626 VZÄ (99 793 Beschäftigte) gesunken.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_203",
-		"parentId": null,
-		"children": [
-			"7041"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1604,14 +1604,19 @@ var indikatorensetData = [
 		"id": 6454
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7042"
+		],
+		"template": "line001",
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.6455",
 		"kuerzelKunde": "3.2-04",
 		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1623,14 +1628,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die 190 756 Beschäftigten aus dem Jahr 2018 entsprechen umgerechnet 150 931  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_204",
-		"parentId": null,
-		"children": [
-			"7042"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1645,14 +1645,19 @@ var indikatorensetData = [
 		"id": 6455
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7043"
+		],
+		"template": "line001",
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.6456",
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1664,14 +1669,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie die Finanz- und Versicherungsdienstleistungen verzeichnen zwischen 2017 und 2018 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 1,2% bzw. 1,0%. Die Branchen Personalvermittlung und -überlassung sowie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 4,6% bzw. 3,4% auf.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_207",
-		"parentId": null,
-		"children": [
-			"7043"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1686,14 +1686,19 @@ var indikatorensetData = [
 		"id": 6456
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7044"
+		],
+		"template": "line001",
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.6457",
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1703,16 +1708,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2018 bei 23 166 Vollzeitäquivalenten (VZÄ), und damit 1,7% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 5,5% bzw. 1,7% zugenommen, in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen um 1,4% abgenommen.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2018 bei 23 166 Vollzeitäquivalenten (VZÄ), und damit 1,7% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 5,5% bzw. 1,7% zugenommen, in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen um 1,4% abgenommen.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_208",
-		"parentId": null,
-		"children": [
-			"7044"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1727,14 +1727,19 @@ var indikatorensetData = [
 		"id": 6457
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7045"
+		],
+		"template": "template001",
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.6459",
 		"kuerzelKunde": "2-01",
 		"description": "Beschäftigung nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1746,14 +1751,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Rund 23 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2018 im Gesundheits- und Sozialwesen tätig. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung um 1,7%. Fast 20 000 VZÄ sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen tätig und somit 1,2% mehr als im Vorjahr. In der Chemischen und Pharmazeutischen Industrie sind es rund 18 000, was einer Abnahme um 3,4% im Vergleich zum Vorjahr entspricht. Mehr als 1,0% Wachstum verzeichnete die Branche Erziehung und Unterricht (+5,5%), das Gastgewerbe (+1,9%) sowie die Branche Öffentliche Verwaltung und Sozialversicherungen (+1,7%). Am stärksten abgenommen hat die Beschäftigung in den Branchen Personalvermittlung und -überlassung (-4,6%), Gebäudebetreuung, Sicherheit, sonst. Wirtsch. DL (-3,4%) und Baugewerbe (-2,7%). Im gesamten Kanton Basel-Stadt sind im Jahr 2018 rund 150 900 Beschäftigte in Vollzeitäquivalenten tätig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"7045"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1790,7 +1790,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2019 mit 10,7% im Baugewerbe am höchsten. Die Arbeitslosenquote im Gastgewerbe liegt bei 5,9% und ist gegenüber 2018 rückläufig. In der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe enthalten ist, sowie in der Industrie (exkl. Chemie und Pharma) liegt die Arbeitslosenquote 2019 bei 5,2%. Die mittlere Arbeitslosenquote in Basel-Stadt beträgt im Jahresdurchschnitt 2019 3,0%.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (seco), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Erwerbspersonen nach Branche nicht vorhanden sind.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -1827,7 +1827,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2019 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2017) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (29%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (30%), der Information und Kommunikation (31%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma; 25%), im Baugewerbe (21%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt Ende 2019 bei 18%.",
+		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2020 rund 34 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (29%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (32%), der Information und Kommunikation (31%), der Beratung, Planung, Forschung und im Immobilienwesen (28%), der Industrie (ohne Chemie und Pharma; 27%), im Baugewerbe (22%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt zum 3. Quartal 2020 bei 18%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -1852,14 +1852,19 @@ var indikatorensetData = [
 		"id": 6461
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7048"
+		],
+		"template": "template001",
 		"title": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6462",
 		"kuerzelKunde": "2-04",
 		"description": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1869,16 +1874,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung in die Branche Chemie und Pharma 2019 entspricht wie in den Vorjahren etwas über 7% der Beschäftigung in dieser Branche in Basel-Stadt (Quote von 7,3%). Am höchsten ist die Quote in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen mit 8,9% im Jahr 2019. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und den Sozialversicherungen. Im Total entspricht die Zuwanderung 4,0% der Beschäftigten (Beschäftigungsstand: 2017).",
+		"lesehilfe": "Die Zuwanderung in den Kanton Basel-Stadt entspricht im Jahr 2020 insgesamt 3,3% der Beschäftigten im Kanton (Beschäftigungsstand: 2018). Im Vorjahr lag dieser Wert bei 4,0%. Die Zuwanderung in die Branche Chemie und Pharma ist 2020 auf 5,9% der Beschäftigung in dieser Branche in Basel-Stadt zurückgegangen (2019: 7,5%). Am höchsten ist die Quote in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen mit 7,2% im Jahr 2020, wobei diese 2019 noch bei 9,0% lag. Geringfügig zugenommen hat die Zuwanderung im Vergleich zur bestehenden Beschäftigung im Baugewerbe, im Gesundheits- und Sozialwesen sowie in der Öffentlichen Verwaltung und Sozialversicherungen.",
 		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_302",
-		"parentId": null,
-		"children": [
-			"7048"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1893,14 +1893,19 @@ var indikatorensetData = [
 		"id": 6462
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7049"
+		],
+		"template": "template001",
 		"title": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6463",
 		"kuerzelKunde": "2-05",
 		"description": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1910,16 +1915,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den im Kanton Basel-Stadt Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2019 vor allem in der Personalvermittlung und -überlassung mit 5,9% im Vergleich zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2017). Die Meldepflichtigen sind auch in der Baubranche mit 5,2% im Jahr 2019 bedeutend. Es folgen Kultur, Unterhaltung und persönliche Dienstleistungen mit 2,9% sowie die IT-Dienstleistungen mit 2,3%. In den restlichen Branchen spielen die Meldepflichtigen eher eine untergeordnete Rolle.",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den im Kanton Basel-Stadt Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2020 vor allem in der Personalvermittlung und -überlassung mit 6,1% im Vergleich zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2018). Die Meldepflichtigen im Baugewerbe sind von 5,4% im Jahr 2019 auf 2,8% im Jahr 2020 deutlich zurückgegangen. Im Total entsprechen die Meldepflichtigen im Jahr 2020 weniger als 1% der Beschäftigten.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Beschäftigte (Vollzeitäquivalente): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_303",
-		"parentId": null,
-		"children": [
-			"7049"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -1934,18 +1934,23 @@ var indikatorensetData = [
 		"id": 6463
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7050"
+		],
+		"template": "template001",
 		"title": "Löhne nach Branche",
 		"subtitle": "Nordwestschweiz, Median in Franken",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6464",
 		"kuerzelKunde": "2-06",
 		"description": "Löhne nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T12:45:50.5050",
+		"aktualisierungsdatum": "2021-02-12T08:37:08.088",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
@@ -1953,14 +1958,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2018 mit einem monatlichen Bruttolohn von 11 133 Franken in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 285 Franken brutto bezahlt. Er beträgt damit weniger als zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 714 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der Branchen Handel und Reparatur, Verkehr und Lagerei, Gebäudebetreuung und Sicherheit sowie Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_401",
-		"parentId": null,
-		"children": [
-			"7050"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -1975,14 +1975,19 @@ var indikatorensetData = [
 		"id": 6464
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7051"
+		],
+		"template": "line001",
 		"title": "Arbeitslose im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.6505",
 		"kuerzelKunde": "3.3-07",
 		"description": "Arbeitslose im Dienstleistungssektor (II)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -1992,16 +1997,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Beratung, Planung, Forschung, Immobilien sowie im Bereich Gebäudebetreuung und Sicherheit sind die Arbeitslosenzahlen zwischen Dezember 2018 und Dezember 2019 unverändert, aber die Arbeitslosenzahlen im Jahresverlauf 2019 sind tiefer als 2018. Bei den Finanz- und Versicherungsdienstleistungen sind Ende 2019 108 Personen arbeitslos (-11%).",
+		"lesehilfe": "Stark zugenommen haben im Jahresverlauf 2020 die Arbeitslosenzahlen im Bereich Beratung, Planung, Forschung, Immobilien: +71% auf 487 Personen. Im Bereich Gebäudebetreuung und Sicherheit sind die Arbeitslosenzahlen zwischen Ende 2019 und Ende 2020 um 45% auf 316 gestiegen. Bei den Finanz- und Versicherungsdienstleistungen sind Ende 2020 175 Personen arbeitslos (+62%).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_307",
-		"parentId": null,
-		"children": [
-			"7051"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2016,14 +2016,19 @@ var indikatorensetData = [
 		"id": 6505
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7052"
+		],
+		"template": "line001",
 		"title": "Arbeitslose im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.6506",
 		"kuerzelKunde": "3.3-08",
 		"description": "Arbeitslose im Dienstleistungssektor (III)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2033,16 +2038,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Zahl der Arbeitslosen Ende Dezember 2019 bei 334 Personen und damit um 8 Personen über dem Wert Ende 2018. Die Arbeitslosenzahlen in den Branchen Kultur und Unterhaltung sowie Erziehung und Unterricht sind rückläufig und liegen Ende 2019 bei 136 bzw. 119  Personen.",
+		"lesehilfe": "Eher überraschend liegt die Zahl der Arbeitslosen auch im Gesundheits- und Sozialwesen Ende Dezember 2020 mit 410 über dem Wert Ende 2019 (+23%). Im Bereich Erziehung und Unterricht sind 165 Personen arbeitslos, was einem Antieg um 39% gegenüber Ende 2019 entspricht. Stärker zugenommen hat die Arbeitslosenzahlen in der Branche Kultur und Unterhaltung: +55% auf 211 Ende 2020.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_308",
-		"parentId": null,
-		"children": [
-			"7052"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2057,14 +2057,19 @@ var indikatorensetData = [
 		"id": 6506
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7053"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6520",
 		"kuerzelKunde": "3.4-15",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2074,16 +2079,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund die Hälfte der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit 3 852 neuen Bewilligungen im Jahr 2019 hat sich die Zuwanderung in diesem Bereich zwar im Vergleich zum Vorjahr verringert (-4%), im 1. Quartal 2019 wurde jedoch ein neuer Höchstwert von 1 433 neuen Bewilligungen erreicht.",
+		"lesehilfe": "Rund die Hälfte der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit 3 067 neuen Bewilligungen im Jahr 2020 hat sich die Zuwanderung in diesem Bereich im Vergleich zum Vorjahr um 20% verringert, obwohl im 1. Quartal noch ein sehr hoher Wert erreicht wurde.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_415",
-		"parentId": null,
-		"children": [
-			"7053"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2098,14 +2098,19 @@ var indikatorensetData = [
 		"id": 6520
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7054"
+		],
+		"template": "line001",
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6521",
 		"kuerzelKunde": "3.4-16",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2115,16 +2120,11 @@ var indikatorensetData = [
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 sind 359 Personen in der Branche Gesundheits- und Sozialwesen zugewandert, 306 Personen in der Branche Erziehung und Unterricht. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen liegt die Zuwanderung 2019 ebenfalls bei rund 300 Personen.",
+		"lesehilfe": "Im Jahr 2020 sind 366 Personen in der Branche Gesundheits- und Sozialwesen zugewandert, was einem Anstieg um 2% gegenüber dem Vorjahr entspricht. 279 Personen sind in der Branche Erziehung und Unterricht zugewandert (-9%). Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen ging die Zuwanderung 2020 um 13% auf 260 Personen zurück.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_416",
-		"parentId": null,
-		"children": [
-			"7054"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2139,18 +2139,23 @@ var indikatorensetData = [
 		"id": 6521
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7055"
+		],
+		"template": "template001",
 		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
 		"subtitle": "in Franken",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6522",
 		"kuerzelKunde": "3.5-01",
 		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:54:55.5555",
+		"aktualisierungsdatum": "2021-02-12T08:37:09.099",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2158,14 +2163,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2018 bei 6 714 Franken pro Monat und hat sich damit im Vergleich zu 2016 kaum verändert (+0,2%). Er liegt  weiterhin höher als im Landesdurchschnitt, aber tiefer als im Kanton Zürich. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 4,1%, in der Gesamtschweiz um 5,1%.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_501",
-		"parentId": null,
-		"children": [
-			"7055"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2180,18 +2180,23 @@ var indikatorensetData = [
 		"id": 6522
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7056"
+		],
+		"template": "template001",
 		"title": "Medianlohn nach Geschlecht",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6523",
 		"kuerzelKunde": "3.5-02",
 		"description": "Medianlohn nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T12:45:50.5050",
+		"aktualisierungsdatum": "2021-02-12T08:37:10.1010",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2199,14 +2204,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2018 bei 7 038 Franken brutto pro Monat. Die Frauen verdienen 2018 mit einem Medianlohn von 6 251 Franken 11,2% weniger als die Männer. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,89 im Jahr 2018 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_502",
-		"parentId": null,
-		"children": [
-			"7056"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2221,18 +2221,23 @@ var indikatorensetData = [
 		"id": 6523
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7057"
+		],
+		"template": "template001",
 		"title": "Medianlohn nach Alter",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6524",
 		"kuerzelKunde": "3.5-03",
 		"description": "Medianlohn nach Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T12:45:50.5050",
+		"aktualisierungsdatum": "2021-02-12T08:37:11.1111",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2240,14 +2245,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Bruttolöhne nach Altersgruppe zeigen, dass jüngere Angestellte weniger verdienen als ältere Angestellte. Der Medianlohn in der Altersgruppe bis 29 Jahre liegt 2018 bei 5 124 Franken pro Monat, während der Lohn in der Altersgruppe zwischen 30 und 49 Jahren 6 981 Franken erreicht. Angestellte über 50 Jahre verdienen 7 529 Franken (Median).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_503",
-		"parentId": null,
-		"children": [
-			"7057"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2262,18 +2262,23 @@ var indikatorensetData = [
 		"id": 6524
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7058"
+		],
+		"template": "line001",
 		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
 		"subtitle": "in Franken, Nordwestschweiz, 2018",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6525",
 		"kuerzelKunde": "3.5-04",
 		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:54:56.5656",
+		"aktualisierungsdatum": "2021-02-12T08:37:11.1111",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2281,14 +2286,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn 2018 bei 6 492 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 934 Franken) und die Schweizer (6 664 Franken), während die Niedergelassenen  knapp über 6 000 Franken verdienen. Der Medianlohn der Aufenthalter liegt 2018 bei 5 865 Franken und derjenige der Kurzaufenthalter ist am tiefsten (dieser Wert ist allerdings statistisch unsicher und sehr volatil).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_504",
-		"parentId": null,
-		"children": [
-			"7058"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2303,18 +2303,23 @@ var indikatorensetData = [
 		"id": 6525
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7059"
+		],
+		"template": "template001",
 		"title": "Medianlohn in Industrie und Baugewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6526",
 		"kuerzelKunde": "3.5-05",
 		"description": "Medianlohn in Industrie und Baugewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T12:45:51.5151",
+		"aktualisierungsdatum": "2021-02-12T08:37:12.1212",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2322,14 +2327,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2018 bei 7 383 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 133 Franken). In der Bauwirtschaft ist der Medianlohn 2018 auf 6 366 Franken gestiegen.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_505",
-		"parentId": null,
-		"children": [
-			"7059"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2344,18 +2344,23 @@ var indikatorensetData = [
 		"id": 6526
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7060"
+		],
+		"template": "template001",
 		"title": "Medianlohn im Dienstleistungssektor (I)",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6527",
 		"kuerzelKunde": "3.5-06",
 		"description": "Medianlohn im Dienstleistungssektor (I)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T12:45:51.5151",
+		"aktualisierungsdatum": "2021-02-12T08:37:13.1313",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2363,14 +2368,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Bruttomedianlohn in den dargestellten Branchen hat sich 2018 gegenüber 2016 verringert. Er liegt in der Branche Handel und Reparatur bei 5 752 Franken (-1,0%) und im Bereich Verkehr und Lagerei bei 5 549 Franken (-5,1%). Auch der ohnehin vergleichsweise tiefe Medianlohn im Gastgewerbe ist um 5,1% auf 4 285 Franken zurückgegangen. In der Branche Information und Kommunikation beträgt der Medianwert 8 323 Franken (-0,2%) monatlich.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_506",
-		"parentId": null,
-		"children": [
-			"7060"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2385,18 +2385,23 @@ var indikatorensetData = [
 		"id": 6527
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7061"
+		],
+		"template": "template001",
 		"title": "Medianlohn im Dienstleistungssektor (II)",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6528",
 		"kuerzelKunde": "3.5-07",
 		"description": "Medianlohn im Dienstleistungssektor (II)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:54:56.5656",
+		"aktualisierungsdatum": "2021-02-12T08:37:13.1313",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2404,14 +2409,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Bruttomedianlohn 2018 ist in den Finanz- und Versicherungsdienstleistungen auf 9 039 Franken gestiegen. Im Bereich Beratung, Planung und Forschung beträgt er 7 945 Franken. Unterhalb von 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen (5 349 Franken) sowie in der Personalvermittlung und -überlassung (5 868 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_507",
-		"parentId": null,
-		"children": [
-			"7061"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2426,18 +2426,23 @@ var indikatorensetData = [
 		"id": 6528
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7062"
+		],
+		"template": "template001",
 		"title": "Medianlohn im Dienstleistungssektor (III)",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.6529",
 		"kuerzelKunde": "3.5-08",
 		"description": "Medianlohn im Dienstleistungssektor (III)",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-06-22T12:45:52.5252",
+		"aktualisierungsdatum": "2021-02-12T08:37:14.1414",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
@@ -2445,14 +2450,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Bruttomedianlohn liegt 2018 bei 7 866 Franken in der öffentlichen Verwaltung und bei 9 020 Franken im Bereich Erziehung und Unterricht. 6 377 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt derjenige im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 263 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_508",
-		"parentId": null,
-		"children": [
-			"7062"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2467,14 +2467,19 @@ var indikatorensetData = [
 		"id": 6529
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7064"
+		],
+		"template": "befragungen001",
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
 		"subtitle": "Anteil der Vollzeitäquivalente, 2018",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.6531",
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2486,14 +2491,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt von den 150 931 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 37% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 14%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"7064"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2508,14 +2508,19 @@ var indikatorensetData = [
 		"id": 6531
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7478"
+		],
+		"template": "template001",
 		"title": "Beschäftigung im Detailhandel",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.07443",
 		"kuerzelKunde": "4.3-01",
 		"description": "Beschäftigung im Detailhandel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2527,14 +2532,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2018 lag sie bei rund 6 600 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (900 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ). Sowohl absolut als auch relativ betrachtet, ist der stärkste Rückgang im Vergleich zu 2011 im Bereich Kleider, Schuhe, Lederwaren zu beobachten (500 VZÄ bzw. 34%).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"7478"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2549,14 +2549,19 @@ var indikatorensetData = [
 		"id": 7443
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7479"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote im Detailhandel",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.07444",
 		"kuerzelKunde": "4.3-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Detailhandel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2568,14 +2573,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der Arbeitslosen im Detailhandel liegt im Dezember 2020 bei 221 Personen und damit 60% höher als im gleichen Vorjahresmonat. Die mittlere jährliche Arbeitslosenquote liegt 2020 bei rund 3,7%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_302",
-		"parentId": null,
-		"children": [
-			"7479"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2590,14 +2590,19 @@ var indikatorensetData = [
 		"id": 7444
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7480"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige im Detailhandel",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.07445",
 		"kuerzelKunde": "4.3-03",
 		"description": "Ausländische Erwerbstätige im Detailhandel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2607,16 +2612,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 3. Quartal 2020 bei 1 608 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2020 liegt sie bei ?? Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ??? Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2020 bei 1 592 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2020 liegt sie bei 20 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_303",
-		"parentId": null,
-		"children": [
-			"7480"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -2632,14 +2632,19 @@ var indikatorensetData = [
 		"id": 7445
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7481"
+		],
+		"template": "template001",
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.07446",
 		"kuerzelKunde": "4.3-04",
 		"description": "Medianlohn im Detailhandel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -2651,14 +2656,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2018 bei 4 800 Franken brutto und damit etwa gleich hoch wie im Jahr 2016.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_304",
-		"parentId": null,
-		"children": [
-			"7481"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2673,14 +2673,19 @@ var indikatorensetData = [
 		"id": 7446
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7482"
+		],
+		"template": "template001",
 		"title": "Beschäftigung im Landverkehr",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.07447",
 		"kuerzelKunde": "4.4-01",
 		"description": "Beschäftigung im Landverkehr",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2692,14 +2697,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Rund 3 400 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2018 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 800 weniger als 2014, wobei ein Grossteil des gesamte Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind mit je rund 1 000 VZÄ die Personenbeförderung auf der Schiene und die Personenbeförderung im Nahverkehr (ohne Taxis) sowie mit rund 800 VZÄ die Güterbeförderung im Strassenverkehr. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_401",
-		"parentId": null,
-		"children": [
-			"7482"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2714,14 +2714,19 @@ var indikatorensetData = [
 		"id": 7447
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7483"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.07448",
 		"kuerzelKunde": "4.4-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Landverkehr",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2733,14 +2738,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Ende 2020 waren in der Branche Landverkehr 91 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote für das Jahr 2020 beträgt 3,7%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_402",
-		"parentId": null,
-		"children": [
-			"7483"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2755,14 +2755,19 @@ var indikatorensetData = [
 		"id": 7448
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7484"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige im Landverkehr",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.07449",
 		"kuerzelKunde": "4.4-03",
 		"description": "Ausländische Erwerbstätige im Landverkehr",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2772,16 +2777,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr liegt im 3. Quartal 2020 bei 571 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt ?? Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet ?? Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr liegt im 4. Quartal 2020 bei 559 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt 38 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_403",
-		"parentId": null,
-		"children": [
-			"7484"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -2797,14 +2797,19 @@ var indikatorensetData = [
 		"id": 7449
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7485"
+		],
+		"template": "template001",
 		"title": "Medianlohn im Landverkehr",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.07450",
 		"kuerzelKunde": "4.4-04",
 		"description": "Medianlohn im Landverkehr",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -2816,14 +2821,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum Jahr 2014 hat der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 6 600 auf rund 5 200 Franken im Jahr 2018 abgenommen.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_404",
-		"parentId": null,
-		"children": [
-			"7485"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2838,14 +2838,19 @@ var indikatorensetData = [
 		"id": 7450
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7486"
+		],
+		"template": "template001",
 		"title": "Beschäftigung in der Branche IT-Dienstleistungen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.07452",
 		"kuerzelKunde": "4.5-01",
 		"description": "Beschäftigung in der Branche IT-Dienstleistungen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2857,14 +2862,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) arbeiten im Jahr 2018 in Basel-Stadt in Vollzeitäquivalente umgerechnet rund 2 300 Beschäftigte. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2018 rund 1 200 bzw. 1 000 VZÄ auf.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_501",
-		"parentId": null,
-		"children": [
-			"7486"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2879,14 +2879,19 @@ var indikatorensetData = [
 		"id": 7452
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7487"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.07453",
 		"kuerzelKunde": "4.5-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2898,14 +2903,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Rund 60 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2020 arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2020 bei 4,0%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_502",
-		"parentId": null,
-		"children": [
-			"7487"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2920,14 +2920,19 @@ var indikatorensetData = [
 		"id": 7453
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7488"
+		],
+		"template": "template001",
 		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.07454",
 		"kuerzelKunde": "4.5-03",
 		"description": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2937,16 +2942,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 3. Quartal 2020 arbeiten in Basel-Stadt 1 342 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2020 in der Branche IT-Dienstleistungen ?? Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2020 arbeiten in Basel-Stadt 1 312 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2020 in der Branche IT-Dienstleistungen 28 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_503",
-		"parentId": null,
-		"children": [
-			"7488"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -2962,14 +2962,19 @@ var indikatorensetData = [
 		"id": 7454
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7489"
+		],
+		"template": "template001",
 		"title": "Medianlohn in der Branche IT-Dienstleistungen",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.07455",
 		"kuerzelKunde": "4.5-04",
 		"description": "Medianlohn in der Branche IT-Dienstleistungen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -2981,14 +2986,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche IT-Dienstleistungen in der Nordwestschweiz liegt im Jahr 2018 bei rund 8 700 Franken brutto und damit etwa gleich hoch wie 2016.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_504",
-		"parentId": null,
-		"children": [
-			"7489"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3003,14 +3003,19 @@ var indikatorensetData = [
 		"id": 7455
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7498"
+		],
+		"template": "template001",
 		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.07465",
 		"kuerzelKunde": "4.7-01",
 		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3022,14 +3027,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2018 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von rund 220 VZÄ verzeichnen (+38%).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_701",
-		"parentId": null,
-		"children": [
-			"7498"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3044,14 +3044,19 @@ var indikatorensetData = [
 		"id": 7465
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7499"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.07466",
 		"kuerzelKunde": "4.7-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3063,14 +3068,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Ende 2020 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 6,0%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_702",
-		"parentId": null,
-		"children": [
-			"7499"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -3127,14 +3127,19 @@ var indikatorensetData = [
 		"id": 7467
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7501"
+		],
+		"template": "template001",
 		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.07468",
 		"kuerzelKunde": "4.7-04",
 		"description": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -3146,14 +3151,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2018 bei rund 4 400 Franken brutto und damit tiefer als 2016. Der Wert für die gesamte Schweiz beträgt in der gleichen Branche rund 5 100 Franken brutto.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_704",
-		"parentId": null,
-		"children": [
-			"7501"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3168,14 +3168,19 @@ var indikatorensetData = [
 		"id": 7468
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8698"
+		],
+		"template": "line001",
 		"title": "Beschäftigung in der Branche Immobilienwesen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.2.08683",
 		"kuerzelKunde": "4.6-01",
 		"description": "Beschäftigung in der Branche Immobilienwesen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3187,14 +3192,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Rund 1 600 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind 2018 im Immobilienwesen (NOGA 68) tätig. Rund zwei Drittel davon arbeiten im Bereich Verwaltung von Grundstücken, Gebäuden und Wohnungen für Dritte.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_601",
-		"parentId": null,
-		"children": [
-			"8698"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3209,14 +3209,19 @@ var indikatorensetData = [
 		"id": 8683
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8699"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Immobilienwesen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.08684",
 		"kuerzelKunde": "4.6-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche Immobilienwesen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3228,14 +3233,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Rund 30 Personen sind in Basel-Stadt Ende 2020 im Immobilienwesen arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2020 bei 2,9%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_602",
-		"parentId": null,
-		"children": [
-			"8699"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -3250,14 +3250,19 @@ var indikatorensetData = [
 		"id": 8684
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8700"
+		],
+		"template": "line001",
 		"title": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.08685",
 		"kuerzelKunde": "4.6-03",
 		"description": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3267,16 +3272,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 3. Quartal 2020 sind in Basel-Stadt 64 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2020 ?? Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
+		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 63 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2020 6 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_603",
-		"parentId": null,
-		"children": [
-			"8700"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -3292,14 +3292,19 @@ var indikatorensetData = [
 		"id": 8685
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8701"
+		],
+		"template": "line001",
 		"title": "Medianlohn in der Branche Immobilienwesen",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.08687",
 		"kuerzelKunde": "4.6-04",
 		"description": "Medianlohn in der Branche Immobilienwesen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -3311,14 +3316,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 liegt der Medianlohn im Immobilienwesen bei rund 7 000 Franken brutto und damit leicht höher als im Jahr 2016.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_604",
-		"parentId": null,
-		"children": [
-			"8701"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3333,14 +3333,19 @@ var indikatorensetData = [
 		"id": 8687
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8702"
+		],
+		"template": "line001",
 		"title": "Arbeitslose in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.08689",
 		"kuerzelKunde": "4.8-01",
 		"description": "Arbeitslose in der Branche Private Haushaltsdienstleistungen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3352,14 +3357,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In den letzten zehn Jahren waren in der Branche Private Haushaltsdienstleistungen (NOGA 97) nie mehr als 15 Personen arbeitslos.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_08_00_00_00_801",
-		"parentId": null,
-		"children": [
-			"8702"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -3374,14 +3374,19 @@ var indikatorensetData = [
 		"id": 8689
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8703"
+		],
+		"template": "line001",
 		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.08690",
 		"kuerzelKunde": "4.8-02",
 		"description": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3391,16 +3396,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 3. Quartal 2020 sind in Basel-Stadt 367 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2020 ?? Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal ?? VZÄ pro Quartal.",
+		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 365 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2020 11 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_08_00_00_00_802",
-		"parentId": null,
-		"children": [
-			"8703"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -3414,6 +3414,45 @@ var indikatorensetData = [
 		"chart-id": 8690,
 		"filter": "",
 		"id": 8690
+	},
+	{
+		"title": "Medianlohn in der Branche Private Haushaltsdienstleistungen",
+		"subtitle": "",
+		"kuerzel": "I.03.3.08691",
+		"kuerzelKunde": "4.6-04",
+		"description": "Medianlohn in der Branche Private Haushaltsdienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8691,
+		"chart-id": 8691,
+		"filter": "",
+		"id": 8691
 	},
 	{
 		"parentId": null,
@@ -3457,14 +3496,19 @@ var indikatorensetData = [
 		"id": 9219
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9233"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.09220",
 		"kuerzelKunde": "4.1-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche Nahrungsmittelindustrie",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3476,14 +3520,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der Arbeitslosen in der Nahrungsmittelindustrie ist in den letzten Jahren gestiegen und liegt im Dezember 2020 bei 76. Die mittlere jährliche Arbeitslosenquote liegt 2020 bei 10,1%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"9233"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -3506,10 +3545,10 @@ var indikatorensetData = [
 		"title": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "",
+		"kuerzel": "I.03.5.09221",
 		"kuerzelKunde": "4.1-03",
 		"description": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3540,14 +3579,19 @@ var indikatorensetData = [
 		"id": 9221
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9235"
+		],
+		"template": "line001",
 		"title": "Medianlohn in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Franken, Nordwestschweiz",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.3.09222",
 		"kuerzelKunde": "4.1-04",
 		"description": "Medianlohn in der Branche Nahrungsmittelindustrie",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -3559,14 +3603,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 liegt der Medianlohn in der Nahrungsmittelindustrie bei rund 5 200 Franken brutto und damit nahezu unverändert im Vergleich zum Jahr 2016.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"9235"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -3622,14 +3661,19 @@ var indikatorensetData = [
 		"id": 9223
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9237"
+		],
+		"template": "line001",
 		"title": "Arbeitslose und Arbeitslosenquote im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.4.09224",
 		"kuerzelKunde": "4.2-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Schreinereigewerbe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3641,14 +3685,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der Arbeitslosen im Schreinereigewerbe liegt in den letzten Jahren meist bei weniger als 20 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2020 bei 6,6%.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"9237"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -3705,14 +3744,19 @@ var indikatorensetData = [
 		"id": 9225
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9239"
+		],
+		"template": "line001",
 		"title": "Medianlohn im Schreinereigewerbe",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"kuerzel": "",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzel": "I.03.3.09226",
 		"kuerzelKunde": "4.2-04",
 		"description": "Medianlohn im Schreinereigewerbe",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
@@ -3724,14 +3768,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 lag der Medianlohn im Schreinereigewerbe in der Nordwestschweiz bei 5 700 Franken brutto und damit etwas tiefer als 2016 mit 5800 Franken brutto.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_204",
-		"parentId": null,
-		"children": [
-			"9239"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
