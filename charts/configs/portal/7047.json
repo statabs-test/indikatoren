@@ -80,11 +80,11 @@
         ],
         [
           "Chemie, Pharma",
-          0.336
+          0.337
         ],
         [
           "Baugewerbe",
-          0.215
+          0.216
         ],
         [
           "Handel, Reparatur",
@@ -100,11 +100,11 @@
         ],
         [
           "Information, Kommunikation",
-          0.302
+          0.303
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0.076
+          0.077
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
@@ -116,7 +116,7 @@
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.312
+          0.309
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -124,7 +124,7 @@
         ],
         [
           "Erziehung, Unterricht",
-          0.04
+          0.041
         ],
         [
           "Gesundheits-, Sozialwesen",
@@ -147,31 +147,31 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.265
+          0.264
         ],
         [
           "Chemie, Pharma",
-          0.336
+          0.337
         ],
         [
           "Baugewerbe",
-          0.216
+          0.195
         ],
         [
           "Handel, Reparatur",
-          0.177
+          0.176
         ],
         [
           "Verkehr, Lagerei",
-          0.094
+          0.096
         ],
         [
           "Gastgewerbe",
-          0.074
+          0.071
         ],
         [
           "Information, Kommunikation",
-          0.308
+          0.299
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -179,15 +179,15 @@
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
-          0.278
+          0.281
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.324
+          0.326
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.287
+          0.281
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -195,7 +195,7 @@
         ],
         [
           "Erziehung, Unterricht",
-          0.04
+          0.043
         ],
         [
           "Gesundheits-, Sozialwesen",
@@ -203,11 +203,11 @@
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.076
+          0.081
         ],
         [
           "Total",
-          0.181
+          0.18
         ]
       ],
       "name": "2020",
