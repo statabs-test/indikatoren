@@ -68131,46 +68131,6 @@
 		"id": 8690
 	},
 	{
-		"title": "Medianlohn in der Branche Private Haushaltsdienstleistungen",
-		"subtitle": "",
-		"kuerzel": "I.03.3.08691",
-		"kuerzelKunde": "4.6-04",
-		"description": "Medianlohn in der Branche Private Haushaltsdienstleistungen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-01-29T10:59:39.3939",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8691,
-		"chart-id": 8691,
-		"filter": "",
-		"id": 8691
-	},
-	{
 		"title": "Kaiserschnitte in baselstädtischen Spitälern",
 		"subtitle": "2012 bis 2019",
 		"kuerzel": "I.14.1.08692",
