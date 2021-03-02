@@ -291,7 +291,8 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none"
     },
     "symbolPadding": 3,
     "itemMarginBottom": 5

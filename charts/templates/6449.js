@@ -26,6 +26,7 @@
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
+      textOverflow: "none",
       "fontWeight": "normal"
     }
   },
