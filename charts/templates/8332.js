@@ -4,31 +4,6 @@
 	global $
 */
 
-var legendPosition = {
-	blockChoropleth: {
-		x: 230, // Customizable
-		y: -15,  // Customizable
-		title: {
-			y: [247, 232, 217],
-			x: 245, // Customizable
-		}
-	},
-	blockSymbol: {
-		x: [378,373], // Customizable
-		y: [277, 297, 317, 337], // Customizable
-		y3C: [382, 412, 442],
-		numbers: {
-			x: 393,
-			y: [267, 287, 310, 330], // Customizable
-			y3C: [370, 400, 430]
-		},
-		title: {
-			x: 368
-		}
-	}
-};
-
-//function moveLegend()
 
 (function(){
 
@@ -42,8 +17,8 @@ var legendPosition = {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockChoropleth.x,
-			"y": legendPosition.blockChoropleth.y,
+			x: 230, // Customizable
+			y: -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -119,6 +94,33 @@ var legendPosition = {
 			events: {
 	            load: function (e) {
 	            	
+
+					var legendPosition = {
+						blockChoropleth: {
+							x: 230, // Customizable
+							y: -15,  // Customizable
+							title: {
+								y: [247, 232, 217],
+								x: 245, // Customizable
+							}
+						},
+						blockSymbol: {
+							x: [378,373], // Customizable
+							y: [277, 297, 317, 337], // Customizable
+							y3C: [382, 412, 442],
+							numbers: {
+								x: 393,
+								y: [267, 287, 310, 330], // Customizable
+								y3C: [370, 400, 430]
+							},
+							title: {
+								x: 368
+							}
+						}
+					};
+					
+					//function moveLegend()
+
 	            	this.credits.element.onclick = function() {};
 
 	                var chart = this;

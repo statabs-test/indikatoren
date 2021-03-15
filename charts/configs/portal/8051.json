@@ -800,6 +800,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 8051
+    "filename": "8051"
   }
 }

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Sankey Energiestatistik</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <style id="compiled-css" type="text/css">
+      #container {
+    min-width: 300px;
+    max-width: 1024px;
+    height: 700px;
+    margin: 1em auto;
+    /*border: 1px solid silver;*/
+}
+    /* EOS */
+  </style>
+
+</head>
+<body>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/sankey.js"></script>
+
+
+<div id="container"></div>
+
+
+    <script type="text/javascript">//<![CDATA[
+
+
+Highcharts.chart('container', {
+  title: {
+    text: 'Energieflussdiagramm 2018'
+  },
+  accessibility: {
+    point: {
+      valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.'
+    }
+  },
+  series: [{
+    keys: ['from', 'to', 'weight'],
+    data: [
+      ['Fernwärme (Import)', 'Fernwärmenetz', 4.345729],
+      ['Wasserkraft', 'Umwandler Wasser/Photovoltaik', 251.1643],
+      ['Sonne', 'Nichtwohnen', 2.28063811],
+      ['Sonne', 'Umwandler Wasser/Photovoltaik', 22.660303],
+      ['Sonne', 'Wohnen', 17.78495753],
+      ['Umweltwärme', 'Umwandler Thermisch', 23.721093],
+      ['Umweltwärme', 'Nichtwohnen', 4.265081],
+      ['Umweltwärme', 'Wohnen', 8.286899],
+      ['Holz', 'Umwandler Thermisch', 177.82531322],
+      ['Holz', 'Nichtwohnen', 5.88006396713822],
+      ['Holz', 'Wohnen', 14.7907500228618],
+      ['Abfall', 'Nichtwohnen', 71.50651076],
+      ['Abfall', 'Umwandler Thermisch', 761.15109144],
+      ['Umwandler Thermisch', 'Fernwärmenetz', 1156.928572],
+      ['Umwandler Thermisch', 'Stromnetz', 157.610165],
+      ['Fernwärmenetz', 'Verluste', 173.306099],
+      ['Fernwärmenetz', 'Nichtwohnen', 482.717797564531],
+      ['Fernwärmenetz', 'Wohnen', 475.982110872415],
+      ['Stromnetz', 'Nichtwohnen', 837.0373584],
+      ['Gasnetz', 'Umwandler Thermisch', 643.81081978],
+      ['Gasnetz', 'Nichtwohnen', 453.172776770444],
+      ['Gasnetz', 'Wohnen', 216.202132449556],
+      ['Gasnetz', 'Verkehr', 23.227897],
+      ['Erdgas', 'Gasnetz', 1302.403626],
+      ['Heizöl', 'Nichtwohnen', 66.0053987098522],
+      ['Heizöl', 'Umwandler Thermisch', 57.322184],
+
+      ['Heizöl', 'Wohnen', 149.695764400148],
+      ['Stromnetz', 'Wohnen', 411.7690256],
+      ['Stromnetz', 'Verluste', 40.6],
+      ['Umwandler Wasser/Photovoltaik', 'Stromnetz', 273.824603],
+      ['Fernwärmenetz', 'Exporte', 18.579],
+      ['Stromnetz', 'Verkehr', 49.849],
+      ['Elektrizität', 'Umwandler Thermisch', 4.209148],
+      ['Elektrizität', 'Stromnetz', 912.029764],
+      ['Diesel', 'Verkehr', 398.445491],
+      ['Benzin', 'Verkehr', 358.504373],
+
+    ],
+    nodes: [{
+        id: 'Wasserkraft',
+        column: 0,
+        color: '#008AC3'
+      },
+      {
+        id: 'Umwandler Thermisch',
+        column: 2,
+        offset: -120,
+        color: '#B00000'
+      },
+      {
+        id: 'Fernwärmenetz',
+        column: 3,
+        offset: -65,
+        color: '#B00000'
+      },
+      {
+        id: 'Umweltwärme',
+        column: 0,
+        color: '#B00000'
+      },
+      {
+        id: 'Sonne',
+        column: 0,
+        color: '#FF8028'
+      },
+      {
+        id: 'Stromnetz',
+        column: 3,
+        offset: 60,
+        color: '#008AC3'
+      },
+      {
+        id: 'Holz',
+        column: 0,
+        color: '#007A2F'
+      },
+      {
+        id: 'Abfall',
+        column: 0,
+        color: '#45381D'
+      },
+      {
+        id: 'Erdgas',
+        column: 0,
+        color: '#FABD24'
+      },
+      {
+        id: 'Heizöl',
+        column: 0,
+        color: '#923F8D'
+      },
+      {
+        id: 'Diesel',
+        column: 0,
+        color: '#474747'
+      },
+      {
+        id: 'Benzin',
+        column: 0,
+        color: '#246370'
+      },
+      {
+        id: 'Elektrizität',
+        column: 0,
+        color: '#008AC3'
+      },
+      {
+        id: 'Gasnetz',
+        column: 1,
+        offset: -40,
+        color: '#FABD24'
+      },
+      {
+        id: 'Umwandler Wasser/Photovoltaik',
+        column: 1,
+        offset: -200,
+        color: '#008AC3'
+      },
+      {
+        id: 'Fernwärme (Import)',
+        column: 0,
+        color: '#B00000'
+      },
+      {
+        id: 'Verluste',
+        column: 4,
+        offset: -430,
+        color: '#6F6F6F'
+      },
+      {
+        id: 'Nichtwohnen',
+        column: 4,
+        offset: 50,
+        color: '#6F6F6F'
+      },
+      {
+        id: 'Wohnen',
+        column: 4,
+        offset: 80,
+        color: '#6F6F6F'
+      },
+      {
+        id: 'Verkehr',
+        column: 4,
+        offset: 50,
+        color: '#6F6F6F'
+      },
+      {
+        id: 'Exporte',
+        column: 4,
+        offset: -430,
+        color: '#6F6F6F'
+      }
+    ],
+    type: 'sankey',
+    name: 'Energieflüsse 2018',
+    curveFactor: 0.33,
+    tooltip: {
+      pointFormat: '{point.fromNode.name} → {point.toNode.name}: <b>{point.weight:.1f} GWh</b><br/>',
+      nodeFormat: '{point.name}: <b>{point.sum:.1f} GWh</b><br/>'
+    }
+  }],
+  plotOptions: {
+    series: {
+      dataLabels: {
+        allowOverlap: true
+      }
+    }
+
+  }
+
+});
+
+
+
+  //]]></script>
+
+</body>
+</html>
+

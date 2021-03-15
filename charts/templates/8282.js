@@ -4,38 +4,6 @@
 	global $
 */
 
-var legendPosition = {
-	blockChoropleth: {
-		x: 230, // Customizable
-		y: -15,  // Customizable
-		title: {
-			y: [232, 217, 202],
-			x: 245, // Customizable
-		}
-	},
-	blockSymbol: {
-		x: [378,373], // Customizable
-		y: [277, 297, 317, 337], // Customizable
-		y3C: [382, 412, 442],
-		numbers: {
-			x: 0,
-			y: [267, 287, 310, 330], // Customizable
-			y3C: [370, 400, 430]
-		},
-		title: {
-			x: 0
-		}
-	}
-};
-
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
-
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
-var i;
-for (i = 0; i < 3; i++) {
-	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
-};
-
 (function(){
 
     return {
@@ -48,8 +16,8 @@ for (i = 0; i < 3; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockChoropleth.x,
-			"y": legendPosition.blockChoropleth.y,
+			"x": 230,
+			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -125,6 +93,39 @@ for (i = 0; i < 3; i++) {
 			events: {
 	            load: function (e) {
 	            	
+					var legendPosition = {
+						blockChoropleth: {
+							x: 230, // Customizable
+							y: -15,  // Customizable
+							title: {
+								y: [232, 217, 202],
+								x: 245, // Customizable
+							}
+						},
+						blockSymbol: {
+							x: [378,373], // Customizable
+							y: [277, 297, 317, 337], // Customizable
+							y3C: [382, 412, 442],
+							numbers: {
+								x: 0,
+								y: [267, 287, 310, 330], // Customizable
+								y3C: [370, 400, 430]
+							},
+							title: {
+								x: 0
+							}
+						}
+					};
+					
+					legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+					
+					legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+					var i;
+					for (i = 0; i < 3; i++) {
+						legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
+					};
+					
+
 	            	this.credits.element.onclick = function() {};
 
 	                var chart = this;
