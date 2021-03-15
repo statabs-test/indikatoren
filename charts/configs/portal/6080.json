@@ -475,7 +475,9 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "itemWidth": 167,
     "width": 600,
