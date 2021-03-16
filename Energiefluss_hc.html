@@ -73,22 +73,57 @@
 
 
 
-        Highcharts.chart('container', {
-            title: {
-                text: 'Energieflussdiagramm 2018'
-            },
-            accessibility: {
-                point: {
-                    valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.'
-                }
-            },
-            series: [{
-                keys: ['from', 'to', 'weight'],
-                data:
-                {
-                    csvURL: "data/Energiefluss.tsv",
-                    itemDelimiter: "\t" 
-                },
+Highcharts.chart('container', {
+  title: {
+    text: 'Energieflussdiagramm 2018'
+  },
+  accessibility: {
+    point: {
+      valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.'
+    }
+  },
+  series: [{
+    keys: ['from', 'to', 'weight'],
+    data: [
+      ['Fernwärme (Import)', 'Fernwärmenetz', 4.345729],
+      ['Wasserkraft', 'Umwandler Wasser/Photovoltaik', 251.1643],
+      ['Sonne', 'Nichtwohnen', 2.28063811],
+      ['Sonne', 'Umwandler Wasser/Photovoltaik', 22.660303],
+      ['Sonne', 'Wohnen', 17.78495753],
+      ['Umweltwärme', 'Umwandler Thermisch', 23.721093],
+      ['Umweltwärme', 'Nichtwohnen', 4.265081],
+      ['Umweltwärme', 'Wohnen', 8.286899],
+      ['Holz', 'Umwandler Thermisch', 177.82531322],
+      ['Holz', 'Nichtwohnen', 5.88006396713822],
+      ['Holz', 'Wohnen', 14.7907500228618],
+      ['Abfall', 'Nichtwohnen', 71.50651076],
+      ['Abfall', 'Umwandler Thermisch', 761.15109144],
+      ['Umwandler Thermisch', 'Fernwärmenetz', 1156.928572],
+      ['Umwandler Thermisch', 'Stromnetz', 157.610165],
+      ['Fernwärmenetz', 'Verluste', 173.306099],
+      ['Fernwärmenetz', 'Nichtwohnen', 482.717797564531],
+      ['Fernwärmenetz', 'Wohnen', 475.982110872415],
+      ['Stromnetz', 'Nichtwohnen', 837.0373584],
+      ['Erdgas', 'Umwandler Thermisch', 643.81081978],
+      ['Erdgas', 'Nichtwohnen', 453.172776770444],
+      ['Erdgas', 'Wohnen', 216.202132449556],
+      ['Erdgas', 'Verkehr', 23.227897],
+      ['Heizöl', 'Nichtwohnen', 66.0053987098522],
+      ['Heizöl', 'Umwandler Thermisch', 57.322184],
+
+      ['Heizöl', 'Wohnen', 149.695764400148],
+      ['Stromnetz', 'Wohnen', 411.7690256],
+      ['Stromnetz', 'Verluste', 40.6],
+      ['Umwandler Wasser/Photovoltaik', 'Stromnetz', 273.824603],
+      ['Fernwärmenetz', 'Exporte', 18.579],
+      ['Stromnetz', 'Verkehr', 49.849],
+      ['Elektrizität', 'Umwandler Thermisch', 4.209148],
+      ['Elektrizität', 'Stromnetz', 912.029764],
+      ['Diesel', 'Verkehr', 398.445491],
+      ['Benzin', 'Verkehr', 358.504373],
+
+    ],
+
                 nodes: [{
                     id: 'Wasserkraft',
                     column: 0,
