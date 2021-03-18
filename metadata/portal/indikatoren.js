@@ -38410,14 +38410,19 @@ var indikatoren = [
 		"id": 8372
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8490"
+		],
+		"template": "template001",
 		"title": "Entwicklung Anzahl Logiernächte",
 		"subtitle": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzel": "",
 		"kuerzelKunde": "5-1",
 		"description": "Entwicklung Anzahl Logiernächte",
 		"thema": "10 Tourismus",
 		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -38427,17 +38432,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 1,8 Mio. Logiernächte verzeichnet. Der grösste Teil fiel mit fast 1,4 Mio. auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden rund 285 000, im Jura knapp 102 000 Logiernächte gebucht. Während in Basel-Stadt die Übernachtungszahl seit 2014 stark zunahm, ging sie in den beiden anderen Kantonen etwas zurück.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten. Es gibt im Jura nach Auskunft des Kantons mehr als 2,5-mal so viele Logiernächte aus dem Bereich der Parahotellerie als aus den der Auswertung zugrundeliegenden Betrieben.",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2019 zusammen mehr als 1,8 Mio. Logiernächte verzeichnet. 2020 wurde ein Rückgang um 1,0 Mio bzw. mehr als 50% auf knapp 800 000 Übernachtungen registriert. Der grösste Teil fiel mit 0,5 Mio. auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden rund 150 000, im Jura 95 000 Logiernächte gebucht.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten. Es gibt im Jura nach Auskunft des Kantons mehr als 2,5-mal so viele Logiernächte aus dem Bereich der Parahotellerie als aus den der Auswertung zugrundeliegenden Betrieben.",
 		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung. Laut Informationen des Kanton Jura sind die Übernachtungszahlen in der Parahotellerie dort stark gestiegen. So resultierte insgesamt ein Anstieg der Übernachtungszahlen im Jura zwischen 2014 und 2018 um 10,8% (statt eines Rückgangs um 3,6%).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8490"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -39851,14 +39851,19 @@ var indikatoren = [
 		"id": 8868
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8876"
+		],
+		"template": "template001",
 		"title": "Entwicklung Bettenangebot",
 		"subtitle": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzel": "I.10.1.08873",
 		"kuerzelKunde": "5-3",
 		"description": "Entwicklung Bettenangebot",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -39868,17 +39873,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 12 900 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 9 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um fast 33% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-5,5% auf 2 300 und -12,3% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2020 zusammen fast 11 500 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 8 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um 17,8% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-18,2% auf 2 000 und -14,4% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
 		"erlaeuterungen": "Anzahl angebotene Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen. <br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8876"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"

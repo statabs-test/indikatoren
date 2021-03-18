@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#662673",
       "data": [
         [
           "Basel-Stadt",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#923F8D",
       "data": [
         [
           "Basel-Stadt",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",
@@ -70,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -93,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -113,6 +113,52 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          1423481
+        ],
+        [
+          "Basel-Landschaft",
+          283106
+        ],
+        [
+          "Jura",
+          106699
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          1813286
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "Basel-Stadt",
+          545906
+        ],
+        [
+          "Basel-Landschaft",
+          148337
+        ],
+        [
+          "Jura",
+          95577
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          789820
+        ]
+      ],
+      "name": "2020",
       "turboThreshold": 0
     }
   ],

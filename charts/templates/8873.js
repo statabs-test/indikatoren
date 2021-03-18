@@ -36,11 +36,14 @@
         }
       },
       series: [
+        { color: "#662673" },
+        { color: "#923F8D" },
         { color: "#246370" },
         { color: "#0F7399" },
         { color: "#689199" },
         { color: "#A8C3CA" },
-        { color: "#D3E2E4" }
+        { color: "#D3E2E4" },
+        
       ],
       legend: {
         enabled: true,
