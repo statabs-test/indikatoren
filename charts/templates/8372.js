@@ -5,7 +5,8 @@
       //"type": "category",
     },
     "yAxis": {
-      "min": 80,
+      "min": 30,
+      tickInterval: 30
     },
     "tooltip": {
       "shared": false,
