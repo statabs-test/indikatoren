@@ -43,7 +43,7 @@
       { "color": "#B00000", index: 10, legendIndex: 0, visible: true}, /*Schweiz*/
       { "color": "#672773", index: 9, legendIndex: 1, visible: true }, /*Deutschland*/
       { "color": "#007a2f", index: 8, legendIndex: 2, visible: true }, /*Italien*/
-      { "color": "#fabd24", index: 7, legendIndex: 3, visible: false }, /*Türkei*/
+      { "color": "#fabd24", index: 7, legendIndex: 3, visible: false}, /*Türkei*/
       { "color": "#b475ab", index: 6, legendIndex: 4, visible: true }, /*EU-17 & EFTA*/
       { "color": "#71a3b5", index: 5, legendIndex: 5, visible: false }, /*EU-Ost */
       { "color": "#b9cfd7", index: 4, legendIndex: 6, visible: true }, /*Balkan*/
