@@ -91,6 +91,29 @@
       ],
       "name": "2017",
       "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "BS",
+          190756
+        ],
+        [
+          "BL",
+          150816
+        ],
+        [
+          "JU",
+          44030
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          385602
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -260,6 +283,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8970
+    "filename": "8970"
   }
 }
