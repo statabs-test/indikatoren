@@ -57729,14 +57729,19 @@ var indikatoren = [
 		"id": 8364
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8482"
+		],
+		"template": "template001",
 		"title": "Arbeitspendler Jura",
-		"subtitle": "Pooling 2013-2017",
+		"subtitle": "Pooling 2015-2019",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzel": "I.11.5.08365",
 		"kuerzelKunde": "2.1-11",
 		"description": "Arbeitspendler Jura",
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -57746,17 +57751,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2013 bis 2017 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 200 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit fast 2 700 in den Kanton Bern. Die meisten der insgesamt rund 9 500 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit über 7 300 Personen aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "template001",
+		"lesehilfe": "Im Kanton Jura gibt es im Mittel der Jahre 2015 bis 2019 deutlich weniger Weg- und Zupendler als in den beiden Basler Kantonen. Rund 5 200 Personen aus dem Jura pendelten zum Arbeiten in einen anderen Kanton oder ins Ausland, die meisten von ihnen mit fast 2 700 in den Kanton Bern, gefolgt von Neuenburg mit etwa 800 Personen. Fast drei Viertel der restlichen Wegpendler arbeiten in den Kantonen Basel-Stadt, Basel-Landschaft und Solothurn.  Die meisten der insgesamt rund 9 500 Zupendler, die zum Arbeiten in den Jura kommen, stammen mit über 7 300 Personen aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"8482"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
