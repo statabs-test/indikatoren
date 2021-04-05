@@ -1,0 +1,51 @@
+﻿2018	'Fernwärme (Import)'	'Fernwärmenetz'	 4.345729
+2018	'Wasserkraft'	'Umwandler Wasser/Photovoltaik'	 251.1643
+2018	'Sonne'	 'Nichtwohnen'	 2.28063811
+2018	'Sonne'	 'Umwandler Wasser/Photovoltaik'	 22.660303
+2018	'Sonne'	 'Wohnen'	 17.78495753
+2018	'Umweltwärme'	 'Umwandler Thermisch'	 23.721093
+2018	'Umweltwärme'	 'Nichtwohnen'	 4.265081
+2018	'Umweltwärme'	 'Wohnen'	 8.286899
+2018	'Holz'	 'Umwandler Thermisch'	 177.82531322
+2018	'Holz'	 'Nichtwohnen'	 5.88006396713822
+2018	'Holz'	 'Wohnen'	 14.7907500228618
+2018	'Abfall'	 'Nichtwohnen'	 71.50651076
+2018	'Abfall'	 'Umwandler Thermisch'	 761.15109144
+2018	'Umwandler Thermisch'	 'Fernwärmenetz'	 1156.928572
+2018	'Umwandler Thermisch'	 'Stromnetz'	 157.610165
+2018	'Fernwärmenetz'	 'Verluste'	 173.306099
+2018	'Fernwärmenetz'	 'Nichtwohnen'	 482.717797564531
+2018	'Fernwärmenetz'	 'Wohnen'	 475.982110872415
+2018	'Stromnetz'	 'Nichtwohnen'	 837.0373584
+2018	'Erdgas'	 'Umwandler Thermisch'	 643.81081978
+2018	'Erdgas'	 'Nichtwohnen'	 453.172776770444
+2018	'Erdgas'	 'Wohnen'	 216.202132449556
+2018	'Erdgas'	 'Verkehr'	 23.227897
+2018	'Heizöl'	 'Nichtwohnen'	 66.0053987098522
+2018	'Heizöl'	 'Umwandler Thermisch'	 57.322184
+2018	'Heizöl'	 'Wohnen'	 149.695764400148
+2018	'Stromnetz'	 'Wohnen'	 411.7690256
+2018	'Stromnetz'	 'Verluste'	 40.6
+2018	'Umwandler Wasser/Photovoltaik'	 'Stromnetz'	 273.824603
+2018	'Fernwärmenetz'	 'Exporte'	 18.579
+2018	'Stromnetz'	 'Verkehr'	 49.849
+2018	'Elektrizität'	 'Umwandler Thermisch'	 4.209148
+2018	'Elektrizität'	 'Stromnetz'	 912.029764
+2018	'Diesel'	 'Verkehr'	 398.445491
+2018	'Benzin'	 'Verkehr'	 358.504373
+2017	'Wasserkraft'	'Umwandler Wasser/Photovoltaik'	 51.1643
+2017	'Sonne'	 'Nichtwohnen'	 2.28063811
+2017	'Sonne'	 'Umwandler Wasser/Photovoltaik'	 22.660303
+2017	'Sonne'	 'Wohnen'	 17.78495753
+2017	'Umweltwärme'	 'Umwandler Thermisch'	 23.721093
+2017	'Umweltwärme'	 'Nichtwohnen'	 4.265081
+2017	'Umweltwärme'	 'Wohnen'	 8.286899
+2017	'Holz'	 'Umwandler Thermisch'	 177.82531322
+2016	'Wasserkraft'	'Umwandler Wasser/Photovoltaik'	 51.1643
+2016	'Sonne'	 'Nichtwohnen'	 2.28063811
+2016	'Sonne'	 'Umwandler Wasser/Photovoltaik'	 22.660303
+2016	'Sonne'	 'Wohnen'	 17.78495753
+2015	'Wasserkraft'	'Umwandler Wasser/Photovoltaik'	 251.1643
+2015	'Sonne'	 'Nichtwohnen'	 2.28063811
+2015	'Sonne'	 'Umwandler Wasser/Photovoltaik'	 22.660303
+2015	'Sonne'	 'Wohnen'	 77.78495753
