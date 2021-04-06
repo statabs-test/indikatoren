@@ -31,7 +31,7 @@ function build_dict(text) {
     return thedict;
 };
 
-/*
+/* has to generate the correct format!
 function build_nodes(allnodes, year) {
     let thearr = [];
     let lines = allnodes.split(/\r?\n/);
