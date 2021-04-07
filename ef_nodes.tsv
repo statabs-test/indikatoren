@@ -1,0 +1,44 @@
+﻿2018	Fernwärme (Import)	#B00000	0	0
+2018	Wasserkraft	#008AC3	0	0
+2018	Sonne	 #FF8028	0	0
+2018	Umweltwärme	 #B00000	0	0
+2018	Holz	 #007A2F	0	0
+2018	Abfall	 #45381D	0	0
+2018	Umwandler Thermisch	 #B00000	1	-120
+2018	Fernwärmenetz	 #B00000	2	-65
+2018	Stromnetz	 #008AC3	2	60
+2018	Erdgas	 #FABD24	0	0
+2018	Heizöl	 #923F8D	0	0
+2018	Umwandler Wasser/Photovoltaik	 #008AC3	1	-200
+2018	Elektrizität	 #008AC3	0	0
+2018	Diesel	 #474747	0	0
+2018	Benzin	 #246370	0	0
+2018	Nichtwohnen	 #6F6F6F	3	50
+2018	Wohnen	 #6F6F6F	3	80
+2017	Wasserkraft	#008AC3	0	0
+2017	Sonne	 #FF8028	0	0
+2017	Umweltwärme	 #B00000	0	0
+2017	Holz	 #007A2F	0	0
+2017	Umwandler Thermisch	 #B00000	1	-120
+2017	Fernwärmenetz	 #B00000	2	-65
+2017	Stromnetz	 #008AC3	2	60
+2017	Erdgas	 #FABD24	0	0
+2017	Heizöl	 #923F8D	0	0
+2017	Umwandler Wasser/Photovoltaik	 #008AC3	1	-200
+2017	Elektrizität	 #008AC3	0	0
+2017	Diesel	 #474747	0	0
+2017	Benzin	 #246370	0	0
+2017	Nichtwohnen	 #666666	2	20
+2017	Wohnen	 #666666	1	40
+2017	Fernwärme (Import)	#B44444	1	60
+2017	Wasserkraft	#448AC3	1	0
+2016	Wasserkraft	#003333	0	0
+2016	Umwandler Wasser/Photovoltaik	 #555555	1	-100
+2016	Sonne	 #FF2222	0	0
+2016	Nichtwohnen	 #333333	2	20
+2016	Wohnen	 #222222	1	402016	Wasserkraft	#003333	0	0
+2015	Wasserkraft	#555555	0	0
+2015	Umwandler Wasser/Photovoltaik	 #111111	1	-100
+2015	Sonne	 #444444	0	0
+2015	Nichtwohnen	 #777777	2	20
+2015	Wohnen	 #FFFFFF	1	40
