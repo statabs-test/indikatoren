@@ -69395,10 +69395,10 @@ var indikatoren = [
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "I.06.4.08868",
+		"kuerzel": "",
 		"kuerzelKunde": "4-4",
 		"description": "Entwicklung Handelsbilanz",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -69409,8 +69409,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt steigt 2019 gegenüber dem Vorjahr um knapp 3 Milliarden auf 29,4 Milliarden Franken, während sie in Basel-Lanschaft 680 Millionen beträgt. Iim Jura liegt diese bei 1,1 Milliarden Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im 2019 wieder gestiegen und liegt neu bei 37,2 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Somit sind früheren Zahlen mit den aktuellen nicht mehr vergleichbar.",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2019 gegenüber dem Vorjahr um knapp 3 Milliarden auf 29,4 Milliarden Franken gestiegen. In Basel-Lanschaft beträgt sie 680 Millionen. Im Jura liegt sie bei 1,1 Milliarden Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2019 wieder gestiegen und liegt bei 37,2 Milliarden Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
