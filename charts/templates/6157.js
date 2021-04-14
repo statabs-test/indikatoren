@@ -61,7 +61,7 @@
       {
         "color": "#FF8028",
         "marker": {
-          "enabled": true
+          "enabled": false
         },
         legendIndex: 5
       }, /* orange */
