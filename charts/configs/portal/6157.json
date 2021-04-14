@@ -6,6 +6,7 @@
         "enabled": false
       },
       "legendIndex": 3,
+      "zIndex": 1,
       "data": [
         [
           1991,
@@ -138,6 +139,7 @@
       },
       "dashStyle": "ShortDash",
       "legendIndex": 2,
+      "zIndex": 0,
       "data": [
         [
           1991,
@@ -269,6 +271,7 @@
       },
       "dashStyle": "ShortDash",
       "legendIndex": 4,
+      "zIndex": 0,
       "data": [
         [
           1991,
@@ -400,6 +403,7 @@
         "enabled": false
       },
       "legendIndex": 1,
+      "zIndex": 1,
       "data": [
         [
           1991,
@@ -530,6 +534,7 @@
         "enabled": false
       },
       "legendIndex": 5,
+      "zIndex": 1,
       "data": [
         [
           1991,
@@ -662,6 +667,7 @@
       },
       "dashStyle": "ShortDash",
       "legendIndex": 6,
+      "zIndex": 0,
       "data": [
         [
           1991,

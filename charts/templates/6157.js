@@ -29,7 +29,8 @@
         "marker": {
           "enabled": false
         },
-        legendIndex: 3
+        legendIndex: 3,
+        zIndex:1
       }, /* duneklblau */
       {
         "color": "#68AB2B",
@@ -38,7 +39,8 @@
           "enabled": false
         },
         dashStyle: 'ShortDash',
-        legendIndex: 2
+        legendIndex: 2,
+        zIndex:0
       }, /* dunkelgrün */
       {
         "color": "#008AC3",
@@ -46,7 +48,8 @@
           "enabled": false
         },
         dashStyle: 'ShortDash',
-        legendIndex: 4
+        legendIndex: 4,
+        zIndex:0
       }, /* duneklblau */
       {
         "color": "#007A2F",
@@ -54,7 +57,8 @@
         "marker": {
           "enabled": false
         },
-        legendIndex: 1
+        legendIndex: 1,
+        zIndex:1
       }, /* dunkelgrün */
 
 
@@ -63,7 +67,8 @@
         "marker": {
           "enabled": false
         },
-        legendIndex: 5
+        legendIndex: 5,
+        zIndex:1
       }, /* orange */
       {
         "color": "#FFBB58",
@@ -72,7 +77,8 @@
           "enabled": false
         },
         dashStyle: 'ShortDash',
-        legendIndex: 6
+        legendIndex: 6,
+        zIndex:0
       }, /* orange */
     ],
     "legend": {
