@@ -222,7 +222,7 @@
 		        },
 	        }
 		},
-	
+		
 		customFunctions: {
 			
 			hideOnZoom: function(e, selector){
@@ -503,7 +503,7 @@
 		                        		borderColor: color(data.value)
 		                        	}
 		                        ],
-		                        dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 10.02.2021)
+		                        /*dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 10.02.2021)
 									//enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
 									enabled: (chart.userOptions.plotOptions !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false), //get setting from chart-js
 									distance: 0,
@@ -517,7 +517,7 @@
 										return correspondingMapSeriesItem['Wohnviertel Id'];
 										//return correspondingMapSeriesItem.properties.LIBGEO;
 									}
-								},
+								},*/
 								colorAxis: false
 	                        };
 	                        //create the config handed in from the chart
