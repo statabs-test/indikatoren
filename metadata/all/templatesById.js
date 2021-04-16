@@ -1693,6 +1693,7 @@ var templatesById = {
 	"8707": "line001_print",
 	"8812": "mappie001_print",
 	"8844": "mappie001_print",
+	"8845": "mappie001",
 	"8848": "mappie001_print",
 	"8852": "befragungen001",
 	"8863": "line001",

@@ -1787,7 +1787,7 @@ id | visible | visibleInPortal | indikatorenset
 8812 | true | false | CMS Kennzahlen Soziales (Print)
 8842 | false |  | Stadtteilmonitoring Rosental
 8844 | true | false | Stadtteilmonitoring Rosental (Print)
-8845 | false |  | Stadtteilmonitoring Klybeck-Kleinhüningen
+8845 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8852 | true | true | Nachhaltigkeit
 8863 | true | true | Wirtschaftsbericht BS_BL_JU

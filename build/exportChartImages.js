@@ -95,6 +95,7 @@ function createSvgImages(chartDetails){
                 infile: chartEntry.infilePath,
                 constr: chartEntry.constr,
                 outfile: chartEntry.outfilePath, 
+                allowCodeExecution: 1,
                 //define empty mappie here to satisfy export server, same as in options001.js
                 customCode: "function(){Highcharts.seriesType('mappie', 'pie', {}, {});}()", 
                 //add proj4 and jQuery to export server's dependencies
@@ -102,7 +103,7 @@ function createSvgImages(chartDetails){
                     files: "node_modules/proj4/dist/proj4.js,node_modules/jquery/dist/jquery.min.js,assets/js/customFunctions.js"
                 }
             };
-    
+    //console.log(exportSettings);
             exporter.export(exportSettings, function (err, res) {
                 if (err) {throw err}
                 //The export result is now in res.

@@ -21,7 +21,7 @@
 "erlaeuterungen":"",
 "darstellungsart":"",
 "printformat":"", 
-"visible":false,
+"visible":true,
 "visibleInPortal":false,
 "orderKey":"01_00_00_00_00_000",
 "renderLink":[],
