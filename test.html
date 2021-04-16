@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+      
+      
+      <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>    
+      <link href="assets/bootstrap/css/bootstrap-tour-standalone.css" media="screen" rel="stylesheet" type="text/css">
+      <script src="assets/bootstrap/js/bootstrap-tour-standalone.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="lesehilfe">Hi, it's me</div>
+<hr>
+<button id="my-other-element" class="highcharts-background">Hi, it's me 2</button>
+
+    <script type="text/javascript">
+
+
+// Instance the tour
+var tour = new Tour({
+  steps: [
+  {
+                element: "#lesehilfe",
+                title: "Anleitung",
+                content: "Herzlich willkommen!<br> Lernen Sie mit Weiter/Zurück die Funktionen der interaktiven Grafik kennen. Diese Anleitung können Sie jederzeit Beenden oder über das Grafik-Menu rechts oben neu starten.",
+                placement: 'top'
+            }, 
+                   {
+                element: ".highcharts-background",
+                title: "Anleitung",
+                content: "Herzlich willkommen!<br> Lernen Sie mit Weiter/Zurück die Funktionen der interaktiven Grafik kennen. Diese Anleitung können Sie jederzeit Beenden oder über das Grafik-Menu rechts oben neu starten.",
+                placement: 'top'
+            }
+]});
+
+
+// Initialize the tour
+tour.init();
+
+// Start the tour
+tour.restart();
+
+
+  </script>
+  </body>
+</html>

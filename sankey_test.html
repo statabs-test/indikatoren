@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Sankey Energiestatistik</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style id="compiled-css" type="text/css">
+        #container {
+            min-width: 300px;
+            max-width: 1024px;
+            height: 700px;
+            margin: 1em auto;
+            /*border: 1px solid silver;*/
+        }
+
+        /* EOS */
+    </style>
+
+
+
+
+    <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="src/jquery.csv.js"></script>
+
+    <script src="assets/js/modules/highcharts/highcharts.js" type="text/javascript"></script>
+    <script src="assets/js/modules/highcharts/highcharts-more.js" type="text/javascript"></script>
+    <script src="assets/js/modules/highcharts/modules/stock.js" type="text/javascript"></script>
+    <script src="assets/js/modules/highcharts/modules/data.js" type="text/javascript"></script>
+    <script src="assets/js/modules/highcharts/modules/map.js" type="text/javascript"></script>
+    <script src="assets/js/modules/highcharts/modules/sankey.js" type="text/javascript"></script>
+    <script src="assets/js/modules/highcharts/modules/exporting.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+
+    <div id="container"></div>
+
+    <script type="text/javascript">//<![CDATA[
+
+        Highcharts.chart('container', {
+
+            data: {
+                //csvURL: window.location.origin + '/ef_flows.tsv', //sankey_test.csv
+                //itemDelimiter: "\t" ,
+                csvURL: window.location.origin + '/sankey_test.csv',
+                complete(options) {
+                    options.series.forEach(s => {
+                        console.log(s);
+                        s.data.forEach(d => {
+                            /*d.jahr = d.x;
+                            d.weight = d.to;
+                             d.to = d.from;
+                             d.from = d.name;
+                             /*
+                             d.weight = d.to;
+                             d.to = d.from;
+                             d.from = d.name;
+                             */
+                            console.log(d);
+
+                        })
+                    });
+                }
+            },
+            series: [{
+                type: 'sankey'
+            }]
+        });
+
+
+//]]></script>
+
+</body>
+
+</html>
