@@ -78043,6 +78043,46 @@ var indikatoren = [
 		"id": 9239
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anzahl Strassenverkehrsunfälle seit 1930",
+		"subtitle": "",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09274",
+		"kuerzelKunde": "",
+		"description": "Anzahl Strassenverkehrsunfälle seit 1930",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-21T10:29:22.2222",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Hier kommt die Lesehilfe…",
+		"erlaeuterungen": "Bis 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Zwischen 1. April 1955 bis 1. Januar 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Unterteilung Verletzte in Verletzungsschwere (schwer und leicht) erst seit 1975 erhältlich. Seit 1. Januar 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9274,
+		"chart-id": 9274,
+		"filter": "",
+		"id": 9274
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
