@@ -18,14 +18,11 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemDistance: 5
+      itemDistance: 10
     },
     "series": [
-      {
-        "color": "#9E7C59", index: 5, legendIndex: 0, tooltip: {
-          valueDecimals: 0
-        },
-      },
+      /*{"color": "#9E7C59", index: 5, legendIndex: 0, tooltip: {valueDecimals: 0},
+      },*/
       {
         "color": "#C4AB91", index: 4, legendIndex: 1, tooltip: {
           valueDecimals: 0

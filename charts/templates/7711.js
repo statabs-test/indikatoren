@@ -1,7 +1,15 @@
 (function(){
   return {
-"xAxis": { tickInterval: 1
-},
+    xAxis: {
+      tickPositioner: function () {
+        var interval = 1,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+    },
 "yAxis": {
 "labels": {
   "format": "{value:,.0f}"
@@ -12,11 +20,8 @@
 "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>'
 },
 "series": [
-  {"color": "#cd9c00"
-  }, 
-  {"color": "#b375ab",
-    visible:true,
-  }, 
+  {"color": "#cd9c00"}, 
+  {"color": "#b375ab"}, 
 ],
 "legend": {
   "enabled": true,
@@ -28,7 +33,7 @@
     "fontWeight": "normal"
   }
 },
-"plotOptions": {
+/*"plotOptions": {
   "line": {
   "connectNulls": true,
     "marker":{
@@ -36,6 +41,6 @@
       "symbol": "circle",
     }
   }
-}
+}*/
 }
 }());
