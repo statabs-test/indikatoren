@@ -104,7 +104,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 2; 
+	                var maxValueInLegend = 1; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name + ' (pp)', 265, 240);
