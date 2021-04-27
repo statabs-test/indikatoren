@@ -78083,6 +78083,46 @@ var indikatoren = [
 		"id": 9274
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anzahl Verletzte und Verkehrstote seit 1924",
+		"subtitle": "",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09283",
+		"kuerzelKunde": "",
+		"description": "Anzahl Verletzte und Verkehrstote seit 1924",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-27T15:02:41.4141",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9283,
+		"chart-id": 9283,
+		"filter": "",
+		"id": 9283
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",

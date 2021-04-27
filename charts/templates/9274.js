@@ -1,10 +1,95 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 10,
+    tickInterval: 1,
+    labels:{
+        step: 8
+    },
+     /* plotLines: [{
+        value: 1955,
+        width: 1,
+        color: '#CFD1D1'
+    },
+    {
+      value: 1956,
+      width: 1,
+      color: '#CFD1D1'
+  },
+  {
+    value: 1975,
+    width: 1,
+    color: '#CFD1D1'
+},
+{
+value: 1980,
+width: 1,
+color: '#CFD1D1'
+},{
+value: 1992,
+width: 1,
+color: '#CFD1D1'
+},{
+  value: 2011,
+  width: 1,
+  color: '#CFD1D1'
+  }
+]*/
+   /* plotBands: [{
+      color: '#CFD1D1',
+      from: 1955,
+      to: 1956
+    },
+    {
+      color: '#CFD1D1',
+      from: 1976,
+      to: 1980
+    },
+    {
+      color: '#CFD1D1',
+      from: 1992,
+      to: 2011
+    },]*/
+
+     plotBands: [{
+      color: 'rgba(115,186,124,0.2)',
+      from: 1924,
+      to: 1955
+    },
+    {
+      color: 'rgba(147,63,141,0.2)',
+      from: 1955,
+      to: 1956
+    },
+    {
+      color: 'rgba(0,138,195,0.2)',
+      from: 1956,
+      to: 1975
+    },
+    {
+      color: 'rgba(8,48,56,0.2)',
+      from: 1975,
+      to: 1980
+    },
+    {
+      color: 'rgba(37,99,112,0.2)',
+      from: 1980,
+      to: 1992
+    },
+    {
+      color: 'rgba(105,146,155,0.2)',
+      from: 1992,
+      to: 2011
+    },
+    {
+      color: 'rgba(168,196,203,0.2)',
+      from: 2011,
+      to: 2020
+    },]
   },
   "yAxis": {
     "min": 0, 
+    tickInterval: 800,
+    max: 4000,
 	  "labels": {
         "format": "{value:,.0f}"
 	  }
