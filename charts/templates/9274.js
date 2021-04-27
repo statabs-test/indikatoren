@@ -11,7 +11,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
 
@@ -23,6 +23,33 @@
     	"color": "#3c3c3c", /* schwarz */
     	"legendIndex": 1,
         },
+        {
+          "color": "#3c3c3c", /* schwarz */
+          showInLegend: false,
+          marker: {radius: 2,
+            enabled: true
+        }
+            },
+            {
+              "color": "#3c3c3c", /* schwarz */
+              showInLegend: false,
+                },
+                {
+                  "color": "#3c3c3c", /* schwarz */
+                  showInLegend: false
+                    },
+                    {
+                      "color": "#3c3c3c", /* schwarz */
+                      showInLegend: false
+                        },
+                        {
+                          "color": "#3c3c3c", /* schwarz */
+                          showInLegend: false
+                            },
+                            {
+                              "color": "#3c3c3c", /* schwarz */
+                              showInLegend: false
+                                },
   ],
   "legend": {
     "enabled": true,
