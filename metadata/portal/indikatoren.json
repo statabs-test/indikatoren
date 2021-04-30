@@ -42032,5 +42032,45 @@
 		"chart-id": 9286,
 		"filter": "",
 		"id": 9286
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anzahl Verkehrsteilnehmende nach Unfallursache",
+		"subtitle": "",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09287",
+		"kuerzelKunde": "",
+		"description": "Anzahl Verkehrsteilnehmende nach Unfallursache",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-30T10:36:04.044",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9287,
+		"chart-id": 9287,
+		"filter": "",
+		"id": 9287
 	}
 ]

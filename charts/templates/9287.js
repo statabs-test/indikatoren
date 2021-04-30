@@ -3,7 +3,7 @@
   "xAxis": {
     tickInterval: 1,
     labels:{
-        step: 1
+        step: 8
     },
 
   },
@@ -21,21 +21,21 @@
  "series": [
 
     {
-    	"color": "rgb(0,138,195)", /* blau */
-    	"legendIndex": 0
+    	"color": "rgb(250,189,36)", /* gelb */
+    	
     }, 
     {
-    	"color": "rgb(147,63,141)", /* violett */
+    	"color": "rgb(0,138,195)", /* violett */
  
         },
         {
           "color": "rgb(68,171,43)", /* grün */
  
             },
-           // {
-           //   "color": "rgb(176,0,0)", /* rot */
+        {
+          "color": "rgb(176,0,0)", /* rot */
           
-            //    },
+        },
   ],
   "legend": {
     "enabled": true,
