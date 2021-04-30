@@ -2021,6 +2021,7 @@ id | visible | visibleInPortal | indikatorenset
 9239 | true | false | Arbeitsmarkt (Print)
 9274 | true | true | 
 9283 | true | true | 
+9285 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

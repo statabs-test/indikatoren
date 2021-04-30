@@ -78123,6 +78123,46 @@ var indikatoren = [
 		"id": 9283
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anzahl Strassenverkehrsunfälle nach Verletzungsschwere",
+		"subtitle": "",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09285",
+		"kuerzelKunde": "",
+		"description": "Anzahl Strassenverkehrsunfälle nach Verletzungsschwere",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-30T08:32:38.3838",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9285,
+		"chart-id": 9285,
+		"filter": "",
+		"id": 9285
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
