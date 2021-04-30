@@ -78243,6 +78243,46 @@ var indikatoren = [
 		"id": 9287
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "bubble001",
+		"title": "Anzahl Unfälle im Strassenverkehr nach ausgewählter Beteiligungs- und Strassenart",
+		"subtitle": "",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09288",
+		"kuerzelKunde": "",
+		"description": "Anzahl Unfälle im Strassenverkehr nach ausgewählter Beteiligungs- und Strassenart",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-30T11:13:18.1818",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9288,
+		"chart-id": 9288,
+		"filter": "",
+		"id": 9288
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
