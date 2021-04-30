@@ -41992,5 +41992,45 @@ var indikatoren = [
 		"chart-id": 9285,
 		"filter": "",
 		"id": 9285
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anzahl Strassenverkehrsunfälle nach Verkehrsteilnahme",
+		"subtitle": "",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09286",
+		"kuerzelKunde": "",
+		"description": "Anzahl Strassenverkehrsunfälle nach Verkehrsteilnahme seit 2011",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-30T09:43:08.088",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9286,
+		"chart-id": 9286,
+		"filter": "",
+		"id": 9286
 	}
 ];
