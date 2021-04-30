@@ -4,7 +4,8 @@
 			type: "line",
 			width: 485,
 			height: 415,
-			spacingBottom: 45,
+			spacing: [10, 10, 45, 10],
+			marginRight: 20,
 			borderColor: "#fbfbfb",
 			backgroundColor: "#fbfbfb",
 			style: {
