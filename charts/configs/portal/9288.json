@@ -62,56 +62,56 @@
           "x": 3,
           "y": 4,
           "z": null,
-          "name": "Fahrrad",
+          "name": "Velo",
           "color": "rgb(8, 161, 217)"
         },
         {
           "x": 3,
           "y": 3,
           "z": 22,
-          "name": "Fahrrad",
+          "name": "Velo",
           "color": "rgb(8, 161, 217)"
         },
         {
           "x": 3,
           "y": 2,
           "z": 103,
-          "name": "Fahrrad",
+          "name": "Velo",
           "color": "rgb(8, 161, 217)"
         },
         {
           "x": 3,
           "y": 1,
           "z": 1,
-          "name": "Fahrrad",
+          "name": "Velo",
           "color": "rgb(8, 161, 217)"
         },
         {
           "x": 4,
           "y": 4,
           "z": null,
-          "name": "Passanten",
+          "name": "Fussgänger",
           "color": "rgb(250, 189, 36)"
         },
         {
           "x": 4,
           "y": 3,
           "z": 4,
-          "name": "Passanten",
+          "name": "Fussgänger",
           "color": "rgb(250, 189, 36)"
         },
         {
           "x": 4,
           "y": 2,
           "z": 23,
-          "name": "Passanten",
+          "name": "Fussgänger",
           "color": "rgb(250, 189, 36)"
         },
         {
           "x": 4,
           "y": 1,
           "z": 3,
-          "name": "Passanten",
+          "name": "Fussgänger",
           "color": "rgb(250, 189, 36)"
         }
       ],
@@ -195,6 +195,14 @@
       "format": "{value}"
     },
     "min": 0,
+    "categories": [
+      "",
+      "Anderer Ort",
+      "Nebenstrasse",
+      "Hauptstrasse",
+      "Autobahn",
+      ""
+    ],
     "useHTML": true,
     "plotLines": [
       {
@@ -225,7 +233,7 @@
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
+    "lineWidth": 0,
     "title": {
       "style": {
         "color": "black",
@@ -236,11 +244,16 @@
       "style": {
         "color": "black",
         "fontSize": "11px"
-      },
-      "format": "{value}"
+      }
     },
     "tickLength": 0,
-    "tickInterval": 1,
+    "categories": [
+      "nicht angezeigt",
+      "PKW",
+      "Motorrad",
+      "Velo",
+      "Passanten"
+    ],
     "gridLineWidth": 0,
     "plotLines": [
       {
@@ -291,7 +304,7 @@
   "tooltip": {
     "useHTML": false,
     "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EAnteile am Übernachtungsvolumen 2020:\u003Cb\u003E {point.x:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EVeränderung 2020 gegenüber dem Mittelwert 2009-2013:\u003Cb\u003E {point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EWachstumsbeitrag:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAnzahl Verkehrsunfälle:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "\u003C\u002Ftable\u003E",
     "followPointer": true
   },
@@ -312,18 +325,16 @@
           "fontWeight": "normal",
           "textShadow": "none"
         },
-        "formatter": function () {
-                return this.point.name.replace('Niederlande', 'Nieder-<br>lande');
-                //only return last word
-                //return this.name.split(" ").slice(-1);
-                //return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
-              },
-        "inside": false,
-        "y": -5,
+        "formatter": function(){
+                        return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
+                    },
+        "inside": true,
+        "y": 0,
         "padding": 0,
         "overflow": false,
         "crop": false,
         "enabled": true,
+        "format": "{point.z}",
         "allowOverlap": true
       }
     }

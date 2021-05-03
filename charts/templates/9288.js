@@ -36,9 +36,7 @@
       tooltip: {
         useHTML: false,
         pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-          'Anteile am Übernachtungsvolumen 2020:<b> {point.x:,.1f}%</b><br/>' +
-          'Veränderung 2020 gegenüber dem Mittelwert 2009-2013:<b> {point.y}%</b><br/>' +
-          'Wachstumsbeitrag:<b> {point.z}%</b>'
+          '<span>Anzahl Verkehrsunfälle:<b>  {point.z}</b></span>'
       },
       data: {
         seriesMapping: [
@@ -57,8 +55,8 @@
               switch (val) {
                 case 'PKW':  val = 'rgb(176, 0, 0)'; break;
                 case 'Motorrad': val = 'rgb(43, 0, 153)'; break;
-                case 'Fahrrad': case 'USA': val = 'rgb(8, 161, 217)'; break;
-                case 'Passanten': case 'UK': val = 'rgb(250, 189, 36)'; break;
+                case 'Velo': case 'USA': val = 'rgb(8, 161, 217)'; break;
+                case 'Fussgänger': case 'UK': val = 'rgb(250, 189, 36)'; break;
                 
   
                 /*case 'CH': val = 'rgb(176, 0, 0)'; break;
@@ -82,12 +80,13 @@
         }
       },
       xAxis: {
-        tickInterval: 1,
+        categories: ['nicht angezeigt','PKW', 'Motorrad', 'Velo','Passanten'],
         gridLineWidth: 0,
+        lineWidth: 0,
        // max: 55,
         //min: -5,
         labels: {
-          format: '{value}'
+         
         },
         plotLines: [{
             color: '#B9CFD7',
@@ -116,7 +115,8 @@
     ],
     
       },
-      yAxis: {
+      yAxis: {     
+        categories: ['','Anderer Ort','Nebenstrasse','Hauptstrasse','Autobahn',''],
         useHTML: true,
         gridLineWidth: 0,
         //max: 50,
@@ -154,21 +154,12 @@
       plotOptions: {
 
         bubble: {
-          label: {
-            enabled: true
-          },
-          dataLabels: {
-              formatter: function () {
-                return this.point.name.replace('Niederlande', 'Nieder-<br>lande');
-                //only return last word
-                //return this.name.split(" ").slice(-1);
-                //return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
-              },
-              
+          dataLabels: {              
             //	x:-20,
-            y: -5,
-  
+            y: 0,  
+            format: '{point.z}',
             allowOverlap: true,
+            inside: true,
             //padding: 50,
             //borderRadius:100,
             //overflow: "none",
