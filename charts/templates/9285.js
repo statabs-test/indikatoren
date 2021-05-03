@@ -3,7 +3,8 @@
   "xAxis": {
     tickInterval: 1,
     labels:{
-        step: 5
+        step: 10,
+     
     },
 
   },

@@ -50,7 +50,7 @@ color: '#CFD1D1'
       to: 2011
     },]*/
 
-     plotBands: [{
+    /* plotBands: [{
       color: 'rgba(200,200,200,0.1)',
       from: 1924,
       to: 1955
@@ -76,7 +76,7 @@ color: '#CFD1D1'
       to: 1992
     },
     {
-      color: 'rgba(200,200,200,0.1)',
+      color: 'rgba(200,200,200,0.81)',
       from: 1992,
       to: 2011
     },
@@ -84,7 +84,7 @@ color: '#CFD1D1'
       color: 'rgba(200,200,200,0.2)',
       from: 2011,
       to: 2020
-    },]
+    },]*/
   },
   "yAxis": {
     "min": 0, 
@@ -108,13 +108,6 @@ color: '#CFD1D1'
     	"color": "#3c3c3c", /* schwarz */
     	"legendIndex": 1,
         },
-        {
-          "color": "#3c3c3c", /* schwarz */
-          showInLegend: false,
-          marker: {radius: 2,
-            enabled: true
-        }
-            },
             {
               "color": "#3c3c3c", /* schwarz */
               showInLegend: false,
