@@ -843,10 +843,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Verletzte und Verkehrstote seit 1924"
+    "text": "Anzahl Verletzte und Verkehrstote"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

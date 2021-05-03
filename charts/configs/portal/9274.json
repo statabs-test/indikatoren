@@ -2817,10 +2817,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Strassenverkehrsunfälle seit 1930"
+    "text": "Anzahl Strassenverkehrsunfälle"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
