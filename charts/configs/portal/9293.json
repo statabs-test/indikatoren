@@ -1,0 +1,345 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "x": 1,
+          "y": 4,
+          "z": 12,
+          "name": "PKW",
+          "color": "rgb(176, 0, 0)"
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "z": 25,
+          "name": "PKW",
+          "color": "rgb(176, 0, 0)"
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 59,
+          "name": "PKW",
+          "color": "rgb(176, 0, 0)"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 2,
+          "name": "PKW",
+          "color": "rgb(176, 0, 0)"
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "z": 5,
+          "name": "Motorrad",
+          "color": "rgb(43, 0, 153)"
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "z": 13,
+          "name": "Motorrad",
+          "color": "rgb(43, 0, 153)"
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 30,
+          "name": "Motorrad",
+          "color": "rgb(43, 0, 153)"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": null,
+          "name": "Motorrad",
+          "color": "rgb(43, 0, 153)"
+        },
+        {
+          "x": 3,
+          "y": 4,
+          "z": null,
+          "name": "Velo",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "z": 22,
+          "name": "Velo",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "z": 103,
+          "name": "Velo",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "z": 1,
+          "name": "Velo",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "z": null,
+          "name": "Fussgänger",
+          "color": "rgb(250, 189, 36)"
+        },
+        {
+          "x": 4,
+          "y": 3,
+          "z": 4,
+          "name": "Fussgänger",
+          "color": "rgb(250, 189, 36)"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "z": 23,
+          "name": "Fussgänger",
+          "color": "rgb(250, 189, 36)"
+        },
+        {
+          "x": 4,
+          "y": 1,
+          "z": 3,
+          "name": "Fussgänger",
+          "color": "rgb(250, 189, 36)"
+        }
+      ],
+      "name": "Verkehrsmittel"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+            var chart = this;
+            chart.series.forEach(function (series) {
+              series.points.forEach(function (point) {
+                var x = 0, y = 0;
+                switch (point.name) {
+                  case 'Schweiz': case 'Schweiz': x = 0; y = -3; break; //ent-kommentieren falls gewünscht
+                  case 'DE': case 'Deutschland': x = 0; y = -3; break;
+                  case 'US': case 'USA': x = 30; y = 50; break;
+                  case 'GB': case 'UK': x = 25; y = 35; break;
+                  case 'FR': case 'Frankreich': x = 15; y = -3; break;
+                  case 'IT': case 'Italien': x = 25; y = 10; break;
+                  case 'ES': case 'Spanien': x = -30; y = 15; break;
+                  case 'NL': case 'Niederlande': x = -15; y = -10; break;
+                  case 'IN': case 'Indien': x = -15; y = -5; break;
+                  case 'CN': case 'VR China': x = 0; y = 35; break;
+  
+                }
+                point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
+              });
+            });
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "bubble",
+    "marginRight": 16,
+    "renderTo": "container-9293"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "An Strassenverkehrsunfällen beteiligte Objekte nach Unfallort"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      },
+      "format": "{value}"
+    },
+    "min": 0,
+    "categories": [
+      "",
+      "Anderer Ort",
+      "Nebenstrasse",
+      "Hauptstrasse",
+      "Autobahn",
+      ""
+    ],
+    "useHTML": true,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 1
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 2
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 3
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 4
+      }
+    ]
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0,
+    "title": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      }
+    },
+    "tickLength": 0,
+    "categories": [
+      "nicht angezeigt",
+      "PKW",
+      "Motorrad",
+      "Velo",
+      "Passanten"
+    ],
+    "gridLineWidth": 0,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 1
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 2
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 3
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 4
+      }
+    ]
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "black",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-5"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "useHTML": false,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAnzahl Verkehrsunfälle:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E",
+    "footerFormat": "\u003C\u002Ftable\u003E",
+    "followPointer": true
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "fillOpacity": 1
+      }
+    },
+    "bubble": {
+      "label": {
+        "enabled": true
+      },
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "black",
+          "fontWeight": "normal",
+          "textShadow": "none"
+        },
+        "formatter": function(){
+                        return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
+                    },
+        "inside": true,
+        "y": 0,
+        "padding": 0,
+        "overflow": false,
+        "crop": false,
+        "enabled": true,
+        "format": "{point.z}",
+        "allowOverlap": true
+      }
+    }
+  },
+  "exporting": {
+    "filename": "9293"
+  }
+}
