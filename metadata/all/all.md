@@ -2025,7 +2025,7 @@ id | visible | visibleInPortal | indikatorenset
 9286 | true | true | 
 9287 | true | true | 
 9288 | true | true | 
-9293 | true | true | 
+9293 | true | false | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

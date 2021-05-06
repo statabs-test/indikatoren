@@ -263,7 +263,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "im Mittel der Jahre 1930 bis 1940",
+    "text": "Basel-Stadt, im Mittel der Jahre 1930 bis 1940",
     "align": "left"
   },
   "yAxis": {
@@ -418,7 +418,7 @@
   "tooltip": {
     "useHTML": true,
     "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAnzahl an Verkehrsunfällen beteiligte {point.name}:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 10px\"\u003E\u003Cbr\u002F\u003E(Pro Unfall sind Mehrfachnennungen möglich)\u003C\u002Fspan\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAn Verkehrsunfällen beteiligte {point.name}:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 10px\"\u003E\u003Cbr\u002F\u003E(Pro Unfall sind Mehrfachnennungen möglich)\u003C\u002Fspan\u003E",
     "footerFormat": "\u003C\u002Ftable\u003E",
     "followPointer": true
   },

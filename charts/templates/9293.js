@@ -31,7 +31,7 @@
         useHTML: true,
         
         pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-          '<span>Anzahl an Verkehrsunfällen beteiligte {point.name}:<b>  {point.z}</b></span>' + 
+          '<span>An Verkehrsunfällen beteiligte {point.name}:<b>  {point.z}</b></span>' + 
           '<span style="font-size: 10px"><br/>(Pro Unfall sind Mehrfachnennungen möglich)</span>'
       },
       data: {
