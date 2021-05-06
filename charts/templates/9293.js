@@ -2,6 +2,7 @@
     return {
       chart: {
         marginLeft: 10,
+        marginTop: 85,
         //width: 665,
         events: {
           load: function () {
@@ -20,16 +21,18 @@
         }
       },
       series: [
+        
         {
+        
         }
       ],
       
       tooltip: {
-        useHTML: false,
+        useHTML: true,
         
         pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
           '<span>Anzahl an Verkehrsunfällen beteiligte {point.name}:<b>  {point.z}</b></span>' + 
-          '<span style="font-size: 6px"><br/>Mehrfachnennungen sind möglich.</span>'
+          '<span style="font-size: 10px"><br/>(Pro Unfall sind Mehrfachnennungen möglich)</span>'
       },
       data: {
         seriesMapping: [
@@ -52,18 +55,7 @@
                 case 'Trams': val = 'rgb(68, 171, 43)'; break;
                 case 'Fuhrwerke': val = 'rgb(8, 161, 217)'; break;
                 case 'Passanten': val = 'rgb(255, 128, 40)'; break;
-                
-  
-                /*case 'CH': val = 'rgb(176, 0, 0)'; break;
-                case 'DE': val = 'rgb(255, 128, 40)'; break;
-                case 'US': val = 'rgb(115, 186, 124)'; break;
-                case 'GB': val = 'rgb(180, 117, 171)'; break;
-                case 'FR': val = 'rgb(8, 161, 217)'; break;
-                case 'IT': val = 'rgb(131, 82, 46)'; break;
-                case 'ES': val = 'rgb(255, 232, 70)'; break;
-                case 'NL': val = 'rgb(60, 60, 60)'; break;
-                case 'CN': val = 'rgb(103, 39, 115)'; break;
-                case 'IN': val = 'rgb(0, 122, 47)'; break;*/
+              
   
   
                 //default: val = 'black';
@@ -169,6 +161,10 @@
       plotOptions: {
 
         bubble: {
+          marker: {
+            lineWidth: 0.5,
+            lineColor: "white" // inherit from series
+        },
           dataLabels: {              
             //	x:-20,
             y: 0,  

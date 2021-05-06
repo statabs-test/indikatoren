@@ -4,115 +4,213 @@
       "data": [
         {
           "x": 1,
+          "y": 5,
+          "z": 320,
+          "name": "Autos",
+          "color": "rgb(176, 0, 0)"
+        },
+        {
+          "x": 1,
           "y": 4,
-          "z": 12,
-          "name": "PKW",
+          "z": 118,
+          "name": "Autos",
           "color": "rgb(176, 0, 0)"
         },
         {
           "x": 1,
           "y": 3,
-          "z": 25,
-          "name": "PKW",
+          "z": 57,
+          "name": "Autos",
           "color": "rgb(176, 0, 0)"
         },
         {
           "x": 1,
           "y": 2,
-          "z": 59,
-          "name": "PKW",
+          "z": 16,
+          "name": "Autos",
           "color": "rgb(176, 0, 0)"
         },
         {
           "x": 1,
           "y": 1,
-          "z": 2,
-          "name": "PKW",
+          "z": 277,
+          "name": "Autos",
           "color": "rgb(176, 0, 0)"
         },
         {
           "x": 2,
+          "y": 5,
+          "z": 56,
+          "name": "Motorräder",
+          "color": "rgb(43, 0, 153)"
+        },
+        {
+          "x": 2,
           "y": 4,
+          "z": 20,
+          "name": "Motorräder",
+          "color": "rgb(43, 0, 153)"
+        },
+        {
+          "x": 2,
+          "y": 3,
           "z": 5,
-          "name": "Motorrad",
-          "color": "rgb(43, 0, 153)"
-        },
-        {
-          "x": 2,
-          "y": 3,
-          "z": 13,
-          "name": "Motorrad",
+          "name": "Motorräder",
           "color": "rgb(43, 0, 153)"
         },
         {
           "x": 2,
           "y": 2,
-          "z": 30,
-          "name": "Motorrad",
+          "z": 2,
+          "name": "Motorräder",
           "color": "rgb(43, 0, 153)"
         },
         {
           "x": 2,
           "y": 1,
-          "z": null,
-          "name": "Motorrad",
+          "z": 35,
+          "name": "Motorräder",
           "color": "rgb(43, 0, 153)"
         },
         {
           "x": 3,
+          "y": 5,
+          "z": 168,
+          "name": "Velos",
+          "color": "rgb(250, 189, 36)"
+        },
+        {
+          "x": 3,
           "y": 4,
-          "z": null,
-          "name": "Velo",
-          "color": "rgb(8, 161, 217)"
+          "z": 79,
+          "name": "Velos",
+          "color": "rgb(250, 189, 36)"
         },
         {
           "x": 3,
           "y": 3,
-          "z": 22,
-          "name": "Velo",
-          "color": "rgb(8, 161, 217)"
+          "z": 29,
+          "name": "Velos",
+          "color": "rgb(250, 189, 36)"
         },
         {
           "x": 3,
           "y": 2,
-          "z": 103,
-          "name": "Velo",
-          "color": "rgb(8, 161, 217)"
+          "z": 18,
+          "name": "Velos",
+          "color": "rgb(250, 189, 36)"
         },
         {
           "x": 3,
           "y": 1,
-          "z": 1,
-          "name": "Velo",
-          "color": "rgb(8, 161, 217)"
-        },
-        {
-          "x": 4,
-          "y": 4,
-          "z": null,
-          "name": "Fussgänger",
+          "z": 186,
+          "name": "Velos",
           "color": "rgb(250, 189, 36)"
         },
         {
           "x": 4,
+          "y": 5,
+          "z": 46,
+          "name": "Trams",
+          "color": "rgb(68, 171, 43)"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "z": 14,
+          "name": "Trams",
+          "color": "rgb(68, 171, 43)"
+        },
+        {
+          "x": 4,
           "y": 3,
+          "z": 12,
+          "name": "Trams",
+          "color": "rgb(68, 171, 43)"
+        },
+        {
+          "x": 4,
+          "y": 2,
           "z": 4,
-          "name": "Fussgänger",
-          "color": "rgb(250, 189, 36)"
-        },
-        {
-          "x": 4,
-          "y": 2,
-          "z": 23,
-          "name": "Fussgänger",
-          "color": "rgb(250, 189, 36)"
+          "name": "Trams",
+          "color": "rgb(68, 171, 43)"
         },
         {
           "x": 4,
           "y": 1,
+          "z": 49,
+          "name": "Trams",
+          "color": "rgb(68, 171, 43)"
+        },
+        {
+          "x": 5,
+          "y": 5,
+          "z": 12,
+          "name": "Fuhrwerke",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 5,
+          "y": 4,
+          "z": 6,
+          "name": "Fuhrwerke",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 5,
+          "y": 3,
           "z": 3,
-          "name": "Fussgänger",
-          "color": "rgb(250, 189, 36)"
+          "name": "Fuhrwerke",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "z": 2,
+          "name": "Fuhrwerke",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 5,
+          "y": 1,
+          "z": 24,
+          "name": "Fuhrwerke",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 6,
+          "y": 5,
+          "z": 38,
+          "name": "Passanten",
+          "color": "rgb(255, 128, 40)"
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "z": 19,
+          "name": "Passanten",
+          "color": "rgb(255, 128, 40)"
+        },
+        {
+          "x": 6,
+          "y": 3,
+          "z": 18,
+          "name": "Passanten",
+          "color": "rgb(255, 128, 40)"
+        },
+        {
+          "x": 6,
+          "y": 2,
+          "z": 4,
+          "name": "Passanten",
+          "color": "rgb(255, 128, 40)"
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "z": 89,
+          "name": "Passanten",
+          "color": "rgb(255, 128, 40)"
         }
       ],
       "name": "Verkehrsmittel"
@@ -126,16 +224,7 @@
               series.points.forEach(function (point) {
                 var x = 0, y = 0;
                 switch (point.name) {
-                  case 'Schweiz': case 'Schweiz': x = 0; y = -3; break; //ent-kommentieren falls gewünscht
-                  case 'DE': case 'Deutschland': x = 0; y = -3; break;
-                  case 'US': case 'USA': x = 30; y = 50; break;
-                  case 'GB': case 'UK': x = 25; y = 35; break;
-                  case 'FR': case 'Frankreich': x = 15; y = -3; break;
-                  case 'IT': case 'Italien': x = 25; y = 10; break;
-                  case 'ES': case 'Spanien': x = -30; y = 15; break;
-                  case 'NL': case 'Niederlande': x = -15; y = -10; break;
-                  case 'IN': case 'Indien': x = -15; y = -5; break;
-                  case 'CN': case 'VR China': x = 0; y = 35; break;
+                  
   
                 }
                 point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
@@ -153,7 +242,8 @@
     },
     "zoomType": "xy",
     "type": "bubble",
-    "marginRight": 16,
+    "marginLeft": 10,
+    "marginTop": 85,
     "renderTo": "container-9293"
   },
   "title": {
@@ -173,7 +263,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "im Mittel der Jahre 1930 bis 1940",
     "align": "left"
   },
   "yAxis": {
@@ -195,12 +285,14 @@
       "format": "{value}"
     },
     "min": 0,
+    "opposite": true,
     "categories": [
       "",
       "Anderer Ort",
-      "Nebenstrasse",
-      "Hauptstrasse",
-      "Autobahn",
+      "Brücke",
+      "Platz",
+      "Gabelung",
+      "Kreuzung",
       ""
     ],
     "useHTML": true,
@@ -228,6 +320,12 @@
         "dashStyle": "line",
         "width": 1,
         "value": 4
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 5
       }
     ]
   },
@@ -247,12 +345,16 @@
       }
     },
     "tickLength": 0,
+    "opposite": true,
     "categories": [
-      "nicht angezeigt",
-      "PKW",
+      "",
+      "Auto",
       "Motorrad",
       "Velo",
-      "Passanten"
+      "Tram",
+      "Fuhrwerk",
+      "Passant",
+      ""
     ],
     "gridLineWidth": 0,
     "plotLines": [
@@ -279,6 +381,18 @@
         "dashStyle": "line",
         "width": 1,
         "value": 4
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 5
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 6
       }
     ]
   },
@@ -302,9 +416,9 @@
     "symbolRadius": 0
   },
   "tooltip": {
-    "useHTML": false,
+    "useHTML": true,
     "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAnzahl Verkehrsunfälle:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAnzahl an Verkehrsunfällen beteiligte {point.name}:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 10px\"\u003E\u003Cbr\u002F\u003E(Pro Unfall sind Mehrfachnennungen möglich)\u003C\u002Fspan\u003E",
     "footerFormat": "\u003C\u002Ftable\u003E",
     "followPointer": true
   },
@@ -321,9 +435,10 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
-          "color": "black",
+          "color": "white",
           "fontWeight": "normal",
-          "textShadow": "none"
+          "textShadow": "none",
+          "textOutline": false
         },
         "formatter": function(){
                         return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
@@ -336,6 +451,10 @@
         "enabled": true,
         "format": "{point.z}",
         "allowOverlap": true
+      },
+      "marker": {
+        "lineWidth": 0.5,
+        "lineColor": "white"
       }
     }
   },
