@@ -83,6 +83,10 @@
         [
           2019,
           643
+        ],
+        [
+          2020,
+          582
         ]
       ],
       "name": "Bezüger Messe"
@@ -170,6 +174,10 @@
         [
           2019,
           29
+        ],
+        [
+          2020,
+          12
         ]
       ],
       "name": "Bezüger Erlenmatt"
@@ -257,6 +265,10 @@
         [
           2019,
           13.514081547
+        ],
+        [
+          2020,
+          12.398806988
         ]
       ],
       "name": "Sozialhilfequote Messe"
@@ -344,6 +356,10 @@
         [
           2019,
           1.0416666667
+        ],
+        [
+          2020,
+          0.406504065
         ]
       ],
       "name": "Sozialhilfequote Erlenmatt"
@@ -431,6 +447,10 @@
         [
           2019,
           6.9843180489
+        ],
+        [
+          2020,
+          6.7353491359
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -440,7 +460,13 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -455,7 +481,8 @@
           var title = this.legend.title.translate(-140, 40);
         }
     },
-    "renderTo": "container-7694"
+    "renderTo": "container-7694",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {
@@ -497,10 +524,16 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "step": 2
+      }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "yAxis": [
     {
@@ -610,6 +643,6 @@
 			}
   },
   "exporting": {
-    "filename": 7694
+    "filename": "7694"
   }
 }

@@ -50,7 +50,13 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 25,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -75,8 +81,8 @@
 					}
 				}
     },
-    "marginRight": 25,
-    "renderTo": "container-6979"
+    "renderTo": "container-6979",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {

@@ -110,7 +110,13 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -135,7 +141,8 @@
 					}
 				}
     },
-    "renderTo": "container-8062"
+    "renderTo": "container-8062",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {
@@ -273,6 +280,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8062
+    "filename": "8062"
   }
 }

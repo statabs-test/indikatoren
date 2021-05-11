@@ -440,7 +440,13 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -455,7 +461,8 @@
           var title = this.legend.title.translate(-140, 40);
         }
     },
-    "renderTo": "container-8075"
+    "renderTo": "container-8075",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {
@@ -612,6 +619,6 @@
 			}
   },
   "exporting": {
-    "filename": 8075
+    "filename": "8075"
   }
 }

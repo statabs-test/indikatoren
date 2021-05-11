@@ -1233,14 +1233,19 @@ var indikatorensetData = [
 		"id": 7693
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7932"
+		],
+		"template": "line001",
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.13.3.07694",
 		"kuerzelKunde": "5.04",
 		"description": "Sozialhilfebezüger und -quote",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
@@ -1250,16 +1255,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 beträgt die Sozialhilfequote im Bezirk Messe 13,5%. 643 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,0% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 29.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "line001",
+		"lesehilfe": "2020 beträgt die Sozialhilfequote im Bezirk Messe 12,4%. 582 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,4% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 12.",
+		"erlaeuterungen": "Soziahilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"7932"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -1562,14 +1562,19 @@ var indikatorensetData = [
 		"id": 7701
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7942"
+		],
+		"template": "template001",
 		"title": "Heizsysteme nach Energieträger",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.08.1.07704",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzel": "",
 		"kuerzelKunde": "7.07",
 		"description": "Heizsysteme nach Energieträger",
-		"thema": "08 Energie",
+		"thema": "50 Befragungen",
 		"unterthema": "Verbrauch",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -1581,14 +1586,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Mit dem Ausbau des Basler Fernwärmenetzes nimmt auch in den Bezirken Messe und Erlenmatt der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeit ist der Einsatz von Heizöl rückläufig.",
 		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"7942"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"

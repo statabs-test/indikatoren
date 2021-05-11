@@ -570,14 +570,19 @@ var indikatorensetData = [
 		"id": 8253
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8525"
+		],
+		"template": "template001",
 		"title": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
 		"kuerzelKunde": "1-22",
 		"description": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -587,16 +592,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Notschlafstellen wurden 2019 von insgesamt 323 unterschiedlichen Männern und 94 Frauen genutzt. Von den Männern haben 63% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 49%. 20% aller Frauen und 22% aller Männer haben im Verlaufe des Jahres 2019 mehr als 60 Nächte in der Notschlafstelle verbracht.",
+		"lesehilfe": "Die Notschlafstellen wurden 2020 von insgesamt 359 unterschiedlichen Männern und 96 Frauen genutzt. Von den Männern haben 47% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 52%. 18% aller Frauen und 19% aller Männer haben im Verlaufe des Jahres 2020 mehr als 60 Nächte in der Notschlafstelle verbracht.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_122",
-		"parentId": null,
-		"children": [
-			"8525"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -2984,14 +2984,19 @@ var indikatorensetData = [
 		"id": 8335
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8607"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08336",
 		"kuerzelKunde": "1-14",
 		"description": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3001,16 +3006,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den 16&nbsp249 Haushalten, die Ende 2019 reine Prämienverbilligungen beziehen, handelt es sich um 9&nbsp034 rein schweizerische und 5&nbsp895 rein ausländische Haushalte. 1&nbsp320 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d.&nbsph. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Von den 16 657 Haushalten, die Ende 2020 reine Prämienverbilligungen beziehen, handelt es sich um 9 105 rein schweizerische und 6 217 rein ausländische Haushalte. 1 335 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_114",
-		"parentId": null,
-		"children": [
-			"8607"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3025,14 +3025,19 @@ var indikatorensetData = [
 		"id": 8336
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8608"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08337",
 		"kuerzelKunde": "1-15",
 		"description": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3042,16 +3047,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 beziehen 16&nbsp249 Haushalte reine Prämienverbilligungen. Mit 57% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 19% die zweitgrösste Gruppe.",
+		"lesehilfe": "Ende 2020 beziehen 16 657 Haushalte reine Prämienverbilligungen. Mit 57,5% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 18,8% die zweitgrösste Gruppe.",
 		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
-		"template": "befragungenProzent001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_115",
-		"parentId": null,
-		"children": [
-			"8608"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3066,34 +3066,32 @@ var indikatorensetData = [
 		"id": 8337
 	},
 	{
+		"parentId": 6203,
+		"children": [],
+		"template": "mappie001",
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08338",
 		"kuerzelKunde": "1-16",
 		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2021-04-26T09:04:20.2020",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2014 lag die FAMI-Quote noch bei 1,9%. Kleinhüningen weist mit 4,6% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,1%. Gegenüber 2014 ist einzig in den Wohnvierteln Altstadt Kleinbasel sowie Rosental ein Rückgang zu beobachten.",
+		"lesehilfe": "Ende 2020 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2015 lag die FAMI-Quote noch bei 2,0%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2015 ist in Bettingen sowie im Wohnviertel Hirzbrunnen mit je +0,8 Prozentpunkten zu beobachten.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_116",
-		"parentId": 6203,
-		"children": [],
-		"renderLink": [
-			"6203"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -3107,31 +3105,31 @@ var indikatorensetData = [
 		"id": 8338
 	},
 	{
+		"parentId": 6474,
+		"children": [],
+		"template": "line001",
 		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08339",
 		"kuerzelKunde": "1-17",
 		"description": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-06-22T17:18:28.2828",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2018 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
-		"template": "line001",
+		"lesehilfe": "Nach kontinuierlichem Anstieg stagniert die Familienmietzinsbeitragsquote seit 2017 bei 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2020 eine Quote von 3,6% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst seit dem Jahr 2012 zur Verfügung.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_117",
-		"parentId": 6474,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -3146,14 +3144,19 @@ var indikatorensetData = [
 		"id": 8339
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8611"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08340",
 		"kuerzelKunde": "1-18",
 		"description": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -3163,16 +3166,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 beziehen 2&nbsp287 Haushalte Familienmietzinsbeiträge. Bei 62% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 6% sind Konkubinatspaare mit Kindern.",
+		"lesehilfe": "Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Bei 60,6% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 33,5% der Haushalte aus, 5,9% sind Konkubinatspaare mit Kindern.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_118",
-		"parentId": null,
-		"children": [
-			"8611"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"

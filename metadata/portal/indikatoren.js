@@ -18415,14 +18415,19 @@ var indikatoren = [
 		"id": 6426
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6702"
+		],
+		"template": "line001",
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.13.3.6427",
 		"kuerzelKunde": "C4-2",
 		"description": "Sozialhilfequote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -18432,17 +18437,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Sozialhilfequoten weisen 2019 die Bevölkerungsgruppen aus den arabischen (58,9%) und den afrikanischen (50,9%) Ländern auf, gefolgt von jenen aus der Türkei (18,8%) und Mittel- und Südamerika (15,5%). Die Gruppe der deutschen Staatsangehörigen weist mit 2,7% die tiefste Quote auf. Gegenüber dem Vorjahr ist die Sozialhilfequote bei allen Ländergruppen ausser den «Übrigen Ländern» gesunken.",
+		"lesehilfe": "Die höchsten Sozialhilfequoten weisen 2020 die Bevölkerungsgruppen aus den arabischen (55,3%) und den afrikanischen (48,8%) Ländern auf, gefolgt von jenen aus der Türkei (17,9%) und Mittel- und Südamerika (14,5%). Die Gruppe der deutschen Staatsangehörigen weist mit 2,7% die tiefste Quote auf. Gegenüber dem Vorjahr ist die Sozialhilfequote bei allen Ländergruppen ausser der «Übrigen Ländern» gesunken.",
 		"erlaeuterungen": "Unter Sozialhilfebeziehenden sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben.<br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Die Daten der Jahre 2001 bis 2016 wurden mit der Aktualisierung des Jahres 2017 rückwirkend korrigiert.<br>Bis 2016 konnten nach Staatsangehörigkeit nur die Zahlen der Stadt Basel ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_402",
-		"parentId": null,
-		"children": [
-			"6702"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -29717,14 +29717,19 @@ var indikatoren = [
 		"id": 7693
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7932"
+		],
+		"template": "line001",
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.13.3.07694",
 		"kuerzelKunde": "5.04",
 		"description": "Sozialhilfebezüger und -quote",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
@@ -29734,17 +29739,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 beträgt die Sozialhilfequote im Bezirk Messe 13,5%. 643 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,0% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 29.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "line001",
+		"lesehilfe": "2020 beträgt die Sozialhilfequote im Bezirk Messe 12,4%. 582 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,4% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 12.",
+		"erlaeuterungen": "Soziahilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"7932"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -30054,14 +30054,19 @@ var indikatoren = [
 		"id": 7701
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7942"
+		],
+		"template": "template001",
 		"title": "Heizsysteme nach Energieträger",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.08.1.07704",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzel": "",
 		"kuerzelKunde": "7.07",
 		"description": "Heizsysteme nach Energieträger",
-		"thema": "08 Energie",
+		"thema": "50 Befragungen",
 		"unterthema": "Verbrauch",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -30073,15 +30078,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Mit dem Ausbau des Basler Fernwärmenetzes nimmt auch in den Bezirken Messe und Erlenmatt der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeit ist der Einsatz von Heizöl rückläufig.",
 		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"7942"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -34820,14 +34820,19 @@ var indikatoren = [
 		"id": 8253
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8525"
+		],
+		"template": "template001",
 		"title": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
 		"kuerzelKunde": "1-22",
 		"description": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -34837,17 +34842,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Notschlafstellen wurden 2019 von insgesamt 323 unterschiedlichen Männern und 94 Frauen genutzt. Von den Männern haben 63% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 49%. 20% aller Frauen und 22% aller Männer haben im Verlaufe des Jahres 2019 mehr als 60 Nächte in der Notschlafstelle verbracht.",
+		"lesehilfe": "Die Notschlafstellen wurden 2020 von insgesamt 359 unterschiedlichen Männern und 96 Frauen genutzt. Von den Männern haben 47% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 52%. 18% aller Frauen und 19% aller Männer haben im Verlaufe des Jahres 2020 mehr als 60 Nächte in der Notschlafstelle verbracht.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_122",
-		"parentId": null,
-		"children": [
-			"8525"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -37132,14 +37132,19 @@ var indikatoren = [
 		"id": 8335
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8607"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08336",
 		"kuerzelKunde": "1-14",
 		"description": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -37149,17 +37154,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den 16&nbsp249 Haushalten, die Ende 2019 reine Prämienverbilligungen beziehen, handelt es sich um 9&nbsp034 rein schweizerische und 5&nbsp895 rein ausländische Haushalte. 1&nbsp320 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d.&nbsph. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Von den 16 657 Haushalten, die Ende 2020 reine Prämienverbilligungen beziehen, handelt es sich um 9 105 rein schweizerische und 6 217 rein ausländische Haushalte. 1 335 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_114",
-		"parentId": null,
-		"children": [
-			"8607"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -37174,14 +37174,19 @@ var indikatoren = [
 		"id": 8336
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8608"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08337",
 		"kuerzelKunde": "1-15",
 		"description": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -37191,17 +37196,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 beziehen 16&nbsp249 Haushalte reine Prämienverbilligungen. Mit 57% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 19% die zweitgrösste Gruppe.",
+		"lesehilfe": "Ende 2020 beziehen 16 657 Haushalte reine Prämienverbilligungen. Mit 57,5% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 18,8% die zweitgrösste Gruppe.",
 		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
-		"template": "befragungenProzent001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_115",
-		"parentId": null,
-		"children": [
-			"8608"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -37216,56 +37216,19 @@ var indikatoren = [
 		"id": 8337
 	},
 	{
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.13.2.08338",
-		"kuerzelKunde": "1-16",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
+		"parentId": null,
+		"children": [
+			"8611"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.2 Existenzsicherung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Ende 2019 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2014 lag die FAMI-Quote noch bei 1,9%. Kleinhüningen weist mit 4,6% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,1%. Gegenüber 2014 ist einzig in den Wohnvierteln Altstadt Kleinbasel sowie Rosental ein Rückgang zu beobachten.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_116",
-		"parentId": 6203,
-		"children": [],
-		"renderLink": [
-			"6203"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=13_fami.fami_quote_f' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 8338,
-		"chart-id": 8338,
-		"filter": "",
-		"id": 8338
-	},
-	{
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08340",
 		"kuerzelKunde": "1-18",
 		"description": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -37275,17 +37238,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 beziehen 2&nbsp287 Haushalte Familienmietzinsbeiträge. Bei 62% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 6% sind Konkubinatspaare mit Kindern.",
+		"lesehilfe": "Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Bei 60,6% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 33,5% der Haushalte aus, 5,9% sind Konkubinatspaare mit Kindern.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_118",
-		"parentId": null,
-		"children": [
-			"8611"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"

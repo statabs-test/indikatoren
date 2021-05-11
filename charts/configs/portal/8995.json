@@ -19785,8 +19785,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1557381952416,
-    "max": 1620885952416,
+    "min": 1560247395945,
+    "max": 1623751395945,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -19799,7 +19799,13 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -19816,7 +19822,8 @@
                     //title.translate(-155, 37);
                 }
     },
-    "renderTo": "container-8995"
+    "renderTo": "container-8995",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {

@@ -455,7 +455,13 @@
     "type": "area",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -480,7 +486,8 @@
 					}
 				}
     },
-    "renderTo": "container-6217"
+    "renderTo": "container-6217",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {
@@ -611,6 +618,6 @@
   },
   "tooltip": {},
   "exporting": {
-    "filename": 6217
+    "filename": "6217"
   }
 }

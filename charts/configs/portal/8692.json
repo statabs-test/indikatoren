@@ -237,7 +237,13 @@
     "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -263,7 +269,8 @@
 				}
     },
     "inverted": false,
-    "renderTo": "container-8692"
+    "renderTo": "container-8692",
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {
@@ -413,6 +420,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8692
+    "filename": "8692"
   }
 }

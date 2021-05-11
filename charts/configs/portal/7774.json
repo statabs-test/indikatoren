@@ -78,7 +78,13 @@
     "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -104,7 +110,8 @@
 				}
     },
     "renderTo": "container-7774",
-    "marginBottom": 65
+    "marginBottom": 65,
+    "spacingBottom": 55
   },
   "plotOptions": {
     "series": {
@@ -226,6 +233,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7774
+    "filename": "7774"
   }
 }

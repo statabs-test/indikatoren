@@ -1485,7 +1485,7 @@ id | visible | visibleInPortal | indikatorenset
 8335 | true | true | CMS Kennzahlen Soziales
 8336 | true | true | CMS Kennzahlen Soziales
 8337 | true | true | CMS Kennzahlen Soziales
-8338 | true | true | CMS Kennzahlen Soziales
+8338 | true | false | CMS Kennzahlen Soziales
 8339 | true | false | CMS Kennzahlen Soziales
 8340 | true | true | CMS Kennzahlen Soziales
 8341 | true | true | CMS Kennzahlen Soziales
@@ -2019,6 +2019,7 @@ id | visible | visibleInPortal | indikatorenset
 9237 | true | false | Arbeitsmarkt (Print)
 9238 | true | false | Arbeitsmarkt (Print)
 9239 | true | false | Arbeitsmarkt (Print)
+9292 | true | false | Wohnraumentwicklung
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

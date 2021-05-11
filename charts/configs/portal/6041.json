@@ -58,7 +58,13 @@
     "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 50,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "marginRight": 20,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -84,6 +90,7 @@
 				}
     },
     "inverted": true,
+    "spacingBottom": 50,
     "marginLeft": 120,
     "renderTo": "container-6041"
   },
@@ -197,6 +204,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6041
+    "filename": "6041"
   }
 }
