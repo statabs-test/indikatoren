@@ -65,7 +65,7 @@ id | visible | visibleInPortal | indikatorenset
 4149 | true | true | Wohnraumentwicklung
 4150 | true | true | Wohnraumentwicklung
 4151 | true | true | Wohnraumentwicklung
-4152 | true | true | Wohnraumentwicklung
+4152 | true | true | Soziales
 4153 | true | true | Wohnraumentwicklung
 4154 | true | true | Wohnraumentwicklung
 4155 | true | true | Wohnraumentwicklung
@@ -1177,7 +1177,7 @@ id | visible | visibleInPortal | indikatorenset
 7588 | true | true | Leerstand
 7589 | true | true | Leerstand
 7590 | true | true | Leerstand
-7603 | true | true | 
+7603 | true | true | Soziales
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental
 7666 | true | true | Stadtteilmonitoring Rosental
@@ -2019,7 +2019,13 @@ id | visible | visibleInPortal | indikatorenset
 9237 | true | false | Arbeitsmarkt (Print)
 9238 | true | false | Arbeitsmarkt (Print)
 9239 | true | false | Arbeitsmarkt (Print)
+9289 | true | true | Soziales
+9290 | true | true | Soziales
+9291 | true | true | Soziales
 9292 | true | false | Wohnraumentwicklung
+9294 | true | false | Soziales
+9295 | true | false | Soziales
+9298 | true | false | Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
