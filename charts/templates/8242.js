@@ -45,11 +45,11 @@ whiteSpace: "nowrap"
 }
   },
   "series": [
-    {"color": "#662673", index: 9, legendIndex: 0}, /**/
-    {"color": "#B375AB", index: 8, legendIndex: 1}, /**/
-    {"color": "#FFBB58", index: 7, legendIndex: 2},
-    {"color": "#A8C3CA", index: 6, legendIndex: 3}, /**/
-    {"color": "#8A8A8A", index: 10, legendIndex: 0}
+    {"color": "#662673", index: 4, legendIndex: 0}, /**/
+    {"color": "#B375AB", index: 3, legendIndex: 0}, /**/
+    {"color": "#FFBB58", index: 2, legendIndex: 0},
+    {"color": "#A8C3CA", index: 1, legendIndex: 0}, /**/
+    {"color": "#8A8A8A", index: 0, legendIndex: 5}
     
   ],
   "chart": {    
