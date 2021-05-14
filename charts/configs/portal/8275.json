@@ -6561,9 +6561,9 @@
         }
       },
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 2) + '</b><br/>';
 					}
       },
       "data": [
@@ -7184,122 +7184,147 @@
     "inverted": false,
     "events": {
       "load": function (e) {
-	            	
+					
+					console.log(this.legend);
 
-					var legendPosition = {
+					//legend positioning
+					var tr = 2, //number of title rows
+						lht = 15, //line-height title
+						lhc = 25, //line-height circles
+						col_pos = '#FABD24', //color for positive circles
+						col_neg = '#FFDA80', //color for negative circles
+						lx = this.legend.options.x, //230, from chart.legend, see above
+						ly = this.legend.options.y, //250, from chart.legend, see above
+						lh = this.legend.legendHeight + tr * lht + 5, //background height 
+						lcw = this.legend.legendWidth + 3, //background width choropleth block
+						sox = this.legend.legendWidth + 30, //x-offset symbol block
+						lsw = this.chartWidth - lx - this.legend.legendWidth - 30; //background width symbol block
+
+
+					var lp = { //legendPosition 
 						blockChoropleth: {
-							x: 230, // Customizable
-							y: -15,  // Customizable
-							title: {
-								y: [232, 217, 202],
-								x: 245, // Customizable
-							}
+							x: lx + 15, // background x
+							y: ly - (tr * lht), //background y
+							ty: [ly - lht, ly - 2 * lht, ly - 3 * lht], //title y
+							tx: lx + 15, //title x
 						},
 						blockSymbol: {
-							x: [378,373], // Customizable
-							y: [277, 297, 317, 337], // Customizable
-							y3C: [276, 303, 330],
-							numbers: {
-								x: 0,
-								y: [267, 287, 310, 330], // Customizable
-								y3C: [267, 292, 317]
-							},
-							title: {
-								x: 0
-							}
+							x: lx + sox, //background x
+							cx: lx + sox + 13, //circles x
+							cy: [ly + 3 + lhc, ly + 3 + 2 * lhc, ly + 3 + 3 * lhc], //circles y
+							nx: lx + 230, //numbers x
+							ny: [ly + 17, ly + 17 + lhc, ly + 17 + 2 * lhc], //numbers y
+							tx: lx + sox //title x
 						}
 					};
-					
-					legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 90;
-					
-					legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
-					var i;
-					for (i = 0; i < 3; i++) {
-						legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
-					};
 
-	            	this.credits.element.onclick = function() {};
+					//pie values in legend
+	                var minValueInLegend = 5; 
+	                var maxValueInLegend = 50; 
+					var pieSizeCatConfig;
+	                
+					this.credits.element.onclick = function () { };
 
-	                var chart = this;
-	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
 					fn.defineTemplate();
-					
+
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					
+
 					//pie diameters in px
 					var maxPieDiameter = 20;
-					
+
 					//configuration of categorical pie sizes
-					var pieSizeCatConfig = 
-					[
-						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 30,0",
-							from: 0,
-							to: 29.999, 
-							diameter: 5
-						},
-						{
-							name: ' 30,0 − 59,9',
-							from: 30,
-							to: 59.999,
-							diameter: 10
-						},
-						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  60,0",
-							from: 60,							
-							to: 1000000000,
-							diameter: 20
-						}
-					];
-					
+					var pieSizeCatConfig =
+						[
+							{
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 30,0",
+								from: 0,
+								to: 29.999,
+								diameter: 5
+							},
+							{
+								name: ' 30,0 − 59,9',
+								from: 30,
+								to: 59.999,
+								diameter: 10
+							},
+							{
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  60,0",
+								from: 60,
+								to: 1000000000,
+								diameter: 20
+							}
+						];
+
 					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#FABD24' : 'FFDA80';
-	                };					
-					
+					var color = function (value) {
+						return (value >= 0) ? col_pos : col_neg;
+					};
+
 					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
 						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
 								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
-	                        tooltip: {
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
-	                            }
-	                        }
-	                    };
+							},
+							tooltip: {
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+								}
+							}
+						};
 					};
-					
+
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
-	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
+					//Add manually drawn legend
+					fn.addLegendRectangle(chart, lp.blockChoropleth.x, lp.blockChoropleth.y, lcw, lh, '#fbfbfb');
+					fn.addLegendRectangle(chart, lp.blockSymbol.x, lp.blockChoropleth.y, lsw, lh, '#fbfbfb');
 
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace("ngs", "ngs-<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
-	                
-	               	fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#FABD24');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#FABD24');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[1], undefined, false, 'right');
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#FABD24');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[2], undefined, false, 'right');
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("ngs", "ngs-<br/>"), lp.blockChoropleth.tx, lp.blockChoropleth.ty[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), lp.blockSymbol.x, lp.blockChoropleth.ty[1]);
+
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[0], 0.5 * pieSizeCatConfig[0].diameter, col_pos);
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[1], 0.5 * pieSizeCatConfig[1].diameter, col_pos);
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[2], 0.5 * pieSizeCatConfig[2].diameter, col_pos);
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, lp.blockSymbol.nx, lp.blockSymbol.ny[0], undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, lp.blockSymbol.nx, lp.blockSymbol.ny[1], undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, lp.blockSymbol.nx, lp.blockSymbol.ny[2], undefined, false, 'right');
+
+					fn.addLegendSquare(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[0], 10, col_pos);
+					//fn.addLegendSquare(chart, 565, 240, 10, col_pos);
+					fn.addLegendSquare(chart, 565, 256, 10, col_neg);
+					fn.addLegendLabel(chart, 'Zunahme', 580, 236);
+					fn.addLegendLabel(chart, 'Abnahme', 580, 252);
+
+	//wenn kontinuierliche Bubbles, d.h. nur zwei Referenzgrössen in Legende (und zu-/abnahme-Farben)
+
+
+
+	//noch anpassen
+
+
+
+	
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[0], 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[0]);
+	                fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y[1], 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[1]);
 					
-					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
-					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
-				
+					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[2], 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[2]);
+					fn.addLegendSquare(chart, lp.blockSymbol.x[1], lp.blockSymbol.y[3], 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[3])
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart, '#cccccc');
-	            }
+				}
     },
     "renderTo": "container-8275"
   },
@@ -7408,15 +7433,16 @@
     },
     "title": {
       "style": {
-        "fontWeight": " bold",
+        "fontWeight": "normal",
         "fontSize": "12px"
       },
       "text": null
     },
     "useHTML": false,
     "layout": "vertical",
+    "verticalAlign": "top",
     "x": 230,
-    "y": -15,
+    "y": 250,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
@@ -7684,7 +7710,7 @@
 									//enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
 									//enabled: (chart.userOptions.plotOptions !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false), //get setting from chart-js
 									//enabled: (chart.userOptions?.plotOptions?.pie?.dataLabels?.enabled !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false),
-									enabled: true,
+									enabled: false,
 									distance: 0,
 									padding: 2,
 									x: -10,

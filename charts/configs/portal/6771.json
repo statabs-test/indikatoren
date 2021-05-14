@@ -4142,24 +4142,24 @@
                 	//var legendTop = 280; //220
                 	//var legendLeft = 520; //365
 					//fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderungs-/Umzugssaldo'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-					fn.addLegendTitle(chart,  'Bevölkerungssaldo', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);	
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("er ", "er<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart,  'Bevölkerungssaldo', lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[1]);	
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("er ", "er<br/>"), lp.blockSymbol.title.x, lp.blockChoropleth.title.y[1]);
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-	                fn.addLegendColumnChart(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+15,  legendColumnValues.map(function(x) { return x * 0.8; }), color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
-	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 10, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(3.0, 1,","," "), color(3, 0), 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 35, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, lp.blockSymbol.x[1], lp.blockSymbol.y4S[0]+15,  legendColumnValues.map(function(x) { return x * 0.8; }), color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
+	                fn.addLegendText(chart, lp.blockSymbol.numbers.x + 10, lp.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(3.0, 1,","," "), color(3, 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart, lp.blockSymbol.numbers.x + 35, lp.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+21+5,  15, color(1, 0));
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0]+21+5,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1]+14+5,  15, color(-1, 0));
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1]+14+5,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      lp.blockSymbol.x[1], lp.blockSymbol.y4S[0]+21+5,  15, color(1, 0));
+					fn.addLegendText(chart,        lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y4S[0]+21+5,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      lp.blockSymbol.x[1], lp.blockSymbol.y4S[1]+14+5,  15, color(-1, 0));
+					fn.addLegendText(chart,        lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y4S[1]+14+5,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[2]+7,  15, color(1, 1));
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[2]+7,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[3],  15, color(-1, 1));
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[3], 'Umzug negativ');
+					fn.addLegendSquare(chart,      lp.blockSymbol.x[1], lp.blockSymbol.y4S[2]+7,  15, color(1, 1));
+					fn.addLegendText(chart,        lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y4S[2]+7,  'Umzug positiv');
+					fn.addLegendSquare(chart,      lp.blockSymbol.x[1], lp.blockSymbol.y4S[3],  15, color(-1, 1));
+					fn.addLegendText(chart,        lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y4S[3], 'Umzug negativ');
 					
-					//fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					//fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), lp.blockSymbol.title.x, lp.blockChoropleth.title.y[1]);
 
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');

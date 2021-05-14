@@ -4,7 +4,7 @@
 	global $
 */
 
-var legendPosition = {
+var lp = { //legendPosition
 	blockChoropleth: {
 		x: 230, // Customizable
 		y: -15,  // Customizable
@@ -28,12 +28,12 @@ var legendPosition = {
 	}
 };
 
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 90;
+lp.blockSymbol.numbers.x = lp.blockSymbol.x[0] + 90;
 
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+lp.blockSymbol.title.x = lp.blockSymbol.x[0] - 10;
 var i;
 for (i = 0; i < 3; i++) {
-	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
+	lp.blockChoropleth.title.y[i] -= lp.blockChoropleth.y;
 };
 
 (function(){

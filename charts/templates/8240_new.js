@@ -176,7 +176,7 @@
 	return mergeDeep(target, ...sources);
   }
 					//define legends' positions
-					var initLegendPosition = function (chart, xd) {
+					var initlp = function (chart, xd) {
 						var lx = chart.legend.options.x,
 							ly = chart.legend.options.y,
 							xd = (xd ? xd : 140);
@@ -200,13 +200,13 @@
 
 
 						//merge with optional user settings in legend.lp
-						let legendPosition = (chart.legend.options.lp ? mergeDeep(init, chart.legend.options.lp) : init);
+						let lp = (chart.legend.options.lp ? mergeDeep(init, chart.legend.options.lp) : init);
 						
-//						console.log(legendPosition);
-						return legendPosition;
+//						console.log(lp);
+						return lp;
 
 					};
-					var lp = initLegendPosition(chart, 120);
+					var lp = initlp(chart, 120);
 					//console.log(lp);
 
 					fn.addLegendRectangle(chart, lp.title.x[0], lp.title.y[0], 230, 140, '#fbfbfb'); //test with e.g. #ffaaaa

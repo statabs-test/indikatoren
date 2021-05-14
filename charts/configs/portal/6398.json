@@ -7597,7 +7597,7 @@
 									//enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
 									//enabled: (chart.userOptions.plotOptions !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false), //get setting from chart-js
 									//enabled: (chart.userOptions?.plotOptions?.pie?.dataLabels?.enabled !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false),
-									enabled: true,
+									enabled: false,
 									distance: 0,
 									padding: 2,
 									x: -10,

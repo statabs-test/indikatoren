@@ -4,7 +4,7 @@
 	global $
 */
 
-var legendPosition = {
+var lp = { //legendPosition
 	blockChoropleth: {
 		x: 518, // Customizable
 		y: -15,  // Customizable
@@ -30,12 +30,12 @@ var legendPosition = {
 	}
 };
 
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+lp.blockSymbol.numbers.x = lp.blockSymbol.x[0] + 15;
 
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+lp.blockSymbol.title.x = lp.blockSymbol.x[0] - 10;
 var i;
 for (i = 0; i < 3; i++) {
-	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
+	lp.blockChoropleth.title.y[i] -= lp.blockChoropleth.y;
 };
 
 (function(){
@@ -56,8 +56,8 @@ for (i = 0; i < 3; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockChoropleth.x,
-			"y": legendPosition.blockChoropleth.y,
+			"x": lp.blockChoropleth.x,
+			"y": lp.blockChoropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: 
@@ -201,12 +201,12 @@ for (i = 0; i < 3; i++) {
                 	var legendTop = 190;
                 	var legendLeft = 350;;
                 	
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#B00000");
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0],  'Schweiz');
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "blue");
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1],  'Ausland');
-					fn.addLegendTitle(chart, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-					fn.addLegendTitle(chart, 'Anteil Zugezogene <br> nach Zuzugsland', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendSquare(chart,      lp.blockSymbol.x[1], lp.blockSymbol.y4S[0],  15, "#B00000");
+					fn.addLegendText(chart,        lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y4S[0],  'Schweiz');
+					fn.addLegendSquare(chart,      lp.blockSymbol.x[1], lp.blockSymbol.y4S[1],  15, "blue");
+					fn.addLegendText(chart,        lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y4S[1],  'Ausland');
+					fn.addLegendTitle(chart, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>', lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, 'Anteil Zugezogene <br> nach Zuzugsland', lp.blockSymbol.title.x, lp.blockChoropleth.title.y[1]);
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}

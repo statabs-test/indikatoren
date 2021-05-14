@@ -4,7 +4,7 @@
 	global $
 */
 
-var legendPosition = {
+var lp = { //legendPosition
 	blockChoropleth: {
 		x: 518, // Customizable
 		y: -15,  // Customizable
@@ -28,12 +28,12 @@ var legendPosition = {
 	}
 };
 
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+lp.blockSymbol.numbers.x = lp.blockSymbol.x[0] + 15;
 
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+lp.blockSymbol.title.x = lp.blockSymbol.x[0] - 10;
 var i;
 for (i = 0; i < 2; i++) {
-	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
+	lp.blockChoropleth.title.y[i] -= lp.blockChoropleth.y;
 };
 
 (function(){
@@ -48,8 +48,8 @@ for (i = 0; i < 2; i++) {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockChoropleth.x,
-			"y": legendPosition.blockChoropleth.y,
+			"x": lp.blockChoropleth.x,
+			"y": lp.blockChoropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -188,15 +188,15 @@ for (i = 0; i < 2; i++) {
 	                //Add manually drawn legend
 	                //fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                //fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[1]);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), lp.blockSymbol.title.x, lp.blockChoropleth.title.y[1]);
 	                
-					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[1], undefined, false, 'right');
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[2], undefined, false, 'right');
+					fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y3C[0], undefined, false, 'right');
+	                fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y3C[1], undefined, false, 'right');
+	                fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y3C[2], undefined, false, 'right');
 				
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');

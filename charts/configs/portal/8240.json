@@ -7185,7 +7185,7 @@
     "events": {
       "load": function (e) {
 	            	
-					var legendPosition = {
+					var lp = { //legendPosition
 						blockChoropleth: {
 							x: 230, // Customizable
 							y: -15,  // Customizable
@@ -7258,18 +7258,18 @@
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[2]);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[2]);
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), lp.blockSymbol.title.x, lp.blockChoropleth.title.y[1]);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
 					//fn.addLegendLabel(chart, 'Abnahme', 382, 289)
 
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[0], 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[0]);
-					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[1], 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[1]);
+	                fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y[0], 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[0]);
+					fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y[1], 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[1]);
 
 					/*var shiftDown = 12;
 
@@ -7667,7 +7667,7 @@
 									//enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
 									//enabled: (chart.userOptions.plotOptions !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false), //get setting from chart-js
 									//enabled: (chart.userOptions?.plotOptions?.pie?.dataLabels?.enabled !== undefined ? chart.userOptions.plotOptions.pie.dataLabels.enabled : false),
-									enabled: true,
+									enabled: false,
 									distance: 0,
 									padding: 2,
 									x: -10,
