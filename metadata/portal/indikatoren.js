@@ -39392,7 +39392,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wendete eine Person im Kanton Basel-Stadt durchschnittlich 21,1 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 25,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 16,1 Stunden.",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 600 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
