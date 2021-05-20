@@ -200,7 +200,7 @@ var indikatorensetData = [
 	{
 		"parentId": 5066,
 		"children": [],
-		"template": "line001",
+		"template": "template001",
 		"title": "Beziehende von Prämienverbilligungen",
 		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
 		"kennzahlenset": "Soziales",
