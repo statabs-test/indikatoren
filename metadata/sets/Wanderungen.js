@@ -373,14 +373,19 @@ var indikatorensetData = [
 		"id": 6022
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6772"
+		],
+		"template": "template001",
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2019",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
 		"kuerzel": "I.01.5.6023",
 		"kuerzelKunde": "2-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -390,16 +395,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2019 den grössten Zuzugsüberschuss gegenüber Deutschland (+851). Den zweiten Rang belegte Italien (+222), den dritten belegte das Vereinigte Königreich (+213). Danach folgten die Vereinigten Staaten  (+119) und Frankreich (+52).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2020 den grössten Zuzugsüberschuss gegenüber Deutschland (+746). Den zweiten und dritten Rang belegten das Vereinigte Königreich (+262) und Italien (+261). Danach folgten die Vereinigten Staaten  (+169) und Frankreich (+98).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6772"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

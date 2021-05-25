@@ -2670,33 +2670,32 @@
 	{
 		"parentId": null,
 		"children": [
-			"9292",
-			"9297"
+			"9292"
 		],
 		"template": "template001",
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.2.4152",
-		"kuerzelKunde": "4.1.A",
+		"kuerzelKunde": "1-07",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:15.1515",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.1 Unterstützung Benachteiligter",
+		"aktualisierungsdatum": "2021-05-21T08:06:51.5151",
+		"stufe1": "Kernindikatoren",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist 2020 nach zuvor kontinuierlichem Anstieg erstmals zurückgegangen. Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_01_00_00_00_000",
+		"orderKey": "01_00_00_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -11675,14 +11674,19 @@
 		"id": 6022
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6772"
+		],
+		"template": "template001",
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2019",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
 		"kuerzel": "I.01.5.6023",
 		"kuerzelKunde": "2-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11692,17 +11696,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2019 den grössten Zuzugsüberschuss gegenüber Deutschland (+851). Den zweiten Rang belegte Italien (+222), den dritten belegte das Vereinigte Königreich (+213). Danach folgten die Vereinigten Staaten  (+119) und Frankreich (+52).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2020 den grössten Zuzugsüberschuss gegenüber Deutschland (+746). Den zweiten und dritten Rang belegten das Vereinigte Königreich (+262) und Italien (+261). Danach folgten die Vereinigten Staaten  (+169) und Frankreich (+98).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6772"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -28460,19 +28459,19 @@
 		"parentId": null,
 		"children": [],
 		"template": "template001",
-		"title": "Ausgaben für bedarfsabhängige Sozialleistungen",
+		"title": "Übersicht Sozialleistungen: Ausgaben pro Leistung",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.2.07603",
-		"kuerzelKunde": "",
-		"description": "Ausgaben für bedarfsabhängige Sozialleistungen",
+		"kuerzelKunde": "1-01",
+		"description": "Übersicht Sozialleistungen: Ausgaben pro Leistung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2020-06-22T18:23:17.1717",
-		"stufe1": "",
+		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -28482,7 +28481,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_001",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialberichterstattung"
@@ -41841,7 +41840,7 @@
 		"subtitle": "",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.3.09289",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-03",
 		"description": "Sozialhilfequote nach Gemeinde",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
@@ -41849,7 +41848,7 @@
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "2021-05-05T10:01:47.4747",
-		"stufe1": "",
+		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -41859,7 +41858,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_003",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -41877,29 +41876,29 @@
 		"parentId": null,
 		"children": [],
 		"template": "line001",
-		"title": "Personen/Fälle pro Leistung im Kanton Basel-Stadt",
-		"subtitle": "",
+		"title": "Übersicht Sozialleistungen: Personen/Fälle pro Leistung",
+		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.2.09290",
-		"kuerzelKunde": "",
-		"description": "Personen/Fälle pro Leistung im Kanton Basel-Stadt",
+		"kuerzelKunde": "1-02",
+		"description": "Übersicht Sozialleistungen: Personen/Fälle pro Leistung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2021-05-05T15:39:32.3232",
-		"stufe1": "",
+		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von reinen Prämienverbilligungen (ohne Beziehende von Ergänzungsleistungen und Sozialhilfe) profitieren Ende 2020 insgesamt 30 133 Personen. 10 943 Personen erhalten im Verlaufe des Jahres 2020 Sozialhilfe.",
-		"erlaeuterungen": "Bei folgenden Leistungen handelt es sich um die Anzahl Personen per Jahresende: Prämienverbilligungen, Ergänzungsleistungen (EL) und Beihilfen zu AHV/IV, Behindertenhilfe, stationäre Jugendhilfe sowie Arbeitslosenhilfe. Bei der Sozialhilfe handelt es sich mit der kumulierten Jahreszahl um alle Personen, die im Verlaufe eines Jahres mindestens einmal mit Dossierttyp «Sozialhilfe» finanzielle Unterstützung erhalten haben. Die Tagesbetreuung weist die Anzahl subventionierter Kinder per 31. Oktober aus.  Die Anzahl Stipendien beschreibt die im jeweiligen Jahr bewilligte Anzahl an Stipendien. Bei  den Familienmietzinsbeiträgen und der Alimentenbevorschussung handelt es sich um die Anzahl Fälle Ende Jahr.",
+		"erlaeuterungen": "Bei folgenden Leistungen handelt es sich um die Anzahl Personen per Jahresende: Prämienverbilligungen, Ergänzungsleistungen (EL) und Beihilfen zu AHV/IV, Behindertenhilfe, stationäre Jugendhilfe sowie Arbeitslosenhilfe. Bei der Sozialhilfe handelt es sich bei der kumulierten Jahreszahl um alle Personen, die im Verlaufe eines Jahres mindestens einmal mit Dossierttyp «Sozialhilfe» finanzielle Unterstützung erhalten haben. Die Tagesbetreuung weist die Anzahl subventionierter Kinder per 31. Oktober aus.  Die Anzahl Stipendien beschreibt die im jeweiligen Jahr bewilligte Anzahl an Stipendien. Bei den Familienmietzinsbeiträgen und der Alimentenbevorschussung handelt es sich um die Anzahl Fälle Ende Jahr.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_002",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialberichterstattung"
@@ -41918,10 +41917,10 @@
 		"children": [],
 		"template": "template001",
 		"title": "Tagesbetreuung - Anzahl subventionierte Kinder",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.2.09291",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "1-08",
 		"description": "Tagesbetreuung - Anzahl subventionierte Kinder",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -41929,7 +41928,7 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2021-05-05T15:39:32.3232",
-		"stufe1": "",
+		"stufe1": "Kernindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -41939,7 +41938,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_008",
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"

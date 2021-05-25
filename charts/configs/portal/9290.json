@@ -370,10 +370,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Personen\u002FFälle pro Leistung im Kanton Basel-Stadt"
+    "text": "Übersicht Sozialleistungen: Personen\u002FFälle pro Leistung"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

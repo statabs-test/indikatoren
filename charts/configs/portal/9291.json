@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#7F5F1A",
-      "index": 1,
-      "legendIndex": 0,
+      "color": "#FABD24",
+      "index": 0,
+      "legendIndex": 2,
       "data": [
         [
           "2011",
@@ -46,12 +46,12 @@
           3597
         ]
       ],
-      "name": "In Tagesheimen",
+      "name": "Tagesheime",
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
-      "index": 0,
+      "color": "#662673",
+      "index": 1,
       "legendIndex": 1,
       "data": [
         [
@@ -95,7 +95,56 @@
           203
         ]
       ],
-      "name": "In Tagesfamilien",
+      "name": "Tagesfamilien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "index": 2,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2011",
+          157
+        ],
+        [
+          "2012",
+          157
+        ],
+        [
+          "2013",
+          130
+        ],
+        [
+          "2014",
+          110
+        ],
+        [
+          "2015",
+          124
+        ],
+        [
+          "2016",
+          0
+        ],
+        [
+          "2017",
+          0
+        ],
+        [
+          "2018",
+          0
+        ],
+        [
+          "2019",
+          0
+        ],
+        [
+          "2020",
+          0
+        ]
+      ],
+      "name": "Betreuungsbeiträge",
       "turboThreshold": 0
     }
   ],
@@ -158,14 +207,12 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -179,7 +226,7 @@
     "text": "Tagesbetreuung - Anzahl subventionierte Kinder"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -210,7 +257,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 100,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -238,8 +284,8 @@
     "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-5"
   },
   "tooltip": {
-    "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003EAlter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {
