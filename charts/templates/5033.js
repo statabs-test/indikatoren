@@ -2,7 +2,7 @@
   return {
   "yAxis":{
    "tickInterval": 0.2,
-   max: 1,
+   "max": 1,
     "labels": {
         "format": "{value:,.1f}",
     }
@@ -34,7 +34,8 @@
           }
 }, 
 "tooltip": {
-  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+  "footerFormat": 'Total: <b>{point.total:,.2f}</b><br/>',
   "shared": false
 },
 "plotOptions": {
