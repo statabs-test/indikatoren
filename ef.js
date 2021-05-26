@@ -31,11 +31,7 @@ function build_dict(text) {
     return thedict;
 };
 
-<<<<<<< HEAD
-/*
-=======
 /* has to generate the correct format!
->>>>>>> e2d9f4a7699191dc5aba2774182a743088fb3af7
 function build_nodes(allnodes, year) {
     let thearr = [];
     let lines = allnodes.split(/\r?\n/);
@@ -185,11 +181,7 @@ function create_sankey_chart(dict, year) {
             },
             {
                 id: 'Verluste',
-<<<<<<< HEAD
-                column: 4,
-=======
                 column: 3,
->>>>>>> e2d9f4a7699191dc5aba2774182a743088fb3af7
                 offset: -430,
                 color: '#6F6F6F'
             },
