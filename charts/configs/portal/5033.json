@@ -177,7 +177,7 @@
           0.068
         ]
       ],
-      "name": "Medizinaltechnik",
+      "name": "Medizinaltechnik, sonstiges",
       "turboThreshold": 0
     },
     {
@@ -319,7 +319,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitt 2010 bis 2015"
+    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte"
   },
   "navigation": {
     "menuItemStyle": {
