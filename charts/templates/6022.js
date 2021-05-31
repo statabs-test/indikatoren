@@ -23,8 +23,8 @@
 				[0.25, 'rgb(230,230,230)'],
 				[0.9, 'rgb(0,135,135)']//103,39,115
 			],
-			min: -1,
-			max: 5,
+			min: -2,
+			max: 4,
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value), 0);
