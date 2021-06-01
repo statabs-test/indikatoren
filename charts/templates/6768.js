@@ -27,6 +27,7 @@
                 }
              },
         yAxis:[{
+            gridLineColor: '#B9CFD7',
             max: 18000,
             tickInterval: 6000,
             min:0,

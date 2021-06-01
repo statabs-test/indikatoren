@@ -28,6 +28,7 @@
              },
         yAxis:[{
             max: 18000,
+            gridLineColor: '#B9CFD7',
             tickInterval: 6000,
             min:0,
                     title: {
@@ -58,6 +59,7 @@
         }],
         xAxis: [{
                 reversed: false,
+               
                 type: 'category',
                 labels: {rotation: 0,
                         	step: 1,
