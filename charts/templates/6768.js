@@ -46,7 +46,7 @@
              plotLines: [{
                     value: 0,
                     color: 'white',
-                    width: 1,
+                    width: 0.5,
                     zIndex: 4
                 }],
             //create symmetric xAxis
