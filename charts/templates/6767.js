@@ -23,7 +23,7 @@
         },
          plotOptions: {
         series: {
-                minPointLength: 1.5
+                minPointLength: 2
                 }
              },
         yAxis:[{
@@ -46,7 +46,7 @@
             plotLines: [{
                 value: 0,
                 color: 'white',
-                width: 0.5,
+                width: 1,
                 zIndex: 4
             }],
             //create symmetric xAxis
