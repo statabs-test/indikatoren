@@ -14498,10 +14498,10 @@
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "I.11.6.6154",
+		"kuerzel": "",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"

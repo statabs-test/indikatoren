@@ -350,7 +350,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 20,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 100,
+        "width": 2
+      }
+    ]
   },
   "legend": {
     "enabled": true,
