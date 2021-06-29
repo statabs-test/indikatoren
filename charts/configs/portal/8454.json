@@ -331,7 +331,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 20,
     "plotLines": [
       {
         "color": "#B9CFD7",
