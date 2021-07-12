@@ -286,6 +286,17 @@
       </div>
     </script> 
 
+    <!-- list template for portal view -->
+    <script id="indikator-template-list-portal" type="text/html">
+      <tr>
+        <td><%= _fid %></td>
+        <td>col always</td>
+      </tr>
+      <% 
+        fixTable(_fid, Math.floor(Math.random() * 1000) + 1);
+      %>
+    </script>
+
     <!-- chart thumbnail template for indikatorenset view -->
     <script id="indikator-template-carousel-indikatorenset" type="text/html">  
       <div class="col-xs-3 indikator" indikator-fid-data="<%= _fid %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>">
@@ -344,7 +355,6 @@
       </div>
     </script> 
 
-
     <script id="checkbox-template" type="text/html">
       <div class="checkbox">
         <label>
@@ -361,7 +371,6 @@
       </div>
     </script>
 
-
     <script id="option-template" type="text/html">
         <option value="<%= key %>"><%= value %></option>
     </script>
@@ -371,7 +380,6 @@
       <li></li>
     </script>
     
-    
     <script id="datenliste-row-template" type="text/html">
       <tr>
         <td><%= Datum %></td>
@@ -380,7 +388,5 @@
         <td class="text-right"><%= Datenstand %></td>
       </tr>      
     </script>
-
   </body>
-
 </html>

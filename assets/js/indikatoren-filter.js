@@ -31,6 +31,8 @@ global lazyRenderChartById
 var indikatoren;
 var view = false;
 var perPage=16;
+var fixTableCounter = 0;
+var randomNumberSave = 0;
 
 $(document).ready(function(){
   
@@ -196,7 +198,8 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
     }
     preparePortalView();    
     //define filter.js configuration 
-    fjsConfig['template'] = '#indikator-template-carousel-portal';
+    //fjsConfig['template'] = '#indikator-template-carousel-portal';
+    fjsConfig['template'] = '#indikator-template-list-portal';
 
     FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
@@ -224,10 +227,9 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
   }
 
   window.FJS = FJS;  
-  FJS.filter();  
+  FJS.filter();
   //only now display page
-  $('body').show();
-
+  $('body').show();  
 
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
@@ -824,4 +826,29 @@ if (!Array.prototype.find) {
       return undefined;
     }
   });
+}
+
+function fixTable(_fid, randomNumb)
+{ 
+  //fixTableCounter = 0;
+  console.log("1 - FixTableCounter: " + fixTableCounter + "; randomNumb: " + randomNumb + "; index: " + getIndexByFid(_fid));
+  if (getIndexByFid(_fid) % perPage === 0) {  
+    fixTableCounter++;
+    setTimeout(function() {
+      $("div#indikatoren").append("<table id='tudibu" + randomNumb + "' class='table'>");
+      $("table#tudibu" + randomNumb).append("<thead><tr><th scope='col'>id</th><th scope='col'>data</th></tr></thead>");
+      $("table#tudibu" + randomNumb).append("<tbody id='budibu'>");
+      $("tbody#budibu").append($("tr.fjs_item"));
+    }, 0);
+    console.log("2 - FixTableCounter: " + fixTableCounter + "; randomNumb: " + randomNumb + "; index: " + getIndexByFid(_fid));
+    if (randomNumberSave == randomNumb) {
+    //if (fixTableCounter % 2 === 0) {
+        setTimeout(function() {
+        console.log("Do it!");
+        $("table#tudibu" + randomNumb).remove();
+        console.log("Did it!");
+        randomNumberSave = randomNumb;
+      }, 0);  
+    }
+  }
 }
