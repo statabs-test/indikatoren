@@ -113,7 +113,7 @@
 					//console.log(choroplethSeries);
 					var yoff = 0;
 					var xoff = 0
-					fn.addLegendLabel(chart, "<b>Stadt-Basel</b>", 800, 10, undefined, false, 'right');
+					fn.addLegendLabel(chart, "<b>Stadt Basel</b>", 800, 10, undefined, false, 'right');
 					for (let i = 0; i < pieSizeSeries.data.length; i++) {
 						if (choroplethSeries.data[i].Wohnviertel_Id < 10) var xoff=8; else var xoff = 0;
 						if (choroplethSeries.data[i].Wohnviertel_Id == 20) {
