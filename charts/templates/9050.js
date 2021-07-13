@@ -5,7 +5,7 @@
 },
 "yAxis": {
   "min": 0, 
-  max: 50000,
+  //max: 50000,
   tickInterval: 10000,
 "labels": {
   "format": "{value:,.0f}"
@@ -72,7 +72,7 @@ chart:{
 },
 "yAxis": {
   "min": 0, 
-  max: 50000,
+ // max: 50000,
   tickInterval: 10000,
 "labels": {
   "format": "{value:,.0f}"

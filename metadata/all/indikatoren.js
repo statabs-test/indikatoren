@@ -47026,171 +47026,167 @@ var indikatoren = [
 		"id": 7740
 	},
 	{
-		"title": "Geburtenüberschuss",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
-		"kuerzel": "I.01.9.07741",
-		"kuerzelKunde": "5-3",
-		"description": "Geburtenüberschuss",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kennzahlenset": "Bevoelkerungsszenarien",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-14T08:40:47.4747",
-		"stufe1": "5 Weitere demografische Komponenten",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Saldo aus Geburten und Todesfällen ist im Mittleren Szenario im gesamten Prognosezeitraum positiv und beträgt am Ende des Prognosehorizonts 357.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der Geburtenüberschuss ergibt sich als Differenz der Geburten abzüglich der Sterbefälle in einem bestimmten Jahr.",
 		"template": "stock001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_021",
-		"parentId": null,
-		"children": [
-			"9057"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
-		],
 		"data-id": 7741,
 		"chart-id": 7741,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			9057
+		],
+		"title": "Geburtenüberschuss",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
+		"lesehilfe": "Der Saldo aus Geburten und Todesfällen ist im Mittleren Szenario ab 2023 positiv und beträgt am Ende des Prognosehorizonts 225.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Der Geburtenüberschuss ergibt sich als Differenz der Geburten abzüglich der Sterbefälle in einem bestimmten Jahr.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.07741",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"kuerzelKunde": "5-3",
+		"stufe1": "5 Weitere demografische Komponenten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_021",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-07-14T08:40:47",
 		"id": 7741
 	},
 	{
-		"title": "Wanderungssaldo international",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
-		"kuerzel": "I.01.9.07742",
-		"kuerzelKunde": "5-4",
-		"description": "Wanderungssaldo international",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kennzahlenset": "Bevoelkerungsszenarien",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-14T08:40:47.4747",
-		"stufe1": "5 Weitere demografische Komponenten",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der internationale Wanderungssaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 knapp 1 500 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der internationale Wanderungssaldo errechnet sich als Differenz der aus dem Ausland eingewanderten Personen abzüglich der ins Ausland ausgewanderten Personen in einem bestimmten Jahr.",
 		"template": "stock001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_022",
-		"parentId": null,
-		"children": [
-			"9058"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
-		],
 		"data-id": 7742,
 		"chart-id": 7742,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			9058
+		],
+		"title": "Wanderungssaldo international",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
+		"lesehilfe": "Der internationale Wanderungssaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2045 knapp 1 400 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Der internationale Wanderungssaldo errechnet sich als Differenz der aus dem Ausland eingewanderten Personen abzüglich der ins Ausland ausgewanderten Personen in einem bestimmten Jahr.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.07742",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"kuerzelKunde": "5-4",
+		"stufe1": "5 Weitere demografische Komponenten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_022",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-07-14T08:40:47",
 		"id": 7742
 	},
 	{
-		"title": "Wanderungssaldo interkantonal",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
-		"kuerzel": "I.01.9.07743",
-		"kuerzelKunde": "5-5",
-		"description": "Wanderungssaldo interkantonal",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kennzahlenset": "Bevoelkerungsszenarien",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-14T08:40:47.4747",
-		"stufe1": "5 Weitere demografische Komponenten",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im Mittleren Szenario im Jahr 2040 rund 1 100 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
 		"template": "stock001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_023",
-		"parentId": null,
-		"children": [
-			"9059"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
-		],
 		"data-id": 7743,
 		"chart-id": 7743,
 		"filter": "",
-		"id": 7743
-	},
-	{
-		"title": "Wanderungssaldo total",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
-		"kuerzel": "I.01.9.07744",
-		"kuerzelKunde": "5-6",
-		"description": "Wanderungssaldo total",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kennzahlenset": "Bevoelkerungsszenarien",
+		"parentId": null,
+		"children": [
+			9059
+		],
+		"title": "Wanderungssaldo interkantonal",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
+		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im Mittleren Szenario im Jahr 2045 rund 1 300 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-14T08:40:48.4848",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.07743",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"kuerzelKunde": "5-5",
 		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im Mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 noch 360 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo errechnet sich als Differenz der eingewanderten Personen abzüglich der ausgewanderten Personen in einem bestimmten Jahr. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogenen Personen in einem bestimmten Jahr.",
-		"template": "stock001",
+		"orderKey": "99_00_00_00_00_023",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_024",
-		"parentId": null,
-		"children": [
-			"9060"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
-		],
+		"aktualisierungsdatum": "2020-07-14T08:40:47",
+		"id": 7743
+	},
+	{
+		"template": "stock001",
 		"data-id": 7744,
 		"chart-id": 7744,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			9060
+		],
+		"title": "Wanderungssaldo total",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
+		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im Mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2045 noch 110 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo errechnet sich als Differenz der eingewanderten Personen abzüglich der ausgewanderten Personen in einem bestimmten Jahr. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogenen Personen in einem bestimmten Jahr.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.07744",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"kuerzelKunde": "5-6",
+		"stufe1": "5 Weitere demografische Komponenten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_024",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-07-14T08:40:48",
 		"id": 7744
 	},
 	{
