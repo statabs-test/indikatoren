@@ -160,8 +160,8 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
               ]
     },
     callbacks: {
-          afterFilter: afterFilter, 
-          shortResult: sortResult
+      afterFilter: afterFilter,
+      shortResult: sortResult
     },    
     pagination: {
       container: '#pagination',
@@ -201,7 +201,12 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
     //fjsConfig['template'] = '#indikator-template-carousel-portal';
     fjsConfig['template'] = '#indikator-template-list-portal';
 
-    FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
+    $("div#indikatoren").append("<table id='tudibu' class='table'>");
+    $("table#tudibu").append("<thead><tr><th scope='col'>id</th><th scope='col'>data</th></tr></thead>");
+    $("table#tudibu").append("<tbody id='budibu'>");
+  
+    FJS = FilterJS(indikatoren, 'tbody#budibu', fjsConfig);
+
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
