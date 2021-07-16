@@ -31,9 +31,20 @@ global lazyRenderChartById
 var indikatoren;
 var view = false;
 var perPage=16;
-var fixTableCounter = 0;
-var randomNumberSave = 0;
 
+var tableTemplate = `
+  <table id='indikatoren-list-table' class='table table-hover'>
+    <thead>
+      <tr>
+        <th scope='col'>id</th>
+        <th scope='col'>data</th>
+      </tr>
+    </thead>
+    <tbody id='indikatoren-list-tbody'>
+    <!-- Template rows go here-->
+    </tbody>
+  </table>
+`
 $(document).ready(function(){
   
   //display header if requested
@@ -57,6 +68,9 @@ $(document).ready(function(){
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
   }
   
+  //check if portal view should be shown as boxes or list
+  var viewModeUrlParamValue = window.decodeURIComponent($.url('?viewMode'));
+  var viewMode = (viewModeUrlParamValue == "list") ? "list" : "box" ;
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
   var stufeParameter = parseInt(window.decodeURIComponent($.url('?stufe')), 10); 
   var maxStufe = (stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2);
@@ -111,7 +125,7 @@ $(document).ready(function(){
   		if (sortParam != "undefined"){
       	sortOptions = getSortOptions(sortParam);
   		}
-      initializeFilterJS(indikatorenset, perPage, sortOptions);
+      initializeFilterJS(indikatorenset, perPage, sortOptions, viewMode);
   });  
 });
 
@@ -138,7 +152,7 @@ function resetPortalFilter(FJS, view){
 }
 
 
-function initializeFilterJS(indikatorenset, perPage, sortOptions){
+function initializeFilterJS(indikatorenset, perPage, sortOptions, viewMode){
   var fjsConfig = {      
     template: undefined,
     search: { ele: '#searchbox',
@@ -160,8 +174,8 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
               ]
     },
     callbacks: {
-      afterFilter: afterFilter,
-      shortResult: sortResult
+          afterFilter: afterFilter, 
+          shortResult: sortResult
     },    
     pagination: {
       container: '#pagination',
@@ -197,15 +211,18 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
     	sortOptions = {'randomNumber': 'asc'};
     }
     preparePortalView();    
-    //define filter.js configuration 
-    //fjsConfig['template'] = '#indikator-template-carousel-portal';
-    fjsConfig['template'] = '#indikator-template-list-portal';
 
-    $("div#indikatoren").append("<table id='tudibu' class='table'>");
-    $("table#tudibu").append("<thead><tr><th scope='col'>id</th><th scope='col'>data</th></tr></thead>");
-    $("table#tudibu").append("<tbody id='budibu'>");
-  
-    FJS = FilterJS(indikatoren, 'tbody#budibu', fjsConfig);
+    if (viewMode == "list") {
+      //set template; create table skeleton for rows inserted by template; set container for template
+      fjsConfig['template'] = '#indikator-template-list-portal';
+      $("div#indikatoren").append(tableTemplate);
+      FJS = FilterJS(indikatoren, 'tbody#indikatoren-list-tbody', fjsConfig);
+    }
+    else {
+      // "normal" box view with svg previews
+      fjsConfig['template'] = '#indikator-template-carousel-portal';
+      FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
+    }
 
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
@@ -831,29 +848,4 @@ if (!Array.prototype.find) {
       return undefined;
     }
   });
-}
-
-function fixTable(_fid, randomNumb)
-{ 
-  //fixTableCounter = 0;
-  console.log("1 - FixTableCounter: " + fixTableCounter + "; randomNumb: " + randomNumb + "; index: " + getIndexByFid(_fid));
-  if (getIndexByFid(_fid) % perPage === 0) {  
-    fixTableCounter++;
-    setTimeout(function() {
-      $("div#indikatoren").append("<table id='tudibu" + randomNumb + "' class='table'>");
-      $("table#tudibu" + randomNumb).append("<thead><tr><th scope='col'>id</th><th scope='col'>data</th></tr></thead>");
-      $("table#tudibu" + randomNumb).append("<tbody id='budibu'>");
-      $("tbody#budibu").append($("tr.fjs_item"));
-    }, 0);
-    console.log("2 - FixTableCounter: " + fixTableCounter + "; randomNumb: " + randomNumb + "; index: " + getIndexByFid(_fid));
-    if (randomNumberSave == randomNumb) {
-    //if (fixTableCounter % 2 === 0) {
-        setTimeout(function() {
-        console.log("Do it!");
-        $("table#tudibu" + randomNumb).remove();
-        console.log("Did it!");
-        randomNumberSave = randomNumb;
-      }, 0);  
-    }
-  }
 }
