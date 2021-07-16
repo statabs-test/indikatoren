@@ -5,29 +5,6 @@
       "data": [
         [
           "Basel-Stadt",
-          85.5
-        ],
-        [
-          "Basel-Landschaft",
-          90.9
-        ],
-        [
-          "Jura",
-          93.4
-        ],
-        [
-          "Schweiz",
-          91.1
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Basel-Stadt",
           87.2
         ],
         [
@@ -47,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -68,6 +45,32 @@
       ],
       "name": "2017",
       "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          85.3
+        ],
+        [
+          "Basel-Landschaft",
+          90
+        ],
+        [
+          "Jura",
+          91.9
+        ],
+        [
+          "Schweiz",
+          90.4
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4"
     }
   ],
   "xAxis": {
@@ -208,6 +211,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8445
+    "filename": "8445"
   }
 }
