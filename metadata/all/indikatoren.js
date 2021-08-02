@@ -2179,14 +2179,17 @@ var indikatoren = [
 		"id": 4138
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.2.4139",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2196,15 +2199,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit gut 0,5% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2021 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit gut 0,5% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
