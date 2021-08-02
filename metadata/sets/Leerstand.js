@@ -201,42 +201,44 @@ var indikatorensetData = [
 		"id": 7578
 	},
 	{
-		"template": "template001",
-		"data-id": 7579,
-		"chart-id": 7579,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			9072
+			"9072"
 		],
+		"template": "template001",
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Bauvollendung grösserer Projekte folgend resultiert derzeit eine jährliche Nettoproduktion von rund 750 Wohnungen. Auch die Prognose für 2021 liegt in diesem Rahmen.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "Leerstand",
+		"kuerzel": "I.09.2.07579",
+		"kuerzelKunde": "LEB-3-3",
 		"description": "Nettoproduktion an Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.07579",
-		"kennzahlenset": "Leerstand",
-		"kuerzelKunde": "LEB-3-3",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-27T09:12:17.1717",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_00_00_00_00_003",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2020 672 Einheiten. Davon  stammen rund 607 aus Neu- und 219 aus Umbauten. Durch Abbrüche gehen 158 Wohnungen verloren. 2021 wird mit einer Nettoproduktion von rund 800 Wohnungen gerechnet.",
+		"erlaeuterungen": "",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "02_00_00_00_00_003",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-08-27T09:12:17",
+		"externalLinks": [
+			""
+		],
+		"data-id": 7579,
+		"chart-id": 7579,
+		"filter": "",
 		"id": 7579
 	},
 	{
@@ -359,42 +361,44 @@ var indikatorensetData = [
 		"id": 7582
 	},
 	{
-		"template": "template001",
-		"data-id": 7583,
-		"chart-id": 7583,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			9076
+			"9076"
 		],
+		"template": "template001",
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "Leerstand",
+		"kuerzel": "I.09.2.07583",
+		"kuerzelKunde": "LEB-4-3",
 		"description": "Nettoproduktion an Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.07583",
-		"kennzahlenset": "Leerstand",
-		"kuerzelKunde": "LEB-4-3",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-27T09:12:23.2323",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_00_00_00_00_003",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen bleibt nach dem markanten Rückgang 2012 und anschliessendem Anstieg seit 2015 auf hohem Niveau stabil. Bei den Werten von 2021 handelt es sich um eine Prognose.",
+		"erlaeuterungen": "",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "03_00_00_00_00_003",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-08-27T09:12:23",
+		"externalLinks": [
+			""
+		],
+		"data-id": 7583,
+		"chart-id": 7583,
+		"filter": "",
 		"id": 7583
 	},
 	{
