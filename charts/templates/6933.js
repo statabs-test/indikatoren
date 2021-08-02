@@ -144,18 +144,8 @@ global $
       split: false,
       reversed: false,
       pointFormatter: function () {
-        //console.log(this);
-        return /*(this.y > 0 ? */'<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b> (' + Highcharts.numberFormat(this.percentage,1) + "%)" + '<br/>'/* : "")*/;
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b> (' + Highcharts.numberFormat(this.percentage,1) + "%)" + '<br/>';
       },
-      //_formatter: function () {
-       // var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
-        //suppress tooltip if value equals 0
-       // console.log(this.y);
-       // console.log(this);
-       // return s;
-        //return (this.y > 0 ? s : false);
-      //},
-      //footerFormat: '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>',
     },
     plotOptions: {
       series: {

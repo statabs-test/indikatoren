@@ -3126,8 +3126,7 @@
     "split": false,
     "reversed": false,
     "pointFormatter": function () {
-        //console.log(this);
-        return /*(this.y > 0 ? */'<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b> (' + Highcharts.numberFormat(this.percentage,1) + "%)" + '<br/>'/* : "")*/;
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b> (' + Highcharts.numberFormat(this.percentage,1) + "%)" + '<br/>';
       }
   },
   "exporting": {
