@@ -559,81 +559,85 @@ var indikatorensetData = [
 		"id": 7587
 	},
 	{
+		"parentId": null,
+		"children": [
+			"9081"
+		],
 		"template": "line001",
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Leerstand",
+		"kuerzel": "I.09.2.07588",
+		"kuerzelKunde": "LEB-6-2",
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-27T09:12:30.3030",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
+		"erlaeuterungen": "Die Erhebung wird vom SVIT beider Basel durchgeführt. Stichtag ist der 1. Juni.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_002",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
 		"data-id": 7588,
 		"chart-id": 7588,
 		"filter": "",
-		"parentId": null,
-		"children": [
-			9081
-		],
-		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Geschäftsleerstandsfläche nach Nutzung",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.07588",
-		"kennzahlenset": "Leerstand",
-		"kuerzelKunde": "LEB-6-2",
-		"stufe1": "Geschäftsleerstand in den beiden Basel",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_00_00_00_00_002",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-08-27T09:12:30",
 		"id": 7588
 	},
 	{
-		"template": "line001",
-		"data-id": 7589,
-		"chart-id": 7589,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			9082
+			"9082"
 		],
+		"template": "line001",
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "Leerstand",
+		"kuerzel": "I.09.2.07589",
+		"kuerzelKunde": "LEB-6-3",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.07589",
-		"kennzahlenset": "Leerstand",
-		"kuerzelKunde": "LEB-6-3",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-27T09:12:31.3131",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_00_00_00_00_003",
+		"lesehilfe": "Im Landkanton nahm die Bürofläche zwischen 2020 und 2021 um 20 400 m² auf 87 800 m² zu. Die Büroflächen sind mit einem Anteil von 46% der grösste Bereich. Danach folgt der Gewerbebereich mit 24%.",
+		"erlaeuterungen": "Die Erhebung wird vom SVIT beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "05_00_00_00_00_003",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-08-27T09:12:31",
+		"externalLinks": [
+			""
+		],
+		"data-id": 7589,
+		"chart-id": 7589,
+		"filter": "",
 		"id": 7589
 	},
 	{
