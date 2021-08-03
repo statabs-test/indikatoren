@@ -37501,14 +37501,19 @@
 		"id": 8354
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8472"
+		],
+		"template": "line001",
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzel": "I.04.2.08355",
 		"kuerzelKunde": "1.2-2",
 		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -37520,15 +37525,10 @@
 		"stufe5": "",
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt ist zwischen 2014 und 2018 um 71% gestiegen. Auch die Wertschöpfung in der Metallindustrie ist gewachsen (+18%), wobei diese Branche, ebenso wie der Bereich Elektro/Optik/Maschinen-Industrie (-26%), sehr klein ist. Die Wertschöpfung im Baugewerbe hat um 17% zugenommen, während sie im Bereich Verkehr und Lagerei um 12% zurückgegangen ist.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8472"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
