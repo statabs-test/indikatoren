@@ -18,7 +18,6 @@
       showFirstLabel: true,
       showLastLabel: true,
       ordinal: false,
-     
       labels: {
         //  rotation: -45
       }
@@ -26,8 +25,10 @@
 
     },
     "tooltip": {
-      shared: true, 
+      enabled: true,
+      shared: true,
       split: false,
+      borderColor: '#000000',
       xDateFormat: '%Y-%m',
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
     },
@@ -35,22 +36,26 @@
     "series": [
       {
         "color": "#B00000",
+        showInNavigator: true,
+        "marker": {
+
+          "enabled": false
+        }
+      }, 
+      {
+        "color": "#008AC3",
+        showInNavigator: true,
         "marker": {
           "enabled": false
         }
       }, 
       {
-        "color": "#68AB2B ",
-        "marker": {
-          "enabled": false
-        }
-      }, /* violett */
-      {
         "color": "#FABD24",
+        showInNavigator: true,
         "marker": {
           "enabled": false
         }
-      }, /* rot */
+      },
 
     ],
     "legend": {

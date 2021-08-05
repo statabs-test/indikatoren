@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#B00000",
+      "showInNavigator": true,
       "marker": {
         "enabled": false
       },
@@ -758,7 +759,8 @@
       "name": "Kurzarbeit, beantragt"
     },
     {
-      "color": "#68AB2B ",
+      "color": "#008AC3",
+      "showInNavigator": true,
       "marker": {
         "enabled": false
       },
@@ -1516,6 +1518,7 @@
     },
     {
       "color": "#FABD24",
+      "showInNavigator": true,
       "marker": {
         "enabled": false
       },
@@ -2427,8 +2430,10 @@
     "dateTimeLabelFormats": {
       "day": "%A, %e. %b. %Y"
     },
+    "enabled": true,
     "shared": true,
     "split": false,
+    "borderColor": "#000000",
     "xDateFormat": "%Y-%m",
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
