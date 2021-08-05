@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#68AB2B",
+      "color": "#B00000",
       "marker": {
         "enabled": false
       },
@@ -750,7 +750,7 @@
       "name": "Kurzarbeit, beantragt"
     },
     {
-      "color": "#008AC3",
+      "color": "#68AB2B ",
       "marker": {
         "enabled": false
       },
@@ -2341,6 +2341,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "max": 100000,
     "showLastLabel": true,
     "endOnTick": true,
     "opposite": false
