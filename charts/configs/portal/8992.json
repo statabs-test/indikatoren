@@ -2365,7 +2365,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 100000,
+    "tickAmount": 7,
     "showLastLabel": true,
     "endOnTick": true,
     "opposite": false

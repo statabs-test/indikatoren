@@ -2,7 +2,8 @@
   return {
 
     "yAxis": {
-      max: 100000,
+      //max: 100000,
+      tickAmount: 7,
       showLastLabel: true,
       endOnTick: true,
 
