@@ -2,6 +2,7 @@
   return {
 
     "yAxis": {
+      max: 100000,
       showLastLabel: true,
       endOnTick: true,
 
@@ -32,13 +33,13 @@
     
     "series": [
       {
-        "color": "#68AB2B",
+        "color": "#B00000",
         "marker": {
           "enabled": false
         }
       }, 
       {
-        "color": "#008AC3",
+        "color": "#68AB2B ",
         "marker": {
           "enabled": false
         }
