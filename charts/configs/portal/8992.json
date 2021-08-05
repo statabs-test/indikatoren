@@ -4,6 +4,7 @@
       "color": "#B00000",
       "showInNavigator": true,
       "marker": {
+        "symbol": "circle",
         "enabled": false
       },
       "data": [
@@ -762,6 +763,7 @@
       "color": "#008AC3",
       "showInNavigator": true,
       "marker": {
+        "symbol": "circle",
         "enabled": false
       },
       "data": [
@@ -1520,6 +1522,7 @@
       "color": "#FABD24",
       "showInNavigator": true,
       "marker": {
+        "symbol": "circle",
         "enabled": false
       },
       "data": [
