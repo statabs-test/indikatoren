@@ -36,7 +36,7 @@
     "series": [
       {
         "color": "#B00000",
-        showInNavigator: true,
+        //showInNavigator: true,
         "marker": {
           "symbol": "circle",
           "enabled": false
@@ -44,7 +44,7 @@
       }, 
       {
         "color": "#008AC3",
-        showInNavigator: true,
+        //showInNavigator: true,
         "marker": {
           "symbol": "circle",
           "enabled": false
@@ -52,7 +52,7 @@
       }, 
       {
         "color": "#FABD24",
-        showInNavigator: true,
+        //showInNavigator: true,
         "marker": {
           "symbol": "circle",
           "enabled": false
