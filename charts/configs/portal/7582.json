@@ -24,15 +24,15 @@
       "data": [
         [
           "neu erstellt",
-          134
+          136
         ],
         [
           "renoviert",
-          248
+          162
         ],
         [
           "unverändert",
-          1235
+          1106
         ]
       ],
       "name": "Anzahl",
@@ -104,7 +104,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2020",
+    "text": "Basel-Landschaft, 2021",
     "align": "left"
   },
   "tooltip": {

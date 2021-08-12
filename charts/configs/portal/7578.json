@@ -24,15 +24,15 @@
       "data": [
         [
           "neu erstellt",
-          52
+          60
         ],
         [
           "renoviert",
-          249
+          178
         ],
         [
           "unverändert",
-          772
+          997
         ]
       ],
       "name": "Anzahl",
@@ -104,7 +104,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "tooltip": {

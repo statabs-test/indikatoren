@@ -549,31 +549,31 @@ var indikatorensetData = [
 		"id": 9079
 	},
 	{
+		"parentId": 7587,
+		"children": [],
+		"template": "line001_print",
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
+		"kennzahlenset": "Leerstand (Print)",
 		"kuerzel": "I.09.2.09080",
 		"kuerzelKunde": "LEB-6-1",
 		"description": "Geschäftsleerstandsfläche",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Leerstand (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-24T09:50:52.5252",
+		"aktualisierungsdatum": "2020-08-27T09:12:28.2828",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Geschäftsflächen in den beiden Basel zusammen ist um 4,2% auf 323 000 m² gewachsen. Gut 35% des gesamten Angebots entfallen auf den Stadt- und knapp 65% auf den Landkanton.",
+		"lesehilfe": "Das Angebot an Geschäftsflächen in den beiden Basel zusammen ist um 15% auf 375 000 m² gewachsen. Gut 49% des gesamten Angebots entfallen auf den Stadt- und knapp 51% auf den Landkanton.",
 		"erlaeuterungen": "",
-		"template": "line001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_001",
-		"parentId": 7587,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -588,31 +588,31 @@ var indikatorensetData = [
 		"id": 9080
 	},
 	{
+		"parentId": 7588,
+		"children": [],
+		"template": "line001_print",
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Leerstand (Print)",
 		"kuerzel": "I.09.2.09081",
 		"kuerzelKunde": "LEB-6-2",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Leerstand (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-24T09:50:52.5252",
+		"aktualisierungsdatum": "2020-08-27T09:12:30.3030",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat um 22% von 98 600  m² auf 120 500 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 61 700  m² auf 76 500  m² zurückzuführen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
 		"erlaeuterungen": "",
-		"template": "line001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_002",
-		"parentId": 7588,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -627,31 +627,31 @@ var indikatorensetData = [
 		"id": 9081
 	},
 	{
+		"parentId": 7589,
+		"children": [],
+		"template": "line001_print",
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Landschaft",
+		"kennzahlenset": "Leerstand (Print)",
 		"kuerzel": "I.09.2.09082",
 		"kuerzelKunde": "LEB-6-3",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Leerstand (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-24T09:50:51.5151",
+		"aktualisierungsdatum": "2020-08-27T09:12:31.3131",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Landkanton nahm die Bürofläche um 15 400 m² auf 67 400 m² ab. Dennoch blieben die Büroflächen mit einem Anteil von knapp einem Drittel der grösste Bereich. Danach folgt der Gewerbebereich mit 65 700 m². Trotz Zunahme verfügen die Laden- und Produktionsflächen über kleine Anteile von 10% und 7%.",
+		"lesehilfe": "Im Landkanton nahm die Bürofläche um 20 400 m² auf 87 800 m² zu. Die Büroflächen sind mit einem Anteil von 46% grösste Bereich. Danach folgt der Gewerbebereich mit 46 100 m² und 24%.",
 		"erlaeuterungen": "",
-		"template": "line001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_003",
-		"parentId": 7589,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -666,31 +666,31 @@ var indikatorensetData = [
 		"id": 9082
 	},
 	{
+		"parentId": 7590,
+		"children": [],
+		"template": "pie001_print",
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Stadt, Anteile 2020",
+		"subtitle": "Basel-Stadt, Anteile 2021",
+		"kennzahlenset": "Leerstand (Print)",
 		"kuerzel": "I.09.2.09083",
 		"kuerzelKunde": "LEB-6-4",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Leerstand (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-24T09:50:51.5151",
+		"aktualisierungsdatum": "2020-08-27T09:12:32.3232",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast zwei Drittel des Geschäftsleerstandes entfallen auf den Bürobereich. Kleinere Anteile zwischen 15% und 8% weisen die Gewerbe-, Lager- und Ladenflächen auf.",
+		"lesehilfe": "Rund zwei Drittel des Geschäftsleerstandes entfallen auf den Bürobereich. Kleinere Anteile zwischen 13% und 9% weisen die Gewerbe-, Lager- und Ladenflächen auf.",
 		"erlaeuterungen": "",
-		"template": "pie001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_004",
-		"parentId": 7590,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -705,31 +705,31 @@ var indikatorensetData = [
 		"id": 9083
 	},
 	{
+		"parentId": 9064,
+		"children": [],
+		"template": "pie001_print",
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Landschaft, Anteile 2020",
+		"subtitle": "Basel-Landschaft, Anteile 2021",
+		"kennzahlenset": "Leerstand (Print)",
 		"kuerzel": "I.09.2.09084",
 		"kuerzelKunde": "LEB-6-5",
 		"description": "Geschäftsleerstandsfläche nach Nutzung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Leerstand (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-24T09:50:50.5050",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-08-27T09:12:34.3434",
+		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowhol der Büro- als auch der Gewerbebereich haben einen Anteil von jeweils über 30% der leerstehenden Geschäftsflächen. Danach folgen die Lagerflächen mit 20%.",
+		"lesehilfe": "Sowohl der Bürobereich (46%) und der Gewerbebereich (24%) weisen den grössten Anteil am Leerstand aus. Danach folgen die Lagerflächen mit 19%.",
 		"erlaeuterungen": "",
-		"template": "pie001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "_000",
-		"parentId": 9064,
-		"children": [],
+		"orderKey": "05_00_00_00_00_005",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -781,5 +781,44 @@ var indikatorensetData = [
 		"chart-id": 9144,
 		"filter": "",
 		"id": 9144
+	},
+	{
+		"parentId": 9137,
+		"children": [],
+		"template": "template001_print",
+		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
+		"subtitle": "Basel-Landschaft",
+		"kennzahlenset": "Leerstand (Print)",
+		"kuerzel": "I.09.2.09336",
+		"kuerzelKunde": "LEB-2-3",
+		"description": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-27T09:12:35.3535",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Landkanton sinkt die Leerstandsquote 2021 auf 1,0%, 1 404 Wohnungen stehen leer. Davon sind rund drei Viertel Drei- oder Vierzimmerwohnungen.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_023",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9336,
+		"chart-id": 9336,
+		"filter": "",
+		"id": 9336
 	}
 ];
