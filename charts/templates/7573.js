@@ -104,7 +104,7 @@
     },
   ],  
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total Beider Basel: <b>{point.total:,.0f}</b>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total beider Basel: <b>{point.total:,.0f}</b>',
     shared: true
   },
 };
