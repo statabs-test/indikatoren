@@ -12,9 +12,11 @@
 			tickInterval: 100000
 		},
 		"series": [
-			{ "color": "#B375AB" }, /**/
-			{ "color": "#923F8D" }, /**/
-			//			{ "color": "#2E1435", "yAxis": 1 }, /**/
+			/*{ "color": "#B375AB" }, */
+			{ "color": "#2F656B" }, 
+			/*{ "color": "#923F8D",
+			dashStyle: 'ShortDash' }*/
+			{ "color": "#8B2223" }
 		],
 		"legend": {
 			"enabled": true,
