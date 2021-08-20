@@ -23,7 +23,7 @@
         },
         plotOptions: {
             series: {
-                minPointLength: 1
+                minPointLength: 2
             }
         },
         yAxis:[{
