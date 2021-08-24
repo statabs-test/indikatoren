@@ -13,11 +13,11 @@
 		},
 		"series": [
 			{ 
-				color: "#B375AB"
+				color: "#E7CEE2"
 			}, /**/
 			{ 
-				color: "#662673",
-				dashStyle: 'shortdot' 
+				color: "#2E1435"/*,
+				dashStyle: 'shortdot' */
 			}, /**/
 			//			{ "color": "#2E1435", "yAxis": 1 }, /**/
 		],
