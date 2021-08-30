@@ -30,7 +30,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+          return '<br/>' + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -83,7 +83,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+          return '<br/>' + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -136,7 +136,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+          return '<br/>' + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -257,7 +257,8 @@
       "formatter": function(){
             return Highcharts.numberFormat((100*this.value),0)+'%';                
         }
-    }
+    },
+    "max": 1
   },
   "legend": {
     "enabled": true,

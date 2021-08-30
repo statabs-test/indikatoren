@@ -192,6 +192,7 @@
 					}
 				}
     },
+    "marginRight": 30,
     "inverted": true,
     "renderTo": "container-6999"
   },
@@ -241,7 +242,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5,
+    "tickAmount": 6,
     "reversedStacks": false
   },
   "legend": {
@@ -306,6 +307,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {
