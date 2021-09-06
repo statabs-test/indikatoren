@@ -100,7 +100,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#d00000",
+      "color": "#DC440E",
       "stack": "w",
       "legendIndex": 1,
       "data": [
@@ -166,7 +166,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
+      "color": "#8A8A8A",
       "stack": "t",
       "legendIndex": 2,
       "data": [
@@ -264,7 +264,7 @@
         }
       },
       "stacking": "percent",
-      "pointPadding": 0,
+      "pointPadding": 0.05,
       "groupPadding": 0.1
     }
   },
@@ -315,8 +315,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "x": 40,
-    "align": "left",
-    "itemWidth": 130
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -344,6 +343,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6056
+    "filename": "6056"
   }
 }
