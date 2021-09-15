@@ -72445,14 +72445,17 @@ var indikatoren = [
 		"id": 8973
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Motorisierter Individualverkehr",
 		"subtitle": "Zählstelle Nauenstrasse 73",
+		"kennzahlenset": "",
 		"kuerzel": "I.11.1.08976",
 		"kuerzelKunde": "",
 		"description": "Motorisierter Individualverkehr",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72464,13 +72467,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -72641,14 +72641,17 @@ var indikatoren = [
 		"id": 8981
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Veloverkehr",
 		"subtitle": "Zählstelle Wettsteinbrücke",
+		"kennzahlenset": "",
 		"kuerzel": "I.11.1.08983",
 		"kuerzelKunde": "",
 		"description": "Veloverkehr",
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -72660,13 +72663,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"

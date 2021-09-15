@@ -26,6 +26,11 @@
                 }
             }
         },
+        tooltip: {
+            dateTimeLabelFormats: {
+                day:"%A, %e. %b. %Y"
+            }
+        },
     	rangeSelector: {
     		buttons: 
     			[
