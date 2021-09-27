@@ -2030,6 +2030,21 @@ id | visible | visibleInPortal | indikatorenset
 9298 | true | false | Soziales
 9359 | true | false | 
 9360 | true | false | 
+9361 | true | false | Legislaturplan
+9363 | true | false | Legislaturplan
+9365 | true | false | Legislaturplan
+9369 | true | false | Legislaturplan
+9370 | true | false | Legislaturplan
+9371 | true | false | Legislaturplan
+9374 | true | false | Legislaturplan
+9376 | true | false | Legislaturplan
+9378 | true | false | Legislaturplan
+9383 | true | false | Legislaturplan
+9384 | true | false | Legislaturplan
+9385 | true | false | Legislaturplan
+9386 | true | false | Legislaturplan
+9388 | true | false | Legislaturplan
+9389 | true | false | Legislaturplan
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
