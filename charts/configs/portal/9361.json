@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#8B2223",
-      "index": 12,
+      "index": 13,
       "data": [
         [
           2014,
@@ -33,7 +33,7 @@
     },
     {
       "color": "#DC440E",
-      "index": 11,
+      "index": 12,
       "data": [
         [
           2014,
@@ -64,7 +64,7 @@
     },
     {
       "color": "#FF8028",
-      "index": 10,
+      "index": 11,
       "data": [
         [
           2014,
@@ -95,7 +95,7 @@
     },
     {
       "color": "#FFBB58",
-      "index": 9,
+      "index": 10,
       "data": [
         [
           2014,
@@ -125,8 +125,8 @@
       "name": "Baugewerbe"
     },
     {
-      "color": "#007A2F",
-      "index": 8,
+      "color": "#FFDA80",
+      "index": 9,
       "data": [
         [
           2014,
@@ -156,8 +156,8 @@
       "name": "Metallprodukte"
     },
     {
-      "color": "#D7E8D2",
-      "index": 7,
+      "color": "#007A2F",
+      "index": 8,
       "data": [
         [
           2014,
@@ -187,8 +187,8 @@
       "name": "Handel, Reparatur"
     },
     {
-      "color": "#73BA7C",
-      "index": 6,
+      "color": "#D7E8D2",
+      "index": 7,
       "data": [
         [
           2014,
@@ -218,8 +218,8 @@
       "name": "Freib., wiss., tech. DL"
     },
     {
-      "color": "#2B0099",
-      "index": 5,
+      "color": "#73BA7C",
+      "index": 6,
       "data": [
         [
           2014,
@@ -249,8 +249,8 @@
       "name": "Öff. Verwaltung, Bildung"
     },
     {
-      "color": "#008AC3",
-      "index": 4,
+      "color": "#2B0099",
+      "index": 5,
       "data": [
         [
           2014,
@@ -280,8 +280,8 @@
       "name": "Finanz-, Versicherungs-DL"
     },
     {
-      "color": "#B9CFD7",
-      "index": 3,
+      "color": "#008AC3",
+      "index": 4,
       "data": [
         [
           2014,
@@ -311,8 +311,8 @@
       "name": "Chemische Industrie"
     },
     {
-      "color": "#672773",
-      "index": 2,
+      "color": "#B9CFD7",
+      "index": 3,
       "data": [
         [
           2014,
@@ -342,8 +342,8 @@
       "name": "Maschinen"
     },
     {
-      "color": "#E7CEE2",
-      "index": 1,
+      "color": "#672773",
+      "index": 2,
       "data": [
         [
           2014,
@@ -371,6 +371,37 @@
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          123.55
+        ],
+        [
+          2016,
+          151.36
+        ],
+        [
+          2017,
+          170.18
+        ],
+        [
+          2018,
+          182.58
+        ],
+        [
+          2019,
+          203.8
+        ]
+      ],
+      "name": "Pharma"
     }
   ],
   "chart": {
@@ -455,7 +486,7 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": 60,
+    "min": 40,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
