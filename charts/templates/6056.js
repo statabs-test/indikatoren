@@ -60,7 +60,7 @@ plotOptions: {
   },
       {
     "index": 2,
-    color: "#B00000",
+    color: "#dc440e",
      "tooltip": {
       "pointFormatter": function(){
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
