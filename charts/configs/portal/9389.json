@@ -602,7 +602,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Global Footprint Network.\u003Cbr\u002F\u003EZuletzt geändert: 26.11.2020"
+    "text": "Quelle: Global Footprint Network.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

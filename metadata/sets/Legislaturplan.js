@@ -676,6 +676,7 @@ var indikatorensetData = [
 		"id": 6996
 	},
 	{
+		"template": "line001",
 		"data-id": 9361,
 		"chart-id": 8355,
 		"filter": "",
@@ -683,8 +684,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch ist das Wertschöpfungswachstum im Maschinenbau gewesen, wobei diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein ist.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -698,19 +699,18 @@ var indikatorensetData = [
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.09361",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "1.3",
+		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2020-07-07T09:09:23",
-		"id": 9361,
-		"template": ""
+		"id": 9361
 	},
 	{
 		"template": "template001",
@@ -870,7 +870,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -907,7 +907,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
-		"lesehilfe": "10,1% der im Jahr 2019 Befragten sind sehr und 23,5% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"lesehilfe": "10,1% der im Jahr 2019 Befragten sind sehr und 23,5% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten. Der Anteil Befragter, welcher diese Aussage nicht beurteilt hat, ist im Vergleich zu den Vorjahren gestiegen.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -1129,7 +1129,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
-		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder angestiegen.",
+		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder gestiegen.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -1202,7 +1202,7 @@ var indikatorensetData = [
 		"parentId": "4150",
 		"children": [],
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2019",
 		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
@@ -1240,7 +1240,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"quellenangabe": [
 			"Global Footprint Network"
