@@ -23,13 +23,13 @@ id | visible | visibleInPortal | indikatorenset
 2464 | true | true | Arbeitsmarkt
 2465 | true | true | Arbeitsmarkt
 2466 | true | true | Arbeitsmarkt
-2501 | true | true | Legislaturplan
+2501 | true | true | Legislaturplan-2017-2021
 2528 | true | true | Arbeitsmarkt
 2529 | true | true | Arbeitsmarkt
 2547 | true | true | Arbeitsmarkt
 2917 | true | false | Nachhaltigkeit
-2952 | true | true | Legislaturplan
-2953 | true | true | Legislaturplan
+2952 | true | true | Legislaturplan-2017-2021
+2953 | true | true | Legislaturplan-2017-2021
 2956 | true | true | Legislaturplan
 3027 | true | true | Arbeitsmarkt
 3028 | true | true | Arbeitsmarkt
@@ -37,8 +37,8 @@ id | visible | visibleInPortal | indikatorenset
 3030 | true | true | Arbeitsmarkt
 3031 | true | true | Arbeitsmarkt
 3032 | true | true | Arbeitsmarkt
-3051 | true | true | Legislaturplan
-3086 | true | true | Legislaturplan
+3051 | true | true | Legislaturplan-2017-2021
+3086 | true | true | Legislaturplan-2017-2021
 3104 | true | true | Legislaturplan
 4127 | true | true | Wohnraumentwicklung
 4128 | true | true | Wohnraumentwicklung
@@ -287,7 +287,7 @@ id | visible | visibleInPortal | indikatorenset
 4953 | false |  | 
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan
-5066 | true | true | Legislaturplan
+5066 | true | true | Legislaturplan-2017-2021
 5109 | false |  | Wohnviertel
 5110 | false |  | Wohnviertel
 5111 | false |  | Wohnviertel
@@ -332,7 +332,7 @@ id | visible | visibleInPortal | indikatorenset
 5188 | true | false | Nachhaltigkeit
 5189 | true | false | Nachhaltigkeit
 5191 | true | false | Nachhaltigkeit
-5192 | true | true | 
+5192 | true | true | Legislaturplan
 5193 | true | true | Nachhaltigkeit
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
@@ -444,76 +444,76 @@ id | visible | visibleInPortal | indikatorenset
 6088 | true | true | Integration
 6090 | true | true | Integration
 6091 | true | true | Integration
-6124 | true | true | Legislaturplan
+6124 | true | true | Legislaturplan-2017-2021
 6126 | true | true | Legislaturplan
 6127 | true | true | Legislaturplan
-6128 | true | true | Legislaturplan
-6129 | true | true | Legislaturplan
-6130 | true | true | Legislaturplan
-6131 | true | true | Legislaturplan
-6132 | true | true | Legislaturplan
-6133 | true | false | Legislaturplan
-6134 | true | true | Legislaturplan
-6136 | true | true | Legislaturplan
-6137 | true | true | Legislaturplan
-6138 | true | true | Legislaturplan
-6140 | true | true | Legislaturplan
-6141 | true | true | Legislaturplan
-6143 | true | false | Legislaturplan
-6144 | true | true | Legislaturplan
-6146 | true | true | Legislaturplan
+6128 | true | true | Legislaturplan-2017-2021
+6129 | true | true | Legislaturplan-2017-2021
+6130 | true | true | Legislaturplan-2017-2021
+6131 | true | true | Legislaturplan-2017-2021
+6132 | true | true | Legislaturplan-2017-2021
+6133 | true | false | Legislaturplan-2017-2021
+6134 | true | true | Legislaturplan-2017-2021
+6136 | true | true | Legislaturplan-2017-2021
+6137 | true | true | Legislaturplan-2017-2021
+6138 | true | true | Legislaturplan-2017-2021
+6140 | true | true | Legislaturplan-2017-2021
+6141 | true | true | Legislaturplan-2017-2021
+6143 | true | false | Legislaturplan-2017-2021
+6144 | true | true | Legislaturplan-2017-2021
+6146 | true | true | Legislaturplan-2017-2021
 6147 | true | false | Legislaturplan
-6148 | true | true | Legislaturplan
-6149 | true | true | Legislaturplan
+6148 | true | true | Legislaturplan-2017-2021
+6149 | true | true | Legislaturplan-2017-2021
 6150 | true | true | Legislaturplan
-6151 | true | true | Legislaturplan
-6152 | true | true | Legislaturplan
+6151 | true | true | Legislaturplan-2017-2021
+6152 | true | true | Legislaturplan-2017-2021
 6154 | true | true | Legislaturplan
-6155 | true | true | Legislaturplan
-6156 | true | true | Legislaturplan
-6157 | true | true | Legislaturplan
-6158 | true | true | Legislaturplan
-6159 | true | true | Legislaturplan
+6155 | true | true | Legislaturplan-2017-2021
+6156 | true | true | Legislaturplan-2017-2021
+6157 | true | true | Legislaturplan-2017-2021
+6158 | true | true | Legislaturplan-2017-2021
+6159 | true | true | Legislaturplan-2017-2021
 6160 | true | false | Legislaturplan
 6161 | true | false | Legislaturplan
 6163 | true | true | Legislaturplan
-6164 | true | true | Legislaturplan
+6164 | true | true | Legislaturplan-2017-2021
 6165 | true | true | Legislaturplan
-6166 | true | true | Legislaturplan
-6169 | true | true | Legislaturplan
-6170 | true | true | Legislaturplan
-6172 | true | true | Legislaturplan
-6173 | true | true | Legislaturplan
-6175 | true | true | Legislaturplan
-6176 | true | false | Legislaturplan
-6177 | true | true | Legislaturplan
-6179 | true | true | Legislaturplan
-6181 | true | true | Legislaturplan
-6182 | true | true | Legislaturplan
-6183 | true | true | Legislaturplan
-6184 | true | true | Legislaturplan
-6185 | true | false | Legislaturplan
+6166 | true | true | Legislaturplan-2017-2021
+6169 | true | true | Legislaturplan-2017-2021
+6170 | true | true | Legislaturplan-2017-2021
+6172 | true | true | Legislaturplan-2017-2021
+6173 | true | true | Legislaturplan-2017-2021
+6175 | true | true | Legislaturplan-2017-2021
+6176 | true | false | Legislaturplan-2017-2021
+6177 | true | true | Legislaturplan-2017-2021
+6179 | true | true | Legislaturplan-2017-2021
+6181 | true | true | Legislaturplan-2017-2021
+6182 | true | true | Legislaturplan-2017-2021
+6183 | true | true | Legislaturplan-2017-2021
+6184 | true | true | Legislaturplan-2017-2021
+6185 | true | false | Legislaturplan-2017-2021
 6186 | true | false | Legislaturplan
-6201 | true | true | Legislaturplan
-6202 | true | true | Legislaturplan
+6201 | true | true | Legislaturplan-2017-2021
+6202 | true | true | Legislaturplan-2017-2021
 6203 | true | true | 
 6204 | true | true | 
-6205 | true | true | Legislaturplan
+6205 | true | true | Legislaturplan-2017-2021
 6206 | true | true | Legislaturplan
-6209 | true | true | Legislaturplan
-6210 | true | true | Legislaturplan
-6211 | true | true | Legislaturplan
-6213 | true | true | Legislaturplan
+6209 | true | true | Legislaturplan-2017-2021
+6210 | true | true | Legislaturplan-2017-2021
+6211 | true | true | Legislaturplan-2017-2021
+6213 | true | true | Legislaturplan-2017-2021
 6214 | true | true | Richtplan
 6215 | true | true | Richtplan
 6216 | true | false | Richtplan
 6217 | true | true | Richtplan
 6218 | true | true | Richtplan
 6220 | true | true | Richtplan
-6228 | true | true | Legislaturplan
+6228 | true | true | Legislaturplan-2017-2021
 6236 | true | true | Richtplan
-6239 | true | true | Legislaturplan
-6240 | true | true | Legislaturplan
+6239 | true | true | Legislaturplan-2017-2021
+6240 | true | true | Legislaturplan-2017-2021
 6242 | true | false | Richtplan (Print)
 6243 | true | false | Richtplan (Print)
 6244 | true | false | Richtplan (Print)
@@ -538,7 +538,7 @@ id | visible | visibleInPortal | indikatorenset
 6263 | true | false | Richtplan (Print)
 6264 | true | false | Richtplan (Print)
 6265 | true | false | Richtplan (Print)
-6266 | true | true | Legislaturplan
+6266 | true | true | Legislaturplan-2017-2021
 6273 | true | false | Legislaturplan (Print)
 6274 | true | false | Legislaturplan (Print)
 6275 | true | false | Legislaturplan (Print)
@@ -611,9 +611,9 @@ id | visible | visibleInPortal | indikatorenset
 6342 | true | false | Legislaturplan (Print)
 6343 | true | false | Legislaturplan (Print)
 6344 | true | false | Legislaturplan (Print)
-6346 | true | true | Legislaturplan
-6347 | true | false | Legislaturplan
-6348 | true | true | Legislaturplan
+6346 | true | true | Legislaturplan-2017-2021
+6347 | true | false | Legislaturplan-2017-2021
+6348 | true | true | Legislaturplan-2017-2021
 6363 | true | true | 
 6364 | true | true | 
 6365 | true | true | 
@@ -683,7 +683,7 @@ id | visible | visibleInPortal | indikatorenset
 6434 | true | true | Nachhaltigkeit
 6435 | true | false | Nachhaltigkeit
 6437 | false |  | Legislaturplan
-6438 | true | true | Legislaturplan
+6438 | true | true | Legislaturplan-2017-2021
 6442 | false |  | Legislaturplan (Print)
 6443 | true | false | Legislaturplan (Print)
 6448 | true | true | Arbeitsmarkt
@@ -1015,7 +1015,7 @@ id | visible | visibleInPortal | indikatorenset
 6993 | true | true | 
 6994 | true | true | 
 6995 | true | true | 
-6996 | true | true | 
+6996 | true | true | Legislaturplan
 6997 | true | true | 
 6998 | true | true | 
 6999 | true | true | 

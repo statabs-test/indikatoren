@@ -51,6 +51,8 @@ files.forEach(function(filepath){
         delete indikator.id;
         indikator.id = parseInt(idFromFileName, 10);
         
+if (indikator.template == undefined) indikator.template = '';
+
         //handle missing darstellungsart
         indikator.darstellungsart = (indikator.darstellungsart || (indikator.template.includes("map") ? "Karte" : "Diagramm"));
         
