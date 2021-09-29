@@ -78159,6 +78159,44 @@ var indikatoren = [
 		"id": 9365
 	},
 	{
+		"template": "template001",
+		"data-id": 9368,
+		"chart-id": 9368,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beschäftigte in der Branche Kultur",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Erwerbstätige in der Branche Kultur",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.09368",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.14",
+		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_014",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T04:29:59",
+		"id": 9368
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 9369,
 		"chart-id": 6499,
