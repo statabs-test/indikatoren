@@ -41517,5 +41517,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-20T05:49:42",
 		"id": 9377
+	},
+	{
+		"template": "template001",
+		"data-id": 9380,
+		"chart-id": 9380,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration",
+		"thema": "11 Verkehr",
+		"unterthema": "Pendler",
+		"kuerzel": "I.11.5.09380",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "3.3",
+		"stufe1": "Legislaturziel 3: Partnerschaftlich zusammenarbeiten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T06:09:53",
+		"id": 9380
 	}
 ];

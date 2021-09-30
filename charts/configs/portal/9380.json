@@ -1,0 +1,207 @@
+{
+  "series": [
+    {
+      "color": "rgb(103,39,115)",
+      "index": 2,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Pendler innerhalb BS",
+          5505
+        ],
+        [
+          "Zupendler von BL",
+          2162
+        ],
+        [
+          "Zupendler aus sonstigen Kantonen",
+          1257
+        ]
+      ],
+      "name": "Bildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(180,117,171)",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Pendler innerhalb BS",
+          9726
+        ],
+        [
+          "Zupendler von BL",
+          7159
+        ],
+        [
+          "Zupendler aus sonstigen Kantonen",
+          2780
+        ]
+      ],
+      "name": "Gesundheits- und Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(231,207,226)",
+      "index": 0,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Pendler innerhalb BS",
+          954
+        ],
+        [
+          "Zupendler von BL",
+          585
+        ],
+        [
+          "Zupendler aus sonstigen Kantonen",
+          304
+        ]
+      ],
+      "name": "Kultur",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "useHTML": false,
+      "formatter": function() {
+      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "inverted": true,
+    "renderTo": "container-9380",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 20
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 5,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
+  },
+  "exporting": {
+    "filename": "9380"
+  }
+}
