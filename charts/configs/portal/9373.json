@@ -1,0 +1,280 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "Nordwestschweiz",
+          18.8
+        ],
+        [
+          "Schweiz",
+          15.1
+        ]
+      ],
+      "name": "Zahlungsrückstand 2019",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "Nordwestschweiz",
+          "low": 14.9,
+          "high": 22.8
+        },
+        {
+          "name": "Schweiz",
+          "low": 13.9,
+          "high": 16.2
+        }
+      ],
+      "name": "Zahlungrückstand 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#923F8D",
+      "tooltip": {
+        "pointFormatter": function(){
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+        }
+      },
+      "data": [
+        [
+          "Nordwestschweiz",
+          7.8
+        ],
+        [
+          "Schweiz",
+          7.6
+        ]
+      ],
+      "name": "Betreibung, Verlustschein 2017",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+        }
+      },
+      "data": [
+        {
+          "name": "Nordwestschweiz",
+          "low": 5.6,
+          "high": 10
+        },
+        {
+          "name": "Schweiz",
+          "low": 6.9,
+          "high": 8.3
+        }
+      ],
+      "name": "Betreibung, Verlustschein 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#FABD24",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Nordwestschweiz",
+          10.1
+        ],
+        [
+          "Schweiz",
+          8.8
+        ]
+      ],
+      "name": "Kontoüberziehung, Kreditkarte 2017",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "Nordwestschweiz",
+          "low": 7.3,
+          "high": 13
+        },
+        {
+          "name": "Schweiz",
+          "low": 8.3,
+          "high": 8.8
+        }
+      ],
+      "name": "Kontoüberziehung, Kreditkarte 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginBottom": 65,
+    "type": "column",
+    "renderTo": "container-9373",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Kontoüberziehungen, Zahlungsrückstände, Betreibungen"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+            return Highcharts.numberFormat((this.value),0)+'%';                
+        }
+    },
+    "tickDistance": 10
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemDistance": 5,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC).\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": "9373"
+  }
+}
