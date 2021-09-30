@@ -118,7 +118,9 @@
                     }
                 }
     },
+    "type": "column",
     "inverted": true,
+    "marginRight": 25,
     "renderTo": "container-9380",
     "spacingBottom": 40
   },
@@ -130,6 +132,9 @@
           "fontSize": "10px"
         }
       }
+    },
+    "column": {
+      "stacking": "normal"
     }
   },
   "title": {
@@ -167,7 +172,7 @@
         "color": "#000000"
       }
     },
-    "tickInterval": 20
+    "tickAmount": 7
   },
   "legend": {
     "symbolRadius": 0,
@@ -200,6 +205,11 @@
       "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "9380"
