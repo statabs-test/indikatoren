@@ -15,7 +15,7 @@
   "xAxis": {
     "type": "category",
      "labels": {
-      "rotation": -90 
+      "rotation": 0 
     } 
   },
   "yAxis": {
@@ -48,7 +48,7 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {     
     "type": "column",
     "inverted": false,
   },
