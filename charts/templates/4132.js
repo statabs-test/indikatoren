@@ -57,8 +57,8 @@
             buttonSpacing: 15,                
             inputEnabled: false,
             selected: 2, 
-            inputDateFormat: '%Y',
-    		inputEditDateFormat: '%Y'
+            //inputDateFormat: '%Y',
+    		//inputEditDateFormat: '%Y'
         }  
 	};
 }());

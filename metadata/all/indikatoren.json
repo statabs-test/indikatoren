@@ -1266,7 +1266,7 @@
 		],
 		"title": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
-		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Befragte mit Schweizer Pass bewerten die Gesundheitsversorgung mit 93,9% höher als ausländische Befragte (90,7%). Bei den Altersgruppen ab 60 Jahren liegt die Zufriedenheit bei über 95%. Zwischen den Geschlechtern ist 2019 kein signifikanter Unterschied feststellbar.",
+		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Bei den Altersgruppen 60 bis 69 Jahre liegt die Zufriedenheit mit 97,3% am höchsten.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -78319,7 +78319,7 @@
 		"children": [],
 		"title": "Kontoüberziehungen, Zahlungsrückstände, Betreibungen",
 		"subtitle": "",
-		"lesehilfe": "2019 lebten in Basel-Stadt 18,8% der Bevölkerung in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 7,8% lebten 2017 in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte. 10,1% lebten 2017 In einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
+		"lesehilfe": "2019 lebten in der Nordwestschweiz 18,8% der Bevölkerung in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 7,8% lebten 2017 in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte. 10,1% lebten 2017 In einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
 		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"

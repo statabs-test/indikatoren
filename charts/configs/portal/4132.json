@@ -691,9 +691,7 @@
     ],
     "buttonSpacing": 15,
     "inputEnabled": false,
-    "selected": 2,
-    "inputDateFormat": "%Y",
-    "inputEditDateFormat": "%Y"
+    "selected": 2
   },
   "navigator": {
     "margin": 10,
