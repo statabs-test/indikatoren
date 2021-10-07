@@ -1342,6 +1342,45 @@ var indikatorensetData = [
 		"id": 9386
 	},
 	{
+		"template": "template001",
+		"data-id": 9387,
+		"chart-id": 9387,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Fussgänger- und Begegnungszonen",
+		"subtitle": "Fläche in m<sup>2</sup>",
+		"lesehilfe": "Im Jahr 2020 betrug die Fläche der Begegnungszonen in Basel-Stadt rund 204 000 m<sup>2</sup>, jene der Fussgängerzonen rund 39 000m<sup>2</sup>.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone: Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Verkehrsberuhigte%20Zonen&tree_group_layers_Verkehrsberuhigte%20Zonen=VR_Begegnungszone%2CVR_Fussgaengerzone&map_x=2612007&map_y=1267428&map_zoom=3' target = '_blank'>Fussgänger- und Begegnungszonen im kantonalen Geoportal.</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Fussgänger- und Begegnungszonen",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.09387",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "4.6",
+		"stufe1": "Legislaturziel 4: Städtischen Raum gemeinsam nutzen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T06:17:34",
+		"id": 9387
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 9388,
 		"chart-id": 4150,
