@@ -750,6 +750,43 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
+		"data-id": 9364,
+		"chart-id": 9364,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Gebäude mit Hochbreitbandanschlüssen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Per 30.04.2021 waren in Basel-Stadt 89% aller Gebäude mit einem Hochbreitbandanschluss versehen.",
+		"erlaeuterungen": "Anteil der Gebäude, die über einen Hochbreitbandanschluss (Festnetz) mit einer Download-Geschwindigkeit von mindestens 100 Mbit/s verfügen. Entscheidend für die effektiv nutzbare Kapazität ist die Zuführung innerhalb des Gebäudes.<br>Die Grundgesamtheit der Gebäude bilden diejenigen, welche gemäss Gebäude- und Wohnungsregister (GWR) des Bundesamtes für Statistik (BFS) den Status «bestehend» haben, also vollständig genutzt werden können. Falls pro Gebäude mehrere Netzbetreiber aktiv sind, wird derjenige Anschluss mit der höchsten Download-Geschwindigkeit berücksichtigt. Die Daten zu den Download-Geschwindigkeiten der Gebäude werden von den Netzbetreibern freiwillig an das BAKOM geliefert.",
+		"quellenangabe": [
+			"Bundesamt für Kommunikation (BAKOM), Breitbandatlas"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Gebäude mit Hochbreitbandanschlüssen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.09364",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.9",
+		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T04:15:06",
+		"id": 9364
+	},
+	{
+		"template": "line001",
 		"data-id": 9365,
 		"chart-id": 7588,
 		"filter": "",
