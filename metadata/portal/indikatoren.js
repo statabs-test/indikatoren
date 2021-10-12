@@ -41490,7 +41490,7 @@ var indikatoren = [
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
-			"JLL Büromarkt Schweiz 2020"
+			"JLL Büromarkt Schweiz"
 		],
 		"externalLinks": [],
 		"renderLink": [],
