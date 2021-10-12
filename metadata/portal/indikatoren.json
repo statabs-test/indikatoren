@@ -41479,6 +41479,44 @@
 		"id": 9364
 	},
 	{
+		"template": "line001",
+		"data-id": 9366,
+		"chart-id": 9366,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Angebotsquote bei Büros",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"JLL Büromarkt Schweiz 2020"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Angebotsquote bei Büros",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.09366",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.11",
+		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_011",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T04:25:08",
+		"id": 9366
+	},
+	{
 		"template": "template001",
 		"data-id": 9368,
 		"chart-id": 9368,
