@@ -1,66 +1,43 @@
 {
   "series": [
     {
-      "color": "rgb(103,39,115)",
-      "index": 2,
-      "legendIndex": 0,
-      "data": [
-        [
-          "Pendler innerhalb BS",
-          5505
-        ],
-        [
-          "Zupendler von BL",
-          2162
-        ],
-        [
-          "Zupendler aus sonstigen Kantonen",
-          1257
-        ]
-      ],
-      "name": "Bildung",
-      "turboThreshold": 0
-    },
-    {
       "color": "rgb(180,117,171)",
-      "index": 1,
       "legendIndex": 1,
       "data": [
         [
-          "Pendler innerhalb BS",
-          9726
+          "Basel-Landschaft",
+          32698
         ],
         [
-          "Zupendler von BL",
-          7159
+          "Aargau",
+          5435
         ],
         [
-          "Zupendler aus sonstigen Kantonen",
-          2780
+          "Solothurn",
+          3163
         ]
       ],
-      "name": "Gesundheits- und Sozialwesen",
+      "name": "Sonstige Branchen",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(231,207,226)",
-      "index": 0,
-      "legendIndex": 2,
+      "color": "rgb(103,39,115)",
+      "legendIndex": 0,
       "data": [
         [
-          "Pendler innerhalb BS",
-          954
+          "Basel-Landschaft",
+          9906
         ],
         [
-          "Zupendler von BL",
-          585
+          "Aargau",
+          1135
         ],
         [
-          "Zupendler aus sonstigen Kantonen",
-          304
+          "Solothurn",
+          1073
         ]
       ],
-      "name": "Kultur",
+      "name": "Bildung, Gesundheit, Kultur",
       "turboThreshold": 0
     }
   ],
