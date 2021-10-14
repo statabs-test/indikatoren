@@ -306,6 +306,7 @@
 					}
 				}
     },
+    "marginRight": 20,
     "renderTo": "container-9379"
   },
   "plotOptions": {
@@ -380,7 +381,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
+      "format": "{value:,.0f}"
     }
   },
   "legend": {

@@ -15,7 +15,7 @@
     //tickInterval: 10,
   //  max: 40, 
 	  "labels": {
-		  "format": "{value}"
+		  "format": "{value:,.0f}"
 	  }
   },	
   "tooltip": {
@@ -51,6 +51,9 @@
         "symbol": "circle",
       } 
     }
+  },
+  "chart":{
+    marginRight: 20
   }
 }
 }());
