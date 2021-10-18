@@ -58,7 +58,7 @@
         },
         "series": [
             {
-                "color": "#cd9c00",
+                "color": "#DC440E",
                 "index": 0,
                 zIndex: 2,
                 "type": "line",
@@ -68,7 +68,7 @@
                 tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
             },
             {
-                "color": "#7f5f1a",
+                "color": "#FABD24",
                 "index": 1,
                 zIndex: 2,
                 "type": "line",
@@ -78,7 +78,7 @@
                 tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>' }
             },
             {
-                "color": "#b375ab",
+                "color": "#246370",
                 "index": 2,
                 zIndex: 1,
                 "type": "column",
