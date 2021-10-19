@@ -43,7 +43,7 @@
     },
   plotOptions:{
      column: {
-         stacking: 'normal',
+        // stacking: 'normal',
   }
 }
 };

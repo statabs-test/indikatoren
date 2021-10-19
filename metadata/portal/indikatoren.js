@@ -41827,5 +41827,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-20T06:57:56",
 		"id": 9394
+	},
+	{
+		"template": "template001",
+		"data-id": 9396,
+		"chart-id": 9396,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Teilzeiterwerbstätige in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.09396",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "6.5",
+		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-21T10:53:35",
+		"id": 9396
 	}
 ];

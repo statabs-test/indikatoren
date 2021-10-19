@@ -53,7 +53,7 @@
           -18106
         ]
       ],
-      "name": "Wegpendler in die NWCH",
+      "name": "Wegpendler in die Nordwestschweiz",
       "turboThreshold": 0
     },
     {
@@ -109,7 +109,7 @@
           -5098
         ]
       ],
-      "name": "Wegpendler in die restliche CH",
+      "name": "Wegpendler in die restliche Schweiz",
       "turboThreshold": 0
     },
     {
@@ -221,7 +221,7 @@
           47226
         ]
       ],
-      "name": "Zupendler aus der NWCH",
+      "name": "Zupendler aus der Nordwestschweiz",
       "turboThreshold": 0
     },
     {
@@ -277,7 +277,7 @@
           9571
         ]
       ],
-      "name": "Zupendler aus der restlichen CH",
+      "name": "Zupendler aus der restlichen Schweiz",
       "turboThreshold": 0
     },
     {
