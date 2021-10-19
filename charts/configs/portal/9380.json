@@ -2,22 +2,55 @@
   "series": [
     {
       "color": "rgb(180,117,171)",
+      "index": 1,
       "legendIndex": 1,
       "data": [
         [
-          "Basel-Landschaft (Arlesheim, Laufen, Liestal, Sissach, Waldenburg)",
+          "Basel-Landschaft (alle Bezirke)",
+          null
+        ],
+        [
+          "Basel-Landschaft (alle Bezirke): 2010-2014",
+          2430
+        ],
+        [
+          "Basel-Landschaft (alle Bezirke): 2015-2019",
           2747
         ],
         [
           "Aargau (Laufenburg, Rheinfelden)",
+          null
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden): 2010-2014",
+          268
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden): 2015-2019",
           327
         ],
         [
           "Solothurn (Dorneck, Thierstein)",
+          null
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein): 2010-2014",
+          324
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein): 2015-2019",
           275
         ],
         [
           "Restliche Schweiz",
+          null
+        ],
+        [
+          "Restliche Schweiz: 2010-2014",
+          732
+        ],
+        [
+          "Restliche Schweiz: 2015-2019",
           705
         ]
       ],
@@ -26,26 +59,117 @@
     },
     {
       "color": "rgb(103,39,115)",
+      "index": 2,
       "legendIndex": 0,
       "data": [
         [
-          "Basel-Landschaft (Arlesheim, Laufen, Liestal, Sissach, Waldenburg)",
+          "Basel-Landschaft (alle Bezirke)",
+          null
+        ],
+        [
+          "Basel-Landschaft (alle Bezirke): 2010-2014",
+          5441
+        ],
+        [
+          "Basel-Landschaft (alle Bezirke): 2015-2019",
           7159
         ],
         [
           "Aargau (Laufenburg, Rheinfelden)",
+          null
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden): 2010-2014",
+          611
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden): 2015-2019",
           808
         ],
         [
           "Solothurn (Dorneck, Thierstein)",
+          null
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein): 2010-2014",
+          400
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein): 2015-2019",
           798
         ],
         [
           "Restliche Schweiz",
+          null
+        ],
+        [
+          "Restliche Schweiz: 2010-2014",
+          617
+        ],
+        [
+          "Restliche Schweiz: 2015-2019",
           777
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(250,189,36)",
+      "index": 0,
+      "legendIndex": 2,
+      "visible": false,
+      "data": [
+        [
+          "Basel-Landschaft (alle Bezirke)",
+          null
+        ],
+        [
+          "Basel-Landschaft (alle Bezirke): 2010-2014",
+          35424
+        ],
+        [
+          "Basel-Landschaft (alle Bezirke): 2015-2019",
+          32698
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden)",
+          null
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden): 2010-2014",
+          5768
+        ],
+        [
+          "Aargau (Laufenburg, Rheinfelden): 2015-2019",
+          5435
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein)",
+          null
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein): 2010-2014",
+          3112
+        ],
+        [
+          "Solothurn (Dorneck, Thierstein): 2015-2019",
+          3163
+        ],
+        [
+          "Restliche Schweiz",
+          null
+        ],
+        [
+          "Restliche Schweiz: 2010-2014",
+          7791
+        ],
+        [
+          "Restliche Schweiz: 2015-2019",
+          7511
+        ]
+      ],
+      "name": "Sonstige Branchen",
       "turboThreshold": 0
     }
   ],
@@ -64,10 +188,27 @@
       "style": {
         "color": "#000000"
       },
-      "useHTML": false,
-      "formatter": function() {
-      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
-      }
+      "formatter": function () {
+        //add sum of observations of visible series to the axis label
+        var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.visible;
+        });
+        var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+        var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+        }, 0);
+        //use N if all series are visible, otherwise use n
+        var nString =  'n=';
+          if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+        //delete everything before ":", including ":"
+        this.value = this.value.replace(/[^:]*:/, "");
+
+        //check for value that contains only spaces
+        if (sum != 0) return this.value;
+        //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+        return "<b>" + this.value + "</b>";
+    }
     }
   },
   "chart": {
@@ -106,6 +247,7 @@
     "type": "column",
     "inverted": true,
     "marginRight": 25,
+    "marginLeft": 210,
     "renderTo": "container-9380",
     "spacingBottom": 40
   },
@@ -118,7 +260,11 @@
         }
       }
     },
-    "column": {}
+    "column": {
+      "borderWidth": 0,
+      "groupPadding": 0.1,
+      "stacking": "normal"
+    }
   },
   "title": {
     "align": "left",
@@ -154,8 +300,7 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickAmount": 7
+    }
   },
   "legend": {
     "symbolRadius": 0,
