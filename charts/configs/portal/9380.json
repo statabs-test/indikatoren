@@ -1,175 +1,163 @@
 {
   "series": [
     {
+      "index": 0,
       "color": "rgb(180,117,171)",
-      "index": 1,
-      "legendIndex": 1,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
+      },
       "data": [
         [
-          "Basel-Landschaft (alle Bezirke)",
-          null
+          "2010",
+          2176
         ],
         [
-          "Basel-Landschaft (alle Bezirke): 2010-2014",
-          2430
+          "2011",
+          3396
         ],
         [
-          "Basel-Landschaft (alle Bezirke): 2015-2019",
-          2747
+          "2012",
+          3196
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden)",
-          null
+          "2013",
+          2942
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden): 2010-2014",
-          268
+          "2014",
+          3400
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden): 2015-2019",
-          327
+          "2015",
+          3713
         ],
         [
-          "Solothurn (Dorneck, Thierstein)",
-          null
+          "2016",
+          3915
         ],
         [
-          "Solothurn (Dorneck, Thierstein): 2010-2014",
-          324
+          "2017",
+          3962
         ],
         [
-          "Solothurn (Dorneck, Thierstein): 2015-2019",
-          275
+          "2018",
+          2257
         ],
         [
-          "Restliche Schweiz",
-          null
-        ],
-        [
-          "Restliche Schweiz: 2010-2014",
-          732
-        ],
-        [
-          "Restliche Schweiz: 2015-2019",
-          705
+          "2019",
+          2898
         ]
       ],
       "name": "Bildung, Kultur",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(103,39,115)",
       "index": 2,
-      "legendIndex": 0,
+      "color": "rgb(103,39,115)",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
+      },
       "data": [
         [
-          "Basel-Landschaft (alle Bezirke)",
-          null
+          "2010",
+          3654
         ],
         [
-          "Basel-Landschaft (alle Bezirke): 2010-2014",
-          5441
+          "2011",
+          5904
         ],
         [
-          "Basel-Landschaft (alle Bezirke): 2015-2019",
-          7159
+          "2012",
+          6943
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden)",
-          null
+          "2013",
+          7881
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden): 2010-2014",
-          611
+          "2014",
+          7876
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden): 2015-2019",
-          808
+          "2015",
+          8602
         ],
         [
-          "Solothurn (Dorneck, Thierstein)",
-          null
+          "2016",
+          9096
         ],
         [
-          "Solothurn (Dorneck, Thierstein): 2010-2014",
-          400
+          "2017",
+          9511
         ],
         [
-          "Solothurn (Dorneck, Thierstein): 2015-2019",
-          798
+          "2018",
+          8145
         ],
         [
-          "Restliche Schweiz",
-          null
-        ],
-        [
-          "Restliche Schweiz: 2010-2014",
-          617
-        ],
-        [
-          "Restliche Schweiz: 2015-2019",
-          777
+          "2019",
+          8471
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(250,189,36)",
-      "index": 0,
-      "legendIndex": 2,
+      "index": 4,
       "visible": false,
+      "color": "rgb(250,189,36)",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
+      },
       "data": [
         [
-          "Basel-Landschaft (alle Bezirke)",
-          null
+          "2010",
+          46291
         ],
         [
-          "Basel-Landschaft (alle Bezirke): 2010-2014",
-          35424
+          "2011",
+          43921
         ],
         [
-          "Basel-Landschaft (alle Bezirke): 2015-2019",
-          32698
+          "2012",
+          43914
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden)",
-          null
+          "2013",
+          42794
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden): 2010-2014",
-          5768
+          "2014",
+          44597
         ],
         [
-          "Aargau (Laufenburg, Rheinfelden): 2015-2019",
-          5435
+          "2015",
+          42551
         ],
         [
-          "Solothurn (Dorneck, Thierstein)",
-          null
+          "2016",
+          42305
         ],
         [
-          "Solothurn (Dorneck, Thierstein): 2010-2014",
-          3112
+          "2017",
+          43303
         ],
         [
-          "Solothurn (Dorneck, Thierstein): 2015-2019",
-          3163
+          "2018",
+          40104
         ],
         [
-          "Restliche Schweiz",
-          null
-        ],
-        [
-          "Restliche Schweiz: 2010-2014",
-          7791
-        ],
-        [
-          "Restliche Schweiz: 2015-2019",
-          7511
+          "2019",
+          38219
         ]
       ],
-      "name": "Sonstige Branchen",
+      "name": "Alle anderen Branchen",
       "turboThreshold": 0
     }
   ],
@@ -187,28 +175,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "formatter": function () {
-        //add sum of observations of visible series to the axis label
-        var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-            return val.visible;
-        });
-        var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-        var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-            return accumulator + series.yData[indexOfCurrentValue];
-        }, 0);
-        //use N if all series are visible, otherwise use n
-        var nString =  'n=';
-          if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-
-        //delete everything before ":", including ":"
-        this.value = this.value.replace(/[^:]*:/, "");
-
-        //check for value that contains only spaces
-        if (sum != 0) return this.value;
-        //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
-        return "<b>" + this.value + "</b>";
-    }
+      }
     }
   },
   "chart": {
@@ -244,25 +211,20 @@
                     }
                 }
     },
+    "marginBottom": 65,
     "type": "column",
-    "inverted": true,
-    "marginRight": 25,
-    "marginLeft": 210,
+    "inverted": false,
     "renderTo": "container-9380",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "column": {
-      "borderWidth": 0,
-      "groupPadding": 0.1,
+      },
       "stacking": "normal"
     }
   },
@@ -299,7 +261,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
     }
   },
   "legend": {
@@ -307,8 +272,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5,
     "enabled": true,
+    "itemDistance": 5,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
@@ -335,8 +300,6 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": true
   },
   "exporting": {
