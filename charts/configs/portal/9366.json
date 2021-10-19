@@ -96,10 +96,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angebotsquote bei Büros"
+    "text": "Angebotsquote der Büroflächen"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

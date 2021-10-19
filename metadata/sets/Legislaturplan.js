@@ -829,10 +829,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Angebotsquote bei Büros",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"title": "Angebotsquote der Büroflächen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Angebotsquote der Büroflächen hat seit 2018 stark zugenommen.",
+		"erlaeuterungen": "Die Angebotsquote drückt das Angebot leerstehender und angebotener Büroflächen gemessen an der Gesamtfläche der Büroflächen aus.",
 		"quellenangabe": [
 			"JLL Büromarkt Schweiz"
 		],
@@ -841,7 +841,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Angebotsquote bei Büros",
+		"description": "Angebotsquote der Büroflächen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kuerzel": "I.09.1.09366",
