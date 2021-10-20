@@ -5,49 +5,49 @@
       "color": "#008AC3",
       "tooltip": {
         "pointFormatter": function () {
-                        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+                        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100), 0) + '%</b>';
                     }
       },
       "data": [
         [
           "2011",
-          1561
+          0.32
         ],
         [
           "2012",
-          1672
+          0.33
         ],
         [
           "2013",
-          1521
+          0.31
         ],
         [
           "2014",
-          1569
+          0.32
         ],
         [
           "2015",
-          1633
+          0.33
         ],
         [
           "2016",
-          1750
+          0.35
         ],
         [
           "2017",
-          1725
+          0.34
         ],
         [
           "2018",
-          1738
+          0.34
         ],
         [
           "2019",
-          1818
+          0.35
         ],
         [
           "2020",
-          1881
+          0.36
         ]
       ],
       "name": "Männer",
@@ -58,49 +58,49 @@
       "color": "#dc440e",
       "tooltip": {
         "pointFormatter": function () {
-                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100), 0) + '%</b>';
                     }
       },
       "data": [
         [
           "2011",
-          4004
+          0.75
         ],
         [
           "2012",
-          4281
+          0.76
         ],
         [
           "2013",
-          4016
+          0.75
         ],
         [
           "2014",
-          4108
+          0.75
         ],
         [
           "2015",
-          4256
+          0.76
         ],
         [
           "2016",
-          4441
+          0.77
         ],
         [
           "2017",
-          4484
+          0.77
         ],
         [
           "2018",
-          4593
+          0.77
         ],
         [
           "2019",
-          4736
+          0.77
         ],
         [
           "2020",
-          4839
+          0.77
         ]
       ],
       "name": "Frauen",
@@ -111,49 +111,49 @@
       "color": "#3c3c3c",
       "tooltip": {
         "pointFormatter": function () {
-                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100), 0) + '%</b>';
                     }
       },
       "data": [
         [
           "2011",
-          5565
+          0.54
         ],
         [
           "2012",
-          5953
+          0.56
         ],
         [
           "2013",
-          5537
+          0.54
         ],
         [
           "2014",
-          5677
+          0.55
         ],
         [
           "2015",
-          5889
+          0.56
         ],
         [
           "2016",
-          6191
+          0.57
         ],
         [
           "2017",
-          6209
+          0.57
         ],
         [
           "2018",
-          6331
+          0.57
         ],
         [
           "2019",
-          6554
+          0.58
         ],
         [
           "2020",
-          6720
+          0.58
         ]
       ],
       "name": "Total",
@@ -261,7 +261,7 @@
         "color": "#000000"
       },
       "formatter": function () {
-                    return Highcharts.numberFormat((this.value), 0);
+                    return Highcharts.numberFormat((this.value*100), 0) + '%';
                 }
     }
   },

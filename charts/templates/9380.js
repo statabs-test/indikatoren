@@ -51,6 +51,7 @@ global Highcharts
           "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
           }
+
         }
       },
       /*{

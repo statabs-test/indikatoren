@@ -16,7 +16,7 @@
                 color: "#008AC3",
                 "tooltip": {
                     "pointFormatter": function () {
-                        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+                        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100), 0) + '%</b>';
                     }
                 }
             },
@@ -25,7 +25,7 @@
                 color: "#dc440e",
                 "tooltip": {
                     "pointFormatter": function () {
-                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100), 0) + '%</b>';
                     }
                 }
 
@@ -35,7 +35,7 @@
                 color: "#3c3c3c",
                 "tooltip": {
                     "pointFormatter": function () {
-                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+                        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100), 0) + '%</b>';
                     }
                 }
             },
@@ -46,7 +46,7 @@
         "yAxis": {
             "labels": {
                 "formatter": function () {
-                    return Highcharts.numberFormat((this.value), 0);
+                    return Highcharts.numberFormat((this.value*100), 0) + '%';
                 },
             }
         },
