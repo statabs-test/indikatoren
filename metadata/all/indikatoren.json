@@ -78622,12 +78622,14 @@
 		"children": [],
 		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration",
 		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Zwischen 2010 und 2017 hat die Zahl der Zupendelnden aus der Agglomeration Basel (schweizerischer Teil) sowohl im Bereich Bildung und Kultur als auch im Gesundheits- und Sozialwesen deutlich zugenommen. Auch zwischen 2018 und 2019 ist ein Anstieg zu beobachten.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.In dieser Auswertung wird der schweizerische Teil der Agglomeration Basel gemäss Definition des Bundesamts für Statistik verwendet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/querschnittsthemen/raeumliche-analysen/raeumliche-gliederungen/analyseregionen.assetdetail.188849.html' target = '_blank'>Definition Agglomerationen gemäss BFS</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
