@@ -82,24 +82,34 @@
                 "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
                }*/
             },
+            {
+              "index": 5,
+              "color": "#BAA85A",
+                "legendIndex": 5,
+                "type": "column"/*,
+                "tooltip": {
+                  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
+                 }*/
+              },
+  
 
       {
-        index: 5,
+        index: 6,
         "color": "#000000",
         "type": "line",
-        "legendIndex": 5,
+        "legendIndex": 6,
         "yAxis": 1,
         "marker": {
           "enabled": false
       },
       "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
           shared: false
        }
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Anteil Elektroautos in der neuen Inverkehrsetzungen: <b>{point.total:,.0f}</b>%',
       shared: true,
       useHTML: true
     },
