@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#DC440E",
       "index": 1,
       "data": [
         [
@@ -81,6 +81,7 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-9397",
     "spacingBottom": 40
   },
@@ -93,11 +94,8 @@
         }
       }
     },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+    "column": {
+      "borderWidth": 0
     }
   },
   "title": {
@@ -154,14 +152,15 @@
       "formatter": function () {
                     return Highcharts.numberFormat((this.value * 100), 0) + '%';
                 }
-    }
+    },
+    "min": 0
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "itemWidth": 140,
     "layout": "horizontal",
     "verticalAlign": "top",

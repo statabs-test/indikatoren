@@ -4,6 +4,7 @@
             "tickInterval": 1,
         },
         "yAxis": {
+            min: 0,
             "labels": {
                 "format": "{value:,.0f}",
                 "formatter": function () {
@@ -19,12 +20,12 @@
 
         },
         "series": [
-            { "color": "#73B97C", index: 1 },
+            { "color": "#DC440E", index: 1 },
             //{ "color": "#007A2F ", index: 2 },
 
         ],
         "legend": {
-            "enabled": true,
+            "enabled": false,
             //"x": 45,
             //"y": 35,
             "itemWidth": 140,
@@ -37,12 +38,12 @@
             }
         },
         "plotOptions": {
-            "line": {
-                "marker": {
-                    "enabled": false,
-                    "symbol": "circle",
-                }
+            column: {
+                borderWidth: 0,
             }
+        },
+        "chart": {
+            "type": "column"
         }
     }
 }());
