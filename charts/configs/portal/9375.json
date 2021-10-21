@@ -43,7 +43,7 @@
       "name": "Index Medianprämie"
     },
     {
-      "color": "rgb(255,128,40)",
+      "color": "rgb(147,63,141)",
       "data": [
         [
           2010,
@@ -184,7 +184,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 7
   },
   "legend": {
     "enabled": true,

@@ -4,6 +4,7 @@
         tickInterval: 1
       },
       "yAxis": {
+          tickAmount: 7,
         "labels": {
           "format": "{value:,.0f}"
         }
@@ -14,7 +15,7 @@
       }, 
       "series": [
         { "color": "rgb(0,138,195)" },
-        { "color": "rgb(255,128,40)" },
+        { "color": "rgb(147,63,141)" },
       ],
       "legend": {
         "enabled": true,
