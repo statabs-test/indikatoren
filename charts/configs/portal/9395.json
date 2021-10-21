@@ -316,10 +316,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -328,7 +328,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/', '/<br/>');
-        }
+        },
+    "enabled": true
   },
   "exporting": {
     "filename": "9395"

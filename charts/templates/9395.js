@@ -41,10 +41,11 @@
          "inverted": true,
       },
     "legend": {
-        "layout": "vertical",
-        "verticalAlign": "middle",
-        "itemMarginBottom": 5,     
-        "align": "right",
+        "enabled": true,
+        "layout": "horizontal",
+        "verticalAlign": "top",
+        "align": "left",
+        "itemMarginBottom": 5,
         "useHTML": false,
         "itemStyle": {
             "fontWeight": "normal"
