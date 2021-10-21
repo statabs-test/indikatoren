@@ -79083,9 +79083,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Verwaltungsstellen und Datensätze OGD sowie Anzahl Geodatensätze",
+		"title": "Anzahl datenpublizierende Verwaltungsstellen von OGD sowie Anzahl OGD- und Geodatensätze im Kanton Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Die Anzahl öffentlich verfügbarer Geodatensätze nimmt seit 2016 kontinuierlich zu. Auch die auf dem kantonalen Datenportal publizierten Datensätze sowie die datenpublizierenden Organisationen werden jährlich mehr.",
+		"lesehilfe": "Die Anzahl öffentlich verfügbarer Geodatensätze nimmt seit 2016 kontinuierlich zu. Auch die auf dem kantonalen Datenportal publizierten offenen Behördendaten (Open Government Data, OGD) sowie die datenpublizierenden Organisationen werden jährlich mehr.",
 		"erlaeuterungen": "Gezeigt wird jeweils der Stand per 31. Dezember jeden Jahres. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt gezählt und keine Bundesorgane. Das kantonale Datenportal ist seit November 2019 online, daher sind vorher keine Werte verfügbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -79099,7 +79099,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Verwaltungsstellen und Datensätze OGD sowie Anzahl Geodatensätze",
+		"description": "Anzahl datenpublizierende Verwaltungsstellen von OGD sowie Anzahl OGD- und Geodatensätze im Kanton Basel-Stadt",
 		"thema": "",
 		"unterthema": "Motorfahrzeuge",
 		"kuerzel": "I.65.1.09394",
@@ -79193,6 +79193,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-21T10:53:35",
 		"id": 9396
+	},
+	{
+		"template": "template001",
+		"data-id": 9397,
+		"chart-id": 9397,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.09397",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "6.6",
+		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-21T10:53:35",
+		"id": 9397
 	},
 	{
 		"title": "Test Daten",

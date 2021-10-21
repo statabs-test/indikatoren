@@ -158,7 +158,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Verwaltungsstellen und Datensätze OGD sowie Anzahl Geodatensätze"
+    "text": "Anzahl datenpublizierende Verwaltungsstellen von OGD sowie Anzahl OGD- und Geodatensätze im Kanton Basel-Stadt"
   },
   "subtitle": {
     "text": "",
