@@ -1006,6 +1006,43 @@ var indikatorensetData = [
 		"id": 9371
 	},
 	{
+		"template": "line001",
+		"data-id": 9372,
+		"chart-id": 9372,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
+		"subtitle": "Kanton Basel-Stadt",
+		"lesehilfe": "Die kantonale Sozialhilfequote sinkt seit dem Jahr 2017 kontinuierlich. 2020 liegt sie bei 6,3%. Im Verlaufe des Jahres 2020 wurden insgesamt 12 793 Personen finanziell durch die Sozialhilfe untterstützt.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Bei der Berechnung der Soziahilfequote ab 2015 wird auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Fälle in der Sozialhilfe und Sozialhilfequote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.09372",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.4",
+		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T05:28:56",
+		"id": 9372
+	},
+	{
 		"template": "template001",
 		"data-id": 9373,
 		"chart-id": 9373,
@@ -1684,6 +1721,43 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-20T06:57:56",
 		"id": 9394
+	},
+	{
+		"template": "befragungen001",
+		"data-id": 9395,
+		"chart-id": 9395,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nutzung kantonaler online-Dienstleistungen",
+		"subtitle": "«Haben Sie schon einmal kantonale Dienstleistungen online genutzt?» nach Alter, Kanton Basel-Stadt, 2019",
+		"lesehilfe": "54% der Befragten haben bereits kantonale Dienstleistungen online genutzt. 36% noch nie. Bei Befragten im Alter von über 70 liegt der Anteil Nutzender bei 29%. Jeweils rund zwei Drittel der Befragten der Altersgruppen zwischen 30 und 69 Jahren haben kontonale Dientsleistungen online genutzt.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Nutzung kantonaler online-Dienstleistungen",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.09395",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "6.4",
+		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T06:57:56",
+		"id": 9395
 	},
 	{
 		"template": "template001",
