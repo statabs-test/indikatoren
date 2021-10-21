@@ -2,8 +2,7 @@
     return {
       "plotOptions": {
         "series": {
-          pointPadding: 100,
-          "pointWidth": 15,
+          borderWidth: 0,
           "dataLabels": {
             "style": {
               "fontSize": "10px"
@@ -14,7 +13,10 @@
       },
       "xAxis": {
         "type": "category",
-        "tickInterval": 1
+        "tickInterval": 1,
+        "labels":{
+          rotation: 0
+        }
       },
       "yAxis": {
         tickInterval: 20000,
@@ -40,12 +42,12 @@
         }
       },
       "series": [
-        { "color": "#246370", legendIndex: 0}, 
+        { "color": "#83038", legendIndex: 4}, 
         { "color": "#689199", legendIndex: 2}, 
-        { "color": "#D3E2E4", legendIndex: 4}, 
-        { "color": "#007A2F", legendIndex: 1}, 
-        { "color": "#68AB2B", legendIndex: 3}, 
-        { "color": "#D7E8D2", legendIndex: 5}, 
+        { "color": "#A8C3CA", legendIndex: 0}, 
+        { "color": "#0A3B19", legendIndex: 5}, 
+        { "color": "#007A2F", legendIndex: 3}, 
+        { "color": "#68AB2B", legendIndex: 1}, 
         {
           "color": "#000000",  legendIndex: 6,
           //"index": 1,

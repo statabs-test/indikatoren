@@ -867,7 +867,7 @@ var indikatorensetData = [
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "",
 		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2018 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 600 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der Darstellenden Kunst.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Branche Kultur umfasst die Wirtschaftszweige \"Kreative, künstlerische und unterhaltende Tätigkeiten (NOGA 90)\" und \"Bibliotheken, Archive, Museen, botanische und zoologische Gärten (NOGA 91)\".",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Branche Kultur umfasst die Wirtschaftszweige Kreative, künstlerische und unterhaltende Tätigkeiten (NOGA 90) und Bibliotheken, Archive, Museen, botanische und zoologische Gärten (NOGA 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -1351,8 +1351,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund die Hälfte davon aus der Nordwestschweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
