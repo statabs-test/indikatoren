@@ -78241,8 +78241,8 @@
 		"children": [],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2018 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 600 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der Darstellenden Kunst.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Branche Kultur umfasst die Wirtschaftszweige \"Kreative, künstlerische und unterhaltende Tätigkeiten (NOGA 90)\" und \"Bibliotheken, Archive, Museen, botanische und zoologische Gärten (NOGA 91)\".",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -78251,7 +78251,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Erwerbstätige in der Branche Kultur",
+		"description": "Beschäftigte in der Branche Kultur",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.09368",

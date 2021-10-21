@@ -3,13 +3,18 @@
 "plotOptions": {
     "series": {
        borderWidth: 0,
-      "pointWidth": 30,
+       pointPadding: 0,
+       groupPadding: 0.1,
+      //"pointWidth": 30,
       "stacking": "normal"
     }
   },
   "xAxis": {
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    "labels": {
+      rotation: 0
+    }
   },  
   "yAxis": {
       "labels": {
@@ -18,17 +23,28 @@
 	"max": undefined
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    width: 150,
     "itemStyle": {
+      textOverflow: null,
       "fontWeight": "normal"
+    },
+    labelFormatter: function(){
+      return this.name.replace("Unterhaltungseinrichtungen", "Unterhaltungs-einrichtungen")
     }
   },
   "series": [
-  {"color": "#007A2F", "index": 5}, /*rot */
-  {"color": "#68AB2B ", "index": 4}, /*dunkelblau */
+ 
+  {"color": "#007A2F"}, 
+  {"color": "#68AB2B"},
+  {"color": "#D7E8D2"}, 
+  {"color": "#2B0099"}, 
+  {"color": "#008AC3"}, 
+  {"color": "#689199"}, 
+  {"color": "#D3E2E4"}, 
   ],
   "chart": {
     //"renderTo": 'container-I.01.1.0016', 

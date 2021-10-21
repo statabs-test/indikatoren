@@ -2,82 +2,275 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 5,
       "data": [
         [
           "2011",
-          1971
+          1543
         ],
         [
           "2012",
-          2089
+          1663
         ],
         [
           "2013",
-          2236
+          1781
         ],
         [
           "2014",
-          2392
+          1878
         ],
         [
           "2015",
-          2512
+          1934
         ],
         [
           "2016",
-          2438
+          1941
         ],
         [
           "2017",
-          2420
+          1933
         ],
         [
           "2018",
-          2411
+          1952
         ]
       ],
-      "name": "90: Kreative, künstlerische und unterhaltende Tätigkeiten",
+      "name": "Darstellende Kunst",
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B ",
-      "index": 4,
+      "color": "#68AB2B",
       "data": [
         [
           "2011",
-          1002
+          300
         ],
         [
           "2012",
-          966
+          289
         ],
         [
           "2013",
-          919
+          317
         ],
         [
           "2014",
-          987
+          370
         ],
         [
           "2015",
-          1012
+          387
         ],
         [
           "2016",
-          1119
+          359
         ],
         [
           "2017",
-          1182
+          345
         ],
         [
           "2018",
-          1184
+          334
         ]
       ],
-      "name": "91: Bibliotheken, Archive, Museen, botanische und zoologische Gärten",
+      "name": "Kunst, Schriftstellerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "data": [
+        [
+          "2011",
+          128
+        ],
+        [
+          "2012",
+          137
+        ],
+        [
+          "2013",
+          138
+        ],
+        [
+          "2014",
+          144
+        ],
+        [
+          "2015",
+          191
+        ],
+        [
+          "2016",
+          138
+        ],
+        [
+          "2017",
+          142
+        ],
+        [
+          "2018",
+          125
+        ]
+      ],
+      "name": "Kultur-, Unterhaltungseinrichtungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "data": [
+        [
+          "2011",
+          214
+        ],
+        [
+          "2012",
+          189
+        ],
+        [
+          "2013",
+          197
+        ],
+        [
+          "2014",
+          221
+        ],
+        [
+          "2015",
+          249
+        ],
+        [
+          "2016",
+          235
+        ],
+        [
+          "2017",
+          228
+        ],
+        [
+          "2018",
+          232
+        ]
+      ],
+      "name": "Bibliotheken und Archive",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2011",
+          613
+        ],
+        [
+          "2012",
+          609
+        ],
+        [
+          "2013",
+          574
+        ],
+        [
+          "2014",
+          616
+        ],
+        [
+          "2015",
+          610
+        ],
+        [
+          "2016",
+          646
+        ],
+        [
+          "2017",
+          700
+        ],
+        [
+          "2018",
+          712
+        ]
+      ],
+      "name": "Museen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2011",
+          4
+        ],
+        [
+          "2012",
+          5
+        ],
+        [
+          "2013",
+          4
+        ],
+        [
+          "2014",
+          5
+        ],
+        [
+          "2015",
+          5
+        ],
+        [
+          "2016",
+          5
+        ],
+        [
+          "2017",
+          6
+        ],
+        [
+          "2018",
+          7
+        ]
+      ],
+      "name": "Historische Stätten, Gebäude u.ä",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "2011",
+          171
+        ],
+        [
+          "2012",
+          163
+        ],
+        [
+          "2013",
+          144
+        ],
+        [
+          "2014",
+          145
+        ],
+        [
+          "2015",
+          148
+        ],
+        [
+          "2016",
+          233
+        ],
+        [
+          "2017",
+          248
+        ],
+        [
+          "2018",
+          233
+        ]
+      ],
+      "name": "Botanische Gärten, Zoos, Naturparks",
       "turboThreshold": 0
     }
   ],
@@ -95,7 +288,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickInterval": 1
   },
@@ -145,7 +339,8 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 30,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -189,12 +384,17 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "width": 150,
+    "labelFormatter": function(){
+      return this.name.replace("Unterhaltungseinrichtungen", "Unterhaltungs-einrichtungen")
+    }
   },
   "navigation": {
     "menuItemStyle": {
