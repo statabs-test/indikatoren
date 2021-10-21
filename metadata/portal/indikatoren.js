@@ -41593,6 +41593,45 @@ var indikatoren = [
 		"id": 9373
 	},
 	{
+		"template": "line001",
+		"data-id": 9375,
+		"chart-id": 9375,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Vergleich von Prämien- und Einkommensentwicklung",
+		"subtitle": "",
+		"lesehilfe": "Im Jahr 2018 lag der Index (Basis 2010) der Medianprämien bei 135,2. Der Index für den Median des Reinkommens bei 103,3.",
+		"erlaeuterungen": "Berechnet wird der Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Der Medianwert des Reineinkommens wird pro Veranlagung berechnet.<br>Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Grösse nach sortiert. Bei der Berechnung der Indizes werden die jeweiligen Werte des Jahres 2010 als Basiswert verwendet.",
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)",
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Vergleich von Prämien- und Einkommensentwicklung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.09375",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.7",
+		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T05:37:54",
+		"id": 9375
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 9377,
 		"chart-id": 9377,
