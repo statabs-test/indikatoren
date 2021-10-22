@@ -2030,6 +2030,9 @@ id | visible | visibleInPortal | indikatorenset
 9298 | true | false | Soziales
 9359 | true | false | 
 9360 | true | false | 
+9391 | true | true | Legislaturplan
+9392 | true | true | Legislaturplan
+9393 | true | true | Legislaturplan
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

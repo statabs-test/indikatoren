@@ -6,7 +6,7 @@
     "plotOptions": {
       "series": {
         "borderWidth": 0,
-        "pointWidth": 30,
+        /*"pointWidth": 30,*/
         "dataLabels": {
           "style": {
             "fontSize": "10px"
@@ -35,7 +35,7 @@
           text: null
       },
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.0f}%",
          "style": {
          "color": "black"
           },
@@ -103,13 +103,13 @@
           "enabled": false
       },
       "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
           shared: false
        }
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Anteil Elektroautos in der neuen Inverkehrsetzungen: <b>{point.total:,.0f}</b>%',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total neue Inverkehrsetzungen von Elektroautos: <b>{point.total:,.0f}</b>',
       shared: true,
       useHTML: true
     },

@@ -34,8 +34,8 @@
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',  "footerFormat": 'Total Produktion Solarenergie: <b>{point.total:,.0f}</b>',
-    shared: false
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    shared: true
   },  
   "chart": {      
     "type": "column",
