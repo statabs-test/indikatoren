@@ -530,7 +530,7 @@ var indikatorensetData = [
 		],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910 740 Tonnen auf 69 507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2018 von 833 367 Tonnen auf 694 517 Tonnen ab. Das entspricht einer Reduktion um 16,6% bzw. einem Rückgang von 4,3 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1312,8 +1312,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration Basel",
 		"subtitle": "",
-		"lesehilfe": "Zwischen 2010 und 2017 hat die Zahl der Zupendelnden aus der Agglomeration Basel (schweizerischer Teil) sowohl im Bereich Bildung und Kultur als auch im Gesundheits- und Sozialwesen deutlich zugenommen. Auch zwischen 2018 und 2019 ist ein Anstieg zu beobachten.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. In dieser Auswertung wird der schweizerische Teil der Agglomeration Basel gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS verwendet.",
+		"lesehilfe": "Im Jahr 2019 pendeln rund  8 300 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 700 zupendelnde Erwerbstätige arbeiten im Bereich Bildung und Kultur.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. In dieser Auswertung wird der schweizerische Teil der Agglomeration Basel gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS verwendet. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1680,6 +1680,117 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2020-11-26T12:16:49",
 		"id": 9389
+	},
+	{
+		"template": "template001",
+		"data-id": 9391,
+		"chart-id": 9391,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Elektroautos",
+		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an der gesammten neuen Inverkehrsetzungen von Personenwagen nahm stetig zwischen den Jahren 2015 und 2020 von 0% auf 28,8% zu.",
+		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Antriebsarten: Benzin-elektrisch und Diesel-elektrisch Normal- und Plug-in-Hybrid).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Elektroautos",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.09391",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.5",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-11-27T03:10:52",
+		"id": 9391
+	},
+	{
+		"template": "line001",
+		"data-id": 9392,
+		"chart-id": 9392,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Solarenergie",
+		"subtitle": "Produktion in GWh",
+		"lesehilfe": "Der Elektrizitäterzäugung durch Fotovoltaik Anlagen stieg von 0.17 GWh im Jahr 2000 auf 20.8 GWh im Jahr 2018. Die Produktion der Solarthermische Energie weist ähnliche Werte wie die Fotovoltaik auf.",
+		"erlaeuterungen": "Daten zur Solarthermische Energie werden jedes zweite Jahr durch die Energiestatistik erfasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Solarenergie",
+		"thema": "08 Energie",
+		"unterthema": "Produktion",
+		"kuerzel": "I.08.2.09392",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.8",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T06:32:41",
+		"id": 9392
+	},
+	{
+		"template": "template001",
+		"data-id": 9393,
+		"chart-id": 9393,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen",
+		"subtitle": "",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoverbrauch den Heizungen stieg zwischen den Jahren 2014 und 2018 von 21% auf 24%.",
+		"erlaeuterungen": "Elektrische Heizungen sind aus dieser Auswertung ausgeschlossen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen",
+		"thema": "08 Energie",
+		"unterthema": "Erneuerbare",
+		"kuerzel": "I.08.3.09393",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.9",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-20T06:32:41",
+		"id": 9393
 	},
 	{
 		"template": "template001",

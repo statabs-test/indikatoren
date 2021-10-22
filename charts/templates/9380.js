@@ -36,7 +36,8 @@ global Highcharts
     plotOptions: {
       series: {
         stacking:"normal",
-        //pointPadding: 0,
+        pointPadding: 0.2,
+        groupPadding: 0,
         borderWidth: 0
       },
     },

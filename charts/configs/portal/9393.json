@@ -1,53 +1,75 @@
 {
   "series": [
     {
-      "color": "#DC440E",
       "index": 1,
+      "color": "#2F656B",
+      "legendIndex": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": true
+      },
       "data": [
         [
-          2011,
-          0.292741935
+          "2014",
+          20.948869447
         ],
         [
-          2012,
-          0.327034884
+          "2016",
+          23.575889064
         ],
         [
-          2013,
-          0.332390382
-        ],
-        [
-          2014,
-          0.351165981
-        ],
-        [
-          2015,
-          0.332358104
-        ],
-        [
-          2016,
-          0.337537538
-        ],
-        [
-          2017,
-          0.3429229
-        ],
-        [
-          2018,
-          0.358608894
-        ],
-        [
-          2019,
-          0.362527716
-        ],
-        [
-          2020,
-          0.357182168
+          "2018",
+          23.954216997
         ]
       ],
-      "name": "Anteil Frauen"
+      "name": "Erneuerbar",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#8B2223",
+      "legendIndex": 2,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": true
+      },
+      "data": [
+        [
+          "2014",
+          79.051130553
+        ],
+        [
+          "2016",
+          76.424110936
+        ],
+        [
+          "2018",
+          76.045783003
+        ]
+      ],
+      "name": "Fossil",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -82,20 +104,18 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9397",
+    "renderTo": "container-9393",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "column": {
-      "borderWidth": 0
+      },
+      "stacking": "true"
     }
   },
   "title": {
@@ -105,7 +125,8 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt"
+    "useHTML": true,
+    "text": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen"
   },
   "subtitle": {
     "text": "",
@@ -116,52 +137,41 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
-  },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "title": {
+        "text": null
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
       },
-      "format": "{value:,.0f}",
-      "formatter": function () {
-                    return Highcharts.numberFormat((this.value * 100), 0) + '%';
-                }
+      "min": 0,
+      "max": 100
     },
-    "min": 0
-  },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
-    "itemWidth": 140,
+    "useHTML": true,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -186,14 +196,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "tooltip": {
-    "pointFormatter": function () {
-                return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
-            }
+    "shared": true,
+    "useHTML": true
   },
   "exporting": {
-    "filename": "9397"
+    "filename": "9393"
   }
 }

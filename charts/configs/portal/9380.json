@@ -238,7 +238,9 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal"
+      "stacking": "normal",
+      "pointPadding": 0.2,
+      "groupPadding": 0
     }
   },
   "title": {
