@@ -37,9 +37,12 @@
     "align": "left",
     itemDistance: 0,
     itemMarginBottom: 2,
-    "itemStyle": {
-    "fontWeight": "normal"
-    }
+    itemWidth: 149,
+  width: 550,
+  itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  }
   },
   "series": [
     {"color":"#b00000", "index": 11,legendIndex: 0, "marker": {"enabled": false}}, //
