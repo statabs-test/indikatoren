@@ -191,9 +191,6 @@
     {
       "color": "#FABD24",
       "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2012,
@@ -241,9 +238,7 @@
     {
       "color": " #3c3c3c",
       "legendIndex": 3,
-      "marker": {
-        "enabled": false
-      },
+      "lineWidth": 3,
       "data": [
         [
           2012,
@@ -413,7 +408,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2020"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

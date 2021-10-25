@@ -36,16 +36,11 @@
       {
         "color": "#FABD24", /* dunkelgelb */
         "legendIndex": 1,
-        "marker": {
-          "enabled": false
-        }
       },
       {
         "color": " #3c3c3c", /* dunkelgrau */
         "legendIndex": 3,
-        "marker": {
-          "enabled": false
-        }
+        lineWidth: 3,
       },
     ],
     "legend": {

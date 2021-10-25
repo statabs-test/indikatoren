@@ -1914,43 +1914,43 @@ var indikatoren = [
 		"id": 4132
 	},
 	{
-		"parentId": null,
-		"children": [],
 		"template": "template001",
+		"data-id": 4133,
+		"chart-id": 4133,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9383
+		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "",
-		"kuerzelKunde": "1.2.A",
-		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "50 Befragungen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig auf 112 389 im Jahr 2020 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% auf 7 066 bzw. +9,4% auf 19 493), am geringsten bei den Einzimmerwohnungen (+3,1% auf 11 712).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:01.011",
+		"description": "Wohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.04133",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.A",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (3,1%).",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4133,
-		"chart-id": 4133,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:30",
 		"id": 4133
 	},
 	{
@@ -16096,8 +16096,8 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant.",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -78271,13 +78271,13 @@ var indikatoren = [
 	{
 		"template": "befragungen001",
 		"data-id": 9369,
-		"chart-id": 6499,
+		"chart-id": 9369,
 		"filter": "",
-		"parentId": "6499",
+		"parentId": null,
 		"children": [],
 		"title": "Zufriedenheit mit dem Kulturangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt",
-		"lesehilfe": "39,6% der im Jahr 2019 Befragten sind mit dem Kulturangebot sehr zufrieden und 40,8% eher zufrieden. Insgesamt 7,6% sind damit eher oder sehr unzufrieden. Nach Staatsangehörigkeit lässt sich 2019 kein signifikanter Unterschied in der Beurteilung beobachten.",
+		"lesehilfe": "39,6% der im Jahr 2019 Befragten sind mit dem Kulturangebot sehr zufrieden und 40,8% eher zufrieden. Insgesamt 7,6% sind damit eher oder sehr unzufrieden.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -78301,7 +78301,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_015",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2020-11-16T08:48:06",
 		"id": 9369
@@ -78650,7 +78650,7 @@ var indikatoren = [
 		"id": 9378
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 9379,
 		"chart-id": 9379,
 		"filter": "",
@@ -78658,7 +78658,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden aus den Kantonen und dem Ausland ist im Beobachtungszeitraum gestiegen. Besonders stark war das Wachstum zwischen 2011 und 2020 bei den Studierenden aus dem Aargau (+39,7%).",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2020 bei total 26 300. Den grössten Anteil macht mit 6 293 Personen (23,9%) die Kategorie «Übrige Schweiz» aus. Besonders stark war das Wachstum zwischen 2011 und 2020 bei den Studierenden aus dem Aargau (+24,9%).",
 		"erlaeuterungen": "Studierende der Universität Basel und der Fachhochschule Nordwestschweiz FHNW nach Wohnort vor Studienbeginn. Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -78814,7 +78814,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (3,1%).",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig auf 112 389 im Jahr 2020 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% auf 7 066 bzw. +9,4% auf 19 493), am geringsten bei den Einzimmerwohnungen (+3,1% auf 11 712).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -78840,7 +78840,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-01-29T09:16:01",
+		"aktualisierungsdatum": "2021-10-04T08:37:30",
 		"id": 9383
 	},
 	{
