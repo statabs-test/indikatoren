@@ -41448,7 +41448,7 @@ var indikatoren = [
 		"title": "Gebäude mit Hochbreitbandanschlüssen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Per 30.04.2021 waren in Basel-Stadt 89% aller Gebäude mit einem Hochbreitbandanschluss versehen.",
-		"erlaeuterungen": "Anteil der Gebäude, die über einen Hochbreitbandanschluss (Festnetz) mit einer Download-Geschwindigkeit von mindestens 100 Mbit/s verfügen. Entscheidend für die effektiv nutzbare Kapazität ist die Zuführung innerhalb des Gebäudes.<br>Die Grundgesamtheit der Gebäude bilden diejenigen, welche gemäss Gebäude- und Wohnungsregister (GWR) des Bundesamtes für Statistik (BFS) den Status «bestehend» haben, also vollständig genutzt werden können. Falls pro Gebäude mehrere Netzbetreiber aktiv sind, wird derjenige Anschluss mit der höchsten Download-Geschwindigkeit berücksichtigt. Die Daten zu den Download-Geschwindigkeiten der Gebäude werden von den Netzbetreibern freiwillig an das BAKOM geliefert.",
+		"erlaeuterungen": "Anteil der Gebäude, die über einen Hochbreitbandanschluss (Festnetz) mit einer Download-Geschwindigkeit von mindestens 100 Mbit/s verfügen. <br>Die Grundgesamtheit der Gebäude bilden diejenigen, welche gemäss Gebäude- und Wohnungsregister (GWR) des Bundesamtes für Statistik (BFS) den Status «bestehend» haben, also vollständig genutzt werden können. Falls pro Gebäude mehrere Netzbetreiber aktiv sind, wird derjenige Anschluss mit der höchsten Download-Geschwindigkeit berücksichtigt. Die Daten zu den Download-Geschwindigkeiten der Gebäude werden von den Netzbetreibern freiwillig an das BAKOM geliefert.",
 		"quellenangabe": [
 			"Bundesamt für Kommunikation (BAKOM), Breitbandatlas"
 		],
@@ -41869,9 +41869,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Fussgänger- und Begegnungszonen",
-		"subtitle": "Fläche in m<sup>2</sup>",
-		"lesehilfe": "Im Jahr 2020 betrug die Fläche der Begegnungszonen in Basel-Stadt rund 204 000 m<sup>2</sup>, jene der Fussgängerzonen rund 39 000m<sup>2</sup>.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone: Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt.",
+		"subtitle": "Länge in Kilometern, Stadt Basel",
+		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 22 km, jene der Fussgängerzonen 4,7 km.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone: Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -41900,6 +41900,47 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-20T06:17:34",
 		"id": 9387
+	},
+	{
+		"template": "line001",
+		"data-id": 9390,
+		"chart-id": 9390,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Hitzetage und Tropennächte",
+		"subtitle": "Anzahl Tage",
+		"lesehilfe": "Im Jahr 2020 wurden 22 Hitzetage und 3 Tropennächte verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
+		"erlaeuterungen": "Hitzetage: Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Tropennächte: Anzahl Nächte im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel",
+			"Bundesamt für Umwelt (BAFU), Nationales Beobachtungsnetz für Luftfremdstoffe (NABEL)"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzetage und Tropennächte",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.09390",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.3",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-02-09T09:13:54",
+		"id": 9390
 	},
 	{
 		"template": "template001",

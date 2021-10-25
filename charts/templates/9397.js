@@ -5,6 +5,7 @@
         },
         "yAxis": {
             min: 0,
+            max: 1,
             "labels": {
                 "format": "{value:,.0f}",
                 "formatter": function () {
