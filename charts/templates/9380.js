@@ -36,8 +36,8 @@ global Highcharts
     plotOptions: {
       series: {
         stacking:"normal",
-        pointPadding: 0.2,
-        groupPadding: 0,
+        //pointPadding: 0.1,
+       // groupPadding: 0,
         borderWidth: 0
       },
     },
@@ -106,7 +106,13 @@ global Highcharts
       },*/
     ],
     "xAxis": {
-      "type": "category"
+      //"type": "category",
+      plotLines: [{
+        color: '#999999',
+        dashStyle: "longDash",
+        width: 1,
+        value: 2017.5
+    }]
     },
     "yAxis": {
       "labels": {

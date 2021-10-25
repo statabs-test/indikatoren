@@ -11,52 +11,47 @@
       },
       "data": [
         [
-          "2010",
+          2010,
           2143
         ],
         [
-          "2011",
+          2011,
           3364
         ],
         [
-          "2012",
+          2012,
           3114
         ],
         [
-          "2013",
+          2013,
           2878
         ],
         [
-          "2014",
+          2014,
           3283
         ],
         [
-          "2015",
+          2015,
           3713
         ],
         [
-          "2016",
+          2016,
           3744
         ],
         [
-          "2017",
+          2017,
           3896
         ],
         [
-          " ",
-          null
-        ],
-        [
-          "2018",
+          2018,
           2159
         ],
         [
-          "2019",
+          2019,
           2697
         ]
       ],
-      "name": "Bildung, Kultur",
-      "turboThreshold": 0
+      "name": "Bildung, Kultur"
     },
     {
       "index": 2,
@@ -68,52 +63,47 @@
       },
       "data": [
         [
-          "2010",
+          2010,
           3553
         ],
         [
-          "2011",
+          2011,
           5684
         ],
         [
-          "2012",
+          2012,
           6879
         ],
         [
-          "2013",
+          2013,
           7656
         ],
         [
-          "2014",
+          2014,
           7727
         ],
         [
-          "2015",
+          2015,
           8247
         ],
         [
-          "2016",
+          2016,
           8684
         ],
         [
-          "2017",
+          2017,
           9290
         ],
         [
-          " ",
-          null
-        ],
-        [
-          "2018",
+          2018,
           7778
         ],
         [
-          "2019",
+          2019,
           8335
         ]
       ],
-      "name": "Gesundheits- und Sozialwesen",
-      "turboThreshold": 0
+      "name": "Gesundheits- und Sozialwesen"
     },
     {
       "index": 4,
@@ -126,71 +116,49 @@
       },
       "data": [
         [
-          "2010",
+          2010,
           44374
         ],
         [
-          "2011",
+          2011,
           41799
         ],
         [
-          "2012",
+          2012,
           41743
         ],
         [
-          "2013",
+          2013,
           40952
         ],
         [
-          "2014",
+          2014,
           42264
         ],
         [
-          "2015",
+          2015,
           40373
         ],
         [
-          "2016",
+          2016,
           40626
         ],
         [
-          "2017",
+          2017,
           41041
         ],
         [
-          " ",
-          null
-        ],
-        [
-          "2018",
+          2018,
           38427
         ],
         [
-          "2019",
+          2019,
           36301
         ]
       ],
-      "name": "Alle anderen Branchen",
-      "turboThreshold": 0
+      "name": "Alle anderen Branchen"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -238,9 +206,7 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
-      "pointPadding": 0.2,
-      "groupPadding": 0
+      "stacking": "normal"
     }
   },
   "title": {
@@ -261,6 +227,30 @@
       "color": "#000000"
     },
     "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "plotLines": [
+      {
+        "color": "#999999",
+        "dashStyle": "longDash",
+        "width": 1,
+        "value": 2017.5
+      }
+    ]
   },
   "yAxis": {
     "gridLineWidth": 0.5,
