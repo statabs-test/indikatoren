@@ -53,7 +53,7 @@
     },
   "series": [
     {
-      "index": 0,
+      "index": 4,
       color: "#008AC3",
        "tooltip": {
         "pointFormatter": function(){
@@ -62,7 +62,7 @@
       }   
     },
     {
-      "index": 1,
+      "index": 5,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
@@ -71,7 +71,7 @@
       }
     },
         {
-      "index": 2,
+      "index": 6,
       color: "#A0BEC8",
       visible: false,
        "tooltip": {
@@ -82,7 +82,7 @@
       
     },
    {
-      "index": 3,
+      "index": 7,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
@@ -91,7 +91,7 @@
       }
     },
     {
-        "index": 4,
+        "index": 0,
         color: "#FABD24",
          "tooltip": {
           "pointFormatter": function(){
@@ -101,7 +101,7 @@
         
       },
      {
-        "index": 5,
+        "index": 1,
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
@@ -110,7 +110,7 @@
         }
       },
       {
-        "index": 6,
+        "index": 2,
         color: "#FFDA80",
         visible: false,
          "tooltip": {
@@ -121,7 +121,7 @@
         
       },
      {
-        "index": 7,
+        "index": 3,
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
