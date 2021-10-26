@@ -75,44 +75,6 @@
       ],
       "name": "Stimmt gar nicht",
       "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "data": [
-        [
-          "2011",
-          106
-        ],
-        [
-          "2015",
-          165
-        ],
-        [
-          "2019",
-          177
-        ]
-      ],
-      "name": "Weiss nicht",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "data": [
-        [
-          "2011",
-          110
-        ],
-        [
-          "2015",
-          48
-        ],
-        [
-          "2019",
-          68
-        ]
-      ],
-      "name": "Keine Angabe",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -273,7 +235,9 @@
     "labelFormatter": function(){
             return this.name.replace("/", " /<br/>");
         },
-    "reversed": false
+    "reversed": false,
+    "itemWidth": 180,
+    "width": 450
   },
   "exporting": {
     "filename": "9029"

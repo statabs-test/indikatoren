@@ -6,7 +6,7 @@
       { "color": "#FFBB58"}, // gelb
       { "color": "#B00000"}, // rot
       //{ "color": "#C8C8C8"}, // hellgrau
-      { "color": "#6F6F6F"}, // grau
+      //{ "color": "#6F6F6F"}, // grau
     ],
     xAxis: {
         type: "category"

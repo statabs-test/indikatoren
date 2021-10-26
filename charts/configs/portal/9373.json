@@ -11,34 +11,34 @@
       "data": [
         [
           "2013",
-          13.9
+          13.856
         ],
         [
           "2014",
-          12.6
+          12.624
         ],
         [
           "2015",
-          11.5
+          11.471
         ],
         [
           "2016",
-          12.6
+          12.59
         ],
         [
           "2017",
-          17
+          16.95673485
         ],
         [
           "2018",
-          15
+          15.01140628
         ],
         [
           "2019",
-          18.8
+          18.84792988
         ]
       ],
-      "name": "Zahlungsrückstand",
+      "name": "Zahlungsrückstand NWCH",
       "turboThreshold": 0
     },
     {
@@ -52,46 +52,47 @@
       "data": [
         {
           "name": "2013",
-          "low": 10.9,
-          "high": 16.8
+          "low": 10.914,
+          "high": 16.798
         },
         {
           "name": "2014",
-          "low": 10.4,
-          "high": 14.8
+          "low": 10.418,
+          "high": 14.83
         },
         {
           "name": "2015",
-          "low": 9.3,
-          "high": 13.7
+          "low": 9.257,
+          "high": 13.685
         },
         {
           "name": "2016",
-          "low": 10.2,
-          "high": 15
+          "low": 10.199,
+          "high": 14.981
         },
         {
           "name": "2017",
-          "low": 14,
-          "high": 19.9
+          "low": 14.00458285,
+          "high": 19.90888685
         },
         {
           "name": "2018",
-          "low": 11.3,
-          "high": 18.7
+          "low": 11.31876628,
+          "high": 18.70404628
         },
         {
           "name": "2019",
-          "low": 14.9,
-          "high": 22.8
+          "low": 14.87324588,
+          "high": 22.82261388
         }
       ],
-      "name": "Zahlungrückstand 95%-Konfidenzintervall Untergrenze",
+      "name": "Zahlungrückstand NWCH 95%-Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
       "index": 2,
-      "color": "#923F8D",
+      "color": "#A0BEC8",
+      "visible": false,
       "tooltip": {
         "pointFormatter": function(){
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
@@ -100,34 +101,34 @@
       "data": [
         [
           "2013",
-          5.6
+          15.312
         ],
         [
           "2014",
-          null
+          15.578
         ],
         [
           "2015",
-          null
+          16.275
         ],
         [
           "2016",
-          null
+          16.052
         ],
         [
           "2017",
-          7.8
+          16.53508365
         ],
         [
           "2018",
-          null
+          14.57205276
         ],
         [
           "2019",
-          null
+          15.06436836
         ]
       ],
-      "name": "Betreibung, Verlustschein",
+      "name": "Zahlungsrückstand CH",
       "turboThreshold": 0
     },
     {
@@ -141,41 +142,41 @@
       "data": [
         {
           "name": "2013",
-          "low": 3.5,
-          "high": 7.7
+          "low": 13.818,
+          "high": 16.806
         },
         {
           "name": "2014",
-          "low": null,
-          "high": null
+          "low": 14.664,
+          "high": 16.492
         },
         {
           "name": "2015",
-          "low": null,
-          "high": null
+          "low": 15.327,
+          "high": 17.223
         },
         {
           "name": "2016",
-          "low": null,
-          "high": null
+          "low": 15.107,
+          "high": 16.997
         },
         {
           "name": "2017",
-          "low": 5.6,
-          "high": 10
+          "low": 15.56253165,
+          "high": 17.50763565
         },
         {
           "name": "2018",
-          "low": null,
-          "high": null
+          "low": 13.41565276,
+          "high": 15.72845276
         },
         {
           "name": "2019",
-          "low": null,
-          "high": null
+          "low": 13.93090036,
+          "high": 16.19783636
         }
       ],
-      "name": "Betreibung, Verlustschein 95%-Konfidenzintervall Untergrenze",
+      "name": "Zahlungrückstand CH 95%-Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -189,7 +190,7 @@
       "data": [
         [
           "2013",
-          10
+          5.583
         ],
         [
           "2014",
@@ -205,7 +206,7 @@
         ],
         [
           "2017",
-          10.1
+          7.800565371
         ],
         [
           "2018",
@@ -216,7 +217,7 @@
           null
         ]
       ],
-      "name": "Kontoüberziehung, Kreditkarte",
+      "name": "Betreibung, Verlustschein NWCH",
       "turboThreshold": 0
     },
     {
@@ -230,8 +231,8 @@
       "data": [
         {
           "name": "2013",
-          "low": 7.2,
-          "high": 12.8
+          "low": 3.511,
+          "high": 7.655
         },
         {
           "name": "2014",
@@ -250,8 +251,8 @@
         },
         {
           "name": "2017",
-          "low": 7.3,
-          "high": 13
+          "low": 5.626533371,
+          "high": 9.974597371
         },
         {
           "name": "2018",
@@ -264,7 +265,276 @@
           "high": null
         }
       ],
-      "name": "Kontoüberziehung, Kreditkarte 95%-Konfidenzintervall Untergrenze",
+      "name": "Betreibung, Verlustschein NWCH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#FFDA80",
+      "visible": false,
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          6.13
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          7.632677014
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ]
+      ],
+      "name": "Betreibung, Verlustschein CH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 5.239,
+          "high": 7.021
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 6.937465014,
+          "high": 8.327889014
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Betreibung, Verlustschein CH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#923F8D",
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          9.971
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          10.12226894
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ]
+      ],
+      "name": "Kontoüberziehung, Kreditkarte NWCH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 7.182,
+          "high": 12.76
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 7.251848937,
+          "high": 12.99268894
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Kontoüberziehung, Kreditkarte NWCH 95%-Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 10,
+      "color": "#B375AB",
+      "visible": false,
+      "tooltip": {
+        "pointFormatter": function(){
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2013",
+          9.009
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          8.784763816
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ]
+      ],
+      "name": "Kontoüberziehung, Kreditkarte CH",
+      "turboThreshold": 0
+    },
+    {
+      "index": 11,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2013",
+          "low": 7.798,
+          "high": 10.22
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
+          "low": 7.989787816,
+          "high": 9.579739816
+        },
+        {
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
+        }
+      ],
+      "name": "Kontoüberziehung, Kreditkarte CH 95%-Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -378,10 +648,13 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none"
     },
     "enabled": true,
-    "itemDistance": 5,
+    "itemDistance": 0,
+    "width": 500,
+    "itemWidth": 230,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

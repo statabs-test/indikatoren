@@ -75,25 +75,6 @@
       ],
       "name": "Gar nicht seniorenfreundlich",
       "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "data": [
-        [
-          "2011",
-          250
-        ],
-        [
-          "2015",
-          161
-        ],
-        [
-          "2019",
-          175
-        ]
-      ],
-      "name": "Keine Angabe",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {

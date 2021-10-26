@@ -78582,8 +78582,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zufriedenheit mit der Seniorenfreundlichkeit im Kanton Basel-Stadt",
 		"subtitle": "«Wie seniorenfreundlich empfinden Sie den Kanton Basel-Stadt?», Basel-Stadt",
-		"lesehilfe": "13,0% der 2019 befragten Personen empfinden den Kanton Basel-Stadt als sehr seniorenfreundlich, 56,5% als eher seniorenfreundlich. Mit 18,1% liegt der Anteil der Befragten, welcher den Kanton als eher weniger oder gar nicht seniorenfreundlich empfindet, bei weniger als einem Fünftel. Gegenüber 2015 blieb dieser Anteil konstant.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"lesehilfe": "14,8% der 2019 befragten Personen über 54 Jahren empfinden den Kanton Basel-Stadt als sehr seniorenfreundlich, 64,5% als eher seniorenfreundlich. Mit 20,7% liegt der Anteil der Befragten, welcher den Kanton als eher weniger oder gar nicht seniorenfreundlich empfindet, bei einem Fünftel. Gegenüber 2015 blieb dieser Anteil konstant.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
@@ -78620,8 +78620,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "51,1% der 2019 befragten Personen stimmen der Aussage zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,6% stimmen dieser Aussage nicht zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"lesehilfe": "61,8% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 38,2% stimmen dieser Aussage nicht zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.  Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
