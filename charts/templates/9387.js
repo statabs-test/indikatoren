@@ -28,8 +28,9 @@
         },
         tooltip: {
             useHTML: true,
-            pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} m<sup>2</sup></b><br/>',
-            //footerFormat: 'Total: <b>{point.total:,.1f} GWh</b><br/>'
+            shared: true,
+            pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} km</b><br/>',
+            footerFormat: 'Total: <b>{point.total:,.0f} km</b><br/>'
         },
         legend: {
             enabled: true,
