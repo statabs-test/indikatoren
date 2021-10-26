@@ -41638,7 +41638,7 @@
 		"title": "Kontoüberziehungen, Zahlungsrückstände, Betreibungen",
 		"subtitle": "",
 		"lesehilfe": "2019 lebten in der Nordwestschweiz 18,8% der Bevölkerung in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 7,8% lebten 2017 in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte. 10,1% lebten 2017 In einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
-		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen werden konnten. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen wurden. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 8 000 Haushalten in der Schweiz und sind folglich mit einer gewissen Unsicherheit behaftet.Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
 		],
