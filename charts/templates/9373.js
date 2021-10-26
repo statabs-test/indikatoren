@@ -25,7 +25,8 @@
   },
   plotOptions: {
         series: {
-            //pointPadding: 0,
+            pointPadding: 0.1,
+            groupPadding: 0.1,
             borderWidth: 0
         }
     },
@@ -114,7 +115,6 @@
   },
   "chart": {    
     "marginBottom": 65,
-    //"marginTop": 75,
     "type": "column",
     //"inverted": true
   }, 

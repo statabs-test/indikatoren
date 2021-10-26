@@ -10,15 +10,35 @@
       },
       "data": [
         [
-          "Nordwestschweiz",
-          18.8
+          "2013",
+          13.9
         ],
         [
-          "Schweiz",
-          15.1
+          "2014",
+          12.6
+        ],
+        [
+          "2015",
+          11.5
+        ],
+        [
+          "2016",
+          12.6
+        ],
+        [
+          "2017",
+          17
+        ],
+        [
+          "2018",
+          15
+        ],
+        [
+          "2019",
+          18.8
         ]
       ],
-      "name": "Zahlungsrückstand 2019",
+      "name": "Zahlungsrückstand",
       "turboThreshold": 0
     },
     {
@@ -31,14 +51,39 @@
       },
       "data": [
         {
-          "name": "Nordwestschweiz",
-          "low": 14.9,
-          "high": 22.8
+          "name": "2013",
+          "low": 10.9,
+          "high": 16.8
         },
         {
-          "name": "Schweiz",
-          "low": 13.9,
-          "high": 16.2
+          "name": "2014",
+          "low": 10.4,
+          "high": 14.8
+        },
+        {
+          "name": "2015",
+          "low": 9.3,
+          "high": 13.7
+        },
+        {
+          "name": "2016",
+          "low": 10.2,
+          "high": 15
+        },
+        {
+          "name": "2017",
+          "low": 14,
+          "high": 19.9
+        },
+        {
+          "name": "2018",
+          "low": 11.3,
+          "high": 18.7
+        },
+        {
+          "name": "2019",
+          "low": 14.9,
+          "high": 22.8
         }
       ],
       "name": "Zahlungrückstand 95%-Konfidenzintervall Untergrenze",
@@ -54,15 +99,35 @@
       },
       "data": [
         [
-          "Nordwestschweiz",
+          "2013",
+          5.6
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
           7.8
         ],
         [
-          "Schweiz",
-          7.6
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
         ]
       ],
-      "name": "Betreibung, Verlustschein 2017",
+      "name": "Betreibung, Verlustschein",
       "turboThreshold": 0
     },
     {
@@ -75,14 +140,39 @@
       },
       "data": [
         {
-          "name": "Nordwestschweiz",
+          "name": "2013",
+          "low": 3.5,
+          "high": 7.7
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
           "low": 5.6,
           "high": 10
         },
         {
-          "name": "Schweiz",
-          "low": 6.9,
-          "high": 8.3
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Betreibung, Verlustschein 95%-Konfidenzintervall Untergrenze",
@@ -98,15 +188,35 @@
       },
       "data": [
         [
-          "Nordwestschweiz",
+          "2013",
+          10
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
           10.1
         ],
         [
-          "Schweiz",
-          8.8
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
         ]
       ],
-      "name": "Kontoüberziehung, Kreditkarte 2017",
+      "name": "Kontoüberziehung, Kreditkarte",
       "turboThreshold": 0
     },
     {
@@ -119,14 +229,39 @@
       },
       "data": [
         {
-          "name": "Nordwestschweiz",
+          "name": "2013",
+          "low": 7.2,
+          "high": 12.8
+        },
+        {
+          "name": "2014",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2015",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2017",
           "low": 7.3,
           "high": 13
         },
         {
-          "name": "Schweiz",
-          "low": 8.3,
-          "high": 8.8
+          "name": "2018",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2019",
+          "low": null,
+          "high": null
         }
       ],
       "name": "Kontoüberziehung, Kreditkarte 95%-Konfidenzintervall Untergrenze",
@@ -195,7 +330,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0.1,
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -208,7 +345,7 @@
     "text": "Kontoüberziehungen, Zahlungsrückstände, Betreibungen"
   },
   "subtitle": {
-    "text": "",
+    "text": "Nordwestschweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
