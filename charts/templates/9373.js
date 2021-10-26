@@ -174,6 +174,7 @@
     "type": "category"    
   },
   "yAxis": {
+    tickAmount: 6,
     "labels": {
         "formatter": function(){
             return Highcharts.numberFormat((this.value),0)+'%';                

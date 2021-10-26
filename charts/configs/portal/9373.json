@@ -643,6 +643,7 @@
             return Highcharts.numberFormat((this.value),0)+'%';                
         }
     },
+    "tickAmount": 6,
     "tickDistance": 10
   },
   "legend": {
