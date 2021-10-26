@@ -106,13 +106,13 @@ global Highcharts
       },*/
     ],
     "xAxis": {
-      //"type": "category",
-      plotLines: [{
+      "type": "category",
+      /*plotLines: [{
         color: '#999999',
         dashStyle: "longDash",
         width: 1,
         value: 2017.5
-    }]
+    }]*/
     },
     "yAxis": {
       "labels": {
