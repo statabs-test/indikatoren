@@ -8,6 +8,28 @@
       "data": [
         [
           "2014",
+          1066.2858135
+        ],
+        [
+          "2016",
+          878.06082491
+        ],
+        [
+          "2018",
+          576.23593859
+        ]
+      ],
+      "name": "Andere Energieträger (nicht erneuerbar)",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#DC440E",
+      "legendIndex": 2,
+      "type": "column",
+      "data": [
+        [
+          "2014",
           1036.08024
         ],
         [
@@ -20,28 +42,6 @@
         ]
       ],
       "name": "Fernwärme (nicht erneuerbar)",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "color": "#DC440E",
-      "legendIndex": 2,
-      "type": "column",
-      "data": [
-        [
-          "2014",
-          1066.2858134
-        ],
-        [
-          "2016",
-          878.06082491
-        ],
-        [
-          "2018",
-          576.23593859
-        ]
-      ],
-      "name": "Andere Energieträger (nicht erneuerbar)",
       "turboThreshold": 0
     },
     {
