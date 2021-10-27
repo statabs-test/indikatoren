@@ -42246,5 +42246,43 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-21T10:53:35",
 		"id": 9397
+	},
+	{
+		"template": "template001",
+		"data-id": 9398,
+		"chart-id": 9398,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl aktive E-Government Konten (eKonto) beim Kanton Basel-Stadt",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben.",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl aktive E-Government Konten (eKonto) beim Kanton Basel-Stadt",
+		"thema": "17 Politik",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.17.1.09398",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "6.2",
+		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-21T06:04:15",
+		"id": 9398
 	}
 ]
