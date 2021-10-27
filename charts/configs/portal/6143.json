@@ -706,7 +706,8 @@
   "tooltip": {
     "dateTimeLabelFormats": {
       "day": "%A, %e. %b. %Y"
-    }
+    },
+    "xDateFormat": "%A, %e. %b. %Y"
   },
   "exporting": {
     "csv": {
