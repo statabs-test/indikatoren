@@ -12,7 +12,7 @@
             "fontSize": "10px"
           }
         },
-        "stacking": "true"
+        "stacking": "percent"
       }
     },
     "xAxis": {
@@ -29,9 +29,9 @@
          "color": "black"
           },
       },
-      "min": 0,
-    max: 100  },
-    {
+      "min": 0
+    },
+   /* {
       title: {
           text: null
       },
@@ -43,37 +43,60 @@
       },
       "min": 0,
       "opposite": true
-    }
+    }*/
     ],
     "series": [
       {
   	  "index": 1,
-  	  "color": "#2F656B",
+  	  "color": "#661200",
         "legendIndex": 1,
         "type": "column",
-        "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+        /*"tooltip": {
+      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)</b><br/>',
           shared: true
-         }
-      }, // Blau
+         }*/
+      },
       {
         "index": 2,
-        "color": "#8B2223",
+        "color": "#DC440E",
           "legendIndex": 2,
           "type": "column",
-          "tooltip": {
-            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+          /*"tooltip": {
+            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)</b><br/>',
             shared: true
-           }
-        }
+           }*/
+      },
+
+      {
+        "index": 3,
+        "color": "#083038",
+          "legendIndex": 3,
+          "type": "column",
+          /*"tooltip": {
+            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)</b><br/>',
+            shared: true
+           }*/
+      },
+      {
+        "index": 4,
+        "color": "#689199",
+          "legendIndex": 4,
+          "type": "column",
+          /*"tooltip": {
+            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+            shared: true
+           }*/
+      }
     ],
     tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+      footerFormat: 'Total: <b>{point.total:,.0f}</b>',
       shared: true,
-      useHTML: true
+      //useHTML: false
     },
 
     "legend": {
-      useHTML: true,
+      //useHTML: false,
       "enabled": true,
       //"y": 35,
       "layout": "horizontal",
@@ -91,3 +114,5 @@
     }
   };
 }());
+
+

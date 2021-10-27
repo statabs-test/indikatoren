@@ -2,54 +2,90 @@
   "series": [
     {
       "index": 1,
-      "color": "#2F656B",
+      "color": "#661200",
       "legendIndex": 1,
       "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "shared": true
-      },
       "data": [
         [
           "2014",
-          20.948869447
+          1036.08024
         ],
         [
           "2016",
-          23.575889064
+          1146.4458803
         ],
         [
           "2018",
-          23.954216997
+          1309.4117768
         ]
       ],
-      "name": "Erneuerbar",
+      "name": "Fernwärme (nicht erneuerbar)",
       "turboThreshold": 0
     },
     {
       "index": 2,
-      "color": "#8B2223",
+      "color": "#DC440E",
       "legendIndex": 2,
       "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "shared": true
-      },
       "data": [
         [
           "2014",
-          79.051130553
+          1066.2858134
         ],
         [
           "2016",
-          76.424110936
+          878.06082491
         ],
         [
           "2018",
-          76.045783003
+          576.23593859
         ]
       ],
-      "name": "Fossil",
+      "name": "Andere Energieträger (nicht erneuerbar)",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "color": "#083038",
+      "legendIndex": 3,
+      "type": "column",
+      "data": [
+        [
+          "2014",
+          154.53513399
+        ],
+        [
+          "2016",
+          208.269607
+        ],
+        [
+          "2018",
+          180.40451733
+        ]
+      ],
+      "name": "Fernwärme (erneuerbar)",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#689199",
+      "legendIndex": 4,
+      "type": "column",
+      "data": [
+        [
+          "2014",
+          402.60037661
+        ],
+        [
+          "2016",
+          416.26556792
+        ],
+        [
+          "2018",
+          413.56943849
+        ]
+      ],
+      "name": "Andere Energieträger (erneuerbar)",
       "turboThreshold": 0
     }
   ],
@@ -115,7 +151,7 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "true"
+      "stacking": "percent"
     }
   },
   "title": {
@@ -129,7 +165,7 @@
     "text": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen"
   },
   "subtitle": {
-    "text": "",
+    "text": "GWh",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -148,21 +184,7 @@
           "color": "black"
         }
       },
-      "min": 0,
-      "max": 100
-    },
-    {
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}%",
-        "style": {
-          "color": "black"
-        }
-      },
-      "min": 0,
-      "opposite": true
+      "min": 0
     }
   ],
   "legend": {
@@ -170,7 +192,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "useHTML": true,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -199,8 +220,9 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "tooltip": {
-    "shared": true,
-    "useHTML": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "9393"
