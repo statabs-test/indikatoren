@@ -2007,7 +2007,7 @@
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch einem stark positiven Umbausaldo.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -79200,9 +79200,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen",
-		"subtitle": "GWh",
-		"lesehilfe": "Obwohl der nicht erneurbare Anteil des Fernwärme-Bruttoverbrauchs der Heizungen seit 2014 stabil blieb, nahm der nicht erneurbare Anteil der anderen Energieträger an den Heiuzungen in der selbe Periode von 1066 GWh auf 576 ab.",
-		"erlaeuterungen": "Elektrische Heizungen sind aus dieser Auswertung ausgeschlossen.",
+		"subtitle": "Anteil am Bruttoenergieverbrauch, Basel-Stadt",
+		"lesehilfe": "Fernwärme, welche aus erneuerbaren Energieträgern produziert wird, weist 2018 einen Anteil von 7,3% am Bruttoenergieverbrauch der Heizungen im Kanton Basel-Stadt auf. Die anderen erneuerbaren Energieträger liegen bei 16,7%, so dass die erneuerbaren zusammen auf 24% kommen. Der Verbrauch von Fernwärme aus nicht erneuerbaren Energieträgern ist von 39,0% im Jahr 2014 auf 52,8% im Jahr 2018 gestiegen, während die anderen nicht erneuerbaren von 40,1% auf 23,2% gesunken sind.",
+		"erlaeuterungen": "Elektrische Heizungen sind nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
