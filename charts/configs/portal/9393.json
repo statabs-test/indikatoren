@@ -1,111 +1,78 @@
 {
   "series": [
     {
-      "index": 1,
-      "color": "#661200",
-      "legendIndex": 1,
-      "type": "column",
+      "color": "#a8c3ca",
       "data": [
         [
-          "2014",
+          2014,
           1066.2858135
         ],
         [
-          "2016",
+          2016,
           878.06082491
         ],
         [
-          "2018",
+          2018,
           576.23593859
         ]
       ],
-      "name": "Andere Energieträger (nicht erneuerbar)",
-      "turboThreshold": 0
+      "name": "Andere Energieträger (nicht erneuerbar)"
     },
     {
-      "index": 2,
-      "color": "#DC440E",
-      "legendIndex": 2,
-      "type": "column",
+      "color": "#ff8028",
       "data": [
         [
-          "2014",
+          2014,
           1036.08024
         ],
         [
-          "2016",
+          2016,
           1146.4458803
         ],
         [
-          "2018",
+          2018,
           1309.4117768
         ]
       ],
-      "name": "Fernwärme (nicht erneuerbar)",
-      "turboThreshold": 0
+      "name": "Fernwärme (nicht erneuerbar)"
     },
     {
-      "index": 3,
-      "color": "#083038",
-      "legendIndex": 3,
-      "type": "column",
+      "color": "#dc440e",
       "data": [
         [
-          "2014",
+          2014,
           154.53513399
         ],
         [
-          "2016",
+          2016,
           208.269607
         ],
         [
-          "2018",
+          2018,
           180.40451733
         ]
       ],
-      "name": "Fernwärme (erneuerbar)",
-      "turboThreshold": 0
+      "name": "Fernwärme (erneuerbar)"
     },
     {
-      "index": 4,
-      "color": "#689199",
-      "legendIndex": 4,
-      "type": "column",
+      "color": "#246370",
       "data": [
         [
-          "2014",
+          2014,
           402.60037661
         ],
         [
-          "2016",
+          2016,
           416.26556792
         ],
         [
-          "2018",
+          2018,
           413.56943849
         ]
       ],
-      "name": "Andere Energieträger (erneuerbar)",
-      "turboThreshold": 0
+      "name": "Andere Energieträger (erneuerbar)"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -145,7 +112,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -161,7 +128,6 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "useHTML": true,
     "text": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen"
   },
   "subtitle": {
@@ -173,26 +139,45 @@
       "color": "#000000"
     }
   },
-  "yAxis": [
-    {
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}%",
-        "style": {
-          "color": "black"
-        }
-      },
-      "min": 0
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
     }
-  ],
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
