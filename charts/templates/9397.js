@@ -22,14 +22,13 @@
         },
         "series": [
             { "color": "#DC440E", index: 1 },
-            //{ "color": "#007A2F ", index: 2 },
+            { "color": "#661200 ", index: 2 },
 
         ],
         "legend": {
-            "enabled": false,
+            "enabled": true,
             //"x": 45,
             //"y": 35,
-            "itemWidth": 140,
             "layout": "horizontal",
             "verticalAlign": "top",
             "itemMarginBottom": 5,
