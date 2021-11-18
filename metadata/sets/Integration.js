@@ -785,14 +785,19 @@ var indikatorensetData = [
 		"id": 6075
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6661"
+		],
+		"template": "line001",
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.3.6076",
+		"kennzahlenset": "Integration",
+		"kuerzel": "I.01.3.06076",
 		"kuerzelKunde": "A4-2",
 		"description": "Anzahl Geborene nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -802,16 +807,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2019 tendenziell zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und die Schweizer. Die Zahl der Geborenen ist bei türkischen Staatsangehörigen und Personen aus dem Balkan zurückgegangen.",
+		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2016 zugenommen. Im Jahr 2020 sind es deutlich weniger als in den Vorjahren (2015-2019). Der Rückgang im Jahr 2020 war bei ausländischen Staatsangehörigkeiten ausgeprägter als bei Schweizer Staatsangehörigkeiten.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_402",
-		"parentId": null,
-		"children": [
-			"6661"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
