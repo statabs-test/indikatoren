@@ -1,14 +1,8 @@
 {
   "series": [
     {
-      "index": 1,
       "color": "#2F656B",
-      "legendIndex": 1,
       "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "shared": true
-      },
       "data": [
         [
           "2012",
@@ -31,9 +25,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 2,
       "color": "#8B2223",
-      "legendIndex": 2,
       "type": "column",
       "data": [
         [
@@ -57,9 +49,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 3,
       "color": "#83522E",
-      "legendIndex": 3,
       "type": "column",
       "data": [
         [
@@ -83,9 +73,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 4,
       "color": "#9A86A6",
-      "legendIndex": 4,
       "type": "column",
       "data": [
         [
@@ -109,17 +97,14 @@
       "turboThreshold": 0
     },
     {
-      "index": 5,
       "color": "#000000",
       "type": "line",
-      "legendIndex": 5,
       "yAxis": 1,
       "marker": {
         "enabled": false
       },
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-        "shared": false
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -286,13 +271,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.12.2020"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen pro Kopf",
     "shared": true,
-    "useHTML": true
+    "useHTML": true,
+    "outside": true
   },
   "exporting": {
     "filename": "6165"

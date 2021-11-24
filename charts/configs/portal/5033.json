@@ -23,11 +23,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.035
+          0.067
         ],
         [
           "Basel-Landschaft: 2015-2017",
-          0.026
+          0.049
         ],
         [
           "Zürich",
@@ -35,11 +35,11 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.058
+          0.082
         ],
         [
           "Zürich: 2015-2017",
-          0.067
+          0.096
         ]
       ],
       "name": "Chemische Industrie",
@@ -60,7 +60,7 @@
         ],
         [
           "Basel-Stadt: 2015-2017",
-          0.51
+          0.511
         ],
         [
           "Basel-Landschaft",
@@ -68,11 +68,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.172
+          0.326
         ],
         [
           "Basel-Landschaft: 2015-2017",
-          0.109
+          0.207
         ],
         [
           "Zürich",
@@ -80,11 +80,11 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.034
+          0.048
         ],
         [
           "Zürich: 2015-2017",
-          0.043
+          0.061
         ]
       ],
       "name": "Pharmazeutische Industrie",
@@ -105,7 +105,7 @@
         ],
         [
           "Basel-Stadt: 2015-2017",
-          0.174
+          0.175
         ],
         [
           "Basel-Landschaft",
@@ -113,11 +113,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.162
+          0.307
         ],
         [
           "Basel-Landschaft: 2015-2017",
-          0.152
+          0.288
         ],
         [
           "Zürich",
@@ -125,11 +125,11 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.33
+          0.469
         ],
         [
           "Zürich: 2015-2017",
-          0.342
+          0.491
         ]
       ],
       "name": "Elektronik, Optik, Maschinenbau",
@@ -158,11 +158,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.117
+          0.223
         ],
         [
           "Basel-Landschaft: 2015-2017",
-          0.073
+          0.139
         ],
         [
           "Zürich",
@@ -170,11 +170,11 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.069
+          0.098
         ],
         [
           "Zürich: 2015-2017",
-          0.068
+          0.098
         ]
       ],
       "name": "Medizinaltechnik, Sonstiges",
@@ -203,11 +203,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.033
+          0.062
         ],
         [
           "Basel-Landschaft: 2015-2017",
-          0.042
+          0.079
         ],
         [
           "Zürich",
@@ -215,11 +215,11 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.102
+          0.145
         ],
         [
           "Zürich: 2015-2017",
-          0.107
+          0.153
         ]
       ],
       "name": "Übrige Branchen",
@@ -311,7 +311,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transnationale Patentanmeldungen pro 1000 Beschäftigte"
+    "text": "Transnationale Patentanmeldungen pro 1000 Beschäftigten"
   },
   "subtitle": {
     "style": {
