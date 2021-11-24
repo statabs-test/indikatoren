@@ -37337,43 +37337,43 @@
 		"id": 8341
 	},
 	{
+		"template": "line001",
+		"data-id": 8348,
+		"chart-id": 8348,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Durchimpfungsraten ausgewählter Krankheiten",
 		"subtitle": "nach Schuljahr für die 13- und 14-Jährigen, Basel-Stadt",
-		"kuerzel": "I.14.4.08348",
-		"kuerzelKunde": "",
-		"description": "Durchimpfungsraten ausgewählter Krankheiten",
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "",
+		"lesehilfe": "Im Schuljahr 2019/2020 waren 97,1% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
+		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/impfungen-prophylaxe/schweizerischer-impfplan.html' target = '_blank'>Bundesamt für Gesundheit: Schweizerischer Impfplan</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T16:05:13.1313",
+		"description": "Durchimpfungsraten ausgewählter Krankheiten",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "I.14.4.08348",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2018/2019 waren 96,8% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
-		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/impfungen-prophylaxe/schweizerischer-impfplan.html' target = '_blank'>Bundesamt für Gesundheit: Schweizerischer Impfplan</a>"
-		],
-		"data-id": 8348,
-		"chart-id": 8348,
-		"filter": "",
+		"aktualisierungsdatum": "2020-12-23T04:05:13",
 		"id": 8348
 	},
 	{
@@ -39574,14 +39574,19 @@
 		"id": 8462
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8665"
+		],
+		"template": "populationPyramid001",
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2019",
+		"subtitle": "Wohnviertel Kleinhüningen, 2020",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.1.08614",
 		"kuerzelKunde": "2.02b",
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -39591,17 +39596,12 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen neben den 25- bis 29-Jährigen und den 30- bis 34-Jährigen noch die 40- bis 44-Jährigen und die 55- bis 59-Jährigen zu den grössten Gruppen.",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 25- bis 29-Jährigen, die 30- bis 34-Jährigen, die 35- bis 39-Jährigen, die 40- bis 44-Jährigen sowie die 55- bis 59-Jährigen zu den grössten Gruppen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8665"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -39610,7 +39610,7 @@
 		"externalLinks": [
 			""
 		],
-		"data-id": 8047,
+		"data-id": 8614,
 		"chart-id": 8614,
 		"filter": "",
 		"id": 8614
@@ -41866,5 +41866,43 @@
 		"chart-id": 9226,
 		"filter": "",
 		"id": 9226
+	},
+	{
+		"template": "line001",
+		"data-id": 9346,
+		"chart-id": 9346,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
+		"subtitle": "Hauptzollamt Lörrach, nach Quartal",
+		"lesehilfe": "Seit 1. Januar 2020 wird die Ausfuhrbescheinigung nur noch dann erteilt, wenn der Rechnungsbetrag für einen Einkauf in einem Geschäft den Betrag von 50 Euro übersteigt. Im Zuge der eingeschränkten Einreisemöglichkeiten während der Coronapandemie gerade auch für Bürgerinnen und Bürger aus der Schweiz hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen.",
+		"erlaeuterungen": "Das Hautptzollamt Lörrach umfasst das Zoll Lörrach, Weil am Rhein und Rheinfelden. Reisende mit Wohnort in einem Nicht-EU-Mitgliedstaat können in Deutschland umsatzsteuerfrei einkaufen, sofern das Verkaufsunternehmen an diesem Verfahren teilnimmt, die Ware anschließend aus Deutschland ausgeführt wird und eine deutsche Grenzzollstelle die Ausfuhr sowie den drittländischen Wohnsitz der Käuferin oder des Käufers der betreffenden Waren auf einem dafür vorgesehenen Beleg bestätigt.",
+		"quellenangabe": [
+			"Hauptzollamt Lörrach"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09346",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-24T10:36:32",
+		"id": 9346
 	}
 ]

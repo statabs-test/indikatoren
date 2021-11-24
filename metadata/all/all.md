@@ -2019,6 +2019,7 @@ id | visible | visibleInPortal | indikatorenset
 9237 | true | false | Arbeitsmarkt (Print)
 9238 | true | false | Arbeitsmarkt (Print)
 9239 | true | false | Arbeitsmarkt (Print)
+9346 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
