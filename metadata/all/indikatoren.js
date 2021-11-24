@@ -29364,9 +29364,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Ausländeranteil",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06642",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "A1-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -29417,7 +29417,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-03-17T03:15:03",
+		"aktualisierungsdatum": "2021-09-08T08:30:08",
 		"id": 6643
 	},
 	{
@@ -29455,7 +29455,7 @@ var indikatoren = [
 		"printformat": "large",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-03-10T04:37:48",
+		"aktualisierungsdatum": "2021-09-06T08:46:27",
 		"id": 6644
 	},
 	{
@@ -29467,7 +29467,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
 		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
+		"lesehilfe": "Ende 2020 besassen 22,3% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 80% jene eines europäischen Staates.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29504,8 +29504,8 @@ var indikatoren = [
 		"parentId": "6061",
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Von 8 476 Personen, die Ende 2019 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Von 8 699 Personen, die Ende 2020 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten von Amerika und von Sri Lanka.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29531,7 +29531,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:26",
+		"aktualisierungsdatum": "2020-04-01T04:56:53",
 		"id": 6646
 	},
 	{
@@ -29542,8 +29542,8 @@ var indikatoren = [
 		"parentId": "6062",
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2019 bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton und bei den Männern Personen der EU-17 + EFTA Staaten.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2020 bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton und bei den Männern Personen der Ländergruppe EU-West + EFTA + UK.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29569,7 +29569,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:26",
+		"aktualisierungsdatum": "2020-05-28T06:46:59",
 		"id": 6647
 	},
 	{
@@ -29998,8 +29998,8 @@ var indikatoren = [
 		"parentId": "6074",
 		"children": [],
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, 2019",
-		"lesehilfe": "Italienische und türkische Staatsangehörige weisen 2019 bezüglich Aufenthaltsdauer in der Schweiz die höchsten Medianwerte auf (25,1 bzw. 22,7 Jahre), gefolgt von Personen aus dem Balkan (20,6). Der höchste Median der Aufenthaltsdauer im Kanton Basel-Stadt ergibt sich für Türkinnen und Türken (17,6), noch vor Personen aus dem Balkan (16,5) und jenen aus Italien (11,6). Personen aus EU-Oststaaten weisen sowohl für die Aufenthaltsdauer in der Schweiz (6,5) als auch in Basel-Stadt (3,4) den tiefsten Median auf.",
+		"subtitle": "in Jahren, 2020",
+		"lesehilfe": "Italienische und türkische Staatsangehörige weisen 2020 bezüglich Aufenthaltsdauer in der Schweiz die höchsten Medianwerte auf (27,5 bzw. 24,4 Jahre), gefolgt von Personen aus dem Balkan (21,4). Der höchste Median der Aufenthaltsdauer im Kanton Basel-Stadt ergibt sich für Türkinnen und Türken (18,3), noch vor Personen aus dem Balkan (16,6) und jenen aus Italien (10,5). Personen aus EU-Oststaaten weisen sowohl für die Aufenthaltsdauer in der Schweiz (10,0) als auch in Basel-Stadt (4,3) den tiefsten Median auf.",
 		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine längere Aufenthaltsdauer auf als der Median, die andere Hälfte eine kürzere.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30026,7 +30026,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:25",
+		"aktualisierungsdatum": "2020-12-09T02:58:55",
 		"id": 6659
 	},
 	{
@@ -30036,9 +30036,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "6075",
 		"children": [],
-		"title": "Anteil der in der Schweiz geborenen Ausländer",
+		"title": "Anteil der in der Schweiz geborenen ausländischen Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Ende 2019 wiesen Italien (26,6%), der Balkan (25,5) und die Türkei (25,2%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 2000 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2019 Personen aus den EU-Ost-Ländern (8,4%) sowie aus Mittel- und Südamerika (6,5%) auf.",
+		"lesehilfe": "Ende 2020 wiesen Italien (26,2%), der Balkan (25,4) und die Türkei (24,7%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 2001 ist der Anteil der in der Schweiz Geborenen bei den Italienerinnen und Italienern stark und bei den Türkinnen und Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-West + EFTA + UK. Gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Den tiefsten Anteil in der Schweiz Geborener wiesen Ende 2020 Personen aus Mittel- und Südamerika (6,2%) auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30048,7 +30048,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil der in der Schweiz geborenen Ausländer",
+		"description": "Anteil der in der Schweiz geborenen ausländischen Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06660",
@@ -30064,7 +30064,7 @@ var indikatoren = [
 		"printformat": "large",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:25",
+		"aktualisierungsdatum": "2020-10-22T06:31:15",
 		"id": 6660
 	},
 	{
@@ -30076,7 +30076,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2016 tendenziell zugenommen. Im Jahr 2020 sind es deutlich weniger als in den Vorjahren (2015-2019). Der Rückgang im Jahr 2020 war bei ausländischen Staatsangehörigkeiten ausgeprägter als bei Schweizer Staatsangehörigkeiten.",
+		"lesehilfe": "Schweizer Staatsangehörige machen 2020 mit 1190 etwas über die Hälfte der exakt 2000 Geborenen aus. 2016 betrug das Total noch 2172.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30087,9 +30087,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Anzahl Geborene nach Staatsangehörigkeit",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
-		"kuerzel": "",
+		"kuerzel": "I.01.3.06661",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "A4-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -30576,8 +30576,8 @@ var indikatoren = [
 		"parentId": "6398",
 		"children": [],
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2019 und Veränderung seit 2000",
-		"lesehilfe": "Ende 2019 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2000 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
+		"subtitle": "Basel-Stadt, Stand 2020 und Veränderung seit 2001",
+		"lesehilfe": "Ende 2020 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2001 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30603,7 +30603,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:24",
+		"aktualisierungsdatum": "2020-11-02T11:00:07",
 		"id": 6674
 	},
 	{
@@ -30614,8 +30614,8 @@ var indikatoren = [
 		"parentId": "6399",
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2019",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2019 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Ausnahmen stellen die Wohnviertel Kleinhüningen und Rosental dar, wo Personen aus dem Balkan bzw. aus der Ländergruppe \"Übrige\" die grösste Ausländergruppe stellen.",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2020",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2020 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30641,7 +30641,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:24",
+		"aktualisierungsdatum": "2020-04-01T04:58:21",
 		"id": 6675
 	},
 	{
@@ -30651,9 +30651,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "6400",
 		"children": [],
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
 		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 zählten 16 501 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Ende 2020 zählten 16 501 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30663,7 +30663,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06676",
@@ -30679,7 +30679,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-04-01T04:58:42",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6676
 	},
 	{
@@ -30691,7 +30691,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
 		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Von 4 661 Personen, die Ende 2020 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Von 5 511 Personen, die Ende 2020 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Kroaten, Ungarn und Rumänen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30702,9 +30702,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06677",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "A1-8",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -30881,7 +30881,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizer und Schweizerinnen liegt in Basel-Stadt im Jahr 2020 bei 2,9%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (8,8%), aus dem Balkan (7,8%) und aus der Türkei (7,6%) die höchsten Arbeitslosenquoten im Jahr 2020 auf. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (3,6%).",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizer und Schweizerinnen liegt in Basel-Stadt im Jahr 2020 bei 2,9%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (8,8%), dem Balkan (7,8%) und der Türkei (7,6%) die höchsten Arbeitslosenquoten im Jahr 2020 auf. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (3,6%).",
 		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre 2010 bis 2014 und Pooling 2015-2019 für die Jahre ab 2015).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -31280,7 +31280,7 @@ var indikatoren = [
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kuerzel": "",
+		"kuerzel": "I.03.1.06692",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "C2-4",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
@@ -31293,7 +31293,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-14T08:16:28",
+		"aktualisierungsdatum": "2021-06-01T08:34:41",
 		"id": 6692
 	},
 	{
@@ -31459,7 +31459,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
-		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 2020 sind es 87,1% beim unteren Kader und 95,9% beim oberen Kader. Auffällig ist der mit 48,4% hohe Anteil der Schweizerinnen beim mittleren Fachkader. Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 12,9% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,2% bei den Beschäftigten ohne Kaderfunktion am stärksten vertreten.",
+		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 2020 sind es 87,1% beim unteren Kader und 95,9% beim oberen Kader. Beim mittleren Fachkader sind die Schweizerinnen mit 48,4% stärker vertreten als ihre männlichen Kollegen. Der Anteil der ausländischen Staatsangestellten mit Kaderfunktion liegt bei maximal 12,9% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,2% bei den Beschäftigten ohne Kaderfunktion am stärksten vertreten.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
@@ -31880,7 +31880,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
-		"lesehilfe": "Bei der ausländischen Bevölkerung ist im Kanton Basel-Stadt im Mittel der Jahre 2017 bis 2019 der Anteil Personen mit einem Äquivalenz-Haushaltseinkommen im 1.&nbsp;Quintil (25,3%) und im 5.&nbsp;Quintil (22,9%) grösser als in der Einkommensverteilung der gesamten ständigen Wohnbevölkerung der Schweiz (gemäss Definition 20% für jedes Quintil). Verglichen mit der gesamten Schweiz sind Ausländerinnen und Ausländer in Basel-Stadt also sowohl bei den höchsten als auch bei den tiefsten Einkommen übervertreten. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die Einkommensverteilung stärker derjenigen der gesamten Schweiz. Die Anteile im 1. und 5. Quintil liegen aber auch hier über 20%, wenn auch beim 5. Quintil nur knapp. Würde die Verteilung der Äquivalenz-Haushaltseinkommen jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten.",
+		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel-Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel-Stadt sind bspw. im Mittel der Jahre 2017 bis 2019 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (25,3%) und im 5. Quintil (22,9%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile im 1. und 5. Quintil liegen auch über 20%, beim 5. Quintil mit 20,4% allerdings nur knapp.",
 		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -32212,7 +32212,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-09T02:58:55",
+		"aktualisierungsdatum": "2021-06-25T08:16:32",
 		"id": 6716
 	},
 	{
@@ -32251,7 +32251,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-09T02:58:55",
+		"aktualisierungsdatum": "2021-07-01T08:33:00",
 		"id": 6717
 	},
 	{
@@ -32263,7 +32263,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittlere Anzahl Personen pro Haushalt",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit 1,8 Personen. Dieser Wert ist leicht tiefer als derjenige der Schweizerinnen und Schweizer. Personen aus der Türkei, dem Balkan und aus arabischen Ländern leben vergleichsweise in grösseren Haushalten.",
+		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8). Dieser Wert ist etwas tiefer als derjenige der Schweizerinnen und Schweizer (1,9). In den grössten Haushalten leben Personen aus der Türkei (2,8), dem Balkan (2,5) und aus arabischen Ländern (2,5).",
 		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z.&nbsp;B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -32352,9 +32352,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
-		"kuerzel": "",
+		"kuerzel": "I.01.6.06720",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "D3-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -32367,7 +32367,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-08T03:14:28",
+		"aktualisierungsdatum": "2021-09-08T08:30:09",
 		"id": 6720
 	},
 	{
@@ -32625,7 +32625,7 @@ var indikatoren = [
 		"description": "Beschuldigte Jugendliche",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06727",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "D5-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -32638,7 +32638,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-08T11:56:00",
+		"aktualisierungsdatum": "2021-07-01T08:33:04",
 		"id": 6727
 	},
 	{
@@ -32779,7 +32779,7 @@ var indikatoren = [
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "",
+		"kuerzel": "I.19.1.06731",
 		"kennzahlenset": "Integration (Print)",
 		"kuerzelKunde": "D5-5",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
@@ -32792,7 +32792,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-08T12:18:44",
+		"aktualisierungsdatum": "2021-07-01T08:33:06",
 		"id": 6731
 	},
 	{
@@ -32841,8 +32841,8 @@ var indikatoren = [
 		"parentId": "6493",
 		"children": [],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2009",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2009 Schweizer (25,1%) und Deutsche (15,9%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (27,5%) sowie bei den Mittel- und Südamerikanern (26,2%). 99,8% der Türken, 98,7% der Personen aus arabischen Ländern und 93,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
+		"subtitle": "Basel-Stadt, 2010",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2010 Schweizerinnen und Schweizer (24,3%) und Deutsche (14,2%) auf. Die höchsten Anteile an Katholikinnen und Katholiken gibt es bei Personen aus den EU-Ost-Ländern (29,7%) sowie bei den Mittel- und Südamerikanerinnen und -amerikanern (23,9%). 99,8% der türkischen Staatsangehörigen, 98,8% der Personen aus arabischen Ländern und 98,5% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32879,8 +32879,8 @@ var indikatoren = [
 		"parentId": "6494",
 		"children": [],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2019",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (19,1%) und Deutsche (11,6%) auf, während die höchsten Anteile an Katholiken bei Italienern (18,1%) und Personen aus Mittel- und Südamerika (16,1%) zu finden sind. 99,8% der Türken, 99,1% der Personen aus arabischen Ländern und 94,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizerinnen und Schweizer (18,5%) und Deutsche (11,3%) auf, während die höchsten Anteile an Katholikinnen und Katholiken bei italienischen Staatsangehörigen (16,8%) und Personen aus Staaten der EU-Ost (16,6%) zu finden sind. 99,8% der Türkinnen und Türken, 99,1% der Personen aus arabischen Ländern und 98,9% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
 		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32906,7 +32906,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-16T03:37:21",
+		"aktualisierungsdatum": "2020-12-08T12:35:12",
 		"id": 6734
 	},
 	{
