@@ -1,125 +1,102 @@
-(function(){
+(function () {
   return {
     title: {
       useHTML: true
     },
-    "plotOptions": {
-      "series": {
-        "borderWidth": 0,
-        "pointWidth": 30,
-        "dataLabels": {
-          "style": {
-            "fontSize": "10px"
+    plotOptions: {
+      series: {
+        borderWidth: 0,
+        pointWidth: 30,
+        dataLabels: {
+          style: {
+            fontSize: "10px"
           }
         },
-        "stacking": "true"
+        stacking: "true"
       }
     },
-    "xAxis": {
-      "type": "category",
-  	//"tickInterval": 1	
-    },  
-    "yAxis": [{
-    	title: {
-          text: null
+    xAxis: {
+      type: "category",
+    },
+    yAxis: [{
+      title: {
+        text: null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-         "style": {
-         "color": "black"
-          },
+      labels: {
+        format: "{value:,.0f}",
+        style: {
+          color: "black"
+        },
       },
-      "min": 0,  },
+      min: 0
+    },
     {
       title: {
-          text: null
+        text: null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-         "style": {
-         "color": "black"
-          },
+      labels: {
+        format: "{value:,.0f}",
+        style: {
+          color: "black"
+        },
       },
-      "min": 0,
-      "opposite": true
+      min: 0,
+      opposite: true
     }
     ],
-    "series": [
+    series: [
       {
-  	  "index": 1,
-  	  "color": "#2F656B",
-        "legendIndex": 1,
-        "type": "column",
-        "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-          shared: true
-         }
-      }, // Blau
+        color: "#2F656B",
+        type: "column",
+      }, 
       {
-        "index": 2,
-        "color": "#8B2223",
-          "legendIndex": 2,
-          "type": "column"/*,
-          "tooltip": {
-            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-           }*/
-        },
-        {
-          "index": 3,
-          "color": "#83522E",
-            "legendIndex": 3,
-            "type": "column"/*,
-            "tooltip": {
-              "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-             }*/
-          },
-          {
-            "index": 4,
-            "color": "#9A86A6",
-              "legendIndex": 4,
-              "type": "column"/*,
-              "tooltip": {
-                "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
-               }*/
-            },
+        color: "#8B2223",
+        type: "column"
+      },
+      {
+        color: "#83522E",
+        type: "column"
+      },
+      {
+        color: "#9A86A6",
+        type: "column"
+      },
 
       {
-        index: 5,
-        "color": "#000000",
-        "type": "line",
-        "legendIndex": 5,
-        "yAxis": 1,
-        "marker": {
-          "enabled": false
-      },
-      "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-          shared: false
-       }
+        color: "#000000",
+        type: "line",
+        yAxis: 1,
+        marker: {
+          enabled: false
+        },
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+        },
       }
     ],
     tooltip: {
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
       shared: true,
-      useHTML: true
+      useHTML: true,
+      outside: true
     },
 
-    "legend": {
+    legend: {
       useHTML: true,
-      "enabled": true,
+      enabled: true,
       //"y": 35,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left",
-      "itemStyle": {
-       "fontWeight": "normal"
+      layout: "horizontal",
+      verticalAlign: "top",
+      itemMarginBottom: 5,
+      align: "left",
+      itemStyle: {
+        fontWeight: "normal"
       }
     },
-    "chart": {    
+    chart: {
       //"marginBottom": 75,
       //"marginTop": 75,
-      "type": "column"
+      type: "column"
     }
   };
 }());
