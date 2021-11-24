@@ -10,17 +10,14 @@
       tickInterval: 2,
     },
     series: [
-      { color: "#3C3C3C", legendIndex: 2 }, /* scharz */
+      { color: "#3C3C3C", legendIndex: 2 }
     ],
     legend: {
       enabled: false,
     },
     tooltip: {
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> Geburtenziffer: <b>{point.y:,.0f} </b><br/>',
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> Geburtenziffer: <b>{point.y:,.1f} </b><br/>',
       shared: false
     }
-    /*tooltip:{
-      valueDecimals: 1
-    }*/
   };
 }());
