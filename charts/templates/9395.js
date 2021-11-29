@@ -47,9 +47,6 @@
         "align": "left",
         "itemMarginBottom": 5,
         "useHTML": false,
-        "itemStyle": {
-            "fontWeight": "normal"
-        },
         "symbolRadius": 0,
         "labelFormatter": function () {
             return this.name.replace('/', '/<br/>');

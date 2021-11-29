@@ -1,15 +1,14 @@
 (function () {
     return {
         "chart": {
-            "type": "line"
+            "type": "column"
         },
-        "plotOptions": {
-            "series": {
-                borderWidth: 0,
+        plotOptions:{
+            series: {
+                marker: {
+                    enabled: false
+                }
             }
-        },
-        subtitle: {
-            useHTML: true
         },
         "yAxis": [
             {
@@ -52,38 +51,33 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
-            alignColumns: true,
             "itemMarginBottom": 5,
             //itemWidth: 200
+        },
+        tooltip: {
+            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'
         },
         "series": [
             {
                 "color": "#DC440E",
                 "index": 0,
                 zIndex: 2,
-                "type": "line",
-                marker: {
-                    enabled: false
-                },
-                tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
+                //"type": "line",
+               // tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
             },
             {
                 "color": "#FABD24",
                 "index": 1,
                 zIndex: 2,
-                "type": "line",
-                marker: {
-                    enabled: false
-                },
-                tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>' }
+               // tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>' }
             },
             {
                 "color": "#246370",
                 "index": 2,
-                zIndex: 1,
-                "type": "column",
+                zIndex: 3,
+                "type": "line",
                 "yAxis": 1,
-                tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
+              //  tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
             },
 
         ]
