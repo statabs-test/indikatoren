@@ -152,10 +152,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt"
+    "text": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

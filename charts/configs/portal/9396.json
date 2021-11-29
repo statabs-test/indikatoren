@@ -234,10 +234,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Teilzeiterwerbstätige in der kantonalen Verwaltung Basel-Stadt"
+    "text": "Teilzeiterwerbstätige in der kantonalen Verwaltung"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

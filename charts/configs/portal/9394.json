@@ -4,13 +4,6 @@
       "color": "#DC440E",
       "index": 0,
       "zIndex": 2,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2016,
@@ -39,13 +32,6 @@
       "color": "#FABD24",
       "index": 1,
       "zIndex": 2,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2016,
@@ -68,17 +54,14 @@
           115
         ]
       ],
-      "name": "Anzahl Datensätze auf Datenportal"
+      "name": "Anzahl Datensätze im Datenportal"
     },
     {
       "color": "#246370",
       "index": 2,
-      "zIndex": 1,
-      "type": "column",
+      "zIndex": 3,
+      "type": "line",
       "yAxis": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2016,
@@ -137,17 +120,20 @@
                     }
                 }
     },
-    "type": "line",
+    "type": "column",
     "renderTo": "container-9394",
     "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },
@@ -158,17 +144,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl datenpublizierende Verwaltungsstellen von OGD sowie Anzahl OGD- und Geodatensätze im Kanton Basel-Stadt"
+    "text": "Offene Behördendaten"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    },
-    "useHTML": true
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -228,7 +213,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "alignColumns": true,
     "itemMarginBottom": 5
   },
   "navigation": {
@@ -250,7 +234,10 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2021"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9394"

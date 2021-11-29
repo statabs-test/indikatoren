@@ -125,9 +125,7 @@
     "line": {
       "connectNulls": true,
       "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
+        "symbol": "circle"
       }
     }
   },
@@ -138,10 +136,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Vergleich von Prämien- und Einkommensentwicklung"
+    "text": "Entwicklung von Krankenkassenprämien und Einkommen"
   },
   "subtitle": {
-    "text": "",
+    "text": "indexiert (2010 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -168,7 +166,7 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": 0,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -184,8 +182,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickAmount": 7
+    }
   },
   "legend": {
     "enabled": true,
@@ -196,8 +193,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "x": 30,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "x": 30
   },
   "credits": {
     "enabled": true,
@@ -212,7 +209,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -249,7 +246,6 @@
 			}
   },
   "tooltip": {
-    "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {

@@ -237,7 +237,7 @@
     "text": "Solarenergie"
   },
   "subtitle": {
-    "text": "Produktion in GWh",
+    "text": "Produktion in GWh, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -260,8 +260,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     },
     "tickAmount": 5
   },
@@ -325,8 +324,7 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9392"

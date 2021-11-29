@@ -550,7 +550,7 @@
     "text": "Hitzetage und Tropennächte"
   },
   "subtitle": {
-    "text": "Anzahl Tage",
+    "text": "Anzahl Tage, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -619,7 +619,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EBundesamt für Umwelt (BAFU), Nationales Beobachtungsnetz für Luftfremdstoffe (NABEL).\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-9"
+    "text": "Quelle: Meteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EBundesamt für Umwelt (BAFU), Nationales Beobachtungsnetz für Luftfremdstoffe (NABEL).\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -14905,45 +14905,43 @@
 		"id": 6169
 	},
 	{
+		"template": "template001",
+		"data-id": 6131,
+		"chart-id": 6170,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6319
+		],
 		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"kuerzel": "I.04.1.06170",
-		"kuerzelKunde": "8.3",
-		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2018 bei 1 598 Franken pro Einwohner.",
+		"erlaeuterungen": "Die Eidgenössische Finanzverwaltung (EFV) verwendet aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T19:20:18.1818",
-		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
+		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.06170",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "8.3",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2018 bei 1 598 Franken pro Einwohner.",
-		"erlaeuterungen": "Die Eidgenössische Finanzverwaltung (EFV) verwendet aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
-		"template": "template001",
+		"orderKey": "_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "08_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6319"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6131,
-		"chart-id": 6170,
-		"filter": "",
+		"aktualisierungsdatum": "2020-12-14T07:20:18",
 		"id": 6170
 	},
 	{
@@ -40201,45 +40199,44 @@
 		"id": 9027
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 9029,
+		"chart-id": 9029,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9034,
+			9378
+		],
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"kuerzel": "I.50.4.09029",
-		"kuerzelKunde": "1.3.05",
-		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "61,8% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage genau oder eher zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 38,2% stimmen dieser Aussage eher nicht oder gar nicht zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.  Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
+		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "I.50.4.09029",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.3.05",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "51,1% der 2019 befragten Personen stimmen der Aussage zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,6% stimmen dieser Aussage nicht zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "01_03_00_00_00_035",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_035",
-		"parentId": null,
-		"children": [
-			"9034"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9029,
-		"chart-id": 9029,
-		"filter": "",
+		"aktualisierungsdatum": "2021-01-22T06:01:10",
 		"id": 9029
 	},
 	{
@@ -41645,9 +41642,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Beschäftigte in der Branche Kultur",
-		"subtitle": "",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2018 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 600 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der Darstellenden Kunst.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Branche Kultur umfasst die Wirtschaftszweige Kreative, künstlerische und unterhaltende Tätigkeiten (NOGA 90) und Bibliotheken, Archive, Museen, botanische und zoologische Gärten (NOGA 91).",
+		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2018 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 600 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -41763,7 +41760,7 @@
 		"lesehilfe": "2019 lebten in der Nordwestschweiz 18,8% der Bevölkerung in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 7,8% lebten 2017 in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte. 10,1% lebten 2017 In einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
 		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen wurden. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013 und 2017 war.",
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und die Lebensbedingungen (SILC)"
+			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -41796,10 +41793,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Vergleich von Prämien- und Einkommensentwicklung",
-		"subtitle": "",
+		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
+		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
 		"lesehilfe": "Im Jahr 2018 lag der Index (Basis 2010) der Medianprämien bei 135,2. Der Index für den Median des Reinkommens bei 103,3.",
-		"erlaeuterungen": "Berechnet wird der Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Der Medianwert des Reineinkommens wird pro Veranlagung berechnet.<br>Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Grösse nach sortiert. Bei der Berechnung der Indizes werden die jeweiligen Werte des Jahres 2010 als Basiswert verwendet.",
+		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
 			"Steuerstatistik Basel-Stadt"
@@ -41809,7 +41806,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Vergleich von Prämien- und Einkommensentwicklung",
+		"description": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kuerzel": "I.14.4.09375",
@@ -41912,10 +41909,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration Basel",
-		"subtitle": "",
-		"lesehilfe": "Im Jahr 2019 pendeln rund  8 300 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 700 zupendelnde Erwerbstätige arbeiten im Bereich Bildung und Kultur.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. In dieser Auswertung wird der schweizerische Teil der Agglomeration Basel gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS verwendet. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
+		"title": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
+		"subtitle": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 pendeln rund 8 300 Personen aus dem schweizerischen Teil der Agglomeration Basel nach Basel-Stadt, um einer Erwerbstätigkeit im Bereich Gesundheits- und Sozialwesen nachzugehen. Rund 2 700 zupendelnde Erwerbstätige arbeiten im Bereich Bildung und Kultur.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Agglomeration Basel: gemäss Typologie «Räume mit städtischem Charakter 2012» des BFS. Branchen: Bildung (NOGA 85), Gesundheits- und Sozialwesen (NOGA 86 bis 88), Kultur (NOGA 90 und 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -41926,7 +41923,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur aus der schweizerischen Agglomeration Basel",
+		"description": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur",
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"kuerzel": "I.11.5.09380",
@@ -41954,7 +41951,7 @@
 		"children": [],
 		"title": "Grenzgänger und Pendler aus und nach Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund die Hälfte davon aus der Nordwestschweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
+		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen - rund die Hälfte davon aus der Nordwestschweiz. Dem gegenüber stehen fast 24 000 Wegpendler. Daraus ergibt sich ein Zupendlerüberschuss (Saldo) von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -41992,8 +41989,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Belegungsart",
-		"subtitle": "",
-		"lesehilfe": "Seit 2017 ist der Bestand von Genossenschaftswohnungen stark gestiegen.",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2020 existieren in Basel-Stadt 99 289 Wohnungen. Den grössten Anteil machen mit 72 552 die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen markant von 10 353 auf 10 834 gestiegen.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksicht, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -42032,7 +42029,7 @@
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
 		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 22 km, jene der Fussgängerzonen 4,7 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone: Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. <br>Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -42070,9 +42067,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Hitzetage und Tropennächte",
-		"subtitle": "Anzahl Tage",
-		"lesehilfe": "Im Jahr 2020 wurden 22 Hitzetage und 3 Tropennächte verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
-		"erlaeuterungen": "Hitzetage: Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Tropennächte: Anzahl Nächte im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"subtitle": "Anzahl Tage, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 wurden 22 Hitzetage und 3 Tropennächte verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
+		"erlaeuterungen": "Hitzetage: Tage, an denen die Lufttemperatur mindestens 30 °C erreicht. Tropennächte: Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel",
 			"Bundesamt für Umwelt (BAFU), Nationales Beobachtungsnetz für Luftfremdstoffe (NABEL)"
@@ -42112,8 +42109,8 @@
 		"children": [],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an der gesammten neuen Inverkehrsetzungen von Personenwagen nahm stetig zwischen den Jahren 2015 und 2020 von 0% auf 28,8% zu.",
-		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Antriebsarten: Benzin-elektrisch und Diesel-elektrisch Normal- und Plug-in-Hybrid).",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen nahm zwischen 2015 und 2020 stetig von 0% auf 28,8% zu.",
+		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch Benzin- und Diesel-elektrische Hybride (Normal- und Plug-in).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -42149,9 +42146,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Solarenergie",
-		"subtitle": "Produktion in GWh",
-		"lesehilfe": "Der Elektrizitäterzäugung durch Fotovoltaik Anlagen stieg von 0.17 GWh im Jahr 2000 auf 20.8 GWh im Jahr 2018. Die Produktion der Solarthermische Energie weist ähnliche Werte wie die Fotovoltaik auf.",
-		"erlaeuterungen": "Daten zur Solarthermische Energie werden jedes zweite Jahr durch die Energiestatistik erfasst.",
+		"subtitle": "Produktion in GWh, Basel-Stadt",
+		"lesehilfe": "Die Erzeugung von Elektrizität durch Fotovoltaikanlagen stieg von 0,17 GWh im Jahr 2000 auf 20,8 GWh im Jahr 2018. Die Produktion von solarthermischer Energie weist einen ähnlichen Verlauf auf und liegt 2018 bei 20,1 GWh.",
+		"erlaeuterungen": "Daten zur solarthermischen Energie werden seit 2010 im Rahmen der kantonalen Energiestatistik jedes zweite Jahr erhoben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -42188,7 +42185,7 @@
 		"children": [],
 		"title": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen",
 		"subtitle": "Anteil am Bruttoenergieverbrauch, Basel-Stadt",
-		"lesehilfe": "Fernwärme, welche aus erneuerbaren Energieträgern produziert wird, weist 2018 einen Anteil von 7,3% am Bruttoenergieverbrauch der Heizungen im Kanton Basel-Stadt auf. Die anderen erneuerbaren Energieträger liegen bei 16,7%, so dass die erneuerbaren zusammen auf 24% kommen. Der Verbrauch von Fernwärme aus nicht erneuerbaren Energieträgern ist von 39,0% im Jahr 2014 auf 52,8% im Jahr 2018 gestiegen, während die anderen nicht erneuerbaren von 40,1% auf 23,2% gesunken sind.",
+		"lesehilfe": "Fernwärme, welche aus erneuerbaren Energieträgern produziert wird, weist 2018 einen Anteil von 7,3% am Bruttoenergieverbrauch der Heizungen im Kanton Basel-Stadt auf. Die anderen erneuerbaren Energieträger liegen bei 16,7%, so dass die Erneuerbaren zusammen auf 24% kommen. Der Verbrauch von Fernwärme aus nicht erneuerbaren Energieträgern ist von 39,0% im Jahr 2014 auf 52,8% im Jahr 2018 gestiegen, während die anderen nicht erneuerbaren von 40,1% auf 23,2% gesunken sind.",
 		"erlaeuterungen": "Elektrische Heizungen sind nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -42224,10 +42221,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl datenpublizierende Verwaltungsstellen von OGD sowie Anzahl OGD- und Geodatensätze im Kanton Basel-Stadt",
-		"subtitle": "",
-		"lesehilfe": "Die Anzahl öffentlich verfügbarer Geodatensätze nimmt seit 2016 kontinuierlich zu. Auch die auf dem kantonalen Datenportal publizierten offenen Behördendaten (Open Government Data, OGD) sowie die datenpublizierenden Organisationen werden jährlich mehr.",
-		"erlaeuterungen": "Gezeigt wird jeweils der Stand per 31. Dezember jeden Jahres. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt gezählt und keine Bundesorgane. Das kantonale Datenportal ist seit November 2019 online, daher sind vorher keine Werte verfügbar.",
+		"title": "Offene Behördendaten",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2020 sind im kantonalen Datenportal 115 Datensätze von 23 Organisationen publiziert (Offene Behördendaten/Open Government Data, OGD). Im Geoportal sind 152 Geodatensätze öffentlich verfügbar.",
+		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt gezählt und keine Bundesorgane. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -42240,7 +42237,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl datenpublizierende Verwaltungsstellen von OGD sowie Anzahl OGD- und Geodatensätze im Kanton Basel-Stadt",
+		"description": "Offene Behördendaten",
 		"thema": "",
 		"unterthema": "Motorfahrzeuge",
 		"kuerzel": "I.65.1.09394",
@@ -42268,7 +42265,7 @@
 		"children": [],
 		"title": "Nutzung kantonaler online-Dienstleistungen",
 		"subtitle": "«Haben Sie schon einmal kantonale Dienstleistungen online genutzt?» nach Alter, Kanton Basel-Stadt, 2019",
-		"lesehilfe": "54% der Befragten haben bereits kantonale Dienstleistungen online genutzt. 36% noch nie. Bei Befragten im Alter von über 70 liegt der Anteil Nutzender bei 29%. Jeweils rund zwei Drittel der Befragten der Altersgruppen zwischen 30 und 69 Jahren haben kontonale Dientsleistungen online genutzt.",
+		"lesehilfe": "54% der im Jahr 2019 Befragten haben bereits kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen nur bei 29%.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -42304,8 +42301,8 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "",
+		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
+		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 32% auf 36% gestiegen; konstant 77% aller Frauen haben beim Kanton Basel-Stadt in den vergangenen fünf Jahren teilzeit gearbeitet.",
 		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) und zwar auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
@@ -42316,7 +42313,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Teilzeiterwerbstätige in der kantonalen Verwaltung Basel-Stadt",
+		"description": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.09396",
@@ -42342,9 +42339,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "",
-		"lesehilfe": "Im Jahr 2020 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 35,7%. Im Beobachtungszeitraum ist der Anteil der Frauen in Kaderpositionen stärker gestiegen als der gesamte Frauenanteil in der kantonalen Verwaltung.",
+		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 35,7%. Im Beobachtungszeitraum ist er stärker gestiegen als der gesamte Frauenanteil in der kantonalen Verwaltung.",
 		"erlaeuterungen": "Staatspersonal: Auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
@@ -42354,7 +42351,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt",
+		"description": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kuerzel": "I.18.3.09397",
@@ -42380,9 +42377,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl aktive E-Government Konten (eKonto) beim Kanton Basel-Stadt",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"title": "Aktive E-Government Konten",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Per Stichdatum 5.10.2021 haben sich 28 138 von 33 764 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
 		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben.",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt"
@@ -42392,7 +42389,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl aktive E-Government Konten (eKonto) beim Kanton Basel-Stadt",
+		"description": "Aktive E-Government Konten",
 		"thema": "17 Politik",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.17.1.09398",

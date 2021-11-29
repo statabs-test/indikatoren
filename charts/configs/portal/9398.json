@@ -95,10 +95,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl aktive E-Government Konten (eKonto) beim Kanton Basel-Stadt"
+    "text": "Aktive E-Government Konten"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -155,7 +155,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-21"
+    "text": "Quelle: Finanzdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2021"
   },
   "tooltip": {
     "pointFormatter": function(){
