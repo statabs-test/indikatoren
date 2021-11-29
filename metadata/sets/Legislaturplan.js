@@ -896,43 +896,6 @@ var indikatorensetData = [
 	},
 	{
 		"template": "template001",
-		"data-id": 9367,
-		"chart-id": 9367,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "",
-		"subtitle": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			""
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kuerzel": "",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "1.13",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_014",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-20T04:29:59",
-		"id": 9367
-	},
-	{
-		"template": "template001",
 		"data-id": 9368,
 		"chart-id": 9368,
 		"filter": "",
