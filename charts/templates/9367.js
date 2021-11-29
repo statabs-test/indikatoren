@@ -1,116 +1,85 @@
 (function () {
-  return {
-    "plotOptions": {
-      "line": {
-        "connectNulls": true,
-        "marker": {
-          "enabled": false,
-          "symbol": "circle",
-        }
-      }
-    },
-    "legend": {
-      "enabled": true,
-      //"x": 45,
-      //"y": 35,
-      "itemWidth": 200,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left",
-    },
-    "xAxis": {
-      "tickInterval": 1
-    },
-    "yAxis": [{
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": undefined,
-      "title": ""
-    },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
+    return {
+        "chart": {
+            "type": "column"
         },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": undefined,
-      "gridLineWidth": 0,
-      "opposite": true
+        plotOptions:{
+            series: {
+                marker: {
+                    enabled: false
+                }
+            }
+        },
+        "yAxis": [
+            {
+                gridLineColor: '#B9CFD7',
+                gridLineWidth: 0.5,
+                "title": {
+                    enabled: false
+                },
+                "labels": {
+                    useHTML: true,
+                    "format": "{value:,.0f}",
+                    "style": {
+                        "color": "#000000"
+                    }
+                },
+                "min": 0
+            },
+            {
+                gridLineColor: '#B9CFD7',
+                gridLineWidth: 0.5,
+                //tickInterval: 10,
+                "title": {
+                    enabled: false
+                },
+                "labels": {
+                    "format": "{value:,.0f}",
+                    "style": {
+                        "color": "#000000"
+                    }
+                },
+                "min": 0,
+                "opposite": true
+            }
+        ],
+        "xAxis": {
+            "tickInterval": 1
+        },
+        "legend": {
+            "enabled": true,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "align": "left",
+            "itemMarginBottom": 5,
+            //itemWidth: 200
+        },
+        tooltip: {
+            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'
+        },
+        "series": [
+            {
+                "color": "#DC440E",
+                "index": 0,
+                zIndex: 2,
+                //"type": "line",
+               // tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
+            },
+            {
+                "color": "#FABD24",
+                "index": 1,
+                zIndex: 2,
+               // tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>' }
+            },
+            {
+                "color": "#246370",
+                "index": 2,
+                zIndex: 3,
+                "type": "line",
+                "yAxis": 1,
+              //  tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
+            },
+
+        ]
     }
-    ],
-    "tooltip": {
-      "shared": false,
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
-    },
-    "series": [
-      {
-        "color": "#256370",
-        index: 10, "yAxis": 0, visible: false
-      }, /*blau*/
-      {
-        "color": "#a8c4cb",
-        index: 9, "yAxis": 0, visible: false
-      }, /*hellblau*/
-      {
-        "color": "#ffbb58",
-        index: 8, "yAxis": 0, visible: false
-      }, /*hellorange*/
-      {
-        "color": "#b475ab",
-        index: 7, "yAxis": 0, visible: true
-      }, /*hellviolett*/
-      {
-        "color": "#44ab2b",
-        index: 6, "yAxis": 0, visible: false
-      }, /*grün*/
-      {
-        "color": "#007a2f",
-        index: 5, "yAxis": 0, visible: false
-      },  /*dunkelgrün*/
-      {
-        "color": "#672773",
-        index: 4, "yAxis": 0, visible: false
-      }, /*violett*/
-      {
-        "color": "#b00000",
-        index: 3, "yAxis": 0, visible: false
-      }, /*rot*/
-      {
-        "color": "#ff8028",
-        index: 2, "yAxis": 0, visible: false
-      }, /*orange*/
-      {
-        "color": "#cd9c00",
-        index: 1, "yAxis": 0, visible: false
-      }, /*hellbraun*/
-      {
-        "color": "#E6E6E6",
-        "index": 0,
-        "legendIndex": 12,
-        "type": "column",
-        "borderWidth": 0,
-        "yAxis": 1,
-        states: {
-          hover: {
-            brightness: -0.05,
-          }
-        },
-      }, // grau
-    ],
-  }
 }());

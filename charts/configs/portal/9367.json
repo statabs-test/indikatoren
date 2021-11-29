@@ -1,552 +1,52 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 10,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          1021.81621
-        ],
-        [
-          2010,
-          2006.771537
-        ],
-        [
-          2011,
-          1908.402216
-        ],
-        [
-          2012,
-          1121.450708
-        ],
-        [
-          2013,
-          1269.460976
-        ],
-        [
-          2014,
-          1448.579675
-        ],
-        [
-          2015,
-          1798.588854
-        ],
-        [
-          2016,
-          3826.977539
-        ],
-        [
-          2017,
-          2270.627775
-        ],
-        [
-          2018,
-          1698.826261
-        ]
-      ],
-      "name": "Allg. Verwaltung"
-    },
-    {
-      "color": "#a8c4cb",
-      "index": 9,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          1761.799206
-        ],
-        [
-          2010,
-          1805.874048
-        ],
-        [
-          2011,
-          1895.123819
-        ],
-        [
-          2012,
-          1996.632666
-        ],
-        [
-          2013,
-          2153.023205
-        ],
-        [
-          2014,
-          2174.254316
-        ],
-        [
-          2015,
-          2180.859399
-        ],
-        [
-          2016,
-          2206.102299
-        ],
-        [
-          2017,
-          2289.777726
-        ],
-        [
-          2018,
-          2295.303967
-        ]
-      ],
-      "name": "Öff. Sicherheit"
-    },
-    {
-      "color": "#ffbb58",
-      "index": 8,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          6055.848596
-        ],
-        [
-          2010,
-          6169.300161
-        ],
-        [
-          2011,
-          6332.943225
-        ],
-        [
-          2012,
-          6841.820197
-        ],
-        [
-          2013,
-          7067.644289
-        ],
-        [
-          2014,
-          7419.313003
-        ],
-        [
-          2015,
-          7784.66359
-        ],
-        [
-          2016,
-          8068.001038
-        ],
-        [
-          2017,
-          7703.444474
-        ],
-        [
-          2018,
-          7699.29625
-        ]
-      ],
-      "name": "Bildung"
-    },
-    {
-      "color": "#b475ab",
-      "index": 7,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2009,
-          1170.3935
-        ],
-        [
-          2010,
-          1204.297893
-        ],
-        [
-          2011,
-          1258.962545
-        ],
-        [
-          2012,
-          1373.299204
-        ],
-        [
-          2013,
-          1293.073202
-        ],
-        [
-          2014,
-          1486.621615
-        ],
-        [
-          2015,
-          1703.407504
-        ],
-        [
-          2016,
-          1576.105497
-        ],
-        [
-          2017,
-          1564.193345
-        ],
-        [
-          2018,
-          1598.498761
-        ]
-      ],
-      "name": "Kultur und Sport"
-    },
-    {
-      "color": "#44ab2b",
-      "index": 6,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          3398.42626
-        ],
-        [
-          2010,
-          3299.892179
-        ],
-        [
-          2011,
-          3379.067852
-        ],
-        [
-          2012,
-          4588.150029
-        ],
-        [
-          2013,
-          3108.895354
-        ],
-        [
-          2014,
-          3097.671079
-        ],
-        [
-          2015,
-          3094.433958
-        ],
-        [
-          2016,
-          3132.447512
-        ],
-        [
-          2017,
-          2972.179554
-        ],
-        [
-          2018,
-          2920.305693
-        ]
-      ],
-      "name": "Gesundheit"
-    },
-    {
-      "color": "#007a2f",
-      "index": 5,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          4034.702407
-        ],
-        [
-          2010,
-          4132.785663
-        ],
-        [
-          2011,
-          4332.389152
-        ],
-        [
-          2012,
-          4595.345022
-        ],
-        [
-          2013,
-          4611.423804
-        ],
-        [
-          2014,
-          4944.745468
-        ],
-        [
-          2015,
-          4587.484236
-        ],
-        [
-          2016,
-          4682.263988
-        ],
-        [
-          2017,
-          4750.257647
-        ],
-        [
-          2018,
-          4825.55826
-        ]
-      ],
-      "name": "Soziale Sicherheit"
-    },
-    {
-      "color": "#672773",
-      "index": 4,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          670.12398
-        ],
-        [
-          2010,
-          652.075133
-        ],
-        [
-          2011,
-          657.496266
-        ],
-        [
-          2012,
-          922.555344
-        ],
-        [
-          2013,
-          1596.235121
-        ],
-        [
-          2014,
-          1287.175215
-        ],
-        [
-          2015,
-          1440.179955
-        ],
-        [
-          2016,
-          1367.746579
-        ],
-        [
-          2017,
-          1359.04274
-        ],
-        [
-          2018,
-          1173.424109
-        ]
-      ],
-      "name": "Verkehr"
-    },
-    {
-      "color": "#b00000",
-      "index": 3,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          479.396289
-        ],
-        [
-          2010,
-          494.694429
-        ],
-        [
-          2011,
-          501.305532
-        ],
-        [
-          2012,
-          453.068818
-        ],
-        [
-          2013,
-          439.961521
-        ],
-        [
-          2014,
-          420.328999
-        ],
-        [
-          2015,
-          464.274981
-        ],
-        [
-          2016,
-          578.915617
-        ],
-        [
-          2017,
-          484.52128
-        ],
-        [
-          2018,
-          483.080191
-        ]
-      ],
-      "name": "Umweltschutz"
-    },
-    {
-      "color": "#ff8028",
-      "index": 2,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          447.138935
-        ],
-        [
-          2010,
-          730.03768
-        ],
-        [
-          2011,
-          179.978758
-        ],
-        [
-          2012,
-          88.379858
-        ],
-        [
-          2013,
-          85.493573
-        ],
-        [
-          2014,
-          120.316609
-        ],
-        [
-          2015,
-          598.173553
-        ],
-        [
-          2016,
-          93.466068
-        ],
-        [
-          2017,
-          80.615148
-        ],
-        [
-          2018,
-          118.715115
-        ]
-      ],
-      "name": "Volkswirtschaft"
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "yAxis": 0,
-      "visible": false,
-      "data": [
-        [
-          2009,
-          1416.782005
-        ],
-        [
-          2010,
-          1334.373842
-        ],
-        [
-          2011,
-          1414.515801
-        ],
-        [
-          2012,
-          1395.019095
-        ],
-        [
-          2013,
-          1738.26603
-        ],
-        [
-          2014,
-          1648.705681
-        ],
-        [
-          2015,
-          1522.998796
-        ],
-        [
-          2016,
-          1497.760795
-        ],
-        [
-          2017,
-          1556.653875
-        ],
-        [
-          2018,
-          1592.42947
-        ]
-      ],
-      "name": "Finanzen, Steuern"
-    },
-    {
-      "color": "#E6E6E6",
+      "color": "#DC440E",
       "index": 0,
-      "legendIndex": 12,
-      "type": "column",
-      "borderWidth": 0,
-      "yAxis": 1,
-      "states": {
-        "hover": {
-          "brightness": -0.05
-        }
-      },
+      "zIndex": 2,
       "data": [
         [
-          2009,
-          20456.427393
+          1604102400000,
+          82.9
         ],
         [
-          2010,
-          21830.102569
-        ],
-        [
-          2011,
-          21860.185172
-        ],
-        [
-          2012,
-          23375.720946
-        ],
-        [
-          2013,
-          23363.477079
-        ],
-        [
-          2014,
-          24047.711664
-        ],
-        [
-          2015,
-          25175.064832
-        ],
-        [
-          2016,
-          27029.786936
-        ],
-        [
-          2017,
-          25031.313569
-        ],
-        [
-          2018,
-          24405.438083
+          1619740800000,
+          89
         ]
       ],
-      "name": "Total (rechte Skala)"
+      "name": "Anteil Gebäude"
+    },
+    {
+      "color": "#FABD24",
+      "index": 1,
+      "zIndex": 2
+    },
+    {
+      "color": "#246370",
+      "index": 2,
+      "zIndex": 3,
+      "type": "line",
+      "yAxis": 1
     }
   ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -580,6 +80,7 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-9367",
     "spacingBottom": 40
   },
@@ -590,13 +91,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "line": {
-      "connectNulls": true,
+      },
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
+        "enabled": false
       }
     }
   },
@@ -607,10 +104,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung der Staatsausgaben für Kultur und Sport"
+    "text": ""
   },
   "subtitle": {
-    "text": "pro Kopf in Franken, Basel-Stadt",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -618,42 +115,27 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": [
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
       "labels": {
+        "useHTML": true,
         "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }
       },
-      "min": 0,
-      "max": undefined,
-      "title": ""
+      "min": 0
     },
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+        "enabled": false
       },
       "labels": {
         "format": "{value:,.0f}",
@@ -662,8 +144,6 @@
         }
       },
       "min": 0,
-      "max": undefined,
-      "gridLineWidth": 0,
       "opposite": true
     }
   ],
@@ -673,11 +153,10 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left"
+    "align": "left",
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -698,11 +177,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 14.12.2020"
+    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2021"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9367"
