@@ -16631,7 +16631,7 @@ var indikatoren = [
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen, Basel-Stadt",
 		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2018 von 833 367 Tonnen auf 694 517 Tonnen ab. Das entspricht einer Reduktion um 16,6% bzw. einem Rückgang von 4,3 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -79272,7 +79272,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Nutzung kantonaler online-Dienstleistungen",
+		"title": "Nutzung kantonaler Online-Dienstleistungen",
 		"subtitle": "«Haben Sie schon einmal kantonale Dienstleistungen online genutzt?» nach Alter, Kanton Basel-Stadt, 2019",
 		"lesehilfe": "54% der im Jahr 2019 Befragten haben bereits kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen nur bei 29%.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
@@ -79284,7 +79284,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Nutzung kantonaler online-Dienstleistungen",
+		"description": "Nutzung kantonaler Online-Dienstleistungen",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.09395",

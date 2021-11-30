@@ -89,27 +89,27 @@
       "data": [
         [
           "18-29 Jahre",
-          26
+          undefined
         ],
         [
           "30-39 Jahre",
-          32
+          undefined
         ],
         [
           "40-49 Jahre",
-          23
+          undefined
         ],
         [
           "50-59 Jahre",
-          26
+          undefined
         ],
         [
           "60-69 Jahre",
-          10
+          undefined
         ],
         [
           "\u003E69 Jahre",
-          12
+          undefined
         ],
         [
           " ",
@@ -117,10 +117,10 @@
         ],
         [
           "Total",
-          133
+          undefined
         ]
       ],
-      "name": "Weiss nicht",
+      "name": "undefined",
       "turboThreshold": 0
     },
     {
@@ -130,27 +130,27 @@
       "data": [
         [
           "18-29 Jahre",
-          4
+          undefined
         ],
         [
           "30-39 Jahre",
-          3
+          undefined
         ],
         [
           "40-49 Jahre",
-          2
+          undefined
         ],
         [
           "50-59 Jahre",
-          9
+          undefined
         ],
         [
           "60-69 Jahre",
-          7
+          undefined
         ],
         [
           "\u003E69 Jahre",
-          30
+          undefined
         ],
         [
           " ",
@@ -158,10 +158,10 @@
         ],
         [
           "Total",
-          74
+          undefined
         ]
       ],
-      "name": "Keine Angabe",
+      "name": "undefined",
       "turboThreshold": 0
     }
   ],
@@ -245,7 +245,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nutzung kantonaler online-Dienstleistungen"
+    "text": "Nutzung kantonaler Online-Dienstleistungen"
   },
   "subtitle": {
     "style": {
