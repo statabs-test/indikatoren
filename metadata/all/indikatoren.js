@@ -78231,7 +78231,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2018 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 600 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2019 rund 3600 Beschäftigte in der Branche Kultur tätig und damit rund 700 mehr als 2011. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -78421,7 +78421,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Kontoüberziehungen, Zahlungsrückstände, Betreibungen",
 		"subtitle": "Nordwestschweiz",
-		"lesehilfe": "2019 lebten in der Nordwestschweiz 18,8% der Bevölkerung in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 7,8% lebten 2017 in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte. 10,1% lebten 2017 In einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
+		"lesehilfe": "2019 lebten in der Nordwestschweiz 18,8% der Bevölkerung in einem Haushalt mit mindestens einer Art von Zahlungsrückstand. 7,8% lebten 2017 in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte. 10,1% lebten 2017 in einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
 		"erlaeuterungen": "Zahlungsrückstände sind Rechnungen, die in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichen wurden. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013 und 2017 war.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
@@ -78769,7 +78769,7 @@ var indikatoren = [
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Ende 2020 existieren in Basel-Stadt 99 289 Wohnungen. Den grössten Anteil machen mit 72 552 die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen markant von 10 353 auf 10 834 gestiegen.",
-		"erlaeuterungen": "Es werden nur Wohnungen berücksicht, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -78959,7 +78959,7 @@ var indikatoren = [
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
 		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 22 km, jene der Fussgängerzonen 4,7 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. <br>Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. <br>Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -79312,8 +79312,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 32% auf 36% gestiegen; konstant 77% aller Frauen haben beim Kanton Basel-Stadt in den vergangenen fünf Jahren teilzeit gearbeitet.",
-		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) und zwar auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 32% auf 36% gestiegen; konstant 77% aller Frauen haben beim Kanton Basel-Stadt in den vergangenen fünf Jahren Teilzeit gearbeitet.",
+		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
 		],
