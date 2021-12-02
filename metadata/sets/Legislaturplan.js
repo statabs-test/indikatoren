@@ -89,10 +89,10 @@ var indikatorensetData = [
 		"children": [
 			6279
 		],
-		"title": "Transnationale Patentanmeldungen pro 1000 Beschäftigten",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte",
-		"lesehilfe": "In Basel-Stadt wurden in beiden betrachteten Perioden mehr Patente pro 1000 Einwohner und Jahr angemeldet als in den Kantonen Basel-Landschaft und Zürich. Der grösste Teil davon wurde im Bereich der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
-		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Beschäftigten im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
+		"title": "Transnationale Patentanmeldungen",
+		"subtitle": "pro 1000 Beschäftigten und Jahr, nach Wirtschaftsbranchen und ausgewählten Kantonen",
+		"lesehilfe": "In Basel-Stadt werden die meisten transnationalen Patente im Bereich der Pharmazeutischen Industrie angemeldet. In den Jahren 2015-2018 waren es im Mittel pro Jahr mit 0,52 über die Hälfte von total 0,92 pro 1000 Beschäftigten. Im Kanton Zürich wie auch in der gesamten Schweiz werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen spiegeln die Anzahl der von den Unternehmen als betriebswirtschaftlich verwertbar eingeschätzten Erfindungen im Technologiebereich wider. Sie werden von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Falls ein Patent von mehreren Forscher mit Wohnort in unterschiedlichen Regionen angemeldet wird, wird das Patent gemäss den Forscheranteilen aufgeteilt. Die Patentanmeldungen sind pro 1000 Beschäftigten im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -101,7 +101,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Transnationale Patentanmeldungen pro 1000 Beschäftigten",
+		"description": "Transnationale Patentanmeldungen",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kuerzel": "I.04.1.05033",
