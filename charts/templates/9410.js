@@ -15,7 +15,7 @@ global rheinData
         },    	
 		"legend": {
 			"title": {
-				"text": "Einpersonenhaushalte pro 1000 Einwohner</sup>"
+				"text": ""
 			},
 			useHTML: true,
 		},
