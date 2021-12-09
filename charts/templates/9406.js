@@ -1,47 +1,59 @@
-(function(){
-    return {
-  "plotOptions": {
-    "series": {
-      /*"dataLabels": {
-        "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ") + "%";
-            }
-            return "";
-          }
-      }*/
+(function () {
+  return {
+    chart: {
+      type: "column",
+      animation: false,
+      inverted: false,
+      events: {
+        load: function (event) {
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            )
+          };
+          justifyColumns(event.target);
+        },
+        redraw: function (event) {
+          justifyColumns(event.target);
+        }
+      }
+    },
+    plotOptions: {
+      series: {
+        pointPadding: 0,
+        borderWidth: 0,
+        pointWidth: 14
+      }
+    },
+    yAxis: {
+      tickAmount: 6,
+      labels: {
+        format: "{value:,.1f}%"
+      }
+    },
+    series: [
+      { color: "#73B97C" },
+      { color: "#FFBB58" },
+      { color: "#FF8028" },
+      { color: "#DC440E" },
+      { color: "#B00000" }
+    ],
+    legend: {
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "top",
+      align: "left",
+      itemWidth: 300,
+      itemStyle: {
+        fontWeight: "normal"
+      }
+    },
+    tooltip: {
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
     }
-  },
-  "yAxis": {
-    /*tickInterval: 10,*/
-    "labels": {
-      "format": "{value:,.1f}%",
-    } 
-  },
-  "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },
-  "legend": {
-    "enabled": false
-  },
-  "series": [
-    {
-    "color": "#083038"
-    }
-  ],
-  tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f}%</b><br/>',
-    shared: false
-  }, 
-  "chart": {
-    "marginBottom": 95,
-    "marginTop": 75,
-    "type": "column"
   }
-	}
 }());

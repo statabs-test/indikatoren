@@ -1,9 +1,6 @@
-﻿"CityDescr"	"Entwicklung der Gesamtbevölkerung"
-Basel	0.5786253503
-Bern	0.7537165082
-Genf	1.1093561878
-Lausanne	1.1417169487
-Lugano	0.380748332
-Luzern	0.5693894827
-St. Gallen	0.3606656998
-Zürich	1.0925161271
+﻿"CityDescr"	"Gesamte Agglomeration"	"Übrige Agglomerationsgemeinden Schweiz"	"Agglomerationsgemeinden Deutschland"	"Agglomerationsgemeinden Frankreich"	"Kernstadt"
+Basel	0.58	0.62	0.57	0.72	0.49
+Bern	0.75	0.75			0.76
+Genf	1.11	1.21		1.65	0.92
+Lausanne	1.14	1.26			0.9
+Zürich	1.09	1.03			1.24

@@ -39,7 +39,7 @@ global rheinData
         },
 		"series": [
 			{
-				"name": "Bevölkerungsdichte", 
+				"name": "", 
 				"animation": true,
 				"mapData": geojson_gemeinden,
 				"borderColor": "#fbfbfb",		
