@@ -9,7 +9,7 @@ global rheinData
             "formatter": function(args){
 				var this_point_index = this.series.data.indexOf(this.point);
 				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einpersonenhaushalte pro 1000 Einwohner</b></b>';
+					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '%</b></b>';
 			},
 			useHTML: true
         },    	
@@ -20,13 +20,13 @@ global rheinData
 			useHTML: true,
 		},
 		"colorAxis": {
-			min: 0,
-			max: 300,
+			min: 10,
+			max: 50,
 			"minColor": "#D3E2E4",
 			"maxColor": "#083038",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat(this.value, 0); 
+					return Highcharts.numberFormat(this.value, 0) + '%'; 
 				}
 			}
 		},
