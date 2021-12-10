@@ -31,6 +31,8 @@
     itemWidth: 165,
     labelFormatter: function(){
       return this.name.replace("Dienstl.", "DL")
+      .replace("Gesundheits- und", "Gesundheits-,")
+      .replace("wirtschaftliche", "wirtschaftl.")
       .replace("dienstl.", "-DL");
 
     },

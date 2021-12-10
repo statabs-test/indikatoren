@@ -1162,6 +1162,7 @@ id | visible | visibleInPortal | indikatorenset
 7563 | true | false | 
 7573 | true | true | Leerstand
 7574 | true | true | Leerstand
+7575 | true | true | Leerstand
 7576 | true | true | Leerstand
 7577 | true | true | Leerstand
 7578 | true | true | Leerstand
@@ -2067,6 +2068,44 @@ id | visible | visibleInPortal | indikatorenset
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
+9418 | true | false | Legislaturplan (Print)
+9419 | true | false | Legislaturplan (Print)
+9420 | true | false | Legislaturplan (Print)
+9421 | true | false | Legislaturplan (Print)
+9422 | true | false | Legislaturplan (Print)
+9423 | true | false | Legislaturplan (Print)
+9424 | true | false | Legislaturplan (Print)
+9425 | true | false | Legislaturplan (Print)
+9426 | true | false | Legislaturplan (Print)
+9427 | true | false | Legislaturplan (Print)
+9428 | true | false | Legislaturplan (Print)
+9429 | true | false | Legislaturplan (Print)
+9430 | true | false | Legislaturplan (Print)
+9431 | true | false | Legislaturplan (Print)
+9432 | true | false | Legislaturplan (Print)
+9433 | true | false | Legislaturplan (Print)
+9434 | true | false | Legislaturplan (Print)
+9435 | true | false | Legislaturplan (Print)
+9436 | true | false | Legislaturplan (Print)
+9437 | true | false | Legislaturplan (Print)
+9438 | true | false | Legislaturplan (Print)
+9439 | true | false | Legislaturplan (Print)
+9440 | true | false | Legislaturplan (Print)
+9441 | true | false | Legislaturplan (Print)
+9442 | true | false | Legislaturplan (Print)
+9443 | true | false | Legislaturplan (Print)
+9444 | true | false | Legislaturplan (Print)
+9445 | true | false | Legislaturplan (Print)
+9446 | true | false | Legislaturplan (Print)
+9447 | true | false | Legislaturplan (Print)
+9448 | true | false | Legislaturplan (Print)
+9449 | true | false | Legislaturplan (Print)
+9450 | true | false | Legislaturplan (Print)
+9451 | true | false | Legislaturplan (Print)
+9452 | true | false | Legislaturplan (Print)
+9453 | true | false | Legislaturplan (Print)
+9454 | true | false | Legislaturplan (Print)
+9455 | true | false | Legislaturplan (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
