@@ -1,5 +1,10 @@
 (function(){
     return {
+      plotOptions:{
+        series: {
+            pointPadding: 0,
+        }
+    },
   "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
@@ -9,6 +14,7 @@
     },
     "min": 0,
     "max": undefined,
+    tickAmount: 5,
     "title": ""
   },
   {
@@ -27,6 +33,7 @@
     },
     "min": 0,
     "max": undefined,
+    tickAmount: 5,
     "gridLineWidth": 0,
     "opposite": true
   }
@@ -39,7 +46,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  "itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -49,7 +55,6 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "20"
     },
     {
       "color": "#7d60a0",
@@ -70,6 +75,6 @@
   "chart": {
     "type": "line",
     "alignTicks": false
-  }
+  },
 }
 }());

@@ -27,7 +27,7 @@
           text: null
       },
       labels: {
-        format: "{value:,.1f}",
+        format: "{value:,.0f}",
         y: 3,
         style: {
          color: "black",

@@ -8,9 +8,9 @@
     },
   },
   "yAxis": {
-    min: 90, 
+    min: 50, 
     //max: 125,
-    tickInterval: 5,
+    tickInterval:25,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -32,7 +32,10 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemWidth: 150,
+    width: 300,
     "itemStyle": {
+      textOverflow: "none",
       "fontWeight": "normal"
     }
   },

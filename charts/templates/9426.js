@@ -14,11 +14,15 @@
     yAxis: {
       reversedStacks: false,
     },
+    plotOptions:{
+      series: {
+          pointPadding: 0.2,
+      }
+  },
     legend: {
       reversed: false,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 4,
       "align": "left",
       labelFormatter: function () {
         return this.name.replace("/", " /<br/>");

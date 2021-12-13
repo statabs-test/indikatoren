@@ -2,7 +2,7 @@
   return {
   "yAxis":{
    "tickInterval": 0.2,
-   "max": 1,
+   //"max": 1,
     "labels": {
         "format": "{value:,.1f}",
     }

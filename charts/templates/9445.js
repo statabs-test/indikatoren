@@ -1,5 +1,10 @@
 (function () {
     return {
+      plotOptions: {
+        series: {
+            pointPadding: 0.2,
+        }
+    },
       chart: {
         inverted: true
       },
@@ -7,6 +12,7 @@
         "type": "category",
       },
       yAxis: {
+        tickInterval: 25,
         labels: {
           y: 8
         }

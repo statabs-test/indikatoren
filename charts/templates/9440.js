@@ -9,6 +9,7 @@
         }
       },
       "yAxis": {
+        tickAmount: 5,
         "labels": {
           "format": "{value:,.0f}"
         }
@@ -20,7 +21,6 @@
       "legend": {
         "layout": "horizontal",
         "verticalAlign": "top",
-        "itemMarginBottom": 2,
         "align": "left",
         itemDistance: 0,
         itemWidth: 92,

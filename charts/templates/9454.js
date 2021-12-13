@@ -6,6 +6,7 @@
         "yAxis": {
             min: 0,
             max: 1,
+            tickAmount: 5,
             "labels": {
                 "format": "{value:,.0f}",
                 "formatter": function () {
@@ -31,7 +32,6 @@
             //"y": 35,
             "layout": "horizontal",
             "verticalAlign": "top",
-            "itemMarginBottom": 5,
             "align": "left",
             "itemStyle": {
                 "fontWeight": "normal"

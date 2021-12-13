@@ -3,7 +3,8 @@
   plotOptions: {
         series: {
         	"stacking": "normal",
-             groupPadding: 0,
+             //groupPadding: 0,
+             pointPadding: 0
         }
   },
   "yAxis": {

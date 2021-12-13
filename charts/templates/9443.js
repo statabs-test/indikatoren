@@ -23,7 +23,8 @@
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+    tickAmount: 6,
   },
   {
     gridLineColor: '#B9CFD7', 
@@ -36,13 +37,14 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.1f}%",
+      "format": "{value:,.0f}%",
       "style": {
         "color": "#000000"
       }
     },
     "min": 0,
     "max": 5,
+    tickAmount: 6,
     "opposite": true
   }
   ],
@@ -56,7 +58,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-		//"y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -79,7 +80,6 @@
   },
   "chart": {
     "zoomType": "xy",
-    "marginTop": 85,
     "type": "line"
   }
 	}

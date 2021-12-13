@@ -10,11 +10,16 @@
   "xAxis": {
       "type": "category",
   },
+  plotOptions: {
+    series:{
+    groupPadding: 0,
+    pointPadding: 0.2
+    }
+  },
   legend: {
     reversed: true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 4,
     "align": "left",
     labelFormatter: function(){
         return this.name.replace("/", " /<br/>");

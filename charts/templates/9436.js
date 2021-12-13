@@ -52,12 +52,10 @@
       //"y": 15,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
     },
     "chart": {
       type: 'column',
-      marginRight: 20
     },
     plotOptions: {
       column: {

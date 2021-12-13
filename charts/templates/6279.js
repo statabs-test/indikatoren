@@ -2,7 +2,7 @@
   return {
   "yAxis":{
    "tickInterval": 0.2,
-   "max": 1,
+   //"max": 1,
     "labels": {
         "format": "{value:,.1f}",
     },
@@ -43,7 +43,8 @@
 "plotOptions": {
   "series": {
       borderWidth: 0,
-      groupPadding: 0.1,
+      //pointPadding: 0.1,
+     // groupPadding: 0.1,
       "dataLabels": {
           "style": {
               "fontSize": "10px"

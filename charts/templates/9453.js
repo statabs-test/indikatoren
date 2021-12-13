@@ -4,7 +4,7 @@
             series: {
                 //pointPadding: 0,
                 borderWidth: 0,
-                groupPadding: 0.1,
+                //groupPadding: 0.1,
             }
         },
         tooltip: {
@@ -44,6 +44,7 @@
             "type": "category"
         },
         "yAxis": {
+            tickAmount: 5,
             "labels": {
                 "formatter": function () {
                     return Highcharts.numberFormat((this.value*100), 0) + '%';
@@ -51,7 +52,7 @@
             }
         },
         "legend": {
-            itemDistance: 5,
+            //itemDistance: 5,
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
@@ -61,8 +62,6 @@
             }
         },
         "chart": {
-            "marginBottom": 65,
-            //"marginTop": 75,
             "type": "column",
             "inverted": false
         }

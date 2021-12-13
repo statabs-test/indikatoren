@@ -21,6 +21,11 @@
         },
         "chart": {
             "type": "column"
+        },
+        plotOptions:{
+            series: {
+                pointPadding: 0.2
+            }
         }
     };
 }());

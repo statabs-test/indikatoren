@@ -1,12 +1,13 @@
 (function () {
     return {
         chart: {
-            marginLeft: 125,
+            //marginLeft: 125,
             inverted: true,
         },
         plotOptions: {
             column: {
                 groupPadding: 0,
+                pointPadding: 0.2
             }
         },
         yAxis: {
@@ -43,7 +44,6 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
-            "itemMarginBottom": 5,
         }
     };
 }());

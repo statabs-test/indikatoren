@@ -28,6 +28,8 @@
         },
       },
       "min": 0,
+      tickAmount: 5,
+      tickInterval: 100
     },
     {
       title: {
@@ -40,6 +42,8 @@
         },
       },
       "min": 0,
+      max: 4,
+      tickAmount: 5,
       "opposite": true
     }
     ],
@@ -47,10 +51,17 @@
       useHTML: true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
+      itemWidth: 135,
+      width: 300,
+      itemDistance: 0,
+      itemStyle: {
+        textOverflow: "none"
+      },
       labelFormatter: function(){
-        return this.name.replace("-elektrisch", "-elektr.");
+        return this.name.replace("-elektrisch", "-elektr.")
+        .replace("Normal-Hybrid", "Normal")
+        .replace("Plug-in-Hybrid", "Plug-in");
       },
     },
     "series": [

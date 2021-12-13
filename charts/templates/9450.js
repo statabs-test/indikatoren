@@ -5,10 +5,12 @@
     },
     "plotOptions": {
       "series": {
+        pointPadding: 0.2,
         "stacking": "percent"
       }
     },
     "yAxis": {
+      tickAmount: 5,
       "labels": {
         "format": "{value:,.0f}%",
       }
@@ -40,7 +42,6 @@
     "legend": {
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
     },
   };

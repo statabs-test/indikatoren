@@ -15,7 +15,7 @@
       "type": "category"
     },
     "yAxis": {
-      tickAmount: 5,
+      tickAmount: 6,
     },
     "series": [
       { "color": "#2F656B" },

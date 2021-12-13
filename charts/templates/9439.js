@@ -29,7 +29,6 @@
         "legend": {
             "layout": "horizontal",
             "verticalAlign": "top",
-            "itemMarginBottom": 2,
             "align": "left",
             reversed: true,
         },

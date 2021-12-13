@@ -1,5 +1,10 @@
 (function(){
     return {
+      plotOptions: {
+        series: {
+            pointPadding: 0.2,
+        }
+    },
     series: [
       { "color": "#007a2f"}, // dunkelgrün
       { "color": "#68ab2b"}, // grün
@@ -18,7 +23,6 @@
       reversed: false,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 4,
       "align": "left",
       labelFormatter: function(){
           return this.name.replace("/", " /<br/>");

@@ -23,7 +23,6 @@
         reversed: false,
         "layout": "horizontal",
         "verticalAlign": "top",
-        "itemMarginBottom": 2,
         "align": "left",
         //itemWidth: 220,
         //width: 450,

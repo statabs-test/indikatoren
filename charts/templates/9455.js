@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {    
-    	//pointPadding: 0, 
+    	pointPadding: 0.2, 
 		//groupPadding: 0.1, 
 		borderWidth: 0,
       "dataLabels": {
@@ -16,6 +16,7 @@
 	"type": "category"    
   },
   "yAxis": {
+    tickAmount: 5,
     "labels": {
       "formatter": function(){
         return Highcharts.numberFormat((this.value),0);                
@@ -35,7 +36,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  //"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -47,8 +47,6 @@
     "shared": false
   },  
   "chart": {      
-    "marginBottom": 65,
-    //"marginTop": 75,
     "type": "column",
   }
 	}
