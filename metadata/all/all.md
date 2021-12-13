@@ -2106,6 +2106,7 @@ id | visible | visibleInPortal | indikatorenset
 9453 | true | false | Legislaturplan (Print)
 9454 | true | false | Legislaturplan (Print)
 9455 | true | false | Legislaturplan (Print)
+9457 | true | false | Legislaturplan
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
