@@ -113,6 +113,18 @@
                     style: { fontSize: "12px", fontWeight: "normal", color: 'black' },
                     y: -10
                 }
+            },
+            {
+                name: 'Grenzen',
+                animation: true,
+                type: 'LineString',
+                data: borderDataTrinat,
+                color: 'black',
+                tooltip: {
+                    pointFormatter: function () {
+                        return '<br/>';
+                    }
+                }
             }
 		],
         customFunctions: {
