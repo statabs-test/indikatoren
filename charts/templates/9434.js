@@ -24,6 +24,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
+        itemMarginBottom: 2,
         //itemWidth: 220,
         //width: 450,
         labelFormatter: function(){

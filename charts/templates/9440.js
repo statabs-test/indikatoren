@@ -16,7 +16,15 @@
       },
       "xAxis": {
         tickInterval: 2,
-        "type": "category"
+        "type": "category",
+        tickPositioner: function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
       },
       "legend": {
         "layout": "horizontal",

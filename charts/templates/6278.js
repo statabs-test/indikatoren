@@ -5,6 +5,9 @@
   },
   "xAxis": {
     "tickInterval": 2,
+    labels: {
+      rotation: 0
+    }
   },
   "yAxis": {
   	min: 100,
