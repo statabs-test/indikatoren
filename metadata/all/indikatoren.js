@@ -16755,8 +16755,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2018 bei 1 598 Franken pro Einwohner.",
-		"erlaeuterungen": "Die Eidgenössische Finanzverwaltung (EFV) verwendet aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2019 bei 1 504 Franken pro Einwohner.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -79203,9 +79203,11 @@ var indikatoren = [
 		"chart-id": 9393,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9450
+		],
 		"title": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen",
-		"subtitle": "Anteil am Bruttoenergieverbrauch, Basel-Stadt",
+		"subtitle": "Anteil am Bruttoenergieverbrauch aller Heizungen, Basel-Stadt",
 		"lesehilfe": "Fernwärme, welche aus erneuerbaren Energieträgern produziert wird, weist 2018 einen Anteil von 7,3% am Bruttoenergieverbrauch der Heizungen im Kanton Basel-Stadt auf. Die anderen erneuerbaren Energieträger liegen bei 16,7%, so dass die Erneuerbaren zusammen auf 24% kommen. Der Verbrauch von Fernwärme aus nicht erneuerbaren Energieträgern ist von 39,0% im Jahr 2014 auf 52,8% im Jahr 2018 gestiegen, während die anderen nicht Erneuerbaren von 40,1% auf 23,2% gesunken sind.",
 		"erlaeuterungen": "Elektrische Heizungen sind nicht berücksichtigt.",
 		"quellenangabe": [
