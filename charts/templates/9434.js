@@ -10,7 +10,7 @@
     ],
     "plotOptions": {
         "series": {
-          pointPadding: 0.2,
+          pointPadding: 0.3
         }
     },
     xAxis: {

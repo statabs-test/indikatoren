@@ -12,7 +12,7 @@
   },
   plotOptions: {
     series:{
-    groupPadding: 0,
+    //groupPadding: 0,
     pointPadding: 0.2
     }
   },

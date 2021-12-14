@@ -7,9 +7,8 @@
     "plotOptions": {
       "series": {
         borderWidth: 0,
-        pointPadding: 0,
+        pointPadding: 0.1,
         groupPadding: 0.1,
-        //"pointWidth": 30,
         "stacking": "normal"
       }
     },

@@ -115,7 +115,7 @@ global Highcharts
     }]*/
     },
     "yAxis": {
-      tickAmount: 4,
+      tickAmount: 5,
       "labels": {
         "formatter": function () {
           return Highcharts.numberFormat((this.value), 0);

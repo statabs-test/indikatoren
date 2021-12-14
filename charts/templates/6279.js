@@ -43,8 +43,8 @@
 "plotOptions": {
   "series": {
       borderWidth: 0,
-      //pointPadding: 0.1,
-     // groupPadding: 0.1,
+      pointPadding: 0.2,
+      //groupPadding: 0.1,
       "dataLabels": {
           "style": {
               "fontSize": "10px"

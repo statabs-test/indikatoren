@@ -12,7 +12,7 @@
     },
     "yAxis": {
       "min": 0,
-      tickAmount: 4,
+      tickAmount: 5,
       reversedStacks: false,
       //tickInterval: 10,
       //  max: 40, 

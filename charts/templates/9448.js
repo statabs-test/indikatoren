@@ -14,8 +14,11 @@
       }
     },
     "xAxis": {
-      "type": "category",
-      //"tickInterval": 1	
+      //"type": "category",
+      "tickInterval": 1	,
+      labels: {
+        rotation: -45
+      }
     },
     "yAxis": [{
       title: {
