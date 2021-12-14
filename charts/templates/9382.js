@@ -34,7 +34,7 @@
             "itemMarginBottom": 5,
             reversed: true,
             labelFormatter: function () {
-                return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('selbstbewohnte', 'selbstbewohnte<br>');
+                return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
             }
         },
         "series": [
