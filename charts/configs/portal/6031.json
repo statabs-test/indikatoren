@@ -4,8 +4,8 @@
       "color": "#2F656B",
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen pro Kopf"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
       },
       "data": [
         [
@@ -32,8 +32,8 @@
       "color": "#8B2223",
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen pro Kopf"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
       },
       "data": [
         [
@@ -60,8 +60,8 @@
       "color": "#83522E",
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen pro Kopf"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
       },
       "data": [
         [
@@ -88,8 +88,8 @@
       "color": "#9A86A6",
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen pro Kopf"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
       },
       "data": [
         [
