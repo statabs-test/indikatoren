@@ -7,6 +7,7 @@
       series: {
         borderWidth: 0,
         pointPadding: 0.2,
+        //pointWidth: 30,
         dataLabels: {
           style: {
             fontSize: "10px"
@@ -29,7 +30,6 @@
         },
       },
       min: 0,
-      tickAmount: 4,
     },
     {
       title: {
@@ -42,7 +42,6 @@
         },
       },
       min: 0,
-      tickAmount: 4,
       opposite: true
     }
     ],
@@ -50,18 +49,23 @@
       {
         color: "#2F656B",
         type: "column",
-      },
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen',
+        }
+      }, 
       {
         color: "#8B2223",
-        type: "column"
+        type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen',
+        }
       },
       {
         color: "#83522E",
-        type: "column"
-      },
-      {
-        color: "#9A86A6",
-        type: "column"
+        type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen',
+        }
       },
 
       {
@@ -72,13 +76,13 @@
           enabled: false
         },
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
-        },
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+        }
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
-      shared: true,
+      //pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen',
+      //shared: false,
       useHTML: true,
       outside: true
     },
@@ -88,9 +92,10 @@
       enabled: true,
       layout: "horizontal",
       verticalAlign: "top",
+      //itemMarginBottom: 5,
       align: "left",
-      itemWidth: 100,
-      width: 220,
+      itemWidth: 90,
+      width: 200,
       itemStyle: {
         fontWeight: "normal",
         textOverflow: "none",
@@ -99,6 +104,8 @@
       }
     },
     chart: {
+      //"marginBottom": 75,
+      //"marginTop": 75,
       type: "column"
     }
   };

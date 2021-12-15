@@ -29,7 +29,7 @@
         },
       },
       min: 0,
-      tickAmount: 6
+      tickAmount: 4
     },
     {
       title: {
@@ -42,7 +42,7 @@
         },
       },
       min: 0,
-      tickamount: 6,
+      tickAmount: 4,
       opposite: true
     }
     ],
