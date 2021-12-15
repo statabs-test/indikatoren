@@ -48,18 +48,30 @@
       {
         color: "#2F656B",
         type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
+        },
       }, 
       {
         color: "#8B2223",
-        type: "column"
+        type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
+        },
       },
       {
         color: "#83522E",
-        type: "column"
+        type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
+        },
       },
       {
         color: "#9A86A6",
-        type: "column"
+        type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
+        },
       },
 
       {
@@ -70,13 +82,13 @@
           enabled: false
         },
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
         },
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen pro Kopf',
-      shared: true,
+     // pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      //shared: true,
       useHTML: true,
       outside: true
     },
@@ -84,13 +96,17 @@
     legend: {
       useHTML: true,
       enabled: true,
-      //"y": 35,
       layout: "horizontal",
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
+      itemWidth: 130,
+      width: 300,
       itemStyle: {
-        fontWeight: "normal"
+        fontWeight: "normal",
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+
       }
     },
     chart: {

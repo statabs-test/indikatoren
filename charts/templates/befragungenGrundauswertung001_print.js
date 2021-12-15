@@ -97,7 +97,7 @@
             //margin: 0,
             padding: 0,
             itemDistance: 2,
-            itemMarginBottom: 5,
+            itemMarginBottom: 2,
             itemMarginTop: -7,
             itemStyle: {
                 fontWeight: "normal",

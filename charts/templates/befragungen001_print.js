@@ -180,7 +180,7 @@
 			verticalAlign: "middle",
 			symbolRadius: 0,
 			padding: 0,
-			itemMarginBottom: 4,
+			itemMarginBottom: 2,
 			itemStyle: {
 				fontSize: "10px",
 				color: "#000000",
