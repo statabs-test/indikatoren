@@ -28,6 +28,7 @@
         },
       },
       "min": 0,
+     // tickAmount: 5
     },
     {
       title: {
@@ -40,6 +41,7 @@
         },
       },
       "min": 0,
+      tickInterval: 2,
       "opposite": true
     }
     ],
