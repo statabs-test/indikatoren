@@ -37,8 +37,8 @@ console.log('Loading scalebar shape...');
 var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG_2056.json'));
 console.log('Loading scalebar Trinat shape...');
 var geojson_scalebarTrinat = JSON.parse(fs.readFileSync('geojson/scalebar_Trinat.json'));
-console.log('Loading gemeinde shape...');
-var geojson_borderTrinat = JSON.parse(fs.readFileSync('geojson/borderDataTrinat.json'));
+console.log('Loading borderTrinat shape...');
+var geojson_borderTrinat = JSON.parse(fs.readFileSync('geojson/border_Trinat.json'));
 console.log('Loading gemeinde shape...');
 var geojson_gemeinden = JSON.parse(fs.readFileSync('geojson/UA_Gemeinden_100.json'));
 
