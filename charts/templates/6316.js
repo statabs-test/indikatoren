@@ -50,7 +50,7 @@
       {
         color: "#2F656B",
         type: "column",
-      }, 
+      },
       {
         color: "#8B2223",
         type: "column"
@@ -89,8 +89,13 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
+      itemWidth: 100,
+      width: 220,
       itemStyle: {
-        fontWeight: "normal"
+        fontWeight: "normal",
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+
       }
     },
     chart: {
