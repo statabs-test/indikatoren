@@ -2047,7 +2047,7 @@ id | visible | visibleInPortal | indikatorenset
 9375 | true | true | Legislaturplan
 9376 | true | false | Legislaturplan
 9377 | true | true | Legislaturplan
-9378 | true | false | Legislaturplan
+9378 | true | true | Legislaturplan
 9379 | true | true | Legislaturplan
 9380 | true | true | Legislaturplan
 9381 | true | true | Legislaturplan
