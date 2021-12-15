@@ -385,7 +385,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.7.2021"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-7"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

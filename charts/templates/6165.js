@@ -28,7 +28,8 @@
           color: "black"
         },
       },
-      min: 0
+      min: 0,
+      tickAmount: 6
     },
     {
       title: {
@@ -41,6 +42,7 @@
         },
       },
       min: 0,
+      tickamount: 6,
       opposite: true
     }
     ],

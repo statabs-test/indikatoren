@@ -287,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -104,10 +104,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": ""
+    "text": "Entwicklung der Staatsausgaben für Kultur und Sport"
   },
   "subtitle": {
-    "text": "",
+    "text": "pro Kopf in Franken, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -177,7 +177,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2021"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-14"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
