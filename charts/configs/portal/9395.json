@@ -86,7 +86,6 @@
       "color": "#C8C8C8",
       "index": 1,
       "legendIndex": 3,
-      "visible": false,
       "data": [
         [
           "18-29 Jahre",
@@ -128,7 +127,6 @@
       "color": "#6F6F6F",
       "index": 0,
       "legendIndex": 4,
-      "visible": false,
       "data": [
         [
           "18-29 Jahre",

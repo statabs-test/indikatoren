@@ -14832,7 +14832,7 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
-		"data-id": 6131,
+		"data-id": 6170,
 		"chart-id": 6170,
 		"filter": "",
 		"parentId": null,
