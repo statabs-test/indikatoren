@@ -3785,7 +3785,7 @@ var indikatorensetData = [
 		],
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "51,0% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage genau oder eher zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht oder gar nicht zu.",
+		"lesehilfe": "Insgesamt 51,0% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.  Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
@@ -4369,15 +4369,15 @@ var indikatorensetData = [
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2020 sind im kantonalen Datenportal 115 Datensätze von 23 Organisationen publiziert (Offene Behördendaten/Open Government Data, OGD). Im Geoportal sind 152 Geodatensätze öffentlich verfügbar.",
-		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt gezählt und keine Bundesorgane. Das kantonale Datenportal ist seit November 2019 online.",
+		"lesehilfe": "Ende 2020 sind im kantonalen Datenportal 115 Datensätze publiziert (Offene Behördendaten/Open Government Data, OGD). 23 der datenpublizierenden Organisationen sind öffentliche Organe des Kantons Basel-Stadt. Im Geoportal sind 152 Geodatensätze öffentlich verfügbar.",
+		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt (inkl. bspw. BVB, IWB, EuroAirport) gezählt, keine Bundesorgane und nicht-öffentliche. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			"Kantonales Datenportal: <a href = 'https://data.bs.ch' target = '_blank'>data.bs.ch</a>",
-			"Kantonales Geoportal: <a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20farbig' target = '_blank'>map.geo.bs.ch</a>"
+			"Kantonales Geoportal: <a href = 'https://map.geo.bs.ch/' target = '_blank'>map.geo.bs.ch</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -4566,7 +4566,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ. Das sind 2,8% mehr als im Vorjahr. Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3.1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
+		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3.1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"

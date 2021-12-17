@@ -26,7 +26,7 @@
           152
         ]
       ],
-      "name": "Anzahl Datensätze im Geoportal"
+      "name": "Datensätze im Geoportal"
     },
     {
       "color": "#FABD24",
@@ -54,7 +54,7 @@
           115
         ]
       ],
-      "name": "Anzahl Datensätze im Datenportal"
+      "name": "Datensätze im Datenportal"
     },
     {
       "color": "#246370",
@@ -84,7 +84,7 @@
           23
         ]
       ],
-      "name": "Anzahl publizierende Organisationen ohne Bundesorgane (rechte Skala)"
+      "name": "Publizierende Organisationen Datenportal (nur öff. Kanton BS, rechte Skala)"
     }
   ],
   "chart": {
@@ -234,7 +234,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2021"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

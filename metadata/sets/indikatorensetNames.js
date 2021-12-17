@@ -11,6 +11,7 @@ var indikatorensetNames = [
 	"Wanderungen",
 	"Integration",
 	"Richtplan (Print)",
+	"Legislaturplan-2017-2021 (Print)",
 	"Legislaturplan (Print)",
 	"Gefragte Karten",
 	"Tourismus",
