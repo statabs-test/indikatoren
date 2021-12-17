@@ -1,7 +1,15 @@
 (function () {
     return {
       "xAxis": {
-        tickInterval: 2,
+        tickPositioner: function () {
+          var interval = 4,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        },
+        tickInterval: 4,
       },
       "yAxis": {
         tickInterval: 0.2,

@@ -1,13 +1,24 @@
 (function () {
   return {
     "xAxis": {
-      tickInterval: 5,
+      tickInterval: 10,
+      tickPositioner: function () {
+        var interval = 10,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      },
+      labels: {
+        rotation: 0,
+      }
 
     },
     "yAxis": {
       tickAmount: 6,
       "labels": {
-        "format": "{value:,.0f}"
+        "format": "{value:,.0f}",
       }
     },
     "tooltip": {

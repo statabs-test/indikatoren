@@ -41,7 +41,10 @@
             },
         ],
         "xAxis": {
-            "type": "category"
+            "type": "category",
+            labels: {
+            rotation: 0
+            }
         },
         "yAxis": {
             tickAmount: 5,

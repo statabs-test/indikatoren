@@ -24,6 +24,9 @@
             pos = [i];
           while (i >= ext.dataMin) pos.unshift(i = i - interval);
           return pos;
+        },
+        labels:{
+          rotation: 0
         }
       },
       "legend": {
