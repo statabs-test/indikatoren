@@ -1,6 +1,7 @@
-Jahr	Datensätze im Geoportal	Datensätze im Datenportal	Publizierende Organisationen Datenportal (nur öff. Kanton BS, rechte Skala)
-2016	102		
-2017	109		
-2018	120		
-2019	145	52	18
-2020	152	115	23
+Jahr	Datensätze Geoportal	Datensätze Datenportal, Kanton	Datensätze Datenportal, Bund	Organisationen Datenportal, Kanton (rechte Skala)	Organisationen Datenportal, Bund (rechte Skala)
+2016	102				
+2017	109				
+2018	120				
+2019	145	51	1	18	1
+2020	152	108	7	23	6
+2021		129	8	23	6

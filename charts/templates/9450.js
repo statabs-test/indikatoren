@@ -8,12 +8,14 @@
           this.legend.title
             .attr({
               text:
-                this.series[0].name.split(" (").slice(-1).toString().replace(')','')
-                + ':<br>'
-                + this.series[2].name.split(" (").slice(-1).toString().replace(')','')
-                + ':'
-            })
-            .translate(-90, 28);
+              this.series[0].name.split(" (").slice(-1).toString().replace(')', '').substr(0, 1).toUpperCase() //Capitalize first letter
+              + this.series[0].name.split(" (").slice(-1).toString().replace(')', '').substr(1)
+              + ':<br>'
+              + this.series[2].name.split(" (").slice(-1).toString().replace(')', '').substr(0, 1).toUpperCase() //Capitalize first letter
+              + this.series[2].name.split(" (").slice(-1).toString().replace(')', '').substr(1) 
+              + ':'
+          })
+            .translate(-90, 26);
         }
       },
     },
