@@ -1,6 +1,6 @@
-﻿"CityDescr"	"Gesamte Agglomeration"	"Übrige Agglomerationsgemeinden Schweiz"	"Agglomerationsgemeinden Deutschland"	"Agglomerationsgemeinden Frankreich"	"Kernstadt"
-Basel	0.48	0.7	1.68	0.16	0.25
-Bern	0.69	0.62			0.73
-Genf	1.05	1.06		0.54	1.05
-Lausanne	1.09	1.18			0.99
-Zürich	0.94	0.79			1.09
+﻿"CitYDescr"	"Gesamte Agglomeration"	"Kernstadt"	"Übrige Agglomerationsgemeinden Schweiz"	"Agglomerationsgemeinden Deutschland"	"Agglomerationsgemeinden Frankreich"
+Basel	0.57	0.2	0.95	1.73	0.34
+Bern	0.81	0.79	0.84		
+Genf	1.51	1.48	1.53		0.53
+Lausanne	1.39	1.22	1.53		
+Zürich	1.31	1.58	1.05		
