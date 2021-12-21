@@ -97,6 +97,7 @@
       }, // grau
     ],
     "legend": {
+      x: 41,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",

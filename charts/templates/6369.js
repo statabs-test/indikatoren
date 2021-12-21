@@ -11,7 +11,7 @@
     tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}",
-      y: 3,
+     // y: 3,
      // x: -5,
     }
   },
@@ -27,7 +27,7 @@
  "legend": {
     enabled:true,
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "align": "right",
     itemWidth: 165,
     labelFormatter: function(){
@@ -64,7 +64,7 @@
   "chart": {
   	type: "column",
     "inverted": false,
-    spacingTop: 5,
+    spacingTop: 7,
   }
 };
 }());

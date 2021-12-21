@@ -42,10 +42,13 @@
     "tickInterval": 1
   },
   "legend": {
+    x: 43,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    width: 300,
+    itemDistance: 10,
     "itemStyle": {
     "fontWeight": "normal"
     }

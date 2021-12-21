@@ -37,8 +37,8 @@
         series: [
             { "color": "#689199", "index": 3, "legendIndex": 1 },
             { "color": "#FABD24", "index": 2, "legendIndex": 2 },
-            { "color": "#C8C8C8", "index": 1, "legendIndex": 3, visible: false },
-            { "color": "#6F6F6F", "index": 0, "legendIndex": 4, visible: false },
+            { "color": "#C8C8C8", "index": 1, "legendIndex": 3 },
+            { "color": "#6F6F6F", "index": 0, "legendIndex": 4 },
         ],
         legend: {
             "layout": "horizontal",
