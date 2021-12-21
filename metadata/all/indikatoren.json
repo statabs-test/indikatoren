@@ -1273,7 +1273,7 @@
 		"title": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
 		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Bei den Altersgruppen 60 bis 69 Jahre liegt die Zufriedenheit mit 97,3% am höchsten.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -1667,7 +1667,7 @@
 		"kuerzel": "I.11.6.3104",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.12",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9841,8 +9841,8 @@
 		],
 		"title": "Transnationale Patentanmeldungen",
 		"subtitle": "pro 1000 Beschäftigte und Jahr, nach Wirtschaftsbranchen und ausgewählten Kantonen",
-		"lesehilfe": "In Basel-Stadt werden die meisten transnationalen Patente im Bereich der Pharmazeutischen Industrie angemeldet. In den Jahren 2015-2018 waren es im Mittel pro Jahr mit 0,52 über die Hälfte von total 0,92 pro 1000 Beschäftigte. Im Kanton Zürich wie auch in der gesamten Schweiz werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
-		"erlaeuterungen": "Die transnationalen Patentanmeldungen spiegeln die Anzahl der von den Unternehmen als betriebswirtschaftlich verwertbar eingeschätzten Erfindungen im Technologiebereich wider. Sie werden von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Falls ein Patent von mehreren Forscher mit Wohnort in unterschiedlichen Regionen angemeldet wird, wird das Patent gemäss den Forscheranteilen aufgeteilt. Die Patentanmeldungen sind pro 1000 Beschäftigte im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
+		"lesehilfe": "In Basel-Stadt wurden von 2015 bis 2018 pro Jahr im Schnitt 0,92 transnationale Patente pro 1000 Beschäftigte angemeldet, über die Hälfte davon im Bereich der Pharmazeutischen Industrie (0,52). Im Kanton Zürich und in der gesamten Schweiz werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen spiegeln die Anzahl der von den Unternehmen als betriebswirtschaftlich verwertbar eingeschätzten Erfindungen im Technologiebereich wider. Sie werden von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Falls ein Patent von mehreren Forschern mit Wohnort in unterschiedlichen Regionen angemeldet wird, wird das Patent gemäss den Forscheranteilen aufgeteilt. Die Patentanmeldungen sind pro 1000 Beschäftigte im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -9857,7 +9857,7 @@
 		"kuerzel": "I.04.1.05033",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.5",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9881,7 +9881,7 @@
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2018 wurden in Basel-Stadt 989 neue Unternehmen gegründet, 72 bzw. 6,8% weniger als im Jahr 2017. Um 11,8% zugenommen haben 2018 die Neugründungen im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, wo rund 30% aller neugegründeten Unternehmen tätig sind.",
+		"lesehilfe": "Im Jahr 2018 wurden in Basel-Stadt 989 neue Unternehmen gegründet, 72 bzw. 6,8% weniger als im Jahr 2017. Um 11,8% zugenommen haben 2018 die Neugründungen im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, wo rund 30% aller neugegründeten Unternehmen angesiedelt sind.",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -9897,7 +9897,7 @@
 		"kuerzel": "I.06.2.5041",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.4",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -10951,7 +10951,7 @@
 		"kuerzel": "I.50.1.5192",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.7",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -15323,7 +15323,7 @@
 		"kuerzel": "I.04.2.06126",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.1",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -15365,7 +15365,7 @@
 		"kuerzel": "I.04.2.06127",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.2",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -16021,7 +16021,7 @@
 		"children": [],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -16849,7 +16849,7 @@
 		"kuerzel": "I.04.1.06170",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.13",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -17609,7 +17609,7 @@
 		"kuerzel": "I.15.7.6206",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.6",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -19346,7 +19346,7 @@
 		"title": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
 		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Bei den Altersgruppen 60 bis 69 Jahre liegt die Zufriedenheit mit 97,3% am höchsten.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -19440,7 +19440,7 @@
 		"kuerzel": "I.11.6.06278",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.12",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -19462,8 +19462,8 @@
 		"children": [],
 		"title": "Transnationale Patentanmeldungen",
 		"subtitle": "pro 1000 Beschäftigte und Jahr, nach Wirtschaftsbranchen und ausgewählten Kantonen",
-		"lesehilfe": "In Basel-Stadt werden die meisten transnationalen Patente im Bereich der Pharmazeutischen Industrie angemeldet. In den Jahren 2015-2018 waren es im Mittel pro Jahr mit 0,52 über die Hälfte von total 0,92 pro 1000 Beschäftigte. Im Kanton Zürich wie auch in der gesamten Schweiz werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
-		"erlaeuterungen": "Die transnationalen Patentanmeldungen spiegeln die Anzahl der von den Unternehmen als betriebswirtschaftlich verwertbar eingeschätzten Erfindungen im Technologiebereich wider. Sie werden von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Falls ein Patent von mehreren Forscher mit Wohnort in unterschiedlichen Regionen angemeldet wird, wird das Patent gemäss den Forscheranteilen aufgeteilt. Die Patentanmeldungen sind pro 1000 Beschäftigte im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
+		"lesehilfe": "In Basel-Stadt wurden von 2015 bis 2018 pro Jahr im Schnitt 0,92 transnationale Patente pro 1000 Beschäftigte angemeldet, über die Hälfte davon im Bereich der Pharmazeutischen Industrie (0,52). Im Kanton Zürich und in der gesamten Schweiz werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen spiegeln die Anzahl der von den Unternehmen als betriebswirtschaftlich verwertbar eingeschätzten Erfindungen im Technologiebereich wider. Sie werden von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Falls ein Patent von mehreren Forschern mit Wohnort in unterschiedlichen Regionen angemeldet wird, wird das Patent gemäss den Forscheranteilen aufgeteilt. Die Patentanmeldungen sind pro 1000 Beschäftigte im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -19478,7 +19478,7 @@
 		"kuerzel": "I.04.1.06279",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.5",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -19593,7 +19593,7 @@
 		"kuerzel": "I.04.2.06283",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.1",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -19631,7 +19631,7 @@
 		"kuerzel": "I.04.2.06284",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.2",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -20225,7 +20225,7 @@
 		"children": [],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -20251,7 +20251,7 @@
 		"printformat": "small",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-23T03:59:58",
+		"aktualisierungsdatum": "2020-12-14T07:44:23",
 		"id": 6300
 	},
 	{
@@ -20977,7 +20977,7 @@
 		"kuerzel": "I.04.1.06319",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.13",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -21592,7 +21592,7 @@
 		"kuerzel": "I.15.7.06336",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.6",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -22245,7 +22245,7 @@
 		"children": [],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2018 wurden in Basel-Stadt 989 neue Unternehmen gegründet, 72 bzw. 6,8% weniger als im Jahr 2017. Um 11,8% zugenommen haben 2018 die Neugründungen im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, wo rund 30% aller neugegründeten Unternehmen tätig sind.",
+		"lesehilfe": "Im Jahr 2018 wurden in Basel-Stadt 989 neue Unternehmen gegründet, 72 bzw. 6,8% weniger als im Jahr 2017. Um 11,8% zugenommen haben 2018 die Neugründungen im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, wo rund 30% aller neugegründeten Unternehmen angesiedelt sind.",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -22261,7 +22261,7 @@
 		"kuerzel": "I.06.2.06369",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.4",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78096,7 +78096,7 @@
 		"kuerzel": "I.04.2.09361",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.3",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78119,7 +78119,7 @@
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Erwerbspersonen nach Branche nicht vorhanden sind.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -78135,7 +78135,7 @@
 		"kuerzel": "I.03.4.09363",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.9",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78173,7 +78173,7 @@
 		"kuerzel": "I.09.2.09365",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.10",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78213,7 +78213,7 @@
 		"kuerzel": "I.09.1.09366",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.11",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78291,7 +78291,7 @@
 		"kuerzel": "I.03.1.09368",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.14",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78331,7 +78331,7 @@
 		"kuerzel": "I.50.1.09369",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.15",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -78353,7 +78353,7 @@
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -78391,7 +78391,7 @@
 		"children": [],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu, jener des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -78668,8 +78668,8 @@
 		],
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "Insgesamt 51,0% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.  Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"lesehilfe": "Insgesamt 51,1% der 2019 befragten Personen ab 55 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
@@ -78908,7 +78908,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -78985,7 +78985,7 @@
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2020 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,42%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9 Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5 Hektar.",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -79024,8 +79024,8 @@
 		],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 22 km, jene der Fussgängerzonen 4,7 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. <br>Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 21,8 km, jene der Fussgängerzonen 4,7 km.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -79267,8 +79267,8 @@
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2020 sind im kantonalen Datenportal 115 Datensätze publiziert (Offene Behördendaten/Open Government Data, OGD). 23 der datenpublizierenden Organisationen sind öffentliche Organe des Kantons Basel-Stadt. Im Geoportal sind 152 Geodatensätze öffentlich verfügbar.",
-		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt (inkl. bspw. BVB, IWB, EuroAirport) gezählt, keine Bundesorgane und nicht-öffentliche. Das kantonale Datenportal ist seit November 2019 online.",
+		"lesehilfe": "Ende 2021 sind im kantonalen Datenportal 137 Datensätze von 29 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind Ende 2020 152 Geodatensätze öffentlich verfügbar.",
+		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -79311,8 +79311,8 @@
 		],
 		"title": "Nutzung kantonaler Online-Dienstleistungen",
 		"subtitle": "«Haben Sie schon einmal kantonale Dienstleistungen online genutzt?» nach Alter, Kanton Basel-Stadt, 2019",
-		"lesehilfe": "54% der im Jahr 2019 Befragten haben bereits kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen nur bei 29%.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"lesehilfe": "54% der im Jahr 2019 Befragten haben kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen bei 29%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt (weitere Informationen: <a href=\"https://www.statistik.bs.ch/befragungen\" target=\"_blank\">www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -79485,7 +79485,7 @@
 		"kuerzel": "I.50.1.5192",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.7",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79561,7 +79561,7 @@
 		"kuerzel": "I.04.2.09420",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.3",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79584,7 +79584,7 @@
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Erwerbspersonen nach Branche nicht vorhanden sind.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -79600,7 +79600,7 @@
 		"kuerzel": "I.03.4.09421",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.9",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79676,7 +79676,7 @@
 		"kuerzel": "I.09.2.09423",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.10",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79714,7 +79714,7 @@
 		"kuerzel": "I.09.1.09366",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.11",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79752,7 +79752,7 @@
 		"kuerzel": "I.03.1.09368",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.14",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79790,7 +79790,7 @@
 		"kuerzel": "I.50.1.09369",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.15",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -79812,7 +79812,7 @@
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -79850,7 +79850,7 @@
 		"children": [],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu, jener des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -80117,8 +80117,8 @@
 		"children": [],
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "Insgesamt 51,0% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.  Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"lesehilfe": "Insgesamt 51,1% der 2019 befragten Personen ab 55 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
@@ -80347,7 +80347,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -80424,7 +80424,7 @@
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2020 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,42%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9 Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5 Hektar.",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -80461,8 +80461,8 @@
 		"children": [],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 22 km, jene der Fussgängerzonen 4,7 km.",
-		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v.a. in der Innenstadt. <br>Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mind. 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
+		"lesehilfe": "Im Jahr 2020 betrug die Länge der Begegnungszonen in der Stadt Basel 21,8 km, jene der Fussgängerzonen 4,7 km.",
+		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzone (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -80733,8 +80733,8 @@
 		"children": [],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2020 sind im kantonalen Datenportal 115 Datensätze publiziert (Offene Behördendaten/Open Government Data, OGD). 23 der datenpublizierenden Organisationen sind öffentliche Organe des Kantons Basel-Stadt. Im Geoportal sind 152 Geodatensätze öffentlich verfügbar.",
-		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Bei den publizierenden Organisationen werden nur öffentliche Organe des Kantons Basel-Stadt (inkl. bspw. BVB, IWB, EuroAirport) gezählt, keine Bundesorgane und nicht-öffentliche. Das kantonale Datenportal ist seit November 2019 online.",
+		"lesehilfe": "Ende 2021 sind im kantonalen Datenportal 137 Datensätze von 29 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind Ende 2020 152 Geodatensätze öffentlich verfügbar.",
+		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -80775,8 +80775,8 @@
 		"children": [],
 		"title": "Nutzung kantonaler Online-Dienstleistungen",
 		"subtitle": "«Haben Sie schon einmal kantonale Dienstleistungen online genutzt?» nach Alter, Kanton Basel-Stadt, 2019",
-		"lesehilfe": "54% der im Jahr 2019 Befragten haben bereits kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen nur bei 29%.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"lesehilfe": "54% der im Jahr 2019 Befragten haben kantonale Dienstleistungen online genutzt, 36% noch nie. Bei Befragten der Altersgruppen zwischen 30 und 69 Jahren liegt der Ja-Anteil jeweils bei ca. zwei Dritteln, bei den über 69-jährigen bei 29%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt (weitere Informationen: <a href=\"https://www.statistik.bs.ch/befragungen\" target=\"_blank\">www.statistik.bs.ch/befragungen</a>).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -80902,7 +80902,7 @@
 		"description": "Aktive E-Government Konten",
 		"thema": "17 Politik",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.17.1.09398",
+		"kuerzel": "I.17.1.09455",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "6.2",
 		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
@@ -80915,7 +80915,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-08T12:05:25",
+		"aktualisierungsdatum": "2021-09-21T06:04:15",
 		"id": 9455
 	},
 	{
@@ -80927,7 +80927,7 @@
 		"children": [],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3.1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
+		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3,1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -80943,7 +80943,7 @@
 		"kuerzel": "I.03.2.09457",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "1.8",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -80965,7 +80965,7 @@
 		"children": [],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3.1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
+		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3,1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -80981,7 +80981,7 @@
 		"kuerzel": "I.03.2.09458",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "1.8",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#DC440E",
+      "color": "#A8C3CA",
       "index": 0,
       "zIndex": 2,
       "data": [
@@ -24,12 +24,16 @@
         [
           2020,
           152
+        ],
+        [
+          2021,
+          null
         ]
       ],
-      "name": "Datensätze im Geoportal"
+      "name": "Datensätze Geoportal"
     },
     {
-      "color": "#FABD24",
+      "color": "#689199",
       "index": 1,
       "zIndex": 2,
       "data": [
@@ -52,16 +56,23 @@
         [
           2020,
           115
+        ],
+        [
+          2021,
+          137
         ]
       ],
-      "name": "Datensätze im Datenportal"
+      "name": "Datensätze Datenportal"
     },
     {
-      "color": "#246370",
+      "color": "#FF8028",
       "index": 2,
       "zIndex": 3,
-      "type": "line",
       "yAxis": 1,
+      "type": "line",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2016,
@@ -77,14 +88,18 @@
         ],
         [
           2019,
-          18
+          19
         ],
         [
           2020,
-          23
+          29
+        ],
+        [
+          2021,
+          29
         ]
       ],
-      "name": "Publizierende Organisationen Datenportal (nur öff. Kanton BS, rechte Skala)"
+      "name": "Organisationen Datenportal (rechte Skala)"
     }
   ],
   "chart": {
@@ -132,6 +147,7 @@
           "fontSize": "10px"
         }
       },
+      "minPointLength": 3,
       "marker": {
         "enabled": false
       }
@@ -213,7 +229,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemMarginBottom": 5
+    "itemMarginBottom": 2
   },
   "navigation": {
     "menuItemStyle": {

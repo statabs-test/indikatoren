@@ -6,47 +6,147 @@
       "zIndex": 2,
       "data": [
         [
-          1604102400000,
-          82.9
+          2009,
+          1021.81621
         ],
         [
-          1619740800000,
-          89
+          2010,
+          2006.771537
+        ],
+        [
+          2011,
+          1908.402216
+        ],
+        [
+          2012,
+          1121.450708
+        ],
+        [
+          2013,
+          1269.460976
+        ],
+        [
+          2014,
+          1448.579675
+        ],
+        [
+          2015,
+          1798.588854
+        ],
+        [
+          2016,
+          3826.977539
+        ],
+        [
+          2017,
+          2270.627775
+        ],
+        [
+          2018,
+          1698.826261
         ]
       ],
-      "name": "Anteil Gebäude"
+      "name": "Allg. Verwaltung"
     },
     {
       "color": "#FABD24",
       "index": 1,
-      "zIndex": 2
+      "zIndex": 2,
+      "data": [
+        [
+          2009,
+          1761.799206
+        ],
+        [
+          2010,
+          1805.874048
+        ],
+        [
+          2011,
+          1895.123819
+        ],
+        [
+          2012,
+          1996.632666
+        ],
+        [
+          2013,
+          2153.023205
+        ],
+        [
+          2014,
+          2174.254316
+        ],
+        [
+          2015,
+          2180.859399
+        ],
+        [
+          2016,
+          2206.102299
+        ],
+        [
+          2017,
+          2289.777726
+        ],
+        [
+          2018,
+          2295.303967
+        ]
+      ],
+      "name": "Öff. Sicherheit"
     },
     {
       "color": "#246370",
       "index": 2,
       "zIndex": 3,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1,
+      "data": [
+        [
+          2009,
+          6055.848596
+        ],
+        [
+          2010,
+          6169.300161
+        ],
+        [
+          2011,
+          6332.943225
+        ],
+        [
+          2012,
+          6841.820197
+        ],
+        [
+          2013,
+          7067.644289
+        ],
+        [
+          2014,
+          7419.313003
+        ],
+        [
+          2015,
+          7784.66359
+        ],
+        [
+          2016,
+          8068.001038
+        ],
+        [
+          2017,
+          7703.444474
+        ],
+        [
+          2018,
+          7699.29625
+        ]
+      ],
+      "name": "Bildung"
     }
   ],
-  "xAxis": {
-    "type": "datetime",
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -115,6 +215,23 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
   "yAxis": [
     {
       "gridLineColor": "#B9CFD7",
@@ -177,7 +294,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-14"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 14.12.2020"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
