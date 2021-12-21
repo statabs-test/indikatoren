@@ -2,7 +2,7 @@
     return {
         "chart": {
             "type": "column",
-            events: {
+            /*events: {
                 load: function () {
                     //add and move legend title (get it from series names)
                     this.legend.title
@@ -17,7 +17,7 @@
                         })
                         .translate(-250, 41);
                 }
-            }
+            }*/
         },
         plotOptions: {
             series: {
@@ -67,7 +67,9 @@
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
-            align: "right",
+            align: "left",
+            itemMarginBottom: 2,
+            /*align: "right",
             y: -40,
             x: 60,
             width: 250,
@@ -90,7 +92,7 @@
                     lineHeight: 19
                 }
             },
-
+*/
         },
         tooltip: {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'
@@ -100,25 +102,30 @@
                 "color": "#A8C3CA",
                 "index": 0,
                 zIndex: 2,
-                legendIndex: 5,
+                //legendIndex: 5,
                 //"type": "line",
                 // tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
             },
             {
-                "color": "#FF8028",
+                "color": "#689199",
                 "index": 1,
                 zIndex: 2,
-                "stacking": "normal",
-                tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>Total: <b>{point.total:,.0f}</b>' }
+                //"stacking": "normal",
+                //tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>Total: <b>{point.total:,.0f}</b>' }
             },
             {
-                "color": "#689199",
+                "color": "#FF8028",
                 "index": 2,
                 zIndex: 3,
-                "stacking": "normal",
-                tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>Total: <b>{point.total:,.0f}</b>' }
+                "yAxis": 1,
+                "type": "line",
+                marker: {
+                    enabled: true
+                }                
+                //"stacking": "normal",
+                //tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>Total: <b>{point.total:,.0f}</b>' }
             },
-            {
+            /*{
                 "color": "#DC440E",
                 "index": 2,
                 zIndex: 3,
@@ -134,7 +141,7 @@
                 "yAxis": 1,
                 //  tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
             },
-
+*/
         ]
     }
 }());
