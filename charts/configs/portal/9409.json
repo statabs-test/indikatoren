@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          0.48
+          0.57
         ],
         [
           "Bern",
-          0.69
+          0.81
         ],
         [
           "Genf",
-          1.05
+          1.51
         ],
         [
           "Lausanne",
-          1.09
+          1.39
         ],
         [
           "Zürich",
-          0.94
+          1.31
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,26 +32,26 @@
       "data": [
         [
           "Basel",
-          0.7
+          0.2
         ],
         [
           "Bern",
-          0.62
+          0.79
         ],
         [
           "Genf",
-          1.06
+          1.48
         ],
         [
           "Lausanne",
-          1.18
+          1.22
         ],
         [
           "Zürich",
-          0.79
+          1.58
         ]
       ],
-      "name": "Übrige Agglomerationsgemeinden Schweiz",
+      "name": "Kernstadt",
       "turboThreshold": 0
     },
     {
@@ -59,7 +59,34 @@
       "data": [
         [
           "Basel",
-          1.68
+          0.95
+        ],
+        [
+          "Bern",
+          0.84
+        ],
+        [
+          "Genf",
+          1.53
+        ],
+        [
+          "Lausanne",
+          1.53
+        ],
+        [
+          "Zürich",
+          1.05
+        ]
+      ],
+      "name": "Übrige Agglomerationsgemeinden Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Basel",
+          1.73
         ],
         [
           "Bern",
@@ -82,11 +109,11 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#B00000",
       "data": [
         [
           "Basel",
-          0.16
+          0.34
         ],
         [
           "Bern",
@@ -94,7 +121,7 @@
         ],
         [
           "Genf",
-          0.54
+          0.53
         ],
         [
           "Lausanne",
@@ -106,33 +133,6 @@
         ]
       ],
       "name": "Agglomerationsgemeinden Frankreich",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "Basel",
-          0.25
-        ],
-        [
-          "Bern",
-          0.73
-        ],
-        [
-          "Genf",
-          1.05
-        ],
-        [
-          "Lausanne",
-          0.99
-        ],
-        [
-          "Zürich",
-          1.09
-        ]
-      ],
-      "name": "Kernstadt",
       "turboThreshold": 0
     }
   ],

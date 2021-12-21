@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "Massstab",
+	"name" : "Grenzen",
 	"crs" : {
 		"type" : "name",
 		"properties" : {

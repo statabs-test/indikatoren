@@ -30,7 +30,7 @@ var scalebarDataTrinat = Highcharts.geojson(geojson_scalebarTrinat, 'mapline');
 
 var geojson_borderTrinat =
 {
-    "name" : "Massstab",
+    "name" : "Grenzen",
 	"crs" : {
 		"type" : "name",
 		"properties" : {
