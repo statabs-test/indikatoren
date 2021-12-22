@@ -449,43 +449,6 @@ var indikatorensetData = [
 		"id": 6316
 	},
 	{
-		"template": "template001_print",
-		"data-id": 6319,
-		"chart-id": 6319,
-		"filter": "",
-		"parentId": "6170",
-		"children": [],
-		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2019 bei 1 504 Franken pro Einwohner.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kuerzel": "I.04.1.06319",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"kuerzelKunde": "1.13",
-		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_013",
-		"darstellungsart": "Diagramm",
-		"printformat": "small",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-14T07:20:18",
-		"id": 6319
-	},
-	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
 		"kuerzel": "I.14.1.06322",
@@ -1764,7 +1727,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen nahm zwischen 2005 und 2020 stetig von 0% auf 28,8% zu.",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,9% auf 28,9% zugenommen.",
 		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch Benzin- und Diesel-elektrische Hybride (Normal- und Plug-in).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"

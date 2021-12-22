@@ -45,7 +45,7 @@
         },
       },
       "min": 0,
-      max: 4,
+      //max: 4,
       tickAmount: 5,
       "opposite": true
     }

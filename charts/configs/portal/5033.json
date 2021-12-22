@@ -371,7 +371,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transnationale Patentanmeldungen"
+    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -379,7 +379,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "pro 1000 Beschäftigte und Jahr, nach Wirtschaftsbranchen und ausgewählten Kantonen"
+    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte"
   },
   "navigation": {
     "menuItemStyle": {

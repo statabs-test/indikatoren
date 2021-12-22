@@ -911,45 +911,6 @@ var indikatorensetData = [
 		"id": 5191
 	},
 	{
-		"title": "Staatsausgaben für Kultur und Freizeit",
-		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"kuerzel": "I.18.1.5193",
-		"kuerzelKunde": "GW15",
-		"description": "Staatsausgaben für Kultur und Freizeit",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatsrechnung",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-22T09:41:04.044",
-		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Bildung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2017 von rund 1 300 Fr. auf über 1 500 Fr. pro Kopf gestiegen.",
-		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_05_00_00_00_315",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5193,
-		"chart-id": 5193,
-		"filter": "",
-		"id": 5193
-	},
-	{
 		"template": "template001",
 		"data-id": 5195,
 		"chart-id": 5195,

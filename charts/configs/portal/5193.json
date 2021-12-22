@@ -7,102 +7,6 @@
       "data": [
         [
           2008,
-          504.2
-        ],
-        [
-          2009,
-          344.3
-        ],
-        [
-          2010,
-          366.1
-        ],
-        [
-          2011,
-          397
-        ],
-        [
-          2012,
-          423.9
-        ],
-        [
-          2013,
-          403.3
-        ],
-        [
-          2014,
-          427.8
-        ],
-        [
-          2015,
-          481.1
-        ],
-        [
-          2016,
-          566.3
-        ],
-        [
-          2017,
-          656.8
-        ]
-      ],
-      "name": "Sport und Freizeit"
-    },
-    {
-      "color": "#b375ab",
-      "index": 1,
-      "legendIndex": 2,
-      "data": [
-        [
-          2008,
-          0
-        ],
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          4.4
-        ],
-        [
-          2013,
-          4.5
-        ],
-        [
-          2014,
-          3.8
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          2.2
-        ],
-        [
-          2017,
-          4
-        ]
-      ],
-      "name": "Kirchen, rel. Angelegenheiten"
-    },
-    {
-      "color": "#007a2f",
-      "index": 2,
-      "legendIndex": 1,
-      "data": [
-        [
-          2008,
           426.1
         ],
         [
@@ -145,9 +49,9 @@
       "name": "Kulturerbe"
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#b375ab",
+      "index": 1,
+      "legendIndex": 2,
       "data": [
         [
           2008,
@@ -226,22 +130,18 @@
                     }
                 }
     },
-    "marginBottom": 75,
     "type": "column",
-    "inverted": false,
     "renderTo": "container-5193",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 30,
       "stacking": "normal"
     }
   },
@@ -252,7 +152,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Staatsausgaben für Kultur und Freizeit"
+    "text": "Staatsausgaben für Kultur"
   },
   "subtitle": {
     "text": "pro Kopf in Franken, Basel-Stadt",
@@ -277,8 +177,7 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickInterval": 1
+    }
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -294,17 +193,14 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    },
-    "max": undefined
+      }
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -329,12 +225,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 22.11.2019"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f}\u003C\u002Fb\u003E",
-    "shared": false
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "5193"
