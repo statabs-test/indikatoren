@@ -1,167 +1,161 @@
 var indikatorensetData = [
 	{
-		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
-		"kuerzel": "I.50.1.2956",
-		"kuerzelKunde": "9.4",
-		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-18T14:52:36.3636",
-		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Befragte mit Schweizer Pass bewerten die Gesundheitsversorgung mit 93,9% höher als ausländische Befragte (90,7%). Bei den Altersgruppen ab 60 Jahren liegt die Zufriedenheit bei über 95%. Zwischen den Geschlechtern ist 2019 kein signifikanter Unterschied feststellbar.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "09_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6276"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 2956,
 		"chart-id": 2956,
 		"filter": "",
-		"id": 2956
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6278"
+			6276
 		],
-		"template": "line001",
-		"title": "Globale und kontinentale Erreichbarkeit",
-		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "I.11.6.3104",
-		"kuerzelKunde": "5.1",
-		"description": "Globale und kontinentale Erreichbarkeit",
-		"thema": "11 Verkehr",
-		"unterthema": "Mobilitätsverhalten",
+		"title": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
+		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Bei den Altersgruppen 60 bis 69 Jahre liegt die Zufriedenheit mit 97,3% am höchsten.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).<br>«Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-04T17:14:05.055",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"description": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.2956",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.11",
+		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Städte Basel, Zürich und Genf blieb in den letzten zehn Jahren eher unverändert, während sich diejenige der Stadt Bern seit 2012 verschlechtert hat. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"orderKey": "02_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_001",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-12-18T02:52:36",
+		"id": 2956
+	},
+	{
+		"template": "line001",
+		"data-id": 3104,
+		"chart-id": 3104,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6278
+		],
+		"title": "Globale und kontinentale Erreichbarkeit",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
+		"lesehilfe": "Die Städte Basel und Genf liegen über die Jahre hinweg sowohl bei der globalen als auch bei der kontinentalen Erreichbarkeit auf einem ähnlichen Niveau. Zürich weist jeweils eine bessere und Bern eine schlechte Erreichbarkeit auf.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Globale Erreichbarkeit: Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit: Erreichbarkeit aller Regionen Europas. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren, welchem Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde liegen. Sie folgen dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Die Reisedestinationen werden über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"data-id": 3104,
-		"chart-id": 3104,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Globale und kontinentale Erreichbarkeit",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.3104",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.12",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_012",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-03-04T05:14:05",
 		"id": 3104
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6279"
-		],
 		"template": "befragungen001",
-		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "",
-		"kuerzelKunde": "3.6",
-		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"thema": "50 Befragungen",
-		"unterthema": "Volkseinkommen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-07T08:33:19.1919",
-		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt wurden in beiden betrachteten Perioden mehr Patente pro 1000 Einwohner und Jahr angemeldet als in den Kantonen Basel-Landschaft und Zürich. Der grösste Teil davon wurde im Bereich der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
-		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrere Jahre abgebildet.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5033,
 		"chart-id": 5033,
 		"filter": "",
-		"id": 5033
-	},
-	{
-		"title": "Anzahl Neugründungen in Basel-Stadt",
-		"subtitle": "in ausgewählten Branchen",
-		"kuerzel": "I.06.2.5041",
-		"kuerzelKunde": "2.3",
-		"description": "Anzahl Neugründungen in Basel-Stadt",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Neugründungen",
-		"kennzahlenset": "Legislaturplan",
+		"parentId": null,
+		"children": [
+			6279
+		],
+		"title": "Transnationale Patentanmeldungen",
+		"subtitle": "pro 1000 Beschäftigte und Jahr, nach Wirtschaftsbranchen und ausgewählten Kantonen",
+		"lesehilfe": "In Basel-Stadt wurden von 2015 bis 2018 pro Jahr im Schnitt 0,92 transnationale Patente pro 1000 Beschäftigte angemeldet, über die Hälfte davon im Bereich der Pharmazeutischen Industrie (0,52). Im Kanton Zürich und in der gesamten Schweiz werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen spiegeln die Anzahl der von den Unternehmen als betriebswirtschaftlich verwertbar eingeschätzten Erfindungen im Technologiebereich wider. Sie werden von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Falls ein Patent von mehreren Forschern mit Wohnort in unterschiedlichen Regionen angemeldet wird, wird das Patent gemäss den Forscheranteilen aufgeteilt. Die Patentanmeldungen sind pro 1000 Beschäftigte im gesamten Kanton im Mittel über mehrere Jahre abgebildet.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:49:13.1313",
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"description": "Transnationale Patentanmeldungen",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.05033",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.5",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden in Basel-Stadt 989 neue Unternehmen gegründet, 72 bzw. 6,8% weniger als im Jahr 2017. Um 11,8% zugenommen haben 2018 die Neugründungen im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, wo rund 30% aller neugegründeten Unternehmen tätig sind.",
-		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
-		"template": "template001",
+		"orderKey": "01_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6369"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-06-07T08:33:19",
+		"id": 5033
+	},
+	{
+		"template": "template001",
 		"data-id": 5041,
 		"chart-id": 5041,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6369
+		],
+		"title": "Anzahl Neugründungen in Basel-Stadt",
+		"subtitle": "in ausgewählten Branchen",
+		"lesehilfe": "Im Jahr 2018 wurden in Basel-Stadt 989 neue Unternehmen gegründet, 72 bzw. 6,8% weniger als im Jahr 2017. Um 11,8% zugenommen haben 2018 die Neugründungen im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, wo rund 30% aller neugegründeten Unternehmen angesiedelt sind.",
+		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Neugründungen in Basel-Stadt",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Neugründungen",
+		"kuerzel": "I.06.2.5041",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.4",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-01-04T04:49:13",
 		"id": 5041
 	},
 	{
@@ -210,7 +204,8 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8907
+			8907,
+			9461
 		],
 		"title": "Staatsausgaben für Kultur",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
@@ -229,13 +224,13 @@ var indikatorensetData = [
 		"unterthema": "Staatsrechnung",
 		"kuerzel": "I.18.1.5193",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "",
-		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Bildung",
+		"kuerzelKunde": "1.13",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_05_00_00_00_000",
+		"orderKey": "01_00_00_00_00_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -243,44 +238,42 @@ var indikatorensetData = [
 		"id": 5193
 	},
 	{
+		"template": "template001",
+		"data-id": 6126,
+		"chart-id": 6126,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6283
+		],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2019",
-		"kuerzel": "I.04.2.6126",
-		"kuerzelKunde": "1.1",
-		"description": "Kantonaler Wettbewerbsindikator (KWI)",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Legislaturplan",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2021",
+		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
+		"quellenangabe": [
+			"UBS Switzerland AG"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:21.2121",
-		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"description": "Kantonaler Wettbewerbsindikator (KWI)",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.06126",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.1",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 90,6 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9. Die nächste Aktualisierung des KWI durch die UBS wird voraussichtlich 2021 stattfinden.",
-		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
 		"orderKey": "01_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6283"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"UBS Switzerland AG"
-		],
+		"darstellungsart": "Diagramm",
+		"printformat": "",
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6126,
-		"chart-id": 6126,
-		"filter": "",
+		"aktualisierungsdatum": "2020-08-31T12:32:21",
 		"id": 6126
 	},
 	{
@@ -309,15 +302,15 @@ var indikatorensetData = [
 		"description": "Kantonales Wettbewerbsprofil",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
-		"kuerzel": "",
+		"kuerzel": "I.04.2.06127",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "1.3",
-		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"kuerzelKunde": "1.2",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -325,42 +318,40 @@ var indikatorensetData = [
 		"id": 6127
 	},
 	{
+		"template": "line001",
+		"data-id": 6147,
+		"chart-id": 6037,
+		"filter": "",
+		"parentId": "6037",
+		"children": [],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"kuerzel": "I.03.3.06147",
-		"kuerzelKunde": "4.6",
-		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T19:44:23.2323",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.06147",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.12",
+		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_006",
-		"parentId": 6037,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6147,
-		"chart-id": 6037,
-		"filter": "",
+		"aktualisierungsdatum": "2020-12-14T07:44:23",
 		"id": 6147
 	},
 	{
@@ -376,8 +367,8 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant.",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -391,13 +382,13 @@ var indikatorensetData = [
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.6150",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "4.9",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"kuerzelKunde": "2.1",
+		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_009",
+		"orderKey": "02_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -405,296 +396,282 @@ var indikatorensetData = [
 		"id": 6150
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6007",
-			"6258",
-			"6306",
-			"8454",
-			"8957"
-		],
 		"template": "line001",
-		"title": "Verkehrsleistungsindex",
-		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "",
-		"kuerzelKunde": "5.2",
-		"description": "Verkehrsleistungsindex",
-		"thema": "50 Befragungen",
-		"unterthema": "Mobilitätsverhalten",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-07-07T08:30:42.4242",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die COVID-19-Pandemie führte im Jahr 2020 zu einem Rückgang des Verkehrsaufkommens in Basel-Stadt: Bei sämtlichen Verkehrsmitteln ist im Jahr 2020 ein Rückgang zu beobachten. Am stärksten ist der Rückgang beim öffentlichen Verkehr mit 35,4 Prozentpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Prozentpunkte), allerdings zeigte dort der Trend in den Jahren vor der Pandemie stark nach oben.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamtes für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "05_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6154,
 		"chart-id": 6154,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6007,
+			6258,
+			6306,
+			8454,
+			8957
+		],
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang des Verkehrsaufkommens. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte).",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Verkehrsleistungsindex",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.06154",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.4",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-07-07T08:30:42",
 		"id": 6154
 	},
 	{
-		"title": "Endenergieverbrauch nach Verbrauchergruppe",
-		"subtitle": "in GWh, Basel-Stadt",
-		"kuerzel": "I.08.1.06160",
-		"kuerzelKunde": "7.1",
-		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-09T11:10:57.5757",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_001",
-		"parentId": 9008,
-		"children": [
-			"4953"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
-		],
 		"data-id": 6160,
 		"chart-id": 9008,
 		"filter": "",
+		"parentId": "9008",
+		"children": [
+			4953
+		],
+		"title": "Endenergieverbrauch nach Verbrauchergruppe",
+		"subtitle": "in GWh, Basel-Stadt",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.06160",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.6",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-10-28T08:59:21",
 		"id": 6160
 	},
 	{
-		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.08.3.06161",
-		"kuerzelKunde": "7.2",
-		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
-		"thema": "08 Energie",
-		"unterthema": "Erneuerbare",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-09-22T15:55:09.099",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil erneuerbarer Energien am Bruttoverbrauch ist von 34,5% im Jahr 2010 auf 39,9% im Jahr 2018 gestiegen.",
-		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_002",
-		"parentId": 9007,
-		"children": [
-			"6313"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6161,
 		"chart-id": 9007,
 		"filter": "",
-		"id": 6161
-	},
-	{
-		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
-		"kuerzel": "I.02.6.6163",
-		"kuerzelKunde": "7.3",
-		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-11-19T08:59:37.3737",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2018 von ca. 194 auf 163 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,6%.",
-		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"5796",
-			"6314",
-			"8917"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6163,
-		"chart-id": 6163,
-		"filter": "",
-		"id": 6163
-	},
-	{
-		"parentId": null,
-		"children": [
-			"6031",
-			"6316",
-			"8923"
-		],
-		"template": "template001",
-		"title": "CO<sub>2</sub>-Emissionen",
-		"subtitle": "in Tonnen, Basel-Stadt",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "I.02.5.6165",
-		"kuerzelKunde": "7.5",
-		"description": "CO<sub>2</sub>-Emissionen",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-02T08:26:30.3030",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910 740 Tonnen auf 69 507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_005",
-		"renderLink": [],
+		"parentId": "9007",
+		"children": [],
+		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Der Anteil erneuerbarer Energien am Bruttoverbrauch ist von 34,5% im Jahr 2010 auf 39,9% im Jahr 2018 gestiegen.",
+		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
+		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
+		"thema": "08 Energie",
+		"unterthema": "Erneuerbare",
+		"kuerzel": "I.08.3.06161",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.7",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-09-22T03:52:26",
+		"id": 6161
+	},
+	{
+		"template": "template001",
+		"data-id": 6163,
+		"chart-id": 6163,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5796,
+			6314,
+			8917
+		],
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2020 von 194 auf 159 kg pro Kopf. Die Recyclingquote liegt aktuell bei 41,1%.",
+		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Berücksichtigt bei der Wertstoffsammlung sind Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Entsorgung",
+		"kuerzel": "I.02.6.6163",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.3",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-12-02T08:29:17",
+		"id": 6163
+	},
+	{
+		"template": "template001",
 		"data-id": 6165,
 		"chart-id": 6165,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6031,
+			6316,
+			8923
+		],
+		"title": "CO<sub>2</sub>-Emissionen",
+		"subtitle": "in Tonnen, Basel-Stadt",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2018 von 833 367 Tonnen auf 694 517 Tonnen ab. Das entspricht einer Reduktion um 16,6% bzw. einem Rückgang von 4,3 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "CO<sub>2</sub>-Emissionen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kuerzel": "I.02.5.6165",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.1",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-12-02T08:26:30",
 		"id": 6165
 	},
 	{
-		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
-		"kuerzel": "I.50.1.06186",
-		"kuerzelKunde": "12.2",
-		"description": "Beurteilung der kantonalen Verwaltung",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-18T15:00:17.1717",
-		"stufe1": "Ziel 12: Der Service public ist modern und kundenfreundlich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "20,7% der im Jahr 2019 Befragten empfanden den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 44,7% als eher positiv. 12,3% der Befragten empfanden den Kontakt als eher oder sehr negativ",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
 		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "12_00_00_00_00_002",
-		"parentId": 4859,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6186,
 		"chart-id": 6186,
 		"filter": "",
-		"id": 6186
-	},
-	{
-		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"subtitle": "nach Schultyp, Basel-Stadt",
-		"kuerzel": "I.15.7.6206",
-		"kuerzelKunde": "3.1a",
-		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsabschlüsse",
-		"kennzahlenset": "Legislaturplan",
+		"parentId": "4859",
+		"children": [],
+		"title": "Beurteilung der kantonalen Verwaltung",
+		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
+		"lesehilfe": "20,7% der im Jahr 2019 Befragten empfanden den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 44,7% als eher positiv. 12,3% der Befragten empfanden den Kontakt als eher oder sehr negativ",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T09:20:05.055",
-		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
+		"description": "Beurteilung der kantonalen Verwaltung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.06186",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "6.3",
+		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist die Zahl der Schulabgängerinnen und -abgänger ohne Anschlusslösung konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Abweichungen zu einem unruhigen Kurvenverlauf.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allgemeine Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
+		"orderKey": "07_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6336"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-12-18T03:00:17",
+		"id": 6186
+	},
+	{
+		"template": "line001",
 		"data-id": 6206,
 		"chart-id": 6206,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6336
+		],
+		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
+		"subtitle": "nach Schultyp, Basel-Stadt",
+		"lesehilfe": "Der Anteil der Schulabgängerinnen und -abgänger ohne Anschlusslösung lag 2021 bei total 2,9%. Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist der Anteil konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Schwankungen zu einem unruhigen Kurvenverlauf.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und -abgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allgemeine Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren; ohne Gymnasien. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.6206",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "1.6",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-09-21T09:20:05",
 		"id": 6206
 	},
 	{
@@ -737,6 +714,7 @@ var indikatorensetData = [
 		"id": 6996
 	},
 	{
+		"template": "line001",
 		"data-id": 9361,
 		"chart-id": 8355,
 		"filter": "",
@@ -744,8 +722,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch ist das Wertschöpfungswachstum im Maschinenbau gewesen, wobei diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein ist.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -759,19 +737,18 @@ var indikatorensetData = [
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.09361",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "1.3",
+		"stufe1": "Legislaturziel 1: Standortattraktivität langfristig sichern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-07-07T09:09:23",
-		"id": 9361,
-		"template": ""
+		"aktualisierungsdatum": "2021-10-04T08:37:33",
+		"id": 9361
 	},
 	{
 		"template": "template001",
@@ -782,7 +759,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -808,7 +785,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-03-23T08:36:41",
+		"aktualisierungsdatum": "2021-12-22T08:21:11",
 		"id": 9363
 	},
 	{
@@ -886,43 +863,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-09-20T04:25:08",
 		"id": 9366
-	},
-	{
-		"template": "template001",
-		"data-id": 9367,
-		"chart-id": 9367,
-		"filter": "",
-		"parentId": "6170",
-		"children": [],
-		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2018 bei 1 598 Franken pro Einwohner.",
-		"erlaeuterungen": "Die Eidgenössische Finanzverwaltung (EFV) verwendet aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kuerzel": "I.04.1.09367",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "1.13",
-		"stufe1": "Legislaturziel 1:  Attraktivität des Standorts langfristig sichern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_013",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-12-14T07:20:18",
-		"id": 9367
 	},
 	{
 		"template": "template001",
