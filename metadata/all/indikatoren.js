@@ -80746,6 +80746,44 @@ var indikatoren = [
 		"id": 9458
 	},
 	{
+		"template": "template001_print",
+		"data-id": 9461,
+		"chart-id": 9461,
+		"filter": "",
+		"parentId": "5193",
+		"children": [],
+		"title": "Staatsausgaben für Kultur",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur liegen 2017 bei 874,4 Fr. pro Kopf.",
+		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Staatsausgaben für Kultur",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kuerzel": "I.18.1.09461",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"kuerzelKunde": "",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_05_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2019-11-22T09:41:04",
+		"id": 9461
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",

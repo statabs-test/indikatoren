@@ -8,6 +8,9 @@
         "stacking": "normal"
       }
     },
+    xAxis:{
+      tickInterval: 1
+    },
     "legend": {
       "layout": "horizontal",
       "verticalAlign": "top",
@@ -19,8 +22,8 @@
       "footerFormat": 'Total: <b>{point.total:,.1f}</b>',
     },
     "series": [
-      { "color": "#923f8d", "index": 0, "legendIndex": 0 }, /*grün dunkel2*/
-      { "color": "#b375ab", "index": 1, "legendIndex": 2 }, /*grün mittel*/
+      { "color": "#923f8d", "index": 1, "legendIndex": 0 }, /*grün dunkel2*/
+      { "color": "#b375ab", "index": 0, "legendIndex": 2 }, /*grün mittel*/
     ],
   }
 }());
