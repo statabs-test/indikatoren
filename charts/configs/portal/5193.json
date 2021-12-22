@@ -2,28 +2,20 @@
   "series": [
     {
       "color": "#923f8d",
-      "index": 0,
+      "index": 1,
       "legendIndex": 0,
       "data": [
         [
-          2008,
-          426.1
-        ],
-        [
-          2009,
-          478.1
-        ],
-        [
           2010,
-          493.3
+          493
         ],
         [
           2011,
-          506.8
+          507
         ],
         [
           2012,
-          572.6
+          573
         ],
         [
           2013,
@@ -31,67 +23,75 @@
         ],
         [
           2014,
-          600.6
+          601
         ],
         [
           2015,
-          655.5
+          655
         ],
         [
           2016,
-          515.7
+          516
         ],
         [
           2017,
-          432.5
+          433
+        ],
+        [
+          2018,
+          447
+        ],
+        [
+          2019,
+          480
         ]
       ],
       "name": "Kulturerbe"
     },
     {
       "color": "#b375ab",
-      "index": 1,
+      "index": 0,
       "legendIndex": 2,
       "data": [
         [
-          2008,
-          373.1
-        ],
-        [
-          2009,
-          347.9
-        ],
-        [
           2010,
-          344.9
+          345
         ],
         [
           2011,
-          355.2
+          355
         ],
         [
           2012,
-          372.5
+          372
         ],
         [
           2013,
-          370.4
+          370
         ],
         [
           2014,
-          425.6
+          454
         ],
         [
           2015,
-          542.1
+          566
         ],
         [
           2016,
-          464.8
+          486
         ],
         [
           2017,
-          441.9
+          471
+        ],
+        [
+          2018,
+          484
+        ],
+        [
+          2019,
+          482
         ]
       ],
       "name": "Kultur, übrige"
@@ -177,7 +177,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -193,7 +194,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}",
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        }
     }
   },
   "legend": {
@@ -228,8 +233,8 @@
     "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 22.11.2019"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f}\u003C\u002Fb\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "5193"

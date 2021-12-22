@@ -8,11 +8,17 @@
         "stacking": "normal"
       }
     },
-    xAxis:{
+    xAxis: {
       tickInterval: 1
     },
     yAxis: {
-      tickAmount: 8
+      tickAmount: 8,
+      "labels": {
+        "format": "{value:,.0f}",
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        },
+      }
     },
     "legend": {
       "layout": "horizontal",

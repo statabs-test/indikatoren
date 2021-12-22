@@ -7,7 +7,7 @@
     plotOptions: {
       series: {
         minPointLength: 2,
-        pointPadding: 0,
+        pointPadding: .18,
         borderWidth: 0,
       }
     },
@@ -19,7 +19,8 @@
       }
     },
     "yAxis": {
-      tickAmount: 6,
+      //tickAmount: 15,
+      tickInterval: 2
     },
     "series": [
       { "color": "#2F656B" },

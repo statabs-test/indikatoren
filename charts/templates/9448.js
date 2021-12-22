@@ -45,7 +45,6 @@
         },
       },
       "min": 0,
-      //max: 4,
       tickAmount: 5,
       "opposite": true
     }
@@ -55,7 +54,7 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 135,
+      itemWidth: 130,
       width: 300,
       itemDistance: 0,
       itemStyle: {
