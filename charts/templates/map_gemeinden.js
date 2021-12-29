@@ -117,7 +117,7 @@
             {
                 name: 'Grenzen',
                 animation: true,
-                type: 'LineString',
+                type: 'mapline',
                 data: borderDataTrinat,
                 color: 'black',
                 tooltip: {
