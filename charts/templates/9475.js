@@ -16,8 +16,8 @@
         startOnTick: true,
         showFirstLabel: true,
         showLastLabel: true,
-        tickInterval: 365 * 24 * 3600 * 1000 * 50,
-        minTickInterval: 365 * 24 * 3600 * 1000 * 50,
+        tickInterval: 365 * 24 * 3600 * 1000,
+        minTickInterval: 365 * 24 * 3600 * 1000,
         ordinal: false
       },
       "tooltip": {
@@ -102,44 +102,49 @@
         }
       },
   
-      /*data: {
+      data: {
         //convert year in first column to UTC date to be used by Highstock
         parsed: function(columns){
             columns[0].forEach(function(v, i, a){
                 columns[0][i] = Date.UTC(columns[0][i]);
             });
         }
-      }, */
+      }, 
       
       rangeSelector: {
-        //enabled:  false,
-        buttonTheme: {
-          width: null
-        },
-        /*buttons:
-          [
-            {
-              count: 14,
-              type: 'year',
-              text: 'ohne 2020'
-          },
-            {
-  
-              type: 'all',
-              text: 'Alle Jahre'
-            }
-  
-    
-  
-      ],*/
-      buttonSpacing: 40,
-      enabled: false,
-      inputEnabled: false,
-      selected: 1,
-      inputDateFormat: '%Y',
-      inputEditDateFormat: '%Y'
-      
-    }, 
+        buttons: 
+            [
+                {
+                  count: 10,
+                  type: 'year',
+                  text: '10 J'
+                }, 
+                {
+                  count: 20,
+                  type: 'year',
+                  text: '20 J'
+                }, 
+                {
+                  count: 50,
+                  type: 'year',
+                  text: '50 J'
+                }, 
+                {
+                  count: 100,
+                  type: 'year',
+                  text: '100 J'
+                },
+                {
+                  type: 'all',
+                  text: 'Alle J'
+                }
+            ],
+        buttonSpacing: 15,                
+        inputEnabled: false,
+        selected: 2, 
+        inputDateFormat: '%Y',
+        inputEditDateFormat: '%Y'
+    }  
     }
   }());
   
