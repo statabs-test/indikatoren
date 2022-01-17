@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          171513
+          172258
         ],
         [
           "Bern",
-          133798
+          133883
         ],
         [
           "Genf",
-          200548
+          201818
         ],
         [
           "Lausanne",
-          138905
+          139111
         ],
         [
           "Zürich",
-          409241
+          415367
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          376248
+          377894
         ],
         [
           "Bern",
-          284727
+          286327
         ],
         [
           "Genf",
-          391512
+          395451
         ],
         [
           "Lausanne",
-          281852
+          285511
         ],
         [
           "Zürich",
-          959800
+          969361
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          212196
+          212529
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          95675
+          96603
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          322345
+          327631
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Gesamtbevölkerung"
   },
   "subtitle": {
-    "text": "2018",
+    "text": "2019",
     "align": "left",
     "style": {
       "fontSize": "12px",

@@ -1989,20 +1989,6 @@ id | visible | visibleInPortal | indikatorenset
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9179 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9186 | true | true | 
-9192 | true | true | City-Statistics
-9193 | true | true | City-Statistics
-9194 | true | true | City-Statistics
-9195 | true | true | City-Statistics
-9197 | true | true | City-Statistics
-9199 | true | true | City-Statistics
-9200 | true | true | City-Statistics
-9203 | true | false | City-Statistics (Print)
-9204 | true | false | City-Statistics (Print)
-9205 | true | false | City-Statistics (Print)
-9206 | true | false | City-Statistics (Print)
-9207 | true | false | City-Statistics (Print)
-9208 | true | false | City-Statistics (Print)
-9209 | true | false | City-Statistics (Print)
 9210 | false |  | City-Statistics (Print)
 9219 | true | false | Arbeitsmarkt
 9220 | true | false | Arbeitsmarkt
@@ -2036,6 +2022,11 @@ id | visible | visibleInPortal | indikatorenset
 9409 | true | true | City-Statistics
 9410 | true | true | City-Statistics
 9411 | true | true | City-Statistics
+9481 | true | false | City-Statistics (Print)
+9482 | true | false | City-Statistics (Print)
+9483 | true | false | City-Statistics (Print)
+9484 | true | false | City-Statistics (Print)
+9485 | true | false | City-Statistics (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

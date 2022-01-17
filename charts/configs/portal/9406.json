@@ -5,7 +5,7 @@
       "data": [
         [
           "Basel",
-          0.67
+          0.68
         ],
         [
           "Bern",
@@ -13,7 +13,7 @@
         ],
         [
           "Genf",
-          1.29
+          1.53
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Entwicklung der Gesamtbevölkerung"
   },
   "subtitle": {
-    "text": "durchschnittliche jährliche Veränderungsrate",
+    "text": "durchschnittliche jährliche Veränderungsrate, 2014 bis 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
