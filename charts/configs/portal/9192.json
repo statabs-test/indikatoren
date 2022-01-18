@@ -1,0 +1,376 @@
+{
+  "series": [
+    {
+      "color": "#FFBB58",
+      "zIndex": 0,
+      "type": "column",
+      "pointWidth": 10,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Basel",
+          859284
+        ],
+        [
+          "Bern",
+          420210
+        ],
+        [
+          "Genève",
+          924900
+        ],
+        [
+          "Lausanne",
+          424622
+        ],
+        [
+          "Zürich",
+          1384728
+        ],
+        [
+          "Frankfurt a. M.",
+          2710127
+        ],
+        [
+          "Freiburg i. Br.",
+          658419
+        ],
+        [
+          "Karlsruhe",
+          757324
+        ],
+        [
+          "München",
+          2908664
+        ],
+        [
+          "Stuttgart",
+          2787724
+        ],
+        [
+          "Lille",
+          1512928
+        ],
+        [
+          "Lyon",
+          2098635
+        ],
+        [
+          "Metz",
+          367181
+        ],
+        [
+          "Paris",
+          12882283
+        ],
+        [
+          "Strasbourg",
+          816941
+        ],
+        [
+          "Milano",
+          4965808
+        ],
+        [
+          "Bologna",
+          786352
+        ],
+        [
+          "Lisboa",
+          2989427
+        ],
+        [
+          "Porto",
+          1275010
+        ],
+        [
+          "Barcelona",
+          5040582
+        ],
+        [
+          "Madrid",
+          6882461
+        ],
+        [
+          "London",
+          12434823
+        ]
+      ],
+      "name": "Bevölkerung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "zIndex": 1,
+      "type": "scatter",
+      "yAxis": 1,
+      "marker": {
+        "enabled": true
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Basel",
+          51.01828964579813
+        ],
+        [
+          "Bern",
+          51.31862640108517
+        ],
+        [
+          "Genève",
+          51.206076332576494
+        ],
+        [
+          "Lausanne",
+          50.88855499715041
+        ],
+        [
+          "Zürich",
+          50.118145946351916
+        ],
+        [
+          "Frankfurt a. M.",
+          50.69777172804079
+        ],
+        [
+          "Freiburg i. Br.",
+          51.210095698939426
+        ],
+        [
+          "Karlsruhe",
+          49.58987170616539
+        ],
+        [
+          "München",
+          50.71469238110693
+        ],
+        [
+          "Stuttgart",
+          50.21652071725895
+        ],
+        [
+          "Lille",
+          51.82262473825588
+        ],
+        [
+          "Lyon",
+          51.74754066333593
+        ],
+        [
+          "Metz",
+          51.1573311255212
+        ],
+        [
+          "Paris",
+          51.699361052695394
+        ],
+        [
+          "Strasbourg",
+          51.69173783663692
+        ],
+        [
+          "Milano",
+          51.29449225584235
+        ],
+        [
+          "Bologna",
+          51.96019085600342
+        ],
+        [
+          "Lisboa",
+          53.13362728041193
+        ],
+        [
+          "Porto",
+          53.16742613783421
+        ],
+        [
+          "Barcelona",
+          51.36656838436514
+        ],
+        [
+          "Madrid",
+          52.05794845768105
+        ],
+        [
+          "London",
+          50.387705558816556
+        ]
+      ],
+      "name": "Anteil Frauen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "6pt"
+      }
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "alignTicks": false,
+    "renderTo": "container-9192",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Gesamtbevölkerung und Frauenanteil"
+  },
+  "subtitle": {
+    "text": "2018",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "max": 15000000,
+      "tickAmount": 6,
+      "alignTicks": true,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "min": 0,
+      "max": 100,
+      "tickAmount": 6,
+      "alignTicks": true,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 140,
+    "itemMarginBottom": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "filename": "9192"
+  }
+}
