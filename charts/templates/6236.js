@@ -44,11 +44,10 @@
   {"color": "#b00000", "index": 0, "legendIndex":0} /*rot dunkel */
   ],
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-     "shared": true
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}% von {point.total:,.0f})<br/>',
+     "shared": false
     },
-    
+
   "chart": {
   	type: "column",
     "inverted": false,
