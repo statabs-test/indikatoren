@@ -302,7 +302,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "8pt"
       }
     }
   },
@@ -348,7 +349,7 @@
       "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "8px"
         }
       },
       "stacking": "percent"
@@ -364,7 +365,7 @@
     "text": "Bildungsniveau der Bevölkerung"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2018",
+    "text": "nach höchster abgeschlossener Ausbildung, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",

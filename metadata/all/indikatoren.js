@@ -76321,7 +76321,7 @@ var indikatoren = [
 			9203
 		],
 		"title": "Gesamtbevölkerung und Frauenanteil",
-		"subtitle": "2018",
+		"subtitle": "2019",
 		"lesehilfe": "Gemessen an der Gesamtbevölkerung haben Basel (trinational) und die anderen Schweizer Agglomerationen deutlich weniger Einwohner als die europäischen Metropolen Paris, London, Madrid oder Mailand. Vergleichbar mit Basel (855 600 Einwohner) sind die Agglomerationen Genf (grenzüberschreitend), Karlsruhe, Strassburg und Bologna. Der Frauenanteil liegt in fast allen Vergleichsagglomerationen zwischen 50% und 52%. Nur in Karlsruhe liegt er knapp darunter. In Porto und Lissabon ist der Frauenanteil mit 53% am höchsten.",
 		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung in den Agglomerationen dargestellt. Datenstand französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76362,7 +76362,7 @@ var indikatoren = [
 			9204
 		],
 		"title": "Jugend- und Altersquotient",
-		"subtitle": "2018",
+		"subtitle": "2019",
 		"lesehilfe": "Die Altersstruktur der Bevölkerung in Basel, mit einem Jugendquotienten von 32 und einem leicht höheren Altersquotienten, ist ähnlich wie in Bern, in den deutschen Agglomerationen und in Porto. In den französischen Agglomerationen und in London ist die Bevölkerung hingegen deutlich jünger, mit einem Jugendquotienten von 40 oder mehr und einem Altersquotienten kleiner als 30. Die italienischen Agglomerationen zeigen im Gegenteil einen hohen Altersquotienten.",
 		"erlaeuterungen": "Jugendquotient: Personen im Alter von 19 Jahren oder jünger pro 100 Personen im Alter von 20 bis 64 Jahren. Altersquotient: Personen im Alter von 65 oder mehr Jahren pro 100 Personen im Alter von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Datenstand französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76403,7 +76403,7 @@ var indikatoren = [
 			9205
 		],
 		"title": "Geburten- und Sterberate",
-		"subtitle": "Fälle pro 1000 Einwohner, 2018",
+		"subtitle": "Fälle pro 1000 Einwohner, 2019",
 		"lesehilfe": "Die französischen Agglomerationen und London verzeichnen die höchsten Geburtenraten und dabei tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss (Saldo positiv). Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In Mailand und Bologna sowie in Porto gibt es hingegen deutlich mehr Sterbefälle als Geburten (Saldo negativ). In Basel sowie in Frankfurt und Lissabon liegt der Saldo bei ungefähr null.",
 		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Hier sind die Agglomerationen dargestellt. Datenstand deutscher und französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76444,7 +76444,7 @@ var indikatoren = [
 			9206
 		],
 		"title": "Bildungsniveau der Bevölkerung",
-		"subtitle": "nach höchster abgeschlossener Ausbildung, 2018",
+		"subtitle": "nach höchster abgeschlossener Ausbildung, 2019",
 		"lesehilfe": "Die Bevölkerung von 25 bis 64 Jahren weist in den deutschen Agglomerationen (mit Ausnahme von München) einen Anteil an Sekundarstufe II als höchste abgeschlossene Ausbildung von über 50% auf. In der grenzüberschreitenden Agglomeration Basel ist dieser Anteil mit 46% auch relativ hoch. Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in den Schweizer Agglomerationen (ausser Basel), in Paris, Lyon, Madrid und London am höchsten (grösser als 45%). Über 30% liegt der Anteil der Bevölkerung ohne nachobligatorische Ausbildung in den italienischen und spanischen Agglomerationen.",
 		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufen 1 oder 2), mit Sekundarstufe II (ISCED Stufen 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss. Daten für die Agglomerationen in Portugal nicht verfügbar. Datenstand der französischen Agglomerationen: 2017. Datenstand der deutschen und der italienischen Agglomerationen sowie London: 2011.",
 		"quellenangabe": [
@@ -76485,7 +76485,7 @@ var indikatoren = [
 			9207
 		],
 		"title": "Beschäftigte nach Wirtschaftssektor",
-		"subtitle": "Anteile an der Gesamtbeschäftigung, 2018",
+		"subtitle": "Anteile an der Gesamtbeschäftigung, 2019",
 		"lesehilfe": "Ein Viertel der Beschäftigten in der Agglomeration Basel sind im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. So hoch oder höher ist dieser Anteil in Mailand (25%), Bologna (27%) und in Stuttgart (28%). In der Agglomeration London arbeiten hingegen 95% der Beschäftigten im tertiären Sektor (Dienstleitungen). Auch in Paris, Zürich, Madrid und Genf sind es mindestens 85% der Beschäftigten.",
 		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Datenstand französischer, portugiesischer und italienischer Agglomerationen: 2017. Für London, Mailand und Bologna keine Daten zum 1. Sektor vorhanden.",
 		"quellenangabe": [
@@ -76526,7 +76526,7 @@ var indikatoren = [
 			9208
 		],
 		"title": "Erwerbstätigenquote nach Geschlecht",
-		"subtitle": "der 20- bis 64-Jährigen, 2018",
+		"subtitle": "der 20- bis 64-Jährigen, 2019",
 		"lesehilfe": "In der trinationalen Agglomeration Basel sind drei von vier Frauen von 20 bis 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 81%. Ähnlich hoch sind die Erwerbstätigenquoten in Lausanne und in den deutschen Agglomerationen. In der grenzüberschreitenden Agglomeration Genf, in den französischen und spanischen Agglomerationen ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern tiefer als in Basel. In London ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
 		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Daten für Italien und Portugal nicht vorhanden. Datenstand französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76567,7 +76567,7 @@ var indikatoren = [
 			9209
 		],
 		"title": "Beschäftigtendichte",
-		"subtitle": "Beschäftigte pro Einwohner, 2018",
+		"subtitle": "Beschäftigte pro Einwohner, 2019",
 		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern, Zürich und Lausanne am höchsten. Das heisst, hier sind am meisten Beschäftigte pro Einwohner tätig. Es folgen München und London. Am wenigstens Beschäftigte pro Einwohner gibt es in Lille und Mailand.",
 		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Datenstand französischer und italienischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76606,7 +76606,7 @@ var indikatoren = [
 		"parentId": "9192",
 		"children": [],
 		"title": "Gesamtbevölkerung und Frauenanteil",
-		"subtitle": "2018",
+		"subtitle": "2019",
 		"lesehilfe": "Gemessen an der Gesamtbevölkerung haben Basel (trinational) und die anderen Schweizer Agglomerationen deutlich weniger Einwohner als die europäischen Metropolen Paris, London, Madrid oder Mailand. Vergleichbar mit Basel (855 600 Einwohner) sind die Agglomerationen Genf (grenzüberschreitend), Karlsruhe, Strassburg und Bologna. Der Frauenanteil liegt in fast allen Vergleichsagglomerationen zwischen 50% und 52%. Nur in Karlsruhe liegt er knapp darunter. In Porto und Lissabon ist der Frauenanteil mit 53% am höchsten.",
 		"erlaeuterungen": "Hier ist die ständige Wohnbevölkerung in den Agglomerationen dargestellt. Datenstand französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76634,7 +76634,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-02-08T08:45:45",
+		"aktualisierungsdatum": "2021-01-27T07:48:59",
 		"id": 9203
 	},
 	{
@@ -76645,7 +76645,7 @@ var indikatoren = [
 		"parentId": "9193",
 		"children": [],
 		"title": "Jugend- und Altersquotient",
-		"subtitle": "2018",
+		"subtitle": "2019",
 		"lesehilfe": "Die Altersstruktur der Bevölkerung in Basel, mit einem Jugendquotienten von 32 und einem leicht höheren Altersquotienten, ist ähnlich wie in Bern, in den deutschen Agglomerationen und in Porto. In den französischen Agglomerationen und in London ist die Bevölkerung hingegen deutlich jünger, mit einem Jugendquotienten von 40 oder mehr und einem Altersquotienten kleiner als 30. Die italienischen Agglomerationen zeigen im Gegenteil einen hohen Altersquotienten.",
 		"erlaeuterungen": "Jugendquotient: Personen im Alter von 19 Jahren oder jünger pro 100 Personen im Alter von 20 bis 64 Jahren. Altersquotient: Personen im Alter von 65 oder mehr Jahren pro 100 Personen im Alter von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Datenstand französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76673,7 +76673,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-02-08T08:45:46",
+		"aktualisierungsdatum": "2021-01-27T07:48:59",
 		"id": 9204
 	},
 	{
@@ -76684,7 +76684,7 @@ var indikatoren = [
 		"parentId": "9194",
 		"children": [],
 		"title": "Geburten- und Sterberate",
-		"subtitle": "Fälle pro 1000 Einwohner, 2018",
+		"subtitle": "Fälle pro 1000 Einwohner, 2019",
 		"lesehilfe": "Die französischen Agglomerationen und London verzeichnen die höchsten Geburtenraten und dabei tiefe Sterberaten. Das führt zu einem hohen Geburtenüberschuss (Saldo positiv). Ein ähnliches Bild zeigen die Agglomerationen Genf, Lausanne und Zürich. In Mailand und Bologna sowie in Porto gibt es hingegen deutlich mehr Sterbefälle als Geburten (Saldo negativ). In Basel sowie in Frankfurt und Lissabon liegt der Saldo bei ungefähr null.",
 		"erlaeuterungen": "Anzahl Geburten bzw. Sterbefälle pro 1000 Einwohner. Hier sind die Agglomerationen dargestellt. Datenstand deutscher und französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76712,7 +76712,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-02-08T08:45:47",
+		"aktualisierungsdatum": "2021-01-27T07:49:00",
 		"id": 9205
 	},
 	{
@@ -76723,7 +76723,7 @@ var indikatoren = [
 		"parentId": "9195",
 		"children": [],
 		"title": "Bildungsniveau der Bevölkerung",
-		"subtitle": "nach höchster abgeschlossener Ausbildung, 2018",
+		"subtitle": "nach höchster abgeschlossener Ausbildung, 2019",
 		"lesehilfe": "Die Bevölkerung von 25 bis 64 Jahren weist in den deutschen Agglomerationen (mit Ausnahme von München) einen Anteil an Sekundarstufe II als höchste abgeschlossene Ausbildung von über 50% auf. In der grenzüberschreitenden Agglomeration Basel ist dieser Anteil mit 46% auch relativ hoch. Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in den Schweizer Agglomerationen (ausser Basel), in Paris, Lyon, Madrid und London am höchsten (grösser als 45%). Über 30% liegt der Anteil der Bevölkerung ohne nachobligatorische Ausbildung in den italienischen und spanischen Agglomerationen.",
 		"erlaeuterungen": "Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufen 1 oder 2), mit Sekundarstufe II (ISCED Stufen 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss. Daten für die Agglomerationen in Portugal nicht verfügbar. Datenstand der französischen Agglomerationen: 2017. Datenstand der deutschen und der italienischen Agglomerationen sowie London: 2011.",
 		"quellenangabe": [
@@ -76762,7 +76762,7 @@ var indikatoren = [
 		"parentId": "9197",
 		"children": [],
 		"title": "Beschäftigte nach Wirtschaftssektor",
-		"subtitle": "Anteile an der Gesamtbeschäftigung, 2018",
+		"subtitle": "Anteile an der Gesamtbeschäftigung, 2019",
 		"lesehilfe": "Ein Viertel der Beschäftigten in der Agglomeration Basel sind im 2. Sektor (Industrie und Baugewerbe) tätig. Das ist für eine Agglomeration ein eher hoher Wert. So hoch oder höher ist dieser Anteil in Mailand (25%), Bologna (27%) und in Stuttgart (28%). In der Agglomeration London arbeiten hingegen 95% der Beschäftigten im tertiären Sektor (Dienstleitungen). Auch in Paris, Zürich, Madrid und Genf sind es mindestens 85% der Beschäftigten.",
 		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Datenstand französischer, portugiesischer und italienischer Agglomerationen: 2017. Für London, Mailand und Bologna keine Daten zum 1. Sektor vorhanden.",
 		"quellenangabe": [
@@ -76790,7 +76790,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-02-08T08:45:48",
+		"aktualisierungsdatum": "2021-01-27T07:49:02",
 		"id": 9207
 	},
 	{
@@ -76801,7 +76801,7 @@ var indikatoren = [
 		"parentId": "9199",
 		"children": [],
 		"title": "Erwerbstätigenquote nach Geschlecht",
-		"subtitle": "der 20- bis 64-Jährigen, 2018",
+		"subtitle": "der 20- bis 64-Jährigen, 2019",
 		"lesehilfe": "In der trinationalen Agglomeration Basel sind drei von vier Frauen von 20 bis 64 Jahren erwerbstätig. Bei den Männern liegt die Quote bei 81%. Ähnlich hoch sind die Erwerbstätigenquoten in Lausanne und in den deutschen Agglomerationen. In der grenzüberschreitenden Agglomeration Genf, in den französischen und spanischen Agglomerationen ist die Erwerbstätigenquote sowohl bei den Frauen als auch bei den Männern tiefer als in Basel. In London ist der Quotenunterschied zwischen Frauen und Männern am grössten.",
 		"erlaeuterungen": "Anteil der Erwerbstätigen an der ständigen Wohnbevölkerung von 20 bis 64 Jahren. Hier sind die Agglomerationen dargestellt. Daten für Italien und Portugal nicht vorhanden. Datenstand französischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76829,7 +76829,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-02-08T08:45:49",
+		"aktualisierungsdatum": "2021-01-27T07:49:01",
 		"id": 9208
 	},
 	{
@@ -76840,7 +76840,7 @@ var indikatoren = [
 		"parentId": "9200",
 		"children": [],
 		"title": "Beschäftigtendichte",
-		"subtitle": "Beschäftigte pro Einwohner, 2018",
+		"subtitle": "Beschäftigte pro Einwohner, 2019",
 		"lesehilfe": "Die Beschäftigtendichte ist in den Agglomerationen Bern, Zürich und Lausanne am höchsten. Das heisst, hier sind am meisten Beschäftigte pro Einwohner tätig. Es folgen München und London. Am wenigstens Beschäftigte pro Einwohner gibt es in Lille und Mailand.",
 		"erlaeuterungen": "Hier sind die Agglomerationen dargestellt. Datenstand französischer und italienischer Agglomerationen: 2017.",
 		"quellenangabe": [
@@ -76868,7 +76868,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-02-08T08:45:50",
+		"aktualisierungsdatum": "2021-01-27T07:49:03",
 		"id": 9209
 	},
 	{
