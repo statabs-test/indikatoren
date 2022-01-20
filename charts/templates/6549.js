@@ -36,7 +36,7 @@
       useHTML: false,
       pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
         'Anteile am Übernachtungsvolumen 2021:<b> {point.x:,.1f}%</b><br/>' +
-        'Veränderung 2020 gegenüber dem Mittelwert 2010-2014:<b> {point.y}%</b><br/>' +
+        'Veränderung 2021 gegenüber dem Mittelwert 2010-2014:<b> {point.y}%</b><br/>' +
         'Wachstumsbeitrag:<b> {point.z}%</b>'
     },
     data: {
