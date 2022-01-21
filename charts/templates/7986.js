@@ -160,7 +160,7 @@
         fontSize: '10px',
         width: 40      
     },
-    width: 200,
+    width: 190,
     itemWidth: 70,    
     symbolRadius: 0,
     labelFormatter: function(){
@@ -230,7 +230,7 @@
             }
             //move legend title
             var title = this.legend.title;
-            title.translate(-188, 25);
+            title.translate(-200, 25);
 
           }
         }         
