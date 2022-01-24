@@ -31,7 +31,7 @@
       
       "series": [
         {
-          "color": "#B00000",
+          "color": "#9E7C59",
           showInNavigator: true,
           "marker": {
             "symbol": "circle",
@@ -39,7 +39,8 @@
           }
         }, 
         {
-          "color": "#008AC3",
+          "color": "#689199",
+          visible: false,
           showInNavigator: true,
           "marker": {
             "symbol": "circle",
@@ -47,7 +48,8 @@
           }
         }, 
         {
-          "color": "#FABD24",
+          "color": "#DC440E",
+          visible: false,
           showInNavigator: true,
           "marker": {
             "symbol": "circle",
@@ -55,7 +57,7 @@
           }
         },
         {
-            "color": "#B00000",
+            "color": "#923F8D",
             showInNavigator: true,
             "marker": {
               "symbol": "circle",
@@ -63,7 +65,8 @@
             }
           }, 
           {
-            "color": "#008AC3",
+            "color": "#CD9C00",
+            visible: false,
             showInNavigator: true,
             "marker": {
               "symbol": "circle",
@@ -71,7 +74,8 @@
             }
           }, 
           {
-            "color": "#FABD24",
+            "color": "#B6CFD7",
+            visible: false,
             showInNavigator: true,
             "marker": {
               "symbol": "circle",
@@ -79,7 +83,7 @@
             }
           },
           {
-            "color": "#FABD24",
+            "color": "#68AB2B",
             showInNavigator: true,
             "marker": {
               "symbol": "circle",
@@ -141,7 +145,7 @@
             ],
         buttonSpacing: 15,                
         inputEnabled: false,
-        selected: 2, 
+        selected: 4, 
         inputDateFormat: '%Y',
         inputEditDateFormat: '%Y'
     }  
