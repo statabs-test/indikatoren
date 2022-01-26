@@ -1177,6 +1177,8 @@ id | visible | visibleInPortal | indikatorenset
 7588 | true | true | Leerstand
 7589 | true | true | Leerstand
 7590 | true | true | Leerstand
+7599 | true | true | Wohnbaustatistik
+7601 | true | true | Wohnbaustatistik
 7603 | true | true | Soziales
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental

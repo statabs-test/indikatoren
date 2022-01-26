@@ -1,0 +1,890 @@
+{
+  "series": [
+    {
+      "color": "#2F656B",
+      "data": [
+        [
+          "2012: neuerstellt",
+          7.089552239
+        ],
+        [
+          "2012: alle",
+          10.73658753
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013: neuerstellt",
+          15.25423729
+        ],
+        [
+          "2013: alle",
+          9.980509759
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2014: neuerstellt",
+          5.691056911
+        ],
+        [
+          "2014: alle",
+          9.932214483
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: neuerstellt",
+          4.060913706
+        ],
+        [
+          "2015: alle",
+          10.00101872
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: neuerstellt",
+          2.912621359
+        ],
+        [
+          "2016: alle",
+          10.07629378
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2017: neuerstellt",
+          2.43902439
+        ],
+        [
+          "2017: alle",
+          10.16987853
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2018: neuerstellt",
+          6.567534077
+        ],
+        [
+          "2018: alle",
+          10.18199928
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2019: neuerstellt",
+          11.0982659
+        ],
+        [
+          "2019: alle",
+          10.24235792
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2020: neuerstellt",
+          14.00329489
+        ],
+        [
+          "2020: alle",
+          10.42002153
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2021: neuerstellt",
+          5.287896592
+        ],
+        [
+          "2021: alle",
+          10.8361204
+        ]
+      ],
+      "name": "1 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8B2223",
+      "data": [
+        [
+          "2012: neuerstellt",
+          37.31343284
+        ],
+        [
+          "2012: alle",
+          23.36542186
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013: neuerstellt",
+          46.89265537
+        ],
+        [
+          "2013: alle",
+          22.99848409
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2014: neuerstellt",
+          24.11924119
+        ],
+        [
+          "2014: alle",
+          23.08914964
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: neuerstellt",
+          32.74111675
+        ],
+        [
+          "2015: alle",
+          23.21099473
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: neuerstellt",
+          29.61165049
+        ],
+        [
+          "2016: alle",
+          23.29533965
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2017: neuerstellt",
+          23.30623306
+        ],
+        [
+          "2017: alle",
+          23.3418577
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2018: neuerstellt",
+          25.52664188
+        ],
+        [
+          "2018: alle",
+          23.39098153
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2019: neuerstellt",
+          40.11560694
+        ],
+        [
+          "2019: alle",
+          23.58998278
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2020: neuerstellt",
+          38.22075783
+        ],
+        [
+          "2020: alle",
+          23.70661661
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2021: neuerstellt",
+          34.43008226
+        ],
+        [
+          "2021: alle",
+          24.46352707
+        ]
+      ],
+      "name": "2 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9A86A6",
+      "data": [
+        [
+          "2012: neuerstellt",
+          32.8358209
+        ],
+        [
+          "2012: alle",
+          37.29795093
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2013: neuerstellt",
+          18.6440678
+        ],
+        [
+          "2013: alle",
+          37.51071022
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2014: neuerstellt",
+          29.53929539
+        ],
+        [
+          "2014: alle",
+          37.42415034
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015: neuerstellt",
+          39.34010152
+        ],
+        [
+          "2015: alle",
+          37.35819002
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2016: neuerstellt",
+          41.99029126
+        ],
+        [
+          "2016: alle",
+          37.29294972
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2017: neuerstellt",
+          36.31436314
+        ],
+        [
+          "2017: alle",
+          37.22075075
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2018: neuerstellt",
+          36.05947955
+        ],
+        [
+          "2018: alle",
+          37.19395147
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2019: neuerstellt",
+          27.05202312
+        ],
+        [
+          "2019: alle",
+          37.07663605
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2020: neuerstellt",
+          29.65403624
+        ],
+        [
+          "2020: alle",
+          36.97363856
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2021: neuerstellt",
+          34.07755582
+        ],
+        [
+          "2021: alle",
+          37.88303354
+        ]
+      ],
+      "name": "3 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#BAA85A",
+      "data": [
+        [
+          "2012: neuerstellt",
+          15.29850746
+        ],
+        [
+          "2012: alle",
+          17.18231888
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2013: neuerstellt",
+          1.694915254
+        ],
+        [
+          "2013: alle",
+          17.5252102
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2014: neuerstellt",
+          28.45528455
+        ],
+        [
+          "2014: alle",
+          17.57000608
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2015: neuerstellt",
+          17.89340102
+        ],
+        [
+          "2015: alle",
+          17.53859547
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2016: neuerstellt",
+          20.14563107
+        ],
+        [
+          "2016: alle",
+          17.51723504
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2017: neuerstellt",
+          27.64227642
+        ],
+        [
+          "2017: alle",
+          17.51940817
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2018: neuerstellt",
+          24.9070632
+        ],
+        [
+          "2018: alle",
+          17.52716407
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2019: neuerstellt",
+          13.06358382
+        ],
+        [
+          "2019: alle",
+          17.43416332
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2020: neuerstellt",
+          11.69686985
+        ],
+        [
+          "2020: alle",
+          17.34268098
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2021: neuerstellt",
+          18.44888367
+        ],
+        [
+          "2021: alle",
+          15.06191811
+        ]
+      ],
+      "name": "4 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "2012: neuerstellt",
+          4.47761194
+        ],
+        [
+          "2012: alle",
+          6.229393593
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2013: neuerstellt",
+          14.68926554
+        ],
+        [
+          "2013: alle",
+          6.494863804
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2014: neuerstellt",
+          7.046070461
+        ],
+        [
+          "2014: alle",
+          6.483100369
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2015: neuerstellt",
+          5.329949239
+        ],
+        [
+          "2015: alle",
+          6.451254411
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2016: neuerstellt",
+          2.427184466
+        ],
+        [
+          "2016: alle",
+          6.39672764
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2017: neuerstellt",
+          8.672086721
+        ],
+        [
+          "2017: alle",
+          6.375924742
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2018: neuerstellt",
+          4.832713755
+        ],
+        [
+          "2018: alle",
+          6.361825426
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2019: neuerstellt",
+          5.433526012
+        ],
+        [
+          "2019: alle",
+          6.353150115
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2020: neuerstellt",
+          4.777594728
+        ],
+        [
+          "2020: alle",
+          6.286532798
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2021: neuerstellt",
+          5.640423032
+        ],
+        [
+          "2021: alle",
+          6.401518575
+        ]
+      ],
+      "name": "5 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8AB77D",
+      "data": [
+        [
+          "2012: neuerstellt",
+          2.985074627
+        ],
+        [
+          "2012: alle",
+          5.188327208
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2013: neuerstellt",
+          2.824858757
+        ],
+        [
+          "2013: alle",
+          5.490221925
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2014: neuerstellt",
+          5.149051491
+        ],
+        [
+          "2014: alle",
+          5.501379085
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2015: neuerstellt",
+          0.634517766
+        ],
+        [
+          "2015: alle",
+          5.439946656
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2016: neuerstellt",
+          2.912621359
+        ],
+        [
+          "2016: alle",
+          5.421454178
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2017: neuerstellt",
+          1.62601626
+        ],
+        [
+          "2017: alle",
+          5.372180108
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2018: neuerstellt",
+          2.106567534
+        ],
+        [
+          "2018: alle",
+          5.344078233
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2019: neuerstellt",
+          3.23699422
+        ],
+        [
+          "2019: alle",
+          5.303709816
+        ],
+        [
+          "        ",
+          undefined
+        ],
+        [
+          "2020: neuerstellt",
+          1.647446458
+        ],
+        [
+          "2020: alle",
+          5.270509524
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2021: neuerstellt",
+          2.115158637
+        ],
+        [
+          "2021: alle",
+          5.35388231
+        ]
+      ],
+      "name": "6 Zimmer u.m.",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "align": "Left",
+      "x": -90
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 600,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": "true",
+    "spacingLeft": 100,
+    "renderTo": "container-7601",
+    "spacingBottom": 30
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": 10
+        }
+      },
+      "pointWidth": 15,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Zimmerzahl der gebauten Wohnungen"
+  },
+  "subtitle": {
+    "text": "in Prozent, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 800,
+    "reversedStacks": false
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "horizontal",
+    "itemDistance": 18,
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik."
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false,
+    "useHTML": true
+  },
+  "exporting": {
+    "filename": "7601"
+  }
+}
