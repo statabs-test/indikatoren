@@ -16,17 +16,7 @@
     },
     series: [
       { color: "#2F656B" },
-      { color: "#2F656B", dashStyle: 'ShortDot' },
-      { color: "#8B2223" }, 
-      { color: "#8B2223", dashStyle: 'ShortDot' },
-      { color: "#9A86A6" }, 
-      { color: "#9A86A6", dashStyle: 'ShortDot' },
-      { color: "#BAA85A" }, 
-      { color: "#BAA85A", dashStyle: 'ShortDot' },
-      { color: "#71A3B5" }, 
-      { color: "#71A3B5", dashStyle: 'ShortDot' },
-      { color: "#8AB77D" }, 
-      { color: "#8AB77D", dashStyle: 'ShortDot' }
+      { color: "#8B2223" }
       
     ],
     legend: {

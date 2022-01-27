@@ -842,9 +842,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     },
-    "max": 800,
+    "max": 100,
     "reversedStacks": false
   },
   "legend": {
@@ -880,7 +880,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik."
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false,
     "useHTML": true
   },
