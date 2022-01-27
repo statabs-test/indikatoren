@@ -2,7 +2,7 @@
   return {
     plotOptions: {
       series: {
-        pointWidth: 15,
+        pointWidth: 13,
         dataLabels: {
           style: {
             fontSize: 10
