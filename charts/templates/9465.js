@@ -6,12 +6,12 @@
     yAxis: {
       min: null,
       labels: {
-        format: "{value:,.0f}"
+        format: "{value:,.0f}%"
       }
     },
     tooltip: {
       shared: false,
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m<sup>2</sup></b><br/>',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       useHTML: true
     },
     series: [
