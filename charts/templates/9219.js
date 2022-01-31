@@ -2,7 +2,9 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 25,
+      pointPadding: 0.1,
+      groupPadding: 0.1,
+      //"pointWidth": 25,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -36,7 +38,10 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    itemWidth: 150,
+    itemWidth: 130,
+    labelFormatter: function () {
+      return this.name.replace("Nahrungsmittelindustrie", "Nahrungs-<br/>mittelindustrie");
+    },
     "itemStyle": {
       textOverflow: null,
       "fontWeight": "normal"
@@ -59,11 +64,11 @@
       "color": "#FFBB58",
       "legendIndex": 3     
     },
-    {
+    /*{
       "color": "#662673",
       "legendIndex": 2     
     },
-    /*{
+    {
       "color": "#B375AB",
       "legendIndex": 1
     },
