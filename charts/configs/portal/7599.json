@@ -526,19 +526,17 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(" ").slice(0).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                + ':<br>'
+                + this.series[1].name.split(" ").slice(0).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                /*+ ' (rechte Skala):'*/
+            })
+            .translate(-140, 8); //move -140 to the left and 8 down
+        }
     },
     "renderTo": "container-7599"
   },
@@ -588,7 +586,7 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": {
     "min": null,
@@ -618,7 +616,17 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "title": {
+      "text": " ",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. '2015' aus '2015 Wöchentlich'
+      }
   },
   "credits": {
     "enabled": true,

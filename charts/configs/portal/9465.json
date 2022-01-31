@@ -43,8 +43,7 @@
       "name": "neuerstellt"
     },
     {
-      "color": "#2F656B",
-      "dashStyle": "ShortDot",
+      "color": "#8B2223",
       "data": [
         [
           2013,
@@ -84,119 +83,6 @@
         ]
       ],
       "name": "alle"
-    },
-    {
-      "color": "#8B2223",
-      "data": [
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          null
-        ],
-        [
-          2019,
-          null
-        ],
-        [
-          2020,
-          null
-        ],
-        [
-          2021,
-          undefined
-        ]
-      ],
-      "name": "undefined"
-    },
-    {
-      "color": "#8B2223",
-      "dashStyle": "ShortDot",
-      "data": [
-        [
-          2013,
-          undefined
-        ],
-        [
-          2014,
-          undefined
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          undefined
-        ],
-        [
-          2019,
-          undefined
-        ],
-        [
-          2020,
-          null
-        ],
-        [
-          2021,
-          undefined
-        ]
-      ],
-      "name": "undefined"
-    },
-    {
-      "color": "#9A86A6"
-    },
-    {
-      "color": "#9A86A6",
-      "dashStyle": "ShortDot"
-    },
-    {
-      "color": "#BAA85A"
-    },
-    {
-      "color": "#BAA85A",
-      "dashStyle": "ShortDot"
-    },
-    {
-      "color": "#71A3B5"
-    },
-    {
-      "color": "#71A3B5",
-      "dashStyle": "ShortDot"
-    },
-    {
-      "color": "#8AB77D"
-    },
-    {
-      "color": "#8AB77D",
-      "dashStyle": "ShortDot"
     }
   ],
   "chart": {
@@ -276,7 +162,7 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": {
     "min": null,
@@ -294,7 +180,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }
   },
   "legend": {
@@ -359,7 +245,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "useHTML": true
   },
   "exporting": {

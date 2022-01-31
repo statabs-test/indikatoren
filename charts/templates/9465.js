@@ -27,11 +27,18 @@
       align: "left",
     },
     plotOptions: {
-      line: {
+      /*line: {
         marker: {
           symbol: null
-        }
+        }-*/
+      column: {
+          minPointLength: 2
       }
+    },
+    chart: {      
+      type: "column",
+      inverted: false,
+      spacingBottom: 40
     }
   }
 }());
