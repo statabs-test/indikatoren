@@ -1602,85 +1602,81 @@ var indikatorensetData = [
 		"id": 6454
 	},
 	{
-		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.2.6455",
-		"kuerzelKunde": "3.2-04",
-		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-09-03T17:11:40.4040",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.2 Beschäftigung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die 190 756 Beschäftigten aus dem Jahr 2018 entsprechen umgerechnet 150 931  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_02_00_00_00_204",
-		"parentId": null,
-		"children": [
-			"7042"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6455,
 		"chart-id": 6455,
 		"filter": "",
-		"id": 6455
-	},
-	{
-		"title": "Beschäftigung im Dienstleistungssektor (II)",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.6456",
-		"kuerzelKunde": "3.2-07",
-		"description": "Beschäftigung im Dienstleistungssektor (II)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
+		"parentId": null,
+		"children": [
+			7042
+		],
+		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die 192 450 Beschäftigten im Jahr 2019 entsprechen umgerechnet 152 463 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T17:11:41.4141",
+		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.6455",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.2-04",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie die Finanz- und Versicherungsdienstleistungen verzeichnen zwischen 2017 und 2018 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 1,2% bzw. 1,0%. Die Branchen Personalvermittlung und -überlassung sowie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 4,6% bzw. 3,4% auf.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
-		"template": "line001",
+		"orderKey": "02_02_00_00_00_204",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_207",
-		"parentId": null,
-		"children": [
-			"7043"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-09-03T05:11:40",
+		"id": 6455
+	},
+	{
+		"template": "line001",
 		"data-id": 6456,
 		"chart-id": 6456,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7043
+		],
+		"title": "Beschäftigung im Dienstleistungssektor (II)",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien verzeichnet zwischen 2018 und 2019 einen Anstieg der Beschäftigung (in VZÄ) um 3,1%. Auch die Branchen  Finanz- und Versicherungsdienstleistungen sowie Personalvermittlung und -überlassung sind im gleichen Zeitraum um 0,2% bzw. 8,8% gewachsen. Die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weist einen Rückgang um 0,7% auf.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung im Dienstleistungssektor (II)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.6456",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.2-07",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_02_00_00_00_207",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-09-03T05:11:41",
 		"id": 6456
 	},
 	{
@@ -2465,44 +2461,42 @@ var indikatorensetData = [
 		"id": 6529
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 6531,
+		"chart-id": 6531,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7064
+		],
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2018",
-		"kuerzel": "I.03.2.6531",
-		"kuerzelKunde": "3.2-02",
-		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2019",
+		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt rund 35% der 152 463 Beschäftigten in Vollzeitäquivalenten (VZÄ) in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 14%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T17:11:45.4545",
+		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.6531",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.2-02",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt von den 150 931 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 37% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 14%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
-		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen.",
-		"template": "befragungen001",
+		"orderKey": "02_02_00_00_00_202",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"7064"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6531,
-		"chart-id": 6531,
-		"filter": "",
+		"aktualisierungsdatum": "2020-09-03T05:11:45",
 		"id": 6531
 	},
 	{
@@ -2671,44 +2665,42 @@ var indikatorensetData = [
 		"id": 7442
 	},
 	{
+		"template": "template001",
+		"data-id": 7443,
+		"chart-id": 7443,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7478"
+			7478
 		],
-		"template": "template001",
 		"title": "Beschäftigung im Detailhandel",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.2.07443",
-		"kuerzelKunde": "4.3-01",
-		"description": "Beschäftigung im Detailhandel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2019 lag sie bei rund 6 500 Vollzeitäquivalenten (2011: 7 800). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (900 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ). Absolut betrachtet, ist der stärkste Rückgang im Vergleich zu 2011 im Bereich Kleider, Schuhe, Lederwaren zu beobachten (400 VZÄ bzw. 33%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-23T08:43:10.1010",
+		"description": "Beschäftigung im Detailhandel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07443",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3-01",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.3 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2018 lag sie bei rund 6 600 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (900 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ). Sowohl absolut als auch relativ betrachtet, ist der stärkste Rückgang im Vergleich zu 2011 im Bereich Kleider, Schuhe, Lederwaren zu beobachten (500 VZÄ bzw. 34%).",
-		"erlaeuterungen": "",
+		"orderKey": "03_03_00_00_00_301",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_301",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7443,
-		"chart-id": 7443,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-23T08:43:10",
 		"id": 7443
 	},
 	{
@@ -2836,44 +2828,42 @@ var indikatorensetData = [
 		"id": 7446
 	},
 	{
+		"template": "template001",
+		"data-id": 7447,
+		"chart-id": 7447,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7482"
+			7482
 		],
-		"template": "template001",
 		"title": "Beschäftigung im Landverkehr",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.2.07447",
-		"kuerzelKunde": "4.4-01",
-		"description": "Beschäftigung im Landverkehr",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Rund 3 700 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2019 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 600 weniger als 2014, wobei ein Grossteil des gesamten Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind die Personenbeförderung auf der Schiene mit rund 1200 VZÄ, die Personenbeförderung im Nahverkehr (ohne Taxis) mit 1000 VZÄ sowie die Güterbeförderung im Strassenverkehr mit rund 800 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-23T08:43:36.3636",
+		"description": "Beschäftigung im Landverkehr",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07447",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.4-01",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.4 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 3 400 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2018 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 800 weniger als 2014, wobei ein Grossteil des gesamten Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind mit je rund 1 000 VZÄ die Personenbeförderung auf der Schiene und die Personenbeförderung im Nahverkehr (ohne Taxis) sowie mit rund 800 VZÄ die Güterbeförderung im Strassenverkehr. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
-		"erlaeuterungen": "",
+		"orderKey": "03_04_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_04_00_00_00_401",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7447,
-		"chart-id": 7447,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-23T08:43:36",
 		"id": 7447
 	},
 	{
@@ -3001,44 +2991,42 @@ var indikatorensetData = [
 		"id": 7450
 	},
 	{
+		"template": "template001",
+		"data-id": 7452,
+		"chart-id": 7452,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7486"
+			7486
 		],
-		"template": "template001",
 		"title": "Beschäftigung in der Branche IT-Dienstleistungen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.2.07452",
-		"kuerzelKunde": "4.5-01",
-		"description": "Beschäftigung in der Branche IT-Dienstleistungen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) arbeiten im Jahr 2019 in Basel-Stadt in Vollzeitäquivalente umgerechnet rund 2 500 Beschäftigte. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit rund 1 200 bzw. 1 100 VZÄ auf.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-23T08:44:11.1111",
+		"description": "Beschäftigung in der Branche IT-Dienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07452",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.5-01",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) arbeiten im Jahr 2018 in Basel-Stadt in Vollzeitäquivalente umgerechnet rund 2 300 Beschäftigte. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2018 rund 1 200 bzw. 1 000 VZÄ auf.",
-		"erlaeuterungen": "",
+		"orderKey": "03_05_00_00_00_501",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_05_00_00_00_501",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7452,
-		"chart-id": 7452,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-23T08:44:11",
 		"id": 7452
 	},
 	{
@@ -3496,44 +3484,42 @@ var indikatorensetData = [
 		"id": 7468
 	},
 	{
+		"template": "line001",
+		"data-id": 8683,
+		"chart-id": 8683,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8698"
+			8698
 		],
-		"template": "line001",
 		"title": "Beschäftigung in der Branche Immobilienwesen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.2.08683",
-		"kuerzelKunde": "4.6-01",
-		"description": "Beschäftigung in der Branche Immobilienwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Rund 1 700 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind 2019 im Immobilienwesen (NOGA 68) tätig. Fast zwei Drittel davon arbeiten im Bereich Verwaltung von Grundstücken, Gebäuden und Wohnungen für Dritte.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-23T08:44:35.3535",
+		"description": "Beschäftigung in der Branche Immobilienwesen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08683",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.6-01",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 Immobilienwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 1 600 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind 2018 im Immobilienwesen (NOGA 68) tätig. Rund zwei Drittel davon arbeiten im Bereich Verwaltung von Grundstücken, Gebäuden und Wohnungen für Dritte.",
-		"erlaeuterungen": "",
+		"orderKey": "03_06_00_00_00_601",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_06_00_00_00_601",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8683,
-		"chart-id": 8683,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-23T08:44:35",
 		"id": 8683
 	},
 	{
@@ -3909,44 +3895,42 @@ var indikatorensetData = [
 		"id": 8696
 	},
 	{
+		"template": "template001",
+		"data-id": 9219,
+		"chart-id": 9219,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"9232"
+			9232
 		],
-		"template": "template001",
 		"title": "Beschäftigung in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "",
-		"kuerzelKunde": "4.1-01",
-		"description": "Beschäftigung in der Branche Nahrungsmittelindustrie",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 2 000 Vollzeitäquivalenten (VZÄ) im Jahr 2018 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 300 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 4,3% zurückgegangen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-24T08:38:20.2020",
+		"description": "Beschäftigung in der Branche Nahrungsmittelindustrie",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09219",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.1-01",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.1 Nahrungsmittelindustrie",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 2 000 Vollzeitäquivalenten (VZÄ) im Jahr 2018 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 300 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 4,3% zurückgegangen.",
-		"erlaeuterungen": "",
+		"orderKey": "03_01_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_01_00_00_00_101",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9219,
-		"chart-id": 9219,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-24T08:38:20",
 		"id": 9219
 	},
 	{
@@ -4074,44 +4058,42 @@ var indikatorensetData = [
 		"id": 9222
 	},
 	{
+		"template": "template001",
+		"data-id": 9223,
+		"chart-id": 9223,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"9236"
+			9236
 		],
-		"template": "template001",
 		"title": "Beschäftigung im Schreinereigewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.2.09223",
-		"kuerzelKunde": "4.2-01",
-		"description": "Beschäftigung im Schreinereigewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Im Schreinereigewerbe (NOGA 16) sind in Basel-Stadt im Jahr 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 310 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Schreinerarbeiten im Innenausbau (270 VZÄ) sowie Bauschreinerei, Fenster und Türen (40 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 5,5% zurückgegangen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-24T08:38:21.2121",
+		"description": "Beschäftigung im Schreinereigewerbe",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09223",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.2-01",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.2 Schreinereigewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schreinereigewerbe (NOGA 16) sind in Basel-Stadt im Jahr 2018 in Vollzeitäquivalente (VZÄ) umgerechnet rund 330 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Schreinerarbeiten im Innenausbau (280 VZÄ) sowie Bauschreinerei, Fenster und Türen (50 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 3,2% zurückgegangen.",
-		"erlaeuterungen": "",
+		"orderKey": "03_02_00_00_00_201",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_201",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9223,
-		"chart-id": 9223,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-24T08:38:21",
 		"id": 9223
 	},
 	{
@@ -4237,5 +4219,42 @@ var indikatorensetData = [
 		"chart-id": 9226,
 		"filter": "",
 		"id": 9226
+	},
+	{
+		"template": "line001",
+		"data-id": 9490,
+		"chart-id": 9490,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2019 in der Branche Handel mit und Reparatur von Motorfahrzeugen (NOGA 45) tätig. Der grösste Teil entfällt mit 660 VZÄ auf die Instandhaltung und Reparatur von Automobilen, knapp 100 VZÄ auf den Handel mit Automobilteilen und -zubehör.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09490",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7-01",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-01-31T10:06:26",
+		"id": 9490
 	}
 ];

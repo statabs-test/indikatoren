@@ -38,7 +38,12 @@
             "verticalAlign": "middle",
             "itemMarginBottom": 5,
             "align": "right",
-            itemWidth: 130,
+            itemWidth: 136,
+            "labelFormatter": function () {
+                return this.name.replace("Handel mit und Reparatur von Motorrädern", "Handel u. Reparatur Motorräder")
+                .replace("Automobilteilen", "Automobil-<br/>teilen")
+                .replace("von Automobilen", "Automobile");
+            },
             "itemStyle": {
                 textOverflow: null,
                 "fontWeight": "normal"
@@ -64,7 +69,7 @@
         ],
         "chart": {
             "type": "column",
-            marginRight: 160,
-          }
+            marginRight: 162,
+        }
     }
 }());
