@@ -36,7 +36,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    itemWidth: 120,
+    itemWidth: 130,
     labelFormatter: function () {
       return this.name.replace("Programmierungstätigkeiten", "Programmierungs-<br/>tätigkeiten");
     },
@@ -62,7 +62,7 @@
   ],
   "chart": {
     "type": "column",
-    marginRight: 150,
+    marginRight: 160,
   }
 	}
 }());
