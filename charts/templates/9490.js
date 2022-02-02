@@ -38,7 +38,7 @@
             "verticalAlign": "middle",
             "itemMarginBottom": 5,
             "align": "right",
-            itemWidth: 136,
+            itemWidth: 145,
             "labelFormatter": function () {
                 return this.name.replace("Handel mit und Reparatur von Motorrädern", "Handel u. Reparatur Motorräder")
                 .replace("Automobilteilen", "Automobil-<br/>teilen")
@@ -69,7 +69,7 @@
         ],
         "chart": {
             "type": "column",
-            marginRight: 162,
+            marginRight: 170,
         }
     }
 }());
