@@ -14707,45 +14707,43 @@ var indikatoren = [
 		"id": 6075
 	},
 	{
+		"template": "line001",
+		"data-id": 6076,
+		"chart-id": 6076,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6661"
+			6661
 		],
-		"template": "line001",
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.3.06076",
-		"kuerzelKunde": "A4-2",
-		"description": "Anzahl Geborene nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
+		"lesehilfe": "Schweizer Staatsangehörige machen 2020 mit 1190 etwas über die Hälfte der exakt 2000 Geborenen aus. 2016 betrug das Total noch 2172.",
+		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-25T09:20:41.4141",
+		"description": "Anzahl Geborene nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Geburten und Todesfälle",
+		"kuerzel": "I.01.3.06076",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A4-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2016 zugenommen. Im Jahr 2020 sind es deutlich weniger als in den Vorjahren (2015-2019). Der Rückgang im Jahr 2020 war bei ausländischen Staatsangehörigkeiten ausgeprägter als bei Schweizer Staatsangehörigkeiten.",
-		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
+		"orderKey": "01_00_00_00_00_402",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_402",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6076,
-		"chart-id": 6076,
-		"filter": "",
+		"aktualisierungsdatum": "2020-09-25T09:20:41",
 		"id": 6076
 	},
 	{
@@ -23510,45 +23508,43 @@ var indikatoren = [
 		"id": 6396
 	},
 	{
+		"template": "mappie001",
+		"data-id": 6398,
+		"chart-id": 6398,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6674
+		],
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2019 und Veränderung seit 2000",
-		"kuerzel": "I.01.1.6398",
-		"kuerzelKunde": "A1-3",
-		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"subtitle": "Basel-Stadt, Stand 2020 und Veränderung seit 2001",
+		"lesehilfe": "Ende 2020 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2001 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-11-02T11:00:07.077",
+		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6398",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-3",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2000 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
-		"erlaeuterungen": "",
-		"template": "mappie001",
+		"orderKey": "01_00_00_00_00_103",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_103",
-		"parentId": null,
-		"children": [
-			"6674"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6398,
-		"chart-id": 6398,
-		"filter": "",
+		"aktualisierungsdatum": "2020-11-02T11:00:07",
 		"id": 6398
 	},
 	{
@@ -26812,87 +26808,83 @@ var indikatoren = [
 		"id": 6492
 	},
 	{
-		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2009",
-		"kuerzel": "I.01.7.6493",
-		"kuerzelKunde": "D7-1",
-		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-08T12:31:55.5555",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2009 Schweizer (25,1%) und Deutsche (15,9%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (27,5%) sowie bei den Mittel- und Südamerikanern (26,2%). 99,8% der Türken, 98,7% der Personen aus arabischen Ländern und 93,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
-		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_701",
-		"parentId": null,
-		"children": [
-			"6733"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6493,
 		"chart-id": 6493,
 		"filter": "",
-		"id": 6493
-	},
-	{
+		"parentId": null,
+		"children": [
+			6733
+		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.7.6494",
-		"kuerzelKunde": "D7-2",
-		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Integration",
+		"subtitle": "Basel-Stadt, 2010",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2010 Schweizerinnen und Schweizer (24,3%) und Deutsche (14,2%) auf. Die höchsten Anteile an katholischen Personen gab es bei den EU-Ost-Ländern (29,7%) sowie den Mittel- und Südamerikanischen Ländern (23,9%). 99,8% der türkischen Staatsangehörigen, 98,8% der Personen aus arabischen Ländern und 98,5% der Personen aus dem Balkan gehörten einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an oder hatten keine bzw. eine unbekannte religiöse Zugehörigkeit.",
+		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T12:35:12.1212",
+		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.7.6493",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D7-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (19,1%) und Deutsche (11,6%) auf, während die höchsten Anteile an Katholiken bei Italienern (18,1%) und Personen aus Mittel- und Südamerika (16,1%) zu finden sind. 99,8% der Türken, 99,1% der Personen aus arabischen Ländern und 94,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an, haben keine religiöse Zugehörigkeit oder diese ist nicht bekannt.",
-		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
-		"template": "template001",
+		"orderKey": "04_00_00_00_00_701",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_702",
-		"parentId": null,
-		"children": [
-			"6734"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-12-08T12:31:55",
+		"id": 6493
+	},
+	{
+		"template": "template001",
 		"data-id": 6494,
 		"chart-id": 6494,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6734
+		],
+		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizerinnen und Schweizer (18,5%) sowie Deutsche (11,3%) auf, während die höchsten Anteile an katholischen Personen bei italienischen Staatsangehörigen (16,8%) und Personen aus Staaten der EU-Ost (16,6%) zu finden sind. 99,8% der Türkinnen und Türken, 99,1% der Personen aus arabischen Ländern und 98,9% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an oder haben keine bzw. eine unbekannte religiöse Zugehörigkeit.",
+		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.7.6494",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D7-2",
+		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_702",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-12-08T12:35:12",
 		"id": 6494
 	},
 	{
@@ -30918,7 +30910,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "6407",
 		"children": [],
-		"title": "Arbeitslosenquote der Ausländer",
+		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"lesehilfe": "Im Jahr 2000 war die Arbeitslosenquote der ausländischen Frauen über 35 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) hingegen waren im Jahr 2000 die Frauen stärker von Arbeitslosigkeit betroffen als die Männer.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
@@ -30931,7 +30923,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Arbeitslosenquote der Ausländer",
+		"description": "Arbeitslosenquote der ausländischen Staatsangehörigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06683",
@@ -30957,7 +30949,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "6408",
 		"children": [],
-		"title": "Arbeitslosenquote der Schweizer",
+		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
@@ -30970,7 +30962,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Arbeitslosenquote der Schweizer",
+		"description": "Arbeitslosenquote der Schweizer Staatsangehörigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06684",
@@ -32020,7 +32012,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-07-10T06:14:27",
+		"aktualisierungsdatum": "2021-09-28T08:27:22",
 		"id": 6711
 	},
 	{
@@ -40768,43 +40760,41 @@ var indikatoren = [
 		"id": 7068
 	},
 	{
+		"template": "line001",
+		"data-id": 7432,
+		"chart-id": 7432,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Privatschulquote",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kennzahlenset": "",
-		"kuerzel": "I.15.1.07432",
-		"kuerzelKunde": "",
-		"description": "Privatschulquote",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
+		"lesehilfe": "2019 werden 10,0% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Dies entspricht dem höchsten Wert im gesamten Beobachtungszeitraum. Bei Schweizern liegt der Anteil bei 7,1%, bei den Ausländern bei 14,3%.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-02T09:43:03.033",
+		"description": "Privatschulquote",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07432",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 werden 9,5% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 13,5%.",
-		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7432,
-		"chart-id": 7432,
-		"filter": "",
+		"aktualisierungsdatum": "2021-02-02T09:43:03",
 		"id": 7432
 	},
 	{
@@ -43791,45 +43781,43 @@ var indikatoren = [
 		"id": 7665
 	},
 	{
+		"template": "populationPyramid001",
+		"data-id": 7666,
+		"chart-id": 7666,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7904
+		],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2019",
-		"kuerzel": "I.01.1.07666",
-		"kuerzelKunde": "2.02",
-		"description": "Wohnbevölkerung nach Alter und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2020",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2020 waren im Bezirk Messe 36% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 42% der Männer und 41% der Frauen. Im Kanton Basel-Stadt gehörten 26% der Männer und 25% der Frauen dieser Altersgruppe an.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07666",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.02",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2019 waren im Bezirk Messe 36% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 42% der Männer und 41% der Frauen. Im Kanton Basel-Stadt gehörten 26% der Männer und 25% der Frauen dieser Altersgruppe an.",
-		"erlaeuterungen": "",
-		"template": "populationPyramid001",
+		"orderKey": "02_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7904"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7666,
-		"chart-id": 7666,
-		"filter": "",
+		"aktualisierungsdatum": "2020-07-01T12:19:02",
 		"id": 7666
 	},
 	{
@@ -45014,87 +45002,83 @@ var indikatoren = [
 		"id": 7694
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.15.1.07695",
-		"kuerzelKunde": "5.02",
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:17:56.5656",
-		"stufe1": "5 Bildung und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer ist im vergangenen Jahrzehnt insgesamt gestiegen. Zwischen 2014 und 2017 legten die ausländischen Gymnasiastinnen und Gymnasiasten stärker zu als die Schweizerinnen und Schweizer. 2018 und 2019 ist die Quote für alle, aber insbesondere für Schülerinnen und Schüler ohne Schweizer Pass, rückläufig. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7933"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7695,
 		"chart-id": 7695,
 		"filter": "",
-		"id": 7695
-	},
-	{
-		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.15.1.07696",
-		"kuerzelKunde": "5.01",
-		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7933
+		],
+		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer liegt 2020, nach drei aufeinanderfolgenden Jahren mit rückläufiger Quote, exakt gleich hoch wie 2010. Gegenüber 2019 ist die Quote bei den ausländischen Schülerinnen und Schülern stark gestiegen. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:05.055",
+		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07695",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.02",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder auf tiefem Niveau stagniert, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
-		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7934"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-08-31T05:17:56",
+		"id": 7695
+	},
+	{
+		"template": "line001",
 		"data-id": 7696,
 		"chart-id": 7696,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7934
+		],
+		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07696",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.01",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:27",
 		"id": 7696
 	},
 	{
@@ -55004,45 +54988,43 @@ var indikatoren = [
 		"id": 8284
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8285,
+		"chart-id": 8285,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8556"
+			8556
 		],
-		"template": "mappie001",
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"subtitle": "Kinder mit Angeboten in Gehdistanz nach Wohnviertel, Stadt Basel, 2019",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.16.3.08285",
-		"kuerzelKunde": "2-12",
-		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
+		"subtitle": "Kinder mit Angeboten in Gehdistanz, nach Wohnviertel, Stadt Basel, 2020",
+		"lesehilfe": "In den Kleinbasler Wohnvierteln Kleinhüningen, Klybeck, Matthäus, Clara und Altstadt Kleinbasel können 2020 über 90% aller Kinder und Jugendlichen ein altersspezifisches Angebot der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA) innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz, St. Alban und Breite ist dies nur für weniger als 20% gegeben.",
+		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2020), für welche die Angebote der OKJA (Stand Mai 2020) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche geöffnet haben. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Sport- und Freiwilligenarbeit",
+		"kuerzel": "I.16.3.08285",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-12",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Matthäus können 2019 alle Kinder (100%) ein altersspezifisches Angebot der OKJA innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz (12,8%) und Bachletten (16,9%) ist dies nur für einen kleinen Teil der Kinder gegeben.",
-		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2018), für welche die Angebote der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA; Stand Mai 2019) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche geöffnet haben. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
+		"orderKey": "02_02_00_00_00_212",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_212",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8285,
-		"chart-id": 8285,
-		"filter": "",
+		"aktualisierungsdatum": "2020-05-18T05:05:54",
 		"id": 8285
 	},
 	{

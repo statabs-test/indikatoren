@@ -318,23 +318,22 @@
                     }
                 }
     },
-    "renderTo": "container-6493",
-    "marginBottom": 130,
     "type": "column",
-    "inverted": false,
+    "marginBottom": 135,
+    "renderTo": "container-6493",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
+      "stacking": "normal",
       "pointPadding": 100,
-      "pointWidth": 20,
-      "stacking": "normal"
+      "pointWidth": 20
     }
   },
   "title": {
@@ -347,7 +346,7 @@
     "text": "Anerkannte Religionen nach Staatsangehörigkeit"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2009",
+    "text": "Basel-Stadt, 2010",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -372,23 +371,21 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100,
-    "rotation": 0
+    "max": 100
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
     "reversed": true,
     "itemMarginBottom": 5,
-    "labelFormatter": function(){
-      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
-    }
+    "labelFormatter": function () {
+        return this.name.replace(" ", "<br/>").replace("-", "-<br/>").replace("/unbekannt", "/<br/>unbekannt");
+      }
   },
   "navigation": {
     "menuItemStyle": {

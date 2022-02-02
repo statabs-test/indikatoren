@@ -1532,7 +1532,7 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6407",
 		"children": [],
-		"title": "Arbeitslosenquote der Ausländer",
+		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"lesehilfe": "Im Jahr 2000 war die Arbeitslosenquote der ausländischen Frauen über 35 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) hingegen waren im Jahr 2000 die Frauen stärker von Arbeitslosigkeit betroffen als die Männer.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
@@ -1545,7 +1545,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Arbeitslosenquote der Ausländer",
+		"description": "Arbeitslosenquote der ausländischen Staatsangehörigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06683",
@@ -1570,7 +1570,7 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6408",
 		"children": [],
-		"title": "Arbeitslosenquote der Schweizer",
+		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
@@ -1583,7 +1583,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Arbeitslosenquote der Schweizer",
+		"description": "Arbeitslosenquote der Schweizer Staatsangehörigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06684",
@@ -2605,7 +2605,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-07-10T06:14:27",
+		"aktualisierungsdatum": "2021-09-28T08:27:22",
 		"id": 6711
 	},
 	{
