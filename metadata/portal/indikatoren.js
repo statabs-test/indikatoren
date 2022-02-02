@@ -42096,5 +42096,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-01-31T10:06:26",
 		"id": 9490
+	},
+	{
+		"template": "template001",
+		"data-id": 9493,
+		"chart-id": 9493,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2018 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 000 Franken brutto und damit etwas höher als 2016.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.09493",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7-04",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-01-31T10:08:21",
+		"id": 9493
 	}
 ];

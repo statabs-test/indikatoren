@@ -1,135 +1,31 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "legendIndex": 2,
+      "color": "#923F8D",
+      "visible": true,
       "data": [
         [
-          "2011",
-          977.5
+          "2010",
+          5455
         ],
         [
           "2012",
-          1249.6
-        ],
-        [
-          "2013",
-          1281.6
+          5811
         ],
         [
           "2014",
-          1282.6
-        ],
-        [
-          "2015",
-          996.8
+          6024
         ],
         [
           "2016",
-          1009.9
-        ],
-        [
-          "2017",
-          1112.2
+          5704
         ],
         [
           "2018",
-          1144.3
-        ],
-        [
-          "2019",
-          1218.3
+          6024
         ]
       ],
-      "name": "Programmierungstätigkeiten",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "legendIndex": 1,
-      "data": [
-        [
-          "2011",
-          1106.5
-        ],
-        [
-          "2012",
-          1236.1
-        ],
-        [
-          "2013",
-          1264.2
-        ],
-        [
-          "2014",
-          1176.8
-        ],
-        [
-          "2015",
-          1076.9
-        ],
-        [
-          "2016",
-          1048.9
-        ],
-        [
-          "2017",
-          1051.3
-        ],
-        [
-          "2018",
-          1041.9
-        ],
-        [
-          "2019",
-          1114
-        ]
-      ],
-      "name": "IT-Beratung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D3E2E4",
-      "legendIndex": 0,
-      "data": [
-        [
-          "2011",
-          116.4
-        ],
-        [
-          "2012",
-          129.9
-        ],
-        [
-          "2013",
-          154.3
-        ],
-        [
-          "2014",
-          153.4
-        ],
-        [
-          "2015",
-          162
-        ],
-        [
-          "2016",
-          156.3
-        ],
-        [
-          "2017",
-          177.6
-        ],
-        [
-          "2018",
-          182.9
-        ],
-        [
-          "2019",
-          196.2
-        ]
-      ],
-      "name": "Sonstige",
+      "name": "Monatlicher Bruttolohn",
       "turboThreshold": 0
     }
   ],
@@ -185,21 +81,20 @@
                 }
     },
     "type": "column",
-    "marginRight": 160,
-    "renderTo": "container-7452",
+    "inverted": false,
+    "renderTo": "container-9493",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0.1,
-      "groupPadding": 0.1,
-      "stacking": "normal"
+      "pointPadding": 0,
+      "pointWidth": 40
     }
   },
   "title": {
@@ -209,10 +104,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Beschäftigung in der Branche IT-Dienstleistungen"
+    "text": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen"
   },
   "subtitle": {
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -236,24 +131,17 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickAmount": 7,
-    "reversedStacks": false
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null
+      "fontWeight": "normal"
     },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
-    "itemWidth": 130,
-    "labelFormatter": function () {
-      return this.name.replace("Programmierungstätigkeiten", "Programmierungs-<br/>tätigkeiten");
-    }
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -274,15 +162,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-31"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true,
-    "valueDecimals": 0
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "7452"
+    "filename": "9493"
   }
 }
