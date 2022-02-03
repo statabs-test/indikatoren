@@ -6,7 +6,7 @@
       },
     },
     "xAxis": {
-      //"type": "category",
+      "type": "category",
     },
     "legend": {
       "enabled": true,
