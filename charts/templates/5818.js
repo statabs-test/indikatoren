@@ -103,7 +103,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 500; 
-	                var maxValueInLegend = 20000; 
+	                var maxValueInLegend = 150000; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2020 in m²", 265, 220);
