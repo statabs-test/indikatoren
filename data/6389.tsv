@@ -1,22 +1,23 @@
 ﻿"Wohnviertel_ID"	"Wohnviertel_Name"	"Gebäude pro Hektar"	"Anzahl Gebäude"
-1	Altstadt Grossbasel	13.44055058	507
-2	Vorstädte	6.065371868	547
-3	Am Ring	12.99867892	1188
-4	Breite	9.691324184	665
-5	St. Alban	4.01455181	1196
-6	Gundeldingen	12.32709289	1436
-7	Bruderholz	8.095614418	2097
-8	Bachletten	16.39389962	2507
-9	Gotthelf	20.01059926	975
-10	Iselin	13.28591182	1451
-11	St. Johann	6.764608402	1524
-12	Altstadt Kleinbasel	11.5371232	286
-13	Clara	10.84553474	251
-14	Wettstein	9.379341708	709
-15	Hirzbrunnen	5.143215383	1593
-16	Rosental	4.923853474	312
-17	Matthäus	19.27851598	1148
-18	Klybeck	4.705406046	433
-19	Kleinhüningen	1.258271786	170
-20	Riehen	3.866391744	4199
-30	Bettingen	1.432408005	319
+1	Altstadt Grossbasel	13.44	507
+2	Vorstädte	6.07	547
+3	Am Ring	13.00	1188
+4	Breite	9.69	665
+5	St. Alban	4.01	1196
+6	Gundeldingen	12.33	1436
+7	Bruderholz	8.10	2097
+8	Bachletten	16.39	2507
+9	Gotthelf	20.01	975
+10	Iselin	13.29	1451
+11	St. Johann	6.76	1524
+12	Altstadt Kleinbasel	11.54	286
+13	Clara	10.85	251
+14	Wettstein	9.38	709
+15	Hirzbrunnen	5.14	1593
+16	Rosental	4.92	312
+17	Matthäus	19.28	1148
+18	Klybeck	4.71	433
+19	Kleinhüningen	1.26	170
+20	Riehen	3.87	4199
+30	Bettingen	1.43	319
+
