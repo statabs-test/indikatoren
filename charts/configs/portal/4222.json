@@ -257,7 +257,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -284,10 +288,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -407,8 +411,7 @@
         107.4,
         112.5
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -457,8 +460,7 @@
         144.7,
         137.4
       ],
-      "visible": true,
-      "_symbolIndex": 1
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -507,8 +509,7 @@
         96.8,
         97
       ],
-      "visible": true,
-      "_symbolIndex": 2
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -557,8 +558,7 @@
         100.3,
         104.1
       ],
-      "visible": true,
-      "_symbolIndex": 3
+      "visible": true
     }
   ]
 }

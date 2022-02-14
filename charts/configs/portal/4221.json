@@ -201,8 +201,8 @@
           "color": "#000000"
         },
         "formatter": function () {
-						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}%' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
-						  return this.axis.defaultLabelFormatter.call(this) + '%';
+						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
       "index": 0
@@ -225,7 +225,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -252,10 +256,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,

@@ -170,10 +170,12 @@
       2015,
       2016,
       2017,
-      2018
+      2018,
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 10,
+    "ceiling": 12,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -231,7 +233,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -258,10 +264,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -278,7 +284,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Landwirtschaftliches Zentrum Ebenrain",
+    "text": "Quelle: Amt für Wald beider Basel",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -355,7 +361,9 @@
         15,
         6,
         20,
-        23
+        23,
+        15,
+        20
       ],
       "visible": true
     },
@@ -390,10 +398,11 @@
         25,
         25,
         25,
+        25,
+        25,
         25
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
     }
   ]
 }

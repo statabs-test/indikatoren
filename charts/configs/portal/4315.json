@@ -172,10 +172,11 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 11,
+    "ceiling": 12,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -233,7 +234,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -260,10 +265,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -358,6 +363,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "visible": true
@@ -384,6 +390,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "visible": true
@@ -399,6 +406,7 @@
       "id": "BS0704_3",
       "valueSuffix": "Tausend CHF",
       "data": [
+        0,
         0,
         0,
         0,
@@ -436,6 +444,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "visible": true
@@ -462,7 +471,8 @@
         78.13,
         48,
         15.52,
-        129.33
+        129.33,
+        226.33
       ],
       "visible": true
     },
@@ -488,7 +498,8 @@
         796.25,
         3431,
         2952.68,
-        1419.47
+        1419.47,
+        3052.8
       ],
       "visible": true
     },
@@ -514,7 +525,8 @@
         0,
         0,
         527.41,
-        745
+        745,
+        550
       ],
       "visible": true
     }

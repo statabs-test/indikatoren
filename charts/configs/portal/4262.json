@@ -1,7 +1,7 @@
 {
   "chart": {
     "renderTo": "container_0403",
-    "type": "line",
+    "type": "column",
     "width": "485",
     "height": "415",
     "spacingBottom": 50,
@@ -167,10 +167,11 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 7,
+    "ceiling": 8,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -228,7 +229,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -255,10 +260,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -320,7 +325,7 @@
   "navigator": {
     "enabled": false,
     "series": {
-      "type": "line",
+      "type": "column",
       "stacking": false
     },
     "xAxis": {
@@ -333,24 +338,25 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "type": "line",
+      "stacking": null,
+      "type": "column",
       "showInNavigator": true,
       "name": "Hafen Kleinhünigen und Bahnhof St. Johann",
       "color": "#FF8028",
-      "id": "BS0403_2",
+      "id": "BS0403_1",
       "valueSuffix": "Anzahl Pflanzen",
       "data": [
         34,
-        128,
-        44,
-        8,
+        194,
+        36,
+        9,
         25,
-        59,
-        29,
-        24
+        68,
+        30,
+        40,
+        57
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -370,7 +376,7 @@
       "showInNavigator": true,
       "name": "Zielwert",
       "color": "#444444",
-      "id": "0403_3",
+      "id": "0403_2",
       "valueSuffix": "Anzahl Pflanzen",
       "data": [
         0,
@@ -380,10 +386,10 @@
         0,
         0,
         0,
-        null
+        0,
+        0
       ],
-      "visible": true,
-      "_symbolIndex": 1
+      "visible": true
     }
   ]
 }

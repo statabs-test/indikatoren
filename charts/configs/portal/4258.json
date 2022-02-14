@@ -163,10 +163,11 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 3,
+    "ceiling": 4,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -224,7 +225,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -251,10 +256,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -341,7 +346,8 @@
         165,
         188,
         190,
-        187
+        187,
+        186
       ],
       "visible": true
     },
@@ -359,7 +365,8 @@
         153,
         153,
         152,
-        152
+        152,
+        154
       ],
       "visible": true
     },
@@ -377,6 +384,7 @@
         36,
         13,
         9,
+        5,
         5
       ],
       "visible": true
@@ -395,6 +403,7 @@
         12,
         12,
         12,
+        11,
         11
       ],
       "visible": true
@@ -413,7 +422,8 @@
         5,
         4,
         4,
-        4
+        4,
+        3
       ],
       "visible": true
     }
