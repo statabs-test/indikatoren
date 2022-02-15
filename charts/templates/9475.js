@@ -31,7 +31,7 @@
 
       series: [
         {
-          color: "#9E7C59",
+          color: "#000000",
           showInNavigator: true,
           marker: {
             symbol: "circle",
@@ -39,7 +39,7 @@
           },
         },
         {
-          color: "#689199",
+          color: "#2b0099",
           visible: true,
           showInNavigator: true,
           marker: {
@@ -48,7 +48,7 @@
           },
         },
         {
-          color: "#DC440E",
+          color: "#ff8028",
           visible: true,
           showInNavigator: true,
           marker: {
@@ -57,36 +57,42 @@
           },
         },
         {
-          color: "#923F8D",
+          color: "#2B0099",
           visible: false,
           showInNavigator: true,
+          dashStyle: "Dash",
+          lineWidth: 1,
           marker: {
             symbol: "circle",
             enabled: false,
           },
         },
         {
-          color: "#CD9C00",
+          color: "#2B0099",
           visible: false,
           showInNavigator: true,
+          lineWidth: 1,
           marker: {
             symbol: "circle",
             enabled: false,
           },
         },
         {
-          color: "#B6CFD7",
+          color: "#ff8028",
           visible: false,
           showInNavigator: true,
+          dashStyle: "Dash",
+          lineWidth: 1,
           marker: {
             symbol: "circle",
             enabled: false,
           },
         },
         {
-          color: "#68AB2B",
+          color: "#ff8028",
           visible: false,
           showInNavigator: true,
+          lineWidth: 1,
           marker: {
             symbol: "circle",
             enabled: false,
