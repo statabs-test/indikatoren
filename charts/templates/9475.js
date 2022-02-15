@@ -155,6 +155,9 @@
         inputDateFormat: "%Y",
         inputEditDateFormat: "%Y",
       },
+      chart: {
+        marginRight: 15,
+      },
     };
   }());
   
