@@ -2106,7 +2106,12 @@ id | visible | visibleInPortal | indikatorenset
 9461 | true | false | Legislaturplan (Print)
 9490 | true | true | Arbeitsmarkt
 9491 | true | true | Arbeitsmarkt
+9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
+9508 | true | false | Arbeitsmarkt (Print)
+9509 | true | false | Arbeitsmarkt (Print)
+9510 | true | false | Arbeitsmarkt (Print)
+9511 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

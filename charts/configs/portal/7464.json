@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2010",
-          5738
-        ],
-        [
           "2012",
           5496
         ],
@@ -19,6 +15,10 @@
         [
           "2016",
           5899
+        ],
+        [
+          "2018",
+          5868
         ]
       ],
       "name": "Monatlicher Bruttolohn",
@@ -167,6 +167,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7464
+    "filename": "7464"
   }
 }
