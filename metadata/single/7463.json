@@ -19,7 +19,7 @@
 "template":"template001",
 "darstellungsart":"",
 "printformat":"", 
-"visible":true,
+"visible":false,
 "visibleInPortal":false,
 "orderKey":"03_08_00_00_00_803",
 "parentId":null,
