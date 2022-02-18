@@ -51,7 +51,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '  </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '  </b>%<br/>';
 					}
 				}
 			}, 
@@ -141,8 +141,8 @@
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                	                
 	                
-					fn.addLegendLabelbold(chart, 'Anzahl Beschäftigte', 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Beschäftigte pro 100 Einwohner', 265, 300);
+					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche Arbeiten', 265, 220, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, 'Anteil Arbeiten an der Gesamtbruttogeschossfläche', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
