@@ -6,7 +6,10 @@
 (function(){
 
     return {
-    	"legend": {
+		subtitle: {
+			useHTML: true
+		  },
+		"legend": {
 			"x": 0,
 			"y": 15, 
 			"title": {
@@ -96,7 +99,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b> m2<br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b> m²<br/>';
 	                            }
 	                        }
 	                    };
@@ -111,7 +114,7 @@
 	                
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
+                	fn.addLegendRectangle(chart, 250, 300, 230, 85, '#fbfbfb');
 
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
@@ -141,8 +144,8 @@
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                	                
 	                
-					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche Wohnen', 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Anteil Wohnen an der Gesamtbruttogeschossfläche', 265, 300);
+					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche Wohnen in m²', 265, 220, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, 'Anteil Wohnen an der<br>Gesamtbruttogeschossfläche in %', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
