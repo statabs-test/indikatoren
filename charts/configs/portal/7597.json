@@ -1,31 +1,95 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#83522E",
       "visible": true,
       "data": [
         [
-          "Basel",
-          5438
+          "Altstadt GB",
+          112
         ],
         [
-          "Bern",
-          7980
+          "Vorstädte",
+          79
         ],
         [
-          "Genf",
-          3351
+          "Am Ring",
+          240
         ],
         [
-          "Liestal",
-          5972
+          "Breite",
+          149
         ],
         [
-          "Zürich",
-          3815
+          "St. Alban",
+          740
+        ],
+        [
+          "Gundeldingen",
+          592
+        ],
+        [
+          "Bruderholz",
+          116
+        ],
+        [
+          "Bachletten",
+          99
+        ],
+        [
+          "Gotthelf",
+          60
+        ],
+        [
+          "Iselin",
+          238
+        ],
+        [
+          "St. Johann",
+          330
+        ],
+        [
+          "Altstadt KB",
+          36
+        ],
+        [
+          "Clara",
+          290
+        ],
+        [
+          "Wettstein",
+          178
+        ],
+        [
+          "Hirzbrunnen",
+          348
+        ],
+        [
+          "Rosental",
+          1242
+        ],
+        [
+          "Matthäus",
+          86
+        ],
+        [
+          "Klybeck",
+          75
+        ],
+        [
+          "Kleinhüningen",
+          36
+        ],
+        [
+          "Riehen",
+          545
+        ],
+        [
+          "Bettingen",
+          34
         ]
       ],
-      "name": "2020",
+      "name": "Nettoproduktion 2012 bis 2021",
       "turboThreshold": 0
     }
   ],
@@ -44,7 +108,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -90
     }
   },
   "chart": {
@@ -82,19 +146,17 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6134",
-    "spacingBottom": 40
+    "spacingBottom": 50,
+    "renderTo": "container-7597"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 0,
-      "pointWidth": 40
+      }
     }
   },
   "title": {
@@ -104,10 +166,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten"
+    "text": "Nettowohnungsproduktion"
   },
   "subtitle": {
-    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2012-2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -141,7 +203,8 @@
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "x": 35
   },
   "navigation": {
     "menuItemStyle": {
@@ -162,13 +225,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "6134"
+    "filename": "7597"
   }
 }

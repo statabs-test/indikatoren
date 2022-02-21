@@ -43467,7 +43467,7 @@ var indikatoren = [
 		"id": 7590
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 7595,
 		"chart-id": 4135,
 		"filter": "",
@@ -43505,9 +43505,9 @@ var indikatoren = [
 		"id": 7595
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 7596,
-		"chart-id": 7596,
+		"chart-id": 4136,
 		"filter": "",
 		"parentId": "4136",
 		"children": [],
@@ -43539,13 +43539,13 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-01-29T09:16:03",
+		"aktualisierungsdatum": "2022-02-10T09:17:30",
 		"id": 7596
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 7597,
-		"chart-id": 7597,
+		"chart-id": 5817,
 		"filter": "",
 		"parentId": "5817",
 		"children": [],
@@ -43581,9 +43581,9 @@ var indikatoren = [
 		"id": 7597
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 7598,
-		"chart-id": 7598,
+		"chart-id": 4137,
 		"filter": "",
 		"parentId": "4137",
 		"children": [],
@@ -43615,7 +43615,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-01-29T09:16:04",
+		"aktualisierungsdatum": "2022-02-03T08:59:02",
 		"id": 7598
 	},
 	{

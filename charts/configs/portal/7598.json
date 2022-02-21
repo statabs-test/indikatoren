@@ -1,11 +1,9 @@
 {
   "series": [
     {
-      "color": "#b475ab",
+      "color": "#007a2f",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 0,
       "data": [
         [
           2005,
@@ -74,248 +72,176 @@
         [
           2021,
           851
+        ],
+        [
+          2022,
+          null
         ]
       ],
       "name": "Neubau"
     },
     {
-      "color": "#a8c4cb",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 1,
-      "data": [
-        [
-          2005,
-          -14
-        ],
-        [
-          2006,
-          -134
-        ],
-        [
-          2007,
-          -107
-        ],
-        [
-          2008,
-          -125
-        ],
-        [
-          2009,
-          -150
-        ],
-        [
-          2010,
-          -146
-        ],
-        [
-          2011,
-          -58
-        ],
-        [
-          2012,
-          -26
-        ],
-        [
-          2013,
-          -41
-        ],
-        [
-          2014,
-          -53
-        ],
-        [
-          2015,
-          -178
-        ],
-        [
-          2016,
-          -75
-        ],
-        [
-          2017,
-          -59
-        ],
-        [
-          2018,
-          -114
-        ],
-        [
-          2019,
-          -186
-        ],
-        [
-          2020,
-          -154
-        ],
-        [
-          2021,
-          -96
-        ]
-      ],
-      "name": "Abbruch"
-    },
-    {
-      "color": "#fabd24",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 2,
-      "data": [
-        [
-          2005,
-          -72
-        ],
-        [
-          2006,
-          -56
-        ],
-        [
-          2007,
-          -74
-        ],
-        [
-          2008,
-          -28
-        ],
-        [
-          2009,
-          -18
-        ],
-        [
-          2010,
-          -18
-        ],
-        [
-          2011,
-          18
-        ],
-        [
-          2012,
-          28
-        ],
-        [
-          2013,
-          35
-        ],
-        [
-          2014,
-          180
-        ],
-        [
-          2015,
-          25
-        ],
-        [
-          2016,
-          106
-        ],
-        [
-          2017,
-          54
-        ],
-        [
-          2018,
-          67
-        ],
-        [
-          2019,
-          158
-        ],
-        [
-          2020,
-          219
-        ],
-        [
-          2021,
-          222
-        ]
-      ],
-      "name": "Umbausaldo"
-    },
-    {
-      "color": "#000000",
+      "color": "rgba(0, 122, 47, 0.38)",
       "index": 1,
-      "type": "line",
+      "type": "column",
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          650
+        ]
+      ],
+      "name": "Neubauprognose"
+    },
+    {
+      "color": "#b00000",
       "marker": {
         "enabled": false
       },
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "index": 2,
+      "type": "line",
       "data": [
         [
           2005,
-          215
+          null
         ],
         [
           2006,
-          163
+          null
         ],
         [
           2007,
-          -61
+          null
         ],
         [
           2008,
-          48
+          null
         ],
         [
           2009,
-          300
+          null
         ],
         [
           2010,
-          208
+          null
         ],
         [
           2011,
-          311
+          null
         ],
         [
           2012,
-          270
+          null
         ],
         [
           2013,
-          171
+          null
         ],
         [
           2014,
-          496
+          298
         ],
         [
           2015,
-          635
+          347
         ],
         [
           2016,
-          443
+          353
         ],
         [
           2017,
-          364
+          378
         ],
         [
           2018,
-          760
+          438
         ],
         [
           2019,
-          837
+          478
         ],
         [
           2020,
-          672
+          501
         ],
         [
           2021,
-          977
+          551
+        ],
+        [
+          2022,
+          null
         ]
       ],
-      "name": "Nettowohnungsproduktion"
+      "name": "Durchschnitt der letzten 10 Jahre"
     }
   ],
   "chart": {
@@ -351,20 +277,19 @@
                     }
                 }
     },
-    "renderTo": "container-4135",
+    "type": "column",
+    "renderTo": "container-7598",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5
+      "stacking": "normal"
     }
   },
   "title": {
@@ -374,7 +299,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettowohnungsproduktion"
+    "text": "Neuerstellte Wohnungen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -418,26 +343,16 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "plotLines": [
-      {
-        "color": "#B9CFD7",
-        "value": 0,
-        "width": 2
-      }
-    ]
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
-    "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
-    "itemMarginBottom": 5
+    "floating": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -458,12 +373,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2022"
   },
   "tooltip": {
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "4135"
+    "filename": "7598"
   }
 }
