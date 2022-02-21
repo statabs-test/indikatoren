@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#2F656B",
+      "legendIndex": 0,
       "data": [
         [
           2013,
@@ -40,11 +41,12 @@
           37.2
         ]
       ],
-      "name": "1 Zi. (neuerstellt)"
+      "name": "1 Zi. neuerstellt"
     },
     {
       "color": "#2F656B",
       "dashStyle": "ShortDot",
+      "legendIndex": 6,
       "data": [
         [
           2013,
@@ -83,10 +85,11 @@
           34.6
         ]
       ],
-      "name": "1 Zi. (alle)"
+      "name": "1 Zi. Bestand"
     },
     {
       "color": "#8B2223",
+      "legendIndex": 1,
       "data": [
         [
           2013,
@@ -125,11 +128,12 @@
           59.7
         ]
       ],
-      "name": "2 Zi. (neuerstellt)"
+      "name": "2 Zi. neuerstellt"
     },
     {
       "color": "#8B2223",
       "dashStyle": "ShortDot",
+      "legendIndex": 7,
       "data": [
         [
           2013,
@@ -168,10 +172,11 @@
           55.6
         ]
       ],
-      "name": "2 Zi. (alle)"
+      "name": "2 Zi. Bestand"
     },
     {
       "color": "#9A86A6",
+      "legendIndex": 2,
       "data": [
         [
           2013,
@@ -210,11 +215,12 @@
           85.9
         ]
       ],
-      "name": "3 Zi. (neuerstellt)"
+      "name": "3 Zi. neuerstellt"
     },
     {
       "color": "#9A86A6",
       "dashStyle": "ShortDot",
+      "legendIndex": 8,
       "data": [
         [
           2013,
@@ -253,10 +259,11 @@
           75.5
         ]
       ],
-      "name": "3 Zi. (alle)"
+      "name": "3 Zi. Bestand"
     },
     {
       "color": "#BAA85A",
+      "legendIndex": 3,
       "data": [
         [
           2013,
@@ -295,11 +302,12 @@
           109.6
         ]
       ],
-      "name": "4 Zi. (neuerstellt)"
+      "name": "4 Zi. neuerstellt"
     },
     {
       "color": "#BAA85A",
       "dashStyle": "ShortDot",
+      "legendIndex": 9,
       "data": [
         [
           2013,
@@ -338,10 +346,11 @@
           100.9
         ]
       ],
-      "name": "4 Zi. (alle)"
+      "name": "4 Zi. Bestand"
     },
     {
       "color": "#71A3B5",
+      "legendIndex": 4,
       "data": [
         [
           2013,
@@ -380,11 +389,12 @@
           138.8
         ]
       ],
-      "name": "5 Zi. (neuerstellt)"
+      "name": "5 Zi. neuerstellt"
     },
     {
       "color": "#71A3B5",
       "dashStyle": "ShortDot",
+      "legendIndex": 10,
       "data": [
         [
           2013,
@@ -423,10 +433,11 @@
           130.5
         ]
       ],
-      "name": "5 Zi. (alle)"
+      "name": "5 Zi. Bestand"
     },
     {
       "color": "#8AB77D",
+      "legendIndex": 5,
       "data": [
         [
           2013,
@@ -465,11 +476,12 @@
           175.5
         ]
       ],
-      "name": "6 Zi. u.m.(neuerstellt)"
+      "name": "6 Zi. u.m. neuerstellt"
     },
     {
       "color": "#8AB77D",
       "dashStyle": "ShortDot",
+      "legendIndex": 11,
       "data": [
         [
           2013,
@@ -508,7 +520,7 @@
           177.6
         ]
       ],
-      "name": "6 Zi. u.m.(alle)"
+      "name": "6 Zi. u.m. Bestand"
     }
   ],
   "chart": {
@@ -530,12 +542,12 @@
           this.legend.title
             .attr({
               text:
-                this.series[0].name.split(" ").slice(0).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                this.series[0].name.split(" ").slice(2).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
                 + ':<br>'
-                + this.series[1].name.split(" ").slice(0).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                + this.series[1].name.split(" ").slice(2).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
                 /*+ ' (rechte Skala):'*/
             })
-            .translate(-140, 8); //move -140 to the left and 8 down
+            .translate(-70, 8); //move -140 to the left and 8 down
         }
     },
     "renderTo": "container-7599"
@@ -559,7 +571,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mittlere Fläche der gebauten Wohnungen"
+    "text": "Mittlere Fläche neuerstellter Wohnungen"
   },
   "subtitle": {
     "text": "in Quadratmeter nach Zimmerzahl, Basel-Stadt",
@@ -611,7 +623,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -625,7 +637,7 @@
       }
     },
     "labelFormatter": function () {
-        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. '2015' aus '2015 Wöchentlich'
+        return this.name.split(" ").slice(0,1).toString() + " " + this.name.split(" ").slice(1,2).toString();  //holt z.B. '2015' aus '2015 Wöchentlich'
       }
   },
   "credits": {

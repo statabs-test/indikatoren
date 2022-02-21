@@ -27800,7 +27800,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Mittlere Fläche der gebauten Wohnungen",
+		"title": "Mittlere Fläche neuerstellter Wohnungen",
 		"subtitle": "in Quadratmeter nach Zimmerzahl, Basel-Stadt",
 		"lesehilfe": "Die durchschnittlichen Wohnungsflächen der Neubauwohnungen sind 2021 in allen Zimmerzahlkategorien ausser bei den Wohnungen mit 6 und mehr Zimmern grösser als die Werte im Gesamtbestand.",
 		"erlaeuterungen": "Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).",
@@ -27812,7 +27812,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Mittlere Fläche der gebauten Wohnungen",
+		"description": "Mittlere Fläche neuerstellter Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kuerzel": "I.09.1.07599",
@@ -27838,7 +27838,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zimmerzahl der gebauten Wohnungen",
+		"title": "Neuerstellte Wohnungen nach Zimmerzahl",
 		"subtitle": "in Prozent, Basel-Stadt",
 		"lesehilfe": "In den letzten zehn Jahren waren Zwei- oder Dreizimmerwohnungen die häufigsten Kategorien der Neubauwohnungen. Durchschnittlich betrug ihr Anteil rund zwei Drittel aller neuerstellten Wohnungen.",
 		"erlaeuterungen": "Es werden die neuerstellten Wohnungen in Neubauten gezählt.",
@@ -27850,7 +27850,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zimmerzahl der gebauten Wohnungen",
+		"description": "Neuerstellte Wohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kuerzel": "I.09.1.07601",
@@ -42257,9 +42257,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Neuerstellte Genossenschaftswohnungen",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Anteil an allen neuerstellten Wohnungen, Basel-Stadt",
 		"lesehilfe": "Der Anteil der Genossenschaftswohnungen betrug von 2013 bis 2021 durchschnittlich knapp 11%. Bei den in diesem Zeitraum neuerstellten Logis lag er mit 13% leicht höher. 2017 und 2021 waren überdurchschnittlich ergiebige Jahre für den genossenschaftlichen Wohnungsbau. Dageben waren die Anteile 2013 bis 2016 gering.",
-		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"erlaeuterungen": "Es werden beim Bestand nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
 		],

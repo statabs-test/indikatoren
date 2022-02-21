@@ -1177,6 +1177,10 @@ id | visible | visibleInPortal | indikatorenset
 7588 | true | true | Leerstand
 7589 | true | true | Leerstand
 7590 | true | true | Leerstand
+7595 | true | false | Wohnbaustatistik
+7596 | true | false | Wohnbaustatistik
+7597 | true | false | Wohnbaustatistik
+7598 | true | false | Wohnbaustatistik
 7599 | true | true | Wohnbaustatistik
 7601 | true | true | Wohnbaustatistik
 7603 | true | true | Soziales

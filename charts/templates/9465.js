@@ -16,7 +16,8 @@
     },
     series: [
       { color: "#2F656B" },
-      { color: "#8B2223" }
+      { color: "#8B2223",
+        type: "line" }
       
     ],
     legend: {

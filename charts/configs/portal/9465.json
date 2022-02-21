@@ -44,6 +44,7 @@
     },
     {
       "color": "#8B2223",
+      "type": "line",
       "data": [
         [
           2013,
@@ -79,17 +80,17 @@
         ],
         [
           2021,
-          null
+          10.9
         ]
       ],
-      "name": "alle"
+      "name": "Bestand"
     }
   ],
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 50,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -114,6 +115,7 @@
 					}
 				}
     },
+    "inverted": false,
     "renderTo": "container-9465"
   },
   "plotOptions": {
@@ -122,10 +124,8 @@
         "enabled": false
       }
     },
-    "line": {
-      "marker": {
-        "symbol": null
-      }
+    "column": {
+      "minPointLength": 2
     }
   },
   "title": {
@@ -138,7 +138,7 @@
     "text": "Neuerstellte Genossenschaftswohnungen"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Anteil an allen neuerstellten Wohnungen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
