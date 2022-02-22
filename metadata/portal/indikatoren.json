@@ -494,7 +494,7 @@
 		],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,1% im Januar auf 4,8% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,7%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 nur rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,1% im Januar auf 4,8% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,7%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 immer rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -534,7 +534,7 @@
 		],
 		"title": "Arbeitslose nach Ländergruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt waren Ende 2021 insgesamt rund 3 450 Arbeitslose bei den RAV angemeldet, rund 1 000 Personen weniger als Ende 2020. Rückläufig waren die Arbeitslosenzahlen aller Ländergruppen. Ende 2021 waren 1 422 Arbeitslose Schweizer Staatsangehörige (41% des Totals), 1 055 Angehörige der EU15/EFTA-Länder (inkl. UK), 796 Personen aus Drittstaaten und 172 Personen aus Ländern, die seit 2004 der EU beigetreten sind (5%).",
+		"lesehilfe": "In Basel-Stadt waren Ende 2021 insgesamt rund 3 450 Arbeitslose bei den RAV angemeldet, rund 1 000 Personen weniger als Ende 2020. Die Arbeitslosenzahlen aller Ländergruppen waren rückläufig. Ende 2021 waren 1 422 Arbeitslose Schweizer Staatsangehörige (41% des Totals), 1 055 Angehörige der EU15/EFTA-Länder (inkl. UK), 796 Personen aus Drittstaaten und 172 Personen aus Ländern, die seit 2004 der EU beigetreten sind (5%).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -614,7 +614,7 @@
 		],
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahresverlauf 2021 ist die Arbeitslosigkeit im Gastgewerbe am stärksten gesunken, nachdem sie im Jahr zuvor am stärksten gestiegen war. Mit den Lockerungen der Massnahmen gegen COVID-19 im März 2021 ist die Zahl der Arbeitslosen im Gastgewerbe von einem Höchstwert von 533 auf 250 Ende Dezember 2021 gesunken. Auch in den Branchen Handel und Reparatur sowie Verkehr und Lagerei war sie im Jahresverlauf 2021 rückläufig.",
+		"lesehilfe": "Im Jahresverlauf 2021 ist die Arbeitslosigkeit im Gastgewerbe am stärksten gesunken, nachdem sie im Jahr zuvor am stärksten gestiegen war. Mit den Lockerungen der Massnahmen gegen COVID-19 im März 2021 ist die Zahl der Arbeitslosen im Gastgewerbe von einem Höchstwert von 533 auf 250 Ende Dezember 2021 gesunken. Auch in den Branchen Handel und Reparatur sowie Verkehr und Lagerei war sie im Jahresverlauf 2021 deutlich rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -18745,7 +18745,7 @@
 		],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote blieb 2021 bei 3,8% gegenüber 2020 unverändert. 2019, vor der Pandemie, lag sie bei 3,0%. Höher als im Jahr 2020 und deutlich höher als 2019 ist die Quote in den Branchen Baugewerbe (12,8%), Gastgewerbe (9,6%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,8%). Auch in den Branchen Handel, Reparaturen sowie Verkehr, Lagerei ist die mittlere Arbeitslosenquote weiter gestiegen.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote blieb 2021 mit 3,8% im Vergleich zum Vorjahr unverändert. 2019, vor der Pandemie, lag sie bei 3,0%. Höher als im Jahr 2020 und deutlich höher als 2019 ist die Quote in den Branchen Baugewerbe (12,8%), Gastgewerbe (9,6%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,8%). Auch in den Branchen Handel, Reparaturen sowie Verkehr, Lagerei ist die mittlere Arbeitslosenquote weiter gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Sturkturerhebung, Pooling 2015-2017).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -18827,7 +18827,7 @@
 		],
 		"title": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, insgesamt von 3,2% im Jahr 2020 auf 2,8% im Jahr 2021 weiter zurückgegangen. Die Zuwanderung war 2021 vor allem in der Branchen Chemie und Pharma sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen erneut rückläufig. Zugenommen hat die Zuwanderung im Verhältnis zur bestehenden Beschäftigung im Baugewerbe, und geringfügig auch im Gastgewerbe und im Bereich Kultur und Unterhaltung.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, insgesamt von 3,2% im Jahr 2020 auf 2,8% im Jahr 2021 zurückgegangen. Die Zuwanderung war 2021 vor allem in der Branche Chemie und Pharma sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen erneut rückläufig. Zugenommen hat die Zuwanderung im Verhältnis zur bestehenden Beschäftigung im Baugewerbe, und geringfügig auch im Gastgewerbe sowie im Bereich Kultur und Unterhaltung.",
 		"erlaeuterungen": "In Basel-Stadt Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung) im Verhältnis zu den Beschäftigten (besetzte Stellen) im Kanton Basel-Stadt (Beschäftigungsstand: 2019). Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -18867,7 +18867,7 @@
 		],
 		"title": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2021 wie im Vorjahr 0,8%. Bedeutend sind die Meldepflichtigen 2021 weiterhin in der Personalvermittlung und -überlassung, mit 5,9% im Vergleich zur Beschäftigung in dieser Branche. Die Meldepflichtigen im Baugewerbe entsprechen 2021 immer noch weniger als 3% der Beschäftigten, während dieses Verhältnis 2019 noch 5,5% betrug.",
+		"lesehilfe": "Die Zahl der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2021 wie im Vorjahr 0,8%. Bedeutend sind die Meldepflichtigen 2021 weiterhin in der Personalvermittlung und -überlassung, mit 5,9% der Beschäftigung in dieser Branche. Wie auch schon 2020 liegt die Zahl der Meldepflichtigen im Baugewerbe bei weniger als 3% der Beschäftigten, während dieses Verhältnis 2019 noch 5,5% betrug.",
 		"erlaeuterungen": "Die Abbildung zeigt die Zahl der Meldepflichtigen in Vollzeitäquivalente umgerechnet im Vergleich zu den Beschäftigten, ebenfalls in Vollzeitäquivalenten (Beschäftigungsstand: 2019). Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -20196,7 +20196,7 @@
 		],
 		"title": "Arbeitslose im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenzahlen waren im Jahresverlauf 2021 sowohl im Gesundheits- und Sozialwesen also auch in der Branche Kultur und Unterhaltung sowie im Bereich Erziehung und Unterricht rückläufig. Die Arbeitslosigkeit im Gesundheits- und Sozialwesen ist trotz Rückgang erstaunlicherweise noch leicht höher als vor der COVID-19-Pandemie.",
+		"lesehilfe": "Die Arbeitslosenzahlen waren im Jahresverlauf 2021 im Gesundheits- und Sozialwesen, der Branche Kultur und Unterhaltung sowie im Bereich Erziehung und Unterricht rückläufig. Die Arbeitslosigkeit im Gesundheits- und Sozialwesen ist trotz Rückgang noch leicht höher als vor der COVID-19-Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
