@@ -12,12 +12,12 @@
   	//"min": -200,
     "labels": {
       "format": "{value:,.0f}",
-    },
+    }/*,
     plotLines: [{
       color: '#B9CFD7',
       value: 0,
       width: 2
-  }]
+  }]*/
   },
   "xAxis": {
    "tickInterval": 1,
