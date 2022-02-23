@@ -695,7 +695,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"subtitle": "Kurz- und Daueraufenthalter",
-		"lesehilfe": "Im Jahr 2020 wurde in allen betrachteten Kantonen ein Rückgang der Zuwanderung von ausländischen Arbeitskräften registriert. Insbesondere im 2. Quartal war die Zuwanderung aufgrund der COVID-19-Pandemie stark eingeschränkt. In den Kanton Basel-Stadt sind 6 203 Erwerbstätige zugewandert, 19,6% weniger als im Jahr 2019. Der Rückgang der Zuwanderung 2020 war im Kanton Zürich am stärksten (-22,1%).",
+		"lesehilfe": "Im 1. Quartal 2021 sind 1 269 Personen zugewandert, was fast einer Halbierung gegenüber dem Vorjahresquartal entspricht. Obwohl der Vorjahresvergleich ab dem 2. Quartal wieder positiv ist, fällt die Entwicklung für das Gesamtjahr 2021 negativ aus (-12,1%). Im 2. Quartal 2020 war die Zuwanderung aufgrund der Massnahmen gegen die Covid-19-Pandemie in allen Kantonen stark rückläufig gewesen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -735,7 +735,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Sowohl bei den Männern als auch bei den Frauen war 2020 eine hohe Zuwanderung von Erwerbstätigen im 1. Quartal und ein markanter Rückgang im 2. Quartal zu beobachten. Im gesamten Jahr 2020 sind 3 876 Männer und 2 327 Frauen in den Kanton Basel-Stadt zugewandert. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen liegt 2020 wie im Vorjahr bei 38%.",
+		"lesehilfe": "Sowohl bei den Männern als auch bei den Frauen war die Zuwanderung von Erwerbstätigen im Jahr 2021 niedriger als im Vorjahr, was auf tiefe Werte im 1. Quartal zurückzuführen ist. Im Jahr 2020, dem ersten Jahr der Pandemie, war bei beiden Geschlechtern eine sehr hohe Zuwanderung im 1. Quartal und ein markanter Rückgang im 2. Quartal zu beobachten. Der Frauenanteil an der Zuwanderung von Erwerbstätigen liegt bei rund 37%.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -775,7 +775,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Aufgrund der COVID-19-Pandemie und der dagegen ergriffenen Massnahmen ist 2020 die Zuwanderung von Kurzaufenhaltern bis 4 Monate (-34%) und von Dienstleistungserbringern bis 4 Monate (-35%) am stärksten zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) verringerte sich 2020 um 11% gegenüber dem Vorjahr.",
+		"lesehilfe": "Aufgrund der Massnahmen gegen die COVID-19-Pandemie ist die Zuwanderung von Kurzaufenhaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate sowohl 2020 als auch 2021 stark zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lagen im 2. Quartal 2020 und im 1. Quartal 2021 deutlich unter dem Vorjahresniveau.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -815,7 +815,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen aus Drittstaaten ist seit vier Jahren jeweils im 1. Quartal sehr hoch; im 1. Quartal 2020 hat sie mit 970 Personen einen neuen Rekord erreicht. Im 2. bis 4. Quartal lag die Einwanderung dann tiefer als im Vorjahr. Im Gesamtjahr 2020 ging die Einwanderung aus den Drittstaaten sowie auch aus den EU15/EFTA-Ländern (inkl. UK) um 18% zurück (Enwanderung aus EU-Ländern, die seit 2004 der EU beigetreten sind: -29%).",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen aus Drittstaaten war vier Jahre lang jeweils im 1. Quartal sehr hoch; im 1. Quartal 2020 hat sie mit 970 Personen einen neuen Höchstwert erreicht. Seit dem Einbruch im 2. Quartal 2020 liegt die Zuwanderung aus Drittstaaten auf einem deutlich tieferen Niveau. Die Zuwanderung aus den EU15/EFTA-Ländern (inkl. UK) schwankt seit Beginn der Pandemie stark und ist im Gesamtjahr 2021 niedriger als im Vorjahr.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -855,7 +855,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück, nahm aber im 3. und 4. Quartal wieder zu. Sie liegt im Gesamtjahr 2020 bei 1 121 Personen (22% weniger als 2019). In der übrigen Industrie liegt die Zuwanderung im Jahr 2020 bei 260 Personen (-33%). Im Baugewerbe hat sie 2020 um 10% auf 99 Personen zugenommen.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück und nahm im 2. Halbjahr wieder zu. Die Zuwanderung in dieser Branche lag auch 2021 unter dem Niveau vor der Pandemie. Auch in der übrigen Industrie und im Baugewerbe hat die Zuwanderung im Jahr 2021 gegenüber dem Vorjahr wieder zugenommen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -895,7 +895,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt ist 2020 um 31% auf 309 Personen gesunken. Im Bereich Verkehr, Lagerei und Kommunikation zeigt die Zuwanderung 2020 einen Rückgang auf 190 Personen (-23%). Im Gastgewerbe hat sich der Rückgang der Zuwanderung fortgesetzt (-25%).",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur hat nach dem Einbruch im 2. Quartal 2020 langsam wieder zugenommen. Im 4. Quartal war sie 2021 gar höher als 2019. Auch im Bereich Verkehr und Lagerei sowie im Gastgewerbe war die Zuwanderung im 2. Halbjahr 2021 höher als im Vorjahr.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -27195,7 +27195,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Rund die Hälfte der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit 3 067 neuen Bewilligungen hat sich die Zuwanderung 2020 in diesem Bereich im Vergleich zum Vorjahr um 20% verringert, obwohl im 1. Quartal noch ein sehr hoher Wert verzeichnet wurde.",
+		"lesehilfe": "Mit COVID-19 und den Massnahmen gegen die Pandemie war die Zuwanderung im 2. Quartal 2020 im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) stark rückläufig. Auch im Jahr 2021 war sie tiefer als vor der Pandemie. Dieser Bereich macht fast die Hälfte der Zuwanderung aus.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -27235,7 +27235,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 sind 366 Personen in der Branche Gesundheits- und Sozialwesen zugewandert, was einem Anstieg um 2% gegenüber dem Vorjahr entspricht. 279 Personen sind in der Branche Erziehung und Unterricht zugewandert (-9%). Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen ging die Zuwanderung 2020 um 13% auf 260 Personen zurück.",
+		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe war im Jahr 2021 weniger als andere Branchen von den Folgen der Pandemie betroffen. Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht sind fast so viele Erwerbstätige zugewandert wie im Jahr 2020. Der Bereich Kultur, Unterhaltung und persönliche Dienstleistungen weist sogar eine Zunahme gegenüber 2020 auf.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -40669,7 +40669,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige im Detailhandel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2020 bei 1 592 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2020 liegt sie bei 20 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 3. Quartal 2021 bei 1 512 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2021 liegt sie bei 27 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2021 in Vollzeitäquivalente umgerechnet 90 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -40830,7 +40830,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr liegt im 4. Quartal 2020 bei 559 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt 38 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr liegt im 3. Quartal 2021 bei 567 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2021 beträgt 29 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2021 in Vollzeitäquivalente umgerechnet 37 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -40991,7 +40991,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2020 arbeiten in Basel-Stadt 1 312 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2020 in der Branche IT-Dienstleistungen 28 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 3. Quartal 2021 arbeiten in Basel-Stadt 1 304 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2021 in der Branche IT-Dienstleistungen 26 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -66816,7 +66816,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 63 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2020 6 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
+		"lesehilfe": "Im 3. Quartal 2021 sind in Basel-Stadt 63 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2021 14 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -66927,46 +66927,44 @@ var indikatoren = [
 		"id": 8689
 	},
 	{
+		"template": "line001",
+		"data-id": 8690,
+		"chart-id": 8690,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8703"
+			8703
 		],
-		"template": "line001",
 		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.5.08690",
-		"kuerzelKunde": "4.8-02",
-		"description": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
+		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 365 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2020 11 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-23T08:46:25.2525",
+		"description": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.08690",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.8-02",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Private Haushaltsdienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 365 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2020 11 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
-		"erlaeuterungen": "",
+		"orderKey": "03_08_00_00_00_802",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_802",
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8690,
-		"chart-id": 8690,
-		"filter": "",
+		"aktualisierungsdatum": "2021-03-23T08:46:25",
 		"id": 8690
 	},
 	{
@@ -75850,7 +75848,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) liegt im 4. Quartal 2020 bei 1098 und damit  leicht höher als 2011. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt in der Nahrungsmittelindustrie 3 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) liegt im 3. Quartal 2021 bei 1079 und damit  leicht höher als 2012. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2021 beträgt in der Nahrungsmittelindustrie 4 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2021 in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -76011,7 +76009,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 154 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
+		"lesehilfe": "Im 3. Quartal 2021 sind in Basel-Stadt 150 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2021 in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -79759,7 +79757,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche  Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 3. Quartal 2021 liegt sie bei 125 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten beträgt 342. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche  Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 3. Quartal 2021 liegt sie bei 125 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten liegt im 4. Quartal 2021 bei 90. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -79781,7 +79779,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_07_00_00_00_000",
+		"orderKey": "03_07_00_00_00_703",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,

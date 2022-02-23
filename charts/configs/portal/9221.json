@@ -152,15 +152,19 @@
         ],
         [
           "2021-01",
-          null
+          4
         ],
         [
           "2021-02",
-          null
+          3
         ],
         [
           "2021-03",
-          null
+          6
+        ],
+        [
+          "2021-04",
+          4
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -330,6 +334,10 @@
         [
           "2021-03",
           1079
+        ],
+        [
+          "2021-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger Nahrungs- u. Genussmittel, Getränke und Tabakerz.",
@@ -499,6 +507,10 @@
         [
           "2021-03",
           107
+        ],
+        [
+          "2021-04",
+          75
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
@@ -631,7 +643,6 @@
       "min": 0,
       "max": undefined,
       "tickAmount": 7,
-      "tickInterval": 3,
       "opposite": true
     }
   ],

@@ -167,7 +167,7 @@
         ],
         [
           "2021-04",
-          "."
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -446,28 +446,8 @@
           "color": "#000000"
         }
       },
-      "min": 0
-    },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
       "min": 0,
-      "max": undefined,
-      "tickInterval": 5,
-      "opposite": true
+      "tickAmount": 7
     }
   ],
   "legend": {

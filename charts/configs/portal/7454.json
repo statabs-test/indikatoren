@@ -164,6 +164,10 @@
         [
           "2021-03",
           1304
+        ],
+        [
+          "2021-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -333,6 +337,10 @@
         [
           "2021-03",
           25
+        ],
+        [
+          "2021-04",
+          26
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -444,29 +452,7 @@
         }
       },
       "min": 0,
-      "tickAmount": 8
-    },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": undefined,
-      "tickAmount": 6,
-      "tickInterval": 20,
-      "opposite": true
+      "tickAmount": 7
     }
   ],
   "legend": {

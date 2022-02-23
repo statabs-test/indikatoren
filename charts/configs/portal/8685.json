@@ -152,15 +152,19 @@
         ],
         [
           "2021-01",
-          null
+          1
         ],
         [
           "2021-02",
-          null
+          1
         ],
         [
           "2021-03",
-          null
+          1
+        ],
+        [
+          "2021-04",
+          2
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -330,6 +334,10 @@
         [
           "2021-03",
           63
+        ],
+        [
+          "2021-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -499,6 +507,10 @@
         [
           "2021-03",
           26
+        ],
+        [
+          "2021-04",
+          14
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -604,7 +616,8 @@
           "color": "#000000"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 6
     },
     {
       "gridLineColor": "#B9CFD7",
@@ -624,7 +637,7 @@
       },
       "min": 0,
       "max": undefined,
-      "tickInterval": 5,
+      "tickAmount": 6,
       "opposite": true
     }
   ],

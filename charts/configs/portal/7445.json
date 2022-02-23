@@ -152,15 +152,19 @@
         ],
         [
           "2021-01",
-          null
+          18
         ],
         [
           "2021-02",
-          null
+          12
         ],
         [
           "2021-03",
-          null
+          22
+        ],
+        [
+          "2021-04",
+          27
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -330,6 +334,10 @@
         [
           "2021-03",
           1512
+        ],
+        [
+          "2021-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -499,6 +507,10 @@
         [
           "2021-03",
           47
+        ],
+        [
+          "2021-04",
+          90
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Handel, Reparatur",
@@ -631,7 +643,6 @@
       "min": 0,
       "max": undefined,
       "tickAmount": 7,
-      "tickInterval": 20,
       "opposite": true
     }
   ],
