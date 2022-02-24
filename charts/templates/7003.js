@@ -30,14 +30,14 @@ global Highcharts
         }  
   },
  "legend": { 
-    x: 25,
+    //x: 25,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     width: 340,
    // itemWidth: 150,
-    margin: 20,
+   // margin: 20,
     itemMarginBottom: 0,
     labelFormatter: function(){
       return this.name

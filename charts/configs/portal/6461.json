@@ -112,7 +112,7 @@
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.333
+          0.334
         ],
         [
           "Personalvermittlung, -überlassung",
@@ -128,7 +128,7 @@
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.106
+          0.107
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
@@ -147,7 +147,7 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.264
+          0.265
         ],
         [
           "Chemie, Pharma",
@@ -159,19 +159,19 @@
         ],
         [
           "Handel, Reparatur",
-          0.169
+          0.17
         ],
         [
           "Verkehr, Lagerei",
-          0.096
+          0.097
         ],
         [
           "Gastgewerbe",
-          0.06
+          0.062
         ],
         [
           "Information, Kommunikation",
-          0.278
+          0.288
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -179,15 +179,15 @@
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
-          0.282
+          0.289
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.331
+          0.334
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.273
+          0.271
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -195,19 +195,19 @@
         ],
         [
           "Erziehung, Unterricht",
-          0.047
+          0.044
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.108
+          0.109
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.088
+          0.091
         ],
         [
           "Total",
-          0.18
+          0.181
         ]
       ],
       "name": "2021",

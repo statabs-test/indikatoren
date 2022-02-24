@@ -49,7 +49,6 @@
     ],
     "legend": {
       "enabled": true,
-      //"y": 15,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
