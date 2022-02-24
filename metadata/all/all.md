@@ -1083,10 +1083,10 @@ id | visible | visibleInPortal | indikatorenset
 7064 | true | false | Arbeitsmarkt (Print)
 7068 | true | true | 
 7432 | true | true | 
-7435 | true | false | Arbeitsmarkt
-7437 | true | false | Arbeitsmarkt
-7438 | true | false | Arbeitsmarkt
-7442 | true | false | Arbeitsmarkt
+7435 | false |  | Arbeitsmarkt
+7437 | false |  | Arbeitsmarkt
+7438 | false |  | Arbeitsmarkt
+7442 | false |  | Arbeitsmarkt
 7443 | true | false | Arbeitsmarkt
 7444 | true | false | Arbeitsmarkt
 7445 | true | false | Arbeitsmarkt

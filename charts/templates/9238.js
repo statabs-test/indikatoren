@@ -9,6 +9,7 @@
             }
         },
         "yAxis": [{
+            offset: -5,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             "title": {
@@ -25,12 +26,10 @@
                 }
             },
             "min": 0,
-            max: 350,
-            //tickAmount: 9,
-            tickInterval: 70,
-            tickAmount: 6
+            tickAmount: 7
         },
         {
+            offset: -5,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             "title": {
@@ -48,9 +47,7 @@
             },
             "min": 0,
             "max": undefined,
-            //tickAmount: 9,
-           tickInterval: 5,
-           tickAmount: 6,
+           tickAmount: 7,
             "opposite": true
         }
         ],
@@ -76,7 +73,8 @@
             labelFormatter: function(){
                 return this.name
                  .replace("und", "u.")
-                 .replace("Druckerzeugnissen", "Druckerzeugn.");
+                 .replace("Druckerzeugnissen", "Druckerzeugn.")
+                 .replace("von Waren", "<br>von Waren");
               },
             "itemStyle": {
                 textOverflow: "none",

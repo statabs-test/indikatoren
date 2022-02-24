@@ -775,7 +775,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Aufgrund der Massnahmen gegen die COVID-19-Pandemie ist die Zuwanderung von Kurzaufenhaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate sowohl 2020 als auch 2021 stark zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lagen im 2. Quartal 2020 und im 1. Quartal 2021 deutlich unter dem Vorjahresniveau.",
+		"lesehilfe": "Aufgrund der Massnahmen gegen die COVID-19-Pandemie ist die Zuwanderung von Kurzaufenhaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate sowohl 2020 als auch 2021 stark zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lagen vor allem im 2. Quartal 2020 und im 1. Quartal 2021 deutlich unter dem Vorjahresniveau.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -855,7 +855,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück und nahm im 2. Halbjahr wieder zu. Die Zuwanderung in dieser Branche lag auch 2021 unter dem Niveau vor der Pandemie. Auch in der übrigen Industrie und im Baugewerbe hat die Zuwanderung im Jahr 2021 gegenüber dem Vorjahr wieder zugenommen.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück und nahm im 2. Halbjahr wieder zu. Die Zuwanderung in dieser Branche lag auch 2021 unter dem Vorjahresniveau. In der übrigen Industrie und im Baugewerbe hat die Zuwanderung im Jahr 2021 gegenüber dem Vorjahr wieder zugenommen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -27235,7 +27235,7 @@ var indikatoren = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe war im Jahr 2021 weniger als andere Branchen von den Folgen der Pandemie betroffen. Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht sind fast so viele Erwerbstätige zugewandert wie im Jahr 2020. Der Bereich Kultur, Unterhaltung und persönliche Dienstleistungen weist sogar eine Zunahme gegenüber 2020 auf.",
+		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe ist weniger von den Folgen der Pandemie betroffen  als andere Branchen. Im Gesundheits- und Sozialwesen sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen sind fast so viele Erwerbstätige zugewandert wie im Jahr 2019, vor der Pandemie. Die Branche Erziehung und Unterricht weist hingegen einen Rückgang auf.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38043,7 +38043,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:16",
+		"aktualisierungsdatum": "2021-03-23T08:39:53",
 		"id": 7003
 	},
 	{
@@ -38093,7 +38093,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Grenzgänger nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In den meisten Altersgruppen gab es im 4. Quartal 2020 mehr Grenzgänger als zu Beginn des Jahres 2011. Verglichen mit dem 4. Quartal 2019 war die Entwicklung unterschiedlich. Der stärkste Rückgang wurde mit 5,2% in der Gruppe der Personen im Alter von 25 bis 29 Jahren verzeichnet.",
+		"lesehilfe": "In der Mehrheit der Altersgruppen gab es im 4. Quartal 2021 mehr Grenzgänger als zu Beginn des Jahres 2012. Verglichen mit dem 4. Quartal 2020 war die Entwicklung unterschiedlich. Einen Rückgang von jeweils 2,3% verzeichneten die Gruppen der der Personen im Alter von 45 bis 49 sowie von 50 bis 54 Jahren verzeichnet.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -38207,7 +38207,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Grenzgänger nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2011 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt betrug der Zuwachs 10,7%, von rund 31 100 auf rund 34 400. Gegenüber dem 4. Quartal 2019 stieg der Wert um 0,1%. In der gesamten Schweiz arbeiteten im 4. Quartal 2020 rund 344 000 Grenzgänger, 1,4% mehr als ein Jahr zuvor.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2012 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt betrug der Zuwachs 7,9%, von rund 32 400 auf rund 34 900. Gegenüber dem 4. Quartal 2020 stieg der Wert um 0,9%. In der gesamten Schweiz arbeiteten im 4. Quartal 2021 rund 344 000 Grenzgänger, 4,6% weniger als ein Jahr zuvor.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -38245,7 +38245,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"subtitle": "in Franken",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2019 beträgt es rund 204  000 Franken. Dies sind 21,1% mehr als 2010 und 2,8% mehr als 2018. Der Schweizer Durchschnitt beträgt 2019 rund 85 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2020 beträgt es rund 206  000 Franken. Dies sind 19,3% mehr als 2011. Gegenüber 2019 ist ein Rückgang von 1,9% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2020 rund 82 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -38271,7 +38271,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:20",
+		"aktualisierungsdatum": "2021-03-23T08:37:18",
 		"id": 7009
 	},
 	{
@@ -38283,7 +38283,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"subtitle": "nach Kanton",
-		"lesehilfe": "Das baselstädtische reale BIP ist 2019 gegenüber dem Vorjahr um 6,0% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2018 um 1,1% gestiegen. Der hohe Zuwachs in Basel-Stadt der vergangenen Jahre ist nicht zuletzt auf das Wachstum der Pharmaindustrie zurückzuführen.",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2020 gegenüber dem Vorjahr um 0,7% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2019 um 2,4% zurückgegangen. Der hohe Zuwachs in Basel-Stadt in den Jahren zuvor ist nicht zuletzt auf das Wachstum der Pharmaindustrie zurückzuführen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -38310,7 +38310,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:20",
+		"aktualisierungsdatum": "2021-03-23T08:37:34",
 		"id": 7010
 	},
 	{
@@ -38321,8 +38321,8 @@ var indikatoren = [
 		"parentId": "2402",
 		"children": [],
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
-		"subtitle": "2019",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2019 beträgt er 44,6%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,0%, vor den Finanz- und Versicherungsdienstleistungen mit 9,3%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 21,6% am grössten, im Aargau ebenfalls mit 19,6% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 20,9%. Die Branche Handel und Reparatur ist auch im Schweizer Durchschnitt mit 16,8% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"subtitle": "2020",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2020 beträgt er 44,9%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,3%, vor den Finanz- und Versicherungsdienstleistungen mit 8,9%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 21,6% am grössten, im Aargau ebenfalls mit 19,9% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 20,5%. Die Branche Handel und Reparatur ist auch im Schweizer Durchschnitt mit 17,2% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -38349,7 +38349,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:21",
+		"aktualisierungsdatum": "2021-03-23T08:37:41",
 		"id": 7011
 	},
 	{
@@ -38360,8 +38360,8 @@ var indikatoren = [
 		"parentId": "2404",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
-		"lesehilfe": "Seit dem Jahr 2010 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2019 betrug der Zuwachs gegenüber dem Vorjahr 11,5%. Auch bei der Industrie insgesamt hat sich der Wert seit 2010 mehr als verdoppelt (gegenüber Vorjahr +10,5%). Das Baugewerbe legte seit 2010 um 4,6% zu, gegenüber 2018 wurde ein leichter Rückgang um 0,4% verzeichnet.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2011 = 100)",
+		"lesehilfe": "Seit dem Jahr 2011 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2020 betrug der Zuwachs gegenüber dem Vorjahr 6,5%. Auch bei der Industrie insgesamt hat sich der Wert seit 2011 mehr als verdoppelt (gegenüber Vorjahr +5,5%). Im Baugewerbe wurde seit 2011 ein Rückgang um 3,6% verzeichnet, 2020 ging der Wert gegenüber 2019 um 8,0% zurück.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -38387,7 +38387,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:22",
+		"aktualisierungsdatum": "2021-03-23T08:37:53",
 		"id": 7012
 	},
 	{
@@ -38398,8 +38398,8 @@ var indikatoren = [
 		"parentId": "2405",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
-		"lesehilfe": "Die Branche Handel und Reparatur (+6,3%) sowie das Gastgewerbe (+12,2%) verzeichneten zwischen 2010 und 2019 ein Wachstum der realen Wertschöpfung. In den Branchen Verkehr und Lagerei (-9,2%) sowie Information und Kommunikation (-4,8%) bildete sich der Wert zurück. Gegenüber dem Vorjahr ging er in der Branche Handel und Reperatur um 1,6% zurück, die drei übrigen verzeichneten ein Wachstum.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2011 = 100)",
+		"lesehilfe": "Die Branchen Handel und Reparatur (+10,1%) sowie Information und Kommunikation (+0,8%) verzeichneten zwischen 2011 und 2020 ein Wachstum der realen Wertschöpfung. In der Branche Verkehr und Lagerei (-27,0%) sowie im Gastgewerbe (-54,0%) bildete sich der Wert stark zurück. Dies ist vor allem auf die pandemiebedingten Umstände des Jahres 2020 zurückzuführen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -38425,7 +38425,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:22",
+		"aktualisierungsdatum": "2021-03-23T08:38:02",
 		"id": 7013
 	},
 	{
@@ -38475,7 +38475,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,1% im Januar auf 4,8% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,7%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 nur rückläufig.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist in der Regel stark von saisonalen Schwankungen geprägt. Die Arbeitslosenquote dieser Gruppe ging von 7,1% im Januar auf 4,8% im Oktober 2021 zurück, stieg aber bis Jahresende wieder auf 5,7%. Bei den anderen Bevölkerungsgruppen war die Quote im Jahresverlauf 2021 immer rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38513,7 +38513,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose nach Ländergruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt waren Ende 2021 insgesamt rund 3 450 Arbeitslose bei den RAV angemeldet, rund 1 000 Personen weniger als Ende 2020. Rückläufig waren die Arbeitslosenzahlen aller Ländergruppen. Ende 2021 waren 1 422 Arbeitslose Schweizer Staatsangehörige (41% des Totals), 1 055 Angehörige der EU15/EFTA-Länder (inkl. UK), 796 Personen aus Drittstaaten und 172 Personen aus Ländern, die seit 2004 der EU beigetreten sind (5%).",
+		"lesehilfe": "In Basel-Stadt waren Ende 2021 insgesamt rund 3 450 Arbeitslose bei den RAV angemeldet, rund 1 000 Personen weniger als Ende 2020. Die Arbeitslosenzahlen aller Ländergruppen waren rückläufig. Ende 2021 waren 1 422 Arbeitslose Schweizer Staatsangehörige (41% des Totals), 1 055 Angehörige der EU15/EFTA-Länder (inkl. UK), 796 Personen aus Drittstaaten und 172 Personen aus Ländern, die seit 2004 der EU beigetreten sind (5%).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38589,7 +38589,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahresverlauf 2021 ist die Arbeitslosigkeit im Gastgewerbe am stärksten gesunken, nachdem sie im Jahr zuvor am stärksten gestiegen war. Mit den Lockerungen der Massnahmen gegen COVID-19 im März 2021 ist die Zahl der Arbeitslosen im Gastgewerbe von einem Höchstwert von 533 auf 250 Ende Dezember 2021 gesunken. Auch in den Branchen Handel und Reparatur sowie Verkehr und Lagerei war sie im Jahresverlauf 2021 rückläufig.",
+		"lesehilfe": "Im Jahresverlauf 2021 ist die Arbeitslosigkeit im Gastgewerbe am stärksten gesunken, nachdem sie im Jahr zuvor am stärksten gestiegen war. Mit den Lockerungen der Massnahmen gegen COVID-19 im März 2021 ist die Zahl der Arbeitslosen im Gastgewerbe von einem Höchstwert von 533 auf 250 Ende Dezember 2021 gesunken. Auch in den Branchen Handel und Reparatur sowie Verkehr und Lagerei war sie im Jahresverlauf 2021 deutlich rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38666,7 +38666,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"subtitle": "Kurz- und Daueraufenthalter",
-		"lesehilfe": "Im Jahr 2020 wurde in allen betrachteten Kantonen ein Rückgang der Zuwanderung von ausländischen Arbeitskräften registriert. Insbesondere im 2. Quartal war die Zuwanderung aufgrund der COVID-19-Pandemie stark eingeschränkt. In den Kanton Basel-Stadt sind 6 203 Erwerbstätige zugewandert, 19,6% weniger als im Jahr 2019. Der Rückgang der Zuwanderung 2020 war im Kanton Zürich am stärksten (-22,1%).",
+		"lesehilfe": "Im 1. Quartal 2021 sind 1 269 Personen zugewandert, was fast einer Halbierung gegenüber dem Vorjahresquartal entspricht. Obwohl der Vorjahresvergleich ab dem 2. Quartal wieder positiv ist, fällt die Entwicklung für das Gesamtjahr 2021 negativ aus (-12,1%). Im 2. Quartal 2020 war die Zuwanderung aufgrund der Massnahmen gegen die Covid-19-Pandemie in allen Kantonen stark rückläufig gewesen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38704,7 +38704,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Sowohl bei den Männern als auch bei den Frauen war 2020 eine hohe Zuwanderung von Erwerbstätigen im 1. Quartal und ein markanter Rückgang im 2. Quartal zu beobachten. Im gesamten Jahr 2020 sind 3 876 Männer und 2 327 Frauen in den Kanton Basel-Stadt zugewandert. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen liegt 2020 wie im Vorjahr bei 38%.",
+		"lesehilfe": "Sowohl bei den Männern als auch bei den Frauen war die Zuwanderung von Erwerbstätigen im Jahr 2021 niedriger als im Vorjahr, was auf tiefe Werte im 1. Quartal zurückzuführen ist. Im Jahr 2020, dem ersten Jahr der Pandemie, war bei beiden Geschlechtern eine sehr hohe Zuwanderung im 1. Quartal und ein markanter Rückgang im 2. Quartal zu beobachten. Der Frauenanteil an der Zuwanderung von Erwerbstätigen liegt bei rund 37%.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38742,7 +38742,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Aufgrund der COVID-19-Pandemie und der dagegen ergriffenen Massnahmen ist 2020 die Zuwanderung von Kurzaufenhaltern bis 4 Monate (-34%) und von Dienstleistungserbringern bis 4 Monate (-35%) am stärksten zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) verringerte sich 2020 um 11% gegenüber dem Vorjahr.",
+		"lesehilfe": "Aufgrund der Massnahmen gegen die COVID-19-Pandemie ist die Zuwanderung von Kurzaufenhaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate sowohl 2020 als auch 2021 stark zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lagen vor allem im 2. Quartal 2020 und im 1. Quartal 2021 deutlich unter dem Vorjahresniveau.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38780,7 +38780,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen aus Drittstaaten ist seit vier Jahren jeweils im 1. Quartal sehr hoch; im 1. Quartal 2020 hat sie mit 970 Personen einen neuen Rekord erreicht. Im 2. bis 4. Quartal lag die Einwanderung dann tiefer als im Vorjahr. Im Gesamtjahr 2020 ging die Einwanderung aus den Drittstaaten sowie auch aus den EU15/EFTA-Ländern (inkl. UK) um 18% zurück (Enwanderung aus EU-Ländern, die seit 2004 der EU beigetreten sind: -29%).",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen aus Drittstaaten war vier Jahre lang jeweils im 1. Quartal sehr hoch; im 1. Quartal 2020 hat sie mit 970 Personen einen neuen Höchstwert erreicht. Seit dem Einbruch im 2. Quartal 2020 liegt die Zuwanderung aus Drittstaaten auf einem deutlich tieferen Niveau. Die Zuwanderung aus den EU15/EFTA-Ländern (inkl. UK) schwankt seit Beginn der Pandemie stark und ist im Gesamtjahr 2021 niedriger als im Vorjahr.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38818,7 +38818,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück, nahm aber im 3. und 4. Quartal wieder zu. Sie liegt im Gesamtjahr 2020 bei 1 121 Personen (22% weniger als 2019). In der übrigen Industrie liegt die Zuwanderung im Jahr 2020 bei 260 Personen (-33%). Im Baugewerbe hat sie 2020 um 10% auf 99 Personen zugenommen.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück und nahm im 2. Halbjahr wieder zu. Die Zuwanderung in dieser Branche lag auch 2021 unter dem Vorjahresniveau. In der übrigen Industrie und im Baugewerbe hat die Zuwanderung im Jahr 2021 gegenüber dem Vorjahr wieder zugenommen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38856,7 +38856,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt ist 2020 um 31% auf 309 Personen gesunken. Im Bereich Verkehr, Lagerei und Kommunikation zeigt die Zuwanderung 2020 einen Rückgang auf 190 Personen (-23%). Im Gastgewerbe hat sich der Rückgang der Zuwanderung fortgesetzt (-25%).",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur hat nach dem Einbruch im 2. Quartal 2020 langsam wieder zugenommen. Im 4. Quartal war sie 2021 gar höher als 2019. Auch im Bereich Verkehr und Lagerei sowie im Gastgewerbe war die Zuwanderung im 2. Halbjahr 2021 höher als im Vorjahr.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39008,7 +39008,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
 		"subtitle": "",
-		"lesehilfe": "Die Werte im Meldewesen für das Jahr 2020 liegen in den Kantonen Basel-Stadt, Basel-Landschaft, Aargau und Zürich unter den Vorjahreswerten. In Basel-Stadt leisteten die Meldepflichtigen 2020 insgesamt 310 673 Arbeitstage. Gegenüber dem Vorjahr entspricht dies einer Abnahme um 27%. Der Rückgang ist in den anderen betrachteten Kantonen weniger ausgeprägt.",
+		"lesehilfe": "Die Werte im Meldewesen waren im 1. Quartal 2021 in den Kantonen Basel-Stadt, Aargau und Zürich die tiefsten der letzten 10 Jahre. Dafür waren sie im 3. Quartal in etwa so hoch oder höher als im Sommer 2019, vor der Pandemie. In Basel-Stadt leisteten die Meldepflichtigen im 3. Quartal 2021 mehr als 111 100 Arbeitstage. Im Gesamtjahr 2021 waren es rund 308 000 Arbeitstage (-0,9% gegenüber 2020).",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39046,7 +39046,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Meldepflichtige nach Einsatzkanton",
 		"subtitle": "Anzahl Personen",
-		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die Werte 2020 in allen abgebildeten Kantonen unter den Vorjahreswerten. Im Kanton Basel-Stadt wurden 11 517 meldepflichtige Personen registriert, das sind 31% weniger als 2019. Der zweitstärkste Rückgang ist mit 20% in Zürich zu beobachten.",
+		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die Werte 2021 in allen abgebildeten Kantonen ausser Basel-Landschaft unter den Vorjahreswerten, vor allem weil die Vergleichswerte im 1. Quartal 2020 noch sehr hoch waren. Seit dem 2. Quartal 2021 ist die Anzahl Meldepflichtiger höher als 2020, jedoch tiefer als vor der Pandemie.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39084,7 +39084,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Der Ausfall der Messen aufgrund der COVID-19-Pandemie hat die Nachfrage nach Meldepflichtigen reduziert. Bei den Arbeitnehmenden ist 2020 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 20% auf 237 780 gesunken. Der Rückgang gegenüber dem Vorjahr war bei den Selbständigerwerbenden (-58%) und Entsandten (-37%) noch stärker.",
+		"lesehilfe": "Der Pandemiebedingte Ausfall der Messen bis Mitte 2021 hat die Nachfrage nach Meldepflichtigen deutlich reduziert, nachdem bereits 2019 die Messe-Aktivitäten in Basel kleiner wurden. Dies ist insbesondere bei den Entsandten zu beobachten. Bei den Arbeitnehmenden ist nach dem tiefen Wert im 1. Quartal 2021 die Nachfrage im weiteren Verlauf des Jahres 2021 wieder gestiegen.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39122,7 +39122,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Rund 30% der Meldepflichtigen im Jahr 2020 sind weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2020 bei 37%. Der Anteil weiblicher Entsandter liegt bei 7%, jener der Selbstständigerwerbenden bei 11%. Der Frauenanteil hat sich beim Total der Meldepflichtigen gegenüber dem Vorjahr kaum verändert, ist jedoch bei den Arbeitnehmenden gesunken.",
+		"lesehilfe": "In den letzten Jahren sind je nach Quartal zwischen 25% und 35% der Meldepflichtigen (insgesamt) weiblich. Bei den Arbeitnehmenden liegt der Frauenanteil über dem Durchschnittwert, bei den Entsandten sowie bei den Selbstständigerwerbenden deutlich unter dem Durchschnitt.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39160,7 +39160,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 wurden 30 241 Arbeitstage in der Industrie und 49 353 Arbeitstage im Baugewerbe von Meldepflichtigen geleistet, was einer Abnahme um 38% bzw. 48%  im Vergleich zum Vorjahr entspricht. 2014 bis 2018 wurden im Baugewerbe jeweils im 1. Quartal hohe Werte verzeichnet, was auf die Messensaison zurückzuführen ist. Im 1. Quartal 2019 wurden deutlich weniger Arbeitstage gezählt. Mit dem Ausfall der Messen 2020 war die Anzahl geleisteter Tage nochmals deutlich tiefer.",
+		"lesehilfe": "Die Arbeitstage von Meldepflichtigen im Baugewerbe sind mit dem Ausfall der Messen während der Pandemie stark rückläufig gewesen. 2014 bis 2018 wurden im Baugewerbe jeweils im 1. Quartal hohe Werte verzeichnet (je 50 000 bis 70 000 Arbeitstage), was auf die Messensaison zurückzuführen ist. Bereits im 1. Quartal 2019 wurden weniger Arbeitstage gezählt, da einige Messen nicht statt gefunden haben.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39198,7 +39198,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitstage von Meldepflichtigen haben sich 2020 in den Branchen Handel, Verkehr, Gastgewerbe und IT-Dienstleistungen rückläufig entwickelt. Im Gastgewerbe war der Rückgang am stärksten: von 23 885 Arbeitstagen im Jahr 2019 auf 11 218 Arbeitstage im Jahr 2020 (-53%). Im Bereich Handel und Reparatur ging die Anzahl der  im Jahr 2020 geleisteten Arbeitstage um 35% auf 11 316 zurück.",
+		"lesehilfe": "Nachdem sich die Arbeitstage von Meldepflichtigen im Gastgewerbe im Jahr 2020 stark rückläufig waren, haben sie sich im Verlauf des Jahres 2021 deutlich erholt: Im 4. Quartal war die Nachfrage mit über 10 000 Arbeitstage so hoch wie in den letzten 10 Jahren nicht mehr. Auch in der Branche Handel und Reparatur hat die Nachfrage nach Meldepflichtigen im 4. Quartal 2021 deutlich zugenommen.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39235,8 +39235,8 @@ var indikatoren = [
 		"parentId": "6448",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
-		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2010 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 32,4% in der Branche Beratung, Planung und Forschung (gegenüber dem Vorjahr +4,7%). Die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen verzeichnete ein Wertschöpfungswachstum von 26,3% (gg. Vorjahr +4,6%), der normalerweise in ihr enthaltene Bereich Personalvermittlung und -überlassung, der hier separat gezeigt wird, von 16,8% (gg. Vorjahr +5,2%).",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2011 = 100)",
+		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2011 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 27,3% in der Branche Finanz- und Versicherungsdienstleistungen (gegenüber 2019 ergab sich ein Plus von 4,5%). Die Branche Beratung, Planung und Forschung wuchs seit 2011 um 23,4% (gg. Vorjahr -5,0%). Der Bereich Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen verzeichnete ein Wertschöpfungswachstum von 14,0% (gg. Vorjahr -2,6%), der normalerweise in ihr enthaltene Bereich Personalvermittlung und -überlassung, der hier separat gezeigt wird, von 18,2% (gg. Vorjahr +1,9%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -39262,7 +39262,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:37",
+		"aktualisierungsdatum": "2021-03-23T08:38:09",
 		"id": 7035
 	},
 	{
@@ -39273,8 +39273,8 @@ var indikatoren = [
 		"parentId": "6449",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
-		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+30,5%) sowie Öffentliche Verwaltung und Sozialversicherungen (+15,2%) verzeichneten seit 2010 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,4% sowie +0,6%). Einen Rückgang seit 2010 gibt es hingegen in den Branchen Erziehung und Unterricht (-13,7%) sowie Kultur und Unterhaltung (-30,5%) zu beobachten (gegenüber Vorjahr -0,4% sowie +16,3%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2011 = 100)",
+		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+23,8%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,9%) verzeichneten seit 2011 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr -1,1% sowie +2,0%). Einen Rückgang seit 2011 gibt es hingegen in den Branchen Erziehung und Unterricht (-18,5%) sowie Kultur und Unterhaltung (-43,9%) zu beobachten (gegenüber Vorjahr -5,8% sowie -21,1%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -39300,7 +39300,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:38",
+		"aktualisierungsdatum": "2021-03-23T08:38:17",
 		"id": 7036
 	},
 	{
@@ -39388,7 +39388,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Bereich Personalvermittlung bzw. -überlassung war 2020 eine der wenigen Branchen, die eine Zunahme der meldepflichtigen Arbeitskräfte verzeichneten: In diesem Bereich wurden 90 106 Arbeitstage geleistet, was im Vergleich zu den Arbeitstagen im Jahr 2019 einer Zunahme um 1% entspricht. Bei der Vermittlung von Arbeitskräften zeigt sich auch 2020 ein saisonal geprägtes Muster mit Höhepunkt im 3. Quartal.",
+		"lesehilfe": "Der Bereich Personalvermittlung bzw. -überlassung verzeichnet trotz Pandemie eine Zunahme bei den meldepflichtigen Arbeitskräften. In diesem Bereich zeigt sich ein saisonal geprägtes Muster mit Höhepunkt im 3. Quartal. Dieser war im 3. Quartal 2021 mit über 35 000 Arbeitstagen der höchste der letzten fünf Jahren.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39426,7 +39426,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2020 insgesamt 33 443 Arbeitstage von Meldepflichtigen geleistet, was im Vergleich zu den Arbeitstagen 2019 einem Rückgang um 36% entspricht. Im Bereich Gesundheits- und Sozialwesen wurde hingegen im Jahr 2020 eine Zunahme der geleisteten Arbeitstage um 31% auf 26 707 Arbeitstage registriert.",
+		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen waren die Arbeitstage von Meldepflichtigen im 2. Quartal 2020 und im 1. Quartal 2021 sehr tief. Aber auch in den übrigen Quartalen lagen die Werte unter dem Niveau vor der Pandemie. Im Gesundheits- und Sozialwesen ging die Zahl der geleisteten Arbeitstage 2021 zurück, nachdem im Jahr 2020 eine Zunahme registriert wurde.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39654,7 +39654,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote blieb 2021 bei 3,8% gegenüber 2020 unverändert. 2019, vor der Pandemie, lag sie bei 3,0%. Höher als im Jahr 2020 und deutlich höher als 2019 ist die Quote in den Branchen Baugewerbe (12,8%), Gastgewerbe (9,6%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,8%). Auch in den Branchen Handel, Reparaturen sowie Verkehr, Lagerei ist die mittlere Arbeitslosenquote weiter gestiegen.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote blieb 2021 mit 3,8% im Vergleich zum Vorjahr unverändert. 2019, vor der Pandemie, lag sie bei 3,0%. Höher als im Jahr 2020 und deutlich höher als 2019 ist die Quote in den Branchen Baugewerbe (12,8%), Gastgewerbe (9,6%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,8%). Auch in den Branchen Handel, Reparaturen sowie Verkehr, Lagerei ist die mittlere Arbeitslosenquote weiter gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Sturkturerhebung, Pooling 2015-2017).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -39720,7 +39720,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:45",
+		"aktualisierungsdatum": "2021-03-23T08:36:55",
 		"id": 7047
 	},
 	{
@@ -39732,7 +39732,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, insgesamt von 3,2% im Jahr 2020 auf 2,8% im Jahr 2021 weiter zurückgegangen. Die Zuwanderung war 2021 vor allem in der Branchen Chemie und Pharma sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen erneut rückläufig. Zugenommen hat die Zuwanderung im Verhältnis zur bestehenden Beschäftigung im Baugewerbe, und geringfügig auch im Gastgewerbe und im Bereich Kultur und Unterhaltung.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, insgesamt von 3,2% im Jahr 2020 auf 2,8% im Jahr 2021 zurückgegangen. Die Zuwanderung war 2021 vor allem in der Branche Chemie und Pharma sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen erneut rückläufig. Zugenommen hat die Zuwanderung im Verhältnis zur bestehenden Beschäftigung im Baugewerbe, und geringfügig auch im Gastgewerbe sowie im Bereich Kultur und Unterhaltung.",
 		"erlaeuterungen": "In Basel-Stadt Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung) im Verhältnis zu den Beschäftigten (besetzte Stellen) im Kanton Basel-Stadt (Beschäftigungsstand: 2019). Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39770,7 +39770,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2021 wie im Vorjahr 0,8%. Bedeutend sind die Meldepflichtigen 2021 weiterhin in der Personalvermittlung und -überlassung, mit 5,9% im Vergleich zur Beschäftigung in dieser Branche. Die Meldepflichtigen im Baugewerbe entsprechen 2021 immer noch weniger als 3% der Beschäftigten, während dieses Verhältnis 2019 noch 5,5% betrug.",
+		"lesehilfe": "Die Zahl der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2021 wie im Vorjahr 0,8%. Bedeutend sind die Meldepflichtigen 2021 weiterhin in der Personalvermittlung und -überlassung, mit 5,9% der Beschäftigung in dieser Branche. Wie auch schon 2020 liegt die Zahl der Meldepflichtigen im Baugewerbe bei weniger als 3% der Beschäftigten, während dieses Verhältnis 2019 noch 5,5% betrug.",
 		"erlaeuterungen": "Die Abbildung zeigt die Zahl der Meldepflichtigen in Vollzeitäquivalente umgerechnet im Vergleich zu den Beschäftigten, ebenfalls in Vollzeitäquivalenten (Beschäftigungsstand: 2019). Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum, die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39884,7 +39884,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenzahlen waren im Jahresverlauf 2021 sowohl im Gesundheits- und Sozialwesen also auch in der Branche Kultur und Unterhaltung sowie im Bereich Erziehung und Unterricht rückläufig. Die Arbeitslosigkeit im Gesundheits- und Sozialwesen ist trotz Rückgang erstaunlicherweise noch leicht höher als vor der COVID-19-Pandemie.",
+		"lesehilfe": "Die Arbeitslosenzahlen waren im Jahresverlauf 2021 im Gesundheits- und Sozialwesen, der Branche Kultur und Unterhaltung sowie im Bereich Erziehung und Unterricht rückläufig. Die Arbeitslosigkeit im Gesundheits- und Sozialwesen ist trotz Rückgang noch leicht höher als vor der COVID-19-Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -39922,7 +39922,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Rund die Hälfte der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit 3 067 neuen Bewilligungen hat sich die Zuwanderung 2020 in diesem Bereich im Vergleich zum Vorjahr um 20% verringert, obwohl im 1. Quartal noch ein sehr hoher Wert verzeichnet wurde.",
+		"lesehilfe": "Mit COVID-19 und den Massnahmen gegen die Pandemie war die Zuwanderung im 2. Quartal 2020 im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) stark rückläufig. Auch im Jahr 2021 war sie tiefer als vor der Pandemie. Dieser Bereich macht fast die Hälfte der Zuwanderung aus.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -39960,7 +39960,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 sind 366 Personen in der Branche Gesundheits- und Sozialwesen zugewandert, was einem Anstieg um 2% gegenüber dem Vorjahr entspricht. 279 Personen sind in der Branche Erziehung und Unterricht zugewandert (-9%). Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen ging die Zuwanderung 2020 um 13% auf 260 Personen zurück.",
+		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe ist weniger von den Folgen der Pandemie betroffen  als andere Branchen. Im Gesundheits- und Sozialwesen sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen sind fast so viele Erwerbstätige zugewandert wie im Jahr 2019, vor der Pandemie. Die Branche Erziehung und Unterricht weist hingegen einen Rückgang auf.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -40408,175 +40408,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-12-29T10:27:15",
 		"id": 7432
-	},
-	{
-		"title": "Beschäftigung im Baunebengewerbe",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07435",
-		"kuerzelKunde": "4.1-01",
-		"description": "Beschäftigung im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Baunebengewerbe (NOGA 43) mit rund 6 000 Vollzeitäquivalenten (VZÄ) im Jahr 2017 sind die Beschäftigten v. a. in den Bereichen Elektroinstallation (2 300 VZÄ), Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie Malerei und Glaserei (900 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 3,0% zurückgegangen.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"7474"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7435,
-		"chart-id": 7435,
-		"filter": "",
-		"id": 7435
-	},
-	{
-		"title": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07437",
-		"kuerzelKunde": "4.1-02",
-		"description": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt in den letzten Jahren zwischen rund 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote liegt 2019 bei rund 9%.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_01_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"7475"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7437,
-		"chart-id": 7437,
-		"filter": "",
-		"id": 7437
-	},
-	{
-		"title": "Ausländische Erwerbstätige im Baunebengewerbe",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.5.07438",
-		"kuerzelKunde": "4.1-03",
-		"description": "Ausländische Erwerbstätige im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2019 sind in Basel-Stadt 1 051 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2019 202 Stellen. Jeweils im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 meist auf weniger als 20 Personen pro Quartal.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_01_00_00_00_103",
-		"parentId": null,
-		"children": [
-			"7476"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7438,
-		"chart-id": 7438,
-		"filter": "",
-		"id": 7438
-	},
-	{
-		"title": "Medianlohn im Baunebengewerbe",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kuerzel": "I.03.3.07442",
-		"kuerzelKunde": "4.1-04",
-		"description": "Medianlohn im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei rund 5 900 Franken brutto im Monat und hat sich damit seit 2012 kaum verändert.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_01_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"7477"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7442,
-		"chart-id": 7442,
-		"filter": "",
-		"id": 7442
 	},
 	{
 		"template": "template001",
@@ -41146,7 +40977,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige im Detailhandel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2020 bei 1 592 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2020 liegt sie bei 20 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger im Detailhandel bei 1 517 Personen und ist damit wie schon in den Jahren zuvor weiter rückläufig. Die Zuwanderung von Kurz- und Daueraufenthaltern liegt sie bei 27 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 90 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -41173,7 +41004,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:58",
+		"aktualisierungsdatum": "2021-03-23T08:43:20",
 		"id": 7480
 	},
 	{
@@ -41299,7 +41130,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr liegt im 4. Quartal 2020 bei 559 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt 38 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger in der Branche Landverkehr bei 567 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt 29 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen umgerechnet 37 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -41326,7 +41157,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:59:01",
+		"aktualisierungsdatum": "2021-03-23T08:43:52",
 		"id": 7484
 	},
 	{
@@ -41452,7 +41283,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2020 arbeiten in Basel-Stadt 1 312 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2020 in der Branche IT-Dienstleistungen 28 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2021 arbeiten in Basel-Stadt 1 350 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 26 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -41479,7 +41310,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:59:03",
+		"aktualisierungsdatum": "2021-03-23T08:44:24",
 		"id": 7488
 	},
 	{
@@ -67090,7 +66921,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 63 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2020 6 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
+		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 61 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt 14 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -67117,7 +66948,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:59:13",
+		"aktualisierungsdatum": "2021-03-23T08:44:46",
 		"id": 8700
 	},
 	{
@@ -67205,7 +67036,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 365 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen beträgt im 4. Quartal 2020 11 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
+		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 345 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen liegt bei 8 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -67232,7 +67063,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:59:15",
+		"aktualisierungsdatum": "2021-03-23T08:46:25",
 		"id": 8703
 	},
 	{
@@ -76165,7 +75996,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) liegt im 4. Quartal 2020 bei 1098 und damit  leicht höher als 2011. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2020 beträgt in der Nahrungsmittelindustrie 3 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) bei 1079 und damit  leicht höher als 2012. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt in der Nahrungsmittelindustrie 4 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -76318,7 +76149,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 154 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen im 4. Quartal 2020 in Vollzeitäquivalente umgerechnet 60 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 128 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -79852,12 +79683,12 @@ var indikatoren = [
 		"kuerzel": "I.03.2.09508",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"kuerzelKunde": "4.7-01",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Handel mit und Reparatur von Motorfahrzeugen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "03_07_00_00_00_701",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -79891,12 +79722,12 @@ var indikatoren = [
 		"kuerzel": "I.03.4.09509",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"kuerzelKunde": "4.7-02",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Handel mit und Reparatur von Motorfahrzeugen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "03_07_00_00_00_702",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -79913,7 +79744,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche  Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 3. Quartal 2021 liegt sie bei 125 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten beträgt 342. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche  Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 4. Quartal 2021 liegt sie bei 131 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten liegt bei 90. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -79930,12 +79761,12 @@ var indikatoren = [
 		"kuerzel": "I.03.5.09510",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"kuerzelKunde": "4.7-03",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Handel mit und Reparatur von Motorfahrzeugen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "03_07_00_00_00_703",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -79968,12 +79799,12 @@ var indikatoren = [
 		"kuerzel": "I.03.3.09511",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"kuerzelKunde": "4.7-04",
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Handel mit und Reparatur von Motorfahrzeugen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "03_07_00_00_00_704",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,

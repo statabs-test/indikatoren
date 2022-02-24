@@ -8,11 +8,10 @@
     }
   },
   "yAxis": [{
-     gridLineColor: '#B9CFD7', 
+        offset: -5,
+        gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
-   // gridLineColor: '#B9CFD7', 
-   // gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -28,9 +27,10 @@
       }
     },
     "min": 0,
-    tickAmount: 6,
+    tickAmount: 7,
   },
   {
+        offset: -5,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -50,14 +50,11 @@
     },
     "min": 0,
     "max": undefined,
-    tickAmount: 6,
-    tickInterval: 10,
+    tickAmount: 7,
     "opposite": true
   }
   ],
-  "xAxis": {
-    //lineColor: '#B9CFD7', 
-    //lineWidth: 0.5,    
+  "xAxis": {  
     "tickInterval": 4,
      "type": "category",
      labels:{

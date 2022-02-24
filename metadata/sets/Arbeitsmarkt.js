@@ -756,7 +756,7 @@ var indikatorensetData = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Aufgrund der Massnahmen gegen die COVID-19-Pandemie ist die Zuwanderung von Kurzaufenhaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate sowohl 2020 als auch 2021 stark zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lagen im 2. Quartal 2020 und im 1. Quartal 2021 deutlich unter dem Vorjahresniveau.",
+		"lesehilfe": "Aufgrund der Massnahmen gegen die COVID-19-Pandemie ist die Zuwanderung von Kurzaufenhaltern bis 4 Monate und von Dienstleistungserbringern bis 4 Monate sowohl 2020 als auch 2021 stark zurückgegangen. Die Anzahl der zugewanderten Erwerbstätigen mit einer B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) lagen vor allem im 2. Quartal 2020 und im 1. Quartal 2021 deutlich unter dem Vorjahresniveau.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -834,7 +834,7 @@ var indikatorensetData = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück und nahm im 2. Halbjahr wieder zu. Die Zuwanderung in dieser Branche lag auch 2021 unter dem Niveau vor der Pandemie. Auch in der übrigen Industrie und im Baugewerbe hat die Zuwanderung im Jahr 2021 gegenüber dem Vorjahr wieder zugenommen.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt ging im 2. Quartal 2020 stark zurück und nahm im 2. Halbjahr wieder zu. Die Zuwanderung in dieser Branche lag auch 2021 unter dem Vorjahresniveau. In der übrigen Industrie und im Baugewerbe hat die Zuwanderung im Jahr 2021 gegenüber dem Vorjahr wieder zugenommen.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2010,7 +2010,7 @@ var indikatorensetData = [
 		],
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe war im Jahr 2021 weniger als andere Branchen von den Folgen der Pandemie betroffen. Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht sind fast so viele Erwerbstätige zugewandert wie im Jahr 2020. Der Bereich Kultur, Unterhaltung und persönliche Dienstleistungen weist sogar eine Zunahme gegenüber 2020 auf.",
+		"lesehilfe": "Die Zuwanderung in dieser Dienstleistungsgruppe ist weniger von den Folgen der Pandemie betroffen  als andere Branchen. Im Gesundheits- und Sozialwesen sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen sind fast so viele Erwerbstätige zugewandert wie im Jahr 2019, vor der Pandemie. Die Branche Erziehung und Unterricht weist hingegen einen Rückgang auf.",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton), ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -2388,171 +2388,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2020-09-03T05:11:45",
 		"id": 6531
-	},
-	{
-		"title": "Beschäftigung im Baunebengewerbe",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07435",
-		"kuerzelKunde": "4.1-01",
-		"description": "Beschäftigung im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Baunebengewerbe (NOGA 43) mit rund 6 000 Vollzeitäquivalenten (VZÄ) im Jahr 2017 sind die Beschäftigten v. a. in den Bereichen Elektroinstallation (2 300 VZÄ), Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie Malerei und Glaserei (900 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 3,0% zurückgegangen.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"7474"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7435,
-		"chart-id": 7435,
-		"filter": "",
-		"id": 7435
-	},
-	{
-		"title": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07437",
-		"kuerzelKunde": "4.1-02",
-		"description": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt in den letzten Jahren zwischen rund 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote liegt 2019 bei rund 9%.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"7475"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7437,
-		"chart-id": 7437,
-		"filter": "",
-		"id": 7437
-	},
-	{
-		"title": "Ausländische Erwerbstätige im Baunebengewerbe",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.5.07438",
-		"kuerzelKunde": "4.1-03",
-		"description": "Ausländische Erwerbstätige im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2019 sind in Basel-Stadt 1 051 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2019 202 Stellen. Jeweils im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 meist auf weniger als 20 Personen pro Quartal.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_103",
-		"parentId": null,
-		"children": [
-			"7476"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7438,
-		"chart-id": 7438,
-		"filter": "",
-		"id": 7438
-	},
-	{
-		"title": "Medianlohn im Baunebengewerbe",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kuerzel": "I.03.3.07442",
-		"kuerzelKunde": "4.1-04",
-		"description": "Medianlohn im Baunebengewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2020-03-17T09:48:41.4141",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.1 Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei rund 5 900 Franken brutto im Monat und hat sich damit seit 2012 kaum verändert.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"7477"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7442,
-		"chart-id": 7442,
-		"filter": "",
-		"id": 7442
 	},
 	{
 		"template": "template001",

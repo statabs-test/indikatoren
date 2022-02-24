@@ -9,6 +9,7 @@
             }
         },
         "yAxis": [{
+            offset: -5,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             "title": {
@@ -25,10 +26,10 @@
                 }
             },
             "min": 0,
-            //tickAmount: 9,
-            tickAmount: 6
+            tickAmount: 7
         },
         {
+            offset: -5,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             "title": {
@@ -46,9 +47,7 @@
             },
             "min": 0,
             "max": undefined,
-            //tickAmount: 9,
-           tickInterval: 5,
-           tickAmount: 6,
+           tickAmount: 7,
             "opposite": true
         }
         ],

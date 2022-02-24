@@ -25,12 +25,9 @@
                 }
             },
             "min": 0,
-            max: 350,
-            //tickAmount: 9,
-            tickInterval: 70,
-            tickAmount: 6
+            tickAmount: 7
         },
-        {
+        /*{
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             "title": {
@@ -52,7 +49,7 @@
            tickInterval: 5,
            tickAmount: 6,
             "opposite": true
-        }
+        }*/
         ],
         "xAxis": {
             lineColor: '#B9CFD7',
@@ -112,10 +109,5 @@
             "shared": true,
             valueDecimals: 0
         },
-        // "chart": {
-        "zoomType": "xy",
-        "marginTop": 85,
-        "type": "line"
-        //}
     }
 }());
