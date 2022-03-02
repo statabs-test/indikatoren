@@ -1736,44 +1736,42 @@ var indikatorensetData = [
 		"id": 8863
 	},
 	{
+		"template": "line001",
+		"data-id": 8868,
+		"chart-id": 8868,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8874"
+			8874
 		],
-		"template": "line001",
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "",
-		"kuerzelKunde": "4-4",
-		"description": "Entwicklung Handelsbilanz",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2020 gegenüber dem Vorjahr um 5,7 Milliarden auf 35,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2020 minus 497 Millionen. Im Jura liegt sie bei 995 Millionen Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2020 zum zweiten mal in Folge gestiegen und liegt bei knapp 43 Milliarden Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:21.2121",
+		"description": "Entwicklung Handelsbilanz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.08868",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "4-4",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2019 gegenüber dem Vorjahr um knapp 3 Milliarden auf 29,4 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 680 Millionen. Im Jura liegt sie bei 1,1 Milliarden Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2019 wieder gestiegen und liegt bei 37,2 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"orderKey": "04_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_004",
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8868,
-		"chart-id": 8868,
-		"filter": "",
+		"aktualisierungsdatum": "2021-04-14T08:16:21",
 		"id": 8868
 	},
 	{

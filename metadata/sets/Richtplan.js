@@ -488,44 +488,42 @@ var indikatorensetData = [
 		"id": 5822
 	},
 	{
+		"template": "line001",
+		"data-id": 5823,
+		"chart-id": 5823,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6254
+		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"kuerzel": "I.03.2.5823",
-		"kuerzelKunde": "ST 7-2",
-		"description": "Beschäftigtendichte",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 152 462 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von 42,5 Beschäftigten (VZÄ) pro Hektar.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:49:27.2727",
+		"description": "Beschäftigtendichte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.5823",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2018 in Vollzeitäquivalente (VZÄ) umgerechnet rund 150 931 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
-		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_07_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6254"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5823,
-		"chart-id": 5823,
-		"filter": "",
+		"aktualisierungsdatum": "2021-01-04T04:49:27",
 		"id": 5823
 	},
 	{
@@ -942,48 +940,46 @@ var indikatorensetData = [
 		"id": 6220
 	},
 	{
+		"template": "template001",
+		"data-id": 6236,
+		"chart-id": 6236,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6046,
+			6265,
+			6347,
+			6371,
+			8935
+		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.2.6236",
-		"kuerzelKunde": "ST 7-1",
-		"description": "Anzahl Beschäftigte nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt 192 450 Personen beschäftigt. Das sind 1988 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branchengruppe Unternehmensdienstleistungen und Freiberufe, während bei der Pharmaindustrie mit 382 Beschäftigten weniger die grösste Abnahme zu beobachten ist.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-15T11:18:43.4343",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.6236",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-1",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt 190 756 Personen beschäftigt. Das sind 210 Personen weniger als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Pharmaindustrie mit einer Abnahme um 574 Personen, während bei der Branchengruppe Öffentliche Verwaltung und Bildung mit 710 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
-		"template": "template001",
+		"orderKey": "03_07_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_07_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6046",
-			"6265",
-			"6347",
-			"6371",
-			"8935"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6236,
-		"chart-id": 6236,
-		"filter": "",
+		"aktualisierungsdatum": "2020-09-15T11:18:43",
 		"id": 6236
 	},
 	{

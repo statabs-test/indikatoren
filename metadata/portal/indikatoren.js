@@ -11105,45 +11105,43 @@ var indikatoren = [
 		"id": 5822
 	},
 	{
+		"template": "line001",
+		"data-id": 5823,
+		"chart-id": 5823,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6254
+		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"kuerzel": "I.03.2.5823",
-		"kuerzelKunde": "ST 7-2",
-		"description": "Beschäftigtendichte",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 152 462 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von 42,5 Beschäftigten (VZÄ) pro Hektar.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:49:27.2727",
+		"description": "Beschäftigtendichte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.5823",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2018 in Vollzeitäquivalente (VZÄ) umgerechnet rund 150 931 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
-		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6254"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5823,
-		"chart-id": 5823,
-		"filter": "",
+		"aktualisierungsdatum": "2021-01-04T04:49:27",
 		"id": 5823
 	},
 	{
@@ -15946,49 +15944,47 @@ var indikatoren = [
 		"id": 6228
 	},
 	{
+		"template": "template001",
+		"data-id": 6236,
+		"chart-id": 6236,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6046,
+			6265,
+			6347,
+			6371,
+			8935
+		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.2.6236",
-		"kuerzelKunde": "ST 7-1",
-		"description": "Anzahl Beschäftigte nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt 192 450 Personen beschäftigt. Das sind 1988 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branchengruppe Unternehmensdienstleistungen und Freiberufe, während bei der Pharmaindustrie mit 382 Beschäftigten weniger die grösste Abnahme zu beobachten ist.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-15T11:18:43.4343",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.6236",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-1",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt 190 756 Personen beschäftigt. Das sind 210 Personen weniger als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Pharmaindustrie mit einer Abnahme um 574 Personen, während bei der Branchengruppe Öffentliche Verwaltung und Bildung mit 710 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
-		"template": "template001",
+		"orderKey": "03_07_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6046",
-			"6265",
-			"6347",
-			"6371",
-			"8935"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6236,
-		"chart-id": 6236,
-		"filter": "",
+		"aktualisierungsdatum": "2020-09-15T11:18:43",
 		"id": 6236
 	},
 	{
@@ -26851,7 +26847,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Die mittlere Jahresteuerung des Basler Index beläuft sich für das ganze Jahr 2020 auf -0,6%. Das durchschnittliche Preisniveau in der Region Basel ist damit leicht gesunken. Im bisherigen Jahresverlauf 2021 hat sich die Teuerung akzentuiert.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist in den vergangen Monaten mehrheitlich gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2021 auf +0,6%.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -26878,7 +26874,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:55",
+		"aktualisierungsdatum": "2022-02-11T08:34:15",
 		"id": 7513
 	},
 	{
@@ -32914,46 +32910,44 @@ var indikatoren = [
 		"id": 8073
 	},
 	{
+		"template": "line001",
+		"data-id": 8074,
+		"chart-id": 8074,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8644
+		],
 		"title": "Nettoerwerbsquote der Frauen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.03.1.07693",
-		"kuerzelKunde": "3.05",
-		"description": "Nettoerwerbsquote der Frauen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2015 bis 2019 bei 70,4%, im Wohnviertel Kleinhüningen bei 62,1%. Zum Vergleich: Die Quote für die Stadt Basel betrug 75,4%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren.  Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-03T11:20:22.2222",
+		"description": "Nettoerwerbsquote der Frauen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07693",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.05",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2014 bis 2018 bei 68,5%, im Wohnviertel Kleinhüningen bei 68,2%. Zum Vergleich: Die Quote für die Stadt Basel betrug 75,6%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren.  Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8644"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8074,
-		"chart-id": 8074,
-		"filter": "",
+		"aktualisierungsdatum": "2020-06-03T11:20:22",
 		"id": 8074
 	},
 	{
@@ -38967,45 +38961,43 @@ var indikatoren = [
 		"id": 8863
 	},
 	{
+		"template": "line001",
+		"data-id": 8868,
+		"chart-id": 8868,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8874"
+			8874
 		],
-		"template": "line001",
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "",
-		"kuerzelKunde": "4-4",
-		"description": "Entwicklung Handelsbilanz",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2020 gegenüber dem Vorjahr um 5,7 Milliarden auf 35,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2020 minus 497 Millionen. Im Jura liegt sie bei 995 Millionen Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2020 zum zweiten mal in Folge gestiegen und liegt bei knapp 43 Milliarden Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:21.2121",
+		"description": "Entwicklung Handelsbilanz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.08868",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "4-4",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2019 gegenüber dem Vorjahr um knapp 3 Milliarden auf 29,4 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 680 Millionen. Im Jura liegt sie bei 1,1 Milliarden Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2019 wieder gestiegen und liegt bei 37,2 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"orderKey": "04_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_004",
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8868,
-		"chart-id": 8868,
-		"filter": "",
+		"aktualisierungsdatum": "2021-04-14T08:16:21",
 		"id": 8868
 	},
 	{
