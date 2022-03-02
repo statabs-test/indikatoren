@@ -30,7 +30,7 @@ global Highcharts
         }  
   },
  "legend": { 
-    //x: 25,
+    x: 25,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
