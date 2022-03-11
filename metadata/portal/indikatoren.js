@@ -26958,6 +26958,46 @@ var indikatoren = [
 		"id": 7574
 	},
 	{
+		"template": "line001",
+		"data-id": 7575,
+		"chart-id": 7575,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9068
+		],
+		"title": "Leerwohnungsbestand nach Gemeinde",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2021",
+		"lesehilfe": "Die Verfügbarkeit auf den Stichtag 1. Juni hin kann die Leerwohnungsquote v. a. in kleineren Gemeinden mit insgesamt geringem Wohnungsbestand stark beeinflussen. Die Gemeinde Rümlingen mit einem Wohnungsbestand von insgesamt 184 Wohnungen erreicht mit drei Leerwohnungen eine Leerwohnungsquote von 1,6%.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Leerwohnungsbestand nach Gemeinde",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.07575",
+		"kennzahlenset": "Leerstand",
+		"kuerzelKunde": "LEB-2-4",
+		"stufe1": "Wohnungsleerstand in den beiden Basel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-13T12:10:28",
+		"id": 7575
+	},
+	{
 		"template": "template001",
 		"data-id": 7576,
 		"chart-id": 7576,

@@ -1162,6 +1162,7 @@ id | visible | visibleInPortal | indikatorenset
 7563 | true | false | 
 7573 | true | true | Leerstand
 7574 | true | true | Leerstand
+7575 | true | true | Leerstand
 7576 | true | true | Leerstand
 7577 | true | true | Leerstand
 7578 | true | true | Leerstand
@@ -2034,6 +2035,27 @@ id | visible | visibleInPortal | indikatorenset
 9294 | true | false | Soziales
 9295 | true | false | Soziales
 9298 | true | false | Soziales
+9315 | true | false | Steuern (Print)
+9316 | true | false | Steuern (Print)
+9317 | true | false | Steuern (Print)
+9318 | true | false | Steuern (Print)
+9319 | true | false | Steuern (Print)
+9320 | true | false | Steuern (Print)
+9321 | true | false | Steuern (Print)
+9322 | true | false | Steuern (Print)
+9323 | true | false | Steuern (Print)
+9324 | true | false | Steuern (Print)
+9325 | true | false | Steuern (Print)
+9326 | true | false | Steuern (Print)
+9327 | true | false | Steuern (Print)
+9328 | true | false | Steuern (Print)
+9329 | true | false | Steuern (Print)
+9330 | true | false | Steuern (Print)
+9331 | true | false | Steuern (Print)
+9332 | true | false | Steuern (Print)
+9333 | true | false | Steuern (Print)
+9334 | true | false | Steuern (Print)
+9335 | true | false | Steuern (Print)
 9346 | true | true | 
 9359 | true | false | 
 9360 | true | false | 
