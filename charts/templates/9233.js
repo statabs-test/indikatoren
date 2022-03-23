@@ -14,7 +14,7 @@
       "min": 0,
       "max": undefined,
       tickAmount: 5,
-      tickInterval: 0.03,
+      tickInterval: 0.02,
       "title": "",
     },
     {
@@ -35,7 +35,7 @@
       "min": 0,
       "max": undefined,
       tickAmount: 5,
-      tickInterval: 30,
+      tickInterval: 20,
       "gridLineWidth": 0,
       "opposite": true
     }
