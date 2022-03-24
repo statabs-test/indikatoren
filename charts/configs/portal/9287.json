@@ -358,6 +358,10 @@
         [
           2020,
           24
+        ],
+        [
+          2021,
+          19
         ]
       ],
       "name": "Geschwindigkeit"
@@ -720,6 +724,10 @@
         [
           2020,
           75
+        ],
+        [
+          2021,
+          82
         ]
       ],
       "name": "Alkohol"
@@ -1082,6 +1090,10 @@
         [
           2020,
           122
+        ],
+        [
+          2021,
+          141
         ]
       ],
       "name": "Vortrittsregelung"
@@ -1444,6 +1456,10 @@
         [
           2020,
           50
+        ],
+        [
+          2021,
+          27
         ]
       ],
       "name": "Signale, Zeichengebung"
@@ -1500,7 +1516,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Verkehrsteilnehmende nach Unfallursache"
+    "text": "Anzahl Verkehrsteilnehmende nach ausgewählten Unfallursachen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
