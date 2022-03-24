@@ -2020,6 +2020,9 @@ id | visible | visibleInPortal | indikatorenset
 9237 | true | false | Arbeitsmarkt (Print)
 9238 | true | false | Arbeitsmarkt (Print)
 9239 | true | false | Arbeitsmarkt (Print)
+9274 | true | true | 
+9283 | true | true | 
+9287 | true | true | 
 9289 | true | true | Soziales
 9290 | true | true | Soziales
 9291 | true | true | Soziales
