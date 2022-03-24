@@ -90,7 +90,7 @@
     }
   },
   chart: {
-    marginRight: 20
+    marginRight: 30
   }
 }
 }());

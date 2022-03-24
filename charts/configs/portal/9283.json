@@ -829,7 +829,7 @@
 					}
 				}
     },
-    "marginRight": 20,
+    "marginRight": 30,
     "renderTo": "container-9283"
   },
   "plotOptions": {
