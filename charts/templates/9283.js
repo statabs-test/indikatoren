@@ -1,12 +1,15 @@
 (function(){
     return {
-  "xAxis": {
-    tickInterval: 1,
-    labels:{
-        step: 8
-    },
-
-  },
+      "xAxis": {
+        tickPositioner: function () {
+          var interval = 8,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
+      },
   "yAxis": [
       {
         gridLineColor: '#B9CFD7', 
@@ -85,6 +88,9 @@
         "symbol": "circle",
       } 
     }
+  },
+  chart: {
+    marginRight: 20
   }
 }
 }());
