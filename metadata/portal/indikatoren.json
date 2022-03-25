@@ -41032,7 +41032,7 @@
 		"title": "Anzahl Strassenverkehrsunfälle",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, davon 305 Unfälle mit Personenschaden.",
-		"erlaeuterungen": "Bis 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Zwischen 1. April 1955 bis 1. Januar 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Unterteilung Verletzte in Verletzungsschwere (schwer und leicht) erst seit 1975 erhältlich. Seit 1. Januar 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2011 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
+		"erlaeuterungen": "Ab 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Ab 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Ab 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2011 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
 		],
@@ -41070,7 +41070,7 @@
 		"title": "Anzahl Verletzte und Verkehrstote",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2021 sind auf den baselstädtischen Strassen insgesamt 377 Personen verunfallt. Davon wurden 372 verletzt, 5 verloren dabei ihr Leben.",
-		"erlaeuterungen": "Verkehrstote sind Personen, welche an der Unfallstelle ihr Leben verloren haben oder innert 30 Tagen nach dem Unfall an dessen Folgen gestorben sind; Suizide oder Tötungsabsicht werden nicht berücksichtigt.",
+		"erlaeuterungen": "Verkehrstote: Personen, welche an der Unfallstelle ihr Leben verloren haben oder innert 30 Tagen nach dem Unfall an dessen Folgen gestorben sind; Suizide oder Tötungsabsicht werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
 		],
@@ -41105,10 +41105,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Verkehrsteilnehmende nach ausgewählten Unfallursachen",
+		"title": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 waren in Basel-Stadt 19 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen sind u. a. Alkohol (82 Beteiligte), Missachtung der Vortrittsregelungen (141 Beteiligte) sowie Signale und Zeichengebung (50 Beteiligte).",
-		"erlaeuterungen": "Am Verkehrsunfall beteiligte Fussgänger oder Fahrzeuglenkende (ohne Mitfahrende), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.), Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z.B. Griff ins Lenkrad).",
+		"lesehilfe": "Im Jahr 2021 waren in Basel-Stadt 19 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen sind u. a. Alkohol (82 Beteiligte), Missachtung der Vortrittsregelungen (141 Beteiligte) sowie Missachten von Signalen und Zeichengebung (50 Beteiligte).",
+		"erlaeuterungen": "Am Verkehrsunfall beteiligte Fussgänger oder Fahrzeuglenkende (ohne Mitfahrende), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.), Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z. B. Griff ins Lenkrad). Pro Unfall (und auch pro beteiligtes Objekt) können mehrere mutmassliche Ursachen gemeldet werden.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
 		],
@@ -41117,7 +41117,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Verkehrsteilnehmende nach ausgewählten Unfallursachen",
+		"description": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
 		"thema": "11 Verkehr",
 		"unterthema": "Strassenverkehrsunfälle",
 		"kuerzel": "I.11.7.09287",
