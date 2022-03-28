@@ -42069,5 +42069,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-02-16T07:09:28",
 		"id": 9475
+	},
+	{
+		"template": "template001",
+		"data-id": 9518,
+		"chart-id": 9518,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Destinationen EuroAirport",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"EuroAirport Basel Mulhouse Freiburg"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Destinationen EuroAirport",
+		"thema": "11 Verkehr",
+		"unterthema": "Luftverkehr",
+		"kuerzel": "I.11.3.09518",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-28T01:37:01",
+		"id": 9518
 	}
 ];
