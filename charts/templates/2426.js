@@ -1,53 +1,57 @@
-(function(){
-    return {
- "xAxis": {
-    "tickInterval": 12,
-     "type": "category",
-     labels:{
-     		"formatter": function() {
-   			 return this.value.split("-").slice(0, -1);
-		},
-     }
-  },
-  "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}",
-		"formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+''; 
-      },
-	}
-  },	
-  tooltip: {
-  "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>' 
+
+(function () {
+  return {
+    "xAxis": {
+      "type": "category",
+      "tickInterval": 12,// * 24 * 3600 * 1000 * 30
+      tickWidth: 1,
+      tickLength: 25,
+      //tickmarkPlacement:"between",
+      
+      labels: {
+        x: 20,
+        "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        },
+      }
     },
-  },
- "series": [
- 	{"color": "#B00000"},/**/
-	{"color": "#008AC3"}, /**/	  
-	{"color": "#083038"}, /**/
-	{"color": "#FF8028"}, /**/
-
-
-	  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    itemDistance: 10,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
+    "yAxis": {
+      "labels": {
+        "format": "{value:,.0f}",
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        },
+      }
+    },
+    tooltip: {
+      "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>'
+      },
+    },
+    "series": [
+      { "color": "#B00000" },/**/
+      { "color": "#008AC3" }, /**/
+      { "color": "#083038" }, /**/
+      { "color": "#FF8028" }, /**/
+    ],
+    "legend": {
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "itemMarginBottom": 5,
+      itemDistance: 10,
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
+    },
+    "plotOptions": {
+      "line": {
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
+        }
+      }
     }
   }
-}
 }());
