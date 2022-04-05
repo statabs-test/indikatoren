@@ -9,9 +9,9 @@
       //tickmarkPlacement:"between",    
       labels: {
         x: 20,
-        /*"formatter": function () {
+        "formatter": function () {
           return this.value.split("-").slice(0, -1);
-        },*/
+        },
       }
     },
     "yAxis": {
