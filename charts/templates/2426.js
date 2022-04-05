@@ -6,13 +6,12 @@
       "tickInterval": 12,// * 24 * 3600 * 1000 * 30
       tickWidth: 1,
       tickLength: 25,
-      //tickmarkPlacement:"between",
-      
+      //tickmarkPlacement:"between",    
       labels: {
         x: 20,
-        "formatter": function () {
+        /*"formatter": function () {
           return this.value.split("-").slice(0, -1);
-        },
+        },*/
       }
     },
     "yAxis": {
