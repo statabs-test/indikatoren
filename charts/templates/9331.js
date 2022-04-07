@@ -65,12 +65,13 @@
       type: "category",
   "labels": {
           	step: 1,
-              "rotation":-45,
         }  
 
   },
   yAxis: [
       {
+        tickAmount: 5,
+        max: 400000000,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -91,6 +92,7 @@
       {
         opposite: true,
         min: 0,
+        tickAmount: 5,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -131,21 +133,20 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemDistance: 5,
     "itemStyle": {
     	"fontWeight": "normal",
-  	},
-    labelFormatter: function(){
-    	return this.name.replace(' (', '<br/>(');
-  	},
+  	}
   },
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  chart: {
-        type: 'column',
-             
- }
+  "chart": {
+    type: "column",
+    width: 662,
+    height: 208,
+}
 	};
 }());
 

@@ -2,6 +2,8 @@
   return {
     "yAxis": {
       "min": 0,
+      max: 80000,
+      tickAmount:9,
       title: {
         text: null,
         "color": "#000000",
@@ -28,8 +30,6 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 140,
-      "itemMarginBottom": 5,
       "itemStyle": {
         "fontWeight": "normal",
         textOverflow: 'nowrap',
@@ -92,7 +92,9 @@
       //"shared": true
     },
     "chart": {
-      "alignTicks": false
+      "alignTicks": false,
+      width: 662,
+      height: 208,
     }
   };
 }());

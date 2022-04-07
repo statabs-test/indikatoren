@@ -2,7 +2,7 @@
   return {
     "yAxis": {
     	"min": 0,
-      //"max": 200000,
+      tickAmount: 7,
     	title: {
           text: null,
           "color": "#000000",
@@ -29,8 +29,6 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 140,
-  	  "itemMarginBottom": 5,
       "itemStyle": {
         "fontWeight": "normal", 
         textOverflow: 'nowrap',
@@ -68,7 +66,6 @@
         "type": "column",
         pointPadding: 0,
         borderWidth: 0,
-        //"pointWidth": "8",
         legendIndex: 3,
   	  "tooltip": {
     			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
@@ -93,7 +90,9 @@
     	    //"shared": true
   		   },
     "chart": {
-      "alignTicks": false
+      "alignTicks": false,
+      width: 662,
+      height: 208,
     }
   };
 }());

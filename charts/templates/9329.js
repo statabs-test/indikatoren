@@ -12,6 +12,7 @@
     },
     "min": 0,
     "max": undefined,
+    tickAmount: 7,
     "title": ""
   },
   {
@@ -39,14 +40,13 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-  {"color": "#45381D"}, /**/
-  {"color": "#CD9C00"}, /**/
+  {"color": "#45381D"},
+  {"color": "#CD9C00"},
   ],
    "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    //"itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -59,6 +59,10 @@
         "symbol": "circle",
       } 
     }
+  },
+  "chart": {
+    width: 662,
+    height: 208,
   }
 }
 }());

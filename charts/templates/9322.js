@@ -12,6 +12,7 @@
     },
     "min": 0,
     "max": undefined,
+    tickAmount: 7,
     "title": ""
   },
   {
@@ -29,7 +30,7 @@
       }
     },
     "min": 0,
-    "max": 450000000,
+    tickAmount: 7,
     "gridLineWidth": 0,
     "opposite": true
   }
@@ -47,7 +48,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    //"itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -60,6 +60,10 @@
         "symbol": "circle",
       } 
     }
+  },
+  "chart": {
+    width: 662,
+    height: 208,
   }
 }
 }());

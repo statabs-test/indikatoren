@@ -12,7 +12,7 @@
     },
     "min": 0,
     "max": undefined,
-    tickAmount: 7,
+    tickAmount: 6,
     "title": ""
   },
   {
@@ -30,8 +30,8 @@
       }
     },
     "min": 0,
-    "max": 1500000000,
-    tickAmount: 7,
+    //"max": 1500000000,
+    tickAmount: 6,
     "gridLineWidth": 0,
     "opposite": true
   }

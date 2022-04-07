@@ -17,6 +17,7 @@
   },
   "yAxis": [
     {
+      tickAmount: 7,
       "labels": {
         "format": "{value:,.0f}"
       }, 
@@ -26,6 +27,7 @@
       "title": "",
     },
     {
+      tickAmount: 7,
       opposite: true,
       "labels": {
         "format": "{value:,.0f}"
@@ -69,14 +71,18 @@
   },
   ],
   "legend": {
+   // margin: 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemWidth: 190,
     "itemStyle": {
-      "fontWeight": "normal"
-    }, 
-    itemDistance: 5,
+      "fontWeight": "normal",
+      textOverflow: 'nowrap',
+      whiteSpace: "nowrap"
+    },
+    itemDistance: 0,
     labelFormatter: function(){
       return this.name.replace(" (", "<br/>(");
     },
@@ -86,7 +92,9 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    width: 662,
+    height: 208,
   }
 }
 }());

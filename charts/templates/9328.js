@@ -1,8 +1,9 @@
 (function () {
   return {
     "yAxis": [{
-      tickAmount: 5,
+      tickAmount: 8,
       min: 0,
+      max: 210000000,
       title: {
         text: null,
         "color": "#000000",
@@ -17,8 +18,9 @@
 
     },
     {
-      tickAmount: 5,
+      tickAmount: 8,
       min: 0,
+      max: 2100000000,
       "title": {
         "style": {
           "color": "#000000",
@@ -47,8 +49,7 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 140,
-      "itemMarginBottom": 5,
+      itemDistance: 5,
       "itemStyle": {
         "fontWeight": "normal",
         textOverflow: 'nowrap',
@@ -89,7 +90,6 @@
         "yAxis": 0,
         pointPadding: 0,
         borderWidth: 0,
-        //"pointWidth": "8",
         legendIndex: 3,
         "tooltip": {
           "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
@@ -115,7 +115,9 @@
       //"shared": true
     },
     "chart": {
-      "alignTicks": false
+      "alignTicks": false,
+      width: 662,
+      height: 208,
     }
   };
 }());

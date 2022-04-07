@@ -3,29 +3,96 @@
 	global geojson_wohnviertelEPSG2056
 	global $
 */
+
+var legendPosition = {
+	blockChoropleth: {
+		x: 518, // Customizable
+		y: -5,  // Customizable
+		title: {
+			y: [320, 302, 285],
+			x: 525, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [750,745], // Customizable
+		y: [377, 402, 427, 452], // Customizable
+		y3C: [382, 412, 442],
+		y4S: [365, 390, 420, 445],
+		numbers: {
+			x: 0,
+			y: [365, 390, 420, 445], // Customizable
+			y3C: [370, 400, 430],
+			y4S: [378, 403, 433, 458]
+		},
+		title: {
+			x: 0
+		}
+	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 3; i++) {
+	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
+};
+
 (function(){
 
     return {
-    	"legend": {
-    		"x": -15,
-			"y": 25,
-			"title": {
-				"text": ""
-			}
+		"legend": 
+		{
+			useHTML: true,
+			"title": 
+			{
+				"text": null, 
+				style: 
+				{
+					fontWeight: 'normal',
+					fontSize: "15px"
+				}
 			},
-		"colorAxis": {
-			min: 0,
-			max: 40000,
-			tickInterval: 20000,
-			"minColor": "#ECE1D0",
-			"maxColor": "#3A2012",
-			labels: {
-				formatter: function () {
-					return Highcharts.numberFormat(this.value,0); 
-				}, 
+			"layout": "vertical",
+			//"verticalAlign": "middle",
+			"align": "left",
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
+			itemMarginBottom: 2, 
+			symbolRadius: 0,
+			itemStyle: 
+			{
+				fontWeight: 'normal',
+				fontSize: "15px"
 			}
-			
 		},
+		colorAxis: {
+		            dataClassColor: 'category',
+		                   dataClasses: [{
+		                to: 6999.999,
+		                color: '#ECE1D0',
+		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;7000"
+		            }, {
+		                from: 7000,
+		                to:  9999.999,
+		                color: '#C4AB91',
+		                name: "&nbsp;&nbsp;&nbsp;7000 − &nbsp;&nbsp;&nbsp;9999"
+		            }, {
+		                from: 10000,
+		                to: 14999.999,
+		                 color: '#9E7C59',
+		                 name: "&nbsp;10000 − &nbsp;14999"
+		            },{
+		                from: 15000,
+		                to: 24999.999,
+		                 color: '#67401E',
+		                 name: "<15000 − 24999"
+		            },{
+		                from: 25000,
+		                color: '#3A2012',
+		                name: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;25000"
+		            }], 
+        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -42,7 +109,7 @@
 		      {
 		      	x: 0, 
 		      	y: 5
-		      },
+		      }
 		    ]
         },
 		"series": [
@@ -59,11 +126,11 @@
 						"borderColor": '#BADA55',
 						"brightness": 0
 					}
-				}, 
+				},  
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat(this.value, 0) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
 					}
 				}
 			}, 
@@ -77,13 +144,12 @@
 				borderColor: '#B00000'
 
 			}, 
-				{
+			{
 				visible: false,
 				type: 'pie',
-				color: '#FABD24',
-				borderColor: '#FABD24'
-
-			}, 
+        		color: '#FABD24',
+        		borderColor: '#FABD24'
+			}
 		],
 		chart: {
 			events: {
@@ -96,12 +162,12 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
-					var pieSeries = [chart.series[3], chart.series[4], ];
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
+					var pieSeries = [chart.series[2], chart.series[3]];
 
 					//pie diameters in px
-					var maxPieDiameter = 30;
+					var maxPieDiameter = 20;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
@@ -117,7 +183,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' % </b><br/>';
 	                            }
 	                        },
 	                    };
@@ -125,67 +191,25 @@
 					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
+	                
 
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 221, 230, 101, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 330, 230, 60, '#fbfbfb');
-
-                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 221, undefined, true);
-					fn.addLegendSquare(chart, 255, 245, 10, '#B00000');
-					fn.addLegendLabel(chart, 'Einkommens-<br/>steuer', 265, 239);
-					fn.addLegendSquare(chart, 255, 285, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Vermögens-<br/>steuer', 265, 279);
-					
-					//pie values in legend
-	                var minValueInLegend = 10000000; 
-	                var maxValueInLegend = 200000000; 
-	                
-	                fn.addLegendCircle(chart, 359, 250, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
-	                fn.addLegendCircle(chart, 360, 302, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
-	                
-					var zoomableLabels = [];
-	                zoomableLabels.push({
-	                	chart: chart, 
-	                	text: Highcharts.numberFormat((minValueInLegend), 0, "," ," "), 
-	                	x: 455, 
-	                	y: 239, 
-	                	cssClass: 'pieLegendRecalculateOnZoom', 
-	                	useHtml: false, 
-	                	initialValue: minValueInLegend,
-	                	align: 'right',
-	                	legendLabelZoomFormatter: function(value){
-	                		return Highcharts.numberFormat((value), 0, ",", " ");
-	                	},					
-	                }); 
-	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
-	                //copy first label but overwrite some properties
-	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
-	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
-	                	y: 281,
-	                	initialValue: maxValueInLegend,
-	                }));
-	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                					
-					
-					
-					
-					fn.addLegendTitle(chart, choroplethSeries.name, 250, 330);
-
-					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
-					
-					chart.update(
-					{
-						xAxis: {
-				    		events: {
-								//recalculate and hide svg elements on zoom
-								afterSetExtremes: function(e){
-									var fn = this.chart.userOptions.customFunctions;
-									fn.recalculateOnZoom(e, zoomableLabels);
-								}
-				    		}
-						}
-					});					
-	            }
+                	
+                //	var legendTop = 280;
+                //	var legendLeft = 520;;
+                	
+                	var legendTop = 190;
+                	var legendLeft = 350;;
+                	
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#B00000");
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0],  'Anteil Einkommenssteuer');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "#FABD24");
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1],  'Anteil Vermögenssteuer');
+					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Mittelwert in Fr.<br>pro Veranlagung', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Summe in Mio. Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+				}
 			}
 		}
 	};

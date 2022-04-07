@@ -3,14 +3,15 @@
   plotOptions: {
         series: {
         	"stacking": "normal",
-            pointPadding: 0,
-            groupPadding: 0.5, // exaclty overlaps columns
+            pointPadding: 0.2,
+            groupPadding: 0.2, // exaclty overlaps columns
             borderWidth: 0
         }
   },
   
   yAxis: [
       {
+        tickAmount: 6,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -31,7 +32,8 @@
       {
         opposite: true,
         min: 0,
-        max: 11000,
+        max: 12500,
+        tickAmount: 6,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -60,10 +62,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-  	"itemMarginBottom": 5,
-  	itemDistance: 2,
-  	padding: 1, 
-  	//symbolPadding: 5,
+  	itemDistance: 5,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -73,21 +72,21 @@
       "color": "#007a2f",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
+      //"pointWidth": "15",
       legendIndex: 0
     },
     {
       "color": "#DC440E",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
+      //"pointWidth": "15",
       legendIndex: 1
     },
     {
       "color": "#B00000",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
+      //"pointWidth": "15",
       legendIndex: 2
     },
 	{   
@@ -107,5 +106,9 @@
   "tooltip": {
     "shared": true
   },
+  "chart": {
+    width: 662,
+    height: 208,
+  }
 };
 }());

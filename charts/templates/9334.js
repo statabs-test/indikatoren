@@ -1,21 +1,24 @@
 (function(){
     return {
     "yAxis":{
-    tickInterval:25,
+    tickInterval:10,
+    labels: {
+      x: -7,
+    }
     },
    
  	"xAxis": {
         "type": "category",
         "labels": {
-            "formatter": function() {
-                  	 return this.value;
-            }
-        } 
+          "formatter": function () {
+            return this.value.replace("Summe Gesamtsteuer", "Summe<br>Gesamtsteuer");
+          }
+        }
   },  
   plotOptions: {
   	column: {
-  		pointWidth: 50,
-  		groupPadding: 0,
+  		groupPadding: 0.1,
+      pointPadding: 0.2
   	}
   },
  "series": [
@@ -31,7 +34,8 @@
   "legend": { 
     "enabled": true,
     "layout": "vertical",
-    itemDistance: 5, 
+    symbolPadding: 2,
+    itemDistance: 2,
     "verticalAlign": "middle",
     "align": "right",
     "itemStyle": {
