@@ -71,26 +71,26 @@ for (i = 0; i < 3; i++) {
 		                   dataClasses: [{
 		                to: 6999.999,
 		                color: '#ECE1D0',
-		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;7000"
+		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;7 000"
 		            }, {
 		                from: 7000,
 		                to:  9999.999,
 		                color: '#C4AB91',
-		                name: "&nbsp;&nbsp;&nbsp;7000 − &nbsp;&nbsp;&nbsp;9999"
+		                name: "&nbsp;&nbsp;&nbsp;7 000 − &nbsp;&nbsp;&nbsp;9 999"
 		            }, {
 		                from: 10000,
 		                to: 14999.999,
 		                 color: '#9E7C59',
-		                 name: "&nbsp;10000 − &nbsp;14999"
+		                 name: "&nbsp;10 000 − &nbsp;14 999"
 		            },{
 		                from: 15000,
 		                to: 24999.999,
 		                 color: '#67401E',
-		                 name: "<15000 − 24999"
+		                 name: "&nbsp;15 000 − &nbsp;24 999"
 		            },{
 		                from: 25000,
 		                color: '#3A2012',
-		                name: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;25000"
+		                name: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;25 000"
 		            }], 
         },
         "data": {
@@ -202,13 +202,24 @@ for (i = 0; i < 3; i++) {
                 	var legendLeft = 350;;
                 	
 					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#B00000");
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0],  'Anteil Einkommenssteuer');
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[0],  'Anteil Einkommenssteuer');
 					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "#FABD24");
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1],  'Anteil Vermögenssteuer');
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[1],  'Anteil Vermögenssteuer');
 					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Mittelwert in Fr.<br>pro Veranlagung', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
 					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Summe in Mio. Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+					
+					//pie values in legend
+					var minValueInLegend = 10000000; 
+					var maxValueInLegend = 200000000; 
+										
+					fn.addLegendCircle(chart, 		legendPosition.blockSymbol.x[1]+7, legendPosition.blockSymbol.y4S[0]+70, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
+					fn.addLegendCircle(chart, 		legendPosition.blockSymbol.x[1]+7, legendPosition.blockSymbol.y4S[0]+100, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+12, legendPosition.blockSymbol.numbers.y4S[0]+60,  Highcharts.numberFormat(minValueInLegend,0,));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[0]+90,  Highcharts.numberFormat(maxValueInLegend,0,));
+
+
 				}
 			}
 		}
