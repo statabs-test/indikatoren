@@ -71,7 +71,7 @@ for (i = 0; i < 3; i++) {
 		                   dataClasses: [{
 		                to: 6999.999,
 		                color: '#ECE1D0',
-		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;7 000"
+		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;7 000"
 		            }, {
 		                from: 7000,
 		                to:  9999.999,
@@ -90,7 +90,7 @@ for (i = 0; i < 3; i++) {
 		            },{
 		                from: 25000,
 		                color: '#3A2012',
-		                name: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;25 000"
+		                name: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;&nbsp;25 000"
 		            }], 
         },
         "data": {
