@@ -84,7 +84,7 @@
         function drawLine(points) {
           return this.renderer.path(['M', points.x1, points.y1, 'L', points.x2, points.y2])
             .attr({
-              'stroke-width': 1,
+              'stroke-width': 0.4,
               stroke: 'black',
               zIndex: 3
             })

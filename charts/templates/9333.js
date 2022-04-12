@@ -76,7 +76,7 @@
       legendIndex: 0
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "index": 0,
       "type": "column",
       //"pointWidth": "15",

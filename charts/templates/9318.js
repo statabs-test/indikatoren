@@ -26,8 +26,11 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     width: 662,
-    itemDistance: 7,
+    itemDistance: 5,
     "align": "left",
+    "labelFormatter": function () {
+      return this.name.replace('Bevölkerung', 'Wohnbevölkerung');
+  },
     "itemStyle": {
       "fontWeight": "normal"
     }

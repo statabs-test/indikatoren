@@ -3,22 +3,24 @@
    "chart": {
     width: 662, 
   	height: 208,
-    "type": "area",
+    type: "column",
+    //"type": "area",
    },
   plotOptions: {
-        /*series: {
+        series: {
         	"stacking": "normal",
-			pointPadding: 0,
+			      pointPadding: 0,
+            groupPadding: 0.2,
             borderWidth: 0,
-            pointWidth: 10, 
-
-        }*/
-         area: {
-            stacking: 'normal',
-            //lineColor: '#666666',
-            lineWidth: 0,
+            pointWidth: 2, 
 
         }
+        /*
+         area: {
+            stacking: 'normal',
+            lineWidth: 0,
+
+        }*/
   },
   "yAxis": {
     tickAmount: 9,
@@ -36,6 +38,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "labelFormatter": function () {
+      return this.name.replace('Bevölkerung', 'Wohnbevölkerung');
+  },
     "itemStyle": {
     "fontWeight": "normal"
     }

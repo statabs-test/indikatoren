@@ -79,11 +79,15 @@
     "verticalAlign": "top",
     "align": "left",
     width: 662,
-    itemWidth: 220,
+    itemWidth: 310,
     itemDistance: 0,
-   /* labelFormatter: function(){
-        return this.name.replace("und ", "und<br/>");
-    },*/
+    itemMarginBottom: 0,
+    "labelFormatter": function () {
+      return this.name.replace('Anteil NP', 'Anteil natürliche Personen')
+      .replace('Anteil JP', 'Anteil juristische Personen')
+      .replace('(JP)', 'juristischer Personen')
+      .replace('(NP)', 'natürlicher Personen');
+  },
     "itemStyle": {
         "fontWeight": "normal",
         textOverflow: "none",

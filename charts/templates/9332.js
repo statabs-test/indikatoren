@@ -6,15 +6,15 @@
 
 var legendPosition = {
 	blockChoropleth: {
-		x: 518, // Customizable
+		x: 435, // Customizable: vorher 518
 		y: -5,  // Customizable
 		title: {
 			y: [320, 302, 285],
-			x: 525, // Customizable
+			x: 442, // Customizable vorher 525
 		}
 	},
 	blockSymbol: {
-		x: [750,745], // Customizable
+		x: [645,640], // Customizable vorher 750
 		y: [377, 402, 427, 452], // Customizable
 		y3C: [382, 412, 442],
 		y4S: [365, 390, 420, 445],
@@ -152,6 +152,8 @@ for (i = 0; i < 3; i++) {
 			}
 		],
 		chart: {
+			"width": 830,// evtl. wieder löschen
+            "height": 484,
 			events: {
 	            load: function (e) {
 	            	
@@ -206,7 +208,7 @@ for (i = 0; i < 3; i++) {
 					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "#FABD24");
 					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[1],  'Anteil Vermögenssteuer');
 					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Mittelwert in Fr.<br>pro Veranlagung', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Summe in Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Summe in Mio. Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 					
@@ -216,8 +218,8 @@ for (i = 0; i < 3; i++) {
 										
 					fn.addLegendCircle(chart, 		legendPosition.blockSymbol.x[1]+7, legendPosition.blockSymbol.y4S[0]+70, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
 					fn.addLegendCircle(chart, 		legendPosition.blockSymbol.x[1]+7, legendPosition.blockSymbol.y4S[0]+100, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+22, legendPosition.blockSymbol.numbers.y4S[0]+60,  Highcharts.numberFormat(minValueInLegend,0,));
-					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+15, legendPosition.blockSymbol.numbers.y4S[0]+90,  Highcharts.numberFormat(maxValueInLegend,0,));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+22, legendPosition.blockSymbol.numbers.y4S[0]+60,  Highcharts.numberFormat(minValueInLegend/1000000,0,));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+15, legendPosition.blockSymbol.numbers.y4S[0]+90,  Highcharts.numberFormat(maxValueInLegend/1000000,0,));
 
 
 				}
