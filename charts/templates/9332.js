@@ -6,15 +6,15 @@
 
 var legendPosition = {
 	blockChoropleth: {
-		x: 435, // Customizable: vorher 518
+		x: 518, // Customizable
 		y: -5,  // Customizable
 		title: {
 			y: [320, 302, 285],
-			x: 442, // Customizable vorher 525
+			x: 525, // Customizable
 		}
 	},
 	blockSymbol: {
-		x: [645,640], // Customizable vorher 750
+		x: [750,745], // Customizable
 		y: [377, 402, 427, 452], // Customizable
 		y3C: [382, 412, 442],
 		y4S: [365, 390, 420, 445],
@@ -152,8 +152,6 @@ for (i = 0; i < 3; i++) {
 			}
 		],
 		chart: {
-			"width": 830,// evtl. wieder löschen
-            "height": 484,
 			events: {
 	            load: function (e) {
 	            	
