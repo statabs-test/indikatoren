@@ -2129,6 +2129,12 @@ id | visible | visibleInPortal | indikatorenset
 9491 | true | true | Arbeitsmarkt
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
+9602 | true | true | 
+9603 | true | true | 
+9604 | true | true | 
+9605 | true | true | 
+9606 | true | true | 
+9607 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
