@@ -46,6 +46,17 @@
           },{
               ParentId: '2',
           }]},
+          dataLabels: {
+            enabled: true,
+            format: '{point.percentage:.1f}%',
+            distance: -57,
+            style: {
+                color: 'black',
+                textOutline: "0px black", 
+                fontWeight: "normal", 
+                fontSize: "12px"
+            }
+},
           
             showInLegend: false,
             type: 'pie',
@@ -54,7 +65,7 @@
             center: [180,120],
           borderWidth: 2,
             colors: [
-                "#008ac3",
+                "#A0BEC8",
                 "#DC440E",
  
            
@@ -67,6 +78,17 @@
           },{
               id: '2',
           }]},
+          dataLabels: {
+            enabled: true,
+            format: '{point.percentage:.1f}%',
+            distance: -20,
+            style: {
+                color: 'black',
+                textOutline: "0px black", 
+                fontWeight: "normal", 
+                fontSize: "12px"
+            }
+},
             showInLegend: true,
             type: 'pie',
             innerSize: '70%',
@@ -74,7 +96,7 @@
           borderWidth: 2,
              colors: [
                 "#008ac3",
-                "#DC440E",
+                "#B00000",
             ],
         }],
         
@@ -91,20 +113,9 @@
       top: '250px'
     }
   }]
-}
-		/*dataLabels: {
-		                enabled: true,
-		                format: '{point.percentage:.1f}',
-		                distance: 1,
-		                style: {
-		                    color: 'black',
-		                    textOutline: "0px black", 
-                        fontWeight: "normal", 
-                        fontSize: "12px"
-		                }
-	      }
-      }
-      */
+},
+      
+      
      
     };
 }());

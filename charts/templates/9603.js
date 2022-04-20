@@ -20,10 +20,10 @@
     {
         upColor: "#68AB2B",
         color: "#B00000",
-
     },
- 
+    
   ],
+
   "legend": {
     "enabled": false,
     "layout": "horizontal",
