@@ -42407,7 +42407,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Güterverkehrsumschlag auf dem Rhein",
-		"subtitle": "2021 gegenüber Mittel 2011-2020",
+		"subtitle": "in Tausend Tonnen",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -42445,7 +42445,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Umschlag nach Warengattung",
-		"subtitle": "Zufuhr",
+		"subtitle": "Zufuhr, in Tausend Tonnen",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -42483,7 +42483,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Umschlag nach Warengattung",
-		"subtitle": "Abfuhr",
+		"subtitle": "Abfuhr, in Tausend Tonnen",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [

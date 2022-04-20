@@ -4,13 +4,24 @@
       "data": [
         [
           "Zufuhr",
-          4951289.723
+          4484.631073
         ],
         [
           "Abfuhr",
-          1009790.315
+          922.635175
         ]
       ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": -57,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
       "showInLegend": false,
       "type": "pie",
       "size": "100%",
@@ -21,23 +32,34 @@
       ],
       "borderWidth": 2,
       "colors": [
-        "#008ac3",
+        "#A0BEC8",
         "#DC440E"
       ],
-      "name": "Mittel 2011-2020",
+      "name": "2021",
       "turboThreshold": 0
     },
     {
       "data": [
         [
           "Zufuhr",
-          4484631.073
+          4951.289723
         ],
         [
           "Abfuhr",
-          922635.175
+          1009.790315
         ]
       ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.1f}%",
+        "distance": -20,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
       "showInLegend": true,
       "type": "pie",
       "innerSize": "70%",
@@ -48,9 +70,9 @@
       "borderWidth": 2,
       "colors": [
         "#008ac3",
-        "#DC440E"
+        "#B00000"
       ],
-      "name": "2021",
+      "name": "Mittel 2011-2020",
       "turboThreshold": 0
     }
   ],
@@ -131,7 +153,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2021 gegenüber Mittel 2011-2020",
+    "text": "in Tausend Tonnen",
     "align": "left"
   },
   "tooltip": {
