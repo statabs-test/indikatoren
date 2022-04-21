@@ -2,12 +2,14 @@
     return {
       xAxis: {
         tickPositioner: function () {
-          var interval = 10,
+          var maxlabels = 11,
             ext = this.getExtremes(),
-            i = ext.dataMax,
+            i = Math.round(ext.max)-1,
+            interval = Math.round((i - ext.min)/maxlabels),
             pos = [i];
-          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          while (i >= ext.min) pos.unshift(i = i - interval);
           return pos;
+          
         }
       },
   "yAxis": {
