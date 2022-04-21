@@ -1,16 +1,15 @@
 (function(){
     return {
-        xAxis: {
-            tickPositioner: function () {
-              var maxlabels = 11,
-                ext = this.getExtremes(),
-                i = Math.round(ext.max),
-                interval = Math.round((i - ext.min)/maxlabels),
-                pos = [i];
-              while (i >= ext.min) pos.unshift(i = i - interval);
-              return pos;
-            }
-          },
+      xAxis: {
+        tickPositioner: function () {
+          var interval = 10,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
+      },
   "yAxis": {
   "labels": {
     "format": "{value:,.0f}"
