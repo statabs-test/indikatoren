@@ -3,6 +3,7 @@
     {
       "color": "#007A2F",
       "index": 9,
+      "legendIndex": 0,
       "data": [
         [
           2011,
@@ -49,11 +50,12 @@
           207.691334
         ]
       ],
-      "name": "Landwirtschaftliche Erzeugnisse"
+      "name": "Landwirtschaftl. Erzeugnisse"
     },
     {
       "color": "#73B97C",
       "index": 8,
+      "legendIndex": 1,
       "data": [
         [
           2011,
@@ -105,6 +107,7 @@
     {
       "color": "#008AC3",
       "index": 7,
+      "legendIndex": 2,
       "data": [
         [
           2011,
@@ -156,6 +159,7 @@
     {
       "color": "#FABD24",
       "index": 6,
+      "legendIndex": 3,
       "data": [
         [
           2011,
@@ -202,11 +206,12 @@
           2332.819372
         ]
       ],
-      "name": "Erdöl. Mineralölerzeugnisse"
+      "name": "Erdöl, Mineralölerzeugnisse"
     },
     {
       "color": "#FF8028",
       "index": 5,
+      "legendIndex": 4,
       "data": [
         [
           2011,
@@ -258,6 +263,7 @@
     {
       "color": "#9E7C59",
       "index": 4,
+      "legendIndex": 5,
       "data": [
         [
           2011,
@@ -304,11 +310,12 @@
           246.818459
         ]
       ],
-      "name": "Eisen. Stahl. NE-Metalle"
+      "name": "Eisen, Stahl, NE-Metalle"
     },
     {
       "color": "#DC440E",
       "index": 3,
+      "legendIndex": 6,
       "data": [
         [
           2011,
@@ -355,11 +362,12 @@
           697.152177
         ]
       ],
-      "name": "Steine. Erden. Baustoffe"
+      "name": "Steine, Erden, Baustoffe"
     },
     {
       "color": "#67401E",
       "index": 2,
+      "legendIndex": 7,
       "data": [
         [
           2011,
@@ -411,6 +419,7 @@
     {
       "color": "#CD9C00",
       "index": 1,
+      "legendIndex": 8,
       "data": [
         [
           2011,
@@ -462,6 +471,7 @@
     {
       "color": "#689199",
       "index": 0,
+      "legendIndex": 9,
       "data": [
         [
           2011,
@@ -508,7 +518,7 @@
           267.109698
         ]
       ],
-      "name": "Fahrzeuge. Maschinen. übrige Güter"
+      "name": "Fahrzeuge, Maschinen, übrige"
     }
   ],
   "chart": {

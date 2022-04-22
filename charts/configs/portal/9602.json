@@ -842,7 +842,7 @@
           7.942010352
         ]
       ],
-      "name": "Anteil der Import und Exporte über den Rhein (in %)"
+      "name": "Anteil der Import und Exporte über den Rhein (rechte Skala)"
     }
   ],
   "chart": {
@@ -926,14 +926,14 @@
       }
     },
     "tickPositioner": function () {
-              var maxlabels = 12,
-                ext = this.getExtremes(),
-                i = Math.round(ext.max),
-                interval = Math.round((i - ext.min)/maxlabels),
-                pos = [i];
-              while (i >= ext.min) pos.unshift(i = i - interval);
-              return pos;
-            }
+          var maxlabels = 11,
+            ext = this.getExtremes(),
+            i = Math.round(ext.max),
+            interval = Math.round((i - ext.min)/maxlabels),
+            pos = [i];
+          while (i >= ext.min) pos.unshift(i = i - interval);
+          return pos;
+        }
   },
   "yAxis": [
     {

@@ -4,7 +4,7 @@
         tickPositioner: function () {
           var maxlabels = 11,
             ext = this.getExtremes(),
-            i = Math.round(ext.max)-1,
+            i = Math.round(ext.max),
             interval = Math.round((i - ext.min)/maxlabels),
             pos = [i];
           while (i >= ext.min) pos.unshift(i = i - interval);
