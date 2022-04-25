@@ -1,6 +1,7 @@
 (function () {
     return {
       xAxis: {
+        type: "category",
         tickPositioner: function () {
           var maxlabels = 11,
             ext = this.getExtremes(),

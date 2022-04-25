@@ -20,12 +20,14 @@
   },	
   "tooltip": {
     "shared": false, 
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> TEU<br/>'
   },
   "series": [
-    {"color": "#008ac3"
+    {"color": "#68AB2B",
+    type: "column"
     }, 
-    {"color": "#dc440e",
+    {"color": "#FABD24",
+    type: "column"
     }, 
     {"color": "#3c3c3c",
   }, 

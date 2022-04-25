@@ -80947,8 +80947,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Aussenhandel der Schweiz und Schiffsgüterverkehr auf dem Rhein",
 		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2021 belief sich der Aussenhandel, welcher über den Rhein abgewickelt wurde, auf 5,4 Mio. Tonnen; das sind rund 8 Prozent des Aussenhandels der Schweiz (68,1 Mio. Tonnen). Davon entfielen 4,5 Mio. Tonnen auf die Importe und 0,9 Mio. Tonnen auf die Exporte.",
+		"erlaeuterungen": "Die Schweiz gehört zu den Ländern mit den höchsten Anteilen des Aussenhandels am Bruttoinlandprodukt. Ein Teil des Güteraussenhandels wird per Schiff über die Schweizer Grenze transportiert. Der Indikator zeigt die Bedeutung des Schiffverkehrs für den gesamten Aussenhandel der Schweiz.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen",
 			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
@@ -81166,6 +81166,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-04-19T03:20:57",
 		"id": 9607
+	},
+	{
+		"template": "template001",
+		"data-id": 9608,
+		"chart-id": 9608,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wasserseitiger Containerumschlag",
+		"subtitle": "in TEU",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Schweizerische Rheinhäfen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wasserseitiger Containerumschlag",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09608",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-25T10:05:47",
+		"id": 9608
 	},
 	{
 		"title": "Test Daten",
