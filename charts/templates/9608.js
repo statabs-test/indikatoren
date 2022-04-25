@@ -49,8 +49,12 @@
         "enabled": false,
         "symbol": "circle",
       }
+    },
+    column: {
+      pointPadding: 0.2,
+      groupPadding: 0.1,
     }
-  },
+      },
   chart:{
       marginRight: 20,
   }
