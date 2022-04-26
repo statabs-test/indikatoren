@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#dc440e",
+      "color": "#68AB2B",
+      "type": "column",
       "data": [
         [
           "1980",
@@ -176,7 +177,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008ac3",
+      "color": "#FABD24",
+      "type": "column",
       "data": [
         [
           "1980",
@@ -605,6 +607,10 @@
         "enabled": false,
         "symbol": "circle"
       }
+    },
+    "column": {
+      "pointPadding": 0.2,
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -677,7 +683,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E TEU\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9608"

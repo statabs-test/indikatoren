@@ -1,6 +1,9 @@
 (function(){
     return {
       xAxis: {
+        labels:{
+          rotation: 0,
+        },
         type: "category",
         tickPositioner: function () {
           var maxlabels = 11,
