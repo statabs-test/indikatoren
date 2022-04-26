@@ -42293,7 +42293,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Aussenhandel der Schweiz und Schiffsgüterverkehr auf dem Rhein",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2021 belief sich der Aussenhandel, welcher über den Rhein abgewickelt wurde, auf 5,4 Mio. Tonnen; das sind rund 8 Prozent des Aussenhandels der Schweiz (68,1 Mio. Tonnen). Davon entfielen 4,5 Mio. Tonnen auf die Importe und 0,9 Mio. Tonnen auf die Exporte.",
+		"lesehilfe": "Der Anteil der per Schiff umgeschlagene Güter erreichte 1960 den Höchstwert von 41,2%. Seither ist ein abnehmender Trend zu beobachten; die Rheinschifffahrt hat zunehmend Marktanteile an Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 8,5%. Im Jahr 2021 belief sich der Aussenhandel, welcher über den Rhein abgewickelt wurde, auf 5,4 Mio. Tonnen; das sind rund 8 Prozent des Aussenhandels der Schweiz (68,1 Mio. Tonnen). Davon entfielen 4,5 Mio. Tonnen auf die Importe und 0,9 Mio. Tonnen auf die Exporte.",
 		"erlaeuterungen": "Die Schweiz gehört zu den Ländern mit den höchsten Anteilen des Aussenhandels am Bruttoinlandprodukt. Ein Teil des Güteraussenhandels wird per Schiff über die Schweizer Grenze transportiert. Der Indikator zeigt die Bedeutung des Schiffverkehrs für den gesamten Aussenhandel der Schweiz.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen",
@@ -42371,7 +42371,7 @@ var indikatoren = [
 		"title": "Güterverkehrsumschlag auf dem Rhein seit 1911",
 		"subtitle": "in Tausend Tonnen",
 		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagvolumen 9,3 Mio. Tonnen. Seither werden weniger Güter umgeschlagen. Hemmend darauf hat sich die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene ausgewirkt. 2021 betrug der Umschlag der Schweizer Rheinhäfen 5,4 Mio. Tonnen; entsprechend einem Plus von 5,5% bzw. 280 Tsd. Tonnen gegenüber dem Vorjahr. Der aktuelle Wert liegt um 9,3% unter dem Mittelwert der letzten zehn Jahre.",
-		"erlaeuterungen": "Der Rhein wurde bereits zu römischen Zeiten für die Kriegs- und Handelsschifffahrt genutzt. Das Aufblühen der Rheinschifffahrt in Basel ging Hand in Hand mit der Hafenentwicklung: Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der am 31.12.2009 zwar stillgelegt wurde, aber gelegentlich für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
+		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der am 31.12.2009 zwar stillgelegt wurde, aber gelegentlich für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42408,8 +42408,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Güterverkehrsumschlag auf dem Rhein",
 		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "Hinsichtlich des Anteils, welcher per Schiff importiert bzw. exportiert wird, gibt es grosse Unterschiede. Die Exporte, machen mengenmässig rund einen Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,2 Prozentpunkte auf.",
-		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2011bis 2021. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
+		"lesehilfe": "Hinsichtlich des Anteils, welcher per Schiff importiert bzw. exportiert wird, gibt es grosse Unterschiede. Die Exporte, machen mengenmässig rund einen Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,12 Prozentpunkte auf.",
+		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2011 bis 2021. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42446,7 +42446,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Zufuhr, in Tausend Tonnen",
-		"lesehilfe": "Nach wie vor bewegt Erdöl die Welt, das ist und bleibt eine Konstante für unseren Alltag. 2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralerzeugnisse. X% aller Importe dieser Warengattung gelangten über den Rhein ins Land. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
+		"lesehilfe": "2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralerzeugnisse. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
 		"erlaeuterungen": "Über den Rhein gelangt ein vielfältiger Mix von Waren ins Land. Der Indikator veranschaulicht den Importanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -42523,7 +42523,7 @@ var indikatoren = [
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU",
 		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell; seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2021 wurden Wachstumsraten um 3,3% p.a. verzeichnet. Das Transportvolumen des Containerschiffverkehrs belief sich 2021 auf rund 126 Tausend TEU; dies bedeutet gegenüber dem Vorjahr ein Wachstum von 10,5%.",
-		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. Twenty-foot Equivalent Unit (Abkürzung TEU, deutsch Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport.<br><br>Container prägen mehr und mehr das Bild der Schweizerischen Rheinhäfen. Die Balken geben die wasserseitige Zufuhr und die wasserseitige Abfuhr wider. Die Linie stellt das Total des wasserseitigen Containerumschlags dar.",
+		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. Twenty-foot Equivalent Unit (Abkürzung TEU, deutsch Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42550,5 +42550,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-04-25T10:05:47",
 		"id": 9608
+	},
+	{
+		"template": "template001",
+		"data-id": 9609,
+		"chart-id": 9609,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Schweizerische Güterschiffe",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Schweizerische Rheinhäfen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Schweizerische Güterschiffe",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09609",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-26T12:56:45",
+		"id": 9609
 	}
 ];

@@ -1369,7 +1369,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": 0
     },
     "tickPositioner": function () {
           var maxlabels = 11,
