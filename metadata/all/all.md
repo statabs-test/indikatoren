@@ -2130,7 +2130,7 @@ id | visible | visibleInPortal | indikatorenset
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
 9602 | true | true | 
-9603 | false |  | 
+9603 | true | true | 
 9604 | true | true | 
 9605 | true | true | 
 9606 | true | true | 

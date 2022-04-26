@@ -862,7 +862,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickPositioner": function () {
           var maxlabels = 11,
