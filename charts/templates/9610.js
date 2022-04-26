@@ -10,24 +10,23 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "stacking": "normal"
     }
   },
   series: [
-    {"color": "#007A2F", index: 9, legendIndex: 0}, /**/
-    {"color": "#73B97C", index: 8, legendIndex: 1}, /**/
-    {"color": "#008AC3", index: 7, legendIndex: 2}, /**/
-    {"color": "#FABD24", index: 6, legendIndex: 3}, /**/
+    {"color": "#b00000", index: 9, legendIndex: 0}, /**/
+    {"color": "#008AC3", index: 8, legendIndex: 1}, /**/
+    {"color": "#FABD24", index: 7, legendIndex: 2}, /**/
+    {"color": "#68AB2B", index: 6, legendIndex: 3}, /**/
     {"color": "#FF8028", index: 5, legendIndex: 4}, /**/
-    {"color": "#9E7C59", index: 4, legendIndex: 5}, /* */
-    {"color": "#DC440E", index: 3, legendIndex: 6}, /* */
-    {"color": "#67401E", index: 2, legendIndex: 7}, /* */
+    {"color": "#923F8D", index: 4, legendIndex: 5}, /* */
+    {"color": "#9E7C59", index: 3, legendIndex: 6}, /* */
+    {"color": "#999999", index: 2, legendIndex: 7}, /* */
 
   ],
   chart: {
-    //inverted: true,
     type: "column", 
-   marginRight: 20
+    marginRight: 20
   },
   "tooltip": {
     "shared": false, 
@@ -50,9 +49,8 @@
     }
   },  
   yAxis: {
-    tickInterval: 20,
     "labels": {
-		  "format": "{value}%"
+     format: "{value:,.0f}"
      }
   },
   xAxis: {

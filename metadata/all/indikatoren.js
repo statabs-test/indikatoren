@@ -81250,7 +81250,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anteil der einzelnen Flaggen",
+		"title": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
 		"subtitle": "in Tausend Tonnen",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
@@ -81262,7 +81262,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil der einzelnen Flaggen",
+		"description": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
 		"thema": "11 Verkehr",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09610",
