@@ -107,7 +107,7 @@
       
      labels: {
   items: [{
-    html: 'Innen: 2011-2020<br/>Aussen: 2021',
+    html: 'Innen: 2021<br/>Aussen: 2011-2020',
     style: {
      left: '300px',
       top: '250px'
