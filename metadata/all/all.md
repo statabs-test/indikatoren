@@ -2137,6 +2137,7 @@ id | visible | visibleInPortal | indikatorenset
 9607 | true | true | 
 9608 | true | true | 
 9609 | true | true | 
+9610 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
