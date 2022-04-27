@@ -627,11 +627,12 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "itemDistance": 0,
+    "itemDistance": 15,
     "symbolPadding": 2,
-    "itemWidth": 209,
     "Width": 450,
     "enabled": true,
     "layout": "horizontal",

@@ -36,20 +36,21 @@
     "footerFormat": '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>',
   },
   legend: {
-    itemDistance: 0,
-  symbolPadding: 2,
-  itemWidth: 209,
-  Width: 450,
+    itemDistance: 15,
+    symbolPadding: 2,
+    //itemWidth: 209,
+    Width: 450,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  //"y": 45,
-    "itemStyle": {
-      "fontWeight": "normal",
-     
+    //"y": 45,
+    itemStyle: {
+      textOverflow: "none",
+      whiteSpace: "nowrap"
     }
-  },  
+  },
+
   yAxis: {
     //tickInterval: 20,
     "labels": {
