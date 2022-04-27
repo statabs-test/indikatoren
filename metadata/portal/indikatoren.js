@@ -42636,7 +42636,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
 		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "Der Gütertransport in den Schweizerischen Rheinhäfen findet immer häufiger unter ausländischer Beflaggung statt. Bis Mitte der 80er-Jahre war das transportierte Güteraufkommen unter Schweizer und fremder Flagge mehrheitlich ähnlich, danach reduzierte sich der Anteil der Schweizer Flagge deutlich (52,7% im Jahr 1983, 12,9% im Jahr 2019).",
+		"lesehilfe": "Der Gütertransport in den Schweizerischen Rheinhäfen findet immer häufiger unter ausländischer Beflaggung statt. Bis Mitte der 80er-Jahre war das transportierte Güteraufkommen unter Schweizer und fremder Flagge mehrheitlich ähnlich, danach reduzierte sich der Anteil des Gütertransports unter Schweizer Flagge deutlich (52,7% im Jahr 1983, 12,9% im Jahr 2019).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#dc440e",
+      "color": "#b00000",
       "data": [
         [
           "1964",
@@ -579,7 +579,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 6
   },
   "legend": {
     "symbolRadius": 0,
