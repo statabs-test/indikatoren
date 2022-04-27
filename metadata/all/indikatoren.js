@@ -81252,7 +81252,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
 		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Gemessen am transportierten Güteraufkommen betrug der Marktanteil von Schiffen mit Schweizer Beflaggung zu Beginn des Beobachtungszeitraums 46,8%. In den folgenden Jahren konnten sie ihren Anteil leicht ausbauen und erreichten 1982 einen Höchstwert von 52,3%. Seit Mitte der 80er-Jahre ist ein merklicher Rückgang zu beobachten.<br>Bei der Betrachtung des Güterumschlags im Jahr 2019 hebt sich der Transport unter niederländischer Flagge mit einem Anteil von 54,2% deutlich ab, im Vergleich zu 25,4% im Jahr 1964. Schiffe unter deutscher Flagge verzeichnen 2019 einen Anteil von 21,1%, die unter belgischer Flagge 10,8%. Danach folgen kleine Akteure wie Luxemburg und Frankreich mit 0,5% bzw. 0,2% sowie Übrige mit 0,2%. Insgesamt bedeutet dies, dass Schiffe mit einer Nationalität ausserhalb der Schweiz bei weitem den Grossteil (2019: 87,1%) des Gütertransports der Schweizerischen Rheinhäfen abwickeln.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -81290,7 +81290,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
 		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Der Gütertransport in den Schweizerischen Rheinhäfen findet immer häufiger unter ausländischer Beflaggung statt. Bis Mitte der 80er-Jahre war das transportierte Güteraufkommen unter Schweizer und fremder Flagge mehrheitlich ähnlich, danach reduzierte sich der Anteil der Schweizer Flagge deutlich (52,7% im Jahr 1983, 12,9% im Jahr 2019).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
