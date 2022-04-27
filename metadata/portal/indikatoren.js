@@ -42371,7 +42371,7 @@ var indikatoren = [
 		"title": "Güterverkehrsumschlag auf dem Rhein seit 1911",
 		"subtitle": "in Tausend Tonnen",
 		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagvolumen 9,3 Mio. Tonnen. Seither werden weniger Güter umgeschlagen. Hemmend darauf hat sich die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene ausgewirkt. 2021 betrug der Umschlag der Schweizer Rheinhäfen 5,4 Mio. Tonnen; entsprechend einem Plus von 5,5% bzw. 280 Tsd. Tonnen gegenüber dem Vorjahr. Der aktuelle Wert liegt um 9,3% unter dem Mittelwert der letzten zehn Jahre.",
-		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der am 31.12.2009 zwar stillgelegt wurde, aber gelegentlich für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
+		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der per Ende 2009 zwar stillgelegt wurde, aber gelegentlich für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42446,7 +42446,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Zufuhr, in Tausend Tonnen",
-		"lesehilfe": "2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralerzeugnisse. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
+		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte untergliedern: zum einen den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralerzeugnisse. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
 		"erlaeuterungen": "Über den Rhein gelangt ein vielfältiger Mix von Waren ins Land. Der Indikator veranschaulicht den Importanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -42523,7 +42523,7 @@ var indikatoren = [
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU",
 		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell; seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2021 wurden Wachstumsraten um 3,3% p.a. verzeichnet. Das Transportvolumen des Containerschiffverkehrs belief sich 2021 auf rund 126 Tausend TEU; dies bedeutet gegenüber dem Vorjahr ein Wachstum von 10,5%.",
-		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. Twenty-foot Equivalent Unit (Abkürzung TEU, deutsch Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport.",
+		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. Twenty-foot Equivalent Unit (Abkürzung TEU, deutsch Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Ein Fuss entspricht 30,48 Zentimetern. In Breite und Höhe misst ein TEU etwa 8 Fuss. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42664,5 +42664,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-04-27T12:29:21",
 		"id": 9611
+	},
+	{
+		"template": "template001",
+		"data-id": 9612,
+		"chart-id": 9612,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wasserseitiger Containerumschlag",
+		"subtitle": "in TEU",
+		"lesehilfe": "Im Jahr 2021 sind insgesamt rund 40 000 Leercontainer transportiert worden, was einem Anteil von knapp einem Drittel (31,6%) der wasserseitigen Importe und Exporte entspricht. Ein Jahr zuvor lag dieser Anteil bei 29,3%; im Mittel der Jahre 2010-2019 bei 34,5%.",
+		"erlaeuterungen": "Im Containerverkehr sind die Transportströme aus den verschiedenen Richtungen in der Regel unausgeglichen. Der Hauptgrund dafür sind globale Handelsschwankungen zwischen Volkswirtschaften oder Regionen; Importeure und Exporteure sind oftmals geographisch weit voneinander entfernt, was dazu führt, dass die Container auf der Rückfahrt oft leer sind.",
+		"quellenangabe": [
+			"Schweizerische Rheinhäfen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wasserseitiger Containerumschlag",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09612",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-27T03:56:53",
+		"id": 9612
 	}
 ];
