@@ -66,7 +66,7 @@
           borderWidth: 2,
             colors: [
                 "#A0BEC8",
-                "#FF8028",
+                "#FFBB58",
  
            
            
@@ -96,7 +96,7 @@
           borderWidth: 2,
              colors: [
                 "#008ac3",
-                "#DC440E",
+                "#FF8028",
             ],
         }],
         

@@ -33,7 +33,7 @@
       "borderWidth": 2,
       "colors": [
         "#A0BEC8",
-        "#FF8028"
+        "#FFBB58"
       ],
       "name": "2021",
       "turboThreshold": 0
@@ -70,7 +70,7 @@
       "borderWidth": 2,
       "colors": [
         "#008ac3",
-        "#DC440E"
+        "#FF8028"
       ],
       "name": "Mittel 2011-2020",
       "turboThreshold": 0

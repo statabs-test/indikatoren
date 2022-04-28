@@ -16,7 +16,8 @@
         }
       },
       "yAxis": [{
-        tickAmount: 5,
+        tickAmount: 6,   
+        max: 75000,   
         alignTicks: true,
         title: {
           text: null,
@@ -32,8 +33,9 @@
   
       },
       {
-        tickAmount: 5,
-        tickInterval: 25,
+        tickAmount: 6,
+        tickInterval: 10,
+      
         alignTicks: true,
         "title": {
           "style": {
