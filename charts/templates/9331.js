@@ -25,7 +25,7 @@
     		},
         {
 					linkedTo: 'dummy0',
-					colors: ["#FABD24","#FABD24","#FABD24","#ECE1D0","#FABD24","#FABD24","#FABD24","#FABD24"],  
+					colors: ["#FABD24","#FABD24","#FABD24",/*"#ECE1D0"*/"rgba(250,189,36,0.5)","#FABD24","#FABD24","#FABD24","#FABD24"],
 					colorByPoint: true,
         },
     		{
@@ -36,7 +36,7 @@
     		},
         {
 					linkedTo: 'dummy1',
-					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","black","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
+					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","rgba(127,95,26,0.5)","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
 					colorByPoint: true,
         },
         {
