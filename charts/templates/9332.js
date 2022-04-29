@@ -140,17 +140,24 @@ for (i = 0; i < 3; i++) {
 			{
 				visible: false,
 				type: 'pie',
-				color: '#B00000',
-				borderColor: '#B00000'
+				color: '#246370',
+				borderColor: 'white',
+				//borderWidth: 0.2
 
 			}, 
 			{
 				visible: false,
 				type: 'pie',
-        		color: '#FABD24',
-        		borderColor: '#FABD24'
+        		color: '#923F8D',
+        		borderColor: 'white',
+				//borderWidth: 0.2
 			}
 		],
+		plotOptions:{
+			pie:{
+				borderWidth: 1
+			}
+		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -201,9 +208,9 @@ for (i = 0; i < 3; i++) {
                 	var legendTop = 190;
                 	var legendLeft = 350;;
                 	
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#B00000");
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#246370");
 					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[0],  'Anteil Einkommenssteuer');
-					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "#FABD24");
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "#923F8D");
 					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[1],  'Anteil Vermögenssteuer');
 					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Mittelwert in Fr.<br>pro Veranlagung', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
 					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Summe in Mio. Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
