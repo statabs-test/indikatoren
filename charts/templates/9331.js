@@ -61,6 +61,7 @@
         }
 
   ],
+  
   xAxis: {
       type: "category",
   "labels": {
