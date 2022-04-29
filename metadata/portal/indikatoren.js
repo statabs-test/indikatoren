@@ -42408,7 +42408,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Umschlag nach Warengattung",
 		"subtitle": "Zufuhr, in Tausend Tonnen",
-		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte untergliedern: zum einen den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralerzeugnisse. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
+		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte untergliedern: zum einen den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralölerzeugnisse. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
 		"erlaeuterungen": "Über den Rhein gelangt ein vielfältiger Mix von Waren ins Land. Der Indikator veranschaulicht den Importanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
