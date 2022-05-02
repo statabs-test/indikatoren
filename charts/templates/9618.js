@@ -64,6 +64,10 @@
         type: "column"
       },
       {
+        color: "#45381D",
+        type: "column"
+      },
+      {
         color: "#000000",
         type: "line",
         yAxis: 1,

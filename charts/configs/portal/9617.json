@@ -1,88 +1,64 @@
 {
   "series": [
     {
-      "color": "#D3E2E4",
-      "data": [
-        [
-          "2010",
-          120.848561
-        ],
-        [
-          "2012",
-          112.2052874
-        ],
-        [
-          "2014",
-          113.9811668
-        ],
-        [
-          "2016",
-          87.9963
-        ],
-        [
-          "2018",
-          71.50651076
-        ]
-      ],
-      "name": "Abfall",
-      "turboThreshold": 0
-    },
-    {
       "color": "#A8C3CA",
+      "type": "column",
       "data": [
         [
           "2010",
-          31.438
+          416.166948
         ],
         [
           "2012",
-          30.218
+          405.048215
         ],
         [
           "2014",
-          40.2
+          393.917677
         ],
         [
           "2016",
-          38.054
+          378.591486
         ],
         [
           "2018",
-          39.531
+          359.370153
         ]
       ],
-      "name": "Abwärme",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "2010",
-          1628.288805
-        ],
-        [
-          "2012",
-          1545.361385
-        ],
-        [
-          "2014",
-          1440.0999937
-        ],
-        [
-          "2016",
-          1459.7195868
-        ],
-        [
-          "2018",
-          1339.255384
-        ]
-      ],
-      "name": "Elektrizität",
+      "name": "Benzin",
       "turboThreshold": 0
     },
     {
       "color": "#246370",
+      "type": "column",
+      "data": [
+        [
+          "2010",
+          397.66955678
+        ],
+        [
+          "2012",
+          351.14480156
+        ],
+        [
+          "2014",
+          373.994309
+        ],
+        [
+          "2016",
+          389.281783
+        ],
+        [
+          "2018",
+          398.445491
+        ]
+      ],
+      "name": "Diesel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "type": "column",
       "data": [
         [
           "2010",
@@ -109,34 +85,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
-      "data": [
-        [
-          "2010",
-          1183.040351
-        ],
-        [
-          "2012",
-          1147.386792
-        ],
-        [
-          "2014",
-          971.648939
-        ],
-        [
-          "2016",
-          1107.386108
-        ],
-        [
-          "2018",
-          1103.164301
-        ]
-      ],
-      "name": "Fern-\u002FNahwärme",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
+      "color": "#CD9C00",
+      "type": "column",
       "data": [
         [
           "2010",
@@ -163,138 +113,38 @@
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
+      "color": "#000000",
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "2010",
-          13.8025
+          46.299649106
         ],
         [
           "2012",
-          14.502497
+          45.119943999
         ],
         [
           "2014",
-          18.22029296
+          44.653853817
         ],
         [
           "2016",
-          22.03954092
+          41.622813203
         ],
         [
           "2018",
-          20.67081399
+          38.993030106
         ]
       ],
-      "name": "Holz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#7F5F1A",
-      "data": [
-        [
-          "2010",
-          0.39138
-        ],
-        [
-          "2012",
-          0.42696
-        ],
-        [
-          "2014",
-          0.46254
-        ],
-        [
-          "2016",
-          0.4744
-        ],
-        [
-          "2018",
-          0
-        ]
-      ],
-      "name": "Klär- und Biogas",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ECE1D0",
-      "data": [
-        [
-          "2010",
-          7.1650033
-        ],
-        [
-          "2012",
-          9.2759643
-        ],
-        [
-          "2014",
-          11.853544
-        ],
-        [
-          "2016",
-          14.71428493
-        ],
-        [
-          "2018",
-          20.06559564
-        ]
-      ],
-      "name": "Thermische Solarenergie",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#C4AB91",
-      "data": [
-        [
-          "2010",
-          813.83650478
-        ],
-        [
-          "2012",
-          756.19301656
-        ],
-        [
-          "2014",
-          767.911986
-        ],
-        [
-          "2016",
-          767.873269
-        ],
-        [
-          "2018",
-          757.815644
-        ]
-      ],
-      "name": "Treibstoffe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#9E7C59",
-      "data": [
-        [
-          "2010",
-          7.2836
-        ],
-        [
-          "2012",
-          7.6
-        ],
-        [
-          "2014",
-          12.367206
-        ],
-        [
-          "2016",
-          16.77684
-        ],
-        [
-          "2018",
-          12.55198
-        ]
-      ],
-      "name": "Umweltwärme",
+      "name": "Anteil am Endverbrauch  (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -349,18 +199,19 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9615",
+    "renderTo": "container-9617",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "stacking": "normal"
+      "pointWidth": 30,
+      "stacking": "true"
     }
   },
   "title": {
@@ -370,7 +221,8 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Endenergieverbrauch nach Energieträger"
+    "useHTML": true,
+    "text": "Endenergieverbrauch von fossilen Energieträgern"
   },
   "subtitle": {
     "text": "in GWh, Basel-Stadt",
@@ -381,36 +233,50 @@
       "color": "#000000"
     }
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "title": {
+        "text": null
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
       },
-      "format": "{value:,.0f}"
+      "min": 0,
+      "tickAmount": 4
     },
-    "tickAmount": 7,
-    "max": 6000,
-    "reversedStacks": true
-  },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "tickAmount": 4,
+      "opposite": true
+    }
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
+    "useHTML": true,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemWidth": 150,
+    "width": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -434,10 +300,13 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total Enverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
+    "shared": false,
+    "useHTML": true,
+    "outside": true
   },
   "exporting": {
-    "filename": "9615"
+    "filename": "9617"
   }
 }

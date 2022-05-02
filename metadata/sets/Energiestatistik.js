@@ -207,45 +207,43 @@ var indikatorensetData = [
 		"id": 9005
 	},
 	{
+		"template": "template001",
+		"data-id": 9006,
+		"chart-id": 9006,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Elektrizitätsverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"kuerzel": "I.08.1.09006",
-		"kuerzelKunde": "",
-		"description": "Elektrizitätsverbrauch nach Produktionsart",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Energiestatistik",
+		"lesehilfe": "Der totale Elektrizitätsverbrauch hat zwischen 1995 und 2010 von 1 470 auf 1 628 Gigawattstunden zugenommen und sank danach bis 2018 kontinuierlich auf 1 344 Gigawattstunden.",
+		"erlaeuterungen": "Jährlicher Elektrizitätsverbrauch nach Produktionsart.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T08:09:48.4848",
+		"description": "Elektrizitätsverbrauch nach Produktionsart",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09006",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "2.2",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der totale Elektrizitätsverbrauch hat zwischen 1995 und 2010 von 1 470 auf 1 628 Gigawattstunden zugenommen und sank danach bis 2018 kontinuierlich auf 1 344 Gigawattstunden.",
-		"erlaeuterungen": "Jährlicher Elektrizitätsverbrauch nach Produktionsart.",
-		"template": "template001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [
-			"4322"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"data-id": 9006,
-		"chart-id": 9006,
-		"filter": "",
+		"aktualisierungsdatum": "2020-09-21T08:09:48",
 		"id": 9006
 	},
 	{
@@ -448,5 +446,79 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-05-02T10:01:09",
 		"id": 9615
+	},
+	{
+		"template": "template001",
+		"data-id": 9617,
+		"chart-id": 9617,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Endenergieverbrauch von fossilen Energieträgern",
+		"subtitle": "in GWh, Basel-Stadt",
+		"lesehilfe": "Lesehilfe",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Endenergieverbrauch von fossilen Energieträgern",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09617",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "2.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-02T10:26:36",
+		"id": 9617
+	},
+	{
+		"template": "template001",
+		"data-id": 9618,
+		"chart-id": 9618,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Endenergieverbrauch Fernwärme nach Produktionsart",
+		"subtitle": "in GWh, Basel-Stadt",
+		"lesehilfe": "Lesehilfe",
+		"erlaeuterungen": "<bitte Lesehilfe erfassen>",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Endenergieverbrauch Fernwärme nach Produktionsart",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09618",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "2.3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-02T11:16:34",
+		"id": 9618
 	}
 ];

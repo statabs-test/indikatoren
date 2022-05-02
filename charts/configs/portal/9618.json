@@ -5,27 +5,19 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          1254.735426
-        ],
-        [
-          "2012",
-          1121.695894
-        ],
-        [
           "2014",
-          978.378343
+          675.047148
         ],
         [
           "2016",
-          974.612639
+          751.024412
         ],
         [
           "2018",
-          912.029764
+          697.447961
         ]
       ],
-      "name": "Bezug ausserkantonal",
+      "name": "Abfall",
       "turboThreshold": 0
     },
     {
@@ -33,27 +25,19 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          3.4
-        ],
-        [
-          "2012",
-          6
-        ],
-        [
           "2014",
-          13.101795
+          319.753621
         ],
         [
           "2016",
-          20.858757
+          350.85617
         ],
         [
           "2018",
-          22.660303
+          554.641631
         ]
       ],
-      "name": "Photovoltaik",
+      "name": "Erdgas",
       "turboThreshold": 0
     },
     {
@@ -61,27 +45,19 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          159.953378
-        ],
-        [
-          "2012",
-          157.365491
-        ],
-        [
           "2014",
-          170.897798
+          41.27947
         ],
         [
           "2016",
-          191.006102
+          44.565298
         ],
         [
           "2018",
-          157.610165
+          57.322184
         ]
       ],
-      "name": "Thermische Erzeugung",
+      "name": "Heizöl",
       "turboThreshold": 0
     },
     {
@@ -89,27 +65,39 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          210.2
-        ],
-        [
-          "2012",
-          260.3
-        ],
-        [
           "2014",
-          282.55
+          140.745915
         ],
         [
           "2016",
-          279.136815
+          188.678488
         ],
         [
           "2018",
-          251.1643
+          156.683424
         ]
       ],
-      "name": "Wasserkraft",
+      "name": "Holz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381D",
+      "type": "column",
+      "data": [
+        [
+          "2014",
+          13.789218
+        ],
+        [
+          "2016",
+          19.591119
+        ],
+        [
+          "2018",
+          23.721093
+        ]
+      ],
+      "name": "Umweltwärme",
       "turboThreshold": 0
     },
     {
@@ -124,24 +112,16 @@
       },
       "data": [
         [
-          "2010",
-          29.221970259
-        ],
-        [
-          "2012",
-          29.581514865
-        ],
-        [
           "2014",
-          30.654001947
+          25.258786
         ],
         [
           "2016",
-          31.144311762
+          28.787711
         ],
         [
           "2018",
-          31.441771967
+          34.866915
         ]
       ],
       "name": "Anteil am Endverbrauch (rechte Skala)",
@@ -199,7 +179,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9006",
+    "renderTo": "container-9618",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -222,7 +202,7 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Elektrizitätsverbrauch nach Produktionsart"
+    "text": "Endenergieverbrauch Fernwärme nach Produktionsart"
   },
   "subtitle": {
     "text": "in GWh, Basel-Stadt",
@@ -297,7 +277,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2020"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
@@ -307,6 +287,6 @@
     "outside": true
   },
   "exporting": {
-    "filename": "9006"
+    "filename": "9618"
   }
 }
