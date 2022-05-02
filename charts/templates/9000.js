@@ -14,14 +14,15 @@
     type: "category"    
   },  
   yAxis: {
-    tickAmount: 6,
+    tickAmount: 7,
+    max: 6000,
       labels: {
       format: "{value:,.0f}"
     },
     reversedStacks: true
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:,.1f}%)<br/>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
     footerFormat: 'Total: <b>{point.total:,.0f}</b><br/>'
  },
   legend: {
