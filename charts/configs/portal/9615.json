@@ -1,64 +1,204 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#D3E2E4",
       "legendIndex": 0,
       "data": [
         [
           "2010",
-          350.623931
+          120.848561
         ],
         [
           "2012",
-          365.71107765
+          112.2052874
         ],
         [
           "2014",
-          372.01287765
+          113.9811668
         ],
         [
           "2016",
-          377.481412
+          87.9963
         ],
         [
           "2018",
-          380.375647
+          71.50651076
         ]
       ],
-      "name": "Abfall (vollständig erneuerbar)",
+      "name": "Abfall",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2010",
+          31.438
+        ],
+        [
+          "2012",
+          30.218
+        ],
+        [
+          "2014",
+          40.2
+        ],
+        [
+          "2016",
+          38.054
+        ],
+        [
+          "2018",
+          39.531
+        ]
+      ],
+      "name": "Abwärme",
       "turboThreshold": 0
     },
     {
       "color": "#689199",
+      "legendIndex": 6,
+      "data": [
+        [
+          "2010",
+          1628.288805
+        ],
+        [
+          "2012",
+          1545.361385
+        ],
+        [
+          "2014",
+          1440.0999937
+        ],
+        [
+          "2016",
+          1459.7195868
+        ],
+        [
+          "2018",
+          1339.255384
+        ]
+      ],
+      "name": "Elektrizität",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "legendIndex": 9,
+      "data": [
+        [
+          "2010",
+          1262.9277103
+        ],
+        [
+          "2012",
+          1157.7843572
+        ],
+        [
+          "2014",
+          983.79301066
+        ],
+        [
+          "2016",
+          932.60845667
+        ],
+        [
+          "2018",
+          692.60280622
+        ]
+      ],
+      "name": "Erdgas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
       "legendIndex": 1,
       "data": [
         [
           "2010",
-          147.0414
+          1183.040351
         ],
         [
           "2012",
-          149.580497
+          1147.386792
         ],
         [
           "2014",
-          176.54832006
+          971.648939
         ],
         [
           "2016",
-          210.71802892
+          1107.386108
         ],
         [
           "2018",
-          198.49612722
+          1103.164301
+        ]
+      ],
+      "name": "Fern-\u002FNahwärme",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 4,
+      "data": [
+        [
+          "2010",
+          503.116594
+        ],
+        [
+          "2012",
+          443.12365626
+        ],
+        [
+          "2014",
+          353.12950264
+        ],
+        [
+          "2016",
+          258.23841724
+        ],
+        [
+          "2018",
+          215.70116311
+        ]
+      ],
+      "name": "Heizöl",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "legendIndex": 7,
+      "data": [
+        [
+          "2010",
+          13.8025
+        ],
+        [
+          "2012",
+          14.502497
+        ],
+        [
+          "2014",
+          18.22029296
+        ],
+        [
+          "2016",
+          22.03954092
+        ],
+        [
+          "2018",
+          20.67081399
         ]
       ],
       "name": "Holz",
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
-      "legendIndex": 2,
+      "color": "#7F5F1A",
+      "legendIndex": 10,
       "data": [
         [
           "2010",
@@ -78,43 +218,15 @@
         ],
         [
           "2018",
-          34.01
+          0
         ]
       ],
       "name": "Klär- und Biogas",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "legendIndex": 3,
-      "data": [
-        [
-          "2010",
-          3.4
-        ],
-        [
-          "2012",
-          6
-        ],
-        [
-          "2014",
-          13.101795
-        ],
-        [
-          "2016",
-          20.858757
-        ],
-        [
-          "2018",
-          22.660303
-        ]
-      ],
-      "name": "Photovoltaik",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "legendIndex": 4,
+      "color": "#ECE1D0",
+      "legendIndex": 2,
       "data": [
         [
           "2010",
@@ -134,66 +246,66 @@
         ],
         [
           "2018",
-          20.12082614
+          20.06559564
         ]
       ],
       "name": "Thermische Solarenergie",
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#C4AB91",
       "legendIndex": 5,
       "data": [
         [
           "2010",
-          15.012
+          813.83650478
         ],
         [
           "2012",
-          20.4
+          756.19301656
         ],
         [
           "2014",
-          26.156424
+          767.911986
         ],
         [
           "2016",
-          36.367959
+          767.873269
         ],
         [
           "2018",
-          36.273073
+          757.815644
         ]
       ],
-      "name": "Umweltwärme",
+      "name": "Treibstoffe",
       "turboThreshold": 0
     },
     {
-      "color": "#661200",
-      "legendIndex": 6,
+      "color": "#9E7C59",
+      "legendIndex": 8,
       "data": [
         [
           "2010",
-          210.2
+          7.2836
         ],
         [
           "2012",
-          260.3
+          7.6
         ],
         [
           "2014",
-          282.55
+          12.367206
         ],
         [
           "2016",
-          279.136815
+          16.77684
         ],
         [
           "2018",
-          251.1643
+          12.55198
         ]
       ],
-      "name": "Wasserkraft",
+      "name": "Umweltwärme",
       "turboThreshold": 0
     }
   ],
@@ -248,7 +360,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9614",
+    "renderTo": "container-9615",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -269,7 +381,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bruttoenergieverbrauch Erneuerbare"
+    "text": "Endenergieverbrauch nach Energieträger"
   },
   "subtitle": {
     "text": "in GWh, Basel-Stadt",
@@ -297,8 +409,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
-    "max": 1000,
+    "tickAmount": 7,
+    "max": 6000,
     "reversedStacks": true
   },
   "legend": {
@@ -337,6 +449,6 @@
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9614"
+    "filename": "9615"
   }
 }

@@ -2130,6 +2130,7 @@ id | visible | visibleInPortal | indikatorenset
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
 9614 | true | true | Energiestatistik
+9615 | true | true | Energiestatistik
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
