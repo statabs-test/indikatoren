@@ -12,6 +12,8 @@
 				//create two columns without data, only with the names of their linked column so that the legend item title is correct
 				columns.splice(1, 0, [columns[1][0]]);
 				columns.splice(3, 0, [columns[3][0]]);
+        columns.splice(5, 0, [columns[5][0]]);
+				columns.splice(7, 0, [columns[7][0]]);
 				//console.log(columns);
 			}
 	  },
@@ -25,7 +27,7 @@
     		},
         {
 					linkedTo: 'dummy0',
-					colors: ["#FABD24","#FABD24","#FABD24",/*"#ECE1D0"*/"rgba(250,189,36,0.5)","#FABD24","#FABD24","#FABD24","#FABD24"],
+					colors: ["#FABD24","#FABD24","#FABD24",/*"#ECE1D0"*/"rgba(250,189,36,0.3)","#FABD24","#FABD24","#FABD24","#FABD24"],
 					colorByPoint: true,
         },
     		{
@@ -36,12 +38,28 @@
     		},
         {
 					linkedTo: 'dummy1',
-					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","rgba(127,95,26,0.5)","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
+					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","rgba(127,95,26,0.3)","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
 					colorByPoint: true,
         },
         {
-            color: "#FF8028",
+    			//used only to have a legend item with a defined color despite colorByPoint is true
+    			id: 'dummy2',
+    			color: "#FF8028",
+    			grouping: false, 
+          type: 'scatter',
+          yAxis: 1,
+          marker: {
+              enabled: true,
+              symbol: 'circle', 
+              radius: 3
+          },
+    		},
+        {
+          linkedTo: 'dummy2',
+          colors: ["#FF8028","#FF8028","#FF8028","rgba(255,128,40,0.3)","#FF8028","#FF8028","#FF8028","#FF8028"],  
+					colorByPoint: true,
             type: 'scatter',
+            yAxis: 1,
             marker: {
             		enabled: true,
                 symbol: 'circle', 
@@ -50,8 +68,24 @@
             pointPlacement : -0.15
         },
         {
-            color: "#68AB2B",
+    			//used only to have a legend item with a defined color despite colorByPoint is true
+    			id: 'dummy3',
+    			color: "#68AB2B",
+    			grouping: false, 
+          type: 'scatter',
+          yAxis: 1,
+          marker: {
+              enabled: true,
+              symbol: 'circle', 
+              radius: 3,
+          },
+    		},
+        {
+          linkedTo: 'dummy3',
+          colors: ["#68AB2B","#68AB2B","#68AB2B","rgba(68,171,43,0.3)","#68AB2B","#68AB2B","#68AB2B","#68AB2B"],  
+					colorByPoint: true,
             type: 'scatter',
+            yAxis: 1,
             marker: {
             		enabled: true,
                 symbol: 'circle', 
@@ -121,13 +155,13 @@
         borderWidth: 0,
     "column": {
         "colorByPoint": true
-    }        
-    //pointWidth: 10, 
-
-    }, 
+    } , 
     scatter: {
-        yAxis: 1,
-    }
+      colorByPoint: true
+  } 
+    //pointWidth: 10, 
+    }, 
+
   },
  "legend": { 
     "enabled": true,
