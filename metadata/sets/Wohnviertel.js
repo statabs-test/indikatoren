@@ -429,7 +429,7 @@ var indikatorensetData = [
 			5120
 		],
 		"title": "Fläche pro Wohnung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2021",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"quellenangabe": [

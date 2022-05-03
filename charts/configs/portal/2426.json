@@ -1954,7 +1954,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
+    "tickLength": 25,
     "title": {
       "style": {
         "color": "#000000"
@@ -1965,11 +1965,13 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "formatter": function() {
-   			 return this.value.split("-").slice(0, -1);
-		}
+      "x": 20,
+      "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        }
     },
-    "tickInterval": 12
+    "tickInterval": 12,
+    "tickWidth": 1
   },
   "chart": {
     "type": "line",
@@ -2050,9 +2052,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+''; 
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        }
     }
   },
   "legend": {
@@ -2080,7 +2082,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.3.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -2117,9 +2119,9 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>' 
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>'
+      }
   },
   "exporting": {
     "filename": "2426"
