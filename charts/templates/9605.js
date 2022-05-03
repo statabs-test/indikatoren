@@ -101,13 +101,14 @@
         }],
         
     	"tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} </b> ({point.percentage:.1f}%)<br/><br/>',
-        "shared": false
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} </b> Tonnen ({point.percentage:.1f}%)<br/><br/>',
+        "shared": false,
+        useHTML: false
       },
       
      labels: {
   items: [{
-    html: 'Innen: 2021<br/>Aussen: 2011-2020',
+    html: 'Aussen: 2021<br/>Innen: &nbsp&nbsp&nbsp&nbsp2011-2020',
     style: {
      left: '300px',
       top: '250px'

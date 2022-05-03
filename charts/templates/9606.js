@@ -32,8 +32,8 @@
     },
     "tooltip": {
       "shared": false,
-      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} </b> ({point.percentage:.1f}%)<br/>',
-      "footerFormat": '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>',
+      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>',
+      "footerFormat": '<span style="color: black"></span> Total: <b>{point.total:,.0f}</b> Tonnen',
     },
     legend: {
       itemDistance: 15,
