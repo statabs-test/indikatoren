@@ -80947,7 +80947,7 @@
 		"children": [],
 		"title": "Aussenhandel der Schweiz und Schiffsgüterverkehr auf dem Rhein",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der per Schiff umgeschlagenen Güter erreichte 1960 mit 41,2% den Höchstwert des Beobachtungszeitraums. Seither ist ein abnehmender Trend zu beobachten – die Rheinschifffahrt hat zunehmend Marktanteile an Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 8,5%. Im Jahr 2021 belief sich der Aussenhandel, welcher über den Rhein abgewickelt wurde, auf 5,4 Mio. Tonnen; das sind rund 8 Prozent des Aussenhandels der Schweiz (68,1 Mio. Tonnen). Davon entfielen 4,5 Mio. Tonnen auf die Importe und 0,9 Mio. Tonnen auf die Exporte.",
+		"lesehilfe": "Der Anteil der per Schiff umgeschlagenen Güter erreichte 1960 mit 41,2% den Höchstwert des Beobachtungszeitraums. Seither ist ein abnehmender Trend zu beobachten – die Rheinschifffahrt hat zunehmend Marktanteile an die Verkehrsträger Strasse und Schiene verloren. Im Mittel der letzten zehn Jahre lag der Anteil der Importe und Exporte über den Rhein bei 8,5%. Im Jahr 2021 belief sich der Aussenhandel, welcher über den Rhein abgewickelt wurde, auf 5,4 Mio. Tonnen; das sind rund 8 Prozent des Aussenhandels der Schweiz (68,1 Mio. Tonnen). Davon entfielen 4,5 Mio. Tonnen auf die Importe und 0,9 Mio. Tonnen auf die Exporte.",
 		"erlaeuterungen": "Die Schweiz gehört zu den Ländern mit den höchsten Anteilen des Aussenhandels am Bruttoinlandprodukt. Ein Teil des Güteraussenhandels wird per Schiff über die Schweizer Grenze transportiert. Der Indikator zeigt die Bedeutung des Schiffverkehrs für den gesamten Aussenhandel der Schweiz.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen",
@@ -81022,9 +81022,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Güterverkehrsumschlag auf dem Rhein",
-		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "Hinsichtlich des Anteils, welcher per Schiff importiert bzw. exportiert wird, gibt es grosse Unterschiede. Die Exporte machen mengenmässig rund einen Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,12 Prozentpunkte auf.",
+		"title": "Anteile von Zu- und Abfuhr am Gesamtumschlag",
+		"subtitle": "Schweizerische Rheinhäfen",
+		"lesehilfe": "Die Abfuhr macht mengenmässig rund einen Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,12 Prozentpunkte auf.",
 		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2011 bis 2021. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -81034,7 +81034,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Güterverkehrsumschlag auf dem Rhein",
+		"description": "Anteile von Zu- und Abfuhr am Gesamtumschlag",
 		"thema": "11 Verkehr",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09605",
@@ -81061,7 +81061,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Umschlag nach Warengattung",
-		"subtitle": "Zufuhr, in Tausend Tonnen",
+		"subtitle": "Zufuhr, Schweizerische Rheinhäfen",
 		"lesehilfe": "Der Gütertransport auf dem Rhein lässt sich grob in zwei Teilmärkte untergliedern: zum einen den Markt für Flüssigladungen wie Öl und Ölprodukte, zum anderen den Markt für trockene Ladungen. 2021 entfiel mehr als die Hälfte (52%) der rund 4,5 Mio. Tonnen importierten Güter per Schiff auf die Sparte Erdöl und Mineralölerzeugnisse. Das zweitwichtigste Gütersegment von Importen über die Schweizerischen Rheinhäfen sind Steine, Erden und Baustoffe. Ihr Anteil lag 2021 bei 15,5%.",
 		"erlaeuterungen": "Über den Rhein gelangt ein vielfältiger Mix von Waren ins Land. Der Indikator veranschaulicht den Importanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
@@ -81099,7 +81099,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Umschlag nach Warengattung",
-		"subtitle": "Abfuhr, in Tausend Tonnen",
+		"subtitle": "Abfuhr, Schweizerische Rheinhäfen",
 		"lesehilfe": "Mit einem Anteil von 32,9% im vergangenen Jahr am grössten war die Bedeutung der Rheinschifffahrt im Exportbereich bei der Sparte Steine, Erden, Baustoffe. Hier wurde ein Wachstum um 16,8% gegenüber dem Vorjahr verzeichnet; verglichen mit dem Mittel der letzten zehn Jahre betrug die Zunahme gar 53,2%. Das zweitwichtigste Gütersegment von Exporten über die Schweizerischen Rheinhäfen waren auch letztes Jahr Fahrzeuge, Maschinen, übrige Güter (Anteil 2021: 28,1%).",
 		"erlaeuterungen": "Über den Rhein wird ein vielfältiger Mix von Waren exportiert. Der Indikator veranschaulicht den Exportanteil nach Warengattung in den letzten zehn Jahren.",
 		"quellenangabe": [
@@ -81137,7 +81137,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Wasserseitiger Containerumschlag",
-		"subtitle": "in TEU",
+		"subtitle": "in TEU, Schweizerische Rheinhäfen",
 		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell, seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2021 wurden Wachstumsraten um 3,3% p.a. verzeichnet. Das Transportvolumen des Containerschiffverkehrs belief sich 2021 auf rund 126 Tausend TEU; dies bedeutet gegenüber dem Vorjahr ein Wachstum von 10,5%.",
 		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. Twenty-foot Equivalent Unit (Abkürzung TEU, deutsch Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Ein Fuss entspricht 30,48 Zentimetern. In Breite und Höhe misst ein TEU etwa 8 Fuss. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
@@ -81174,10 +81174,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Schweizerische Güterschiffe",
-		"subtitle": "",
+		"title": "Güterschiffe",
+		"subtitle": "Schweizerische Rheinhäfen",
 		"lesehilfe": "Zu Beginn der Beobachtungsperiode waren 237 Schweizerische Güterschiffe im Einsatz, ihre Tragfähigkeit umfasste über 150 Tsd. Tonnen. Der Rheinverkehr boomte über viele Jahre. 1972 wurde mit 516 Schiffen die höchste Zahl seit 1941 registriert, 1981 folgte die höchste Tragfähigkeit (rd. 650 Tsd. Tonnen). Danach kehrte sich der Trend in die Gegenrichtung um und die Anzahl Güterschiffe und ihre Tragfähigkeit gingen bis Mitte der 2000er-Jahre stetig zurück. 2005 trat erstmals eine leichte Erholung ein. 2021 wurden 278 Güterschiffe gezählt, ihre Tragfähigkeit betrug rund 164 Tsd. Tonnen.",
-		"erlaeuterungen": "Der Indikator zeigt die Anzahl Güterschiffe im Schweizer Besitz – die setzen sich aus Schleppkähne, Schubleichter und Motorschiffe zusammen – sowie ihre Tragfähigkeit seit 1941.",
+		"erlaeuterungen": "Der Indikator zeigt die Anzahl Güterschiffe im Schweizer Besitz – sie setzen sich aus Schleppkähne, Schubleichter und Motorschiffe zusammen – sowie ihre Tragfähigkeit seit 1941.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -81186,7 +81186,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Schweizerische Güterschiffe",
+		"description": "Güterschiffe",
 		"thema": "11 Verkehr",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09609",
@@ -81212,9 +81212,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
-		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "Gemessen am transportierten Güteraufkommen betrug der Marktanteil von Schiffen mit Schweizer Beflaggung zu Beginn des Beobachtungszeitraums 46,8%. In den folgenden Jahren konnten sie ihren Anteil leicht ausbauen und erreichten 1983 einen Höchstwert von 52,7%. Seit Mitte der 80er-Jahre ist ein merklicher Rückgang zu beobachten.<br>Bei der Betrachtung des Güterumschlags im Jahr 2019 hebt sich der Transport unter niederländischer Flagge mit einem Anteil von 54,2% deutlich ab, im Vergleich zu 25,4% im Jahr 1964. Schiffe unter deutscher Flagge verzeichnen 2019 einen Anteil von 21,1%, die unter belgischer Flagge 10,8%. Danach folgen kleine Akteure wie Luxemburg und Frankreich mit 0,5% bzw. 0,2% sowie Übrige mit 0,2%. Insgesamt bedeutet dies, dass Schiffe mit einer Nationalität ausserhalb der Schweiz bei weitem den Grossteil (2019: 87,1%) des Gütertransports der Schweizerischen Rheinhäfen abwickeln.",
+		"title": "Umschlag nach Schiffsflagge",
+		"subtitle": "in Tausend Tonnen, Schweizerische Rheinhäfen",
+		"lesehilfe": "1964 wurden in den Schweizerischen Rheinhäfen 7 529 970 Tonnen an Gütern umgeschlagen, 3 524 699 Tonnen (46,8%) davon durch Schiffe mit Schweizer Beflaggung. In den folgenden Jahren wurde dieser Anteil leicht ausgebaut und erreichte 1983 einen Höchstwert von 52,7%. Seit Mitte der 80er-Jahre ist ein merklicher Rückgang zu beobachten. 2019 werden noch 12,9% durch Schiffe mit Schweizer Flagge umgeschlagen, dafür hebt sich nun der Transport unter niederländischer Flagge mit einem Anteil von 54,2% deutlich ab. Schiffe unter deutscher Flagge verzeichnen 2019 einen Anteil von 21,1%, jene unter belgischer Flagge 10,8%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -81224,7 +81224,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
+		"description": "Umschlag nach Schiffsflagge",
 		"thema": "11 Verkehr",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09610",
@@ -81250,9 +81250,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
-		"subtitle": "in Tausend Tonnen",
-		"lesehilfe": "Der Gütertransport in den Schweizerischen Rheinhäfen findet immer häufiger unter ausländischer Beflaggung statt. Bis Mitte der 80er-Jahre war das transportierte Güteraufkommen unter Schweizer und fremder Flagge mehrheitlich ähnlich, danach reduzierte sich der Anteil des Gütertransports unter Schweizer Flagge deutlich (von 52,7% im Jahr 1983 auf 12,9% im Jahr 2019).",
+		"title": "Umschlag nach Schiffsflagge",
+		"subtitle": "in Tausend Tonnen, Schweizerische Rheinhäfen",
+		"lesehilfe": "Der Güterumschlag in den Schweizerischen Rheinhäfen durch Schiffe unter Schweizer Flagge beläuft sich 2019 auf 781 205 Tonnen, jener durch Schiff mit ausländischer Beflaggung auf 5 284 029 Tonnen. Bis Mitte der 80er-Jahre war das Güteraufkommen unter Schweizer und fremder Flagge mehrheitlich ähnlich, danach reduzierte sich der Anteil des Gütertransports unter Schweizer Flagge deutlich (von 52,7% im Jahr 1983 auf 12,9% im Jahr 2019).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -81262,7 +81262,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge",
+		"description": "Umschlag nach Schiffsflagge",
 		"thema": "11 Verkehr",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09611",

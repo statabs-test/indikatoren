@@ -1949,10 +1949,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge"
+    "text": "Umschlag nach Schiffsflagge"
   },
   "subtitle": {
-    "text": "in Tausend Tonnen",
+    "text": "in Tausend Tonnen, Schweizerische Rheinhäfen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -2013,7 +2013,7 @@
   "tooltip": {
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "9610"

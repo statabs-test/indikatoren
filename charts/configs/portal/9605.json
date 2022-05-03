@@ -4,11 +4,11 @@
       "data": [
         [
           "Zufuhr",
-          4484.631073
+          4951289.723
         ],
         [
           "Abfuhr",
-          922.635175
+          1009790.315
         ]
       ],
       "dataLabels": {
@@ -35,18 +35,18 @@
         "#A0BEC8",
         "#FFBB58"
       ],
-      "name": "2021",
+      "name": "Mittel 2011-2020",
       "turboThreshold": 0
     },
     {
       "data": [
         [
           "Zufuhr",
-          4951.289723
+          4484631.073
         ],
         [
           "Abfuhr",
-          1009.790315
+          922635.175
         ]
       ],
       "dataLabels": {
@@ -72,7 +72,7 @@
         "#008ac3",
         "#FF8028"
       ],
-      "name": "Mittel 2011-2020",
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -144,7 +144,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Güterverkehrsumschlag auf dem Rhein"
+    "text": "Anteile von Zu- und Abfuhr am Gesamtumschlag"
   },
   "subtitle": {
     "style": {
@@ -153,12 +153,13 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Tausend Tonnen",
+    "text": "Schweizerische Rheinhäfen",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E",
+    "useHTML": false
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -194,7 +195,7 @@
   "labels": {
     "items": [
       {
-        "html": "Innen: 2021\u003Cbr\u002F\u003EAussen: 2011-2020",
+        "html": "Aussen: 2021\u003Cbr\u002F\u003EInnen: &nbsp&nbsp&nbsp&nbsp2011-2020",
         "style": {
           "left": "300px",
           "top": "250px"

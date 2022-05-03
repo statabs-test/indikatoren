@@ -757,10 +757,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Schweizerische Güterschiffe"
+    "text": "Güterschiffe"
   },
   "subtitle": {
-    "text": "",
+    "text": "Schweizerische Rheinhäfen",
     "align": "left",
     "style": {
       "fontSize": "12px",

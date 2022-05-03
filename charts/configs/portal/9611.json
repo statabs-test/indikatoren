@@ -552,10 +552,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Umschlag in den Schweizerischen Rheinhäfen nach Schiffsflagge"
+    "text": "Umschlag nach Schiffsflagge"
   },
   "subtitle": {
-    "text": "in Tausend Tonnen",
+    "text": "in Tausend Tonnen, Schweizerische Rheinhäfen",
     "align": "left",
     "style": {
       "fontSize": "12px",
