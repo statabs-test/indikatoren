@@ -42330,8 +42330,8 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Güterverkehrsumschlag auf dem Rhein seit 1911",
-		"subtitle": "in Tausend Tonnen",
+		"title": "Güterverkehrsumschlag seit 1911",
+		"subtitle": "in Tausend Tonnen, Schweizerische Rheinhäfen",
 		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagvolumen 9,3 Mio. Tonnen. Seither werden weniger Güter umgeschlagen. Hemmend darauf hat sich die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene ausgewirkt. 2021 betrug der Umschlag der Schweizer Rheinhäfen 5,4 Mio. Tonnen; entsprechend einem Plus von 5,5% bzw. 280 Tsd. Tonnen gegenüber dem Vorjahr. Der aktuelle Wert liegt um 9,3% unter dem Mittelwert der letzten zehn Jahre.",
 		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der per Ende 2009 zwar stillgelegt wurde, aber gelegentlich für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
 		"quellenangabe": [
@@ -42342,7 +42342,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Güterverkehrsumschlag auf dem Rhein seit 1911",
+		"description": "Güterverkehrsumschlag seit 1911",
 		"thema": "11 Verkehr",
 		"unterthema": "Güterverkehr",
 		"kuerzel": "I.11.4.09604",
