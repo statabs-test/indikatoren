@@ -5,27 +5,23 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          416.166948
-        ],
-        [
           "2012",
-          405.048215
+          165232.45484
         ],
         [
           "2014",
-          393.917677
+          174784.41713
         ],
         [
           "2016",
-          378.591486
+          165179.37024
         ],
         [
           "2018",
-          359.370153
+          162912.0902
         ]
       ],
-      "name": "Benzin",
+      "name": "Abfall",
       "turboThreshold": 0
     },
     {
@@ -33,27 +29,23 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          397.66955678
-        ],
-        [
           "2012",
-          351.14480156
+          340072.53296
         ],
         [
           "2014",
-          373.994309
+          281183.30807
         ],
         [
           "2016",
-          389.281783
+          292211.83992
         ],
         [
           "2018",
-          398.445491
+          257961.36649
         ]
       ],
-      "name": "Diesel",
+      "name": "Erdgas",
       "turboThreshold": 0
     },
     {
@@ -61,55 +53,47 @@
       "type": "column",
       "data": [
         [
-          "2010",
-          1262.9277103
-        ],
-        [
           "2012",
-          1157.7843572
+          127042.34764
         ],
         [
           "2014",
-          983.79301066
+          104663.35265
         ],
         [
           "2016",
-          932.60845667
+          80358.64575
         ],
         [
           "2018",
-          692.60280622
-        ]
-      ],
-      "name": "Erdgas",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#CD9C00",
-      "type": "column",
-      "data": [
-        [
-          "2010",
-          503.116594
-        ],
-        [
-          "2012",
-          443.12365626
-        ],
-        [
-          "2014",
-          353.12950264
-        ],
-        [
-          "2016",
-          258.23841724
-        ],
-        [
-          "2018",
-          215.70116311
+          72455.06664
         ]
       ],
       "name": "Heizöl",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "type": "column",
+      "data": [
+        [
+          "2012",
+          200798.35376
+        ],
+        [
+          "2014",
+          203891.39092
+        ],
+        [
+          "2016",
+          203864.58017
+        ],
+        [
+          "2018",
+          201178.95282
+        ]
+      ],
+      "name": "Treibstoffe",
       "turboThreshold": 0
     },
     {
@@ -124,27 +108,23 @@
       },
       "data": [
         [
-          "2010",
-          46.299649106
-        ],
-        [
           "2012",
-          45.119943999
+          4.3202040467
         ],
         [
           "2014",
-          44.653853817
+          3.8989140926
         ],
         [
           "2016",
-          41.622813203
+          3.7469817457
         ],
         [
           "2018",
-          38.993030106
+          3.4748426667
         ]
       ],
-      "name": "Anteil am Endverbrauch  (rechte Skala)",
+      "name": "Tonen CO\u003Csub\u003E2 \u003C\u002Fsub\u003E pro Einwohner (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -199,7 +179,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9617",
+    "renderTo": "container-9620",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -222,10 +202,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Endenergieverbrauch von fossilen Energieträgern"
+    "text": "CO\u003Csub\u003E2 \u003C\u002Fsub\u003E Emissionen nach Energieträger"
   },
   "subtitle": {
-    "text": "in GWh, Basel-Stadt",
+    "text": "in Tonen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -252,7 +232,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}%",
+        "format": "{value:,.0f}",
         "style": {
           "color": "black"
         }
@@ -300,13 +280,13 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total Enverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonen",
     "shared": true,
     "useHTML": true,
     "outside": true
   },
   "exporting": {
-    "filename": "9617"
+    "filename": "9620"
   }
 }

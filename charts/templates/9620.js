@@ -36,7 +36,7 @@
         text: null
       },
       labels: {
-        format: "{value:,.0f}%",
+        format: "{value:,.0f}",
         style: {
           color: "black"
         },
@@ -49,7 +49,7 @@
     series: [
       {
         color: "#A8C3CA",
-        type: "column"
+        type: "column",
       }, 
       {
         color: "#246370",
@@ -60,9 +60,13 @@
         type: "column"
       },
       {
-        color: "#CD9C00",
+        color: "#FABD24",
         type: "column"
       },
+      /*{
+        color: "#CD9C00",
+        type: "column"
+      },*/
       {
         color: "#000000",
         type: "line",
@@ -71,12 +75,13 @@
           enabled: false
         },
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'/*,
+          footerFormat: 'Total Emissionen: <b>{point.total:,.0f}</b> Tonen',*/
         }
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Enverbrauch: <b>{point.total:,.0f}</b> GWh',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Emissionen: <b>{point.total:,.0f}</b> Tonen',
       shared: true,
       useHTML: true,
       outside: true

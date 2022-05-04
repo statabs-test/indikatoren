@@ -60,11 +60,11 @@
         type: "column"
       },
       {
-        color: "#CD9C00",
+        color: "#FABD24",
         type: "column"
       },
       {
-        color: "#45381D",
+        color: "#CD9C00",
         type: "column"
       },
       {
@@ -81,7 +81,7 @@
     ],
     tooltip: {
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Enverbrauch: <b>{point.total:,.0f}</b> GWh',
-      shared: false,
+      shared: true,
       useHTML: true,
       outside: true
     },

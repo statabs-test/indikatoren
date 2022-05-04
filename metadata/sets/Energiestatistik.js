@@ -520,5 +520,79 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-05-02T11:16:34",
 		"id": 9618
+	},
+	{
+		"template": "template001",
+		"data-id": 9620,
+		"chart-id": 9620,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "CO<sub>2 </sub> Emissionen nach Energieträger",
+		"subtitle": "in Tonen, Basel-Stadt",
+		"lesehilfe": "Lesehilfe",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "CO2 Emissionen nach Energieträger",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09620",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "4.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-02T11:16:34",
+		"id": 9620
+	},
+	{
+		"template": "stock001",
+		"data-id": 9622,
+		"chart-id": 9622,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Jahresmitteltemperatur und Heizgradtage",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Lesehilfe",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Jahresmitteltemperatur und Heizgradtage",
+		"thema": "08 Energie",
+		"unterthema": "Produktion",
+		"kuerzel": "I.08.2.09622",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "5.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-02T11:35:00",
+		"id": 9622
 	}
 ];
