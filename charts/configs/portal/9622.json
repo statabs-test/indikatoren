@@ -3215,12 +3215,6 @@
                   }              
                 }
     },
-    "spacing": [
-      10,
-      10,
-      30,
-      80
-    ],
     "renderTo": "container-9622"
   },
   "plotOptions": {
@@ -3291,13 +3285,7 @@
       "title": ""
     },
     {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
+      "title": "",
       "labels": {
         "format": "{value:,.0f}",
         "style": {
@@ -3305,6 +3293,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }

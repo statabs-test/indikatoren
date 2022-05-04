@@ -42479,5 +42479,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-05-02T11:35:00",
 		"id": 9622
+	},
+	{
+		"template": "line001",
+		"data-id": 9623,
+		"chart-id": 9623,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Energieproduktivität und Pro-Kopf-Verbrauch",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Lesehilfe",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Energieproduktivität und Pro-Kopf-Verbrauch",
+		"thema": "08 Energie",
+		"unterthema": "Produktion",
+		"kuerzel": "I.08.2.09623",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "5.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-02T11:38:46",
+		"id": 9623
 	}
 ];
