@@ -1,8 +1,5 @@
 (function () {
   return {
-    /*chart: {
-      spacing: [10, 10, 30, 80],
-    },*/
     xAxis: {
       endOnTick: true,
       startOnTick: true,
@@ -14,6 +11,7 @@
     },
     yAxis: [
       {
+        opposite: false,
         labels: {
           format: "{value:,.0f}° C",
           style: {
@@ -21,18 +19,10 @@
           }
         },
         min: 0,
-        max: undefined,
-        title: ""
+        max: undefined
       },
       {
-        title: "",/*{
-          style: {
-            color: "#000000",
-            fontSize: null
-          },
-          text: null
-        },*/
-        labels: {
+       labels: {
           format: "{value:,.0f}",
           style: {
             "color": "#000000"
@@ -89,16 +79,6 @@
     rangeSelector: {
       buttons:
         [
-          /*{
-            count: 10,
-            type: 'year',
-            text: '10 J'
-          },
-          {
-            count: 20,
-            type: 'year',
-            text: '20 J'
-          },*/
           {
             count: 30,
             type: 'year',

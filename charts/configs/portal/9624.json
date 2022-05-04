@@ -1,152 +1,146 @@
 {
   "series": [
     {
-      "color": "#9A86A6",
+      "color": "#B375AB",
       "data": [
         [
-          "1995",
-          100
+          2012,
+          83850
         ],
         [
-          "2000",
-          98.473282443
+          2013,
+          28187
         ],
         [
-          "2004",
-          96.08778626
+          2014,
+          65363
         ],
         [
-          "2010",
-          106.33853071
+          2015,
+          91678
         ],
         [
-          "2012",
-          99.69614343
+          2016,
+          63857
         ],
         [
-          "2014",
-          89.955499651
+          2017,
+          54317
         ],
         [
-          "2016",
-          89.806893198
-        ],
-        [
-          "2018",
-          81.543228983
+          2018,
+          139379
         ]
       ],
-      "name": "Endenergie total",
-      "turboThreshold": 0
+      "name": "Wohnen"
     },
     {
-      "color": "#BAA85A",
+      "color": "#FABD24",
       "data": [
         [
-          "1995",
-          100
+          2012,
+          2083
         ],
         [
-          "2000",
-          86.743060141
+          2013,
+          75660
         ],
         [
-          "2004",
-          71.698704334
+          2014,
+          54913
         ],
         [
-          "2010",
-          65.442915585
+          2015,
+          45772
         ],
         [
-          "2012",
-          59.430156582
+          2016,
+          211897
         ],
         [
-          "2014",
-          52.18063438
+          2017,
+          90234
         ],
         [
-          "2016",
-          47.839045438
-        ],
-        [
-          "2018",
-          39.438776754
+          2018,
+          54163
         ]
       ],
-      "name": "kWh pro Franken BIP",
-      "turboThreshold": 0
+      "name": "Nichtwohnen"
     },
     {
-      "color": "#8AB77D",
+      "color": "#B375AB",
+      "showInLegend": "false",
       "data": [
         [
-          "1995",
-          100
+          2012,
+          -5765
         ],
         [
-          "2000",
-          102.96469813
+          2013,
+          -14183
         ],
         [
-          "2004",
-          101.44182729
+          2014,
+          -7745
         ],
         [
-          "2010",
-          111.52026649
+          2015,
+          -25537
         ],
         [
-          "2012",
-          105.4766851
+          2016,
+          -15710
         ],
         [
-          "2014",
-          93.623026685
+          2017,
+          -7996
         ],
         [
-          "2016",
-          92.258840891
-        ],
-        [
-          "2018",
-          82.866097594
+          2018,
+          -19788
         ]
       ],
-      "name": "kWh pro Kopf",
-      "turboThreshold": 0
+      "name": "Wohnen_agb"
+    },
+    {
+      "color": "#FABD24",
+      "showInLegend": "false",
+      "data": [
+        [
+          2012,
+          -15393
+        ],
+        [
+          2013,
+          -4251
+        ],
+        [
+          2014,
+          -35531
+        ],
+        [
+          2015,
+          -15644
+        ],
+        [
+          2016,
+          -69097
+        ],
+        [
+          2017,
+          -13724
+        ],
+        [
+          2018,
+          -66752
+        ]
+      ],
+      "name": "Nichtwohnen_abg"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickPositioner": function () {
-        var maxlabels = 10,
-          ext = this.getExtremes(),
-          i = Math.round(ext.max),
-          interval = Math.round((i - ext.min)/maxlabels),
-          pos = [i];
-        while (i >= ext.min) pos.unshift(i = i - interval);
-        return pos;
-      }
-  },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -174,13 +168,18 @@
 					}
 				}
     },
-    "renderTo": "container-9623"
+    "marginRight": 25,
+    "renderTo": "container-9624"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "pointWidth": 40
     }
   },
   "title": {
@@ -190,10 +189,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Energieproduktivität und Pro-Kopf-Verbrauch"
+    "text": "Veränderung der Energiebezugsfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "in Quadratmeter, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -201,8 +200,33 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+    var interval = 2,
+      ext = this.getExtremes(),
+      i = ext.dataMax,
+      pos = [i];
+    while (i >= ext.dataMin) pos.unshift(i = i - interval);
+    return pos;
+  }
+  },
   "yAxis": {
-    "min": 0,
+    "min": -100000,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -217,8 +241,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
-    }
+      "format": "{value:,.0f}"
+    },
+    "max": 250000
   },
   "legend": {
     "enabled": true,
@@ -229,6 +254,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 120,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -281,10 +307,11 @@
 			}
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
-    "filename": "9623"
+    "filename": "9624"
   }
 }
