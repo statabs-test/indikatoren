@@ -3274,6 +3274,7 @@
   },
   "yAxis": [
     {
+      "opposite": false,
       "labels": {
         "format": "{value:,.0f}° C",
         "style": {
@@ -3281,11 +3282,9 @@
         }
       },
       "min": 0,
-      "max": undefined,
-      "title": ""
+      "max": undefined
     },
     {
-      "title": "",
       "labels": {
         "format": "{value:,.0f}",
         "style": {

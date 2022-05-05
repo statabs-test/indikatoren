@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#B375AB",
+      "color": "#E7CEE2",
+      "stack": 0,
       "data": [
         [
           2012,
@@ -32,10 +33,11 @@
           139379
         ]
       ],
-      "name": "Wohnen"
+      "name": "Wohnen gebaut"
     },
     {
-      "color": "#FABD24",
+      "color": "#FFDA80",
+      "stack": 0,
       "data": [
         [
           2012,
@@ -66,11 +68,12 @@
           54163
         ]
       ],
-      "name": "Nichtwohnen"
+      "name": "Nichtwohnen gebaut"
     },
     {
-      "color": "#B375AB",
+      "color": "#E7CEE2",
       "showInLegend": "false",
+      "stack": 0,
       "data": [
         [
           2012,
@@ -101,11 +104,12 @@
           -19788
         ]
       ],
-      "name": "Wohnen_agb"
+      "name": "Wohnen abgebrochen"
     },
     {
-      "color": "#FABD24",
+      "color": "#FFDA80",
       "showInLegend": "false",
+      "stack": 0,
       "data": [
         [
           2012,
@@ -136,7 +140,79 @@
           -66752
         ]
       ],
-      "name": "Nichtwohnen_abg"
+      "name": "Nichtwohnen abgebrochen"
+    },
+    {
+      "color": "#923F8D",
+      "type": "line",
+      "stack": 1,
+      "data": [
+        [
+          2012,
+          78085
+        ],
+        [
+          2013,
+          14004
+        ],
+        [
+          2014,
+          57618
+        ],
+        [
+          2015,
+          66141
+        ],
+        [
+          2016,
+          48147
+        ],
+        [
+          2017,
+          46321
+        ],
+        [
+          2018,
+          119591
+        ]
+      ],
+      "name": "Wohnen Saldo"
+    },
+    {
+      "color": "#CD9C00",
+      "type": "line",
+      "stack": 2,
+      "data": [
+        [
+          2012,
+          -13310
+        ],
+        [
+          2013,
+          71409
+        ],
+        [
+          2014,
+          19382
+        ],
+        [
+          2015,
+          30128
+        ],
+        [
+          2016,
+          142800
+        ],
+        [
+          2017,
+          76510
+        ],
+        [
+          2018,
+          -12589
+        ]
+      ],
+      "name": "Nichtwohnen Saldo"
     }
   ],
   "chart": {
@@ -254,7 +330,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 120,
+    "itemWidth": 190,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -307,9 +383,9 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E m\u003Csup\u003E2 \u003C\u002Fsup\u003E \u003Cbr\u002F\u003E",
+    "shared": true,
+    "useHTML": true
   },
   "exporting": {
     "filename": "9624"
