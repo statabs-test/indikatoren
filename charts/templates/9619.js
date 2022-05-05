@@ -14,16 +14,16 @@
     type: "category"    
   },  
   yAxis: {
-    tickAmount: 7,
-    max: 6000,
+    //tickAmount: 7,
+    //max: 6000,
       labels: {
       format: "{value:,.0f}"
     },
-    reversedStacks: true
+    //reversedStacks: true
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} GWh</b> ({point.percentage:,.1f}%)<br/>',
-    footerFormat: 'Total: <b>{point.total:,.0f}</b><br/>'
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:,.1f}%)<br/>',
+    footerFormat: 'Total: <b>{point.total:,.0f}</b> GWh<br/>'
  },
   legend: {
     enabled: true,
