@@ -236,7 +236,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.12.2019"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -278,6 +278,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7692
+    "filename": "7692"
   }
 }

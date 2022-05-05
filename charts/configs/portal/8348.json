@@ -697,7 +697,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

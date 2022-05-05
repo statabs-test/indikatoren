@@ -309,7 +309,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

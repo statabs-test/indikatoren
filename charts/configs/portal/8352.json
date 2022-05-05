@@ -255,7 +255,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 7.7.2020"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
