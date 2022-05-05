@@ -38,32 +38,34 @@
   },
   series: [
     {
+      color: "#D3E2E4",
+    },
+    {
       color: "#A8C3CA",
-      legendIndex: 0     
     },
     {
       color:  "#689199",
-      legendIndex: 1
     },
 	  {
-      color:  "#246370",
-      legendIndex: 2     
+      color:  "#246370",  
     },
     {
       color: "#FF8028", 
-      legendIndex: 3
     },
     {
       color:"#DC440E", 
-      legendIndex: 4
     },
     {
       color:"#B00000",
-      legendIndex: 5
     },
     {
-      color:"#661200",
-      legendIndex: 6
+      color:"#E7CEE2",
+    },
+    {
+      color:"#B375AB",
+    },
+    {
+      color:"#923F8D",
     }
   ],
   chart: {    

@@ -85,7 +85,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#083038",
+      "color": "#B375AB",
       "legendIndex": 3,
       "data": [
         [
@@ -111,6 +111,38 @@
       ],
       "name": "Verluste, statistische Differenzen",
       "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 4,
+      "data": [
+        [
+          "2010",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2016",
+          11.9
+        ],
+        [
+          "2018",
+          18.6
+        ]
+      ],
+      "name": "Exporte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "legendIndex": 5
     }
   ],
   "xAxis": {
@@ -249,8 +281,8 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "5794"

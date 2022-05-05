@@ -1,172 +1,166 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
-      "legendIndex": 0,
+      "color": "#D3E2E4",
       "data": [
         [
-          "2010",
-          1424.0047062
+          "Abfall",
+          null
         ],
         [
-          "2012",
-          1546.2
+          "Benzin",
+          null
         ],
         [
-          "2014",
-          1332.3
+          "Diesel",
+          null
         ],
         [
-          "2016",
-          1554.9
+          "Elektrizität",
+          411.7690256
         ],
         [
-          "2018",
-          1294.5116399
+          "Erdgas",
+          216.20213245
+        ],
+        [
+          "Fernwärme",
+          475.98211087
+        ],
+        [
+          "Fotovoltaik",
+          17.78495753
+        ],
+        [
+          "Heizöl",
+          149.6957644
+        ],
+        [
+          "Holz",
+          14.790750023
+        ],
+        [
+          "Umweltwärme",
+          8.286899
         ]
       ],
       "name": "Wohnen",
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
-      "legendIndex": 1,
+      "color": "#A8C3CA",
       "data": [
         [
-          "2010",
-          3061.3654952
+          "Abfall",
+          71.50651076
         ],
         [
-          "2012",
-          2632.3
+          "Benzin",
+          null
         ],
         [
-          "2014",
-          2309.4022297
+          "Diesel",
+          null
         ],
         [
-          "2016",
-          2044.8963
+          "Elektrizität",
+          837.0373584
         ],
         [
-          "2018",
-          1922.8656253
+          "Erdgas",
+          453.17277677
+        ],
+        [
+          "Fernwärme",
+          482.71779756
+        ],
+        [
+          "Fotovoltaik",
+          2.28063811
+        ],
+        [
+          "Heizöl",
+          66.00539871
+        ],
+        [
+          "Holz",
+          5.8800639671
+        ],
+        [
+          "Umweltwärme",
+          4.265081
         ]
       ],
       "name": "Nichtwohnen",
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
-      "legendIndex": 2,
+      "color": "#689199",
       "data": [
         [
-          "2010",
-          903.97442297
+          "Abfall",
+          null
         ],
         [
-          "2012",
-          835.6
+          "Benzin",
+          358.504373
         ],
         [
-          "2014",
-          841.2186
+          "Diesel",
+          398.445491
         ],
         [
-          "2016",
-          853.2817688
+          "Elektrizität",
+          49.849
         ],
         [
-          "2018",
-          830.026761
+          "Erdgas",
+          23.227897
+        ],
+        [
+          "Fernwärme",
+          null
+        ],
+        [
+          "Fotovoltaik",
+          null
+        ],
+        [
+          "Heizöl",
+          null
+        ],
+        [
+          "Holz",
+          null
+        ],
+        [
+          "Umweltwärme",
+          null
         ]
       ],
       "name": "Verkehr",
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
-      "legendIndex": 3,
-      "data": [
-        [
-          "2010",
-          1571.627504
-        ],
-        [
-          "2012",
-          1655.3638011
-        ],
-        [
-          "2014",
-          1385.2968097
-        ],
-        [
-          "2016",
-          1540.5985181
-        ],
-        [
-          "2018",
-          1668.0396494
-        ]
-      ],
-      "name": "Umwandler Thermisch",
-      "turboThreshold": 0
+      "color": "#246370"
     },
     {
-      "color": "#FABD24",
-      "legendIndex": 4,
-      "data": [
-        [
-          "2010",
-          182.053
-        ],
-        [
-          "2012",
-          186.2
-        ],
-        [
-          "2014",
-          181.049064
-        ],
-        [
-          "2016",
-          214.90958026
-        ],
-        [
-          "2018",
-          213.906099
-        ]
-      ],
-      "name": "Verluste",
-      "turboThreshold": 0
+      "color": "#FF8028"
     },
     {
-      "color": "#73B97C",
-      "legendIndex": 5,
-      "data": [
-        [
-          "2010",
-          null
-        ],
-        [
-          "2012",
-          null
-        ],
-        [
-          "2014",
-          null
-        ],
-        [
-          "2016",
-          11.900496
-        ],
-        [
-          "2018",
-          18.579
-        ]
-      ],
-      "name": "Exporte",
-      "turboThreshold": 0
+      "color": "#DC440E"
+    },
+    {
+      "color": "#B00000"
+    },
+    {
+      "color": "#E7CEE2"
+    },
+    {
+      "color": "#B375AB"
+    },
+    {
+      "color": "#923F8D"
     }
   ],
   "xAxis": {
@@ -220,7 +214,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9008",
+    "renderTo": "container-9619",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -241,10 +235,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Endenergieverbrauch nach Verbrauchergruppe"
+    "text": "Endenergieverbrauch nach Energieträger und Verbrauchergruppe"
   },
   "subtitle": {
-    "text": "in GWh, Basel-Stadt",
+    "text": "in GWh, 2022, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -269,7 +263,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
+    "tickAmount": 7,
+    "max": 6000,
     "reversedStacks": true
   },
   "legend": {
@@ -280,8 +275,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "alignColumns": false
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -302,13 +296,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9008"
+    "filename": "9619"
   }
 }
