@@ -3190,45 +3190,35 @@
       "name": "Heizgradtage (rechte Skala)"
     }
   ],
+  "isStock": true,
   "chart": {
-    "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
                 }
     },
-    "renderTo": "container-9622",
-    "spacingBottom": 40
+    "renderTo": "container-9622"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -3242,28 +3232,28 @@
     }
   },
   "title": {
-    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
+    "align": "left",
     "text": "Jahresmitteltemperatur und Heizgradtage"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
-    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
-    }
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
+    "ordinal": false,
     "title": {
       "style": {
         "color": "#000000"
@@ -3274,13 +3264,13 @@
         "color": "#000000"
       }
     },
+    "tickLength": 0,
     "endOnTick": true,
     "startOnTick": true,
     "showFirstLabel": true,
     "showLastLabel": true,
     "tickInterval": 31536000000,
-    "minTickInterval": 31536000000,
-    "ordinal": false
+    "minTickInterval": 31536000000
   },
   "yAxis": [
     {
@@ -3292,7 +3282,8 @@
         }
       },
       "min": 0,
-      "max": undefined
+      "max": undefined,
+      "title": ""
     },
     {
       "labels": {
@@ -3304,19 +3295,10 @@
       "min": 0,
       "max": undefined,
       "gridLineWidth": 0,
-      "opposite": true
+      "opposite": true,
+      "title": ""
     }
   ],
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
-  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -3338,11 +3320,19 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
     "buttons": [
       {
         "count": 30,
@@ -3360,7 +3350,25 @@
     "inputDateFormat": "%Y",
     "inputEditDateFormat": "%Y"
   },
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b. %Y"
+    },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": "9622"
   }
 }

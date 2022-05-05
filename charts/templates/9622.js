@@ -19,7 +19,8 @@
           }
         },
         min: 0,
-        max: undefined
+        max: undefined,
+        title: ""
       },
       {
        labels: {
@@ -31,7 +32,8 @@
         min: 0,
         max: undefined,
         gridLineWidth: 0,
-        opposite: true
+        opposite: true,
+        title: ""
       }
     ],
     tooltip: {
