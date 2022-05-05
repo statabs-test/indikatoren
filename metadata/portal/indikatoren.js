@@ -39120,7 +39120,7 @@ var indikatoren = [
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.09008",
 		"kennzahlenset": "Energiestatistik",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "3.1",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
