@@ -81,7 +81,7 @@ global Highcharts
         "labels": {
           "style": {
             "color": "#000000",
-            "fontSize": "10px"
+            "fontSize": "11px"
           }
         }
       },

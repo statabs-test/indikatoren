@@ -3,7 +3,7 @@
 		"chart": {
 			marginLeft: 200,
 			inverted: true,
-			height: 400
+			height: 700
 		},
 		plotOptions: {
 			series: {
@@ -25,7 +25,7 @@
 				align: "left",
 				tickInterval: 1,
 				step: 1,
-				x: -190,
+				x: -200,
 				"formatter": function () {
 					//add sum of observations of visible series to the axis label
 					var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
