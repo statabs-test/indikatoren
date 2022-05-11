@@ -80908,6 +80908,86 @@ var indikatoren = [
 		"id": 9575
 	},
 	{
+		"template": "line001",
+		"data-id": 9577,
+		"chart-id": 9577,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Belegungsdauer der Allmend in der Innenstadt",
+		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. <br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Tagsüber stattfindene Märkte gelten daher bspw. nicht als Veranstaltung im Sinne des Bespielungsplanes. Ausgenommen ist auch die Fasnacht. Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl.Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
+		"quellenangabe": [
+			"Allmendverwaltung Basel-Stadt"
+		],
+		"externalLinks": [
+			"Tiefbauamt Basel-Stadt, <a href = 'https://www.tiefbauamt.bs.ch/oeffentlicher-raum/nutzung-des-oeffentlichen-raumes/veranstaltungen.html' target = '_blank'>Veranstaltungen im öffentlichen Raum</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Innenstadt"
+		],
+		"description": "Belegungsdauer der Allmend in der Innenstadt",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "1.2-1",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9577
+	},
+	{
+		"template": "line001",
+		"data-id": 9578,
+		"chart-id": 9578,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt",
+		"subtitle": "nach Veranstaltungsort, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. <br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Tagsüber stattfindene Märkte gelten daher bspw. nicht als Veranstaltung im Sinne des Bespielungsplanes. Ausgenommen ist auch die Fasnacht. Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl.Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
+		"quellenangabe": [
+			"Allmendverwaltung Basel-Stadt"
+		],
+		"externalLinks": [
+			"Tiefbauamt Basel-Stadt, <a href = 'https://www.tiefbauamt.bs.ch/oeffentlicher-raum/nutzung-des-oeffentlichen-raumes/veranstaltungen.html' target = '_blank'>Veranstaltungen im öffentlichen Raum</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Innenstadt"
+		],
+		"description": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "1.2-2",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9578
+	},
+	{
 		"template": "template001",
 		"data-id": 9583,
 		"chart-id": 9583,
@@ -81032,7 +81112,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort in der Innenstadt Basels",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2019 gaben fast 90% der befragten Personen in Basel an, mit den Einkaufsmöglichzkeiten an ihrem Wohnort zufrieden zu sein. 85% bzw. 81% sind zufrieden mit den Grünanlagen bzw. der öffentlichen Sicherheit. Mit der Sauberkeit sind drei Viertel zufrieden (37,9% «sehr» und 38,3% «eher zufrieden») und mit der Lärmsituation sind es 69% (26,8% «sehr» und 42,1% «eher zufrieden»).",
+		"lesehilfe": "2019 gaben fast 90% der befragten Personen in Basel an, mit den Einkaufsmöglichzkeiten an ihrem Wohnort zufrieden zu sein. 85% bzw. 81% sind zufrieden mit den Grünanlagen bzw. der öffentlichen Sicherheit. Mit der Sauberkeit sind drei Viertel zufrieden (37,4% «sehr» und 38,7% «eher zufrieden») und mit der Lärmsituation sind es 67% (25,8% «sehr» und 41,5% «eher zufrieden»).",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

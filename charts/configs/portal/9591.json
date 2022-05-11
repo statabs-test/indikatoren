@@ -6,56 +6,84 @@
       "legendIndex": 1,
       "data": [
         [
+          "2015: Einkaufsmöglichkeiten Kanton",
+          641
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Kanton",
-          800
+          908
         ],
         [
           "            ",
           null
         ],
         [
+          "2015: Einkaufsmöglichkeiten Wohnort",
+          621
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Wohnort",
-          813
+          929
         ],
         [
           "             ",
           null
         ],
         [
+          "2015: Grünanlagen",
+          616
+        ],
+        [
           "2019: Grünanlagen",
-          697
+          788
         ],
         [
           "              ",
           null
         ],
         [
+          "2015: Öffentliche Sicherheit",
+          263
+        ],
+        [
           "2019: Öffentliche Sicherheit",
-          526
+          585
         ],
         [
           "               ",
           null
         ],
         [
+          "2015: Verkehrssicherheit",
+          310
+        ],
+        [
           "2019: Verkehrssicherheit",
-          424
+          475
         ],
         [
           "                    ",
           null
         ],
         [
+          "2015: Sauberkeit",
+          350
+        ],
+        [
           "2019: Sauberkeit",
-          577
+          651
         ],
         [
           "                ",
           null
         ],
         [
+          "2015: Lärmsituation",
+          349
+        ],
+        [
           "2019: Lärmsituation",
-          404
+          445
         ]
       ],
       "name": "Sehr zufrieden",
@@ -67,56 +95,84 @@
       "legendIndex": 2,
       "data": [
         [
+          "2015: Einkaufsmöglichkeiten Kanton",
+          575
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Kanton",
-          553
+          642
         ],
         [
           "            ",
           null
         ],
         [
+          "2015: Einkaufsmöglichkeiten Wohnort",
+          517
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Wohnort",
-          537
+          617
         ],
         [
           "             ",
           null
         ],
         [
+          "2015: Grünanlagen",
+          533
+        ],
+        [
           "2019: Grünanlagen",
-          587
+          685
         ],
         [
           "              ",
           null
         ],
         [
+          "2015: Öffentliche Sicherheit",
+          700
+        ],
+        [
           "2019: Öffentliche Sicherheit",
-          709
+          827
         ],
         [
           "               ",
           null
         ],
         [
+          "2015: Verkehrssicherheit",
+          773
+        ],
+        [
           "2019: Verkehrssicherheit",
-          766
+          878
         ],
         [
           "                    ",
           null
         ],
         [
+          "2015: Sauberkeit",
+          585
+        ],
+        [
           "2019: Sauberkeit",
-          583
+          674
         ],
         [
           "                ",
           null
         ],
         [
+          "2015: Lärmsituation",
+          647
+        ],
+        [
           "2019: Lärmsituation",
-          635
+          715
         ]
       ],
       "name": "Eher zufrieden",
@@ -128,56 +184,84 @@
       "legendIndex": 3,
       "data": [
         [
+          "2015: Einkaufsmöglichkeiten Kanton",
+          37
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Kanton",
-          67
+          75
         ],
         [
           "            ",
           null
         ],
         [
+          "2015: Einkaufsmöglichkeiten Wohnort",
+          118
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Wohnort",
-          103
+          119
         ],
         [
           "             ",
           null
         ],
         [
+          "2015: Grünanlagen",
+          107
+        ],
+        [
           "2019: Grünanlagen",
-          138
+          161
         ],
         [
           "              ",
           null
         ],
         [
+          "2015: Öffentliche Sicherheit",
+          248
+        ],
+        [
           "2019: Öffentliche Sicherheit",
-          158
+          182
         ],
         [
           "               ",
           null
         ],
         [
+          "2015: Verkehrssicherheit",
+          153
+        ],
+        [
           "2019: Verkehrssicherheit",
-          214
+          256
         ],
         [
           "                    ",
           null
         ],
         [
+          "2015: Sauberkeit",
+          284
+        ],
+        [
           "2019: Sauberkeit",
-          225
+          257
         ],
         [
           "                ",
           null
         ],
         [
+          "2015: Lärmsituation",
+          205
+        ],
+        [
           "2019: Lärmsituation",
-          293
+          351
         ]
       ],
       "name": "Eher unzufrieden",
@@ -189,56 +273,84 @@
       "legendIndex": 4,
       "data": [
         [
+          "2015: Einkaufsmöglichkeiten Kanton",
+          2
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Kanton",
-          9
+          10
         ],
         [
           "            ",
           null
         ],
         [
+          "2015: Einkaufsmöglichkeiten Wohnort",
+          15
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Wohnort",
-          23
+          25
         ],
         [
           "             ",
           null
         ],
         [
+          "2015: Grünanlagen",
+          13
+        ],
+        [
           "2019: Grünanlagen",
-          23
+          25
         ],
         [
           "              ",
           null
         ],
         [
+          "2015: Öffentliche Sicherheit",
+          49
+        ],
+        [
           "2019: Öffentliche Sicherheit",
-          51
+          60
         ],
         [
           "               ",
           null
         ],
         [
+          "2015: Verkehrssicherheit",
+          21
+        ],
+        [
           "2019: Verkehrssicherheit",
-          34
+          40
         ],
         [
           "                    ",
           null
         ],
         [
+          "2015: Sauberkeit",
+          51
+        ],
+        [
           "2019: Sauberkeit",
-          66
+          78
         ],
         [
           "                ",
           null
         ],
         [
+          "2015: Lärmsituation",
+          62
+        ],
+        [
           "2019: Lärmsituation",
-          101
+          128
         ]
       ],
       "name": "Ganz unzufrieden",
@@ -250,20 +362,32 @@
       "legendIndex": 5,
       "data": [
         [
+          "2015: Einkaufsmöglichkeiten Kanton",
+          14
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Kanton",
-          24
+          28
         ],
         [
           "            ",
           null
         ],
         [
+          "2015: Einkaufsmöglichkeiten Wohnort",
+          2
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Wohnort",
-          4
+          5
         ],
         [
           "             ",
           null
+        ],
+        [
+          "2015: Grünanlagen",
+          5
         ],
         [
           "2019: Grünanlagen",
@@ -274,12 +398,20 @@
           null
         ],
         [
+          "2015: Öffentliche Sicherheit",
+          11
+        ],
+        [
           "2019: Öffentliche Sicherheit",
-          19
+          20
         ],
         [
           "               ",
           null
+        ],
+        [
+          "2015: Verkehrssicherheit",
+          15
         ],
         [
           "2019: Verkehrssicherheit",
@@ -290,6 +422,10 @@
           null
         ],
         [
+          "2015: Sauberkeit",
+          5
+        ],
+        [
           "2019: Sauberkeit",
           3
         ],
@@ -298,8 +434,12 @@
           null
         ],
         [
+          "2015: Lärmsituation",
+          4
+        ],
+        [
           "2019: Lärmsituation",
-          9
+          10
         ]
       ],
       "name": "Weiss nicht",
@@ -311,56 +451,84 @@
       "legendIndex": 6,
       "data": [
         [
+          "2015: Einkaufsmöglichkeiten Kanton",
+          0
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Kanton",
-          48
+          56
         ],
         [
           "            ",
           null
         ],
         [
+          "2015: Einkaufsmöglichkeiten Wohnort",
+          0
+        ],
+        [
           "2019: Einkaufsmöglichkeiten Wohnort",
-          47
+          53
         ],
         [
           "             ",
           null
         ],
         [
+          "2015: Grünanlagen",
+          0
+        ],
+        [
           "2019: Grünanlagen",
-          62
+          69
         ],
         [
           "              ",
           null
         ],
         [
+          "2015: Öffentliche Sicherheit",
+          undefined
+        ],
+        [
           "2019: Öffentliche Sicherheit",
-          58
+          65
         ],
         [
           "               ",
           null
         ],
         [
+          "2015: Verkehrssicherheit",
+          0
+        ],
+        [
           "2019: Verkehrssicherheit",
-          61
+          68
         ],
         [
           "                    ",
           null
         ],
         [
+          "2015: Sauberkeit",
+          0
+        ],
+        [
           "2019: Sauberkeit",
-          67
+          77
         ],
         [
           "                ",
           null
         ],
         [
+          "2015: Lärmsituation",
+          0
+        ],
+        [
           "2019: Lärmsituation",
-          65
+          73
         ]
       ],
       "name": "Keine Angabe",
@@ -403,7 +571,7 @@
 					var txt = this.value;
 					console.log(this);
 					if (typeof this.value.replace === 'function') {
-						txt = txt.replace("mögl.", "m.")
+						txt = txt.replace("möglichkeiten", "mögl.")
 							.replace("im ", "")
 							.replace("am ", "")
 							.replace("in ", "")
@@ -455,7 +623,7 @@
       "align": "left",
       "tickInterval": 1,
       "step": 1,
-      "x": -190
+      "x": -200
     }
   },
   "chart": {

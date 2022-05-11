@@ -1,0 +1,357 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "index": 0,
+      "color": "#DC440E",
+      "data": [
+        [
+          "Barfüsserplatz (inkl. Theaterplatz)",
+          33
+        ],
+        [
+          "Marktplatz",
+          2
+        ],
+        [
+          "Münsterplatz",
+          0
+        ],
+        [
+          "Oberer Rheinweg",
+          19
+        ],
+        [
+          "Unterer Rheinweg",
+          0
+        ],
+        [
+          "Kaserne (Belegungstage)",
+          0
+        ]
+      ],
+      "name": "2009",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "index": 1,
+      "color": "#933F8D",
+      "data": [
+        [
+          "Barfüsserplatz (inkl. Theaterplatz)",
+          28
+        ],
+        [
+          "Marktplatz",
+          2
+        ],
+        [
+          "Münsterplatz",
+          25
+        ],
+        [
+          "Oberer Rheinweg",
+          21
+        ],
+        [
+          "Unterer Rheinweg",
+          0
+        ],
+        [
+          "Kaserne (Belegungstage)",
+          0
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "index": 2,
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Barfüsserplatz (inkl. Theaterplatz)",
+          35
+        ],
+        [
+          "Marktplatz",
+          1
+        ],
+        [
+          "Münsterplatz",
+          27
+        ],
+        [
+          "Oberer Rheinweg",
+          18
+        ],
+        [
+          "Unterer Rheinweg",
+          0
+        ],
+        [
+          "Kaserne (Belegungstage)",
+          141
+        ]
+      ],
+      "name": "2011",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "index": 3,
+      "color": "#689199",
+      "data": [
+        [
+          "Barfüsserplatz (inkl. Theaterplatz)",
+          37
+        ],
+        [
+          "Marktplatz",
+          1
+        ],
+        [
+          "Münsterplatz",
+          24
+        ],
+        [
+          "Oberer Rheinweg",
+          19
+        ],
+        [
+          "Unterer Rheinweg",
+          0
+        ],
+        [
+          "Kaserne (Belegungstage)",
+          137
+        ]
+      ],
+      "name": "2012",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "index": 4,
+      "color": "#008AC3",
+      "data": [
+        [
+          "Barfüsserplatz (inkl. Theaterplatz)",
+          40
+        ],
+        [
+          "Marktplatz",
+          1
+        ],
+        [
+          "Münsterplatz",
+          26
+        ],
+        [
+          "Oberer Rheinweg",
+          21
+        ],
+        [
+          "Unterer Rheinweg",
+          0
+        ],
+        [
+          "Kaserne (Belegungstage)",
+          122
+        ]
+      ],
+      "name": "2013",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9577"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false,
+        "allowOverlap": true,
+        "formatter": function() {
+              var last  = this.series.data[this.series.data.length - 1];
+              if (this.point.category === last.category  && this.point.y === last.y) {
+                return this.series.name;
+              }
+              return "";
+            }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Belegungsdauer der Allmend in der Innenstadt"
+  },
+  "subtitle": {
+    "text": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 3000
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "width": 500,
+    "itemDistance": 10
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Allmendverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9577"
+  }
+}
