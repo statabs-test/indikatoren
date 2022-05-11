@@ -4,163 +4,191 @@
       "color": "#D3E2E4",
       "data": [
         [
-          "Abfall",
+          "Wohnen",
           null
         ],
         [
-          "Benzin",
+          "Nichtwohnen",
+          71.50651076
+        ],
+        [
+          "Verkehr",
           null
-        ],
-        [
-          "Diesel",
-          null
-        ],
-        [
-          "Elektrizität",
-          411.7690256
-        ],
-        [
-          "Erdgas",
-          216.20213245
-        ],
-        [
-          "Fernwärme",
-          475.98211087
-        ],
-        [
-          "Fotovoltaik",
-          17.78495753
-        ],
-        [
-          "Heizöl",
-          149.6957644
-        ],
-        [
-          "Holz",
-          14.790750023
-        ],
-        [
-          "Umweltwärme",
-          8.286899
         ]
       ],
-      "name": "Wohnen",
+      "name": "Abfall",
       "turboThreshold": 0
     },
     {
       "color": "#A8C3CA",
       "data": [
         [
-          "Abfall",
-          71.50651076
+          "Wohnen",
+          411.7690256
         ],
         [
-          "Benzin",
-          null
-        ],
-        [
-          "Diesel",
-          null
-        ],
-        [
-          "Elektrizität",
+          "Nichtwohnen",
           837.0373584
         ],
         [
-          "Erdgas",
-          453.17277677
-        ],
-        [
-          "Fernwärme",
-          482.71779756
-        ],
-        [
-          "Fotovoltaik",
-          2.28063811
-        ],
-        [
-          "Heizöl",
-          66.00539871
-        ],
-        [
-          "Holz",
-          5.8800639671
-        ],
-        [
-          "Umweltwärme",
-          4.265081
+          "Verkehr",
+          49.849
         ]
       ],
-      "name": "Nichtwohnen",
+      "name": "Elektrizität",
       "turboThreshold": 0
     },
     {
       "color": "#689199",
       "data": [
         [
-          "Abfall",
-          null
+          "Wohnen",
+          216.20213245
         ],
         [
-          "Benzin",
-          358.504373
+          "Nichtwohnen",
+          453.17277677
         ],
         [
-          "Diesel",
-          398.445491
-        ],
-        [
-          "Elektrizität",
-          49.849
-        ],
-        [
-          "Erdgas",
+          "Verkehr",
           23.227897
-        ],
-        [
-          "Fernwärme",
-          null
-        ],
-        [
-          "Fotovoltaik",
-          null
-        ],
-        [
-          "Heizöl",
-          null
-        ],
-        [
-          "Holz",
-          null
-        ],
-        [
-          "Umweltwärme",
-          null
         ]
       ],
-      "name": "Verkehr",
+      "name": "Erdgas",
       "turboThreshold": 0
     },
     {
-      "color": "#246370"
+      "color": "#246370",
+      "data": [
+        [
+          "Wohnen",
+          475.98211087
+        ],
+        [
+          "Nichtwohnen",
+          482.71779756
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Fernwärme",
+      "turboThreshold": 0
     },
     {
-      "color": "#FF8028"
+      "color": "#FF8028",
+      "data": [
+        [
+          "Wohnen",
+          17.78495753
+        ],
+        [
+          "Nichtwohnen",
+          2.28063811
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Fotovoltaik",
+      "turboThreshold": 0
     },
     {
-      "color": "#DC440E"
+      "color": "#DC440E",
+      "data": [
+        [
+          "Wohnen",
+          149.6957644
+        ],
+        [
+          "Nichtwohnen",
+          66.00539871
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Heizöl",
+      "turboThreshold": 0
     },
     {
-      "color": "#B00000"
+      "color": "#B00000",
+      "data": [
+        [
+          "Wohnen",
+          14.790750023
+        ],
+        [
+          "Nichtwohnen",
+          5.8800639671
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Holz",
+      "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2"
+      "color": "#E7CEE2",
+      "data": [
+        [
+          "Wohnen",
+          8.286899
+        ],
+        [
+          "Nichtwohnen",
+          4.265081
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Umweltwärme",
+      "turboThreshold": 0
     },
     {
-      "color": "#B375AB"
+      "color": "#B375AB",
+      "data": [
+        [
+          "Wohnen",
+          null
+        ],
+        [
+          "Nichtwohnen",
+          null
+        ],
+        [
+          "Verkehr",
+          358.504373
+        ]
+      ],
+      "name": "Benzin",
+      "turboThreshold": 0
     },
     {
-      "color": "#923F8D"
+      "color": "#923F8D",
+      "data": [
+        [
+          "Wohnen",
+          null
+        ],
+        [
+          "Nichtwohnen",
+          null
+        ],
+        [
+          "Verkehr",
+          398.445491
+        ]
+      ],
+      "name": "Diesel",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -262,10 +290,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickAmount": 7,
-    "max": 6000,
-    "reversedStacks": true
+    }
   },
   "legend": {
     "symbolRadius": 0,
@@ -299,8 +324,8 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9619"

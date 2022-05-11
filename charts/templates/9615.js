@@ -38,48 +38,22 @@
   },
   series: [
     {
-      color: "#D3E2E4",
-      //index: 0     
-    },
-    {
-      color:  "#A8C3CA",
-      //index: 3
+      color:  "#A8C3CA"
     },
 	  {
-      color:  "#689199",
-      //index: 6     
+      color:  "#689199"
     },
     {
-      color: "#246370", 
-      //legendIndex: 9
+      color: "#246370"
     },
     {
-      color:"#FFDA80", 
-      //legendIndex: 1
+      color:"#FFDA80"
     },
     {
-      color:"#FABD24",
-      //legendIndex: 4
+      color:"#FABD24"
     },
     {
-      color:"#CD9C00",
-      //legendIndex: 7
-    },
-    {
-      color:"#7F5F1A",
-      //legendIndex: 10
-    },
-    {
-      color:"#ECE1D0",
-      //legendIndex: 2
-    },
-    {
-      color:"#C4AB91",
-      //legendIndex: 5
-    },
-    {
-      color:"#9E7C59",
-      //legendIndex: 8
+      color:"#CD9C00"
     }
   ],
   chart: {    

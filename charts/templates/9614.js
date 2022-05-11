@@ -14,7 +14,7 @@
     type: "category"    
   },  
   yAxis: {
-    tickAmount: 6,
+    //tickAmount: 6,
     max: 1000,
       labels: {
       format: "{value:,.0f}"
@@ -22,7 +22,7 @@
     reversedStacks: true
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b> ({point.percentage:,.1f}%)<br/>',
     footerFormat: 'Total: <b>{point.total:,.0f}</b><br/>'
  },
   legend: {
@@ -38,32 +38,25 @@
   },
   series: [
     {
-      color: "#A8C3CA",
-      legendIndex: 0     
+      color: "#A8C3CA"  
     },
     {
-      color:  "#689199",
-      legendIndex: 1
+      color:  "#689199"
     },
 	  {
-      color:  "#246370",
-      legendIndex: 2     
+      color:  "#246370"  
     },
     {
-      color: "#FF8028", 
-      legendIndex: 3
+      color: "#FF8028"
     },
     {
-      color:"#DC440E", 
-      legendIndex: 4
+      color:"#DC440E"
     },
     {
-      color:"#B00000",
-      legendIndex: 5
+      color:"#B00000"
     },
     {
-      color:"#661200",
-      legendIndex: 6
+      color:"#661200"
     }
   ],
   chart: {    

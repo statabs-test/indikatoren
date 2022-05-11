@@ -37,17 +37,14 @@
   },
   series: [
     {
-      color:  "#A8C3CA", 
-      legendIndex: 0
+      color:  "#A8C3CA"
     },
 	  {
-      color:  "#689199", 
-      legendIndex: 1   
+      color:  "#689199"
     },
     {
-      color: "#246370", 
-      legendIndex: 2
-    },
+      color: "#246370"
+    }/*,
     {
       color: "#B375AB",
       legendIndex: 3
@@ -59,7 +56,7 @@
     {
       color: "#73B97C",
       legendIndex: 5
-    }
+    }*/
   ],
   chart: {    
     /*marginBottom: 75,

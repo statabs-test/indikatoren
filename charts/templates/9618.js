@@ -68,6 +68,10 @@
         type: "column"
       },
       {
+        color: "#923F8D",
+        type: "column"
+      },
+      {
         color: "#000000",
         type: "line",
         yAxis: 1,
@@ -93,7 +97,7 @@
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
-      itemWidth: 150,
+      itemWidth: 170,
       width: 300,
       itemStyle: {
         fontWeight: "normal",

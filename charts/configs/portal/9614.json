@@ -2,35 +2,33 @@
   "series": [
     {
       "color": "#A8C3CA",
-      "legendIndex": 0,
       "data": [
         [
           "2010",
-          350.623931
+          210.2
         ],
         [
           "2012",
-          365.71107765
+          260.3
         ],
         [
           "2014",
-          372.01287765
+          282.55
         ],
         [
           "2016",
-          377.481412
+          279.136815
         ],
         [
           "2018",
-          380.375647
+          251.1643
         ]
       ],
-      "name": "Abfall (vollständig erneuerbar)",
+      "name": "Wasserkraft",
       "turboThreshold": 0
     },
     {
       "color": "#689199",
-      "legendIndex": 1,
       "data": [
         [
           "2010",
@@ -58,7 +56,6 @@
     },
     {
       "color": "#246370",
-      "legendIndex": 2,
       "data": [
         [
           "2010",
@@ -86,35 +83,6 @@
     },
     {
       "color": "#FF8028",
-      "legendIndex": 3,
-      "data": [
-        [
-          "2010",
-          3.4
-        ],
-        [
-          "2012",
-          6
-        ],
-        [
-          "2014",
-          13.101795
-        ],
-        [
-          "2016",
-          20.858757
-        ],
-        [
-          "2018",
-          22.660303
-        ]
-      ],
-      "name": "Photovoltaik",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "legendIndex": 4,
       "data": [
         [
           "2010",
@@ -141,8 +109,61 @@
       "turboThreshold": 0
     },
     {
+      "color": "#DC440E",
+      "data": [
+        [
+          "2010",
+          3.4
+        ],
+        [
+          "2012",
+          6
+        ],
+        [
+          "2014",
+          13.101795
+        ],
+        [
+          "2016",
+          20.858757
+        ],
+        [
+          "2018",
+          22.660303
+        ]
+      ],
+      "name": "Fotovoltaik",
+      "turboThreshold": 0
+    },
+    {
       "color": "#B00000",
-      "legendIndex": 5,
+      "data": [
+        [
+          "2010",
+          350.623931
+        ],
+        [
+          "2012",
+          365.71107765
+        ],
+        [
+          "2014",
+          372.01287765
+        ],
+        [
+          "2016",
+          377.481412
+        ],
+        [
+          "2018",
+          380.375647
+        ]
+      ],
+      "name": "Kehricht und Klärschlamm (vollständig erneuerbar)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
       "data": [
         [
           "2010",
@@ -166,34 +187,6 @@
         ]
       ],
       "name": "Umweltwärme",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#661200",
-      "legendIndex": 6,
-      "data": [
-        [
-          "2010",
-          210.2
-        ],
-        [
-          "2012",
-          260.3
-        ],
-        [
-          "2014",
-          282.55
-        ],
-        [
-          "2016",
-          279.136815
-        ],
-        [
-          "2018",
-          251.1643
-        ]
-      ],
-      "name": "Wasserkraft",
       "turboThreshold": 0
     }
   ],
@@ -297,7 +290,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
     "max": 1000,
     "reversedStacks": true
   },
@@ -333,7 +325,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
