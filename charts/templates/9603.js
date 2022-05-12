@@ -1,8 +1,4 @@
-(function () {
-    this.series[0].points[3].update({
-        isSum: true
-    })
-}),
+
     (function () {
         return {
             "xAxis": {
@@ -26,7 +22,8 @@
                     "data": [
                         {
                             name: "2012",
-                            y: 7210548
+                            y: 7210548,
+                            isSum: true
                         },
                         {
                             name: "2013",
