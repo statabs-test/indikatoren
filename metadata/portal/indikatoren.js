@@ -26596,7 +26596,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:47",
+		"aktualisierungsdatum": "2022-03-22T08:57:40",
 		"id": 7515
 	},
 	{
