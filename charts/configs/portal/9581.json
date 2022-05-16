@@ -1,352 +1,129 @@
 {
   "series": [
     {
-      "color": "#b00000",
+      "color": "#71a3b5",
       "data": [
         [
+          2008,
+          12916
+        ],
+        [
           2009,
-          33
+          13020
         ],
         [
           2010,
-          28
+          12941
         ],
         [
           2011,
-          35
+          13250
         ],
         [
           2012,
-          37
+          13445
         ],
         [
           2013,
-          40
+          13762
         ],
         [
           2014,
-          37
+          13832
         ],
         [
           2015,
-          41
+          13866
         ],
         [
           2016,
-          51
+          14087
         ],
         [
           2017,
-          35
+          14153
         ],
         [
           2018,
-          38
+          14139
         ],
         [
           2019,
-          47
+          14065
         ],
         [
           2020,
-          5
+          14164
         ],
         [
           2021,
-          16
+          14290
         ]
       ],
-      "name": "Barfüsserplatz (inkl. Theater)"
+      "name": "Innenstadt"
     },
     {
-      "color": "#672773",
+      "color": "#ff8028",
+      "visible": true,
       "data": [
         [
+          2008,
+          189249
+        ],
+        [
           2009,
-          2
+          190034
         ],
         [
           2010,
-          2
+          190332
         ],
         [
           2011,
-          1
+          192076
         ],
         [
           2012,
-          1
+          193459
         ],
         [
           2013,
-          1
+          195459
         ],
         [
           2014,
-          3
+          196471
         ],
         [
           2015,
-          2
+          197204
         ],
         [
           2016,
-          2
+          198206
         ],
         [
           2017,
-          2
+          198988
         ],
         [
           2018,
-          1
+          200256
         ],
         [
           2019,
-          1
+          200407
         ],
         [
           2020,
-          0
+          201971
         ],
         [
           2021,
-          0
+          201805
         ]
       ],
-      "name": "Marktplatz"
-    },
-    {
-      "color": "#007a2f",
-      "data": [
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          25
-        ],
-        [
-          2011,
-          27
-        ],
-        [
-          2012,
-          24
-        ],
-        [
-          2013,
-          26
-        ],
-        [
-          2014,
-          25
-        ],
-        [
-          2015,
-          27
-        ],
-        [
-          2016,
-          27
-        ],
-        [
-          2017,
-          28
-        ],
-        [
-          2018,
-          28
-        ],
-        [
-          2019,
-          27
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ]
-      ],
-      "name": "Münsterplatz"
-    },
-    {
-      "color": "#fabd24",
-      "data": [
-        [
-          2009,
-          19
-        ],
-        [
-          2010,
-          21
-        ],
-        [
-          2011,
-          18
-        ],
-        [
-          2012,
-          19
-        ],
-        [
-          2013,
-          21
-        ],
-        [
-          2014,
-          20
-        ],
-        [
-          2015,
-          17
-        ],
-        [
-          2016,
-          19
-        ],
-        [
-          2017,
-          18
-        ],
-        [
-          2018,
-          1
-        ],
-        [
-          2019,
-          18
-        ],
-        [
-          2020,
-          17
-        ],
-        [
-          2021,
-          0
-        ]
-      ],
-      "name": "Oberer Rheinweg"
-    },
-    {
-      "color": "#b475ab",
-      "data": [
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          0
-        ],
-        [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ]
-      ],
-      "name": "Unterer Rheinweg"
-    },
-    {
-      "color": "#b9cfd7",
-      "data": [
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          141
-        ],
-        [
-          2012,
-          137
-        ],
-        [
-          2013,
-          122
-        ],
-        [
-          2014,
-          116
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ]
-      ],
-      "name": "Kaserne (Belegungstage)"
+      "name": "Kanton BS"
     }
   ],
   "chart": {
@@ -378,7 +155,7 @@
 					}
 				}
     },
-    "renderTo": "container-9577"
+    "renderTo": "container-9581"
   },
   "plotOptions": {
     "series": {
@@ -387,10 +164,10 @@
       }
     },
     "line": {
+      "connectNulls": true,
       "marker": {
         "enabled": false,
-        "symbol": "circle",
-        "inverted": false
+        "symbol": "circle"
       }
     }
   },
@@ -401,10 +178,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Belegungsdauer der Allmend in der Innenstadt"
+    "text": "Wohnbevölkerung"
   },
   "subtitle": {
-    "text": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -446,10 +223,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
-    },
-    "tickInterval": 20,
-    "max": 160
+      "format": "{value:,.0f}"
+    }
   },
   "legend": {
     "enabled": true,
@@ -460,7 +235,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 212,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -476,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Allmendverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -514,9 +288,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9577"
+    "filename": "9581"
   }
 }
