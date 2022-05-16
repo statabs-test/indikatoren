@@ -24,7 +24,8 @@
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+
   },
   {
     gridLineColor: '#B9CFD7', 
@@ -43,7 +44,8 @@
       }
     },
     "min": 0,
-    "opposite": true
+    "opposite": true,
+  
   }
   ],
   "xAxis": {
