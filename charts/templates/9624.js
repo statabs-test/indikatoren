@@ -58,12 +58,12 @@ series: [
     stack: 0
 },
 {
-    color: "#E7CEE2",
+    color: "#B375AB",
     showInLegend: "false",
     stack: 0
 },
 {
-  color: "#FFDA80",
+  color: "#FABD24",
   showInLegend: "false",
   stack: 0
 },

@@ -17,10 +17,19 @@
         format: "{value:,.0f}%"
       }
     },
-    tooltip: {
+    /*tooltip: {
       shared: false,
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
-    },
+    },*/
+    tooltip: {
+      formatter: function() {
+        var index1 = this.index;
+        var index2 = index1 + 3;
+
+          return '<b>'+ Highcharts.numberFormat(this.y, 0) +'%</b> (' + Highcharts.numberFormat(ChartDataConfig.series[index2].data[this.x], 0) + ')<br/>';
+      },
+      shared: false
+  },
     series: [
       { color: "#9A86A6" },
       { color: "#BAA85A" },

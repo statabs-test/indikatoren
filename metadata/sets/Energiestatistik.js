@@ -316,7 +316,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "CO<sub>2 </sub> Emissionen nach Energieträger",
-		"subtitle": "in Tonen, Basel-Stadt",
+		"subtitle": "in Tonnen, Basel-Stadt",
 		"lesehilfe": "Lesehilfe",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -353,7 +353,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "CO<sub>2 </sub> Emissionen nach Verbrauchergruppe",
-		"subtitle": "in Tonen, Basel-Stadt",
+		"subtitle": "in Tonnen, Basel-Stadt",
 		"lesehilfe": "Lesehilfe",
 		"erlaeuterungen": "",
 		"quellenangabe": [

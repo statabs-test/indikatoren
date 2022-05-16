@@ -5,6 +5,10 @@
       "type": "column",
       "data": [
         [
+          "2010",
+          158521.98955
+        ],
+        [
           "2012",
           165232.45484
         ],
@@ -28,6 +32,10 @@
       "color": "#246370",
       "type": "column",
       "data": [
+        [
+          "2010",
+          388352.76241
+        ],
         [
           "2012",
           340072.53296
@@ -53,6 +61,10 @@
       "type": "column",
       "data": [
         [
+          "2010",
+          145782.38972
+        ],
+        [
           "2012",
           127042.34764
         ],
@@ -76,6 +88,10 @@
       "color": "#FABD24",
       "type": "column",
       "data": [
+        [
+          "2010",
+          216083.58061
+        ],
         [
           "2012",
           200798.35376
@@ -107,6 +123,10 @@
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
+        [
+          "2010",
+          4.7346199918
+        ],
         [
           "2012",
           4.3202040467
@@ -205,7 +225,7 @@
     "text": "CO\u003Csub\u003E2 \u003C\u002Fsub\u003E Emissionen nach Energieträger"
   },
   "subtitle": {
-    "text": "in Tonen, Basel-Stadt",
+    "text": "in Tonnen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

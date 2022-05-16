@@ -5,23 +5,23 @@
       "type": "column",
       "data": [
         [
-          "",
+          "2012",
           null
         ],
         [
-          "675.047148",
-          319.753621
+          "2014",
+          675.047148
         ],
         [
-          "751.024412",
-          350.85617
+          "2016",
+          751.024412
         ],
         [
-          "697.447961",
-          554.641631
+          "2018",
+          697.447961
         ]
       ],
-      "name": "Erdgas",
+      "name": "Kehricht, Klärschlamm, Industrieabfall",
       "turboThreshold": 0
     },
     {
@@ -29,23 +29,23 @@
       "type": "column",
       "data": [
         [
-          "",
+          "2012",
           null
         ],
         [
-          "675.047148",
-          41.27947
+          "2014",
+          319.753621
         ],
         [
-          "751.024412",
-          44.565298
+          "2016",
+          350.85617
         ],
         [
-          "697.447961",
-          57.322184
+          "2018",
+          554.641631
         ]
       ],
-      "name": "Heizöl",
+      "name": "Erdgas",
       "turboThreshold": 0
     },
     {
@@ -53,23 +53,23 @@
       "type": "column",
       "data": [
         [
-          "",
+          "2012",
           null
         ],
         [
-          "675.047148",
-          140.745915
+          "2014",
+          41.27947
         ],
         [
-          "751.024412",
-          188.678488
+          "2016",
+          44.565298
         ],
         [
-          "697.447961",
-          156.683424
+          "2018",
+          57.322184
         ]
       ],
-      "name": "Holz",
+      "name": "Heizöl",
       "turboThreshold": 0
     },
     {
@@ -77,23 +77,23 @@
       "type": "column",
       "data": [
         [
-          "",
+          "2012",
           null
         ],
         [
-          "675.047148",
-          13.789218
+          "2014",
+          140.745915
         ],
         [
-          "751.024412",
-          19.591119
+          "2016",
+          188.678488
         ],
         [
-          "697.447961",
-          23.721093
+          "2018",
+          156.683424
         ]
       ],
-      "name": "Umweltwärme",
+      "name": "Holz",
       "turboThreshold": 0
     },
     {
@@ -101,23 +101,23 @@
       "type": "column",
       "data": [
         [
-          "",
-          430.564725
-        ],
-        [
-          "675.047148",
+          "2012",
           null
         ],
         [
-          "751.024412",
-          null
+          "2014",
+          13.789218
         ],
         [
-          "697.447961",
-          null
+          "2016",
+          19.591119
+        ],
+        [
+          "2018",
+          23.721093
         ]
       ],
-      "name": "Total Fernwärme",
+      "name": "Umweltwärme",
       "turboThreshold": 0
     },
     {
@@ -125,23 +125,23 @@
       "type": "column",
       "data": [
         [
-          "",
-          8.241927
+          "2012",
+          430.564725
         ],
         [
-          "675.047148",
-          25.258786
+          "2014",
+          null
         ],
         [
-          "751.024412",
-          28.787711
+          "2016",
+          null
         ],
         [
-          "697.447961",
-          34.866915
+          "2018",
+          null
         ]
       ],
-      "name": "Anteil Fernwärme am Endenergieverbrauch (rechte Skala)",
+      "name": "Total Fernwärme",
       "turboThreshold": 0
     },
     {
@@ -153,7 +153,27 @@
       },
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          "2012",
+          8.241927
+        ],
+        [
+          "2014",
+          25.258786
+        ],
+        [
+          "2016",
+          28.787711
+        ],
+        [
+          "2018",
+          34.866915
+        ]
+      ],
+      "name": "Anteil Fernwärme am Endenergieverbrauch (rechte Skala)",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -283,7 +303,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    "itemWidth": 150,
+    "itemWidth": 170,
     "width": 300
   },
   "navigation": {
