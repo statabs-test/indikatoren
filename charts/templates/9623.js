@@ -23,18 +23,24 @@
     },*/
     tooltip: {
       formatter: function() {
-        var index1 = this.index;
+        var index1 = this.series.index;
         var index2 = index1 + 3;
-
-          return '<b>'+ Highcharts.numberFormat(this.y, 0) +'%</b> (' + Highcharts.numberFormat(ChartDataConfig.series[index2].data[this.x], 0) + ')<br/>';
+        var unit = ["GWh", "kWh pro CHF", "kWh pro Kopf"];
+        var decimal = [0, 3, 0];
+        console.log(this.series.chart.series[index2].data);
+        return '<b>' + Highcharts.numberFormat(this.y, 0) + '%</b> ('
+          + Highcharts.numberFormat(this.series.chart.series[index2].data[this.x].y, decimal[index1]) + "  " + unit[index1] + ')<br/>';
       },
       shared: false
   },
-    series: [
-      { color: "#9A86A6" },
-      { color: "#BAA85A" },
-      { color: "#8AB77D" }
-    ],
+  series: [
+    { color: "#9A86A6" },
+    { color: "#BAA85A" },
+    { color: "#8AB77D" },
+    { color: "#9A86A6", visible: false, showInLegend: false },
+    { color: "#BAA85A", visible: false, showInLegend: false },
+    { color: "#8AB77D", visible: false, showInLegend: false }
+  ],
     legend: {
       enabled: true,
       layout: "horizontal",
