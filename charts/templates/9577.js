@@ -11,10 +11,10 @@
 		  "format": "{value}"
 	  }
   },	
-    /*"chart": {
+    "chart": {
         type: 'line',
         inverted: true,
-    },*/
+    },
 
   "tooltip": {
     "shared": false, 
