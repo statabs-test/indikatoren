@@ -5,70 +5,96 @@
       "stack": 0,
       "data": [
         [
-          2012,
+          "2012",
           83850
         ],
         [
-          2013,
-          28187
+          "2013",
+          28184
         ],
         [
-          2014,
+          "2014",
           65363
         ],
         [
-          2015,
+          "2015",
           91678
         ],
         [
-          2016,
+          "2016",
           63857
         ],
         [
-          2017,
+          "2017",
           54317
         ],
         [
-          2018,
-          139379
+          "2018",
+          139818
+        ],
+        [
+          "2019",
+          193635
+        ],
+        [
+          "2020",
+          109692
+        ],
+        [
+          "2021",
+          null
         ]
       ],
-      "name": "Wohnen gebaut"
+      "name": "Wohnen gebaut",
+      "turboThreshold": 0
     },
     {
       "color": "#FFDA80",
       "stack": 0,
       "data": [
         [
-          2012,
+          "2012",
           2083
         ],
         [
-          2013,
-          75660
+          "2013",
+          75249
         ],
         [
-          2014,
-          54913
+          "2014",
+          49909
         ],
         [
-          2015,
+          "2015",
           45772
         ],
         [
-          2016,
-          211897
+          "2016",
+          207061
         ],
         [
-          2017,
-          90234
+          "2017",
+          90757
         ],
         [
-          2018,
-          54163
+          "2018",
+          54027
+        ],
+        [
+          "2019",
+          60407
+        ],
+        [
+          "2020",
+          54955
+        ],
+        [
+          "2021",
+          null
         ]
       ],
-      "name": "Nichtwohnen gebaut"
+      "name": "Nichtwohnen gebaut",
+      "turboThreshold": 0
     },
     {
       "color": "#B375AB",
@@ -76,35 +102,48 @@
       "stack": 0,
       "data": [
         [
-          2012,
+          "2012",
           -5765
         ],
         [
-          2013,
+          "2013",
           -14183
         ],
         [
-          2014,
+          "2014",
           -7745
         ],
         [
-          2015,
+          "2015",
           -25537
         ],
         [
-          2016,
+          "2016",
           -15710
         ],
         [
-          2017,
-          -7996
+          "2017",
+          -6772
         ],
         [
-          2018,
+          "2018",
           -19788
+        ],
+        [
+          "2019",
+          -26867
+        ],
+        [
+          "2020",
+          -15339
+        ],
+        [
+          "2021",
+          -297
         ]
       ],
-      "name": "Wohnen abgebrochen"
+      "name": "Wohnen abgebrochen",
+      "turboThreshold": 0
     },
     {
       "color": "#FABD24",
@@ -112,35 +151,48 @@
       "stack": 0,
       "data": [
         [
-          2012,
+          "2012",
           -15393
         ],
         [
-          2013,
+          "2013",
           -4251
         ],
         [
-          2014,
+          "2014",
           -35531
         ],
         [
-          2015,
+          "2015",
           -15644
         ],
         [
-          2016,
+          "2016",
           -69097
         ],
         [
-          2017,
-          -13724
+          "2017",
+          -24488
         ],
         [
-          2018,
-          -66752
+          "2018",
+          -57870
+        ],
+        [
+          "2019",
+          -26042
+        ],
+        [
+          "2020",
+          -22318
+        ],
+        [
+          "2021",
+          null
         ]
       ],
-      "name": "Nichtwohnen abgebrochen"
+      "name": "Nichtwohnen_abg",
+      "turboThreshold": 0
     },
     {
       "color": "#923F8D",
@@ -148,35 +200,48 @@
       "stack": 1,
       "data": [
         [
-          2012,
+          "2012",
           78085
         ],
         [
-          2013,
-          14004
+          "2013",
+          14001
         ],
         [
-          2014,
+          "2014",
           57618
         ],
         [
-          2015,
+          "2015",
           66141
         ],
         [
-          2016,
+          "2016",
           48147
         ],
         [
-          2017,
-          46321
+          "2017",
+          47545
         ],
         [
-          2018,
-          119591
+          "2018",
+          120030
+        ],
+        [
+          "2019",
+          166768
+        ],
+        [
+          "2020",
+          94353
+        ],
+        [
+          "2021",
+          null
         ]
       ],
-      "name": "Wohnen Saldo"
+      "name": "Wohnen Saldo",
+      "turboThreshold": 0
     },
     {
       "color": "#CD9C00",
@@ -184,37 +249,77 @@
       "stack": 2,
       "data": [
         [
-          2012,
+          "2012",
           -13310
         ],
         [
-          2013,
-          71409
+          "2013",
+          70998
         ],
         [
-          2014,
-          19382
+          "2014",
+          14378
         ],
         [
-          2015,
+          "2015",
           30128
         ],
         [
-          2016,
-          142800
+          "2016",
+          137964
         ],
         [
-          2017,
-          76510
+          "2017",
+          66269
         ],
         [
-          2018,
-          -12589
+          "2018",
+          -3843
+        ],
+        [
+          "2019",
+          34365
+        ],
+        [
+          "2020",
+          32637
+        ],
+        [
+          "2021",
+          null
         ]
       ],
-      "name": "Nichtwohnen Saldo"
+      "name": "Nichtwohnen Saldo",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+    var maxlabels = 10,
+      ext = this.getExtremes(),
+      i = Math.round(ext.max),
+      interval = Math.round((i - ext.min)/maxlabels),
+      pos = [i];
+    while (i >= ext.min) pos.unshift(i = i - interval);
+    return pos;
+  }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -275,31 +380,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickPositioner": function () {
-    var interval = 2,
-      ext = this.getExtremes(),
-      i = ext.dataMax,
-      pos = [i];
-    while (i >= ext.dataMin) pos.unshift(i = i - interval);
-    return pos;
-  }
   },
   "yAxis": {
     "min": -100000,

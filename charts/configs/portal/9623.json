@@ -34,6 +34,10 @@
         [
           "2018",
           81.543228983
+        ],
+        [
+          "2020",
+          78.766681438
         ]
       ],
       "name": "Endenergie total (1995 = 100%)",
@@ -73,6 +77,10 @@
         [
           "2018",
           39.438776754
+        ],
+        [
+          "2020",
+          37.466716552
         ]
       ],
       "name": "kWh pro Franken BIP (1995 = 100%)",
@@ -112,9 +120,148 @@
         [
           "2018",
           82.866097594
+        ],
+        [
+          "2020",
+          79.313608155
         ]
       ],
       "name": "kWh pro Kopf (1995 = 100%)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9A86A6",
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "1995",
+          5240
+        ],
+        [
+          "2000",
+          5160
+        ],
+        [
+          "2004",
+          5035
+        ],
+        [
+          "2010",
+          5572.1390093
+        ],
+        [
+          "2012",
+          5224.0779157
+        ],
+        [
+          "2014",
+          4713.6681817
+        ],
+        [
+          "2016",
+          4705.8812036
+        ],
+        [
+          "2018",
+          4272.8651987
+        ],
+        [
+          "2020",
+          4127.3741074
+        ]
+      ],
+      "name": "Endenergie total",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#BAA85A",
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "1995",
+          0.2733260921
+        ],
+        [
+          "2000",
+          0.2370914164
+        ],
+        [
+          "2004",
+          0.1959712666
+        ],
+        [
+          "2010",
+          0.1788725637
+        ],
+        [
+          "2012",
+          0.1624381245
+        ],
+        [
+          "2014",
+          0.1426232888
+        ],
+        [
+          "2016",
+          0.1307565934
+        ],
+        [
+          "2018",
+          0.1077964673
+        ],
+        [
+          "2020",
+          0.1024063122
+        ]
+      ],
+      "name": "kWh pro Franken BIP",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8AB77D",
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "1995",
+          26591.737351
+        ],
+        [
+          "2000",
+          27380.102091
+        ],
+        [
+          "2004",
+          26975.144277
+        ],
+        [
+          "2010",
+          29655.176358
+        ],
+        [
+          "2012",
+          28048.083069
+        ],
+        [
+          "2014",
+          24895.989356
+        ],
+        [
+          "2016",
+          24533.228653
+        ],
+        [
+          "2018",
+          22035.535025
+        ],
+        [
+          "2020",
+          21090.866364
+        ]
+      ],
+      "name": "kWh pro Kopf",
       "turboThreshold": 0
     }
   ],
@@ -282,10 +429,13 @@
   },
   "tooltip": {
     "formatter": function() {
-        var index1 = this.index;
+        var index1 = this.series.index;
         var index2 = index1 + 3;
-
-          return '<b>'+ Highcharts.numberFormat(this.y, 0) +'%</b> (' + Highcharts.numberFormat(ChartDataConfig.series[index2].data[this.x], 0) + ')<br/>';
+        var unit = ["GWh", "kWh pro CHF", "kWh pro Kopf"];
+        var decimal = [0, 3, 0];
+        console.log(this.series.chart.series[index2].data);
+        return '<b>' + Highcharts.numberFormat(this.y, 0) + '%</b> ('
+          + Highcharts.numberFormat(this.series.chart.series[index2].data[this.x].y, decimal[index1]) + ' ' + unit[index1] + ')<br/>';
       },
     "shared": false
   },

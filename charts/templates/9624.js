@@ -9,7 +9,7 @@ plotOptions: {
         "stacking": "normal",
     pointPadding: 0,
           borderWidth: 0,
-          pointWidth: 40, 
+          pointWidth: 30, 
 
       }/*,
        area: {
@@ -27,12 +27,14 @@ plotOptions: {
   min: -100000
 },
 xAxis: {
+  type: "category", /* muss "category" sein, sonst funktioniert es nicht richtig */
   tickPositioner: function () {
-    var interval = 2,
+    var maxlabels = 10,
       ext = this.getExtremes(),
-      i = ext.dataMax,
+      i = Math.round(ext.max),
+      interval = Math.round((i - ext.min)/maxlabels),
       pos = [i];
-    while (i >= ext.dataMin) pos.unshift(i = i - interval);
+    while (i >= ext.min) pos.unshift(i = i - interval);
     return pos;
   }
 },
