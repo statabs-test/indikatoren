@@ -39,10 +39,6 @@
         [
           "2020",
           109692
-        ],
-        [
-          "2021",
-          null
         ]
       ],
       "name": "Wohnen gebaut",
@@ -87,10 +83,6 @@
         [
           "2020",
           54955
-        ],
-        [
-          "2021",
-          null
         ]
       ],
       "name": "Nichtwohnen gebaut",
@@ -136,10 +128,6 @@
         [
           "2020",
           -15339
-        ],
-        [
-          "2021",
-          -297
         ]
       ],
       "name": "Wohnen abgebrochen",
@@ -185,10 +173,6 @@
         [
           "2020",
           -22318
-        ],
-        [
-          "2021",
-          null
         ]
       ],
       "name": "Nichtwohnen_abg",
@@ -234,10 +218,6 @@
         [
           "2020",
           94353
-        ],
-        [
-          "2021",
-          null
         ]
       ],
       "name": "Wohnen Saldo",
@@ -283,10 +263,6 @@
         [
           "2020",
           32637
-        ],
-        [
-          "2021",
-          null
         ]
       ],
       "name": "Nichtwohnen Saldo",
@@ -360,7 +336,7 @@
       "stacking": "normal",
       "pointPadding": 0,
       "borderWidth": 0,
-      "pointWidth": 40
+      "pointWidth": 30
     }
   },
   "title": {
