@@ -39016,8 +39016,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Bruttoenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 6 490 GWh im Jahr 1995 um gut 28,4% zurück auf 4 645 GWh im Jahr 2018. Neben dem Rückgang beim Heizöl von über 83% ist auch der Erdgasverbrauch in diesem Zeitraum um über 31% zurückgegangen.",
-		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. <br><br>Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen infolge der Umwandlung in Elektrizität und Fernwärme. Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
+		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um gut 22% zurück auf 4 473 GWh im Jahr 2020. Neben dem Rückgang beim Heizöl von 54% ist in diesem Zeitraum auch der Erdgasverbrauch um rund 34% und der ausserkantonale Bezug von Elektrizität um rund 28% zurückgegangen. Gestiegen ist der Bruttoenergieverbrauch der erneuerbaren Energien, und zwar um 48% zwischen 2010 und 2020.",
+		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. Die im Kanton gewonnenen Erneuerbaren sind in einer Kategorie zusammengefasst und umfasst auch den erneuerbaren Teil des Abfalls (50% des Kehrichts und Klärschlamm). Der nicht erneuerbare Anteil des Abfalls (50% des Kehrichts und Industrieabfall) ist separat aufgelistet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -39057,8 +39057,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Elektrizitätsverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der totale Elektrizitätsverbrauch hat zwischen 1995 und 2010 von 1 470 auf 1 628 Gigawattstunden zugenommen und sank danach bis 2018 kontinuierlich auf 1 344 Gigawattstunden.",
-		"erlaeuterungen": "Jährlicher Elektrizitätsverbrauch nach Produktionsart.",
+		"lesehilfe": "Der Elektrizitätsverbrauch ging zwischen 2010 und 2020 um 15% von 1 628 GWh auf 1 378 GWh zurück. Während der ausserkantonale Bezug (-28%) und die Produktion aus Erdgas (-44%) in diesem Zeitraum zurückgegangen sind, haben Wasserkraft (35%), die thermische Erzeugung (7%) und Photovoltaik (668%, auf tiefem Niveau) zum Teil stark zugenommen. Der ausserkantonale Bezug macht 2020 immer noch rund zwei Drittel des Elektrizitätsverbrauch aus. Der Anteil Elektrizität am Endenergieverbrauch stieg zwischen 2010 und 2020 von 29% auf 33%.",
+		"erlaeuterungen": "Unter den ausserkantonalen Bezug von Elektrizität fällt der Import von Mengen aus Schweizer Wasserkraftwerken, Wind- und Sonnenenergie sowie Biomasse.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -39103,7 +39103,7 @@ var indikatoren = [
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen «Wohnen» und «Nichtwohnen (ohne Verkehr)».",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2020 um 22,9% abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen «Wohnen» und «Nichtwohnen (ohne Verkehr)».",
 		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen (ohne Verkehr)» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -42085,8 +42085,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Bruttoenergieverbrauch Erneuerbare",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "<bitte Lesehilfe erfassen>",
+		"lesehilfe": "Der Verbrauch erneuerbarer Energie hat zwischen 2010 und 2020 von 741 GWh auf 1088 GWh zugenommen, was einem Plus von 46% entspricht. Eine starke Zunahme ist beim Holz mit 120% zu verzeichnen. Um 34% angestiegen ist der Verbrauch aus Wasserkraft. Um 3% hat der Verbrauch von erneuerbaren Kehricht und Klärschlamm zugenommen. Starke Zunahmen, allerdings auf sehr tiefem Niveau, sind bei der Fotovoltaik (+668%) der  Umweltwärme (+274%) und der thermischen Solarenergie (+191%) zu beobachten.",
+		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. In diesem Indikator wird der Bruttoenergieverbrauch der Erneuerbaren gezeigt, die im Kanton gewonnen wurden, also ohne allfälligen Import von Erbeuerbaren in den Kanton (z.B. ausserkantonaler Bezug von Elektrizität).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -42123,8 +42123,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Endenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "<bitte Lesehilfe erfassen>",
+		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2020 von 5 572 GWh rund 26% auf 4 127 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 61% zurückgegangen, die Menge des Erdgases um 45%. Auch die beim Endverbraucher verwendete Elektrizität sank um 15%. Der Verbrauch von Fern- und Nahwärme ist ungefähr konstant geblieben. Der Verbrauch der Treibstoffe reduzierte sich um 34%, wobei ein Teil des Rückgangs auf die Pandemie zurückzuführen ist.",
+		"erlaeuterungen": "Im Gegensatz zum Bruttoenergieverbrauch bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen infolge der Umwandlung in Elektrizität und Fernwärme innerhalb des Kantons.<br><br>In der Kategorie Sonstiges sind die Endverbräuche von Abfall, Holz, Biogas, Solarenergie und Umweltwärme zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -42161,8 +42161,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Endenergieverbrauch von fossilen Energieträgern",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Endenergieverbrauch fossiler Energieträger hat von 2010 bis 2020 um 46% von 2 580 GWh auf 1 431 GWh abgenommen. Erdgas macht davon mit 695 GWh 2020 rund die Hälfte aus, Heizöl mit 198 GWh nur noch rund 14%. Der Anteil aller fossiler Energieträger am Endenergieverbrauch ging damit zwischen 2010 und 2020 von 46% auf 35% zurück.",
+		"erlaeuterungen": "Als fossile Energieträger werden Heizöl, Erdgas sowie die Treibstoffe Benzin und Diesel gezählt. Weil in den für  Menschen relevanten Zeiträumen keine neuen fossilen Energien mehr entstehen können, werden sie als nicht erneuerbare Energien bezeichnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -42237,8 +42237,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Endenergieverbrauch nach Energieträger und Verbrauchergruppe",
 		"subtitle": "in GWh, 2022, Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "",
+		"lesehilfe": "Nicht-Wohnen mit insgesamt 1 966 GWh stellte 2020 die grösste Verbrauchergruppe dar, gefolgt von Wohnen mit total 1 438 GWh und dem Verkehr mit 597 GWh. Fernwärme, Elektrizität und Erdgas stellen für die Verbraucher Wohnen und Nicht-Wohnen die Energieträger mit den grössten Anteilen dar. Beim Verkehr sind es nach wie vor Benzin und Diesel.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen (ohne Verkehr)» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -42275,8 +42275,8 @@ var indikatoren = [
 		"children": [],
 		"title": "CO<sub>2 </sub> Emissionen nach Energieträger",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Menge CO2 pro Einwohner hat zwischen 2010 und 2020 von 4.7 Tonnen auf 3.1 Tonnen und Jahr abgenommen. Der Rückgang geht auf Heizöl (-54%), Treibstoffe (-34%), Erdgas (-23%) sowie den nicht erbeuerbaren Teil von Kehricht und Industrieabfall (-2%) zurück. 2022 sind die Emissionen aus Erdgas mit 41% für den grössten Teil aller CO2-Emission verantwortlich.",
+		"erlaeuterungen": "Es sind zur Hauptsache CO2-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz als CO2-neutral gilt. Die Verbrennung von biogenem Material wird ebenso als CO2-neutral betrachtet, weshalb nur 50% des in der Kehrichtverwertungsanlage verbrannten Abfalls berücksichtigt wird. Auch der Klärschlamm wird als biogen taxiert; demzufolge bleiben die entsprechenden CO2-Emissionen ebenfalls unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -42389,8 +42389,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Energieproduktivität und Pro-Kopf-Verbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "",
+		"lesehilfe": "Seit 1995 ist der kWh-Einsatz pro erwirtschaftetem Franken des Bruttoinlandprodukts (BIP) kontinuierlich gesunken. 2020 betrug er noch 0,102 kWh pro Franken und damit um 63% tiefer als 1995. Der Energieeinsatz pro Kopf sinkt insbesondere seit 2010 und liegt 2020 21 091 kWh pro Person, rund 21% tiefer als 1995.",
+		"erlaeuterungen": "Die Energieproduktivität weist die eingesetzte Energie bezogen auf den Endenergieverbrauch pro erzeugter Geldmenge wirtschaftlicher Leistung (Bruttoinlandprodukt, BIP) aus, der Pro-Kopf-Verbrauch die eingesetzte Energie pro Kopf.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
