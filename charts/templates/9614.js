@@ -15,7 +15,7 @@
   },  
   yAxis: {
     //tickAmount: 6,
-    max: 1000,
+    //max: 1000,
       labels: {
       format: "{value:,.0f}"
     },
