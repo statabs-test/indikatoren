@@ -22,8 +22,8 @@
     reversedStacks: true
   },
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b> ({point.percentage:,.1f}%)<br/>',
-    footerFormat: 'Total: <b>{point.total:,.0f}</b><br/>'
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} GWh</b> ({point.percentage:,.1f}%)<br/>',
+    footerFormat: 'Total: <b>{point.total:,.0f} GWh</b><br/>'
  },
   legend: {
     enabled: true,

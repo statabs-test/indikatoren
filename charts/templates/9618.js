@@ -48,15 +48,15 @@
     ],
     series: [
       {
-        color: "#A8C3CA",
+        color: "#D3E2E4",
         type: "column"
       }, 
       {
-        color: "#246370",
+        color: "#689199",
         type: "column"
       },
       {
-        color: "#FFDA80",
+        color: "#083038",
         type: "column"
       },
       {
@@ -64,7 +64,11 @@
         type: "column"
       },
       {
-        color: "#CD9C00",
+        color: "#7F5F1A",
+        type: "column"
+      },
+      {
+        color: "#E7CEE2",
         type: "column"
       },
       {
@@ -84,7 +88,7 @@
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Enverbrauch: <b>{point.total:,.0f}</b> GWh',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Fernwärme Enverbrauch: <b>{point.total:,.0f}</b> GWh',
       shared: true,
       useHTML: true,
       //outside: true
