@@ -288,7 +288,6 @@
       "format": "{value:,.0f}"
     },
     "tickAmount": 7,
-    "max": 6000,
     "reversedStacks": true
   },
   "legend": {

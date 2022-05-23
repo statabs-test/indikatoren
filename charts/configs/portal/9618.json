@@ -26,7 +26,7 @@
         ],
         [
           "2020",
-          634.23271789
+          669.79731189
         ]
       ],
       "name": "Kehricht, Klärschlamm, Industrieabfall",
@@ -58,7 +58,7 @@
         ],
         [
           "2020",
-          508.94016568
+          503.42668568
         ]
       ],
       "name": "Erdgas",
@@ -257,10 +257,10 @@
         ],
         [
           "2020",
-          28.63301478
+          28.842941138
         ]
       ],
-      "name": "Anteil Fernwärme am Endenergieverbrauch (rechte Skala)",
+      "name": "Anteil Fernwärme am Bruttoenergieverbrauch (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -338,7 +338,7 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Endenergieverbrauch Fernwärme nach Produktionsart"
+    "text": "Fernwärmeverbrauch nach Produktionsart"
   },
   "subtitle": {
     "text": "in GWh, Basel-Stadt",

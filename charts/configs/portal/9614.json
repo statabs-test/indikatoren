@@ -318,7 +318,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 1000,
     "reversedStacks": true
   },
   "legend": {
