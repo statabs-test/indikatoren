@@ -42447,7 +42447,7 @@
 		"title": "Güterverkehrsumschlag seit 1911",
 		"subtitle": "in Tausend Tonnen, Schweizerische Rheinhäfen",
 		"lesehilfe": "Im bisherigen Rekordjahr 1974 betrug das Umschlagvolumen 9,3 Mio. Tonnen. Seither werden weniger Güter umgeschlagen. Hemmend darauf hat sich die europaweite Verlagerung von Gütertransporten vom Wasserweg auf Strasse und Schiene ausgewirkt. 2021 betrug der Umschlag der Schweizer Rheinhäfen 5,4 Mio. Tonnen; entsprechend einem Plus von 5,5% bzw. 280 Tsd. Tonnen gegenüber dem Vorjahr. Der aktuelle Wert liegt um 9,3% unter dem Mittelwert der letzten zehn Jahre.",
-		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der per Ende 2009 zwar stillgelegt wurde, aber gelegentlich für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
+		"erlaeuterungen": "Zwischen 1906 und 1911 entstand der Rheinhafen St. Johann, der per Ende 2009 stillgelegt wurde, aber gelegentlich weiterhin für den Umschlag von Schuttmaterial eingesetzt wird. Ab 1919 wurde in Kleinhüningen am ersten und ab 1936 am zweiten Hafenbecken gebaut. Zwischen 1937 und 1940 entstand die Hafenanlage in Birsfelden und zwischen 1950 und 1954 der Auhafen Muttenz. 2008 wurden die Rheinhäfen beider Basel zu den heutigen Schweizerischen Rheinhäfen fusioniert.<br><br>In den Jahren 1915, 1916 und 1940 wurde die Schifffahrt eingestellt.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42483,8 +42483,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteile von Zu- und Abfuhr am Gesamtumschlag",
-		"subtitle": "Schweizerische Rheinhäfen",
-		"lesehilfe": "Die Abfuhr macht mengenmässig rund einen Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,12 Prozentpunkte auf.",
+		"subtitle": "Schweizerische Rheinhäfen, 2021 und Mittelwert 2011-2020",
+		"lesehilfe": "Die Abfuhr macht mengenmässig rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Ihr Anteil 2021 weist gegenüber dem Mittel der letzten zehn Jahre eine marginale Zunahme um 0,12 Prozentpunkte auf.",
 		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2011 bis 2021. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -42598,8 +42598,8 @@
 		"children": [],
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU, Schweizerische Rheinhäfen",
-		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell, seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2021 wurden Wachstumsraten um 3,3% p.a. verzeichnet. Das Transportvolumen des Containerschiffverkehrs belief sich 2021 auf rund 126 Tausend TEU; dies bedeutet gegenüber dem Vorjahr ein Wachstum von 10,5%.",
-		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. Twenty-foot Equivalent Unit (Abkürzung TEU, deutsch Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Ein Fuss entspricht 30,48 Zentimetern. In Breite und Höhe misst ein TEU etwa 8 Fuss. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
+		"lesehilfe": "Das Transportvolumen des Containerschiffverkehrs belief sich 2021 auf rund 126 Tausend TEU (Twenty-foot Equivalent Unit / Zwanzig-Fuss-Standardcontainer); dies bedeutet gegenüber dem Vorjahr ein Wachstum von 10,5%. Der wasserseitige Containerumschlag hat sich in den letzten vierzig Jahren sehr dynamisch entwickelt: Bis zur Asienkrise 1997 war das Wachstum exponentiell, seither ist eine lineare Tendenz zu beobachten. Im Zeitraum 1998-2021 wurden Wachstumsraten um 3,3% p.a. verzeichnet.",
+		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. TEU ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen und zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport.Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42635,9 +42635,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Güterschiffe",
-		"subtitle": "Schweizerische Rheinhäfen",
+		"subtitle": "im Besitz der Schweizerischen Rheinhäfen",
 		"lesehilfe": "Zu Beginn der Beobachtungsperiode waren 237 Schweizerische Güterschiffe im Einsatz, ihre Tragfähigkeit umfasste über 150 Tsd. Tonnen. Der Rheinverkehr boomte über viele Jahre. 1972 wurde mit 516 Schiffen die höchste Zahl seit 1941 registriert, 1981 folgte die höchste Tragfähigkeit (rd. 650 Tsd. Tonnen). Danach kehrte sich der Trend in die Gegenrichtung um und die Anzahl Güterschiffe und ihre Tragfähigkeit gingen bis Mitte der 2000er-Jahre stetig zurück. 2005 trat erstmals eine leichte Erholung ein. 2021 wurden 278 Güterschiffe gezählt, ihre Tragfähigkeit betrug rund 164 Tsd. Tonnen.",
-		"erlaeuterungen": "Der Indikator zeigt die Anzahl Güterschiffe im Schweizer Besitz – sie setzen sich aus Schleppkähne, Schubleichter und Motorschiffe zusammen – sowie ihre Tragfähigkeit seit 1941.",
+		"erlaeuterungen": "Der Indikator zeigt die Anzahl Güterschiffe in Schweizer Besitz – sie setzen sich aus Schleppkähnen, Schubleichtern und Motorschiffen zusammen – sowie ihre Tragfähigkeit seit 1941.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
