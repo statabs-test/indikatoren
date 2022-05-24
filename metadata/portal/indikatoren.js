@@ -42265,8 +42265,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstätten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Am meisten der 4 479 Arbeitsstätten in der Innenstadt sind mit rund 21% in der Branchengruppe Unternehmensdienstleistungen und Freiberufe angesiedelt, gefolgt vom Gesundheits- und Sozialwesen (16%) und dem Detailhandel (13%). Letzterer kommt in der Innenstadt auf einen deutlich höheren Anteil als in der gesamten Stadt Basel (8%).",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -42296,6 +42296,45 @@ var indikatoren = [
 		"id": 9575
 	},
 	{
+		"template": "template001",
+		"data-id": 9576,
+		"chart-id": 9576,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Arbeitsstättenentwicklung nach Branche",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2019 insgesamt um 1,7% abgenommen. Deutliche Rückgänge waren im Bereich Bau und Verkehr (-27%) sowie im Grosshandel (-23%)l zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Stadt Basel",
+			"Innenstadt"
+		],
+		"description": "Arbeitsstättenentwicklung nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09576",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "1.1-2",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9576
+	},
+	{
 		"template": "line001",
 		"data-id": 9577,
 		"chart-id": 9577,
@@ -42304,8 +42343,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Belegungsdauer der Allmend in der Innenstadt",
 		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. <br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Tagsüber stattfindene Märkte gelten daher bspw. nicht als Veranstaltung im Sinne des Bespielungsplanes. Ausgenommen ist auch die Fasnacht. Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl.Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
+		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht Vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
+		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
 		],
@@ -42343,9 +42382,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt",
-		"subtitle": "nach Veranstaltungsort, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. <br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Tagsüber stattfindene Märkte gelten daher bspw. nicht als Veranstaltung im Sinne des Bespielungsplanes. Ausgenommen ist auch die Fasnacht. Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl.Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
+		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+		"lesehilfe": "Auf dem Barfüsser- und dem Theaterplatz fanden 2021 an 16 Tagen lärmintensive bewilligte Veranstaltungen statt.",
+		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte lärmintensive Veranstaltungen stattfinden (bspw. ausgesprochene Musikanlässe, wie bass- und rhythmusbetonte Live-Konzerte, Discos und Kino, respektive Anlässe mit einem hohen Animationsanteil). Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
 		],
@@ -42384,7 +42423,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Innenstadt lebten 2021 14 290 Menschen. Dies sind 10,6% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 6,6% auf 201 805.",
+		"lesehilfe": "In der Innenstadt leben im Jahr 2021 14 290 Menschen. Dies sind 10,6% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 6,6% auf 201 805.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -42501,8 +42540,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstätten im Detailhandel in der Innenstadt, nach Branche",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2019 gab es in der Innenstadt 592 Arbeitsstätten im Detailhandel, das sind 99 bzw. 14,3% weniger als noch im Jahr 2011. Am meisten Arbeitsstätten gehören dem Bereich Kleidung und Lederwaren an (166 bzw. 28%).",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -42539,8 +42578,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Veränderung der Arbeitsstätten im Detailhandel in der Innenstadt seit 2015, nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2015 und 2019 um 8,6% abgenommen. Am stärksten war der Zuwachs mit 20,7% im Bereich Waren verschiedener Art, wozu unter anderem Supermärkte und Kaufhäuser zählen. Der stärkste Rückgang ist mit 23,0% im Bereich Haushaltsgeräte, Textilien, Möbel zu beobachten.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -42575,8 +42614,8 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort in der Innenstadt Basels",
-		"subtitle": "Basel-Stadt",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"subtitle": "Basel",
 		"lesehilfe": "2019 gaben fast 90% der befragten Personen in Basel an, mit den Einkaufsmöglichzkeiten an ihrem Wohnort zufrieden zu sein. 85% bzw. 81% sind zufrieden mit den Grünanlagen bzw. der öffentlichen Sicherheit. Mit der Sauberkeit sind drei Viertel zufrieden (37,4% «sehr» und 38,7% «eher zufrieden») und mit der Lärmsituation sind es 67% (25,8% «sehr» und 41,5% «eher zufrieden»).",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
@@ -42587,10 +42626,10 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort in der Innenstadt Basels",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 		"thema": "50 Befragungen",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.09591",
 		"kennzahlenset": "Innenstadt - QuiZ",
 		"kuerzelKunde": "3.4-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
@@ -42615,8 +42654,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl zu Fuss gehende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2021 überquerten an Werktagen durchschnittlich 11 710 Fussgänger die mittlere Rheinbrücke. An Samstagen waren es mit 17 839 deutlich mehr.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -42653,8 +42692,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Velofahrende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählt nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstelle sind nicht vergleichbar.",
+		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 580 weniger Velos vorbei.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstelle sind nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -42681,5 +42720,119 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-04-19T12:30:38",
 		"id": 9593
+	},
+	{
+		"template": "template001",
+		"data-id": 9594,
+		"chart-id": 9594,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Einfahrten in Parkhäuser in der Innenstadt",
+		"subtitle": "Durchschnittliche Einfahrten pro Tag",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Parkhäuser Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Innenstadt"
+		],
+		"description": "Einfahrten in Parkhäuser in der Innenstadt",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "4.1-3",
+		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9594
+	},
+	{
+		"template": "template001",
+		"data-id": 9595,
+		"chart-id": 9595,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt",
+		"subtitle": "nach Stunden",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Parkhäuser Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Innenstadt"
+		],
+		"description": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "4.2-1",
+		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9595
+	},
+	{
+		"template": "template001",
+		"data-id": 9596,
+		"chart-id": 9596,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Parkhausauslastung an Samstagen in der Innenstadt",
+		"subtitle": "nach Stunden",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Parkhäuser Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Innenstadt"
+		],
+		"description": "Parkhausauslastung an Samstagen in der Innenstadt",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "4.2-2",
+		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9596
 	}
 ];

@@ -669,7 +669,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort in der Innenstadt Basels"
+    "text": "Zufriedenheit mit verschiedenen Aspekten am Wohnort"
   },
   "subtitle": {
     "style": {
@@ -677,7 +677,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Basel-Stadt"
+    "text": "Basel"
   },
   "navigation": {
     "menuItemStyle": {

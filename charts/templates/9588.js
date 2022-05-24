@@ -30,8 +30,8 @@
     "align": "left",
     padding: 0,
     itemDistance: 2,
-    width: 485,
-    itemWidth: 220,
+    width: 500,
+    itemWidth: 235,
     reversed: true
   },
  "series": [

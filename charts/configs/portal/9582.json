@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#71a3b5",
       "data": [
         [
           2008,
@@ -63,7 +63,7 @@
       "name": "Innenstadt"
     },
     {
-      "color": "#b375ab",
+      "color": "#ff8028",
       "data": [
         [
           2008,
@@ -123,9 +123,6 @@
         ]
       ],
       "name": "Kanton BS"
-    },
-    {
-      "color": "#999"
     }
   ],
   "chart": {

@@ -42,21 +42,18 @@
         [
           "Sonstiger Detailhandel",
           -0.1142857143
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Total Detailhandel",
+          -0.0864197531
         ]
       ],
-      "name": "Veränderung_2015_2019",
+      "name": "Veränderung zwischen 2015 und 2019",
       "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F"
-    },
-    {
-      "color": "#FABD24",
-      "visible": false
-    },
-    {
-      "color": "#71a3b5",
-      "visible": false
     }
   ],
   "xAxis": {
@@ -162,7 +159,7 @@
       "format": "{value}%"
     },
     "min": null,
-    "tickInterval": 2
+    "tickInterval": 3
   },
   "legend": {
     "symbolRadius": 0,
