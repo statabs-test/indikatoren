@@ -26,7 +26,7 @@
         ],
         [
           "2020",
-          901.275246
+          875.170395
         ]
       ],
       "name": "Bezug ausserkantonal",
@@ -61,7 +61,7 @@
           26.104851
         ]
       ],
-      "name": "Photovoltaik",
+      "name": "Fotovoltaik",
       "turboThreshold": 0
     },
     {
@@ -90,7 +90,7 @@
         ],
         [
           "2020",
-          171.58495
+          167.638687
         ]
       ],
       "name": "Thermische Erzeugung",
