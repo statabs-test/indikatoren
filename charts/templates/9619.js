@@ -55,7 +55,7 @@
     {
       color:"#DC440E", 
     },
-    {
+    /*{
       color:"#B00000",
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       color:"#923F8D",
-    }
+    }*/
   ],
   chart: {    
     /*marginBottom: 75,
