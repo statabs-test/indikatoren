@@ -12,9 +12,7 @@
         pointWidth: 2, 
 
     }, 
-    line: {
-      tooltip:{shared: false}
-    }
+
   },
   "yAxis": {
     "labels": {
@@ -41,11 +39,35 @@
     {"color":"#73ba7c", "index": 3,legendIndex: 0,  "marker": {"enabled": false}, stacking: true}, //
     {"color":"#FABD24", "index": 2,legendIndex: 1,  "marker": {"enabled": false}, stacking: true}, //
     {"color":"#923F8D", "index": 1,legendIndex: 2, "marker": {"enabled": false}, stacking: true}, //
-    {"color":"#999999", "index": 0,legendIndex: 3, "marker": {"enabled": false}, type: "line", stacking: false, tooltip:{shared: false}}, //
+    {"color":"#999999", "index": 0,legendIndex: 3, "marker": {"enabled": false}, id: "separate", stacking: false}, //
     
   ],  
   "tooltip": {
-    "shared": true
+   // "shared": true,
+    formatter() {
+      if (this.series.userOptions.id !== "separate") {
+        const chart = this.series.chart;
+        const series = chart.series;
+        let tooltip = ""
+        let s = 0
+        series.forEach(series => {
+          if (series.userOptions.id !== "separate") {
+          	series.setState('hover');
+            series.points.forEach(point => {
+              if (point.x === this.x) {
+                tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${point.y} </b><br>`;
+                s += point.y;
+              }
+            })
+          }
+        },
+        )
+        return tooltip + "Total Veranlagungen: <b>" + s + "</b>";
+      
+      } else {
+        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat( this.y, 0, ",", " ") + '</b><br/>';
+      }
+    }
   },
 
 };
