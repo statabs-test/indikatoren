@@ -41,9 +41,9 @@
       padding: 0,
       itemDistance: 2,
       width: 500,
-      itemWidth: 250,
+      itemWidth: 230,
       reversed: false,
-      itemMarginBottom: 5
+      itemMarginBottom: 1
     },
     "series": [
       { "color": "#672773", index: 9, legendIndex: 0 }, /*Deutschland*/
