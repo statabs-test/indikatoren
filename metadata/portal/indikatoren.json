@@ -42416,6 +42416,46 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 9579,
+		"chart-id": 9579,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Requisitionen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 wurden in der  Innenstadt 1 355 Requisitionen erfasst. In der Stadt Basel waren es 3 998 und im Kanton Basel-Stadt 4 147.",
+		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Stadt Basel",
+			"Innenstadt"
+		],
+		"description": "Anzahl Requisitionen",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.09579",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "1.3-1",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9579
+	},
+	{
+		"template": "line001",
 		"data-id": 9581,
 		"chart-id": 9581,
 		"filter": "",
@@ -42608,6 +42648,44 @@
 		"id": 9589
 	},
 	{
+		"template": "line001",
+		"data-id": 9590,
+		"chart-id": 7588,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Geschäftsleerstandsfläche nach Nutzung",
+		"subtitle": "in m², Basel-Stadt",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 von 120 500  m² auf 184 700 m² zugenommen (+ 53%). Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
+		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
+		"quellenangabe": [
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Geschäftsleerstandsfläche nach Nutzung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.09590",
+		"kennzahlenset": "Innenstadt - QuiZ",
+		"kuerzelKunde": "3.3-1",
+		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-23T02:25:49",
+		"id": 9590
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 9591,
 		"chart-id": 9591,
@@ -42768,7 +42846,7 @@
 		"children": [],
 		"title": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt",
 		"subtitle": "nach Stunden",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Die höchste durchschnittliche Auslastung der Parkhäuser in der Innenstadt an Werktagen war im Jahr 2021 mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -42806,7 +42884,7 @@
 		"children": [],
 		"title": "Parkhausauslastung an Samstagen in der Innenstadt",
 		"subtitle": "nach Stunden",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Die höchste durchschnittliche Auslastung der Parkhäuser in der Innenstadt an Samstagen war im Jahr 2021 mit 56,2% zwischen 13 und 14 Uhr zu beobachten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
