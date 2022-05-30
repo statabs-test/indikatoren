@@ -3,7 +3,7 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        x: -190,
+        x: -240,
         align: "leftt",
       /* style: {
             textOverflow: 'none'
@@ -21,7 +21,8 @@
         } 
     },
     "series": [
-    { "color": "#B00000" }, /* Schweiz = dunkelrot */
+    { "color": "#71a3b5" }, /* Innenstadt */
+    { "color": "#007A2F" }, /* Stadt Basel */
 
     ],
     "legend": {
@@ -40,7 +41,7 @@
       shared: false
     },
     "chart": {
-      marginLeft: 200,
+      marginLeft: 250,
       "type": "column",
       "inverted": true, /* false */
     },
