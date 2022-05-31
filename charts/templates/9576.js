@@ -3,7 +3,7 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        x: -210,
+        x: -190,
         align: "leftt",
       /* style: {
             textOverflow: 'none'
@@ -41,7 +41,8 @@
       shared: false
     },
     "chart": {
-      marginLeft: 220,
+      marginLeft: 200,
+      marginRight: 30,
       "type": "column",
       "inverted": true, /* false */
     },

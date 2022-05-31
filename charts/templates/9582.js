@@ -12,6 +12,10 @@
       "shared": false,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
     },
+    chart:{
+      spacingBottom: 50,
+      marginRight: 20, 
+    },
     "series": [
       { "color": "#71a3b5" },
       { "color": "#ff8028" },

@@ -10,7 +10,7 @@
       }
     },
     "xAxis": {
-      tickInterval: 1
+     "tickInterval": 1,
     },
     "yAxis": {
       "labels": {
@@ -20,6 +20,10 @@
     "tooltip": {
       "shared": false,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'
+    },
+    chart:{
+        spacingBottom: 50,
+        marginRight: 20, 
     },
     "series": [
       {

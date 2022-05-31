@@ -25,7 +25,7 @@
 
     ],
     "legend": {
-      "enabled": true,
+      "enabled": false,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
@@ -41,6 +41,7 @@
     },
     "chart": {
       marginLeft: 200,
+      marginRight: 30,
       "type": "column",
       "inverted": true, /* false */
     },

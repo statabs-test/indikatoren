@@ -3,7 +3,8 @@
 		"chart": {
 			marginLeft: 200,
 			inverted: true,
-			height: 700
+			height: 700,
+			marginRight: 30,
 		},
 		plotOptions: {
 			series: {

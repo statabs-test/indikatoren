@@ -46,16 +46,19 @@
       itemMarginBottom: 1
     },
     "series": [
-      { "color": "#672773", index: 9, legendIndex: 0 }, /*Deutschland*/
-      { "color": "#007a2f", index: 8, legendIndex: 1 }, /*Italien*/
-      { "color": "#fabd24", index: 7, legendIndex: 2 }, /*Türkei*/
-      { "color": "#b475ab", index: 6, legendIndex: 3 }, /*EU-17 & EFTA*/
-      { "color": "#71a3b5", index: 5, legendIndex: 4 }, /*EU-Ost */
-      { "color": "#b9cfd7", index: 4, legendIndex: 5 }, /*Balkan*/
-      { "color": "#ff8028", index: 3, legendIndex: 6 }, /*Mittel- & Südamerika */
-      { "color": "#73ba7c", index: 2, legendIndex: 7 }, /*Arabische Länder */
-      { "color": "#9f7c5a", index: 1, legendIndex: 8 }, /*Afrikanische Länder*/
-      { "color": "#999999", index: 0, legendIndex: 9 }, /*Übrige Länder*/
+      { "color": "#8B2223", index: 12, legendIndex: 0 }, /*dunkelrot*/
+      { "color": "#DC440E", index: 11, legendIndex: 1 }, /*hellrot*/
+      { "color": "#FF8028", index: 10, legendIndex: 2 }, /*dunkelorange*/
+      { "color": "#FFBB58", index: 9, legendIndex: 3 }, /*dunkelgelb*/
+      { "color": "#FFDA80", index: 8, legendIndex: 4 }, /*hellgelb*/
+      { "color": "#007A2F", index: 7, legendIndex: 5 }, /*dunkelgrün*/
+      { "color": "#D7E8D2", index: 6, legendIndex: 6 }, /*hellgrün1*/
+      { "color": "#73BA7C", index: 5, legendIndex: 7 }, /*hellgrün2*/
+      { "color": "#2B0099", index: 4, legendIndex: 8 }, /*dunkelblau1*/
+      { "color": "#008AC3", index: 3, legendIndex: 9 }, /*dunkelblau2*/
+      { "color": "#B9CFD7", index: 2, legendIndex: 10 }, /*hellblau*/
+      { "color": "#672773", index: 1, legendIndex: 11 }, /*dunkelpink*/
+      { "color": "#E7CEE2", index: 0, legendIndex: 12 }, /*hellpink*/
     ],
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',

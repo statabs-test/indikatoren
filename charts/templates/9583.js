@@ -99,7 +99,8 @@ global Highcharts
         //"marginBottom": 65,
         //"marginTop": 75,
         "type": "column",
-        "inverted": true
+        "inverted": true, 
+         "marginRight": 20, 
       }
     };
   }());
