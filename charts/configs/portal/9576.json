@@ -1,58 +1,137 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#71a3b5",
       "data": [
         [
-          "Waren verschiedener Art",
-          0.2068965517
+          "Primärer Sektor & Industrie",
+          0
         ],
         [
-          "Nahrungs-, Genussmitel, Tabak",
-          -0.0476190476
+          "Bau und Verkehr",
+          -0.2695035461
         ],
         [
-          "Informatik und Elektronik",
-          -0.1578947368
+          "Grosshandel",
+          -0.2333333333
         ],
         [
-          "Haushaltsgeräte, Textilien, Möbel",
-          -0.2295081967
+          "Detailhandel",
+          -0.0864197531
         ],
         [
-          "Verlagsprod., Sport- und Spielwaren",
-          -0.0833333333
+          "Information, Kommunikation",
+          -0.0446428571
         ],
         [
-          "Bekleidung, Lederwaren",
-          -0.1573604061
+          "Gastronomie, Hotellerie",
+          -0.0100334448
         ],
         [
-          "Apotheken, Körperpflege",
-          0.1555555556
+          "Finanzen, Versicherung, Immobilien",
+          -0.0955414013
         ],
         [
-          "Uhren, Schmuck",
-          0.0833333333
+          "Unternehmens-DL, Freiberufe",
+          0.0338797814
         ],
         [
-          "Antiquitäten, Gebrauchtwaren",
-          -0.1428571429
+          "Sonstige DL",
+          -0.0295081967
         ],
         [
-          "Sonstiger Detailhandel",
-          -0.1142857143
+          "Öff. Verwaltung, Bildung",
+          0.0541666667
+        ],
+        [
+          "Gesundheit und Sozialwesen",
+          0.0806697108
+        ],
+        [
+          "Kunst, Unterhaltung, Sport",
+          -0.064516129
+        ],
+        [
+          "Schönheitspflege, sonst. persönliche DL",
+          0.0365853659
         ],
         [
           " ",
           null
         ],
         [
-          "Total Detailhandel",
-          -0.0864197531
+          "Total",
+          -0.0173321632
         ]
       ],
-      "name": "Veränderung zwischen 2015 und 2019",
+      "name": "Innenstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Primärer Sektor & Industrie",
+          -0.0194902549
+        ],
+        [
+          "Bau und Verkehr",
+          -0.0853739246
+        ],
+        [
+          "Grosshandel",
+          -0.2673684211
+        ],
+        [
+          "Detailhandel",
+          -0.1022408964
+        ],
+        [
+          "Information, Kommunikation",
+          0.0341685649
+        ],
+        [
+          "Gastronomie, Hotellerie",
+          -0.0125156446
+        ],
+        [
+          "Finanzen, Versicherung, Immobilien",
+          -0.0601659751
+        ],
+        [
+          "Unternehmens-DL, Freiberufe",
+          0.030418251
+        ],
+        [
+          "Sonstige DL",
+          0.0433553252
+        ],
+        [
+          "Öff. Verwaltung, Bildung",
+          0.0662323561
+        ],
+        [
+          "Gesundheit und Sozialwesen",
+          0.0462003454
+        ],
+        [
+          "Kunst, Unterhaltung, Sport",
+          -0.0248447205
+        ],
+        [
+          "Schönheitspflege, sonst. persönliche DL",
+          0.0292792793
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Total",
+          -0.0091120352
+        ]
+      ],
+      "name": "Stadt Basel",
       "turboThreshold": 0
     }
   ],
@@ -71,7 +150,7 @@
       "style": {
         "color": "#000000"
       },
-      "x": -190,
+      "x": -210,
       "align": "leftt"
     }
   },
@@ -108,10 +187,10 @@
                     }
                 }
     },
-    "marginLeft": 200,
+    "marginLeft": 220,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-9589",
+    "renderTo": "container-9576",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -132,7 +211,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Veränderung der Arbeitsstätten im Detailhandel in der Innenstadt seit 2015, nach Branche"
+    "text": "Arbeitsstättenentwicklung nach Branche"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -202,6 +281,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "9589"
+    "filename": "9576"
   }
 }
