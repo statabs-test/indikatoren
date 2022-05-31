@@ -13,6 +13,7 @@
      "tickInterval": 1,
     },
     "yAxis": {
+      tickAmount: 7,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -27,10 +28,17 @@
     },
     "series": [
       {
-        "color": "#73B97C" /*Zugezogene*/
+        "color": "#73B97C" /*Zugezogene Innenstadt*/
       },
       {
-        "color": "#71A3B5", /*Weggezogene*/
+        "color": "#71A3B5", /*Weggezogene Innenstadt*/
+        visible: true,
+      },
+      {
+        "color": "#007A2F" /*Zugezogene Kanton BS*/
+      },
+      {
+        "color": "#2B0099", /*Weggezogene Kanton BS*/
         visible: true,
       },
     ],
