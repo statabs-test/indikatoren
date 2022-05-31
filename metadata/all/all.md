@@ -2132,6 +2132,18 @@ id | visible | visibleInPortal | indikatorenset
 9621 | true | true | Energiestatistik
 9622 | true | true | Energiestatistik
 9623 | true | true | Energiestatistik
+9636 | true | false | Energiestatistik (Print)
+9641 | true | false | Energiestatistik (Print)
+9643 | true | false | Energiestatistik (Print)
+9646 | true | false | Energiestatistik (Print)
+9647 | true | false | Energiestatistik (Print)
+9648 | true | false | Energiestatistik (Print)
+9649 | true | false | Energiestatistik (Print)
+9650 | true | false | Energiestatistik (Print)
+9651 | true | false | Energiestatistik (Print)
+9652 | true | false | Energiestatistik (Print)
+9653 | true | false | Energiestatistik (Print)
+9654 | true | false | Energiestatistik (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

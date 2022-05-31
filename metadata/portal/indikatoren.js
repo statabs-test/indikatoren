@@ -42351,7 +42351,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresmitteltemperatur und Heizgradtage",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
+		"lesehilfe": "«Das 30-jähriges gleitendes Mittel der Lufttemperatur der Heizperiode Zeigt seit dem Anfang des 20. Jahrhunderts eine stetige Zunahme, bzw. eine Erwärmung der Heizperiode.»",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
