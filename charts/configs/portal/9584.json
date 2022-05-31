@@ -4,113 +4,107 @@
       "color": "#71a3b5",
       "data": [
         [
+          2008,
+          72630
+        ],
+        [
+          2009,
+          71983
+        ],
+        [
+          2010,
+          72147
+        ],
+        [
+          2011,
+          71868
+        ],
+        [
           2012,
-          1516
+          75444
         ],
         [
           2013,
-          1182
+          77325
         ],
         [
           2014,
-          1170
+          79801
         ],
         [
           2015,
-          1180
+          78260
         ],
         [
           2016,
-          1268
+          80349
         ],
         [
           2017,
-          1209
+          80070
         ],
         [
           2018,
-          1335
+          80951
         ],
         [
           2019,
-          1355
+          89610
         ]
       ],
       "name": "Innenstadt"
-    },
-    {
-      "color": "#007A2F",
-      "data": [
-        [
-          2012,
-          4329
-        ],
-        [
-          2013,
-          3733
-        ],
-        [
-          2014,
-          3576
-        ],
-        [
-          2015,
-          3595
-        ],
-        [
-          2016,
-          3809
-        ],
-        [
-          2017,
-          3905
-        ],
-        [
-          2018,
-          4226
-        ],
-        [
-          2019,
-          3998
-        ]
-      ],
-      "name": "Stadt Basel"
     },
     {
       "color": "#ff8028",
       "visible": true,
       "data": [
         [
+          2008,
+          64910
+        ],
+        [
+          2009,
+          65107
+        ],
+        [
+          2010,
+          65751
+        ],
+        [
+          2011,
+          64818
+        ],
+        [
           2012,
-          4488
+          65189
         ],
         [
           2013,
-          3915
+          66943
         ],
         [
           2014,
-          3717
+          68538
         ],
         [
           2015,
-          3735
+          68248
         ],
         [
           2016,
-          3983
+          69823
         ],
         [
           2017,
-          4045
+          69373
         ],
         [
           2018,
-          4380
+          69761
         ],
         [
           2019,
-          4147
+          72418
         ]
       ],
       "name": "Kanton BS"
@@ -146,7 +140,7 @@
 				}
     },
     "marginRight": 20,
-    "renderTo": "container-9579"
+    "renderTo": "container-9584"
   },
   "plotOptions": {
     "series": {
@@ -169,10 +163,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Requisitionen"
+    "text": "Reineinkommen pro Veranlagung"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "in Franken, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,7 +235,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -282,6 +276,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9579"
+    "filename": "9584"
   }
 }

@@ -659,6 +659,7 @@
     "type": "column",
     "marginLeft": 200,
     "inverted": true,
+    "marginRight": 30,
     "renderTo": "container-9591",
     "spacingBottom": 40
   },

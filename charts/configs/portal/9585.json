@@ -1,119 +1,222 @@
 {
   "series": [
     {
-      "color": "#71a3b5",
+      "color": "#73B97C",
       "data": [
         [
+          2008,
+          3926280
+        ],
+        [
+          2009,
+          5089099
+        ],
+        [
+          2010,
+          4349045
+        ],
+        [
+          2011,
+          4156840
+        ],
+        [
           2012,
-          1516
+          6333451
         ],
         [
           2013,
-          1182
+          8322403
         ],
         [
           2014,
-          1170
+          5610290
         ],
         [
           2015,
-          1180
+          5385968
         ],
         [
           2016,
-          1268
+          4658008
         ],
         [
           2017,
-          1209
+          4190524
         ],
         [
           2018,
-          1335
+          5816128
         ],
         [
           2019,
-          1355
+          5005036
         ]
       ],
-      "name": "Innenstadt"
+      "name": "Zugezogene Innenstadt"
+    },
+    {
+      "color": "#71A3B5",
+      "visible": true,
+      "data": [
+        [
+          2008,
+          3235830
+        ],
+        [
+          2009,
+          3762947
+        ],
+        [
+          2010,
+          2791094
+        ],
+        [
+          2011,
+          5557410
+        ],
+        [
+          2012,
+          3246948
+        ],
+        [
+          2013,
+          4506023
+        ],
+        [
+          2014,
+          3772080
+        ],
+        [
+          2015,
+          2812328
+        ],
+        [
+          2016,
+          3929140
+        ],
+        [
+          2017,
+          4337738
+        ],
+        [
+          2018,
+          3204770
+        ],
+        [
+          2019,
+          3451660
+        ]
+      ],
+      "name": "Weggezogene Innenstadt (Steuerertrag des Vorjahres)"
     },
     {
       "color": "#007A2F",
       "data": [
         [
+          2008,
+          36342225
+        ],
+        [
+          2009,
+          40204888
+        ],
+        [
+          2010,
+          41023658
+        ],
+        [
+          2011,
+          42434449
+        ],
+        [
           2012,
-          4329
+          47603356
         ],
         [
           2013,
-          3733
+          50361806
         ],
         [
           2014,
-          3576
+          43194399
         ],
         [
           2015,
-          3595
+          46212499
         ],
         [
           2016,
-          3809
+          47068349
         ],
         [
           2017,
-          3905
+          46705062
         ],
         [
           2018,
-          4226
+          51124035
         ],
         [
           2019,
-          3998
+          49240280
         ]
       ],
-      "name": "Stadt Basel"
+      "name": "Zugezogene Kanton BS"
     },
     {
-      "color": "#ff8028",
+      "color": "#2B0099",
       "visible": true,
       "data": [
         [
+          2008,
+          38301008
+        ],
+        [
+          2009,
+          35953445
+        ],
+        [
+          2010,
+          30361202
+        ],
+        [
+          2011,
+          38016163
+        ],
+        [
           2012,
-          4488
+          33966967
         ],
         [
           2013,
-          3915
+          38016093
         ],
         [
           2014,
-          3717
+          39064442
         ],
         [
           2015,
-          3735
+          42594222
         ],
         [
           2016,
-          3983
+          39843084
         ],
         [
           2017,
-          4045
+          39915993
         ],
         [
           2018,
-          4380
+          38267552
         ],
         [
           2019,
-          4147
+          43049166
         ]
       ],
-      "name": "Kanton BS"
+      "name": "Weggezogene Kanton BS (Steuerertrag des Vorjahres)"
     }
   ],
   "chart": {
@@ -146,7 +249,7 @@
 				}
     },
     "marginRight": 20,
-    "renderTo": "container-9579"
+    "renderTo": "container-9585"
   },
   "plotOptions": {
     "series": {
@@ -169,7 +272,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Requisitionen"
+    "text": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -215,7 +318,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 7
   },
   "legend": {
     "enabled": true,
@@ -241,7 +345,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -282,6 +386,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9579"
+    "filename": "9585"
   }
 }

@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#672773",
-      "index": 9,
+      "color": "#8B2223",
+      "index": 12,
       "legendIndex": 0,
       "data": [
         [
@@ -82,8 +82,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
-      "index": 8,
+      "color": "#DC440E",
+      "index": 11,
       "legendIndex": 1,
       "data": [
         [
@@ -163,8 +163,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
-      "index": 7,
+      "color": "#FF8028",
+      "index": 10,
       "legendIndex": 2,
       "data": [
         [
@@ -244,8 +244,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
-      "index": 6,
+      "color": "#FFBB58",
+      "index": 9,
       "legendIndex": 3,
       "data": [
         [
@@ -325,8 +325,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
-      "index": 5,
+      "color": "#FFDA80",
+      "index": 8,
       "legendIndex": 4,
       "data": [
         [
@@ -406,8 +406,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b9cfd7",
-      "index": 4,
+      "color": "#007A2F",
+      "index": 7,
       "legendIndex": 5,
       "data": [
         [
@@ -487,8 +487,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
-      "index": 3,
+      "color": "#D7E8D2",
+      "index": 6,
       "legendIndex": 6,
       "data": [
         [
@@ -568,8 +568,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
-      "index": 2,
+      "color": "#73BA7C",
+      "index": 5,
       "legendIndex": 7,
       "data": [
         [
@@ -649,8 +649,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9f7c5a",
-      "index": 1,
+      "color": "#2B0099",
+      "index": 4,
       "legendIndex": 8,
       "data": [
         [
@@ -730,8 +730,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
+      "color": "#008AC3",
+      "index": 3,
       "legendIndex": 9,
       "data": [
         [
@@ -808,6 +808,249 @@
         ]
       ],
       "name": "Öff. Verwaltung, Bildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 2,
+      "legendIndex": 10,
+      "data": [
+        [
+          "2011: Innenstadt",
+          597
+        ],
+        [
+          "2011: Stadt Basel",
+          2071
+        ],
+        [
+          "2012: Innenstadt",
+          610
+        ],
+        [
+          "2012: Stadt Basel",
+          2116
+        ],
+        [
+          "2013: Innenstadt",
+          609
+        ],
+        [
+          "2013: Stadt Basel",
+          2149
+        ],
+        [
+          "2014: Innenstadt",
+          626
+        ],
+        [
+          "2014: Stadt Basel",
+          2247
+        ],
+        [
+          "2015: Innenstadt",
+          657
+        ],
+        [
+          "2015: Stadt Basel",
+          2316
+        ],
+        [
+          "2016: Innenstadt",
+          683
+        ],
+        [
+          "2016: Stadt Basel",
+          2345
+        ],
+        [
+          "2017: Innenstadt",
+          698
+        ],
+        [
+          "2017: Stadt Basel",
+          2362
+        ],
+        [
+          "2018: Innenstadt",
+          714
+        ],
+        [
+          "2018: Stadt Basel",
+          2362
+        ],
+        [
+          "2019: Innenstadt",
+          710
+        ],
+        [
+          "2019: Stadt Basel",
+          2423
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 1,
+      "legendIndex": 11,
+      "data": [
+        [
+          "2011: Innenstadt",
+          183
+        ],
+        [
+          "2011: Stadt Basel",
+          993
+        ],
+        [
+          "2012: Innenstadt",
+          195
+        ],
+        [
+          "2012: Stadt Basel",
+          1050
+        ],
+        [
+          "2013: Innenstadt",
+          205
+        ],
+        [
+          "2013: Stadt Basel",
+          1090
+        ],
+        [
+          "2014: Innenstadt",
+          210
+        ],
+        [
+          "2014: Stadt Basel",
+          1221
+        ],
+        [
+          "2015: Innenstadt",
+          217
+        ],
+        [
+          "2015: Stadt Basel",
+          1288
+        ],
+        [
+          "2016: Innenstadt",
+          207
+        ],
+        [
+          "2016: Stadt Basel",
+          1270
+        ],
+        [
+          "2017: Innenstadt",
+          213
+        ],
+        [
+          "2017: Stadt Basel",
+          1246
+        ],
+        [
+          "2018: Innenstadt",
+          205
+        ],
+        [
+          "2018: Stadt Basel",
+          1241
+        ],
+        [
+          "2019: Innenstadt",
+          203
+        ],
+        [
+          "2019: Stadt Basel",
+          1256
+        ]
+      ],
+      "name": "Kunst, Unterhaltung, Sport",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 0,
+      "legendIndex": 12,
+      "data": [
+        [
+          "2011: Innenstadt",
+          288
+        ],
+        [
+          "2011: Stadt Basel",
+          824
+        ],
+        [
+          "2012: Innenstadt",
+          305
+        ],
+        [
+          "2012: Stadt Basel",
+          831
+        ],
+        [
+          "2013: Innenstadt",
+          323
+        ],
+        [
+          "2013: Stadt Basel",
+          865
+        ],
+        [
+          "2014: Innenstadt",
+          319
+        ],
+        [
+          "2014: Stadt Basel",
+          884
+        ],
+        [
+          "2015: Innenstadt",
+          328
+        ],
+        [
+          "2015: Stadt Basel",
+          888
+        ],
+        [
+          "2016: Innenstadt",
+          335
+        ],
+        [
+          "2016: Stadt Basel",
+          893
+        ],
+        [
+          "2017: Innenstadt",
+          335
+        ],
+        [
+          "2017: Stadt Basel",
+          891
+        ],
+        [
+          "2018: Innenstadt",
+          332
+        ],
+        [
+          "2018: Stadt Basel",
+          879
+        ],
+        [
+          "2019: Innenstadt",
+          340
+        ],
+        [
+          "2019: Stadt Basel",
+          914
+        ]
+      ],
+      "name": "Schönheitspflege, sonst. pers. DL",
       "turboThreshold": 0
     }
   ],

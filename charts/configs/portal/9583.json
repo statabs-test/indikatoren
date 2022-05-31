@@ -99,6 +99,7 @@
     },
     "type": "column",
     "inverted": true,
+    "marginRight": 20,
     "renderTo": "container-9583",
     "spacingBottom": 40
   },

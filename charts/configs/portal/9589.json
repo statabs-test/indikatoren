@@ -109,6 +109,7 @@
                 }
     },
     "marginLeft": 200,
+    "marginRight": 30,
     "type": "column",
     "inverted": true,
     "renderTo": "container-9589",
@@ -169,7 +170,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

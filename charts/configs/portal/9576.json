@@ -4,7 +4,7 @@
       "color": "#71a3b5",
       "data": [
         [
-          "Primärer Sektor & Industrie",
+          "Primärer Sektor, verarbeit. Gewerbe",
           0
         ],
         [
@@ -44,7 +44,7 @@
           0.0541666667
         ],
         [
-          "Gesundheit und Sozialwesen",
+          "Gesundheits-, Sozialwesen",
           0.0806697108
         ],
         [
@@ -52,7 +52,7 @@
           -0.064516129
         ],
         [
-          "Schönheitspflege, sonst. persönliche DL",
+          "Schönheitspflege, sonst. pers. DL",
           0.0365853659
         ],
         [
@@ -71,12 +71,12 @@
       "color": "#007A2F",
       "data": [
         [
-          "Primärer Sektor & Industrie",
-          -0.0194902549
+          "Primärer Sektor, verarbeit. Gewerbe",
+          -0.0185185185
         ],
         [
           "Bau und Verkehr",
-          -0.0853739246
+          -0.0849673203
         ],
         [
           "Grosshandel",
@@ -111,7 +111,7 @@
           0.0662323561
         ],
         [
-          "Gesundheit und Sozialwesen",
+          "Gesundheits-, Sozialwesen",
           0.0462003454
         ],
         [
@@ -119,7 +119,7 @@
           -0.0248447205
         ],
         [
-          "Schönheitspflege, sonst. persönliche DL",
+          "Schönheitspflege, sonst. pers. DL",
           0.0292792793
         ],
         [
@@ -150,7 +150,7 @@
       "style": {
         "color": "#000000"
       },
-      "x": -210,
+      "x": -190,
       "align": "leftt"
     }
   },
@@ -187,7 +187,8 @@
                     }
                 }
     },
-    "marginLeft": 220,
+    "marginLeft": 200,
+    "marginRight": 30,
     "type": "column",
     "inverted": true,
     "renderTo": "container-9576",
