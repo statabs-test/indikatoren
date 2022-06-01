@@ -4,9 +4,6 @@
       "color": "#73ba7c",
       "index": 3,
       "legendIndex": 0,
-      "marker": {
-        "enabled": false
-      },
       "stacking": true,
       "data": [
         [
@@ -480,9 +477,6 @@
       "color": "#FABD24",
       "index": 2,
       "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
       "stacking": true,
       "data": [
         [
@@ -956,9 +950,6 @@
       "color": "#923F8D",
       "index": 1,
       "legendIndex": 2,
-      "marker": {
-        "enabled": false
-      },
       "stacking": true,
       "data": [
         [
@@ -1432,11 +1423,9 @@
       "color": "#999999",
       "index": 0,
       "legendIndex": 3,
-      "marker": {
-        "enabled": false
-      },
-      "id": "separate",
       "stacking": false,
+      "type": "line",
+      "zIndex": 100,
       "data": [
         [
           0,
@@ -1907,7 +1896,7 @@
     }
   ],
   "chart": {
-    "type": "column",
+    "type": "area",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -1940,15 +1929,9 @@
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "symbol": "circle"
       }
-    },
-    "column": {
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.2,
-      "borderWidth": 0,
-      "pointWidth": 2
     }
   },
   "title": {
@@ -1961,7 +1944,7 @@
     "text": "Veranlagungen natürlicher Personen und Bevölkerung"
   },
   "subtitle": {
-    "text": "nach Tarif und Alter, Basel-Stadt, 2018",
+    "text": "nach Tarif und Alter, Basel-Stadt, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -1985,8 +1968,10 @@
         "textOverflow": "none"
       }
     },
+    "type": "linear",
     "tickInterval": 10,
-    "type": "linear"
+    "min": 18,
+    "max": 105
   },
   "yAxis": {
     "min": 0,
@@ -2016,7 +2001,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 0
+    "itemDistance": 10
   },
   "credits": {
     "enabled": true,
@@ -2069,29 +2054,30 @@
   },
   "tooltip": {
     "formatter": formatter() {
-      if (this.series.userOptions.id !== "separate") {
-        const chart = this.series.chart;
-        const series = chart.series;
-        let tooltip = ""
-        let s = 0
-        series.forEach(series => {
-          if (series.userOptions.id !== "separate") {
-          	series.setState('hover');
-            series.points.forEach(point => {
-              if (point.x === this.x) {
-                tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${point.y} </b><br>`;
-                s += point.y;
-              }
-            })
-          }
-        },
-        )
-        return tooltip + "Total Veranlagungen: <b>" + s + "</b>";
-      
-      } else {
-        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat( this.y, 0, ",", " ") + '</b><br/>';
+        if (this.series.userOptions.stacking == true) { //nur für series mit stacking: true
+          const series = this.series.chart.series;
+          let tooltip = ""
+          let s = 0
+          series.forEach(series => {
+            if (series.userOptions.stacking == true) { //nur für series mit stacking: true
+              series.setState('hover'); //"aktiviere" alle series
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${Highcharts.numberFormat(point.y, 0, ",", " ")} </b><br>`;
+                  s += point.y;
+                }
+              })
+            }
+          },
+          )
+          return '<span style="font-size: 10px">Alter: ' + this.x +
+            '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total Veranlagungen: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+        } else {
+          return '<span style="font-size: 10px">Alter: ' + this.x +
+            '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+            + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
+        }
       }
-    }
   },
   "exporting": {
     "filename": "6898"
