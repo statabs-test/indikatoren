@@ -101,8 +101,10 @@
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
-      itemWidth: 150,
-      width: 300,
+      itemDistance: 5,
+      alignColumns: false,
+      //itemWidth: 150,
+      //width: 300,
       itemStyle: {
         fontWeight: "normal",
         textOverflow: "none",

@@ -379,7 +379,7 @@ var indikatorensetData = [
 		"title": "Jahresmitteltemperatur und Heizgradtage",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "«Das 30-jähriges gleitendes Mittel der Lufttemperatur der Heizperiode Zeigt seit dem Anfang des 20. Jahrhunderts eine stetige Zunahme, bzw. eine Erwärmung der Heizperiode.»",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Als Heizperiode wird der Zeitraum bezeichnet, in dem die Heizanlage in Betrieb genommen werden muss, um die Innentemperatur zu halten. Dies Betrift die Periode vom September bis Juni.<br><br> Der Wert des 30-jährigen gleitenden Mittels eines Jahres ist der Mittelwert der Jahresmittelwerte über einen Zeitraum von -14 bis +15 Jahren und zeigt die längerfristige, geglättete Entwicklung.<br> <br> Für alle Tage in der Heizperiode (September des Vorjahres bis Juni des laufenden Jahres) welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtagen). Allfällige Heizgradtage in den Monaten Juli und August werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
