@@ -29,7 +29,7 @@
           669.79731189
         ]
       ],
-      "name": "Kehricht, Klärschlamm, Industrieabfall",
+      "name": "Abfall",
       "turboThreshold": 0
     },
     {
@@ -260,7 +260,7 @@
           28.842941138
         ]
       ],
-      "name": "Anteil Fernwärme am Bruttoenergieverbrauch (rechte Skala)",
+      "name": "Anteil am Bruttoenergieverbrauch (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -391,8 +391,8 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    "itemWidth": 170,
-    "width": 300
+    "itemDistance": 5,
+    "alignColumns": false
   },
   "navigation": {
     "menuItemStyle": {
