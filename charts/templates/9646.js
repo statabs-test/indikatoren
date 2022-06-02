@@ -57,10 +57,10 @@
     },
     {
       color:"#661200"
-    },
+    }/*,
     {
       color:"#E7CEE2"
-    }
+    }*/
   ],
   chart: {    
     /*marginBottom: 75,
