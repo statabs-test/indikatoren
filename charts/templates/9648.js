@@ -89,7 +89,8 @@
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
-      itemWidth: 120,
+      alignColumns: false,
+      //itemWidth: 120,
       width: 300,
       itemStyle: {
         fontWeight: "normal",
