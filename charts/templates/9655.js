@@ -9,7 +9,7 @@ plotOptions: {
         "stacking": "normal",
     pointPadding: 0,
           borderWidth: 0,
-          pointWidth: 30, 
+          pointWidth: 20, 
 
       }/*,
        area: {
@@ -44,7 +44,8 @@ legend: {
   verticalAlign: "top",
   align: "left",
 //"y": 40,
- itemWidth: 190,
+ itemWidth: 130,
+ itemDistance: 0,
 itemMarginBottom: 5,
   itemStyle: {
   fontWeight: "normal"
