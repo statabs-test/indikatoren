@@ -1,14 +1,15 @@
 (function () {
   return {
-    /*xAxis: {
-      endOnTick: true,
+    xAxis: {
+      /*endOnTick: true,
       startOnTick: true,
       showFirstLabel: true,
       showLastLabel: true,
       tickInterval: 365 * 24 * 3600 * 1000,
       minTickInterval: 365 * 24 * 3600 * 1000,
-      ordinal: false
-    },*/
+      ordinal: false*/
+      min: 1990
+    },
     yAxis: [
       {
         opposite: false,

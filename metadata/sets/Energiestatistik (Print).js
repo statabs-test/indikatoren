@@ -442,5 +442,42 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-05-30T09:30:40",
 		"id": 9654
+	},
+	{
+		"template": "line001_print",
+		"data-id": 9655,
+		"chart-id": 9655,
+		"filter": "",
+		"parentId": "9624",
+		"children": [],
+		"title": "Veränderung der Energiebezugsfläche",
+		"subtitle": "in Quadratmeter, Basel-Stadt",
+		"lesehilfe": "Lesehilfe",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Veränderung der Energiebezugsfläche",
+		"thema": "08 Energie",
+		"unterthema": "Produktion",
+		"kuerzel": "I.08.2.09624",
+		"kennzahlenset": "Energiestatistik (Print)",
+		"kuerzelKunde": "5.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_013",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-30T09:30:40",
+		"id": 9655
 	}
 ];

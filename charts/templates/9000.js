@@ -30,7 +30,7 @@
     layout: "horizontal",
     verticalAlign: "top",
     align: "left",
-    //alignColumns: false,
+    alignColumns: false,
     //itemWidth: 300,
     itemStyle: {
       fontWeight: "normal"
