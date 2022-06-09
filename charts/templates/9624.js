@@ -23,7 +23,7 @@ plotOptions: {
   "labels": {
     "format": "{value:,.0f}",
   },
-  max: 250000,
+  //max: 250000,
   min: -100000
 },
 xAxis: {
@@ -79,11 +79,16 @@ series: [
   type: "line",
   stack: 2
 },
+{
+  color: "#3C3C3C",
+  type: "line",
+  stack: 3
+},
 
 ],  
 tooltip: {
   pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> m<sup>2 </sup> <br/>',
- shared: true,
+ shared: false,
  useHTML: true
 },
 };

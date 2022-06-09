@@ -41,7 +41,7 @@
           109692
         ]
       ],
-      "name": "Wohnen gebaut",
+      "name": "W. gebaut",
       "turboThreshold": 0
     },
     {
@@ -85,7 +85,7 @@
           54955
         ]
       ],
-      "name": "Nichtwohnen gebaut",
+      "name": "N. gebaut",
       "turboThreshold": 0
     },
     {
@@ -130,7 +130,7 @@
           -15339
         ]
       ],
-      "name": "Wohnen abgebrochen",
+      "name": "W. abgebrochen",
       "turboThreshold": 0
     },
     {
@@ -175,7 +175,7 @@
           -22318
         ]
       ],
-      "name": "Nichtwohnen_abg",
+      "name": "N. abgebrochen",
       "turboThreshold": 0
     },
     {
@@ -266,6 +266,51 @@
         ]
       ],
       "name": "Nichtwohnen Saldo",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "type": "line",
+      "stack": 3,
+      "data": [
+        [
+          "2012",
+          64775
+        ],
+        [
+          "2013",
+          84999
+        ],
+        [
+          "2014",
+          71996
+        ],
+        [
+          "2015",
+          96269
+        ],
+        [
+          "2016",
+          186111
+        ],
+        [
+          "2017",
+          113814
+        ],
+        [
+          "2018",
+          116187
+        ],
+        [
+          "2019",
+          201133
+        ],
+        [
+          "2020",
+          126990
+        ]
+      ],
+      "name": "Total Saldo",
       "turboThreshold": 0
     }
   ],
@@ -374,8 +419,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": 250000
+    }
   },
   "legend": {
     "enabled": true,
@@ -440,7 +484,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E m\u003Csup\u003E2 \u003C\u002Fsup\u003E \u003Cbr\u002F\u003E",
-    "shared": true,
+    "shared": false,
     "useHTML": true
   },
   "exporting": {

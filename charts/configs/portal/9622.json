@@ -2139,7 +2139,7 @@
           null
         ]
       ],
-      "name": "30-jähriges gleitendes Mittel der Lufttemperatur (Heizperiode)"
+      "name": "30-jähriges gleitendes Mittel der Lufttemperatur"
     },
     {
       "color": "#689199",
@@ -3204,11 +3204,11 @@
         ],
         [
           1546300800000,
-          null
+          2708
         ],
         [
           1577836800000,
-          null
+          2507
         ]
       ],
       "name": "Heizgradtage (rechte Skala)"

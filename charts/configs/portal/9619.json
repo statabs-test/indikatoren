@@ -24,15 +24,15 @@
       "data": [
         [
           "Wohnen",
-          429.79464802
+          365.523263
         ],
         [
           "Nichtwohnen",
-          857.96813104
+          759.161443
         ],
         [
           "Verkehr",
-          47.099186
+          1.452789
         ]
       ],
       "name": "Elektrizität",
@@ -43,15 +43,15 @@
       "data": [
         [
           "Wohnen",
-          266.16201773
+          435.725137
         ],
         [
           "Nichtwohnen",
-          463.77353197
+          759.228486
         ],
         [
           "Verkehr",
-          11.499528
+          12.245766
         ]
       ],
       "name": "Erdgas",
@@ -62,11 +62,11 @@
       "data": [
         [
           "Wohnen",
-          553.57407063
+          502.209179
         ],
         [
           "Nichtwohnen",
-          514.32379051
+          467.302736
         ],
         [
           "Verkehr",
@@ -81,30 +81,11 @@
       "data": [
         [
           "Wohnen",
-          18.18696907
+          137.09602988
         ],
         [
           "Nichtwohnen",
-          1.93548083
-        ],
-        [
-          "Verkehr",
-          null
-        ]
-      ],
-      "name": "Fotovoltaik",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "data": [
-        [
-          "Wohnen",
-          141.2353112
-        ],
-        [
-          "Nichtwohnen",
-          55.680582304
+          54.31875584
         ],
         [
           "Verkehr",
@@ -115,15 +96,15 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#DC440E",
       "data": [
         [
           "Wohnen",
-          11.816606837
+          12.440076
         ],
         [
           "Nichtwohnen",
-          3.2808431634
+          3.084309
         ],
         [
           "Verkehr",
@@ -134,15 +115,34 @@
       "turboThreshold": 0
     },
     {
+      "color": "#B00000",
+      "data": [
+        [
+          "Wohnen",
+          12.1216081
+        ],
+        [
+          "Nichtwohnen",
+          1.3753545
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Thermische Solarenergie",
+      "turboThreshold": 0
+    },
+    {
       "color": "#E7CEE2",
       "data": [
         [
           "Wohnen",
-          17.33199
+          18.673948
         ],
         [
           "Nichtwohnen",
-          7.746212
+          8.544597
         ],
         [
           "Verkehr",

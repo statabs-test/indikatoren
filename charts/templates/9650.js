@@ -15,7 +15,7 @@
   },  
   yAxis: {
     tickAmount: 5,
-    max: 2000,
+    //max: 2000,
       labels: {
       format: "{value:,.0f}"
     },
@@ -30,7 +30,7 @@
     layout: "horizontal",
     verticalAlign: "top",
     align: "left",
-    //alignColumns: false,
+    alignColumns: false,
     //itemWidth: 95,
     itemStyle: {
       fontWeight: "normal"

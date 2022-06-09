@@ -61,7 +61,10 @@
       },
       {
         color: "#CD9C00",
-        type: "column"
+        type: "column",
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b>%<br/>',
+        }
       },
       {
         color: "#000000",
@@ -76,8 +79,9 @@
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Enverbrauch: <b>{point.total:,.0f}</b> GWh',
-      shared: true,
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', 
+      footerFormat: 'Total Enverbrauch: <b>{point.total:,.0f}</b> GWh',
+      shared: false,
       useHTML: true,
       //outside: true
     },

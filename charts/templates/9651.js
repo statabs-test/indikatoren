@@ -76,12 +76,12 @@
         },
         tooltip: {
           pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'/*,
-          footerFormat: 'Total Emissionen: <b>{point.total:,.0f}</b> Tonen',*/
+          footerFormat: 'Total Emissionen: <b>{point.total:,.0f}</b> Tonnen',*/
         }
       }
     ],
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Emissionen: <b>{point.total:,.0f}</b> Tonen',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Emissionen: <b>{point.total:,.0f}</b> Tonnen',
       shared: true,
       useHTML: true
       //outside: true

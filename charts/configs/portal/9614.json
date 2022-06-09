@@ -90,7 +90,7 @@
           27.559384
         ]
       ],
-      "name": "Klär- und Biogas",
+      "name": "Biogas",
       "turboThreshold": 0
     },
     {
@@ -216,9 +216,6 @@
       ],
       "name": "Umweltwärme",
       "turboThreshold": 0
-    },
-    {
-      "color": "#E7CEE2"
     }
   ],
   "xAxis": {
