@@ -9,7 +9,7 @@
 					var top = -Math.PI / 2; 
 					//var top = -Math.PI / 2.3; wenn Farbtrennung nicht in der Mitte sein soll. 
 					var endPurple = top + 2 * Math.PI / 16 * 7;
-					var endGreen = endPurple + 2 * Math.PI / 16 * 4;
+					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
 					var endBlue = top;
 					var centerX = 247;
 					var centerY = 212.5;
