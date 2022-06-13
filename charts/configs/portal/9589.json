@@ -133,10 +133,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Veränderung der Arbeitsstätten im Detailhandel in der Innenstadt seit 2015, nach Branche"
+    "text": "Veränderung der Anzahl Arbeitsstätten im Detailhandel"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Innenstadt, 2019 gegenüber 2015",
     "align": "left",
     "style": {
       "fontSize": "12px",

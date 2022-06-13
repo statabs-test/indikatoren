@@ -21,20 +21,17 @@
         style: {
           fontSize: "11px"
         },
-        formatter: function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
       }
     },
     "yAxis": {
-      tickInterval: 500,
+      tickInterval: 2000,
       "labels": {
         "format": "{value:,.0f}"
       },
     },
     "legend": {
       "enabled": true,
-      reversed: true,
+      reversed: false,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
@@ -42,7 +39,6 @@
       itemDistance: 2,
       width: 500,
       itemWidth: 230,
-      reversed: false,
       itemMarginBottom: 1
     },
     "series": [

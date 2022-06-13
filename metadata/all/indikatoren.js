@@ -80915,8 +80915,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstättenentwicklung nach Branche",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2019 insgesamt um 1,7% abgenommen. Deutliche Rückgänge waren im Bereich Bau und Verkehr (-27%) sowie im Grosshandel (-23%)l zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen.",
+		"subtitle": "Basel-Stadt, 2019 gegenüber 2015",
+		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2019 insgesamt um 1,7% abgenommen. Deutliche Rückgänge waren im Bereich Bau und Verkehr (-27%) sowie im Grosshandel (-23%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -81230,8 +81230,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Reineinkommen pro Veranlagung",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Mittelwert des Reineinkommens pro Veranlagung von Personen, die in der Innenstadt wohnen, beträgt 2019 rund 89 600 Franken. Der Wert für den ganzen Kanton beträgt ca. 72 400 Franken.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -81269,8 +81269,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Von Personen, die in der Innenstadt wohnen, ergab sich im Jahr 2019 durch Zu- und Wegzüge ein positiver Saldo des Steuerertrags von rund 1,5 Mio. Franken (Zuzüger: 5,0 Mio. Franken; Wegzüger 3,5 Mio. Franken). Für den gesamten Kanton ergab sich - einschliesslich Gemeindesteuer - ein Plus von 6,2 Mio. Franken.",
+		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -81383,8 +81383,8 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Veränderung der Arbeitsstätten im Detailhandel in der Innenstadt seit 2015, nach Branche",
-		"subtitle": "Basel-Stadt",
+		"title": "Veränderung der Anzahl Arbeitsstätten im Detailhandel",
+		"subtitle": "Innenstadt, 2019 gegenüber 2015",
 		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2015 und 2019 um 8,6% abgenommen. Am stärksten war der Zuwachs mit 20,7% im Bereich Waren verschiedener Art, wozu unter anderem Supermärkte und Kaufhäuser zählen. Der stärkste Rückgang ist mit 23,0% im Bereich Haushaltsgeräte, Textilien, Möbel zu beobachten.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
@@ -81395,7 +81395,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Veränderung der Arbeitsstätten im Detailhandel in der Innenstadt seit 2015, nach Branche",
+		"description": "Veränderung der Anzahl Arbeitsstätten im Detailhandel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09589",
@@ -81613,7 +81613,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt",
 		"subtitle": "nach Stunden",
-		"lesehilfe": "Die höchste durchschnittliche Auslastung der Parkhäuser in der Innenstadt an Werktagen war im Jahr 2021 mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
+		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innerstädtischen Parkhäuser  an Werktagen mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -81651,7 +81651,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Parkhausauslastung an Samstagen in der Innenstadt",
 		"subtitle": "nach Stunden",
-		"lesehilfe": "Die höchste durchschnittliche Auslastung der Parkhäuser in der Innenstadt an Samstagen war im Jahr 2021 mit 56,2% zwischen 13 und 14 Uhr zu beobachten.",
+		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innerstädtischen Parkhäuser an Samstagen zwischen 13 und 14 Uhr zu beobachten (56,2%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -81727,7 +81727,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 zogen 13 480 Personen neu in den Kanton Basel-Stadt. Dies ist der niedrigste Wert der letzten zehn Jahre. 12 524 Personen verliessen den Kanton im Jahr 2020. Letztmals weniger Weggezogene wurden 2012 - nämlich 12 441 - registriert. Der Wanderungssaldo fiel zwischen 2011 und 2020 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück. Im Vergleich zum Jahr 2019 hat die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und der Nordwestschweiz sowie der übrigen Schweiz zugenommen, während die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und dem Ausland zurückgegangen ist.",
+		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Zwischen 2012 und 2020 war er stets positiv und ging insbesondere auf die Zuwanderung aus dem Ausland zurück.  Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
