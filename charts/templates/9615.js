@@ -38,22 +38,22 @@
   },
   series: [
     {
-      color:  "#A8C3CA"
+      color:  "#FF8028"
     },
 	  {
-      color:  "#689199"
+      color:  "#DC440E"
     },
     {
-      color: "#246370"
+      color: "#B375AB"
     },
     {
-      color:"#FFDA80"
+      color:"#662673"
     },
     {
-      color:"#FABD24"
+      color:"#67401E"
     },
     {
-      color:"#CD9C00"
+      color:"#3C3C3C"
     }
   ],
   chart: {    

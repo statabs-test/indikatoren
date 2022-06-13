@@ -38,34 +38,34 @@
   },
   series: [
     {
-      color: "#D3E2E4",
+      color: "#FF8028",
     },
     {
-      color: "#A8C3CA",
+      color: "#DC440E",
     },
     {
-      color:  "#689199",
+      color:  "#B00000",
     },
 	  {
-      color:  "#246370",  
+      color:  "#B375AB",  
     },
     {
-      color: "#FF8028", 
+      color: "#662673", 
     },
     {
-      color:"#DC440E", 
+      color:"#83038", 
     },
     {
-      color:"#B00000",
+      color:"#73B97C",
     },
     {
-      color:"#E7CEE2",
+      color:"#68AB2B",
     },
     {
-      color:"#B375AB",
+      color:"#9E7C59",
     },
     {
-      color:"#923F8D",
+      color:"#C4AB91",
     }
   ],
   chart: {    

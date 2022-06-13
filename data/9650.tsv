@@ -1,4 +1,4 @@
-﻿"Verbrauchergruppe"	"Abfall"	"Elektrizität"	"Erdgas"	"Fernwärme"	"Heizöl"	"Holz"	"Thermische Solarenergie"	"Umweltwärme"	"Benzin"	"Diesel"
-Wohnen		365.523263	435.725137	502.209179	137.09602988	12.440076	12.1216081	18.673948		
-Nichtwohnen	61.45541111	759.161443	759.228486	467.302736	54.31875584	3.084309	1.3753545	8.544597		
-Verkehr		1.452789	12.245766						224.836548	313.336111
+﻿"Verbrauchergruppe"	"Heizöl"	"Erdgas"	"Abfall"	"Elektrizität"	"Fernwärme"	"Holz"	"Thermische Solarenergie"	"Umweltwärme"	"Benzin"	"Diesel"
+Wohnen	137.09602988	435.725137		365.523263	502.209179	12.440076	12.1216081	18.673948		
+Nichtwohnen	54.31875584	759.228486	61.45541111	759.161443	467.302736	3.084309	1.3753545	8.544597		
+Verkehr		12.245766		1.452789					224.836548	313.336111

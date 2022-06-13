@@ -48,19 +48,19 @@
     ],
     series: [
       {
-        color: "#A8C3CA",
+        color: "#FF8028",
         type: "column"
       }, 
       {
-        color: "#246370",
+        color: "#DC440E",
         type: "column"
       },
       {
-        color: "#FFDA80",
+        color: "#9E7C59",
         type: "column"
       },
       {
-        color: "#CD9C00",
+        color: "#C4AB91",
         type: "column",
         tooltip: {
           pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b>%<br/>',

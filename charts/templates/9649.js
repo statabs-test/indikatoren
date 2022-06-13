@@ -48,31 +48,31 @@
     ],
     series: [
       {
-        color: "#D3E2E4",
+        color: "#FF8028",
         type: "column"
       }, 
       {
-        color: "#689199",
+        color: "#DC440E",
         type: "column"
       },
       {
-        color: "#083038",
+        color: "#B00000",
         type: "column"
       },
       {
-        color: "#FABD24",
+        color: "#B375AB",
         type: "column"
       },
       {
-        color: "#7F5F1A",
+        color: "#83038",
         type: "column"
       },
       {
-        color: "#E7CEE2",
+        color: "#68AB2B",
         type: "column"
       },
       {
-        color: "#923F8D",
+        color: "#3C3C3C",
         type: "column"
       },
       {

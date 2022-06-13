@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#B375AB",
       "type": "column",
       "data": [
         [
@@ -33,7 +33,39 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
+      "type": "column",
+      "data": [
+        [
+          "2010",
+          210.2
+        ],
+        [
+          "2012",
+          260.3
+        ],
+        [
+          "2014",
+          282.55
+        ],
+        [
+          "2016",
+          279.136815
+        ],
+        [
+          "2018",
+          251.1643
+        ],
+        [
+          "2020",
+          283
+        ]
+      ],
+      "name": "Wasserkraft",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
       "type": "column",
       "data": [
         [
@@ -65,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#73B97C",
       "type": "column",
       "data": [
         [
@@ -94,38 +126,6 @@
         ]
       ],
       "name": "Thermische Erzeugung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#CD9C00",
-      "type": "column",
-      "data": [
-        [
-          "2010",
-          210.2
-        ],
-        [
-          "2012",
-          260.3
-        ],
-        [
-          "2014",
-          282.55
-        ],
-        [
-          "2016",
-          279.136815
-        ],
-        [
-          "2018",
-          251.1643
-        ],
-        [
-          "2020",
-          283
-        ]
-      ],
-      "name": "Wasserkraft",
       "turboThreshold": 0
     },
     {
@@ -164,7 +164,7 @@
           32.982863874
         ]
       ],
-      "name": "Anteil am Endenergieverbrauch (rechte Skala)",
+      "name": "Anteil Elektrizität am Endenergieverbrauch (rechte Skala)",
       "turboThreshold": 0
     }
   ],

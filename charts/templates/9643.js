@@ -37,13 +37,13 @@
   },
   series: [
     {
-      color:  "#A8C3CA"
+      color:  "#FFDA80"
     },
 	  {
-      color:  "#689199"
+      color:  "#FABD24"
     },
     {
-      color: "#246370"
+      color: "#CD9C00"
     }/*,
     {
       color: "#B375AB",

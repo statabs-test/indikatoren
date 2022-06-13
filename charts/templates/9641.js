@@ -48,19 +48,19 @@
     ],
     series: [
       {
-        color: "#A8C3CA",
+        color: "#B375AB",
         type: "column"
       }, 
       {
-        color: "#246370",
+        color: "#689199",
         type: "column"
       },
       {
-        color: "#FFDA80",
+        color: "#D7E8D2",
         type: "column"
       },
       {
-        color: "#CD9C00",
+        color: "#73B97C",
         type: "column"
       },
       {

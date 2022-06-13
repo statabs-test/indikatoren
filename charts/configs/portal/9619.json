@@ -1,82 +1,6 @@
 {
   "series": [
     {
-      "color": "#D3E2E4",
-      "data": [
-        [
-          "Wohnen",
-          null
-        ],
-        [
-          "Nichtwohnen",
-          61.45541111
-        ],
-        [
-          "Verkehr",
-          null
-        ]
-      ],
-      "name": "Abfall",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#A8C3CA",
-      "data": [
-        [
-          "Wohnen",
-          365.523263
-        ],
-        [
-          "Nichtwohnen",
-          759.161443
-        ],
-        [
-          "Verkehr",
-          1.452789
-        ]
-      ],
-      "name": "Elektrizität",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Wohnen",
-          435.725137
-        ],
-        [
-          "Nichtwohnen",
-          759.228486
-        ],
-        [
-          "Verkehr",
-          12.245766
-        ]
-      ],
-      "name": "Erdgas",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "Wohnen",
-          502.209179
-        ],
-        [
-          "Nichtwohnen",
-          467.302736
-        ],
-        [
-          "Verkehr",
-          null
-        ]
-      ],
-      "name": "Fernwärme",
-      "turboThreshold": 0
-    },
-    {
       "color": "#FF8028",
       "data": [
         [
@@ -100,6 +24,82 @@
       "data": [
         [
           "Wohnen",
+          435.725137
+        ],
+        [
+          "Nichtwohnen",
+          759.228486
+        ],
+        [
+          "Verkehr",
+          12.245766
+        ]
+      ],
+      "name": "Erdgas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "Wohnen",
+          null
+        ],
+        [
+          "Nichtwohnen",
+          61.45541111
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Abfall",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "Wohnen",
+          365.523263
+        ],
+        [
+          "Nichtwohnen",
+          759.161443
+        ],
+        [
+          "Verkehr",
+          1.452789
+        ]
+      ],
+      "name": "Elektrizität",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "Wohnen",
+          502.209179
+        ],
+        [
+          "Nichtwohnen",
+          467.302736
+        ],
+        [
+          "Verkehr",
+          null
+        ]
+      ],
+      "name": "Fernwärme",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#83038",
+      "data": [
+        [
+          "Wohnen",
           12.440076
         ],
         [
@@ -115,7 +115,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#73B97C",
       "data": [
         [
           "Wohnen",
@@ -134,7 +134,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
+      "color": "#68AB2B",
       "data": [
         [
           "Wohnen",
@@ -153,7 +153,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#9E7C59",
       "data": [
         [
           "Wohnen",
@@ -172,7 +172,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923F8D",
+      "color": "#C4AB91",
       "data": [
         [
           "Wohnen",

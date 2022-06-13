@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#FF8028",
       "data": [
         [
           "2010",
@@ -32,7 +32,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#DC440E",
       "data": [
         [
           "2010",
@@ -63,38 +63,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
-      "data": [
-        [
-          "2010",
-          1254.7354266
-        ],
-        [
-          "2012",
-          1121.695894
-        ],
-        [
-          "2014",
-          978.378343
-        ],
-        [
-          "2016",
-          974.612639
-        ],
-        [
-          "2018",
-          912.029764
-        ],
-        [
-          "2020",
-          875.1703953
-        ]
-      ],
-      "name": "Elektrizität (Bezug ausserkantonal)",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
+      "color": "#B00000",
       "data": [
         [
           "2010",
@@ -125,7 +94,38 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#B375AB",
+      "data": [
+        [
+          "2010",
+          1254.7354266
+        ],
+        [
+          "2012",
+          1121.695894
+        ],
+        [
+          "2014",
+          978.378343
+        ],
+        [
+          "2016",
+          974.612639
+        ],
+        [
+          "2018",
+          912.029764
+        ],
+        [
+          "2020",
+          875.1703953
+        ]
+      ],
+      "name": "Elektrizität (Bezug ausserkantonal)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
       "data": [
         [
           "2010",
@@ -156,7 +156,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#'67401E",
       "data": [
         [
           "2010",
@@ -187,7 +187,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#661200",
+      "color": "#007A2F",
       "data": [
         [
           "2010",
@@ -214,7 +214,7 @@
           1087.7475305
         ]
       ],
-      "name": "Erneuerbare (ohne ausserkantonalen Elektrizitätsbezug)",
+      "name": "Erneuerbare",
       "turboThreshold": 0
     }
   ],

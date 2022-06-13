@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#FF8028",
       "data": [
         [
           "2010",
@@ -32,7 +32,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#DC440E",
       "data": [
         [
           "2010",
@@ -63,7 +63,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#B375AB",
       "data": [
         [
           "2010",
@@ -94,7 +94,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#662673",
       "data": [
         [
           "2010",
@@ -125,7 +125,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#67401E",
       "data": [
         [
           "2010",
@@ -156,7 +156,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
+      "color": "#3C3C3C",
       "data": [
         [
           "2010",
@@ -323,7 +323,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9615"
