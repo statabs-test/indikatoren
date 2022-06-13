@@ -1071,10 +1071,7 @@
         "fontSize": "11px"
       },
       "step": 1,
-      "rotation": -45,
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
+      "rotation": -45
     },
     "tickInterval": 1
   },
@@ -1162,7 +1159,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 500
+    "tickInterval": 2000
   },
   "legend": {
     "symbolRadius": 0,
