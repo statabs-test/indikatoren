@@ -58,11 +58,11 @@
       {
         color: "#CD9C00",
         type: "column"
-      },
+      }/*,
       {
         color: "#7F5F1A",
         type: "column"
-      }
+      }*/
     ],
     tooltip: {
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>',
