@@ -47,7 +47,7 @@
       color:  "#689199"  
     },
     {
-      color: "#83038"
+      color: "#2F656B"
     },
     {
       color:"#D7E8D2"

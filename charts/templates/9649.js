@@ -64,7 +64,7 @@
         type: "column"
       },
       {
-        color: "#83038",
+        color: "#2F656B",
         type: "column"
       },
       {

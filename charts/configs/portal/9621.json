@@ -1,220 +1,131 @@
 {
   "series": [
     {
-      "color": "#D3E2E4",
+      "color": "#FFDA80",
+      "type": "column",
       "data": [
         [
           "2010",
-          7.35138
+          253899.47986
         ],
         [
           "2012",
-          7.50696
+          190300.60951
         ],
         [
           "2014",
-          7.51254
+          140867.71658
         ],
         [
           "2016",
-          31.0744
+          134601.29099
         ],
         [
           "2018",
-          34.01
+          39568.91825
         ],
         [
           "2020",
-          27.559384
+          132102.35516
         ]
       ],
-      "name": "Biogas",
+      "name": "Wohnen",
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#FABD24",
+      "type": "column",
       "data": [
         [
           "2010",
-          350.623931
+          269177.41535
         ],
         [
           "2012",
-          365.71107765
+          296902.05227
         ],
         [
           "2014",
-          372.01287765
+          254792.9166
         ],
         [
           "2016",
-          377.481412
+          245481.82917
         ],
         [
           "2018",
-          380.375647
+          37629.2986
         ],
         [
           "2020",
-          361.70347
+          190130.93567
         ]
       ],
-      "name": "Kehricht und Klärschlamm (vollständig erneuerbar)",
+      "name": "Nichtwohnen",
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#CD9C00",
+      "type": "column",
       "data": [
         [
           "2010",
-          210.2
+          216674.94744
         ],
         [
           "2012",
-          260.3
+          201350.29601
         ],
         [
           "2014",
-          282.55
+          204406.94145
         ],
         [
           "2016",
-          279.136815
+          204334.64087
         ],
         [
           "2018",
-          251.1643
+          201597.45844
         ],
         [
           "2020",
-          283
+          143013.01412
         ]
       ],
-      "name": "Wasserkraft",
+      "name": "Verkehr",
       "turboThreshold": 0
     },
     {
-      "color": "#2F656B",
+      "color": "#7F5F1A",
+      "type": "column",
       "data": [
         [
           "2010",
-          147.0414
+          237.31494
         ],
         [
           "2012",
-          149.580497
+          0
         ],
         [
           "2014",
-          176.54832006
+          164454.89411
         ],
         [
           "2016",
-          210.71802892
+          157207.3479
         ],
         [
           "2018",
-          198.49612722
+          422455.38645
         ],
         [
           "2020",
-          323.48253908
+          152881.7658
         ]
       ],
-      "name": "Holz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D7E8D2",
-      "data": [
-        [
-          "2010",
-          3.4
-        ],
-        [
-          "2012",
-          6
-        ],
-        [
-          "2014",
-          13.101795
-        ],
-        [
-          "2016",
-          20.858757
-        ],
-        [
-          "2018",
-          22.660303
-        ],
-        [
-          "2020",
-          26.104851
-        ]
-      ],
-      "name": "Fotovoltaik",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "2010",
-          7.1650033
-        ],
-        [
-          "2012",
-          9.2759643
-        ],
-        [
-          "2014",
-          11.853544
-        ],
-        [
-          "2016",
-          14.71428493
-        ],
-        [
-          "2018",
-          20.12082614
-        ],
-        [
-          "2020",
-          20.8669364
-        ]
-      ],
-      "name": "Thermische Solarenergie",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68AB2B",
-      "data": [
-        [
-          "2010",
-          15.012
-        ],
-        [
-          "2012",
-          20.4
-        ],
-        [
-          "2014",
-          26.156424
-        ],
-        [
-          "2016",
-          36.367959
-        ],
-        [
-          "2018",
-          36.273073
-        ],
-        [
-          "2020",
-          45.03035
-        ]
-      ],
-      "name": "Umweltwärme",
+      "name": "Nicht aufgeteilt",
       "turboThreshold": 0
     }
   ],
@@ -269,18 +180,19 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9614",
+    "renderTo": "container-9621",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "stacking": "normal"
+      "pointWidth": 30,
+      "stacking": "true"
     }
   },
   "title": {
@@ -290,10 +202,11 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bruttoenergieverbrauch Erneuerbare"
+    "useHTML": true,
+    "text": "CO\u003Csub\u003E2 \u003C\u002Fsub\u003E Emissionen nach Verbrauchergruppe"
   },
   "subtitle": {
-    "text": "in GWh, Basel-Stadt",
+    "text": "in Tonnen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -301,34 +214,50 @@
       "color": "#000000"
     }
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "title": {
+        "text": null
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
       },
-      "format": "{value:,.0f}"
+      "min": 0,
+      "tickAmount": 4
     },
-    "reversedStacks": true
-  },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "tickAmount": 4,
+      "opposite": true
+    }
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
+    "useHTML": true,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemWidth": 150,
+    "width": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -352,10 +281,11 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "shared": true,
+    "useHTML": true
   },
   "exporting": {
-    "filename": "9614"
+    "filename": "9621"
   }
 }
