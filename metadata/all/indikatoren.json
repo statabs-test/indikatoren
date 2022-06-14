@@ -72169,7 +72169,7 @@
 		],
 		"title": "Bruttoenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um gut 22% zurück auf 4 473 GWh im Jahr 2020. Neben dem Rückgang beim Heizöl von 54% ist in diesem Zeitraum auch der Erdgasverbrauch um rund 34% zurückgegangen. Der ausserkantonale Bezug von Elektrizität ist um rund 28% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-15%), da die im Kanton produzierte Elektrizitätsmenge gesteigert werden konnte. Seit 2010 um 48% gestiegen ist der Bruttoenergieverbrauch der erneuerbaren Energien.",
+		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um gut 22% zurück auf 4 473 GWh im Jahr 2020. Neben dem Rückgang beim Heizöl von 54% ist in diesem Zeitraum auch der Erdgasverbrauch um rund 34% zurückgegangen. Der ausserkantonale Bezug von Elektrizität (alles erneuerbar) ist um rund 28% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-15%). Seit 2010 um 48% gestiegen ist der Bruttoenergieverbrauch der erneuerbaren Energien, die im Kanton produziert werden. Der Anteil der erneuerbaren Energien liegt 2022 insgesamt bei 44,4%.",
 		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. Die im Kanton gewonnenen Erneuerbaren (entsprechend ohne importierte Elektrizität) sind in einer Kategorie zusammengefasst und umfassen auch den erneuerbaren Teil des Abfalls (50% des Kehrichts und Klärschlamm). Der nicht erneuerbare Anteil des Abfalls (50% des Kehrichts und Industrieabfall) ist separat aufgelistet.<br><br>Der Treibstoffverbrauch wurde aufgrund des aktualisierten Gesamtverkehrsmodell Basel-Stadt berechnet, welches von tieferen Verkehrsleistungen ausgeht. Die neue Datengrundlage führt zu einem methodischen Bruch und ist für einen Grossteil der Reduktion der Treibstoffmengen verantwortlich. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -72212,7 +72212,7 @@
 		],
 		"title": "Elektrizitätsverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Elektrizitätsverbrauch ging zwischen 2010 und 2020 um 15% von 1 628 GWh auf 1 378 GWh zurück. Während der ausserkantonale Bezug (-28%) in diesem Zeitraum zurückgegangen ist, haben Wasserkraft (35%), die thermische Erzeugung (7%) und die Fotovoltaik (668%, auf tiefem Niveau) zum Teil stark zugenommen. Der ausserkantonale Bezug macht 2020 immer noch rund zwei Drittel des Elektrizitätsverbrauch aus. Der Anteil Elektrizität am Endenergieverbrauch stieg zwischen 2010 und 2020 von 29% auf 33%.",
+		"lesehilfe": "Der Elektrizitätsverbrauch ging zwischen 2010 und 2020 um 15% von 1 628 GWh auf 1 378 GWh zurück. Während der ausserkantonale Bezug (-28%) in diesem Zeitraum zurückgegangen ist, haben Wasserkraft (35%), die thermische Erzeugung (7%) und die Photovoltaik (668%, auf tiefem Niveau) zum Teil stark zugenommen. Der ausserkantonale Bezug macht 2020 immer noch rund zwei Drittel des Elektrizitätsverbrauch aus. Der Anteil Elektrizität am Endenergieverbrauch stieg zwischen 2010 und 2020 von 29% auf 33%.",
 		"erlaeuterungen": "Unter den ausserkantonalen Bezug von Elektrizität fällt der Import von Mengen aus Schweizer Wasserkraftwerken, Wind- und Sonnenenergie sowie Biomasse. Auch ausserkantonal bezogene Elektrizität muss seit 2017 erneuerbar sein. Unter thermische Erzeugung fällt die Stromnebenproduktion im Rahmen der Fernwärme (Erdgas, KVA, Holz).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -80624,8 +80624,8 @@
 		],
 		"title": "Bruttoenergieverbrauch Erneuerbare",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2020 von 741 GWh auf 1 088 GWh zugenommen, was einem Plus von 46% entspricht. Eine starke Zunahme ist beim Holz mit 120% zu verzeichnen, was auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurück zu führen ist. Um 34% angestiegen ist auch die Produktion der Wasserkraft, welche infolge tiefer Pegelstände im 2018 deutlich tiefer lag. Starke Zunahmen, allerdings auf sehr tiefem Niveau, sind auch bei der Fotovoltaik (+668%) der Umweltwärme (+274%) und der thermischen Solarenergie (+191%) zu beobachten.",
-		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. In diesem Indikator wird der Bruttoenergieverbrauch der Erneuerbaren gezeigt, die im Kanton gewonnen wurden, also ohne allfälligen Import von Erneuerbaren in den Kanton, insbesondere den ausserkantonalen Bezug von Elektrizität.",
+		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2020 von 741 GWh auf 1 088 GWh zugenommen, was einem Plus von 46% entspricht. Eine starke Zunahme ist beim Holz mit 120% zu verzeichnen, was auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurück zu führen ist. Um 34% angestiegen ist auch die Produktion der Wasserkraft, welche infolge tiefer Pegelstände im 2018 deutlich tiefer lag. Starke Zunahmen, allerdings auf sehr tiefem Niveau, sind auch bei der Photovoltaik (+668%) der Umweltwärme (+274%) und der thermischen Solarenergie (+191%) zu beobachten.",
+		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. In diesem Indikator wird der Bruttoenergieverbrauch der Erneuerbaren gezeigt, die im Kanton gewonnen wurden, also ohne Import von Erneuerbaren in den Kanton, insbesondere den ausserkantonalen Bezug von Elektrizität.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -80664,7 +80664,7 @@
 		],
 		"title": "Endenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2020 von 5 572 GWh rund 26% auf 4 127 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 61% zurückgegangen, die Menge des Erdgases um 45%. Auch die beim Endverbraucher verwendete Elektrizität sank um 15%. Der Verbrauch von Fern- und Nahwärme ist leicht gestiegen. Der Verbrauch der Treibstoffe reduzierte sich um 34%. Unter der Rubrik Sonstige haben vor allem Holz (neues Holzheizkraftwerk), Umweltwärme und PV zugenommen.",
+		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2020 von 5 572 GWh um rund 26% auf 4 127 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 61% zurückgegangen, die Menge des Erdgases um 45%. Auch die beim Endverbraucher verwendete Elektrizität sank um 15%. Der Verbrauch von Fern- und Nahwärme ist leicht gestiegen. Der Verbrauch der Treibstoffe reduzierte sich um 34%. Unter der Rubrik Sonstiges haben vor allem Holz (neues Holzheizkraftwerk), Umweltwärme und PV zugenommen.",
 		"erlaeuterungen": "Der Endenergieverbrauch bildet die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen infolge der Umwandlung in Elektrizität und Fernwärme innerhalb des Kantons.<br><br>In der Kategorie Sonstiges sind die Endverbräuche von Abfall, Holz, Biogas, thermischer Solarenergie und Umweltwärme zusammengefasst.<br><br>Der Treibstoffverbrauch wurde aufgrund des aktualisierten Gesamtverkehrsmodell Basel-Stadt berechnet, welches von tieferen Verkehrsleistungen ausgeht. Die neue Datengrundlage führt zu einem methodischen Bruch und ist für einen Grossteil der Reduktion der Treibstoffmengen verantwortlich. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtig",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -80745,7 +80745,7 @@
 		"title": "Fernwärmeverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
 		"lesehilfe": "Für die Fernwärmeproduktion wurde 2020 eine Bruttoenergie von 1 504 GWh verwendet (2010: 1 412 GWh). 44,5% davon wurden durch Abfallverbrennung, 33,5% durch den Einsatz von Erdgas und 16,5% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen sind Heizöl (3,7%), Umweltwärme (1,2%) sowie Elektrizität (0,3%). Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 28,8% aus.",
-		"erlaeuterungen": "Es handelt sich hierbei um die in den Kraftwerken und Wärmeverbünden der Industriellen Werke Basel (IWB) produzierte Wärme sowie der erzeugten Mengen in weiteren Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob  Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
+		"erlaeuterungen": "5-3: Es handelt sich hierbei um die in den Kraftwerken und Wärmeverbünden der Industriellen Werke Basel (IWB) produzierte Wärme sowie der erzeugten Mengen in weiteren Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -80854,46 +80854,6 @@
 		"id": 9620
 	},
 	{
-		"template": "template001",
-		"data-id": 9621,
-		"chart-id": 9621,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9652
-		],
-		"title": "CO<sub>2 </sub> Emissionen nach Verbrauchergruppe",
-		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Lesehilfe",
-		"erlaeuterungen": "Es sind CO2-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält werden 50% der CO2-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Auch Klärschlamm wird als biogen taxiert; demzufolge bleiben die entsprechenden CO2-Emissionen ebenfalls unberücksichtigt. Ebenso nicht berücksichtigt sind CO2-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "CO<sub>2 </sub> Emissionen nach Verbrauchergruppe",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kuerzel": "I.08.1.09621",
-		"kennzahlenset": "Energiestatistik",
-		"kuerzelKunde": "4.2",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_011",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-02T11:35:00",
-		"id": 9621
-	},
-	{
 		"template": "stock001",
 		"data-id": 9622,
 		"chart-id": 9622,
@@ -80984,8 +80944,8 @@
 		],
 		"title": "Veränderung der Energiebezugsfläche",
 		"subtitle": "in Quadratmeter, Basel-Stadt",
-		"lesehilfe": "Im Vergleich zu 2012 (früheste Datenverfügbarkeit) ist die Energiebezugsfläche im Kanton bis 2020 um rund 693 000 Quadratmeter im Bereich Wohnen und um rund 370 000 Quadratmeter im Bereich Nichtwohnen angestiegen. Insgesamt resultierte in jedem Jahr seit 2012 ein Anstieg der gesamten Energiebezugsfläche.",
-		"erlaeuterungen": "Bei der Energiebezugsfläche handelt es sich um die Fläche, die von einer Anlage beheizt wird. Ermittelt wird diese in der Regel durch Multiplikation der Gebäudegrundfläche mit der Anzahl oberirdischen Stockwerken.",
+		"lesehilfe": "Ein positiver Saldo der Energiebezugsfläche resultiert, wenn im Vergleich zum Vorjahr mehr Fläche dazugekommen ist als abgrochen wurde. Im Vergleich zu 2012 ist die Energiebezugsfläche im Kanton bis 2020 um rund 693 000 Quadratmeter im Bereich Wohnen und um rund 370 000 Quadratmeter im Bereich Nichtwohnen angestiegen. Insgesamt resultierte in jedem Jahr seit 2012 ein Anstieg der gesamten Energiebezugsfläche.",
+		"erlaeuterungen": "Bei der Energiebezugsfläche handelt es sich um die Fläche, die von einer Anlage beheizt wird. Ermittelt wird diese in der Regel durch Multiplikation der Gebäudegrundfläche mit der Anzahl oberirdischen Stockwerken. Erste verlässliche Zahlen sind für das Jahr 2012 verfügbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -81142,8 +81102,8 @@
 		"children": [],
 		"title": "Bruttoenergieverbrauch Erneuerbare",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2020 von 741 GWh auf 1 088 GWh zugenommen, was einem Plus von 46% entspricht. Eine starke Zunahme ist beim Holz mit 120% zu verzeichnen, was auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurück zu führen ist. Um 34% angestiegen ist auch die Produktion der Wasserkraft, welche infolge tiefer Pegelstände im 2018 deutlich tiefer lag. Starke Zunahmen, allerdings auf sehr tiefem Niveau, sind auch bei der Fotovoltaik (+668%) der Umweltwärme (+274%) und der thermischen Solarenergie (+191%) zu beobachten.",
-		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. In diesem Indikator wird der Bruttoenergieverbrauch der Erneuerbaren gezeigt, die im Kanton gewonnen wurden, also ohne allfälligen Import von Erneuerbaren in den Kanton, insbesondere den ausserkantonalen Bezug von Elektrizität.",
+		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2020 von 741 GWh auf 1 088 GWh zugenommen, was einem Plus von 46% entspricht. Eine starke Zunahme ist beim Holz mit 120% zu verzeichnen, was auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurück zu führen ist. Um 34% angestiegen ist auch die Produktion der Wasserkraft, welche infolge tiefer Pegelstände im 2018 deutlich tiefer lag. Starke Zunahmen, allerdings auf sehr tiefem Niveau, sind auch bei der Photovoltaik (+668%) der Umweltwärme (+274%) und der thermischen Solarenergie (+191%) zu beobachten.",
+		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. In diesem Indikator wird der Bruttoenergieverbrauch der Erneuerbaren gezeigt, die im Kanton gewonnen wurden, also ohne Import von Erneuerbaren in den Kanton, insbesondere den ausserkantonalen Bezug von Elektrizität.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -81257,7 +81217,7 @@
 		"title": "Fernwärmeverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
 		"lesehilfe": "Für die Fernwärmeproduktion wurde 2020 eine Bruttoenergie von 1 504 GWh verwendet (2010: 1 412 GWh). 44,5% davon wurden durch Abfallverbrennung, 33,5% durch den Einsatz von Erdgas und 16,5% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen sind Heizöl (3,7%), Umweltwärme (1,2%) sowie Elektrizität (0,3%). Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 28,8% aus.",
-		"erlaeuterungen": "Es handelt sich hierbei um die in den Kraftwerken und Wärmeverbünden der Industriellen Werke Basel (IWB) produzierte Wärme sowie der erzeugten Mengen in weiteren Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob  Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
+		"erlaeuterungen": "5-3: Es handelt sich hierbei um die in den Kraftwerken und Wärmeverbünden der Industriellen Werke Basel (IWB) produzierte Wärme sowie der erzeugten Mengen in weiteren Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -81484,8 +81444,8 @@
 		"children": [],
 		"title": "Veränderung der Energiebezugsfläche",
 		"subtitle": "in Quadratmeter, Basel-Stadt",
-		"lesehilfe": "Im Vergleich zu 2012 (früheste Datenverfügbarkeit) ist die Energiebezugsfläche im Kanton bis 2020 um rund 693 000 Quadratmeter im Bereich Wohnen und um rund 370 000 Quadratmeter im Bereich Nichtwohnen angestiegen. Insgesamt resultierte in jedem Jahr seit 2012 ein Anstieg der gesamten Energiebezugsfläche.",
-		"erlaeuterungen": "Bei der Energiebezugsfläche handelt es sich um die Fläche, die von einer Anlage beheizt wird. Ermittelt wird diese in der Regel durch Multiplikation der Gebäudegrundfläche mit der Anzahl oberirdischen Stockwerken.",
+		"lesehilfe": "Im Vergleich zu 2012 ist die Energiebezugsfläche im Kanton bis 2020 um rund 693 000 Quadratmeter im Bereich Wohnen und um rund 370 000 Quadratmeter im Bereich Nichtwohnen angestiegen. Insgesamt resultierte in jedem Jahr seit 2012 ein Anstieg der gesamten Energiebezugsfläche.",
+		"erlaeuterungen": "Bei der Energiebezugsfläche handelt es sich um die Fläche, die von einer Anlage beheizt wird. Ermittelt wird diese in der Regel durch Multiplikation der Gebäudegrundfläche mit der Anzahl oberirdischen Stockwerken. Erste verlässliche Zahlen sind für das Jahr 2012 verfügbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],

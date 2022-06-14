@@ -2129,7 +2129,6 @@ id | visible | visibleInPortal | indikatorenset
 9618 | true | true | Energiestatistik
 9619 | true | true | Energiestatistik
 9620 | true | true | Energiestatistik
-9621 | true | true | Energiestatistik
 9622 | true | true | Energiestatistik
 9623 | true | true | Energiestatistik
 9624 | true | true | Energiestatistik
