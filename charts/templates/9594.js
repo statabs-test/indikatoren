@@ -69,7 +69,12 @@
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
-  },   
+  },  
+  {"color": "#000000", "yAxis": 0, "type": "line", dashStyle: 'Dash', marker:{enabled: false},
+  tooltip: {
+  pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+},  
+},   
   ],
   "legend": {
     "enabled": true,
