@@ -115,7 +115,8 @@
     chart: {
       //"marginBottom": 75,
       //"marginTop": 75,
-      type: "column"
+      type: "column",
+      width: 665
     }
   };
 }());

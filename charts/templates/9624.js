@@ -23,7 +23,7 @@ plotOptions: {
   "labels": {
     "format": "{value:,.0f}",
   },
-  //max: 250000,
+  //max: 300000,
   min: -100000
 },
 xAxis: {

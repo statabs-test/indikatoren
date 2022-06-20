@@ -23,8 +23,9 @@ plotOptions: {
   "labels": {
     "format": "{value:,.0f}",
   },
-  max: 250000,
-  min: -100000
+  max: 300000,
+  min: -100000,
+  tickAmount: 4
 },
 xAxis: {
   type: "category", /* muss "category" sein, sonst funktioniert es nicht richtig */
@@ -79,6 +80,11 @@ series: [
   color: "#CD9C00",
   type: "line",
   stack: 2
+},
+{
+  color: "#3C3C3C",
+  type: "line",
+  stack: 3
 },
 
 ],  
