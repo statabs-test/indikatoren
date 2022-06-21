@@ -4,6 +4,7 @@
       tickInterval: 10,
       labels: {
         x: -7,
+        y: 3
       }
     },
 
@@ -46,6 +47,7 @@
     },
     "chart": {
       inverted: false,
+      marginTop: 5,
       events: {
         load: function () {
           //draw lines between stacks of stacked columns
