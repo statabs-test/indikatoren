@@ -1,4 +1,4 @@
-﻿"Verbrauchergruppe"	"Heizöl"	"Erdgas"	"Abfall"	"Elektrizität"	"Fernwärme"	"Holz"	"Thermische Solarenergie"	"Umweltwärme"	"Benzin"	"Diesel"
-Wohnen	137.09602988	435.725137		365.523263	502.209179	12.440076	12.1216081	18.673948		
-Nichtwohnen	54.31875584	759.228486	61.45541111	759.161443	467.302736	3.084309	1.3753545	8.544597		
-Verkehr		12.245766		1.452789					224.836548	313.336111
+﻿"NAME OF FORMER VARIABLE"	"Heizöl"	"Erdgas"	"Abfall"	"Elektrizität"	"Fernwärme"	"Holz"	"Thermische Solarenergie"	"Umweltwärme"	"Benzin"	"Diesel"
+Wohnen	147.39348956	208.39563891		428.15855228	561.17239609	21.918932864	18.75458452	18.673948		
+Nichtwohnen	58.323323495	481.38132166	61.45541111	839.43324228	519.59087191	5.454023216	2.11235188	8.544597		
+Verkehr		12.245766		42.7671395					224.836548	313.336111
