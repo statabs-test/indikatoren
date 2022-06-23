@@ -81575,7 +81575,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
 		"subtitle": "Durchschnittliche Einfahrten pro Tag",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Durchschnittlich 4 896 Einfahrten pro Tag wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen registriert. Am meisten Einfahrten wurden mit 1 618 pro Tag im Parkhaus City gezählt.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
