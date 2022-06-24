@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Zusammensetzung der Gesamteinnahmen",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Die Gesamteinnahmen des Kantons betragen über den betrachteten Zeitraum zwischen knapp 4 Mrd. und 5 Mrd. Franken. Seit dem Jahr 2012 sind die Werte nach dem neuen Rechnungslegungsmodell HRM2 dargestellt. Dies erschwert einen Vergleich mit den Vorjahren. Im Kalenderjahr 2019 beträgt der Ertrag aus Einkommens- und Vermögenssteuern rund 1,8 Mrd. Franken (+0,3% gegenüber dem Vorjahr), der Anteil am Gesamtertrag beträgt 36,3%. Die Gewinn- und Kapitalsteuern belaufen sich 2019 auf rund 1,1 Mrd. Franken (+44,3% gegenüber 2018), der Anteil liegt bei 22,2%. Zusammen beträgt der Anteil der aufgeführten Steuerarten im Jahr 2019 58,5% des gesamten Ertrags des Kantons. Der Ertrag aus Quellensteuer ist zum Teil in der Kategorie Übriges und zum Teil in der Kategorie Einkommens- und Vermögenssteuern enthalten.",
+		"lesehilfe": "Die Gesamteinnahmen des Kantons betragen über den betrachteten Zeitraum zwischen knapp 4 Mrd. und 5 Mrd. Franken. Die Werte sind dem Jahresbericht des Kantons entommen und nach dem Mittelfluss pro Kalenderjahr dargestellt (zum Beispiel unabhängig davon, für welches Steuerjahr genau bezahlt wurde; die Daten der im Bericht folgenden Grafiken zur Steuerstatistik beziehen sich hingegen auf das jeweilige Steuerjahr).  Dies erschwert einen Vergleich mit den Vorjahren. Im Kalenderjahr 2019 beträgt der Ertrag aus Einkommens- und Vermögenssteuern rund 1,8 Mrd. Franken (+0,3% gegenüber dem Vorjahr), der Anteil am Gesamtertrag beträgt 36,3%. Die Gewinn- und Kapitalsteuern belaufen sich 2019 auf rund 1,1 Mrd. Franken (+44,3% gegenüber 2018), der Anteil liegt bei 22,2%. Zusammen beträgt der Anteil der aufgeführten Steuerarten im Jahr 2019 58,5% des gesamten Ertrags des Kantons. Der Ertrag aus Quellensteuer ist zum Teil in der Kategorie Übriges und zum Teil in der Kategorie Einkommens- und Vermögenssteuern enthalten.",
 		"erlaeuterungen": "Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, in welchem Jahr die Steuer verbucht oder bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -635,9 +635,9 @@ var indikatorensetData = [
 			9331
 		],
 		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2010 und 2019",
-		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen, 2019 sind dies rund 345 Mio. Franken (+69,3% gegenüber 2010). Der Ertrag der Grenzgänger aus Deutschland u. a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2019 insgesamt 90,4 Mio. Franken (+31,7% gegenüber 2010). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt – der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt (74,0 Mio. Franken, +14,9% gegenüber 2010). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. 2019 betragen sie insgesamt 31,9 Mio. Franken. In den meisten Kategorien hat auch die Anzahl der Veranlagungen seit 2010 stark zugenommen, beispielsweise beim Erwerb von rund 21 200 auf fast 34 300 (+61,7%). Insgesamt beträgt der Quellensteuerertrag 2019 rund 496 Mio. Franken, 65,4% mehr als 2010 und 12,1% mehr als im Jahr 2018.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt.",
+		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
+		"lesehilfe": "Die bedeutendsten Erträge aus Quellenbesteuerung stammen aus Erwerbseinkommen (ohne Grenzgänger), 2020 sind dies rund 384 Mio. Franken (+81,2% gegenüber 2011). Der Ertrag der Grenzgänger aus Deutschland u. a. (einschliesslich einige wenige aus anderen Staaten) beträgt 2020 insgesamt 88,7 Mio. Franken (+18,6% gegenüber 2011). Die meisten Grenzgänger aus Frankreich zahlen keine direkte Quellensteuer in Basel-Stadt. Der Fiskalausgleich, den es aus Frankreich für sie gibt, ist der Vollständigkeit halber aufgeführt. Für das Jahr 2020 liegt er bei 75,6 Mio. Franken, +11,1% gegenüber 2011). Eine gewisse Bedeutung haben auch die Quellensteuererträge, die aufgrund von Kapitalleistungen anfallen. 2020 betragen sie insgesamt 32,1 Mio. Franken. In den meisten Kategorien hat auch die Anzahl der Veranlagungen seit 2011 stark zugenommen, beispielsweise beim Erwerb von rund 23 100 auf 34 300 (+48,5%). Insgesamt beträgt der Quellensteuerertrag 2020 rund 533 Mio. Franken, 69,9% mehr als 2011 und 7,5% mehr als im Jahr 2019.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt. <br>Ausländische Arbeitnehmer und Arbeitnehmerinnen, welche keine Niederlassungsbewilligung besitzen, aber im Kanton Basel-Stadt Wohnsitz haben, unterliegen unter anderem für die Einkünfte aus unselbstständiger Erwerbstätigkeit einem Steuerabzug an der Quelle. Ebenso sind beispielsweise Grenzgänger aus Deutschland quellensteuerpflichtig. Die Quellensteuerauswertungen beinhalten auch den Anteil, der an den Bund fliesst, im Steuerjahr 2020 rund 109 Mio. Franken. <br>Unter anderem werden Quellensteuerpflichtige mit Einkünften von über 120 000 Franken automatisch nachträglich ordentlich veranlagt. Diese sind dann ebenfalls in den Auswertungen der Einkommens- und Vermögenssteuer enthalten (Doppelzählungen); im Steuerjahr 2019 betrifft dies 5 316 Veranlagungen (4,5% der rund 117 000 ordentlichen Veranlagungen), die somit auch in den Auswertungen zur Quellenbesteuerung 2019 enthalten waren.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -651,13 +651,13 @@ var indikatorensetData = [
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.06912",
 		"kennzahlenset": "Steuern",
-		"kuerzelKunde": "4-2",
-		"stufe1": "Quellensteuer",
-		"stufe2": "",
+		"kuerzelKunde": "2.4.2",
+		"stufe1": "2 Kernindikatoren",
+		"stufe2": "2.4 Quellensteuer",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_002",
+		"orderKey": "01_04_00_00_00_402",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
