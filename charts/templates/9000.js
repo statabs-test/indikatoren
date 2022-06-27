@@ -31,7 +31,7 @@
     verticalAlign: "top",
     align: "left",
     alignColumns: false,
-    //itemWidth: 300,
+    itemWidth: 300,
     itemStyle: {
       fontWeight: "normal"
     }
