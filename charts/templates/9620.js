@@ -84,7 +84,8 @@
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Emissionen: <b>{point.total:,.0f}</b> Tonnen',
       shared: true,
       useHTML: true,
-      outside: true
+      outside: true,
+      zIndex: 2000
     },
 
     legend: {
