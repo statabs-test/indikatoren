@@ -93,7 +93,7 @@
           26.104851
         ]
       ],
-      "name": "Fotovoltaik",
+      "name": "Photovoltaik",
       "turboThreshold": 0
     },
     {
@@ -323,7 +323,11 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
     "footerFormat": "Total Enverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
     "shared": true,
-    "useHTML": true
+    "useHTML": true,
+    "outside": true,
+    "style": {
+      "zIndex": 2000
+    }
   },
   "exporting": {
     "filename": "9006"

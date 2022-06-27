@@ -52,35 +52,35 @@
         ],
         [
           "2000",
-          87.190669338
+          86.721761544
         ],
         [
           "2004",
-          71.647346065
+          71.720241529
         ],
         [
           "2010",
-          64.751658275
+          65.465369658
         ],
         [
           "2012",
-          57.999867048
+          59.450547622
         ],
         [
           "2014",
-          50.925848685
+          52.198538041
         ],
         [
           "2016",
-          46.861026853
+          47.851789138
         ],
         [
           "2018",
-          38.673825431
+          40.025511577
         ],
         [
           "2020",
-          36.519529289
+          39.312312897
         ]
       ],
       "name": "kWh pro Franken BIP (1995 = 100%)",
@@ -181,39 +181,39 @@
       "data": [
         [
           "1995",
-          0.2704177541
+          0.2732323435
         ],
         [
           "2000",
-          0.2357790498
+          0.2369519014
         ],
         [
           "2004",
-          0.1937471441
+          0.1959628967
         ],
         [
           "2010",
-          0.1750999801
+          0.1788725637
         ],
         [
           "2012",
-          0.1568419379
+          0.1624381245
         ],
         [
           "2014",
-          0.1377125363
+          0.1426232888
         ],
         [
           "2016",
-          0.1267205364
+          0.1307465649
         ],
         [
           "2018",
-          0.1045808902
+          0.1093626433
         ],
         [
           "2020",
-          0.0987552909
+          0.1074139538
         ]
       ],
       "name": "kWh pro Franken BIP",
@@ -296,7 +296,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -389,9 +389,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
