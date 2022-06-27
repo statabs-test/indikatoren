@@ -85,7 +85,9 @@
       shared: true,
       useHTML: true,
       outside: true,
-      zIndex: 2000
+      style: {
+        zIndex: 2000
+      }
     },
 
     legend: {
