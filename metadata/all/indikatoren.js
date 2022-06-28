@@ -80854,7 +80854,7 @@ var indikatoren = [
 		"id": 9620
 	},
 	{
-		"template": "stock001",
+		"template": "line001",
 		"data-id": 9622,
 		"chart-id": 9622,
 		"filter": "",

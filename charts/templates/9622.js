@@ -1,13 +1,15 @@
 (function () {
   return {
     xAxis: {
-      endOnTick: true,
+      /*endOnTick: true,
       startOnTick: true,
       showFirstLabel: true,
       showLastLabel: true,
       tickInterval: 365 * 24 * 3600 * 1000,
       minTickInterval: 365 * 24 * 3600 * 1000,
-      ordinal: false
+      ordinal: false*/
+      min: 1990,
+      tickInterval: 2,
     },
     yAxis: [
       {
@@ -23,7 +25,7 @@
         title: ""
       },
       {
-       labels: {
+        labels: {
           format: "{value:,.0f}",
           style: {
             "color": "#000000"
@@ -56,29 +58,37 @@
       enabled: true,
       layout: "horizontal",
       verticalAlign: "top",
-      //"itemMarginBottom": 5,
       align: "left",
-      itemStyle: {
-        fontWeight: "normal"
-      }
+      //"itemMarginBottom": 5,
     },
     plotOptions: {
       line: {
         marker: {
-          enabled: false/*,
-        "symbol": "circle",*/
+          enabled: false,
+          "symbol": "circle"
         }
       }
     },
-    data: {
-      //convert year in first column to UTC date to be used by Highstock
-      parsed: function (columns) {
-        columns[0].forEach(function (v, i, a) {
-          columns[0][i] = Date.UTC(columns[0][i]);
-        });
+    navigator: {
+      enabled: true,
+      xAxis: {
+        labels: {
+          formatter: function () {
+            return this.value;
+          }
+        }
       }
     },
-    rangeSelector: {
+    /*    data: {
+          //convert year in first column to UTC date to be used by Highstock
+          parsed: function (columns) {
+            columns[0].forEach(function (v, i, a) {
+              columns[0][i] = Date.UTC(columns[0][i]);
+            });
+          }
+        },*/
+
+    /*rangeSelector: {
       buttons:
         [
           {
@@ -96,6 +106,6 @@
       selected: 0,
       inputDateFormat: '%Y',
       inputEditDateFormat: '%Y'
-    }
+    }*/
   }
 }());
