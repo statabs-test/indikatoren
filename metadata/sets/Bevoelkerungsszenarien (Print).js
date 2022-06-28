@@ -187,7 +187,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_025",
+		"orderKey": "99_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -908,7 +908,7 @@ var indikatorensetData = [
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2021 um 10% auf rund 222 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],

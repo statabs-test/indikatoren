@@ -45407,45 +45407,45 @@
 		"id": 7738
 	},
 	{
+		"template": "template001",
+		"data-id": 7739,
+		"chart-id": 7739,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"9055"
+			9055
 		],
-		"template": "template001",
 		"title": "Geburten",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
-		"kennzahlenset": "Bevoelkerungsszenarien",
-		"kuerzel": "I.01.9.07739",
-		"kuerzelKunde": "5-1",
-		"description": "Geburten",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
+		"lesehilfe": "Die Anzahl Geburten der im Kanton Basel-Stadt wohnhaften Bevölkerung bleibt im Mittleren Szenario relativ konstant und beträgt im Jahr 2045 rund 2 200.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Anzahl Lebendgeburten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-14T09:50:34.3434",
+		"description": "Geburten",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.07739",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"kuerzelKunde": "5-1",
 		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Geburten der im Kanton Basel-Stadt wohnhaften Bevölkerung steigt im Mittleren Szenario zunächst leicht an und beträgt im Jahr 2045 rund 2 200.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Anzahl Lebendgeburten.",
+		"orderKey": "99_00_00_00_00_019",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "99_00_00_00_00_019",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
-		],
-		"data-id": 7739,
-		"chart-id": 7739,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-14T09:50:34",
 		"id": 7739
 	},
 	{
@@ -72383,7 +72383,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_025",
+		"orderKey": "99_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -73123,7 +73123,7 @@
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2022",
 		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2021 um 10% auf rund 222 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2022. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
