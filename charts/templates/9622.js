@@ -40,18 +40,26 @@
     ],
     tooltip: {
       shared: false,
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+      valueSuffix: ' °C',
+      valueDecimals: 2
     },
     series: [
       {
         color: "#DC440E",
-        lineWidth: 1
+        lineWidth: 1,
       },
-      { color: "#B00000" },
+      {
+        color: "#B00000",
+      },
       {
         color: "#689199",
         lineWidth: 1,
-        yAxis: 1
+        yAxis: 1,
+        tooltip: {
+          valueDecimals: 0,
+          valueSuffix: ''
+        }
       },
     ],
     legend: {
