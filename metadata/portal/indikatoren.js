@@ -25922,43 +25922,41 @@ var indikatoren = [
 		"id": 6992
 	},
 	{
+		"template": "line001",
+		"data-id": 6993,
+		"chart-id": 6993,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Mittlere Aufenthaltsdauer in Spitälern",
 		"subtitle": "nach Hauptbereich in Tagen, Basel-Stadt",
-		"kuerzel": "I.14.1.06993",
-		"kuerzelKunde": "",
-		"description": "Mittlere Aufenthaltsdauer in Spitälern",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"lesehilfe": "Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2021: 38,6 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlässt (2021: 6,6 Tage).",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).<br>Seit 2020 werden aufgrund einer geänderten Kodierungsvorgabe die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet. Die Geriatrie wird daher nicht ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:31:01.011",
+		"description": "Mittlere Aufenthaltsdauer in Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06993",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über den gesamten Beobachtungszeitraum wiesen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2019: 38,7 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlassen konnte (2019: 6,5 Tage). Den deutlichsten Rückgang zwischen 2012 und 2019 verzeichnet der Hauptbereich Geriatrie. Hier lag der durchschnittliche Spitalaufenthalt 2019 bei 14,4 Tagen; 2012 betrug er noch 22,1 Tage.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6993,
-		"chart-id": 6993,
-		"filter": "",
+		"aktualisierungsdatum": "2020-08-31T05:31:01",
 		"id": 6993
 	},
 	{

@@ -2140,6 +2140,7 @@ id | visible | visibleInPortal | indikatorenset
 9583 | true | true | Innenstadt - QuiZ
 9584 | true | true | Innenstadt - QuiZ
 9585 | true | true | Innenstadt - QuiZ
+9586 | true | false | Innenstadt - QuiZ
 9587 | true | false | Innenstadt - QuiZ
 9588 | true | true | Innenstadt - QuiZ
 9589 | true | true | Innenstadt - QuiZ
