@@ -106,7 +106,7 @@
       align: "left",
       itemDistance: 5,
       alignColumns: false,
-      //itemWidth: 150,
+      //itemWidth: 180,
       //width: 300,
       itemStyle: {
         fontWeight: "normal",
