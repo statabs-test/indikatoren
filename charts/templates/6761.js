@@ -12,9 +12,9 @@
    },
   "yAxis": {
 	    max: 3500,
-	    tickAmount:11,
+	    tickAmount:9,
 	    tickInterval: 500,
-      min: -1500,
+      min: -3500,
     "labels": {
       "format": "{value:,.0f}"
     }    
