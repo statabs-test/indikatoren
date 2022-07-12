@@ -13,7 +13,7 @@
       max: 6,
       "labels": {
         align: "left",
-        x: -60,
+        x: -60
       },
       "type": "category",
       "tickInterval": 1
