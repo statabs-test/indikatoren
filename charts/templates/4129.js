@@ -16,9 +16,10 @@
         var point = this.point,
           series = point.series,
           chart = series.chart,
-          correspondingSeries = series.linkedSeries[1] || series.linkedParent,
+          correspondingSeries = series.linkedSeries[0] || series.linkedParent,
           linePoint,
-          arearangePoint;
+          arearangePoint,
+          correspondingPoint;
         //console.log(correspondingSeries);
         //console.log(point.index);
 
@@ -31,12 +32,13 @@
 
           // find corresponding point
           if (correspondingSeries) {
-            console.log(correspondingSeries.points[point.index]);
             correspondingPoint = correspondingSeries.points[point.index];
             correspondingPoint.setState('hover');
             chart.extraHoveredPoint = correspondingPoint;
           }
 
+
+          
           // identify type of points for formatting purposes
           if (point.low !== undefined) {
             arearangePoint = point;
