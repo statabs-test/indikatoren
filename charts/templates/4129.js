@@ -1,7 +1,7 @@
-(function(){
+(function () {
   return {
-      title: {
-        margin: 30
+    title: {
+      margin: 30
     },
     "yAxis": {
       "labels": {
@@ -11,66 +11,180 @@
     "xAxis": {
       "type": "category"
     },
-    "tooltip": {
-      "shared": false,
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-      valueSuffix: ' Fr.'
+    tooltip: {
+      formatter: function (e) {
+        var point = this.point,
+          series = point.series,
+          chart = series.chart,
+          correspondingSeries = series.linkedSeries[0] || series.linkedParent,
+          linePoint,
+          arearangePoint;
+/*
+        // unselect previously selected point
+        if (chart.extraHoveredPoint) {
+          chart.extraHoveredPoint.setState('');
+        }
+
+        // find corresponding point
+        if (correspondingSeries) {
+          correspondingPoint = correspondingSeries.points[point.index];
+          correspondingPoint.setState('hover');
+          chart.extraHoveredPoint = correspondingPoint;
+        }
+
+        // identify type of points for formatting purposes
+        if (point.low !== undefined) {
+          arearangePoint = point;
+          linePoint = correspondingPoint;
+        } else {
+          arearangePoint = correspondingPoint;
+          linePoint = point;
+        }
+*/
+        //return "Line: " + linePoint.y + "<br>" + "Arearange: " + arearangePoint.low + " - " + arearangePoint.high;
+        return this.series.index;
+
+      }
     },
     "series": [
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
+        linkedTo: "1zi",
+        type: "scatter",
+        marker: {
+          symbol: "circle",
+          enabled: true
         },
-        "index": 4,
-        "color": "#DC440E"
+        color: "#9E7C59",
+        zIndex: 1
       },
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
-        "index": 3,
-        "color": "#933F8D"
+        id: "1zi",
+        color: "#9E7C59",
+        zIndex: 1
       },
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
+        color: "#ECE1D0",
+        type: 'arearange',
+        linkedTo: "1zi",
+        zIndex: 0
+      },
+
+      {
+        linkedTo: "2zi",
+        type: "scatter",
+        marker: {
+          symbol: "circle",
+          enabled: true
         },
-        "index": 2,
-        "color": "#68AB2B"
+        color: "#689199",
+        zIndex: 1
       },
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
-        "index": 1,
-        "color": "#689199"
+        id: "2zi",
+        visible: false,
+        color: "#689199",
+        zIndex: 1
       },
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
-        "index": 0,
-        "color": "#008AC3"
+        color: "#D3E2E4",
+        type: 'arearange',
+        linkedTo: "2zi",
+        zIndex: 0
       },
-        
+
+      {
+        linkedTo: "3zi",
+        type: "scatter",
+        marker: {
+          symbol: "circle",
+          enabled: true
+        },
+        color: "#DC440E",
+        zIndex: 1
+      },
+      {
+        id: "3zi",
+        visible: false,
+        color: "#DC440E",
+        zIndex: 1
+      },
+      {
+        color: "#FFBB58",
+        type: 'arearange',
+        linkedTo: "3zi",
+        zIndex: 0
+      },
+
+      {
+        linkedTo: "4zi",
+        type: "scatter",
+        marker: {
+          symbol: "circle",
+          enabled: true
+        },
+        color: "#923F8D",
+        zIndex: 1
+      },
+      {
+        id: "4zi",
+        visible: false,
+        color: "#923F8D",
+        zIndex: 1
+      },
+      {
+        color: "#E7CEE2",
+        type: 'arearange',
+        linkedTo: "4zi",
+        zIndex: 0
+      },
+
+      {
+        linkedTo: "5zi",
+        type: "scatter",
+        marker: {
+          symbol: "circle",
+          enabled: true
+        },
+        color: "#68AB2B",
+        zIndex: 1
+      },
+      {
+        id: "5zi",
+        visible: false,
+        color: "#68AB2B",
+        zIndex: 1
+      },
+      {
+        color: "#D7E8D2",
+        type: 'arearange',
+        linkedTo: "5zi",
+        zIndex: 0
+      },
+
+
+
+
     ],
-    
-    "legend": {
-         "enabled": true, 
-         "layout": "vertical",
-         "verticalAlign": "middle",
-         "itemMarginBottom": 5,
-         "align": "right",
-         "itemStyle": {
-         "fontWeight": "normal"
-        },
+
+    legend: {
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "middle",
+      itemMarginBottom: 5,
+      align: "left",
+      verticalAlign: "top",
+      itemStyle: {
+        fontWeight: "normal"
+      },
+      labelFormatter: function () {
+        return this.name.replace("1 Zimmer Median", "1 Zi.")
+          .replace("2 Zimmer Median", "2 Zi.")
+          .replace("3 Zimmer Median", "3 Zi.")
+          .replace("4 Zimmer Median", "4 Zi.")
+          .replace("5 Zimmer Median", "5 Zi.");
+      },
     },
-    "plotOptions": {
+    /*"plotOptions": {
       "series": {
         "dataLabels": {
           "enabled": false,
@@ -85,7 +199,6 @@
             }
         }
       }
-    }
-	};
+    }*/
+  };
 }());
- 
