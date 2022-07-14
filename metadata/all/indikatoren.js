@@ -81332,7 +81332,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:33",
+		"aktualisierungsdatum": "2022-06-30T08:51:07",
 		"id": 9586
 	},
 	{
