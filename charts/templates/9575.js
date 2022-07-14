@@ -134,7 +134,7 @@
       { stack: 'B', "color": "#672773", index: 14, linkedTo: '11' }, /*dunkelpink*/
       { stack: 'B', "color": "#E7CEE2", index: 13, linkedTo: '12' }, /*hellpink*/
       //{ id: 'HideInnenstadt', name: 'Show/Hide Innenstadt', legendIndex: -1, visible: false, color: 'transparent' },
-      { id: 'HideBasel', name: 'Show/Hide Basel-Stadt', legendIndex: -1, visible: false, color: 'transparent' }
+      { id: 'HideBasel', name: 'Show/Hide Stadt Basel', legendIndex: -1, visible: false, color: 'transparent' }
     ],
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
