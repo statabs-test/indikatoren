@@ -45,36 +45,66 @@
   }
   ],
   "series": [
-  {"color": "#73B97C", "yAxis": 0,
+  {"color": "#68AB2B", "yAxis": 0,
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
+},
+  {"color": "#73B97C", "yAxis": 0, visible: false,
+  tooltip: {
+  pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+}, 
   },
-  {"color": "#b375ab", "yAxis": 0,
+  {"color": "#923F8D", "yAxis": 0,
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
   }, 
+  {"color": "#B375AB", "yAxis": 0, visible: false,
+  tooltip: {
+  pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+},  
+},
   {"color": "#008AC3", "yAxis": 0,
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
-  },  
+  }, 
+  {"color": "#71A3B5", "yAxis": 0, visible: false,
+  tooltip: {
+  pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+},  
+},  
   {"color": "#cd9c00", "yAxis": 0,
    tooltip: {
    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 },  
 }, 
+{"color": "#FABD24", "yAxis": 0, visible: false,
+tooltip: {
+pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+},  
+},
   {"color": "#000000", "yAxis": 0, "type": "line", marker:{enabled: false},
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
-  },  
+  }, 
+  {"color": "#8A8A8A", "yAxis": 0, "type": "line", marker:{enabled: false}, visible: false,
+  tooltip: {
+  pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+},  
+},  
   {"color": "#000000", "yAxis": 0, "type": "line", dashStyle: 'Dash', marker:{enabled: false},
   tooltip: {
   pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 },  
-},   
+},  
+{"color": "#8A8A8A", "yAxis": 0, "type": "line", dashStyle: 'Dash', marker:{enabled: false}, visible: false,
+tooltip: {
+pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+},  
+},  
   ],
   "legend": {
     "enabled": true,

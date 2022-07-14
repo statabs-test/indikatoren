@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#68AB2B",
       "yAxis": 0,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -21,14 +21,42 @@
         ],
         [
           "2021",
-          1617.7232877
+          1577.6453674
         ]
       ],
-      "name": "Parkhaus City",
+      "name": "Parkhaus City: Mo-Fr",
       "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#73B97C",
+      "yAxis": 0,
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2018",
+          0
+        ],
+        [
+          "2019",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2021",
+          544.94230769
+        ]
+      ],
+      "name": "Parkhaus City: Sa",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
       "yAxis": 0,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -36,22 +64,50 @@
       "data": [
         [
           "2018",
-          1825.1835616
+          1554.7731629
         ],
         [
           "2019",
-          1792.1972603
+          1513.9968051
         ],
         [
           "2020",
-          1324.7814208
+          1181.8942308
         ],
         [
           "2021",
-          1392.660274
+          1206.0544872
         ]
       ],
-      "name": "Parkhaus Elisabethen",
+      "name": "Parkhaus Elisabethen: Mo-Fr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "yAxis": 0,
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2018",
+          1181
+        ],
+        [
+          "2019",
+          1179.25
+        ],
+        [
+          "2020",
+          812.89423077
+        ],
+        [
+          "2021",
+          902.35576923
+        ]
+      ],
+      "name": "Parkhaus Elisabethen: Sa",
       "turboThreshold": 0
     },
     {
@@ -63,22 +119,50 @@
       "data": [
         [
           "2018",
-          1300.9452055
+          1089.5846645
         ],
         [
           "2019",
-          1368.8328767
+          1140.6166134
         ],
         [
           "2020",
-          1074.0027322
+          921.91401274
         ],
         [
           "2021",
-          1155.9972603
+          989.32692308
         ]
       ],
-      "name": "Parkhaus Steinen",
+      "name": "Parkhaus Steinen: Mo-Fr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "yAxis": 0,
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2018",
+          943.29807692
+        ],
+        [
+          "2019",
+          986.52884615
+        ],
+        [
+          "2020",
+          765.6407767
+        ],
+        [
+          "2021",
+          805.60784314
+        ]
+      ],
+      "name": "Parkhaus Steinen: Sa",
       "turboThreshold": 0
     },
     {
@@ -90,22 +174,50 @@
       "data": [
         [
           "2018",
-          757.22739726
+          687.19488818
         ],
         [
           "2019",
-          763.24931507
+          684.34824281
         ],
         [
           "2020",
-          665.12568306
+          623.04487179
         ],
         [
           "2021",
-          729.41369863
+          684.83116883
         ]
       ],
-      "name": "Parkhaus Storchen",
+      "name": "Parkhaus Storchen: Mo-Fr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "yAxis": 0,
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2018",
+          414.14423077
+        ],
+        [
+          "2019",
+          416.5
+        ],
+        [
+          "2020",
+          355.11881188
+        ],
+        [
+          "2021",
+          382.85294118
+        ]
+      ],
+      "name": "Parkhaus Storchen: Sa",
       "turboThreshold": 0
     },
     {
@@ -121,22 +233,54 @@
       "data": [
         [
           "2018",
-          3883.3561644
+          3331.5527157
         ],
         [
           "2019",
-          3924.2794521
+          3338.9616613
         ],
         [
           "2020",
-          3063.9098361
+          2726.8531153
         ],
         [
           "2021",
-          4895.7945205
+          4457.8579465
         ]
       ],
-      "name": "Total",
+      "name": "Total: Mo-Fr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "yAxis": 0,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2018",
+          2538.4423077
+        ],
+        [
+          "2019",
+          2582.2788462
+        ],
+        [
+          "2020",
+          1933.6538193
+        ],
+        [
+          "2021",
+          2635.7588612
+        ]
+      ],
+      "name": "Total: Sa",
       "turboThreshold": 0
     },
     {
@@ -153,22 +297,55 @@
       "data": [
         [
           "2018",
-          3883.3561644
+          3331.5527157
         ],
         [
           "2019",
-          3924.2794521
+          3338.9616613
         ],
         [
           "2020",
-          3063.9098361
+          2726.8531153
         ],
         [
           "2021",
-          3278.0712328
+          2880.2125791
         ]
       ],
-      "name": "Total (ohne Parkhaus City)",
+      "name": "Total (ohne City): Mo-Fr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "yAxis": 0,
+      "type": "line",
+      "dashStyle": "Dash",
+      "marker": {
+        "enabled": false
+      },
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2018",
+          2538.4423077
+        ],
+        [
+          "2019",
+          2582.2788462
+        ],
+        [
+          "2020",
+          1933.6538193
+        ],
+        [
+          "2021",
+          2090.81655351
+        ]
+      ],
+      "name": "Total (ohne City): Sa",
       "turboThreshold": 0
     }
   ],
