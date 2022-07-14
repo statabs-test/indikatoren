@@ -200,11 +200,11 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         var template = eval(templateReturnData[0]);
         
         //load csv and draw chart            
-        $.get(csvUrl, function(data){
+        //$.get(csvUrl, function(data){
           //remove quotes from data
-          var dataWithoutQuotes = data.replace(/"/g, "");
-          drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
-        });
+         // var dataWithoutQuotes = data.replace(/"/g, "");
+        //  drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+       // });
       }
     ).fail(function(jqXHR, textStatus, errorThrown){
       console.log('$.getScript() failed! ');

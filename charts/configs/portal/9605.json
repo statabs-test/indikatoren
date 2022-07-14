@@ -118,21 +118,21 @@
       "point": {
         "events": {
           "legendItemClick": function (event) {
-                        event.preventDefault();
-                        /*
-                        var id = this.id,
-                            data = this.series.chart.series[0].data;
-                        $.each(data, function (i, point) {
-                           
-                            if (point.parentId == id) {
-                                if(point.visible)
-                                    point.setVisible(false);
-                                else
-                                    point.setVisible(true);
-                            }
-                        });
-                        */
-                    }
+              event.preventDefault();
+              /*
+              var id = this.id,
+                  data = this.series.chart.series[0].data;
+              $.each(data, function (i, point) {
+                 
+                  if (point.parentId == id) {
+                      if(point.visible)
+                          point.setVisible(false);
+                      else
+                          point.setVisible(true);
+                  }
+              });
+              */
+            }
         }
       }
     }
@@ -187,7 +187,7 @@
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "itemDistance": 2,
+    "itemDistance": 10,
     "style": {
       "fontSize": "12px"
     }
@@ -195,7 +195,7 @@
   "labels": {
     "items": [
       {
-        "html": "Aussen: 2021\u003Cbr\u002F\u003EInnen: &nbsp&nbsp&nbsp&nbsp2011-2020",
+        "html": "Aussen: 2021\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;2011-2020",
         "style": {
           "left": "300px",
           "top": "250px"
