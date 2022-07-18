@@ -51,7 +51,7 @@
               }
               chart.showHideFlagI = !chart.showHideFlagI;
             }
-            if (this.name == 'Show/Hide Basel-Stadt') {
+            if (this.name == 'Show/Hide Stadt Basel') {
               if (chart.showHideFlagB) {
                 series.forEach(series => {
                   if (series.userOptions.stack == 'B') {
