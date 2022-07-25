@@ -42,6 +42,7 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien (Print)",
 	"Leerstand (Print)",
 	"Staedtevergleich",
+	"Innenstadt-QuiZ",
 	"Innenstadt - QuiZ",
 	"Test"
 ];

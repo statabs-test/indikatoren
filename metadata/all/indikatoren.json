@@ -80874,8 +80874,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Am meisten der 4 479 Arbeitsstätten in der Innenstadt sind mit rund 21% in der Branchengruppe Unternehmensdienstleistungen und Freiberufe angesiedelt, gefolgt vom Gesundheits- und Sozialwesen (16%) und dem Detailhandel (13%). Letzterer kommt in der Innenstadt auf einen deutlich höheren Anteil als in der gesamten Stadt Basel (8%).",
+		"subtitle": "Innenstadt und Stadt Basel",
+		"lesehilfe": "In der Innenstadt befinden sich 4 479 Arbeitsstätten. Rund 21% gehören zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 16% zum Gesundheits- und Sozialwesen und 13% zum Detailhandel (gesamte Stadt Basel: 8%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -80890,7 +80890,7 @@
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09575",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.1-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -80902,7 +80902,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:27",
 		"id": 9575
 	},
 	{
@@ -81033,7 +81033,7 @@
 		"children": [],
 		"title": "Anzahl Requisitionen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 wurden in der  Innenstadt 1 355 Requisitionen erfasst. In der Stadt Basel waren es 3 998 und im Kanton Basel-Stadt 4 147.",
+		"lesehilfe": "Im Jahr 2021 wurden in der  Innenstadt 1 306 Requisitionen erfasst. In der Stadt Basel waren es 4 409 und im Kanton Basel-Stadt 4 636.",
 		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -81049,7 +81049,7 @@
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09579",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.3-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -81073,7 +81073,7 @@
 		"children": [],
 		"title": "Anzahl Requisitionen in der Innenstadt nach Kategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 war der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (526 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (244) sowie wegen Alkohol und Drogen (165).",
+		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
 		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -81087,7 +81087,7 @@
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09580",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.3-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",

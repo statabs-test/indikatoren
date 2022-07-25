@@ -2129,12 +2129,12 @@ id | visible | visibleInPortal | indikatorenset
 9491 | true | true | Arbeitsmarkt
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
-9575 | true | true | Innenstadt - QuiZ
+9575 | true | true | Innenstadt-QuiZ
 9576 | true | true | Innenstadt - QuiZ
 9577 | true | true | Innenstadt - QuiZ
 9578 | true | true | Innenstadt - QuiZ
-9579 | true | true | Innenstadt - QuiZ
-9580 | true | true | Innenstadt - QuiZ
+9579 | true | true | Innenstadt-QuiZ
+9580 | true | true | Innenstadt-QuiZ
 9581 | true | true | Innenstadt - QuiZ
 9582 | true | true | Innenstadt - QuiZ
 9583 | true | true | Innenstadt - QuiZ
