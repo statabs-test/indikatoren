@@ -80929,7 +80929,7 @@ var indikatoren = [
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09576",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.1-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -80941,7 +80941,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:27",
 		"id": 9576
 	},
 	{
@@ -80953,7 +80953,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Belegungsdauer der Allmend in der Innenstadt",
 		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht Vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
+		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
 		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
@@ -80969,7 +80969,7 @@ var indikatoren = [
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.2-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -80981,7 +80981,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:27",
 		"id": 9577
 	},
 	{
@@ -81009,7 +81009,7 @@ var indikatoren = [
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.2-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -81021,7 +81021,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:28",
 		"id": 9578
 	},
 	{
@@ -81034,7 +81034,7 @@ var indikatoren = [
 		"title": "Anzahl Requisitionen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2021 wurden in der  Innenstadt 1 306 Requisitionen erfasst. In der Stadt Basel waren es 4 409 und im Kanton Basel-Stadt 4 636.",
-		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
+		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -81074,7 +81074,7 @@ var indikatoren = [
 		"title": "Anzahl Requisitionen in der Innenstadt nach Kategorie",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
-		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
+		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -81126,7 +81126,7 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.09581",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -81138,7 +81138,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:28",
 		"id": 9581
 	},
 	{
@@ -81165,7 +81165,7 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.09582",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-2",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -81177,7 +81177,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:28",
 		"id": 9582
 	},
 	{
@@ -81188,9 +81188,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Nettomietpreise Innenstadt",
-		"subtitle": "in Franken pro m<sup>2</sup>, Basel-Stadt, 2016-2020",
+		"subtitle": "in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2016-2020",
 		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt in der Innenstadt im Durchschnitt der Jahre 2016 bis 2020 bei 18,5 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -81204,7 +81204,7 @@ var indikatoren = [
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09583",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.2-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -81216,7 +81216,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:29",
 		"id": 9583
 	},
 	{
@@ -81228,7 +81228,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Reineinkommen pro Veranlagung",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert des Reineinkommens pro Veranlagung von Personen, die in der Innenstadt wohnen, beträgt 2019 rund 89 600 Franken. Der Wert für den ganzen Kanton beträgt ca. 72 400 Franken.",
+		"lesehilfe": "2019 beträgt das durchschnittliche Reineinkommen pro Veranlagung von Personen, die in der Innenstadt wohnen, rund 89 600 Franken. Der Wert für den ganzen Kanton beträgt ca. 72 400 Franken.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -81243,7 +81243,7 @@ var indikatoren = [
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.3-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -81255,7 +81255,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:29",
 		"id": 9584
 	},
 	{
@@ -81282,7 +81282,7 @@ var indikatoren = [
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.4-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -81294,7 +81294,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:29",
 		"id": 9585
 	},
 	{
@@ -81306,7 +81306,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
+		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -81320,7 +81320,7 @@ var indikatoren = [
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.09586",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.5-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -81359,7 +81359,7 @@ var indikatoren = [
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kuerzel": "I.16.1.09587",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.1-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
 		"stufe2": "",
@@ -81371,7 +81371,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:45",
+		"aktualisierungsdatum": "2022-07-11T03:01:30",
 		"id": 9587
 	},
 	{
@@ -81397,7 +81397,7 @@ var indikatoren = [
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09588",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.2-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
 		"stufe2": "",
@@ -81409,7 +81409,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:30",
 		"id": 9588
 	},
 	{
@@ -81435,7 +81435,7 @@ var indikatoren = [
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09589",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.2-2",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
 		"stufe2": "",
@@ -81447,7 +81447,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:31",
 		"id": 9589
 	},
 	{
@@ -81455,7 +81455,7 @@ var indikatoren = [
 		"data-id": 9590,
 		"chart-id": 7588,
 		"filter": "",
-		"parentId": null,
+		"parentId": "7588",
 		"children": [],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
@@ -81473,7 +81473,7 @@ var indikatoren = [
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kuerzel": "I.09.2.09590",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.3-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
 		"stufe2": "",
@@ -81483,48 +81483,10 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:49",
+		"aktualisierungsdatum": "2022-07-11T09:37:33",
 		"id": 9590
-	},
-	{
-		"template": "befragungen001",
-		"data-id": 9591,
-		"chart-id": 9591,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"subtitle": "Basel",
-		"lesehilfe": "2019 gaben fast 90% der befragten Personen in Basel an, mit den Einkaufsmöglichzkeiten an ihrem Wohnort zufrieden zu sein. 85% bzw. 81% sind zufrieden mit den Grünanlagen bzw. der öffentlichen Sicherheit. Mit der Sauberkeit sind drei Viertel zufrieden (37,4% «sehr» und 38,7% «eher zufrieden») und mit der Lärmsituation sind es 67% (25,8% «sehr» und 41,5% «eher zufrieden»).",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Innenstadt"
-		],
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kuerzel": "I.50.1.09591",
-		"kennzahlenset": "Innenstadt - QuiZ",
-		"kuerzelKunde": "3.4-1",
-		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "03_00_00_00_00_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
-		"id": 9591
 	},
 	{
 		"template": "template001",
@@ -81535,7 +81497,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl zu Fuss gehende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 überquerten an Werktagen durchschnittlich 11 710 Fussgänger die mittlere Rheinbrücke. An Samstagen waren es mit 17 839 deutlich mehr.",
+		"lesehilfe": "Im Jahr 2021 überquerten an Werktagen durchschnittlich 11 710 Fussgänger die Mittlere Rheinbrücke. An Samstagen waren es mit 17 839 deutlich mehr.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -81549,7 +81511,7 @@ var indikatoren = [
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -81561,7 +81523,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:31",
 		"id": 9592
 	},
 	{
@@ -81574,7 +81536,7 @@ var indikatoren = [
 		"title": "Anzahl Velofahrende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
 		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 580 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstelle sind nicht vergleichbar.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstellen sind nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -81587,7 +81549,7 @@ var indikatoren = [
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-2",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -81599,7 +81561,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:32",
 		"id": 9593
 	},
 	{
@@ -81612,7 +81574,7 @@ var indikatoren = [
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
 		"subtitle": "Durchschnittliche Einfahrten pro Tag",
 		"lesehilfe": "Durchschnittlich 4 896 Einfahrten pro Tag wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen registriert. Am meisten Einfahrten wurden mit 1 618 pro Tag im Parkhaus City gezählt.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Aufgrund von technischen Problemen sind für das Parkhaus City erst ab dem Jahr 2021 Daten verfügbar.",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
 		],
@@ -81625,7 +81587,7 @@ var indikatoren = [
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-3",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -81637,7 +81599,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:32",
 		"id": 9594
 	},
 	{
@@ -81663,7 +81625,7 @@ var indikatoren = [
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.2-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -81675,7 +81637,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:32",
 		"id": 9595
 	},
 	{
@@ -81701,7 +81663,7 @@ var indikatoren = [
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.2-2",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -81713,8 +81675,46 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:33",
 		"id": 9596
+	},
+	{
+		"template": "template001",
+		"data-id": 9597,
+		"chart-id": 9597,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
+		"subtitle": "Tagesdurchschnitt",
+		"lesehilfe": "Die Zahl der an Haltestellen in der Innenstadt aussteigenden ÖV-Passagiere hat während der beiden Pandemie-Jahre 2020 und 2021 abgenommen. Im Jahr 2021 wurden werktags durchschnittlich rund 130 000 Passagiere täglich gezählt, das sind 46% weniger als im Mittel der Jahre 2011 bis 2020. 2022 nahm die Zahl der aussteigenden Passagiere im Vergleich zum Vorjahr wieder um rund einen Viertel zu.",
+		"erlaeuterungen": "Modellrechungen für alle Haltestellen im Perimeter Innenstadt. Berücksichtigt sind die Passagierzahlen der Basler Verkehrsbetriebe (BVB), der Baselland Transport AG (BLT), der Autobus AG Liestal (AAGL), sowie seit 2019 des öffentlichen Busbetriebs in der Communauté d'agglomération des Trois Frontières im Elsass (Distribus) und seit 2020 der Südwestdeutschen Landesverkehrs-GmbH (SWEG). BVB, Distribus und SWEG: Mo-Do; BLT und AAGL: Mo-Fr.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Innenstadt"
+		],
+		"description": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt-QuiZ",
+		"kuerzelKunde": "4.3-1",
+		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9597
 	},
 	{
 		"template": "template001",
@@ -81739,7 +81739,7 @@ var indikatoren = [
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.09598",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "5.1-1",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
 		"stufe2": "",
@@ -81751,7 +81751,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:10",
+		"aktualisierungsdatum": "2022-07-11T03:01:33",
 		"id": 9598
 	},
 	{
@@ -81763,7 +81763,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Minus von 1 000 Personen. Damit ist der Wanderungssaldo der betrachteten zehn Jahre das erste Mal negativ. Zwischen 2012 und 2020 war er stets positiv und ging insbesondere auf die Zuwanderung aus dem Ausland zurück.  Die meisten Wegzüger des Jahres 2021 (rund 5 200 Personen) gingen in die Nordwestschweiz. Die meisten Zuzüger kamen aus dem Ausland nach Basel-Stadt, zuletzt fast 6 800 Personen.",
+		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -81777,7 +81777,7 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kuerzel": "I.01.5.09599",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "5.2-1",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
 		"stufe2": "",
@@ -81789,7 +81789,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-05-20T08:05:26",
+		"aktualisierungsdatum": "2022-06-13T08:03:36",
 		"id": 9599
 	},
 	{
@@ -81815,7 +81815,7 @@ var indikatoren = [
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kuerzel": "I.10.1.09600",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "5.3-1",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
 		"stufe2": "",
@@ -81827,7 +81827,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:32",
+		"aktualisierungsdatum": "2022-07-11T03:01:34",
 		"id": 9600
 	},
 	{
@@ -81853,8 +81853,8 @@ var indikatoren = [
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kuerzel": "I.10.1.09601",
-		"kennzahlenset": "Innenstadt - QuiZ",
-		"kuerzelKunde": "5.3-1",
+		"kennzahlenset": "Innenstadt-QuiZ",
+		"kuerzelKunde": "5.3-2",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
 		"stufe2": "",
 		"stufe3": "",
@@ -81865,7 +81865,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-25T08:37:34",
+		"aktualisierungsdatum": "2022-07-11T03:01:34",
 		"id": 9601
 	},
 	{

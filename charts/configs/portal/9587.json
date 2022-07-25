@@ -514,7 +514,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Film- und Kinostatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Film- und Kinostatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
