@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungsbestand und -quote",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
-		"lesehilfe": "Die Leerstandsquote beider Basel zusammen sinkt leicht von 1,1% im letzten Jahr auf 1,0% im 2021. Insgesamt standen 2021 in den beiden Halbkantonen 2 639 Wohnungen leer, 51 weniger als 2020.",
+		"lesehilfe": "Die Leerstandsquote beider Basel zusammen bleibt mit 1,0% gleich wie im 2021. Insgesamt standen 2022 in den beiden Halbkantonen 2 681 Wohnungen leer, 42 mehr als 2021.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:18",
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 9066
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerstandsquote im Stadtkanton steigt 2021 auf 1,1%. Insgesamt stehen 1 235 Wohnungen leer, davon sind zwei Drittel Zwei- oder Dreizimmerwohnungen.",
+		"lesehilfe": "Die Leerstandsquote im Stadtkanton steigt 2022 auf 1,2%. Insgesamt stehen 1 328 Wohnungen leer, davon sind zwei Drittel Zwei- oder Dreizimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:18",
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 9067
 	},
 	{
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:19",
+		"aktualisierungsdatum": "2021-08-13T12:10:28",
 		"id": 9068
 	},
 	{
@@ -118,8 +118,8 @@ var indikatorensetData = [
 		"parentId": "7576",
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2021",
-		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Liestal (1,4%) und Laufen (1,2%) die höchsten Quoten auf. In den Bezirken Sissach (0,7%), Waldenburg (0,8%) und Arlesheim (0,9%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 1,0%. Im Stadtkanton (1,1%) liegen die Quoten in Gross- (1,2%) und Kleinbasel (1,0%) über jener von Riehen und Bettingen (0,7%).",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2022",
+		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Liestal (1,2%) und Laufen (1,2%) die höchsten Quoten auf. In den Bezirken Sissach (0,7%) und Arlesheim (0,8%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 0,9%. Im Waldenburg liegt sie im Kantonsdurchschnit. Im Stadtkanton (1,2%) liegen die Quoten in Gross- (1,2%) und Kleinbasel (1,1%) über jener von Riehen und Bettingen (0,9%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:20",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 9069
 	},
 	{
@@ -157,8 +157,8 @@ var indikatorensetData = [
 		"parentId": "7577",
 		"children": [],
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Die Leerstandsquote der Dreizimmerwohnungen entspricht mit 1,1% der kantonalen Leerstandsquote. Die höchste Quote weisen mit 2,3% die Einzimmerwohnungen auf. Bei den Wohnungen mit sechs und mehr Zimmern ist sie mit 0,2% am niedrigstgen.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Die Leerstandsquote der Dreizimmerwohnungen entspricht mit 1,2% der kantonalen Leerstandsquote. Die höchste Quote weisen mit 2,2% die Einzimmerwohnungen auf. Bei den Wohnungen mit fünf und sechs und mehr Zimmern ist sie mit 0,4% am niedrigstgen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -183,7 +183,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:20",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 9070
 	},
 	{
@@ -194,8 +194,8 @@ var indikatorensetData = [
 		"parentId": "7578",
 		"children": [],
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Knapp 81% der leerstehenden Wohnungen blieben in der letzen zwei Jahren unverändert, gut 14% wurden renoviert und 5% sind neu erstellt worden.",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Knapp 80% der leerstehenden Wohnungen blieben in der letzen zwei Jahren unverändert, gut 17% wurden renoviert und 3% sind neu erstellt worden.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -220,7 +220,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:21",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 9071
 	},
 	{
@@ -232,7 +232,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2020 672 Einheiten. Davon  stammen 607 aus Neu- und 219 aus Umbauten. Durch Abbrüche gehen 158 Wohnungen verloren. 2021 wird mit einer Nettoproduktion von rund 850 Wohnungen gerechnet.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2022 800 Einheiten. Davon  stammen 800 aus Neu- und 100 aus Umbauten. Durch Abbrüche gehen 100 Wohnungen verloren.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -257,7 +257,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:21",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 9072
 	},
 	{
@@ -294,7 +294,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:22",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 9073
 	},
 	{
@@ -305,8 +305,8 @@ var indikatorensetData = [
 		"parentId": "7581",
 		"children": [],
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Landschaft, 2021",
-		"lesehilfe": "Dreizimmerwohnungen weisen mit einer Quote von 1,5% den höchsten Leerstand auf. Sie machen rund 44% des Gesamtbestandes der leeren Wohnungen aus.",
+		"subtitle": "Basel-Landschaft, 2022",
+		"lesehilfe": "Dreizimmerwohnungen weisen mit einer Quote von 1,6% den höchsten Leerstand auf. Sie machen rund 47% des Gesamtbestandes der leeren Wohnungen aus.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -331,7 +331,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:23",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 9074
 	},
 	{
@@ -342,8 +342,8 @@ var indikatorensetData = [
 		"parentId": "7582",
 		"children": [],
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Landschaft, 2021",
-		"lesehilfe": "Fast 80% der Leerwohnungen blieben in den zwei letzten Jahren unverändert, etwas unter 10% wurden neu erstellt.",
+		"subtitle": "Basel-Landschaft, 2022",
+		"lesehilfe": "78% der Leerwohnungen blieben in den zwei letzten Jahren unverändert, etwas unter 10% wurden neu erstellt, über 12% renoviert.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -368,7 +368,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:23",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 9075
 	},
 	{
@@ -405,7 +405,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:24",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 9076
 	},
 	{
@@ -442,7 +442,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:24",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 9077
 	},
 	{
@@ -479,7 +479,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:25",
+		"aktualisierungsdatum": "2021-09-20T08:40:01",
 		"id": 9078
 	},
 	{
@@ -517,7 +517,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:25",
+		"aktualisierungsdatum": "2021-09-20T08:40:01",
 		"id": 9079
 	},
 	{

@@ -62,9 +62,12 @@
       dataLabels: {
         enabled: true,
         formatter: function(){
-          return this.point.name.replace(".", ",").replace(" (", "<br/>(").replace("Zimmer", "Zi");
+          return this.point.name.replace(".", ",")
+          .replace(" (", "<br/>(")
+          .replace("Zimmer", "Zi");
   
         },
+  
         distance: 15,
         connectorWidth: 1,
         style: {
@@ -91,7 +94,9 @@
       dataLabels: {
         enabled: true,
         format: '{point.percentage:.0f}%',
-        distance: -10,
+        distance: -30,
+        allowOverlap: false,
+        align: "left",
         style: {
           color: 'contrast',
           textOutline: "0px black", 
