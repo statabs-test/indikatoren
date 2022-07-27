@@ -39,8 +39,8 @@
             { color: "#FFDA80", visible: false },
             { color: "#DC440E" },
             { color: "#FF8028", visible: false },
-            { color: "#9E7C59" },
-            { color: "#C4AB91", visible: false },
+           /* { color: "#9E7C59" },
+            { color: "#C4AB91", visible: false },*/
 
         ],
         legend: {

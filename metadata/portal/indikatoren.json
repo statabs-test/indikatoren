@@ -42262,8 +42262,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Am meisten der 4 479 Arbeitsstätten in der Innenstadt sind mit rund 21% in der Branchengruppe Unternehmensdienstleistungen und Freiberufe angesiedelt, gefolgt vom Gesundheits- und Sozialwesen (16%) und dem Detailhandel (13%). Letzterer kommt in der Innenstadt auf einen deutlich höheren Anteil als in der gesamten Stadt Basel (8%).",
+		"subtitle": "Innenstadt und Stadt Basel",
+		"lesehilfe": "In der Innenstadt befinden sich 4 479 Arbeitsstätten. Rund 21% gehören zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 16% zum Gesundheits- und Sozialwesen und 13% zum Detailhandel (gesamte Stadt Basel: 8%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -42278,7 +42278,7 @@
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09575",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.1-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -42290,7 +42290,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:27",
 		"id": 9575
 	},
 	{
@@ -42317,7 +42317,7 @@
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09576",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.1-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -42329,7 +42329,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:27",
 		"id": 9576
 	},
 	{
@@ -42341,7 +42341,7 @@
 		"children": [],
 		"title": "Belegungsdauer der Allmend in der Innenstadt",
 		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht Vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
+		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
 		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
@@ -42357,7 +42357,7 @@
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.2-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -42369,7 +42369,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:27",
 		"id": 9577
 	},
 	{
@@ -42397,7 +42397,7 @@
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.2-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -42409,7 +42409,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:28",
 		"id": 9578
 	},
 	{
@@ -42421,8 +42421,8 @@
 		"children": [],
 		"title": "Anzahl Requisitionen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 wurden in der  Innenstadt 1 355 Requisitionen erfasst. In der Stadt Basel waren es 3 998 und im Kanton Basel-Stadt 4 147.",
-		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
+		"lesehilfe": "Im Jahr 2021 wurden in der  Innenstadt 1 306 Requisitionen erfasst. In der Stadt Basel waren es 4 409 und im Kanton Basel-Stadt 4 636.",
+		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -42437,7 +42437,7 @@
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09579",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.3-1",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -42461,8 +42461,8 @@
 		"children": [],
 		"title": "Anzahl Requisitionen in der Innenstadt nach Kategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 war der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (526 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (244) sowie wegen Alkohol und Drogen (165).",
-		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2012 verfügbar.",
+		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
+		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -42475,7 +42475,7 @@
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09580",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "1.3-2",
 		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
 		"stufe2": "",
@@ -42514,7 +42514,7 @@
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.09581",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -42526,7 +42526,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:28",
 		"id": 9581
 	},
 	{
@@ -42553,7 +42553,7 @@
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.09582",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-2",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -42565,7 +42565,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:28",
 		"id": 9582
 	},
 	{
@@ -42576,9 +42576,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Nettomietpreise Innenstadt",
-		"subtitle": "in Franken pro m<sup>2</sup>, Basel-Stadt, 2016-2020",
+		"subtitle": "in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2016-2020",
 		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt in der Innenstadt im Durchschnitt der Jahre 2016 bis 2020 bei 18,5 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -42592,7 +42592,7 @@
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09583",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.2-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -42604,7 +42604,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:29",
 		"id": 9583
 	},
 	{
@@ -42616,7 +42616,7 @@
 		"children": [],
 		"title": "Reineinkommen pro Veranlagung",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert des Reineinkommens pro Veranlagung von Personen, die in der Innenstadt wohnen, beträgt 2019 rund 89 600 Franken. Der Wert für den ganzen Kanton beträgt ca. 72 400 Franken.",
+		"lesehilfe": "2019 beträgt das durchschnittliche Reineinkommen pro Veranlagung von Personen, die in der Innenstadt wohnen, rund 89 600 Franken. Der Wert für den ganzen Kanton beträgt ca. 72 400 Franken.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -42631,7 +42631,7 @@
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.3-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -42643,7 +42643,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:29",
 		"id": 9584
 	},
 	{
@@ -42670,7 +42670,7 @@
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.4-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
 		"stufe2": "",
@@ -42682,7 +42682,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:29",
 		"id": 9585
 	},
 	{
@@ -42708,7 +42708,7 @@
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09588",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.2-1",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
 		"stufe2": "",
@@ -42720,7 +42720,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:30",
 		"id": 9588
 	},
 	{
@@ -42746,7 +42746,7 @@
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09589",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "3.2-2",
 		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
 		"stufe2": "",
@@ -42758,84 +42758,8 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:31",
 		"id": 9589
-	},
-	{
-		"template": "line001",
-		"data-id": 9590,
-		"chart-id": 7588,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 von 120 500  m² auf 184 700 m² zugenommen (+ 53%). Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
-		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
-		"quellenangabe": [
-			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Geschäftsleerstandsfläche nach Nutzung",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09590",
-		"kennzahlenset": "Innenstadt - QuiZ",
-		"kuerzelKunde": "3.3-1",
-		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "03_00_00_00_00_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:49",
-		"id": 9590
-	},
-	{
-		"template": "befragungen001",
-		"data-id": 9591,
-		"chart-id": 9591,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"subtitle": "Basel",
-		"lesehilfe": "2019 gaben fast 90% der befragten Personen in Basel an, mit den Einkaufsmöglichzkeiten an ihrem Wohnort zufrieden zu sein. 85% bzw. 81% sind zufrieden mit den Grünanlagen bzw. der öffentlichen Sicherheit. Mit der Sauberkeit sind drei Viertel zufrieden (37,4% «sehr» und 38,7% «eher zufrieden») und mit der Lärmsituation sind es 67% (25,8% «sehr» und 41,5% «eher zufrieden»).",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Innenstadt"
-		],
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kuerzel": "I.50.1.09591",
-		"kennzahlenset": "Innenstadt - QuiZ",
-		"kuerzelKunde": "3.4-1",
-		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "03_00_00_00_00_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
-		"id": 9591
 	},
 	{
 		"template": "template001",
@@ -42846,7 +42770,7 @@
 		"children": [],
 		"title": "Anzahl zu Fuss gehende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 überquerten an Werktagen durchschnittlich 11 710 Fussgänger die mittlere Rheinbrücke. An Samstagen waren es mit 17 839 deutlich mehr.",
+		"lesehilfe": "Im Jahr 2021 überquerten an Werktagen durchschnittlich 11 710 Fussgänger die Mittlere Rheinbrücke. An Samstagen waren es mit 17 839 deutlich mehr.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -42860,7 +42784,7 @@
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -42872,7 +42796,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:31",
 		"id": 9592
 	},
 	{
@@ -42885,7 +42809,7 @@
 		"title": "Anzahl Velofahrende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
 		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 580 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstelle sind nicht vergleichbar.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstellen sind nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -42898,7 +42822,7 @@
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-2",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -42910,7 +42834,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:32",
 		"id": 9593
 	},
 	{
@@ -42923,7 +42847,7 @@
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
 		"subtitle": "Durchschnittliche Einfahrten pro Tag",
 		"lesehilfe": "Durchschnittlich 4 896 Einfahrten pro Tag wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen registriert. Am meisten Einfahrten wurden mit 1 618 pro Tag im Parkhaus City gezählt.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Aufgrund von technischen Problemen sind für das Parkhaus City erst ab dem Jahr 2021 Daten verfügbar.",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
 		],
@@ -42936,7 +42860,7 @@
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.1-3",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -42948,7 +42872,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:32",
 		"id": 9594
 	},
 	{
@@ -42974,7 +42898,7 @@
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.2-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -42986,7 +42910,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:32",
 		"id": 9595
 	},
 	{
@@ -43012,7 +42936,7 @@
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
-		"kennzahlenset": "Innenstadt - QuiZ",
+		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.2-2",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
 		"stufe2": "",
@@ -43024,10 +42948,11 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"aktualisierungsdatum": "2022-07-11T03:01:33",
 		"id": 9596
 	},
 	{
+<<<<<<< HEAD
 		"template": "line001",
 		"data-id": 9663,
 		"chart-id": 9663,
@@ -43040,10 +42965,25 @@
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
+=======
+		"template": "template001",
+		"data-id": 9597,
+		"chart-id": 9597,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
+		"subtitle": "Tagesdurchschnitt",
+		"lesehilfe": "Die Zahl der an Haltestellen in der Innenstadt aussteigenden ÖV-Passagiere hat während der beiden Pandemie-Jahre 2020 und 2021 abgenommen. Im Jahr 2021 wurden werktags durchschnittlich rund 130 000 Passagiere täglich gezählt, das sind 46% weniger als im Mittel der Jahre 2011 bis 2020. 2022 nahm die Zahl der aussteigenden Passagiere im Vergleich zum Vorjahr wieder um rund einen Viertel zu.",
+		"erlaeuterungen": "Modellrechungen für alle Haltestellen im Perimeter Innenstadt. Berücksichtigt sind die Passagierzahlen der Basler Verkehrsbetriebe (BVB), der Baselland Transport AG (BLT), der Autobus AG Liestal (AAGL), sowie seit 2019 des öffentlichen Busbetriebs in der Communauté d'agglomération des Trois Frontières im Elsass (Distribus) und seit 2020 der Südwestdeutschen Landesverkehrs-GmbH (SWEG). BVB, Distribus und SWEG: Mo-Do; BLT und AAGL: Mo-Fr.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+>>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
+<<<<<<< HEAD
 			"Kanton"
 		],
 		"description": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
@@ -43053,16 +42993,36 @@
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.4-1",
 		"stufe1": "",
+=======
+			"Innenstadt"
+		],
+		"description": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Innenstadt-QuiZ",
+		"kuerzelKunde": "4.3-1",
+		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
+>>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
+<<<<<<< HEAD
 		"orderKey": "_000",
+=======
+		"orderKey": "04_00_00_00_00_000",
+>>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
+<<<<<<< HEAD
 		"aktualisierungsdatum": "2022-07-27T10:39:40",
 		"id": 9663
+=======
+		"aktualisierungsdatum": "2022-04-19T12:30:38",
+		"id": 9597
+>>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 	}
 ]

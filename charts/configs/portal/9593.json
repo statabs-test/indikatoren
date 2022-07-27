@@ -239,6 +239,107 @@
       "data": [
         [
           2011,
+          7156
+        ],
+        [
+          2012,
+          7066
+        ],
+        [
+          2013,
+          6973
+        ],
+        [
+          2014,
+          7630
+        ],
+        [
+          2015,
+          8148
+        ],
+        [
+          2016,
+          8138
+        ],
+        [
+          2017,
+          8765
+        ],
+        [
+          2018,
+          9296
+        ],
+        [
+          2019,
+          9307
+        ],
+        [
+          2020,
+          8325
+        ],
+        [
+          2021,
+          7840
+        ]
+      ],
+      "name": "Wettsteinbrücke: Mo-Fr"
+    },
+    {
+      "color": "#FF8028",
+      "visible": false,
+      "data": [
+        [
+          2011,
+          3818
+        ],
+        [
+          2012,
+          3641
+        ],
+        [
+          2013,
+          3463
+        ],
+        [
+          2014,
+          3878
+        ],
+        [
+          2015,
+          3899
+        ],
+        [
+          2016,
+          3993
+        ],
+        [
+          2017,
+          4434
+        ],
+        [
+          2018,
+          4839
+        ],
+        [
+          2019,
+          4824
+        ],
+        [
+          2020,
+          4694
+        ],
+        [
+          2021,
+          4756
+        ]
+      ],
+      "name": "Wettsteinbrücke: Sa"
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          2011,
           2503
         ],
         [
@@ -285,7 +386,7 @@
       "name": "Heuwaage-Viadukt: Mo-Fr"
     },
     {
-      "color": "#FF8028",
+      "color": "#68AB2B",
       "visible": false,
       "data": [
         [
@@ -336,7 +437,7 @@
       "name": "Heuwaage-Viadukt: Sa"
     },
     {
-      "color": "#007A2F",
+      "color": "#FABD24",
       "data": [
         [
           2011,
@@ -386,7 +487,7 @@
       "name": "Hammerstrasse 90: Mo-Fr"
     },
     {
-      "color": "#68AB2B",
+      "color": "#FFDA80",
       "visible": false,
       "data": [
         [
@@ -573,7 +674,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

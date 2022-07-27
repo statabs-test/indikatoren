@@ -9,7 +9,7 @@
       "series": {
         stacking: "normal",
         borderWidth: 0,
-        groupPadding: 0,
+        //groupPadding: 0.1,
       }
     },
     xAxis: {
@@ -17,7 +17,7 @@
       tickInterval: 1,
       labels: {
         step: 1,
-        rotation: -45,
+       // rotation: -45,
         style: {
           fontSize: "11px"
         },

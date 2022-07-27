@@ -6,75 +6,87 @@
       "legendIndex": 0,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           140
         ],
         [
-          "2011: Stadt Basel",
-          641
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           145
         ],
         [
-          "2012: Stadt Basel",
-          637
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           142
         ],
         [
-          "2013: Stadt Basel",
-          627
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           147
         ],
         [
-          "2014: Stadt Basel",
-          646
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           150
         ],
         [
-          "2015: Stadt Basel",
-          648
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           142
         ],
         [
-          "2016: Stadt Basel",
-          634
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           149
         ],
         [
-          "2017: Stadt Basel",
-          638
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           152
         ],
         [
-          "2018: Stadt Basel",
-          628
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           150
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          641
+        ],
+        [
+          "Stadt Basel: 2012",
+          637
+        ],
+        [
+          "Stadt Basel: 2013",
+          627
+        ],
+        [
+          "Stadt Basel: 2014",
+          646
+        ],
+        [
+          "Stadt Basel: 2015",
+          648
+        ],
+        [
+          "Stadt Basel: 2016",
+          634
+        ],
+        [
+          "Stadt Basel: 2017",
+          638
+        ],
+        [
+          "Stadt Basel: 2018",
+          628
+        ],
+        [
+          "Stadt Basel: 2019",
           636
         ]
       ],
@@ -87,75 +99,87 @@
       "legendIndex": 1,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           135
         ],
         [
-          "2011: Stadt Basel",
-          1544
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           142
         ],
         [
-          "2012: Stadt Basel",
-          1560
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           142
         ],
         [
-          "2013: Stadt Basel",
-          1558
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           147
         ],
         [
-          "2014: Stadt Basel",
-          1552
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           141
         ],
         [
-          "2015: Stadt Basel",
-          1530
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           120
         ],
         [
-          "2016: Stadt Basel",
-          1497
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           115
         ],
         [
-          "2017: Stadt Basel",
-          1447
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           115
         ],
         [
-          "2018: Stadt Basel",
-          1418
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           103
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          1544
+        ],
+        [
+          "Stadt Basel: 2012",
+          1560
+        ],
+        [
+          "Stadt Basel: 2013",
+          1558
+        ],
+        [
+          "Stadt Basel: 2014",
+          1552
+        ],
+        [
+          "Stadt Basel: 2015",
+          1530
+        ],
+        [
+          "Stadt Basel: 2016",
+          1497
+        ],
+        [
+          "Stadt Basel: 2017",
+          1447
+        ],
+        [
+          "Stadt Basel: 2018",
+          1418
+        ],
+        [
+          "Stadt Basel: 2019",
           1400
         ]
       ],
@@ -168,75 +192,87 @@
       "legendIndex": 2,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           115
         ],
         [
-          "2011: Stadt Basel",
-          501
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           120
         ],
         [
-          "2012: Stadt Basel",
-          503
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           120
         ],
         [
-          "2013: Stadt Basel",
-          480
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           121
         ],
         [
-          "2014: Stadt Basel",
-          483
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           120
         ],
         [
-          "2015: Stadt Basel",
-          475
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           114
         ],
         [
-          "2016: Stadt Basel",
-          440
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           111
         ],
         [
-          "2017: Stadt Basel",
+          "Innenstadt: 2018",
+          92
+        ],
+        [
+          "Innenstadt: 2019",
+          92
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          501
+        ],
+        [
+          "Stadt Basel: 2012",
+          503
+        ],
+        [
+          "Stadt Basel: 2013",
+          480
+        ],
+        [
+          "Stadt Basel: 2014",
+          483
+        ],
+        [
+          "Stadt Basel: 2015",
+          475
+        ],
+        [
+          "Stadt Basel: 2016",
+          440
+        ],
+        [
+          "Stadt Basel: 2017",
           412
         ],
         [
-          "2018: Innenstadt",
-          92
-        ],
-        [
-          "2018: Stadt Basel",
+          "Stadt Basel: 2018",
           362
         ],
         [
-          "2019: Innenstadt",
-          92
-        ],
-        [
-          "2019: Stadt Basel",
+          "Stadt Basel: 2019",
           348
         ]
       ],
@@ -249,75 +285,87 @@
       "legendIndex": 3,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           691
         ],
         [
-          "2011: Stadt Basel",
-          1531
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           675
         ],
         [
-          "2012: Stadt Basel",
-          1502
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           673
         ],
         [
-          "2013: Stadt Basel",
-          1473
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           654
         ],
         [
-          "2014: Stadt Basel",
-          1447
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           648
         ],
         [
-          "2015: Stadt Basel",
-          1428
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           628
         ],
         [
-          "2016: Stadt Basel",
-          1391
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           615
         ],
         [
-          "2017: Stadt Basel",
-          1375
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           600
         ],
         [
-          "2018: Stadt Basel",
-          1316
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           592
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          1531
+        ],
+        [
+          "Stadt Basel: 2012",
+          1502
+        ],
+        [
+          "Stadt Basel: 2013",
+          1473
+        ],
+        [
+          "Stadt Basel: 2014",
+          1447
+        ],
+        [
+          "Stadt Basel: 2015",
+          1428
+        ],
+        [
+          "Stadt Basel: 2016",
+          1391
+        ],
+        [
+          "Stadt Basel: 2017",
+          1375
+        ],
+        [
+          "Stadt Basel: 2018",
+          1316
+        ],
+        [
+          "Stadt Basel: 2019",
           1282
         ]
       ],
@@ -330,75 +378,87 @@
       "legendIndex": 4,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           205
         ],
         [
-          "2011: Stadt Basel",
-          812
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           207
         ],
         [
-          "2012: Stadt Basel",
-          842
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           215
         ],
         [
-          "2013: Stadt Basel",
-          842
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           224
         ],
         [
-          "2014: Stadt Basel",
-          883
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           224
         ],
         [
-          "2015: Stadt Basel",
-          878
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           210
         ],
         [
-          "2016: Stadt Basel",
-          870
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           211
         ],
         [
-          "2017: Stadt Basel",
-          860
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           198
         ],
         [
-          "2018: Stadt Basel",
-          852
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           214
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          812
+        ],
+        [
+          "Stadt Basel: 2012",
+          842
+        ],
+        [
+          "Stadt Basel: 2013",
+          842
+        ],
+        [
+          "Stadt Basel: 2014",
+          883
+        ],
+        [
+          "Stadt Basel: 2015",
+          878
+        ],
+        [
+          "Stadt Basel: 2016",
+          870
+        ],
+        [
+          "Stadt Basel: 2017",
+          860
+        ],
+        [
+          "Stadt Basel: 2018",
+          852
+        ],
+        [
+          "Stadt Basel: 2019",
           908
         ]
       ],
@@ -411,75 +471,87 @@
       "legendIndex": 5,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           316
         ],
         [
-          "2011: Stadt Basel",
-          768
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           307
         ],
         [
-          "2012: Stadt Basel",
-          771
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           306
         ],
         [
-          "2013: Stadt Basel",
-          782
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           298
         ],
         [
-          "2014: Stadt Basel",
-          801
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           299
         ],
         [
-          "2015: Stadt Basel",
-          799
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           297
         ],
         [
-          "2016: Stadt Basel",
-          791
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           303
         ],
         [
-          "2017: Stadt Basel",
+          "Innenstadt: 2018",
+          296
+        ],
+        [
+          "Innenstadt: 2019",
+          296
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          768
+        ],
+        [
+          "Stadt Basel: 2012",
+          771
+        ],
+        [
+          "Stadt Basel: 2013",
+          782
+        ],
+        [
+          "Stadt Basel: 2014",
+          801
+        ],
+        [
+          "Stadt Basel: 2015",
+          799
+        ],
+        [
+          "Stadt Basel: 2016",
+          791
+        ],
+        [
+          "Stadt Basel: 2017",
           807
         ],
         [
-          "2018: Innenstadt",
-          296
-        ],
-        [
-          "2018: Stadt Basel",
+          "Stadt Basel: 2018",
           786
         ],
         [
-          "2019: Innenstadt",
-          296
-        ],
-        [
-          "2019: Stadt Basel",
+          "Stadt Basel: 2019",
           789
         ]
       ],
@@ -492,75 +564,87 @@
       "legendIndex": 6,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           309
         ],
         [
-          "2011: Stadt Basel",
-          959
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           312
         ],
         [
-          "2012: Stadt Basel",
-          983
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           293
         ],
         [
-          "2013: Stadt Basel",
-          958
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           310
         ],
         [
-          "2014: Stadt Basel",
-          990
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           314
         ],
         [
-          "2015: Stadt Basel",
-          964
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           298
         ],
         [
-          "2016: Stadt Basel",
-          933
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           287
         ],
         [
-          "2017: Stadt Basel",
-          919
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           276
         ],
         [
-          "2018: Stadt Basel",
-          890
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           284
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          959
+        ],
+        [
+          "Stadt Basel: 2012",
+          983
+        ],
+        [
+          "Stadt Basel: 2013",
+          958
+        ],
+        [
+          "Stadt Basel: 2014",
+          990
+        ],
+        [
+          "Stadt Basel: 2015",
+          964
+        ],
+        [
+          "Stadt Basel: 2016",
+          933
+        ],
+        [
+          "Stadt Basel: 2017",
+          919
+        ],
+        [
+          "Stadt Basel: 2018",
+          890
+        ],
+        [
+          "Stadt Basel: 2019",
           906
         ]
       ],
@@ -573,75 +657,87 @@
       "legendIndex": 7,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           796
         ],
         [
-          "2011: Stadt Basel",
-          2702
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           849
         ],
         [
-          "2012: Stadt Basel",
-          2801
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           854
         ],
         [
-          "2013: Stadt Basel",
-          2866
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           905
         ],
         [
-          "2014: Stadt Basel",
-          3096
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           915
         ],
         [
-          "2015: Stadt Basel",
-          3156
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           915
         ],
         [
-          "2016: Stadt Basel",
-          3155
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           930
         ],
         [
-          "2017: Stadt Basel",
-          3176
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           935
         ],
         [
-          "2018: Stadt Basel",
-          3232
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           946
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          2702
+        ],
+        [
+          "Stadt Basel: 2012",
+          2801
+        ],
+        [
+          "Stadt Basel: 2013",
+          2866
+        ],
+        [
+          "Stadt Basel: 2014",
+          3096
+        ],
+        [
+          "Stadt Basel: 2015",
+          3156
+        ],
+        [
+          "Stadt Basel: 2016",
+          3155
+        ],
+        [
+          "Stadt Basel: 2017",
+          3176
+        ],
+        [
+          "Stadt Basel: 2018",
+          3232
+        ],
+        [
+          "Stadt Basel: 2019",
           3252
         ]
       ],
@@ -654,75 +750,87 @@
       "legendIndex": 8,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           327
         ],
         [
-          "2011: Stadt Basel",
-          1063
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           312
         ],
         [
-          "2012: Stadt Basel",
-          1041
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           330
         ],
         [
-          "2013: Stadt Basel",
-          1078
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           315
         ],
         [
-          "2014: Stadt Basel",
-          1090
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           305
         ],
         [
-          "2015: Stadt Basel",
-          1061
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           299
         ],
         [
-          "2016: Stadt Basel",
-          1065
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           295
         ],
         [
-          "2017: Stadt Basel",
-          1084
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           309
         ],
         [
-          "2018: Stadt Basel",
-          1101
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           296
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          1063
+        ],
+        [
+          "Stadt Basel: 2012",
+          1041
+        ],
+        [
+          "Stadt Basel: 2013",
+          1078
+        ],
+        [
+          "Stadt Basel: 2014",
+          1090
+        ],
+        [
+          "Stadt Basel: 2015",
+          1061
+        ],
+        [
+          "Stadt Basel: 2016",
+          1065
+        ],
+        [
+          "Stadt Basel: 2017",
+          1084
+        ],
+        [
+          "Stadt Basel: 2018",
+          1101
+        ],
+        [
+          "Stadt Basel: 2019",
           1107
         ]
       ],
@@ -735,75 +843,87 @@
       "legendIndex": 9,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           229
         ],
         [
-          "2011: Stadt Basel",
-          857
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           226
         ],
         [
-          "2012: Stadt Basel",
-          870
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           231
         ],
         [
-          "2013: Stadt Basel",
-          875
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           233
         ],
         [
-          "2014: Stadt Basel",
-          896
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           240
         ],
         [
-          "2015: Stadt Basel",
-          921
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           246
         ],
         [
-          "2016: Stadt Basel",
-          917
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           245
         ],
         [
-          "2017: Stadt Basel",
-          920
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           244
         ],
         [
-          "2018: Stadt Basel",
-          924
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           253
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          857
+        ],
+        [
+          "Stadt Basel: 2012",
+          870
+        ],
+        [
+          "Stadt Basel: 2013",
+          875
+        ],
+        [
+          "Stadt Basel: 2014",
+          896
+        ],
+        [
+          "Stadt Basel: 2015",
+          921
+        ],
+        [
+          "Stadt Basel: 2016",
+          917
+        ],
+        [
+          "Stadt Basel: 2017",
+          920
+        ],
+        [
+          "Stadt Basel: 2018",
+          924
+        ],
+        [
+          "Stadt Basel: 2019",
           982
         ]
       ],
@@ -816,75 +936,87 @@
       "legendIndex": 10,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           597
         ],
         [
-          "2011: Stadt Basel",
-          2071
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           610
         ],
         [
-          "2012: Stadt Basel",
-          2116
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           609
         ],
         [
-          "2013: Stadt Basel",
-          2149
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           626
         ],
         [
-          "2014: Stadt Basel",
-          2247
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           657
         ],
         [
-          "2015: Stadt Basel",
-          2316
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           683
         ],
         [
-          "2016: Stadt Basel",
-          2345
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           698
         ],
         [
-          "2017: Stadt Basel",
-          2362
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           714
         ],
         [
-          "2018: Stadt Basel",
-          2362
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           710
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          2071
+        ],
+        [
+          "Stadt Basel: 2012",
+          2116
+        ],
+        [
+          "Stadt Basel: 2013",
+          2149
+        ],
+        [
+          "Stadt Basel: 2014",
+          2247
+        ],
+        [
+          "Stadt Basel: 2015",
+          2316
+        ],
+        [
+          "Stadt Basel: 2016",
+          2345
+        ],
+        [
+          "Stadt Basel: 2017",
+          2362
+        ],
+        [
+          "Stadt Basel: 2018",
+          2362
+        ],
+        [
+          "Stadt Basel: 2019",
           2423
         ]
       ],
@@ -897,75 +1029,87 @@
       "legendIndex": 11,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           183
         ],
         [
-          "2011: Stadt Basel",
-          993
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           195
         ],
         [
-          "2012: Stadt Basel",
-          1050
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           205
         ],
         [
-          "2013: Stadt Basel",
-          1090
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           210
         ],
         [
-          "2014: Stadt Basel",
-          1221
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           217
         ],
         [
-          "2015: Stadt Basel",
-          1288
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           207
         ],
         [
-          "2016: Stadt Basel",
-          1270
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           213
         ],
         [
-          "2017: Stadt Basel",
-          1246
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           205
         ],
         [
-          "2018: Stadt Basel",
-          1241
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           203
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          993
+        ],
+        [
+          "Stadt Basel: 2012",
+          1050
+        ],
+        [
+          "Stadt Basel: 2013",
+          1090
+        ],
+        [
+          "Stadt Basel: 2014",
+          1221
+        ],
+        [
+          "Stadt Basel: 2015",
+          1288
+        ],
+        [
+          "Stadt Basel: 2016",
+          1270
+        ],
+        [
+          "Stadt Basel: 2017",
+          1246
+        ],
+        [
+          "Stadt Basel: 2018",
+          1241
+        ],
+        [
+          "Stadt Basel: 2019",
           1256
         ]
       ],
@@ -978,75 +1122,87 @@
       "legendIndex": 12,
       "data": [
         [
-          "2011: Innenstadt",
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
           288
         ],
         [
-          "2011: Stadt Basel",
-          824
-        ],
-        [
-          "2012: Innenstadt",
+          "Innenstadt: 2012",
           305
         ],
         [
-          "2012: Stadt Basel",
-          831
-        ],
-        [
-          "2013: Innenstadt",
+          "Innenstadt: 2013",
           323
         ],
         [
-          "2013: Stadt Basel",
-          865
-        ],
-        [
-          "2014: Innenstadt",
+          "Innenstadt: 2014",
           319
         ],
         [
-          "2014: Stadt Basel",
-          884
-        ],
-        [
-          "2015: Innenstadt",
+          "Innenstadt: 2015",
           328
         ],
         [
-          "2015: Stadt Basel",
-          888
-        ],
-        [
-          "2016: Innenstadt",
+          "Innenstadt: 2016",
           335
         ],
         [
-          "2016: Stadt Basel",
-          893
-        ],
-        [
-          "2017: Innenstadt",
+          "Innenstadt: 2017",
           335
         ],
         [
-          "2017: Stadt Basel",
-          891
-        ],
-        [
-          "2018: Innenstadt",
+          "Innenstadt: 2018",
           332
         ],
         [
-          "2018: Stadt Basel",
-          879
-        ],
-        [
-          "2019: Innenstadt",
+          "Innenstadt: 2019",
           340
         ],
         [
-          "2019: Stadt Basel",
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          824
+        ],
+        [
+          "Stadt Basel: 2012",
+          831
+        ],
+        [
+          "Stadt Basel: 2013",
+          865
+        ],
+        [
+          "Stadt Basel: 2014",
+          884
+        ],
+        [
+          "Stadt Basel: 2015",
+          888
+        ],
+        [
+          "Stadt Basel: 2016",
+          893
+        ],
+        [
+          "Stadt Basel: 2017",
+          891
+        ],
+        [
+          "Stadt Basel: 2018",
+          879
+        ],
+        [
+          "Stadt Basel: 2019",
           914
         ]
       ],
@@ -1067,13 +1223,29 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "fontSize": "11px"
+        "color": "#000000"
       },
-      "step": 1,
-      "rotation": -45
-    },
-    "tickInterval": 1
+      "formatter": function () {
+              //add sum of observations of visible series to the axis label
+              var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                  return val.visible;
+              });
+              var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+              var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                  return accumulator + series.yData[indexOfCurrentValue];
+              }, 0);
+              //use N if all series are visible, otherwise use n
+              var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */'n=';
+
+              //delete everything before ":", including ":"
+              this.value = this.value.replace(/[^:]*:/, "");
+
+              //check for value that contains only spaces
+              if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value;
+              //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+              return "<b>" + this.value + "</b>";
+          }
+    }
   },
   "chart": {
     "width": 485,
@@ -1120,7 +1292,7 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
+      "stacking": "percent",
       "groupPadding": 0
     }
   },
@@ -1134,7 +1306,7 @@
     "text": "Arbeitsstätten nach Branche"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Innenstadt und Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -1157,9 +1329,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     },
-    "tickInterval": 2000
+    "tickAmount": 6
   },
   "legend": {
     "symbolRadius": 0,
@@ -1196,10 +1368,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": true
   },
