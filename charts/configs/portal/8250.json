@@ -329,7 +329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 14.5.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

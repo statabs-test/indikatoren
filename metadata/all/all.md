@@ -2129,35 +2129,6 @@ id | visible | visibleInPortal | indikatorenset
 9491 | true | true | Arbeitsmarkt
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
-<<<<<<< HEAD
-9575 | true | true | Innenstadt - QuiZ
-9576 | true | true | Innenstadt - QuiZ
-9577 | true | true | Innenstadt - QuiZ
-9578 | true | true | Innenstadt - QuiZ
-9579 | true | true | Innenstadt - QuiZ
-9580 | true | true | Innenstadt - QuiZ
-9581 | true | true | Innenstadt - QuiZ
-9582 | true | true | Innenstadt - QuiZ
-9583 | true | true | Innenstadt - QuiZ
-9584 | true | true | Innenstadt - QuiZ
-9585 | true | true | Innenstadt - QuiZ
-9586 | true | false | Innenstadt - QuiZ
-9587 | true | false | Innenstadt - QuiZ
-9588 | true | true | Innenstadt - QuiZ
-9589 | true | true | Innenstadt - QuiZ
-9590 | true | true | Innenstadt - QuiZ
-9591 | true | true | Innenstadt - QuiZ
-9592 | true | true | Innenstadt - QuiZ
-9593 | true | true | Innenstadt - QuiZ
-9594 | true | true | Innenstadt - QuiZ
-9595 | true | true | Innenstadt - QuiZ
-9596 | true | true | Innenstadt - QuiZ
-9598 | true | false | Innenstadt - QuiZ
-9599 | true | false | Innenstadt - QuiZ
-9600 | true | false | Innenstadt - QuiZ
-9601 | true | false | Innenstadt - QuiZ
-9663 | true | true | Innenstadt-QuiZ
-=======
 9575 | true | true | Innenstadt-QuiZ
 9576 | true | true | Innenstadt-QuiZ
 9577 | true | true | Innenstadt-QuiZ
@@ -2185,7 +2156,7 @@ id | visible | visibleInPortal | indikatorenset
 9599 | true | false | Innenstadt-QuiZ
 9600 | true | false | Innenstadt-QuiZ
 9601 | true | false | Innenstadt-QuiZ
->>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
+9663 | true | true | Innenstadt-QuiZ
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#FABD24",
+      "visible": true,
       "data": [
         [
           "2008",
@@ -17,7 +18,7 @@
         ],
         [
           "2011",
-          "-1 400 570"
+          -1400570
         ],
         [
           "2012",
@@ -41,7 +42,7 @@
         ],
         [
           "2017",
-          "-147 214"
+          -147214
         ],
         [
           "2018",
@@ -52,15 +53,16 @@
           1553376
         ]
       ],
-      "name": "Saldo Kanton BS",
+      "name": "Saldo Innenstadt",
       "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#923F8D",
+      "visible": true,
       "data": [
         [
           "2008",
-          "-1 958 783"
+          -1958783
         ],
         [
           "2009",
@@ -107,7 +109,7 @@
           6191114
         ]
       ],
-      "name": "undefined",
+      "name": "Saldo Kanton BS",
       "turboThreshold": 0
     }
   ],
@@ -188,7 +190,7 @@
     }
   },
   "yAxis": {
-    "min": 0,
+    "min": -1500000,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -202,14 +204,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
-    "plotLines": [
-      {
-        "color": "#B9CFD7",
-        "value": 0
-      }
-    ]
+    "max": 15000000,
+    "tickInterval": 2500000
   },
   "legend": {
     "enabled": true,

@@ -956,7 +956,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-28"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 28.3.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

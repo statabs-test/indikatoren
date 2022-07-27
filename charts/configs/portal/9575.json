@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#8B2223",
-      "index": 12,
+      "index": 14,
       "legendIndex": 0,
       "data": [
         [
@@ -11,39 +11,39 @@
         ],
         [
           "Innenstadt: 2011",
-          140
+          138
         ],
         [
           "Innenstadt: 2012",
-          145
+          143
         ],
         [
           "Innenstadt: 2013",
-          142
+          141
         ],
         [
           "Innenstadt: 2014",
-          147
+          145
         ],
         [
           "Innenstadt: 2015",
-          150
+          148
         ],
         [
           "Innenstadt: 2016",
-          142
+          140
         ],
         [
           "Innenstadt: 2017",
-          149
+          147
         ],
         [
           "Innenstadt: 2018",
-          152
+          150
         ],
         [
           "Innenstadt: 2019",
-          150
+          148
         ],
         [
           " ",
@@ -55,47 +55,47 @@
         ],
         [
           "Stadt Basel: 2011",
-          641
+          631
         ],
         [
           "Stadt Basel: 2012",
-          637
+          626
         ],
         [
           "Stadt Basel: 2013",
-          627
+          616
         ],
         [
           "Stadt Basel: 2014",
-          646
-        ],
-        [
-          "Stadt Basel: 2015",
-          648
-        ],
-        [
-          "Stadt Basel: 2016",
           634
         ],
         [
-          "Stadt Basel: 2017",
+          "Stadt Basel: 2015",
           638
         ],
         [
+          "Stadt Basel: 2016",
+          623
+        ],
+        [
+          "Stadt Basel: 2017",
+          626
+        ],
+        [
           "Stadt Basel: 2018",
-          628
+          614
         ],
         [
           "Stadt Basel: 2019",
-          636
+          622
         ]
       ],
-      "name": "Primärer Sektor, verarbeit. Gewerbe",
+      "name": "Verarbeitendes Gewerbe",
       "turboThreshold": 0
     },
     {
       "color": "#DC440E",
-      "index": 11,
+      "index": 13,
       "legendIndex": 1,
       "data": [
         [
@@ -104,39 +104,39 @@
         ],
         [
           "Innenstadt: 2011",
-          135
+          72
         ],
         [
           "Innenstadt: 2012",
-          142
+          72
         ],
         [
           "Innenstadt: 2013",
-          142
+          76
         ],
         [
           "Innenstadt: 2014",
-          147
+          76
         ],
         [
           "Innenstadt: 2015",
-          141
+          74
         ],
         [
           "Innenstadt: 2016",
-          120
+          59
         ],
         [
           "Innenstadt: 2017",
-          115
+          60
         ],
         [
           "Innenstadt: 2018",
-          115
+          62
         ],
         [
           "Innenstadt: 2019",
-          103
+          57
         ],
         [
           " ",
@@ -148,47 +148,47 @@
         ],
         [
           "Stadt Basel: 2011",
-          1544
+          768
         ],
         [
           "Stadt Basel: 2012",
-          1560
+          773
         ],
         [
           "Stadt Basel: 2013",
-          1558
+          790
         ],
         [
           "Stadt Basel: 2014",
-          1552
+          802
         ],
         [
           "Stadt Basel: 2015",
-          1530
+          802
         ],
         [
           "Stadt Basel: 2016",
-          1497
+          780
         ],
         [
           "Stadt Basel: 2017",
-          1447
+          755
         ],
         [
           "Stadt Basel: 2018",
-          1418
+          748
         ],
         [
           "Stadt Basel: 2019",
-          1400
+          756
         ]
       ],
-      "name": "Bau und Verkehr",
+      "name": "Bau, Energie und Wasser",
       "turboThreshold": 0
     },
     {
       "color": "#FF8028",
-      "index": 10,
+      "index": 12,
       "legendIndex": 2,
       "data": [
         [
@@ -281,7 +281,7 @@
     },
     {
       "color": "#FFBB58",
-      "index": 9,
+      "index": 11,
       "legendIndex": 3,
       "data": [
         [
@@ -374,8 +374,101 @@
     },
     {
       "color": "#FFDA80",
-      "index": 8,
+      "index": 10,
       "legendIndex": 4,
+      "data": [
+        [
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
+          52
+        ],
+        [
+          "Innenstadt: 2012",
+          59
+        ],
+        [
+          "Innenstadt: 2013",
+          56
+        ],
+        [
+          "Innenstadt: 2014",
+          61
+        ],
+        [
+          "Innenstadt: 2015",
+          59
+        ],
+        [
+          "Innenstadt: 2016",
+          52
+        ],
+        [
+          "Innenstadt: 2017",
+          45
+        ],
+        [
+          "Innenstadt: 2018",
+          46
+        ],
+        [
+          "Innenstadt: 2019",
+          41
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          630
+        ],
+        [
+          "Stadt Basel: 2012",
+          646
+        ],
+        [
+          "Stadt Basel: 2013",
+          632
+        ],
+        [
+          "Stadt Basel: 2014",
+          615
+        ],
+        [
+          "Stadt Basel: 2015",
+          599
+        ],
+        [
+          "Stadt Basel: 2016",
+          582
+        ],
+        [
+          "Stadt Basel: 2017",
+          564
+        ],
+        [
+          "Stadt Basel: 2018",
+          552
+        ],
+        [
+          "Stadt Basel: 2019",
+          524
+        ]
+      ],
+      "name": "Verkehr und Lagerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "legendIndex": 5,
       "data": [
         [
           "Innenstadt",
@@ -466,9 +559,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
-      "index": 7,
-      "legendIndex": 5,
+      "color": "#D7E8D2",
+      "index": 8,
+      "legendIndex": 6,
       "data": [
         [
           "Innenstadt",
@@ -559,9 +652,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D7E8D2",
-      "index": 6,
-      "legendIndex": 6,
+      "color": "#73BA7C",
+      "index": 7,
+      "legendIndex": 7,
       "data": [
         [
           "Innenstadt",
@@ -652,9 +745,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 5,
-      "legendIndex": 7,
+      "color": "#2B0099",
+      "index": 6,
+      "legendIndex": 8,
       "data": [
         [
           "Innenstadt",
@@ -745,9 +838,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2B0099",
-      "index": 4,
-      "legendIndex": 8,
+      "color": "#008AC3",
+      "index": 5,
+      "legendIndex": 9,
       "data": [
         [
           "Innenstadt",
@@ -838,9 +931,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "index": 3,
-      "legendIndex": 9,
+      "color": "#B9CFD7",
+      "index": 4,
+      "legendIndex": 10,
       "data": [
         [
           "Innenstadt",
@@ -931,9 +1024,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B9CFD7",
-      "index": 2,
-      "legendIndex": 10,
+      "color": "#672773",
+      "index": 3,
+      "legendIndex": 11,
       "data": [
         [
           "Innenstadt",
@@ -1024,9 +1117,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#672773",
-      "index": 1,
-      "legendIndex": 11,
+      "color": "#E7CEE2",
+      "index": 2,
+      "legendIndex": 12,
       "data": [
         [
           "Innenstadt",
@@ -1117,9 +1210,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
-      "index": 0,
-      "legendIndex": 12,
+      "color": "#67401E",
+      "index": 1,
+      "legendIndex": 13,
       "data": [
         [
           "Innenstadt",
@@ -1207,6 +1300,99 @@
         ]
       ],
       "name": "Schönheitspflege, sonst. pers. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C4AB91",
+      "index": 0,
+      "legendIndex": 14,
+      "data": [
+        [
+          "Innenstadt",
+          null
+        ],
+        [
+          "Innenstadt: 2011",
+          13
+        ],
+        [
+          "Innenstadt: 2012",
+          13
+        ],
+        [
+          "Innenstadt: 2013",
+          11
+        ],
+        [
+          "Innenstadt: 2014",
+          12
+        ],
+        [
+          "Innenstadt: 2015",
+          10
+        ],
+        [
+          "Innenstadt: 2016",
+          11
+        ],
+        [
+          "Innenstadt: 2017",
+          12
+        ],
+        [
+          "Innenstadt: 2018",
+          9
+        ],
+        [
+          "Innenstadt: 2019",
+          7
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Stadt Basel",
+          null
+        ],
+        [
+          "Stadt Basel: 2011",
+          156
+        ],
+        [
+          "Stadt Basel: 2012",
+          152
+        ],
+        [
+          "Stadt Basel: 2013",
+          147
+        ],
+        [
+          "Stadt Basel: 2014",
+          147
+        ],
+        [
+          "Stadt Basel: 2015",
+          139
+        ],
+        [
+          "Stadt Basel: 2016",
+          146
+        ],
+        [
+          "Stadt Basel: 2017",
+          140
+        ],
+        [
+          "Stadt Basel: 2018",
+          132
+        ],
+        [
+          "Stadt Basel: 2019",
+          134
+        ]
+      ],
+      "name": "Übrige Branchen",
       "turboThreshold": 0
     }
   ],
@@ -1336,7 +1522,9 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "enabled": true,
     "reversed": false,
@@ -1344,10 +1532,10 @@
     "verticalAlign": "top",
     "align": "left",
     "padding": 0,
-    "itemDistance": 2,
+    "itemDistance": 0,
     "width": 500,
-    "itemWidth": 230,
-    "itemMarginBottom": 1
+    "itemWidth": 210,
+    "itemMarginBottom": 0
   },
   "navigation": {
     "menuItemStyle": {

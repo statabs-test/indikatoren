@@ -42302,7 +42302,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstättenentwicklung nach Branche",
 		"subtitle": "Basel-Stadt, 2019 gegenüber 2015",
-		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2019 insgesamt um 1,7% abgenommen. Deutliche Rückgänge waren im Bereich Bau und Verkehr (-27%) sowie im Grosshandel (-23%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen.",
+		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2019 insgesamt um 1,7% abgenommen. Deutliche Rückgänge waren im Bereich Verkehr und Lagerei (-31%), im Grosshandel (-23%) sowie im Bereich Bau, Energie und Wasser (-23%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen (+8%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -42654,7 +42654,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Basel-Stadt und Innenstadt",
 		"lesehilfe": "Von Personen, die in der Innenstadt wohnen, ergab sich im Jahr 2019 durch Zu- und Wegzüge ein positiver Saldo des Steuerertrags von rund 1,5 Mio. Franken (Zuzüger: 5,0 Mio. Franken; Wegzüger 3,5 Mio. Franken). Für den gesamten Kanton ergab sich - einschliesslich Gemeindesteuer - ein Plus von 6,2 Mio. Franken.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
 		"quellenangabe": [
@@ -42770,7 +42770,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl zu Fuss gehende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 überquerten an Werktagen durchschnittlich 11 710 Fussgänger die Mittlere Rheinbrücke. An Samstagen waren es mit 17 839 deutlich mehr.",
+		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 902 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 464 etwas mehr.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -42952,20 +42952,6 @@ var indikatoren = [
 		"id": 9596
 	},
 	{
-<<<<<<< HEAD
-		"template": "line001",
-		"data-id": 9663,
-		"chart-id": 9663,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
-		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-=======
 		"template": "template001",
 		"data-id": 9597,
 		"chart-id": 9597,
@@ -42978,22 +42964,10 @@ var indikatoren = [
 		"erlaeuterungen": "Modellrechungen für alle Haltestellen im Perimeter Innenstadt. Berücksichtigt sind die Passagierzahlen der Basler Verkehrsbetriebe (BVB), der Baselland Transport AG (BLT), der Autobus AG Liestal (AAGL), sowie seit 2019 des öffentlichen Busbetriebs in der Communauté d'agglomération des Trois Frontières im Elsass (Distribus) und seit 2020 der Südwestdeutschen Landesverkehrs-GmbH (SWEG). BVB, Distribus und SWEG: Mo-Do; BLT und AAGL: Mo-Fr.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
->>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-<<<<<<< HEAD
-			"Kanton"
-		],
-		"description": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.09663",
-		"kennzahlenset": "Innenstadt-QuiZ",
-		"kuerzelKunde": "2.4-1",
-		"stufe1": "",
-=======
 			"Innenstadt"
 		],
 		"description": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
@@ -43003,26 +42977,54 @@ var indikatoren = [
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.3-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
->>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"orderKey": "_000",
-=======
 		"orderKey": "04_00_00_00_00_000",
->>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-<<<<<<< HEAD
-		"aktualisierungsdatum": "2022-07-27T10:39:40",
-		"id": 9663
-=======
 		"aktualisierungsdatum": "2022-04-19T12:30:38",
 		"id": 9597
->>>>>>> f18d181ab86d64c81ff9168be7a3a7b4e11737b6
+	},
+	{
+		"template": "line001",
+		"data-id": 9663,
+		"chart-id": 9663,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
+		"subtitle": "Basel-Stadt und Innenstadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.09663",
+		"kennzahlenset": "Innenstadt-QuiZ",
+		"kuerzelKunde": "2.4-2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-07-27T10:39:40",
+		"id": 9663
 	}
 ];

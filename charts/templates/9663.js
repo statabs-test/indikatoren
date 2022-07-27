@@ -2,7 +2,6 @@
   return {
     "chart": {
       "type": "column",
-
       "spacingBottom": 30
     },
     plotOptions: {
@@ -23,8 +22,8 @@
         } 
     },
     "series": [
-        {"color": "#FABD24", "visible": true}, /* gelb*/
-          {"color": "#923F8D", "visible": true}, /* violett*/
+        {"color": "#71a3b5", "visible": true}, /* Innenstadt*/
+          {"color": "#ff8028", "visible": true}, /* Kanton BS*/
         //{"color": "#C8C8C8", "visible": true} /* grau */
         ],
     "legend": {

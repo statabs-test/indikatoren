@@ -525,7 +525,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 14.5.2021"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
