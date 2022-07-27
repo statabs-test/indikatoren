@@ -43,5 +43,6 @@ var indikatorensetNames = [
 	"Leerstand (Print)",
 	"Staedtevergleich",
 	"Innenstadt - QuiZ",
+	"Innenstadt-QuiZ",
 	"Test"
 ];
