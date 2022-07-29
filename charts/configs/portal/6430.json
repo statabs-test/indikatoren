@@ -82,6 +82,10 @@
         [
           2020,
           7.6
+        ],
+        [
+          2021,
+          7.6
         ]
       ],
       "name": "Schweiz"
@@ -168,6 +172,10 @@
         [
           2020,
           1.5
+        ],
+        [
+          2021,
+          1.6
         ]
       ],
       "name": "Deutschland"
@@ -254,6 +262,10 @@
         [
           2020,
           7.4
+        ],
+        [
+          2021,
+          7
         ]
       ],
       "name": "Italien"
@@ -339,6 +351,10 @@
         ],
         [
           2020,
+          11.7
+        ],
+        [
+          2021,
           11.7
         ]
       ],
@@ -426,6 +442,10 @@
         [
           2020,
           2.6
+        ],
+        [
+          2021,
+          2.7
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -512,6 +532,10 @@
         [
           2020,
           2.2
+        ],
+        [
+          2021,
+          2.3
         ]
       ],
       "name": "EU-Ost"
@@ -598,6 +622,10 @@
         [
           2020,
           9.4
+        ],
+        [
+          2021,
+          9.6
         ]
       ],
       "name": "Balkan"
@@ -683,6 +711,10 @@
         ],
         [
           2020,
+          1.8
+        ],
+        [
+          2021,
           1.8
         ]
       ],
@@ -770,6 +802,10 @@
         [
           2020,
           2.3
+        ],
+        [
+          2021,
+          2.6
         ]
       ],
       "name": "Arabische Länder"
@@ -856,6 +892,10 @@
         [
           2020,
           2.2
+        ],
+        [
+          2021,
+          2.6
         ]
       ],
       "name": "Afrikanische Länder"
@@ -942,6 +982,10 @@
         [
           2020,
           1.1
+        ],
+        [
+          2021,
+          1.1
         ]
       ],
       "name": "Übrige Länder"
@@ -1025,7 +1069,14 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
   },
   "yAxis": {
     "min": 0,
@@ -1071,7 +1122,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 27.7.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -1109,7 +1160,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6430"

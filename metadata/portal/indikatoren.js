@@ -18097,7 +18097,7 @@ var indikatoren = [
 		],
 		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die höchste IV-Quote weist 2020 mit 11,7% die Türkei auf, gefolgt von den Balkanländern (9,4%), der Schweiz (7,6%) sowie Italien (7,4%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 8,4 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2020 kontinuierlich von 8,9% auf 6,0%.",
+		"lesehilfe": "Die höchste IV-Quote weist 2021 mit 11,7% die Türkei auf, gefolgt von den Balkanländern (9,6%), der Schweiz (7,6%) sowie Italien (7,0%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 8,8 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2021 kontinuierlich von 8,9% auf 6,0%.",
 		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18138,7 +18138,7 @@ var indikatoren = [
 		],
 		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Top 6 der IV-Bezüger, Basel-Stadt",
-		"lesehilfe": "Seit 2009 tendiert die IV-Quote bei allen dargestellten Staatsangehörigkeiten gegen unten. Mit 11,7% weist die Türkei 2020 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,3% sowie der Schweiz mit 7,6%.",
+		"lesehilfe": "Nachem die IV-Quote seit 2009 bei allen dargestellten Staatsangehörigkeiten gegen unten tendierte, ist 2021 bei den Ländern des ehemaligen Jugoslawien seit 2021 sowie bei Portugal seit 2019 wieder ein Anstieg gegenüber dem Vorjahr zu beobachten. Mit 11,7% weist die Türkei 2021 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,5% sowie der Schweiz mit 7,6%.",
 		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, seit 2002 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -18178,8 +18178,8 @@ var indikatoren = [
 			6707
 		],
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 19,6% bei den Ausländern respektive 15,2% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 18,0% bei den Ausländern respektive 15,4% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
 		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -19549,46 +19549,44 @@ var indikatoren = [
 		"id": 6481
 	},
 	{
+		"template": "template001",
+		"data-id": 6482,
+		"chart-id": 6482,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6723"
+			6723
 		],
-		"template": "template001",
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "D4-1",
-		"description": "Beschuldigte Erwachsene",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"lesehilfe": "Im Jahr 2021 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,8 mindestens einer Straftat beschuldigt.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:02.022",
+		"description": "Beschuldigte Erwachsene",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D4-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 mindestens einer Straftat beschuldigt.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"orderKey": "04_00_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_401",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6482,
-		"chart-id": 6482,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-01T08:33:02",
 		"id": 6482
 	},
 	{
@@ -32657,7 +32655,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2020 beträgt die Sozialhilfequote im Klybeck 12,6% und in Kleinhüningen 11,5%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,7%).",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Klybeck 12,8% und in Kleinhüningen 11,7%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,3%).",
 		"erlaeuterungen": "Sozialhilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"

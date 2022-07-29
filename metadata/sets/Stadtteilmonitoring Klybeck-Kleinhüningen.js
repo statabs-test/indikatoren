@@ -1222,7 +1222,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "2020 beträgt die Sozialhilfequote im Klybeck 12,6% und in Kleinhüningen 11,5%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,7%).",
+		"lesehilfe": "2021 beträgt die Sozialhilfequote im Klybeck 12,8% und in Kleinhüningen 11,7%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,3%).",
 		"erlaeuterungen": "Sozialhilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
