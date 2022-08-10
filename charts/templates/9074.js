@@ -93,7 +93,8 @@
           textOverflow: 'ellipsis',
         enabled: true,
         format: '{point.percentage:.0f}%',
-        distance: -10,
+        distance: -20,
+        x: -2,
         allowOverlap: false,
         style: {
           color: 'contrast',
