@@ -5,7 +5,7 @@
     plotOptions: {
       pie: {
         size: 180,
-        center: ["50%", "53%"]
+        center: ["50%", "53%"],
       }, 
       series: {
           allowPointSelect: false,
@@ -92,7 +92,16 @@
         '#246370'
       ],
       dataLabels: {
+        whiteSpace: 'nowrap', 
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
         enabled: true,
+        formatter: function () {
+          if (this.point.name == "5 Zimmer (0,3%)") {
+              return Highcharts.numberFormat(this.percentage, 0) +"%%";
+          }
+          else return '';
+      },
         format: '{point.percentage:.0f}%',
         distance: -30,
         allowOverlap: false,

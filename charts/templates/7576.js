@@ -45,7 +45,7 @@
         },
         labels: {
         	formatter: function(){
-            return Highcharts.numberFormat(this.value*100, 2) + "%";
+            return Highcharts.numberFormat(this.value*100, 1) + "%";
           },
             style: {
                 color: "#000000"

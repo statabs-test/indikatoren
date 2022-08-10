@@ -88,9 +88,13 @@
         '#246370'
       ],
       dataLabels: {
+          whiteSpace: 'nowrap', 
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
         enabled: true,
         format: '{point.percentage:.0f}%',
         distance: -10,
+        allowOverlap: false,
         style: {
           color: 'contrast',
           textOutline: "0px black", 
