@@ -49,11 +49,18 @@
 						"brightness": 0,
 					}
 				}, 
-				tooltip: {
+				/*tooltip: {
 					pointFormatter: function(){
-						return this.properties.GD_NAME +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
+						return this.GD_NAME +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
 					}
-				}
+				}*/
+				"tooltip": {
+					"formatter": function(args){
+						var this_point_index = this.series.data.indexOf(this.point);
+						return '<span style="color:' + this.color + ';">\u25CF</span> Gemeinde: <b>' + this.point.properties.GD_NAME + '</b>';
+					},
+					useHTML: true
+				},   
 			}, 
 			{
 				visible: false, 
