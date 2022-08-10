@@ -7,7 +7,7 @@
         "color": "#000000"
       }
     },
-    "min": 0,
+    "min": -2.5,
     "max": undefined,
     "title": ""
   },
