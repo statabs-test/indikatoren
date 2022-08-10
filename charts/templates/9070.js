@@ -45,7 +45,7 @@
   },
   series: 
   [
-    {
+    { //startAngle: 90,
       showInLegend: false,
       type: 'pie',
       innerSize: '100%',
@@ -78,7 +78,7 @@
         }
       }
     }, 
-    {
+    { //startAngle: 90,
       showInLegend: false,
       type: 'pie',
       innerSize: '40%',
@@ -96,14 +96,15 @@
         overflow: 'hidden',
         textOverflow: 'ellipsis',
         enabled: true,
-        formatter: function () {
+        /*formatter: function () {
           if (this.point.name == "5 Zimmer (0,3%)") {
               return Highcharts.numberFormat(this.percentage, 0) +"%%";
           }
           else return '';
-      },
+      },*/
         format: '{point.percentage:.0f}%',
         distance: -30,
+        x: 5,
         allowOverlap: false,
         align: "left",
         style: {
