@@ -80951,10 +80951,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Belegungsdauer der Allmend in der Innenstadt",
+		"title": "Veranstaltungen auf der Allmend in der Innenstadt",
 		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
 		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
-		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
+		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
 		],
@@ -80965,7 +80965,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Belegungsdauer der Allmend in der Innenstadt",
+		"description": "Veranstaltungen auf der Allmend in der Innenstadt",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
@@ -80994,7 +80994,7 @@ var indikatoren = [
 		"title": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt",
 		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
 		"lesehilfe": "Auf dem Barfüsser- und dem Theaterplatz fanden 2021 an 16 Tagen lärmintensive bewilligte Veranstaltungen statt.",
-		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte lärmintensive Veranstaltungen stattfinden (bspw. ausgesprochene Musikanlässe, wie bass- und rhythmusbetonte Live-Konzerte, Discos und Kino, respektive Anlässe mit einem hohen Animationsanteil). Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage sowie ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
+		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte lärmintensive Veranstaltungen stattfinden (bspw. ausgesprochene Musikanlässe, wie bass- und rhythmusbetonte Live-Konzerte, Discos und Kino, respektive Anlässe mit einem hohen Animationsanteil). Für jeden Platz existiert (neben dem jährlichen Kontingent an maximalen Veranstaltungstagen) ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
 		],
@@ -81459,7 +81459,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 von 120 500  m² auf 184 700 m² zugenommen (+ 53%). Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
+		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -81485,7 +81485,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-11T09:37:33",
+		"aktualisierungsdatum": "2021-12-23T02:25:49",
 		"id": 9590
 	},
 	{
@@ -81687,7 +81687,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Die Zahl der an Haltestellen in der Innenstadt aussteigenden ÖV-Passagiere hat während der beiden Pandemie-Jahre 2020 und 2021 abgenommen. Im Jahr 2021 wurden werktags durchschnittlich rund 130 000 Passagiere täglich gezählt, das sind 46% weniger als im Mittel der Jahre 2011 bis 2020. 2022 nahm die Zahl der aussteigenden Passagiere im Vergleich zum Vorjahr wieder um rund einen Viertel zu.",
+		"lesehilfe": "Die Zahl der an Haltestellen in der Innenstadt aussteigenden ÖV-Passagiere hat während der beiden Pandemie-Jahre 2020 und 2021 abgenommen. Im Jahr 2021 wurden werktags durchschnittlich rund 130 000 Passagiere täglich gezählt, das sind 46% weniger als im Mittel der Jahre 2011 bis 2020. 2022 nahm die Zahl der aussteigenden Passagiere im Vergleich zum Vorjahr wieder um rund ein Viertel zu.",
 		"erlaeuterungen": "Modellrechungen für alle Haltestellen im Perimeter Innenstadt. Berücksichtigt sind die Passagierzahlen der Basler Verkehrsbetriebe (BVB), der Baselland Transport AG (BLT), der Autobus AG Liestal (AAGL), sowie seit 2019 des öffentlichen Busbetriebs in der Communauté d'agglomération des Trois Frontières im Elsass (Distribus) und seit 2020 der Südwestdeutschen Landesverkehrs-GmbH (SWEG). BVB, Distribus und SWEG: Mo-Do; BLT und AAGL: Mo-Fr.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
