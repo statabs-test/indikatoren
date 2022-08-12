@@ -2156,7 +2156,7 @@ id | visible | visibleInPortal | indikatorenset
 9599 | true | false | Innenstadt-QuiZ
 9600 | true | false | Innenstadt-QuiZ
 9601 | true | false | Innenstadt-QuiZ
-9663 | true | true | Innenstadt-QuiZ
+9663 | false |  | Innenstadt-QuiZ
 9691 | true | true | Innenstadt-QuiZ
 9995 | true | false | 
 9996 | true | false | 
