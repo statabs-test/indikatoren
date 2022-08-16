@@ -80811,6 +80811,44 @@ var indikatoren = [
 		"id": 9602
 	},
 	{
+		"template": "template001",
+		"data-id": 9603,
+		"chart-id": 9603,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Güterumschlag auf dem Rhein",
+		"subtitle": "Vorjahresvergleich, in Tausend Tonnen",
+		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50 Jahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Der zweitgrösste Rückgang des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2021 trat eine leichte Erholung ein: Verglichen mit dem Vorjahr wurde ein Plus von 5,5% auf 5,4 Mio. Tonnen verzeichnet.",
+		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2012-2021 und wie der Umschlag in den folgenden Jahren dem Vorjahr gegenüber erhöht und/oder verringert wird. Dies ist hilfreich, um zu verstehen, in welchem Umfang ein Jahr positiv oder negativ abgeschlossen wurde und wie der aktuelle Güterumschlag 2021 von einer Reihe zunehmender und abnehmender Werte beeinflusst wird.",
+		"quellenangabe": [
+			"Schweizerische Rheinhäfen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Güterumschlag auf dem Rhein",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09603",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-19T03:20:57",
+		"id": 9603
+	},
+	{
 		"template": "line001",
 		"data-id": 9604,
 		"chart-id": 9604,
