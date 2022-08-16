@@ -12,8 +12,6 @@
         },
         "tooltip": {
             useHTML: true,
-            //"shared": false,
-            //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {point.x}: <b>{point.y:,.0f}</b><br/>'
             "pointFormatter": function () {
                 if (this.color == '#FABD24') {
                     return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y * 100), 0) + '</b><br/><b>';
@@ -27,15 +25,6 @@
 
                 }
             }
-
-            /* if (this.point.x==2012){
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + 'Vorjahresvergleich: <b>' + Highcharts.numberFormat((this.y*100),0) + '</b><br/><b>';
-                 }
-                 else {
-                   return '<span style="color:' + this.series.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y*100),0) + '</b><br/><b>';
-                 }
-                     
-                     }*/
         },
         series: [{
             upColor: '#68AB2B',
