@@ -2,7 +2,19 @@
     return {
         "xAxis": {
             tickInterval: 1,
-            type: "category"
+            type: "category",
+            labels: {
+                formatter: function () {
+                    if (this.value.length == 4) {
+                        return this.value
+                    }
+                    else {
+                        return this.value
+                            .replace("/20", "/")
+                            .replace("20", "");
+                    }
+                }
+            },
         },
         "yAxis": {
             tickAmount: 9,
@@ -14,15 +26,13 @@
             useHTML: true,
             "pointFormatter": function () {
                 if (this.color == '#FABD24') {
-                    return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y * 100), 0) + '</b><br/><b>';
+                    return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
                 }
                 else if (this.y < 0) {
-                    return '<span style="color: #B00000">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y * 100), 0) + '</b><br/><b>';
-
+                    return '<span style="color: #B00000">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
                 }
                 else {
-                    return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y * 100), 0) + '</b><br/><b>';
-
+                    return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
                 }
             }
         },
@@ -39,34 +49,34 @@
             parsed: function (columns) {
                 //define isSum by entry in first column
                 var isSum = columns[0].map(function (val, i, arr) {
-                  //column name
-                  if (i == 0) {
-                    val = 'isSum';
-                  }
-                  //column value
-                  else {
-                    switch (val) {  
-                      case columns[0].slice(-1)[0]: val = true; break;  
-                      default: val = null;
+                    //column name
+                    if (i == 0) {
+                        val = 'isSum';
                     }
-                  }
-                  return val;
+                    //column value
+                    else {
+                        switch (val) {
+                            case columns[0].slice(-1)[0]: val = true; break;
+                            default: val = null;
+                        }
+                    }
+                    return val;
                 });
                 //define color by entry in first column
                 var color = columns[0].map(function (val, i, arr) {
-                  //column name
-                  if (i == 0) {
-                    val = 'color';
-                  }
-                  //column value
-                  else {
-                    switch (val) {  
-                      case columns[0].slice(-1)[0]: val = '#FABD24'; break; 
-                      case columns[0].slice(1)[0]: val = '#FABD24'; break; 
-                      default: val = null;
+                    //column name
+                    if (i == 0) {
+                        val = 'color';
                     }
-                  }
-                  return val;
+                    //column value
+                    else {
+                        switch (val) {
+                            case columns[0].slice(-1)[0]: val = '#FABD24'; break;
+                            case columns[0].slice(1)[0]: val = '#FABD24'; break;
+                            default: val = null;
+                        }
+                    }
+                    return val;
                 });
                 columns.push(isSum);
                 columns.push(color);
