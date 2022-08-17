@@ -35,7 +35,42 @@
                 {
                     x: 0, y: 1, isSum: 2, color: 3
                 }
-            ]
+            ],
+            parsed: function (columns) {
+                //define isSum by entry in first column
+                var isSum = columns[0].map(function (val, i, arr) {
+                  //column name
+                  if (i == 0) {
+                    val = 'isSum';
+                  }
+                  //column value
+                  else {
+                    switch (val) {  
+                      case columns[0].slice(-1)[0]: val = true; break;  
+                      default: val = null;
+                    }
+                  }
+                  return val;
+                });
+                //define color by entry in first column
+                var color = columns[0].map(function (val, i, arr) {
+                  //column name
+                  if (i == 0) {
+                    val = 'color';
+                  }
+                  //column value
+                  else {
+                    switch (val) {  
+                      case columns[0].slice(-1)[0]: val = '#FABD24'; break; 
+                      case columns[0].slice(1)[0]: val = '#FABD24'; break; 
+                      default: val = null;
+                    }
+                  }
+                  return val;
+                });
+                columns.push(isSum);
+                columns.push(color);
+            }
         },
         "legend": {
             "enabled": false,

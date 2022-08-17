@@ -67,7 +67,7 @@
         {
           "name": "2021",
           "y": 5407.3,
-          "isSum": "true",
+          "isSum": true,
           "color": "#FABD24"
         }
       ],
