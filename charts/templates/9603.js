@@ -24,15 +24,16 @@
         },
         "tooltip": {
             useHTML: true,
-            "pointFormatter": function () {
-                if (this.color == '#FABD24') {
-                    return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+            headerFormat: '',
+            pointFormatter: function () {
+                if (this.name.length == 4) {
+                   return '<span style="font-size: 10px">' + this.name + '</span><br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + 'Gesamtumschlag: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
                 }
                 else if (this.y < 0) {
-                    return '<span style="color: #B00000">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+                    return '<span style="font-size: 10px">\u0394' + this.name + '</span><br/><span style="color: #B00000">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
                 }
                 else {
-                    return '<span style="color:' + this.color + '">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
+                    return '<span style="font-size: 10px">\u0394' + this.name + '</span><br/><span style="color:' + this.color + '">\u25CF</span> ' + 'Veränderung gegenüber Vorjahr: <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
                 }
             }
         },
