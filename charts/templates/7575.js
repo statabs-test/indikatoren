@@ -60,7 +60,8 @@
             "formatter": function(args){
 				/*var this_point_index = this.series.data.indexOf(this.point);*/
 				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> Leerwohnungsquote:</span><br/>' + 
-					this.point.properties.GD_NAME +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b></b>';
+					this.point.properties.GMDNAME +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b></b>';
+					
 			},
 			useHTML: true
         }, 
