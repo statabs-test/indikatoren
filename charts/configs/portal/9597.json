@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#933F8D",
+      "color": "#71a3b5",
       "data": [
         [
           2008,
@@ -64,7 +64,7 @@
           164305
         ]
       ],
-      "name": "Aussteigende �V-Passagiere Innenstadt"
+      "name": "Aussteigende ÖV-Passagiere Innenstadt"
     }
   ],
   "chart": {
@@ -196,8 +196,8 @@
     "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.4.2022"
   },
   "tooltip": {
-    "valueDecimals": 0,
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9597"
