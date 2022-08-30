@@ -16,26 +16,11 @@
       type: "category",
       
       labels: {
-          formatter: function () {
-              //add sum of observations of visible series to the axis label
-              var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-                  return val.visible;
-              });
-              var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-              var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                  return accumulator + series.yData[indexOfCurrentValue];
-              }, 0);
-              //use N if all series are visible, otherwise use n
-              var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */'n=';
-
-              //delete everything before ":", including ":"
-              this.value = this.value.replace(/[^:]*:/, "");
-
-              //check for value that contains only spaces
-              if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value;
-              //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
-              return "<b>" + this.value + "</b>";
-          }
+        step: 1,
+        rotation: -45,
+        formatter: function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
       }
     },
     "yAxis": {
