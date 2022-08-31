@@ -63,11 +63,7 @@
         legendIndex: 5,
         "states": {
           "hover": {
-            "enabled": "true"
-          }
-        },
-        "states": {
-          "hover": {
+            "enabled": "true",
             "lineWidthPlus": 0
           }
         }
