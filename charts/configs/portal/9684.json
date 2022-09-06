@@ -221,19 +221,19 @@
       "showInLegend": false,
       "data": [
         [
-          2020.4,
+          2021.4,
           -250
         ],
         [
-          2020.4,
+          2021.4,
           1000
         ],
         [
-          2022,
+          2023,
           1000
         ],
         [
-          2022,
+          2023,
           -250
         ]
       ],
@@ -328,8 +328,8 @@
     "endOnTick": true,
     "startOnTick": true,
     "tickInterval": 1,
-    "min": 2011,
-    "max": 2021
+    "min": 2012,
+    "max": 2022
   },
   "yAxis": {
     "gridLineWidth": 0.5,

@@ -2196,7 +2196,7 @@ id | visible | visibleInPortal | indikatorenset
 9674 | true | false | RR_KPI
 9675 | true | false | RR_KPI
 9676 | true | false | RR_KPI
-9677 | true | false | RR_KPI
+9677 | true | true | RR_KPI
 9678 | true | true | RR_KPI
 9679 | true | false | RR_KPI
 9680 | true | false | RR_KPI
@@ -2207,6 +2207,7 @@ id | visible | visibleInPortal | indikatorenset
 9685 | true | false | RR_KPI
 9686 | true | false | RR_KPI
 9687 | true | false | RR_KPI
+9693 | true | true | RR_KPI
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
