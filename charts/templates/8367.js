@@ -3,8 +3,6 @@
     "plotOptions": {
       "series": {
         lineWidth: 0,
-        // pointPadding: 100,
-        // "pointWidth": 15,
         "dataLabels": {
           "style": {
             "fontSize": "10px"
@@ -18,8 +16,6 @@
       "tickInterval": 1
     },
     "yAxis": {
-      //tickInterval: 40000,
-      //tickAmount: 6,
       "labels": {
         "format": "{value:,.0f}",
       },
@@ -44,7 +40,7 @@
       useHTML: true,
       headerFormat: "<table>",
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}:</td>'
-      + '<td style="text-align:right">&nbsp;<b>{point.y}</b></td></tr>',
+        + '<td style="text-align:right">&nbsp;<b>{point.y}</b></td></tr>',
       footerFormat: '</table>',
     },
     "series": [
@@ -70,9 +66,7 @@
       },
     ],
     "chart": {
-      // width: 665,
       "marginBottom": 75,
-      //"marginTop": 75,
       "type": "column",
     },
     "data": {
