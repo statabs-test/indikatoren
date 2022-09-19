@@ -5,43 +5,47 @@
       "index": 12,
       "data": [
         [
-          "2011",
+          "Waren verschiedener Art",
           29
         ],
         [
-          "2012",
-          28
+          "Nahrungs-, Genussmitel, Tabak",
+          58
         ],
         [
-          "2013",
-          28
+          "Informatik und Elektronik",
+          13
         ],
         [
-          "2014",
+          "Haushaltsgeräte, Textilien, Möbel",
+          73
+        ],
+        [
+          "Verlagsprod., Sport- und Spielwaren",
+          79
+        ],
+        [
+          "Bekleidung, Lederwaren",
+          205
+        ],
+        [
+          "Apotheken, Körperpflege",
+          46
+        ],
+        [
+          "Uhren, Schmuck",
+          44
+        ],
+        [
+          "Antiquitäten, Gebrauchtwaren",
           29
         ],
         [
-          "2015",
-          29
-        ],
-        [
-          "2016",
-          32
-        ],
-        [
-          "2017",
-          37
-        ],
-        [
-          "2018",
-          38
-        ],
-        [
-          "2019",
-          35
+          "Sonstiger Detailhandel",
+          115
         ]
       ],
-      "name": "Waren verschiedener Art",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
@@ -49,43 +53,47 @@
       "index": 11,
       "data": [
         [
-          "2011",
-          58
+          "Waren verschiedener Art",
+          28
         ],
         [
-          "2012",
+          "Nahrungs-, Genussmitel, Tabak",
           61
         ],
         [
-          "2013",
-          63
+          "Informatik und Elektronik",
+          15
         ],
         [
-          "2014",
-          65
+          "Haushaltsgeräte, Textilien, Möbel",
+          70
         ],
         [
-          "2015",
-          63
+          "Verlagsprod., Sport- und Spielwaren",
+          75
         ],
         [
-          "2016",
-          65
+          "Bekleidung, Lederwaren",
+          206
         ],
         [
-          "2017",
-          61
+          "Apotheken, Körperpflege",
+          43
         ],
         [
-          "2018",
-          64
+          "Uhren, Schmuck",
+          43
         ],
         [
-          "2019",
-          60
+          "Antiquitäten, Gebrauchtwaren",
+          25
+        ],
+        [
+          "Sonstiger Detailhandel",
+          109
         ]
       ],
-      "name": "Nahrungs-, Genussmitel, Tabak",
+      "name": "2012",
       "turboThreshold": 0
     },
     {
@@ -93,43 +101,47 @@
       "index": 10,
       "data": [
         [
-          "2011",
-          13
+          "Waren verschiedener Art",
+          28
         ],
         [
-          "2012",
-          15
+          "Nahrungs-, Genussmitel, Tabak",
+          63
         ],
         [
-          "2013",
+          "Informatik und Elektronik",
           16
         ],
         [
-          "2014",
-          18
+          "Haushaltsgeräte, Textilien, Möbel",
+          66
         ],
         [
-          "2015",
-          19
+          "Verlagsprod., Sport- und Spielwaren",
+          70
         ],
         [
-          "2016",
-          20
+          "Bekleidung, Lederwaren",
+          214
         ],
         [
-          "2017",
-          16
+          "Apotheken, Körperpflege",
+          44
         ],
         [
-          "2018",
-          15
+          "Uhren, Schmuck",
+          39
         ],
         [
-          "2019",
-          16
+          "Antiquitäten, Gebrauchtwaren",
+          26
+        ],
+        [
+          "Sonstiger Detailhandel",
+          107
         ]
       ],
-      "name": "Informatik und Elektronik",
+      "name": "2013",
       "turboThreshold": 0
     },
     {
@@ -137,43 +149,47 @@
       "index": 9,
       "data": [
         [
-          "2011",
-          73
+          "Waren verschiedener Art",
+          29
         ],
         [
-          "2012",
-          70
+          "Nahrungs-, Genussmitel, Tabak",
+          65
         ],
         [
-          "2013",
-          66
+          "Informatik und Elektronik",
+          18
         ],
         [
-          "2014",
+          "Haushaltsgeräte, Textilien, Möbel",
           60
         ],
         [
-          "2015",
-          61
+          "Verlagsprod., Sport- und Spielwaren",
+          64
         ],
         [
-          "2016",
-          55
+          "Bekleidung, Lederwaren",
+          203
         ],
         [
-          "2017",
-          54
+          "Apotheken, Körperpflege",
+          44
         ],
         [
-          "2018",
-          51
+          "Uhren, Schmuck",
+          37
         ],
         [
-          "2019",
-          47
+          "Antiquitäten, Gebrauchtwaren",
+          23
+        ],
+        [
+          "Sonstiger Detailhandel",
+          111
         ]
       ],
-      "name": "Haushaltsgeräte, Textilien, Möbel",
+      "name": "2014",
       "turboThreshold": 0
     },
     {
@@ -181,43 +197,47 @@
       "index": 8,
       "data": [
         [
-          "2011",
-          79
+          "Waren verschiedener Art",
+          29
         ],
         [
-          "2012",
-          75
+          "Nahrungs-, Genussmitel, Tabak",
+          63
         ],
         [
-          "2013",
-          70
+          "Informatik und Elektronik",
+          19
         ],
         [
-          "2014",
-          64
+          "Haushaltsgeräte, Textilien, Möbel",
+          61
         ],
         [
-          "2015",
+          "Verlagsprod., Sport- und Spielwaren",
           72
         ],
         [
-          "2016",
-          66
+          "Bekleidung, Lederwaren",
+          197
         ],
         [
-          "2017",
-          68
+          "Apotheken, Körperpflege",
+          45
         ],
         [
-          "2018",
-          67
+          "Uhren, Schmuck",
+          36
         ],
         [
-          "2019",
-          66
+          "Antiquitäten, Gebrauchtwaren",
+          21
+        ],
+        [
+          "Sonstiger Detailhandel",
+          105
         ]
       ],
-      "name": "Verlagsprod., Sport- und Spielwaren",
+      "name": "2015",
       "turboThreshold": 0
     },
     {
@@ -225,43 +245,47 @@
       "index": 6,
       "data": [
         [
-          "2011",
-          205
+          "Waren verschiedener Art",
+          32
         ],
         [
-          "2012",
-          206
+          "Nahrungs-, Genussmitel, Tabak",
+          65
         ],
         [
-          "2013",
-          214
+          "Informatik und Elektronik",
+          20
         ],
         [
-          "2014",
-          203
+          "Haushaltsgeräte, Textilien, Möbel",
+          55
         ],
         [
-          "2015",
-          197
+          "Verlagsprod., Sport- und Spielwaren",
+          66
         ],
         [
-          "2016",
+          "Bekleidung, Lederwaren",
           188
         ],
         [
-          "2017",
-          178
+          "Apotheken, Körperpflege",
+          46
         ],
         [
-          "2018",
-          169
+          "Uhren, Schmuck",
+          36
         ],
         [
-          "2019",
-          166
+          "Antiquitäten, Gebrauchtwaren",
+          21
+        ],
+        [
+          "Sonstiger Detailhandel",
+          99
         ]
       ],
-      "name": "Bekleidung, Lederwaren",
+      "name": "2016",
       "turboThreshold": 0
     },
     {
@@ -269,43 +293,47 @@
       "index": 3,
       "data": [
         [
-          "2011",
-          46
+          "Waren verschiedener Art",
+          37
         ],
         [
-          "2012",
-          43
+          "Nahrungs-, Genussmitel, Tabak",
+          61
         ],
         [
-          "2013",
-          44
+          "Informatik und Elektronik",
+          16
         ],
         [
-          "2014",
-          44
+          "Haushaltsgeräte, Textilien, Möbel",
+          54
         ],
         [
-          "2015",
-          45
+          "Verlagsprod., Sport- und Spielwaren",
+          68
         ],
         [
-          "2016",
-          46
+          "Bekleidung, Lederwaren",
+          178
         ],
         [
-          "2017",
+          "Apotheken, Körperpflege",
           49
         ],
         [
-          "2018",
-          50
+          "Uhren, Schmuck",
+          41
         ],
         [
-          "2019",
-          52
+          "Antiquitäten, Gebrauchtwaren",
+          19
+        ],
+        [
+          "Sonstiger Detailhandel",
+          92
         ]
       ],
-      "name": "Apotheken, Körperpflege",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -313,43 +341,47 @@
       "index": 2,
       "data": [
         [
-          "2011",
-          44
-        ],
-        [
-          "2012",
-          43
-        ],
-        [
-          "2013",
-          39
-        ],
-        [
-          "2014",
-          37
-        ],
-        [
-          "2015",
-          36
-        ],
-        [
-          "2016",
-          36
-        ],
-        [
-          "2017",
-          41
-        ],
-        [
-          "2018",
+          "Waren verschiedener Art",
           38
         ],
         [
-          "2019",
-          39
+          "Nahrungs-, Genussmitel, Tabak",
+          64
+        ],
+        [
+          "Informatik und Elektronik",
+          15
+        ],
+        [
+          "Haushaltsgeräte, Textilien, Möbel",
+          51
+        ],
+        [
+          "Verlagsprod., Sport- und Spielwaren",
+          67
+        ],
+        [
+          "Bekleidung, Lederwaren",
+          169
+        ],
+        [
+          "Apotheken, Körperpflege",
+          50
+        ],
+        [
+          "Uhren, Schmuck",
+          38
+        ],
+        [
+          "Antiquitäten, Gebrauchtwaren",
+          16
+        ],
+        [
+          "Sonstiger Detailhandel",
+          92
         ]
       ],
-      "name": "Uhren, Schmuck",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
@@ -357,43 +389,47 @@
       "index": 1,
       "data": [
         [
-          "2011",
-          29
+          "Waren verschiedener Art",
+          35
         ],
         [
-          "2012",
-          25
+          "Nahrungs-, Genussmitel, Tabak",
+          60
         ],
         [
-          "2013",
-          26
-        ],
-        [
-          "2014",
-          23
-        ],
-        [
-          "2015",
-          21
-        ],
-        [
-          "2016",
-          21
-        ],
-        [
-          "2017",
-          19
-        ],
-        [
-          "2018",
+          "Informatik und Elektronik",
           16
         ],
         [
-          "2019",
+          "Haushaltsgeräte, Textilien, Möbel",
+          47
+        ],
+        [
+          "Verlagsprod., Sport- und Spielwaren",
+          66
+        ],
+        [
+          "Bekleidung, Lederwaren",
+          166
+        ],
+        [
+          "Apotheken, Körperpflege",
+          52
+        ],
+        [
+          "Uhren, Schmuck",
+          39
+        ],
+        [
+          "Antiquitäten, Gebrauchtwaren",
           18
+        ],
+        [
+          "Sonstiger Detailhandel",
+          93
         ]
       ],
-      "name": "Antiquitäten, Gebrauchtwaren",
+      "name": "2019",
       "turboThreshold": 0
     },
     {
@@ -401,43 +437,47 @@
       "index": 0,
       "data": [
         [
-          "2011",
-          115
+          "Waren verschiedener Art",
+          34
         ],
         [
-          "2012",
-          109
+          "Nahrungs-, Genussmitel, Tabak",
+          55
         ],
         [
-          "2013",
-          107
+          "Informatik und Elektronik",
+          15
         ],
         [
-          "2014",
-          111
+          "Haushaltsgeräte, Textilien, Möbel",
+          48
         ],
         [
-          "2015",
-          105
+          "Verlagsprod., Sport- und Spielwaren",
+          58
         ],
         [
-          "2016",
-          99
+          "Bekleidung, Lederwaren",
+          157
         ],
         [
-          "2017",
-          92
+          "Apotheken, Körperpflege",
+          51
         ],
         [
-          "2018",
-          92
+          "Uhren, Schmuck",
+          41
         ],
         [
-          "2019",
+          "Antiquitäten, Gebrauchtwaren",
+          17
+        ],
+        [
+          "Sonstiger Detailhandel",
           93
         ]
       ],
-      "name": "Sonstiger Detailhandel",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],

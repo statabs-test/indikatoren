@@ -5,59 +5,59 @@
       "data": [
         [
           "Verarbeitendes Gewerbe",
-          0
+          -0.0472972973
         ],
         [
           "Bau, Energie und Wasser",
-          -0.2297297297
+          -0.1621621622
         ],
         [
           "Grosshandel",
-          -0.2333333333
+          -0.3
         ],
         [
           "Detailhandel",
-          -0.0864197531
+          -0.1219135802
         ],
         [
           "Verkehr und Lagerei",
-          -0.3050847458
+          -0.3389830508
         ],
         [
           "Information, Kommunikation",
-          -0.0446428571
+          -0.0133928571
         ],
         [
           "Gastronomie, Hotellerie",
-          -0.0100334448
+          0.016722408
         ],
         [
           "Finanzen, Versicherung, Immobilien",
-          -0.0955414013
+          -0.1369426752
         ],
         [
           "Unternehmens-DL, Freiberufe",
-          0.0338797814
+          0.0295081967
         ],
         [
           "Sonstige DL",
-          -0.0295081967
+          0.0131147541
         ],
         [
           "Öff. Verwaltung, Bildung",
-          0.0541666667
+          0.0166666667
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.0806697108
+          0.0730593607
         ],
         [
           "Kunst, Unterhaltung, Sport",
-          -0.064516129
+          -0.0599078341
         ],
         [
           "Schönheitspflege, sonst. pers. DL",
-          0.0365853659
+          0
         ],
         [
           " ",
@@ -65,7 +65,7 @@
         ],
         [
           "Total",
-          -0.0173321632
+          -0.0283018868
         ]
       ],
       "name": "Innenstadt",
@@ -76,59 +76,59 @@
       "data": [
         [
           "Verarbeitendes Gewerbe",
-          -0.0250783699
+          -0.0517241379
         ],
         [
           "Bau, Energie und Wasser",
-          -0.0573566085
+          -0.0448877805
         ],
         [
           "Grosshandel",
-          -0.2673684211
+          -0.2736842105
         ],
         [
           "Detailhandel",
-          -0.1022408964
+          -0.1239495798
         ],
         [
           "Verkehr und Lagerei",
-          -0.1252086811
+          -0.1719532554
         ],
         [
           "Information, Kommunikation",
-          0.0341685649
+          0.0512528474
         ],
         [
           "Gastronomie, Hotellerie",
-          -0.0125156446
+          -0.0037546934
         ],
         [
           "Finanzen, Versicherung, Immobilien",
-          -0.0601659751
+          -0.0726141079
         ],
         [
           "Unternehmens-DL, Freiberufe",
-          0.030418251
+          0.0345373891
         ],
         [
           "Sonstige DL",
-          0.0433553252
+          0.0782280867
         ],
         [
           "Öff. Verwaltung, Bildung",
-          0.0662323561
+          0.0640608035
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.0462003454
+          0.0276338515
         ],
         [
           "Kunst, Unterhaltung, Sport",
-          -0.0248447205
+          -0.0186335404
         ],
         [
           "Schönheitspflege, sonst. pers. DL",
-          0.0292792793
+          0.0484234234
         ],
         [
           " ",
@@ -136,7 +136,7 @@
         ],
         [
           "Total",
-          -0.0091120352
+          -0.0110078278
         ]
       ],
       "name": "Stadt Basel",
@@ -223,7 +223,7 @@
     "text": "Arbeitsstättenentwicklung nach Branche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2019 gegenüber 2015",
+    "text": "Basel-Stadt, 2020 gegenüber 2015",
     "align": "left",
     "style": {
       "fontSize": "12px",

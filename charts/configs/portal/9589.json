@@ -5,39 +5,39 @@
       "data": [
         [
           "Waren verschiedener Art",
-          0.2068965517
+          0.1724137931
         ],
         [
           "Nahrungs-, Genussmitel, Tabak",
-          -0.0476190476
+          -0.126984127
         ],
         [
           "Informatik und Elektronik",
-          -0.1578947368
+          -0.2105263158
         ],
         [
           "Haushaltsgeräte, Textilien, Möbel",
-          -0.2295081967
+          -0.2131147541
         ],
         [
           "Verlagsprod., Sport- und Spielwaren",
-          -0.0833333333
+          -0.1944444444
         ],
         [
           "Bekleidung, Lederwaren",
-          -0.1573604061
+          -0.2030456853
         ],
         [
           "Apotheken, Körperpflege",
-          0.1555555556
+          0.1333333333
         ],
         [
           "Uhren, Schmuck",
-          0.0833333333
+          0.1388888889
         ],
         [
           "Antiquitäten, Gebrauchtwaren",
-          -0.1428571429
+          -0.1904761905
         ],
         [
           "Sonstiger Detailhandel",
@@ -49,10 +49,10 @@
         ],
         [
           "Total Detailhandel",
-          -0.0864197531
+          -0.1219135802
         ]
       ],
-      "name": "Veränderung zwischen 2015 und 2019",
+      "name": "Veränderung zwischen 2015 und 2020",
       "turboThreshold": 0
     }
   ],
@@ -136,7 +136,7 @@
     "text": "Veränderung der Anzahl Arbeitsstätten im Detailhandel"
   },
   "subtitle": {
-    "text": "Innenstadt, 2019 gegenüber 2015",
+    "text": "Innenstadt, 2020 gegenüber 2015",
     "align": "left",
     "style": {
       "fontSize": "12px",

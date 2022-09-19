@@ -42263,7 +42263,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstätten nach Branche",
 		"subtitle": "Innenstadt und Stadt Basel",
-		"lesehilfe": "In der Innenstadt befinden sich 4 479 Arbeitsstätten. Rund 21% gehören zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 16% zum Gesundheits- und Sozialwesen und 13% zum Detailhandel (gesamte Stadt Basel: 8%).",
+		"lesehilfe": "In der Innenstadt befinden sich 4 429 Arbeitsstätten. Rund 21% gehören zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 16% zum Gesundheits- und Sozialwesen und 13% zum Detailhandel (gesamte Stadt Basel: 8%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -42301,8 +42301,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstättenentwicklung nach Branche",
-		"subtitle": "Basel-Stadt, 2019 gegenüber 2015",
-		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2019 insgesamt um 1,7% abgenommen. Deutliche Rückgänge waren im Bereich Verkehr und Lagerei (-31%), im Grosshandel (-23%) sowie im Bereich Bau, Energie und Wasser (-23%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen (+8%).",
+		"subtitle": "Basel-Stadt, 2020 gegenüber 2015",
+		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2020 insgesamt um 2,8% abgenommen. Deutliche Rückgänge waren im Bereich Verkehr und Lagerei (-33,9%), im Grosshandel (-30,0%) sowie im Bereich Bau, Energie und Wasser (-16,2%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen (+7,3%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -42694,7 +42694,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsstätten im Detailhandel in der Innenstadt, nach Branche",
 		"subtitle": "Innenstadt Basel",
-		"lesehilfe": "Im Jahr 2019 gab es in der Innenstadt 592 Arbeitsstätten im Detailhandel, das sind 99 bzw. 14,3% weniger als noch im Jahr 2011. Am meisten Arbeitsstätten gehören dem Bereich Kleidung und Lederwaren an (166 bzw. 28%).",
+		"lesehilfe": "Im Jahr 2020 gab es in der Innenstadt 569 Arbeitsstätten im Detailhandel, das sind 122 bzw. 17,7% weniger als noch im Jahr 2011. Am meisten Arbeitsstätten gehören dem Bereich Kleidung und Lederwaren an (157 bzw. 28%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -42731,8 +42731,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Veränderung der Anzahl Arbeitsstätten im Detailhandel",
-		"subtitle": "Innenstadt, 2019 gegenüber 2015",
-		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2015 und 2019 um 8,6% abgenommen. Am stärksten war der Zuwachs mit 20,7% im Bereich Waren verschiedener Art, wozu unter anderem Supermärkte und Kaufhäuser zählen. Der stärkste Rückgang ist mit 23,0% im Bereich Haushaltsgeräte, Textilien, Möbel zu beobachten.",
+		"subtitle": "Innenstadt, 2020 gegenüber 2015",
+		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2015 und 2020 um 12,2% abgenommen. Am stärksten war der Zuwachs mit 17,2% im Bereich Waren verschiedener Art, wozu unter anderem Supermärkte und Kaufhäuser zählen. Der stärkste Rückgang ist mit 21,3% im Bereich Haushaltsgeräte, Textilien, Möbel zu beobachten.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -42846,7 +42846,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
 		"subtitle": "Durchschnittliche Einfahrten pro Tag",
-		"lesehilfe": "Durchschnittlich 4 896 Einfahrten pro Tag wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen registriert. Am meisten Einfahrten wurden mit 1 618 pro Tag im Parkhaus City gezählt.",
+		"lesehilfe": "An Werktagen wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen durchschnittlich 5 320 Einfahrten pro Tag registriert, an Samstagen waren es 5 207. An Werktagen wurden am meisten Einfahrten im Parkhaus City (1 892) gezählt, an Samstagen war das Parkhaus Elisabethen (1 798) am besten besucht.",
 		"erlaeuterungen": "Aufgrund von technischen Problemen sind für das Parkhaus City erst ab dem Jahr 2021 Daten verfügbar.",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -42882,7 +42882,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt",
+		"title": "Parkhausauslastung Montag bis Freitag in der Innenstadt",
 		"subtitle": "nach Stunden",
 		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innerstädtischen Parkhäuser  an Werktagen mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
 		"erlaeuterungen": "",
@@ -42894,10 +42894,10 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Parkhausauslastung an Werktagen (Mo - Fr) in der Innenstadt",
+		"description": "Parkhausauslastung Montag bis Freitag in der Innenstadt",
 		"thema": "11 Verkehr",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.09595",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "4.2-1",
 		"stufe1": "Ziel 4: Stadtgerechte Mobilität fördern",
@@ -42999,7 +42999,7 @@ var indikatoren = [
 		"title": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
 		"subtitle": "Basel-Stadt und Innenstadt",
 		"lesehilfe": "Von Personen, die in der Innenstadt wohnen, ergab sich im Jahr 2019 durch Zu- und Wegzüge ein positiver Saldo des Steuerertrags von rund 1,5 Mio. Franken. Für den gesamten Kanton ergab sich - einschliesslich Gemeindesteuer - ein Plus von 6,2 Mio. Franken.",
-		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
+		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.<br>In der Auswertung ist sowohl die Kantons- als auch die Gemeindesteuer berücksichtigt.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
