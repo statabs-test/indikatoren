@@ -17,9 +17,9 @@
           series = point.series,
           chart = series.chart,
           correspondingSeries = series.linkedSeries[1] || series.linkedParent,
-          linePoint,
-          symbolPoint, /* Hier muss noch der Median verlinkt werden... */
-          arearangePoint,
+          linePoint, /* Median */
+          symbolPoint, /* Hier muss noch den Mittelwert verlinkt werden... */
+          arearangePoint, /* Werte vom Vertrauungsintervall */ 
           correspondingPoint;
         //console.log(correspondingSeries);
         //console.log(point.index);
