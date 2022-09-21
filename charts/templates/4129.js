@@ -16,9 +16,9 @@
         var point = this.point,
           series = point.series,
           chart = series.chart,
-          correspondingSeries = series.linkedSeries[0] || series.linkedParent,
+          correspondingSeries = series.linkedSeries[1] || series.linkedParent,
           linePoint,
-          symbolPoint,
+          symbolPoint, /* Hier muss noch der Median verlinkt werden... */
           arearangePoint,
           correspondingPoint;
         //console.log(correspondingSeries);
@@ -61,7 +61,9 @@
           enabled: true
         },
         color: "#9E7C59",
-        zIndex: 1
+        zIndex: 1,
+        visible: true, 
+        showInLegend: false
       },
       {
         id: "1zi",
@@ -72,18 +74,20 @@
         color: "#ECE1D0",
         type: 'arearange',
         linkedTo: "1zi",
-        zIndex: 0
+        /*zIndex: 0*/
       },
 
       {
-        linkedTo: "2zi",
+        /*linkedTo: "2zi",*/
         type: "scatter",
         marker: {
           symbol: "circle",
           enabled: true
         },
         color: "#689199",
-        zIndex: 1
+        zIndex: 1,
+        visible: false, 
+        showInLegend: false
       },
       {
         id: "2zi",
@@ -99,14 +103,16 @@
       },
 
       {
-        linkedTo: "3zi",
+        /*linkedTo: "3zi",*/
         type: "scatter",
         marker: {
           symbol: "circle",
           enabled: true
         },
         color: "#DC440E",
-        zIndex: 1
+        zIndex: 1,
+        visible: false, 
+        showInLegend: false
       },
       {
         id: "3zi",
@@ -122,14 +128,16 @@
       },
 
       {
-        linkedTo: "4zi",
+        /*linkedTo: "4zi",*/
         type: "scatter",
         marker: {
           symbol: "circle",
           enabled: true
         },
         color: "#923F8D",
-        zIndex: 1
+        zIndex: 1,
+        visible: false, 
+        showInLegend: false
       },
       {
         id: "4zi",
@@ -149,10 +157,12 @@
         type: "scatter",
         marker: {
           symbol: "circle",
-          enabled: true
+          enabled: true,
+          visible: false, 
+          showInLegend: false
         },
         color: "#68AB2B",
-        zIndex: 1
+        /*zIndex: 1*/
       },
       {
         id: "5zi",
