@@ -12,58 +12,73 @@
       type: "category"
     },
     tooltip: {
+      //shared: true,
       formatter: function (e) {
+
         var point = this.point,
           series = point.series,
           chart = series.chart,
-          correspondingSeries = series.linkedSeries[1] || series.linkedParent,
-          linePoint, /* Median */
-          symbolPoint, /* Hier muss noch den Mittelwert verlinkt werden... */
-          arearangePoint, /* Werte vom Vertrauungsintervall */ 
-          correspondingPoint;
-        //console.log(correspondingSeries);
-        //console.log(point.index);
+          correspondingSeries = series.linkedParent || series.linkedSeries[0] || false,
+          correspondingSeries2 = series.linkedSeries[1] || series.linkedParent.linkedSeries[1] || false,
+          arearangePoint, // Werte vom Vertrauungsintervall 
+          parentSeries,
+          childSeries,
+          parentPoint,
+          childPoint;
 
         // unselect previously selected point
-        if (correspondingSeries === undefined) return e.defaultFormatter.call(this, e);
+        if (correspondingSeries === undefined || correspondingSeries2 === undefined ) return e.defaultFormatter.call(this, e);
         else {
           if (chart.extraHoveredPoint) {
             chart.extraHoveredPoint.setState('');
           }
-
-          // find corresponding point
-          if (correspondingSeries) {
-            correspondingPoint = correspondingSeries.points[point.index];
-            correspondingPoint.setState('hover');
-            chart.extraHoveredPoint = correspondingPoint;
-          }      
+       
           // identify type of points for formatting purposes
           if (point.low !== undefined) {
             arearangePoint = point;
-            linePoint = correspondingPoint;
           } else {
-            arearangePoint = correspondingPoint;
-            linePoint = point;
+            arearangePoint = correspondingSeries2.points[point.index];
+            if (series.linkedParent !== undefined) {
+              parentSeries = series.linkedParent;
+              parentPoint = series.linkedParent.points[point.index].y;
+              series.linkedParent.points[point.index].setState('hover');
+              childSeries = this.series;
+              childPoint = this.point.y;
+              this.point.setState('hover');
+            } else {
+              parentSeries = this.series;
+              parentPoint = this.point.y; 
+              this.point.setState('hover');             
+              childSeries = series.linkedSeries[0];
+              childPoint = series.linkedSeries[0].points[point.index].y;
+              series.linkedSeries[0].points[point.index].setState('hover');
+            }
+            return parentSeries.name + ": " + parentPoint +  "<br>" + 
+            childSeries.name + ": " + childPoint + "<br>" + 
+            "Vertrauensinterval: " + arearangePoint.low + " - " + arearangePoint.high;
           }
-
-          return this.series.name + ": " + this.point.y +  "<br>" + 
-          "Vertrauungsinterval: " + arearangePoint.low + " - " + arearangePoint.high;
         }
-
       }
     },
     series: [
       {
         linkedTo: "1zi",
-        type: "scatter",
+        type: "line",
+        lineWidth: 0,
+        color: "#9E7C59",
+        zIndex: 1,
+        visible: true, 
+        showInLegend: false,
         marker: {
           symbol: "circle",
           enabled: true
         },
-        color: "#9E7C59",
-        zIndex: 1,
-        visible: true, 
-        showInLegend: false
+        states: {
+          hover: {
+            enabled: "true",
+            lineWidthPlus: 0
+          }
+        },
       },
       {
         id: "1zi",
@@ -78,16 +93,24 @@
       },
 
       {
-        /*linkedTo: "2zi",*/
-        type: "scatter",
+        linkedTo: "2zi",
+        type: "line",
+        lineWidth: 0,
+        color: "#689199",
+        zIndex: 1,
+        visible: false, 
+        showInLegend: false,
         marker: {
           symbol: "circle",
           enabled: true
         },
-        color: "#689199",
-        zIndex: 1,
-        visible: false, 
-        showInLegend: false
+        states: {
+          hover: {
+            enabled: "true",
+            lineWidthPlus: 0
+          }
+        },
+
       },
       {
         id: "2zi",
@@ -104,15 +127,23 @@
 
       {
         /*linkedTo: "3zi",*/
-        type: "scatter",
+        type: "line",
+        lineWidth: 0,
+        color: "#DC440E",
+        zIndex: 1,
+        visible: false, 
+        showInLegend: false,
         marker: {
           symbol: "circle",
           enabled: true
         },
-        color: "#DC440E",
-        zIndex: 1,
-        visible: false, 
-        showInLegend: false
+        states: {
+          hover: {
+            enabled: "true",
+            lineWidthPlus: 0
+          }
+        },
+
       },
       {
         id: "3zi",
@@ -129,15 +160,23 @@
 
       {
         /*linkedTo: "4zi",*/
-        type: "scatter",
+        type: "line",
+        lineWidth: 0,
+        color: "#923F8D",
+        zIndex: 1,
+        visible: false, 
+        showInLegend: false,
         marker: {
           symbol: "circle",
           enabled: true
         },
-        color: "#923F8D",
-        zIndex: 1,
-        visible: false, 
-        showInLegend: false
+        states: {
+          hover: {
+            enabled: "true",
+            lineWidthPlus: 0
+          }
+        },
+
       },
       {
         id: "4zi",
@@ -154,15 +193,21 @@
 
       {
         linkedTo: "5zi",
-        type: "scatter",
-        marker: {
-          symbol: "circle",
-          enabled: true,
-          visible: false, 
-          showInLegend: false
-        },
+        type: "line",
+        lineWidth: 0,
         color: "#68AB2B",
         /*zIndex: 1*/
+        marker: {
+          symbol: "circle",
+          enabled: true
+        },
+        states: {
+          hover: {
+            enabled: "true",
+            lineWidthPlus: 0
+          }
+        },
+
       },
       {
         id: "5zi",
@@ -185,9 +230,6 @@
       itemMarginBottom: 5,
       align: "left",
       verticalAlign: "top",
-      itemStyle: {
-        fontWeight: "normal"
-      },
       labelFormatter: function () {
         return this.name.replace("1 Zimmer Median", "1 Zi.")
           .replace("2 Zimmer Median", "2 Zi.")
