@@ -78,13 +78,17 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					console.log(chart.series[1]);
-					console.log(chart.series[2]);
-					console.log(chart.series);
+					console.log("choroplethSeries");
+					console.log(choroplethSeries);
+					console.log("pieSizeSeries");
+					console.log(pieSizeSeries);
+
 					//pie diameters in px
 					var maxPieDiameter = 20;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					console.log("extremeValues");
+					console.log(extremeValues);
 					//define different colors for positive and negative values
 	                var color = function(value){
 	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
