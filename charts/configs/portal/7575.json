@@ -18675,15 +18675,17 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' </b><br/>';
-	                            }
+	                            	return correspondingMapSeriesItem.properties.GMDNAME +': <b>' + Highcharts.numberFormat((this.v),0) + ' </b><br/>';
+								}
+								
 	                        }
 	                    };
 					};
-					 var pieSizeCatConfig;
+					
+					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-	                
+
 					//pie values in legend
 	                var minValueInLegend = 1; 
 	                var maxValueInLegend = 1000; 
@@ -19056,14 +19058,14 @@
 						var mapPieConfig = {
 							type: 'mappie',
 							name: data.series.name,
-							PLZ: correspondingMapSeriesItem.PLZ,//data["hc-key"],
-							wohnviertel_Id: correspondingMapSeriesItem.PLZ,
+							Gemeinde: data["hc-key"],
+							GD_NR: correspondingMapSeriesItem.GD_NR,
 							zIndex: 6, // Keep pies above connector lines
 							borderWidth: 1,
 							tooltip: {
 								headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.properties.PLZ + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+									return correspondingMapSeriesItem.properties.GMDNAME + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
 								}
 							},
 							center: {

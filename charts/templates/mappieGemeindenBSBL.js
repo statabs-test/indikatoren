@@ -118,7 +118,7 @@
 		/* series with fixed data that should be added to the series object before merging with csv data */
 		beforeSeries: [
 			{
-				//Outline PLZ if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
+				//Outline Gemeinde if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
 				name: "GemeindenOutline",
 				enableMouseTracking: false,
 				color: '#ededed',
@@ -536,14 +536,14 @@
 						var mapPieConfig = {
 							type: 'mappie',
 							name: data.series.name,
-							PLZ: correspondingMapSeriesItem.PLZ,//data["hc-key"],
-							wohnviertel_Id: correspondingMapSeriesItem.PLZ,
+							Gemeinde: data["hc-key"],
+							GD_NR: correspondingMapSeriesItem.GD_NR,
 							zIndex: 6, // Keep pies above connector lines
 							borderWidth: 1,
 							tooltip: {
 								headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.properties.PLZ + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+									return correspondingMapSeriesItem.properties.GMDNAME + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
 								}
 							},
 							center: {

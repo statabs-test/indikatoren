@@ -100,7 +100,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.GMDNAME +': <b>' + Highcharts.numberFormat((this.v),0) + ' </b><br/>';
 								}
 								
 	                        }
