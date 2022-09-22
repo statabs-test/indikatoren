@@ -30,7 +30,7 @@
 		      },
 		      {
 		      //2nd series: use y values from column 3
-				  x: 1, y: 3
+				y: 3
 		      }
 		    ]
         },
@@ -78,7 +78,9 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					
+					console.log(chart.series[1]);
+					console.log(chart.series[2]);
+					console.log(chart.series);
 					//pie diameters in px
 					var maxPieDiameter = 20;
 
@@ -106,7 +108,9 @@
 	                        }
 	                    };
 					};
-					
+					console.log(pieSizeSeries.points);
+		
+
 					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
