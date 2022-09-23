@@ -53,6 +53,10 @@
         [
           2020,
           77
+        ],
+        [
+          2021,
+          81.4
         ]
       ],
       "name": "MIV Stadtstrassennetz"
@@ -110,6 +114,10 @@
         [
           2020,
           80.3
+        ],
+        [
+          2021,
+          85.5
         ]
       ],
       "name": "MIV Total"
@@ -167,6 +175,10 @@
         [
           2020,
           72.3
+        ],
+        [
+          2021,
+          72.9
         ]
       ],
       "name": "ÖV"
@@ -224,6 +236,10 @@
         [
           2020,
           141.9
+        ],
+        [
+          2021,
+          145.2
         ]
       ],
       "name": "Velo (wetterbereinigt)"
@@ -281,6 +297,10 @@
         [
           2020,
           83.7
+        ],
+        [
+          2021,
+          82.7
         ]
       ],
       "name": "Fussgänger"
@@ -309,50 +329,54 @@
       "data": [
         [
           2010,
-          100
+          null
         ],
         [
           2011,
-          99
+          null
         ],
         [
           2012,
-          98
+          null
         ],
         [
           2013,
-          97
+          undefined
         ],
         [
           2014,
-          96
+          undefined
         ],
         [
           2015,
-          95
+          undefined
         ],
         [
           2016,
-          94
+          undefined
         ],
         [
           2017,
-          93
+          undefined
         ],
         [
           2018,
-          92
+          undefined
         ],
         [
           2019,
-          91
+          undefined
         ],
         [
           2020,
-          90
+          undefined
+        ],
+        [
+          2021,
+          undefined
         ]
       ],
-      "name": "Zielpfad MIV-Stadtstrassennetz (2020 = 90)"
+      "name": "undefined"
     }
   ],
   "chart": {

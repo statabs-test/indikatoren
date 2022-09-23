@@ -1,261 +1,141 @@
 {
   "series": [
     {
-      "color": "#dc440e",
+      "color": "#B00000",
       "data": [
         [
-          1991,
-          4771
-        ],
-        [
-          1992,
-          4851
-        ],
-        [
-          1993,
-          5256
-        ],
-        [
-          1994,
-          5093
-        ],
-        [
-          1995,
-          4155
-        ],
-        [
-          1996,
-          4153
-        ],
-        [
-          1997,
-          4244
-        ],
-        [
-          1998,
-          4215
-        ],
-        [
-          1999,
-          5010
-        ],
-        [
-          2000,
-          4393
-        ],
-        [
-          2001,
-          3624
-        ],
-        [
-          2002,
-          3880
-        ],
-        [
-          2003,
-          3820
-        ],
-        [
-          2004,
-          3537
-        ],
-        [
           2005,
-          3317
+          83.2
         ],
         [
           2006,
-          3526
+          83.1
         ],
         [
           2007,
-          3589
+          83.2
         ],
         [
           2008,
-          3410
+          83.5
         ],
         [
           2009,
-          3446
+          83.3
         ],
         [
           2010,
-          3104
+          83.5
         ],
         [
           2011,
-          3179
+          83.6
         ],
         [
           2012,
-          3377
+          83.7
         ],
         [
           2013,
-          2932
+          83.9
         ],
         [
           2014,
-          3113
+          83.8
         ],
         [
           2015,
-          2752
+          83.9
         ],
         [
           2016,
-          2660
+          84.4
         ],
         [
           2017,
-          2426
+          84.4
         ],
         [
           2018,
-          2935
+          84.2
         ],
         [
           2019,
-          2523
+          84.5
         ],
         [
           2020,
-          2316
-        ],
-        [
-          2021,
-          2014
+          84.5
         ]
       ],
       "name": "Frauen"
     },
     {
-      "color": "#008ac3",
+      "color": "#4f81bd",
       "data": [
         [
-          1991,
-          9387
-        ],
-        [
-          1992,
-          9791
-        ],
-        [
-          1993,
-          10859
-        ],
-        [
-          1994,
-          9131
-        ],
-        [
-          1995,
-          9851
-        ],
-        [
-          1996,
-          9531
-        ],
-        [
-          1997,
-          8745
-        ],
-        [
-          1998,
-          8852
-        ],
-        [
-          1999,
-          8322
-        ],
-        [
-          2000,
-          7368
-        ],
-        [
-          2001,
-          8234
-        ],
-        [
-          2002,
-          6450
-        ],
-        [
-          2003,
-          8000
-        ],
-        [
-          2004,
-          6614
-        ],
-        [
           2005,
-          7349
+          77.2
         ],
         [
           2006,
-          5585
+          77.9
         ],
         [
           2007,
-          6186
+          78.7
         ],
         [
           2008,
-          6465
+          78.2
         ],
         [
           2009,
-          6033
+          78.3
         ],
         [
           2010,
-          5838
+          78.8
         ],
         [
           2011,
-          5485
+          78.8
         ],
         [
           2012,
-          5526
+          79.1
         ],
         [
           2013,
-          5567
+          79.3
         ],
         [
           2014,
-          5344
+          79.4
         ],
         [
           2015,
-          4677
+          79.7
         ],
         [
           2016,
-          4363
+          80.4
         ],
         [
           2017,
-          4092
+          80.9
         ],
         [
           2018,
-          4167
+          80.9
         ],
         [
           2019,
-          4460
+          80.9
         ],
         [
           2020,
-          4345
-        ],
-        [
-          2021,
-          4518
+          80.7
         ]
       ],
       "name": "Männer"
@@ -297,6 +177,13 @@
       "marker": {
         "enabled": false
       }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "title": {
@@ -306,10 +193,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Verlorene potentielle Lebensjahre"
+    "text": "Lebenserwartung bei Geburt"
   },
   "subtitle": {
-    "text": "je 100 000 Einwohner, Basel-Stadt",
+    "text": "nach Geschlecht in Jahren, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -333,7 +220,7 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -363,6 +250,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 100,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -378,7 +266,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2021"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -416,7 +304,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9679"

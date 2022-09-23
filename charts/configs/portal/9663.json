@@ -287,7 +287,8 @@
         }
       },
       "min": -2.5,
-      "max": undefined,
+      "max": 10,
+      "tickAmount": 6,
       "title": ""
     },
     {
@@ -304,8 +305,9 @@
           "color": "#000000"
         }
       },
-      "min": 0,
-      "max": undefined,
+      "min": -6000,
+      "max": 24000,
+      "tickAmount": 6,
       "gridLineWidth": 0,
       "opposite": true
     }
@@ -334,7 +336,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2021"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.9.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

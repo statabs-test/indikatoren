@@ -5,23 +5,23 @@
       "data": [
         [
           2015,
-          "13,2"
+          13.2
         ],
         [
           2017,
-          "14,0"
+          14
         ],
         [
           2018,
-          "14,5"
+          14.5
         ],
         [
           2019,
-          "14,8"
+          14.8
         ],
         [
           2020,
-          "13,9"
+          13.9
         ]
       ],
       "name": "Armutsindikator Finanzausgleich"
@@ -60,6 +60,8 @@
                     }
                 }
     },
+    "type": "column",
+    "marginTop": 70,
     "renderTo": "container-9693",
     "spacingBottom": 40
   },
@@ -80,7 +82,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Armutsindikator Finanzausgleich"
+    "text": "Sozialhilfequote im weiteren Sinn"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -122,14 +124,16 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "min": 0,
+    "tickInterval": 2
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "align": "left",
     "verticalAlign": "top"

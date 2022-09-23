@@ -1,64 +1,92 @@
 {
   "series": [
     {
-      "color": "#73BA7C",
+      "color": "#0F7399",
       "data": [
         [
-          2009,
-          107.7
+          "Basel-Stadt",
+          85.4
         ],
         [
-          2010,
-          104.1
+          "Basel-Landschaft",
+          91.9
         ],
         [
-          2011,
-          114.8
+          "Jura",
+          94.9
         ],
         [
-          2012,
-          139.8
-        ],
-        [
-          2013,
-          123
-        ],
-        [
-          2014,
-          109.4
-        ],
-        [
-          2015,
-          106.3
-        ],
-        [
-          2016,
-          106.5
-        ],
-        [
-          2017,
-          110.1
-        ],
-        [
-          2018,
-          103
-        ],
-        [
-          2019,
-          106
-        ],
-        [
-          2020,
-          100
-        ],
-        [
-          2021,
-          111.9
+          "Schweiz",
+          91.2
         ]
       ],
-      "name": "Anzahl Anzeigen"
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Basel-Stadt",
+          85.3
+        ],
+        [
+          "Basel-Landschaft",
+          90
+        ],
+        [
+          "Jura",
+          91.9
+        ],
+        [
+          "Schweiz",
+          90.4
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          85
+        ],
+        [
+          "Basel-Landschaft",
+          89.7
+        ],
+        [
+          "Jura",
+          90.8
+        ],
+        [
+          "Schweiz",
+          90.9
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -92,18 +120,20 @@
                     }
                 }
     },
-    "type": "column",
     "renderTo": "container-9682",
-    "spacingBottom": 50
+    "marginBottom": 75,
+    "type": "column",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -113,33 +143,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angezeigte Straftaten betreffend Strafgesetzbuch"
+    "text": "Entwicklung Abschlussquote der Sekundarstufe II"
   },
   "subtitle": {
-    "text": "pro 1000 Einwohner, Basel-Stadt",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -156,7 +169,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }
   },
   "legend": {
@@ -164,7 +177,10 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -183,12 +199,12 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 10.8.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 9.8.2021"
   },
   "tooltip": {
-    "valueDecimals": 1,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

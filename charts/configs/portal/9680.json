@@ -1,90 +1,241 @@
 {
   "series": [
     {
-      "color": "rgb(0,138,195)",
+      "color": "#246370",
       "data": [
         [
-          2010,
-          100
+          "2003",
+          827
         ],
         [
-          2011,
-          103.1
+          "2005",
+          845
         ],
         [
-          2012,
-          110.9
+          "2007",
+          756
         ],
         [
-          2013,
-          114.3
+          "2011",
+          730
         ],
         [
-          2014,
-          117.3
+          "2015",
+          635
         ],
         [
-          2015,
-          121.7
-        ],
-        [
-          2016,
-          125.2
-        ],
-        [
-          2017,
-          130
-        ],
-        [
-          2018,
-          135.2
+          "2019",
+          1255
         ]
       ],
-      "name": "Index Medianprämie"
+      "name": "Sehr sicher",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(147,63,141)",
+      "color": "#A8C3CA",
       "data": [
         [
-          2010,
-          100
+          "2003",
+          577
         ],
         [
-          2011,
-          100.6
+          "2005",
+          584
         ],
         [
-          2012,
-          100.7
+          "2007",
+          668
         ],
         [
-          2013,
-          101.5
+          "2011",
+          677
         ],
         [
-          2014,
-          102
+          "2015",
+          738
         ],
         [
-          2015,
-          102.2
-        ],
-        [
-          2016,
-          102.6
-        ],
-        [
-          2017,
-          103.1
-        ],
-        [
-          2018,
-          103.3
+          "2019",
+          745
         ]
       ],
-      "name": "Index Median Reineinkommen"
+      "name": "Eher sicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "2003",
+          79
+        ],
+        [
+          "2005",
+          70
+        ],
+        [
+          "2007",
+          75
+        ],
+        [
+          "2011",
+          94
+        ],
+        [
+          "2015",
+          115
+        ],
+        [
+          "2019",
+          65
+        ]
+      ],
+      "name": "Eher unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "2003",
+          9
+        ],
+        [
+          "2005",
+          10
+        ],
+        [
+          "2007",
+          7
+        ],
+        [
+          "2011",
+          14
+        ],
+        [
+          "2015",
+          15
+        ],
+        [
+          "2019",
+          16
+        ]
+      ],
+      "name": "Ganz unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          1
+        ]
+      ],
+      "name": "Trifft auf mich nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          5
+        ],
+        [
+          "2005",
+          1
+        ],
+        [
+          "2007",
+          3
+        ],
+        [
+          "2011",
+          1
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2019",
+          3
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          23
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -121,12 +272,6 @@
       "marker": {
         "enabled": false
       }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "symbol": "circle"
-      }
     }
   },
   "title": {
@@ -136,10 +281,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung von Krankenkassenprämien und Einkommen"
+    "text": "Sicherheitsgefühl im Alltag"
   },
   "subtitle": {
-    "text": "indexiert (2010 = 100), Basel-Stadt",
+    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -147,26 +292,8 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": {
-    "min": null,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -180,12 +307,12 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "reversedStacks": false
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -193,8 +320,12 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5,
-    "x": 30
+    "reversed": false,
+    "itemMarginBottom": 4,
+    "labelFormatter": function(){
+                return this.name.replace("/", " /<br/>");
+        
+              }
   },
   "credits": {
     "enabled": true,
@@ -209,7 +340,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -244,9 +375,6 @@
 					}]
 				}, true, true);
 			}
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9680"

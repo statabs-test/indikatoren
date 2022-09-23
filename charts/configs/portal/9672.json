@@ -1,150 +1,61 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#990300",
+      "visible": true,
       "data": [
         [
-          2010,
-          65751
+          "2010",
+          12.857366858
         ],
         [
-          2011,
-          64818
+          "2012",
+          15.292610918
         ],
         [
-          2012,
-          65189
+          "2014",
+          18.099668747
         ],
         [
-          2013,
-          66943
+          "2016",
+          19.695276655
         ],
         [
-          2014,
-          68538
+          "2018",
+          20.303556663
         ],
         [
-          2015,
-          68248
-        ],
-        [
-          2016,
-          69823
-        ],
-        [
-          2017,
-          69373
-        ],
-        [
-          2018,
-          69761
-        ],
-        [
-          2019,
-          72418
+          "2020",
+          24.606819199
         ]
       ],
-      "name": "Mittelwert Reineinkommen"
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          2010,
-          48072
-        ],
-        [
-          2011,
-          48350
-        ],
-        [
-          2012,
-          48409
-        ],
-        [
-          2013,
-          48816
-        ],
-        [
-          2014,
-          49044
-        ],
-        [
-          2015,
-          49142
-        ],
-        [
-          2016,
-          49335
-        ],
-        [
-          2017,
-          49558
-        ],
-        [
-          2018,
-          49680
-        ],
-        [
-          2019,
-          49883
-        ]
-      ],
-      "name": "Median Reineinkommen"
-    },
-    {
-      "color": "#083038",
-      "yAxis": 1,
-      "data": [
-        [
-          2010,
-          1088317926
-        ],
-        [
-          2011,
-          1052307314
-        ],
-        [
-          2012,
-          1059996122
-        ],
-        [
-          2013,
-          1079581767
-        ],
-        [
-          2014,
-          1109915052
-        ],
-        [
-          2015,
-          1109628846
-        ],
-        [
-          2016,
-          1150108299
-        ],
-        [
-          2017,
-          1128652533
-        ],
-        [
-          2018,
-          1151930387
-        ],
-        [
-          2019,
-          1223697688
-        ]
-      ],
-      "name": "Ertrag aus Einkommenssteuer (rechte Skala)"
+      "name": "Anteil erneuerbare Energie",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 50,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -169,19 +80,15 @@
 					}
 				}
     },
+    "inverted": false,
     "renderTo": "container-9672"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointWidth": 30
     }
   },
   "title": {
@@ -191,10 +98,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer"
+    "text": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -202,65 +109,35 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
     "title": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
-  "yAxis": [
-    {
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
+        "color": "#000000"
       },
-      "min": 0,
-      "max": undefined,
-      "title": ""
-    },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "max": 1500000000,
-      "gridLineWidth": 0,
-      "opposite": true
+      "format": "{value:,.0f}%"
     }
-  ],
+  },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "x": 35
   },
   "credits": {
     "enabled": true,
@@ -275,7 +152,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -312,8 +189,8 @@
 			}
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "9672"
