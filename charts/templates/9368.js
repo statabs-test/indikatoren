@@ -3,7 +3,7 @@
     "chart": {
       "type": "column",
       marginRight: 150,
-      marginLeft: 47
+      marginLeft: 50
     },
     "plotOptions": {
       "series": {
