@@ -60,8 +60,6 @@
             { color: "#FF8028", visible: false },
             { color: "#007A2F" },
             { color: "#68AB2B", visible: false },
-            { color: "#FABD24" },
-            { color: "#FFDA80", visible: false },
 
         ],
         legend: {
