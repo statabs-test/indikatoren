@@ -41,7 +41,8 @@
   {"color": "#71a3b5", "index": 3, "legendIndex":3}, /*blau dunkel */
   {"color": "#ffbb58", "index": 2, "legendIndex":2}, /*orange hell */
   {"color": "#ff8028", "index": 1, "legendIndex":1}, /*orange dunkel */
-  {"color": "#b00000", "index": 0, "legendIndex":0} /*rot dunkel */
+  {"color": "#b00000", "index": 0, "legendIndex":0}, /*rot dunkel */
+  {"color": "#B375AB", "index": 9, "legendIndex":9} /*lila */
   ],
   "tooltip": {
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}% von {point.total:,.0f})<br/>',
