@@ -45,8 +45,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstättenentwicklung nach Branche",
-		"subtitle": "Basel-Stadt, 2020 gegenüber 2015",
-		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2015 und 2020 insgesamt um 2,8% abgenommen. Deutliche Rückgänge waren im Bereich Verkehr und Lagerei (-33,9%), im Grosshandel (-30,0%) sowie im Bereich Bau, Energie und Wasser (-16,2%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Gesundheits- und Sozialwesen (+7,3%).",
+		"subtitle": "Basel-Stadt, 2020 gegenüber 2016",
+		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2016 und 2020 insgesamt um 1,4% abgenommen. Deutliche Rückgänge waren im Grosshandel (-26,3%), im Bereich Verkehr und Lagerei (-25,0%), sowie im Detailhandel (-9,4%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Bereich Information und Kommunikation (+5,2%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -539,8 +539,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Veränderung der Anzahl Arbeitsstätten im Detailhandel",
-		"subtitle": "Innenstadt, 2020 gegenüber 2015",
-		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2015 und 2020 um 12,2% abgenommen. Am stärksten war der Zuwachs mit 17,2% im Bereich Waren verschiedener Art, wozu unter anderem Supermärkte und Kaufhäuser zählen. Der stärkste Rückgang ist mit 21,3% im Bereich Haushaltsgeräte, Textilien, Möbel zu beobachten.",
+		"subtitle": "Innenstadt, 2020 gegenüber 2016",
+		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2016 und 2020 um 9,4% abgenommen. Am stärksten war der Zuwachs mit 13,9% im Bereich Uhren und Schmuck. Der stärkste Rückgang ist mit 25,0% im Bereich Informatik und Elektronik zu beobachten.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -614,8 +614,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl zu Fuss Gehende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 902 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 464 etwas mehr.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen.",
+		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 872 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 546 etwas mehr.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -651,8 +651,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Velofahrende in der Innenstadt",
 		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 580 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die neu installierte Zählstelle «952 Johanniterbrücke» ersetzt. Die Werte der beiden Zählstellen sind nicht vergleichbar.",
+		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 634 weniger Velos vorbei.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» ersetzt, welche mit neuer Technik läuft und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar, was durch die unterschiedliche Transparenz der blauen Säulen verdeutlicht werden soll.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
