@@ -49,7 +49,10 @@
       },
       labelFormatter: function () {
         //if (this.name.includes("Kontingent")) return this.name.split(" ").slice(0, 1).toString();
-        if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        //if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        //if (this.name.indexOf("Kontingent Barfüsserplatz") >= 0) return this.name.substring(0,40);
+        this.name = this.name.replace("Theaterplatz", "Theaterpl.");
+        if (this.name.indexOf("Kontingent") >= 0) return this.name.replace("platz", "pl.");
         //else (this.name.translate(0, -10));
         return this.name;
       },
