@@ -10177,85 +10177,81 @@ var indikatoren = [
 		"id": 5148
 	},
 	{
-		"title": "Geburtenziffer",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.3.05149",
-		"kuerzelKunde": "BE7",
-		"description": "Geburtenziffer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-10-29T14:43:16.1616",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren leicht von 10,0 auf 10,3 zugenommen.",
-		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"8886"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5149,
 		"chart-id": 5149,
 		"filter": "",
-		"id": 5149
-	},
-	{
-		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"parentId": null,
+		"children": [
+			8886
+		],
+		"title": "Geburtenziffer",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.5.05155",
-		"kuerzelKunde": "BE8.1",
-		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die rohe Geburtenziffer lag 2016 noch bei 11,0 und hat seither auf 9,9 im Jahr 2020 abgenommen.",
+		"erlaeuterungen": "Rohe Geburtenziffer: Lebendgeborene je 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:41:50.5050",
+		"description": "Geburtenziffer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Geburten und Todesfälle",
+		"kuerzel": "I.01.3.05149",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE7",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 zogen 14 013 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 12 799 Personen verliessen den Kanton im Jahr 2019. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2010 und 2019 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
-		"template": "template001",
+		"orderKey": "01_01_00_00_00_107",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_108",
-		"parentId": 6011,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-10-29T02:43:16",
+		"id": 5149
+	},
+	{
+		"template": "template001",
 		"data-id": 5155,
 		"chart-id": 5155,
 		"filter": "",
+		"parentId": "6011",
+		"children": [],
+		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2020 zogen 13 480 Personen neu in den Kanton Basel-Stadt. Dies ist der niedrigste Wert der letzten zehn Jahre. 12 524 Personen verliessen den Kanton im Jahr 2020. Letztmals weniger Weggezogene wurden 2012 - nämlich 12 441 - registriert. Der Wanderungssaldo fiel zwischen 2011 und 2020 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück. Im Vergleich zum Jahr 2019 hat die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und der Nordwestschweiz sowie der übrigen Schweiz zugenommen, während die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und dem Ausland zurückgegangen ist.",
+		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8.1",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_108",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-05-20T08:05:26",
 		"id": 5155
 	},
 	{
@@ -11080,45 +11076,46 @@ var indikatoren = [
 		"id": 5195
 	},
 	{
+		"template": "line001",
+		"data-id": 5196,
+		"chart-id": 5196,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7782,
+			8423,
+			8910,
+			9686
+		],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.5196",
-		"kuerzelKunde": "GW18",
-		"description": "Mietpreisindex Basel-Stadt",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Nachhaltigkeit",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 97,2 Punkten im Jahr 1995 auf den aktuellen Wert von 131,4 im November 2022.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-04T15:05:48.4848",
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.5196",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW17",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_318",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_06_00_00_00_318",
-		"parentId": null,
-		"children": [
-			"7782"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5196,
-		"chart-id": 5196,
-		"filter": "",
+		"aktualisierungsdatum": "2020-02-04T03:05:48",
 		"id": 5196
 	},
 	{
@@ -13173,45 +13170,45 @@ var indikatoren = [
 		"id": 6035
 	},
 	{
+		"template": "line001",
+		"data-id": 6036,
+		"chart-id": 6036,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8927,
+			9371,
+			9428
+		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.18.2.6036",
-		"kuerzelKunde": "GZ4",
-		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu, jener des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:42:03.033",
+		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6036",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ4",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens), er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_504",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_504",
-		"parentId": null,
-		"children": [
-			"8927"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6036,
-		"chart-id": 6036,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:12",
 		"id": 6036
 	},
 	{
@@ -13503,45 +13500,43 @@ var indikatoren = [
 		"id": 6044
 	},
 	{
+		"template": "line001",
+		"data-id": 6045,
+		"chart-id": 6045,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8934
+		],
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"kuerzel": "I.04.1.06045",
-		"kuerzelKunde": "WE1",
-		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2019 beträgt es rund 204 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T17:04:16.1616",
+		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.06045",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE1",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2018 beträgt es fast 191 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die übrigen Kantone verlaufen etwas konstanter.",
-		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
+		"orderKey": "06_01_00_00_00_601",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "06_01_00_00_00_601",
-		"parentId": null,
-		"children": [
-			"8934"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6045,
-		"chart-id": 6045,
-		"filter": "",
+		"aktualisierungsdatum": "2020-04-01T05:04:16",
 		"id": 6045
 	},
 	{
@@ -13794,14 +13789,16 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
-		"data-id": 6137,
-		"chart-id": 6137,
+		"data-id": 6053,
+		"chart-id": 6053,
 		"filter": "",
-		"parentId": "6137",
-		"children": [],
+		"parentId": null,
+		"children": [
+			8942
+		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,0% im Jahresdurchschnitt 2019 auf 3,8% im Jahr 2020 gestiegen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) erhöhte sich von 3,2% 2019 auf 4,1% 2020. Die Arbeitslosenquote der Personen über 50 Jahre nahm 2020 auf 3,1% zu und lag damit weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% 2021 markant zurück, während die Arbeitslosenquote der Personen über 50 Jahre auf 3,5% zunahm; sie lag damit aber weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -13825,7 +13822,7 @@ var indikatoren = [
 		"orderKey": "06_02_00_00_00_608",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-08-11T08:35:38",
 		"id": 6053
