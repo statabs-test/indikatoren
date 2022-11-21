@@ -23,7 +23,7 @@
         },
         yAxis:[{
             //max: 15,
-            tickInterval: 5,
+            tickInterval: 1,
             min:0,
             title: {
                 text: null
