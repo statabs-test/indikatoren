@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitsstätten nach Branche",
 		"subtitle": "Innenstadt und Stadt Basel",
-		"lesehilfe": "In der Innenstadt befinden sich 4 429 Arbeitsstätten. Rund 21% gehören zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 16% zum Gesundheits- und Sozialwesen und 13% zum Detailhandel (gesamte Stadt Basel: 8%).",
+		"lesehilfe": "Von den 4 429 Arbeitsstätten in der Innenstadt (2020) gehören rund 21% zur Branchengruppe Unternehmensdienstleistungen und Freiberufe, 16% zum Gesundheits- und Sozialwesen und 13% zum Detailhandel (gesamte Stadt Basel: 8%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -45,8 +45,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Arbeitsstättenentwicklung nach Branche",
-		"subtitle": "Basel-Stadt, 2020 gegenüber 2016",
-		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2016 und 2020 insgesamt um 1,4% abgenommen. Deutliche Rückgänge waren im Grosshandel (-26,3%), im Bereich Verkehr und Lagerei (-25,0%), sowie im Detailhandel (-9,4%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Bereich Information und Kommunikation (+5,2%).",
+		"subtitle": "Innenstadt und Stadt Basel, 2020 gegenüber 2016",
+		"lesehilfe": "Die Anzahl Arbeitsstätten in der Innenstadt hat zwischen 2016 und 2020 insgesamt um -1,4% abgenommen, in der Stadt Basel um -0,2%. Deutliche Rückgänge waren im Grosshandel (-26,3%), im Bereich Verkehr und Lagerei (-25,0%), sowie im Detailhandel (-9,4%) zu beobachten. Am stärksten zugenommen hat die Zahl der Arbeitsstätten im Bereich Information und Kommunikation (+5,2%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -82,9 +82,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Veranstaltungen auf der Allmend in der Innenstadt",
-		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt. Die Belegungstage der Kaserne wurden von 2011 bis 2014 nach anderer, nicht vergleichbarer Methodik erfasst und sind deshalb nicht abgebildet.",
+		"title": "Veranstaltungen auf der Allmend",
+		"subtitle": "in Anzahl Tagen, nach Veranstaltungsort in der Innenstadt Basels",
+		"lesehilfe": "Im Jahr 2021 fanden auf dem Münsterplatz an 20 Tagen bewilligte Veranstaltungen statt (gemäss Kontingent wären 60 möglich).",
 		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte Veranstaltungen stattfinden. Für jeden Platz existiert ein jährliches Kontingent der maximalen Veranstaltungstage. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Als Veranstaltung im Sinne der Bespielungspläne gelten alle Anlässe auf Allmend, die nach 20:00 Uhr stattfinden oder Anlässe, die vor 20:00 Uhr Lautsprecher und/oder unverstärkte laute Musikinstrumente einsetzen. Nicht als Veranstaltung im Sinne des Bespielungsplanes gelten bspw. tagsüber stattfindene Märkte oder die Fasnacht. <br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
@@ -96,7 +96,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Veranstaltungen auf der Allmend in der Innenstadt",
+		"description": "Veranstaltungen auf der Allmend",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
@@ -121,9 +121,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt",
-		"subtitle": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
-		"lesehilfe": "Auf dem Barfüsser- und dem Theaterplatz fanden 2021 an 16 Tagen lärmintensive bewilligte Veranstaltungen statt.",
+		"title": "Lärmintensive Veranstaltungen auf der Allmend",
+		"subtitle": "in Anzahl Tagen, nach Veranstaltungsort in der Innenstadt Basels",
+		"lesehilfe": "Auf dem Barfüsser- und dem Theaterplatz fanden 2021 an 16 Tagen lärmintensive bewilligte Veranstaltungen statt (gemäss Kontingent wären 40 möglich).",
 		"erlaeuterungen": "Abgebildet ist die Anzahl Tage, an denen auf den jeweiligen Plätzen bewilligte lärmintensive Veranstaltungen stattfinden (bspw. ausgesprochene Musikanlässe, wie bass- und rhythmusbetonte Live-Konzerte, Discos und Kino, respektive Anlässe mit einem hohen Animationsanteil). Für jeden Platz existiert (neben dem jährlichen Kontingent an maximalen Veranstaltungstagen) ein Kontingent für Veranstaltungstage mit besonders lärmintensiven Auswirkungen. Der Regierungsrat kann darüber hinaus zusätzliche Veranstaltungstage bewilligen.<br>Barfüsser- und Theaterplatz werden bezüglich der Kontingente für Veranstaltungen als eine Einheit bewirtschaftet. Auf der Kaserne werden gemäss Bespielungsplan die Belegungstage erfasst (inkl. Auf- und Abbau), auf allen anderen Plätzen nur die effektiven Veranstaltungstage (Bespielung). Details zu den Bespielungsplänen siehe Links.",
 		"quellenangabe": [
 			"Allmendverwaltung Basel-Stadt"
@@ -135,7 +135,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt",
+		"description": "Lärmintensive Veranstaltungen auf der Allmend",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",

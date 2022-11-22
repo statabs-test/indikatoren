@@ -345,14 +345,14 @@
         ],
         [
           2020,
-          1
+          2
         ],
         [
           2021,
           20
         ]
       ],
-      "name": "Kaserne (Belegungstage)"
+      "name": "Kaserne"
     },
     {
       "color": "#b00000",
@@ -718,7 +718,7 @@
           40
         ]
       ],
-      "name": "Kontingent Kaserne (Belegungstage)"
+      "name": "Kontingent Kaserne"
     }
   ],
   "chart": {
@@ -761,10 +761,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Lärmintensive Veranstaltungen auf der Allmend in der Innenstadt"
+    "text": "Lärmintensive Veranstaltungen auf der Allmend"
   },
   "subtitle": {
-    "text": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+    "text": "in Anzahl Tagen, nach Veranstaltungsort in der Innenstadt Basels",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -838,7 +838,9 @@
     },
     "labelFormatter": function () {
         //if (this.name.includes("Kontingent")) return this.name.split(" ").slice(0, 1).toString();
-        if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        //if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        this.name = this.name.replace("Theaterplatz", "Theaterpl.");
+        if (this.name.indexOf("Kontingent") >= 0) return this.name.replace("platz", "pl.");
         //else (this.name.translate(0, -10));
         return this.name;
       }

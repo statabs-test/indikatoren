@@ -301,55 +301,55 @@
       "data": [
         [
           2009,
-          29
+          88
         ],
         [
           2010,
-          33
+          108
         ],
         [
           2011,
-          null
+          130
         ],
         [
           2012,
-          null
+          112
         ],
         [
           2013,
-          null
+          136
         ],
         [
           2014,
-          null
+          114
         ],
         [
           2015,
-          43
+          136
         ],
         [
           2016,
-          40
+          123
         ],
         [
           2017,
-          41
+          129
         ],
         [
           2018,
-          41
+          136
         ],
         [
           2019,
-          52
+          88
         ],
         [
           2020,
-          1
+          25
         ],
         [
           2021,
-          21
+          67
         ]
       ],
       "name": "Kaserne (Belegungstage)"
@@ -761,10 +761,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Veranstaltungen auf der Allmend in der Innenstadt"
+    "text": "Veranstaltungen auf der Allmend"
   },
   "subtitle": {
-    "text": "nach Veranstaltungsort, in Tagen, Basel-Stadt",
+    "text": "in Anzahl Tagen, nach Veranstaltungsort in der Innenstadt Basels",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -838,7 +838,10 @@
     },
     "labelFormatter": function () {
         //if (this.name.includes("Kontingent")) return this.name.split(" ").slice(0, 1).toString();
-        if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        //if (this.name.indexOf("Kontingent") >= 0) return this.name.split(" ").slice(0, 1).toString();
+        //if (this.name.indexOf("Kontingent Barfüsserplatz") >= 0) return this.name.substring(0,40);
+        this.name = this.name.replace("Theaterplatz", "Theaterpl.");
+        if (this.name.indexOf("Kontingent") >= 0) return this.name.replace("platz", "pl.");
         //else (this.name.translate(0, -10));
         return this.name;
       }
