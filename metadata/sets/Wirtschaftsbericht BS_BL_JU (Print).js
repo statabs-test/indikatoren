@@ -195,42 +195,40 @@ var indikatorensetData = [
 		"id": 8471
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8472,
+		"chart-id": 8355,
+		"filter": "",
+		"parentId": "8355",
+		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08472",
-		"kuerzelKunde": "1.2-2",
-		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-09T16:25:51.5151",
+		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08472",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
+		"kuerzelKunde": "1.2-2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt ist zwischen 2014 und 2018 um 71% gestiegen. Auch die Wertschöpfung in der Metallindustrie ist gewachsen (+18%), wobei diese Branche, ebenso wie der Bereich Elektro/Optik/Maschinen-Industrie (-26%), sehr klein ist. Die Wertschöpfung im Baugewerbe hat um 17% zugenommen, während sie im Bereich Verkehr und Lagerei um 12% zurückgegangen ist.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
-		"template": "line001_print",
+		"orderKey": "01_02_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_002",
-		"parentId": 8355,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8472,
-		"chart-id": 8472,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:07",
 		"id": 8472
 	},
 	{
