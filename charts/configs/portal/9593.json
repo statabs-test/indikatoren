@@ -495,10 +495,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Velofahrende in der Innenstadt"
+    "text": "Velofahrende in der Innenstadt"
   },
   "subtitle": {
-    "text": "Tagesdurchschnitt",
+    "text": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -551,7 +551,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemWidth": 205,
+    "itemWidth": 210,
+    "width": 450,
     "itemDistance": 0
   },
   "navigation": {

@@ -121,10 +121,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettomietpreise Innenstadt"
+    "text": "Nettomietpreise"
   },
   "subtitle": {
-    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt, 2016-2020",
+    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche,Basel-Stadt und Innenstadt, 2016-2020",
     "align": "left",
     "style": {
       "fontSize": "12px",

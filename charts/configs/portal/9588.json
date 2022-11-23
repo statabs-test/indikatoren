@@ -557,7 +557,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Arbeitsstätten im Detailhandel in der Innenstadt, nach Branche"
+    "text": "Arbeitsstätten im Detailhandel, nach Branche"
   },
   "subtitle": {
     "text": "Innenstadt Basel",
@@ -584,9 +584,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+''; 
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        }
     },
     "tickAmount": 8
   },
@@ -628,10 +628,19 @@
   },
   "tooltip": {
     "shared": true,
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/>' 
-    },
-    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "useHTML": true,
+    "followPointer": true,
+    "formatter": function () {
+        var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+        $.each(this.points, function (i, point) {
+          s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + point.y + '</b></td>'
+            + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+          sum += point.y;
+        });
+        s += '<tr><td><span style="color:transparent">\u25CF</span> <b>&nbsp;Total: <b></td><td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(sum, 0) + '</b></td><td></td></table>'
+        return s;
+      }
   },
   "exporting": {
     "filename": "9588"

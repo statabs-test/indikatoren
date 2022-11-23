@@ -181,10 +181,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Requisitionen"
+    "text": "Requisitionen"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Basel-Stadt, Stadt Basel und Innenstadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

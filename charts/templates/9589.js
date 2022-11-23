@@ -5,23 +5,26 @@
       "labels": {
         x: -190,
         align: "leftt",
-      /* style: {
-            textOverflow: 'none'
-        }*/
-    }
+        "formatter": function () {
+          return this.value.replace('Total Detailhandel', '<b>Total Detailhandel</b>');
+        }
+        /* style: {
+              textOverflow: 'none'
+          }*/
+      }
     },
     "yAxis": {
       min: null,
 
       /*tickInterval: 3,*/
       "labels": {
-        "formatter": function(){
-            return Highcharts.numberFormat((this.value*100),0)+'%'; 
-          }
-        } 
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+        }
+      }
     },
     "series": [
-    { "color": "#B00000" }, /* Schweiz = dunkelrot */
+      { "color": "#B00000" }, /* Schweiz = dunkelrot */
 
     ],
     "legend": {
@@ -34,8 +37,8 @@
       }
     },
     tooltip: {
-      "pointFormatter": function(){
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>'; 
+      "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b>';
       },
       shared: false
     },

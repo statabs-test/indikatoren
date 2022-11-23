@@ -68,7 +68,10 @@
         "color": "#000000"
       },
       "x": -190,
-      "align": "leftt"
+      "align": "leftt",
+      "formatter": function () {
+          return this.value.replace('Total Detailhandel', '<b>Total Detailhandel</b>');
+        }
     }
   },
   "chart": {
@@ -132,7 +135,7 @@
     "text": "Veränderung der Anzahl Arbeitsstätten im Detailhandel"
   },
   "subtitle": {
-    "text": "Innenstadt, 2020 gegenüber 2016",
+    "text": "Innenstadt Basel, 2020 gegenüber 2016",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -155,9 +158,9 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-            return Highcharts.numberFormat((this.value*100),0)+'%'; 
-          }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+        }
     },
     "min": null
   },
@@ -193,8 +196,8 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 11.7.2022"
   },
   "tooltip": {
-    "pointFormatter": function(){
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>'; 
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b>';
       },
     "shared": false
   },

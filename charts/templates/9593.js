@@ -67,11 +67,9 @@
             layout: "horizontal",
             verticalAlign: "top",
             align: "left",
-            itemWidth: 205,
+            itemWidth: 210,
+            width: 450,
             itemDistance: 0,
-            itemStyle: {
-                fontWeight: "normal"
-            }
         },
         tooltip: {
             pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',

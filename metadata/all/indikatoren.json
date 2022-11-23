@@ -81031,9 +81031,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Requisitionen",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden in der  Innenstadt 1 306 Requisitionen erfasst. In der Stadt Basel waren es 4 409 und im Kanton Basel-Stadt 4 636.",
+		"title": "Requisitionen",
+		"subtitle": "Basel-Stadt, Stadt Basel und Innenstadt",
+		"lesehilfe": "Im Jahr 2021 wurden in der Innenstadt 1 306 Requisitionen erfasst. In der Stadt Basel waren es 4 409 und im Kanton Basel-Stadt 4 636.",
 		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -81045,7 +81045,7 @@
 			"Stadt Basel",
 			"Innenstadt"
 		],
-		"description": "Anzahl Requisitionen",
+		"description": "Requisitionen",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09579",
@@ -81071,7 +81071,7 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Requisitionen in der Innenstadt nach Kategorie",
+		"title": "Requisitionen in der Innenstadt nach Kategorie",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
 		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
@@ -81083,7 +81083,7 @@
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Anzahl Requisitionen in der Innenstadt nach Kategorie",
+		"description": "Requisitionen in der Innenstadt nach Kategorie",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09580",
@@ -81110,7 +81110,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Wohnbevölkerung",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Basel-Stadt und Innenstadt",
 		"lesehilfe": "In der Innenstadt leben im Jahr 2021 14 290 Menschen. Dies sind 10,6% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 6,6% auf 201 805.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
@@ -81149,9 +81149,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Basel-Stadt und Innenstadt",
 		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2021 bei 29,4%. Im Kanton Basel-Stadt liegt die Sesshaftigkeit Ende 2021 bei 34,4%.",
-		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung eines Gebietes in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -81187,10 +81187,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Nettomietpreise Innenstadt",
-		"subtitle": "in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2016-2020",
+		"title": "Nettomietpreise",
+		"subtitle": "in Franken pro m<sup>2</sup> Wohnfläche,Basel-Stadt und Innenstadt, 2016-2020",
 		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt in der Innenstadt im Durchschnitt der Jahre 2016 bis 2020 bei 18,5 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -81200,7 +81200,7 @@
 			"Kanton",
 			"Innenstadt"
 		],
-		"description": "Nettomietpreise Innenstadt",
+		"description": "Nettomietpreise",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09583",
@@ -81227,7 +81227,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Reineinkommen pro Veranlagung",
-		"subtitle": "in Franken, Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt und Innenstadt",
 		"lesehilfe": "2019 beträgt das durchschnittliche Reineinkommen pro Veranlagung von Personen, die in der Innenstadt wohnen, rund 89 600 Franken. Der Wert für den ganzen Kanton beträgt ca. 72 400 Franken.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
@@ -81266,7 +81266,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
-		"subtitle": "Basel-Stadt und Innenstadt",
+		"subtitle": "in CHF, Basel-Stadt und Innenstadt",
 		"lesehilfe": "Von Zuzügern in die Innenstadt stammten im Jahr 2019 rund 5,0 Millionen Franken Steuerertrag, von Wegzügern (Ertrag des Vorjahrs) rund 3,5 Millionen Franken.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.<br>In der Auswertung ist sowohl die Kantons- als auch die Gemeindesteuer berücksichtigt.",
 		"quellenangabe": [
@@ -81340,9 +81340,12 @@
 		"data-id": 9587,
 		"chart-id": 9587,
 		"filter": "",
-		"parentId": "6169",
-		"children": [],
-		"title": "Anzahl Besuche in Theater, Kinos und Museen",
+		"parentId": null,
+		"children": [
+			5194,
+			6169
+		],
+		"title": "Besuche in Theater, Kinos und Museen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 594 000 im Jahr 2019. Bei den übrigen Institutionen blieben die Zahlen vergleichsweise konstant.",
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19.",
@@ -81355,7 +81358,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Besuche in Theater, Kinos und Museen",
+		"description": "Besuche in Theater, Kinos und Museen",
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kuerzel": "I.16.1.09587",
@@ -81369,7 +81372,7 @@
 		"orderKey": "03_00_00_00_00_311",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-11T03:01:30",
 		"id": 9587
@@ -81381,7 +81384,7 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Arbeitsstätten im Detailhandel in der Innenstadt, nach Branche",
+		"title": "Arbeitsstätten im Detailhandel, nach Branche",
 		"subtitle": "Innenstadt Basel",
 		"lesehilfe": "Im Jahr 2020 gab es in der Innenstadt 569 Arbeitsstätten im Detailhandel, das sind 122 bzw. 17,7% weniger als noch im Jahr 2011. Am meisten Arbeitsstätten gehören dem Bereich Kleidung und Lederwaren an (157 bzw. 28%).",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
@@ -81393,7 +81396,7 @@
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Arbeitsstätten im Detailhandel in der Innenstadt, nach Branche",
+		"description": "Arbeitsstätten im Detailhandel, nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09588",
@@ -81420,7 +81423,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Veränderung der Anzahl Arbeitsstätten im Detailhandel",
-		"subtitle": "Innenstadt, 2020 gegenüber 2016",
+		"subtitle": "Innenstadt Basel, 2020 gegenüber 2016",
 		"lesehilfe": "Die Anzahl Arbeitsstätten im Detailhandel hat in der Innenstadt zwischen 2016 und 2020 um 9,4% abgenommen. Am stärksten war der Zuwachs mit 13,9% im Bereich Uhren und Schmuck. Der stärkste Rückgang ist mit 25,0% im Bereich Informatik und Elektronik zu beobachten.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
@@ -81495,9 +81498,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl zu Fuss Gehende in der Innenstadt",
-		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 872 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 546 etwas mehr.",
+		"title": "Zu Fuss Gehende in der Innenstadt",
+		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
+		"lesehilfe": "Im Jahr 2021 passierten unter der Woche durchschnittlich 3 872 Fussgänger die Zählstelle bei der Wettsteinbrücke. An Samstagen waren es mit 4 546 etwas mehr.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Bei der Zählstelle Mittlere Rheinbrücke wird nur die Seite Schifflände ausgewiesen. Erneuerungsarbeiten an der Greifengasse und auf der Mittleren Rheinbrücke in den Jahren 2017 und 2018 hatten grössere Beeinträchtigungen im Innenstadtbereich zur Folge.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -81507,7 +81510,7 @@
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Anzahl zu Fuss Gehende in der Innenstadt",
+		"description": "Zu Fuss Gehende in der Innenstadt",
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
@@ -81533,10 +81536,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Velofahrende in der Innenstadt",
-		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Im Jahr 2021 passierten an Werktagen durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 634 weniger Velos vorbei.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» zählte nur in eine Richtung. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» ersetzt, welche mit neuer Technik läuft und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar, was durch die unterschiedliche Transparenz der blauen Säulen verdeutlicht werden soll.",
+		"title": "Velofahrende in der Innenstadt",
+		"subtitle": "Tagesdurchschnitt Mo-Fr und Sa, Innenstadt Basel",
+		"lesehilfe": "Im Jahr 2021 passierten unter derWoche durchschnittlich 3 709 Velos die Zählstelle bei der Johanniterbrücke. An Samstagen fuhren dort mit 2 634 weniger Velos vorbei.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als 9 gezählten Monaten ausgewiesen. Die Zählstelle «352 Johanniterbrücke» (hellblaue Säulen) war bis 2017 aktiv und hat den Verkehr nur in eine Fahrtrichtung erfasst. Im Jahr 2019 wurde sie durch die Zählstelle «952 Johanniterbrücke» (dunkelblaue Säulen) ersetzt, welche mit neuer Technik und an einem leicht anderen Ort installiert wurde. Die Werte dieser beiden Zählstellen sind deshalb nicht vergleichbar.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -81545,7 +81548,7 @@
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Anzahl Velofahrende in der Innenstadt",
+		"description": "Velofahrende in der Innenstadt",
 		"thema": "11 Verkehr",
 		"unterthema": "",
 		"kuerzel": "",
@@ -81556,7 +81559,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_412",
+		"orderKey": "04_00_00_00_00_421",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -81572,7 +81575,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Einfahrten in Parkhäuser in der Innenstadt",
-		"subtitle": "Durchschnittliche Einfahrten pro Tag",
+		"subtitle": "Durchschnittliche Einfahrten pro Tag, Innenstadt Basel",
 		"lesehilfe": "An Werktagen wurden im Jahr 2021 in den vier Parkhäusern der Innenstadt zusammen durchschnittlich 5 320 Einfahrten pro Tag registriert, an Samstagen waren es 5 207. An Werktagen wurden am meisten Einfahrten im Parkhaus City (1 892) gezählt, an Samstagen war das Parkhaus Elisabethen (1 798) am besten besucht.",
 		"erlaeuterungen": "Aufgrund von technischen Problemen sind für das Parkhaus City erst ab dem Jahr 2021 Daten verfügbar.",
 		"quellenangabe": [
@@ -81594,7 +81597,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_413",
+		"orderKey": "04_00_00_00_00_441",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -81610,8 +81613,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Parkhausauslastung Montag bis Freitag in der Innenstadt",
-		"subtitle": "nach Stunden",
-		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innerstädtischen Parkhäuser  an Werktagen mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
+		"subtitle": "nach Stunden, Innenstadt Basel",
+		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innenstädtischen Parkhäuser an Werktagen mit 70,0% zwischen 12 und 13 Uhr zu beobachten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -81632,7 +81635,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_421",
+		"orderKey": "04_00_00_00_00_451",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -81648,8 +81651,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Parkhausauslastung an Samstagen in der Innenstadt",
-		"subtitle": "nach Stunden",
-		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innerstädtischen Parkhäuser an Samstagen zwischen 13 und 14 Uhr zu beobachten (56,2%).",
+		"subtitle": "nach Stunden, Innenstadt Basel",
+		"lesehilfe": "2021 war die höchste durchschnittliche Auslastung der innenstädtischen Parkhäuser an Samstagen zwischen 13 und 14 Uhr zu beobachten (56,2%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Parkhäuser Basel-Stadt"
@@ -81670,7 +81673,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_00_00_00_00_422",
+		"orderKey": "04_00_00_00_00_452",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -81686,8 +81689,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Aussteigende ÖV-Passagiere an Haltestellen in der Innenstadt",
-		"subtitle": "Tagesdurchschnitt",
-		"lesehilfe": "Die Zahl der an Haltestellen in der Innenstadt aussteigenden ÖV-Passagiere hat während der beiden Pandemie-Jahre 2020 und 2021 abgenommen. Im Jahr 2021 wurden werktags durchschnittlich rund 130 000 Passagiere täglich gezählt, das sind 46% weniger als im Mittel der Jahre 2011 bis 2020. 2022 nahm die Zahl der aussteigenden Passagiere im Vergleich zum Vorjahr wieder um rund ein Viertel zu.",
+		"subtitle": "Tagesdurchschnitt Mo-Do/Fr, Innenstadt Basel",
+		"lesehilfe": "Die Zahl der an Haltestellen in der Innenstadt aussteigenden ÖV-Passagiere hat während der beiden Pandemie-Jahre 2020 und 2021 abgenommen. Im Jahr 2021 wurden unter der Woche durchschnittlich rund 130 000 Passagiere täglich gezählt, das sind 46% weniger als im Mittel der Jahre 2011 bis 2020. 2022 nahm die Zahl der aussteigenden Passagiere im Vergleich zum Vorjahr wieder um rund ein Viertel zu.",
 		"erlaeuterungen": "Modellrechungen für alle Haltestellen im Perimeter Innenstadt. Berücksichtigt sind die Passagierzahlen der Basler Verkehrsbetriebe (BVB), der Baselland Transport AG (BLT), der Autobus AG Liestal (AAGL), sowie seit 2019 des öffentlichen Busbetriebs in der Communauté d'agglomération des Trois Frontières im Elsass (Distribus) und seit 2020 der Südwestdeutschen Landesverkehrs-GmbH (SWEG). BVB, Distribus und SWEG: Mo-Do; BLT und AAGL: Mo-Fr.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -81876,7 +81879,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Saldo des Ertrags aus Einkommens- und Vermögenssteuer von Zu- und Weggezogenen",
-		"subtitle": "Basel-Stadt und Innenstadt",
+		"subtitle": "in CHF, Basel-Stadt und Innenstadt",
 		"lesehilfe": "Von Personen, die in der Innenstadt wohnen, ergab sich im Jahr 2019 durch Zu- und Wegzüge ein positiver Saldo des Steuerertrags von rund 1,5 Mio. Franken. Für den gesamten Kanton ergab sich - einschliesslich Gemeindesteuer - ein Plus von 6,2 Mio. Franken.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen in der Steuerstatistik Basel-Stadt. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.<br>In der Auswertung ist sowohl die Kantons- als auch die Gemeindesteuer berücksichtigt.",
 		"quellenangabe": [
