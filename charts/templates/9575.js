@@ -22,8 +22,8 @@
           return this.value
             .replace('Innenstadt: ', '')
             .replace('Stadt Basel: ', '')
-            .replace('Innenstadt', '<b>_Innenstadt</b>')
-            .replace('Stadt Basel', '<b>_Stadt Basel</b>');
+            .replace('Innenstadt', '<b>Innenstadt</b>')
+            .replace('Stadt Basel', '<b>Stadt Basel</b>');
         }
       }
     },
