@@ -81031,10 +81031,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Requisitionen",
+		"title": "Meldungen bei der Polizei",
 		"subtitle": "Basel-Stadt, Stadt Basel und Innenstadt",
-		"lesehilfe": "Im Jahr 2021 wurden in der Innenstadt 1 306 Requisitionen erfasst. In der Stadt Basel waren es 4 409 und im Kanton Basel-Stadt 4 636.",
-		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
+		"lesehilfe": "Im Jahr 2021 wurden bei der Polizeieinsatzzentrale 1 306 Meldungen erfasst, die die Innenstadt betreffen. In der Stadt Basel gab es 4 409 Meldungen und im Kanton Basel-Stadt 4 636.",
+		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -81045,7 +81045,7 @@ var indikatoren = [
 			"Stadt Basel",
 			"Innenstadt"
 		],
-		"description": "Requisitionen",
+		"description": "Meldungen bei der Polizei",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09579",
@@ -81071,10 +81071,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Requisitionen in der Innenstadt nach Kategorie",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Requisitionen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
-		"erlaeuterungen": "Requisitionen sind Meldungen, die bei der Polizeieinsatzzentrale eingegangen sind. Die Requisitionen sind seit 2013 verfügbar.",
+		"title": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie",
+		"subtitle": "Innenstadt Basel",
+		"lesehilfe": "In der Innenstadt war im Jahr 2021 der häufigste Grund für Meldungen bei der Polizeieinsatzzentrale Lärm (408 Requisitionen). Am zweit- und dritthäufigsten waren Meldungen wegen Körperverletzung (220) sowie wegen Bettelei und Obdachlosigkeit (188).",
+		"erlaeuterungen": "Bei den bei der Polizeieinsatzzentrale eingegangenen Meldungen (sog. Requisitionen) handelt es sich überwiegend um Telefonanrufe seitens der Bevölkerung. Die Daten sind seit 2013 verfügbar.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -81083,7 +81083,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Innenstadt"
 		],
-		"description": "Requisitionen in der Innenstadt nach Kategorie",
+		"description": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"kuerzel": "I.19.1.09580",

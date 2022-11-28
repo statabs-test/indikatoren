@@ -574,10 +574,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Requisitionen in der Innenstadt nach Kategorie"
+    "text": "Meldungen bei der Polizei bezüglich Innenstadt, nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Innenstadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
