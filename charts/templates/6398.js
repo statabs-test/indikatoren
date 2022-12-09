@@ -107,7 +107,7 @@
 	                var maxValueInLegend = 20; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in") + ' (pp)', 265, 230);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in") + ' (pp)', 265, 225);
 	                
 	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 387, 265, 'pieLegendHideOnZoom');
@@ -115,9 +115,9 @@
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 290, 'pieLegendHideOnZoom');
 
 					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
+					fn.addLegendLabel(chart, 'Zunahme', 285, 265);
 					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
+					fn.addLegendLabel(chart, 'Abnahme', 285, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
