@@ -107,7 +107,7 @@
 	                var maxValueInLegend = 20; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + ' (pp)', 265, 240);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in") + ' (pp)', 265, 230);
 	                
 	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 387, 265, 'pieLegendHideOnZoom');
