@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2001 bis 2020 stieg der Anteil der ausländischen Personen an der Bevölkerung von 28,0% auf 37,0%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten.",
+		"lesehilfe": "Von 2002 bis 2020 stieg der Anteil der ausländischen Personen an der Bevölkerung kontinuerlich von 28,0% auf 37,0%. Im Jahr 2021 sank dieser Anteil geringfügig auf 36,9%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -19,7 +19,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06642",
 		"kennzahlenset": "Integration (Print)",
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:09",
+		"aktualisierungsdatum": "2022-11-14T08:44:58",
 		"id": 6642
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2020 lebten im Kanton Basel-Stadt 127 276 Schweizerinnen und Schweizer und 74 695 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2001 um 22 171 gestiegen ist, ist die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 7 636 gesunken.",
+		"lesehilfe": "Ende 2021 lebten im Kanton Basel-Stadt 127 371 Schweizerinnen und Schweizer und 74 434 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2002 um 20 148 gestiegen ist, ist die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 6 428 gesunken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -56,7 +56,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Bevölkerung nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06643",
 		"kennzahlenset": "Integration (Print)",
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:10",
+		"aktualisierungsdatum": "2022-10-28T08:01:24",
 		"id": 6643
 	},
 	{
@@ -78,11 +78,11 @@ var indikatorensetData = [
 		"data-id": 6644,
 		"chart-id": 6644,
 		"filter": "",
-		"parentId": "6599",
+		"parentId": "6059",
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2020 bildeten die Deutschen mit 16 648 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2001 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"lesehilfe": "Ende 2021 bildeten die Deutschen mit 16 564 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen, hat im letzten Jahr jedoch leicht abgenommen (-84). Die Anzahl Italiener, Türken und Personen aus dem Balkan hat gegenüber 2002 abgenommen, wobei die Anzahl Italiener seit 2013 wieder etwas gestiegen ist.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -93,7 +93,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06644",
 		"kennzahlenset": "Integration (Print)",
@@ -107,7 +107,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:11",
+		"aktualisierungsdatum": "2022-12-02T08:54:06",
 		"id": 6644
 	},
 	{
@@ -118,8 +118,8 @@ var indikatorensetData = [
 		"parentId": "6060",
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 besassen 22,3% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 80% jene eines europäischen Staates.",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Ende 2021 besassen 22,3% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 80% jene eines europäischen Staates.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -130,7 +130,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06645",
 		"kennzahlenset": "Integration (Print)",
@@ -144,7 +144,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:12",
+		"aktualisierungsdatum": "2021-11-23T08:28:00",
 		"id": 6645
 	},
 	{
@@ -154,9 +154,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6061",
 		"children": [],
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Von 8 699 Personen, die Ende 2020 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten von Amerika und von Sri Lanka.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Von 8 759 Personen, die Ende 2021 zur Gruppe «Übrige Länder» zählten, bildeten Inderinnen und Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten von Amerika und von Sri Lanka.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -166,8 +166,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"thema": "01 Bevölkerung",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06646",
 		"kennzahlenset": "Integration (Print)",
@@ -181,7 +181,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:14",
+		"aktualisierungsdatum": "2022-11-14T08:44:58",
 		"id": 6646
 	},
 	{
@@ -192,8 +192,8 @@ var indikatorensetData = [
 		"parentId": "6062",
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2020 bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton und bei den Männern Personen der Ländergruppe EU-West + EFTA + UK.",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Ende 2021 bilden bei den Frauen Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, bei den Männern Personen der Ländergruppe EU-West + EFTA + UK.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -204,7 +204,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06647",
 		"kennzahlenset": "Integration (Print)",
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:10",
+		"aktualisierungsdatum": "2021-11-29T08:02:54",
 		"id": 6647
 	},
 	{
@@ -241,7 +241,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Durchschnittsalter der Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06648",
 		"kennzahlenset": "Integration (Print)",
@@ -278,7 +278,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Alterspyramide der Schweizerinnen und Schweizer",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06649",
 		"kennzahlenset": "Integration (Print)",
@@ -315,7 +315,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Alterspyramide der Ausländerinnen und Ausländer",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06650",
 		"kennzahlenset": "Integration (Print)",
@@ -352,7 +352,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Alterspyramide der Schweizerinnen und Schweizer",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06651",
 		"kennzahlenset": "Integration (Print)",
@@ -389,7 +389,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Alterspyramide der Ausländerinnen und Ausländer",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06652",
 		"kennzahlenset": "Integration (Print)",
@@ -426,7 +426,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Jugendquotient nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06653",
 		"kennzahlenset": "Integration (Print)",
@@ -463,7 +463,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Altersquotient nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06654",
 		"kennzahlenset": "Integration (Print)",
@@ -500,7 +500,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländeranteil nach Alter",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06655",
 		"kennzahlenset": "Integration (Print)",
@@ -537,7 +537,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06656",
 		"kennzahlenset": "Integration (Print)",
@@ -574,7 +574,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06657",
 		"kennzahlenset": "Integration (Print)",
@@ -611,7 +611,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06658",
 		"kennzahlenset": "Integration (Print)",
@@ -635,10 +635,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6074",
 		"children": [],
-		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2020",
-		"lesehilfe": "Die höchsten Medianwerte bezüglich Aufenthaltsdauer in der Schweiz weisen 2020 italienische (27,5 Jahre) und türkische Staatsangehörige auf (24,4), gefolgt von Personen aus dem Balkan (21,4). Im Kanton Basel-Stadt liegen die Türkinnen und Türken (18,3) vor Personen aus dem Balkan (16,6) und jenen aus Italien (10,5). Personen aus EU-Oststaaten weisen sowohl für die Aufenthaltsdauer in der Schweiz (10,0) als auch in Basel-Stadt (4,3) den tiefsten Median auf.",
-		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei gleich grosse Gruppen. Die eine Hälfte weist eine längere Aufenthaltsdauer auf als der Median, die andere Hälfte eine kürzere.",
+		"title": "Aufenthaltsdauer der ausländischen Bevölkerung",
+		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2021",
+		"lesehilfe": "Die längste Aufenthaltsdauer (Medianwert) weisen 2021 für die gesamte Schweiz türkische Staatsangehörige (23,0 Jahre) auf, gefolgt von Personen aus dem Balkan (20,0) und italienischen Staatsangehörigen (18,8). Auch im Kanton Basel-Stadt liegen die Türkinnen und Türken (19,1) vor Personen aus dem Balkan (17,2) und jenen aus Italien (10,2). Den tiefsten Median haben in der Schweiz Personen aus der Gruppe \"Übrige Länder\" (6,1) und in Basel-Stadt Personen aus den EU-Ost-Staaten (4,6).",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -648,8 +648,8 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Median der Aufenthaltsdauer der Ausländer",
-		"thema": "01 Bevölkerung",
+		"description": "Aufenthaltsdauer der ausländischen Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06659",
 		"kennzahlenset": "Integration (Print)",
@@ -663,7 +663,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:21",
+		"aktualisierungsdatum": "2021-11-29T08:02:55",
 		"id": 6659
 	},
 	{
@@ -673,9 +673,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6075",
 		"children": [],
-		"title": "Anteil der in der Schweiz geborenen Ausländer",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Ende 2020 waren von den in Basel-Stadt lebenden Personen mit italienischer Staatsangehörigkeit 26,2% in der Schweiz gebürtig. Seit 2001 ist ihr Anteil um 10,7 Prozentpunkte zurückgegangen. Bei Personen aus der Türkei ging der Anteil ebenfalls zurück auf 24,7%, während er bei Personen aus dem Balkan auf 25,4% gestiegen ist. Den tiefsten Anteil in der Schweiz Geborener wiesen Ende 2020 Personen aus Mittel- und Südamerika (6,2%) auf.",
+		"title": "In der Schweiz geborene ausländische Bevölkerung",
+		"subtitle": "Anteil nach Staatsangehörigkeit, Basel-Stadt",
+		"lesehilfe": "Ende 2021 waren 25,6% der in Basel-Stadt lebenden italienischen Staatsangehörigen in der Schweiz gebürtig. Seit 2002 ist ihr Anteil um 10,7 Prozentpunkte zurückgegangen. Am stärksten gestiegen ist der Anteil in der Schweiz Geborener bei Personen aus afrikanischen Ländern: von 9,0% 2002 auf 21,8% 2021. Den tiefsten Anteil wiesen Ende 2021 Personen aus Mittel- und Südamerika (6,6%) auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -685,8 +685,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil der in der Schweiz geborenen Ausländer",
-		"thema": "01 Bevölkerung",
+		"description": "In der Schweiz geborene ausländische Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06660",
 		"kennzahlenset": "Integration (Print)",
@@ -700,7 +700,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:21",
+		"aktualisierungsdatum": "2021-12-01T08:57:08",
 		"id": 6660
 	},
 	{
@@ -712,7 +712,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Schweizer Staatsangehörige machen 2020 mit 1190 etwas über die Hälfte der exakt 2000 Geborenen aus. 2016 betrug das Total noch 2172.",
+		"lesehilfe": "Die 1 182 Schweizer Staatsangehörigen machen 57% der total 2 066 im Jahr 2021 Geborenen aus. 2016 betrug das Total noch 2 172.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -723,7 +723,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anzahl Geborene nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kuerzel": "I.01.3.06661",
 		"kennzahlenset": "Integration (Print)",
@@ -737,7 +737,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "small",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:22",
+		"aktualisierungsdatum": "2021-11-23T08:28:01",
 		"id": 6661
 	},
 	{
@@ -748,8 +748,8 @@ var indikatorensetData = [
 		"parentId": "6077",
 		"children": [],
 		"title": "Zusammengefasste Geburtenziffer",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2011 bis 2020",
-		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan wiesen im Mittel der Jahre 2011 bis 2020 die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind diese bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2012 bis 2021",
+		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern weisen im Mittel der Jahre 2012 bis 2021 die höchsten zusammengefassten Geburtenziffern auf. Am niedrigsten sind diese bei Schweizerinnen und Italienerinnen.",
 		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters.)",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -760,7 +760,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Zusammengefasste Geburtenziffer",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kuerzel": "I.01.3.06662",
 		"kennzahlenset": "Integration (Print)",
@@ -774,7 +774,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:22",
+		"aktualisierungsdatum": "2021-10-19T09:07:52",
 		"id": 6662
 	},
 	{
@@ -797,7 +797,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06663",
 		"kennzahlenset": "Integration (Print)",
@@ -834,7 +834,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Veränderung des Segregationsindex",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06664",
 		"kennzahlenset": "Integration (Print)",
@@ -934,7 +934,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach kurzer Phase der Stagnation zwischen 2016 und 2018, seit zwei Jahren wieder steigende Tendenz auf. Eine auffällige Steigerung in den letzten beiden Jahren verzeichnet zudem die Gruppe \"Übrige Länder\". Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach kurzer Phase der Stagnation zwischen 2016 und 2018, seit drei Jahren wieder steigende Tendenz auf. In den letzten beiden Jahren stieg zudem die Hochschulquote der Gruppe \"Übrige Länder\". Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -961,7 +961,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:37",
+		"aktualisierungsdatum": "2021-07-07T08:30:43",
 		"id": 6667
 	},
 	{
@@ -973,7 +973,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach vorübergehendem leichtem Rückgang, seit zwei Jahren wieder steigende Tendenz auf. Bei der ausländischen Wohnbevölkerung ist 2020 ebenfalls eine geringfügige Zunahme der Hochschulquote zu beobachten.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach vorübergehendem leichtem Rückgang, seit drei Jahren wieder steigende Tendenz auf. Bei der ausländischen Wohnbevölkerung ist die Quote 2021 mit 8,0% so hoch wie noch nie in der Beobachtungsreihe. Unterschiede nach Geschlecht sind unabhängig von der Staatsangehörigkeit aktuell kaum messbar.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -1000,7 +1000,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:37",
+		"aktualisierungsdatum": "2021-07-07T08:30:44",
 		"id": 6668
 	},
 	{
@@ -1199,8 +1199,8 @@ var indikatorensetData = [
 		"parentId": "6398",
 		"children": [],
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2020 und Veränderung seit 2001",
-		"lesehilfe": "Ende 2020 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2001 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
+		"subtitle": "Basel-Stadt, Stand 2021 und Veränderung seit 2002",
+		"lesehilfe": "Ende 2021 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<27%). Seit 2002 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Altstadt Kleinbasel, Altstadt Grossbasel, Bruderholz, Wettstein und Breite sowie in der Gemeinde Riehen am stärksten zugenommen. Eine geringfügige Abnahme wurde im Wohnviertel Matthäus verzeichnet.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1211,7 +1211,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06674",
 		"kennzahlenset": "Integration (Print)",
@@ -1225,7 +1225,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:11",
+		"aktualisierungsdatum": "2021-11-29T08:02:54",
 		"id": 6674
 	},
 	{
@@ -1236,8 +1236,8 @@ var indikatorensetData = [
 		"parentId": "6399",
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2020",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2020 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2021",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2021 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1248,7 +1248,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"description": "Ausländer nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06675",
 		"kennzahlenset": "Integration (Print)",
@@ -1262,7 +1262,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:12",
+		"aktualisierungsdatum": "2021-11-29T08:02:55",
 		"id": 6675
 	},
 	{
@@ -1272,9 +1272,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6400",
 		"children": [],
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Ende 2020 zählten 16 501 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Ende 2021 zählten 16 520 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1284,8 +1284,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
-		"thema": "01 Bevölkerung",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06676",
 		"kennzahlenset": "Integration (Print)",
@@ -1299,7 +1299,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:13",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6676
 	},
 	{
@@ -1309,9 +1309,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6401",
 		"children": [],
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Von 5 511 Personen, die Ende 2020 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Kroaten, Ungarn und Rumänen die grössten Bevölkerungsgruppen.",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Von 5 629 Personen, die Ende 2021 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, ungarische, rumänische und kroatische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1321,8 +1321,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"thema": "01 Bevölkerung",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06677",
 		"kennzahlenset": "Integration (Print)",
@@ -1336,7 +1336,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:13",
+		"aktualisierungsdatum": "2021-11-18T08:52:49",
 		"id": 6677
 	},
 	{
@@ -1359,7 +1359,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil Personen mit Hauptsprache Deutsch",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Sprachen",
 		"kuerzel": "I.01.8.06678",
 		"kennzahlenset": "Integration (Print)",
@@ -1396,7 +1396,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Sprachen",
 		"kuerzel": "I.01.8.06679",
 		"kennzahlenset": "Integration (Print)",
@@ -1433,7 +1433,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Sprachen",
 		"kuerzel": "I.01.8.06680",
 		"kennzahlenset": "Integration (Print)",
@@ -1470,7 +1470,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Bei der Arbeit gesprochene Sprachen",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Sprachen",
 		"kuerzel": "I.01.8.06681",
 		"kennzahlenset": "Integration (Print)",
@@ -1496,8 +1496,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizer und Schweizerinnen liegt in Basel-Stadt im Jahr 2020 bei 2,9%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (8,8%), dem Balkan (7,8%) und der Türkei (7,6%) die höchsten Arbeitslosenquoten im Jahr 2020 auf. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (3,6%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre 2010 bis 2014 und Pooling 2015-2019 für die Jahre ab 2015).",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizerinnen und Schweizer liegt in Basel-Stadt im Jahr 2021 fast unverändert bei 2,8%. Von den dargestellten Ausländergruppen weisen 2021 Personen aus dem Balkan die höchste (8,6%), die Deutschen die tiefste Quote auf (3,5%).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2011-2015 für die Jahre 2011 bis 2015 und Pooling 2016-2020 für die Jahre ab 2016).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1508,7 +1508,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06682",
 		"kennzahlenset": "Integration (Print)",
@@ -1522,7 +1522,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:42",
+		"aktualisierungsdatum": "2021-11-23T08:28:01",
 		"id": 6682
 	},
 	{
@@ -1533,9 +1533,9 @@ var indikatorensetData = [
 		"parentId": "6407",
 		"children": [],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
-		"lesehilfe": "Im Jahr 2000 war die Arbeitslosenquote der ausländischen Frauen über 35 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) hingegen waren im Jahr 2000 die Frauen stärker von Arbeitslosigkeit betroffen als die Männer.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2001",
+		"lesehilfe": "Im Jahr 2001 war die Arbeitslosenquote der ausländischen Frauen ab 25 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) waren im Jahr 2001 Frauen und Männer gleich stark von Arbeitslosigkeit betroffen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2001 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1546,7 +1546,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06683",
 		"kennzahlenset": "Integration (Print)",
@@ -1560,7 +1560,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:45",
+		"aktualisierungsdatum": "2020-12-04T04:11:09",
 		"id": 6683
 	},
 	{
@@ -1571,9 +1571,9 @@ var indikatorensetData = [
 		"parentId": "6408",
 		"children": [],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2001",
+		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2001 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2001 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1584,7 +1584,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06684",
 		"kennzahlenset": "Integration (Print)",
@@ -1598,7 +1598,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:44",
+		"aktualisierungsdatum": "2022-11-10T09:03:16",
 		"id": 6684
 	},
 	{
@@ -1609,9 +1609,9 @@ var indikatorensetData = [
 		"parentId": "6409",
 		"children": [],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen deutlich höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von jener der 20- bis 24-Jährigen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2020 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2015-2019 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen deutlich höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von jener der 20- bis 24-Jährigen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2021 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2016-2020 (aktuelles 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1622,7 +1622,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06685",
 		"kennzahlenset": "Integration (Print)",
@@ -1636,7 +1636,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:46",
+		"aktualisierungsdatum": "2021-08-03T08:09:42",
 		"id": 6685
 	},
 	{
@@ -1647,9 +1647,9 @@ var indikatorensetData = [
 		"parentId": "6410",
 		"children": [],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2020",
-		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2020 Männer zwischen 20 und 29 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist in allen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Schweizerinnen ergeben sich für die Altersgruppen zwischen 25 und 34 Jahren die höchsten Quoten.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2020 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2015-2019 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
+		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2021 Männer zwischen 20 und 29 Jahren am stärksten von Arbeitslosigkeit betroffen. An dritter Stelle kommt die Gruppe der Männer über 60 Jahren. Bei den Schweizerinnen ergebt sich für die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2021 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2016-2020 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1660,7 +1660,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06686",
 		"kennzahlenset": "Integration (Print)",
@@ -1674,7 +1674,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:45",
+		"aktualisierungsdatum": "2022-11-10T09:03:16",
 		"id": 6686
 	},
 	{
@@ -1685,9 +1685,9 @@ var indikatorensetData = [
 		"parentId": "6411",
 		"children": [],
 		"title": "Anteil Arbeitslose in ausgewählten Branchen",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Rund 79% der Arbeitslosen im Baugewerbe sind im Jahr 2020 ausländische Staatsangehörige. Auch bei den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung) und im Gastgewerbe liegt der Anteil der ausländischen Arbeitslosen über 65%. Den tiefsten Ausländeranteil weisen die Arbeitslosen in den Bereichen Bildung, Gesundheitswesen (39%) sowie Information, Kommunikation (41%) auf.",
-		"erlaeuterungen": "Die Branchen basieren auf der Nomenklatur NOGA 2008. Rund 8% der Arbeitslosen können keiner Branche zugeteilt werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Rund 80% der Arbeitslosen im Baugewerbe sind im Jahr 2021 ausländische Staatsangehörige. Auch bei den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung), im Gastgewerbe und im Bereich Verkehr und Lagerei liegt der Anteil der ausländischen Arbeitslosen über 65%. Den tiefsten Ausländeranteil weisen die Arbeitslosen im Bereich Bildung, Gesund-heitswesen (38%) auf.",
+		"erlaeuterungen": "Die Branchen basieren auf der Nomenklatur NOGA 2008. Rund 5% der Arbeitslosen können keiner Branche zugeteilt werden.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -1697,7 +1697,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil Arbeitslose in ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06687",
 		"kennzahlenset": "Integration (Print)",
@@ -1711,7 +1711,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:43",
+		"aktualisierungsdatum": "2021-08-03T08:09:42",
 		"id": 6687
 	},
 	{
@@ -1723,7 +1723,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl monatlich ausgesteuerte Schweizer Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2020 91 Schweizer Frauen und 102 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2021 171 Schweizer Frauen und 171 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert.",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1734,7 +1734,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anzahl monatlich ausgesteuerte Schweizer Staatsangehörige",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06688",
 		"kennzahlenset": "Integration (Print)",
@@ -1748,7 +1748,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:43",
+		"aktualisierungsdatum": "2021-07-28T08:29:45",
 		"id": 6688
 	},
 	{
@@ -1760,7 +1760,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl monatlich ausgesteuerte ausländische Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2020 125 ausländische Frauen und 180 ausländische Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2021 167 ausländische Frauen und 250 ausländische Männer von der Arbeitslosenversicherung ausgesteuert.",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1771,7 +1771,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anzahl monatlich ausgesteuerte ausländische Staatsangehörige",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.06689",
 		"kennzahlenset": "Integration (Print)",
@@ -1785,7 +1785,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:44",
+		"aktualisierungsdatum": "2021-07-28T08:29:46",
 		"id": 6689
 	},
 	{
@@ -1809,7 +1809,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Erwerbstätigenquote der 15-bis 64-Jährigen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.06690",
 		"kennzahlenset": "Integration (Print)",
@@ -1846,7 +1846,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.06691",
 		"kennzahlenset": "Integration (Print)",
@@ -1883,7 +1883,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.06692",
 		"kennzahlenset": "Integration (Print)",
@@ -1921,7 +1921,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Erwerbsquote der 15- bis 64-Jährigen",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.06693",
 		"kennzahlenset": "Integration (Print)",
@@ -2355,8 +2355,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die höchste IV-Quote weist 2020 mit 11,7% die Türkei auf, gefolgt von den Balkanländern (9,4%), der Schweiz (7,6%) sowie Italien (7,4%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 8,4 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2020 kontinuierlich von 8,9% auf 6,0%.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
+		"lesehilfe": "2021 weisen türkische Staatsangehörige die höchste IV-Quote auf (11,7%). Es folgen Staatsangehörige aus Balkanländern (9,6%) sowie Schweizer (7,6%) und italienische Staatsangehörige (7,0%). Gegenüber 2002 ist die IV-Quote von Italienerinnen und Italienern um 9,5 Prozentpunkte gesunken. Die IV-Quoten von Staatsangehörigen aus arabischen, afrikanischen und den übrigen Ländern haben die 5%-Marke während des Gesamtbeobachtungszeitraumes nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2021 kontinuierlich von 8,9% auf 6,0%.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der IV-Bezügerinnen und -Bezüger an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -2381,7 +2381,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:56",
+		"aktualisierungsdatum": "2021-07-27T08:52:33",
 		"id": 6705
 	},
 	{
@@ -2393,8 +2393,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Top 6 der IV-Bezüger, Basel-Stadt",
-		"lesehilfe": "Seit 2009 tendiert die IV-Quote bei allen dargestellten Staatsangehörigkeiten gegen unten. Mit 11,7% weist die Türkei 2020 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,3% sowie der Schweiz mit 7,6%.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, seit 2002 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
+		"lesehilfe": "Seit 2009 tendierte die IV-Quote bei den dargestellten Staatsangehörigen nach unten. Bei portugiesischen Staatsangehörigen stieg sie jedoch 2019 und 2021, bei Staatsangehörigen aus Ländern des ehemaligen Jugoslawien 2021 im Vergleich zum Vorjahr. 2021 weisen türkische Staatsangehörige die höchste IV-Quote auf (11,7%). Es folgen Staatsangehörige aus Ländern des ehemaligen Jugoslawien (9,5%) und Schweizerinnen und Schweizer (7,6%).",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der IV-Bezügerinnen und -Bezüger an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen ab 2002 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -2419,7 +2419,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:56",
+		"aktualisierungsdatum": "2021-07-27T08:52:34",
 		"id": 6706
 	},
 	{
@@ -2430,9 +2430,9 @@ var indikatorensetData = [
 		"parentId": "6432",
 		"children": [],
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 19,6% bei den Ausländern respektive 15,2% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 59 Jahren tiefer als jene der Schweizer Bevölkerung. Bei den 60- bis 64-Jährigen beträgt die IV-Quote bei den ausländischen Staatsangehörigen 18,0%, bei den Schweizer Staatsangehörigen 15,4%. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den ausländischen Staatsangehörigen deutlich zu. Bei den Schweizer Staatsangehörigen ist das Wachstum der IV-Quote hingegen eher linear.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Bezügerinnen und -Bezüger von Invalidenversicherungsrente an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
@@ -2457,7 +2457,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:57",
+		"aktualisierungsdatum": "2021-07-27T08:52:34",
 		"id": 6707
 	},
 	{
@@ -2480,7 +2480,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Verteilung des Äquivalenz-Haushaltseinkommens",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.06708",
 		"kennzahlenset": "Integration (Print)",
@@ -2506,7 +2506,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2 500 Veranlagungen) im Steuerjahr 2018 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 129 000 Franken. Den kleinsten Mittelwert weisen mit rund 37 300 Franken (ca. 700 Veranlagungen) die Veranlagungen von Personen aus afrikanischen Ländern auf.",
+		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2 600 Veranlagungen) im Steuerjahr 2019 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 146 000 Franken. Den kleinsten Mittelwert weisen mit rund 36 800 Franken (ca. 3 300 Veranlagungen) die Veranlagungen von Personen aus der Türkei auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2531,7 +2531,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:58",
+		"aktualisierungsdatum": "2021-09-28T08:27:20",
 		"id": 6709
 	},
 	{
@@ -2543,7 +2543,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2018 liegt bei Veranlagungen von Personen aus den übrigen Ländern vor. Er beträgt ca. 75 900 Franken. Den kleinsten Median verzeichnet 2018 die Gruppe Arabische Länder mit rund 26 900 Franken.",
+		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2019 liegt bei Veranlagungen von Personen aus den übrigen Ländern vor. Er beträgt ca. 79 000 Franken. Den kleinsten Median verzeichnet 2019 die Gruppe Arabische Länder mit rund 30 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2568,7 +2568,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:58",
+		"aktualisierungsdatum": "2021-09-28T08:27:22",
 		"id": 6710
 	},
 	{
@@ -2579,8 +2579,8 @@ var indikatorensetData = [
 		"parentId": "6470",
 		"children": [],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2018",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2018 Personen aus den USA auf, der Wert beträgt rund 267 000 Franken. Von ihnen liegen für dieses Steuerjahr 561 Veranlagungen vor. Es folgen Australien (198 000 Franken, 63 Veranlagungen) und Dänemark (192 000 Franken, 86 Veranlagungen).",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2019",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2019 Personen aus den USA auf, der Wert beträgt rund 292 000 Franken. Von ihnen liegen für dieses Steuerjahr 586 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2605,7 +2605,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:59",
+		"aktualisierungsdatum": "2021-09-28T08:27:22",
 		"id": 6711
 	},
 	{
@@ -2617,7 +2617,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2009 wie auch 2018 für die Gruppe der Schweizer vor. 2009 beträgt dieser rund 481 000 Franken, im Jahr 2018 etwa 532 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6 900 Franken im Jahr 2009 resp. 15 700 Franken pro Veranlagung im Jahr 2018. Die Ländergruppe EU-Ost verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2010 als auch 2019 für die Gruppe der Schweizer vor. 2019 beträgt er rund 659 000 Franken pro Veranlagung. Den kleinsten Wert 2019 verzeichnen Personen aus den Balkanländern, rund 16 000 Franken.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2642,7 +2642,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:00",
+		"aktualisierungsdatum": "2021-09-28T08:27:22",
 		"id": 6712
 	},
 	{
@@ -2753,7 +2753,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:02",
+		"aktualisierungsdatum": "2022-05-23T07:58:47",
 		"id": 6715
 	},
 	{
@@ -2854,7 +2854,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Mittlere Anzahl Personen pro Haushalt",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Haushalte",
 		"kuerzel": "I.01.2.06718",
 		"kennzahlenset": "Integration (Print)",
@@ -2918,8 +2918,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 liessen sich von 1000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 26,6 einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2020 auch Personen aus dem Balkan (19,4), aus Mittel- und Südamerika (18,4) und aus der Türkei (18,1).",
-		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
+		"lesehilfe": "Im Jahr 2021 liessen sich von 1 000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 29,9 einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten auch Personen aus der Türkei und dem Balkan.",
+		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1 000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2929,7 +2929,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Einbürgerungen",
 		"kuerzel": "I.01.6.06720",
 		"kennzahlenset": "Integration (Print)",
@@ -2943,7 +2943,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:05",
+		"aktualisierungsdatum": "2021-09-08T08:30:09",
 		"id": 6720
 	},
 	{
@@ -2954,8 +2954,8 @@ var indikatorensetData = [
 		"parentId": "6480",
 		"children": [],
 		"title": "Anzahl Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2010 bis 2020",
-		"lesehilfe": "In dieser Abbildung sind die eingebürgerten Ausländerinnen und Ausländer der Jahre 2010 bis 2020 zusammengefasst dargestellt. Am höchsten sind die Einbürgerungszahlen in den Altersgruppen der 10- bis 14-Jährigen, der 15- bis 19-Jährigen, der 35- bis 39-Jährigen, der 40- bis 44-Jährigen und der 45-bis 49-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten weiblich (53%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (61%) und die 25- bis 29-Jährigen (62%) auf.",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2011 bis 2021",
+		"lesehilfe": "In der Summe der Jahre 2011 bis 2021 wurden mit Total 1 429 am meisten Personen in der Altersgruppe der 40- bis 44-Jährigen eingebürgert. 646 davon waren männlich, 783 weiblich.",
 		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2966,7 +2966,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anzahl Eingebürgerte",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Einbürgerungen",
 		"kuerzel": "I.01.6.06721",
 		"kennzahlenset": "Integration (Print)",
@@ -2980,7 +2980,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:06",
+		"aktualisierungsdatum": "2021-08-26T08:26:04",
 		"id": 6721
 	},
 	{
@@ -3003,7 +3003,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06722",
 		"kennzahlenset": "Integration (Print)",
@@ -3029,7 +3029,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 mindestens einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2021 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,8 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3055,7 +3055,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:07",
+		"aktualisierungsdatum": "2021-07-01T08:33:02",
 		"id": 6723
 	},
 	{
@@ -3093,7 +3093,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:07",
+		"aktualisierungsdatum": "2020-12-08T03:31:47",
 		"id": 6724
 	},
 	{
@@ -3104,8 +3104,8 @@ var indikatorensetData = [
 		"parentId": "6484",
 		"children": [],
 		"title": "Beschuldigte Erwachsene",
-		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 ergab sich die höchste Beschuldigtenrate mit 58,2 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 40,1.",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 wiesen die ausländischen jungen Männer zwischen 18 und 24 Jahren mit 48,3 die höchste Beschuldigtenrate auf. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 31,5.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3131,7 +3131,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:08",
+		"aktualisierungsdatum": "2021-07-01T08:33:03",
 		"id": 6725
 	},
 	{
@@ -3143,7 +3143,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschuldigte ausländische Erwachsene",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2019 von 475 auf 463. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg hingegen von 267 auf 286 Personen.",
+		"lesehilfe": "Im Jahr 2021 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2020 von 463 auf 371.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3169,7 +3169,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:08",
+		"aktualisierungsdatum": "2021-07-01T08:33:03",
 		"id": 6726
 	},
 	{
@@ -3181,7 +3181,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschuldigte Jugendliche",
 		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 23,9 einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2021 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 12,5 einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3207,7 +3207,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:09",
+		"aktualisierungsdatum": "2022-07-26T08:26:37",
 		"id": 6727
 	},
 	{
@@ -3245,7 +3245,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:09",
+		"aktualisierungsdatum": "2020-12-08T12:01:18",
 		"id": 6728
 	},
 	{
@@ -3256,8 +3256,8 @@ var indikatorensetData = [
 		"parentId": "6489",
 		"children": [],
 		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 wurden männliche Schweizer Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige ausländische Jugendliche.",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3283,7 +3283,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:10",
+		"aktualisierungsdatum": "2022-07-26T08:26:38",
 		"id": 6729
 	},
 	{
@@ -3295,7 +3295,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschuldigte ausländische Jugendliche",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
-		"lesehilfe": "Von 2011 bis 2020 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 59. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg ebenfalls, nämlich von 16 auf 24 Personen.",
+		"lesehilfe": "Von 2011 bis 2021 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 52. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg dagegen geringfügig von 16 auf 17 Personen.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen von 10 bis 17 Jahren wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -3320,7 +3320,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:10",
+		"aktualisierungsdatum": "2020-12-08T12:14:14",
 		"id": 6730
 	},
 	{
@@ -3331,8 +3331,8 @@ var indikatorensetData = [
 		"parentId": "6491",
 		"children": [],
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 ist sowohl bei den Schweizer Jugendlichen wie auch bei den ausländischen Jugendlichen Diebstahl mit 16,6% resp. 28,6% das häufigste Delikt.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 ist sowohl bei den Schweizer Jugendlichen als auch bei den ausländischen Jugendlichen Diebstahl mit 30,8% resp. 35,9% das häufigste Delikt.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -3357,7 +3357,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:11",
+		"aktualisierungsdatum": "2021-07-01T08:33:06",
 		"id": 6731
 	},
 	{
@@ -3380,7 +3380,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Beteiligung an Freiwilligenarbeit",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "03_arbeit_Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
 		"kuerzel": "I.03.6.06732",
 		"kennzahlenset": "Integration (Print)",
@@ -3405,9 +3405,9 @@ var indikatorensetData = [
 		"parentId": "6493",
 		"children": [],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2010",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2010 Schweizerinnen und Schweizer (24,3%) und Deutsche (14,2%) auf. Die höchsten Anteile an katholischen Personen gab es bei den EU-Ost-Ländern (29,7%) sowie den Mittel- und Südamerikanischen Ländern (23,9%). 99,8% der türkischen Staatsangehörigen, 98,8% der Personen aus arabischen Ländern und 98,5% der Personen aus dem Balkan gehörten einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an oder hatten keine bzw. eine unbekannte religiöse Zugehörigkeit.",
-		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
+		"subtitle": "Basel-Stadt, 2011",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten wiesen 2011 Schweizerinnen und Schweizer (23,6%) und Deutsche (13,3%) auf. Die höchsten Anteile an katholischen Personen gab es bei den EU-Ost-Ländern (28,0%) sowie den mittel- und südamerikanischen Ländern (22,1%). 99,9% der türkischen Staatsangehörigen, 98,6% der Personen aus dem Balkan und  98,3% der Personen aus arabischen Ländern gehörten einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an oder hatten keine bzw. eine unbekannte religiöse Zugehörigkeit.",
+		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -3417,7 +3417,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Religionen",
 		"kuerzel": "I.01.7.06733",
 		"kennzahlenset": "Integration (Print)",
@@ -3431,7 +3431,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:12",
+		"aktualisierungsdatum": "2022-11-14T08:44:59",
 		"id": 6733
 	},
 	{
@@ -3442,9 +3442,9 @@ var indikatorensetData = [
 		"parentId": "6494",
 		"children": [],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2020",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizerinnen und Schweizer (18,5%) sowie Deutsche (11,3%) auf, während die höchsten Anteile an katholischen Personen bei italienischen Staatsangehörigen (16,8%) und Personen aus Staaten der EU-Ost (16,6%) zu finden sind. 99,8% der Türkinnen und Türken, 99,1% der Personen aus arabischen Ländern und 98,9% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an oder haben keine bzw. eine unbekannte religiöse Zugehörigkeit.",
-		"erlaeuterungen": "Seit 2015 werden nur noch die öffentlich-rechtlich anerkannten Religionen erfasst.",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizerinnen und Schweizer (17,9%) sowie Deutsche (10,9%) auf, während die höchsten Anteile an katholischen Personen bei italienischen Staatsangehörigen (16,2%) und Personen aus Staaten der EU-Ost (16,7%) zu finden sind. 99,8% der Türkinnen und Türken, 99,1% der Personen aus arabischen Ländern und 98,9% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an oder haben keine bzw. eine unbekannte religiöse Zugehörigkeit.",
+		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -3454,7 +3454,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Religionen",
 		"kuerzel": "I.01.7.06734",
 		"kennzahlenset": "Integration (Print)",
@@ -3468,7 +3468,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:13",
+		"aktualisierungsdatum": "2022-11-14T08:45:00",
 		"id": 6734
 	},
 	{
@@ -3776,8 +3776,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sprachen im Freundeskreis",
 		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt",
-		"lesehilfe": "2017 ist bei 80% der Jugendlichen, welche angeben, über einen Freundeskreis zu verfügen, Deutsch die am häufigsten gesprochene Sprache in ihrem Freundeskreis. 2009 und 2013 betrug der entsprechende Anteil jeweils 83%. Der Anteil «Keine Angabe» ist 2017 mit 12% gegenüber den Vorjahren (2013: 10%; 2009: 7%) gestiegen.",
-		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Die Befragung richtet sich an Jugendliche im Alter von 12 bis 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
+		"lesehilfe": "Beim überwiegenden Teil der Jugendlichen wird im Freundeskreis am häufigsten Deutsch gesprochen. 2021 sind es 90% bzw. 83%, wenn man den Anteil «Keine Angabe» einbezieht. Der Anteil der Jugendlichen, der im Freundeskreis am häufigsten Deutsch spricht, bleibt seit Befragungsbeginn auf ähnlichem Niveau.",
+		"erlaeuterungen": "Die kantonale Jugendbefragung wird seit 2009 alle vier Jahre durchgeführt. Die Befragung ermöglicht Aussagen über die im Kanton Basel-Stadt wohnhaften Jugendlichen im Alter von 12 bis 17 Jahren, die eine öffentliche Schule besuchen. Die Werte aus den Befragungen bis 2017 wurden aufgrund methodischer Neuerungen revidiert. Berücksichtigt werden nur Antworten von Jugendlichen, die angeben, überhaupt einen Freundeskreis zu haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
 		],
@@ -3801,7 +3801,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:02",
+		"aktualisierungsdatum": "2021-07-15T08:01:50",
 		"id": 6743
 	},
 	{
@@ -3924,9 +3924,9 @@ var indikatorensetData = [
 		"parentId": "6515",
 		"children": [],
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2020",
-		"lesehilfe": "Von den Kindern, die im August 2021 in den Kindergarten eintreten, sind 42% zu einer frühen Deutschförderung verpflichtet worden. Je 91% der in der Stadt Basel wohnhaften Kinder mit türkischer Staatsangehörigkeit sowie der Kinder aus dem Balkan fallen ins Obligatorium. Bei Kindern aus arabischen Ländern sind es 85%. Während der Anteil verpflichteter Kinder mit deutscher Staatsangehörigkeit bei 16% liegt, beträgt er bei jenen mit Schweizer Pass 25%.",
-		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, in dem sie deren Deutschkenntnisse einschätzen sollen.",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2021",
+		"lesehilfe": "Von den Kindern, die im August 2022 in den Kindergarten eintreten, sind 42% zu einer frühen Deutschförderung verpflichtet worden. 89% der Kinder aus arabischen Ländern fallen in dieses Obligatorium. Auch je 87% der in der Stadt Basel wohnhaften Kinder mit Staatsangehörigkeiten aus der EU-Ost sowie vom Balkan sind verpflichtet worden. Während der Anteil verpflichteter Kinder mit deutscher Staatsangehörigkeit bei 11% liegt, beträgt er bei jenen mit Schweizer Pass 26%.",
+		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, mittels dem sie deren Deutschkenntnisse einschätzen sollen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
 		],
@@ -3950,7 +3950,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:01:40",
+		"aktualisierungsdatum": "2021-05-14T09:24:35",
 		"id": 6747
 	},
 	{
@@ -4047,7 +4047,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
-		"thema": "01 Bevölkerung",
+		"thema": "01_bevoelkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.06750",
 		"kennzahlenset": "Integration (Print)",
