@@ -15,7 +15,14 @@
     },
     "xAxis": {
       //"type": "category",
-      "tickInterval": 1	,
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      },
       labels: {
         rotation: -45
       }
@@ -32,7 +39,7 @@
       },
       "min": 0,
       tickAmount: 5,
-      tickInterval: 100
+      //tickInterval: 100
     },
     {
       title: {
