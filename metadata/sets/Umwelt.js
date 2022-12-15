@@ -44,9 +44,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Energiepreise Schweiz",
-		"subtitle": "in Indexwert (Basis Dezember 2015 = 100)",
+		"subtitle": "in Indexwert (Basis Dezember 2020 = 100)",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Preisentwicklung (indexiert) der Heizenergie für die Energieträger Gas, Heizöl, Brennholz und Fernwärme.<br><br>Die Jahreswerte entsprechen jeweils dem Mittelwert aller monatlichen Indizes eines Jahres. Basis des Index bildet der Monat Dezember 2015 (=100). Die Daten zur Preisentwicklung der verschiedenen Energieträger stammen aus dem Landesindex der Konsumentenpreise (LIK). Die hier verwendeten Zahlen beziehen sich auf die gesamte Schweiz.<br>Der LIK misst die Preisentwicklung der für die privaten Haushalte bedeutsamen Waren und Dienstleistungen. Er gibt an, in welchem Umfang die Konsumentinnen und Konsumenten bei Preisveränderungen die Ausgaben erhöhen oder senken müssen, um das Verbrauchsvolumen konstant halten zu können.",
+		"erlaeuterungen": "Preisentwicklung (indexiert) der Heizenergie für die Energieträger Gas, Heizöl, Brennholz und Fernwärme.<br><br>Die Jahreswerte entsprechen jeweils dem Mittelwert aller monatlichen Indizes eines Jahres. Basis des Index bildet der Monat Dezember 2020 (=100). Die Daten zur Preisentwicklung der verschiedenen Energieträger stammen aus dem Landesindex der Konsumentenpreise (LIK). Die hier verwendeten Zahlen beziehen sich auf die gesamte Schweiz.<br>Der LIK misst die Preisentwicklung der für die privaten Haushalte bedeutsamen Waren und Dienstleistungen. Er gibt an, in welchem Umfang die Konsumentinnen und Konsumenten bei Preisveränderungen die Ausgaben erhöhen oder senken müssen, um das Verbrauchsvolumen konstant halten zu können.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Landesindex der Konsumentenpreise"
 		],
@@ -244,8 +244,8 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Spezifischer Heizenergieverbrauch von neuen Bauten",
-		"subtitle": "in Liter Heizöläquivalente pro Quadratmeter",
+		"title": "Spezifischer Heizwärmebedarf von neuen Bauten",
+		"subtitle": "in Kilowattstunden pro Quadratmeter",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Durchschnittlicher spezifischer Heizwärmebedarf aller in einem Jahr bewilligten Neubauten.<br><br>Die Daten werden im Rahmen des Baugesuchsverfahrens erhoben. Der Heizwärmebedarf ist die auf die Energiebezugsfläche bezogene Wärmemenge, die pro Jahr erforderlich ist, um die Gebäudewärme auf einer gewünschten Temperatur zu halten.",
 		"quellenangabe": [
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Spezifischer Heizenergieverbrauch von neuen Bauten",
+		"description": "Spezifischer Heizwärmebedarf von neuen Bauten",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.4227",
@@ -285,11 +285,11 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Heizgradtage",
-		"subtitle": "in Anzahl Heizgradtage (pro Heizperiode)",
+		"subtitle": "in Anzahl Heizgradtage",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Heizgradtage (HGT) sind ein Mass für den Einfluss des Wetters auf den Heizenergieverbrauch. Sie berechnen sich aus der Differenz zwischen gewünschter Raumtemperatur und mittlerer Aussentemperatur eines Tages, falls diese Aussentemperatur unter einer bestimmten Heizgrenze liegt.<br><br>Für alle Tage in der Heizperiode (September des Vorjahres bis Juni des laufenden Jahres) welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtagen). <br>Allfällige Heizgradtage in den Monaten Juli und August werden nicht berücksichtigt. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in zwei Metern über Grund (317 m ü. M; 47°33' N / 7°35' E).",
+		"erlaeuterungen": "Heizgradtage (HGT) sind ein Mass für den Einfluss des Wetters auf den Heizenergieverbrauch. Sie berechnen sich aus der Differenz zwischen gewünschter Raumtemperatur und mittlerer Aussentemperatur eines Tages, falls diese Aussentemperatur unter einer bestimmten Heizgrenze liegt.<br><br>Für alle Tage im Kalenderjahr, welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtagen). Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in zwei Metern über Grund (317 m ü. M; 47°33' N / 7°35' E).",
 		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
+			"MeteoSchweiz"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -3251,7 +3251,9 @@ var indikatorensetData = [
 		"chart-id": 4319,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9687
+		],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "in Indexwert (Basis 2010 = 100)",
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
