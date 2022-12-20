@@ -10,12 +10,12 @@
       "series": {
         "borderWidth": 0,
         /*"pointWidth": 30,*/
-        "stacking": "true"
-      }
+        "stacking": "true",
+        minPointLength: 2,
+      },
     },
     "xAxis": {
       "type": "category",
-      //"tickInterval": 1	
     },
     "yAxis": [{
       title: {
@@ -28,7 +28,7 @@
         },
       },
       "min": 0,
-     // tickAmount: 5
+      // tickAmount: 5
     },
     {
       title: {
@@ -41,7 +41,6 @@
         },
       },
       "min": 0,
-      tickInterval: 2,
       "opposite": true
     }
     ],
@@ -51,7 +50,7 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      labelFormatter: function(){
+      labelFormatter: function () {
         return this.name.replace("-elektrisch", "-elektr.");
       },
     },
@@ -94,18 +93,21 @@
                }*/
       },
       {
-        "index": 5,
+        "index": 0,
         "color": "#BAA85A",
         "legendIndex": 5,
-        "type": "column"/*,
-                "tooltip": {
-                  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
-                 }*/
+        "type": "column",
+        "stacking": false,
+        visible: false,
+        "tooltip": {
+          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
+        }
       },
       {
         index: 6,
         "color": "#000000",
         "type": "line",
+        "stacking": false,
         "legendIndex": 6,
         "yAxis": 1,
         "marker": {
@@ -117,10 +119,46 @@
         }
       }
     ],
+    /*    tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total neue Inverkehrsetzungen von Elektroautos: <b>{point.total:,.0f}</b>',
+          shared: true,
+          useHTML: true
+        }
+        */
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total neue Inverkehrsetzungen von Elektroautos: <b>{point.total:,.0f}</b>',
-      shared: true,
-      useHTML: true
+      useHTML: true,
+      outside: true,
+      formatter() {
+        if (this.series.userOptions.stacking !== false) { //nur für series mit stacking: true
+          const series = this.series.chart.series;
+          let tooltip = ""
+          let s = 0
+          series.forEach(series => {
+            if (series.userOptions.stacking !== false) { //nur für series mit stacking: true
+              series.setState('hover'); //"aktiviere" alle series
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${Highcharts.numberFormat(point.y, 0, ",", " ")} </b><br>`;
+                  s += point.y;
+                }
+              })
+            }
+          },
+          )
+          return '<span style="font-size: 10px">' + this.key +
+            '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+        } else {
+          if (this.series.userOptions.type == 'line') { //add % and 1 decimalplace
+            return '<span style="font-size: 10px">' + this.key +
+              '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+              + Highcharts.numberFormat(this.y, 1, ",", " ") + '</b>%<br/>';
+          } else { 
+            return '<span style="font-size: 10px">' + this.key +
+              '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+              + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
+          }
+        }
+      }
     }
   };
 }());
