@@ -128,7 +128,7 @@
     tooltip: {
       useHTML: true,
       outside: true,
-      formatter() {
+      formatter: function() {
         if (this.series.userOptions.stacking !== false) { //nur für series mit stacking: true
           const series = this.series.chart.series;
           let tooltip = ""
