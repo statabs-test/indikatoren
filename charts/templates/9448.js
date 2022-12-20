@@ -10,7 +10,8 @@
       "series": {
         "borderWidth": 0,
         /*"pointWidth": 30,*/
-        "stacking": "true"
+        "stacking": "true",
+        minPointLength: 2
       }
     },
     "xAxis": {
@@ -75,7 +76,7 @@
     },
     "series": [
       {
-        "index": 1,
+        "index": 4,
         "color": "#2F656B",
         "legendIndex": 1,
         "type": "column",
@@ -85,25 +86,25 @@
         }
       }, // Blau
       {
-        "index": 2,
+        "index": 3,
         "color": "#8B2223",
-        "legendIndex": 2,
+        "legendIndex": 3,
         "type": "column"/*,
           "tooltip": {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
            }*/
       },
       {
-        "index": 3,
+        "index": 2,
         "color": "#83522E",
-        "legendIndex": 3,
+        "legendIndex": 2,
         "type": "column"/*,
             "tooltip": {
               "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
              }*/
       },
       {
-        "index": 4,
+        "index": 1,
         "color": "#9A86A6",
         "legendIndex": 4,
         "type": "column"/*,
@@ -115,7 +116,10 @@
         "index": 5,
         "color": "#BAA85A",
         "legendIndex": 5,
-        "type": "column"/*,
+        "type": "column",
+        visible: false,
+        showInLegend: false,
+        /*,
                 "tooltip": {
                   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
                  }*/

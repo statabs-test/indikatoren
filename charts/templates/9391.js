@@ -56,7 +56,7 @@
     },
     "series": [
       {
-        "index": 1,
+        "index": 4,
         "color": "#2F656B",
         "legendIndex": 1,
         "type": "column",
@@ -66,25 +66,25 @@
         }
       }, // Blau
       {
-        "index": 2,
+        "index": 3,
         "color": "#8B2223",
-        "legendIndex": 2,
+        "legendIndex": 3,
         "type": "column"/*,
           "tooltip": {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
            }*/
       },
       {
-        "index": 3,
+        "index": 2,
         "color": "#83522E",
-        "legendIndex": 3,
+        "legendIndex": 2,
         "type": "column"/*,
             "tooltip": {
               "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
              }*/
       },
       {
-        "index": 4,
+        "index": 1,
         "color": "#9A86A6",
         "legendIndex": 4,
         "type": "column"/*,
@@ -128,7 +128,7 @@
     tooltip: {
       useHTML: true,
       outside: true,
-      formatter: function() {
+      formatter: function () {
         if (this.series.userOptions.stacking != false) { //nur für series mit stacking: true
           const series = this.series.chart.series;
           let tooltip = "";
@@ -152,7 +152,7 @@
             return '<span style="font-size: 10px">' + this.key +
               '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
               + Highcharts.numberFormat(this.y, 1, ",", " ") + '</b>%<br/>';
-          } else { 
+          } else {
             return '<span style="font-size: 10px">' + this.key +
               '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
               + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
