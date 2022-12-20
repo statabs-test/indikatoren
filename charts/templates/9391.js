@@ -131,8 +131,8 @@
       formatter: function() {
         if (this.series.userOptions.stacking != false) { //nur für series mit stacking: true
           const series = this.series.chart.series;
-          let tooltip = ""
-          let s = 0
+          let tooltip = "";
+          let s = 0;
           series.forEach(series => {
             if (series.userOptions.stacking != false) { //nur für series mit stacking: true
               series.setState('hover'); //"aktiviere" alle series
