@@ -1731,8 +1731,8 @@ var indikatorensetData = [
 		],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,8% auf 31,0% (2021) zugenommen.",
-		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch Benzin- und Diesel-elektrische Hybride (Normal- und Plug-in).",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 von 1,6% auf 14,9% (2021) zugenommen.",
+		"erlaeuterungen": "In der Kategorie der Elektrofahrzeuge werden hier neben den rein elektrisch betriebenen Fahrzeugen auch Plug-in-Hybride berücksichtigt, deren Akku sowohl über den Verbrennungsmotor als auch mit einem Stecker am Stromnetz geladen werden kann. Wasserstoffautos werden von einem Elektromotor angetrieben, deshalb zählen auch sie zu den Elektrofahrzeugen. «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin. Der Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Haltern und Halterinnen, die an diesem Stichtag Wohnsitz im Kanton hatten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],

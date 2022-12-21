@@ -270,8 +270,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Das Verkehrsaufkommen lag 2021 - abgesehen vom Velovekehr - erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
+		"lesehilfe": "Das Verkehrsaufkommen lag 2021 – abgesehen vom Velovekehr – erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -449,45 +449,6 @@ var indikatorensetData = [
 		"id": 6316
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"kuerzel": "I.04.1.06319",
-		"kuerzelKunde": "8.3",
-		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-23T15:59:59.5959",
-		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2018 bei 1 598 Franken pro Einwohner.",
-		"erlaeuterungen": "Die Eidgenössische Finanzverwaltung (EFV) verwendet aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
-		"template": "template001_print",
-		"darstellungsart": "Diagramm",
-		"printformat": "small",
-		"orderKey": "08_00_00_00_00_003",
-		"parentId": 6170,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6319,
-		"chart-id": 6319,
-		"filter": "",
-		"id": 6319
-	},
-	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
 		"kuerzel": "I.14.1.06322",
@@ -634,7 +595,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "small",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:24",
+		"aktualisierungsdatum": "2022-10-26T08:43:03",
 		"id": 6369
 	},
 	{
@@ -869,7 +830,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigte in der Branche Kultur",
 		"subtitle": "nach Wirtschaftszweig, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind im Jahr 2020 rund 3 500 Beschäftigte in der Branche Kultur tätig und damit rund 100 weniger als im Vorjahr. Mehr als die Hälfte der Beschäftigten arbeitet im Bereich der darstellenden Kunst.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Erfasst werden Personen, für welche im Referenzmonat Dezember AHV-Beiträge geleistet werden. Die Branche Kultur umfasst die Wirtschaftszweige «Kreative, künstlerische und unterhaltende Tätigkeiten» (NOGA 90) und «Bibliotheken, Archive, Museen, botanische und zoologische Gärten» (NOGA 91). Im Zuge der Veröffentlichung der STATENT 2019 wurden die Ergebnisse der Zeitreihe 2011–2018 auf der Grundlage neuer Informationen revidiert.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -894,7 +855,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:18",
+		"aktualisierungsdatum": "2022-10-20T08:32:22",
 		"id": 9425
 	},
 	{
@@ -1042,7 +1003,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-02T08:12:42",
+		"aktualisierungsdatum": "2022-09-08T08:25:32",
 		"id": 9429
 	},
 	{
@@ -1055,7 +1016,7 @@ var indikatorensetData = [
 		"title": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben",
 		"subtitle": "Nordwestschweiz",
 		"lesehilfe": "2020 lebten von der Bevölkerung in der Nordwestschweiz: 12,4% in einem Haushalt mit mindestens einer Art von Zahlungsrückstand; 5,5% in einem Haushalt, in dem mindestens eine Person eine Betreibung oder einen Verlustschein hatte; 5,9% in einem Haushalt mit mindestens einer Kontoüberziehung oder einer unbezahlten Kreditkartenrechnung.",
-		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d.h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
+		"erlaeuterungen": "Folgende Arten von Zahlungsrückständen, d. h. in den letzten zwölf Monaten aus finanziellen Gründen nicht fristgerecht beglichene Rechnungen, werden berücksichtigt: Miete oder Hypothekarzinsen;  laufende Rechnungen für Wasser, Strom, Gas, Heizung; Kreditrückzahlungen oder Kreditkartenrechnungen; Krankenkassenprämien; Steuern. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Die Ergebnisse zu Betreibungen und Verlustscheinen sowie Kontoüberziehungen und unbezahlte Kreditkartenrechnungen beziehen sich auf das Modul «Verschuldung», das Bestandteil der Erhebungen 2013, 2017 und 2020 war.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Erhebung über die Einkommen und Lebensbedingungen (SILC)"
 		],
@@ -1079,7 +1040,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:50",
+		"aktualisierungsdatum": "2022-10-24T08:00:50",
 		"id": 9430
 	},
 	{
@@ -1128,7 +1089,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung von Krankenkassenprämien und Einkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2. Der Index für den Median des Reinkommens bei 103,8.",
+		"lesehilfe": "Im Jahr 2019 lag der Index (Basis 2010) der Medianprämien bei 139,2 und jener für den Median des Reinkommens bei 103,8.",
 		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens aller Steuerveranlagungen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -1380,7 +1341,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:03",
+		"aktualisierungsdatum": "2022-10-20T08:32:23",
 		"id": 9438
 	},
 	{
@@ -1392,7 +1353,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 existieren in Basel-Stadt 99 746 Wohnungen. Den grössten Anteil machen mit 72 870 die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschafts-wohnungen von 10 353 auf 10 985 gestiegen.",
+		"lesehilfe": "Ende 2021 existieren in Basel-Stadt 99 746 Wohnungen. Den grössten Anteil machen mit 72 870 die Mietwohnungen aus. Seit 2015 ist der Bestand von Genossenschaftswohnungen von 10 353 auf 10 985 gestiegen.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche per 31.12. von mindestens einer Person belegt waren. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1417,7 +1378,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:06",
+		"aktualisierungsdatum": "2022-10-26T08:43:04",
 		"id": 9439
 	},
 	{
@@ -1503,7 +1464,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
-		"lesehilfe": "17,9% der Befragten sind 2019 mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder gestiegen, nachdem 2015 erstmals ein Rückgang erfolgte.",
+		"lesehilfe": "17,9% der Befragten sind 2019 mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder gestiegen, nachdem 2015 erstmals ein Rückgang erfolgt war.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -1528,7 +1489,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:13",
+		"aktualisierungsdatum": "2021-12-23T02:24:09",
 		"id": 9442
 	},
 	{
@@ -1653,7 +1614,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hitzetage und Tropennächte",
 		"subtitle": "Anzahl Tage, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage und 1 Tropennacht verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage und 5 Tropennächte verzeichnet. Die Maxima innerhalb des abgebildeten Zeitraumes wurden mit 43 Hitzetagen im Jahr 2003 bzw. 11 Tropennächten im Jahr 2015 registriert.",
 		"erlaeuterungen": "Hitzetage: Tage, an denen die Lufttemperatur mindestens 30 °C erreicht. Tropennächte: Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an der vorstädtisch/ruralen meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel",
@@ -1681,7 +1642,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:19",
+		"aktualisierungsdatum": "2022-10-12T01:26:38",
 		"id": 9447
 	},
 	{
@@ -1693,8 +1654,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Elektroautos",
 		"subtitle": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
-		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 stark von 3,8% auf 31,0% (2021) zugenommen.",
-		"erlaeuterungen": "In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch Benzin- und Diesel-elektrische Hybride (Normal- und Plug-in).",
+		"lesehilfe": "Der Anteil Elektroautos (inkl. Hybride) an den gesamten neuen Inverkehrsetzungen von Personenwagen hat seit 2018 von 1,6% auf 14,9% (2021) zugenommen.",
+		"erlaeuterungen": "In der Kategorie der Elektrofahrzeuge werden hier neben den rein elektrisch betriebenen Fahrzeugen auch Plug-in-Hybride berücksichtigt, deren Akku sowohl über den Verbrennungsmotor als auch mit einem Stecker am Stromnetz geladen werden kann. Wasserstoffautos werden von einem Elektromotor angetrieben, deshalb zählen auch sie zu den Elektrofahrzeugen. «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin. Der Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Haltern und Halterinnen, die an diesem Stichtag Wohnsitz im Kanton hatten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -1718,7 +1679,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:24",
+		"aktualisierungsdatum": "2022-10-20T08:32:24",
 		"id": 9448
 	},
 	{
@@ -1755,7 +1716,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:28",
+		"aktualisierungsdatum": "2022-10-20T08:32:24",
 		"id": 9449
 	},
 	{
@@ -1805,7 +1766,7 @@ var indikatorensetData = [
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Ende 2021 sind im kantonalen Datenportal 137 Datensätze von 29 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 165 Geodatensätze öffentlich verfügbar.",
-		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen - die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
+		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen; die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1833,7 +1794,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:32",
+		"aktualisierungsdatum": "2022-01-27T08:46:09",
 		"id": 9451
 	},
 	{
@@ -1885,7 +1846,7 @@ var indikatorensetData = [
 		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 33% auf 37% gestiegen und bei den Frauen von 76% auf 78%.",
 		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+			"Human Ressources Basel-Stadt"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1907,7 +1868,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:39",
+		"aktualisierungsdatum": "2022-10-12T01:26:40",
 		"id": 9453
 	},
 	{
@@ -1922,7 +1883,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2021 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 36,4%.",
 		"erlaeuterungen": "Staatspersonal: Auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+			"Human Ressources Basel-Stadt"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1944,7 +1905,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:40",
+		"aktualisierungsdatum": "2022-10-12T01:26:42",
 		"id": 9454
 	},
 	{
@@ -1954,7 +1915,7 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "9398",
 		"children": [],
-		"title": "Aktive E-Government Konten",
+		"title": "Aktive E-Government-Konten",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Per Stichdatum 5.10.2021 haben sich 28 138 von 33 764 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
 		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben.",
@@ -1966,7 +1927,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Aktive E-Government Konten",
+		"description": "Aktive E-Government-Konten",
 		"thema": "17 Politik",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.17.1.09455",
@@ -1981,7 +1942,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:34",
+		"aktualisierungsdatum": "2021-12-23T02:25:33",
 		"id": 9455
 	},
 	{
@@ -2018,7 +1979,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-29T08:26:56",
+		"aktualisierungsdatum": "2022-10-24T08:00:49",
 		"id": 9458
 	},
 	{
