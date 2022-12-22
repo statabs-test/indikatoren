@@ -21654,7 +21654,8 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			7981
+			7981,
+			9600
 		],
 		"title": "Logiernächte nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",

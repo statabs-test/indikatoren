@@ -7,43 +7,43 @@
       "data": [
         [
           "VR China",
-          291
+          1409
         ],
         [
           "Indien",
-          516
+          1868
         ],
         [
           "Spanien",
-          2456
-        ],
-        [
-          "UK",
-          1242
+          3886
         ],
         [
           "Italien",
-          3918
-        ],
-        [
-          "USA",
-          1731
+          6029
         ],
         [
           "Niederlande",
-          8227
+          6758
         ],
         [
           "Frankreich",
-          3909
+          6778
+        ],
+        [
+          "UK",
+          4900
+        ],
+        [
+          "USA",
+          4173
         ],
         [
           "Deutschland",
-          12229
+          18961
         ],
         [
           "Schweiz",
-          40934
+          52090
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -56,43 +56,43 @@
       "data": [
         [
           "VR China",
-          743
+          1665
         ],
         [
           "Indien",
-          1640
+          4364
         ],
         [
           "Spanien",
-          6700
-        ],
-        [
-          "UK",
-          4763
+          11110
         ],
         [
           "Italien",
-          9855
-        ],
-        [
-          "USA",
-          6678
+          11655
         ],
         [
           "Niederlande",
-          13322
+          13389
         ],
         [
           "Frankreich",
-          12599
+          16169
+        ],
+        [
+          "UK",
+          17322
+        ],
+        [
+          "USA",
+          19768
         ],
         [
           "Deutschland",
-          45572
+          61875
         ],
         [
           "Schweiz",
-          157779
+          162732
         ]
       ],
       "name": "3-Sterne",
@@ -105,43 +105,43 @@
       "data": [
         [
           "VR China",
-          412
+          2779
         ],
         [
           "Indien",
-          908
+          4395
         ],
         [
           "Spanien",
-          4739
-        ],
-        [
-          "UK",
-          9364
+          7431
         ],
         [
           "Italien",
-          8554
-        ],
-        [
-          "USA",
-          20406
+          10840
         ],
         [
           "Niederlande",
-          11352
+          13539
         ],
         [
           "Frankreich",
-          15632
+          18224
+        ],
+        [
+          "UK",
+          30353
+        ],
+        [
+          "USA",
+          75665
         ],
         [
           "Deutschland",
-          44959
+          62125
         ],
         [
           "Schweiz",
-          157083
+          207178
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -154,43 +154,43 @@
       "data": [
         [
           "VR China",
-          163
+          380
         ],
         [
           "Indien",
-          77
+          320
         ],
         [
           "Spanien",
-          762
-        ],
-        [
-          "UK",
-          633
+          1468
         ],
         [
           "Italien",
-          1271
-        ],
-        [
-          "USA",
-          1320
+          2580
         ],
         [
           "Niederlande",
-          1288
+          2825
         ],
         [
           "Frankreich",
-          2533
+          4030
+        ],
+        [
+          "UK",
+          4008
+        ],
+        [
+          "USA",
+          3991
         ],
         [
           "Deutschland",
-          12760
+          24828
         ],
         [
           "Schweiz",
-          46018
+          69827
         ]
       ],
       "name": "Nicht klassiert",
@@ -334,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.2.2022"
   },
   "tooltip": {
     "shared": false,

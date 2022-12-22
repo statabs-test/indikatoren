@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          0.512121355022323
+          0.418895600389744
         ],
         [
           "Deutschland",
-          0.147232945920697
-        ],
-        [
-          "Frankreich",
-          0.044191550674414
-        ],
-        [
-          "Niederlande",
-          0.043574681337281
+          0.142908123982203
         ],
         [
           "Vereinigte Staaten",
-          0.038407763377079
-        ],
-        [
-          "Italien",
-          0.030076203755511
+          0.088234943412168
         ],
         [
           "Vereinigtes Königreich",
-          0.020394923828108
+          0.048192494020973
+        ],
+        [
+          "Frankreich",
+          0.038498293166534
+        ],
+        [
+          "Niederlande",
+          0.031096904533159
+        ],
+        [
+          "Italien",
+          0.026491690684982
         ],
         [
           "Spanien",
-          0.018680689823058
+          0.020351689458515
         ],
         [
           "Indien",
-          0.004003278074246
+          0.009323705566117
         ],
         [
           "China, Hongkong, Taiwan",
-          0.00205070818894
+          0.005308729039336
         ],
         [
           "Übrige Länder",
-          0.1389944330305
+          0.170697825746271
         ]
       ],
       "turboThreshold": 0
@@ -140,7 +140,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.2.2022"
   },
   "legend": {
     "layout": "vertical",
