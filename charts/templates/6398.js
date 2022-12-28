@@ -107,17 +107,19 @@
 	                var maxValueInLegend = 20; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in") + ' (pp)', 265, 225);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in") + ' (pp)', 265, 220);
 	                
-	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 387, 265, 'pieLegendHideOnZoom');
-	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 290, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 365, 270, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 387, 260, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 365, 295, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 285, 'pieLegendHideOnZoom');
 
-					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
-					fn.addLegendLabel(chart, 'Zunahme', 285, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
-					fn.addLegendLabel(chart, 'Abnahme', 285, 290);
+					fn.addLegendSquare(chart, 270, 265, 10, '#007A2F');
+					fn.addLegendLabel(chart, 'Zunahme', 285, 260);
+					fn.addLegendSquare(chart, 270, 290, 10, '#990300');
+					fn.addLegendLabel(chart, 'Abnahme', 285, 285);
+
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 310);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
