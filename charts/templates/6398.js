@@ -50,7 +50,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + ' </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '% </b><br/>';
 					}
 				}
 			}, 
@@ -107,7 +107,7 @@
 	                var maxValueInLegend = 20; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in") + ' (pp)', 265, 220);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("in","<br>in"), 265, 220);
 	                
 	                fn.addLegendCircle(chart, 365, 270, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 387, 260, 'pieLegendHideOnZoom');
