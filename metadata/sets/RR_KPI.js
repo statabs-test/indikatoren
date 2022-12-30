@@ -2,13 +2,13 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 9663,
-		"chart-id": 5160,
+		"chart-id": 9663,
 		"filter": "",
-		"parentId": "5160",
+		"parentId": null,
 		"children": [],
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
 		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2021 liegen die Werte erstmals im negativen Bereich. Die Nettoschuldenquote beträgt -0,1 Promille des Schweizer Bruttoinlandprodukts. Die Nettoschulden pro Kopf betragen -295 Franken. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten, pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton baute seine Nettoschulden 2021 vollständig ab und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote beträgt 2021 -0,1 Promille des Schweizer Bruttoinlandprodukts.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
 		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2019 von 192 076 auf 200 407 gestiegen, was einem Anstieg von etwa 4,3% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 5,1% von 183 183 auf 192 450.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2020 von 192 076 auf 201 971 gestiegen, was einem Anstieg von etwa 5,2% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 3,1% von 183 183 auf 188 778.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",

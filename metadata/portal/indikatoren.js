@@ -29055,45 +29055,45 @@ var indikatoren = [
 		"id": 7699
 	},
 	{
+		"template": "template001",
+		"data-id": 7700,
+		"chart-id": 7700,
+		"filter": "16",
 		"parentId": null,
 		"children": [
-			"7938"
+			7938
 		],
-		"template": "template001",
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.02.1.07700",
-		"kuerzelKunde": "7.02",
-		"description": "Grünflächen nach Kategorie",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2021: 26 355 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
+		"description": "Grünflächen nach Kategorie",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.07700",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.02",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2020 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "07_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Die Daten der Bodenbedeckung im <a href = 'https://map.geo.bs.ch/s/5jZH' target = '_blank'>kantonalen Geoportal</a>"
-		],
-		"data-id": 7700,
-		"chart-id": 7700,
-		"filter": "16",
+		"aktualisierungsdatum": "2021-02-08T08:45:09",
 		"id": 7700
 	},
 	{
@@ -42814,13 +42814,13 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 9663,
-		"chart-id": 5160,
+		"chart-id": 9663,
 		"filter": "",
-		"parentId": "5160",
+		"parentId": null,
 		"children": [],
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
 		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2021 liegen die Werte erstmals im negativen Bereich. Die Nettoschuldenquote beträgt -0,1 Promille des Schweizer Bruttoinlandprodukts. Die Nettoschulden pro Kopf betragen -295 Franken. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten, pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton baute seine Nettoschulden 2021 vollständig ab und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote beträgt 2021 -0,1 Promille des Schweizer Bruttoinlandprodukts.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
