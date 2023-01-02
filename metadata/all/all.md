@@ -2191,11 +2191,11 @@ id | visible | visibleInPortal | indikatorenset
 9655 | true | false | Energiestatistik (Print)
 9663 | true | true | RR_KPI
 9671 | false |  | Soziales
-9672 | true | false | RR_KPI
-9673 | true | false | RR_KPI
-9674 | true | false | RR_KPI
-9675 | true | false | RR_KPI
-9676 | true | false | RR_KPI
+9672 | true | true | RR_KPI
+9673 | true | true | RR_KPI
+9674 | true | true | RR_KPI
+9675 | true | true | RR_KPI
+9676 | true | true | RR_KPI
 9677 | true | true | RR_KPI
 9678 | false |  | RR_KPI
 9679 | true | false | RR_KPI

@@ -1,7 +1,6 @@
 (function () {
   return {
     "chart": {
-      //"type": "column",
       events: {
         load: function () {
           this.credits.element.onclick = function () { };
@@ -20,66 +19,46 @@
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
-              //y: -5,
-              //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              y: -5,
+              x: -50,
+              format: 'Zielwert {key}: {y}',
               style: {
                 textOutline: false,
               }
             },
+            marker: {
+              enabled: true
+            }
           });
         }
       }
     },
     "xAxis": {
-      "tickInterval": 2,
-    },
-    "yAxis": {
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": -2.5,
-      "max": 10,
-      tickAmount: 6,
-      "title": ""
+      "tickInterval": 1,
+      labels:{
+        step: 1,
+        rotation: -45
+      }
     },
     "legend": {
       "enabled": true,
-      //"x": 25,
-      //"y": 55,
-      //"itemWidth": 150,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
     },
     "series": [
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
-        "color": "#008AC3",
-        "tooltip": {
-          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-        },
+        "color": "#FFBB58", // Bevölkerung
+        "type": "column",
       },
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
+        type: "line",
         dashStyle: 'ShortDash',
         "color": "#999999",
-        "tooltip": {
-          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-        },
-
+        marker: {
+          enabled: false
+        }
       }
     ],
-  }
+  };
 }());
-

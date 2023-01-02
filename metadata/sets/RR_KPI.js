@@ -6,8 +6,8 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
+		"title": "Nettoschuldenquote",
+		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
 		"lesehilfe": "Die Nettoschuldenquote beträgt 2021 -0,1 Promille des Schweizer Bruttoinlandprodukts.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"quellenangabe": [
@@ -18,7 +18,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"description": "Nettoschuldenquote",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kuerzel": "I.04.1.09663",
@@ -39,9 +39,9 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 9672,
-		"chart-id": 6161,
+		"chart-id": 9672,
 		"filter": "",
-		"parentId": "6161",
+		"parentId": null,
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
@@ -76,9 +76,9 @@ var indikatorensetData = [
 	{
 		"template": "stock001",
 		"data-id": 9673,
-		"chart-id": 4132,
+		"chart-id": 9673,
 		"filter": "",
-		"parentId": "4132",
+		"parentId": null,
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
@@ -111,15 +111,15 @@ var indikatorensetData = [
 		"id": 9673
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 9674,
-		"chart-id": 6165,
+		"chart-id": 9674,
 		"filter": "",
-		"parentId": "6165",
+		"parentId": null,
 		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
-		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2018 von 833 367 Tonnen auf 694 517 Tonnen ab. Das entspricht einer Reduktion um 16,6% bzw. einem Rückgang von 4,3 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.1234",
+		"subtitle": "in Tonnen pro Kopf, Basel-Stadt",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf ab.",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -150,9 +150,9 @@ var indikatorensetData = [
 	{
 		"template": "template001",
 		"data-id": 9675,
-		"chart-id": 6126,
+		"chart-id": 9675,
 		"filter": "",
-		"parentId": "6126",
+		"parentId": null,
 		"children": [],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2021",
@@ -185,18 +185,17 @@ var indikatorensetData = [
 		"id": 9675
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 9676,
-		"chart-id": 5901,
+		"chart-id": 9676,
 		"filter": "",
-		"parentId": "5901",
+		"parentId": null,
 		"children": [],
-		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2020 von 192 076 auf 201 971 gestiegen, was einem Anstieg von etwa 5,2% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 3,1% von 183 183 auf 188 778.",
-		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"title": "Beschäftigte",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg von 2011 bis 2020 um 3,1% von 183 183 auf 188 778.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [],
@@ -204,7 +203,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
+		"description": "Beschäftigte",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.09676",
