@@ -43042,13 +43042,13 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 9677,
-		"chart-id": 6053,
+		"chart-id": 9677,
 		"filter": "",
-		"parentId": "6053",
+		"parentId": null,
 		"children": [],
-		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ging von 5,0% im Jahr 2020 auf 4,0% 2021 markant zurück, während die Arbeitslosenquote der Personen über 50 Jahre auf 3,5% zunahm; sie lag damit aber weiterhin unterhalb der Durchschnittsquote.",
+		"title": "Arbeitslosenquote im Jahresmittel",
+		"subtitle": "Basel-Stadt und Schweiz",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2021 bei 3,9% unverändert geblieben.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -43058,7 +43058,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"description": "Arbeitslosenquote im Jahresmittel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kuerzel": "I.03.4.09677",
@@ -43078,14 +43078,131 @@ var indikatoren = [
 		"id": 9677
 	},
 	{
-		"template": "template001",
+		"template": "line001",
+		"data-id": 9679,
+		"chart-id": 9679,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Lebenserwartung bei Geburt",
+		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2021 liegen bei 85,0 Jahren (Frauen) und 80,7 Jahren (Männer).",
+		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Lebenserwartung bei Geburt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kuerzel": "I.14.3.09679",
+		"kennzahlenset": "RR_KPI",
+		"kuerzelKunde": "8",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-11-24T08:43:37",
+		"id": 9679
+	},
+	{
+		"template": "line001",
+		"data-id": 9680,
+		"chart-id": 9680,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Sicherheitsgefühl im Alltag",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
+		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Sicherheitsgefühl im Alltag",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.09680",
+		"kennzahlenset": "RR_KPI",
+		"kuerzelKunde": "10",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_010",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-01-22T06:01:09",
+		"id": 9680
+	},
+	{
+		"template": "line001",
+		"data-id": 9682,
+		"chart-id": 9682,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
+		"subtitle": "",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2019 in Basel-Stadt bei 85,0%.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
+		],
+		"externalLinks": [
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.09682",
+		"kennzahlenset": "RR_KPI",
+		"kuerzelKunde": "11",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_012",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-09T08:36:21",
+		"id": 9682
+	},
+	{
+		"template": "line001",
 		"data-id": 9693,
 		"chart-id": 9693,
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Sozialhilfequote im weiteren Sinn",
-		"subtitle": "Basel-Stadt",
+		"title": "Sozialhilfequote Stadt Basel",
+		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -43096,7 +43213,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Sozialhilfequote im weiteren Sinn",
+		"description": "Sozialhilfequote Stadt Basel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09693",

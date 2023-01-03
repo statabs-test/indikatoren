@@ -111,6 +111,9 @@
       "type": "line",
       "dashStyle": "ShortDash",
       "color": "#999999",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           2011,
@@ -264,7 +267,6 @@
           });
         }
     },
-    "type": "column",
     "renderTo": "container-9676",
     "spacingBottom": 40
   },
@@ -363,7 +365,6 @@
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2022"
   },
-  "tooltip": {},
   "exporting": {
     "filename": "9676"
   }

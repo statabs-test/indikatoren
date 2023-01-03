@@ -5,216 +5,165 @@
       "data": [
         [
           "2003",
-          827
+          93.78757515
         ],
         [
           "2005",
-          845
+          94.63576159
         ],
         [
           "2007",
-          756
+          94.36713055
         ],
         [
           "2011",
-          730
+          92.81002639
         ],
         [
           "2015",
-          635
+          91.1686587
         ],
         [
           "2019",
-          1255
+          94.87666034
         ]
       ],
-      "name": "Sehr sicher",
+      "name": "Sehr oder eher sicher",
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#fbc9c9",
+      "type": "arearange",
+      "id": "rot",
+      "showInLegend": false,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>< ' + Highcharts.numberFormat((this.high), 1) + '% </b>'
+          }
+      },
       "data": [
-        [
-          "2003",
-          577
-        ],
-        [
-          "2005",
-          584
-        ],
-        [
-          "2007",
-          668
-        ],
-        [
-          "2011",
-          677
-        ],
-        [
-          "2015",
-          738
-        ],
-        [
-          "2019",
-          745
-        ]
+        {
+          "name": "2003",
+          "low": 75,
+          "high": 80
+        },
+        {
+          "name": "2005",
+          "low": 75,
+          "high": 80
+        },
+        {
+          "name": "2007",
+          "low": 75,
+          "high": 80
+        },
+        {
+          "name": "2011",
+          "low": 75,
+          "high": 80
+        },
+        {
+          "name": "2015",
+          "low": 75,
+          "high": 80
+        },
+        {
+          "name": "2019",
+          "low": 75,
+          "high": 80
+        }
       ],
-      "name": "Eher sicher",
+      "name": "Rot",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#fbf6c9",
+      "type": "arearange",
+      "id": "gelb",
+      "showInLegend": false,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> ' + Highcharts.numberFormat((this.low), 1) + '% - ' + Highcharts.numberFormat((this.high), 1) + '%</b>'
+          }
+      },
       "data": [
-        [
-          "2003",
-          79
-        ],
-        [
-          "2005",
-          70
-        ],
-        [
-          "2007",
-          75
-        ],
-        [
-          "2011",
-          94
-        ],
-        [
-          "2015",
-          115
-        ],
-        [
-          "2019",
-          65
-        ]
+        {
+          "name": "2003",
+          "low": 80,
+          "high": 90
+        },
+        {
+          "name": "2005",
+          "low": 80,
+          "high": 90
+        },
+        {
+          "name": "2007",
+          "low": 80,
+          "high": 90
+        },
+        {
+          "name": "2011",
+          "low": 80,
+          "high": 90
+        },
+        {
+          "name": "2015",
+          "low": 80,
+          "high": 90
+        },
+        {
+          "name": "2019",
+          "low": 80,
+          "high": 90
+        }
       ],
-      "name": "Eher unsicher",
+      "name": "Gelb",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#c9fbc9",
+      "type": "arearange",
+      "id": "grün",
+      "showInLegend": false,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>> ' + Highcharts.numberFormat((this.low), 1) + '% </b>'
+          }
+      },
       "data": [
-        [
-          "2003",
-          9
-        ],
-        [
-          "2005",
-          10
-        ],
-        [
-          "2007",
-          7
-        ],
-        [
-          "2011",
-          14
-        ],
-        [
-          "2015",
-          15
-        ],
-        [
-          "2019",
-          16
-        ]
+        {
+          "name": "2003",
+          "low": 90,
+          "high": 100
+        },
+        {
+          "name": "2005",
+          "low": 90,
+          "high": 100
+        },
+        {
+          "name": "2007",
+          "low": 90,
+          "high": 100
+        },
+        {
+          "name": "2011",
+          "low": 90,
+          "high": 100
+        },
+        {
+          "name": "2015",
+          "low": 90,
+          "high": 100
+        },
+        {
+          "name": "2019",
+          "low": 90,
+          "high": 100
+        }
       ],
-      "name": "Ganz unsicher",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D3E2E4",
-      "data": [
-        [
-          "2003",
-          0
-        ],
-        [
-          "2005",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
-        [
-          "2011",
-          0
-        ],
-        [
-          "2015",
-          0
-        ],
-        [
-          "2019",
-          1
-        ]
-      ],
-      "name": "Trifft auf mich nicht zu",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "data": [
-        [
-          "2003",
-          5
-        ],
-        [
-          "2005",
-          1
-        ],
-        [
-          "2007",
-          3
-        ],
-        [
-          "2011",
-          1
-        ],
-        [
-          "2015",
-          3
-        ],
-        [
-          "2019",
-          3
-        ]
-      ],
-      "name": "Weiss nicht",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "data": [
-        [
-          "2003",
-          0
-        ],
-        [
-          "2005",
-          0
-        ],
-        [
-          "2007",
-          0
-        ],
-        [
-          "2011",
-          0
-        ],
-        [
-          "2015",
-          0
-        ],
-        [
-          "2019",
-          23
-        ]
-      ],
-      "name": "Keine Angabe",
+      "name": "Grün",
       "turboThreshold": 0
     }
   ],
@@ -240,7 +189,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -271,6 +220,22 @@
     "series": {
       "marker": {
         "enabled": false
+      },
+      "turboThreshold": 0
+    },
+    "arearange": {
+      "lineWidth": 0.5,
+      "zIndex": -1,
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
       }
     }
   },
@@ -293,7 +258,7 @@
     }
   },
   "yAxis": {
-    "min": 0,
+    "min": 75,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -307,25 +272,22 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        }
     },
-    "reversedStacks": false
+    "max": 100
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "reversed": false,
-    "itemMarginBottom": 4,
-    "labelFormatter": function(){
-                return this.name.replace("/", " /<br/>");
-        
-              }
+    }
   },
   "credits": {
     "enabled": true,
@@ -338,9 +300,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -375,6 +337,11 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+      }
   },
   "exporting": {
     "filename": "9680"

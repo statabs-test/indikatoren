@@ -2,385 +2,614 @@
   "series": [
     {
       "color": "#3C3C3C",
-      "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
-          "1993",
-          0.055474
-        ],
-        [
-          "1994",
-          0.057415
-        ],
-        [
-          "1995",
-          0.04917
-        ],
-        [
-          "1996",
-          0.046603
-        ],
-        [
-          "1997",
-          0.049123
-        ],
-        [
           "1998",
-          0.037414
+          3.741
         ],
         [
           "1999",
-          0.024696
+          2.47
         ],
         [
           "2000",
-          0.021014
+          2.101
         ],
         [
           "2001",
-          0.021615
+          2.162
         ],
         [
           "2002",
-          0.030024
+          3.002
         ],
         [
           "2003",
-          0.042614
+          4.261
         ],
         [
           "2004",
-          0.045756
+          4.576
         ],
         [
           "2005",
-          0.040622
+          4.062
         ],
         [
           "2006",
-          0.03732
+          3.732
         ],
         [
           "2007",
-          0.032383
+          3.238
         ],
         [
           "2008",
-          0.029958
+          2.996
         ],
         [
           "2009",
-          0.037971
+          3.797
         ],
         [
           "2010",
-          0.041761
+          4.176
         ],
         [
           "2011",
-          0.036521
+          3.652
         ],
         [
           "2012",
-          0.036525
+          3.653
         ],
         [
           "2013",
-          0.037258
+          3.726
         ],
         [
           "2014",
-          0.033927
+          3.393
         ],
         [
           "2015",
-          0.036527
+          3.653
         ],
         [
           "2016",
-          0.038668
+          3.867
         ],
         [
           "2017",
-          0.036038
+          3.604
         ],
         [
           "2018",
-          0.032516
+          3.252
         ],
         [
           "2019",
-          0.029783
+          2.978
         ],
         [
           "2020",
-          0.039236
+          3.924
         ],
         [
           "2021",
-          0.038613
+          3.861
         ]
       ],
-      "name": "Total",
+      "name": "Basel-Stadt",
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
-      "visible": true,
-      "legendIndex": 0,
-      "marker": {
-        "enabled": false
-      },
+      "dashStyle": "ShortDash",
+      "color": "#999999",
       "data": [
         [
-          "1993",
-          0.060322
-        ],
-        [
-          "1994",
-          0.061597
-        ],
-        [
-          "1995",
-          0.050302
-        ],
-        [
-          "1996",
-          0.047672
-        ],
-        [
-          "1997",
-          0.053929
-        ],
-        [
           "1998",
-          0.036291
+          3.9
         ],
         [
           "1999",
-          0.024485
+          2.697
         ],
         [
           "2000",
-          0.025388
+          1.824
         ],
         [
           "2001",
-          0.026925
+          1.702
         ],
         [
           "2002",
-          0.041457
+          2.546
         ],
         [
           "2003",
-          0.062756
+          3.691
         ],
         [
           "2004",
-          0.069096
+          3.879
         ],
         [
           "2005",
-          0.061438
+          3.763
         ],
         [
           "2006",
-          0.053328
+          3.332
         ],
         [
           "2007",
-          0.04097
+          2.766
         ],
         [
           "2008",
-          0.035646
+          2.578
         ],
         [
           "2009",
-          0.047509
+          3.702
         ],
         [
           "2010",
-          0.06224
+          3.515
         ],
         [
           "2011",
-          0.051462
+          2.843
         ],
         [
           "2012",
-          0.045042
+          2.905
         ],
         [
           "2013",
-          0.046156
+          3.157
         ],
         [
           "2014",
-          0.044461
+          3.043
         ],
         [
           "2015",
-          0.045338
+          3.177
         ],
         [
           "2016",
-          0.044922
+          3.323
         ],
         [
           "2017",
-          0.044949
+          3.186
         ],
         [
           "2018",
-          0.038518
+          2.63
         ],
         [
           "2019",
-          0.032398
+          2.307
         ],
         [
           "2020",
-          0.049769
+          3.14
         ],
         [
           "2021",
-          0.040401
+          2.968
         ]
       ],
-      "name": "15-24 Jahre",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "legendIndex": 2,
-      "visible": true,
-      "marker": {
-        "enabled": false
+      "color": "#c9fbc9",
+      "type": "arearange",
+      "id": "grün",
+      "showInLegend": false,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>< ' + Highcharts.numberFormat((this.high), 1) + '% </b>'
+          }
       },
       "data": [
-        [
-          "1993",
-          0.035554
-        ],
-        [
-          "1994",
-          0.040167
-        ],
-        [
-          "1995",
-          0.034192
-        ],
-        [
-          "1996",
-          0.030686
-        ],
-        [
-          "1997",
-          0.032827
-        ],
-        [
-          "1998",
-          0.026557
-        ],
-        [
-          "1999",
-          0.017722
-        ],
-        [
-          "2000",
-          0.015117
-        ],
-        [
-          "2001",
-          0.014707
-        ],
-        [
-          "2002",
-          0.020212
-        ],
-        [
-          "2003",
-          0.02693
-        ],
-        [
-          "2004",
-          0.031453
-        ],
-        [
-          "2005",
-          0.030028
-        ],
-        [
-          "2006",
-          0.028681
-        ],
-        [
-          "2007",
-          0.026987
-        ],
-        [
-          "2008",
-          0.025871
-        ],
-        [
-          "2009",
-          0.030116
-        ],
-        [
-          "2010",
-          0.03071
-        ],
-        [
-          "2011",
-          0.028444
-        ],
-        [
-          "2012",
-          0.02834
-        ],
-        [
-          "2013",
-          0.029413
-        ],
-        [
-          "2014",
-          0.028036
-        ],
-        [
-          "2015",
-          0.0293
-        ],
-        [
-          "2016",
-          0.031327
-        ],
-        [
-          "2017",
-          0.027861
-        ],
-        [
-          "2018",
-          0.025099
-        ],
-        [
-          "2019",
-          0.025129
-        ],
-        [
-          "2020",
-          0.032028
-        ],
-        [
-          "2021",
-          0.035372
-        ]
+        {
+          "name": "1998",
+          "low": 0,
+          "high": 3.9
+        },
+        {
+          "name": "1999",
+          "low": 0,
+          "high": 2.697
+        },
+        {
+          "name": "2000",
+          "low": 0,
+          "high": 1.824
+        },
+        {
+          "name": "2001",
+          "low": 0,
+          "high": 1.702
+        },
+        {
+          "name": "2002",
+          "low": 0,
+          "high": 2.546
+        },
+        {
+          "name": "2003",
+          "low": 0,
+          "high": 3.691
+        },
+        {
+          "name": "2004",
+          "low": 0,
+          "high": 3.879
+        },
+        {
+          "name": "2005",
+          "low": 0,
+          "high": 3.763
+        },
+        {
+          "name": "2006",
+          "low": 0,
+          "high": 3.332
+        },
+        {
+          "name": "2007",
+          "low": 0,
+          "high": 2.766
+        },
+        {
+          "name": "2008",
+          "low": 0,
+          "high": 2.578
+        },
+        {
+          "name": "2009",
+          "low": 0,
+          "high": 3.702
+        },
+        {
+          "name": "2010",
+          "low": 0,
+          "high": 3.515
+        },
+        {
+          "name": "2011",
+          "low": 0,
+          "high": 2.843
+        },
+        {
+          "name": "2012",
+          "low": 0,
+          "high": 2.905
+        },
+        {
+          "name": "2013",
+          "low": 0,
+          "high": 3.157
+        },
+        {
+          "name": "2014",
+          "low": 0,
+          "high": 3.043
+        },
+        {
+          "name": "2015",
+          "low": 0,
+          "high": 3.177
+        },
+        {
+          "name": "2016",
+          "low": 0,
+          "high": 3.323
+        },
+        {
+          "name": "2017",
+          "low": 0,
+          "high": 3.186
+        },
+        {
+          "name": "2018",
+          "low": 0,
+          "high": 2.63
+        },
+        {
+          "name": "2019",
+          "low": 0,
+          "high": 2.307
+        },
+        {
+          "name": "2020",
+          "low": 0,
+          "high": 3.14
+        },
+        {
+          "name": "2021",
+          "low": 0,
+          "high": 2.968
+        }
       ],
-      "name": "50 Jahre und mehr",
+      "name": "Grün",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fbf6c9",
+      "type": "arearange",
+      "id": "gelb",
+      "showInLegend": false,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> ' + Highcharts.numberFormat((this.low), 1) + '% - ' + Highcharts.numberFormat((this.high), 1) + '%</b>'
+          }
+      },
+      "data": [
+        {
+          "name": "1998",
+          "low": 3.9,
+          "high": 4.2
+        },
+        {
+          "name": "1999",
+          "low": 2.697,
+          "high": 2.997
+        },
+        {
+          "name": "2000",
+          "low": 1.824,
+          "high": 2.124
+        },
+        {
+          "name": "2001",
+          "low": 1.702,
+          "high": 2.002
+        },
+        {
+          "name": "2002",
+          "low": 2.546,
+          "high": 2.846
+        },
+        {
+          "name": "2003",
+          "low": 3.691,
+          "high": 3.991
+        },
+        {
+          "name": "2004",
+          "low": 3.879,
+          "high": 4.179
+        },
+        {
+          "name": "2005",
+          "low": 3.763,
+          "high": 4.063
+        },
+        {
+          "name": "2006",
+          "low": 3.332,
+          "high": 3.632
+        },
+        {
+          "name": "2007",
+          "low": 2.766,
+          "high": 3.066
+        },
+        {
+          "name": "2008",
+          "low": 2.578,
+          "high": 2.878
+        },
+        {
+          "name": "2009",
+          "low": 3.702,
+          "high": 4.002
+        },
+        {
+          "name": "2010",
+          "low": 3.515,
+          "high": 3.815
+        },
+        {
+          "name": "2011",
+          "low": 2.843,
+          "high": 3.143
+        },
+        {
+          "name": "2012",
+          "low": 2.905,
+          "high": 3.205
+        },
+        {
+          "name": "2013",
+          "low": 3.157,
+          "high": 3.457
+        },
+        {
+          "name": "2014",
+          "low": 3.043,
+          "high": 3.343
+        },
+        {
+          "name": "2015",
+          "low": 3.177,
+          "high": 3.477
+        },
+        {
+          "name": "2016",
+          "low": 3.323,
+          "high": 3.623
+        },
+        {
+          "name": "2017",
+          "low": 3.186,
+          "high": 3.486
+        },
+        {
+          "name": "2018",
+          "low": 2.63,
+          "high": 2.93
+        },
+        {
+          "name": "2019",
+          "low": 2.307,
+          "high": 2.607
+        },
+        {
+          "name": "2020",
+          "low": 3.14,
+          "high": 3.44
+        },
+        {
+          "name": "2021",
+          "low": 2.968,
+          "high": 3.268
+        }
+      ],
+      "name": "Gelb",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fbc9c9",
+      "type": "arearange",
+      "id": "rot",
+      "showInLegend": false,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>> ' + Highcharts.numberFormat((this.low), 1) + '% </b>'
+          }
+      },
+      "data": [
+        {
+          "name": "1998",
+          "low": 4.2,
+          "high": 6
+        },
+        {
+          "name": "1999",
+          "low": 2.997,
+          "high": 6
+        },
+        {
+          "name": "2000",
+          "low": 2.124,
+          "high": 6
+        },
+        {
+          "name": "2001",
+          "low": 2.002,
+          "high": 6
+        },
+        {
+          "name": "2002",
+          "low": 2.846,
+          "high": 6
+        },
+        {
+          "name": "2003",
+          "low": 3.991,
+          "high": 6
+        },
+        {
+          "name": "2004",
+          "low": 4.179,
+          "high": 6
+        },
+        {
+          "name": "2005",
+          "low": 4.063,
+          "high": 6
+        },
+        {
+          "name": "2006",
+          "low": 3.632,
+          "high": 6
+        },
+        {
+          "name": "2007",
+          "low": 3.066,
+          "high": 6
+        },
+        {
+          "name": "2008",
+          "low": 2.878,
+          "high": 6
+        },
+        {
+          "name": "2009",
+          "low": 4.002,
+          "high": 6
+        },
+        {
+          "name": "2010",
+          "low": 3.815,
+          "high": 6
+        },
+        {
+          "name": "2011",
+          "low": 3.143,
+          "high": 6
+        },
+        {
+          "name": "2012",
+          "low": 3.205,
+          "high": 6
+        },
+        {
+          "name": "2013",
+          "low": 3.457,
+          "high": 6
+        },
+        {
+          "name": "2014",
+          "low": 3.343,
+          "high": 6
+        },
+        {
+          "name": "2015",
+          "low": 3.477,
+          "high": 6
+        },
+        {
+          "name": "2016",
+          "low": 3.623,
+          "high": 6
+        },
+        {
+          "name": "2017",
+          "low": 3.486,
+          "high": 6
+        },
+        {
+          "name": "2018",
+          "low": 2.93,
+          "high": 6
+        },
+        {
+          "name": "2019",
+          "low": 2.607,
+          "high": 6
+        },
+        {
+          "name": "2020",
+          "low": 3.44,
+          "high": 6
+        },
+        {
+          "name": "2021",
+          "low": 3.268,
+          "high": 6
+        }
+      ],
+      "name": "Rot",
       "turboThreshold": 0
     }
   ],
@@ -399,10 +628,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": -45
-    },
-    "tickInterval": 2
+      }
+    }
   },
   "chart": {
     "type": "line",
@@ -439,13 +666,22 @@
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "turboThreshold": 0
     },
-    "line": {
-      "connectNulls": true,
+    "arearange": {
+      "lineWidth": 0.5,
+      "zIndex": -1,
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
       }
     }
   },
@@ -456,10 +692,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Arbeitslosenquote im Jahresmittel nach Altersgruppe"
+    "text": "Arbeitslosenquote im Jahresmittel"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Basel-Stadt und Schweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -483,10 +719,11 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
-      }
-    }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        }
+    },
+    "max": 6
   },
   "legend": {
     "enabled": true,
@@ -496,8 +733,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -549,9 +785,9 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '% </b>'
+      }
   },
   "exporting": {
     "filename": "9677"

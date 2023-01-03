@@ -1,5 +1,4 @@
-Gebiet	2017	2018	2019
-Basel-Stadt	85.4	85.3	85.0
-Basel-Landschaft	91.9	90.0	89.7
-Jura	94.9	91.9	90.8
-Schweiz	91.2	90.4	90.9
+Jahr	Basel-Stadt	Rot	Rot 2	Gelb	Gelb 2	Grün	Grün 2
+2017	85.4	75	90	90	95	95	100
+2018	85.3	75	90	90	95	95	100
+2019	85	75	90	90	95	95	100
