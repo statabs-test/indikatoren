@@ -1,14 +1,7 @@
 {
   "series": [
     {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "color": "#FF8028",
-      "id": "BS1705_1",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "visible": true,
-      "_symbolIndex": 0,
+      "color": "#0091f7",
       "data": [
         [
           2010,
@@ -62,325 +55,118 @@
       "name": "MIV Stadtstrassennetz"
     },
     {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "color": "#DC440E",
-      "id": "BS1705_2",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "visible": true,
-      "_symbolIndex": 1,
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          100.5
-        ],
-        [
-          2012,
-          99.5
-        ],
-        [
-          2013,
-          100.7
-        ],
-        [
-          2014,
-          101.1
-        ],
-        [
-          2015,
-          100.9
-        ],
-        [
-          2016,
-          101
-        ],
-        [
-          2017,
-          100.2
-        ],
-        [
-          2018,
-          99
-        ],
-        [
-          2019,
-          98.5
-        ],
-        [
-          2020,
-          80.3
-        ],
-        [
-          2021,
-          85.5
-        ]
-      ],
-      "name": "MIV Total"
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "color": "#B00000",
-      "id": "BS1705_3",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "visible": false,
-      "_symbolIndex": 2,
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          102.6
-        ],
-        [
-          2012,
-          104.6
-        ],
-        [
-          2013,
-          105.1
-        ],
-        [
-          2014,
-          106.8
-        ],
-        [
-          2015,
-          110.2
-        ],
-        [
-          2016,
-          109.5
-        ],
-        [
-          2017,
-          108.1
-        ],
-        [
-          2018,
-          106.6
-        ],
-        [
-          2019,
-          107.7
-        ],
-        [
-          2020,
-          72.3
-        ],
-        [
-          2021,
-          72.9
-        ]
-      ],
-      "name": "ÖV"
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "color": "#661200",
-      "id": "BS1705_4",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "visible": false,
-      "_symbolIndex": 3,
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          103.1
-        ],
-        [
-          2012,
-          103.3
-        ],
-        [
-          2013,
-          103.9
-        ],
-        [
-          2014,
-          114.7
-        ],
-        [
-          2015,
-          118.4
-        ],
-        [
-          2016,
-          122.9
-        ],
-        [
-          2017,
-          125.6
-        ],
-        [
-          2018,
-          128.7
-        ],
-        [
-          2019,
-          145
-        ],
-        [
-          2020,
-          141.9
-        ],
-        [
-          2021,
-          145.2
-        ]
-      ],
-      "name": "Velo (wetterbereinigt)"
-    },
-    {
-      "includeInCSVExport": true,
-      "type": "line",
-      "showInNavigator": true,
-      "color": "#D3E2E4",
-      "id": "BS1705_5",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "visible": false,
-      "_symbolIndex": 4,
-      "data": [
-        [
-          2010,
-          null
-        ],
-        [
-          2011,
-          null
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          100
-        ],
-        [
-          2014,
-          107
-        ],
-        [
-          2015,
-          103
-        ],
-        [
-          2016,
-          102.5
-        ],
-        [
-          2017,
-          103.7
-        ],
-        [
-          2018,
-          102.4
-        ],
-        [
-          2019,
-          98.4
-        ],
-        [
-          2020,
-          83.7
-        ],
-        [
-          2021,
-          82.7
-        ]
-      ],
-      "name": "Fussgänger"
-    },
-    {
-      "includeInCSVExport": true,
-      "tooltip": {
-        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
-      },
       "dashStyle": "ShortDash",
-      "marker": {
-        "enabled": false,
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      },
-      "type": "line",
-      "showInNavigator": true,
-      "color": "#444444",
-      "id": "BS1705_6",
-      "valueSuffix": "Indexwert (Basis 2010 = 100)",
-      "visible": true,
-      "_symbolIndex": 0,
+      "color": "#999999",
       "data": [
         [
           2010,
-          null
+          92.3
         ],
         [
           2011,
-          null
+          92.3
         ],
         [
           2012,
-          null
+          92.3
         ],
         [
           2013,
-          undefined
+          92.3
         ],
         [
           2014,
-          undefined
+          92.3
         ],
         [
           2015,
-          undefined
+          92.3
         ],
         [
           2016,
-          undefined
+          92.3
         ],
         [
           2017,
-          undefined
+          92.3
         ],
         [
           2018,
-          undefined
+          92.3
         ],
         [
           2019,
-          undefined
+          92.3
         ],
         [
           2020,
-          undefined
+          92.3
         ],
         [
           2021,
-          undefined
+          92.3
         ]
       ],
-      "name": "undefined"
+      "name": "Referenzwert"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          1
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          2
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          1
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          1
+        ]
+      ],
+      "name": "Bewertung"
     }
   ],
   "chart": {
-    "width": "485",
+    "width": 485,
     "height": 428,
     "spacing": [
       10,
@@ -393,176 +179,77 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "x",
+    "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-								var label = this.renderer.label("> Indikator-Details",null,null,null,null,null,null,true)
-								.css({
-									cursor: 'pointer'
-								})
-								.attr({
-									'padding': 0
-								})
-								.add().on('click',function(){
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705", "Indikator-Details";
-								});
-						
-								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
-									verticalAlign: 'bottom',
-									x: 0,
-									y: 100
-								}), null, 'spacingBox');
-								
-								/*add tooltip to legend items
-								for (var i = 0, len = this.legend.allItems.length; i < len; i++) {
-									(function(i) {
-										var item = this.legend.allItems[i].legendItem;
-										item.on('mouseover', function (e) {
-											//show custom tooltip here
-											console.log("mouseover" + i);
-										}).on('mouseout', function (e) {
-											//hide tooltip
-											console.log("mouseout" + i);
-										});
-									})(i);
-								}*/
+          this.credits.element.onclick = function () { };
 
-								
-								/* remove link from credits */
-								if (this.credits) {
-									this.credits.element.onclick = function() {
-										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-									}
-								}
-								
-								//#added 20.04.2018, copied from JB
-								//for top-left legends with no x defined: move legend to x position of first yAxis
-								//if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-								this.legend.update({ x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding});
-				
-							},
-      "redraw": function updateStacks() {
-			//console.log(this.userOptions.series[0].stacking)
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
 
-			//only if plot-type is column and stacking = percent
-			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
-			  var chart = this,
-				H = Highcharts,
-				label,
-				bbox,
-				i, j=0;
-
-			  for (var stackName in chart.yAxis[0].stacks) {
-				i=0;
-				for (var itemName in chart.yAxis[0].stacks[stackName]) {
-					if (chart.yAxis[0].stacks[stackName][itemName].label){
-					  label = chart.yAxis[0].stacks[stackName][itemName].label; // get stack item
-					  bbox = label.getBBox(true); // get label's bounding box
-					  
-					  //console.log(label);
-					  
-					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
-					  var max_labels;
-					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
-					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
-					  
-					  if (this.xAxis[0].max - this.xAxis[0].min > max_labels) { //formally: if (this.xAxis[0].categories.length > 8) {
-						  if (i % 2 != 0) label.hide(); //hide every second label
-						  if (this.userOptions.series[0].stacking == 'percent') {
-							  if (j % 2 != 0) label.translate(-4) //move labels slightly to left or right
-							  else label.translate(4)
-						  }
-					  }
-					  
-					  // if label is outside chart (left/right + 5), hide it
-					  if (bbox.x < -5 || bbox.width + bbox.x - 5 > chart.plotWidth) {
-						label.hide();
-					  }
-					}
-				  i++;
-				}
-				j++;
-			  }
-			}
-		}
+          chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach((element, i) => {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
     },
     "renderTo": "container-9687",
-    "type": "line",
-    "spacingBottom": 60,
-    "resetZoomButton": {
-      "position": {
-        "x": 0,
-        "y": -30
-      }
-    }
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "stacking": false,
-      "connectNulls": true,
-      "stickyTracking": false,
-      "marker": {
-        "enabled": false,
-        "radius": 3
       }
     },
-    "bar": {
-      "dataLabels": {
-        "enabled": true
-      }
-    },
-    "column": {
-      "pointPlacement": null,
-      "minPointLength": 2
-    },
-    "arearange": {
-      "lineWidth": 0,
-      "fillOpacity": 0.1,
-      "zIndex": -1,
-      "legend": {
-        "fillOpacity": 0.1
-      },
-      "tooltip": {
-        "crosshairs": true,
-        "shared": true
-      },
+    "line": {
       "marker": {
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
+        "enabled": false
       }
     }
   },
   "title": {
     "align": "left",
     "style": {
-      "fontSize": "1.1666em",
+      "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Verkehrsleistungsindex",
-    "useHTML": true
+    "text": "Verkehrsleistungsindex MIV Stadtstrassennetz"
   },
   "subtitle": {
-    "text": "in Indexwert (Basis 2010 = 100)",
+    "text": "Indexwert (Basis 2010 = 100)",
     "align": "left",
     "style": {
-      "fontSize": "1em",
+      "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    },
-    "useHTML": true
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -572,153 +259,68 @@
     "title": {
       "style": {
         "color": "#000000"
-      },
-      "enabled": false,
-      "text": "Jahr"
+      }
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "fontSize": "0.91666em"
+        "color": "#000000"
       }
     },
-    "range": 1000
+    "tickInterval": 3
   },
-  "yAxis": [
-    {
-      "min": null,
-      "title": {
-        "enabled": true,
-        "text": "",
-        "style": {
-          "fontSize": "0.91666em",
-          "color": "#000000"
-        },
-        "align": "middle"
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "enabled": true,
-        "overflow": "justify",
-        "style": {
-          "fontSize": "0.91666em",
-          "color": "#000000"
-        },
-        "formatter": function () {
-						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
-						  return this.axis.defaultLabelFormatter.call(this) + '';
-						}
-      },
-      "index": 0
+      "text": null
     },
-    {
-      "opposite": true,
-      "min": 0,
-      "title": {
-        "enabled": true,
-        "text": "",
-        "style": {
-          "fontSize": "0.91666em",
-          "color": "#000000"
-        },
-        "align": "middle"
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "enabled": true,
-        "overflow": "justify",
-        "style": {
-          "fontSize": "0.91666em",
-          "color": "#000000"
-        }
-      },
-      "index": 1
-    }
-  ],
+      "format": "{value:,.0f}"
+    },
+    "min": null
+  },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "1em"
+      "fontWeight": "normal"
     },
     "enabled": true,
-    "floating": false,
     "layout": "horizontal",
-    "align": "left",
     "verticalAlign": "top",
-    "padding": 12,
-    "itemMarginBottom": 5,
-    "borderWidth": 0,
-    "shadow": false,
-    "backgroundColor": "none"
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "3px 12px"
-    },
-    "buttonOptions": {
-      "theme": {
-        "stroke-width": 1,
-        "stroke": "#eee",
-        "r": 3,
-        "states": {
-          "hover": {
-            "fill": "#ddd"
-          },
-          "select": {
-            "stroke": "#444",
-            "fill": "#ddd"
-          }
-        }
-      }
-    },
-    "menuStyle": {}
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "0.8333em",
-      "cursor": "default",
-      "width": "465px"
+      "fontSize": "10px",
+      "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.7.2022"
   },
   "tooltip": {
-    "style": {
-      "fontSize": "1em"
-    },
-    "hideDelay": 200,
-    "padding": 8,
-    "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E (Indexwert) \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
-    "useHTML": true,
-    "outside": false
-  },
-  "rangeSelector": {
-    "enabled": false
-  },
-  "scrollbar": {
-    "enabled": false
-  },
-  "navigator": {
-    "enabled": false,
-    "series": {
-      "type": "line",
-      "stacking": false
-    },
-    "xAxis": {
-      "gridLineWidth": 0,
-      "labels": {
-        "enabled": false
-      }
-    }
+    "valueDecimals": 0,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9687"

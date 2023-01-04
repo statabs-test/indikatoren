@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote beträgt 2021 -0,1 Promille des Schweizer Bruttoinlandprodukts.",
+		"lesehilfe": "Die Nettoschuldenquote beträgt 2021 -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><br><b>Zielwert:</b> 6,5 Promille<br><i>(Grundlage: FHG §4 Abs. 1)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen \tPlanjahren<br>Gelb: \tQuote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem \tder Planjahre über 6,5 Promille<br>Rot: \tQuote > 6,5 Promille im letzten Rechnungsjahr",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf ab.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf ab.<br><br><b>Zielwert:</b> Netto-Null bis 2037<br><b>\tZielpfad:</b> lineare Reduktion (jährlich ca. 0,2 Tonnen/ Person)<br><i>(Grundlage: Gegenvorschlag des Grossen Rates vom 14.9.2022 zur Klimagerechtigkeitsinitiative, angenommen an Volksabstimmung vom 27. November 2022)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/unter Zielpfad und Reduktion gleich/stärker als Zielpfad<br>Gelb: \tWert auf/unter Zielpfad und Reduktion geringer als Zielpfad oder Wert über Zielpfad und Reduktion gleich/stärker als Zielpfad<br>Rot: \tWert über Zielpfad und Reduktion geringer als Zielpfad",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -373,53 +373,15 @@ var indikatorensetData = [
 		"id": 9682
 	},
 	{
-		"template": "line001",
-		"data-id": 9683,
-		"chart-id": 6055,
-		"filter": "",
-		"parentId": "6055",
-		"children": [],
-		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2021 liegt die Platzzahl bei 4 409. Auch die Tagesstrukturen wurden stetig ausgebaut. 2021 bieten die Frühhorte Platz für 568 Kinder, die Mittagsmodule  3 625 und die Nachmittagsmodule 3 227 Plätze.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September.  Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kuerzel": "I.13.2.09683",
-		"kennzahlenset": "RR_KPI",
-		"kuerzelKunde": "12",
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "99_00_00_00_00_014",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:50",
-		"id": 9683
-	},
-	{
 		"template": "template001",
 		"data-id": 9684,
-		"chart-id": 7579,
+		"chart-id": 9684,
 		"filter": "",
-		"parentId": "7579",
+		"parentId": null,
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2021 977 Einheiten. Davon  stammen 851 aus Neu- und 222 aus Umbauten. Durch Abbrüche gehen 96 Wohnungen verloren. 2022 wird eine Nettoproduktion von rund 800 Wohnungen prognostiziert.",
+		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -450,15 +412,16 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 9686,
-		"chart-id": 5196,
+		"chart-id": 9686,
 		"filter": "",
-		"parentId": "5196",
+		"parentId": null,
 		"children": [],
-		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 97,2 Punkten im Jahr 1995 auf den aktuellen Wert von 129,8 im November 2021.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"title": "Mietpreis- und Einkommenensindex",
+		"subtitle": "Basel-Stadt, Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
 		"externalLinks": [],
@@ -466,7 +429,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Mietpreisindex Basel-Stadt",
+		"description": "Mietpreis- und Einkommenensindex",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09686",
@@ -481,20 +444,20 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-02-04T03:05:48",
+		"aktualisierungsdatum": "2022-12-01T08:33:44",
 		"id": 9686
 	},
 	{
 		"template": "template001",
 		"data-id": 9687,
-		"chart-id": 4319,
+		"chart-id": 9687,
 		"filter": "",
-		"parentId": "4319",
+		"parentId": null,
 		"children": [],
-		"title": "Verkehrsleistungsindex",
-		"subtitle": "in Indexwert (Basis 2010 = 100)",
-		"lesehilfe": "Das Verkehrsaufkommen lag 2021 - abgesehen vom Velovekehr - erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim Motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br><br>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br><br>Autoverkehr:<br>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br><br>Veloverkehr:<br>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br><br>Fussverkehr:<br>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben. <br><br>Öffentlicher Verkehr:<br>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt. <br><br>",
+		"title": "Verkehrsleistungsindex MIV Stadtstrassennetz",
+		"subtitle": "Indexwert (Basis 2010 = 100)",
+		"lesehilfe": "<b>Zielwert:</b> nicht grösser als Indexwert 2019<br><b>Zielpfad:</b> lineares Wachstum (ca. 1 200 Einwohnende / Jahr)<br><br><i>(Grundlage: USG §13 bzw. VuV §5)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert steigt nicht und liegt tiefer/gleich Indexwert 2019<br>Gelb: \tWert steigt und liegt tiefer/gleich Indexwert 2019 oder Wert steigt nicht und liegt über Indexwert 2019<br>Rot: \tWert steigt und liegt über Indexwert 2019",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br><br>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Jede Zählstelle wird auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Stadtstrassennetz entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets ohne die Autobahnen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
@@ -506,7 +469,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Verkehrsleistungsindex",
+		"description": "Verkehrsleistungsindex MIV Stadtstrassennetz",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "I.11.6.09687",
@@ -520,7 +483,7 @@ var indikatorensetData = [
 		"orderKey": "99_00_00_00_00_018",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"datenInChartIntegriert": true,
+		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-29T08:51:26",
 		"id": 9687
 	},

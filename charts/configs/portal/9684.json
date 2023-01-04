@@ -4,241 +4,156 @@
       "color": "#7F5F1A",
       "index": 0,
       "type": "column",
-      "legendIndex": 0,
       "data": [
-        [
-          2012,
-          268
-        ],
-        [
-          2013,
-          177
-        ],
-        [
-          2014,
-          369
-        ],
-        [
-          2015,
-          788
-        ],
-        [
-          2016,
-          412
-        ],
-        [
-          2017,
-          369
-        ],
-        [
-          2018,
-          807
-        ],
-        [
-          2019,
-          865
-        ],
-        [
-          2020,
-          607
-        ],
-        [
-          2021,
-          851
-        ],
-        [
-          2022,
-          800
-        ]
-      ],
-      "name": "Neubau"
-    },
-    {
-      "color": "#CD9C00",
-      "index": 1,
-      "type": "column",
-      "legendIndex": 1,
-      "data": [
-        [
-          2012,
-          28
-        ],
-        [
-          2013,
-          35
-        ],
-        [
-          2014,
-          180
-        ],
-        [
-          2015,
-          25
-        ],
-        [
-          2016,
-          106
-        ],
-        [
-          2017,
-          54
-        ],
-        [
-          2018,
-          67
-        ],
-        [
-          2019,
-          158
-        ],
-        [
-          2020,
-          219
-        ],
-        [
-          2021,
-          222
-        ],
-        [
-          2022,
-          100
-        ]
-      ],
-      "name": "Umbausaldo"
-    },
-    {
-      "color": "#990300",
-      "index": 2,
-      "type": "column",
-      "legendIndex": 2,
-      "data": [
-        [
-          2012,
-          -26
-        ],
-        [
-          2013,
-          -41
-        ],
-        [
-          2014,
-          -53
-        ],
-        [
-          2015,
-          -178
-        ],
-        [
-          2016,
-          -75
-        ],
-        [
-          2017,
-          -59
-        ],
-        [
-          2018,
-          -114
-        ],
-        [
-          2019,
-          -186
-        ],
-        [
-          2020,
-          -158
-        ],
-        [
-          2021,
-          -96
-        ],
-        [
-          2022,
-          -100
-        ]
-      ],
-      "name": "Abbruch"
-    },
-    {
-      "color": "#008AC3",
-      "index": 3,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 3,
-      "data": [
-        [
-          2012,
-          270
-        ],
-        [
-          2013,
-          171
-        ],
-        [
-          2014,
-          496
-        ],
-        [
-          2015,
-          635
-        ],
-        [
-          2016,
-          443
-        ],
-        [
-          2017,
-          364
-        ],
-        [
-          2018,
-          760
-        ],
         [
           2019,
           837
         ],
         [
           2020,
-          672
+          1509
         ],
         [
           2021,
-          977
+          2486
         ],
         [
           2022,
-          800
+          3286
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
         ]
       ],
-      "name": "Nettoproduktion"
+      "name": "Nettoproduktion seit 2019"
     },
     {
-      "type": "polygon",
-      "enableMouseTracking": false,
-      "showInLegend": false,
+      "type": "line",
+      "dashStyle": "ShortDash",
+      "color": "#999999",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
-          2021.4,
-          -250
+          2019,
+          837
         ],
         [
-          2021.4,
-          1000
+          2020,
+          1409.6875
+        ],
+        [
+          2021,
+          1982.375
+        ],
+        [
+          2022,
+          2555.0625
         ],
         [
           2023,
-          1000
+          3127.75
         ],
         [
-          2023,
-          -250
+          2024,
+          3700.4375
+        ],
+        [
+          2025,
+          4273.125
+        ],
+        [
+          2026,
+          4845.8125
+        ],
+        [
+          2027,
+          5418.5
+        ],
+        [
+          2028,
+          5991.1875
+        ],
+        [
+          2029,
+          6563.875
+        ],
+        [
+          2030,
+          7136.5625
+        ],
+        [
+          2031,
+          7709.25
+        ],
+        [
+          2032,
+          8281.9375
+        ],
+        [
+          2033,
+          8854.625
+        ],
+        [
+          2034,
+          9427.3125
+        ],
+        [
+          2035,
+          10000
         ]
       ],
-      "zIndex": -99,
-      "color": "#E7CEE2"
+      "name": "Zielpfad"
     }
   ],
   "chart": {
@@ -260,35 +175,47 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
+        this.credits.element.onclick = function () { };
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+        //for top-left legends with no x defined: move legend to x position of first yAxis
+        if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+          this.update(
+            {
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+              }
+            }
+          );
+        }
+
+        this.series[1].points[this.series[1].points.length - 1].update({
+          dataLabels: {
+            enabled: true,
+            y: -5,
+            x: -50,
+            format: 'Zielwert 2035: {y}',
+            style: {
+              textOutline: false,
+            }
+          },
+          marker: {
+            enabled: true,
+            symbol: "circle"
+          }
+        });
+      }
     },
-    "type": "column",
     "renderTo": "container-9684",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "stacking": null,
-      "pointPadding": 0,
-      "groupPadding": 0.1
+      }
     }
   },
   "title": {
@@ -323,13 +250,10 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "step": 1,
+      "rotation": -45
     },
-    "endOnTick": true,
-    "startOnTick": true,
-    "tickInterval": 1,
-    "min": 2012,
-    "max": 2022
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -347,10 +271,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "min": -250,
-    "max": 1000,
-    "tickInterval": 250
+    }
   },
   "legend": {
     "symbolRadius": 0,
@@ -360,7 +281,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left"
   },
   "navigation": {
@@ -385,7 +305,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2022"
   },
   "tooltip": {
-    "shared": false,
+    "valueDecimals": 0,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {

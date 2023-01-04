@@ -110,16 +110,138 @@
         [
           2021,
           129.8
+        ],
+        [
+          2022,
+          131.4
         ]
       ],
-      "name": "Index"
+      "name": "Mietpreisindex"
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          1995,
+          103.2
+        ],
+        [
+          1996,
+          100.8
+        ],
+        [
+          1997,
+          100
+        ],
+        [
+          1998,
+          99.8
+        ],
+        [
+          1999,
+          99.8
+        ],
+        [
+          2000,
+          100
+        ],
+        [
+          2001,
+          103.6
+        ],
+        [
+          2002,
+          104.7
+        ],
+        [
+          2003,
+          104.2
+        ],
+        [
+          2004,
+          103.3
+        ],
+        [
+          2005,
+          102.6
+        ],
+        [
+          2006,
+          102.7
+        ],
+        [
+          2007,
+          104.7
+        ],
+        [
+          2008,
+          100.3
+        ],
+        [
+          2009,
+          101.4
+        ],
+        [
+          2010,
+          101.6
+        ],
+        [
+          2011,
+          102.2
+        ],
+        [
+          2012,
+          102.3
+        ],
+        [
+          2013,
+          103.2
+        ],
+        [
+          2014,
+          103.7
+        ],
+        [
+          2015,
+          103.9
+        ],
+        [
+          2016,
+          104.3
+        ],
+        [
+          2017,
+          104.8
+        ],
+        [
+          2018,
+          105
+        ],
+        [
+          2019,
+          105.5
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ]
+      ],
+      "name": "Index Median Einkommen"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -160,10 +282,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mietpreisindex Basel-Stadt"
+    "text": "Mietpreis- und Einkommenensindex"
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2000 = 100)",
+    "text": "Basel-Stadt, Indexwert (Basis 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -190,7 +312,7 @@
     "tickInterval": 3
   },
   "yAxis": {
-    "min": 50,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -209,10 +331,10 @@
     }
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -229,9 +351,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2020"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -268,8 +390,8 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "valueDecimals": 0,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9686"

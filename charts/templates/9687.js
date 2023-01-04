@@ -1,7 +1,6 @@
 (function () {
   return {
-    "chart": {
-      "type": "column",
+    chart: {
       events: {
         load: function () {
           this.credits.element.onclick = function () { };
@@ -16,21 +15,6 @@
               }
             );
           }
-
-          this.series[1].points[this.series[1].points.length - 1].update({
-            dataLabels: {
-              enabled: true,
-              y: -80,
-              x: -50,
-              format: 'Zielwert {key}: {y:,.1f}',
-              style: {
-                textOutline: false,
-              }
-            },
-            marker: {
-              enabled: true
-            }
-          });
 
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
@@ -51,14 +35,23 @@
         }
       }
     },
-    title: {
-      useHTML: true
+    plotOptions: {
+      line: {
+        marker: {
+          enabled: false, //null,
+        }
+      }
     },
-    xAxis: {
-      tickInterval: 1,
+    "yAxis": {
+      min: null,
+      "labels": {
+        "format": "{value:,.0f}",
+      }
+    },
+    "xAxis": {
+      "tickInterval": 1,
       labels: {
-        step: 1,
-        rotation: -45
+        rotation: -45,
       }
     },
     legend: {
@@ -68,23 +61,22 @@
       align: "left",
     },
     tooltip: {
-      valueDecimals: 2,
+      valueDecimals: 0,
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
     },
-    series: [
+    "series": [
       {
-        color: "#0091f7",
-        type: "column",
+        "color": "#0091f7",
       },
       {
-        type: "line",
         dashStyle: 'ShortDash',
-        color: "#999999",
+        "color": "#999999",
       },
       {
         visible: false,
         showInLegend: false
       },
     ],
-  };
+  }
 }());
+

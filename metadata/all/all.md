@@ -2202,11 +2202,11 @@ id | visible | visibleInPortal | indikatorenset
 9680 | true | true | RR_KPI
 9681 | false |  | RR_KPI
 9682 | true | true | RR_KPI
-9683 | true | false | RR_KPI
-9684 | true | false | RR_KPI
+9683 | false |  | RR_KPI
+9684 | true | true | RR_KPI
 9685 | false |  | RR_KPI
-9686 | true | false | RR_KPI
-9687 | true | false | RR_KPI
+9686 | true | true | RR_KPI
+9687 | true | true | RR_KPI
 9693 | true | true | RR_KPI
 9995 | true | false | 
 9996 | true | false | 
