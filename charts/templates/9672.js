@@ -1,7 +1,6 @@
 (function () {
   return {
     "chart": {
-      "type": "column",
       events: {
         load: function () {
           this.credits.element.onclick = function () { };
@@ -31,6 +30,33 @@
               enabled: true
             }
           });
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+            data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+
+        }
+      }
+    },
+    plotOptions: {
+      series: {
+        connectNulls: true,
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
         }
       }
     },
@@ -52,12 +78,18 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
     },
     "series": [
-      { "color": "#990300", "visible": true }, /* rot*/
       {
-        type: "line",
+        "color": "#0091f7",
+        zIndex: 2
+      },
+      {
         dashStyle: 'ShortDash',
         color: "#999999",
-      }
+      },
+      {
+        visible: false,
+        showInLegend: false
+      },
     ],
   }
 }());

@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#990300",
-      "visible": true,
+      "color": "#0091f7",
+      "zIndex": 2,
       "data": [
         [
           "2010",
@@ -121,7 +121,6 @@
       "turboThreshold": 0
     },
     {
-      "type": "line",
       "dashStyle": "ShortDash",
       "color": "#999999",
       "data": [
@@ -240,6 +239,126 @@
       ],
       "name": "Zielpfad",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2024",
+          null
+        ],
+        [
+          "2025",
+          null
+        ],
+        [
+          "2026",
+          null
+        ],
+        [
+          "2027",
+          null
+        ],
+        [
+          "2028",
+          null
+        ],
+        [
+          "2029",
+          null
+        ],
+        [
+          "2030",
+          null
+        ],
+        [
+          "2031",
+          null
+        ],
+        [
+          "2032",
+          null
+        ],
+        [
+          "2033",
+          null
+        ],
+        [
+          "2034",
+          null
+        ],
+        [
+          "2035",
+          null
+        ],
+        [
+          "2036",
+          null
+        ],
+        [
+          "2037",
+          null
+        ]
+      ],
+      "name": "Bewertung",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -261,7 +380,7 @@
     }
   },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -302,6 +421,24 @@
               enabled: true
             }
           });
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+            data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+
         }
     },
     "renderTo": "container-9672"
@@ -309,8 +446,10 @@
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false
-      }
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "connectNulls": true
     }
   },
   "title": {

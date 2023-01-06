@@ -20,7 +20,7 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-          data.forEach((element, i) => {
+            data.forEach(function (element, i) {
             if (assessed[i].y != null) {
               element.update({
                 color: colors[assessed[i].y],

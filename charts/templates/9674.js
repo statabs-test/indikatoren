@@ -1,7 +1,7 @@
 (function () {
   return {
     "chart": {
-      "type": "column",
+      "type": "line",
       events: {
         load: function () {
           this.credits.element.onclick = function () { };
@@ -36,7 +36,7 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-          data.forEach((element, i) => {
+          data.forEach(function (element, i) {
             if (assessed[i].y != null) {
               element.update({
                 color: colors[assessed[i].y],
@@ -48,6 +48,15 @@
               })
             }
           });
+        }
+      }
+    },
+    plotOptions: {
+      series: {
+        connectNulls: true,
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
         }
       }
     },
@@ -74,7 +83,7 @@
     series: [
       {
         color: "#0091f7",
-        type: "column",
+        zIndex: 2,
       },
       {
         type: "line",

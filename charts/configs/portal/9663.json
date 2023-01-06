@@ -1,19 +1,8 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
-      "color": "#008AC3",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#0091f7",
       "data": [
-        [
-          2000,
-          8.6
-        ],
         [
           2001,
           8.5
@@ -36,27 +25,27 @@
         ],
         [
           2006,
-          4.732302688
+          4.7
         ],
         [
           2007,
-          5.470215803
+          5.4
         ],
         [
           2008,
-          5.112919714
+          4.8
         ],
         [
           2009,
-          4.553449541
+          4.5
         ],
         [
           2010,
-          3.3
+          3.2
         ],
         [
           2011,
-          3
+          2.9
         ],
         [
           2012,
@@ -64,7 +53,7 @@
         ],
         [
           2013,
-          3.2
+          3.4
         ],
         [
           2014,
@@ -97,60 +86,180 @@
         [
           2021,
           -0.1
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
         ]
       ],
       "name": "Nettoschuldenquote"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "dashStyle": "ShortDash",
-      "color": "#999999",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#0091f7",
       "data": [
         [
-          2000,
-          6.5
-        ],
-        [
           2001,
-          6.5
+          null
         ],
         [
           2002,
-          6.5
+          null
         ],
         [
           2003,
-          6.5
+          null
         ],
         [
           2004,
-          6.5
+          null
         ],
         [
           2005,
-          6.5
+          null
         ],
         [
           2006,
-          6.5
+          null
         ],
         [
           2007,
-          6.5
+          null
         ],
         [
           2008,
-          6.5
+          null
         ],
         [
           2009,
-          6.5
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          0.2
+        ],
+        [
+          2023,
+          0.3
+        ],
+        [
+          2024,
+          0.6
+        ],
+        [
+          2025,
+          1
+        ],
+        [
+          2026,
+          1.3
+        ]
+      ],
+      "name": "Budget & Planjahre"
+    },
+    {
+      "dashStyle": "ShortDash",
+      "color": "#999999",
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          7.5
+        ],
+        [
+          2006,
+          7.5
+        ],
+        [
+          2007,
+          7.5
+        ],
+        [
+          2008,
+          7.5
+        ],
+        [
+          2009,
+          7.5
         ],
         [
           2010,
@@ -199,9 +308,140 @@
         [
           2021,
           6.5
+        ],
+        [
+          2022,
+          6.5
+        ],
+        [
+          2023,
+          6.5
+        ],
+        [
+          2024,
+          6.5
+        ],
+        [
+          2025,
+          6.5
+        ],
+        [
+          2026,
+          6.5
         ]
       ],
       "name": "Zielwert"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          0
+        ],
+        [
+          2025,
+          0
+        ],
+        [
+          2026,
+          0
+        ]
+      ],
+      "name": "Bewertung"
     }
   ],
   "chart": {
@@ -232,17 +472,34 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[2].points[this.series[2].points.length - 1].update({
             dataLabels: {
               enabled: true,
               //y: -5,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              format: 'Zielwert: {y:,.1f}‰',
               style: {
                 textOutline: false,
               }
             },
           });
+
+          const chart = this,
+          colors = ['#59fb59', '#fbf659', '#fb9999'],
+          data = chart.series[0].data,
+          assessed = chart.series[3].data;
+          data.forEach(function (element, i) {
+          if (assessed[i].y != null) {
+            element.update({
+              color: colors[assessed[i].y],
+              marker: {
+                enabled: true,
+                lineWidth: 1,
+                lineColor: "#0091f7"
+              }
+            })
+          }
+        });
         }
     },
     "renderTo": "container-9663"
@@ -364,6 +621,9 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}‰\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9663"

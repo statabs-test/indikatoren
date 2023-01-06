@@ -22,7 +22,7 @@
               enabled: true,
               y: -5,
               x: -50,
-              format: 'Zielwert 2035: {y}',
+              format: 'Zielwert 2035: {y:,.0f}',
               style: {
                 textOutline: false,
               }
@@ -37,8 +37,8 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-          data.forEach((element, i) => {
-            if (assessed[i].y != null) {
+            data.forEach(function (element, i) {
+            if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {

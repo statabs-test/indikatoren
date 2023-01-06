@@ -17,17 +17,34 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[2].points[this.series[2].points.length - 1].update({
             dataLabels: {
               enabled: true,
               //y: -5,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              format: 'Zielwert: {y:,.1f}‰',
               style: {
                 textOutline: false,
               }
             },
           });
+
+          const chart = this,
+          colors = ['#59fb59', '#fbf659', '#fb9999'],
+          data = chart.series[0].data,
+          assessed = chart.series[3].data;
+          data.forEach(function (element, i) {
+          if (assessed[i].y != null) {
+            element.update({
+              color: colors[assessed[i].y],
+              marker: {
+                enabled: true,
+                lineWidth: 1,
+                lineColor: "#0091f7"
+              }
+            })
+          }
+        });
         }
       }
     },
@@ -48,37 +65,30 @@
     },
     "legend": {
       "enabled": true,
-      //"x": 25,
-      //"y": 55,
-      //"itemWidth": 150,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
     },
+    "tooltip": {
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
+    },
     "series": [
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
-        "color": "#008AC3",
-        "tooltip": {
-          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-        },
+        "color": "#0091f7",
       },
       {
-        "marker": {
-          "symbol": "circle",
-          "enabled": false
-        },
+        dashStyle: 'ShortDash',
+        "color": "#0091f7",
+      },
+      {
         dashStyle: 'ShortDash',
         "color": "#999999",
-        "tooltip": {
-          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-        },
-
-      }
+      },
+      {
+        visible: false,
+        showInLegend: false
+      },
     ],
   }
 }());
