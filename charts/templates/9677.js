@@ -1,29 +1,55 @@
 (function () {
   return {
-    plotOptions: {
-      arearange: {
-        lineWidth: 0.5,
-        //fillOpacity: 0.2,
-        zIndex: -1,
-        tooltip: {
-          crosshairs: true,
-          shared: true
-        },
-        marker: { states: { hover: { enabled: false } } }
-      },
+    "chart": {
+      "type": "column",
+      events: {
+        load: function () {
+          this.credits.element.onclick = function () { };
 
-      series: {
-        turboThreshold: 0
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
+      }
+    },
+    plotOptions: {
+      column: {
+        borderWidth: 0
       }
     },
     "xAxis": {
       type: "category",
     },
     "yAxis": {
-      max: 6,
+      //max: 6,
+      min: null,
       "labels": {
         "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '%';
+          return Highcharts.numberFormat((this.value), 1) + '%';
         },
       }
     },
@@ -40,13 +66,28 @@
     },
     "series": [
       {
-        color: "#3C3C3C",
+        color: "#0091f7",
+      },
+      {
+        color: "#999999",
+      },
+      {
+        visible: false,
+        showInLegend: false
+      },
+      {
+        color: "#0091f7",
+        type: "line",
+        //visible: false,
       },
       {
         dashStyle: 'ShortDash',
         color: "#999999",
+        type: "line",
+        //visible: false,
       },
-      {
+
+      /*{
         color: "#c9fbc9",
         type: "arearange",
         id: "grün",
@@ -63,7 +104,8 @@
             [1, "#fbfbfb"]
           ]
         }*/
-      },
+      //},
+      /*
       {
         color: "#fbf6c9",
         type: "arearange",
@@ -92,7 +134,7 @@
             [1, "#fbc9c9"]
           ]
         }*/
-      },
+      //},
     ]
   }
 }());

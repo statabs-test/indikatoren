@@ -42972,7 +42972,7 @@
 		"children": [],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2021",
-		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.",
+		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><br><b>Zielwert:</b> Mindestens zweiter Platz im Kantonsvergleich<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \t1. und 2. Platz<br>Gelb: \t3. Platz<br>Rot: \t4. Platz oder schlechter",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"quellenangabe": [
 			"UBS Switzerland AG"
@@ -43203,7 +43203,7 @@
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "",
+		"lesehilfe": "<b>Zielwert:</b> 10 000 Wohnungen bis 2035<br><i>(Grundlage: gekoppelt an Richtplanziel 220 000 Einwohnende bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tZahl auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tZahl auf/über Zielpfad und Wachstum geringer als Zielpfad \tbzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tZahl unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -43239,9 +43239,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Mietpreis- und Einkommenensindex",
-		"subtitle": "Basel-Stadt, Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"title": "Mietpreis- und Einkommensindex",
+		"subtitle": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
+		"lesehilfe": "<b>Zielwert:</b> Mietpreise steigen weniger stark als Medianeinkommen<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tMietpreise steigen weniger stark als Medianeinkommen<br>Gelb: \tMietpreise und Medianeinkommen steigen gleich stark<br>Rot: \tMietpreise steigen stärker als Medianeinkommen",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -43252,7 +43252,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Mietpreis- und Einkommenensindex",
+		"description": "Mietpreis- und Einkommensindex",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kuerzel": "I.09.3.09686",

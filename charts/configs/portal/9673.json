@@ -1825,7 +1825,7 @@
               enabled: true,
               y: -5,
               x: -50,
-              format: 'Zielwert 2035: {y}',
+              format: 'Zielwert 2035: {y:,.0f}',
               style: {
                 textOutline: false,
               }

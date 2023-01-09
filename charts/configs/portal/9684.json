@@ -1,25 +1,24 @@
 {
   "series": [
     {
-      "color": "#7F5F1A",
-      "index": 0,
-      "type": "column",
+      "color": "#0091f7",
+      "zIndex": 2,
       "data": [
         [
           2019,
-          837
+          null
         ],
         [
           2020,
-          1509
+          672
         ],
         [
           2021,
-          2486
+          1649
         ],
         [
           2022,
-          3286
+          2449
         ],
         [
           2023,
@@ -86,67 +85,67 @@
       "data": [
         [
           2019,
-          837
+          0
         ],
         [
           2020,
-          1409.6875
+          625
         ],
         [
           2021,
-          1982.375
+          1250
         ],
         [
           2022,
-          2555.0625
+          1875
         ],
         [
           2023,
-          3127.75
+          2500
         ],
         [
           2024,
-          3700.4375
+          3125
         ],
         [
           2025,
-          4273.125
+          3750
         ],
         [
           2026,
-          4845.8125
+          4375
         ],
         [
           2027,
-          5418.5
+          5000
         ],
         [
           2028,
-          5991.1875
+          5625
         ],
         [
           2029,
-          6563.875
+          6250
         ],
         [
           2030,
-          7136.5625
+          6875
         ],
         [
           2031,
-          7709.25
+          7500
         ],
         [
           2032,
-          8281.9375
+          8125
         ],
         [
           2033,
-          8854.625
+          8750
         ],
         [
           2034,
-          9427.3125
+          9375
         ],
         [
           2035,
@@ -154,6 +153,81 @@
         ]
       ],
       "name": "Zielpfad"
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ]
+      ],
+      "name": "Bewertung"
     }
   ],
   "chart": {
@@ -175,35 +249,53 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-        this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () { };
 
-        //for top-left legends with no x defined: move legend to x position of first yAxis
-        if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-          this.update(
-            {
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
               }
-            }
-          );
-        }
-
-        this.series[1].points[this.series[1].points.length - 1].update({
-          dataLabels: {
-            enabled: true,
-            y: -5,
-            x: -50,
-            format: 'Zielwert 2035: {y}',
-            style: {
-              textOutline: false,
-            }
-          },
-          marker: {
-            enabled: true,
-            symbol: "circle"
+            );
           }
-        });
-      }
+
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              y: -5,
+              x: -50,
+              format: 'Zielwert 2035: {y:,.0f}',
+              style: {
+                textOutline: false,
+              }
+            },
+            marker: {
+              enabled: true,
+              symbol: "circle"
+            }
+          });
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+
+        }
     },
     "renderTo": "container-9684",
     "spacingBottom": 40
@@ -215,6 +307,11 @@
         "style": {
           "fontSize": "10px"
         }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false
       }
     }
   },
