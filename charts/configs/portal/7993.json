@@ -213,8 +213,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
-    "max": 1000000,
+    "tickInterval": 200000,
+    "max": 1200000,
     "reversedStacks": false
   },
   "legend": {
