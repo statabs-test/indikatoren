@@ -25,6 +25,7 @@
               format: 'Zielwert 2035: {y:,.0f}',
               style: {
                 textOutline: false,
+                color: "#999999",
               }
             },
             marker: {

@@ -1,39 +1,353 @@
 {
   "series": [
     {
-      "color": "#3C3C3C",
+      "color": "#0091f7",
+      "legendIndex": 3,
       "data": [
         [
           "1998",
-          3.741
+          null
         ],
         [
           "1999",
-          2.47
+          -1.2718
         ],
         [
           "2000",
-          2.101
+          -0.3682
         ],
         [
           "2001",
-          2.162
+          0.0601
         ],
         [
           "2002",
-          3.002
+          0.8409
         ],
         [
           "2003",
-          4.261
+          1.259
         ],
         [
           "2004",
-          4.576
+          0.3142
         ],
         [
           "2005",
-          4.062
+          -0.5134
+        ],
+        [
+          "2006",
+          -0.3302
+        ],
+        [
+          "2007",
+          -0.4937
+        ],
+        [
+          "2008",
+          -0.2425
+        ],
+        [
+          "2009",
+          0.8013
+        ],
+        [
+          "2010",
+          0.379
+        ],
+        [
+          "2011",
+          -0.524
+        ],
+        [
+          "2012",
+          0.0004
+        ],
+        [
+          "2013",
+          0.0733
+        ],
+        [
+          "2014",
+          -0.3331
+        ],
+        [
+          "2015",
+          0.26
+        ],
+        [
+          "2016",
+          0.2141
+        ],
+        [
+          "2017",
+          -0.263
+        ],
+        [
+          "2018",
+          -0.3522
+        ],
+        [
+          "2019",
+          -0.2733
+        ],
+        [
+          "2020",
+          0.9453
+        ],
+        [
+          "2021",
+          -0.0623
+        ]
+      ],
+      "name": "Veränderung Arbeitslosenquote Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1998",
+          null
+        ],
+        [
+          "1999",
+          -1.203359224
+        ],
+        [
+          "2000",
+          -0.872790454
+        ],
+        [
+          "2001",
+          -0.121362838
+        ],
+        [
+          "2002",
+          0.843857392
+        ],
+        [
+          "2003",
+          1.144739905
+        ],
+        [
+          "2004",
+          0.187604405
+        ],
+        [
+          "2005",
+          -0.115681037
+        ],
+        [
+          "2006",
+          -0.430847776
+        ],
+        [
+          "2007",
+          -0.566049859
+        ],
+        [
+          "2008",
+          -0.188339818
+        ],
+        [
+          "2009",
+          1.123732831
+        ],
+        [
+          "2010",
+          -0.186240853
+        ],
+        [
+          "2011",
+          -0.67274537
+        ],
+        [
+          "2012",
+          0.062105783
+        ],
+        [
+          "2013",
+          0.252559476
+        ],
+        [
+          "2014",
+          -0.114195049
+        ],
+        [
+          "2015",
+          0.134464696
+        ],
+        [
+          "2016",
+          0.145688943
+        ],
+        [
+          "2017",
+          -0.137422838
+        ],
+        [
+          "2018",
+          -0.555355403
+        ],
+        [
+          "2019",
+          -0.323853241
+        ],
+        [
+          "2020",
+          0.833505982
+        ],
+        [
+          "2021",
+          -0.171692461
+        ]
+      ],
+      "name": "Veränderung Arbeitslosenquote Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "1998",
+          null
+        ],
+        [
+          "1999",
+          1
+        ],
+        [
+          "2000",
+          0
+        ],
+        [
+          "2001",
+          0
+        ],
+        [
+          "2002",
+          1
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2004",
+          0
+        ],
+        [
+          "2005",
+          2
+        ],
+        [
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
+          1
+        ],
+        [
+          "2009",
+          2
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2012",
+          1
+        ],
+        [
+          "2013",
+          1
+        ],
+        [
+          "2014",
+          1
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2016",
+          0
+        ],
+        [
+          "2017",
+          1
+        ],
+        [
+          "2018",
+          0
+        ],
+        [
+          "2019",
+          0
+        ],
+        [
+          "2020",
+          0
+        ],
+        [
+          "2021",
+          0
+        ]
+      ],
+      "name": "Bewertung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0091f7",
+      "type": "line",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1998",
+          3.7414
+        ],
+        [
+          "1999",
+          2.4696
+        ],
+        [
+          "2000",
+          2.1014
+        ],
+        [
+          "2001",
+          2.1615
+        ],
+        [
+          "2002",
+          3.0024
+        ],
+        [
+          "2003",
+          4.2614
+        ],
+        [
+          "2004",
+          4.5756
+        ],
+        [
+          "2005",
+          4.0622
         ],
         [
           "2006",
@@ -41,71 +355,73 @@
         ],
         [
           "2007",
-          3.238
+          3.2383
         ],
         [
           "2008",
-          2.996
+          2.9958
         ],
         [
           "2009",
-          3.797
+          3.7971
         ],
         [
           "2010",
-          4.176
+          4.1761
         ],
         [
           "2011",
-          3.652
+          3.6521
         ],
         [
           "2012",
-          3.653
+          3.6525
         ],
         [
           "2013",
-          3.726
+          3.7258
         ],
         [
           "2014",
-          3.393
+          3.3927
         ],
         [
           "2015",
-          3.653
+          3.6527
         ],
         [
           "2016",
-          3.867
+          3.8668
         ],
         [
           "2017",
-          3.604
+          3.6038
         ],
         [
           "2018",
-          3.252
+          3.2516
         ],
         [
           "2019",
-          2.978
+          2.9783
         ],
         [
           "2020",
-          3.924
+          3.9236
         ],
         [
           "2021",
-          3.861
+          3.8613
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "Arbeitslosenquote Basel-Stadt",
       "turboThreshold": 0
     },
     {
       "dashStyle": "ShortDash",
       "color": "#999999",
+      "type": "line",
+      "legendIndex": 2,
       "data": [
         [
           "1998",
@@ -113,503 +429,98 @@
         ],
         [
           "1999",
-          2.697
+          2.696640776
         ],
         [
           "2000",
-          1.824
+          1.823850322
         ],
         [
           "2001",
-          1.702
+          1.702487483
         ],
         [
           "2002",
-          2.546
+          2.546344875
         ],
         [
           "2003",
-          3.691
+          3.69108478
         ],
         [
           "2004",
-          3.879
+          3.878689184
         ],
         [
           "2005",
-          3.763
+          3.763008147
         ],
         [
           "2006",
-          3.332
+          3.332160371
         ],
         [
           "2007",
-          2.766
+          2.766110513
         ],
         [
           "2008",
-          2.578
+          2.577770695
         ],
         [
           "2009",
-          3.702
+          3.701503526
         ],
         [
           "2010",
-          3.515
+          3.515262673
         ],
         [
           "2011",
-          2.843
+          2.842517304
         ],
         [
           "2012",
-          2.905
+          2.904623086
         ],
         [
           "2013",
-          3.157
+          3.157182563
         ],
         [
           "2014",
-          3.043
+          3.042987514
         ],
         [
           "2015",
-          3.177
+          3.177452209
         ],
         [
           "2016",
-          3.323
+          3.323141152
         ],
         [
           "2017",
-          3.186
+          3.185718315
         ],
         [
           "2018",
-          2.63
+          2.630362911
         ],
         [
           "2019",
-          2.307
+          2.30650967
         ],
         [
           "2020",
-          3.14
+          3.140015652
         ],
         [
           "2021",
-          2.968
+          2.968323191
         ]
       ],
-      "name": "Schweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#c9fbc9",
-      "type": "arearange",
-      "id": "grün",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>< ' + Highcharts.numberFormat((this.high), 1) + '% </b>'
-          }
-      },
-      "data": [
-        {
-          "name": "1998",
-          "low": 0,
-          "high": 3.9
-        },
-        {
-          "name": "1999",
-          "low": 0,
-          "high": 2.697
-        },
-        {
-          "name": "2000",
-          "low": 0,
-          "high": 1.824
-        },
-        {
-          "name": "2001",
-          "low": 0,
-          "high": 1.702
-        },
-        {
-          "name": "2002",
-          "low": 0,
-          "high": 2.546
-        },
-        {
-          "name": "2003",
-          "low": 0,
-          "high": 3.691
-        },
-        {
-          "name": "2004",
-          "low": 0,
-          "high": 3.879
-        },
-        {
-          "name": "2005",
-          "low": 0,
-          "high": 3.763
-        },
-        {
-          "name": "2006",
-          "low": 0,
-          "high": 3.332
-        },
-        {
-          "name": "2007",
-          "low": 0,
-          "high": 2.766
-        },
-        {
-          "name": "2008",
-          "low": 0,
-          "high": 2.578
-        },
-        {
-          "name": "2009",
-          "low": 0,
-          "high": 3.702
-        },
-        {
-          "name": "2010",
-          "low": 0,
-          "high": 3.515
-        },
-        {
-          "name": "2011",
-          "low": 0,
-          "high": 2.843
-        },
-        {
-          "name": "2012",
-          "low": 0,
-          "high": 2.905
-        },
-        {
-          "name": "2013",
-          "low": 0,
-          "high": 3.157
-        },
-        {
-          "name": "2014",
-          "low": 0,
-          "high": 3.043
-        },
-        {
-          "name": "2015",
-          "low": 0,
-          "high": 3.177
-        },
-        {
-          "name": "2016",
-          "low": 0,
-          "high": 3.323
-        },
-        {
-          "name": "2017",
-          "low": 0,
-          "high": 3.186
-        },
-        {
-          "name": "2018",
-          "low": 0,
-          "high": 2.63
-        },
-        {
-          "name": "2019",
-          "low": 0,
-          "high": 2.307
-        },
-        {
-          "name": "2020",
-          "low": 0,
-          "high": 3.14
-        },
-        {
-          "name": "2021",
-          "low": 0,
-          "high": 2.968
-        }
-      ],
-      "name": "Grün",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#fbf6c9",
-      "type": "arearange",
-      "id": "gelb",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> ' + Highcharts.numberFormat((this.low), 1) + '% - ' + Highcharts.numberFormat((this.high), 1) + '%</b>'
-          }
-      },
-      "data": [
-        {
-          "name": "1998",
-          "low": 3.9,
-          "high": 4.2
-        },
-        {
-          "name": "1999",
-          "low": 2.697,
-          "high": 2.997
-        },
-        {
-          "name": "2000",
-          "low": 1.824,
-          "high": 2.124
-        },
-        {
-          "name": "2001",
-          "low": 1.702,
-          "high": 2.002
-        },
-        {
-          "name": "2002",
-          "low": 2.546,
-          "high": 2.846
-        },
-        {
-          "name": "2003",
-          "low": 3.691,
-          "high": 3.991
-        },
-        {
-          "name": "2004",
-          "low": 3.879,
-          "high": 4.179
-        },
-        {
-          "name": "2005",
-          "low": 3.763,
-          "high": 4.063
-        },
-        {
-          "name": "2006",
-          "low": 3.332,
-          "high": 3.632
-        },
-        {
-          "name": "2007",
-          "low": 2.766,
-          "high": 3.066
-        },
-        {
-          "name": "2008",
-          "low": 2.578,
-          "high": 2.878
-        },
-        {
-          "name": "2009",
-          "low": 3.702,
-          "high": 4.002
-        },
-        {
-          "name": "2010",
-          "low": 3.515,
-          "high": 3.815
-        },
-        {
-          "name": "2011",
-          "low": 2.843,
-          "high": 3.143
-        },
-        {
-          "name": "2012",
-          "low": 2.905,
-          "high": 3.205
-        },
-        {
-          "name": "2013",
-          "low": 3.157,
-          "high": 3.457
-        },
-        {
-          "name": "2014",
-          "low": 3.043,
-          "high": 3.343
-        },
-        {
-          "name": "2015",
-          "low": 3.177,
-          "high": 3.477
-        },
-        {
-          "name": "2016",
-          "low": 3.323,
-          "high": 3.623
-        },
-        {
-          "name": "2017",
-          "low": 3.186,
-          "high": 3.486
-        },
-        {
-          "name": "2018",
-          "low": 2.63,
-          "high": 2.93
-        },
-        {
-          "name": "2019",
-          "low": 2.307,
-          "high": 2.607
-        },
-        {
-          "name": "2020",
-          "low": 3.14,
-          "high": 3.44
-        },
-        {
-          "name": "2021",
-          "low": 2.968,
-          "high": 3.268
-        }
-      ],
-      "name": "Gelb",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#fbc9c9",
-      "type": "arearange",
-      "id": "rot",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>> ' + Highcharts.numberFormat((this.low), 1) + '% </b>'
-          }
-      },
-      "data": [
-        {
-          "name": "1998",
-          "low": 4.2,
-          "high": 6
-        },
-        {
-          "name": "1999",
-          "low": 2.997,
-          "high": 6
-        },
-        {
-          "name": "2000",
-          "low": 2.124,
-          "high": 6
-        },
-        {
-          "name": "2001",
-          "low": 2.002,
-          "high": 6
-        },
-        {
-          "name": "2002",
-          "low": 2.846,
-          "high": 6
-        },
-        {
-          "name": "2003",
-          "low": 3.991,
-          "high": 6
-        },
-        {
-          "name": "2004",
-          "low": 4.179,
-          "high": 6
-        },
-        {
-          "name": "2005",
-          "low": 4.063,
-          "high": 6
-        },
-        {
-          "name": "2006",
-          "low": 3.632,
-          "high": 6
-        },
-        {
-          "name": "2007",
-          "low": 3.066,
-          "high": 6
-        },
-        {
-          "name": "2008",
-          "low": 2.878,
-          "high": 6
-        },
-        {
-          "name": "2009",
-          "low": 4.002,
-          "high": 6
-        },
-        {
-          "name": "2010",
-          "low": 3.815,
-          "high": 6
-        },
-        {
-          "name": "2011",
-          "low": 3.143,
-          "high": 6
-        },
-        {
-          "name": "2012",
-          "low": 3.205,
-          "high": 6
-        },
-        {
-          "name": "2013",
-          "low": 3.457,
-          "high": 6
-        },
-        {
-          "name": "2014",
-          "low": 3.343,
-          "high": 6
-        },
-        {
-          "name": "2015",
-          "low": 3.477,
-          "high": 6
-        },
-        {
-          "name": "2016",
-          "low": 3.623,
-          "high": 6
-        },
-        {
-          "name": "2017",
-          "low": 3.486,
-          "high": 6
-        },
-        {
-          "name": "2018",
-          "low": 2.93,
-          "high": 6
-        },
-        {
-          "name": "2019",
-          "low": 2.607,
-          "high": 6
-        },
-        {
-          "name": "2020",
-          "low": 3.44,
-          "high": 6
-        },
-        {
-          "name": "2021",
-          "low": 3.268,
-          "high": 6
-        }
-      ],
-      "name": "Rot",
+      "name": "Arbeitslosenquote  Schweiz",
       "turboThreshold": 0
     }
   ],
@@ -632,7 +543,7 @@
     }
   },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -646,19 +557,36 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[3].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
     },
     "renderTo": "container-9677"
   },
@@ -666,23 +594,10 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "turboThreshold": 0
-    },
-    "arearange": {
-      "lineWidth": 0.5,
-      "zIndex": -1,
-      "tooltip": {
-        "crosshairs": true,
-        "shared": true
-      },
-      "marker": {
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
       }
+    },
+    "column": {
+      "borderWidth": 0
     }
   },
   "title": {
@@ -692,7 +607,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Arbeitslosenquote im Jahresmittel"
+    "text": "Arbeitslosenquote"
   },
   "subtitle": {
     "text": "Basel-Stadt und Schweiz",
@@ -704,7 +619,7 @@
     }
   },
   "yAxis": {
-    "min": 0,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -720,10 +635,9 @@
         "color": "#000000"
       },
       "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '%';
+          return Highcharts.numberFormat((this.value), 1) + '%';
         }
-    },
-    "max": 6
+    }
   },
   "legend": {
     "enabled": true,

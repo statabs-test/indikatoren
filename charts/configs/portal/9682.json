@@ -1,133 +1,64 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#0091f7",
+      "legendIndex": 3,
       "data": [
         [
-          "2017",
+          2017,
           85.4
         ],
         [
-          "2018",
+          2018,
           85.3
         ],
         [
-          "2019",
+          2019,
           85
         ]
       ],
-      "name": "Basel-Stadt",
-      "turboThreshold": 0
+      "name": "Abschlussquote"
     },
     {
-      "color": "#fbc9c9",
-      "type": "arearange",
-      "id": "rot",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>< ' + Highcharts.numberFormat((this.high), 1) + '% </b>'
-          }
-      },
+      "color": "#999999",
+      "dashStyle": "ShortDash",
+      "legendIndex": 4,
       "data": [
-        {
-          "name": "2017",
-          "low": 75,
-          "high": 90
-        },
-        {
-          "name": "2018",
-          "low": 75,
-          "high": 90
-        },
-        {
-          "name": "2019",
-          "low": 75,
-          "high": 90
-        }
+        [
+          2017,
+          95
+        ],
+        [
+          2018,
+          95
+        ],
+        [
+          2019,
+          95
+        ]
       ],
-      "name": "Rot",
-      "turboThreshold": 0
+      "name": "Zielwert"
     },
     {
-      "color": "#fbf6c9",
-      "type": "arearange",
-      "id": "gelb",
+      "visible": false,
       "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> ' + Highcharts.numberFormat((this.low), 1) + '% - ' + Highcharts.numberFormat((this.high), 1) + '%</b>'
-          }
-      },
       "data": [
-        {
-          "name": "2017",
-          "low": 90,
-          "high": 95
-        },
-        {
-          "name": "2018",
-          "low": 90,
-          "high": 95
-        },
-        {
-          "name": "2019",
-          "low": 90,
-          "high": 95
-        }
+        [
+          2017,
+          2
+        ],
+        [
+          2018,
+          2
+        ],
+        [
+          2019,
+          2
+        ]
       ],
-      "name": "Gelb",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#c9fbc9",
-      "type": "arearange",
-      "id": "grün",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>> ' + Highcharts.numberFormat((this.low), 1) + '% </b>'
-          }
-      },
-      "data": [
-        {
-          "name": "2017",
-          "low": 95,
-          "high": 100
-        },
-        {
-          "name": "2018",
-          "low": 95,
-          "high": 100
-        },
-        {
-          "name": "2019",
-          "low": 95,
-          "high": 100
-        }
-      ],
-      "name": "Grün",
-      "turboThreshold": 0
+      "name": "Bewertung"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -143,19 +74,52 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              //y: -80,
+              //x: -50,
+              format: 'Zielwert: {y:,.1f}%',
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            },
+            marker: {
+              enabled: false
+            }
+          });
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
     },
     "renderTo": "container-9682"
   },
@@ -189,16 +153,35 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung Abschlussquote der Sekundarstufe II"
+    "text": "Abschlussquote der Sekundarstufe II"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 1
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 75,

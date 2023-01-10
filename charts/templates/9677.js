@@ -19,7 +19,7 @@
 
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
-            data = chart.series[0].data,
+            data = chart.series[3].data,
             assessed = chart.series[2].data;
           data.forEach(function (element, i) {
             if (assessed[i].y != null) {
@@ -67,9 +67,11 @@
     "series": [
       {
         color: "#0091f7",
+        legendIndex: 3
       },
       {
         color: "#999999",
+        legendIndex: 4
       },
       {
         visible: false,
@@ -78,12 +80,14 @@
       {
         color: "#0091f7",
         type: "line",
+        legendIndex: 1
         //visible: false,
       },
       {
         dashStyle: 'ShortDash',
         color: "#999999",
         type: "line",
+        legendIndex: 2
         //visible: false,
       },
 

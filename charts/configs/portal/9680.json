@@ -1,190 +1,100 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#0091f7",
+      "legendIndex": 3,
       "data": [
         [
-          "2003",
+          2003,
           93.78757515
         ],
         [
-          "2005",
+          2005,
           94.63576159
         ],
         [
-          "2007",
+          2007,
           94.36713055
         ],
         [
-          "2011",
+          2011,
           92.81002639
         ],
         [
-          "2015",
+          2015,
           91.1686587
         ],
         [
-          "2019",
+          2019,
           94.87666034
         ]
       ],
-      "name": "Sehr oder eher sicher",
-      "turboThreshold": 0
+      "name": "Sehr oder eher sicher"
     },
     {
-      "color": "#fbc9c9",
-      "type": "arearange",
-      "id": "rot",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>< ' + Highcharts.numberFormat((this.high), 1) + '% </b>'
-          }
-      },
+      "color": "#999999",
+      "dashStyle": "ShortDash",
+      "legendIndex": 4,
       "data": [
-        {
-          "name": "2003",
-          "low": 75,
-          "high": 80
-        },
-        {
-          "name": "2005",
-          "low": 75,
-          "high": 80
-        },
-        {
-          "name": "2007",
-          "low": 75,
-          "high": 80
-        },
-        {
-          "name": "2011",
-          "low": 75,
-          "high": 80
-        },
-        {
-          "name": "2015",
-          "low": 75,
-          "high": 80
-        },
-        {
-          "name": "2019",
-          "low": 75,
-          "high": 80
-        }
+        [
+          2003,
+          90
+        ],
+        [
+          2005,
+          90
+        ],
+        [
+          2007,
+          90
+        ],
+        [
+          2011,
+          90
+        ],
+        [
+          2015,
+          90
+        ],
+        [
+          2019,
+          90
+        ]
       ],
-      "name": "Rot",
-      "turboThreshold": 0
+      "name": "Zielwert"
     },
     {
-      "color": "#fbf6c9",
-      "type": "arearange",
-      "id": "gelb",
+      "visible": false,
       "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> ' + Highcharts.numberFormat((this.low), 1) + '% - ' + Highcharts.numberFormat((this.high), 1) + '%</b>'
-          }
-      },
       "data": [
-        {
-          "name": "2003",
-          "low": 80,
-          "high": 90
-        },
-        {
-          "name": "2005",
-          "low": 80,
-          "high": 90
-        },
-        {
-          "name": "2007",
-          "low": 80,
-          "high": 90
-        },
-        {
-          "name": "2011",
-          "low": 80,
-          "high": 90
-        },
-        {
-          "name": "2015",
-          "low": 80,
-          "high": 90
-        },
-        {
-          "name": "2019",
-          "low": 80,
-          "high": 90
-        }
+        [
+          2003,
+          0
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2019,
+          0
+        ]
       ],
-      "name": "Gelb",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#c9fbc9",
-      "type": "arearange",
-      "id": "grün",
-      "showInLegend": false,
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>> ' + Highcharts.numberFormat((this.low), 1) + '% </b>'
-          }
-      },
-      "data": [
-        {
-          "name": "2003",
-          "low": 90,
-          "high": 100
-        },
-        {
-          "name": "2005",
-          "low": 90,
-          "high": 100
-        },
-        {
-          "name": "2007",
-          "low": 90,
-          "high": 100
-        },
-        {
-          "name": "2011",
-          "low": 90,
-          "high": 100
-        },
-        {
-          "name": "2015",
-          "low": 90,
-          "high": 100
-        },
-        {
-          "name": "2019",
-          "low": 90,
-          "high": 100
-        }
-      ],
-      "name": "Grün",
-      "turboThreshold": 0
+      "name": "Bewertung"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -200,19 +110,52 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              //y: -80,
+              //x: -50,
+              format: 'Zielwert: {y:,.1f}%',
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            },
+            marker: {
+              enabled: false
+            }
+          });
+
+          const chart = this,
+            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            data = chart.series[0].data,
+            assessed = chart.series[2].data;
+          data.forEach(function (element, i) {
+            if (assessed[i].y != null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7"
+                }
+              })
+            }
+          });
+        }
     },
     "renderTo": "container-9680"
   },
@@ -256,6 +199,25 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 2
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 75,

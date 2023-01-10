@@ -62,9 +62,15 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        "rotation": -90
+        "rotation": -90,
+        x: -2
       },
-      plotLines: [{
+      plotLines: [
+       /*{value: 1,
+          color: "#0091f7",
+          width: 1.5,
+        },*/
+        {
         value: 1.5,
         dashStyle: 'ShortDash',
         color: "#999999",
@@ -75,6 +81,8 @@
           y: 12,
           style: {
             color: "#999999",
+            fontWeight: "bold",
+            fontSize: 10
           }
         }
       }]

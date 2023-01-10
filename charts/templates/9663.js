@@ -25,6 +25,7 @@
               format: 'Zielwert: {y:,.1f}‰',
               style: {
                 textOutline: false,
+                color: "#999999",
               }
             },
           });

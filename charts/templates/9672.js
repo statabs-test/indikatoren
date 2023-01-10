@@ -24,6 +24,7 @@
               format: 'Zielwert {key}: {y:,.1f}%',
               style: {
                 textOutline: false,
+                color: "#999999",
               }
             },
             marker: {

@@ -16,6 +16,19 @@
             );
           }
 
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              y: 0,
+              x: -350,
+              format: 'Referenzwert: {y:,.0f} (Wert 2019)',
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            }
+          });
+
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,

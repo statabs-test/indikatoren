@@ -240,7 +240,8 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -90,
+      "x": -2
     },
     "plotLines": [
       {
@@ -253,7 +254,9 @@
           "rotation": 0,
           "y": 12,
           "style": {
-            "color": "#999999"
+            "color": "#999999",
+            "fontWeight": "bold",
+            "fontSize": 10
           }
         }
       }
