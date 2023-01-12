@@ -266,7 +266,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Lebenserwartung bei Geburt",
-		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
+		"subtitle": "in Jahren, Basel-Stadt",
 		"lesehilfe": "<b>Zielwert:</b> Stabiles Verhältnis der Lebenserwartung Basel-Stadt zur Lebenserwartung Schweiz<br><i>(Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert BS steigt/bleibt gleich und Wert BS entwickelt sich nicht schlechter als in der CH <br>Gelb: \tWert BS steigt/bleibt gleich, aber Wert BS entwickelt sich schlechter als in der CH<br>Rot: \tWert BS fällt",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [

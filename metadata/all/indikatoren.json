@@ -82044,7 +82044,7 @@
 		"orderKey": "99_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-09-21T08:15:44",
 		"id": 9663
@@ -82082,7 +82082,7 @@
 		"orderKey": "99_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-08-22T08:24:11",
 		"id": 9672
@@ -82120,7 +82120,7 @@
 		"orderKey": "99_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-01-27T08:46:05",
 		"id": 9673
@@ -82158,7 +82158,7 @@
 		"orderKey": "99_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-06-28T08:20:23",
 		"id": 9674
@@ -82196,7 +82196,7 @@
 		"orderKey": "99_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-12-23T02:24:10",
 		"id": 9675
@@ -82234,7 +82234,7 @@
 		"orderKey": "99_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-01-27T08:46:10",
 		"id": 9676
@@ -82272,7 +82272,7 @@
 		"orderKey": "99_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-08-11T08:35:38",
 		"id": 9677
@@ -82285,7 +82285,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Lebenserwartung bei Geburt",
-		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
+		"subtitle": "in Jahren, Basel-Stadt",
 		"lesehilfe": "<b>Zielwert:</b> Stabiles Verhältnis der Lebenserwartung Basel-Stadt zur Lebenserwartung Schweiz<br><i>(Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert BS steigt/bleibt gleich und Wert BS entwickelt sich nicht schlechter als in der CH <br>Gelb: \tWert BS steigt/bleibt gleich, aber Wert BS entwickelt sich schlechter als in der CH<br>Rot: \tWert BS fällt",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
@@ -82310,7 +82310,7 @@
 		"orderKey": "99_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-11-24T08:43:37",
 		"id": 9679
@@ -82348,7 +82348,7 @@
 		"orderKey": "99_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-01-22T06:01:09",
 		"id": 9680
@@ -82389,7 +82389,7 @@
 		"orderKey": "99_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-08-09T08:36:21",
 		"id": 9682
@@ -82427,7 +82427,7 @@
 		"orderKey": "99_00_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-08-15T08:12:31",
 		"id": 9684
@@ -82466,7 +82466,7 @@
 		"orderKey": "99_00_00_00_00_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-12-01T08:33:44",
 		"id": 9686
@@ -82507,7 +82507,7 @@
 		"orderKey": "99_00_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-29T08:51:26",
 		"id": 9687
@@ -82545,7 +82545,7 @@
 		"orderKey": "99_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-09-06T08:24:57",
 		"id": 9693

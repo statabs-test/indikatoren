@@ -2189,25 +2189,25 @@ id | visible | visibleInPortal | indikatorenset
 9653 | true | false | Energiestatistik (Print)
 9654 | true | false | Energiestatistik (Print)
 9655 | true | false | Energiestatistik (Print)
-9663 | true | true | RR_KPI
+9663 | true | false | RR_KPI
 9671 | false |  | Soziales
-9672 | true | true | RR_KPI
-9673 | true | true | RR_KPI
-9674 | true | true | RR_KPI
-9675 | true | true | RR_KPI
-9676 | true | true | RR_KPI
-9677 | true | true | RR_KPI
+9672 | true | false | RR_KPI
+9673 | true | false | RR_KPI
+9674 | true | false | RR_KPI
+9675 | true | false | RR_KPI
+9676 | true | false | RR_KPI
+9677 | true | false | RR_KPI
 9678 | false |  | RR_KPI
-9679 | true | true | RR_KPI
-9680 | true | true | RR_KPI
+9679 | true | false | RR_KPI
+9680 | true | false | RR_KPI
 9681 | false |  | RR_KPI
-9682 | true | true | RR_KPI
+9682 | true | false | RR_KPI
 9683 | false |  | RR_KPI
-9684 | true | true | RR_KPI
+9684 | true | false | RR_KPI
 9685 | false |  | RR_KPI
-9686 | true | true | RR_KPI
-9687 | true | true | RR_KPI
-9693 | true | true | RR_KPI
+9686 | true | false | RR_KPI
+9687 | true | false | RR_KPI
+9693 | true | false | RR_KPI
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

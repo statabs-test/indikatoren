@@ -99,6 +99,10 @@
         [
           "2021",
           -0.0623
+        ],
+        [
+          "2022",
+          -0.8126
         ]
       ],
       "name": "Veränderung Arbeitslosenquote Basel-Stadt",
@@ -203,6 +207,10 @@
         [
           "2021",
           -0.171692461
+        ],
+        [
+          "2022",
+          -0.802322434
         ]
       ],
       "name": "Veränderung Arbeitslosenquote Schweiz",
@@ -307,6 +315,10 @@
         [
           "2021",
           0
+        ],
+        [
+          "2022",
+          1
         ]
       ],
       "name": "Bewertung",
@@ -412,6 +424,10 @@
         [
           "2021",
           3.8613
+        ],
+        [
+          "2022",
+          3.0487
         ]
       ],
       "name": "Arbeitslosenquote Basel-Stadt",
@@ -517,6 +533,10 @@
         [
           "2021",
           2.968323191
+        ],
+        [
+          "2022",
+          2.166000757
         ]
       ],
       "name": "Arbeitslosenquote  Schweiz",
