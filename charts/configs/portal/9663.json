@@ -422,23 +422,23 @@
         ],
         [
           2022,
-          0
+          null
         ],
         [
           2023,
-          0
+          null
         ],
         [
           2024,
-          0
+          null
         ],
         [
           2025,
-          0
+          null
         ],
         [
           2026,
-          0
+          null
         ]
       ],
       "name": "Bewertung"
@@ -496,9 +496,20 @@
               marker: {
                 enabled: true,
                 lineWidth: 1,
-                lineColor: "#0091f7"
+                lineColor: "#0091f7",
+                radius: 3
               }
-            })
+            });
+            if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+              element.update({
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7",
+                  radius: 4.5
+                }
+              });
+            }
           }
         });
         }

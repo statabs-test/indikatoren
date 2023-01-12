@@ -78,7 +78,7 @@
       align: "left",
     },
     tooltip: {
-      valueDecimals: 2,
+      valueDecimals: 0,
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
     },
     series: [

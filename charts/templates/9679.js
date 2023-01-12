@@ -21,7 +21,7 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-            data.forEach(function (element, i) {
+          data.forEach(function (element, i) {
             if (assessed[i].y != null) {
               element.update({
                 color: colors[assessed[i].y],
@@ -61,10 +61,13 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
     },
     "series": [
-      { "color": "#0091f7" },
+      {
+        "color": "#0091f7",
+        zIndex: 2
+      },
       {
         "color": "#999999",
-        dashStyle: 'ShortDash',
+        //dashStyle: 'ShortDash',
       },
       {
         visible: false,

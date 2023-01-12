@@ -265,67 +265,67 @@
         ],
         [
           2021,
-          1
+          null
         ],
         [
           2022,
-          0
+          null
         ],
         [
           2023,
-          1
+          null
         ],
         [
           2024,
-          1
+          null
         ],
         [
           2025,
-          1
+          null
         ],
         [
           2026,
-          1
+          null
         ],
         [
           2027,
-          1
+          null
         ],
         [
           2028,
-          1
+          null
         ],
         [
           2029,
-          1
+          null
         ],
         [
           2030,
-          1
+          null
         ],
         [
           2031,
-          1
+          null
         ],
         [
           2032,
-          1
+          null
         ],
         [
           2033,
-          1
+          null
         ],
         [
           2034,
-          1
+          null
         ],
         [
           2035,
-          1
+          null
         ],
         [
           2036,
-          1
+          null
         ],
         [
           2037,
@@ -384,15 +384,26 @@
             data = chart.series[0].data,
             assessed = chart.series[2].data;
           data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
+            if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7"
+                  lineColor: "#0091f7",
+                  radius: 3
                 }
-              })
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+              }
             }
           });
         }

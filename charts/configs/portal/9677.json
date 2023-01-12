@@ -418,7 +418,6 @@
       "turboThreshold": 0
     },
     {
-      "dashStyle": "ShortDash",
       "color": "#999999",
       "type": "line",
       "legendIndex": 2,
@@ -539,8 +538,11 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
-    }
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickInterval": 1
   },
   "chart": {
     "type": "column",
@@ -581,9 +583,21 @@
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7"
+                  lineColor: "#0091f7",
+                  radius: 3
                 }
-              })
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+
+              }
             }
           });
         }

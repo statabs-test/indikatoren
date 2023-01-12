@@ -73,11 +73,12 @@
     series: [
       {
         color: "#0091f7",
-        legendIndex: 1
+        legendIndex: 1,
+        zIndex: 2
       },
       {
         color: "#999999",
-        dashStyle: 'ShortDash',
+        //dashStyle: 'ShortDash',
         legendIndex: 3
       },
       {

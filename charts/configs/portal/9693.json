@@ -3,6 +3,7 @@
     {
       "color": "#0091f7",
       "legendIndex": 1,
+      "zIndex": 2,
       "data": [
         [
           "2012",
@@ -50,7 +51,6 @@
     },
     {
       "color": "#999999",
-      "dashStyle": "ShortDash",
       "legendIndex": 3,
       "data": [
         [

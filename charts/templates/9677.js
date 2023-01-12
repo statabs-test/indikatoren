@@ -28,9 +28,21 @@
                 marker: {
                   enabled: true,
                   lineWidth: 1,
-                  lineColor: "#0091f7"
+                  lineColor: "#0091f7",
+                  radius: 3
                 }
-              })
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+
+              }
             }
           });
         }
@@ -43,6 +55,11 @@
     },
     "xAxis": {
       type: "category",
+      tickInterval: 1,
+      labels: {
+        step: 1,
+        rotation: -45
+      }
     },
     "yAxis": {
       //max: 6,
@@ -84,7 +101,7 @@
         //visible: false,
       },
       {
-        dashStyle: 'ShortDash',
+        //dashStyle: 'ShortDash',
         color: "#999999",
         type: "line",
         legendIndex: 2

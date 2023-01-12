@@ -75,7 +75,7 @@
       align: "left",
     },
     tooltip: {
-      valueDecimals: 0,
+      valueDecimals: 1,
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
     },
     "series": [
@@ -85,7 +85,7 @@
       },
       {
         type: "line",
-        dashStyle: 'ShortDash',
+        //dashStyle: 'ShortDash',
         color: "#999999",
       },
       {
