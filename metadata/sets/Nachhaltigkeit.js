@@ -990,16 +990,14 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			7782,
-			8423,
-			8910,
-			9686
+			8910
 		],
-		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2022 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2022 bei 131,4 Punkten.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"title": "Mietpreis- und Einkommensindex",
+		"subtitle": "Basel-Stadt, Indexwert (Basis 2015 = 100)",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
 		"externalLinks": [],
@@ -1007,12 +1005,12 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Mietpreisindex Basel-Stadt",
+		"description": "Mietpreis- und Einkommensindex",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
-		"kuerzel": "I.09.3.5196",
+		"kuerzel": "I.09.3.05196",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW17",
+		"kuerzelKunde": "GW16",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1022,7 +1020,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-01T08:33:44",
+		"aktualisierungsdatum": "2023-01-12T04:33:52",
 		"id": 5196
 	},
 	{
