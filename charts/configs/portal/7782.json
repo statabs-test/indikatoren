@@ -155,7 +155,7 @@
     "text": "Mietpreisindex Basel-Stadt"
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2015 = 100)",
+    "text": "Indexwert (Basis 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -223,7 +223,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -264,6 +264,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7782
+    "filename": "7782"
   }
 }
