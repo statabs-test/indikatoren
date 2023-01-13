@@ -2232,6 +2232,7 @@ id | visible | visibleInPortal | indikatorenset
 9691 | true | true | Innenstadt-QuiZ
 9693 | true | false | RR_KPI
 9734 | true | true | Nachhaltigkeit
+9737 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

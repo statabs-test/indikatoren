@@ -1,57 +1,4 @@
 {
-  "series": [
-    {
-      "color": "#007A2F",
-      "visible": true,
-      "data": [
-        [
-          2011,
-          1.2
-        ],
-        [
-          2012,
-          1.5
-        ],
-        [
-          2013,
-          1.7
-        ],
-        [
-          2014,
-          1.9
-        ],
-        [
-          2015,
-          2
-        ],
-        [
-          2016,
-          2.2
-        ],
-        [
-          2017,
-          2.3
-        ],
-        [
-          2018,
-          2.3
-        ],
-        [
-          2019,
-          2.3
-        ],
-        [
-          2020,
-          2.3
-        ],
-        [
-          2021,
-          2.3
-        ]
-      ],
-      "name": "Familienmietzinsbeiträge"
-    }
-  ],
   "chart": {
     "type": "line",
     "width": 485,
@@ -62,7 +9,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
+    "zoomType": "x",
     "panning": true,
     "panKey": "shift",
     "events": {
@@ -81,19 +28,12 @@
 					}
 				}
     },
-    "renderTo": "container-9734"
+    "renderTo": "container-9737"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },
@@ -104,7 +44,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Bevölkerungsdichte in Bauzone"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -113,7 +53,8 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
+    },
+    "useHTML": true
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -143,25 +84,36 @@
         "color": "#000000",
         "fontSize": null
       },
-      "text": null
+      "text": null,
+      "enabled": false
     },
     "labels": {
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
-    }
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.1,
+    "plotLines": [
+      {
+        "value": 100,
+        "color": "#B9CFD7",
+        "width": 2
+      }
+    ]
   },
   "legend": {
-    "enabled": false,
-    "layout": "horizontal",
+    "enabled": true,
+    "layout": "vertical",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "labelFormatter": function () {
+        return this.name.replace(' (Index)', '');
+      }
   },
   "credits": {
     "enabled": true,
@@ -176,7 +128,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -212,11 +164,27 @@
 				}, true, true);
 			}
   },
+  "series": [
+    {
+      "color": "#B00000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      }
+    },
+    {
+      "color": "#246370",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      }
+    }
+  ],
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9734"
+    "filename": "9737"
   }
 }

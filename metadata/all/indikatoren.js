@@ -83414,7 +83414,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anteil Haushalte mit Prämienverbilligungen",
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2021 Familienmietzinsbeiträge. In 17,0% der Haushalte bezieht mindestens eine Person Prämienverbilligungen. Seit dem Jahr 2015 ist der Anteil Haushalte mit Prämienverbilligungen kontinuierlich gestiegen.",
 		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
@@ -83427,7 +83427,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Haushalte mit Prämienverbilligungen",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09734",
@@ -83445,6 +83445,48 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-05-23T07:58:48",
 		"id": 9734
+	},
+	{
+		"template": "line001",
+		"data-id": 9737,
+		"chart-id": 9737,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bevölkerungsdichte in Bauzone",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"Informationen zum <a href = 'http://www.zonenplan.bs.ch/' target = '_blank'>Zonenplan Basel-Stadt</a>",
+			"Zonenpläne Basel-Stadt, Riehen und Bettingen als Karten auf <a href = 'https://map.geo.bs.ch/s/h97S' target = '_blank'>MapBS</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bevölkerungsdichte in Bauzone",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.09737",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL7",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-01-13T01:37:38",
+		"id": 9737
 	},
 	{
 		"title": "Test Daten",
