@@ -38169,6 +38169,85 @@
 		"id": 8453
 	},
 	{
+		"template": "line001",
+		"data-id": 8455,
+		"chart-id": 8455,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Tropennächte",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch/' target = '_blank'>Stadtklima BS</a>",
+			"<a href = 'https://www.nccs.admin.ch/nccs/de/home/regionen/staedte-und-gemeinden/klimawandel-in-den-staedten.html' target = '_blank'>Hitzeszenarien für Schweizer Städte (MeteoSchweiz)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Tropennächte",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.08455",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL13",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_02_00_00_00_411",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-28T08:18:44",
+		"id": 8455
+	},
+	{
+		"template": "befragungenGrundauswertung001",
+		"data-id": 8456,
+		"chart-id": 8456,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Sicherheitsgefühl nachts im Quartier",
+		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Sicherheitsgefühl nachts im Quartier",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.08456",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ3",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Friedliches Zusammenleben",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_01_00_00_00_502",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-07-17T10:19:02",
+		"id": 8456
+	},
+	{
 		"title": "Geschlechterverhältnis im Grossen Rat",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.17.3.08457",
@@ -43648,7 +43727,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerungsdichte in Bauzone",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [

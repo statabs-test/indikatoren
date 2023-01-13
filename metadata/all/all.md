@@ -1590,8 +1590,8 @@ id | visible | visibleInPortal | indikatorenset
 8452 | true | true | CMS Kennzahlen Soziales
 8453 | true | true | Nachhaltigkeit
 8454 | true | false | Nachhaltigkeit
-8455 | true | false | Nachhaltigkeit
-8456 | true | false | Nachhaltigkeit
+8455 | true | true | Nachhaltigkeit
+8456 | true | true | Nachhaltigkeit
 8457 | true | true | Nachhaltigkeit
 8458 | true | true | Nachhaltigkeit
 8459 | true | true | Nachhaltigkeit
