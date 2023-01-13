@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#8b2223",
       "data": [
         [
           2010,
@@ -57,6 +57,64 @@
         ]
       ],
       "name": "Mietpreisindex"
+    },
+    {
+      "color": "#CD9C00",
+      "data": [
+        [
+          2010,
+          97.8
+        ],
+        [
+          2011,
+          98.4
+        ],
+        [
+          2012,
+          98.5
+        ],
+        [
+          2013,
+          99.3
+        ],
+        [
+          2014,
+          99.8
+        ],
+        [
+          2015,
+          100
+        ],
+        [
+          2016,
+          100.4
+        ],
+        [
+          2017,
+          100.8
+        ],
+        [
+          2018,
+          101.1
+        ],
+        [
+          2019,
+          101.5
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ]
+      ],
+      "name": "Index Median Einkommen"
     }
   ],
   "chart": {
@@ -131,17 +189,10 @@
         "textOverflow": "none"
       }
     },
-    "tickPositioner": function () {
-      var interval = 3,
-        ext = this.getExtremes(),
-        i = ext.dataMax,
-        pos = [i];
-      while (i >= ext.dataMin) pos.unshift(i = i - interval);
-      return pos;
-    }
+    "tickInterval": 3
   },
   "yAxis": {
-    "min": 50,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -160,10 +211,10 @@
     }
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -219,8 +270,8 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "valueDecimals": 1,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "5196"

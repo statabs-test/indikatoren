@@ -1,132 +1,62 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#007A2F",
+      "visible": true,
       "data": [
         [
-          1995,
-          97.2
-        ],
-        [
-          1996,
-          99
-        ],
-        [
-          1997,
-          98.8
-        ],
-        [
-          1998,
-          99
-        ],
-        [
-          1999,
-          99.5
-        ],
-        [
-          2000,
-          101.2
-        ],
-        [
-          2001,
-          102.9
-        ],
-        [
-          2002,
-          103.8
-        ],
-        [
-          2003,
-          104.3
-        ],
-        [
-          2004,
-          105.3
-        ],
-        [
-          2005,
-          106.3
-        ],
-        [
-          2006,
-          107.6
-        ],
-        [
-          2007,
-          110.1
-        ],
-        [
-          2008,
-          112.6
-        ],
-        [
-          2009,
-          114.7
-        ],
-        [
-          2010,
-          115.8
-        ],
-        [
           2011,
-          117
+          14.1
         ],
         [
           2012,
-          117.5
+          14.2
         ],
         [
           2013,
-          118.8
+          14.2
         ],
         [
           2014,
-          119.5
+          14.2
         ],
         [
           2015,
-          120.9
+          14
         ],
         [
           2016,
-          122.8
+          14.5
         ],
         [
           2017,
-          124.3
+          14.7
         ],
         [
           2018,
-          125.7
+          15
         ],
         [
           2019,
-          127.4
+          16.4
         ],
         [
           2020,
-          128.8
+          16.8
         ],
         [
           2021,
-          129.8
-        ],
-        [
-          2022,
-          131.4
+          17
         ]
       ],
-      "name": "Index"
-    },
-    {
-      "color": "#CD9C00"
+      "name": "Prämienverbilligungen"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -151,12 +81,19 @@
 					}
 				}
     },
-    "renderTo": "container-7782"
+    "renderTo": "container-9734"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -167,10 +104,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mietpreisindex Basel-Stadt"
+    "text": "Anteil Haushalte mit Prämienverbilligungen"
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2000 = 100)",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -194,10 +131,10 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 3
+    "tickInterval": 1
   },
   "yAxis": {
-    "min": null,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -212,18 +149,19 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -236,9 +174,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -275,10 +213,10 @@
 			}
   },
   "tooltip": {
-    "valueDecimals": 1,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "7782"
+    "filename": "9734"
   }
 }

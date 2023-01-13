@@ -5,57 +5,6 @@
       "data": [
         [
           2011,
-          1.2
-        ],
-        [
-          2012,
-          1.5
-        ],
-        [
-          2013,
-          1.7
-        ],
-        [
-          2014,
-          1.9
-        ],
-        [
-          2015,
-          2
-        ],
-        [
-          2016,
-          2.2
-        ],
-        [
-          2017,
-          2.3
-        ],
-        [
-          2018,
-          2.3
-        ],
-        [
-          2019,
-          2.3
-        ],
-        [
-          2020,
-          2.3
-        ],
-        [
-          2021,
-          2.3
-        ]
-      ],
-      "name": "Familienmietzinsbeiträge"
-    },
-    {
-      "color": "#007A2F",
-      "visible": true,
-      "data": [
-        [
-          2011,
           14.1
         ],
         [
@@ -154,7 +103,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen"
+    "text": "Anteil Haushalte mit Prämienverbilligungen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -203,7 +152,7 @@
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
