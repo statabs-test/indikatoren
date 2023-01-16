@@ -83449,6 +83449,47 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 9736,
+		"chart-id": 9736,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Energieeffizienz",
+		"subtitle": "Indexwert (Basis 2000 = 100)",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung. Skalierung des Bruttoenergieverbrauchs über das BIP sowie die Bevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"<a href = 'Energieeffizienz Schweiz (BFS)' target = '_blank'><a href=https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html target=_blank rel=nofollow>https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Energieeffizienz",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09736",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2022-12-19T10:37:46",
+		"id": 9736
+	},
+	{
+		"template": "line001",
 		"data-id": 9737,
 		"chart-id": 9737,
 		"filter": "",

@@ -1,190 +1,84 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
-      "index": 0,
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 1,
+      "color": "#B00000",
       "data": [
         [
           2000,
-          51847
-        ],
-        [
-          2001,
-          52524
-        ],
-        [
-          2002,
-          54286
-        ],
-        [
-          2003,
-          55353
+          100
         ],
         [
           2004,
-          56419
-        ],
-        [
-          2005,
-          57040
-        ],
-        [
-          2006,
-          58342
-        ],
-        [
-          2007,
-          58673
-        ],
-        [
-          2008,
-          60046
-        ],
-        [
-          2009,
-          61677
+          117.538313
         ],
         [
           2010,
-          62132
-        ],
-        [
-          2011,
-          64095
+          156.12637311
         ],
         [
           2012,
-          65527
-        ],
-        [
-          2013,
-          67552
+          173.34399143
         ],
         [
           2014,
-          68779
-        ],
-        [
-          2015,
-          69587
+          193.53542938
         ],
         [
           2016,
-          70808
-        ],
-        [
-          2017,
-          71610
+          210.21355339
         ],
         [
           2018,
-          72931
+          241.4302897
         ],
         [
-          2019,
-          73315
+          2020,
+          242.05492497
         ]
       ],
-      "name": "Ausländer"
+      "name": "Energieeffizienz (BIP\u002FBruttoverbrauch)"
     },
     {
-      "color": "#b00000",
-      "index": 1,
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 0,
+      "color": "#246370",
       "data": [
         [
           2000,
-          136304
-        ],
-        [
-          2001,
-          134912
-        ],
-        [
-          2002,
-          133799
-        ],
-        [
-          2003,
-          132726
+          100
         ],
         [
           2004,
-          132059
-        ],
-        [
-          2005,
-          130423
-        ],
-        [
-          2006,
-          129026
-        ],
-        [
-          2007,
-          129011
-        ],
-        [
-          2008,
-          129228
-        ],
-        [
-          2009,
-          128368
+          99.984562135
         ],
         [
           2010,
-          128201
-        ],
-        [
-          2011,
-          127981
+          88.867633654
         ],
         [
           2012,
-          127932
-        ],
-        [
-          2013,
-          127907
+          82.172759297
         ],
         [
           2014,
-          127692
-        ],
-        [
-          2015,
-          127617
+          74.220031571
         ],
         [
           2016,
-          127398
-        ],
-        [
-          2017,
-          127378
+          73.695521947
         ],
         [
           2018,
-          127325
+          68.804269165
         ],
         [
-          2019,
-          127092
+          2020,
+          64.940785215
         ]
       ],
-      "name": "Schweizer"
+      "name": "kWh pro Kopf"
     }
   ],
   "chart": {
-    "type": "area",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -212,18 +106,13 @@
 					}
 				}
     },
-    "marginRight": 25,
-    "renderTo": "container-6058"
+    "renderTo": "container-9736"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
       }
-    },
-    "area": {
-      "stacking": "normal",
-      "lineWidth": 0
     }
   },
   "title": {
@@ -233,10 +122,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bevölkerung nach Staatsangehörigkeit"
+    "text": "Energieeffizienz"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Indexwert (Basis 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -259,18 +148,10 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickPositioner": function () {
-      var interval = 2,
-        ext = this.getExtremes(),
-        i = ext.dataMax,
-        pos = [i];
-      while (i >= ext.dataMin) pos.unshift(i = i - interval);
-      return pos;
     }
   },
   "yAxis": {
-    "min": 0,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -296,9 +177,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemWidth": 120,
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -313,7 +192,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -350,11 +229,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
+    "valueDecimals": 1,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "6058"
+    "filename": "9736"
   }
 }
