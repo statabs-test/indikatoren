@@ -966,85 +966,81 @@ var indikatorensetData = [
 		"id": 8068
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8639"
-		],
 		"template": "line001",
-		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.03.2.07688",
-		"kuerzelKunde": "3.01",
-		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-04-26T09:04:27.2727",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 4 089 im Wohnviertel Klybeck und 7 468 im Wohnviertel Kleinhüningen. Anteilsmässig sind dies 2,2% bzw. 4,0%. Insgesamt entfallen somit 6,2% der Beschäftigung der Stadt Basel auf den Stadtteil Klybeck-Kleinhüningen.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8069,
 		"chart-id": 8069,
 		"filter": "",
-		"id": 8069
-	},
-	{
 		"parentId": null,
 		"children": [
-			"8640"
+			8639
 		],
-		"template": "line001",
-		"title": "Beschäftigung nach ausgewählten Branchen",
+		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.03.2.07689",
-		"kuerzelKunde": "3.03",
-		"description": "Beschäftigung nach ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Im Jahr 2020 sind in der Stadt Basel 183 626 Beschäftigte tätig. Davon arbeiten 3 991 im Wohnviertel Klybeck und 6 906 im Wohnviertel Kleinhüningen. Anteilsmässig sind dies 2,2% bzw. 3,8%. Insgesamt entfallen 5,9% der Beschäftigung der Stadt Basel auf den Stadtteil Klybeck-Kleinhüningen.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:27.2727",
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07688",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.01",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 290 Beschäftigten im Jahr 2018. Davon entfallen 2 115 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Gastronomie (1 069) Schifffahrt und Luftfahrt (994), Chemie (632) und Landverkehr (600).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-04-26T09:04:27",
+		"id": 8069
+	},
+	{
+		"template": "line001",
 		"data-id": 8070,
 		"chart-id": 8070,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8640
+		],
+		"title": "Beschäftigung nach ausgewählten Branchen",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 052 Beschäftigten im Jahr 2020. Davon entfallen 1 857 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Schifffahrt und Luftfahrt (1 012), Landverkehr (595) sowie Architektur- und Ingenieurbüros (544).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07689",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.03",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-04-26T09:04:27",
 		"id": 8070
 	},
 	{
@@ -1099,8 +1095,8 @@ var indikatorensetData = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 64,4%, im Wohnviertel Kleinhüningen bei 61,7%. Zum Vergleich: Die Quote für die Stadt Basel betrug 73,0%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2016 bis 2020 bei 64,5%, im Wohnviertel Kleinhüningen bei 58,3%. Zum Vergleich: Die Quote für die Stadt Basel betrug 72,8%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"

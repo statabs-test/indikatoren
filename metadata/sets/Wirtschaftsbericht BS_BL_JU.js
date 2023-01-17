@@ -1,84 +1,80 @@
 var indikatorensetData = [
 	{
-		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-1",
-		"description": "Bruttoinlandprodukt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:21.2121",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.1 Bruttoinlandprodukt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8467"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8350,
 		"chart-id": 8350,
 		"filter": "",
-		"id": 8350
-	},
-	{
-		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-2",
-		"description": "Bruttoinlandprodukt pro Kopf",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"parentId": null,
+		"children": [
+			8467
+		],
+		"title": "Bruttoinlandprodukt",
+		"subtitle": "total in Mrd. Franken, 2018",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:22.2222",
+		"description": "Bruttoinlandprodukt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1-1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit fast 191 000 Franken pro Kopf im Jahr 2018 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 73 000 Franken, Jura auf rund 64 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei ca. 81 000 Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
-		"template": "template001",
+		"orderKey": "01_01_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8468"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-07-07T09:09:21",
+		"id": 8350
+	},
+	{
+		"template": "template001",
 		"data-id": 8351,
 		"chart-id": 8351,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8468
+		],
+		"title": "Bruttoinlandprodukt pro Kopf",
+		"subtitle": "in Franken, 2018",
+		"lesehilfe": "Mit fast 191 000 Franken pro Kopf im Jahr 2018 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 73 000 Franken, Jura auf rund 64 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei ca. 81 000 Franken.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bruttoinlandprodukt pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1-2",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-07-07T09:09:22",
 		"id": 8351
 	},
 	{
@@ -483,44 +479,42 @@ var indikatorensetData = [
 		"id": 8361
 	},
 	{
+		"template": "template001",
+		"data-id": 8362,
+		"chart-id": 8362,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8479
+		],
 		"title": "Grenzgänger",
 		"subtitle": "2019, 4. Quartal",
-		"kuerzel": "",
-		"kuerzelKunde": "2.1-5",
-		"description": "Grenzgänger",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2019 beträgt rund 33 900. In Basel-Landschaft sind es 22 300, im Jura 8 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 328 900.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:26.2626",
+		"description": "Grenzgänger",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-5",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2019 beträgt rund 33 900. In Basel-Landschaft sind es 22 300, im Jura 8 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 328 900.",
-		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8479"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8362,
-		"chart-id": 8362,
-		"filter": "",
+		"aktualisierungsdatum": "2020-07-07T09:09:26",
 		"id": 8362
 	},
 	{
@@ -689,9 +683,9 @@ var indikatorensetData = [
 			8484
 		],
 		"title": "Arbeitspendler",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2015 bis 2019 ist für Basel-Stadt (+72 500) und Jura (+5 100) positiv, für Basel-Landschaft (-3 600) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 000 mehr Zu- als Wegpendler.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2016 bis 2020 ist für Basel-Stadt (+70 900) und Jura (+5 500) positiv, für Basel-Landschaft (-1 900) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 500 mehr Zu- als Wegpendler.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1365,8 +1359,8 @@ var indikatorensetData = [
 			8501
 		],
 		"title": "Veränderung der Beschäftigtenzahl",
-		"subtitle": "2019 gegenüber 2014",
-		"lesehilfe": "Zwischen 2014 und 2019 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 2,3% gewachsen und damit weniger stark als in der Gesamtschweiz (+5,4%). Das Beschäftigungswachstum liegt im Jura (6,4%) über dem Schweizer Wert, in Basel-Landschaft (2,3%) und Basel-Stadt (0,7%) hingegen darunter.",
+		"subtitle": "2020 gegenüber 2014",
+		"lesehilfe": "Zwischen 2014 und 2020 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 1,1% gewachsen und damit weniger stark als in der Gesamtschweiz (+4,8%). Das Beschäftigungswachstum liegt im Jura (+4,4%), in Basel-Landschaft (+3,2%) und in Basel-Stadt (-1,2%) unter dem Schweizer Wert.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1529,12 +1523,13 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8505
+			8505,
+			9682
 		],
 		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2018 im Jura mit 91,9% am höchsten. Die Baselbieter Quote lag mit 90,0% leicht unter dem Schweizer Schnitt von 90,4%. Den tiefsten Wert wies mit 85,3% der Kanton Basel-Stadt auf. Generell liegen die Quoten 2018 etwas tiefer als 2017.",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt:\n• berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG);\n• Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2019 im Jura mit 90,8% am höchsten und entsprach damit nahezu dem Schweizer Schnitt von 90,9%. Die Baselbieter Quote lag mit 89,7% nur unwesentlich darunter. Den tiefsten Wert aller Kantone wies mit 85,0% der Kanton Basel-Stadt auf.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -1549,7 +1544,7 @@ var indikatorensetData = [
 		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
-		"kuerzel": "I.15.7.08445",
+		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "2.2-3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -1693,8 +1688,8 @@ var indikatorensetData = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2020, 4. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 20 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2021, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 21 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2019). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",

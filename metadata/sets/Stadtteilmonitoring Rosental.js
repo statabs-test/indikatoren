@@ -949,44 +949,42 @@ var indikatorensetData = [
 		"id": 7687
 	},
 	{
+		"template": "line001",
+		"data-id": 7688,
+		"chart-id": 7688,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7926
+		],
 		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.03.2.07688",
-		"kuerzelKunde": "3.01",
-		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Jahr 2020 sind in der Stadt Basel 183 626 Beschäftigte tätig. Davon arbeiten 3 893 im Bezirk Messe und 1 119 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,6%. Insgesamt entfallen somit 2,7% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-10-23T18:46:09.099",
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07688",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.01",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 3 725 im Bezirk Messe und 1 421 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,0% bzw. 0,8%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7926"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7688,
-		"chart-id": 7688,
-		"filter": "",
+		"aktualisierungsdatum": "2020-10-23T06:46:09",
 		"id": 7688
 	},
 	{
@@ -1082,8 +1080,8 @@ var indikatorensetData = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 72,0%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 73,0%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2016 bis 2020 bei 70,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 72,8%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"

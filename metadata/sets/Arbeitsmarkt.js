@@ -1536,7 +1536,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 192 450 Beschäftigten im Jahr 2019 entsprechen umgerechnet 152 463 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
+		"lesehilfe": "Die 188 778 Beschäftigten im Jahr 2020 entsprechen umgerechnet 148 633 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 86%, bei den Frauen bei 70%.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1551,7 +1551,7 @@ var indikatorensetData = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6455",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-04",
+		"kuerzelKunde": "3.2.4",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",

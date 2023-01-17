@@ -24725,7 +24725,7 @@ var indikatoren = [
 		],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 192 450 Beschäftigten im Jahr 2019 entsprechen umgerechnet 152 463 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
+		"lesehilfe": "Die 188 778 Beschäftigten im Jahr 2020 entsprechen umgerechnet 148 633 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 86%, bei den Frauen bei 70%.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -24740,7 +24740,7 @@ var indikatoren = [
 		"unterthema": "Beschäftigte",
 		"kuerzel": "I.03.2.6455",
 		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzelKunde": "3.2-04",
+		"kuerzelKunde": "3.2.4",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
@@ -44186,45 +44186,43 @@ var indikatoren = [
 		"id": 7687
 	},
 	{
+		"template": "line001",
+		"data-id": 7688,
+		"chart-id": 7688,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7926
+		],
 		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.03.2.07688",
-		"kuerzelKunde": "3.01",
-		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Jahr 2020 sind in der Stadt Basel 183 626 Beschäftigte tätig. Davon arbeiten 3 893 im Bezirk Messe und 1 119 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,6%. Insgesamt entfallen somit 2,7% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-10-23T18:46:09.099",
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07688",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.01",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 3 725 im Bezirk Messe und 1 421 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,0% bzw. 0,8%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7926"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7688,
-		"chart-id": 7688,
-		"filter": "",
+		"aktualisierungsdatum": "2020-10-23T06:46:09",
 		"id": 7688
 	},
 	{
@@ -44322,8 +44320,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 72,0%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 73,0%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2016 bis 2020 bei 70,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 72,8%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -50962,87 +50960,83 @@ var indikatoren = [
 		"id": 8068
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8639"
-		],
 		"template": "line001",
-		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.03.2.07688",
-		"kuerzelKunde": "3.01",
-		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-04-26T09:04:27.2727",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 4 089 im Wohnviertel Klybeck und 7 468 im Wohnviertel Kleinhüningen. Anteilsmässig sind dies 2,2% bzw. 4,0%. Insgesamt entfallen somit 6,2% der Beschäftigung der Stadt Basel auf den Stadtteil Klybeck-Kleinhüningen.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8069,
 		"chart-id": 8069,
 		"filter": "",
-		"id": 8069
-	},
-	{
 		"parentId": null,
 		"children": [
-			"8640"
+			8639
 		],
-		"template": "line001",
-		"title": "Beschäftigung nach ausgewählten Branchen",
+		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.03.2.07689",
-		"kuerzelKunde": "3.03",
-		"description": "Beschäftigung nach ausgewählten Branchen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"lesehilfe": "Im Jahr 2020 sind in der Stadt Basel 183 626 Beschäftigte tätig. Davon arbeiten 3 991 im Wohnviertel Klybeck und 6 906 im Wohnviertel Kleinhüningen. Anteilsmässig sind dies 2,2% bzw. 3,8%. Insgesamt entfallen 5,9% der Beschäftigung der Stadt Basel auf den Stadtteil Klybeck-Kleinhüningen.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:27.2727",
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07688",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.01",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 290 Beschäftigten im Jahr 2018. Davon entfallen 2 115 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Gastronomie (1 069) Schifffahrt und Luftfahrt (994), Chemie (632) und Landverkehr (600).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"orderKey": "03_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-04-26T09:04:27",
+		"id": 8069
+	},
+	{
+		"template": "line001",
 		"data-id": 8070,
 		"chart-id": 8070,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8640
+		],
+		"title": "Beschäftigung nach ausgewählten Branchen",
+		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Am beschäftigungsstärksten ist im Stadtteil Klybeck-Kleinhüningen die Branche Sonstige wirtschaftliche Dienstleistungen mit 2 052 Beschäftigten im Jahr 2020. Davon entfallen 1 857 Beschäftigte auf den Wirtschaftszweig «Gebäudebetreuung; Garten- und Landschaftsbau». Es folgen die Branchen Schifffahrt und Luftfahrt (1 012), Landverkehr (595) sowie Architektur- und Ingenieurbüros (544).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07689",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.03",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-04-26T09:04:27",
 		"id": 8070
 	},
 	{
@@ -51098,8 +51092,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 64,4%, im Wohnviertel Kleinhüningen bei 61,7%. Zum Vergleich: Die Quote für die Stadt Basel betrug 73,0%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2016 bis 2020 bei 64,5%, im Wohnviertel Kleinhüningen bei 58,3%. Zum Vergleich: Die Quote für die Stadt Basel betrug 72,8%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -55920,87 +55914,83 @@ var indikatoren = [
 		"id": 8348
 	},
 	{
-		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-1",
-		"description": "Bruttoinlandprodukt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:21.2121",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.1 Bruttoinlandprodukt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8467"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8350,
 		"chart-id": 8350,
 		"filter": "",
-		"id": 8350
-	},
-	{
-		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1-2",
-		"description": "Bruttoinlandprodukt pro Kopf",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"parentId": null,
+		"children": [
+			8467
+		],
+		"title": "Bruttoinlandprodukt",
+		"subtitle": "total in Mrd. Franken, 2018",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:22.2222",
+		"description": "Bruttoinlandprodukt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1-1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.1 Bruttoinlandprodukt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit fast 191 000 Franken pro Kopf im Jahr 2018 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 73 000 Franken, Jura auf rund 64 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei ca. 81 000 Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
-		"template": "template001",
+		"orderKey": "01_01_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8468"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2020-07-07T09:09:21",
+		"id": 8350
+	},
+	{
+		"template": "template001",
 		"data-id": 8351,
 		"chart-id": 8351,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8468
+		],
+		"title": "Bruttoinlandprodukt pro Kopf",
+		"subtitle": "in Franken, 2018",
+		"lesehilfe": "Mit fast 191 000 Franken pro Kopf im Jahr 2018 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 73 000 Franken, Jura auf rund 64 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei ca. 81 000 Franken.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bruttoinlandprodukt pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.1-2",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.1 Bruttoinlandprodukt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2020-07-07T09:09:22",
 		"id": 8351
 	},
 	{
@@ -56415,45 +56405,43 @@ var indikatoren = [
 		"id": 8361
 	},
 	{
+		"template": "template001",
+		"data-id": 8362,
+		"chart-id": 8362,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8479
+		],
 		"title": "Grenzgänger",
 		"subtitle": "2019, 4. Quartal",
-		"kuerzel": "",
-		"kuerzelKunde": "2.1-5",
-		"description": "Grenzgänger",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2019 beträgt rund 33 900. In Basel-Landschaft sind es 22 300, im Jura 8 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 328 900.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:26.2626",
+		"description": "Grenzgänger",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-5",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2019 beträgt rund 33 900. In Basel-Landschaft sind es 22 300, im Jura 8 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 328 900.",
-		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8479"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8362,
-		"chart-id": 8362,
-		"filter": "",
+		"aktualisierungsdatum": "2020-07-07T09:09:26",
 		"id": 8362
 	},
 	{
@@ -56626,9 +56614,9 @@ var indikatoren = [
 			8484
 		],
 		"title": "Arbeitspendler",
-		"subtitle": "Pooling 2015-2019",
-		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2015 bis 2019 ist für Basel-Stadt (+72 500) und Jura (+5 100) positiv, für Basel-Landschaft (-3 600) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 000 mehr Zu- als Wegpendler.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"subtitle": "Pooling 2016-2020",
+		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2016 bis 2020 ist für Basel-Stadt (+70 900) und Jura (+5 500) positiv, für Basel-Landschaft (-1 900) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 500 mehr Zu- als Wegpendler.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2016 bis 2020, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -59167,8 +59155,8 @@ var indikatoren = [
 			8501
 		],
 		"title": "Veränderung der Beschäftigtenzahl",
-		"subtitle": "2019 gegenüber 2014",
-		"lesehilfe": "Zwischen 2014 und 2019 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 2,3% gewachsen und damit weniger stark als in der Gesamtschweiz (+5,4%). Das Beschäftigungswachstum liegt im Jura (6,4%) über dem Schweizer Wert, in Basel-Landschaft (2,3%) und Basel-Stadt (0,7%) hingegen darunter.",
+		"subtitle": "2020 gegenüber 2014",
+		"lesehilfe": "Zwischen 2014 und 2020 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 1,1% gewachsen und damit weniger stark als in der Gesamtschweiz (+4,8%). Das Beschäftigungswachstum liegt im Jura (+4,4%), in Basel-Landschaft (+3,2%) und in Basel-Stadt (-1,2%) unter dem Schweizer Wert.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -59335,12 +59323,13 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8505
+			8505,
+			9682
 		],
 		"title": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2018 im Jura mit 91,9% am höchsten. Die Baselbieter Quote lag mit 90,0% leicht unter dem Schweizer Schnitt von 90,4%. Den tiefsten Wert wies mit 85,3% der Kanton Basel-Stadt auf. Generell liegen die Quoten 2018 etwas tiefer als 2017.",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt:\n• berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG);\n• Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2019 im Jura mit 90,8% am höchsten und entsprach damit nahezu dem Schweizer Schnitt von 90,9%. Die Baselbieter Quote lag mit 89,7% nur unwesentlich darunter. Den tiefsten Wert aller Kantone wies mit 85,0% der Kanton Basel-Stadt auf.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -59355,7 +59344,7 @@ var indikatoren = [
 		"description": "Entwicklung Abschlussquote der Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
-		"kuerzel": "I.15.7.08445",
+		"kuerzel": "",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "2.2-3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -59664,7 +59653,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
+		"lesehilfe": "Das Verkehrsaufkommen lag 2021 - abgesehen vom Velovekehr - erneut deutlich unter dem Niveau von vor der Pandemie. Ausser bei den Fussgängern (-1,0 Indexpunkte) war aber im Vergleich zum Jahr 2020 eine leichte Zunahme zu beobachten. Während dieser Effekt beim ÖV mit 0,6 Indexpunkten gering ausfällt, ist er beim motorisierten Individualverkehr mit 5,2 Indexpunkten etwas ausgeprägter.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -59690,7 +59679,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:22",
+		"aktualisierungsdatum": "2022-09-19T08:39:39",
 		"id": 8454
 	},
 	{
@@ -67810,8 +67799,8 @@ var indikatoren = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2020, 4. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 20 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2021, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 21 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2019). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
