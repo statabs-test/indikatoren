@@ -2,7 +2,7 @@
   return {
     yAxis: [{
       labels: {
-        format: "{value:,.f}",
+        format: "{value:,.1f}‰",
         style: {
           color: "#000000"
         }
@@ -44,7 +44,7 @@
         },
         color: "#008AC3",
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
         },
       },
       {
@@ -55,7 +55,7 @@
         color: "#008AC3",
         dashStyle: 'ShortDash',
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
         },
         //"yAxis": 1
       },
@@ -67,7 +67,7 @@
         color: "black",
         dashStyle: 'ShortDot',
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
         },
         //"yAxis": 0
       }
@@ -77,11 +77,13 @@
       enabled: true,
       //"x": 25,
       //"y": 55,
-      //"itemWidth": 150,
+      //itemWidth: 170,
       layout: "horizontal",
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
+      alignColumns: false,
+      itemDistance: 10,
       itemStyle: {
         fontWeight: "normal"
       }
