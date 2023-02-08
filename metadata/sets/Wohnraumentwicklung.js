@@ -325,7 +325,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2022 bei 1 169 Einheiten; dies vor allem dank  rekordhoher Neubauproduktion und Umbautätigkeit.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
