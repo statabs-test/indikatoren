@@ -122,11 +122,11 @@
         "symbol": "circle",
         "enabled": false
       },
-      "color": "#68AB2B",
+      "color": "#008AC3",
+      "dashStyle": "ShortDash",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
-      "yAxis": 1,
       "data": [
         [
           2001,
@@ -233,7 +233,125 @@
           1.3
         ]
       ],
-      "name": "Budget & Planjahre"
+      "name": "Planjahre (Budgetbericht)"
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#black",
+      "dashStyle": "ShortDash",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          7.5
+        ],
+        [
+          2006,
+          7.5
+        ],
+        [
+          2007,
+          7.5
+        ],
+        [
+          2008,
+          7.5
+        ],
+        [
+          2009,
+          7.5
+        ],
+        [
+          2010,
+          6.5
+        ],
+        [
+          2011,
+          6.5
+        ],
+        [
+          2012,
+          6.5
+        ],
+        [
+          2013,
+          6.5
+        ],
+        [
+          2014,
+          6.5
+        ],
+        [
+          2015,
+          6.5
+        ],
+        [
+          2016,
+          6.5
+        ],
+        [
+          2017,
+          6.5
+        ],
+        [
+          2018,
+          6.5
+        ],
+        [
+          2019,
+          6.5
+        ],
+        [
+          2020,
+          6.5
+        ],
+        [
+          2021,
+          6.5
+        ],
+        [
+          2022,
+          6.5
+        ],
+        [
+          2023,
+          6.5
+        ],
+        [
+          2024,
+          6.5
+        ],
+        [
+          2025,
+          6.5
+        ],
+        [
+          2026,
+          6.5
+        ]
+      ],
+      "name": "Grenzwert"
     }
   ],
   "chart": {
@@ -281,7 +399,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettoschuldenquote und Nettoschulden pro Kopf"
+    "text": "Nettoschuldenquote"
   },
   "subtitle": {
     "text": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
@@ -322,26 +440,6 @@
       "max": 10,
       "tickAmount": 6,
       "title": ""
-    },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": -6000,
-      "max": 24000,
-      "tickAmount": 6,
-      "gridLineWidth": 0,
-      "opposite": true
     }
   ],
   "legend": {
