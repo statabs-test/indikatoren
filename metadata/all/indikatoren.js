@@ -83481,7 +83481,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Medianlohn in der Branche Sport und Erholung",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Im Jahr 2020 lag der Medianlohn in der Branche Sport und Erholung in der Nordwestschweiz bei 5 600 Franken brutto und damit etwas höher als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -83509,6 +83509,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-02-14T04:06:35",
 		"id": 9753
+	},
+	{
+		"template": "template001",
+		"data-id": 9754,
+		"chart-id": 9754,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beschäftigung in der Branche Gärtnereien",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In der Branche Gebäudebetreuung; Garten- und Landschaftsbau (NOGA 81) sind in Basel-Stadt im Jahr 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 3100 Beschäftigte tätig. Diese Beschäftigten teilen sich auf die Bereiche Reinigung von Gebäuden, Strassen und Verkehrsmitteln (2400 VZÄ), Hausmeisterdienste (500 VZÄ) sowie Garten- und Landschaftsbau und sonstige gärtnerische Dienstleistungen (200 VZÄ) auf. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 3,2% zurückgegangen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Gärtnereien",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09754",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-02-14T04:08:30",
+		"id": 9754
 	},
 	{
 		"title": "Test Daten",
