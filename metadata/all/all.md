@@ -2233,6 +2233,8 @@ id | visible | visibleInPortal | indikatorenset
 9693 | true | false | RR_KPI
 9750 | true | true | Arbeitsmarkt
 9751 | true | true | Arbeitsmarkt
+9752 | true | true | Arbeitsmarkt
+9753 | true | true | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
