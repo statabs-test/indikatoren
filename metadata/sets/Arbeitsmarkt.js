@@ -4230,5 +4230,80 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-03-29T08:27:38",
 		"id": 9493
+	},
+	{
+		"template": "template001",
+		"data-id": 9750,
+		"chart-id": 9750,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beschäftigung in der Branche Sport und Erholung",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "In der Branche Sport und Erholung (NOGA 93) sind in Basel-Stadt im Jahr 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 650 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Sportvereine (280 VZÄ), Fitnesszentren (210 VZÄ) und Betrieb von Sportanlagen (120 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 8,8% zurückgegangen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Sport und Erholung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09750",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-02-14T04:02:45",
+		"id": 9750
+	},
+	{
+		"template": "line001",
+		"data-id": 9751,
+		"chart-id": 9751,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Sport und Erholung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Arbeitslosen in der Nahrungsmittelindustrie hat im Vergleich zum Vorjahr abgenommen und liegt im Dezember 2021 bei 53. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 7,3%.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Sport und Erholung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.09751",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-02-14T04:04:26",
+		"id": 9751
 	}
 ];
