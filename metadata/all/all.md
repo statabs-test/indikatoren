@@ -2236,6 +2236,9 @@ id | visible | visibleInPortal | indikatorenset
 9752 | true | true | Arbeitsmarkt
 9753 | true | true | Arbeitsmarkt
 9754 | true | true | Arbeitsmarkt
+9755 | true | true | Arbeitsmarkt
+9756 | true | true | Arbeitsmarkt
+9757 | true | true | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
