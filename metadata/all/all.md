@@ -1139,10 +1139,10 @@ id | visible | visibleInPortal | indikatorenset
 7495 | false |  | Arbeitsmarkt (Print)
 7496 | false |  | Arbeitsmarkt (Print)
 7497 | false |  | Arbeitsmarkt (Print)
-7498 | true | false | Arbeitsmarkt (Print)
-7499 | true | false | Arbeitsmarkt (Print)
-7500 | true | false | Arbeitsmarkt (Print)
-7501 | true | false | Arbeitsmarkt (Print)
+7498 | false |  | Arbeitsmarkt (Print)
+7499 | false |  | Arbeitsmarkt (Print)
+7500 | false |  | Arbeitsmarkt (Print)
+7501 | false |  | Arbeitsmarkt (Print)
 7502 | false |  | Arbeitsmarkt (Print)
 7503 | false |  | Arbeitsmarkt (Print)
 7504 | false |  | Arbeitsmarkt (Print)
@@ -1781,10 +1781,10 @@ id | visible | visibleInPortal | indikatorenset
 8694 | false |  | Arbeitsmarkt
 8695 | false |  | Arbeitsmarkt
 8696 | false |  | Arbeitsmarkt
-8698 | true | false | Arbeitsmarkt (Print)
-8699 | true | false | Arbeitsmarkt (Print)
-8700 | true | false | Arbeitsmarkt (Print)
-8701 | true | false | Arbeitsmarkt (Print)
+8698 | false |  | Arbeitsmarkt (Print)
+8699 | false |  | Arbeitsmarkt (Print)
+8700 | false |  | Arbeitsmarkt (Print)
+8701 | false |  | Arbeitsmarkt (Print)
 8702 | true | false | Arbeitsmarkt (Print)
 8703 | true | false | Arbeitsmarkt (Print)
 8704 | false |  | Arbeitsmarkt (Print)
@@ -2154,10 +2154,10 @@ id | visible | visibleInPortal | indikatorenset
 9492 | false |  | Arbeitsmarkt
 9493 | false |  | Arbeitsmarkt
 9507 | true | true | Umwelt
-9508 | true | false | Arbeitsmarkt (Print)
-9509 | true | false | Arbeitsmarkt (Print)
-9510 | true | false | Arbeitsmarkt (Print)
-9511 | true | false | Arbeitsmarkt (Print)
+9508 | false |  | Arbeitsmarkt (Print)
+9509 | false |  | Arbeitsmarkt (Print)
+9510 | false |  | Arbeitsmarkt (Print)
+9511 | false |  | Arbeitsmarkt (Print)
 9575 | true | true | Innenstadt-QuiZ
 9576 | true | true | Innenstadt-QuiZ
 9577 | true | true | Innenstadt-QuiZ
@@ -2239,6 +2239,14 @@ id | visible | visibleInPortal | indikatorenset
 9755 | true | false | Arbeitsmarkt
 9756 | true | false | Arbeitsmarkt
 9757 | true | false | Arbeitsmarkt
+9773 | true | false | Arbeitsmarkt (Print)
+9774 | true | false | Arbeitsmarkt (Print)
+9775 | true | false | Arbeitsmarkt (Print)
+9776 | true | false | Arbeitsmarkt (Print)
+9777 | true | false | Arbeitsmarkt (Print)
+9778 | true | false | Arbeitsmarkt (Print)
+9779 | true | false | Arbeitsmarkt (Print)
+9780 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

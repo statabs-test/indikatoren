@@ -2518,7 +2518,7 @@ var indikatorensetData = [
 		],
 		"title": "Medianlohn im Detailhandel",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei 4 900 Franken brutto.",
+		"lesehilfe": "Der Medianlohn im Detailhandel der Nordwestschweiz liegt im Jahr 2020 bei 4 900 Franken brutto und damit leicht höher als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -2596,7 +2596,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 sind in der Branche Landverkehr 49 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote für das Jahr 2021 beträgt 3,7%.",
+		"lesehilfe": "Ende 2022 sind in der Branche Landverkehr 49 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote für das Jahr 2022 beträgt 3,7%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2753,7 +2753,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 sind in Basel-Stadt im  Bereich IT-Dienstleistungen 48 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 3,3%.",
+		"lesehilfe": "Ende 2022 sind in Basel-Stadt im  Bereich IT-Dienstleistungen 48 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 3,3%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
