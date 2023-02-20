@@ -39,6 +39,10 @@
         [
           "2019",
           1250
+        ],
+        [
+          "2020",
+          1209.3
         ]
       ],
       "name": "Schlachten, Fleischverarbeitung",
@@ -83,6 +87,10 @@
         [
           "2019",
           128.3
+        ],
+        [
+          "2020",
+          123.9
         ]
       ],
       "name": "Fischverarbeitung",
@@ -127,6 +135,10 @@
         [
           "2019",
           341
+        ],
+        [
+          "2020",
+          327.1
         ]
       ],
       "name": "Herstellung Back- und Teigwaren",
@@ -171,6 +183,10 @@
         [
           "2019",
           235
+        ],
+        [
+          "2020",
+          226
         ]
       ],
       "name": "Sonstige Nahrungsmittelindustrie",
@@ -317,7 +333,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

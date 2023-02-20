@@ -5,58 +5,10 @@
       "index": 0,
       "tooltip": {
         "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>'  
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>'  
 		}
       },
       "data": [
-        [
-          "2012-01",
-          0.036975
-        ],
-        [
-          "2012-02",
-          0.036975
-        ],
-        [
-          "2012-03",
-          0.036975
-        ],
-        [
-          "2012-04",
-          0.036975
-        ],
-        [
-          "2012-05",
-          0.036975
-        ],
-        [
-          "2012-06",
-          0.036975
-        ],
-        [
-          "2012-07",
-          0.036975
-        ],
-        [
-          "2012-08",
-          0.036975
-        ],
-        [
-          "2012-09",
-          0.036975
-        ],
-        [
-          "2012-10",
-          0.036975
-        ],
-        [
-          "2012-11",
-          0.036975
-        ],
-        [
-          "2012-12",
-          0.036975
-        ],
         [
           "2013-01",
           0.046243
@@ -488,6 +440,54 @@
         [
           "2021-12",
           0.072804
+        ],
+        [
+          "2022-01",
+          0.048631
+        ],
+        [
+          "2022-02",
+          0.048631
+        ],
+        [
+          "2022-03",
+          0.048631
+        ],
+        [
+          "2022-04",
+          0.048631
+        ],
+        [
+          "2022-05",
+          0.048631
+        ],
+        [
+          "2022-06",
+          0.048631
+        ],
+        [
+          "2022-07",
+          0.048631
+        ],
+        [
+          "2022-08",
+          0.048631
+        ],
+        [
+          "2022-09",
+          0.048631
+        ],
+        [
+          "2022-10",
+          0.048631
+        ],
+        [
+          "2022-11",
+          0.048631
+        ],
+        [
+          "2022-12",
+          0.048631
         ]
       ],
       "name": "Mittlere jährliche Arbeitslosenquote",
@@ -498,57 +498,9 @@
       "index": 1,
       "yAxis": 1,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E"
       },
       "data": [
-        [
-          "2012-01",
-          32
-        ],
-        [
-          "2012-02",
-          32
-        ],
-        [
-          "2012-03",
-          30
-        ],
-        [
-          "2012-04",
-          31
-        ],
-        [
-          "2012-05",
-          28
-        ],
-        [
-          "2012-06",
-          29
-        ],
-        [
-          "2012-07",
-          32
-        ],
-        [
-          "2012-08",
-          35
-        ],
-        [
-          "2012-09",
-          35
-        ],
-        [
-          "2012-10",
-          34
-        ],
-        [
-          "2012-11",
-          35
-        ],
-        [
-          "2012-12",
-          34
-        ],
         [
           "2013-01",
           39
@@ -980,6 +932,54 @@
         [
           "2021-12",
           53
+        ],
+        [
+          "2022-01",
+          49
+        ],
+        [
+          "2022-02",
+          51
+        ],
+        [
+          "2022-03",
+          52
+        ],
+        [
+          "2022-04",
+          55
+        ],
+        [
+          "2022-05",
+          46
+        ],
+        [
+          "2022-06",
+          41
+        ],
+        [
+          "2022-07",
+          36
+        ],
+        [
+          "2022-08",
+          35
+        ],
+        [
+          "2022-09",
+          36
+        ],
+        [
+          "2022-10",
+          36
+        ],
+        [
+          "2022-11",
+          36
+        ],
+        [
+          "2022-12",
+          36
         ]
       ],
       "name": "Monatliche Anzahl Arbeitslose (rechte Skala)",
@@ -1128,7 +1128,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.3.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

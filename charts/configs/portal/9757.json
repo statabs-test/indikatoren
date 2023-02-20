@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2010",
-          4952
-        ],
-        [
           "2012",
           4255
         ],
@@ -108,7 +104,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Medianlohn in der Branche Gärtnereien"
+    "text": "Medianlohn in der Branche Gebäudebetreuung, Garten- und Landschaftsbau"
   },
   "subtitle": {
     "text": "in Franken, Nordwestschweiz",

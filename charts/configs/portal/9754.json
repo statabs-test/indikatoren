@@ -220,7 +220,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Beschäftigung in der Branche Gärtnereien"
+    "text": "Beschäftigung in der Branche Gebäudebetreuung, Garten- und Landschaftsbau"
   },
   "subtitle": {
     "text": "in Vollzeitäquivalenten, Basel-Stadt",
@@ -248,7 +248,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 100,
+    "tickInterval": 500,
     "reversedStacks": false
   },
   "legend": {
