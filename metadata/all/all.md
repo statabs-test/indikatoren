@@ -2237,7 +2237,7 @@ id | visible | visibleInPortal | indikatorenset
 9753 | true | false | Arbeitsmarkt
 9754 | true | false | Arbeitsmarkt
 9755 | true | false | Arbeitsmarkt
-9756 | true | false | Arbeitsmarkt
+9756 | false |  | Arbeitsmarkt
 9757 | true | false | Arbeitsmarkt
 9773 | true | false | Arbeitsmarkt (Print)
 9774 | true | false | Arbeitsmarkt (Print)
@@ -2245,7 +2245,7 @@ id | visible | visibleInPortal | indikatorenset
 9776 | true | false | Arbeitsmarkt (Print)
 9777 | true | false | Arbeitsmarkt (Print)
 9778 | true | false | Arbeitsmarkt (Print)
-9779 | true | false | Arbeitsmarkt (Print)
+9779 | false |  | Arbeitsmarkt (Print)
 9780 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 

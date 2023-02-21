@@ -72,7 +72,7 @@
             itemWidth: 280,
             labelFormatter: function(){
                 return this.name
-                .replace("u.", "und")
+                .replace(" und", ",")
                   .replace("Tabakerz.", "Tabakerzeugnisse");
               },
             //"y": 35,

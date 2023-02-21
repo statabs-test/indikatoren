@@ -18,7 +18,7 @@
         }
       },
       "yAxis": {
-        tickAmount: 7,
+        tickAmount: 9,
         "labels": {
           "format": "{value:,.0f}"
         },
@@ -48,10 +48,10 @@
         }
       },
       "series": [
-        {
+        /*{
           "color": "#661200",
           "legendIndex": 6
-        },
+        },*/
         {
           "color": "#B00000",
           "legendIndex": 5
