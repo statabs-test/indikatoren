@@ -13,7 +13,8 @@
 },
 "series": [
   {"color": "#cd9c00",
-   visible:true,}, 
+   visible:true,
+  }, 
   {"color": "#b375ab",
     visible:true,
   }, 
