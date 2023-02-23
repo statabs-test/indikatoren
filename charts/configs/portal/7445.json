@@ -152,15 +152,19 @@
         ],
         [
           "2022-01",
-          null
+          23
         ],
         [
           "2022-02",
-          null
+          19
         ],
         [
           "2022-03",
-          null
+          27
+        ],
+        [
+          "2022-04",
+          20
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -325,11 +329,15 @@
         ],
         [
           "2022-02",
-          1470
+          1471
         ],
         [
           "2022-03",
-          1452
+          1475
+        ],
+        [
+          "2022-04",
+          1467
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -499,6 +507,10 @@
         [
           "2022-03",
           77
+        ],
+        [
+          "2022-04",
+          113
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Handel, Reparatur",

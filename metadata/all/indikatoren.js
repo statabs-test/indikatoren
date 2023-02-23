@@ -39574,7 +39574,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige im Detailhandel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger im Detailhandel bei 1 517 Personen und ist damit wie schon in den Jahren zuvor weiter rückläufig. Die Zuwanderung von Kurz- und Daueraufenthaltern liegt bei 27 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 90 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 liegt die Zahl der Grenzgänger im Detailhandel bei 1 467 Personen und ist damit wie schon in den Jahren zuvor weiter rückläufig. Die Zuwanderung von Kurz- und Daueraufenthaltern liegt bei 20 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 113 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -39735,7 +39735,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger in der Branche Landverkehr bei 567 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt 29 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen umgerechnet 37 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 liegt die Zahl der Grenzgänger in der Branche Landverkehr bei 525 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt 22 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen umgerechnet 21 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -39896,7 +39896,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2021 arbeiten in Basel-Stadt 1 350 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 26 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2022 arbeiten in Basel-Stadt 1 500 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 27 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -65491,7 +65491,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 345 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen liegt bei 8 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 311 Grenzgänger im Branchenaggregat Private Haushalte als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) in der Branche Private Haushaltsdienstleistungen liegt bei 15 Stellen. Die Zuwanderung betrug in den letzten zehn Jahren maximal 23 Personen pro Quartal.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -73754,7 +73754,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung in der Branche Nahrungsmittelindustrie",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 1 900 Vollzeitäquivalenten (VZÄ) im Jahr 2020 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 200 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ leicht zurückgegangen.",
+		"lesehilfe": "In der Nahrungsmittelindustrie (NOGA 10) mit rund 2 000 Vollzeitäquivalenten (VZÄ) im Jahr 2020 sind die Beschäftigten v. a. in den Bereichen Schlachten, Fleischverarbeitung (1 200 VZÄ), Herstellung von Back- und Teigwaren (300 VZÄ) sowie Herstellung von sonstigen Nahrungsmitteln (200 VZÄ) tätig. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ leicht zurückgegangen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -73835,7 +73835,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 liegt die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) bei 1 079 und damit  leicht höher als 2012. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt in der Nahrungsmittelindustrie 4 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 liegt die Zahl der Grenzgänger in der Branche Nahrungs- und Genussmittel, Getränke und Tabakerzeugnisse (NOGA 10-12) bei 1 035 und damit  leicht tiefer als 2013. Die Zuwanderung von Kurz- und Daueraufenthaltern beträgt in der Nahrungsmittelindustrie 9 Personen. Zu den Meldepflichtigen sind für die Nahrungsmittelindustrie keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -73996,7 +73996,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige im Schreinereigewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 128 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 75 Stellen aus.",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 124 Grenzgänger in der Branche Holzwaren, Papier und Druckerzeugnisse tätig. Die Zuwanderung betrug in den letzten Jahren immer weniger als 30 Personen pro Quartal. Zu den Meldepflichtigen sind für das Schreinereigewerbe keine Daten vorhanden. Im Branchenaggregat Industrie/Herstellung von Waren machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 56 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -81893,7 +81893,9 @@ var indikatoren = [
 		"chart-id": 9750,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9773
+		],
 		"title": "Beschäftigung in der Branche Sport und Erholung",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"lesehilfe": "In der Branche Sport und Erholung (NOGA 93) sind in Basel-Stadt im Jahr 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 650 Beschäftigte tätig. Diese sind überwiegend in den Bereichen Sportvereine (280 VZÄ), Fitnesszentren (210 VZÄ) und Betrieb von Sportanlagen (120 VZÄ) beschäftigt. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ um 8,8% zurückgegangen.",
@@ -81931,7 +81933,9 @@ var indikatoren = [
 		"chart-id": 9751,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9774
+		],
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Sport und Erholung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Zahl der Arbeitslosen in der Branche Sport und Erholung hat im Vergleich zum Vorjahr abgenommen und liegt im Dezember 2022 bei 12. Die mittlere jährliche Arbeitslosenquote liegt 2022 bei 3,3%. Dieser Wert ist statistisch unzuverlässig und wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist.",
@@ -81970,10 +81974,12 @@ var indikatoren = [
 		"chart-id": 9752,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9775
+		],
 		"title": "Ausländische Erwerbstätige in der Branche Sport und Erholung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Im 4. Quartal 2022 sind in Basel-Stadt 374 Grenzgänger in der Branche Kunst, Unterhaltung und Erholung (NOGA 90-93) tätig. Die Zuwanderung in der Branche Freizeit und Unterhaltung liegt bei 31 Personen. Im Branchenaggregat Kirche, Kultur, Sport, Unterhaltung machen die Meldepflichtigen in Vollzeitäquivalente umgerechnet 105 Stellen aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -82009,7 +82015,9 @@ var indikatoren = [
 		"chart-id": 9753,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9776
+		],
 		"title": "Medianlohn in der Branche Sport und Erholung",
 		"subtitle": "in Franken, Nordwestschweiz",
 		"lesehilfe": "Im Jahr 2020 lag der Medianlohn in der Branche Sport und Erholung in der Nordwestschweiz bei 5 600 Franken brutto und damit etwas höher als 2018.",

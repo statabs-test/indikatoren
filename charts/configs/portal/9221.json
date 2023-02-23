@@ -152,15 +152,19 @@
         ],
         [
           "2022-01",
-          null
+          9
         ],
         [
           "2022-02",
-          null
+          5
         ],
         [
           "2022-03",
-          null
+          6
+        ],
+        [
+          "2022-04",
+          9
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -321,7 +325,7 @@
         ],
         [
           "2022-01",
-          1089
+          1090
         ],
         [
           "2022-02",
@@ -329,7 +333,11 @@
         ],
         [
           "2022-03",
-          1039
+          1046
+        ],
+        [
+          "2022-04",
+          1035
         ]
       ],
       "name": "Bestand Grenzgänger Nahrungs- u. Genussmittel, Getränke und Tabakerz.",
@@ -499,6 +507,10 @@
         [
           "2022-03",
           157
+        ],
+        [
+          "2022-04",
+          56
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",

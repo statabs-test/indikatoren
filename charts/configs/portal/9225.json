@@ -152,15 +152,19 @@
         ],
         [
           "2022-01",
-          null
+          3
         ],
         [
           "2022-02",
-          null
+          3
         ],
         [
           "2022-03",
-          null
+          1
+        ],
+        [
+          "2022-04",
+          1
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -329,7 +333,11 @@
         ],
         [
           "2022-03",
-          133
+          135
+        ],
+        [
+          "2022-04",
+          124
         ]
       ],
       "name": "Bestand Grenzgänger Holzwaren, Papier und Druckerzeugnisse",
@@ -499,6 +507,10 @@
         [
           "2022-03",
           157
+        ],
+        [
+          "2022-04",
+          56
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
