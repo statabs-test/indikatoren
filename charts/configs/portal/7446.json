@@ -132,7 +132,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 7,
     "tickInterval": 1000
   },
   "legend": {

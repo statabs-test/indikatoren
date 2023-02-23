@@ -126,8 +126,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 9,
-    "tickInterval": 1000
+    "tickAmount": 8,
+    "tickInterval": 1000,
+    "max": 7000
   },
   "legend": {
     "enabled": false,

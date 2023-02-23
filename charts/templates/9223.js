@@ -19,7 +19,7 @@
       }
     },
     "yAxis": {
-      //tickAmount: 9,
+      //tickAmount: 5,
       "labels": {
         "format": "{value:,.0f}"
       },
