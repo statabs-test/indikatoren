@@ -152,15 +152,19 @@
         ],
         [
           "2022-01",
-          null
+          28
         ],
         [
           "2022-02",
-          null
+          32
         ],
         [
           "2022-03",
-          null
+          52
+        ],
+        [
+          "2022-04",
+          31
         ]
       ],
       "name": "Zuwanderung Erwerbstätige Freizeit und Unterhaltung (rechte Skala)",
@@ -329,7 +333,11 @@
         ],
         [
           "2022-03",
-          358
+          369
+        ],
+        [
+          "2022-04",
+          374
         ]
       ],
       "name": "Bestand Grenzgänger Kunst, Unterhaltung und Erholung",
@@ -499,6 +507,10 @@
         [
           "2022-03",
           44
+        ],
+        [
+          "2022-04",
+          105
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Kirche, Kultur, Sport, Unterhaltung",
