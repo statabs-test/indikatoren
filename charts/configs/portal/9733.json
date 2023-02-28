@@ -1,0 +1,343 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "id": "0",
+      "data": [
+        [
+          2015,
+          0.8827
+        ],
+        [
+          2016,
+          0.90888
+        ],
+        [
+          2017,
+          0.88959
+        ],
+        [
+          2018,
+          0.90501
+        ],
+        [
+          2019,
+          0.892
+        ],
+        [
+          2020,
+          0.88101
+        ]
+      ],
+      "name": "in der Schweiz geborene Schweizer\u002Finnen"
+    },
+    {
+      "color": "#007A2F",
+      "id": "1",
+      "data": [
+        [
+          2015,
+          0.85542
+        ],
+        [
+          2016,
+          0.85667
+        ],
+        [
+          2017,
+          0.87381
+        ],
+        [
+          2018,
+          0.81864
+        ],
+        [
+          2019,
+          0.84837
+        ],
+        [
+          2020,
+          0.80835
+        ]
+      ],
+      "name": "in der Schweiz geborene Ausländer\u002Finnen"
+    },
+    {
+      "color": "#4f81bd",
+      "id": "2",
+      "data": [
+        [
+          2015,
+          0.8543
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ]
+      ],
+      "name": "im Ausland geborene Schweizer\u002Finnen"
+    },
+    {
+      "color": "#662673",
+      "id": "3",
+      "data": [
+        [
+          2015,
+          0.74418
+        ],
+        [
+          2016,
+          0.75316
+        ],
+        [
+          2017,
+          0.70585
+        ],
+        [
+          2018,
+          0.71301
+        ],
+        [
+          2019,
+          0.71867
+        ],
+        [
+          2020,
+          0.73465
+        ]
+      ],
+      "name": "im Ausland geborene Ausländer\u002Finnen"
+    },
+    {
+      "color": "#7F5F1A",
+      "id": "4"
+    },
+    {
+      "color": "#FABD24",
+      "id": "5"
+    },
+    {
+      "color": "#3C3C3C",
+      "id": "6"
+    },
+    {
+      "color": "#B00000",
+      "linkedTo": "0"
+    },
+    {
+      "color": "#007A2F",
+      "showInLegend": false,
+      "linkedTo": "1"
+    },
+    {
+      "color": "#4f81bd",
+      "showInLegend": false,
+      "linkedTo": "2"
+    },
+    {
+      "color": "#662673",
+      "showInLegend": false,
+      "linkedTo": "3"
+    },
+    {
+      "color": "#7F5F1A",
+      "linkedTo": "4"
+    },
+    {
+      "color": "#FABD24",
+      "showInLegend": false,
+      "linkedTo": "5"
+    },
+    {
+      "color": "#3C3C3C",
+      "showInLegend": false,
+      "linkedTo": "6"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-9733"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 2
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Abschlussquote der Sekundarstufe II"
+  },
+  "subtitle": {
+    "text": "nach Herkunft, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "labelFormatter": function () {
+        return this.name.slice(0, this.name.indexOf('(Stadt)'));
+      },
+    "itemDistance": 5,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9733"
+  }
+}

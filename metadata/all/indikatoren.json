@@ -22403,8 +22403,8 @@
 		"parentId": "6375",
 		"children": [],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnviertel Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -22430,7 +22430,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:34",
+		"aktualisierungsdatum": "2022-03-07T08:08:39",
 		"id": 6387
 	},
 	{
@@ -83444,6 +83444,47 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-12-20T08:53:56",
 		"id": 9732
+	},
+	{
+		"template": "line001",
+		"data-id": 9733,
+		"chart-id": 9733,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Abschlussquote der Sekundarstufe II",
+		"subtitle": "nach Herkunft, Basel-Stadt",
+		"lesehilfe": "",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
+		],
+		"externalLinks": [
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Abschlussquote der Sekundarstufe II",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.09733",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW12",
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "99_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-01-12T04:33:51",
+		"id": 9733
 	},
 	{
 		"template": "line001",

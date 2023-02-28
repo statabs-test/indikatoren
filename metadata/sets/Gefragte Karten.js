@@ -567,8 +567,8 @@ var indikatorensetData = [
 		"parentId": "6375",
 		"children": [],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnviertel Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung im Wohnviertel Bruderholz (22,4%), am niedrigsten im Wohnviertel Altstadt Kleinbasel (9,3%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -593,7 +593,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-10T01:29:34",
+		"aktualisierungsdatum": "2022-03-07T08:08:39",
 		"id": 6387
 	},
 	{
