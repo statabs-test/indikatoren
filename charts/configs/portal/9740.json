@@ -1,134 +1,150 @@
 {
   "series": [
     {
-      "color": "#4f81bd",
+      "color": "#923F8D",
+      "visible": true,
       "data": [
         [
-          2015,
-          88.27
+          "1995",
+          36.9
         ],
         [
-          2016,
-          90.888
+          "1996",
+          37.3
         ],
         [
-          2017,
-          88.959
+          "1997",
+          37.4
         ],
         [
-          2018,
-          90.501
+          "1998",
+          37.8
         ],
         [
-          2019,
-          89.2
+          "1999",
+          38.3
         ],
         [
-          2020,
-          88.101
+          "2000",
+          38.9
+        ],
+        [
+          "2001",
+          39
+        ],
+        [
+          "2002",
+          39.7
+        ],
+        [
+          "2003",
+          40.4
+        ],
+        [
+          "2004",
+          41.3
+        ],
+        [
+          "2005",
+          41.8
+        ],
+        [
+          "2006",
+          42.1
+        ],
+        [
+          "2007",
+          42.5
+        ],
+        [
+          "2008",
+          42.9
+        ],
+        [
+          "2009",
+          43.5
+        ],
+        [
+          "2010",
+          43.9
+        ],
+        [
+          "2011",
+          44
+        ],
+        [
+          "2012",
+          44.9
+        ],
+        [
+          "2013",
+          45.4
+        ],
+        [
+          "2014",
+          44.6
+        ],
+        [
+          "2015",
+          46
+        ],
+        [
+          "2016",
+          46.2
+        ],
+        [
+          "2017",
+          46.6
+        ],
+        [
+          "2018",
+          47.2
+        ],
+        [
+          "2019",
+          47.4
+        ],
+        [
+          "2020",
+          47.7
+        ],
+        [
+          "2021",
+          48
+        ],
+        [
+          "2022",
+          48.7
         ]
       ],
-      "name": "in der Schweiz geborene Schweizer\u002Finnen"
-    },
-    {
-      "color": "#662673",
-      "data": [
-        [
-          2015,
-          85.542
-        ],
-        [
-          2016,
-          85.667
-        ],
-        [
-          2017,
-          87.381
-        ],
-        [
-          2018,
-          81.864
-        ],
-        [
-          2019,
-          84.837
-        ],
-        [
-          2020,
-          80.835
-        ]
-      ],
-      "name": "in der Schweiz geborene Ausländer\u002Finnen"
-    },
-    {
-      "color": "#7F5F1A",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2015,
-          85.43
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          null
-        ],
-        [
-          2019,
-          null
-        ],
-        [
-          2020,
-          null
-        ]
-      ],
-      "name": "im Ausland geborene Schweizer\u002Finnen"
-    },
-    {
-      "color": "#FABD24",
-      "data": [
-        [
-          2015,
-          74.418
-        ],
-        [
-          2016,
-          75.316
-        ],
-        [
-          2017,
-          70.585
-        ],
-        [
-          2018,
-          71.301
-        ],
-        [
-          2019,
-          71.867
-        ],
-        [
-          2020,
-          73.465
-        ]
-      ],
-      "name": "im Ausland geborene Ausländer\u002Finnen"
+      "name": "Anteil Nicht-Stimmberechtigte",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    }
+  },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -153,19 +169,17 @@
 					}
 				}
     },
-    "renderTo": "container-9733"
+    "inverted": false,
+    "renderTo": "container-9740"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "pointWidth": 40
     }
   },
   "title": {
@@ -175,32 +189,15 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Abschlussquote der Sekundarstufe II"
+    "text": "Anteil der nicht Stimm- und Wahlberechtigten Bevölkerung"
   },
   "subtitle": {
-    "text": "nach Migrationskategorie, Basel-Stadt",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
     }
   },
   "yAxis": {
@@ -223,16 +220,14 @@
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemDistance": 5,
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -245,9 +240,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStaatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -284,10 +279,10 @@
 			}
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9733"
+    "filename": "9740"
   }
 }
