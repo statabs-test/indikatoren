@@ -13,27 +13,27 @@
         ],
         [
           "Italien",
-          1.91
+          1.9
         ],
         [
           "Türkei",
-          2.46
+          2.43
         ],
         [
           "EU-West + EFTA + UK",
-          2.03
-        ],
-        [
-          "EU-Ost",
           2.01
         ],
         [
+          "EU-Ost",
+          1.99
+        ],
+        [
           "Balkan",
-          2.76
+          2.71
         ],
         [
           "Mittel- und Südamerika",
-          2.11
+          2.1
         ],
         [
           "Arabische Länder",
@@ -45,7 +45,7 @@
         ],
         [
           "Übrige Länder",
-          2.32
+          2.42
         ]
       ],
       "turboThreshold": 0
@@ -65,8 +65,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": 0
+      }
     }
   },
   "chart": {
@@ -130,7 +129,7 @@
     "text": "Mittlere Anzahl Personen pro Haushalt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -203,7 +202,7 @@
   ],
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

@@ -331,7 +331,7 @@
           null
         ]
       ],
-      "name": "Grenzwert"
+      "name": "Obergrenze gem. Schuldenbremse"
     },
     {
       "color": "black",
@@ -443,7 +443,7 @@
           6.5
         ]
       ],
-      "name": "Grenzwert"
+      "name": "Obergrenze gem. Schuldenbremse ab 2010"
     }
   ],
   "chart": {
@@ -546,7 +546,10 @@
     },
     "itemMarginBottom": 5,
     "alignColumns": false,
-    "itemDistance": 10
+    "itemDistance": 10,
+    "labelFormatter": function () {
+        return this.name.replace(" bis 2009","");
+      }
   },
   "credits": {
     "enabled": true,

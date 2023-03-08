@@ -303,7 +303,7 @@
     "text": "Jahresmitteltemperatur"
   },
   "subtitle": {
-    "text": "in °C",
+    "text": "in °C, Meteorologische Station Basel-Binningen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -372,7 +372,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 3.3.2022"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

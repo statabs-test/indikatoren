@@ -309,7 +309,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Tage",
+    "text": "Anzahl Tage, Meteorologische Station Basel-Binningen",
     "align": "left"
   },
   "xAxis": {
@@ -376,7 +376,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 3.3.2022"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2023"
   },
   "legend": {
     "symbolRadius": 0,
