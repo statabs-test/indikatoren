@@ -28,28 +28,28 @@
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:34.9,
+                to: 31.99,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 35,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 32,0"
+            }, {
+                from: 32.0,
+                to: 34.99,
+                color: '#A8C3CA',
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>32,0 − 34,9"
             }, {
                 from: 35.0,
-                to: 39.9,
-                color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>35,0 − 39,9"
-            }, {
-                from: 40.0,
-                to: 44.9,
+                to: 38.99,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>40,0 − 44,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>35,0 − 38,9"
             },{
-                from: 45.0,
-                to: 49.9,
+                from: 39.0,
+                to: 47.49,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − 49,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>39,0 − 47,4"
             },{
-                from: 50,
+                from: 47.5,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 50,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 47,5"
             }], 
         },
         "data": {
@@ -168,7 +168,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 1; 
-	                var maxValueInLegend = 3; 
+	                var maxValueInLegend = 5; 
 	                
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
