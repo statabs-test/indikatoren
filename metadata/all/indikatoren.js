@@ -82325,10 +82325,12 @@ var indikatoren = [
 		"chart-id": 9673,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9784
+		],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
+		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2022 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 204 550 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -82354,7 +82356,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:50",
+		"aktualisierungsdatum": "2023-01-30T09:06:26",
 		"id": 9673
 	},
 	{
@@ -82401,7 +82403,9 @@ var indikatoren = [
 		"chart-id": 9675,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9786
+		],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2021",
 		"lesehilfe": "Im Jahr 2021 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 97,9 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><br><b>Zielwert:</b> Mindestens zweiter Platz im Kantonsvergleich<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \t1. und 2. Platz<br>Gelb: \t3. Platz<br>Rot: \t4. Platz oder schlechter",
@@ -82439,7 +82443,9 @@ var indikatoren = [
 		"chart-id": 9676,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9787
+		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Zahl der Beschäftigten stieg von 2011 bis 2020 um 3,1% von 183 183 auf 188 778.<br><br><b>Zielwert:</b> 220 000 Beschäftige bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><b>Zielpfad:</b> lineares Wachstum (ca. 1 700 Beschäftigte / Jahr)<br><br><b>Ampelwerte:</b><br>\tGrün: \tZahl auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tZahl auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Zahl unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tZahl unter Zielpfad und Wachstum geringer als Zielpfad",
@@ -82480,7 +82486,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "<b>Zielwert:</b> Arbeitslosenquote BS entwickelt sich gleich oder besser als Ar-beitslosenquote CH<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote BS entwickelt sich  gleich oder besser als Quote CH<br>Gelb: \tQuote BS entwickelt sich leicht schlechter (0 > x > -0,3%) als Quote CH<br>Rot: \tQuote BS entwickelt sich klar schlechter (x ≤ -0,3%) als Quote CH",
+		"lesehilfe": "<b>Zielwert:</b> Arbeitslosenquote BS entwickelt sich gleich oder besser als Ar-beitslosenquote CH<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tQuote BS entwickelt sich gleich oder besser als Quote CH<br>Gelb: \tQuote BS entwickelt sich um max. 0,3 Prozentpunkte schlechter als Quote CH<br>Rot: \tQuote BS entwickelt sich um mehr als 0,3 Prozentpunkte schlechter als Quote CH",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -82506,7 +82512,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:56",
+		"aktualisierungsdatum": "2023-02-03T08:59:52",
 		"id": 9677
 	},
 	{
@@ -82553,7 +82559,9 @@ var indikatoren = [
 		"chart-id": 9680,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9785
+		],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
 		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher.<br><br><b>Zielwert:</b> Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» und/oder «eher sicher»<br><i>(Grundlage: Vorschlag Legislaturplankonferenz)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert > 90%<br>Gelb: \tWert = 80 bis 90%<br>Rot: \tWert < 80%",
@@ -82661,7 +82669,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:52",
+		"aktualisierungsdatum": "2023-02-16T08:29:35",
 		"id": 9684
 	},
 	{
@@ -82818,7 +82826,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-12T04:33:56",
+		"aktualisierungsdatum": "2023-02-03T08:59:53",
 		"id": 9693
 	},
 	{

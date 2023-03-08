@@ -1,235 +1,267 @@
 {
   "series": [
     {
-      "color": "#0091f7",
+      "name": "KWI",
+      "color": "#999999",
       "zIndex": 2,
       "data": [
         [
-          2019,
-          null
+          "ZG",
+          100
         ],
         [
-          2020,
-          672
+          "\u003Cb\u003EBS\u003C\u002Fb\u003E",
+          97.9
         ],
         [
-          2021,
-          1649
+          "ZH",
+          94
         ],
         [
-          2022,
-          2449
+          "AG",
+          77.8
         ],
         [
-          2023,
-          null
+          "SZ",
+          77.1
         ],
         [
-          2024,
-          null
+          "VD",
+          75.9
         ],
         [
-          2025,
-          null
+          "BL",
+          74.7
         ],
         [
-          2026,
-          null
+          "LU",
+          74.6
         ],
         [
-          2027,
-          null
+          "GE",
+          72.1
         ],
         [
-          2028,
-          null
+          "NW",
+          70.7
         ],
         [
-          2029,
-          null
+          "SH",
+          69.8
         ],
         [
-          2030,
-          null
+          "TG",
+          66.9
         ],
         [
-          2031,
-          null
+          "SG",
+          66.2
         ],
         [
-          2032,
-          null
+          "SO",
+          62.4
         ],
         [
-          2033,
-          null
+          "OW",
+          62.3
         ],
         [
-          2034,
-          null
+          "FR",
+          60.2
         ],
         [
-          2035,
-          null
+          "AR",
+          59.1
+        ],
+        [
+          "GL",
+          58
+        ],
+        [
+          "BE",
+          57
+        ],
+        [
+          "AI",
+          56.4
+        ],
+        [
+          "TI",
+          53.3
+        ],
+        [
+          "NE",
+          53.2
+        ],
+        [
+          "UR",
+          51.2
+        ],
+        [
+          "GR",
+          46.1
+        ],
+        [
+          "VS",
+          42.9
+        ],
+        [
+          "JU",
+          33
         ]
       ],
-      "name": "Nettoproduktion seit 2019"
-    },
-    {
-      "type": "line",
-      "dashStyle": "ShortDash",
-      "color": "#999999",
-      "marker": {
-        "enabled": false
-      },
-      "data": [
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          625
-        ],
-        [
-          2021,
-          1250
-        ],
-        [
-          2022,
-          1875
-        ],
-        [
-          2023,
-          2500
-        ],
-        [
-          2024,
-          3125
-        ],
-        [
-          2025,
-          3750
-        ],
-        [
-          2026,
-          4375
-        ],
-        [
-          2027,
-          5000
-        ],
-        [
-          2028,
-          5625
-        ],
-        [
-          2029,
-          6250
-        ],
-        [
-          2030,
-          6875
-        ],
-        [
-          2031,
-          7500
-        ],
-        [
-          2032,
-          8125
-        ],
-        [
-          2033,
-          8750
-        ],
-        [
-          2034,
-          9375
-        ],
-        [
-          2035,
-          10000
-        ]
-      ],
-      "name": "Zielpfad"
+      "turboThreshold": 0
     },
     {
       "visible": false,
       "showInLegend": false,
       "data": [
         [
-          2019,
+          "ZG",
           null
         ],
         [
-          2020,
+          "\u003Cb\u003EBS\u003C\u002Fb\u003E",
           0
         ],
         [
-          2021,
-          0
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
+          "ZH",
           null
         ],
         [
-          2024,
+          "AG",
           null
         ],
         [
-          2025,
+          "SZ",
           null
         ],
         [
-          2026,
+          "VD",
           null
         ],
         [
-          2027,
+          "BL",
           null
         ],
         [
-          2028,
+          "LU",
           null
         ],
         [
-          2029,
+          "GE",
           null
         ],
         [
-          2030,
+          "NW",
           null
         ],
         [
-          2031,
+          "SH",
           null
         ],
         [
-          2032,
+          "TG",
           null
         ],
         [
-          2033,
+          "SG",
           null
         ],
         [
-          2034,
+          "SO",
           null
         ],
         [
-          2035,
+          "OW",
+          null
+        ],
+        [
+          "FR",
+          null
+        ],
+        [
+          "AR",
+          null
+        ],
+        [
+          "GL",
+          null
+        ],
+        [
+          "BE",
+          null
+        ],
+        [
+          "AI",
+          null
+        ],
+        [
+          "TI",
+          null
+        ],
+        [
+          "NE",
+          null
+        ],
+        [
+          "UR",
+          null
+        ],
+        [
+          "GR",
+          null
+        ],
+        [
+          "VS",
+          null
+        ],
+        [
+          "JU",
           null
         ]
       ],
-      "name": "Bewertung"
+      "name": "Bewertung",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90,
+      "x": -2
+    },
+    "plotLines": [
+      {
+        "value": 1.5,
+        "dashStyle": "ShortDash",
+        "color": "#999999",
+        "width": 1.5,
+        "label": {
+          "text": "Zielwert: Rang 2",
+          "rotation": 0,
+          "y": 12,
+          "style": {
+            "color": "#999999",
+            "fontWeight": "bold",
+            "fontSize": 10
+          }
+        }
+      }
+    ]
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -265,24 +297,22 @@
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
-              y: -5,
+              y: -80,
               x: -50,
-              format: 'Zielwert 2035: {y:,.0f}',
+              format: 'Zielwert {key}: {y:,.1f}',
               style: {
                 textOutline: false,
-                color: "#999999",
               }
             },
             marker: {
-              enabled: true,
-              symbol: "circle"
+              enabled: true
             }
           });
 
           const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            assessed = chart.series[1].data;
           data.forEach(function (element, i) {
             if (assessed[i].y != null) {
               element.update({
@@ -295,10 +325,10 @@
               })
             }
           });
-
         }
     },
-    "renderTo": "container-9684",
+    "type": "scatter",
+    "renderTo": "container-9786",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -310,10 +340,8 @@
         }
       }
     },
-    "line": {
-      "marker": {
-        "enabled": false
-      }
+    "column": {
+      "colorByPoint": true
     }
   },
   "title": {
@@ -323,35 +351,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettoproduktion an Wohnungen"
+    "text": "Kantonaler Wettbewerbsindikator (KWI)"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -45
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -369,17 +378,19 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 100
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "x": 35
   },
   "navigation": {
     "menuItemStyle": {
@@ -400,13 +411,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.2.2023"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
   },
   "tooltip": {
-    "valueDecimals": 0,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9684"
+    "filename": "9786"
   }
 }

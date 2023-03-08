@@ -5,20 +5,52 @@
       "zIndex": 2,
       "data": [
         [
+          2011,
+          183183
+        ],
+        [
+          2012,
+          184725
+        ],
+        [
+          2013,
+          188491
+        ],
+        [
+          2014,
+          191155
+        ],
+        [
+          2015,
+          190333
+        ],
+        [
+          2016,
+          190301
+        ],
+        [
+          2017,
+          190523
+        ],
+        [
+          2018,
+          190462
+        ],
+        [
           2019,
-          null
+          192450
         ],
         [
           2020,
-          672
+          188778
         ],
         [
           2021,
-          1649
+          null
         ],
         [
           2022,
-          2449
+          null
         ],
         [
           2023,
@@ -73,83 +105,112 @@
           null
         ]
       ],
-      "name": "Nettoproduktion seit 2019"
+      "name": "Beschäftigte"
     },
     {
       "type": "line",
       "dashStyle": "ShortDash",
       "color": "#999999",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
           2019,
-          0
+          192450
         ],
         [
           2020,
-          625
+          194171.875
         ],
         [
           2021,
-          1250
+          195893.75
         ],
         [
           2022,
-          1875
+          197615.625
         ],
         [
           2023,
-          2500
+          199337.5
         ],
         [
           2024,
-          3125
+          201059.375
         ],
         [
           2025,
-          3750
+          202781.25
         ],
         [
           2026,
-          4375
+          204503.125
         ],
         [
           2027,
-          5000
+          206225
         ],
         [
           2028,
-          5625
+          207946.875
         ],
         [
           2029,
-          6250
+          209668.75
         ],
         [
           2030,
-          6875
+          211390.625
         ],
         [
           2031,
-          7500
+          213112.5
         ],
         [
           2032,
-          8125
+          214834.375
         ],
         [
           2033,
-          8750
+          216556.25
         ],
         [
           2034,
-          9375
+          218278.125
         ],
         [
           2035,
-          10000
+          220000
         ]
       ],
       "name": "Zielpfad"
@@ -159,20 +220,52 @@
       "showInLegend": false,
       "data": [
         [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
           2019,
           null
         ],
         [
           2020,
-          0
+          2
         ],
         [
           2021,
-          0
+          null
         ],
         [
           2022,
-          0
+          null
         ],
         [
           2023,
@@ -265,17 +358,16 @@
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
-              y: -5,
+              y: -10,
               x: -50,
-              format: 'Zielwert 2035: {y:,.0f}',
+              format: 'Zielwert {key}: {y:,.0f}',
               style: {
                 textOutline: false,
                 color: "#999999",
               }
             },
             marker: {
-              enabled: true,
-              symbol: "circle"
+              enabled: true
             }
           });
 
@@ -295,10 +387,10 @@
               })
             }
           });
-
         }
     },
-    "renderTo": "container-9684",
+    "type": "line",
+    "renderTo": "container-9787",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -308,11 +400,11 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "line": {
+      },
+      "connectNulls": true,
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -323,10 +415,11 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettoproduktion an Wohnungen"
+    "useHTML": true,
+    "text": "Beschäftigte"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": " Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -367,8 +460,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     }
   },
   "legend": {
@@ -400,13 +492,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 16.2.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
   },
   "tooltip": {
     "valueDecimals": 0,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "9684"
+    "filename": "9787"
   }
 }
