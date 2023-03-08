@@ -1522,7 +1522,7 @@ id | visible | visibleInPortal | indikatorenset
 8372 | true | true | Wirtschaftsbericht BS_BL_JU
 8373 | true | true | Wirtschaftsbericht BS_BL_JU
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
-8377 | true | false | Nachhaltigkeit
+8377 | true | true | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
 8380 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 8381 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
@@ -2237,6 +2237,7 @@ id | visible | visibleInPortal | indikatorenset
 9736 | true | true | Nachhaltigkeit
 9737 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
+9741 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
