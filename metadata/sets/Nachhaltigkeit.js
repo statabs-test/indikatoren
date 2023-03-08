@@ -877,7 +877,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"lesehilfe": "2022 sind bei der Chemiefachberatung des Kantons 17 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -892,7 +892,7 @@ var indikatorensetData = [
 		"unterthema": "Störfälle",
 		"kuerzel": "I.02.18.05189",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "GW12",
+		"kuerzelKunde": "GW10",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -1543,7 +1543,7 @@ var indikatorensetData = [
 		],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
-		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2022 wurden 37 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -1560,7 +1560,7 @@ var indikatorensetData = [
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.06033",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL11",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2367,7 +2367,7 @@ var indikatorensetData = [
 		],
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2021 10,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2022 12,6 °C. Das entspricht dem bislang höchsten Wert seit Messbeginn im Jahr 1755.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -2382,7 +2382,7 @@ var indikatorensetData = [
 		"unterthema": "Witterung",
 		"kuerzel": "I.02.3.06434",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL12",
+		"kuerzelKunde": "NL14",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2551,16 +2551,16 @@ var indikatorensetData = [
 		"id": 6599
 	},
 	{
-		"template": "template001",
-		"data-id": 6071,
-		"chart-id": 6071,
+		"template": "line001",
+		"data-id": 8377,
+		"chart-id": 8377,
 		"filter": "",
-		"parentId": "6071",
+		"parentId": null,
 		"children": [],
-		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2021: 43 067) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2021: 27 219). Von 2002 (1 026) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Der Anteil an der ausländischen Bevölkerung im Kanton Basel-Stadt steigt seit 2003 kontinuierlich an und liegt per Ende 2022 bei 37,9%.",
+		"erlaeuterungen": "Anteil der ausländischen Bevölkerung im Kanton Basel-Stadt pro Jahr in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2569,7 +2569,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"description": "Anteil ausländische Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08377",
@@ -3154,10 +3154,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Abschlussquote der Sekundarstufe II",
+		"title": "Abschlussquote auf Sekundarstufe II",
 		"subtitle": "nach Migrationskategorie, Basel-Stadt",
-		"lesehilfe": "",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "In der Schweiz und im Ausland geborene Schweizerinnen und Schweizer sowie in der Schweiz geborene Ausländerinnen und Ausländer weisen allesamt stabil höhere Abschlussquoten auf Sekundarstufe II auf als im Ausland geborene Ausländerinnen und Ausländer.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Der einzelne Punkt in der Grafik rührt daher, dass das BFS für im Ausland geborene Schweizerinnen und Schweizer aktuell nur den Wert 2015 ausweist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -3169,7 +3169,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Abschlussquote der Sekundarstufe II",
+		"description": "Abschlussquote auf Sekundarstufe II",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kuerzel": "I.15.7.09733",
@@ -3274,7 +3274,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bevölkerungsdichte in Bauzone",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2021 im Schnitt 56,2 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 139,8 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 158,1 Personen pro Hektar.",
 		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3343,5 +3343,42 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-01-13T03:14:38",
 		"id": 9740
+	},
+	{
+		"template": "line001",
+		"data-id": 9741,
+		"chart-id": 9741,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Arbeitsproduktivität",
+		"subtitle": "Franken pro Vollzeitäquivalentstelle, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Bruttowertschöpfung (BWS) pro Vollzeitäquivalent.",
+		"quellenangabe": [
+			"Amt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitsproduktivität",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09741",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-01-13T03:45:41",
+		"id": 9741
 	}
 ];

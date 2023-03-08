@@ -1,5 +1,13 @@
 (function () {
   return {
+    plotOptions: {
+      series: {
+        marker: {
+          symbol: "circle",
+          enabled: false
+        },
+      }
+    },
     yAxis: [{
       labels: {
         format: "{value:,.1f}‰",
@@ -12,64 +20,50 @@
       tickAmount: 6,
       title: ""
     },
-    /*{
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
+      /*{
+        "title": {
+          "style": {
+            "color": "#000000",
+            "fontSize": null
+          },
+          "text": null
         },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": -6000,
-      "max": 24000,
-      tickAmount: 6,
-      "gridLineWidth": 0,
-      "opposite": true
-    }*/
+        "labels": {
+          "format": "{value:,.f}",
+          "style": {
+            "color": "#000000"
+          }
+        },
+        "min": -6000,
+        "max": 24000,
+        tickAmount: 6,
+        "gridLineWidth": 0,
+        "opposite": true
+      }*/
     ],
     xAxis: {
       tickInterval: 2,
     },
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
+    },
     series: [
       {
-        marker: {
-          symbol: "circle",
-          enabled: false
-        },
         color: "#008AC3",
-        tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
-        },
       },
       {
-        marker: {
-          symbol: "circle",
-          enabled: false
-        },
         color: "#008AC3",
         dashStyle: 'ShortDash',
-        tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
-        },
-        //"yAxis": 1
       },
       {
-        marker: {
-          symbol: "circle",
-          enabled: false
-        },
         color: "black",
         dashStyle: 'ShortDot',
-        tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}‰</b><br/>',
-        },
-        //"yAxis": 0
+        id: 'gw'
+      },
+      {
+        color: "black",
+        dashStyle: 'ShortDot',
+        linkedTo: 'gw'
       }
     ],
 

@@ -1,258 +1,54 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#83522E",
       "data": [
         [
-          1961,
-          10.5
-        ],
-        [
-          1962,
-          8.7
-        ],
-        [
-          1963,
-          8.6
-        ],
-        [
-          1964,
-          9.9
-        ],
-        [
-          1965,
-          9.2
-        ],
-        [
-          1966,
-          10
-        ],
-        [
-          1967,
-          10
-        ],
-        [
-          1968,
-          9.5
-        ],
-        [
-          1969,
-          9.1
-        ],
-        [
-          1970,
-          9.4
-        ],
-        [
-          1971,
-          9.6
-        ],
-        [
-          1972,
-          9.1
-        ],
-        [
-          1973,
-          9.5
-        ],
-        [
-          1974,
-          10.2
-        ],
-        [
-          1975,
-          9.9
-        ],
-        [
-          1976,
-          10.2
-        ],
-        [
-          1977,
-          10.1
-        ],
-        [
-          1978,
-          9.3
-        ],
-        [
-          1979,
-          9.8
-        ],
-        [
-          1980,
-          9.1
-        ],
-        [
-          1981,
-          9.9
-        ],
-        [
-          1982,
-          10.5
-        ],
-        [
-          1983,
-          10.5
-        ],
-        [
-          1984,
-          9.7
-        ],
-        [
-          1985,
-          9.3
-        ],
-        [
-          1986,
-          9.4
-        ],
-        [
-          1987,
-          9.5
-        ],
-        [
-          1988,
-          10.7
-        ],
-        [
-          1989,
-          10.6
-        ],
-        [
-          1990,
-          10.8
-        ],
-        [
-          1991,
-          10
-        ],
-        [
-          1992,
-          10.7
-        ],
-        [
-          1993,
-          10.3
-        ],
-        [
-          1994,
-          11.7
-        ],
-        [
-          1995,
-          10.6
-        ],
-        [
-          1996,
-          9.4
-        ],
-        [
-          1997,
-          10.6
-        ],
-        [
-          1998,
-          10.6
-        ],
-        [
-          1999,
-          10.6
-        ],
-        [
-          2000,
-          11.4
-        ],
-        [
-          2001,
-          10.7
-        ],
-        [
-          2002,
-          11.2
-        ],
-        [
-          2003,
-          11.3
-        ],
-        [
-          2004,
-          10.5583333333333
-        ],
-        [
-          2005,
-          10.4916666666667
-        ],
-        [
-          2006,
-          10.9
-        ],
-        [
-          2007,
-          11.3166666666667
-        ],
-        [
-          2008,
-          10.8
-        ],
-        [
-          2009,
-          11
-        ],
-        [
-          2010,
-          9.9
-        ],
-        [
           2011,
-          11.7
+          206035
         ],
         [
           2012,
-          10.8
+          204982
         ],
         [
           2013,
-          10.4
+          201960
         ],
         [
           2014,
-          11.9
+          204897
         ],
         [
           2015,
-          11.8
+          210233
         ],
         [
           2016,
-          11
+          226410
         ],
         [
           2017,
-          11.5
+          237591
         ],
         [
           2018,
-          12.26
+          245378
         ],
         [
           2019,
-          11.7
+          242538
         ],
         [
           2020,
-          12.2
-        ],
-        [
-          2021,
-          10.7
-        ],
-        [
-          2022,
-          12.6
+          241360
         ]
       ],
-      "name": "Jahresmitteltemperatur"
+      "name": "Arbeitsproduktivität (Franken pro VZÄ)"
     }
   ],
   "chart": {
@@ -284,7 +80,7 @@
 					}
 				}
     },
-    "renderTo": "container-6434"
+    "renderTo": "container-9741"
   },
   "plotOptions": {
     "series": {
@@ -300,10 +96,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Jahresmitteltemperatur"
+    "text": "Arbeitsproduktivität"
   },
   "subtitle": {
-    "text": "in °C",
+    "text": "Franken pro Vollzeitäquivalentstelle, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -326,8 +122,7 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickInterval": 5
+    }
   },
   "yAxis": {
     "min": 0,
@@ -344,10 +139,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    },
-    "tickInterval": 2
+      }
+    }
   },
   "legend": {
     "enabled": false,
@@ -372,7 +165,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 3.3.2022"
+    "text": "Quelle: Amt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -408,11 +201,7 @@
 				}, true, true);
 			}
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
   "exporting": {
-    "filename": "6434"
+    "filename": "9741"
   }
 }

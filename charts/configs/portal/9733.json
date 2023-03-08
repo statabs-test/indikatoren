@@ -28,7 +28,7 @@
           88.101
         ]
       ],
-      "name": "in der Schweiz geborene Schweizer\u002Finnen"
+      "name": "In der Schweiz geborene Schweizerinnen und Schweizer"
     },
     {
       "color": "#662673",
@@ -58,7 +58,7 @@
           80.835
         ]
       ],
-      "name": "in der Schweiz geborene Ausländer\u002Finnen"
+      "name": "In der Schweiz geborene Ausländerinnen und Ausländer"
     },
     {
       "color": "#7F5F1A",
@@ -91,7 +91,7 @@
           null
         ]
       ],
-      "name": "im Ausland geborene Schweizer\u002Finnen"
+      "name": "Im Ausland geborene Schweizerinnen und Schweizer"
     },
     {
       "color": "#FABD24",
@@ -121,7 +121,7 @@
           73.465
         ]
       ],
-      "name": "im Ausland geborene Ausländer\u002Finnen"
+      "name": "Im Ausland geborene Ausländerinnen und Ausländer"
     }
   ],
   "chart": {
@@ -175,7 +175,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Abschlussquote der Sekundarstufe II"
+    "text": "Abschlussquote auf Sekundarstufe II"
   },
   "subtitle": {
     "text": "nach Migrationskategorie, Basel-Stadt",
