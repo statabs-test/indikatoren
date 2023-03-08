@@ -1,14 +1,7 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "#008AC3",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}‰\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2001,
@@ -118,15 +111,8 @@
       "name": "Nettoschuldenquote"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "#008AC3",
       "dashStyle": "ShortDash",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}‰\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2001,
@@ -236,15 +222,9 @@
       "name": "Planjahre (Budgetbericht)"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "black",
       "dashStyle": "ShortDot",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}‰\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "id": "gw",
       "data": [
         [
           2001,
@@ -352,6 +332,118 @@
         ]
       ],
       "name": "Grenzwert"
+    },
+    {
+      "color": "black",
+      "dashStyle": "ShortDot",
+      "linkedTo": "gw",
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          6.5
+        ],
+        [
+          2011,
+          6.5
+        ],
+        [
+          2012,
+          6.5
+        ],
+        [
+          2013,
+          6.5
+        ],
+        [
+          2014,
+          6.5
+        ],
+        [
+          2015,
+          6.5
+        ],
+        [
+          2016,
+          6.5
+        ],
+        [
+          2017,
+          6.5
+        ],
+        [
+          2018,
+          6.5
+        ],
+        [
+          2019,
+          6.5
+        ],
+        [
+          2020,
+          6.5
+        ],
+        [
+          2021,
+          6.5
+        ],
+        [
+          2022,
+          6.5
+        ],
+        [
+          2023,
+          6.5
+        ],
+        [
+          2024,
+          6.5
+        ],
+        [
+          2025,
+          6.5
+        ],
+        [
+          2026,
+          6.5
+        ]
+      ],
+      "name": "Grenzwert"
     }
   ],
   "chart": {
@@ -388,7 +480,8 @@
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -503,6 +596,9 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}‰\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "5160"
