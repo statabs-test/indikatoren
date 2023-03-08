@@ -9985,7 +9985,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 5161,
-		"chart-id": 6131,
+		"chart-id": 5161,
 		"filter": "",
 		"parentId": null,
 		"children": [
@@ -9993,7 +9993,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2010 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2019 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2010 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2020 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -37270,7 +37270,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil an der ausländischen Bevölkerung im Kanton Basel-Stadt steigt seit 2003 kontinuierlich an und liegt per Ende 2022 bei 37,9%.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt per Ende 2022 bei 37,95%.",
 		"erlaeuterungen": "Anteil der ausländischen Bevölkerung im Kanton Basel-Stadt pro Jahr in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
