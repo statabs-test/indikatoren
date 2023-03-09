@@ -24,7 +24,7 @@
       }
     ],
     "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.2f}%</b><br/>'
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
     }
   }
 }());
