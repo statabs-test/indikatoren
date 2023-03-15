@@ -23,6 +23,9 @@
     ],
     xAxis: {
       tickInterval: 2,
+      labels: {
+        rotation: -45
+      }
     },
     legend: {
       enabled: true,
