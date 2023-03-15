@@ -74,15 +74,15 @@ var indikatorensetData = [
 		"id": 9067
 	},
 	{
-		"template": "line001_print",
+		"template": "template001_print",
 		"data-id": 9068,
 		"chart-id": 9068,
 		"filter": "",
-		"parentId": "7575",
+		"parentId": "7574",
 		"children": [],
-		"title": "Leerwohnungsbestand nach Gemeinde",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2021",
-		"lesehilfe": "Die Verfügbarkeit auf den Stichtag 1. Juni hin kann die Leerwohnungsquote v. a. in kleineren Gemeinden mit insgesamt geringem Wohnungsbestand stark beeinflussen. Die Gemeinde Rümlingen mit einem Wohnungsbestand von insgesamt 184 Wohnungen erreicht mit drei Leerwohnungen eine Leerwohnungsquote von 1,6%.",
+		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Leerstandsquote im Stadtkanton steigt 2021 auf 1,1%. Insgesamt stehen 1 235 Wohnungen leer, davon sind zwei Drittel Zwei- oder Dreizimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -90,24 +90,24 @@ var indikatorensetData = [
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Gemeinde"
+			"Kanton"
 		],
-		"description": "Leerwohnungsbestand nach Gemeinde",
+		"description": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09068",
+		"kuerzel": "I.09.2.09067",
 		"kennzahlenset": "Leerstand (Print)",
-		"kuerzelKunde": "LEB-2-4",
+		"kuerzelKunde": "LEB-2-2",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_00_00_00_00_004",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:19",
+		"aktualisierungsdatum": "2022-06-28T11:02:18",
 		"id": 9068
 	},
 	{
