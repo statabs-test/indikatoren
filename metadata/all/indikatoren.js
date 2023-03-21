@@ -37357,7 +37357,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"subtitle": "nach Kanton",
-		"lesehilfe": "Das reale BIP von Basel-Stadt ist 2021 gegenüber dem Vorjahr um 3,9% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2020 um 4,2% gestiegen. 2020 gab es insbesondere aufgrund der COVID-19-Pandemie stärkere Rückgänge zu verzeichnen. Der teilweise hohe Zuwachs in Basel-Stadt in den letzten zehn Jahren ist nicht zuletzt auf das Wachstum der Pharmaindustrie zurückzuführen.",
+		"lesehilfe": "Das reale BIP von Basel-Stadt ist 2021 gegenüber dem Vorjahr um 3,9% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2020 um 4,2% gestiegen. 2020 gab es insbesondere aufgrund der COVID-19-Pandemie stärkere Rückgänge zu verzeichnen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -37625,7 +37625,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose in Industrie und Baugewerbe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Baugewerbe weist starke saisonalen Schwankungen auf. Im Dezember 2022 sind hier 519 Personen als arbeitslos gemeldet, während es im September 271 waren. Die Anzahl der Arbeitslosen in der Industrie (ohne Chemie, Pharma) hat Ende 2022 mit 168 Personen den tiefsten Wert der letzten zehn Jahre erreicht.",
+		"lesehilfe": "Das Baugewerbe weist starke saisonale Schwankungen auf. Im Dezember 2022 sind hier 519 Personen als arbeitslos gemeldet, während es im September 271 waren. Die Anzahl der Arbeitslosen in der Industrie (ohne Chemie, Pharma) hat Ende 2022 mit 168 Personen den tiefsten Wert der letzten zehn Jahre erreicht.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38386,7 +38386,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete einen grossen Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2022 arbeiteten dort rund 7 800 Personen (+8,4% gegenüber dem 4. Quartal 2021). Die Branche  Finanz- und Versicherungsdienstleistungen verzeichnete seit 2013 einen Rückgang der Grenzgängerzahl (-42,2% auf rund 700 Personen).",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete einen grossen Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2022 arbeiteten dort rund 7 800 Grenzgänger (+8,4% gegenüber dem 4. Quartal 2021). Die Branche  Finanz- und Versicherungsdienstleistungen verzeichnete seit 2013 einen Rückgang der Grenzgängerzahl (-42,2% auf rund 700 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -38538,7 +38538,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 beträgt die Beschäftigung bei den Frauen 63 625 Vollzeitäquivalente (VZÄ) bzw. 90 382 Beschäftigte, was einem Rückgang um 1 256 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 2 574 VZÄ auf 85 008 VZÄ (98 396 Beschäftigte) zurückgegangen.",
+		"lesehilfe": "Im Jahr 2020 waren in Basel-Stadt in Vollzeitäquivalente umgerechnet 63 625 Frauen beschäftigt (90 382 Beschäftigte), was einem Rückgang um 1 256 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 2 574 VZÄ auf 85 008 VZÄ (98 396 Beschäftigte) zurückgegangen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -38576,7 +38576,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die 188 778 Beschäftigten im Jahr 2020 entsprechen umgerechnet 148 633 Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 86%, bei den Frauen bei 70%.",
+		"lesehilfe": "Die 188 778 Beschäftigten im Jahr 2020 entsprechen umgerechnet 148 633 Vollzeitäquivalenten (VZÄ). Daraus resultiert für in Basel-Stadt beschäftigte Personen ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 86%, bei den Frauen bei 70%.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -38728,8 +38728,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2022 auf 3,1% gesunken.  Am höchsten ist die Quote 2022 in den Branchen Baugewerbe (10,1%), Gastgewerbe (7,8%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,4%). In allen Branchen ist die Arbeitslosenquote im Vergleich zu 2021 gesunken oder unverändert geblieben.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Strukturerhebung, Pooling 2018-2020). Für das Total werden die Erwerbspersonen gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist 2022 auf 3,1% gesunken. Am höchsten ist die Quote 2022 in den Branchen Baugewerbe (10,1%), Gastgewerbe (7,8%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,4%). In allen Branchen ist die Arbeitslosenquote im Vergleich zu 2021 gesunken oder unverändert geblieben.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Quelle: BFS, Strukturerhebung, Pooling 2018-2020). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38767,7 +38767,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil Grenzgänger an der Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Abbildung zeigt die Grenzgänger (jeweils Bestand im 4. Quartal) als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2022 rund 34 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2020) in diesem Bereich. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt im 4. Quartal 2022 bei 19%.",
+		"lesehilfe": "Am höchsten ist der Anteil der Grenzgängerinnen und Grenzgänger an allen Beschäftigten in den Branchen Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen sowie Chemie, Pharma. Dort machen die Grenzgänger über 33% aller Beschäftigten aus. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt im 4. Quartal 2022 bei 19%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -38806,7 +38806,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, insgesamt von 2,8% im Jahr 2021 auf 3,6% im Jahr 2022 gestiegen. Die Zuwanderung war 2022 in der Branche Chemie und Pharma (5,7% im Vergleich zur Beschäftigung) sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen (7,8%) am höchsten.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen in den Kanton Basel-Stadt ist, im Verhältnis zur Beschäftigung, insgesamt von 2,8% im Jahr 2021 auf 3,6% im Jahr 2022 gestiegen. Die Zuwanderung war 2022 in der Branche Chemie und Pharma (5,7% im Vergleich zur Beschäftigung) sowie in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, sonstige Dienstleistungen (7,8%, inkl. Gebäudereinigung und Personalvermittlung) am höchsten.",
 		"erlaeuterungen": "In Basel-Stadt zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung) im Verhältnis zu den Beschäftigten (besetzte Stellen) im Kanton Basel-Stadt (Beschäftigungsstand: 2020). Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -38920,7 +38920,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenzahlen im Bereich Beratung, Planung, Forschung, Immobilien haben sich Ende 2022 im Vorjahresvergleich kaum verändert, nachdem sie im Jahr 2021 stark rückläufig waren. In den übrigen dargestellten Branchen waren die Werte 2022 leicht rückläufig.",
+		"lesehilfe": "Die Arbeitslosenzahlen im Bereich Beratung, Planung, Forschung, Immobilien waren Ende 2021 auf das Niveau von vor der Pandemie angekommen und sind  seitdem nicht weiter gesunken. In den übrigen dargestellten Branchen waren die Werte 2022 im Vorjahresvergleich leicht rückläufig.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -39149,7 +39149,7 @@ var indikatoren = [
 		"title": "Medianlohn nach Alter",
 		"subtitle": "in Franken, Nordwestschweiz",
 		"lesehilfe": "Jüngere Angestellte verdienen weniger als ältere. 2020 beträgt der Medianlohn pro Monat in der Altersgruppe bis 29 Jahre 5 261 Franken und in jener über 50 Jahre 7 654 Franken.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die eine Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
@@ -39212,7 +39212,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:42",
+		"aktualisierungsdatum": "2022-06-17T09:56:11",
 		"id": 7058
 	},
 	{
@@ -39300,7 +39300,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Medianlohn im Dienstleistungssektor (II)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Der Bruttomedianlohn 2020 liegt im Bereich Finanz- und Versicherungsdienst-leistungen bei 9 066 Franken. Im Bereich Beratung, Planung und Forschung ist er auf 8 166 Franken gestiegen. Bei rund 5 600 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
+		"lesehilfe": "Der Bruttomedianlohn 2020 liegt im Bereich Finanz- und Versicherungsdienstleistungen bei 9 066 Franken. Im Bereich Beratung, Planung und Forschung ist er auf 8 166 Franken gestiegen. Bei rund 5 600 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -39326,7 +39326,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:00:43",
+		"aktualisierungsdatum": "2022-06-17T09:56:17",
 		"id": 7061
 	},
 	{
