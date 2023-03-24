@@ -9793,7 +9793,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2021 liegen die Werte erstmals im negativen Bereich. Die Nettoschuldenquote beträgt -0,1 Promille des Schweizer Bruttoinlandprodukts. Die Nettoschulden pro Kopf betragen -295 Franken. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten, pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton baute seine Nettoschulden 2021 vollständig ab und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind im Vergleich mit dem Jahr 2001 zurückgegangen. 2021 liegen die Werte erstmals im negativen Bereich. Die Nettoschuldenquote beträgt -0,1 Promille des Schweizer Bruttoinlandprodukts. Die Nettoschulden pro Kopf betragen -295 Franken. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten, pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton baute seine Nettoschulden 2021 vollständig ab und verfügt nun über ein Nettovermögen.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen. Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -9833,8 +9833,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2010 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2020 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2020 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -10159,10 +10159,10 @@ var indikatoren = [
 		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "2022 ereigneten sich auf den Basler Kantonsstrassen insgesamt 502 Strassenverkehrsunfälle, das sind 75 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 344, 33 weniger als im Vorjahr.",
+		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit"
+			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -12052,7 +12052,7 @@ var indikatoren = [
 		],
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2019 beträgt es rund 204 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2020 beträgt es fast 190 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -12092,7 +12092,7 @@ var indikatoren = [
 		],
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2020 bei 44% (im Jahr 2000 lag er bei 24%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2020). Fast unverändert blieb der Anteil der Wertschöpfung der Bereiche Unternehmens- und freiberufliche Dienstleistungen, öffentliche Verwaltung sowie Gesundheits- und Sozialwesen.",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2021 bei 39% (im Jahr 2000 lag er bei 23%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2021).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -28046,7 +28046,7 @@ var indikatoren = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 272\t Mietwohnungen, 166 selbstbewohnte Eigentümerwohnungen und 103 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 279 Mietwohnungen, 168 selbstbewohnte Eigentümerwohnungen und 104 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -43536,15 +43536,15 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Energieeffizienz",
-		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung. Skalierung des Bruttoenergieverbrauchs über das BIP sowie die Bevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
+		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandprodukts (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2020 um 149,6% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 35,1% gesunken.",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Energieeffizienz Schweiz (BFS)' target = '_blank'><a href=https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html target=_blank rel=nofollow>https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html</a></a>",
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>",
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/umweltindikatoren/alle-indikatoren/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -43735,10 +43735,11 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitsproduktivität",
 		"subtitle": "Franken pro Vollzeitäquivalentstelle, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Bruttowertschöpfung (BWS) pro Vollzeitäquivalent.",
+		"lesehilfe": "Die Arbeitsproduktivität liegt 2020 bei 241 360 Franken pro Vollzeitäquivalent und damit um 17,1% höher als im Jahr 2011.",
+		"erlaeuterungen": "Die Arbeitsproduktivität ist definiert als das Verhältnis von wirtschaftlicher Tätigkeit (Output) zu eingesetzter Arbeit. Für diesen Indikator wird als Mass die Bruttowertschöpfung (BWS) pro Vollzeitäquivalent (VZÄ) verwendet. Die Beschäftigung in VZÄ resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
-			"Amt"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -43915,5 +43916,43 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-01-12T04:33:55",
 		"id": 9787
+	},
+	{
+		"template": "line001",
+		"data-id": 9789,
+		"chart-id": 9789,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Schweizer Hochseeflotte",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Schweizerisches Seeschifffahrtsamt (SSA)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"description": "Schweizer Hochseeflotte",
+		"thema": "11 Verkehr",
+		"unterthema": "Güterverkehr",
+		"kuerzel": "I.11.4.09789",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-03-24T02:08:09",
+		"id": 9789
 	}
 ];
