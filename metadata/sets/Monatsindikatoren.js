@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote ist im Januar 2023 auf 3,1% leicht gestiegen, liegt damit aber tiefer als im Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren liegen tiefer als ein Jahr zuvor.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Februar 2023 bei 3,1% und damit tiefer als im Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren liegen tiefer als ein Jahr zuvor.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:54",
+		"aktualisierungsdatum": "2023-02-07T09:14:31",
 		"id": 7510
 	},
 	{
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-04T08:40:12",
+		"aktualisierungsdatum": "2023-02-13T08:37:21",
 		"id": 7513
 	},
 	{
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Januar 2023 bei rund 3 100 und damit tiefer als im gleichen Monat vor der Pandemie. Die Zahl der Langzeitarbeitslosen geht weiter zurück und der Anteil der Langzeitarbeitslosen ist mit 16% wieder im Bereich der Jahre vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Februar 2023 bei rund 3 100 und damit tiefer als im gleichen Monat vor der Pandemie. Die Zahl der Langzeitarbeitslosen geht weiter zurück und der Anteil der Langzeitarbeitslosen ist mit 16% wieder im Bereich der Jahre vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:56",
+		"aktualisierungsdatum": "2023-02-07T09:14:33",
 		"id": 8980
 	},
 	{

@@ -874,6 +874,10 @@
         [
           "2023-01",
           3088
+        ],
+        [
+          "2023-02",
+          3107
         ]
       ],
       "name": "Arbeitslose",
@@ -1753,6 +1757,10 @@
         [
           "2023-01",
           495
+        ],
+        [
+          "2023-02",
+          484
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2635,6 +2643,10 @@
         [
           "2023-01",
           0.1603
+        ],
+        [
+          "2023-02",
+          0.15578
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",

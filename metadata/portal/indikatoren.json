@@ -26452,7 +26452,7 @@
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote ist im Januar 2023 auf 3,1% leicht gestiegen, liegt damit aber tiefer als im Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren liegen tiefer als ein Jahr zuvor.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Februar 2023 bei 3,1% und damit tiefer als im Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren liegen tiefer als ein Jahr zuvor.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet. Die aktualisierte Basis gilt rückwirkend ab dem 1. Januar 2020.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -26478,7 +26478,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:54",
+		"aktualisierungsdatum": "2023-02-07T09:14:31",
 		"id": 7510
 	},
 	{
@@ -26595,7 +26595,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-04T08:40:12",
+		"aktualisierungsdatum": "2023-02-13T08:37:21",
 		"id": 7513
 	},
 	{
@@ -38786,7 +38786,7 @@
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Januar 2023 bei rund 3 100 und damit tiefer als im gleichen Monat vor der Pandemie. Die Zahl der Langzeitarbeitslosen geht weiter zurück und der Anteil der Langzeitarbeitslosen ist mit 16% wieder im Bereich der Jahre vor der Pandemie.",
+		"lesehilfe": "Die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Februar 2023 bei rund 3 100 und damit tiefer als im gleichen Monat vor der Pandemie. Die Zahl der Langzeitarbeitslosen geht weiter zurück und der Anteil der Langzeitarbeitslosen ist mit 16% wieder im Bereich der Jahre vor der Pandemie.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -38812,7 +38812,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:56",
+		"aktualisierungsdatum": "2023-02-07T09:14:33",
 		"id": 8980
 	},
 	{
@@ -42864,8 +42864,8 @@
 		"children": [],
 		"title": "Güterumschlag auf dem Rhein",
 		"subtitle": "Vorjahresvergleich, in Tausend Tonnen",
-		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Der zweitgrösste Rückgang des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2021 trat eine leichte Erholung ein: Verglichen mit dem Vorjahr wurde ein Plus von 5,5% auf 5,4&nbspMio. Tonnen registriert.",
-		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2012-2021 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2021 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
+		"lesehilfe": "In der letzten Dekade hat der Güterhandel über die Schweizerischen Rheinhäfen tendenziell abgenommen. Das Niedrigwasser im Rheingebiet, wie es seit fast 50&nbspJahren nicht mehr eingetreten war, führte 2018 zum grössten Umschlagsrückgang der letzten zehn Jahre. Die zweitgrösste Abnahme des Güterumschlags wurde pandemiebedingt im Jahr 2020 verzeichnet. 2022 folgte der nächste Rückgang: Verglichen mit dem Vorjahr wurde ein Minus von 14,9% auf 4,6&nbspMio. Tonnen registriert. Die Ursache dafür dürfte in erster Linie im massiven Preisanstieg für Mineralölprodukte liegen. Der Rohölpreis reagiert sehr sensibel auf geopolitische Krisensituationen. Ein zweiter preisbestimmender Faktor sind die Frachtkosten, die stark vom Pegelstand des Rheins abhängen: Durch die anhaltende Trockenheit und das daraus resultierende Niedrigwasser konnten die Schiffe im Sommer nur zu rund einem Viertel bis einem Drittel beladen werden, was zu höheren Preisen für die transportierten Güter führte.",
+		"erlaeuterungen": "Der Indikator zeigt den Güterverkehrsumschlag zu Beginn des Beobachtungszeitraums 2013-2022 und wie sich dieser gegenüber dem jeweiligen Vorjahr entwickelt hat. Dies ist hilfreich, um zu verstehen, wie der aktuelle Güterumschlag 2022 von einer Reihe zunehmender und abnehmender Werte beeinflusst worden ist.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
 		],
@@ -42890,7 +42890,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-09-08T08:25:32",
+		"aktualisierungsdatum": "2023-02-20T08:32:03",
 		"id": 9603
 	},
 	{
@@ -42940,7 +42940,7 @@
 		"children": [],
 		"title": "Anteile von Zu- und Abfuhr am Gesamtumschlag",
 		"subtitle": "Schweizerische Rheinhäfen, 2022 und Mittelwert 2012-2021",
-		"lesehilfe": "Die Abfuhr macht mengenmässig rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Deren Anteil 2022 weist gegenüber dem Mittel der letzten zehn Jahre eine Abnahme um 2,07 Prozentpunkte auf.",
+		"lesehilfe": "Die Abfuhr macht mengenmässig rund ein Sechstel der über die Schweizerischen Rheinhäfen beförderten Güter aus. Deren Anteil 2022 weist gegenüber dem Mittel der letzten zehn Jahre eine Abnahme um 2,1 Prozentpunkte auf.",
 		"erlaeuterungen": "Der Indikator zeigt die Veränderung des Güteraussenhandels über den Rhein im Zeitraum 2012 bis 2022. Um zufällige Effekte einzelner Jahre (Niedrigwasser, konjunkturelle Schwankungen, COVID-19-Pandemie, Ukraine-Krieg etc.) zu vermeiden, wird hier der aktuelle Wert mit dem Mittel der letzten zehn Jahre verglichen.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
