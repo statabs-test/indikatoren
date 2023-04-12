@@ -45,5 +45,6 @@ var indikatorensetNames = [
 	"Steuern (Print)",
 	"Energiestatistik (Print)",
 	"RR_KPI",
+	"Schluesselindikatoren",
 	"Test"
 ];

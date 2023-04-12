@@ -189,7 +189,7 @@ Highcharts.dateFormats = {
                 },
         */
         navigator: {
-            enabled: true
+            enabled: true,
         },
         legend: {
             enabled: true,

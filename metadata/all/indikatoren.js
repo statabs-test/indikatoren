@@ -82086,15 +82086,17 @@ var indikatoren = [
 		"id": 9672
 	},
 	{
-		"template": "stock001",
+		"template": "line001",
 		"data-id": 9673,
 		"chart-id": 9673,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			9784
+		],
 		"title": "Bevölkerungsbestand",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen dem 31.12.2011 und dem 31.12.2021 nahm die Bevölkerung im Kanton Basel-Stadt von 192 304 auf 201 805 Personen zu.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
+		"lesehilfe": "Ende 2022 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 204 550 Personen.<br><br><b>Zielwert:</b> 220 000 Einwohnende bis 2035<br><i>(Grundlage: Richtplan Basel-Stadt)</i><br><br><b>Ampelwerte:</b><br>\tGrün: \tWert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Gelb: \tWert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>\tbzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad<br>Rot: \tWert unter Zielpfad und Wachstum geringer als Zielpfad",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -82108,19 +82110,19 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.09673",
-		"kennzahlenset": "RR_KPI",
+		"kennzahlenset": "Schluesselindikatoren",
 		"kuerzelKunde": "1",
-		"stufe1": "Bevölkerung",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "99_00_00_00_00_001",
+		"orderKey": "_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-01-27T08:46:05",
+		"aktualisierungsdatum": "2023-01-30T09:06:26",
 		"id": 9673
 	},
 	{

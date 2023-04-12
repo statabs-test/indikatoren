@@ -2192,7 +2192,7 @@ id | visible | visibleInPortal | indikatorenset
 9663 | true | false | RR_KPI
 9671 | false |  | Soziales
 9672 | true | false | RR_KPI
-9673 | true | false | RR_KPI
+9673 | true | false | Schluesselindikatoren
 9674 | true | false | RR_KPI
 9675 | true | false | RR_KPI
 9676 | true | false | RR_KPI
