@@ -45,15 +45,15 @@
       "data": [
         [
           2017,
-          2
+          null
         ],
         [
           2018,
-          2
+          null
         ],
         [
           2019,
-          2
+          null
         ]
       ],
       "name": "Bewertung"
@@ -92,7 +92,7 @@
               enabled: true,
               //y: -80,
               //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              format: 'Zielwert: mind. {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 9.8.2021"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

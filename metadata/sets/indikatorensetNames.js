@@ -44,7 +44,6 @@ var indikatorensetNames = [
 	"Staedtevergleich",
 	"Steuern (Print)",
 	"Energiestatistik (Print)",
-	"RR_KPI",
 	"Schluesselindikatoren",
 	"Test"
 ];

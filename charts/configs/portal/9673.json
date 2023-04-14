@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#0091f7",
+      "showInNavigator": true,
+      "zIndex": 2,
       "data": [
         [
           1774,
@@ -594,6 +596,8 @@
       "type": "line",
       "dashStyle": "ShortDash",
       "color": "#999999",
+      "showInNavigator": true,
+      "zIndex": 1,
       "data": [
         [
           1774,
@@ -1185,6 +1189,7 @@
     {
       "visible": false,
       "showInLegend": false,
+      "showInNavigator": false,
       "data": [
         [
           1774,
@@ -1823,7 +1828,7 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-            data.forEach(function (element, i) {
+          data.forEach(function (element, i) {
             if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
@@ -1892,13 +1897,10 @@
         "textOverflow": "none"
       }
     },
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true
+    "min": 2010
   },
   "yAxis": {
-    "min": 0,
+    "min": null,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -1914,10 +1916,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "showLastLabel": true,
-    "endOnTick": true,
-    "opposite": false
+    }
   },
   "legend": {
     "enabled": true,
@@ -1978,36 +1977,22 @@
 				}, true, true);
 			}
   },
-  "tooltip": {
-    "xDateFormat": "%A, %e. %b. %Y"
-  },
-  "rangeSelector": {
-    "buttons": [
-      {
-        "count": 20,
-        "type": "year",
-        "text": "20 J"
-      },
-      {
-        "count": 50,
-        "type": "year",
-        "text": "50 J"
-      },
-      {
-        "count": 100,
-        "type": "year",
-        "text": "100 J"
-      },
-      {
-        "type": "all",
-        "text": "Alle J"
+  "navigator": {
+    "enabled": true,
+    "series": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 0
       }
-    ],
-    "buttonSpacing": 15,
-    "inputEnabled": false,
-    "selected": 0,
-    "inputDateFormat": "%Y",
-    "inputEditDateFormat": "%Y"
+    },
+    "xAxis": {
+      "labels": {
+        "formatter": function () {
+            return this.value;
+          }
+      }
+    }
   },
   "exporting": {
     "filename": "9673"
