@@ -2092,6 +2092,7 @@ var templatesById = {
 	"9785": "line001",
 	"9786": "template001",
 	"9787": "template001",
+	"9789": "line001",
 	"9995": "mappie001",
 	"9996": "spider001",
 	"9997": "bubble001",

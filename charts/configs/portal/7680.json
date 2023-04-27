@@ -38,6 +38,10 @@
         [
           "2021",
           3272
+        ],
+        [
+          "2022",
+          3279
         ]
       ],
       "name": "Mietwohnungen",
@@ -81,6 +85,10 @@
         [
           "2021",
           103
+        ],
+        [
+          "2022",
+          104
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -124,9 +132,13 @@
         [
           "2021",
           166
+        ],
+        [
+          "2022",
+          168
         ]
       ],
-      "name": "selbstbewohnte Eigentümerwohnungen",
+      "name": "Selbstbewohnte Eigentümerwohnungen",
       "turboThreshold": 0
     },
     {
@@ -167,6 +179,10 @@
         [
           "2021",
           54
+        ],
+        [
+          "2022",
+          51
         ]
       ],
       "name": "Sonstige Wohnungen",
@@ -288,7 +304,7 @@
     "itemMarginBottom": 5,
     "reversed": true,
     "labelFormatter": function () {
-        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('selbstbewohnte', 'selbstbewohnte<br>');
+        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
       }
   },
   "navigation": {

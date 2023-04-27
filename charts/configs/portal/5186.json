@@ -4,6 +4,18 @@
       "color": "#B00000",
       "data": [
         [
+          1992,
+          3721
+        ],
+        [
+          1993,
+          3394
+        ],
+        [
+          1994,
+          3093
+        ],
+        [
           1995,
           3965
         ],
@@ -21,7 +33,7 @@
         ],
         [
           1999,
-          2919
+          2917
         ],
         [
           2000,
@@ -29,7 +41,7 @@
         ],
         [
           2001,
-          2221
+          2222
         ],
         [
           2002,
@@ -110,6 +122,10 @@
         [
           2021,
           null
+        ],
+        [
+          2022,
+          null
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -118,6 +134,18 @@
       "color": "#B00000",
       "linkedTo": ":previous",
       "data": [
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
         [
           1995,
           null
@@ -225,6 +253,10 @@
         [
           2021,
           577
+        ],
+        [
+          2022,
+          502
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -232,6 +264,18 @@
     {
       "color": "#4f81bd",
       "data": [
+        [
+          1992,
+          833
+        ],
+        [
+          1993,
+          873
+        ],
+        [
+          1994,
+          975
+        ],
         [
           1995,
           980
@@ -250,7 +294,7 @@
         ],
         [
           1999,
-          859
+          858
         ],
         [
           2000,
@@ -270,7 +314,7 @@
         ],
         [
           2004,
-          603
+          602
         ],
         [
           2005,
@@ -339,6 +383,10 @@
         [
           2021,
           377
+        ],
+        [
+          2022,
+          344
         ]
       ],
       "name": "Verunfallte Personen"
@@ -421,11 +469,16 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "step": 1,
-      "rotation": -45
+      }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+        var interval = 5,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "yAxis": {
     "min": 0,
@@ -470,7 +523,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Abteilung Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA.\u003Cbr\u002F\u003EZuletzt geändert: 9.2.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
