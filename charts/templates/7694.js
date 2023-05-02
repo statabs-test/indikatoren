@@ -12,11 +12,12 @@
     plotOptions: {
       series: {
         borderWidth: 0,
+        minPointLength: 3
       }
     },
     xAxis: {
       tickPositioner: function () {
-        var interval = 2,
+        var interval = 1,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];
