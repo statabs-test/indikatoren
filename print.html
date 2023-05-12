@@ -54,9 +54,10 @@
 						//# BL/17.11.2020: added different timeout (based on loop-index) for each iframe to 
 						//# prevent Chrome from throwing Errors (net::ERR_INSUFFICIENT_RESOURCES). Chrome seems
 						//# to have difficulties in loading script ressources for all chart.html at the same time (millisecond)
+						
 						setTimeout(function () {
 							$('<iframe/>', {
-								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=png&view=print&exportServer=' + protocol + '://' + hostname + ':8081',
+								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=false&kuerzelKundeAsFilename=false&thumbnailType=png&view=print&exportServer=https://highcharts-export.stata.pd.intranet.bs.ch/',
 								frameborder: 0,
 								class: "noScrolling",
 								scrolling: "no",
@@ -73,7 +74,7 @@
 			}
 		});
 	</script>
-
+	<div id="id"></div>
 </body>
 
 </html>
