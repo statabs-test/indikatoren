@@ -82018,7 +82018,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "2021 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><h2>Zielwert:</h2>Unter 6,5 Promille des Schweizer BIP <i>(Grundlage: FHG §4 Abs. 1)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen Planjahren</p><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem der Planjahre über 6,5 Promille</p><p>Quote > 6,5 Promille im letzten Rechnungsjahr</p></div>",
+		"lesehilfe": "2021 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,1 Promille des Schweizer Bruttoinlandprodukts.<br><h2>Zielwert:</h2>Unter 6,5 Promille des Schweizer BIP (Grundlage: FHG §4 Abs. 1)<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, dem aktuellen Budget und allen Planjahren</p><p>Quote ≤ 6,5 Promille im letzten Rechnungsjahr, aber im aktuellen Budget oder einem der Planjahre über 6,5 Promille</p><p>Quote > 6,5 Promille im letzten Rechnungsjahr</p></div>",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -82044,7 +82044,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-27T08:59:40",
+		"aktualisierungsdatum": "2023-05-11T08:14:31",
 		"id": 9663
 	},
 	{
@@ -82214,7 +82214,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2020 um 3,1% von 183 183 auf 188 778.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum (ca. 1 700 Beschäftigte / Jahr). <i>(Grundlage: Kantonaler Richtplan Basel-Stadt)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2020 um 3,1% von 183 183 auf 188 778.<br><h2>Zielwert:</h2>220 000 Beschäftige bis 2035. Zielpfad: lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -82240,7 +82240,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-27T08:59:44",
+		"aktualisierungsdatum": "2023-05-11T08:14:34",
 		"id": 9676
 	},
 	{
@@ -82252,7 +82252,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "2022 waren 3,05% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Rückgang von 0,81% gegenüber 2021.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich gleich oder besser als Arbeitslosenquote CH <i>(Grundlage: Regierungsratsbeschluss)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3%) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3%) als Quote CH</p></div>",
+		"lesehilfe": "2022 waren 3,05% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Rückgang von 0,81 Prozentpunkten gegenüber 2021.<br><h2>Zielwert:</h2>Arbeitslosenquote BS entwickelt sich gleich oder besser als Arbeitslosenquote CH (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote BS entwickelt sich gleich oder besser als Quote CH</p><p>Quote BS entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als Quote CH</p><p>Quote BS entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als Quote CH</p></div>",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -82278,7 +82278,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-27T08:59:45",
+		"aktualisierungsdatum": "2023-05-11T08:14:34",
 		"id": 9677
 	},
 	{
@@ -82409,7 +82409,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen 2019 und 2022 betrug die Nettowohnungsproduktion 2 449 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum (ca. 600 Wohnungen / Jahr) <i>(Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnende bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
+		"lesehilfe": "Zwischen 2019 und 2022 betrug die Nettowohnungsproduktion 2 818 Wohnungen.<br><h2>Zielwert:</h2>10 000 Wohnungen bis 2035. Zielpfad: lineares Wachstum (ca. 600 Wohnungen / Jahr) <i>(Grundlage: Gekoppelt an Richtplanziel 220 000 Einwohnende bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung)</i><br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Wert auf/über Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert auf/über Zielpfad und Wachstum geringer als Zielpfad<br>bzw. Wert unter Zielpfad und Wachstum gleich/stärker als Zielpfad</p><p>Wert unter Zielpfad und Wachstum geringer als Zielpfad</p></div>",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -82435,7 +82435,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-27T08:59:37",
+		"aktualisierungsdatum": "2023-05-11T08:14:29",
 		"id": 9684
 	},
 	{
