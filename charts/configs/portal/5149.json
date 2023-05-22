@@ -172,7 +172,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Geburtenziffer und Sterbeziffer"
+    "text": "Geburten- und Sterbeziffer"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -244,7 +244,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -219,7 +219,7 @@
     "inverted": true,
     "marginLeft": 210,
     "marginBottom": 55,
-    "marginRight": 15,
+    "marginRight": 25,
     "renderTo": "container-6047"
   },
   "plotOptions": {
@@ -267,7 +267,8 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "max": 40
   },
   "legend": {
     "enabled": true,
@@ -294,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2021"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -6,27 +6,27 @@
       "data": [
         [
           2003,
-          93.78757515
+          93.8
         ],
         [
           2005,
-          94.63576159
+          94.6
         ],
         [
           2007,
-          94.36713055
+          94.4
         ],
         [
           2011,
-          92.81002639
+          92.8
         ],
         [
           2015,
-          91.1686587
+          91.2
         ],
         [
           2019,
-          94.87666034
+          94.9
         ]
       ],
       "name": "Sehr oder eher sicher"
@@ -69,23 +69,23 @@
       "data": [
         [
           2003,
-          0
+          null
         ],
         [
           2005,
-          0
+          null
         ],
         [
           2007,
-          0
+          null
         ],
         [
           2011,
-          0
+          null
         ],
         [
           2015,
-          0
+          null
         ],
         [
           2019,
@@ -264,7 +264,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

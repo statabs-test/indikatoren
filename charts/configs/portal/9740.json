@@ -189,7 +189,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil der nicht Stimm- und Wahlberechtigten Bevölkerung"
+    "text": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -243,7 +243,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStaatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStaatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
