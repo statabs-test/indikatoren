@@ -5,7 +5,8 @@
   },
   "yAxis": {
     "min": undefined, 
-    tickInterval: 25,
+    type: 'logarithmic',
+    //tickInterval: 25,
 	"labels": {
 		"format": "{value:,.0f}"
 	},
