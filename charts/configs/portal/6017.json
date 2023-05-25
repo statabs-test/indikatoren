@@ -16,6 +16,14 @@
           48
         ],
         [
+          "Ukraine",
+          60
+        ],
+        [
+          "Italien",
+          44.4
+        ],
+        [
           "Spanien",
           46.5
         ],
@@ -24,16 +32,8 @@
           43.1
         ],
         [
-          "Italien",
-          44.4
-        ],
-        [
-          "USA",
-          51.9
-        ],
-        [
           "Übriges Ausland",
-          49.6
+          49.7
         ],
         [
           "Total",
@@ -59,6 +59,14 @@
           52
         ],
         [
+          "Ukraine",
+          40
+        ],
+        [
+          "Italien",
+          55.6
+        ],
+        [
           "Spanien",
           53.5
         ],
@@ -67,16 +75,8 @@
           56.9
         ],
         [
-          "Italien",
-          55.6
-        ],
-        [
-          "USA",
-          48.1
-        ],
-        [
           "Übriges Ausland",
-          50.4
+          50.3
         ],
         [
           "Total",
@@ -163,7 +163,7 @@
     "text": "Zugezogene nach Zuzugsland und Geschlecht"
   },
   "subtitle": {
-    "text": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
+    "text": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",

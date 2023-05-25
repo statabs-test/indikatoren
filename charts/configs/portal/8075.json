@@ -80,27 +80,27 @@
       "data": [
         [
           2017,
-          11.181434599
+          11.2
         ],
         [
           2018,
-          10.601819454
+          10.6
         ],
         [
           2019,
-          9.3995711222
+          9.4
         ],
         [
           2020,
-          9.3271626913
+          9.3
         ],
         [
           2021,
-          10.658421244
+          10.7
         ],
         [
           2022,
-          10.347296813
+          10.3
         ]
       ],
       "name": "Sozialhilfequote Kleinhüningen"
@@ -115,27 +115,27 @@
       "data": [
         [
           2017,
-          12.680909717
+          12.7
         ],
         [
           2018,
-          12.669683258
+          12.7
         ],
         [
           2019,
-          12.367002902
+          12.4
         ],
         [
           2020,
-          11.504922644
+          11.5
         ],
         [
           2021,
-          12.025316456
+          12
         ],
         [
           2022,
-          10.600656299
+          10.6
         ]
       ],
       "name": "Sozialhilfequote Klybeck"
@@ -150,27 +150,27 @@
       "data": [
         [
           2017,
-          6.670595769
+          6.7
         ],
         [
           2018,
-          6.5221430784
+          6.5
         ],
         [
           2019,
-          6.2857174999
+          6.3
         ],
         [
           2020,
-          6.0926375743
+          6.1
         ],
         [
           2021,
-          5.7306269552
+          5.7
         ],
         [
           2022,
-          5.339934577
+          5.3
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -297,8 +297,8 @@
     "itemMarginBottom": 2,
     "width": 260,
     "labelFormatter": function () {
-        return this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title
-        //return tmp.replace('Kleinhüningen','Kleinh.');
+        return this.name.replace("Bezüger ", "") 
+        .replace("Sozialhilfequote ", "");
       },
     "title": {
       "text": " \u003Cbr\u003EBezüger:\u003Cbr\u002F\u003EQuote (rechte Skala):",

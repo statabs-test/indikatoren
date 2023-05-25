@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -783
+          -759
         ],
         [
           "Ausland",
-          -272
+          -169
         ],
         [
           "Unbekannt",
-          -372
+          -312
         ],
         [
           "Total",
-          -1427
+          -1240
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -1507
+          -936
         ],
         [
           "Ausland",
-          2722
+          5446
         ],
         [
           "Unbekannt",
-          -788
+          -552
         ],
         [
           "Total",
-          427
+          3958
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -2290
+          -1695
         ],
         [
           "Ausland",
-          2450
+          5277
         ],
         [
           "Unbekannt",
-          -1160
+          -864
         ],
         [
           "Total",
-          -1000
+          2718
         ]
       ],
       "name": "Total",
@@ -149,7 +149,7 @@
     "text": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2021",
+    "text": "Basel-Stadt, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",

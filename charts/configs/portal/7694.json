@@ -80,27 +80,27 @@
       "data": [
         [
           2017,
-          12.970799831
+          13
         ],
         [
           2018,
-          12.431289641
+          12.4
         ],
         [
           2019,
-          12.274064733
+          12.3
         ],
         [
           2020,
-          11.482743928
+          11.5
         ],
         [
           2021,
-          10.501398752
+          10.5
         ],
         [
           2022,
-          10.249894113
+          10.2
         ]
       ],
       "name": "Sozialhilfequote Messe"
@@ -115,27 +115,27 @@
       "data": [
         [
           2017,
-          1.2253596164
+          1.2
         ],
         [
           2018,
-          1.6587677725
+          1.7
         ],
         [
           2019,
-          1.0057471264
+          1
         ],
         [
           2020,
-          0.3726287263
+          0.4
         ],
         [
           2021,
-          0.3045685279
+          0.3
         ],
         [
           2022,
-          0.1676727029
+          0.2
         ]
       ],
       "name": "Sozialhilfequote Erlenmatt"
@@ -150,27 +150,27 @@
       "data": [
         [
           2017,
-          6.670595769
+          6.7
         ],
         [
           2018,
-          6.5221430784
+          6.5
         ],
         [
           2019,
-          6.2857174999
+          6.3
         ],
         [
           2020,
-          6.0926375743
+          6.1
         ],
         [
           2021,
-          5.7306269552
+          5.7
         ],
         [
           2022,
-          5.339934577
+          5.3
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -295,8 +295,14 @@
     "width": 260,
     "itemMarginBottom": 2,
     "labelFormatter": function () {
+   
+          return this.name.replace("Bezüger ", "") 
+                          .replace("Sozialhilfequote ", "");
+  
+        
+        /*
         return this.name.split(" ").slice(1,2).toString(); //return only last word of legend-title
-        //return tmp.replace('Kleinhüningen','Kleinh.');
+      tmp.replace('Stadt,Basel','Stadt Basel');*/
       },
     "title": {
       "text": " \u003Cbr\u003EBezüger:\u003Cbr\u002F\u003EQuote (rechte Skala):",

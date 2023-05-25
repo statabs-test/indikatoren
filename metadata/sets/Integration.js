@@ -2372,8 +2372,8 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt",
-		"lesehilfe": "Im Vergleich zu 2021 ist die Sozialhilfequote bei allen Ländergruppen ausser jener der Arabischen gesunken. 2022 weisen Personen aus arabischen Ländern  mit 34,6% die höchste und deutsche Staatsangehörige mit 2,2% die tiefste Quote auf.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst",
+		"lesehilfe": "Im Vergleich zu 2021 ist die Sozialhilfequote bei allen Ländergruppen ausser jener der arabischen gesunken. 2022 weisen Personen aus arabischen Ländern  mit 34,6% die höchste und deutsche Staatsangehörige mit 2,2% die tiefste Quote auf.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
