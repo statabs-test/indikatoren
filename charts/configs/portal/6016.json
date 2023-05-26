@@ -181,7 +181,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "max": 100
   },
   "legend": {
     "symbolRadius": 0,

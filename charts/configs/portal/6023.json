@@ -24,13 +24,9 @@
         [
           "Frankreich",
           434
-        ],
-        [
-          "Übriges Ausland",
-          4239
         ]
       ],
-      "name": "Anz Zuzüger",
+      "name": "Zugezogene",
       "turboThreshold": 0
     },
     {
@@ -40,30 +36,26 @@
       "data": [
         [
           "Deutschland",
-          1085
+          -1085
         ],
         [
           "Ukraine",
-          115
+          -115
         ],
         [
           "Italien",
-          231
+          -231
         ],
         [
           "Spanien",
-          279
+          -279
         ],
         [
           "Frankreich",
-          429
-        ],
-        [
-          "Übriges Ausland",
-          2262
+          -429
         ]
       ],
-      "name": "Anz Wegzüger",
+      "name": "Weggezogene",
       "turboThreshold": 0
     },
     {
@@ -93,10 +85,6 @@
         [
           "Frankreich",
           5
-        ],
-        [
-          "Übriges Ausland",
-          1977
         ]
       ],
       "name": "Saldo",
