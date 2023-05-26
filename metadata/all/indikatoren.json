@@ -11944,7 +11944,7 @@
 		],
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
 		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt",
-		"lesehilfe": "54,5% der Personen, die 2022 aus der Schweiz nach Basel-Stadt ziehen, sind Schweizer Staatsangehörige (2013: 55,1%). 81,3% der aus Deutschland zuwandernden Personen sind deutsche Staatsangehörige, 96,9% der aus der Ukraine Zugewanderten sind ukrainische Staatsangehörige.",
+		"lesehilfe": "54,5% der Personen, die 2022 aus der Schweiz nach Basel-Stadt ziehen, sind Schweizer Staatsangehörige (2013: 55,1%). Von jenen, die aus Deutschland zugezogen sind, besitzen 72,6% die deutsche Staatsangehörigkeit, von den aus der Ukraine Zugewanderten sind 96,9% ukrainische Staatsangehörige.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12024,7 +12024,7 @@
 		],
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
 		"subtitle": "Basel-Stadt, 2013 bis 2022 zusammengefasst",
-		"lesehilfe": "Zwischen 2013 und 2022 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den 75- bis 79- und den über 79-Jährigen positiv.",
+		"lesehilfe": "Zwischen 2013 und 2022 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den den Personen ab 75 positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12064,7 +12064,7 @@
 		],
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
 		"subtitle": "Basel-Stadt, 2013 bis 2022 zusammengefasst",
-		"lesehilfe": "In den Jahren 2013 bis 2022 sind in allen Altersklassen zwischen 0 und 59 Jahren in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
+		"lesehilfe": "In den Jahren 2013 bis 2022 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12104,7 +12104,7 @@
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
 		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2022",
-		"lesehilfe": "2022 kamen 28% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (75%), Riehen (55%) und Hirzbrunnen (37%) besonders hoch. Überproportional hoch ist der Wert für Personen aus der Ukraine zum Beispiel in der Altstadt Grossbasel mit 2,5%.",
+		"lesehilfe": "2022 kamen 28% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (75%), Riehen (55%) und Hirzbrunnen (37%) besonders hoch.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12145,7 +12145,7 @@
 		],
 		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
 		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2022 verbuchte das Wohnviertel den grössten Wanderungsgewinn. Einen Wanderungsverlust verzeichnete beispielsweise Hirzbrunnen. Bei den innerkantonalen Umzügen weist Bettingen den höchsten Wert für den Umzugsgewinn pro 100 Einwohner auf. Den höchsten Bevölkerungssaldo infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) weist ebenfalls Bettingen auf. Den höchsten relativen Bevölkerungsverlust gabe es wiederum in Hirzbrunnen.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen der Schweiz oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2022 verbucht das Wohnviertel Vorstädte den grössten relativen Wanderungsgewinn. Einen Wanderungsverlust verzeichnet beispielsweise Hirzbrunnen. <br>Bei den innerkantonalen Umzügen weist Bettingen den höchsten Wert für den Umzugsgewinn pro 100 Einwohner auf. <br>Den höchsten positiven Saldo infolge sämtlicher räumlicher Bevölkerungsbewegungen pro 100 Einwohner (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) weist ebenfalls Bettingen auf. Den höchsten relativen Bevölkerungsverlust gibt es wiederum in Hirzbrunnen.",
 		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
