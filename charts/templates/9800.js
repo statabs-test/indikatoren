@@ -42,6 +42,9 @@
         "symbol": "circle",
       } 
     }
+  },
+  chart:{
+    marginRight: 20,
   }
 }
 }());
