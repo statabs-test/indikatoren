@@ -21071,7 +21071,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt, 2011 und 2020",
-		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens pro Veranlagung weist im Jahr 2020 mit ca. 2,8 Mio. Franken die Gemeinde Bettingen auf, gefolgt vom Wohnviertel Vorstädte mit rund 2,9 Mio. Franken. 2011 lag der höchste Wert im Wohnviertel Bruderholz.",
+		"lesehilfe": "Den höchsten Mittelwert des Reinvermögens pro Veranlagung weist im Jahr 2020 mit ca. 2,9 Mio. Franken das Wohnviertel Vorstädte auf, gefolgt von der Gemeinde Bettingen mit rund 2,9 Mio. Franken. 2011 lag der höchste Wert im Wohnviertel Bruderholz.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
