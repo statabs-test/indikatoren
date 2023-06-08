@@ -1,136 +1,236 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "data": [
-        [
-          "Umzug",
-          5407
-        ],
-        [
-          "Wegzug",
-          3436
-        ],
-        [
-          "Zusammenzug",
-          723
-        ],
-        [
-          "Zuzug",
-          3665
-        ],
-        [
-          "Keine Zuordnung möglich",
-          46
-        ]
-      ],
-      "name": "2013",
-      "turboThreshold": 0
-    },
-    {
       "color": "#008AC3",
       "data": [
         [
-          "Umzug",
+          2013,
+          5407
+        ],
+        [
+          2014,
           5313
         ],
         [
-          "Wegzug",
-          3673
-        ],
-        [
-          "Zusammenzug",
-          836
-        ],
-        [
-          "Zuzug",
-          3653
-        ],
-        [
-          "Keine Zuordnung möglich",
-          29
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#083038",
-      "data": [
-        [
-          "Umzug",
+          2015,
           5598
         ],
         [
-          "Wegzug",
-          3424
-        ],
-        [
-          "Zusammenzug",
-          817
-        ],
-        [
-          "Zuzug",
-          3572
-        ],
-        [
-          "Keine Zuordnung möglich",
-          43
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Umzug",
+          2016,
           5879
         ],
         [
-          "Wegzug",
+          2017,
+          5924
+        ],
+        [
+          2018,
+          6291
+        ],
+        [
+          2019,
+          6979
+        ],
+        [
+          2020,
+          6867
+        ],
+        [
+          2021,
+          6899
+        ],
+        [
+          2022,
+          6814
+        ]
+      ],
+      "name": "Umzug"
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          2013,
+          3436
+        ],
+        [
+          2014,
+          3673
+        ],
+        [
+          2015,
+          3424
+        ],
+        [
+          2016,
           3292
         ],
         [
-          "Zusammenzug",
+          2017,
+          3310
+        ],
+        [
+          2018,
+          3379
+        ],
+        [
+          2019,
+          3472
+        ],
+        [
+          2020,
+          3432
+        ],
+        [
+          2021,
+          3858
+        ],
+        [
+          2022,
+          3595
+        ]
+      ],
+      "name": "Wegzug"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2013,
+          723
+        ],
+        [
+          2014,
+          836
+        ],
+        [
+          2015,
+          817
+        ],
+        [
+          2016,
           765
         ],
         [
-          "Zuzug",
+          2017,
+          856
+        ],
+        [
+          2018,
+          890
+        ],
+        [
+          2019,
+          839
+        ],
+        [
+          2020,
+          861
+        ],
+        [
+          2021,
+          893
+        ],
+        [
+          2022,
+          884
+        ]
+      ],
+      "name": "Zusammenzug"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2013,
+          3665
+        ],
+        [
+          2014,
+          3653
+        ],
+        [
+          2015,
+          3572
+        ],
+        [
+          2016,
           3455
         ],
         [
-          "Keine Zuordnung möglich",
-          86
+          2017,
+          3412
+        ],
+        [
+          2018,
+          3444
+        ],
+        [
+          2019,
+          4249
+        ],
+        [
+          2020,
+          3981
+        ],
+        [
+          2021,
+          3853
+        ],
+        [
+          2022,
+          4402
         ]
       ],
-      "name": "2016",
-      "turboThreshold": 0
+      "name": "Zuzug"
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          2013,
+          46
+        ],
+        [
+          2014,
+          29
+        ],
+        [
+          2015,
+          43
+        ],
+        [
+          2016,
+          86
+        ],
+        [
+          2017,
+          51
+        ],
+        [
+          2018,
+          82
+        ],
+        [
+          2019,
+          83
+        ],
+        [
+          2020,
+          65
+        ],
+        [
+          2021,
+          40
+        ],
+        [
+          2022,
+          65
+        ]
+      ],
+      "name": "Keine Zuordnung möglich"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "formatter": function() {
-   			 return this.value.split("-").slice(0, -1);
-		}
-    },
-    "tickInterval": 12
-  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -160,6 +260,7 @@
 					}
 				}
     },
+    "marginRight": 20,
     "renderTo": "container-9800"
   },
   "plotOptions": {
@@ -193,6 +294,24 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "yAxis": {
     "min": 0,
     "gridLineWidth": 0.5,
@@ -209,11 +328,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+''; 
-      }
-    }
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 2000
   },
   "legend": {
     "enabled": true,
@@ -224,8 +341,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5,
-    "itemDistance": 10
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
