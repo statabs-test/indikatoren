@@ -512,6 +512,9 @@
 
 			//draw pies onto he map			    		    
 			drawPies: function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color) {
+
+console.log(color);
+
 				var fn = chart.userOptions.customFunctions;
 				fn["pieSizeSeries"] = pieSizeSeries;
 				fn["maxPieDiameter"] = fn["maxPieDiameter"] ? fn["maxPieDiameter"] : 20;
@@ -533,6 +536,7 @@
 					//create the highcharts pie chart config
 					var currentPieSeries = function (config) {
 						//define default properties
+
 						var mapPieConfig = {
 							type: 'mappie',
 							name: data.series.name,

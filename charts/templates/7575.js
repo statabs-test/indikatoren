@@ -26,11 +26,11 @@
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 1, y: 5
+		      	x: 0, y: 4
 		      },
 		      {
 		      //2nd series: use y values from column 3
-				y: 3
+				y:2
 		      }
 		    ]
         },
@@ -78,6 +78,8 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
+					//pieSizeSeries.colorKey="value";
+					console.log(chart.series)
 					console.log("choroplethSeries");
 					console.log(choroplethSeries);
 					console.log("pieSizeSeries");
@@ -89,6 +91,7 @@
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					console.log("extremeValues");
 					console.log(extremeValues);
+					
 					//define different colors for positive and negative values
 	                var color = function(value){
 	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
@@ -112,8 +115,7 @@
 	                        }
 	                    };
 					};
-					console.log(pieSizeSeries.points);
-		
+						
 
 					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
