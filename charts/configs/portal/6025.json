@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anzahl Zugezogene pro 100 Einwohner",
+      "name": "Anteil aus dem Ausland Zugezogene",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,284 +6563,9 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '  </b><br/>';
 					}
       },
-      "data": [
-        [
-          1,
-          11.8
-        ],
-        [
-          2,
-          14.8
-        ],
-        [
-          3,
-          10.9
-        ],
-        [
-          4,
-          7.4
-        ],
-        [
-          5,
-          8.2
-        ],
-        [
-          6,
-          8.7
-        ],
-        [
-          7,
-          4.5
-        ],
-        [
-          8,
-          5.7
-        ],
-        [
-          9,
-          6.6
-        ],
-        [
-          10,
-          6.5
-        ],
-        [
-          11,
-          7.9
-        ],
-        [
-          12,
-          9.8
-        ],
-        [
-          13,
-          10
-        ],
-        [
-          14,
-          9.6
-        ],
-        [
-          15,
-          3.7
-        ],
-        [
-          16,
-          11.7
-        ],
-        [
-          17,
-          9
-        ],
-        [
-          18,
-          7.8
-        ],
-        [
-          19,
-          8.3
-        ],
-        [
-          20,
-          4.1
-        ],
-        [
-          30,
-          6.2
-        ]
-      ]
-    },
-    {
-      "visible": false,
-      "data": [
-        [
-          "Altstadt Grossbasel",
-          0.1
-        ],
-        [
-          "Vorstädte",
-          0.1
-        ],
-        [
-          "Am Ring",
-          0.1
-        ],
-        [
-          "Breite",
-          0.1
-        ],
-        [
-          "St. Alban",
-          0.1
-        ],
-        [
-          "Gundeldingen",
-          0.1
-        ],
-        [
-          "Bruderholz",
-          0.1
-        ],
-        [
-          "Bachletten",
-          0.1
-        ],
-        [
-          "Gotthelf",
-          0.1
-        ],
-        [
-          "Iselin",
-          0.1
-        ],
-        [
-          "St. Johann",
-          0.1
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.1
-        ],
-        [
-          "Clara",
-          0.1
-        ],
-        [
-          "Wettstein",
-          0.1
-        ],
-        [
-          "Hirzbrunnen",
-          0.1
-        ],
-        [
-          "Rosental",
-          0.1
-        ],
-        [
-          "Matthäus",
-          0.1
-        ],
-        [
-          "Klybeck",
-          0.1
-        ],
-        [
-          "Kleinhüningen",
-          0.1
-        ],
-        [
-          "Riehen",
-          0.1
-        ],
-        [
-          "Bettingen",
-          0.1
-        ]
-      ],
-      "name": "Kuchengrösse"
-    },
-    {
-      "visible": false,
-      "type": "pie",
-      "color": "red",
-      "borderColor": "red",
-      "data": [
-        [
-          1,
-          33.3
-        ],
-        [
-          2,
-          26.3
-        ],
-        [
-          3,
-          33.7
-        ],
-        [
-          4,
-          46.6
-        ],
-        [
-          5,
-          38.3
-        ],
-        [
-          6,
-          48.8
-        ],
-        [
-          7,
-          43
-        ],
-        [
-          8,
-          42.3
-        ],
-        [
-          9,
-          43.5
-        ],
-        [
-          10,
-          44.1
-        ],
-        [
-          11,
-          34.2
-        ],
-        [
-          12,
-          46
-        ],
-        [
-          13,
-          33.9
-        ],
-        [
-          14,
-          32.1
-        ],
-        [
-          15,
-          40.2
-        ],
-        [
-          16,
-          29.2
-        ],
-        [
-          17,
-          34.1
-        ],
-        [
-          18,
-          33.8
-        ],
-        [
-          19,
-          25.5
-        ],
-        [
-          20,
-          39.3
-        ],
-        [
-          30,
-          47.6
-        ]
-      ],
-      "name": "Anteil Zugezogene nach Zuzugsland: Schweiz"
-    },
-    {
-      "visible": false,
-      "type": "pie",
-      "color": "blue",
-      "borderColor": "blue",
       "data": [
         [
           1,
@@ -6926,8 +6651,99 @@
           30,
           52.4
         ]
+      ]
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          11.8
+        ],
+        [
+          "Vorstädte",
+          14.8
+        ],
+        [
+          "Am Ring",
+          10.9
+        ],
+        [
+          "Breite",
+          7.4
+        ],
+        [
+          "St. Alban",
+          8.2
+        ],
+        [
+          "Gundeldingen",
+          8.7
+        ],
+        [
+          "Bruderholz",
+          4.5
+        ],
+        [
+          "Bachletten",
+          5.7
+        ],
+        [
+          "Gotthelf",
+          6.6
+        ],
+        [
+          "Iselin",
+          6.5
+        ],
+        [
+          "St. Johann",
+          7.9
+        ],
+        [
+          "Altstadt Kleinbasel",
+          9.8
+        ],
+        [
+          "Clara",
+          10
+        ],
+        [
+          "Wettstein",
+          9.6
+        ],
+        [
+          "Hirzbrunnen",
+          3.7
+        ],
+        [
+          "Rosental",
+          11.7
+        ],
+        [
+          "Matthäus",
+          9
+        ],
+        [
+          "Klybeck",
+          7.8
+        ],
+        [
+          "Kleinhüningen",
+          8.3
+        ],
+        [
+          "Riehen",
+          4.1
+        ],
+        [
+          "Bettingen",
+          6.2
+        ]
       ],
-      "name": "Anteil Zugezogene nach Zuzugsland: Ausland"
+      "name": "Anzahl Zugezogene pro 100 Einwohner"
     },
     {
       "name": "Rhein",
@@ -7348,8 +7164,10 @@
 					},
         "style": {
           "fontSize": "12px",
+          "fontFamily": "Arial",
           "fontWeight": "normal",
-          "color": "black"
+          "fontStyle": "normal",
+          "color": "#000000"
         },
         "y": -10
       }
@@ -7378,13 +7196,16 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					var pieSeries = [chart.series[3], chart.series[4]];
-
+					
 					//pie diameters in px
-					var maxPieDiameter = 15;
+					var maxPieDiameter = 24;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-
+					//define different colors for positive and negative values
+	                var color = function(value){
+	                	return (value >= 0) ? '#007A2F' : '#007A2F';
+	                };					
+					
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
@@ -7395,40 +7216,87 @@
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
-	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' % </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
 	                            }
-	                        },
+	                        }
 	                    };
 					};
-					var pieSizeCatConfig;
+					 var pieSizeCatConfig;
 					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
+	                var minValueInLegend = 1; 
+	                var maxValueInLegend = 20; 
 	                
-                	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anzahl Zugezogene pro 100 Einwohner", 255, 305);
+                	//Add manually drawn legend		
+                	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
+	                //fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom');
 	                
-	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
+	                
+					var zoomableLabels = [];
+	                zoomableLabels.push({
+	                	chart: chart, 
+	                	text: Highcharts.numberFormat((minValueInLegend), 0, "," ," "), 
+	                	x: 340, 
+	                	y: 245, 
+	                	cssClass: 'pieLegendRecalculateOnZoom', 
+	                	useHtml: false, 
+	                	initialValue: minValueInLegend,
+	                	align: 'right',
+	                	legendLabelZoomFormatter: function(value){
+	                		return Highcharts.numberFormat((value), 1, ",", " ");
+	                	},					
+	                }); 
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                //copy first label but overwrite some properties
+	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
+	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
+	                	y: 270,
+	                	initialValue: maxValueInLegend,
+	                }));
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                
+	                
 
-					fn.addLegendSquare(chart, 258, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 270, 260);
-					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 270, 280);
-
-					fn.addLegendLabelbold(chart, 'Anteil Zugezogene nach Zuzugsland', 255, 240);					
+					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
+					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
+					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
+					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
+					fn.addLegendLabelbold(chart, 'Anzahl Arbeitsstätten', 265, 220, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, 'Arbeitsstätten pro 100 Einwohner', 265, 300);
+					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					chart.update(
+					{
+						xAxis: {
+				    		events: {
+								//recalculate and hide svg elements on zoom
+								afterSetExtremes: function(e){
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
+								}
+				    		}
+						}
+					});
+					
 	            }
     },
     "renderTo": "container-6025"
+  },
+  "plotOptions": {
+    "series": {
+      "states": {
+        "inactive": {
+          "opacity": 1
+        }
+      }
+    }
   },
   "title": {
     "style": {
@@ -7463,7 +7331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
   },
   "colorAxis": {
     "min": 0,
@@ -7483,12 +7351,12 @@
     "marker": {
       "color": "black"
     },
-    "max": 15,
     "minColor": "#FFDA80",
-    "maxColor": "#45381D"
+    "maxColor": "#7F5F1A"
   },
   "mapNavigation": {
     "enabled": true,
+    "enableButtons": true,
     "enableDoubleClickZoom": false,
     "buttonOptions": {
       "align": "left",
@@ -7499,15 +7367,22 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontSize": "12px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "color": "#000000"
+    },
     "title": {
       "style": {
         "fontWeight": "normal",
-        "fontSize": "11px"
+        "fontSize": "12px"
       },
       "text": ""
     },
-    "x": -10,
-    "y": 0
+    "x": 0,
+    "y": 15
   },
   "xAxis": {
     "events": {
@@ -7597,8 +7472,14 @@
 					}
 				}
 			},
+    "pieValue": function(size, maxAbsValue, maxPieDiameter){
+				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
+				return value;
+			},
     "pieSize": function(value, maxAbsValue, maxPieDiameter){
-            	
+            	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
+            	return diameter;
+            	/*
             	function circleAreaByDiameter(diameter){
             		return Math.PI * diameter * diameter / 4;
             	}
@@ -7607,11 +7488,6 @@
             		return Math.sqrt(4 * area / Math.PI);
             	}
             	
-            	/*
-                var yAxis = chart.yAxis[0],
-                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-                */
-                
 				//Negative values: return absolute value
 				//size by Area: use sqrt of value to define size
 				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
@@ -7621,7 +7497,7 @@
 				
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
 				var relativeValue = Math.abs(value) / maxAbsValue ;
-				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+				
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
@@ -7630,8 +7506,8 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
+				*/
             },
     "defineTemplate": function(){
 
@@ -7646,6 +7522,13 @@
 					Highcharts.seriesType('mappie', 'pie', {
 					    center: null, // Can't be array by default anymore
 					    clip: true, // For map navigation
+					    states: {
+					        hover: {
+					            halo: {
+					                size: 5
+					            }
+					        }
+					    },
 					    dataLabels: {
 					        enabled: false
 					    }
@@ -7703,10 +7586,13 @@
 					    minAbsNumber: minAbsNumber
 					};
 				},
-    "drawPies": function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
-                    
+    "drawPies": function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+            		var fn = chart.userOptions.customFunctions;
+        			fn["pieSizeSeries"] = pieSizeSeries ;
+        			fn["maxPieDiameter"] = fn["maxPieDiameter"]  ? fn["maxPieDiameter"] : 20;
+        			
                     //iterate over each wohnviertel and draw the pies / bubbles
-	                pieSizeSeries.points.forEach(function (data, i) {
+	                pieSizeSeries.points.forEach(function (data) {
 	                    
 	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
@@ -7742,54 +7628,41 @@
     	                        
     	                        //defaults that are normally overwritten
 		                        sizeFormatter: function () {
-		                            var fn = this.chart.options.customFunctions;
+		                            var fn = this.chart.userOptions.customFunctions;
 									//pie diameters in px
-									var maxPieDiameter = 20;		 
+									var maxPieDiameter = fn.maxPieDiameter || 20;		 
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },
-		                        dataLabels: {
-							        enabled: false
-							    }, 
-							    data: [
-							    	/*
-		                        	//Pies: Two series
+		                        data: [
+		                        	//Bubbles: Only one element in the array
 		                        	{
-		                        		name: pieSeries[0].name,
+		                        		name: pieSizeSeries.name,
 		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(pieSeries[0].points[i].y),
-		                        		v: pieSeries[0].points[i].y,
-		                        		color: pieSeries[0].userOptions.color,
-		                        		borderColor: pieSeries[0].userOptions.borderColor
-		                        	},
-		                        	{
-		                        		name: pieSeries[1].name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(pieSeries[1].points[i].y),
-		                        		v: pieSeries[1].points[i].y,
-		                        		color: pieSeries[1].userOptions.color,
-		                        		borderColor: pieSeries[1].userOptions.borderColor
+		                        		y: Math.abs(data.value),
+		                        		v: data.value,
+		                        		color: color(data.value),
+		                        		borderColor: color(data.value)
 		                        	}
-		                        	*/
-						    	]
+		                        ],
+		                        dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 10.02.2021)
+									enabled: false,
+									distance: 0,
+									padding: 2,
+									x: -10,
+									borderWidth: 0,
+									style: {
+										textOutline: '0px'
+									},
+									formatter: function () {
+										return correspondingMapSeriesItem['Wohnviertel Id'];
+										//return correspondingMapSeriesItem.properties.LIBGEO;
+									}
+								},
+								colorAxis: false
 	                        };
-	                        
-	                        //add data object to mapPieConfig: for bubbles only one, for pies several
-	                        pieSeries.forEach(function(item, index, arr){
-	                        	mapPieConfig.data.push(
-	                        		{
-		                        		name: item.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(item.points[i].y),
-		                        		v: item.points[i].y,
-		                        		color: item.userOptions.color,
-		                        		borderColor: item.userOptions.borderColor
-		                        	}
-                        		);
-	                        });
-
 	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem);
+	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
 	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
 	                    };
@@ -7820,19 +7693,27 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 				},
-    "addLegendTitle": function(chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
+    "addLegendTitle": function (chart, text, x, y, cssClass, useHtml){
+            		return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    	                .attr({
+    			        	zIndex: 6,
+    			        	class: cssClass + ' pieLegendTitle'
+    			        })
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
-    	                .attr({
-    			        	zIndex: 6,
-    			        	//class: 'pieLegend'
-    			        }).add();	                
+    			        .add();	                
+                },
+    "addSubtitle": function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    					zIndex: 6,
+    					class: cssClass + ' pieSubtitle'
+    				}).add();
                 },
     "addLegendCircle": function(chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill).attr({
+                	return chart.renderer.circle(x, y, radius, fill)
+                	.attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
@@ -7856,11 +7737,14 @@
 					}
     				return label;
                 },
-    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
+    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml, initialValue){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    				.attr({
     					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
+    					class: cssClass +' pieLegend',
+    					initialValue: initialValue,
+    					initialText: text
+    					})
     				.css({
                         fontWeight: 'bold' }).
                      add();
@@ -7928,9 +7812,8 @@
 								}
 								//if stroke_active is present, set it to transparent white
 								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', passiveColor);
+									$(this).attr('stroke', $(this).attr('fill_passive') || passiveColor);
 								}
-
 							});
 							
 							//same for html text spans
@@ -7958,8 +7841,8 @@
 						svg = chart.sanitizeSVG(svg);
 						return svg;
 					};		            	
-		            chart.exportChart({type: type || 'image/png'});
-		            Highcharts.Chart.prototype.getSVG = origFn;					
+	                chart.exportChart({type: type || 'image/png'});
+	                Highcharts.Chart.prototype.getSVG = origFn;					
 				}
   }
 }

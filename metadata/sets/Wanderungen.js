@@ -52,7 +52,7 @@ var indikatorensetData = [
 		],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "2022 ergibt sich für den Kanton ein Wanderungsgewinn von total 2 718 Personen. Er kommt vor allem dadurch zustande, dass per Saldo mehr Ausländer nach Basel-Stadt zuziehen (+3 958) als Schweizer den Kanton verlassen (-1 240). Im Vorjahr (2021) wurde ein Wanderungsverlust von 1 000 Personen verzeichnet.",
+		"lesehilfe": "2022 ergibt sich für den Kanton ein Wanderungsgewinn von total 2 718 Personen. Er kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -1 240 bei den Schweizern ein Wanderungsgewinn von +3 958 bei den Ausländern gegenüber steht. Im Vorjahr (2021) wurde ein Wanderungsverlust von 1 000 Personen verzeichnet.",
 		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -405,7 +405,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
 		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2013 = 100)",
-		"lesehilfe": "2022 wird durch den starken Zuwachs an Zugezogenen aus der Ukraine geprägt (seit 2013 +7 613%). Einen stärkeren Rückgang seit 2013 gibt es bei Spanien (-18,8%).",
+		"lesehilfe": "2022 wird durch den starken Zuwachs an Zugezogenen aus der Ukraine geprägt (seit 2013 +7 513%; einblenden durch anklicken in der Legende). Einen stärkeren Rückgang seit 2013 gibt es bei Spanien (-18,8%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -434,7 +434,7 @@ var indikatorensetData = [
 		"id": 6024
 	},
 	{
-		"template": "mappie002",
+		"template": "mappie001",
 		"data-id": 6025,
 		"chart-id": 6025,
 		"filter": "",
@@ -470,7 +470,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "map",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:15",
+		"aktualisierungsdatum": "2023-06-07T08:10:17",
 		"id": 6025
 	}
 ];

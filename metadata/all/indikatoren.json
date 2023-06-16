@@ -11864,7 +11864,7 @@
 		],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "2022 ergibt sich für den Kanton ein Wanderungsgewinn von total 2 718 Personen. Er kommt vor allem dadurch zustande, dass per Saldo mehr Ausländer nach Basel-Stadt zuziehen (+3 958) als Schweizer den Kanton verlassen (-1 240). Im Vorjahr (2021) wurde ein Wanderungsverlust von 1 000 Personen verzeichnet.",
+		"lesehilfe": "2022 ergibt sich für den Kanton ein Wanderungsgewinn von total 2 718 Personen. Er kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -1 240 bei den Schweizern ein Wanderungsgewinn von +3 958 bei den Ausländern gegenüber steht. Im Vorjahr (2021) wurde ein Wanderungsverlust von 1 000 Personen verzeichnet.",
 		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12226,7 +12226,7 @@
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
 		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2013 = 100)",
-		"lesehilfe": "2022 wird durch den starken Zuwachs an Zugezogenen aus der Ukraine geprägt (seit 2013 +7 613%). Einen stärkeren Rückgang seit 2013 gibt es bei Spanien (-18,8%).",
+		"lesehilfe": "2022 wird durch den starken Zuwachs an Zugezogenen aus der Ukraine geprägt (seit 2013 +7 513%; einblenden durch anklicken in der Legende). Einen stärkeren Rückgang seit 2013 gibt es bei Spanien (-18,8%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12256,7 +12256,7 @@
 		"id": 6024
 	},
 	{
-		"template": "mappie002",
+		"template": "mappie001",
 		"data-id": 6025,
 		"chart-id": 6025,
 		"filter": "",
@@ -12293,7 +12293,7 @@
 		"printformat": "map",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-30T08:51:15",
+		"aktualisierungsdatum": "2023-06-07T08:10:17",
 		"id": 6025
 	},
 	{
@@ -22590,7 +22590,7 @@
 		],
 		"title": "Verteilung des Äquivalenz-Haushaltseinkommens",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
-		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel­Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel­Stadt sind bspw. im Mittel der Jahre 2017 bis 2019 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (25,3%) und im 5. Quintil (22,9%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel­Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile im 1. und 5. Quintil liegen auch über 20%, beim 5. Quintil mit 20,4% allerdings nur knapp.",
+		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel­Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel­Stadt sind bspw. im Mittel der Jahre 2020 bis 2022 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (29,0%) und im 5. Quintil (26,4%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel­Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile liegen mit 19,5% (1. Quintil) bzw. 19,9% (5. Quintil) sehr nahe bei 20%.",
 		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
