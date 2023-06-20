@@ -6563,7 +6563,7 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '  </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%  </b><br/>';
 					}
       },
       "data": [
@@ -7198,7 +7198,7 @@
 					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
-					var maxPieDiameter = 24;
+					var maxPieDiameter = 18;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					//define different colors for positive and negative values
@@ -7217,7 +7217,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '  </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -7266,8 +7266,8 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendLabelbold(chart, 'Anzahl Arbeitsstätten', 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Arbeitsstätten pro 100 Einwohner', 265, 300);
+					fn.addLegendLabelbold(chart, 'Zugezogene pro 100 Einwohner', 265, 225, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, 'Anteil aus dem Ausland Zugezogene', 265, 315);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -7306,7 +7306,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner"
+    "text": "Anteil aus dem Ausland Zugezogene und Zugezogene pro 100 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -7334,7 +7334,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2023"
   },
   "colorAxis": {
-    "min": 0,
+    "min": 40,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -7352,7 +7352,7 @@
       "color": "black"
     },
     "minColor": "#FFDA80",
-    "maxColor": "#7F5F1A"
+    "maxColor": "#45381D"
   },
   "mapNavigation": {
     "enabled": true,
