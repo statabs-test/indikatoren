@@ -80492,6 +80492,44 @@
 		"id": 9785
 	},
 	{
+		"template": "mappie002",
+		"data-id": 9862,
+		"chart-id": 9862,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wanderung aus dem Ausland",
+		"subtitle": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			""
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "",
+		"thema": "",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "",
+		"darstellungsart": "Karte",
+		"printformat": "map",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "",
+		"id": 9862
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
