@@ -128,7 +128,8 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 								pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b> (' +  Highcharts.numberFormat((this.percentage),1) + '%)' + '<br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b> (' +  Highcharts.numberFormat((this.percentage),1) + '%)' + '<br/>' +
+									'Total aus dem Ausland: <b>' + Highcharts.numberFormat((this.total),0) + '</b>';
 	                            }
 	                        }
 	                    };
