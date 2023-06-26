@@ -147,7 +147,7 @@
 					fn.addLegendSquare(chart, 255, 265, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Ukraine', 265, 259);
 					fn.addLegendSquare(chart, 255, 285, 10, '#C8C8C8');
-					fn.addLegendLabel(chart, 'Übrigen Ländern', 265, 279);
+					fn.addLegendLabel(chart, 'Übrige Länder', 265, 279);
 					
 					//pie values in legend
 	                var minValueInLegend = 10; 
