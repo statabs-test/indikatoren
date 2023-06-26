@@ -1,29 +1,27 @@
-{
+﻿{
     "id": 9862,
     "template": "mappie002",
     "data-id": 9862,
     "chart-id": 9862,
     "filter": "",
     "parentId": null,
-    "children": [
-        
-    ],
-    "title": "Wanderung aus dem Ausland",
-    "subtitle": "",
-    "lesehilfe": "",
-    "erlaeuterungen": "",
+    "children": [],
+    "title": "Aus dem Ausland Zugezogene",
+    "subtitle": "total sowie zwei wichtigste ausländische Zuzugsländer, Basel-Stadt",
+    "lesehilfe": "Im Jahr 2022 ist der Anteil der aus dem Ausland Zugezogenen in den Wohnvierteln Vorstädte, Rosental und Kleinhüningen am höchsten (>70%). In Bettingen sind 43 Personen aus dem Ausland zugeogenen, 31 davon haben zuvor in Deutschland gelebt, 7 in der Ukraine.",
+    "erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
     "quellenangabe": [
-        ""
+        "Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
     ],
     "externalLinks": [],
     "renderLink": [],
     "raeumlicheGliederung": [
-        "Wohnviertel"
+        "Kanton"
     ],
-    "description": "",
-    "thema": "",
-    "unterthema": "",
-    "kuerzel": "",
+    "description": "Aus dem Ausland Zugezogene",
+    "thema": "01 Bevölkerung",
+    "unterthema": "Wanderungen",
+    "kuerzel": "I.01.5.09862",
     "kennzahlenset": "",
     "kuerzelKunde": "",
     "stufe1": "",
@@ -31,11 +29,11 @@
     "stufe3": "",
     "stufe4": "",
     "stufe5": "",
-    "orderKey": "",
-    "darstellungsart": "Karte",
-    "printformat": "map",
+    "orderKey": "_000",
+    "darstellungsart": "",
+    "printformat": "",
     "visible": true,
     "visibleInPortal": true,
     "datenInChartIntegriert": false,
-    "aktualisierungsdatum": ""
+    "aktualisierungsdatum": "2023-06-21T01:35:35"
 }
