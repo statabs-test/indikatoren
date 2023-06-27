@@ -14,7 +14,7 @@
 			}
 			},
 		"colorAxis": {
-			min: 0.4,
+			min: 0.5,
 			max: 0.8,
 			tickInterval: 0.1,
 			"minColor": "#E7CEE2",
