@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#0091f7",
+      "showInNavigator": true,
+      "zIndex": 2,
       "data": [
         [
           1774,
@@ -589,1201 +591,21 @@
         ]
       ],
       "name": "Bevölkerung"
-    },
-    {
-      "type": "line",
-      "dashStyle": "ShortDash",
-      "color": "#999999",
-      "data": [
-        [
-          1774,
-          null
-        ],
-        [
-          1815,
-          null
-        ],
-        [
-          1835,
-          null
-        ],
-        [
-          1837,
-          null
-        ],
-        [
-          1847,
-          null
-        ],
-        [
-          1850,
-          null
-        ],
-        [
-          1860,
-          null
-        ],
-        [
-          1870,
-          null
-        ],
-        [
-          1880,
-          null
-        ],
-        [
-          1888,
-          null
-        ],
-        [
-          1900,
-          null
-        ],
-        [
-          1901,
-          null
-        ],
-        [
-          1902,
-          null
-        ],
-        [
-          1903,
-          null
-        ],
-        [
-          1904,
-          null
-        ],
-        [
-          1905,
-          null
-        ],
-        [
-          1906,
-          null
-        ],
-        [
-          1907,
-          null
-        ],
-        [
-          1908,
-          null
-        ],
-        [
-          1909,
-          null
-        ],
-        [
-          1910,
-          null
-        ],
-        [
-          1911,
-          null
-        ],
-        [
-          1912,
-          null
-        ],
-        [
-          1913,
-          null
-        ],
-        [
-          1914,
-          null
-        ],
-        [
-          1915,
-          null
-        ],
-        [
-          1916,
-          null
-        ],
-        [
-          1917,
-          null
-        ],
-        [
-          1918,
-          null
-        ],
-        [
-          1919,
-          null
-        ],
-        [
-          1920,
-          null
-        ],
-        [
-          1921,
-          null
-        ],
-        [
-          1922,
-          null
-        ],
-        [
-          1923,
-          null
-        ],
-        [
-          1924,
-          null
-        ],
-        [
-          1925,
-          null
-        ],
-        [
-          1926,
-          null
-        ],
-        [
-          1927,
-          null
-        ],
-        [
-          1928,
-          null
-        ],
-        [
-          1929,
-          null
-        ],
-        [
-          1930,
-          null
-        ],
-        [
-          1931,
-          null
-        ],
-        [
-          1932,
-          null
-        ],
-        [
-          1933,
-          null
-        ],
-        [
-          1934,
-          null
-        ],
-        [
-          1935,
-          null
-        ],
-        [
-          1936,
-          null
-        ],
-        [
-          1937,
-          null
-        ],
-        [
-          1938,
-          null
-        ],
-        [
-          1939,
-          null
-        ],
-        [
-          1940,
-          null
-        ],
-        [
-          1941,
-          null
-        ],
-        [
-          1942,
-          null
-        ],
-        [
-          1943,
-          null
-        ],
-        [
-          1944,
-          null
-        ],
-        [
-          1945,
-          null
-        ],
-        [
-          1946,
-          null
-        ],
-        [
-          1947,
-          null
-        ],
-        [
-          1948,
-          null
-        ],
-        [
-          1949,
-          null
-        ],
-        [
-          1950,
-          null
-        ],
-        [
-          1951,
-          null
-        ],
-        [
-          1952,
-          null
-        ],
-        [
-          1953,
-          null
-        ],
-        [
-          1954,
-          null
-        ],
-        [
-          1955,
-          null
-        ],
-        [
-          1956,
-          null
-        ],
-        [
-          1957,
-          null
-        ],
-        [
-          1958,
-          null
-        ],
-        [
-          1959,
-          null
-        ],
-        [
-          1960,
-          null
-        ],
-        [
-          1961,
-          null
-        ],
-        [
-          1962,
-          null
-        ],
-        [
-          1963,
-          null
-        ],
-        [
-          1964,
-          null
-        ],
-        [
-          1965,
-          null
-        ],
-        [
-          1966,
-          null
-        ],
-        [
-          1967,
-          null
-        ],
-        [
-          1968,
-          null
-        ],
-        [
-          1969,
-          null
-        ],
-        [
-          1970,
-          null
-        ],
-        [
-          1971,
-          null
-        ],
-        [
-          1972,
-          null
-        ],
-        [
-          1973,
-          null
-        ],
-        [
-          1974,
-          null
-        ],
-        [
-          1975,
-          null
-        ],
-        [
-          1976,
-          null
-        ],
-        [
-          1977,
-          null
-        ],
-        [
-          1978,
-          null
-        ],
-        [
-          1979,
-          null
-        ],
-        [
-          1980,
-          null
-        ],
-        [
-          1981,
-          null
-        ],
-        [
-          1982,
-          null
-        ],
-        [
-          1983,
-          null
-        ],
-        [
-          1984,
-          null
-        ],
-        [
-          1985,
-          null
-        ],
-        [
-          1986,
-          null
-        ],
-        [
-          1987,
-          null
-        ],
-        [
-          1988,
-          null
-        ],
-        [
-          1989,
-          null
-        ],
-        [
-          1990,
-          null
-        ],
-        [
-          1991,
-          null
-        ],
-        [
-          1992,
-          null
-        ],
-        [
-          1993,
-          null
-        ],
-        [
-          1994,
-          null
-        ],
-        [
-          1995,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          1997,
-          null
-        ],
-        [
-          1998,
-          null
-        ],
-        [
-          1999,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2001,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2007,
-          null
-        ],
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
-        [
-          2010,
-          null
-        ],
-        [
-          2011,
-          null
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          null
-        ],
-        [
-          2019,
-          200407
-        ],
-        [
-          2020,
-          201632
-        ],
-        [
-          2021,
-          202856
-        ],
-        [
-          2022,
-          204081
-        ],
-        [
-          2023,
-          205305
-        ],
-        [
-          2024,
-          206530
-        ],
-        [
-          2025,
-          207754
-        ],
-        [
-          2026,
-          208979
-        ],
-        [
-          2027,
-          210204
-        ],
-        [
-          2028,
-          211428
-        ],
-        [
-          2029,
-          212653
-        ],
-        [
-          2030,
-          213877
-        ],
-        [
-          2031,
-          215102
-        ],
-        [
-          2032,
-          216326
-        ],
-        [
-          2033,
-          217551
-        ],
-        [
-          2034,
-          218775
-        ],
-        [
-          2035,
-          220000
-        ]
-      ],
-      "name": "Zielpfad"
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          1774,
-          null
-        ],
-        [
-          1815,
-          null
-        ],
-        [
-          1835,
-          null
-        ],
-        [
-          1837,
-          null
-        ],
-        [
-          1847,
-          null
-        ],
-        [
-          1850,
-          null
-        ],
-        [
-          1860,
-          null
-        ],
-        [
-          1870,
-          null
-        ],
-        [
-          1880,
-          null
-        ],
-        [
-          1888,
-          null
-        ],
-        [
-          1900,
-          null
-        ],
-        [
-          1901,
-          null
-        ],
-        [
-          1902,
-          null
-        ],
-        [
-          1903,
-          null
-        ],
-        [
-          1904,
-          null
-        ],
-        [
-          1905,
-          null
-        ],
-        [
-          1906,
-          null
-        ],
-        [
-          1907,
-          null
-        ],
-        [
-          1908,
-          null
-        ],
-        [
-          1909,
-          null
-        ],
-        [
-          1910,
-          null
-        ],
-        [
-          1911,
-          null
-        ],
-        [
-          1912,
-          null
-        ],
-        [
-          1913,
-          null
-        ],
-        [
-          1914,
-          null
-        ],
-        [
-          1915,
-          null
-        ],
-        [
-          1916,
-          null
-        ],
-        [
-          1917,
-          null
-        ],
-        [
-          1918,
-          null
-        ],
-        [
-          1919,
-          null
-        ],
-        [
-          1920,
-          null
-        ],
-        [
-          1921,
-          null
-        ],
-        [
-          1922,
-          null
-        ],
-        [
-          1923,
-          null
-        ],
-        [
-          1924,
-          null
-        ],
-        [
-          1925,
-          null
-        ],
-        [
-          1926,
-          null
-        ],
-        [
-          1927,
-          null
-        ],
-        [
-          1928,
-          null
-        ],
-        [
-          1929,
-          null
-        ],
-        [
-          1930,
-          null
-        ],
-        [
-          1931,
-          null
-        ],
-        [
-          1932,
-          null
-        ],
-        [
-          1933,
-          null
-        ],
-        [
-          1934,
-          null
-        ],
-        [
-          1935,
-          null
-        ],
-        [
-          1936,
-          null
-        ],
-        [
-          1937,
-          null
-        ],
-        [
-          1938,
-          null
-        ],
-        [
-          1939,
-          null
-        ],
-        [
-          1940,
-          null
-        ],
-        [
-          1941,
-          null
-        ],
-        [
-          1942,
-          null
-        ],
-        [
-          1943,
-          null
-        ],
-        [
-          1944,
-          null
-        ],
-        [
-          1945,
-          null
-        ],
-        [
-          1946,
-          null
-        ],
-        [
-          1947,
-          null
-        ],
-        [
-          1948,
-          null
-        ],
-        [
-          1949,
-          null
-        ],
-        [
-          1950,
-          null
-        ],
-        [
-          1951,
-          null
-        ],
-        [
-          1952,
-          null
-        ],
-        [
-          1953,
-          null
-        ],
-        [
-          1954,
-          null
-        ],
-        [
-          1955,
-          null
-        ],
-        [
-          1956,
-          null
-        ],
-        [
-          1957,
-          null
-        ],
-        [
-          1958,
-          null
-        ],
-        [
-          1959,
-          null
-        ],
-        [
-          1960,
-          null
-        ],
-        [
-          1961,
-          null
-        ],
-        [
-          1962,
-          null
-        ],
-        [
-          1963,
-          null
-        ],
-        [
-          1964,
-          null
-        ],
-        [
-          1965,
-          null
-        ],
-        [
-          1966,
-          null
-        ],
-        [
-          1967,
-          null
-        ],
-        [
-          1968,
-          null
-        ],
-        [
-          1969,
-          null
-        ],
-        [
-          1970,
-          null
-        ],
-        [
-          1971,
-          null
-        ],
-        [
-          1972,
-          null
-        ],
-        [
-          1973,
-          null
-        ],
-        [
-          1974,
-          null
-        ],
-        [
-          1975,
-          null
-        ],
-        [
-          1976,
-          null
-        ],
-        [
-          1977,
-          null
-        ],
-        [
-          1978,
-          null
-        ],
-        [
-          1979,
-          null
-        ],
-        [
-          1980,
-          null
-        ],
-        [
-          1981,
-          null
-        ],
-        [
-          1982,
-          null
-        ],
-        [
-          1983,
-          null
-        ],
-        [
-          1984,
-          null
-        ],
-        [
-          1985,
-          null
-        ],
-        [
-          1986,
-          null
-        ],
-        [
-          1987,
-          null
-        ],
-        [
-          1988,
-          null
-        ],
-        [
-          1989,
-          null
-        ],
-        [
-          1990,
-          null
-        ],
-        [
-          1991,
-          null
-        ],
-        [
-          1992,
-          null
-        ],
-        [
-          1993,
-          null
-        ],
-        [
-          1994,
-          null
-        ],
-        [
-          1995,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          1997,
-          null
-        ],
-        [
-          1998,
-          null
-        ],
-        [
-          1999,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2001,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2007,
-          null
-        ],
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
-        [
-          2010,
-          null
-        ],
-        [
-          2011,
-          null
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          null
-        ],
-        [
-          2019,
-          null
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          2
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
-          null
-        ],
-        [
-          2026,
-          null
-        ],
-        [
-          2027,
-          null
-        ],
-        [
-          2028,
-          null
-        ],
-        [
-          2029,
-          null
-        ],
-        [
-          2030,
-          null
-        ],
-        [
-          2031,
-          null
-        ],
-        [
-          2032,
-          null
-        ],
-        [
-          2033,
-          null
-        ],
-        [
-          2034,
-          null
-        ],
-        [
-          2035,
-          null
-        ]
-      ],
-      "name": "Bewertung"
     }
   ],
-  "isStock": true,
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
       "load": function () {
           this.credits.element.onclick = function () { };
@@ -1798,7 +620,7 @@
               }
             );
           }
-
+/*
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
@@ -1820,7 +642,7 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-            data.forEach(function (element, i) {
+          data.forEach(function (element, i) {
             if (assessed[i].y !== null) {
               element.update({
                 color: colors[assessed[i].y],
@@ -1843,18 +665,13 @@
               }
             }
           });
+*/
         }
     },
-    "type": "line",
     "renderTo": "container-9784"
   },
   "plotOptions": {
     "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
       "marker": {
         "enabled": false,
         "radius": 4
@@ -1862,28 +679,28 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Bevölkerung"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "ordinal": false,
+    "tickLength": 0,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -1891,18 +708,16 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true
+    "min": 2010
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
+    "min": null,
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -1916,15 +731,16 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "showLastLabel": true,
-    "endOnTick": true,
-    "opposite": false
+    }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "credits": {
@@ -1940,66 +756,60 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 11.5.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
-  },
-  "rangeSelector": {
-    "verticalAlign": "bottom",
-    "buttonPosition": {},
-    "buttons": [
-      {
-        "count": 20,
-        "type": "year",
-        "text": "20 J"
-      },
-      {
-        "count": 50,
-        "type": "year",
-        "text": "50 J"
-      },
-      {
-        "count": 100,
-        "type": "year",
-        "text": "100 J"
-      },
-      {
-        "type": "all",
-        "text": "Alle J"
-      }
-    ],
-    "buttonSpacing": 15,
-    "inputEnabled": false,
-    "selected": 0,
-    "inputDateFormat": "%Y",
-    "inputEditDateFormat": "%Y"
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "navigator": {
-    "margin": 10,
-    "height": 30,
+    "enabled": true,
     "series": {
-      "includeInCSVExport": false
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 0
+      }
     },
-    "outlineColor": "#B9CFD7"
-  },
-  "tooltip": {
-    "dateTimeLabelFormats": {
-      "day": "%A, %e. %b. %Y"
-    },
-    "xDateFormat": "%A, %e. %b. %Y"
+    "xAxis": {
+      "labels": {
+        "formatter": function () {
+            return this.value;
+          }
+      }
+    }
   },
   "exporting": {
-    "csv": {
-      "dateFormat": "%d.%m.%Y"
-    },
     "filename": "9784"
   }
 }

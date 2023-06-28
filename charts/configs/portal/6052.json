@@ -26,6 +26,10 @@
         [
           "2020",
           75.2
+        ],
+        [
+          "2021",
+          75.3
         ]
       ],
       "name": "Männer",
@@ -33,6 +37,76 @@
     },
     {
       "color": "#DC440E",
+      "data": [
+        [
+          "1970",
+          null
+        ],
+        [
+          "1980",
+          null
+        ],
+        [
+          "1990",
+          null
+        ],
+        [
+          "2000",
+          null
+        ],
+        [
+          "2010",
+          74.1
+        ],
+        [
+          "2020",
+          73.1
+        ],
+        [
+          "2021",
+          73.2
+        ]
+      ],
+      "name": "Männer 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "1970",
+          null
+        ],
+        [
+          "1980",
+          null
+        ],
+        [
+          "1990",
+          null
+        ],
+        [
+          "2000",
+          null
+        ],
+        [
+          "2010",
+          77.9
+        ],
+        [
+          "2020",
+          77.2
+        ],
+        [
+          "2021",
+          77.5
+        ]
+      ],
+      "name": "Männer 95% Konfidenzintervall Obergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
       "data": [
         [
           "1970",
@@ -57,71 +131,13 @@
         [
           "2020",
           68.7
+        ],
+        [
+          "2021",
+          69.5
         ]
       ],
       "name": "Frauen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "1970",
-          68.1
-        ],
-        [
-          "1980",
-          68.6
-        ],
-        [
-          "1990",
-          71.2
-        ],
-        [
-          "2000",
-          73.2
-        ],
-        [
-          "2010",
-          72.8
-        ],
-        [
-          "2020",
-          72.3
-        ]
-      ],
-      "name": "Schweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "1970",
-          84.4
-        ],
-        [
-          "1980",
-          77
-        ],
-        [
-          "1990",
-          76.1
-        ],
-        [
-          "2000",
-          71.7
-        ],
-        [
-          "2010",
-          71.5
-        ],
-        [
-          "2020",
-          71.3
-        ]
-      ],
-      "name": "Ausland",
       "turboThreshold": 0
     },
     {
@@ -129,30 +145,34 @@
       "data": [
         [
           "1970",
-          70.9
+          null
         ],
         [
           "1980",
-          70.1
+          null
         ],
         [
           "1990",
-          72.5
+          null
         ],
         [
           "2000",
-          72.7
+          null
         ],
         [
           "2010",
-          72.3
+          66.6
         ],
         [
           "2020",
-          71.9
+          66.5
+        ],
+        [
+          "2021",
+          67.3
         ]
       ],
-      "name": "Total",
+      "name": "Frauen 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -230,7 +250,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettoerwerbstätigenquote nach Geschlecht, Herkunft und Alter"
+    "text": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -291,7 +311,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 26.7.2022"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

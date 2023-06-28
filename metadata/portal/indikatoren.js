@@ -10068,6 +10068,44 @@ var indikatoren = [
 		"id": 5183
 	},
 	{
+		"template": "line001",
+		"data-id": 5184,
+		"chart-id": 9693,
+		"filter": "",
+		"parentId": "9693",
+		"children": [],
+		"title": "Sozialhilfequote",
+		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
+		"lesehilfe": "In der Stadt Basel bezogen 2021 5,7% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2020.<br><h2>Zielwert:</h2>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Regierungsratsbeschluss).<br><h2>Ampelwerte:</h2><div class='ampelblock'><p>Quote Basel entwickelt sich gleich wie oder besser als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich leicht schlechter (bis 0,3 Prozentpunkte) als in den Vergleichsstädten</p><p>Quote Basel entwickelt sich klar schlechter (mehr als 0,3 Prozentpunkte) als in den Vergleichsstädten</p></div>",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Sozialhilfequote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.05184",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW6",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_02_00_00_00_306",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-05-30T08:41:45",
+		"id": 5184
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 5185,
 		"chart-id": 5185,
@@ -10106,7 +10144,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-23T07:58:49",
+		"aktualisierungsdatum": "2023-05-25T07:08:47",
 		"id": 5185
 	},
 	{
@@ -10532,7 +10570,7 @@ var indikatoren = [
 		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2018 4,35 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 0,99 globale Hektaren pro Kopf betrug.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2022 3,74 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,13 globale Hektaren pro Kopf betrug. Die letzten drei Datenjahre sind Schätzungen.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"quellenangabe": [
 			"Global Footprint Network"
@@ -10561,7 +10599,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-06T08:07:26",
+		"aktualisierungsdatum": "2023-06-09T12:32:45",
 		"id": 5793
 	},
 	{
@@ -12134,7 +12172,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2018 um 24,3% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2020 um 135,5% höher.",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2021 um 117,9% höher. Die letzten drei Datenjahre des ökologischen Fussabdrucks sind Schätzungen.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"quellenangabe": [
 			"BAK Economics",
@@ -12163,7 +12201,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-06T08:07:27",
+		"aktualisierungsdatum": "2023-06-15T08:48:28",
 		"id": 6051
 	},
 	{
@@ -12175,10 +12213,10 @@ var indikatoren = [
 		"children": [
 			8941
 		],
-		"title": "Nettoerwerbstätigenquote nach Geschlecht, Herkunft und Alter",
+		"title": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2020 insgesamt bei 71,9%. Bei den Männern lag sie mit 75,2% über derjenigen der Frauen (68,7%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2021 insgesamt bei 72,4%. Bei den Männern lag sie mit 75,3% über derjenigen der Frauen (69,5%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Anpassungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -12188,7 +12226,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Nettoerwerbstätigenquote nach Geschlecht, Herkunft und Alter",
+		"description": "Nettoerwerbstätigenquote nach Geschlecht und Herkunft",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.6052",
@@ -12204,7 +12242,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-26T08:26:43",
+		"aktualisierungsdatum": "2023-06-13T02:26:42",
 		"id": 6052
 	},
 	{
@@ -12299,10 +12337,10 @@ var indikatoren = [
 		"children": [
 			8945
 		],
-		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
+		"title": "Anteil Teilzeiterwerbstätige nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "21,5% der erwerbstätigen Männer gingen 2020 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2020 bei 49,8%.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse ab 2018 nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "19,6% der erwerbstätigen Männer gingen 2021 einer Teilzeitbeschäftigung nach; 1970 waren es 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2021 bei 48,5%.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Das Konfidenzintervall (schwarzer Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen der Erhebungsmethode und der Gewichtung können die Ergebnisse seit 2018 nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -12312,7 +12350,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht und Alter",
+		"description": "Anteil Teilzeiterwerbstätige nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kuerzel": "I.03.1.6056",
@@ -12328,7 +12366,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-01-16T08:19:42",
+		"aktualisierungsdatum": "2023-06-13T02:26:43",
 		"id": 6056
 	},
 	{
@@ -18077,7 +18115,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2020 bei den Männern etwa 39%, bei den Frauen rund 32%.",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2022 bei den Männern etwa 40%, bei den Frauen rund 26%.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -36983,7 +37021,7 @@ var indikatoren = [
 		],
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt 57,2 im Jahr 2021, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,2 Personen die jünger oder älter sind.",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2022 57,3, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,3 Personen, die jünger oder älter sind.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37009,7 +37047,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-17T09:56:36",
+		"aktualisierungsdatum": "2023-06-15T08:48:25",
 		"id": 8379
 	},
 	{
@@ -37882,14 +37920,15 @@ var indikatoren = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "2022 wurden im Stadtzentrum an der Station Feldbergstrasse 18 Tropennächte registriert, an der Station Basel-Binningen am Stadtrand nur deren 5.",
+		"erlaeuterungen": "Anzahl Nächte pro Jahr, in denen die Lufttemperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
 			"<a href = 'https://www.stadtklima.bs.ch/' target = '_blank'>Stadtklima BS</a>",
-			"<a href = 'https://www.nccs.admin.ch/nccs/de/home/regionen/staedte-und-gemeinden/klimawandel-in-den-staedten.html' target = '_blank'>Hitzeszenarien für Schweizer Städte (MeteoSchweiz)</a>"
+			"<a href = 'https://www.nccs.admin.ch/nccs/de/home/regionen/staedte-und-gemeinden/klimawandel-in-den-staedten.html' target = '_blank'>Hitzeszenarien für Schweizer Städte (MeteoSchweiz)</a>",
+			"<a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Indikator Tropennächte</a> im Umweltbericht beider Basel"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -43450,7 +43489,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:42",
+		"aktualisierungsdatum": "2023-05-24T08:23:25",
 		"id": 9734
 	},
 	{
@@ -43729,9 +43768,9 @@ var indikatoren = [
 		"id": 9741
 	},
 	{
-		"template": "stock001",
+		"template": "line001",
 		"data-id": 9784,
-		"chart-id": 9673,
+		"chart-id": 9784,
 		"filter": "",
 		"parentId": "9673",
 		"children": [],
@@ -43763,7 +43802,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-11T08:14:28",
+		"aktualisierungsdatum": "2023-05-17T08:55:09",
 		"id": 9784
 	},
 	{

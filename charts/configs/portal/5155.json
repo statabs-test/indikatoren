@@ -8,10 +8,6 @@
       "zIndex": 5,
       "data": [
         [
-          2012,
-          215
-        ],
-        [
           2013,
           99
         ],
@@ -60,10 +56,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2012,
-          7994
-        ],
         [
           2013,
           8953
@@ -114,10 +106,6 @@
       "legendIndex": 2,
       "data": [
         [
-          2012,
-          2854
-        ],
-        [
           2013,
           3062
         ],
@@ -166,10 +154,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          3116
-        ],
         [
           2013,
           3122
@@ -220,10 +204,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2012,
-          -1525
-        ],
-        [
           2013,
           -1600
         ],
@@ -272,10 +252,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2012,
-          -4286
-        ],
         [
           2013,
           -4687
@@ -326,10 +302,6 @@
       "legendIndex": 2,
       "data": [
         [
-          2012,
-          -2606
-        ],
-        [
           2013,
           -2760
         ],
@@ -378,10 +350,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          -4024
-        ],
         [
           2013,
           -4290
@@ -433,10 +401,6 @@
       },
       "legendIndex": 4,
       "data": [
-        [
-          2012,
-          1738
-        ],
         [
           2013,
           1899
@@ -646,7 +610,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

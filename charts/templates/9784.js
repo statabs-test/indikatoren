@@ -16,7 +16,7 @@
               }
             );
           }
-
+/*
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
@@ -61,6 +61,7 @@
               }
             }
           });
+*/
         }
       }
     },
@@ -74,6 +75,8 @@
     },
     xAxis: {
       min: 2010,
+      max:2025,
+      tickInterval: 1
     },
     yAxis: {
       min: null,
@@ -82,7 +85,7 @@
       },
     },
     legend: {
-      enabled: true,
+      enabled: false,
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
@@ -93,7 +96,7 @@
         showInNavigator: true,
         zIndex: 2
       },
-      {
+      /*{
         type: "line",
         dashStyle: 'ShortDash',
         "color": "#999999",
@@ -104,7 +107,7 @@
         visible: false,
         showInLegend: false,
         showInNavigator: false
-      },
+      },*/
     ],
     navigator: {
       enabled: true,
