@@ -30,16 +30,7 @@
       { "color": "#68AB2B", legendIndex: 4, index: 4 },
       { "color": "#FF8028", legendIndex: 3, index: 3 },
       { "color": "#DC440E", legendIndex: 2, index: 2 },
-      { "color": "#FABD24", legendIndex: 1, index: 1, "tooltip": {
-        pointFormatter: function() {
-      
-          if (this.point.name == 'Wegpendler') {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + 'Stichprobe zu klein' 
-          }
-          
-        }
-  
-      },},
+      { "color": "#FABD24", legendIndex: 1, index: 1 }
     ],
     "legend": {
       "enabled": true,
@@ -62,7 +53,7 @@
       formatter: function() {
       
       if (this.point.name == 'Wegpendler' && this.series.name == 'Ausland') {
-        return '<span style="font-size: 10px">' + this.point.name + '</span><br>' + '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> N/A </b> - zu kleine Stichprobe)'
+        return '<span style="font-size: 10px">' + this.point.name + '</span><br>' + '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b> N/A </b> - zu kleine Stichprobe'
       
       }
       
