@@ -7198,7 +7198,7 @@
 					console.log(choroplethSeries);
 					console.log("pieSizeSeries");
 					console.log(pieSizeSeries);
-					
+
 					//pie diameters in px
 					var maxPieDiameter = 20;
 

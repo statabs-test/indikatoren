@@ -207,7 +207,9 @@
               "Y_CNTR": 267600,
               "LegendenNR": "08",
               "Shape_Length": 26507.8734146473,
-              "Shape_Area": 24047520.006475274
+              "Shape_Area": 24047520.006475274,
+              "lon": "7.58740336214335",
+              "lat": "47.5577101819543"
             }
           },
           {
@@ -292,7 +294,9 @@
               "Y_CNTR": 268900,
               "LegendenNR": "10",
               "Shape_Length": 9204.97063130838,
-              "Shape_Area": 2266096.0163560766
+              "Shape_Area": 2266096.0163560766,
+              "lon": "7.67016073757756",
+              "lat": "47.5696625209819"
             }
           },
           {
@@ -433,7 +437,9 @@
               "Y_CNTR": 269500,
               "LegendenNR": "67",
               "Shape_Length": 18770.901802555305,
-              "Shape_Area": 10748691.128307799
+              "Shape_Area": 10748691.128307799,
+              "lon": "7.65136421375039",
+              "lat": "47.5799959594054"
             }
           },
           {
@@ -9337,7 +9343,9 @@
               "Y_CNTR": 267600,
               "LegendenNR": "08",
               "Shape_Length": 26507.8734146473,
-              "Shape_Area": 24047520.006475274
+              "Shape_Area": 24047520.006475274,
+              "lon": "7.58740336214335",
+              "lat": "47.5577101819543"
             }
           },
           {
@@ -9422,7 +9430,9 @@
               "Y_CNTR": 268900,
               "LegendenNR": "10",
               "Shape_Length": 9204.97063130838,
-              "Shape_Area": 2266096.0163560766
+              "Shape_Area": 2266096.0163560766,
+              "lon": "7.67016073757756",
+              "lat": "47.5696625209819"
             }
           },
           {
@@ -9563,7 +9573,9 @@
               "Y_CNTR": 269500,
               "LegendenNR": "67",
               "Shape_Length": 18770.901802555305,
-              "Shape_Area": 10748691.128307799
+              "Shape_Area": 10748691.128307799,
+              "lon": "7.65136421375039",
+              "lat": "47.5799959594054"
             }
           },
           {
@@ -18271,363 +18283,363 @@
       "colorAxis": false,
       "data": [
         [
-          "Aesch (BL)",
-          72
+          72,
+          5066
         ],
         [
-          "Allschwil",
-          139
+          139,
+          11031
         ],
         [
-          "Anwil",
-          1
+          1,
+          247
         ],
         [
-          "Arboldswil",
-          0
+          1,
+          263
         ],
         [
-          "Arisdorf",
-          5
+          5,
+          722
         ],
         [
-          "Arlesheim",
-          61
+          61,
+          4681
         ],
         [
-          "Augst",
-          5
+          5,
+          603
         ],
         [
-          "Basel",
-          961
+          961,
+          100658
         ],
         [
-          "Bennwil",
-          2
+          2,
+          298
         ],
         [
-          "Bettingen",
-          4
+          4,
+          503
         ],
         [
-          "Biel-Benken",
-          19
+          19,
+          1539
         ],
         [
-          "Binningen",
-          61
+          61,
+          8377
         ],
         [
-          "Birsfelden",
-          69
+          69,
+          5727
         ],
         [
-          "Blauen",
-          1
+          1,
+          352
         ],
         [
-          "Böckten",
-          1
+          1,
+          372
         ],
         [
-          "Bottmingen",
-          34
+          34,
+          3400
         ],
         [
-          "Bretzwil",
-          2
+          2,
+          342
         ],
         [
-          "Brislach",
-          6
+          6,
+          751
         ],
         [
-          "Bubendorf",
-          14
+          14,
+          2059
         ],
         [
-          "Buckten",
-          1
+          1,
+          339
         ],
         [
-          "Burg im Leimental",
-          1
+          1,
+          131
         ],
         [
-          "Buus",
-          2
+          2,
+          481
         ],
         [
-          "Diegten",
-          6
+          6,
+          744
         ],
         [
-          "Diepflingen",
-          0
+          0,
+          330
         ],
         [
-          "Dittingen",
-          0
+          0,
+          368
         ],
         [
-          "Duggingen",
-          5
+          5,
+          712
         ],
         [
-          "Eptingen",
-          3
+          3,
+          268
         ],
         [
-          "Ettingen",
-          39
+          39,
+          2629
         ],
         [
-          "Frenkendorf",
-          36
+          36,
+          3141
         ],
         [
-          "Füllinsdorf",
-          36
+          36,
+          2264
         ],
         [
-          "Gelterkinden",
-          13
+          13,
+          2976
         ],
         [
-          "Giebenach",
-          10
+          10,
+          498
         ],
         [
-          "Grellingen",
-          15
+          15,
+          969
         ],
         [
-          "Häfelfingen",
-          1
+          1,
+          118
         ],
         [
-          "Hemmiken",
-          1
+          1,
+          142
         ],
         [
-          "Hersberg",
-          0
+          0,
+          158
         ],
         [
-          "Hölstein",
-          4
+          4,
+          1121
         ],
         [
-          "Itingen",
-          6
+          6,
+          956
         ],
         [
-          "Känerkinden",
-          1
+          1,
+          257
         ],
         [
-          "Kilchberg (BL)",
-          0
-        ],
-        [
-          "Lampenberg",
-          0
-        ],
-        [
-          "Langenbruck",
-          3
-        ],
-        [
-          "Läufelfingen",
-          3
-        ],
-        [
-          "Laufen",
-          55
-        ],
-        [
-          "Lausen",
-          51
-        ],
-        [
-          "Lauwil",
-          0
-        ],
-        [
-          "Liedertswil",
-          1
-        ],
-        [
-          "Liesberg",
-          2
-        ],
-        [
-          "Liestal",
-          145
-        ],
-        [
-          "Lupsingen",
-          1
-        ],
-        [
-          "Maisprach",
-          2
-        ],
-        [
-          "Münchenstein",
+          0,
           71
         ],
         [
-          "Muttenz",
-          72
+          0,
+          232
         ],
         [
-          "Nenzlingen",
-          1
+          3,
+          511
         ],
         [
-          "Niederdorf",
-          3
+          3,
+          620
         ],
         [
-          "Nusshof",
-          0
+          55,
+          2907
         ],
         [
-          "Oberdorf (BL)",
-          19
+          51,
+          2508
         ],
         [
-          "Oberwil (BL)",
-          88
+          0,
+          174
         ],
         [
-          "Oltingen",
-          1
+          1,
+          78
         ],
         [
-          "Ormalingen",
-          14
+          2,
+          608
         ],
         [
-          "Pfeffingen",
-          6
+          145,
+          7415
         ],
         [
-          "Pratteln",
-          80
+          1,
+          645
         ],
         [
-          "Ramlinsburg",
-          1
+          2,
+          463
         ],
         [
-          "Reigoldswil",
-          4
+          71,
+          6013
         ],
         [
-          "Reinach (BL)",
-          133
+          72,
+          8754
         ],
         [
-          "Rickenbach (BL)",
-          0
+          1,
+          200
         ],
         [
-          "Riehen",
-          108
+          3,
+          873
         ],
         [
-          "Roggenburg",
-          2
+          0,
+          118
         ],
         [
-          "Röschenz",
-          14
+          19,
+          1152
         ],
         [
-          "Rothenfluh",
-          0
+          88,
+          5366
         ],
         [
-          "Rümlingen",
-          3
+          1,
+          248
         ],
         [
-          "Rünenberg",
-          1
+          14,
+          1036
         ],
         [
-          "Schönenbuch",
-          1
+          6,
+          1033
         ],
         [
-          "Seltisberg",
-          1
+          80,
+          8126
         ],
         [
-          "Sissach",
-          40
+          1,
+          330
         ],
         [
-          "Tecknau",
-          6
+          4,
+          757
         ],
         [
-          "Tenniken",
-          1
+          133,
+          9465
         ],
         [
-          "Therwil",
-          51
+          0,
+          283
         ],
         [
-          "Thürnen",
-          7
+          108,
+          10484
         ],
         [
-          "Titterten",
-          0
+          2,
+          163
         ],
         [
-          "Wahlen",
-          9
+          14,
+          905
         ],
         [
-          "Waldenburg",
-          14
+          0,
+          370
         ],
         [
-          "Wenslingen",
-          3
+          3,
+          184
         ],
         [
-          "Wintersingen",
-          0
+          1,
+          383
         ],
         [
-          "Wittinsburg",
-          0
+          1,
+          647
         ],
         [
-          "Zeglingen",
-          2
+          1,
+          597
         ],
         [
-          "Ziefen",
-          0
+          40,
+          3334
         ],
         [
-          "Zunzgen",
-          10
+          6,
+          374
         ],
         [
-          "Zwingen",
-          24
+          1,
+          415
+        ],
+        [
+          51,
+          4660
+        ],
+        [
+          7,
+          639
+        ],
+        [
+          0,
+          216
+        ],
+        [
+          9,
+          715
+        ],
+        [
+          14,
+          619
+        ],
+        [
+          3,
+          345
+        ],
+        [
+          0,
+          306
+        ],
+        [
+          0,
+          191
+        ],
+        [
+          2,
+          239
+        ],
+        [
+          0,
+          700
+        ],
+        [
+          10,
+          1258
+        ],
+        [
+          24,
+          1171
         ]
       ],
-      "name": "ANZ_LEER"
+      "name": "ANZ_BESTAND"
     }
   ],
   "chart": {
@@ -18653,6 +18665,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
+					//pieSizeSeries.colorKey="value";
 					console.log(chart.series)
 					console.log("choroplethSeries");
 					console.log(choroplethSeries);
@@ -18676,17 +18689,16 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-	                            var yAxis = chart.yAxis[0], zoom = (yAxis.
-	                            dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
-	                        tooltip: {
+	                        /*tooltip: {
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.GMDNAME +': <b>' + Highcharts.numberFormat((this.v),0) + ' </b><br/>';
 								}
 								
-	                        }
+	                        }*/
 	                    };
 					};
 						
@@ -19043,6 +19055,9 @@
 				};
 			},
     "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color) {
+
+console.log(color);
+
 				var fn = chart.userOptions.customFunctions;
 				fn["pieSizeSeries"] = pieSizeSeries;
 				fn["maxPieDiameter"] = fn["maxPieDiameter"] ? fn["maxPieDiameter"] : 20;
@@ -19064,10 +19079,11 @@
 					//create the highcharts pie chart config
 					var currentPieSeries = function (config) {
 						//define default properties
+
 						var mapPieConfig = {
 							type: 'mappie',
 							name: data.series.name,
-							Gemeinde: data["hc-key"],
+							Gemeinde: correspondingMapSeriesItem.GMDNAME,//data["hc-key"],
 							GD_NR: correspondingMapSeriesItem.GD_NR,
 							zIndex: 6, // Keep pies above connector lines
 							borderWidth: 1,

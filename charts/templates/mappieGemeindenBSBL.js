@@ -118,16 +118,16 @@
 		/* series with fixed data that should be added to the series object before merging with csv data */
 		beforeSeries: [
 			{
-				//Outline Gemeinde if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
-				name: "GemeindenOutline",
+				//Outline choropleth map if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
+				name: "Outline",
 				enableMouseTracking: false,
 				color: '#ededed',
 				borderWidth: 1,
 				borderColor: '#fbfbfb',
 				"animation": true,
 				"mapData": geojson_GemeindenBSBL_EPSG_2056,
-				"joinBy": ['GD_NR', 'GMDNR'],
-				"keys": ['GD_NAME', 'value'],
+				"joinBy": ['GeoID', 'GeoID'],
+				"keys": ['GeoID', 'value'],
 				"states": {
 					"hover": {
 						"enabled": false,
@@ -513,8 +513,6 @@
 			//draw pies onto he map			    		    
 			drawPies: function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color) {
 
-console.log(color);
-
 				var fn = chart.userOptions.customFunctions;
 				fn["pieSizeSeries"] = pieSizeSeries;
 				fn["maxPieDiameter"] = fn["maxPieDiameter"] ? fn["maxPieDiameter"] : 20;
@@ -540,14 +538,14 @@ console.log(color);
 						var mapPieConfig = {
 							type: 'mappie',
 							name: data.series.name,
-							Gemeinde: data["hc-key"],
-							GD_NR: correspondingMapSeriesItem.GD_NR,
+							GeoName: correspondingMapSeriesItem.properties.GeoName,//data["hc-key"],
+							GeoID: correspondingMapSeriesItem.GeoID,
 							zIndex: 6, // Keep pies above connector lines
 							borderWidth: 1,
 							tooltip: {
 								headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.properties.GMDNAME + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+									return correspondingMapSeriesItem.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
 								}
 							},
 							center: {

@@ -35741,7 +35741,13 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-console.log(chart.series[1].data[0]);
+					console.log(chart.series)
+					console.log("choroplethSeries");
+					console.log(choroplethSeries);
+					console.log("pieSizeSeries");
+					console.log(pieSizeSeries);
+
+//console.log(chart.series[1].data[0]);
 					//pie diameters in px
 					var maxPieDiameter = 25;
 

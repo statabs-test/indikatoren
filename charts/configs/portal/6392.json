@@ -7194,6 +7194,10 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
+					console.log("choroplethSeries");
+					console.log(choroplethSeries);
+					console.log("pieSizeSeries");
+					console.log(pieSizeSeries);
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -7303,7 +7307,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.6.2020"
   },
   "colorAxis": {
     "min": 0,
