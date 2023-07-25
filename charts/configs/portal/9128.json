@@ -36196,7 +36196,7 @@
 							},
 							colorAxis: false
 						};
-
+console.log(mapPieConfig);
 						//create the config handed in from the chart
 						var pieTemplate = config(data, correspondingMapSeriesItem, color);
 						//merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)

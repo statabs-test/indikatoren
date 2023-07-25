@@ -25682,7 +25682,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungsbestand nach Gemeinde",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2020",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2023",
 		"kuerzel": "I.09.2.07575",
 		"kuerzelKunde": "LEB-2-4",
 		"description": "Leerwohnungsbestand nach Gemeinde",

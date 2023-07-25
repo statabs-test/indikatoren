@@ -1,0 +1,39 @@
+{
+    "id": 9068,
+    "template": "mappieGemeindenBSBL_print",
+    "data-id": 9068,
+    "chart-id": 9068,
+    "filter": "",
+    "parentId": "7575",
+    "children": [],
+    "title":"Leerwohnungsbestand nach Gemeinde",
+    "subtitle":"Basel-Stadt und Basel-Landschaft, 2023",
+    "lesehilfe": "Die Leerwohnungsquoten unterscheiden sich teilweise beträchtlich zwischen den Gemeinden. An der Spitze befindet sich Itingen mit 2,4% gefolgt von Waldenburg (1,8%) und Münchenstein (1,7%) .",
+    "erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+    "quellenangabe": [
+        "Statistisches Amt Basel-Stadt, Leerstandserhebung"
+    ],
+    "externalLinks": [],
+    "renderLink": [],
+    "raeumlicheGliederung": [
+        "Gemeinde"
+    ],
+    "description": "Leerwohnungsbestand nach Gemeinde",
+    "thema": "09 Bau-, Wohnungswesen",
+    "unterthema": "Leerstand",
+    "kuerzel": "I.09.2.09068",
+    "kennzahlenset": "Leerstand (Print)",
+    "kuerzelKunde": "LEB-2-4",
+    "stufe1": "Wohnungsleerstand in den beiden Basel",
+    "stufe2": "",
+    "stufe3": "",
+    "stufe4": "",
+    "stufe5": "",
+    "orderKey": "01_00_00_00_00_004",
+    "darstellungsart": "",
+    "printformat": "",
+    "visible": true,
+    "visibleInPortal": false,
+    "datenInChartIntegriert": false,
+    "aktualisierungsdatum": "2021-08-13T12:10:28"
+}

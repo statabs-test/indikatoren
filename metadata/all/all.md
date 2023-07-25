@@ -1800,6 +1800,7 @@ id | visible | visibleInPortal | indikatorenset
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9068 | true | false | Leerstand (Print)
 9128 | true | true | Sicherheit im oeffentlichen Raum
 9995 | true | false | 
 9996 | true | false | 
