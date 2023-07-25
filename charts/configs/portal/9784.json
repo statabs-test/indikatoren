@@ -712,7 +712,9 @@
         "textOverflow": "none"
       }
     },
-    "min": 2010
+    "min": 2010,
+    "max": 2025,
+    "tickInterval": 1
   },
   "yAxis": {
     "min": null,
@@ -734,7 +736,7 @@
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
