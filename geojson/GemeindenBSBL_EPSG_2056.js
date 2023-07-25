@@ -1,3 +1,33 @@
+var geojson_scalebarDataEPSG2056_5km =
+{
+    "name" : "Massstab",
+	"crs" : {
+		"type" : "name",
+		"properties" : {
+			"name" : "EPSG:2056"
+		}
+	},
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "LineString",
+				"coordinates" : [
+					[2607400,1240800],
+					[2607400,1240600],
+					[2607400,1240700],
+					[2612400,1240700],
+					[2612400,1240800],
+					[2612400,1240600]
+				]
+			},
+			"properties" : {}
+		}
+	]
+};
+var scalebarDataEPSG2056_5km = Highcharts.geojson(geojson_scalebarDataEPSG2056_5km, 'mapline');
+
+
 var geojson_GemeindenBSBL_EPSG_2056 = 
 {
 	"type" : "FeatureCollection",

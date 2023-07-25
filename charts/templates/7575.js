@@ -10,6 +10,7 @@
 		"legend": {
 			y: -250,
 			x: 10,
+			symbolWidth: 150,
 			"title": {
 				"text": ""
 			}

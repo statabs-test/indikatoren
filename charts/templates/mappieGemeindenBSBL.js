@@ -229,8 +229,8 @@
 			}
 		],
 		/* series with fixed data that should be added to the series object after merging with csv data */
-		/*"afterSeries": [
-			{
+		"afterSeries": [
+			/*{
 				"name": "Rhein",
 				"animation": true,
 				"data": rheinDataEPSG2056,
@@ -242,12 +242,12 @@
 					}
 				}
 
-			},
+			},*/
 			{
 				name: 'Massstab',
 				animation: true,
 				type: 'mapline',
-				data: scalebarDataEPSG2056,
+				data: scalebarDataEPSG2056_5km,
 				color: 'black',
 				tooltip: {
 					pointFormatter: function () {
@@ -257,13 +257,13 @@
 				dataLabels: {
 					enabled: true,
 					formatter: function () {
-						return '1 km';
+						return '5 km';
 					},
 					style: { fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000" },
 					y: -10
 				}
 			}
-		],*/
+		],
 		//make sure charts are exported as displayed
 		exporting: {
 			menuItemDefinitions: {
