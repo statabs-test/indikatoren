@@ -8,7 +8,8 @@
 
 	return {
 		"legend": {
-			y: 5,
+			y: -250,
+			x: 10,
 			"title": {
 				"text": ""
 			}
@@ -19,7 +20,7 @@
 			"maxColor": "#0A3B19",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value), 3);
+					return Highcharts.numberFormat((this.value), 2);
 				}
 			}
 		},
@@ -152,8 +153,8 @@
 					}));
 					zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);
 
-					fn.addLegendLabelbold(chart, 'Anzahl Einwohner Ende Monat', 265-260, 220-170, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Veränderung zum Vormonat in %', 265+20, 300-250);
+					fn.addLegendLabelbold(chart, 'Anzahl Leerwohnungen', 265-260, 220-170, 'pieLegendStayeOnZoom');
+					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265+60, 300-250);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
