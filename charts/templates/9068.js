@@ -90,6 +90,14 @@
 						"brightness": 0,
 					}
 				},
+				dataLabels: {
+					//allowOverlap: false,
+					style: {
+						fontSize: 10
+					},
+					enabled: true,
+					format: '{point.properties.GeoName}'
+				},
 				//choroplethe-tooltip
 				tooltip: {
 					//headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> Leerwohnungsquote </span><br/>',
