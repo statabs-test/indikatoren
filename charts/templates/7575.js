@@ -34,7 +34,7 @@
 				},
 				{
 					//2nd series: use y values from column 2
-					y: 2
+					x: 1, y: 1
 				}
 			]
 		},
