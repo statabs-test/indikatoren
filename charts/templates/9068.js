@@ -10,19 +10,57 @@
 		"legend": {
 			y: -250,
 			x: -778,
+			"layout": "vertical",
+			itemMarginBottom: 2,
+			symbolRadius: 0,
 			"title": {
-				"text": ""
+				text: "Leerwohnungsquote in %",
+				style: {
+					fontWeight: "bold",
+					fontSize: 15
+				}
 			}
 		},
 		"colorAxis": {
-			"min": 0,
+			dataClassColor: 'category',
+			dataClasses: [{
+				from: 0.00000,
+				to: 0.00199,
+				color: '#D3E2E4',
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 0,20"
+			}, {
+				from: 0.00200,
+				to: 0.00399,
+				color: '#A8C3CA',
+				name: "0,20 − 0,39"
+			}, {
+				from: 0.00400,
+				to: 0.00799,
+				color: '#689199',
+				name: "0,40 − 0,79"
+			}, {
+				from: 0.00800,
+				to: 0.01199999,
+				color: '#246370',
+				name: "0,80 − 1,19"
+			}, {
+				from: 0.01200,
+				color: '#083038',
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> ≥ 1,20"
+			}]
+
+
+
+
+
+			/*"min": 0,
 			"minColor": "#eff6e9",
 			"maxColor": "#0A3B19",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value), 2);
 				}
-			}
+			}*/
 		},
 		"data": {
 			"seriesMapping": [
@@ -56,7 +94,7 @@
 				tooltip: {
 					//headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> Leerwohnungsquote </span><br/>',
 					pointFormatter: function () {
-						return this.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.value), 3) + '  </b><br/>';
+						return this.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.value*100), 2) + '  </b><br/>';
 					},
 					useHTML: true
 				}
@@ -80,11 +118,11 @@
 					fn.defineTemplate();
 
 					var choroplethSeries = chart.series[1];
-					var pieSizeSeries = chart.series[2];
+					//var pieSizeSeries = chart.series[2];
 					//pieSizeSeries.colorKey="value";
 
 					//pie diameters in px
-					var maxPieDiameter = 30;
+					var maxPieDiameter = 20;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 

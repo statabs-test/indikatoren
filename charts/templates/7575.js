@@ -21,7 +21,7 @@
 			"maxColor": "#0A3B19",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value), 2);
+					return Highcharts.numberFormat((this.value*100), 2);
 				}
 			}
 		},
@@ -57,7 +57,7 @@
 				tooltip: {
 					//headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> Leerwohnungsquote </span><br/>',
 					pointFormatter: function () {
-						return this.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.value), 3) + '  </b><br/>';
+						return this.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.value*100), 2) + '  </b><br/>';
 					},
 					useHTML: true
 				}
