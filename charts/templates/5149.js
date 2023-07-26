@@ -3,7 +3,7 @@
     xAxis: {
       tickInterval: 1,
       labels: {
-        rotation: 0
+        rotation: -45
       }
     },
     yAxis: {
