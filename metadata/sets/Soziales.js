@@ -224,5 +224,201 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-05-22T02:05:11",
 		"id": 9298
+	},
+	{
+		"parentId": 8250,
+		"children": [],
+		"template": "line001",
+		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09918",
+		"kuerzelKunde": "",
+		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-22T14:05:10.1010",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2022 liegt die Anzahl Personen mit Ergänzungsleistungen (EL) zur AHV bei 8 741, jene mit EL zur IV bei 6 754. Beihilfen werden an 5 357 (AHV) respektive 4 341 (IV) Personen ausbezahlt.",
+		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9918,
+		"chart-id": 8250,
+		"filter": "",
+		"id": 9918
+	},
+	{
+		"parentId": 4152,
+		"children": [],
+		"template": "template001",
+		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09921",
+		"kuerzelKunde": "",
+		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-22T14:05:12.1212",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9921,
+		"chart-id": 4152,
+		"filter": "",
+		"id": 9921
+	},
+	{
+		"parentId": 4154,
+		"children": [],
+		"template": "template001",
+		"title": "Bestand an Notwohnungen und ihre Belegung",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09924",
+		"kuerzelKunde": "",
+		"description": "Bestand an Notwohnungen und ihre Belegung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-06-07T08:10:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die wenigen Notwohnungen – 2022 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2022 um knapp 100 Logis erhöht werden.",
+		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9924,
+		"chart-id": 4154,
+		"filter": "",
+		"id": 9924
+	},
+	{
+		"parentId": 9289,
+		"children": [],
+		"template": "line001",
+		"title": "Sozialhilfequote nach Gemeinde",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09925",
+		"kuerzelKunde": "",
+		"description": "Sozialhilfequote nach Gemeinde",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2023-05-25T09:11:17.1717",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2022 bei 5,0%. Sie sinkt seit dem Jahr 2017 kontinuierlich. Die Stadt Basel weist 2022 eine Quote von 5,3% aus, Riehen 2,7% und Bettingen 1,7%.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst. Bis 2017 galt für die Anzahl Beziehender folgende Definition: Alle Personen mit Dossiertyp «Sozialhilfefall», «Asyl» oder «Flüchtling» die im Verlauf eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Auf die Werte von Riehen und Bettingen hat diese Umstellung keinen Einfluss.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9925,
+		"chart-id": 9289,
+		"filter": "",
+		"id": 9925
+	},
+	{
+		"parentId": 6055,
+		"children": [],
+		"template": "line001",
+		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09929",
+		"kuerzelKunde": "",
+		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-22T14:05:17.1717",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2022 liegt die Platzzahl bei 4 398. Auch die Tagesstrukturen wurden stetig ausgebaut. 2022 bieten die Frühhorte Platz für 656 Kinder, die Mittagsmodule  3 800 und die Nachmittagsmodule 3 450 Plätze.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9929,
+		"chart-id": 6055,
+		"filter": "",
+		"id": 9929
 	}
 ];
