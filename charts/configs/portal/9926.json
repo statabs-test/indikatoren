@@ -3,7 +3,7 @@
     {
       "color": "#FFBB58",
       "index": 0,
-      "legendIndex": 1,
+      "legendIndex": 0,
       "data": [
         [
           "2013",
@@ -52,7 +52,7 @@
     {
       "color": "#67401E",
       "index": 1,
-      "legendIndex": 0,
+      "legendIndex": 1,
       "data": [
         [
           "2013",
@@ -172,7 +172,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Nettounterstützung I (kant. Gesamtkosten)"
+    "text": "Nettounterstützung I der Sozialhilfe"
   },
   "subtitle": {
     "text": "",
@@ -234,7 +234,7 @@
     "text": "Quelle: Sozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
