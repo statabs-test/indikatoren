@@ -41909,6 +41909,86 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"template": "template001",
+		"title": "Übernachtungen absolut nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09922",
+		"kuerzelKunde": "",
+		"description": "Übernachtungen absolut nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:23:33.3333",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9922,
+		"chart-id": 9922,
+		"filter": "",
+		"id": 9922
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Auslastungsquote nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09923",
+		"kuerzelKunde": "",
+		"description": "Auslastungsquote nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:23:53.5353",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9923,
+		"chart-id": 9923,
+		"filter": "",
+		"id": 9923
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Nettounterstützung I der Sozialhilfe",
 		"subtitle": "",
 		"kennzahlenset": "Soziales",
@@ -41985,5 +42065,45 @@ var indikatoren = [
 		"chart-id": 9927,
 		"filter": "",
 		"id": 9927
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Fälle der Alimentenhilfe nach Fallart",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09933",
+		"kuerzelKunde": "",
+		"description": "Fälle der Alimentenhilfe nach Fallart",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:29:41.4141",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "TEXT HIER",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9933,
+		"chart-id": 9933,
+		"filter": "",
+		"id": 9933
 	}
 ];
