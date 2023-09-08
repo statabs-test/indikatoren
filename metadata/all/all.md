@@ -2256,10 +2256,14 @@ id | visible | visibleInPortal | indikatorenset
 9785 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9915 | true | true | Soziales
 9918 | true | false | Soziales
+9919 | true | true | Soziales
+9920 | true | true | Soziales
 9921 | true | false | Soziales
 9924 | true | false | Soziales
 9925 | true | false | Soziales
+9926 | true | true | Soziales
 9929 | true | false | Soziales
 9934 | true | false | Soziales
 9995 | true | false | 

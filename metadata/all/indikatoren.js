@@ -80688,6 +80688,46 @@ var indikatoren = [
 		"id": 9862
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Anzahl Stipendien nach Ausbildungstyp",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09915",
+		"kuerzelKunde": "",
+		"description": "Anzahl Stipendien nach Ausbildungstyp",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:13:23.2323",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Verlauf des Jahres 2022 werden insgesamt 1 953 Stipendien vergeben. Davon gehen 29% an Personen in Gymnasien und anderen<br>Schulen für Allgemeinbildung. 37% der Begünstigten befinden sich<br>in der Beruflichen Grundbildung und 33% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in Weiterbildungen.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Ausbildungsbeiträge"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9915,
+		"chart-id": 9915,
+		"filter": "",
+		"id": 9915
+	},
+	{
 		"parentId": 8250,
 		"children": [],
 		"template": "line001",
@@ -80726,6 +80766,86 @@ var indikatoren = [
 		"chart-id": 8250,
 		"filter": "",
 		"id": 9918
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09919",
+		"kuerzelKunde": "",
+		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:16:28.2828",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "70% der Personen mit IV erhielten zum Jahresende 2022 EL, 45%<br>werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei einem Fünftel bzw. einem Achtel.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9919,
+		"chart-id": 9919,
+		"filter": "",
+		"id": 9919
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährliche Durchschnittsbeiträge in Franken",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09920",
+		"kuerzelKunde": "",
+		"description": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährliche Durchschnittsbeiträge in Franken",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:16:51.5151",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl der Mietverhältnisse mit FAMI sinkt im zweiten Jahr in<br>Folge. Per Ende des Jahres 2022 werden 2 178 Mietverhältnisse unterstützt (2021: 2 251). Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt 2022 wie im Vorjahr bei 5 200 Franken.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9920,
+		"chart-id": 9920,
+		"filter": "",
+		"id": 9920
 	},
 	{
 		"parentId": 4152,
@@ -80846,6 +80966,47 @@ var indikatoren = [
 		"chart-id": 9289,
 		"filter": "",
 		"id": 9925
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Nettounterstützung I (kant. Gesamtkosten)",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09926",
+		"kuerzelKunde": "",
+		"description": "Nettounterstützung I (kant. Gesamtkosten)",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:26:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettounterstützung I liegt 2022 mit insgesamt 108,6 Mio. Franken so tief wie noch nie im Verlaufe der vergangenen 10 Jahre. Der Anteil von Riehen und  Bettingen liegt 2022 bei 4,5 Mio. Franken.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9926,
+		"chart-id": 9926,
+		"filter": "",
+		"id": 9926
 	},
 	{
 		"parentId": 6055,
