@@ -420,5 +420,45 @@ var indikatorensetData = [
 		"chart-id": 6055,
 		"filter": "",
 		"id": 9929
+	},
+	{
+		"parentId": 9294,
+		"children": [],
+		"template": "line001",
+		"title": "Beziehende von Prämienverbilligungen",
+		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09934",
+		"kuerzelKunde": "",
+		"description": "Beziehende von Prämienverbilligungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-24T08:23:24.2424",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit 51 711 Beziehenden erhalten Ende 2022 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9934,
+		"chart-id": 9294,
+		"filter": "",
+		"id": 9934
 	}
 ];
