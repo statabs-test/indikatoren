@@ -1,102 +1,121 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#FFBB58",
       "index": 0,
       "legendIndex": 0,
       "data": [
         [
-          2013,
-          2858
+          "2013",
+          1713
         ],
         [
-          2014,
-          3242
+          "2014",
+          1738
         ],
         [
-          2015,
-          3603
+          "2015",
+          1843
         ],
         [
-          2016,
-          2469
+          "2016",
+          1899
         ],
         [
-          2017,
-          2852
+          "2017",
+          2332
         ],
         [
-          2018,
-          3165
+          "2018",
+          2572
         ],
         [
-          2019,
-          4753
+          "2019",
+          2618
         ],
         [
-          2020,
-          3731
+          "2020",
+          2061
         ],
         [
-          2021,
-          3966
+          "2021",
+          2761
         ],
         [
-          2022,
-          3218
+          "2022",
+          3037
         ]
       ],
-      "name": "Frauen"
+      "name": "Stadt Basel",
+      "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#67401E",
       "index": 1,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
-          2013,
-          15555
+          "2013",
+          176
         ],
         [
-          2014,
-          17123
+          "2014",
+          153
         ],
         [
-          2015,
-          15054
+          "2015",
+          220
         ],
         [
-          2016,
-          14187
+          "2016",
+          179
         ],
         [
-          2017,
-          13223
+          "2017",
+          169
         ],
         [
-          2018,
-          12822
+          "2018",
+          175
         ],
         [
-          2019,
-          13580
+          "2019",
+          214
         ],
         [
-          2020,
-          13253
+          "2020",
+          183
         ],
         [
-          2021,
-          12924
+          "2021",
+          251
         ],
         [
-          2022,
-          10455
+          "2022",
+          220
         ]
       ],
-      "name": "Männer"
+      "name": "Riehen\u002FBettingen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -131,7 +150,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9922",
+    "renderTo": "container-9930",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -139,9 +158,10 @@
       "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": 10
         }
       },
+      "pointWidth": 25,
       "stacking": "normal"
     }
   },
@@ -152,33 +172,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Übernachtungen nach Geschlecht"
+    "text": "Anzahl Tagesferien besuchende Schülerinnen und Schüler sowie gebuchte Ferientage für Ferienbetreuung an Schulen"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -195,21 +198,19 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '';
-        }
-    }
+      "format": "{value:,.0f}"
+    },
+    "reversedStacks": false
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemMarginBottom": 5
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -230,13 +231,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "9922"
+    "filename": "9930"
   }
 }

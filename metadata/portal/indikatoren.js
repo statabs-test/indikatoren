@@ -41909,14 +41909,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"template": "template001",
-		"title": "Übernachtungen absolut nach Geschlecht",
+		"title": "Anzahl Übernachtungen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
-		"kuerzel": "I.13.2.09922",
+		"kuerzel": "I.13.3.09922",
 		"kuerzelKunde": "",
-		"description": "Übernachtungen absolut nach Geschlecht",
+		"description": "Anzahl Übernachtungen nach Geschlecht",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -41952,11 +41952,11 @@ var indikatoren = [
 		"title": "Auslastungsquote nach Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
-		"kuerzel": "I.13.2.09923",
+		"kuerzel": "I.13.3.09923",
 		"kuerzelKunde": "",
 		"description": "Auslastungsquote nach Geschlecht",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -42065,6 +42065,46 @@ var indikatoren = [
 		"chart-id": 9927,
 		"filter": "",
 		"id": 9927
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Anzahl Tagesferien besuchende Schülerinnen und Schüler sowie gebuchte Ferientage für Ferienbetreuung an Schulen",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09930",
+		"kuerzelKunde": "",
+		"description": "Anzahl Tagesferien besuchende Schülerinnen und Schüler sowie gebuchte Ferientage für Ferienbetreuung an Schulen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:28:23.2323",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt 3 012 Schülerinnen und Schüler nutzen im Verlaufe des Jahres 2022 die Tagesferien. Dies entspricht durchschnittlich 290 Angemeldeten pro Ferienwoche. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise Ferienbetreuung an den Schulen wird im Berichtsjahr 897 mal gebucht, was durchschnittlich 57 Kindern pro Ferientag entspricht.",
+		"erlaeuterungen": "Das Tagesferienangebot steht an 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19 Pandemie lediglich an 11 Wochen angeboten.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9930,
+		"chart-id": 9930,
+		"filter": "",
+		"id": 9930
 	},
 	{
 		"parentId": null,

@@ -214,7 +214,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 200,
+    "itemWidth": 100,
     "itemMarginBottom": 5
   },
   "credits": {
