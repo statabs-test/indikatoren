@@ -2256,6 +2256,11 @@ id | visible | visibleInPortal | indikatorenset
 9785 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9935 | true | true | Energiestatistik
+9936 | true | true | Energiestatistik
+9937 | true | true | Energiestatistik
+9938 | true | true | Energiestatistik
+9939 | true | true | Energiestatistik
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
