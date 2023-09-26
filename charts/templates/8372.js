@@ -5,11 +5,11 @@
       //"type": "category",
     },
     "yAxis": {
-      plotLines: [{
-        color: '#B9CFD7',
-        value: 100,
-        width: 2
-    }],
+     // plotLines: [{
+      //  color: '#B9CFD7',
+      //  value: 100,
+     //   width: 2
+    //}],
       //"min": 40,
       tickInterval: 20
     },
