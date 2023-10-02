@@ -218,6 +218,7 @@ global Highcharts
       "type": "category"
     },
     "yAxis": {
+      tickInterval: 20,
       "labels": {
         "formatter": function () {
           return Highcharts.numberFormat((this.value), 0) + '%';
