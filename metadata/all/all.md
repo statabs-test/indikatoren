@@ -2254,6 +2254,7 @@ id | visible | visibleInPortal | indikatorenset
 9778 | true | false | Arbeitsmarkt (Print)
 9780 | true | false | Arbeitsmarkt (Print)
 9785 | true | true | Nachhaltigkeit
+9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
 9995 | true | false | 
