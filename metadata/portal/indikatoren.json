@@ -31503,7 +31503,7 @@
 		"lesehilfe": "Die grössten Anteile in der Schweiz geborener Personen waren 2019 mit jeweils mindestens 65% in den Wohnvierteln Bachletten, Hirzbrunnen, Bruderholz und Riehen zu finden. Im Wohnviertel Vorstädte sank dieser Anteil in den letzten zehn Jahren mit einem Minus von 6,8 Prozenpunkten am stärksten.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"template": "mappie001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_101",
@@ -31623,7 +31623,7 @@
 		"lesehilfe": "Neben der allgemeinen Einschätzung zur finanziellen Situation konnten sich die Befragten äussern, ob für 16 konkrete Bereiche ausreichend Geld vorhanden ist. In allen Bereichen liegt im Jahr 2017 die Einschätzung, dass das Geld reicht, höher als 2009 und 2013. Über 70% der befragten Familien geben an, dass für Lebensmittel (78%), Spielzeug (76%), Haushaltswaren (73%), Kleidung für Kinder (72%), Wohnung (71%) das Geld reicht. Am wenigsten Geld steht zum Sparen zur Verfügung (26%).",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_108",
@@ -31665,7 +31665,7 @@
 		"lesehilfe": "Neben der allgemeinen Einschätzung zur finanziellen Situation konnten sich die Befragten äussern, ob für 16 konkrete Bereiche ausreichend Geld vorhanden ist. In fast allen Bereichen liegt die Einschätzung, dass das Geld nicht reicht, tiefer als 2009 und 2013. Am wenigsten Geld steht zum Sparen (35,8%), für eine Haushaltshilfe (35,6%) und für die private Vorsorge (30,7%) zur Verfügung. Am tiefsten ist der Wert bei den Lebensmittel. Lediglich 2,3% der befragten Familien geben an, dass ihnen das Geld für Lebensmittel nicht reicht.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_109",
@@ -31707,7 +31707,7 @@
 		"lesehilfe": "Fast drei Viertel aller befragten Familien geben 2017 an, Kinderzulagen zu erhalten. Die weiteren Leistungen werden von deutlich weniger Familien in Anspruch genommen. 25,6% bekommen eine Familien- bzw. Haushaltszulage, 21,4% erhalten Prämienverbilligungen. Etwa 10% der befragten Familien erhalten Tagesbetreuungsbeiträge, Alimente für Kinder und Mietzinsbeiträge.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_110",
@@ -31749,7 +31749,7 @@
 		"lesehilfe": "32,5% der befragten Familien stimmen 2017 der Aussage «Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» genau oder eher zu. 57,3% stimmen eher oder gar nicht zu. Einelternfamilien stimmen der Aussage deutlich häufiger zu als Zweielternfamilien (42,7% vs. 30,4%).",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_111",
@@ -32134,45 +32134,43 @@
 		"id": 8258
 	},
 	{
+		"template": "befragungenGrundauswertung001",
+		"data-id": 8260,
+		"chart-id": 8260,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8531
+		],
 		"title": "Gesundheitliche Verfassung",
 		"subtitle": "«Wie geht es Ihnen zurzeit gesundheitlich?», Basel-Stadt, 2019",
-		"kuerzel": "",
-		"kuerzelKunde": "1-29",
-		"description": "Gesundheitliche Verfassung",
-		"thema": "50 Befragungen",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"lesehilfe": "30,9% der im Jahr 2019 Befragten geben an, dass es ihnen gesundheitlich sehr gut geht. 53,6% geht es eher gut und 13,0% eher nicht gut oder gar nicht gut.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:08:46.4646",
+		"description": "Gesundheitliche Verfassung",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-29",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "30,9% der im Jahr 2019 Befragten geben an, dass es ihnen gesundheitlich sehr gut geht. 53,6% geht es eher gut und 13,0% eher nicht gut oder gar nicht gut.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungenGrundauswertung001",
+		"orderKey": "01_04_00_00_00_129",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_04_00_00_00_129",
-		"parentId": null,
-		"children": [
-			"8531"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8260,
-		"chart-id": 8260,
-		"filter": "",
+		"aktualisierungsdatum": "2020-07-21T05:08:46",
 		"id": 8260
 	},
 	{
@@ -32229,7 +32227,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T09:54:40.4040",
+		"aktualisierungsdatum": "2020-11-30T12:39:13.1313",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -32296,7 +32294,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:57",
+		"aktualisierungsdatum": "2023-02-07T09:14:35",
 		"id": 8263
 	},
 	{
@@ -32336,7 +32334,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:12:58",
+		"aktualisierungsdatum": "2023-02-07T09:14:36",
 		"id": 8264
 	},
 	{
@@ -32524,7 +32522,7 @@
 		"lesehilfe": "82,3% der im Jahr 2019 Befragten sind zufrieden mit dem Mietzins am aktuellen Wohnort, 45,4% sogar sehr zufrieden.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_05_00_00_00_139",
@@ -32608,7 +32606,7 @@
 		"lesehilfe": "Rund 80% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Hindernisfreiheit im Wohngebäude.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_05_00_00_00_140",
@@ -32650,7 +32648,7 @@
 		"lesehilfe": "Sowohl 2019 als auch in den Jahren 2015 und 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_05_00_00_00_141",
@@ -32692,7 +32690,7 @@
 		"lesehilfe": "94% der im Jahr 2019 Befragten sind zufrieden mit der Ausstattung ihrer Wohnung bzw. ihres Hauses.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_05_00_00_00_142",
@@ -32888,7 +32886,7 @@
 		],
 		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der 5- bis 12-Jährigen hat zwischen 2012 und 2021 zugenommen, ebenso diejenige der 13- bis 17-Jährigen. Die Zahl der 18- bis 24-Jährigen ist gesunken.",
+		"lesehilfe": "Die Zahl der 5- bis 12-Jährigen und der 13- bis 17-Jährigen hat zwischen 2013 und 2022 zugenommen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32978,7 +32976,7 @@
 		"lesehilfe": "Die höchsten Anteile der ausländischen Wohnbevölkerung der 16- bis 25-Jährigen waren 2019 mit jeweils über 40% in den Wohnvierteln Clara, Matthäus, Kleinhüningen, Klybeck und Rosental zu finden. Seit 2010 sank dieser Anteil im Wohnviertel Kleinhüningen um 8,9 Prozenpunkte und stieg im Wohnviertel Rosental um 8,1 Prozentpunkte.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_204",
@@ -33000,43 +32998,45 @@
 		"id": 8282
 	},
 	{
-		"template": "mappie001",
-		"data-id": 8285,
-		"chart-id": 8285,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			8556
+			"8556"
 		],
+		"template": "mappie001",
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"subtitle": "Kinder mit Angeboten in Gehdistanz, nach Wohnviertel, Stadt Basel, 2020",
-		"lesehilfe": "In den Kleinbasler Wohnvierteln Kleinhüningen, Klybeck, Matthäus, Clara und Altstadt Kleinbasel können 2020 über 90% aller Kinder und Jugendlichen ein altersspezifisches Angebot der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA) innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz, St. Alban und Breite ist dies nur für weniger als 20% gegeben.",
-		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2020), für welche die Angebote der OKJA (Stand Mai 2020) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche zur Verfügung stehen. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.16.3.08285",
+		"kuerzelKunde": "2.2.8",
 		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Sport- und Freiwilligenarbeit",
-		"kuerzel": "I.16.3.08285",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2-12",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2021-12-01T08:57:07.077",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_212",
+		"lesehilfe": "In den Kleinbasler Wohnvierteln Kleinhüningen, Klybeck, Matthäus, Clara und Altstadt Kleinbasel können 2020 über 90% aller Kinder und Jugendlichen ein altersspezifisches Angebot der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA) innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz, St. Alban und Breite ist dies nur für weniger als 20% gegeben.",
+		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2020), für welche die Angebote der OKJA (Stand Mai 2020) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche zur Verfügung stehen. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_212",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:57",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8285,
+		"chart-id": 8285,
+		"filter": "",
 		"id": 8285
 	},
 	{
@@ -33132,7 +33132,7 @@
 		],
 		"title": "Von häuslicher Gewalt (mit-)betroffene Kinder",
 		"subtitle": "Anzahl Polizeieinsätze und Anzahl Kinder, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 226 Fällen insgesamt 355 Kinder als direkt oder unmittelbar Betroffene anwesend.",
+		"lesehilfe": "Im Jahr 2022 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 210 Fällen insgesamt 351 Kinder als direkt oder unmittelbar Betroffene anwesend.",
 		"erlaeuterungen": "Polizeieinsätze im Kanton Basel-Stadt zu häuslicher Gewalt, bei welchen Kinder als direkt oder unmittelbar (Mit-)Betroffene von häuslicher Gewalt anwesend waren.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -33372,14 +33372,19 @@
 		"id": 8293
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8585"
+		],
+		"template": "template001",
 		"title": "Sozialindex",
 		"subtitle": "nach Wohnviertel, Stadt Basel",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.3.08314",
-		"kuerzelKunde": "3-01",
+		"kuerzelKunde": "1.1.9",
 		"description": "Sozialindex",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -33391,15 +33396,10 @@
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Bruderholz weist im Jahr 2018 mit 3,8 den höchsten Indexwert auf, das Wohnviertel Klybeck mit -4,7 den tiefsten.",
 		"erlaeuterungen": "Der aus fünf ausgewählten Indikatoren berechnete Index erlaubt relative Vergleiche zwischen den verschiedenen Wohnvierteln und über die Zeit: Je weiter auseinander die Indexwerte der Wohnviertel liegen, desto unterschiedlicher sind die Wohnviertel bezüglich der fünf Indikatoren. <br>Der Index wird mittels Hauptkomponentenanalyse aus den folgenden Indikatoren ermittelt: Je höher der Anteil deutschsprachiger Personen und der Median des Reineinkommens und je tiefer die Arbeitslosen-, die Sozialhilfe- und die Prämienverbilligungsquote in einem Wohnviertel sind, desto höher ist der Indexwert. Die absoluten Werte des Index sind für einzelne Wohnviertel und Zeitstände ohne Vergleich mit anderen Wohnvierteln oder Zeitständen nicht interpretierbar.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"8585"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -33520,7 +33520,7 @@
 		"lesehilfe": "Die höchsten Anteile der geplanten zusätzlichen Bruttogeschossflächen für Wohnungen finden sich in den Wohnvierteln Klybeck (26,0%) und St. Alban (23,8%).",
 		"erlaeuterungen": "Anteile der Wohnviertel an der geplanten Bruttogeschossfläche für Wohnungen in den städtischen Arealentwicklungen im Zeitraum 2019 bis 2030. Die Flächen der geplanten Arealentwicklungen wurden mit den Realisierungswahrscheinlichkeiten, die im mittleren Szenario der Bevölkerungsszenarien 2019 angenommen wurden, gewichtet. Im mittleren Szenario der Bevölkerungsszenarien 2019 führen die Arealentwicklungen zu zwischen 12 000 und 13 000 zusätzlichen Einwohnern in der Stadt Basel.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_305",
@@ -33541,6 +33541,48 @@
 		"chart-id": 8317,
 		"filter": "",
 		"id": 8317
+	},
+	{
+		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
+		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für ältere Menschen?»",
+		"kuerzel": "",
+		"kuerzelKunde": "3-31",
+		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
+		"stufe1": "3. Sozialer Zusammenhalt",
+		"stufe2": "3.3 Generationenarbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2019 sind 53,9% der Befragten sehr oder eher zufrieden mit Einrichtungen und Angeboten für ältere Menschen und 7,2 sehr oder eher unzufrieden. 38,9% antworten mit «Weiss nicht». Dieser Anteil ist aufgrund des Methodenwechsels deutlich höher als in den Vorjahren.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungenGrundauswertung001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_03_00_00_00_331",
+		"parentId": null,
+		"children": [
+			"8592"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8321,
+		"chart-id": 8321,
+		"filter": "",
+		"id": 8321
 	},
 	{
 		"title": "Nachbarschaftliches Verhältnis",
@@ -33605,7 +33647,7 @@
 		"lesehilfe": "88% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit dem Austausch mit den Nachbarn. Im Vergleich zu 2011 liegt der Anteil sehr zufriedener Personen um 4 Prozentpunkte höher.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_329",
@@ -33647,7 +33689,7 @@
 		"lesehilfe": "2019 geben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2015 betrug die Zufriedenheit ebenfalls 80%, der Anteil sehr zufriedener Personen liegt im Vergleich zu 2015 um rund 4 Prozentpunkte höher.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_330",
@@ -33689,7 +33731,7 @@
 		"lesehilfe": "58% der Befragten sind 2019 mit den Angeboten und Einrichtungen für ältere Menschen sehr oder eher zufrieden, 2011 waren es mit 56% etwas weniger.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_04_00_00_00_340",
@@ -33731,7 +33773,7 @@
 		"lesehilfe": "2019 unterstützen 23% der Befragten ihre Freunde und Bekannte, 2% regelmässig, 7% hin und wieder und 13% selten. Vier Jahre zuvor waren es weniger.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_333",
@@ -33773,7 +33815,7 @@
 		"lesehilfe": "Nachbarn erhalten 2019 von gut 7% der Befragten finanzielle Unterstützung. Dieser Wert ist gleich hoch wie bei der letzten Befragung.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_334",
@@ -33815,7 +33857,7 @@
 		"lesehilfe": "Rund 4% der im Jahr 2019 Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. 2011 lag dieser Anteil bei 2%.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_335",
@@ -33857,7 +33899,7 @@
 		"lesehilfe": "40% der Befragten unterstützen Freunde und Bekannte materiell. Diese Hilfe erfolgt in 3% der Fälle auf regelmässiger Basis. 18% unterstützen hin und wieder ihre Freunde oder Bekannte und 19% selten.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_336",
@@ -33899,7 +33941,7 @@
 		"lesehilfe": "Insgesamt 38% der Befragten unterstützen ihre Nachbarn: 3% bieten regelmässig, 18% hin und wieder und 17% selten ihren Nachbarn praktische Hilfeleistungen.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_337",
@@ -33941,7 +33983,7 @@
 		"lesehilfe": "Arbeitskolleginnen und -kollegen spielen bei den praktischen Hilfeleistungen eine eher untergeordnete Rolle, 10% der Befragten unterstützen sie selten bis regelmässig.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_338",
@@ -33983,7 +34025,7 @@
 		"lesehilfe": "Das Wohnviertel Bachletten und die Gemeinden Riehen und Bettingen verzeichneten 2019 einen Anteil deutsprachiger Personen von mindestens 84%. Am anderen Ende der Skala stehen die Wohnviertel Rosental und Klybeck mit einem Anteil von 54%. Seit 2010 sank dieser Anteil mit einem Minus von 7,7 Prozentpunkten im Wohnviertel Vorstädte am stärksten.",
 		"erlaeuterungen": "Als deutschsprachige Personen wurden Personen mit den folgenden Staatsangehörigkeiten angenommen: Schweiz, Deutschland, Österreich, Liechtenstein, Luxemburg.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_102",
@@ -34025,7 +34067,7 @@
 		"lesehilfe": "Das grösste Sparpotential sehen die Familien darin, auf Luxusartikel zu verzichten und insgesamt preisbewusst einzukaufen. Alte Sachen länger zu nutzen und Reparaturen selber zu erledigen, gehört bei über 50% der befragten Familien zur Praxis. Gaben 2009 57,4% an, bei den Ferien zu sparen, sind es 2017 noch 45,7%.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.<br>Es sind nur die zehn am häufigsten genannten Möglichkeiten dargestellt.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_124",

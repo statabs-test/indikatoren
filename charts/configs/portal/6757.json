@@ -6,97 +6,109 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Kleinhüningen",
           "y": 20,
-          "Wert": 0.1034729681
+          "Wert": 0.1263121064
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Kleinhüningen",
           "y": 18,
-          "Wert": 0.4951664876
+          "Wert": 0.4797060882
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 1,
+          "Wert": 0.3960811756
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Kleinhüningen",
           "y": 5,
-          "Wert": 0.2020958084
+          "Wert": 0.1893939394
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 0.1923
+          "y": 6,
+          "Wert": 0.2708333333
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 11,
-          "Wert": 0.3051237766
+          "y": 10,
+          "Wert": 0.293951385
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Kleinhüningen",
-          "y": 16,
-          "Wert": 0.3684210526
+          "y": 14,
+          "Wert": 0.355143457
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 15,
-          "Wert": 0.3028209557
+          "y": 17,
+          "Wert": 0.3216506501
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Kleinhüningen",
           "y": 17,
-          "Wert": 1948.082352941176
+          "Wert": 1946.3493976
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Kleinhüningen",
           "y": 10,
-          "Wert": 0.15294117647
+          "Wert": 0.156626506
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Kleinhüningen",
           "y": 9,
-          "Wert": 0.225
+          "Wert": 0.2255022919
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 66.203236
+          "y": 8,
+          "Wert": 70.376193975
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 33.380239
+          "Wert": 32.244484629
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 223.5
+          "Wert": 195.16423589
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 4695.7
+          "Wert": 5027.181357
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Kleinhüningen",
-          "y": 1,
-          "Wert": 0.5400006
+          "y": 2,
+          "Wert": 0.6593773305
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 18,
-          "Wert": 2.0157353
+          "Wert": 2.1176331577
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Kleinhüningen",
+          "y": 19,
+          "Wert": 0.0631074121
         }
       ],
       "name": "Wert",

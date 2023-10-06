@@ -5,71 +5,31 @@
       "visible": true,
       "data": [
         [
-          "Lebensmittel",
-          69.8
+          "2003",
+          93.8
         ],
         [
-          "Spielzeug",
-          64.9
+          "2005",
+          94.6
         ],
         [
-          "Haushaltswaren",
-          63.3
+          "2007",
+          94.4
         ],
         [
-          "Kleidung Kinder",
-          61.7
+          "2011",
+          92.8
         ],
         [
-          "Wohnung",
-          64.2
+          "2015",
+          91.2
         ],
         [
-          "Kleidung Erwachsene",
-          52
-        ],
-        [
-          "Krankenkasse",
-          57.5
-        ],
-        [
-          "Freizeit Kinder",
-          46.3
-        ],
-        [
-          "Freizeit Erwachsene",
-          40.2
-        ],
-        [
-          "Kulturveranstaltungen",
-          39.1
-        ],
-        [
-          "Fremdbetreuung",
-          34.3
-        ],
-        [
-          "Ferien",
-          31.8
-        ],
-        [
-          "Nachhilfeunterricht",
-          29.7
-        ],
-        [
-          "Private Vorsorge",
-          28.7
-        ],
-        [
-          "Haushaltshilfe",
-          null
-        ],
-        [
-          "Sparen",
-          18.5
+          "2019",
+          94.9
         ]
       ],
-      "name": "2009 (N=3 119)",
+      "name": "Sehr oder eher sicher",
       "turboThreshold": 0
     },
     {
@@ -77,71 +37,31 @@
       "visible": true,
       "data": [
         [
-          "Lebensmittel",
-          74.5
+          "2003",
+          90
         ],
         [
-          "Spielzeug",
-          70.4
+          "2005",
+          90
         ],
         [
-          "Haushaltswaren",
-          69.8
+          "2007",
+          90
         ],
         [
-          "Kleidung Kinder",
-          67.2
+          "2011",
+          90
         ],
         [
-          "Wohnung",
-          68.1
+          "2015",
+          90
         ],
         [
-          "Kleidung Erwachsene",
-          58.7
-        ],
-        [
-          "Krankenkasse",
-          59.5
-        ],
-        [
-          "Freizeit Kinder",
-          51.9
-        ],
-        [
-          "Freizeit Erwachsene",
-          45.2
-        ],
-        [
-          "Kulturveranstaltungen",
-          45
-        ],
-        [
-          "Fremdbetreuung",
-          37.4
-        ],
-        [
-          "Ferien",
-          35.9
-        ],
-        [
-          "Nachhilfeunterricht",
-          32.8
-        ],
-        [
-          "Private Vorsorge",
-          29.9
-        ],
-        [
-          "Haushaltshilfe",
-          28.6
-        ],
-        [
-          "Sparen",
-          23
+          "2019",
+          90
         ]
       ],
-      "name": "2013 (N=2 231)",
+      "name": "Zielwert",
       "turboThreshold": 0
     },
     {
@@ -149,71 +69,31 @@
       "visible": true,
       "data": [
         [
-          "Lebensmittel",
-          77.7
+          "2003",
+          null
         ],
         [
-          "Spielzeug",
-          75.7
+          "2005",
+          null
         ],
         [
-          "Haushaltswaren",
-          73.3
+          "2007",
+          null
         ],
         [
-          "Kleidung Kinder",
-          72.1
+          "2011",
+          null
         ],
         [
-          "Wohnung",
-          71.4
+          "2015",
+          null
         ],
         [
-          "Kleidung Erwachsene",
-          65.3
-        ],
-        [
-          "Krankenkasse",
-          59.6
-        ],
-        [
-          "Freizeit Kinder",
-          56.7
-        ],
-        [
-          "Freizeit Erwachsene",
-          50.1
-        ],
-        [
-          "Kulturveranstaltungen",
-          49.2
-        ],
-        [
-          "Fremdbetreuung",
-          42.8
-        ],
-        [
-          "Ferien",
-          40.1
-        ],
-        [
-          "Nachhilfeunterricht",
-          37.3
-        ],
-        [
-          "Private Vorsorge",
-          34.4
-        ],
-        [
-          "Haushaltshilfe",
-          33.7
-        ],
-        [
-          "Sparen",
-          25.5
+          "2019",
+          0
         ]
       ],
-      "name": "2017 (N=1 665)",
+      "name": "Bewertung",
       "turboThreshold": 0
     }
   ],
@@ -352,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 27.7.2020"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

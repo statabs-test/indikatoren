@@ -6,139 +6,95 @@
       "legendIndex": 5,
       "data": [
         [
-          "*Familienform",
-          null
+          "2000",
+          193.6
         ],
         [
-          "Einelternfamilie (n=272)",
-          9.2
+          "2001",
+          190.2
         ],
         [
-          "Zweielternfamilie (n=1 372)",
-          5.7
+          "2002",
+          192.3
         ],
         [
-          "*Anzahl Kinder",
-          null
+          "2003",
+          183.7
         ],
         [
-          "1 Kind (n=562)",
-          7.5
+          "2004",
+          184.1
         ],
         [
-          "2 Kinder (n=750)",
-          3.9
+          "2005",
+          180.2
         ],
         [
-          "3 Kinder u.m. (n=353)",
-          9.3
+          "2006",
+          178.8
         ],
         [
-          "*Alter jüngstes Kind",
-          null
+          "2007",
+          177.2
         ],
         [
-          "0-4 Jahre (n=610)",
-          4.4
+          "2008",
+          171.7
         ],
         [
-          "5-8 Jahre (n=364)",
-          8.2
+          "2009",
+          186.1
         ],
         [
-          "9-12 Jahre (n=277)",
-          5.1
+          "2010",
+          176.8
         ],
         [
-          "13-17 Jahre (n=389)",
-          8
+          "2011",
+          164.8
         ],
         [
-          "*Bildungsniveau Eltern",
-          null
+          "2012",
+          168.5
         ],
         [
-          "Obligat. Schule (n=105)",
-          13.3
+          "2013",
+          163.5
         ],
         [
-          "Sekundarstufe II (n=553)",
-          7.6
+          "2014",
+          165.5
         ],
         [
-          "Tertiärstufe (n=983)",
-          4.8
+          "2015",
+          168.5
         ],
         [
-          "*Haushaltssprache",
-          null
+          "2016",
+          161.5
         ],
         [
-          "ch\u002Fdt (n=870)",
-          5.9
+          "2017",
+          158.5
         ],
         [
-          "ch\u002Fdt und andere (n=516)",
-          7
+          "2018",
+          163.2
         ],
         [
-          "nur andere (n=246)",
-          6.1
+          "2019",
+          155.9
         ],
         [
-          "*Haushaltseinkommen",
-          null
+          "2020",
+          158.9
         ],
         [
-          "\u003C3 000 Fr. (n=111)",
-          16.2
-        ],
-        [
-          "3 000-7 499 Fr. (n=580)",
-          7.8
-        ],
-        [
-          "\u003E7 499 Fr. (n=855)",
-          3.3
-        ],
-        [
-          "*Wahlkreis",
-          null
-        ],
-        [
-          "Grossbasel Ost (n=415)",
-          5.5
-        ],
-        [
-          "Grossbasel West (n=585)",
-          6.7
-        ],
-        [
-          "Kleinbasel (n=376)",
-          7.2
-        ],
-        [
-          "Riehen, Bettingen (n=253)",
-          5.5
-        ],
-        [
-          "*Befragungsjahr",
-          null
-        ],
-        [
-          "2009 (N=3 119)",
-          7.4
-        ],
-        [
-          "2013 (N=2 231)",
-          6.5
-        ],
-        [
-          "2017 (N=1 665)",
-          6.2
+          "2021",
+          158.2
         ]
       ],
-      "name": "Sehr oft",
+      "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
       "turboThreshold": 0
     },
     {
@@ -147,139 +103,95 @@
       "legendIndex": 4,
       "data": [
         [
-          "*Familienform",
-          null
+          "2000",
+          139.7
         ],
         [
-          "Einelternfamilie (n=272)",
-          18.8
+          "2001",
+          137.1
         ],
         [
-          "Zweielternfamilie (n=1 372)",
-          15.7
+          "2002",
+          134.3
         ],
         [
-          "*Anzahl Kinder",
-          null
+          "2003",
+          133.3
         ],
         [
-          "1 Kind (n=562)",
-          15.8
+          "2004",
+          137.1
         ],
         [
-          "2 Kinder (n=750)",
-          16
+          "2005",
+          143.4
         ],
         [
-          "3 Kinder u.m. (n=353)",
-          17
+          "2006",
+          145.2
         ],
         [
-          "*Alter jüngstes Kind",
-          null
+          "2007",
+          146
         ],
         [
-          "0-4 Jahre (n=610)",
-          17
+          "2008",
+          156
         ],
         [
-          "5-8 Jahre (n=364)",
-          18.4
+          "2009",
+          150.2
         ],
         [
-          "9-12 Jahre (n=277)",
-          14.4
+          "2010",
+          149.2
         ],
         [
-          "13-17 Jahre (n=389)",
-          14.1
+          "2011",
+          145.5
         ],
         [
-          "*Bildungsniveau Eltern",
-          null
+          "2012",
+          153.2
         ],
         [
-          "Obligat. Schule (n=105)",
-          16.2
+          "2013",
+          144.4
         ],
         [
-          "Sekundarstufe II (n=553)",
-          17.2
+          "2014",
+          143.5
         ],
         [
-          "Tertiärstufe (n=983)",
-          15.6
+          "2015",
+          140.5
         ],
         [
-          "*Haushaltssprache",
-          null
+          "2016",
+          137.5
         ],
         [
-          "ch\u002Fdt (n=870)",
-          15.7
+          "2017",
+          131.5
         ],
         [
-          "ch\u002Fdt und andere (n=516)",
-          17.8
+          "2018",
+          124.4
         ],
         [
-          "nur andere (n=246)",
-          12.2
+          "2019",
+          126.3
         ],
         [
-          "*Haushaltseinkommen",
-          null
+          "2020",
+          126.1
         ],
         [
-          "\u003C3 000 Fr. (n=111)",
-          21.6
-        ],
-        [
-          "3 000-7 499 Fr. (n=580)",
-          19.7
-        ],
-        [
-          "\u003E7 499 Fr. (n=855)",
-          13.3
-        ],
-        [
-          "*Wahlkreis",
-          null
-        ],
-        [
-          "Grossbasel Ost (n=415)",
-          17.8
-        ],
-        [
-          "Grossbasel West (n=585)",
-          15.2
-        ],
-        [
-          "Kleinbasel (n=376)",
-          15.2
-        ],
-        [
-          "Riehen, Bettingen (n=253)",
-          17.4
-        ],
-        [
-          "*Befragungsjahr",
-          null
-        ],
-        [
-          "2009 (N=3 119)",
-          17.5
-        ],
-        [
-          "2013 (N=2 231)",
-          16.6
-        ],
-        [
-          "2017 (N=1 665)",
-          16.2
+          "2021",
+          125.4
         ]
       ],
-      "name": "Eher oft",
+      "name": "Wertstoffsammlungen",
       "turboThreshold": 0
     },
     {
@@ -288,139 +200,95 @@
       "legendIndex": 3,
       "data": [
         [
-          "*Familienform",
-          null
+          "2000",
+          40.6
         ],
         [
-          "Einelternfamilie (n=272)",
-          41.5
+          "2001",
+          40.6
         ],
         [
-          "Zweielternfamilie (n=1 372)",
-          53.7
+          "2002",
+          39.5
         ],
         [
-          "*Anzahl Kinder",
-          null
+          "2003",
+          40.4
         ],
         [
-          "1 Kind (n=562)",
-          51.1
+          "2004",
+          40.8
         ],
         [
-          "2 Kinder (n=750)",
-          51.9
+          "2005",
+          42.2
         ],
         [
-          "3 Kinder u.m. (n=353)",
-          51.6
+          "2006",
+          42.4
         ],
         [
-          "*Alter jüngstes Kind",
-          null
+          "2007",
+          42.6
         ],
         [
-          "0-4 Jahre (n=610)",
-          55.9
+          "2008",
+          45.2
         ],
         [
-          "5-8 Jahre (n=364)",
-          52.5
+          "2009",
+          42
         ],
         [
-          "9-12 Jahre (n=277)",
-          51.6
+          "2010",
+          42.9
         ],
         [
-          "13-17 Jahre (n=389)",
-          44.2
+          "2011",
+          43.9
         ],
         [
-          "*Bildungsniveau Eltern",
-          null
+          "2012",
+          44.7
         ],
         [
-          "Obligat. Schule (n=105)",
-          36.2
+          "2013",
+          44
         ],
         [
-          "Sekundarstufe II (n=553)",
-          48.5
+          "2014",
+          43.5
         ],
         [
-          "Tertiärstufe (n=983)",
-          54.9
+          "2015",
+          44
         ],
         [
-          "*Haushaltssprache",
-          null
+          "2016",
+          44.9
         ],
         [
-          "ch\u002Fdt (n=870)",
-          54.1
+          "2017",
+          42.3
         ],
         [
-          "ch\u002Fdt und andere (n=516)",
-          48.8
+          "2018",
+          40.1
         ],
         [
-          "nur andere (n=246)",
-          49.2
+          "2019",
+          41.1
         ],
         [
-          "*Haushaltseinkommen",
-          null
+          "2020",
+          41.1
         ],
         [
-          "\u003C3 000 Fr. (n=111)",
-          32.4
-        ],
-        [
-          "3 000-7 499 Fr. (n=580)",
-          44.8
-        ],
-        [
-          "\u003E7 499 Fr. (n=855)",
-          60
-        ],
-        [
-          "*Wahlkreis",
-          null
-        ],
-        [
-          "Grossbasel Ost (n=415)",
-          51.1
-        ],
-        [
-          "Grossbasel West (n=585)",
-          49.6
-        ],
-        [
-          "Kleinbasel (n=376)",
-          51.3
-        ],
-        [
-          "Riehen, Bettingen (n=253)",
-          56.9
-        ],
-        [
-          "*Befragungsjahr",
-          null
-        ],
-        [
-          "2009 (N=3 119)",
-          50.4
-        ],
-        [
-          "2013 (N=2 231)",
-          52.4
-        ],
-        [
-          "2017 (N=1 665)",
-          51.5
+          "2021",
+          40.9
         ]
       ],
-      "name": "Eher selten",
+      "name": "Recyclingquote (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -429,281 +297,100 @@
       "legendIndex": 2,
       "data": [
         [
-          "*Familienform",
-          null
+          "2000",
+          undefined
         ],
         [
-          "Einelternfamilie (n=272)",
-          24.6
+          "2001",
+          undefined
         ],
         [
-          "Zweielternfamilie (n=1 372)",
-          22.7
+          "2002",
+          undefined
         ],
         [
-          "*Anzahl Kinder",
-          null
+          "2003",
+          undefined
         ],
         [
-          "1 Kind (n=562)",
-          22.2
+          "2004",
+          undefined
         ],
         [
-          "2 Kinder (n=750)",
-          25.6
+          "2005",
+          undefined
         ],
         [
-          "3 Kinder u.m. (n=353)",
-          19.5
+          "2006",
+          undefined
         ],
         [
-          "*Alter jüngstes Kind",
-          null
+          "2007",
+          undefined
         ],
         [
-          "0-4 Jahre (n=610)",
-          20.7
+          "2008",
+          undefined
         ],
         [
-          "5-8 Jahre (n=364)",
-          18.7
+          "2009",
+          undefined
         ],
         [
-          "9-12 Jahre (n=277)",
-          25.6
+          "2010",
+          undefined
         ],
         [
-          "13-17 Jahre (n=389)",
-          30.1
+          "2011",
+          undefined
         ],
         [
-          "*Bildungsniveau Eltern",
-          null
+          "2012",
+          undefined
         ],
         [
-          "Obligat. Schule (n=105)",
-          21.9
+          "2013",
+          undefined
         ],
         [
-          "Sekundarstufe II (n=553)",
-          23
+          "2014",
+          undefined
         ],
         [
-          "Tertiärstufe (n=983)",
-          23.4
+          "2015",
+          undefined
         ],
         [
-          "*Haushaltssprache",
-          null
+          "2016",
+          undefined
         ],
         [
-          "ch\u002Fdt (n=870)",
-          22.6
+          "2017",
+          undefined
         ],
         [
-          "ch\u002Fdt und andere (n=516)",
-          22.7
+          "2018",
+          undefined
         ],
         [
-          "nur andere (n=246)",
-          27.2
+          "2019",
+          undefined
         ],
         [
-          "*Haushaltseinkommen",
-          null
+          "2020",
+          undefined
         ],
         [
-          "\u003C3 000 Fr. (n=111)",
-          22.5
-        ],
-        [
-          "3 000-7 499 Fr. (n=580)",
-          24.5
-        ],
-        [
-          "\u003E7 499 Fr. (n=855)",
-          22.5
-        ],
-        [
-          "*Wahlkreis",
-          null
-        ],
-        [
-          "Grossbasel Ost (n=415)",
-          23.1
-        ],
-        [
-          "Grossbasel West (n=585)",
-          25.1
-        ],
-        [
-          "Kleinbasel (n=376)",
-          23.4
-        ],
-        [
-          "Riehen, Bettingen (n=253)",
-          17.8
-        ],
-        [
-          "*Befragungsjahr",
-          null
-        ],
-        [
-          "2009 (N=3 119)",
-          20.6
-        ],
-        [
-          "2013 (N=2 231)",
-          21.2
-        ],
-        [
-          "2017 (N=1 665)",
-          23.2
+          "2021",
+          undefined
         ]
       ],
-      "name": "Nie",
       "turboThreshold": 0
     },
     {
       "color": "#6F6F6F",
       "index": 5,
-      "legendIndex": 0,
-      "data": [
-        [
-          "*Familienform",
-          null
-        ],
-        [
-          "Einelternfamilie (n=272)",
-          5.9
-        ],
-        [
-          "Zweielternfamilie (n=1 372)",
-          2.2
-        ],
-        [
-          "*Anzahl Kinder",
-          null
-        ],
-        [
-          "1 Kind (n=562)",
-          3.4
-        ],
-        [
-          "2 Kinder (n=750)",
-          2.7
-        ],
-        [
-          "3 Kinder u.m. (n=353)",
-          2.5
-        ],
-        [
-          "*Alter jüngstes Kind",
-          null
-        ],
-        [
-          "0-4 Jahre (n=610)",
-          2
-        ],
-        [
-          "5-8 Jahre (n=364)",
-          2.2
-        ],
-        [
-          "9-12 Jahre (n=277)",
-          3.2
-        ],
-        [
-          "13-17 Jahre (n=389)",
-          3.6
-        ],
-        [
-          "*Bildungsniveau Eltern",
-          null
-        ],
-        [
-          "Obligat. Schule (n=105)",
-          12.4
-        ],
-        [
-          "Sekundarstufe II (n=553)",
-          3.8
-        ],
-        [
-          "Tertiärstufe (n=983)",
-          1.3
-        ],
-        [
-          "*Haushaltssprache",
-          null
-        ],
-        [
-          "ch\u002Fdt (n=870)",
-          1.6
-        ],
-        [
-          "ch\u002Fdt und andere (n=516)",
-          3.7
-        ],
-        [
-          "nur andere (n=246)",
-          5.3
-        ],
-        [
-          "*Haushaltseinkommen",
-          null
-        ],
-        [
-          "\u003C3 000 Fr. (n=111)",
-          7.2
-        ],
-        [
-          "3 000-7 499 Fr. (n=580)",
-          3.3
-        ],
-        [
-          "\u003E7 499 Fr. (n=855)",
-          0.9
-        ],
-        [
-          "*Wahlkreis",
-          null
-        ],
-        [
-          "Grossbasel Ost (n=415)",
-          2.4
-        ],
-        [
-          "Grossbasel West (n=585)",
-          3.4
-        ],
-        [
-          "Kleinbasel (n=376)",
-          2.9
-        ],
-        [
-          "Riehen, Bettingen (n=253)",
-          2.4
-        ],
-        [
-          "*Befragungsjahr",
-          null
-        ],
-        [
-          "2009 (N=3 119)",
-          4.1
-        ],
-        [
-          "2013 (N=2 231)",
-          3.2
-        ],
-        [
-          "2017 (N=1 665)",
-          2.9
-        ]
-      ],
-      "name": "Keine Angabe",
-      "turboThreshold": 0
+      "legendIndex": 0
     }
   ],
   "xAxis": {
@@ -857,10 +544,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 27.7.2020"
   },
   "exporting": {
     "allowHTML": true,
-    "filename": 8261
+    "filename": "8261"
   }
 }

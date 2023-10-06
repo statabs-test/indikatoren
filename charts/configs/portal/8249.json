@@ -10,39 +10,47 @@
       },
       "data": [
         [
-          "Genferseeregion",
-          10.5877636463649
+          "2013",
+          1109
         ],
         [
-          "Espace Mittelland",
-          6.07410843112424
+          "2014",
+          1026
         ],
         [
-          "Nordwestschweiz",
-          3.77185113230154
+          "2015",
+          1209
         ],
         [
-          "Zürich",
-          2.60074741809209
+          "2016",
+          796
         ],
         [
-          "Ostschweiz",
-          2.72380384205846
+          "2017",
+          1316
         ],
         [
-          "Zentralschweiz",
-          2.54739283839152
+          "2018",
+          1137
         ],
         [
-          "Tessin",
-          4.23698976141759
+          "2019",
+          1386
         ],
         [
-          "Schweiz",
-          5.12021861415708
+          "2020",
+          1155
+        ],
+        [
+          "2021",
+          1464
+        ],
+        [
+          "2022",
+          1465
         ]
       ],
-      "name": "Anteil",
+      "name": "Eingebürgerte",
       "turboThreshold": 0
     },
     {
@@ -55,47 +63,57 @@
       },
       "data": [
         {
-          "name": "Genferseeregion",
-          "low": 8.23105964636492,
-          "high": 12.9444676463649
+          "name": "2013",
+          "low": 16.4,
+          "high": 67552
         },
         {
-          "name": "Espace Mittelland",
-          "low": 4.32931643112424,
-          "high": 7.81890043112424
+          "name": "2014",
+          "low": 14.9,
+          "high": 68779
         },
         {
-          "name": "Nordwestschweiz",
-          "low": 2.33399513230154,
-          "high": 5.20970713230154
+          "name": "2015",
+          "low": 17.4,
+          "high": 69587
         },
         {
-          "name": "Zürich",
-          "low": 1.75892741809209,
-          "high": 3.44256741809209
+          "name": "2016",
+          "low": 11.2,
+          "high": 70808
         },
         {
-          "name": "Ostschweiz",
-          "low": 1.44960784205846,
-          "high": 3.99799984205846
+          "name": "2017",
+          "low": 18.4,
+          "high": 71610
         },
         {
-          "name": "Zentralschweiz",
-          "low": 0.716556838391518,
-          "high": 4.37822883839152
+          "name": "2018",
+          "low": 15.6,
+          "high": 72931
         },
         {
-          "name": "Tessin",
-          "low": 1.59196976141759,
-          "high": 6.88200976141759
+          "name": "2019",
+          "low": 18.9,
+          "high": 73315
         },
         {
-          "name": "Schweiz",
-          "low": 4.43637461415708,
-          "high": 5.80406261415708
+          "name": "2020",
+          "low": 15.5,
+          "high": 74695
+        },
+        {
+          "name": "2021",
+          "low": 19.7,
+          "high": 74434
+        },
+        {
+          "name": "2022",
+          "low": 18.9,
+          "high": 77625
         }
       ],
-      "name": "95% Vertrauensintervall Untergrenze",
+      "name": "Einbürgerungsziffer (rechte Skala)",
       "turboThreshold": 0
     }
   ],

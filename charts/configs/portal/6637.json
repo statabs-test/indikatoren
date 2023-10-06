@@ -6,97 +6,109 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bachletten",
           "y": 4,
-          "Wert": 0.0185011202
+          "Wert": 0.0259136213
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bachletten",
           "y": 1,
-          "Wert": 0.2340102623
+          "Wert": 0.2174234035
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Bachletten",
+          "y": 12,
+          "Wert": 0.4939091916
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bachletten",
           "y": 6,
-          "Wert": 0.213518682
+          "Wert": 0.2106009705
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bachletten",
-          "y": 20,
-          "Wert": 0.5277
+          "y": 19,
+          "Wert": 0.6262135922
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bachletten",
-          "y": 16,
-          "Wert": 0.3652979164
+          "y": 15,
+          "Wert": 0.3619339045
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bachletten",
-          "y": 20,
-          "Wert": 0.4117944641
+          "y": 19,
+          "Wert": 0.4174972315
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bachletten",
-          "y": 17,
-          "Wert": 0.3207018399
+          "y": 15,
+          "Wert": 0.2959608323
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bachletten",
           "y": 11,
-          "Wert": 1934.637051792828
+          "Wert": 1934.3406462
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bachletten",
           "y": 17,
-          "Wert": 0.557370517928
+          "Wert": 0.5592341444
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bachletten",
           "y": 17,
-          "Wert": 0.421
+          "Wert": 0.4134473173
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bachletten",
-          "y": 18,
-          "Wert": 92.548627
+          "y": 17,
+          "Wert": 92.818792867
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bachletten",
           "y": 15,
-          "Wert": 45.936084
+          "Wert": 46.271230827
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bachletten",
           "y": 14,
-          "Wert": 2411.4
+          "Wert": 2190.337709
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bachletten",
-          "y": 13,
-          "Wert": 11974.6
+          "y": 15,
+          "Wert": 11819.752941
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bachletten",
-          "y": 15,
-          "Wert": 0.7428527
+          "y": 18,
+          "Wert": 0.780542957
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bachletten",
-          "y": 7,
-          "Wert": 0.2017745
+          "y": 6,
+          "Wert": 0.1992794451
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Bachletten",
+          "y": 3,
+          "Wert": 0.0241987109
         }
       ],
       "name": "Wert",

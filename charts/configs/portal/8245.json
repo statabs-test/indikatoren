@@ -5,47 +5,31 @@
       "visible": true,
       "data": [
         [
-          "Kinderzulagen",
-          71.8
+          "2003",
+          222
         ],
         [
-          "Fam.-\u002FHaushaltszulage",
-          25.7
+          "2005",
+          184
         ],
         [
-          "Prämienverbilligung",
-          24.7
+          "2007",
+          151
         ],
         [
-          "Tagesbetreuungbeiträge",
-          7.8
+          "2011",
+          278
         ],
         [
-          "Alimente für Kinder",
-          10.3
+          "2015",
+          191
         ],
         [
-          "Mietzinsbeiträge",
-          3.3
-        ],
-        [
-          "Fürsorgegeld",
-          4.6
-        ],
-        [
-          "Ausbildungsbeiträge",
-          4.3
-        ],
-        [
-          "Andere Beiträge",
-          1.7
-        ],
-        [
-          "Arbeitslosentaggeld",
-          3.8
+          "2019",
+          205
         ]
       ],
-      "name": "2009 (N=3 119)",
+      "name": "Sehr einverstanden",
       "turboThreshold": 0
     },
     {
@@ -53,47 +37,31 @@
       "visible": true,
       "data": [
         [
-          "Kinderzulagen",
-          72.4
+          "2003",
+          475
         ],
         [
-          "Fam.-\u002FHaushaltszulage",
-          23.1
+          "2005",
+          503
         ],
         [
-          "Prämienverbilligung",
-          24.3
+          "2007",
+          521
         ],
         [
-          "Tagesbetreuungbeiträge",
-          9.8
+          "2011",
+          481
         ],
         [
-          "Alimente für Kinder",
-          11
+          "2015",
+          591
         ],
         [
-          "Mietzinsbeiträge",
-          7.5
-        ],
-        [
-          "Fürsorgegeld",
-          4
-        ],
-        [
-          "Ausbildungsbeiträge",
-          4.3
-        ],
-        [
-          "Andere Beiträge",
-          2.3
-        ],
-        [
-          "Arbeitslosentaggeld",
-          3.3
+          "2019",
+          648
         ]
       ],
-      "name": "2013 (N=2 231)",
+      "name": "Eher einverstanden",
       "turboThreshold": 0
     },
     {
@@ -101,47 +69,31 @@
       "visible": true,
       "data": [
         [
-          "Kinderzulagen",
-          73.1
+          "2003",
+          341
         ],
         [
-          "Fam.-\u002FHaushaltszulage",
-          25.6
+          "2005",
+          382
         ],
         [
-          "Prämienverbilligung",
-          21.4
+          "2007",
+          391
         ],
         [
-          "Tagesbetreuungbeiträge",
-          11.4
+          "2011",
+          384
         ],
         [
-          "Alimente für Kinder",
-          9.5
+          "2015",
+          365
         ],
         [
-          "Mietzinsbeiträge",
-          8.9
-        ],
-        [
-          "Fürsorgegeld",
-          4.5
-        ],
-        [
-          "Ausbildungsbeiträge",
-          3.4
-        ],
-        [
-          "Andere Beiträge",
-          3.1
-        ],
-        [
-          "Arbeitslosentaggeld",
-          2.9
+          "2019",
+          342
         ]
       ],
-      "name": "2017 (N=1 665)",
+      "name": "Eher nicht einverstanden",
       "turboThreshold": 0
     }
   ],
@@ -280,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 27.7.2020"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
