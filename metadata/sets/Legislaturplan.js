@@ -289,8 +289,8 @@ var indikatorensetData = [
 			8939
 		],
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2023",
-		"lesehilfe": "Basel-Stadt liegt im Jahr 2023 in den Bereichen Wirtschaftsstruktur, Humankapital, Erreichbarkeit und Einzugsgebiet an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2021",
+		"lesehilfe": "Basel-Stadt liegt im Jahr 2021 in den Bereichen Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteilt die Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"quellenangabe": [
 			"UBS Switzerland AG"
@@ -315,7 +315,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:51",
+		"aktualisierungsdatum": "2021-12-23T02:24:23",
 		"id": 6127
 	},
 	{
@@ -1306,7 +1306,7 @@ var indikatorensetData = [
 		],
 		"title": "Studierende Universität Basel und Fachhochschule Nordwestschweiz",
 		"subtitle": "nach Wohnkanton bzw. Ausland",
-		"lesehilfe": "Die Zahl der Studierenden liegt 2022 bei total 26 225. Den grössten Anteil macht mit 6 342 Personen (24,2%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus den Kantonen Aargau und Basel-Landschaft zugenommen.",
+		"lesehilfe": "Die Zahl der Studierenden liegt 2021 bei total 26 443. Den grössten Anteil macht mit 6 384 Personen (24,1%) die Kategorie «Übrige Schweiz» aus. Besonders stark hat im Beobachtungszeitraum der Anteil der Studierenden aus dem Aargau zugenommen; dieses Wachstum ist allerdings fast ausschliesslich auf die FHNW zurückzuführen.",
 		"erlaeuterungen": "Studierende der Universität Basel und der Fachhochschule Nordwestschweiz FHNW nach Wohnort vor Studienbeginn. Stichtag jeweils im Herbstsemester. Universität Basel aus methodischen Gründen ohne Advanced Studies.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -1332,7 +1332,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:52",
+		"aktualisierungsdatum": "2022-12-15T08:54:13",
 		"id": 9379
 	},
 	{
@@ -1919,7 +1919,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:56:02",
+		"aktualisierungsdatum": "2022-09-26T08:22:34",
 		"id": 9395
 	},
 	{
@@ -1933,7 +1933,7 @@ var indikatorensetData = [
 		],
 		"title": "Teilzeiterwerbstätige in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 31% auf 38% gestiegen und bei den Frauen von 75% auf 78%.",
+		"lesehilfe": "Bei den Männern ist der Anteil der Teilzeiterwerbstätigen im Beobachtungszeitraum von 33% auf 37% gestiegen und bei den Frauen von 76% auf 78%.",
 		"erlaeuterungen": "Anteil der Teilzeiterwerbstätigen in der baselstädtischen Kantonsverwaltung. Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) auf Basis des ordentlichen Bestandes (sog. Headcount); nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -1958,7 +1958,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:52",
+		"aktualisierungsdatum": "2022-12-22T10:09:18",
 		"id": 9396
 	},
 	{
@@ -1972,7 +1972,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 37,2%.",
+		"lesehilfe": "Im Jahr 2021 beträgt der Anteil der Frauen in Kaderpositionen in der kantonalen Verwaltung Basel-Stadt 36,4%.",
 		"erlaeuterungen": "Staatspersonal: Auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -1997,7 +1997,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:53",
+		"aktualisierungsdatum": "2022-12-22T10:09:19",
 		"id": 9397
 	},
 	{

@@ -290,7 +290,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken. Am stärksten war auch hier das Gastgewerbe betroffen.Die Mehrheit der Branchen konnten im Jahr 2021 wieder eine Zunahme der realen Wertschöpfung verzeichnen.",
+		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken, aber am stärksten ist auch hier das Gastgewerbe betroffen. Deutlich zugenommen hat die realen Wertschöpfung im Baugewerbe sowie in den Finanz- und Versicherungsdienstleistungen.",
 		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -315,7 +315,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:52",
+		"aktualisierungsdatum": "2022-06-30T08:51:10",
 		"id": 8357
 	},
 	{
@@ -329,7 +329,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2021 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+48%), in Bereich der Finanz- und Versicherungsdienstleistungen (+19%) und im Gesundheits- und Sozialwesen (+17%). Stark rückläufig war die Wertschöpfung vor allem im Gastgewerbe, was auf den Einbruch 2020 zurückzuführen ist.",
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2020 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+24%) und im Gesundheits- und Sozialwesen (+16%). Stark rückläufig war die Wertschöpfung 2020 vor allem im Gastgewerbe.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -354,7 +354,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:53",
+		"aktualisierungsdatum": "2022-07-13T10:06:15",
 		"id": 8358
 	},
 	{
@@ -368,7 +368,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Schweiz",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2021 im Vergleich zum Jahr 2014 mehr als verdoppelt. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Stark rückläufig war die Wertschöpfung aufgrund des Einbruchs im Jahr 2020 vor allem im Gastgewerbe.",
+		"lesehilfe": "In der Schweiz hat sich die reale Wertschöpfung in der Pharmabranche zwischen 2014 und 2020 mehr als verdoppelt. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um rund 30% gewachsen. Stark rückläufig war sie 2020 vor allem im Gastgewerbe.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -393,7 +393,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:50",
+		"aktualisierungsdatum": "2022-07-13T10:06:15",
 		"id": 8359
 	},
 	{
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Erwerbstätige",
 		"subtitle": "",
-		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2021 rund 141 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 96 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 271 000 Personen erwerbstätig.",
+		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2020 rund 138 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 94 000 Erwerbstätige. Zusammen mit den rund 33 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 265 000 Personen erwerbstätig.",
 		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -432,7 +432,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:55",
+		"aktualisierungsdatum": "2022-09-15T09:04:42",
 		"id": 8360
 	},
 	{
@@ -484,8 +484,8 @@ var indikatorensetData = [
 			8479
 		],
 		"title": "Grenzgänger",
-		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 900.",
+		"subtitle": "2022, 3. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2022 beträgt rund 34 800. In Basel-Landschaft sind es 24 100, im Jura 10 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 374 300.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -510,7 +510,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:56",
+		"aktualisierungsdatum": "2022-12-14T08:05:27",
 		"id": 8362
 	},
 	{
@@ -719,8 +719,8 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Tertiärquote",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2021: 52,5%). Basel-Landschaft liegt bei 41,8%, Jura bei 27,0%. Der Wert für die ganze Schweiz beträgt 40,7%.",
-		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt (7 000 in Basel-Landschaft, 2 000 in Jura) wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2020: 50,9%). Basel-Landschaft liegt bei 40,7%, Jura bei 23,9%. Der Wert für die ganze Schweiz beträgt 40,1%.",
+		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -744,7 +744,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:51",
+		"aktualisierungsdatum": "2022-07-26T08:26:31",
 		"id": 8368
 	},
 	{
@@ -758,7 +758,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
-		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2022 mit 37,0% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,3%, im Kanton Basel-Landschaft 34,7%. Im Schweizer Durchschnitt gibt es 32,6% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
+		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2021 mit 34,2% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,2%, im Kanton Basel-Landschaft 31,4%. Im Schweizer Durchschnitt gibt es 32,7% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
 		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
@@ -783,7 +783,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:56",
+		"aktualisierungsdatum": "2022-12-20T08:53:55",
 		"id": 8369
 	},
 	{
@@ -864,6 +864,84 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-02-20T08:32:07",
 		"id": 8371
+	},
+	{
+		"template": "line001",
+		"data-id": 8372,
+		"chart-id": 8372,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8489
+		],
+		"title": "Entwicklung Logiernächte",
+		"subtitle": "indexiert, 2014 = 100",
+		"lesehilfe": "Zwischen 2014 und 2019 haben die Logiernächte in Basel-Stadt zugenommen, insgesamt um 22,4%. In den Jahren 2020 und 2021 wurden im Kanton Basel-Stadt (46,9 bzw. 67,5 Indexpunkte) und Basel-Landschaft (47,9 bzw. 59,9 Indexpunkte) pandemiebedingte sehr tiefe Werte verzeichnet. Im Kanton Jura stieg 2021 die Zahl der Übernachtungen um 17,0%. Der Wert der gesamten Schweiz sank um 17,7%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Logiernächte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.08372",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "5-2",
+		"stufe1": "5. Tourismus",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-24T08:55:29",
+		"id": 8372
+	},
+	{
+		"template": "template001",
+		"data-id": 8373,
+		"chart-id": 8373,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8490
+		],
+		"title": "Entwicklung Anzahl Logiernächte",
+		"subtitle": "",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2021 zusammen rund 1,1 Mio. Logiernächte verzeichnet. Der grösste Teil fiel mit 785 000 auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden 185 000, im Jura 124 000 Logiernächte gebucht. 2020 wurde ein pandemiebedingter Rückgang auf knapp 800 000 Übernachtungen registriert.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Anzahl Logiernächte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.08373",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "5-1",
+		"stufe1": "5. Tourismus",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:33",
+		"id": 8373
 	},
 	{
 		"template": "line001",
@@ -1153,8 +1231,8 @@ var indikatorensetData = [
 			8498
 		],
 		"title": "Beschäftigte nach Branche",
-		"subtitle": "2021",
-		"lesehilfe": "In Basel-Stadt sind rund 83% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (57%). Im Industriesektor ist für Basel-Stadt die Chemie- und Pharmabranche von besonderer Bedeutung. Die grösste Bedeutung hat der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 26% in BL bzw. 17% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
+		"subtitle": "2020",
+		"lesehilfe": "In Basel-Stadt sind rund 82% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (56%). Im Industriesektor ist für Basel-Stadt die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 26% in BL bzw. 18% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1180,7 +1258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:13",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8438
 	},
 	{
@@ -1233,8 +1311,8 @@ var indikatorensetData = [
 			8500
 		],
 		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
-		"subtitle": "2021",
-		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt rund 8 Personen beschäftigt. Dieser Wert liegt nahe am gesamtschweizerischen Durchschnitt. Im Jura liegt der Wert etwas tiefer bei rund 7 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit rund 11 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"subtitle": "2020",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 7,8 Personen beschäftigt. Dieser Wert liegt nahe am gesamtschweizerischen Durchschnitt voni 7,6. Im Jura liegt der Wert etwas tiefer bei 6,8 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11,0 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1260,7 +1338,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:14",
+		"aktualisierungsdatum": "2022-12-20T08:53:53",
 		"id": 8440
 	},
 	{
@@ -1273,8 +1351,8 @@ var indikatorensetData = [
 			8501
 		],
 		"title": "Veränderung der Beschäftigtenzahl",
-		"subtitle": "2021 gegenüber 2014",
-		"lesehilfe": "Zwischen 2014 und 2021 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 3,3% gewachsen und damit weniger stark als in der Gesamtschweiz (+7,3%). Das Beschäftigungswachstum liegt in Basel-Landschaft (+5,1%) und in Basel-Stadt (1,0%) unter dem Schweizer Wert, im Kanton Jura (+7,7%) darüber.",
+		"subtitle": "2020 gegenüber 2014",
+		"lesehilfe": "Zwischen 2014 und 2020 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 1,1% gewachsen und damit weniger stark als in der Gesamtschweiz (+4,8%). Das Beschäftigungswachstum liegt im Jura (+4,4%), in Basel-Landschaft (+3,2%) und in Basel-Stadt (-1,2%) unter dem Schweizer Wert.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1300,7 +1378,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:16",
+		"aktualisierungsdatum": "2023-01-02T08:14:06",
 		"id": 8441
 	},
 	{
@@ -1342,6 +1420,91 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-07-26T08:26:30",
 		"id": 8442
+	},
+	{
+		"title": "Entwicklung Steuerertrag pro Kopf der Wohnbevölkerung",
+		"subtitle": "in Franken",
+		"kuerzel": "",
+		"kuerzelKunde": "3-1",
+		"description": "Entwicklung Steuerertrag pro Kopf der Wohnbevölkerung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-07-07T09:09:36.3636",
+		"stufe1": "3. Öffentliche Finanzen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Steuerertrag pro Kopf liegt im Baselbiet 2017 mit etwas über 8 000 Franken im gesamtschweizerischen Durchschnitt. Im Jura beträgt der Wert etwas mehr als 6 000 Franken. Den höchsten Steuerertrag pro Person erzielt Basel-Stadt mit rund 14 000 Franken. Verglichen mit 2014 hat sich der Steuerertrag pro Kopf in den beiden Basel erhöht und im Jura leicht reduziert.",
+		"erlaeuterungen": "Steuerertrag der Kantone und ihrer Gemeinden nach national vergleichbaren Kriterien (FS-Modell). Im Steuerertrag enthalten sind die direkten Steuern der natürlichen Personen (Einkommens-, Vermögens- und Quellensteuer) und der juristischen Personen (Gewinn- und Kapitalsteuer).",
+		"template": "template001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_00_00_00_00_001",
+		"parentId": null,
+		"children": [
+			"8503"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
+			"Eidgenössische Finanzverwaltung, Finanzstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8443,
+		"chart-id": 8443,
+		"filter": "",
+		"id": 8443
+	},
+	{
+		"title": "Anteil Steuerertrag nach natürlichen und juristischen Personen",
+		"subtitle": "2017",
+		"kuerzel": "",
+		"kuerzelKunde": "3-2",
+		"description": "Anteil Steuerertrag nach natürlichen und juristischen Personen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2020-07-07T09:09:36.3636",
+		"stufe1": "3. Öffentliche Finanzen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im schweizerischen Vergleich haben die Steuererträge der juristischen Personen im Kanton Basel-Stadt eine überdurchschnittliche Bedeutung. Deren Anteil liegt bei 30%, verglichen mit 18% in der Gesamtschweiz. Im Baselbiet tragen umgekehrt die natürlichen Personen einen überdurchschnittlichen Anteil an den Steuererträgen von 88% (Schweiz: 82%). Im Jura entsprechen die Anteile in etwa dem Schweizer Durchschnitt.",
+		"erlaeuterungen": "Steuerertrag der Kantone und ihrer Gemeinden nach national vergleichbaren Kriterien (FS-Modell). Im Steuerertrag enthalten sind die direkten Steuern der natürlichen Personen (Einkommens-, Vermögens- und Quellensteuer) und der juristischen Personen (Gewinn- und Kapitalsteuer).",
+		"template": "template001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"8504"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung, Finanzstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8444,
+		"chart-id": 8444,
+		"filter": "",
+		"id": 8444
 	},
 	{
 		"template": "template001",
@@ -1396,7 +1559,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
-		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2021 bei 69,9%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 67,1% und 72,7%. Im Kanton Basel-Landschaft liegt die Quote bei 76,4% und im Kanton Jura bei 71,7%. Der Wert für die Schweiz beträgt 75,8%.",
+		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2020 bei 68,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 66,0% und 71,4%. Im Kanton Basel-Landschaft liegt die Quote bei 72,9% und im Kanton Jura bei 75,0%. Der Wert für die Schweiz beträgt 74,8%.",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1422,7 +1585,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:18",
+		"aktualisierungsdatum": "2022-09-15T09:04:40",
 		"id": 8446
 	},
 	{
@@ -1514,8 +1677,8 @@ var indikatorensetData = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 25 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2021). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2022, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 24 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2020). Auch der Anteil in den Kantonen Basel-Stadt (19%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -1541,7 +1704,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:20",
+		"aktualisierungsdatum": "2023-03-01T09:02:24",
 		"id": 8863
 	},
 	{
@@ -1582,6 +1745,45 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-01-27T08:46:08",
 		"id": 8868
+	},
+	{
+		"template": "template001",
+		"data-id": 8873,
+		"chart-id": 8873,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8876
+		],
+		"title": "Entwicklung Bettenangebot",
+		"subtitle": "",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2021 zusammen 12 000 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit knapp 8 500 an. Das Bettenangebot nahm in Basel-Stadt zwischen 2017 und 2019 zu. 2020 wurde im Vergleich zum Vorjahr ein pandemiebedingter Rückgang registriert. 2021 nahm das Angebot im Vergleich zu 2020 um 5,8% zu.  In Basel-Landschaft und im Jura wurden im Zeitraum von 2017 bis 2021 Rückgänge verzeichnet (-11,7% auf 2 100 und -9,9% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"erlaeuterungen": "Anzahl angebotene Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen. <br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Bettenangebot",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.08873",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "5-3",
+		"stufe1": "5. Tourismus",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:33",
+		"id": 8873
 	},
 	{
 		"title": "Entwicklung Neugründungsrate",
@@ -1635,7 +1837,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Beschäftigung",
 		"subtitle": "",
-		"lesehilfe": "Basel-Stadt zählt rund 193 002 Beschäftigte und damit fast so viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. Die Beschäftigung in der Region BS/BL/JU hat im Jahr 2021 gegenüber dem Vorjahr um 2,2% zugenommen.",
+		"lesehilfe": "Basel-Stadt zählt rund 189 000 Beschäftigte und damit fast so viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. Die Beschäftigung in der Region BS/BL/JU hat im Jahr 2020 gegenüber dem Vorjahr um 1,1% abgenommen.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1660,7 +1862,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:15",
+		"aktualisierungsdatum": "2022-12-20T08:53:54",
 		"id": 8970
 	}
 ];

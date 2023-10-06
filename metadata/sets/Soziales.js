@@ -224,5 +224,593 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-05-22T02:05:11",
 		"id": 9298
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Anzahl Stipendien nach Ausbildungstyp",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09915",
+		"kuerzelKunde": "",
+		"description": "Anzahl Stipendien nach Ausbildungstyp",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:13:23.2323",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Verlauf des Jahres 2022 werden insgesamt 1 953 Stipendien vergeben. Davon gehen 29% an Personen in Gymnasien und anderen<br>Schulen für Allgemeinbildung. 37% der Begünstigten befinden sich<br>in der Beruflichen Grundbildung und 33% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in Weiterbildungen.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Ausbildungsbeiträge"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9915,
+		"chart-id": 9915,
+		"filter": "",
+		"id": 9915
+	},
+	{
+		"parentId": 8250,
+		"children": [],
+		"template": "line001",
+		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09918",
+		"kuerzelKunde": "",
+		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-22T14:05:10.1010",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2022 liegt die Anzahl Personen mit Ergänzungsleistungen (EL) zur AHV bei 8 741, jene mit EL zur IV bei 6 754. Beihilfen werden an 5 357 (AHV) respektive 4 341 (IV) Personen ausbezahlt.",
+		"erlaeuterungen": "Referenzperiode: Dezember.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9918,
+		"chart-id": 8250,
+		"filter": "",
+		"id": 9918
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09919",
+		"kuerzelKunde": "",
+		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:16:28.2828",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "70% der Personen mit IV erhielten zum Jahresende 2022 EL, 45%<br>werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei einem Fünftel bzw. einem Achtel.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9919,
+		"chart-id": 9919,
+		"filter": "",
+		"id": 9919
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährliche Durchschnittsbeiträge in Franken",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09920",
+		"kuerzelKunde": "",
+		"description": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährliche Durchschnittsbeiträge in Franken",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:16:51.5151",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl der Mietverhältnisse mit FAMI sinkt im zweiten Jahr in<br>Folge. Per Ende des Jahres 2022 werden 2 178 Mietverhältnisse unterstützt (2021: 2 251). Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt 2022 wie im Vorjahr bei 5 200 Franken.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9920,
+		"chart-id": 9920,
+		"filter": "",
+		"id": 9920
+	},
+	{
+		"parentId": 4152,
+		"children": [],
+		"template": "template001",
+		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09921",
+		"kuerzelKunde": "",
+		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-22T14:05:12.1212",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2019 nach zuvor kontinuierlichem Anstieg zurück. Ende 2022 beziehen 2 151 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9921,
+		"chart-id": 4152,
+		"filter": "",
+		"id": 9921
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Anzahl Übernachtungen nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09922",
+		"kuerzelKunde": "",
+		"description": "Anzahl Übernachtungen nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:23:33.3333",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9922,
+		"chart-id": 9922,
+		"filter": "",
+		"id": 9922
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Auslastungsquote nach Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09923",
+		"kuerzelKunde": "",
+		"description": "Auslastungsquote nach Geschlecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:23:53.5353",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9923,
+		"chart-id": 9923,
+		"filter": "",
+		"id": 9923
+	},
+	{
+		"parentId": 4154,
+		"children": [],
+		"template": "template001",
+		"title": "Bestand an Notwohnungen und ihre Belegung",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09924",
+		"kuerzelKunde": "",
+		"description": "Bestand an Notwohnungen und ihre Belegung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-06-07T08:10:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die wenigen Notwohnungen – 2022 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2022 um knapp 100 Logis erhöht werden.",
+		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9924,
+		"chart-id": 4154,
+		"filter": "",
+		"id": 9924
+	},
+	{
+		"parentId": 9289,
+		"children": [],
+		"template": "line001",
+		"title": "Sozialhilfequote nach Gemeinde",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.3.09925",
+		"kuerzelKunde": "",
+		"description": "Sozialhilfequote nach Gemeinde",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2023-05-25T09:11:17.1717",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2022 bei 5,0%. Sie sinkt seit dem Jahr 2017 kontinuierlich. Die Stadt Basel weist 2022 eine Quote von 5,3% aus, Riehen 2,7% und Bettingen 1,7%.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt. <br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst. Bis 2017 galt für die Anzahl Beziehender folgende Definition: Alle Personen mit Dossiertyp «Sozialhilfefall», «Asyl» oder «Flüchtling» die im Verlauf eines Jahres mindestens eine Sozialhilfeleistung erhalten haben. Auf die Werte von Riehen und Bettingen hat diese Umstellung keinen Einfluss.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9925,
+		"chart-id": 9289,
+		"filter": "",
+		"id": 9925
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Nettounterstützung I der Sozialhilfe",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09926",
+		"kuerzelKunde": "",
+		"description": "Nettounterstützung I (kant. Gesamtkosten)",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:26:27.2727",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettounterstützung I liegt 2022 mit insgesamt 108,6 Mio. Franken so tief wie noch nie im Verlaufe der vergangenen 10 Jahre. Der Anteil von Riehen und  Bettingen liegt 2022 bei 4,5 Mio. Franken.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9926,
+		"chart-id": 9926,
+		"filter": "",
+		"id": 9926
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Anzahl Zahlfälle und Personen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09927",
+		"kuerzelKunde": "",
+		"description": "Anzahl Zahlfälle und Personen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:26:56.5656",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Verlaufe des Jahres 2022 werden insgesamt 9 412 Personen in 6 380 Dossiers finanziell unterstützt. Davon fallen 619 Personen bzw. 385 Dossiers in den Aufgabenbereich der Sozialhilfe Riehen",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9927,
+		"chart-id": 9927,
+		"filter": "",
+		"id": 9927
+	},
+	{
+		"parentId": 6055,
+		"children": [],
+		"template": "line001",
+		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09929",
+		"kuerzelKunde": "",
+		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-22T14:05:17.1717",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2022 liegt die Platzzahl bei 4 398. Auch die Tagesstrukturen wurden stetig ausgebaut. 2022 bieten die Frühhorte Platz für 656 Kinder, die Mittagsmodule  3 800 und die Nachmittagsmodule 3 450 Plätze.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9929,
+		"chart-id": 6055,
+		"filter": "",
+		"id": 9929
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Anzahl Tagesferien besuchende Schülerinnen und Schüler sowie gebuchte Ferientage für Ferienbetreuung an Schulen",
+		"subtitle": "",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09930",
+		"kuerzelKunde": "",
+		"description": "Anzahl Tagesferien besuchende Schülerinnen und Schüler sowie gebuchte Ferientage für Ferienbetreuung an Schulen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:28:23.2323",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt 3 012 Schülerinnen und Schüler nutzen im Verlaufe des Jahres 2022 die Tagesferien. Dies entspricht durchschnittlich 290 Angemeldeten pro Ferienwoche. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise Ferienbetreuung an den Schulen wird im Berichtsjahr 897 mal gebucht, was durchschnittlich 57 Kindern pro Ferientag entspricht.",
+		"erlaeuterungen": "Das Tagesferienangebot steht an 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19 Pandemie lediglich an 11 Wochen angeboten.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9930,
+		"chart-id": 9930,
+		"filter": "",
+		"id": 9930
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Fälle der Alimentenhilfe nach Fallart",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09933",
+		"kuerzelKunde": "",
+		"description": "Fälle der Alimentenhilfe nach Fallart",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-08T09:29:41.4141",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "TEXT HIER",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9933,
+		"chart-id": 9933,
+		"filter": "",
+		"id": 9933
+	},
+	{
+		"parentId": 9294,
+		"children": [],
+		"template": "line001",
+		"title": "Beziehende von Prämienverbilligungen",
+		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+		"kennzahlenset": "Soziales",
+		"kuerzel": "I.13.2.09934",
+		"kuerzelKunde": "",
+		"description": "Beziehende von Prämienverbilligungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-24T08:23:24.2424",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit 51 711 Beziehenden erhalten Ende 2022 ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9934,
+		"chart-id": 9294,
+		"filter": "",
+		"id": 9934
 	}
 ];

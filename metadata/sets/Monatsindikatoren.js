@@ -82,8 +82,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten überwiegend gesunken und beträgt im September 1,6%.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen September 2023 und September 2022.",
+		"lesehilfe": "Nachdem sich die Jahresteuerung des Basler Index der Konsumentenpreise in den beiden ersten Monaten 2023 akzentuiert hatte und bis auf 3,2% im Februar gestiegen war, ist sie in den Folgemonaten gesunken und beträgt im August wie schon im Juli 1,5%.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Juli 2023 und Juli 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-04T07:46:39",
+		"aktualisierungsdatum": "2023-09-04T10:52:27",
 		"id": 7512
 	},
 	{
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-04T07:46:40",
+		"aktualisierungsdatum": "2023-09-04T10:52:29",
 		"id": 7513
 	},
 	{
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:50",
+		"aktualisierungsdatum": "2023-08-21T09:16:50",
 		"id": 7515
 	},
 	{
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "133 149 Logiernächte wurden im August 2023 in den Basler Hotelbetrieben gebucht, 10 690 bzw. 7,4% wenigerr als im Juli. Im Vergleich zum August 2022 entspricht dies einer Abnahme um 2,9% bzw. 4 036 Übernachtungen. Die inländischen Gäste buchten 44 284 Logiernächte (-23,3%), die Gäste aus dem Ausland 88 865 Übernachtungen (+11,8%).",
+		"lesehilfe": "143 839 Logiernächte wurden im Juli 2023 in den Basler Hotelbetrieben gebucht, 1 223 bzw. 0,9% mehr als im Juni. Im Vergleich zum Juli 2022 entspricht dies einer Zunahme um 3,1% bzw. 4 334 Übernachtungen. Die inländischen Gäste buchten 52 091 Logiernächte (-5,8%), die Gäste aus dem Ausland 91 748 Übernachtungen (+9,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:15:59",
+		"aktualisierungsdatum": "2023-08-22T08:44:53",
 		"id": 7516
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T09:16:00",
+		"aktualisierungsdatum": "2023-08-22T08:44:54",
 		"id": 7517
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In zwölf Wohnvierteln sank sie.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Im Juli 2023 stieg die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln sowie in den Gemeinden Riehen und Bettingen. In neun Wohnvierteln sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:55:51",
+		"aktualisierungsdatum": "2023-08-21T09:16:51",
 		"id": 7763
 	},
 	{

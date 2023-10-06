@@ -1520,8 +1520,8 @@ id | visible | visibleInPortal | indikatorenset
 8369 | true | true | Wirtschaftsbericht BS_BL_JU
 8370 | true | true | Wirtschaftsbericht BS_BL_JU
 8371 | true | true | Wirtschaftsbericht BS_BL_JU
-8372 | false |  | Wirtschaftsbericht BS_BL_JU
-8373 | false |  | Wirtschaftsbericht BS_BL_JU
+8372 | true | true | Wirtschaftsbericht BS_BL_JU
+8373 | true | true | Wirtschaftsbericht BS_BL_JU
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | true | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
@@ -1580,8 +1580,8 @@ id | visible | visibleInPortal | indikatorenset
 8440 | true | true | Wirtschaftsbericht BS_BL_JU
 8441 | true | true | Wirtschaftsbericht BS_BL_JU
 8442 | true | true | Wirtschaftsbericht BS_BL_JU
-8443 | false |  | Wirtschaftsbericht BS_BL_JU
-8444 | false |  | Wirtschaftsbericht BS_BL_JU
+8443 | true | true | Wirtschaftsbericht BS_BL_JU
+8444 | true | true | Wirtschaftsbericht BS_BL_JU
 8445 | true | true | Wirtschaftsbericht BS_BL_JU
 8446 | true | true | Wirtschaftsbericht BS_BL_JU
 8447 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1801,7 +1801,7 @@ id | visible | visibleInPortal | indikatorenset
 8863 | true | true | Wirtschaftsbericht BS_BL_JU
 8864 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8868 | true | true | Wirtschaftsbericht BS_BL_JU
-8873 | false |  | Wirtschaftsbericht BS_BL_JU
+8873 | true | true | Wirtschaftsbericht BS_BL_JU
 8874 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8876 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8877 | true | false | Richtplan
@@ -2256,23 +2256,23 @@ id | visible | visibleInPortal | indikatorenset
 9785 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9915 | true | true | Soziales
+9918 | true | false | Soziales
+9919 | true | true | Soziales
+9920 | true | true | Soziales
+9921 | true | false | Soziales
+9922 | true | true | Soziales
+9923 | true | true | Soziales
+9924 | true | false | Soziales
+9925 | true | false | Soziales
+9926 | true | true | Soziales
+9927 | true | true | Soziales
+9929 | true | false | Soziales
+9930 | true | true | Soziales
+9933 | true | true | Soziales
+9934 | true | false | Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
-10031 | true | true | CMS Kennzahlen Soziales
-10033 | true | false | CMS Kennzahlen Soziales
-10034 | true | false | CMS Kennzahlen Soziales
-10036 | true | false | CMS Kennzahlen Soziales
-10040 | true | false | CMS Kennzahlen Soziales
-10041 | true | false | CMS Kennzahlen Soziales
-10042 | true | false | CMS Kennzahlen Soziales
-10043 | true | false | CMS Kennzahlen Soziales
-10044 | true | false | CMS Kennzahlen Soziales
-10045 | true | false | CMS Kennzahlen Soziales
-10046 | true | false | CMS Kennzahlen Soziales
-10049 | true | false | CMS Kennzahlen Soziales
-10050 | true | false | CMS Kennzahlen Soziales
-10051 | true | false | CMS Kennzahlen Soziales
-10052 | true | false | CMS Kennzahlen Soziales
