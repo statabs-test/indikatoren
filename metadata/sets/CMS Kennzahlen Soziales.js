@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"parentId": 9919,
 		"children": [],
-		"template": "",
+		"template": "line001",
 		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -34,14 +34,14 @@ var indikatorensetData = [
 			""
 		],
 		"data-id": 10031,
-		"chart-id": 9919,
+		"chart-id": 10031,
 		"filter": "",
 		"id": 10031
 	},
 	{
 		"parentId": 9373,
 		"children": [],
-		"template": "",
+		"template": "template001",
 		"title": "Anteil Personen, die in einem Haushalt mit Betreibungen, Zahlungsrückständen oder Kontoüberziehungen leben",
 		"subtitle": "Nordwestschweiz",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -80,7 +80,7 @@ var indikatorensetData = [
 	{
 		"parentId": 9785,
 		"children": [],
-		"template": "",
+		"template": "line001",
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -119,7 +119,7 @@ var indikatorensetData = [
 	{
 		"parentId": 4858,
 		"children": [],
-		"template": "",
+		"template": "befragungen001",
 		"title": "Beurteilung der Chancengleichheit",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.», Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -156,9 +156,48 @@ var indikatorensetData = [
 		"id": 10036
 	},
 	{
+		"parentId": 4722,
+		"children": [],
+		"template": "template001",
+		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.01.6.10040",
+		"kuerzelKunde": "2.1.3",
+		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Einbürgerungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-27T13:42:13.1313",
+		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2022 liessen sich 1 465 ausländische Staatsangehörige einbürgern. Dies entspricht einer Einbürgerungsziffer von 18,9 Einbürgerungen pro 1000 ausländischen Staatsangehörigen.",
+		"erlaeuterungen": "Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sch aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "02_00_00_00_00_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 10040,
+		"chart-id": 4722,
+		"filter": "",
+		"id": 10040
+	},
+	{
 		"parentId": 6215,
 		"children": [],
-		"template": "",
+		"template": "template001",
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2023",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -236,7 +275,7 @@ var indikatorensetData = [
 	{
 		"parentId": 6492,
 		"children": [],
-		"template": "",
+		"template": "template001",
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -275,7 +314,7 @@ var indikatorensetData = [
 	{
 		"parentId": 4872,
 		"children": [],
-		"template": "",
+		"template": "befragungen001",
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -314,7 +353,7 @@ var indikatorensetData = [
 	{
 		"parentId": 4724,
 		"children": [],
-		"template": "",
+		"template": "befragungen001",
 		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -353,7 +392,7 @@ var indikatorensetData = [
 	{
 		"parentId": 4849,
 		"children": [],
-		"template": "",
+		"template": "befragungen001",
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -392,7 +431,7 @@ var indikatorensetData = [
 	{
 		"parentId": 9390,
 		"children": [],
-		"template": "",
+		"template": "line001",
 		"title": "Hitzetage und Tropennächte",
 		"subtitle": "Anzahl Tage, Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -432,7 +471,7 @@ var indikatorensetData = [
 	{
 		"parentId": 6028,
 		"children": [],
-		"template": "",
+		"template": "befragungen001",
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -471,7 +510,7 @@ var indikatorensetData = [
 	{
 		"parentId": 9008,
 		"children": [],
-		"template": "",
+		"template": "template001",
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -510,7 +549,7 @@ var indikatorensetData = [
 	{
 		"parentId": 6163,
 		"children": [],
-		"template": "",
+		"template": "template001",
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",

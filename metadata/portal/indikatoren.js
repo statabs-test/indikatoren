@@ -2,7 +2,7 @@ var indikatoren = [
 	{
 		"parentId": 9919,
 		"children": [],
-		"template": "",
+		"template": "line001",
 		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
@@ -35,7 +35,7 @@ var indikatoren = [
 			""
 		],
 		"data-id": 10031,
-		"chart-id": 9919,
+		"chart-id": 10031,
 		"filter": "",
 		"id": 10031
 	},
