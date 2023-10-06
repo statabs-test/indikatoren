@@ -1,23 +1,22 @@
-﻿"Wohnviertel_ID"	"Wohnviertel_Name"	"Leerwohnungsquote (%)"	"Anzahl leerstehende Wohnungen"
-1	"Altstadt Grossbasel"	2.19	35
-2	"Vorstädte"	2.08	72
-3	"Am Ring"	1.44	95
-4	"Breite"	1.12	62
-5	"St. Alban"	1.04	73
-6	"Gundeldingen"	1.21	140
-7	"Bruderholz"	0.90	41
-8	"Bachletten"	0.62	46
-9	"Gotthelf"	0.89	38
-10	"Iselin"	1.22	124
-11	"St. Johann"	0.92	98
-12	"Altstadt Kleinbasel"	0.84	14
-13	"Clara"	1.02	27
-14	"Wettstein"	0.59	20
-15	"Hirzbrunnen"	0.45	22
-16	"Rosental"	1.61	67
-17	"Matthäus"	0.91	82
-18	"Klybeck"	1.10	43
-19	"Kleinhüningen"	0.97	15
-20	"Riehen"	0.99	108
-30	"Bettingen"	1.24	7
-
+Wohnviertel_ID	Wohnviertel_Name	Leerwohnungsquote in %	Anzahl leerstehende Wohnungen
+1	Altstadt Grossbasel	1.4	21
+2	Vorstädte	2.7	91
+3	Am Ring	0.9	58
+4	Breite	1.0	55
+5	St. Alban	1.3	85
+6	Gundeldingen	0.9	107
+7	Bruderholz	0.7	31
+8	Bachletten	0.5	37
+9	Gotthelf	0.7	27
+10	Iselin	0.9	87
+11	St. Johann	0.8	85
+12	Altstadt Kleinbasel	1.0	16
+13	Clara	1.3	30
+14	Wettstein	0.6	19
+15	Hirzbrunnen	0.8	36
+16	Rosental	3.5	143
+17	Matthäus	0.6	55
+18	Klybeck	0.6	22
+19	Kleinhüningen	0.7	9
+20	Riehen	1.0	107
+30	Bettingen	0.6	3
