@@ -5,33 +5,6 @@
       "data": [
         [
           "Basel-Stadt",
-          27001
-        ],
-        [
-          "Basel-Landschaft",
-          511
-        ],
-        [
-          "Jura",
-          1194
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          28707
-        ],
-        [
-          "Schweiz",
-          34809
-        ]
-      ],
-      "name": "2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "Basel-Stadt",
           26470
         ],
         [
@@ -55,7 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -82,7 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -106,6 +79,33 @@
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          42109
+        ],
+        [
+          "Basel-Landschaft",
+          -691
+        ],
+        [
+          "Jura",
+          1355
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          42773
+        ],
+        [
+          "Schweiz",
+          58461
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
