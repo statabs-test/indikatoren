@@ -586,6 +586,123 @@ var indikatorensetData = [
 		"id": 10052
 	},
 	{
+		"parentId": 4849,
+		"children": [],
+		"template": "befragungen001",
+		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.50.2.10263",
+		"kuerzelKunde": "2.2.4",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-10-12T09:43:04.044",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 10263,
+		"chart-id": 4849,
+		"filter": "",
+		"id": 10263
+	},
+	{
+		"parentId": 4719,
+		"children": [],
+		"template": "befragungen001",
+		"title": "Beurteilung von gesellschaftlicher Vielfalt",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.50.1.10264",
+		"kuerzelKunde": "2.1.5",
+		"description": "Beurteilung von gesellschaftlicher Vielfalt",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-10-12T10:01:52.5252",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit 50,0% stimmen 2019 dieser Aussage deutlich mehr Befragte sehr zu als 2015 (23,6%). Die Veränderung dürfte mindestens teilweise mit der Anpassung der Befragungsmethodik zusammenhängen. Insgesamt 8,9% der Befragten stimmen der Aussage eher oder überhaupt nicht zu.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 10264,
+		"chart-id": 4719,
+		"filter": "",
+		"id": 10264
+	},
+	{
+		"parentId": 6492,
+		"children": [],
+		"template": "template001",
+		"title": "Beteiligung an Freiwilligenarbeit",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.03.6.10265",
+		"kuerzelKunde": "2.2.1",
+		"description": "Beteiligung an Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-10-12T10:02:54.5454",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutio-nalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%). Die Beteiligung an institutionalisierter sowie informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung niedriger als bei Schweizer Staatsangehörigen.",
+		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 10265,
+		"chart-id": 6492,
+		"filter": "",
+		"id": 10265
+	},
+	{
 		"title": "In der Schweiz geborene Personen",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.08240",
