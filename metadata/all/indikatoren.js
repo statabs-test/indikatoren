@@ -40,6 +40,47 @@ var indikatoren = [
 		"id": 10031
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
+		"subtitle": "Stadt Basel",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.13.2.10032",
+		"kuerzelKunde": "1.1.5",
+		"description": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-27T13:42:13.1313",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "23% der 2015 Anspruchsberechtigten haben keine Familienmietzinsbeiträge bezogen. Die Nichtbezugsquote bei den Ergänzungsleistungen lag 2015 bei 29%, jene der Prämienverbilligung bei 19%. Rund 30% der Personen mit Anspruch auf Sozialhilfe haben diesen nicht geltend gemacht.",
+		"erlaeuterungen": "Die Berner Fachhochschule hat 2018 im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt die Nichtbezugsquote für die Sozialleistungen Ergänzungsleistungen (EL), Familienmietzinsbeiträge und Prämienverbilligung für das Jahr geschätzt. 2023 wurde diese auch für den Bezug von Sozialhilfe berechnet. Die Berechnungen basieren kantonalen Registerdaten.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Berner Fachhochschule (BFH)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"",
+			""
+		],
+		"data-id": 10032,
+		"chart-id": 10032,
+		"filter": "",
+		"id": 10032
+	},
+	{
 		"parentId": 9373,
 		"children": [],
 		"template": "template001",
@@ -158,6 +199,47 @@ var indikatoren = [
 		"chart-id": 4858,
 		"filter": "",
 		"id": 10036
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Ausbildungsbeiträge nach Aufenthaltsrecht",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
+		"kuerzelKunde": "1.3.6",
+		"description": "Ausbildungsbeiträge nach Aufenthaltsrecht",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-27T13:42:13.1313",
+		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der kantonalen Stipendien und Darlehen (STIP)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"",
+			""
+		],
+		"data-id": 10038,
+		"chart-id": 10038,
+		"filter": "",
+		"id": 10038
 	},
 	{
 		"parentId": 4722,

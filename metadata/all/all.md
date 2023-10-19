@@ -2299,9 +2299,11 @@ id | visible | visibleInPortal | indikatorenset
 9998 | true | false | Test
 9999 | true | false | Test
 10031 | true | false | CMS Kennzahlen Soziales
+10032 | true | true | CMS Kennzahlen Soziales
 10033 | true | false | CMS Kennzahlen Soziales
 10034 | true | false | CMS Kennzahlen Soziales
 10036 | true | false | CMS Kennzahlen Soziales
+10038 | true | true | CMS Kennzahlen Soziales
 10040 | true | false | CMS Kennzahlen Soziales
 10041 | true | false | CMS Kennzahlen Soziales
 10042 | true | false | CMS Kennzahlen Soziales

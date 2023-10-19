@@ -30,9 +30,9 @@
       }
     },
     yAxis: {
-      tickAmount: 6,
+      tickAmount: 5,
       labels: {
-        format: "{value:,.1f}%"
+        format: "{value:,.0f}%"
       }
     },
     series: [
@@ -47,13 +47,13 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
-      itemWidth: 300,
+      //itemWidth: 300,
       itemStyle: {
         fontWeight: "normal"
       }
     },
     tooltip: {
-      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}%</b><br/>',
     }
   }
 }());
