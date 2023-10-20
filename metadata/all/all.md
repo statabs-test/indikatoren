@@ -2303,6 +2303,7 @@ id | visible | visibleInPortal | indikatorenset
 10033 | true | false | CMS Kennzahlen Soziales
 10034 | true | false | CMS Kennzahlen Soziales
 10036 | true | false | CMS Kennzahlen Soziales
+10037 | true | true | CMS Kennzahlen Soziales
 10038 | true | true | CMS Kennzahlen Soziales
 10040 | true | false | CMS Kennzahlen Soziales
 10041 | true | false | CMS Kennzahlen Soziales

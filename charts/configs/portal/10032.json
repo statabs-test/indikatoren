@@ -4,7 +4,7 @@
       "color": "#73B97C",
       "data": [
         [
-          "Familienmietzinsbeiträge",
+          "Mietzinsbeiträge",
           23
         ],
         [
@@ -27,7 +27,7 @@
       "color": "#FFBB58",
       "data": [
         [
-          "Familienmietzinsbeiträge",
+          "Mietzinsbeiträge",
           null
         ],
         [
@@ -50,7 +50,7 @@
       "color": "#FF8028",
       "data": [
         [
-          "Familienmietzinsbeiträge",
+          "Mietzinsbeiträge",
           null
         ],
         [
@@ -73,7 +73,7 @@
       "color": "#DC440E",
       "data": [
         [
-          "Familienmietzinsbeiträge",
+          "Mietzinsbeiträge",
           null
         ],
         [
@@ -96,7 +96,7 @@
       "color": "#B00000",
       "data": [
         [
-          "Familienmietzinsbeiträge",
+          "Mietzinsbeiträge",
           null
         ],
         [
@@ -218,9 +218,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.1f}%"
+      "format": "{value:,.0f}%"
     },
-    "tickAmount": 6
+    "tickAmount": 5
   },
   "legend": {
     "symbolRadius": 0,
@@ -230,8 +230,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -255,7 +254,7 @@
     "text": "Quelle: Berner Fachhochschule (BFH).\u003Cbr\u002F\u003EZuletzt geändert: 27.9.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "10032"
