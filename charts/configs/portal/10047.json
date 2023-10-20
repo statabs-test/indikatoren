@@ -236,7 +236,7 @@
     },
     "marginBottom": 80,
     "inverted": false,
-    "renderTo": "container-10037"
+    "renderTo": "container-10047"
   },
   "plotOptions": {
     "series": {
@@ -254,7 +254,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Personen mit Diskriminierungs- oder Gewalterfahrung"
+    "text": "Gestört fühlen durch als «anders» empfundene Personen"
   },
   "subtitle": {
     "text": "",
@@ -352,6 +352,6 @@
   },
   "exporting": {
     "allowHTML": true,
-    "filename": "10037"
+    "filename": "10047"
   }
 }

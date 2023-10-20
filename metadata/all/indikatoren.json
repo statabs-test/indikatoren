@@ -204,14 +204,14 @@
 		"parentId": null,
 		"children": [],
 		"template": "line001",
-		"title": "Diskriminierung: Art und Häufigkeit",
+		"title": "Personen mit Diskriminierungs- oder Gewalterfahrung",
 		"subtitle": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
+		"kuerzel": "I.50.1.10037",
 		"kuerzelKunde": "1.3.5",
-		"description": "Diskriminierung: Art und Häufigkeit",
+		"description": "Personen mit Diskriminierungs- oder Gewalterfahrung",
 		"thema": "50 Befragungen",
-		"unterthema": "",
+		"unterthema": "Bevölkerungsbefragung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -222,7 +222,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren. Personen mit unbekannten oder fehlenden soziodemografischen Merkmalen sind in der Berechnung der Anteile mitberücksichtigt. Antwortausfall: weniger als 1%.<br>Die dargestellten Zahlen zeigen den Anteil der Bevölkerung der erklärt hat, aufgrund einer Gruppenzugehörigkeit Opfer von Diskriminierung oder Gewalt geworden zu sein. Selbstdeklaration der befragten Personen. Die dargestellten Anteile entsprechen nicht den Fällen von Diskriminierung oder Gewalt, die in den Beratungs- oder Meldstellen erfasst werden (manifeste Vorfälle, ohne Verurteilung) bzw. den Sanktionen (manifeste Vorfälle, die rechtlich sanktioniert werden).",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -561,6 +561,47 @@
 		"chart-id": 4849,
 		"filter": "",
 		"id": 10046
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Gestört fühlen durch als «anders» empfundene Personen",
+		"subtitle": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.50.1.10047",
+		"kuerzelKunde": "2.2.7",
+		"description": "Gestört fühlen durch als «anders» empfundene Personen",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-09-27T13:42:13.1313",
+		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren. Personen mit unbekannten oder fehlenden soziodemografischen Merkmalen sind in der Berechnung der Anteile mitberücksichtigt. Antwortausfall: weniger als 1% in allen Umfeldern.<br>Die dargestellte Zahlen zeigen den Anteil der Bevölkerung der sich in mindestens einem sozialen Umfeld (Alltag, Arbeit, Nachbarschaft) und durch mindestens ein Personenmerkmal <br>(Hautfarbe, Sprache, Religion, Nationalität) gestört fühlt.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Erhebung zum Zusammenleben in der Schweiz (ZidS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"",
+			""
+		],
+		"data-id": 10047,
+		"chart-id": 10047,
+		"filter": "",
+		"id": 10047
 	},
 	{
 		"parentId": 9390,
