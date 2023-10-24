@@ -21,7 +21,7 @@
       {
         "x": 0
       }
-    ]  
+    ] 
   },
 	plotOptions: {
         series: {
@@ -35,6 +35,7 @@
   "series": [
     {
       "index": 0,
+      visible: false,
       color: "#dc440e",
        "tooltip": {
         "pointFormatter": function(){
