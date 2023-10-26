@@ -670,7 +670,7 @@
           484707
         ]
       ],
-      "name": "Bruttoregistertonnen (BRT)",
+      "name": "Bruttoregistertonnen (BRT, rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -732,7 +732,6 @@
 					}
 				}
     },
-    "marginRight": 50,
     "renderTo": "container-9789"
   },
   "plotOptions": {

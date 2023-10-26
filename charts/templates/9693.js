@@ -85,8 +85,22 @@
         visible: false,
         showInLegend: false
       },
-      { "color": "#0091f7", type: "column", legendIndex: 5 },
-      { "color": "#999999", type: "column", legendIndex: 7 },
+      {
+        "color": "#0091f7", type: "column", legendIndex: 5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          },
+        },
+      },
+      {
+        "color": "#999999", type: "column", legendIndex: 7,
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          },
+        },
+      },
       { "color": "#007A2F", legendIndex: 2, visible: false },
       { "color": "#2B0099", legendIndex: 4, visible: false },
       { "color": "#B00000", legendIndex: 6, visible: false },

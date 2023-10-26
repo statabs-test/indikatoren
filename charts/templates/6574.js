@@ -1,75 +1,41 @@
-(function(){
-    return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
-        }
-   },
-  "xAxis": {
-    "type": "category",
-    tickInterval: 5,
-    "labels": {
-      "rotation": 0 
-    } 
-  },
-    "yAxis": [{
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
+(function () {
+  return {
+    "chart": {
+      "type": "column",
+      "inverted": false,
+      "spacingBottom": 40
+    },
+    plotOptions: {
+      series: {
+        //        pointPadding: 0,
+        //        itemWidth: 10,
       }
     },
-    "min": 0,
-    "max": undefined,
-    "title": ""
-  },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+    "xAxis": {
+      type: "category"
+    },
+    "yAxis": {
+      "labels": {
+        "format": "{value:,.0f}%",
       },
-      "text": null
+      "min": 0,
+      "max": 100,
     },
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
-      }
+    "series": [
+      { "color": "#672773" }, /* hellbraun*/
+      { "color": "#fabd24" }, /* dunkelbraun */
+      { "color": "#73ba7c" }, /* dunkelbraun */
+      { "color": "#b475ab" } /* dunkelbraun */
+    ],
+    "legend": {
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
     },
-    "min": 0,
-    "max": undefined,
-    "gridLineWidth": 0,
-    "opposite": true
-  }
-  ],
-  "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
-  {"color": "#83522E", "visible": true}, /* dunkelbraun */
-  {"color": "#000000", "visible": true,  "type": "line",  "marker":{"enabled": false}, "yAxis": 1} /* dunkelbraun */ 
-  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    //"x": 25,
-	  //"y": 25,    
-    "itemStyle": {
-      "fontWeight": "normal"
+    tooltip: {
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+      "shared": false
     }
-  },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    "shared": false
-  },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
   }
-}
 }());

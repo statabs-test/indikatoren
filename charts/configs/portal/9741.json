@@ -165,7 +165,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 12.7.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

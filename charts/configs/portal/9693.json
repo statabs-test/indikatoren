@@ -107,39 +107,39 @@
         ],
         [
           "2013",
-          1
+          null
         ],
         [
           "2014",
-          1
+          null
         ],
         [
           "2015",
-          1
+          null
         ],
         [
           "2016",
-          0
+          null
         ],
         [
           "2017",
-          1
+          null
         ],
         [
           "2018",
-          0
+          null
         ],
         [
           "2019",
-          1
+          null
         ],
         [
           "2020",
-          1
+          0
         ],
         [
           "2021",
-          1
+          0
         ]
       ],
       "name": "Bewertung",
@@ -149,6 +149,11 @@
       "color": "#0091f7",
       "type": "column",
       "legendIndex": 5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          }
+      },
       "data": [
         [
           "2012",
@@ -198,6 +203,11 @@
       "color": "#999999",
       "type": "column",
       "legendIndex": 7,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Prozentpunkte </b>'
+          }
+      },
       "data": [
         [
           "2012",
@@ -582,7 +592,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.2.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
