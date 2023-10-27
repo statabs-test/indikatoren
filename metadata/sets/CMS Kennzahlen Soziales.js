@@ -6,10 +6,10 @@ var indikatorensetData = [
 		"title": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.13.2.10031",
+		"kuerzel": "",
 		"kuerzelKunde": "1.1.4",
 		"description": "Anteil Beziehende von EL und Beihilfen an allen Beziehenden einer AHV- oder IV-Rente per Ende Jahr",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20,14 +20,15 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "70% der Personen mit IV erhielten zum Jahresende 2022 EL, 45%<br>werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile bei einem Fünftel bzw. einem Achtel.",
-		"erlaeuterungen": "",
+		"lesehilfe": "69% der Personen mit IV erhielten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV<br>liegen diese Anteile 21% bzw. 13%.",
+		"erlaeuterungen": "Anteil AHV-/IV-Beziehende an allen AHV-/IV-Rentnern per Ende Jahr.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"renderLink": [],
 		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
+			"Bundesamt für Sozialversicherungen (BSV)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -60,7 +61,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "23% der 2015 Anspruchsberechtigten haben keine Familienmietzinsbeiträge bezogen. Die Nichtbezugsquote bei den Ergänzungsleistungen lag 2015 bei 29%, jene der Prämienverbilligung bei 19%. Rund 30% der Personen mit Anspruch auf Sozialhilfe haben diesen nicht geltend gemacht.",
-		"erlaeuterungen": "Die Berner Fachhochschule hat 2018 im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt die Nichtbezugsquote für die Sozialleistungen Ergänzungsleistungen (EL), Familienmietzinsbeiträge und Prämienverbilligung für das Jahr geschätzt. 2023 wurde diese auch für den Bezug von Sozialhilfe berechnet. Die Berechnungen basieren kantonalen Registerdaten.",
+		"erlaeuterungen": "Die Berner Fachhochschule hat 2018 im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt die Nichtbezugsquote für die Sozialleistungen Ergänzungsleistungen (EL), Familienmietzinsbeiträge und Prämienverbilligung für das Jahr geschätzt. 2023 wurde diese auch für den Bezug von Sozialhilfe berechnet. Die Berechnungen basieren kantonalen Registerdaten.<br>Mietzinsbeiträge: Familienmietzinsbeiträge<br>EL: Ergänzungsleistungen",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
@@ -157,6 +158,43 @@ var indikatorensetData = [
 		"id": 10034
 	},
 	{
+		"template": "line001",
+		"data-id": 10035,
+		"chart-id": 10035,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Jugendliche ausserhalb des Bildungssystems",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Jugendliche ausserhalb des Bildungssystems",
+		"thema": "15 Bildung",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.3.1",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-09-27T01:42:13",
+		"id": 10035
+	},
+	{
 		"parentId": 4858,
 		"children": [],
 		"template": "befragungen001",
@@ -216,8 +254,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren. Personen mit unbekannten oder fehlenden soziodemografischen Merkmalen sind in der Berechnung der Anteile mitberücksichtigt. Antwortausfall: weniger als 1%.<br>Die dargestellten Zahlen zeigen den Anteil der Bevölkerung der erklärt hat, aufgrund einer Gruppenzugehörigkeit Opfer von Diskriminierung oder Gewalt geworden zu sein. Selbstdeklaration der befragten Personen. Die dargestellten Anteile entsprechen nicht den Fällen von Diskriminierung oder Gewalt, die in den Beratungs- oder Meldstellen erfasst werden (manifeste Vorfälle, ohne Verurteilung) bzw. den Sanktionen (manifeste Vorfälle, die rechtlich sanktioniert werden).",
+		"lesehilfe": "40% der in Basel-Stadt Befragten gaben 2022 an, Diskriminierungs- oder Gewalterfarungen gemacht zu haben. Die statistische Unsicherheit reicht jedoch von einem Anteil von 27% bis 53%, womit kein signifikanter Unterschied gegenüber den Werten der Schweiz (30%; +/- 1,7 Prozentpunkte) festgestellt werden kann. Einzig 2020 kann ein signifikant höherer Anteil für Basel-Stadt gegenüber den Werten der Schweiz beobachtet werden.",
+		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren.<br>Die Werte für den Kanton Basel-Stadt beruhen jeweils auf weniger als 30 Antworten und unterliegen daher einer grossen statistischen Unsicherheit. Nur, wenn sich die Fehlerbalken zwischen zwei Kategorien nicht überschneiden, kann ein statistisch signifikanter Unterschied zwischen diesen festgestellt werden.<br>Die dargestellten Zahlen zeigen den Anteil der Bevölkerung der erklärt hat, aufgrund einer Gruppenzugehörigkeit Opfer von Diskriminierung oder Gewalt geworden zu sein. Selbstdeklaration der befragten Personen. Die dargestellten Anteile entsprechen nicht den Fällen von Diskriminierung oder Gewalt, die in den Beratungs- oder Meldstellen erfasst werden bzw. den Sanktionen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_000",
@@ -569,8 +607,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren. Personen mit unbekannten oder fehlenden soziodemografischen Merkmalen sind in der Berechnung der Anteile mitberücksichtigt. Antwortausfall: weniger als 1% in allen Umfeldern.<br>Die dargestellte Zahlen zeigen den Anteil der Bevölkerung der sich in mindestens einem sozialen Umfeld (Alltag, Arbeit, Nachbarschaft) und durch mindestens ein Personenmerkmal <br>(Hautfarbe, Sprache, Religion, Nationalität) gestört fühlt.",
+		"lesehilfe": "21% der in Basel-Stadt Befragten gaben 2022 an, sich durch als «anders» empfundene Personen gestört zu fühlen. Die statistische Unsicherheit reicht jedoch von einem Anteil von 10% bis 31%, womit kein signifikanter Unterschied gegenüber dem Wert der Schweiz (31%; +/- 1,7 Prozentpunkte) festgestellt werden kann. 2018 und 2020 kann jeweils ein signifikant tieferer Anteil für Basel-Stadt gegenüber den Werten der Schweiz beobachtet werden.",
+		"erlaeuterungen": "Grundgesamtheit: Ständige Wohnbevölkerung im Alter von 15 bis 88 Jahren.<br>Die Werte für den Kanton Basel-Stadt beruhen jeweils auf weniger als 30 Antworten und unterliegen daher einer grossen statistischen Unsicherheit. Nur, wenn sich die Fehlerbalken zwischen zwei Kategorien nicht überschneiden, kann ein statistisch signifikanter Unterschied zwischen diesen festgestellt werden.<br>Die dargestellte Zahlen zeigen den Anteil der Bevölkerung der sich in mindestens einem sozialen Umfeld (Alltag, Arbeit, Nachbarschaft) und durch mindestens ein Personenmerkmal (Hautfarbe, Sprache, Religion, Nationalität) gestört fühlt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_000",
@@ -904,79 +942,84 @@ var indikatorensetData = [
 		"id": 8240
 	},
 	{
-		"template": "mappie001",
-		"data-id": 8241,
-		"chart-id": 8241,
-		"filter": "",
-		"parentId": "6392",
+		"parentId": null,
 		"children": [],
+		"template": "mappie001",
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,5% auf. In der Altstadt Grossbasel, Bettingen und dem Bachletten liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 10,6% respektive 10,3% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
+		"subtitle": "Nach Wohnviertel, Basel-Stadt, 2022",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.13.3.08241",
+		"kuerzelKunde": "1.1.1",
 		"description": "Sozialhilfequote und Sozialhilfebeziehende",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "I.13.3.08241",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-03",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.1 Allgemein",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2023-05-25T07:08:38.3838",
+		"stufe1": "Ziel 1: Funktionsvielfalt der Innenstadt stärken",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_103",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist das Bruderholz mit 1,5% auf. In der Altstadt Grossbasel, Bettingen und dem Bachletten liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 10,6% respektive 10,3% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:38",
-		"id": 8241
-	},
-	{
-		"template": "template001",
-		"data-id": 8242,
-		"chart-id": 8242,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			8513
-		],
-		"title": "Sozialhilfefälle nach Fallstruktur",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 waren in Basel-Stadt 4 620 Sozialhilfefälle registriert. Bei 3 421 (74%) davon handelt es sich um eine unterstützte Einzelperson. 765 (17%) sind Einelternfamilien und 294 (6%) Ehe- resp. Konkubinatspaare mit Kindern. Paare ohne Kinder machen 3% der Fälle aus.",
-		"erlaeuterungen": "Nur Sozialhilfedossiers im engeren Sinne. Die Dossiertypen Asyl und Flüchtling sowie Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) sind nicht berücksichtigt.",
+		"orderKey": "01_00_00_00_00_103",
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"",
+			""
 		],
+		"data-id": 8241,
+		"chart-id": 8241,
+		"filter": "",
+		"id": 8241
+	},
+	{
+		"parentId": null,
+		"children": [
+			"8513"
+		],
+		"template": "template001",
+		"title": "Sozialhilfefälle nach Fallstruktur",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.13.3.08242",
+		"kuerzelKunde": "1.1.2",
 		"description": "Sozialhilfefälle nach Fallstruktur",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-04",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-25T07:08:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_104",
+		"lesehilfe": "Ende 2022 waren in Basel-Stadt 4 620 Sozialhilfefälle registriert. Bei 3 421 (74%) davon handelt es sich um eine unterstützte Einzelperson. 765 (17%) sind Einelternfamilien und 294 (6%) Ehe- resp. Konkubinatspaare mit Kindern. Paare ohne Kinder machen 3% der Fälle aus.",
+		"erlaeuterungen": "Nur Sozialhilfedossiers im engeren Sinne. Die Dossiertypen Asyl und Flüchtling sowie Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) sind nicht berücksichtigt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "01_01_00_00_00_104",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:39",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8242,
+		"chart-id": 8242,
+		"filter": "",
 		"id": 8242
 	},
 	{
@@ -1303,73 +1346,75 @@ var indikatorensetData = [
 		"id": 8250
 	},
 	{
-		"template": "line001",
-		"data-id": 8251,
-		"chart-id": 8251,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			8522
+			"8522"
 		],
+		"template": "line001",
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 zurückgegangen. Sie ist 2022 in allen Altersgruppen rückläufig gewesen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) verringerte sich beispielsweise von 4,0% im Jahr 2021 auf 3,1% im Jahr 2022.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.03.4.08251",
+		"kuerzelKunde": "1.1.6",
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kuerzel": "I.03.4.08251",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-19",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-07-12T09:36:37.3737",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_02_00_00_00_119",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,9% im Jahresdurchschnitt 2021 auf 3,0% im Jahr 2022 zurückgegangen. Sie ist 2022 in allen Altersgruppen rückläufig gewesen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) verringerte sich beispielsweise von 4,0% im Jahr 2021 auf 3,1% im Jahr 2022.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "01_02_00_00_00_119",
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-12T09:36:37",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8251,
+		"chart-id": 8251,
+		"filter": "",
 		"id": 8251
 	},
 	{
-		"parentId": 6492,
+		"parentId": 2424,
 		"children": [],
-		"template": "",
-		"title": "Beteiligung an Freiwilligenarbeit",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"template": "line001",
+		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
+		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.03.6.08252",
-		"kuerzelKunde": "2.2.1",
-		"description": "Beteiligung an Freiwilligenarbeit",
+		"kuerzel": "I.03.4.08252",
+		"kuerzelKunde": "1.1.7",
+		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Unbezahlte Arbeit",
+		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2023-01-02T08:15:38.3838",
-		"stufe1": "Ziel 3: Zentrumsfunktion Basels stärken",
-		"stufe2": "",
+		"aktualisierungsdatum": "2022-08-22T08:24:10.1010",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutio-nalisierte Freiwilligenarbeit (2004: 29,9%). Bei ausländischen Staatsangehörige sind es 3,7% (2010: 17,4%). Die Beteiligung an institutionalisierter sowie informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung niedriger als bei Schweizer Staatsangehörigen.",
-		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ging von 5,6% im Januar auf 4,0% im Oktober 2022 zurück, stieg aber bis Jahresende wieder auf 4,9%. Bei den anderen Bevölkerungsgruppen war die Quote 2022 überwiegend rückläufig.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_120",
+		"orderKey": "01_02_00_00_00_120",
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1459,40 +1504,42 @@ var indikatorensetData = [
 		"id": 8254
 	},
 	{
-		"template": "template001",
-		"data-id": 8255,
-		"chart-id": 8255,
-		"filter": "",
-		"parentId": "6071",
+		"parentId": 6071,
 		"children": [],
+		"template": "template001",
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.01.1.08255",
+		"kuerzelKunde": "2.1.2",
 		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.08255",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-25",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-03-01T09:02:40.4040",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_02_00_00_00_125",
+		"lesehilfe": "Die Mehrheit der ausländischen Bevölkerung (2022: 42 940) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. 28 650 Personen besitzen 2022 eine Aufenthalts-bewilligung. Von 2003 (1 510) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2016 bei etwa 2 000 Personen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Übrige seit 2022 einschliesslich Schutzsuchende (Status S) aus der Ukraine.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "01_02_00_00_00_125",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:20",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8255,
+		"chart-id": 8255,
+		"filter": "",
 		"id": 8255
 	},
 	{
@@ -1695,120 +1742,128 @@ var indikatorensetData = [
 		"id": 8262
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8534"
+		],
 		"template": "template001",
+		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.14.4.08263",
+		"kuerzelKunde": "1.2.1",
+		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2023-02-07T09:14:35.3535",
+		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
+		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_133",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"",
+			""
+		],
 		"data-id": 8263,
 		"chart-id": 8263,
 		"filter": "",
-		"parentId": null,
-		"children": [
-			8534
-		],
-		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Anteilsmässig gab im Jahr 2017 ein höherer Anteil Frauen (17,0 %) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
-		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"description": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
-		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-33",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_04_00_00_00_133",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:14:35",
 		"id": 8263
 	},
 	{
-		"template": "template001",
-		"data-id": 8264,
-		"chart-id": 8264,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			8535
+			"8535"
 		],
+		"template": "template001",
 		"title": "Anteil Personen mit depressiven Symptomen",
 		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
-		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.14.4.08264",
+		"kuerzelKunde": "1.2.2",
 		"description": "Anteil Personen mit depressiven Symptomen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
-		"kuerzel": "I.14.4.08264",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-34",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.3 Gesundheit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_04_00_00_00_134",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-07T09:14:36",
-		"id": 8264
-	},
-	{
-		"template": "template001",
-		"data-id": 8265,
-		"chart-id": 8265,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			8536
-		],
-		"title": "Anteil Personen mit Einsamkeitsgefühlen",
-		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
-		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
-		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
-		],
-		"externalLinks": [],
-		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
+		"aktualisierungsdatum": "2023-02-07T09:14:36.3636",
+		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2017 gaben 8,1% der Befragten an, unter mittelschweren bis schweren Depressionssymptomen zu leiden. Befragte mit obligatorischer Schulbildung sind davon mehr als doppelt so häufig betroffen wie Befragte mit einem tertiären Bildungsabschluss.",
+		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_134",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"",
+			""
+		],
+		"data-id": 8264,
+		"chart-id": 8264,
+		"filter": "",
+		"id": 8264
+	},
+	{
+		"parentId": null,
+		"children": [
+			"8536"
+		],
+		"template": "template001",
+		"title": "Anteil Personen mit Einsamkeitsgefühlen",
+		"subtitle": "in %, Grossregion Nordwestschweiz, 2017",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
+		"kuerzelKunde": "1.2.3",
 		"description": "Anteil Personen mit Einsamkeitsgefühlen",
 		"thema": "14 Gesundheit",
 		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "1-32",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "2023-02-06T08:35:59.5959",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_04_00_00_00_132",
+		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "01_04_00_00_00_132",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-02-06T08:35:59",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8265,
+		"chart-id": 8265,
+		"filter": "",
 		"id": 8265
 	},
 	{
@@ -2294,53 +2349,60 @@ var indikatorensetData = [
 		"id": 8277
 	},
 	{
-		"template": "line001",
-		"data-id": 8278,
-		"chart-id": 8278,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			8549
+			"8549"
 		],
+		"template": "line001",
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen insbesondere bei ausländischer Staatsangehörigkeit höhere Quoten auf als ihre Kolleginnen.",
-		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.15.3.08278",
+		"kuerzelKunde": "1.3.3",
 		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
-		"kuerzel": "I.15.3.08278",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2-07",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-03-09T08:20:00.000",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_207",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer. Männliche Lernende weisen insbesondere bei ausländischer Staatsangehörigkeit höhere Quoten auf als ihre Kolleginnen.",
+		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "02_02_00_00_00_207",
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:00",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8278,
+		"chart-id": 8278,
+		"filter": "",
 		"id": 8278
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8550"
+		],
+		"template": "befragungenGrundauswertung001",
 		"title": "Zufriedenheit mit Angeboten für Jugendliche",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für Jugendliche?», Basel-Stadt, 2019",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
-		"kuerzelKunde": "2-11",
+		"kuerzelKunde": "2.2.5",
 		"description": "Zufriedenheit mit Angeboten für Jugendliche",
 		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2352,14 +2414,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "41,6% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit den Angeboten für Jugendliche. 42,3% haben mit «Weiss nicht» geantwortet. Dieser Anteil ist aufgrund des Methodenwechsels deutlich höher als in den Vorjahren.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_211",
-		"parentId": null,
-		"children": [
-			"8550"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2413,42 +2470,44 @@ var indikatorensetData = [
 		"id": 8280
 	},
 	{
-		"template": "mappie001",
-		"data-id": 8281,
-		"chart-id": 8281,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			8552
+			"8552"
 		],
+		"template": "mappie001",
 		"title": "Sozialhilfequote der Minderjährigen",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Die Sozialhilfequote der Minderjährigen ist in Klybeck und Kleinhüningen mit je 17,5% am höchsten. Auf dem Bruderholz und in der Altstadt Grossbasel beträgt sie 1,7%.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.13.3.08281",
+		"kuerzelKunde": "1.1.3",
 		"description": "Sozialhilfequote der Minderjährigen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2-03",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-26T09:37:13.1313",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_203",
+		"lesehilfe": "Die Sozialhilfequote der Minderjährigen ist in Klybeck und Kleinhüningen mit je 17,5% am höchsten. Auf dem Bruderholz und in der Altstadt Grossbasel beträgt sie 1,7%.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"darstellungsart": "Karte",
 		"printformat": "",
+		"orderKey": "02_02_00_00_00_203",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-26T09:37:13",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8281,
+		"chart-id": 8281,
+		"filter": "",
 		"id": 8281
 	},
 	{
@@ -2493,43 +2552,43 @@ var indikatorensetData = [
 		"id": 8282
 	},
 	{
-		"template": "dotplot",
-		"data-id": 8283,
-		"chart-id": 8283,
-		"filter": "",
-		"parentId": "4834",
+		"parentId": 4834,
 		"children": [],
+		"template": "dotplot",
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.09.1.08283",
+		"kuerzelKunde": "3.2.5",
 		"description": "Wohnfläche pro Kopf",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kuerzel": "I.09.1.08283",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2-08",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2023-03-16T08:20:20.2020",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_208",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "02_02_00_00_00_208",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:20",
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"data-id": 8283,
+		"chart-id": 8283,
+		"filter": "",
 		"id": 8283
 	},
 	{
@@ -2613,14 +2672,19 @@ var indikatorensetData = [
 		"id": 8285
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8557"
+		],
+		"template": "befragungenGrundauswertung001",
 		"title": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
 		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?», Basel-Stadt, 2017",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.50.2.08286",
-		"kuerzelKunde": "2-10",
+		"kuerzelKunde": "1.3.4",
 		"description": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -2632,14 +2696,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Knapp 70% der befragten Familien sind mit den familienspezifischen Beratungs-/Bildungsangeboten «Eher zufrieden» oder «Sehr zufrieden». Gegenüber den Familienbefragungen von 2009 (56,3%) und 2013 (62,8%) ist dieser Anteil deutlich gestiegen.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_210",
-		"parentId": null,
-		"children": [
-			"8557"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -2654,42 +2713,44 @@ var indikatorensetData = [
 		"id": 8286
 	},
 	{
-		"template": "line001",
-		"data-id": 8287,
-		"chart-id": 8287,
-		"filter": "",
 		"parentId": null,
 		"children": [
-			8558
+			"8558"
 		],
+		"template": "line001",
 		"title": "Anzahl Straftaten im Bereich häusliche Gewalt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 wurden 720 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
-		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "I.19.1.08287",
+		"kuerzelKunde": "1.2.4",
 		"description": "Anzahl Straftaten im Bereich häusliche Gewalt",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.08287",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "2-13",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2023-05-17T08:55:16.1616",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_03_00_00_00_213",
+		"lesehilfe": "Im Jahr 2022 wurden 720 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
+		"orderKey": "02_03_00_00_00_213",
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:16",
+		"externalLinks": [
+			""
+		],
+		"data-id": 8287,
+		"chart-id": 8287,
+		"filter": "",
 		"id": 8287
 	},
 	{
@@ -4123,14 +4184,19 @@ var indikatorensetData = [
 		"id": 8324
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8596"
+		],
+		"template": "befragungenGrundauswertung001",
 		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?» Basel-Stadt, 2019",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
-		"kuerzelKunde": "3-19",
+		"kuerzelKunde": "2.2.6",
 		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
 		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -4142,14 +4208,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "58% der Befragten sind 2019 mit den Angeboten und Einrichtungen für ältere Menschen sehr oder eher zufrieden, 2011 waren es mit 56% etwas weniger.",
 		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Grafik",
+		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_340",
-		"parentId": null,
-		"children": [
-			"8596"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
