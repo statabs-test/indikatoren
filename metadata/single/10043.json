@@ -21,7 +21,7 @@
 "erlaeuterungen":"Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
 "darstellungsart":"",
 "printformat":"", 
-"visible":true,
+"visible":false,
 "visibleInPortal":true,
 "orderKey":"03_00_00_00_00_000",
 "renderLink":[],
