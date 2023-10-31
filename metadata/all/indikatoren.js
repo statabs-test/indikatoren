@@ -72,7 +72,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T01:32:37",
+		"aktualisierungsdatum": "2023-10-13T10:14:37",
 		"id": 10028
 	},
 	{
@@ -110,7 +110,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T01:33:01",
+		"aktualisierungsdatum": "2023-10-13T10:14:37",
 		"id": 10029
 	},
 	{
@@ -148,7 +148,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-20T01:33:16",
+		"aktualisierungsdatum": "2023-10-13T10:14:38",
 		"id": 10030
 	},
 	{
@@ -22705,7 +22705,7 @@ var indikatoren = [
 		],
 		"title": "Verteilung des Äquivalenz-Haushaltseinkommens",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
-		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel­Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel­Stadt sind bspw. im Mittel der Jahre 2017 bis 2019 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (25,3%) und im 5. Quintil (22,9%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel­Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile im 1. und 5. Quintil liegen auch über 20%, beim 5. Quintil mit 20,4% allerdings nur knapp.",
+		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel-Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel-Stadt sind bspw. im Mittel der Jahre 2020 bis 2022 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: Der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (29,0%) und im 5. Quintil (26,4%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die inkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile liegen mit 19,5% (1. Quintil) bzw. 19,9% (5. Quintil) sehr nahe bei 20%.",
 		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -52422,8 +52422,8 @@ var indikatoren = [
 			8467
 		],
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2018",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 37,1 Mrd. Franken, gefolgt von Basel-Landschaft mit 21,1 und Jura mit 4,7 Mrd. Franken.",
+		"subtitle": "total in Mrd. Franken, 2021",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftet Basel-Stadt mit 41,0 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,4 und Jura mit 5,2 Mrd. Franken.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -52462,9 +52462,9 @@ var indikatoren = [
 			8468
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2018",
-		"lesehilfe": "Mit über 196 000 Franken pro Kopf im Jahr 2020 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf über 71 000 Franken, Jura auf rund 67 000 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 82 000 Franken.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "in Franken, 2021",
+		"lesehilfe": "Mit über 210 000 Franken pro Kopf im Jahr 2021 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 200 Franken, Jura auf 70 200 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 85 700 Franken.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -52503,8 +52503,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Bruttoinlandprodukt",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2018 weist Basel-Stadt mit 19,9% auf, gefolgt von Basel-Landschaft mit 9,9% und Jura mit 3,3%. In der gesamten Schweiz stieg der Wert um 7,8%.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2021 weist Basel-Stadt mit 34,7% auf, gefolgt vom Kanton Jura mit 7,3% und Basel-Landschaft mit 5,2%. In der gesamten Schweiz stieg der Wert um 5,9%.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -52543,8 +52543,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2018 weist Basel-Stadt mit 16,8% auf. Im Kanton Basel-Landschaft beträgt der Zuwachs 6,4% und im Jura 0,6%. In der gesamten Schweiz stieg der Wert um 3,1%.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2021 weist Basel-Stadt mit 40,0% auf. Im Kanton Jura beträgt der Zuwachs 10,2% und im Kanton Basel-Landschaft 9,8%. In der gesamten Schweiz stieg der Wert um 12,8%.",
+		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -52866,7 +52866,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 46%, der Bestand im dritten Quartal 2022 liegt bei 10 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+24% auf rund 24 100) und Basel-Stadt (+3% auf 34 800). In der gesamten Schweiz arbeiten im 3. Quartal 2022 rund 374 300 Grenzgänger, 31% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 60%, der Bestand im 2. Quartal 2023 liegt bei 11 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+25% auf rund 24 400) und Basel-Stadt (+3% auf 34 600). In der gesamten Schweiz arbeiten im 2. Quartal 2023 rund 390 900 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -55140,8 +55140,8 @@ var indikatoren = [
 			8491
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"subtitle": "indexiert (2017 = 100)",
-		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2017 und 2021 in den Kantonen Basel-Stadt (+0,6%) und Basel-Landschaft zugenommen (+0,1%). Im Kanton Jura ist die Zahl der 15- bis 64-Jährigen hingegen um -1,1% zurückgegangen.",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2014 und 2022 in den Kantonen Basel-Stadt (+2,7%) und Basel-Landschaft zugenommen (+1,0%). Im Kanton Jura ist sie zurückgegangen (-0,9%).",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55167,7 +55167,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:49",
+		"aktualisierungsdatum": "2023-10-13T10:14:36",
 		"id": 8431
 	},
 	{
@@ -55180,8 +55180,8 @@ var indikatoren = [
 			8492
 		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
-		"subtitle": "indexiert (2017 = 100)",
-		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der 15- bis 64-Jährigen zwischen 2017 und 2021 um 1,6% zu. In der Region BS/BL/JU fiel das Wachstum moderater aus (+0,1%). Dies liegt u. a. daran, dass dort die Zahl der 15- bis 64-Jährigen in den Jahren 2018 und 2021 abnahm.",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der 15- bis 64-Jährigen zwischen 2014 und 2022 um 4,5%, in der Region BS/BL/JU um 1,4% zu.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55208,7 +55208,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:49",
+		"aktualisierungsdatum": "2023-10-17T10:34:48",
 		"id": 8432
 	},
 	{
@@ -55221,8 +55221,8 @@ var indikatoren = [
 			8493
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
-		"lesehilfe": "Die Altersklassen zwischen 15 und 64 Jahren weisen regional sehr unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. So leben in Basel-Stadt vergleichsweise wenige Jugendliche und junge Erwachsene. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich gut vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile und damit eine ältere Erwerbsbevölkerung aufweist.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
+		"lesehilfe": "Die Altersklassen zwischen 15 und 64 Jahren weisen regional unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. So leben in Basel-Stadt vergleichsweise wenige Jugendliche und junge Erwachsene. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile aufweist.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55248,7 +55248,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-10-24T08:00:50",
+		"aktualisierungsdatum": "2023-10-17T10:34:48",
 		"id": 8433
 	},
 	{
@@ -55261,8 +55261,8 @@ var indikatoren = [
 			8494
 		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2021",
-		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz. Am grössten sind Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz bei den 20- bis 24-Jährigen und den 25- bis 29-Jährigen.",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
+		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55289,7 +55289,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:55",
+		"aktualisierungsdatum": "2023-10-17T10:34:49",
 		"id": 8434
 	},
 	{
@@ -55303,7 +55303,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Altersquotient; BS, BL und JU",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Der Kanton Basel-Landschaft weist mit 38,3 im Jahr 2020 den höchsten Altersquotienten der Region BS/BL/JU auf, gefolgt von Jura mit 37,1 und Basel-Stadt mit 31,3. Während die Altersquotienten in den Kantonen Basel-Landschaft und Jura seit 2016 gestiegen sind, ist der Altersquotient in Basel-Stadt zurückgegangen.",
+		"lesehilfe": "Der Kanton Basel-Landschaft weist im Jahr 2022 mit 39,5 den höchsten Altersquotienten der Region BS/BL/JU auf, gefolgt von Jura (38,4) und Basel-Stadt (31,5). Während die Altersquotienten in den Kantonen Basel-Landschaft und Jura seit 2014 gestiegen sind, ist der Altersquotient in Basel-Stadt zurückgegangen.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55329,7 +55329,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:18",
+		"aktualisierungsdatum": "2023-10-17T10:34:49",
 		"id": 8435
 	},
 	{
@@ -55343,7 +55343,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Die Region BS/BL/JU weist mit 36,1 einen höheren Altersquotienten auf als die Gesamtschweiz (31,1). Im Vergleich zu 2016 ist der Altersquotient der Region BS/BL/JU um 1,8 Punkte gestiegen, jener der Schweiz um 1,9 Punkte.",
+		"lesehilfe": "Die Region BS/BL/JU weist mit 36,4 einen höheren Altersquotienten auf als die Gesamtschweiz (31,5).",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -55370,7 +55370,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-12-20T08:53:56",
+		"aktualisierungsdatum": "2023-10-17T10:34:50",
 		"id": 8436
 	},
 	{
@@ -55383,8 +55383,8 @@ var indikatoren = [
 			8497
 		],
 		"title": "Neugegründete Unternehmen",
-		"subtitle": "2014-2017",
-		"lesehilfe": "Über die Jahre 2014 bis 2017 sind in der Region BS/BL/JU insgesamt rund 10 000 neue Unternehmen gegründet worden – je ca. 4 500 in den beiden Basel und rund 1 000 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 91% in Basel-Stadt und 81% im Jura.",
+		"subtitle": "2015-2020",
+		"lesehilfe": "Über die Jahre 2015 bis 2020 sind in der Region BS/BL/JU insgesamt rund 14 300 neue Unternehmen gegründet worden – davon ca. 6 500 in Basel-Stadt, ca.6 200 in Basel-Landschaft und rund 1 700 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 90% in Basel-Stadt und 81% im Jura.",
 		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -55465,7 +55465,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitsstätten nach Branche",
 		"subtitle": "2021",
-		"lesehilfe": "Im Kanton Basel-Stadt gab es im Jahr 2021 17 502 Arbeitsstätten. Davon waren 1 816 Arbeitsstätten bzw. 10,4% in der Branche im Handel und in der Reparatur angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil etwas höher bei 13,2% bzw. 12,5%. In allen drei Kantonen sind vor allem der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen ausgeprägt. Während in Basel-Stadt die Landwirtschaft nur wenig Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
+		"lesehilfe": "Im Kanton Basel-Stadt gab es im Jahr 2021 17 502 Arbeitsstätten. Davon waren 1 816 Arbeitsstätten bzw. 10,4% in der Branche «Handel und Reparatur» angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil etwas höher bei 13,2% bzw. 12,5%. In allen drei Kantonen weisen vor allem der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen grössere Anteile auf. Während in Basel-Stadt die Landwirtschaft nur wenig Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -55588,7 +55588,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung monatliche Arbeitslosenquoten",
 		"subtitle": "",
-		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren tendentiell ähnlich entwickelt: Nach einem Rückgang 2017 bis 2019 ist die Arbeitslosigkeit im Jahr 2020 aufgrund der COVID-19-Pandemie markant angestiegen. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2020 lagen die Arbeitslosenquoten bei 2,8% (BL), 4,3% (BS) und 5,6% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
+		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren sehr ähnlich entwickelt: Nach einem markanten Anstieg aufgrund der COVID-19-Pandemie im Jahr 2020 ist die Arbeitslosigkeit 2021 und 2022 tendentiell stark rückläufig. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2022 lagen die Arbeitslosenquoten bei 1,8% (BL), 2,9% (BS) und 3,7% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
 		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -66927,8 +66927,8 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Neugründungsrate",
 		"subtitle": "Anteil am Unternehmensbestand",
-		"lesehilfe": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Dieser Anteil war mit Ausnahme des Kantons JU im Jahr 2014 besonders hoch und hat sich seither reduziert. 2014 war die Neugründungsrate in der Region BS/BL/JU mit 8,3% höher als in der Gesamtschweiz, seither jedoch sind die Werte unterhalb des schweizweiten Niveaus gefallen. Zuletzt im Jahr 2017 lag die Quote bei 6,5% (BS/BL/JU) resp. 7,1% (CH).",
-		"erlaeuterungen": "Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
+		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2020 bei 6,6%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,6%) und in der Gesamtschweiz (7,1%).",
+		"erlaeuterungen": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
 		],
