@@ -19,7 +19,7 @@
       tickInterval: 1,
     },
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Einwohner/ha<br/>',
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b> Einwohner/ha<br/>',
       shared: false
     },
     series: [
