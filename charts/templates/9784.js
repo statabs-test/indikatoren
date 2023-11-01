@@ -75,7 +75,7 @@
     },
     xAxis: {
       min: 2010,
-      max:2025,
+      max:2022.5,
       tickInterval: 1
     },
     yAxis: {
@@ -119,6 +119,7 @@
         },
       },
       xAxis: {
+        max: 2023,
         labels: {
           formatter: function () {
             return this.value;
