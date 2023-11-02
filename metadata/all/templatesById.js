@@ -2036,5 +2036,9 @@ var templatesById = {
 	"10027": "template001",
 	"10028": "template001",
 	"10029": "template001",
-	"10030": "template001"
+	"10030": "template001",
+	"11187": "template001_print",
+	"11188": "template001_print",
+	"11189": "template001_print",
+	"11190": "template001_print"
 };

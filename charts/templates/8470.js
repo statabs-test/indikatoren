@@ -1,14 +1,14 @@
 (function () {
   return {
     "xAxis": {
-      // "tickInterval": 1,
+       "tickInterval": 1,
       //"type": "category",
     },
     "yAxis": {
       tickInterval: 10,
       tickAmount: 5,
       "min": 90,
-      max: 130
+      //max: 130
     },
     "tooltip": {
       "shared": false,
