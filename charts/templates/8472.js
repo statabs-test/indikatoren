@@ -7,7 +7,8 @@
       }
     },
     "yAxis": {
-      min: 60,
+      min: 40,
+      max: 140,
       tickInterval: 20,
       "labels": {
         "format": "{value:,.0f}"
@@ -43,8 +44,8 @@
       }
     },
     "chart": {
+      width: 665,
       marginTop: 8,
-      width: 665
       // height: 500,
     },
     "plotOptions": {

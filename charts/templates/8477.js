@@ -166,7 +166,6 @@ global Highcharts
         "type": "errorbar",
         lineWidth: 0.5,
       },
-
     ],
     "xAxis": {
       "type": "category",
