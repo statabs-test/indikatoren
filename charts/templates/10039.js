@@ -5,124 +5,124 @@
   /*keys: ['x', 'category', 'y1', 'y2'],*/
   "seriesMapping": [
     {
-      "x": 0
+      "x": 0 /*1*/
     },
     {
-      "x": 0, 
+      "x": 0, /*2*/
     },
     {
-      "x": 0
+      "x": 0 /*3*/
     },
     {
-      "x": 0
+      "x": 0 /*4*/
     },
     {
-      "x": 0
+      "x": 0 /*5*/
     },
     {
-      "x": 0
+      "x": 0 /*6*/
     },
     {
-      "x": 0
+      "x": 0 /*7*/
     },
     {
-      "x": 0
+      "x": 0 /*8*/
     },
     {
-      "x": 0
+      "x": 0 /*9*/
     },
     {
-      "x": 0
+      "x": 0 /*10*/
     },
     {
-      "x": 0
+      "x": 0 /*11*/
     },
     {
-      "x": 0
+      "x": 0 /*12*/
     },
     {
-      "x": 0
+      "x": 0 /*13*/
     },
     {
-      "x": 0
+      "x": 0 /*14*/
     },
     {
-      "x": 0
+      "x": 0 /*15*/
     },
     {
-      "x": 0
+      "x": 0 /*16*/
     },
     {
-      "x": 0
+      "x": 0 /*17*/
     },
     {
-      "x": 0
+      "x": 0 /*18*/
     },
     {
-      "x": 0
+      "x": 0 /*19*/
     },
     {
-      "x": 0
+      "x": 0 /*20*/
     },
     {
-      "x": 0
+      "x": 0 /*21*/
     },
     {
-      "x": 0, 
+      "x": 0, /*22*/
     },
     {
-      "x": 0
+      "x": 0 /*23*/
     },
     {
-      "x": 0
+      "x": 0 /*24*/
     },
     {
-      "x": 0
+      "x": 0 /*25*/
     },
     {
-      "x": 0
+      "x": 0 /*26*/
     },
     {
-      "x": 0
+      "x": 0 /*27*/
     },
     {
-      "x": 0
+      "x": 0 /*28*/
     },
     {
-      "x": 0
+      "x": 0 /*29*/
     },
     {
-      "x": 0
+      "x": 0 /*30*/
     },
     {
-      "x": 0
+      "x": 0 /*31*/
     },
     {
-      "x": 0
+      "x": 0 /*32*/
     },
     {
-      "x": 0
+      "x": 0 /*33*/
     },
     {
-      "x": 0
+      "x": 0 /*34*/
     },
     {
-      "x": 0
+      "x": 0 /*35*/
     },
     {
-      "x": 0
+      "x": 0 /*36*/
     },
     {
-      "x": 0
+      "x": 0 /*37*/
     },
     {
-      "x": 0
+      "x": 0 /*38*/
     },
     {
-      "x": 0
+      "x": 0 /*39*/
     },
     {
-      "x": 0
+      "x": 0 /*40*/
     }
   ]  
 },
@@ -134,7 +134,8 @@ plotOptions: {
       }
   },
 tooltip: {
-      shared: true
+      shared: true,
+      
   },
   "series": [
     {
@@ -269,7 +270,7 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
@@ -289,7 +290,7 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
@@ -308,7 +309,7 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
@@ -328,7 +329,7 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
@@ -347,7 +348,7 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
@@ -367,13 +368,13 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
       {
         "index": 24,
-        color: "#68AB2B",
+        color: "#C8C8C8",
         
          "tooltip": {
           "pointFormatter": function(){
@@ -387,13 +388,13 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
       {
         "index": 26,
-        color: "#68AB2B",
+        color: "#8A8A8A",
         visible: false,
          "tooltip": {
           "pointFormatter": function(){
@@ -407,13 +408,13 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
       {
         "index": 28,
-        color: "#68AB2B",
+        color: "#008AC3",
        
          "tooltip": {
           "pointFormatter": function(){
@@ -427,13 +428,13 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
       {
         "index": 30,
-        color: "#68AB2B",
+        color: "#2B0099",
         visible: false,
          "tooltip": {
           "pointFormatter": function(){
@@ -447,13 +448,13 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
       {
         "index": 32,
-        color: "#68AB2B",
+        color: "#8B2223",
      
          "tooltip": {
           "pointFormatter": function(){
@@ -467,13 +468,13 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       },
       {
         "index": 34,
-        color: "#68AB2B",
+        color: "#661200",
         visible: false,
          "tooltip": {
           "pointFormatter": function(){
@@ -487,13 +488,13 @@ tooltip: {
          "type": "errorbar",
          "tooltip": {
            "pointFormatter": function(){
-             return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+             return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
            }
          }
        },
        {
          "index": 36,
-         color: "#68AB2B",
+         color: "#7F5F1A",
       
           "tooltip": {
            "pointFormatter": function(){
@@ -507,13 +508,13 @@ tooltip: {
          "type": "errorbar",
          "tooltip": {
            "pointFormatter": function(){
-             return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+             return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
            }
          }
        },
        {
         "index": 38,
-        color: "#68AB2B",
+        color: "#45381D",
         visible: false,
          "tooltip": {
           "pointFormatter": function(){
@@ -527,47 +528,7 @@ tooltip: {
         "type": "errorbar",
         "tooltip": {
           "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
-          }
-        }
-      },
-      {
-        "index": 40,
-        color: "#68AB2B",
-        
-         "tooltip": {
-          "pointFormatter": function(){
-            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
-          }
-        }   
-        
-      },
-     {
-        "index": 41,
-        "type": "errorbar",
-        "tooltip": {
-          "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
-          }
-        }
-      }
-      {
-        "index": 42,
-        color: "#68AB2B",
-        visible: false,
-         "tooltip": {
-          "pointFormatter": function(){
-            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
-          }
-        }   
-        
-      },
-     {
-        "index": 43,
-        "type": "errorbar",
-        "tooltip": {
-          "pointFormatter": function(){
-            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+            return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br>';
           }
         }
       }
