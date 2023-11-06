@@ -48,9 +48,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Jugendliche ausserhalb des Bildungssystems",
-		"subtitle": "Basel-Stadt und Schweiz, 2014 - 2021",
-		"lesehilfe": "Der Anteil derJugendlichen ausserhalb des Bildungssystems, welche höchstens die obligatorische Schule abgeschlossen haben, betrug im Mittel der Jahre 2019 bis 2021 bei 9,9% in Basel-Stadt. Das 95%-Konfidenzintervall dieses Anteils liegt zwischen 7,9% und 11,8%.",
-		"erlaeuterungen": "Anteil der Personen an der Wohnbevölkerung zwischen 18 und 24 Jahren welche höchstens die obligatorische Schule abgeschlossen haben. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall kann interpretiert werden als den Bereich, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Basel-Stadt und Schweiz, 2010 - 2021",
+		"lesehilfe": "Der Anteil derJugendlichen ausserhalb des Bildungssystems, welche höchstens die obligatorische Schule abgeschlossen haben, betrug  in Basel-Stadt im Mittel der Jahre 2019 bis 2021 9,9%. Das 95%-Konfidenzintervall dieses Anteils liegt zwischen 7,9% und 11,8%.",
+		"erlaeuterungen": "Anteil der Personen an der Wohnbevölkerung zwischen 18 und 24 Jahren welche höchstens die obligatorische Schule abgeschlossen haben. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall kann interpretiert werden als den Bereich, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten aus jeweils drei Jahren zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Somit liegt ein methodischer Bruch innerhalb des Betrachtungszeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -161,7 +161,7 @@ var indikatoren = [
 		"id": 10038
 	},
 	{
-		"template": "line001",
+		"template": "template001",
 		"data-id": 10039,
 		"chart-id": 10039,
 		"filter": "",
@@ -169,8 +169,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Verteilung Muttersprachen/Primärsprachen in der Gesamtbevölkerung",
 		"subtitle": "Basel-Stadt und Schweiz, 2010 - 2021",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "In Basel-Stadt gaben im Mittel der Jahre 2010 bis 2012 80,4% der Bevölkerung Deutsch als ihre Primärsprache an. Das Konfidenzintervall dieses Anteils liegt zwischen 79,8% und 81,1%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Dies führt dazu, dass sich die Prozentzahlen auf jeweils über 100% addieren. Die Daten stammen aus der Strukturerhebung des Bundesamtes für Statistik. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Die Daten von jeweils drei Jahren werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
