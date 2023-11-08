@@ -1,0 +1,493 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          2011,
+          58.6
+        ],
+        [
+          2012,
+          61.9
+        ],
+        [
+          2013,
+          65.2
+        ],
+        [
+          2014,
+          64.6
+        ],
+        [
+          2015,
+          66.4
+        ],
+        [
+          2016,
+          68.9
+        ],
+        [
+          2017,
+          68.1
+        ],
+        [
+          2018,
+          68.5
+        ],
+        [
+          2019,
+          65
+        ],
+        [
+          2020,
+          64.2
+        ],
+        [
+          2021,
+          59.2
+        ],
+        [
+          2022,
+          59.2
+        ]
+      ],
+      "name": "Ergänzungsleistungen"
+    },
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          2011,
+          26.7
+        ],
+        [
+          2012,
+          30.5
+        ],
+        [
+          2013,
+          37.3
+        ],
+        [
+          2014,
+          37
+        ],
+        [
+          2015,
+          38.9
+        ],
+        [
+          2016,
+          41.4
+        ],
+        [
+          2017,
+          41.9
+        ],
+        [
+          2018,
+          45.2
+        ],
+        [
+          2019,
+          48.5
+        ],
+        [
+          2020,
+          44.6
+        ],
+        [
+          2021,
+          45.5
+        ],
+        [
+          2022,
+          48.4
+        ]
+      ],
+      "name": "Restfinanzierung"
+    },
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          2011,
+          55.1
+        ],
+        [
+          2012,
+          54.9
+        ],
+        [
+          2013,
+          48.2
+        ],
+        [
+          2014,
+          49.2
+        ],
+        [
+          2015,
+          51
+        ],
+        [
+          2016,
+          52.6
+        ],
+        [
+          2017,
+          60.9
+        ],
+        [
+          2018,
+          60.5
+        ],
+        [
+          2019,
+          60.4
+        ],
+        [
+          2020,
+          61.9
+        ],
+        [
+          2021,
+          60.2
+        ],
+        [
+          2022,
+          61.2
+        ]
+      ],
+      "name": "Beiträge Krankenversicherer"
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          2011,
+          18.5
+        ],
+        [
+          2012,
+          18.7
+        ],
+        [
+          2013,
+          19.3
+        ],
+        [
+          2014,
+          19.8
+        ],
+        [
+          2015,
+          20.5
+        ],
+        [
+          2016,
+          21
+        ],
+        [
+          2017,
+          22.5
+        ],
+        [
+          2018,
+          21.8
+        ],
+        [
+          2019,
+          21
+        ],
+        [
+          2020,
+          22.1
+        ],
+        [
+          2021,
+          21.3
+        ],
+        [
+          2022,
+          21.6
+        ]
+      ],
+      "name": "Eigenbeitrag Bewohnende Pflege"
+    },
+    {
+      "color": "#5284BB",
+      "data": [
+        [
+          2011,
+          110.1
+        ],
+        [
+          2012,
+          114.2
+        ],
+        [
+          2013,
+          112.8
+        ],
+        [
+          2014,
+          124.9
+        ],
+        [
+          2015,
+          136.4
+        ],
+        [
+          2016,
+          136.1
+        ],
+        [
+          2017,
+          148.7
+        ],
+        [
+          2018,
+          148.7
+        ],
+        [
+          2019,
+          152.3
+        ],
+        [
+          2020,
+          147.5
+        ],
+        [
+          2021,
+          143
+        ],
+        [
+          2022,
+          146.2
+        ]
+      ],
+      "name": "Eigenbeitrag Bewohnende Pension und Betreuung"
+    },
+    {
+      "type": "line",
+      "color": "black",
+      "visible": true,
+      "lineWidth": 2,
+      "data": [
+        [
+          2011,
+          269
+        ],
+        [
+          2012,
+          280.2
+        ],
+        [
+          2013,
+          282.8
+        ],
+        [
+          2014,
+          295.5
+        ],
+        [
+          2015,
+          313.2
+        ],
+        [
+          2016,
+          320
+        ],
+        [
+          2017,
+          342.1
+        ],
+        [
+          2018,
+          344.7
+        ],
+        [
+          2019,
+          347.2
+        ],
+        [
+          2020,
+          340.3
+        ],
+        [
+          2021,
+          329.2
+        ],
+        [
+          2022,
+          336.6
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11176"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "stacking": "normal"
+    },
+    "line": {
+      "lineWidth": 3
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Finanzierung der Pflegeheime"
+  },
+  "subtitle": {
+    "text": "in Mio. CHF",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "reversedStacks": true
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "reversed": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "11176"
+  }
+}

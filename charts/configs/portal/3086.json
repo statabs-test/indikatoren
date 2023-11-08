@@ -63,6 +63,10 @@
         [
           "2022",
           27
+        ],
+        [
+          "2023",
+          120
         ]
       ],
       "name": "Anzahl",
@@ -89,7 +93,7 @@
     }
   },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -169,7 +173,7 @@
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"

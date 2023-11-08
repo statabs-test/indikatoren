@@ -2264,3 +2264,15 @@ id | visible | visibleInPortal | indikatorenset
 10028 | true | false | Wirtschaftsbericht BS_BL_JU
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
+11168 | true | true | Gesundheitsversorgung
+11169 | true | true | Gesundheitsversorgung
+11170 | true | true | Gesundheitsversorgung
+11171 | true | true | Gesundheitsversorgung
+11172 | true | true | Gesundheitsversorgung
+11173 | true | true | Gesundheitsversorgung
+11174 | true | true | Gesundheitsversorgung
+11175 | true | true | Gesundheitsversorgung
+11176 | true | true | Gesundheitsversorgung
+11177 | true | true | Gesundheitsversorgung
+11178 | true | true | Gesundheitsversorgung
+11179 | true | true | Gesundheitsversorgung

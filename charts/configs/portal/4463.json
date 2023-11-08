@@ -2,6 +2,7 @@
   "series": [
     {
       "index": 0,
+      "visible": false,
       "color": "#dc440e",
       "tooltip": {
         "pointFormatter": function(){
