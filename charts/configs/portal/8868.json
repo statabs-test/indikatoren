@@ -1,7 +1,61 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#007A2F",
+      "data": [
+        [
+          "Basel-Stadt",
+          25931
+        ],
+        [
+          "Basel-Landschaft",
+          565
+        ],
+        [
+          "Jura",
+          1063
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          27559
+        ],
+        [
+          "Schweiz",
+          36931
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Basel-Stadt",
+          27001
+        ],
+        [
+          "Basel-Landschaft",
+          511
+        ],
+        [
+          "Jura",
+          1194
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          28707
+        ],
+        [
+          "Schweiz",
+          34809
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
       "data": [
         [
           "Basel-Stadt",
@@ -28,7 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",
@@ -55,7 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -82,7 +136,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -106,6 +160,33 @@
         ]
       ],
       "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          40076
+        ],
+        [
+          "Basel-Landschaft",
+          -1940
+        ],
+        [
+          "Jura",
+          1679
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          39816
+        ],
+        [
+          "Schweiz",
+          42847
+        ]
+      ],
+      "name": "2022",
       "turboThreshold": 0
     }
   ],

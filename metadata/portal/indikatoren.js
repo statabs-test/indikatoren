@@ -36489,7 +36489,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2021 gegenüber dem Vorjahr um 7 Milliarden auf 42,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2021 minus 691 Millionen. Im Jura liegt sie bei knapp 1,4 Milliarden Franken. In der Schweiz ist die Handelsbilanz seit 2018 zum dritten mal in Folge gestiegen und liegt 2021 bei über 58 Milliarden Franken.",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2022 gegenüber dem Vorjahr um 2 Milliarden auf 40 Milliarden Franken gesunken. In Basel-Landschaft beträgt sie 2022 minus 1940 Millionen. Im Jura liegt sie bei knapp 1,7 Milliarden Franken. In der Schweiz ist die Handelsbilanz nachdem sie dreimal in Folge gestiegen ist im 2022 gesunken und liegt bei knapp 43 Milliarden Franken.",
 		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"

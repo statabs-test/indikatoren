@@ -335,7 +335,7 @@ var indikatorensetData = [
 	{
 		"template": "line001_print",
 		"data-id": 8472,
-		"chart-id": 8355,
+		"chart-id": 8472,
 		"filter": "",
 		"parentId": "8355",
 		"children": [],
