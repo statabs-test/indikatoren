@@ -140,18 +140,21 @@ plotOptions: {
 tooltip: {
   shared: true
   /*
-      formatter: function(){
+      tooltip: {
+    formatter: function() {
         var series = this.series.chart.series,
-        str = '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>'
-        j = this.point.x,
-        i;
-
-        for(i=0; i<series.length; i++){
-          if(series[i].name === this.series.name)
-            str += '<span style="color:'+series[i].color+'">'+series[i].name+'</span>: '+series[i].data[j].y+'<br/>';
+            str = '<b>'+ this.x +'</b><br/>',
+            j = this.point.x,
+            i;
+        
+        for(i=0; i<series.length; i++) {
+            if (series[i].name === 'Y Values' || series[i].name === 'Confidence Intervals') {
+                str += '<span style="color:'+series[i].color+'">'+series[i].name+'</span>: '+series[i].data[j].y+'<br/>';
+            }
         }
         return str;
-      }
+    }
+}
      */ 
   }, 
   "series": [
@@ -176,7 +179,7 @@ tooltip: {
     },
     {
       "index": 2,
-      color: "#73B97C",
+      color: "#A8C3CA", /* 73B97C */
      /* visible: false, */
        "tooltip": {
         "pointFormatter": function(){
@@ -196,7 +199,7 @@ tooltip: {
     },
     {
       "index": 4,
-      color: "#A8C3CA",
+      color: "#008AC3", 
        "tooltip": {
         "pointFormatter": function(){
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
@@ -570,7 +573,7 @@ tooltip: {
    itemDistance: 0,
    width: 500,
    itemWidth: 230,
-  "layout": "horizontal",
+  layout: "horizontal",
   "verticalAlign": "top",
   "align": "left",
   "itemStyle": {
