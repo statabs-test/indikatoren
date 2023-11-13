@@ -157,9 +157,9 @@
         "text": ""
       },
       "labels": {
-        "formatter": function() {
-              return Highcharts.numberFormat(this.value, 0);
-            },
+        "formatter": function () {
+            return Highcharts.numberFormat(this.value, 0);
+          },
         "style": {
           "color": "black"
         }
@@ -172,9 +172,9 @@
         "text": ""
       },
       "labels": {
-        "formatter": function() {
-              return Highcharts.numberFormat(this.value, 0);
-            },
+        "formatter": function () {
+            return Highcharts.numberFormat(this.value, 0);
+          },
         "style": {
           "color": "black"
         }
@@ -246,9 +246,9 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function() {
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
-        },
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
+      },
     "shared": false
   },
   "exporting": {

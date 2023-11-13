@@ -2,13 +2,11 @@
   return {
     chart: {
       type: "column",
-      //type: "area",
     },
     plotOptions: {
       //area: {
       column: {
         stacking: 'normal',
-        //lineWidth: 0,
       },
       line: {
         lineWidth: 3,
@@ -16,30 +14,26 @@
     },
     series: [
       {
-        "color": "#007a2f",
-        legendIndex: 3,
-      },
-      {
-        "color": "#68ab2b",
+        "color": "#b00000",
         legendIndex: 2,
       },
       {
-        "color": "#ffbb58",
+        "color": "#ff8028",
         legendIndex: 1,
       },
       {
         type: 'line',
-        color: '#246370',
+        color: '#083038',
         visible: true,
         lineWidth: 3,
-        legendIndex: 4,
+        legendIndex: 3,
       }
     ],
     xAxis: {
-      type: "category"
+      // type: "category"
     },
     yAxis: {
-      reversedStacks: false,
+      reversedStacks: true,
     },
     legend: {
       //    itemWidth: 150,

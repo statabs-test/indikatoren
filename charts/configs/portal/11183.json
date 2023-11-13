@@ -1,116 +1,92 @@
 {
   "series": [
     {
-      "index": 0,
-      "color": "#008AC3",
-      "yAxis": 0,
+      "color": "#b00000",
+      "legendIndex": 2,
       "data": [
         [
-          2016,
-          2.9
-        ],
-        [
-          2017,
-          2.7
-        ],
-        [
           2018,
-          2.8
+          4656
         ],
         [
           2019,
-          2.5
+          4790
         ],
         [
           2020,
-          2.3
+          4520
         ],
         [
           2021,
-          2.3
+          4716
         ],
         [
           2022,
-          2.1
+          5038
         ]
       ],
-      "name": "Kosten Kanton (in Mio. CHF)"
+      "name": "Ausserkantonal"
     },
     {
-      "index": 1,
-      "color": "#990300",
-      "yAxis": 0,
+      "color": "#ff8028",
+      "legendIndex": 1,
       "data": [
         [
-          2016,
-          2.3
-        ],
-        [
-          2017,
-          2.1
-        ],
-        [
           2018,
-          2.1
+          38351
         ],
         [
           2019,
-          1.9
+          38304
         ],
         [
           2020,
-          1.8
+          35826
         ],
         [
           2021,
-          1.6
+          37756
         ],
         [
           2022,
-          1.6
+          38796
         ]
       ],
-      "name": "Kosten Stadt Basel (in Mio. CHF)"
+      "name": "Innerkantonal"
     },
     {
-      "index": 1,
-      "color": "#010101",
-      "yAxis": 1,
+      "type": "line",
+      "color": "#083038",
+      "visible": true,
+      "lineWidth": 3,
+      "legendIndex": 3,
       "data": [
         [
-          2016,
-          21.86
-        ],
-        [
-          2017,
-          21.75
-        ],
-        [
           2018,
-          22.98
+          43007
         ],
         [
           2019,
-          21.19
+          43094
         ],
         [
           2020,
-          21.82
+          40346
         ],
         [
           2021,
-          21.29
+          42472
         ],
         [
           2022,
-          21.05
+          43834
         ]
       ],
-      "name": "Durchschnittsbeitrag pro Tag (in CHF)"
+      "name": "Total"
     }
   ],
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -138,17 +114,19 @@
 					}
 				}
     },
-    "renderTo": "container-11179"
+    "renderTo": "container-11183"
   },
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
-      "dataLabels": {
         "enabled": false
       }
+    },
+    "column": {
+      "stacking": "normal"
+    },
+    "line": {
+      "lineWidth": 3
     }
   },
   "title": {
@@ -158,10 +136,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Finanzierung der Beiträge an die Pflege zuhause"
+    "text": "Entwicklung und Verteilung der stationären Spitalaustritte "
   },
   "subtitle": {
-    "text": "",
+    "text": "Baselstädtischen Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -184,42 +162,27 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickInterval": 1
+    }
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "tickAmount": 7,
-      "labels": {
-        "formatter": function () {
-            return Highcharts.numberFormat((this.value), 1) + '';
-          }
-      },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
       "style": {
-        "color": "black"
+        "color": "#000000",
+        "fontSize": null
       },
-      "title": {
-        "text": ""
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
       }
     },
-    {
-      "min": 0,
-      "tickAmount": 7,
-      "labels": {
-        "formatter": function () {
-            return Highcharts.numberFormat((this.value), 1) + '';
-          }
-      },
-      "style": {
-        "color": "black"
-      },
-      "title": {
-        "text": ""
-      },
-      "opposite": true
-    }
-  ],
+    "reversedStacks": true
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -227,10 +190,12 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "itemDistance": 8,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 4,
+    "reversed": false
   },
   "credits": {
     "enabled": true,
@@ -245,7 +210,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -281,13 +246,7 @@
 				}, true, true);
 			}
   },
-  "tooltip": {
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
-      },
-    "shared": false
-  },
   "exporting": {
-    "filename": "11179"
+    "filename": "11183"
   }
 }

@@ -2276,3 +2276,7 @@ id | visible | visibleInPortal | indikatorenset
 11177 | true | true | Gesundheitsversorgung
 11178 | true | true | Gesundheitsversorgung
 11179 | true | true | Gesundheitsversorgung
+11182 | true | true | Gesundheitsversorgung
+11183 | true | true | Gesundheitsversorgung
+11184 | true | true | Gesundheitsversorgung
+11185 | true | true | Gesundheitsversorgung

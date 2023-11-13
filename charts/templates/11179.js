@@ -1,11 +1,11 @@
-(function(){
+(function () {
   return {
     "yAxis": [
       {
-        min:0,
+        min: 0,
         tickAmount: 7,
         "labels": {
-          "formatter": function(){
+          "formatter": function () {
             return Highcharts.numberFormat((this.value), 1) + '';
           }
         },
@@ -20,7 +20,7 @@
         min: 0,
         tickAmount: 7,
         labels: {
-          formatter: function(){
+          formatter: function () {
             return Highcharts.numberFormat((this.value), 1) + '';
           }
         },
@@ -62,7 +62,7 @@
       }
     ],
     "tooltip": {
-      "pointFormatter": function(){
+      "pointFormatter": function () {
         return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
       },
       "shared": false

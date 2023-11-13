@@ -1,10 +1,10 @@
-(function() {
+(function () {
   return {
     "yAxis": [
       {
         tickAmount: 7,
         "labels": {
-          "formatter": function() {
+          "formatter": function () {
             return Highcharts.numberFormat((this.value * 100), 0) + '%';
           }
         },
@@ -17,7 +17,7 @@
         tickAmount: 7,
         "opposite": true, // Die rechte Achse aktivieren
         "labels": {
-          "formatter": function() {
+          "formatter": function () {
             return Highcharts.numberFormat((this.value), 0) + ''; // Wandelt Dezimalzahlen in Prozent um
           }
         },
@@ -43,7 +43,7 @@
         "index": 1,
         "color": "#008AC3",
         "tooltip": {
-          "pointFormatter": function() {
+          "pointFormatter": function () {
             return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '%' + '</b><br/><b>';
           }
         }
@@ -52,7 +52,7 @@
         "index": 2,
         "color": "#990300",
         "tooltip": {
-          "pointFormatter": function() {
+          "pointFormatter": function () {
             return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b><br/><b>';
           }
         },

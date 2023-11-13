@@ -1,116 +1,89 @@
 {
   "series": [
     {
-      "index": 0,
-      "color": "#008AC3",
-      "yAxis": 0,
       "data": [
-        [
-          2016,
-          2.9
-        ],
-        [
-          2017,
-          2.7
-        ],
-        [
-          2018,
-          2.8
-        ],
-        [
-          2019,
-          2.5
-        ],
-        [
-          2020,
-          2.3
-        ],
-        [
-          2021,
-          2.3
-        ],
-        [
-          2022,
-          2.1
-        ]
-      ],
-      "name": "Kosten Kanton (in Mio. CHF)"
-    },
-    {
-      "index": 1,
-      "color": "#990300",
-      "yAxis": 0,
-      "data": [
-        [
-          2016,
-          2.3
-        ],
-        [
-          2017,
-          2.1
-        ],
-        [
-          2018,
-          2.1
-        ],
-        [
-          2019,
-          1.9
-        ],
-        [
-          2020,
-          1.8
-        ],
-        [
-          2021,
-          1.6
-        ],
-        [
-          2022,
-          1.6
-        ]
-      ],
-      "name": "Kosten Stadt Basel (in Mio. CHF)"
-    },
-    {
-      "index": 1,
-      "color": "#010101",
-      "yAxis": 1,
-      "data": [
-        [
-          2016,
-          21.86
-        ],
-        [
-          2017,
-          21.75
-        ],
-        [
-          2018,
-          22.98
-        ],
-        [
-          2019,
-          21.19
-        ],
-        [
-          2020,
-          21.82
-        ],
-        [
-          2021,
-          21.29
-        ],
-        [
-          2022,
-          21.05
-        ]
-      ],
-      "name": "Durchschnittsbeitrag pro Tag (in CHF)"
+        {
+          "x": 1.58,
+          "name": "Adullam Spital",
+          "y": 1.11,
+          "color": "#ff8028",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 0.68,
+          "name": "Bethesda Spital",
+          "y": 0.2,
+          "color": "#67401e",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.54,
+          "name": "Felix Platter-Spital",
+          "y": 1.85,
+          "color": "#3366ff",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 0.35,
+          "name": "Matthea Geburtshaus",
+          "y": 0.04,
+          "color": "#fabd24",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.04,
+          "name": "Merian Iselin Klinik",
+          "y": 0.19,
+          "color": "#cd9c00",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 2.37,
+          "name": "Palliativzentrum Hildegard",
+          "y": 1.81,
+          "color": "#007a2f",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.56,
+          "name": "Schmerzklinik Basel",
+          "y": 0.38,
+          "color": "#73b97c",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.04,
+          "name": "St. Claraspital",
+          "y": 0.96,
+          "color": "#e7cee2",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.22,
+          "name": "UKBB",
+          "y": 0.38,
+          "color": "#662673",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.31,
+          "name": "UBS",
+          "y": 1.16,
+          "color": "#EAB9CE",
+          "symbol": "'circle'"
+        },
+        {
+          "x": 1.26,
+          "name": "Alle Spitäler",
+          "y": 0.93,
+          "color": "#010101",
+          "symbol": "'square'"
+        }
+      ]
     }
   ],
   "chart": {
-    "type": "line",
+    "type": "scatter",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -138,16 +111,22 @@
 					}
 				}
     },
-    "renderTo": "container-11179"
+    "renderTo": "container-11185"
   },
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
-      "dataLabels": {
         "enabled": false
+      }
+    },
+    "scatter": {
+      "marker": {
+        "enabled": true,
+        "states": {
+          "hover": {
+            "enabled": true
+          }
+        }
       }
     }
   },
@@ -158,10 +137,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Finanzierung der Beiträge an die Pflege zuhause"
+    "text": "Schweregrad und Komplexität "
   },
   "subtitle": {
-    "text": "",
+    "text": "CMI gegen PCCL der Baselstädtischen-Spitäler 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -177,51 +156,38 @@
     "title": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "text": "PCCL"
     },
     "labels": {
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 1);
+        }
     },
-    "tickInterval": 1
+    "startOnTick": true,
+    "endOnTick": true,
+    "showLastLabel": true
   },
   "yAxis": [
     {
-      "min": 0,
       "tickAmount": 7,
       "labels": {
         "formatter": function () {
-            return Highcharts.numberFormat((this.value), 1) + '';
+            return Highcharts.numberFormat((this.value), 1);
           }
       },
-      "style": {
-        "color": "black"
-      },
+      "min": 0,
       "title": {
-        "text": ""
+        "text": "CMI"
       }
-    },
-    {
-      "min": 0,
-      "tickAmount": 7,
-      "labels": {
-        "formatter": function () {
-            return Highcharts.numberFormat((this.value), 1) + '';
-          }
-      },
-      "style": {
-        "color": "black"
-      },
-      "title": {
-        "text": ""
-      },
-      "opposite": true
     }
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -245,7 +211,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -282,12 +248,9 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
-      },
-    "shared": false
+    "pointFormat": "{point.name} \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E CMI: {point.x} \u003Cbr\u002F\u003E PCCL: {point.y}"
   },
   "exporting": {
-    "filename": "11179"
+    "filename": "11185"
   }
 }
