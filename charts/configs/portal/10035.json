@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#B00000",
+      "color": "#474747",
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -64,7 +64,7 @@
     },
     {
       "index": 2,
-      "color": "#474747",
+      "color": "#B00000",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -193,7 +193,7 @@
     "text": "Jugendliche ausserhalb des Bildungssystems"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Schweiz, 2010 - 2021",
+    "text": "Basel-Stadt und Schweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",

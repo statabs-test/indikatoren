@@ -567,10 +567,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Verteilung Muttersprachen\u002FPrimärsprachen in der Gesamtbevölkerung"
+    "text": "Anteil Primärsprachen"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Schweiz, 2010 - 2021",
+    "text": "Häufigste Fremdsprachen im Kanton Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
