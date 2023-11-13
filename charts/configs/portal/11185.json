@@ -3,79 +3,79 @@
     {
       "data": [
         {
-          "x": 1.58,
+          "x": 1.11,
           "name": "Adullam Spital",
-          "y": 1.11,
+          "y": 1.58,
           "color": "#ff8028",
           "symbol": "'circle'"
         },
         {
-          "x": 0.68,
+          "x": 0.2,
           "name": "Bethesda Spital",
-          "y": 0.2,
+          "y": 0.68,
           "color": "#67401e",
           "symbol": "'circle'"
         },
         {
-          "x": 1.54,
+          "x": 1.85,
           "name": "Felix Platter-Spital",
-          "y": 1.85,
+          "y": 1.54,
           "color": "#3366ff",
           "symbol": "'circle'"
         },
         {
-          "x": 0.35,
+          "x": 0.04,
           "name": "Matthea Geburtshaus",
-          "y": 0.04,
+          "y": 0.35,
           "color": "#fabd24",
           "symbol": "'circle'"
         },
         {
-          "x": 1.04,
+          "x": 0.19,
           "name": "Merian Iselin Klinik",
-          "y": 0.19,
+          "y": 1.04,
           "color": "#cd9c00",
           "symbol": "'circle'"
         },
         {
-          "x": 2.37,
+          "x": 1.81,
           "name": "Palliativzentrum Hildegard",
-          "y": 1.81,
+          "y": 2.37,
           "color": "#007a2f",
           "symbol": "'circle'"
         },
         {
-          "x": 1.56,
+          "x": 0.38,
           "name": "Schmerzklinik Basel",
-          "y": 0.38,
+          "y": 1.56,
           "color": "#73b97c",
           "symbol": "'circle'"
         },
         {
-          "x": 1.04,
+          "x": 0.96,
           "name": "St. Claraspital",
-          "y": 0.96,
+          "y": 1.04,
           "color": "#e7cee2",
           "symbol": "'circle'"
         },
         {
-          "x": 1.22,
+          "x": 0.38,
           "name": "UKBB",
-          "y": 0.38,
+          "y": 1.22,
           "color": "#662673",
           "symbol": "'circle'"
         },
         {
-          "x": 1.31,
+          "x": 1.16,
           "name": "UBS",
-          "y": 1.16,
+          "y": 1.31,
           "color": "#EAB9CE",
           "symbol": "'circle'"
         },
         {
-          "x": 1.26,
+          "x": 0.93,
           "name": "Alle Spitäler",
-          "y": 0.93,
+          "y": 1.26,
           "color": "#010101",
           "symbol": "'square'"
         }
@@ -121,6 +121,7 @@
     },
     "scatter": {
       "marker": {
+        "radius": 6,
         "enabled": true,
         "states": {
           "hover": {
@@ -170,7 +171,12 @@
     },
     "startOnTick": true,
     "endOnTick": true,
-    "showLastLabel": true
+    "showLastLabel": true,
+    "gridLineWidth": 1,
+    "tickAmount": 7,
+    "style": {
+      "color": "black"
+    }
   },
   "yAxis": [
     {
@@ -183,6 +189,9 @@
       "min": 0,
       "title": {
         "text": "CMI"
+      },
+      "style": {
+        "color": "black"
       }
     }
   ],
@@ -248,7 +257,7 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "{point.name} \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E CMI: {point.x} \u003Cbr\u002F\u003E PCCL: {point.y}"
+    "pointFormat": "\u003Cb\u003E{point.name}\u003C\u002Fb\u003E \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E PCCL: {point.x} \u003Cbr\u002F\u003E CMI: {point.y}"
   },
   "exporting": {
     "filename": "11185"

@@ -16,6 +16,9 @@
         title: {
           text: "CMI"
         },
+        style:{
+          color: "black"
+        },
       }
     ],
     "xAxis": {
@@ -30,7 +33,12 @@
       ,
       startOnTick: true,
       endOnTick: true,
-      showLastLabel: true
+      showLastLabel: true,
+      gridLineWidth: 1,
+      tickAmount: 7,      
+      style: {
+        color: "black",
+      }
     },
     legend: {
       itemDistance: 8,
@@ -42,19 +50,19 @@
     },
     data: {
       seriesMapping: [
-        { name: 0, x: 1, y: 2, color: 3, symbol: 4 }
+        { name: 0, x: 2, y: 1, color: 3, symbol: 4 }
       ],
     },
 /*
     tooltip: {
       useHTML: true,
       pointFormatter: function () {
-        return '<b>' + this.point.name + '</b> <br/><br/> CMI: ' + Highcharts.numberFormat(this.x, 2) + '<br/> PCCL: ' + Highcharts.numberFormat(this.y, 2);
+        return '<b>' + this.point.name + '</b> <br/><br/> CMI: ' + Highcharts.numberFormat(this.y, 2) + '<br/> PCCL: ' + Highcharts.numberFormat(this.x, 2);
       }
     },
 */
     tooltip: {
-      pointFormat: '{point.name} <br/><br/> CMI: {point.x} <br/> PCCL: {point.y}'
+      pointFormat: '<b>{point.name}</b> <br/><br/> PCCL: {point.x} <br/> CMI: {point.y}'
     },
 /*    colors: [
       "#ff8028",
@@ -74,6 +82,7 @@
     plotOptions: {
       scatter: {
         marker: {
+          radius: 6,
           enabled: true,
 //          symbol: "circle",
           states: {
