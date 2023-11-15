@@ -1,12 +1,55 @@
-Spitalname lang	Spitalname kurz	CMI	PCCL	Farbe
-Adullam Spital	Adullam	1.58	1.11	#ff8028
-Bethesda Spital	Bethesda	0.68	0.2	#67401e
-Felix Platter-Spital	Felix Platter	1.54	1.85	#3366ff
-Matthea Geburtshaus	Matthea	0.35	0.04	#fabd24
-Merian Iselin Klinik	Merian Iselin	1.04	0.19	#cd9c00
-Palliativzentrum Hildegard	Hildegard	2.37	1.81	#007a2f
-Schmerzklinik Basel	Schmerzklinik	1.56	0.38	#73b97c
-St. Claraspital	St. Claraspital	1.04	0.96	#e7cee2
-Universitäts-Kinderspital beider Basel	UKBB	1.22	0.38	#662673
-Universitätsspital Basel 	UBS	1.31	1.16	#EAB9CE
-Alle Spitäler	Alle	1.26	0.93	#010101
+Jahr	Spitalname lang	Spitalname kurz	CMI	PCCL	Farbe
+2018	Adullam Spital	Adullam	1.54	2.5	#ff8028
+2018	Bethesda Spital	Bethesda	0.73	0.24	#67401e
+2018	Felix Platter-Spital	Felix Platter	1.42	2.55	#3366ff
+2018	Merian Iselin Klinik	Merian Iselin	1.01	0.33	#cd9c00
+2018	Palliativzentrum Hildegard	Hildegard	1.85	2.67	#007a2f
+2018	Schmerzklinik Basel	Schmerzklinik	2.41	0.82	#73b97c
+2018	St. Claraspital	St. Claraspital	1.05	1.41	#e7cee2
+2018	Universitäts-Kinderspital beider Basel	UKBB	1.1	0.67	#662673
+2018	Universitätsspital Basel 	UBS	1.31	1.56	#EAB9CE
+2018	Alle Spitäler	Alle	1.18	1.25	#010101
+2019	Adullam Spital	Adullam	1.58	1.9	#ff8028
+2019	Bethesda Spital	Bethesda	0.71	0.21	#67401e
+2019	Felix Platter-Spital	Felix Platter	1.56	2.52	#3366ff
+2019	Matthea Geburtshaus	Matthea	0.36	0.02	#fabd24
+2019	Merian Iselin Klinik	Merian Iselin	1.06	0.34	#cd9c00
+2019	Palliativzentrum Hildegard	Hildegard	1.89	2.65	#007a2f
+2019	Schmerzklinik Basel	Schmerzklinik	2.06	0.71	#73b97c
+2019	St. Claraspital	St. Claraspital	1.05	1.34	#e7cee2
+2019	Universitäts-Kinderspital beider Basel	UKBB	1.1	0.69	#662673
+2019	Universitätsspital Basel 	UBS	1.34	1.54	#EAB9CE
+2019	Alle Spitäler	Alle	1.2	1.24	#010101
+2020	Adullam Spital	Adullam	1.48	1.96	#ff8028
+2020	Bethesda Spital	Bethesda	0.69	0.26	#67401e
+2020	Felix Platter-Spital	Felix Platter	1.52	2.62	#3366ff
+2020	Matthea Geburtshaus	Matthea	0.35	0.02	#fabd24
+2020	Merian Iselin Klinik	Merian Iselin	1.07	0.34	#cd9c00
+2020	Palliativzentrum Hildegard	Hildegard	1.85	2.67	#007a2f
+2020	Schmerzklinik Basel	Schmerzklinik	2	0.78	#73b97c
+2020	St. Claraspital	St. Claraspital	1.04	1.32	#e7cee2
+2020	Universitäts-Kinderspital beider Basel	UKBB	1.27	0.73	#662673
+2020	Universitätsspital Basel 	UBS	1.34	1.53	#EAB9CE
+2020	Alle Spitäler	Alle	1.21	1.25	#010101
+2021	Adullam Spital	Adullam	1.64	1.99	#ff8028
+2021	Bethesda Spital	Bethesda	0.68	0.29	#67401e
+2021	Felix Platter-Spital	Felix Platter	1.4	2.56	#3366ff
+2021	Matthea Geburtshaus	Matthea	0.34	0.02	#fabd24
+2021	Merian Iselin Klinik	Merian Iselin	1.06	0.37	#cd9c00
+2021	Palliativzentrum Hildegard	Hildegard	1.83	2.76	#007a2f
+2021	Schmerzklinik Basel	Schmerzklinik	2.17	0.68	#73b97c
+2021	St. Claraspital	St. Claraspital	1.03	1.33	#e7cee2
+2021	Universitäts-Kinderspital beider Basel	UKBB	1.2	0.7	#662673
+2021	Universitätsspital Basel 	UBS	1.34	1.56	#EAB9CE
+2021	Alle Spitäler	Alle	1.2	1.27	#010101
+2022	Adullam Spital	Adullam	1.58	1.11	#ff8028
+2022	Bethesda Spital	Bethesda	0.68	0.2	#67401e
+2022	Felix Platter-Spital	Felix Platter	1.54	1.85	#3366ff
+2022	Matthea Geburtshaus	Matthea	0.35	0.04	#fabd24
+2022	Merian Iselin Klinik	Merian Iselin	1.04	0.19	#cd9c00
+2022	Palliativzentrum Hildegard	Hildegard	2.37	1.81	#007a2f
+2022	Schmerzklinik Basel	Schmerzklinik	1.56	0.38	#73b97c
+2022	St. Claraspital	St. Claraspital	1.04	0.96	#e7cee2
+2022	Universitäts-Kinderspital beider Basel	UKBB	1.22	0.38	#662673
+2022	Universitätsspital Basel 	UBS	1.31	1.16	#EAB9CE
+2022	Alle Spitäler	Alle	1.26	0.93	#010101

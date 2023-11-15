@@ -3,7 +3,352 @@
     {
       "data": [
         {
+          "x": 2.5,
+          "year": 2018,
+          "name": "Adullam Spital",
+          "name_short": "Adullam",
+          "y": 1.54,
+          "color": "#ff8028"
+        },
+        {
+          "x": 0.24,
+          "year": 2018,
+          "name": "Bethesda Spital",
+          "name_short": "Bethesda",
+          "y": 0.73,
+          "color": "#67401e"
+        },
+        {
+          "x": 2.55,
+          "year": 2018,
+          "name": "Felix Platter-Spital",
+          "name_short": "Felix Platter",
+          "y": 1.42,
+          "color": "#3366ff"
+        },
+        {
+          "x": 0.33,
+          "year": 2018,
+          "name": "Merian Iselin Klinik",
+          "name_short": "Merian Iselin",
+          "y": 1.01,
+          "color": "#cd9c00"
+        },
+        {
+          "x": 2.67,
+          "year": 2018,
+          "name": "Palliativzentrum Hildegard",
+          "name_short": "Hildegard",
+          "y": 1.85,
+          "color": "#007a2f"
+        },
+        {
+          "x": 0.82,
+          "year": 2018,
+          "name": "Schmerzklinik Basel",
+          "name_short": "Schmerzklinik",
+          "y": 2.41,
+          "color": "#73b97c"
+        },
+        {
+          "x": 1.41,
+          "year": 2018,
+          "name": "St. Claraspital",
+          "name_short": "St. Claraspital",
+          "y": 1.05,
+          "color": "#e7cee2"
+        },
+        {
+          "x": 0.67,
+          "year": 2018,
+          "name": "Universitäts-Kinderspital beider Basel",
+          "name_short": "UKBB",
+          "y": 1.1,
+          "color": "#662673"
+        },
+        {
+          "x": 1.56,
+          "year": 2018,
+          "name": "Universitätsspital Basel",
+          "name_short": "UBS",
+          "y": 1.31,
+          "color": "#EAB9CE"
+        },
+        {
+          "x": 1.25,
+          "year": 2018,
+          "name": "Alle Spitäler",
+          "name_short": "Alle",
+          "y": 1.18,
+          "color": "#010101"
+        },
+        {
+          "x": 1.9,
+          "year": 2019,
+          "name": "Adullam Spital",
+          "name_short": "Adullam",
+          "y": 1.58,
+          "color": "#ff8028"
+        },
+        {
+          "x": 0.21,
+          "year": 2019,
+          "name": "Bethesda Spital",
+          "name_short": "Bethesda",
+          "y": 0.71,
+          "color": "#67401e"
+        },
+        {
+          "x": 2.52,
+          "year": 2019,
+          "name": "Felix Platter-Spital",
+          "name_short": "Felix Platter",
+          "y": 1.56,
+          "color": "#3366ff"
+        },
+        {
+          "x": 0.02,
+          "year": 2019,
+          "name": "Matthea Geburtshaus",
+          "name_short": "Matthea",
+          "y": 0.36,
+          "color": "#fabd24"
+        },
+        {
+          "x": 0.34,
+          "year": 2019,
+          "name": "Merian Iselin Klinik",
+          "name_short": "Merian Iselin",
+          "y": 1.06,
+          "color": "#cd9c00"
+        },
+        {
+          "x": 2.65,
+          "year": 2019,
+          "name": "Palliativzentrum Hildegard",
+          "name_short": "Hildegard",
+          "y": 1.89,
+          "color": "#007a2f"
+        },
+        {
+          "x": 0.71,
+          "year": 2019,
+          "name": "Schmerzklinik Basel",
+          "name_short": "Schmerzklinik",
+          "y": 2.06,
+          "color": "#73b97c"
+        },
+        {
+          "x": 1.34,
+          "year": 2019,
+          "name": "St. Claraspital",
+          "name_short": "St. Claraspital",
+          "y": 1.05,
+          "color": "#e7cee2"
+        },
+        {
+          "x": 0.69,
+          "year": 2019,
+          "name": "Universitäts-Kinderspital beider Basel",
+          "name_short": "UKBB",
+          "y": 1.1,
+          "color": "#662673"
+        },
+        {
+          "x": 1.54,
+          "year": 2019,
+          "name": "Universitätsspital Basel",
+          "name_short": "UBS",
+          "y": 1.34,
+          "color": "#EAB9CE"
+        },
+        {
+          "x": 1.24,
+          "year": 2019,
+          "name": "Alle Spitäler",
+          "name_short": "Alle",
+          "y": 1.2,
+          "color": "#010101"
+        },
+        {
+          "x": 1.96,
+          "year": 2020,
+          "name": "Adullam Spital",
+          "name_short": "Adullam",
+          "y": 1.48,
+          "color": "#ff8028"
+        },
+        {
+          "x": 0.26,
+          "year": 2020,
+          "name": "Bethesda Spital",
+          "name_short": "Bethesda",
+          "y": 0.69,
+          "color": "#67401e"
+        },
+        {
+          "x": 2.62,
+          "year": 2020,
+          "name": "Felix Platter-Spital",
+          "name_short": "Felix Platter",
+          "y": 1.52,
+          "color": "#3366ff"
+        },
+        {
+          "x": 0.02,
+          "year": 2020,
+          "name": "Matthea Geburtshaus",
+          "name_short": "Matthea",
+          "y": 0.35,
+          "color": "#fabd24"
+        },
+        {
+          "x": 0.34,
+          "year": 2020,
+          "name": "Merian Iselin Klinik",
+          "name_short": "Merian Iselin",
+          "y": 1.07,
+          "color": "#cd9c00"
+        },
+        {
+          "x": 2.67,
+          "year": 2020,
+          "name": "Palliativzentrum Hildegard",
+          "name_short": "Hildegard",
+          "y": 1.85,
+          "color": "#007a2f"
+        },
+        {
+          "x": 0.78,
+          "year": 2020,
+          "name": "Schmerzklinik Basel",
+          "name_short": "Schmerzklinik",
+          "y": 2,
+          "color": "#73b97c"
+        },
+        {
+          "x": 1.32,
+          "year": 2020,
+          "name": "St. Claraspital",
+          "name_short": "St. Claraspital",
+          "y": 1.04,
+          "color": "#e7cee2"
+        },
+        {
+          "x": 0.73,
+          "year": 2020,
+          "name": "Universitäts-Kinderspital beider Basel",
+          "name_short": "UKBB",
+          "y": 1.27,
+          "color": "#662673"
+        },
+        {
+          "x": 1.53,
+          "year": 2020,
+          "name": "Universitätsspital Basel",
+          "name_short": "UBS",
+          "y": 1.34,
+          "color": "#EAB9CE"
+        },
+        {
+          "x": 1.25,
+          "year": 2020,
+          "name": "Alle Spitäler",
+          "name_short": "Alle",
+          "y": 1.21,
+          "color": "#010101"
+        },
+        {
+          "x": 1.99,
+          "year": 2021,
+          "name": "Adullam Spital",
+          "name_short": "Adullam",
+          "y": 1.64,
+          "color": "#ff8028"
+        },
+        {
+          "x": 0.29,
+          "year": 2021,
+          "name": "Bethesda Spital",
+          "name_short": "Bethesda",
+          "y": 0.68,
+          "color": "#67401e"
+        },
+        {
+          "x": 2.56,
+          "year": 2021,
+          "name": "Felix Platter-Spital",
+          "name_short": "Felix Platter",
+          "y": 1.4,
+          "color": "#3366ff"
+        },
+        {
+          "x": 0.02,
+          "year": 2021,
+          "name": "Matthea Geburtshaus",
+          "name_short": "Matthea",
+          "y": 0.34,
+          "color": "#fabd24"
+        },
+        {
+          "x": 0.37,
+          "year": 2021,
+          "name": "Merian Iselin Klinik",
+          "name_short": "Merian Iselin",
+          "y": 1.06,
+          "color": "#cd9c00"
+        },
+        {
+          "x": 2.76,
+          "year": 2021,
+          "name": "Palliativzentrum Hildegard",
+          "name_short": "Hildegard",
+          "y": 1.83,
+          "color": "#007a2f"
+        },
+        {
+          "x": 0.68,
+          "year": 2021,
+          "name": "Schmerzklinik Basel",
+          "name_short": "Schmerzklinik",
+          "y": 2.17,
+          "color": "#73b97c"
+        },
+        {
+          "x": 1.33,
+          "year": 2021,
+          "name": "St. Claraspital",
+          "name_short": "St. Claraspital",
+          "y": 1.03,
+          "color": "#e7cee2"
+        },
+        {
+          "x": 0.7,
+          "year": 2021,
+          "name": "Universitäts-Kinderspital beider Basel",
+          "name_short": "UKBB",
+          "y": 1.2,
+          "color": "#662673"
+        },
+        {
+          "x": 1.56,
+          "year": 2021,
+          "name": "Universitätsspital Basel",
+          "name_short": "UBS",
+          "y": 1.34,
+          "color": "#EAB9CE"
+        },
+        {
+          "x": 1.27,
+          "year": 2021,
+          "name": "Alle Spitäler",
+          "name_short": "Alle",
+          "y": 1.2,
+          "color": "#010101"
+        },
+        {
           "x": 1.11,
+          "year": 2022,
           "name": "Adullam Spital",
           "name_short": "Adullam",
           "y": 1.58,
@@ -11,6 +356,7 @@
         },
         {
           "x": 0.2,
+          "year": 2022,
           "name": "Bethesda Spital",
           "name_short": "Bethesda",
           "y": 0.68,
@@ -18,6 +364,7 @@
         },
         {
           "x": 1.85,
+          "year": 2022,
           "name": "Felix Platter-Spital",
           "name_short": "Felix Platter",
           "y": 1.54,
@@ -25,6 +372,7 @@
         },
         {
           "x": 0.04,
+          "year": 2022,
           "name": "Matthea Geburtshaus",
           "name_short": "Matthea",
           "y": 0.35,
@@ -32,6 +380,7 @@
         },
         {
           "x": 0.19,
+          "year": 2022,
           "name": "Merian Iselin Klinik",
           "name_short": "Merian Iselin",
           "y": 1.04,
@@ -39,6 +388,7 @@
         },
         {
           "x": 1.81,
+          "year": 2022,
           "name": "Palliativzentrum Hildegard",
           "name_short": "Hildegard",
           "y": 2.37,
@@ -46,6 +396,7 @@
         },
         {
           "x": 0.38,
+          "year": 2022,
           "name": "Schmerzklinik Basel",
           "name_short": "Schmerzklinik",
           "y": 1.56,
@@ -53,6 +404,7 @@
         },
         {
           "x": 0.96,
+          "year": 2022,
           "name": "St. Claraspital",
           "name_short": "St. Claraspital",
           "y": 1.04,
@@ -60,6 +412,7 @@
         },
         {
           "x": 0.38,
+          "year": 2022,
           "name": "Universitäts-Kinderspital beider Basel",
           "name_short": "UKBB",
           "y": 1.22,
@@ -67,6 +420,7 @@
         },
         {
           "x": 1.16,
+          "year": 2022,
           "name": "Universitätsspital Basel",
           "name_short": "UBS",
           "y": 1.31,
@@ -74,13 +428,14 @@
         },
         {
           "x": 0.93,
+          "year": 2022,
           "name": "Alle Spitäler",
           "name_short": "Alle",
           "y": 1.26,
           "color": "#010101"
         }
       ],
-      "name": "Spitalname lang"
+      "name": "Jahr"
     }
   ],
   "chart": {
@@ -98,25 +453,39 @@
     "panKey": "shift",
     "events": {
       "load": function () {
+          const chart = this;
+          const dropdownDiv = document.createElement('div');
+          dropdownDiv.id = 'yearDropdown';
+          dropdownDiv.style.position = 'absolute';
+          dropdownDiv.style.top = (chart.plotTop + chart.plotHeight - 125) + 'px'; // Unterste Ecke der Grafik
+          dropdownDiv.style.left = (chart.plotLeft + chart.plotWidth - 371) + 'px'; // Rechte Seite der Grafik
+          dropdownDiv.style.padding = '5px';
+          dropdownDiv.style.border = '1px solid #ccc';
+          dropdownDiv.style.background = '#fff';
 
-          this.series[0].points.forEach(point => {
+          const uniqueYears = getUniqueYears(this.series[0].points);
+          const defaultYear = uniqueYears.length > 0 ? uniqueYears[uniqueYears.length - 1] : null;
 
-            if (point.name == 'Alle Spitäler') {
-              point.update({
-                marker: {
-                  symbol: 'square',
-                  radius: 7,
-                  enabled: true,
-                  states: {
-                    hover: {
-                      enabled: true,
-                      symbol: 'square',
-                    }
-                  }
-                }
-              });
-            }
+          const select = document.createElement('select');
+
+          uniqueYears.forEach(year => {
+            select.appendChild(new Option(year, year));
           });
+
+          select.value = defaultYear;
+
+          select.addEventListener('change', function () {
+            const selectedYear = select.value;
+            chart.series[0].points.forEach(point => {
+              point.setVisible(selectedYear === 'all' || point.year === parseInt(selectedYear), false);
+            });
+          });
+
+          dropdownDiv.appendChild(select);
+          document.body.appendChild(dropdownDiv);
+
+          // Standardmäßig das letzte Jahr auswählen
+          select.dispatchEvent(new Event('change'));
         }
     },
     "renderTo": "container-11185"
@@ -165,7 +534,7 @@
     "text": "Schweregrad und Komplexität "
   },
   "subtitle": {
-    "text": "CMI und PCCL der Baselstädtischen-Spitäler 2022",
+    "text": "CMI und PCCL der Baselstädtischen-Spitäler von 2018 bis 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -222,15 +591,13 @@
   ],
   "legend": {
     "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemDistance": 8,
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,

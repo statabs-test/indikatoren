@@ -1,29 +1,55 @@
 (function () {
+  // Funktion zum Erstellen eines Arrays von Jahren aus dem Datensatz
+  function getUniqueYears(points) {
+    const years = [];
+    points.forEach(point => {
+      const year = point.year; // Jahre aus Datensatz nehmen
+      if (!years.includes(year)) {
+        years.push(year);
+      }
+    });
+    return years.sort(); // Jahre aufsteigend sortieren
+  }
+
   return {
     chart: {
       type: "scatter",
       zoomType: 'xy',
       events: {
         load: function () {
+          const chart = this;
+          const dropdownDiv = document.createElement('div');
+          dropdownDiv.id = 'yearDropdown';
+          dropdownDiv.style.position = 'absolute';
+          dropdownDiv.style.top = (chart.plotTop + chart.plotHeight - 125) + 'px'; // Unterste Ecke der Grafik
+          dropdownDiv.style.left = (chart.plotLeft + chart.plotWidth - 371) + 'px'; // Rechte Seite der Grafik
+          dropdownDiv.style.padding = '5px';
+          dropdownDiv.style.border = '1px solid #ccc';
+          dropdownDiv.style.background = '#fff';
 
-          this.series[0].points.forEach(point => {
+          const uniqueYears = getUniqueYears(this.series[0].points);
+          const defaultYear = uniqueYears.length > 0 ? uniqueYears[uniqueYears.length - 1] : null;
 
-            if (point.name == 'Alle Spitäler') {
-              point.update({
-                marker: {
-                  symbol: 'square',
-                  radius: 7,
-                  enabled: true,
-                  states: {
-                    hover: {
-                      enabled: true,
-                      symbol: 'square',
-                    }
-                  }
-                }
-              });
-            }
+          const select = document.createElement('select');
+
+          uniqueYears.forEach(year => {
+            select.appendChild(new Option(year, year));
           });
+
+          select.value = defaultYear;
+
+          select.addEventListener('change', function () {
+            const selectedYear = select.value;
+            chart.series[0].points.forEach(point => {
+              point.setVisible(selectedYear === 'all' || point.year === parseInt(selectedYear), false);
+            });
+          });
+
+          dropdownDiv.appendChild(select);
+          document.body.appendChild(dropdownDiv);
+
+          // Standardmäßig das letzte Jahr auswählen
+          select.dispatchEvent(new Event('change'));
         }
       }
     },
@@ -64,16 +90,11 @@
       }
     },
     legend: {
-      itemDistance: 8,
       enabled: false,
-      layout: "horizontal",
-      verticalAlign: "top",
-      itemMarginBottom: 5,
-      align: "left"
     },
     data: {
       seriesMapping: [
-        { name: 0, name_short: 1, x: 3, y: 2, color: 4 }
+        { year: 0, name: 1, name_short: 2, x: 4, y: 3, color: 5 }
       ],
     },
     tooltip: {
