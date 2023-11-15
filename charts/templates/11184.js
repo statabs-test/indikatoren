@@ -39,12 +39,12 @@
           // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
           return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
         },
-        distance: -57,
+        distance: -65,
         style: {
           color: 'black',
           textOutline: "0px black",
           fontWeight: "normal",
-          fontSize: "10px"
+          fontSize: "12px"
         }
       },
       showInLegend: false,
@@ -80,7 +80,7 @@
           color: 'black',
           textOutline: "0px black",
           fontWeight: "normal",
-          fontSize: "10px"
+          fontSize: "12px"
         }
       },
       showInLegend: true,

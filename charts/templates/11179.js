@@ -1,11 +1,11 @@
 (function () {
   return {
-    "yAxis": [
+    yAxis: [
       {
         min: 0,
         tickAmount: 7,
-        "labels": {
-          "formatter": function () {
+        labels: {
+          formatter: function () {
             return Highcharts.numberFormat((this.value), 1) + '';
           }
         },
@@ -39,10 +39,20 @@
     legend: {
       itemDistance: 8,
       enabled: true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left"
+      layout: "horizontal",
+      verticalAlign: "top",
+      itemMarginBottom: 5,
+      align: "left",
+      labelFormatter: function () {
+        // Legende manuell beschriften
+        if (this.index === 0) {
+          return 'Kosten Kanton (in Mio. CHF, linke Skala)';
+        } else if (this.index === 1) {
+          return 'Kosten Stadt Basel (in Mio. CHF, linke Skala)';
+        } else if (this.index === 2) {
+          return 'Durchschnittsbeitrag pro Tag (in CHF, rechte Skala)';
+        }
+      }
     },
     "series": [
       {
@@ -61,23 +71,23 @@
         "yAxis": 1
       }
     ],
-    "tooltip": {
-      "pointFormatter": function () {
+    tooltip: {
+      pointFormatter: function () {
         return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
       },
-      "shared": false
+      shared: false
     },
     "chart": {
       //"marginTop": 120
     },
-    "plotOptions": {
-      "series": {
-        "marker": {
-          "enabled": false,
-          "symbol": "circle"
+    plotOptions: {
+      series: {
+        marker: {
+          enabled: false,
+          symbol: "circle"
         },
-        "dataLabels": {
-          "enabled": false
+        dataLabels: {
+          enabled: false
         }
       }
     }

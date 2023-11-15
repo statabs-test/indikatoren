@@ -27,11 +27,11 @@
         }
       }
     },
-    "yAxis": [
+    yAxis: [
       {
         tickAmount: 7,
         labels: {
-          "formatter": function () {
+          formatter: function () {
             return Highcharts.numberFormat((this.value), 1);
           }
         },
@@ -44,7 +44,7 @@
         },
       }
     ],
-    "xAxis": {
+    xAxis: {
       title: {
         text: "PCCL"
       },
@@ -68,12 +68,12 @@
       enabled: false,
       layout: "horizontal",
       verticalAlign: "top",
-      "itemMarginBottom": 5,
-      "align": "left"
+      itemMarginBottom: 5,
+      align: "left"
     },
     data: {
       seriesMapping: [
-        { name: 0, name_short:1, x: 3, y: 2, color: 4 }
+        { name: 0, name_short: 1, x: 3, y: 2, color: 4 }
       ],
     },
     tooltip: {

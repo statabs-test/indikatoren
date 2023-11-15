@@ -4,12 +4,13 @@
       type: "column",
     },
     plotOptions: {
-      //area: {
-      column: {
-        stacking: 'normal',
-      },
-      line: {
-        lineWidth: 3,
+      series: {
+        dataLabels: {
+          style: {
+            fontSize: "10px"
+          }
+        },
+        stacking: "normal",
       }
     },
     series: [
@@ -35,8 +36,12 @@
     yAxis: {
       reversedStacks: true,
     },
+
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+    },
+
     legend: {
-      //    itemWidth: 150,
       enabled: true,
       layout: "horizontal",
       verticalAlign: "top",

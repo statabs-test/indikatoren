@@ -230,7 +230,17 @@
       "fontWeight": "normal"
     },
     "itemDistance": 8,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        // Legende manuell beschriften
+        if (this.index === 0) {
+          return 'Kosten Kanton (in Mio. CHF, linke Skala)';
+        } else if (this.index === 1) {
+          return 'Kosten Stadt Basel (in Mio. CHF, linke Skala)';
+        } else if (this.index === 2) {
+          return 'Durchschnittsbeitrag pro Tag (in CHF, rechte Skala)';
+        }
+      }
   },
   "credits": {
     "enabled": true,

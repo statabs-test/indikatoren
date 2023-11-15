@@ -49,8 +49,8 @@
     },
     {
       type: 'line',
-      color: '#246370',
-      lineWidth: 2,
+      color: '#083038',
+      lineWidth: 3,
     }
   ]
 	}
