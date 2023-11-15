@@ -2236,6 +2236,7 @@ id | visible | visibleInPortal | indikatorenset
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
+9737 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
