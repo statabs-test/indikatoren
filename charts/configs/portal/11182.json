@@ -190,9 +190,6 @@
       "marker": {
         "enabled": false,
         "symbol": "circle"
-      },
-      "dataLabels": {
-        "enabled": false
       }
     }
   },

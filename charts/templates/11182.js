@@ -50,9 +50,17 @@
           "enabled": false,
           "symbol": "circle"
         },
+        /*
         "dataLabels": {
-          "enabled": false
+          "enabled": true,
+          formatter: function () {
+            return Highcharts.numberFormat(this.y, 2);
+          },
+          style: {
+            fontSize: "9px"
+          }
         }
+        */
       }
     }
   }

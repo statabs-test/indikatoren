@@ -454,7 +454,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Durchschnittliche, stationäre Aufenthaltsdauer von baselstädtischen Patienten",
 		"subtitle": "in Tagen in Basler Spitälern in den Jahren 2012 bis 2022 (ohne Langzeitpflegefälle)",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Im Jahr 2022 verbrachte ein Patient der Psychiatrie, mit Wohnort im Kanton Basel-Stadt, durchschnittlich 32,2 Tage.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -490,8 +490,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Entwicklung und Verteilung der stationären Spitalaustritte",
-		"subtitle": "Baselstädtischen Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2021",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Baselstädtischen Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2022",
+		"lesehilfe": "Von den 43 834 stationären Austritten, von Person mit Wohnort im Kanton Basel-Stadt, erfolgten 38 796 aus einem Basler Spital",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -526,10 +526,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Prozentuale Verteilung der Fallzahl und des Case Mix über die fünf häufigsten stationären, akutsomatischen, nach SwissDRG abgerechneten Spitalbehandlungen (inklusive Akutgeriatrie)",
-		"subtitle": "nach Leistungsbereichen im Jahr 2021. Baselstädtische Patienten in Basler Spitälern",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"title": "Prozentuale Verteilung der Fallzahlen und des Case Mix",
+		"subtitle": "nach Leistungsbereichen im Jahr 2022.",
+		"lesehilfe": "Im Jahr 2022 betrafen 44,8% der Aufenthalte in baselstädtischen Spitälern Grundleistungen oder Notfälle der Chirurgie und inneren Medizin («Basispaket Chirurgie und innere Medizin»).",
+		"erlaeuterungen": "Fünf häufigste stationäre, akutsomatische, nach SwissDRG abgerechnete Spitalbehandlungen (inklusive Akutgeriatrie).<br>Baselstädtische Patienten in Basler Spitälern.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -538,10 +538,10 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Prozentuale Verteilung der Fallzahl und des Case Mix über die fünf häufigsten stationären, akutsomatischen, nach SwissDRG abgerechneten Spitalbehandlungen (inklusive Akutgeriatrie)",
+		"description": "Prozentuale Verteilung der Fallzahlen und des Case Mix",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.11184",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -564,9 +564,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Schweregrad und Komplexität",
-		"subtitle": "CMI gegen PCCL der Baselstädtischen-Spitäler 2022",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"subtitle": "CMI und PCCL der Baselstädtischen-Spitäler 2022",
+		"lesehilfe": "Im Jahr 2022 betrug der Case-Mix-Index (CMI) aller Spitäler 1,26 und der PCCL 0,93.",
+		"erlaeuterungen": "Der Case-Mix-Index (CMI) bildet das durchschnittliche Kostengewicht ab. Er stellt die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen sowie materiellen Ressourcenverbrauch (ökonomischen Schweregrad) bzw. Behandlungsaufwand dar.<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad ergibt sich aus der Kumulation der relevanten Nebendiagnosen. Dabei werden die einzelnen Komplikations- und / oder Komorbiditätswerte (CC; auch Begleiterkrankungen resp. Nebendiagnosen) gemäss SwissDRG-Katalog in<br>einen Schweregrad von 0 bis 4 eingeteilt, wobei 0 für keine und 4 für eine äusserst schwere Komplikation oder Komorbidität bzw. Nebendiagnose steht. Somit ist der PCCL ein Mass für die Multimorbidität der stationär behandelten Patientinnen und Patienten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],

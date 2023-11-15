@@ -1,4 +1,3 @@
-/*global $*/
 (function () {
   return {
     plotOptions: {
@@ -36,13 +35,16 @@
       },
       dataLabels: {
         enabled: true,
-        format: '{point.percentage:.1f}%',
+        formatter: function () {
+          // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
+          return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
+        },
         distance: -57,
         style: {
           color: 'black',
           textOutline: "0px black",
           fontWeight: "normal",
-          fontSize: "12px"
+          fontSize: "10px"
         }
       },
       showInLegend: false,
@@ -78,7 +80,7 @@
           color: 'black',
           textOutline: "0px black",
           fontWeight: "normal",
-          fontSize: "12px"
+          fontSize: "10px"
         }
       },
       showInLegend: true,

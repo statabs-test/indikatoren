@@ -5,81 +5,82 @@
         {
           "x": 1.11,
           "name": "Adullam Spital",
+          "name_short": "Adullam",
           "y": 1.58,
-          "color": "#ff8028",
-          "symbol": "'circle'"
+          "color": "#ff8028"
         },
         {
           "x": 0.2,
           "name": "Bethesda Spital",
+          "name_short": "Bethesda",
           "y": 0.68,
-          "color": "#67401e",
-          "symbol": "'circle'"
+          "color": "#67401e"
         },
         {
           "x": 1.85,
           "name": "Felix Platter-Spital",
+          "name_short": "Felix Platter",
           "y": 1.54,
-          "color": "#3366ff",
-          "symbol": "'circle'"
+          "color": "#3366ff"
         },
         {
           "x": 0.04,
           "name": "Matthea Geburtshaus",
+          "name_short": "Matthea",
           "y": 0.35,
-          "color": "#fabd24",
-          "symbol": "'circle'"
+          "color": "#fabd24"
         },
         {
           "x": 0.19,
           "name": "Merian Iselin Klinik",
+          "name_short": "Merian Iselin",
           "y": 1.04,
-          "color": "#cd9c00",
-          "symbol": "'circle'"
+          "color": "#cd9c00"
         },
         {
           "x": 1.81,
           "name": "Palliativzentrum Hildegard",
+          "name_short": "Hildegard",
           "y": 2.37,
-          "color": "#007a2f",
-          "symbol": "'circle'"
+          "color": "#007a2f"
         },
         {
           "x": 0.38,
           "name": "Schmerzklinik Basel",
+          "name_short": "Schmerzklinik",
           "y": 1.56,
-          "color": "#73b97c",
-          "symbol": "'circle'"
+          "color": "#73b97c"
         },
         {
           "x": 0.96,
           "name": "St. Claraspital",
+          "name_short": "St. Claraspital",
           "y": 1.04,
-          "color": "#e7cee2",
-          "symbol": "'circle'"
+          "color": "#e7cee2"
         },
         {
           "x": 0.38,
-          "name": "UKBB",
+          "name": "Universitäts-Kinderspital beider Basel",
+          "name_short": "UKBB",
           "y": 1.22,
-          "color": "#662673",
-          "symbol": "'circle'"
+          "color": "#662673"
         },
         {
           "x": 1.16,
-          "name": "UBS",
+          "name": "Universitätsspital Basel",
+          "name_short": "UBS",
           "y": 1.31,
-          "color": "#EAB9CE",
-          "symbol": "'circle'"
+          "color": "#EAB9CE"
         },
         {
           "x": 0.93,
           "name": "Alle Spitäler",
+          "name_short": "Alle",
           "y": 1.26,
-          "color": "#010101",
-          "symbol": "'square'"
+          "color": "#010101"
         }
-      ]
+      ],
+      "name": "Spitalname lang"
     }
   ],
   "chart": {
@@ -97,19 +98,26 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          this.series[0].points.forEach(point => {
+
+            if (point.name == 'Alle Spitäler') {
+              point.update({
+                marker: {
+                  symbol: 'square',
+                  radius: 7,
+                  enabled: true,
+                  states: {
+                    hover: {
+                      enabled: true,
+                      symbol: 'square',
+                    }
+                  }
+                }
+              });
+            }
+          });
+        }
     },
     "renderTo": "container-11185"
   },
@@ -117,12 +125,28 @@
     "series": {
       "marker": {
         "enabled": false
+      },
+      "dataLabels": {
+        "enabled": true,
+        "align": "left",
+        "verticalAlign": "top",
+        "allowOverlap": true,
+        "crop": false,
+        "format": "{point.name_short}",
+        "style": {
+          "fontWeight": "normal",
+          "fontSize": "7pt",
+          "color": "#555",
+          "textOverflow": "clip",
+          "textOutline": "none"
+        }
       }
     },
     "scatter": {
       "marker": {
         "radius": 6,
         "enabled": true,
+        "symbol": "circle",
         "states": {
           "hover": {
             "enabled": true
@@ -141,7 +165,7 @@
     "text": "Schweregrad und Komplexität "
   },
   "subtitle": {
-    "text": "CMI gegen PCCL der Baselstädtischen-Spitäler 2022",
+    "text": "CMI und PCCL der Baselstädtischen-Spitäler 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -173,7 +197,8 @@
     "endOnTick": true,
     "showLastLabel": true,
     "gridLineWidth": 1,
-    "tickAmount": 7,
+    "tickAmount": 6,
+    "min": 0,
     "style": {
       "color": "black"
     }
@@ -257,7 +282,10 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cb\u003E{point.name}\u003C\u002Fb\u003E \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E PCCL: {point.x} \u003Cbr\u002F\u003E CMI: {point.y}"
+    "useHTML": true,
+    "formatter": function () {
+        return '<b>' + this.point.name + '</b> <br/><br/> CMI: ' + Highcharts.numberFormat(this.y, 2) + '<br/> PCCL: ' + Highcharts.numberFormat(this.x, 2);
+      }
   },
   "exporting": {
     "filename": "11185"
