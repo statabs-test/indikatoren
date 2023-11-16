@@ -203,7 +203,7 @@
     "text": "Durchschnittliche, stationäre Aufenthaltsdauer von baselstädtischen Patienten "
   },
   "subtitle": {
-    "text": "in Tagen in Basler Spitälern in den Jahren 2012 bis 2022 (ohne Langzeitpflegefälle)",
+    "text": "der Jahre 2012 bis 2022 (ohne Langzeitpflegefälle) in Basler Spitälern",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -314,7 +314,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 2) + '</b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
       },
     "shared": false
   },

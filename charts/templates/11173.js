@@ -52,7 +52,7 @@ xAxis: {
   },
   {
     "index": 1,
-    color: "#010101",
+    color: "#007a2f",
     yAxis: 1,
   }
 ],

@@ -156,7 +156,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und der Pflegestufen-Durchschnitt",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2022 entfielen 9,7% der Pflegetage auf die Pflegestufe 2. Der Durchschnitt lag in diesem Jahr bei 6,4.",
+		"lesehilfe": "Im Jahr 2022 entfielen 9,7% der Pflegetage auf die Pflegestufe 2. Die durchschnittliche Pflegestufe stieg von 5,8 im Jahr 2017 auf 6,4 im Jahr 2022.",
 		"erlaeuterungen": "Pflegestufen gemäss Art. 7a Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -268,7 +268,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Pflegebedürftige und erbrachte Pflegeleistungen",
-		"subtitle": "durch Angehörige oder andere nahestehenden Personen",
+		"subtitle": "durch Angehörige oder andere nahestehende Personen",
 		"lesehilfe": "Im Jahr 2022 betrug die Anzahl Pflegebedürftige 287.",
 		"erlaeuterungen": "Nur Stadt Basel",
 		"quellenangabe": [
@@ -343,7 +343,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "in Mio. CHF",
-		"lesehilfe": "Im Jahr 2022 stammten 2 Mio. CHF der Finanzierung für die Tages- und Nachtpflegeeinrichtungen aus dem Kanton und der Gemeinde.",
+		"lesehilfe": "Im Jahr 2022 stammten 2 Mio. CHF der Finanzierung für die Tages- und Nachtpflegeeinrichtungen aus Kanton und Gemeinde.",
 		"erlaeuterungen": "Beispieltext",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -453,9 +453,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Durchschnittliche, stationäre Aufenthaltsdauer von baselstädtischen Patienten",
-		"subtitle": "in Tagen in Basler Spitälern in den Jahren 2012 bis 2022 (ohne Langzeitpflegefälle)",
+		"subtitle": "der Jahre 2012 bis 2022 (ohne Langzeitpflegefälle) in Basler Spitälern",
 		"lesehilfe": "Im Jahr 2022 verbrachte ein Patient der Psychiatrie, mit Wohnort im Kanton Basel-Stadt, durchschnittlich 32,2 Tage.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "in Tagen",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -490,7 +490,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Entwicklung und Verteilung der stationären Spitalaustritte",
-		"subtitle": "Baselstädtischen Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2022",
+		"subtitle": "Baselstädtische Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2022",
 		"lesehilfe": "Von den 43 834 stationären Austritten, von Person mit Wohnort im Kanton Basel-Stadt, erfolgten 38 796 aus einem Basler Spital",
 		"erlaeuterungen": "",
 		"quellenangabe": [
