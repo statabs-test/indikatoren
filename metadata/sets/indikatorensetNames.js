@@ -1,8 +1,8 @@
 var indikatorensetNames = [
 	"Wirtschaftsbericht BS_BL_JU",
+	"Legislaturplan",
 	"Arbeitsmarkt",
 	"Nachhaltigkeit",
-	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Soziales",
 	"Umwelt",

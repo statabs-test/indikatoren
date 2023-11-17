@@ -2264,3 +2264,4 @@ id | visible | visibleInPortal | indikatorenset
 10028 | true | false | Wirtschaftsbericht BS_BL_JU
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
+11788 | true | false | Legislaturplan
