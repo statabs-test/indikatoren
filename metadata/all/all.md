@@ -2278,3 +2278,4 @@ id | visible | visibleInPortal | indikatorenset
 10051 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
+11180 | true | true | Gesundheitsversorgung
