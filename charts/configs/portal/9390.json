@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#007a2f",
       "data": [
         [
           1961,
@@ -255,8 +255,7 @@
       "name": "Hitzetage"
     },
     {
-      "color": "#b375ab",
-      "visible": true,
+      "color": "#2f656b",
       "data": [
         [
           1961,
@@ -508,13 +507,276 @@
         ]
       ],
       "name": "Tropennächte"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          1961,
+          undefined
+        ],
+        [
+          1962,
+          undefined
+        ],
+        [
+          1963,
+          undefined
+        ],
+        [
+          1964,
+          undefined
+        ],
+        [
+          1965,
+          undefined
+        ],
+        [
+          1966,
+          undefined
+        ],
+        [
+          1967,
+          undefined
+        ],
+        [
+          1968,
+          undefined
+        ],
+        [
+          1969,
+          undefined
+        ],
+        [
+          1970,
+          undefined
+        ],
+        [
+          1971,
+          undefined
+        ],
+        [
+          1972,
+          undefined
+        ],
+        [
+          1973,
+          undefined
+        ],
+        [
+          1974,
+          undefined
+        ],
+        [
+          1975,
+          undefined
+        ],
+        [
+          1976,
+          undefined
+        ],
+        [
+          1977,
+          undefined
+        ],
+        [
+          1978,
+          undefined
+        ],
+        [
+          1979,
+          undefined
+        ],
+        [
+          1980,
+          undefined
+        ],
+        [
+          1981,
+          undefined
+        ],
+        [
+          1982,
+          undefined
+        ],
+        [
+          1983,
+          undefined
+        ],
+        [
+          1984,
+          undefined
+        ],
+        [
+          1985,
+          undefined
+        ],
+        [
+          1986,
+          undefined
+        ],
+        [
+          1987,
+          undefined
+        ],
+        [
+          1988,
+          undefined
+        ],
+        [
+          1989,
+          undefined
+        ],
+        [
+          1990,
+          undefined
+        ],
+        [
+          1991,
+          undefined
+        ],
+        [
+          1992,
+          undefined
+        ],
+        [
+          1993,
+          undefined
+        ],
+        [
+          1994,
+          undefined
+        ],
+        [
+          1995,
+          undefined
+        ],
+        [
+          1996,
+          undefined
+        ],
+        [
+          1997,
+          undefined
+        ],
+        [
+          1998,
+          undefined
+        ],
+        [
+          1999,
+          undefined
+        ],
+        [
+          2000,
+          undefined
+        ],
+        [
+          2001,
+          undefined
+        ],
+        [
+          2002,
+          undefined
+        ],
+        [
+          2003,
+          undefined
+        ],
+        [
+          2004,
+          undefined
+        ],
+        [
+          2005,
+          undefined
+        ],
+        [
+          2006,
+          undefined
+        ],
+        [
+          2007,
+          undefined
+        ],
+        [
+          2008,
+          undefined
+        ],
+        [
+          2009,
+          undefined
+        ],
+        [
+          2010,
+          undefined
+        ],
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          undefined
+        ],
+        [
+          2019,
+          undefined
+        ],
+        [
+          2020,
+          undefined
+        ],
+        [
+          2021,
+          undefined
+        ],
+        [
+          2022,
+          null
+        ]
+      ],
+      "name": "undefined"
+    },
+    {
+      "color": "#990300"
+    },
+    {
+      "color": "#73b97c"
+    },
+    {
+      "color": "#fabd24"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 85,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -563,10 +825,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Hitzetage und Tropennächte"
+    "text": "Tropennächte"
   },
   "subtitle": {
-    "text": "Anzahl Tage, Basel-Stadt",
+    "text": "Anzahl Nächte, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -589,8 +851,7 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickInterval": 5
+    }
   },
   "yAxis": {
     "min": 0,
@@ -609,7 +870,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10
   },
   "legend": {
     "enabled": true,
@@ -620,7 +882,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 3
   },
   "credits": {
     "enabled": true,
@@ -633,9 +895,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -55
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EBundesamt für Umwelt (BAFU), Nationales Beobachtungsnetz für Luftfremdstoffe (NABEL).\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003ELufthygieneamt beider Basel;\u003Cbr\u002F\u003EMeteorologischer Verein der Region Basel;\u003Cbr\u002F\u003EMeteoSchweiz.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
