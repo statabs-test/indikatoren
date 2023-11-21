@@ -170,7 +170,7 @@
 		"children": [],
 		"title": "Jugendliche ausserhalb des Bildungssystems",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "Der Anteil der Jugendlichen ausserhalb des Bildungssystems, welche höchstens die obligatorische Schule abgeschlossen haben, betrug in Basel-Stadt im Mittel der Jahre 2019 bis 2021 9,9%. Das 95%-Konfidenzintervall dieses Anteils liegt zwischen 7,9% und 11,8%. Somit ist der Anteil Jugendlicher ausserhalb des Bildungssystems in Basel-Stadt signifikant höher als der durchschnittliche Anteil in der Schweiz (6,3%, 95%-Konfidenzintervall: 6,1% - 6,5%).",
+		"lesehilfe": "Der Anteil der Jugendlichen ausserhalb des Bildungssystems betrug in Basel-Stadt im Mittel der Jahre 2019 bis 2021 9,9%. Das 95%-Konfidenzintervall dieses Anteils liegt zwischen 7,9% und 11,8%. Somit ist der Anteil Jugendlicher ausserhalb des Bildungssystems in Basel-Stadt signifikant höher als der durchschnittliche Anteil in der Schweiz (6,3%, 95%-Konfidenzintervall: 6,1% - 6,5%).",
 		"erlaeuterungen": "Anteil der Personen an der Wohnbevölkerung zwischen 18 und 24 Jahren welche höchstens die obligatorische Schule abgeschlossen haben. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall kann interpretiert werden als den Bereich, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten aus jeweils drei Jahren zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Somit liegt ein methodischer Bruch innerhalb des Betrachtungszeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -330,7 +330,7 @@
 		"children": [],
 		"title": "Anteil Primärsprachen",
 		"subtitle": "Häufigste Fremdsprachen im Kanton Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt gaben im Mittel der Jahre 2010 bis 2012 7,7% der Bevölkerung Englisch als ihre Primärsprache an. Das Konfidenzintervall dieses Anteils liegt zwischen 7,2% und 8,1%.",
+		"lesehilfe": "In Basel-Stadt gaben im Mittel der Jahre 2019 bis 2021 12,1% der Bevölkerung Englisch als ihre Primärsprache an. Das Konfidenzintervall dieses Anteils liegt zwischen 11,5% und 12,6%. Im Zeitraum von 2010 bis 2021 beobachten wir eine signifikante Zunahme der englischsprachigen Bevölkerung.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Dies führt dazu, dass sich die Prozentzahlen auf über 100% addieren können. Dargestellt sind die acht häufigsten Sprachen ausser Deutsch. Die Daten stammen aus der Strukturerhebung des Bundesamtes für Statistik. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Die Daten von jeweils drei Jahren werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -722,6 +722,46 @@
 		"chart-id": 6163,
 		"filter": "",
 		"id": 10052
+	},
+	{
+		"template": "template001",
+		"data-id": 10054,
+		"chart-id": 10054,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Biotopwert Wald",
+		"subtitle": "Anzahl Kontrollstichproben nach Biotopwert-Klasse, Basel-Stadt",
+		"lesehilfe": "Von den 429 Kontrollstichproben welche im Jahr 2017 durchgeführt wurden wiesen 133 einen hohen Biotopwert auf. Nur eine Stichprobenfläche lag in der tiefsten Biotopwertklasse.",
+		"erlaeuterungen": "Der Biotopwert umschreibt die ökologische Bedeutung eines Baumbestandes anhand der drei Hauptkriterien Baumartenvielfalt, Strukturvielfalt (Entwicklungsstufe, Schichtung, Schlussgrad) und Naturnähe des Bestandes. Er ist eine ökologische Masszahl zur Beurteilung von Wäldern als Lebensraum für einheimische Tier- und Pflanzenarten. Ein Wald mit einem hohen Biotopwert zeichnet sich wie folgt aus: Es ist eine grosse Anzahl an Baumarten anzutreffen; Auch ökologisch besonders wertvolle Arten wie beispielsweise Weiden oder Eichen sind nachzuweisen; Der Bestand ist mehrschichtig aufgebaut, ist lückig und weist einen Anteil an Altholz auf; Der Nadelholzanteil, insbesondere der Fichtenanteil, überschreitet einen der Pflanzengesellschaft angepassten Anteil nicht. Die Bewertung erfolgt gemäss Biotopwert-Modell der Forschungsanstalt für Wald, Schnee und Landschaft (Brändli, 2001). Eine Kontrollstichprobe umfasst eine Aufnahmefläche von 3 Aren.",
+		"quellenangabe": [
+			"Amt für Wald beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a>im Umweltbericht beider Basel"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Biotopwert Wald",
+		"thema": "07 Landwirtschaft",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "3.3.2",
+		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-09-27T01:42:13",
+		"id": 10054
 	},
 	{
 		"parentId": 4849,

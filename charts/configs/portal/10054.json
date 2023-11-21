@@ -1,1 +1,278 @@
-﻿{"id":10054,"template":"template001","data-id":10054,"chart-id":10054,"filter":"","parentId":null,"children":[],"title":"Biotopwert Wald","subtitle":"Anzahl Kontrollstichproben nach Biotopwert-Klasse, Basel-Stadt","lesehilfe":"Von den 429 Kontrollstichproben welche im Jahr 2017 durchgeführt wurden wiesen 133 einen hohen Biotopwert auf. Nur eine Stichprobenfläche lag in der tiefsten Biotopwertklasse.","erlaeuterungen":"Der Biotopwert umschreibt die ökologische Bedeutung eines Baumbestandes anhand der drei Hauptkriterien Baumartenvielfalt, Strukturvielfalt (Entwicklungsstufe, Schichtung, Schlussgrad) und Naturnähe des Bestandes. Er ist eine ökologische Masszahl zur Beurteilung von Wäldern als Lebensraum für einheimische Tier- und Pflanzenarten. Ein Wald mit einem hohen Biotopwert zeichnet sich wie folgt aus: Es ist eine grosse Anzahl an Baumarten anzutreffen; Auch ökologisch besonders wertvolle Arten wie beispielsweise Weiden oder Eichen sind nachzuweisen; Der Bestand ist mehrschichtig aufgebaut, ist lückig und weist einen Anteil an Altholz auf; Der Nadelholzanteil, insbesondere der Fichtenanteil, überschreitet einen der Pflanzengesellschaft angepassten Anteil nicht. Die Bewertung erfolgt gemäss Biotopwert-Modell der Forschungsanstalt für Wald, Schnee und Landschaft (Brändli, 2001). Eine Kontrollstichprobe umfasst eine Aufnahmefläche von 3 Aren.","quellenangabe":["Amt für Wald beider Basel"],"externalLinks":["Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a>im Umweltbericht beider Basel"],"renderLink":[],"raeumlicheGliederung":["Kanton"],"description":"Biotopwert Wald","thema":"07 Landwirtschaft","unterthema":"","kuerzel":"","kennzahlenset":"CMS Kennzahlen Soziales","kuerzelKunde":"3.3.2","stufe1":"Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken","stufe2":"","stufe3":"","stufe4":"","stufe5":"","orderKey":"05_00_00_00_00_000","darstellungsart":"Diagramm","printformat":"","visible":true,"visibleInPortal":true,"datenInChartIntegriert":false,"aktualisierungsdatum":"2023-09-27T01:42:13"}
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "index": 15,
+      "data": [
+        [
+          "2002",
+          9
+        ],
+        [
+          "2017",
+          1
+        ]
+      ],
+      "name": "Tief",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 14,
+      "data": [
+        [
+          "2002",
+          80
+        ],
+        [
+          "2017",
+          59
+        ]
+      ],
+      "name": "Eher tief",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "index": 13,
+      "data": [
+        [
+          "2002",
+          189
+        ],
+        [
+          "2017",
+          198
+        ]
+      ],
+      "name": "Eher hoch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 12,
+      "data": [
+        [
+          "2002",
+          78
+        ],
+        [
+          "2017",
+          133
+        ]
+      ],
+      "name": "Hoch",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B6CFD7",
+      "index": 11,
+      "data": [
+        [
+          "2002",
+          37
+        ],
+        [
+          "2017",
+          38
+        ]
+      ],
+      "name": "Keine Angaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 10
+    },
+    {
+      "color": "#0A3B19",
+      "index": 9
+    },
+    {
+      "color": "#FFDA80",
+      "index": 8
+    },
+    {
+      "color": "#FFBB58",
+      "index": 7
+    },
+    {
+      "color": "#FF8028",
+      "index": 6
+    },
+    {
+      "color": "#B00000",
+      "index": 5
+    },
+    {
+      "color": "#689199",
+      "index": 4
+    },
+    {
+      "color": "#008AC3",
+      "index": 3
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2
+    },
+    {
+      "color": "#2B0099",
+      "index": 1
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 613,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-10054",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Biotopwert Wald"
+  },
+  "subtitle": {
+    "text": "Anzahl Kontrollstichproben nach Biotopwert-Klasse, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }
+    },
+    "max": 1
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "x": -1,
+    "enabled": true,
+    "layout": "horizontal",
+    "itemWidth": 1000,
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Wald beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 27.9.2023"
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "exporting": {
+    "filename": "10054"
+  }
+}
