@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#008AC3",
+      "color": "#68ab2b",
       "data": [
         [
           2011,
@@ -57,7 +57,7 @@
     },
     {
       "index": 1,
-      "color": "#990300",
+      "color": "#006400",
       "data": [
         [
           2011,
@@ -265,7 +265,7 @@
       return Highcharts.numberFormat((this.value),0)+'';
     }
     },
-    "tickAmount": 7
+    "tickAmount": 10
   },
   "legend": {
     "enabled": true,

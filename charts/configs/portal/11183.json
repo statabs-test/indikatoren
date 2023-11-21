@@ -56,7 +56,7 @@
     },
     {
       "type": "line",
-      "color": "#083038",
+      "color": "#010101",
       "visible": true,
       "lineWidth": 3,
       "legendIndex": 3,
@@ -126,7 +126,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal"
+      "stacking": "normal",
+      "borderWidth": 0
     }
   },
   "title": {

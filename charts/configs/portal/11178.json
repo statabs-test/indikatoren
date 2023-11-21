@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#007a2f",
-      "legendIndex": 3,
+      "legendIndex": 1,
       "data": [
         [
           "2011",
@@ -114,7 +114,7 @@
     },
     {
       "color": "#ffbb58",
-      "legendIndex": 1,
+      "legendIndex": 3,
       "data": [
         [
           "2011",
@@ -170,7 +170,7 @@
     },
     {
       "type": "line",
-      "color": "#246370",
+      "color": "#010101",
       "visible": true,
       "lineWidth": 3,
       "legendIndex": 4,
@@ -284,7 +284,8 @@
       }
     },
     "column": {
-      "stacking": "normal"
+      "stacking": "normal",
+      "borderWidth": 0
     },
     "line": {
       "lineWidth": 3
@@ -325,7 +326,7 @@
         "color": "#000000"
       }
     },
-    "reversedStacks": false
+    "reversedStacks": true
   },
   "legend": {
     "enabled": true,

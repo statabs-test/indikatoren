@@ -11,6 +11,7 @@
           }
         },
         stacking: "normal",
+        borderWidth: 0,
       }
     },
     series: [
@@ -24,7 +25,7 @@
       },
       {
         type: 'line',
-        color: '#083038',
+        color: '#010101',
         visible: true,
         lineWidth: 3,
         legendIndex: 3,

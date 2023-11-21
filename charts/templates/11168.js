@@ -26,15 +26,15 @@
 "series": [
   {
     "index": 0,
-    "color": "#008AC3"
+    "color": "#68ab2b"
   },
   {
     "index": 1,
-    "color": "#990300"
+    "color": "#006400"
   },
   {
     "index": 1,
-    color: "#010101",
+    color: "black",
     visible: false
   }
 ],

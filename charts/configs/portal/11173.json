@@ -250,12 +250,14 @@
   "yAxis": [
     {
       "labels": {
-        "formatter": function() {
-      return Highcharts.numberFormat((this.value),0)+'%';
-    }
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        },
+        "style": {
+          "color": "black"
+        }
       },
       "opposite": true,
-      "tickAmount": 7,
       "min": 0,
       "title": {
         "text": ""
@@ -263,9 +265,12 @@
     },
     {
       "labels": {
-        "formatter": function() {
-    return Highcharts.numberFormat(this.value, 0);
-  }
+        "formatter": function () {
+          return Highcharts.numberFormat(this.value, 0);
+        },
+        "style": {
+          "color": "black"
+        }
       },
       "tickAmount": 7,
       "min": 0,
@@ -336,13 +341,13 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function(){
-  if (this.series.yAxis.userOptions.opposite) {
-    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
-  } else {
-    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
-  }
-},
+    "pointFormatter": function () {
+        if (this.series.yAxis.userOptions.opposite) {
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
+        } else {
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
+        }
+      },
     "shared": false
   },
   "exporting": {

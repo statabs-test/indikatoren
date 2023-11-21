@@ -564,7 +564,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Schweregrad und Komplexität",
-		"subtitle": "CMI und PCCL der Baselstädtischen-Spitäler von 2018 bis 2022",
+		"subtitle": "CMI und PCCL der Baselstädtischen-Spitäler 2022",
 		"lesehilfe": "Im Jahr 2022 betrug der Case-Mix-Index (CMI) aller Spitäler 1,26 und der PCCL 0,93.",
 		"erlaeuterungen": "Der Case-Mix-Index (CMI) bildet das durchschnittliche Kostengewicht ab. Er stellt die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen sowie materiellen Ressourcenverbrauch (ökonomischen Schweregrad) bzw. Behandlungsaufwand dar.<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad ergibt sich aus der Kumulation der relevanten Nebendiagnosen. Dabei werden die einzelnen Komplikations- und / oder Komorbiditätswerte (CC; auch Begleiterkrankungen resp. Nebendiagnosen) gemäss SwissDRG-Katalog in<br>einen Schweregrad von 0 bis 4 eingeteilt, wobei 0 für keine und 4 für eine äusserst schwere Komplikation oder Komorbidität bzw. Nebendiagnose steht. Somit ist der PCCL ein Mass für die Multimorbidität der stationär behandelten Patientinnen und Patienten.",
 		"quellenangabe": [

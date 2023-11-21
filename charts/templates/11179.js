@@ -46,9 +46,9 @@
       labelFormatter: function () {
         // Legende manuell beschriften
         if (this.index === 0) {
-          return 'Kosten Kanton (in Mio. CHF, linke Skala)';
+          return 'Kosten Kanton (in Mio. CHF)';
         } else if (this.index === 1) {
-          return 'Kosten Stadt Basel (in Mio. CHF, linke Skala)';
+          return 'Kosten Stadt Basel (in Mio. CHF)';
         } else if (this.index === 2) {
           return 'Durchschnittsbeitrag pro Tag (in CHF, rechte Skala)';
         }

@@ -1,7 +1,7 @@
 (function(){
   return {
 "yAxis": {
-  tickAmount: 7,
+  tickAmount: 10,
   "labels": {
      "formatter": function(){
       return Highcharts.numberFormat((this.value),0)+'';
@@ -26,11 +26,11 @@
 "series": [
   {
     "index": 0,
-    "color": "#008AC3"
+    "color": "#68ab2b"
   },
   {
     "index": 1,
-    "color": "#990300"
+    "color": "#006400"
   },
   {
     "index": 1,

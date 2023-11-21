@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#FF8028",
+      "color": "#68ab2b",
       "data": [
         [
           2016,
@@ -35,7 +35,7 @@
       "name": "Allgemeine Pflegeheimplätze"
     },
     {
-      "color": "#DC440E",
+      "color": "#007a2f",
       "data": [
         [
           2016,
@@ -69,7 +69,7 @@
       "name": "Spezielle Wohnformen"
     },
     {
-      "color": "#B375AB",
+      "color": "#0a3b19",
       "data": [
         [
           2016,
@@ -180,7 +180,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal"
+      "stacking": "normal",
+      "borderWidth": 0
     }
   },
   "title": {

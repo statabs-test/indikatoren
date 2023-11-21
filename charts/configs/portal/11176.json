@@ -366,7 +366,8 @@
       }
     },
     "column": {
-      "stacking": "normal"
+      "stacking": "normal",
+      "borderWidth": 0
     },
     "line": {
       "lineWidth": 3

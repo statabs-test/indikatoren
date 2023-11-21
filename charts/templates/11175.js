@@ -43,16 +43,23 @@
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
+      labelFormatter: function () {
+        if (this.index === 0) {
+          return 'Anzahl Pflegebedürftige';
+        } else if (this.index === 1) {
+          return 'Erbrachte Pflegeleistungstage (rechte Skala)';
+        }
+      }
     },
     series: [
       {
         index: 0,
-        color: "#008AC3",
+        color: "#68ab2b",
         yAxis: 0, // Linke Achse
       },
       {
         index: 1,
-        color: "#990300",
+        color: "#006400",
         yAxis: 1, // Rechte Achse
       },
     ],

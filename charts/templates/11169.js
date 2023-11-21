@@ -12,6 +12,7 @@
         }
       },
       stacking: "normal",
+      borderWidth: 0,
     }
   },
   xAxis: {
@@ -39,13 +40,13 @@
   },
   series: [
     {
-      color:  "#FF8028"
+      color:  "#68ab2b"
     },
 	  {
-      color:  "#DC440E"
+      color:  "#007a2f"
     },
     {
-      color: "#B375AB"
+      color: "#0a3b19"
     },
     {
       type: 'line',

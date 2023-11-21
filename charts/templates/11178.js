@@ -9,6 +9,7 @@
       column: {
         stacking: 'normal',
         //lineWidth: 0,
+        borderWidth:0,
       },
       line: {
         lineWidth: 3,
@@ -17,7 +18,7 @@
     series: [
       {
         "color": "#007a2f",
-        legendIndex: 3,
+        legendIndex: 1,
       },
       {
         "color": "#68ab2b",
@@ -25,11 +26,11 @@
       },
       {
         "color": "#ffbb58",
-        legendIndex: 1,
+        legendIndex: 3,
       },
       {
         type: 'line',
-        color: '#246370',
+        color: '#010101',
         visible: true,
         lineWidth: 3,
         legendIndex: 4,
@@ -39,7 +40,7 @@
       type: "category"
     },
     yAxis: {
-      reversedStacks: false,
+      reversedStacks: true,
     },
     legend: {
       //    itemWidth: 150,

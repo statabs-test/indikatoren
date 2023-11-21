@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#008AC3",
+      "color": "#68ab2b",
       "yAxis": 0,
       "data": [
         [
@@ -34,11 +34,11 @@
           287
         ]
       ],
-      "name": "Anzahl Pflegebedürftige (Linke Skala)"
+      "name": "Anzahl Pflegebedürftige"
     },
     {
       "index": 1,
-      "color": "#990300",
+      "color": "#006400",
       "yAxis": 1,
       "data": [
         [
@@ -70,7 +70,7 @@
           74287
         ]
       ],
-      "name": "Erbrachte Pflegeleistungstage (Rechte Skala)"
+      "name": "Erbrachte Pflegeleistungstage"
     }
   ],
   "chart": {
@@ -194,7 +194,14 @@
       "fontWeight": "normal"
     },
     "itemDistance": 8,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        if (this.index === 0) {
+          return 'Anzahl Pflegebedürftige';
+        } else if (this.index === 1) {
+          return 'Erbrachte Pflegeleistungstage (rechte Skala)';
+        }
+      }
   },
   "credits": {
     "enabled": true,

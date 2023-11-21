@@ -9,6 +9,7 @@
       column: {
         stacking: 'normal',
         //lineWidth: 0,
+        borderWidth: 0,
       },
       line: {
         lineWidth: 3,
