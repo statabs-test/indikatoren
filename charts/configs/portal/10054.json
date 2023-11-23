@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#E7CEE2",
-      "index": 15,
+      "color": "#FF8028",
+      "index": 14,
       "data": [
         [
           "2002",
@@ -17,8 +17,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923F8D",
-      "index": 14,
+      "color": "#FFBB58",
+      "index": 13,
       "data": [
         [
           "2002",
@@ -33,8 +33,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
-      "index": 13,
+      "color": "#E7CEE2",
+      "index": 3,
       "data": [
         [
           "2002",
@@ -49,8 +49,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
-      "index": 12,
+      "color": "#672773",
+      "index": 2,
       "data": [
         [
           "2002",
@@ -65,8 +65,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B6CFD7",
-      "index": 11,
+      "color": "#8a8a8a",
+      "index": 1,
       "data": [
         [
           "2002",
@@ -79,50 +79,6 @@
       ],
       "name": "Keine Angaben",
       "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "index": 10
-    },
-    {
-      "color": "#0A3B19",
-      "index": 9
-    },
-    {
-      "color": "#FFDA80",
-      "index": 8
-    },
-    {
-      "color": "#FFBB58",
-      "index": 7
-    },
-    {
-      "color": "#FF8028",
-      "index": 6
-    },
-    {
-      "color": "#B00000",
-      "index": 5
-    },
-    {
-      "color": "#689199",
-      "index": 4
-    },
-    {
-      "color": "#008AC3",
-      "index": 3
-    },
-    {
-      "color": "#C8C8C8",
-      "index": 2
-    },
-    {
-      "color": "#2B0099",
-      "index": 1
-    },
-    {
-      "color": "#8A8A8A",
-      "index": 0
     }
   ],
   "xAxis": {
@@ -146,7 +102,7 @@
   },
   "chart": {
     "width": 485,
-    "height": 613,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -190,8 +146,9 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
-      "groupPadding": 0.1
+      "stacking": "percent",
+      "pointPadding": 0.1,
+      "groupPadding": 0
     }
   },
   "title": {
@@ -227,24 +184,19 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }
-    },
-    "max": 1
+      "format": "{value:,.0f}%"
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "x": -1,
     "enabled": true,
-    "layout": "horizontal",
-    "itemWidth": 1000,
-    "verticalAlign": "top",
-    "align": "left"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
   },
   "navigation": {
     "menuItemStyle": {
@@ -268,9 +220,7 @@
     "text": "Quelle: Amt für Wald beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 27.9.2023"
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    }
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "10054"
