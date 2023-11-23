@@ -22,7 +22,7 @@
 "darstellungsart":"",
 "printformat":"", 
 "visible":false,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"02_04_00_00_00_217",
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung"],

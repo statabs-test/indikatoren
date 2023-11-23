@@ -22,7 +22,7 @@
 "darstellungsart":"Karte",
 "printformat":"", 
 "visible":false,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"03_01_00_00_00_303",
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik","Kartengrundlage: Geodaten Kanton Basel-Stadt"],
