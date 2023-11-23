@@ -29,9 +29,9 @@
       {
         "color": "#008AC3"
       },
-      /*{
-        "color": "#FFBB58"
-      },*/
+      {
+        "color": "#007A2F"
+      },
     ],
     "legend": {
       "enabled": true,
