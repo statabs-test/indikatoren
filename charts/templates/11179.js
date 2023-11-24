@@ -57,12 +57,12 @@
     "series": [
       {
         "index": 0,
-        "color": "#008AC3",
+        "color": "#a1c436",
         "yAxis": 0
       },
       {
         "index": 1,
-        "color": "#990300",
+        "color": "#009984",
         "yAxis": 0
       },
       {

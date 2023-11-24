@@ -50,7 +50,7 @@
     },
     {
       type: 'line',
-      color: '#083038',
+      color: '#010101',
       lineWidth: 3,
     }
   ]

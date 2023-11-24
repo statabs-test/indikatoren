@@ -17,15 +17,15 @@
     },
     series: [
       {
-        "color": "#007a2f",
+        "color": "#a1c436",
         legendIndex: 1,
       },
       {
-        "color": "#68ab2b",
+        "color": "#1f5647",
         legendIndex: 2,
       },
       {
-        "color": "#ffbb58",
+        "color": "#009984",
         legendIndex: 3,
       },
       {
@@ -40,7 +40,7 @@
       type: "category"
     },
     yAxis: {
-      reversedStacks: true,
+      reversedStacks: false,
     },
     legend: {
       //    itemWidth: 150,

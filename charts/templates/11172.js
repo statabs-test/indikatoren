@@ -16,6 +16,7 @@
       {
         min: 0,
         max: 100,
+//        tickAmount: 12,
         labels: {
           format: '{value:.0f}%',
           style: {
@@ -34,8 +35,9 @@
           }
         },
         opposite: true, // Rechte Achse aktivieren
-        min: 0,
+        min: 1,
         max: 12,
+//        tickAmount: 12,
         title: {
           text: "", // Beschriftung rechte Achse
         },

@@ -42,23 +42,30 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      reversed: "TRUE",
+      labelFormatter: function () {
+        if (this.index === 0) {
+          return 'Auslastung (rechte Skala)';
+        } else {
+          return this.name;
+        }
+      }
     },
 
     "series": [
       {
-        "index": 0,
-        "color": "#008AC3",
+        index: 0,
+        color: "#0a3b19",
         yAxis: 0,
-        name: "Auslastung (rechte Skala)",
       },
       {
-        "index": 1,
-        "color": "#990300",
+        index: 1,
+        color: "#68ab2b",
         yAxis: 1,
       },
       {
-        "index": 1,
+        index: 1,
         color: "#007a2f",
         yAxis: 1,
       }

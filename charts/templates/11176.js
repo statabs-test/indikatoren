@@ -16,11 +16,11 @@
       }
     },
     series: [
-      { "color": "#007a2f" }, // dunkelgrün
-      { "color": "#68ab2b" }, // grün
-      { "color": "#ffbb58" }, // orange
-      { "color": "#dc440e" }, // rot
-      { "color": "#5284BB" }, // grau
+      { "color": "#00441B" }, // Ergänzungsleistungen
+      { "color": "#006D2C" }, // Restfinanzierung
+      { "color": "#238B45" }, // Krankenversicherer
+      { "color": "#35978F" }, // Eigenbetrag Pflege
+      { "color": "#80CDC1" }, // Eigenbetrag Pension und Betreuung
       {
         type: 'line',
         "color": "black",

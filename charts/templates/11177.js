@@ -16,9 +16,9 @@
       }
     },
     series: [
-      { "color": "#007a2f" }, // dunkelgrün
-      { "color": "#68ab2b" }, // grün
-      { "color": "#ffbb58" }, // Hellorange
+      { "color": "#a1c436" }, // Kanton/Gemeinde
+      { "color": "#1f5647" }, // Krankenversicherer
+      { "color": "#009984" }, // Tagesgäste
       {
         type: "line",
         color: "#010101",
@@ -37,6 +37,7 @@
           text: " ",
           //        useHTML: true,
         },
+        reversedStacks: false,
       },
       /*    {
             opposite: true,
