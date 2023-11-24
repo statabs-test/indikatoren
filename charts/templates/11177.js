@@ -16,9 +16,9 @@
       }
     },
     series: [
-      { "color": "#a1c436" }, // Kanton/Gemeinde
-      { "color": "#1f5647" }, // Krankenversicherer
-      { "color": "#009984" }, // Tagesgäste
+      { "color": "#fabd24" }, // Kanton/Gemeinde
+      { "color": "#246370" }, // Krankenversicherer
+      { "color": "#68ab2b" }, // Tagesgäste
       {
         type: "line",
         color: "#010101",
@@ -29,6 +29,9 @@
     ],
     xAxis: {
       tickInterval: 1,
+    },
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
     },
     yAxis: [
       {

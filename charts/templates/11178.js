@@ -9,7 +9,7 @@
       column: {
         stacking: 'normal',
         //lineWidth: 0,
-        borderWidth:0,
+        borderWidth: 0,
       },
       line: {
         lineWidth: 3,
@@ -17,15 +17,15 @@
     },
     series: [
       {
-        "color": "#a1c436",
+        "color": "#fabd24",
         legendIndex: 1,
       },
       {
-        "color": "#1f5647",
+        "color": "#246370",
         legendIndex: 2,
       },
       {
-        "color": "#009984",
+        "color": "#68ab2b",
         legendIndex: 3,
       },
       {
@@ -41,6 +41,9 @@
     },
     yAxis: {
       reversedStacks: false,
+    },
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
     },
     legend: {
       //    itemWidth: 150,

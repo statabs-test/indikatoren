@@ -24,15 +24,15 @@
     "series": [
       {
         "index": 0,
-        color: "#008AC3"
+        color: "#ed802f"
       },
       {
         "index": 1,
-        color: "#990300"
+        color: "#7a3050"
       },
       {
         "index": 1,
-        color: "#010101",
+        color: "#ed3f7a",
       }
     ],
     "tooltip": {

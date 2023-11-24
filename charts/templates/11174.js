@@ -1,17 +1,19 @@
 (function () {
   return {
-    "xAxis": {
+    xAxis: {
       tickInterval: 1
     },
-    "yAxis": {
-      "labels": {
-        "format": "{value:,.0f}",
+    yAxis: {
+      labels: {
+        format: "{value:,.0f}",
       }
     },
+    /*
     tooltip: {
-      "shared": false,
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>'
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
     },
+    */
+
     series: [
       {
         color: "#010101",
@@ -43,8 +45,8 @@
         "marker": {
           "enabled": false,
           "symbol": "circle",
-        }
+        },
       }
     }
-  }
+  };
 }());

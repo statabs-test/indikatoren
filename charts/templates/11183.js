@@ -16,11 +16,11 @@
     },
     series: [
       {
-        "color": "#b00000",
+        "color": "#ed3f7a",
         legendIndex: 2,
       },
       {
-        "color": "#ff8028",
+        "color": "#ed802f",
         legendIndex: 1,
       },
       {
