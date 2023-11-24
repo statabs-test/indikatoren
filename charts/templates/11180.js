@@ -9,7 +9,7 @@
   return {
 
     "legend": {
-      y: -250,
+      y: 0,
       x: 10,
       symbolWidth: 150,
       "title": {
@@ -31,11 +31,11 @@
         //default tsv: first column = GeoID, second = choroplethe, 3rd = bubble
         {
           //1st series: y values from column 3
-          //y: 3
+          //y: 0
         },
         {
           //2nd series: use y values from column 2
-          //x: 1, y: 1
+          //y: 1
         }
       ]
     },
@@ -57,10 +57,10 @@
         //choroplethe-tooltip
         tooltip: {
           //headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> Leerwohnungsquote </span><br/>',
-          /*pointFormatter: function () {
-            return this.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.value*100), 0) + '  </b><br/>';
-          },
-          useHTML: true*/
+          // pointFormatter: function () {
+          //   return this.properties.GeoName + ': <b>' + Highcharts.numberFormat((this.value*100), 0) + '  </b><br/>';
+          // },
+          // useHTML: true
         }
       },
       {
@@ -68,9 +68,9 @@
         showInLegend: false,
         colorAxis: false
       },
-      {
+       {
         type: 'mappoint',
-        id: 'europe',
+        id: 'points',
         name: 'Wohnort',
         dataLabels: {
           format: '{point.id}'
@@ -99,71 +99,83 @@
           id: 'EU',
           x: 2590000, 
           y: -1270500
-        },
-       ]/* {
-          id: 'BL',
-          lat: 47.4419,
-          lon: 7.7550
-        }, {
-          id: 'SO',
-          lat: 47.4209,
-          lon: 7.6066
-        }, {
-          id: 'AG',
-          lat: 47.5630,	
-          lon: 7.8680
-        }, {
-          id: 'CH',
-          lat: 47.3824, 
-          lon: 7.3043
-        }, {
-          id: 'EU',
-          lat: 47.6899, 
-          lon: 7.6143
+      //  },
+      //  ] {
+      //     id: 'BL',
+      //     lat: 47.4419,
+      //     lon: 7.7550
+      //   }, {
+      //     id: 'SO',
+      //     lat: 47.4209,
+      //     lon: 7.6066
+      //   }, {
+      //     id: 'AG',
+      //     lat: 47.5630,	
+      //     lon: 7.8680
+      //   }, {
+      //     id: 'CH',
+      //     lat: 47.3824, 
+      //     lon: 7.3043
+      //   }, {
+      //     id: 'EU',
+      //     lat: 47.6899, 
+      //     lon: 7.6143
 
-        }]*/
+         }]
       },
-      {
+     {
         type: 'flowmap',
         name: 'Zustrom',
         //joinby: [null],
-        linkedTo: ':previous',
-        minWidth: 5,
-        maxWidth: 20,
-        growTowards: true,
-        markerEnd: {
-          width: '50%',
-          height: '50%'
-        },
-        fillColor: '#31c2cc',
-        fillOpacity: 0.2,
-        color: '#0000FF',
-        data: [{
-          from: 'BL',
-          to: 'BS',
-          weight: 10,
+        //linkedTo: ':previous',
+       // minWidth: 5,
+        //maxWidth: 20,
+        //growTowards: true,
+        // markerEnd: {
+        //   width: '50%',
+        //   height: '50%'
+        // },
+        // fillColor: '#31c2cc',
+        // fillOpacity: 0.2,
+        // color: '#0000FF',
+        data: [
+        //   {
+        //   from: [47.4209,7.6066],
+        //   to: [47.4419, 7.7550]
+        // },
+        {
+          from: [2611600,-1267300],
+          to: [2629300, -1253800],
         }
-        /*, {
-          from: 'SO',
-          to: 'BS',
-          weight: 695955,
-        }, {
-          from: 'EU',
-          to: 'BS',
-          weight: 540457
-        }, {
-          from: 'CH',
-          to: 'BS',
-          weight: 1093538
-        }*/],
-        
+      //  {
+      //     from: 'BL',
+      //     to: 'BS',
+      //     weight: 10,
+      //   }  , {
+      //     from: 'SO',
+      //     to: 'BS',
+      //     weight: 695955,
+      //   }, {
+      //     from: 'EU',
+      //     to: 'BS',
+      //     weight: 540457
+      //   }, {
+      //     from: 'CH',
+      //     to: 'BS',
+      //     weight: 1093538
+      //   }
+      ],
       },
+     
     ],
 
     chart: {
+      // map: {
+      //   geojson_KantoneNWCH_EPSG_2056
+      // },
       
       
-      xxxxxevents: {
+      zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzevents: {
       
       
       
@@ -215,7 +227,7 @@
 
           //pie values in legend
           var minValueInLegend = 1;
-          var maxValueInLegend = 1200;
+          var maxValueInLegend = 5;
 
           //Add manually drawn legend		
           fn.addLegendRectangle(chart, 250 - 260, 220 - 170, 230 - 70, 72, '#fbfbfb', 'pieLegend');
