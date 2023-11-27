@@ -162,7 +162,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Schweregrad und Komplexität "
+    "text": "Schweregrad und Komplexität"
   },
   "subtitle": {
     "text": "CMI und PCCL der Baselstädtischen-Spitäler 2022",
@@ -186,7 +186,7 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
+        "color": "black",
         "textOverflow": "none"
       },
       "formatter": function () {
