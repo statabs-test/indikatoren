@@ -180,7 +180,7 @@
     "uniqueNames": true,
     "title": {
       "style": {
-        "color": "#000000"
+        "color": "black"
       },
       "text": "PCCL"
     },
@@ -203,23 +203,28 @@
       "color": "black"
     }
   },
-  "yAxis": [
-    {
-      "tickAmount": 7,
-      "labels": {
-        "formatter": function () {
-            return Highcharts.numberFormat((this.value), 1);
-          }
-      },
-      "min": 0,
-      "title": {
-        "text": "CMI"
-      },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
       "style": {
-        "color": "black"
-      }
-    }
-  ],
+        "color": "black",
+        "fontSize": null
+      },
+      "text": "CMI"
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 1);
+        }
+    },
+    "tickAmount": 7
+  },
   "legend": {
     "enabled": false,
     "layout": "horizontal",

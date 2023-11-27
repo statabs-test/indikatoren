@@ -27,26 +27,28 @@
         }
       }
     },
-    yAxis: [
-      {
-        tickAmount: 7,
-        labels: {
-          formatter: function () {
-            return Highcharts.numberFormat((this.value), 1);
-          }
+    yAxis: {
+      tickAmount: 7,
+      labels: {
+        formatter: function () {
+          return Highcharts.numberFormat((this.value), 1);
         },
-        min: 0,
-        title: {
-          text: "CMI"
-        },
+      },
+      min: 0,
+      title: {
+        text: "CMI",
         style: {
           color: "black"
         },
-      }
-    ],
+      },
+
+    },
     xAxis: {
       title: {
-        text: "PCCL"
+        text: "PCCL",
+        style: {
+          color: "black"
+        },
       },
       labels: {
         formatter: function () {

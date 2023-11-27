@@ -28,6 +28,7 @@
         "color": "#68ab2b",
         legendIndex: 3,
       },
+      /*
       {
         type: 'line',
         color: '#010101',
@@ -35,6 +36,7 @@
         lineWidth: 3,
         legendIndex: 4,
       }
+      */
     ],
     xAxis: {
       type: "category"
@@ -43,7 +45,9 @@
       reversedStacks: false,
     },
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+      shared: true,
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
+      footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
     },
     legend: {
       //    itemWidth: 150,
@@ -56,7 +60,7 @@
         textOverflow: "none",
         whiteSpace: "nowrap"
       },
-      reversed: false,
+      reversed: true,
     }
   };
 }());

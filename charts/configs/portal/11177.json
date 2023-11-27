@@ -149,58 +149,6 @@
         ]
       ],
       "name": "Beitrag Tagesgäste"
-    },
-    {
-      "type": "line",
-      "color": "#010101",
-      "lineWidth": 3,
-      "data": [
-        [
-          2012,
-          6.5
-        ],
-        [
-          2013,
-          6.3
-        ],
-        [
-          2014,
-          6
-        ],
-        [
-          2015,
-          5.1
-        ],
-        [
-          2016,
-          5.1
-        ],
-        [
-          2017,
-          4.7
-        ],
-        [
-          2018,
-          4.6
-        ],
-        [
-          2019,
-          4.6
-        ],
-        [
-          2020,
-          3.4
-        ],
-        [
-          2021,
-          3.9
-        ],
-        [
-          2022,
-          3.9
-        ]
-      ],
-      "name": "Total"
     }
   ],
   "chart": {
@@ -353,7 +301,8 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} Mio. CHF\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f} Mio. CHF\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "11177"

@@ -167,65 +167,6 @@
       ],
       "name": "Eigenbeitrag Klient\u002F-in",
       "turboThreshold": 0
-    },
-    {
-      "type": "line",
-      "color": "#010101",
-      "visible": true,
-      "lineWidth": 3,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2011",
-          38.9
-        ],
-        [
-          "2012",
-          37.3
-        ],
-        [
-          "2013",
-          39.2
-        ],
-        [
-          "2014",
-          44
-        ],
-        [
-          "2015",
-          45.6
-        ],
-        [
-          "2016",
-          50.4
-        ],
-        [
-          "2017",
-          53.4
-        ],
-        [
-          "2018",
-          51.4
-        ],
-        [
-          "2019",
-          53.7
-        ],
-        [
-          "2020",
-          61.1
-        ],
-        [
-          "2021",
-          62.3
-        ],
-        [
-          "2022",
-          60.2
-        ]
-      ],
-      "name": "Total",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -340,7 +281,7 @@
       "whiteSpace": "nowrap"
     },
     "itemMarginBottom": 4,
-    "reversed": false
+    "reversed": true
   },
   "credits": {
     "enabled": true,
@@ -392,7 +333,9 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E"
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} Mio. CHF\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f} Mio. CHF\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "11178"
