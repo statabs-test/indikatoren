@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#fabd24",
       "data": [
         [
           2011,
@@ -52,10 +52,10 @@
           59.2
         ]
       ],
-      "name": "Ergänzungsleistungen"
+      "name": "Kanton \u002F Gemeinde: Ergänzungsleistungen"
     },
     {
-      "color": "#68ab2b",
+      "color": "#ffda80",
       "data": [
         [
           2011,
@@ -106,10 +106,10 @@
           48.4
         ]
       ],
-      "name": "Restfinanzierung"
+      "name": "Kanton \u002F Gemeinde: Restfinanzierung (gemäss KVG)"
     },
     {
-      "color": "#ffbb58",
+      "color": "#246370",
       "data": [
         [
           2011,
@@ -160,10 +160,10 @@
           61.2
         ]
       ],
-      "name": "Beiträge Krankenversicherer"
+      "name": "Beiträge Krankenversicherer (gemäss KVG)"
     },
     {
-      "color": "#dc440e",
+      "color": "#68ab2b",
       "data": [
         [
           2011,
@@ -214,10 +214,10 @@
           21.6
         ]
       ],
-      "name": "Eigenbeitrag Bewohnende Pflege"
+      "name": "Eigenbeitrag Bewohnende Pflegetaxe (gemäss KVG)"
     },
     {
-      "color": "#5284BB",
+      "color": "#007a2f",
       "data": [
         [
           2011,
@@ -268,7 +268,7 @@
           146.2
         ]
       ],
-      "name": "Eigenbeitrag Bewohnende Pension und Betreuung"
+      "name": "Eigenbeitrag Bewohnende Taxe für Pension und Betreuung"
     },
     {
       "type": "line",
@@ -426,7 +426,7 @@
         "color": "#000000"
       }
     },
-    "reversedStacks": true
+    "reversedStacks": false
   },
   "legend": {
     "enabled": true,
@@ -487,6 +487,9 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "11176"

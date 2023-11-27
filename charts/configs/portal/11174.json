@@ -109,7 +109,7 @@
           307168
         ]
       ],
-      "name": "Mit Leistungsauftrag"
+      "name": "Spitex mit Leistungsauftrag (SML)"
     },
     {
       "color": "#68ab2b",
@@ -164,7 +164,7 @@
           275061
         ]
       ],
-      "name": "Ohne Leistungsauftrag"
+      "name": "Spitex ohne Leistungsauftrag (SOL)"
     }
   ],
   "chart": {
@@ -326,10 +326,6 @@
 					}]
 				}, true, true);
 			}
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "11174"

@@ -51,6 +51,9 @@
       labels: {
         formatter: function () {
           return Highcharts.numberFormat((this.value), 1);
+        },
+        style: {
+          color: "black"
         }
       },
       startOnTick: true,

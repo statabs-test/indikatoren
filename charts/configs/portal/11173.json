@@ -2,9 +2,8 @@
   "series": [
     {
       "index": 0,
-      "color": "#008AC3",
-      "yAxis": 0,
-      "name": "Auslastung",
+      "color": "#0a3b19",
+      "yAxis": 1,
       "data": [
         [
           2011,
@@ -54,12 +53,13 @@
           2022,
           65.2
         ]
-      ]
+      ],
+      "name": "Auslastung"
     },
     {
       "index": 1,
-      "color": "#990300",
-      "yAxis": 1,
+      "color": "#68ab2b",
+      "yAxis": 0,
       "data": [
         [
           2011,
@@ -115,7 +115,7 @@
     {
       "index": 1,
       "color": "#007a2f",
-      "yAxis": 1,
+      "yAxis": 0,
       "data": [
         [
           2011,
@@ -251,13 +251,14 @@
     {
       "labels": {
         "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '%';
+          return Highcharts.numberFormat((this.value), 0);
         },
         "style": {
           "color": "black"
         }
       },
       "opposite": true,
+      "tickAmount": 7,
       "min": 0,
       "title": {
         "text": ""
@@ -266,7 +267,7 @@
     {
       "labels": {
         "formatter": function () {
-          return Highcharts.numberFormat(this.value, 0);
+          return Highcharts.numberFormat(this.value, 0) + '%';
         },
         "style": {
           "color": "black"
@@ -289,7 +290,17 @@
       "fontWeight": "normal"
     },
     "itemDistance": 8,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "reversed": false,
+    "labelFormatter": function () {
+        if (this.index === 0) {
+          return 'Auslastung';
+        } else if (this.index === 1) {
+          return 'Mit ausserkantonale Tagesgästen (rechte Skala)';
+        } else if (this.index === 2) {
+          return 'Ohne ausserkantonale Tagesgästen (rechte Skala)';
+        }
+      }
   },
   "credits": {
     "enabled": true,
@@ -343,9 +354,9 @@
   "tooltip": {
     "pointFormatter": function () {
         if (this.series.yAxis.userOptions.opposite) {
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
-        } else {
           return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
+        } else {
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
         }
       },
     "shared": false
