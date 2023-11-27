@@ -21,12 +21,14 @@
       { "color": "#246370" }, // Krankenversicherer
       { "color": "#68ab2b" }, // Eigenbetrag Pflege
       { "color": "#007a2f" }, // Eigenbetrag Pension und Betreuung
-      {
-        type: 'line',
-        "color": "black",
-        visible: true,
-        lineWidth: 2,
-      },
+      /*
+            {
+              type: 'line',
+              "color": "black",
+              visible: true,
+              lineWidth: 2,
+            },
+      */
     ],
     xAxis: {
       tickInterval: 1,
@@ -35,7 +37,9 @@
       reversedStacks: false,
     },
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+      shared: true,
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
+      footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
     },
     "legend": {
       enabled: true,

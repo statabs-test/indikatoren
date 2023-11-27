@@ -16,7 +16,7 @@
       {
         min: 0,
         max: 100,
-//        tickAmount: 12,
+        //tickAmount: 12,
         labels: {
           format: '{value:.0f}%',
           style: {

@@ -33,6 +33,7 @@
       tickInterval: 1,
     },
     tooltip: {
+      shared: true,
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
       footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
     },

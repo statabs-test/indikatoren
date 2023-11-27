@@ -36,13 +36,20 @@
     "xAxis": {
       "tickInterval": 1
     },
-    "legend": {
+    legend: {
       itemDistance: 8,
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left"
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "top",
+      itemMarginBottom: 5,
+      align: "left",
+      labelFormatter: function () {
+        if (this.index === 1) {
+          return 'Pension- und Pflegetage (rechte Skala)';
+        } else {
+          return this.name;
+        }
+      }
     },
     "series": [
       {

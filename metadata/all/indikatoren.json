@@ -243,7 +243,7 @@
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "",
 		"lesehilfe": "2022 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 92,2%. Die Pension- und Pflegetage beliefen sich 2022 auf über 1 Mio.",
-		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen",
+		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -362,7 +362,7 @@
 		"title": "Anzahl Pflegestunden Spitex",
 		"subtitle": "",
 		"lesehilfe": "Die geleisteten Spitexstunden sind seit 2011 stetig gestiegen. Im Jahr 2022 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 307 168. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) betrugen 2022 total 582 229 Stunden.",
-		"erlaeuterungen": "Beispieltext",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -442,7 +442,8 @@
 		"lesehilfe": "Im Jahr 2022 betrug der Betrag der Finanzierung aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und der kantonalen Restfinanzierung 48,4 Mio. Franken.  Das Gesamtvolumen der Pflegeheime betrug im Jahr 2022 336.6 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt"
+			"Gesundheitsdepartement Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
