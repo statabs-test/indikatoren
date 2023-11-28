@@ -2,191 +2,167 @@
   "series": [
     {
       "color": "#fabd24",
-      "legendIndex": 1,
       "data": [
         [
-          "2011",
+          2011,
           16.7
         ],
         [
-          "2012",
+          2012,
           13.6
         ],
         [
-          "2013",
+          2013,
           14.5
         ],
         [
-          "2014",
+          2014,
           15.6
         ],
         [
-          "2015",
+          2015,
           16.4
         ],
         [
-          "2016",
+          2016,
           17.8
         ],
         [
-          "2017",
+          2017,
           18.7
         ],
         [
-          "2018",
+          2018,
           18.2
         ],
         [
-          "2019",
+          2019,
           20.4
         ],
         [
-          "2020",
+          2020,
           23.8
         ],
         [
-          "2021",
+          2021,
           25.1
         ],
         [
-          "2022",
+          2022,
           23.5
         ]
       ],
-      "name": "Kanton\u002FGemeinde: Restfinanzierung",
-      "turboThreshold": 0
+      "name": "Kanton\u002FGemeinde: Restfinanzierung"
     },
     {
       "color": "#246370",
-      "legendIndex": 2,
       "data": [
         [
-          "2011",
+          2011,
           20.1
         ],
         [
-          "2012",
+          2012,
           21.4
         ],
         [
-          "2013",
+          2013,
           22.5
         ],
         [
-          "2014",
+          2014,
           25.8
         ],
         [
-          "2015",
+          2015,
           26.6
         ],
         [
-          "2016",
+          2016,
           29.7
         ],
         [
-          "2017",
+          2017,
           31.6
         ],
         [
-          "2018",
+          2018,
           30.2
         ],
         [
-          "2019",
+          2019,
           30.4
         ],
         [
-          "2020",
+          2020,
           34.2
         ],
         [
-          "2021",
+          2021,
           34
         ],
         [
-          "2022",
+          2022,
           33.6
         ]
       ],
-      "name": "Beiträge Krankenversicherer",
-      "turboThreshold": 0
+      "name": "Beiträge Krankenversicherer"
     },
     {
       "color": "#68ab2b",
-      "legendIndex": 3,
       "data": [
         [
-          "2011",
+          2011,
           2.1
         ],
         [
-          "2012",
+          2012,
           2.3
         ],
         [
-          "2013",
+          2013,
           2.2
         ],
         [
-          "2014",
+          2014,
           2.6
         ],
         [
-          "2015",
+          2015,
           2.6
         ],
         [
-          "2016",
+          2016,
           2.9
         ],
         [
-          "2017",
+          2017,
           3.1
         ],
         [
-          "2018",
+          2018,
           3
         ],
         [
-          "2019",
+          2019,
           2.9
         ],
         [
-          "2020",
+          2020,
           3.1
         ],
         [
-          "2021",
+          2021,
           3.2
         ],
         [
-          "2022",
+          2022,
           3.1
         ]
       ],
-      "name": "Eigenbeitrag Klient\u002F-in",
-      "turboThreshold": 0
+      "name": "Eigenbeitrag Klient\u002F-in"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -249,6 +225,24 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -334,8 +328,11 @@
   },
   "tooltip": {
     "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} Mio. CHF\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f} Mio. CHF\u003C\u002Fb\u003E"
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f} Mio. CHF\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003ETotal: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.1f} Mio. CHF\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
   },
   "exporting": {
     "filename": "11178"
