@@ -23,13 +23,15 @@
         "color": "#ed802f",
         legendIndex: 1,
       },
-      {
-        type: 'line',
-        color: '#010101',
-        visible: true,
-        lineWidth: 3,
-        legendIndex: 3,
-      }
+      /*
+            {
+              type: 'line',
+              color: '#010101',
+              visible: true,
+              lineWidth: 3,
+              legendIndex: 3,
+            }
+      */
     ],
     xAxis: {
       // type: "category"
@@ -39,7 +41,9 @@
     },
 
     tooltip: {
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+      shared: true,
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Austritte</b> ({point.percentage:,.1f}%)<br/>',
+      footerFormat: 'Total: <b>{point.total:,.0f} Austritte</b>',
     },
 
     legend: {

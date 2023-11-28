@@ -5,6 +5,25 @@
       zoomType: 'xy',
       events: {
         load: function () {
+          this.series[0].points[10].update({
+            marker: {
+              symbol: 'square',
+              radius: 7,
+              enabled: true,
+              states: {
+                hover: {
+                  enabled: true,
+                  symbol: 'square',
+                }
+              }
+            }
+          });
+
+        }
+      }
+/*
+      events: {
+        load: function () {
 
           this.series[0].points.forEach(point => {
 
@@ -26,6 +45,7 @@
           });
         }
       }
+*/
     },
     yAxis: {
       tickAmount: 7,
