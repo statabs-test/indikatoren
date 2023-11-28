@@ -2,10 +2,8 @@
   return {
     chart: {
       type: "column",
-      //type: "area",
     },
     plotOptions: {
-      //area: {
       column: {
         stacking: 'normal',
         //lineWidth: 0,
@@ -38,15 +36,27 @@
     },
     tooltip: {
       shared: true,
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
-      footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
+      useHTML: true,
+      followPointer: true,
+      headerFormat: "<table>",
+      pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}:</td>'
+        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Mio. CHF</b></td>'
+        + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
+      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f} Mio. CHF</b></td><td></td></tr></table>',
     },
+    /*
+        tooltip: {
+          shared: true,
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
+          footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
+        },
+    */
     "legend": {
       enabled: true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      reversed: false,
+      reversed: true,
     }
   };
 }());
