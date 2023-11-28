@@ -26,22 +26,28 @@
     //     }
     //   }
     // },
-    // "data": {
-    //   "seriesMapping": [
-    //     //default tsv: first column = GeoID, second = choroplethe, 3rd = bubble
-    //     {
-    //       //1st series: y values from column 3
-    //       //y: 0
-    //     },
-    //     {
-    //       //2nd series: use y values from column 2
-    //       //y: 1
-    //     },
-    //     {},
-    //     {},
-    //     {}
-    //   ]
-    // },
+    "data": {
+      "seriesMapping": [
+        //default tsv: first column = GeoID, second = choroplethe, 3rd = bubble
+        //{},
+        {
+          x: 0,
+          y: 1,
+          label: 2
+        },
+        {
+          from: 2,
+          to: 3,
+          weight: 4
+        },
+        {
+          //y: 1
+        },
+        {},
+        {},
+        {}
+      ]
+    },
     beforeSeries: [
 			{
 				//Outline choropleth map if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
@@ -98,40 +104,39 @@
       //   showInLegend: false,
       //   colorAxis: false
       // },
-      {},
-      {},
+
        {
         type: 'mappoint',
         id: 'points',
         name: 'Wohnort',
         dataLabels: {
-          format: '{point.id}'
+          format: '{point.label}'
         },
-        data: [{
-          id: 'AG',
-          x: 2645700, 
-          y: -1263400
-        },{
-          id: 'BS',
-          x: 2611600,
-          y: -1267300
-        },{
-          id: 'BL',
-          x: 2629300, 
-          y: -1253800
-        },{
-          id: 'SO',
-          x: 2610800, 
-          y: -1246900
-        },{
-          id: 'CH',
-          x: 2591000, 
-          y: -1245300 
-        },{
-          id: 'EU',
-          x: 2590000, 
-          y: -1270500
-        },
+        // data: [{
+        //   id: 'AG',
+        //   x: 2645700, 
+        //   y: -1263400
+        // },{
+        //   id: 'BS',
+        //   x: 2611600,
+        //   y: -1267300
+        // },{
+        //   id: 'BL',
+        //   x: 2629300, 
+        //   y: -1253800
+        // },{
+        //   id: 'SO',
+        //   x: 2610800, 
+        //   y: -1246900
+        // },{
+        //   id: 'CH',
+        //   x: 2591000, 
+        //   y: -1245300 
+        // },{
+        //   id: 'EU',
+        //   x: 2590000, 
+        //   y: -1270500
+        // },
       //  ] {
         //   id: 'BL',
         //   lat: 47.4419,
@@ -153,7 +158,7 @@
         //   lat: 47.6899, 
         //   lon: 7.6143
       //   }
-        ]
+        // ]
       },
      {
         type: 'flowmap',
@@ -170,7 +175,7 @@
         // fillColor: '#31c2cc',
         // fillOpacity: 0.2,
         // color: '#0000FF',
-        data: [
+        //data: [
         //   {
         //   from: [47.4209,7.6066],
         //   to: [47.4419, 7.7550]
@@ -179,11 +184,11 @@
         //   from: [2611600,-1267300],
         //   to: [2629300, -1253800],
         // }
-       {
-          from: 'BL',
-          to: 'BS',
-          weight: 10,
-        } 
+      //  {
+      //     from: 'BL',
+      //     to: 'BS',
+      //     weight: 10,
+      //   } 
         // , {
       //     from: 'SO',
       //     to: 'BS',
@@ -197,7 +202,7 @@
       //     to: 'BS',
       //     weight: 1093538
       //   }
-      ],
+      //],
       },
      
     ],
