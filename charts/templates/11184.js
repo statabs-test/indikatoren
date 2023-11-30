@@ -61,7 +61,7 @@
       },
       showInLegend: false,
       type: 'pie',
-      size: '60%',
+      size: '70%',
       innerSize: '50%',
       center: [180, 120],
       borderWidth: 2,

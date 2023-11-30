@@ -200,10 +200,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Durchschnittliche, stationäre Aufenthaltsdauer von baselstädtischen Patienten "
+    "text": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten"
   },
   "subtitle": {
-    "text": "der Jahre 2012 bis 2022 (ohne Langzeitpflegefälle) in Basler Spitälern",
+    "text": "In Basler Spitälern im zeitlichen Verlauf",
     "align": "left",
     "style": {
       "fontSize": "12px",

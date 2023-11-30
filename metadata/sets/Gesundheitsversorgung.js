@@ -8,12 +8,14 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Pflegeheime",
 		"subtitle": "Im Kanton Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Ende 2022 hatte das Adullam Pflegezentrum Basel 150 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt.<br>Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023.<br>Am eigentlichen Standort des Pflegezentrum irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -45,12 +47,14 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen im Service-Angebot",
 		"subtitle": "Im Kanton Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Ende 2022 hatte das Tertianum mit 107 mit meisten Wohnungen mit einer Leistungsvereinbarung aller Standorte.",
+		"erlaeuterungen": "Wohnungen mit Leistungsvereinbarung mit dem Kanton oder im tieferen Preissegment.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/wohnen-mit-service.html' target = '_blank'>Angebote von Wohnungen mit Service-Angebot</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -538,22 +542,24 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Durchschnittliche, stationäre Aufenthaltsdauer von baselstädtischen Patienten",
-		"subtitle": "der Jahre 2012 bis 2022 (ohne Langzeitpflegefälle) in Basler Spitälern",
-		"lesehilfe": "Im Jahr 2022 verbrachte ein Patient der Psychiatrie, mit Wohnort im Kanton Basel-Stadt, durchschnittlich 32,2 Tage.",
-		"erlaeuterungen": "in Tagen",
+		"title": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten",
+		"subtitle": "In Basler Spitälern im zeitlichen Verlauf",
+		"lesehilfe": "Im Jahr 2022 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer baselstädtischen Patientin oder Patienten in der Akutsomatik durchschnittlich 7.0 Tage, in der Psychiatrie 32.2 Tage und in der Rehabilitation 22.9 Tage.",
+		"erlaeuterungen": "Die durchschnittliche Dauer eines stationären Aufenthalts ist in Tagen angegeben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Durchschnittliche, stationäre Aufenthaltsdauer von baselstädtischen Patienten",
+		"description": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.11182",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "2.3",
 		"stufe1": "2 Spitalversorgung",
@@ -575,22 +581,24 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Entwicklung und Verteilung der stationären Spitalaustritte",
-		"subtitle": "Baselstädtische Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2022",
-		"lesehilfe": "Von den 43 834 stationären Austritten, von Person mit Wohnort im Kanton Basel-Stadt, erfolgten 38 796 aus einem Basler Spital",
-		"erlaeuterungen": "",
+		"title": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
+		"subtitle": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
+		"lesehilfe": "Im Jahr 2022 erfolgten 38 796 (88,5%) der der insgesamt 43 834 (100%) Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
+		"erlaeuterungen": "Gezählt werden die Austritte aus einer stationären Behandlung, um Doppelzählungen zu vermeiden (ein Patient kann beispielsweise im Jahr 2021 in ein Spital eintreten und erst im Folgejahr 2022 austreten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Entwicklung und Verteilung der stationären Spitalaustritte",
+		"description": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.11183",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "2.4",
 		"stufe1": "2 Spitalversorgung",
@@ -612,19 +620,21 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Prozentuale Verteilung der Fallzahlen und des Case Mix",
-		"subtitle": "nach Leistungsbereichen im Jahr 2022.",
-		"lesehilfe": "Im Jahr 2022 betrafen 44,8% der Aufenthalte in baselstädtischen Spitälern Grundleistungen oder Notfälle der Chirurgie und inneren Medizin («Basispaket Chirurgie und innere Medizin»).",
-		"erlaeuterungen": "Fünf häufigste stationäre, akutsomatische, nach SwissDRG abgerechnete Spitalbehandlungen (inklusive Akutgeriatrie).<br>Baselstädtische Patienten in Basler Spitälern.",
+		"title": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen",
+		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022.",
+		"lesehilfe": "Im Jahr 2022 sind 44.8% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und Innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 34.3% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
+		"erlaeuterungen": "Der Case Mix beschreibt den gesamten Schweregrad der abgerechneten Behandlungsfälle. Er ergibt sich aus der Summe der Kostengewichte der Fälle. Er kann als Vergleichswert für die Fallschwere, also den Gesamtschweregrad der Fälle eines Spitals oder - wie in der Grafik - eines Leistungsbereichs dienen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Prozentuale Verteilung der Fallzahlen und des Case Mix",
+		"description": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.11184",
@@ -651,20 +661,22 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Schweregrad und Komplexität",
 		"subtitle": "CMI und PCCL der Baselstädtischen-Spitäler 2022",
-		"lesehilfe": "Im Jahr 2022 betrug der Case-Mix-Index (CMI) aller Spitäler 1,26 und der PCCL 0,93.",
-		"erlaeuterungen": "Der Case-Mix-Index (CMI) bildet das durchschnittliche Kostengewicht ab. Er stellt die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen sowie materiellen Ressourcenverbrauch (ökonomischen Schweregrad) bzw. Behandlungsaufwand dar.<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad ergibt sich aus der Kumulation der relevanten Nebendiagnosen. Dabei werden die einzelnen Komplikations- und / oder Komorbiditätswerte (CC; auch Begleiterkrankungen resp. Nebendiagnosen) gemäss SwissDRG-Katalog in<br>einen Schweregrad von 0 bis 6 eingeteilt, wobei 0 für keine und 6 für eine äusserst schwere Komplikation oder Komorbidität bzw. Nebendiagnose steht. Somit ist der PCCL ein Mass für die Multimorbidität der stationär behandelten Patientinnen und Patienten.",
+		"lesehilfe": "Im Jahr 2022 betrug der durchschnittliche ökonomische Schweregrad gemäss Case Mix Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1.26. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0.93.",
+		"erlaeuterungen": "Der Case Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach Swiss DRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals. <br>Dividiert man den Case Mix durch die Anzahl Fälle, erhält man den Case Mix Index (CMI), d.h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case Mix Index (CMI) grösser als 1.0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit ein hoher PCCL-Wert (grösser als 1) ist für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (zum Beispiel die Universitäre Altersmedizin FELIX PLATTER) oder auf die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen oder mit chronisch fortschreitenden Krankheiten ausgerichtet sind (z.B. das Palliativzentrum Hildegard)",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"description": "Schweregrad und Komplexität",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "I.14.2.11185",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "2.6",
 		"stufe1": "2 Spitalversorgung",

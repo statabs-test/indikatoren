@@ -107,10 +107,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung und Verteilung der stationären Spitalaustritte "
+    "text": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung"
   },
   "subtitle": {
-    "text": "Baselstädtische Wohnbevölkerung in Abhängigkeit vom Spitalstandort in den Jahren 2018 bis 2022",
+    "text": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
     "align": "left",
     "style": {
       "fontSize": "12px",

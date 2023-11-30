@@ -3440,6 +3440,13 @@
           "z": 106
         },
         {
+          "lat": 47.56277026,
+          "lon": 7.575025864,
+          "id": 28,
+          "name": "Pflegehotel St. Johann",
+          "z": 75
+        },
+        {
           "lat": 47.5692035,
           "lon": 7.598633521,
           "id": 29,
@@ -3475,13 +3482,6 @@
           "z": 70
         },
         {
-          "lat": 47.56277026,
-          "lon": 7.575025864,
-          "id": 28,
-          "name": "Pflegehotel St. Johann",
-          "z": 75
-        },
-        {
           "lat": 47.55129051,
           "lon": 7.592260835,
           "id": 34,
@@ -3496,18 +3496,18 @@
           "z": 24
         },
         {
-          "lat": 47.56891184,
-          "lon": 7.574950877,
-          "id": 34,
-          "name": "Sternenhof Vogesenstrasse",
-          "z": 20
-        },
-        {
           "lat": 47.56879025,
           "lon": 7.56693342,
           "id": 34,
           "name": "Sternenhof Luzernerring",
           "z": 40
+        },
+        {
+          "lat": 47.56891184,
+          "lon": 7.574950877,
+          "id": 34,
+          "name": "Sternenhof Vogesenstrasse",
+          "z": 20
         },
         {
           "lat": 47.54588385,

@@ -30,9 +30,9 @@
       followPointer: true,
       headerFormat: '<span style="font-size: 10px"> {point.x} </span><table>',
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Mio. CHF</b></td>'
+        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Plätze</b></td>'
         + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
-      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f} Mio. CHF</b></td><td></td></tr></table>',
+      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f} Plätze</b></td><td></td></tr></table>',
     },
     /*
       tooltip: {
