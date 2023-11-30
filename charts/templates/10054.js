@@ -6,6 +6,7 @@
             "stacking": "percent",
             pointPadding: 0.1,
             groupPadding: 0,
+            minPointLength:5 
         }
   },
   "yAxis": {
