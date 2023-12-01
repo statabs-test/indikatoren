@@ -664,7 +664,7 @@
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2022 von 194 auf 118 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -708,7 +708,7 @@
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a>im Umweltbericht beider Basel"
+			"Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a> im Umweltbericht beider Basel"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -719,7 +719,7 @@
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "3.3.2",
+		"kuerzelKunde": "3.3.1",
 		"stufe1": "Zukunft",
 		"stufe2": "3.3 Biodiversität",
 		"stufe3": "",

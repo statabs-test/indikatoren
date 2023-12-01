@@ -242,7 +242,7 @@
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a>im Umweltbericht beider Basel"
+			"Weitere Erläuterungen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Biotopwert</a> im Umweltbericht beider Basel"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -253,7 +253,7 @@
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzelKunde": "3.3.2",
+		"kuerzelKunde": "3.3.1",
 		"stufe1": "Zukunft",
 		"stufe2": "3.3 Biodiversität",
 		"stufe3": "",
