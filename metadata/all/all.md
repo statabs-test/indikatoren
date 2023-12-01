@@ -2265,6 +2265,7 @@ id | visible | visibleInPortal | indikatorenset
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
 11165 | true | true | Gesundheitsversorgung
+11166 | true | true | Gesundheitsversorgung
 11167 | true | true | Gesundheitsversorgung
 11168 | true | true | Gesundheitsversorgung
 11169 | true | true | Gesundheitsversorgung

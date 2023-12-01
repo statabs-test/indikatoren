@@ -1,10 +1,10 @@
 (function () {
   return {
-    "yAxis": [
+    yAxis: [
       {
         tickAmount: 7,
-        "labels": {
-          "formatter": function () {
+        labels: {
+          formatter: function () {
             return Highcharts.numberFormat((this.value * 100), 0) + '%';
           },
           style: {
@@ -12,15 +12,15 @@
           }
         },
         min: 0,
-        "title": {
+        title: {
           text: ""
         }
       },
       {
         tickAmount: 7,
-        "opposite": true, // Die rechte Achse aktivieren
-        "labels": {
-          "formatter": function () {
+        opposite: true, // Die rechte Achse aktivieren
+        labels: {
+          formatter: function () {
             return Highcharts.numberFormat((this.value), 0) + ''; // Wandelt Dezimalzahlen in Prozent um
           },
           style: {
@@ -28,13 +28,13 @@
           }
         },
         min: 0,
-        "title": {
+        title: {
           text: ""
         }
       }
     ],
-    "xAxis": {
-      "tickInterval": 1
+    xAxis: {
+      //      tickInterval: 1
     },
     legend: {
       itemDistance: 8,
@@ -45,18 +45,18 @@
       align: "left",
       labelFormatter: function () {
         if (this.index === 1) {
-          return 'Pension- und Pflegetage (rechte Skala)';
+          return 'Pensions- und Pflegetage (rechte Skala)';
         } else {
           return this.name;
         }
       }
     },
-    "series": [
+    series: [
       {
-        "index": 1,
-        "color": "#68ab2b",
-        "tooltip": {
-          "pointFormatter": function () {
+        index: 1,
+        color: "#68ab2b",
+        tooltip: {
+          pointFormatter: function () {
             return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '%' + '</b><br/><b>';
           }
         }

@@ -1,6 +1,17 @@
 (function () {
   return {
     plotOptions: {
+      // Schatten-Effekt deaktivieren
+      pie: {
+        shadow: false,
+        states: {
+          hover: {
+            halo: {
+              size: 0
+            }
+          }
+        }
+      },
       series: {
         allowPointSelect: false,
         point: {
@@ -10,7 +21,7 @@
             }
           }
         }
-      }
+      },
     },
     legend: {
       itemWidth: 75,
@@ -19,9 +30,9 @@
         whiteSpace: "nowrap"
       },
       enabled: true,
-      layout: "vertical", 
-      verticalAlign: "middle", 
-      align: "right", 
+      layout: "vertical",
+      verticalAlign: "middle",
+      align: "right",
       itemDistance: 10,
       style: {
         fontSize: "12px"
@@ -51,7 +62,7 @@
           // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
           return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
         },
-        distance: -23,
+        distance: -25,
         style: {
           color: 'black',
           textOutline: "0px black",
@@ -111,12 +122,12 @@
     }],
     tooltip: {
       pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} </b> ({point.percentage:.1f}%)<br/><br/>',
-      shared: false,
+      shared: true,
       useHTML: false
     },
     labels: {
       items: [{
-        html: 'Aussen: Anzahl Fälle<br/>Innen: &nbsp;&nbsp;&nbsp;Case-Mix',
+        html: 'Aussen: Anteil Fälle<br/>Innen: &nbsp;&nbsp;&nbsp;Anteil Case-Mix',
         style: {
           left: '300px',
           top: '250px'

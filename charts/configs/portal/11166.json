@@ -3251,759 +3251,164 @@
       },
       "data": [
         {
-          "lat": 47.56031774,
-          "lon": 7.579534993,
-          "id": 1,
-          "name": "Adullam Pflegezentrum Basel",
-          "z": 150
-        },
-        {
-          "lat": 47.58579888,
-          "lon": 7.655294066,
-          "id": 2,
-          "name": "Adullam Pflegezentrum Riehen",
-          "z": 66
-        },
-        {
-          "lat": 47.55586304,
-          "lon": 7.61384395,
-          "id": 3,
-          "name": "Alterszentrum Alban-Breite",
-          "z": 82
-        },
-        {
-          "lat": 47.54900347,
-          "lon": 7.616862261,
-          "id": 4,
-          "name": "Gellert Hof Bethesda Alterszentren AG",
-          "z": 134
-        },
-        {
-          "lat": 47.56427507,
-          "lon": 7.596085654,
-          "id": 5,
-          "name": "Wesley Haus Bethesda Alterszentren AG",
-          "z": 78
-        },
-        {
-          "lat": 47.53962815,
-          "lon": 7.59160583,
-          "id": 6,
-          "name": "BSB Alterszentrum am Bruderholz",
-          "z": 58
-        },
-        {
-          "lat": 47.57153178,
-          "lon": 7.560091597,
-          "id": 7,
-          "name": "BSB Alterszentrum Burgfelderhof",
-          "z": 113
-        },
-        {
-          "lat": 47.53947007,
-          "lon": 7.601209051,
-          "id": 8,
-          "name": "BSB Alterszentrum Falkenstein",
-          "z": 86
-        },
-        {
-          "lat": 47.55388601,
-          "lon": 7.575497423,
-          "id": 9,
-          "name": "BSB Alterszentrum Weiherweg",
-          "z": 85
-        },
-        {
-          "lat": 47.56095847,
-          "lon": 7.594223217,
-          "id": 10,
-          "name": "BSB Alterszentrum zum Lamm",
-          "z": 65
-        },
-        {
-          "lat": 47.55154425,
-          "lon": 7.58338591,
-          "id": 11,
-          "name": "Casavita Hasenbrunnen",
-          "z": 57
-        },
-        {
-          "lat": 47.56674542,
-          "lon": 7.564708722,
-          "id": 12,
-          "name": "Casavita Kannenfeld",
-          "z": 72
-        },
-        {
-          "lat": 47.54538959,
-          "lon": 7.621717871,
-          "id": 13,
-          "name": "Casavita Lehenmatt",
-          "z": 63
-        },
-        {
-          "lat": 47.55661632,
-          "lon": 7.57733022,
-          "id": 14,
-          "name": "Casavita Vincentianum",
-          "z": 46
-        },
-        {
-          "lat": 47.56596512,
-          "lon": 7.59674348,
-          "id": 15,
-          "name": "dandelion",
-          "z": 62
-        },
-        {
-          "lat": 47.5858391,
-          "lon": 7.654766762,
-          "id": 16,
-          "name": "Kommunität Diakonissenhaus Riehen",
+          "lat": 47.5539333726542,
+          "lon": 7.57595896932999,
+          "id": "BSB: Tagesbetreuung Weiherweg",
+          "name": "Allgemeine Tagesstruktur",
           "z": 10
         },
         {
-          "lat": 47.58268058,
-          "lon": 7.651642763,
-          "id": 17,
-          "name": "Dominikushaus",
-          "z": 62
+          "lat": 47.5717286143288,
+          "lon": 7.61658316072642,
+          "id": "Sternenhof: Tagesbetreuung Egliseeholz",
+          "name": "Allgemeine Tagesstruktur",
+          "z": 52
         },
         {
-          "lat": 47.5456995,
-          "lon": 7.568479893,
-          "id": 18,
-          "name": "Generationenhaus Neubad",
-          "z": 87
+          "lat": 47.568885907317,
+          "lon": 7.56747705419481,
+          "id": "Sternenhof: Tagesbetreuung Luzernerring",
+          "name": "Allgemeine Tagesstruktur",
+          "z": 25
         },
         {
-          "lat": 47.56445351,
-          "lon": 7.597111687,
-          "id": 19,
-          "name": "Gustav Benz-Haus",
-          "z": 81
+          "lat": 47.5874594215367,
+          "lon": 7.65461129429151,
+          "id": "Wendelin: Tagesheim",
+          "name": "Allgemeine Tagesstruktur",
+          "z": 21
         },
         {
-          "lat": 47.55191343,
-          "lon": 7.580601956,
-          "id": 20,
-          "name": "Alterszentrum Holbeinhof",
-          "z": 111
+          "lat": 47.565892731321,
+          "lon": 7.59673274709595,
+          "id": "dandelion: Tagesbetreuung",
+          "name": "Spezialisierte Tagesstruktur: Demenz",
+          "z": 12
         },
         {
-          "lat": 47.56927869,
-          "lon": 7.634425506,
-          "id": 21,
-          "name": "Alterspflegeheim Humanitas",
-          "z": 115
+          "lat": 47.5685432203432,
+          "lon": 7.56707751721893,
+          "id": "Sternenhof: Tagesbetreuung Luzernerring",
+          "name": "Spezialisierte Tagesstruktur: Demenz",
+          "z": 13
         },
         {
-          "lat": 47.56989264,
-          "lon": 7.68482652,
-          "id": 22,
-          "name": "irides AG Pflegezentrum",
-          "z": 64
+          "lat": 47.5682672440652,
+          "lon": 7.59499263259872,
+          "id": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
+          "name": "Spezialisierte Tagesstruktur: Demenz",
+          "z": 10
         },
         {
-          "lat": 47.56895662,
-          "lon": 7.581788301,
-          "id": 23,
-          "name": "Johanniter Alters- und Pflegeheim",
-          "z": 132
-        },
-        {
-          "lat": 47.55402787,
-          "lon": 7.600782774,
-          "id": 24,
-          "name": "Ländli Basel",
-          "z": 48
-        },
-        {
-          "lat": 47.57071176,
-          "lon": 7.593988016,
-          "id": 25,
-          "name": "Marienhaus",
-          "z": 111
-        },
-        {
-          "lat": 47.57370544,
-          "lon": 7.56488082,
-          "id": 26,
-          "name": "Neues Marthastift",
-          "z": 109
-        },
-        {
-          "lat": 47.54141104,
-          "lon": 7.59176955,
-          "id": 27,
-          "name": "Pflegeheim Momo",
-          "z": 106
-        },
-        {
-          "lat": 47.56277026,
-          "lon": 7.575025864,
-          "id": 28,
-          "name": "Pflegehotel St. Johann",
-          "z": 75
-        },
-        {
-          "lat": 47.5692035,
-          "lon": 7.598633521,
-          "id": 29,
-          "name": "Senevita Erlenmatt",
-          "z": 56
-        },
-        {
-          "lat": 47.54451928,
-          "lon": 7.609082943,
-          "id": 30,
-          "name": "Senevita Gellertblick",
-          "z": 97
-        },
-        {
-          "lat": 47.57105389,
-          "lon": 7.679020137,
-          "id": 31,
-          "name": "Pflegeheim St. Chrischona",
-          "z": 36
-        },
-        {
-          "lat": 47.58366701,
-          "lon": 7.592987426,
-          "id": 32,
-          "name": "Pflegewohnheim St. Christophorus",
-          "z": 61
-        },
-        {
-          "lat": 47.56836868,
-          "lon": 7.619078242,
-          "id": 33,
-          "name": "Alters- und Pflegeheim St. Elisabethenheim",
-          "z": 70
-        },
-        {
-          "lat": 47.55129051,
-          "lon": 7.592260835,
-          "id": 34,
-          "name": "Sternenhof Haus für Betagte\u002FHirschgässlein",
-          "z": 58
-        },
-        {
-          "lat": 47.54095789,
-          "lon": 7.598464377,
-          "id": 34,
-          "name": "Sternenhof Laufenstrasse",
-          "z": 24
-        },
-        {
-          "lat": 47.56879025,
-          "lon": 7.56693342,
-          "id": 34,
-          "name": "Sternenhof Luzernerring",
-          "z": 40
-        },
-        {
-          "lat": 47.56891184,
-          "lon": 7.574950877,
-          "id": 34,
-          "name": "Sternenhof Vogesenstrasse",
-          "z": 20
-        },
-        {
-          "lat": 47.54588385,
-          "lon": 7.589082366,
-          "id": 35,
-          "name": "Residenz Südpark",
-          "z": 28
-        },
-        {
-          "lat": 47.54121007,
-          "lon": 7.619038566,
-          "id": 36,
-          "name": "Tertianum AG Residenz St. Jakob-Park",
-          "z": 16
-        },
-        {
-          "lat": 47.58729667,
-          "lon": 7.65523482,
-          "id": 37,
-          "name": "Wendelin",
-          "z": 84
-        },
-        {
-          "lat": 47.58090231,
-          "lon": 7.592936489,
-          "id": 38,
-          "name": "Alterszentrum Wiesendamm",
-          "z": 67
-        },
-        {
-          "lat": 47.52751098,
-          "lon": 7.59770085,
-          "id": 39,
-          "name": "Alterszentrum Zum Wasserturm",
-          "z": 40
+          "lat": 47.5623982223241,
+          "lon": 7.59068749790591,
+          "id": "Stiftung Rheinleben: Tagesstätte 65+",
+          "name": "Spezialisierte Tagesstruktur: Psychische Beeinträchtigung",
+          "z": 14
         }
       ]
-    },
-    {
-      "name": "Rhein",
-      "animation": true,
-      "data": [
-        {
-          "path": [
-            [
-              "M",
-              2611898.998,
-              -1267399.905
-            ],
-            [
-              "L",
-              2612058.909,
-              -1267359.334
-            ],
-            [
-              "L",
-              2612200.486,
-              -1267350.569
-            ],
-            [
-              "L",
-              2612500.488,
-              -1267380.57
-            ],
-            [
-              "L",
-              2613176.587,
-              -1267575.834
-            ],
-            [
-              "L",
-              2613700.553,
-              -1267750.607
-            ],
-            [
-              "L",
-              2614300.587,
-              -1268000.61
-            ],
-            [
-              "L",
-              2614621.94156826,
-              -1267973.86403593
-            ],
-            [
-              "L",
-              2614599.062,
-              -1267884.68
-            ],
-            [
-              "L",
-              2614419.203,
-              -1267906.424
-            ],
-            [
-              "L",
-              2614205.191,
-              -1267884.815
-            ],
-            [
-              "L",
-              2613847.869,
-              -1267738.097
-            ],
-            [
-              "L",
-              2613472.536,
-              -1267564.181
-            ],
-            [
-              "L",
-              2613486.513,
-              -1267447.856
-            ],
-            [
-              "L",
-              2613450.527,
-              -1267475.587
-            ],
-            [
-              "L",
-              2613300.525,
-              -1267450.582
-            ],
-            [
-              "L",
-              2613097.525,
-              -1267354.57
-            ],
-            [
-              "L",
-              2613004.724,
-              -1267333.97
-            ],
-            [
-              "L",
-              2612868.919,
-              -1267274.568
-            ],
-            [
-              "L",
-              2612635.509,
-              -1267211.568
-            ],
-            [
-              "L",
-              2612444.672,
-              -1267193.259
-            ],
-            [
-              "L",
-              2612097.026,
-              -1267173.089
-            ],
-            [
-              "L",
-              2611933.01,
-              -1267196.092
-            ],
-            [
-              "L",
-              2611810.036,
-              -1267238.412
-            ],
-            [
-              "L",
-              2611784.18,
-              -1267253.643
-            ],
-            [
-              "L",
-              2611771.149,
-              -1267239.611
-            ],
-            [
-              "L",
-              2611740.489,
-              -1267260.564
-            ],
-            [
-              "L",
-              2611660.402,
-              -1267321.312
-            ],
-            [
-              "L",
-              2611620.316,
-              -1267381.453
-            ],
-            [
-              "L",
-              2611544.897,
-              -1267414.515
-            ],
-            [
-              "L",
-              2611405,
-              -1267531.369
-            ],
-            [
-              "L",
-              2611260.482,
-              -1267720.57
-            ],
-            [
-              "L",
-              2611142.399,
-              -1267907.457
-            ],
-            [
-              "L",
-              2610956.49,
-              -1268231.564
-            ],
-            [
-              "L",
-              2610964.344,
-              -1268244.488
-            ],
-            [
-              "L",
-              2610947.42,
-              -1268296.742
-            ],
-            [
-              "L",
-              2610934.264,
-              -1268292.513
-            ],
-            [
-              "L",
-              2610894.264,
-              -1268510.962
-            ],
-            [
-              "L",
-              2610889.241,
-              -1268730.166
-            ],
-            [
-              "L",
-              2610920.508,
-              -1269114.948
-            ],
-            [
-              "L",
-              2610875.30000368,
-              -1269467.46893253
-            ],
-            [
-              "L",
-              2610988.015,
-              -1269434.556
-            ],
-            [
-              "L",
-              2610967.612,
-              -1269774.822
-            ],
-            [
-              "L",
-              2610992.904,
-              -1270027.827
-            ],
-            [
-              "L",
-              2611066.413,
-              -1270387.488
-            ],
-            [
-              "L",
-              2611159.552,
-              -1270661.324
-            ],
-            [
-              "L",
-              2611314.911,
-              -1271034.144
-            ],
-            [
-              "L",
-              2611625.494,
-              -1270932.22
-            ],
-            [
-              "L",
-              2611417.793,
-              -1271000.381
-            ],
-            [
-              "L",
-              2611288.913,
-              -1270732.042
-            ],
-            [
-              "L",
-              2611172.704,
-              -1270396.667
-            ],
-            [
-              "L",
-              2611163.458,
-              -1270236.848
-            ],
-            [
-              "L",
-              2611122.804,
-              -1270132.43
-            ],
-            [
-              "L",
-              2611082.267,
-              -1269843.15
-            ],
-            [
-              "L",
-              2611086.492,
-              -1269500.56
-            ],
-            [
-              "L",
-              2611130.99,
-              -1269110.558
-            ],
-            [
-              "L",
-              2611121.964,
-              -1268903.083
-            ],
-            [
-              "L",
-              2611100.494,
-              -1268740.563
-            ],
-            [
-              "L",
-              2611110.744,
-              -1268512.065
-            ],
-            [
-              "L",
-              2611178.492,
-              -1268240.565
-            ],
-            [
-              "L",
-              2611265.963,
-              -1268047.568
-            ],
-            [
-              "L",
-              2611500.485,
-              -1267693.56
-            ],
-            [
-              "L",
-              2611740.484,
-              -1267487.561
-            ],
-            [
-              "L",
-              2611898.998,
-              -1267399.905
-            ],
-            [
-              "Z"
-            ]
-          ],
-          "name": undefined,
-          "properties": {
-            "OBJECTID_1": 22,
-            "OBJID": null,
-            "OBJECTID": 0,
-            "TXT": "0",
-            "ZTXT": null,
-            "TYPE": null,
-            "ZAHL": 0,
-            "Shape_Leng": 14839.0255242,
-            "Shape_Le_1": 14778.1650629,
-            "Shape_Area": 1109076.31304
-          }
-        }
-      ],
-      "color": "#008AC3",
-      "borderColor": "#fbfbfb"
-    },
-    {
-      "name": "Massstab",
-      "animation": true,
-      "type": "mapline",
-      "data": [
-        {
-          "path": [
-            [
-              "M",
-              2609400,
-              -1264800
-            ],
-            [
-              "L",
-              2609400,
-              -1264600
-            ],
-            [
-              "L",
-              2609400,
-              -1264700
-            ],
-            [
-              "L",
-              2610400,
-              -1264700
-            ],
-            [
-              "L",
-              2610400,
-              -1264800
-            ],
-            [
-              "L",
-              2610400,
-              -1264600
-            ]
-          ],
-          "name": undefined,
-          "properties": {
-            "OBJECTID_1": 99,
-            "OBJID": 99,
-            "OBJECTID": 99,
-            "TXT": "99",
-            "ZTXT": null,
-            "TYPE": null,
-            "ZAHL": 0,
-            "Shape_Leng": 0,
-            "Shape_Le_1": 0,
-            "Shape_Area": 0
-          }
-        }
-      ],
-      "color": "black",
-      "tooltip": {
-        "pointFormatter": function(){
-						return '<br/>';
-					}
-      },
-      "dataLabels": {
-        "enabled": true,
-        "formatter": function(){
-						return '1 km';
-					},
-        "style": {
-          "fontSize": "12px",
-          "fontWeight": "normal",
-          "color": "black"
-        },
-        "y": -10
-      }
     }
   ],
   "chart": {
-    "events": {
-      "load": function() {                
-                    this.credits.element.onclick = function() {};
-                }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "type": "line",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "map",
-    "inverted": false,
-    "renderTo": "container-11165"
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11166"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "Pflegeheime"
+    "text": "Tages- und Nachtpflegeeinrichtungen"
   },
   "subtitle": {
+    "text": "Im Kanton Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
-    "text": "Im Kanton Basel-Stadt",
-    "align": "left"
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "credits": {
     "enabled": true,
@@ -4020,63 +3425,53 @@
     },
     "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.10.2023"
   },
-  "colorAxis": {
-    "min": 0,
-    "gridLineColor": "#fbfbfb",
-    "gridLineWidth": 1,
-    "labels": {
-      "style": {
-        "color": "black",
-        "cursor": "default",
-        "fontSize": "11px",
-        "textOverflow": "none"
-      }
-    },
-    "marker": {
-      "color": "black"
-    }
-  },
-  "mapNavigation": {
-    "enabled": true,
-    "buttonOptions": {
-      "align": "left",
-      "verticalAlign": "bottom"
-    }
-  },
-  "legend": {
-    "enabled": false,
-    "align": "right",
-    "floating": true,
-    "title": {
-      "style": {
-        "fontWeight": "normal",
-        "fontSize": "11px"
-      }
-    }
-  },
-  "tooltip": {
-    "formatter": function (args) {
-				if (!this.point["lat"]) {
-					//Rhein
-					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
-				}
-				else {
-					return '<span style="font-size: 0.85em;"> ' + this.point.id + ') ' + this.point.name + '</span><br/>' +
-						'<b>' + this.point.z + '</b> Plätze';
-				}
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
 			}
   },
-  "customFunctions": {
-    "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){
-            	return chart.renderer.rect(x, y, width, height).attr({
-    	            'stroke-width':0,
-    	            fill: fill,
-    	            zIndex: 6,
-    	            class: cssClass
-            	}).add();
-            }
+  "tooltip": {
+    "formatter": function(args){
+				if (! this.point["lat"]) {
+				    //Rhein
+					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+				}
+		        else {
+		            return '<span style="font-size: 0.85em;"> ' + this.point.id + ') ' + this.point.name + '</span><br/>' + 
+								'<b>'+ this.point.z +'</b> Plätze';
+		        }
+		    }
   },
   "exporting": {
-    "filename": "11165"
+    "filename": "11166"
   }
 }

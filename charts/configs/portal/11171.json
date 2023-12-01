@@ -197,8 +197,7 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickInterval": 1
+    }
   },
   "yAxis": [
     {
@@ -246,7 +245,7 @@
     "itemMarginBottom": 5,
     "labelFormatter": function () {
         if (this.index === 1) {
-          return 'Pension- und Pflegetage (rechte Skala)';
+          return 'Pensions- und Pflegetage (rechte Skala)';
         } else {
           return this.name;
         }

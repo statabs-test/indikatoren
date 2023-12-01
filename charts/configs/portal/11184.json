@@ -33,7 +33,7 @@
           // Überprüft, ob "Donutstück" grösser als 5% ist und wenn nicht, soll Prozentwert nicht angezeigt werden
           return Math.abs(this.y) > (0.05 * Math.abs(this.total)) ? Highcharts.numberFormat(this.percentage, 1) + '%' : null;
         },
-        "distance": -23,
+        "distance": -25,
         "style": {
           "color": "black",
           "textOutline": "0px black",
@@ -181,6 +181,16 @@
             }
         }
       }
+    },
+    "pie": {
+      "shadow": false,
+      "states": {
+        "hover": {
+          "halo": {
+            "size": 0
+          }
+        }
+      }
     }
   },
   "title": {
@@ -294,13 +304,13 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E",
-    "shared": false,
+    "shared": true,
     "useHTML": false
   },
   "labels": {
     "items": [
       {
-        "html": "Aussen: Anzahl Fälle\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;Case-Mix",
+        "html": "Aussen: Anteil Fälle\u003Cbr\u002F\u003EInnen: &nbsp;&nbsp;&nbsp;Anteil Case-Mix",
         "style": {
           "left": "300px",
           "top": "250px"

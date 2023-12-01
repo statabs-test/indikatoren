@@ -48,9 +48,9 @@
         if (this.index === 0) {
           return 'Auslastung';
         } else if (this.index === 1) {
-          return 'Mit ausserkantonale Tagesgästen (rechte Skala)';
+          return 'Mit ausserkantonalen Tagesgästen (rechte Skala)';
         } else if (this.index === 2) {
-          return 'Ohne ausserkantonale Tagesgästen (rechte Skala)';
+          return 'Ohne ausserkantonale Tagesgäste (rechte Skala)';
         }
       }
     },

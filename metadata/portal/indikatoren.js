@@ -40,15 +40,55 @@ var indikatoren = [
 		"id": 11165
 	},
 	{
+		"template": "line001",
+		"data-id": 11166,
+		"chart-id": 11166,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Tages- und Nachtpflegeeinrichtungen",
+		"subtitle": "Im Kanton Basel-Stadt",
+		"lesehilfe": "",
+		"erlaeuterungen": "Spezialisierte Tagesstrukturen dienen der Betreuung von an einer Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/tagesstrukturen.html' target = '_blank'>Aktuelle List der Anbieter von Tagespflegeeinrichtungen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Tages- und Nachtpflegeeinrichtungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "I.14.2.11166",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.2",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-10-26T10:35:50",
+		"id": 11166
+	},
+	{
 		"template": "map001",
 		"data-id": 11167,
 		"chart-id": 11167,
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Wohnungen im Service-Angebot",
+		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Im Kanton Basel-Stadt",
-		"lesehilfe": "Ende 2022 hatte das Tertianum mit 107 mit meisten Wohnungen mit einer Leistungsvereinbarung aller Standorte.",
+		"lesehilfe": "Ende 2022 hatte das Tertianum mit 107 Wohnungen mit Service-Angebot.",
 		"erlaeuterungen": "Wohnungen mit Leistungsvereinbarung mit dem Kanton oder im tieferen Preissegment.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -60,7 +100,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Wohnungen im Service-Angebot",
+		"description": "Wohnungen mit Service-Angebot",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "I.14.2.11167",
@@ -290,7 +330,7 @@ var indikatoren = [
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "",
 		"lesehilfe": "Im Jahr 2022 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen 65,2%. Ein leichter Rückgang der totalen Auslastung als im Vorjahr ist zu verzeichnen. Im Jahr 2022 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgästen 25 579.",
-		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet.",
+		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z.B. an fünf statt nur an zwei Tagen pro Woche, so lange bis sie in ein Pflegeheim eintreten konnten.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -301,8 +341,8 @@ var indikatoren = [
 		],
 		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"thema": "14 Gesundheit",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "I.14.2.11173",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "1.9",
 		"stufe1": "1 Langzeitpflege",

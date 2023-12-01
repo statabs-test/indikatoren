@@ -21,31 +21,6 @@
 
         }
       }
-/*
-      events: {
-        load: function () {
-
-          this.series[0].points.forEach(point => {
-
-            if (point.name == 'Alle Spitäler') {
-              point.update({
-                marker: {
-                  symbol: 'square',
-                  radius: 7,
-                  enabled: true,
-                  states: {
-                    hover: {
-                      enabled: true,
-                      symbol: 'square',
-                    }
-                  }
-                }
-              });
-            }
-          });
-        }
-      }
-*/
     },
     yAxis: {
       tickAmount: 7,

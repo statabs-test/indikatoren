@@ -3259,19 +3259,19 @@
         {
           "lat": 47.54758331,
           "lon": 7.616305358,
-          "name": "Bethesda Park",
+          "name": "Bethesda Park*",
           "z": 62
         },
         {
           "lat": 47.56441913,
           "lon": 7.596383233,
-          "name": "Bethesda Wesley Haus",
+          "name": "Bethesda Wesley Haus*",
           "z": 44
         },
         {
           "lat": 47.57346745,
           "lon": 7.638706438,
-          "name": "BSB Wohnen mit Service im Alter - Basler Dybli",
+          "name": "BSB Wohnen mit Service im Alter - Basler Dybli*",
           "z": 28
         },
         {
@@ -3283,49 +3283,49 @@
         {
           "lat": 47.54786082,
           "lon": 7.613623178,
-          "name": "BSB Wohnen mit Service im Alter - Gellertfeld",
+          "name": "BSB Wohnen mit Service im Alter - Gellertfeld*",
           "z": 58
         },
         {
           "lat": 47.55937122,
           "lon": 7.600415577,
-          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
+          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark*",
           "z": 68
         },
         {
           "lat": 47.56685161,
           "lon": 7.564436763,
-          "name": "Casavita Kannenfeld",
+          "name": "Casavita Kannenfeld*",
           "z": 24
         },
         {
           "lat": 47.54535803,
           "lon": 7.62118528,
-          "name": "Casavita Lehenmatt",
+          "name": "Casavita Lehenmatt*",
           "z": 25
         },
         {
           "lat": 47.56401106,
           "lon": 7.597315332,
-          "name": "Gustav Benz Haus",
+          "name": "Gustav Benz Haus*",
           "z": 16
         },
         {
           "lat": 47.56879326,
           "lon": 7.594711125,
-          "name": "Gustav Benz Haus",
+          "name": "Gustav Benz Haus*",
           "z": 21
         },
         {
           "lat": 47.55273281,
           "lon": 7.586971886,
-          "name": "irides",
+          "name": "irides*",
           "z": 14
         },
         {
           "lat": 47.57023803,
           "lon": 7.593754365,
-          "name": "Marienhaus",
+          "name": "Marienhaus*",
           "z": 14
         },
         {
@@ -3343,19 +3343,19 @@
         {
           "lat": 47.58368277,
           "lon": 7.593069566,
-          "name": "St. Christophorus",
+          "name": "St. Christophorus*",
           "z": 37
         },
         {
           "lat": 47.56869462,
           "lon": 7.566964973,
-          "name": "Sternenhof: Luzernerring",
+          "name": "Sternenhof: Luzernerring*",
           "z": 33
         },
         {
           "lat": 47.56880209,
           "lon": 7.575034187,
-          "name": "Sternenhof: Vogesenstrasse",
+          "name": "Sternenhof: Vogesenstrasse*",
           "z": 5
         },
         {
@@ -3373,13 +3373,13 @@
         {
           "lat": 47.58078731,
           "lon": 7.592453501,
-          "name": "Wiesendamm",
+          "name": "Wiesendamm*",
           "z": 41
         },
         {
           "lat": 47.52735032,
           "lon": 7.59771192,
-          "name": "zum Wasserturm",
+          "name": "zum Wasserturm*",
           "z": 38
         }
       ]
@@ -3831,7 +3831,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnungen im Service-Angebot"
+    "text": "Wohnungen mit Service-Angebot"
   },
   "subtitle": {
     "style": {
