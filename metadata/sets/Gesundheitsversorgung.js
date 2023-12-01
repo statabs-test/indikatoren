@@ -39,7 +39,7 @@ var indikatorensetData = [
 		"id": 11165
 	},
 	{
-		"template": "line001",
+		"template": "map001",
 		"data-id": 11166,
 		"chart-id": 11166,
 		"filter": "",
@@ -71,7 +71,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"orderKey": "01_00_00_00_00_002",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-10-26T10:35:50",
