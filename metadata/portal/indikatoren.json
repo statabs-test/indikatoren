@@ -9,7 +9,7 @@
 		"title": "Nichtbezug von bedarfsabhängigen Sozialleistungen und Sozialhilfe",
 		"subtitle": "Stadt Basel",
 		"lesehilfe": "23% der im Jahr 2015 Anspruchsberechtigten haben keine Familienmietzinsbeiträge bezogen. Die Nichtbezugsquote bei den Ergänzungsleistungen (EL) zur AHV lag 2015 bei 29%, jene der Prämienverbilligung bei 19%. Rund 30% der Personen mit Anspruch auf Sozialhilfe haben diesen nicht geltend gemacht.",
-		"erlaeuterungen": "Die Berner Fachhochschule hat für das Jahr 2018 im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt die Nichtbezugsquote für die Sozialleistungen Ergänzungsleistungen, Familienmietzinsbeiträge und Prämienverbilligung berechnet. 2023 wurde diese auch für den Bezug von Sozialhilfe berechnet. Die Berechnungen basieren auf kantonalen Registerdaten.<br>Mietzinsbeiträge: Familienmietzinsbeiträge",
+		"erlaeuterungen": "Die Berner Fachhochschule hat im Auftrag des Amts für Sozialbeiträge des Kantons Basel-Stadt für das Jahr 2015 die Nichtbezugsquoten für die Ergänzungsleistungen, Familienmietzinsbeiträge und Prämienverbilligung berechnet. In einem weiteren Projekt im Auftrag der Sozialhilfe Basel-Stadt wurde die Nichtbezugsquote auch für den Bezug von Sozialhilfe für die Jahre 2016 bis 2020 berechnet. Die Berechnungen basieren auf kantonalen Registerdaten.<br>Mietzinsbeiträge: Familienmietzinsbeiträge",
 		"quellenangabe": [
 			"Berner Fachhochschule (BFH)"
 		],
@@ -38,6 +38,44 @@
 		"id": 10032
 	},
 	{
+		"template": "template001",
+		"data-id": 10034,
+		"chart-id": 10034,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Sicherheitsgefühl im Alltag",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
+		"lesehilfe": "94,9% der 2019 Befragten fühlen sich im Alltag sehr oder eher sicher. Der Anteil Befragter, die sich sehr sicher fühlen ist 2019 gegenüber den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Sicherheitsgefühl im Alltag",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.10034",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1.2.5",
+		"stufe1": "Leben",
+		"stufe2": "1.2 Psychische Gesundheit und körperliche Integrität",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_205",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-05-17T08:55:24",
+		"id": 10034
+	},
+	{
 		"template": "line001",
 		"data-id": 10035,
 		"chart-id": 10035,
@@ -47,7 +85,7 @@
 		"title": "Jugendliche ausserhalb des Bildungssystems",
 		"subtitle": "Basel-Stadt und Schweiz",
 		"lesehilfe": "Der Anteil der Jugendlichen ausserhalb des Bildungssystems betrug in Basel-Stadt im Mittel der Jahre 2019 bis 2021 9,9%. Das 95%-Konfidenzintervall dieses Anteils liegt zwischen 7,9% und 11,8%. Somit ist der Anteil Jugendlicher ausserhalb des Bildungssystems in Basel-Stadt signifikant höher als der durchschnittliche Anteil in der Schweiz (6,3%, 95%-Konfidenzintervall: 6,1% - 6,5%).",
-		"erlaeuterungen": "Anteil der Personen an der Wohnbevölkerung zwischen 18 und 24 Jahren, welche höchstens die obligatorische Schule abgeschlossen haben. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall kann interpretiert werden als der Bereich, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten aus jeweils drei Jahren zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Somit liegt ein methodischer Bruch innerhalb des Betrachtungszeitraums vor.",
+		"erlaeuterungen": "Anteil der Personen an der Wohnbevölkerung zwischen 18 und 24 Jahren, welche höchstens die obligatorische Schule abgeschlossen haben. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau (Bereich, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst). Um eine grössere Stichprobe zu erhalten, werden die Daten aus jeweils drei Jahren zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die neueren Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
