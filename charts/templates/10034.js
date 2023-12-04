@@ -39,11 +39,11 @@
    
     {
       "color": "#68AB2B ",
-      "legendIndex": 2  
+      //"legendIndex": 2  
     },
     {
       "color": "#662673",
-      "legendIndex": 1  
+      //"legendIndex": 1  
     }        
   ],
   "chart": {    

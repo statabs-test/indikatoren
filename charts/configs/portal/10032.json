@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#007A2F",
       "data": [
         [
           "Mietzinsbeiträge",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#E7CEE2",
       "data": [
         [
           "Mietzinsbeiträge",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#B375AB",
       "data": [
         [
           "Mietzinsbeiträge",
@@ -70,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#923F8D",
       "data": [
         [
           "Mietzinsbeiträge",
@@ -93,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#662673",
       "data": [
         [
           "Mietzinsbeiträge",
@@ -113,6 +113,29 @@
         ]
       ],
       "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2E1435",
+      "data": [
+        [
+          "Mietzinsbeiträge",
+          null
+        ],
+        [
+          "EL zur AHV",
+          null
+        ],
+        [
+          "Prämienverbilligung",
+          null
+        ],
+        [
+          "Sozialhilfe",
+          34
+        ]
+      ],
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
