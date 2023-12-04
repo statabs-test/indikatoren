@@ -56,7 +56,7 @@
 				enabled: true,
 				borderColor: '#ffffff',
 				borderWidth: 1,
-				color: '#8bbc21',
+				color: '#bbbbbb',
 				connectorColor: '#cccccc',
 				connectorDistance: 20
 			}
@@ -90,7 +90,7 @@
 				maxSize: '6%',
 				marker: {
 					//radius: this.point.value
-					fillColor: '#a1c436',
+					fillColor: '#009884',
 					fillOpacity: 0.6,
 					lineColor: '#ffffff'
 				},
@@ -107,7 +107,7 @@
 				maxSize: '6%',
 				marker: {
 					//radius: this.point.value
-					fillColor: '#ff0000',
+					fillColor: '#ed802f',
 					fillOpacity: 0.6,
 					lineColor: '#ffffff'
 				},

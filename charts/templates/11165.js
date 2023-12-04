@@ -47,7 +47,7 @@
 				enabled: true,
 				borderColor: '#ffffff',
 				borderWidth: 1,
-				color: '#8bbc21',
+				color: '#bbbbbb',
 				connectorColor: '#cccccc',
 				connectorDistance: 20
 			}
