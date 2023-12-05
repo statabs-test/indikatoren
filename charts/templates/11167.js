@@ -14,7 +14,7 @@
 				else {
 					return '<span style="font-size: 0.85em;"><b> ' + this.point.name + '</b><br/>' +
 						this.point.address + '</span><br/>' +
-						'<b>' + this.point.z + '</b> Plätze';
+						'<b>' + this.point.z + '</b> Wohnungen';
 				}
 			}
 		},
@@ -40,11 +40,17 @@
 			enabled: true,
 			width: 215,
 			//itemWidth: 210,
+			title: {
+				text: "Anzahl Wohnungen",
+				style: {
+					"fontWeight": "bold",
+					fontSize: "12px"
+				}
+			},
 			itemMarginBottom: 5,
 			labelFormatter: function () {
-				console.log(this);
-				if (this._i == 1) return "<b>ohne</b> Leistungsvereinbarung oder im <b>höheren</b> Preissegment";
-				if (this._i == 2) return "<b>mit</b> Leistungsvereinbarung oder im <b>tieferen</b> Preissegment";
+				if (this._i == 2) return "<b>ohne</b> Leistungsvereinbarung oder im <b>höheren</b> Preissegment";
+				if (this._i == 3) return "<b>mit</b> Leistungsvereinbarung oder im <b>tieferen</b> Preissegment";
 			},
 			itemStyle: {
 				fontWeight: "normal",
@@ -57,7 +63,10 @@
 				borderWidth: 1,
 				color: '#bbbbbb',
 				connectorColor: '#cccccc',
-				connectorDistance: 20
+				connectorDistance: 20,
+				labels:{
+					format: '{value:.0f}'
+				}
 			}
 		},
 		"colorAxis": {
@@ -77,7 +86,14 @@
 					}
 				},
 				nullColor: '#cccccc',
-			}
+			},
+			{
+				"name": "Rhein",
+				"animation": true,
+				"data": rheinDataEPSG2056,
+				"color": "#008AC3",
+				"borderColor": "#fbfbfb"
+			},
 		],
 
 		"series": [
@@ -115,6 +131,29 @@
 				},
 				showInLegend: true,
 			}
-		]
+		],
+		"afterSeries": [
+
+			{
+				name: 'Massstab',
+				animation: true,
+				type: 'mapline',
+				data: scalebarDataEPSG2056,
+				color: 'black',
+				tooltip: {
+					pointFormatter: function () {
+						return '<br/>';
+					}
+				},
+				dataLabels: {
+					enabled: true,
+					formatter: function () {
+						return '1 km';
+					},
+					style: { fontSize: "12px", fontWeight: "normal", color: 'black' },
+					y: -10
+				}
+			}
+		],
 	};
 }());

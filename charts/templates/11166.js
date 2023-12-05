@@ -44,10 +44,16 @@
 			enabled: true,
 			width: '200px',
 			itemMarginBottom: 5,
+			title: {
+				text: "Anzahl Plätze",
+				style: {
+					"fontWeight": "bold",
+					fontSize: "12px"
+				}
+			},
 			labelFormatter: function () {
-				console.log(this);
-				if (this._i == 1) return "Allgemeine Tagesstruktur";
-				if (this._i == 2) return "Spezialisierte Tagesstruktur";
+				if (this._i == 2) return "Allgemeine Tagesstruktur";
+				if (this._i == 3) return "Spezialisierte Tagesstruktur";
 			},
 			itemStyle: {
 				fontWeight: "normal"
@@ -58,7 +64,10 @@
 				borderWidth: 1,
 				color: '#bbbbbb',
 				connectorColor: '#cccccc',
-				connectorDistance: 20
+				connectorDistance: 20,
+				labels:{
+					format: '{value:.0f}'
+				}
 			}
 		},
 		"colorAxis": {
@@ -78,7 +87,14 @@
 					}
 				},
 				nullColor: '#cccccc',
-			}
+			},
+			{
+				"name": "Rhein",
+				"animation": true,
+				"data": rheinDataEPSG2056,
+				"color": "#008AC3",
+				"borderColor": "#fbfbfb"
+			},
 		],
 
 		"series": [
@@ -116,6 +132,29 @@
 				},
 				showInLegend: true
 			}
-		]
+		],
+		"afterSeries": [
+
+			{
+				name: 'Massstab',
+				animation: true,
+				type: 'mapline',
+				data: scalebarDataEPSG2056,
+				color: 'black',
+				tooltip: {
+					pointFormatter: function () {
+						return '<br/>';
+					}
+				},
+				dataLabels: {
+					enabled: true,
+					formatter: function () {
+						return '1 km';
+					},
+					style: { fontSize: "12px", fontWeight: "normal", color: 'black' },
+					y: -10
+				}
+			}
+		],
 	};
 }());
