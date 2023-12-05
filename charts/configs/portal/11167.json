@@ -3236,350 +3236,6 @@
       "nullColor": "#cccccc"
     },
     {
-      "type": "mapbubble",
-      "id": "points",
-      "name": "lon",
-      "minSize": 7,
-      "maxSize": "6%",
-      "marker": {
-        "fillColor": "#a1c436",
-        "fillOpacity": 0.6,
-        "lineColor": "#ffffff"
-      },
-      "dataLabels": {
-        "enabled": false
-      },
-      "showInLegend": true,
-      "data": [
-        {
-          "lat": 47.55940168,
-          "lon": 7.579836761,
-          "name": "Adullam Basel",
-          "z": 4,
-          "address": "Missionsstrasse 8a, 4055 Basel"
-        },
-        {
-          "lat": 47.54758331,
-          "lon": 7.616305358,
-          "name": "Bethesda Park",
-          "z": null,
-          "address": "Gellertstrasse 148, 4052 Basel"
-        },
-        {
-          "lat": 47.56441913,
-          "lon": 7.596383233,
-          "name": "Bethesda Wesley Haus",
-          "z": null,
-          "address": "Klingentalstrasse 58, 4057 Basel"
-        },
-        {
-          "lat": 47.57346745,
-          "lon": 7.638706438,
-          "name": "BSB Wohnen mit Service im Alter - Basler Dybli",
-          "z": null,
-          "address": "Gstaltenrainweg 79\u002F81, 4125 Riehen"
-        },
-        {
-          "lat": 47.55055119,
-          "lon": 7.601977765,
-          "name": "BSB Wohnen mit Service im Alter - Dalbehof",
-          "z": 53,
-          "address": "Kapellenstrasse 17, 4052 Basel"
-        },
-        {
-          "lat": 47.54786082,
-          "lon": 7.613623178,
-          "name": "BSB Wohnen mit Service im Alter - Gellertfeld",
-          "z": null,
-          "address": "Karl Jaspers-Allee 35, 4052 Basel"
-        },
-        {
-          "lat": 47.55937122,
-          "lon": 7.600415577,
-          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
-          "z": null,
-          "address": "Rheinfelderstrasse 35-43, Wettsteinallee 20, 4058 Basel"
-        },
-        {
-          "lat": 47.56685161,
-          "lon": 7.564436763,
-          "name": "Casavita Kannenfeld",
-          "z": null,
-          "address": "Burgfelderstrasse 190, 4055 Basel"
-        },
-        {
-          "lat": 47.54535803,
-          "lon": 7.62118528,
-          "name": "Casavita Lehenmatt",
-          "z": null,
-          "address": "Lehenmattstr. 307\u002F309, Birsstr. 244\u002F246, 4052 Basel"
-        },
-        {
-          "lat": 47.56401106,
-          "lon": 7.597315332,
-          "name": "Gustav Benz Haus",
-          "z": null,
-          "address": "Drahtzugstrasse 57, 4057 Basel"
-        },
-        {
-          "lat": 47.56879326,
-          "lon": 7.594711125,
-          "name": "Gustav Benz Haus",
-          "z": null,
-          "address": "Hammerstrasse 161, 4057 Basel"
-        },
-        {
-          "lat": 47.55273281,
-          "lon": 7.586971886,
-          "name": "irides",
-          "z": null,
-          "address": "Steinengraben 75, 4051 Basel"
-        },
-        {
-          "lat": 47.57023803,
-          "lon": 7.593754365,
-          "name": "Marienhaus",
-          "z": null,
-          "address": "Markgräflerstrasse 47\u002F49, 4057 Basel"
-        },
-        {
-          "lat": 47.56915578,
-          "lon": 7.599312706,
-          "name": "Senevita Erlenmatt",
-          "z": 63,
-          "address": "Erlenmattstrasse 7, 4057 Basel"
-        },
-        {
-          "lat": 47.54448275,
-          "lon": 7.608830397,
-          "name": "Senevita Gellertblick",
-          "z": 70,
-          "address": "St. Jakobs-Strasse 201, 4052 Basel"
-        },
-        {
-          "lat": 47.58368277,
-          "lon": 7.593069566,
-          "name": "St. Christophorus",
-          "z": null,
-          "address": "Dorfstrasse 26, Kleinhüningeranlage 29\u002F31, 4057 Basel"
-        },
-        {
-          "lat": 47.56869462,
-          "lon": 7.566964973,
-          "name": "Sternenhof: Luzernerring",
-          "z": null,
-          "address": "Luzernerring 92, 4056 Basel"
-        },
-        {
-          "lat": 47.56880209,
-          "lon": 7.575034187,
-          "name": "Sternenhof: Vogesenstrasse",
-          "z": null,
-          "address": "Vogesenstrasse 111, 4056 Basel"
-        },
-        {
-          "lat": 47.54572026,
-          "lon": 7.589008433,
-          "name": "Südpark",
-          "z": 103,
-          "address": "Meret Oppenheim Strasse 62, 4053 Basel"
-        },
-        {
-          "lat": 47.54112172,
-          "lon": 7.619114431,
-          "name": "Tertianum",
-          "z": 107,
-          "address": "St. Jakobs-Strasse 395, 4052 Basel"
-        },
-        {
-          "lat": 47.58078731,
-          "lon": 7.592453501,
-          "name": "Wiesendamm",
-          "z": null,
-          "address": "Wiesendamm 20\u002F22, 4057 Basel"
-        },
-        {
-          "lat": 47.52735032,
-          "lon": 7.59771192,
-          "name": "zum Wasserturm",
-          "z": null,
-          "address": "Giornicostrasse 144, 4059 Basel"
-        }
-      ]
-    },
-    {
-      "type": "mapbubble",
-      "id": "points",
-      "name": "lon",
-      "minSize": 7,
-      "maxSize": "6%",
-      "marker": {
-        "fillColor": "#006b5e",
-        "fillOpacity": 0.6,
-        "lineColor": "#ffffff"
-      },
-      "dataLabels": {
-        "enabled": false
-      },
-      "showInLegend": true,
-      "data": [
-        {
-          "lat": 47.55940168,
-          "lon": 7.579836761,
-          "name": "Adullam Basel",
-          "z": null,
-          "address": "Missionsstrasse 8a, 4055 Basel"
-        },
-        {
-          "lat": 47.54758331,
-          "lon": 7.616305358,
-          "name": "Bethesda Park",
-          "z": 62,
-          "address": "Gellertstrasse 148, 4052 Basel"
-        },
-        {
-          "lat": 47.56441913,
-          "lon": 7.596383233,
-          "name": "Bethesda Wesley Haus",
-          "z": 44,
-          "address": "Klingentalstrasse 58, 4057 Basel"
-        },
-        {
-          "lat": 47.57346745,
-          "lon": 7.638706438,
-          "name": "BSB Wohnen mit Service im Alter - Basler Dybli",
-          "z": 28,
-          "address": "Gstaltenrainweg 79\u002F81, 4125 Riehen"
-        },
-        {
-          "lat": 47.55055119,
-          "lon": 7.601977765,
-          "name": "BSB Wohnen mit Service im Alter - Dalbehof",
-          "z": null,
-          "address": "Kapellenstrasse 17, 4052 Basel"
-        },
-        {
-          "lat": 47.54786082,
-          "lon": 7.613623178,
-          "name": "BSB Wohnen mit Service im Alter - Gellertfeld",
-          "z": 58,
-          "address": "Karl Jaspers-Allee 35, 4052 Basel"
-        },
-        {
-          "lat": 47.55937122,
-          "lon": 7.600415577,
-          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
-          "z": 68,
-          "address": "Rheinfelderstrasse 35-43, Wettsteinallee 20, 4058 Basel"
-        },
-        {
-          "lat": 47.56685161,
-          "lon": 7.564436763,
-          "name": "Casavita Kannenfeld",
-          "z": 24,
-          "address": "Burgfelderstrasse 190, 4055 Basel"
-        },
-        {
-          "lat": 47.54535803,
-          "lon": 7.62118528,
-          "name": "Casavita Lehenmatt",
-          "z": 25,
-          "address": "Lehenmattstr. 307\u002F309, Birsstr. 244\u002F246, 4052 Basel"
-        },
-        {
-          "lat": 47.56401106,
-          "lon": 7.597315332,
-          "name": "Gustav Benz Haus",
-          "z": 16,
-          "address": "Drahtzugstrasse 57, 4057 Basel"
-        },
-        {
-          "lat": 47.56879326,
-          "lon": 7.594711125,
-          "name": "Gustav Benz Haus",
-          "z": 21,
-          "address": "Hammerstrasse 161, 4057 Basel"
-        },
-        {
-          "lat": 47.55273281,
-          "lon": 7.586971886,
-          "name": "irides",
-          "z": 14,
-          "address": "Steinengraben 75, 4051 Basel"
-        },
-        {
-          "lat": 47.57023803,
-          "lon": 7.593754365,
-          "name": "Marienhaus",
-          "z": 14,
-          "address": "Markgräflerstrasse 47\u002F49, 4057 Basel"
-        },
-        {
-          "lat": 47.56915578,
-          "lon": 7.599312706,
-          "name": "Senevita Erlenmatt",
-          "z": null,
-          "address": "Erlenmattstrasse 7, 4057 Basel"
-        },
-        {
-          "lat": 47.54448275,
-          "lon": 7.608830397,
-          "name": "Senevita Gellertblick",
-          "z": null,
-          "address": "St. Jakobs-Strasse 201, 4052 Basel"
-        },
-        {
-          "lat": 47.58368277,
-          "lon": 7.593069566,
-          "name": "St. Christophorus",
-          "z": 37,
-          "address": "Dorfstrasse 26, Kleinhüningeranlage 29\u002F31, 4057 Basel"
-        },
-        {
-          "lat": 47.56869462,
-          "lon": 7.566964973,
-          "name": "Sternenhof: Luzernerring",
-          "z": 33,
-          "address": "Luzernerring 92, 4056 Basel"
-        },
-        {
-          "lat": 47.56880209,
-          "lon": 7.575034187,
-          "name": "Sternenhof: Vogesenstrasse",
-          "z": 5,
-          "address": "Vogesenstrasse 111, 4056 Basel"
-        },
-        {
-          "lat": 47.54572026,
-          "lon": 7.589008433,
-          "name": "Südpark",
-          "z": null,
-          "address": "Meret Oppenheim Strasse 62, 4053 Basel"
-        },
-        {
-          "lat": 47.54112172,
-          "lon": 7.619114431,
-          "name": "Tertianum",
-          "z": null,
-          "address": "St. Jakobs-Strasse 395, 4052 Basel"
-        },
-        {
-          "lat": 47.58078731,
-          "lon": 7.592453501,
-          "name": "Wiesendamm",
-          "z": 41,
-          "address": "Wiesendamm 20\u002F22, 4057 Basel"
-        },
-        {
-          "lat": 47.52735032,
-          "lon": 7.59771192,
-          "name": "zum Wasserturm",
-          "z": 38,
-          "address": "Giornicostrasse 144, 4059 Basel"
-        }
-      ]
-    },
-    {
       "name": "Rhein",
       "animation": true,
       "data": [
@@ -3928,6 +3584,350 @@
       "borderColor": "#fbfbfb"
     },
     {
+      "type": "mapbubble",
+      "id": "points",
+      "name": "lon",
+      "minSize": 7,
+      "maxSize": "6%",
+      "marker": {
+        "fillColor": "#a1c436",
+        "fillOpacity": 0.6,
+        "lineColor": "#ffffff"
+      },
+      "dataLabels": {
+        "enabled": false
+      },
+      "showInLegend": true,
+      "data": [
+        {
+          "lat": 47.55940168,
+          "lon": 7.579836761,
+          "name": "Adullam Basel",
+          "z": 4,
+          "address": "Missionsstrasse 8a, 4055 Basel"
+        },
+        {
+          "lat": 47.54758331,
+          "lon": 7.616305358,
+          "name": "Bethesda Park",
+          "z": null,
+          "address": "Gellertstrasse 148, 4052 Basel"
+        },
+        {
+          "lat": 47.56441913,
+          "lon": 7.596383233,
+          "name": "Bethesda Wesley Haus",
+          "z": null,
+          "address": "Klingentalstrasse 58, 4057 Basel"
+        },
+        {
+          "lat": 47.57346745,
+          "lon": 7.638706438,
+          "name": "BSB Wohnen mit Service im Alter - Basler Dybli",
+          "z": null,
+          "address": "Gstaltenrainweg 79\u002F81, 4125 Riehen"
+        },
+        {
+          "lat": 47.55055119,
+          "lon": 7.601977765,
+          "name": "BSB Wohnen mit Service im Alter - Dalbehof",
+          "z": 53,
+          "address": "Kapellenstrasse 17, 4052 Basel"
+        },
+        {
+          "lat": 47.54786082,
+          "lon": 7.613623178,
+          "name": "BSB Wohnen mit Service im Alter - Gellertfeld",
+          "z": null,
+          "address": "Karl Jaspers-Allee 35, 4052 Basel"
+        },
+        {
+          "lat": 47.55937122,
+          "lon": 7.600415577,
+          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
+          "z": null,
+          "address": "Rheinfelderstrasse 35-43, Wettsteinallee 20, 4058 Basel"
+        },
+        {
+          "lat": 47.56685161,
+          "lon": 7.564436763,
+          "name": "Casavita Kannenfeld",
+          "z": null,
+          "address": "Burgfelderstrasse 190, 4055 Basel"
+        },
+        {
+          "lat": 47.54535803,
+          "lon": 7.62118528,
+          "name": "Casavita Lehenmatt",
+          "z": null,
+          "address": "Lehenmattstr. 307\u002F309, Birsstr. 244\u002F246, 4052 Basel"
+        },
+        {
+          "lat": 47.56401106,
+          "lon": 7.597315332,
+          "name": "Gustav Benz Haus",
+          "z": null,
+          "address": "Drahtzugstrasse 57, 4057 Basel"
+        },
+        {
+          "lat": 47.56879326,
+          "lon": 7.594711125,
+          "name": "Gustav Benz Haus",
+          "z": null,
+          "address": "Hammerstrasse 161, 4057 Basel"
+        },
+        {
+          "lat": 47.55273281,
+          "lon": 7.586971886,
+          "name": "irides",
+          "z": null,
+          "address": "Steinengraben 75, 4051 Basel"
+        },
+        {
+          "lat": 47.57023803,
+          "lon": 7.593754365,
+          "name": "Marienhaus",
+          "z": null,
+          "address": "Markgräflerstrasse 47\u002F49, 4057 Basel"
+        },
+        {
+          "lat": 47.56915578,
+          "lon": 7.599312706,
+          "name": "Senevita Erlenmatt",
+          "z": 63,
+          "address": "Erlenmattstrasse 7, 4057 Basel"
+        },
+        {
+          "lat": 47.54448275,
+          "lon": 7.608830397,
+          "name": "Senevita Gellertblick",
+          "z": 70,
+          "address": "St. Jakobs-Strasse 201, 4052 Basel"
+        },
+        {
+          "lat": 47.58368277,
+          "lon": 7.593069566,
+          "name": "St. Christophorus",
+          "z": null,
+          "address": "Dorfstrasse 26, Kleinhüningeranlage 29\u002F31, 4057 Basel"
+        },
+        {
+          "lat": 47.56869462,
+          "lon": 7.566964973,
+          "name": "Sternenhof: Luzernerring",
+          "z": null,
+          "address": "Luzernerring 92, 4056 Basel"
+        },
+        {
+          "lat": 47.56880209,
+          "lon": 7.575034187,
+          "name": "Sternenhof: Vogesenstrasse",
+          "z": null,
+          "address": "Vogesenstrasse 111, 4056 Basel"
+        },
+        {
+          "lat": 47.54572026,
+          "lon": 7.589008433,
+          "name": "Südpark",
+          "z": 103,
+          "address": "Meret Oppenheim Strasse 62, 4053 Basel"
+        },
+        {
+          "lat": 47.54112172,
+          "lon": 7.619114431,
+          "name": "Tertianum",
+          "z": 107,
+          "address": "St. Jakobs-Strasse 395, 4052 Basel"
+        },
+        {
+          "lat": 47.58078731,
+          "lon": 7.592453501,
+          "name": "Wiesendamm",
+          "z": null,
+          "address": "Wiesendamm 20\u002F22, 4057 Basel"
+        },
+        {
+          "lat": 47.52735032,
+          "lon": 7.59771192,
+          "name": "zum Wasserturm",
+          "z": null,
+          "address": "Giornicostrasse 144, 4059 Basel"
+        }
+      ]
+    },
+    {
+      "type": "mapbubble",
+      "id": "points",
+      "name": "lon",
+      "minSize": 7,
+      "maxSize": "6%",
+      "marker": {
+        "fillColor": "#006b5e",
+        "fillOpacity": 0.6,
+        "lineColor": "#ffffff"
+      },
+      "dataLabels": {
+        "enabled": false
+      },
+      "showInLegend": true,
+      "data": [
+        {
+          "lat": 47.55940168,
+          "lon": 7.579836761,
+          "name": "Adullam Basel",
+          "z": null,
+          "address": "Missionsstrasse 8a, 4055 Basel"
+        },
+        {
+          "lat": 47.54758331,
+          "lon": 7.616305358,
+          "name": "Bethesda Park",
+          "z": 62,
+          "address": "Gellertstrasse 148, 4052 Basel"
+        },
+        {
+          "lat": 47.56441913,
+          "lon": 7.596383233,
+          "name": "Bethesda Wesley Haus",
+          "z": 44,
+          "address": "Klingentalstrasse 58, 4057 Basel"
+        },
+        {
+          "lat": 47.57346745,
+          "lon": 7.638706438,
+          "name": "BSB Wohnen mit Service im Alter - Basler Dybli",
+          "z": 28,
+          "address": "Gstaltenrainweg 79\u002F81, 4125 Riehen"
+        },
+        {
+          "lat": 47.55055119,
+          "lon": 7.601977765,
+          "name": "BSB Wohnen mit Service im Alter - Dalbehof",
+          "z": null,
+          "address": "Kapellenstrasse 17, 4052 Basel"
+        },
+        {
+          "lat": 47.54786082,
+          "lon": 7.613623178,
+          "name": "BSB Wohnen mit Service im Alter - Gellertfeld",
+          "z": 58,
+          "address": "Karl Jaspers-Allee 35, 4052 Basel"
+        },
+        {
+          "lat": 47.55937122,
+          "lon": 7.600415577,
+          "name": "BSB Wohnen mit Service im Alter - Wettsteinpark",
+          "z": 68,
+          "address": "Rheinfelderstrasse 35-43, Wettsteinallee 20, 4058 Basel"
+        },
+        {
+          "lat": 47.56685161,
+          "lon": 7.564436763,
+          "name": "Casavita Kannenfeld",
+          "z": 24,
+          "address": "Burgfelderstrasse 190, 4055 Basel"
+        },
+        {
+          "lat": 47.54535803,
+          "lon": 7.62118528,
+          "name": "Casavita Lehenmatt",
+          "z": 25,
+          "address": "Lehenmattstr. 307\u002F309, Birsstr. 244\u002F246, 4052 Basel"
+        },
+        {
+          "lat": 47.56401106,
+          "lon": 7.597315332,
+          "name": "Gustav Benz Haus",
+          "z": 16,
+          "address": "Drahtzugstrasse 57, 4057 Basel"
+        },
+        {
+          "lat": 47.56879326,
+          "lon": 7.594711125,
+          "name": "Gustav Benz Haus",
+          "z": 21,
+          "address": "Hammerstrasse 161, 4057 Basel"
+        },
+        {
+          "lat": 47.55273281,
+          "lon": 7.586971886,
+          "name": "irides",
+          "z": 14,
+          "address": "Steinengraben 75, 4051 Basel"
+        },
+        {
+          "lat": 47.57023803,
+          "lon": 7.593754365,
+          "name": "Marienhaus",
+          "z": 14,
+          "address": "Markgräflerstrasse 47\u002F49, 4057 Basel"
+        },
+        {
+          "lat": 47.56915578,
+          "lon": 7.599312706,
+          "name": "Senevita Erlenmatt",
+          "z": null,
+          "address": "Erlenmattstrasse 7, 4057 Basel"
+        },
+        {
+          "lat": 47.54448275,
+          "lon": 7.608830397,
+          "name": "Senevita Gellertblick",
+          "z": null,
+          "address": "St. Jakobs-Strasse 201, 4052 Basel"
+        },
+        {
+          "lat": 47.58368277,
+          "lon": 7.593069566,
+          "name": "St. Christophorus",
+          "z": 37,
+          "address": "Dorfstrasse 26, Kleinhüningeranlage 29\u002F31, 4057 Basel"
+        },
+        {
+          "lat": 47.56869462,
+          "lon": 7.566964973,
+          "name": "Sternenhof: Luzernerring",
+          "z": 33,
+          "address": "Luzernerring 92, 4056 Basel"
+        },
+        {
+          "lat": 47.56880209,
+          "lon": 7.575034187,
+          "name": "Sternenhof: Vogesenstrasse",
+          "z": 5,
+          "address": "Vogesenstrasse 111, 4056 Basel"
+        },
+        {
+          "lat": 47.54572026,
+          "lon": 7.589008433,
+          "name": "Südpark",
+          "z": null,
+          "address": "Meret Oppenheim Strasse 62, 4053 Basel"
+        },
+        {
+          "lat": 47.54112172,
+          "lon": 7.619114431,
+          "name": "Tertianum",
+          "z": null,
+          "address": "St. Jakobs-Strasse 395, 4052 Basel"
+        },
+        {
+          "lat": 47.58078731,
+          "lon": 7.592453501,
+          "name": "Wiesendamm",
+          "z": 41,
+          "address": "Wiesendamm 20\u002F22, 4057 Basel"
+        },
+        {
+          "lat": 47.52735032,
+          "lon": 7.59771192,
+          "name": "zum Wasserturm",
+          "z": 38,
+          "address": "Giornicostrasse 144, 4059 Basel"
+        }
+      ]
+    },
+    {
       "name": "Massstab",
       "animation": true,
       "type": "mapline",
@@ -3982,13 +3982,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function(){
+        "formatter": function () {
 						return '1 km';
 					},
         "style": {
@@ -4035,7 +4035,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Im Kanton Basel-Stadt",
+    "text": "Anzahl Wohnungen, Basel-Stadt",
     "align": "left"
   },
   "credits": {
@@ -4083,16 +4083,16 @@
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": "normal",
-        "fontSize": "11px"
-      }
+        "fontWeight": "bold",
+        "fontSize": "12px"
+      },
+      "text": "Anzahl Wohnungen"
     },
     "width": 215,
     "itemMarginBottom": 5,
     "labelFormatter": function () {
-				console.log(this);
-				if (this._i == 1) return "<b>ohne</b> Leistungsvereinbarung oder im <b>höheren</b> Preissegment";
-				if (this._i == 2) return "<b>mit</b> Leistungsvereinbarung oder im <b>tieferen</b> Preissegment";
+				if (this._i == 2) return "<b>ohne</b> Leistungsvereinbarung oder im <b>höheren</b> Preissegment";
+				if (this._i == 3) return "<b>mit</b> Leistungsvereinbarung oder im <b>tieferen</b> Preissegment";
 			},
     "itemStyle": {
       "fontWeight": "normal",
@@ -4105,7 +4105,10 @@
       "borderWidth": 1,
       "color": "#bbbbbb",
       "connectorColor": "#cccccc",
-      "connectorDistance": 20
+      "connectorDistance": 20,
+      "labels": {
+        "format": "{value:.0f}"
+      }
     }
   },
   "tooltip": {
@@ -4117,7 +4120,7 @@
 				else {
 					return '<span style="font-size: 0.85em;"><b> ' + this.point.name + '</b><br/>' +
 						this.point.address + '</span><br/>' +
-						'<b>' + this.point.z + '</b> Plätze';
+						'<b>' + this.point.z + '</b> Wohnungen';
 				}
 			}
   },

@@ -3236,170 +3236,6 @@
       "nullColor": "#cccccc"
     },
     {
-      "type": "mapbubble",
-      "id": "points",
-      "name": "lon",
-      "minSize": 7,
-      "maxSize": "6%",
-      "marker": {
-        "fillColor": "#009884",
-        "fillOpacity": 0.6,
-        "lineColor": "#ffffff"
-      },
-      "dataLabels": {
-        "enabled": false
-      },
-      "showInLegend": true,
-      "data": [
-        {
-          "lat": 47.55393337,
-          "lon": 7.575958969,
-          "name": "BSB: Tagesbetreuung Weiherweg",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": 10,
-          "address": "Rudolfstrasse 43, 4054 Basel"
-        },
-        {
-          "lat": 47.57172861,
-          "lon": 7.616583161,
-          "name": "Sternenhof: Tagesbetreuung Egliseeholz",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": 52,
-          "address": "Fasanenstrasse 221, 4058 Basel"
-        },
-        {
-          "lat": 47.56888591,
-          "lon": 7.567477054,
-          "name": "Sternenhof: Tagesbetreuung Luzernerring",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": 25,
-          "address": "Luzernerring 94, 4056 Basel"
-        },
-        {
-          "lat": 47.58745942,
-          "lon": 7.654611294,
-          "name": "Wendelin: Tagesheim",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": 21,
-          "address": "Inzlingerstrasse 46, 4125 Riehen"
-        },
-        {
-          "lat": 47.56589273,
-          "lon": 7.596732747,
-          "name": "dandelion: Tagesbetreuung",
-          "spez": "Spezialisierte Tagesstruktur: Demenz",
-          "z": null,
-          "address": "Sperrstrasse 100, 4057 Basel"
-        },
-        {
-          "lat": 47.56854322,
-          "lon": 7.567077517,
-          "name": "Sternenhof: Tagesbetreuung Luzernerring",
-          "spez": "Spezialisierte Tagesstruktur: Demenz",
-          "z": null,
-          "address": "Luzernerring 94, 4056 Basel"
-        },
-        {
-          "lat": 47.56826724,
-          "lon": 7.594992633,
-          "name": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
-          "spez": "Spezialisierte Tagesstruktur: Demenz",
-          "z": null,
-          "address": "Hammerstrasse 156, 4057 Basel"
-        },
-        {
-          "lat": 47.56239822,
-          "lon": 7.590687498,
-          "name": "Stiftung Rheinleben: Tagesstätte 65+",
-          "spez": "Spezialisierte Tagesstruktur: Psychische Beeinträchtigung",
-          "z": null,
-          "address": "Klingental 1, 4058 Basel"
-        }
-      ]
-    },
-    {
-      "type": "mapbubble",
-      "id": "points",
-      "name": "lon",
-      "minSize": 7,
-      "maxSize": "6%",
-      "marker": {
-        "fillColor": "#ed802f",
-        "fillOpacity": 0.6,
-        "lineColor": "#ffffff"
-      },
-      "dataLabels": {
-        "enabled": false
-      },
-      "showInLegend": true,
-      "data": [
-        {
-          "lat": 47.55393337,
-          "lon": 7.575958969,
-          "name": "BSB: Tagesbetreuung Weiherweg",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": null,
-          "address": "Rudolfstrasse 43, 4054 Basel"
-        },
-        {
-          "lat": 47.57172861,
-          "lon": 7.616583161,
-          "name": "Sternenhof: Tagesbetreuung Egliseeholz",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": null,
-          "address": "Fasanenstrasse 221, 4058 Basel"
-        },
-        {
-          "lat": 47.56888591,
-          "lon": 7.567477054,
-          "name": "Sternenhof: Tagesbetreuung Luzernerring",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": null,
-          "address": "Luzernerring 94, 4056 Basel"
-        },
-        {
-          "lat": 47.58745942,
-          "lon": 7.654611294,
-          "name": "Wendelin: Tagesheim",
-          "spez": "Allgemeine Tagesstruktur",
-          "z": null,
-          "address": "Inzlingerstrasse 46, 4125 Riehen"
-        },
-        {
-          "lat": 47.56589273,
-          "lon": 7.596732747,
-          "name": "dandelion: Tagesbetreuung",
-          "spez": "Spezialisierte Tagesstruktur: Demenz",
-          "z": 12,
-          "address": "Sperrstrasse 100, 4057 Basel"
-        },
-        {
-          "lat": 47.56854322,
-          "lon": 7.567077517,
-          "name": "Sternenhof: Tagesbetreuung Luzernerring",
-          "spez": "Spezialisierte Tagesstruktur: Demenz",
-          "z": 13,
-          "address": "Luzernerring 94, 4056 Basel"
-        },
-        {
-          "lat": 47.56826724,
-          "lon": 7.594992633,
-          "name": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
-          "spez": "Spezialisierte Tagesstruktur: Demenz",
-          "z": 10,
-          "address": "Hammerstrasse 156, 4057 Basel"
-        },
-        {
-          "lat": 47.56239822,
-          "lon": 7.590687498,
-          "name": "Stiftung Rheinleben: Tagesstätte 65+",
-          "spez": "Spezialisierte Tagesstruktur: Psychische Beeinträchtigung",
-          "z": 14,
-          "address": "Klingental 1, 4058 Basel"
-        }
-      ]
-    },
-    {
       "name": "Rhein",
       "animation": true,
       "data": [
@@ -3748,6 +3584,170 @@
       "borderColor": "#fbfbfb"
     },
     {
+      "type": "mapbubble",
+      "id": "points",
+      "name": "lon",
+      "minSize": 7,
+      "maxSize": "6%",
+      "marker": {
+        "fillColor": "#009884",
+        "fillOpacity": 0.6,
+        "lineColor": "#ffffff"
+      },
+      "dataLabels": {
+        "enabled": false
+      },
+      "showInLegend": true,
+      "data": [
+        {
+          "lat": 47.55393337,
+          "lon": 7.575958969,
+          "name": "BSB: Tagesbetreuung Weiherweg",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": 10,
+          "address": "Rudolfstrasse 43, 4054 Basel"
+        },
+        {
+          "lat": 47.57172861,
+          "lon": 7.616583161,
+          "name": "Sternenhof: Tagesbetreuung Egliseeholz",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": 52,
+          "address": "Fasanenstrasse 221, 4058 Basel"
+        },
+        {
+          "lat": 47.56888591,
+          "lon": 7.567477054,
+          "name": "Sternenhof: Tagesbetreuung Luzernerring",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": 25,
+          "address": "Luzernerring 94, 4056 Basel"
+        },
+        {
+          "lat": 47.58745942,
+          "lon": 7.654611294,
+          "name": "Wendelin: Tagesheim",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": 21,
+          "address": "Inzlingerstrasse 46, 4125 Riehen"
+        },
+        {
+          "lat": 47.56589273,
+          "lon": 7.596732747,
+          "name": "dandelion: Tagesbetreuung",
+          "spez": "Spezialisierte Tagesstruktur: Demenz",
+          "z": null,
+          "address": "Sperrstrasse 100, 4057 Basel"
+        },
+        {
+          "lat": 47.56854322,
+          "lon": 7.567077517,
+          "name": "Sternenhof: Tagesbetreuung Luzernerring",
+          "spez": "Spezialisierte Tagesstruktur: Demenz",
+          "z": null,
+          "address": "Luzernerring 94, 4056 Basel"
+        },
+        {
+          "lat": 47.56826724,
+          "lon": 7.594992633,
+          "name": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
+          "spez": "Spezialisierte Tagesstruktur: Demenz",
+          "z": null,
+          "address": "Hammerstrasse 156, 4057 Basel"
+        },
+        {
+          "lat": 47.56239822,
+          "lon": 7.590687498,
+          "name": "Stiftung Rheinleben: Tagesstätte 65+",
+          "spez": "Spezialisierte Tagesstruktur: Psychische Beeinträchtigung",
+          "z": null,
+          "address": "Klingental 1, 4058 Basel"
+        }
+      ]
+    },
+    {
+      "type": "mapbubble",
+      "id": "points",
+      "name": "lon",
+      "minSize": 7,
+      "maxSize": "6%",
+      "marker": {
+        "fillColor": "#ed802f",
+        "fillOpacity": 0.6,
+        "lineColor": "#ffffff"
+      },
+      "dataLabels": {
+        "enabled": false
+      },
+      "showInLegend": true,
+      "data": [
+        {
+          "lat": 47.55393337,
+          "lon": 7.575958969,
+          "name": "BSB: Tagesbetreuung Weiherweg",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": null,
+          "address": "Rudolfstrasse 43, 4054 Basel"
+        },
+        {
+          "lat": 47.57172861,
+          "lon": 7.616583161,
+          "name": "Sternenhof: Tagesbetreuung Egliseeholz",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": null,
+          "address": "Fasanenstrasse 221, 4058 Basel"
+        },
+        {
+          "lat": 47.56888591,
+          "lon": 7.567477054,
+          "name": "Sternenhof: Tagesbetreuung Luzernerring",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": null,
+          "address": "Luzernerring 94, 4056 Basel"
+        },
+        {
+          "lat": 47.58745942,
+          "lon": 7.654611294,
+          "name": "Wendelin: Tagesheim",
+          "spez": "Allgemeine Tagesstruktur",
+          "z": null,
+          "address": "Inzlingerstrasse 46, 4125 Riehen"
+        },
+        {
+          "lat": 47.56589273,
+          "lon": 7.596732747,
+          "name": "dandelion: Tagesbetreuung",
+          "spez": "Spezialisierte Tagesstruktur: Demenz",
+          "z": 12,
+          "address": "Sperrstrasse 100, 4057 Basel"
+        },
+        {
+          "lat": 47.56854322,
+          "lon": 7.567077517,
+          "name": "Sternenhof: Tagesbetreuung Luzernerring",
+          "spez": "Spezialisierte Tagesstruktur: Demenz",
+          "z": 13,
+          "address": "Luzernerring 94, 4056 Basel"
+        },
+        {
+          "lat": 47.56826724,
+          "lon": 7.594992633,
+          "name": "Stiftung Basler Wirrgarten: Tagesstätte im ATRIUM",
+          "spez": "Spezialisierte Tagesstruktur: Demenz",
+          "z": 10,
+          "address": "Hammerstrasse 156, 4057 Basel"
+        },
+        {
+          "lat": 47.56239822,
+          "lon": 7.590687498,
+          "name": "Stiftung Rheinleben: Tagesstätte 65+",
+          "spez": "Spezialisierte Tagesstruktur: Psychische Beeinträchtigung",
+          "z": 14,
+          "address": "Klingental 1, 4058 Basel"
+        }
+      ]
+    },
+    {
       "name": "Massstab",
       "animation": true,
       "type": "mapline",
@@ -3802,13 +3802,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function(){
+        "formatter": function () {
 						return '1 km';
 					},
         "style": {
@@ -3855,7 +3855,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Im Kanton Basel-Stadt",
+    "text": "Anzahl Plätze, Basel-Stadt",
     "align": "left"
   },
   "credits": {
@@ -3903,16 +3903,16 @@
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": "normal",
-        "fontSize": "11px"
-      }
+        "fontWeight": "bold",
+        "fontSize": "12px"
+      },
+      "text": "Anzahl Plätze"
     },
     "width": "200px",
     "itemMarginBottom": 5,
     "labelFormatter": function () {
-				console.log(this);
-				if (this._i == 1) return "Allgemeine Tagesstruktur";
-				if (this._i == 2) return "Spezialisierte Tagesstruktur";
+				if (this._i == 2) return "Allgemeine Tagesstruktur";
+				if (this._i == 3) return "Spezialisierte Tagesstruktur";
 			},
     "itemStyle": {
       "fontWeight": "normal"
@@ -3923,7 +3923,10 @@
       "borderWidth": 1,
       "color": "#bbbbbb",
       "connectorColor": "#cccccc",
-      "connectorDistance": 20
+      "connectorDistance": 20,
+      "labels": {
+        "format": "{value:.0f}"
+      }
     }
   },
   "tooltip": {

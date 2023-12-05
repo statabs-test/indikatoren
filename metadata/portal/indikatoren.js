@@ -7,15 +7,13 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Pflegeheime",
-		"subtitle": "Im Kanton Basel-Stadt",
-		"lesehilfe": "Ende 2022 hatte das Adullam Pflegezentrum Basel 150 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt.<br>Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023.<br>Am eigentlichen Standort des Pflegezentrum irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Plätze, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
-		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
-		],
+		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -47,7 +45,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Im Kanton Basel-Stadt",
+		"subtitle": "Anzahl Plätze, Basel-Stadt",
 		"lesehilfe": "Ende 2022 bietet das Tagesheim Wendelin in Riehen 52 Plätze der Kategorie Allgemeine Tagesstrukturen an.",
 		"erlaeuterungen": "Spezialisierte Tagesstrukturen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
 		"quellenangabe": [
@@ -87,7 +85,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
-		"subtitle": "Im Kanton Basel-Stadt",
+		"subtitle": "Anzahl Wohnungen, Basel-Stadt",
 		"lesehilfe": "Ende 2022 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
 		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen.Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2022",
 		"quellenangabe": [
