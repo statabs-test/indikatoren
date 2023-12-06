@@ -16,7 +16,7 @@
       {
         min: 0,
         max: 100,
-        //tickAmount: 12,
+        tickAmount: 5,
         labels: {
           format: '{value:.0f}%',
           style: {
@@ -37,7 +37,7 @@
         opposite: true, // Rechte Achse aktivieren
         min: 1,
         max: 12,
-        //        tickAmount: 12,
+        tickAmount: 5,
         title: {
           text: "", // Beschriftung rechte Achse
         },
@@ -150,14 +150,14 @@
           pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
             + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
         },
-/*
-        tooltip: {
-          headerFormat: '<table>',
-          pointFormatter: function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b> </table>';
-          }
-        }
-*/
+        /*
+                tooltip: {
+                  headerFormat: '<table>',
+                  pointFormatter: function () {
+                    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b> </table>';
+                  }
+                }
+        */
       },
     ],
   };

@@ -512,6 +512,7 @@
     {
       "min": 0,
       "max": 100,
+      "tickAmount": 5,
       "labels": {
         "format": "{value:.0f}%",
         "style": {
@@ -532,6 +533,7 @@
       "opposite": true,
       "min": 1,
       "max": 12,
+      "tickAmount": 5,
       "title": {
         "text": ""
       }
