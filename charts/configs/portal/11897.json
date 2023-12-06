@@ -3588,7 +3588,7 @@
       "id": "points",
       "name": "lon",
       "minSize": 7,
-      "maxSize": "6%",
+      "maxSize": "15%",
       "marker": {
         "fillColor": "#ad7938",
         "fillOpacity": 0.6,
@@ -3600,340 +3600,88 @@
       "showInLegend": true,
       "data": [
         {
-          "lat": 47.56031774,
-          "lon": 7.579534993,
-          "id": 1,
-          "name": "Adullam Pflegezentrum Basel",
-          "z": 150,
-          "address": "Mittlere Strasse 15, 4056 Basel"
+          "lat": 47.56256073,
+          "lon": 7.583231614,
+          "name": "Universitätsspital Basel (USB)",
+          "z": 40595
         },
         {
-          "lat": 47.58579888,
-          "lon": 7.655294066,
-          "id": 2,
-          "name": "Adullam Pflegezentrum Riehen",
-          "z": 66,
-          "address": "Schützengasse 60, 4125 Riehen"
+          "lat": 47.56655928,
+          "lon": 7.614203736,
+          "name": "St. Claraspital",
+          "z": 11681
         },
         {
-          "lat": 47.55586304,
-          "lon": 7.61384395,
-          "id": 3,
-          "name": "Alterszentrum Alban-Breite",
-          "z": 82,
-          "address": "Zürcherstrasse 143, 4052 Basel"
+          "lat": 47.55552511,
+          "lon": 7.570044281,
+          "name": "Merian Iselin Klinik",
+          "z": 7247
         },
         {
-          "lat": 47.54900347,
-          "lon": 7.616862261,
-          "id": 4,
-          "name": "Gellert Hof Bethesda Alterszentren AG",
-          "z": 134,
-          "address": "Gellertstrasse 138, 4052 Basel"
+          "lat": 47.54818372,
+          "lon": 7.617299436,
+          "name": "Bethesda Spital AG",
+          "z": 6533
         },
         {
-          "lat": 47.56427507,
-          "lon": 7.596085654,
-          "id": 5,
-          "name": "Wesley Haus Bethesda Alterszentren AG",
-          "z": 78,
-          "address": "Hammerstrasse 88, 4057 Basel"
+          "lat": 47.56380773,
+          "lon": 7.581864226,
+          "name": "Universitäts-Kinderspital beider Basel (UKBB)",
+          "z": 6075
         },
         {
-          "lat": 47.53962815,
-          "lon": 7.59160583,
-          "id": 6,
-          "name": "BSB Alterszentrum am Bruderholz",
-          "z": 58,
-          "address": "Bruderholzweg 21, 4053 Basel"
+          "lat": 47.56550086,
+          "lon": 7.565326414,
+          "name": "Felix Platter-Spital",
+          "z": 5630
         },
         {
-          "lat": 47.57153178,
-          "lon": 7.560091597,
-          "id": 7,
-          "name": "BSB Alterszentrum Burgfelderhof",
-          "z": 113,
-          "address": "Im Burgfelderhof 30, 4056 Basel"
+          "lat": 47.57126038,
+          "lon": 7.565914732,
+          "name": "Universitäre Psychiatrische Kliniken Basel (UPK)",
+          "z": 2831
         },
         {
-          "lat": 47.53947007,
-          "lon": 7.601209051,
-          "id": 8,
-          "name": "BSB Alterszentrum Falkenstein",
-          "z": 86,
-          "address": "Falkensteinerstrasse 30, 4053 Basel"
+          "lat": 47.56015005,
+          "lon": 7.579577192,
+          "name": "Adullam Spital",
+          "z": 2472
         },
         {
-          "lat": 47.55388601,
-          "lon": 7.575497423,
-          "id": 9,
-          "name": "BSB Alterszentrum Weiherweg",
-          "z": 85,
-          "address": "Rudolfstrasse 43, 4054 Basel"
+          "lat": 47.56582348,
+          "lon": 7.591269217,
+          "name": "Matthea Geburtshaus",
+          "z": 716
         },
         {
-          "lat": 47.56095847,
-          "lon": 7.594223217,
-          "id": 10,
-          "name": "BSB Alterszentrum zum Lamm",
-          "z": 65,
-          "address": "Rebgasse 16, 4058 Basel"
+          "lat": 47.57274387,
+          "lon": 7.559156843,
+          "name": "REHAB Basel",
+          "z": 552
         },
         {
-          "lat": 47.55154425,
-          "lon": 7.58338591,
-          "id": 11,
-          "name": "Casavita Hasenbrunnen",
-          "z": 57,
-          "address": "Feierabendstrasse 1, 4051 Basel"
+          "lat": 47.58479468,
+          "lon": 7.65703335,
+          "name": "Klinik Sonnenhalde",
+          "z": 469
         },
         {
-          "lat": 47.56674542,
-          "lon": 7.564708722,
-          "id": 12,
-          "name": "Casavita Kannenfeld",
-          "z": 72,
-          "address": "Burgfelderstrasse 188, 4055 Basel"
+          "lat": 47.55045916,
+          "lon": 7.610654987,
+          "name": "Palliativzentrum Hildegard",
+          "z": 437
         },
         {
-          "lat": 47.54538959,
-          "lon": 7.621717871,
-          "id": 13,
-          "name": "Casavita Lehenmatt",
-          "z": 63,
-          "address": "Stadionstrasse 17, 4052 Basel"
+          "lat": 47.55117618,
+          "lon": 7.593281111,
+          "name": "SMN-Schmerzklinik Basel",
+          "z": 193
         },
         {
-          "lat": 47.55661632,
-          "lon": 7.57733022,
-          "id": 14,
-          "name": "Casavita Vincentianum",
-          "z": 46,
-          "address": "Nonnenweg 3, 4055 Basel"
-        },
-        {
-          "lat": 47.56596512,
-          "lon": 7.59674348,
-          "id": 15,
-          "name": "dandelion",
-          "z": 62,
-          "address": "Sperrstrasse 100, 4057 Basel"
-        },
-        {
-          "lat": 47.5858391,
-          "lon": 7.654766762,
-          "id": 16,
-          "name": "Kommunität Diakonissenhaus Riehen",
-          "z": 10,
-          "address": "Schützengasse 51, 4125 Riehen"
-        },
-        {
-          "lat": 47.58268058,
-          "lon": 7.651642763,
-          "id": 17,
-          "name": "Dominikushaus",
-          "z": 62,
-          "address": "Albert Oeri-Strasse 7, 4125 Riehen"
-        },
-        {
-          "lat": 47.5456995,
-          "lon": 7.568479893,
-          "id": 18,
-          "name": "Generationenhaus Neubad",
-          "z": 87,
-          "address": "Holeestrasse 119, 4054 Basel"
-        },
-        {
-          "lat": 47.56445351,
-          "lon": 7.597111687,
-          "id": 19,
-          "name": "Gustav Benz-Haus",
-          "z": 81,
-          "address": "Brantgasse 5, 4057 Basel"
-        },
-        {
-          "lat": 47.55191343,
-          "lon": 7.580601956,
-          "id": 20,
-          "name": "Alterszentrum Holbeinhof",
-          "z": 111,
-          "address": "Leimenstrasse 67, 4051 Basel"
-        },
-        {
-          "lat": 47.56927869,
-          "lon": 7.634425506,
-          "id": 21,
-          "name": "Alterspflegeheim Humanitas",
-          "z": 115,
-          "address": "Rauracherstrasse 111, 4125 Riehen"
-        },
-        {
-          "lat": 47.56989264,
-          "lon": 7.68482652,
-          "id": 22,
-          "name": "irides AG Pflegezentrum",
-          "z": 64,
-          "address": "Hohe Strasse 30, 4126 Bettingen"
-        },
-        {
-          "lat": 47.56895662,
-          "lon": 7.581788301,
-          "id": 23,
-          "name": "Johanniter Alters- und Pflegeheim",
-          "z": 132,
-          "address": "Mülhauserstrasse 35, 4056 Basel"
-        },
-        {
-          "lat": 47.55402787,
-          "lon": 7.600782774,
-          "id": 24,
-          "name": "Ländli Basel",
-          "z": 48,
-          "address": "St. Alban-Vorstadt 85, 4052 Basel"
-        },
-        {
-          "lat": 47.57071176,
-          "lon": 7.593988016,
-          "id": 25,
-          "name": "Marienhaus",
-          "z": 111,
-          "address": "Horburgstrasse 54, 4057 Basel"
-        },
-        {
-          "lat": 47.57370544,
-          "lon": 7.56488082,
-          "id": 26,
-          "name": "Neues Marthastift",
-          "z": 109,
-          "address": "Friedrich Miescher-Str. 1, 4056 Basel"
-        },
-        {
-          "lat": 47.54141104,
-          "lon": 7.59176955,
-          "id": 27,
-          "name": "Pflegeheim Momo",
-          "z": 106,
-          "address": "Bruderholzstrasse 104, 4053 Basel"
-        },
-        {
-          "lat": 47.56277026,
-          "lon": 7.575025864,
-          "id": 28,
-          "name": "Pflegehotel St. Johann",
-          "z": 75,
-          "address": "St. Johanns-Ring 122, 4056 Basel"
-        },
-        {
-          "lat": 47.5692035,
-          "lon": 7.598633521,
-          "id": 29,
-          "name": "Senevita Erlenmatt",
-          "z": 56,
-          "address": "Erlenmattstrasse 7, 4058 Basel"
-        },
-        {
-          "lat": 47.54451928,
-          "lon": 7.609082943,
-          "id": 30,
-          "name": "Senevita Gellertblick",
-          "z": 97,
-          "address": "St. Jakobs-Strasse 201,4052 Basel"
-        },
-        {
-          "lat": 47.57105389,
-          "lon": 7.679020137,
-          "id": 31,
-          "name": "Pflegeheim St. Chrischona",
-          "z": 36,
-          "address": "Chrischonarain 131, 4126 Bettingen"
-        },
-        {
-          "lat": 47.58366701,
-          "lon": 7.592987426,
-          "id": 32,
-          "name": "Pflegewohnheim St. Christophorus",
-          "z": 61,
-          "address": "Dorfstrasse 38, 4057 Basel"
-        },
-        {
-          "lat": 47.56836868,
-          "lon": 7.619078242,
-          "id": 33,
-          "name": "Alters- und Pflegeheim St. Elisabethenheim",
-          "z": 70,
-          "address": "Allmendstrasse 40, 4058 Basel"
-        },
-        {
-          "lat": 47.55129051,
-          "lon": 7.592260835,
-          "id": 34,
-          "name": "Sternenhof Haus für Betagte\u002FHirschgässlein",
-          "z": 58,
-          "address": "Sternengasse 27, 4051 Basel"
-        },
-        {
-          "lat": 47.54095789,
-          "lon": 7.598464377,
-          "id": 34,
-          "name": "Sternenhof Laufenstrasse",
-          "z": 24,
-          "address": "Laufenstrasse 46, 4053 Basel"
-        },
-        {
-          "lat": 47.56879025,
-          "lon": 7.56693342,
-          "id": 34,
-          "name": "Sternenhof Luzernerring",
-          "z": 40,
-          "address": "Luzernerring 92, 4056 Basel"
-        },
-        {
-          "lat": 47.56891184,
-          "lon": 7.574950877,
-          "id": 34,
-          "name": "Sternenhof Vogesenstrasse",
-          "z": 20,
-          "address": "Vogesenstrasse 111, 4056 Basel"
-        },
-        {
-          "lat": 47.54588385,
-          "lon": 7.589082366,
-          "id": 35,
-          "name": "Residenz Südpark",
-          "z": 28,
-          "address": "Meret Oppenheim-Str.62, 4053 Basel"
-        },
-        {
-          "lat": 47.54121007,
-          "lon": 7.619038566,
-          "id": 36,
-          "name": "Tertianum AG Residenz St. Jakob-Park",
-          "z": 16,
-          "address": "St. Jakobs-Strasse 395, 4052 Basel"
-        },
-        {
-          "lat": 47.58729667,
-          "lon": 7.65523482,
-          "id": 37,
-          "name": "Wendelin",
-          "z": 84,
-          "address": "Inzlingerstrasse 50, 4125 Riehen"
-        },
-        {
-          "lat": 47.58090231,
-          "lon": 7.592936489,
-          "id": 38,
-          "name": "Alterszentrum Wiesendamm",
-          "z": 67,
-          "address": "Wiesendamm 20 \u002F 22, 4057 Basel"
-        },
-        {
-          "lat": 47.52751098,
-          "lon": 7.59770085,
-          "id": 39,
-          "name": "Alterszentrum Zum Wasserturm",
-          "z": 40,
-          "address": "Giornicostrasse 144, 4059 Basel"
+          "lat": 47.56657366,
+          "lon": 7.615025113,
+          "name": "Zurzach Care AG",
+          "z": 101
         }
       ]
     },
@@ -4101,7 +3849,7 @@
     "width": "200px",
     "itemMarginBottom": 5,
     "labelFormatter": function () {
-				if (this._i == 2) return "Spitaeler";
+				if (this._i == 2) return "Spitäler";
 				//				if (this._i == 2)	return "xxx";
 			},
     "itemStyle": {
@@ -4113,9 +3861,11 @@
       "borderWidth": 1,
       "color": "#bbbbbb",
       "connectorColor": "#cccccc",
-      "connectorDistance": 20,
+      "connectorDistance": 25,
       "labels": {
-        "format": "{value:.0f}"
+        "formatter": function (args) {
+						return Highcharts.numberFormat((this.value),0);
+					}
       }
     }
   },
@@ -4126,9 +3876,9 @@
 					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
 				}
 				else {
-					return '<span style="font-size: 0.85em;"><b>' + this.point.id + ') ' + this.point.name +
-						'</b><br>' + this.point.address + '</span><br/>' +
-						'<b>' + this.point.z + '</b> stationäre Austritte';
+					return '<span style="font-size: 0.85em;"><b>'+ this.point.name + '</b></span>' +
+						//'<br>' + this.point.address + '</span><br/>' +
+						'<br><b>' + Highcharts.numberFormat((this.point.z),0) + '</b> stationäre Austritte';
 				}
 			}
   },

@@ -12,9 +12,9 @@
 					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
 				}
 				else {
-					return '<span style="font-size: 0.85em;"><b>' + this.point.id + ') ' + this.point.name +
-						'</b><br>' + this.point.address + '</span><br/>' +
-						'<b>' + this.point.z + '</b> stationäre Austritte';
+					return '<span style="font-size: 0.85em;"><b>'+ this.point.name + '</b></span>' +
+						//'<br>' + this.point.address + '</span><br/>' +
+						'<br><b>' + Highcharts.numberFormat((this.point.z),0) + '</b> stationäre Austritte';
 				}
 			}
 		},
@@ -24,10 +24,9 @@
 				{
 					lat: 0,
 					lon: 1,
-					id: 2,
-					name: 3,
-					z: 4,
-					address: 5
+					name: 2,
+					z: 3,
+					//address: 5
 				},
 			]
 		},
@@ -43,7 +42,7 @@
 				}
 			},
 			labelFormatter: function () {
-				if (this._i == 2) return "Spitaeler";
+				if (this._i == 2) return "Spitäler";
 				//				if (this._i == 2)	return "xxx";
 			},
 			itemStyle: {
@@ -55,9 +54,12 @@
 				borderWidth: 1,
 				color: '#bbbbbb',
 				connectorColor: '#cccccc',
-				connectorDistance: 20,
+				connectorDistance: 25,
 				labels: {
-					format: '{value:.0f}'
+					//format: '{value:.0f}'
+					formatter: function (args) {
+						return Highcharts.numberFormat((this.value),0);
+					}
 				}
 			}
 		},
@@ -88,14 +90,13 @@
 			},
 		],
 
-
 		"series": [
 			{
 				type: 'mapbubble',
 				id: 'points',
 				name: 'Spitaeler',
 				minSize: 7,
-				maxSize: '6%',
+				maxSize: '15%',
 				marker: {
 					//radius: this.point.value
 					fillColor: '#ad7938',

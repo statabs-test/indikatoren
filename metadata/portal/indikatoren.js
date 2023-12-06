@@ -832,8 +832,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Spitalstandorte",
 		"subtitle": "Stationäre Austritte, Basel-Stadt, 2022",
-		"lesehilfe": "",
-		"erlaeuterungen": "Spitäler im Kanton Basel-Stadt und deren jeweilige Anzahl an stationären Austritten",
+		"lesehilfe": "Die meisten stationären Austritte verzeichnete 2022 das Universitätsspital Basel mit 40 595.",
+		"erlaeuterungen": "Spitäler im Kanton Basel-Stadt und deren jeweilige Anzahl an stationären Austritten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
