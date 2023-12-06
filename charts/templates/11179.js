@@ -50,7 +50,7 @@
         } else if (this.index === 1) {
           return 'Kosten Stadt Basel (in Mio. CHF)';
         } else if (this.index === 2) {
-          return 'Durchschnittsbeitrag pro Tag (in CHF, rechte Skala)';
+          return 'Durchschnittsbeitrag pro Tag Stadt Basel (in CHF, rechte Skala)';
         }
       }
     },

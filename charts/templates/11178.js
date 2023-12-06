@@ -14,9 +14,11 @@
       }
     },
     series: [
-      { "color": "#fabd24" }, // Kanton/Gemeinde: Restfinanzierung
-      { "color": "#246370" }, // Beiträge Krankenversicherer
       { "color": "#68ab2b" }, // Eigenbetrag Klient
+      { "color": "#246370" }, // Beiträge Krankenversicherer
+      { "color": "#fabd24" }, // Kanton/Gemeinde: Restfinanzierung
+      
+      
       /*
       {
         type: 'line',
@@ -31,7 +33,7 @@
       tickInterval: 1,
     },
     yAxis: {
-      reversedStacks: false,
+      reversedStacks: true,
     },
     tooltip: {
       shared: true,
@@ -60,7 +62,7 @@
         textOverflow: "none",
         whiteSpace: "nowrap"
       },
-      reversed: true,
+      reversed: false,
     }
   };
 }());

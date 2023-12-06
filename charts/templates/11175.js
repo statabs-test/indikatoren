@@ -45,9 +45,9 @@
       align: "left",
       labelFormatter: function () {
         if (this.index === 0) {
-          return 'Anzahl Pflegebedürftige';
+          return 'Anzahl Pflegebedürftige Stadt Basel';
         } else if (this.index === 1) {
-          return 'Erbrachte Pflegeleistungstage (rechte Skala)';
+          return 'Erbrachte Pflegeleistungstage Stadt Basel (rechte Skala)';
         }
       }
     },

@@ -72,7 +72,7 @@
       },
       showInLegend: false,
       type: 'pie',
-      size: '70%',
+      size: '69%',
       innerSize: '50%',
       center: [180, 120],
       borderWidth: 2,
@@ -100,7 +100,7 @@
         format: '{point.percentage:.1f}%',
         distance: -20,
         style: {
-          color: 'black',
+          color: 'contrast',
           textOutline: "0px black",
           fontWeight: "normal",
           fontSize: "12px"

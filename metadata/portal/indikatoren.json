@@ -8,12 +8,14 @@
 		"children": [],
 		"title": "Pflegeheime",
 		"subtitle": "Anzahl Plätze, Basel-Stadt, 2022",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Ende 2022 hatte das Adullam Pflegezentrum Basel 150 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrum irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -87,7 +89,7 @@
 		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2022",
 		"lesehilfe": "Ende 2022 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2022",
+		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -166,8 +168,8 @@
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Im Jahr 2022 gab es 618 spezielle Wohnformen (20,4% aller Plätze) in den Pflegeheimen und 2 228 (73,7%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtung für suchtkranke Menschen.<br><br>Stand Ende 2022",
+		"lesehilfe": "Im Jahr 2022 gab es 618 Plätze in speziellen Wohnformen (20,4% aller Plätze) in den Pflegeheimen und 2 228 (73,7%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtung für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -206,7 +208,7 @@
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 standen insgesamt 157 Plätze (davon waren 49 spezialisierte Plätze) zur Verfügung.",
+		"lesehilfe": "Ende 2022 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
 		"erlaeuterungen": "Spezialisierte Tagesstrukturen dienen der Betreuung von an einer Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -283,10 +285,10 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und der Pflegestufen-Durchschnitt",
+		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil mit 20 % der  Pflegeheimbewohner sind in der Pflegestufe 6 zu finden. Seit 2017 stieg die Pflegestufe um 10.3% bis ins Jahr 2022 an.  Die durchschnittliche Pflegestufe lag im Jahr 2022 bei 6,4.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. <br>In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an und die Pflegestufe 12 von mehr als 220 Minuten. <br>Pflegestufen gemäss Art. 7a Krankenpflege-Leistungsverordnung (KLV).",
+		"lesehilfe": "Der grösste Anteil (20 %) der Pflegeheimbewohnenden sind in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe um 10.3% bis ins Jahr 2022 an. Die durchschnittliche Pflegestufe lag im Jahr 2022 bei 6,4.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -299,7 +301,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Pflegetage nach Pflegestufen in Pflegeheimen und der Pflegestufen-Durchschnitt",
+		"description": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "I.14.2.11172",
@@ -327,7 +329,7 @@
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen 65,2%. Ein leichter Rückgang der totalen Auslastung als im Vorjahr ist zu verzeichnen. Im Jahr 2022 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgästen 25 579.",
+		"lesehilfe": "Im Jahr 2022 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 65,2%. Gegenüber dem Vorjahr ist ein leichter Rückgang der totalen Auslastung zu verzeichnen. Im Jahr 2022 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 25 579.",
 		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z.B. an fünf statt nur an zwei Tagen pro Woche, so lange bis sie in ein Pflegeheim eintreten konnten.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -365,7 +367,7 @@
 		"children": [],
 		"title": "Anzahl Pflegestunden Spitex",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die geleisteten Spitexstunden sind seit 2011 stetig gestiegen. Im Jahr 2022 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 307 168. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) betrugen 2022 total 582 229 Stunden.",
+		"lesehilfe": "Die geleisteten Spitexstunden im Kanton Basel-Stadt sind seit 2011 stetig gestiegen. Im Jahr 2022 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 307 168. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2022 auf total 582 229 Stunden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -401,9 +403,9 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegebedürftiger und die erbrachten Pflegeleistungen",
+		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"subtitle": "durch Angehörige oder andere nahestehende Personen, Basel-Stadt",
-		"lesehilfe": "Die Anzahl der Pflegenden Angehörigen in Basel-Stadt ist seit 2021 leicht gestiegen. 2022 betrug die Anzahl Pflegebedürftige 287 mit insgesamt 74 287 erbrachte Pflegetage.",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist seit 2021 leicht gestiegen. 2022 betrug die Anzahl der Pflegebedürftigen 287. Zu ihren Gunsten wurden an insgesamt 74 287 Tagen Pflegeleistungen erbracht.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -415,7 +417,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Pflegebedürftiger und die erbrachten Pflegeleistungen",
+		"description": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "I.14.2.11175",
@@ -443,7 +445,7 @@
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Betrag der Finanzierung aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und der kantonalen Restfinanzierung 48,4 Mio. Franken.  Das Gesamtvolumen der Pflegeheime betrug im Jahr 2022 336.6 Mio. Franken.",
+		"lesehilfe": "Im Jahr 2022 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und die kantonale Restfinanzierung 48,4 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime betrug im Jahr 2022 336.6 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -482,7 +484,7 @@
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 blieben die Beträge von total 3.9 Mio. Franken wie im Vorjahr unverändert. Davon finanzierte der Kanton/die Gemeinden mit 2 Mio. Franken, die Krankenversicherer mit 0,8 Mio. Franken  und die Tagesgäste mit 1,1 Mio. Franken.",
+		"lesehilfe": "2022 blieb das Finanzierungsvolumen mit total 3.9 Mio. Franken gegenüber dem Vorjahr unverändert. Davon finanzierte der Kanton/die Gemeinden 2 Mio. Franken, die Krankenversicherer 0,8 Mio. Franken und die Tagesgäste 1,1 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -520,7 +522,7 @@
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022  sind die Spitex Kosten im Vergleich zum Vorjahr leicht zurückgegangen und zwar auf 60,2 Mio. Franken. Im Jahr 2022 lag der grösste Beitrag mit 33,6 Mio. Franken bei den Krankenversicherern, gefolgt mit 23,5 Mio. Franken beim Kanton/bei den Gemeinden und schliesslich durch den Eigenbetrag der KlientInen mit 3,1 Mio. Franken.",
+		"lesehilfe": "2022 sind die Spitex-Kosten im Vergleich zum Vorjahr leicht zurückgegangen und zwar auf 60,2 Mio. Franken. Im Jahr 2022 lag der grösste Beitrag mit 33,6 Mio. Franken bei den Krankenversicherern, gefolgt vom Kanton/den Gemeinden mit 23,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,1 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -558,7 +560,7 @@
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Durchschnittsbeitrag pro Tag der Stadt Basel 21,10 Franken. Der Kanton zahlte im Jahr 2022 2,1 Mio. Franken an die Beiträge an die Pflege zu Hause, davon entfielen 1.6 Mio. auf die Stadt Basel.",
+		"lesehilfe": "Im Jahr 2022 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,10 Franken. Der Kanton zahlte im Jahr 2022 2,1 Mio. Franken an die Beiträge an die Pflege zu Hause, davon entfielen 1.6 Mio. auf die Stadt Basel.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"

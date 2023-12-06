@@ -14,11 +14,11 @@
       }
     },
     series: [
-      { "color": "#fabd24" }, // Kanton/Gemeinde: Ergänzungsleistungen
-      { "color": "#ffda80" }, // Kanton/Gemeinde: Restfinanzierung
+      { "color": "#007a2f" }, // Eigenbetrag Pension und Betreuung 
+      { "color": "#68ab2b" }, // Eigenbetrag Pflege 
       { "color": "#246370" }, // Krankenversicherer
-      { "color": "#68ab2b" }, // Eigenbetrag Pflege
-      { "color": "#007a2f" }, // Eigenbetrag Pension und Betreuung
+      { "color": "#ffda80" }, // Kanton/Gemeinde: Restfinanzierung
+      { "color": "#fabd24" }, // Kanton/Gemeinde: Ergänzungsleistungen
       /*
             {
               type: 'line',
@@ -32,7 +32,7 @@
       tickInterval: 1,
     },
     yAxis: {
-      reversedStacks: false,
+      reversedStacks: true,
     },
     tooltip: {
       shared: true,
@@ -56,7 +56,7 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      reversed: true,
+      reversed: false,
     }
   };
 }());

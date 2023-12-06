@@ -14,9 +14,9 @@
       }
     },
     series: [
-      { "color": "#fabd24" }, // Kanton/Gemeinde
-      { "color": "#246370" }, // Krankenversicherer
       { "color": "#68ab2b" }, // Tagesgäste
+      { "color": "#246370" }, // Krankenversicherer
+      { "color": "#fabd24" }, // Kanton/Gemeinde
       /*
           {
             type: "line",
@@ -54,7 +54,7 @@
           text: " ",
           //        useHTML: true,
         },
-        reversedStacks: false,
+        reversedStacks: true,
       },
       /*    {
             opposite: true,
@@ -70,6 +70,7 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
+      reversed: false,
     }
   };
 }());
