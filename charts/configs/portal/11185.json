@@ -6,78 +6,67 @@
           "x": 1.11,
           "name": "Adullam Spital",
           "name_short": "Adullam",
-          "y": 1.58,
-          "color": "#ff8028"
+          "y": 1.58
         },
         {
           "x": 0.2,
           "name": "Bethesda Spital",
           "name_short": "Bethesda",
-          "y": 0.68,
-          "color": "#67401e"
+          "y": 0.68
         },
         {
           "x": 1.85,
           "name": "Felix Platter-Spital",
           "name_short": "Felix Platter",
-          "y": 1.54,
-          "color": "#3366ff"
+          "y": 1.54
         },
         {
           "x": 0.04,
           "name": "Matthea Geburtshaus",
           "name_short": "Matthea",
-          "y": 0.35,
-          "color": "#fabd24"
+          "y": 0.35
         },
         {
           "x": 0.19,
           "name": "Merian Iselin Klinik",
           "name_short": "Merian Iselin",
-          "y": 1.04,
-          "color": "#cd9c00"
+          "y": 1.04
         },
         {
           "x": 1.81,
           "name": "Palliativzentrum Hildegard",
           "name_short": "Hildegard",
-          "y": 2.37,
-          "color": "#007a2f"
+          "y": 2.37
         },
         {
           "x": 0.38,
           "name": "Schmerzklinik Basel",
           "name_short": "Schmerzklinik",
-          "y": 1.56,
-          "color": "#73b97c"
+          "y": 1.56
         },
         {
           "x": 0.96,
           "name": "St. Claraspital",
           "name_short": "St. Claraspital",
-          "y": 1.04,
-          "color": "#e7cee2"
+          "y": 1.04
         },
         {
           "x": 0.38,
           "name": "Universitäts-Kinderspital beider Basel",
           "name_short": "UKBB",
-          "y": 1.22,
-          "color": "#662673"
+          "y": 1.22
         },
         {
           "x": 1.16,
           "name": "Universitätsspital Basel",
           "name_short": "USB",
-          "y": 1.31,
-          "color": "#d60909"
+          "y": 1.31
         },
         {
           "x": 0.93,
           "name": "Alle Spitäler",
           "name_short": "Alle",
-          "y": 1.26,
-          "color": "#010101"
+          "y": 1.26
         }
       ],
       "name": "Spitalname lang"
@@ -101,14 +90,16 @@
           this.series[0].points[10].update({
             marker: {
               symbol: 'square',
-              radius: 7,
+              radius: 6,
               enabled: true,
               states: {
                 hover: {
                   enabled: true,
                   symbol: 'square',
                 }
-              }
+              },
+              fillColor: 'black',
+              // lineColor: 'black',
             }
           });
 
@@ -121,6 +112,7 @@
       "marker": {
         "enabled": false
       },
+      "color": "#5284BB",
       "dataLabels": {
         "enabled": true,
         "align": "left",
@@ -131,7 +123,7 @@
         "style": {
           "fontWeight": "normal",
           "fontSize": "7pt",
-          "color": "#555",
+          "color": "black",
           "textOverflow": "clip",
           "textOutline": "none"
         }
@@ -139,7 +131,7 @@
     },
     "scatter": {
       "marker": {
-        "radius": 6,
+        "radius": 5,
         "enabled": true,
         "symbol": "circle",
         "states": {

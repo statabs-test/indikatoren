@@ -7,17 +7,17 @@
         load: function () {
           this.series[0].points[10].update({
             marker: {
-              color: 'black',
               symbol: 'square',
-              radius: 7,
+              radius: 6,
               enabled: true,
               states: {
                 hover: {
                   enabled: true,
                   symbol: 'square',
-                  color: 'black'
                 }
-              }
+              },
+              fillColor: 'black',
+              // lineColor: 'black',
             }
           });
 
