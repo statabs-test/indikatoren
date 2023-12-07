@@ -203,7 +203,7 @@
 		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2022",
 		"lesehilfe": "Ende 2022 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br>Stand Ende 2022",
+		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -283,7 +283,7 @@
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
 		"lesehilfe": "Im Jahr 2022 gab es 618 Plätze in speziellen Wohnformen (20,4% aller Plätze) in den Pflegeheimen und 2 228 (73,7%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtung für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2022",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -362,7 +362,7 @@
 		"children": [],
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 92,2%. Die Pension- und Pflegetage beliefen sich 2022 auf über 1 Mio.",
+		"lesehilfe": "2022 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 92,2%. Die Pensions- und Pflegetage beliefen sich 2022 auf über 1 Mio.",
 		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -401,8 +401,8 @@
 		"children": [],
 		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (20 %) der Pflegeheimbewohnenden sind in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe um 10.3% bis ins Jahr 2022 an. Die durchschnittliche Pflegestufe lag im Jahr 2022 bei 6,4.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a Krankenpflege-Leistungsverordnung (KLV).",
+		"lesehilfe": "Der grösste Anteil (20%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2022 um 10,3%. Die durchschnittliche Pflegestufe lag 2022 bei 6,4.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -444,7 +444,7 @@
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2022 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 65,2%. Gegenüber dem Vorjahr ist ein leichter Rückgang der totalen Auslastung zu verzeichnen. Im Jahr 2022 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 25 579.",
-		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z.B. an fünf statt nur an zwei Tagen pro Woche, so lange bis sie in ein Pflegeheim eintreten konnten.",
+		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -519,7 +519,7 @@
 		"children": [],
 		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"subtitle": "durch Angehörige oder andere nahestehende Personen, Basel-Stadt",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist seit 2021 leicht gestiegen. 2022 betrug die Anzahl der Pflegebedürftigen 287. Zu ihren Gunsten wurden an insgesamt 74 287 Tagen Pflegeleistungen erbracht.",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2022 verglichen mit dem Vorjahr leicht auf 287 gestiegen. Zu deren Gunsten wurden an insgesamt 74 287 Tagen Pflegeleistungen erbracht.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -559,7 +559,7 @@
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und die kantonale Restfinanzierung 48,4 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime betrug im Jahr 2022 336.6 Mio. Franken.",
+		"lesehilfe": "Im Jahr 2022 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und die kantonale Restfinanzierung 48,4 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 336,6 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -598,7 +598,7 @@
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 blieb das Finanzierungsvolumen mit total 3.9 Mio. Franken gegenüber dem Vorjahr unverändert. Davon finanzierte der Kanton/die Gemeinden 2 Mio. Franken, die Krankenversicherer 0,8 Mio. Franken und die Tagesgäste 1,1 Mio. Franken.",
+		"lesehilfe": "2022 blieb das Finanzierungsvolumen mit total 3,9 Mio. Franken gegenüber dem Vorjahr unverändert. Davon finanzierten der Kanton bzw. die Gemeinden 2 Mio. Franken, die Krankenversicherer 0,8 Mio. Franken und die Tagesgäste 1,1 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -636,7 +636,7 @@
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 sind die Spitex-Kosten im Vergleich zum Vorjahr leicht zurückgegangen und zwar auf 60,2 Mio. Franken. Im Jahr 2022 lag der grösste Beitrag mit 33,6 Mio. Franken bei den Krankenversicherern, gefolgt vom Kanton/den Gemeinden mit 23,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,1 Mio. Franken.",
+		"lesehilfe": "2022 sind die Spitex-Kosten im Vergleich zum Vorjahr leicht zurückgegangen und zwar auf 60,2 Mio. Franken. Im Jahr 2022 lag der grösste Beitrag mit 33,6 Mio. Franken bei den Krankenversicherern, gefolgt vom Kanton/von den Gemeinden mit 23,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,1 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -674,7 +674,7 @@
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,10 Franken. Der Kanton zahlte im Jahr 2022 2,1 Mio. Franken an die Beiträge an die Pflege zu Hause, davon entfielen 1.6 Mio. auf die Stadt Basel.",
+		"lesehilfe": "Im Jahr 2022 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,10 Franken. Der Kanton zahlte im Jahr 2022 2,1 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. auf die Stadt Basel.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -788,7 +788,7 @@
 		"children": [],
 		"title": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten",
 		"subtitle": "in Basler Spitälern im zeitlichen Verlauf",
-		"lesehilfe": "Im Jahr 2022 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer baselstädtischen Patientin oder Patienten in der Akutsomatik durchschnittlich 7.0 Tage, in der Psychiatrie 32.2 Tage und in der Rehabilitation 22.9 Tage.",
+		"lesehilfe": "Im Jahr 2022 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer Patientin bzw. eines Patienten aus dem Stadtkanton in der Akutsomatik durchschnittlich 7,0 Tage, in der Psychiatrie 32,2 Tage und in der Rehabilitation 22,9 Tage.",
 		"erlaeuterungen": "Die durchschnittliche Dauer eines stationären Aufenthalts ist in Tagen angegeben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -828,7 +828,7 @@
 		"children": [],
 		"title": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
 		"subtitle": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
-		"lesehilfe": "Im Jahr 2022 erfolgten 38 796 (88,5%) der der insgesamt 43 834 (100%) Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
+		"lesehilfe": "Im Jahr 2022 erfolgten 38 796 (88,5%) der insgesamt 43 834 (100%) Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
 		"erlaeuterungen": "Gezählt werden die Austritte aus einer stationären Behandlung, um Doppelzählungen zu vermeiden (ein Patient kann beispielsweise im Jahr 2021 in ein Spital eintreten und erst im Folgejahr 2022 austreten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -867,9 +867,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen",
-		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022.",
-		"lesehilfe": "Im Jahr 2022 sind 44.8% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und Innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 34.3% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
-		"erlaeuterungen": "Der Case Mix beschreibt den gesamten Schweregrad der abgerechneten Behandlungsfälle. Er ergibt sich aus der Summe der Kostengewichte der Fälle. Er kann als Vergleichswert für die Fallschwere, also den Gesamtschweregrad der Fälle eines Spitals oder - wie in der Grafik - eines Leistungsbereichs dienen.",
+		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022",
+		"lesehilfe": "Im Jahr 2022 sind 44,8% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 34,3% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
+		"erlaeuterungen": "Der Case-Mix beschreibt den gesamten Schweregrad der abgerechneten Behandlungsfälle. Er ergibt sich aus der Summe der Kostengewichte der Fälle und kann als Vergleichswert für die Fallschwere, also den Gesamtschweregrad der Fälle eines Spitals oder - wie in der Grafik - eines Leistungsbereichs dienen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -908,8 +908,8 @@
 		"children": [],
 		"title": "Schweregrad und Komplexität",
 		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2022",
-		"lesehilfe": "Im Jahr 2022 betrug der durchschnittliche ökonomische Schweregrad gemäss Case Mix Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1.26. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0.93.",
-		"erlaeuterungen": "Der Case Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach Swiss DRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals. <br>Dividiert man den Case Mix durch die Anzahl Fälle, erhält man den Case Mix Index (CMI), d.h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case Mix Index (CMI) grösser als 1.0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit ein hoher PCCL-Wert (grösser als 1) ist für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (zum Beispiel die Universitäre Altersmedizin FELIX PLATTER) oder auf die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen oder mit chronisch fortschreitenden Krankheiten ausgerichtet sind (z.B. das Palliativzentrum Hildegard)",
+		"lesehilfe": "Im Jahr 2022 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,26. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,93.",
+		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach Swiss DRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) ist für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (zum Beispiel die Universitäre Altersmedizin Felix Platter) oder auf die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen oder mit chronisch fortschreitenden Krankheiten ausgerichtet sind (z. B. das Palliativzentrum Hildegard).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -946,7 +946,7 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Spitäler",
+		"title": "Spitalstandorte",
 		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2022, Basel-Stadt",
 		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2022 das Universitätsspital Basel mit 40 595 von insgesamt 85 532 Austritten im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Spitäler mit Standort im Kanton Basel-Stadt und deren jeweilige Anzahl an Austritten aus einer stationären Behandlung im angegebenen Jahr. <br>Zur Bestimmung der Anzahl stationärer Behandlungen eines Spitals in einem bestimmten Zeitraum wird die Anzahl der Austritte während dieses Zeitraums herangezogen",
@@ -961,7 +961,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Spitäler",
+		"description": "Spitalstandorte",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.11897",
