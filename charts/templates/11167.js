@@ -49,13 +49,14 @@
 			},
 			itemMarginBottom: 5,
 			labelFormatter: function () {
-				if (this._i == 2) return "<b>ohne</b> Leistungsvereinbarung oder im <b>höheren</b> Preissegment";
-				if (this._i == 3) return "<b>mit</b> Leistungsvereinbarung oder im <b>tieferen</b> Preissegment";
+				if (this._i == 2) return "<b>ohne</b> Leistungsvereinbarung mit dem Kanton oder im <b>höheren</b> Preissegment";
+				if (this._i == 3) return "<b>mit</b> Leistungsvereinbarung mit dem Kanton oder im <b>tieferen</b> Preissegment";
 			},
 			itemStyle: {
 				fontWeight: "normal",
 				textOverflow: "none",
-				whiteSpace: "wrap"
+				whiteSpace: "wrap",
+				fontSize: "12px"
 			},
 			bubbleLegend: {
 				enabled: true,
@@ -100,7 +101,7 @@
 			{
 				type: 'mapbubble',
 				id: 'points',
-				name: 'Wohnungen ohne Leistungsvereinbarung oder im höheren Preissegment',
+				name: 'Wohnungen ohne Leistungsvereinbarung mit dem Kanton oder im höheren Preissegment',
 				minSize: 7,
 				maxSize: '6%',
 				marker: {
@@ -117,7 +118,7 @@
 			{
 				type: 'mapbubble',
 				id: 'points',
-				name: 'Wohnungen mit Leistungsvereinbarung oder im tieferen Preissegment',
+				name: 'Wohnungen mit Leistungsvereinbarung mit dem Kanton oder im tieferen Preissegment',
 				minSize: 7,
 				maxSize: '6%',
 				marker: {

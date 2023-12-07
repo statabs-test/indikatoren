@@ -7,6 +7,7 @@
         load: function () {
           this.series[0].points[10].update({
             marker: {
+              color: 'black',
               symbol: 'square',
               radius: 7,
               enabled: true,
@@ -14,6 +15,7 @@
                 hover: {
                   enabled: true,
                   symbol: 'square',
+                  color: 'black'
                 }
               }
             }
@@ -73,7 +75,7 @@
     },
     data: {
       seriesMapping: [
-        { name: 0, name_short: 1, x: 3, y: 2, color: 4 }
+        { name: 0, name_short: 1, x: 3, y: 2 /*, color: 4 */ }
       ],
     },
     tooltip: {
@@ -85,17 +87,18 @@
     plotOptions: {
       scatter: {
         marker: {
-          radius: 6,
+          radius: 5,
           enabled: true,
           symbol: 'circle',
           states: {
             hover: {
               enabled: true
             }
-          }
+          },
         },
       },
       series: {
+        color: '#5284BB',
         dataLabels: {
           enabled: true,
           align: 'left',
@@ -106,7 +109,7 @@
           style: {
             fontWeight: 'normal',
             fontSize: '7pt',
-            color: '#555',
+            color: 'black',
             textOverflow: 'clip',
             textOutline: 'none',
           }
