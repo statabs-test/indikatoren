@@ -49,7 +49,7 @@
 		"title": "Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Anzahl Plätze, Basel-Stadt, 2022",
 		"lesehilfe": "Ende 2022 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
-		"erlaeuterungen": "Spezialisierte Tagesstrukturen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -209,7 +209,7 @@
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Ende 2022 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagesstrukturen dienen der Betreuung von an einer Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -404,7 +404,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
-		"subtitle": "durch Angehörige oder andere nahestehende Personen, Basel-Stadt",
+		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
 		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2022 verglichen mit dem Vorjahr leicht auf 287 gestiegen. Zu deren Gunsten wurden an insgesamt 74 287 Tagen Pflegeleistungen erbracht.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
