@@ -42,7 +42,7 @@
 		},
 		legend: {
 			enabled: true,
-			width: '246px',
+			width: '200px',
 			itemMarginBottom: 5,
 			title: {
 				text: "Anzahl Plätze",
@@ -52,8 +52,8 @@
 				}
 			},
 			labelFormatter: function () {
-				if (this._i == 2) return "Allgemeine Tagespflegeeinrichtungen";
-				if (this._i == 3) return "Spezialisierte Tagesstruktur";
+				if (this._i == 2) return "Allgemeine<br>Tagespflegeeinrichtungen";
+				if (this._i == 3) return "Spezialisierte<br>Tagespflegeeinrichtungen";
 			},
 			itemStyle: {
 				fontWeight: "normal"
