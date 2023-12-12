@@ -75,7 +75,13 @@
     },
     data: {
       seriesMapping: [
-        { name: 0, name_short: 1, x: 3, y: 2 /*, color: 4 */ }
+        {
+          name: 0,
+          name_short: 1,
+          x: 3,
+          y: 2
+          /*, color: 4 */
+        }
       ],
     },
     tooltip: {
