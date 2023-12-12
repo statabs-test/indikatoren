@@ -35,7 +35,7 @@
 			width: '200px',
 			itemMarginBottom: 5,
 			title: {
-				text: "Stationäre Austritte",
+				text: "Spitalaustritte",
 				style: {
 					"fontWeight": "bold",
 					fontSize: "12px"

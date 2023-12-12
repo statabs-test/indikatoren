@@ -25,7 +25,7 @@
           5038
         ]
       ],
-      "name": "Ausserkantonal"
+      "name": "Ausserkantonale Spitäler"
     },
     {
       "color": "#ed802f",
@@ -52,7 +52,7 @@
           38796
         ]
       ],
-      "name": "Innerkantonal"
+      "name": "Baselstädtische Spitäler"
     }
   ],
   "chart": {
