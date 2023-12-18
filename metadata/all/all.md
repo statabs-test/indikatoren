@@ -585,7 +585,7 @@ id | visible | visibleInPortal | indikatorenset
 6316 | true | false | Legislaturplan (Print)
 6317 | true | false | Legislaturplan-2017-2021 (Print)
 6318 | true | false | Legislaturplan-2017-2021 (Print)
-6319 | true | false | Legislaturplan (Print)
+6319 | false |  | Legislaturplan (Print)
 6320 | true | false | Legislaturplan-2017-2021 (Print)
 6321 | true | false | Legislaturplan-2017-2021 (Print)
 6322 | true | false | Legislaturplan (Print)
@@ -2109,6 +2109,7 @@ id | visible | visibleInPortal | indikatorenset
 9419 | true | false | Legislaturplan (Print)
 9420 | true | false | Legislaturplan (Print)
 9421 | true | false | Legislaturplan (Print)
+9422 | false |  | Legislaturplan (Print)
 9423 | true | false | Legislaturplan (Print)
 9424 | true | false | Legislaturplan (Print)
 9425 | true | false | Legislaturplan (Print)
@@ -2132,6 +2133,7 @@ id | visible | visibleInPortal | indikatorenset
 9443 | true | false | Legislaturplan (Print)
 9444 | true | false | Legislaturplan (Print)
 9445 | true | false | Legislaturplan (Print)
+9446 | false |  | Legislaturplan (Print)
 9447 | true | false | Legislaturplan (Print)
 9448 | true | false | Legislaturplan (Print)
 9449 | true | false | Legislaturplan (Print)
@@ -2310,3 +2312,4 @@ id | visible | visibleInPortal | indikatorenset
 11185 | true | true | Gesundheitsversorgung
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
+11898 | true | false | Legislaturplan (Print)
