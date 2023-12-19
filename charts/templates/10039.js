@@ -138,7 +138,7 @@ plotOptions: {
       }
   },
 tooltip: {
-  shared: true
+  shared: false
   /*
       tooltip: {
     formatter: function() {
