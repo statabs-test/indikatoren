@@ -55,8 +55,8 @@
 },
 "legend": {
  // x:-10,
-  itemWidth: 155,
-  width: 350,
+  itemWidth: 153,
+  width: 345,
   itemDistance: 0,
   itemStyle: {
     textOverflow: "none",

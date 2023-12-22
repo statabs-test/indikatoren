@@ -27,7 +27,8 @@
             opposite: false,
         },
         "series": [{
-            "color": "#8b2223"
+            "color": "#8b2223",
+            borderWidth: 0
         }
         ],
         "tooltip": {
