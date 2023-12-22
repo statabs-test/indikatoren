@@ -183,7 +183,7 @@ tooltip: {
      /* visible: false, */
        "tooltip": {
         "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          return /*'<br/>' +*/ '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
         }
       }   
       
@@ -202,7 +202,7 @@ tooltip: {
       color: "#008AC3", 
        "tooltip": {
         "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
         }
       }   
     },
@@ -221,7 +221,7 @@ tooltip: {
    
        "tooltip": {
         "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
         }
       }   
       
@@ -241,7 +241,7 @@ tooltip: {
         color: "#B00000",
          "tooltip": {
           "pointFormatter": function(){
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
           }
         }   
         
@@ -261,7 +261,7 @@ tooltip: {
   
          "tooltip": {
           "pointFormatter": function(){
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
           }
         }   
         
