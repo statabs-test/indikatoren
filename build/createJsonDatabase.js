@@ -17,8 +17,7 @@ files.forEach(function(filepath){
     //replace 'nice' quotes with technical quotes - 'nice' quotes are usually created when pasting content from word, link hrefs do not work with those quotes
     var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).replace(/’/g, "'").toString();
     fs.writeFileSync(filepath, eol.auto(fileContentsStripped));
-    
-    var indikator = JSON.parse(fileContentsStripped);
+		var indikator = JSON.parse(fileContentsStripped);
     
 	//trim all strings in object, see https://codereview.stackexchange.com/a/59543
 	deepTrim(indikator);

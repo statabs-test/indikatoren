@@ -1,0 +1,641 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          1994,
+          13.8
+        ],
+        [
+          1995,
+          13.92
+        ],
+        [
+          1996,
+          13.69
+        ],
+        [
+          1997,
+          13.63
+        ],
+        [
+          1998,
+          13.61
+        ],
+        [
+          1999,
+          13.72
+        ],
+        [
+          2000,
+          13.8
+        ],
+        [
+          2001,
+          13.86
+        ],
+        [
+          2002,
+          13.86
+        ],
+        [
+          2003,
+          14.02
+        ],
+        [
+          2004,
+          14.16
+        ],
+        [
+          2005,
+          14.07
+        ],
+        [
+          2006,
+          13.93
+        ],
+        [
+          2007,
+          14.02
+        ],
+        [
+          2008,
+          13.98
+        ],
+        [
+          2009,
+          13.96
+        ],
+        [
+          2010,
+          14.29
+        ],
+        [
+          2011,
+          14.3
+        ],
+        [
+          2012,
+          14.54
+        ],
+        [
+          2013,
+          14.47
+        ],
+        [
+          2014,
+          14.59
+        ],
+        [
+          2015,
+          14.73
+        ],
+        [
+          2016,
+          14.72
+        ],
+        [
+          2017,
+          14.83
+        ],
+        [
+          2018,
+          14.93
+        ],
+        [
+          2019,
+          15.06
+        ],
+        [
+          2020,
+          15.09
+        ],
+        [
+          2021,
+          14.99
+        ],
+        [
+          2022,
+          14.94
+        ]
+      ],
+      "name": "Mittelwert"
+    },
+    {
+      "data": [
+        [
+          1994,
+          11.73
+        ],
+        [
+          1995,
+          12.02
+        ],
+        [
+          1996,
+          12.03
+        ],
+        [
+          1997,
+          11.75
+        ],
+        [
+          1998,
+          11.63
+        ],
+        [
+          1999,
+          11.73
+        ],
+        [
+          2000,
+          11.86
+        ],
+        [
+          2001,
+          11.85
+        ],
+        [
+          2002,
+          11.94
+        ],
+        [
+          2003,
+          12.18
+        ],
+        [
+          2004,
+          12.26
+        ],
+        [
+          2005,
+          12.02
+        ],
+        [
+          2006,
+          11.95
+        ],
+        [
+          2007,
+          12.08
+        ],
+        [
+          2008,
+          12.02
+        ],
+        [
+          2009,
+          12.12
+        ],
+        [
+          2010,
+          12.05
+        ],
+        [
+          2011,
+          12.03
+        ],
+        [
+          2012,
+          12.54
+        ],
+        [
+          2013,
+          12.26
+        ],
+        [
+          2014,
+          12.5
+        ],
+        [
+          2015,
+          12.67
+        ],
+        [
+          2016,
+          12.68
+        ],
+        [
+          2017,
+          12.88
+        ],
+        [
+          2018,
+          13
+        ],
+        [
+          2019,
+          13.29
+        ],
+        [
+          2020,
+          13
+        ],
+        [
+          2021,
+          12.78
+        ],
+        [
+          2022,
+          12.68
+        ]
+      ],
+      "name": "90% aller Messstellen (5 - 95% Quantil)"
+    },
+    {
+      "data": [
+        [
+          1994,
+          16.77
+        ],
+        [
+          1995,
+          16.14
+        ],
+        [
+          1996,
+          16.26
+        ],
+        [
+          1997,
+          15.99
+        ],
+        [
+          1998,
+          16.18
+        ],
+        [
+          1999,
+          16.36
+        ],
+        [
+          2000,
+          16.31
+        ],
+        [
+          2001,
+          16.11
+        ],
+        [
+          2002,
+          16.12
+        ],
+        [
+          2003,
+          16.18
+        ],
+        [
+          2004,
+          16.22
+        ],
+        [
+          2005,
+          16.4
+        ],
+        [
+          2006,
+          16.49
+        ],
+        [
+          2007,
+          16.37
+        ],
+        [
+          2008,
+          16.34
+        ],
+        [
+          2009,
+          16.42
+        ],
+        [
+          2010,
+          16.7
+        ],
+        [
+          2011,
+          16.57
+        ],
+        [
+          2012,
+          16.72
+        ],
+        [
+          2013,
+          16.51
+        ],
+        [
+          2014,
+          17.48
+        ],
+        [
+          2015,
+          17.52
+        ],
+        [
+          2016,
+          16.98
+        ],
+        [
+          2017,
+          17.33
+        ],
+        [
+          2018,
+          17.1
+        ],
+        [
+          2019,
+          17.41
+        ],
+        [
+          2020,
+          17.42
+        ],
+        [
+          2021,
+          17.3
+        ],
+        [
+          2022,
+          17.3
+        ]
+      ],
+      "name": "90% aller Messstellen (5 - 95% Quantil)"
+    },
+    {
+      "data": [
+        [
+          1994,
+          11.67
+        ],
+        [
+          1995,
+          10.62
+        ],
+        [
+          1996,
+          9.36
+        ],
+        [
+          1997,
+          10.63
+        ],
+        [
+          1998,
+          10.59
+        ],
+        [
+          1999,
+          10.64
+        ],
+        [
+          2000,
+          11.44
+        ],
+        [
+          2001,
+          10.71
+        ],
+        [
+          2002,
+          11.21
+        ],
+        [
+          2003,
+          11.34
+        ],
+        [
+          2004,
+          10.56
+        ],
+        [
+          2005,
+          10.49
+        ],
+        [
+          2006,
+          10.93
+        ],
+        [
+          2007,
+          11.32
+        ],
+        [
+          2008,
+          10.75
+        ],
+        [
+          2009,
+          11.05
+        ],
+        [
+          2010,
+          10.15
+        ],
+        [
+          2011,
+          11.67
+        ],
+        [
+          2012,
+          10.84
+        ],
+        [
+          2013,
+          10.35
+        ],
+        [
+          2014,
+          11.92
+        ],
+        [
+          2015,
+          11.8
+        ],
+        [
+          2016,
+          11.04
+        ],
+        [
+          2017,
+          11.45
+        ],
+        [
+          2018,
+          12.26
+        ],
+        [
+          2019,
+          11.68
+        ],
+        [
+          2020,
+          12.22
+        ],
+        [
+          2021,
+          10.73
+        ],
+        [
+          2022,
+          12.63
+        ]
+      ],
+      "name": "Jahresmitteltemperatur der Luft"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-11918"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wassertemperatur Grundwasser "
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "11918"
+  }
+}
