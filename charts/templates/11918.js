@@ -21,7 +21,15 @@
 				turboThreshold: 0
 			}
 		},
-
+		"xAxis": {
+			tickInterval: 1,
+		},
+		legend: {
+			enabled: true,
+			layout: "horizontal",
+			verticalAlign: "top",
+			align: "left",
+		},
 		tooltip: {
 			formatter: function (e) {
 				//use shared tooltip for group of series only (instead of for all)
@@ -71,62 +79,24 @@
 						arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> °C";
 				}
 			}
-
 		},
-
 		"series": [
 			{
 				id: "a",
 				"color": "#71A3B5",
 			},
 			{
-				id: "c",
 				"color": "#256370",
 				type: 'arearange',
 				linkedTo: "a",
-				zIndex: 2,
 			},
 			{
 				"color": "#FF8028",
-				zIndex: 9,
 				"tooltip": {
 					"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f} °C</b><br/>'
 				},
 			},
 		],
-		"xAxis": {
-			tickInterval: 1,
-		},
-		legend: {
-			enabled: true,
-			layout: "horizontal",
-			verticalAlign: "top",
-			align: "left",
-			/*x: -38,
-			y: -35,
-			alignColumns: true,
-			width: 240,
-			itemWidth: 110,
-			itemStyle: {
-					textOverflow: undefined,
-					whiteSpace: 'nowrap',
-			},
-			labelFormatter: function () {
-					return this.name
-							//.replace('65+ Jahre', '')
-							//.replace('0 - 64 Jahre', '')
-							.replace('Gemeldete Todesfälle ', '');
-					//.replace('Hochgerechnete Todesfälle', 'hochgerechnete');
-			},
-
-			title: {
-					text: 'Gemeldete Todesfälle: ',
-					style: {
-							fontWeight: 'normal'
-					}
-			},
-*/
-		}
 	}
 }());
 

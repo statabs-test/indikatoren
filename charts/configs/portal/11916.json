@@ -1,147 +1,320 @@
 {
   "series": [
     {
+      "color": "#662673",
       "data": [
         [
-          1989,
+          "1989",
           19.5
         ],
         [
-          1990,
+          "1990",
           20.4
         ],
         [
-          1991,
+          "1991",
           18.9
         ],
         [
-          1992,
+          "1992",
           19.7
         ],
         [
-          1993,
+          "1993",
           18.6
         ],
         [
-          1994,
+          "1994",
           17.5
         ],
         [
-          1995,
+          "1995",
           17.7
         ],
         [
-          1996,
+          "1996",
           17.2
         ],
         [
-          1997,
+          "1997",
           16.2
         ],
         [
-          1998,
+          "1998",
           16.6
         ],
         [
-          1999,
+          "1999",
           15.9
         ],
         [
-          2000,
+          "2000",
           15.7
         ],
         [
-          2001,
+          "2001",
           15.1
         ],
         [
-          2002,
+          "2002",
           14.3
         ],
         [
-          2003,
+          "2003",
           16.5
         ],
         [
-          2004,
+          "2004",
           15.9
         ],
         [
-          2005,
+          "2005",
           16.8
         ],
         [
-          2006,
+          "2006",
           15.5
         ],
         [
-          2007,
+          "2007",
           15.3
         ],
         [
-          2008,
+          "2008",
           15.5
         ],
         [
-          2009,
+          "2009",
           15.2
         ],
         [
-          2010,
+          "2010",
           15.1
         ],
         [
-          2011,
+          "2011",
           15.8
         ],
         [
-          2012,
+          "2012",
           16
         ],
         [
-          2013,
+          "2013",
           15.2
         ],
         [
-          2014,
+          "2014",
           15.3
         ],
         [
-          2015,
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          "2022",
+          null
+        ]
+      ],
+      "name": "Wasserverbrauch Haushalte und Kleingewerbe bis 2015",
+      "turboThreshold": 0
+    },
+    {
+      "linkedTo": ":previous",
+      "color": "#662673",
+      "data": [
+        [
+          "1989",
+          undefined
+        ],
+        [
+          "1990",
+          undefined
+        ],
+        [
+          "1991",
+          undefined
+        ],
+        [
+          "1992",
+          undefined
+        ],
+        [
+          "1993",
+          undefined
+        ],
+        [
+          "1994",
+          undefined
+        ],
+        [
+          "1995",
+          undefined
+        ],
+        [
+          "1996",
+          undefined
+        ],
+        [
+          "1997",
+          undefined
+        ],
+        [
+          "1998",
+          undefined
+        ],
+        [
+          "1999",
+          undefined
+        ],
+        [
+          "2000",
+          undefined
+        ],
+        [
+          "2001",
+          undefined
+        ],
+        [
+          "2002",
+          undefined
+        ],
+        [
+          "2003",
+          undefined
+        ],
+        [
+          "2004",
+          undefined
+        ],
+        [
+          "2005",
+          undefined
+        ],
+        [
+          "2006",
+          undefined
+        ],
+        [
+          "2007",
+          undefined
+        ],
+        [
+          "2008",
+          undefined
+        ],
+        [
+          "2009",
+          undefined
+        ],
+        [
+          "2010",
+          undefined
+        ],
+        [
+          "2011",
+          undefined
+        ],
+        [
+          "2012",
+          undefined
+        ],
+        [
+          "2013",
+          undefined
+        ],
+        [
+          "2014",
+          undefined
+        ],
+        [
+          "2015",
           12.9
         ],
         [
-          2016,
+          "2016",
           12.8
         ],
         [
-          2017,
+          "2017",
           12.8
         ],
         [
-          2018,
+          "2018",
           12.8
         ],
         [
-          2019,
+          "2019",
           12.7
         ],
         [
-          2020,
+          "2020",
           12.9
         ],
         [
-          2021,
+          "2021",
           11.9
         ],
         [
-          2022,
+          "2022",
           11.3
         ]
       ],
-      "name": "Wasserverbrauch Haushalte und Kleingewerbe"
+      "name": "Wasserverbrauch Haushalte und Kleingewerbe ab 2015",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+				var maxlabels = 10,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
+			}
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -196,23 +369,6 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
     }
   },
   "yAxis": {

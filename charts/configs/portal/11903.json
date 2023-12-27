@@ -255,47 +255,37 @@
       "name": "Hitzetage"
     }
   ],
+  "isStock": true,
   "chart": {
-    "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
                 }
     },
     "type": "column",
     "marginTop": 70,
-    "renderTo": "container-11903",
-    "spacingBottom": 40
+    "renderTo": "container-11903"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -304,28 +294,28 @@
     }
   },
   "title": {
-    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
+    "align": "left",
     "text": "Hitzetage"
   },
   "subtitle": {
-    "text": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
-    }
+    },
+    "text": "Anzahl Tage, Meteorologische Station Basel-Binningen",
+    "align": "left"
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
+    "ordinal": false,
     "title": {
       "style": {
         "color": "#000000"
@@ -336,17 +326,17 @@
         "color": "#000000"
       }
     },
+    "tickLength": 0,
     "endOnTick": true,
     "startOnTick": true,
     "showFirstLabel": true,
     "showLastLabel": true,
     "tickInterval": 31536000000,
-    "minTickInterval": 31536000000,
-    "ordinal": false
+    "minTickInterval": 31536000000
   },
   "yAxis": {
-    "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -366,12 +356,6 @@
     "endOnTick": true,
     "tickAmount": 6,
     "opposite": false
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -394,11 +378,15 @@
     },
     "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E Anzahl Hitzetage: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
     "buttons": [
       {
         "count": 10,
@@ -426,7 +414,25 @@
     "inputDateFormat": "%Y",
     "inputEditDateFormat": "%Y"
   },
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b. %Y"
+    },
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E Anzahl Hitzetage: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": "11903"
   }
 }

@@ -1,6 +1,8 @@
 {
   "series": [
     {
+      "id": "a",
+      "color": "#71A3B5",
       "data": [
         [
           1994,
@@ -119,251 +121,166 @@
           14.94
         ]
       ],
-      "name": "Mittelwert"
+      "name": "Wassertemperatur Grundwasser (Mittelwert)"
     },
     {
+      "color": "#256370",
+      "type": "arearange",
+      "linkedTo": "a",
       "data": [
-        [
-          1994,
-          11.73
-        ],
-        [
-          1995,
-          12.02
-        ],
-        [
-          1996,
-          12.03
-        ],
-        [
-          1997,
-          11.75
-        ],
-        [
-          1998,
-          11.63
-        ],
-        [
-          1999,
-          11.73
-        ],
-        [
-          2000,
-          11.86
-        ],
-        [
-          2001,
-          11.85
-        ],
-        [
-          2002,
-          11.94
-        ],
-        [
-          2003,
-          12.18
-        ],
-        [
-          2004,
-          12.26
-        ],
-        [
-          2005,
-          12.02
-        ],
-        [
-          2006,
-          11.95
-        ],
-        [
-          2007,
-          12.08
-        ],
-        [
-          2008,
-          12.02
-        ],
-        [
-          2009,
-          12.12
-        ],
-        [
-          2010,
-          12.05
-        ],
-        [
-          2011,
-          12.03
-        ],
-        [
-          2012,
-          12.54
-        ],
-        [
-          2013,
-          12.26
-        ],
-        [
-          2014,
-          12.5
-        ],
-        [
-          2015,
-          12.67
-        ],
-        [
-          2016,
-          12.68
-        ],
-        [
-          2017,
-          12.88
-        ],
-        [
-          2018,
-          13
-        ],
-        [
-          2019,
-          13.29
-        ],
-        [
-          2020,
-          13
-        ],
-        [
-          2021,
-          12.78
-        ],
-        [
-          2022,
-          12.68
-        ]
+        {
+          "x": 1994,
+          "low": 11.73,
+          "high": 16.77
+        },
+        {
+          "x": 1995,
+          "low": 12.02,
+          "high": 16.14
+        },
+        {
+          "x": 1996,
+          "low": 12.03,
+          "high": 16.26
+        },
+        {
+          "x": 1997,
+          "low": 11.75,
+          "high": 15.99
+        },
+        {
+          "x": 1998,
+          "low": 11.63,
+          "high": 16.18
+        },
+        {
+          "x": 1999,
+          "low": 11.73,
+          "high": 16.36
+        },
+        {
+          "x": 2000,
+          "low": 11.86,
+          "high": 16.31
+        },
+        {
+          "x": 2001,
+          "low": 11.85,
+          "high": 16.11
+        },
+        {
+          "x": 2002,
+          "low": 11.94,
+          "high": 16.12
+        },
+        {
+          "x": 2003,
+          "low": 12.18,
+          "high": 16.18
+        },
+        {
+          "x": 2004,
+          "low": 12.26,
+          "high": 16.22
+        },
+        {
+          "x": 2005,
+          "low": 12.02,
+          "high": 16.4
+        },
+        {
+          "x": 2006,
+          "low": 11.95,
+          "high": 16.49
+        },
+        {
+          "x": 2007,
+          "low": 12.08,
+          "high": 16.37
+        },
+        {
+          "x": 2008,
+          "low": 12.02,
+          "high": 16.34
+        },
+        {
+          "x": 2009,
+          "low": 12.12,
+          "high": 16.42
+        },
+        {
+          "x": 2010,
+          "low": 12.05,
+          "high": 16.7
+        },
+        {
+          "x": 2011,
+          "low": 12.03,
+          "high": 16.57
+        },
+        {
+          "x": 2012,
+          "low": 12.54,
+          "high": 16.72
+        },
+        {
+          "x": 2013,
+          "low": 12.26,
+          "high": 16.51
+        },
+        {
+          "x": 2014,
+          "low": 12.5,
+          "high": 17.48
+        },
+        {
+          "x": 2015,
+          "low": 12.67,
+          "high": 17.52
+        },
+        {
+          "x": 2016,
+          "low": 12.68,
+          "high": 16.98
+        },
+        {
+          "x": 2017,
+          "low": 12.88,
+          "high": 17.33
+        },
+        {
+          "x": 2018,
+          "low": 13,
+          "high": 17.1
+        },
+        {
+          "x": 2019,
+          "low": 13.29,
+          "high": 17.41
+        },
+        {
+          "x": 2020,
+          "low": 13,
+          "high": 17.42
+        },
+        {
+          "x": 2021,
+          "low": 12.78,
+          "high": 17.3
+        },
+        {
+          "x": 2022,
+          "low": 12.68,
+          "high": 17.3
+        }
       ],
       "name": "90% aller Messstellen (5 - 95% Quantil)"
     },
     {
-      "data": [
-        [
-          1994,
-          16.77
-        ],
-        [
-          1995,
-          16.14
-        ],
-        [
-          1996,
-          16.26
-        ],
-        [
-          1997,
-          15.99
-        ],
-        [
-          1998,
-          16.18
-        ],
-        [
-          1999,
-          16.36
-        ],
-        [
-          2000,
-          16.31
-        ],
-        [
-          2001,
-          16.11
-        ],
-        [
-          2002,
-          16.12
-        ],
-        [
-          2003,
-          16.18
-        ],
-        [
-          2004,
-          16.22
-        ],
-        [
-          2005,
-          16.4
-        ],
-        [
-          2006,
-          16.49
-        ],
-        [
-          2007,
-          16.37
-        ],
-        [
-          2008,
-          16.34
-        ],
-        [
-          2009,
-          16.42
-        ],
-        [
-          2010,
-          16.7
-        ],
-        [
-          2011,
-          16.57
-        ],
-        [
-          2012,
-          16.72
-        ],
-        [
-          2013,
-          16.51
-        ],
-        [
-          2014,
-          17.48
-        ],
-        [
-          2015,
-          17.52
-        ],
-        [
-          2016,
-          16.98
-        ],
-        [
-          2017,
-          17.33
-        ],
-        [
-          2018,
-          17.1
-        ],
-        [
-          2019,
-          17.41
-        ],
-        [
-          2020,
-          17.42
-        ],
-        [
-          2021,
-          17.3
-        ],
-        [
-          2022,
-          17.3
-        ]
-      ],
-      "name": "90% aller Messstellen (5 - 95% Quantil)"
-    },
-    {
+      "color": "#FF8028",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f} °C\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           1994,
@@ -520,6 +437,29 @@
     "series": {
       "marker": {
         "enabled": false
+      },
+      "turboThreshold": 0
+    },
+    "arearange": {
+      "lineWidth": 0.5,
+      "fillOpacity": 0.2,
+      "zIndex": -1,
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      }
+    },
+    "line": {
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
       }
     }
   },
@@ -556,7 +496,8 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -577,10 +518,10 @@
     }
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -633,6 +574,56 @@
 						//second yAxis, if present
 					}]
 				}, true, true);
+			}
+  },
+  "tooltip": {
+    "formatter": function (e) {
+				//use shared tooltip for group of series only (instead of for all)
+				//source: https://jsfiddle.net/BlackLabel/gq1d1aba/
+
+				//console.log(this.point.series);
+
+				var point = this.point,
+					series = point.series,
+					chart = series.chart,
+					correspondingSeries = series.linkedSeries[0] || series.linkedParent,
+					linePoint,
+					arearangePoint,
+					correspondingPoint,
+					firstLine = '';
+
+				if (correspondingSeries === undefined) return e.defaultFormatter.call(this, e);
+				else {
+					// unselect previously selected point
+					if (chart.extraHoveredPoint) {
+						chart.extraHoveredPoint.setState('');
+					}
+
+					// find corresponding point
+					if (correspondingSeries) {
+						//console.log(correspondingSeries,  correspondingSeries.points, point.index);
+						//console.log(point.index, this.series.cropStart);
+						correspondingPoint = correspondingSeries.points[point.index - this.series.cropStart];
+						correspondingPoint.setState('hover');
+						chart.extraHoveredPoint = correspondingPoint;
+					}
+
+					// identify type of points for formatting purposes
+					if (point.low !== undefined) {
+						arearangePoint = point;
+						linePoint = correspondingPoint;
+					} else {
+						arearangePoint = correspondingPoint;
+						linePoint = point;
+					}
+					//console.log(this);
+					if (linePoint.y !== null) firstLine = "<span style='color:" + linePoint.series.color + "'>●</span> " +
+						linePoint.series.name + ": <b>" + linePoint.y + " °C</b><br>";
+
+					return "<span style='font-size: 10px'>" + this.x + "</span><br>" +
+						firstLine +
+						arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> °C";
+				}
 			}
   },
   "exporting": {

@@ -1,6 +1,7 @@
 {
   "series": [
     {
+      "color": "#933F8D",
       "data": [
         [
           2015,
@@ -38,6 +39,13 @@
       "name": "Revitalisierungsrate Oberflächengewässer"
     },
     {
+      "color": "#aaaaaa",
+      "type": "line",
+      "dashStyle": "ShortDash",
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
       "data": [
         [
           2015,
@@ -108,6 +116,7 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-11910",
     "spacingBottom": 40
   },
@@ -153,7 +162,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -169,14 +179,20 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -199,6 +215,7 @@
     },
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
   },
+  "tooltip": {},
   "exporting": {
     "filename": "11910"
   }

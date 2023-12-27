@@ -1,59 +1,78 @@
 {
   "series": [
     {
+      "color": "#68ab2b",
       "data": [
         [
-          2010,
+          "2010",
           0.095
         ],
         [
-          2011,
+          "2011",
           0.095
         ],
         [
-          2012,
+          "2012",
           0.095
         ],
         [
-          2013,
+          "2013",
           0.095
         ],
         [
-          2014,
+          "2014",
           0.095
         ],
         [
-          2015,
+          "2015",
           0.095
         ],
         [
-          2016,
+          "2016",
           0.095
         ],
         [
-          2017,
+          "2017",
           0.095
         ],
         [
-          2018,
+          "2018",
           0.09
         ],
         [
-          2019,
+          "2019",
           0.09
         ],
         [
-          2020,
+          "2020",
           0.2
         ],
         [
-          2021,
+          "2021",
           0.2
         ]
       ],
-      "name": "Kantonale Unterschutzstellungen"
+      "name": "Kantonale Unterschutzstellungen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -87,6 +106,7 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-11912",
     "spacingBottom": 40
   },
@@ -118,22 +138,6 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "yAxis": {
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
@@ -148,14 +152,16 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.2f}%"
     }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -177,6 +183,9 @@
       "y": -25
     },
     "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "11912"

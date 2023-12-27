@@ -1909,7 +1909,7 @@ var indikatoren = [
 		"id": 11902
 	},
 	{
-		"template": "template001",
+		"template": "stock001",
 		"data-id": 11903,
 		"chart-id": 6033,
 		"filter": "",
