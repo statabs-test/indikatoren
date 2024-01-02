@@ -1763,19 +1763,21 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Bevölkerungsszenarien BFS",
-		"subtitle": "Basel-Stadt",
+		"title": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"subtitle": "Ständige Wohnbevölkerung, Basel-Stadt",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Das Referenzszenario (AR-00-2020) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2020) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2020) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/zukuenftige-entwicklung/kantonale-szenarien.html' target = '_blank'>Kantonale Szenarien, Bundesamt für Statistik</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bevölkerungsszenarien BFS",
+		"description": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kuerzel": "",

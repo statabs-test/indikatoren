@@ -1,5 +1,36 @@
 {
-  "series": [],
+  "series": [
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          2018,
+          230.83
+        ],
+        [
+          2019,
+          230.83
+        ],
+        [
+          2020,
+          230.83
+        ],
+        [
+          2021,
+          230.83
+        ],
+        [
+          2022,
+          230.83
+        ],
+        [
+          2023,
+          230.83
+        ]
+      ],
+      "name": "Fruchtfolgeflächen"
+    }
+  ],
   "chart": {
     "width": 485,
     "height": 428,
@@ -33,6 +64,7 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-11915",
     "spacingBottom": 40
   },
@@ -78,7 +110,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -101,7 +134,12 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "reversed": false
   },
   "navigation": {
     "menuItemStyle": {
