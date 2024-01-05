@@ -11734,7 +11734,7 @@ var indikatoren = [
 		"id": 5184
 	},
 	{
-		"template": "befragungen001",
+		"template": "template001",
 		"data-id": 5185,
 		"chart-id": 5185,
 		"filter": "",
