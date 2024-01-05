@@ -11962,7 +11962,7 @@ var indikatoren = [
 		"id": 6037
 	},
 	{
-		"template": "template001",
+		"template": "befragungen001",
 		"data-id": 6039,
 		"chart-id": 6039,
 		"filter": "",
@@ -21456,10 +21456,10 @@ var indikatoren = [
 		"children": [
 			8948
 		],
-		"title": "Baumkronenfläche",
+		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung im gesamten Kanton 25,36% der Fläche, in der Stadt Basel 17,96%.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenfläche der Bäume (grösser als 3 m) über die gesamte Kantonsfläche erhoben. Die LidDAR Methodologie wurde in den letzten Jahren verbessert, Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode die sich im Prozentbereich befindet.",
+		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25% der gesamten Kantonsfläche und 18% der Stadt Basel. Die waldreichen Gemeinden Riehen und Bettingen weisen höhere Bedeckungsgrade auf.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser zu verfolgen. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR Methodologie wurde in den letzten Jahren verbessert, Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode die sich im Prozentbereich befindet.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
@@ -21468,7 +21468,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Baumkronenfläche",
+		"description": "Baumkronenbedeckung",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Landschaft",
 		"kuerzel": "I.02.13.6574",
@@ -43580,7 +43580,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerungsdichte in Bauzone",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
-		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2021 im Schnitt 56,2 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 139,8 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 158,1 Personen pro Hektar.",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2022 im Schnitt 57,0 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 141,7 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 160,2 Personen pro Hektar.",
 		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",

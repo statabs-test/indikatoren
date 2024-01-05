@@ -70,6 +70,10 @@
         [
           2021,
           139.8
+        ],
+        [
+          2022,
+          141.7
         ]
       ],
       "name": "Bevölkerungsdichte in Bauzonen"
@@ -144,6 +148,10 @@
         [
           2021,
           158.1
+        ],
+        [
+          2022,
+          160.2
         ]
       ],
       "name": "Bevölkerungsdichte in Bauzonen mit potentieller Wohnnutzung"
@@ -218,6 +226,10 @@
         [
           2021,
           56.2
+        ],
+        [
+          2022,
+          57
         ]
       ],
       "name": "Bevölkerungsdichte Kanton Basel-Stadt"
@@ -376,7 +388,7 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E Einwohner\u002Fha\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E Einwohner\u002Fha\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
