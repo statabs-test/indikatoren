@@ -6,132 +6,156 @@
       "legendIndex": 0,
       "data": [
         [
-          "2020",
+          "Alle",
           null
         ],
         [
           "2020: Alle",
-          "34.24%"
-        ],
-        [
-          "2020: Männl.",
-          "30.69%"
-        ],
-        [
-          "2020: Weibl.",
-          "37.93%"
-        ],
-        [
-          "2020: Deutsch",
-          "46.01%"
-        ],
-        [
-          "2020: Fremdsp.",
-          "21.21%"
-        ],
-        [
-          "2020: Schweiz",
-          "38.84%"
-        ],
-        [
-          "2020: Ausland",
-          "25.88%"
-        ],
-        [
-          "2021",
-          null
+          34.23952976
         ],
         [
           "2021: Alle",
-          "37.05%"
-        ],
-        [
-          "2021: Männl.",
-          "32.19%"
-        ],
-        [
-          "2021: Weibl.",
-          "42.39%"
-        ],
-        [
-          "2021: Deutsch",
-          "50.07%"
-        ],
-        [
-          "2021: Fremdsp.",
-          "23.83%"
-        ],
-        [
-          "2021: Schweiz",
-          "41.50%"
-        ],
-        [
-          "2021: Ausland",
-          "29.19%"
-        ],
-        [
-          "2022",
-          null
+          37.0508982
         ],
         [
           "2022: Alle",
-          "33.27%"
-        ],
-        [
-          "2022: Männl.",
-          "27.75%"
-        ],
-        [
-          "2022: Weibl.",
-          "38.95%"
-        ],
-        [
-          "2022: Deutsch",
-          "46.05%"
-        ],
-        [
-          "2022: Fremdsp.",
-          "21.39%"
-        ],
-        [
-          "2022: Schweiz",
-          "38.84%"
-        ],
-        [
-          "2022: Ausland",
-          "24.10%"
-        ],
-        [
-          "2023",
-          null
+          33.26530612
         ],
         [
           "2023: Alle",
-          "35.54%"
+          35.5425601
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "2020: Männl.",
+          30.69164265
+        ],
+        [
+          "2021: Männl.",
+          32.1888412
+        ],
+        [
+          "2022: Männl.",
+          27.74798928
         ],
         [
           "2023: Männl.",
-          "30.87%"
+          30.86574655
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2020: Weibl.",
+          37.93103448
+        ],
+        [
+          "2021: Weibl.",
+          42.38618524
+        ],
+        [
+          "2022: Weibl.",
+          38.95027624
         ],
         [
           "2023: Weibl.",
-          "40.57%"
+          40.56603774
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "Muttersprache",
+          null
+        ],
+        [
+          "2020: Deutsch",
+          46.01398601
+        ],
+        [
+          "2021: Deutsch",
+          50.07429421
+        ],
+        [
+          "2022: Deutsch",
+          46.04519774
         ],
         [
           "2023: Deutsch",
-          "47.83%"
+          47.83163265
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2020: Fremdsp.",
+          21.20743034
+        ],
+        [
+          "2021: Fremdsp.",
+          23.83107089
+        ],
+        [
+          "2022: Fremdsp.",
+          21.39107612
         ],
         [
           "2023: Fremdsp.",
-          "22.78%"
+          22.78145695
         ],
         [
-          "2023: Schweiz",
-          "41.89%"
+          "      ",
+          undefined
+        ],
+        [
+          "Nationalität",
+          null
+        ],
+        [
+          "2020: Ausland",
+          25.87991718
+        ],
+        [
+          "2021: Ausland",
+          29.19254658
+        ],
+        [
+          "2022: Ausland",
+          24.10071942
         ],
         [
           "2023: Ausland",
-          "26.13%"
+          26.12903226
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2020: Schweiz",
+          38.83826879
+        ],
+        [
+          "2021: Schweiz",
+          41.50058617
+        ],
+        [
+          "2022: Schweiz",
+          38.84026258
+        ],
+        [
+          "2023: Schweiz",
+          41.89336235
         ]
       ],
       "name": "Gymnasium",
@@ -143,132 +167,156 @@
       "legendIndex": 1,
       "data": [
         [
-          "2020",
+          "Alle",
           null
         ],
         [
           "2020: Alle",
-          "14.62%"
-        ],
-        [
-          "2020: Männl.",
-          "11.53%"
-        ],
-        [
-          "2020: Weibl.",
-          "17.84%"
-        ],
-        [
-          "2020: Deutsch",
-          "14.69%"
-        ],
-        [
-          "2020: Fremdsp.",
-          "14.55%"
-        ],
-        [
-          "2020: Schweiz",
-          "16.40%"
-        ],
-        [
-          "2020: Ausland",
-          "11.39%"
-        ],
-        [
-          "2021",
-          null
+          14.62160176
         ],
         [
           "2021: Alle",
-          "14.22%"
-        ],
-        [
-          "2021: Männl.",
-          "11.87%"
-        ],
-        [
-          "2021: Weibl.",
-          "16.80%"
-        ],
-        [
-          "2021: Deutsch",
-          "16.94%"
-        ],
-        [
-          "2021: Fremdsp.",
-          "11.46%"
-        ],
-        [
-          "2021: Schweiz",
-          "16.06%"
-        ],
-        [
-          "2021: Ausland",
-          "10.97%"
-        ],
-        [
-          "2022",
-          null
+          14.22155689
         ],
         [
           "2022: Alle",
-          "15.71%"
-        ],
-        [
-          "2022: Männl.",
-          "12.60%"
-        ],
-        [
-          "2022: Weibl.",
-          "18.92%"
-        ],
-        [
-          "2022: Deutsch",
-          "16.81%"
-        ],
-        [
-          "2022: Fremdsp.",
-          "14.70%"
-        ],
-        [
-          "2022: Schweiz",
-          "17.29%"
-        ],
-        [
-          "2022: Ausland",
-          "13.13%"
-        ],
-        [
-          "2023",
-          null
+          15.71428571
         ],
         [
           "2023: Alle",
-          "14.55%"
+          14.55490578
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "2020: Männl.",
+          11.52737752
+        ],
+        [
+          "2021: Männl.",
+          11.87410587
+        ],
+        [
+          "2022: Männl.",
+          12.60053619
         ],
         [
           "2023: Männl.",
-          "10.29%"
+          10.28858218
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2020: Weibl.",
+          17.84107946
+        ],
+        [
+          "2021: Weibl.",
+          16.79748823
+        ],
+        [
+          "2022: Weibl.",
+          18.92265193
         ],
         [
           "2023: Weibl.",
-          "19.14%"
+          19.13746631
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "Muttersprache",
+          null
+        ],
+        [
+          "2020: Deutsch",
+          14.68531469
+        ],
+        [
+          "2021: Deutsch",
+          16.93907875
+        ],
+        [
+          "2022: Deutsch",
+          16.8079096
         ],
         [
           "2023: Deutsch",
-          "15.43%"
+          15.43367347
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2020: Fremdsp.",
+          14.55108359
+        ],
+        [
+          "2021: Fremdsp.",
+          11.46304676
+        ],
+        [
+          "2022: Fremdsp.",
+          14.69816273
         ],
         [
           "2023: Fremdsp.",
-          "13.64%"
+          13.64238411
         ],
         [
-          "2023: Schweiz",
-          "14.80%"
+          "      ",
+          undefined
+        ],
+        [
+          "Nationalität",
+          null
+        ],
+        [
+          "2020: Ausland",
+          11.38716356
+        ],
+        [
+          "2021: Ausland",
+          10.97308489
+        ],
+        [
+          "2022: Ausland",
+          13.1294964
         ],
         [
           "2023: Ausland",
-          "14.19%"
+          14.19354839
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2020: Schweiz",
+          16.40091116
+        ],
+        [
+          "2021: Schweiz",
+          16.06096131
+        ],
+        [
+          "2022: Schweiz",
+          17.28665208
+        ],
+        [
+          "2023: Schweiz",
+          14.79869423
         ]
       ],
       "name": "FMS",
@@ -280,132 +328,156 @@
       "legendIndex": 2,
       "data": [
         [
-          "2020",
+          "Alle",
           null
         ],
         [
           "2020: Alle",
-          "26.82%"
-        ],
-        [
-          "2020: Männl.",
-          "27.09%"
-        ],
-        [
-          "2020: Weibl.",
-          "26.54%"
-        ],
-        [
-          "2020: Deutsch",
-          "15.80%"
-        ],
-        [
-          "2020: Fremdsp.",
-          "39.01%"
-        ],
-        [
-          "2020: Schweiz",
-          "20.05%"
-        ],
-        [
-          "2020: Ausland",
-          "39.13%"
-        ],
-        [
-          "2021",
-          null
+          26.8185158
         ],
         [
           "2021: Alle",
-          "20.13%"
-        ],
-        [
-          "2021: Männl.",
-          "22.89%"
-        ],
-        [
-          "2021: Weibl.",
-          "17.11%"
-        ],
-        [
-          "2021: Deutsch",
-          "9.81%"
-        ],
-        [
-          "2021: Fremdsp.",
-          "30.62%"
-        ],
-        [
-          "2021: Schweiz",
-          "13.60%"
-        ],
-        [
-          "2021: Ausland",
-          "31.68%"
-        ],
-        [
-          "2022",
-          null
+          20.13473054
         ],
         [
           "2022: Alle",
-          "20.54%"
-        ],
-        [
-          "2022: Männl.",
-          "23.59%"
-        ],
-        [
-          "2022: Weibl.",
-          "17.40%"
-        ],
-        [
-          "2022: Deutsch",
-          "9.46%"
-        ],
-        [
-          "2022: Fremdsp.",
-          "30.84%"
-        ],
-        [
-          "2022: Schweiz",
-          "14.99%"
-        ],
-        [
-          "2022: Ausland",
-          "29.68%"
-        ],
-        [
-          "2023",
-          null
+          20.54421769
         ],
         [
           "2023: Alle",
-          "18.26%"
+          18.25860949
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "2020: Männl.",
+          27.08933718
+        ],
+        [
+          "2021: Männl.",
+          22.88984263
+        ],
+        [
+          "2022: Männl.",
+          23.5924933
         ],
         [
           "2023: Männl.",
-          "21.08%"
+          21.07904642
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2020: Weibl.",
+          26.53673163
+        ],
+        [
+          "2021: Weibl.",
+          17.11145997
+        ],
+        [
+          "2022: Weibl.",
+          17.40331492
         ],
         [
           "2023: Weibl.",
-          "15.23%"
+          15.22911051
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "Muttersprache",
+          null
+        ],
+        [
+          "2020: Deutsch",
+          15.8041958
+        ],
+        [
+          "2021: Deutsch",
+          9.806835067
+        ],
+        [
+          "2022: Deutsch",
+          9.463276836
         ],
         [
           "2023: Deutsch",
-          "8.80%"
+          8.801020408
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2020: Fremdsp.",
+          39.00928793
+        ],
+        [
+          "2021: Fremdsp.",
+          30.61840121
+        ],
+        [
+          "2022: Fremdsp.",
+          30.83989501
         ],
         [
           "2023: Fremdsp.",
-          "28.08%"
+          28.0794702
         ],
         [
-          "2023: Schweiz",
-          "13.49%"
+          "      ",
+          undefined
+        ],
+        [
+          "Nationalität",
+          null
+        ],
+        [
+          "2020: Ausland",
+          39.13043478
+        ],
+        [
+          "2021: Ausland",
+          31.67701863
+        ],
+        [
+          "2022: Ausland",
+          29.67625899
         ],
         [
           "2023: Ausland",
-          "25.32%"
+          25.32258065
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2020: Schweiz",
+          20.04555809
+        ],
+        [
+          "2021: Schweiz",
+          13.59906213
+        ],
+        [
+          "2022: Schweiz",
+          14.98905908
+        ],
+        [
+          "2023: Schweiz",
+          13.49292709
         ]
       ],
       "name": "Brückenangebote\u002F12. Schuljahr",
@@ -417,132 +489,156 @@
       "legendIndex": 3,
       "data": [
         [
-          "2020",
+          "Alle",
           null
         ],
         [
           "2020: Alle",
-          "18.00%"
-        ],
-        [
-          "2020: Männl.",
-          "25.22%"
-        ],
-        [
-          "2020: Weibl.",
-          "10.49%"
-        ],
-        [
-          "2020: Deutsch",
-          "18.60%"
-        ],
-        [
-          "2020: Fremdsp.",
-          "17.34%"
-        ],
-        [
-          "2020: Schweiz",
-          "19.93%"
-        ],
-        [
-          "2020: Ausland",
-          "14.49%"
-        ],
-        [
-          "2021",
-          null
+          18.00146951
         ],
         [
           "2021: Alle",
-          "18.04%"
-        ],
-        [
-          "2021: Männl.",
-          "23.03%"
-        ],
-        [
-          "2021: Weibl.",
-          "12.56%"
-        ],
-        [
-          "2021: Deutsch",
-          "15.30%"
-        ],
-        [
-          "2021: Fremdsp.",
-          "20.81%"
-        ],
-        [
-          "2021: Schweiz",
-          "19.11%"
-        ],
-        [
-          "2021: Ausland",
-          "16.15%"
-        ],
-        [
-          "2022",
-          null
+          18.03892216
         ],
         [
           "2022: Alle",
-          "21.09%"
-        ],
-        [
-          "2022: Männl.",
-          "27.75%"
-        ],
-        [
-          "2022: Weibl.",
-          "14.23%"
-        ],
-        [
-          "2022: Deutsch",
-          "18.64%"
-        ],
-        [
-          "2022: Fremdsp.",
-          "23.36%"
-        ],
-        [
-          "2022: Schweiz",
-          "21.23%"
-        ],
-        [
-          "2022: Ausland",
-          "20.86%"
-        ],
-        [
-          "2023",
-          null
+          21.08843537
         ],
         [
           "2023: Alle",
-          "22.94%"
+          22.93697206
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "2020: Männl.",
+          25.21613833
+        ],
+        [
+          "2021: Männl.",
+          23.03290415
+        ],
+        [
+          "2022: Männl.",
+          27.74798928
         ],
         [
           "2023: Männl.",
-          "30.11%"
+          30.11292346
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2020: Weibl.",
+          10.49475262
+        ],
+        [
+          "2021: Weibl.",
+          12.5588697
+        ],
+        [
+          "2022: Weibl.",
+          14.22651934
         ],
         [
           "2023: Weibl.",
-          "15.23%"
+          15.22911051
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "Muttersprache",
+          null
+        ],
+        [
+          "2020: Deutsch",
+          18.6013986
+        ],
+        [
+          "2021: Deutsch",
+          15.30460624
+        ],
+        [
+          "2022: Deutsch",
+          18.6440678
         ],
         [
           "2023: Deutsch",
-          "22.32%"
+          22.32142857
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2020: Fremdsp.",
+          17.3374613
+        ],
+        [
+          "2021: Fremdsp.",
+          20.81447964
+        ],
+        [
+          "2022: Fremdsp.",
+          23.35958005
         ],
         [
           "2023: Fremdsp.",
-          "23.58%"
+          23.57615894
         ],
         [
-          "2023: Schweiz",
-          "22.96%"
+          "      ",
+          undefined
+        ],
+        [
+          "Nationalität",
+          null
+        ],
+        [
+          "2020: Ausland",
+          14.49275362
+        ],
+        [
+          "2021: Ausland",
+          16.14906832
+        ],
+        [
+          "2022: Ausland",
+          20.86330935
         ],
         [
           "2023: Ausland",
-          "22.90%"
+          22.90322581
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2020: Schweiz",
+          19.93166287
+        ],
+        [
+          "2021: Schweiz",
+          19.10902696
+        ],
+        [
+          "2022: Schweiz",
+          21.22538293
+        ],
+        [
+          "2023: Schweiz",
+          22.95973885
         ]
       ],
       "name": "Berufliche Grundbildung",
@@ -554,132 +650,156 @@
       "legendIndex": 4,
       "data": [
         [
-          "2020",
+          "Alle",
           null
         ],
         [
           "2020: Alle",
-          "5.88%"
-        ],
-        [
-          "2020: Männl.",
-          "4.90%"
-        ],
-        [
-          "2020: Weibl.",
-          "6.90%"
-        ],
-        [
-          "2020: Deutsch",
-          "4.62%"
-        ],
-        [
-          "2020: Fremdsp.",
-          "7.28%"
-        ],
-        [
-          "2020: Schweiz",
-          "4.44%"
-        ],
-        [
-          "2020: Ausland",
-          "8.49%"
-        ],
-        [
-          "2021",
-          null
+          5.87803086
         ],
         [
           "2021: Alle",
-          "9.96%"
-        ],
-        [
-          "2021: Männl.",
-          "9.30%"
-        ],
-        [
-          "2021: Weibl.",
-          "10.68%"
-        ],
-        [
-          "2021: Deutsch",
-          "7.28%"
-        ],
-        [
-          "2021: Fremdsp.",
-          "12.67%"
-        ],
-        [
-          "2021: Schweiz",
-          "9.26%"
-        ],
-        [
-          "2021: Ausland",
-          "11.18%"
-        ],
-        [
-          "2022",
-          null
+          9.95508982
         ],
         [
           "2022: Alle",
-          "8.30%"
-        ],
-        [
-          "2022: Männl.",
-          "7.64%"
-        ],
-        [
-          "2022: Weibl.",
-          "8.98%"
-        ],
-        [
-          "2022: Deutsch",
-          "8.19%"
-        ],
-        [
-          "2022: Fremdsp.",
-          "8.40%"
-        ],
-        [
-          "2022: Schweiz",
-          "7.11%"
-        ],
-        [
-          "2022: Ausland",
-          "10.25%"
-        ],
-        [
-          "2023",
-          null
+          8.299319728
         ],
         [
           "2023: Alle",
-          "8.38%"
+          8.382066277
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "2020: Männl.",
+          4.899135447
+        ],
+        [
+          "2021: Männl.",
+          9.298998569
+        ],
+        [
+          "2022: Männl.",
+          7.64075067
         ],
         [
           "2023: Männl.",
-          "7.53%"
+          7.528230866
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2020: Weibl.",
+          6.896551724
+        ],
+        [
+          "2021: Weibl.",
+          10.67503925
+        ],
+        [
+          "2022: Weibl.",
+          8.977900552
         ],
         [
           "2023: Weibl.",
-          "9.30%"
+          9.299191375
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "Muttersprache",
+          null
+        ],
+        [
+          "2020: Deutsch",
+          4.615384615
+        ],
+        [
+          "2021: Deutsch",
+          7.280832095
+        ],
+        [
+          "2022: Deutsch",
+          8.192090395
         ],
         [
           "2023: Deutsch",
-          "5.61%"
+          5.612244898
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2020: Fremdsp.",
+          7.275541796
+        ],
+        [
+          "2021: Fremdsp.",
+          12.66968326
+        ],
+        [
+          "2022: Fremdsp.",
+          8.398950131
         ],
         [
           "2023: Fremdsp.",
-          "11.26%"
+          11.25827815
         ],
         [
-          "2023: Schweiz",
-          "6.75%"
+          "      ",
+          undefined
+        ],
+        [
+          "Nationalität",
+          null
+        ],
+        [
+          "2020: Ausland",
+          8.488612836
+        ],
+        [
+          "2021: Ausland",
+          11.18012422
+        ],
+        [
+          "2022: Ausland",
+          10.25179856
         ],
         [
           "2023: Ausland",
-          "10.81%"
+          10.80645161
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2020: Schweiz",
+          4.44191344
+        ],
+        [
+          "2021: Schweiz",
+          9.261430246
+        ],
+        [
+          "2022: Schweiz",
+          7.111597374
+        ],
+        [
+          "2023: Schweiz",
+          6.746463547
         ]
       ],
       "name": "Andere Lösung\u002FUnbekannt",
@@ -691,132 +811,156 @@
       "legendIndex": 5,
       "data": [
         [
-          "2020",
+          "Alle",
           null
         ],
         [
           "2020: Alle",
-          "0.44%"
-        ],
-        [
-          "2020: Männl.",
-          "0.58%"
-        ],
-        [
-          "2020: Weibl.",
-          "0.30%"
-        ],
-        [
-          "2020: Deutsch",
-          "0.28%"
-        ],
-        [
-          "2020: Fremdsp.",
-          "0.62%"
-        ],
-        [
-          "2020: Schweiz",
-          "0.34%"
-        ],
-        [
-          "2020: Ausland",
-          "0.62%"
-        ],
-        [
-          "2021",
-          null
+          0.440852314
         ],
         [
           "2021: Alle",
-          "0.60%"
-        ],
-        [
-          "2021: Männl.",
-          "0.72%"
-        ],
-        [
-          "2021: Weibl.",
-          "0.47%"
-        ],
-        [
-          "2021: Deutsch",
-          "0.59%"
-        ],
-        [
-          "2021: Fremdsp.",
-          "0.60%"
-        ],
-        [
-          "2021: Schweiz",
-          "0.47%"
-        ],
-        [
-          "2021: Ausland",
-          "0.83%"
-        ],
-        [
-          "2022",
-          null
+          0.598802395
         ],
         [
           "2022: Alle",
-          "1.09%"
-        ],
-        [
-          "2022: Männl.",
-          "0.67%"
-        ],
-        [
-          "2022: Weibl.",
-          "1.52%"
-        ],
-        [
-          "2022: Deutsch",
-          "0.85%"
-        ],
-        [
-          "2022: Fremdsp.",
-          "1.31%"
-        ],
-        [
-          "2022: Schweiz",
-          "0.55%"
-        ],
-        [
-          "2022: Ausland",
-          "1.98%"
-        ],
-        [
-          "2023",
-          null
+          1.088435374
         ],
         [
           "2023: Alle",
-          "0.32%"
+          0.32488629
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "Geschlecht",
+          null
+        ],
+        [
+          "2020: Männl.",
+          0.576368876
+        ],
+        [
+          "2021: Männl.",
+          0.715307582
+        ],
+        [
+          "2022: Männl.",
+          0.670241287
         ],
         [
           "2023: Männl.",
-          "0.13%"
+          0.125470514
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2020: Weibl.",
+          0.299850075
+        ],
+        [
+          "2021: Weibl.",
+          0.470957614
+        ],
+        [
+          "2022: Weibl.",
+          1.519337017
         ],
         [
           "2023: Weibl.",
-          "0.54%"
+          0.539083558
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "Muttersprache",
+          null
+        ],
+        [
+          "2020: Deutsch",
+          0.27972028
+        ],
+        [
+          "2021: Deutsch",
+          0.59435364
+        ],
+        [
+          "2022: Deutsch",
+          0.847457627
         ],
         [
           "2023: Deutsch",
-          "0.00%"
+          0
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2020: Fremdsp.",
+          0.619195046
+        ],
+        [
+          "2021: Fremdsp.",
+          0.60331825
+        ],
+        [
+          "2022: Fremdsp.",
+          1.312335958
         ],
         [
           "2023: Fremdsp.",
-          "0.66%"
+          0.662251656
         ],
         [
-          "2023: Schweiz",
-          "0.11%"
+          "      ",
+          undefined
+        ],
+        [
+          "Nationalität",
+          null
+        ],
+        [
+          "2020: Ausland",
+          0.621118012
+        ],
+        [
+          "2021: Ausland",
+          0.82815735
+        ],
+        [
+          "2022: Ausland",
+          1.978417266
         ],
         [
           "2023: Ausland",
-          "0.65%"
+          0.64516129
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2020: Schweiz",
+          0.341685649
+        ],
+        [
+          "2021: Schweiz",
+          0.468933177
+        ],
+        [
+          "2022: Schweiz",
+          0.547045952
+        ],
+        [
+          "2023: Schweiz",
+          0.108813928
         ]
       ],
       "name": "Keine Lösung",
@@ -842,25 +986,31 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
-            },
-      "align": "left",
-      "x": -60
-    },
-    "max": 6,
-    "tickInterval": 1
+      "formatter": function () {
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                      return accumulator + series.yData[indexOfCurrentValue];
+                  }, 0);
+                  //use N if all series are visible, otherwise use n
+                  var nString =  'n=';
+                    if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                  //delete everything before ":", including ":"
+                  //this.value = this.value.replace(/[^:]*:/, "");
+                  //...after...
+                  //this.value = this.value.replace(/:.*/, "");
+                  this.value = this.value.replace(/: Alle/, "");
+
+                  //check for value that contains only spaces
+                  if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value;// + ' (' + nString + sum + ')';
+                  //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                  return "<b>" + this.value + "</b>";
+              }
+    }
   },
   "chart": {
     "events": {
@@ -881,7 +1031,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 833,
     "spacing": [
       10,
       10,
@@ -894,7 +1044,6 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "marginLeft": 70,
     "renderTo": "container-6039",
     "spacingBottom": 40
   },
@@ -913,7 +1062,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "im Schuljahr 2021\u002F22, Basel-Stadt"
+    "text": "im Schuljahr 2022\u002F23, Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -929,12 +1078,14 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
-      "pointWidth": 30
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
     }
   },
   "yAxis": {
-    "tickInterval": 20,
+    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -946,17 +1097,16 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value}%",
       "style": {
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    },
-    "max": 100
+    }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -972,24 +1122,26 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.11.2022"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2023"
   },
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 3,
+    "itemMarginBottom": 2,
     "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
-    "itemDistance": 5
+    "itemWidth": 200,
+    "width": 420
   },
   "exporting": {
     "filename": "6039"

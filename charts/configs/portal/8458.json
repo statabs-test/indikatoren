@@ -5,27 +5,27 @@
       "data": [
         [
           "2004",
-          17.5
+          17.5199
         ],
         [
           "2007",
-          17
+          17.0453
         ],
         [
           "2010",
-          16.7
+          16.6625
         ],
         [
           "2013",
-          18.5
+          18.5427
         ],
         [
           "2016",
-          16.1
+          16.1055
         ],
         [
           "2020",
-          18.8
+          18.7534
         ]
       ],
       "name": "Männer",
@@ -36,30 +36,30 @@
       "data": [
         [
           "2004",
-          26.5
+          16.1082
         ],
         [
           "2007",
-          28.4
+          15.5654
         ],
         [
           "2010",
-          26.7
+          13.7512
         ],
         [
           "2013",
-          26.9
+          15.7089
         ],
         [
           "2016",
-          25.7
+          13.4717
         ],
         [
           "2020",
-          28.3
+          16.1316
         ]
       ],
-      "name": "Frauen",
+      "name": "Männer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -67,30 +67,30 @@
       "data": [
         [
           "2004",
-          22.3
+          18.9315
         ],
         [
           "2007",
-          23.1
+          18.5253
         ],
         [
           "2010",
-          22.2
+          19.5738
         ],
         [
           "2013",
-          22.7
+          21.3766
         ],
         [
           "2016",
-          21.1
+          18.7392
         ],
         [
           "2020",
-          23.4
+          21.3752
         ]
       ],
-      "name": "Total",
+      "name": "Männer 95% Vertrauensintervall Obergrenze",
       "turboThreshold": 0
     }
   ],
@@ -216,7 +216,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 25.5.2021"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 17.10.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
