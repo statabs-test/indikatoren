@@ -3,20 +3,11 @@
     "chart": {
     },
     "plotOptions": {
-      
-      "line": {            
-        colorByPoint: true,
-        color: function () {
-            // Hier wird die Farbe basierend auf dem Namen der Datenreihe dynamisch festgelegt
-            var seriesName = this.name;
-            if (seriesName === 'Pharma') {
-                return 'red';
-            } else if (seriesName === 'Datenreihe 2') {
-                return 'blue';
-            } else {
-                // Standardfarbe für andere Datenreihen
-                return 'red';
-            }
+      "line": {
+        "connectNulls": true,
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
         }
       }
     },
@@ -30,31 +21,32 @@
         "format": "{value:,.0f}"
       }
     },
+    colors: ['#2B0099',
+    '#73BA7C',
+    '#FFBB58',
+    '#FF8028',
+    '#D7E8D2',
+    '#B9CFD7',
+    '#672773',
+    '#007A2F',
+    '#008AC3',
+    '#E7CEE2',
+    '#FFDA80',
+    '#8B2223',
+    '#DC440E',    
+],
     "tooltip": {
       "shared": false,
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
     },
     "legend": {
+      reversed: true,
       "enabled": true,
       "layout": "vertical",
       "verticalAlign": "middle",
       "align": "right",
       "itemMarginBottom": 5,
     },
-    "series": [
-      { "index": 13 }, /*dunkelrot */
-      { "index": 12 }, /*hellrot */
-      { "index": 11 }, /*dunkelorange */
-      { "index": 10 }, /*dunkelgelb */
-      { "index": 9 }, /*hellgelb */
-      { "index": 8 }, /*dunkelgrün */
-      { "index": 7 }, /*hellgrün1 */
-      { "index": 6 }, /*hellgrün2 */
-      { "index": 5 }, /*dunkelblau1 */
-      { "index": 4 }, /*dunkelblau2 */
-      { "index": 3 }, /*hellblau */
-      { "index": 2 },  /*dunkelpink */
-      { "index": 1 },  /*hellpink */
-    ],
+   
   }
 }());
