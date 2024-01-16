@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Stadt durchschnittlich 23,4 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,3 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 18,8 Stunden.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 500 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -21,7 +21,7 @@ var indikatorensetData = [
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
-		"kuerzel": "I.03.6.10027",
+		"kuerzel": "I.03.6.11187",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
 		"kuerzelKunde": "2.4.1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -48,7 +48,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Basel-Landschaft durchschnittlich 25,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 31,1 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,8 Stunden.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 700 Personen für den Kanton Basel-Landschaft und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -82,10 +82,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Jura",
-		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte im Jahr 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
+		"lesehilfe": "Im Jahr 2020 wendete eine Person im Kanton Jura durchschnittlich 24,9 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,2 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 20,2 Stunden. Allerdings sind die Werte von Frauen und Männern in den Jahren 2020 und 2007 nicht statistisch signifikant verschieden voneinander.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 200 Personen für den Kanton Jura und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -95,7 +95,7 @@ var indikatorensetData = [
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
-		"kuerzel": "I.03.6.10029",
+		"kuerzel": "I.03.6.11189",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
 		"kuerzelKunde": "2.4.3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -122,7 +122,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2020 wendete eine Person in den Kantonen Basel-Stadt, Basel-Landschaft und Kanton Jura durchschnittlich 24,8 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 29,9 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,4 Stunden.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 1400 Personen für die Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -146,6 +146,117 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-10-31T11:27:07",
 		"id": 11190
+	},
+	{
+		"template": "line001_print",
+		"data-id": 11927,
+		"chart-id": 11927,
+		"filter": "",
+		"parentId": "11925",
+		"children": [],
+		"title": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS, BL und JU",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die Zahl der unter 15-Jährigen zwischen 2014 und 2022 in den Kantonen Basel-Stadt (+11,2%) und Basel-Landschaft zugenommen (+7,4%). Im Kanton Jura ist sie zurückgegangen (-1,8%).",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS, BL und JU",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.11927",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
+		"kuerzelKunde": "2.3.5",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.3 Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-05T12:03:18",
+		"id": 11927
+	},
+	{
+		"template": "line001_print",
+		"data-id": 11928,
+		"chart-id": 11928,
+		"filter": "",
+		"parentId": "11926",
+		"children": [],
+		"title": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS/BL/JU und Schweiz",
+		"subtitle": "indexiert (2014 = 100)",
+		"lesehilfe": "In der Gesamtschweiz nahm die Zahl der unter 15-Jährigen zwischen 2014 und 2022 um 8,3%, in der Region BS/BL/JU um 7,3% zu.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Wohnbevölkerung im Alter 0 bis 14 Jahre; BS/BL/JU und Schweiz",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.11928",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
+		"kuerzelKunde": "2.3.6",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.3 Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-05T12:03:18",
+		"id": 11928
+	},
+	{
+		"template": "template001_print",
+		"data-id": 11933,
+		"chart-id": 11933,
+		"filter": "",
+		"parentId": "11932",
+		"children": [],
+		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"subtitle": "in Stunden pro Woche, Schweiz",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
+		"kuerzel": "I.03.6.11932",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
+		"kuerzelKunde": "2.4.5",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.4 Unbezahlte Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-16T11:53:24",
+		"id": 11933
 	},
 	{
 		"template": "template001_print",
@@ -305,7 +416,7 @@ var indikatorensetData = [
 		"title": "Anteile Wertschöpfung nach Branche",
 		"subtitle": "Anteile an der Gesamtwertschöpfung, 2021",
 		"lesehilfe": "In Basel-Stadt erwirtschaften 2021 die Branchen Chemie und Pharma 39% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 20% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (36% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 9%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (27%). An zweiter Stelle folgt der Handel (12%).",
-		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region. Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -342,7 +453,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist im gleichen Zeitraum um rund 16% gestiegen. Das Gastgewerbe sowie der Bereich Verkehr und Lagerei haben im ersten Pandemiejahr 2020 die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2021 konnten sie sich leicht erholen.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -379,7 +490,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdoppelt und die Wertschöpfung in der Chemischen Industrie hat um fast 60% zugenommen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -416,7 +527,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken. Am stärksten war auch hier das Gastgewerbe betroffen.Die Mehrheit der Branchen konnten im Jahr 2021 wieder eine Zunahme der realen Wertschöpfung verzeichnen.",
-		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
+		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008. Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -453,7 +564,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2021 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+48%), in Bereich der Finanz- und Versicherungsdienstleistungen (+19%) und im Gesundheits- und Sozialwesen (+17%). Stark rückläufig war die Wertschöpfung vor allem im Gastgewerbe, was auf den Einbruch 2020 zurückzuführen ist.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -490,7 +601,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Wertschöpfung nach Branche, Schweiz",
 		"subtitle": "real, indexiert (2014 = 100)",
 		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2021 im Vergleich zum Jahr 2014 mehr als verdoppelt. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Stark rückläufig war die Wertschöpfung aufgrund des Einbruchs im Jahr 2020 vor allem im Gastgewerbe.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -563,7 +674,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 60%, der Bestand im 2. Quartal 2023 liegt bei 11 100 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+25% auf rund 24 400) und Basel-Stadt (+3% auf 34 600). In der gesamten Schweiz arbeiten im 2. Quartal 2023 rund 390 900 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 68%, der Bestand im 3. Quartal 2023 liegt bei 11 600 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+26% auf rund 24 600) und Basel-Stadt (+3% auf 34 700). In der gesamten Schweiz arbeiten im 3. Quartal 2023 rund 391 100 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -575,8 +686,8 @@ var indikatorensetData = [
 		],
 		"description": "Entwicklung Grenzgänger",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.08478",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
 		"kuerzelKunde": "2.1.7",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -599,8 +710,8 @@ var indikatorensetData = [
 		"parentId": "8362",
 		"children": [],
 		"title": "Grenzgänger",
-		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 2. Quartal 2023 beträgt rund 34 600. In Basel-Landschaft sind es 24 400, im Jura 11 100 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 900.",
+		"subtitle": "2023, 3. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2023 beträgt rund 34 700. In Basel-Landschaft sind es 24 600, im Jura 11 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 100.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -860,7 +971,7 @@ var indikatorensetData = [
 		"title": "Entwicklung Abschlussquote der Hochschulen",
 		"subtitle": "",
 		"lesehilfe": "Den höchsten Anteil neuer Absolventen weist 2022 mit 37,0% der Kanton Jura auf. In Basel-Stadt beträgt der Wert 25,3%, im Kanton Basel-Landschaft 34,7%. Im Schweizer Durchschnitt gibt es 32,6% neue Absolventen an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung.",
-		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen sind möglich.",
+		"erlaeuterungen": "Anteil der neuen Absolventinnen und Absolventen: Lizenziat/Diplom UH, Diplom FH, Bachelor (UH, FH, PH) an den schweizerischen Hochschulen im Verhältnis zur gleichaltrigen Wohnbevölkerung. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex)"
 		],
@@ -895,12 +1006,12 @@ var indikatorensetData = [
 		"parentId": "8370",
 		"children": [],
 		"title": "Exporte und Importe",
-		"subtitle": "Anteil am nominalen BIP, 2021",
-		"lesehilfe": "2021 betragen die Exporte aus Basel-Stadt 204,4% und die Importe 91,9% des kantonalen BIP. Beide Werte sind im regionalen Vergleich am höchsten. Die Exporte aus dem Kanton Basel-Landschaft entsprechen 28,0% des BIP; diejenige aus dem Jura betragen 49,9% des BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP.",
+		"subtitle": "Anteil am nominalen BIP, 2022",
+		"lesehilfe": "Gemessen am kantonalen BIP beträgt in Basel-Stadt der Exportwert im Jahr 2022 182,7%, der Importwert verzeichnet 92,1%. Beide Werte sind im regionalen Vergleich am höchsten. Die Werte für den Export betragen für Basel-Landschaft 28,0%, für Jura 59,2% des jeweils kantonalen BIP. Der Wert der Exporte aus der Gesamtschweiz beträgt 35,5% des BIP der Schweiz.",
 		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
 			"BAK Economics",
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -934,10 +1045,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Exporte",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Von 2016 bis 2021 haben die nominalen Warenexporte aus Basel-Stadt um über 46% zugenommen. Von 2020 bis 2021 betrug der Zuwachs knapp 15%. Auch im Kanton Basel-Landschaft sowie im Kanton Jura gab es nach dem Exportrückgang im 2020 im letzten Jahr wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte leicht um 0,7%, im Jura um 29%. Somit liegen die nominalen Warenexporte aller drei Kantone höher als 2016. Für die gesamte Region BS/BL/Ju ergibt sich im Zeitraum 2016-2021 ein Wachstum von fast 41%, für die gesamte Schweiz von über 23%.",
+		"lesehilfe": "Von 2016 bis 2022 haben die nominalen Warenexporte aus Basel-Stadt um fast 55% zugenommen. Gegenüber 2021 wurde ebenfalls ein Zuwachs verzeichnet. Auch in Basel-Landschaft und im Jura gab es nach dem vorübergehenden Exportrückgang 2020 in den letzten beiden Jahren wieder ein Plus. Im Kanton Basel-Landschaft stiegen die Exporte seit 2016 um 11%, im Jura um 41%. Die nominalen Warenexporte aller drei Kantone zusammen liegen um fast 50% höher als 2016; in der gesamten Schweiz stieg der Wert um 32%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1118,9 +1229,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "8433",
 		"children": [],
-		"title": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
+		"title": "Altersklassen der 15- bis 64-Jährigen; BS, BL und JU",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
-		"lesehilfe": "Die Altersklassen zwischen 15 und 64 Jahren weisen regional unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. So leben in Basel-Stadt vergleichsweise wenige Jugendliche und junge Erwachsene. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 45 Jahren insgesamt höhere Anteile aufweist.",
+		"lesehilfe": "Die Altersklassen weisen regional unterschiedliche Anteile an der jeweiligen Gesamtbevölkerung auf. In Basel-Stadt ist der Anteil von Kindern und Jugendlichen sowie von jungen Erwachsenen vergleichsweise gering. Die 25- bis 44-Jährigen sind hingegen überdurchschnittlich vertreten. In den höheren Altersklassen ab 45 Jahren gleichen sich die Anteile wieder an, wobei der Kanton Basel-Landschaft bei den Altersklassen ab 50 Jahren insgesamt höhere Anteile aufweist.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1130,7 +1241,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU",
+		"description": "Altersklassen der 15- bis 64-Jährigen; BS, BL und JU",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08493",
@@ -1155,9 +1266,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "8434",
 		"children": [],
-		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
+		"title": "Altersklassen der 15- bis 64-Jährigen; BS/BL/JU und Schweiz",
 		"subtitle": "Anteil an der Gesamtbevölkerung, 2022",
-		"lesehilfe": "Die Anteile der Altersklassen der 15- bis 54-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz.",
+		"lesehilfe": "Die Anteile der Altersklassen der unter 55-Jährigen an der Gesamtbevölkerung sind in der Region BS/BL/JU leicht niedriger als in der Gesamtschweiz.",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1168,7 +1279,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"description": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
+		"description": "Altersklassen der 15- bis 64-Jährigen; BS/BL/JU und Schweiz",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08494",
@@ -1210,13 +1321,13 @@ var indikatorensetData = [
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08495",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
-		"kuerzelKunde": "2.3.5",
+		"kuerzelKunde": "2.3.7",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_03_00_00_00_005",
+		"orderKey": "02_03_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -1232,7 +1343,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Altersquotient; BS/BL/JU und Schweiz",
 		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
-		"lesehilfe": "Die Region BS/BL/JU weist mit 36,4 einen höheren Altersquotienten auf als die Gesamtschweiz (31,5).",
+		"lesehilfe": "Die Region BS/BL/JU weist im Jahr 2022 mit 36,4 einen höheren Altersquotienten auf als die Gesamtschweiz (31,5).",
 		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -1248,13 +1359,13 @@ var indikatorensetData = [
 		"unterthema": "Bestand und Struktur",
 		"kuerzel": "I.01.1.08496",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU (Print)",
-		"kuerzelKunde": "2.3.6",
+		"kuerzelKunde": "2.3.8",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_03_00_00_00_006",
+		"orderKey": "02_03_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -1269,8 +1380,8 @@ var indikatorensetData = [
 		"parentId": "8437",
 		"children": [],
 		"title": "Neugegründete Unternehmen",
-		"subtitle": "2015-2020",
-		"lesehilfe": "Über die Jahre 2015 bis 2020 sind in der Region BS/BL/JU insgesamt rund 14 300 neue Unternehmen gegründet worden – davon ca. 6 500 in Basel-Stadt, ca.6 200 in Basel-Landschaft und rund 1 700 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 90% in Basel-Stadt und 81% im Jura.",
+		"subtitle": "2014-2021",
+		"lesehilfe": "Über die Jahre 2014 bis 2021 sind in der Region BS/BL/JU insgesamt fast 20 000 neue Unternehmen gegründet worden – davon rund 8 900 in Basel-Stadt, 8 500 in Basel-Landschaft und 2 300 im Jura. Der überwiegende Teil der Neugründungen ist im Dienstleistungssektor angesiedelt. Deren Anteil bewegt sich zwischen 90% in Basel-Stadt und 81% im Jura.",
 		"erlaeuterungen": "Erfasst werden nur tatsächlich neu entstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -1459,7 +1570,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung monatliche Arbeitslosenquoten",
 		"subtitle": "",
-		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den letzten Jahren sehr ähnlich entwickelt: Nach einem markanten Anstieg aufgrund der COVID-19-Pandemie im Jahr 2020 ist die Arbeitslosigkeit 2021 und 2022 tendentiell stark rückläufig. Das Niveau fällt jedoch unterschiedlich aus. Während sich die Arbeitslosenquote im Kanton Basel-Landschaft unter dem Schweizer Durchschnitt bewegt, fällt die Arbeitslosigkeit in Basel-Stadt und im Jura höher aus. Im Dezember 2022 lagen die Arbeitslosenquoten bei 1,8% (BL), 2,9% (BS) und 3,7% (JU). <br>Die höhere Quote des Kantons Jura hat unter anderem mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
+		"lesehilfe": "Die Arbeitslosenquoten in den Kantonen BS, BL und JU haben sich in den Jahren 2020 bis 2022 sehr ähnlich entwickelt: Nach einem markanten Anstieg aufgrund der COVID-19-Pandemie im Jahr 2020 ist die Arbeitslosigkeit 2021 und 2022 rückläufig gewesen. Ende Jahr 2023 waren die Quoten wieder höher als im Vorjahr. Am deutlichsten ist die Quote in Basel-Stadt gestiegen, von 2,9% im Dezember 2022 auf 3,5% im Dezember 2023. Die Arbeitslosenquoten in BS und JU liegen über dem Schweizer Durchschnitt, während diejenige im Kanton BL tiefer ist. Im Dezember 2023 lag die Arbeitslosenquote in BL bei 2,0%, in JU bei 3,8%. <br>Die höhere Quote des Kantons Jura hat auch mit der unterschiedlichen Berechnungsmethode zu tun (siehe Erläuterungen und methodischen Hinweise).",
 		"erlaeuterungen": "Arbeitslosenquote gemäss SECO, welche nur die Anzahl der Arbeitslosen berücksichtigt, die in den regionalen Arbeitsvermittlungszentren angemeldet sind. Im Kanton Jura werden dadurch auch die Arbeitslosen gezählt, welche Sozialhilfe beziehen. In BS und BL werden diese von anderen Organisationen betreut und werden daher nicht in der Berechnung miteinbezogen. Dieser organisatorische Unterschied führt zu einem verzerrten Vergleich.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1574,8 +1685,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Abschlussquote auf Sekundarstufe II",
 		"subtitle": "",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2020 im Kanton Basel-Landschaft mit 89,0% am höchsten. Er lag damit unter dem Schweizer Schnitt von 90,2%. Den tiefsten Wert aller Kantone wies mit 84,0% der Kanton Basel-Stadt auf.",
-		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, war 2021 im Kanton Basel-Landschaft mit 90,3% am höchsten. Er lag damit knapp unter dem Schweizer Schnitt von 90,7%. Den tiefsten Wert aller Kantone wies mit 85,4% der Kanton Basel-Stadt auf.",
+		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: - Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); - Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -1614,7 +1725,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
-		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2021 bei 69,9%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 67,1% und 72,7%. Im Kanton Basel-Landschaft liegt die Quote bei 76,4% und im Kanton Jura bei 71,7%. Der Wert für die Schweiz beträgt 75,8%.",
+		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2021 bei 69,9%. Das 95%-Konfidenzintervall für diese Quote liegt zwischen 67,1% und 72,7%. Im Kanton Basel-Landschaft liegt die Quote bei 76,4% und im Kanton Jura bei 71,7%. Der Wert für die Schweiz beträgt 75,8%.",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1652,8 +1763,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2021 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,5%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 67,3% und 71,7%. Im Kanton Basel-Landschaft liegt die Quote bei 71,2% und im Kanton Jura bei 67,2%. Der Wert für die Schweiz beträgt 71,8%.",
-		"erlaeuterungen": "Anteil der erwerbstätigen Frauen an den erwerbsfähigen Frauen in der Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Jahr 2021 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,5%. Das 95%-Konfidenzintervall für diese Quote liegt zwischen 67,3% und 71,7%. Im Kanton Basel-Landschaft liegt die Quote bei 71,2% und im Kanton Jura bei 67,2%. Der Wert für die Schweiz beträgt 71,8%.",
+		"erlaeuterungen": "Anteil der erwerbstätigen Frauen an den erwerbsfähigen Frauen in der Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1690,10 +1801,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Importe",
 		"subtitle": "indexiert (2016 = 100)",
-		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt zwischen 2016 und 2021 um über 30% gestiegen. Im Kanton Basel-Landschaft liegt der Wert über 24% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 wieder gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 29% seit 2016, für die gesamte Schweiz von ca. 16%.",
+		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt von 2016 bis 2022 um fast 55% gestiegen. Im Kanton Basel-Landschaft liegt der Wert fast 59% höher als 2016. Im Jura ist der Wert nach einem Rückgang 2020 zum zweiten mal in Folge gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 54% seit 2016, für die gesamte Schweiz von ca. 35%.",
 		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmens, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1765,10 +1876,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2021 gegenüber dem Vorjahr um 7 Milliarden auf 42,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2021 minus 691 Millionen. Im Jura liegt sie bei knapp 1,4 Milliarden Franken. In der Schweiz ist die Handelsbilanz seit 2018 zum dritten mal in Folge gestiegen und liegt 2021 bei über 58 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt beträgt im Jahr 2022 rund 40 Mrd. Franken, sie sank gegenüber dem Vorjahr um 2 Mrd. Franken. In Basel-Landschaft ist die Handesbilanz negativ, mit einem Wert von 1,9 Mrd. Franken. Im Jura beträgt der Wert 1,7 Mrd. Franken. In der Schweiz ist die Handelsbilanz, nachdem sie dreimal in Folge gestiegen ist, im Jahr 2022 gesunken und liegt bei knapp 43 Mrd. Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
+			"Bundesamt für Zoll und Grenzsicherheit (BAZG)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -1839,7 +1950,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Neugründungsrate",
 		"subtitle": "Anteil am Unternehmensbestand",
-		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2020 bei 6,6%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,6%) und in der Gesamtschweiz (7,1%).",
+		"lesehilfe": "Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS/BL/JU im Jahr 2021 bei 6,8%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,7%) und in der Gesamtschweiz (7,5%).",
 		"erlaeuterungen": "Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"

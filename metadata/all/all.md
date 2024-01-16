@@ -2271,4 +2271,7 @@ id | visible | visibleInPortal | indikatorenset
 11190 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
+11927 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+11928 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11932 | true | true | Wirtschaftsbericht BS_BL_JU
+11933 | true | false | Wirtschaftsbericht BS_BL_JU (Print)

@@ -72,7 +72,7 @@ global Highcharts
       {
         "index": 0,
         crisp: false,
-        color: "#007A2F",
+        color: "#73B97C",
         borderColor: null,
       },
       {
@@ -97,7 +97,7 @@ global Highcharts
       {
         "index": 4,
         crisp: false,
-        color: "#73B97C",
+        color: "#007A2F",
         borderColor: null,
       },
       {
@@ -109,7 +109,7 @@ global Highcharts
       {
         "index": 6,
         crisp: false,
-        color: "#246370",
+        color: "#A8C3CA",
         borderColor: null,
       },
       {
@@ -121,7 +121,7 @@ global Highcharts
       {
         "index": 8,
         crisp: false,
-        color: "#0F7399",
+        color: "#71A3B5",
         borderColor: null,
       },
       {
@@ -145,7 +145,7 @@ global Highcharts
       {
         "index": 12,
         crisp: false,
-        color: "#A8C3CA",
+        color: "#0F7399",
         borderColor: null,
       },
       {
@@ -157,7 +157,7 @@ global Highcharts
       {
         "index": 14,
         crisp: false,
-        color: "#D3E2E4",
+        color: "#246370",
         borderColor: null,
       },
       {

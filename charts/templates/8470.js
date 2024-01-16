@@ -6,9 +6,8 @@
     },
     "yAxis": {
       tickInterval: 10,
-      tickAmount: 5,
       "min": 90,
-      //max: 130
+      max: 150
     },
     "tooltip": {
       "shared": false,
