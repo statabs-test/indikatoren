@@ -319,7 +319,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2022"
+    "text": "Quelle: Bundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

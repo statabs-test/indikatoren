@@ -1,13 +1,13 @@
 (function () {
   return {
     "xAxis": {
-     // "tickInterval": 1,
-      //"type": "category",
+      tickInterval: 1
     },
     "yAxis": {
-      "min": 90,
-      max: 150,
-      tickInterval: 10
+      "min": 97,
+      "labels": {
+        "format": "{value:,.0f}"
+      }
     },
     "tooltip": {
       "shared": false,
@@ -17,8 +17,6 @@
       { "color": "rgb(71,71,71)" },
       { "color": "rgb(255,128,40)" },
       { "color": "rgb(250,189,36)" },
-      { "color": "#B375AB" },
-      { "color": "rgb(153,3,0)" }
     ],
     "legend": {
       "enabled": true,

@@ -11,27 +11,27 @@
       "data": [
         [
           "2004",
-          16.7115
+          17.1958
         ],
         [
           "2007",
-          17.9521
+          18.1048
         ],
         [
           "2010",
-          16.1639
+          16.2514
         ],
         [
           "2013",
-          17.5498
+          17.2924
         ],
         [
           "2016",
-          18.4965
+          17.9213
         ],
         [
           "2020",
-          19.7875
+          19.1373
         ]
       ],
       "name": "Männer",
@@ -48,33 +48,33 @@
       "data": [
         {
           "name": "2004",
-          "low": 15.4626,
-          "high": 17.9604
+          "low": 16.9361,
+          "high": 17.4555
         },
         {
           "name": "2007",
-          "low": 16.405,
-          "high": 19.4992
+          "low": 17.8024,
+          "high": 18.4071
         },
         {
           "name": "2010",
-          "low": 14.0596,
-          "high": 18.2682
+          "low": 15.8456,
+          "high": 16.6572
         },
         {
           "name": "2013",
-          "low": 15.3549,
-          "high": 19.7446
+          "low": 16.897,
+          "high": 17.6877
         },
         {
           "name": "2016",
-          "low": 16.0735,
-          "high": 20.9195
+          "low": 17.5217,
+          "high": 18.3208
         },
         {
           "name": "2020",
-          "low": 17.5945,
-          "high": 21.9805
+          "low": 18.7393,
+          "high": 19.5353
         }
       ],
       "name": "Männer 95% Vertrauensintervall Untergrenze",
@@ -91,27 +91,27 @@
       "data": [
         [
           "2004",
-          31.2667
+          30.2429
         ],
         [
           "2007",
-          30.5327
+          29.9734
         ],
         [
           "2010",
-          25.4888
+          27.951
         ],
         [
           "2013",
-          27.0832
+          27.5398
         ],
         [
           "2016",
-          27.6633
+          28.0615
         ],
         [
           "2020",
-          31.1178
+          28.7183
         ]
       ],
       "name": "Frauen",
@@ -128,33 +128,33 @@
       "data": [
         {
           "name": "2004",
-          "low": 29.5167,
-          "high": 33.0167
+          "low": 29.9086,
+          "high": 30.5773
         },
         {
           "name": "2007",
-          "low": 28.5794,
-          "high": 32.486
+          "low": 29.6069,
+          "high": 30.34
         },
         {
           "name": "2010",
-          "low": 22.9452,
-          "high": 28.0323
+          "low": 27.4054,
+          "high": 28.4966
         },
         {
           "name": "2013",
-          "low": 24.1619,
-          "high": 30.0044
+          "low": 27.0087,
+          "high": 28.0708
         },
         {
           "name": "2016",
-          "low": 24.8621,
-          "high": 30.4646
+          "low": 27.4883,
+          "high": 28.6348
         },
         {
           "name": "2020",
-          "low": 28.3204,
-          "high": 33.9153
+          "low": 28.1419,
+          "high": 29.2947
         }
       ],
       "name": "Frauen 95% Vertrauensintervall Untergrenze",
@@ -171,27 +171,27 @@
       "data": [
         [
           "2004",
-          24.179
+          23.9111
         ],
         [
           "2007",
-          24.4526
+          24.2034
         ],
         [
           "2010",
-          20.785
+          22.2198
         ],
         [
           "2013",
-          22.7362
+          22.5022
         ],
         [
           "2016",
-          23.4174
+          23.0701
         ],
         [
           "2020",
-          25.7917
+          23.9904
         ]
       ],
       "name": "Total",
@@ -208,33 +208,33 @@
       "data": [
         {
           "name": "2004",
-          "low": 23.0145,
-          "high": 25.3434
+          "low": 23.6886,
+          "high": 24.1337
         },
         {
           "name": "2007",
-          "low": 23.1308,
-          "high": 25.7744
+          "low": 23.9558,
+          "high": 24.451
         },
         {
           "name": "2010",
-          "low": 19.0753,
-          "high": 22.4948
+          "low": 21.8644,
+          "high": 22.5752
         },
         {
           "name": "2013",
-          "low": 20.7992,
-          "high": 24.6732
+          "low": 22.1601,
+          "high": 22.8443
         },
         {
           "name": "2016",
-          "low": 21.5144,
-          "high": 25.3203
+          "low": 22.7093,
+          "high": 23.4308
         },
         {
           "name": "2020",
-          "low": 23.9401,
-          "high": 27.6433
+          "low": 23.6301,
+          "high": 24.3507
         }
       ],
       "name": "Total 95% Vertrauensintervall Untergrenze",
@@ -292,7 +292,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-10028",
+    "renderTo": "container-11932",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -316,7 +316,7 @@
     "text": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit"
   },
   "subtitle": {
-    "text": "in Stunden pro Woche, Basel-Landschaft",
+    "text": "in Stunden pro Woche, Schweiz",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -376,9 +376,9 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 16.1.2024"
   },
   "exporting": {
-    "filename": "10028"
+    "filename": "11932"
   }
 }
