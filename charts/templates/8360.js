@@ -70,7 +70,7 @@ global Highcharts
     "series": [
       {
         "index": 0,
-        color: "#007A2F",
+        color: "#73B97C",
         "tooltip": {
           "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -107,7 +107,7 @@ global Highcharts
       },
       {
         "index": 4,
-        color: "#73B97C",
+        color: "#007A2F",
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -125,7 +125,7 @@ global Highcharts
       },
       {
         "index": 6,
-        color: "#246370",
+        color: "#A8C3CA",
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -143,7 +143,7 @@ global Highcharts
         },
         {
           "index": 8,
-          color: "#0F7399",
+          color: "#71A3B5",
           "tooltip": {
             "pointFormatter": function () {
               return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -179,7 +179,7 @@ global Highcharts
     },
     {
       "index": 12,
-      color: "#A8C3CA",
+      color: "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -197,7 +197,7 @@ global Highcharts
   },
   {
     "index": 14,
-    color: "#D3E2E4",
+    color: "#246370",
     "tooltip": {
       "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
