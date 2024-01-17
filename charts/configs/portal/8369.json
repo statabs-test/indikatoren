@@ -55,7 +55,7 @@
         ],
         [
           "Basel-Landschaft",
-          29.8
+          29.7
         ],
         [
           "Jura",
@@ -74,7 +74,7 @@
       "data": [
         [
           "Basel-Stadt",
-          26.4
+          26.3
         ],
         [
           "Basel-Landschaft",
@@ -97,19 +97,19 @@
       "data": [
         [
           "Basel-Stadt",
-          26.1
+          26
         ],
         [
           "Basel-Landschaft",
-          31.6
+          31.8
         ],
         [
           "Jura",
-          34.1
+          34.3
         ],
         [
           "Schweiz",
-          29.8
+          30.1
         ]
       ],
       "name": "2018",
@@ -120,19 +120,19 @@
       "data": [
         [
           "Basel-Stadt",
-          24.9
+          25
         ],
         [
           "Basel-Landschaft",
-          34
+          34.3
         ],
         [
           "Jura",
-          29.2
+          29.6
         ],
         [
           "Schweiz",
-          30.2
+          30.8
         ]
       ],
       "name": "2019",
@@ -147,7 +147,7 @@
         ],
         [
           "Basel-Landschaft",
-          33.7
+          33.8
         ],
         [
           "Jura",
@@ -155,7 +155,7 @@
         ],
         [
           "Schweiz",
-          30.2
+          31.3
         ]
       ],
       "name": "2020",
@@ -341,7 +341,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2023"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Bildungsperspektiven, Studierende und Abschlüsse der Hochschulen (SHIS-studex).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
