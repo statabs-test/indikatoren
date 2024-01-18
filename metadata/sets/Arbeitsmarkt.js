@@ -2940,6 +2940,45 @@ var indikatorensetData = [
 		"id": 8690
 	},
 	{
+		"template": "line001",
+		"data-id": 8693,
+		"chart-id": 8693,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8704
+		],
+		"title": "Beschäftigung in der Branche Lagerei und Zustelldienste",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Die Beschäftigung in der Branchengruppe Lagerei und Zustelldienste (NOGA 52 und 53) ist seit einigen Jahren rückläufig. Im Jahr 2017 beträgt sie rund 3 700 Vollzeitäquivalente (2011: 5 100). Der Rückgang ist vor allem auf den Bereich Erbringung von sonstigen Dienstleistungen für den Verkehr a. n. g. zurückzuführen, welcher mit rund 1 600 VZÄ immer noch den grössten Anteil ausmacht.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Lagerei und Zustelldienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08693",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.3.1",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_301",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:18:44",
+		"id": 8693
+	},
+	{
 		"template": "template001",
 		"data-id": 9219,
 		"chart-id": 9219,

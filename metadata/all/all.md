@@ -1778,7 +1778,7 @@ id | visible | visibleInPortal | indikatorenset
 8689 | true | false | Arbeitsmarkt
 8690 | true | false | Arbeitsmarkt
 8692 | true | true | 
-8693 | false |  | Arbeitsmarkt
+8693 | true | false | Arbeitsmarkt
 8694 | false |  | Arbeitsmarkt
 8695 | false |  | Arbeitsmarkt
 8696 | false |  | Arbeitsmarkt
