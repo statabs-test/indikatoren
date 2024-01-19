@@ -1779,9 +1779,9 @@ id | visible | visibleInPortal | indikatorenset
 8690 | true | false | Arbeitsmarkt
 8692 | true | true | 
 8693 | true | false | Arbeitsmarkt
-8694 | false |  | Arbeitsmarkt
-8695 | false |  | Arbeitsmarkt
-8696 | false |  | Arbeitsmarkt
+8694 | true | false | Arbeitsmarkt
+8695 | true | false | Arbeitsmarkt
+8696 | true | false | Arbeitsmarkt
 8698 | true | false | Arbeitsmarkt (Print)
 8699 | true | false | Arbeitsmarkt (Print)
 8700 | true | false | Arbeitsmarkt (Print)
@@ -2151,10 +2151,10 @@ id | visible | visibleInPortal | indikatorenset
 9483 | true | false | City-Statistics (Print)
 9484 | true | false | City-Statistics (Print)
 9485 | true | false | City-Statistics (Print)
-9490 | false |  | Arbeitsmarkt
-9491 | false |  | Arbeitsmarkt
-9492 | false |  | Arbeitsmarkt
-9493 | false |  | Arbeitsmarkt
+9490 | true | true | Arbeitsmarkt
+9491 | true | true | Arbeitsmarkt
+9492 | true | true | Arbeitsmarkt
+9493 | true | true | Arbeitsmarkt
 9507 | true | true | Umwelt
 9508 | true | false | Arbeitsmarkt (Print)
 9509 | true | false | Arbeitsmarkt (Print)

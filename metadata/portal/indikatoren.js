@@ -39680,6 +39680,168 @@ var indikatoren = [
 		"id": 9475
 	},
 	{
+		"template": "line001",
+		"data-id": 9490,
+		"chart-id": 9490,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9508
+		],
+		"title": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2019 in der Branche Handel mit und Reparatur von Motorfahrzeugen (NOGA 45) tätig. Der grösste Teil entfällt mit 660 VZÄ auf die Instandhaltung und Reparatur von Automobilen, knapp 100 VZÄ auf den Handel mit Automobilteilen und -zubehör.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.09490",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.15.1",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:07",
+		"id": 9490
+	},
+	{
+		"template": "line001",
+		"data-id": 9491,
+		"chart-id": 9491,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9509
+		],
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Arbeitslosen in der Branche Handel mit und Reparatur von Motorfahrzeugen liegt Ende 2021 bei 26 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 7,5%. Dieser Wert ist statistisch unzuverlässig und wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.09491",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.15.2",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:09",
+		"id": 9491
+	},
+	{
+		"template": "line001",
+		"data-id": 9492,
+		"chart-id": 9492,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9510
+		],
+		"title": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche  Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 4. Quartal 2021 liegt sie bei 131 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten liegt bei 90. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.09492",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.15.3",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:10",
+		"id": 9492
+	},
+	{
+		"template": "template001",
+		"data-id": 9493,
+		"chart-id": 9493,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9511
+		],
+		"title": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Im Jahr 2018 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 000 Franken brutto und damit etwas höher als 2016.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.09493",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.15.4",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.3 Lagerei und Zustelldienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_03_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:12",
+		"id": 9493
+	},
+	{
 		"template": "template001",
 		"data-id": 9507,
 		"chart-id": 9507,
