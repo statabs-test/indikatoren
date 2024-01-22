@@ -791,6 +791,44 @@ var indikatoren = [
 		"id": 11897
 	},
 	{
+		"template": "stock001",
+		"data-id": 11936,
+		"chart-id": 11936,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Logiernächte pro Tag 2023",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Logiernächte pro Tag 2023",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.11936",
+		"kennzahlenset": "Testset",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-01-18T08:32:30",
+		"id": 11936
+	},
+	{
 		"template": "line001",
 		"data-id": 2151,
 		"chart-id": 2151,
