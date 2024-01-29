@@ -18,16 +18,15 @@
     "xAxis": {
     },
     "yAxis": {
-        reversedStacks: false, 
-        tickAmount: 7
+       reversedStacks: false, 
+        tickAmount: 8
     },
     "series": [
       {
-          stack: 1,
           color: 'rgb(176, 0, 0)'
       },
       {
-          stack: 1,
+          
           color: 'rgb(105, 146, 155)'
       }
     ],
@@ -36,8 +35,8 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemWidth: 180, 
-      itemMarginBottom: 5,
+      "itemWidth": 180, 
+      "itemMarginBottom": 5,
       //"y": 35,    
       "itemStyle": {
         "fontWeight": "normal"
@@ -48,7 +47,8 @@
     },
 tooltip: {
          //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-         pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
+         pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+         footerFormat: '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>'
           }
 };
 }());
