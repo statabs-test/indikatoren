@@ -1,13 +1,13 @@
 var indikatorensetData = [
 	{
-		"template": "stock001",
+		"template": "template001",
 		"data-id": 11936,
 		"chart-id": 11936,
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Logiernächte pro Tag 2023",
-		"subtitle": "",
+		"title": "Logiernächte pro Tag nach Herkunft der Gäste",
+		"subtitle": "Basel-Stadt, 2023",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -18,7 +18,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Logiernächte pro Tag 2023",
+		"description": "Logiernächte pro Tag nach Herkunft der Gäste",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kuerzel": "I.10.1.11936",

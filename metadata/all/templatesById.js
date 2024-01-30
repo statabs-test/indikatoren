@@ -2077,5 +2077,5 @@ var templatesById = {
 	"11185": "line001",
 	"11788": "stock001",
 	"11897": "map001",
-	"11936": "stock001"
+	"11936": "template001"
 };
