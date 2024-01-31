@@ -20062,7 +20062,7 @@ var indikatoren = [
 		],
 		"title": "Durchschnittliche Betriebsgrösse",
 		"subtitle": "in Zimmern, Basel-Stadt",
-		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2023 im Durchschnitt 100 Zimmer an, 3-Sterne-Häuser im Schnitt 70 Zimmer, 1- bis 2-Sterne Betriebe 69 Zimmer. Die Zahl der Zimmer je Betrieb lag 2023 in allen Kategorien über dem Zehnjahresschnitt.",
+		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2023 im Durchschnitt 100 Zimmer an, 3-Sterne-Häuser im Schnitt 70 Zimmer, 1- bis 2-Sterne-Betriebe 69 Zimmer. Mit Ausnahme der 1- und 2-Sterne-Häuser lag 2023 die Zahl der Zimmer je Betrieb über dem Zehnjahresschnitt.",
 		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
