@@ -26965,7 +26965,7 @@ var indikatoren = [
 		],
 		"title": "Logiernächte pro Monat nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von Januar bis Dezember 2023 wurden insgesamt 1 474 975 Logiernächte in den baselstädtischen Hotels gezählt. Im Vergleich zum Mittelwert der letzten zehn Jahre entspricht dies einer Zunahme um 24,7% bzw. 292 271 Logiernächte. Der meistfrequentierte Monat war der Juli mit 143 839 Übernachtungen. Die höchste Übernachtungszahl der ausländischen Gäste wurde im Juni 2023 mit 95 905 verzeichnet, bei den Inlandgästen waren es die 54 559 Übernachtungen im November. Der besucherschwächste Monat war der Januar mit insgesamt 76 269 Übernachtungen.",
+		"lesehilfe": "Von Januar bis Dezember 2023 wurden insgesamt 1 474 975 Logiernächte in den baselstädtischen Hotels gezählt. Im Vergleich zum Mittelwert der letzten zehn Jahre entspricht dies einer Zunahme um 24,7% bzw. 292 271 Logiernächte. Der meistfrequentierte Monat war der Juli mit 143 839 Übernachtungen. Die höchste Übernachtungszahl der ausländischen Gäste wurde im Juni 2023 mit 95 905 verzeichnet, bei den Inlandgästen waren es die 54 559 Übernachtungen im November. Der besucherärmste Monat war der Januar mit insgesamt 76 269 Übernachtungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -27006,7 +27006,7 @@ var indikatoren = [
 		],
 		"title": "Logiernächte nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 wurde sowohl der Vorjahreswert als auch die 1,42 Millionen Übernachtungen im Jahr 2019 überboten. 1,47 Millionen Logiernächte bedeuten einen neuen Höchststand für die Basler Hotellerie. Dies sind 13,4% bzw. 173 868 mehr als 2022. Gäste aus der Schweiz übernachteten im Berichtsjahr 541 147 Mal in einem baselstädtischen Hotel, 2022 waren es 536 630. Dies entspricht einem Plus von 4 517 Logiernächten oder 0,8%. Gäste aus dem Ausland logierten 2023 insgesamt 933 828 Mal in einem Hotel in Basel-Stadt, 2022 waren es 764 477. Hier beträgt der Zuwachs 169 351 Logiernächte bzw. 22,2%. Im Jahresdurchschnitt 2023 übernachteten rund 4 000 Gäste pro Tag in den baselstädtischen Hotelbetrieben. Der Höchstwert der täglichen Übernachtungen wurde am Samstag, 9. Dezember mit 8 007 registriert, der Tiefstwert am Sonntag, 8. Januar mit 1 455.",
+		"lesehilfe": "2023 wurden sowohl der Vorjahreswert als auch die 1,42 Millionen Übernachtungen im Jahr 2019 überboten. 1,47 Millionen Logiernächte bedeuten einen neuen Höchststand für die Basler Hotellerie. Dies sind 13,4% bzw. 173 868 mehr als 2022. Gäste aus der Schweiz übernachteten im Berichtsjahr 541 147 Mal in einem baselstädtischen Hotel, 2022 waren es 536 630. Dies entspricht einem Plus von 4 517 Logiernächten oder 0,8%. Gäste aus dem Ausland logierten 2023 insgesamt 933 828 Mal in einem Hotel in Basel-Stadt, 2022 waren es 764 477. Hier beträgt der Zuwachs 169 351 Logiernächte bzw. 22,2%. Im Jahresdurchschnitt 2023 übernachteten rund 4 000 Gäste pro Tag in den baselstädtischen Hotelbetrieben. Der Höchstwert der täglichen Übernachtungen wurde am Samstag, 9. Dezember mit 8 007 registriert, der Tiefstwert am Sonntag, 8. Januar mit 1 455.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -27046,8 +27046,8 @@ var indikatoren = [
 		],
 		"title": "Logiernächte nach Herkunft der Gäste",
 		"subtitle": "indexiert (2014 = 100), Basel-Stadt",
-		"lesehilfe": "In den letzten zehn Jahren ist die Anzahl der Logiernächte der inländischen Gäste um 48,8% bzw. 177 391 gewachsen. Der Index der Übernachtungen der ausländischen Gäste stieg zwischen 2014 und 2023 um 17 Indexpunkte. Dieser Index fiel 2020 deutlich und erreichte einen Wert von 33,3.",
-		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik in den Jahren 2020 bis 2022.",
+		"lesehilfe": "In den letzten zehn Jahren ist die Anzahl der Logiernächte der inländischen Gäste um 48,8% bzw. 177 391 gewachsen. Der Index der Übernachtungen der ausländischen Gäste stieg zwischen 2014 und 2023 um 16,8% bzw. 134 646 Übernachtungen.",
+		"erlaeuterungen": "Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung hatten Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik in den Jahren 2020 bis 2022.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
