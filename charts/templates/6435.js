@@ -77,36 +77,64 @@
         "color": "#008AC3",
         "tooltip": {
           "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+              var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+              
+              // Find the corresponding error bar point
+              var errorBarPoint = this.series.chart.series.find(function (series) {
+                  return series.options.index === 1; // Assuming the error bar series has index 1
+              }).points[this.index];
+              
+              if (errorBarPoint) {
+                  tooltip += ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+              }
+
+              return tooltip;
           }
-        }}, /*Männer*/
+      }
+  }, /*Männer*/
         {
           "index": 1,
           "type": "errorbar",
-          "tooltip": {
+          "enableMouseTracking": false,
+          /*"tooltip": {
             "pointFormatter": function () {
               return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
             },
-          }
+          }*/
         },
         { index:2,
           "color": "#DC440E",
           "tooltip": {
             "pointFormatter": function () {
-              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+                var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+                
+                // Find the corresponding error bar point
+                var errorBarPoint = this.series.chart.series.find(function (series) {
+                    return series.options.index === 3; // Assuming the error bar series has index 3
+                }).points[this.index];
+                
+                if (errorBarPoint) {
+                    tooltip += ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+                }
+
+                return tooltip;
             }
-          }}, /*Frauen*/
+        }
+    }, /*Frauen*/
           {
             "index": 3,
             "type": "errorbar",
-            "tooltip": {
+            "enableMouseTracking": false,
+           /* "tooltip": {
               "pointFormatter": function () {
                 return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
               },
-            }
+            }*/
           },
          
     ],
+    
+
     "legend": {
       "enabled": true,
       "layout": "horizontal",
