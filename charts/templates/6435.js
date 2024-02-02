@@ -68,7 +68,7 @@
       "labels": {
         "format": "{value:,.0f}",
         "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0);
+          return Highcharts.numberFormat((this.value), 0)+'%';
         },
       }
     },
