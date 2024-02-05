@@ -69,7 +69,14 @@
     "series": [
       {
         "color": "#0091f7",
-        zIndex: 2
+        zIndex: 2,
+        "tooltip": {
+          "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+            var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+        }
       },
       {
         "index": 1,
@@ -79,14 +86,21 @@
           "pointFormatter": function () {
             var parent = this.series.chart.series[0];
             parent.setState('hover'); //"aktiviere" alle series
-            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '%</b>';
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
             var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           },
         }
       },
       {
         "color": "#999999",
+        "tooltip": {
+          "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+            var errorBarPoint = this.series.chart.series[3].points[this.index]; // corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+        }
         //dashStyle: 'ShortDash',
       },
       {
@@ -97,9 +111,9 @@
           "pointFormatter": function () {
             var parent = this.series.chart.series[0];
             parent.setState('hover'); //"aktiviere" alle series
-            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '%</b>';
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
             var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           },
         }
       },
