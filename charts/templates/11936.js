@@ -184,7 +184,8 @@ while (i < 52) {
     },
     "yAxis": {
       reversedStacks: false,
-      tickAmount: 6
+      tickAmount: 6,
+      max: 10000,
     },
     navigator: {
       enabled: true,
@@ -198,7 +199,9 @@ while (i < 52) {
           y: 15
         }
       }
-
+    },
+    rangeSelector: {
+      enabled: true
     },
     "series": [
       {
@@ -223,7 +226,8 @@ while (i < 52) {
       }
     },
     "chart": {
-      "type": "column"
+      "type": "column",
+      zoomType: 'x'
     },
     tooltip: {
       //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
