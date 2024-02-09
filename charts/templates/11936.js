@@ -15,8 +15,9 @@ var plotBands = [
                 fontSize: '7pt',
             },
             textAlign: 'right',
-            x: -5,
-            y: 15
+            x: 0,//-5,
+            y: 3,//15
+            rotation: -90
         }
     },
     {
@@ -30,8 +31,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -5,
-          y: 30
+          x: -5,//-5,
+          y: 3,//30
+          rotation: -90
       }
     },
     {
@@ -45,8 +47,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -5,
-          y: 40
+          x: 5,//-5,
+          y: 3,//40
+          rotation: -90
       }
     },
     {
@@ -60,8 +63,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -5,
-          y: 15
+          x: 0,//-5,
+          y: 3,//15
+          rotation: -90
       }
     },
     {
@@ -75,8 +79,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -5,
-          y: 15
+          x: 0,//-5,
+          y: 3,//15
+          rotation: -90
       }
     },
     {
@@ -90,8 +95,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -5,
-          y: 15
+          x: 0,//-5,
+          y: 3,//15
+          rotation: -90
       }
     },
     {
@@ -105,8 +111,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -5,
-          y: 30
+          x: 0,//-5,
+          y: 3,//30
+          rotation: -90
       }
     },
     {
@@ -120,8 +127,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -3,
-          y: 45
+          x: 0,//-3,
+          y: 3,//45
+          rotation: -90
       }
     },
     {
@@ -135,8 +143,9 @@ var plotBands = [
               fontSize: '7pt',
           },
           textAlign: 'right',
-          x: -15,
-          y: 60
+          x: 0,//-15,
+          y: 3,//60,
+          rotation: -90
       }
     }
   ];
@@ -196,7 +205,7 @@ while (i < 52) {
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemWidth": 180, 
+      "itemWidth": 100, 
       "itemMarginBottom": 5,
       //"y": 35,    
       "itemStyle": {
