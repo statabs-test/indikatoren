@@ -191,7 +191,7 @@ while (i < 52) {
       enabled: true,
       top: 330,
       series: {
-        type: 'column',
+        //type: 'column',
         pointRange: null
       },
       xAxis: {
@@ -199,9 +199,6 @@ while (i < 52) {
           y: 15
         }
       }
-    },
-    rangeSelector: {
-      enabled: true
     },
     "series": [
       {
