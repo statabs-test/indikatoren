@@ -4,151 +4,151 @@ var colorLine = '#B375AB';
 var startDates = [Date.UTC(2023, 1, 1, 0, 0)];
 var endDates = [Date.UTC(2023, 12, 31, 0, 0)];
 var plotBands = [
-    {
-        color: colorText,
-        from: Date.UTC(2023, 1, 26, 0, 0), 
-        to: Date.UTC(2023, 1, 27, 0, 0),
-        label: {
-            text: 'Fasnacht',
-            style: {
-                color: colorLine,
-                fontSize: '7pt',
-            },
-            textAlign: 'right',
-            x: 0,//-5,
-            y: 3,//15
-            rotation: -90
-        }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 4, 18, 0, 0), 
-      to: Date.UTC(2023, 4, 20, 0, 0),
-      label: {
-          text: 'FC Basel vs. AC Florenz',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: -5,//-5,
-          y: 3,//30
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 4, 18, 0, 0), 
-      to: Date.UTC(2023, 4, 20, 0, 0),
-      label: {
-          text: 'Fantasy',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 5,//-5,
-          y: 3,//40
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 5, 13, 0, 0), 
-      to: Date.UTC(2023, 5, 18, 0, 0),
-      label: {
-          text: 'Art-Woche',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 0,//-5,
-          y: 3,//15
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 6, 15, 0, 0), 
-      to: Date.UTC(2023, 6, 22, 0, 0),
-      label: {
-          text: 'Tatoo',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 0,//-5,
-          y: 3,//15
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 9, 28, 0, 0), 
-      to: Date.UTC(2023, 9, 28, 0, 0),
-      label: {
-          text: 'Swiss Indoors',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 0,//-5,
-          y: 3,//15
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 10, 3, 0, 0), 
-      to: Date.UTC(2023, 10, 11, 0, 0),
-      label: {
-          text: 'Herbstmesse',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 0,//-5,
-          y: 3,//30
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 10, 18, 0, 0), 
-      to: Date.UTC(2023, 10, 18, 0, 0),
-      label: {
-          text: 'Igeho',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 0,//-3,
-          y: 3,//45
-          rotation: -90
-      }
-    },
-    {
-      color: colorText,
-      from: Date.UTC(2023, 10, 25, 0, 0), 
-      to: Date.UTC(2023, 11, 16, 0, 0),
-      label: {
-          text: 'Weihnachtsmarkt',
-          style: {
-              color: colorLine,
-              fontSize: '7pt',
-          },
-          textAlign: 'right',
-          x: 0,//-15,
-          y: 3,//60,
-          rotation: -90
-      }
+  {
+    color: colorText,
+    from: Date.UTC(2023, 1, 26, 0, 0),
+    to: Date.UTC(2023, 1, 27, 0, 0),
+    label: {
+      text: 'Fasnacht',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-5,
+      y: 3,//15
+      rotation: -90
     }
-  ];
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 4, 18, 0, 0),
+    to: Date.UTC(2023, 4, 20, 0, 0),
+    label: {
+      text: 'FC Basel vs. AC Florenz',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: -5,//-5,
+      y: 3,//30
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 4, 18, 0, 0),
+    to: Date.UTC(2023, 4, 20, 0, 0),
+    label: {
+      text: 'Fantasy',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 5,//-5,
+      y: 3,//40
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 5, 13, 0, 0),
+    to: Date.UTC(2023, 5, 18, 0, 0),
+    label: {
+      text: 'Art-Woche',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-5,
+      y: 3,//15
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 6, 15, 0, 0),
+    to: Date.UTC(2023, 6, 22, 0, 0),
+    label: {
+      text: 'Tatoo',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-5,
+      y: 3,//15
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 9, 28, 0, 0),
+    to: Date.UTC(2023, 9, 28, 0, 0),
+    label: {
+      text: 'Swiss Indoors',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-5,
+      y: 3,//15
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 10, 3, 0, 0),
+    to: Date.UTC(2023, 10, 11, 0, 0),
+    label: {
+      text: 'Herbstmesse',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-5,
+      y: 3,//30
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 10, 18, 0, 0),
+    to: Date.UTC(2023, 10, 18, 0, 0),
+    label: {
+      text: 'Igeho',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-3,
+      y: 3,//45
+      rotation: -90
+    }
+  },
+  {
+    color: colorText,
+    from: Date.UTC(2023, 10, 25, 0, 0),
+    to: Date.UTC(2023, 11, 16, 0, 0),
+    label: {
+      text: 'Weihnachtsmarkt',
+      style: {
+        color: colorLine,
+        fontSize: '7pt',
+      },
+      textAlign: 'right',
+      x: 0,//-15,
+      y: 3,//60,
+      rotation: -90
+    }
+  }
+];
 //creating weekend-plotbands
 /*var i = 0;
 while (i < 52) {
@@ -160,16 +160,16 @@ while (i < 52) {
     i++;
 }*/
 
-(function(){
+(function () {
   return {
     "plotOptions": {
-        column: {
-            stacking: 'normal'
-        },
-      "series": {  
-          pointPadding: 0,
-          borderWidth: 0,
-          //pointWidth: 10, 
+      column: {
+        stacking: 'normal'
+      },
+      "series": {
+        pointPadding: 0,
+        borderWidth: 0,
+        //pointWidth: 10, 
         "dataLabels": {
           "style": {
             "fontSize": "10px"
@@ -183,32 +183,31 @@ while (i < 52) {
       min: Date.parse('2023-10-01')
     },
     "yAxis": {
-       reversedStacks: false, 
-        tickAmount: 6
+      reversedStacks: false,
+      tickAmount: 6
     },
-        navigator: {
-          enabled: true,
-          top: 330,
-          series: {
-            type: 'column',
-            pointRange: null
-          },
-          xAxis: {
-            labels: {
-              y: 15
-            }
-          }
-          
+    navigator: {
+      enabled: true,
+      top: 330,
+      series: {
+        type: 'column',
+        pointRange: null
       },
+      xAxis: {
+        labels: {
+          y: 15
+        }
+      }
+
+    },
     "series": [
       {
-          color: 'rgb(176, 0, 0)',
-          showInNavigator: true,
+        color: 'rgb(176, 0, 0)',
+        showInNavigator: true,
       },
       {
-          
-          color: 'rgb(105, 146, 155)',
-          showInNavigator: true,
+        color: 'rgb(105, 146, 155)',
+        showInNavigator: true,
       }
     ],
     "legend": {
@@ -216,23 +215,23 @@ while (i < 52) {
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemWidth": 100, 
+      "itemWidth": 100,
       "itemMarginBottom": 5,
       //"y": 35,    
       "itemStyle": {
         "fontWeight": "normal"
       }
     },
-    "chart": {      
+    "chart": {
       "type": "column"
     },
-tooltip: {
-         //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-         pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-         footerFormat: '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>'
-          }
-          
-};
+    tooltip: {
+      //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      footerFormat: '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>'
+    }
+
+  };
 }());
 
 
