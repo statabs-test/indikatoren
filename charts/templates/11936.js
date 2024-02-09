@@ -182,13 +182,20 @@ while (i < 52) {
       max: Date.UTC(2023, 11, 31, 0, 0),
       min: Date.parse('2023-10-01')
     },
-    navigator: {
-      enabled: true
-  },
     "yAxis": {
        reversedStacks: false, 
         tickAmount: 6
     },
+        navigator: {
+          enabled: true,
+          series: {
+            type: 'column',
+            pointRange: null,
+            /*dataGrouping: {
+              groupPixelWidth: 10
+            }*/
+          }
+      },
     "series": [
       {
           color: 'rgb(176, 0, 0)',
