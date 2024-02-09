@@ -188,13 +188,17 @@ while (i < 52) {
     },
         navigator: {
           enabled: true,
+          top: 330,
           series: {
             type: 'column',
-            pointRange: null,
-            /*dataGrouping: {
-              groupPixelWidth: 10
-            }*/
+            pointRange: null
+          },
+          xAxis: {
+            labels: {
+              y: 15
+            }
           }
+          
       },
     "series": [
       {
