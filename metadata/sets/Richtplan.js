@@ -312,8 +312,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Lärmbelastete Personen",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Anteil an der Gesamtbevölkerung in Prozent, Basel-Stadt",
+		"lesehilfe": "11,7% der im Kanton Basel-Stadt wohnhaften Personen gelten 2021 als tagsüber lärmbelastet, da der Grenzwert für Strassenlärm an ihrem Gebäude überschritten wird. Von Überschreitungen des Nacht-Grenzwertes sind 20,5% betroffen.",
 		"erlaeuterungen": "Anteil Personen, die in Gebäuden wohnen, bei welchen die Immissionsgrenzwerte für Strassenverkehrslärm der schweizerischen Lärmschutz-Verordnung (LSV) überschritten werden. Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -532,43 +532,6 @@ var indikatorensetData = [
 	},
 	{
 		"template": "template001",
-		"data-id": 11913,
-		"chart-id": 11913,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Neu überbaute Flächen ausserhalb der Bauzone",
-		"subtitle": "####",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "##################  Wird für BS im Rahmen des Umweltberichts nicht erhoben  ####################",
-		"quellenangabe": [
-			"Amt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Neu überbaute Flächen ausserhalb der Bauzone",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T03:13:26",
-		"id": 11913
-	},
-	{
-		"template": "template001",
 		"data-id": 11914,
 		"chart-id": 11914,
 		"filter": "",
@@ -576,8 +539,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Anteils der Biodiversitätsförderflächen (BFF) an der gesamten Landwirtschaftlichen Nutzfäche (LN). Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet. Die Biodiversitätsförderflächen dienen dem Erhalt und der Förderung der Arten und der ökologisch wertvollen Lebensräume.",
+		"lesehilfe": "2021 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 20,13% Biodiversitätsförderflächen.",
+		"erlaeuterungen": "Anteil der Biodiversitätsförderflächen (BFF) an der gesamten Landwirtschaftlichen Nutzfäche (LN). Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet. Die Biodiversitätsförderflächen dienen dem Erhalt und der Förderung der Arten und der ökologisch wertvollen Lebensräume.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],

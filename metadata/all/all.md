@@ -2324,7 +2324,7 @@ id | visible | visibleInPortal | indikatorenset
 11910 | true | true | Richtplan
 11911 | true | true | Richtplan
 11912 | true | true | Richtplan
-11913 | true | true | Richtplan
+11913 | false |  | Richtplan
 11914 | true | true | Richtplan
 11915 | true | true | Richtplan
 11916 | true | true | Richtplan
