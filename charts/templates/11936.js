@@ -41,7 +41,7 @@ var plotBands = [
     from: Date.UTC(2023, 4, 18, 0, 0),
     to: Date.UTC(2023, 4, 20, 0, 0),
     label: {
-      text: 'Fantasy',
+      text: 'Fantasy Basel',
       style: {
         color: colorLine,
         fontSize: '7pt',
@@ -57,7 +57,7 @@ var plotBands = [
     from: Date.UTC(2023, 5, 13, 0, 0),
     to: Date.UTC(2023, 5, 18, 0, 0),
     label: {
-      text: 'Art-Woche',
+      text: 'Art Basel',
       style: {
         color: colorLine,
         fontSize: '7pt',
@@ -73,7 +73,7 @@ var plotBands = [
     from: Date.UTC(2023, 6, 15, 0, 0),
     to: Date.UTC(2023, 6, 22, 0, 0),
     label: {
-      text: 'Tatoo',
+      text: 'Basel Tattoo',
       style: {
         color: colorLine,
         fontSize: '7pt',
