@@ -9,7 +9,7 @@ var plotBands = [
     from: Date.UTC(2023, 1, 26, 0, 0),
     to: Date.UTC(2023, 1, 27, 0, 0),
     label: {
-      text: 'Fasnacht',
+      text: 'Basler Fasnacht',
       style: {
         color: colorLine,
         fontSize: '7pt',
@@ -25,7 +25,7 @@ var plotBands = [
     from: Date.UTC(2023, 4, 18, 0, 0),
     to: Date.UTC(2023, 4, 20, 0, 0),
     label: {
-      text: 'FC Basel vs. AC Florenz',
+      text: 'FC Basel vs. ACF Fiorentina',
       style: {
         color: colorLine,
         fontSize: '7pt',
