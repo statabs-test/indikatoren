@@ -39,6 +39,10 @@
         [
           "2020",
           1209.3
+        ],
+        [
+          "2021",
+          1080.8
         ]
       ],
       "name": "Schlachten, Fleischverarbeitung",
@@ -83,6 +87,10 @@
         [
           "2020",
           123.9
+        ],
+        [
+          "2021",
+          114.7
         ]
       ],
       "name": "Fischverarbeitung",
@@ -127,6 +135,10 @@
         [
           "2020",
           327.1
+        ],
+        [
+          "2021",
+          305.2
         ]
       ],
       "name": "Herstellung Back- und Teigwaren",
@@ -171,6 +183,10 @@
         [
           "2020",
           226.7
+        ],
+        [
+          "2021",
+          156.4
         ]
       ],
       "name": "Sonstige Nahrungsmittelindustrie",

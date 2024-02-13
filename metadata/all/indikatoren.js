@@ -78333,7 +78333,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2019 in der Branche Handel mit und Reparatur von Motorfahrzeugen (NOGA 45) tätig. Der grösste Teil entfällt mit 660 VZÄ auf die Instandhaltung und Reparatur von Automobilen, knapp 100 VZÄ auf den Handel mit Automobilteilen und -zubehör.",
+		"lesehilfe": "Rund 700 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2021 in der Branche Handel mit und Reparatur von Motorfahrzeugen (NOGA 45) tätig. Der grösste Teil entfällt mit rund 550 VZÄ auf die Instandhaltung und Reparatur von Automobilen, knapp 100 VZÄ auf den Handel mit Automobilteilen und -zubehör.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -78373,7 +78373,7 @@ var indikatoren = [
 		],
 		"title": "Arbeitslose und Arbeitslosenquote in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Arbeitslosen in der Branche Handel mit und Reparatur von Motorfahrzeugen liegt Ende 2021 bei 26 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2021 bei 7,5%. Dieser Wert ist statistisch unzuverlässig und wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist.",
+		"lesehilfe": "Die Zahl der Arbeitslosen in der Branche Handel mit und Reparatur von Motorfahrzeugen liegt Ende 2023 bei 26 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2023 bei 7,0%. Diesem Wert liegen Hochrechnungen der Erwerbstätigen zugrunde, weshalb er mit statistischer Unsicherheit behaftet ist. Er wird unter Vorbehalt veröffentlicht, da der Variationskoeffizient grösser als 10% ist",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -78414,7 +78414,7 @@ var indikatoren = [
 		],
 		"title": "Ausländische Erwerbstätige in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche  Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 4. Quartal 2021 liegt sie bei 131 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten liegt bei 90. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Handel mit und Reparatur von Motorfahrzeugen ist in den letzten Jahren gesunken. Im 4. Quartal 2023 liegt der Bestand bei 122 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten liegt bei 74. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -78455,7 +78455,7 @@ var indikatoren = [
 		],
 		"title": "Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2018 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 6 000 Franken brutto und damit etwas höher als 2016.",
+		"lesehilfe": "Im Jahr 2020 lag der Medianlohn in der Branche Handel mit und Reparatur von Motorfahrzeugen in der Nordwestschweiz bei rund 5 800 Franken brutto und damit etwas tiefer als 2018.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -82035,6 +82035,47 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-04-18T08:01:39",
 		"id": 9755
+	},
+	{
+		"template": "template001",
+		"data-id": 9756,
+		"chart-id": 9756,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9779
+		],
+		"title": "Ausländische Erwerbstätige in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausländische Erwerbstätige in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.09756",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7.3",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Gebäudebetreuung, Garten- und Landschaftsbau",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:18",
+		"id": 9756
 	},
 	{
 		"template": "template001",

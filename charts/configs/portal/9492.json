@@ -164,6 +164,10 @@
         [
           "2023-03",
           122
+        ],
+        [
+          "2023-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -333,6 +337,10 @@
         [
           "2023-03",
           74
+        ],
+        [
+          "2023-04",
+          105
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",

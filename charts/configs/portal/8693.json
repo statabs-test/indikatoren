@@ -442,13 +442,14 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -494,14 +495,14 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null,
-      "width": 150
+      "textOverflow": null
     },
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 133,
     "labelFormatter": function () {
         return this.name.replace("Postdienste von Universaldienstleistungsanbietern", "Postdienste von Universal-<br/>dienstleistungsanbietern");
       }

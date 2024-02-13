@@ -7,22 +7,6 @@
       "yAxis": 1,
       "data": [
         [
-          "2013-01",
-          null
-        ],
-        [
-          "2013-02",
-          4
-        ],
-        [
-          "2013-03",
-          2
-        ],
-        [
-          "2013-04",
-          null
-        ],
-        [
           "2014-01",
           4
         ],
@@ -152,7 +136,7 @@
         ],
         [
           "2022-01",
-          null
+          1
         ],
         [
           "2022-02",
@@ -160,6 +144,26 @@
         ],
         [
           "2022-03",
+          null
+        ],
+        [
+          "2022-04",
+          null
+        ],
+        [
+          "2023-01",
+          null
+        ],
+        [
+          "2023-02",
+          null
+        ],
+        [
+          "2023-03",
+          null
+        ],
+        [
+          "2023-04",
           null
         ]
       ],
@@ -175,22 +179,6 @@
       "index": 1,
       "type": "line",
       "data": [
-        [
-          "2013-01",
-          1525
-        ],
-        [
-          "2013-02",
-          1608
-        ],
-        [
-          "2013-03",
-          1616
-        ],
-        [
-          "2013-04",
-          1660
-        ],
         [
           "2014-01",
           1654
@@ -305,31 +293,51 @@
         ],
         [
           "2021-01",
-          2628
+          2531
         ],
         [
           "2021-02",
-          2534
+          2486
         ],
         [
           "2021-03",
-          2633
+          2555
         ],
         [
           "2021-04",
-          2646
+          2603
         ],
         [
           "2022-01",
-          2701
+          2717
         ],
         [
           "2022-02",
-          2716
+          2731
         ],
         [
           "2022-03",
-          2668
+          2716
+        ],
+        [
+          "2022-04",
+          2766
+        ],
+        [
+          "2023-01",
+          2798
+        ],
+        [
+          "2023-02",
+          2802
+        ],
+        [
+          "2023-03",
+          2917
+        ],
+        [
+          "2023-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger sonst. wirtsch. DL",
@@ -344,22 +352,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2013-01",
-          null
-        ],
-        [
-          "2013-02",
-          null
-        ],
-        [
-          "2013-03",
-          null
-        ],
-        [
-          "2013-04",
-          null
-        ],
         [
           "2014-01",
           null
@@ -499,6 +491,26 @@
         [
           "2022-03",
           0
+        ],
+        [
+          "2022-04",
+          0
+        ],
+        [
+          "2023-01",
+          0
+        ],
+        [
+          "2023-02",
+          3
+        ],
+        [
+          "2023-03",
+          2
+        ],
+        [
+          "2023-04",
+          1
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -663,7 +675,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 14.2.2023"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 20.4.2023"
   },
   "tooltip": {
     "shared": true,
