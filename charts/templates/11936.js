@@ -180,7 +180,7 @@ while (i < 52) {
     "xAxis": {
       plotBands: plotBands,
       max: Date.UTC(2023, 11, 31, 0, 0),
-      min: Date.parse('2023-10-01')
+      //min: Date.parse('2023-10-01')
     },
     "yAxis": {
       reversedStacks: false,
