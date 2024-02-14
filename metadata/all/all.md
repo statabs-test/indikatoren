@@ -27,7 +27,7 @@ id | visible | visibleInPortal | indikatorenset
 2528 | true | true | Arbeitsmarkt
 2529 | true | true | Arbeitsmarkt
 2547 | true | true | Arbeitsmarkt
-2917 | true | true | Nachhaltigkeit
+2917 | false |  | Nachhaltigkeit
 2952 | false |  | Legislaturplan-2017-2021
 2953 | false |  | Legislaturplan-2017-2021
 2956 | true | true | Legislaturplan
@@ -2236,8 +2236,11 @@ id | visible | visibleInPortal | indikatorenset
 9732 | true | false | Nachhaltigkeit
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
+9735 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
 9737 | true | true | Nachhaltigkeit
+9738 | true | true | Nachhaltigkeit
+9739 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
@@ -2257,6 +2260,8 @@ id | visible | visibleInPortal | indikatorenset
 9780 | true | false | Arbeitsmarkt (Print)
 9784 | true | true | Nachhaltigkeit
 9785 | true | true | Nachhaltigkeit
+9786 | true | true | Nachhaltigkeit
+9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
 9919 | true | true | Soziales
