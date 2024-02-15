@@ -9,8 +9,8 @@
   },
   "yAxis": {
     min: 60,
-    max: 260,
-    tickAmount: 11,
+    max: 320,
+    /*tickAmount: 11,*/
     tickInterval: 20,
     
 	"labels": {
