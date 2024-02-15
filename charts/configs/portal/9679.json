@@ -3,298 +3,515 @@
     {
       "color": "#0091f7",
       "zIndex": 2,
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+            var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
       "data": [
         [
           1998,
-          78.2
+          78.23504626
         ],
         [
           1999,
-          78.2
+          78.17566327
         ],
         [
           2000,
-          79
+          79.02722328
         ],
         [
           2001,
-          79.2
+          79.17957934
         ],
         [
           2002,
-          79.7
+          79.67984429
         ],
         [
           2003,
-          79.1
+          79.06964728
         ],
         [
           2004,
-          80.3
+          80.33205607
         ],
         [
           2005,
-          80.3
+          80.32217689
         ],
         [
           2006,
-          81
+          80.95508282
         ],
         [
           2007,
-          81.3
+          81.30279109
         ],
         [
           2008,
-          80.7
+          80.71362415
         ],
         [
           2009,
-          81.1
+          81.13112192
         ],
         [
           2010,
-          81.3
+          81.29818006
         ],
         [
           2011,
-          81.4
+          81.44990976
         ],
         [
           2012,
-          81.6
+          81.58893481
         ],
         [
           2013,
-          81.8
+          81.79796979
         ],
         [
           2014,
-          81.5
+          81.54029496
         ],
         [
           2015,
-          82.1
+          82.13112497
         ],
         [
           2016,
-          82.8
+          82.83594661
         ],
         [
           2017,
-          82.5
+          82.50239031
         ],
         [
           2018,
-          82.8
+          82.81173037
         ],
         [
           2019,
-          82.7
+          82.70602076
         ],
         [
           2020,
-          82.5
+          82.54639531
+        ],
+        [
+          2021,
+          83.23885355
+        ],
+        [
+          2022,
+          82.29089513
         ]
       ],
       "name": "Basel-Stadt"
     },
     {
+      "index": 1,
+      "type": "errorbar",
+      "color": "#44b1f7",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[0];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
+      "data": [
+        {
+          "x": 1998,
+          "low": 77.59441137,
+          "high": 78.87568116
+        },
+        {
+          "x": 1999,
+          "low": 77.51670826,
+          "high": 78.83461828
+        },
+        {
+          "x": 2000,
+          "low": 78.41990816,
+          "high": 79.63453839
+        },
+        {
+          "x": 2001,
+          "low": 78.51708675,
+          "high": 79.84207193
+        },
+        {
+          "x": 2002,
+          "low": 79.1257522,
+          "high": 80.23393638
+        },
+        {
+          "x": 2003,
+          "low": 78.43478497,
+          "high": 79.70450958
+        },
+        {
+          "x": 2004,
+          "low": 79.6861191,
+          "high": 80.97799303
+        },
+        {
+          "x": 2005,
+          "low": 79.72067325,
+          "high": 80.92368052
+        },
+        {
+          "x": 2006,
+          "low": 80.37792067,
+          "high": 81.53224498
+        },
+        {
+          "x": 2007,
+          "low": 80.67400728,
+          "high": 81.9315749
+        },
+        {
+          "x": 2008,
+          "low": 80.0597956,
+          "high": 81.3674527
+        },
+        {
+          "x": 2009,
+          "low": 80.53029732,
+          "high": 81.73194651
+        },
+        {
+          "x": 2010,
+          "low": 80.70540579,
+          "high": 81.89095434
+        },
+        {
+          "x": 2011,
+          "low": 80.82469016,
+          "high": 82.07512936
+        },
+        {
+          "x": 2012,
+          "low": 81.00238354,
+          "high": 82.17548607
+        },
+        {
+          "x": 2013,
+          "low": 81.18882437,
+          "high": 82.4071152
+        },
+        {
+          "x": 2014,
+          "low": 80.95375518,
+          "high": 82.12683474
+        },
+        {
+          "x": 2015,
+          "low": 81.61549062,
+          "high": 82.64675931
+        },
+        {
+          "x": 2016,
+          "low": 82.28597432,
+          "high": 83.3859189
+        },
+        {
+          "x": 2017,
+          "low": 81.98078392,
+          "high": 83.02399669
+        },
+        {
+          "x": 2018,
+          "low": 82.27369389,
+          "high": 83.34976684
+        },
+        {
+          "x": 2019,
+          "low": 82.14586053,
+          "high": 83.26618099
+        },
+        {
+          "x": 2020,
+          "low": 82.00482546,
+          "high": 83.08796516
+        },
+        {
+          "x": 2021,
+          "low": 82.7241524,
+          "high": 83.7535547
+        },
+        {
+          "x": 2022,
+          "low": 81.70759283,
+          "high": 82.87419743
+        }
+      ]
+    },
+    {
       "color": "#999999",
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+            var errorBarPoint = this.series.chart.series[3].points[this.index]; // corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
       "data": [
         [
           1998,
-          79.4
+          79.41826847
         ],
         [
           1999,
-          79.7
+          79.67749591
         ],
         [
           2000,
-          79.8
+          79.79833058
         ],
         [
           2001,
-          80.3
+          80.27463442
         ],
         [
           2002,
-          80.5
+          80.47684902
         ],
         [
           2003,
-          80.6
+          80.5633798
         ],
         [
           2004,
-          81.1
+          81.13209646
         ],
         [
           2005,
-          81.3
+          81.28750672
         ],
         [
           2006,
-          81.6
+          81.61445333
         ],
         [
           2007,
-          81.8
+          81.79727459
         ],
         [
           2008,
-          82.1
+          82.06146971
         ],
         [
           2009,
-          82.1
+          82.08001617
         ],
         [
           2010,
-          82.3
+          82.30744267
         ],
         [
           2011,
-          82.5
+          82.51470923
         ],
         [
           2012,
-          82.6
+          82.55043629
         ],
         [
           2013,
-          82.6
+          82.6385167
         ],
         [
           2014,
-          83
+          83.0156362
         ],
         [
           2015,
-          82.8
+          82.77144892
         ],
         [
           2016,
-          83.4
+          83.36672713
         ],
         [
           2017,
-          83.4
+          83.35063591
         ],
         [
           2018,
-          83.5
+          83.51274333
         ],
         [
           2019,
-          83.7
+          83.71520524
         ],
         [
           2020,
-          83
+          82.96787789
+        ],
+        [
+          2021,
+          83.57744837
+        ],
+        [
+          2022,
+          83.44439637
         ]
       ],
       "name": "Schweiz"
     },
     {
-      "visible": false,
-      "showInLegend": false,
+      "index": 3,
+      "type": "errorbar",
+      "color": "#555555",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[0];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+          }
+      },
       "data": [
-        [
-          1998,
-          null
-        ],
-        [
-          1999,
-          1
-        ],
-        [
-          2000,
-          0
-        ],
-        [
-          2001,
-          1
-        ],
-        [
-          2002,
-          0
-        ],
-        [
-          2003,
-          2
-        ],
-        [
-          2004,
-          0
-        ],
-        [
-          2005,
-          1
-        ],
-        [
-          2006,
-          0
-        ],
-        [
-          2007,
-          0
-        ],
-        [
-          2008,
-          2
-        ],
-        [
-          2009,
-          0
-        ],
-        [
-          2010,
-          0
-        ],
-        [
-          2011,
-          1
-        ],
-        [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          2
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          2
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          2
-        ],
-        [
-          2020,
-          2
-        ]
-      ],
-      "name": "Bewertung"
+        {
+          "x": 1998,
+          "low": 79.31657071,
+          "high": 79.51996623
+        },
+        {
+          "x": 1999,
+          "low": 79.57662578,
+          "high": 79.77836605
+        },
+        {
+          "x": 2000,
+          "low": 79.69721318,
+          "high": 79.89944798
+        },
+        {
+          "x": 2001,
+          "low": 80.17338593,
+          "high": 80.37588291
+        },
+        {
+          "x": 2002,
+          "low": 80.37658722,
+          "high": 80.57711083
+        },
+        {
+          "x": 2003,
+          "low": 80.46521136,
+          "high": 80.66154823
+        },
+        {
+          "x": 2004,
+          "low": 81.03281609,
+          "high": 81.23137682
+        },
+        {
+          "x": 2005,
+          "low": 81.18988851,
+          "high": 81.38512493
+        },
+        {
+          "x": 2006,
+          "low": 81.51630603,
+          "high": 81.71260063
+        },
+        {
+          "x": 2007,
+          "low": 81.70112529,
+          "high": 81.89342389
+        },
+        {
+          "x": 2008,
+          "low": 81.96661327,
+          "high": 82.15632614
+        },
+        {
+          "x": 2009,
+          "low": 81.98540415,
+          "high": 82.17462818
+        },
+        {
+          "x": 2010,
+          "low": 82.21604234,
+          "high": 82.398843
+        },
+        {
+          "x": 2011,
+          "low": 82.42371325,
+          "high": 82.60570522
+        },
+        {
+          "x": 2012,
+          "low": 82.46178774,
+          "high": 82.63908485
+        },
+        {
+          "x": 2013,
+          "low": 82.55013833,
+          "high": 82.72689507
+        },
+        {
+          "x": 2014,
+          "low": 82.92801325,
+          "high": 83.10325915
+        },
+        {
+          "x": 2015,
+          "low": 82.68484026,
+          "high": 82.85805758
+        },
+        {
+          "x": 2016,
+          "low": 83.28108693,
+          "high": 83.45236733
+        },
+        {
+          "x": 2017,
+          "low": 83.26572886,
+          "high": 83.43554296
+        },
+        {
+          "x": 2018,
+          "low": 83.42774328,
+          "high": 83.59774338
+        },
+        {
+          "x": 2019,
+          "low": 83.63167695,
+          "high": 83.79873353
+        },
+        {
+          "x": 2020,
+          "low": 82.88568498,
+          "high": 83.05007081
+        },
+        {
+          "x": 2021,
+          "low": 83.49462113,
+          "high": 83.66027561
+        },
+        {
+          "x": 2022,
+          "low": 83.36195294,
+          "high": 83.52683979
+        }
+      ]
+    },
+    {
+      "visible": false,
+      "showInLegend": false
     }
   ],
   "chart": {
@@ -308,7 +525,10 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "panning": true,
+    "panning": {
+      "enabled": true,
+      "type": "xy"
+    },
     "panKey": "shift",
     "events": {
       "load": function () {
@@ -325,7 +545,7 @@
             );
           }
 
-          const chart = this,
+         /* const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
@@ -341,6 +561,7 @@
               })
             }
           });
+          */
         }
     },
     "renderTo": "container-9679"
@@ -366,10 +587,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Lebenserwartung bei Geburt"
+    "text": "Lebenserwartung"
   },
   "subtitle": {
-    "text": "in Jahren, Basel-Stadt",
+    "text": "bei Geburt in Jahren, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -436,7 +657,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Schweizerisches Gesundheitsobervatorium (Obsan).\u003Cbr\u002F\u003EZuletzt geändert: 18.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
