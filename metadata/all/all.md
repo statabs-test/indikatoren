@@ -1139,10 +1139,10 @@ id | visible | visibleInPortal | indikatorenset
 7495 | false |  | Arbeitsmarkt (Print)
 7496 | false |  | Arbeitsmarkt (Print)
 7497 | false |  | Arbeitsmarkt (Print)
-7498 | true | false | Arbeitsmarkt (Print)
-7499 | true | false | Arbeitsmarkt (Print)
-7500 | true | false | Arbeitsmarkt (Print)
-7501 | true | false | Arbeitsmarkt (Print)
+7498 | false |  | Arbeitsmarkt (Print)
+7499 | false |  | Arbeitsmarkt (Print)
+7500 | false |  | Arbeitsmarkt (Print)
+7501 | false |  | Arbeitsmarkt (Print)
 7502 | false |  | Arbeitsmarkt (Print)
 7503 | false |  | Arbeitsmarkt (Print)
 7504 | false |  | Arbeitsmarkt (Print)
@@ -1782,16 +1782,16 @@ id | visible | visibleInPortal | indikatorenset
 8694 | true | false | Arbeitsmarkt
 8695 | true | false | Arbeitsmarkt
 8696 | true | false | Arbeitsmarkt
-8698 | true | false | Arbeitsmarkt (Print)
-8699 | true | false | Arbeitsmarkt (Print)
-8700 | true | false | Arbeitsmarkt (Print)
-8701 | true | false | Arbeitsmarkt (Print)
+8698 | false |  | Arbeitsmarkt (Print)
+8699 | false |  | Arbeitsmarkt (Print)
+8700 | false |  | Arbeitsmarkt (Print)
+8701 | false |  | Arbeitsmarkt (Print)
 8702 | true | false | Arbeitsmarkt (Print)
 8703 | true | false | Arbeitsmarkt (Print)
-8704 | false |  | Arbeitsmarkt (Print)
-8705 | false |  | Arbeitsmarkt (Print)
-8706 | false |  | Arbeitsmarkt (Print)
-8707 | false |  | Arbeitsmarkt (Print)
+8704 | true | false | Arbeitsmarkt (Print)
+8705 | true | false | Arbeitsmarkt (Print)
+8706 | true | false | Arbeitsmarkt (Print)
+8707 | true | false | Arbeitsmarkt (Print)
 8812 | true | false | CMS Kennzahlen Soziales (Print)
 8817 | true | true | Basler Atlas
 8842 | false |  | Stadtteilmonitoring Rosental
@@ -2026,10 +2026,10 @@ id | visible | visibleInPortal | indikatorenset
 9233 | true | false | Arbeitsmarkt (Print)
 9234 | true | false | Arbeitsmarkt (Print)
 9235 | true | false | Arbeitsmarkt (Print)
-9236 | true | false | Arbeitsmarkt (Print)
-9237 | true | false | Arbeitsmarkt (Print)
-9238 | true | false | Arbeitsmarkt (Print)
-9239 | true | false | Arbeitsmarkt (Print)
+9236 | false |  | Arbeitsmarkt (Print)
+9237 | false |  | Arbeitsmarkt (Print)
+9238 | false |  | Arbeitsmarkt (Print)
+9239 | false |  | Arbeitsmarkt (Print)
 9274 | true | true | 
 9283 | true | true | 
 9287 | true | true | 
@@ -2248,12 +2248,13 @@ id | visible | visibleInPortal | indikatorenset
 9755 | true | false | Arbeitsmarkt
 9756 | true | false | Arbeitsmarkt
 9757 | true | false | Arbeitsmarkt
-9773 | true | false | Arbeitsmarkt (Print)
-9774 | true | false | Arbeitsmarkt (Print)
-9775 | true | false | Arbeitsmarkt (Print)
-9776 | true | false | Arbeitsmarkt (Print)
+9773 | false |  | Arbeitsmarkt (Print)
+9774 | false |  | Arbeitsmarkt (Print)
+9775 | false |  | Arbeitsmarkt (Print)
+9776 | false |  | Arbeitsmarkt (Print)
 9777 | true | false | Arbeitsmarkt (Print)
 9778 | true | false | Arbeitsmarkt (Print)
+9779 | true | false | Arbeitsmarkt (Print)
 9780 | true | false | Arbeitsmarkt (Print)
 9784 | true | true | Nachhaltigkeit
 9785 | true | true | Nachhaltigkeit
