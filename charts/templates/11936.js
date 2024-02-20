@@ -201,6 +201,7 @@ plotBands.push(...plotBands2);
       top: 330,
       series: {
         //type: 'column',
+        //stacking: 'normal',
         pointRange: null
       },
       xAxis: {
