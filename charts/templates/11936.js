@@ -27,7 +27,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 2,//-5,
       y: 3,//15
       rotation: -90
     }
@@ -43,7 +43,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: -5,//-5,
+      x: -3,//-5,
       y: 3,//30
       rotation: -90
     }
@@ -75,7 +75,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 3,//-5,
       y: 3,//15
       rotation: -90
     }
@@ -91,7 +91,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 4,//-5,
       y: 3,//15
       rotation: -90
     }
@@ -107,7 +107,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 3,//-5,
       y: 3,//15
       rotation: -90
     }
@@ -123,7 +123,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-5,
+      x: 9,//-5,
       y: 3,//30
       rotation: -90
     }
@@ -144,7 +144,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-3,
+      x: 2,//-3,
       y: 3,//45
       rotation: -90
     }
@@ -160,7 +160,7 @@ var plotBands2=[
         fontSize: '7pt',
       },
       textAlign: 'right',
-      x: 0,//-15,
+      x: 17,//-15,
       y: 3,//60,
       rotation: -90
     }
