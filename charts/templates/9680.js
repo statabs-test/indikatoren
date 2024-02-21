@@ -17,12 +17,12 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[1].points[0].update({ //this.series[1].points.length - 1
             dataLabels: {
               enabled: true,
-              //y: -80,
-              //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              y: 20,
+              x: 40,
+              format: 'Zielwert: > {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",
