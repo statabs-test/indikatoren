@@ -83308,7 +83308,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 9787,
-		"chart-id": 9676,
+		"chart-id": 9787,
 		"filter": "",
 		"parentId": "9676",
 		"children": [],
