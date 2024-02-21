@@ -7,7 +7,7 @@ var plotBands = [];
 
 //creating weekend-plotbands
 var i = 0;
-while (i < 52) {
+while (i < 0) { //52
     plotBands.push({
         color: '#eeeeee',
         from: parseFloat(startDates) + i * 7 * 24 * 3600 * 1000,
