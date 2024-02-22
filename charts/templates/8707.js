@@ -24,7 +24,7 @@
   {"color": "#662673", "visible": true}, /*violett (dunkel)*/
   ],
   "legend": {
-    x: 35,
+    /*x: 35,*/
     symbolPadding: 1,
     "enabled": true,
     "layout": "horizontal",
