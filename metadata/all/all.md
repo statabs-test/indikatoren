@@ -2243,7 +2243,7 @@ id | visible | visibleInPortal | indikatorenset
 9741 | true | true | Nachhaltigkeit
 9784 | true | true | Nachhaltigkeit
 9785 | true | true | Nachhaltigkeit
-9786 | true | true | Nachhaltigkeit
+9786 | true | false | Nachhaltigkeit
 9787 | true | true | Nachhaltigkeit
 9789 | true | true | 
 9995 | true | false | 

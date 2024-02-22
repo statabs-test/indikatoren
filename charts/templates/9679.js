@@ -22,10 +22,10 @@
             );
           }
 
-         /* const chart = this,
+          const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            assessed = chart.series[4].data;
           data.forEach(function (element, i) {
             if (assessed[i].y != null) {
               element.update({
@@ -38,7 +38,7 @@
               })
             }
           });
-          */
+          
         }
       }
     },
@@ -74,7 +74,7 @@
           "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
             var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
         }
       },
@@ -88,7 +88,7 @@
             parent.setState('hover'); //"aktiviere" alle series
             var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
             var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           },
         }
       },
@@ -98,7 +98,7 @@
           "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
             var errorBarPoint = this.series.chart.series[3].points[this.index]; // corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
         }
         //dashStyle: 'ShortDash',
@@ -106,14 +106,14 @@
       {
         "index": 3,
         "type": "errorbar",
-        "color": "#555555",
+        "color": "#aaaaaa",
         "tooltip": {
           "pointFormatter": function () {
             var parent = this.series.chart.series[0];
             parent.setState('hover'); //"aktiviere" alle series
             var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
             var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           },
         }
       },

@@ -6,27 +6,31 @@
       "data": [
         [
           2003,
-          93.78757515
+          93.8
         ],
         [
           2005,
-          94.63576159
+          94.6
         ],
         [
           2007,
-          94.36713055
+          94.4
         ],
         [
           2011,
-          92.81002639
+          93.2
         ],
         [
           2015,
-          91.1686587
+          91.8
         ],
         [
           2019,
-          94.87666034
+          95.4
+        ],
+        [
+          2023,
+          89.4
         ]
       ],
       "name": "Sehr oder eher sicher"
@@ -59,6 +63,10 @@
         [
           2019,
           90
+        ],
+        [
+          2023,
+          90
         ]
       ],
       "name": "Zielwert"
@@ -69,27 +77,31 @@
       "data": [
         [
           2003,
-          0
+          null
         ],
         [
           2005,
-          0
+          null
         ],
         [
           2007,
-          0
+          null
         ],
         [
           2011,
-          0
+          null
         ],
         [
           2015,
-          0
+          null
         ],
         [
           2019,
           0
+        ],
+        [
+          2023,
+          1
         ]
       ],
       "name": "Bewertung"
@@ -123,12 +135,12 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[1].points[0].update({ //this.series[1].points.length - 1
             dataLabels: {
               enabled: true,
-              //y: -80,
-              //x: -50,
-              format: 'Zielwert: {y:,.1f}%',
+              y: 20,
+              x: 40,
+              format: 'Zielwert: > {y:,.1f}%',
               style: {
                 textOutline: false,
                 color: "#999999",
@@ -264,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 12.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
