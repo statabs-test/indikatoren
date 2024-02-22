@@ -7,109 +7,109 @@
         "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
             var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
       },
       "data": [
         [
           1998,
-          78.23504626
+          78.2
         ],
         [
           1999,
-          78.17566327
+          78.2
         ],
         [
           2000,
-          79.02722328
+          79
         ],
         [
           2001,
-          79.17957934
+          79.2
         ],
         [
           2002,
-          79.67984429
+          79.7
         ],
         [
           2003,
-          79.06964728
+          79.1
         ],
         [
           2004,
-          80.33205607
+          80.3
         ],
         [
           2005,
-          80.32217689
+          80.3
         ],
         [
           2006,
-          80.95508282
+          81
         ],
         [
           2007,
-          81.30279109
+          81.3
         ],
         [
           2008,
-          80.71362415
+          80.7
         ],
         [
           2009,
-          81.13112192
+          81.1
         ],
         [
           2010,
-          81.29818006
+          81.3
         ],
         [
           2011,
-          81.44990976
+          81.4
         ],
         [
           2012,
-          81.58893481
+          81.6
         ],
         [
           2013,
-          81.79796979
+          81.8
         ],
         [
           2014,
-          81.54029496
+          81.5
         ],
         [
           2015,
-          82.13112497
+          82.1
         ],
         [
           2016,
-          82.83594661
+          82.8
         ],
         [
           2017,
-          82.50239031
+          82.5
         ],
         [
           2018,
-          82.81173037
+          82.8
         ],
         [
           2019,
-          82.70602076
+          82.7
         ],
         [
           2020,
-          82.54639531
+          82.5
         ],
         [
           2021,
-          83.23885355
+          83.2
         ],
         [
           2022,
-          82.29089513
+          82.3
         ]
       ],
       "name": "Basel-Stadt"
@@ -124,136 +124,137 @@
             parent.setState('hover'); //"aktiviere" alle series
             var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
             var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
       },
       "data": [
         {
           "x": 1998,
-          "low": 77.59441137,
-          "high": 78.87568116
+          "low": 77.6,
+          "high": 78.9
         },
         {
           "x": 1999,
-          "low": 77.51670826,
-          "high": 78.83461828
+          "low": 77.5,
+          "high": 78.8
         },
         {
           "x": 2000,
-          "low": 78.41990816,
-          "high": 79.63453839
+          "low": 78.4,
+          "high": 79.6
         },
         {
           "x": 2001,
-          "low": 78.51708675,
-          "high": 79.84207193
+          "low": 78.5,
+          "high": 79.8
         },
         {
           "x": 2002,
-          "low": 79.1257522,
-          "high": 80.23393638
+          "low": 79.1,
+          "high": 80.2
         },
         {
           "x": 2003,
-          "low": 78.43478497,
-          "high": 79.70450958
+          "low": 78.4,
+          "high": 79.7
         },
         {
           "x": 2004,
-          "low": 79.6861191,
-          "high": 80.97799303
+          "low": 79.7,
+          "high": 81
         },
         {
           "x": 2005,
-          "low": 79.72067325,
-          "high": 80.92368052
+          "low": 79.7,
+          "high": 80.9
         },
         {
           "x": 2006,
-          "low": 80.37792067,
-          "high": 81.53224498
+          "low": 80.4,
+          "high": 81.5
         },
         {
           "x": 2007,
-          "low": 80.67400728,
-          "high": 81.9315749
+          "low": 80.7,
+          "high": 81.9
         },
         {
           "x": 2008,
-          "low": 80.0597956,
-          "high": 81.3674527
+          "low": 80.1,
+          "high": 81.4
         },
         {
           "x": 2009,
-          "low": 80.53029732,
-          "high": 81.73194651
+          "low": 80.5,
+          "high": 81.7
         },
         {
           "x": 2010,
-          "low": 80.70540579,
-          "high": 81.89095434
+          "low": 80.7,
+          "high": 81.9
         },
         {
           "x": 2011,
-          "low": 80.82469016,
-          "high": 82.07512936
+          "low": 80.8,
+          "high": 82.1
         },
         {
           "x": 2012,
-          "low": 81.00238354,
-          "high": 82.17548607
+          "low": 81,
+          "high": 82.2
         },
         {
           "x": 2013,
-          "low": 81.18882437,
-          "high": 82.4071152
+          "low": 81.2,
+          "high": 82.4
         },
         {
           "x": 2014,
-          "low": 80.95375518,
-          "high": 82.12683474
+          "low": 81,
+          "high": 82.1
         },
         {
           "x": 2015,
-          "low": 81.61549062,
-          "high": 82.64675931
+          "low": 81.6,
+          "high": 82.6
         },
         {
           "x": 2016,
-          "low": 82.28597432,
-          "high": 83.3859189
+          "low": 82.3,
+          "high": 83.4
         },
         {
           "x": 2017,
-          "low": 81.98078392,
-          "high": 83.02399669
+          "low": 82,
+          "high": 83
         },
         {
           "x": 2018,
-          "low": 82.27369389,
-          "high": 83.34976684
+          "low": 82.3,
+          "high": 83.3
         },
         {
           "x": 2019,
-          "low": 82.14586053,
-          "high": 83.26618099
+          "low": 82.1,
+          "high": 83.3
         },
         {
           "x": 2020,
-          "low": 82.00482546,
-          "high": 83.08796516
+          "low": 82,
+          "high": 83.1
         },
         {
           "x": 2021,
-          "low": 82.7241524,
-          "high": 83.7535547
+          "low": 82.7,
+          "high": 83.8
         },
         {
           "x": 2022,
-          "low": 81.70759283,
-          "high": 82.87419743
+          "low": 81.7,
+          "high": 82.9
         }
-      ]
+      ],
+      "name": "Konfidenz von"
     },
     {
       "color": "#999999",
@@ -261,109 +262,109 @@
         "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
             var errorBarPoint = this.series.chart.series[3].points[this.index]; // corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
       },
       "data": [
         [
           1998,
-          79.41826847
+          79.4
         ],
         [
           1999,
-          79.67749591
+          79.7
         ],
         [
           2000,
-          79.79833058
+          79.8
         ],
         [
           2001,
-          80.27463442
+          80.3
         ],
         [
           2002,
-          80.47684902
+          80.5
         ],
         [
           2003,
-          80.5633798
+          80.6
         ],
         [
           2004,
-          81.13209646
+          81.1
         ],
         [
           2005,
-          81.28750672
+          81.3
         ],
         [
           2006,
-          81.61445333
+          81.6
         ],
         [
           2007,
-          81.79727459
+          81.8
         ],
         [
           2008,
-          82.06146971
+          82.1
         ],
         [
           2009,
-          82.08001617
+          82.1
         ],
         [
           2010,
-          82.30744267
+          82.3
         ],
         [
           2011,
-          82.51470923
+          82.5
         ],
         [
           2012,
-          82.55043629
+          82.6
         ],
         [
           2013,
-          82.6385167
+          82.6
         ],
         [
           2014,
-          83.0156362
+          83
         ],
         [
           2015,
-          82.77144892
+          82.8
         ],
         [
           2016,
-          83.36672713
+          83.4
         ],
         [
           2017,
-          83.35063591
+          83.4
         ],
         [
           2018,
-          83.51274333
+          83.5
         ],
         [
           2019,
-          83.71520524
+          83.7
         ],
         [
           2020,
-          82.96787789
+          83
         ],
         [
           2021,
-          83.57744837
+          83.6
         ],
         [
           2022,
-          83.44439637
+          83.4
         ]
       ],
       "name": "Schweiz"
@@ -371,147 +372,251 @@
     {
       "index": 3,
       "type": "errorbar",
-      "color": "#555555",
+      "color": "#aaaaaa",
       "tooltip": {
         "pointFormatter": function () {
             var parent = this.series.chart.series[0];
             parent.setState('hover'); //"aktiviere" alle series
             var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
             var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
+            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
       },
       "data": [
         {
           "x": 1998,
-          "low": 79.31657071,
-          "high": 79.51996623
+          "low": 79.3,
+          "high": 79.5
         },
         {
           "x": 1999,
-          "low": 79.57662578,
-          "high": 79.77836605
+          "low": 79.6,
+          "high": 79.8
         },
         {
           "x": 2000,
-          "low": 79.69721318,
-          "high": 79.89944798
+          "low": 79.7,
+          "high": 79.9
         },
         {
           "x": 2001,
-          "low": 80.17338593,
-          "high": 80.37588291
+          "low": 80.2,
+          "high": 80.4
         },
         {
           "x": 2002,
-          "low": 80.37658722,
-          "high": 80.57711083
+          "low": 80.4,
+          "high": 80.6
         },
         {
           "x": 2003,
-          "low": 80.46521136,
-          "high": 80.66154823
+          "low": 80.5,
+          "high": 80.7
         },
         {
           "x": 2004,
-          "low": 81.03281609,
-          "high": 81.23137682
+          "low": 81,
+          "high": 81.2
         },
         {
           "x": 2005,
-          "low": 81.18988851,
-          "high": 81.38512493
+          "low": 81.2,
+          "high": 81.4
         },
         {
           "x": 2006,
-          "low": 81.51630603,
-          "high": 81.71260063
+          "low": 81.5,
+          "high": 81.7
         },
         {
           "x": 2007,
-          "low": 81.70112529,
-          "high": 81.89342389
+          "low": 81.7,
+          "high": 81.9
         },
         {
           "x": 2008,
-          "low": 81.96661327,
-          "high": 82.15632614
+          "low": 82,
+          "high": 82.2
         },
         {
           "x": 2009,
-          "low": 81.98540415,
-          "high": 82.17462818
+          "low": 82,
+          "high": 82.2
         },
         {
           "x": 2010,
-          "low": 82.21604234,
-          "high": 82.398843
+          "low": 82.2,
+          "high": 82.4
         },
         {
           "x": 2011,
-          "low": 82.42371325,
-          "high": 82.60570522
+          "low": 82.4,
+          "high": 82.6
         },
         {
           "x": 2012,
-          "low": 82.46178774,
-          "high": 82.63908485
+          "low": 82.5,
+          "high": 82.6
         },
         {
           "x": 2013,
-          "low": 82.55013833,
-          "high": 82.72689507
+          "low": 82.6,
+          "high": 82.7
         },
         {
           "x": 2014,
-          "low": 82.92801325,
-          "high": 83.10325915
+          "low": 82.9,
+          "high": 83.1
         },
         {
           "x": 2015,
-          "low": 82.68484026,
-          "high": 82.85805758
+          "low": 82.7,
+          "high": 82.9
         },
         {
           "x": 2016,
-          "low": 83.28108693,
-          "high": 83.45236733
+          "low": 83.3,
+          "high": 83.5
         },
         {
           "x": 2017,
-          "low": 83.26572886,
-          "high": 83.43554296
+          "low": 83.3,
+          "high": 83.4
         },
         {
           "x": 2018,
-          "low": 83.42774328,
-          "high": 83.59774338
+          "low": 83.4,
+          "high": 83.6
         },
         {
           "x": 2019,
-          "low": 83.63167695,
-          "high": 83.79873353
+          "low": 83.6,
+          "high": 83.8
         },
         {
           "x": 2020,
-          "low": 82.88568498,
-          "high": 83.05007081
+          "low": 82.9,
+          "high": 83.1
         },
         {
           "x": 2021,
-          "low": 83.49462113,
-          "high": 83.66027561
+          "low": 83.5,
+          "high": 83.7
         },
         {
           "x": 2022,
-          "low": 83.36195294,
-          "high": 83.52683979
+          "low": 83.4,
+          "high": 83.5
         }
-      ]
+      ],
+      "name": "Konfidenz von"
     },
     {
       "visible": false,
-      "showInLegend": false
+      "showInLegend": false,
+      "data": [
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          2
+        ]
+      ],
+      "name": "Bewertung"
     }
   ],
   "chart": {
@@ -545,10 +650,10 @@
             );
           }
 
-         /* const chart = this,
+          const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            assessed = chart.series[4].data;
           data.forEach(function (element, i) {
             if (assessed[i].y != null) {
               element.update({
@@ -561,7 +666,7 @@
               })
             }
           });
-          */
+          
         }
     },
     "renderTo": "container-9679"

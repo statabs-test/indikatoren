@@ -2663,7 +2663,7 @@ var indikatorensetData = [
 		"id": 9734
 	},
 	{
-		"template": "befragungen001",
+		"template": "befragungenGrundauswertung001",
 		"data-id": 9735,
 		"chart-id": 9735,
 		"filter": "",
