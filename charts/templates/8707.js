@@ -30,6 +30,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    labelFormatter: function () {
+      return this.name.replace("für den Verkehr", "Verkehr");    
+  },
     "itemStyle": {
       "fontWeight": "normal"
     }

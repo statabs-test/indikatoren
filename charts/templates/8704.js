@@ -44,7 +44,8 @@
             margin: 1,
             width: 120,
             labelFormatter: function () {
-                return this.name.replace("Postdienste von Universaldienstleistungsanbietern", "Postdienste von Universaldienstleistungs-<br/>anbietern");
+                return this.name.replace("Postdienste von Universaldienstleistungsanbietern", "Postdienste von Universaldienstleistungs-anbietern")
+                .replace("Erbringung von sonst.", "Erbringung sonst.");      
             },
             "itemStyle": {
                 fontSize: "9px",
