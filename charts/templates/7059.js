@@ -12,6 +12,7 @@
   },
   "yAxis": {
     tickInterval: 2000,
+    max: 12000,
     "labels": {
       "format": "{value:,.0f}"
     }    
