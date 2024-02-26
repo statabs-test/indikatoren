@@ -20,16 +20,22 @@
                 },
                 formatter: function () {
                     return this.value
-                    .replace(" (z. B. Kleider, Elektronik)", "")
-                    .replace(", Essen", "");
+                        .replace(" (z. B. Kleider, Elektronik)", "")
+                        .replace(", Essen", "");
                 }
             }
         },
         "yAxis": {
             tickInterval: 25,
+            reversedStacks: false,
         },
         legend: {
             reversed: false,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "align": "left",
+            "itemMarginBottom": 0,
+            //itemDistance: 0,
         },
         tooltip: {
             pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
