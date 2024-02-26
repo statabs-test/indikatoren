@@ -33,6 +33,8 @@
         },
         tooltip: {
             pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+            useHTML: true,
+            outside: true
         },
         "series": [
             { "color": "#246370" }, // dunkelgrün
