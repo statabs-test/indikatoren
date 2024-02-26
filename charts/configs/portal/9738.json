@@ -121,7 +121,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Kennen Sie Ihren CO2-Fussabdruck?"
+    "text": "Wissen um CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck"
   },
   "subtitle": {
     "style": {
@@ -129,7 +129,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Kennen Sie Ihren CO2-Fussabdruck?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -190,21 +190,21 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 4,
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-        return this.name.replace("/", " /<br/>");
-
-      },
-    "reversed": false
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "reversed": true,
+    "itemDistance": 0
   },
   "exporting": {
     "filename": "9738"

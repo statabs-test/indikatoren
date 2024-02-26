@@ -127,7 +127,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerungspyramide am Jahresende",
 		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2023",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass sich vergleichsweise viele ausländische Staatsangehörige im Erwerbsalter (20 bis 64 Jahre) befinden, und dass es vergleichsweise viele ältere Schweizerinnen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -578,7 +578,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-30T08:41:45",
+		"aktualisierungsdatum": "2024-02-26T08:30:55",
 		"id": 5184
 	},
 	{
@@ -1007,7 +1007,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:31",
+		"aktualisierungsdatum": "2024-02-26T08:30:58",
 		"id": 6027
 	},
 	{
@@ -1459,7 +1459,7 @@ var indikatorensetData = [
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
 		"subtitle": "in Franken pro Einwohner, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2020 beträgt es fast 190 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2021 beträgt es fast 204 000 Franken. Hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
 		"erlaeuterungen": "Berechnet aus verschiedenen Quellen durch BAK Economics AG. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -1916,7 +1916,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:19",
+		"aktualisierungsdatum": "2024-02-26T08:30:57",
 		"id": 6434
 	},
 	{
@@ -2070,7 +2070,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:52",
+		"aktualisierungsdatum": "2024-02-26T08:30:54",
 		"id": 8377
 	},
 	{
@@ -2669,8 +2669,8 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Was tun Sie konkret für den Klimaschutz bzw. sind Sie bereit zu tun",
-		"subtitle": "",
+		"title": "Beitrag Klimaschutz",
+		"subtitle": "«Was tun Sie konkret für den Klima- und Umweltschutz?»",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -2681,7 +2681,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Was tun Sie konkret für den Klimaschutz bzw. sind Sie bereit zu tun",
+		"description": "Beitrag Klimaschutz",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.09735",
@@ -2787,8 +2787,8 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Kennen Sie Ihren CO2-Fussabdruck?",
-		"subtitle": "",
+		"title": "Wissen um CO<sub>2</sub>-Fussabdruck",
+		"subtitle": "«Kennen Sie Ihren CO2-Fussabdruck?»",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -2799,7 +2799,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Kennen Sie Ihren CO2-Fussabdruck?",
+		"description": "Wissen um CO<sub>2</sub>-Fussabdruck",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.09738",
@@ -2824,8 +2824,8 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Frage zu Einsamkeit",
-		"subtitle": "",
+		"title": "Einsamkeitsgefühl",
+		"subtitle": "«Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?«»",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -2836,7 +2836,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Frage zu Einsamkeit",
+		"description": "Einsamkeitsgefühl",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.09739",
@@ -2889,7 +2889,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:53",
+		"aktualisierungsdatum": "2024-02-26T08:30:56",
 		"id": 9740
 	},
 	{
@@ -3038,7 +3038,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:19",
+		"aktualisierungsdatum": "2024-02-26T08:31:01",
 		"id": 9786
 	},
 	{
@@ -3075,7 +3075,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-17T08:55:21",
+		"aktualisierungsdatum": "2024-02-26T08:31:00",
 		"id": 9787
 	}
 ];

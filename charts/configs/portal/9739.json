@@ -143,7 +143,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Frage zu Einsamkeit"
+    "text": "Einsamkeitsgefühl"
   },
   "subtitle": {
     "style": {
@@ -151,7 +151,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?«»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -212,20 +212,20 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 4,
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
         },
-    "reversed": false,
+    "reversed": true,
     "itemDistance": 0
   },
   "exporting": {
