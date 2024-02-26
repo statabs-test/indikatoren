@@ -9835,7 +9835,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt",
-		"lesehilfe": "2023 fühlten sich knapp 40% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu den Vorjahren ntspricht dies einem Rückgang.",
+		"lesehilfe": "2023 fühlten sich knapp 40% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu den Vorjahren entspricht dies einem Rückgang.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>). Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -9992,7 +9992,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2021 liegt sie mit -0,1 Promille des Schweizer Bruttoinlandprodukts erstmals im negativen Bereich. Hauptverantwortlich dafür sind das Ausbleiben der erwarteten pandemiebedingten Steuerausfälle, eine höhere Ausschüttung der Schweizerischen Nationalbank sowie weiterhin hohe Grundstückgewinn- und Handänderungssteuern. Der Kanton hat seine Nettoschulden 2021 also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2023 liegt sie mit -0,6 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -10501,7 +10501,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-21T08:01:56",
+		"aktualisierungsdatum": "2024-02-22T08:49:41",
 		"id": 5189
 	},
 	{
@@ -12181,7 +12181,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -12415,7 +12415,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-21T08:01:57",
+		"aktualisierungsdatum": "2024-02-22T08:49:42",
 		"id": 6033
 	},
 	{
@@ -58551,7 +58551,7 @@ var indikatoren = [
 		],
 		"title": "Selbsteinschätzung der wirtschaftlichen Stellung",
 		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
-		"lesehilfe": "20,4% der 2023 Befragten schätzen ihre wirtschaftliche Situation als sehr gut ein. 2019 lag dieser Anteil bei 17,5%. Der Anteil Personen, die ihre Sitaution als eher oder gar nicht gut einschätzen liegt bei 15,2% (2015: 18,7%).",
+		"lesehilfe": "20,4% der 2023 Befragten schätzen ihre wirtschaftliche Situation als sehr gut ein. 2019 lag dieser Anteil bei 17,5%. Der Anteil Personen, die ihre Situation als eher oder gar nicht gut einschätzen liegt bei 15,2% (2015: 18,7%).",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Bis 2015 wurde diese Frage einem Drittel der Befragten nicht gestellt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -82915,7 +82915,7 @@ var indikatoren = [
 		"id": 9734
 	},
 	{
-		"template": "befragungenGrundauswertung001",
+		"template": "befragungen001",
 		"data-id": 9735,
 		"chart-id": 9735,
 		"filter": "",
@@ -83032,11 +83032,11 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-21T08:01:58",
+		"aktualisierungsdatum": "2024-02-22T08:49:43",
 		"id": 9737
 	},
 	{
-		"template": "template001",
+		"template": "befragungen001",
 		"data-id": 9738,
 		"chart-id": 9738,
 		"filter": "",
@@ -83224,7 +83224,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-21T08:01:55",
+		"aktualisierungsdatum": "2024-02-22T08:49:13",
 		"id": 9784
 	},
 	{
