@@ -1,25 +1,47 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
+      "color": "#246370",
       "data": [
         [
           "2023",
-          115
+          71
         ]
       ],
-      "name": "Ja",
+      "name": "Sehr häufig",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#689199",
       "data": [
         [
           "2023",
-          1353
+          119
         ]
       ],
-      "name": "Nein",
+      "name": "Ziemlich häufig",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "2023",
+          610
+        ]
+      ],
+      "name": "Manchmal",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "2023",
+          856
+        ]
+      ],
+      "name": "Nie",
       "turboThreshold": 0
     },
     {
@@ -27,7 +49,7 @@
       "data": [
         [
           "2023",
-          226
+          58
         ]
       ],
       "name": "Weiss nicht",
@@ -38,7 +60,7 @@
       "data": [
         [
           "2023",
-          360
+          340
         ]
       ],
       "name": "Keine Angabe",
@@ -111,7 +133,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-9738",
+    "renderTo": "container-9739",
     "spacingBottom": 40
   },
   "title": {
@@ -121,7 +143,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Kennen Sie Ihren CO2-Fussabdruck?"
+    "text": "Frage zu Einsamkeit"
   },
   "subtitle": {
     "style": {
@@ -201,12 +223,12 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function(){
-        return this.name.replace("/", " /<br/>");
-
-      },
-    "reversed": false
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false,
+    "itemDistance": 0
   },
   "exporting": {
-    "filename": "9738"
+    "filename": "9739"
   }
 }

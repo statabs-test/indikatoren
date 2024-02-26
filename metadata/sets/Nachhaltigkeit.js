@@ -2818,7 +2818,7 @@ var indikatorensetData = [
 		"id": 9738
 	},
 	{
-		"template": "template001",
+		"template": "befragungen001",
 		"data-id": 9739,
 		"chart-id": 9739,
 		"filter": "",
