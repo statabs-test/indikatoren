@@ -1,11 +1,11 @@
 (function () {
   return {
     "xAxis": {
-       "tickInterval": 1,
+      // "tickInterval": 1,
       //"type": "category",
     },
     "yAxis": {
-      "min": 40,
+      "min": 80,
       tickInterval: 10
     },
     "tooltip": {

@@ -150,19 +150,19 @@
         ],
         [
           "Sep",
-          undefined
+          45699
         ],
         [
           "Okt",
-          undefined
+          47479
         ],
         [
           "Nov",
-          undefined
+          54559
         ],
         [
           "Dez",
-          undefined
+          47312
         ]
       ],
       "name": "Inland 2023",
@@ -206,19 +206,19 @@
         ],
         [
           "Sep",
-          undefined
+          87311
         ],
         [
           "Okt",
-          undefined
+          81345
         ],
         [
           "Nov",
-          undefined
+          75420
         ],
         [
           "Dez",
-          undefined
+          95449
         ]
       ],
       "name": "Ausland 2023",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.9.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

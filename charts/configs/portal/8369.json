@@ -55,7 +55,7 @@
         ],
         [
           "Basel-Landschaft",
-          29.7
+          29.8
         ],
         [
           "Jura",
@@ -74,7 +74,7 @@
       "data": [
         [
           "Basel-Stadt",
-          26.3
+          26.4
         ],
         [
           "Basel-Landschaft",
@@ -97,19 +97,19 @@
       "data": [
         [
           "Basel-Stadt",
-          26
+          26.1
         ],
         [
           "Basel-Landschaft",
-          31.8
+          31.6
         ],
         [
           "Jura",
-          34.3
+          34.1
         ],
         [
           "Schweiz",
-          30.1
+          29.8
         ]
       ],
       "name": "2018",
@@ -120,19 +120,19 @@
       "data": [
         [
           "Basel-Stadt",
-          25
+          24.9
         ],
         [
           "Basel-Landschaft",
-          34.3
+          34
         ],
         [
           "Jura",
-          29.6
+          29.2
         ],
         [
           "Schweiz",
-          30.8
+          30.2
         ]
       ],
       "name": "2019",
@@ -147,7 +147,7 @@
         ],
         [
           "Basel-Landschaft",
-          33.8
+          33.7
         ],
         [
           "Jura",
@@ -155,7 +155,7 @@
         ],
         [
           "Schweiz",
-          31.3
+          30.2
         ]
       ],
       "name": "2020",

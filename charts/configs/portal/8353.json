@@ -288,9 +288,7 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickInterval": 10,
-    "max": 150
+    }
   },
   "legend": {
     "enabled": true,
