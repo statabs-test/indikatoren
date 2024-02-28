@@ -5,19 +5,19 @@
       "data": [
         [
           "Basel-Stadt",
-          41.4
+          42.82
         ],
         [
           "Basel-Landschaft",
-          22.45
+          22.7
         ],
         [
           "Jura",
-          5.17
+          5.42
         ],
         [
           "BS\u002FBL\u002FJU",
-          69.02
+          70.93
         ]
       ],
       "name": "BIP nominal",
@@ -135,7 +135,7 @@
     "text": "Bruttoinlandprodukt"
   },
   "subtitle": {
-    "text": "total in Mrd. Franken, 2021",
+    "text": "total in Mrd. Franken, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -204,7 +204,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2023"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 26.2.2024"
   },
   "colors": [
     "#474747",
