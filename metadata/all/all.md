@@ -2310,10 +2310,17 @@ id | visible | visibleInPortal | indikatorenset
 11183 | true | true | Gesundheitsversorgung
 11184 | true | true | Gesundheitsversorgung
 11185 | true | true | Gesundheitsversorgung
+11187 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+11188 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+11189 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+11190 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
 11899 | true | true | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
+11927 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+11928 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11932 | true | true | Wirtschaftsbericht BS_BL_JU
+11933 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11936 | true | true | 

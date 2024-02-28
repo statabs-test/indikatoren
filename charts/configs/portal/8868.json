@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#73B97C",
       "data": [
         [
           "Basel-Stadt",
@@ -55,7 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#007A2F",
       "data": [
         [
           "Basel-Stadt",
@@ -82,7 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#71A3B5",
       "data": [
         [
           "Basel-Stadt",
@@ -109,7 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -136,7 +136,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -163,7 +163,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#246370",
       "data": [
         [
           "Basel-Stadt",

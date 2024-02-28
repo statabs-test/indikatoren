@@ -26,7 +26,9 @@
         }
       },
       "yAxis": [{
-        tickAmount: 5,
+        tickAmount: 7,
+        tickInterval: 0.05,
+        max: 0.3,
         "labels": {
             "formatter": function(){
                 return Highcharts.numberFormat((this.value*100),0)+'%'; 

@@ -2061,11 +2061,18 @@ var templatesById = {
 	"11183": "line001",
 	"11184": "line001",
 	"11185": "line001",
+	"11187": "template001_print",
+	"11188": "template001_print",
+	"11189": "template001_print",
+	"11190": "template001_print",
 	"11788": "stock001",
 	"11897": "map001",
 	"11899": "template001",
 	"11925": "line001",
 	"11926": "line001",
+	"11927": "line001_print",
+	"11928": "line001_print",
 	"11932": "template001",
+	"11933": "template001_print",
 	"11936": "template001"
 };

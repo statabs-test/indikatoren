@@ -1,8 +1,6 @@
 {
   "series": [
     {
-      "color": "#8B2223",
-      "index": 13,
       "data": [
         [
           2014,
@@ -44,8 +42,6 @@
       "name": "Verkehr, Lagerei"
     },
     {
-      "color": "#DC440E",
-      "index": 12,
       "data": [
         [
           2014,
@@ -87,8 +83,6 @@
       "name": "Elektronik\u002FOptik"
     },
     {
-      "color": "#FF8028",
-      "index": 11,
       "data": [
         [
           2014,
@@ -130,8 +124,6 @@
       "name": "Gastgewerbe"
     },
     {
-      "color": "#FFBB58",
-      "index": 10,
       "data": [
         [
           2014,
@@ -173,8 +165,6 @@
       "name": "Freib., wiss., tech. DL"
     },
     {
-      "color": "#FFDA80",
-      "index": 9,
       "data": [
         [
           2014,
@@ -216,8 +206,6 @@
       "name": "Handel, Reparatur"
     },
     {
-      "color": "#007A2F",
-      "index": 8,
       "data": [
         [
           2014,
@@ -259,8 +247,6 @@
       "name": "Baugewerbe"
     },
     {
-      "color": "#D7E8D2",
-      "index": 7,
       "data": [
         [
           2014,
@@ -302,8 +288,6 @@
       "name": "Metallprodukte"
     },
     {
-      "color": "#73BA7C",
-      "index": 6,
       "data": [
         [
           2014,
@@ -345,8 +329,6 @@
       "name": "Öff. Verwaltung, Bildung"
     },
     {
-      "color": "#2B0099",
-      "index": 5,
       "data": [
         [
           2014,
@@ -388,8 +370,6 @@
       "name": "Finanz-, Versicherungs-DL"
     },
     {
-      "color": "#008AC3",
-      "index": 4,
       "data": [
         [
           2014,
@@ -431,8 +411,6 @@
       "name": "Maschinen"
     },
     {
-      "color": "#B9CFD7",
-      "index": 3,
       "data": [
         [
           2014,
@@ -474,8 +452,6 @@
       "name": "Gesundheits-, Sozialwesen"
     },
     {
-      "color": "#672773",
-      "index": 2,
       "data": [
         [
           2014,
@@ -517,8 +493,6 @@
       "name": "Chemische Industrie"
     },
     {
-      "color": "#E7CEE2",
-      "index": 1,
       "data": [
         [
           2014,
@@ -670,6 +644,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "reversed": true,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -721,6 +696,21 @@
 				}, true, true);
 			}
   },
+  "colors": [
+    "#73BA7C",
+    "#FFBB58",
+    "#2B0099",
+    "#B9CFD7",
+    "#D7E8D2",
+    "#007A2F",
+    "#FF8028",
+    "#672773",
+    "#008AC3",
+    "#FFDA80",
+    "#E7CEE2",
+    "#8B2223",
+    "#DC440E"
+  ],
   "tooltip": {
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
