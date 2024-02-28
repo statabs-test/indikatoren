@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#73B97C",
+      "color": "#007A2F",
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -144,7 +144,7 @@
     },
     {
       "index": 4,
-      "color": "#007A2F",
+      "color": "#73B97C",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -215,7 +215,7 @@
     },
     {
       "index": 6,
-      "color": "#A8C3CA",
+      "color": "#246370",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -286,7 +286,7 @@
     },
     {
       "index": 8,
-      "color": "#71A3B5",
+      "color": "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
               return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -428,7 +428,7 @@
     },
     {
       "index": 12,
-      "color": "#0F7399",
+      "color": "#A8C3CA",
       "tooltip": {
         "pointFormatter": function () {
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -499,7 +499,7 @@
     },
     {
       "index": 14,
-      "color": "#246370",
+      "color": "#D3E2E4",
       "tooltip": {
         "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';

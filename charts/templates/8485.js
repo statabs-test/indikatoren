@@ -30,36 +30,6 @@ global Highcharts
         },
         {
           "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },        
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
         }
       ]
     },
@@ -76,113 +46,82 @@ global Highcharts
     "series": [
       {
         "index": 0,
-        crisp: false,
-        color: "#D7E8D2",
-        borderColor: null,
+        color: "#246370",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
       },
       {
         "index": 1,
-        crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          },
+        }
       },
       {
         "index": 2,
-        crisp: false,
-        color: "#73B97C",
-        borderColor: null,
-      },
-      {
-        "index": 3,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 4,
-        crisp: false,
-        color: "#68AB2B",
-        borderColor: null,
+        color: "#0F7399",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
 
       },
       {
-        "index": 5,
-        crisp: false,
+        "index": 3,
         "type": "errorbar",
         lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
+      },
+      {
+        "index": 4,
+        color: "#689199",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
+      },
+      {
+        "index": 5,
+        "type": "errorbar",
+        lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
       },
       {
         "index": 6,
-        crisp: false,
-        color: "#007A2F",
-        borderColor: null,
+        color: "#A8C3CA",
+        "tooltip": {
+          "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+        }
       },
       {
         "index": 7,
-        crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
+        "tooltip": {
+          "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+        }
       },
-      {
-        "index": 8,
-        crisp: false,
-        color: "#A8C3CA",
-        borderColor: null,
-      },
-      {
-        "index": 9,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 10,
-        crisp: false,
-        color: "#71A3B5",
-        borderColor: null,
-      },
-      {
-        "index": 11,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 12,
-        crisp: false,
-        color: "#689199",
-        borderColor: null,
-      },
-      {
-        "index": 13,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 14,
-        crisp: false,
-        color: "#0F7399",
-        borderColor: null,
-      },
-      {
-        "index": 15,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 16,
-        crisp: false,
-        color: "#246370",
-        borderColor: null,
-      },
-      {
-        "index": 17,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
+
     ],
     "xAxis": {
       "type": "category",

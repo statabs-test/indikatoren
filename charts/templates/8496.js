@@ -1,11 +1,10 @@
 (function () {
   return {
     "xAxis": {
-       tickInterval: 1
+      // tickInterval: 1
     },
     "yAxis": {
       min: 0,
-      max: 50,
       tickInterval: 10,
       "labels": {
         "format": "{value:,.0f}"

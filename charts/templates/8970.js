@@ -25,14 +25,14 @@
         }
       },
       "series": [
-        { color: "#73B97C" },
-        { color: "#68AB2B" },
         { color: "#007A2F" },
-        { color: "#A8C3CA" },
-        { color: "#71A3B5" },
-        { color: "#689199" },
+        { color: "#68AB2B" },
+        { color: "#73B97C" },
+        { color: "#246370" },
         { color: "#0F7399" },
-        { color: "#246370" },   
+        { color: "#689199" },
+        { color: "#A8C3CA" },
+        { color: "#D3E2E4" }     
       ],
       "legend": {
         "enabled": true,

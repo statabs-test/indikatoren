@@ -27,7 +27,7 @@ id | visible | visibleInPortal | indikatorenset
 2528 | true | true | Arbeitsmarkt
 2529 | true | true | Arbeitsmarkt
 2547 | true | true | Arbeitsmarkt
-2917 | true | true | Nachhaltigkeit
+2917 | false |  | Nachhaltigkeit
 2952 | false |  | Legislaturplan-2017-2021
 2953 | false |  | Legislaturplan-2017-2021
 2956 | true | true | Legislaturplan
@@ -312,11 +312,11 @@ id | visible | visibleInPortal | indikatorenset
 5142 | true | true | Nachhaltigkeit
 5144 | false |  | Nachhaltigkeit
 5147 | false |  | Nachhaltigkeit
-5148 | true | true | Nachhaltigkeit
+5148 | false |  | Nachhaltigkeit
 5149 | true | true | Nachhaltigkeit
 5155 | true | false | Nachhaltigkeit
-5156 | true | true | Nachhaltigkeit
-5157 | true | true | Nachhaltigkeit
+5156 | false |  | Nachhaltigkeit
+5157 | false |  | Nachhaltigkeit
 5160 | true | true | Nachhaltigkeit
 5161 | true | true | Nachhaltigkeit
 5162 | true | true | Nachhaltigkeit
@@ -324,7 +324,7 @@ id | visible | visibleInPortal | indikatorenset
 5178 | true | true | Nachhaltigkeit
 5180 | true | true | Nachhaltigkeit
 5181 | true | true | Nachhaltigkeit
-5182 | true | true | Nachhaltigkeit
+5182 | false |  | Nachhaltigkeit
 5183 | true | true | Nachhaltigkeit
 5184 | true | true | Nachhaltigkeit
 5185 | true | true | Nachhaltigkeit
@@ -336,15 +336,15 @@ id | visible | visibleInPortal | indikatorenset
 5193 | true | true | Legislaturplan
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
-5196 | true | true | Nachhaltigkeit
-5197 | true | true | Nachhaltigkeit
-5198 | true | true | Nachhaltigkeit
+5196 | false |  | Nachhaltigkeit
+5197 | false |  | Nachhaltigkeit
+5198 | false |  | Nachhaltigkeit
 5199 | true | true | Nachhaltigkeit
 5201 | true | true | Richtplan
 5202 | true | true | Richtplan
 5203 | true | true | Richtplan
 5793 | true | true | Nachhaltigkeit
-5794 | true | false | Nachhaltigkeit
+5794 | false |  | Nachhaltigkeit
 5795 | true | false | Nachhaltigkeit
 5796 | true | false | Nachhaltigkeit
 5797 | true | true | Umwelt
@@ -383,7 +383,7 @@ id | visible | visibleInPortal | indikatorenset
 6023 | true | true | Wanderungen
 6024 | true | true | Wanderungen
 6025 | true | true | Wanderungen
-6026 | true | true | Nachhaltigkeit
+6026 | false |  | Nachhaltigkeit
 6027 | true | false | Nachhaltigkeit
 6028 | true | true | Nachhaltigkeit
 6029 | true | true | Nachhaltigkeit
@@ -391,14 +391,14 @@ id | visible | visibleInPortal | indikatorenset
 6031 | true | false | Nachhaltigkeit
 6033 | true | true | Nachhaltigkeit
 6034 | true | true | Nachhaltigkeit
-6035 | true | false | Nachhaltigkeit
+6035 | false |  | Nachhaltigkeit
 6036 | true | true | Nachhaltigkeit
 6037 | true | true | Nachhaltigkeit
 6039 | true | true | Nachhaltigkeit
 6040 | true | false | Nachhaltigkeit
-6041 | true | true | Nachhaltigkeit
+6041 | false |  | Nachhaltigkeit
 6042 | true | false | Nachhaltigkeit
-6043 | true | false | Nachhaltigkeit
+6043 | false |  | Nachhaltigkeit
 6044 | true | true | 
 6045 | true | true | Nachhaltigkeit
 6046 | true | false | Nachhaltigkeit
@@ -774,7 +774,7 @@ id | visible | visibleInPortal | indikatorenset
 6570 | true | true | Integration
 6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus
-6592 | true | false | Nachhaltigkeit
+6592 | false |  | Nachhaltigkeit
 6597 | false |  | Nachhaltigkeit
 6599 | true | false | Nachhaltigkeit
 6601 | false |  | 
@@ -1418,18 +1418,18 @@ id | visible | visibleInPortal | indikatorenset
 8113 | true | false | City-Statistics (Print)
 8114 | true | false | City-Statistics (Print)
 8115 | true | false | City-Statistics (Print)
-8240 | true | true | CMS Kennzahlen Soziales
-8241 | true | true | CMS Kennzahlen Soziales
-8242 | true | true | CMS Kennzahlen Soziales
+8240 | false |  | CMS Kennzahlen Soziales
+8241 | true | false | CMS Kennzahlen Soziales
+8242 | true | false | CMS Kennzahlen Soziales
 8243 | true | true | CMS Kennzahlen Soziales
-8244 | true | true | CMS Kennzahlen Soziales
+8244 | false |  | CMS Kennzahlen Soziales
 8245 | true | true | CMS Kennzahlen Soziales
-8246 | true | true | CMS Kennzahlen Soziales
-8247 | true | true | CMS Kennzahlen Soziales
-8248 | true | true | CMS Kennzahlen Soziales
+8246 | false |  | CMS Kennzahlen Soziales
+8247 | false |  | CMS Kennzahlen Soziales
+8248 | false |  | CMS Kennzahlen Soziales
 8249 | true | true | CMS Kennzahlen Soziales
 8250 | true | true | CMS Kennzahlen Soziales
-8251 | true | true | CMS Kennzahlen Soziales
+8251 | true | false | CMS Kennzahlen Soziales
 8252 | true | false | CMS Kennzahlen Soziales
 8253 | true | true | CMS Kennzahlen Soziales
 8254 | true | true | CMS Kennzahlen Soziales
@@ -1438,10 +1438,10 @@ id | visible | visibleInPortal | indikatorenset
 8258 | true | true | CMS Kennzahlen Soziales
 8260 | true | true | CMS Kennzahlen Soziales
 8261 | true | true | CMS Kennzahlen Soziales
-8262 | true | true | CMS Kennzahlen Soziales
-8263 | true | true | CMS Kennzahlen Soziales
-8264 | true | true | CMS Kennzahlen Soziales
-8265 | true | true | CMS Kennzahlen Soziales
+8262 | false |  | CMS Kennzahlen Soziales
+8263 | true | false | CMS Kennzahlen Soziales
+8264 | true | false | CMS Kennzahlen Soziales
+8265 | true | false | CMS Kennzahlen Soziales
 8266 | true | true | CMS Kennzahlen Soziales
 8267 | true | true | CMS Kennzahlen Soziales
 8268 | true | true | CMS Kennzahlen Soziales
@@ -1454,16 +1454,16 @@ id | visible | visibleInPortal | indikatorenset
 8275 | true | false | CMS Kennzahlen Soziales
 8276 | true | false | CMS Kennzahlen Soziales
 8277 | true | true | CMS Kennzahlen Soziales
-8278 | true | true | CMS Kennzahlen Soziales
-8279 | true | true | CMS Kennzahlen Soziales
+8278 | true | false | CMS Kennzahlen Soziales
+8279 | true | false | CMS Kennzahlen Soziales
 8280 | true | true | CMS Kennzahlen Soziales
-8281 | true | true | CMS Kennzahlen Soziales
+8281 | true | false | CMS Kennzahlen Soziales
 8282 | true | true | CMS Kennzahlen Soziales
 8283 | true | false | CMS Kennzahlen Soziales
 8284 | true | false | CMS Kennzahlen Soziales
-8285 | true | true | CMS Kennzahlen Soziales
-8286 | true | true | CMS Kennzahlen Soziales
-8287 | true | true | CMS Kennzahlen Soziales
+8285 | true | false | CMS Kennzahlen Soziales
+8286 | true | false | CMS Kennzahlen Soziales
+8287 | true | false | CMS Kennzahlen Soziales
 8288 | true | true | CMS Kennzahlen Soziales
 8289 | true | true | CMS Kennzahlen Soziales
 8290 | true | true | CMS Kennzahlen Soziales
@@ -1471,7 +1471,7 @@ id | visible | visibleInPortal | indikatorenset
 8292 | true | true | CMS Kennzahlen Soziales
 8293 | true | true | CMS Kennzahlen Soziales
 8294 | true | false | CMS Kennzahlen Soziales
-8314 | true | true | CMS Kennzahlen Soziales
+8314 | true | false | CMS Kennzahlen Soziales
 8315 | true | true | CMS Kennzahlen Soziales
 8316 | true | true | CMS Kennzahlen Soziales
 8317 | true | true | CMS Kennzahlen Soziales
@@ -1480,7 +1480,7 @@ id | visible | visibleInPortal | indikatorenset
 8322 | true | true | CMS Kennzahlen Soziales
 8323 | true | true | CMS Kennzahlen Soziales
 8324 | true | true | CMS Kennzahlen Soziales
-8325 | true | true | CMS Kennzahlen Soziales
+8325 | true | false | CMS Kennzahlen Soziales
 8326 | true | true | CMS Kennzahlen Soziales
 8327 | true | true | CMS Kennzahlen Soziales
 8328 | true | true | CMS Kennzahlen Soziales
@@ -1597,7 +1597,7 @@ id | visible | visibleInPortal | indikatorenset
 8458 | true | true | Nachhaltigkeit
 8459 | true | true | Nachhaltigkeit
 8460 | true | true | Nachhaltigkeit
-8461 | true | true | Nachhaltigkeit
+8461 | false |  | Nachhaltigkeit
 8462 | true | true | Wirtschaftsbericht BS_BL_JU
 8467 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8468 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
@@ -1793,6 +1793,7 @@ id | visible | visibleInPortal | indikatorenset
 8706 | false |  | Arbeitsmarkt (Print)
 8707 | false |  | Arbeitsmarkt (Print)
 8812 | true | false | CMS Kennzahlen Soziales (Print)
+8817 | true | true | Basler Atlas
 8842 | false |  | Stadtteilmonitoring Rosental
 8844 | true | false | Stadtteilmonitoring Rosental (Print)
 8845 | false |  | Stadtteilmonitoring Klybeck-Kleinhüningen
@@ -2077,7 +2078,7 @@ id | visible | visibleInPortal | indikatorenset
 9373 | true | true | Legislaturplan
 9374 | true | false | Legislaturplan
 9375 | true | true | Legislaturplan
-9376 | true | false | Legislaturplan
+9376 | true | true | Legislaturplan
 9377 | true | true | Legislaturplan
 9378 | true | true | Legislaturplan
 9379 | true | true | Legislaturplan
@@ -2204,7 +2205,7 @@ id | visible | visibleInPortal | indikatorenset
 9622 | true | true | Energiestatistik
 9623 | true | true | Energiestatistik
 9624 | true | true | Energiestatistik
-9625 | true | true | 
+9625 | true | false | 
 9636 | true | false | Energiestatistik (Print)
 9641 | true | false | Energiestatistik (Print)
 9643 | true | false | Energiestatistik (Print)
@@ -2236,6 +2237,7 @@ id | visible | visibleInPortal | indikatorenset
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
 9736 | true | true | Nachhaltigkeit
+9737 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
 9750 | true | false | Arbeitsmarkt
@@ -2253,9 +2255,11 @@ id | visible | visibleInPortal | indikatorenset
 9777 | true | false | Arbeitsmarkt (Print)
 9778 | true | false | Arbeitsmarkt (Print)
 9780 | true | false | Arbeitsmarkt (Print)
+9784 | true | true | Nachhaltigkeit
 9785 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9919 | true | true | Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
@@ -2265,13 +2269,63 @@ id | visible | visibleInPortal | indikatorenset
 10028 | true | false | Wirtschaftsbericht BS_BL_JU
 10029 | true | false | Wirtschaftsbericht BS_BL_JU
 10030 | true | false | Wirtschaftsbericht BS_BL_JU
-11187 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
-11188 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
-11189 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
-11190 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+10031 | true | false | CMS Kennzahlen Soziales
+10032 | true | false | CMS Kennzahlen Soziales
+10033 | true | false | CMS Kennzahlen Soziales
+10034 | true | false | CMS Kennzahlen Soziales
+10035 | true | false | CMS Kennzahlen Soziales
+10036 | true | false | CMS Kennzahlen Soziales
+10037 | true | false | CMS Kennzahlen Soziales
+10038 | true | false | CMS Kennzahlen Soziales
+10039 | true | false | CMS Kennzahlen Soziales
+10040 | true | false | CMS Kennzahlen Soziales
+10041 | true | false | CMS Kennzahlen Soziales
+10044 | true | false | CMS Kennzahlen Soziales
+10045 | true | false | CMS Kennzahlen Soziales
+10047 | true | false | CMS Kennzahlen Soziales
+10049 | true | false | CMS Kennzahlen Soziales
+10050 | true | false | CMS Kennzahlen Soziales
+10051 | true | false | CMS Kennzahlen Soziales
+10052 | true | false | CMS Kennzahlen Soziales
+10054 | true | false | CMS Kennzahlen Soziales
+10263 | true | false | CMS Kennzahlen Soziales
+10264 | true | false | CMS Kennzahlen Soziales
+10265 | true | false | CMS Kennzahlen Soziales
+11165 | true | true | Gesundheitsversorgung
+11166 | true | true | Gesundheitsversorgung
+11167 | true | true | Gesundheitsversorgung
+11168 | true | true | Gesundheitsversorgung
+11169 | true | true | Gesundheitsversorgung
+11170 | true | true | Gesundheitsversorgung
+11171 | true | true | Gesundheitsversorgung
+11172 | true | true | Gesundheitsversorgung
+11173 | true | true | Gesundheitsversorgung
+11174 | true | true | Gesundheitsversorgung
+11175 | true | true | Gesundheitsversorgung
+11176 | true | true | Gesundheitsversorgung
+11177 | true | true | Gesundheitsversorgung
+11178 | true | true | Gesundheitsversorgung
+11179 | true | true | Gesundheitsversorgung
+11182 | true | true | Gesundheitsversorgung
+11183 | true | true | Gesundheitsversorgung
+11184 | true | true | Gesundheitsversorgung
+11185 | true | true | Gesundheitsversorgung
+11788 | true | false | Legislaturplan
+11897 | true | true | Gesundheitsversorgung
+11899 | true | true | Richtplan
 11925 | true | true | Wirtschaftsbericht BS_BL_JU
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
+<<<<<<< HEAD
+<<<<<<< HEAD
+11932 | true | true | Wirtschaftsbericht BS_BL_JU
+11936 | true | true | 
+=======
 11927 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11928 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 11932 | true | true | Wirtschaftsbericht BS_BL_JU
 11933 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+11932 | true | true | Wirtschaftsbericht BS_BL_JU
+11936 | true | true | 
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f

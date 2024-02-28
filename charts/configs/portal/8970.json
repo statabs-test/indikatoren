@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#73B97C",
+      "color": "#007A2F",
       "data": [
         [
           "BS",
@@ -47,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#73B97C",
       "data": [
         [
           "BS",
@@ -70,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#246370",
       "data": [
         [
           "BS",
@@ -93,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
+      "color": "#0F7399",
       "data": [
         [
           "BS",
@@ -139,7 +139,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0F7399",
+      "color": "#A8C3CA",
       "data": [
         [
           "BS",
@@ -162,7 +162,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#D3E2E4",
       "data": [
         [
           "BS",

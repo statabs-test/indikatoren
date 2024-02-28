@@ -30,24 +30,6 @@ global Highcharts
         },
         {
           "x": 0
-        },        
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
-        },
-        {
-          "x": 0
         },
         {
           "x": 0
@@ -72,7 +54,7 @@ global Highcharts
       {
         "index": 0,
         crisp: false,
-        color: "#73B97C",
+        color: "#246370",
         borderColor: null,
       },
       {
@@ -84,7 +66,7 @@ global Highcharts
       {
         "index": 2,
         crisp: false,
-        color: "#68AB2B",
+        color: "#0F7399",
         borderColor: null,
 
       },
@@ -97,7 +79,7 @@ global Highcharts
       {
         "index": 4,
         crisp: false,
-        color: "#007A2F",
+        color: "#689199",
         borderColor: null,
       },
       {
@@ -121,7 +103,7 @@ global Highcharts
       {
         "index": 8,
         crisp: false,
-        color: "#71A3B5",
+        color: "#D3E2E4",
         borderColor: null,
       },
       {
@@ -130,42 +112,7 @@ global Highcharts
         "type": "errorbar",
         lineWidth: 0.5,
       },
-      {
-        "index": 10,
-        crisp: false,
-        color: "#689199",
-        borderColor: null,
-      },
-      {
-        "index": 11,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 12,
-        crisp: false,
-        color: "#0F7399",
-        borderColor: null,
-      },
-      {
-        "index": 13,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
-      {
-        "index": 14,
-        crisp: false,
-        color: "#246370",
-        borderColor: null,
-      },
-      {
-        "index": 15,
-        crisp: false,
-        "type": "errorbar",
-        lineWidth: 0.5,
-      },
+
     ],
     "xAxis": {
       "type": "category",
