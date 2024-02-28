@@ -1,1 +1,731 @@
-﻿{"id":8355,"template":"line001","data-id":8355,"chart-id":8355,"filter":"","parentId":null,"children":[8472, 9361, 9420, 9586],"title":"Entwicklung Wertschöpfung nach Branche, Basel-Stadt","subtitle":"real, indexiert (2014 = 100)","lesehilfe":"Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.","erlaeuterungen":"Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.","quellenangabe":["BAK Economics"],"externalLinks":[],"renderLink":[],"raeumlicheGliederung":["Kanton"],"description":"Entwicklung Wertschöpfung nach Branche, Basel-Stadt","thema":"04 Volkswirtschaft","unterthema":"Konjunktur","kuerzel":"I.04.2.08355","kennzahlenset":"Wirtschaftsbericht BS_BL_JU","kuerzelKunde":"1.2.2","stufe1":"1. Bruttoinlandprodukt und Unternehmensbewegungen","stufe2":"1.2 Wertschöpfung","stufe3":"","stufe4":"","stufe5":"","orderKey":"01_02_00_00_00_002","darstellungsart":"Diagramm","printformat":"","visible":true,"visibleInPortal":true,"datenInChartIntegriert":false,"aktualisierungsdatum":"2022-12-13T09:15:55"}
+{
+  "series": [
+    {
+      "color": "#8B2223",
+      "index": 13,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          87.88
+        ],
+        [
+          2016,
+          84.65
+        ],
+        [
+          2017,
+          83.82
+        ],
+        [
+          2018,
+          87.35
+        ],
+        [
+          2019,
+          93.41
+        ],
+        [
+          2020,
+          70.02
+        ],
+        [
+          2021,
+          58.36
+        ],
+        [
+          2022,
+          67.42
+        ]
+      ],
+      "name": "Verkehr, Lagerei"
+    },
+    {
+      "color": "#DC440E",
+      "index": 12,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          88.05
+        ],
+        [
+          2016,
+          77.11
+        ],
+        [
+          2017,
+          59.92
+        ],
+        [
+          2018,
+          69.38
+        ],
+        [
+          2019,
+          73.93
+        ],
+        [
+          2020,
+          63.36
+        ],
+        [
+          2021,
+          83.56
+        ],
+        [
+          2022,
+          86.6
+        ]
+      ],
+      "name": "Elektronik\u002FOptik"
+    },
+    {
+      "color": "#FF8028",
+      "index": 11,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          97.6
+        ],
+        [
+          2016,
+          93.82
+        ],
+        [
+          2017,
+          95.17
+        ],
+        [
+          2018,
+          99.47
+        ],
+        [
+          2019,
+          106.47
+        ],
+        [
+          2020,
+          51.27
+        ],
+        [
+          2021,
+          51.54
+        ],
+        [
+          2022,
+          90.35
+        ]
+      ],
+      "name": "Gastgewerbe"
+    },
+    {
+      "color": "#FFBB58",
+      "index": 10,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          96.61
+        ],
+        [
+          2016,
+          96.18
+        ],
+        [
+          2017,
+          95.33
+        ],
+        [
+          2018,
+          101.36
+        ],
+        [
+          2019,
+          102.43
+        ],
+        [
+          2020,
+          100.31
+        ],
+        [
+          2021,
+          98.26
+        ],
+        [
+          2022,
+          92.81
+        ]
+      ],
+      "name": "Freib., wiss., tech. DL"
+    },
+    {
+      "color": "#FFDA80",
+      "index": 9,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          105.92
+        ],
+        [
+          2016,
+          107.89
+        ],
+        [
+          2017,
+          107.26
+        ],
+        [
+          2018,
+          104.32
+        ],
+        [
+          2019,
+          103.84
+        ],
+        [
+          2020,
+          101.98
+        ],
+        [
+          2021,
+          96.93
+        ],
+        [
+          2022,
+          94.65
+        ]
+      ],
+      "name": "Handel, Reparatur"
+    },
+    {
+      "color": "#007A2F",
+      "index": 8,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          100.36
+        ],
+        [
+          2016,
+          101.08
+        ],
+        [
+          2017,
+          99.91
+        ],
+        [
+          2018,
+          103.04
+        ],
+        [
+          2019,
+          98.87
+        ],
+        [
+          2020,
+          110.78
+        ],
+        [
+          2021,
+          111.01
+        ],
+        [
+          2022,
+          98.42
+        ]
+      ],
+      "name": "Baugewerbe"
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 7,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.99
+        ],
+        [
+          2016,
+          105.26
+        ],
+        [
+          2017,
+          108.27
+        ],
+        [
+          2018,
+          99.13
+        ],
+        [
+          2019,
+          91.1
+        ],
+        [
+          2020,
+          81.29
+        ],
+        [
+          2021,
+          95.96
+        ],
+        [
+          2022,
+          98.46
+        ]
+      ],
+      "name": "Metallprodukte"
+    },
+    {
+      "color": "#73BA7C",
+      "index": 6,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          100.85
+        ],
+        [
+          2016,
+          100.72
+        ],
+        [
+          2017,
+          101.73
+        ],
+        [
+          2018,
+          103.93
+        ],
+        [
+          2019,
+          104.25
+        ],
+        [
+          2020,
+          107.29
+        ],
+        [
+          2021,
+          109.13
+        ],
+        [
+          2022,
+          110.26
+        ]
+      ],
+      "name": "Öff. Verwaltung, Bildung"
+    },
+    {
+      "color": "#2B0099",
+      "index": 5,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          99.91
+        ],
+        [
+          2016,
+          102.72
+        ],
+        [
+          2017,
+          106.36
+        ],
+        [
+          2018,
+          109.43
+        ],
+        [
+          2019,
+          112.48
+        ],
+        [
+          2020,
+          117.7
+        ],
+        [
+          2021,
+          119.63
+        ],
+        [
+          2022,
+          121.65
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL"
+    },
+    {
+      "color": "#008AC3",
+      "index": 4,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          108.33
+        ],
+        [
+          2016,
+          117.54
+        ],
+        [
+          2017,
+          119.44
+        ],
+        [
+          2018,
+          115.53
+        ],
+        [
+          2019,
+          107.14
+        ],
+        [
+          2020,
+          110.97
+        ],
+        [
+          2021,
+          129.55
+        ],
+        [
+          2022,
+          122.79
+        ]
+      ],
+      "name": "Maschinen"
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 3,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          100.04
+        ],
+        [
+          2016,
+          105.87
+        ],
+        [
+          2017,
+          109.9
+        ],
+        [
+          2018,
+          110.36
+        ],
+        [
+          2019,
+          116.18
+        ],
+        [
+          2020,
+          115.56
+        ],
+        [
+          2021,
+          122.13
+        ],
+        [
+          2022,
+          127.96
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen"
+    },
+    {
+      "color": "#672773",
+      "index": 2,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          99.01
+        ],
+        [
+          2016,
+          96.02
+        ],
+        [
+          2017,
+          97.92
+        ],
+        [
+          2018,
+          113.58
+        ],
+        [
+          2019,
+          122.67
+        ],
+        [
+          2020,
+          115.62
+        ],
+        [
+          2021,
+          186.52
+        ],
+        [
+          2022,
+          197.59
+        ]
+      ],
+      "name": "Chemische Industrie"
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          126.75
+        ],
+        [
+          2016,
+          155.69
+        ],
+        [
+          2017,
+          179.25
+        ],
+        [
+          2018,
+          191.54
+        ],
+        [
+          2019,
+          202.26
+        ],
+        [
+          2020,
+          209.37
+        ],
+        [
+          2021,
+          274.7
+        ],
+        [
+          2022,
+          307.06
+        ]
+      ],
+      "name": "Pharma"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-8355"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt"
+  },
+  "subtitle": {
+    "text": "real, indexiert (2014 = 100)",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "min": 40,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.12.2022"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "8355"
+  }
+}

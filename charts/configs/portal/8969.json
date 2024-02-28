@@ -1,1 +1,383 @@
-﻿{"id":8969,"template":"line001","data-id":8969,"chart-id":8969,"filter":"","parentId":null,"children":[8972],"title":"Entwicklung Neugründungsrate","subtitle":"Anteil am Unternehmensbestand","lesehilfe":"Der Anteil der neugegründeten Unternehmen am Total der Unternehmen liegt in der Region BS\/BL\/JU im Jahr 2021 bei 6,8%, und damit auf einem ähnlichen Niveau wie in den Vorjahren (mit Ausnahme von 2014). Höher liegt die Neugründungsrate im Kanton Basel-Stadt (7,7%) und in der Gesamtschweiz (7,5%).","erlaeuterungen":"Die Neugründungsrate misst den Anteil aller in einem Jahr neugegründeten Unternehmen am Total der im selben Jahr aktiven Unternehmen. Erfasst werden nur tatsächlich neuentstandene Unternehmen (d. h. keine Berücksichtigung von neuen Unternehmen aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen) mit marktwirtschaftlicher Tätigkeit (ohne Holdinggesellschaften) im Industrie- und Dienstleistungssektor.","quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"],"externalLinks":[],"renderLink":[],"raeumlicheGliederung":["Kanton"],"description":"Entwicklung Neugründungsrate","thema":"06 Industrie, Dienstleistungen","unterthema":"Neugründungen","kuerzel":"I.06.2.08969","kennzahlenset":"Wirtschaftsbericht BS_BL_JU","kuerzelKunde":"1.3.2","stufe1":"1. Bruttoinlandprodukt und Unternehmensbewegungen","stufe2":"1.3 Unternehmen und Beschäftigte","stufe3":"","stufe4":"","stufe5":"","orderKey":"01_03_00_00_00_002","darstellungsart":"","printformat":"","visible":true,"visibleInPortal":true,"datenInChartIntegriert":false,"aktualisierungsdatum":"2023-12-29T10:29:22"}
+{
+  "series": [
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "BS",
+          8.65
+        ],
+        [
+          "BL",
+          8.18
+        ],
+        [
+          "JU",
+          6.78
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          8.21
+        ],
+        [
+          "CH",
+          7.8
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "BS",
+          7.66
+        ],
+        [
+          "BL",
+          6.53
+        ],
+        [
+          "JU",
+          7.06
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          7.07
+        ],
+        [
+          "CH",
+          7.48
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "BS",
+          6.81
+        ],
+        [
+          "BL",
+          6.34
+        ],
+        [
+          "JU",
+          6.07
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.5
+        ],
+        [
+          "CH",
+          7.1
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "BS",
+          7.21
+        ],
+        [
+          "BL",
+          6.16
+        ],
+        [
+          "JU",
+          6.19
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.6
+        ],
+        [
+          "CH",
+          7.12
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          "BS",
+          6.93
+        ],
+        [
+          "BL",
+          6.2
+        ],
+        [
+          "JU",
+          5.97
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.47
+        ],
+        [
+          "CH",
+          7.08
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "BS",
+          7.47
+        ],
+        [
+          "BL",
+          6.21
+        ],
+        [
+          "JU",
+          6.53
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.77
+        ],
+        [
+          "CH",
+          7.51
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0F7399",
+      "data": [
+        [
+          "BS",
+          7.58
+        ],
+        [
+          "BL",
+          6.01
+        ],
+        [
+          "JU",
+          5.5
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.59
+        ],
+        [
+          "CH",
+          7.12
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "BS",
+          7.71
+        ],
+        [
+          "BL",
+          6.16
+        ],
+        [
+          "JU",
+          6.45
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6.84
+        ],
+        [
+          "CH",
+          7.49
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "inverted": false,
+    "renderTo": "container-8969"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Entwicklung Neugründungsrate"
+  },
+  "subtitle": {
+    "text": "Anteil am Unternehmensbestand",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickAmount": 6
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default",
+      "width": 470
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 29.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "8969"
+  }
+}

@@ -1,1 +1,241 @@
-﻿{"id":8434,"template":"template001","data-id":8434,"chart-id":8434,"filter":"","parentId":null,"children":[8494],"title":"Altersklassen der 15- bis 64-Jährigen; BS\/BL\/JU und Schweiz","subtitle":"Anteil an der Gesamtbevölkerung, 2022","lesehilfe":"Die Anteile der Altersklassen der unter 55-Jährigen an der Gesamtbevölkerung sind in der Region BS\/BL\/JU leicht niedriger als in der Gesamtschweiz.","erlaeuterungen":"Ständige Wohnbevölkerung per 31. Dezember.","quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"],"externalLinks":[],"renderLink":[],"raeumlicheGliederung":["Kanton", "Schweiz"],"description":"Altersklassen der 15- bis 64-Jährigen; BS\/BL\/JU und Schweiz","thema":"01 Bevölkerung","unterthema":"Bestand und Struktur","kuerzel":"I.01.1.08434","kennzahlenset":"Wirtschaftsbericht BS_BL_JU","kuerzelKunde":"2.3.4","stufe1":"2. Arbeitsmarkt, Bildung und Bevölkerung","stufe2":"2.3 Bevölkerung","stufe3":"","stufe4":"","stufe5":"","orderKey":"02_03_00_00_00_004","darstellungsart":"","printformat":"","visible":true,"visibleInPortal":true,"datenInChartIntegriert":false,"aktualisierungsdatum":"2024-01-11T09:32:41"}
+{
+  "series": [
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "15-19",
+          4.57360883999802
+        ],
+        [
+          "20-24",
+          4.94276795005203
+        ],
+        [
+          "25-29",
+          5.94530215832431
+        ],
+        [
+          "30-34",
+          6.88288843112687
+        ],
+        [
+          "35-39",
+          7.04198432754996
+        ],
+        [
+          "40-44",
+          6.89580723028025
+        ],
+        [
+          "45-49",
+          6.58593302045064
+        ],
+        [
+          "50-54",
+          7.03225098572207
+        ],
+        [
+          "55-59",
+          7.55077265037128
+        ],
+        [
+          "60-64",
+          6.62999851345325
+        ]
+      ],
+      "name": "BS\u002FBL\u002FJU",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#990300",
+      "data": [
+        [
+          "15-19",
+          4.86027552965639
+        ],
+        [
+          "20-24",
+          5.30994392190472
+        ],
+        [
+          "25-29",
+          6.29707040588698
+        ],
+        [
+          "30-34",
+          7.20299794053238
+        ],
+        [
+          "35-39",
+          7.20314540998493
+        ],
+        [
+          "40-44",
+          7.06675885398085
+        ],
+        [
+          "45-49",
+          6.75228591831213
+        ],
+        [
+          "50-54",
+          7.20578851632685
+        ],
+        [
+          "55-59",
+          7.48640019692844
+        ],
+        [
+          "60-64",
+          6.37537668519299
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-8434",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Altersklassen der 15- bis 64-Jährigen; BS\u002FBL\u002FJU und Schweiz"
+  },
+  "subtitle": {
+    "text": "Anteil an der Gesamtbevölkerung, 2022",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 1
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 11.1.2024"
+  },
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} Jahre\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "8434"
+  }
+}

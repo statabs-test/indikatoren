@@ -1,1 +1,364 @@
-﻿{"id":8868,"template":"line001","data-id":8868,"chart-id":8868,"filter":"","parentId":null,"children":[8874],"title":"Entwicklung Handelsbilanz","subtitle":"in Mio. Franken","lesehilfe":"Die Handelsbilanz im Kanton Basel-Stadt beträgt im Jahr 2022 rund 40 Mrd. Franken, sie sank gegenüber dem Vorjahr um 2 Mrd. Franken. In Basel-Landschaft ist die Handesbilanz negativ, mit einem Wert von 1,9 Mrd. Franken. Im Jura beträgt der Wert 1,7 Mrd. Franken. In der Schweiz ist die Handelsbilanz, nachdem sie dreimal in Folge gestiegen ist, im Jahr 2022 gesunken und liegt bei knapp 43 Mrd. Franken.","erlaeuterungen":"Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.","quellenangabe":["Bundesamt für Zoll und Grenzsicherheit (BAZG)"],"externalLinks":[],"renderLink":[],"raeumlicheGliederung":["Kanton"],"description":"Entwicklung Handelsbilanz","thema":"06 Industrie, Dienstleistungen","unterthema":"Aussenhandel","kuerzel":"I.06.4.08868","kennzahlenset":"Wirtschaftsbericht BS_BL_JU","kuerzelKunde":"3.4","stufe1":"3. Aussenhandel","stufe2":"","stufe3":"","stufe4":"","stufe5":"","orderKey":"03_00_00_00_00_004","darstellungsart":"","printformat":"","visible":true,"visibleInPortal":true,"datenInChartIntegriert":false,"aktualisierungsdatum":"2023-12-05T08:34:28"}
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Basel-Stadt",
+          25931
+        ],
+        [
+          "Basel-Landschaft",
+          565
+        ],
+        [
+          "Jura",
+          1063
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          27559
+        ],
+        [
+          "Schweiz",
+          36931
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Basel-Stadt",
+          27001
+        ],
+        [
+          "Basel-Landschaft",
+          511
+        ],
+        [
+          "Jura",
+          1194
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          28707
+        ],
+        [
+          "Schweiz",
+          34809
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel-Stadt",
+          26470
+        ],
+        [
+          "Basel-Landschaft",
+          111
+        ],
+        [
+          "Jura",
+          1123
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          27704
+        ],
+        [
+          "Schweiz",
+          31375
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Basel-Stadt",
+          29414
+        ],
+        [
+          "Basel-Landschaft",
+          680
+        ],
+        [
+          "Jura",
+          1142
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          31236
+        ],
+        [
+          "Schweiz",
+          37194
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0F7399",
+      "data": [
+        [
+          "Basel-Stadt",
+          35109
+        ],
+        [
+          "Basel-Landschaft",
+          -497
+        ],
+        [
+          "Jura",
+          995
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          35607
+        ],
+        [
+          "Schweiz",
+          42979
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Basel-Stadt",
+          42109
+        ],
+        [
+          "Basel-Landschaft",
+          -691
+        ],
+        [
+          "Jura",
+          1355
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          42773
+        ],
+        [
+          "Schweiz",
+          58461
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          40076
+        ],
+        [
+          "Basel-Landschaft",
+          -1940
+        ],
+        [
+          "Jura",
+          1679
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          39816
+        ],
+        [
+          "Schweiz",
+          42847
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "inverted": false,
+    "renderTo": "container-8868"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "minPointLength": 2
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Entwicklung Handelsbilanz"
+  },
+  "subtitle": {
+    "text": "in Mio. Franken",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": -10000,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10000,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 2
+      }
+    ]
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default",
+      "width": 470
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Zoll und Grenzsicherheit (BAZG).\u003Cbr\u002F\u003EZuletzt geändert: 5.12.2023"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Mio. Franken\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "8868"
+  }
+}

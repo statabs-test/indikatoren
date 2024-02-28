@@ -6015,7 +6015,7 @@
 	"7003": {
 		"metadata": "468fc221f3870770e2f9ba1784710beb56c16792",
 		"chartConfig": "f49477147920fe201e065b892cbe6fbd3c330e12",
-		"data": "b16f6d16ff63f4f8a58c36bcdb601bc06f8faecd",
+		"data": "1084bae6e0b7f9b5f7fdf057693adde9c81b9838",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "4a387c43d88825312b44d5ade44014c300e9db30"
 	},
@@ -9058,221 +9058,65 @@
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
 	"8352": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "3cef896dfc3a97ef2aa0654bddc68379f553e0b2",
 		"chartConfig": "0e13e0370eb877e3b658cbb2cb0ceb362aef8d3e",
 		"data": "c5b059ab85c6461985f6e91a828d07014afa9115",
-=======
-		"metadata": "a1db8014e1789ca43781b3b76cbb5a5db05f6c96",
-		"chartConfig": "87f586c802c47dacdf8394e00ab3435a14a0fb26",
-		"data": "8732900a11f597700dae09e08b70514e484478f5",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "3cef896dfc3a97ef2aa0654bddc68379f553e0b2",
-		"chartConfig": "0e13e0370eb877e3b658cbb2cb0ceb362aef8d3e",
-		"data": "c5b059ab85c6461985f6e91a828d07014afa9115",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "3cef896dfc3a97ef2aa0654bddc68379f553e0b2",
-		"chartConfig": "0e13e0370eb877e3b658cbb2cb0ceb362aef8d3e",
-		"data": "c5b059ab85c6461985f6e91a828d07014afa9115",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8353": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "375357a195ffcf9ccdce94dd73ec3395ea150f11",
 		"chartConfig": "0e13e0370eb877e3b658cbb2cb0ceb362aef8d3e",
 		"data": "9ba7ce12ef4cc4f94260641751ffe2b1b64d9380",
-=======
-		"metadata": "ec4b37aff7a40c0aeaf7b28f14fa50f1c77782b2",
-		"chartConfig": "22ddebfe5c06645070493e732d1cadc96e823375",
-		"data": "f6ab58bc7a913cc3c26f6ec0f49f284b5c999c34",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "375357a195ffcf9ccdce94dd73ec3395ea150f11",
-		"chartConfig": "0e13e0370eb877e3b658cbb2cb0ceb362aef8d3e",
-		"data": "9ba7ce12ef4cc4f94260641751ffe2b1b64d9380",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "375357a195ffcf9ccdce94dd73ec3395ea150f11",
-		"chartConfig": "0e13e0370eb877e3b658cbb2cb0ceb362aef8d3e",
-		"data": "9ba7ce12ef4cc4f94260641751ffe2b1b64d9380",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8354": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "74a7a2252e7cfea11e86fc47f3c5099b5b25b351",
-=======
-		"metadata": "39708f0caa868679b864bb2dcf553d2fa47ac846",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "74a7a2252e7cfea11e86fc47f3c5099b5b25b351",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "74a7a2252e7cfea11e86fc47f3c5099b5b25b351",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"chartConfig": "90e3d8d37100aade64796477684e71b36fec3cbb",
 		"data": "d5f1ea0f19982c168f960af3fba422de2f34d80e",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
 	"8355": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "ca2876c550b441087bd92dd8d1db438a37757259",
 		"chartConfig": "c1347d9e8de18560d9d10d28a7e781ed5d18c2fa",
 		"data": "518858d2080558ef48df776eb683208e8743cafe",
-=======
-		"metadata": "5e7a9fb31dea7db487ff125d7a13303b69db45a9",
-		"chartConfig": "4bafa00b946d2008c05e62d82133574fcaccd871",
-		"data": "e9427dd2fbdb43a4ab0e390557dbd4927917b624",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "ca2876c550b441087bd92dd8d1db438a37757259",
-		"chartConfig": "c1347d9e8de18560d9d10d28a7e781ed5d18c2fa",
-		"data": "518858d2080558ef48df776eb683208e8743cafe",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "ca2876c550b441087bd92dd8d1db438a37757259",
-		"chartConfig": "c1347d9e8de18560d9d10d28a7e781ed5d18c2fa",
-		"data": "518858d2080558ef48df776eb683208e8743cafe",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8356": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "cfc5ed9b349d4888ca5ccf54cc127b71c01dd346",
 		"chartConfig": "7565ba4e8d35cbedf2ee7d095d0522417f44e5e9",
 		"data": "de9cfcc064b4c9f968acff27ae6b96116dbde835",
-=======
-		"metadata": "6beb2dcfbcb6aba61a89c5274dd3bd2d7cd6bd98",
-		"chartConfig": "dd1e4c22737b413f403d9b8eaa70f7e26a4f93c3",
-		"data": "0c2fcb72b87fe39930a4da87534c78c0f7b7100f",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "cfc5ed9b349d4888ca5ccf54cc127b71c01dd346",
-		"chartConfig": "7565ba4e8d35cbedf2ee7d095d0522417f44e5e9",
-		"data": "de9cfcc064b4c9f968acff27ae6b96116dbde835",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "cfc5ed9b349d4888ca5ccf54cc127b71c01dd346",
-		"chartConfig": "7565ba4e8d35cbedf2ee7d095d0522417f44e5e9",
-		"data": "de9cfcc064b4c9f968acff27ae6b96116dbde835",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8357": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "7fa6514934232e7ba0be50536535b713d5ab34bf",
 		"chartConfig": "ec899998bd32321b6008d2b17ce8d4c714a51e3a",
 		"data": "a575a5b764fe0f6e9200352d2ad5633ea7fb94aa",
-=======
-		"metadata": "8bb025f96c94f57b4eef73a9114d328b6cf2a831",
-		"chartConfig": "96dc3665d0b532a92db5980364b0d09363a81a4a",
-		"data": "76e63cf764c0395616d732551a952b6fc2e583e7",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "7fa6514934232e7ba0be50536535b713d5ab34bf",
-		"chartConfig": "ec899998bd32321b6008d2b17ce8d4c714a51e3a",
-		"data": "a575a5b764fe0f6e9200352d2ad5633ea7fb94aa",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "7fa6514934232e7ba0be50536535b713d5ab34bf",
-		"chartConfig": "ec899998bd32321b6008d2b17ce8d4c714a51e3a",
-		"data": "a575a5b764fe0f6e9200352d2ad5633ea7fb94aa",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8358": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "b26a5a8f845b4bd48fec2806c41810b03bc64b4f",
 		"chartConfig": "8e52a2deec874cf974510b7ed3b9b3e951fc5e2b",
 		"data": "feeb964e3d2fdc8940a07331d38ef53f3fd2a88d",
-=======
-		"metadata": "46a0d18ca0f99e34cdfe0ec260ca9ad0a8b5e00f",
-		"chartConfig": "c6525884be03ede045ea525e36f41711e1cc9804",
-		"data": "bfb8a08634f854dab6838175b5d3fecdf39ecc07",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "b26a5a8f845b4bd48fec2806c41810b03bc64b4f",
-		"chartConfig": "8e52a2deec874cf974510b7ed3b9b3e951fc5e2b",
-		"data": "feeb964e3d2fdc8940a07331d38ef53f3fd2a88d",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "b26a5a8f845b4bd48fec2806c41810b03bc64b4f",
-		"chartConfig": "8e52a2deec874cf974510b7ed3b9b3e951fc5e2b",
-		"data": "feeb964e3d2fdc8940a07331d38ef53f3fd2a88d",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8359": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "b625e84617fcfea95c3751541ccadc712c3aba12",
 		"chartConfig": "c993708a6b5d2fc97aa6dbf196e21eacc41b94b0",
 		"data": "6f86804cb692ad1845a35c01e59a79580a2c6783",
-=======
-		"metadata": "39894d356f68b546227670909aec8c14886c98c0",
-		"chartConfig": "2dd4594f92ed8bfa3e1d48b4e6cf73dbea9c922b",
-		"data": "622ec627e4e38685d1fb00a20457e28f8b9bffd4",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "b625e84617fcfea95c3751541ccadc712c3aba12",
-		"chartConfig": "c993708a6b5d2fc97aa6dbf196e21eacc41b94b0",
-		"data": "6f86804cb692ad1845a35c01e59a79580a2c6783",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "b625e84617fcfea95c3751541ccadc712c3aba12",
-		"chartConfig": "c993708a6b5d2fc97aa6dbf196e21eacc41b94b0",
-		"data": "6f86804cb692ad1845a35c01e59a79580a2c6783",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
 	"8360": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "5fb0a416a8fa6f51c2f981f3b94f5d1437664e41",
 		"chartConfig": "80311718c0ff678e419553dd720f9ff56d040aee",
 		"data": "27ed4c926081af5cc60bd6f3274f35e2bc1bfe5d",
-=======
-		"metadata": "ceaf79fe53bde968cdf54baaddb09a9d0fbd65f0",
-		"chartConfig": "b7db739f0cf8e9c8afa12e937835acbdbce6e467",
-		"data": "e3d0a9300f94930715b81406ac7a5ae3344fc0a4",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "5fb0a416a8fa6f51c2f981f3b94f5d1437664e41",
-		"chartConfig": "80311718c0ff678e419553dd720f9ff56d040aee",
-		"data": "27ed4c926081af5cc60bd6f3274f35e2bc1bfe5d",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "5fb0a416a8fa6f51c2f981f3b94f5d1437664e41",
-		"chartConfig": "80311718c0ff678e419553dd720f9ff56d040aee",
-		"data": "27ed4c926081af5cc60bd6f3274f35e2bc1bfe5d",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
@@ -9326,27 +9170,9 @@
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
 	"8368": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "f4cfa9da420eb9c474b61212ebbc37a441059792",
 		"chartConfig": "067e7576aa0a8fc482b44a0abb600e1d4e32d8e5",
 		"data": "0af0d1a099d28ae8d24234aa682c752848edcef3",
-=======
-		"metadata": "a393119fe620b4bfbba90caa6475c6ab0c40b07e",
-		"chartConfig": "7391b6f7d3dd21effa89f54a6ae7f1f4be9873d3",
-		"data": "7539e4e1a4f932baf9412f6e2b1518adba0b9dab",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "f4cfa9da420eb9c474b61212ebbc37a441059792",
-		"chartConfig": "067e7576aa0a8fc482b44a0abb600e1d4e32d8e5",
-		"data": "0af0d1a099d28ae8d24234aa682c752848edcef3",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "f4cfa9da420eb9c474b61212ebbc37a441059792",
-		"chartConfig": "067e7576aa0a8fc482b44a0abb600e1d4e32d8e5",
-		"data": "0af0d1a099d28ae8d24234aa682c752848edcef3",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
@@ -9358,9 +9184,9 @@
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
 	"8370": {
-		"metadata": "ce65a29edb8411b838bbc85e1f0c1c755a05b332",
+		"metadata": "0fbf48590dd55fd9dfe811d8ff4718477dd7d874",
 		"chartConfig": "04ec5817941128b4072981a8fffc5765e1315ae6",
-		"data": "398ed7b82d8c7a0c26fba9409f3a759cc5077135",
+		"data": "19085f8661f947c55303ab63f31c38f211e4684a",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
@@ -9785,52 +9611,16 @@
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
 	"8446": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "30168af549aa6a5c6c6b297d9e42362033247495",
 		"chartConfig": "99285af494e03dbd157c6cb0655e779e0b3059b5",
 		"data": "9a65037df9ff162ad8686aaf8e20889e6a4a9a12",
-=======
-		"metadata": "a9aa9db06710525031752648605939cd10d70496",
-		"chartConfig": "7391b6f7d3dd21effa89f54a6ae7f1f4be9873d3",
-		"data": "06dbfdddeb6ed12e83e44e85bbf36a370251dea5",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "30168af549aa6a5c6c6b297d9e42362033247495",
-		"chartConfig": "99285af494e03dbd157c6cb0655e779e0b3059b5",
-		"data": "9a65037df9ff162ad8686aaf8e20889e6a4a9a12",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "30168af549aa6a5c6c6b297d9e42362033247495",
-		"chartConfig": "99285af494e03dbd157c6cb0655e779e0b3059b5",
-		"data": "9a65037df9ff162ad8686aaf8e20889e6a4a9a12",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
 	"8447": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "078862da19eb1baacf96d2dc020861290066e274",
 		"chartConfig": "99285af494e03dbd157c6cb0655e779e0b3059b5",
 		"data": "4ceaeb13c080f546b6f81eb9e991e4b8cb59744f",
-=======
-		"metadata": "ec466bbf4effaa8f79756f8d8dd16905a98ddf6f",
-		"chartConfig": "7391b6f7d3dd21effa89f54a6ae7f1f4be9873d3",
-		"data": "1c9fcb74cace42b8a8d787a808eaa81d9e70f3e9",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "078862da19eb1baacf96d2dc020861290066e274",
-		"chartConfig": "99285af494e03dbd157c6cb0655e779e0b3059b5",
-		"data": "4ceaeb13c080f546b6f81eb9e991e4b8cb59744f",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "078862da19eb1baacf96d2dc020861290066e274",
-		"chartConfig": "99285af494e03dbd157c6cb0655e779e0b3059b5",
-		"data": "4ceaeb13c080f546b6f81eb9e991e4b8cb59744f",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
@@ -11228,19 +11018,7 @@
 		"template": "04ae6241fccf70a34beaf4dc5f485e966ed7190c"
 	},
 	"8863": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "e59cae17bf334e7de81c87bf926cc9789d67a986",
-=======
-		"metadata": "8be691de4e5f3979216bc51ce293689f841626c9",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "e59cae17bf334e7de81c87bf926cc9789d67a986",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "e59cae17bf334e7de81c87bf926cc9789d67a986",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"chartConfig": "ae05331c16cf4bd9af88da83130ec3bb37c7ba98",
 		"data": "8f3673964ac2331c46bea5955f990b7982c8dfef",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
@@ -11843,19 +11621,7 @@
 	},
 	"8970": {
 		"metadata": "1973c12b41e40baf80fb87ba3d3e6aeeeea3c991",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"chartConfig": "9d6fd937c1a6095a5c10557acaa210494fe7251c",
-=======
-		"chartConfig": "a9454262a55a837588f344a254cb41ff517f267e",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"chartConfig": "9d6fd937c1a6095a5c10557acaa210494fe7251c",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"chartConfig": "9d6fd937c1a6095a5c10557acaa210494fe7251c",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"data": "f1a9624743a36662bece13c837bce180cb1e6c1a",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
@@ -14353,23 +14119,8 @@
 		"template": "d74f1bffcd06095c037360d69bef5ed3f8f1fca6"
 	},
 	"10027": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"metadata": "b6f46d2d0e79983aac9b4282ea0d84ef0a33212f",
 		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-=======
-		"metadata": "191f015e172724e44154f6ce5eba506dca8d988a",
-		"chartConfig": "4c02cba6e08b4e8103efbfab057aabb4ffc4cce6",
->>>>>>> parent of 9509df84eb (some changes)
-=======
-		"metadata": "b6f46d2d0e79983aac9b4282ea0d84ef0a33212f",
-		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
-		"metadata": "b6f46d2d0e79983aac9b4282ea0d84ef0a33212f",
-		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"data": "a1754c8833dfcd16ba58066869daba4daa405d5b",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
@@ -14500,27 +14251,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
 	},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"11932": {
-		"metadata": "008baf17cbeaa6aa75e68c0d581fd98dbee41b96",
-		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"data": "42ac3b7f600e185eb5f33409aa79c4480f8091fe",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
-	},
-	"11936": {
-		"metadata": "b1974aedc0287663493b296b223947ad0d2e87da",
-		"chartConfig": "8e488ecf2eb3b85137fb40c835b236c08193ba1b",
-		"data": "85492cd34ab986a3c9570e4c335db0f1d55c768c",
-=======
-	"11927": {
-		"metadata": "f72a1d3a4d98c21b00ec43918c7a5580f01855df",
-		"chartConfig": "677072cc80bbe179dc138a36d1131efb3a6eadc8",
-=======
-=======
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 	"10050": {
 		"metadata": "6c4f3f1ee5417451f31f986d94e93031a8d81ddc",
 		"chartConfig": "b9d94dfc6a6fa4f46708dd778c9fef44656a9bb7",
@@ -14727,10 +14457,6 @@
 	"11925": {
 		"metadata": "7ad1850b3e053435e0ff86edc252e65423d7602d",
 		"chartConfig": "5a71a9c8fe0eb6e430373351fd9e23cb2a55a200",
-<<<<<<< HEAD
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-=======
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"data": "ca9d68f6e64a9937aa6c66b03b59a374e584ad52",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "89183459361906ac143a8b5cb243066180ea0c34"
@@ -14746,7 +14472,6 @@
 		"metadata": "008baf17cbeaa6aa75e68c0d581fd98dbee41b96",
 		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"data": "42ac3b7f600e185eb5f33409aa79c4480f8091fe",
->>>>>>> parent of 9509df84eb (some changes)
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "5999f85f4342f808ed976c103a27126c81acefb0"
 	},
