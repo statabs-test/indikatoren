@@ -12,6 +12,9 @@
           2015,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
           87.88
         ],
         [
@@ -37,6 +40,7 @@
         [
           2021,
           58.36
+<<<<<<< HEAD
         ],
         [
           2022,
@@ -46,39 +50,11 @@
 =======
           87.88
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
-        ],
-        [
-          2016,
-          84.65
-        ],
-        [
-          2017,
-          83.82
-        ],
-        [
-          2018,
-          87.35
-        ],
-        [
-          2019,
-          93.41
-        ],
-        [
-          2020,
-          70.02
-        ],
-        [
-          2021,
-<<<<<<< HEAD
-          51.54
->>>>>>> parent of 9509df84eb (some changes)
 =======
-          58.36
         ],
         [
           2022,
           67.42
->>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
       ],
       "name": "Verkehr, Lagerei"
@@ -94,9 +70,72 @@
         [
           2015,
           88.05
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
+          77.11
+        ],
+        [
+          2017,
+          59.92
+        ],
+        [
+          2018,
+          69.38
+        ],
+        [
+          2019,
+          73.93
+        ],
+        [
+          2020,
+          63.36
+        ],
+        [
+          2021,
+<<<<<<< HEAD
+<<<<<<< HEAD
+          51.54
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+          58.36
+        ],
+        [
+          2022,
+          67.42
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          83.56
+        ],
+        [
+          2022,
+          86.6
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+        ]
+      ],
+      "name": "Elektronik\u002FOptik"
+    },
+    {
+<<<<<<< HEAD
+      "color": "#DC440E",
+      "index": 12,
+=======
+      "color": "#FF8028",
+      "index": 11,
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          97.6
+        ],
+        [
+          2016,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           77.11
@@ -129,25 +168,29 @@
 =======
           77.11
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          93.82
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2017,
-          59.92
+          95.17
         ],
         [
           2018,
-          69.38
+          99.47
         ],
         [
           2019,
-          73.93
+          106.47
         ],
         [
           2020,
-          63.36
+          51.27
         ],
         [
           2021,
+<<<<<<< HEAD
 <<<<<<< HEAD
           58.36
 >>>>>>> parent of 9509df84eb (some changes)
@@ -234,6 +277,8 @@
         ],
         [
           2021,
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
           51.54
         ],
         [
@@ -242,8 +287,12 @@
         ]
       ],
 <<<<<<< HEAD
+<<<<<<< HEAD
       "name": "Elektronik\u002FOptik"
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+      "name": "Gastgewerbe"
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
       "name": "Gastgewerbe"
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -258,6 +307,7 @@
         ],
         [
           2015,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           96.61
@@ -294,6 +344,9 @@
 =======
           96.61
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          96.61
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
@@ -318,14 +371,20 @@
         [
           2021,
 <<<<<<< HEAD
+<<<<<<< HEAD
           95.96
 >>>>>>> parent of 9509df84eb (some changes)
 =======
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
           98.26
         ],
         [
           2022,
           92.81
+<<<<<<< HEAD
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
       ],
@@ -368,6 +427,9 @@
           96.93
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
@@ -375,8 +437,11 @@
           2022,
           94.65
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
@@ -393,6 +458,7 @@
         ],
         [
           2015,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           100.36
@@ -432,6 +498,9 @@
 =======
           100.36
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          100.36
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
@@ -463,8 +532,12 @@
         ]
       ],
 <<<<<<< HEAD
+<<<<<<< HEAD
       "name": "Freib., wiss., tech. DL"
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+      "name": "Baugewerbe"
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
       "name": "Baugewerbe"
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -479,6 +552,7 @@
         ],
         [
           2015,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           102.99
@@ -518,6 +592,9 @@
 =======
           102.99
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          102.99
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
@@ -549,8 +626,12 @@
         ]
       ],
 <<<<<<< HEAD
+<<<<<<< HEAD
       "name": "Öff. Verwaltung, Bildung"
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+      "name": "Metallprodukte"
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
       "name": "Metallprodukte"
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -565,6 +646,7 @@
         ],
         [
           2015,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           100.85
@@ -601,6 +683,9 @@
 =======
           100.85
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          100.85
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
@@ -625,14 +710,20 @@
         [
           2021,
 <<<<<<< HEAD
+<<<<<<< HEAD
           111.03
 >>>>>>> parent of 9509df84eb (some changes)
 =======
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
           109.13
         ],
         [
           2022,
           110.26
+<<<<<<< HEAD
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
       ],
@@ -675,6 +766,9 @@
           119.63
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
@@ -682,8 +776,11 @@
           2022,
           121.65
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
@@ -702,6 +799,7 @@
           2015,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           108.33
         ],
         [
@@ -739,6 +837,9 @@
 =======
           108.33
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          108.33
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
@@ -770,8 +871,12 @@
         ]
       ],
 <<<<<<< HEAD
+<<<<<<< HEAD
       "name": "Gesundheits-, Sozialwesen"
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+      "name": "Maschinen"
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
       "name": "Maschinen"
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -788,6 +893,7 @@
           2015,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           100.04
         ],
         [
@@ -822,6 +928,9 @@
 =======
           100.04
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+          100.04
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
         [
           2016,
@@ -846,14 +955,20 @@
         [
           2021,
 <<<<<<< HEAD
+<<<<<<< HEAD
           129.55
 >>>>>>> parent of 9509df84eb (some changes)
 =======
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
           122.13
         ],
         [
           2022,
           127.96
+<<<<<<< HEAD
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
       ],
@@ -896,6 +1011,9 @@
           186.52
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
@@ -903,8 +1021,11 @@
           2022,
           197.59
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]
@@ -948,6 +1069,9 @@
           274.7
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ],
@@ -955,8 +1079,11 @@
           2022,
           307.06
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
         ]

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿""	"Baugewerbe"	"Gastgewerbe"	"Verkehr, Lagerei"	"Primärer Sektor"	"Handel, Reparatur"	"Öff. Verwaltung, Bildung"	"Elektronik/Optik"	"Metallprodukte"	"Maschinen"	"Finanz-, Versicherungs-DL"	"Freib., wiss., tech. DL"	"Gesundheits-, Sozialwesen"
 "2014"	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00
 "2015"	100.42	97.28	105.48	91.39	105.67	103.82	87.60	98.44	102.32	99.47	92.89	102.51
@@ -24,6 +25,10 @@
 =======
 ﻿""	"Baugewerbe"	"Gastgewerbe"	"Verkehr, Lagerei"	"Primärer Sektor"	"Handel, Reparatur"	"Öff. Verwaltung, Bildung"	"Elektronik/Optik"	"Metallprodukte"	"Maschinen"	"Finanz-, Versicherungs-DL"	"Freib., wiss., tech. DL"	"Gesundheits-, Sozialwesen"
 "2014"	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00
+=======
+﻿""	"Baugewerbe"	"Gastgewerbe"	"Verkehr, Lagerei"	"Primärer Sektor"	"Handel, Reparatur"	"Öff. Verwaltung, Bildung"	"Elektronik/Optik"	"Metallprodukte"	"Maschinen"	"Finanz-, Versicherungs-DL"	"Freib., wiss., tech. DL"	"Gesundheits-, Sozialwesen"
+"2014"	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00	100.00
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 "2015"	100.42	97.28	105.48	91.39	105.67	103.82	87.60	98.44	102.32	99.47	92.89	102.51
 "2016"	99.93	99.26	99.97	92.62	106.78	100.50	84.84	94.61	102.45	100.76	107.42	106.07
 "2017"	104.58	94.92	96.49	89.22	106.02	101.40	84.28	104.52	105.62	104.60	112.39	111.58
@@ -32,5 +37,8 @@
 "2020"	99.40	83.59	83.35	95.53	104.04	102.41	82.98	100.88	92.40	112.84	128.06	121.60
 "2021"	101.25	82.09	86.89	89.45	102.71	101.38	104.02	112.12	108.42	120.67	144.69	125.35
 "2022"	90.96	91.57	93.17	95.96	99.30	103.12	114.44	116.96	118.67	119.22	126.19	131.06
+<<<<<<< HEAD
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 

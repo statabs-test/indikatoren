@@ -35,10 +35,14 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"aktualisierungsdatum": "2024-02-27T08:23:59",
 =======
 		"aktualisierungsdatum": "2021-05-25T08:35:48",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"aktualisierungsdatum": "2024-02-27T08:23:59",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"aktualisierungsdatum": "2024-02-27T08:23:59",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -253,10 +257,14 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2020 wendete eine Person in der Schweiz durchschnittlich 24,0 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,1 Stunden",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
 =======
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -285,10 +293,14 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"aktualisierungsdatum": "2024-02-26T08:30:49",
 =======
 		"aktualisierungsdatum": "2024-01-16T08:47:10",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"aktualisierungsdatum": "2024-02-26T08:30:49",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"aktualisierungsdatum": "2024-02-26T08:30:49",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -461,6 +473,7 @@ var indikatorensetData = [
 		],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"title": "Nominale Wertschöpfung nach Branche",
 		"subtitle": "Anteile an der Gesamtwertschöpfung, 2022",
 		"lesehilfe": "In Basel-Stadt erwirtschaften 2022 die Branche Chemie und Pharma 44,9% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 20,5% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (35,2% der Wertschöpfung). In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,6%). An zweiter Stelle folgt der Handel (11,6%).",
@@ -469,6 +482,11 @@ var indikatorensetData = [
 		"subtitle": "Anteile an der Gesamtwertschöpfung, 2021",
 		"lesehilfe": "In Basel-Stadt erwirtschaften 2021 die Branchen Chemie und Pharma 39% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 20% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (36% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 9%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (27%). An zweiter Stelle folgt der Handel (12%).",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"title": "Nominale Wertschöpfung nach Branche",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2022",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2022 die Branche Chemie und Pharma 44,9% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 20,5% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (35,2% der Wertschöpfung). In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,6%). An zweiter Stelle folgt der Handel (11,6%).",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"title": "Nominale Wertschöpfung nach Branche",
 		"subtitle": "Anteile an der Gesamtwertschöpfung, 2022",
@@ -517,10 +535,14 @@ var indikatorensetData = [
 		"subtitle": "real, indexiert (2014 = 100)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
 =======
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist im gleichen Zeitraum um rund 16% gestiegen. Das Gastgewerbe sowie der Bereich Verkehr und Lagerei haben im ersten Pandemiejahr 2020 die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2021 konnten sie sich leicht erholen.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -564,10 +586,14 @@ var indikatorensetData = [
 		"subtitle": "real, indexiert (2014 = 100)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdreifacht und die Wertschöpfung in der Chemischen Industrie hat um rund 70% zugenommen. Nachdem die Wertschöpfung im Gastgewerbe während der Pandemie eingebrochen ist, nahm sie im Jahr 2022 wieder deutlich zu.",
 =======
 		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdoppelt und die Wertschöpfung in der Chemischen Industrie hat um fast 60% zugenommen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdreifacht und die Wertschöpfung in der Chemischen Industrie hat um rund 70% zugenommen. Nachdem die Wertschöpfung im Gastgewerbe während der Pandemie eingebrochen ist, nahm sie im Jahr 2022 wieder deutlich zu.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdreifacht und die Wertschöpfung in der Chemischen Industrie hat um rund 70% zugenommen. Nachdem die Wertschöpfung im Gastgewerbe während der Pandemie eingebrochen ist, nahm sie im Jahr 2022 wieder deutlich zu.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -611,10 +637,14 @@ var indikatorensetData = [
 		"subtitle": "real, indexiert (2014 = 100)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lesehilfe": "Im Vergleich zu 2014 ist die Wertschöpfung im Bereich Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie im Gesundheits- und Sozialwesen am stärksten gewachsen. Nachdem im Pandemiejahr 2020 die Wertschöpfung in vielen Branchen deutlich sank, verzeichneten viele Branchen 2021 und 2022 wieder eine Zunahme.",
 =======
 		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken. Am stärksten war auch hier das Gastgewerbe betroffen.Die Mehrheit der Branchen konnten im Jahr 2021 wieder eine Zunahme der realen Wertschöpfung verzeichnen.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Im Vergleich zu 2014 ist die Wertschöpfung im Bereich Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie im Gesundheits- und Sozialwesen am stärksten gewachsen. Nachdem im Pandemiejahr 2020 die Wertschöpfung in vielen Branchen deutlich sank, verzeichneten viele Branchen 2021 und 2022 wieder eine Zunahme.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"lesehilfe": "Im Vergleich zu 2014 ist die Wertschöpfung im Bereich Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie im Gesundheits- und Sozialwesen am stärksten gewachsen. Nachdem im Pandemiejahr 2020 die Wertschöpfung in vielen Branchen deutlich sank, verzeichneten viele Branchen 2021 und 2022 wieder eine Zunahme.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -658,10 +688,14 @@ var indikatorensetData = [
 		"subtitle": "real, indexiert (2014 = 100)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2022 mehr als verdreifacht. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+85%). Im Gastgewerbe war die Wertschöpfung im Pandemiejahr 2020 stark rückläufig. Nach einer Stagnation im Jahr 2021 nahm diese 2022 wieder zu.",
 =======
 		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2021 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+48%), in Bereich der Finanz- und Versicherungsdienstleistungen (+19%) und im Gesundheits- und Sozialwesen (+17%). Stark rückläufig war die Wertschöpfung vor allem im Gastgewerbe, was auf den Einbruch 2020 zurückzuführen ist.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2022 mehr als verdreifacht. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+85%). Im Gastgewerbe war die Wertschöpfung im Pandemiejahr 2020 stark rückläufig. Nach einer Stagnation im Jahr 2021 nahm diese 2022 wieder zu.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2022 mehr als verdreifacht. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+85%). Im Gastgewerbe war die Wertschöpfung im Pandemiejahr 2020 stark rückläufig. Nach einer Stagnation im Jahr 2021 nahm diese 2022 wieder zu.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -705,10 +739,14 @@ var indikatorensetData = [
 		"subtitle": "real, indexiert (2014 = 100)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2022 im Vergleich zum Jahr 2014 mehr als verdreifacht. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Die Wertschöpfung im Gastgewerbe war 2020 stark rückläufig, konnte jedoch 2022 deutlich zulegen.",
 =======
 		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2021 im Vergleich zum Jahr 2014 mehr als verdoppelt. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Stark rückläufig war die Wertschöpfung aufgrund des Einbruchs im Jahr 2020 vor allem im Gastgewerbe.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2022 im Vergleich zum Jahr 2014 mehr als verdreifacht. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Die Wertschöpfung im Gastgewerbe war 2020 stark rückläufig, konnte jedoch 2022 deutlich zulegen.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2022 im Vergleich zum Jahr 2014 mehr als verdreifacht. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Die Wertschöpfung im Gastgewerbe war 2020 stark rückläufig, konnte jedoch 2022 deutlich zulegen.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
@@ -1064,10 +1102,14 @@ var indikatorensetData = [
 		"subtitle": "",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
 =======
 		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2021: 52,5%). Basel-Landschaft liegt bei 41,8%, Jura bei 27,0%. Der Wert für die ganze Schweiz beträgt 40,7%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit mit Vorsicht zu interpretieren.",
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f

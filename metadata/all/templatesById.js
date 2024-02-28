@@ -2068,6 +2068,7 @@ var templatesById = {
 	"11926": "line001",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"11932": "template001",
 	"11936": "template001"
 =======
@@ -2076,6 +2077,10 @@ var templatesById = {
 	"11932": "template001",
 	"11933": "template001_print"
 >>>>>>> parent of 9509df84eb (some changes)
+=======
+	"11932": "template001",
+	"11936": "template001"
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 	"11932": "template001",
 	"11936": "template001"

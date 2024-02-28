@@ -408,6 +408,7 @@
       "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
     {
       "index": 10,
@@ -696,6 +697,8 @@
       ],
       "name": "95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
+=======
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 =======
 >>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
     }
