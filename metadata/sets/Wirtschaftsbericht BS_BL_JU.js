@@ -33,7 +33,19 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"aktualisierungsdatum": "2024-02-27T08:23:59",
+=======
 		"aktualisierungsdatum": "2021-05-25T08:35:48",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"aktualisierungsdatum": "2024-02-27T08:23:59",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"aktualisierungsdatum": "2024-02-27T08:23:59",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"id": 10027
 	},
 	{
@@ -72,7 +84,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:37",
+		"aktualisierungsdatum": "2024-01-18T09:39:42",
 		"id": 10028
 	},
 	{
@@ -150,7 +162,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-13T10:14:38",
+		"aktualisierungsdatum": "2024-01-18T09:39:44",
 		"id": 10030
 	},
 	{
@@ -189,7 +201,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-05T11:40:06",
+		"aktualisierungsdatum": "2024-01-25T09:06:05",
 		"id": 11925
 	},
 	{
@@ -228,7 +240,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-05T11:48:56",
+		"aktualisierungsdatum": "2024-01-25T09:06:06",
 		"id": 11926
 	},
 	{
@@ -243,7 +255,19 @@ var indikatorensetData = [
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Schweiz",
 		"lesehilfe": "Im Jahr 2020 wendete eine Person in der Schweiz durchschnittlich 24,0 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 28,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 19,1 Stunden",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+=======
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 24 300 Personen für die Schweiz und sind folglich mit einer gewissen Ungenauigkeit verbunden.  Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
 		],
@@ -267,7 +291,19 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"aktualisierungsdatum": "2024-02-26T08:30:49",
+=======
 		"aktualisierungsdatum": "2024-01-16T08:47:10",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"aktualisierungsdatum": "2024-02-26T08:30:49",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"aktualisierungsdatum": "2024-02-26T08:30:49",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"id": 11932
 	},
 	{
@@ -280,8 +316,8 @@ var indikatorensetData = [
 			8467
 		],
 		"title": "Bruttoinlandprodukt",
-		"subtitle": "total in Mrd. Franken, 2021",
-		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftete im Jahr 2021 Basel-Stadt mit 41,0 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,4 und Jura mit 5,2 Mrd. Franken.",
+		"subtitle": "total in Mrd. Franken, 2022",
+		"lesehilfe": "Das grösste nominale Bruttoinlandprodukt (BIP) der betrachteten Kantone erwirtschaftete im Jahr 2022 Basel-Stadt mit 42,8 Mrd. Franken, gefolgt von Basel-Landschaft mit 22,7 und Jura mit 5,4 Mrd. Franken.",
 		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen). <br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -306,7 +342,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:28",
+		"aktualisierungsdatum": "2024-02-26T08:30:40",
 		"id": 8350
 	},
 	{
@@ -319,9 +355,9 @@ var indikatorensetData = [
 			8468
 		],
 		"title": "Bruttoinlandprodukt pro Kopf",
-		"subtitle": "in Franken, 2021",
-		"lesehilfe": "Mit über 210 000 Franken pro Kopf im Jahr 2021 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 200 Franken, Jura auf 70 200 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 85 700 Franken.",
-		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"subtitle": "in Franken, 2022",
+		"lesehilfe": "Mit über 218 000 Franken pro Kopf im Jahr 2022 weist der Kanton Basel-Stadt das höchste nominale Bruttoinlandprodukt pro Kopf der Schweiz auf. Basel-Landschaft kommt auf rund 77 500 Franken, Jura auf 73 400 Franken. Der Durchschnittswert für die gesamte Schweiz liegt bei rund 89 400 Franken.",
+		"erlaeuterungen": "Werte für 2022 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Es wird das nominale BIP ausgewiesen (zu laufenden Preisen).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -345,7 +381,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:28",
+		"aktualisierungsdatum": "2024-02-26T08:30:41",
 		"id": 8351
 	},
 	{
@@ -359,7 +395,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Bruttoinlandprodukt",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2021 weist Basel-Stadt mit 34,7% auf, gefolgt vom Kanton Jura mit 7,3% und Basel-Landschaft mit 5,2%. In der gesamten Schweiz stieg der Wert um 5,9%.",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts zwischen 2014 und 2022 weist Basel-Stadt mit 37,7% auf, gefolgt vom Kanton Jura mit 14,8% und Basel-Landschaft mit 2,2%. In der gesamten Schweiz stieg der Wert um 7,8%.",
 		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -384,7 +420,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"aktualisierungsdatum": "2024-02-26T08:30:41",
 		"id": 8352
 	},
 	{
@@ -398,8 +434,8 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Bruttoinlandprodukt pro Kopf",
 		"subtitle": "real; indexiert (2014 = 100)",
-		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2021 weist Basel-Stadt mit 40,0% auf. Im Kanton Jura beträgt der Zuwachs 10,2% und im Kanton Basel-Landschaft 9,8%. In der gesamten Schweiz stieg der Wert um 12,8%.",
-		"erlaeuterungen": "Werte für 2021 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
+		"lesehilfe": "Die grösste Steigerung des realen Bruttoinlandprodukts pro Kopf zwischen 2014 und 2022 weist Basel-Stadt mit 42,6% auf. Im Kanton Jura beträgt der Zuwachs 18,1% und im Kanton Basel-Landschaft 7,4%. In der gesamten Schweiz stieg der Wert um 15,7%. Auch gegenüber dem Vorjahr wurden positive Wachstumsraten verzeichnet, die grösste in Basel-Stadt mit 6,9%.",
+		"erlaeuterungen": "Werte für 2022 provisorisch.<br>Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Grundlage für die Indexierung sind die Werte des realen BIP (zu Preisen des Vorjahres).<br>Die Berechnungsmethode verwendet den Produktionsansatz. Dabei wird die Wertschöpfung ermittelt, welche ein Kanton während einer bestimmten Periode erwirtschaftet. Die Wertschöpfung ergibt sich aus der Differenz zwischen dem Produktionswert (Wert der produzierten Waren und Dienstleistungen) und den Vorleistungen (Verbrauch von Gütern und Dienstleistungen im Produktionsprozess).",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -423,7 +459,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-13T09:13:29",
+		"aktualisierungsdatum": "2024-02-26T08:30:42",
 		"id": 8353
 	},
 	{
@@ -435,9 +471,27 @@ var indikatorensetData = [
 		"children": [
 			8471
 		],
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"title": "Nominale Wertschöpfung nach Branche",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2022",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2022 die Branche Chemie und Pharma 44,9% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 20,5% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (35,2% der Wertschöpfung). In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,6%). An zweiter Stelle folgt der Handel (11,6%).",
+=======
 		"title": "Anteile Wertschöpfung nach Branche",
 		"subtitle": "Anteile an der Gesamtwertschöpfung, 2021",
 		"lesehilfe": "In Basel-Stadt erwirtschaften 2021 die Branchen Chemie und Pharma 39% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 20% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (36% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 9%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (27%). An zweiter Stelle folgt der Handel (12%).",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"title": "Nominale Wertschöpfung nach Branche",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2022",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2022 die Branche Chemie und Pharma 44,9% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 20,5% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (35,2% der Wertschöpfung). In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,6%). An zweiter Stelle folgt der Handel (11,6%).",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"title": "Nominale Wertschöpfung nach Branche",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2022",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2022 die Branche Chemie und Pharma 44,9% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 20,5% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (35,2% der Wertschöpfung). In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,6%). An zweiter Stelle folgt der Handel (11,6%).",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region. Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -447,7 +501,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteile Wertschöpfung nach Branche",
+		"description": "Nominale Wertschöpfung nach Branche",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kuerzel": "I.04.2.08354",
@@ -479,7 +533,19 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+=======
 		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist im gleichen Zeitraum um rund 16% gestiegen. Das Gastgewerbe sowie der Bereich Verkehr und Lagerei haben im ersten Pandemiejahr 2020 die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2021 konnten sie sich leicht erholen.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich seit 2014 mehr als verdreifacht, diejenige in der Chemie hat sich fast verdoppelt. Das Gastgewerbe hat während der Pandemie die deutlichsten Wertschöpfungseinbussen erlitten. Im Jahr 2022 konnte sich das Gastgewerbe wieder etwas erholen.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -518,7 +584,19 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft",
 		"subtitle": "real, indexiert (2014 = 100)",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdreifacht und die Wertschöpfung in der Chemischen Industrie hat um rund 70% zugenommen. Nachdem die Wertschöpfung im Gastgewerbe während der Pandemie eingebrochen ist, nahm sie im Jahr 2022 wieder deutlich zu.",
+=======
 		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdoppelt und die Wertschöpfung in der Chemischen Industrie hat um fast 60% zugenommen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdreifacht und die Wertschöpfung in der Chemischen Industrie hat um rund 70% zugenommen. Nachdem die Wertschöpfung im Gastgewerbe während der Pandemie eingebrochen ist, nahm sie im Jahr 2022 wieder deutlich zu.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"lesehilfe": "Seit 2014 hat sich auch in Basel-Landschaft die Wertschöpfung der Pharmaindustrie mehr als verdreifacht und die Wertschöpfung in der Chemischen Industrie hat um rund 70% zugenommen. Nachdem die Wertschöpfung im Gastgewerbe während der Pandemie eingebrochen ist, nahm sie im Jahr 2022 wieder deutlich zu.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -557,7 +635,19 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"lesehilfe": "Im Vergleich zu 2014 ist die Wertschöpfung im Bereich Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie im Gesundheits- und Sozialwesen am stärksten gewachsen. Nachdem im Pandemiejahr 2020 die Wertschöpfung in vielen Branchen deutlich sank, verzeichneten viele Branchen 2021 und 2022 wieder eine Zunahme.",
+=======
 		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken. Am stärksten war auch hier das Gastgewerbe betroffen.Die Mehrheit der Branchen konnten im Jahr 2021 wieder eine Zunahme der realen Wertschöpfung verzeichnen.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Im Vergleich zu 2014 ist die Wertschöpfung im Bereich Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie im Gesundheits- und Sozialwesen am stärksten gewachsen. Nachdem im Pandemiejahr 2020 die Wertschöpfung in vielen Branchen deutlich sank, verzeichneten viele Branchen 2021 und 2022 wieder eine Zunahme.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"lesehilfe": "Im Vergleich zu 2014 ist die Wertschöpfung im Bereich Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie im Gesundheits- und Sozialwesen am stärksten gewachsen. Nachdem im Pandemiejahr 2020 die Wertschöpfung in vielen Branchen deutlich sank, verzeichneten viele Branchen 2021 und 2022 wieder eine Zunahme.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008. Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -596,7 +686,19 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, BS/BL/JU",
 		"subtitle": "real, indexiert (2014 = 100)",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2022 mehr als verdreifacht. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+85%). Im Gastgewerbe war die Wertschöpfung im Pandemiejahr 2020 stark rückläufig. Nach einer Stagnation im Jahr 2021 nahm diese 2022 wieder zu.",
+=======
 		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2021 mehr als verdoppelt. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+48%), in Bereich der Finanz- und Versicherungsdienstleistungen (+19%) und im Gesundheits- und Sozialwesen (+17%). Stark rückläufig war die Wertschöpfung vor allem im Gastgewerbe, was auf den Einbruch 2020 zurückzuführen ist.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2022 mehr als verdreifacht. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+85%). Im Gastgewerbe war die Wertschöpfung im Pandemiejahr 2020 stark rückläufig. Nach einer Stagnation im Jahr 2021 nahm diese 2022 wieder zu.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"lesehilfe": "In der Gesamtregion BS/BL/JU hat sich die reale Wertschöpfung in der Pharmaindustrie zwischen 2014 und 2022 mehr als verdreifacht. Deutlich zugenommen hat sie auch in der Chemischen Industrie (+85%). Im Gastgewerbe war die Wertschöpfung im Pandemiejahr 2020 stark rückläufig. Nach einer Stagnation im Jahr 2021 nahm diese 2022 wieder zu.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -635,7 +737,19 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Schweiz",
 		"subtitle": "real, indexiert (2014 = 100)",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2022 im Vergleich zum Jahr 2014 mehr als verdreifacht. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Die Wertschöpfung im Gastgewerbe war 2020 stark rückläufig, konnte jedoch 2022 deutlich zulegen.",
+=======
 		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2021 im Vergleich zum Jahr 2014 mehr als verdoppelt. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Stark rückläufig war die Wertschöpfung aufgrund des Einbruchs im Jahr 2020 vor allem im Gastgewerbe.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2022 im Vergleich zum Jahr 2014 mehr als verdreifacht. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Die Wertschöpfung im Gastgewerbe war 2020 stark rückläufig, konnte jedoch 2022 deutlich zulegen.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"lesehilfe": "In der Schweiz hat sich reale Wertschöpfung in der Pharmabranche 2022 im Vergleich zum Jahr 2014 mehr als verdreifacht. In der Chemischen Industrie ist im gleichen Zeitraum die Wertschöpfung um gut 60% gewachsen. Die Wertschöpfung im Gastgewerbe war 2020 stark rückläufig, konnte jedoch 2022 deutlich zulegen.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Die dargestellten Branchen und Branchenaggregate basieren auf der allgemeinen Systematik der Wirtschaftszweige NOGA 2008.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -674,7 +788,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Erwerbstätige",
 		"subtitle": "",
-		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2021 rund 141 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 96 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 271 000 Personen erwerbstätig.",
+		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2022 aufgerundet 143 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 97 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 274 000 Personen erwerbstätig.",
 		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -713,7 +827,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Grenzgänger",
 		"subtitle": "indexiert (1. Quartal 2014 = 100)",
-		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 68%, der Bestand im 3. Quartal 2023 liegt bei 11 600 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+26% auf rund 24 600) und Basel-Stadt (+3% auf 34 700). In der gesamten Schweiz arbeiten im 3. Quartal 2023 rund 391 100 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichnen seit 2014 einen Anstieg an ausländischen Grenzgängern. Im Kanton Jura beträgt der Anstieg rund 70%, der Bestand im 4. Quartal 2023 liegt bei 11 800 Grenzgängern. Weniger stark gestiegen sind die Grenzgängerzahlen in Basel-Landschaft (+26% auf rund 24 600) und Basel-Stadt (+3% auf 34 700). Auch in den letzten Quartalen gab es in den drei Kantonen überwiegend steigende Zahlen. In der gesamten Schweiz arbeiten im 4. Quartal 2023 rund 392 800 Grenzgänger, 37% mehr als im 1. Quartal 2014.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -738,7 +852,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:38",
+		"aktualisierungsdatum": "2024-02-26T01:45:11",
 		"id": 8361
 	},
 	{
@@ -751,8 +865,8 @@ var indikatorensetData = [
 			8479
 		],
 		"title": "Grenzgänger",
-		"subtitle": "2023, 3. Quartal",
-		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 3. Quartal 2023 beträgt rund 34 700. In Basel-Landschaft sind es 24 600, im Jura 11 600 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 391 100.",
+		"subtitle": "2023, 4. Quartal",
+		"lesehilfe": "Die meisten Grenzgänger arbeiten in Basel-Stadt, der Bestand im 4. Quartal 2023 beträgt rund 34 700. In Basel-Landschaft sind es 24 600, im Jura 11 800 Grenzgänger. In der gesamten Schweiz beträgt der Wert ca. 392 800.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -777,7 +891,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-29T10:29:37",
+		"aktualisierungsdatum": "2024-02-26T08:30:46",
 		"id": 8362
 	},
 	{
@@ -986,7 +1100,19 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Tertiärquote",
 		"subtitle": "",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
+=======
 		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2021: 52,5%). Basel-Landschaft liegt bei 41,8%, Jura bei 27,0%. Der Wert für die ganze Schweiz beträgt 40,7%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit mit Vorsicht zu interpretieren.",
+>>>>>>> parent of 9509df84eb (some changes)
+=======
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
+=======
+		"lesehilfe": "Der Anteil von Personen, die einen Bildungsabschluss auf Niveau Tertiärstufe haben, liegt in Basel-Stadt am höchsten (2022: 52,7%). Basel-Landschaft liegt bei 43,5%, Jura bei 26,4%. Der Wert für die ganze Schweiz beträgt 41,5%.<br>Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung wurde ab 2020 leicht geändert; die Unterschiede sind deshalb mit Vorsicht zu interpretieren.",
+>>>>>>> 9fa1608c6c6c4894ace81a5c1c8eff68fd1ae72f
 		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der ständigen Wohnbevölkerung ab 25 Jahren. Diese Altersgruppe hat in der Regel eine erste Ausbildung abgeschlossen und ist damit bereit für den Arbeitsmarkt. Personen mit einem Bildungsniveau auf Tertiärstufe haben eine höhere Berufsbildung oder eine Hochschule erfolgreich absolviert. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt (7 000 in Basel-Landschaft, 2 000 in Jura) wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die <a href='http://www.statistik.bs.ch/grundlagen/glossar/?5b3731f0=true' target='_blank'>Konfidenzintervalle</a> auf dem 95%-Niveau. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1011,7 +1137,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-27T08:02:51",
+		"aktualisierungsdatum": "2024-02-26T08:30:47",
 		"id": 8368
 	},
 	{
@@ -1605,7 +1731,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-14T11:36:55",
+		"aktualisierungsdatum": "2024-01-25T09:06:04",
 		"id": 8442
 	},
 	{
@@ -1661,7 +1787,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
-		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2021 bei 69,9%. Das 95%-Konfidenzintervall für diese Quote liegt zwischen 67,1% und 72,7%. Im Kanton Basel-Landschaft liegt die Quote bei 76,4% und im Kanton Jura bei 71,7%. Der Wert für die Schweiz beträgt 75,8%.",
+		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2022 bei 70,0%. Das 95%-Konfidenzintervall für diese Quote liegt zwischen 67,0% und 72,9%. Im Kanton Basel-Landschaft liegt die Quote bei 76,5% und im Kanton Jura bei 71,5%. Der Wert für die Schweiz beträgt 76,3%.",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1701,7 +1827,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
 		"subtitle": "",
-		"lesehilfe": "Im Jahr 2021 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,5%. Das 95%-Konfidenzintervall für diese Quote liegt zwischen 67,3% und 71,7%. Im Kanton Basel-Landschaft liegt die Quote bei 71,2% und im Kanton Jura bei 67,2%. Der Wert für die Schweiz beträgt 71,8%.",
+		"lesehilfe": "Im Jahr 2022 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 71,5%. Das 95%-Konfidenzintervall für diese Quote liegt zwischen 69,3% und 73,7%. Im Kanton Basel-Landschaft liegt die Quote bei 71,5% und im Kanton Jura bei 68,4%. Der Wert für die Schweiz beträgt 72,5%.",
 		"erlaeuterungen": "Anteil der erwerbstätigen Frauen an den erwerbsfähigen Frauen in der Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1779,8 +1905,8 @@ var indikatorensetData = [
 			8864
 		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2023, 2. Quartal",
-		"lesehilfe": "Im Kanton Jura kommen rund 25 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2021). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"subtitle": "2023, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 26 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2021). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (16%) ist im Vergleich zur gesamten Schweiz (8%) deutlich höher.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -1806,7 +1932,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-02T09:39:20",
+		"aktualisierungsdatum": "2024-02-26T08:30:47",
 		"id": 8863
 	},
 	{

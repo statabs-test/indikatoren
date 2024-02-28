@@ -330,44 +330,44 @@ var indikatorensetData = [
 		"id": 4848
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4849,
+		"chart-id": 4849,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9179,
+			10046,
+			10263
+		],
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
-		"kuerzel": "I.50.2.4849",
-		"kuerzelKunde": "1.1.04",
-		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"thema": "50 Befragungen",
-		"unterthema": "Familienbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "I.50.2.4849",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.1.04",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
-		"template": "befragungen001",
+		"orderKey": "01_01_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_014",
-		"parentId": null,
-		"children": [
-			"9179"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4849,
-		"chart-id": 4849,
-		"filter": "",
+		"aktualisierungsdatum": "2023-11-14T11:36:45",
 		"id": 4849
 	},
 	{
@@ -451,46 +451,45 @@ var indikatorensetData = [
 		"id": 4851
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4852,
+		"chart-id": 4852,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6035,
+			8391,
+			8926,
+			10034
+		],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
-		"kuerzel": "I.50.1.4852",
-		"kuerzelKunde": "1.2.01",
-		"description": "Sicherheitsgefühl im Alltag",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
+		"description": "Sicherheitsgefühl im Alltag",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4852",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.2.01",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
+		"orderKey": "01_02_00_00_00_021",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_021",
-		"parentId": null,
-		"children": [
-			"6035",
-			"8391",
-			"8926"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4852,
-		"chart-id": 4852,
-		"filter": "",
+		"aktualisierungsdatum": "2023-12-12T08:24:11",
 		"id": 4852
 	},
 	{
@@ -1202,46 +1201,44 @@ var indikatorensetData = [
 		"id": 4869
 	},
 	{
+		"template": "template001",
+		"data-id": 4871,
+		"chart-id": 4871,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6042,
+			8410,
+			8932
+		],
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.17.3.4871",
-		"kuerzelKunde": "3.3.03",
-		"description": "Wahlbeteiligung an National- und Grossratswahlen",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2023 wurde die 50%-Marke wie schon 2019 auch national knapp unterschritten.",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:17.1717",
+		"description": "Wahlbeteiligung an National- und Grossratswahlen",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kuerzel": "I.17.3.4871",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.3.03",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
-		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
-		"template": "template001",
+		"orderKey": "03_03_00_00_00_062",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_062",
-		"parentId": null,
-		"children": [
-			"6042",
-			"8410",
-			"8932"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4871,
-		"chart-id": 4871,
-		"filter": "",
+		"aktualisierungsdatum": "2023-10-23T09:25:05",
 		"id": 4871
 	},
 	{

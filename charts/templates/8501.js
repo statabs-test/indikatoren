@@ -22,9 +22,8 @@
         value: 0,
         width: 1
       }],
-      //tickAmount: 5,
-      tickInterval: 0.02,
-      max: 0.08,
+      tickAmount: 5,
+      tickInterval: 0.01,
       "labels": {
         "formatter": function () {
           return Highcharts.numberFormat((this.value * 100), 0) + '%';

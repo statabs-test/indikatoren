@@ -1,7 +1,6 @@
 (function () {
   return {
     "xAxis": {
-      tickInterval: 1
     },
     "yAxis": {
       tickInterval: 20,

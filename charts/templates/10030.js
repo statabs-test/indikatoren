@@ -26,7 +26,6 @@
         type: "category",
       },
       "yAxis": {
-        max: 50,
         "labels": {
           "format": "{value:,.0f}",
           "formatter": function () {

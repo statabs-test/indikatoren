@@ -54,6 +54,14 @@
         [
           2020,
           106.83
+        ],
+        [
+          2021,
+          121.26
+        ],
+        [
+          2022,
+          118.38
         ]
       ],
       "name": "Basel"
@@ -112,6 +120,14 @@
         [
           2020,
           115.73
+        ],
+        [
+          2021,
+          132.84
+        ],
+        [
+          2022,
+          131.68
         ]
       ],
       "name": "Zürich"
@@ -170,6 +186,14 @@
         [
           2020,
           94.17
+        ],
+        [
+          2021,
+          106.03
+        ],
+        [
+          2022,
+          104.17
         ]
       ],
       "name": "Bern"
@@ -228,6 +252,14 @@
         [
           2020,
           104.49
+        ],
+        [
+          2021,
+          118.74
+        ],
+        [
+          2022,
+          118.28
         ]
       ],
       "name": "Genf"
@@ -357,7 +389,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2022"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 29.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
