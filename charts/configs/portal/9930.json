@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#FFBB58",
+      "color": "#73B97C",
       "index": 0,
       "legendIndex": 0,
       "data": [
@@ -50,7 +50,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#67401E",
+      "color": "#007A2F",
       "index": 1,
       "legendIndex": 1,
       "data": [
@@ -96,6 +96,55 @@
         ]
       ],
       "name": "Riehen\u002FBettingen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "type": "line",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          556
+        ],
+        [
+          "2021",
+          755
+        ],
+        [
+          "2022",
+          897
+        ]
+      ],
+      "name": "Ferienbetreuung",
       "turboThreshold": 0
     }
   ],
@@ -234,8 +283,8 @@
     "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "9930"

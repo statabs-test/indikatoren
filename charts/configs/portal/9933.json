@@ -44,6 +44,10 @@
         [
           2022,
           611
+        ],
+        [
+          2023,
+          591
         ]
       ],
       "name": "Bevorschusste Fälle"
@@ -92,9 +96,13 @@
         [
           2022,
           515
+        ],
+        [
+          2023,
+          549
         ]
       ],
-      "name": "Inkassofälle"
+      "name": "Reine Inkassofälle"
     }
   ],
   "chart": {

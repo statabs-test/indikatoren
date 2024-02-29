@@ -2257,6 +2257,8 @@ id | visible | visibleInPortal | indikatorenset
 9800 | true | true | 
 9862 | true | true | 
 9915 | true | true | Soziales
+9916 | true | true | Soziales
+9917 | true | true | Soziales
 9918 | true | false | Soziales
 9919 | true | true | Soziales
 9920 | true | true | Soziales
@@ -2269,6 +2271,7 @@ id | visible | visibleInPortal | indikatorenset
 9927 | true | true | Soziales
 9929 | true | false | Soziales
 9930 | true | true | Soziales
+9932 | true | true | Soziales
 9933 | true | true | Soziales
 9934 | true | false | Soziales
 9995 | true | false | 

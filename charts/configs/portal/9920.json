@@ -45,6 +45,10 @@
         [
           2022,
           2178
+        ],
+        [
+          202321905435,
+          undefined
         ]
       ],
       "name": "Anzahl Mietverhältnisse (rechte Skala)"
@@ -100,11 +104,34 @@
         [
           2022,
           5198
+        ],
+        [
+          202321905435,
+          undefined
         ]
       ],
       "name": "Durchschnittsbeitrag"
     }
   ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -161,24 +188,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": [
     {

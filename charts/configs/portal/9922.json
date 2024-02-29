@@ -44,6 +44,10 @@
         [
           2022,
           3218
+        ],
+        [
+          2023,
+          4254
         ]
       ],
       "name": "Frauen"
@@ -92,6 +96,10 @@
         [
           2022,
           10455
+        ],
+        [
+          2023,
+          14139
         ]
       ],
       "name": "Männer"
@@ -152,7 +160,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Übernachtungen nach Geschlecht"
+    "text": "Anzahl Übernachtungen in den Notschlafstellen nach Geschlecht"
   },
   "subtitle": {
     "text": "Basel-Stadt",
