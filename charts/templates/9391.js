@@ -9,7 +9,6 @@
     "plotOptions": {
       "series": {
         "borderWidth": 0,
-        /*"pointWidth": 30,*/
         "stacking": "true",
         minPointLength: 2,
       },
