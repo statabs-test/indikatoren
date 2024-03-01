@@ -54,6 +54,12 @@ global Highcharts
         },
         {
           "x": 0
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 0
         }
       ]
     },
@@ -72,7 +78,7 @@ global Highcharts
       {
         "index": 0,
         crisp: false,
-        color: "#73B97C",
+        color: "#D7E8D2",
         borderColor: null,
       },
       {
@@ -84,9 +90,8 @@ global Highcharts
       {
         "index": 2,
         crisp: false,
-        color: "#68AB2B",
+        color: "#73B97C",
         borderColor: null,
-
       },
       {
         "index": 3,
@@ -97,8 +102,9 @@ global Highcharts
       {
         "index": 4,
         crisp: false,
-        color: "#007A2F",
+        color: "#68AB2B",
         borderColor: null,
+
       },
       {
         "index": 5,
@@ -109,7 +115,7 @@ global Highcharts
       {
         "index": 6,
         crisp: false,
-        color: "#A8C3CA",
+        color: "#007A2F",
         borderColor: null,
       },
       {
@@ -121,7 +127,7 @@ global Highcharts
       {
         "index": 8,
         crisp: false,
-        color: "#71A3B5",
+        color: "#A8C3CA",
         borderColor: null,
       },
       {
@@ -133,7 +139,7 @@ global Highcharts
       {
         "index": 10,
         crisp: false,
-        color: "#689199",
+        color: "#71A3B5",
         borderColor: null,
       },
       {
@@ -145,7 +151,7 @@ global Highcharts
       {
         "index": 12,
         crisp: false,
-        color: "#0F7399",
+        color: "#689199",
         borderColor: null,
       },
       {
@@ -157,11 +163,23 @@ global Highcharts
       {
         "index": 14,
         crisp: false,
-        color: "#246370",
+        color: "#0F7399",
         borderColor: null,
       },
       {
         "index": 15,
+        crisp: false,
+        "type": "errorbar",
+        lineWidth: 0.5,
+      },
+      {
+        "index": 16,
+        crisp: false,
+        color: "#246370",
+        borderColor: null,
+      },
+      {
+        "index": 17,
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,

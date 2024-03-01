@@ -34,6 +34,7 @@
       '#DC440E',        
   ],
     "legend": {
+      reversed: true,
       "enabled": true,
       //"y": 45,
       //itemWidth: 120,

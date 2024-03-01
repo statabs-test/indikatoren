@@ -8,7 +8,7 @@
     },
     "yAxis": {
       min: 80,
-      max: 140,
+      //max: 140,
       tickInterval: 10,
       "labels": {
         "format": "{value:,.0f}"
@@ -33,6 +33,7 @@
       '#E7CEE2',
 ],
     "legend": {
+      reversed: true,
       "enabled": true,
       "layout": "vertical",
       "verticalAlign": "top",

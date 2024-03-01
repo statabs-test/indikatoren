@@ -34,6 +34,7 @@
       '#DC440E',  
     ],
     "legend": {
+      reversed: true,
       "enabled": true,
       "layout": "vertical",
       "verticalAlign": "top",
