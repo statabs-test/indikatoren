@@ -4,6 +4,7 @@ var indikatorensetNames = [
 	"Gesundheitsversorgung",
 	"Legislaturplan",
 	"Richtplan",
+	"Befragungen",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Soziales",

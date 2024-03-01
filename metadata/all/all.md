@@ -2320,3 +2320,8 @@ id | visible | visibleInPortal | indikatorenset
 11926 | true | true | Wirtschaftsbericht BS_BL_JU
 11932 | true | true | Wirtschaftsbericht BS_BL_JU
 11936 | true | false | 
+12514 | true | false | Befragungen
+12515 | true | true | Befragungen
+12516 | true | true | Befragungen
+12517 | true | true | Befragungen
+12519 | true | true | Befragungen
