@@ -13,7 +13,9 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -21,7 +23,7 @@ var indikatorensetData = [
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
-		"kuerzel": "I.02.12.11788",
+		"kuerzel": "I.02.12.11898",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"kuerzelKunde": "5.2",
 		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
@@ -445,7 +447,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "large",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T10:33:25",
+		"aktualisierungsdatum": "2023-12-20T09:16:16",
 		"id": 6314
 	},
 	{
@@ -1160,7 +1162,7 @@ var indikatorensetData = [
 		"data-id": 9433,
 		"chart-id": 9433,
 		"filter": "",
-		"parentId": "8461",
+		"parentId": "9376",
 		"children": [],
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt",
