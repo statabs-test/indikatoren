@@ -45,7 +45,9 @@
           "layout": "horizontal",
           "verticalAlign": "top",
           "itemMarginBottom": 5,
-          "align": "left"
+          "align": "left",
+            "x": 183,
+           // "y": 10, 
         },
   
     "series": [
