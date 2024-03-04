@@ -148,7 +148,7 @@
           for (let i = 0; i < series.length; i++) {
             const currentSeries = series[i];
             if (currentSeries.userOptions.stacking != false) {
-              currentSeries.setState('hover'); // "Aktiviere" alle Serien
+              //currentSeries.setState('hover'); // "Aktiviere" alle Serien
     
               for (let j = 0; j < currentSeries.points.length; j++) {
                 const point = currentSeries.points[j];
