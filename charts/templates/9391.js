@@ -132,7 +132,7 @@
           let tooltip = "";
           let s = 0;
 
-          for (let i = 0; i < series.length; i++) {
+         /* for (let i = 0; i < series.length; i++) {
             const currentSeries = series[i];
             if (currentSeries.userOptions.stacking != false) {
               currentSeries.setState('hover'); // "Aktiviere" alle Serien
@@ -145,11 +145,9 @@
                 }
               }
             }
-          }
-          return '<span style="font-size: 10px">' + this.key 
-          //+
-            //'</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>'
-            ;
+          }*/
+          return '<span style="font-size: 10px">' + this.key +
+            '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
         } else {
           if (this.series.userOptions.type == 'line') { //add % and 1 decimalplace
             return '<span style="font-size: 10px">' + this.key +
