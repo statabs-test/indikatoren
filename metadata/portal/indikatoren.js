@@ -996,7 +996,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Zufriedenheit mit Aspekten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2023",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», nur Personen mit Angaben zur Wichtigkeit",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [

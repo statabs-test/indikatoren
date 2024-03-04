@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#007a2f",
+      "index": 4,
+      "legendIndex": 0,
       "data": [
         [
           "eSteuern",
@@ -41,7 +43,7 @@
         ],
         [
           "Andere",
-          75
+          76
         ]
       ],
       "name": "Ich kenne und nutze sie",
@@ -49,14 +51,16 @@
     },
     {
       "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 1,
       "data": [
         [
           "eSteuern",
-          352
+          353
         ],
         [
           "eKonto",
-          231
+          232
         ],
         [
           "MapBS\u002FGeoportal BS",
@@ -95,7 +99,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
+      "color": "#DC440E",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "eSteuern",
@@ -123,7 +129,7 @@
         ],
         [
           "Bussen-App",
-          401
+          400
         ],
         [
           "Parksmart",
@@ -143,6 +149,8 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 3,
       "data": [
         [
           "eSteuern",
@@ -190,6 +198,8 @@
     },
     {
       "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 4,
       "data": [
         [
           "eSteuern",
@@ -255,21 +265,30 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
-            }
-    }
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString =  'n=';
+                      if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+  
+                    //delete everything before ":", including ":"
+                    this.value = this.value.replace(/[^:]*:/, "");
+  
+                    //check for value that contains only spaces
+                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                    return "<b>" + this.value + "</b>";
+                }
+    },
+    "min": 0,
+    "max": 8
   },
   "chart": {
     "events": {
@@ -290,7 +309,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 533,
     "spacing": [
       10,
       10,
@@ -302,6 +321,7 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "inverted": true,
     "renderTo": "container-12519",
     "spacingBottom": 40
   },
@@ -337,10 +357,13 @@
         }
       },
       "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -358,8 +381,7 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    },
-    "reversedStacks": false
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -383,7 +405,7 @@
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 4,
+    "itemMarginBottom": 5,
     "align": "left",
     "useHTML": false,
     "itemStyle": {
@@ -391,11 +413,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
-    
-          },
-    "reversed": false
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true
   },
   "exporting": {
     "filename": "12519"
