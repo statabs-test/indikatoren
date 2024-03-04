@@ -125,7 +125,7 @@
           useHTML: true
         }
         */
-    tooltip: {
+    /*tooltip: {
       //useHTML: true,
      // outside: true,
       formatter: function () {
@@ -159,6 +159,6 @@
           }
         }
       }
-    }
+    }*/
   };
 }());
