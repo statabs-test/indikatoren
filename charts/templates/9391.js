@@ -125,7 +125,7 @@
           useHTML: true
         }
         */
-    /*tooltip: {
+    tooltip: {
       //useHTML: true,
      // outside: true,
       formatter: function () {
@@ -148,17 +148,18 @@
           return '<span style="font-size: 10px">' + this.key +
             '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
         } else {
-          if (this.series.userOptions.type == 'line') { //add % and 1 decimalplace
+         // if (this.series.userOptions.type == 'line') { //add % and 1 decimalplace
             return '<span style="font-size: 10px">' + this.key +
               '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
               + Highcharts.numberFormat(this.y, 1, ",", " ") + '</b>%<br/>';
-          } else {
-            return '<span style="font-size: 10px">' + this.key +
-              '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
-              + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
-          }
-        }
+          } 
+          //else {
+            //return '<span style="font-size: 10px">' + this.key +
+              //'</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
+              //+ Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
+          //}
+        //}
       }
-    }*/
+    }
   };
 }());
