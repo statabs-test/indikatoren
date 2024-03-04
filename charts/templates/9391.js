@@ -126,29 +126,16 @@
         }
         */
     tooltip: {
-      //useHTML: true,
-     // outside: true,
       formatter: function () {
         if (this.series.userOptions.stacking != false) { //nur für series mit stacking: true
           const series = this.series.chart.series;
           let tooltip = "";
           let s = 0;
-         /* series.forEach(series => {
-            if (series.userOptions.stacking != false) { //nur für series mit stacking: true
-              series.setState('hover'); //"aktiviere" alle series
-              series.points.forEach(point => {
-                if (point.x === this.x) {
-                  tooltip += `<span style="color:${point.color}">\u25CF</span> ${point.series.name}:</span> <b> ${Highcharts.numberFormat(point.y, 0, ",", " ")} </b><br>`;
-                  s += point.y;
-                }
-              })
-            }
-          },
-          )*/
+
           for (let i = 0; i < series.length; i++) {
             const currentSeries = series[i];
             if (currentSeries.userOptions.stacking != false) {
-              //currentSeries.setState('hover'); // "Aktiviere" alle Serien
+              currentSeries.setState('hover'); // "Aktiviere" alle Serien
     
               for (let j = 0; j < currentSeries.points.length; j++) {
                 const point = currentSeries.points[j];
@@ -159,8 +146,10 @@
               }
             }
           }
-          return '<span style="font-size: 10px">' + this.key +
-            '</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>';
+          return '<span style="font-size: 10px">' + this.key 
+          //+
+            //'</span><br>' + tooltip + '<span style="opacity: 0">\u25CF</span> Total neue Inverkehrsetzungen von Elektroautos: <b>' + Highcharts.numberFormat(s, 0, ",", " ") + '</b>'
+            ;
         } else {
           if (this.series.userOptions.type == 'line') { //add % and 1 decimalplace
             return '<span style="font-size: 10px">' + this.key +
