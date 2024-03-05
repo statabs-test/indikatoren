@@ -1,5 +1,8 @@
 (function () {
   return {
+    chart: {
+      height: 415,
+    },
     "series": [
       { "color": "#71A3B5" },
       { "color": "#FFBB58" },
@@ -14,16 +17,8 @@
       reversedStacks: false,
     },
     legend: {
-      reversed: true,
-      "layout": "vertical",
-      "verticalAlign": "middle",
-      //"itemMarginBottom": 4,
-      itemDistance: 0,
-      "align": "right",
-      /*labelFormatter: function(){
-          return this.name.replace("/", " /<br/>");
-      }*/
+      reversed: false,
+      "itemMarginBottom": 10,
     }
   }
 }());
-

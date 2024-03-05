@@ -2781,14 +2781,14 @@ var indikatorensetData = [
 		"id": 9737
 	},
 	{
-		"template": "befragungen001",
+		"template": "befragungenGrundauswertung001",
 		"data-id": 9738,
 		"chart-id": 9738,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Wissen um CO<sub>2</sub>-Fussabdruck",
-		"subtitle": "«Kennen Sie Ihren CO2-Fussabdruck?»",
+		"subtitle": "«Kennen Sie Ihren CO2-Fussabdruck?», Basel-Stadt",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -2818,14 +2818,14 @@ var indikatorensetData = [
 		"id": 9738
 	},
 	{
-		"template": "befragungen001",
+		"template": "befragungenGrundauswertung001",
 		"data-id": 9739,
 		"chart-id": 9739,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Einsamkeitsgefühl",
-		"subtitle": "«Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?«»",
+		"subtitle": "«Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?», Basel-Stadt",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [

@@ -4,8 +4,40 @@
       "color": "#71A3B5",
       "data": [
         [
-          "2023",
-          115
+          "Befragungsjahr*",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          5.6
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          7.3
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          5.3
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          3.8
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          8.9
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          4.6
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          4.5
         ]
       ],
       "name": "Ja",
@@ -15,8 +47,40 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2023",
-          1353
+          "Befragungsjahr*",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          65.9
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          50.5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          61
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          64.6
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          67.8
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          74.9
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          75.5
         ]
       ],
       "name": "Nein",
@@ -26,8 +90,40 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2023",
-          226
+          "Befragungsjahr*",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          11
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          11.5
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          7.9
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          13.4
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          8.9
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          12.4
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          11.4
         ]
       ],
       "name": "Weiss nicht",
@@ -37,8 +133,40 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2023",
-          360
+          "Befragungsjahr*",
+          null
+        ],
+        [
+          "2023 (N=2 054)",
+          17.5
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "18-29 Jahre (n=316)",
+          30.6
+        ],
+        [
+          "30-39 Jahre (n=361)",
+          25.8
+        ],
+        [
+          "40-49 Jahre (n=391)",
+          18.2
+        ],
+        [
+          "50-59 Jahre (n=288)",
+          14.4
+        ],
+        [
+          "60-69 Jahre (n=336)",
+          8.2
+        ],
+        [
+          "\u003E69 Jahre (n=362)",
+          8.5
         ]
       ],
       "name": "Keine Angabe",
@@ -58,78 +186,51 @@
     },
     "labels": {
       "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
       "style": {
         "color": "#000000",
-        "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
-            }
+      "formatter": function () {
+                    //indentation of labels, except category-titles
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
     }
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
-                  }
-                );
-              }              
-            }
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "inverted": true,
     "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "height": 713,
+    "marginLeft": 170,
+    "marginRight": 25,
+    "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "renderTo": "container-9738",
-    "spacingBottom": 40
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Wissen um CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "«Kennen Sie Ihren CO2-Fussabdruck?»"
+    "renderTo": "container-9738"
   },
   "navigation": {
     "menuItemStyle": {
@@ -139,40 +240,76 @@
   },
   "plotOptions": {
     "series": {
+      "stacking": "percent",
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "color": "#000000"
         }
-      },
-      "stacking": "percent"
+      }
     }
   },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Wissen um CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck"
+  },
+  "subtitle": {
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "text": "«Kennen Sie Ihren CO2-Fussabdruck?», Basel-Stadt"
+  },
   "yAxis": {
-    "tickInterval": 10,
+    "max": 100,
+    "tickInterval": 20,
+    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
       "text": null
     },
     "labels": {
       "format": "{value}%",
+      "rotation": 0,
       "style": {
-        "color": "#000000",
-        "whiteSpace": "nowrap",
-        "textOverflow": "none"
+        "color": "#000000"
       }
-    },
-    "reversedStacks": false
+    }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
+  },
+  "legend": {
+    "enabled": true,
+    "reversed": true,
+    "useHTML": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "color": "#000000",
+      "width": 115,
+      "textOverflow": "none"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
   },
   "credits": {
     "enabled": true,
@@ -189,24 +326,8 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
   },
-  "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
-    "useHTML": false,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "reversed": true,
-    "itemDistance": 0
-  },
   "exporting": {
+    "allowHTML": true,
     "filename": "9738"
   }
 }
