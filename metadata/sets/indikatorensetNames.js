@@ -1,9 +1,9 @@
 var indikatorensetNames = [
+	"Soziales",
 	"Arbeitsmarkt",
 	"Nachhaltigkeit",
 	"Legislaturplan",
 	"Wohnraumentwicklung",
-	"Soziales",
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",

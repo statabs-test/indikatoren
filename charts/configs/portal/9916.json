@@ -266,8 +266,8 @@
     "width": 500,
     "padding": 0,
     "itemWidth": 230,
-    "itemDistance": 5,
-    "itemMarginBottom": 1
+    "itemDistance": 2,
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
