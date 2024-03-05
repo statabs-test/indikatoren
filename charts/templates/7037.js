@@ -17,7 +17,10 @@ global Highcharts
      }
   },
   "yAxis": {
-    tickAmount: 9,
+    min:0,
+    max: 9000,
+    tickInterval: 1000,
+    tickAmount: 10,
 	"labels": {
 		"format": "{value:,.0f}",
 	}
