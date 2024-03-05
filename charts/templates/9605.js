@@ -102,7 +102,7 @@
     },
     labels: {
       items: [{
-        html: 'Aussen: 2022<br/>Innen: &nbsp;&nbsp;&nbsp;2012-2021',
+        html: 'Aussen: 2023<br/>Innen: &nbsp;&nbsp;&nbsp;2013-2022',
         style: {
           left: '300px',
           top: '250px'
