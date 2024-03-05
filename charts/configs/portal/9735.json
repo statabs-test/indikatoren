@@ -4,16 +4,12 @@
       "color": "#246370",
       "data": [
         [
+          "Abfall trennen",
+          1422
+        ],
+        [
           "ÖV\u002FVelo nutzen",
           1378
-        ],
-        [
-          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
-          990
-        ],
-        [
-          "Wenig oder gar nicht Auto fahren",
-          1055
         ],
         [
           "Wenig Lebensmittel, Essen wegwerfen",
@@ -24,8 +20,16 @@
           1074
         ],
         [
-          "Warmwasser sparen",
-          809
+          "Wenig oder gar nicht Auto fahren",
+          1055
+        ],
+        [
+          "Im Winter wenig heizen",
+          1009
+        ],
+        [
+          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
+          990
         ],
         [
           "Wenig Fleisch konsumieren",
@@ -36,12 +40,8 @@
           885
         ],
         [
-          "Abfall trennen",
-          1422
-        ],
-        [
-          "Im Winter wenig heizen",
-          1009
+          "Warmwasser sparen",
+          809
         ],
         [
           "Anderes",
@@ -59,16 +59,12 @@
       "color": "#FFBB58",
       "data": [
         [
+          "Abfall trennen",
+          288
+        ],
+        [
           "ÖV\u002FVelo nutzen",
           331
-        ],
-        [
-          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
-          720
-        ],
-        [
-          "Wenig oder gar nicht Auto fahren",
-          654
         ],
         [
           "Wenig Lebensmittel, Essen wegwerfen",
@@ -79,8 +75,16 @@
           635
         ],
         [
-          "Warmwasser sparen",
-          901
+          "Wenig oder gar nicht Auto fahren",
+          654
+        ],
+        [
+          "Im Winter wenig heizen",
+          701
+        ],
+        [
+          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
+          720
         ],
         [
           "Wenig Fleisch konsumieren",
@@ -91,12 +95,8 @@
           825
         ],
         [
-          "Abfall trennen",
-          288
-        ],
-        [
-          "Im Winter wenig heizen",
-          701
+          "Warmwasser sparen",
+          901
         ],
         [
           "Anderes",
@@ -114,15 +114,11 @@
       "color": "#6F6F6F",
       "data": [
         [
+          "Abfall trennen",
+          344
+        ],
+        [
           "ÖV\u002FVelo nutzen",
-          344
-        ],
-        [
-          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
-          344
-        ],
-        [
-          "Wenig oder gar nicht Auto fahren",
           344
         ],
         [
@@ -134,7 +130,15 @@
           344
         ],
         [
-          "Warmwasser sparen",
+          "Wenig oder gar nicht Auto fahren",
+          344
+        ],
+        [
+          "Im Winter wenig heizen",
+          344
+        ],
+        [
+          "Allgemein wenig konsumieren (z. B. Kleider, Elektronik)",
           344
         ],
         [
@@ -146,11 +150,7 @@
           344
         ],
         [
-          "Abfall trennen",
-          344
-        ],
-        [
-          "Im Winter wenig heizen",
+          "Warmwasser sparen",
           344
         ],
         [
@@ -246,7 +246,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Was tun Sie konkret für den Klima- und Umweltschutz?»"
+    "text": "«Was tun Sie konkret für den Klima- und Umweltschutz?», Basel-Stadt, 2023"
   },
   "navigation": {
     "menuItemStyle": {

@@ -348,15 +348,15 @@ var indikatorensetData = [
 	},
 	{
 		"template": "befragungen001",
-		"data-id": 5821,
+		"data-id": 5165,
 		"chart-id": 5821,
 		"filter": "",
 		"parentId": "5821",
 		"children": [],
 		"title": "Bewertung der Lebensqualität",
 		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2023 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 7,9. Die Lebensqualität wird damit vergleichbar hoch bewertet wie in den Jahren davor.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2023 gibt die Bevölkerung der Lebensqualität im Stadtkanton im Durchschnitt eine Note von 7,8. Die Lebensqualität wird damit vergleichbar hoch bewertet wie in den Jahren davor.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Berechnung der Durchschnittsnote, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -2668,11 +2668,13 @@ var indikatorensetData = [
 		"chart-id": 9735,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12515
+		],
 		"title": "Beitrag Klimaschutz",
-		"subtitle": "«Was tun Sie konkret für den Klima- und Umweltschutz?»",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"subtitle": "«Was tun Sie konkret für den Klima- und Umweltschutz?», Basel-Stadt, 2023",
+		"lesehilfe": "Auf die Frage nach dem persönlichen Engagement für den Klima- und Umweltschutz nennen 69,2% die Abfalltrennung. Als weitere bewusste Verhaltensweise werden von 67,1% die Nutzung von ÖV oder Velo genannt. 64,6% geben an, Foodwaste möglichst zu vermeiden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -2789,8 +2791,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wissen um CO<sub>2</sub>-Fussabdruck",
 		"subtitle": "«Kennen Sie Ihren CO2-Fussabdruck?», Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "5,6% der Bevölkerung kennt ihren CO2-Fussabdruck. Bei den 50-59 Jährigen beträgt der Ja-Anteil 8,9%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -2826,8 +2828,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Einsamkeitsgefühl",
 		"subtitle": "«Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?», Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Bei 9,3% der Bevölkerung kam es in den letzten 12 Monaten vor, dass sie sich einsam gefühlt haben. Bei Befragten mit einem tieferen Einkommen und Einpersonenhaushalten kam es häufiger vor als im Durchschnitt.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
