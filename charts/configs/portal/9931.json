@@ -7,11 +7,11 @@
       "data": [
         [
           "2022",
-          3390
+          3675
         ],
         [
           "2023",
-          3629
+          3799
         ]
       ],
       "name": "Kitas mit Beiträgen",
@@ -24,11 +24,11 @@
       "data": [
         [
           "2022",
-          633
+          1807
         ],
         [
           "2023",
-          508
+          1786
         ]
       ],
       "name": "Kitas ohne Beiträge",
@@ -41,11 +41,11 @@
       "data": [
         [
           "2022",
-          311
+          321
         ],
         [
           "2023",
-          311
+          323
         ]
       ],
       "name": "Firmenkitas",
@@ -58,11 +58,11 @@
       "data": [
         [
           "2022",
-          58
+          184
         ],
         [
           "2023",
-          47
+          166
         ]
       ],
       "name": "Tagesfamilien",
@@ -122,7 +122,7 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9291",
+    "renderTo": "container-9931",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -143,7 +143,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angebotene Tagesbetreuungsplätze"
+    "text": "Anzahl in Kindertagsesstätten und Tagesfamilien betreute Kinder"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -208,7 +208,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 22.5.2023"
+    "text": "Quelle: Erziehungsdepartement, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -216,6 +216,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "9291"
+    "filename": "9931"
   }
 }

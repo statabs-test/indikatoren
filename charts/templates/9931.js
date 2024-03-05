@@ -39,10 +39,10 @@
       itemMarginBottom: 5
     },
     "series": [
-      { "color": "#662673", index: 12, legendIndex: 0 }, 
-      { "color": "#B375AB", index: 11, legendIndex: 1 }, 
-      { "color": "#E7CEE2", index: 10, legendIndex: 2 }, 
-      { "color": "#FF8028", index: 9, legendIndex: 3 }, 
+        { "color": "#662673", index: 12, legendIndex: 0 }, 
+        { "color": "#B375AB", index: 11, legendIndex: 1 }, 
+        { "color": "#E7CEE2", index: 10, legendIndex: 2 }, 
+        { "color": "#FF8028", index: 9, legendIndex: 3 }, 
 
     ],
     "tooltip": {
