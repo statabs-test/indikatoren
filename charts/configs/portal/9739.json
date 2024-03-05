@@ -475,6 +475,8 @@
       "formatter": function () {
                     //indentation of labels, except category-titles
                     var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    tmp = tmp.replace("Haushalte", "HH");
+
                     return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
                 }
     }
@@ -499,7 +501,7 @@
     "backgroundColor": "#fbfbfb",
     "inverted": true,
     "width": 485,
-    "height": 713,
+    "height": 563,
     "marginLeft": 170,
     "marginRight": 25,
     "spacingBottom": 40,
@@ -569,15 +571,15 @@
   },
   "legend": {
     "enabled": true,
-    "reversed": true,
+    "reversed": false,
     "useHTML": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "margin": 0,
     "padding": 5,
-    "itemDistance": 0,
+    "itemDistance": 10,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal",
