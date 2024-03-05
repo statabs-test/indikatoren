@@ -48,13 +48,13 @@
   "series": [
     {
       "color": "#B00000",
-      "index": 1,
+      "index": 0,
       "type": "line",
       "pointWidth": "20"
     },
     {
       "color": "#FF8028",
-      "index": 0,
+      "index": 1,
       "type": "line",
       "yAxis": 1,
        "marker": {
