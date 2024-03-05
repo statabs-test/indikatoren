@@ -1,110 +1,173 @@
 {
   "series": [
     {
-      "color": "#923F8D",
-      "index": 0,
+      "color": "#8B2223",
+      "index": 12,
       "legendIndex": 0,
       "data": [
         [
-          2013,
-          2858
+          "2017",
+          453
         ],
         [
-          2014,
-          3242
+          "2018",
+          447
         ],
         [
-          2015,
-          3603
+          "2019",
+          488
         ],
         [
-          2016,
-          2469
+          "2020",
+          498
         ],
         [
-          2017,
-          2852
+          "2021",
+          538
         ],
         [
-          2018,
-          3165
+          "2022",
+          592
         ],
         [
-          2019,
-          4753
-        ],
-        [
-          2020,
-          3731
-        ],
-        [
-          2021,
-          3966
-        ],
-        [
-          2022,
-          3218
-        ],
-        [
-          2023,
-          4254
+          "2023",
+          622
         ]
       ],
-      "name": "Frauen"
+      "name": "Ambulante Wohnbegleitung",
+      "turboThreshold": 0
     },
     {
-      "color": "#689199",
-      "index": 1,
+      "color": "#DC440E",
+      "index": 11,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2017",
+          847
+        ],
+        [
+          "2018",
+          834
+        ],
+        [
+          "2019",
+          862
+        ],
+        [
+          "2020",
+          847
+        ],
+        [
+          "2021",
+          847
+        ],
+        [
+          "2022",
+          883
+        ],
+        [
+          "2023",
+          875
+        ]
+      ],
+      "name": "Betreutes Wohnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 10,
       "legendIndex": 2,
       "data": [
         [
-          2013,
-          15555
+          "2017",
+          732
         ],
         [
-          2014,
-          17123
+          "2018",
+          762
         ],
         [
-          2015,
-          15054
+          "2019",
+          745
         ],
         [
-          2016,
-          14187
+          "2020",
+          748
         ],
         [
-          2017,
-          13223
+          "2021",
+          774
         ],
         [
-          2018,
-          12822
+          "2022",
+          834
         ],
         [
-          2019,
-          13580
-        ],
-        [
-          2020,
-          13253
-        ],
-        [
-          2021,
-          12924
-        ],
-        [
-          2022,
-          10455
-        ],
-        [
-          2023,
-          14139
+          "2023",
+          821
         ]
       ],
-      "name": "Männer"
+      "name": "Betreute Tagesgestaltung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 9,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2017",
+          1028
+        ],
+        [
+          "2018",
+          988
+        ],
+        [
+          "2019",
+          1014
+        ],
+        [
+          "2020",
+          990
+        ],
+        [
+          "2021",
+          1011
+        ],
+        [
+          "2022",
+          1024
+        ],
+        [
+          "2023",
+          998
+        ]
+      ],
+      "name": "Begleitete Arbeit",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -139,12 +202,12 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9922",
+    "renderTo": "container-9916",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -160,7 +223,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Übernachtungen in den Notschlafstellen nach Geschlecht"
+    "text": "Anzahl KÜG nach Leistung"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -170,23 +233,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -203,21 +249,25 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '';
-        }
-    }
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 500
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemMarginBottom": 5
+    "reversed": false,
+    "width": 500,
+    "padding": 0,
+    "itemWidth": 230,
+    "itemDistance": 5,
+    "itemMarginBottom": 1
   },
   "navigation": {
     "menuItemStyle": {
@@ -238,13 +288,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Wohnen.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
-    "filename": "9922"
+    "filename": "9916"
   }
 }
