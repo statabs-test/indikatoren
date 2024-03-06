@@ -2,23 +2,23 @@
 2019: ÖV-Angebot	1426	457	75	14	12	70
 2023: ÖV-Angebot	1391	470	73	29	16	29
 .						
-2019: Einkaufsmögl. im Kanton	1029	797	105	12	32	65
-2023: Einkaufsmögl. im Kanton	1042	734	137	15	36	28
-..						
-2019: Abfallbeseitigung	1102	705	127	45	7	78
-2023: Abfallbeseitigung	1059	690	163	53	14	35
-...						
 2019: Einkaufsmögl. am Wohnort	1019	765	173	38	8	61
 2023: Einkaufsmögl. am Wohnort	1137	695	121	31	7	28
+..						
+2019: Einkaufsmögl. im Kanton	1029	797	105	12	32	65
+2023: Einkaufsmögl. im Kanton	1042	734	137	15	36	28
+...						
+2019: Abfallbeseitigung	1102	705	127	45	7	78
+2023: Abfallbeseitigung	1059	690	163	53	14	35
 ....						
-2019: Parks, Grünanlagen	939	817	192	27	10	76
-2023: Parks, Grünanlagen	889	828	191	45	15	32
-.....						
 2019: Gesundheitsversorgung	945	784	127	20	101	72
 2023: Gesundheitsversorgung	913	815	122	27	86	43
+.....						
+2019: Parks, Grünanlagen	939	817	192	27	10	76
+2023: Parks, Grünanlagen	889	828	191	45	15	32
 ......						
-2019: Öffentliche Sicherheit	721	978	196	63	28	71
-2023: Öffentliche Sicherheit	549	972	310	106	35	38
+2019: Sauberkeit	841	795	267	79	4	84
+2023: Sauberkeit	841	757	287	91	7	39
 .......						
 2019: Kulturangebot	783	819	160	16	161	82
 2023: Kulturangebot	743	824	165	15	191	47
@@ -26,41 +26,45 @@
 2019: Verkehrssicherheit	583	1038	289	46	14	77
 2023: Verkehrssicherheit	498	1021	313	90	36	44
 .........						
-2019: Sauberkeit	841	795	267	79	4	84
-2023: Sauberkeit	841	757	287	91	7	39
+2019: Öffentliche Sicherheit	721	978	196	63	28	71
+2023: Öffentliche Sicherheit	549	972	310	106	35	38
 ..........						
 2019: Gebäude/Strassenbild	487	1080	278	45	76	82
 2023: Gebäude/Strassenbild	475	995	275	65	125	44
 ...........						
-2019: Luftqualität	542	930	359	84	69	74
-2023: Luftqualität	475	983	322	79	120	36
-............						
-2019: Zusammensetz. Bev.	435	1008	188	49	227	75
-2023: Zusammensetz. Bev.	377	981	212	51	268	39
-.............						
 2019: Quartierleben	489	918	227	23	245	87
 2023: Quartierleben	481	954	241	30	233	37
+............						
+2019: Luftqualität	542	930	359	84	69	74
+2023: Luftqualität	475	983	322	79	120	36
+.............						
+2019: Zusammensetz. Bev.	435	1008	188	49	227	75
+2023: Zusammensetz. Bev.	377	981	212	51	268	39
 ..............						
 2019: Lärmsituation	570	831	399	152	13	82
 2023: Lärmsituation	512	885	390	162	24	41
 ...............						
-2019: Senioreneinrichtungen	320	634	114	19	797	74
-2023: Senioreneinrichtungen	302	653	138	24	750	52
+2023: Sportanlagen	447	784	241	45	390	46
 ................						
 2019: Schule, Bildung	505	569	106	24	539	78
 2023: Schulen, Bildung	478	622	115	41	534	39
 .................						
-2019: Wohnungsangebot	339	685	440	145	280	81
-2023: Wohnungsangebot	289	626	558	162	243	46
+2023: Barrierefreiheit öffentlicher Raum	346	796	235	25	456	45
 ..................						
 2019: Arbeitsplatzangebot	264	689	255	77	540	88
 2023: Arbeitsplätzangebot	291	693	246	68	553	48
 ...................						
-2019: Behinderteneinrichtungen	257	493	137	28	921	78
-2023: Behinderteneinrichtungen	213	501	155	25	960	51
+2019: Senioreneinrichtungen	320	634	114	19	797	74
+2023: Senioreneinrichtungen	302	653	138	24	750	52
 ....................						
+2019: Wohnungsangebot	339	685	440	145	280	81
+2023: Wohnungsangebot	289	626	558	162	243	46
+.....................						
 2019: Jugendeinrichtungen	227	542	186	34	816	77
 2023: Jugendeinrichtungen	204	568	197	40	834	55
-.....................						
+......................						
 2019: Kinderbetreuung	319	365	140	36	777	76
 2023: Kinderbetreuung	273	418	161	43	784	29
+.......................						
+2019: Behinderteneinrichtungen	257	493	137	28	921	78
+2023: Behinderteneinrichtungen	213	501	155	25	960	51
