@@ -145,7 +145,7 @@
       { "color": "#fac4b1", legendIndex: 5 }, // orange DC440E
       { "color": "#D3E2E4", legendIndex: 6 }, // orange D3E2E4
       { "color": "#cccccc", legendIndex: 7 }, // grau C8C8C8
-      { "color": "#a4a4a4", legendIndex: 8, visible: false }, // grau 6F6F6F
+      { "color": "#a4a4a4", legendIndex: 8 },// visible: false }, // grau 6F6F6F
       {
         color: "#0091f7",
         type: "line",
