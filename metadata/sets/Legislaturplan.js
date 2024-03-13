@@ -480,9 +480,9 @@ var indikatorensetData = [
 		"id": 6160
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 6161,
-		"chart-id": 9007,
+		"chart-id": 6161,
 		"filter": "",
 		"parentId": null,
 		"children": [
@@ -507,17 +507,17 @@ var indikatorensetData = [
 		"unterthema": "Erneuerbare",
 		"kuerzel": "I.08.3.06161",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "5.7",
+		"kuerzelKunde": "5.8",
 		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_00_00_00_00_007",
+		"orderKey": "05_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:11",
+		"aktualisierungsdatum": "2023-11-21T08:16:49",
 		"id": 6161
 	},
 	{

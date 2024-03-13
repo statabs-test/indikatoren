@@ -390,7 +390,7 @@
           81369
         ]
       ],
-      "name": "Berne"
+      "name": "Bern"
     },
     {
       "color": "#fabd24",
@@ -684,7 +684,7 @@
           98201
         ]
       ],
-      "name": "Zurich"
+      "name": "Zürich"
     },
     {
       "color": "#000000",
@@ -902,7 +902,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 13.4.2023"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 4.3.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

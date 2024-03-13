@@ -50,6 +50,10 @@
         [
           2022,
           16.3
+        ],
+        [
+          2023,
+          15.9
         ]
       ],
       "name": "PV-Quote"
@@ -107,7 +111,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Prämienverbilligungen"
+    "text": "Quote der Haushalte mit Prämienverbilligung"
   },
   "subtitle": {
     "text": "Basel-Stadt",

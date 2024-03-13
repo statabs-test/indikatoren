@@ -51,6 +51,10 @@
         [
           2022,
           2.1
+        ],
+        [
+          2023,
+          2.1
         ]
       ],
       "name": "FAMI-Quote"
@@ -108,7 +112,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "text": "Basel-Stadt",

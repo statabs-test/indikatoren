@@ -4,8 +4,8 @@
       "color": "#71A3B5",
       "data": [
         [
-          "*Befragungsjahr",
-          undefined
+          "Befragungsjahr*",
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -13,7 +13,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -47,8 +47,8 @@
       "color": "#FFBB58",
       "data": [
         [
-          "*Befragungsjahr",
-          undefined
+          "Befragungsjahr*",
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -56,7 +56,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -90,8 +90,8 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "*Befragungsjahr",
-          undefined
+          "Befragungsjahr*",
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -99,7 +99,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -133,8 +133,8 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "*Befragungsjahr",
-          undefined
+          "Befragungsjahr*",
+          null
         ],
         [
           "2023 (N=2 054)",
@@ -142,7 +142,7 @@
         ],
         [
           "*Alter",
-          undefined
+          null
         ],
         [
           "18-29 Jahre (n=316)",
@@ -257,6 +257,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
+    "useHTML": true,
     "text": "Wissen um CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck"
   },
   "subtitle": {
@@ -265,7 +266,8 @@
       "fontSize": "12px",
       "color": "#000000"
     },
-    "text": "«Kennen Sie Ihren CO2-Fussabdruck?», Basel-Stadt"
+    "useHTML": true,
+    "text": "«Kennen Sie Ihren CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Fussabdruck?», Basel-Stadt, 2023"
   },
   "yAxis": {
     "max": 100,
@@ -287,7 +289,9 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": false,
+    "useHTML": true,
+    "outside": true
   },
   "legend": {
     "enabled": true,
@@ -324,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 13.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 8.3.2024"
   },
   "exporting": {
     "allowHTML": true,

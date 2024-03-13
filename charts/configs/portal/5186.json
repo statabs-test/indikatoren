@@ -126,6 +126,10 @@
         [
           2022,
           null
+        ],
+        [
+          2023,
+          null
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -257,6 +261,10 @@
         [
           2022,
           502
+        ],
+        [
+          2023,
+          561
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -387,6 +395,10 @@
         [
           2022,
           344
+        ],
+        [
+          2023,
+          410
         ]
       ],
       "name": "Verunfallte Personen"
