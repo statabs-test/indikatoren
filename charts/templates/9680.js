@@ -52,17 +52,6 @@
         }
       }
     },
-    "plotOptions": {
-      "series": {
-        borderWidth: 0,
-        "dataLabels": {
-          "style": {
-            "fontSize": "10px"
-          }
-        },
-        "stacking": "percent"
-      }
-    },
     plotOptions: {
       arearange: {
         lineWidth: 0.5,
