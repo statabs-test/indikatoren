@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#FF8028",
+      "color": "#990300",
+      "visible": true,
       "data": [
         [
           "2010",
@@ -51,10 +52,10 @@
     }
   },
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 50,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -79,7 +80,6 @@
 					}
 				}
     },
-    "animation": false,
     "inverted": false,
     "renderTo": "container-5795"
   },
@@ -87,10 +87,7 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "pointWidth": 50
+      }
     }
   },
   "title": {
@@ -128,7 +125,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "max": 100
   },
   "legend": {
     "enabled": false,
@@ -139,7 +137,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 300
+    "x": 35
   },
   "credits": {
     "enabled": true,
@@ -191,7 +189,7 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "5795"

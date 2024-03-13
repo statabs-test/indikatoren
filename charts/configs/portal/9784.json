@@ -665,7 +665,6 @@
       }
     },
     "min": 2010,
-    "max": 2022.5,
     "tickInterval": 1
   },
   "yAxis": {

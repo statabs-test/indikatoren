@@ -75,12 +75,15 @@
     title: {
       useHTML: true
     },
+    subtitle: {
+      useHTML: true
+    },
     xAxis: {
       tickInterval: 1,
       labels: {
         step: 1,
         rotation: -45
-      }
+      },
     },
     legend: {
       enabled: true,

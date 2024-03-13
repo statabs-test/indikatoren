@@ -460,7 +460,8 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
+    },
+    "useHTML": true
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
