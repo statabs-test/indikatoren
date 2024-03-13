@@ -103,8 +103,8 @@
           }, 0);
           //use N if all series are visible, otherwise use n
           var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
-          var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
+          var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+          return this.value.replace(" ", "<br/>") + '<br/>(' + nString + formattedSum + ')';
 
           return "";
         }
@@ -168,6 +168,7 @@
         }
       },
       {
+        type: 'line', //nötig, damit summenbildung funktioniert
         visible: false,
         showInLegend: false
       },
