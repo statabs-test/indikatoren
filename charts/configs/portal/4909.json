@@ -5,7 +5,6 @@
         "symbol": "circle",
         "enabled": false
       },
-      "index": 0,
       "color": "#000000",
       "data": [
         [
@@ -171,6 +170,10 @@
         [
           2022,
           168
+        ],
+        [
+          2023,
+          171.2
         ]
       ],
       "name": "Jahresmittel"
@@ -180,7 +183,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 60,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -221,6 +224,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
+    "margin": 30,
     "text": "Jahresmittel Basler Index der Konsumentenpreise"
   },
   "subtitle": {
@@ -248,7 +252,6 @@
         "textOverflow": "none"
       }
     },
-    "min": 1982,
     "tickInterval": 5
   },
   "yAxis": {
@@ -293,7 +296,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 4.1.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 8.1.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
