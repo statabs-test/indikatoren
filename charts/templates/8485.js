@@ -74,7 +74,7 @@ global Highcharts
     },
 
     "series": [
-      {
+      /*{
         "index": 0,
         crisp: false,
         color: "#D7E8D2",
@@ -134,7 +134,7 @@ global Highcharts
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
-      },
+      },*/
       {
         "index": 10,
         crisp: false,
@@ -146,7 +146,7 @@ global Highcharts
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
-      },
+      },/*
       {
         "index": 12,
         crisp: false,
@@ -158,7 +158,7 @@ global Highcharts
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
-      },
+      },*/
       {
         "index": 14,
         crisp: false,

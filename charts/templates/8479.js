@@ -2,7 +2,8 @@
   return {
     "plotOptions": {
       "series": {
-        pointPadding: -0.5,
+        pointPadding: -0.9,
+        groupPadding: 0.2,
         borderWidth: 0,
         "dataLabels": {
           "style": {
@@ -21,16 +22,16 @@
           textOverflow: 'none',
           whiteSpace: "nowrap"
         },
-        x: -6,
+        x: -10,
         rotation: 0,
         "formatter": function () {
-          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstaaandllllllllll</span>(rechte Skala)")
-            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absllll</span>Schweiz ")
+          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Aaabstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Aaabstaaandllllllllll</span>(rechte Skala)")
+            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Aaabsllll</span>Schweiz ")
            // .replace("Jura", "JU")
             .replace("Basel-Landschaft", "Basel-<br/>Landschaft")
             //.replace("Basel-Stadt", "BS");
-            .replace("BS/BL/JU (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Abstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstaaandllllllllll</span>(échelle droite)")
-            .replace("Suisse (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Absllll</span>Suisse ")
+            .replace("BS/BL/JU (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Aaabstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Aaabstaaandllllllllll</span>(échelle droite)")
+            .replace("Suisse (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Aaabsllll</span>Suisse ")
            // .replace("Jura", "JU")
         }
       }
@@ -78,7 +79,10 @@
       index: 1
     },
     {
-      index: 2,
+      index: 2
+    },
+    {
+      index: 3,
       yAxis: 1
     }
     ],

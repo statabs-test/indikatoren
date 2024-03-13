@@ -7,7 +7,7 @@ global Highcharts
     //seriesMapping necessary for charts with error bars. 
     "data": {
       "seriesMapping": [
-        {
+        /*{
           "x": 0
         },
         {
@@ -42,7 +42,7 @@ global Highcharts
         },
         {
           "x": 0
-        },
+        },*/
         {
           "x": 0
         },
@@ -66,7 +66,7 @@ global Highcharts
     plotOptions: {
       series: {
         pointPadding: 0,
-        borderWidth: 0
+       // borderWidth: 0
       }
     },
     tooltip: {
@@ -74,7 +74,7 @@ global Highcharts
     },
 
     "series": [
-    {
+   /* {
       "index": 0,
       color: "#D7E8D2",
       "tooltip": {
@@ -164,13 +164,13 @@ global Highcharts
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
           }
         }
-        },
+        },*/
         {
           "index": 10,
           color: "#71A3B5",
           "tooltip": {
             "pointFormatter": function () {
-              return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+              return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
             }
           }
         },
@@ -182,7 +182,7 @@ global Highcharts
               return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
             }
           }
-      },
+      },/*
       {
         "index": 12,
         color: "#689199",
@@ -200,7 +200,7 @@ global Highcharts
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)';
           }
         }
-    },
+    },*/
     {
       "index": 14,
       color: "#0F7399",
@@ -261,6 +261,7 @@ global Highcharts
       }
     },
     "chart": {
+     // borderWidth: 10,
       "marginBottom": 80,
       "type": "column",
       "inverted": false
