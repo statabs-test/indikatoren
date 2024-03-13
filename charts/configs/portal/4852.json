@@ -17,11 +17,11 @@
         ],
         [
           "2011",
-          746
+          746.44897
         ],
         [
           "2015",
-          710
+          710.4358
         ],
         [
           "2019",
@@ -29,7 +29,7 @@
         ],
         [
           "2023",
-          928
+          928.34796
         ]
       ],
       "name": "Sehr sicher",
@@ -52,19 +52,19 @@
         ],
         [
           "2011",
-          667
+          666.5083
         ],
         [
           "2015",
-          672
+          671.63677
         ],
         [
           "2019",
-          687
+          687.38099
         ],
         [
           "2023",
-          909
+          909.34214
         ]
       ],
       "name": "Eher sicher",
@@ -87,19 +87,19 @@
         ],
         [
           "2011",
-          90
+          89.76103
         ],
         [
           "2015",
-          111
+          111.3914
         ],
         [
           "2019",
-          55
+          54.63405
         ],
         [
           "2023",
-          75
+          74.55047
         ]
       ],
       "name": "Eher unsicher",
@@ -122,19 +122,19 @@
         ],
         [
           "2011",
-          12
+          12.53127
         ],
         [
           "2015",
-          10
+          9.93355
         ],
         [
           "2019",
-          21
+          21.38357
         ],
         [
           "2023",
-          23
+          22.8952
         ]
       ],
       "name": "Ganz unsicher",
@@ -157,19 +157,19 @@
         ],
         [
           "2011",
-          1
+          null
         ],
         [
           "2015",
-          0
+          null
         ],
         [
           "2019",
-          1
+          0.66654
         ],
         [
           "2023",
-          1
+          0.72902
         ]
       ],
       "name": "Trifft auf mich nicht zu",
@@ -192,19 +192,19 @@
         ],
         [
           "2011",
-          0
+          0.75042
         ],
         [
           "2015",
-          3
+          2.60248
         ],
         [
           "2019",
-          3
+          3.22285
         ],
         [
           "2023",
-          4
+          4.46695
         ]
       ],
       "name": "Weiss nicht",
@@ -235,11 +235,11 @@
         ],
         [
           "2019",
-          17
+          17.1479
         ],
         [
           "2023",
-          114
+          113.66826
         ]
       ],
       "name": "Keine Angabe",
@@ -388,7 +388,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 12.12.2023"
   },
   "legend": {
     "layout": "horizontal",
@@ -398,14 +398,16 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
+    "labelFormatter": function () {
                 return this.name.replace("/", " /<br/>");
-        
-              },
-    "reversed": false
+            },
+    "reversed": false,
+    "itemWidth": 150,
+    "width": 450
   },
   "exporting": {
     "filename": "4852"

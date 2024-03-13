@@ -336,7 +336,7 @@ id | visible | visibleInPortal | indikatorenset
 5193 | true | true | Legislaturplan
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
-5196 | false |  | Nachhaltigkeit
+5196 | true | true | Nachhaltigkeit
 5197 | false |  | Nachhaltigkeit
 5198 | false |  | Nachhaltigkeit
 5199 | true | true | Nachhaltigkeit
@@ -388,7 +388,7 @@ id | visible | visibleInPortal | indikatorenset
 6028 | true | true | Nachhaltigkeit
 6029 | true | true | Nachhaltigkeit
 6030 | true | true | Nachhaltigkeit
-6031 | true | false | Nachhaltigkeit
+6031 | true | true | Nachhaltigkeit
 6033 | true | true | Nachhaltigkeit
 6034 | true | true | Nachhaltigkeit
 6035 | false |  | Nachhaltigkeit
@@ -1267,7 +1267,7 @@ id | visible | visibleInPortal | indikatorenset
 7777 | true | false | Richtplan
 7778 | true | false | Richtplan
 7779 | true | true | Richtplan
-7782 | true | true | Richtplan
+7782 | true | false | Richtplan
 7901 | true | true | 
 7902 | true | false | Stadtteilmonitoring Rosental (Print)
 7903 | true | false | Stadtteilmonitoring Rosental (Print)
@@ -2251,3 +2251,4 @@ id | visible | visibleInPortal | indikatorenset
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+12532 | true | true | Nachhaltigkeit

@@ -260,6 +260,7 @@ var templatesById = {
 	"5192": "befragungen001",
 	"5193": "template001",
 	"5195": "template001",
+	"5196": "line001",
 	"5199": "template001",
 	"5201": "line001",
 	"5202": "mappie001",
@@ -2088,7 +2089,7 @@ var templatesById = {
 	"9740": "line001",
 	"9741": "line001",
 	"9784": "line001",
-	"9785": "line001",
+	"9785": "befragungen001",
 	"9786": "template001",
 	"9787": "template001",
 	"9789": "line001",
@@ -2096,5 +2097,6 @@ var templatesById = {
 	"9996": "spider001",
 	"9997": "bubble001",
 	"9998": "pie001",
-	"9999": "map002"
+	"9999": "map002",
+	"12532": "template001"
 };

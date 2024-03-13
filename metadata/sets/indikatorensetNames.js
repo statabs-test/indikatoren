@@ -1,11 +1,11 @@
 var indikatorensetNames = [
+	"Nachhaltigkeit",
 	"Arbeitsmarkt",
 	"Legislaturplan-2017-2021",
 	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Soziales",
 	"Umwelt",
-	"Nachhaltigkeit",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
 	"Richtplan",
