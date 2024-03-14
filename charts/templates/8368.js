@@ -44,7 +44,7 @@ global Highcharts
           "x": 0
         },*/
         {
-          "x": 0
+          "x": 0,
         },
         {
           "x": 0
@@ -65,7 +65,8 @@ global Highcharts
     },
     plotOptions: {
       series: {
-        pointPadding: 0,
+        borderWidth: 2,
+        pointPadding: 0.06,
        // borderWidth: 0
       }
     },
@@ -168,6 +169,7 @@ global Highcharts
         {
           "index": 10,
           color: "#71A3B5",
+          borderColor: "#71A3B5",
           "tooltip": {
             "pointFormatter": function () {
               return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -204,6 +206,7 @@ global Highcharts
     {
       "index": 14,
       color: "#0F7399",
+      borderColor: "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -222,6 +225,7 @@ global Highcharts
   {
     "index": 16,
     color: "#246370",
+    borderColor: "#246370",
     "tooltip": {
       "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -261,7 +265,6 @@ global Highcharts
       }
     },
     "chart": {
-     // borderWidth: 10,
       "marginBottom": 80,
       "type": "column",
       "inverted": false

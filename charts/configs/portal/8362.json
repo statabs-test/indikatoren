@@ -29,6 +29,33 @@
     },
     {
       "index": 2,
+      "data": [
+        [
+          "Basel-Stadt",
+          null
+        ],
+        [
+          "Basel-Landschaft",
+          null
+        ],
+        [
+          "Jura",
+          null
+        ],
+        [
+          "BS\u002FBL\u002FJU (rechte Skala)",
+          null
+        ],
+        [
+          "Schweiz (rechte Skala)",
+          null
+        ]
+      ],
+      "name": "2023Q4",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
       "yAxis": 1,
       "data": [
         [
@@ -73,11 +100,11 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "x": -12,
+      "x": -17,
       "rotation": 0,
       "formatter": function () {
-          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
-            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
+          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Aaaaabstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Aaaaabstand</span>(rechte  Skala)")
+            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Aaaaabstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Aaaaabstand</span>(rechte  Skala)")
             .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
         }
     }
@@ -133,7 +160,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": -0.5
+      "pointPadding": -0.9,
+      "groupPadding": 0.2
     },
     "column": {
       "colorByPoint": true

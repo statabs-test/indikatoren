@@ -184,7 +184,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 115
   },
   "legend": {
     "enabled": true,
