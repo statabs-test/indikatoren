@@ -1501,7 +1501,7 @@ id | visible | visibleInPortal | indikatorenset
 8322 | false |  | CMS Kennzahlen Soziales
 8323 | false |  | CMS Kennzahlen Soziales
 8324 | false |  | CMS Kennzahlen Soziales
-8325 | false |  | CMS Kennzahlen Soziales
+8325 | true | false | CMS Kennzahlen Soziales
 8326 | false |  | CMS Kennzahlen Soziales
 8327 | false |  | CMS Kennzahlen Soziales
 8328 | false |  | CMS Kennzahlen Soziales
