@@ -1434,7 +1434,7 @@ id | visible | visibleInPortal | indikatorenset
 8253 | false |  | CMS Kennzahlen Soziales
 8254 | false |  | CMS Kennzahlen Soziales
 8255 | true | false | CMS Kennzahlen Soziales
-8256 | true | true | CMS Kennzahlen Soziales
+8256 | false |  | CMS Kennzahlen Soziales
 8257 | false |  | CMS Kennzahlen Soziales
 8258 | false |  | CMS Kennzahlen Soziales
 8260 | false |  | CMS Kennzahlen Soziales
@@ -1484,13 +1484,13 @@ id | visible | visibleInPortal | indikatorenset
 8304 | false |  | CMS Kennzahlen Soziales
 8305 | false |  | CMS Kennzahlen Soziales
 8306 | false |  | CMS Kennzahlen Soziales
-8307 | true | false | CMS Kennzahlen Soziales
-8308 | true | false | CMS Kennzahlen Soziales
-8309 | true | false | CMS Kennzahlen Soziales
-8310 | true | false | CMS Kennzahlen Soziales
-8311 | true | false | CMS Kennzahlen Soziales
-8312 | true | false | CMS Kennzahlen Soziales
-8313 | true | false | CMS Kennzahlen Soziales
+8307 | false |  | CMS Kennzahlen Soziales
+8308 | false |  | CMS Kennzahlen Soziales
+8309 | false |  | CMS Kennzahlen Soziales
+8310 | false |  | CMS Kennzahlen Soziales
+8311 | false |  | CMS Kennzahlen Soziales
+8312 | false |  | CMS Kennzahlen Soziales
+8313 | false |  | CMS Kennzahlen Soziales
 8314 | true | false | CMS Kennzahlen Soziales
 8315 | false |  | CMS Kennzahlen Soziales
 8316 | false |  | CMS Kennzahlen Soziales
