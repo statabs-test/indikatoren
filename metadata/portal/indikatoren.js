@@ -31523,48 +31523,6 @@ var indikatoren = [
 		"id": 8256
 	},
 	{
-		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für ältere Menschen?»",
-		"kuerzel": "",
-		"kuerzelKunde": "3-31",
-		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
-		"thema": "50 Befragungen",
-		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-25T11:06:42.4242",
-		"stufe1": "3. Sozialer Zusammenhalt",
-		"stufe2": "3.3 Generationenarbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 sind 53,9% der Befragten sehr oder eher zufrieden mit Einrichtungen und Angeboten für ältere Menschen und 7,2 sehr oder eher unzufrieden. 38,9% antworten mit «Weiss nicht». Dieser Anteil ist aufgrund des Methodenwechsels deutlich höher als in den Vorjahren.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungenGrundauswertung001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_331",
-		"parentId": null,
-		"children": [
-			"8592"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8321,
-		"chart-id": 8321,
-		"filter": "",
-		"id": 8321
-	},
-	{
 		"template": "line001",
 		"data-id": 8348,
 		"chart-id": 8348,
