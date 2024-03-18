@@ -65,9 +65,12 @@ global Highcharts
     },
     plotOptions: {
       series: {
-        pointPadding: 0.1,
-        borderWidth: 1
-      }
+        pointPadding: 0.2,
+        //groupPadding: 0.1,
+       borderWidth: 1,
+       
+      },
+
     },
     tooltip: {
       shared: true
@@ -82,9 +85,11 @@ global Highcharts
       },
       {
         "index": 1,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 2,
@@ -94,9 +99,11 @@ global Highcharts
       },
       {
         "index": 3,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 4,
@@ -107,9 +114,11 @@ global Highcharts
       },
       {
         "index": 5,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 6,
@@ -119,9 +128,11 @@ global Highcharts
       },
       {
         "index": 7,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 8,
@@ -131,9 +142,11 @@ global Highcharts
       },
       {
         "index": 9,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 10,
@@ -143,9 +156,11 @@ global Highcharts
       },
       {
         "index": 11,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 12,
@@ -155,9 +170,11 @@ global Highcharts
       },
       {
         "index": 13,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 14,
@@ -167,9 +184,11 @@ global Highcharts
       },
       {
         "index": 15,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
       {
         "index": 16,
@@ -179,9 +198,11 @@ global Highcharts
       },
       {
         "index": 17,
+        zIndex:2,
         crisp: false,
         "type": "errorbar",
-        lineWidth: 0.5,
+        lineWidth: 0.3,
+        pointRange: 0
       },
     ],
     "xAxis": {

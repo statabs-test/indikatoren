@@ -65,8 +65,8 @@ global Highcharts
     },
     plotOptions: {
       series: {
-        pointPadding: 0,
-        borderWidth: 0
+        pointPadding: 0.13,
+       borderWidth: 1.2,
       }
     },
     tooltip: {
@@ -77,6 +77,7 @@ global Highcharts
       {
         "index": 0,
         color: "#D7E8D2",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -86,6 +87,9 @@ global Highcharts
       {
         "index": 1,
         "type": "errorbar",
+        crisp: false,
+        pointRange: 0,
+        lineWidth: 0.5,
         "tooltip": {
           "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -95,6 +99,7 @@ global Highcharts
       {
         "index": 2,
         color: "#73B97C",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -104,6 +109,9 @@ global Highcharts
       {
         "index": 3,
         "type": "errorbar",
+        crisp: false,
+        pointRange: 0,
+        lineWidth: 0.5,
         "tooltip": {
           "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -113,6 +121,7 @@ global Highcharts
       {
         "index": 4,
         color: "#68AB2B",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -123,6 +132,9 @@ global Highcharts
       {
         "index": 5,
         "type": "errorbar",
+        crisp: false,
+        pointRange: 0,
+        lineWidth: 0.5,
         "tooltip": {
           "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -132,6 +144,7 @@ global Highcharts
       {
         "index": 6,
         color: "#007A2F",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -141,6 +154,9 @@ global Highcharts
       {
         "index": 7,
         "type": "errorbar",
+        crisp: false,
+        pointRange: 0,
+        lineWidth: 0.5,
         "tooltip": {
           "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -150,6 +166,7 @@ global Highcharts
       {
         "index": 8,
         color: "#A8C3CA",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -159,6 +176,9 @@ global Highcharts
       {
         "index": 9,
         "type": "errorbar",
+        crisp: false,
+        pointRange: 0,
+        lineWidth: 0.5,
         "tooltip": {
           "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -168,6 +188,7 @@ global Highcharts
         {
           "index": 10,
           color: "#71A3B5",
+          borderColor: null,
           "tooltip": {
             "pointFormatter": function () {
               return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -177,6 +198,9 @@ global Highcharts
         {
           "index": 11,
           "type": "errorbar",
+          crisp: false,
+          pointRange: 0,
+          lineWidth: 0.5,
           "tooltip": {
             "pointFormatter": function () {
               return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -186,6 +210,7 @@ global Highcharts
       {
         "index": 12,
         color: "#689199",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -195,6 +220,9 @@ global Highcharts
       {
         "index": 13,
         "type": "errorbar",
+        crisp: false,
+        pointRange: 0,
+        lineWidth: 0.5,
         "tooltip": {
           "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -204,6 +232,7 @@ global Highcharts
     {
       "index": 14,
       color: "#0F7399",
+      borderColor: null,
       "tooltip": {
         "pointFormatter": function () {
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -213,6 +242,9 @@ global Highcharts
     {
       "index": 15,
       "type": "errorbar",
+      crisp: false,
+      pointRange: 0,
+      lineWidth: 0.5,
       "tooltip": {
         "pointFormatter": function () {
           return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';
@@ -222,6 +254,7 @@ global Highcharts
   {
     "index": 16,
     color: "#246370",
+    borderColor: null,
     "tooltip": {
       "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -231,6 +264,9 @@ global Highcharts
   {
     "index": 17,
     "type": "errorbar",
+    crisp: false,
+    pointRange: 0,
+    lineWidth: 0.5,
     "tooltip": {
       "pointFormatter": function () {
         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)';

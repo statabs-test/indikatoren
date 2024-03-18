@@ -65,8 +65,8 @@ global Highcharts
     },
     plotOptions: {
       series: {
-        pointPadding: 0,
-        borderWidth: 0
+        pointPadding: 0.125,
+        borderWidth: 2.05
       }
     },
     tooltip: {
@@ -146,6 +146,7 @@ global Highcharts
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
+        pointRange: 0
       },/*
       {
         "index": 12,
@@ -170,6 +171,7 @@ global Highcharts
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
+        pointRange: 0
       },
       {
         "index": 16,
@@ -182,6 +184,7 @@ global Highcharts
         crisp: false,
         "type": "errorbar",
         lineWidth: 0.5,
+        pointRange: 0
       },
     ],
     "xAxis": {

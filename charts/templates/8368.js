@@ -170,6 +170,11 @@ global Highcharts
           "index": 10,
           color: "#71A3B5",
           borderColor: "#71A3B5",
+          states: {
+            hover: {
+                borderColor: "#71a3b566",
+            }
+        },
           "tooltip": {
             "pointFormatter": function () {
               return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -207,6 +212,11 @@ global Highcharts
       "index": 14,
       color: "#0F7399",
       borderColor: "#0F7399",
+      states: {
+        hover: {
+          //borderColor: "#0F73994d",
+        }
+    },
       "tooltip": {
         "pointFormatter": function () {
           return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -226,6 +236,12 @@ global Highcharts
     "index": 16,
     color: "#246370",
     borderColor: "#246370",
+    states: {
+      hover: {
+       // color: "#246370",
+       // borderColor: "#246370",
+      }
+  },
     "tooltip": {
       "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';

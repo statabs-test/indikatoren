@@ -65,9 +65,9 @@ global Highcharts
     },
     plotOptions: {
       series: {
-       pointPadding: 0,
+       pointPadding: 0.2,
         //groupPadding: 0.1,
-       borderWidth: 1
+       borderWidth: 1.2
       }
     },
     tooltip: {
@@ -85,6 +85,7 @@ global Highcharts
         "index": 1,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -97,6 +98,7 @@ global Highcharts
         "index": 3,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -110,6 +112,7 @@ global Highcharts
         "index": 5,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -122,6 +125,7 @@ global Highcharts
         "index": 7,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -134,6 +138,7 @@ global Highcharts
         "index": 9,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -146,6 +151,7 @@ global Highcharts
         "index": 11,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -158,6 +164,7 @@ global Highcharts
         "index": 13,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -170,6 +177,7 @@ global Highcharts
         "index": 15,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
       {
@@ -182,6 +190,7 @@ global Highcharts
         "index": 17,
         crisp: false,
         "type": "errorbar",
+        pointRange: 0,
         lineWidth: 0.5,
       },
     ],

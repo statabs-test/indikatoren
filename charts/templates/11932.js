@@ -37,6 +37,7 @@
       "series": [
         { index:0,
           "color": "#008AC3",
+          borderColor: null,
           "tooltip": {
             "pointFormatter": function () {
               return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
@@ -53,6 +54,7 @@
           },
           { index:2,
             "color": "#DC440E",
+            borderColor: null,
             "tooltip": {
               "pointFormatter": function () {
                 return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
@@ -70,6 +72,7 @@
             
             { index:4,
               "color": "#3c3c3c",
+              borderColor: null,
               "tooltip": {
                 "pointFormatter": function () {
                   return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
@@ -98,7 +101,7 @@
       "plotOptions": {
         series: {
           pointPadding: 0,
-          borderWidth: 0
+          borderWidth: 1,
         }
       },
       chart: {

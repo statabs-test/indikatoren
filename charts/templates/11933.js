@@ -37,7 +37,9 @@
     },
     "series": [
       { index:0,
+        zIndex:1,
         "color": "#008AC3",
+        borderColor: null,
         "tooltip": {
           "pointFormatter": function () {
             return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
@@ -45,7 +47,11 @@
         }}, /*Männer*/
         {
           "index": 1,
+          zIndex:3,
           "type": "errorbar",
+          crisp: false,
+          pointRange: 0,
+          lineWidth: 0.5,
           "tooltip": {
             "pointFormatter": function () {
               return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Stunden</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Stunden</b>)';
@@ -53,7 +59,9 @@
           }
         },
         { index:2,
+          zIndex:1,
           "color": "#DC440E",
+          borderColor: null,
           "tooltip": {
             "pointFormatter": function () {
               return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
@@ -61,7 +69,11 @@
           }}, /*Frauen*/
           {
             "index": 3,
+            zIndex:3,
             "type": "errorbar",
+            crisp: false,
+            pointRange: 0,
+            lineWidth: 0.5,
             "tooltip": {
               "pointFormatter": function () {
                 return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Stunden</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Stunden</b>)';
@@ -71,6 +83,8 @@
           
           { index:4,
             "color": "#3c3c3c",
+            zIndex:0,
+            borderColor: null,
             "tooltip": {
               "pointFormatter": function () {
                 return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b>';
@@ -79,6 +93,10 @@
             {
               "index": 5,
               "type": "errorbar",
+              zIndex:3,
+              crisp: false,
+              pointRange: 0,
+              lineWidth: 0.5,
               "tooltip": {
                 "pointFormatter": function () {
                   return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Stunden</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Stunden</b>)';
@@ -98,8 +116,8 @@
     },
     "plotOptions": {
       series: {
-        pointPadding: 0,
-        borderWidth: 0
+        pointPadding: 0.12,
+        borderWidth: 2
       }
     },
     chart: {
