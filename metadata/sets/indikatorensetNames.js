@@ -1,4 +1,5 @@
 var indikatorensetNames = [
+	"Richtplan",
 	"Nachhaltigkeit",
 	"Arbeitsmarkt",
 	"Legislaturplan-2017-2021",
@@ -8,7 +9,6 @@ var indikatorensetNames = [
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
-	"Richtplan",
 	"Wanderungen",
 	"Integration",
 	"Richtplan (Print)",

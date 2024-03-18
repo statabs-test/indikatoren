@@ -393,7 +393,7 @@
         }
     },
     "type": "line",
-    "renderTo": "container-6165",
+    "renderTo": "container-11901",
     "spacingBottom": 50
   },
   "plotOptions": {
@@ -496,13 +496,13 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2023"
   },
   "tooltip": {
     "valueDecimals": 2,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "6165"
+    "filename": "11901"
   }
 }

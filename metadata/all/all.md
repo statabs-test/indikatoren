@@ -388,7 +388,7 @@ id | visible | visibleInPortal | indikatorenset
 6028 | true | true | Nachhaltigkeit
 6029 | true | true | Nachhaltigkeit
 6030 | true | true | Nachhaltigkeit
-6031 | true | true | Nachhaltigkeit
+6031 | true | false | Nachhaltigkeit
 6033 | true | true | Nachhaltigkeit
 6034 | true | true | Nachhaltigkeit
 6035 | false |  | Nachhaltigkeit
@@ -2251,4 +2251,5 @@ id | visible | visibleInPortal | indikatorenset
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+11901 | true | false | Richtplan
 12532 | true | true | Nachhaltigkeit
