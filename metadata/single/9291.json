@@ -1,1 +1,37 @@
-﻿{"id":9291,"template":"template001","data-id":9291,"chart-id":9291,"filter":"","parentId":null,"children":[],"title":"Angebotene Tagesbetreuungsplätze","subtitle":"Basel-Stadt","lesehilfe":"","erlaeuterungen":"<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.","quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],"externalLinks":[],"renderLink":[],"raeumlicheGliederung":["Kanton"],"description":"Angebotene Tagesbetreuungsplätze","thema":"13 Soziale Sicherheit","unterthema":"Sozialleistungen","kuerzel":"I.13.2.09291","kennzahlenset":"Soziales","kuerzelKunde":"1-08","stufe1":"Kernindikatoren","stufe2":"","stufe3":"","stufe4":"","stufe5":"","orderKey":"01_00_00_00_00_008","darstellungsart":"","printformat":"","visible":true,"visibleInPortal":true,"datenInChartIntegriert":false,"aktualisierungsdatum":"2023-05-22T02:05:17"}
+﻿{
+    "id": 9291,
+    "template": "template001",
+    "data-id": 9291,
+    "chart-id": 9291,
+    "filter": "",
+    "parentId": null,
+    "children": [],
+    "title": "Plätze der Tagesbetreuung in Kindertagesstätten und Familien",
+    "subtitle": "Basel-Stadt",
+    "lesehilfe": "Im Oktober 2023 stehen insgesamt Plätze in Kindertagesstätten zur Verfügung, 3°629 davon in Institutionen mit Beiträgen. Die Tagesfamilien bieten insgesamt 47 Plätze an.",
+    "erlaeuterungen": "Stichwoche im Oktober. Anfang 2022 trat das neue Tagesbetreuungsgesetz in Kraft. Dadurch veränderte sich die Kategorisierung der Kindertagesstätten. Die Angaben zu den Kindertagesstätten vor 2022 werden ohne Kategorie dargestellt, die Gesamtplatzanzahl ist jedoch mit den Vorjahren vergleichbar.",
+    "quellenangabe": [        "Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"    ],
+    "externalLinks": [],
+    "renderLink": [],
+    "raeumlicheGliederung": [
+        "Kanton"
+    ],
+    "description": "Angebotene Tagesbetreuungsplätze",
+    "thema": "13 Soziale Sicherheit",
+    "unterthema": "Sozialleistungen",
+    "kuerzel": "I.13.2.09291",
+    "kennzahlenset": "Soziales",
+    "kuerzelKunde": "1-08",
+    "stufe1": "Kernindikatoren",
+    "stufe2": "",
+    "stufe3": "",
+    "stufe4": "",
+    "stufe5": "",
+    "orderKey": "01_00_00_00_00_008",
+    "darstellungsart": "",
+    "printformat": "",
+    "visible": true,
+    "visibleInPortal": true,
+    "datenInChartIntegriert": false,
+    "aktualisierungsdatum": "2023-05-22T02:05:17"
+}
