@@ -184,7 +184,7 @@
     },
     "type": "column",
     "renderTo": "container-6165",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -206,10 +206,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen"
+    "text": "Treibhausgas-Emissionen"
   },
   "subtitle": {
-    "text": "in Tonnen, Basel-Stadt",
+    "text": "in Tonnen CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Äquivalente pro Kopf, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -279,9 +279,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2023"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik;\u003Cbr\u002F\u003EKimaschutzstrategie Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.11.2023"
   },
   "tooltip": {
     "useHTML": true,
