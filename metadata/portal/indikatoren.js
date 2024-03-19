@@ -42261,7 +42261,7 @@ var indikatoren = [
 		"title": "Anzahl Kinder in Tagesbetreuung durch Kindertagesstätten und Familien",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "6 074 Kinder werden im Oktober 2023 in den Institutionen der Tagesbetreuung betreut, davon 3 799 in Kindertagesstätten mit Beiträgen und 1 786 in Kindertagesstätten ohne Beiträge. In Firmenkitas werden 323 Kinder betreut, in Tagesfamilien 166 Kinder.",
-		"erlaeuterungen": "Stichwoche jeweils im Oktober. Anfang 2022 trat das neue Tagesbetreuungsgesetz in Kraft. Bis 2021 konnten nur die betreuten Kinder mit kantonaler Unterstützung erfasst werden, ab 2022 können alle betreuten Kinder ausgewiesen werden. Ein Vergleich mit den Jahren vor 2022 ist daher nicht möglich. Die Kategorisierung der Kindertagesstätten hat sich mit dem Systemwechsel gändert. Die Angaben zu den Kindertagesstätten vor 2022 werden daher ohne Kategoriesierung dargestellt.",
+		"erlaeuterungen": "Stichwoche im Oktober. Anfang des Jahres 2022 trat das neue Tagesbetreuungsgesetz in Kraft. Bis 2021 konnten nur die betreuten Kinder mit kantonaler Unterstützung erfasst werden, ab 2022 können alle betreuten Kinder ausgewiesen werden. Ein Vergleich mit den Jahren vor 2022 ist nicht möglich. Die Kategorisierung der Kindertagesstätten hat sich mit dem Systemwechsel gändert. Die Angaben zu den Kindertagesstätten vor 2022 werden daher ohne Kategorien dargestellt.",
 		"quellenangabe": [
 			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
 		],

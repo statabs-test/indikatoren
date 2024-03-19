@@ -2039,7 +2039,7 @@ id | visible | visibleInPortal | indikatorenset
 9293 | true | false | 
 9294 | true | true | Soziales
 9295 | false |  | Soziales
-9298 | true | false | Soziales
+9298 | false |  | Soziales
 9315 | true | false | Steuern (Print)
 9316 | true | false | Steuern (Print)
 9317 | true | false | Steuern (Print)
