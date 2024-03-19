@@ -1008,43 +1008,6 @@ var indikatorensetData = [
 		"id": 4153
 	},
 	{
-		"template": "template001",
-		"data-id": 4154,
-		"chart-id": 4154,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Bestand an Notwohnungen und ihre Belegung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die wenigen Notwohnungen – 2022 machten sie 0,17% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2022 um knapp 100 Logis erhöht werden.",
-		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Bestand an Notwohnungen und ihre Belegung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kuerzel": "I.13.3.4154",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.1.E",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.1 Unterstützung Benachteiligter",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_01_00_00_00_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-07T08:10:27",
-		"id": 4154
-	},
-	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?», Basel-Stadt",
 		"kuerzel": "I.50.1.4155",

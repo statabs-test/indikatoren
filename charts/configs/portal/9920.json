@@ -159,7 +159,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährliche Durchschnittsbeiträge in Franken"
+    "text": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -246,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

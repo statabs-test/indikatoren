@@ -1,10 +1,99 @@
 {
   "series": [
     {
-      "color": "#8B2223",
-      "index": 12,
-      "legendIndex": 0,
+      "color": "#999999",
+      "index": 13,
+      "legendIndex": 5,
       "data": [
+        [
+          "2014",
+          2969
+        ],
+        [
+          "2015",
+          3137
+        ],
+        [
+          "2016",
+          3337
+        ],
+        [
+          "2017",
+          3510
+        ],
+        [
+          "2018",
+          3567
+        ],
+        [
+          "2019",
+          3644
+        ],
+        [
+          "2020",
+          3597
+        ],
+        [
+          "2021",
+          3699
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2023",
+          null
+        ]
+      ],
+      "name": "Kitas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "index": 12,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           3675
@@ -18,10 +107,46 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#B375AB",
       "index": 11,
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           1807
@@ -35,10 +160,46 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#E7CEE2",
       "index": 10,
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           321
@@ -52,10 +213,46 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#FF8028",
       "index": 9,
-      "legendIndex": 3,
+      "legendIndex": 4,
       "data": [
+        [
+          "2014",
+          228
+        ],
+        [
+          "2015",
+          222
+        ],
+        [
+          "2016",
+          233
+        ],
+        [
+          "2017",
+          243
+        ],
+        [
+          "2018",
+          244
+        ],
+        [
+          "2019",
+          212
+        ],
+        [
+          "2020",
+          203
+        ],
+        [
+          "2021",
+          208
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           184
@@ -143,7 +340,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl in Kindertagsesstätten und Tagesfamilien betreute Kinder"
+    "text": "Anzahl Kinder in Tagesbetreuung durch Kindertagesstätten und Familien"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -171,7 +368,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 500
+    "tickInterval": 1000
   },
   "legend": {
     "symbolRadius": 0,

@@ -45,7 +45,7 @@
           3894
         ]
       ],
-      "name": "Angebotene Plätze"
+      "name": "Anzahl Plätze"
     },
     {
       "color": "#A8C3CA ",
@@ -92,7 +92,7 @@
           3564
         ]
       ],
-      "name": "Durchschnittliche Nutzung pro Tag"
+      "name": "Durchschnitt der Anzahl Nutzerinnen und Nutzer pro Tag"
     }
   ],
   "chart": {

@@ -215,10 +215,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Beziehende von Prämienverbilligung"
+    "text": "Anzahl und Quote der Beziehenden von Prämienverbilligung"
   },
   "subtitle": {
-    "text": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

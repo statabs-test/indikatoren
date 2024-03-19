@@ -67,7 +67,7 @@ id | visible | visibleInPortal | indikatorenset
 4151 | true | true | Wohnraumentwicklung
 4152 | true | true | Soziales
 4153 | true | true | Wohnraumentwicklung
-4154 | true | true | Wohnraumentwicklung
+4154 | true | true | Soziales
 4155 | true | true | Wohnraumentwicklung
 4156 | true | true | Wohnraumentwicklung
 4200 | false |  | Integration-kompakt
@@ -2259,15 +2259,15 @@ id | visible | visibleInPortal | indikatorenset
 9915 | true | true | Soziales
 9916 | true | true | Soziales
 9917 | true | true | Soziales
-9918 | true | false | Soziales
+9918 | true | true | Soziales
 9919 | true | true | Soziales
 9920 | true | true | Soziales
 9921 | true | false | Soziales
 9922 | true | true | Soziales
 9923 | true | true | Soziales
 9924 | true | false | Soziales
-9925 | true | false | Soziales
-9926 | true | true | Soziales
+9925 | false |  | Soziales
+9926 | true | false | Soziales
 9927 | true | true | Soziales
 9929 | true | false | Soziales
 9930 | true | true | Soziales

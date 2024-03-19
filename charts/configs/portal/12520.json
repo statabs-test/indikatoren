@@ -46,7 +46,7 @@
           4080
         ]
       ],
-      "name": "Angebotene Plätze"
+      "name": "Anzahl Plätze"
     },
     {
       "color": "#A8C3CA",
@@ -94,7 +94,7 @@
           3840
         ]
       ],
-      "name": "Durchschnittliche Nutzung pro Tag"
+      "name": "Durchschnitt der Anzahl Nutzerinnen und Nutzer pro Tag"
     },
     {
       "color": "#7d60a0",
@@ -149,7 +149,7 @@
           94.1
         ]
       ],
-      "name": "Auslastung (rechte Skala)"
+      "name": "Auslastungsquote (rechte Skala)"
     }
   ],
   "chart": {

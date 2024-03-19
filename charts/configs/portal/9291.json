@@ -1,10 +1,99 @@
 {
   "series": [
     {
-      "color": "#8B2223",
-      "index": 12,
-      "legendIndex": 0,
+      "color": "#999999",
+      "index": 13,
+      "legendIndex": 5,
       "data": [
+        [
+          "2014",
+          3260
+        ],
+        [
+          "2015",
+          3408
+        ],
+        [
+          "2016",
+          3605
+        ],
+        [
+          "2017",
+          3574
+        ],
+        [
+          "2018",
+          3588
+        ],
+        [
+          "2019",
+          3854
+        ],
+        [
+          "2020",
+          3987
+        ],
+        [
+          "2021",
+          4026
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2023",
+          null
+        ]
+      ],
+      "name": "Kitas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "index": 12,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           3390
@@ -18,10 +107,46 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#B375AB",
       "index": 11,
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           633
@@ -35,10 +160,46 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#E7CEE2",
       "index": 10,
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
+        [
+          "2014",
+          501
+        ],
+        [
+          "2015",
+          492
+        ],
+        [
+          "2016",
+          466
+        ],
+        [
+          "2017",
+          456
+        ],
+        [
+          "2018",
+          414
+        ],
+        [
+          "2019",
+          331
+        ],
+        [
+          "2020",
+          311
+        ],
+        [
+          "2021",
+          311
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           311
@@ -52,10 +213,46 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
+      "color": "#FF8028",
       "index": 9,
-      "legendIndex": 3,
+      "legendIndex": 4,
       "data": [
+        [
+          "2014",
+          98
+        ],
+        [
+          "2015",
+          87
+        ],
+        [
+          "2016",
+          90
+        ],
+        [
+          "2017",
+          85
+        ],
+        [
+          "2018",
+          85
+        ],
+        [
+          "2019",
+          84
+        ],
+        [
+          "2020",
+          75
+        ],
+        [
+          "2021",
+          72
+        ],
+        [
+          " ",
+          undefined
+        ],
         [
           "2022",
           58
@@ -143,7 +340,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Angebotene Tagesbetreuungsplätze"
+    "text": "Plätze der Tagesbetreuung in Kindertagesstätten und Familien"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -171,7 +368,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 500
+    "tickInterval": 1000
   },
   "legend": {
     "symbolRadius": 0,
