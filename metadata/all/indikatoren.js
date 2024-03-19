@@ -42,6 +42,46 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
+		"data-id": 11905,
+		"chart-id": 6574,
+		"filter": "",
+		"parentId": "6574",
+		"children": [],
+		"title": "Baumkronenbedeckung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser zu verfolgen. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR Methodologie wurde in den letzten Jahren verbessert, Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode die sich im Prozentbereich befindet.",
+		"quellenangabe": [
+			"Stadtgärtnerei Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"description": "Baumkronenbedeckung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Landschaft",
+		"kuerzel": "I.02.13.11905",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-12-18T03:13:26",
+		"id": 11905
+	},
+	{
+		"template": "template001",
 		"data-id": 12532,
 		"chart-id": 12532,
 		"filter": "",
@@ -27273,12 +27313,14 @@ var indikatoren = [
 		],
 		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25% der gesamten Kantonsfläche und 18% der Stadt Basel. Die waldreichen Gemeinden Riehen und Bettingen weisen höhere Bedeckungsgrade auf.",
+		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
 		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser zu verfolgen. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR Methodologie wurde in den letzten Jahren verbessert, Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode die sich im Prozentbereich befindet.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"

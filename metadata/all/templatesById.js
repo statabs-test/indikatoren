@@ -2099,5 +2099,6 @@ var templatesById = {
 	"9998": "pie001",
 	"9999": "map002",
 	"11901": "template001",
+	"11905": "template001",
 	"12532": "template001"
 };

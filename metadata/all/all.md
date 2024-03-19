@@ -2252,4 +2252,5 @@ id | visible | visibleInPortal | indikatorenset
 9998 | true | false | Test
 9999 | true | false | Test
 11901 | true | false | Richtplan
+11905 | true | false | Richtplan
 12532 | true | true | Nachhaltigkeit
