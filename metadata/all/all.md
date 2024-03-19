@@ -2038,7 +2038,7 @@ id | visible | visibleInPortal | indikatorenset
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 
 9294 | true | true | Soziales
-9295 | true | true | Soziales
+9295 | false |  | Soziales
 9298 | true | false | Soziales
 9315 | true | false | Steuern (Print)
 9316 | true | false | Steuern (Print)
@@ -2262,19 +2262,19 @@ id | visible | visibleInPortal | indikatorenset
 9918 | true | true | Soziales
 9919 | true | true | Soziales
 9920 | true | true | Soziales
-9921 | true | false | Soziales
+9921 | false |  | Soziales
 9922 | true | true | Soziales
 9923 | true | true | Soziales
-9924 | true | false | Soziales
+9924 | false |  | Soziales
 9925 | false |  | Soziales
 9926 | true | false | Soziales
 9927 | true | true | Soziales
-9929 | true | false | Soziales
+9929 | false |  | Soziales
 9930 | true | true | Soziales
 9931 | true | true | Soziales
 9932 | true | true | Soziales
 9933 | true | true | Soziales
-9934 | true | false | Soziales
+9934 | false |  | Soziales
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
