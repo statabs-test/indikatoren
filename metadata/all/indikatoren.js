@@ -72485,7 +72485,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "08_00_00_00_00_006",
+		"orderKey": "08_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
