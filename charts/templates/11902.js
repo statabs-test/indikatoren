@@ -20,7 +20,12 @@
       tickInterval: 1,
     },
     yAxis: {
-   //   reversedStacks: true,
+      //   reversedStacks: true,
+      labels: {
+        formatter: function () {
+          return Highcharts.numberFormat((this.value), 0);
+        },
+      }
     },
     tooltip: {
       shared: true,
