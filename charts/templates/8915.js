@@ -29,12 +29,12 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
-      itemWidth: 90,
-      width: 220,
-      itemStyle: {
+      //itemWidth: 80,
+      //width: 220,
+      /*itemStyle: {
         textOverflow: "none",
         whiteSpace: "nowrap"
-      }
+      }*/
       //alignColumns: false,
       //itemWidth: 300,
     },
@@ -51,10 +51,7 @@
         color: "#246370",
         legendIndex: 2
       },
-      {
-        color: "#083038",
-        legendIndex: 3
-      }
+     
     ],
     chart: {
       /*marginBottom: 75,

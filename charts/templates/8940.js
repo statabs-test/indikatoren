@@ -11,7 +11,7 @@
       ]
     },
     yAxis: {
-      min: 75,
+      min: 50,
       tickInterval: 25,
       plotLines: [{
         color: '#B9CFD7',

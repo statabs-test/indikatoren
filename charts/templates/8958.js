@@ -1,92 +1,45 @@
-
-/* 
-global Highcharts
-global geojson_wohnviertelEPSG2056 
-*/
-(function () {
+(function(){
 	return {
-		"legend": {
-			useHTML: false,
-			"title": {
-				"text": "Mittlere Anzahl<br>Tropennächte",
-				style: { 'fontWeight': ' bold' }
-			},
-			"layout": "vertical",
-			//"verticalAlign": "middle",
-			"align": "right",
-			"x": -250,
-			"y": -40,
-			itemMarginBottom: 2,
-			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
-			}
-		},
-		colorAxis: {
-			dataClassColor: 'category',
-			dataClasses: [{
-				from: 0,
-				to: 9,
-				color: '#D3E2E4',
-				name: "< 10"
-			}, {
-				from: 9.5,
-				to: 10.5,
-				color: '#A8C3CA',
-				name: "<span style='color: rgba(0,0,0,0)'>.0</span>10"
-			}, {
-				from: 10.6,
-				to: 11.5,
-				color: '#689199',
-				name: "<span style='color: rgba(0,0,0,0)'>.0</span>11"
-			}, {
-				from: 11.6,
-				to: 12.5,
-				color: '#246370',
-				name: "<span style='color: rgba(0,0,0,0)'>.0</span>12"
-			}, {
-				from: 13,
-				color: '#083038',
-				name: "≥ 13"
-			}],
-		},
-		"data": {
-			"seriesMapping": [
-				{
-					x: 0, y: 3
-				}
-			]
-		},
-		"series": [
-			{
-				"name": "Wohnviertel",
-				"animation": true,
-				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",
-				"joinBy": ['TXT', 'Wohnviertel Id'],
-				"keys": ['Wohnviertel Id', 'value'],
-				"states": {
-					"hover": {
-						"enabled": false,
-						"borderColor": '#BADA55',
-						"brightness": 0
-					}
-				}
-			}
+"xAxis": { tickInterval: 5,
 
-		],
-		/* chart: {
-			 events: {
-				 load: function (e) {
-					 this.credits.element.onclick = function() {};
-					 var chart = this;
-					 var fn = this.options.customFunctions;
-					 //define new Highcharts template "mappie"
-					 fn.addLegendRectangle(chart, 315, 250, 105, 120, '#fbfbfb');
-				 }
-			 }
-		 }*/
-	};
+},
+"yAxis": {
+"labels": {
+	"format": "{value:,.0f}"
+}
+},	
+"tooltip": {
+	"shared": false, 
+"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>'
+},
+"series": [
+	{"color": "#cd9c00"
+	}, 
+	{"color": "#b375ab",
+		visible:true,
+	}, 
+],
+"legend": {
+	"enabled": true,
+	"layout": "horizontal",
+	"verticalAlign": "top",
+	"itemMarginBottom": 5,
+	"align": "left",
+	"itemStyle": {
+		"fontWeight": "normal"
+	}
+},
+"plotOptions": {
+	"line": {
+	"connectNulls": true,
+		"marker":{
+			"enabled": false,
+			"symbol": "circle",
+		}
+	}
+},
+chart: {
+		marginRight: 20
+}
+}
 }());
-
-

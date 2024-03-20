@@ -1,6 +1,7 @@
 var indikatorensetNames = [
 	"Richtplan",
 	"Nachhaltigkeit",
+	"Nachhaltigkeit (Print)",
 	"Arbeitsmarkt",
 	"Legislaturplan-2017-2021",
 	"Legislaturplan",
@@ -37,7 +38,6 @@ var indikatorensetNames = [
 	"Wirtschaftsbericht BS_BL_JU (Print)",
 	"CMS Kennzahlen Soziales (Print)",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
-	"Nachhaltigkeit (Print)",
 	"Energiestatistik",
 	"Bevoelkerungsszenarien (Print)",
 	"Leerstand (Print)",

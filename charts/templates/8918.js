@@ -4,16 +4,13 @@
       "type": "column"
     },
     plotOptions: {
-      column: {
-        stacking: 'normal'
-      },
-      "series": {
-        "borderWidth": 0,
-        "stacking": "percent"
-      }
-    },
+			"series": {
+				"borderWidth": 0,
+				"stacking": "percent"
+			}
+		},
     "xAxis": {
-      "tickInterval": 1,
+      "tickInterval": 2,
       labels: { step: 1, rotation: -45 }
     },
     "yAxis": {

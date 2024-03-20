@@ -2092,7 +2092,8 @@ var indikatorensetData = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>"
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/lidar' target = '_blank'>Baumkronenbedeckung als Karte</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [

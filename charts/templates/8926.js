@@ -36,7 +36,7 @@
         return this.name;
       },
       itemStyle: {
-        textOverflow: undefined,
+        textOverflow: 'none',
         whiteSpace: 'nowrap',
       }
     },

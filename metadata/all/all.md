@@ -1162,6 +1162,7 @@ id | visible | visibleInPortal | indikatorenset
 7563 | true | false | 
 7573 | true | true | Leerstand
 7574 | true | true | Leerstand
+7575 | true | true | Leerstand
 7576 | true | true | Leerstand
 7577 | true | true | Leerstand
 7578 | true | true | Leerstand
@@ -2255,3 +2256,20 @@ id | visible | visibleInPortal | indikatorenset
 11905 | true | false | Richtplan
 12532 | true | true | Nachhaltigkeit
 12543 | true | true | Nachhaltigkeit
+12544 | true | false | Nachhaltigkeit (Print)
+12545 | true | false | Nachhaltigkeit (Print)
+12546 | true | false | Nachhaltigkeit (Print)
+12547 | true | false | Nachhaltigkeit (Print)
+12548 | true | false | Nachhaltigkeit (Print)
+12549 | true | false | Nachhaltigkeit (Print)
+12550 | true | false | Nachhaltigkeit (Print)
+12551 | true | false | Nachhaltigkeit (Print)
+12552 | true | false | Nachhaltigkeit (Print)
+12553 | true | false | Nachhaltigkeit (Print)
+12554 | true | false | Nachhaltigkeit (Print)
+12555 | true | false | Nachhaltigkeit (Print)
+12556 | true | false | Nachhaltigkeit (Print)
+12557 | true | false | Nachhaltigkeit (Print)
+12558 | true | false | Nachhaltigkeit (Print)
+12559 | true | false | Nachhaltigkeit (Print)
+12560 | true | false | Nachhaltigkeit (Print)

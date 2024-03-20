@@ -12,7 +12,7 @@
 		},
 		"xAxis": {
 			"type": "category",
-			reversed: true,
+			reversed: false,
 			"labels": {
 				align: "left",
 				x: -80,

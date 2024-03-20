@@ -4,6 +4,7 @@
       "tickInterval": 1,
     },
     "yAxis": {
+      tickInterval: 5,
       "labels": {
         "format": "{value:,.0f}%"
       }
@@ -16,20 +17,10 @@
       {
         "color": "#008AC3",
       }, /* dunkelrot */
-      {
-        "color": "#007A2F",
-        visible: true,
-      }, /* dunkelgrün */
+      /* dunkelgrün */
     ],
     "legend": {
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
+      "enabled": false,
     },
     "plotOptions": {
       "line": {
