@@ -84,8 +84,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Durschnittliche Nutzung der Tagesstrukturen auf Sekundarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "2023 nutzten in der Stichwoche durchschnittlich 1 187 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wurde von durchschnittlich 379 Schülerinnen und Schüler genutzt.",
+		"erlaeuterungen": "Stichwoche im September.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
 		],
@@ -81124,7 +81124,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Tagesferien besuchende Schülerinnen und Schüler sowie Buchungen für Ferienbetreuung an Schulen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Insgesamt 3 356 Schülerinnen und Schüler nutzen im Verlaufe des Jahres 2023 das Angebot an Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise Ferienbetreuung an den Schulen wird im Berichtsjahr 1 111  Mal gebucht, was durchschnittlich 76 Kindern pro Ferientag entspricht.",
+		"lesehilfe": "Insgesamt 3 356 Schülerinnen und Schüler nutzen im Verlaufe des Jahres 2023 das Angebot an Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise Ferienbetreuung an den Schulen wird im Berichtsjahr 1 111  Mal gebucht.",
 		"erlaeuterungen": "Das Tagesferienangebot steht während 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19-Pandemie lediglich während 11 Wochen angeboten.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -81238,7 +81238,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Fälle der Alimentenhilfe nach Fallart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 werden bei der Alimentenilfe insgesamt 1 140 Fälle geführt. Davon werden in 591 Fällen Alimente bevorschusst, während in 549 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle der Alimentenhilfe ist im Beobachtungszeitraum rückläufig, steigt 2023 gegenüber dem Vorjahr jedoch an. Dies ist auf einen Ansteig bei den reinen Inkassofällen zurückzuführen.",
+		"lesehilfe": "Ende 2023 werden bei der Alimentenhilfe insgesamt 1 140 Fälle geführt. Davon werden in 591 Fällen Alimente bevorschusst, während in 549 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle der Alimentenhilfe ist im Beobachtungszeitraum rückläufig, steigt 2023 gegenüber dem Vorjahr jedoch an. Dies ist auf einen Ansteig bei den reinen Inkassofällen zurückzuführen.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Ein Fall umfasst eine Mutter oder einen Vater mit einem oder mehreren Kindern mit Anrecht auf Alimentenbevorschussung. Bei reinen Inkassofällen führt die Alimentenhilfe das Inkasso durch, leistet aber keine Bevorschussung.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
