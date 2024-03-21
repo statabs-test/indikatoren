@@ -77,6 +77,10 @@
         [
           2022,
           51711
+        ],
+        [
+          2023,
+          51231
         ]
       ],
       "name": "PV-Beziehende (inkl. SH\u002FEL)"
@@ -164,9 +168,13 @@
         [
           2022,
           25.28037155
+        ],
+        [
+          2023,
+          24.8322895864436
         ]
       ],
-      "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
+      "name": "Quote der PV-Beziehenden an der Wohnbevölkerung (rechte Skala)"
     }
   ],
   "chart": {

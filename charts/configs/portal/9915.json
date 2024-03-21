@@ -49,7 +49,7 @@
           574
         ]
       ],
-      "name": "Gymnasien und and. Schulen für Allgemeinbildung",
+      "name": "Gymnasien und andere Schulen für Allgemeinbildung",
       "turboThreshold": 0
     },
     {
@@ -271,6 +271,7 @@
           "fontSize": "10px"
         }
       },
+      "minPointLength": 3,
       "stacking": "normal"
     }
   },

@@ -2282,3 +2282,4 @@ id | visible | visibleInPortal | indikatorenset
 9999 | true | false | Test
 12520 | true | true | Soziales
 12521 | true | true | Soziales
+12561 | true | true | Soziales
