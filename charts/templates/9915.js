@@ -2,6 +2,7 @@
     return {
   plotOptions: {
     series: {
+      minPointLength:3,
       dataLabels: {
         style: {
           fontSize: "10px"
