@@ -56,8 +56,11 @@
       align: "left",
       verticalAlign: "top",
       reversed: false,
-      alignColumns: false,
-      itemWidth: 120,
+      alignColumns: true,
+      //itemWidth: 100,
+      itemMarginBottom:8,
+      itemDistance: 6,
+      symbolPadding: 2,
       labelFormatter: function () {
         return this.name;
       },

@@ -119,7 +119,7 @@
       }
     },
     "chart": {
-      "marginBottom": 65,
+      //"marginBottom": 65,
       //"marginTop": 75,
       "type": "column",
       "inverted": false

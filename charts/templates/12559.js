@@ -1,7 +1,7 @@
 (function () {
   return {
     chart: {
-      spacingBottom: 40
+      //spacingBottom: 40
     },
     title:{
       margin: 30

@@ -16,7 +16,10 @@
       }]
     },
     "xAxis": {
-      "tickInterval": 3,
+      "tickInterval": 1,
+      labels:{
+        rotation: -45
+      }
     },
     "series": [
       {
