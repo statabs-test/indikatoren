@@ -27,12 +27,10 @@
         "formatter": function () {
           return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Aaabstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Aaabstaaandllllllllll</span>(rechte Skala)")
             .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Aaabsllll</span>Schweiz ")
-           // .replace("Jura", "JU")
             .replace("Basel-Landschaft", "Basel-<br/>Landschaft")
-            //.replace("Basel-Stadt", "BS");
+            .replace("Bâle-Campagne", "Bâle-<br/>Campagne")
             .replace("BS/BL/JU (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Aaabstl</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Aaabstaaandllllllllll</span>(échelle droite)")
             .replace("Suisse (échelle droite)", "<span style='color: rgba(0,0,0,0)'>Aaabsllll</span>Suisse ")
-           // .replace("Jura", "JU")
         }
       }
     },

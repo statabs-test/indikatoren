@@ -20,7 +20,8 @@
       labels: {
         rotation: 0,
         "formatter": function () {
-          return this.value.replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+          return this.value.replace("Basel-Landschaft", "Basel-<br/>Landschaft")
+          .replace("Bâle-Campagne", "Bâle-<br/>Campagne");
         },
         style: {
           textOverflow: 'none',

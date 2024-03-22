@@ -1,15 +1,14 @@
-﻿""	"Basel-Stadt"	"Basel-Landschaft"	"Jura"	"BS/BL/JU"	"Schweiz"
-"Primärer Sektor"	0	0.0042	0.0192	0.0027	0.0063
-"Chemie, Pharma"	0.4487	0.1258	0	0.3159	0.0719
-"Investitionsgüter"	0.0070	0.0849	0.3524	0.0558	0.0742
-"Sonstige Industrie"	0.0327	0.0573	0.0723	0.0439	0.0612
-"Baugewerbe"	0.0158	0.0629	0.0449	0.0326	0.0484
-"Handel, Reparatur"	0.0734	0.2053	0.0958	0.1161	0.1619
-"Verkehr, Lagerei"	0.0271	0.0420	0.0195	0.0311	0.0378
-"Gastgewerbe"	0.0112	0.0060	0.0108	0.0095	0.0150
-"Finanz-, Versicherungs-DL"	0.0873	0.0316	0.0374	0.0662	0.0933
-"Freib., wiss., tech. DL"	0.0640	0.0847	0.0419	0.0688	0.0697
-"Öff. Verwaltung, Bildung"	0.0667	0.0941	0.1209	0.0790	0.1076
-"Gesundheits-, Sozialwesen"	0.0628	0.0803	0.0864	0.0698	0.0802
-"Sonstige DL"	0.1033	0.1209	0.0985	0.1084	0.1724
-
+﻿""	"Bâle-Ville"	"Bâle-Campagne"	"Jura"	"BS/BL/JU"	"Suisse"
+"Secteur primaire"	0	0.0042	0.0192	0.0027	0.0063
+"Industrie chimique, Industrie pharmaceutique"	0.4487	0.1258	0	0.3159	0.0719
+"Biens d'équipement"	0.0070	0.0849	0.3524	0.0558	0.0742
+"Autres industries manufacturières"	0.0327	0.0573	0.0723	0.0439	0.0612
+"Construction"	0.0158	0.0629	0.0449	0.0326	0.0484
+"Commerce et réparation"	0.0734	0.2053	0.0958	0.1161	0.1619
+"Transports et entreposage"	0.0271	0.0420	0.0195	0.0311	0.0378
+"Hébergement et restauration"	0.0112	0.0060	0.0108	0.0095	0.0150
+"Activités financières et d’assurance"	0.0873	0.0316	0.0374	0.0662	0.0933
+"Activités spécialisées, scientifiques et techniques"	0.0640	0.0847	0.0419	0.0688	0.0697
+"Administration publique, Enseignement"	0.0667	0.0941	0.1209	0.0790	0.1076
+"Activités pour la santé humaine, Action sociale"	0.0628	0.0803	0.0864	0.0698	0.0802
+"Autres activités de services"	0.1033	0.1209	0.0985	0.1084	0.1724

@@ -19,10 +19,15 @@
       "labels": {
         formatter: function () {
           return this.value.replace("BS", "Basel-Stadt")
-            .replace("BL", "Basel-Landschaft")
-            .replace("JU", "Jura")
-            .replace("Basel-Stadt/Basel-Landschaft/Jura", "BS/BL/JU")
-            .replace("CH", "Schweiz")
+          .replace("BL", "Basel-Landschaft")
+          .replace("JU", "Jura")
+           .replace("Basel-Stadt/Basel-Landschaft/Jura", "BS/BL/JU")
+          .replace("CH", "Schweiz")
+          // return this.value.replace("BS", "Bâle-Ville")
+          // .replace("BL", "Bâle-Campagne")
+          // .replace("JU", "Jura")
+           //.replace("Bâle-Ville/Bâle-Campagne/Jura", "BS/BL/JU")
+          // .replace("CH", "Suisse")
         },
         step: 1,
       }
