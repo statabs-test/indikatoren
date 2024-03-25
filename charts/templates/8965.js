@@ -35,14 +35,15 @@
             //use N if all series are visible, otherwise use n
             var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 
-            var txt = (this.value.slice(0, 4) == '2023') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
+            var txt = (this.value.slice(0, 4) == '2019') ? this.value.slice(0, 4) : this.value.slice(6) + ' ' + this.value.slice(0, 4);
 
             var txt = txt
                 .replace("mögl.", "m.")
                 .replace("im ", "")
                 .replace("am ", "")
                 .replace("in ", "")
-                .replace("versorgung", "vers.");
+                .replace("versorgung", "vers.")
+                .replace("öffentlicher", "öff.");
 
             //check for value that contains only spaces
             return (txt.replace(/\s/g, "") == "") ? txt : txt + ' (' + nString + sum + ')';

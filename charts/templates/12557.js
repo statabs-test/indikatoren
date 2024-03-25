@@ -4,7 +4,7 @@
       "type": "column",
       width: 665,
       "inverted": false,
-      "spacingBottom": 40
+      //"spacingBottom": 40
     },
     "plotOptions": {
       series: {
