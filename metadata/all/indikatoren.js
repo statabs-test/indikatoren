@@ -1803,10 +1803,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Auslastungsziffer gemäss TRB",
+		"title": "Kantonale Bauzonenauslastung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die kantonale Auslastungsziffer beträgt im Jahr 2024 114,3%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Gemäss Art. 15 des Raumplanungsgesetzes sind Bauzonen so festzulegen, dass sie dem voraussichtlichen Bedarf für 15 Jahre entsprechen. Überdimensionierte Bauzonen sind zu reduzieren. Ein wichtiger Wert bei der Beurteilung der Grösse der Bauzonen eines Kantons ist die Auslastung. Im Kanton Basel-Stadt liegt dieser Wert bei über 100%. Somit hat der Kanton nicht zu viele Bauzonen im Verhältnis zur erwarteten Bevölkerungs- und Arbeitsplatzentwicklung.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
 		],
@@ -1815,7 +1815,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Auslastungsziffer gemäss TRB",
+		"description": "Kantonale Bauzonenauslastung",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "",
 		"kuerzel": "",
@@ -1872,7 +1872,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T03:13:26",
+		"aktualisierungsdatum": "2024-03-19T08:02:43",
 		"id": 11901
 	},
 	{
@@ -1884,8 +1884,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Neue erneuerbare Energien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen. Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
+		"lesehilfe": "2020 wurden auf dem Kantonsgebiet Basel-Stadt 804,7 GWh an erneuerbaren Energien produziert. Der Grossteil davon in Kehrichtverbrennungs- und Abwasserreinigungsanlagen (361,7 GWh) sowie durch die thermische Nutzung von Holz (323,5 GWh)",
+		"erlaeuterungen": "Jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen. Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -1950,7 +1950,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T03:13:26",
+		"aktualisierungsdatum": "2024-02-22T08:49:08",
 		"id": 11903
 	},
 	{
@@ -1961,8 +1961,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Extremniederschläge",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "maximale 5-Tages-Niederschlagssumme im Winter in mm, Basel-Stadt",
+		"lesehilfe": "Das Maximum der 5-Tages-Niederschlagssumme im Winter 2023 betrug 37,2 mm.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -1994,26 +1994,29 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 11905,
-		"chart-id": 11905,
+		"chart-id": 6574,
 		"filter": "",
-		"parentId": null,
+		"parentId": "6574",
 		"children": [],
-		"title": "Baumkronenfläche im Siedlungsgebiet",
+		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/lidar' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Kanton"
+			"Gemeinde"
 		],
-		"description": "Baumkronenfläche im Siedlungsgebiet",
+		"description": "Baumkronenbedeckung",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Landschaft",
+		"kuerzel": "I.02.13.11905",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "",
 		"stufe1": "",
@@ -2024,7 +2027,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-12-18T03:13:26",
 		"id": 11905
@@ -2069,7 +2072,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T03:13:26",
+		"aktualisierungsdatum": "2024-03-04T11:56:27",
 		"id": 11906
 	},
 	{
@@ -2107,7 +2110,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-18T03:13:26",
+		"aktualisierungsdatum": "2024-03-18T09:00:12",
 		"id": 11907
 	},
 	{
@@ -2159,7 +2162,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Strukturen der Fliessgewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2014 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
 		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wurde eine Fliesstrecke von insgesamt 47 km bewertet. Die Daten wurden im Jahr 2014 im Rahmen der Revitalisierungsplanung aktualisiert und neu der Rhein miteinbezogen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -2199,8 +2202,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Revitalisierungsrate Oberflächengewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden.",
+		"lesehilfe": "Zwischen 2015 und 2023 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
+		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -2237,7 +2240,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Waldfläche",
 		"subtitle": "Anteil an der Kantonsfläche in Prozent, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "11,8% der Kantonsfläche waren 2014 von Wald bedeckt.",
 		"erlaeuterungen": "Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze. Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3 698 Punkte).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Arealstatistik"
@@ -2275,7 +2278,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Kantonale Unterschutzstellungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "0,2% der Kantonsfläche galten 2021 als geschützte Flächen.",
 		"erlaeuterungen": "Zu den kantonalen Unterschutzstellungen werden Naturschutzgebiete (inkl. Waldreservate) mit effektivem Flächenschutz (grundeigentümerverbindlicher Schutz oder Schutz durch Vertrag mit dem Eigentümer) gezählt. Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -2351,7 +2354,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Fruchtfolgeflächen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "2023 sind rund 230 ha Fruchtfolgeflächen ausgeschieden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
@@ -2388,8 +2391,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
+		"lesehilfe": "2022 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11,3 Mio. m<sup>3</sup>.",
 		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
@@ -2426,8 +2429,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich sich 2022 auf gesamthaft 20,9 Mio. m<sup>3</sup>. Davon entfielen 12,4 Mio m<sup>3</sup> auf private Grundwasserförderungen.",
 		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion, sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
@@ -2465,7 +2468,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Die mittlere Temperatur des Grundwassers beträgt 2022 rund 14,9 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 12,7 und 17,3 °C.",
 		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell 82) kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -12960,8 +12963,8 @@ var indikatoren = [
 			8978
 		],
 		"title": "Bevölkerungsdichte",
-		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2019",
-		"lesehilfe": "Mit 257,3 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2019 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten zeigen sich in den Wohnvierteln Gundeldingen, Iselin und Clara. Im Vergleich zu 2000 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental; dies aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 2000 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel, Iselin und Am Ring.",
+		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2023 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2004 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +50,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13410,7 +13413,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2023 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -13437,7 +13440,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:49",
+		"aktualisierungsdatum": "2024-02-26T08:30:59",
 		"id": 5815
 	},
 	{
@@ -13475,7 +13478,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:49",
+		"aktualisierungsdatum": "2024-02-26T08:31:00",
 		"id": 5816
 	},
 	{
@@ -13489,8 +13492,8 @@ var indikatoren = [
 			7597
 		],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2022",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 20% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2023",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen 18% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -13516,7 +13519,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:50",
+		"aktualisierungsdatum": "2024-03-11T08:32:57",
 		"id": 5817
 	},
 	{
@@ -13567,9 +13570,9 @@ var indikatoren = [
 		"parentId": "4150",
 		"children": [],
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2019",
-		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2023",
+		"lesehilfe": "85,8% der Bevölkerung sind 2023 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppe gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -13594,7 +13597,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:00",
+		"aktualisierungsdatum": "2024-03-20T07:53:10",
 		"id": 5819
 	},
 	{
@@ -13606,13 +13609,12 @@ var indikatoren = [
 		"children": [
 			5165,
 			6252,
-			8893,
-			12514
+			8893
 		],
 		"title": "Bewertung der Lebensqualität",
 		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2023 gibt die Bevölkerung der Lebensqualität im Stadtkanton im Durchschnitt eine Note von 7,8. Die Lebensqualität wird damit vergleichbar hoch bewertet wie in den Jahren davor.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Berechnung der Durchschnittsnote, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
+		"erlaeuterungen": "Für die Berechnung der Durchschnittsnote, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. <br>Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>). Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -13637,7 +13639,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-04-12T07:58:11",
+		"aktualisierungsdatum": "2024-03-18T09:00:53",
 		"id": 5821
 	},
 	{
@@ -13680,7 +13682,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:30:26",
+		"aktualisierungsdatum": "2024-03-13T10:22:56",
 		"id": 5822
 	},
 	{
@@ -17232,7 +17234,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1960 bis 1970 wuchs sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab und der Wohnungsbestand nahm weiterhin leicht zu. Ab 1975 wurden deshalb eine hohe Anzahl Leerwohnungen verzeichnet. Mit der leichten Bevölkerungszunahme und stagnierendem Wohnungsbestand in der ersten Hälfte der Neunzigerjahre nahm die Anzahl der Leerwohnungen ab. Wegen des folgenden Bevölkerungsrückgangs bis 2007 wuchs die Zahl der Leerwohnungen wieder an. Danach erfolgte eine bis heute anhaltende Bevölkerungszunahme. Sie führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber seit 2015 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
+		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl der Wohnungsbestand wie auch die Bevölkerung. Es gab kaum Leerwohnungen. In den Siebziger- und Achtzigerjahren nahm die Bevölkerung ab, der Wohnungsbestand hingegen weiterhin leicht zu. Ab 1975 wurde deshalb eine hohe Anzahl Leerwohnungen verzeichnet. In der ersten Hälfte der Neunzigerjahre nahm aufgrund der leichten Bevölkerungszunahme bei gleichzeitig stagnierendem Wohnungsbestand die Anzahl der Leerwohnungen ab. Wegen des bis 2007 folgenden Bevölkerungsrückgangs wuchs die Zahl der Leerwohnungen wieder. Danach erfolgte eine bis heute andauernde Bevölkerungszunahme. Diese führte zunächst zu einem Rückgang der Anzahl Leerwohnungen, welche aber von 2015 bis 2022 dank der ausgeweiteten Bautätigkeit wieder anstieg.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Die Leerwohnungen werden am Stichtag 1. Juni jährlich im Rahmen der Leerwohnungszählung ermittelt. Unter Wohnungsbestand (ohne Leerwohnungen) wird die Differenz zwischen dem Wohnungsbestand im Wohnungsregister per 31.5. und den Leerwohnungen verstanden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -17259,7 +17261,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:48",
+		"aktualisierungsdatum": "2024-03-11T08:32:56",
 		"id": 6214
 	},
 	{
@@ -17312,14 +17314,14 @@ var indikatoren = [
 	{
 		"template": "befragungen001",
 		"data-id": 6216,
-		"chart-id": 6216,
+		"chart-id": 5178,
 		"filter": "",
 		"parentId": "5178",
 		"children": [],
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2019",
-		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 2 des Indikators). Am zufriedensten (70,5% «sehr» und 21,7% «eher zufrieden») sind sie 2019 mit dem öffentlichen Verkehr, gefolgt von der generellen Vielfalt der Einkaufsmöglichkeiten in Basel und der Abfallbeseitigung.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2023",
+		"lesehilfe": "Die befragten Personen konnten 24 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 2 des Indikators). Am zufriedensten (69,2% «sehr» und 23,4% «eher zufrieden») sind sie 2023 mit dem öffentlichen Verkehr, gefolgt von den Einkaufsmöglichkeiten am Wohnort und der generellen Vielfalt der Einkaufsmöglichkeiten in Basel.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>). Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -17344,7 +17346,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-06-12T04:55:00",
+		"aktualisierungsdatum": "2024-03-08T12:44:32",
 		"id": 6216
 	},
 	{
@@ -44839,7 +44841,7 @@ var indikatoren = [
 		"title": "Bauzonen",
 		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
 		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2023 im Vergleich zu 2005 um 0,2 Indexpunkte grösser. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 101,28 Indexpunkten.",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert per 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -44868,7 +44870,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-10T09:17:37",
+		"aktualisierungsdatum": "2024-02-22T08:49:43",
 		"id": 7775
 	},
 	{
@@ -65286,14 +65288,14 @@ var indikatoren = [
 	{
 		"template": "befragungen001",
 		"data-id": 8877,
-		"chart-id": 8877,
+		"chart-id": 8852,
 		"filter": "",
 		"parentId": "8852",
 		"children": [],
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2019",
-		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 1 des Indikators). Die tiefsten Zufriedenheitswerte haben die Kinderbetreuung (17,7% «sehr» und 21,8% «eher zufrieden») und die Einrichtungen für Jugendliche (12,1% «sehr» und 29,5% «eher zufrieden») erhalten. Bei diesen Faktoren liegt der Anteil «Weiss nicht» allerdings bei über 40%. Beim Wohnungsangebot ist der Anteil der Zufriedenen («sehr» und «eher zufrieden») 2019 etwas höher als 2015.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2023",
+		"lesehilfe": "Die befragten Personen konnten 24 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 1 des Indikators). Die tiefsten Zufriedenheitswerte haben die Behinderteneinrichtungen (11,2% «sehr» und 26,3% «eher zufrieden»), das Angebot zur Kinderbetreuung und die Einrichtungen für Jugendliche erhalten. Bei diesen Faktoren liegt der Anteil «Weiss nicht» allerdings bei über 40%. Beim Wohnungsangebot ist der Anteil der Zufriedenen («sehr» und «eher zufrieden») 2023 etwas tiefer als 2019.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>). Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -65318,7 +65320,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-06-23T11:13:01",
+		"aktualisierungsdatum": "2024-03-08T12:44:39",
 		"id": 8877
 	},
 	{

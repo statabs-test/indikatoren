@@ -198,7 +198,7 @@
           361.7
         ]
       ],
-      "name": "Kehrricht und Klärschlamm"
+      "name": "Kehricht und Klärschlamm"
     },
     {
       "color": "#68ab2b",
@@ -351,7 +351,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
     }
   },
   "legend": {
