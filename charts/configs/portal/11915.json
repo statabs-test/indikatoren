@@ -5,27 +5,27 @@
       "data": [
         [
           2018,
-          230.83
+          249
         ],
         [
           2019,
-          230.83
+          249
         ],
         [
           2020,
-          230.83
+          249
         ],
         [
           2021,
-          230.83
+          249
         ],
         [
           2022,
-          230.83
+          249
         ],
         [
           2023,
-          230.83
+          249
         ]
       ],
       "name": "Fruchtfolgeflächen"
@@ -88,7 +88,7 @@
     "text": "Fruchtfolgeflächen"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "in Hektaren, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
