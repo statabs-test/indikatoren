@@ -1262,7 +1262,7 @@ id | visible | visibleInPortal | indikatorenset
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
-7773 | true | false | Richtplan
+7773 | true | true | Richtplan
 7774 | true | true | Richtplan
 7775 | true | true | Richtplan
 7777 | true | true | Richtplan
@@ -2335,3 +2335,4 @@ id | visible | visibleInPortal | indikatorenset
 11916 | true | true | Richtplan
 11917 | true | true | Richtplan
 11918 | true | true | Richtplan
+12564 | true | true | Richtplan
