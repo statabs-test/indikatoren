@@ -42106,7 +42106,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag",
+		"title": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Anzahl der Mietverhältnisse mit Familienmietzinsbeiträgen (FAMI) liegt im Jahr 2023 auf ähnlichem Niveau wie im Vorjahr. Per Ende des Jahres 2023 werden 2 190 Mietverhältnisse unterstützt. Der jährliche Durchschnittsbeitrag pro unterstütztem Haushalt liegt 2023 bei 5 435 Franken.",
 		"erlaeuterungen": "Bestand per Ende des Jahres.",
@@ -42118,7 +42118,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag",
+		"description": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09920",
