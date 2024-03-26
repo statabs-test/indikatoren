@@ -27248,43 +27248,45 @@ var indikatoren = [
 		"id": 6570
 	},
 	{
-		"template": "template001",
-		"data-id": 6574,
-		"chart-id": 6574,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			8948
-		],
-		"title": "Baumkronenbedeckung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25% der gesamten Kantonsfläche und 18% der Stadt Basel. Die waldreichen Gemeinden Riehen und Bettingen weisen höhere Bedeckungsgrade auf.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser zu verfolgen. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR Methodologie wurde in den letzten Jahren verbessert, Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode die sich im Prozentbereich befindet.",
-		"quellenangabe": [
-			"Stadtgärtnerei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
+		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
+		"subtitle": "Stadt Basel",
+		"kuerzel": "I.02.13.6574",
+		"kuerzelKunde": "NL13",
+		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Landschaft",
+		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"description": "Baumkronenbedeckung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Landschaft",
-		"kuerzel": "I.02.13.6574",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL15",
+		"aktualisierungsdatum": "2020-10-08T17:32:45.4545",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_415",
+		"lesehilfe": "Im Jahr 2019 wurden im Verantwortungsbereich der Stadtgärtnerei in der Stadt Basel 426 Bäume gefällt und 442 gepflanzt.",
+		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel. Die Anzahl gepflanzter Bäume beinhaltet Neu- und Ersatzpflanzungen. Pflanzungen und Fällungen erfolgen zeitversetzt: Fällungen finden in der Regel in den Monaten Dezember bis Februar statt, die Pflanzungen entweder im Frühjahr oder Herbst. Ersatzpflanzungen bei Bauprojekten erfolgen erst im Folgejahr. Für das Jahr 2018 liegen keine Daten vor, deshalb wird der Saldo nicht fortgeführt.",
+		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_414",
+		"parentId": null,
+		"children": [
+			"8948"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Stadtgärtnerei Basel-Stadt"
+		],
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-10-08T05:32:45",
+		"externalLinks": [
+			""
+		],
+		"data-id": 6574,
+		"chart-id": 6574,
+		"filter": "",
 		"id": 6574
 	},
 	{
