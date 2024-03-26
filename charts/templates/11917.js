@@ -3,6 +3,9 @@
     chart: {
       type: "column",
     },
+    subtitle:{
+			useHTML: true,
+		},
     plotOptions: {
       column: {
         stacking: 'normal',
