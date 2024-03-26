@@ -33,7 +33,7 @@
             }
           });
 
-          const chart = this,
+          /*const chart = this,
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
@@ -60,6 +60,7 @@
               }
             }
           });
+          */
         }
       }
     },
