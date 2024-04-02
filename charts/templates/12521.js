@@ -15,7 +15,8 @@
           },
         "series": [
             { "color": "#246370", index: 1 },
-            { "color": "#A8C3CA ", index: 2 },
+            { "color": "#73B97C ", index: 2 },
+            { "color": "#007A2F", index: 3 },
 
         ],
         "legend": {
