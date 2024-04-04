@@ -1062,8 +1062,8 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Personen mit mittlerer bis starker psychischer Belastung",
 		"subtitle": "in %, Grossregion Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2017 gab ein höherer Anteil Frauen (17,0%) als Männer (11,1%) an, mittel bis stark psychisch belastet zu sein. Die am stärksten von psychischer Belastung betroffene Altergruppe stellen mit 17,8% die Befragten zwischen 35 und 49 Jahren dar.",
-		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"lesehilfe": "Im Jahr 2022 gab mit 17,6% ein höherer Anteil Personen an mittel bis stark psychisch belastet zu sein als im Jahr 2017 mit 14,1%. Die am stärksten von psychischer Belastung betroffene Altergruppe im Jahr 2022 stellen mit 19,7% die Befragten zwischen 35 und 49 Jahren dar.",
+		"erlaeuterungen": "Der Indikator basiert auf mehreren Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung der Jahre 2017 und 2022. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
 		],
@@ -1101,8 +1101,8 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Personen mit depressiven Symptomen",
 		"subtitle": "in %, Grossregion Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2017 litten gemäss Schweizerischer Gesundheitsbefragung 8,1% der Personen unter mittelschweren bis schweren Depressionssymptomen. Personen mit obligatorischer Schulbildung sind davon gemäss Befragung statistisch signifikant häufiger betroffen als Personen mit einem tertiären Bildungsabschluss.",
-		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"lesehilfe": "Im Jahr 2022 litten gemäss Schweizerischer Gesundheitsbefragung 10% der Personen unter mittelschweren bis schweren Depressionssymptomen. Personen mit obligatorischer Schulbildung sind davon gemäss Befragung statistisch signifikant häufiger betroffen als Personen mit einem tertiären Bildungsabschluss.",
+		"erlaeuterungen": "Der Indikator basiert auf verschiedenen Fragen aus dem Bereich «Psychische Gesundheit» der Schweizerischen Gesundheitsbefragung 2017 und 2022. Der Indikator gibt den Anteil Personen mit mittelschweren bis schweren depressiven Symptomen an. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
 		],
@@ -1140,8 +1140,8 @@ var indikatorensetData = [
 		],
 		"title": "Anteil Personen mit Einsamkeitsgefühlen",
 		"subtitle": "in %, Grossregion Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2017 gaben 36,3% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
-		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
+		"lesehilfe": "Im Jahr 2022 gaben 41,1% der Befragten an, sich manchmal bis sehr häufig einsam zu fühlen. Frauen sind von Einsamkeit stärker betroffen als Männer.",
+		"erlaeuterungen": "Der Indikator basiert auf der Frage «Wie häufig kommt es vor, dass Sie sich einsam fühlen? Kommt das … vor?» (mögliche Antwortkategorien: «manchmal», «ziemlich häufig» oder «sehr häufig») in der Schweizerischen Gesundheitsbefragung 2017 und 2022. Aufgrund der geringen Anzahl an Befragten ist eine repräsentative Auswertung für den Kanton Basel-Stadt nicht möglich. Daher wird die Grossregion Nordwestschweiz abgebildet, welche sich aus den Kantonen Basel-Stadt, Basel-Landschaft und Aargau zusammensetzt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung"
 		],

@@ -2284,7 +2284,7 @@ id | visible | visibleInPortal | indikatorenset
 9921 | true | false | Soziales
 9922 | true | true | Soziales
 9923 | true | true | Soziales
-9924 | true | false | Soziales
+9924 | true | false | Wohnraumentwicklung
 9925 | true | false | Soziales
 9926 | true | true | Soziales
 9927 | true | true | Soziales
