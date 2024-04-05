@@ -1,5 +1,6 @@
 var indikatorensetNames = [
 	"Soziales",
+	"Befragungen",
 	"Arbeitsmarkt",
 	"Nachhaltigkeit",
 	"Legislaturplan",

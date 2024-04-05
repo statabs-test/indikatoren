@@ -2283,3 +2283,4 @@ id | visible | visibleInPortal | indikatorenset
 12520 | true | true | Soziales
 12521 | true | true | Soziales
 12561 | true | true | Soziales
+12565 | true | true | Befragungen

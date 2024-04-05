@@ -1,0 +1,39 @@
+var indikatorensetData = [
+	{
+		"template": "befragungen001",
+		"data-id": 12565,
+		"chart-id": 12565,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Zufriedenheit mit dem Quartier",
+		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit …», Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Zufriedenheit mit dem Quartier",
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kuerzel": "",
+		"kennzahlenset": "Befragungen",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-04-05T10:55:48",
+		"id": 12565
+	}
+];
