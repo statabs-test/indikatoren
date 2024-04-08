@@ -1,31 +1,27 @@
 (function () {
   return {
-    chart:{
-      marginRight: 10
-    },
     "yAxis": {
-      min: 75,
-      tickInterval: 5,
+      min: null,
       "labels": {
         "format": "{value:,.0f}",
-      },
-      plotLines: [{
-        color: '#B9CFD7',
-        value: 100,
-        width: 1
-      }]
+      }
     },
     "xAxis": {
-      "tickInterval": 1,
-      labels:{
-        rotation: -45
-      }
+      "tickInterval": 3,
+    },
+    legend: {
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "top",
+      align: "left",
+    },
+    tooltip: {
+      valueDecimals: 1,
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
     },
     "series": [
-      {
-        "color": "#8b2223"
-      }
+      {"color": "#8b2223"},
+      {"color": "#CD9C00"},
     ],
   }
 }());
-
