@@ -7,6 +7,11 @@
     },
     "yAxis": {
       tickInterval: 1000,
+      labels: {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        },
+      }
     },
     "xAxis": {
       "type": "category",
