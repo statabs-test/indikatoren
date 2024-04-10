@@ -162,8 +162,8 @@
                 }
     },
     "type": "line",
-    "renderTo": "container-4152",
-    "spacingBottom": 40
+    "spacingBottom": 55,
+    "renderTo": "container-4152"
   },
   "plotOptions": {
     "series": {
@@ -171,8 +171,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": false
+        }
       }
     }
   },

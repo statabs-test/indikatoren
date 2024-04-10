@@ -319,8 +319,8 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9931",
-    "spacingBottom": 40
+    "spacingBottom": 55,
+    "renderTo": "container-9931"
   },
   "plotOptions": {
     "series": {
@@ -340,7 +340,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Kinder in Tagesbetreuung durch Kindertagesstätten und Familien"
+    "text": "Kinder in Tagesbetreuung durch Kindertagesstätten und Familien"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -405,7 +405,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

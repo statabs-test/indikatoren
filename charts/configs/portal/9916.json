@@ -202,12 +202,12 @@
                 }
     },
     "type": "column",
-    "renderTo": "container-9916",
-    "spacingBottom": 40
+    "spacingBottom": 55,
+    "renderTo": "container-9916"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"

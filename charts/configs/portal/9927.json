@@ -151,8 +151,7 @@
 					}
 				}
     },
-    "renderTo": "container-9927",
-    "marginBottom": 65
+    "renderTo": "container-9927"
   },
   "plotOptions": {
     "series": {

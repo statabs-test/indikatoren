@@ -7,7 +7,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Zufriedenheit mit dem Quartier",
-		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit …», Basel-Stadt",
+		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit …», Basel-Stadt, 2022 (N=1781)",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [

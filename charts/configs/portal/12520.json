@@ -187,8 +187,8 @@
     },
     "type": "line",
     "alignTicks": false,
-    "renderTo": "container-12520",
-    "spacingBottom": 40
+    "spacingBottom": 55,
+    "renderTo": "container-12520"
   },
   "plotOptions": {
     "series": {

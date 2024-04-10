@@ -223,17 +223,16 @@
     },
     "type": "line",
     "alignTicks": false,
-    "renderTo": "container-9924",
-    "spacingBottom": 40
+    "spacingBottom": 55,
+    "renderTo": "container-9924"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": false
+        }
       },
       "pointPadding": 0
     }

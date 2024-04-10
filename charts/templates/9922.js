@@ -2,6 +2,7 @@
   return {
     "chart": {
       "type": "column",
+      spacingBottom: 45
     },
     "plotOptions": {
       "series": {

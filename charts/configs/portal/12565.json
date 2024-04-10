@@ -6,48 +6,48 @@
       "legendIndex": 1,
       "data": [
         [
-          "Anbindung an den öffentlichen Verkehr",
-          "1172,57"
+          "ÖV-Anbindung",
+          1173
         ],
         [
-          "Einkaufsmöglichkeiten für den täglichen Bedarf",
-          "1133,92"
+          "Einkaufsmöglichkeiten",
+          1134
         ],
         [
-          "Angebot an Grünflächen",
-          "981,09"
+          "Grünflächen",
+          981
         ],
         [
-          "Angebot an Kinderspielplätze",
-          "789,96"
+          "Kinderspielplätze",
+          790
         ],
         [
           "Sicherheit generell",
-          "688,83"
+          689
         ],
         [
           "Velowege\u002FVelonetz",
-          "573,03"
+          573
         ],
         [
-          "Kultur- und Freizeitangeboten für Kinder und Jugendliche",
-          "348,21"
+          "Freizeitangebote für Jugendliche",
+          348
         ],
         [
-          "Angebot an Quartiertreffpunkten",
-          "395,82"
+          "Quartiertreffpunkte",
+          396
         ],
         [
-          "Verkehrssituation bezüglich der Sicherheit der Kinder",
-          "301,35"
+          "Verkehrssicherheit der Kinder",
+          301
         ],
         [
           "Verkehrsbelastung insgesamt",
-          "300,36"
+          300
         ],
         [
-          "Treffpunkte für ältere Kinder und Jugendliche",
-          "265,17"
+          "Treffpunkte für Jugendliche",
+          265
         ]
       ],
       "name": "Sehr zufrieden",
@@ -59,48 +59,48 @@
       "legendIndex": 2,
       "data": [
         [
-          "Anbindung an den öffentlichen Verkehr",
-          "471,94"
+          "ÖV-Anbindung",
+          472
         ],
         [
-          "Einkaufsmöglichkeiten für den täglichen Bedarf",
-          "495,32"
+          "Einkaufsmöglichkeiten",
+          495
         ],
         [
-          "Angebot an Grünflächen",
-          "573,92"
+          "Grünflächen",
+          574
         ],
         [
-          "Angebot an Kinderspielplätze",
-          "703,29"
+          "Kinderspielplätze",
+          703
         ],
         [
           "Sicherheit generell",
-          "768,4"
+          768
         ],
         [
           "Velowege\u002FVelonetz",
-          "718,37"
+          718
         ],
         [
-          "Kultur- und Freizeitangeboten für Kinder und Jugendliche",
-          "743,08"
+          "Freizeitangebote für Jugendliche",
+          743
         ],
         [
-          "Angebot an Quartiertreffpunkten",
-          "670,73"
+          "Quartiertreffpunkte",
+          671
         ],
         [
-          "Verkehrssituation bezüglich der Sicherheit der Kinder",
-          "758,88"
+          "Verkehrssicherheit der Kinder",
+          759
         ],
         [
           "Verkehrsbelastung insgesamt",
-          "719,78"
+          720
         ],
         [
-          "Treffpunkte für ältere Kinder und Jugendliche",
-          "633,51"
+          "Treffpunkte für Jugendliche",
+          634
         ]
       ],
       "name": "Eher zufrieden",
@@ -112,101 +112,101 @@
       "legendIndex": 3,
       "data": [
         [
-          "Anbindung an den öffentlichen Verkehr",
-          "78,74"
+          "ÖV-Anbindung",
+          79
         ],
         [
-          "Einkaufsmöglichkeiten für den täglichen Bedarf",
-          "88,88"
+          "Einkaufsmöglichkeiten",
+          89
         ],
         [
-          "Angebot an Grünflächen",
-          "145,98"
+          "Grünflächen",
+          146
         ],
         [
-          "Angebot an Kinderspielplätze",
-          "181,58"
+          "Kinderspielplätze",
+          182
         ],
         [
           "Sicherheit generell",
-          "231,26"
+          231
         ],
         [
           "Velowege\u002FVelonetz",
-          "280,75"
+          281
         ],
         [
-          "Kultur- und Freizeitangeboten für Kinder und Jugendliche",
-          "351,65"
+          "Freizeitangebote für Jugendliche",
+          352
         ],
         [
-          "Angebot an Quartiertreffpunkten",
-          "252,78"
+          "Quartiertreffpunkte",
+          253
         ],
         [
-          "Verkehrssituation bezüglich der Sicherheit der Kinder",
-          "513,69"
+          "Verkehrssicherheit der Kinder",
+          514
         ],
         [
           "Verkehrsbelastung insgesamt",
-          "519,3"
+          519
         ],
         [
-          "Treffpunkte für ältere Kinder und Jugendliche",
-          "353,13"
+          "Treffpunkte für Jugendliche",
+          353
         ]
       ],
       "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
+      "color": "#DC440E",
       "index": 2,
       "legendIndex": 4,
       "data": [
         [
-          "Anbindung an den öffentlichen Verkehr",
-          "16,24"
+          "ÖV-Anbindung",
+          16
         ],
         [
-          "Einkaufsmöglichkeiten für den täglichen Bedarf",
-          "28,47"
+          "Einkaufsmöglichkeiten",
+          28
         ],
         [
-          "Angebot an Grünflächen",
-          "43,52"
+          "Grünflächen",
+          44
         ],
         [
-          "Angebot an Kinderspielplätze",
-          "34,71"
+          "Kinderspielplätze",
+          35
         ],
         [
           "Sicherheit generell",
-          "49,72"
+          50
         ],
         [
           "Velowege\u002FVelonetz",
-          "84,63"
+          85
         ],
         [
-          "Kultur- und Freizeitangeboten für Kinder und Jugendliche",
-          "62,59"
+          "Freizeitangebote für Jugendliche",
+          63
         ],
         [
-          "Angebot an Quartiertreffpunkten",
-          "67,65"
+          "Quartiertreffpunkte",
+          68
         ],
         [
-          "Verkehrssituation bezüglich der Sicherheit der Kinder",
-          "168,42"
+          "Verkehrssicherheit der Kinder",
+          168
         ],
         [
           "Verkehrsbelastung insgesamt",
-          "175,37"
+          175
         ],
         [
-          "Treffpunkte für ältere Kinder und Jugendliche",
-          "75,81"
+          "Treffpunkte für Jugendliche",
+          76
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -218,48 +218,48 @@
       "legendIndex": 5,
       "data": [
         [
-          "Anbindung an den öffentlichen Verkehr",
-          "11,16"
+          "ÖV-Anbindung",
+          11
         ],
         [
-          "Einkaufsmöglichkeiten für den täglichen Bedarf",
-          "2,29"
+          "Einkaufsmöglichkeiten",
+          2
         ],
         [
-          "Angebot an Grünflächen",
-          "7,49"
+          "Grünflächen",
+          7
         ],
         [
-          "Angebot an Kinderspielplätze",
-          "42,23"
+          "Kinderspielplätze",
+          42
         ],
         [
           "Sicherheit generell",
-          "12,07"
+          12
         ],
         [
           "Velowege\u002FVelonetz",
-          "82,53"
+          83
         ],
         [
-          "Kultur- und Freizeitangeboten für Kinder und Jugendliche",
-          "228,78"
+          "Freizeitangebote für Jugendliche",
+          229
         ],
         [
-          "Angebot an Quartiertreffpunkten",
-          "349,26"
+          "Quartiertreffpunkte",
+          349
         ],
         [
-          "Verkehrssituation bezüglich der Sicherheit der Kinder",
-          "11,49"
+          "Verkehrssicherheit der Kinder",
+          11
         ],
         [
           "Verkehrsbelastung insgesamt",
-          "28,6"
+          29
         ],
         [
-          "Treffpunkte für ältere Kinder und Jugendliche",
-          "413,2"
+          "Treffpunkte für Jugendliche",
+          413
         ]
       ],
       "name": "Weiss nicht",
@@ -271,48 +271,48 @@
       "legendIndex": 6,
       "data": [
         [
-          "Anbindung an den öffentlichen Verkehr",
-          "30,37"
+          "ÖV-Anbindung",
+          30
         ],
         [
-          "Einkaufsmöglichkeiten für den täglichen Bedarf",
-          "32,14"
+          "Einkaufsmöglichkeiten",
+          32
         ],
         [
-          "Angebot an Grünflächen",
+          "Grünflächen",
           29
         ],
         [
-          "Angebot an Kinderspielplätze",
-          "29,22"
+          "Kinderspielplätze",
+          29
         ],
         [
           "Sicherheit generell",
-          "30,72"
+          31
         ],
         [
           "Velowege\u002FVelonetz",
-          "41,7"
+          42
         ],
         [
-          "Kultur- und Freizeitangeboten für Kinder und Jugendliche",
-          "46,68"
+          "Freizeitangebote für Jugendliche",
+          47
         ],
         [
-          "Angebot an Quartiertreffpunkten",
-          "44,75"
+          "Quartiertreffpunkte",
+          45
         ],
         [
-          "Verkehrssituation bezüglich der Sicherheit der Kinder",
-          "27,17"
+          "Verkehrssicherheit der Kinder",
+          27
         ],
         [
           "Verkehrsbelastung insgesamt",
-          "37,58"
+          38
         ],
         [
-          "Treffpunkte für ältere Kinder und Jugendliche",
-          "40,16"
+          "Treffpunkte für Jugendliche",
+          40
         ]
       ],
       "name": "Keine Angabe",
@@ -350,10 +350,10 @@
 					//use N if all series are visible, otherwise use n
 					var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 					//check for value that contains only spaces
-					return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+					return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + '';
 				},
       "align": "left",
-      "x": -80
+      "x": -180
     },
     "reversed": false
   },
@@ -388,7 +388,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 100,
+    "marginLeft": 200,
     "inverted": true,
     "renderTo": "container-12565",
     "spacingBottom": 40
@@ -408,7 +408,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit …», Basel-Stadt"
+    "text": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit …», Basel-Stadt, 2022 (N=1781)"
   },
   "navigation": {
     "menuItemStyle": {
