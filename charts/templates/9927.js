@@ -1,5 +1,8 @@
 (function () {
     return {
+        "chart": {
+            "type": "column",
+        },
         "subtitle": {
             useHTML: true
         },
@@ -51,11 +54,5 @@
             useHTML: true,
             "shared": false
         },
-        "chart": {
-            "renderTo": 'container-I.17.3.0003',
-            "marginBottom": 65,
-            //"marginTop": 75,
-            "type": "column",
-        }
     }
 }());
