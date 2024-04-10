@@ -1,5 +1,9 @@
 (function () {
     return {
+        "chart": {
+            "type": "column",
+            spacingBottom: 45,
+        },
         "xAxis": {
             "tickInterval": 1,
         },
@@ -35,9 +39,6 @@
                 borderWidth: 0,
             }
         },
-        "chart": {
-            "type": "column"
-        }
     }
 }());
 

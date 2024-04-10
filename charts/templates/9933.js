@@ -2,6 +2,7 @@
   return {
     "chart": {
       "type": "column",
+      spacingBottom: 45,
     },
     "plotOptions": {
       "series": {
@@ -9,7 +10,8 @@
       }
     },
     xAxis: {
-      tickInterval: 1
+      tickInterval: 1,
+
     },
     "yAxis": {
       "labels": {

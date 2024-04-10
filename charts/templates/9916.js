@@ -3,13 +3,12 @@
     "chart": {
       //"marginBottom": 75,
       //"marginTop": 75,
-      "type": "column"
+      "type": "column",
+      spacingBottom: 45,
     },
     "plotOptions": {
       "series": {
         stacking: "normal",
-        borderWidth: 0,
-        //groupPadding: 0.1,
       }
     },
     xAxis: {

@@ -1,18 +1,22 @@
 (function () {
     return {
+        "chart": {
+            "type": "column",
+            spacingBottom: 45,
+        },
         "xAxis": {
             "tickInterval": 1,
         },
         "yAxis": {
             //tickInterval: 500,
             "labels": {
-              "format": "{value:,.0f}"
+                "format": "{value:,.0f}"
             },
-          },
-          "tooltip": {
+        },
+        "tooltip": {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
             "shared": false
-          },
+        },
         "series": [
             { "color": "#689199", index: 1 },
             { "color": "#923F8D ", index: 2 },
@@ -35,9 +39,6 @@
                 borderWidth: 0,
             }
         },
-        "chart": {
-            "type": "column"
-        }
     }
 }());
 

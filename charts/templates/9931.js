@@ -3,7 +3,8 @@
     "chart": {
       //"marginBottom": 75,
       //"marginTop": 75,
-      "type": "column"
+      "type": "column",
+      spacingBottom: 45,
     },
     "plotOptions": {
       "series": {
@@ -17,7 +18,7 @@
       tickInterval: 1,
       labels: {
         step: 1,
-       // rotation: -45,
+        // rotation: -45,
       }
     },
     "yAxis": {
@@ -39,11 +40,11 @@
       itemMarginBottom: 5
     },
     "series": [
-        { "color": "#999999", index: 13, legendIndex: 5 }, 
-        { "color": "#662673", index: 12, legendIndex: 1 }, 
-        { "color": "#B375AB", index: 11, legendIndex: 2 }, 
-        { "color": "#E7CEE2", index: 10, legendIndex: 3 }, 
-        { "color": "#FF8028", index: 9, legendIndex: 4 }, 
+      { "color": "#999999", index: 13, legendIndex: 5 },
+      { "color": "#662673", index: 12, legendIndex: 1 },
+      { "color": "#B375AB", index: 11, legendIndex: 2 },
+      { "color": "#E7CEE2", index: 10, legendIndex: 3 },
+      { "color": "#FF8028", index: 9, legendIndex: 4 },
 
     ],
     "tooltip": {
