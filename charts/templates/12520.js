@@ -31,7 +31,8 @@
         }
       },
       "min": 0,
-      "max": undefined,
+      "max": 100,
+      "tickInterval": 20,
       "gridLineWidth": 0,
       "opposite": true
     }
