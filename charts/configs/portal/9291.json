@@ -103,7 +103,7 @@
           3629
         ]
       ],
-      "name": "Kitas mit Beiträgen",
+      "name": "Kitas mit Betreuungsbeiträgen",
       "turboThreshold": 0
     },
     {
@@ -156,13 +156,13 @@
           508
         ]
       ],
-      "name": "Kitas ohne Beiträge",
+      "name": "Kitas ohne Betreuungsbeiträge",
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
-      "index": 10,
-      "legendIndex": 3,
+      "color": "#FF8028",
+      "index": 9,
+      "legendIndex": 4,
       "data": [
         [
           "2014",
@@ -210,59 +210,6 @@
         ]
       ],
       "name": "Firmenkitas",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "index": 9,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2014",
-          98
-        ],
-        [
-          "2015",
-          87
-        ],
-        [
-          "2016",
-          90
-        ],
-        [
-          "2017",
-          85
-        ],
-        [
-          "2018",
-          85
-        ],
-        [
-          "2019",
-          84
-        ],
-        [
-          "2020",
-          75
-        ],
-        [
-          "2021",
-          72
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "2022",
-          58
-        ],
-        [
-          "2023",
-          47
-        ]
-      ],
-      "name": "Tagesfamilien",
       "turboThreshold": 0
     }
   ],
@@ -340,7 +287,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Plätze der Tagesbetreuung in Kindertagesstätten und Familien"
+    "text": "Plätze in Kindertagesstätten"
   },
   "subtitle": {
     "text": "Basel-Stadt",

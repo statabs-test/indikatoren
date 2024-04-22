@@ -5,46 +5,46 @@
       "data": [
         [
           "2014",
-          4500
+          98
         ],
         [
           "2015",
-          null
+          87
         ],
         [
           "2016",
-          4886
+          90
         ],
         [
           "2017",
-          null
+          85
         ],
         [
           "2018",
-          5147
+          85
         ],
         [
           "2019",
-          5285
+          84
         ],
         [
           "2020",
-          5168
+          75
         ],
         [
           "2021",
-          5298
+          72
         ],
         [
           "2022",
-          5564
+          55
         ],
         [
           "2023",
-          5611
+          44
         ]
       ],
-      "name": "Anzahl Kinder",
+      "name": "Plätze",
       "turboThreshold": 0
     }
   ],
@@ -102,7 +102,7 @@
     },
     "type": "column",
     "spacingBottom": 55,
-    "renderTo": "container-9931"
+    "renderTo": "container-12602"
   },
   "plotOptions": {
     "series": {
@@ -122,7 +122,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Betreute Kinder in Kindertagesstätten und Tagesfamilien"
+    "text": "Belegte Plätze in Tagesfamilien"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -187,13 +187,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2023"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 22.4.2024"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": true
   },
   "exporting": {
-    "filename": "9931"
+    "filename": "12602"
   }
 }

@@ -152,6 +152,44 @@ var indikatoren = [
 		"id": 12565
 	},
 	{
+		"template": "template001",
+		"data-id": 12602,
+		"chart-id": 12602,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Belegte Plätze in Tagesfamilien",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Anzahl belegter Plätze in Tagesfamilien hat im Verlauf der letzten 10 Jahre abgenommen. 2023 werden 44 Plätze gezählt.",
+		"erlaeuterungen": "Stichwoche im Oktober.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Belegte Plätze in Tagesfamilien",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.12602",
+		"kennzahlenset": "Soziales",
+		"kuerzelKunde": "10.2",
+		"stufe1": "Tagesbetreuung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "10_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-04-22T03:13:12",
+		"id": 12602
+	},
+	{
 		"template": "line001",
 		"data-id": 2151,
 		"chart-id": 2151,
@@ -21620,8 +21658,8 @@ var indikatoren = [
 			6700
 		],
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2022",
-		"lesehilfe": "2022 sind neben Schweizerinnen und Schweizern 168 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2023",
+		"lesehilfe": "2023 sind neben Schweizerinnen und Schweizern 167 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -21647,7 +21685,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:31",
 		"id": 6425
 	},
 	{
@@ -72385,7 +72423,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfequote nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2023 bei 4,8%. Sie sinkt seit dem Jahr 2017 kontinuierlich. Die Stadt Basel weist für das Jahr 2023 eine Quote von 5,1% aus, Riehen eine Quote von 2,5% und Bettingen eine Quote von 2,4%.",
+		"lesehilfe": "Die kantonale Sozialhilfequote liegt 2023 bei 4,8%. Sie sinkt seit dem Jahr 2018 kontinuierlich. Die Stadt Basel weist für das Jahr 2023 eine Quote von 5,1% aus, Riehen eine Quote von 2,5% und Bettingen eine Quote von 2,4%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine finanzielle Leistung der wirtschaftlichen Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfe sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren berücksichtigt (FL: 5+, VA: 7+, VA FL: 7+). Bis 2017 kann die Aufenthaltsdauer nicht abgegrenzt werden, weshalb es bei den Zeitreihen zur Stadt Basel und zum Kanton Basel-Stadt zu einem Methodenbruch kommt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -72421,10 +72459,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Plätze der Tagesbetreuung in Kindertagesstätten und Familien",
+		"title": "Plätze in Kindertagesstätten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Oktober 2023 stehen in der Tagesbetreuung insgesamt 4 495 Plätze zur Verfügung. 3 629 Plätze bestehen in Kindertagesstätten mit kantonalen Beiträgen, 508 in Kindertagesstätten ohne Beiträge. Tagesfamilien bieten insgesamt 47 Plätze an.",
-		"erlaeuterungen": "Stichwoche im Oktober. Anfang des Jahres 2022 trat das neue kantonale Tagesbetreuungsgesetz in Kraft. Seither gelten zwei Kategorien von Kindertagesstätten (Kita): Kindertagesstätten mit und ohne Betreuungsbeiträge. Die vorgängigen Kategorien sind nicht dargestellt. Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
+		"lesehilfe": "Im Oktober 2023 stehen in der Kindertagessttäten insgesamt 4 448 Plätze zur Verfügung. 3 629 Plätze bestehen in Kindertagesstätten mit kantonalen Betreuungsbeiträgen.",
+		"erlaeuterungen": "Stichwoche im Oktober. Anfang des Jahres 2022 trat das neue kantonale Tagesbetreuungsgesetz in Kraft. Seither gelten zwei Kategorien von Kindertagesstätten (Kita): Kitas mit und ohne Betreuungsbeiträge (Firmenkitas sind Teil dieser Gruppe). Die Kategorien bis 2021 sind nicht dargestellt. Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -72433,7 +72471,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Plätze der Tagesbetreuung in Kindertagesstätten und Familien",
+		"description": "Plätze in Kindertagesstätten",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09291",
@@ -72444,7 +72482,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "10_00_00_00_00_000",
+		"orderKey": "10_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -81236,10 +81274,10 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Kinder in Tagesbetreuung durch Kindertagesstätten und Familien",
+		"title": "Betreute Kinder in Kindertagesstätten und Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "6 074 Kinder werden im Oktober 2023 in Institutionen der Tagesbetreuung betreut, davon 3 799 in Kindertagesstätten mit Beiträgen und 1 786 in Kindertagesstätten ohne Beiträge. In Firmenkitas werden 323 Kinder betreut, in Tagesfamilien 166 Kinder.",
-		"erlaeuterungen": "Stichwoche im Oktober. Anfang des Jahres 2022 trat das neue kantonale Tagesbetreuungsgesetz in Kraft. Seither gelten zwei Kategorien von Kindertagesstätten (Kita): Kindertagesstätten mit und ohne Betreuungsbeiträge. Die vorgängigen Kategorien sind nicht dargestellt. Bis 2021 können nur betreute Kinder mit kantonaler Unterstützung gezeigt werden, ab 2022 sind alle betreuten Kinder erfasst. Ein Vergleich mit den Jahren vor 2022 ist nicht möglich.",
+		"lesehilfe": "5 611 Kinder werden im Oktober 2023 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl noch bei 4 500.",
+		"erlaeuterungen": "Stichwoche im Oktober. Nur Kinder in baselstädtischen Kindertagesstätten mit Wohnort Basel-Stadt. Bis 2018 wurde die Belegung der Kinder ohne Beiträge des Kantons nur alle zwei Jahre erhoben.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -81248,18 +81286,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Kinder in Tagesbetreuung durch Kindertagesstätten und Familien",
+		"description": "Betreute Kinder in Kindertagesstätten und Tagesfamilien",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09931",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "10.2",
+		"kuerzelKunde": "10.3",
 		"stufe1": "Tagesbetreuung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "10_00_00_00_00_000",
+		"orderKey": "10_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,

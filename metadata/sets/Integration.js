@@ -2293,8 +2293,8 @@ var indikatorensetData = [
 			6700
 		],
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2022",
-		"lesehilfe": "2022 sind neben Schweizerinnen und Schweizern 168 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2023",
+		"lesehilfe": "2023 sind neben Schweizerinnen und Schweizern 167 Personen mit deutscher Staatsbürgerschaft die grösste Gruppe im Kader der kantonalen Verwaltung.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Human Ressources Basel-Stadt"
@@ -2319,7 +2319,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-24T08:21:41",
+		"aktualisierungsdatum": "2024-03-28T09:22:31",
 		"id": 6425
 	},
 	{
