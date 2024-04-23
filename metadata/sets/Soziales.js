@@ -686,10 +686,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Zahlfälle und Personen in der Sozialhilfe",
+		"title": "Zahlfälle und Personen in der Sozialhilfe ohne Asylbereich",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Verlaufe des Jahres 2023 werden insgesamt 9 119 Personen in 6 221 Dossiers finanziell unterstützt. Im Jahr 2022 waren es 9 412 Personen in 6 380 Dossiers. Seit 2017 sinkt sowohl die Zahl der Beziehenden von Sozialhilfe als auch die Zahl der Dossiers.",
-		"erlaeuterungen": "Hier sind nur Beziehende mit Dossiertyp Sozialhilfe berücksichtigt. Die Dossiers aus dem Asyl- und Flüchtlingsbereich sind nicht einberechnet. Die Sozialhilfe führt Dossiers, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützte, die entweder Sozialhilfe mit Beratung erhalten oder fremdplatziert sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für die die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"lesehilfe": "Im Verlaufe des Jahres 2023 werden insgesamt 9 119 Personen in 6 221 Zahlfällen finanziell unterstützt. Im Jahr 2022 waren es 9 412 Personen in 6 380 Fällen. Seit 2017 sinkt sowohl die Zahl der Beziehenden von Sozialhilfe als auch die Anzahl der Fälle mit wirtschaftlicher Sozialhilfe.",
+		"erlaeuterungen": "Hier sind nur Zahlfälle und Personen mit Dossiertyp Sozialhilfe berücksichtigt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Die Dossiers aus dem Asyl- und Flüchtlingsbereich sind nicht einberechnet. Ein Zahlfall kann mehrere Personen umfassen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -698,12 +698,12 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zahlfälle und Personen in der Sozialhilfe",
+		"description": "Zahlfälle und Personen in der Sozialhilfe ohne Asylbereich",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.09927",
 		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "9.2",
+		"kuerzelKunde": "",
 		"stufe1": "Sozialhilfe",
 		"stufe2": "",
 		"stufe3": "",
