@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Belegte Plätze in Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl belegter Plätze in Tagesfamilien hat im Verlauf der letzten 10 Jahre abgenommen. 2023 werden 44 Plätze gezählt.",
+		"lesehilfe": "Die Anzahl belegter Plätze in Tagesfamilien hat im Verlauf der letzten 10 Jahre abgenommen. 2023 werden 44 Plätze gezählt.",
 		"erlaeuterungen": "Stichwoche im Oktober.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
