@@ -274,8 +274,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Plätze in Kindertagesstätten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Oktober 2023 stehen in der Kindertagessttäten insgesamt 4 448 Plätze zur Verfügung. 3 629 Plätze bestehen in Kindertagesstätten mit kantonalen Betreuungsbeiträgen.",
-		"erlaeuterungen": "Stichwoche im Oktober. Anfang des Jahres 2022 trat das neue kantonale Tagesbetreuungsgesetz in Kraft. Seither gelten zwei Kategorien von Kindertagesstätten (Kita): Kitas mit und ohne Betreuungsbeiträge (Firmenkitas sind Teil dieser Gruppe). Die Kategorien bis 2021 sind nicht dargestellt. Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
+		"lesehilfe": "Im Oktober 2023 stehen in den Kindertagessttäten insgesamt 4 448 Plätze zur Verfügung. 3 629 Plätze bestehen in Kindertagesstätten mit kantonalen Betreuungsbeiträgen.",
+		"erlaeuterungen": "Stichwoche im Oktober. Anfang des Jahres 2022 trat das neue kantonale Tagesbetreuungsgesetz in Kraft. Seither gelten zwei Kategorien von Kindertagesstätten (Kita): Solche mit und solche ohne kantonale Betreuungsbeiträge. Die Firmenkita gehören zur Kategorie ohne Betreuungsbeiträge. Die bis 2021 geltenden Kategorien sind nicht dargestellt. Die Gesamtzahl der Plätze ist jedoch vergleichbar.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -762,8 +762,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Betreute Kinder in Kindertagesstätten und Tagesfamilien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "5 611 Kinder werden im Oktober 2023 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl noch bei 4 500.",
-		"erlaeuterungen": "Stichwoche im Oktober. Nur Kinder in baselstädtischen Kindertagesstätten mit Wohnort Basel-Stadt. Bis 2018 wurde die Belegung der Kinder ohne Beiträge des Kantons nur alle zwei Jahre erhoben.",
+		"lesehilfe": "5 611 Kinder werden im Oktober 2023 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
+		"erlaeuterungen": "Stichwoche im Oktober. Nur Kinder in baselstädtischen Kindertagesstätten (Kita) mit Wohnort im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder ohne kantonale Beiträge alle zwei Jahre erhoben.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
