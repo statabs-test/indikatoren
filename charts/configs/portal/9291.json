@@ -50,7 +50,7 @@
           null
         ]
       ],
-      "name": "Kita",
+      "name": "Kitas",
       "turboThreshold": 0
     },
     {
@@ -103,7 +103,7 @@
           3629
         ]
       ],
-      "name": "Kita mit Betreuungsbeiträgen",
+      "name": "Kitas mit Betreuungsbeiträgen",
       "turboThreshold": 0
     },
     {
@@ -156,7 +156,7 @@
           508
         ]
       ],
-      "name": "Kita ohne Betreuungsbeiträge",
+      "name": "Kitas ohne Betreuungsbeiträge",
       "turboThreshold": 0
     },
     {
@@ -209,7 +209,7 @@
           311
         ]
       ],
-      "name": "Firmenkita ohne Betreuungsbeiträge",
+      "name": "Firmenkitas ohne Betreuungsbeiträge",
       "turboThreshold": 0
     }
   ],
