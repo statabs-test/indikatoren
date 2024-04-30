@@ -80,10 +80,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Durschnittliche Nutzung der Tagesstrukturen auf Sekundarstufe",
+		"title": "Nutzung der Tagesstrukturen auf Sekundarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 nutzen in der Stichwoche durchschnittlich 1 187 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von durchschnittlich 379 Schülerinnen und Schülern genutzt.",
-		"erlaeuterungen": "Stichwoche im September. Tagesstrukturen an den Sekundarschulen werden seit 2015 angeboten. Da die Angebote flexibel in Anspruch genommen werden können, wird keine Anzahl Plätze ausgewiesen, sondern die durchschnittliche Nutzung pro Tag.",
+		"lesehilfe": "2023 nutzen in der Stichwoche durchschnittlich 1 187 Schülerinnen und Schüler pro Tag das Mittagsangebot. Das Nachmittagsangebot wird von 379 Schülerinnen und Schülern genutzt.",
+		"erlaeuterungen": "Stichwoche im September. Tagesstrukturen an den Sekundarschulen werden seit 2015 angeboten. Da die Angebote ohne vorgängige Buchung spontan in Anspruch genommen werden können, gibt es keine feste Anzahl Plätze. Stattdessen wird die in der Stichtwoche durchschnittliche Nutzung pro Tag ausgewiesen.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
 		],
@@ -92,7 +92,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Durschnittliche Nutzung der Tagesstrukturen auf Sekundarstufe",
+		"description": "Nutzung der Tagesstrukturen auf Sekundarstufe",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.12561",
@@ -386,10 +386,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Kostenübernahmegarantieren nach Leistung",
+		"title": "Kostenübernahmegarantien nach Leistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von den insgesamt 3 316  Kostenübernahmegarantien (KÜG) per Ende 2023 entfallen 622 auf die Ambulante Wohnbegleitung.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Eine Person kann mehrere Kostenübernahmegarantien (KÜG) erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "Von den insgesamt 3 316 Kostenübernahmegarantien per Ende 2023 entfallen 622 auf die Ambulante Wohnbegleitung.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -398,7 +398,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Kostenübernahmegarantieren nach Leistung",
+		"description": "Kostenübernahmegarantien nach Leistung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09916",
@@ -423,10 +423,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Personen mit Kostenübernahmegarantie",
+		"title": "Personen mit Kostenübernahmegarantien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2 254  Personen werden per Ende 2023 mit mindestens einer Kostenübernahmegarantie (KÜG) unterstützt. Den begünstigten Personen kommen insgesamt 3 316 KÜG zugute.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Eine Person kann mehrere Kostenübernahmegarantien (KÜG) erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "2 254 Personen werden per Ende 2023 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 316 KüG zugute.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -435,7 +435,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Personen mit Kostenübernahmegarantie",
+		"description": "Personen mit Kostenübernahmegarantien",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09917",
@@ -462,8 +462,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 036, jene mit EL zur IV bei 6 591. Beihilfen werden an 5 505 (AHV) respektive 4 183 Personen (IV) ausbezahlt.",
-		"erlaeuterungen": "Bestand per Ende des Jahres.",
+		"lesehilfe": "2023 liegt die Anzahl der Personen mit Ergänzungsleistungen (EL) zur AHV bei 9 036, jene mit EL zur IV bei 6 591. Beihilfen werden an 5 505 (AHV) respektive 4 183 Personen (IV) ausbezahlt.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
 		],
@@ -502,7 +502,7 @@ var indikatorensetData = [
 		"title": "Quote der Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "69% der Personen mit IV erhalten zum Jahresende 2022 Ergänzungsleistungen (EL), 41% werden mittels Beihilfen zur IV unterstützt. Bei den Personen mit AHV liegen diese Quoten bei 21% bzw. 13%.",
-		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen (EL) bzw. Beihilfen zur Gesamtheit der Beziehenden von AHV- bzw. IV-Renten per Ende Jahr.",
+		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen bzw. Beihilfen zur Gesamtheit der Beziehenden von AHV- bzw. IV-Renten per Ende Jahr. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
 			"Bundesamt für Sozialversicherungen (BSV)"
@@ -688,7 +688,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zahlfälle und Personen in der Sozialhilfe ohne Asylbereich",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Verlaufe des Jahres 2023 werden insgesamt 9 119 Personen in 6 221 Zahlfällen finanziell unterstützt. Im Jahr 2022 waren es 9 412 Personen in 6 380 Fällen. Seit 2017 sinkt sowohl die Zahl der Beziehenden von Sozialhilfe als auch die Anzahl der Fälle mit wirtschaftlicher Sozialhilfe.",
+		"lesehilfe": "Im Verlauf des Jahres 2023 werden insgesamt 9 119 Personen in 6 221 Zahlfällen finanziell unterstützt. Im Jahr 2022 waren es 9 412 Personen in 6 380 Fällen. Seit 2018 ist sowohl die Zahl der beziehenden Personen als auch der Zahlfälle rückläufig.",
 		"erlaeuterungen": "Hier sind nur Zahlfälle und Personen mit Dossiertyp Sozialhilfe berücksichtigt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Die Dossiers aus dem Asyl- und Flüchtlingsbereich sind nicht einberechnet. Ein Zahlfall kann mehrere Personen umfassen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -725,7 +725,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Schülerinnen und Schüler in Tagesferien und Ferienbetreuung auf Primarstufe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Insgesamt 3 356 Schülerinnen und Schüler der Primarstufe nutzen im Verlaufe des Jahres 2023 Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise buchbare Ferienbetreuung an den Schulen nehmen im Berichtsjahr 1 111 Schülerinnen und Schüler in Anspruch.",
+		"lesehilfe": "Insgesamt 3 356 Schülerinnen und Schüler der Primarstufe nutzen im Verlauf des Jahres 2023 das Angebot an Tagesferien. Das ist der höchste Wert im Beobachtungszeitraum. Die tageweise buchbare Ferienbetreuung an den Schulen nehmen im Berichtsjahr 1 111 Schülerinnen und Schüler in Anspruch.",
 		"erlaeuterungen": "Die Ferienangebote stehen den Primarschul- und Kindergartenkindern während 13 Wochen pro Jahr zur Verfügung. Im Jahr 2020 wurden die Tagesferien aufgrund der Schulschliessungen im Rahmen der Massnahmen zur Bekämpfung der COVID-19-Pandemie lediglich während 11 Wochen angeboten.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -763,7 +763,7 @@ var indikatorensetData = [
 		"title": "Kinder in Kindertagesstätten und Tagesfamilien",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "5 611 Kinder werden Ende Oktober 2023 in Kindertagesstätten und Tagesfamilien betreut. 2014 lag diese Zahl bei 4 500.",
-		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt sind nur die Kinder mit Wohnsitz im Kanton Basel-Stadt in baselstädtischen Kindertagesstätten. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben. Deshalb können für die Jahre 2015 und 2017 keine Werte ausgewiesen werden.",
+		"erlaeuterungen": "Stichtag ist der 31. Oktober. Berücksichtigt sind nur Kinder in baselstädtischen Kindertagesstätten und mit Wohnsitz im Kanton Basel-Stadt. Vor 2018 wurde die Zahl der Kinder in Kindertagesstätten ohne Betreuungsbeiträge nur alle zwei Jahre erhoben.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -799,8 +799,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beziehende von Überbrückungsleistungen nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Jahr 2023 beziehen 34 Personen Überbrückungsleistungen (ÜL), 21 davon sind Männer, 13 davon sind Frauen.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Diese Leistung wurde per 1. Juli 2021 eingeführt.",
+		"lesehilfe": "Ende Jahr 2023 beziehen 34 Personen Überbrückungsleistungen, 21 davon sind Männer, 13 davon sind Frauen.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Überbrückungsleistungen richten sich an arbeitslose Personen nach dem 60. Altersjahr, deren Anspruch auf Leistungen der Arbeitslosenversicherung endet. Die Leistung endet in der Regel bei Erreichen des ordentlichen Rentenalters. Die Überbrückungsleistungen wurden per 1. Juli 2021 eingeführt.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
 		],
