@@ -40,7 +40,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         //"itemMarginBottom": 0,
-        x: -25,
+        x: 20,
         itemWidth: 142,
         width: 300,
         itemStyle: {
