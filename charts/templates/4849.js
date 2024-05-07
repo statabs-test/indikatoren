@@ -12,7 +12,7 @@
                 });
                 var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                 var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
@@ -46,17 +46,11 @@
     {"color": "#C8C8C8"},
     {"color": "#8A8A8A"}        
 ],
-  legend: {
-    enabled:true,
-    reversed: true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5, // space between legend boxes
-    "align": "right",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
+"legend": {
+  "layout": "horizontal",
+  "verticalAlign": "top",
+  "align": "left",
+},
 "chart": {     
      "inverted": false,
   },
