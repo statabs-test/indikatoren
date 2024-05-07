@@ -1,59 +1,64 @@
-(function(){
-    return {
-    "xAxis": {     
-        reversed: false,
-        "type": "category", 
-        "labels": {
-            align: 'left',
-            reserveSpace: true,
-            x: -12,
-            formatter: undefined,
-            style: {
-                fontSize: "10px",
-                color: "#000000",
-                width: 1,
-                whiteSpace: 'nowrap',
-                textOverflow: "none"
-            },
-        }
-    },
-    "yAxis": {
-        "tickInterval": 20,
-        "reversedStacks": false,
-       
-       // ItemMarginTop:5,
-        labels: {
-            y:10,
-            rotation: 0
-            },
-    },   
-    "series": [
-        {"color": "#256370"},
-        {"color": "#71A3B5"},
-        {"color": "#FFBB58"},
-        {"color": "#FF8028"},
-        {"color": "#C8C8C8"},
-        {"color": "#8A8A8A"}        
-    ], 
-    legend: {
-       // margin: 9,
+(function () {
+  return {
+      chart: {
+          inverted: true,
+          height:500,
+      },
+      plotOptions: {
+          column: {
+              groupPadding: 0,
+          }
+      },
+      yAxis: {
+          tickInterval: 20,
+      },
+      xAxis: {
+          type: "category",
+          labels: {
+              formatter: function () {
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
+                  }, 0);
+                  //use N if all series are visible, otherwise use n
+                  var nString =  'n=';
+                    if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                  //delete everything before ":", including ":"
+                  this.value = this.value.replace(/[^:]*:/, "");
+
+                  //check for value that contains only spaces
+                  if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                  //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                  return "<b>" + this.value + "</b>";
+              }
+          }
+      },
+      "legend": {
+        "enabled": true,
         "layout": "horizontal",
         "verticalAlign": "top",
-        //"itemMarginBottom": 0,
-        x: 20,
-        itemWidth: 142,
-        width: 300,
-        itemStyle: {
-          textOverflow: "none",
-          whiteSpace: "nowrap",
+        "itemMarginBottom": 5,
+        "align": "left",
+        itemWidth: 140,
+  width: 280,
+  itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  }
+      },
 
-        }
-      },  
-    "chart":
-    {
-        "inverted": true, 
-      //  marginRight: 8,
-        }
-	}
+      "series": [
+        { "color": "#256370", index: 5, legendIndex: 1 }, /*dunkelgrün*/
+        { "color": "#71A3B5", index: 4, legendIndex: 2 }, /*hellgrün*/
+        { "color": "#FFBB58", index: 3, legendIndex: 3 }, /*hellrot*/
+        { "color": "#FF8028", index: 2, legendIndex: 4 }, /*dunkelrot*/
+        { "color": "#C8C8C8", index: 1, legendIndex: 5 },
+        { "color": "#6F6F6F", index: 0, legendIndex: 6 },
+  ],
+}
 }());
- 
