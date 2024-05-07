@@ -39,12 +39,17 @@
           }
       },
       "legend": {
-       // x:-10,
         "enabled": true,
         "layout": "horizontal",
         "verticalAlign": "top",
-        "itemMarginBottom": 2,
-        "align": "left"
+        "itemMarginBottom": 5,
+        "align": "left",
+        itemWidth: 140,
+  width: 280,
+  itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  }
       },
 
   "series": [
