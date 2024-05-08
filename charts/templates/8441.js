@@ -9,6 +9,9 @@
         }
       }
     },
+    "column": {
+      "colorByPoint": true
+  }
   },
   "xAxis": {
     "type": "category",
@@ -22,9 +25,16 @@
   },
   "series": [
     {
-      "color": "#246370"       
+     // "color": "#246370"       
     },
    
+  ],
+  "colors": [
+    "#474747" ,
+    "#FF8028",
+    "#FABD24",
+    "#B375AB",
+    "#990300"
   ],
   "legend": {
     "enabled": false,
