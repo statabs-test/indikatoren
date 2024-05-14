@@ -29,7 +29,7 @@
                     if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
 
                   //delete everything before ":", including ":"
-                  this.value = this.value.replace(/[^:]*:/, "");
+                  //this.value = this.value.replace(/[^:]*:/, "");
                   this.value = this.value.replace(/Total/, "");
 
                   //check for value that contains only spaces
