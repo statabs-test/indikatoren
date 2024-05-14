@@ -8,8 +8,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zufriedenheit mit dem Quartier",
 		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit …», Basel-Stadt, 2022 (N=1781)",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die ÖV-Anbindung erhält von allen abgefragten Aspekten die höchsten Zufriedenheitsanteile: Über 90% sind zufrieden, 66% sehr zufrieden. Bei der Verkehrsbelastung sowie der Verkehrssicherheit fällt der Anteil unzufriedener Familien am höchsten aus.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ab 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],

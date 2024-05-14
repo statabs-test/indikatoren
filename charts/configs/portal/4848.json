@@ -6,31 +6,31 @@
       "data": [
         [
           "Berufliche Probleme",
-          26.6110933
+          26.6
         ],
         [
           "Gesundheitliche Probleme",
-          18.94838089
+          18.9
         ],
         [
           "Finanzielle Probleme",
-          9.426098108
+          9.4
         ],
         [
           "Wohnungsprobleme",
-          19.01250401
+          19
         ],
         [
           "Partnerschaftliche Probleme",
-          31.22795768
+          31.2
         ],
         [
           "Schulische Probleme der Kinder",
-          23.56524527
+          23.6
         ],
         [
           "Erziehungsfragen oder -probleme",
-          46.90605963
+          46.9
         ]
       ],
       "name": "2009 (N=3119)",
@@ -42,31 +42,31 @@
       "data": [
         [
           "Berufliche Probleme",
-          29.22456298
+          28.4
         ],
         [
           "Gesundheitliche Probleme",
-          20.6185567
+          19.9
         ],
         [
           "Finanzielle Probleme",
-          8.337068579
+          8.3
         ],
         [
           "Wohnungsprobleme",
-          22.27700583
+          21.9
         ],
         [
           "Partnerschaftliche Probleme",
-          33.34827432
+          32.2
         ],
         [
           "Schulische Probleme der Kinder",
-          22.99417302
+          26.6
         ],
         [
           "Erziehungsfragen oder -probleme",
-          46.57104437
+          45.1
         ]
       ],
       "name": "2013 (N=2231)",
@@ -78,34 +78,70 @@
       "data": [
         [
           "Berufliche Probleme",
-          31.89
+          30.6
         ],
         [
           "Gesundheitliche Probleme",
-          23.36
+          22.4
         ],
         [
           "Finanzielle Probleme",
-          8.65
+          9.1
         ],
         [
           "Wohnungsprobleme",
-          21.08
+          20.9
         ],
         [
           "Partnerschaftliche Probleme",
-          35.62
+          33.7
         ],
         [
           "Schulische Probleme der Kinder",
-          26.76
+          26.2
         ],
         [
           "Erziehungsfragen oder -probleme",
-          53.09
+          50
         ]
       ],
       "name": "2017 (N=1665)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 3,
+      "data": [
+        [
+          "Berufliche Probleme",
+          37.6
+        ],
+        [
+          "Gesundheitliche Probleme",
+          26.7
+        ],
+        [
+          "Finanzielle Probleme",
+          8.6
+        ],
+        [
+          "Wohnungsprobleme",
+          22.3
+        ],
+        [
+          "Partnerschaftliche Probleme",
+          38.7
+        ],
+        [
+          "Schulische Probleme der Kinder",
+          26.5
+        ],
+        [
+          "Erziehungsfragen oder -probleme",
+          50.9
+        ]
+      ],
+      "name": "2022 (N=1781)",
       "turboThreshold": 0
     }
   ],
@@ -188,10 +224,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Unterstützung von Freunden oder Nachbarn"
+    "text": "Unterstützung von Freunden oder Bekannten"
   },
   "subtitle": {
-    "text": "«Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?», Basel-Stadt",
+    "text": "«Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FBekannte gewendet?», Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -248,7 +284,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -2,50 +2,64 @@
   "series": [
     {
       "color": "#256370",
+      "index": 5,
+      "legendIndex": 1,
       "data": [
         [
-          "2017: Arbeitskollegen",
-          0.5
+          "Total 2022: Arbeitskollegen",
+          13.44236
         ],
         [
-          "2013: Arbeitskollegen",
-          0.4
+          "Total 2017: Arbeitskollegen",
+          10.25846
         ],
         [
-          "2009: Arbeitskollegen",
-          0.4
+          "Total 2013: Arbeitskollegen",
+          8.6219
         ],
         [
-          " ",
-          undefined
-        ],
-        [
-          "2017: Nachbarn",
-          1.5
-        ],
-        [
-          "2013: Nachbarn",
-          1.2
-        ],
-        [
-          "2009: Nachbarn",
-          2.7
+          "Total 2009: Arbeitskollegen",
+          12
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "2017: Freunde und Bekannte",
-          2.6
+          "Total 2022: Nachbarn",
+          46.14641
         ],
         [
-          "2013: Freunde und Bekannte",
-          3
+          "Total 2017: Nachbarn",
+          25.99396
         ],
         [
-          "2009: Freunde und Bekannte",
-          3.8
+          "Total 2013: Nachbarn",
+          25.60879
+        ],
+        [
+          "Total 2009: Nachbarn",
+          85
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Total 2022: Freunde und Bekannte",
+          64.71454
+        ],
+        [
+          "Total 2017: Freunde und Bekannte",
+          44.8749
+        ],
+        [
+          "Total 2013: Freunde und Bekannte",
+          65.17396
+        ],
+        [
+          "Total 2009: Freunde und Bekannte",
+          117
         ]
       ],
       "name": "Ja, regelmässig",
@@ -53,50 +67,64 @@
     },
     {
       "color": "#71A3B5",
+      "index": 4,
+      "legendIndex": 2,
       "data": [
         [
-          "2017: Arbeitskollegen",
-          2.5
+          "Total 2022: Arbeitskollegen",
+          54.08197
         ],
         [
-          "2013: Arbeitskollegen",
-          2.9
+          "Total 2017: Arbeitskollegen",
+          42.04753
         ],
         [
-          "2009: Arbeitskollegen",
-          3.2
+          "Total 2013: Arbeitskollegen",
+          62.87047
         ],
         [
-          " ",
-          undefined
-        ],
-        [
-          "2017: Nachbarn",
-          11.7
-        ],
-        [
-          "2013: Nachbarn",
-          10.9
-        ],
-        [
-          "2009: Nachbarn",
-          12
+          "Total 2009: Arbeitskollegen",
+          101
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "2017: Freunde und Bekannte",
-          18.4
+          "Total 2022: Nachbarn",
+          237.4342
         ],
         [
-          "2013: Freunde und Bekannte",
-          16.8
+          "Total 2017: Nachbarn",
+          183.78017
         ],
         [
-          "2009: Freunde und Bekannte",
-          18.9
+          "Total 2013: Nachbarn",
+          236.49337
+        ],
+        [
+          "Total 2009: Nachbarn",
+          375
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Total 2022: Freunde und Bekannte",
+          308.07116
+        ],
+        [
+          "Total 2017: Freunde und Bekannte",
+          289.85856
+        ],
+        [
+          "Total 2013: Freunde und Bekannte",
+          364.12365
+        ],
+        [
+          "Total 2009: Freunde und Bekannte",
+          591
         ]
       ],
       "name": "Ja, hin und wieder",
@@ -104,50 +132,64 @@
     },
     {
       "color": "#FFBB58",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
-          "2017: Arbeitskollegen",
-          8.6
+          "Total 2022: Arbeitskollegen",
+          199.84708
         ],
         [
-          "2013: Arbeitskollegen",
-          8.8
+          "Total 2017: Arbeitskollegen",
+          137.20635
         ],
         [
-          "2009: Arbeitskollegen",
-          9.7
+          "Total 2013: Arbeitskollegen",
+          194.15279
         ],
         [
-          " ",
-          undefined
-        ],
-        [
-          "2017: Nachbarn",
-          17.3
-        ],
-        [
-          "2013: Nachbarn",
-          16.4
-        ],
-        [
-          "2009: Nachbarn",
-          19.4
+          "Total 2009: Arbeitskollegen",
+          301
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "2017: Freunde und Bekannte",
-          21.4
+          "Total 2022: Nachbarn",
+          357.44158
         ],
         [
-          "2013: Freunde und Bekannte",
-          19.9
+          "Total 2017: Nachbarn",
+          269.46877
         ],
         [
-          "2009: Freunde und Bekannte",
-          23.5
+          "Total 2013: Nachbarn",
+          353.7171
+        ],
+        [
+          "Total 2009: Nachbarn",
+          604
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Total 2022: Freunde und Bekannte",
+          505.23923
+        ],
+        [
+          "Total 2017: Freunde und Bekannte",
+          338.18762
+        ],
+        [
+          "Total 2013: Freunde und Bekannte",
+          437.04613
+        ],
+        [
+          "Total 2009: Freunde und Bekannte",
+          733
         ]
       ],
       "name": "Ja, selten",
@@ -155,50 +197,64 @@
     },
     {
       "color": "#FF8028",
+      "index": 2,
+      "legendIndex": 4,
       "data": [
         [
-          "2017: Arbeitskollegen",
-          73.2
+          "Total 2022: Arbeitskollegen",
+          1237.11973
         ],
         [
-          "2013: Arbeitskollegen",
-          70.3
+          "Total 2017: Arbeitskollegen",
+          1208.67578
         ],
         [
-          "2009: Arbeitskollegen",
-          71.9
+          "Total 2013: Arbeitskollegen",
+          1564.65427
         ],
         [
-          " ",
-          undefined
-        ],
-        [
-          "2017: Nachbarn",
-          57.9
-        ],
-        [
-          "2013: Nachbarn",
-          57.2
-        ],
-        [
-          "2009: Nachbarn",
-          54.2
+          "Total 2009: Arbeitskollegen",
+          2243
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "2017: Freunde und Bekannte",
-          46.5
+          "Total 2022: Nachbarn",
+          890.63883
         ],
         [
-          "2013: Freunde und Bekannte",
-          46.6
+          "Total 2017: Nachbarn",
+          978.97949
         ],
         [
-          "2009: Freunde und Bekannte",
-          43.3
+          "Total 2013: Nachbarn",
+          1285.80875
+        ],
+        [
+          "Total 2009: Nachbarn",
+          1689
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Total 2022: Freunde und Bekannte",
+          664.43249
+        ],
+        [
+          "Total 2017: Freunde und Bekannte",
+          792.28614
+        ],
+        [
+          "Total 2013: Freunde und Bekannte",
+          1050.08455
+        ],
+        [
+          "Total 2009: Freunde und Bekannte",
+          1349
         ]
       ],
       "name": "Nein, nie",
@@ -206,101 +262,129 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
-          "2017: Arbeitskollegen",
-          2.8
+          "Total 2022: Arbeitskollegen",
+          52.06308
         ],
         [
-          "2013: Arbeitskollegen",
-          2.8
+          "Total 2017: Arbeitskollegen",
+          49.7452
         ],
         [
-          "2009: Arbeitskollegen",
-          2.6
+          "Total 2013: Arbeitskollegen",
+          61.85513
         ],
         [
-          " ",
-          undefined
-        ],
-        [
-          "2017: Nachbarn",
-          1.2
-        ],
-        [
-          "2013: Nachbarn",
-          1.5
-        ],
-        [
-          "2009: Nachbarn",
-          1.3
+          "Total 2009: Arbeitskollegen",
+          82
         ],
         [
           "  ",
-          undefined
+          null
         ],
         [
-          "2017: Freunde und Bekannte",
-          1.1
+          "Total 2022: Nachbarn",
+          37.22715
         ],
         [
-          "2013: Freunde und Bekannte",
-          1.9
+          "Total 2017: Nachbarn",
+          22.8664
         ],
         [
-          "2009: Freunde und Bekannte",
-          1.3
+          "Total 2013: Nachbarn",
+          34.83943
+        ],
+        [
+          "Total 2009: Nachbarn",
+          40
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Total 2022: Freunde und Bekannte",
+          36.5102
+        ],
+        [
+          "Total 2017: Freunde und Bekannte",
+          20.60823
+        ],
+        [
+          "Total 2013: Freunde und Bekannte",
+          41.63253
+        ],
+        [
+          "Total 2009: Freunde und Bekannte",
+          39
         ]
       ],
       "name": "Nein, nicht möglich",
       "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A",
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
       "data": [
         [
-          "2017: Arbeitskollegen",
-          12.4
+          "Total 2022: Arbeitskollegen",
+          224.44578
         ],
         [
-          "2013: Arbeitskollegen",
-          14.8
+          "Total 2017: Arbeitskollegen",
+          217.06668
         ],
         [
-          "2009: Arbeitskollegen",
-          12.2
+          "Total 2013: Arbeitskollegen",
+          338.84544
         ],
         [
-          " ",
-          undefined
-        ],
-        [
-          "2017: Nachbarn",
-          10.4
-        ],
-        [
-          "2013: Nachbarn",
-          12.8
-        ],
-        [
-          "2009: Nachbarn",
-          10.5
+          "Total 2009: Arbeitskollegen",
+          380
         ],
         [
           "  ",
           undefined
         ],
         [
-          "2017: Freunde und Bekannte",
-          10
+          "Total 2022: Nachbarn",
+          212.11184
         ],
         [
-          "2013: Freunde und Bekannte",
-          11.8
+          "Total 2017: Nachbarn",
+          183.91122
         ],
         [
-          "2009: Freunde und Bekannte",
-          9.3
+          "Total 2013: Nachbarn",
+          294.53256
+        ],
+        [
+          "Total 2009: Nachbarn",
+          326
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Total 2022: Freunde und Bekannte",
+          202.03238
+        ],
+        [
+          "Total 2017: Freunde und Bekannte",
+          179.18455
+        ],
+        [
+          "Total 2013: Freunde und Bekannte",
+          272.93918
+        ],
+        [
+          "Total 2009: Freunde und Bekannte",
+          290
         ]
       ],
       "name": "Keine Angabe",
@@ -324,15 +408,31 @@
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "fontSize": "10px"
+        "textOverflow": "none"
       },
-      "formatter": undefined,
-      "align": "left",
-      "reserveSpace": true,
-      "x": -12
-    },
-    "reversed": false
+      "formatter": function () {
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
+                  },0);
+                  //use N if all series are visible, otherwise use n
+                  var nString =  'n=';
+                    if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                  //delete everything before ":", including ":"
+                  //this.value = this.value.replace(/[^:]*:/, "");
+                  this.value = this.value.replace(/Total/, "");
+
+                  //check for value that contains only spaces
+                  if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                  //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                  return "<b>" + this.value + "</b>";
+              }
+    }
   },
   "chart": {
     "events": {
@@ -353,7 +453,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 513,
     "spacing": [
       10,
       10,
@@ -401,6 +501,9 @@
         }
       },
       "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
     }
   },
   "yAxis": {
@@ -421,11 +524,8 @@
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      },
-      "y": 10,
-      "rotation": 0
-    },
-    "reversedStacks": false
+      }
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -444,13 +544,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 22.1.2021"
   },
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -461,9 +561,9 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "x": -25,
-    "itemWidth": 142,
-    "width": 300
+    "enabled": true,
+    "itemWidth": 140,
+    "width": 280
   },
   "exporting": {
     "filename": "4716"

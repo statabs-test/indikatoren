@@ -9,11 +9,15 @@
         ],
         [
           "2013",
-          1206
+          1195
         ],
         [
           "2017",
-          939
+          927.42303
+        ],
+        [
+          "2022",
+          996.62593
         ]
       ],
       "name": "Stimmt genau",
@@ -28,11 +32,15 @@
         ],
         [
           "2013",
-          793
+          795.63947
         ],
         [
           "2017",
-          583
+          582.80052
+        ],
+        [
+          "2022",
+          607.03306
         ]
       ],
       "name": "Stimmt eher",
@@ -47,11 +55,15 @@
         ],
         [
           "2013",
-          110
+          112.87321
         ],
         [
           "2017",
-          65
+          66.02731
+        ],
+        [
+          "2022",
+          109.27077
         ]
       ],
       "name": "Stimmt eher nicht",
@@ -66,11 +78,15 @@
         ],
         [
           "2013",
-          27
+          28.05632
         ],
         [
           "2017",
-          18
+          21.36284
+        ],
+        [
+          "2022",
+          17.28265
         ]
       ],
       "name": "Stimmt gar nicht",
@@ -85,11 +101,15 @@
         ],
         [
           "2013",
-          34
+          32.63302
         ],
         [
           "2017",
-          29
+          30.36448
+        ],
+        [
+          "2022",
+          22.99338
         ]
       ],
       "name": "Weiss nicht",
@@ -104,11 +124,15 @@
         ],
         [
           "2013",
-          61
+          66.77315
         ],
         [
           "2017",
-          31
+          37.02182
+        ],
+        [
+          "2022",
+          27.7942
         ]
       ],
       "name": "Keine Angabe",
@@ -141,7 +165,7 @@
                 });
                 var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                 var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
+                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
@@ -265,13 +289,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2023"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -280,9 +304,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
-    "reversed": true
+        }
   },
   "exporting": {
     "filename": "4849"
