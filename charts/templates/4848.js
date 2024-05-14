@@ -42,6 +42,10 @@
   {
     "color": "#73B97C",
     "index": 2
+  },
+  {
+    "color": "#923F8D",
+    "index": 3
   }
 ],
 "legend": {
