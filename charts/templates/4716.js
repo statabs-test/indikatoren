@@ -23,7 +23,7 @@
                   var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                   var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
                     return Math.round(accumulator + series.yData[indexOfCurrentValue]);
-                  }, 0);
+                  },0);
                   //use N if all series are visible, otherwise use n
                   var nString =  'n=';
                     if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
