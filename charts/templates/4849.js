@@ -12,12 +12,15 @@
                 });
                 var indexOfCurrentValue = this.axis.names.indexOf(this.value);
                 var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return Math.round(accumulator + series.yData[indexOfCurrentValue]);
+                    return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+                
+
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
             }
         } 
   },  
