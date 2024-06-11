@@ -8,18 +8,18 @@
           this.legend.title
             .attr({
               text:
-                this.series[0].name.split(" ").slice(-1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                this.series[0].name.split(" ").slice(-1).toString() //holt 'Friedmatt' aus 'Freiraumfäche Friedmatt'
                 + ':<br>'
-                + this.series[2].name.split(" ").slice(-1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                + this.series[2].name.split(" ").slice(-1).toString() //Kannenfeld
                 + ':<br>'
-                + this.series[4].name.split(" ").slice(-1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                + this.series[4].name.split(" ").slice(-1).toString() //Landskron
                 + ':<br>'
-                + this.series[6].name.split(" ").slice(-1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                + this.series[6].name.split(" ").slice(-1).toString() //Lysbüchel
                 + ':<br>'
-                + this.series[8].name.split(" ").slice(-1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65, 94); //move -140 to the left and 8 down
+            .translate(-65, 94); //move -x to the left and +y down
         }
       }
     },
@@ -75,7 +75,6 @@
       "verticalAlign": "top",
       "align": "left",
       "itemMarginBottom": 4,
-      //itemWidth: 200,
       x: 125,
       y: -100,
       itemWidth: 110,
@@ -85,14 +84,14 @@
         whiteSpace: "nowrap"
       },
       title: {
-        text: '-<br><br><br><br>-', //muss gesetzt werden, wird via chart.events.load bearbeitet
+        text: '-<br><br><br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
         style: {
           fontWeight: 'normal',
           lineHeight: 18
         }
       },
       labelFormatter: function () {
-        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. '2015' aus '2015 Wöchentlich'
+        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
       },
     },
     "series": [
