@@ -1,0 +1,222 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "index": 0,
+      "legendIndex": 0,
+      "type": "column"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 2,
+      "legendIndex": 3,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#b375ab",
+      "index": 1,
+      "legendIndex": 1,
+      "type": "column"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "legendIndex": 4,
+      "type": "line",
+      "yAxis": 1
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 4,
+      "legendIndex": 2,
+      "type": "column"
+    },
+    {
+      "color": "#777777",
+      "index": 5,
+      "legendIndex": 5,
+      "type": "line",
+      "yAxis": 1
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //move legend title
+          var title = this.legend.title.translate(-190, 46);
+        }
+    },
+    "renderTo": "container-12650"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Personenwagen pro Haushalt, Motorisierungsgrad"
+  },
+  "subtitle": {
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "useHTML": true,
+        "format": "{value:,.1f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "width": 240,
+    "alignColumns": true,
+    "useHTML": true,
+    "y": -50,
+    "x": 0,
+    "itemMarginBottom": 5,
+    "itemWidth": 75,
+    "labelFormatter": function () {
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
+        //return this.name.slice(-4); //return last 4 letters
+         var tmp = this.name.split(" ").slice(-1).toString(); //return only last word of legend-title
+         return tmp.replace('Kleinhüningen', 'Kleinh.');
+      },
+    "title": {
+      "text": "Personenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 1.7
+      }
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonspolizei Basel-Stadt, Motorfahrzeugkontrolle.\u003Cbr\u002F\u003EZuletzt geändert: 10.6.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "12650"
+  }
+}

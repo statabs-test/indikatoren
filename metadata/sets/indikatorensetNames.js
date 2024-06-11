@@ -7,6 +7,7 @@ var indikatorensetNames = [
 	"Soziales",
 	"Nachhaltigkeit",
 	"Befragungen",
+	"Stadtteilmonitoring St. Johann",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Umwelt",
