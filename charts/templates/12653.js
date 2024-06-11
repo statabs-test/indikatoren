@@ -17,8 +17,9 @@
                 + this.series[6].name.split(" ").slice(-1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
                 + ':<br>'
                 + this.series[8].name.split(" ").slice(-1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                + ':'
             })
-            .translate(-63, 22); //move -140 to the left and 8 down
+            .translate(-65, 94); //move -140 to the left and 8 down
         }
       }
     },
@@ -76,7 +77,7 @@
       "itemMarginBottom": 4,
       //itemWidth: 200,
       x: 125,
-      y: -25,
+      y: -100,
       itemWidth: 110,
       width: 260,
       itemStyle: {
@@ -84,7 +85,7 @@
         whiteSpace: "nowrap"
       },
       title: {
-        text: 'bla ', //muss gesetzt werden, wird via chart.events.load bearbeitet
+        text: '-<br><br><br><br>-', //muss gesetzt werden, wird via chart.events.load bearbeitet
         style: {
           fontWeight: 'normal',
           lineHeight: 18
