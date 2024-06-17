@@ -1601,7 +1601,7 @@ var indikatorensetData = [
 	{
 		"template": "line001",
 		"data-id": 12653,
-		"chart-id": 8090,
+		"chart-id": 12653,
 		"filter": "",
 		"parentId": null,
 		"children": [],
