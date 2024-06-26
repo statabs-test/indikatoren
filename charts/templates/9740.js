@@ -63,7 +63,7 @@
         color: "#b00000",
       },
       {
-        color: "#777777",
+        color: "#aaaaaa",
       },
     ],
   }
