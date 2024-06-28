@@ -2273,3 +2273,4 @@ id | visible | visibleInPortal | indikatorenset
 12558 | true | false | Nachhaltigkeit (Print)
 12559 | true | false | Nachhaltigkeit (Print)
 12560 | true | false | Nachhaltigkeit (Print)
+12668 | true | true | 

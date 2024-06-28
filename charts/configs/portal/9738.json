@@ -4,7 +4,7 @@
       "color": "#71A3B5",
       "data": [
         [
-          "Befragungsjahr*",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -47,7 +47,7 @@
       "color": "#FFBB58",
       "data": [
         [
-          "Befragungsjahr*",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -90,7 +90,7 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "Befragungsjahr*",
+          "*Befragungsjahr",
           null
         ],
         [
@@ -133,12 +133,12 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "Befragungsjahr*",
-          null
+          "*Befragungsjahr",
+          undefined
         ],
         [
           "2023 (N=2 054)",
-          17.5
+          17.6
         ],
         [
           "*Alter",
