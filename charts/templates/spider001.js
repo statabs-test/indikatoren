@@ -195,7 +195,7 @@
 				return "" +
 					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
 					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
-					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ' ' + this.point.Jahr + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
 					'</div>';
 			}
 		},
