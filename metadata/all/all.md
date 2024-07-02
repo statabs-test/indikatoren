@@ -288,7 +288,7 @@ id | visible | visibleInPortal | indikatorenset
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan
 5066 | true | true | Legislaturplan-2017-2021
-5109 | false |  | Wohnviertel
+5109 | true | false | Wohnviertel
 5110 | false |  | Wohnviertel
 5111 | false |  | Wohnviertel
 5112 | false |  | Wohnviertel

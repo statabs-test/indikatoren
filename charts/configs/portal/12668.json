@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Sozialhilfequote",
+      "name": "Gemeinde Wohnviertel",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3222,10 +3222,10 @@
       "borderColor": "#fbfbfb",
       "joinBy": [
         "TXT",
-        "Wohnviertel Id"
+        "Wohnviertel_Id"
       ],
       "keys": [
-        "Wohnviertel Id",
+        "Wohnviertel_Id",
         "value"
       ],
       "states": {
@@ -3235,184 +3235,188 @@
           "brightness": 0
         }
       },
+      "tooltip": {
+        "pointFormatter": function () {
+						//console.log(this);
+						return this.properties.LIBGEO;
+					}
+      },
       "data": [
         [
           1,
-          0.0121473354
-        ],
-        [
-          7,
-          0.0191468993
-        ],
-        [
-          30,
-          0.0194915254
-        ],
-        [
-          8,
-          0.0254082156
+          1
         ],
         [
           2,
-          0.0312811317
-        ],
-        [
-          14,
-          0.0322171946
+          1
         ],
         [
           3,
-          0.0329088953
-        ],
-        [
-          20,
-          0.0344634613
-        ],
-        [
-          5,
-          0.0395946062
-        ],
-        [
-          9,
-          0.044447641
-        ],
-        [
-          15,
-          0.0476190476
+          1
         ],
         [
           4,
-          0.0541380075
+          1
         ],
         [
-          12,
-          0.0672478207
+          5,
+          1
         ],
         [
           6,
-          0.0683296024
+          1
         ],
         [
-          11,
-          0.0866933305
+          7,
+          1
         ],
         [
-          13,
-          0.0876376989
+          8,
+          1
         ],
         [
-          16,
-          0.0891010342
+          9,
+          1
         ],
         [
           10,
-          0.0913558319
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          1
         ],
         [
           17,
-          0.1097258486
-        ],
-        [
-          19,
-          0.1143674053
+          1
         ],
         [
           18,
-          0.1358297637
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          30,
+          3
         ]
       ]
     },
     {
       "visible": false,
-      "showInLegend": false,
-      "colorAxis": false,
       "data": [
         [
-          1,
-          "Altstadt Grossbasel"
+          "Altstadt Grossbasel",
+          1
         ],
         [
-          2,
-          "Bruderholz"
+          "Vorstädte",
+          1
         ],
         [
-          3,
-          "Bettingen"
+          "Am Ring",
+          1
         ],
         [
-          4,
-          "Bachletten"
+          "Breite",
+          1
         ],
         [
-          5,
-          "Vorstädte"
+          "St. Alban",
+          1
         ],
         [
-          6,
-          "Wettstein"
+          "Gundeldingen",
+          1
         ],
         [
-          7,
-          "Am Ring"
+          "Bruderholz",
+          1
         ],
         [
-          8,
-          "Riehen"
+          "Bachletten",
+          1
         ],
         [
-          9,
-          "St. Alban"
+          "Gotthelf",
+          1
         ],
         [
-          10,
-          "Gotthelf"
+          "Iselin",
+          1
         ],
         [
-          11,
-          "Hirzbrunnen"
+          "St. Johann",
+          1
         ],
         [
-          12,
-          "Breite"
+          "Altstadt Kleinbasel",
+          1
         ],
         [
-          13,
-          "Altstadt Kleinbasel"
+          "Clara",
+          1
         ],
         [
-          14,
-          "Gundeldingen"
+          "Wettstein",
+          1
         ],
         [
-          15,
-          "St. Johann"
+          "Hirzbrunnen",
+          1
         ],
         [
-          16,
-          "Clara"
+          "Rosental",
+          1
         ],
         [
-          17,
-          "Rosental"
+          "Matthäus",
+          1
         ],
         [
-          18,
-          "Iselin"
+          "Klybeck",
+          1
         ],
         [
-          19,
-          "Matthäus"
+          "Kleinhüningen",
+          1
         ],
         [
-          20,
-          "Kleinhüningen"
+          "Riehen",
+          2
         ],
         [
-          21,
-          "Klybeck"
+          "Bettingen",
+          3
         ]
       ],
-      "name": "wohnviertel"
+      "name": "Gemeinde Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -3837,13 +3841,96 @@
   ],
   "chart": {
     "events": {
-      "load": function() {                
-                    this.credits.element.onclick = function() {};
-                }
+      "load": function (e) {
+
+					this.credits.element.onclick = function () { };
+
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
+					fn.defineTemplate();
+
+					var choroplethSeries = chart.series[0];
+					var pieSizeSeries = chart.series[1];
+
+					//pie diameters in px
+					//var maxPieDiameter = 40; //20
+
+					//configuration of categorical pie sizes
+					var pieSizeCatConfig =
+						[
+							{
+								name: " < \u00A0\u00A0 300",
+								from: 0,
+								to: 299,
+								diameter: 0.000001
+							},
+						];
+
+					//define different colors for positive and negative values
+					var color = function (value) {
+						return (value >= 0) ? '#aaa' : '#aaa';
+					};
+
+					//define chart-specific details
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
+						return {
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
+								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+							},
+							tooltip: {
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+								}
+							}
+						};
+					};
+
+					//put the pies / bubbles on the map
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
+
+					//console.log(choroplethSeries);
+					var yoff = 0;
+					var xoff = 0
+					fn.addLegendLabel(chart, "<b>Stadt Basel</b>", 800, 10, undefined, false, 'right');
+					for (let i = 0; i < pieSizeSeries.data.length; i++) {
+						if (choroplethSeries.data[i].Wohnviertel_Id < 10) var xoff=8; else var xoff = 0;
+						if (choroplethSeries.data[i].Wohnviertel_Id == 20) {
+							fn.addLegendLabel(chart, "<b>Gemeinden</b>", 800+xoff, 30 + i * 20 + 5, undefined, false, 'right');
+							yoff=25; 
+						}
+						fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id.toString() + ': ' + pieSizeSeries.data[i].options["hc-key"], 800+xoff, 30 + i * 20 + yoff, undefined, false, 'right');
+					}
+
+					/*
+						//Add manually drawn legend
+						//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
+						//fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
+						fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 540, 270, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+						fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 765, 270, undefined, true);
+	
+						fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#662673');
+						fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, '#662673');
+						fn.addLegendCircle(chart, 778, 375, 0.5 * pieSizeCatConfig[2].diameter, '#662673');
+						fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 828, 320, undefined, false, 'right');
+						fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 795, 340, undefined, false, 'right');
+						fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 829, 365, undefined, false, 'right');
+	
+						//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
+						//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
+						//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
+						//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
+	
+						//make sure pies are hidden upon click onto pie legend
+						fn.AddPieLegendClickHandler(chart, '#cccccc');
+					*/
+				}
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
@@ -3851,7 +3938,7 @@
     },
     "type": "map",
     "inverted": false,
-    "renderTo": "container-5109"
+    "renderTo": "container-12668"
   },
   "title": {
     "style": {
@@ -3861,7 +3948,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sozialhilfequote"
+    "text": "Übersichtskarte Gemeinden und Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3870,11 +3957,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2023",
+    "text": "",
     "align": "left"
   },
   "credits": {
-    "enabled": true,
+    "enabled": false,
     "style": {
       "color": "#000000",
       "fontSize": "10px",
@@ -3886,7 +3973,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.4.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2024"
   },
   "colorAxis": {
     "min": 0,
@@ -3898,16 +3985,19 @@
         "cursor": "default",
         "fontSize": "11px",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-					return Highcharts.numberFormat((this.value*100),0)+'%'; 
-				}
+      }
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#f4ebf3",
-    "maxColor": "#5b2659"
+    "dataClassColor": "category",
+    "dataClasses": [
+      {
+        "from": 0,
+        "to": 1,
+        "color": "#aaa"
+      }
+    ]
   },
   "mapNavigation": {
     "enabled": true,
@@ -3917,7 +4007,7 @@
     }
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "align": "right",
     "floating": true,
     "title": {
@@ -3955,7 +4045,14 @@
             	}).add();
             }
   },
+  "plotOptions": {
+    "pie": {
+      "dataLabels": {
+        "enabled": true
+      }
+    }
+  },
   "exporting": {
-    "filename": "5109"
+    "filename": "12668"
   }
 }
