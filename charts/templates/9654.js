@@ -15,7 +15,10 @@
     yAxis: {
       labels: {
         format: "{value:,.0f}"
-      }
+      },
+      min: 25,
+      max: 125,
+      /*tickamount: 5,*/
     },
     /*tooltip: {
       shared: false,
