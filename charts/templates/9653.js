@@ -60,7 +60,8 @@
       //"itemMarginBottom": 5,
       align: "left",
       itemStyle: {
-        fontWeight: "normal"
+        fontWeight: "normal",
+        width:200
       }
     },
     plotOptions: {
