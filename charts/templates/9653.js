@@ -8,7 +8,15 @@
       tickInterval: 365 * 24 * 3600 * 1000,
       minTickInterval: 365 * 24 * 3600 * 1000,
       ordinal: false*/
-      min: 1990
+      min: 1990,
+      tickPositioner: function () {
+        var interval = 4,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
     },
     yAxis: [
       {
