@@ -59,8 +59,10 @@
       verticalAlign: "top",
       //"itemMarginBottom": 5,
       align: "left",
+      itemwidth:600,
       itemStyle: {
         fontWeight: "normal",
+        "textoverflow": null,
       }
     },
     plotOptions: {
@@ -70,6 +72,9 @@
         "symbol": "circle",*/
         }
       }
+    },
+    exporting: {
+      enabled: true
     }/*,
     data: {
       //convert year in first column to UTC date to be used by Highstock
