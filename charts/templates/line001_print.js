@@ -180,7 +180,7 @@
       }
     },
     exporting: {
-      enabled: false
+      enabled: true
     }
   };
 }());
