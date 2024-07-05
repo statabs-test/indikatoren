@@ -61,7 +61,6 @@
       align: "left",
       itemStyle: {
         fontWeight: "normal",
-        width:200
       }
     },
     plotOptions: {
