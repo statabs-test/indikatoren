@@ -3095,8 +3095,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Gebäude nach Energieträger der Hauptheizung",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Mit dem Ausbau des baselstädtischen Fernwärmenetzes nimmt auch in den Bezirken Friedmatt, Kannenfeld, Landskron, Lysbüchel und Pestalozzi der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeitig ist der Einsatz von Heizöl rückläufig.",
 		"erlaeuterungen": "Die Anzahl Gebäude nach Energieträger der Hauptheizung stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"

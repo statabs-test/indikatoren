@@ -2,10 +2,11 @@
   return {
     "plotOptions": {
       "series": {
-        pointPadding: 100,
-        borderWidth: 0,
-        "pointWidth": 20,
-        "stacking": "normal"
+        pointPadding: 0,
+        groupPadding: 0,
+        //borderWidth: 0,
+        pointWidth: 5,
+        stacking: "normal"
       }
     },
     "xAxis": {

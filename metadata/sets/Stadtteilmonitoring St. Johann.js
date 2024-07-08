@@ -7,8 +7,8 @@ var indikatorensetData = [
 		"parentId": "6640",
 		"children": [],
 		"title": "St. Johann - Quartierradar",
-		"subtitle": "Ausgabe 2023",
-		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Kopf ist vergleichsweise gering. Die Anzahl Arbeitsplätze pro Kopf liegt im oberen Drittel, die Erwerbstätigenquote ist tief.",
+		"subtitle": "",
+		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Kopf ist vergleichsweise gering. Die Anzahl Arbeitsplätze pro Kopf liegt im oberen Drittel, die Erwerbstätigenquote im mittleren Drittel.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://www.statistik.bs.ch/dam/jcr:2cb04e13-b746-4455-8735-029f0439dc73/Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1418,8 +1418,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Gebäude nach Energieträger der Hauptheizung",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Mit dem Ausbau des baselstädtischen Fernwärmenetzes nimmt auch in den Bezirken Friedmatt, Kannenfeld, Landskron, Lysbüchel und Pestalozzi der Anteil fernwärmebeheizter Gebäude stetig zu. Gleichzeitig ist der Einsatz von Heizöl rückläufig.",
 		"erlaeuterungen": "Die Anzahl Gebäude nach Energieträger der Hauptheizung stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
