@@ -41,7 +41,7 @@
       },
     shared: false
   },  
-  "chart": {      
+  "chart": {     
     "type": "column",
     marginTop: 70,
     "marginBottom": 75,
