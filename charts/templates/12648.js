@@ -1,11 +1,11 @@
 (function () {
   return {
     "plotOptions": {
-      "series": {
+      "column": {
         pointPadding: 0,
         groupPadding: 0,
         //borderWidth: 0,
-        pointWidth: 5,
+        pointWidth: 10,
         stacking: "normal"
       }
     },
@@ -38,8 +38,8 @@
         "color": "#C9D6DB", index: 2, legendIndex: 3, tooltip: {
           valueDecimals: 0
         },
-      },
-     /* {
+      }/*,
+      {
         "color": "#6F6F6F", index: 1, legendIndex: 4, tooltip: {
           valueDecimals: 0
         },
@@ -47,7 +47,6 @@
       // {"color": "#ff8028", index: 4, legendIndex: 5},
     ],
     "chart": {
-      "renderTo": 'container-I.01.1.0016',
       //"marginTop": 75,
       "type": "column",
       "inverted": false

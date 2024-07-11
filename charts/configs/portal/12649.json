@@ -1,16 +1,130 @@
 {
   "series": [
     {
-      "color": "#cd9c00"
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2010",
+          48.879496
+        ],
+        [
+          "2012",
+          45.526669
+        ],
+        [
+          "2014",
+          45.543815
+        ],
+        [
+          "2016",
+          49.603041
+        ],
+        [
+          "2018",
+          47.092863
+        ],
+        [
+          "2020",
+          47.123719
+        ],
+        [
+          "2022",
+          53.242351
+        ]
+      ],
+      "name": "Stromverbrauch Friedmatt",
+      "turboThreshold": 0
     },
     {
-      "color": "#b375ab"
+      "color": "#b375ab",
+      "data": [
+        [
+          "2010",
+          4.094429
+        ],
+        [
+          "2012",
+          3.971273
+        ],
+        [
+          "2014",
+          3.735483
+        ],
+        [
+          "2016",
+          3.670181
+        ],
+        [
+          "2018",
+          3.58165
+        ],
+        [
+          "2020",
+          3.56853
+        ],
+        [
+          "2022",
+          3.150024
+        ]
+      ],
+      "name": "Stromverbrauch Kannenfeld",
+      "turboThreshold": 0
     },
     {
       "color": "#999",
-      "visible": false
+      "visible": false,
+      "data": [
+        [
+          "2010",
+          14.274184
+        ],
+        [
+          "2012",
+          13.529241
+        ],
+        [
+          "2014",
+          12.93728
+        ],
+        [
+          "2016",
+          12.725933
+        ],
+        [
+          "2018",
+          12.578078
+        ],
+        [
+          "2020",
+          12.52035
+        ],
+        [
+          "2022",
+          11.461258
+        ]
+      ],
+      "name": "Stromverbrauch Landskron",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -68,24 +182,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "type": "category"
   },
   "yAxis": {
     "min": 0,
