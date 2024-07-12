@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+  <title>Indikator</title>
+
+
+  <link href="assets/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="assets/css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="assets/css/indikatoren.css" media="screen" rel="stylesheet" type="text/css">
+
+
+  <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/modules/@statabs/statabs-filter/src/template.js" type="text/javascript"></script>
+  <script src="assets/js/url-min.js" type="text/javascript"></script>
+  <script src="assets/js/modules/proj4/dist/proj4.js"></script>
+  <script src="assets/js/modules/highcharts/highcharts.js" type="text/javascript"></script>
+  <script src="assets/js/modules/highcharts/highcharts-more.js" type="text/javascript"></script>
+  <script src="assets/js/modules/highcharts/modules/stock.js" type="text/javascript"></script>
+  <script src="assets/js/modules/highcharts/modules/data.js" type="text/javascript"></script>
+  <script src="assets/js/modules/highcharts/modules/map.js" type="text/javascript"></script>
+  <script src="assets/js/modules/highcharts/modules/exporting.js" type="text/javascript"></script>
+  <script src="assets/js/modules/highcharts/modules/annotations.js" type="text/javascript"></script>
+
+
+  <script src="charts/templates/options001.js" type="text/javascript"></script>
+  <script src="metadata/all/templatesById.js" type="text/javascript"></script>
+  <script src="assets/js/indikatoren-highcharts.js" type="text/javascript"></script>
+  <script src="assets/js/customFunctions.js" type="text/javascript"></script>
+  <script src="geojson/wohnviertel_EPSG_2056.js"></script>
+  <script src="geojson/wohnviertel_EPSG_2056_StadtBasel.js"></script>
+  <script src="geojson/rhein_EPSG_2056.js"></script>
+  <script src="geojson/UA_Gemeinden_100.js"></script>
+  <script src="geojson/GemeindenBSBL_EPSG_2056.js"></script>
+
+
+
+
+
+
+
+  <style type="text/css">
+    body {
+      background-color: #fcfcfc;
+    }
+
+    #overlay {
+      width: 320px;
+      height: 380px;
+      position: relative;
+      top: -420px;
+      left: 195px;
+      background-color: rgba(251, 251, 251, 0.95);
+      border-radius: 10px;
+      border: 5px solid #fff;
+      padding: 6px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #overlayContent {
+      height: 100%;
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+
+
+    .lesehilfe {
+      margin: 5px;
+      text-align: 'justify';
+    }
+
+    h1 {
+      margin: 5px
+    }
+
+    .link,
+    .link:hover {
+      /*font-family: Arial;*/
+      /*width: 24px;
+      height: 24px;*/
+      /*padding: 4px 10px;*/
+      display: inline-block;
+      cursor: pointer;
+      /*color: #666;*/
+      /*background-color: #ffffff;*/
+      /*border: 0.5px solid #eee;*/
+      /*border-radius: 50%;*/
+      /*font-weight: bold;*/
+
+    }
+ 
+    #svgButton{
+      height: 24px;
+    }
+    #svgButton path {
+      fill: none;
+      stroke: #666666;
+      stroke-width: 2.5;
+      d: path('m 5 5 a 1 1 0 0 0 20 20 a 1 1 0 0 0 -20 -20 m 9 1 a 1 1 0 0 0 2 2 a 1 1 0 0 0 -2 -2 m 0 7 a -1 -1 90 0 1 2 0 v 11 a -1 -1 0 0 1 -2 0 v -11')
+    }
+    #svgButton.active path{
+      d: path('m 5 5 a 1 1 0 0 0 20 20 a 1 1 0 0 0 -20 -20 m 5 5 l 10 10 m 0 -10 l -10 10')
+    }
+
+    #svgButton path:hover,
+    #svgButton path:active,
+    #svgButton path:focus,
+    #svgButton.active path {
+      fill: #ddd;
+    }
+
+    .buttonOnTop {
+      position: relative;
+      top: 40px;
+      margin-bottom: -40px;
+      left: 500px;
+      margin-right: -500px;
+      z-index: 1;
+      float: left;
+    }
+
+    .buttonOnTop span {
+      z-index: -1;
+    }
+
+
+
+    .bs-logo-link {
+      display: block;
+      font-family: sans-serif;
+      color: black;
+      text-decoration: none;
+      padding: 3px 0px 10px 0px;
+    }
+
+    .bs-logo-title {
+      padding-top: 17px;
+      font-size: 11px;
+    }
+
+    .bs-logo-text {
+      padding-top: 3px;
+      font-weight: 700;
+      font-size: 15px
+    }
+
+
+    @media print {
+
+      .bs-logo-link {
+        display: block;
+        font-family: sans-serif;
+        color: black;
+        text-decoration: none;
+        padding: 10px 0px 10px 0px;
+      }
+
+      .bs-logo-title {
+        padding-top: 17px;
+        font-size: 11px;
+      }
+
+      .bs-logo-text {
+        padding-top: 7px;
+        font-weight: 700;
+        font-size: 15px
+      }
+
+      body {
+        background-color: #fcfcfc;
+        font-family: sans-serif;
+      }
+
+      .highcharts-container {
+        margin-left: 41px;
+      }
+
+      h1 {
+        font-size: 8pt;
+        text-transform: uppercase;
+        letter-spacing: none;
+        font-weight: bold;
+        color: #204453;
+        line-height: 100%;
+        margin-top: 14px;
+        margin-bottom: 8px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .lesehilfe {
+        width: 468px;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      .lesehilfe a {
+        color: #246036;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .link-icon {
+        height: 12px;
+        width: 15px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      #bs-nav {
+        display: none;
+      }
+
+    }
+  </style>
+
+  <script type="text/javascript">
+    /* Handmade Button */
+    $(document).ready(function () {
+      $('#svgButton').click(function () {
+        if ($("#svgButton").hasClass('active')) { var show = true; } else { var show = false; }
+        if (show) {
+          $("#svgButton").removeClass('active');
+          $("#overlay").addClass('hidden');
+
+          /*$("#button_i").text('i');*/
+          $("#svgButton").prop('title', 'Lesehilfe und Erläuterungen einblenden');
+        } else {
+          $("#svgButton").addClass('active');
+          $("#overlay").removeClass('hidden');
+
+          /*$("#button_i").text('x');*/
+          $("#svgButton").prop('title', 'Lesehilfe und Erläuterungen ausblenden');
+        }
+      });
+    });
+  </script>
+
+
+</head>
+
+<body style="margin: 0;">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KGK459');</script>
+  <!-- End Google Tag Manager -->
+
+  <div id='header' class='hidden'>
+    <div id="bs-logo">
+      <a class='bs-logo-link'
+        style='display: block; font-family: Arial, sans-serif; color: black; text-decoration: none; padding: 10px 0px 10px 0px;'
+        href="http://www.statistik.bs.ch" title="Startseite">
+        <img class='bs-logo-img' style='float: left; padding: 0px 20px;' src="assets/img/logo-print.png"
+          alt="Logo Kanton Basel-Stadt" />
+        <div class='bs-logo-title' style='padding-top: 17px; font-size: 11px'>Präsidialdepartement des Kantons
+          Basel-Stadt</div>
+        <div class='bs-logo-text' style='padding-top: 3px; font-weight: 700; font-size: 15px'>Statistisches Amt</div>
+      </a>
+    </div>
+
+    <div style='clear: both;'></div>
+
+    <div id='bs-nav'
+      style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
+      <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;'
+        href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
+        Indikatorenportal
+      </a>
+    </div>
+  </div>
+
+  <!-- template for chart plus details -->
+  <span class="buttonOnTop">
+    <span id="button_i" class="link" title="Lesehilfe und Erläuterungen einblenden">
+      <svg id="svgButton" viewBox="-1 -1 32 32" preserveAspectRatio="xMaxYMid meet" xmlns="http://www.w3.org/2000/svg"><path></svg>
+    </span>
+  </span>
+
+  <script id="indikator-template-modal-portal" type="text/html">
+      <div class="item">
+
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <h1 id='title' class=<%= (hideTitle ? "'hidden'": "''" ) %>><%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %></h1>
+        
+<div id='overlay' class="hidden">
+<div id="overlayContent">
+        <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
+          <h1 id='lesehilfeTitle' class=<%= ((hideLesehilfeTitle) ? "'hidden'": "''" ) %>>Lesehilfe</h1>
+          <div class='lesehilfe'><%= lesehilfe %>
+          </div>
+        </div>                      
+        <div id='erlaeuterungen' class=<%= ((hideErlaeuterungen || erlaeuterungen==="") ? "'hidden'": "''" ) %>>
+          <h1 id='erlaeuterungeTitle'  class=<%= ((hideErlaeuterungenTitle) ? "'hidden'": "''" ) %>>Erläuterungen  und methodische Hinweise</h1>
+          <div class='lesehilfe'><%= erlaeuterungen %>
+          </div>
+        </div>
+        <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link', hideLinks, hideLinksTitle) %>
+      </div>
+</div>
+
+      </div>
+    </script>
+
+
+
+  <script type="text/javascript">
+
+
+
+    /*  
+    global $
+    global templatesById
+    global lazyRenderChartById
+    global templateBuilder
+    */
+
+
+    var id = parseInt(window.decodeURIComponent($.url('?id')), 10);
+
+    var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+    var view = window.decodeURIComponent($.url('?view'));
+    if (!(view == 'indikatorenset' || view == 'portal' || view == 'print')) {
+      view = indikatorensetView;
+    }
+
+    //retrieve url parameters to control display of elements on page
+    var hideHeader = window.decodeURIComponent($.url('?hideHeader')) === 'true';
+    var hideTitle = window.decodeURIComponent($.url('?hideTitle')) === 'true';
+    var hideLesehilfe = window.decodeURIComponent($.url('?hideLesehilfe')) === 'true';
+    var hideLesehilfeTitle = window.decodeURIComponent($.url('?hideLesehilfeTitle')) === 'true';
+    var hideErlaeuterungen = window.decodeURIComponent($.url('?hideErlaeuterungen')) === 'true';
+    var hideErlaeuterungenTitle = window.decodeURIComponent($.url('?hideErlaeuterungenTitle')) === 'true';
+    var hideLinks = window.decodeURIComponent($.url('?hideLinks')) === 'true';
+    var hideLinksTitle = window.decodeURIComponent($.url('?hideLinksTitle')) === 'true';
+
+    //unhide header
+    if (!hideHeader) {
+      $('#header').removeClass('hidden');
+    }
+
+
+    //check if id is member in the list of existing charts
+    if (templatesById[id]) {
+      $.getJSON('metadata/single/' + id + '.json').done(function (chartMetadata, textStatus) {
+        //retrieve template and merge with json to create html
+        var html = $('#indikator-template-modal-portal').html();
+        var templateFunction = templateBuilder(html);
+        //append generated html
+        var container = $('body');
+        container.append(templateFunction(chartMetadata));
+        //render chart. if header is hidden, remove left margin in callback
+        lazyRenderChartById(id, chartMetadata, view, true, (hideHeader ? removeLeftMargin : undefined));
+      });
+    }
+    else {
+      //display error message
+      $('body').append('<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein Chart mit diesem Kürzel bzw. dieser id gefunden.</p></div></div>');
+    }
+
+    function removeLeftMargin() {
+      //decrease left margin some pixels
+      $('.item h1, div.lesehilfe, .highcharts-container').css("margin-left", function (index, value) {
+        return parseInt(value, 10) - 40;
+      });
+    }
+
+  </script>
+
+</body>
+
+</html>
