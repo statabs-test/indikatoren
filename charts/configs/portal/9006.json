@@ -27,6 +27,10 @@
         [
           "2020",
           875.170395
+        ],
+        [
+          "2022",
+          752.528753
         ]
       ],
       "name": "Bezug ausserkantonal",
@@ -59,6 +63,10 @@
         [
           "2020",
           283
+        ],
+        [
+          "2022",
+          246
         ]
       ],
       "name": "Wasserkraft",
@@ -91,6 +99,10 @@
         [
           "2020",
           26.104851
+        ],
+        [
+          "2022",
+          39.35076
         ]
       ],
       "name": "Photovoltaik",
@@ -123,6 +135,10 @@
         [
           "2020",
           167.638687
+        ],
+        [
+          "2022",
+          202.422143
         ]
       ],
       "name": "Thermische Erzeugung",
@@ -161,7 +177,11 @@
         ],
         [
           "2020",
-          32.982863874
+          32.615893674
+        ],
+        [
+          "2022",
+          32.343884321
         ]
       ],
       "name": "Anteil Elektrizität am Endenergieverbrauch (rechte Skala)",
@@ -321,7 +341,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total Endverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
+    "footerFormat": "Total Endverbrauch Elektrizität: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
     "shared": true,
     "useHTML": true,
     "outside": true,

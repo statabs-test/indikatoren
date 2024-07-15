@@ -1,4 +1,5 @@
 var indikatorensetNames = [
+	"Energiestatistik (Print)",
 	"Arbeitsmarkt",
 	"Nachhaltigkeit",
 	"Legislaturplan",
@@ -43,7 +44,6 @@ var indikatorensetNames = [
 	"Staedtevergleich",
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
-	"Energiestatistik (Print)",
 	"Schluesselindikatoren",
 	"Test"
 ];

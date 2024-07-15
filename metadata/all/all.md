@@ -2206,14 +2206,22 @@ id | visible | visibleInPortal | indikatorenset
 9624 | true | true | Energiestatistik
 9625 | true | true | 
 9636 | true | false | Energiestatistik (Print)
+9637 | false |  | Energiestatistik (Print)
+9638 | false |  | Energiestatistik (Print)
+9639 | false |  | Energiestatistik (Print)
+9640 | false |  | Energiestatistik (Print)
 9641 | true | false | Energiestatistik (Print)
+9642 | false |  | Energiestatistik (Print)
 9643 | true | false | Energiestatistik (Print)
+9644 | false |  | Energiestatistik (Print)
+9645 | false |  | Energiestatistik (Print)
 9646 | true | false | Energiestatistik (Print)
 9647 | true | false | Energiestatistik (Print)
 9648 | true | false | Energiestatistik (Print)
 9649 | true | false | Energiestatistik (Print)
 9650 | true | false | Energiestatistik (Print)
 9651 | true | false | Energiestatistik (Print)
+9652 | false |  | Energiestatistik (Print)
 9653 | true | false | Energiestatistik (Print)
 9654 | true | false | Energiestatistik (Print)
 9655 | true | false | Energiestatistik (Print)
@@ -2266,3 +2274,8 @@ id | visible | visibleInPortal | indikatorenset
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+12669 | true | false | Energiestatistik (Print)
+12670 | true | false | Energiestatistik (Print)
+12671 | true | false | Energiestatistik (Print)
+12672 | true | false | Energiestatistik (Print)
+12673 | true | false | Energiestatistik (Print)
