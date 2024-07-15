@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2022 um rund 31% abgenommen. Auf die Kategorie Wohnen (Anteil 2022: 38,7%) entfällt dabei 2022 einen höheren Energieeinsatz wie 2010, unteranderem wegen einer Zunahme der Energiebezugsfläche in diesem Zeitraum. Stark zurückgegangen ist der Verbrauch in der Kategorie Nichtwohnen (Anteil 2022: 44,5%), nämlich von 3 060 GWh auf 1 633 GWh, was einer Reduktion um 46,6% entspricht. In der Kategorie Verkehr (Anteil 2022: 16,8%) ist 2022 gegenüber 2018 ein starker Rückgang ersichtlich, wobei dieser vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustandegekommen ist.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2022 um rund 31% abgenommen. Auf die Kategorie Wohnen (Anteil 2022: 38,7%) entfällt dabei 2022 einen höheren Energieeinsatz wie 2010, unteranderem wegen einer Zunahme der Energiebezugsfläche in diesem Zeitraum. Stark zurückgegangen ist der Verbrauch in der Kategorie Nichtwohnen (Anteil 2022: 44,5%), nämlich von 3 060 GWh auf 1 633 GWh, was einer Reduktion um 46,6% entspricht. In der Kategorie Verkehr (Anteil 2022: 16,8%) ist 2022 gegenüber 2018 ein starker Rückgang ersichtlich, wobei dieser vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustande gekommen ist.",
 		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt. Daher ist die Summe des Verbrauchs der drei abgebildeten Verbrauchergruppen kleiner als der totale Endverbrauch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -461,7 +461,7 @@ var indikatorensetData = [
 		"title": "Endenergieverbrauch nach Energieträger und Verbrauchergruppe",
 		"subtitle": "in GWh, 2022, Basel-Stadt",
 		"lesehilfe": "Der Bereich Nichtwohnen stellte mit insgesamt 1 633 GWh im Jahr 2022 die grösste Verbrauchergruppe dar, gefolgt vom Wohnen mit total 1 420 GWh und dem Verkehr mit 617 GWh. Bei den Verbrauchergruppen Wohnen und Nichtwohnen stellen Fernwärme, Elektrizität und Erdgas die Energieträger mit den grössten Anteilen dar. Beim Verkehr sind es nach wie vor Benzin und Diesel; Elektrizität macht hier einen sehr geringen Teil aus.",
-		"erlaeuterungen": "Unter Erdgas ist Biogas mit aufgeführt. Der Treibstoffverbrauch wurde aufgrund des im Jahr 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. Coronabedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt. Die Elektrizität beim Verkehr umfasst sowohl den Verbrauch des motorisierten Individualverkehrs wie auch des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Unter Erdgas ist Biogas mit aufgeführt. Der Treibstoffverbrauch für 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt. Die Elektrizität beim Verkehr umfasst sowohl den Verbrauch des motorisierten Individualverkehrs wie auch des öffentlichen Verkehrs. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -609,7 +609,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Veränderung der Energiebezugsfläche",
 		"subtitle": "in Quadratmeter, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 beträgt der Saldo im Bereich Wohnen 86 927 Quadratmeter. Im Gegensatz dazu betrug der Saldo im Nichtwohnbau –50 059 Quadratmeter.",
+		"lesehilfe": "Im Jahr 2022 beträgt der Saldo im Bereich Wohnen plus 86 927 Quadratmeter. Im Gegensatz dazu betrug der Saldo im Nichtwohnbau minus 50 059 Quadratmeter.",
 		"erlaeuterungen": "Bei der Energiebezugsfläche handelt es sich um die Gebäudefläche, die von einer Anlage beheizt wird. Ermittelt wird diese durch Multiplikation der Gebäudegrundfläche mit der Anzahl oberirdischer Stockwerke. Ein positiver Saldo der Energiebezugsfläche resultiert, wenn im Vergleich zum Vorjahr mehr Fläche neu gebaut als abgebrochen wird. Erste verlässliche Zahlen sind für das Jahr 2012 verfügbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
