@@ -99,8 +99,8 @@ var indikatorensetData = [
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2022 um rund 31% abgenommen. Auf die Kategorie Wohnen (Anteil 2022: 38,7%) entfällt dabei 2022 einen höheren Energieeinsatz wie 2010, unteranderem wegen einer Zunahme der Energiebezugsfläche in diesem Zeitraum. Stark zurückgegangen ist der Verbrauch in der Kategorie Nichtwohnen (Anteil 2022: 44,5%), nämlich von 3 060 GWh auf 1 633 GWh, was einer Reduktion um 46,6% entspricht. In der Kategorie Verkehr (Anteil 2022: 16,8%) ist 2022 gegenüber 2018 ein starker Rückgang ersichtlich, wobei dieser vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustande gekommen ist.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt. Daher ist die Summe des Verbrauchs der drei abgebildeten Verbrauchergruppen kleiner als der totale Endverbrauch.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2022 um rund 31% abgenommen. Auf die Kategorie Wohnen (Anteil 2022: 38,7%) entfällt 2022 ein höherer Energieeinsatz als 2010; dies unter anderem wegen einer Zunahme der Energiebezugsfläche in diesem Zeitraum. Der Verbrauch in der Kategorie Nichtwohnen ist stark zurückgegangen (Anteil 2022: 44,5%), von 3 060 GWh auf 1 633 GWh. Dies ist eine Reduktion um 46,6%. In der Kategorie Verkehr (Anteil 2022: 16,8%) ist 2022 gegenüber 2018 ein starker Rückgang ersichtlich. Dieser ist  vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustande gekommen.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden. Zum Wohnen gehören private Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt. Daher ist die Summe des Verbrauchs der drei abgebildeten Verbrauchergruppen kleiner als der totale Endverbrauch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -296,8 +296,8 @@ var indikatorensetData = [
 		],
 		"title": "Endenergieverbrauch nach Energieträger und Verbrauchergruppe",
 		"subtitle": "in GWh, 2022, Basel-Stadt",
-		"lesehilfe": "Der Bereich Nichtwohnen stellte mit insgesamt 1 633 GWh im Jahr 2022 die grösste Verbrauchergruppe dar, gefolgt vom Wohnen mit total 1 420 GWh und dem Verkehr mit 617 GWh. Bei den Verbrauchergruppen Wohnen und Nichtwohnen stellen Fernwärme, Elektrizität und Erdgas die Energieträger mit den grössten Anteilen dar. Beim Verkehr sind es nach wie vor Benzin und Diesel; Elektrizität macht hier einen sehr geringen Teil aus.",
-		"erlaeuterungen": "Unter Erdgas ist Biogas mit aufgeführt. Der Treibstoffverbrauch für 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt. Die Elektrizität beim Verkehr umfasst sowohl den Verbrauch des motorisierten Individualverkehrs wie auch des öffentlichen Verkehrs. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt.",
+		"lesehilfe": "Der Bereich Nichtwohnen stellte mit insgesamt 1 633 GWh im Jahr 2022 die grösste Verbrauchergruppe dar. Es folgen Wohnen mit total 1 420 GWh und Verkehr mit 617 GWh. Bei den Verbrauchergruppen Wohnen und Nichtwohnen stellen Fernwärme, Elektrizität und Erdgas die Energieträger mit den grössten Anteilen dar. Beim Verkehr sind es nach wie vor Benzin und Diesel; Elektrizität macht hier einen sehr geringen Teil aus.",
+		"erlaeuterungen": "Unter Erdgas ist Biogas mit aufgeführt. Der Treibstoffverbrauch für 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt. Die Elektrizität beim Verkehr umfasst sowohl den Verbrauch des motorisierten Individualverkehrs wie auch des öffentlichen Verkehrs. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -493,7 +493,7 @@ var indikatorensetData = [
 		"title": "Wohngebäude nach Energieträger: Elektrizität",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2022 wies das Wohnviertel Hirzbrunnen die grösste Anzahl Wohngebäude auf, die mit Elektrizität geheizt werden: 61 Gebäude. Gleichzeitig war Hirzbrunnen das Wohnviertel mit dem grössten Anteil an Wohngebäuden mit elektrischer Heizung.",
-		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z.B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
+		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z. B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -532,7 +532,7 @@ var indikatorensetData = [
 		"title": "Wohngebäude nach Energieträger: Fernwärme",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2022 wurden in der Gemeinde Riehen 1 394 Wohngebäude mit Fernwärme beheizt. St. Johann war das Wohnviertel mit dem grössten Anteil an Wohngebäuden, die mit Fernwärme beheizt wurden.",
-		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z.B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
+		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z. B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -571,7 +571,7 @@ var indikatorensetData = [
 		"title": "Wohngebäude nach Energieträger: Erdgas",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Mit 1 907 mit Erdgas beheizten Wohngebäuden war die Gemeinde Riehen das Wohnviertel mit der grössten Anzahl an Wohngebäuden mit dem Hauptenergieträger Erdgas. Das Wohnviertel Wettstein wies mit 72,7% den grössten Anteil an Wohngebäuden aus, die mit Erdgas beheizt wurden.",
-		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z.B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
+		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z. B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -610,7 +610,7 @@ var indikatorensetData = [
 		"title": "Wohngebäude nach Energieträger: Heizöl",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2022 wurde in Bettingen am meisten mit Heizöl geheizt, nämlich in 24,4% der Wohngebäude. Die Gemeinde Riehen wies die grösste Anzahl an Wohngebäuden mit dem Heizsystem Heizöl auf, nämlich 521.",
-		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z.B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
+		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z. B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -649,7 +649,7 @@ var indikatorensetData = [
 		"title": "Wohngebäude nach Energieträger: Wärmepumpe",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2022 wurde in der Gemeinde Bettingen am meisten mit Wärmepumpen geheizt, in 12,7% der Wohngebäude. Die Gemeinde Riehen wies die grösste Anzahl an Wohngebäuden mit dem Hauptenergieträger Wärmepumpe auf, nämlich 277.",
-		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z.B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
+		"erlaeuterungen": "Wohngebäude nach Energieträger der Hauptheizung. Zweitheizungen (z. B. Kamin) und Warmwasserbereitung mit anderen Energieträgern werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
