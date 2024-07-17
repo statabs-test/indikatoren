@@ -4,127 +4,10 @@
       "color": "#9E7C59",
       "index": 5,
       "legendIndex": 0,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
-        [
-          "2014: Pestalozzi",
-          32
-        ],
-        [
-          "2014: Lysbüchel",
-          45
-        ],
-        [
-          "2014: Landskron",
-          60
-        ],
-        [
-          "2014: Kannenfeld",
-          25
-        ],
-        [
-          "2014: Friedmatt",
-          139
-        ],
-        [
-          "2015: Pestalozzi",
-          32
-        ],
-        [
-          "2015: Lysbüchel",
-          44
-        ],
-        [
-          "2015: Landskron",
-          55
-        ],
-        [
-          "2015: Kannenfeld",
-          27
-        ],
-        [
-          "2015: Friedmatt",
-          139
-        ],
-        [
-          "2016: Pestalozzi",
-          30
-        ],
-        [
-          "2016: Lysbüchel",
-          49
-        ],
-        [
-          "2016: Landskron",
-          44
-        ],
-        [
-          "2016: Kannenfeld",
-          22
-        ],
-        [
-          "2016: Friedmatt",
-          132
-        ],
-        [
-          "2017: Pestalozzi",
-          30
-        ],
-        [
-          "2017: Lysbüchel",
-          49
-        ],
-        [
-          "2017: Landskron",
-          44
-        ],
-        [
-          "2017: Kannenfeld",
-          23
-        ],
-        [
-          "2017: Friedmatt",
-          132
-        ],
-        [
-          "2018: Pestalozzi",
-          30
-        ],
-        [
-          "2018: Lysbüchel",
-          49
-        ],
-        [
-          "2018: Landskron",
-          45
-        ],
-        [
-          "2018: Kannenfeld",
-          18
-        ],
-        [
-          "2018: Friedmatt",
-          131
-        ],
-        [
-          "2019: Pestalozzi",
-          29
-        ],
-        [
-          "2019: Lysbüchel",
-          46
-        ],
-        [
-          "2019: Landskron",
-          40
-        ],
-        [
-          "2019: Kannenfeld",
-          15
-        ],
-        [
-          "2019: Friedmatt",
-          126
-        ],
         [
           "2020: Pestalozzi",
           29
@@ -213,127 +96,10 @@
       "color": "#C4AB91",
       "index": 4,
       "legendIndex": 1,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
-        [
-          "2014: Pestalozzi",
-          12
-        ],
-        [
-          "2014: Lysbüchel",
-          35
-        ],
-        [
-          "2014: Landskron",
-          10
-        ],
-        [
-          "2014: Kannenfeld",
-          18
-        ],
-        [
-          "2014: Friedmatt",
-          56
-        ],
-        [
-          "2015: Pestalozzi",
-          12
-        ],
-        [
-          "2015: Lysbüchel",
-          34
-        ],
-        [
-          "2015: Landskron",
-          14
-        ],
-        [
-          "2015: Kannenfeld",
-          17
-        ],
-        [
-          "2015: Friedmatt",
-          60
-        ],
-        [
-          "2016: Pestalozzi",
-          9
-        ],
-        [
-          "2016: Lysbüchel",
-          27
-        ],
-        [
-          "2016: Landskron",
-          14
-        ],
-        [
-          "2016: Kannenfeld",
-          15
-        ],
-        [
-          "2016: Friedmatt",
-          48
-        ],
-        [
-          "2017: Pestalozzi",
-          9
-        ],
-        [
-          "2017: Lysbüchel",
-          25
-        ],
-        [
-          "2017: Landskron",
-          14
-        ],
-        [
-          "2017: Kannenfeld",
-          15
-        ],
-        [
-          "2017: Friedmatt",
-          47
-        ],
-        [
-          "2018: Pestalozzi",
-          9
-        ],
-        [
-          "2018: Lysbüchel",
-          24
-        ],
-        [
-          "2018: Landskron",
-          15
-        ],
-        [
-          "2018: Kannenfeld",
-          14
-        ],
-        [
-          "2018: Friedmatt",
-          46
-        ],
-        [
-          "2019: Pestalozzi",
-          7
-        ],
-        [
-          "2019: Lysbüchel",
-          17
-        ],
-        [
-          "2019: Landskron",
-          13
-        ],
-        [
-          "2019: Kannenfeld",
-          11
-        ],
-        [
-          "2019: Friedmatt",
-          34
-        ],
         [
           "2020: Pestalozzi",
           7
@@ -422,127 +188,10 @@
       "color": "#FFDA80",
       "index": 3,
       "legendIndex": 2,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
-        [
-          "2014: Pestalozzi",
-          260
-        ],
-        [
-          "2014: Lysbüchel",
-          95
-        ],
-        [
-          "2014: Landskron",
-          342
-        ],
-        [
-          "2014: Kannenfeld",
-          196
-        ],
-        [
-          "2014: Friedmatt",
-          354
-        ],
-        [
-          "2015: Pestalozzi",
-          260
-        ],
-        [
-          "2015: Lysbüchel",
-          96
-        ],
-        [
-          "2015: Landskron",
-          345
-        ],
-        [
-          "2015: Kannenfeld",
-          195
-        ],
-        [
-          "2015: Friedmatt",
-          348
-        ],
-        [
-          "2016: Pestalozzi",
-          263
-        ],
-        [
-          "2016: Lysbüchel",
-          94
-        ],
-        [
-          "2016: Landskron",
-          360
-        ],
-        [
-          "2016: Kannenfeld",
-          201
-        ],
-        [
-          "2016: Friedmatt",
-          366
-        ],
-        [
-          "2017: Pestalozzi",
-          263
-        ],
-        [
-          "2017: Lysbüchel",
-          97
-        ],
-        [
-          "2017: Landskron",
-          360
-        ],
-        [
-          "2017: Kannenfeld",
-          200
-        ],
-        [
-          "2017: Friedmatt",
-          368
-        ],
-        [
-          "2018: Pestalozzi",
-          267
-        ],
-        [
-          "2018: Lysbüchel",
-          98
-        ],
-        [
-          "2018: Landskron",
-          364
-        ],
-        [
-          "2018: Kannenfeld",
-          208
-        ],
-        [
-          "2018: Friedmatt",
-          372
-        ],
-        [
-          "2019: Pestalozzi",
-          276
-        ],
-        [
-          "2019: Lysbüchel",
-          104
-        ],
-        [
-          "2019: Landskron",
-          381
-        ],
-        [
-          "2019: Kannenfeld",
-          215
-        ],
-        [
-          "2019: Friedmatt",
-          403
-        ],
         [
           "2020: Pestalozzi",
           276
@@ -631,127 +280,10 @@
       "color": "#C9D6DB",
       "index": 2,
       "legendIndex": 3,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
-        [
-          "2014: Pestalozzi",
-          32
-        ],
-        [
-          "2014: Lysbüchel",
-          85
-        ],
-        [
-          "2014: Landskron",
-          59
-        ],
-        [
-          "2014: Kannenfeld",
-          18
-        ],
-        [
-          "2014: Friedmatt",
-          116
-        ],
-        [
-          "2015: Pestalozzi",
-          33
-        ],
-        [
-          "2015: Lysbüchel",
-          89
-        ],
-        [
-          "2015: Landskron",
-          62
-        ],
-        [
-          "2015: Kannenfeld",
-          14
-        ],
-        [
-          "2015: Friedmatt",
-          123
-        ],
-        [
-          "2016: Pestalozzi",
-          28
-        ],
-        [
-          "2016: Lysbüchel",
-          85
-        ],
-        [
-          "2016: Landskron",
-          58
-        ],
-        [
-          "2016: Kannenfeld",
-          16
-        ],
-        [
-          "2016: Friedmatt",
-          126
-        ],
-        [
-          "2017: Pestalozzi",
-          28
-        ],
-        [
-          "2017: Lysbüchel",
-          82
-        ],
-        [
-          "2017: Landskron",
-          57
-        ],
-        [
-          "2017: Kannenfeld",
-          16
-        ],
-        [
-          "2017: Friedmatt",
-          123
-        ],
-        [
-          "2018: Pestalozzi",
-          27
-        ],
-        [
-          "2018: Lysbüchel",
-          82
-        ],
-        [
-          "2018: Landskron",
-          49
-        ],
-        [
-          "2018: Kannenfeld",
-          14
-        ],
-        [
-          "2018: Friedmatt",
-          124
-        ],
-        [
-          "2019: Pestalozzi",
-          21
-        ],
-        [
-          "2019: Lysbüchel",
-          81
-        ],
-        [
-          "2019: Landskron",
-          35
-        ],
-        [
-          "2019: Kannenfeld",
-          11
-        ],
-        [
-          "2019: Friedmatt",
-          110
-        ],
         [
           "2020: Pestalozzi",
           21
@@ -851,10 +383,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
+      }
     },
     "min": 0,
     "tickInterval": 1
@@ -893,6 +422,7 @@
                 }
     },
     "type": "column",
+    "inverted": false,
     "renderTo": "container-12648",
     "spacingBottom": 40
   },
@@ -903,9 +433,12 @@
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 100,
-      "pointWidth": 20,
+      }
+    },
+    "column": {
+      "pointPadding": 0,
+      "groupPadding": 0,
+      "pointWidth": 1,
       "stacking": "normal"
     }
   },
@@ -942,8 +475,7 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickInterval": 100
+    }
   },
   "legend": {
     "symbolRadius": 0,
@@ -954,7 +486,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 5
+    "itemDistance": 10
   },
   "navigation": {
     "menuItemStyle": {

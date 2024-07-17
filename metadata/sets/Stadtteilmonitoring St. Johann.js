@@ -1412,8 +1412,7 @@ var indikatorensetData = [
 	},
 	{
 		"template": "template001",
-		"data-id": 12648,
-		"chart-id": 8085,
+		"chart-id": 12648,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -1449,8 +1448,7 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
-		"data-id": 12649,
-		"chart-id": 8086,
+		"chart-id": 12649,
 		"filter": "",
 		"parentId": null,
 		"children": [],

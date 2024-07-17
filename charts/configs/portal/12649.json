@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#9E7C59",
       "data": [
         [
           "2010",
@@ -36,7 +36,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#C4AB91",
       "data": [
         [
           "2010",
@@ -71,8 +71,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999",
-      "visible": false,
+      "color": "#FFDA80",
       "data": [
         [
           "2010",
@@ -104,6 +103,76 @@
         ]
       ],
       "name": "Stromverbrauch Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C9D6DB",
+      "data": [
+        [
+          "2010",
+          17.618352
+        ],
+        [
+          "2012",
+          46.2781
+        ],
+        [
+          "2014",
+          43.764027
+        ],
+        [
+          "2016",
+          50.761581
+        ],
+        [
+          "2018",
+          37.896438
+        ],
+        [
+          "2020",
+          37.248353
+        ],
+        [
+          "2022",
+          35.413446
+        ]
+      ],
+      "name": "Stromverbrauch Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2010",
+          7.7497
+        ],
+        [
+          "2012",
+          7.534004
+        ],
+        [
+          "2014",
+          7.992856
+        ],
+        [
+          "2016",
+          7.921633
+        ],
+        [
+          "2018",
+          7.867822
+        ],
+        [
+          "2020",
+          7.867822
+        ],
+        [
+          "2022",
+          7.260452
+        ]
+      ],
+      "name": "Stromverbrauch Pestalozzi",
       "turboThreshold": 0
     }
   ],

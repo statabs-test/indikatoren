@@ -5,7 +5,7 @@
         pointPadding: 0,
         groupPadding: 0,
         //borderWidth: 0,
-        pointWidth: 10,
+        pointWidth: 5,
         stacking: "normal"
       }
     },
