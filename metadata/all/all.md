@@ -2264,6 +2264,13 @@ id | visible | visibleInPortal | indikatorenset
 9787 | true | true | Nachhaltigkeit
 9800 | true | true | 
 9862 | true | true | 
+9885 | true | true | Umwelt
+9886 | true | true | Umwelt
+9887 | true | true | Umwelt
+9888 | true | true | Umwelt
+9889 | true | true | Umwelt
+9890 | false |  | Umwelt
+9891 | true | true | Umwelt
 9915 | true | true | Soziales
 9916 | true | true | Soziales
 9917 | true | true | Soziales

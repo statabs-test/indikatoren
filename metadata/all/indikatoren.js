@@ -5749,8 +5749,8 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-03T08:52:05",
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2024-07-17T04:09:22",
 		"id": 4221
 	},
 	{
@@ -5791,7 +5791,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:04",
+		"aktualisierungsdatum": "2024-07-17T04:09:19",
 		"id": 4222
 	},
 	{
@@ -5832,7 +5832,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:06",
+		"aktualisierungsdatum": "2024-07-17T04:09:23",
 		"id": 4223
 	},
 	{
@@ -5873,7 +5873,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:06",
+		"aktualisierungsdatum": "2024-07-17T04:09:24",
 		"id": 4224
 	},
 	{
@@ -5914,7 +5914,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:07",
+		"aktualisierungsdatum": "2024-07-17T04:09:25",
 		"id": 4225
 	},
 	{
@@ -5956,7 +5956,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:08",
+		"aktualisierungsdatum": "2024-07-17T04:09:27",
 		"id": 4226
 	},
 	{
@@ -5997,7 +5997,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:08",
+		"aktualisierungsdatum": "2024-07-17T04:09:28",
 		"id": 4227
 	},
 	{
@@ -6038,7 +6038,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:09",
+		"aktualisierungsdatum": "2024-07-17T04:09:29",
 		"id": 4228
 	},
 	{
@@ -6079,7 +6079,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:10",
+		"aktualisierungsdatum": "2024-07-17T04:09:30",
 		"id": 4229
 	},
 	{
@@ -6120,7 +6120,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:04",
+		"aktualisierungsdatum": "2024-07-17T04:09:20",
 		"id": 4230
 	},
 	{
@@ -6707,6 +6707,8 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Entwicklung der Bodennutzung nach Nutzungsart.<br><br>Der Indikator berücksichtigt die vier Hauptkategorien der Arealstatistik (Standardnomenklatur NOAS04):<br>- Siedlungsflächen<br>- Landwirtschaftsflächen<br>- Bestockte Flächen (Wald und Gehölze)<br>- Unproduktive Flächen (Gewässer, Fels und Geröll etc.)<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3'698 Punkte, im Kanton Basel-Landschaft 51'774 Punkte). <br><br>Die hier dargestellten Werte zur Landwirtschaftsfläche sind nicht zwingend identisch mit der landwirtschaftlichen Nutzfläche gemäss der landwirtschaftlichen Betriebsstrukturerhebung (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Arealstatistik",
+			"Bundesamt für Statistik, Arealstatistik",
 			"Bundesamt für Statistik, Arealstatistik"
 		],
 		"externalLinks": [
@@ -6733,7 +6735,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:02",
+		"aktualisierungsdatum": "2024-07-17T04:09:16",
 		"id": 4249
 	},
 	{
@@ -6748,6 +6750,9 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Der Indikator zeigt den prozentualen Anteil der verschiedenen Nutzungstypen an der gesamten landwirtschaftlichen Nutzfläche.<br><br>Die Daten zur landwirtschaftlichen Nutzfläche werden im Rahmen der landwirtschaftlichen Betriebsstrukturerhebung vom Bundesamt für Statistik (BFS) erhoben. Die Erhebung basiert auf der Koordination der administrativen Daten, welche im Rahmen der Direktzahlungsverordnung anfallen.<br><br>Als landwirtschaftliche Nutzfläche gilt die einem Betrieb zugeordnete, für den Pflanzenbau genutzte Fläche (ohne Sömmerungsflächen), die dem Bewirtschafter ganzjährig zur Verfügung steht und die ausschliesslich vom Betrieb aus bewirtschaftet wird. Unter die Kategorie «Übrige» fallen beispielsweise Hecken oder Feldgehölze. Detaillierte Angaben zu den Begriffen der landwirtschaftlichen Strukturerhebung sind unter den weiterführenden Informationen zu finden (Landwirtschaftliche Begriffsverordnung).<br><br>Die hier dargestellten Werte zur landwirtschaftlichen Nutzfläche sind nicht zwingend identisch mit der Landwirtschaftsfläche gemäss Arealstatistik (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchen der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
 			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung"
 		],
 		"externalLinks": [
@@ -6774,7 +6779,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:03",
+		"aktualisierungsdatum": "2024-07-17T04:09:17",
 		"id": 4250
 	},
 	{
@@ -6815,7 +6820,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:02",
+		"aktualisierungsdatum": "2024-07-17T04:09:15",
 		"id": 4252
 	},
 	{
@@ -6857,7 +6862,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:01",
+		"aktualisierungsdatum": "2024-07-17T04:09:13",
 		"id": 4253
 	},
 	{
@@ -6872,6 +6877,9 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Der Indikator zeigt die Entwicklung der landwirtschaftlichen Nutzfläche insgesamt sowie die Anteile der verschiedenen Nutzungskategorien.<br><br>Die Daten zur landwirtschaftlichen Nutzfläche werden im Rahmen der landwirtschaftlichen Strukturerhebung vom Bundesamt für Statistik (BFS) erhoben. Die Erhebung basiert auf der Koordination der administrativen Daten, welche im Rahmen der Direktzahlungsverordnung anfallen.<br><br>Als landwirtschaftliche Nutzfläche gilt die einem Betrieb zugeordnete, für den Pflanzenbau genutzte Fläche (ohne Sömmerungsflächen), die dem Bewirtschafter ganzjährig zur Verfügung steht und die ausschliesslich vom Betrieb aus bewirtschaftet wird. Unter die Kategorie «Übrige landwirtschaftliche Nutzfläche» fallen beispielsweise Hecken oder Feldgehölze. Detaillierte Angaben zu den Begriffen der landwirtschaftlichen Strukturerhebung sind unter den weiterführenden Informationen zu finden (Landwirtschaftliche Begriffsverordnung).<br><br>Die hier dargestellten Werte zur landwirtschaftlichen Nutzfläche sind nicht zwingend identisch mit der Landwirtschaftsfläche gemäss Arealstatistik (BFS). In der landwirtschaftlichen Betriebsstrukturerhebung ist der Landwirtschaftsbetrieb die grundlegende statistische Einheit. Die Nutzfläche eines Betriebs wird jenem Kanton zugeteilt, in welchem der Betrieb registriert ist. Die Werte der Arealstatistik hingegen basieren auf der Auswertung von Luftbildern.",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
 			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung"
 		],
 		"externalLinks": [
@@ -6898,7 +6906,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:01",
+		"aktualisierungsdatum": "2024-07-17T04:09:14",
 		"id": 4254
 	},
 	{
@@ -6913,6 +6921,8 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Entwicklung der Siedlungsflächen absolut und pro Einwohner. Als Siedlungsflächen gelten in der Arealstatistik alle Flächen, bei welchen die Bodennutzung überwiegend durch Arbeiten, Wohnen, Erholung und Verkehr geprägt ist. Die Siedlungsflächen können somit auch ausserhalb der Bauzonen liegen. Zudem können sie auch Grünflächen enthalten, sofern diese Siedlungszwecken dienen (Erholungs- und Parkanlagen, Hausgärten, Golfplätze etc.).<br><br>Zu den Siedlungsflächen werden in der Arealstatistik die folgenden Kategorien gezählt (Standardnomenklatur NOAS04_17):<br>- Industrie- und Gewerbeareal<br>- Gebäudeareal<br>- Verkehrsflächen<br>- Besondere Siedlungsflächen (Deponien, Baustellen etc.)<br>- Erholungs- und Grünanlagen<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Stichpunktprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3'698 Punkte, im Kanton Basel-Landschaft 51'774 Punkte).<br><br>Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Arealstatistik",
+			"Bundesamt für Statistik, Arealstatistik",
 			"Bundesamt für Statistik, Arealstatistik"
 		],
 		"externalLinks": [
@@ -6940,7 +6950,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:00",
+		"aktualisierungsdatum": "2024-07-17T04:09:12",
 		"id": 4255
 	},
 	{
@@ -6981,7 +6991,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:55",
+		"aktualisierungsdatum": "2024-07-17T04:09:03",
 		"id": 4257
 	},
 	{
@@ -6999,7 +7009,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Kataster der belasteten Standorte im Kanton Basel-Stadt' target = '_blank'><a href=http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186 target=_blank rel=nofollow>http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186</a></a>",
+			"<a href = 'Kataster der belasteten Standorte im Kanton Basel-Stadt' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2615286&map_y=1266754&map_zoom=1&tree_groups=KBS&tree_group_layers_KBS=AK_KatasterDerBelastetenStandorte target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2615286&map_y=1266754&map_zoom=1&tree_groups=KBS&tree_group_layers_KBS=AK_KatasterDerBelastetenStandorte</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0205' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -7022,7 +7032,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:54",
+		"aktualisierungsdatum": "2024-07-17T04:09:01",
 		"id": 4258
 	},
 	{
@@ -7063,7 +7073,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:55",
+		"aktualisierungsdatum": "2024-07-17T04:09:02",
 		"id": 4259
 	},
 	{
@@ -7081,7 +7091,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Kataster der belasteten Standorte im Kanton Basel-Stadt' target = '_blank'><a href=http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186 target=_blank rel=nofollow>http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186</a></a>",
+			"<a href = 'Kataster der belasteten Standorte im Kanton Basel-Stadt' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2615286&map_y=1266754&map_zoom=1&tree_groups=KBS&tree_group_layers_KBS=AK_KatasterDerBelastetenStandorte target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2615286&map_y=1266754&map_zoom=1&tree_groups=KBS&tree_group_layers_KBS=AK_KatasterDerBelastetenStandorte</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0204' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -7104,7 +7114,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:54",
+		"aktualisierungsdatum": "2024-07-17T04:09:00",
 		"id": 4260
 	},
 	{
@@ -7122,7 +7132,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Kanton Basel-Stadt: Bauen auf belasteten Standorten' target = '_blank'><a href=http://www.aue.bs.ch/altlasten-boden/bauen-auf-belasteten-standorten.html target=_blank rel=nofollow>http://www.aue.bs.ch/altlasten-boden/bauen-auf-belasteten-standorten.html</a></a>",
+			"<a href = 'Kanton Basel-Stadt: Bauen auf belasteten Standorten' target = '_blank'><a href=https://www.aue.bs.ch/altlasten/bauen-auf-belasteten-standorten.html target=_blank rel=nofollow>https://www.aue.bs.ch/altlasten/bauen-auf-belasteten-standorten.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0208' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -7145,7 +7155,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:56",
+		"aktualisierungsdatum": "2024-07-17T04:09:04",
 		"id": 4261
 	},
 	{
@@ -7186,7 +7196,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:59",
+		"aktualisierungsdatum": "2024-07-17T04:09:11",
 		"id": 4262
 	},
 	{
@@ -7228,7 +7238,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:58",
+		"aktualisierungsdatum": "2024-07-17T04:09:09",
 		"id": 4263
 	},
 	{
@@ -7311,7 +7321,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:59",
+		"aktualisierungsdatum": "2024-07-17T04:09:10",
 		"id": 4265
 	},
 	{
@@ -7411,7 +7421,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Schallschutzfensterbeiträge<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html target=_blank rel=nofollow>https://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html</a><br><a href=https://www.admin.ch/opc/de/classified-compilation/19860372/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19860372/index.html</a></a>",
+			"<a href = 'Schallschutzfensterbeiträge<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html target=_blank rel=nofollow>https://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -7699,6 +7709,9 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Der Indikator zeigt den Rindviehbestand aller in den Kantonen Basel-Stadt und Basel-Landschaft registrierten Landwirtschaftsbetriebe.<br><br>Der Rindviehbestand wird im Rahmen der Landwirtschaftlichen Betriebsstrukturhebung durch das Bundesamt für Statistik für alle Kantone und Gemeinden nach schweizweit einheitlichen Kriterien und identischer Methodik ermittelt. Die Erhebung basiert auf der Koordination der administrativen Daten im Rahmen der Direktzahlungsverordnung. Die landwirtschaftliche Strukturerhebung berücksichtigt alle Landwirtschaftsbetriebe.",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
 			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung"
 		],
 		"externalLinks": [
@@ -8409,7 +8422,7 @@ var indikatoren = [
 		"description": "CO<sub>2</sub>-Emissionen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
-		"kuerzel": "",
+		"kuerzel": "I.02.5.04299",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "0808",
 		"stufe1": "Thema Klima",
@@ -8630,7 +8643,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:56",
+		"aktualisierungsdatum": "2024-07-17T04:09:05",
 		"id": 4305
 	},
 	{
@@ -8672,7 +8685,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:57",
+		"aktualisierungsdatum": "2024-07-17T04:09:06",
 		"id": 4306
 	},
 	{
@@ -8712,7 +8725,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:58",
+		"aktualisierungsdatum": "2024-07-17T04:09:08",
 		"id": 4307
 	},
 	{
@@ -8754,7 +8767,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:57",
+		"aktualisierungsdatum": "2024-07-17T04:09:07",
 		"id": 4308
 	},
 	{
@@ -9029,7 +9042,7 @@ var indikatoren = [
 		"description": "Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.4318",
+		"kuerzel": "I.01.1.04318",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1702",
 		"stufe1": "Thema Querschnittsindikatoren",
@@ -9166,7 +9179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:07",
+		"aktualisierungsdatum": "2024-07-17T04:09:26",
 		"id": 4321
 	},
 	{
@@ -9207,7 +9220,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:10",
+		"aktualisierungsdatum": "2024-07-17T04:09:33",
 		"id": 4322
 	},
 	{
@@ -9235,7 +9248,7 @@ var indikatoren = [
 		"description": "Bruttoinlandprodukt",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
-		"kuerzel": "I.04.1.4323",
+		"kuerzel": "",
 		"kennzahlenset": "Umwelt",
 		"kuerzelKunde": "1701",
 		"stufe1": "Thema Querschnittsindikatoren",
@@ -9329,7 +9342,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:52",
+		"aktualisierungsdatum": "2024-07-17T04:08:55",
 		"id": 4330
 	},
 	{
@@ -9371,7 +9384,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:49",
+		"aktualisierungsdatum": "2024-07-17T04:08:51",
 		"id": 4331
 	},
 	{
@@ -9413,7 +9426,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:53",
+		"aktualisierungsdatum": "2024-07-17T04:08:58",
 		"id": 4332
 	},
 	{
@@ -9455,7 +9468,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:53",
+		"aktualisierungsdatum": "2024-07-17T04:08:59",
 		"id": 4333
 	},
 	{
@@ -9497,7 +9510,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:50",
+		"aktualisierungsdatum": "2024-07-17T04:08:53",
 		"id": 4334
 	},
 	{
@@ -9535,7 +9548,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:52",
+		"aktualisierungsdatum": "2024-07-17T04:08:57",
 		"id": 4335
 	},
 	{
@@ -9576,7 +9589,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:51",
+		"aktualisierungsdatum": "2024-07-17T04:08:54",
 		"id": 4336
 	},
 	{
@@ -9618,7 +9631,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:49",
+		"aktualisierungsdatum": "2024-07-17T04:08:49",
 		"id": 4337
 	},
 	{
@@ -9659,7 +9672,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:51:50",
+		"aktualisierungsdatum": "2024-07-17T04:08:52",
 		"id": 4338
 	},
 	{
@@ -14504,6 +14517,8 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Anteil der Waldfläche an der gesamten Kantonsfläche.<br><br>Die Daten basieren auf der Arealstatistik. Der Wald gemäss Arealstatistik umfasst geschlossene und aufgelöste Waldflächen, jedoch nicht Gebüschwald und Gehölze.<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopografie (Punktstichprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3'698 Punkte, im Kanton Basel-Landschaft 51'774 Punkte).",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Arealstatistik",
+			"Bundesamt für Statistik, Arealstatistik",
 			"Bundesamt für Statistik, Arealstatistik"
 		],
 		"externalLinks": [
@@ -14546,6 +14561,9 @@ var indikatoren = [
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Anteil der biologisch bewirtschafteten Fläche in Prozent der gesamten landwirtschaftlichen Nutzfläche.<br><br>Die Daten werden im Rahmen der landwirtschaftlichen Betriebsstrukturerhebung vom Bundesamt für Statistik (BFS) erhoben. Die Erhebung basiert auf der Koordination der administrativen Daten, welche im Rahmen der Direktzahlungsverordnung anfallen.",
 		"quellenangabe": [
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
+			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung",
 			"Bundesamt für Statistik, Landwirtschaftliche Strukturerhebung"
 		],
 		"externalLinks": [
@@ -14573,7 +14591,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2023-08-03T08:52:03",
+		"aktualisierungsdatum": "2024-07-17T04:09:18",
 		"id": 5799
 	},
 	{
@@ -81097,6 +81115,254 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-06-29T08:06:39",
 		"id": 9862
+	},
+	{
+		"template": "template001",
+		"data-id": 9885,
+		"chart-id": 9885,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Endenergieverbrauch (ohne Mobilität)",
+		"subtitle": "in Gigawattstunden",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Endenergieverbrauch pro Jahr. Der Endverbrauch zeigt die Energie in der Form, wie sie beim Endverbraucher eingesetzt wird. Im Gegensatz dazu bildet der Bruttoenergieverbrauch die Energie in der Form ab, in der sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Endenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'Energiestatistik Kanton Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0614' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Endenergieverbrauch (ohne Mobilität)",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.02.1.09885",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "0614",
+		"stufe1": "Thema Energie",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2024-07-17T04:09:39",
+		"id": 9885
+	},
+	{
+		"template": "template001",
+		"data-id": 9886,
+		"chart-id": 9886,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Öffentliche Ladestationen für Elektrofahrzeuge",
+		"subtitle": "in Anzahl Ladestationen; Kilowatt (rechte Skala)",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt die Anzahl Ladestationen sowie die aufsummierte maximale Ladeleistung aller Ladestationen.<br><br>Endjahresbestand der Ladestationen und -leistung gemäss Daten der Webseite <a href=\"«https://www.ich-tanke-strom.ch»\" target=\"«_blank»\">ich-tanke-strom.ch</a>.",
+		"quellenangabe": [
+			"Bundesamt für Energie&nbsp;"
+		],
+		"externalLinks": [
+			"<a href = 'Kennzahlen öffentlich zugängliche Ladeinfrastruktur für Elektrofahrzeuge' target = '_blank'><a href=https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Elektromobilitaet/ target=_blank rel=nofollow>https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Elektromobilitaet/</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0812' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Öffentliche Ladestationen für Elektrofahrzeuge",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.09886",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "0812",
+		"stufe1": "Thema Klima",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "08_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2023-08-23T03:58:49",
+		"id": 9886
+	},
+	{
+		"template": "template001",
+		"data-id": 9887,
+		"chart-id": 9887,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Rheinschiffbarkeit",
+		"subtitle": "in Tage",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Aufgrund des Klimawandels können Hochwasserereignisse und Niedrigwasserpegel auf dem Rhein häufiger und in grösserer Intensität auftreten. Für die Rheinschifffahrt hat dies Transportunterbrüche bei Hochwasser und verringerte bis unterbrochene Transportleistungen bei Niedrigwasserpegel zur Folge.<br><br>Der Indikator gibt einerseits an, an wie vielen Tagen im Jahr der Gleichwertigen Wasserstand (GlW) unterschritten wird und andererseits, wie oft der kritische Hochwasserpegel von 7,9 m in Basel-Rheinhalle überschritten wird.<br>Beim GlW handelt es sich um einen charakteristischen Niedrigwasserstand, der statistisch an 20 eisfreien Tagen im Jahr unterschritten wird und der an den Richtpegeln des Rheins alle 10 Jahre von der Zentralkommission für die Rheinschifffahrt (ZKR) neu festgesetzt wird. Der GlW-Wert am Pegel Kaub liegt seit 01.01.2023 neu bei 77 cm (relativer Wert über dem Pegelnullpunkt).",
+		"quellenangabe": [
+			"Wasserstrassen- und Schifffahrtsverwaltung des Bundes (DE)"
+		],
+		"externalLinks": [
+			"<a href = 'Mittlerer Abfluss Station Rhein-Basel ' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MwMTkmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
+			"<a href = 'Aktuelle Pegel Basel<br>Aktueller Pegel Kaub<br>Daten Abfluss und Wasserstand Basel, Rheinhalle<br>Zentralkommission für die Rheinschifffahrt<br>Wasserstrassen im Bundesverkehrswegeplan 2030<br>Auswirkungen des Klimawandels auf die Abflussanteile aus' target = '_blank'><a href=https://port-of-switzerland.ch/hafenservice/pegel/ target=_blank rel=nofollow>https://port-of-switzerland.ch/hafenservice/pegel/</a><br><a href=https://www.elwis.de/DE/dynamisch/gewaesserkunde/wasserstaende/index.php?target=2&pegelId=1d26e504-7f9e-480a-b52c-5932be6549ab target=_blank rel=nofollow>https://www.elwis.de/DE/dynamisch/gewaesserkunde/wasserstaende/index.php?target=2&pegelId=1d26e504-7f9e-480a-b52c-5932be6549ab</a><br><a href=https://www.hydrodaten.admin.ch/de/2289</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0809' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Rheinschiffbarkeit",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.09887",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "0809",
+		"stufe1": "Thema Klima",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "08_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2023-08-23T03:58:49",
+		"id": 9887
+	},
+	{
+		"template": "template001",
+		"data-id": 9888,
+		"chart-id": 9888,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Tropennächte",
+		"subtitle": "in Anzahl Tropennächte",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Anzahl Nächte pro Jahr, in denen die Lufttemperatur nicht unter 20 °C sinkt. <br><br>Die Summe der Nächte eines Jahres, in denen die Lufttemperatur nicht unter 20 °C sinkt, ergibt die Anzahl Tropennächte pro Jahr. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann. Weiterführende Informationen zu den einzelnen Messstationen finden sich auf den Webseiten der Betreiber: <br><br>- <a href=\"«https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/nabel-messstationen.pdf.download.pdf/nabel-messstationen.pdf\" target=\"«_blank»\" &raquo;=>Basel-Binningen (NABEL/MeteoSchweiz)</a><br>- <a href=\"«https://luftqualitaet.ch/messnetz/station/bsBFB»\" target=\"«_blank»\">Feldbergstrasse, Basel (Lufthygieneamt beider Basel)</a><br>- <a href=\"«https://luftqualitaet.ch/messnetz/station/bsBSJ»\" target=\"«_blank»\">St. Johann, Basel (Lufthygieneamt beider Basel)</a><br>- <a href=\"«https://mcr.unibas.ch/dolueg2/index.php?project=basel&var=1»\" target=\"«_blank»\">Klingelbergstrasse, Basel (Universität Basel)</a><br>- <a href=\"«https://luftqualitaet.ch/messnetz/station/blSIB»\" target=\"«_blank»\">Sissach (Lufthygieneamt beider Basel)</a><br>- <a href=\"«https://luftqualitaet.ch/messnetz/station/soDOR»\" target=\"«_blank»\">Dornach (Lufthygieneamt beider Basel)</a>",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel, Universität Basel, MeteoSchweiz"
+		],
+		"externalLinks": [
+			"<a href = 'Indikator Tropennächte' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNjMmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://ww</a>",
+			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Tropennächte",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.09888",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "0815",
+		"stufe1": "Thema Klima",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "08_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2023-08-23T03:58:49",
+		"id": 9888
+	},
+	{
+		"template": "template001",
+		"data-id": 9889,
+		"chart-id": 9889,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Medikamente im Rhein",
+		"subtitle": "in Kilogramm pro Jahr",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt die Jahresfrachten (in Kilogramm) von sechs ausgewählten Medikamenten, die in der Rheinüberwachungsstation nachgewiesen werden. Anhand der Daten lässt sich der langfristige Trend bei der Belastung der Oberflächengewässer mit Medikamenten abschätzen.<br><br>In der binationalen Rheinüberwachungsstation in Weil am Rhein wird die Wasserqualität permanent überwacht und auf 680 Schadstoffe (Medikamente, Pestizide, Industriechemikalien etc.) geprüft, laufend kommen neue hinzu. 420 Stoffe werden täglich untersucht. Um den langfristigen Trend beim Medikamentenkonsum zu dokumentieren, werden gezielt die Jahresfrachten von sechs Medikamenten erfasst: <br><br>Carbamazepin: Behandlung von Epilepsie und Trigeminusneuralgie<br>Diclofenac: Entzündungshemmer <br>Gabapentin: Krampfleiden, Nervenschmerzen<br>Metformin: Behandlung von Diabetes mellitus Typ 2<br>Sulfamethoxazol: Antibiotikum<br>Valsartan: Behandlung von Bluthochdruck<br>Venlafaxin: Behandlung von Depressionen und Angststörungen<br>",
+		"quellenangabe": [
+			"Rheinüberwachungsstation, Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'Gewässerschutzverordnung, Anhang 3.1<br>IKSR - Internationale Kommission zum Schutz des Rheins: Rheinstoffliste 2021' target = '_blank'><a href=https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/783.200 target=_blank rel=nofollow>https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/783.200</a><br><a href=https://www.iksr.org/de target=_blank rel=nofollow>https://www.iksr.org/de</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1619' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Medikamente im Rhein",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kuerzel": "I.02.19.09889",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "1619",
+		"stufe1": "Thema Wasser",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "16_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2023-08-23T03:58:49",
+		"id": 9889
+	},
+	{
+		"template": "template001",
+		"data-id": 9891,
+		"chart-id": 9891,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bestand Elektroautos",
+		"subtitle": "in Anzahl Personenwagen; Prozent (rechte Skala)",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Bestand an Personenwagen mit elektrischem Antrieb (reine Elektorfahrzeuge und Plug-In-Hybride) sowie deren Anteil an allen Personenwagen.<br><br>In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Plug-in-Hybride mit Antriebsart Benzin-elektrisch oder Diesel-elektrisch. «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin.<br>Der Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Haltern und Halterinnen, die an diesem Stichtag Wohnsitz im Kanton hatten.",
+		"quellenangabe": [
+			"Bundesamt für Strassen (ASTRA)"
+		],
+		"externalLinks": [
+			"<a href = 'Bundesamt für Statistik (BFS), Sektion Mobilität' target = '_blank'><a href=https://www.bfs.admin.ch/bfs/de/home/statistiken/mobilitaet-verkehr/verkehrsinfrastruktur-fahrzeuge/fahrzeuge/strassen-neu-inverkehrsetzungen.html target=_blank rel=nofollow>https://www.bfs.admin.ch/bfs/de/home/statistiken/mobilitaet-verkehr/verkehrsinfrastruktur-fahrzeuge/fahrzeuge/strassen-neu-inverkehrsetzungen.html</a></a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0811' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bestand Elektroautos",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.09891",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "0811",
+		"stufe1": "Thema Klima",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "08_00_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2023-08-23T03:58:49",
+		"id": 9891
 	},
 	{
 		"template": "template001",
