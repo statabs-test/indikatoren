@@ -86,7 +86,9 @@
 		"chart-id": 12532,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12559
+		],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Zwischen Ende 2019 und Ende 2023 betrug die Nettowohnungsproduktion 3 683 Wohnungen.",
@@ -124,7 +126,9 @@
 		"chart-id": 12543,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12560
+		],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen, Basel-Stadt",
 		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2020 von 833 367 Tonnen auf 618 128 Tonnen ab. Das entspricht einer Reduktion um 25% bzw. einem Rückgang von 4,3 Tonnen auf 3,1 Tonnen CO<sub>2</sub> pro Kopf.",
@@ -142,13 +146,13 @@
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.12543",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL11",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_411",
+		"orderKey": "04_02_00_00_00_412",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -846,6 +850,47 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-06-28T04:03:57",
 		"id": 12668
+	},
+	{
+		"template": "line001",
+		"data-id": 12715,
+		"chart-id": 12715,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Grenzwertüberschreitungen Ozon",
+		"subtitle": "Anzahl Grenzwertüberschreitungen, Region Basel",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Anzahl Stunden-Mittelwerte pro Jahr, welche über dem in der Luftreinhalte-Verordnung (LRV) gesetzlich festgelegten Grenzwert von 120 μg/m<sup>3</sup> liegen, unterschieden nach Art der Lage der Messstationen: Ländliche Höhenlagen (Chrischona, Brunnersberg, Chaumont (NABEL)), Agglomeration (Binningen (NABEL), Dornach (SO)), Stadt Basel (Basel St.Johanns-Platz).",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'https://luftqualitaet.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1986/208_208_208/de' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Grenzwertüberschreitungen Ozon",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kuerzel": "",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL10",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_410",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-07-22T12:13:09",
+		"id": 12715
 	},
 	{
 		"template": "line001",
@@ -7623,13 +7668,13 @@
 		"unterthema": "Biodiversität",
 		"kuerzel": "I.02.8.4355",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL18",
+		"kuerzelKunde": "NL19",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Funktionsfähigkeit der Ökosysteme",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_03_00_00_00_418",
+		"orderKey": "04_03_00_00_00_419",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -11813,7 +11858,7 @@
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 24,6% im Jahr 2020 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 25,6% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -13191,7 +13236,7 @@
 		],
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert der Feinstaubkonzentration für PM10 liegt 2021 mit 15,8 Mikrogramm pro Kubikmeter unter dem Grenzwert, ebenso jener für Stickstoffdioxid, welcher 18,8 μg/m<sup>3</sup> beträgt. Der Mittelwert für PM2,5 überschreitet mit 10,7 μg/m<sup>3</sup> den Grenzwert.",
+		"lesehilfe": "Die Jahresmittelwerte liegen 2023 alle unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 13,85 μg/m<sup>3</sup> für PM10 und 9,5 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 18,9 μg/m<sup>3</sup>.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 seit 2019, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -13220,7 +13265,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-15T08:12:35",
+		"aktualisierungsdatum": "2024-04-16T03:13:38",
 		"id": 6029
 	},
 	{
@@ -13234,8 +13279,8 @@
 		],
 		"title": "Wasserqualität: AOX-Konzentration",
 		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2022 0,059 mg pro Liter gereinigtem Abwasser. Sie lag damit trotz Anstieg weiterhin unter dem Grenzwert von 0,080 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"lesehilfe": "Die mittlere AOX-Konzentration betrug im Jahr 2023 0,084 mg pro Liter gereinigtem Abwasser. Sie lag damit leicht über dem Grenzwert von 0,080 mg/l. Der Anstieg ist wahrscheinlich darauf zurückzuführen, dass seit 2023 der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen ist, wodurch mehr industrielle Abwässer mit höheren AOX-Werten in die ARA Basel gelangen.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert. Seit 2023 ist der Ablauf der ARA Chemie an den Zulauf der ARA Basel angeschlossen.<br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -13249,18 +13294,18 @@
 		"unterthema": "Wasser",
 		"kuerzel": "I.02.19.06030",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL10",
+		"kuerzelKunde": "NL11",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_410",
+		"orderKey": "04_01_00_00_00_411",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-09T09:06:06",
+		"aktualisierungsdatum": "2024-05-03T08:45:18",
 		"id": 6030
 	},
 	{
@@ -13290,13 +13335,13 @@
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.06031",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL12",
+		"kuerzelKunde": "NL13",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_412",
+		"orderKey": "04_02_00_00_00_413",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -13318,7 +13363,7 @@
 		],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraums wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2023 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -13335,18 +13380,18 @@
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.06033",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL14",
+		"kuerzelKunde": "NL15",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_414",
+		"orderKey": "04_02_00_00_00_415",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:42",
+		"aktualisierungsdatum": "2024-04-10T07:47:26",
 		"id": 6033
 	},
 	{
@@ -24551,13 +24596,13 @@
 		"unterthema": "Witterung",
 		"kuerzel": "I.02.3.06434",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL16",
+		"kuerzelKunde": "NL17",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_416",
+		"orderKey": "04_02_00_00_00_417",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -28085,13 +28130,13 @@
 		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit eine Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
 			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
-			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/lidar' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/kronenbedeckung' target = '_blank'>Baumkronenbedeckung als Karte</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -28102,18 +28147,18 @@
 		"unterthema": "Landschaft",
 		"kuerzel": "I.02.13.6574",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL17",
+		"kuerzelKunde": "NL18",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_417",
+		"orderKey": "04_02_00_00_00_418",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2020-10-08T05:32:45",
+		"aktualisierungsdatum": "2024-05-06T07:28:46",
 		"id": 6574
 	},
 	{
@@ -59342,13 +59387,13 @@
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.08455",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL15",
+		"kuerzelKunde": "NL16",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_415",
+		"orderKey": "04_02_00_00_00_416",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
@@ -83782,11 +83827,13 @@
 		"chart-id": 9735,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12548
+		],
 		"title": "Beitrag Klimaschutz",
 		"subtitle": "«Was tun Sie konkret für den Klima- und Umweltschutz?», Basel-Stadt, 2023",
-		"lesehilfe": "Auf die Frage nach dem persönlichen Engagement für den Klima- und Umweltschutz nennen 69,2% die Abfalltrennung. Als weitere bewusste Verhaltensweise werden von 67,1% die Nutzung von ÖV oder Velo genannt. 64,6% geben an, Foodwaste möglichst zu vermeiden.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"lesehilfe": "Auf die Frage nach dem persönlichen Engagement für den Klima- und Umweltschutz nennen 69,2% die Abfalltrennung. Als weitere bewusste Verhaltensweise wird von 67,1% die Nutzung von ÖV oder Velo genannt. 64,6% geben an, Foodwaste möglichst zu vermeiden.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -83811,7 +83858,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-08T12:44:13",
+		"aktualisierungsdatum": "2024-04-10T07:47:28",
 		"id": 9735
 	},
 	{
@@ -83820,10 +83867,12 @@
 		"chart-id": 9736,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12549
+		],
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
-		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandprodukts (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2020 um 149,6% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 35,1% gesunken.",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2020 um 149,6% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 35,1% gesunken.",
 		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
@@ -83852,7 +83901,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-04-13T08:21:54",
+		"aktualisierungsdatum": "2024-04-10T07:47:29",
 		"id": 9736
 	},
 	{
@@ -83861,7 +83910,9 @@
 		"chart-id": 9737,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12550
+		],
 		"title": "Bevölkerungsdichte in Bauzone",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
 		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2023 im Schnitt 57,5 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 142,5 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 161,0 Personen pro Hektar.",
@@ -83904,12 +83955,13 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			10048
+			10048,
+			12551
 		],
 		"title": "Wissen um CO<sub>2</sub>-Fussabdruck",
 		"subtitle": "«Kennen Sie Ihren CO<sub>2</sub>-Fussabdruck?», Basel-Stadt, 2023",
 		"lesehilfe": "5,6% der Bevölkerung kennen ihren CO<sub>2</sub>-Fussabdruck. Bei den 50-59 Jährigen beträgt der Ja-Anteil 8,9%.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -83923,18 +83975,18 @@
 		"unterthema": "Bevölkerungsbefragung",
 		"kuerzel": "I.50.1.09738",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL13",
+		"kuerzelKunde": "NL14",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_413",
+		"orderKey": "04_02_00_00_00_414",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-08T12:44:06",
+		"aktualisierungsdatum": "2024-04-10T07:47:25",
 		"id": 9738
 	},
 	{

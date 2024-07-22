@@ -1,844 +1,557 @@
 {
   "series": [
     {
-      "color": "#2B0099",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 3,
-      "zIndex": 1,
+      "color": "#689199",
       "data": [
         [
           1991,
-          null
+          660
         ],
         [
           1992,
-          null
+          750.5
         ],
         [
           1993,
-          null
+          688.5
         ],
         [
           1994,
-          null
+          925
         ],
         [
           1995,
-          null
+          853.5
         ],
         [
           1996,
-          null
+          815.5
         ],
         [
           1997,
-          28.6
+          859.5
         ],
         [
           1998,
-          24.3
+          888.5
         ],
         [
           1999,
-          20.7
+          684.5
         ],
         [
           2000,
-          20.8
+          736
         ],
         [
           2001,
-          20.1
+          775.5
         ],
         [
           2002,
-          21.8
+          716
         ],
         [
           2003,
-          24.73
+          1660.33
         ],
         [
           2004,
-          18.97
+          697.33
         ],
         [
           2005,
-          21.23
+          645.67
         ],
         [
           2006,
-          23.7
+          712.67
         ],
         [
           2007,
-          22.5
+          506.33
         ],
         [
           2008,
-          20.7
+          335.67
         ],
         [
           2009,
-          22
+          389.33
         ],
         [
           2010,
-          21.4
+          602.67
         ],
         [
           2011,
-          22.27
+          559.67
         ],
         [
           2012,
-          19.14
+          292
         ],
         [
           2013,
-          19.09
+          529
         ],
         [
           2014,
-          16.87
+          286.33
         ],
         [
           2015,
-          18.3
+          685
         ],
         [
           2016,
-          16.1
+          338.33
         ],
         [
           2017,
-          16.22
+          307.67
         ],
         [
           2018,
-          17.8
+          847.33
         ],
         [
           2019,
-          15.24
+          465.67
         ],
         [
           2020,
-          15.12
+          402.67
         ],
         [
           2021,
-          15.75
+          170
         ],
         [
           2022,
-          null
+          428.67
+        ],
+        [
+          2023,
+          472.67
         ]
       ],
-      "name": "Feinstaub (PM10)"
+      "name": "Höhenlagen"
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          1991,
+          237
+        ],
+        [
+          1992,
+          317
+        ],
+        [
+          1993,
+          209
+        ],
+        [
+          1994,
+          327
+        ],
+        [
+          1995,
+          328
+        ],
+        [
+          1996,
+          299.5
+        ],
+        [
+          1997,
+          341
+        ],
+        [
+          1998,
+          376.5
+        ],
+        [
+          1999,
+          237.5
+        ],
+        [
+          2000,
+          273.5
+        ],
+        [
+          2001,
+          223.5
+        ],
+        [
+          2002,
+          260
+        ],
+        [
+          2003,
+          766
+        ],
+        [
+          2004,
+          300.5
+        ],
+        [
+          2005,
+          285
+        ],
+        [
+          2006,
+          353.5
+        ],
+        [
+          2007,
+          238
+        ],
+        [
+          2008,
+          174
+        ],
+        [
+          2009,
+          195.5
+        ],
+        [
+          2010,
+          307
+        ],
+        [
+          2011,
+          256
+        ],
+        [
+          2012,
+          134.5
+        ],
+        [
+          2013,
+          260.5
+        ],
+        [
+          2014,
+          169
+        ],
+        [
+          2015,
+          348
+        ],
+        [
+          2016,
+          191
+        ],
+        [
+          2017,
+          189.5
+        ],
+        [
+          2018,
+          461.5
+        ],
+        [
+          2019,
+          237
+        ],
+        [
+          2020,
+          196
+        ],
+        [
+          2021,
+          109.5
+        ],
+        [
+          2022,
+          255.5
+        ],
+        [
+          2023,
+          308.5
+        ]
+      ],
+      "name": "Agglomeration"
     },
     {
       "color": "#68AB2B",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "data": [
+        [
+          1991,
+          128
+        ],
+        [
+          1992,
+          83
+        ],
+        [
+          1993,
+          66
+        ],
+        [
+          1994,
+          142
+        ],
+        [
+          1995,
+          176
+        ],
+        [
+          1996,
+          109
+        ],
+        [
+          1997,
+          107
+        ],
+        [
+          1998,
+          193
+        ],
+        [
+          1999,
+          84
+        ],
+        [
+          2000,
+          109
+        ],
+        [
+          2001,
+          190
+        ],
+        [
+          2002,
+          133
+        ],
+        [
+          2003,
+          504
+        ],
+        [
+          2004,
+          167
+        ],
+        [
+          2005,
+          145
+        ],
+        [
+          2006,
+          271
+        ],
+        [
+          2007,
+          99
+        ],
+        [
+          2008,
+          78
+        ],
+        [
+          2009,
+          62
+        ],
+        [
+          2010,
+          215
+        ],
+        [
+          2011,
+          135
+        ],
+        [
+          2012,
+          85
+        ],
+        [
+          2013,
+          164
+        ],
+        [
+          2014,
+          108
+        ],
+        [
+          2015,
+          215
+        ],
+        [
+          2016,
+          81
+        ],
+        [
+          2017,
+          98
+        ],
+        [
+          2018,
+          293
+        ],
+        [
+          2019,
+          160
+        ],
+        [
+          2020,
+          253
+        ],
+        [
+          2021,
+          87
+        ],
+        [
+          2022,
+          196
+        ],
+        [
+          2023,
+          304
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#444444",
       "dashStyle": "ShortDash",
-      "legendIndex": 2,
-      "zIndex": 0,
       "data": [
         [
           1991,
-          30
+          1
         ],
         [
           1992,
-          30
+          1
         ],
         [
           1993,
-          30
+          1
         ],
         [
           1994,
-          30
+          1
         ],
         [
           1995,
-          30
+          1
         ],
         [
           1996,
-          30
+          1
         ],
         [
           1997,
-          30
+          1
         ],
         [
           1998,
-          30
+          1
         ],
         [
           1999,
-          30
+          1
         ],
         [
           2000,
-          30
+          1
         ],
         [
           2001,
-          30
+          1
         ],
         [
           2002,
-          30
+          1
         ],
         [
           2003,
-          30
+          1
         ],
         [
           2004,
-          30
+          1
         ],
         [
           2005,
-          30
+          1
         ],
         [
           2006,
-          30
+          1
         ],
         [
           2007,
-          30
+          1
         ],
         [
           2008,
-          30
+          1
         ],
         [
           2009,
-          30
+          1
         ],
         [
           2010,
-          30
+          1
         ],
         [
           2011,
-          30
+          1
         ],
         [
           2012,
-          30
+          1
         ],
         [
           2013,
-          30
+          1
         ],
         [
           2014,
-          30
+          1
         ],
         [
           2015,
-          30
+          1
         ],
         [
           2016,
-          30
+          1
         ],
         [
           2017,
-          30
+          1
         ],
         [
           2018,
-          30
+          1
         ],
         [
           2019,
-          30
+          1
         ],
         [
           2020,
-          30
+          1
         ],
         [
           2021,
-          30
+          1
         ],
         [
           2022,
-          undefined
+          1
+        ],
+        [
+          2023,
+          1
         ]
       ],
-      "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
-    },
-    {
-      "color": "#008AC3",
-      "marker": {
-        "enabled": false
-      },
-      "dashStyle": "ShortDash",
-      "legendIndex": 4,
-      "zIndex": 0,
-      "data": [
-        [
-          1991,
-          null
-        ],
-        [
-          1992,
-          null
-        ],
-        [
-          1993,
-          null
-        ],
-        [
-          1994,
-          null
-        ],
-        [
-          1995,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          1997,
-          20
-        ],
-        [
-          1998,
-          20
-        ],
-        [
-          1999,
-          20
-        ],
-        [
-          2000,
-          20
-        ],
-        [
-          2001,
-          20
-        ],
-        [
-          2002,
-          20
-        ],
-        [
-          2003,
-          20
-        ],
-        [
-          2004,
-          20
-        ],
-        [
-          2005,
-          20
-        ],
-        [
-          2006,
-          20
-        ],
-        [
-          2007,
-          20
-        ],
-        [
-          2008,
-          20
-        ],
-        [
-          2009,
-          20
-        ],
-        [
-          2010,
-          20
-        ],
-        [
-          2011,
-          20
-        ],
-        [
-          2012,
-          20
-        ],
-        [
-          2013,
-          20
-        ],
-        [
-          2014,
-          20
-        ],
-        [
-          2015,
-          20
-        ],
-        [
-          2016,
-          20
-        ],
-        [
-          2017,
-          20
-        ],
-        [
-          2018,
-          20
-        ],
-        [
-          2019,
-          20
-        ],
-        [
-          2020,
-          20
-        ],
-        [
-          2021,
-          20
-        ],
-        [
-          2022,
-          undefined
-        ]
-      ],
-      "name": "Langzeitgrenzwert PM10"
-    },
-    {
-      "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 1,
-      "zIndex": 1,
-      "data": [
-        [
-          1991,
-          52.78
-        ],
-        [
-          1992,
-          49.89
-        ],
-        [
-          1993,
-          47.23
-        ],
-        [
-          1994,
-          42.72
-        ],
-        [
-          1995,
-          40.23
-        ],
-        [
-          1996,
-          43.13
-        ],
-        [
-          1997,
-          41.19
-        ],
-        [
-          1998,
-          36.02
-        ],
-        [
-          1999,
-          36.04
-        ],
-        [
-          2000,
-          33.79
-        ],
-        [
-          2001,
-          32.99
-        ],
-        [
-          2002,
-          32.67
-        ],
-        [
-          2003,
-          34.8
-        ],
-        [
-          2004,
-          33.33
-        ],
-        [
-          2005,
-          32.65
-        ],
-        [
-          2006,
-          33.84
-        ],
-        [
-          2007,
-          31.48
-        ],
-        [
-          2008,
-          32.37
-        ],
-        [
-          2009,
-          32.73
-        ],
-        [
-          2010,
-          32.44
-        ],
-        [
-          2011,
-          33.23
-        ],
-        [
-          2012,
-          31.81
-        ],
-        [
-          2013,
-          30.98
-        ],
-        [
-          2014,
-          31.88
-        ],
-        [
-          2015,
-          31.47
-        ],
-        [
-          2016,
-          27.82
-        ],
-        [
-          2017,
-          27.71
-        ],
-        [
-          2018,
-          26.92
-        ],
-        [
-          2019,
-          22.99
-        ],
-        [
-          2020,
-          18.75
-        ],
-        [
-          2021,
-          18.81
-        ],
-        [
-          2022,
-          undefined
-        ]
-      ],
-      "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
-    },
-    {
-      "color": "#FF8028",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 5,
-      "zIndex": 1,
-      "data": [
-        [
-          1991,
-          undefined
-        ],
-        [
-          1992,
-          undefined
-        ],
-        [
-          1993,
-          undefined
-        ],
-        [
-          1994,
-          undefined
-        ],
-        [
-          1995,
-          undefined
-        ],
-        [
-          1996,
-          undefined
-        ],
-        [
-          1997,
-          undefined
-        ],
-        [
-          1998,
-          undefined
-        ],
-        [
-          1999,
-          undefined
-        ],
-        [
-          2000,
-          undefined
-        ],
-        [
-          2001,
-          undefined
-        ],
-        [
-          2002,
-          undefined
-        ],
-        [
-          2003,
-          undefined
-        ],
-        [
-          2004,
-          undefined
-        ],
-        [
-          2005,
-          undefined
-        ],
-        [
-          2006,
-          undefined
-        ],
-        [
-          2007,
-          undefined
-        ],
-        [
-          2008,
-          undefined
-        ],
-        [
-          2009,
-          undefined
-        ],
-        [
-          2010,
-          undefined
-        ],
-        [
-          2011,
-          undefined
-        ],
-        [
-          2012,
-          undefined
-        ],
-        [
-          2013,
-          undefined
-        ],
-        [
-          2014,
-          undefined
-        ],
-        [
-          2015,
-          undefined
-        ],
-        [
-          2016,
-          undefined
-        ],
-        [
-          2017,
-          undefined
-        ],
-        [
-          2018,
-          13.5
-        ],
-        [
-          2019,
-          10.67
-        ],
-        [
-          2020,
-          10.15
-        ],
-        [
-          2021,
-          10.71
-        ],
-        [
-          2022,
-          undefined
-        ]
-      ],
-      "name": "Feinstaub (PM2,5)"
-    },
-    {
-      "color": "#FFBB58",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
-      "dashStyle": "ShortDash",
-      "legendIndex": 6,
-      "zIndex": 0,
-      "data": [
-        [
-          1991,
-          undefined
-        ],
-        [
-          1992,
-          undefined
-        ],
-        [
-          1993,
-          undefined
-        ],
-        [
-          1994,
-          undefined
-        ],
-        [
-          1995,
-          undefined
-        ],
-        [
-          1996,
-          undefined
-        ],
-        [
-          1997,
-          undefined
-        ],
-        [
-          1998,
-          undefined
-        ],
-        [
-          1999,
-          undefined
-        ],
-        [
-          2000,
-          undefined
-        ],
-        [
-          2001,
-          undefined
-        ],
-        [
-          2002,
-          undefined
-        ],
-        [
-          2003,
-          undefined
-        ],
-        [
-          2004,
-          undefined
-        ],
-        [
-          2005,
-          undefined
-        ],
-        [
-          2006,
-          undefined
-        ],
-        [
-          2007,
-          undefined
-        ],
-        [
-          2008,
-          undefined
-        ],
-        [
-          2009,
-          undefined
-        ],
-        [
-          2010,
-          undefined
-        ],
-        [
-          2011,
-          undefined
-        ],
-        [
-          2012,
-          undefined
-        ],
-        [
-          2013,
-          undefined
-        ],
-        [
-          2014,
-          undefined
-        ],
-        [
-          2015,
-          undefined
-        ],
-        [
-          2016,
-          undefined
-        ],
-        [
-          2017,
-          undefined
-        ],
-        [
-          2018,
-          10
-        ],
-        [
-          2019,
-          10
-        ],
-        [
-          2020,
-          10
-        ],
-        [
-          2021,
-          10
-        ],
-        [
-          2022,
-          undefined
-        ]
-      ],
-      "name": "Langzeitgrenzwert PM2,5"
+      "name": "Zielwert"
     }
   ],
   "chart": {
@@ -870,7 +583,7 @@
 					}
 				}
     },
-    "renderTo": "container-6029"
+    "renderTo": "container-12715"
   },
   "plotOptions": {
     "series": {
@@ -879,7 +592,6 @@
       }
     },
     "line": {
-      "connectNulls": true,
       "marker": {
         "enabled": false,
         "symbol": "circle"
@@ -893,18 +605,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "useHTML": true,
-    "text": "Luftqualität: Langzeitbelastung der Luft"
+    "text": "Grenzwertüberschreitungen Ozon"
   },
   "subtitle": {
-    "text": "Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
+    "text": "Anzahl Grenzwertüberschreitungen, Region Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    },
-    "useHTML": true
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -920,18 +630,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "step": 2
-    },
-    "tickInterval": 1,
-    "tickPositioner": function () {
-        var interval = 2,
-          ext = this.getExtremes(),
-          i = ext.dataMax,
-          pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
       }
+    }
   },
   "yAxis": {
     "min": 0,
@@ -961,7 +661,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "useHTML": true,
     "itemMarginBottom": 5
   },
   "credits": {
@@ -977,7 +676,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 16.4.2024"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -1014,12 +713,9 @@
 			}
   },
   "tooltip": {
-    "useHTML": true,
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "exporting": {
-    "allowHTML": true,
-    "filename": "6029"
+    "filename": "12715"
   }
 }
