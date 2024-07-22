@@ -62,7 +62,7 @@
       {
         color: "#73B97C",
         type: "column"
-      },
+      }/*,
       {
         color: "#000000",
         type: "line",
@@ -73,11 +73,11 @@
         tooltip: {
           pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b>%<br/>',
         }
-      }
+      }*/
     ],
     tooltip: {
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', 
-      "footerFormat": 'Total Endverbrauch Elektrizität: <b>{point.total:,.0f}</b> GWh',
+      "footerFormat": 'Elektrizitätsbezug total: <b>{point.total:,.0f}</b> GWh',
       shared: true,
       useHTML: true,
       outside: true,
