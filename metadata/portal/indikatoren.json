@@ -41127,7 +41127,7 @@
 		"title": "Endenergieverbrauch von fossilen Energieträgern",
 		"subtitle": "in GWh, Basel-Stadt",
 		"lesehilfe": "Der Endenergieverbrauch fossiler Energieträger hat von 2010 bis 2022 um 50,5% von 2 579 GWh auf 1 276 GWh abgenommen. Erdgas macht mit 543 GWh 2022 rund 42,6% davon aus, Heizöl mit 175 GWh rund 13,7%. Der Anteil aller fossiler Energieträger am Endenergieverbrauch ging damit zwischen 2010 und 2022 von 46,3% auf 33,0% zurück.",
-		"erlaeuterungen": "Als fossile Energieträger werden Heizöl, Erdgas sowie die Treibstoffe Benzin und Diesel berücksichtigt. . Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
+		"erlaeuterungen": "Als fossile Energieträger werden Heizöl, Erdgas sowie die Treibstoffe Benzin und Diesel berücksichtigt. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -41166,7 +41166,7 @@
 		],
 		"title": "Fernwärmeverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Für die Fernwärmeproduktion wurde 2022 Bruttoenergie von 1 495 GWh verwendet (2010: 1 412 GWh). 44,2% davon wurden durch Abfallverbrennung, 34,2% durch den Einsatz von Erdgas und 17,3% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,8%), Umweltwärme (0,2%) sowie Elektrizität (0,1%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,8% auf 38,0% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 35,6% aus.",
+		"lesehilfe": "Für die Fernwärmeproduktion wurde 2022 Bruttoenergie von 1 495 GWh verwendet (2010: 1 412 GWh). 44,2% davon wurden durch Abfallverbrennung, 34,2% durch den Einsatz von Erdgas und 17,3% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,8%), Umweltwärme (0,2%) sowie Elektrizität (0,1%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,8% auf 38,0% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 35,4% aus.",
 		"erlaeuterungen": "Verbrauch basierend auf dem Fernwärmenetz der IWB sowie weiterer Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
