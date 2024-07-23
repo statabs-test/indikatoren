@@ -143,49 +143,6 @@
       ],
       "name": "Thermische Erzeugung",
       "turboThreshold": 0
-    },
-    {
-      "color": "#000000",
-      "type": "line",
-      "yAxis": 1,
-      "marker": {
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "2010",
-          29.221970259
-        ],
-        [
-          "2012",
-          29.581514865
-        ],
-        [
-          "2014",
-          30.654001947
-        ],
-        [
-          "2016",
-          31.144311762
-        ],
-        [
-          "2018",
-          31.441771967
-        ],
-        [
-          "2020",
-          32.615893674
-        ],
-        [
-          "2022",
-          32.203156952
-        ]
-      ],
-      "name": "Anteil Elektrizität am Endenergieverbrauch (rechte Skala)",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -341,7 +298,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total Endverbrauch Elektrizität: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
+    "footerFormat": "Elektrizitätsverbrauch total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
     "shared": true,
     "useHTML": true,
     "outside": true,
