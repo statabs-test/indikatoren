@@ -13,15 +13,11 @@
         ],
         xAxis: {
             type: "category",
-            // labels: {
-            //     formatter: function () {
-            //         //indentation of labels, except category-titles
-            //         var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
-            //         tmp = tmp.replace("Haushalte", "HH");
-
-            //         return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
-            //     }
-            // }
+             labels: {
+                formatter: function () {
+                    return this.value.replace("*", "<b>").replace("Haushalte", "HH"); //used for indentation in web-charts
+                }
+             }
         },
         yAxis: {
             reversedStacks: false,

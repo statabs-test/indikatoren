@@ -3,53 +3,68 @@
     chart: {
       type: "column",
       inverted: false,
-      //marginBottom: 35
-      //"spacingTop": 100
+      "spacingBottom": 5
+    },
+    plotOptions: {
+      column: {
+        stacking: 'normal',
+      },
+      series: {
+        pointPadding: 0,
+        borderWidth: 0,
+        //pointWidth: 10,
+      }
     },
     xAxis: {
-      //type: "category",
+      type: "category",
       labels: {
-        rotation: -45
-      },
-      tickPositioner: function () {
-        var interval = 2,
-          ext = this.getExtremes(),
-          i = ext.dataMax,
-          pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
+        rotation: -90
       }
     },
     yAxis: {
       // tickAmount: 8,
-      // tickInterval: 1000,
-      max: 100,
-      tickInterval: 25,
+      tickInterval: 10,
+      //max: 100,
+      reversedStacks: false,
       labels: {
         format: "{value:,.0f}%"
       }
     },
-    series: [
-      {
-        color: "#923F8D",
-        visible: true
-      },
-    ],
     legend: {
-      enabled: false,
+      enabled: true,
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
       //"x": 25,
       //"y": 55,    
+      itemWidth: 120,
+      //width: 220,
       itemStyle: {
-        fontWeight: "normal"
+        textOverflow: "none",
+        whiteSpace: "nowrap"
       }
     },
     tooltip: {
       pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+      footerFormat: '<span style="color:none">\u25CF</span> Total: <b>{point.total:,.1f}%</b>',
       shared: false
     },
-
+    series: [
+      {
+        color: "#672773",
+      },
+      {
+        color: "#fabd24",
+      },
+      {
+        color: "#ff8028",
+      },
+      {
+        color: "#b00000",
+      },
+      {
+        color: "#aaaaaa",
+      },
+    ],
   }
 }());

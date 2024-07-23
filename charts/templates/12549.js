@@ -9,6 +9,9 @@
     "xAxis": {
       "tickInterval": 4,
     },
+    yAxis:{
+      tickInterval: 50
+    },
     legend: {
       enabled: true,
       layout: "horizontal",

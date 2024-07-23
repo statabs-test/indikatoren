@@ -20,6 +20,7 @@
         "text": null
       },
       "labels": {
+        x: 7,
         "formatter": function () {
           return Highcharts.numberFormat((this.value * 100), 0) + '%';
         },
@@ -44,6 +45,7 @@
         "text": null
       },
       "labels": {
+        x: -7,
         "formatter": function () {
           return Highcharts.numberFormat((this.value), 0) + ' Fr.';
         },

@@ -11,13 +11,19 @@
       align: "left",
       verticalAlign: "top",
       layout: "horizontal",
+      labelFormatter: function () {
+        return this.name.replace('potentieller', 'pot.');  //holt z.B. '2015' aus '2015 Wöchentlich'
+      },
     },
     yAxis: {
-      tickInterval: 25
+      tickInterval: 25,
+      labels:{
+        x: -7
+      },
     },
     xAxis: {
       tickPositioner: function () {
-        var interval = 2,
+        var interval = 3,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];
@@ -31,13 +37,13 @@
     },
     series: [
       {
-        color: "#B00000",
+        color: "#B00000", legendIndex: 1
       },
       {
-        color: "#246370",
+        color: "#246370", legendIndex: 0
       },
       {
-        color: "#008AC3",
+        color: "#008AC3", legendIndex: 2
       }
     ],
   };

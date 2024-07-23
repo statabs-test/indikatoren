@@ -551,7 +551,7 @@
           1
         ]
       ],
-      "name": "Zielwert"
+      "name": "Grenzwert"
     }
   ],
   "chart": {
@@ -608,7 +608,7 @@
     "text": "Grenzwertüberschreitungen Ozon"
   },
   "subtitle": {
-    "text": "Anzahl Grenzwertüberschreitungen, Region Basel",
+    "text": "Anzahl Überschreitungen des Stunden-Grenzwertes pro Jahr, Region Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",

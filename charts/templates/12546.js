@@ -32,6 +32,9 @@
       "align": "left",
       itemDistance: 5,
       //"itemMarginBottom": 5,
+      labelFormatter: function () {
+        return this.name.replace(' Schweiz ', ' CH ');  //holt z.B. '2015' aus '2015 Wöchentlich'
+      },
     },
     "tooltip": {
       "shared": false,
