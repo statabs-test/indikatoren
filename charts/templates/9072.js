@@ -8,8 +8,8 @@
         endOnTick: true,
         startOnTick: true,
         tickInterval: 1,
-        min: 2011,
-        max: 2021
+        /*min: 2011,
+        max: 2021*/
       },
       "yAxis": {
         min: -250,
