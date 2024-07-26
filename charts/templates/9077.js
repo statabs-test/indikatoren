@@ -7,7 +7,7 @@
   "yAxis": [
     {
       min: 0,
-      max: 300000,
+      max: 320000,
     "labels": {
       "format": "{value:,.0f}",
       },
@@ -22,7 +22,7 @@
     {
       opposite: true,
       min: 0,
-      max: 2400,
+      max: 2000,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       //lineColor: '#B9CFD7', 
