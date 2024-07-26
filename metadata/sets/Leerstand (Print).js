@@ -232,7 +232,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2020 672 Einheiten. Davon  stammen 607 aus Neu- und 219 aus Umbauten. Durch Abbrüche gehen 158 Wohnungen verloren. 2021 wird mit einer Nettoproduktion von rund 850 Wohnungen gerechnet.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2023 865 Einheiten. Davon stammen 778 aus Neu- und 140 aus Umbauten. Durch Abbrüche gehen 53 Wohnungen verloren. 2024 wird eine Nettoproduktion von rund 450 Wohnungen prognostiziert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"description": "Nettoproduktion an Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09072",
+		"kuerzel": "",
 		"kennzahlenset": "Leerstand (Print)",
 		"kuerzelKunde": "LEB-3-3",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
@@ -257,7 +257,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:21",
+		"aktualisierungsdatum": "2022-08-15T08:12:31",
 		"id": 9072
 	},
 	{
@@ -380,7 +380,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen steigt seit dem Rückgang zwischen 2015 und 2018 wieder an. Bei den Werten von 2022 handelt es sich um eine Prognose.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen stieg seit dem Rückgang zwischen 2015 und 2018 wieder bis 2022. 2023 nahm sie wieder ab. Bei den Werten von 2024 handelt es sich um eine Prognose.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -393,7 +393,7 @@ var indikatorensetData = [
 		"description": "Nettoproduktion an Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09076",
+		"kuerzel": "",
 		"kennzahlenset": "Leerstand (Print)",
 		"kuerzelKunde": "LEB-4-3",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
@@ -405,7 +405,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:54",
+		"aktualisierungsdatum": "2022-08-15T08:12:32",
 		"id": 9076
 	},
 	{

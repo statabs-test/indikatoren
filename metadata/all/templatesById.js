@@ -1905,7 +1905,7 @@ var templatesById = {
 	"9649": "template001_print",
 	"9650": "template001_print",
 	"9651": "template001_print",
-	"9653": "stock001_print",
+	"9653": "line001_print",
 	"9654": "line001_print",
 	"9655": "line001_print",
 	"9663": "line001",
@@ -2052,5 +2052,10 @@ var templatesById = {
 	"12561": "template001",
 	"12564": "template001",
 	"12565": "befragungen001",
-	"12602": "template001"
+	"12602": "template001",
+	"12669": "mappie001_print",
+	"12670": "mappie001_print",
+	"12671": "mappie001_print",
+	"12672": "mappie001_print",
+	"12673": "mappie001_print"
 };

@@ -7,6 +7,7 @@ var indikatorensetNames = [
 	"Soziales",
 	"Nachhaltigkeit",
 	"Befragungen",
+	"Energiestatistik (Print)",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Umwelt",
@@ -45,7 +46,6 @@ var indikatorensetNames = [
 	"Leerstand (Print)",
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
-	"Energiestatistik (Print)",
 	"Schluesselindikatoren",
 	"Test"
 ];
