@@ -20,9 +20,9 @@
       }
     },
     yAxis: {
-      //max: 120000,
-      //tickInterval: 60000,
-      tickAmount: 7,
+      //max: 500000,
+      //tickInterval: 50000,
+      tickAmount: 6,
       labels: {
         format: "{value:,.0f}",
       },
@@ -60,11 +60,18 @@
         },
       },
       {
-        color: "#C8C8C8", index: 5, legendIndex: 4, tooltip: {
+        color: "#fabd24", index: 4, legendIndex: 4, tooltip: {
           valueDecimals: 0
         },
       },
-      // {"color": "#ff8028", index: 4, legendIndex: 5},
+       {"color": "#672773", index: 5, legendIndex: 5},
+       {"color": "#b475ab", index: 6, legendIndex: 6},
+       {
+        color: "#C8C8C8", index: 7, legendIndex: 7, tooltip: {
+          valueDecimals: 0
+        },
+      },
+
     ],
     tooltip: {
       useHTML: true,
