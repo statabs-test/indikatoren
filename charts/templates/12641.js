@@ -3,6 +3,8 @@
 "xAxis": { tickInterval: 1
 },
 "yAxis": {
+  max: 70,
+  tickInterval: 10,
 "labels": {
   "format": "{value:,.0f}%"
 }
@@ -12,15 +14,22 @@
 "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
 },
 "series": [
-  {"color": "#cd9c00",
-   visible:true,
-  }, 
-  {"color": "#b375ab",
-    visible:true,
-  }, 
-  {"color": "#999999",
-  visible:true,
-}, 
+  {
+    "color": "#cd9c00"
+  },
+  {
+    "color": "#689199"
+  },
+  {
+    "color": "#662673"
+  },
+  {
+    "color": "#999"
+  },
+  {
+    "color": "#b375ab",
+    visible: true,
+  },
 ],
 "legend": {
   "enabled": true,

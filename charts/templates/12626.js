@@ -7,6 +7,9 @@
       tickInterval: 1
     },
     "yAxis": {
+      min:30,
+      max:45,
+      tickInterval: 5,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -18,11 +21,25 @@
     },
     "series": [
       {
-        "color": "#999",
+        "color": "#3c3c3c",
         "dashStyle": "ShortDash"
       },
-      { "color": "#cd9c00" },
-      { "color": "#b375ab" }
+      {
+        "color": "#cd9c00"
+      },
+      {
+        "color": "#689199"
+      },
+      {
+        "color": "#662673"
+      },
+      {
+        "color": "#999"
+      },
+      {
+        "color": "#b375ab",
+        visible: true,
+      },
     ],
     "legend": {
       "enabled": true,

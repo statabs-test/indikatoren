@@ -67,7 +67,7 @@
       }
     ],
     "xAxis": {
-      "tickInterval": 1
+      type: "category"
     },
     "legend": {
       "enabled": true,
@@ -96,14 +96,14 @@
     },
     "series": [
       {
-        "color": "#cd9c00",
+        "color": "#b375ab",
         //"index": 0,
         //legendIndex: 0,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#7f5f1a",
+        "color": "#b375ab",
         //"index": 5,
         //legendIndex: 1,
         "type": "line",
@@ -111,14 +111,16 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#689199",
+        visible: false,
         //"index": 1,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#689199",
+        visible: false,
         //"index": 6,
         //legendIndex: 3,
         "type": "line",
@@ -126,14 +128,16 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#662673",
+        visible: false,
          //"index": 2,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#662673",
+        visible: false,
          //"index": 7,
         //legendIndex: 3,
         "type": "line",
@@ -141,14 +145,14 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#999",
         //"index": 3,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#999",
         //"index": 8,
         //legendIndex: 3,
         "type": "line",
@@ -156,14 +160,14 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#cd9c00",
         //"index": 4,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#cd9c00",
         //"index": 9,
         //legendIndex: 3,
         "type": "line",

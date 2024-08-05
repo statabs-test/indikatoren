@@ -6,7 +6,38 @@
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          2017,
+          319
+        ],
+        [
+          2018,
+          317
+        ],
+        [
+          2019,
+          313
+        ],
+        [
+          2020,
+          295
+        ],
+        [
+          2021,
+          282
+        ],
+        [
+          2022,
+          251
+        ],
+        [
+          2023,
+          259
+        ]
+      ],
+      "name": "Bezueger Friedmatt"
     },
     {
       "color": "#b375ab",
@@ -14,7 +45,38 @@
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          2017,
+          99
+        ],
+        [
+          2018,
+          92
+        ],
+        [
+          2019,
+          85
+        ],
+        [
+          2020,
+          79
+        ],
+        [
+          2021,
+          68
+        ],
+        [
+          2022,
+          53
+        ],
+        [
+          2023,
+          47
+        ]
+      ],
+      "name": "Bezueger Kannenfeld"
     },
     {
       "color": "#7f5f1a",
@@ -22,7 +84,38 @@
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          2017,
+          827
+        ],
+        [
+          2018,
+          828
+        ],
+        [
+          2019,
+          764
+        ],
+        [
+          2020,
+          684
+        ],
+        [
+          2021,
+          573
+        ],
+        [
+          2022,
+          556
+        ],
+        [
+          2023,
+          551
+        ]
+      ],
+      "name": "Bezueger Landskron"
     },
     {
       "color": "#923f8d",
@@ -30,7 +123,38 @@
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          2017,
+          140
+        ],
+        [
+          2018,
+          124
+        ],
+        [
+          2019,
+          178
+        ],
+        [
+          2020,
+          166
+        ],
+        [
+          2021,
+          168
+        ],
+        [
+          2022,
+          160
+        ],
+        [
+          2023,
+          155
+        ]
+      ],
+      "name": "Bezueger Lysbüchel"
     },
     {
       "color": "#999999",
@@ -38,7 +162,38 @@
       "yAxis": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          2017,
+          205
+        ],
+        [
+          2018,
+          183
+        ],
+        [
+          2019,
+          190
+        ],
+        [
+          2020,
+          196
+        ],
+        [
+          2021,
+          195
+        ],
+        [
+          2022,
+          179
+        ],
+        [
+          2023,
+          169
+        ]
+      ],
+      "name": "Bezueger Pestalozzi"
     }
   ],
   "chart": {
@@ -83,7 +238,7 @@
     "text": "Sozialhilfebezüger und -quote"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",

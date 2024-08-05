@@ -9,10 +9,20 @@
         }
       }
     },
-    "xAxis": {
-      tickInterval: 2
+    xAxis: {
+      type: "category", /* ausprobieren, ob "category" oder nicht - hat Auswirkung auf den Abstand der letzten Jahreszahl zu rechten Rand */
+      tickPositioner: function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
     },
     "yAxis": {
+       max:7500,
       "labels": {
         "format": "{value:,.0f}"
       }
@@ -24,6 +34,15 @@
     "series": [
       {
         "color": "#cd9c00"
+      },
+      {
+        "color": "#689199"
+      },
+      {
+        "color": "#662673"
+      },
+      {
+        "color": "#999"
       },
       {
         "color": "#b375ab",

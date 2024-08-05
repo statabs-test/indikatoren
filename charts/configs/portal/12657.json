@@ -1,12 +1,117 @@
 {
   "series": [
     {
-      "color": "#cd9c00"
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2014",
+          186
+        ],
+        [
+          "2015",
+          36
+        ],
+        [
+          "2016",
+          107
+        ],
+        [
+          "2017",
+          98
+        ],
+        [
+          "2018",
+          68
+        ],
+        [
+          "2019",
+          79
+        ],
+        [
+          "2020",
+          79
+        ],
+        [
+          "2021",
+          351
+        ],
+        [
+          "2022",
+          91
+        ],
+        [
+          "2023",
+          86
+        ]
+      ],
+      "name": "Umzugssaldo Friedmattviertel",
+      "turboThreshold": 0
     },
     {
-      "color": "#b375ab"
+      "color": "#b375ab",
+      "data": [
+        [
+          "2014",
+          0
+        ],
+        [
+          "2015",
+          -25
+        ],
+        [
+          "2016",
+          17
+        ],
+        [
+          "2017",
+          -34
+        ],
+        [
+          "2018",
+          -19
+        ],
+        [
+          "2019",
+          6
+        ],
+        [
+          "2020",
+          5
+        ],
+        [
+          "2021",
+          -18
+        ],
+        [
+          "2022",
+          -62
+        ],
+        [
+          "2023",
+          -95
+        ]
+      ],
+      "name": "Umzugssaldo Kannenfeld",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -65,30 +170,13 @@
     "text": "Umzugssaldo"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "type": "category"
   },
   "yAxis": {
     "gridLineWidth": 0.5,

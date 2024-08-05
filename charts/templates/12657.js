@@ -23,8 +23,18 @@
         "color": "#cd9c00"
       },
       {
-        "color": "#b375ab"
-      }
+        "color": "#689199"
+      },
+      {
+        "color": "#662673"
+      },
+      {
+        "color": "#999"
+      },
+      {
+        "color": "#b375ab",
+        visible: true,
+      },
     ],
     "legend": {
       "enabled": true,

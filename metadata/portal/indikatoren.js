@@ -1684,8 +1684,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnbevölkerung",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken Pestalozzi (+2,4%), Kannenfeld (+0,2%) und Landskron (-1,5%) ist die Bevölkerung 2023 im Vergleich zu 2004 nahezu gleichgeblieben, die Bezirke Lysbüchel (+12,7%) und Friedmattviertel (+70,9%) verzeichneten hingegen grössere Zunahmen. Im Gesamtkanton hat 2023 die Bevölkerungszahl im Vergleich zu 2004 um 9,5% zugenommen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1697,7 +1697,7 @@ var indikatoren = [
 		],
 		"description": "Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.01",
@@ -1722,8 +1722,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Klybeck, 2023",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken von St. Johann sind bis auf wenige Ausnahmen die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1735,7 +1735,7 @@ var indikatoren = [
 		],
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.02a",
@@ -1760,8 +1760,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Jugendquotient",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Zwischen 2004 und 2023 ist der Jugendquotient im Bezirk Landskron von 28,2 auf 21,8 gesunken, hingegen im Bezirk Lysbüchel von 29,3 auf 31,6 gestiegen. Im Jahr 2023 beträgt der Jugendquotient im Kanton Basel-Stadt 27,3.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1774,7 +1774,7 @@ var indikatoren = [
 		],
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.03",
@@ -1799,8 +1799,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Altersquotient",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Der Altersquotient ist 2023 im Bezirk Friedmattviertel am höchsten (42,3) und im Bezirk Lysbüchel am tiefsten (8,9), ist im Friedmattviertel jedoch verglichen mit 2004 gesunken (2004: 48,2).",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1813,7 +1813,7 @@ var indikatoren = [
 		],
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.04",
@@ -1990,8 +1990,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 weist das Wohnviertel St. Johann einen positiven Wanderungssaldo auf. Dieser ist hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen.",
 		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bärschwil, Bättwil, Bennwil, Biel-Benken, Binningen, Birsfelden, Blauen, Böckten, Bottmingen, Breitenbach, Bretzwil, Brislach, Bubendorf, Buckten, Büren, Burg im Leimental, Büsserach, Buus, Diepflingen, Dittingen, Dornach, Duggingen, Ettingen, Fehren, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Hellikon, Hemmiken, Hersberg, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kleinlützel, Lampenberg, Laufen, Lausen, Lauwil, Liestal, Lupsingen, Magden, Maisprach, Meltingen, Metzerlen-Mariastein, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Nunningen, Nusshof, Oberdorf, Obermumpf, Oberwil, Olsberg, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rheinfelden, Rickenbach, Rodersdorf, Röschenz, Rümlingen, Rünenberg, Schönenbuch, Seltisberg, Seewen, Sissach, Tecknau, Tenniken, Therwil, Titterten, Thürnen, Wahlen, Wegenstetten, Wenslingen, Wintersingen, Witterswil, Wittinsburg, Zeiningen, Ziefen, Zullwil, Zunzgen, Zuzgen und Zwingen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2003,7 +2003,7 @@ var indikatoren = [
 		],
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.09",
@@ -2028,8 +2028,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 weisen im Wohnviertel St. Johann Personen aus Arbischen Ländern (41,9) gefolgt von der Türkei (41,3) und Afrikanischen Ländern (38,5) die höchsten Segregationsindices auf. Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Wohnviertel St. Johann konzentriert sind. Im Vergleich zum Jahr 2004 haben die Segregationsindices fast aller Ländergruppen abgenommen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet der Wohnviertel Klybeck und Kleinhüningen von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Gebiet der Wohnviertel Klybeck und Kleinhüningen verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2041,7 +2041,7 @@ var indikatoren = [
 		],
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Bestand und Struktur",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.11",
@@ -2219,7 +2219,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Rund zwei Drittel aller Wohnungen bestehen aus Drei- und Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2257,7 +2257,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Im Wohnviertel St. Johann überwiegt der  Mietwohnungsanteil mit 78,7%. Der Anteil an Genossenschaftswohnungen betrug 2023 10,1%, was unter dem Wert für die Stadt Basel (11,0%) lag. Selbstbewohnte Eigentümerwohnungen weisen einen Anteil von 9,7% auf.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2295,7 +2295,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann ist niedriger als im kantonalen Durchschnitt. Jedoch sind die Unterschiede zwischen den einzelnen Wohnbezirken beträchtlich. Im Wohnbezirk Kannenfeld liegt sie mit 42,7 m² leicht über dem kantonalen Durchschnitt. Am niedrigsten ist sie mit 34,3 m² im Wohnbezirk Landskron.",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2333,7 +2333,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Leerwohnungsquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Von 2016 bis 2022 stieg die Leerwohnungsquote im Wohnviertel St. Johann stetig an. Seit 2023 sinkt sie und liegt aktuell bei 0.8%.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2790,8 +2790,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Sozialhilfebezüger und -quote",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Der Bezirk Landskron weist 2023 mit 8,2% die höchste Sozialhilfequote im St. Johann auf. Im Bezirk Kannenfeld liegt sie mit 2,5% am tiefsten. Gegenüber 2017 ist die Sozialhilfequote in allen Bezirken des St.Johann gesunken, am stärksten im Bezirk Landskron.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -2829,7 +2829,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Sek P-Quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel St. Johann mit 18,0% deutlich tiefer als jene der Schweizerinnen und Schweizer (41,6%). Für die Stadt Basel beträgt der Wert 2023 36,5%.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -2867,7 +2867,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In den Bezirken Pestalozzi und Kannenfeld ist der Anteil deutschsprachiger Kinder höher als im städtischen Durchschnitt, in den Bezirken Lysbüchel, Landskron und Friedmatt dagegen tiefer.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -2981,8 +2981,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bodenbedeckung nach Nutzungsart",
-		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 sind im Bezirk Lysbüchel 17,9% der Fläche Grünflächen. 2005 waren es 6,7%.",
 		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -3014,13 +3014,13 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12645,
-		"chart-id": 8081,
+		"chart-id": 12645,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Im Bezirk Friedmatt (mit dem Kannenfeldpark) macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2023: 252 000 m<sup>2</sup>). Im Bezirk Lysbüchel wuchs die Grünfläche seit 2005 von rund 48 600 auf 130 400 m<sup>2</sup>.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -3052,23 +3052,27 @@ var indikatoren = [
 	{
 		"template": "map002",
 		"data-id": 12646,
-		"chart-id": 7701,
+		"chart-id": 12646,
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B.Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
+		"title": "Städtischer Wärmeinseleffekt",
+		"subtitle": "im Siedlungsraum, nach Wohnviertel, Basel-Stadt, 2017",
+		"lesehilfe": "Die dichtbebauten innenstädtischen Wohnviertel sind am stärksten vom städtischen Wärmeinseleffekt betroffen: In der Altstadt Grossbasel liegt die berechnete nächtliche (4 Uhr) Lufttemperatur im Mittel 4,5 °C über der mittleren Temperatur im unbebauten Umland (14,2 °C). Aber auch im Siedlungsraum der Gemeinde Riehen ist die Temperatur noch um 1,1 °C erhöht.",
+		"erlaeuterungen": "Die Daten stammen aus der Stadtklimaanalyse Basel-Stadt aus dem Jahr 2019 und wurden räumlich für den Siedlungsraum gemäss Zonenplan gemittelt. Es handelt sich um mit einem numerischen Modell berechnete Temperaturwerte in 2 m über Grund für eine stabile sommerliche Hochdruckwetterlage mit wolkenlosem Himmel und geringen Windgeschwindigkeiten.",
 		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
+			"Lufthygieneamt beider Basel"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch/' target = '_blank'>https://www.stadtklima.bs.ch</a>",
+			"<a href = 'https://map.geo.bs.ch/file_proxy/KL_Stadtklima_Windstroemungsfeld/Endbericht_Basel_Klimaanalyse_Rev09_ohne_Anhang.pdf' target = '_blank'>Bericht Stadtklimaanalyse Kanton Basel-Stadt 2019</a>",
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_group_layers_Stadtklima%20Basel-Stadt=KL_Stadtklima_Waermeinseleffekt&tree_groups=Stadtklima%20Basel-Stadt' target = '_blank'>Detailierte Klimaanalysekarte im Geoportal Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Anzahl Tropennächte",
+		"description": "Städtischer Wärmeinseleffekt",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.12646",
@@ -3324,9 +3328,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Delikte",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Berücksichtigt sind folgende Deliktkategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2022 wurden im Bezirk Pestalozzi 30 Delikte gemeldet. Im dargestellten Zeitraum wurden in diesem Bezirk 2019 am wenigsten (14) und 2012 am meisten Delikte (44) registriert. In der Stadt Basel gab es im Jahr 2022 1 559 Delikte. Der Minimalwert wurde dort 2020 (1 158), der Maximalwert 2012 (2 069) registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -3362,9 +3366,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Einbruch- und Einschleichdiebstähle",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Anzahl Einbruch- und Einschleichdiebstähle.",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2022 gab es im Bezirk Pestalozzi 27 Einbruch- oder Einschleichdiebstähle. Im dargestellten Zeitraum wurden in diesem Bezirk 2019 am wenigsten (13) und 2012 am meisten Einbruch- oder Einschleichdiebstähle (39) registriert. In der Stadt Basel gab es im Jahr 2022 1 358 Einbruch- oder Einschleichdiebstähle. Der Minimalwert wurde dort 2020 (995), der Maximalwert 2012 (1 819) registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -3400,8 +3404,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Umzugssaldo",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 weisen die Bezirke Kannenfeld, Landskron und Pestalozzi einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in diese Bezirke. Hingegen weisen 2023 die Bezirke Friedmattviertel und Lysbüchel positive Umzugssaldi auf. Die hohen Umzugsgewinne im Bezirk Lysbüchel 2022 und 2023 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
 		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3413,7 +3417,7 @@ var indikatoren = [
 		],
 		"description": "Umzugssaldo",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.10",
