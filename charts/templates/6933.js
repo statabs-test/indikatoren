@@ -160,7 +160,7 @@ global $
             },
           },
         },
-        stacking: "normal",
+        stacking: "percent",
         lineWidth: 1,
         fillOpacity: 1,
       }
