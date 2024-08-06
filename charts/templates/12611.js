@@ -19,7 +19,7 @@
                     });
                 };
                 negateNumbersInColumn(1);
-                negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
+                //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
         yAxis: [{
@@ -77,32 +77,18 @@
         series: [
             {
                 //color: "#246370", // blau dunkel
-                color: "#7f5f1a",
+                color: "#008ac3",
                 stacking: 'normal',
-                //stack: 'male',
+                //stack: 'Männer',
                 legendIndex: 0
             },
             {
-                //color: "#A8C3CA", //blau hell
-                "color": "#cd9c00",
-                stacking: 'normal',
-                //stack: 'male',
-                legendIndex: 2
-            },
-            {
                 //color: "#923F8D", // rot dunkel 
-                "color": "#923f8d",
+                "color": "#b00000",
                 stacking: 'normal',
-                //stack: 'female',
+                //stack: 'Frauen',
                 legendIndex: 1
             },
-            {
-                //color: "#E7CEE2", //rot hell
-                "color": "#b375ab",
-                stacking: 'normal',
-                // stack: 'female',
-                legendIndex: 3
-            }
         ],
         "legend": {
             "enabled": true,
@@ -111,7 +97,7 @@
             "align": "left",
             //"y": 55,
             //"x": 2000,
-            "itemWidth": 155,
+            "itemWidth": 145,
             "itemStyle": {
                 "fontWeight": "normal"
             }
