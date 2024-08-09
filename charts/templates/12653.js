@@ -19,7 +19,7 @@
                 + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65, 94); //move -x to the left and +y down
+            .translate(-65,90); //move -x to the left and +y down
         }
       }
     },
@@ -87,7 +87,7 @@
         text: '-<br><br><br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
         style: {
           fontWeight: 'normal',
-          lineHeight: 18
+          lineHeight: 17
         }
       },
       labelFormatter: function () {
@@ -96,14 +96,14 @@
     },
     "series": [
       {
-        "color": "#b375ab",
+        "color": "#cd9c00",
         //"index": 0,
         //legendIndex: 0,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#cd9c00",
         //"index": 5,
         //legendIndex: 1,
         "type": "line",
@@ -160,14 +160,14 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#cd9c00",
+        "color": "#b375ab",
         //"index": 4,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#cd9c00",
+        "color": "#b375ab",
         //"index": 9,
         //legendIndex: 3,
         "type": "line",
