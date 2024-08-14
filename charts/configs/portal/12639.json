@@ -1,201 +1,245 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
-      "index": 0,
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          2017,
-          319
-        ],
-        [
-          2018,
-          317
-        ],
-        [
-          2019,
-          313
-        ],
-        [
-          2020,
-          295
-        ],
-        [
-          2021,
-          282
-        ],
-        [
-          2022,
-          251
-        ],
-        [
-          2023,
-          259
-        ]
-      ],
-      "name": "Bezueger Friedmatt"
-    },
-    {
       "color": "#b375ab",
-      "index": 1,
-      "type": "column",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
-          2017,
-          99
+          "2017",
+          8
         ],
         [
-          2018,
-          92
+          "2018",
+          8
         ],
         [
-          2019,
-          85
+          "2019",
+          7.9
         ],
         [
-          2020,
-          79
+          "2020",
+          7.4
         ],
         [
-          2021,
-          68
+          "2021",
+          6.6
         ],
         [
-          2022,
-          53
+          "2022",
+          5.8
         ],
         [
-          2023,
-          47
+          "2023",
+          6
         ]
       ],
-      "name": "Bezueger Kannenfeld"
+      "name": "Friedmatt",
+      "turboThreshold": 0
     },
     {
-      "color": "#7f5f1a",
-      "index": 2,
-      "yAxis": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#689199",
       "data": [
         [
-          2017,
-          827
+          "2017",
+          5
         ],
         [
-          2018,
-          828
+          "2018",
+          4.6
         ],
         [
-          2019,
-          764
+          "2019",
+          4.4
         ],
         [
-          2020,
-          684
+          "2020",
+          4
         ],
         [
-          2021,
-          573
+          "2021",
+          3.5
         ],
         [
-          2022,
-          556
+          "2022",
+          2.7
         ],
         [
-          2023,
-          551
+          "2023",
+          2.5
         ]
       ],
-      "name": "Bezueger Landskron"
+      "name": "Kannenfeld",
+      "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
-      "index": 3,
-      "yAxis": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#662673",
       "data": [
         [
-          2017,
-          140
+          "2017",
+          11.8
         ],
         [
-          2018,
-          124
+          "2018",
+          11.9
         ],
         [
-          2019,
-          178
+          "2019",
+          11.2
         ],
         [
-          2020,
-          166
+          "2020",
+          9.9
         ],
         [
-          2021,
-          168
+          "2021",
+          8.5
         ],
         [
-          2022,
-          160
+          "2022",
+          8.1
         ],
         [
-          2023,
-          155
+          "2023",
+          8.2
         ]
       ],
-      "name": "Bezueger Lysbüchel"
+      "name": "Landskron",
+      "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 4,
-      "yAxis": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#999",
       "data": [
         [
-          2017,
-          205
+          "2017",
+          6.9
         ],
         [
-          2018,
-          183
+          "2018",
+          6.4
         ],
         [
-          2019,
-          190
+          "2019",
+          8.8
         ],
         [
-          2020,
-          196
+          "2020",
+          8
         ],
         [
-          2021,
-          195
+          "2021",
+          8
         ],
         [
-          2022,
-          179
+          "2022",
+          6.7
         ],
         [
-          2023,
-          169
+          "2023",
+          5.8
         ]
       ],
-      "name": "Bezueger Pestalozzi"
+      "name": "Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "visible": true,
+      "data": [
+        [
+          "2017",
+          5.5
+        ],
+        [
+          "2018",
+          4.8
+        ],
+        [
+          "2019",
+          5
+        ],
+        [
+          "2020",
+          5.2
+        ],
+        [
+          "2021",
+          5.1
+        ],
+        [
+          "2022",
+          4.7
+        ],
+        [
+          "2023",
+          4.5
+        ]
+      ],
+      "name": "Pestalozzi",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3c3c3c",
+      "visible": true,
+      "data": [
+        [
+          "2017",
+          6.7
+        ],
+        [
+          "2018",
+          6.5
+        ],
+        [
+          "2019",
+          6.3
+        ],
+        [
+          "2020",
+          6.1
+        ],
+        [
+          "2021",
+          5.7
+        ],
+        [
+          "2022",
+          5.3
+        ],
+        [
+          "2023",
+          5.1
+        ]
+      ],
+      "name": "Stadt Basel",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -211,9 +255,19 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-          //move legend title
-          var title = this.legend.title.translate(-140, 40);
-        }
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-12639"
   },
@@ -221,11 +275,14 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": false
-      },
-      "borderWidth": 0
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "title": {
@@ -235,7 +292,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Sozialhilfebezüger und -quote"
+    "text": "Sozialhilfequote nach Bezirk"
   },
   "subtitle": {
     "text": "Wohnviertel St. Johann",
@@ -246,88 +303,35 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
     "title": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickPositioner": function () {
-        var interval = 1,
-          ext = this.getExtremes(),
-          i = ext.dataMax,
-          pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
-      }
-  },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "enabled": false
+        "color": "#000000"
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0
-    },
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "title": {
-        "enabled": false
-      },
-      "labels": {
-        "format": "{value:,.0f}%",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "opposite": true
+      "format": "{value:,.0f}%"
     }
-  ],
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "useHTML": true,
-    "y": -55,
-    "x": -17,
-    "itemMarginBottom": 2,
-    "width": 260,
-    "labelFormatter": function () {
-        return this.name.replace("Bezüger ", "") 
-        .replace("Sozialhilfequote ", "");
-      },
-    "title": {
-      "text": " \u003Cbr\u003EBezüger:\u003Cbr\u002F\u003EQuote (rechte Skala):",
-      "style": {
-        "fontWeight": "normal",
-        "fontSize": "12px",
-        "lineHeight": 1.4
-      }
-    }
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -377,6 +381,10 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "12639"

@@ -1679,7 +1679,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12610,
-		"chart-id": 8046,
+		"chart-id": 12610,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -1717,12 +1717,12 @@ var indikatoren = [
 	{
 		"template": "populationPyramid001",
 		"data-id": 12611,
-		"chart-id": 8047,
+		"chart-id": 12611,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"subtitle": "Wohnbezirk Friedmatt, 2023",
 		"lesehilfe": "In den Bezirken von St. Johann sind bis auf wenige Ausnahmen die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -1755,7 +1755,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12612,
-		"chart-id": 8048,
+		"chart-id": 12612,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -1794,7 +1794,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12613,
-		"chart-id": 8049,
+		"chart-id": 12613,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -1852,7 +1852,7 @@ var indikatoren = [
 		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.12614",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.05",
 		"stufe1": "2 Bevölkerung",
@@ -1876,7 +1876,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"quellenangabe": [
@@ -1890,7 +1890,7 @@ var indikatoren = [
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.12615",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.07",
 		"stufe1": "2 Bevölkerung",
@@ -1965,7 +1965,7 @@ var indikatoren = [
 		],
 		"description": "Haushalte nach Art des Haushalts",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Haushalte",
 		"kuerzel": "I.01.TRKE.12617",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "4.01",
@@ -1985,7 +1985,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12618,
-		"chart-id": 8054,
+		"chart-id": 12618,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -2023,7 +2023,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12619,
-		"chart-id": 8055,
+		"chart-id": 12619,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -2079,7 +2079,7 @@ var indikatoren = [
 		],
 		"description": "Religionszugehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Religionen",
 		"kuerzel": "I.01.TRUN.12620",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.06",
@@ -2105,7 +2105,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "Kommentar folgt dann….",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2213,12 +2213,12 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12624,
-		"chart-id": 8060,
+		"chart-id": 12624,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Zimmerzahl",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "Rund zwei Drittel aller Wohnungen bestehen aus Drei- und Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"quellenangabe": [
@@ -2251,12 +2251,12 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12625,
-		"chart-id": 8061,
+		"chart-id": 12625,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen nach Belegungsart",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "Im Wohnviertel St. Johann überwiegt der  Mietwohnungsanteil mit 78,7%. Der Anteil an Genossenschaftswohnungen betrug 2023 10,1%, was unter dem Wert für die Stadt Basel (11,0%) lag. Selbstbewohnte Eigentümerwohnungen weisen einen Anteil von 9,7% auf.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
@@ -2289,7 +2289,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12626,
-		"chart-id": 8062,
+		"chart-id": 12626,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -2327,12 +2327,12 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12627,
-		"chart-id": 8063,
+		"chart-id": 12627,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Leerwohnungsquote",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "Von 2016 bis 2022 stieg die Leerwohnungsquote im Wohnviertel St. Johann stetig an. Seit 2023 sinkt sie und liegt aktuell bei 0.8%.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"quellenangabe": [
@@ -2560,9 +2560,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2021 sind in der Stadt Basel 187 788 Beschäftigte tätig. Davon arbeiten 11 348 im Bezirk Lysbüchel, 5 064 im Friedmattviertel, 1 226 in Landskron, 813 im Pestalozzi und 592 im Kannenfeld. Anteilsmässig sind diese bei Lysbüchel 6,0% und beim Kannenfeld 0,3%. Insgesamt entfallen 10,1% der Beschäftigung der Stadt Basel auf das Wohnviertel St. Johann.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -2598,8 +2598,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Beschäftigung nach ausgewählten Branchen",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die wichtigste Branche im Wohnviertel St. Johann ist die pharmazeutische Industrie  mit 8 025 Beschäftigten im Jahr 2021, gefolgt von den sonstigen wirtschaftlichen Dienstleistungen (2 514) und dem Gesundheitswesen (2 126). Die Schiff- und Luftfahrt (1 981), Lagerei (1 537) sowie die Gastronomie (1 471) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann, und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2636,8 +2636,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Rotlichtsalons",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im St.Johann gab es im Jahr 2023 insgesamt 7 Rotlichtsalons (2007 waren es deren 22). In den Bezirken Landskron und Pestalozzi waren es drei bzw. zwei, in den Bezirken Kannenfeld und Friedmatt je einen. Im Bezirk Lysbüchel wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2023 im Kanton Basel-Stadt 130 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -2713,8 +2713,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann",
+		"lesehilfe": "In den fünf Bezirken des Wohnviertels St. Johann blieb die Bruttogeschossfläche für Wohnen zwischen 1995 und 2022 stabil, für Arbeiten hat sie um 7% abgenommen, was insbesondere auf den Rückang im Bezirk Lysbüchel zurückzuführen ist, wo dementsprechend die Fläche fürs Wohnen deutlich zugenommen hat. In der Stadt Basel hat im selben Zeitraum die Bruttogeschossfläche Arbeiten um 9% und jene fürs Wohnen um 4% zugenommen.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Daten sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
@@ -2751,7 +2751,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Nettoerwerbsquote der Frauen",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
@@ -2785,11 +2785,11 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12639,
-		"chart-id": 8075,
+		"chart-id": 12639,
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Sozialhilfebezüger und -quote",
+		"title": "Sozialhilfequote nach Bezirk",
 		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "Der Bezirk Landskron weist 2023 mit 8,2% die höchste Sozialhilfequote im St. Johann auf. Im Bezirk Kannenfeld liegt sie mit 2,5% am tiefsten. Gegenüber 2017 ist die Sozialhilfequote in allen Bezirken des St.Johann gesunken, am stärksten im Bezirk Landskron.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
@@ -2801,7 +2801,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"description": "Sozialhilfebezüger und -quote",
+		"description": "Sozialhilfequote nach Bezirk",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.12639",
@@ -2823,12 +2823,12 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12640,
-		"chart-id": 8076,
+		"chart-id": 12640,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Sek P-Quote",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel St. Johann mit 18,0% deutlich tiefer als jene der Schweizerinnen und Schweizer (41,6%). Für die Stadt Basel beträgt der Wert 2023 36,5%.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
@@ -2861,12 +2861,12 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12641,
-		"chart-id": 8077,
+		"chart-id": 12641,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "In den Bezirken Pestalozzi und Kannenfeld ist der Anteil deutschsprachiger Kinder höher als im städtischen Durchschnitt, in den Bezirken Lysbüchel, Landskron und Friedmatt dagegen tiefer.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
@@ -2942,8 +2942,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel St. Johann beziehen Ende des Jahres 2023 Familienmietzinsbeiträge (FAMI). In 20,9% der Haushalte bezieht mindestens eine Person Prämienverbilligung (PV). Zum Vergleich: Die FAMI-Quote des Kantons Basel-Stadt liegt bei 2,1%, die PV-Quote bei 15,9%.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3093,6 +3093,7 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
+		"data-id": 12648,
 		"chart-id": 12648,
 		"filter": "",
 		"parentId": null,
@@ -3130,12 +3131,13 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
+		"data-id": 12649,
 		"chart-id": 12649,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Stromverbrauch",
-		"subtitle": "in Gigawattstunden (GWh), Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "in Gigawattstunden (GWh), Wohnviertel St. Johann",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Die Daten stammen aus der kantonalen Energiestatistik, welche seit dem Jahr 2012 im Zweijahresrhythmus erscheint. Ausgewiesen werden hier ausschliesslich Endverbräuche in Gigawattstunden (GWh).",
 		"quellenangabe": [
@@ -3173,7 +3175,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Jahresendbestand der Personenwagen und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
 		"quellenangabe": [
@@ -3304,7 +3306,7 @@ var indikatoren = [
 		"description": "Freiraumfläche",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kuerzel": "I.02.1.12653",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "7.03",
 		"stufe1": "7 Raum und Umwelt",
@@ -3323,7 +3325,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12655,
-		"chart-id": 8092,
+		"chart-id": 12655,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3361,7 +3363,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12656,
-		"chart-id": 8093,
+		"chart-id": 12656,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3399,7 +3401,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12657,
-		"chart-id": 8094,
+		"chart-id": 12657,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3442,7 +3444,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2023",
+		"subtitle": "Wohnbezirk Kannenfeld, 2023",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"quellenangabe": [
@@ -3451,7 +3453,7 @@ var indikatoren = [
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Bezirk"
 		],
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
 		"thema": "01 Bevölkerung",
@@ -3471,6 +3473,120 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-06-10T08:47:08",
 		"id": 12659
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12719,
+		"chart-id": 12719,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Wohnbezirk Landskron, 0",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02c",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-06T01:52:40",
+		"id": 12719
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12720,
+		"chart-id": 12720,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Wohnbezirk Lysbüchel, 0",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02d",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-06T01:56:09",
+		"id": 12720
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12721,
+		"chart-id": 12721,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Wohnbezirk Pestalozzi, 0",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02e",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-06T01:56:35",
+		"id": 12721
 	},
 	{
 		"template": "line001",

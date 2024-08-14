@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#DC440E",
+      "index": 5,
       "data": [
         [
           "2013",
@@ -53,6 +54,7 @@
     },
     {
       "color": "#923F8D",
+      "index": 4,
       "data": [
         [
           "2013",
@@ -104,6 +106,7 @@
     },
     {
       "color": "#68AB2B",
+      "index": 3,
       "data": [
         [
           "2013",
@@ -155,6 +158,7 @@
     },
     {
       "color": "#689199",
+      "index": 2,
       "data": [
         [
           "2013",
@@ -206,6 +210,7 @@
     },
     {
       "color": "#CD9C00",
+      "index": 1,
       "data": [
         [
           "2013",
@@ -257,6 +262,7 @@
     },
     {
       "color": "#B00000",
+      "index": 0,
       "data": [
         [
           "2013",
@@ -321,15 +327,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -45,
-      "align": "right",
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
+      }
     },
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "chart": {
     "width": 485,
@@ -345,7 +345,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
+    "zoomType": "y",
     "panning": true,
     "panKey": "shift",
     "events": {
@@ -375,11 +375,7 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "column": {
-      "groupPadding": 0.04,
-      "pointPadding": 0.03,
+      },
       "stacking": "normal"
     }
   },
@@ -393,7 +389,7 @@
     "text": "Wohnungen nach Zimmerzahl"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -417,10 +413,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickInterval": 500,
-    "max": 4000,
-    "reversedStacks": false
+    }
   },
   "legend": {
     "symbolRadius": 0,
@@ -429,9 +422,8 @@
     },
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right",
     "itemMarginBottom": 5,
-    "reversed": true
+    "align": "right"
   },
   "navigation": {
     "menuItemStyle": {
@@ -456,7 +448,8 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "12624"

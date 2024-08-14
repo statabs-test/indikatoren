@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#b00000",
       "data": [
         [
           2010,
@@ -63,8 +63,7 @@
       "name": "Schweiz"
     },
     {
-      "color": "#b375ab",
-      "visible": true,
+      "color": "#008ac3",
       "data": [
         [
           2010,
@@ -126,7 +125,7 @@
       "name": "Ausland"
     },
     {
-      "color": "#999999",
+      "color": "#000",
       "data": [
         [
           2010,
@@ -217,7 +216,6 @@
 					}
 				}
     },
-    "marginRight": 15,
     "renderTo": "container-12640"
   },
   "plotOptions": {
@@ -244,7 +242,7 @@
     "text": "Sek P-Quote"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",

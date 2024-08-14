@@ -2414,3 +2414,6 @@ id | visible | visibleInPortal | indikatorenset
 12656 | true | true | Stadtteilmonitoring St. Johann
 12657 | true | true | Stadtteilmonitoring St. Johann
 12659 | true | true | Stadtteilmonitoring St. Johann
+12719 | true | true | Stadtteilmonitoring St. Johann
+12720 | true | true | Stadtteilmonitoring St. Johann
+12721 | true | true | Stadtteilmonitoring St. Johann

@@ -3,36 +3,270 @@
     {
       "color": "#cd9c00",
       "index": 1,
-      "legendIndex": 1
+      "legendIndex": 1,
+      "data": [
+        [
+          "1995",
+          206867
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          217628
+        ],
+        [
+          "2010",
+          214130
+        ],
+        [
+          "2015",
+          214130
+        ],
+        [
+          "2020",
+          198710
+        ],
+        [
+          "2021",
+          198045
+        ],
+        [
+          "2022",
+          197501
+        ]
+      ],
+      "name": "Wohnen Pestalozzi",
+      "turboThreshold": 0
     },
     {
       "color": "#b375ab",
       "index": 3,
-      "legendIndex": 3
+      "legendIndex": 3,
+      "data": [
+        [
+          "1995",
+          122788
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          127433
+        ],
+        [
+          "2010",
+          124971
+        ],
+        [
+          "2015",
+          124557
+        ],
+        [
+          "2020",
+          118836
+        ],
+        [
+          "2021",
+          117733
+        ],
+        [
+          "2022",
+          118525
+        ]
+      ],
+      "name": "Wohnen Kannenfeld",
+      "turboThreshold": 0
     },
     {
       "color": "#8A8A8A",
       "visible": false,
       "index": 5,
-      "legendIndex": 5
+      "legendIndex": 5,
+      "data": [
+        [
+          "1995",
+          300483
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          304106
+        ],
+        [
+          "2010",
+          322492
+        ],
+        [
+          "2015",
+          323162
+        ],
+        [
+          "2020",
+          306827
+        ],
+        [
+          "2021",
+          305270
+        ],
+        [
+          "2022",
+          307378
+        ]
+      ],
+      "name": "Wohnen Landskron",
+      "turboThreshold": 0
     },
     {
       "color": "#7f5f1a",
       "index": 2,
-      "legendIndex": 2
+      "legendIndex": 2,
+      "data": [
+        [
+          "1995",
+          94705
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          73629
+        ],
+        [
+          "2010",
+          102225
+        ],
+        [
+          "2015",
+          130309
+        ],
+        [
+          "2020",
+          104989
+        ],
+        [
+          "2021",
+          104988
+        ],
+        [
+          "2022",
+          117226
+        ]
+      ],
+      "name": "Wohnen Lysbüchel",
+      "turboThreshold": 0
     },
     {
       "color": "#923f8d",
       "index": 4,
-      "legendIndex": 4
+      "legendIndex": 4,
+      "data": [
+        [
+          "1995",
+          204341
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          226783
+        ],
+        [
+          "2010",
+          226944
+        ],
+        [
+          "2015",
+          235362
+        ],
+        [
+          "2020",
+          198281
+        ],
+        [
+          "2021",
+          198467
+        ],
+        [
+          "2022",
+          196345
+        ]
+      ],
+      "name": "Wohnen Friedmatt",
+      "turboThreshold": 0
     },
     {
       "color": "#474747",
       "visible": false,
       "index": 6,
-      "legendIndex": 6
+      "legendIndex": 6,
+      "data": [
+        [
+          "1995",
+          9840504
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2005",
+          10225398
+        ],
+        [
+          "2010",
+          10258081
+        ],
+        [
+          "2015",
+          10521765
+        ],
+        [
+          "2020",
+          10088260
+        ],
+        [
+          "2021",
+          10123226
+        ],
+        [
+          "2022",
+          10194081
+        ]
+      ],
+      "name": "Wohnen Basel",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -84,7 +318,7 @@
     "text": "Bruttogeschossfläche Wohnen und Arbeiten"
   },
   "subtitle": {
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -92,24 +326,6 @@
       "color": "#000000"
     },
     "useHTML": true
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "type": "category"
   },
   "yAxis": {
     "min": 0,

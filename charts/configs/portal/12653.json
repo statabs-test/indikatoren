@@ -8,74 +8,31 @@
       },
       "data": [
         [
-          2008,
-          80114
+          "2005",
+          22390
         ],
         [
-          2009,
-          80114
+          "2010",
+          22363
         ],
         [
-          2010,
-          80229
+          "2015",
+          21841
         ],
         [
-          2011,
-          80229
+          "2020",
+          21841
         ],
         [
-          2012,
-          80229
-        ],
-        [
-          2013,
-          80230
-        ],
-        [
-          2014,
-          73932
-        ],
-        [
-          2015,
-          73932
-        ],
-        [
-          2016,
-          73731
-        ],
-        [
-          2017,
-          73793
-        ],
-        [
-          2018,
-          73439
-        ],
-        [
-          2019,
-          73439
-        ],
-        [
-          2020,
-          73439
-        ],
-        [
-          2021,
-          73439
-        ],
-        [
-          2022,
-          73439
-        ],
-        [
-          2023,
-          73439
+          "2023",
+          21841
         ]
       ],
-      "name": "Freiraumfläche Friedmatt"
+      "name": "Freiraumfläche Pestalozzi",
+      "turboThreshold": 0
     },
     {
-      "color": "#7f5f1a",
+      "color": "#cd9c00",
       "type": "line",
       "yAxis": 1,
       "tooltip": {
@@ -83,148 +40,64 @@
       },
       "data": [
         [
-          2008,
-          8.04
+          "2005",
+          11.73
         ],
         [
-          2009,
-          8.04
+          "2010",
+          11.71
         ],
         [
-          2010,
-          8.05
+          "2015",
+          11.44
         ],
         [
-          2011,
-          8.05
+          "2020",
+          11.44
         ],
         [
-          2012,
-          8.05
-        ],
-        [
-          2013,
-          8.05
-        ],
-        [
-          2014,
-          7.42
-        ],
-        [
-          2015,
-          7.42
-        ],
-        [
-          2016,
-          7.4
-        ],
-        [
-          2017,
-          7.41
-        ],
-        [
-          2018,
-          7.37
-        ],
-        [
-          2019,
-          7.37
-        ],
-        [
-          2020,
-          7.37
-        ],
-        [
-          2021,
-          7.37
-        ],
-        [
-          2022,
-          7.37
-        ],
-        [
-          2023,
-          7.37
+          "2023",
+          11.44
         ]
       ],
-      "name": "Anteil Freiraumfläche Friedmatt (rechte Skala)"
+      "name": "Anteil Freiraumfläche Pestalozzi (rechte Skala)",
+      "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#689199",
+      "visible": false,
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
-          2008,
+          "2005",
           0
         ],
         [
-          2009,
+          "2010",
           0
         ],
         [
-          2010,
+          "2015",
           0
         ],
         [
-          2011,
+          "2020",
           0
         ],
         [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
+          "2023",
           0
         ]
       ],
-      "name": "Freiraumfläche Kannenfeld"
+      "name": "Freiraumfläche Kannenfeld",
+      "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#689199",
+      "visible": false,
       "type": "line",
       "yAxis": 1,
       "tooltip": {
@@ -232,148 +105,64 @@
       },
       "data": [
         [
-          2008,
+          "2005",
           0
         ],
         [
-          2009,
+          "2010",
           0
         ],
         [
-          2010,
+          "2015",
           0
         ],
         [
-          2011,
+          "2020",
           0
         ],
         [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
+          "2023",
           0
         ]
       ],
-      "name": "Anteil Freiraumfläche Kannenfeld (rechte Skala)"
+      "name": "Anteil Freiraumfläche Kannenfeld (rechte Skala)",
+      "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#662673",
+      "visible": false,
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
-          2008,
+          "2005",
           0
         ],
         [
-          2009,
+          "2010",
           0
         ],
         [
-          2010,
+          "2015",
           0
         ],
         [
-          2011,
+          "2020",
           0
         ],
         [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
+          "2023",
           0
         ]
       ],
-      "name": "Freiraumfläche Landskron"
+      "name": "Freiraumfläche Landskron",
+      "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#662673",
+      "visible": false,
       "type": "line",
       "yAxis": 1,
       "tooltip": {
@@ -381,148 +170,62 @@
       },
       "data": [
         [
-          2008,
+          "2005",
           0
         ],
         [
-          2009,
+          "2010",
           0
         ],
         [
-          2010,
+          "2015",
           0
         ],
         [
-          2011,
+          "2020",
           0
         ],
         [
-          2012,
-          0
-        ],
-        [
-          2013,
-          0
-        ],
-        [
-          2014,
-          0
-        ],
-        [
-          2015,
-          0
-        ],
-        [
-          2016,
-          0
-        ],
-        [
-          2017,
-          0
-        ],
-        [
-          2018,
-          0
-        ],
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          0
-        ],
-        [
-          2021,
-          0
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
+          "2023",
           0
         ]
       ],
-      "name": "Anteil Freiraumfläche Landskron (rechte Skala)"
+      "name": "Anteil Freiraumfläche Landskron (rechte Skala)",
+      "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#999",
       "type": "column",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
-          2008,
-          12081
+          "2005",
+          12222
         ],
         [
-          2009,
-          11634
-        ],
-        [
-          2010,
+          "2010",
           11863
         ],
         [
-          2011,
-          11843
-        ],
-        [
-          2012,
-          8819
-        ],
-        [
-          2013,
+          "2015",
           8805
         ],
         [
-          2014,
-          8805
-        ],
-        [
-          2015,
-          8805
-        ],
-        [
-          2016,
-          8805
-        ],
-        [
-          2017,
+          "2020",
           6280
         ],
         [
-          2018,
-          6280
-        ],
-        [
-          2019,
-          6280
-        ],
-        [
-          2020,
-          6280
-        ],
-        [
-          2021,
-          8805
-        ],
-        [
-          2022,
-          36139
-        ],
-        [
-          2023,
+          "2023",
           55211
         ]
       ],
-      "name": "Freiraumfläche Lysbüchel"
+      "name": "Freiraumfläche Lysbüchel",
+      "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#999",
       "type": "line",
       "yAxis": 1,
       "tooltip": {
@@ -530,71 +233,28 @@
       },
       "data": [
         [
-          2008,
-          1.66
+          "2005",
+          1.68
         ],
         [
-          2009,
-          1.6
-        ],
-        [
-          2010,
+          "2010",
           1.63
         ],
         [
-          2011,
-          1.63
-        ],
-        [
-          2012,
+          "2015",
           1.21
         ],
         [
-          2013,
-          1.21
-        ],
-        [
-          2014,
-          1.21
-        ],
-        [
-          2015,
-          1.21
-        ],
-        [
-          2016,
-          1.21
-        ],
-        [
-          2017,
+          "2020",
           0.86
         ],
         [
-          2018,
-          0.86
-        ],
-        [
-          2019,
-          0.86
-        ],
-        [
-          2020,
-          0.86
-        ],
-        [
-          2021,
-          1.21
-        ],
-        [
-          2022,
-          4.97
-        ],
-        [
-          2023,
+          "2023",
           7.59
         ]
       ],
-      "name": "Anteil Freiraumfläche Lysbüchel (rechte Skala)"
+      "name": "Anteil Freiraumfläche Lysbüchel (rechte Skala)",
+      "turboThreshold": 0
     },
     {
       "color": "#b375ab",
@@ -604,74 +264,31 @@
       },
       "data": [
         [
-          2008,
-          22360
+          "2005",
+          80512
         ],
         [
-          2009,
-          22363
+          "2010",
+          80229
         ],
         [
-          2010,
-          22363
+          "2015",
+          73932
         ],
         [
-          2011,
-          22363
+          "2020",
+          73439
         ],
         [
-          2012,
-          21841
-        ],
-        [
-          2013,
-          21841
-        ],
-        [
-          2014,
-          21841
-        ],
-        [
-          2015,
-          21841
-        ],
-        [
-          2016,
-          21841
-        ],
-        [
-          2017,
-          21841
-        ],
-        [
-          2018,
-          21841
-        ],
-        [
-          2019,
-          21841
-        ],
-        [
-          2020,
-          21841
-        ],
-        [
-          2021,
-          21841
-        ],
-        [
-          2022,
-          21841
-        ],
-        [
-          2023,
-          21841
+          "2023",
+          73439
         ]
       ],
-      "name": "Freiraumfläche Pestalozzi"
+      "name": "Freiraumfläche Friedmatt",
+      "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#b375ab",
       "type": "line",
       "yAxis": 1,
       "tooltip": {
@@ -679,73 +296,48 @@
       },
       "data": [
         [
-          2008,
-          11.71
+          "2005",
+          8.08
         ],
         [
-          2009,
-          11.71
+          "2010",
+          8.05
         ],
         [
-          2010,
-          11.71
+          "2015",
+          7.42
         ],
         [
-          2011,
-          11.71
+          "2020",
+          7.37
         ],
         [
-          2012,
-          11.44
-        ],
-        [
-          2013,
-          11.44
-        ],
-        [
-          2014,
-          11.44
-        ],
-        [
-          2015,
-          11.44
-        ],
-        [
-          2016,
-          11.44
-        ],
-        [
-          2017,
-          11.44
-        ],
-        [
-          2018,
-          11.44
-        ],
-        [
-          2019,
-          11.44
-        ],
-        [
-          2020,
-          11.44
-        ],
-        [
-          2021,
-          11.44
-        ],
-        [
-          2022,
-          11.44
-        ],
-        [
-          2023,
-          11.44
+          "2023",
+          7.37
         ]
       ],
-      "name": "Anteil Freiraumfläche Pestalozzi (rechte Skala)"
+      "name": "Anteil Freiraumfläche Friedmatt (rechte Skala)",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -776,7 +368,7 @@
                 + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65, 94); //move -x to the left and +y down
+            .translate(-65,90); //move -x to the left and +y down
         }
     },
     "renderTo": "container-12653"
@@ -810,24 +402,6 @@
       "color": "#000000"
     },
     "useHTML": true
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -881,7 +455,7 @@
       "text": "-\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E-",
       "style": {
         "fontWeight": "normal",
-        "lineHeight": 18
+        "lineHeight": 17
       }
     },
     "labelFormatter": function () {

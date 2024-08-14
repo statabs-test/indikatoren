@@ -1025,7 +1025,14 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 2
+    "tickPositioner": function () {
+          var interval = 4,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
   },
   "yAxis": {
     "min": 0,
@@ -1042,20 +1049,21 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    },
-    "tickInterval": 10
+      },
+      "format": "{value}"
+    }
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
+    "layout": "vetical",
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 3
+    "itemMarginBottom": 5,
+    "itemDistance": 0
   },
   "credits": {
     "enabled": true,
@@ -1107,6 +1115,7 @@
 			}
   },
   "tooltip": {
+    "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {

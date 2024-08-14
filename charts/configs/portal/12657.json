@@ -48,7 +48,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b375ab",
+      "color": "#689199",
       "data": [
         [
           "2014",
@@ -92,6 +92,148 @@
         ]
       ],
       "name": "Umzugssaldo Kannenfeld",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "2014",
+          -18
+        ],
+        [
+          "2015",
+          -5
+        ],
+        [
+          "2016",
+          -97
+        ],
+        [
+          "2017",
+          -36
+        ],
+        [
+          "2018",
+          -44
+        ],
+        [
+          "2019",
+          -145
+        ],
+        [
+          "2020",
+          15
+        ],
+        [
+          "2021",
+          -134
+        ],
+        [
+          "2022",
+          139
+        ],
+        [
+          "2023",
+          -78
+        ]
+      ],
+      "name": "Umzugssaldo Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999",
+      "data": [
+        [
+          "2014",
+          -91
+        ],
+        [
+          "2015",
+          -46
+        ],
+        [
+          "2016",
+          -76
+        ],
+        [
+          "2017",
+          -91
+        ],
+        [
+          "2018",
+          -95
+        ],
+        [
+          "2019",
+          14
+        ],
+        [
+          "2020",
+          -99
+        ],
+        [
+          "2021",
+          -35
+        ],
+        [
+          "2022",
+          145
+        ],
+        [
+          "2023",
+          153
+        ]
+      ],
+      "name": "Umzugssaldo Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "visible": true,
+      "data": [
+        [
+          "2014",
+          -24
+        ],
+        [
+          "2015",
+          -93
+        ],
+        [
+          "2016",
+          -27
+        ],
+        [
+          "2017",
+          -35
+        ],
+        [
+          "2018",
+          54
+        ],
+        [
+          "2019",
+          -32
+        ],
+        [
+          "2020",
+          30
+        ],
+        [
+          "2021",
+          -27
+        ],
+        [
+          "2022",
+          -75
+        ],
+        [
+          "2023",
+          -64
+        ]
+      ],
+      "name": "Umzugssaldo Pestalozzi",
       "turboThreshold": 0
     }
   ],
@@ -146,7 +288,7 @@
                 }
     },
     "type": "column",
-    "spacingBottom": 40,
+    "spacingBottom": 50,
     "renderTo": "container-12657"
   },
   "plotOptions": {
@@ -192,15 +334,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 20,
-    "plotLines": [
-      {
-        "color": "#B9CFD7",
-        "value": 0
-      }
-    ]
+    "tickInterval": 100
   },
   "legend": {
     "symbolRadius": 0,
@@ -234,7 +371,8 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.6.2024"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "12657"

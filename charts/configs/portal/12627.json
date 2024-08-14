@@ -5,13 +5,8 @@
         "symbol": "circle",
         "enabled": false
       },
-      "color": "#999",
-      "index": 3,
+      "color": "#83522E",
       "data": [
-        [
-          "Wohnungen",
-          "bestand"
-        ],
         [
           2002,
           1.94
@@ -105,237 +100,9 @@
           0.79
         ]
       ],
-      "name": "Leerwohnungsquote in %",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "data": [
-        [
-          "Wohnungen",
-          undefined
-        ],
-        [
-          2002,
-          190
-        ],
-        [
-          2003,
-          177
-        ],
-        [
-          2004,
-          196
-        ],
-        [
-          2005,
-          191
-        ],
-        [
-          2006,
-          172
-        ],
-        [
-          2007,
-          158
-        ],
-        [
-          2008,
-          136
-        ],
-        [
-          2009,
-          95
-        ],
-        [
-          2010,
-          101
-        ],
-        [
-          2011,
-          62
-        ],
-        [
-          2012,
-          36
-        ],
-        [
-          2013,
-          24
-        ],
-        [
-          2014,
-          19
-        ],
-        [
-          2015,
-          17
-        ],
-        [
-          2016,
-          19
-        ],
-        [
-          2017,
-          38
-        ],
-        [
-          2018,
-          82
-        ],
-        [
-          2019,
-          85
-        ],
-        [
-          2020,
-          92
-        ],
-        [
-          2021,
-          102
-        ],
-        [
-          2022,
-          123
-        ],
-        [
-          2023,
-          98
-        ],
-        [
-          2024,
-          84
-        ]
-      ],
-      "name": "Leerwohnungen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b375ab",
-      "index": 2,
-      "data": [
-        [
-          "Wohnungen",
-          undefined
-        ],
-        [
-          2002,
-          9803
-        ],
-        [
-          2003,
-          9807
-        ],
-        [
-          2004,
-          9816
-        ],
-        [
-          2005,
-          9800
-        ],
-        [
-          2006,
-          9778
-        ],
-        [
-          2007,
-          9730
-        ],
-        [
-          2008,
-          9713
-        ],
-        [
-          2009,
-          9710
-        ],
-        [
-          2010,
-          9899
-        ],
-        [
-          2011,
-          9995
-        ],
-        [
-          2012,
-          9995
-        ],
-        [
-          2013,
-          10015
-        ],
-        [
-          2014,
-          9989
-        ],
-        [
-          2015,
-          10017
-        ],
-        [
-          2016,
-          10050
-        ],
-        [
-          2017,
-          10069
-        ],
-        [
-          2018,
-          10149
-        ],
-        [
-          2019,
-          10148
-        ],
-        [
-          2020,
-          10095
-        ],
-        [
-          2021,
-          10152
-        ],
-        [
-          2022,
-          10421
-        ],
-        [
-          2023,
-          10644
-        ],
-        [
-          2024,
-          10664
-        ]
-      ],
-      "name": "undefined",
-      "turboThreshold": 0
+      "name": "Leerwohnungsquote in %"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 2
-  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -384,13 +151,31 @@
     "text": "Leerwohnungsquote"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 2
   },
   "yAxis": {
     "min": 0,
@@ -412,15 +197,14 @@
     }
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,

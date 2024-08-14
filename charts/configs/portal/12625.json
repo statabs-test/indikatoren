@@ -219,13 +219,7 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -45,
-      "align": "right",
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
+      }
     },
     "tickInterval": 1
   },
@@ -273,11 +267,7 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "column": {
-      "groupPadding": 0.04,
-      "pointPadding": 0.03,
+      },
       "stacking": "normal"
     }
   },
@@ -291,7 +281,7 @@
     "text": "Wohnungen nach Belegungsart"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -330,11 +320,7 @@
     "itemMarginBottom": 5,
     "reversed": true,
     "labelFormatter": function () {
-        return this.name.replace('Sonstige', 'Sonstige<br>')
-        .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
-        .replace('Eigentümer', 'Eigentümer-<br>')
-        .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
-        .replace('Mietwohnungen', 'Miet-<br>wohnungen');
+        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
       }
   },
   "navigation": {
