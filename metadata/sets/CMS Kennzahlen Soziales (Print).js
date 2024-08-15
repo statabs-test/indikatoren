@@ -1258,8 +1258,8 @@ var indikatorensetData = [
 		"parentId": "6379",
 		"children": [],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2022",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2022 im Wohnviertel Vorstädte (2,4%) beobachtet, die tiefste in Bettingen (0,2%).",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2024 im Wohnviertel Altstadt Grossbasel (1,3%) beobachtet, die tiefste in der Gemeinde Bettingen (0,2%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"

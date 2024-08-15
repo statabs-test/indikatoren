@@ -60,28 +60,28 @@ for (i = 0; i < 2; i++) {
 			dataClassColor: 'category',
 			dataClasses: [{
 				from: 0,
-				to: 0.649,
+				to: 0.54999,
 				color: '#D3E2E4',
-				name: "<span style='color: rgba(0,0,0,0)'>00,00</span> < 0,65"
+				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,55"
 			}, {
-				from: 0.65,
-				to: 0.749,
+				from: 0.55,
+				to: 0.79999,
 				color: '#A8C3CA',
-				name: "<span style='color: rgba(0,0,0,0)'>0</span>0,65 − 0,74"
+				name: "0,55 −  0,79"
 			}, {
-				from: 0.75,
-				to: 0.999,
+				from: 0.8,
+				to: 0.89999,
 				color: '#689199',
-				name: "<span style='color: rgba(0,0,0,0)'>0</span>0,75 − 0,99"
+				name: "0,80 − 0,89"
 			}, {
-				from: 1,
-				to: 1.399,
+				from: 0.9,
+				to: 1.09999,
 				color: '#246370',
-				name: "<span style='color: rgba(0,0,0,0)'>0</span>1,00 − 1,39"
+				name: "0,90 − 1,09"
 			}, {
-				from: 1.4,
+				from: 1.1,
 				color: '#083038',
-				name: "<span style='color: rgba(0,0,0,0)'>00,00</span> ≥ 1,40"
+				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,10"
 			}],
 		},
 		"data": {

@@ -1,1 +1,39 @@
-{"id":8546,"template":"mappie001_print","data-id":8546,"chart-id":8546,"filter":"","parentId":"6379","children":[],"title":"Leerwohnungen nach Gemeinde und Wohnviertel","subtitle":"Basel-Stadt, 2022","lesehilfe":"Die höchste Leerwohnungsquote aller Wohnviertel wurde 2022 im Wohnviertel Vorstädte (2,4%) beobachtet, die tiefste in Bettingen (0,2%).","erlaeuterungen":"Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.","quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],"externalLinks":[],"renderLink":[],"raeumlicheGliederung":["Wohnviertel"],"description":"Leerwohnungen nach Gemeinde und Wohnviertel","thema":"09 Bau-, Wohnungswesen","unterthema":"Leerstand","kuerzel":"I.09.2.08546","kennzahlenset":"CMS Kennzahlen Soziales (Print)","kuerzelKunde":"1-35","stufe1":"Prävention und Bekämpfung von Armut","stufe2":"1.4 Wohnen","stufe3":"","stufe4":"","stufe5":"","orderKey":"01_05_00_00_00_135","darstellungsart":"Karte","printformat":"","visible":true,"visibleInPortal":false,"datenInChartIntegriert":false,"aktualisierungsdatum":"2023-03-07T08:19:18"}
+{
+    "id": 8546,
+    "template": "mappie001_print",
+    "data-id": 8546,
+    "chart-id": 8546,
+    "filter": "",
+    "parentId": "6379",
+    "children": [],
+    "title": "Leerwohnungen nach Gemeinde und Wohnviertel",
+    "subtitle": "Basel-Stadt, 2024",
+    "lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2024 im Wohnviertel Altstadt Grossbasel (1,3%) beobachtet, die tiefste in der Gemeinde Bettingen (0,2%).",
+    "erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+    "quellenangabe": [
+        "Statistisches Amt Basel-Stadt, Leerstandserhebung"
+    ],
+    "externalLinks": [],
+    "renderLink": [],
+    "raeumlicheGliederung": [
+        "Wohnviertel"
+    ],
+    "description": "Leerwohnungen nach Gemeinde und Wohnviertel",
+    "thema": "09 Bau-, Wohnungswesen",
+    "unterthema": "Leerstand",
+    "kuerzel": "I.09.2.08546",
+    "kennzahlenset": "CMS Kennzahlen Soziales (Print)",
+    "kuerzelKunde": "1-35",
+    "stufe1": "Prävention und Bekämpfung von Armut",
+    "stufe2": "1.4 Wohnen",
+    "stufe3": "",
+    "stufe4": "",
+    "stufe5": "",
+    "orderKey": "01_05_00_00_00_135",
+    "darstellungsart": "Karte",
+    "printformat": "",
+    "visible": true,
+    "visibleInPortal": false,
+    "datenInChartIntegriert": false,
+    "aktualisierungsdatum": "2023-03-07T08:19:18"
+}
