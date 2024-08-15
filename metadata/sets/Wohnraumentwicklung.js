@@ -479,7 +479,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2024 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"

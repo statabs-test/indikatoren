@@ -2066,5 +2066,6 @@ var templatesById = {
 	"12564": "template001",
 	"12565": "befragungen001",
 	"12602": "template001",
-	"12713": "template001"
+	"12713": "template001",
+	"12722": "line001"
 };

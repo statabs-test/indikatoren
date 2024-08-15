@@ -3124,8 +3124,8 @@
 		"children": [],
 		"title": "Neu zugelassene Personenwagen",
 		"subtitle": "nach Treibstoffart",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2023 waren von den 3 002 neu zugelassenen Personenwagen 1 135 bzw. 38% hybrid unterwegs. Rein elektrisch betrieben waren 652 bzw. 22%. Andere alternative Antriebe wie beispielsweise Gas oder Wasserstoff spielten hingegen kaum eine Rolle.",
+		"erlaeuterungen": "In der Schweiz erstmals in Verkehr gesetzte Strassenfahrzeuge mit Nummernschild des Kantons Basel-Stadt. Grösstenteils handelt es sich dabei um Neufahrzeuge, zu einem geringen Teil aber auch um aus dem Ausland importierte Occasionen (Gebrauchtfahrzeuge).",
 		"quellenangabe": [
 			"Bundesamt für Strassen (ASTRA)"
 		],
@@ -3152,6 +3152,45 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-07-08T02:48:51",
 		"id": 12713
+	},
+	{
+		"template": "line001",
+		"data-id": 12722,
+		"chart-id": 12722,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bodenpreisindex",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Bodenpreisindex",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Grundstückhandel",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-08-15T08:01:13",
+		"id": 12722
 	},
 	{
 		"template": "line001",
@@ -5053,7 +5092,7 @@
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2024 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -46187,10 +46226,11 @@
 		],
 		"title": "Motorisierungsgrad",
 		"subtitle": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 301 Personenwagen pro 1000 Einwohnerinnen und Einwohner.",
-		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
+		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Gemäss IVZ beträgt der Motorisierungsgrad aktuell 300 Personenwagen pro 1000 Einwohnerinnen und Einwohner.",
+		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung. Die Auswertung basiert ab 2021 auf den Fahrzeugdaten des Informationssystems Verkehrszulassung (IVZ) des Bundesamts für Strassen (ASTRA). Leichte Differenzen zu den Zahlen der Motorfahrzeugkontrolle Basel-Stadt sind möglich.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
+			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt",
+			"Bundesamt für Strassen (ASTRA)"
 		],
 		"externalLinks": [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"

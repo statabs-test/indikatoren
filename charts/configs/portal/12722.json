@@ -1,248 +1,252 @@
 {
   "series": [
     {
-      "color": "#b475ab",
+      "color": "#008AC3",
       "data": [
         [
-          1995,
-          298.9
-        ],
-        [
-          1996,
-          299.4
-        ],
-        [
-          1997,
-          299.9
-        ],
-        [
-          1998,
-          306.6
-        ],
-        [
-          1999,
-          311.3
-        ],
-        [
-          2000,
-          315.7
-        ],
-        [
-          2001,
-          318.9
-        ],
-        [
-          2002,
-          317.6
-        ],
-        [
-          2003,
-          314.9
-        ],
-        [
-          2004,
-          331.6
-        ],
-        [
-          2005,
-          329.5
-        ],
-        [
-          2006,
-          327.5
-        ],
-        [
-          2007,
-          325.6
-        ],
-        [
-          2008,
-          322.8
-        ],
-        [
-          2009,
-          319.1
-        ],
-        [
           2010,
-          319.3
+          100
         ],
         [
           2011,
-          320.8
+          101.867189628995
         ],
         [
           2012,
-          325
+          111.679059446413
         ],
         [
           2013,
-          320.2
+          129.908124732355
         ],
         [
           2014,
-          319.4
+          135.188032857087
         ],
         [
           2015,
-          316.6
+          133.91793514229
         ],
         [
           2016,
-          320
+          138.443570677775
         ],
         [
           2017,
-          318.6
+          162.920932767548
         ],
         [
           2018,
-          312.5
+          176.497839374002
         ],
         [
           2019,
-          309.2
+          188.030910577335
         ],
         [
           2020,
-          307.6
+          208.469264608557
         ],
         [
           2021,
-          307.1
+          214.990072799471
         ],
         [
           2022,
-          null
+          242.7278389847
         ],
         [
           2023,
-          null
+          226.036516525869
         ]
       ],
-      "name": "Motorisierungsgrad gemäss MFK"
+      "name": "Index EFH-Parzellen"
     },
     {
-      "color": "#662673",
+      "color": "#DC440E",
       "data": [
         [
-          1995,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          1997,
-          null
-        ],
-        [
-          1998,
-          null
-        ],
-        [
-          1999,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2001,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2007,
-          null
-        ],
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
-        [
           2010,
-          null
+          100
         ],
         [
           2011,
-          null
+          113.538139744822
         ],
         [
           2012,
-          null
+          115.891166075711
         ],
         [
           2013,
-          null
+          135.011309432008
         ],
         [
           2014,
-          null
+          142.628386873759
         ],
         [
           2015,
-          null
+          149.190335251075
         ],
         [
           2016,
-          null
+          138.815757126461
         ],
         [
           2017,
-          null
+          158.598352919237
         ],
         [
           2018,
-          null
+          177.676766603318
         ],
         [
           2019,
-          null
+          189.468973456482
         ],
         [
           2020,
-          null
+          219.432514667609
         ],
         [
           2021,
-          309.9
+          215.766617444343
         ],
         [
           2022,
-          302.1
+          241.95657372976
         ],
         [
           2023,
-          300
+          233.666749765743
         ]
       ],
-      "name": "Motorisierungsgrad gemäss IVZ"
+      "name": "Mittelwert EFH"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          147.46002609638
+        ],
+        [
+          2012,
+          177.478234587287
+        ],
+        [
+          2013,
+          220.824763547633
+        ],
+        [
+          2014,
+          202.10024253415
+        ],
+        [
+          2015,
+          262.254609254631
+        ],
+        [
+          2016,
+          278.620135494762
+        ],
+        [
+          2017,
+          393.69484928235
+        ],
+        [
+          2018,
+          370.399775895497
+        ],
+        [
+          2019,
+          401.803893815748
+        ],
+        [
+          2020,
+          471.099365282969
+        ],
+        [
+          2021,
+          611.164679950756
+        ],
+        [
+          2022,
+          537.298656110165
+        ],
+        [
+          2023,
+          436.156755202689
+        ]
+      ],
+      "name": "Index MFH-Parzellen"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          124.424247638532
+        ],
+        [
+          2012,
+          145.069827584541
+        ],
+        [
+          2013,
+          196.541956348007
+        ],
+        [
+          2014,
+          168.46333950023
+        ],
+        [
+          2015,
+          204.47811004467
+        ],
+        [
+          2016,
+          230.90835963135
+        ],
+        [
+          2017,
+          333.964916541394
+        ],
+        [
+          2018,
+          319.608762473806
+        ],
+        [
+          2019,
+          345.425941549232
+        ],
+        [
+          2020,
+          403.089797327887
+        ],
+        [
+          2021,
+          558.928697579932
+        ],
+        [
+          2022,
+          481.574781020477
+        ],
+        [
+          2023,
+          350.133429412182
+        ]
+      ],
+      "name": "Mittelwert MFH"
     }
   ],
   "chart": {
@@ -274,7 +278,8 @@
 					}
 				}
     },
-    "renderTo": "container-7779"
+    "marginRight": 20,
+    "renderTo": "container-12722"
   },
   "plotOptions": {
     "series": {
@@ -296,10 +301,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Motorisierungsgrad"
+    "text": "Bodenpreisindex"
   },
   "subtitle": {
-    "text": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -321,17 +326,9 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": -45
+      }
     },
-    "tickPositioner": function () {
-		var interval = 2,
-			ext = this.getExtremes(),
-			i = ext.dataMax,
-			pos = [i];
-		while (i >= ext.dataMin) pos.unshift(i = i - interval);
-		return pos;
-	}
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -361,7 +358,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -376,7 +373,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Strassen (ASTRA).\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.8.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -413,10 +410,11 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>' 
+    }
   },
   "exporting": {
-    "filename": "7779"
+    "filename": "12722"
   }
 }

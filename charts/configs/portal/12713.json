@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#246370",
       "data": [
         [
           "2021",
@@ -20,7 +20,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#689199",
       "data": [
         [
           "2021",
@@ -58,7 +58,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
+      "color": "#FF8028",
       "data": [
         [
           "2021",
@@ -77,7 +77,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
+      "color": "#B00000",
       "data": [
         [
           "2021",
@@ -195,13 +195,15 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "reversedStacks": false
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
@@ -230,7 +232,8 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "12713"
