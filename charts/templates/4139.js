@@ -75,11 +75,11 @@
     },
     {
       "color": "#68ab2b",
-     // "visible": false
+      "visible": false
     },
-  //  {
-  //    "color": "#0a3b19"
-  //  },
+    {
+      "color": "#0a3b19"
+    },
     {
       "color": "#FABD24",
       "marker": {
@@ -89,7 +89,7 @@
       "type": "line",
       "visible": false, 
       tooltip: {
-        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       }
     },
      {
@@ -101,7 +101,7 @@
       "type": "line",
       "visible": false,
       tooltip: {
-        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       }
     },
     {
@@ -111,23 +111,23 @@
       },
       "yAxis": 1,
       "type": "line",
-      //"visible": false, 
+      "visible": false, 
       tooltip: {
-        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       }
     }
-    //,
-   // {
-   //   "color": "#b00000",
-   //   "marker": {
-   //     "enabled": false
-   //   },
-   //   "yAxis": 1,
-   //   "type": "line", 
-   //   tooltip: {
-   //     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>',
-   //   }
-   // }
+    ,
+    {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line", 
+      tooltip: {
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+      }
+    }
   ],
   "chart": {
     "type": "column"
