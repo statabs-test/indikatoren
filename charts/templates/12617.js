@@ -1,26 +1,49 @@
 (function () {
   return {
+    "chart": {
+      "type": "column",
+      events: {
+        load: function () {
+          this.xAxis[0].update({
+            min: 54
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+        }
+      }
+    },
     "plotOptions": {
       "series": {
-        "stacking": "percent",
+        stacking: "percent",
         borderWidth: 0,
-        groupPadding: 0
+        groupPadding: 0,
+        showInNavigator: true
       }
     },
     "xAxis": {
-      "type": "category",
-      "tickInterval": 1,
+      type: "category",
+      tickInterval: 1,
       labels: {
-        step: 1,
         rotation: -45
       }
     },
     "yAxis": {
-      "tickInterval": 10,
+      "tickInterval": 25,
       "labels": {
         "format": "{value}%"
       },
-      "min": 0
+      //"min": 0
     },
     "tooltip": {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
@@ -29,11 +52,12 @@
     "legend": {
       "enabled": true,
       "layout": "horizontal",
+      "align": "left",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
+      alignColumns: false,
+      labelFormatter: function () {
+        return this.name.replace(' Haushalte', '');
       }
     },
     "series": [
@@ -50,9 +74,41 @@
         "index": 2
       }
     ],
-    "chart": {
-      "type": "column"
-    }
+    navigator: {
+      enabled: true,
+      top: 330,
+      series: {
+        type: 'column',
+        stacking: 'percent',
+        pointRange: null
+      },
+      xAxis: {
+        //max: 2023,
+        // tickInterval: 1,
+        tickPositioner: function () {
+          const startingPoint = 1,
+            step = 6,
+            positions = [];
+          for (let i = startingPoint; i < this.max; i += step) {
+            positions.push(i)
+          }
+          return positions
+        },
+        labels: {
+          //step: 1,
+          rotation: 0,
+          align: 'center',
+          y: 15,
+          style: {
+            color: "#000000"
+          },
+          formatter: function () {
+            // get year from chart axis label names
+            return this.chart.xAxis[0].names[this.value].slice(0, 4);
+          }
+        },
+      }
+    },
   }
 }());
 
