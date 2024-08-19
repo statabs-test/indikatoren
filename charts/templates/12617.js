@@ -4,6 +4,7 @@
       "type": "column",
       events: {
         load: function () {
+          //set xAxis min in navigator
           this.xAxis[0].update({
             min: 54
           });
@@ -86,6 +87,7 @@
         //max: 2023,
         // tickInterval: 1,
         tickPositioner: function () {
+          //use only every nth tick, starting with startingPoint
           const startingPoint = 1,
             step = 6,
             positions = [];
