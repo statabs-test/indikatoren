@@ -4,105 +4,138 @@
       "color": "#68ab2b",
       "data": [
         [
-          2016,
+          "2016",
           2430
         ],
         [
-          2017,
+          "2017",
           2471
         ],
         [
-          2018,
+          "2018",
           2389
         ],
         [
-          2019,
+          "2019",
           2375
         ],
         [
-          2020,
+          "2020",
           2375
         ],
         [
-          2021,
+          "2021",
           2375
         ],
         [
-          2022,
+          "2022",
           2228
+        ],
+        [
+          "2023",
+          2203
         ]
       ],
-      "name": "Allgemeine Pflegeheimplätze"
+      "name": "Allgemeine Pflegeheimplätze",
+      "turboThreshold": 0
     },
     {
       "color": "#007a2f",
       "data": [
         [
-          2016,
+          "2016",
           657
         ],
         [
-          2017,
+          "2017",
           654
         ],
         [
-          2018,
+          "2018",
           647
         ],
         [
-          2019,
+          "2019",
           627
         ],
         [
-          2020,
+          "2020",
           623
         ],
         [
-          2021,
+          "2021",
           613
         ],
         [
-          2022,
+          "2022",
           618
+        ],
+        [
+          "2023",
+          636
         ]
       ],
-      "name": "Spezielle Wohnformen (inkl. Entlastungsplätze)"
+      "name": "Spezielle Wohnformen (inkl. Entlastungsplätze)",
+      "turboThreshold": 0
     },
     {
       "color": "#0a3b19",
       "data": [
         [
-          2016,
+          "2016",
           46
         ],
         [
-          2017,
+          "2017",
           35
         ],
         [
-          2018,
+          "2018",
           106
         ],
         [
-          2019,
+          "2019",
           104
         ],
         [
-          2020,
+          "2020",
           105
         ],
         [
-          2021,
+          "2021",
           106
         ],
         [
-          2022,
+          "2022",
           179
+        ],
+        [
+          "2023",
+          164
         ]
       ],
-      "name": "Nichttarifplätze"
+      "name": "Nichttarifplätze",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -164,23 +197,6 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
     }
   },
   "yAxis": {
