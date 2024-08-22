@@ -12,9 +12,20 @@
 "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
 },
 "series": [
-  {"color": "#cd9c00"
-  }, 
-  {"color": "#b375ab",
+  { 
+    "color": "#FABD24" /* "#b375ab" Friedmatt*/
+  },
+  {
+    "color": "#FF8028" /* "#689199" Kannenfeld*/
+  },
+  {
+    "color": "#923F8D" /* "#662673" Landskron*/
+  },
+  {
+    "color": "#689199" /* "#999" Lysbüchel*/
+  },
+  {
+    "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/ ,
     visible:true,
   }, 
 ],
