@@ -14,16 +14,39 @@
     },
     "series": [
       {
-        "color": "#cd9c00"
+        "color": "#FABD24" /* "#b375ab" Friedmatt*/ 
       },
       {
-        "color": "#7f5f1a",
+        "color": "#FABD24", /* "#b375ab" Friedmatt*/ 
+        dashStyle: "Dash",
       },
       {
-        "color": "#b375ab"
+        "color": "#FF8028" /* "#689199" Kannenfeld*/
       },
       {
-        "color": "#923f8d"
+        "color": "#FF8028", /* "#689199" Kannenfeld*/
+        dashStyle: "Dash",
+      },
+      {
+        "color": "#923F8D" /* "#662673" Landskron*/
+      },
+      {
+        "color": "#923F8D", /* "#662673" Landskron*/
+        dashStyle: "Dash",
+      },
+      {
+        "color": "#689199" /* "#999" Lysbüchel*/
+      },
+      {
+        "color": "#689199", /* "#999" Lysbüchel*/
+        dashStyle: "Dash",
+      },
+      {
+        "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/
+      },
+      {
+        "color": "#9E7C59", /*"#cd9c00" Pestalozzi*/
+        dashStyle: "Dash",
       },
     ],
     "legend": {
