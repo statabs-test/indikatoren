@@ -47,7 +47,7 @@
                 + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65,93); //move -x to the left and +y down
+           // .translate(-65,93); //move -x to the left and +y down
         }
       }
     },
