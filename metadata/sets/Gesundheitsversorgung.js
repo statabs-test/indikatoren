@@ -321,7 +321,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 71,5%. Gegenüber dem Vorjahr ist ein leichter Rückgang der totalen Auslastung zu verzeichnen. Im Jahr 2023 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450.",
+		"lesehilfe": "Im Jahr 2023 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 71,5%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2023 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450.",
 		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -509,7 +509,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
 		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 42,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
+		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 24,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
