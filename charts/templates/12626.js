@@ -25,19 +25,19 @@
         "dashStyle": "ShortDash"
       },
       {
-        "color": "#cd9c00"
+        "color": "#9E7C59"
+      },
+      {
+        "color": "#FF8028"
+      },
+      {
+        "color": "#923F8D"
       },
       {
         "color": "#689199"
       },
       {
-        "color": "#662673"
-      },
-      {
-        "color": "#999"
-      },
-      {
-        "color": "#b375ab",
+        "color": "#FABD24",
         visible: true,
       },
     ],
