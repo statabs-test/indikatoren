@@ -47,7 +47,7 @@
                 + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-           // .translate(-65,93); //move -x to the left and +y down
+            .translate(-65,98); //move -x to the left and +y down
         }
       }
     },
@@ -237,8 +237,8 @@
       "align": "left",
       x: 130,
       y: -100,
-      itemWidth: 120,
-      itemDistance: 4,
+      itemWidth: 115,
+      itemDistance: 3,
       width: 400,
       itemStyle: {
         textOverflow: "none",
@@ -248,7 +248,7 @@
         text: '-<br><br><br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
         style: {
           fontWeight: 'normal',
-          lineHeight: 18
+          lineHeight: 19
         }
       },
       labelFormatter: function () {

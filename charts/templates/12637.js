@@ -4,7 +4,28 @@
       useHTML: true
     },
     "chart": {
-      "type": "column"
+      "type": "column",
+      events: {
+        load: function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 5
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                  this.name.split(" ").slice(0, 1).toString() //Wohnen
+                + ':<br>'
+                + this.name.split(" ").slice(0, 1).toString() //Arbeiten
+                + ':<br>'
+            })
+            //.translate(-85,100); //move -x to the left and +y down
+        }
+      }
     },
     "xAxis": {
       type: "category"
@@ -22,72 +43,132 @@
     },
     "series": [
       {  //Wohnen Pestalozzi
-        "color": "#cd9c00",
-        legendIndex: 1
+        "color": "#9E7C59",
+        //legendIndex: 1
       },
       { // Wohnen Kannenfeld
-        "color": "#b375ab",
-        index: 2,
-        legendIndex: 2
+        "color": "#FF8028",
+       // index: 2,
+        //legendIndex: 2
       },
       { // Wohnen Landskron
-        "color": "#7f5f1a",
-        index: 1,
-        legendIndex: 3
+        "color": "#923F8D",
+        //index: 1,
+        //legendIndex: 3
       },
       {  //Wohnen Lysbüchel
-        "color": "#923f8d",
-        legendIndex: 4
+        "color": "#689199",
+        //legendIndex: 4
       },
       {  //Wohnen Friedmatt
-        "color": "#923f8d",
-        legendIndex: 5
+        "color": "#FABD24",
+        //legendIndex: 5
       },
       { // Wohnen Basel
-        "color": "#7f5f1a",
-        index: 1,
-        legendIndex: 6
+        "color": "#999999",
+       // index: 1,
+       // legendIndex: 6,
+        visible: false
       },
       {  //Arbeiten Pestalozzi
-        "color": "#923f8d",
-        legendIndex: 7
+        "color": "#67401E",
+       // legendIndex: 7
       },
       { // Arbeiten Kannenfeld
-        "color": "#7f5f1a",
-        index: 1,
-        legendIndex: 8
+        "color": "#B00000",
+        //index: 1,
+        //legendIndex: 8
       },
       {  //Arbeiten Landskron
-        "color": "#923f8d",
-        legendIndex: 9
+        "color": "#662673",
+        //legendIndex: 9
       },
       { // Arbeiten Lysbüchel
-        "color": "#7f5f1a",
-        index: 1,
-        legendIndex: 10
+        "color": "#246370",
+        //index: 1,
+        //legendIndex: 10
       },
       {  //Arbeiten Friedmatt
-        "color": "#923f8d",
-        legendIndex: 11
+        "color": "#7F5F1A",
+        //legendIndex: 11
       },
       { // Arbeiten Basel
-        "color": "#7f5f1a",
-        index: 1,
-        legendIndex: 12
+        "color": "#6F6F6F",
+       // index: 1,
+        //legendIndex: 12,
+        visible: false
       },
     ],
     "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left"
+      "itemMarginBottom": 4,
+      "align": "left",
+      x: 130,
+      y: -50,
+      //itemWidth: 100,
+      //itemDistance: 4,
+      //width: 300,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      },
+      title: {
+        text: '-<br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
+        style: {
+          fontWeight: 'normal',
+          lineHeight: 18
+        }
+      },
+      labelFormatter: function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      },
     },
     "plotOptions": {
       "series": {
         pointPadding: 0,
         groupPadding: 0.15,
         borderWidth: 0
+      },
+        showInNavigator: true
+    },
+    subtitle: {
+      useHTML: true
+    },
+    navigator: {
+      enabled: true,
+      top: 330,
+      series: {
+        type: 'column',
+        pointRange: null
+      },
+      xAxis: {
+        //max: "2022",
+        // tickInterval: 1,
+       /* tickPositioner: function () {
+          //use only every nth tick, starting with startingPoint
+          const startingPoint = 1,
+            step = 2,
+            positions = [];
+          for (let i = startingPoint; i < this.max; i += step) {
+            positions.push(i)
+          }
+          return positions
+        },*/
+        labels: {
+          step: 1,
+          rotation: 0,
+          align: 'center',
+          y: 15,
+          style: {
+            color: "#000000"
+          },
+          formatter: function () {
+            // get year from chart axis label names
+            return this.chart.xAxis[0].names[this.value].slice(0, 4);
+          }
+        },
       }
     },
   }
