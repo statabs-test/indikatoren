@@ -18,12 +18,12 @@
           this.legend.title
             .attr({
               text:
-                  this.name.split(" ").slice(0, 1).toString() //Wohnen
-                + ':<br>'
-                + this.name.split(" ").slice(0, 1).toString() //Arbeiten
+                  this.series[1].name.split(" ").slice(0, 1).toString() //Wohnen
+                + ':<br><br>'
+                + this.series[7].name.split(" ").slice(0, 1).toString() //Arbeiten
                 + ':<br>'
             })
-            //.translate(-85,100); //move -x to the left and +y down
+            .translate(-65,8); //move -x to the left and +y down
         }
       }
     },
@@ -106,7 +106,7 @@
       "itemMarginBottom": 4,
       "align": "left",
       x: 130,
-      y: -50,
+      y: -20,
       //itemWidth: 100,
       //itemDistance: 4,
       //width: 300,
@@ -115,10 +115,10 @@
         whiteSpace: "nowrap"
       },
       title: {
-        text: '-<br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
+        text: '<br>', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
         style: {
           fontWeight: 'normal',
-          lineHeight: 18
+          lineHeight: 17
         }
       },
       labelFormatter: function () {
