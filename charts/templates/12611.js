@@ -5,14 +5,6 @@
 (function () {
     return {
         data: {
-            "seriesMapping": [
-                {
-                  x: 0, y: 3 // Kannenfeld
-                },
-                {
-                  x: 0, y: 4
-                }   
-              ],
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
                 var negateNumbersInColumn = function (columnIndex) {

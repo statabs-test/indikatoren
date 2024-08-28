@@ -144,12 +144,12 @@
                     };
 
             // Friedmatt anstelle Friedmattviertel
-       /*   this.series[0].update({
+          this.series[0].update({
             name: "Männer"
         });
         this.series[1].update({
             name: "Frauen"
-        }); */
+        });
                 },
             }
         }
