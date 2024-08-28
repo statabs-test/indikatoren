@@ -64,7 +64,7 @@
           chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 200, chart.legend.group.translateY +5)
               //.css({ fontWeight: 'bold' })
               .add();
-      }
+      //}
 
 
         /*load: function () {
@@ -79,6 +79,15 @@
             })
             /*.translate(-140, 8); //move -140 to the left and 8 down*/
         //}
+
+        // rename Friedmatt
+        this.series[0].update({
+          name: "Mittelwert Friedmatt"
+      });
+      this.series[1].update({
+        name: "Median Friedmatt"
+    });
+  }
       }
     },
     "legend": {

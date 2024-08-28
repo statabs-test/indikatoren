@@ -48,6 +48,17 @@
                 + ':'
             })
             .translate(-65,98); //move -x to the left and +y down
+
+            // rename Friedmatt
+        this.series[0].update({
+          name: "Zugezogene Friedmatt"
+      });
+      this.series[1].update({
+        name: "Weggezogene Friedmatt"
+    });
+    this.series[10].update({
+      name: "Saldo Friedmatt"
+  });
         }
       }
     },
@@ -276,7 +287,7 @@
         pointRange: null
       },
       xAxis: {
-        max: 2021,
+        max: 2021.1,
         // tickInterval: 1,
         tickPositioner: function () {
           //use only every nth tick, starting with startingPoint

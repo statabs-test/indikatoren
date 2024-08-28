@@ -50,7 +50,8 @@
   "align": "left",
   "itemStyle": {
     "fontWeight": "normal",
-      }
+      },
+      x:35
 },
 "plotOptions": {
   "line": {

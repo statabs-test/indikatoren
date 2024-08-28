@@ -57,6 +57,17 @@
       "align": "left",
       "itemStyle": {
         "fontWeight": "normal"
+      },
+      x: 45,
+    },
+    chart: {
+      events: {
+          load: function() {
+              // `this` refers to the chart instance
+              this.series[4].update({
+                  name: "Friedmatt"
+              });
+          }
       }
     }
   }

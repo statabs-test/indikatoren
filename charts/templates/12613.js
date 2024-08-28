@@ -47,7 +47,8 @@
   "align": "left",
   "itemStyle": {
     "fontWeight": "normal"
-  }
+  },
+  x: 35,
 },
 "plotOptions": {
   "line": {
@@ -56,6 +57,16 @@
       "enabled": false,
       "symbol": "circle",
     }
+  }
+},
+chart: {
+  events: {
+      load: function() {
+          // `this` refers to the chart instance
+          this.series[4].update({
+              name: "Friedmatt"
+          });
+      }
   }
 }
 }

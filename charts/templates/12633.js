@@ -17,11 +17,21 @@
    //   return '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: Highcharts.numberFormat((this.value*100), 1)+%</b><br/>'
   },
   "series": [
-    {"color": "#cd9c00"
-  }, 
-  {"color": "#b375ab",
-    visible:true,
-  },  
+    { 
+      "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/ 
+    },
+    {
+      "color": "#FF8028" /* "#689199" Kannenfeld*/
+    },
+    {
+      "color": "#923F8D" /* "#662673" Landskron*/
+    },
+    {
+      "color": "#689199" /* "#999" Lysbüchel*/
+    },
+    {
+      "color": "#FABD24" /* "#b375ab" Friedmatt*/
+}
   ],
   "legend": {
     "enabled": true,
@@ -31,7 +41,8 @@
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    x:35
   },
   "plotOptions": {
     "line": {
@@ -40,6 +51,16 @@
         "enabled": false,
         "symbol": "circle",
       }
+    }
+  },
+  chart: {
+    events: {
+        load: function() {
+            // `this` refers to the chart instance
+            this.series[4].update({
+                name: "Friedmatt"
+            });
+        }
     }
   }
 }

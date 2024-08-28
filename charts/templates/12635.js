@@ -26,7 +26,8 @@
     "legend": {
       "enabled": true,
       "verticalAlign": "top",
-      "align": "left"
+      "align": "left",
+      x:25
     },
     "series": [
       { 
