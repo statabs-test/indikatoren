@@ -7,10 +7,10 @@
         data: {
             "seriesMapping": [
                 {
-                  x: 0, y: 3 // Kannenfeld
+                  x: 0, y: 9 // Pestalozzi
                 },
                 {
-                  x: 0, y: 4
+                  x: 0, y: 10
                 }   
               ],
             parsed: function (columns) {
@@ -26,7 +26,7 @@
                         }
                     });
                 };
-                negateNumbersInColumn(3);
+                negateNumbersInColumn(9);
                 //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
@@ -144,12 +144,12 @@
                     };
 
             // Friedmatt anstelle Friedmattviertel
-       /*   this.series[0].update({
+          this.series[0].update({
             name: "Männer"
         });
         this.series[1].update({
             name: "Frauen"
-        }); */
+        });
                 },
             }
         }
