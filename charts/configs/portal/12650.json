@@ -3,39 +3,22 @@
     {
       "color": "#cd9c00",
       "index": 0,
-      "legendIndex": 0,
       "type": "column"
     },
     {
       "color": "#7f5f1a",
       "index": 2,
-      "legendIndex": 3,
       "type": "line",
       "yAxis": 1
     },
     {
       "color": "#b375ab",
       "index": 1,
-      "legendIndex": 1,
       "type": "column"
     },
     {
       "color": "#923f8d",
       "index": 3,
-      "legendIndex": 4,
-      "type": "line",
-      "yAxis": 1
-    },
-    {
-      "color": "#8A8A8A",
-      "index": 4,
-      "legendIndex": 2,
-      "type": "column"
-    },
-    {
-      "color": "#777777",
-      "index": 5,
-      "legendIndex": 5,
       "type": "line",
       "yAxis": 1
     }
@@ -56,7 +39,7 @@
     "events": {
       "load": function () {
           //move legend title
-          var title = this.legend.title.translate(-190, 46);
+          var title = this.legend.title.translate(-203, 46);
         }
     },
     "renderTo": "container-12650"
@@ -115,7 +98,6 @@
       },
       "labels": {
         "useHTML": true,
-        "format": "{value:,.1f}",
         "style": {
           "color": "#000000"
         }
@@ -146,18 +128,17 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "width": 240,
     "alignColumns": true,
     "useHTML": true,
     "y": -50,
-    "x": 0,
+    "x": -20,
     "itemMarginBottom": 5,
-    "itemWidth": 75,
+    "width": 200,
+    "itemWidth": 80,
     "labelFormatter": function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters
-         var tmp = this.name.split(" ").slice(-1).toString(); //return only last word of legend-title
-         return tmp.replace('Kleinhüningen', 'Kleinh.');
+        return this.name.split(" ").slice(-1); //return only last word of legend-title
       },
     "title": {
       "text": "Personenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",

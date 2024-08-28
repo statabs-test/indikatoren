@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#9E7C59",
       "data": [
         [
           2009,
@@ -63,7 +63,7 @@
       "name": "Pestalozzi"
     },
     {
-      "color": "#689199",
+      "color": "#FF8028",
       "data": [
         [
           2009,
@@ -125,7 +125,7 @@
       "name": "Kannenfeld"
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
       "data": [
         [
           2009,
@@ -187,7 +187,7 @@
       "name": "Landskron"
     },
     {
-      "color": "#999",
+      "color": "#689199",
       "data": [
         [
           2009,
@@ -249,8 +249,7 @@
       "name": "Lysbüchel"
     },
     {
-      "color": "#b375ab",
-      "visible": true,
+      "color": "#FABD24",
       "data": [
         [
           2009,
@@ -326,20 +325,12 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      "load": function() {
+          // `this` refers to the chart instance
+          this.series[4].update({
+              name: "Friedmatt"
+          });
+      }
     },
     "renderTo": "container-12656"
   },

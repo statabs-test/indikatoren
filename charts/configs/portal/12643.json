@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#67401E",
       "data": [
         [
           2011,
@@ -59,7 +59,8 @@
       "name": "Familienmietzinsbeiträge"
     },
     {
-      "color": "#b375ab",
+      "color": "#C4AB91",
+      "visible": true,
       "data": [
         [
           2011,
@@ -115,12 +116,6 @@
         ]
       ],
       "name": "Prämienverbilligung"
-    },
-    {
-      "color": "#7f5f1a"
-    },
-    {
-      "color": "#923f8d"
     }
   ],
   "chart": {

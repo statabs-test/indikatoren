@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#FABD24",
       "data": [
         [
           2005,
@@ -75,7 +75,8 @@
       "name": "Mittelwert Friedmattviertel"
     },
     {
-      "color": "#7f5f1a",
+      "color": "#FABD24",
+      "dashStyle": "Dash",
       "data": [
         [
           2005,
@@ -149,7 +150,7 @@
       "name": "Median Friedmattviertel"
     },
     {
-      "color": "#b375ab",
+      "color": "#FF8028",
       "data": [
         [
           2005,
@@ -223,7 +224,8 @@
       "name": "Mittelwert Kannenfeld"
     },
     {
-      "color": "#923f8d",
+      "color": "#FF8028",
+      "dashStyle": "Dash",
       "data": [
         [
           2005,
@@ -295,6 +297,453 @@
         ]
       ],
       "name": "Median Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2005,
+          43098
+        ],
+        [
+          2006,
+          43000
+        ],
+        [
+          2007,
+          44475
+        ],
+        [
+          2008,
+          41994
+        ],
+        [
+          2009,
+          42015
+        ],
+        [
+          2010,
+          42263
+        ],
+        [
+          2011,
+          42074
+        ],
+        [
+          2012,
+          42282
+        ],
+        [
+          2013,
+          42940
+        ],
+        [
+          2014,
+          43383
+        ],
+        [
+          2015,
+          43548
+        ],
+        [
+          2016,
+          43554
+        ],
+        [
+          2017,
+          43545
+        ],
+        [
+          2018,
+          43664
+        ],
+        [
+          2019,
+          45344
+        ],
+        [
+          2020,
+          46597
+        ],
+        [
+          2021,
+          48535
+        ]
+      ],
+      "name": "Mittelwert Landskron"
+    },
+    {
+      "color": "#923F8D",
+      "dashStyle": "Dash",
+      "data": [
+        [
+          2005,
+          39450
+        ],
+        [
+          2006,
+          39450
+        ],
+        [
+          2007,
+          40919
+        ],
+        [
+          2008,
+          38792
+        ],
+        [
+          2009,
+          38312
+        ],
+        [
+          2010,
+          38125
+        ],
+        [
+          2011,
+          37057
+        ],
+        [
+          2012,
+          37293
+        ],
+        [
+          2013,
+          37636.5
+        ],
+        [
+          2014,
+          37275
+        ],
+        [
+          2015,
+          36907
+        ],
+        [
+          2016,
+          36564.5
+        ],
+        [
+          2017,
+          36402.5
+        ],
+        [
+          2018,
+          36947
+        ],
+        [
+          2019,
+          36883.5
+        ],
+        [
+          2020,
+          37963
+        ],
+        [
+          2021,
+          39469
+        ]
+      ],
+      "name": "Median Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2005,
+          38414
+        ],
+        [
+          2006,
+          38524
+        ],
+        [
+          2007,
+          40577
+        ],
+        [
+          2008,
+          39972
+        ],
+        [
+          2009,
+          40806
+        ],
+        [
+          2010,
+          46291
+        ],
+        [
+          2011,
+          49613
+        ],
+        [
+          2012,
+          51726
+        ],
+        [
+          2013,
+          57406
+        ],
+        [
+          2014,
+          59739
+        ],
+        [
+          2015,
+          64445
+        ],
+        [
+          2016,
+          65439
+        ],
+        [
+          2017,
+          63097
+        ],
+        [
+          2018,
+          67412
+        ],
+        [
+          2019,
+          64862
+        ],
+        [
+          2020,
+          64990
+        ],
+        [
+          2021,
+          63890
+        ]
+      ],
+      "name": "Mittelwert Lysbüchel"
+    },
+    {
+      "color": "#689199",
+      "dashStyle": "Dash",
+      "data": [
+        [
+          2005,
+          34787
+        ],
+        [
+          2006,
+          34907
+        ],
+        [
+          2007,
+          35801
+        ],
+        [
+          2008,
+          31757
+        ],
+        [
+          2009,
+          34606
+        ],
+        [
+          2010,
+          39721
+        ],
+        [
+          2011,
+          41874
+        ],
+        [
+          2012,
+          41860
+        ],
+        [
+          2013,
+          41629.5
+        ],
+        [
+          2014,
+          43439.5
+        ],
+        [
+          2015,
+          46717
+        ],
+        [
+          2016,
+          45124
+        ],
+        [
+          2017,
+          45529
+        ],
+        [
+          2018,
+          47289.5
+        ],
+        [
+          2019,
+          44554
+        ],
+        [
+          2020,
+          45234
+        ],
+        [
+          2021,
+          46420
+        ]
+      ],
+      "name": "Median Lysbüchel"
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          2005,
+          47459
+        ],
+        [
+          2006,
+          48580
+        ],
+        [
+          2007,
+          49976
+        ],
+        [
+          2008,
+          48361
+        ],
+        [
+          2009,
+          49807
+        ],
+        [
+          2010,
+          50535
+        ],
+        [
+          2011,
+          50053
+        ],
+        [
+          2012,
+          50751
+        ],
+        [
+          2013,
+          52081
+        ],
+        [
+          2014,
+          54347
+        ],
+        [
+          2015,
+          54502
+        ],
+        [
+          2016,
+          54589
+        ],
+        [
+          2017,
+          56341
+        ],
+        [
+          2018,
+          58337
+        ],
+        [
+          2019,
+          57861
+        ],
+        [
+          2020,
+          59171
+        ],
+        [
+          2021,
+          60155
+        ]
+      ],
+      "name": "Mittelwert Pestalozzi"
+    },
+    {
+      "color": "#9E7C59",
+      "dashStyle": "Dash",
+      "data": [
+        [
+          2005,
+          43012
+        ],
+        [
+          2006,
+          43646
+        ],
+        [
+          2007,
+          44444.5
+        ],
+        [
+          2008,
+          42280
+        ],
+        [
+          2009,
+          43318.5
+        ],
+        [
+          2010,
+          43463
+        ],
+        [
+          2011,
+          43719.5
+        ],
+        [
+          2012,
+          44000
+        ],
+        [
+          2013,
+          44194
+        ],
+        [
+          2014,
+          45244
+        ],
+        [
+          2015,
+          46033
+        ],
+        [
+          2016,
+          45058
+        ],
+        [
+          2017,
+          46901
+        ],
+        [
+          2018,
+          47731
+        ],
+        [
+          2019,
+          47113.5
+        ],
+        [
+          2020,
+          46930
+        ],
+        [
+          2021,
+          47301.5
+        ]
+      ],
+      "name": "Median Pestalozzi"
     }
   ],
   "chart": {
@@ -312,19 +761,19 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          var chart = this;
+          // Extract common words from series names
+          var leftTitle = chart.series[0].name.split(" ").slice(0, 1).toString();
+          var rightTitle = chart.series[1].name.split(" ").slice(0, 1).toString();
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          // Add and move legend titles
+          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX +0, chart.legend.group.translateY +5)
+             // .css({ fontWeight: 'bold' })
+              .add();
+          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 200, chart.legend.group.translateY +5)
+              //.css({ fontWeight: 'bold' })
+              .add();
+      }
     },
     "renderTo": "container-12621"
   },
@@ -351,7 +800,7 @@
     "text": "Mittelwert und Median des Reineinkommens"
   },
   "subtitle": {
-    "text": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in Franken, Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -395,7 +844,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 10000
+    "tickInterval": 20000
   },
   "legend": {
     "enabled": true,
@@ -404,9 +853,23 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": "50%",
+      "textOverflow": "none"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "x": 50,
+    "itemWidth": 180,
+    "title": {
+      "text": "\u003Cbr\u003E",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    },
+    "labelFormatter": function() {
+        return `<div style="width: ${this.index % 2 === 0 ? '100%' : '0'}; float: ${this.index % 2 === 0 ? 'left' : 'right'};">${this.name.split(" ").slice(-1).toString()}</div>`;
+    }
   },
   "credits": {
     "enabled": true,

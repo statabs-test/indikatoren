@@ -52,7 +52,7 @@
       "name": "Wohnviertel St. Johann"
     },
     {
-      "color": "#cd9c00",
+      "color": "#9E7C59",
       "data": [
         [
           2013,
@@ -102,7 +102,7 @@
       "name": "Bezirk Pestalozzi"
     },
     {
-      "color": "#689199",
+      "color": "#FF8028",
       "data": [
         [
           2013,
@@ -152,7 +152,7 @@
       "name": "Bezirk Kannenfeld"
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
       "data": [
         [
           2013,
@@ -202,7 +202,7 @@
       "name": "Bezirk Landskron"
     },
     {
-      "color": "#999",
+      "color": "#689199",
       "data": [
         [
           2013,
@@ -252,7 +252,7 @@
       "name": "Bezirk Lysbüchel"
     },
     {
-      "color": "#b375ab",
+      "color": "#FABD24",
       "visible": true,
       "data": [
         [
@@ -358,7 +358,7 @@
     "text": "Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",

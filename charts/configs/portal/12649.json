@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#9E7C59",
+      "color": "#FABD24",
       "data": [
         [
           "2010",
@@ -36,7 +36,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C4AB91",
+      "color": "#FF8028",
       "data": [
         [
           "2010",
@@ -71,7 +71,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#923F8D",
       "data": [
         [
           "2010",
@@ -106,7 +106,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C9D6DB",
+      "color": "#689199",
       "data": [
         [
           "2010",
@@ -141,7 +141,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
+      "color": "#9E7C59",
       "data": [
         [
           "2010",
@@ -281,7 +281,10 @@
       "fontWeight": "normal"
     },
     "width": 460,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      }
   },
   "credits": {
     "enabled": true,

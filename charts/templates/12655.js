@@ -9,10 +9,8 @@
 },	
 "tooltip": {
   "shared": false, 
-"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>',
-Formatter: function () {
-  return this.name.replace("Friedmattviertel", "Friedmatt");  
-}
+  useHTML: true,
+"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>'
 },
 "series": [
   { 
@@ -28,9 +26,8 @@ Formatter: function () {
     "color": "#689199" /* "#999" Lysbüchel*/
   },
   {
-    "color": "#FABD24" /* "#b375ab" Friedmatt*/,
-    index: 5
-},
+    "color": "#FABD24" /* "#b375ab" Friedmatt*/
+  },
 ],
 "legend": {
   "enabled": true,
@@ -41,9 +38,6 @@ Formatter: function () {
   "itemStyle": {
     "fontWeight": "normal"
   },
-  labelFormatter: function () {
-    return this.name.replace("Friedmattviertel", "Friedmatt");  
-  }
 },
 "plotOptions": {
   "line": {
@@ -54,11 +48,14 @@ Formatter: function () {
     }
   }
 },
+subtitle: {
+  useHTML: true
+},
 chart: {
   events: {
       load: function() {
           // `this` refers to the chart instance
-          this.series[5].update({
+          this.series[4].update({
               name: "Friedmatt"
           });
       }

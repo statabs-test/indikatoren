@@ -887,19 +887,13 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 45
+          });
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+          this.credits.element.onclick = function () { };
+        }
     },
     "type": "column",
     "inverted": false,
@@ -919,7 +913,8 @@
       "pointPadding": 0,
       "groupPadding": 0,
       "pointWidth": 5,
-      "stacking": "normal"
+      "stacking": "normal",
+      "showInNavigator": true
     }
   },
   "title": {
@@ -993,6 +988,40 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": true
+  },
+  "navigator": {
+    "enabled": true,
+    "top": 330,
+    "series": {
+      "type": "column",
+      "stacking": "normal",
+      "pointRange": null
+    },
+    "xAxis": {
+      "tickPositioner": function () {
+          //use only every nth tick, starting with startingPoint
+          const startingPoint = 1,
+            step = 5,
+            positions = [];
+          for (let i = startingPoint; i < this.max; i += step) {
+            positions.push(i)
+          }
+          return positions
+        },
+      "labels": {
+        "step": 1,
+        "rotation": 0,
+        "align": "center",
+        "y": 15,
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+            // get year from chart axis label names
+            return this.chart.xAxis[0].names[this.value].slice(0, 4);
+          }
+      }
+    }
   },
   "exporting": {
     "filename": "12648"

@@ -7,10 +7,10 @@
         data: {
             "seriesMapping": [
                 {
-                  x: 0, y: 3 // Kannenfeld
+                  x: 0, y: 5 // Landskron
                 },
                 {
-                  x: 0, y: 4
+                  x: 0, y: 6
                 }   
               ],
             parsed: function (columns) {
@@ -26,7 +26,7 @@
                         }
                     });
                 };
-                negateNumbersInColumn(1);
+                negateNumbersInColumn(5);
                 //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },

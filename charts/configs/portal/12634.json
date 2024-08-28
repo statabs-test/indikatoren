@@ -40,7 +40,7 @@
 				}
     },
     "marginRight": 50,
-    "marginLeft": 130,
+    "marginLeft": 200,
     "inverted": true,
     "renderTo": "container-12634"
   },
@@ -87,11 +87,10 @@
         "textOverflow": "none"
       },
       "align": "left",
-      "x": -110,
-      "formatter": function () {
-          return this.value.replace("/", "<br/>")
-            .replace("und", "und<br>")
-            .replace("vermittlung,", "vermittlung,<br>")
+      "x": -180,
+      "formatter": function() {
+            return this.value.replace("/", "<br/>")
+            .replace("Unternehmensverwaltung und -führung, Unternehmensberatung", "Unternehmensverwaltung und<br/>-führung, Unternehmensberatung")
         }
     },
     "type": "category"
@@ -176,7 +175,8 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "12634"

@@ -251,6 +251,34 @@
       ],
       "name": "2022",
       "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -164
+        ],
+        [
+          "Übrige Schweiz",
+          -13
+        ],
+        [
+          "Ausland",
+          386
+        ],
+        [
+          "Unbekannt",
+          -142
+        ],
+        [
+          "Total",
+          67
+        ]
+      ],
+      "name": "2023",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {

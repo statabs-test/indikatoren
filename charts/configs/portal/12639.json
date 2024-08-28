@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#b375ab",
+      "color": "#FABD24",
       "data": [
         [
           "2017",
@@ -36,7 +36,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#FF8028",
       "data": [
         [
           "2017",
@@ -71,7 +71,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
       "data": [
         [
           "2017",
@@ -106,7 +106,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999",
+      "color": "#689199",
       "data": [
         [
           "2017",
@@ -141,8 +141,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#cd9c00",
-      "visible": true,
+      "color": "#9E7C59",
       "data": [
         [
           "2017",

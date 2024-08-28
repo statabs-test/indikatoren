@@ -3310,7 +3310,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12614,
-		"chart-id": 8050,
+		"chart-id": 12614,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3348,7 +3348,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12615,
-		"chart-id": 8051,
+		"chart-id": 12615,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3386,7 +3386,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12616,
-		"chart-id": 8052,
+		"chart-id": 12616,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3424,13 +3424,13 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12617,
-		"chart-id": 8053,
+		"chart-id": 12617,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Haushalte nach Art des Haushalts",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Der Anteil Familienhaushalte ist 2023 im Bezirk Friedmatt mit 56% am grössten. In den Bezirken Pestalozzi und Landskron liegt der Anteil Einpersonenhaushalte jeweils knapp über 50%.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe «Andere Haushalte» umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3538,7 +3538,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12620,
-		"chart-id": 8056,
+		"chart-id": 12620,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3576,12 +3576,12 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12621,
-		"chart-id": 8057,
+		"chart-id": 12621,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "in Franken, Wohnviertel St. Johann",
 		"lesehilfe": "Kommentar folgt dann….",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
@@ -3590,7 +3590,7 @@ var indikatoren = [
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Bezirk"
 		],
 		"description": "Mittelwert und Median des Reineinkommens",
 		"thema": "18 Öffentliche Finanzen",
@@ -3614,13 +3614,13 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12622,
-		"chart-id": 8058,
+		"chart-id": 12622,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
-		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "in Franken, Wohnviertel St. Johann",
+		"lesehilfe": "folgt…",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -3628,7 +3628,7 @@ var indikatoren = [
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Bezirk"
 		],
 		"description": "Mittelwert und Median des Reinvermögens",
 		"thema": "18 Öffentliche Finanzen",
@@ -3652,13 +3652,13 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12623,
-		"chart-id": 8059,
+		"chart-id": 12623,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Steuerertrag durch Zu- und Wegzüger",
-		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "in Franken, Wohnviertel St. Johann",
+		"lesehilfe": "folgt…",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -3666,7 +3666,7 @@ var indikatoren = [
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Bezirk"
 		],
 		"description": "Steuerertrag durch Zu- und Wegzüger",
 		"thema": "18 Öffentliche Finanzen",
@@ -3771,7 +3771,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann",
 		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann ist niedriger als im kantonalen Durchschnitt. Jedoch sind die Unterschiede zwischen den einzelnen Wohnbezirken beträchtlich. Im Wohnbezirk Kannenfeld liegt sie mit 42,7 m² leicht über dem kantonalen Durchschnitt. Am niedrigsten ist sie mit 34,3 m² im Wohnbezirk Landskron.",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
 		"quellenangabe": [
@@ -3842,7 +3842,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12628,
-		"chart-id": 8064,
+		"chart-id": 12628,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -3880,14 +3880,14 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12629,
-		"chart-id": 8065,
+		"chart-id": 12629,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Werte von 2011 und 2012 beruhen auf der jährlichen Fortschreibung der Volkszählung 2000. Ab 2013 stammen die Daten aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Das Wohnviertel St.Johann ist sehr heterogen. Insgesamt liegt der Einfamilienhausanteil unter dem städtischen Durchschnitt. Aber im Wohnbezirk Friedmmattviertel liegt er weit daüber. Dagegen ist er in den Wohnbezirken Pestalozzi, Kannenfeld und Lysbüchel sehr niedrig.",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Daten stamme aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -3918,13 +3918,13 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12630,
-		"chart-id": 8066,
+		"chart-id": 12630,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Umgebaute Wohnungen",
-		"subtitle": "nach Art des Umbaus, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "nach Art des Umbaus, Wohnviertel St. Johann",
+		"lesehilfe": "Im Wohnviertel St. Johann war der Umbausaldo meist positiv. Insbesondere Umnutzungen gewerbliche genutzter Objekte in Wohnungen und Ausbauten trugen hauptsächlich dazu bei.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -3956,13 +3956,13 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12631,
-		"chart-id": 8067,
+		"chart-id": 12631,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2010, 2018, 2021 und 2022 massgeblich von grossen Neubauprojekten beeinflusst. 2023 enstand aus einem Lagergebäude ein Wohngebäude mit 64 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -3994,13 +3994,13 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12632,
-		"chart-id": 8068,
+		"chart-id": 12632,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Genossenschaftswohnungen",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am gesamten Wohnungsbestand hat sich 2021 im Wohnviertel St. Johann stark erhöht und liegt derzeit nahe beim kantonalen Durchschnitt. Das Wohnviertel ist sehr heterogen. Der Schwerpunkt des genossenschaftlichen Wohnungsbau liegt im Wohnbezirk Friedmattviertel mit einem Anteil von 30%. Der Wohnbezirk Landskron dagegen weist keine Genossenschaftswohnungen auf.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -4008,7 +4008,7 @@ var indikatoren = [
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Bezirk"
 		],
 		"description": "Genossenschaftswohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -4032,7 +4032,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12633,
-		"chart-id": 8069,
+		"chart-id": 12633,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4070,7 +4070,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12634,
-		"chart-id": 8070,
+		"chart-id": 12634,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4108,7 +4108,7 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 12635,
-		"chart-id": 8071,
+		"chart-id": 12635,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4146,13 +4146,13 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12636,
-		"chart-id": 8072,
+		"chart-id": 12636,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Die Nettoerwerbstätigenquote im Wohnviertel St. Johann betrug im Durchschnitt der Jahre 2018 bis 2022 .",
+		"lesehilfe": "Die Nettoerwerbstätigenquote im Wohnviertel St. Johann betrug im Durchschnitt der Jahre 2018 bis 2022 71,5%.",
 		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -4185,7 +4185,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12637,
-		"chart-id": 8073,
+		"chart-id": 12637,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4223,7 +4223,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12638,
-		"chart-id": 8074,
+		"chart-id": 12638,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4376,7 +4376,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12642,
-		"chart-id": 8078,
+		"chart-id": 12642,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4414,7 +4414,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12643,
-		"chart-id": 8079,
+		"chart-id": 12643,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4647,7 +4647,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 12650,
-		"chart-id": 8087,
+		"chart-id": 12650,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4686,7 +4686,7 @@ var indikatoren = [
 	{
 		"template": "mappie001",
 		"data-id": 12651,
-		"chart-id": 7707,
+		"chart-id": 12651,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4725,7 +4725,7 @@ var indikatoren = [
 	{
 		"template": "mappie001",
 		"data-id": 12652,
-		"chart-id": 7708,
+		"chart-id": 12652,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4915,8 +4915,8 @@ var indikatoren = [
 	},
 	{
 		"template": "populationPyramid001",
-		"data-id": 12659,
-		"chart-id": 8614,
+		"data-id": 12611,
+		"chart-id": 12659,
 		"filter": "",
 		"parentId": null,
 		"children": [],
@@ -4953,7 +4953,7 @@ var indikatoren = [
 	},
 	{
 		"template": "populationPyramid001",
-		"data-id": 12719,
+		"data-id": 12611,
 		"chart-id": 12719,
 		"filter": "",
 		"parentId": null,
@@ -4991,7 +4991,7 @@ var indikatoren = [
 	},
 	{
 		"template": "populationPyramid001",
-		"data-id": 12720,
+		"data-id": 12611,
 		"chart-id": 12720,
 		"filter": "",
 		"parentId": null,
@@ -5029,7 +5029,7 @@ var indikatoren = [
 	},
 	{
 		"template": "populationPyramid001",
-		"data-id": 12721,
+		"data-id": 12611,
 		"chart-id": 12721,
 		"filter": "",
 		"parentId": null,

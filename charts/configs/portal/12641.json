@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#9E7C59",
       "data": [
         [
           2014,
@@ -47,7 +47,7 @@
       "name": "Pestalozzi"
     },
     {
-      "color": "#689199",
+      "color": "#FF8028",
       "data": [
         [
           2014,
@@ -93,7 +93,7 @@
       "name": "Lysbüchel"
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
       "data": [
         [
           2014,
@@ -139,7 +139,7 @@
       "name": "Landskron"
     },
     {
-      "color": "#999",
+      "color": "#689199",
       "data": [
         [
           2014,
@@ -185,8 +185,7 @@
       "name": "Kannenfeld"
     },
     {
-      "color": "#b375ab",
-      "visible": true,
+      "color": "#FABD24",
       "data": [
         [
           2014,

@@ -19,22 +19,21 @@
       }
     },
     "series": [
-      {
-        "color": "#cd9c00"
-      },
-      {
-        "color": "#689199"
-      },
-      {
-        "color": "#662673"
-      },
-      {
-        "color": "#999"
-      },
-      {
-        "color": "#b375ab",
-        visible: true,
-      },
+      { 
+        "color": "#FABD24" /* "#b375ab" Friedmatt*/   
+        },
+        {
+          "color": "#FF8028" /* "#689199" Kannenfeld*/
+        },
+        {
+          "color": "#923F8D" /* "#662673" Landskron*/
+        },
+        {
+          "color": "#689199" /* "#999" Lysbüchel*/
+        },
+        {
+          "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/
+  }
     ],
     "legend": {
       "enabled": true,
@@ -46,7 +45,10 @@
       //"y": 55,    
       "itemStyle": {
         "fontWeight": "normal"
-      }
+      },
+      labelFormatter: function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      },
     },
     tooltip: {
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>',
@@ -54,7 +56,15 @@
     },
     "chart": {
       "type": "column",
-      "spacingBottom": 40
+      "spacingBottom": 40,
+      events: {
+        load: function() {
+            // `this` refers to the chart instance
+            this.series[0].update({
+                name: "Friedmatt"
+            });
+        }
+    }
     }
   }
 }());

@@ -241,7 +241,7 @@
     },
     "marginRight": 15,
     "marginBottom": 70,
-    "renderTo": "container-12659"
+    "renderTo": "container-12720"
   },
   "plotOptions": {
     "bar": {
@@ -275,7 +275,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnbezirk Kannenfeld, 2023",
+    "text": "Wohnbezirk Lysbüchel, 0",
     "align": "left"
   },
   "yAxis": [
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.6.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.8.2024"
   },
   "legend": {
     "symbolRadius": 0,
@@ -365,6 +365,6 @@
         	}
   },
   "exporting": {
-    "filename": "12659"
+    "filename": "12720"
   }
 }

@@ -5,21 +5,222 @@
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 0
+      "legendIndex": 0,
+      "data": [
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          166
+        ],
+        [
+          2011,
+          10
+        ],
+        [
+          2012,
+          4
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          3
+        ],
+        [
+          2016,
+          6
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          70
+        ],
+        [
+          2019,
+          32
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          214
+        ],
+        [
+          2022,
+          144
+        ],
+        [
+          2023,
+          15
+        ]
+      ],
+      "name": "Neubau"
     },
     {
       "color": "#a8c4cb",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 1
+      "legendIndex": 1,
+      "data": [
+        [
+          2008,
+          9
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          -4
+        ],
+        [
+          2011,
+          -2
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          -4
+        ],
+        [
+          2015,
+          -3
+        ],
+        [
+          2016,
+          -7
+        ],
+        [
+          2017,
+          -1
+        ],
+        [
+          2018,
+          -4
+        ],
+        [
+          2019,
+          -16
+        ],
+        [
+          2020,
+          -1
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          -15
+        ],
+        [
+          2023,
+          -6
+        ]
+      ],
+      "name": "Abbruch"
     },
     {
       "color": "#fabd24",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 2
+      "legendIndex": 2,
+      "data": [
+        [
+          2008,
+          -13
+        ],
+        [
+          2009,
+          -23
+        ],
+        [
+          2010,
+          11
+        ],
+        [
+          2011,
+          2
+        ],
+        [
+          2012,
+          -23
+        ],
+        [
+          2013,
+          27
+        ],
+        [
+          2014,
+          3
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          4
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          -3
+        ],
+        [
+          2019,
+          -2
+        ],
+        [
+          2020,
+          20
+        ],
+        [
+          2021,
+          5
+        ],
+        [
+          2022,
+          14
+        ],
+        [
+          2023,
+          73
+        ]
+      ],
+      "name": "Umbausaldo"
     },
     {
       "color": "#000000",
@@ -28,10 +229,77 @@
       "marker": {
         "enabled": false
       },
-      "legendIndex": 4,
+      "legendIndex": 3,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      }
+      },
+      "data": [
+        [
+          2008,
+          -4
+        ],
+        [
+          2009,
+          -23
+        ],
+        [
+          2010,
+          173
+        ],
+        [
+          2011,
+          10
+        ],
+        [
+          2012,
+          -19
+        ],
+        [
+          2013,
+          27
+        ],
+        [
+          2014,
+          -1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          3
+        ],
+        [
+          2017,
+          -1
+        ],
+        [
+          2018,
+          63
+        ],
+        [
+          2019,
+          14
+        ],
+        [
+          2020,
+          20
+        ],
+        [
+          2021,
+          219
+        ],
+        [
+          2022,
+          143
+        ],
+        [
+          2023,
+          82
+        ]
+      ],
+      "name": "Nettowohnungsproduktion"
     }
   ],
   "chart": {
@@ -93,7 +361,7 @@
     "text": "Nettowohnungsproduktion"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -116,7 +384,14 @@
         "color": "#000000"
       }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -132,13 +407,17 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 10,
+    "tickInterval": 100,
+    "min": -100,
+    "max": 600,
     "plotLines": [
       {
         "value": 0,
         "color": "#B6CFD7",
+        "width": 2,
         "zIndex": 0
       }
     ]
