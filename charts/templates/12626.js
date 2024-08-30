@@ -49,7 +49,10 @@
       "align": "left",
       "itemStyle": {
         "fontWeight": "normal"
-      }
+      },
+      labelFormatter: function() {
+        return this.name.split("Wohnviertel ").slice(-1).toString(); 
+    }
     },
     "plotOptions": {
       "line": {
@@ -59,6 +62,29 @@
           "symbol": "circle",
         }
       }
-    }
+    },
+    chart: {
+      events: {
+          load: function() {
+              // `this` refers to the chart instance
+              this.series[5].update({
+                  name: "Bezirk Friedmatt"
+              });
+    
+              this.credits.element.onclick = function () { };
+     
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }
+            }
+          },
+          }
   }
 }());

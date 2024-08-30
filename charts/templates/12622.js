@@ -18,35 +18,35 @@
       },
       {
         "color": "#FABD24", /* "#b375ab" Friedmatt*/ 
-        dashStyle: "Dash",
+        dashStyle: "ShortDash",
       },
       {
         "color": "#FF8028" /* "#689199" Kannenfeld*/
       },
       {
         "color": "#FF8028", /* "#689199" Kannenfeld*/
-        dashStyle: "Dash",
+        dashStyle: "ShortDash",
       },
       {
         "color": "#923F8D" /* "#662673" Landskron*/
       },
       {
         "color": "#923F8D", /* "#662673" Landskron*/
-        dashStyle: "Dash",
+        dashStyle: "ShortDash",
       },
       {
         "color": "#689199" /* "#999" Lysbüchel*/
       },
       {
         "color": "#689199", /* "#999" Lysbüchel*/
-        dashStyle: "Dash",
+        dashStyle: "ShortDash",
       },
       {
         "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/
       },
       {
         "color": "#9E7C59", /*"#cd9c00" Pestalozzi*/
-        dashStyle: "Dash",
+        dashStyle: "ShortDash",
       },
     ],
     chart: {

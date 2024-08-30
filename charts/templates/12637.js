@@ -23,7 +23,7 @@
                 + this.series[7].name.split(" ").slice(0, 1).toString() //Arbeiten
                 + ':<br>'
             })
-            .translate(-65,8); //move -x to the left and +y down
+            .translate(-65,57); //move -x to the left and +y down
         }
       }
     },
@@ -106,7 +106,7 @@
       "itemMarginBottom": 4,
       "align": "left",
       x: 130,
-      y: -20,
+      y: -60,
       //itemWidth: 100,
       //itemDistance: 4,
       //width: 300,
@@ -115,7 +115,7 @@
         whiteSpace: "nowrap"
       },
       title: {
-        text: '<br>', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
+        text: '-<br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
         style: {
           fontWeight: 'normal',
           lineHeight: 17
@@ -129,10 +129,10 @@
       "series": {
         pointPadding: 0,
         groupPadding: 0.15,
-        borderWidth: 0
-      },
+        borderWidth: 0,
         showInNavigator: true
-    },
+      },
+        },
     subtitle: {
       useHTML: true
     },

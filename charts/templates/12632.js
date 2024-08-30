@@ -113,9 +113,9 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemMarginBottom": 4,
+      "itemMarginBottom": 5,
       x: 110,
-      y: -123,
+      y: -120,
       itemWidth: 80,
       width: 200,
       itemStyle: {
@@ -258,7 +258,7 @@
         pointRange: null
       },
       xAxis: {
-        max: 2023,
+        max: 2023.1,
         // tickInterval: 1,
         tickPositioner: function () {
           //use only every nth tick, starting with startingPoint
