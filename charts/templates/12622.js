@@ -58,10 +58,10 @@
           var rightTitle = chart.series[1].name.split(" ").slice(0, 1).toString();
 
           // Add and move legend titles
-          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX +0, chart.legend.group.translateY +5)
+          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX +7, chart.legend.group.translateY +5)
              // .css({ fontWeight: 'bold' })
               .add();
-          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 200, chart.legend.group.translateY +5)
+          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY +5)
               //.css({ fontWeight: 'bold' })
               .add();
       //}

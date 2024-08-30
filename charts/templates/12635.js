@@ -10,6 +10,17 @@
           });
 
           this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
         }
       }
     },
@@ -25,9 +36,14 @@
     },
     "legend": {
       "enabled": true,
+      "layout": "horizontal",
       "verticalAlign": "top",
+      "itemMarginBottom": 5,
       "align": "left",
-      x:25
+      "itemStyle": {
+        "fontWeight": "normal"
+      },
+      //x:25
     },
     "series": [
       { 

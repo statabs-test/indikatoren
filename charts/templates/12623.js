@@ -47,7 +47,7 @@
                 + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65,90); //move -x to the left and +y down
+            .translate(-65,93); //move -x to the left and +y down
 
             // rename Friedmatt
         this.series[0].update({
@@ -247,7 +247,7 @@
       "itemMarginBottom": 5,
       "align": "left",
       x: 130,
-      y: -20,
+      y: -100,
       itemWidth: 115,
       itemDistance: 3,
       width: 400,

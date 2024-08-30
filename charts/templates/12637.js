@@ -23,7 +23,7 @@
                 + this.series[7].name.split(" ").slice(0, 1).toString() //Arbeiten
                 + ':<br>'
             })
-            .translate(-65,57); //move -x to the left and +y down
+            .translate(-65,55); //move -x to the left and +y down
         }
       }
     },

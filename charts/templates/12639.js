@@ -38,7 +38,8 @@
       "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/
     },
   {
-    "color": "#3c3c3c",
+    "color": "#999", // Stadt Basel
+    "dashStyle": "ShortDash",
     visible: true,
   }
 ],

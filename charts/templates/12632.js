@@ -136,7 +136,7 @@
     "series": [
       {
         //"color": "#D7E8D2",
-        "color": "#3c3c3c",
+        "color": "#3c3c3c", // St. Johann
         "index": 0,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>' }

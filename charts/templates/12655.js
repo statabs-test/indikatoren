@@ -38,7 +38,7 @@
   "itemStyle": {
     "fontWeight": "normal"
   },
-  x:30
+  //x:30
 },
 "plotOptions": {
   "line": {
