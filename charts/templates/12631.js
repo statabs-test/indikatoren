@@ -9,7 +9,7 @@
       }
     },
     "yAxis": {
-      "tickInterval": 100,
+      "tickInterval": 50,
      // "min": -100,
      // "max": 600,
       "labels": {
@@ -50,7 +50,7 @@
         legendIndex: 0
       },
       {
-        "color": "#a8c4cb",
+        "color": "#83522E",
         "index": 0,
         "type": "column",
         "pointWidth": "15",
