@@ -623,7 +623,7 @@
           510
         ]
       ],
-      "name": "Anzahl Genossenschaftswohnungen Friedmattviertel"
+      "name": "Anzahl Genossenschaftswohnungen Friedmatt"
     },
     {
       "color": "#FABD24",
@@ -682,7 +682,7 @@
           29.9
         ]
       ],
-      "name": "Anteil am Bestand Friedmattviertel (rechte Skala)"
+      "name": "Anteil am Bestand Friedmatt (rechte Skala)"
     }
   ],
   "chart": {
@@ -829,9 +829,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemMarginBottom": 4,
+    "itemMarginBottom": 5,
     "x": 110,
-    "y": -123,
+    "y": -120,
     "itemWidth": 80,
     "width": 200,
     "labelFormatter": function () {
@@ -874,7 +874,7 @@
       "pointRange": null
     },
     "xAxis": {
-      "max": 2023,
+      "max": 2023.1,
       "tickPositioner": function () {
           //use only every nth tick, starting with startingPoint
           const startingPoint = 1,

@@ -520,7 +520,7 @@
                 + this.series[7].name.split(" ").slice(0, 1).toString() //Arbeiten
                 + ':<br>'
             })
-            .translate(-65,8); //move -x to the left and +y down
+            .translate(-65,55); //move -x to the left and +y down
         }
     },
     "renderTo": "container-12637"
@@ -532,9 +532,9 @@
       },
       "pointPadding": 0,
       "groupPadding": 0.15,
-      "borderWidth": 0
-    },
-    "showInNavigator": true
+      "borderWidth": 0,
+      "showInNavigator": true
+    }
   },
   "title": {
     "align": "left",
@@ -586,10 +586,10 @@
       "whiteSpace": "nowrap"
     },
     "itemMarginBottom": 4,
-    "x": 130,
-    "y": -20,
+    "x": 120,
+    "y": -60,
     "title": {
-      "text": "\u003Cbr\u003E",
+      "text": "-\u003Cbr\u003E\u003Cbr\u003E-",
       "style": {
         "fontWeight": "normal",
         "lineHeight": 17
@@ -661,6 +661,7 @@
       "pointRange": null
     },
     "xAxis": {
+      "tickInterval": 1,
       "labels": {
         "step": 1,
         "rotation": 0,

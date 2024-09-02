@@ -411,8 +411,6 @@
       "format": "{value:,.0f}"
     },
     "tickInterval": 100,
-    "min": -100,
-    "max": 600,
     "plotLines": [
       {
         "value": 0,

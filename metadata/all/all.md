@@ -2404,16 +2404,19 @@ id | visible | visibleInPortal | indikatorenset
 12644 | true | true | Stadtteilmonitoring St. Johann
 12645 | true | true | Stadtteilmonitoring St. Johann
 12646 | true | true | Stadtteilmonitoring St. Johann
+12647 | false |  | Stadtteilmonitoring St. Johann
 12648 | true | true | Stadtteilmonitoring St. Johann
 12649 | true | true | Stadtteilmonitoring St. Johann
 12650 | true | true | Stadtteilmonitoring St. Johann
 12651 | true | true | Stadtteilmonitoring St. Johann
 12652 | true | true | Stadtteilmonitoring St. Johann
 12653 | true | true | Stadtteilmonitoring St. Johann
+12654 | false |  | Stadtteilmonitoring St. Johann
 12655 | true | true | Stadtteilmonitoring St. Johann
 12656 | true | true | Stadtteilmonitoring St. Johann
 12657 | true | true | Stadtteilmonitoring St. Johann
 12659 | true | true | Stadtteilmonitoring St. Johann
+12660 | false |  | Stadtteilmonitoring St. Johann
 12719 | true | true | Stadtteilmonitoring St. Johann
 12720 | true | true | Stadtteilmonitoring St. Johann
 12721 | true | true | Stadtteilmonitoring St. Johann

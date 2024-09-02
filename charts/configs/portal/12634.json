@@ -1,15 +1,171 @@
 {
   "series": [
     {
-      "color": "#A8C3CA"
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Pharmazeutische Industrie",
+          8103
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2400
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1852
+        ],
+        [
+          "Gastronomie",
+          765
+        ],
+        [
+          "Gesundheitswesen",
+          2070
+        ],
+        [
+          "Lagerei",
+          1557
+        ],
+        [
+          "Nahrungsmittel, Tabak",
+          1619
+        ],
+        [
+          "Heime",
+          1213
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          1084
+        ],
+        [
+          "Sonstige Produktion",
+          1025
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
     },
     {
-      "color": "#689199"
+      "color": "#689199",
+      "data": [
+        [
+          "Pharmazeutische Industrie",
+          8025
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2514
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1981
+        ],
+        [
+          "Gastronomie",
+          1471
+        ],
+        [
+          "Gesundheitswesen",
+          2126
+        ],
+        [
+          "Lagerei",
+          1537
+        ],
+        [
+          "Nahrungsmittel, Tabak",
+          1429
+        ],
+        [
+          "Heime",
+          1204
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          1138
+        ],
+        [
+          "Sonstige Produktion",
+          1053
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
     },
     {
-      "color": "#246370"
+      "color": "#246370",
+      "data": [
+        [
+          "Pharmazeutische Industrie",
+          7883
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2742
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          2313
+        ],
+        [
+          "Gastronomie",
+          2306
+        ],
+        [
+          "Gesundheitswesen",
+          2146
+        ],
+        [
+          "Lagerei",
+          1692
+        ],
+        [
+          "Nahrungsmittel, Tabak",
+          1383
+        ],
+        [
+          "Heime",
+          1268
+        ],
+        [
+          "Sozialwesen (ohne Heime)",
+          1232
+        ],
+        [
+          "Sonstige Produktion",
+          985
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -180,
+      "formatter": function() {
+            return this.value.replace("/", "<br/>")
+            .replace("Unternehmensverwaltung und -führung, Unternehmensberatung", "Unternehmensverwaltung und<br/>-führung, Unternehmensberatung")
+        }
+    }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -70,30 +226,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "align": "left",
-      "x": -180,
-      "formatter": function() {
-            return this.value.replace("/", "<br/>")
-            .replace("Unternehmensverwaltung und -führung, Unternehmensberatung", "Unternehmensverwaltung und<br/>-führung, Unternehmensberatung")
-        }
-    },
-    "type": "category"
   },
   "yAxis": {
     "min": 0,

@@ -2,12 +2,28 @@
   "series": [
     {
       "index": 0,
-      "color": "#DC440E",
+      "color": "#246370",
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
           }
-      }
+      },
+      "data": [
+        [
+          "1990",
+          0.69011
+        ],
+        [
+          "2000",
+          0.72723
+        ],
+        [
+          "2018-2022",
+          0.72296
+        ]
+      ],
+      "name": "St. Johann",
+      "turboThreshold": 0
     },
     {
       "index": 1,
@@ -16,7 +32,26 @@
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
-      }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2000",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2018-2022",
+          "low": 0.69369,
+          "high": 0.75223
+        }
+      ],
+      "name": "St. Johann 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
     },
     {
       "index": 2,
@@ -25,7 +60,23 @@
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
           }
-      }
+      },
+      "data": [
+        [
+          "1990",
+          0.6313
+        ],
+        [
+          "2000",
+          0.72436
+        ],
+        [
+          "2018-2022",
+          0.74009
+        ]
+      ],
+      "name": "Basel",
+      "turboThreshold": 0
     },
     {
       "index": 3,
@@ -34,9 +85,46 @@
         "pointFormatter": function () {
             return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
           }
-      }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2000",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2018-2022",
+          "low": 0.73058,
+          "high": 0.7496
+        }
+      ],
+      "name": "Basel 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -94,24 +182,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "type": "category"
   },
   "yAxis": {
     "min": 0,

@@ -176,7 +176,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#3c3c3c",
+      "color": "#999",
+      "dashStyle": "ShortDash",
       "visible": true,
       "data": [
         [
@@ -330,7 +331,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "x": 35
   },
   "credits": {
     "enabled": true,
