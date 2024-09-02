@@ -105,7 +105,7 @@
       "verticalAlign": "top",
       "itemMarginBottom": 4,
       "align": "left",
-      x: 130,
+      x: 120,
       y: -60,
       //itemWidth: 100,
       //itemDistance: 4,
