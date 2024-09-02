@@ -2366,3 +2366,9 @@ id | visible | visibleInPortal | indikatorenset
 12564 | true | true | Richtplan
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
+12611 | true | true | Stadtteilmonitoring St. Johann
+12659 | true | true | Stadtteilmonitoring St. Johann
+12668 | true | true | 
+12719 | true | true | Stadtteilmonitoring St. Johann
+12720 | true | true | Stadtteilmonitoring St. Johann
+12721 | true | true | Stadtteilmonitoring St. Johann

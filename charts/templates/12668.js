@@ -7,6 +7,10 @@
 			pie: {
 				dataLabels: {
 					enabled: true, //sets datalabels to true via mappie001_print (BL, 17.02.2020)
+					color: '#ffffff',
+					style: {
+						fontWeight: 'normal'
+					}
 				}
 			}
 		},
@@ -18,7 +22,12 @@
 			dataClasses: [{
 				from: 0,
 				to: 1,
-				color: '#aaa',
+				color: '#7bb589',
+			},
+			{
+				from: 2,
+				to: 3,
+				color: '#63a975',
 			}],
 		},
 		"data": {
@@ -43,14 +52,14 @@
 				"states": {
 					"hover": {
 						"enabled": true,
-						color: '#ddecde',
-						"borderColor": '#2a9749',
+						color: '#2a9749',
+						"borderColor": '#ddecde',
 					}
 				},
 				tooltip: {
 					headerFormat: undefined,
 					pointFormatter: function () {
-						return this.Wohnviertel_Id +': <b>'+ this.properties.LIBGEO + '</b>';
+						return this.Wohnviertel_Id + ': <b>' + this.properties.LIBGEO + '</b>';
 					}
 				}
 			},
@@ -58,7 +67,27 @@
 				"visible": false
 			}
 		],
+		responsive: {
+			rules: [{
+				condition: {
+					maxWidth: 796 /* webbs iframe breakpoint 1 */
+				},
+				chartOptions: {
+					chart: {
+						height: 680,
+						marginLeft: 0,
+						marginBottom: 300,
+					},
+					legend: {
+						enabled: false
+					}
+				}
+			}]
+		},
 		chart: {
+			"width": undefined,
+			"height": 415,
+			marginLeft: -300,
 			events: {
 				load: function (e) {
 
@@ -102,7 +131,7 @@
 							tooltip: {
 								headerFormat: undefined,
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.Wohnviertel_Id + ': <b>' + correspondingMapSeriesItem.properties.LIBGEO + '</b>';
+									return correspondingMapSeriesItem.TXT + ': <b>' + correspondingMapSeriesItem.properties.LIBGEO + '</b>';
 								}
 							},
 							"states": {
@@ -117,16 +146,28 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//console.log(choroplethSeries);
+					var xbase = chart.chartWidth - 200;
+					var ybase = 10;
 					var yoff = 0;
-					var xoff = 0
-					fn.addLegendLabel(chart, "<b>Stadt Basel</b>", 800, 10, undefined, false, 'right');
+					var xoff = 0;
+					if (chart.chartHeight > 500) {
+						xbase = 20;
+						ybase = 410;
+					}
+					fn.addLegendLabel(chart, "<b>Stadt Basel</b>", xbase, ybase, undefined, false, 'left');
 					for (let i = 0; i < pieSizeSeries.data.length; i++) {
-						if (choroplethSeries.data[i].Wohnviertel_Id < 10) var xoff=8; else var xoff = 0;
-						if (choroplethSeries.data[i].Wohnviertel_Id == 20) {
-							fn.addLegendLabel(chart, "<b>Gemeinden</b>", 800+xoff, 30 + i * 20 + 5, undefined, false, 'right');
-							yoff=25; 
+						if (pieSizeSeries.data[i].Wohnviertel_Id < 10) xoff = 8; else xoff = 0;
+						if (chart.chartHeight > 500 && pieSizeSeries.data[i].Wohnviertel_Id == 13) {
+							ybase = ybase - 12 * 16;
+							xbase = 200;
 						}
-						fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id.toString() + ': ' + pieSizeSeries.data[i].options["hc-key"], 800+xoff, 30 + i * 20 + yoff, undefined, false, 'right');
+						if (pieSizeSeries.data[i].Wohnviertel_Id == 20) {
+							fn.addLegendLabel(chart, "<b>Gemeinden</b>", xbase + xoff, ybase + 20 + i * 16 + 5, undefined, false, 'left');
+							yoff = 25;
+						}
+						//console.log(pieSizeSeries.data[i]);
+						fn.addLegendLabel(chart, pieSizeSeries.data[i].Wohnviertel_Id + ': ' + pieSizeSeries.data[i].properties.LIBGEO,
+							xbase + xoff, ybase + 20 + i * 16 + yoff, undefined, false, 'left');
 					}
 
 					/*

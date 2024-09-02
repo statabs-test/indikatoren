@@ -2067,5 +2067,11 @@ var templatesById = {
 	"12561": "template001",
 	"12564": "template001",
 	"12565": "befragungen001",
-	"12602": "template001"
+	"12602": "template001",
+	"12611": "populationPyramid001",
+	"12659": "populationPyramid001",
+	"12668": "mappie001",
+	"12719": "populationPyramid001",
+	"12720": "populationPyramid001",
+	"12721": "populationPyramid001"
 };

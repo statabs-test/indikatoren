@@ -286,6 +286,52 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Cspan style=\"color:transparent\"\u003E●\u003C\u002Fspan\u003E Total Kronenbedeckung: \u003Cb\u003E{point.stackTotal:,.2f}%\u003C\u002Fb\u003E",
     "shared": false
   },
+  "annotations": [
+    {
+      "draggable": "",
+      "labelOptions": {
+        "shape": "connector",
+        "align": "right",
+        "justify": false,
+        "crop": true,
+        "x": 100,
+        "y": -60,
+        "borderColor": "#672773",
+        "style": {
+          "fontFamily": "Helvetica",
+          "fontSize": "10px",
+          "color": "#672773"
+        }
+      },
+      "labels": [
+        {
+          "point": {
+            "xAxis": 0,
+            "yAxis": 0,
+            "x": 0.8,
+            "y": 25.4
+          },
+          "style": {
+            "fontFamily": "Helvetica",
+            "fontSize": "10px",
+            "color": "#672773",
+            "width": "200px"
+          },
+          "text": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) \u003Cb\u003E25,4%\u003C\u002Fb\u003E der gesamten Kantonsfläche "
+        }
+      ],
+      "animation": {
+        "defer": 100
+      },
+      "events": {
+        "click": function (e) {
+          console.log(this);
+          if (this.options.visible) this.remove();
+          //else this.add();
+        }
+      }
+    }
+  ],
   "exporting": {
     "filename": "11905"
   }
