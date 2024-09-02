@@ -28,6 +28,10 @@
   },
   {
     "color": "#FABD24" /* "#b375ab" Friedmatt*/,
+  },
+  {
+    "color": "#999", /* Stadt Basel */
+    "dashStyle": "ShortDash"
   }
 ],
 "legend": {

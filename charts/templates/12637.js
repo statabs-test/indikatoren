@@ -133,9 +133,6 @@
         showInNavigator: true
       },
         },
-    subtitle: {
-      useHTML: true
-    },
     navigator: {
       enabled: true,
       top: 330,
