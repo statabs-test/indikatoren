@@ -9,7 +9,9 @@
   "xAxis": {
     "type": "category",
     tickInterval: 1,
-    
+    labels: {
+      rotation: -90,
+    }
   },
   "yAxis": {
     "tickInterval":10,

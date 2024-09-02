@@ -2,10 +2,10 @@
   return {
     "plotOptions": {
       "column": {
-        pointPadding: 0,
-        groupPadding: 0,
+       // pointPadding: 0,
+       // groupPadding: 0,
         //borderWidth: 0,
-        pointWidth: 5,
+        //pointWidth: 15,
         stacking: "normal",
         showInNavigator: true
       }
@@ -18,7 +18,7 @@
         load: function () {
           //set xAxis min in navigator
           this.xAxis[0].update({
-            min: 45
+            min: 42
           });
 
           this.credits.element.onclick = function () { };
@@ -39,8 +39,11 @@
     "xAxis": {
       min: 0,
       "type": "category",
-      "tickInterval": 1
-    },
+      "tickInterval": 1,
+      labels: {
+        rotation: -90,
+      }
+       },
     "legend": {
       "enabled": true,
       "layout": "horizontal",
