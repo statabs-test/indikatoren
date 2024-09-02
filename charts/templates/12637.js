@@ -142,7 +142,7 @@
       },
       xAxis: {
         //max: "2022",
-        // tickInterval: 1,
+         tickInterval: 1,
        /* tickPositioner: function () {
           //use only every nth tick, starting with startingPoint
           const startingPoint = 1,
