@@ -75,7 +75,7 @@
       "name": "Neubau"
     },
     {
-      "color": "#a8c4cb",
+      "color": "#83522E",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
@@ -83,7 +83,7 @@
       "data": [
         [
           2008,
-          9
+          -9
         ],
         [
           2009,
@@ -236,7 +236,7 @@
       "data": [
         [
           2008,
-          -4
+          -22
         ],
         [
           2009,
@@ -410,7 +410,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 100,
+    "tickInterval": 50,
     "plotLines": [
       {
         "value": 0,

@@ -3201,7 +3201,7 @@ var indikatoren = [
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
 		"subtitle": "Wohnbezirk Friedmatt, 2023",
 		"lesehilfe": "Im Wohnbezirk Friedmatt des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 49-Jährigen, was bis auf wenige Ausnahmen auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -3315,7 +3315,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Ausländeranteil",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "In den Bezirken Kannenfeld, Friedmatt und Pestalozzi ist in der Ausländeranteil in den letzten Jahren gestiegen. Eine Abnahme des Ausländeranteils zeigt sich in den Bezirken Lysbüchel und Landskron.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"quellenangabe": [
@@ -3354,7 +3354,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländer nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In den Bezirken Pestalozzi und Kannenfeld bildeten in den letzten Jahren jeweils die Deutschen die grösste ausländische Bevölkerungsgruppe. Personen aus den EU-17 + EFTA-Staaten bildeten dies in den Bezirken Lysbüchel und Landskron und im Bezirk Friedmatt waren die Türken die grösste ausländische Bevölkerungsgruppe.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3543,7 +3543,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Religionszugehörigkeit",
-		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: evangelisch-reformiert, römisch-katholisch, christkatholisch, israelitisch.",
 		"quellenangabe": [
@@ -4923,7 +4923,7 @@ var indikatoren = [
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
 		"subtitle": "Wohnbezirk Kannenfeld, 2023",
 		"lesehilfe": "Im Wohnbezirk Kannenfeld des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -4961,7 +4961,7 @@ var indikatoren = [
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
 		"subtitle": "Wohnbezirk Landskron, 2023",
 		"lesehilfe": "Im Wohnbezirk Landskron des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -4976,12 +4976,12 @@ var indikatoren = [
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.02c",
-		"stufe1": "",
+		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_004",
+		"orderKey": "02_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -4999,7 +4999,7 @@ var indikatoren = [
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
 		"subtitle": "Wohnbezirk Lysbüchel, 2023",
 		"lesehilfe": "Im Wohnbezirk Lysbüchel des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -5014,12 +5014,12 @@ var indikatoren = [
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.02d",
-		"stufe1": "",
+		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_005",
+		"orderKey": "02_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -5037,7 +5037,7 @@ var indikatoren = [
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
 		"subtitle": "Wohnbezirk Pestalozzi, 2023",
 		"lesehilfe": "Im Wohnbezirk Pestalozzi des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -5052,12 +5052,12 @@ var indikatoren = [
 		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring St. Johann",
 		"kuerzelKunde": "2.02e",
-		"stufe1": "",
+		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_006",
+		"orderKey": "02_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,

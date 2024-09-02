@@ -3,29 +3,408 @@
     {
       "color": "#71a3b5",
       "index": 6,
-      "legendIndex": 1
+      "legendIndex": 1,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          432
+        ],
+        [
+          "2021: Lysbüchel",
+          137
+        ],
+        [
+          "2021: Landskron",
+          546
+        ],
+        [
+          "2021: Kannenfeld",
+          249
+        ],
+        [
+          "2021: Friedmatt",
+          550
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          390
+        ],
+        [
+          "2022: Lysbüchel",
+          166
+        ],
+        [
+          "2022: Landskron",
+          548
+        ],
+        [
+          "2022: Kannenfeld",
+          244
+        ],
+        [
+          "2022: Friedmatt",
+          532
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          360
+        ],
+        [
+          "2023: Lysbüchel",
+          190
+        ],
+        [
+          "2023: Landskron",
+          511
+        ],
+        [
+          "2023: Kannenfeld",
+          226
+        ],
+        [
+          "2023: Friedmatt",
+          515
+        ]
+      ],
+      "name": "Evangelisch-reformiert",
+      "turboThreshold": 0
     },
     {
       "color": "#672773",
       "index": 5,
-      "legendIndex": 2
+      "legendIndex": 2,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          430
+        ],
+        [
+          "2021: Lysbüchel",
+          180
+        ],
+        [
+          "2021: Landskron",
+          689
+        ],
+        [
+          "2021: Kannenfeld",
+          224
+        ],
+        [
+          "2021: Friedmatt",
+          521
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          431
+        ],
+        [
+          "2022: Lysbüchel",
+          205
+        ],
+        [
+          "2022: Landskron",
+          685
+        ],
+        [
+          "2022: Kannenfeld",
+          213
+        ],
+        [
+          "2022: Friedmatt",
+          521
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          416
+        ],
+        [
+          "2023: Lysbüchel",
+          207
+        ],
+        [
+          "2023: Landskron",
+          637
+        ],
+        [
+          "2023: Kannenfeld",
+          212
+        ],
+        [
+          "2023: Friedmatt",
+          507
+        ]
+      ],
+      "name": "Römisch-katholisch",
+      "turboThreshold": 0
     },
     {
       "color": "#ff8028",
       "index": 4,
-      "legendIndex": 3
+      "legendIndex": 3,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          29
+        ],
+        [
+          "2021: Lysbüchel",
+          9
+        ],
+        [
+          "2021: Landskron",
+          27
+        ],
+        [
+          "2021: Kannenfeld",
+          13
+        ],
+        [
+          "2021: Friedmatt",
+          22
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          29
+        ],
+        [
+          "2022: Lysbüchel",
+          14
+        ],
+        [
+          "2022: Landskron",
+          27
+        ],
+        [
+          "2022: Kannenfeld",
+          13
+        ],
+        [
+          "2022: Friedmatt",
+          27
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          28
+        ],
+        [
+          "2023: Lysbüchel",
+          16
+        ],
+        [
+          "2023: Landskron",
+          37
+        ],
+        [
+          "2023: Kannenfeld",
+          11
+        ],
+        [
+          "2023: Friedmatt",
+          29
+        ]
+      ],
+      "name": "Christkatholisch",
+      "turboThreshold": 0
     },
     {
       "color": "#73ba7c",
       "index": 3,
-      "legendIndex": 4
+      "legendIndex": 4,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          7
+        ],
+        [
+          "2021: Lysbüchel",
+          1
+        ],
+        [
+          "2021: Landskron",
+          6
+        ],
+        [
+          "2021: Kannenfeld",
+          4
+        ],
+        [
+          "2021: Friedmatt",
+          15
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          9
+        ],
+        [
+          "2022: Lysbüchel",
+          1
+        ],
+        [
+          "2022: Landskron",
+          7
+        ],
+        [
+          "2022: Kannenfeld",
+          4
+        ],
+        [
+          "2022: Friedmatt",
+          13
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          9
+        ],
+        [
+          "2023: Lysbüchel",
+          1
+        ],
+        [
+          "2023: Landskron",
+          11
+        ],
+        [
+          "2023: Kannenfeld",
+          3
+        ],
+        [
+          "2023: Friedmatt",
+          11
+        ]
+      ],
+      "name": "Israelitisch",
+      "turboThreshold": 0
     },
     {
       "color": "#E7CEE2",
       "index": 2,
-      "legendIndex": 5
+      "legendIndex": 5,
+      "data": [
+        [
+          "2021: Pestalozzi",
+          2915
+        ],
+        [
+          "2021: Lysbüchel",
+          1781
+        ],
+        [
+          "2021: Landskron",
+          5500
+        ],
+        [
+          "2021: Kannenfeld",
+          1438
+        ],
+        [
+          "2021: Friedmatt",
+          3138
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2022: Pestalozzi",
+          2924
+        ],
+        [
+          "2022: Lysbüchel",
+          2016
+        ],
+        [
+          "2022: Landskron",
+          5606
+        ],
+        [
+          "2022: Kannenfeld",
+          1489
+        ],
+        [
+          "2022: Friedmatt",
+          3206
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          2958
+        ],
+        [
+          "2023: Lysbüchel",
+          2281
+        ],
+        [
+          "2023: Landskron",
+          5561
+        ],
+        [
+          "2023: Kannenfeld",
+          1454
+        ],
+        [
+          "2023: Friedmatt",
+          3288
+        ]
+      ],
+      "name": "Andere, ohne oder unbek. Zugeh.",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -85,31 +464,13 @@
     "text": "Religionszugehörigkeit"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "type": "category",
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
