@@ -10992,7 +10992,7 @@
 		"children": [],
 		"title": "Pflegetage in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2022 betrug im Hauptbereich Akutsomatik 530 307.",
+		"lesehilfe": "Die Anzahl Pflegetage im Jahr  2023 betrug im Hauptbereich Akutsomatik 522 448.",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
@@ -36768,8 +36768,8 @@
 		],
 		"title": "Entwicklung von Krankenkassenprämien und Reineinkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 lag der Index (Basis 2010) der Medianprämien bei 140,2 und jener für den Median des Reinkommens bei 105,9.",
-		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens der Steuerveranlagungen gemäss Steuerstatistik Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2021 lag der Index (Basis 2010) der mittleren Prämien bei 126,6 und jener für den Median des Reinkommens bei 105,9.",
+		"erlaeuterungen": "Mittlere Prämie: Gewichteter Durchschnitt aller Prämien aller Versicherten und Jahr. <br>Median Reineinkommen: Medianwert des Reineinkommens der Steuerveranlagungen gemäss Steuerstatistik Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
 			"Steuerstatistik Basel-Stadt"
